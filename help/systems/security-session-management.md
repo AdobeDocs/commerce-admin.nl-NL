@@ -1,0 +1,131 @@
+---
+title: Sessiebeheer
+description: Leer hoe u sessiebeheer configureert om de beheerder en winkel te beveiligen.
+exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
+role: Admin
+feature: Configuration, Security
+source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 0%
+
+---
+
+# Sessiebeheer
+
+[Sessiebeheer](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is een anti-ontkenning van de dienst (DoS) beste praktijken voor API veiligheid. Een sessie geeft aan hoeveel tijd een bezoeker aan uw site besteedt en heeft geen betrekking op hoe lang Admin-gebruikers of -klanten zijn aangemeld bij hun accounts.
+
+Een sessie is een reeks HTTP-aanvraag- en responstransacties voor het netwerk die aan dezelfde gebruiker zijn gekoppeld. Dit is een manier om een client (Admin) aan de gegevens te koppelen wanneer deze toegang krijgen tot de server. Sessies worden gebruikt om variabelen tot stand te brengen, zoals toegangsrechten en lokalisatie-instellingen, die van toepassing zijn op elke interactie die een gebruiker tijdens de sessie met een webtoepassing heeft.
+
+## Sessieformaat
+
+Gebruik de volgende configuratie-instellingen om de maximale sessiegrootte voor Admin-gebruikers en winkelbezoekers te beperken:
+
+- **[!UICONTROL Max Session Size in Admin]**—Beperk de maximale sessiegrootte in bytes. Gebruiken `0` om uit te schakelen.
+- **[!UICONTROL Max Session Size in Storefront]**—Beperk de maximale sessiegrootte in bytes. Gebruiken `0` om uit te schakelen.
+
+>[!TIP]
+>
+>Beide instellingen worden gemeten in bytes en standaard ingesteld op `256000` bytes (of 256 kB).
+
+**_Maximale sessiegrootte configureren:_**
+
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Vouw in het linkerdeelvenster uit **[!UICONTROL Advanced]** en kiest u **[!UICONTROL System]**.
+
+1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Security]** voor toegang tot de sessie-instellingen.
+
+   ![Sessieinstellingen](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
+
+1. Voer nieuwe sessiegrootten in bytes in.
+
+   >[!WARNING]
+   >
+   >Als u de waarde te laag instelt, kunnen er problemen optreden. Als u een van de opties onder de standaardwaarde van 256000 bytes instelt, wordt een waarschuwingsbericht weergegeven. Als u op **[!UICONTROL No]** wordt de waarde in `256000`.
+
+1. Klik op **[!UICONTROL Save Config]**.
+
+### Admin-sessies
+
+Als u de maximale sessiegrootte overschrijdt, wordt een foutbericht weergegeven en wordt de beperking van de sessiegrootte door het systeem geregistreerd voor de `var/log` directory.
+
+Als u toegang tot Admin verliest nadat het plaatsen van de zittingsgrootte aan laag, gebruik CLI om de configuratie terug te stellen:
+
+```bash
+bin/magento config:set system/security/max_session_size_admin 256000
+```
+
+### Storefront-sessies
+
+Als u de maximale sessiegrootte overschrijdt, wordt geen foutmelding weergegeven, maar wordt de sessiegrootte door het systeem geregistreerd voor de `var/log` directory.
+
+## Sessievalidatie
+
+Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixatie of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
+
+Voor technische informatie, zie [Redis gebruiken voor sessieopslag](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in de _Configuratiegids_.
+
+![Algemene configuratie - de zittingsbevestiging van het Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
+
+De validatie controleert of bezoekers zeggen dat ze dat zijn door de waarde in de validatievariabelen te vergelijken met de sessiegegevens die worden opgeslagen in `$_SESSION` gegevens voor de gebruiker. Validatie mislukt als de informatie niet naar behoren wordt verzonden en de bijbehorende variabele leeg is. Als een sessievariabele het validatieproces mislukt, wordt de clientsessie onmiddellijk beëindigd, afhankelijk van de instellingen voor sessievalidatie.
+
+Het toelaten van alle bevestigingsvariabelen kan aanvallen helpen verhinderen, maar zou ook de prestaties van de server kunnen beïnvloeden. Standaard is alle validatie van sessievariabelen uitgeschakeld. We raden u aan met de instellingen te experimenteren om de beste combinatie te vinden voor de installatie van uw Adobe Commerce of Magento Open Source. Het activeren van alle validatievariabelen kan onnodig beperkend zijn en kan toegang tot klanten verhinderen die de verbindingen van Internet hebben die door een volmachtsserver overgaan of van achter een firewall voortkomen. Raadpleeg de documentatie over systeembeheer voor uw Linux®-systeem voor meer informatie over sessievariabelen en het gebruik ervan.
+
+**_De sessievalidatie configureren:_**
+
+1. Op de _Beheerder_ zijbalk, ga naar  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Vouw in het linkerdeelvenster uit _[!UICONTROL General]_en kiest u **[!UICONTROL Web]**.
+
+1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie.
+
+1. Stel elk van de configuratieopties in:
+
+   - **[!UICONTROL Validate REMOTE_ADDR]** — Instellen op `Yes` om te verifiëren dat het IP adres van een verzoek aanpast wat in wordt opgeslagen `$_SESSION` variabele.
+
+   - **[!UICONTROL Validate HTTP_VIA]** — Instellen op `Yes` om te verifiëren dat het volmachtsadres van een inkomend verzoek aanpast wat in wordt opgeslagen `$_SESSION` variabele.
+
+   - **[!UICONTROL Validate HTTP_X_FORWARDED_FOR]** — Instellen op `Yes` om te verifiëren dat door:sturen-voor adres van een verzoek aanpast wat in wordt opgeslagen `$_SESSION` variabele.
+
+   - **[!UICONTROL Validate HTTP_USER_AGENT]** — Instellen op `Yes` om te controleren of de browser of het apparaat waarmee de winkel tijdens een sessie wordt geopend, overeenkomt met de inhoud in het dialoogvenster `$_SESSION` variabele.
+
+1. Klik op **[!UICONTROL Save Config]**.
+
+## Levensduur beheersessie
+
+Als beveiligingsmaatregel _Beheerder_ wordt ingesteld op time-out na 900 seconden (15 minuten) inactiviteit op het toetsenbord. U kunt de levensduur van de sessie aanpassen aan uw werkstijl.
+
+**_De levensduur van de beheersessie aanpassen:_**
+
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Omlaag schuiven en uitbreiden **[!UICONTROL Advanced]** in het linkerzijpaneel.
+
+1. Klik op **[!UICONTROL Admin]**.
+
+1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Security]_sectie.
+
+1. Voor **[!UICONTROL Admin Session Lifetime (seconds)]**, voert u het aantal seconden in dat een sessie actief blijft voordat deze wordt beëindigd.
+
+   ![Geavanceerde configuratie - Beveiligingsinstellingen voor beheer](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Save Config]**.## Tijdens Admin-sessie
+
+Als beveiligingsmaatregel _Beheerder_ wordt ingesteld op time-out na 900 seconden (15 minuten) inactiviteit op het toetsenbord. U kunt de levensduur van de sessie aanpassen aan uw werkstijl.
+
+**_De levensduur van de beheersessie aanpassen:_**
+
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Omlaag schuiven en uitbreiden **[!UICONTROL Advanced]** in het linkerzijpaneel.
+
+1. Klik op **[!UICONTROL Admin]**.
+
+1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _Beveiliging_ sectie.
+
+1. Voor **[!UICONTROL Admin Session Lifetime (seconds)]**, voert u het aantal seconden in dat een sessie actief blijft voordat deze wordt beëindigd.
+
+   ![Geavanceerde configuratie - Beveiligingsinstellingen voor beheer](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Save Config]**.
