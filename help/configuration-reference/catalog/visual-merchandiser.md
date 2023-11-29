@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] pagina van de Commerce Admin.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Color Attribute Code] | Algemeen | Geeft het kenmerk aan dat wordt gebruikt om producten op kleur te sorteren. Standaardwaarde: `color` |
 | [!UICONTROL Color Order] | Algemeen | Hiermee bepaalt u de sorteervolgorde wanneer producten op kleur worden gesorteerd. Voer elke kleur in een aparte rij in. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

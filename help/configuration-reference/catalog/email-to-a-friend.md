@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] pagina van de Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Max Products Sent in 1  Hour] | Winkelweergave | Beperkt het aantal producten dat door één enkele gebruiker over een periode van één uur kan worden gedeeld. |
 | [!UICONTROL Limit Sending By] | Winkelweergave | Bepaalt de methode die wordt gebruikt om de afzender te identificeren. U kunt onder andere de volgende opties kiezen: <br/>**`IP Address`**- (Aanbevolen) Identificeert de afzender door het IP adres van de computer die wordt gebruikt om de product e-mails te verzenden.<br/>**`Cookie (unsafe)`** - Identificeert de afzender door een browser koekje. Deze methode is niet veilig omdat de gebruiker het cookie kan verwijderen om de beperking te voorkomen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

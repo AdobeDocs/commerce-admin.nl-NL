@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL 2FA] pagina van de Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 | [!UICONTROL Providers to use] | Algemeen | Wijst op de twee-factor authentificatiemethodes die u vereist. Als u meer dan één leverancier selecteert, wordt elke gebruiker vereist om elke methode te vormen 2FA de volgende tijd zij login. |
 | [!UICONTROL Configuration Email URL for Web API] | Algemeen | Voor aangepaste implementaties, de URL voor een alternatieve e-mailconfiguratiekoppeling waarnaar wordt verzonden _Beheerder_ gebruikers bij eerste aanmelding. Gebruik de tijdelijke aanduiding in de e-mailsjabloon `:tfat` om aan te geven waar het token wordt geïnjecteerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | Algemeen | Het leven in seconden van elk eenmalig wachtwoord (OTP) dat door de Authenticator van Google wordt geproduceerd. Standaard: `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 | [!UICONTROL Secret Key] | Algemeen | De geheime sleutel van uw [!DNL Duo Security] account. |
 | [!UICONTROL API Hostname] | Algemeen | De API-hostnaam van uw [!DNL Duo Security] account. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 | [!UICONTROL API Key] | Algemeen | De API-sleutel van uw [!DNL Authy] account. |
 | [!UICONTROL OneTouch Message] | Algemeen | Het bericht dat wordt weergegeven in het dialoogvenster [!DNL Authy] authenticator bij aanmelden. Standaard: `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | Algemeen | Het domein dat wordt gebruikt aan kwestie en proces [!DNL WebAuthn] uitdagingen voor douaneimplementaties WebAPI. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

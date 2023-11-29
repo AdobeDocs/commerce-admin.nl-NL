@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL General] pagina van de Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Zie [Landopties](../../getting-started/store-details.md#country-options) voor me
 | [!UICONTROL European Union Countries] | Algemeen | Landen die lid zijn van de Europese Unie. |
 | [!UICONTROL Top Destinations] | Winkelweergave | De primaire landen die u voor verkoop aanspreekt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ Zie [Statusopties](../../getting-started/store-details.md#state-options) voor me
 | [!UICONTROL State is required for] | Algemeen | De landen (waar u zaken doet) die een regio of een staat vereisen om in het postadres worden omvat. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Algemeen | Voor landen waar dit niet vereist is, bepaalt u of de _Regio/staat_ wordt vermeld in het postadres van de klant.<br /> <br />**`Yes`**- Inclusief de _Regio/staat_ in het adres van de klant, zelfs als dit niet door het land wordt vereist.<br />**`No`** - Laat het gebied/van de Staat van het klantenadres weg als niet vereist door het land. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ Zie [Landinstellingen](../../getting-started/store-details.md#locale-options) vo
 | [!UICONTROL First Day of Week] | Winkelweergave | De dag die wordt beschouwd als de eerste dag van de week op de markt die door de winkelweergave wordt bediend. |
 | [!UICONTROL Weekend Days] | Winkelweergave | De dagen die op het weekend in de markt vallen door de winkelmening worden gediend. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Toegangsbeperk
 | [!UICONTROL HTTP Response] | Website | Hiermee bepaalt u de HTTP-reactie die wordt verzonden wanneer de website wordt gesloten en een verbinding wordt geprobeerd door een bot, crawler of spin.<br /> <br />**`503 Service unavailable`**- De pagina is niet beschikbaar, maar de spin moet de index niet bijwerken.<br />**`200 OK`** - De landingspagina is correct en moet door de spin worden beschouwd als de enige pagina op de site. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Website | Hiermee bepaalt u of de velden op het tabblad _Aanmelden_ en _Wachtwoord vergeten_ formulieren worden automatisch ingevuld van vorige vermeldingen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Opslaggegevens
 | [!UICONTROL VAT Number] | Website | Het btw-nummer van de onderneming die eigenaar is van de installatie van de handel, indien van toepassing. |
 | [!UICONTROL Validate VAT Number] |  | Controleert het BTW-identificatienummer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Single-store, 
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Algemeen | Wanneer toegelaten voor enig-opslaginstallaties, verbergt het vakje van het configuratiebereik en verwante gebiedslabels Opties: `Yes` / `No` <br/>**_Opmerking:_**De modus Eén opslag wordt genegeerd voor winkels met meerdere weergaven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

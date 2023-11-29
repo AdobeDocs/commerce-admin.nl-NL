@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] pagina van de Commerce Admin.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee bepaalt u of de status van onlangs weergegeven producten behouden blijft wanneer de sessie wordt beëindigd. Opties: <br/>**`Yes`**- De status van onlangs bekeken producten wordt opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De status van onlangs bekeken producten wordt niet opgeslagen wanneer de sessie wordt beëindigd. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee wordt bepaald of de status van het groepslidmaatschap en de segmenteringscriteria van de klant behouden blijven wanneer de sessie wordt beëindigd. Opties: <br/>**`Yes`**- De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden niet opgeslagen wanneer de sessie wordt beëindigd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

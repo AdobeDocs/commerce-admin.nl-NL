@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] pagina van de Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Algemeen | Bepaalt het werkingsgebied van klantenrekeningen in de opslaghiërarchie. Opties: <br/>**`Global`**- De gegevens van de klantenrekening worden met elke website gedeeld en in de installatie van de Handel opgeslagen.<br/>**`Per Website`** - De accountgegevens van de klant zijn beperkt tot de website waarop het account is gemaakt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | Algemeen | Hiermee bepaalt u de tijdsduur dat de online activiteiten van een klant toegankelijk zijn via de beheerder. Laat het standaardinterval van 15 minuten leeg. |
 | [!UICONTROL Customer Data Lifetime] | Algemeen | Hiermee bepaalt u het aantal minuten voordat niet-opgeslagen gegevens die de klant heeft ingevoerd, verlopen. Niet-opgeslagen gegevens verlopen standaard na 60 minuten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | Winkelweergave | Identificeert het e-mailmalplaatje dat voor het Welkome bericht wordt gebruikt dat wordt verzonden nadat de rekening wordt bevestigd. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Algemeen | Hiermee bepaalt u of het veld waarin het BTW-identificatienummer wordt ingevoerd en opgeslagen, zichtbaar is vanuit de winkel. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | Algemeen | Hiermee bepaalt u het minimale aantal tekens dat een wachtwoord mag bevatten. Het getal moet groter zijn dan nul (`0`). |
 | [!UICONTROL Lockout Time (minutes)] | Algemeen | Hiermee bepaalt u het aantal minuten dat een klantenaccount is vergrendeld nadat te veel mislukte aanmeldingspogingen zijn uitgevoerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | Winkelweergave | Identificeert het standaard e-mailmalplaatje dat wordt gebruikt wanneer een klant hun e-mailadres verandert. |
 | [!UICONTROL Change Email and Password Template] | Winkelweergave | Identificeert het standaard e-mailmalplaatje dat wordt gebruikt wanneer een klant hun e-mailadres en wachtwoord verandert. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Website | Hiermee bepaalt u of het bedrijf van de klant is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Website | Hiermee bepaalt u of het faxnummer van de klant in het naam- en adresformulier is opgenomen. Opties: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce-opties
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Website | Hiermee bepaalt u of het bedrijf van de klant is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Website | Hiermee bepaalt u of het faxnummer van de klant in het naam- en adresformulier is opgenomen. Opties: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | Winkelweergave | Hiermee bepaalt u de opslagidentiteit die wordt weergegeven als de afzender van bijgewerkte crediteringsberichten die naar klanten worden verzonden. |
 | [!UICONTROL Store Credit Update Email Template] | Winkelweergave | Bepaalt de e-mailtemplate die wordt gebruikt voor creditupdates. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Website | Bepaalt wat gebeurt nadat de klanten zich aan hun rekeningen aanmelden. Als u klanten wilt omleiden naar hun accountdashboard, selecteert u `Yes`. Opties: <br/>**`Yes`**- Het accountdashboard wordt weergegeven wanneer klanten zich aanmelden bij hun accounts.<br/>**`No`** - Klanten kunnen blijven winkelen nadat ze zich hebben aangemeld bij hun accounts. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | Winkelweergave | Deze sjabloon definieert de volgorde van adresvelden onder de _Adressen van klant_ in het deelvenster Beheer ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Dit geldt ook voor degenen die _Nieuw adres toevoegen_ pagina wanneer een klant een factuuradres of verzendadres op zijn of haar accountpagina maakt. |
 | [!UICONTROL PDF] | Winkelweergave | De sjabloon definieert de weergave van facturerings- en verzendadressen in de gedrukte facturen, verzendingen en creditnota&#39;s. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | Algemeen | Bepaalt of de klantensegmenten kunnen worden gebruikt om gerichte bevorderingen tot stand te brengen. Opties: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Algemeen | Hiermee bepaalt u of klantsegmenten in real-time worden gevalideerd. Opties: <br/>**[!UICONTROL Yes]**- Klantsegmenten worden in real-time gevalideerd (standaardwaarde).<br/>**[!UICONTROL No]** - Klantsegmenten worden gevalideerd door één SQL-query met gecombineerde voorwaarde. Dit verbetert prestaties van segmentbevestiging als er vele klantensegmenten in het systeem zijn. De validatie werkt echter niet met een gesplitste database of wanneer er geen geregistreerde klanten zijn. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Website | Hiermee bepaalt u de letters (a-z en A-Z) en de getallen (0-9) die in de CAPTCHA worden weergegeven. Symbolen die moeilijk te onderscheiden zijn van andere symbolen, zoals `i`, `l`, of `1`, zijn niet opgenomen in de standaardset met CAPTCHA-symbolen. |
 | [!UICONTROL Case Sensitive] | Website | Bepaalt of CAPTCHA-tekens hoofdlettergevoelig zijn. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

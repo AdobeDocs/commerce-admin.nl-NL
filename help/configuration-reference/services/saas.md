@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] pagina van de Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 | [!UICONTROL Sandbox public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Sandbox private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Production Keys]
 
@@ -36,7 +36,7 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 | [!UICONTROL Production public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Production private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL SaaS Identifier]
 
@@ -47,7 +47,7 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 | [!UICONTROL Project] | Algemeen | Naam van het project SaaS dat elk van uw gegevensruimten SaaS groepeert. A _Project maken_ verschijnt als geen projecten SaaS bestaan. |
 | [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw af [Handelsvergunning](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - Eén productiedespatiëntruimte; twee testgegevenspaties;<br />Magento Open Source - Eén gegevensruimte voor productie; geen gegevensruimten voor tests |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
@@ -57,4 +57,4 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 |--- |--- |
 | [!UICONTROL Sign in using Adobe ID] | De Adobe ID is meestal het e-mailadres dat u hebt gebruikt toen u aan het lidmaatschap begon of een Adobe-toepassing of -service hebt aangeschaft. Je Adobe ID is de sleutel die je nodig hebt voor toegang tot je Adobe account. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] pagina van de Commerce Admin.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | Algemeen | Hiermee wordt bepaald of een inventariscontrole wordt uitgevoerd bij het laden van een product in de winkelwagen. Als u deze voorraadcontrole uitschakelt, kunnen de prestaties voor de afhandelingsstappen verbeteren, met name wanneer er veel items in het winkelwagentje staan. Als u de prevalidatie echter overslaat, kunnen klanten deze zien _uit voorraad_ fouten in het uitcheckproces. Opties: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | Algemeen | Wanneer ingesteld op `Yes`, worden de inventarisgegevens aangepast aan de wijzigingen in de catalogus (zoals de verwijdering van producten, wijzigingen in productSKU en wijzigingen in producttypen) en wordt de consistentie tussen de inventaris en de catalogus gehandhaafd. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | Algemeen | Hiermee wordt het aantal producten vastgesteld waaruit een verhoging van de hoeveelheid bestaat. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Algemeen | Hiermee wordt bepaald of objecten die in creditnota&#39;s zijn opgenomen automatisch worden geretourneerd naar de voorraad. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | Algemeen | Hiermee wordt bepaald of bulkbewerkingen asynchroon worden uitgevoerd voor acties voor grote producten, waaronder [bulkgoederen](../../inventory-management/bulk-assignment.md) bronnen toewijzen, bronnen ongedaan maken en [voorraad overbrengen naar bron](../../inventory-management/inventory-transfer.md). Het verzamelt bulkacties tot _[!UICONTROL Asynchronous batch size]_en voert die handelingen uit. Deze functie is standaard uitgeschakeld. We raden u aan de prestaties te evalueren met acties in bulk voordat u deze inschakelt. Opties:<br/>**`Yes`**- Alle bulkbewerkingen uitvoeren voor [!DNL Inventory Management] asynchroon. Om toe te laten, moet u een asynchrone rijmanager vormen.<br/>**`No`**- Standaard. Hiermee worden bulkbewerkingen niet asynchroon uitgevoerd. |
 | [!UICONTROL Asynchronous batch size] | Algemeen | Set **[!UICONTROL Run asynchronously]** tot `Yes` om een waarde in te voeren voor _[!UICONTROL Asynchronous batch size]_veld. <br/>De standaardbatch-grootte is 100. Wanneer de bulkprocessen dit bedrag bereiken, worden zij uitgevoerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | Algemeen | Hiermee bepaalt u de strategie die wordt gebruikt voor herindexering van voorraden/bronnen. Opties: `Synchronous` / `Asynchronous` (een asynchrone rijmanager moet voor asynchrone wijze worden gevormd) |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > Vanwege de afhankelijkheden van voorraadupdates voor de aan bestellingen gerelateerde activiteiten, wordt de voorraadindexering ook geactiveerd bij het opslaan van het product, ongeacht de `Synchronous` of `Asynchronous` instellen.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | Algemeen | Bepaalt de leverancier om voor het Algoritme van de Selectie van de Bron van de Prioriteit van de Afstand te gebruiken. Deze functie is standaard ingeschakeld. Opties: <br/>**`Google MAP`**- Gebruikt Google-services om de afstand en tijd tussen het verzendadres en de bronlocatie (adres en GPS-coördinaten) te berekenen. Voor deze optie is een Google API-sleutel vereist en de kosten kunnen via Google worden berekend.<br/>**`Offline Calculation`** - Berekent de afstand gebruikend een ingebedde gegevensbestand om de dichtste bron aan het verzendende bestemmingsadres te bepalen. Als u deze optie wilt gebruiken, hebt u mogelijk hulp van ontwikkelaars nodig om eerst de inhoud van de databaselocatie te downloaden voor alle landen die u verzendt naar een opdrachtregel. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | Algemeen | Bepaalt de richtingen en de wegen om de afstand van het het verschepen adres en alle bronnen te berekenen die aan de voorraad worden toegewezen. Voor berekeningen wordt standaard de rijmodus gebruikt. Opties: <br/>**`Driving`**- Standaardinstelling, vraagt om standaardrijrichtingen met behulp van het wegennet.<br/>**`Walking`** - Verzoekt lopende richtingen met gebruik van voetgangerspaden en zijdealen (indien beschikbaar). <br/>**`Bicycling`**- Verzoekt fietsrichtingen met fietspaden en de voorkeurstraten (momenteel alleen beschikbaar in de VS en sommige Canadese steden). |
 | [!UICONTROL Value] | Algemeen | Geeft aan wat er moet worden berekend en geretourneerd voor de afstand en tijd van de bronlocaties naar het verzendadres. Het algoritme van de Prioriteit van de Afstand adviseert de bron met de kortste afstand of de tijd aan het verzendende bestemmingsadres, dat sneller en misschien goedkoper levert om verzendingen te vervullen. Opties: <br/>**`Distance`**- Geeft als resultaat de afstand tussen punten in metriek (kilometers en meters) of imperial (mijlen en voeten).<br/>**`Time to Destination`** - Geeft de tijd die nodig is om van de bronlocaties naar het verzendadres te gaan in uren en minuten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

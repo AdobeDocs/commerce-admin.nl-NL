@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Controleer de configuratie-instellingen in het dialoogvenster [!UICONTROL PayPal Express Checkout] de [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable In-Context Checkout Experience] | Website | Hiermee activeert u gestroomlijnde PayPal In-Context Checkout als een betalingsmethode die beschikbaar is voor uw klanten. Opties: `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit] | Website | Hiermee activeert u PayPal-krediet zodat klanten nu kunnen kopen, maar later kunnen betalen. Je krijgt vooraf betaald, maar klanten hebben meer tijd om te betalen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Express Checkout]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Proxy Host] | Website | Als de API proxy gebruikt, geeft dit het IP-adres van de proxyhost op. |
 | [!UICONTROL Proxy Port] | Website | Als de API proxy gebruikt, geeft dit de poort op die door de proxyhost wordt gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advertise PayPal Credit]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op productpagina&#39;s. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op winkelwagentje. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Website | Bepaalt welke actie PayPal onderneemt wanneer het een bestelling ontvangt. Opties: <br/>**`Authorization`**- Goedkeuring van de aankoop, maar blokkeert de middelen. De hoeveelheid wordt pas opgevraagd wanneer deze door de handelaar wordt &quot;gevangen&quot;.<br/>**`Sale`** - Het bedrag van de aankoop wordt toegestaan en onmiddellijk van de rekening van de klant teruggetrokken. <br/>**`Order`**- Vertegenwoordigt een overeenkomst met PayPal die de handelaar toestaat om één of meerdere bedragen tot het geordende totaal van de kopersrekening van de klant, binnen een bepaalde periode te vangen. Dit kan tot 29 dagen zijn. Een of meer facturen moeten door de beheerder van de handel worden opgesteld om de middelen te kunnen afhalen. |
 | [!UICONTROL Display on Product Details Page] | Winkelweergave | Hiermee wordt bepaald of de knop Afhandeling met PayPal op productpagina&#39;s wordt weergegeven. U kunt onder andere de volgende opties kiezen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Website | Hiermee bepaalt u of klanten een [factureringsovereenkomst](../../stores-purchase/paypal-billing-agreements.md) met uw winkel. Opties: <br/>**`Auto`**- De klant kan zich aanmelden voor een factureringsovereenkomst tijdens de Express Checkout.<br/>**`Ask Customer`** - De klant wordt gevraagd of hij zich wil aanmelden voor een factureringsovereenkomst. <br/>**`Never`**- Klanten kunnen zich niet aanmelden voor een factureringsovereenkomst. |
 | [!UICONTROL Skip Order Review Step] | Website | Hiermee bepaalt u of klanten de transactie kunnen voltooien vanaf de PayPal-site of dat ze naar uw winkel moeten terugkeren en de stap Bestelrevisie moeten voltooien voordat ze de bestelling verzenden. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Website | Als deze optie is ingeschakeld, wordt een overzicht weergegeven van de regelobjecten in het winkelwagentje op de PayPal-betalingspagina. Opties: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Website | Wanneer deze optie is ingeschakeld, kunnen klanten een factureringsovereenkomst starten vanaf het dashboard van hun klantenaccount. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Settlement Report Settings]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Website | Hiermee bepaalt u hoe vaak afwikkelingsrapporten worden gegenereerd door PayPal. Opties: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Website | Bepaalt het uur, de minuut en de seconde dat afwikkelingsrapporten worden gegenereerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Frontend Experience Settings]
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Winkelweergave | Het zesteken [hexadecimale kleur](https://en.wikipedia.org/wiki/Web_colors) code voor de rand van twee pixels rondom de koptekst. |
 | [!UICONTROL Page Background Color] | Winkelweergave | Het zesteken [hexadecimale kleur](https://en.wikipedia.org/wiki/Web_colors) code voor de achtergrondkleur van de uitcheckpagina die achter de koptekst en het betalingsformulier wordt weergegeven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 | [!UICONTROL Shape] | Winkelweergave | Hiermee geeft u de vorm van de knop Slimme betaling op. Opties: `Pill` (standaardwaarde) / `Rectangle` |
 | [!UICONTROL Color] | Winkelweergave | Stel de kleur van de knop Slim betalen in. Opties: `Gold` (standaardwaarde) / `Blue` / `Silver` / `Black` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
@@ -178,4 +178,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | Winkelweergave | Hiermee bepaalt u welke andere PayPal-financieringsopties worden weergegeven op de pagina Uitchecken. De geselecteerde opties worden nooit weergegeven op de pagina Uitchecken. Niet-geselecteerde opties worden alleen weergegeven als PayPal de valuta van de winkel en de locatie van de koper ondersteunt. Opties: `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

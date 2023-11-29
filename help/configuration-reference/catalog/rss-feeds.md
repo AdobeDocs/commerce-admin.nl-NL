@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] pagina van de Commerce Admin.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Winkelweergave | Laat klanten toe om het voer van RSS van de opslag te ontvangen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Winkelweergave | Als deze optie is ingeschakeld, wordt boven aan pagina&#39;s met verlanglijsten een koppeling naar de RSS-feed weergegeven. De pagina voor het delen van wensenlijsten bevat een selectievakje dat de klant kan selecteren om vanuit lijsten met gedeelde wensen een koppeling naar de feed tot stand te brengen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Coupons/Discounts] | Winkelweergave | Als deze optie is ingeschakeld, wordt melding gemaakt van coupons of kortingen. |
 | [!UICONTROL Top Level Category] | Winkelweergave | Hiermee publiceert u een melding van elke wijziging in de categoriestructuur op hoofdniveau van uw catalogus. Deze wijziging wordt weerspiegeld in het hoofdmenu. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Winkelweergave | Biedt klanten de mogelijkheid hun orderstatus te volgen met RSS-feed. Als deze optie is ingeschakeld, wordt een koppeling naar de RSS-feed in de volgorde weergegeven |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

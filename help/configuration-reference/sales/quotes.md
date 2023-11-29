@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Quotes] pagina van de Commerce Admin.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Winkelweergave | Het bericht dat in het winkelwagentje wordt weergegeven wanneer een klant een aanvraag voor een prijsopgave probeert in te dienen, maar er wordt niet voldaan aan het vereiste minimumbedrag. |
 | [!UICONTROL Default Expiration Period] | Website | Hiermee wordt de standaardlevensduur van een [citeren](../../b2b/quote-price-negotiation.md) als periode vanaf de datum waarop het verzoek om een prijsopgave wordt ingediend. Opties: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Algemeen | Hiermee bepaalt u de bestandsindelingen die aan een offerte kunnen worden gekoppeld. Ondersteunde standaardwaarden: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, en `jpeg` |
 | [!UICONTROL Maximum file size] | Algemeen | Bepaalt de maximumgrootte voor een dossier dat aan een citaat wordt vastgemaakt. Deze instelling kan worden overschreven door de serverconfiguratie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

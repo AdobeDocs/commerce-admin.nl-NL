@@ -4,9 +4,9 @@ description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL 
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Default Display Currency] | Winkelweergave | De primaire valuta die wordt gebruikt om prijzen weer te geven. |
 | [!UICONTROL Allowed Currencies] | Winkelweergave | De valuta&#39;s die je winkel accepteert voor betaling. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om tot de omzettingsdienst door uw toegang te hebben [!DNL fixer.io] account. Zie voor meer informatie [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Hiermee bepaalt u het aantal seconden dat inactiviteit optreedt voordat een Fixer.io-sessietime-out optreedt. Standaardwaarde: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om tot de omzettingsdienst door uw toegang te hebben [!DNL APILayer] account. Zie voor meer informatie [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Hiermee wordt het aantal seconden van inactiviteit bepaald voordat een [!DNL APILayer] sessietijden uit. De standaardwaarde is `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 | [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om tot de omzettingsdienst toegang te hebben. Zie voor meer informatie [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Hiermee wordt het aantal seconden van inactiviteit bepaald vóór een [!DNL Currency Converter] sessietijden uit. Standaardwaarde:`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Website | Hiermee wordt de contactpersoon van de winkel geïdentificeerd die wordt weergegeven als de afzender van het foutbericht in de e-mail. Standaardafzender: `General Contact` |
 | [!UICONTROL Error Email Template] | Website | Hier geeft u de sjabloon op die wordt gebruikt als basis voor de e-mailfoutmelding. Standaardsjabloon: `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

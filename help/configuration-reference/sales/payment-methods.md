@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Website | Identificeert het land waar de handelaar geregistreerd is om zaken te doen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Aanbevolen oplossingen
 
@@ -86,7 +86,7 @@ De volgende betalingsmethoden zijn ingebouwd in de handel en gebruiken geen beta
 | [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per cheque of postwissel kan worden betaald. <br/><br/>**_Opmerking:_**Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die wordt betaald via cheque of postwissel wanneer deze bij andere betalingsmethoden tijdens het afrekenen wordt weergegeven. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ De volgende betalingsmethoden zijn ingebouwd in de handel en gebruiken geen beta
 | [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Opmerking:_**Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die bij het afrekenen bij een andere betalingsmethode wordt weergegeven als de betaling via een overschrijving wordt uitgevoerd. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ De volgende betalingsmethoden zijn ingebouwd in de handel en gebruiken geen beta
 | [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat op een bedrijfsaccount in rekening kan worden gebracht. <br/><br/>**_Opmerking:_**Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin de betaling op rekening wordt weergegeven wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ De volgende betalingsmethoden zijn ingebouwd in de handel en gebruiken geen beta
 | [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Opmerking:_**Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die bij het afrekenen bij een andere betalingsmethode wordt weergegeven als de betaling via een overschrijving wordt uitgevoerd. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ De volgende betalingsmethoden zijn ingebouwd in de handel en gebruiken geen beta
 | [!UICONTROL Payment from Specific Countries] | Website | Hiermee worden de specifieke landen aangegeven waarvoor een subtotaal bedrag van nul kan worden afgeboekt. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin de titel wordt weergegeven, zoals &quot;Geen betalingsgegevens vereist&quot;, wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Zie de Basis montagessectie van elk individueel onderwerp van de betalingsmethod
 | [!UICONTROL Order] | Vertegenwoordigt een overeenkomst met PayPal die de handelaar toestaat om één of meerdere bedragen tot het ordertotaal van de kopersrekening van de klant te vangen, binnen een bepaalde periode (tot 29 dagen). |
 | [!UICONTROL Sale] | Bedrag van de aankoop is geautoriseerd en onmiddellijk van de rekening van de klant verwijderd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Zie de Basis montagessectie van elk individueel onderwerp van de betalingsmethod
 | [!UICONTROL Maximum Order Total] | Website | Het grootste orderbedrag dat door PO kan worden betaald. <br/><br/>**_Opmerking:_**Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die de betaling per inkooporder weergeeft wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. Enter `0` om deze boven aan de lijst te plaatsen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

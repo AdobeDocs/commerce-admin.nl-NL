@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL Security.txt] pagina van de Commerce Admin.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [Mel
 |--- |--- |--- |
 | [!UICONTROL Enable] | Website | Indien ingeschakeld, wordt een `security.txt` bestand wordt opgeslagen dat informatie bevat die beveiligingsonderzoekers nodig hebben om potentiële kwetsbaarheden aan u te melden. Opties:<br />**`Yes`**- Creeert `security.txt` bestand op basis van informatie die is ingevoerd in het _Contactgegevens_ en _Overige informatie_ secties.<br />**`No`** - (standaard) Er wordt geen `security.txt` bestand. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [Mel
 | [!UICONTROL Phone] | Website | Een telefoonnummer dat kan worden gebruikt om beveiligingsproblemen te melden. |
 | [!UICONTROL Contact Page] | Website | De URL van een pagina op uw site die beveiligingscontactpersonen bevat, of uw _Contact opnemen_ pagina. Voorbeelden: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [Mel
 | [!UICONTROL Policy] | Website | De URL van de pagina die uw beveiligingsbeleid en praktijken voor het melden van kwetsbaarheden beschrijft. Voorbeeld: `https://mystore.com/security-reporting.html` Standaard: `https://mystore.com/security` |
 | [!UICONTROL Signature] | Website | Een koppeling naar het digitale handtekeningbestand. De digitale handtekening moet worden gegenereerd via de opdrachtregel en wordt opgeslagen in de `.well-known` op de server. Zie voor meer informatie [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) op GitHub. Voorbeeld: `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

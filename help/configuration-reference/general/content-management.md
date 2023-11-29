@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Content Management] pagina van de Commerce Admin.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL WYSIWYG Editor] | Website | Bepaalt de versie van de redacteur TinyMCE die voor de redacteur WYSIWYG wordt gebruikt. Opties: <br/>**`TinyMCE 5`**- (Gebrek) gebruikt TinyMCE versie 5 als standaardredacteur WYSIWYG.<br><br>_** Opmerking:**_Een update van de TinyMCE 5.10-bibliotheek in Adobe Commerce en Magento Open Source 2.4.5 verhelpt een kwetsbaarheid die willekeurige JavaScript-uitvoering toestaat bij het bijwerken van een afbeelding of koppeling met bepaalde typen URL&#39;s. TinyMCE 3 is afgekeurd in de release 2.4.0 en verwijderd uit de release 2.4.3. TinyMCE 4 is verwijderd uit de release 2.4.4. |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Algemeen | Hiermee wordt bepaald of [statische URL&#39;s](../../content-design/catalog-urls-dynamic-media.md) worden gebruikt voor media inhoud die van de redacteur WYSIWYG van verwijzingen wordt voorzien. De instelling is van toepassing op alle plaatsen waar de WYSIWYG-editor beschikbaar is, inclusief producten, categorieën, pagina&#39;s en blokken. Opties: <br/>**`Yes`**- Gebruikt statische URLs voor media inhoud die met de redacteur WYSIWYG wordt opgenomen. Statische URL&#39;s zijn absoluut en onderbreken als de [basis-URL](../../stores-purchase/store-urls.md) van de winkel wijzigen.<br/>**`No`** (Standaard) - Gebruikt dynamische URL&#39;s voor media-inhoud die wordt ingevoegd met de WYSIWYG-editor, op basis van de  `{{media url="..."}}` richtlijn. Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Page Hierarchy]
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Hierarchy Metadata] | Algemeen | Hiermee kunt u metagegevens koppelen aan pagina&#39;s in de hiërarchie. Opties: `Yes` / `No` |
 | [!UICONTROL Default Layout for Hierarchy Menu] | Algemeen | Bepaalt de standaardmenustijl. Opties: `Content` / `Left Column` / `Right Column` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Content Tools]
 
@@ -60,10 +60,8 @@ ht-degree: 0%
 | [!UICONTROL Default Column Grid Size] | Algemeen | Bepaalt het standaardaantal kolommen in [!DNL Page Builder] raster. |
 | [!UICONTROL Maximum Column Grid Size] | Algemeen | Hiermee bepaalt u het maximumaantal kolommen in het dialoogvenster [!DNL Page Builder] raster. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!TIP]
 >
 >De Bouwer van de pagina maakt het gemakkelijk om inhoud-rijke pagina&#39;s met douanelay-outs tot stand te brengen die uw visueel verhaal verbeteren en klantenbetrokkenheid en loyaliteit te drijven. Deze functies zijn ontworpen om de kwaliteit te verbeteren en de tijd en kosten voor het maken van aangepaste pagina&#39;s te verminderen. Raadpleeg voor meer informatie over deze functies en hoe u deze kunt gebruiken om aantrekkelijke inhoud voor uw Adobe Commerce- of Magento Open Source-winkel te maken de [_Gebruikershandleiding voor Page Builder_](../../page-builder/guide-overview.md).
-
-{:style=&quot;table-layout:auto&quot;}

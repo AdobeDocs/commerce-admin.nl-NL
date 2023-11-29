@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] pagina van de Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Algemeen | Hiermee bepaalt u of e-mails over verkopen asynchroon worden verzonden. U wordt aangeraden Asynchroon verzenden in te schakelen. Opties: <br/>**`Disable`**- (Standaard) Verkoop-e-mails worden verzonden wanneer deze door een gebeurtenis worden geactiveerd.<br/>**`Enable`** - (Aanbevolen) Verkoop e-mails worden op vooraf bepaalde, regelmatige tijdstippen verzonden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een orde e-mail te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Order Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | Verstrekt het e-mailadres van iedereen om een exemplaar van een bericht van de ordecommentaar te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Order Email Copy Method] | Winkelweergave | Geeft de methode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een factuur e-mail te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Invoice Email Copy Method] | Winkelweergave | Geeft de methode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een de opmerkingsbericht van de factuur te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen die een exemplaar van een verzending e-mail zou moeten ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Shipment Email Copy Method] | Winkelweergave | Geeft de methode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een verzending commentaare-mail te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen die een exemplaar van een creditmemo e-mail zou moeten ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | Winkelweergave | Geeft de methode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Winkelweergave | Hier geeft u het e-mailadres op van iedereen die een kopie van een e-mail met opmerkingen over creditnota&#39;s ontvangt. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | Bestelling gereed voor afhalen e-mailkopie naar | Winkelweergave | Hiermee geeft u het e-mailadres op van iedereen die een kopie van een _Order gereed voor afhalen_ e-mail. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. Opties: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Winkelweergave | Meldt de maker dat een fout voorkwam wanneer het omzetten van een PO in een orde. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Winkelweergave | Hiermee verzendt u een e-mail met de kennisgeving aan de fiatteur dat voor de inkooporder goedkeuring is vereist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | Winkelweergave | Hier geeft u het e-mailadres op van elke persoon die een kopie van de aanhalingstekst moet ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Quote Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen die een exemplaar van een e-mail RMA zou moeten ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA  Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een RMA vergunningse-mail te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van het bericht te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van het bericht te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

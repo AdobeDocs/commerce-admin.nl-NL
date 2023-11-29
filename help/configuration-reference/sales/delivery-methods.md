@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] pagina van de Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee wordt bepaald of Platte snelheid tijdens het uitchecken wordt weergegeven als de methode niet van toepassing is op de aankoop. Opties: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin Platte snelheid wordt weergegeven wanneer dit tijdens het uitchecken wordt vermeld met andere leveringsmethoden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Methode tonen indien niet van toepassing | Website | Hiermee bepaalt u of Gratis verzending tijdens het afrekenen wordt weergegeven als de methode niet van toepassing is op de aankoop. Opties: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin Free Shipping wordt weergegeven wanneer deze bij andere leveringsmethoden wordt aangeboden tijdens het afrekenen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee wordt bepaald of Tabeltarieven tijdens het afrekenen als optie worden weergegeven als de methode niet van toepassing is op de aankoop. Opties: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin Tabeltarieven worden weergegeven wanneer deze bij andere leveringsmethoden worden vermeld tijdens het afrekenen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Website | De straal in km die moet worden gebruikt bij het zoeken naar ophaallocaties. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Een bericht dat wordt weergegeven wanneer een klant in-store oppikken selecteert, maar de leveringsmethode niet beschikbaar is. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Website | (Alleen UPS XML) Het land of de regio waar de verzending van het product vandaan komt. |
 | [!UICONTROL Password] | Winkelweergave | Wachtwoord voor UPS-verzendaccount. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS-pakketinformatie](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Website | Geeft aan of behandelingskosten worden toegepast op elke bestelling of op elk pakket binnen een bestelling. |
 | [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Opmerking:_**Gebruik de decimale notatie als u een percentage typt `0.25` voor 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toegestane UPS-methoden](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee stelt u het minimale totale bedrag in dat een bestelling moet bereiken om in aanmerking te komen voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het foutbericht dat wordt weergegeven wanneer deze verzendmethode om welke reden dan ook niet beschikbaar is. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toepasselijke UPS-landen en andere instellingen](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Website | Specificeert als de gegevenstransmissies tussen uw opslag en UPS het systeem voor het zuiveren worden geregistreerd. Tenzij er een kwestie is die moet worden gevolgd en worden geregistreerd, zou deze optie moeten worden geplaatst aan `No`. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin UPS wordt weergegeven wanneer UPS tijdens het uitchecken wordt vermeld met andere leveringsmethoden. Enter `0` boven aan de lijst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Website | Wachtwoord voor verzendaccount van USPS. |
 | [!UICONTROL Mode] | Website | Bepaalt de wijze van transmissie die voor gegevens wordt gebruikt die naar het systeem USPS worden verzonden. U kunt onder andere de volgende opties kiezen: <br/>**`Development`**- USPS controleert niet of gegevens die van de Commerce-server zijn ontvangen via SSL worden verzonden.<br/>**`Live`** - USPS controleert of gegevens die van de Commerce-server zijn ontvangen, via een Secure Socket Layer (SSL) worden verzonden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Verpakkingsinstellingen USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Website | Geeft aan of het pakket door de computer kan worden verwerkt. Deze optie is van invloed op de berekening van de verzendkosten. |
 | [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen, zoals opgegeven door USPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Gebruiksvriendelijke instellingen voor afhandelingskosten](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Website | Geeft aan of behandelingskosten worden toegepast op elke bestelling of op elk pakket binnen een bestelling. |
 | [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Opmerking:_**Gebruik bij het typen van een percentage de decimale notatie `0.25` voor 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toegestane USPS-methoden](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Website | Hiermee stelt u het minimale orderbedrag in dat moet worden behaald om in aanmerking te komen voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het foutbericht dat wordt weergegeven wanneer USPS om welke reden dan ook niet beschikbaar is. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toepasselijke landen van USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Website | Hiermee wordt bepaald of het systeem voor foutopsporing een logboek met gegevensverzendingen tussen uw opslag en USPS bijhoudt. Tenzij er een kwestie is die moet worden gevolgd en worden geregistreerd, zou deze optie moeten worden geplaatst aan `No`. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin USPS wordt weergegeven wanneer het tijdens het uitchecken wordt weergegeven bij andere leveringsmethoden. Enter `0` boven aan de lijst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Website | Als u FedEx-transacties wilt uitvoeren in een testomgeving, stelt u Sandboxmodus in op `Yes`. Opties: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Website | De vereiste URL is afhankelijk van de instelling voor de sandboxmodus. Opties: <br/>**`Production`**- De URL voor toegang tot FedEx-webservices wanneer de winkel live is.<br/>**`Sandbox`** - De URL voor toegang tot de testomgeving voor FedEx-webservices. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-verpakking](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Website | Selecteer in de lijst de ophaalmethode: <br/>**`Regular Pickup`**- (Standaardinstelling) Als u een groot aantal overbrengingen hebt, kan het rendabel zijn om regelmatig ophalingen te organiseren.<br/>**`Request Courier`** - Je moet een FedEx-koerier bellen en vragen om verzendingen op te halen. <br/>**`Drop Box`**- U moet de verzendingen bij uw lokale FedEx-drop box neerzetten.<br/>**`Business Service Center`** - U moet de verzendingen bij uw lokale FedEx-servicecentrum neerzetten. <br/>**`Station`**- U moet verzendingen bij uw lokale FedEx-station neerzetten. |
 | [!UICONTROL Maximum Package Weight] | Website | De standaardwaarde voor FedEx is 150 pond. Raadpleeg uw verzendende provider voor maximaal ondersteund gewicht. Het gebruik van de standaardwaarde wordt aanbevolen, tenzij u speciale regelingen met FedEx hebt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-verwerkingskosten](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Website | Hiermee bepaalt u hoe behandelingskosten worden toegepast. Opties: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Website | Geeft het bedrag aan dat in rekening wordt gebracht als een behandelingsvergoeding, op basis van de methode die wordt gebruikt om het bedrag te berekenen. Als de vergoeding op een vaste vergoeding is gebaseerd, voert u het bedrag in als een decimaal, bijvoorbeeld `4.90`. Als de behandelingskosten gebaseerd zijn op een percentage van de bestelling, voert u het bedrag in als een percentage. Als u bijvoorbeeld zes procent van de volgorde wilt opladen, voert u de waarde in als `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-leveringsmethoden](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee geeft u het minimale orderbedrag op dat vereist is voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het bericht dat wordt weergegeven wanneer FedEx om welke reden dan ook niet beschikbaar is. U kunt het standaardbericht gebruiken of een ander ingaan. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-landen](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee bepaalt u wanneer FedEx wordt weergegeven als een verzendmethode tijdens het afrekenen. Opties: <br/>**`Yes`**- De verzendoptie FedEx wordt weergegeven in de lijst met leveringsmethoden, ongeacht of de bestelling in aanmerking komt om deze te gebruiken.<br/>**`No`** - De verzendoptie FedEx wordt niet weergegeven in de lijst met leveringsmethoden als deze niet van toepassing is op de bestelling (bijvoorbeeld als het gewicht van de bestelling groter is dan het maximumgewicht). |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin FedEx wordt weergegeven bij andere leveringsmethoden tijdens het afrekenen. Enter `0` boven aan de lijst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Website | Wachtwoord voor uw DHL-verzendaccount. |
 | [!UICONTROL Account Number] | Website | Uw DHL-verzendrekeningnummer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Instellingen DHL-pakket](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Winkelweergave | Bepaalt de maateenheid voor gewicht die wordt gebruikt bij verzendberekeningen. Opties: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Winkelweergave | Bepaalt de grootte van het pakket. Opties: <br/>**`Regular`**- de geleverde verpakkingen voldoen aan de normen van DHL. In de [!UICONTROL Allowed Methods] selecteert u elke verpakkingsmethode die wordt gebruikt om producten uit uw winkel te verzenden.<br/>**`Specific`** - Als de verzonden pakketten aangepaste afmetingen hebben, voert u het volgende in: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toegestane methoden van DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Website | Stel een van de volgende opties in: <br/>**`Enable`**- DHL gratis te laten verzenden voor bestellingen die aan het minimumbedrag voldoen.<br/>**`Disable`** - om geen gratis DHL-verzending met minimumbestelling aan te bieden. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Website | Als u [!UICONTROL Free Shipping with Minimum Order]Voer in het veld de minimale waarde voor het orderbedrag in. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Toepasselijke landen van DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Website | Hiermee maakt u een logbestand met foutgegevens. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin DHL wordt weergegeven wanneer dit bij andere leveringsmethoden tijdens het afrekenen wordt vermeld. Als u deze boven aan de lijst wilt plaatsen, voert u `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] pagina van de Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Verzendinstell
 | [!UICONTROL Street Address] | Website | Het adres van de oorsprongsstraat. |
 | [!UICONTROL Street Address Line 2] | Website | Een extra lijn voor het adres van de punt-van-oorsprong straat, indien nodig. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Verzendinstell
 | [!UICONTROL Apply Custom Shipping Policy] | Website | Hiermee wordt bepaald of je verzendbeleid wordt weergegeven tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Winkelweergave | Bevat je verzendbeleid als tekst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

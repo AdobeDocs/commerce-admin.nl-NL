@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] pagina van de Commerce Admin.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | Winkelweergave | Bepaalt de standaardtekenset. Indien leeg, wordt UTF-8 gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL GraphQl Input Limits]
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Input Limits] | Winkelweergave | Bepaalt of de inputgrenzen voor de vraag van GraphQL worden toegelaten. Standaardwaarde: `No`. |
 | [!UICONTROL Maximum Page Size] | Winkelweergave | Hiermee stelt u het maximum aantal items in dat is toegestaan in een gepagineerd zoekresultaat in de GraphQL-reactie. Deze optie is niet beschikbaar als _Invoerlimieten inschakelen_ = `No`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web Api Input Limits]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Maximum Page Size] | Winkelweergave | Hiermee stelt u het maximum aantal items in dat is toegestaan in een gepagineerd zoekresultaat in de Web API-respons. Deze optie is niet beschikbaar als _Invoerlimieten inschakelen_ = `No`. |
 | [!UICONTROL Default Page Size] | Winkelweergave | Plaatst het standaardaantal punten in een gepagineerd onderzoeksresultaat in de Web API reactie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | Algemeen | Determines is dat gasten anoniem toegang hebben tot CMS, catalogus en bronnen van SOAP en REST API&#39;s kunnen opslaan. Standaard is anonieme toegang voor gasten niet toegestaan. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JWT Authentication]
 
@@ -71,4 +71,4 @@ ht-degree: 0%
 | [!UICONTROL Customer JWT Expires In] | Algemeen | Hiermee stelt u de tijdsduur (in minuten) in voordat een JWT-token van een klant verloopt. De JWT-token van de klant verloopt over 30 minuten als dit veld leeg is of een negatieve waarde heeft. Standaardwaarde: `60` |
 | [!UICONTROL Admin User JWT Expires In] | Algemeen | Hiermee stelt u de tijdsduur (in minuten) in voordat de token voor JWT-gebruiker Admin verloopt. De JWT-token voor beheerders verloopt over 30 minuten als dit veld leeg is of een negatieve waarde heeft. Standaardwaarde: `60` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

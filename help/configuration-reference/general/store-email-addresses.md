@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] pagina van de Commerce Admin.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Zie [E-mailadressen opslaan](../../getting-started/store-details.md#store-email-
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van de e-mail die door de `General Contact` identiteit. |
 | [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat aan het `General Contact` identiteit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ Zie [E-mailadressen opslaan](../../getting-started/store-details.md#store-email-
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van de e-mail die door de `Sales Representative` identiteit. |
 | [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat aan het `Sales Representative` identiteit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ Zie [E-mailadressen opslaan](../../getting-started/store-details.md#store-email-
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van de e-mail die door de `Customer Support` identiteit. |
 | [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat aan het `Customer Support` identiteit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Aangepaste e-mail 1
 
@@ -58,7 +58,7 @@ Zie [E-mailadressen opslaan](../../getting-started/store-details.md#store-email-
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van de e-mail die door de `Custom 1` identiteit. |
 | [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat aan het `Custom 1` identiteit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Aangepaste e-mail 2
 
@@ -69,4 +69,4 @@ Zie [E-mailadressen opslaan](../../getting-started/store-details.md#store-email-
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van de e-mail die door de `Custom 2` identiteit. |
 | [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat aan het `Custom 2` identiteit. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

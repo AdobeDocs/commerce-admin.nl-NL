@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt;  [!UICONTROL
 description: Controleer de configuratie-instellingen in het dialoogvenster [!UICONTROL PayPal Payflow Pro] de [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Website | Hiermee bepaalt u of PayPal Payflow Pro voor uw klanten beschikbaar is als betalingsmethode. |
 | [!UICONTROL Enable PayPal Credit] | Website | Hiermee wordt bepaald of PayPal-krediet beschikbaar is voor uw klanten als betalingsoptie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op productpagina&#39;s. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op winkelwagentje. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | **[!UICONTROL Credit Card Settings]** |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Website | Bepaalt welke creditcards beschikbaar zijn voor klanten tijdens het afrekenen. Selecteer elke ondersteunde kaart. Opties: `American Express` (hiervoor is een extra overeenkomst vereist) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Website | Geeft een volledig overzicht weer van de lijstitems van het winkelwagentje van de klant op de Paypal-site. Opties: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Website | Hiermee bepaalt u of klanten de transactie kunnen voltooien vanaf de PayPal-site of dat ze naar uw winkel moeten terugkeren en de stap Bestelrevisie moeten voltooien voordat ze de bestelling verzenden. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

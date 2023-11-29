@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Checkout] pagina van de Commerce Admin.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee wordt bepaald of klanten deze functie kunnen gebruiken [adreszoekopdracht](../../stores-purchase/checkout-address-search.md) functionaliteit voor verzending en de stappen Controleren en betalen. Als deze optie is ingeschakeld, gebruikt u Limiet voor aantal klantadressen om het aantal opgeslagen adressen in te stellen dat vereist is om deze functie tijdens het uitchecken te activeren. Opties: `Yes` / `No` |
 | Limiet voor aantal adressen van klanten | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Wanneer zoeken naar adressen is ingeschakeld, bepaalt u het aantal opgeslagen adressen dat is vereist om deze functie te activeren tijdens het uitchecken. Wanneer het aantal opgeslagen adressen van de klant aan dit aantal of overschrijdt, slechts wordt het standaardadres teruggegeven op _Verzending_ en _Reviseren en betalen_ stappen. De klant kan een zoekfunctie gebruiken om het geselecteerde adres te wijzigen. De standaardwaarde is `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Winkelweergave | Hiermee bepaalt u de maximumleeftijd van de prijsopgave in minuten bij voorvertoond winkelwagentje. |
 | [!UICONTROL Enable Clear Shopping Cart] | Website | Hiermee bepaalt u of in het winkelwagentje de optie wordt weergegeven waarmee gebruikers de inhoud van het winkelwagentje in één handeling kunnen wissen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Website | Bepaalt de waarde die tussen haakjes na de koppeling Mijn winkelwagen wordt weergegeven. Opties: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mini Cart
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Winkelweergave | Hiermee bepaalt u het aantal items dat in de miniwinkelwagen kan worden weergegeven voordat de schuifbalk wordt geactiveerd. Standaard: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Winkelweergave | Hiermee bepaalt u het maximum aantal items dat in de miniwinkelwagen kan worden weergegeven. Standaard: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een Ontbroken e-mail van de Betaling te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send Payment Failed Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. Opties: <br />**`Bcc`**- Verstuurt een blinde hoffelijkheid kopie door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br />**`Separate Email`** - Hiermee verzendt u de kopie als een aparte e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

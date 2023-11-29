@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] pagina van de Commerce Admin.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ _[!DNL Advanced Reporting]_is een cloudgebaseerde service die wordt aangedreven 
 | [!UICONTROL Industry] | Website | Identificeert uw bedrijfsindustrie om te personaliseren [!DNL Advanced Reporting]. |
 | [!UICONTROL Time of day to send data] | Algemeen | Bepaalt de tijd elke dag waarop uw opslaggegevens worden verzonden naar [!DNL Advanced Reporting]. De tijd is gebaseerd op een klok van 24 uur, en omvat de minuut, het uur, en de seconde in uw tijdzone. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
 [2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting

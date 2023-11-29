@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Google API] pagina van de Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Winkelweergave | Bepaalt als het identificeren van informatie uit IP adressen wordt verwijderd die binnen verschijnen [!DNL Google Analytics] resultaten. |
 | [!UICONTROL Enable Content Experiments] | Winkelweergave | Activeren [Google-contentexperimenten](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), die kan worden gebruikt om maximaal tien verschillende versies van dezelfde pagina te testen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager`Er wor
 | [!UICONTROL List property for the search results page] | Winkelweergave | Identificeert de [!DNL Google Tag Manager] eigenschap die aan de pagina met zoekresultaten is gekoppeld. Standaardwaarde: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Winkelweergave | Identificeert de [!DNL Google Tag Manager] eigenschap die is gekoppeld aan de labels voor interne promoties. Standaardwaarde: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager`Er wor
 | [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_conversiewaardetype. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager`Er wor
 | [!UICONTROL Anonymize IP] | Winkelweergave | Bepaalt als het identificeren van informatie uit IP adressen wordt verwijderd die in Googles Analytics resultaten verschijnen. |
 | [!UICONTROL Enable Content Experiments] | Winkelweergave | Activeren [Google-contentexperimenten](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), die kan worden gebruikt om maximaal tien verschillende versies van dezelfde pagina te testen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager`Er wor
 | [!UICONTROL List property for the search results page] | Winkelweergave | Identificeert de [!DNL Google Tag Manager] eigenschap die aan de pagina met zoekresultaten is gekoppeld. Standaardwaarde: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Winkelweergave | Identificeert de [!DNL Google Tag Manager] eigenschap die is gekoppeld aan de labels voor interne promoties. Standaardwaarde: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager`Er wor
 | [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_conversiewaardetype. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

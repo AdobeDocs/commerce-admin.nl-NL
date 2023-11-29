@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] pagina van de Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Bepaalt als nieuwsbrieven voor het werkingsgebied van de archiefmening worden toegelaten. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | Winkelweergave | Hiermee wordt het contactpersoon van de winkel aangegeven die wordt weergegeven als de afzender van een e-mail die wordt verzonden naar diegenen die vragen hun abonnement op de nieuwsbrief te beëindigen. |
 | [!UICONTROL Unsubscription Email Template] | Winkelweergave | Bepaalt de e-mailsjabloon die wordt gebruikt voor het bericht dat wordt verzonden naar diegenen die een verzoek indienen om hun nieuwsbrief te beëindigen. Standaardsjabloon: `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

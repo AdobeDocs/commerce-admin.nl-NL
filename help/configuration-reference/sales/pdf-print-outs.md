@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] pagina van de Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van facturen ter referentie. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id ter referentie op in de koptekst van de schuifregelaars voor het verpakken van de zending. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van creditnota&#39;s ter referentie. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

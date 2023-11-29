@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Promotions] pagina van de Commerce Admin.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Algemeen | Het aantal keren dat de herinnering probeert meldingen naar een specifiek e-mailadres te verzenden en is mislukt. Wanneer de waarde is ingesteld op 0, is er geen drempel en worden ondanks eventuele fouten nog steeds meldingen verzonden. |
 | [!UICONTROL Reminder Email Sender] | Winkelweergave | De opslagidentiteit die wordt weergegeven als de afzender van de e-mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Algemeen | Een waarde die aan het einde van alle codes wordt toegevoegd. Laat het veld leeg als u geen achtervoegsel wilt gebruiken. |
 | [!UICONTROL Dash Every X Characters] | Algemeen | Het interval voor het invoegen van een streepje (-) in alle couponcodes. Laat het veld leeg als u geen streepje wilt gebruiken. <br/>_**Opmerking:**_ Couponcodes die alleen door een streepje verschillen, worden als verschillende codes beschouwd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

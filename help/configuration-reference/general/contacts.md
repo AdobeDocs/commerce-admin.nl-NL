@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Contacts] pagina van de Commerce Admin.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | Winkelweergave | Hiermee schakelt u het [_Contact opnemen_](../../getting-started/store-details.md#contact-us-form) en plaatst een koppeling in de voettekst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options]
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 | [!UICONTROL Email Sender] | Winkelweergave | Identificeert de opslagcontactpersoon die wordt gebruikt voor alle reacties op e-mailvragen van de _Contact opnemen_ pagina. Standaardafzender: `Custom Email 2` |
 | [!UICONTROL Email Template] | Winkelweergave | Hiermee geeft u de sjabloon op die moet worden gebruikt als basis voor alle reacties op e-mailvragen van de _Contact opnemen_ pagina. Standaardsjabloon: `Contact Form` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

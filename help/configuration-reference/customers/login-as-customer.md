@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] pagina van de Commerce Admin.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 0%
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | Website | Hiermee wordt een titel toegevoegd voor de `Login as customer` selectievakje. |
 | [!UICONTROL Login as Customer checkbox tooltip] | Website | Hiermee wordt knopinfo toegevoegd voor de `Log in as customer` selectievakje. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

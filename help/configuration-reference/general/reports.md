@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Reports] pagina van de Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!UICONTROL Year-to-Date Starts] | Algemeen | Hiermee geeft u de maand en de dag op waarop de berekeningen van jaar tot dag worden gebaseerd. |
 | [!UICONTROL Current Month Starts] | Algemeen | Geeft de dag van de maand aan die in berekeningen wordt gebruikt om het begin van de huidige maand te markeren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | Algemeen | Schakelt het verzamelen van statistieken van producten die aan verlanglijst worden toegevoegd in of uit. |
 | [!UICONTROL Enable "Share WishList" Report] | Algemeen | Laat of maakt de inzameling van statistieken van gedeelde verlanglijsten toe onbruikbaar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

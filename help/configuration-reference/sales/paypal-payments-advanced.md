@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Controleer de configuratie-instellingen in het dialoogvenster [!UICONTROL PayPal Payments Advanced] de [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: c9159408-fbdf-4146-8292-9952cd5d01fa
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Website | Hiermee bepaalt u of PayPal Payments Advanced beschikbaar is voor uw klanten als betalingsmethode. |
 | [!UICONTROL Enable PayPal Credit] | Website | Hiermee wordt bepaald of PayPal-krediet beschikbaar is voor uw klanten als betalingsoptie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op productpagina&#39;s. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op winkelwagentje. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Sort Order] | Winkelweergave | Een getal dat de volgorde bepaalt waarin Paypal Payments Advanced wordt weergegeven wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. |
 | [!UICONTROL Payment Action] | Website | Bepaalt welke actie PayPal onderneemt wanneer een bestelling wordt verzonden. Opties: <br/>**`Authorization`**- Goedkeuring van de aankoop, maar blokkeert de middelen. De hoeveelheid wordt pas opgevraagd wanneer deze door de handelaar wordt &quot;gevangen&quot;.<br/>**`Sale`** - Het bedrag van de aankoop wordt toegestaan en onmiddellijk van de rekening van de klant teruggetrokken. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Confirmation] | Website | Hiermee bepaalt u of de klant een e-mailbevestiging van de betaling ontvangt. Opties: `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel URL and Return URL] | Website | Bepaalt de methode die wordt gebruikt om informatie uit te wisselen met de PayPal-server tijdens een transactie. Opties: <br/>**`GET`**- Hiermee wordt informatie opgehaald die het resultaat is van een proces. (Dit is de standaardmethode.)<br/>**`POST`** - Verzendt een gegevensblok, zoals gegevens die in een formulier zijn ingevoerd, naar het gegevensverwerkingsproces. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Algemeen | Hiermee bepaalt u hoe vaak afwikkelingsrapporten worden gegenereerd door PayPal. Opties: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Algemeen | Bepaalt het uur, de minuut en de seconde dat afwikkelingsrapporten worden gegenereerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Winkelweergave | De hexadecimale kleurcode van zes tekens voor de rand van twee pixels rond de koptekst. |
 | [!UICONTROL Page Background Color] | Winkelweergave | De hexadecimale kleurcode van zes tekens voor de achtergrondkleur van de uitcheckpagina die achter het koptekst- en betalingsformulier wordt weergegeven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Website | Bepaalt welke actie PayPal onderneemt wanneer het een bestelling ontvangt. Opties: <br/>**`Authorization`**- Goedkeuring van de aankoop, maar blokkeert de middelen. De hoeveelheid wordt pas opgevraagd wanneer deze door de handelaar wordt &quot;gevangen&quot;.<br/>**`Sale`** - Het bedrag van de aankoop wordt toegestaan en onmiddellijk van de rekening van de klant teruggetrokken. <br/>**`Order`**- Vertegenwoordigt een overeenkomst met PayPal die de handelaar toestaat om één of meerdere bedragen tot het geordende totaal van de kopersrekening van de klant, binnen een bepaalde periode te vangen. Dit kan tot 29 dagen zijn. Een of meer facturen moeten door de beheerder van de handel worden opgesteld om de middelen te kunnen afhalen. |
 | [!UICONTROL URL Display on Product Details Page] | Winkelweergave | Hiermee wordt bepaald of de knop Afhandeling met PayPal op productpagina&#39;s wordt weergegeven. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Website | Geeft een volledig overzicht weer van de lijstitems van het winkelwagentje van de klant op de Paypal-site. Opties: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Website | Hiermee bepaalt u of klanten de transactie kunnen voltooien vanaf de PayPal-site of dat ze naar uw winkel moeten terugkeren en de stap Bestelrevisie moeten voltooien voordat ze de bestelling verzenden. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

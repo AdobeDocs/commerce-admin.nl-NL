@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] pagina van de Commerce Admin.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 | [!UICONTROL New Relic Application Name] | Winkelweergave | De naam die u aan uw [!DNL New Relic] integratie. |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | Winkelweergave | Een optie om rapportgegevens die voor de winkel en Admin zijn verzameld, als afzonderlijke apps naar New Relic te verzenden. Voor deze optie moet een naam worden ingevoerd voor het [!UICONTROL New Relic Application Name]. De functie voegt de toepassingsnaam met een onderstrepingsteken toe aan de verzamelde toepassingsgegevens. Bijvoorbeeld: `MyStore_Adminhtml`, `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | Winkelweergave | Hiermee wordt bepaald of [!DNL New Relic] rapporten kunnen volgens schema worden uitgevoerd met [Cron](../../systems/cron.md). Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

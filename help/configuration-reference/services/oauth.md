@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Services] &gt; [!UICONTROL OAuth] pagina van de Commerce Admin.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Token Lifetime (hours]) | Algemeen | Bepaalt de tijdsduur in uren alvorens een klant API teken verloopt. De klanttoken verloopt nooit wanneer het veld leeg is. Standaardwaarde: `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | Algemeen | Hiermee bepaalt u de tijdsduur in uren voordat een API-beheertoken verloopt. De beheerderstoken verloopt nooit wanneer het veld leeg is. Standaardwaarde: `4` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Cleanup Probability] | Algemeen | Hiermee geeft u het aantal OAuth-verzoeken op voordat opschoning wordt gestart. Niet invoeren `0` om opruimen uit te schakelen. |
 | [!UICONTROL Enable WSDL Cache] | Algemeen | Hiermee bepaalt u de leeftijd van de items in minuten voordat ze worden schoongemaakt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Algemeen | Hiermee wordt het maximale aantal omleidingen aangegeven dat betrekking heeft op het posten van de geloofsbrieven van de consument. |
 | [!UICONTROL Expiration Period] | Algemeen | Bepaalt het aantal seconden alvorens een ongebruikte sleutel/een geheim verloopt nadat de symbolische uitwisseling OAuth begint. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | Algemeen | Hiermee geeft u het maximum aantal verificatiefouten op waarmee account kan worden afgesloten. |
 | [!UICONTROL Lockout Time (seconds)] | Algemeen | Hiermee geeft u de periode op in seconden waarna het account wordt ontgrendeld. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

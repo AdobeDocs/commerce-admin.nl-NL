@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] pagina van de Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | Algemeen | Hiermee wordt de standaardwaarde van de optie _Meta-trefwoorden_ veld op basis van plaatsaanduidingswaarden uit andere velden en eventuele extra tekst die wordt ingevoerd. Standaardplaatsaanduiding: <br/>Productnaam - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | Algemeen | Hiermee bepaalt u de standaardwaarde van het veld Metabeschrijving op basis van de plaatsaanduidingswaarden van andere velden en eventuele extra tekst die wordt ingevoerd. Standaardplaatsaanduiding: <br/>Productnaam - `{{name}}` <br/>Beschrijving - `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee kunt u productbeoordelingen inschakelen. Opties: `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | Website | Hiermee bepaalt u of klanten een account bij uw winkel moeten openen om productrevisies te kunnen schrijven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | Winkelweergave | Hiermee bepaalt u of de stalen worden weergegeven in de lijst met producten. Opties: `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | Winkelweergave | Hiermee bepaalt u of de staalknopinfo wordt weergegeven. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | Winkelweergave | Hiermee wordt de sjabloon aangegeven die wordt gebruikt voor e-mailberichten met voorraadwaarschuwingen. Standaardsjabloon: `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | Winkelweergave | Hiermee bepaalt u de contactpersoon van de winkel die wordt weergegeven als de afzender van het e-mailbericht met productwaarschuwing. Opties: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | Algemeen | Selecteer de rol die de e-mail is `from`. |
 | [!UICONTROL Error Email Template] | Algemeen | Selecteer de e-mailsjabloon die u wilt gebruiken voor foutmeldingen met betrekking tot productwaarschuwingen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | Winkelweergave | Hiermee wordt het plaatsaanduidingsbestand aangegeven dat voor de miniatuur is gekozen. |
 | [!UICONTROL Choose File] |  | Navigeert naar het bestand en uploadt het als plaatsaanduidingsafbeelding voor de tekst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | Algemeen | Hiermee bepaalt u hoe lang, in seconden, de weergegeven producten worden weergegeven in de lijst die onlangs is weergegeven. |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | Algemeen | Bepaalt hoe lang, in seconden, de vergeleken producten in onlangs vergeleken lijst worden getoond. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | Winkelweergave | Als u verwante video&#39;s wilt weergeven, stelt u in op `Yes`. |
 | [!UICONTROL Auto restart video] | Winkelweergave | Als u automatisch opnieuw afspelen van video wilt inschakelen, stelt u in op `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | Algemeen | Hiermee bepaalt u het bereik van de basisvaluta. Opties: `Global` / `Website` |
 | [!UICONTROL Default Product Price] | Algemeen | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Definieert de standaardproductprijs, indien van toepassing. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | Winkelweergave | Hiermee bepaalt u het aantal producten dat in elke stap wordt opgenomen. |
 | [!UICONTROL Maximum Number of Price Intervals] | Winkelweergave | Hiermee stelt u een limiet in voor het aantal prijsintervallen dat wordt weergegeven in gelaagde navigatie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | Website | Hiermee bepaalt u wie producten van de categorie kan kopen. Opties: <br/>`Yes, for Everyone` - Biedt iedereen de mogelijkheid om producten van de categorie in hun winkelwagentjes te plaatsen. <br/>`Yes, for Specified Customer Groups` - Hiermee kunnen alleen leden van geselecteerde klantgroepen producten uit de categorie in hun winkelwagentjes plaatsen. <br/>`No` - Laat niemand toe producten van de categorie in hun winkelwagentjes te plaatsen. |
 | [!UICONTROL Disallow Catalog Search by] | Website | Identificeert de klantengroepen die niet naar producten in de categorie mogen zoeken. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Winkelweergave | Als er meerdere URL&#39;s zijn die naar dezelfde categoriepagina verwijzen, gebruikt deze optie een canonieke metatag om de categorie-URL te identificeren die zoekprogramma&#39;s moeten indexeren. De URL bevat een volledige naam voor de categorie met behulp van de metatag. Hierdoor wordt dubbele inhoud verkleind en SEO verbeterd. Opties: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Winkelweergave | Als er meerdere URL&#39;s zijn die naar dezelfde productpagina verwijzen, gebruikt deze optie een canonieke metatag om de product-URL te identificeren die zoekprogramma&#39;s moeten indexeren. De URL bevat een volledige naam voor het product met de metatag. Hierdoor wordt dubbele inhoud verkleind en SEO verbeterd. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | Algemeen | Bepaalt het aantal subcategorieniveaus in de bovenste navigatie. De standaardwaarde van `0` het aantal niveaus wordt niet beperkt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configur
 | [!UICONTROL Number of top search results to cache] | Winkelweergave | Het aantal populaire zoektermen en resultaten dat in cache moet worden geplaatst voor snellere reacties. De waarde van `0` Hiermee plaatst u alle zoektermen en resultaten in cache wanneer u een tweede keer invoert. Standaardwaarde: `100` |
 | [!UICONTROL Autocomplete Limit] | Winkelweergave | Hiermee bepaalt u het maximum aantal regels dat beschikbaar is in het dialoogvenster [storefront popover] pagina. De standaardwaarde kan worden gewijzigd wanneer Live zoeken is geïnstalleerd en later worden bijgewerkt door deze configuratie-instelling te wijzigen. Standaardwaarde: `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce met Elasticsearch
 
@@ -289,7 +289,7 @@ Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellin
 | [!UICONTROL Show Results Count for Each Suggestion] | Winkelweergave | Hiermee bepaalt u of het aantal zoekresultaten voor elke suggestie wordt weergegeven. Afhankelijk van thema, verschijnt het aantal gewoonlijk tussen haakjes na de suggestie. Opties: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Zie voor meer informatie [minimum_should_match, parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in de documentatie van de Elasticsearch. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellin
 | [!UICONTROL Use Content Disposition] | Winkelweergave | Hiermee bepaalt u hoe de koppeling naar de downloadbare inhoud wordt geleverd als e-mailbijlage of als inline-koppeling in een browservenster. Opties: <br/>**`Attachment`**- De downloadkoppeling wordt als e-mailbijlage bezorgd.<br/>**`Inline`** - De downloadkoppeling wordt als een inline-koppeling op een webpagina aangeboden. |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Website | Hiermee bepaalt u of gasten die downloadbare producten aanschaffen zich moeten registreren voor een account en zich moeten aanmelden om het afhandelingsproces te voltooien. Opties: <br/>**`Yes`**- Als het winkelwagentje downloadbare producten bevat, moet de gast zich registreren voor een account of zich aanmelden bij een bestaande account om de aankoop te voltooien.<br/>**`No`** - De downloadkoppeling wordt als een inline-koppeling in de tekst van het e-mailbericht aangeboden.  <br/> _**Opmerking:**_ Afhandeling door gasten is alleen beschikbaar voor downloadproducten als Delen is ingesteld op `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellin
 | [!UICONTROL Time Format] | Winkelweergave | Stelt de tijdnotatie in op een klok van 12 of 24 uur. Opties: `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | Winkelweergave | Hiermee definieert u het begin- en eindbereik van de jaren die worden weergegeven in het dialoogvenster _Jaar_ veld. De waarde moet worden ingevoerd in de notatie JJJJ. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellin
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Winkelweergave | Hiermee bepaalt u het aantal gebeurtenissen dat in de gebeurtenisschuifregelaar-widget op de categoriepagina&#39;s wordt weergegeven. Als u de opdracht wilt overschrijven, gebruikt u de opdracht `limit="x"` variabele. |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Winkelweergave | Hiermee bepaalt u het aantal gebeurtenissen dat wordt weergegeven in de gebeurtenisschuifregelaarwidget op CMS-pagina&#39;s, zoals de startpagina. Als u de opdracht wilt overschrijven, gebruikt u de opdracht `scroll="x"` variabele. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellin
 | [!UICONTROL Show Upsell Products] | Algemeen | Hiermee bepaalt u welke lijst met up-sell-producten wordt weergegeven in de winkel. Het kan of de lijst zijn die manueel in de Informatie van het Product, de lijst wordt geselecteerd die in antwoord op een regel van de productverhouding, of een combinatie van twee wordt geproduceerd. Opties: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | Algemeen | Hiermee bepaalt u de volgorde waarin de producten in de lijst Upsell-producten worden weergegeven. Opties: `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

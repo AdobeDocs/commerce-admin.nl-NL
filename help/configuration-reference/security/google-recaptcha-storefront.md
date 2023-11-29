@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] pagina van de Commerce Admin.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Ga voor meer informatie over het gebruik van Google reCAPTCHA om je winkel te be
 | [!UICONTROL Theme] | Website | Bepaalt de stijl van het vak Google reCAPTCHA. Opties: `Light Theme` (standaardwaarde) / `Dark Theme` |
 | [!UICONTROL Language Code] | Winkelweergave | De [code van twee tekens](https://developers.google.com/recaptcha/docs/language) dat de taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA wordt gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Ga voor meer informatie over het gebruik van Google reCAPTCHA om je winkel te be
 | [!UICONTROL Theme] | Algemeen | Bepaalt de stijl van het vak Google reCAPTCHA. Opties: `Light Theme` (standaardwaarde) / `Dark Theme` |
 | [!UICONTROL Language Code] | Winkelweergave | A [code van twee tekens](https://developers.google.com/recaptcha/docs/language) dat de taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA wordt gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Ga voor meer informatie over het gebruik van Google reCAPTCHA om je winkel te be
 | [!UICONTROL Theme] | Website | Bepaalt de stijl van het vak Google reCAPTCHA. Opties: `Light Theme` (standaardwaarde) / `Dark Theme` |
 | [!UICONTROL Language Code] | Winkelweergave | A [code van twee tekens](https://developers.google.com/recaptcha/docs/language) dat de taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA wordt gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Ga voor meer informatie over het gebruik van Google reCAPTCHA om je winkel te be
 | [!UICONTROL reCAPTCHA Validation Failure Message] | Winkelweergave | Het bericht dat in de opslagruimte wordt weergegeven als de verificatie mislukt. Standaardtekst: `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | Winkelweergave | Het bericht dat in de storefront wordt getoond als reCAPTCHA er niet in slaagt om een controleresultaat terug te keren. Standaardtekst: `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ Ga voor meer informatie over het gebruik van Google reCAPTCHA om je winkel te be
 | [!UICONTROL Enable for Coupon Codes] | Website | Geeft het type reCAPTCHA aan dat wordt gebruikt wanneer klanten een [couponcode](../../merchandising-promotions/price-rules-cart-coupon.md). Opties:<br/>**`No`**- (standaard) De verzending van de waardeboncode wordt niet gevalideerd.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist dat de gebruiker de _Ik ben geen robot_ selectievakje.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interacties op basis van de score te vereisen.<br/>**`Invisible reCAPTCHA v3`** - (Aanbevolen) Hiermee wordt het gedrag van de gebruiker op de achtergrond gevalideerd op basis van de interactiescore. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Website | Geeft het type reCAPTCHA aan dat wordt gebruikt wanneer klanten voor een aankoop betalen met [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Opties:<br/>**`No`**- (standaardwaarde) Hiermee wordt de aanvraag voor het opnieuw instellen van het wachtwoord niet gevalideerd.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist dat de gebruiker de _Ik ben geen robot_ selectievakje.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interactie op basis van de score te vereisen.<br/>**`Invisible reCAPTCHA v3`** - (Aanbevolen) Hiermee wordt het gedrag van de gebruiker op de achtergrond gevalideerd op basis van de interactiescore. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

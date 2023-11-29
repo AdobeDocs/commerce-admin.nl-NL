@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Sales] pagina van de Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | Winkelweergave | Hiermee bepaalt u of het IP-adres van de klant wordt weergegeven op bestellingen, facturen, verzendingen en creditnota&#39;s. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!UICONTROL Fixed Product Tax] | Website | Een getal dat bepaalt wanneer de Vaste productbelasting wordt berekend ten opzichte van andere uitchecktotalen. Standaardwaarde: `50` |
 | [!UICONTROL Grand Total] | Website | Een getal dat bepaalt wanneer het Eindtotaal wordt berekend ten opzichte van andere uitchecktotalen. Standaardwaarde: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | Winkelweergave | Hiermee bepaalt u of de klanten de volgorde van hun accounts kunnen wijzigen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | Winkelweergave | Bepaalt de mogelijkheid om een creditmemo met een totaal nul te creëren. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 | [!UICONTROL Logo for HTML Print View] | Winkelweergave | Hiermee wordt het logobestand aangegeven dat wordt weergegeven in de koptekst van de HTML-afdrukweergave van facturen en verpakkingsschuifregelaars. Toegestane bestandstypen: <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Winkelweergave | Het adres van de winkel waar u het wilt weergeven op facturen en pakslips. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 | [!UICONTROL Multi-address Description Message] | Winkelweergave | Voor multi-adresorden, bepaalt het bericht dat in het het winkelwagentje verschijnt als de punten die naar een adres worden verzonden minder dan het minimumordebedrag zijn. |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | Winkelweergave | Voor multi-adresorden, bepaalt het bericht dat van de mini kart of controleverbinding verschijnt wanneer het ordebedrag minder dan het vereiste minimumordebedrag is. Als deze optie leeg blijft, wordt een standaardbericht weergegeven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | Algemeen | Hiermee bepaalt u of real-time, samengevoegde verkoopgegevens worden gebruikt om momentopnamerapporten van het dashboard te maken. Als u een grote hoeveelheid gegevens hebt te verwerken, kunnen de prestaties worden verbeterd door de weergave van realtime gegevens uit te schakelen. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | Website | Bepaalt de levensduur van lopende orders in minuten. Standaardinstelling: `480` minuten (8 uur) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Printed Card] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Geef op of een afgedrukte kaart voor de bestelling kan worden toegevoegd. |
 | [!UICONTROL Default Price for Printed Card] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Geef de standaardprijs op voor de afgedrukte kaart. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 | [!UICONTROL Default "What's This" Text Message] | Winkelweergave | Het tekstbericht dat verschijnt wanneer de klant &quot;wat is dit?&quot;klikt koppeling op de pagina met productweergave. |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | Algemeen | De door de fabrikant voorgestelde eindgebruikersprijs (MSRP). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | Website | Bepaalt als de Orde door SKU in het dashboard van de klantenrekening beschikbaar is. Opties: <br/>**`Yes, for Everyone`**- Het tabblad Order by SKU wordt weergegeven in het accountdashboard van alle klanten.<br/>**`Yes, for Specified Customer Groups`** - Het tabblad Volgorde per SKU wordt weergegeven in het accountdashboard voor leden van opgegeven groepen of een gedeelde catalogus. <br/>**`No`**- Het tabblad Order by SKU is niet beschikbaar in de klantenaccount. |
 | [!UICONTROL Customer Groups] | Website | Bepaalt de Klantengroepen. Opties: `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee schakelt u Onmiddellijk aanschaffen in voor de winkelweergave, als de betalingsmethode, zoals Braintree, vault heeft ingeschakeld. Opties: `Yes` / `No` |
 | [!UICONTROL Button Text] | Winkelweergave | Hiermee geeft u de tekst op die op de knop Onmiddellijk aanschaffen wordt weergegeven. De standaardtekst is `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Het orderarchi
 | [!UICONTROL Archive Orders Purchased] | Algemeen | Hiermee bepaalt u het aantal dagen dat doorgaat voordat een voltooide bestelling wordt gearchiveerd. Standaardwaarde: `30` |
 | [!UICONTROL Order  Statuses to be Archived] | Algemeen | Hiermee bepaalt u de [status](../../stores-purchase/order-status.md) van te archiveren orders. Standaard worden bestellingen met de status Voltooid of Gesloten gearchiveerd. Opties: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Terugkeer conf
 | [!UICONTROL Enable RMA on Product Level] | Website | Bepaalt de standaardwaarde voor het Enable gebied RMA in productinformatie. |
 | [!UICONTROL Use Store Address] | Website | Hiermee bepaalt u de naam en het adres van de contactpersoon die wordt gebruikt voor zendingen geretourneerde goederen. Opties: <br/>**`Yes`**- Gebruikt de [Oorsprongpunt](../../stores-purchase/shipping-settings.md#point-of-origin) adres van Verzendinstellingen.<br/>**`No`** - Hiermee opent u het adresformulier, zodat u een ander adres kunt invoeren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

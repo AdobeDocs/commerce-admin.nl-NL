@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] pagina van de Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Algemeen | Hiermee wordt bepaald of de beloningspunten automatisch worden afgetrokken van het restitutiebedrag. Opties: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Winkelweergave | Hier geeft u de CMS-pagina op waarin uw bonuspuntprogramma wordt uitgelegd. Er verschijnt een koppeling naar de pagina met standaardbeloningen op de locaties in de winkel waar punten kunnen worden verdiend. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Website | Bepaalt het aantal punten die door een klant worden verdiend die een overzicht voorlegt dat voor publicatie wordt goedgekeurd. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Website | Hiermee beperkt u het aantal revisies dat kan worden gebruikt om punten per klant te verdienen. Laat het veld leeg voor geen limiet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Winkelweergave | Bepaalt het malplaatje van e-mail dat klanten ontvangen wanneer de grens van de vervalwaarschuwing voor een partij punten is bereikt. Standaardsjabloon: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Algemeen | Hier geeft u het aantal dagen vóór het verlopen van het punt op waarop het bericht moet worden verzonden. Laat leeg om geen vervalmeldingen te verzenden. Er wordt geen melding verzonden als het aantal ingevoerde dagen groter is dan de resterende levensduur van de punten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

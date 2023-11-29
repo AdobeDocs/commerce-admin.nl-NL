@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] pagina van de Commerce Admin.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Card Notification Email Sender] | Winkelweergave | Identificeert de [contactpersoon voor winkel](../../getting-started/store-details.md#store-email-addresses) die wordt weergegeven als de afzender van het e-mailbericht voor een cadeaukaart. Standaardwaarde: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Winkelweergave | Hiermee bepaalt u de [template](../../systems/email-templates.md) die wordt gebruikt voor het e-mailbericht voor een cadeaukaart. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Message Maximum Length] | Winkelweergave | Hiermee bepaalt u het maximum aantal tekens dat is toegestaan in een cadeaukaartbericht. Standaardwaarde: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Algemeen | Hiermee bepaalt u of een rekening met een cadeaukaart wordt gegenereerd wanneer een klant een bestelling plaatst of wanneer de bestelling wordt gefactureerd. Opties: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 | [!UICONTROL Gift Card Email Sender] | Winkelweergave | Identificeert de [contactpersoon voor winkel](../../getting-started/store-details.md#store-email-addresses) die wordt weergegeven als de afzender van de e-mail met de cadeaukaart. Standaardwaarde: `General Contact` |
 | [!UICONTROL Gift Card Template] | Winkelweergave | Hiermee bepaalt u de [template](../../systems/email-templates.md) wordt gebruikt voor het e-mailadres van de cadeaukaart. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 0%
 | [!UICONTROL Low Code Pool Threshold] | Algemeen | Bepaalt het aantal verslagen in de codepool die een alarm teweegbrengt dat de pool moet worden aangevuld. |
 | [!UICONTROL Generate] | Algemeen | Klik om de lijst met kaartcodes voor cadeaus te genereren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -2,9 +2,9 @@
 title: Configuratiebereik
 description: Leer over het plaatsen van het werkingsgebied voor configuratiemontages in Admin van de Handel.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De kiezer van de Mening van de Opslag in de upper-left hoek van vele configurati
 | [!UICONTROL Default Store View] | De naam van de standaardopslagweergave die aan de bovenliggende opslag is gekoppeld. |
 | [!UICONTROL Stores Configuration] | Springt naar het raster Stores en is hetzelfde als kiezen [!UICONTROL Stores] > [!UICONTROL All Stores] in de zijbalk Beheerder. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Selectievakjes voor systeemwaarde gebruiken geselecteerd](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Het label van het selectievakje verandert afhankelijk van het huidige bereik en 
 | [!UICONTROL Use Default] | Dit selectievakje verschijnt wanneer het configuratiebereik is ingesteld op Hoofd `Website`en verwijst naar de standaardwinkel die aan de website is toegewezen. |
 | [!UICONTROL Use Website] | Dit checkbox verschijnt wanneer het configuratiewerkingsgebied aan een specifieke opslagmening wordt geplaatst. Als deze optie is geselecteerd, wordt de instelling gebruikt van de bovenliggende website die is gekoppeld aan de winkelweergave. In dit geval wordt het opslagniveau overgeslagen omdat het van toepassing is op de standaardwinkel die aan de website is gekoppeld. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Bereik instellen
 
@@ -94,4 +94,4 @@ Ga als volgt te werk voordat u een configuratie-instelling maakt die alleen van 
 | Talen | Om meerdere talen te ondersteunen, moet alle inhoud, inclusief productbeschrijvingen, [vertaald](../stores-purchase/store-localize.md#localize-products) voor elke winkelweergave. |
 | Valuta weergeven | Een andere [weergaverevaluta](../stores-purchase/currency-configuration.md) kan worden gebruikt voor elke winkelweergave, hoewel de transacties op websiteniveau worden verwerkt met behulp van de basisvaluta. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Tax] pagina van de Commerce Admin.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Belastingklass
 | [!UICONTROL Default Tax Class for Product] | Algemeen | Identificeert de standaardbelastingklasse die voor producten wordt gebruikt. |
 | [!UICONTROL Default Tax Class for Customer] | Algemeen | Identificeert de standaardbelastingklasse die voor klanten wordt gebruikt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Belastingklass
 | [!UICONTROL Apply Tax On] | Website | Hiermee wordt bepaald of de belasting van toepassing is op de oorspronkelijke prijs of op een aangepaste prijs, indien beschikbaar. Opties: `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | Website | Indien ingeschakeld past u consistente prijzen toe over de grenzen van regio&#39;s met verschillende belastingtarieven. Opties: `Yes` / `No` <br/><br/>**_Opmerking:_**Door grensoverschrijdende handel te gebruiken wordt de winstmarge aangepast aan het belastingtarief. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Belastingklass
 | [!UICONTROL Default State] | Winkelweergave | Bepaalt de staat waarop de belastingberekeningen zijn gebaseerd. Een sterretje (*) kan als jokerteken fungeren om alle staten in het geselecteerde land aan te geven. |
 | [!UICONTROL Default Post Code] | Winkelweergave | Identificeert de postcode of postcode waarop de belastingberekeningen zijn gebaseerd. Een asterisk (*) kan als vervanging functioneren om op alle postcodes binnen de geselecteerde staat te wijzen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Prijsweergave-
 | [!UICONTROL Display Product Prices in Catalog] | Winkelweergave | Hiermee bepaalt u of in de catalogus gepubliceerde productprijzen belasting bevatten of uitsluiten, of twee versies van de prijs weergeven: één met en de andere zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Opmerking:_**Als u het veld Productprijzen weergeven instelt op `Including Tax`De belasting wordt alleen weergegeven als er een belastingregel bestaat die overeenkomt met de fiscale oorsprong of er een klantadres is dat overeenkomt met de belastingregel. Gebeurtenissen die een overeenkomst kunnen activeren, zijn onder andere het aanmaken van een klantenaccount, aanmelding of het gebruik van het taxatieprogramma BTW en verzendkosten in het winkelwagentje. |
 | [!UICONTROL Display Shipping Prices] | Winkelweergave | Hiermee bepaalt u of verzendprijzen belasting bevatten of uitsluiten, of twee versies van de verzendprijs weergeven: één met en de andere zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Weergave-inste
 | [!UICONTROL Display Full Tax Summary] | Winkelweergave | Hiermee wordt bepaald of het winkelwagentje een volledige belastingsamenvatting bevat. Opties: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Winkelweergave | Hiermee wordt bepaald of het winkelwagentje een fiscaal subtotaal bevat wanneer de belasting nul is. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Weergave-inste
 | [!UICONTROL Display Gift Wrapping Prices] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee wordt bepaald of de prijzen voor het inpakken van cadeaus in het subtotaal worden opgenomen. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee wordt bepaald of de prijzen van afgedrukte kaarten in het subtotaal worden opgenomen. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Vaste productb
 | [!UICONTROL FPT Tax Configuration] | Website | Hiermee bepaalt u hoe de FPT-belasting wordt berekend. Opties: <br/>**`Not Taxed`**- Selecteer deze optie als uw belastingjurisdictie FPT niet belast. (Bijvoorbeeld Californië.)<br/>**`Taxed`** - Selecteer deze optie als de belastingjurisdictie FPT wel belast. (Bijvoorbeeld Canada.) <br/>**`Loaded and Displayed with Tax`**- Klik op deze optie als FPT wordt toegevoegd aan het totaal van de bestelling voordat u belasting toepast. (Bijvoorbeeld EU-landen.) |
 | [!UICONTROL Include FPT in Subtotal] | Website | Hiermee wordt bepaald of FPT is opgenomen in het subtotaal van het winkelwagentje. Opties: <br/>**`Yes`**- FPT wordt opgenomen in het subtotaal van het winkelwagentje.<br/>**`No`** - FPT is niet in het subtotaal opgenomen en wordt na het subtotaal in het winkelwagentje geplaatst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

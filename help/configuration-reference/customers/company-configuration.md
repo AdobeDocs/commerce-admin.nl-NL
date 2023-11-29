@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] pagina van de Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-funct
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Website | Bepaalt of bezoekers van uw winkel de keuze hebben om [registreren](../../customers/customer-sign-in.md) voor een bedrijfsrekening of een individuele rekening. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-funct
 | [!UICONTROL Send Email Copy Method] | Winkelweergave | De e-mailmethode die wordt gebruikt om de kopie van de registratie-e-mail te verzenden. Opties: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt voor het bedrijfsregistratiebericht. Standaardsjabloon: `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-funct
 | [!UICONTROL Default 'Customer Status Active' Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer de status van een klant actief wordt. Dit e-mailbericht wordt alleen naar de klant verzonden. Standaardsjabloon: `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer de status van een klant inactief wordt. Dit e-mailbericht wordt alleen naar de klant verzonden. Standaardsjabloon: `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-funct
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer de status van een bedrijf verandert in _Geblokkeerd_. Standaardsjabloon: `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer de status van een bedrijf verandert in _In behandeling_. Standaardsjabloon: `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-funct
 | [!UICONTROL Refunded Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer een bedrag uit een bestelling wordt terugbetaald aan bedrijfskrediet. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer een bestelling wordt teruggezet naar bedrijfskrediet. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

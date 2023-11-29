@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Invitations] pagina van de Commerce Admin.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Winkelweergave | Hiermee wordt bepaald of het uitnodigingsformulier een veld bevat waarin de inviter een aangepast bericht kan toevoegen dat via e-mail naar de invitee wordt verzonden. Dit beïnvloedt niet de capaciteit van de beheerder om een bericht aan een Uitnodiging toe te voegen. Opties: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Winkelweergave | Bepaalt het maximumaantal uitnodigingen dat de inviter tegelijk kan verzenden. Er wordt een andere uitnodiging verzonden naar elk e-mailadres dat de inviter in het formulier heeft opgenomen. Dit beschermt servermiddelen door grote aantallen Uitnodigingen te verhinderen tegelijkertijd worden verzonden, en maakt het minder waarschijnlijk voor uitnodigingen om als spam worden verzonden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 | [!UICONTROL Customer Invitation Email Sender] | Winkelweergave | Bepaalt de afzender van de e-mail die invitees ontvangt wanneer een uitnodigings-e-mail wordt verzonden. Standaardwaarde: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Winkelweergave | Bepaalt de sjabloon van het e-mailbericht dat genodigden ontvangen wanneer een e-mailuitnodiging wordt verzonden. Standaardsjabloon: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

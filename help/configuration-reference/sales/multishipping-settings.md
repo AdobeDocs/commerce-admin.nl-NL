@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] pagina van de Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voor gedetailleerde informatie over het configureren van deze instellingen voor 
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Website | Hiermee bepaalt u of enkelvoudige bestellingen naar meerdere adressen (alleen geregistreerde klanten) mogen worden verzonden. Opties: `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Website | Hiermee stelt u een limiet in voor het aantal eenheden van een product dat naar meerdere adressen kan worden verzonden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

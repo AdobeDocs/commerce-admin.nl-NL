@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Wish List] pagina van de Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Multiple Wish Lists] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Wanneer ingesteld op `Yes`, staat klanten toe om veelvoudige wensen lijsten tot stand te brengen en te handhaven. Opties: `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Als meerdere verlanglijsten zijn ingeschakeld, bepaalt u het maximumaantal wenslijsten dat klanten aan hun account kunnen hebben gekoppeld. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Max Emails Allowed to be Sent] | Winkelweergave | Hiermee bepaalt u het maximum aantal e-mailberichten dat in een batch kan worden verzonden. Door een maximumlimiet in te stellen, kunt u de belasting op de server verminderen. Het toegestane maximumaantal is 10.000. Standaardwaarde: `10` |
 | [!UICONTROL Email Text Length Limit] | Winkelweergave | Bepaalt het maximumaantal karakters dat in het bericht kan worden omvat. Het toegestane maximumaantal is 10.000. Standaardwaarde: `255` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -58,4 +58,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Website | Vormt de vertoning van de Samenvatting van de Lijst van de Vlek in het dashboard van de klantenrekening. Opties: `Display number of items in wish list` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

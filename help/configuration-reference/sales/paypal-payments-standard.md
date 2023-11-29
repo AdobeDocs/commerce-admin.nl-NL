@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Controleer de configuratie-instellingen in het dialoogvenster [!UICONTROL PayPal Payments Standard] de [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Website | Hiermee bepaalt u of PayPal Payments Pro beschikbaar is voor uw klanten als betalingsmethode. |
 | [!UICONTROL Enable PayPal Credit] | Website | Hiermee wordt bepaald of PayPal-krediet beschikbaar is voor uw klanten als betalingsoptie. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PayPal-krediet adverteren
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op productpagina&#39;s. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Website | Hiermee bepaalt u de positie en de grootte van de [!DNL PayPal Credit] banner op winkelwagentje. Opties: (gelijk aan voor [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Website | Bepaalt welke creditcards beschikbaar zijn voor klanten tijdens het afrekenen. Selecteer elke ondersteunde kaart. Opties: `American Express` (hiervoor is een extra overeenkomst vereist) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Website | Hiermee bepaalt u of klanten een [factureringsovereenkomst](../../stores-purchase/paypal-billing-agreements.md) met uw winkel. Opties: <br/>**`Auto`**- De klant kan zich aanmelden voor een factureringsovereenkomst tijdens de Express Checkout.<br/>**`Ask Customer`** - De klant wordt gevraagd of hij zich wil aanmelden voor een factureringsovereenkomst. <br/>**`Never`**- Klanten kunnen zich niet aanmelden voor een factureringsovereenkomst. |
 | [!UICONTROL Skip Order Review Step] | Website | Hiermee bepaalt u of klanten de transactie kunnen voltooien vanaf de PayPal-site of dat ze naar uw winkel moeten terugkeren en de stap Bestelrevisie moeten voltooien voordat ze de bestelling verzenden. Opties: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Website | Als deze optie is ingeschakeld, wordt een overzicht weergegeven van de regelobjecten in het winkelwagentje op de PayPal-betalingspagina. Opties: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Website | Wanneer deze optie is ingeschakeld, kunnen klanten een factureringsovereenkomst starten vanaf het dashboard van hun klantenaccount. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Algemeen | Hiermee bepaalt u hoe vaak afwikkelingsrapporten worden gegenereerd door PayPal. Opties: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Algemeen | Bepaalt het uur, de minuut en de seconde dat afwikkelingsrapporten worden gegenereerd. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Winkelweergave | De hexadecimale kleurcode van zes tekens voor de rand van twee pixels rond de koptekst. |
 | [!UICONTROL Page Background Color] | Winkelweergave | De hexadecimale kleurcode van zes tekens voor de achtergrondkleur van de uitcheckpagina die achter het koptekst- en betalingsformulier wordt weergegeven. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
