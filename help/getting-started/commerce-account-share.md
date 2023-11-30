@@ -3,9 +3,9 @@ title: Delen a [!DNL Commerce] account
 description: Leer hoe u beperkte toegang tot uw [!DNL Commerce] rekening voor andere [!DNL Commerce] rekeninghouders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De [!DNL Commerce] Het ondersteuningsteam heeft geen toegang tot de account en k
 
 1. Onder _[!UICONTROL Shared Information]_Ga als volgt te werk:
 
-   - Als u de gedeelde account wilt identificeren, voert u een **[!UICONTROL Share Name]**. Deze naam is bedoeld voor interne referentie en is alleen zichtbaar voor u en de persoon met wie u uw account deelt.
+   - Als u de gedeelde account wilt identificeren, voert u een **[!UICONTROL Share Name]**. Deze naam is bedoeld voor interne referentie en is alleen zichtbaar voor u en de persoon met wie u uw account deelt. (Voer geen naam in voor delen die begint met `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - Als u uw persoonlijke contactgegevens met de nieuwe gebruiker wilt delen, gaat **[!UICONTROL Your Email]** en **[!UICONTROL Your Phone]**.
 
 1. Onder _[!UICONTROL Grant Account Permissions]_, schakelt u het selectievakje van elk [!DNL Commerce] product en service die u wilt delen.
@@ -95,6 +95,10 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 1. Klik in het linkernavigatievenster op **[!UICONTROL Shared Access]**.
 
 1. De account zoeken die moet worden ingetrokken onder _[!UICONTROL Managing Users & Permissions]_en klik op **[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > Indien  **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of de **[!UICONTROL Share Name]** begint met `Cloud Shared Access from MAG XYZ` - doorgaans, [deze rekeningen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan niet worden verwijderd.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL Delete User]**.
 
