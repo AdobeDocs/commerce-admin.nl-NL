@@ -3,9 +3,9 @@ title: '''[!DNL Commerce Intelligence] gereedschappen'
 description: Leer hoe handelaars van Adobe Commerce en van de Magento Open Source de hulpmiddelen van de Intelligentie van de Handel kunnen gebruiken om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te maken.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Zie voor technische informatie de [[!DNL Advanced Reporting]][2]{:target=&quot;_
 
 >[!NOTE]
 >
->[!DNL Commerce Intelligence] accounts maken gebruik van ingebouwde rapportage in plaats van de [!DNL Advanced Reporting] gebruiken.
+>Vanwege compatibiliteitsproblemen met [!DNL Adobe Commerce Intelligence], kan de Handel tijdelijk geen Geavanceerde Rapportering steunen gebruikend AWS S3 Emmertje als middel voor brongegevensdossier in [!DNL Commerce Intelligence].
 
 ![Geavanceerd rapportdashboard](./assets/reporting-advanced.png){width="700"}
 
