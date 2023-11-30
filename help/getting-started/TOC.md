@@ -5,7 +5,7 @@ breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
    + [Klantrapporten](customer-reports.md)
    + [Productrapporten](product-reports.md)
    + [Privéverkooprapporten](private-sales-reports.md)
-   + [Business Intelligence-tools](business-intelligence.md)
+   + [Handelsinformatie-instrumenten](business-intelligence.md)
    + [New Relic-rapportage](new-relic-reporting.md)
 + Bronnen {#resources}
    + [Ecosysteem](resources.md)

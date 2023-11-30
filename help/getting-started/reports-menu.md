@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce en Magento Open Source bieden een uitgebreide selectie van rapporten om u op de hoogte te houden van uw marketinginspanningen, verkoopproducten en klantactiviteiten.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -54,6 +54,6 @@ De selectie van [productrapporten](product-reports.md) Dit zijn onder andere Vie
 
 [Statistieken](sales-reports.md#refresh-statistics) is een hulpmiddel dat het prestatieseffect van het produceren van rapporten door statistische gegevens te berekenen en op te slaan vermindert. In plaats van de statistieken opnieuw te berekenen telkens als een rapport wordt geproduceerd, worden de opgeslagen statistieken gebruikt tot u de statistieken vernieuwt.
 
-### [!DNL Business Intelligence]
+### [!DNL Commerce Intelligence]
 
-Geïntegreerd [[!DNL Business Intelligence]](business-intelligence.md) de hulpmiddelen verstrekken het inzicht dat u voor het nemen van strategische bedrijfsbesluiten nodig hebt.
+Geïntegreerd [[!DNL Commerce Intelligence]](business-intelligence.md) de hulpmiddelen verstrekken het inzicht dat u voor het nemen van strategische bedrijfsbesluiten nodig hebt.

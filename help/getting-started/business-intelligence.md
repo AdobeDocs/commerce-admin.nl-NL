@@ -1,32 +1,32 @@
 ---
-title: '''[!DNL Business Intelligence] gereedschappen'
-description: Leer hoe handelaars van Adobe Commerce en van de Magento Open Source bedrijfsintelligentiegereedschappen kunnen gebruiken om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te nemen.
+title: '''[!DNL Commerce Intelligence] gereedschappen'
+description: Leer hoe handelaars van Adobe Commerce en van de Magento Open Source de hulpmiddelen van de Intelligentie van de Handel kunnen gebruiken om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te maken.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] gereedschappen
+# [!DNL Commerce Intelligence] gereedschappen
 
-De bedrijfsintelligentiegereedschappen van het gebruik om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te nemen.
+De hulpmiddelen van de Intelligentie van de Handel van het gebruik om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te maken.
 
-## [!DNL Business Intelligence] account
+## [!DNL Commerce Intelligence] account
 
-Wanneer u een [!DNL Business Intelligence] via Adobe hebt u toegang tot vijf dashboards met ongeveer 70 rapporten. Deze rapporten zijn ontworpen om inzicht te verschaffen in uw gegevens en vragen te beantwoorden zoals &quot;Hoe worden mijn bestellingen maandelijks gegroeid?&quot;, &quot;Wie zijn mijn meest loyale klanten?&quot;, en &quot;Werkt mijn couponstrategie?&quot; Voor gedetailleerde informatie over deze gereedschapsset raadpleegt u de [MBI-gebruikershandleiding][1].
+Wanneer u een [!DNL Commerce Intelligence] via Adobe hebt u toegang tot vijf dashboards met ongeveer 70 rapporten. Deze rapporten zijn ontworpen om inzicht te verschaffen in uw gegevens en vragen te beantwoorden zoals &quot;Hoe worden mijn bestellingen maandelijks gegroeid?&quot;, &quot;Wie zijn mijn meest loyale klanten?&quot;, en &quot;Werkt mijn couponstrategie?&quot; Voor gedetailleerde informatie over deze gereedschapsset raadpleegt u de [Handboek voor informatie over handel][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] wordt opgenomen in Adobe Commerce en Magento Open Source. Deze functie biedt u toegang tot een reeks dynamische rapporten die op uw product, orde, en klantengegevens gebaseerd zijn, met een gepersonaliseerd dashboard dat aan uw bedrijfsbehoeften wordt aangepast. while [!DNL Advanced Reporting] gebruik [!DNL Business Intelligence] voor analyses hebt u geen Business Intelligence-account nodig om te gebruiken [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] wordt opgenomen in Adobe Commerce en Magento Open Source. Deze functie biedt u toegang tot een reeks dynamische rapporten die op uw product, orde, en klantengegevens gebaseerd zijn, met een gepersonaliseerd dashboard dat aan uw bedrijfsbehoeften wordt aangepast. while [!DNL Advanced Reporting] gebruik [!DNL Commerce Intelligence] voor analyses hebt u geen rekening van de Intelligentie van de Handel nodig om te gebruiken [!DNL Advanced Reporting].
 
 Zie voor technische informatie de [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} in de ontwikkelaarsdocumentatie.
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] accounts maken gebruik van ingebouwde rapportage in plaats van de [!DNL Advanced Reporting] gebruiken.
+>[!DNL Commerce Intelligence] accounts maken gebruik van ingebouwde rapportage in plaats van de [!DNL Advanced Reporting] gebruiken.
 
 ![Geavanceerd rapportdashboard](./assets/reporting-advanced.png){width="700"}
 
