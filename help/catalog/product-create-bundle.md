@@ -3,9 +3,9 @@ title: Bundel
 description: Leer hoe u een bundelproduct maakt waarmee kopers een aangepast product in uw winkel kunnen maken.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ De opties verschijnen wanneer de klant of klikt **[!UICONTROL Customize]** of **
 >[!NOTE]
 >
 >De minimum Geadverteerde Prijs (MAP) is niet beschikbaar voor Bundelproducten die dynamische prijsstelling gebruiken.
+
+>[!NOTE]
+>
+>Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.
 
 Indien [Direct aanschaffen](../stores-purchase/checkout-instant-purchase.md) is beschikbaar, _Direct aanschaffen_ wordt onder de knop _Toevoegen aan winkelwagentje_ voor elk item in de bundel.
 
@@ -276,3 +280,5 @@ De status van de bundelproductvoorraad is **_niet automatisch gewijzigd in Uit v
 ![Selectievakje](../assets/checkbox.png) De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs echter geen _[!UICONTROL User Defined]_eigenschap om het selectievakje in te schakelen of invoertypen te selecteren die meerdere malen zijn geselecteerd.
 
 ![Selectievakje](../assets/checkbox.png) Bundelobjecten kunnen samen of afzonderlijk worden verzonden.
+
+![Selectievakje](../assets/checkbox.png) Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.

@@ -3,9 +3,9 @@ title: Productinstellingen - [!UICONTROL Related Products, Up-Sells, and Cross-S
 description: Voor een product geldt het [!UICONTROL Related Products, Up-Sells, and Cross-Sells] de montages bepalen eenvoudige promotieblokken op de productpagina die een selectie van extra producten benadrukken.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ Je kunt als volgt producten selecteren:
    ![Up-Sell-producten](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.
 
 ## Cross-sells
 
