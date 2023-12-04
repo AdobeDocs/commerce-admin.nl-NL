@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] pagina van de Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Algemeen | Hiermee activeert of deactiveert u bonuspunten. Opties: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Website | Wanneer toegelaten, kunnen de klanten punten door hun activiteiten verdienen, en hen terugbetalen bij kassa. Als deze optie is uitgeschakeld, kunnen alleen Admin-gebruikers punten toewijzen en inwisselen namens klanten. Opties: `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | Website | Wanneer deze optie is ingeschakeld, kunnen klanten een gedetailleerde geschiedenis zien met elke opgebouwde versie, terugbetaling en vervaldatum van de Punten in het dashboard voor hun account. Opties: `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | Website | Geeft de levensduur van de bonuspunten in dagen aan. Elke partij punten die tijdens afzonderlijke activiteiten wordt verdiend, heeft een aparte levensduur. Elke batch in de geschiedenis van de Punten achteruit geeft het aantal dagen aan dat resteert voordat de punten verlopen. De geschiedenis kan worden bekeken vanaf het accountdashboard van de klant, indien ingeschakeld, en vanaf de beheerder. Laat de spatie leeg voor geen vervaldatum. |
 | [!UICONTROL Reward Points Expiry Calculation] | Website | Bepaalt de methode die wordt gebruikt om te bepalen wanneer de bonuspunten verlopen. Opties: <br/>**`Static`**- Hiermee wordt de resterende levensduur van bonuspunten bepaald op basis van het aantal dagen dat is ingesteld in de configuratie. Als de vervallimiet in de configuratie verandert, verandert de vervaldatum van bestaande punten niet.<br/>**`Dynamic`** - Berekent het aantal dagen dat resteert wanneer de beloningspunten stijgen. Als de vervallimiet in de configuratie verandert, worden de verloopberekeningen voor alle bestaande punten dienovereenkomstig bijgewerkt. |
 | [!UICONTROL Refund Reward Points Automatically] | Algemeen | Hiermee wordt bepaald of beschikbare bonuspunten automatisch worden terugbetaald. Opties: `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Algemeen | Hiermee wordt bepaald of de beloningspunten automatisch worden afgetrokken van het restitutiebedrag. Opties: `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Algemeen | Hiermee bepaalt u of de beloningspunten die via aankopen worden verdiend, geheel of gedeeltelijk worden ingetrokken bij de terugbetaling van bestellingen, wanneer deze functie is ingeschakeld. Alleen bonuspunten uit de bestelling die ze heeft verdiend, worden beïnvloed wanneer die bestelling wordt terugbetaald. Opties: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Winkelweergave | Hier geeft u de CMS-pagina op waarin uw bonuspuntprogramma wordt uitgelegd. Er verschijnt een koppeling naar de pagina met standaardbeloningen op de locaties in de winkel waar punten kunnen worden verdiend. |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | Website | Hiermee bepaalt u of een bericht wordt weergegeven in het winkelwagentje waarin de punten van beloning voor de aankoop en de huidige balans van het bonuspunt van de klant worden weergegeven. Opties: `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | Website | Bepaalt als de beloningspunten voor de aankopen worden verdiend die op gevormde worden gebaseerd [Reward Exchange Rates](../../merchandising-promotions/reward-exchange-rates.md). Opties: `Yes` / `No` |
 | [!UICONTROL Registration] | Website | Hiermee geeft u het aantal punten op dat wordt verdiend voor het openen van een klantenaccount. |
 | [!UICONTROL Newsletter Signup] | Website | Geeft het aantal punten op dat wordt verdiend door geregistreerde klanten die zich abonneren op een nieuwsbrief. (Punten zijn niet beschikbaar voor abonnementen door gasten.) Als een klant zich afmeldt en zich vervolgens opnieuw abonneert, worden punten niet verdiend voor het tweede abonnement. |
 | [!UICONTROL Converting Invitation to Customer] | Website | Specificeert het aantal punten die door een klant worden verdiend die een uitnodiging verzendt, wanneer de ontvanger dan een klantenrekening opent. |

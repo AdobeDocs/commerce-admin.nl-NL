@@ -3,9 +3,9 @@ title: Programma's voor beloningen en loyaliteit
 description: Leer over het systeem van beloningspunten dat u kunt gebruiken om klantenovereenkomst te drijven en klantenloyaliteit te bevorderen.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ De configuratie van Punten van de Beloning bepaalt hoe de beloningspunten in de 
 
 1. Als je de beschikbare bonuspunten automatisch wilt terugbetalen, stelt u **[!UICONTROL Refund Reward Points Automatically]** tot `Yes`.
 
-1. Als u bonuspunten automatisch wilt aftrekken, stelt u **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** tot `Yes`.
+1. Om beloningspunten te vermijden die door aankopen worden verdiend wanneer de bestelling die de punten heeft verdiend volledig of gedeeltelijk wordt terugbetaald, stelt u **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** tot `Yes`.
+
+   >[!NOTE]
+   >
+   >Alleen de punten die zijn verdiend met de volgorde die wordt terugbetaald, worden beïnvloed.
 
 1. Set **[!UICONTROL Landing Page]** op de inhoudspagina die uw beloningspunten programma verklaart.
 
