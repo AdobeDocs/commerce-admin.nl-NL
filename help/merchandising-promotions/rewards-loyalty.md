@@ -3,9 +3,9 @@ title: Programma's voor beloningen en loyaliteit
 description: Leer over het systeem van beloningspunten dat u kunt gebruiken om klantenovereenkomst te drijven en klantenloyaliteit te bevorderen.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ In deze stap wordt het aantal beloningspunten gespecificeerd dat voor diverse kl
 
    ![Configuratie van klanten - acties voor het verwerven van bonuspunten door klant](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Om een bericht in het winkelwagentje te tonen dat de beloningspunten die voor de aankoop worden verdiend en de huidige beloningspunten van de klant omvatten, reeks **[!UICONTROL Purchase]** tot `Yes`.
+1. Om beloningspunten toe te staan om voor de aankopen te verdienen die op gevormde worden gebaseerd [Reward Exchange Rates](reward-exchange-rates.md), set **[!UICONTROL Purchase]** tot `Yes`.
 
    >[!NOTE]
    >
