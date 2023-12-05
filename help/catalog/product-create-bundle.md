@@ -3,9 +3,9 @@ title: Bundel
 description: Leer hoe u een bundelproduct maakt waarmee kopers een aangepast product in uw winkel kunnen maken.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Het formulier wordt bijgewerkt met de wijziging.
    - Om de prijs de opties te laten weerspiegelen die de klant heeft gekozen, stelt u **[!UICONTROL Dynamic Price]** tot `Yes` en vertrekken **[!UICONTROL Price]** leeg.
 
    - Als u een vaste prijs voor de bundel wilt berekenen, stelt u **[!UICONTROL Dynamic Price]** tot `No` en voert u de **[!UICONTROL Price]** die u voor de bundel wilt opladen.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (Tier-prijs) wordt altijd ingesteld als het kortingspercentage voor alle typen bundelproducten.
 
 1. Aangezien het product nog niet gereed is om te publiceren, stelt u **[!UICONTROL Enable Product]** tot `No`.
 
@@ -282,3 +286,5 @@ De status van de bundelproductvoorraad is **_niet automatisch gewijzigd in Uit v
 ![Selectievakje](../assets/checkbox.png) Bundelobjecten kunnen samen of afzonderlijk worden verzonden.
 
 ![Selectievakje](../assets/checkbox.png) Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.
+
+![Selectievakje](../assets/checkbox.png) [!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (Tier-prijs) wordt altijd ingesteld als het kortingspercentage voor alle typen bundelproducten.
