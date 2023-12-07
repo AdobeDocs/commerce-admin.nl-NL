@@ -3,9 +3,9 @@ title: Beveiliging
 description: Leer over de hulpmiddelen beschikbaar om uw opslag en gegevens te beveiligen, en richtlijnen voor een veiligheidsplan als u een compromis ontdekt.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ U kunt uw winkel op meerdere manieren beveiligen en uw gegevensbeveiliging handh
 - Implementeren [CAPTCHA](security-captcha.md) of [reCAPTCHA](security-google-recaptcha.md)
 - Een [Beveiligingsscan](security-scan.md) voor elk domein in uw Adobe Commerce of Magento Open Source installatie.
 
-Ga naar [Beveiligingscentrum](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} en meld u aan bij het Beveiligingswaarschuwingsregister voor het meest recente nieuws over potentiële kwetsbaarheden. Voor informatie over best practices op het gebied van beveiliging raadpleegt u [Beveilig uw Plaats van de Handel en Infrastructuur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in de _Afspeelmap voor implementatie_.
-
 >[!NOTE]
 >
 >Winkels die zijn ingeschakeld [!DNL Adobe Identity Management Services] (IMS)-verificatie heeft native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. De gebruikers Admin die in hun instantie van de Handel met hun geloofsbrieven van de Adobe worden geregistreerd hoeven niet voor vele Admin taken opnieuw voor authentiek te verklaren. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service] (IMS) Overzicht van integratie](../getting-started/adobe-ims-integration-overview.md).
 
+Ga naar [Beveiligingscentrum](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} voor het meest recente nieuws over mogelijke kwetsbaarheden, om u te registreren voor beveiligingsmeldingen voor Adobe en om toegang te krijgen tot het Adobe Trust Center.
+
 ![Beveiligingscentrum](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+Voor informatie over best practices op het gebied van beveiliging raadpleegt u [Beveilig uw Plaats van de Handel en Infrastructuur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in de _Afspeelmap voor implementatie_.
 
 ## Actieplan voor veiligheid
 

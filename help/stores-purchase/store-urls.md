@@ -3,9 +3,9 @@ title: URL's opslaan
 description: Leer over opslag URLs en hoe te om basisURL en opslagcodes te vormen.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Als na het volgen van de configuratieinstructies sommige pagina&#39;s met onveil
 
 ## Een aangepaste Admin URL gebruiken
 
-Als [best practices op het gebied van beveiliging](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), raadt Adobe u aan een unieke Admin-URL te gebruiken in plaats van de standaard _admin_ of een gemeenschappelijke term zoals _achterste_. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
+Als [best practices op het gebied van beveiliging](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), raadt Adobe u aan een unieke Admin-URL te gebruiken in plaats van de standaard _admin_ of een gemeenschappelijke term zoals _achterste_. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 >[!NOTE]
 >
->Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven.
+>Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor Adobe Commerce-projecten die worden geïmplementeerd op een cloudinfrastructuur wijzigt u de URL voor Admin door de volgende stappen uit te voeren: [instructies](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in de *Adobe Commerce on Cloud Infrastructure Guide*.
 
 ### Methode 1: Wijzigen ten opzichte van de beheerder
 
