@@ -1,12 +1,12 @@
 ---
-title: '[!DNL New Relic] rapportage'
-description: Meer informatie over de [!DNL New Relic] rapporten die beschikbaar zijn voor accounts voor Adobe Commerce op de cloudinfrastructuur, die de software voor de New Relic APM-service omvat.
+title: '''[!DNL New Relic] rapporteren'
+description: Meer informatie over de [!DNL New Relic] rapportage beschikbaar voor accounts voor Adobe Commerce op cloudinfrastructuur, inclusief de software voor de New Relic APM-service.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Stap 1: Meld u aan voor een [!DNL New Relic] account
 
-1. Ga naar de [[!DNL New Relic]][1] website en meld je aan voor een account.
+1. Ga naar de [[!DNL New Relic]][1] website en aanmelden voor een account.
 
    U kunt zich ook aanmelden voor een gratis proefaccount.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
    | ------ | ----------- |
    | Account-id | Van uw [!DNL New Relic] account-dashboard, de account-id is het nummer in de URL na: `/accounts` |
    | Toepassings-id | Van uw [!DNL New Relic] accountdashboard, klik op **[!UICONTROL New Relic APM]**. Kies in het menu **[!UICONTROL Applications]**. Kies vervolgens de toepassing. De toepassings-id is het nummer in de URL na: `/applications/` |
-   | New Relic API-sleutel | Van uw [!DNL New Relic] accountdashboard, klik op **[!UICONTROL Account Settings]**. Kies in het menu aan de linkerkant onder Integratie de optie **[!UICONTROL Data Sharing]**. U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
+   | Nieuwe Relic-API-sleutel | Van uw [!DNL New Relic] accountdashboard, klik op **[!UICONTROL Account Settings]**. Kies in het menu aan de linkerkant onder Integratie de optie **[!UICONTROL Data Sharing]**. U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
    | API-sleutel voor inzichten | Van uw [!DNL New Relic] accountdashboard, klik op **[!UICONTROL Insights]**. Kies in het menu links onder Beheer de optie **[!UICONTROL API Keys]**. Uw API-sleutels voor inzichten worden op deze pagina weergegeven. Klik indien nodig op het plusteken (**+**) naast Toetsen invoegen om een toets te genereren. |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ Te gebruiken [!DNL New Relic APM Pro] om gegevens te verzamelen en te verzenden
    Zie voor meer informatie [Uitsnede configureren en uitvoeren][5] in de ontwikkelaarsdocumentatie.
 
 ## Stap 3: Configureer uw winkel
+
+>[!NOTE]
+>Deze configuratieopties zijn niet van toepassing op Adobe Commerce op Cloud Infrastructure.
+>
+>Als je op het Pro-abonnement bent, is New Relic al [vooraf geconfigureerd en standaard ingeschakeld](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Als u op het plan van de Aanzet staat, moet u voltooien [New Relic-configuratiestappen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) die deel uitmaken van het installatieproces.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ Te gebruiken [!DNL New Relic APM Pro] om gegevens te verzamelen en te verzenden
 
 1. (Optioneel) Voor **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, selecteert u `Yes` om verzamelde gegevens voor de storefront en Admin als afzonderlijke toepassingen naar New Relic te verzenden.
 
-   Voor deze optie moet een naam worden ingevoerd voor de **[!UICONTROL New Relic Application Name]**.
+   Voor deze optie moet een naam worden ingevoerd voor het **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ Te gebruiken [!DNL New Relic APM Pro] om gegevens te verzamelen en te verzenden
 
 ## Stap 4: Uitsnijden inschakelen voor [!DNL New Relic] rapportage
 
-1. Vouw ![De selectie van uitbreiding uit om de **[!UICONTROL Cron]** sectie uit te vouwen](../assets/icon-display-expand.png).
+1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Cron]** sectie.
 
    ![New Relic Cron-configuratie](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -104,14 +109,14 @@ Geeft het aantal actieve Admin-gebruikers.
     VAN Transactie
     WHERE appName=&#39;&lt;your_app_name>&quot; SINCE 15 minuten geleden
 
-#### Momenteel actieve beheerders
+#### Momenteel actieve beheergebruikers
 
-Retourneert de namen van actieve beheerders.
+Retourneert de namen van actieve Admin-gebruikers.
 
-    SELECT uniques (AdminName)
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minutes ago
-&lt;/your_app_name>
+    Uniques SELECT (AdminName)
+    VAN Transactie
+    WHERE appName=&#39;&lt;your_app_name>&quot; SINCE 15 minuten geleden
+
 #### Recente beheeractiviteiten
 
 Retourneert het aantal recente Admin-handelingen.
@@ -133,7 +138,7 @@ Retourneert gedetailleerde informatie over recente beheerhandelingen, zoals de g
 
 #### Aantal categorieën
 
-Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opgegeven tijdsperiode.
+Retourneert het aantal toepassingsevenementen per categorie gedurende de opgegeven periode.
 
     SELECT average(CatalogCategoryCount)
     Van uitsnede
@@ -144,12 +149,12 @@ Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opge
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen in de catalogus per categorie gedurende de opgegeven tijdsperiode.
 
-    SELECT average(CatalogCategoryCount)
-    Van uitsnede
-    WAAR CatalogCategoryCount NIET NULL IS
+    SELECT average (CatalogCategoryCount)
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&quot; SINCE 2 minuten geleden LIMIT 1
-
+    AND appName = &#39;&lt;your_app_name>&#39; SINDS 2 minuten ago LIMIT 1
+&lt;/your_app_name>
 #### Actieve producten
 
 Retourneert het aantal toepassingsgebeurtenissen per product gedurende de opgegeven periode.
@@ -281,12 +286,12 @@ Retourneert het aantal actieve klanten tijdens de opgegeven tijdsperiode.
 
 #### Actieve klanten
 
-Retourneert de namen van actieve klanten gedurende de opgegeven periode.
+Retourneert de namen van actieve klanten tijdens de opgegeven tijdsperiode.
 
-    SELECT uniques(CustomerName)
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINDS 15 minuten geleden
-&lt;/your_app_name>
+    EENDEN SELECTEREN (CustomerName)
+    VAN Transactie
+    WHERE appName=&#39;&lt;your_app_name>&quot; SINCE 15 minuten geleden
+
 #### Topklanten
 
 Retourneert de bovenste klanten tijdens de opgegeven tijdsperiode.
@@ -297,7 +302,7 @@ Retourneert de bovenste klanten tijdens de opgegeven tijdsperiode.
 
 #### Recente beheeractiviteiten
 
-Retourneert een vastgesteld aantal records van recente activiteiten, waaronder de naam van de klant en de bezoekduur.
+Retourneert een gedefinieerd aantal records met recente activiteit, die de naam van de klant en de duur van het bezoek bevatten.
 
     SELECTEER CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ Retourneert een vastgesteld aantal records van recente activiteiten, waaronder d
 Retourneert het aantal orders dat tijdens de opgegeven periode is geplaatst.
 
     SELECT count(Order)
-    VANAF Transactie SINDS 1 dag geleden
+    FROM Transactie SINCE 1 day ago
 
 #### Totale orderwaarde
 
 Retourneert het totale aantal regelitems dat is geordend tijdens de opgegeven tijdsperiode.
 
     SELECT sum(orderValue)
-    VANAF Transactie SINDS 1 dag geleden
+    FROM Transaction SINCE 1 day ago
 
-#### Totaal aantal geordende lijnen
+#### Totaal aantal bestelde regelitems
 
-Retourneert het totale aantal regelitems dat is geordend tijdens de opgegeven tijdsperiode.
+Hiermee wordt het totale aantal tijdens de opgegeven periode bestelde regelitems geretourneerd.
 
     SELECT sum(lineItemCount)
     VANAF Transactie SINDS 1 dag geleden

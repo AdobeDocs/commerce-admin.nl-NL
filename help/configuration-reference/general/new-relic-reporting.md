@@ -3,16 +3,21 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] pagina van de Commerce Admin.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1aec5c618d1f3f7f083523956d2aee62b777faca
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL General] > [!UICONTROL New Relic Reporting]
 
 {{config}}
+
+>[!NOTE]
+>Deze configuratieopties zijn niet van toepassing op Adobe Commerce op Cloud Infrastructure.
+>
+>Als je op het Pro-abonnement bent, is New Relic al [vooraf geconfigureerd en standaard ingeschakeld](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Als u op het plan van de Aanzet staat, moet u voltooien [New Relic-configuratiestappen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) die deel uitmaken van het installatieproces.
 
 ## [!UICONTROL General]
 
