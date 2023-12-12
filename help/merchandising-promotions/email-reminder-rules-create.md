@@ -3,16 +3,16 @@ title: E-mailherinneringen maken
 description: Leer hoe u een regel voor e-mailherinneringen instelt die gebruikmaakt van een bestaande regel voor de prijs van winkelwagentjes.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # E-mailherinneringen maken
 
-Voordat u een regel voor e-mailherinneringen instelt, moet u eerst een regel voor de winkelprijs instellen om de aanbieding te definiëren. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
+Voordat u een regel voor e-mailherinneringen instelt, moet u eerst [invoering van een regeling voor de prijs van winkelwagentjes](price-rules-cart-create.md) om te bepalen welke promotie wordt aangeboden. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Voordat u een regel voor e-mailherinneringen instelt, moet u eerst een regel voo
 
    >[!NOTE]
    >
-   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u de optie _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen e-mails in te stellen.
+   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u de optie _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen e-mails in te stellen. <br/>
+   >
+   >Dezelfde e-mailherinnering is **_niet opnieuw geactiveerd_** voor dezelfde klant voor **_new_** verlaten karretjes en verlanglijstjes **_na_** de _[!UICONTROL Repeat Schedule]_punt is voorbij.
 
    Voltooi de voorwaarde om het scenario te beschrijven dat de e-mailherinnering teweegbrengt.
 
