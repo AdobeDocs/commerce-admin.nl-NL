@@ -3,9 +3,9 @@ title: Bundel
 description: Leer hoe u een bundelproduct maakt waarmee kopers een aangepast product in uw winkel kunnen maken.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: eca41f653aa6499743982199f067d6df86079010
+source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Een bundel is een _uw eigen_, aanpasbaar product. Elk item in een bundel kan op een van de volgende producttypen worden gebaseerd:
 
 - [Eenvoudig product](product-create-simple.md)
+- [Virtueel product](product-create-virtual.md)
+- [Downloadbaar product](product-create-downloadable.md)
 - [Virtueel product](product-create-virtual.md)
 
 ![Bundel](./assets/product-bundle.png){width="700" zoomable="yes"}
