@@ -3,9 +3,9 @@ title: Mapbeheer voor Media Gallery
 description: Leer hoe u mappen kunt gebruiken om uw media-elementen te ordenen.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 Mappen gebruiken om afbeeldingen in de nieuwe [Medialerie](media-gallery.md). Naarmate het aantal media-elementen toeneemt, kunnen met mappen gemakkelijker bestaande elementen in uw mediagalerie worden gevonden en beheerd.
 
 ## Een map maken
+
+>[!NOTE]
+>
+>U kunt alleen een map maken in het dialoogvenster `pub/media/wysywig` en `pub/media/catalog/category` mappen.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ Mappen gebruiken om afbeeldingen in de nieuwe [Medialerie](media-gallery.md). Na
 
 >[!WARNING]
 >
->Als u een map verwijdert, worden alle afbeeldingen in die map verwijderd.
+>Als u een map verwijdert, worden alle afbeeldingen in die map verwijderd. U kunt alleen een map verwijderen uit het dialoogvenster `pub/media/wysywig` en `pub/media/catalog/category` mappen.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
