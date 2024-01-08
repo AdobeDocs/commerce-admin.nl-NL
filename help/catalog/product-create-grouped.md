@@ -3,9 +3,9 @@ title: Gegroepeerd product
 description: Leer hoe u een gegroepeerd product maakt dat bestaat uit eenvoudige zelfstandige producten die als groep worden aangeboden.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Als u een bestaand kenmerk aan het product wilt toevoegen, gebruikt u de opdrach
 1. De standaardinstelling accepteren **[!UICONTROL SKU]** die is gebaseerd op de productnaam of een andere naam invoert.
 
    De **[!UICONTROL Quantity]** is niet beschikbaar omdat de waarde is afgeleid van de afzonderlijke producten waaruit de groep bestaat.
+
+   Een gegroepeerd product bevat geen eigen prijs in de catalogus. De prijs van het gegroepeerde product wordt afgeleid van de prijs van de afzonderlijke producten die in de groep zijn opgenomen.
 
 1. Aangezien het product nog niet gereed is om te publiceren, stelt u **[!UICONTROL Enable Product]** tot `No` ( ![Niet in-/uitschakelen](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ Als u voor elk product in de groep een andere afbeelding hebt, kunt u de configu
 - Gegroepeerde onderliggende producten kunnen eenvoudig, downloadbaar of virtueel zijn **[!UICONTROL without custom options]**.
 
 - Elk aangeschaft artikel wordt afzonderlijk in het winkelwagentje weergegeven in plaats van als onderdeel van de groep.
+
+- Een gegroepeerd product bevat geen eigen prijs in de catalogus. De prijs van het gegroepeerde product wordt afgeleid van de prijs van de afzonderlijke producten die in de groep zijn opgenomen.
 
 - De miniatuurafbeelding in het winkelwagentje kan zo worden ingesteld dat de afbeelding van het gegroepeerde bovenliggende product of het bijbehorende product wordt weergegeven.

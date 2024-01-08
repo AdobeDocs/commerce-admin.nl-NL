@@ -3,9 +3,9 @@ title: Bundel
 description: Leer hoe u een bundelproduct maakt waarmee kopers een aangepast product in uw winkel kunnen maken.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Voer een van de volgende handelingen uit om de prijs van de bundel te bepalen:
 
-   - Om de prijs de opties te laten weerspiegelen die de klant heeft gekozen, stelt u **[!UICONTROL Dynamic Price]** tot `Yes` en vertrekken **[!UICONTROL Price]** leeg.
+   - Om de prijs de opties te laten weerspiegelen die de klant heeft gekozen, stelt u **[!UICONTROL Dynamic Price]** tot `Yes` en vertrekken **[!UICONTROL Price]** leeg. In dit geval heeft een bundelproduct geen eigen prijs uit de catalogus en wordt de productprijs afgeleid van de prijs van de afzonderlijke producten in de bundel.
 
    - Als u een vaste prijs voor de bundel wilt berekenen, stelt u **[!UICONTROL Dynamic Price]** tot `No` en voert u de **[!UICONTROL Price]** die u voor de bundel wilt opladen.
 

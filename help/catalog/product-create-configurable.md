@@ -3,9 +3,9 @@ title: Configureerbaar product
 description: Leer hoe u een configureerbaar product maakt dat kopers verschillende mogelijkheden biedt voor selectie.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ Aangezien de afbeelding voor het bovenliggende product al is geüpload, kunt u m
 
 Gebruik één van de volgende methodes om te vormen **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>Een configureerbaar product heeft geen eigen prijs in de catalogus. De configureerbare productprijs wordt afgeleid van zijn [!UICONTROL In Stock] kinderproducten.
+
 **Methode 1:** Dezelfde prijs toepassen op alle SKU&#39;s
 
 1. Als de prijs voor alle variaties gelijk is, selecteert u **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ De _Status van voorraad_ van het configureerbare product gedeeltelijk wordt behe
 - [Status van voorraad](../inventory-management/sources-stocks.md) voor een configureerbaar product is een semi-handbediende instelling. Het is anders dan de voorraadstatus van het eenvoudige product, waar het een directe weergave van de beschikbaarheid van het product is. Voor een configureerbaar product maakt de voorraadstatus deel uit van een voorraadstatusberekening met meerdere criteria.
 
 - Configureerbare onderliggende producten kunnen eenvoudige of virtuele producten zijn **zonder aangepaste opties**. Als u aangepaste onderliggende producten virtueel wilt maken, moet u `Тhis item has no weight` voor de **[!UICONTROL Weight]** voor elk van hen.
+
+- Een configureerbaar product heeft geen eigen prijs in de catalogus. De configureerbare productprijs wordt afgeleid van zijn [!UICONTROL In Stock] kinderproducten.
 
 - De attributen die voor productvariaties worden gebruikt moeten een globaal werkingsgebied hebben en de klant moet worden vereist om een waarde te kiezen. De attributen van de productvariatie moeten in de kenmerkenreeks worden omvat die als malplaatje voor het configureerbare product wordt gebruikt.
 

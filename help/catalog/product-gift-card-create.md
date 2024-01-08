@@ -3,9 +3,9 @@ title: Cadeauproduct
 description: Leer hoe u een cadeaukaartproduct maakt dat een unieke code produceert die tijdens het afrekenen door een ontvanger kan worden ingewisseld.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ U kunt de standaardinstelling gebruiken `Gift Card` kenmerkset of kies een ander
    - Als u het bereik van de aanvaardbare minimum- en maximumwaarden wilt definiëren, voert u de **[!UICONTROL Open Amount From]** en **[!UICONTROL To]** waarden.
 
    U kunt cadeaukaarten maken met een vaste prijs, een open prijs of beide.
+
+   >[!NOTE]
+   >
+   >Een cadeaukaartproduct heeft geen eigen prijs in de catalogus. De prijs van de cadeau-kaart wordt afgeleid van het geselecteerde bedrag van de cadeau-kaart tijdens de aankoop.
 
    ![Cadeaubonnen](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Voer de benodigde gegevens in de volgende secties in:
 - De levensduur van een cadeaukaart kan onbeperkt zijn of op een opgegeven aantal dagen worden ingesteld.
 
 - De waarde van een cadeaukaart kan worden ingesteld op een vast bedrag of worden ingesteld op een open bedrag met een minimum- en maximumwaarde.
+
+- Een cadeaukaartproduct heeft geen eigen prijs in de catalogus. De prijs van de cadeau-kaart wordt afgeleid van het geselecteerde bedrag van de cadeau-kaart tijdens de aankoop.
 
 - Een kaartenaccount voor de klant kan worden gemaakt wanneer de bestelling wordt geplaatst of op het moment van de factuur.
