@@ -3,9 +3,9 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijze
    | `Percent of product price discount` | Hiermee wordt het object gekort door een percentage van de oorspronkelijke prijs af te trekken. De korting is van toepassing op elk in aanmerking komend item in het winkelwagentje. Bijvoorbeeld: Enter `10` in [!UICONTROL Discount Amount] voor een bijgewerkte prijs die 10 % lager is dan de oorspronkelijke prijs. |
    | `Fixed amount discount` | Hiermee wordt een object gekort door een vast bedrag af te trekken van de oorspronkelijke prijs van elk kwalificerend object in de winkelwagen. Bijvoorbeeld: Enter `10` in [!UICONTROL Discount Amount] voor een bijgewerkte prijs die 10 dollar lager is dan de oorspronkelijke prijs. |
    | Korting op een vast bedrag voor een hele winkelwagen | Hiermee wordt de hele winkelwagen gekort door een vast bedrag af te trekken van het totaal van de winkelwagentjes. Bijvoorbeeld: voer 10 in [!UICONTROL Discount Amount] om $10 af te trekken van het totaal van de winkelwagentjes. Standaard geldt de korting alleen voor het cartsubtotaal. Als u de korting afzonderlijk op het subtotaal en de verzendkosten wilt toepassen, gebruikt u de optie _[!UICONTROL Apply to Shipping Amount]_-optie. |
-   | `Buy X get Y free` | Hiermee definieert u een hoeveelheid die de klant moet kopen om een hoeveelheid gratis te ontvangen. (De [!UICONTROL Discount Amount] is Y.) |
+   | `Buy X get Y free` | Definieert een hoeveelheid X die de klant moet kopen om een hoeveelheid Y te ontvangen **van hetzelfde product/variatie** gratis. (De [!UICONTROL Discount Amount] is Y.) Een totale hoeveelheid van X+Y van hetzelfde artikel moet in het winkelwagentje aanwezig zijn of aan het winkelwagentje worden toegevoegd om de korting toe te passen. |
 
    {style="table-layout:auto"}
 
    - Voer de **[!UICONTROL Discount Amount]** als een getal, zonder symbolen. Afhankelijk van de geselecteerde kortingsoptie kan het getal 10 bijvoorbeeld een percentage, een vast bedrag of een aantal objecten aangeven.
 
-   - Voor een _Koop X krijg Y gratis_ korting, geef de hoeveelheid op in de **[!UICONTROL Discount Qty Step (Buy X)]** veld dat de klant moet kopen om de korting te ontvangen.
+   - Voor een _Koop X krijg Y gratis_ korting, geef de hoeveelheid op in de **[!UICONTROL Discount Qty Step (Buy X)]** veld van één product/SKU/lijnitem dat de klant moet kopen om de korting op de Y-hoeveelheid te ontvangen. Zowel X als Y verwijzen naar hoeveelheden van dezelfde SKU en dat de specifieke hoeveelheid (variaties van een configureerbaar product worden afzonderlijk geteld) van het artikel handmatig aan het winkelwagentje moet worden toegevoegd.
 
    - In de **[!UICONTROL Maximum Qty Discount is Applied To]** vermeld in het veld de maximumhoeveelheid van hetzelfde product die in aanmerking komt voor de korting bij dezelfde aankoop.
 
