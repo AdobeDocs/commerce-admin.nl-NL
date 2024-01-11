@@ -3,9 +3,9 @@ title: Categorievoorschriften voor handelsdoeleinden
 description: Leer hoe u regels maakt om de productselecties op dynamische wijze aan te passen aan een aantal voorwaarden.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
    ![Automatisch sorteren](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   Sorteren is gebaseerd op de huidige omstandigheden:
+   Sorteervolgordeopties worden globaal gedefinieerd en worden toegepast op basis van de huidige omstandigheden. U kunt geen andere sorteervolgorde instellen voor het weergaveniveau van de website, opslag of opslag.
 
    | Sorteren, optie | Beschrijving |
    |-----------| -----------|
