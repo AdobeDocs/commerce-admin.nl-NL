@@ -4,9 +4,9 @@ description: Leer hoe klanten die zijn gekoppeld aan een bedrijfsaccount een aan
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Als aanhalingstekens zijn ingeschakeld in het dialoogvenster [Configuratie van v
 1. De klant meldt zich aan bij zijn gebruikersaccount als koper met [machtiging](account-company-roles-permissions.md) om een prijsopgave aan te vragen.
 
 1. Voegt de producten die zij in het citaat willen worden opgenomen aan het winkelwagentje toe.
+
+   >[!TIP]
+   > 
+   >Als u een lijst met product-SKU&#39;s hebt die u wilt bestellen, kunt u deze sneller aan het winkelwagentje toevoegen door [Snelle bestelling](quick-order.md).
 
 1. Selecties **[!UICONTROL Request a Quote]**.
 
