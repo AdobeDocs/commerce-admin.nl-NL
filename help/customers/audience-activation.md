@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In deze releaseopmerkingen worden wijzigingen in de functies en correcties besch
 
 _15 augustus 2023_
 
-![Repareren](../assets/new.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) om het filteren te vereenvoudigen.
+![Repareren](../assets/fix.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) om het filteren te vereenvoudigen.
 
 _27 juni 2023_
 
@@ -50,7 +50,23 @@ _30 mei 2023_
 
 +++
 
-### 2.0.0
+### 2.1.0.
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+_24 januari 2024_
+
+![Nieuw](../assets/new.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) de websites met het publiek op te nemen en te specificeren welke dynamische blokken en regels voor de kartprijs zijn geconfigureerd om dat publiek te gebruiken.
+
+### 2.0.1.
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+_16 november 2023_
+
+![Repareren](../assets/fix.svg) - Verbeterde stabiliteit.
+
+### 2.0.0.
 
 [!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
@@ -59,7 +75,7 @@ _10 oktober 2023_
 ![Nieuw](../assets/new.svg) - Toegevoegde ondersteuning voor OAuth 2.0 wanneer u [vormen](#configure-the-extension) de extensie Audience Activation.
 ![Repareren](../assets/fix.svg) - Verbeterde stabiliteit.
 
-### 1.2.0
+### 1.2.0.
 
 [!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
@@ -67,7 +83,7 @@ _15 augustus 2023_
 
 ![Repareren](../assets/fix.svg) - De versie van de UI-componenten is bijgewerkt.
 
-### 1.1.0
+### 1.1.0.
 
 _30 mei 2023_
 
@@ -75,7 +91,7 @@ _30 mei 2023_
 
 ![Nieuw](../assets/new.svg) - Toegevoegde ondersteuning voor [dynamische blokken](#headless-support) in een koploze winkel.
 
-### 1.0.1
+### 1.0.1.
 
 _11 mei 2023_
 
@@ -84,7 +100,7 @@ _11 mei 2023_
 ![Repareren](../assets/fix.svg) - Probleem verholpen waarbij een dynamisch blok- of winkelprijscriterium niet werd toegepast.
 ![Repareren](../assets/fix.svg) - Probleem verholpen waarbij een niet-geconfigureerde installatie van de extensie Audience Activation een fout veroorzaakte wanneer een handelaar probeerde een dynamisch blok te maken of bij te werken.
 
-### 1.0.0
+### 1.0.0.
 
 _31 maart 2023_
 
@@ -137,16 +153,20 @@ Nadat u de [!DNL Audience Activation] extensie, moet u zich aanmelden bij uw Com
 
 1. Klikken **Config opslaan**.
 
-Als het publiek is geactiveerd voor uw Adobe Commerce-instantie, kunt u:
+## Waar kan het Real-Time CDP-publiek in de handel worden gebruikt?
+
+Met de [!DNL Audience Activation] extensie ingeschakeld, kunt u:
 
 - [Een regel voor een winkelwagenprijs maken](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) geïnformeerd door het publiek
 - [Een dynamisch blok maken](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) geïnformeerd door het publiek
 
 ## Real-Time CDP-doeldashboard
 
-U kunt alle actieve soorten publiek weergeven die binnen uw Adobe Commerce-instantie kunnen worden gepersonaliseerd met de opdracht **Real-Time CDP-publiek** dashboard. Willekeurig publiek [geactiveerd](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) in de Adobe Commerce-bestemming in Real-Time CDP wordt in dit dashboard weergegeven.
+U kunt alle [actief](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) publiek dat binnen uw Adobe Commerce-instantie kan worden gepersonaliseerd met behulp van de **Real-Time CDP-publiek** dashboard.
 
 Als u toegang wilt krijgen tot **Real-Time CDP-publiek** dashboard, ga naar _Beheerder_ zijbalk, ga vervolgens naar **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP-dashboard Soorten publiek](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Het dashboard bevat de volgende velden:
 
@@ -156,9 +176,12 @@ Het dashboard bevat de volgende velden:
 | `Search` | Hiermee kunt u zoeken naar actief publiek in uw instantie Commerce. |
 | `Name` | Naam gegeven aan het publiek in Real-Time CDP. |
 | `Origin` | Geeft aan waar het publiek vandaan komt, zoals `Experience Platform`. |
+| `Websites` | Geeft aan welke websites zijn geconfigureerd om het publiek te gebruiken. |
+| `Dynamic Blocks` | Geeft aan welke dynamische blokken zijn geconfigureerd om het publiek te gebruiken. |
+| `Cart Price Rules` | Geeft aan welke regels voor de winkelwagenprijs zijn geconfigureerd om het publiek te gebruiken. |
 | `Last updated` | Geeft aan wanneer het publiek is gewijzigd in Real-Time CDP. |
 | `Sync now` | Hiermee haalt u nieuwe of bijgewerkte soorten publiek op uit Real-Time CDP. |
-| `Customize table` | Hiermee kunt u de `Origin` en `Last updated` kolommen. |
+| `Customize table` | Hiermee kunt u de `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, en `Last updated` kolommen. |
 
 {style="table-layout:auto"}
 
