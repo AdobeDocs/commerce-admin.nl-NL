@@ -3,9 +3,9 @@ title: Zoektermen beheren
 description: Leer hoe u de zoektermen voor uw winkel beheert om klanten om te leiden met verkeerd gespelde of alternatieve termen.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 >[!NOTE]
 >
 >De standaardfunctie Synonyms zoeken biedt ondersteuning voor de box `name` en `sku` productkenmerken **_alleen_**.
+
+>[!IMPORTANT]
+>
+>De zoeksynoniemenfunctie gebruikt alleen een zoekmethode met volledige tekst die overeenkomt.
 
 ![Voorbeeld van storefront - zoekresultaten met synoniemen](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
