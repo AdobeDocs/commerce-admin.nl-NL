@@ -1,14 +1,14 @@
 ---
 title: De bedrijfshiërarchie beheren
-description: Bouw en beheer bedrijfshiërarchieën om B2B organisaties met complexe operationele modellen te steunen.
+description: Leer hoe te om B2B organisaties met complexe operationele modellen te beheren door bedrijfhiërarchieën te bouwen
 feature: B2B, Companies
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -17,48 +17,46 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-bèta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor deelnemers aan het bètaprogramma"}
 
-Beheerders kunnen een [!UICONTROL Company Hierarchy] door gelieerde ondernemingen toe te wijzen aan een aangewezen moedermaatschappij, die de onderneming bovenaan in de organisatiehiërarchie staat.
+Beheerders kunnen een [!UICONTROL Company Hierarchy] door gelieerde ondernemingen toe te wijzen aan een aangewezen moedermaatschappij, de onderneming die aan de top van de organisatie staat. Als de [!UICONTROL Company Type] is `Company`, maakt de onderneming geen deel uit van een organisatie en komt in aanmerking om een moedermaatschappij te worden of aan een bestaande moedermaatschappij te worden toegewezen.
 
-Een moederbedrijf maken door een bedrijf te bewerken dat niet is toegewezen aan een bestaand bedrijf [!UICONTROL Company Hierarchy], en het toewijzen van verbonden ondernemingen.
+In Admin, beheert u bedrijfstoewijzingen door een bedrijf uit te geven, en dan update [!UICONTROL Company Hierarchy] configuratie om bedrijven toe te wijzen of toe te wijzen.
 
-![Bedrijfshiërarchieraster](./assets/company-detail-view.png){width="700"}
-
-Nadat een bedrijf aan een hiërarchie is toegewezen, [!UICONTROL Company type] in de **Bedrijven** het netwerk identificeert het bedrijf als `Parent` of  `Child` bedrijf.  Als de [!UICONTROL Company Type] is `Company`, maakt de onderneming geen deel uit van een hiërarchie van ondernemingen en komt in aanmerking om een moedermaatschappij te worden of om te worden toegewezen aan een bestaande moedermaatschappij.
+![Bedrijfshiërarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700"}
 
 >[!NOTE]
 >
 >Voor meer informatie over de [!UICONTROL Company Hierarchy] raster, zie [Bedrijfshiërarchie](account-company-create.md#company-hierarchy) veldbeschrijvingen.
 
-In Admin, beheert u bedrijfstoewijzingen door een bedrijf uit te geven, en dan te gebruiken [!UICONTROL Company Hierarchy] van de [!UICONTROL Company] pagina om toe te wijzen aan of toe te wijzen aan bedrijven.
+## Bedrijven toewijzen aan een organisatie
 
-## Bedrijven toewijzen aan een moedermaatschappij
-
-1. Op de _Beheerder_ zijbalk, navigeren naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Van de _Beheerder_ zijbalk, navigeren naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
    ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Open in het raster Bedrijven de pagina met bedrijfsdetails om de toewijzingen te maken.
+1. In de [!UICONTROL Companies] , opent u de pagina met bedrijfsdetails om de toewijzingen te maken.
 
    - Als u aanvullende ondernemingen aan een bestaande moedermaatschappij wilt toewijzen, selecteert u de **[!UICONTROL Edit]** actie voor het moederbedrijf.
-   - Als u een nieuw moederbedrijf wilt maken, selecteert u de optie **[!UICONTROL Edit]** actie voor het als moedermaatschappij aangewezen bedrijf.
+   - Als u een moederbedrijf wilt maken, selecteert u de optie **[!UICONTROL Edit]** actie voor het bedrijf om als ouder aan te wijzen.
 
-     U kunt geen nieuw moederbedrijf van een bestaand ouder of kindbedrijf tot stand brengen.
+     U kunt geen moederbedrijf van een bestaand ouder of kindbedrijf tot stand brengen.
 
-   ![Nieuw bedrijf](./assets/company-update.png){width="700" zoomable="yes"}
+1. Vouw op de pagina met bedrijfsdetails uit **[!UICONTROL Company Hierarchy]**.
 
-1. Vouw op de pagina Bedrijfsgegevens de **[!UICONTROL Company Hierarchy]** vervolgkeuzelijst en selecteer **[!UICONTROL Assign Companies]**.
+   ![Bedrijfshiërarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-   ![Nieuw bedrijf](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   Het net toont bestaande bedrijfstoewijzingen, als om het even welk bestaan. Het moederbedrijf bevindt zich altijd boven aan de lijst [!UICONTROL Company Hierarchy] raster. De `[!UICONTROL Current]` de vlag wijst op het bedrijf dat wordt uitgegeven.
 
-   Wanneer u deze weergave uitvouwt, kunt u bestaande bedrijfstoewijzingen zien, als die er zijn. Het moederbedrijf verschijnt altijd boven aan het dialoogvenster _[!UICONTROL Company Hierarchy]_raster met een `current company indicator` weergegeven in de bedrijfsregel die wordt bewerkt.
+1. Bedrijven toevoegen aan de moederorganisatie.
 
-1. Bedrijven die beschikbaar zijn voor toewijzing worden vermeld in het raster. Selecteer de bedrijven die u wilt toewijzen en selecteer vervolgens **[!UICONTROL Assign Selected Companies]**.
+   - Maak een keuze uit een lijst met beschikbare bedrijven door **[!UICONTROL Assign Companies]**.
 
-1. U kunt **Alles op deze pagina selecteren** of één specifiek onderdeel van de bedrijfsregel en klik op **[!UICONTROL Assign Selected Companies]**.
+   - **Alles op deze pagina selecteren** of selecteer een of meer specifieke onderdelen van de bedrijfslijn.
 
-   ![Nieuw bedrijf](./assets/assign-selected-companies.png){width="700" zoomable="yes"}
+   - Selecteren **[!UICONTROL Assign Selected Companies]**.
 
-1. Als daarom wordt gevraagd, voltooit u de bedrijfstoewijzing door op **[!UICONTROL Assign]**.
+   - Voltooi de bedrijfs taak door te selecteren **[!UICONTROL Assign]**.
+
+     ![Bedrijven toewijzen aan organisatie](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
 
 ## Ondernemingen van een moedermaatschappij ontkoppelen
 
@@ -66,14 +64,12 @@ In Admin, beheert u bedrijfstoewijzingen door een bedrijf uit te geven, en dan t
 
    ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Open op de pagina Ondernemingen de pagina met bedrijfsgegevens voor de moedermaatschappij door de **[!UICONTROL Edit]** handeling.
+1. In de [!UICONTROL Companies] raster: open de pagina met bedrijfsgegevens voor het moederbedrijf door **[!UICONTROL Edit]**.
 
-   ![Nieuw bedrijf](./assets/company-update.png){width="700" zoomable="yes"}
+1. Bekijk de lijst van toegewezen bedrijven door uit te breiden **[!UICONTROL Company Hierarchy]**.
 
-1. Bekijk de lijst van toegewezen bedrijven door uit te breiden **[!UICONTROL Company Hierarchy]** vervolgkeuzelijst.
+1. Van de [!UICONTROL Company Hierarchy] raster, toewijzen van bedrijf ongedaan maken met **[!UICONTROL Select]** actiecontrole om te kiezen **[!UICONTROL Unassign from parent]**.
 
-1. Maak in het hiërarchieraster van het bedrijf de toewijzing van een bedrijf ongedaan door het **[!UICONTROL Select]** actie voor het bedrijf en kies vervolgens **[!UICONTROL Unassign from parent]**.
-
-   ![Nieuw bedrijf](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   ![Ondernemingen van een moederorganisatie verwijderen](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"}
 
 1. Verwijder het toegewezen bedrijf uit de hiërarchie door **[!UICONTROL Unassign]**.

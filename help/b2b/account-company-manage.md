@@ -1,11 +1,11 @@
 ---
 title: Bedrijfsaccounts beheren
-description: Meer informatie over de pagina Companies en de tools in het raster die u helpen bedrijfsaccounts voor uw Adobe Commerce-winkel te beheren.
+description: Leer bedrijfsaccounts voor je Adobe Commerce-winkel beheren met behulp van de pagina Companies en de tools die beschikbaar zijn in het raster.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De _[!UICONTROL Companies]_op de pagina worden alle accounts van het huidige bed
 
 De _[!UICONTROL Actions]_de controle boven het net kan worden gebruikt om een actie op veelvoudige bedrijfsverslagen toe te passen. In plaats van bijvoorbeeld elk afzonderlijk bedrijfsverzoek goed te keuren, kunt u meerdere verzoeken selecteren en de accounts in één actie activeren. Welke acties beschikbaar zijn, is afhankelijk van de [machtigingen](../systems/permissions.md) voor de rol die aan uw Admin gebruikersrekening wordt toegewezen.
 
-Gebruik de _[!UICONTROL Search]_functie om bedrijven te vinden in de **Bedrijven**raster op trefwoord. Het bedrijf wordt gevonden door het opgegeven trefwoord te zoeken in het dialoogvenster **Bedrijfsnaam**en **Bovenliggend**kolommen. U kunt filteren op **Bedrijfstype**om moederondernemingen en hun verbonden ondernemingen te tonen, of alleen kinderbedrijven te laten zien.
+Gebruik de _[!UICONTROL Search]_functie om bedrijven te vinden in de **Bedrijven**raster op trefwoord. De zoekopdracht indexeert trefwoorden van de **Bedrijfsnaam**en **Bovenliggend**kolommen. U kunt filteren op **Bedrijfstype**alleen alleenstaande ondernemingen, alleen moedermaatschappijen of alleen kindbedrijven laten zien.
 
 ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ De volgende handelingen kunnen op één of meerdere records worden toegepast.
 
 ### Bedrijfsaccounts activeren
 
-1. Stel de **[!UICONTROL Actions]** controle op `Set Active`.
+1. Van de **[!UICONTROL Actions]** besturingselement, selecteren **[!UICONTROL Set Active]**.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ De volgende handelingen kunnen op één of meerdere records worden toegepast.
 
 Klanten met inactieve accounts kunnen zich niet aanmelden bij of aankopen doen bij hun accounts. Er zijn twee methoden om een klantenaccount in te stellen als actief of inactief:
 
-Methode 1: **Van het klantennet**
+Methode 1: **Vanuit het raster Klanten**
 
 1. Op de _Beheerder_ zijbalk, ga naar [!UICONTROL **Klanten**] > [!UICONTROL **Alle klanten**].
 
-1. Stel de [!UICONTROL **Handelingen**] de controle op een van de volgende punten:
+1. Van de **[!UICONTROL Actions]** selecteert u een van de volgende opties:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Selecteer **[!UICONTROL OK]** om de wijziging toe te passen.
 
 Methode 2: **Vanaf de pagina voor accountbewerking**
 
@@ -66,7 +66,7 @@ Methode 2: **Vanaf de pagina voor accountbewerking**
 
 1. Zoek in het raster het klantrecord dat u wilt bewerken.
 
-1. In de _Handelingen_ kolom uiterst rechts, klik [!UICONTROL **Bewerken**].
+1. In de _Handelingen_ kolom helemaal rechts, selecteert u [!UICONTROL **Bewerken**].
 
 1. Selecteer de [!UICONTROL **Accountinformatie**] tab.
 
@@ -78,7 +78,7 @@ Methode 2: **Vanaf de pagina voor accountbewerking**
 
 Gebruikers die zijn gekoppeld aan een geblokkeerd bedrijfsaccount kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. Een bedrijf met een rekening die niet in goede staat is kan tijdelijk worden geblokkeerd totdat de kwestie is opgelost.
 
-1. Stel de **[!UICONTROL Actions]** controle op `Block`.
+1. Van de **[!UICONTROL Actions]** besturingselement, selecteren **[!UICONTROL Block]**.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Gebruikers die zijn gekoppeld aan een geblokkeerd bedrijfsaccount kunnen zich aa
 
 Verwijderde bedrijfsaccounts kunnen niet worden hersteld. De status van gebruikersaccounts die aan het bedrijf zijn gekoppeld, is ingesteld op `Inactive` en de bedrijfs-id wordt verwijderd uit de profielen van gebruikersaccounts. Informatie over bedrijfsactiviteiten en transacties wordt in het systeem bewaard.
 
-1. Stel de **[!UICONTROL Actions]** controle op `Delete`.
+1. Van de **[!UICONTROL Actions]** besturingselement, selecteren **[!UICONTROL Delete]**.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Verwijderde bedrijfsaccounts kunnen niet worden hersteld. De status van gebruike
 
 Het krediet in de rekeningen van geselecteerde ondernemingen wordt omgezet in de actuele koers van de geselecteerde valuta.
 
-1. Stel de **[!UICONTROL Actions]** controle op `Convert Currency`.
+1. Van de **[!UICONTROL Actions]** besturingselement, selecteren **[!UICONTROL Convert Currency]**.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ Het krediet in de rekeningen van geselecteerde ondernemingen wordt omgezet in de
 
 1. Klikken **[!UICONTROL Proceed]** om de conversie te voltooien.
 
-### Een bedrijfsaccount bewerken
+## Een bedrijfsaccount bewerken
 
 Methode 1: **Snel bewerken**
 
 1. Selecteer in de eerste kolom het selectievakje van de bedrijfsaccount die u wilt bewerken.
 
-1. Stel de **[!UICONTROL Actions]** kolom naar `Edit`.
+1. Van de **[!UICONTROL Actions]** besturingselement, selecteren **[!UICONTROL Edit]**.
 
    Elke waarde die kan worden bijgewerkt, verschijnt in een tekstvak.
 
@@ -130,7 +130,7 @@ Methode 2: **Volledig bewerken**
 
 1. Zoek in het raster het bedrijfsrecord dat moet worden bewerkt.
 
-1. Klikken **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Selecteren **[!UICONTROL Edit]** van de _[!UICONTROL Action]_kolom.
 
 1. Breng de benodigde wijzigingen aan in de bedrijfsinformatie.
 
@@ -191,7 +191,7 @@ In de volgende secties vindt u een verwijzing naar de beschikbare acties, opties
 ### Handelingenbesturingsopties
 
 | Optie | Beschrijving |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Hiermee wordt de status van alle geselecteerde bedrijfsrecords ingesteld op `Active`. De beheerders van het bedrijf ontvangen instructies om hun wachtwoorden te plaatsen zodat kunnen zij tot hun rekeningen toegang hebben en hun bedrijven van de winkel beheren. |
 | [!UICONTROL Block] | Beperkt bedrijfsrekeningen die niet in goede staat zijn, terwijl het bewaren van de rekening. De leden van het bedrijf kunnen login en tot de catalogus toegang hebben, maar zij kunnen geen orden namens het bedrijf plaatsen. |
 | [!UICONTROL Delete] | Hiermee verwijdert u geselecteerde bedrijfsaccounts. De status van gebruikersaccounts die aan een verwijderd bedrijf zijn gekoppeld, is ingesteld op `Inactive` en de bedrijfs-id wordt verwijderd uit de profielen van gebruikersaccounts. Informatie over bedrijfsactiviteiten en transacties wordt in het systeem bewaard. |
@@ -324,11 +324,11 @@ De volgende kolommen zijn beschikbaar door de [kolomindeling](../getting-started
 #### [!UICONTROL Company Credit]
 
 | Veld | Beschrijving |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | De valuta die door de winkel wordt geaccepteerd voor aankopen op bedrijfskrediet. |
 | [!UICONTROL Credit Limit] | De kredietlimiet die tot de bedrijfsrekening wordt uitgebreid. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Geeft aan of de onderneming toestemming heeft om de kredietlimiet te overschrijden. Opties: Ja/Nee |
-| [!UICONTROL Reason for Change] | Een opmerking die verklaart waarom de onderneming de kredietlimiet mag of mag overschrijden. Dit veld is alleen actief als de toestemming om de kredietlimiet te overschrijden wordt gewijzigd. |
+| [!UICONTROL Reason for Change] | Een toelichting waarin de omstandigheden worden toegelicht waarin de onderneming de kredietlimiet al dan niet kan overschrijden. Dit veld is alleen actief als de toestemming om de kredietlimiet te overschrijden wordt gewijzigd. |
 
 {style="table-layout:auto"}
 

@@ -4,9 +4,9 @@ description: Meer informatie over het maken van bedrijfsaccounts vindt u in Adob
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Aan de persoon die een bedrijfsaccount instelt van de winkel, wordt een rol toeg
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Re-seller ID]**
+      - **[!UICONTROL Reseller ID]**
 
    ![Bedrijfsgegevens](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Aan de persoon die een bedrijfsaccount instelt van de winkel, wordt een rol toeg
 
 1. Hiermee wordt de validatie voltooid als reCAPTCHA is ingeschakeld voor deze storefront-functie.
 
-1. Wanneer de informatie is voltooid, klikt u op **[!UICONTROL Submit]**.
+1. Wanneer de informatie is voltooid, selecteert u **[!UICONTROL Submit]**.
 
    Wanneer het verzoek om een bedrijfsrekening tot stand te brengen door de handelaar wordt goedgekeurd, wordt de e-mailkennisgeving verzonden naar de bedrijfbeheerder.
 
@@ -86,7 +86,7 @@ Aan de persoon die een bedrijfsaccount instelt van de winkel, wordt een rol toeg
 
 Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde als van storefront, maar met extra gebieden.
 
-![Nieuw bedrijf](./assets/company-update.png){width="700" zoomable="yes"}
+![Een nieuw bedrijf toevoegen vanuit de beheerder](./assets/company-add-new.png){width="700" zoomable="yes"}
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -173,24 +173,24 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
    - Als u het dialoogvenster **[!UICONTROL Applicable Payment Methods]** die voor de onderneming beschikbaar zijn, **[!UICONTROL Use config settings]** en kies een van de volgende opties:
 
      | Optie | Beschrijving |
-     | ------ | ----------- |
+     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | (Standaard) Hiermee schakelt u alle [betalingsmethoden als standaard ingesteld](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) voor B2B-orders. |
      | `All Enabled Payment Methods` | Maakt alles [ingeschakelde betalingsmethoden](../configuration-reference/sales/payment-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
-     | `Selected Payment Methods` | Hiermee kunt u de betalingsmethoden selecteren die beschikbaar zijn voor klantenaccounts die bij het bedrijfsaccount horen. Als u meerdere betalingsmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie. |
+     | `Selected Payment Methods` | Hiermee kunt u de betalingsmethoden selecteren die beschikbaar zijn voor klantenaccounts die bij het bedrijfsaccount horen. Als u meerdere betalingsmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 
      {style="table-layout:auto"}
 
    - Als u het dialoogvenster **[!UICONTROL Applicable Shipping Methods]** die voor de onderneming beschikbaar zijn, **[!UICONTROL Use config settings]** en kies een van de volgende opties:
 
      | Optie | Beschrijving |
-     | ------ | ----------- |
+     |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Shipping Methods` | (Standaard) Hiermee schakelt u alle [verzendmethoden zijn standaard ingesteld](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) voor B2B-orders. |
      | `All Enabled Shipping Methods` | Maakt alles [Verzendmethoden ingeschakeld](../configuration-reference/sales/delivery-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
-     | `Selected Shipping Methods` | Hiermee kunt u de verzendmethoden selecteren die beschikbaar zijn voor klantenaccounts die zijn gekoppeld aan het bedrijfsaccount. Als u meerdere verzendmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie. |
+     | `Selected Shipping Methods` | Hiermee kunt u de verzendmethoden selecteren die beschikbaar zijn voor klantenaccounts die zijn gekoppeld aan het bedrijfsaccount. Als u meerdere verzendmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 
      {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Save]**.
 
    Wanneer het verzoek om een bedrijfsaccount te maken door de handelaar wordt goedgekeurd, wordt een e-mailmelding verzonden naar het e-mailadres van de bedrijfsbeheerder.
 
@@ -199,7 +199,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ## Knopbalk
 
 | Knop | Beschrijving |
-|------- | ----------- |
+|---------------------------|------------------------------------------------------------------|
 | [!UICONTROL Back] | Hiermee gaat u terug naar de pagina Companies zonder de wijzigingen op te slaan. |
 | [!UICONTROL Reset] | Hiermee herstelt u de oorspronkelijke waarden in alle velden met niet-opgeslagen wijzigingen. |
 | [!UICONTROL Save] | Hiermee slaat u wijzigingen op in het bedrijf en houdt u het profiel open. |
@@ -210,7 +210,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ## Veldomschrijvingen
 
 | Veld | Beschrijving |
-|--- |--- |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | De bedrijfsnaam wordt ingevoerd wanneer het bedrijfsaccount voor het eerst wordt gemaakt en kan een verkorte versie van de volledige juridische naam zijn. |
 | [!UICONTROL Status] | (Alleen beheerder) Geeft de huidige status van de bedrijfsaccount aan. Opties: <br/>**[!UICONTROL Active]**- De bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>** Geblokkeerd **- Bedrijfsleden kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
 | [!UICONTROL Company Email] | Het e-mailadres dat aan het bedrijfsaccount is gekoppeld. |
@@ -221,7 +221,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Account Information]
 
 | Veld | Beschrijving |
-|--- |--- |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | De volledige wettelijke naam van de onderneming. |
 | [!UICONTROL VAT / TAX ID] | De [belasting over toegevoegde waarde](../stores-purchase/vat.md) nummer dat door sommige rechtsgebieden aan de onderneming wordt toegekend voor belastingrapportagedoeleinden. Om de klant BTW/BELASTINGidentiteitskaart te vormen om in de winkel te verschijnen, zie [Nieuwe accountopties maken](../configuration-reference/customers/customer-configuration.md). <br/> **_Opmerking:_** De beheerder van het bedrijf en andere gebruikers van het bedrijf hebben geen eigen afzonderlijke BTW/BELASTINGnummers in hun klantenrekeningen. |
 | [!UICONTROL Reseller ID] | Het wederverkoopnummer dat aan de onderneming wordt toegekend voor belastingverslagleggingsdoeleinden. |
@@ -232,14 +232,15 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Company Hierarchy]
 
 | Veld | Beschrijving |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Het ID-nummer van het bedrijf. |
 | [!UICONTROL Company Name] | De volledige naam van de onderneming. <br/>A `current company indicator` wordt weergegeven in de bedrijfsregel die wordt bewerkt. |
 | [!UICONTROL Company Email] | Het e-mailadres dat aan het bedrijfsaccount is gekoppeld. |
 | [!UICONTROL Phone Number] | Het primaire telefoonnummer van het bedrijf. |
+| [!UICONTROL Country] | Het land waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL State/Province] | De staat of provincie waar het bedrijf is geregistreerd om zaken te doen. |
 | [!UICONTROL City] | De stad waar de onderneming is geregistreerd om zaken te doen. |
-| [!UICONTROL Customer Group] | (Alleen beheerder) Hiermee wordt de instelling [klantengroep](../customers/customer-groups.md) of [gedeelde catalogus](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Group/Shared Catalog] | (Alleen beheerder) Hiermee wordt de instelling [klantengroep](../customers/customer-groups.md) of [gedeelde catalogus](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Company Admin] | De volledige naam van de bedrijfbeheerder. |
 | [!UICONTROL Action] | De lijst van mogelijke acties voor die bedrijfslijn. |
 
@@ -248,7 +249,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Legal Address]
 
 | Veld | Beschrijving |
-|--- |--- |
+|------------------------------|-----------------------------------------------------------------------------|
 | [!UICONTROL Street Address] | Het adres van de straat waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL City] | De stad waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL Country] | Het land waar de onderneming is geregistreerd om zaken te doen. |
@@ -261,7 +262,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Company Admin]
 
 | Veld | Beschrijving |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Hiermee bepaalt u de website waartoe de beheerder van het bedrijf behoort. |
 | [!UICONTROL Job Title] | De titel van de bedrijfsbeheerder die de bedrijfsaccount beheert. |
 | [!UICONTROL Email] | Het e-mailadres van de bedrijfsbeheerder kan hetzelfde zijn als het e-mailadres van het bedrijf. Als u een ander e-mailadres opgeeft, wordt naast het bedrijfsaccount een aparte account aangemaakt voor de beheerder van het bedrijf. |
@@ -278,7 +279,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Company Credit]
 
 | Veld | Beschrijving |
-|--- |--- |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (Alleen beheerder) De valuta die door de winkel wordt geaccepteerd voor aankopen op bedrijfskrediet. |
 | [!UICONTROL Credit Limit] | (Alleen beheerder) De kredietlimiet die wordt uitgebreid naar de bedrijfsaccount. |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Alleen beheerder) Geeft aan of het bedrijf toestemming heeft om de kredietlimiet te overschrijden. Opties: `Yes` / `No` |
@@ -289,13 +290,13 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 ### [!UICONTROL Advanced Settings]
 
 | Veld | Beschrijving |
-|--- |--- |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Alleen beheerder) Hiermee wordt de instelling [klantengroep](../customers/customer-groups.md) of [gedeelde catalogus](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Allow Quotes] | (Alleen beheerder) Hiermee wordt bepaald of leden van het bedrijf namens het bedrijf verhandelbare noteringen kunnen opstellen en indienen. |
 | [!UICONTROL Enable Purchase Orders] | (Alleen beheerder) Hiermee bepaalt u of leden van het bedrijf orders kunnen indienen als [inkooporders](account-dashboard-my-purchase-orders.md) namens de onderneming. |
 | Toepasselijke betalingsmethoden | (Alleen beheerder) Geeft de betalingsmethoden aan die beschikbaar zijn voor aankopen door bedrijven. Opties: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
-| [!UICONTROL Payment Methods] | (Alleen beheerder) Wordt actief als specifieke betalingsmethoden worden geactiveerd. Als u meerdere betalingsmethoden beschikbaar wilt maken voor de bedrijfsaccount, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie. |
+| [!UICONTROL Payment Methods] | (Alleen beheerder) Wordt actief als specifieke betalingsmethoden worden geactiveerd. Als u meerdere betalingsmethoden beschikbaar wilt maken voor de bedrijfsaccount, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 | [!UICONTROL Applicable Shipping Methods] | (Alleen beheerder) Geeft de verzendmethoden aan die beschikbaar zijn voor aankopen door bedrijven. Opties: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (Alleen beheerder) Wordt actief als specifieke verzendmethoden worden geactiveerd. Als u meerdere betalingsmethoden beschikbaar wilt maken voor de bedrijfsaccount, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie. |
+| [!UICONTROL Shipping Methods] | (Alleen beheerder) Wordt actief als specifieke verzendmethoden worden geactiveerd. Als u meerdere betalingsmethoden beschikbaar wilt maken voor de bedrijfsaccount, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 
 {style="table-layout:auto"}
