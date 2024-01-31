@@ -3,9 +3,9 @@ title: Optimalisatie van afbeeldingen in mediagalerie
 description: Leer hoe u de optimalisatie van afbeeldingen kunt gebruiken voor uw [!DNL Commerce] media-elementen.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ Als optimalisatiefunctionaliteit voor afbeeldingen in de medialerie is ingeschak
 Wanneer de _Maximale breedte_ en _Maximumhoogte_ De waarden worden veranderd in de configuratie, werkt het alle bestaande geoptimaliseerde beelden bij die eerder werden opgenomen.
 
 Voor het optimaliseren van afbeeldingen in de mediagalerie moet de optie `media.gallery.renditions.update` de rijconsumenten lopen voor het regenereren van geoptimaliseerde beelden wanneer de configuratie wordt veranderd. Zie [Berichtenrijen beheren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in de _Configuratiegids_ voor meer informatie .
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}

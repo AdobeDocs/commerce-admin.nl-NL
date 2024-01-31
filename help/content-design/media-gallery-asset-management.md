@@ -3,7 +3,7 @@ title: Middelen in galerie beheren
 description: Leer hoe u geüploade mediabestanden en elementen die u via Adobe Stock-integratie aanschaft, beheert.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ Elementen kunnen in de gehele beheerdersgroep veel worden gebruikt, zoals [Een p
 1. Open de nieuwe medialerie vanuit een gebied waarin u media-elementen kunt gebruiken.
 
 1. Selecteer het element en klik op **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Elementen verwijderen
 
