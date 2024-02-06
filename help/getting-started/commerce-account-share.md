@@ -3,9 +3,9 @@ title: Delen a [!DNL Commerce] account
 description: Leer hoe u beperkte toegang tot uw [!DNL Commerce] rekening voor andere [!DNL Commerce] rekeninghouders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
    >[!NOTE]
    >
-   > Indien  **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of de **[!UICONTROL Share Name]** begint met `Cloud Shared Access from MAG XYZ` - doorgaans, [deze rekeningen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan niet worden verwijderd.
+   > Indien  **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of de **[!UICONTROL Share Name]** begint met `Cloud Shared Access from MAG XYZ` - [deze rekeningen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kan niet worden verwijderd.
+   > 
+   > Als dat het geval is, vraagt u de accounteigenaar om de account Gedeelde toegang te wijzigen en de accountmachtigingen te wissen. Na die update is gedeelde toegang tot een van de bronnen niet beschikbaar voor de gebruiker.
+   >
+   > Bovendien moet u ervoor zorgen dat de gebruikers uit het project worden verwijderd, zodat ze geen e-mailmeldingen meer ontvangen: [Oude teamleden ontvangen e-mailberichten over de cloud van Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL Delete User]**.
 
