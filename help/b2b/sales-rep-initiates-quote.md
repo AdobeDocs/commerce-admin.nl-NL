@@ -4,9 +4,9 @@ description: Leer hoe een verkoper een prijsopgave kan maken voor een specifieke
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    Sla het aanhalingsteken op als concept of verzend het naar de koper.
 
-   Als je het aanhalingsteken naar de koper stuurt, verandert de status in `Submitted`en de prijsopgave is vergrendeld totdat de koper de prijsopgave heeft gedaan, de status wordt bijgewerkt naar het concept en er wordt een bevestigingsbericht weergegeven:
+   - Als u het aanhalingsteken opslaat als concept, wordt de status bijgewerkt naar `Draft` en er wordt een bevestigingsbericht weergegeven:
 
-   ![Conceptprijsopgave voor bevestiging verzonden aan koper](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Conceptprijsopgave voor bevestiging verzonden aan koper](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-De koper ontvangt een e-mailbericht om de prijsopgave te bekijken. De prijsopgave is vergrendeld totdat de koper deze voor verdere onderhandelingen retourneert. De verkoper kan het citaat van het net van het Citaat of het net van de Klant bekijken.
+   - Als je het aanhalingsteken naar de koper stuurt, verandert de status in `Submitted`. De koper ontvangt een e-mailbericht om de prijsopgave te bekijken. De prijsopgave is vergrendeld totdat de koper deze voor verdere onderhandelingen retourneert. De verkoper kan de prijsopgave bekijken in het Offertennet of het klantenraster.
 
 ## Aanhalingstekens weergeven en maken via het raster van de klant
 
