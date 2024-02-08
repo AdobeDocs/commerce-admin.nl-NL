@@ -2,12 +2,10 @@
 title: HIPAA-gereedheid op Adobe Commerce
 description: Leer hoe u de Adobe Commerce HIPAA-Klaar module kunt toevoegen en extra eigenschappen en functionaliteiten krijgt die u toestaan om aan uw verplichtingen van HIPAA te voldoen.
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
