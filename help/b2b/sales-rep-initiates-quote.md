@@ -4,9 +4,9 @@ description: Leer hoe een verkoper een prijsopgave kan maken voor een specifieke
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Items aan het aanhalingsteken toevoegen door **[!UICONTROL Add Product By SKU]**. Voer het SKU-nummer en -aantal in en selecteer **[!UICONTROL Add Product]**.
 
-![Verkoper voegt objecten toe aan conceptprijsopgave](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Verkoper voegt objecten toe aan conceptprijsopgave](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Pas indien nodig kortingen voor regelobjecten toe op producten.
 
@@ -67,7 +67,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    - Op de [!UICONTROL Discount Line item] formulier, selecteert u de **[!UICONTROL Discount Type]**.
 
-   ![Regelitemkorting toepassen op aanhalingsteken](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Regelitemkorting toepassen op aanhalingsteken](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - In de [!UICONTROL Discount] Voer de waarde voor het kortingstype in. Als u bijvoorbeeld een percentagekorting hebt geselecteerd, voert u 10 in om een korting van 10% toe te passen op het regelitem.
 
@@ -85,7 +85,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Voeg aanvullende informatie voor de koper toe.
 
-   In [!UICONTROL Negotiation - Comments], voegt u een notitie toe en voegt u eventuele ondersteunende bestanden die voor de koper vereist zijn in [!UICONTROL Negotiation - Comments]
+   Op de **[!UICONTROL Negotiation - Comments]** , voegt u een notitie toe en voegt u eventuele ondersteunende bestanden die nodig zijn voor de koper.
 
    ![Verkoper voegt informatie toe aan koper](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    Sla het aanhalingsteken op als concept of verzend het naar de koper.
 
-   - Als u het aanhalingsteken opslaat als concept, wordt de status bijgewerkt naar `Draft` en er wordt een bevestigingsbericht weergegeven:
-
-     ![Conceptprijsopgave voor bevestiging verzonden aan koper](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Als u het aanhalingsteken opslaat als concept, wordt de status bijgewerkt naar `Draft` en er wordt een bevestigingsbericht weergegeven.
 
    - Als je het aanhalingsteken naar de koper stuurt, verandert de status in `Submitted`. De koper ontvangt een e-mailbericht om de prijsopgave te bekijken. De prijsopgave is vergrendeld totdat de koper deze voor verdere onderhandelingen retourneert. De verkoper kan de prijsopgave bekijken in het Offertennet of het klantenraster.
 
