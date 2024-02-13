@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] pagina van de Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,14 @@ ht-degree: 0%
 <!-- [Search Engine Optimization](https://docs.magento.com/user-guide/catalog/product-search-engine-optimization.html) -->
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Popular Search Terms] | Winkelweergave | Hiermee wordt bepaald of _Algemene zoektermen_ wordt geïmplementeerd in de winkel. Deze instelling is niet van toepassing op opslagruimten die [Live zoeken](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Opties: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op product-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Category URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op categorie-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Use Categories Path for Product URLs] | Winkelweergave | Hiermee wordt bepaald of categoriepaden worden opgenomen in product-URL&#39;s. Dit kan ertoe leiden dat meerdere URL&#39;s naar dezelfde pagina verwijzen, wat van invloed kan zijn op de zoekpositie. Zie voor meer informatie [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Winkelweergave | Hiermee wordt bepaald of er automatisch een permanente omleiding wordt gemaakt wanneer een URL-sleutel verandert. Als u deze optie hebt geïmplementeerd, is het selectievakje Aangepaste omleiding voor oude URL maken onder het veld URL-sleutel van product standaard ingeschakeld. Opties: `Yes` / `No` |
 | [!UICONTROL Generate "category/product" URL Rewrites] | Algemeen | Hiermee wordt bepaald of Adobe Commerce gegevens genereert en opslaat in herschrijftabellen wanneer een gebruiker een categorie opslaat die veel toegewezen producten bevat. Opties: `Yes` / `No` <br/><br/>**_Belangrijk:_**Als u deze gegenereerde gegevens opslaat in een URL, wordt de tabel herschreven en kan dit de prestaties nadelig beïnvloeden. Zie [Automatische productomleiding](../../merchandising-promotions/url-redirect-product-automatic.md) voor meer informatie . |
+| [!UICONTROL Apply transliteration for product URL] | Winkelweergave | Hiermee wordt bepaald of transliteratie wordt toegepast bij het maken of bijwerken van product-URL&#39;s. Opties: `Yes` / `No`. Standaard is ingesteld op `Yes`. <br/><br/>In bepaalde gevallen moet u transliteratie uitschakelen. Als u bijvoorbeeld een onlinewinkel in het Chinees exploiteert, wordt u door SEO aanbevolen dat product-URL&#39;s overeenkomen met de productnaam. De optie instellen op `No` Hiermee kunnen Chinese tekens worden gebruikt in product-URL&#39;s in plaats van een ASCII-equivalent. |
 | [!UICONTROL Page Title Separator] | Winkelweergave | Hiermee wordt het teken aangegeven dat fungeert als scheiding tussen de categorienaam en de subcategorie in de titelbalk van de browser. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Winkelweergave | Als er meerdere URL&#39;s zijn die naar dezelfde categoriepagina verwijzen, gebruikt deze optie een canonieke metatag om de categorie-URL te identificeren die zoekprogramma&#39;s moeten indexeren. De URL bevat een volledige naam voor de categorie met behulp van de metatag. Hierdoor wordt dubbele inhoud verkleind en SEO verbeterd. Opties: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Winkelweergave | Als er meerdere URL&#39;s zijn die naar dezelfde productpagina verwijzen, gebruikt deze optie een canonieke metatag om de product-URL te identificeren die zoekprogramma&#39;s moeten indexeren. De URL bevat een volledige naam voor het product met de metatag. Hierdoor wordt dubbele inhoud verkleind en SEO verbeterd. Opties: `Yes` / `No` |

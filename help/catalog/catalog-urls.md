@@ -3,9 +3,9 @@ title: URL's van catalogi en producten
 description: Leer over de formaattypes URL voor uw catalogusproducten, en hoe te om hen te vormen.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De URL-sleutel is het deel van een statische URL dat het product of de categorie
 
 >[!NOTE]
 >
->Speciale tekens met accent worden automatisch vervangen door de normale versie zonder accent in de URL-sleutel. Bijvoorbeeld: `ñ` wordt automatisch vervangen door `n`.
+>Standaard worden speciale tekens met accent automatisch vervangen door de normale versie zonder accent in de URL-sleutel. Bijvoorbeeld: `ñ` wordt automatisch vervangen door `n`. Dit gedrag kan worden uitgeschakeld door het instellen van de _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_configuratieoptie voor `No`. Zie [Catalogus-URL&#39;s configureren](#configure-catalog-urls).
 
 De URL-sleutel moet bestaan uit kleine letters met niet-afbreekstreepjes tussen deze tekens om woorden van elkaar te scheiden. Afbreekstreepjes zijn niet toegestaan aan het begin of aan het einde van de URL-sleutel. Een goed ontworpen URL-sleutel die &#39;geschikt is voor zoekprogramma&#39;s&#39; kan de productnaam en trefwoorden bevatten om de manier waarop deze wordt geïndexeerd door zoekprogramma&#39;s te verbeteren. De URL-sleutel kan worden geconfigureerd om een automatische omleiding te maken als de URL-sleutel verandert.
 
