@@ -2,9 +2,9 @@
 title: '''[!DNL Admin Unified Experience for Adobe Commerce] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over de meest recente release van de [!DNL Admin Unified Experience] uitbreiding voor de handel.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Deze versienota&#39;s voor Admin van de Handel verenigden de uitbreiding van de 
 >[!NOTE]
 >
 >Zie [Productbeschikbaarheid](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor gedetailleerde informatie over de releasestatus van de Admin Unified Experience-extensie ten opzichte van Adobe Commerce.
+
+## 1.0-release
+
+*13 februari 2023*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+![Nieuw](../assets/new.svg) De algemene versie van de Beschikbaarheid van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
+
+![Nieuw](../assets/new.svg) Wanneer de Admin Verenigde uitbreiding van de Ervaring op een project van Adobe Commerce wordt geïnstalleerd en toegelaten, kunnen de beheerders [Adobe Commerce-instanties weergeven en openen vanaf de startpagina van het Experience Cloud](admin-unified-experience-integration-overview.md).
+
 
 ## 1,0-release (bèta)
 
