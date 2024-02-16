@@ -3,9 +3,9 @@ title: Een regel voor een verwant product maken
 description: Leer hoe u een gerelateerde productregel maakt die kan worden geactiveerd voor het weergeven van verwante producten, upsells en cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Het proces om een verwante productregel tot stand te brengen is gelijkaardig aan
    - Voor **[!UICONTROL Result Limit]**, voert u het aantal records in dat in de resultatenlijst moet worden weergegeven. Het maximumaantal is 20.
 
    - Als de regel van toepassing is op een specifieke [klantensegment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** tot `Specified` en kies het klantensegment van de lijst.
+
+   - (**Beta**) Als de regel van toepassing is op een specifieke [Real-Time CDP-publiek](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** tot `Specified` en kiest u het Real-Time CDP-publiek in de lijst. Deze functie is in bèta. Als u wilt deelnemen aan het bètaprogramma, verzendt u een aanvraag naar [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Regel voor verwante producten - Real-Time CDP-publiek](./assets/rtcdp-related-products.png){width="500"}
 
 1. Kies in het linkerdeelvenster de optie **[!UICONTROL Products to Match]** en de voorwaarden te creëren zoals u zou willen [catalogusprijsregel](price-rules-catalog.md).
 

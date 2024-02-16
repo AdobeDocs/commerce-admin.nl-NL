@@ -3,9 +3,9 @@ title: Verwante productregels
 description: Leer over verwante productregels en hoe zij worden gebruikt om verwante producten dynamisch voor te stellen, omhoog-verkoopt, en dwars-verkoopt aan uw klanten.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ Het gedrag van de regels van de productverhouding en de vertoning van aangepaste
 | [!UICONTROL Weighted Random] | De producten worden gerandomiseerd zodat producten die tot een regel met een hogere prioriteit behoren, een grotere kans hebben om te verschijnen dan producten die tot een regel met een lagere prioriteit behoren. De producten worden dan verminderd tot de configureerbare maximumgrens en door prioriteit opnieuw gegroepeerd. Deze wijze geeft een kans aan producten van lagere prioriteit om soms te verschijnen zelfs als de resterende groeven met producten van regel met hogere prioriteit konden worden gevuld |
 
 {style="table-layout:auto"}
+
+## Real-Time CDP-publiek gebruiken om gerelateerde productregels te informeren
+
+>[!NOTE]
+>
+>Deze functie is in bèta. Als u wilt deelnemen aan het bètaprogramma, verzendt u een aanvraag naar [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Leer hoe u [activate](../customers/audience-activation.md) Real-Time CDP neemt een kijkje in je Adobe Commerce-exemplaar om verwante productregels op de hoogte te brengen.

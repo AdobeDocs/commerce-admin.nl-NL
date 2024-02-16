@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _30 mei 2023_
 ![Nieuw](../assets/new.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) om het actieve publiek in uw Adobe Commerce-instantie te sorteren, te zoeken en te filteren.
 
 +++
+
+### 2.2.0-bèta1
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+_16 februari 2024_
+
+![Nieuw](../assets/new.svg) - Als u deelneemt aan de bètaversie, zorg er dan voor dat u `composer.json` bestand heeft het volgende op hoofdniveau: ` "minimum-stability": "beta"`.
+![Nieuw](../assets/new.svg) - (**Beta**) Toegevoegde mogelijkheid om te maken [verwante productregels](../merchandising-promotions/product-related-rule-create.md) door het publiek geïnformeerd.
 
 ### 2.1.0.
 
@@ -147,11 +156,7 @@ Nadat u de [!DNL Audience Activation] extensie, moet u zich aanmelden bij uw Com
 
 1. Uitbreiden **[!UICONTROL Services]** en selecteert u **[!UICONTROL [!DNL Data Connection]]**.
 
-1. In de [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) Volg stap 1 voor deze handleiding: **Een project maken in Adobe Developer Console** en 2: **Configuratiebestand downloaden**. Het resultaat is een bestand dat u kopieert en plakt in de **[!UICONTROL [!DNL Data Connection]]** configuratiepagina
-
-   ![Configuratie Real-Time CDP Audience Admin](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. Klikken **Config opslaan**.
+1. [Toevoegen](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) serviceaccount en referentiedetails.
 
 ## Waar kan het Real-Time CDP-publiek in de handel worden gebruikt?
 
@@ -159,6 +164,7 @@ Met de [!DNL Audience Activation] extensie ingeschakeld, kunt u:
 
 - [Een regel voor een winkelwagenprijs maken](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) geïnformeerd door het publiek
 - [Een dynamisch blok maken](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) geïnformeerd door het publiek
+- [(**Beta**) Een regel voor een verwant product maken](../merchandising-promotions/product-related-rule-create.md) geïnformeerd door het publiek
 
 ## Real-Time CDP-doeldashboard
 
@@ -187,11 +193,11 @@ Het dashboard bevat de volgende velden:
 
 ## Hoofdondersteuning
 
-U kunt het publiek in een Adobe Commerce-instantie zonder kop, zoals AEM en PWA, activeren om regels voor de prijs van winkelwagentjes of dynamische blokken weer te geven op basis van het publiek.
+U kunt het publiek in een Adobe Commerce-instantie zonder kop, zoals AEM en PWA, activeren om regels voor de winkelwagenprijs, verwante productregels of dynamische blokken weer te geven die zijn gebaseerd op het publiek.
 
-### Prijsregels voor winkelwagentjes
+### Cart price rules and related product rules
 
-Voor de regels voor de kartprijs geeft een koploze winkel het Experience Platform via de [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. De informatie van het publiek, zoals het segment van een verkoopster, gaat tot Handel door een GraphQL kopbalparameter over genoemd: `aep-segments-membership`.
+Voor de regels betreffende de kartprijs en de desbetreffende productregels geeft een koploze winkel het Experience Platform via de [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. De informatie van het publiek, zoals het segment van een verkoopster, gaat tot Handel door een GraphQL kopbalparameter over genoemd: `aep-segments-membership`.
 
 De architectuur ziet er als volgt uit:
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-Nadat de gegevens zijn opgehaald, kunt u deze gebruiken om op de doelgroep gebaseerde gegevens te maken [regels betreffende de kartonprijs](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) en [dynamische blokken](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) in de Commerce-app.
+Nadat de gegevens zijn opgehaald, kunt u deze gebruiken om op de doelgroep gebaseerde gegevens te maken [regels betreffende de kartonprijs](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamische blokken](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) en  [verwante productregels](../merchandising-promotions/product-related-rule-create.md) in de Commerce-app.
+
+## Soorten publiek wordt niet weergegeven bij Handel
+
+Als het publiek van Real-Time CDP niet in de Handel wordt getoond, kon het toe te schrijven zijn aan:
+
+- Onjuist verificatietype geselecteerd in het dialoogvenster **Gegevensverbinding** configuratiepagina
+- Onvoldoende rechten voor gegenereerd token
+
+De volgende twee secties beschrijven hoe te om één van beide geval problemen op te lossen.
+
+### Onjuist verificatietype geselecteerd in configuratie
+
+1. Open je instantie Commerce.
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Uitbreiden **[!UICONTROL Services]** en selecteert u **[!UICONTROL [!DNL Data Connection]]**.
+1. Verzeker de server-aan-server vergunningsmethode die u in specificeerde **[!UICONTROL Authentication Type]** is correct. Adobe raadt u aan **OAuth**. JWT is vervangen. [Meer informatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### Onvoldoende rechten voor gegenereerd token
+
+Dit probleem kan worden veroorzaakt door onvoldoende API-bevoegdheden voor het gegenereerde token. Om ervoor te zorgen dat het token de juiste rechten heeft:
+
+1. Identificeer de systeembeheerder voor Adobe Experience Platform in uw organisatie.
+1. Zoek het project en de geloofsbrieven die u zult gebruiken.
+1. Identificeer de e-mail van de technische rekening, bijvoorbeeld: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Laat de systeembeheerder Adobe Experience Platform starten en ga naar **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Zoek met behulp van de e-mail over de technische account van boven naar de referenties die u wilt wijzigen.
+1. Open de referenties en selecteer **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Toevoegen **Alle toegang tot productie**.
+1. Klik op **[!UICONTROL Save]**.
+1. [Regenereren](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) het toegangstoken in Console.
+1. Controleer of het token een geldige reactie biedt met de functie [API voor doelverbindingen](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
