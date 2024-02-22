@@ -3,10 +3,10 @@ title: Vorm de Integratie Admin van de Handel met identiteitskaart
 description: Volg deze optionele procedure voor het integreren van Adobe Commerce Admin-gebruikersaccountaanmeldingen met Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ De gebruikers van Admin van de handel moeten een rekening met een Adobe ID tot s
 
 * Adobe-id ophalen van de [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Genereer een nieuw project, de sleutels IMS API en geheim van het [Adobe Developer Console](https://developer.adobe.com/)
-* De optie `AdminAdobeIms` module
-* Adobe Commerce-gebruikers configureren in de Adobe Admin Console.
+* Adobe Commerce-gebruikers configureren in de Adobe Admin Console
+* De optie `AdminAdobeIms` -module.
 
 Voor een geslaagde integratie moeten alle Adobe Commerce-gebruikers beschikken over Admin-gebruikersaccounts met dezelfde naam en hetzelfde primaire e-mailadres. Als er geen overeenkomende Admin-gebruikersaccount bestaat, moet een gebruiker met de vereiste machtigingen (doorgaans met de rol Beheerder) handmatig [De Admin-gebruikersaccount maken](../systems/permissions-users-all.md#create-a-user) met dezelfde naam en e-mail.
 
@@ -69,7 +69,29 @@ Om projecten voor een organisatie tot stand te brengen, moet de rekening Admin v
 1. Klik op **[!UICONTROL Save configured API]**.
 1. De [!UICONTROL Client ID] en [!UICONTROL Client Secret] van het gemaakte project.
 
-### Stap 3: De module AdminAdobeIms inschakelen
+### Stap 3: Adobe Commerce-gebruikers configureren in de Adobe Admin Console
+
+Voordat u de integratie inschakelt, controleert u of elke Adobe Commerce Admin-gebruikersaccount een overeenkomende Adobe IMS-account heeft. Adobe Commerce-gebruikers moeten tot een bepaalde Adobe behoren om zich aan te melden met een Adobe ID.
+
+>[!TIP]
+>
+>U kunt meerdere gebruikersaccounts maken door de gebruikersgegevens van een CSV-bestand te uploaden. Zie [Meerdere gebruikers beheren](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. In de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), navigeer naar **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. Klik op **[!UICONTROL Add User]**.
+
+1. Voer het e-mailadres van de gebruiker in.
+
+   Indien van toepassing wordt het aanbevolen ID-type automatisch ingevuld. U kunt deze instelling wijzigen in een van de product-id&#39;s in de lijst. Deze is gebaseerd op het aankoopplan van uw organisatie.
+
+   U kunt maximaal tien gebruikers tegelijk toevoegen. Als u meer wilt toevoegen, herhaalt u de voorgaande stappen nadat u de wijzigingen hebt opgeslagen.
+
+1. Klik op **[!UICONTROL Save]**.
+
+De gebruiker wordt toegevoegd en weergegeven in het dialoogvenster [!UICONTROL Users] lijst.
+
+### Stap 4: De module AdminAdobeIms inschakelen
 
 De `AdminAdobeIms` is verantwoordelijk voor de integratie tussen Adobe Commerce en Adobe IMS. Nadat u het nieuwe project hebt ingesteld en uw organisatie-id, client-id en clientgeheim hebt gekopieerd, kunt u de optie `AdminAdobeIms` -module.
 
@@ -83,21 +105,3 @@ Enter `bin/magento admin:adobe-ims:enable`. U wordt gevraagd de volgende paramet
 Adobe Commerce geeft een bericht weer dat aangeeft of de activering is geslaagd of mislukt.
 
 Nadat deze functie is ingeschakeld, kunt u andere Adobe Commerce-gebruikersaccounts overzetten naar Adobe IMS-accounts. Adobe Commerce-gebruikers moeten tot de geconfigureerde Adobe-organisatie behoren om zich aan te melden met een Adobe ID.
-
-### Stap 4: Adobe Commerce-gebruikers configureren in de Adobe Admin Console
-
-Nadat deze functie is ingeschakeld, kunt u andere Adobe Commerce-gebruikersaccounts overzetten naar Adobe IMS-accounts. Adobe Commerce-gebruikers moeten tot minstens één Adobe-organisatie behoren om zich aan te melden met een Adobe ID.
-
-1. In de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), navigeer naar **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. Klik op **[!UICONTROL Add User]**.
-
-1. Voer het e-mailadres van de gebruiker in.
-
-   Indien van toepassing wordt het aanbevolen ID-type automatisch ingevuld. U kunt deze instelling wijzigen in een van de product-id&#39;s in de lijst. Deze is gebaseerd op het aankoopplan van uw organisatie.
-
-   U kunt maximaal tien gebruikers tegelijk toevoegen. Als u meer wilt toevoegen, herhaalt u de voorgaande stappen nadat u de wijzigingen hebt opgeslagen.
-
-1. Klik op **[!UICONTROL Save]**.
-
-De gebruiker wordt toegevoegd en weergegeven in het dialoogvenster [!UICONTROL Users] lijst.
