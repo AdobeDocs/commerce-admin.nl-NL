@@ -5,9 +5,9 @@ breadcrumb-title: Admin Systems Guide
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: c7ba2f0e75a730a8beb235b07fced8367bb87462
+source-git-commit: b8a49b1e1525c5af4e159bc2bd899aadc97b78c6
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 0%
       - [downloadbare producten importeren](data-transfer-downloadable-products.md)
       - [Laagprijsgegevens importeren](data-import-price-tier.md)
    - [Geplande import en export](data-scheduled-import-export.md)
+   - [Gegevensbeheerdashboard](data-dashboard.md)
 - Handelingenlogboeken {#action-logs}
    - [Overzicht](action-log.md)
    - [Rapport over handelingslogboeken](action-log-report.md)
