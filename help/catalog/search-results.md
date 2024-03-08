@@ -3,9 +3,9 @@ title: Zoekresultaten
 description: Leer hoe u kunt configureren hoe uw producten voldoen aan de zoekcriteria die zijn ingevoerd in het vak Snel zoeken of het formulier Geavanceerd zoeken.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseer
 ## Gewogen zoekopdracht
 
 Aan productkenmerken die zijn ingeschakeld voor zoeken in een catalogus, kan een gewicht worden toegewezen, zodat ze een hogere waarde krijgen in de zoekresultaten. Kenmerken met een groter gewicht worden geretourneerd vóór kenmerken met een lager gewicht. Als het systeem bijvoorbeeld twee kenmerken bevat, _kleur_ met een zoekgewicht van 3 en _beschrijving_ met een zoekgewicht van 1. Een zoekopdracht naar het woord _rood_ retourneert een lijst met producten met een waarde voor kleurkenmerken van `red` boven aan de zoekresultaten en retourneert producten met beschrijvingen die het woord bevatten _rood_ onder aan de zoekresultaten. In dit voorbeeld wordt `color` kenmerk heeft een groter gedefinieerd gewicht dan `description` kenmerk.
+
+>[!IMPORTANT]
+>
+>Sorteren op relevantie wordt beïnvloed door **_meerdere_** criteria en relaties tussen hen **_tegelijkertijd_**. [!UICONTROL Search Weight] is slechts een van die criteria. Dit betekent dat kenmerken met een lager zoekgewicht soms nog relevanter zijn dan kenmerken met een hoger zoekgewicht. Andere criteria kunnen het aantal overeenkomsten in een bepaald kenmerk, de positie van de gevonden zoekterm en de algemene tekststructuur vóór en na een zoekterm zijn.
 
 **_De eigenschappen voor de zoekdikte van een kenmerk instellen:_**
 
