@@ -3,41 +3,50 @@ title: Status van bestelling
 description: Leer over de vooraf bepaalde ordestatus en hoe te om de statussen van de douaneorde te bepalen om zich aan uw operationele behoeften te richten.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c2d5e9b41a76ba58d1343a8b3ee5122104d5bfe0
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Status van bestelling
 
-Alle orders hebben een orderstatus die is gekoppeld aan een werkgebied in de orderverwerking [werkstroom](order-processing.md). Het statuut van elke orde wordt getoond in _Status_ kolom van de _Orders_ raster. Uw winkel heeft een reeks vooraf gedefinieerde instellingen voor de status van de bestelling en de status van de bestelling. De ordestatus beschrijft de positie van een order in de workflow.
+Alle orders hebben een orderstatus die is gekoppeld aan een werkgebied in de orderverwerking [werkstroom](order-processing.md).\
+Het verschil tussen orderstaten en orderstatussen is dat **[!UICONTROL order states]** worden via programmacode gebruikt. Ze zijn niet zichtbaar voor klanten of Admin-gebruikers. Zij bepalen de stroom van een orde, en welke verrichtingen voor een orde in een bepaalde staat mogelijk zijn.\
+**[!UICONTROL Order statuses]** worden gebruikt om de status van een bestelling aan klanten en admingebruikers mee te delen.
+U kunt extra ordestatussen tot stand brengen om zich aan uw operationele behoeften te richten. De status van bestellingen is handig om de voortgang buiten Adobe Commerce weer te geven, bijvoorbeeld het selecteren van bestellingen en de voortgang van de levering. Ze hebben geen invloed op de workflow voor het verwerken van bestellingen.\
+Elke orderstatus is gekoppeld aan een orderstatus. Uw winkel heeft een reeks vooraf gedefinieerde instellingen voor de status van de bestelling en de status van de bestelling.
+
+![Frames en statussen ordenen](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+
+Het statuut van elke orde wordt getoond in _Status_ kolom van de _Orders_ raster.
 
 ![Status van bestelling](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Een gedeeltelijk terugbetaalde volgorde blijft in `Processing` status tot **_alles_** bestelde objecten (inclusief terugbetaalde objecten) worden verzonden. De orderstatus verandert niet in `Complete` wanneer zelfs één bestelling nog niet is verzonden.
+>Een gedeeltelijk terugbetaalde volgorde blijft in `Processing` status tot **_alles_** bestelde objecten (inclusief terugbetaalde objecten) worden verzonden. De orderstatus verandert niet in `Complete` totdat elk item in de bestelling is verzonden.
 
-## Workflow voor de status van bestellingen
+## Workflow voor de status Volgorde
 
-![Workflow voor de status van bestellingen](./assets/order-workflow.png)
+![Workflow voor de status Volgorde](./assets/order-state-workflow.png)
 
 ## Vooraf gedefinieerde status
 
-| Status van bestelling | Statuscode |  |
-|--- |--- |--- |
-| Verwerking | `processing` | Wanneer de status van nieuwe bestellingen is ingesteld op &#39;Verwerking&#39;, wordt _Alle items automatisch factureren_ deze optie is beschikbaar in de configuratie. Facturen worden niet automatisch gemaakt voor bestellingen die worden geplaatst met een creditcard, winkelcreditering, punten op beloning of andere methoden voor offlinebetaling. |
+| Status van bestelling | Statuscode |                                                                                                                                                                                                                                                                                        |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ontvangen | `received` | Deze status is de beginstatus voor bestellingen die worden geplaatst wanneer asynchrone orderplaatsing is ingeschakeld. |
 | Vermoedelijke fraude | `fraud` | Soms worden via PayPal of een andere betaalgateway betaalde opdrachten gemarkeerd als _Vermoedelijke fraude_. Deze status betekent dat er geen factuur is uitgereikt voor de bestelling en dat het bevestigingsbericht ook niet is verzonden. |
+| Verwerking | `processing` | Wanneer de status van nieuwe bestellingen is ingesteld op &#39;Verwerking&#39;, wordt _Alle items automatisch factureren_ deze optie is beschikbaar in de configuratie. Facturen worden niet automatisch gemaakt voor bestellingen die worden geplaatst met een creditcard, winkelcreditering, punten op beloning of andere methoden voor offlinebetaling. |
 | In behandeling | `pending_payment` | Deze status wordt gebruikt als de bestelling wordt gemaakt en PayPal of een vergelijkbare betalingsmethode wordt gebruikt. Dit betekent dat de klant naar de website van de betaalgateway werd geleid, maar er zijn nog geen retourgegevens ontvangen. Deze status verandert wanneer de klant betaalt. |
 | Betaalcontrole | `payment_review` | Deze status wordt weergegeven wanneer PayPal-betalingscontrole is ingeschakeld. |
 | In behandeling | `pending` | Deze status geeft aan dat er geen factuur en verzendingen zijn ingediend. |
 | In de wachtstand | `holded` | Deze status kan alleen handmatig worden toegewezen. U kunt om het even welke orde op greep zetten. |
-| Open | `STATE_OPEN` | Deze status houdt in dat een bestelling of creditnota nog open is en mogelijk verdere actie behoeft. |
 | Voltooid | `complete` | Deze status houdt in dat de bestelling wordt gemaakt, betaald en naar de klant wordt verzonden. |
 | Gesloten | `closed` | Deze status geeft aan dat aan een bestelling een creditnota is toegewezen en dat de klant een terugbetaling heeft ontvangen. |
 | Geannuleerd | `canceled` | Deze status wordt handmatig toegewezen in de beheerder of, voor sommige betaalgateways, wanneer de klant niet binnen de opgegeven tijd betaalt. |
+| Geweigerd | `rejected` | Deze status houdt in dat een bestelling is geweigerd tijdens asynchrone verwerking van bestellingen. Dit gebeurt wanneer een fout tijdens asynchrone ordetelling voorkomt. |
 | PayPal geannuleerd terugdraaien | `paypay_canceled_reversal` | Deze status betekent dat PayPal de terugdraaiing heeft geannuleerd. |
 | PayPal in behandeling | `pending_paypal` | Deze status betekent dat de bestelling is ontvangen door PayPal, maar dat de betaling nog niet is verwerkt. |
 | PayPal omgedraaid | `paypal_reversed` | Deze status betekent dat PayPal de transactie heeft teruggedraaid. |
@@ -46,7 +55,7 @@ Alle orders hebben een orderstatus die is gekoppeld aan een werkgebied in de ord
 
 ## Status van aangepaste bestelling
 
-Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u ook uw eigen aangepaste instellingen voor de status van de volgorde maken, deze instellingen toewijzen aan de status van de bestelling en een standaardorderstatus instellen voor de status van de bestelling. De ordestatus geeft de positie van de order aan binnen de workflow voor het verwerken van orders en de status van de order definieert de status van de order. U hebt bijvoorbeeld een aangepaste orderstatus nodig, zoals `packaging"`, `backordered`of een status die specifiek is voor uw behoeften. U kunt een beschrijvende naam maken voor de aangepaste status en deze toewijzen aan de bijbehorende ordestatus in de workflow.
+Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u ook uw eigen aangepaste instellingen voor de status van de volgorde maken, deze instellingen toewijzen aan de status van de bestelling en de status van de standaardvolgorde instellen voor de status van de bestelling. De ordestatus geeft de positie van de order binnen de workflow voor orderverwerking aan en de status van de order wijst een duidelijk vertaalbaar label toe aan de positie van de order. U hebt bijvoorbeeld een aangepaste orderstatus nodig, zoals `packaging"`, `backordered`of een status die specifiek is voor uw behoeften. U kunt een beschrijvende naam maken voor de aangepaste status en deze toewijzen aan de bijbehorende ordestatus in de workflow.
 
 >[!NOTE]
 >
