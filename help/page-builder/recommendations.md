@@ -3,20 +3,20 @@ title: Inhoud toevoegen - Product Recommendations
 description: Meer informatie over het Recommendations-inhoudssoort Product waarmee u een lijst met aanbevelingen kunt toevoegen aan de [!DNL Page Builder] in het werkgebied.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Inhoud toevoegen - Product Recommendations
 
-Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbeveling-eenheid](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) aan de [[!DNL Page Builder] stadium](workspace.md#stage) voor een CMS-pagina, -blok of -blok.
+Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbeveling-eenheid](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) aan de [[!DNL Page Builder] stadium](workspace.md#stage) voor een CMS-pagina, -blok of -blok.
 
 >[!NOTE]
 >
->De [!DNL Page Builder] _Product Recommendations_ inhoudstype wordt ondersteund in Adobe Commerce 2.4.4 en hoger en is beschikbaar in het dialoogvenster [Product Recommendations-metapakketversie 3.0.x of hoger](https://marketplace.magento.com/magento-product-recommendations.html). Toevoegen [!DNL Page Builder] ondersteuning voor Product Recommendations; [zie de installatiegegevens](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
+>De [!DNL Page Builder] _Product Recommendations_ inhoudstype wordt ondersteund in Adobe Commerce 2.4.4 en hoger en is beschikbaar in het dialoogvenster [Product Recommendations-metapakketversie 3.0.x of hoger](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Toevoegen [!DNL Page Builder] ondersteuning voor Product Recommendations; [zie de installatiegegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Een bestaande aanbevolen eenheid toevoegen
 
-1. Controleer of u al [heeft een aanbevolen eenheid gecreëerd](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) voor de [!DNL Page Builder] paginatype.
+1. Controleer of u al [heeft een aanbevolen eenheid gecreëerd](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) voor de [!DNL Page Builder] paginatype.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 1. Voer een van de volgende handelingen uit:
 
    - Klik op **[!UICONTROL Edit Product Recommendation]**.
-   - Houd de muisaanwijzer boven de lege container om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+   - Houd de muisaanwijzer boven de lege container om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png)).
 
    ![Productaanbeveling bewerken](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Aanbevolen eenheidsinstellingen bewerken
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png)).
 
    ![Gereedschap Aanbeveling](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Een aanbevolen eenheid dupliceren
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Dupliceren_ ( ![Dubbele koppeling](./assets/pb-icon-duplicate.png){width="20"} ) in de gereedschapset.
+1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Dupliceren_ (![Pictogram Dupliceren](./assets/pb-icon-duplicate.png)) in de gereedschapset.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-1. Als u de gedupliceerde aanbevolen eenheid naar een nieuwe positie wilt verplaatsen, houdt u de muisaanwijzer boven de container en klikt u op de knop _Verplaatsen_ ( ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="20"} ) in de gereedschapset.
+1. Als u de gedupliceerde aanbevolen eenheid naar een nieuwe positie wilt verplaatsen, houdt u de muisaanwijzer boven de container en klikt u op de knop _Verplaatsen_ (![Pictogram Verplaatsen](./assets/pb-icon-move.png)) in de gereedschapset.
 
 1. Selecteer en sleep de aanbevolen eenheid totdat de rode hulplijn op de nieuwe positie wordt weergegeven.
 
@@ -106,7 +106,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Een aanbevolen eenheid uit het werkgebied verwijderen
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid en klik op de knop _Verwijderen_ ( ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="20"} ) in de gereedschapset.
+1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid en klik op de knop _Verwijderen_ ( ![Pictogram verwijderen](./assets/pb-icon-remove.png)) in de gereedschapset.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
 

@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 mei 2023_
 ![Nieuw](../assets/new.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) om het actieve publiek in uw Adobe Commerce-instantie te sorteren, te zoeken en te filteren.
 
 +++
+
+### 2.1.1.
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+_4 april 2024_
+
+![Nieuw](../assets/new.svg) - Toegevoegde ondersteuning voor PHP 8.3.
 
 ### 2.2.0-bèta1
 
@@ -295,7 +303,10 @@ Meer informatie over de `dynamicBlocks` GraphQL-query in het dialoogvenster [ont
 
 ## Soorten publiek ophalen met de Adobe Experience Platform Mobile SDK
 
-Voordat u het Real-Time CDP-publiek kunt ophalen met de Adobe Experience Platform Mobile SDK, moet u [De SDK voor uw site voor mobiele handel installeren en configureren](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+U kunt een Real-Time CDP-publiek ophalen met de Adobe Experience Platform Mobile SDK.
+
+1. [Installeren](#install-the-extension) de extensie Audience Activation.
+1. [De SDK voor uw site voor mobiele handel installeren en configureren](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
