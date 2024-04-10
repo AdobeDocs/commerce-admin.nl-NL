@@ -3,7 +3,7 @@ title: Vorm de Integratie Admin van de Handel met identiteitskaart
 description: Volg deze optionele procedure voor het integreren van Adobe Commerce Admin-gebruikersaccountaanmeldingen met Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
+source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Deze integratie ondersteunt handelaars met Admin-gebruikers die een Adobe ID heb
 De beheerder die deze integratie vormt vereist de volgende geloofsbrieven tijdens moduleenactivering:
 
 * Organisatie-id (verkregen uit [Adobe Admin Console](https://adminconsole.adobe.com/)), die minimaal 24 tekens lang moet zijn. De geverifieerde gebruiker moet deel uitmaken van deze IMS-organisatie. Voor informatie over het vinden van uw organisatie-id raadpleegt u [Organisaties in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controleren [Verificatieinstellingen](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controleren [Verificatie-instellingen](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-id
 * Clientgeheim
 * Client ID en clientgeheim zijn beschikbaar nadat API-sleutels zijn opgehaald uit de [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).

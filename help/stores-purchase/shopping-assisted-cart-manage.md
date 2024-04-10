@@ -3,9 +3,9 @@ title: Een winkelwagentje beheren
 description: Leer hoe u een klant rechtstreeks via de beheerder kunt helpen met zijn winkelwagentje.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -159,7 +159,7 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
 1. Klik op **[!UICONTROL Add selections to my cart]**.
 
-1. Pas een couponcode toe, indien beschikbaar:
+1. Pas een of meer couponcodes toe, indien beschikbaar:
 
    - Voor **[!UICONTROL Apply Coupon Code]** Voer een geldige waardeboncode in.
 

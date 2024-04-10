@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL General] pagina van de Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Single-store, 
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Algemeen | Wanneer toegelaten voor enig-opslaginstallaties, verbergt het vakje van het configuratiebereik en verwante gebiedslabels Opties: `Yes` / `No` <br/>**_Opmerking:_**De modus Eén opslag wordt genegeerd voor winkels met meerdere weergaven. |
+| [!UICONTROL Enable Single-Store Mode] | Algemeen | Wanneer toegelaten voor enig-opslaginstallaties, verbergt het vakje van het configuratiebereik en verwante gebiedslabels Opties: `Yes` / `No` <br/>**_Opmerking:_**De modus Eén opslag wordt genegeerd voor winkels met meerdere weergaven.<br/> Als u de modus Eén winkel inschakelt, worden alle specifieke gegevens van de catalogus en de productopslag van de standaardwinkelweergave naar het volledige weergavebereik van de opslagweergave gekopieerd. De catalogus- en productgegevens worden alleen gekopieerd als de winkel slechts over één voorvertoning beschikt. Als de opslag één gehandicapte opslagmening en één toegelaten opslagvoorproef heeft zal het geen catalogus en productgegevens kopiëren.<br/> Als u de modus Eén winkel inschakelt, worden de specifieke configuratie-instellingen voor de weergave genegeerd voor inhoudsspecifieke gegevens. In plaats daarvan, gebruikt het configuratiemontages die op het globale niveauwerkingsgebied worden bepaald om consistentie tussen Admin UI en opslag te verzekeren. |
 
 {style="table-layout:auto"}

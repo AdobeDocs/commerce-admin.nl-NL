@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Leer hoe u UPS instelt als een verzendprovider voor uw winkel.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
 ## Stap 2: UPS inschakelen voor uw winkel
 
-{{beta2-updates}}
-
 1. Op de _Admin sidebar_, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. In het deelvenster aan de linkerkant, onder **[!UICONTROL Sales]**, kiest u **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
 1. Set **[!UICONTROL Enabled for Checkout]** tot `Yes`.
 
-1. Voor een UPS XML-account (standaard), instellen **[!UICONTROL UPS Type]** tot `United Parcel Service XML` en voer de volgende handelingen uit:
+1. Ga als volgt te werk voor een UPS REST-account (standaardwaarde):
 
-   - Voer uw UPS-gebruikersgegevens in: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (de 16-cijferige UPS-account) `Access Key`), en **[!UICONTROL Password]**
+   - Voer uw UPS-gebruikersgegevens in: UPS ClientID als **[!UICONTROL User ID]**, UPS-clientgeheim als **[!UICONTROL Password]**
 
    - Set **[!UICONTROL Mode]** tot `Live` gegevens naar het UPS-verzendsysteem verzenden via een beveiligde verbinding. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
 
-   - Controleer de **[!UICONTROL Gateway XML URL]** die vereist is om aanvragen door een XML-bestand te verzenden.
+   - Controleer de **[!UICONTROL Gateway URL]** dat nodig is om verzoeken te verzenden. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
+
+   - Controleer de **[!UICONTROL Tracking URL]** is vereist voor het ophalen van trackinggegevens. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
 
    - Set **[!UICONTROL Origin of the Shipment]** naar de regio waar de overbrenging haar oorsprong heeft.
 
    - Als u speciale tarieven met UPS hebt, plaats **[!UICONTROL Enable Negotiated Rates]** tot `Yes` en voert u het zescijferige **[!UICONTROL Shipper Number]** toegewezen aan u door UPS.
-
-1. Voor een standaard UPS-account stelt u **[!UICONTROL UPS Type]** tot `United Parcel Service` en voer de volgende handelingen uit:
-
-   >[!NOTE]
-   >
-   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties, zou u het gebrek moeten gebruiken  `United Parcel Service XML` type. Het type XML is ook vereist om te genereren [verzendlabels](shipping-labels.md).
 
    - Set **[!UICONTROL Live Account]** op een van de volgende wijzen:
 
       - `Yes` - UPS wordt in de productiemodus uitgevoerd en UPS wordt als verzendmethode aan uw klanten aangeboden.
       - `No` - UPS wordt in een testmodus uitgevoerd.
 
-   - In de **[!UICONTROL Gateway URL]** Voer de URL in die wordt gebruikt voor het berekenen van UPS-verzendkosten.
+   >[!NOTE]
+   >
+   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties, gebruik het gebrek `United Parcel Service REST` type. Het REST-type is ook vereist om [verzendlabels](shipping-labels.md).<br/>
+   >Voor de release van 2.4.7 **[!UICONTROL UPS Type]**  is verwijderd omdat `UPS` en `UPS XML` typen zijn gepland voor afgekeurd en `UPS REST` is de standaardwaarde. De API&#39;s van de United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, zijn tijdelijk vervangen omdat deze momenteel geen ondersteuning bieden voor het OAuth 2.0-beveiligingsmodel.
 
-     >[!IMPORTANT]
-     >
-     >UPS stopt de ondersteuning van HTTP, dat wordt gebruikt in de huidige standaardwaarde (systeemwaarde). Wis de **[!UICONTROL Use system value]** Schakel het selectievakje in en wijzig de URL om HTTPS te gebruiken. Voorbeeld: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS stopt de ondersteuning van HTTP, dat wordt gebruikt in de huidige standaardwaarde (systeemwaarde). Wis de **[!UICONTROL Use system value]** Schakel het selectievakje in en wijzig de URL om HTTPS te gebruiken. Voorbeeld: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. Voor **[!UICONTROL Title]**, voert u de naam van deze verzendoptie in zoals u deze tijdens het afrekenen wilt weergeven.
 

@@ -3,9 +3,9 @@ title: Storefront-orderbeheer
 description: Leer hoe klanten hun ordergeschiedenis kunnen bekijken en beheren op de Commerce-winkel.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ De _[!UICONTROL Reorder]_de koppeling wordt niet weergegeven op het tabblad_[!UI
 >[!TIP]
 >
 >Als het winkelwagentje niet leeg is en de klant klikt **[!UICONTROL Reorder]** (van de [!UICONTROL My Orders] of [!UICONTROL Order View] pagina), blijven de bestaande producten in het winkelwagentje met de toegevoegde producten van de herschikking.
+
+## Bestellingen annuleren
+
+Annuleren is beschikbaar voor klanten wanneer de [_Annuleren toestaan_](cancel-allow.md) configuratieoptie is ingeschakeld.
+
+Een klant kan de functie voor annuleren voor een specifieke bestelling starten op drie pagina&#39;s:
+
+- Pagina Mijn bestellingen
+- Weergavepagina Volgorde
+- Pagina Mijn account
+
+De _[!UICONTROL Cancel Order]_de koppeling wordt weergegeven bij de_[!UICONTROL Reorder]_ koppeling. Als de volgorde niet kan worden geannuleerd, wordt de koppeling niet weergegeven.
+
+![Koppeling op de pagina Mijn bestelling annuleren](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+Om annuleren uit te voeren, annuleert de klant:
+
+1. Klikken **[!UICONTROL Cancel Order]**
+
+1. Verstrekt een annuleringsreden
+
+   ![Opdrachten annuleren](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   U kunt de annuleringsredenen aanpassen in het dialoogvenster [_Annuleren toestaan_](cancel-allow.md) pagina.
+
+1. Klikken **[!UICONTROL Confirm]**
+
+   ![Annuleren op de pagina Mijn bestelling](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   Na de annulering waren de bestellingen in _[!UICONTROL Pending]_status, wijzigen in_[!UICONTROL Canceled]_ status, de bestellingen in _[!UICONTROL Processing]_status, wijzigen in_[!UICONTROL Closed]_ status en terugbetaling worden verwerkt.
+
+   Wanneer de annulering is voltooid, wordt een e-mail verzonden naar de klant.
+
+   ![E-mail bestellen annuleren](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   De annuleringsinformatie wordt toegevoegd aan de ordergeschiedenis van de klant. Deze wordt weergegeven in de notities bij de volgorde en op het tabblad Overzicht van opmerkingen.
+
+   ![Bestelnotities annuleren](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![Opmerkingen annuleren](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   Als de bestelling om een of andere reden is gewijzigd in een status die niet kan worden geannuleerd en de klant de pagina niet heeft vernieuwd, wordt de koppeling om de bestelling te annuleren nog steeds weergegeven. Wanneer ze echter proberen te annuleren, wordt een foutbericht weergegeven.
+
+   ![Foutbericht voor bestelling annuleren](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   Nadat u de pagina hebt vernieuwd, ziet u dat de volgorde al is voltooid. Daarom werkt de annulering niet.
+
+   ![Bestelling annuleren na vernieuwen](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

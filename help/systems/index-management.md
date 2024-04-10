@@ -3,9 +3,9 @@ title: Indexbeheer
 description: Leer over indexbeheer, met inbegrip van de acties die het opnieuw indexeren en beste praktijken teweegbrengen.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ Bij de Handel hebben opnieuw indexeren en in cache plaatsen verschillende doelei
    **Kolommen Indexbeheer**
 
    | Kolom | Beschrijving |
-   | ------ | ----------- |
+   | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | De naam van de index. |
    | [!UICONTROL Description] | Een beschrijving van de index. |
    | [!UICONTROL Mode] | Hiermee wordt de huidige updatemodus voor elke index aangegeven. Opties: <br/>**[!UICONTROL Update on Save]**- De index wordt ingesteld op bijwerken wanneer een entiteitswijziging wordt opgeslagen. Deze entiteiten omvatten producten, categorieën, en klanten. Wanneer de opslagactie is voltooid, wordt een reeks stappen uitgevoerd om de wijzigingen vast te leggen en de index bij te werken. De pagina van het Beheer van de Index werkt en spoelt het herindexbericht binnen een minuut of twee bij.<br/>**[!UICONTROL Update on Schedule]** - De index is ingesteld op een update volgens een schema [snijtaak](cron.md). De bouwbaan omvat het planningsinterval voor het opnieuw indexeren, schrijvend updates aan de index wanneer looppas. |
    | [!UICONTROL Schedule Status] | Geeft de statusupdates van het schema weer. |
-   | [!UICONTROL Status] | Hiermee geeft u een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is bijgewerkt.<br/>**[!UICONTROL Scheduled]** - Herindexering is gepland. <br/>**[!UICONTROL Running]**- Er wordt opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controleren of [kraan](cron.md) is beschikbaar en correct gevormd. |
+   | [!UICONTROL Status] | Hiermee geeft u een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is bijgewerkt.<br/>**[!UICONTROL Suspended]** - Opnieuw indexeren is onderbroken. <br/>**[!UICONTROL Processing]**- Er wordt momenteel opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controleren of [kraan](cron.md) is beschikbaar en correct gevormd. |
    | [!UICONTROL Updated] | Geeft de datum en tijd aan waarop een index voor het laatst is bijgewerkt. |
 
    {style="table-layout:auto"}

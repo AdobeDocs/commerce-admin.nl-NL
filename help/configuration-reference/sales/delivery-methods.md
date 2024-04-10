@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] pagina van de Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '3812'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -106,28 +106,25 @@ ht-degree: 0%
 
 {{ups-api}}
 
-{{beta2-updates}}
+![UPS REST-accountinstellingen](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![XML-accountinstellingen UPS](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | Website | Hiermee bepaalt u of UPS tijdens het afrekenen beschikbaar is voor klanten als verzendmethode. Opties: `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | Website | Hiermee bepaalt u of UPS beschikbaar is voor klanten als verzendmethode voor een RMA. Opties: `Yes` / `No` |
-| [!UICONTROL UPS Type] | Winkelweergave | Geeft de methode aan die wordt gebruikt om verbinding te maken met het UPS-verzendsysteem. Opties: <br/>**`United Parcel Service XML`**- (Standaard) Uw winkel verzendt een XML-bestand met gegevens als een aanvraag naar UPS.<br/>**`United Parcel Service`** - Uw winkel stuurt sleutelwaardeparen naar UPS als een aanvraag. <br/><br/>**_Opmerking:_**Het standaardtype van de Dienst van United Parcel is gepland voor afgekeurde in Handel. Voor nieuwe configuraties, zou u moeten gebruiken [!UICONTROL United Parcel Service XML] type. |
 | _[!UICONTROL UPS Account Settings]_ |  |  |
 | [!UICONTROL Live Account] | Winkelweergave | Geeft aan dat de account United Parcel Service live is. Opties: `Yes` / `No` |
-| [!UICONTROL Gateway URL] | Website | De URL die verbinding maakt met het UPS-systeem om dynamische verzendkosten op te halen. UPS stopt de ondersteuning van HTTP. Standaardwaarde: `https://www.ups.com/using/services/rave/qcostcgi.cgi` |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze verzendmethode wordt gebruikt. |
-| _[!UICONTROL UPS XML Account Settings]_ |  |  |
-| [!UICONTROL Access License Number] | Website | Het toegangslicentienummer van uw UPS-verzendaccount. |
-| [!UICONTROL Gateway XML URL] | Website | Voor UPS XML-service worden de volgende URL&#39;s weergegeven die vereist zijn om XML-gegevens te verzenden: Gateway XML URL, Tracking XML URL, Shipping Confirm XML URL, Shipping Accept XML URL |
+| _[!UICONTROL UPS REST Account Settings]_ |  |  |
+| [!UICONTROL Gateway URL] | Website | Voor UPS REST-service worden de volgende URL&#39;s weergegeven die vereist zijn voor het verzenden van JSON-gegevens: Gateway URL, URL voor bijhouden, URL voor verzending |
 | [!UICONTROL Mode] | Website | Bepaalt de wijze van transmissie die voor gegevens wordt gebruikt die naar het systeem UPS worden verzonden. Opties: <br/>**`Development`**- UPS controleert niet of gegevens die van de Commerce-server zijn ontvangen via SSL worden verzonden.<br/>**`Live`** - UPS controleert of gegevens die van de Commerce-server zijn ontvangen, via een Secure Socket Layer (SSL) worden verzonden. |
-| Gebruikersnaam | Website | Gebruikersnaam van je UPS-verzendaccount. |
-| [!UICONTROL Origin of the Shipment] | Website | (Alleen UPS XML) Het land of de regio waar de verzending van het product vandaan komt. |
-| [!UICONTROL Password] | Winkelweergave | Wachtwoord voor UPS-verzendaccount. |
+| Gebruikersnaam | Website | Uw client-id voor UPS-verzendaccount. |
+| [!UICONTROL Origin of the Shipment] | Website | (Alleen UPS REST) Het land of de regio waar de verzending van het product afkomstig is. |
+| [!UICONTROL Password] | Winkelweergave | Uw UPS-verzendaccount clientgeheim. |
 
 {style="table-layout:auto"}
 
@@ -138,12 +135,12 @@ ht-degree: 0%
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
-| [!UICONTROL Enable Negotiated Rates] | Website | (Alleen UPS XML) Hiermee schakelt u speciale tarieven in of uit, afhankelijk van uw overeenkomst met UPS. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Negotiated Rates] | Website | (Alleen UPS REST) Hiermee schakelt u speciale tarieven in of uit, afhankelijk van uw overeenkomst met UPS. Opties: `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Shipper Number] | Website | (Alleen UPS-XML) Het uit zes tekens bestaande UPS-verzendnummer is vereist als referentie voor het gebruik van overeengekomen tarieven. |
-| [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verzenden van pakketorders. Opties: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
+| [!UICONTROL Shipper Number] | Website | (Alleen UPS-REST) Het uit zes tekens bestaande UPS-verzendnummer is vereist om te kunnen verwijzen naar overeengekomen tarieven. |
+| [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verpakken van verzendingen. Opties: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Website | Hiermee stelt u de standaardmaateenheid voor productgewicht in uw winkel in. Zie [Afmetingen](../../stores-purchase/carriers.md#dimensional-weight) voor aanvullende informatie. |
-| [!UICONTROL Tracking XML URL] | Website | (Alleen UPS XML) De URL van UPS die wordt gebruikt om pakketten bij te houden. |
+| [!UICONTROL Tracking URL] | Website | (Alleen UPS REST) De URL van UPS die wordt gebruikt om pakketten bij te houden. |
 | [!UICONTROL Destination Type] | Website | Hiermee stelt u het standaardtype van de verzendbestemming in. Opties: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen zoals opgegeven door UPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. Volgens [UPS.com](https://www.ups.com/us/en/global.page), pakketten mogen niet meer dan 70 lbs (150 kg) zijn. Vraag uw verzendende provider om het maximumgewicht te controleren. |
 | [!UICONTROL Pickup Method] | Website | Hiermee stelt u de ophaalmethode voor UPS in. Opties: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
@@ -185,8 +182,6 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | Ingeschakeld voor Afhandeling | Website | Hiermee bepaalt u of USPS tijdens het afrekenen beschikbaar is voor klanten als verzendmethode. Opties: `Yes` / `No` |
@@ -208,7 +203,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verzenden van pakketorders. Opties: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Niet-rechthoekig |
+| [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verpakken van verzendingen. Opties: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Niet-rechthoekig |
 | [!UICONTROL Size] | Website | Hiermee stelt u de optie Grootte in op de standaardgrootte van het verzendpakket. Deze optie is van invloed op de berekening van de verzendkosten. Opties: `Regular` / `Large` / `Oversize` |
 | [!UICONTROL Machinable] | Website | Geeft aan of het pakket door de computer kan worden verwerkt. Deze optie is van invloed op de berekening van de verzendkosten. |
 | [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen, zoals opgegeven door USPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. |
@@ -258,60 +253,56 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-{{beta2-updates}}
-
-![FedEx-accountinstellingen](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
+#### FedEx-accountinstellingen
+
+![FedEx-accountinstellingen](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
-|--- |--- |--- |
-| _[!UICONTROL FedEx Account Settings]_ |  |  |
+|-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | Website | Hiermee wordt bepaald of FedEx beschikbaar is voor klanten als verzendmethode tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De titel van deze verzendoptie zoals deze wordt weergegeven in het winkelwagentje. |
 | [!UICONTROL Account ID] | Website | Je FedEx-account-id. |
-| [!UICONTROL Meter Number] | Website | Uw FedEx-meternummer. |
-| [!UICONTROL Key] | Website | De sleutel van uw FedEx-account. |
-| [!UICONTROL Password] | Website | Wachtwoord voor uw FedEx-account. |
+| [!UICONTROL Api Key] | Website | De API-sleutel van uw FedEx-account. |
+| [!UICONTROL Secret Key] | Website | De geheime sleutel voor uw FedEx-account-API. |
 | [!UICONTROL Sandbox Mode] | Website | Als u FedEx-transacties wilt uitvoeren in een testomgeving, stelt u Sandboxmodus in op `Yes`. Opties: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Website | De vereiste URL is afhankelijk van de instelling voor de sandboxmodus. Opties: <br/>**`Production`**- De URL voor toegang tot FedEx-webservices wanneer de winkel live is.<br/>**`Sandbox`** - De URL voor toegang tot de testomgeving voor FedEx-webservices. |
 
 {style="table-layout:auto"}
 
-![FedEx-verpakking](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### FedEx-verpakkingsinstellingen
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx-verpakking](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Packaging Settings]_ |  |  |
+| [!UICONTROL Pickup Type] | Website | Selecteer in de lijst de ophaalmethode: <br/>**`DropOff at Fedex Location`**- (Standaard) Geeft aan dat u verzendingen op uw lokale FedEx-station neerzet.<br/>**`Contact Fedex to Schedule`** - Geeft aan dat u contact opneemt met FedEx om een afhaalbewerking aan te vragen. <br/>**`Use Scheduled Pickup`**- Geeft aan dat de zending wordt opgehaald als onderdeel van een normale geplande ophaling.<br/>**`On Call`** - Wijst erop dat de bestelwagen door FedEx wordt gepland te roepen. <br/>**`Package Return Program`**- Geeft aan dat de verzending wordt opgehaald door het FedEx Ground Package Returns Program.<br/>**`Regular Stop`** - Geeft aan dat de verzending wordt opgehaald volgens het normale ophaalschema. <br/>**`Tag`**- Geeft aan dat het ophalen van de lading specifiek is voor een aanvraag van de tag Express of grondaanroep. Dit is alleen van toepassing op verzendlabel voor retourzending. |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | Website | Selecteer in de lijst het containertype dat u doorgaans gebruikt voor het verpakken van producten die in de winkel worden besteld. |
-| [!UICONTROL Dropoff] | Website | Selecteer in de lijst de ophaalmethode: <br/>**`Regular Pickup`**- (Standaardinstelling) Als u een groot aantal overbrengingen hebt, kan het rendabel zijn om regelmatig ophalingen te organiseren.<br/>**`Request Courier`** - Je moet een FedEx-koerier bellen en vragen om verzendingen op te halen. <br/>**`Drop Box`**- U moet de verzendingen bij uw lokale FedEx-drop box neerzetten.<br/>**`Business Service Center`** - U moet de verzendingen bij uw lokale FedEx-servicecentrum neerzetten. <br/>**`Station`**- U moet verzendingen bij uw lokale FedEx-station neerzetten. |
+| [!UICONTROL Weight Unit] | Website | De eenheid die wordt gebruikt voor verpakkingsgewicht. Opties: `Pounds` (standaardwaarde) / `Kilograms` |
 | [!UICONTROL Maximum Package Weight] | Website | De standaardwaarde voor FedEx is 150 pond. Raadpleeg uw verzendende provider voor maximaal ondersteund gewicht. Het gebruik van de standaardwaarde wordt aanbevolen, tenzij u speciale regelingen met FedEx hebt. |
 
 {style="table-layout:auto"}
 
-![FedEx-verwerkingskosten](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### FedEx-instellingen voor verwerkingskosten
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx-verwerkingskosten](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Handling Fee Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | Bepaalt de methode die wordt gebruikt om de behandelingskosten te berekenen. Opties: `Fixed Fee` / `Percentage` <br/><br/>**_Opmerking:_**De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die worden toegevoegd aan de verzendkosten van FedEx. |
 | [!UICONTROL Handling Applied] | Website | Hiermee bepaalt u hoe behandelingskosten worden toegepast. Opties: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Website | Geeft het bedrag aan dat in rekening wordt gebracht als een behandelingsvergoeding, op basis van de methode die wordt gebruikt om het bedrag te berekenen. Als de vergoeding op een vaste vergoeding is gebaseerd, voert u het bedrag in als een decimaal, bijvoorbeeld `4.90`. Als de behandelingskosten gebaseerd zijn op een percentage van de bestelling, voert u het bedrag in als een percentage. Als u bijvoorbeeld zes procent van de volgorde wilt opladen, voert u de waarde in als `.06`. |
 
 {style="table-layout:auto"}
 
-![FedEx-leveringsmethoden](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### FedEx-leveringsmethoden
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx-leveringsmethoden](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| _[!UICONTROL FedEx delivery methods]_ |  |  |
 | [!UICONTROL Residential Delivery] | Website | Stel dit in op een van de volgende opties, afhankelijk van het feit of u Business-to-Consumer (B2C) of Business-to-Business (B2B) verkoopt: <br/>**`Yes`**- voor B2C-leveringen<br/>**`No`** - voor B2B-leveringen |
 | [!UICONTROL Allowed Methods] | Website | Selecteer in de lijst de verzendmethoden die u ondersteunt. De methoden zijn afhankelijk van uw FedEx-account, de frequentie en de grootte van uw verzendingen en of u internationale verzendingen toestaat. Als verkoper kun je besluiten alleen verzending op de grond aan te bieden. |
 | [!UICONTROL Hub ID] | Website | Een id die wordt geleverd door FedEx en die wordt gebruikt met de [!DNL Smart Post] methode. |
@@ -322,13 +313,12 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![FedEx-landen](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### FedEx, toepasbare landinstellingen
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx-landen](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Applicable Countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | Website | Geeft de landen aan waar uw klanten kunnen verzenden via FedEx. Opties: <br/>**`All Allowed Countries`**- Klanten van iedereen [landen](../../getting-started/store-details.md#country-options) Deze verzendmethode kan worden gebruikt.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, [!UICONTROL Ship to Specific Countries] wordt weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
 | [!UICONTROL Ship to Specific Countries] | Website | Geeft de specifieke landen aan waar uw klanten kunnen verzenden via FedEx. |
 | [!UICONTROL Debug] | Website | Bepaalt als een logboek van gegevenstransmissies tussen uw opslag en FedEx door het systeem voor het zuiveren wordt gehandhaafd. Tenzij er een kwestie is die moet worden gevolgd en worden geregistreerd, zou deze optie moeten worden geplaatst aan `No`. |
@@ -379,7 +369,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Selecteer in de lijst elke verzendmethode die u ondersteunt. |
-| [!UICONTROL Ready Time] | Website | Hiermee geeft u aan wanneer het pakket gereed is voor ophalen, in uren, nadat een bestelling is verzonden. |
+| [!UICONTROL Ready Time] | Website | Hiermee geeft u aan wanneer het pakket gereed is voor ophalen (in uren) nadat een bestelling is verzonden. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Dit bericht wordt weergegeven wanneer DHL om welke reden dan ook niet beschikbaar is. U kunt het standaardbericht gebruiken of een eigen bericht ingaan. |
 | [!UICONTROL Free Method] |  | Deze verzendmethode is vergelijkbaar met de gewone Vrij Verladen-methode, maar wordt vermeld in de DHL-scheepvaartopties en aangeduid als DHL-scheepvaart. Selecteer in de lijst de verzendmethode die je wilt gebruiken voor voorstellen voor gratis verzending. |
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Website | Stel een van de volgende opties in: <br/>**`Enable`**- DHL gratis te laten verzenden voor bestellingen die aan het minimumbedrag voldoen.<br/>**`Disable`** - om geen gratis DHL-verzending met minimumbestelling aan te bieden. |

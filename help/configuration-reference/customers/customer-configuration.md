@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] pagina van de Commerce Admin.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![Nieuwe accountopties maken](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Nieuwe accountopties maken (BTW-velden)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Winkelweergave | Identificeert de e-mailsjabloon die voor de standaard wordt gebruikt _Welkom_ e-mail. |
 | [!UICONTROL Default Welcome Email Without Password] | Winkelweergave | Een afwisselend die e-mailmalplaatje van het Onthaal dat voor nieuwe klantenrekeningen wordt gebruikt door de Beheerder worden gecreeerd die nog geen toegewezen wachtwoord hebben. |
 | [!UICONTROL Email Sender] | Winkelweergave | Hiermee wordt de contactpersoon van de winkel aangegeven die wordt weergegeven als de afzender van het welkomstbericht. |
-| [!UICONTROL Require Emails Confirmation] | Website | Hiermee wordt bepaald of een verzoek om een account te maken bevestiging van de klant vereist. Opties: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | Website | Hiermee wordt bepaald of een verzoek om een account te maken bevestiging van de klant vereist. Opties: `Yes` / `No`. <br/><br/> _**Opmerking:**_ Vanaf versie 2.4.7 moeten klanten hun e-mail en wachtwoord opnieuw invoeren om zich aan te melden bij hun account na e-mailbevestiging, ongeacht de browser. |
 | [!UICONTROL Confirmation Link Email] | Winkelweergave | Hiermee wordt de e-mailsjabloon aangegeven die wordt gebruikt voor de bevestigingsmail. Standaardsjabloon: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Winkelweergave | Identificeert het e-mailmalplaatje dat voor het Welkome bericht wordt gebruikt dat wordt verzonden nadat de rekening wordt bevestigd. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Algemeen | Hiermee bepaalt u of het veld waarin het BTW-identificatienummer wordt ingevoerd en opgeslagen, zichtbaar is vanuit de winkel. Opties: `Yes` / `No` |

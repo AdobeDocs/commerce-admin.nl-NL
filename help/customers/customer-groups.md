@@ -3,9 +3,9 @@ title: Klantengroepen
 description: Gebruik klantengroepen om te bepalen welke kortingen aan klanten beschikbaar zijn die aan een groep en de belastingklasse worden toegewezen die met de groep wordt geassocieerd.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 1. Klik op **[!UICONTROL Apply Filters]**.
 
 ## Een klantengroep maken
+
+>[!NOTE]
+>
+>Admin-gebruikers die geen toegang hebben tot alle websites (waaraan een rol is toegewezen met een &#39;Aangepast&#39; [!UICONTROL Role Scope]) kan geen klantgroepen maken, wijzigen of verwijderen.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

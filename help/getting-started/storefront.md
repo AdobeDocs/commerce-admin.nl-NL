@@ -3,9 +3,9 @@ title: Wat is de winkel?
 description: Meer informatie over de pagina's en functionele elementen die uw winkel kan bieden ter ondersteuning van de winkelervaring voor uw klanten.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ Afhandelingsproces bestaat uit twee stappen:
 1. Verzendgegevens
 
    De eerste stap van het afrekenproces is dat de klant de verzendadresgegevens invult en de verzendmethode kiest. Als de klant een account heeft, wordt het verzendadres automatisch ingevoerd, maar kan het indien nodig worden gewijzigd.
+Als een gastklant een e-mailadres invoert dat als eerder geregistreerd wordt erkend, wordt de aanmeldingsprompt weergegeven als [!UICONTROL Enable Guest Checkout Login] veld in de opslagconfiguratie is ingesteld op `Yes` (zie [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) in de _Referentiehandleiding voor configuratie_). Nochtans, kan dit het plaatsen klanteninformatie aan niet voor authentiek verklaarde gebruikers blootstellen.
 
    ![Voorbeeld van uitcheckpagina voor winkel](./assets/storefront-checkout-shipping-full.png){width="700"}
 

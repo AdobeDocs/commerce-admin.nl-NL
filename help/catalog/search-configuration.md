@@ -3,9 +3,9 @@ title: Cataloguszoekopdracht configureren
 description: Leer hoe u het zoeken naar catalogi voor uw winkel kunt configureren.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 >[!IMPORTANT]
 >
 >Door de [!DNL Elasticsearch 7] Aankondiging aan het einde van de service voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de zoekmachine OpenSearch 2.x migreren. Voor informatie over het migreren van uw zoekmachine tijdens productverbetering, zie [Migreren naar OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Upgradehandleiding_.
-
-{{beta2-updates}}
 
 ### Stap 1: algemene zoekopties configureren
 

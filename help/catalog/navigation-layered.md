@@ -3,10 +3,10 @@ title: Gelaagde navigatie
 description: Leer hoe kopers met gelaagde navigatie gemakkelijk producten kunnen vinden op basis van categorie, prijsklasse of andere beschikbare kenmerken.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbar
    ![Eigenschappen van Storefront](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Herhaal deze stappen voor elk kenmerk dat u in gelaagde navigatie wilt opnemen.
+
+>[!NOTE]
+>
+>Wanneer de _[!UICONTROL Use in Search]_instellen op `No`de_[!UICONTROL Use in Search Results Layered Navigation]_ instelling wordt niet weergegeven en het productkenmerk wordt niet gebruikt in de zoekopdracht met [!UICONTROL Use in Layered Navigation] waarde instellen.
 
 >[!NOTE]
 >
@@ -124,15 +128,15 @@ Iteratieve splitsing zorgt voor de beste verdeling van de producten over de prij
 
 | Prijs stap voor 10 | Prijs stap voor 100 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | $ 700,00 en hoger (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| $ 20,00 - $ 29,99 (1) | $ 0,00 - $ 99,99 (4) |
+| $ 30,00 - $ 39,99 (2) | $ 100 - $ 199,99 (5) |
+| $ 70,00 - $ 79,99 (1) | $ 400,00 - $ 499,99 (2) |
+| $ 100,00 - $ 109,99 (1) | $ 700,00 en hoger (1) |
+| $ 120,00 - $ 129,99 (2) |   |
+| $ 150,00 - $ 159,99 (1) |   |
+| $ 180,00 - $ 189,99 (1) |   |
+| $ 420,00 - $ 429,99 (1) |   |
+| $ 440,00 - $ 449,99 (1) |   |
 | $ 710,00 en hoger (1) |   |
 
 {style="table-layout:auto"}

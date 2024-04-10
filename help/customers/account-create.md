@@ -3,9 +3,9 @@ title: Een individuele klantaccount maken
 description: Bezoekers kunnen eenvoudig een individuele klantenaccount maken om hun aankopen te beheren.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ De volgende instructies vertegenwoordigen de standaardconfiguratie van de klante
 
 Als opslagbeheerder kunt u ook de opdracht [nieuwe accountopties](../customers/account-options-new.md) om een bevestigingsbericht naar nieuwe geregistreerde klanten te verzenden, wat helpt ervoor te zorgen dat geregistreerde accounts geldig zijn.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>Vanaf versie 2.4.7 moeten klanten hun e-mail en wachtwoord opnieuw invoeren om zich aan te melden bij hun account na e-mailbevestiging, ongeacht de browser.
 
 ## Account maken van de winkel
 

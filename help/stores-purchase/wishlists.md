@@ -3,9 +3,9 @@ title: Wenslijsten
 description: Meer informatie over verlanglijsten en hoe ze de boodschapervaring kunnen vergroten en meer verkopen kunnen promoten.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De lijsten van de wens kunnen van het dashboard van worden bijgewerkt [klantenac
 
 ![Voorbeeld van een winkel - Mijn lijst met wensen](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-Wanneer een product met meerdere opties wordt toegevoegd aan een verlanglijst, worden alle opties die door de klant zijn geselecteerd, opgenomen in de beschrijving van het verlanglijstitem. Als de klant bijvoorbeeld hetzelfde paar schoenen in drie verschillende kleuren toevoegt, wordt elk paar weergegeven als een apart item voor een wensenlijst. Als de klant echter hetzelfde product meerdere keren aan de verlanglijst toevoegt, wordt het product slechts één keer weergegeven, maar met een bijgewerkte hoeveelheid die het aantal keren weergeeft dat het product is toegevoegd.
+Wanneer een product met meerdere opties wordt toegevoegd aan een verlanglijst, worden alle opties die door de klant zijn geselecteerd, opgenomen in de beschrijving van het verlanglijstitem. Als de klant bijvoorbeeld hetzelfde paar schoenen in drie verschillende kleuren toevoegt, wordt elk paar weergegeven als een apart item voor een wensenlijst. Als de klant echter hetzelfde product meerdere keren aan de verlanglijst toevoegt, wordt het product slechts één keer weergegeven, maar wordt de hoeveelheid van de productpagina geselecteerd.
 
 ## Wenslijstassistentie in Admin
 

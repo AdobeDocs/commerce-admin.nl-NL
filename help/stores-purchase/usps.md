@@ -3,7 +3,7 @@ title: United States Postal Service (USPS)
 description: Leer hoe u USPS instelt als een verzendprovider voor uw winkel.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ Een [USPS-webgereedschappen][1] account. Nadat je het registratieproces hebt vol
 U kunt ook een [USPS-webgereedschappen][1] account. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Voor meer informatie over de Webhulpmiddelen van USPS, zie hun [Technische documentatie][2].
 
 ## Stap 2: USPS inschakelen voor uw winkel
-
-{{beta2-updates}}
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

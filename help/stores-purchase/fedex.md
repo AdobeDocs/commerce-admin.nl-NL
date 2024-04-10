@@ -3,9 +3,9 @@ title: FedEx
 description: Leer hoe u FedEx instelt als een verzender voor je winkel.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie v
 
 ## Stap 2: FedEx inschakelen voor je winkel
 
-{{beta2-updates}}
-
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie v
 1. Voer de volgende gegevens in van uw FedEx-account:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. Als u een FedEx-sandbox hebt ingesteld en wilt werken in de testomgeving, stelt u **[!UICONTROL Sandbox Mode]** tot `Yes`.
 
@@ -59,24 +56,22 @@ A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie v
 
 ## Stap 3: Verpakkings- en verpakkingskosten
 
-1. Selecteer de **[!UICONTROL Packages Request Type]** aan de optie die het beste uw voorkeur beschrijft wanneer het verdelen van een orde in veelvoudige verzendingen:
+1. Set **[!UICONTROL Pickup Type]** op de ophaalmethode die wordt gebruikt voor overbrengingen.
+
+   - `DropOff at Fedex Location` - (Standaard) Geeft aan dat u verzendingen op uw lokale FedEx-station neerzet.
+   - `Contact Fedex to Schedule` - Geeft aan dat u contact opneemt met FedEx om een afhaalbewerking aan te vragen.
+   - `Use Scheduled Pickup` - Geeft aan dat de zending wordt opgehaald als onderdeel van een normale geplande ophaling.
+   - `On Call` - Wijst erop dat de bestelwagen door FedEx wordt gepland te roepen.
+   - `Package Return Program` - Geeft aan dat de verzending wordt opgehaald door het FedEx Ground Package Returns Program.
+   - `Regular Stop` - Geeft aan dat de verzending wordt opgehaald volgens het normale ophaalschema.
+   - `Tag` - Geeft aan dat het ophalen van de lading specifiek is voor een aanvraag van de tag Express of grondaanroep. Dit is alleen van toepassing op verzendlabel voor retourzending.
+
+1. Voor **[!UICONTROL Packages Request Type]** Selecteer het aanvraagtype dat het beste uw voorkeur beschrijft wanneer u een bestelling opsplitst in meerdere verzendingen:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Selecteer het type van **[!UICONTROL Packaging]** Wordt meestal gebruikt om producten uit je winkel te verzenden.
-
-1. Set **[!UICONTROL Dropoff]** de ophaalmethode die voor de levering wordt gebruikt.
-
-   - `Regular Pickup` - Als u een groot aantal overbrengingen hebt, kan het kosteneffectief zijn om regelingen te treffen met FedEx voor regelmatige bevragingen.
-
-   - `Request Courier` - Je moet een FedEx-koerier bellen en vragen om verzendingen op te halen.
-
-   - `Drop Box` - U moet de verzendingen bij uw dichtstbijzijnde FedEx-drop box neerzetten.
-
-   - `Business Service Center` - U moet de verzendingen bij uw lokale FedEx-servicecentrum neerzetten.
-
-   - `Station` - U moet verzendingen bij uw lokale FedEx-station neerzetten.
+1. Voor **[!UICONTROL Packaging]** selecteert u het type FedEx-verpakking dat u doorgaans gebruikt om producten uit uw winkel te verzenden.
 
 1. Set **[!UICONTROL Weight Unit]** aan de maateenheid die wordt gebruikt in uw landinstelling.
 

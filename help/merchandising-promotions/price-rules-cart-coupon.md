@@ -3,9 +3,9 @@ title: Couponcodes
 description: Leer hoe u couponcodes met de regels voor winkelprijzen kunt gebruiken om een korting toe te passen wanneer aan een aantal voorwaarden wordt voldaan.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Coupons-codes worden gebruikt met [regels betreffende de kartonprijs](price-rule
 - In-store coupons maken voor mobiele gebruikers
 
 Couponcodes kunnen via e-mail worden verzonden of worden opgenomen in nieuwsbrieven, catalogi en advertenties. De lijst met couponcodes kan worden geëxporteerd en naar een commerciële drukker worden verzonden. U kunt ook in-store coupons maken met een snelle antwoordcode die kopers kunnen scannen met hun smartphones. De QR-code kan worden gekoppeld aan een pagina op uw site met meer informatie over de aanbieding.
+
+Vanaf Commerce 2.4.7 kunnen kopers meerdere coupons toepassen op een winkelwagen. Handelaren kunnen ook meerdere coupons toepassen met behulp van winkelhulp.
 
 ## couponcodes configureren
 

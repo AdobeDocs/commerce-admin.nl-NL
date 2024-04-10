@@ -3,9 +3,9 @@ title: Verzendlabels en -pakketten maken
 description: Leer hoe u items in een bestelling verpakt en verzendlabels maakt.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ De [!DNL United States Postal Service] zowel binnenlandse als internationale sch
 ### FedEx-configuratie
 
 FedEx wordt binnenlands en internationaal verzonden. Winkels buiten de Verenigde Staten kunnen alleen FedEx-labels maken voor internationale verzendingen.
-
-{{beta2-updates}}
 
 1. Het voortzetten in **[!UICONTROL Delivery Methods]** configuratie, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL FedEx]** sectie.
 

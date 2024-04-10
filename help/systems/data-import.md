@@ -3,9 +3,9 @@ title: Gegevens importeren
 description: Leer meer over richtlijnen voor het importeren van gegevens en hoe u de bewerkingen voor het importeren van gegevens kunt gebruiken.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Als er een kenmerk bestaat dat in het importbestand is opgegeven en de waarde er
 
 - Een bestand kan niet worden geïmporteerd als alle rijen ongeldig zijn.
 - Er zijn niet-bestaande servicegegevens of complexe gegevensnamen opgegeven in het importbestand, zoals een kolom met een `_<non-existing name>` kop.
+
+Adobe Commerce-importproces herkent mogelijk niet correct bestanden die zijn gecodeerd in UTF-8 en die gebruikmaken van een BOM (Byte Order Mark). Bestanden met een BOM kunnen tijdens het importeren problemen of fouten veroorzaken.
 
 ## Importeren
 

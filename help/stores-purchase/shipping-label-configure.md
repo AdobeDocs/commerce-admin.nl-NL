@@ -3,9 +3,9 @@ title: Verzendlabels configureren
 description: Leer hoe u winkel kunt configureren voor het genereren van verzendlabels.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
 1. Klik op **[!UICONTROL Save]**.
 
 ## Stap 2 verifieert de opslaginformatie
-
-{{beta2-updates}}
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

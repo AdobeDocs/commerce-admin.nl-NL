@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Controleer de configuratie-instellingen voor de [!UICONTROL Braintree] de [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] pagina van de Commerce Admin.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2603'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
 >Als u aan Handel 2.4.0 bevordert en niet de geadviseerde uitbreiding van de Commerce Marketplace in uw vorige versie 2.3.x gebruikt, werkt de multi adreseigenschap niet met versie 2.4.0 van Braintree. Wanneer een winkelier selecteert _leveren aan veelvoudige adressen_ , wordt de betalingsmethode voor Braintree niet weergegeven. De eerder voor 2.3.x geadviseerde uitbreiding van de Commerce Marketplace heeft deze veelvoudige adreskwestie.
 
 {{config}}
-
-{{beta2-updates}}
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -54,6 +52,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | Website | Een beschrijvende titel voor uw referentie die de vault identificeert waar uw klantenkaartinformatie wordt opgeslagen. |
 | [!UICONTROL Merchant Account ID] | Website | De Merchant Account ID die aan Braintree transacties van deze website moet worden gekoppeld. Als deze optie niet wordt opgegeven, wordt de standaardzakelijke account van uw Braintree gebruikt. |
+| [!UICONTROL Enable Checkout Express Payments] | Website | Biedt een snellere afhandeling met Express Payment Options aan het begin van het afhandelingsproces, zoals PayPal, PayPal, Apple Pay en Google Pay. Opties: `Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | Website | Voorkomt dat de transactie ter evaluatie wordt verzonden als onderdeel van [!DNL Advanced Fraud Tools] controles, alleen op bestellingen die via de beheerder worden geplaatst wanneer deze is ingesteld op `Yes`.<br/>Opties: `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | Website | `Advanced Fraud Protection` controles worden overgeslagen wanneer de drempelwaarde wordt bereikt of overschreden. Als u dit veld leeg laat, wordt deze optie uitgeschakeld. |
 | [!UICONTROL Debug] | Website | Bepaalt als de mededelingen tussen het systeem van de Braintree en uw opslag in een logboekdossier worden geregistreerd. Opties: `Yes` / `No` |
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Enable Webhook] | Website | De webhaakfunctionaliteit voor fraudebescherming, ACH-betalingen en lokale betalingsmethoden mogelijk maken. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Webhook] | Website | De webhaakfunctionaliteit voor fraudebescherming, ACH-betalingen, lokale betalingsmethoden en geschillen mogelijk maken. Opties: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | Website | Voeg deze URL toe aan uw account voor Braintreeën als de [!UICONTROL Webhook Destination URL]. **Deze URL moet veilig en openbaar toegankelijk zijn.** |
 | [!UICONTROL Fraud Protection Approve Order Status] | Website | Wanneer de fraudebescherming door Braintree wordt goedgekeurd, wordt de geselecteerde ordestatus toegewezen aan de orde van de Handel. Deze status wordt gebruikt om de status bij te werken van de order waar de ACH - betalingsmethode wordt gebruikt en wanneer deze wordt `SETTLED` in Braintree. |
 | [!UICONTROL Fraud Protection Reject Order Status] | Website | Wanneer de fraudebescherming door Braintree wordt verworpen, wordt de geselecteerde ordestatus toegewezen aan de orde van de Handel. Deze status wordt gebruikt om de status bij te werken van de order waar de ACH - betalingsmethode wordt gebruikt en wanneer `SETTLEMENT` is `DECLINED` in Braintree. |
@@ -94,6 +93,7 @@ ht-degree: 0%
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | Website | Hiermee wordt bepaald of [!DNL ACH Direct Debit] is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | Website | Klanten kunnen hun betalingsmethode voor automatische incasso voor eenmalig gebruik voor toekomstig gebruik in- en opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant de betaalmethode ACH Direct Debit gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Website | Hiermee bepaalt u de volgorde [!DNL ACH Direct Debit] wordt bij het afrekenen met andere betalingsmethoden aangeboden. |
 
 {style="table-layout:auto"}
@@ -105,6 +105,7 @@ ht-degree: 0%
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable ApplePay through Braintree] | Website | Hiermee wordt bepaald of Apple Pay is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` <br/><br/> Het domein moet [eerst geverifieerd in Braintree-account](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | Website | Klanten kunnen hun betalingsmethode Apple Pay voor toekomstig gebruik in- en opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant Apple Pay gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bepaalt de actie die door de Braintree wordt ondernomen wanneer een betaling wordt verwerkt. Opties: <br/>**`Authorize`**- Gelden op de kaart van de klant zijn toegestaan, maar niet van de rekening van de klant overgedragen. Er wordt een bestelling gemaakt in uw winkelbeheerder. U kunt de uitverkoop later vastleggen en een factuur maken.<br/>**`Intent Sale`** - Middelen op de kaart van de klant worden geautoriseerd en vastgelegd door Braintree, en een bestelling en factuur worden gemaakt in uw winkel Admin. **_Opmerking:_** Dit was `Authorize and Capture` in 2.3.x en eerdere versies. |
 | [!UICONTROL Merchant Name] | Winkelweergave | Label dat wordt weergegeven aan klanten in de pop-up van ApplePay. |
 | [!UICONTROL Sort Order] | Website | Hiermee bepaalt u de bestelling dat Apple Pay bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. |
@@ -119,6 +120,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | Website | Hiermee wordt bepaald of Lokale betalingsmethode via Braintree wordt opgenomen als betalingsmethode. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Website | Label dat wordt weergegeven in het gedeelte Betalingsmethode voor afrekenen. Standaardwaarde: `Local Payments` |
+| [!UICONTROL Fallback Button Text] | Website | Voer de tekst in die u wilt gebruiken voor de knop die wordt weergegeven op de pagina voor de Braintree van de fallback waarmee klanten terugkeren naar de website. Standaardwaarde: `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | Website | Hier geeft u de URL op waar klanten moeten worden omgeleid wanneer lokale betalingstransacties worden geannuleerd, mislukt of er fouten optreden. Dit moet de betalingspagina voor afrekening zijn (bijvoorbeeld `https://www.domain.com/checkout#payment`). |
 | [!UICONTROL Allowed Payment Method] | Website | Selecteer de lokale betalingsmethode die moet worden ingeschakeld. Opties: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (nog niet ondersteund) |
 | [!UICONTROL Sort Order] | Website | Hiermee bepaalt u de volgorde waarin Lokale betalingsmethode bij andere betalingsmethoden wordt weergegeven tijdens het afrekenen. |
 
@@ -135,6 +138,7 @@ ht-degree: 0%
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | Website | Hiermee wordt bepaald of [!DNL Google Pay] Betaling wordt via Braintree als betalingsmethode opgenomen. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | Website | Klanten kunnen hun betalingsmethode Google Pay voor toekomstig gebruik in- en opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant Google Pay gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bepaalt de actie die door de Braintree wordt ondernomen wanneer een betaling wordt verwerkt. Opties: <br/>**`Authorize`**- Gelden op de kaart van de klant zijn toegestaan, maar niet van de rekening van de klant overgedragen. Er wordt een bestelling gemaakt in uw winkelbeheerder. U kunt de uitverkoop later vastleggen en een factuur maken.<br/>**`Intent Sale`** - Middelen op de kaart van de klant worden geautoriseerd en vastgelegd door Braintree, en een bestelling en factuur worden gemaakt in uw winkel Admin. **_Opmerking:_** Dit was `Authorize and Capture` in 2.3.x en eerdere versies. |
 | [!UICONTROL Button Color] | Website | Bepaalt de kleur van [!DNL Google Pay] knop. Opties: `White` / `Black` |
 | [!UICONTROL Merchant ID] | Winkelweergave | ID opgegeven door Google moet hier worden ingevoerd. |
@@ -150,6 +154,7 @@ ht-degree: 0%
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Website | Hiermee wordt bepaald of [!DNL Venmo] is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | Website | Klanten kunnen hun betalingsmethode van Venmo voor toekomstig gebruik in kluizen plaatsen of opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant de betalingsmethode van Venmo gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bepaalt de actie die door de Braintree wordt ondernomen wanneer een betaling wordt verwerkt. Opties: <br/>**`Authorize`**- Gelden op de kaart van de klant zijn toegestaan, maar niet van de rekening van de klant overgedragen. Er wordt een bestelling gemaakt in uw winkelbeheerder. U kunt de uitverkoop later vastleggen en een factuur maken.<br/>**`Intent Sale`** - Middelen op de kaart van de klant worden geautoriseerd en vastgelegd door Braintree, en een bestelling en factuur worden gemaakt in uw winkel Admin. **_Opmerking:_** Dit was  _Autoriseren en vastleggen_ in 2.3.x en eerdere versies. |
 | [!UICONTROL Sort Order] | Website | Bepaalt de bestelling dat Venmo bij andere betalingsmethoden wordt vermeld tijdens het afrekenen. |
 
@@ -166,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Enable PayPal PayLater through Braintree] | Website | Hiermee wordt bepaald of PayPal PayPal Later via Braintree als betalingsmethode wordt opgenomen. Opties: `Yes` / `No`. Dit veld wordt weergegeven wanneer `Enable PayPal through Braintree` is ingesteld op `Yes` |
 | [!UICONTROL Title] | Winkelweergave | Het label dat PayPal identificeert via Braintree aan klanten tijdens het afrekenen. Standaardwaarde: `PayPal` |
 | [!UICONTROL Vault Enabled] | Website | Als deze optie is ingeschakeld, beschikt u over een veilige opslagruimte voor de betalingsgegevens van de klant, zodat klanten hun PayPal-gegevens niet telkens opnieuw hoeven in te voeren. Opties: `Yes` / `No` |
+| [!UICONTROL Send Cart Line Items for PayPal] | Website | Stuur de lijstitems (bestellingsobjecten) samen met creditcards naar PayPal, Gift Wrapping voor objecten, Gift Wrapping voor bestelling, Winkelkrediet, Verzending en Belasting als lijstitems. Opties: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin PayPal via Braintree bij andere betalingsmethoden wordt weergegeven tijdens het afrekenen. |
 | [!UICONTROL Override Merchant Name] | Winkelweergave | Een alternatieve naam die kan worden gebruikt om de handelaar voor elke archiefmening te identificeren. |
 | [!UICONTROL Payment Action] | Website | Hiermee bepaalt u de actie die door PayPal via Braintree wordt uitgevoerd wanneer een betaling wordt verwerkt. Opties: <br/>**`Authorize`**- Gelden op de kaart van de klant zijn toegestaan, maar niet van de rekening van de klant overgedragen. Er wordt een bestelling gemaakt in uw winkelbeheerder. U kunt de uitverkoop later vastleggen en een factuur maken.<br/>**`Authorize and Capture`** - Gelden op de kaart van de klant worden geautoriseerd en via Braintree vastgelegd door PayPal, en er wordt een bestelling en factuur gemaakt in uw winkel Admin. |
@@ -176,6 +182,10 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | Website | Hiermee wordt bepaald of de PayPal-knop wordt weergegeven in het dialoogvenster [minikaart](../../stores-purchase/cart-configuration.md#mini-cart) en op de [winkelwagentje](../../stores-purchase/cart.md) pagina. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Willekeurig **[!DNL PayPal Credit]** of **[!DNL PayPal PayLater]** kan worden ingeschakeld. Beide methoden kunnen niet tegelijkertijd worden ingeschakeld.
 
 ### [!UICONTROL Styling]
 
@@ -205,9 +215,13 @@ De opties en instellingen in deze sectie variëren afhankelijk van het knoptype 
 | [!UICONTROL Button Label] | Website | Bepaalt het label voor de PayPal-knop. Opties: `Paypal` / `Checkout` / `Buy Now` / `Pay` |
 | [!UICONTROL Color] | Website | Hiermee bepaalt u de kleur van de PayPal-knop. Opties: `Blue` / `Black` / `Gold` / `Silver` |
 | [!UICONTROL Shape] | Website | Hiermee bepaalt u de vorm van de PayPal-knop. Opties: `Pill` / `Rectangle` |
-| [!UICONTROL Size] | Website | Hiermee bepaalt u de grootte van de PayPal-knop. Opties: `Medium` / `Large` / `Responsive` |
+| [!UICONTROL Size(Deprecated)] | Website | Hiermee bepaalt u de grootte van de PayPal-knop. Opties: `Medium` / `Large` / `Responsive` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>De **[!DNL Size(Deprecated)]** Het configuratieveld is vervangen en wordt niet gebruikt om de PayPal-knoppen op te maken.
 
 **[!UICONTROL PayLater Messaging]**
 

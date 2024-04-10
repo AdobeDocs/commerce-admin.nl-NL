@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Checkout] pagina van de Commerce Admin.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Checkout Options]
 
->[!NOTE]
->
->[!BADGE 2.4.6-p1]{type=Informative tooltip="Updates in 2.4.6-p1"}[!BADGE 2.4.7-bèta1]{type=Informative tooltip="Updates in 2.4.7-bèta1"}[2.4.7-bèta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) en [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) versies die veiligheidsverhogingen aan de beschreven functionaliteit verstrekken. Controleer de releaseopmerkingen als u een van deze releaseversies gebruikt.
-
 ![Afhandelingsopties](./assets/checkout-checkout-options.png)<!-- zoom -->
 
 <!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
-|--- |--- |--- |
+|------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable Guest Checkout Login] | Winkelweergave | Schakel deze instelling in om niet-geverifieerde gebruikers (winkel- en API&#39;s) de mogelijkheid te geven te vragen of er al een e-mailadres is gekoppeld aan een klantenaccount. Dit kan worden gebruikt om de uitcheckworkflow voor gasten te verbeteren door een aanmeldingsprompt weer te geven als het ingevoerde e-mailadres al is geregistreerd bij een klantenaccount, maar ten koste gaat van het toegankelijk maken van informatie voor niet-geverifieerde gebruikers.  Opties: `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | Winkelweergave | Hiermee wordt bepaald of [Uitchecken via één pagina](../../stores-purchase/checkout-process.md#checkout-options) Dit is de standaardindeling voor uitchecken. Opties: `Yes` / `No` |
 | [!UICONTROL Allow Guest Checkout] | Winkelweergave | Hiermee wordt bepaald of gasten door kunnen gaan [afrekenen zonder registratie](../../stores-purchase/checkout-guest.md) voor een account bij je winkel. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Winkelweergave | Hiermee bepaalt u of klanten akkoord moeten gaan met de [Voorwaarden en bepalingen](../../stores-purchase/terms-and-conditions.md) van de verkoop voordat een aankoop wordt gedaan. Opties: `Yes` / `No` |

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Sales] pagina van de Commerce Admin.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Multicoupon-instellingen](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | Website | Hiermee bepaalt u het maximum aantal toegestane coupons per bestelling |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee schakelt u Onmiddellijk aanschaffen in voor de winkelweergave, als de betalingsmethode, zoals Braintree, vault heeft ingeschakeld. Opties: `Yes` / `No` |
 | [!UICONTROL Button Text] | Winkelweergave | Hiermee geeft u de tekst op die op de knop Onmiddellijk aanschaffen wordt weergegeven. De standaardtekst is `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Snelheidsbeperking](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | Winkelweergave | Bepaalt als tarief het beperken wordt gebruikt voor het plaatsen van orden van de archiefmening (gebrek is `No`). Opties: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | Winkelweergave | Het aantal koopverzoeken dat een voor authentiek verklaarde klant tijdens de periode kan maken. De standaardlimiet is `10`. |
+| [!UICONTROL Requests limit per guest] | Winkelweergave | Het aantal koopverzoeken dat een niet-geverifieerde klant tijdens de opgegeven periode kan indienen. De standaardwaarde is `50`. |
+| [!UICONTROL Counter resets in a ...] | Winkelweergave | De periode waarin een voor authentiek verklaarde/niet voor authentiek verklaarde klant een bepaald aantal koopverzoeken kan doen (gebrek is `Minute`). Opties: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

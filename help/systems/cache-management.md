@@ -3,28 +3,28 @@ title: Cachebeheer
 description: Leer hoe u de tools voor cachebeheer gebruikt, die een eenvoudige manier zijn om de prestaties van uw site te verbeteren.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
 # Cachebeheer
 
-Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvoudige manier om de prestaties van uw site te verbeteren. Wanneer een cache moet worden vernieuwd, verschijnt boven in de werkruimte een bericht om u door het proces te begeleiden. Volg de verbinding aan het Beheer van het Geheime voorgeheugen en vernieuw de ongeldige caches.
+Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvoudige manier om de prestaties van uw site te verbeteren. Wanneer een cache moet worden vernieuwd, verschijnt boven in de werkruimte een bericht met een koppeling naar de [!UICONTROL Cache Management] pagina waar u caches kunt weergeven en vernieuwen.
 
 ![Productkenmerk opslaan - cachebericht bijwerken](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
->[!NOTE]
+De _[!UICONTROL Cache Management]_op de pagina worden de status van elke primaire cache en de bijbehorende tag weergegeven. De grote knopen in de hoger-juiste hoek kunnen worden gebruikt om het geheime voorgeheugen, of de alle-inclusieve Opslag van het Geheime voorgeheugen te spoelen. Onder aan de pagina kunt u met extra knoppen de cache voor productafbeeldingen van de catalogus en de JavaScript/CSS-cache leegmaken.
+
+>[!IMPORTANT]
 >
->Wanneer entiteiten uit een catalogus worden gewijzigd, kan dit van invloed zijn op andere pagina&#39;s en meerdere cache tegelijk ongeldig maken. Wanneer u de pagina van het geheim voorgeheugenbeheer bekijkt, kon u ongeldige punten zien die vereisen verfrist zich toen zij waren _**niet rechtstreeks bewerkt**_. Deze validatie treedt bijvoorbeeld op wanneer u een product in de catalogus bewerkt en het wordt toegewezen aan een categorie of wanneer u een regel voor een verwant product wijzigt.
+>Wanneer entiteiten uit een catalogus worden gewijzigd, kan dit van invloed zijn op andere pagina&#39;s en meerdere cache tegelijk ongeldig maken. Wanneer u de pagina van het geheim voorgeheugenbeheer bekijkt, kon u ongeldige punten zien die vereisen verfrist zich toen zij waren _**niet rechtstreeks bewerkt**_. Deze validatie treedt bijvoorbeeld op wanneer u een product in de catalogus bewerkt dat aan een categorie is toegewezen, of wanneer u een regel voor een verwant product wijzigt.
 
-De _[!UICONTROL Cache Management]_op de pagina worden de status van elke primaire cache en de bijbehorende tag weergegeven. De grote knopen in de hoger-juiste hoek kunnen worden gebruikt om het geheime voorgeheugen, of de alle-inclusieve Opslag van het Geheime voorgeheugen te spoelen. Onder aan de pagina vindt u extra knoppen om de cache van de catalogusproductafbeeldingen en de JavaScript/CSS-cache te leegmaken.
+Nadat u een cache hebt gewist, vernieuwt u altijd de browser om te controleren of u de meest recente bestanden kunt zien. Als u de cache van de Handel wist, wordt de cache van uw webbrowser niet gewist. Mogelijk moet u de cache van de browser wissen om de bijgewerkte inhoud te kunnen zien.
 
-Nadat u een cache hebt gewist, vernieuwt u altijd de browser om te controleren of u de meest recente bestanden kunt zien. Als u de cache van de Handel wist, wordt de cache van uw webbrowser niet gewist. Mogelijk moet u de browsercache wissen om de bijgewerkte inhoud te kunnen zien.
-
-Zie voor aanvullende technische informatie [Overzicht van cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} in het dialoogvenster _Handleiding voor de ontwikkeling van de handelsfront_.
+Aanvullende technische informatie over Adobe Commerce caching is beschikbaar op het tabblad [Overzicht van cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} in het dialoogvenster _Handleiding voor de ontwikkeling van de handelsfront_.
 
 Toegang krijgen tot de _[!UICONTROL Cache Management]_pagina door een van de volgende handelingen uit te voeren:
 
@@ -102,12 +102,12 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## Uitlijnen met gebruik van de opdrachtregel
 
-De handel verstrekt extra flush geheim voorgeheugenopties gebruikend de bevellijn. Voor deze opties is mogelijk ondersteuning voor ontwikkelaars vereist. Voor volledige details en bevelopties, zie [De cache beheren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html){:target=&quot;_blank&quot;} in het dialoogvenster _Configuratiegids_.
+De Beheerders en de ontwikkelaars van het systeem met toegang tot de de toepassingsserver van de Handel kunnen de geheime voorgeheugen en geheim voorgeheugenconfiguratie van de bevellijn ook beheren gebruikend de Handel CLI. Zie [De cache beheren](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) in de _Configuratiegids_.{:target=&quot;_blank&quot;}.
 
 ## Besturingselementen
 
 | Besturing | Beschrijving |
-|--- |--- |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Mass Actions] | Selecteert checkbox van veelvoudige geheime voorgeheugens. Opties: <br/>**[!UICONTROL Select All]**— Selecteert checkbox van alle geheime voorgeheugens.<br/>** Alle selecties opheffen **— Wist het selectievakje van alle cache.<br/>**[!UICONTROL Select Visible]** — Selecteert checkbox van alle zichtbare geheime voorgeheugens. <br/>**[!UICONTROL Unselect Visible]**— Wist het selectievakje van alle zichtbare cache. |
 | [!UICONTROL Actions] | Hiermee bepaalt u de actie die op alle geselecteerde caches moet worden toegepast. Opties: <br/>**[!UICONTROL Enable]**— Schakelt alle geselecteerde caches in.<br/>**[!UICONTROL Disable]** — Schakelt alle geselecteerde caches uit. <br/>**[!UICONTROL Refresh]**— Verfrist alle geselecteerde geheime voorgeheugens. |
 | [!UICONTROL Submit] | Hiermee past u de handeling toe op alle geselecteerde caches. |
@@ -117,7 +117,7 @@ De handel verstrekt extra flush geheim voorgeheugenopties gebruikend de bevellij
 ### Knoppen
 
 | Knop | Beschrijving |
-|--- |--- |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Flush Magento Cache] | Hiermee worden alle items in de standaardhandelscache verwijderd (`var/cache`), op basis van de bijbehorende tags Commerce. |
 | [!UICONTROL Flush Cache Storage] | Hiermee verwijdert u alle items uit het cachegeheugen, ongeacht de tag Commerce. Als uw systeem een alternatieve cachelocatie gebruikt, worden alle cachebestanden die door andere toepassingen worden gebruikt, tijdens het proces verwijderd. |
 | [!UICONTROL Flush Catalog Images Cache] | Hiermee verwijdert u alle automatisch gewijzigde en van een watermerk voorziene catalogusafbeeldingen die zijn opgeslagen in `media/catalog/product/cache`. Als onlangs geüploade afbeeldingen niet in de catalogus worden weergegeven, probeert u de catalogus te spoelen en de browser te vernieuwen. |
@@ -128,23 +128,42 @@ De handel verstrekt extra flush geheim voorgeheugenopties gebruikend de bevellij
 
 ### Cursussen
 
-| Cache | Beschrijving | Gekoppelde tag |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | Diverse configuraties van XML die over modules werden verzameld en werden samengevoegd.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | Instructies voor het samenstellen van lay-outs. | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | HTML van paginablokken. | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | Gegevensbestanden verzameling. | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data] | Wist de weerspiegelingsgegevens van de API interface, die typisch tijdens runtime wordt geproduceerd. | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | Resultaten van vraag DDL, zoals beschrijvend lijsten of indexen. | `DB_DDL` |
-| [!UICONTROL Compiled Config] | Resultaten van codecompilatie. | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | Declaratiecache voor entiteitstypen. | `EAV` |
-| [!UICONTROL Customer Notification] | Tijdelijke meldingen die worden weergegeven in de gebruikersinterface. | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | Integratieconfiguratiebestand. | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | Integrations API configuration file. | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | Volledige pagina in cache plaatsen. | `FPC` |
-| [!UICONTROL Translations] | Vertaalbestanden. | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | REST- en SOAP-configuraties, gegenereerd WSDL-bestand. | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | Index van doelregel | `TARGET_RULE` |
+De [!UICONTROL Cache Management] Deze pagina bevat een overzicht van de cachemypen die u kunt beheren bij de beheerder met hun huidige status. In deze sectie worden de standaardcachetypen beschreven die door Adobe Commerce worden ondersteund. De _Cachetag_ en _Cache-id_ de kolommen beschrijven waarden die in de de toepassingscode van de Handel worden gebruikt:
+
+- `cache_type_id` definieert de unieke id voor een cachetype.
+
+- `%CACHE_TYPE_TAG%` definieert de unieke tag die moet worden gebruikt in cache-typeschema.
+
+Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configureren en te beheren tijdens het aanpassen of integreren met Adobe Commerce, bijvoorbeeld bij het ontwikkelen van integratie met GraphQL API&#39;s. De `cache type id` wordt ook gebruikt voor geheim voorgeheugenbeheer van de het bevellijn van de toepassingsserver gebruikend de Handel CLI, bijvoorbeeld ` bin/magento cache:status config` toont de huidige status van het geheime voorgeheugen van de Configuratie.
+
+>[!NOTE]
+>
+>Ontwikkelaars en systeemintegrators kunnen het Cachebeheersysteem van de Handel aanpassen en uitbreiden om douanemodules en integratie te steunen. Zie voor meer informatie [Caching configureren](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) in de _Adobe Commerce-configuratiegids_.
+
+<!-- prettier-ignore -->
+
+#### Cachelijst met details
+
+| Cache | Beschrijving | Cachetag | Cache-id |
+|-------|------------|----------|----------|
+| [!UICONTROL Configuration] | De handel verzamelt de configuratie van XML van alle modules, voegt het samen, en bewaart het samengevoegde resultaat aan het geheime voorgeheugen.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>Deze cache bevat ook opslagspecifieke instellingen die zijn opgeslagen in het bestandssysteem en de database. Reinig of verwijder dit cachetype na het wijzigen van configuratiedossiers. | `CONFIG` | `config` |
+| [!UICONTROL Layouts] | Gecompileerde paginalay-outs, dat wil zeggen de lay-outcomponenten van alle componenten. Reinig of verwijder dit cachetype na het wijzigen van lay-outbestanden. | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
+| [!UICONTROL Blocks HTML output] | HTML-paginafragmenten per blok. Reinig of verwijder dit cachetype na het wijzigen van de meningslaag. | `BLOCK_HTML` | `block_html` |
+| [!UICONTROL Collections Data] | Gegevensbestanden van de inzameling die de resultaten van gegevensbestandvragen opslaan. Indien nodig, ontruimt de Handel automatisch dit geheime voorgeheugen, maar de derdeontwikkelaars kunnen om het even welke gegevens in om het even welk segment van het geheime voorgeheugen zetten. Reinig of verwijder dit cachetype als uw douanemodule logica gebruikt die in geheim voorgeheugeningangen resulteert die de Handel niet kan schoonmaken. | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Reflections] | Wist de weerspiegelingsgegevens van de API interface, die typisch tijdens runtime wordt geproduceerd. | `REFLECTION` | `reflection` |
+| `Database DDL operations` | Databaseschema Indien nodig, ontruimt de Handel automatisch dit geheime voorgeheugen, maar de derdeontwikkelaars kunnen om het even welke gegevens in om het even welk segment van het geheime voorgeheugen zetten. Reinig of verwijder dit cachetype nadat u douaneveranderingen in het gegevensbestandschema aanbrengt. (Met andere woorden, dit zijn updates die de Handel niet zelf maakt.) Eén manier om het databaseschema automatisch bij te werken is met behulp van de magento-instelling:db-schema:upgradeopdracht. | `DB_DDL` | `db_ddl` |
+| [!UICONTROL Compiled Config] | Resultaten van codecompilatie. | `COMPILED_CONFIG` | `compiled_config` |
+| [!UICONTROL Webhooks Response Cache] | Hiermee worden reacties op webhaakaanvragen vastgezet. Zie de klasse [Handleiding voor webhaken](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in de documentatie voor de ontwikkeling van de handel. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL EAV types and attributes] | Cachegeheugen voor declaraties van entiteitstypen voor metagegevens die betrekking hebben op EAV-kenmerken (sla labels op, koppelingen naar gerelateerde PHP-code, kenmerkrendering, zoekinstellingen enzovoort). U hoeft dit type cache gewoonlijk niet op te schonen of te leegmaken. | `EAV` | `eav` |
+| [!UICONTROL Customer Notification] | Tijdelijke meldingen die worden weergegeven in de gebruikersinterface. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
+| [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Laat deze cache ingeschakeld om de GraphQL-prestaties te verbeteren. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
+| [!UICONTROL Integrations Configuration] | Integratieconfiguratiebestand. Maak deze cache leeg of maak deze leeg nadat u integraties hebt gewijzigd of toegevoegd. | `INTEGRATION` | `config_integration` |
+| [!UICONTROL Integrations API Configuration] | Configuratie van gecompileerde integratie-API&#39;s voor winkelintegratie. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
+| [!UICONTROL Admin UI SDK Cache] | Kies deze optie om aanpassingen door te voeren bij de beheerder. Zie [Configuratie en testen van beheerders](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) in de _Handleiding SDK Admin UI_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Page Cache] | Volledige pagina in cache plaatsen. | `FPC` | `full_page` |
+| [!UICONTROL Target Rule] | Index van doelregel | `TARGET_RULE` | `target_rule` |
+| [!UICONTROL Web Services Configuration] | De Web API-structuur in cache plaatsen. | `WEBSERVICE` | `config_webservice` |
+| [!UICONTROL Translations] | Vertaalbestanden. | `TRANSLATE` | `translate` |
 
 {style="table-layout:auto"}
 
@@ -180,6 +199,8 @@ Voor technische informatie, zie [Varnish configureren en gebruiken](https://expe
    - `Varnish Caching`
 
 1. Als u de time-out voor de paginacache wilt instellen, voert u de **[!UICONTROL TTL for public content]**. (De standaardwaarde is `86400`)
+
+1. Het maximumaantal van [layouthandgrepen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op de [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-eindpunt, voer het **[!UICONTROL Handles param size]**. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. (De standaardwaarde is `100`)
 
 1. Als u Varnish gebruikt, voltooit u de **[!UICONTROL Varnish Configuration]** als volgt:
 

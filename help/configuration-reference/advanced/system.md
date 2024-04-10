@@ -4,9 +4,9 @@ description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL 
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,6 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Archief van ha
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![Geavanceerde configuratie - Volledige paginacache](./assets/system-full-page-cache.png)<!-- zoom -->
 
 Zie voor meer informatie over het wijzigen van deze instellingen [In cache plaatsen van volledige pagina&#39;s](../../systems/cache-management.md#full-page-caching) in de _Admin Systems Guide_.
@@ -190,11 +188,12 @@ Zie voor meer informatie over het wijzigen van deze instellingen [In cache plaat
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Algemeen | Bepaalt de toepassing die wordt gebruikt om het full-page geheime voorgeheugen te beheren. Opties: <br/>**`Built-in Application`**- Niet aanbevolen voor de productieomgeving.<br/>**`Varnish Caching`** - aanbevolen voor de productieomgeving. |
 | [!UICONTROL TTL for public content] | Algemeen | Bepaalt het leven van het openbare inhoudsgeheime voorgeheugen in seconden. Standaardwaarde: `120` |
+| [!UICONTROL Handles param size] | globaal | Hiermee wordt het maximale aantal [layouthandgrepen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op de [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-eindpunt. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Algemeen | Specificeert de IP adressen die de configuratie van Varnish kunnen zuiveren om een config dossier te produceren. Scheid meerdere items met een komma. Standaardwaarde: `localhost` |
 | [!UICONTROL Backend host] | Algemeen | Specificeert de backendgastheer die config dossiers produceert. Standaardwaarde: `localhost` |
 | [!UICONTROL Backend port] | Algemeen | Specificeert de achterste haven die wordt gebruikt om configuratiedossiers te produceren. Standaardwaarde: `8080` |
-| [!UICONTROL Grace period] | Algemeen | Geeft de respijtperiode in seconden op voor het genereren van een configuratiebestand. Standaardwaarde: `300` |
+| [!UICONTROL Grace period] | Algemeen | Hiermee bepaalt u hoe lang Varnish schaalinhoud dient als de backend niet reageert. Standaardwaarde: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | Algemeen | Hiermee exporteert u de `varnish.vcl` bestand voor versie 4. |
 | [!UICONTROL Export VCL for Varnish 5] | Algemeen | Hiermee exporteert u de `varnish.vcl` bestand voor versie 5. |

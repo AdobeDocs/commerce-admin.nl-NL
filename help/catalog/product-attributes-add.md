@@ -3,9 +3,9 @@ title: Kenmerken toevoegen aan een product
 description: Leer hoe u kenmerken aan producten in uw catalogus kunt toevoegen.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ Hoewel attributen hoofdzakelijk van worden beheerd [Winkels](../stores-purchase/
 
    - `Filterable (no results)` - Gelaagde navigatie omvat filters voor alle beschikbare attributenwaarden en hun productaantallen, met inbegrip van de producten met nul (0) productgelijken. Als de kenmerkwaarde een staal is, wordt de waarde weergegeven als een filter, maar uitgestreept.
 
-1. Als u wilt gebruiken in gelaagde navigatie op pagina&#39;s met zoekresultaten, stelt u **[!UICONTROL Use in Search Results Navigation]** tot `Yes` en voert u een getal in in het dialoogvenster **[!UICONTROL Position]** veld.
+   >[!NOTE]
+   >
+   >Wanneer de _[!UICONTROL Use in Search]_instellen op `No`de_[!UICONTROL Use in Search Results Layered Navigation]_ instelling wordt niet weergegeven en het productkenmerk wordt niet gebruikt in de zoekopdracht met [!UICONTROL Use in Layered Navigation] waarde instellen.
+
+1. Als u het kenmerk in gelaagde navigatie wilt gebruiken op pagina&#39;s met zoekresultaten, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** tot `Yes` en voert u een getal in in het dialoogvenster **[!UICONTROL Position]** veld.
 
    Het positienummer geeft de relatieve positie van het kenmerk binnen het gelaagde navigatieblok aan.
+
+   >[!NOTE]
+   >
+   >De _[!UICONTROL Position]_wordt standaard grijs weergegeven en u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
 
 1. Als u het kenmerk wilt gebruiken in prijsregels, stelt u **[!UICONTROL Use for Promo Rule Conditions]** tot `Yes`.
 

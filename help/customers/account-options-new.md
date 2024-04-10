@@ -3,9 +3,9 @@ title: Nieuwe opties voor klantenaccount
 description: Leer over de configuratieopties voor nieuwe klantenrekeningen in uw opslag.
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Nieuwe opties voor klantenaccount
 
 In de _[!UICONTROL Create New Account Options]_in de configuratie worden de basisaccountopties gecombineerd met meer geavanceerde opties die betrekking hebben op de validatie van BTW-id&#39;s en aangepaste integratie. De volgende instructies hebben alleen betrekking op de meest gebruikte opties. Om over automatische klantengroepstaken te leren, zie [Btw-validatie](../stores-purchase/vat.md).
-
-{{beta-updates}}
 
 ![Nieuwe accountopties maken](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
@@ -24,7 +22,7 @@ In de _[!UICONTROL Create New Account Options]_in de configuratie worden de basi
 
 1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Customer Configuration]**.
 
-1. Vouw de sectie **[!UICONTROL Create New Account Options]** uit:
+1. Breid uit **[!UICONTROL Create New Account Options]** sectie:
 
    ![Standaardinstellingen voor Nieuwe accountopties maken](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
@@ -40,16 +38,22 @@ In de _[!UICONTROL Create New Account Options]_in de configuratie worden de basi
 
    - Set **[!UICONTROL Default Welcome Email]** naar de sjabloon die wordt gebruikt voor het welkomstbericht dat naar nieuwe klanten wordt verzonden.
 
+   - Als u wilt dat klanten hun verzoek om een account te openen bij uw winkel bevestigen, stelt u **[!UICONTROL Require Emails Confirmation]** tot `Yes`. Vervolgens stelt u **[!UICONTROL Confirmation Link Email]** naar de sjabloon die wordt gebruikt voor de bevestigingsmail.
+
+     >[!NOTE]
+     >
+     >Vanaf versie 2.4.7 moeten klanten hun e-mail en wachtwoord opnieuw invoeren om zich aan te melden bij hun account na e-mailbevestiging, ongeacht de browser.
+
+   - Set **[!UICONTROL Welcome Email]** naar de sjabloon die wordt gebruikt voor het welkomstbericht dat wordt verzonden nadat de account is bevestigd.
+
    - Set **[!UICONTROL Default Welcome Email without Password]** aan het malplaatje dat wordt gebruikt wanneer een klantenrekening wordt gecreeerd die nog geen wachtwoord heeft. Er is bijvoorbeeld nog geen wachtwoord toegewezen aan een klantenaccount die is gemaakt met de beheerder.
 
    - Set **[!UICONTROL Email Sender]** naar de contactpersoon van de winkel die wordt weergegeven als de afzender van het welkomstbericht.
 
    - Als u wilt dat klanten hun verzoek om een account te openen bij uw winkel bevestigen, stelt u **[!UICONTROL Require Emails Confirmation]** tot `Yes`. Vervolgens stelt u **[!UICONTROL Confirmation Link Email]** naar de sjabloon die wordt gebruikt voor de bevestigingsmail.
 
-   - Set **[!UICONTROL Welcome Email]** naar de sjabloon die wordt gebruikt voor het welkomstbericht dat wordt verzonden nadat de account is bevestigd.
+   ![Nieuwe accountopties maken met BTW ingeschakeld](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-     ![Nieuwe accountopties maken met BTW ingeschakeld](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
-
-     Voor gedetailleerde informatie over elk van de opties beschikbaar in deze reeks van configuratieoptie, zie _Nieuwe accountopties maken_ [configuratieverwijzing](../configuration-reference/customers/customer-configuration.md).
+   Voor gedetailleerde informatie over elk van de opties beschikbaar in deze reeks van configuratieoptie, zie _Nieuwe accountopties maken_ [configuratieverwijzing](../configuration-reference/customers/customer-configuration.md).
 
 1. Klik op **[!UICONTROL Save Config]**.

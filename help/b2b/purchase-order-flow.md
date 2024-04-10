@@ -3,9 +3,9 @@ title: Aankooporders voor bedrijven
 description: Meer informatie over workflows voor inkooporders waarmee bedrijven hun uitgaven kunnen bijhouden en controleren.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Aankooporders (PO&#39;s) zijn een gemeenschappelijke manier voor bedrijven om hu
 Afhankelijk van hun rol, en de orde, zouden de bedrijfgebruikers aan verscheidene goedkeuringsregels kunnen worden onderworpen. En afhankelijk van of het gebruiken van online of off-line betalingsmethodes, is de stroom lichtjes verschillend. Bedrijfsbeheerders kunnen automatisch orders maken, waarbij de goedkeuringsregels worden omzeild. Omdat het opslaan van online betalingsgegevens tijdens het goedkeuringsproces een veiligheidsrisico is, worden deze gegevens na goedkeuring toegevoegd en wordt de kooporder vervolgens omgezet in een echte order.
 
 ![Kooporderstroom](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Een bestelling kan niet worden geplaatst als een of meer producten in de kooporder momenteel uit voorraad zijn of zijn.
 
 De workflow voor inkooporders voor een bedrijf kan op een aantal manieren variëren:
 
