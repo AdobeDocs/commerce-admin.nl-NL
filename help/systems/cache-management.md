@@ -3,16 +3,16 @@ title: Cachebeheer
 description: Leer hoe u de tools voor cachebeheer gebruikt, die een eenvoudige manier zijn om de prestaties van uw site te verbeteren.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # Cachebeheer
 
-Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvoudige manier om de prestaties van uw site te verbeteren. Wanneer een cache moet worden vernieuwd, verschijnt boven in de werkruimte een bericht met een koppeling naar de [!UICONTROL Cache Management] pagina waar u caches kunt weergeven en vernieuwen.
+Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvoudige manier om de prestaties van uw site te verbeteren. Wanneer een cache vernieuwd moet worden, wordt een melding weergegeven met een koppeling naar de [!UICONTROL Cache Management] pagina om vernieuwen te voltooien.
 
 ![Productkenmerk opslaan - cachebericht bijwerken](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ Bij de Handel hebben opnieuw indexeren en in cache plaatsen verschillende doelei
 - Maak de cache altijd leeg nadat u extensies/modules hebt geïnstalleerd. U kunt een of meer extensies installeren en vervolgens de cache leegmaken.
 - Maak het cachegeheugen leeg nadat u Commerce hebt geïnstalleerd. Voor nieuwe installaties moet u ook opnieuw indexeren.
 - Maak de cache leeg nadat u de upgrade hebt uitgevoerd van de ene versie van Open Source of Commerce naar de andere.
-- Houd bij het spoelen rekening met het type cache en het plannen van het spoelen tijdens perioden zonder pieken. Kies bijvoorbeeld een tijdstip waarop weinig klanten toegang hebben tot de site, bijvoorbeeld &#39;s nachts of &#39;s morgens. Het wissen van bepaalde cachetypen tijdens piektijden leidt tot een hoge belasting van de Admin en kan resulteren in een downsite tot voltooiing.
-- Wanneer [herindexering](index-management.md)hoeft u niet ook een uitlijncache uit te voeren.
+- Houd bij het spoelen rekening met het type cache en het plannen van het spoelen tijdens perioden zonder pieken. Kies bijvoorbeeld een tijdstip waarop weinig klanten de site gebruiken, zoals &#39;s nachts of &#39;s morgens. Het wissen van cachetypen tijdens piekvraag kan de belasting van de beheerder verhogen en de site doen afnemen totdat de bewerking is voltooid.
+- Wanneer [herindexering](index-management.md), hoeft u de cache niet te leegmaken.
 
 ## Bronnen voor Cachebeheer
 
-De toegang tot specifieke acties van het geheim voorgeheugenonderhoud kan aan gebruikers door rol, met inbegrip van opties aan mening worden toegewezen, knevel, en spoelgeheime voorgeheugens. Adobe raadt u aan alleen handelingen op het niveau van beheerders uit te voeren. Het bieden van toegang tot alle functies voor cachebeheer kan van invloed zijn op de prestaties van uw winkel.
+U kunt toegang tot specifieke acties van het geheim voorgeheugenonderhoud aan gebruikers door rol, met inbegrip van opties aan mening, knevel, en spoelgeheime voorgeheugens toewijzen. Adobe raadt u aan alleen handelingen op het niveau van beheerders uit te voeren. Het bieden van toegang tot alle functies voor cachebeheer kan van invloed zijn op de prestaties van uw winkel.
 
 ![Rolresources - cachebeheer](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
    - `Select All`
    - `Select Visible`
 
-1. Schakel het selectievakje in van elke cache die door de handeling als doel moet worden ingesteld.
+1. Schakel het selectievakje in voor elke cache die u wilt vernieuwen.
 
 1. Set **[!UICONTROL Actions]** tot `Refresh` en klik op **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## De JavaScript/CSS-cache leegmaken
 
-1. Onder _[!UICONTROL Additional Cache Management]_, klikt u op **[!UICONTROL Flush JavaScript/CSS Cache]**om JavaScript- en CSS-bestanden te wissen die in één bestand zijn samengevoegd.
+1. Onder _[!UICONTROL Additional Cache Management]_, wist Javascript en CSS dossiers die in één enkel dossier door te klikken zijn samengevoegd **[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    De `The JavaScript/CSS cache has been cleaned` verschijnt boven aan de werkruimte.
 
@@ -102,7 +102,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## Uitlijnen met gebruik van de opdrachtregel
 
-De Beheerders en de ontwikkelaars van het systeem met toegang tot de de toepassingsserver van de Handel kunnen de geheime voorgeheugen en geheim voorgeheugenconfiguratie van de bevellijn ook beheren gebruikend de Handel CLI. Zie [De cache beheren](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) in de _Configuratiegids_.{:target=&quot;_blank&quot;}.
+De Beheerders en de ontwikkelaars van het systeem met toegang tot de de toepassingsserver van de Handel kunnen de geheime voorgeheugen en geheim voorgeheugenconfiguratie van de bevellijn ook beheren gebruikend de Handel CLI. Zie [De cache beheren](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} in het dialoogvenster _Configuratiegids_.
 
 ## Besturingselementen
 
@@ -128,13 +128,13 @@ De Beheerders en de ontwikkelaars van het systeem met toegang tot de de toepassi
 
 ### Cursussen
 
-De [!UICONTROL Cache Management] Deze pagina bevat een overzicht van de cachemypen die u kunt beheren bij de beheerder met hun huidige status. In deze sectie worden de standaardcachetypen beschreven die door Adobe Commerce worden ondersteund. De _Cachetag_ en _Cache-id_ de kolommen beschrijven waarden die in de de toepassingscode van de Handel worden gebruikt:
+De [!UICONTROL Cache Management] Deze pagina bevat een overzicht van de cachetypen die u kunt beheren bij de beheerder met de huidige status. In deze sectie worden de standaardcachetypen beschreven die door Adobe Commerce worden ondersteund. De _Cachetag_ en _Cache-id_ de kolommen beschrijven waarden die in de de toepassingscode van de Handel worden gebruikt:
 
 - `cache_type_id` definieert de unieke id voor een cachetype.
 
 - `%CACHE_TYPE_TAG%` definieert de unieke tag die moet worden gebruikt in cache-typeschema.
 
-Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configureren en te beheren tijdens het aanpassen of integreren met Adobe Commerce, bijvoorbeeld bij het ontwikkelen van integratie met GraphQL API&#39;s. De `cache type id` wordt ook gebruikt voor geheim voorgeheugenbeheer van de het bevellijn van de toepassingsserver gebruikend de Handel CLI, bijvoorbeeld ` bin/magento cache:status config` toont de huidige status van het geheime voorgeheugen van de Configuratie.
+Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configureren en te beheren tijdens het aanpassen of integreren met Adobe Commerce, bijvoorbeeld bij het ontwikkelen van integratie met GraphQL API&#39;s. De `cache type id` wordt ook gebruikt voor cachebeheer vanaf de opdrachtregel van de toepassingsserver met behulp van de Commerce CLI. Bijvoorbeeld: ` bin/magento cache:status config` toont de huidige status van het geheime voorgeheugen van de Configuratie.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configu
 | `Database DDL operations` | Databaseschema Indien nodig, ontruimt de Handel automatisch dit geheime voorgeheugen, maar de derdeontwikkelaars kunnen om het even welke gegevens in om het even welk segment van het geheime voorgeheugen zetten. Reinig of verwijder dit cachetype nadat u douaneveranderingen in het gegevensbestandschema aanbrengt. (Met andere woorden, dit zijn updates die de Handel niet zelf maakt.) Eén manier om het databaseschema automatisch bij te werken is met behulp van de magento-instelling:db-schema:upgradeopdracht. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultaten van codecompilatie. | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | Hiermee worden reacties op webhaakaanvragen vastgezet. Zie de klasse [Handleiding voor webhaken](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in de documentatie voor de ontwikkeling van de handel. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | Cachegeheugen voor declaraties van entiteitstypen voor metagegevens die betrekking hebben op EAV-kenmerken (sla labels op, koppelingen naar gerelateerde PHP-code, kenmerkrendering, zoekinstellingen enzovoort). U hoeft dit type cache gewoonlijk niet op te schonen of te leegmaken. | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | Hiermee wordt de declaratie van entiteitstypen in de cache opgenomen voor metagegevens die betrekking hebben op kenmerken van kenmerk Entiteit Attribute Value (EAV). Kenmerken zijn winkellabels, koppelingen naar gerelateerde PHP-code, kenmerkrendering, zoekinstellingen enzovoort. U hoeft dit type cache gewoonlijk niet op te schonen of te leegmaken. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Tijdelijke meldingen die worden weergegeven in de gebruikersinterface. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Laat deze cache ingeschakeld om de GraphQL-prestaties te verbeteren. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Integratieconfiguratiebestand. Maak deze cache leeg of maak deze leeg nadat u integraties hebt gewijzigd of toegevoegd. | `INTEGRATION` | `config_integration` |
@@ -175,11 +175,11 @@ Adobe Commerce en Magento Open Source maken gebruik van caching op de server van
 >
 >Het wordt aanbevolen [Varnish Cache](https://varnish-cache.org/){:target=&quot;_blank&quot;} alleen gebruiken in een productieomgeving.
 
-Inhoud in cache kan worden gebruikt om de aanvragen van vergelijkbare typen bezoeken te verwerken. Hierdoor kunnen pagina&#39;s die aan een bezoeker worden getoond afwijken van de pagina&#39;s die aan een klant worden getoond. Voor het in cache plaatsen is elk bezoek een van de volgende drie soorten:
+Inhoud in cache kan worden gebruikt om de aanvragen van vergelijkbare typen bezoeken te verwerken. Hierdoor kunnen pagina&#39;s die aan een bezoeker worden getoond afwijken van pagina&#39;s die aan een klant worden getoond. Voor het in cache plaatsen is elk bezoek een van de volgende drie soorten:
 
 - `Non-sessioned` - Tijdens een niet-sessioneel bezoek bekijken de winkelpagina&#39;s, maar communiceren ze niet met de winkel. Het systeem plaatst de inhoud van elke weergegeven pagina in cache en levert deze aan andere niet-sessioned kopers.
-- `Sessioned` - Tijdens een sessioneel bezoek wordt een sessie-ID toegekend aan kopers die met de winkel communiceren, bijvoorbeeld door producten te vergelijken of producten aan de winkelwagentje toe te voegen. Pagina&#39;s in de cache die tijdens de sessie worden gegenereerd, worden tijdens de sessie alleen door die winkelier gebruikt.
-- `Customer` - Er worden klantsessies gemaakt voor gebruikers die zich voor een account bij uw winkel en winkel hebben geregistreerd terwijl ze zich bij hun account hebben aangemeld. Tijdens de sessie kunnen klanten speciale aanbiedingen, promoties en prijzen krijgen die zijn gebaseerd op hun toegewezen klantengroep.
+- `Sessioned` - Tijdens een sessioneel bezoek wordt een sessie-id toegewezen aan kopers die met de winkel werken. Interacties omvatten activiteiten zoals het vergelijken van producten of het toevoegen van producten aan het winkelwagentje. Pagina&#39;s in de cache die tijdens de sessie worden gegenereerd, worden tijdens de sessie alleen door die winkelier gebruikt.
+- `Customer` - Er worden klantsessies gemaakt voor klanten die zich aanmelden en winkelen met hun geregistreerde account. Tijdens de sessie kunnen klanten speciale aanbiedingen, promoties en prijzen krijgen op basis van hun toegewezen klantengroep.
 
 Voor technische informatie, zie [Varnish configureren en gebruiken](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} en [Redis gebruiken voor de pagina Commerce en de standaardcache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} in het dialoogvenster _Configuratiegids_.
 
