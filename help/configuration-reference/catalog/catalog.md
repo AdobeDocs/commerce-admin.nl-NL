@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] pagina van de Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de rasterweergave. |
 | [!UICONTROL Products per Page on List Allowed Values] | Winkelweergave | Bepaalt het aantal producten die in de Mening van de Lijst worden getoond. Als u opties wilt selecteren, voert u meerdere waarden in, gescheiden door komma&#39;s. |
 | [!UICONTROL Products per Page on List Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de lijstweergave. |
-| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing`. Standaard is ingesteld op `Use All Available Attributes` en bevat doorgaans Beste waarde, Naam, Prijs |
+| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing`. Standaard is ingesteld op `Use All Available Attributes` en bevat doorgaans Beste waarde, Naam, Prijs. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Winkelweergave | Indien ingesteld op `Yes`, inclusief de `ALL` in het besturingselement &#39;Tonen per pagina&#39;. |
 | [!UICONTROL Remember Category Pagination] | Algemeen | Indien ingesteld op `Yes`, worden de huidige pagineringswaarden voor categorieën opgeslagen als klanten in de ene categorie naar de andere bladeren [productaanbiedingen](../../catalog/navigation-product-listings.md). Bij het opslaan van de waarde wordt meer cache-opslag gebruikt en kan dit van invloed zijn op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd. Opties: `Yes` / `No` (standaard) |
 | [!UICONTROL Use Flat Catalog Category] | Algemeen | Hiermee schakelt u het [structuur van vlakke categorieën](../../catalog/catalog-flat.md) (niet aanbevolen). Opties: `Yes` / `No` |

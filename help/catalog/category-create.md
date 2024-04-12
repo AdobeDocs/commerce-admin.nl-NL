@@ -3,9 +3,9 @@ title: Categorieën maken
 description: U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 1. Als u wilt dat de categoriepagina de _`Filter by Attribute`_sectie met gelaagde navigatie, set **[!UICONTROL Anchor]**tot `Yes`.
 
-1. Voor de **[!UICONTROL Available Product Listing Sort By]** selecteert u een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren.
+1. Voor de **[!UICONTROL Available Product Listing Sort By]** selecteert u een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    Standaard worden alle beschikbare waarden opgenomen. Hef de selectie van **[!UICONTROL Use All]** Schakel het selectievakje in om de selecties te wijzigen. De waarden kunnen bijvoorbeeld het volgende zijn:
 
@@ -122,7 +122,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
    - `Product Name`
    - `Price`
 
-1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u **[!UICONTROL Default Product Listing Sort By]** waarde.
+1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u **[!UICONTROL Default Product Listing Sort By]** waarde. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. De standaardnavigatie in lagen wijzigen [prijsstap](navigation-layered.md#configure-price-navigation) Ga als volgt te werk om deze instelling in te stellen:
 
