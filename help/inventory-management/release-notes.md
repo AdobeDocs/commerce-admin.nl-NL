@@ -3,9 +3,9 @@ title: '''[!DNL Inventory Management] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Inventory Management] lozingen.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ In deze releaseopmerkingen worden de releases van [!DNL Inventory Management] en
 [!DNL Inventory Management] is een speciaal project van de Techniek van de Gemeenschap van de Magento Open Source dat aan contribuanten open staat. Als u wilt deelnemen en bijdragen, raadpleegt u de [GitHub-project](https://github.com/magento/inventory) opslagplaats en [wiki](https://github.com/magento/inventory/wiki) aan de slag. Als u het project wilt bespreken, sluit u zich aan bij de [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) kanaal ([zelfinschrijving](https://opensource.magento.com/slack)).
 
 [Releaseplanning](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} voor ondersteunde en compatibele releases.
+
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7 Opmerkingen bij de release zijn opgenomen in de [Opmerkingen bij de release core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,17 +112,17 @@ In deze releaseopmerkingen worden de releases van [!DNL Inventory Management] en
 
 Inventory management 1.2.4 (moduleversie: `magento/inventory-metapackage = 1.2.4`) wordt ondersteund door versie 2.4.4 en compatibel met versie 2.4.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
-![Probleem opgelost](../assets/fix.svg) De handel toont nu een nauwkeurige verkoopbare kwantitatieve waarde voor alle producten in de Admin mening van de productlijst. Eerder werd een lege waarde weergegeven voor de verkoopbare hoeveelheid producten in voorraad met SKU&#39;s die speciale tekens bevatten. <!--- MC-41936-->
+![Probleem opgelost](../assets/fix.svg) Commerce geeft nu een nauwkeurige waarde voor de verkoopbare hoeveelheid voor alle producten weer in de overzichtsweergave van het Admin-product. Eerder werd een lege waarde weergegeven voor de verkoopbare hoeveelheid producten in voorraad met SKU&#39;s die speciale tekens bevatten. <!--- MC-41936-->
 
 ![Probleem opgelost](../assets/fix.svg) De prestaties zijn verbeterd voor kart-en-controlemaatregelen zoals het toevoegen van producten aan het karretje in plaatsingen met vele (ongeveer 10.000) inventarisbronnen. <!--- MC-42570-->
 
-![Probleem opgelost](../assets/fix.svg) De `bin/magento inventory:reservation:list-inconsistencies` bevel behandelt nu correct orden met gedeeltelijke verzendingen zelfs als de reserveringen van het gegevensbestand worden overgeslagen en het geheime voorgeheugen is ontruimd. Eerder, toen dit bevel met een vooraf ontruimde geheime voorgeheugen werd uitgevoerd, toonde de Handel de volgende fout: `Area code is not set`. <!--- MC-42142-->
+![Probleem opgelost](../assets/fix.svg) De `bin/magento inventory:reservation:list-inconsistencies` bevel behandelt nu correct orden met gedeeltelijke verzendingen zelfs als de reserveringen van het gegevensbestand worden overgeslagen en het geheime voorgeheugen is ontruimd. Eerder, toen dit bevel met een vooraf ontruimde geheime voorgeheugen werd uitgevoerd, toonde Commerce de volgende fout: `Area code is not set`. <!--- MC-42142-->
 
 ![Probleem opgelost](../assets/fix.svg) Het incrementele indexeren van gegroepeerde onderliggende producten leidt er niet langer toe dat andere gegroepeerde producten onjuist worden geïndexeerd wanneer onderliggende producten worden gedeeld. <!--- MC-41963-->
 
 ![Probleem opgelost](../assets/fix.svg) Op de pagina met winkelrubrieken wordt nu het juiste aantal producten weergegeven nadat een product uit een categorie is verwijderd door de API. Eerder was het aantal producten op de categoriepagina onjuist tot opnieuw indexeren plaatsvond. <!--- MC-42287-->
 
-![Probleem opgelost](../assets/fix.svg) De configureerbare producten kunnen nu aan voorraad worden teruggegeven wanneer het creëren van een creditnota wanneer **[!UICONTROL Manage Stock]** is uitgeschakeld. Eerder gaf de Commerce de **Terug naar voorraad** Schakel het selectievakje op de pagina voor het maken van creditnota&#39;s in toen deze optie was uitgeschakeld. <!--- MC-42002-->
+![Probleem opgelost](../assets/fix.svg) De configureerbare producten kunnen nu aan voorraad worden teruggegeven wanneer het creëren van een creditnota wanneer **[!UICONTROL Manage Stock]** is uitgeschakeld. Eerder gaf Commerce de **Terug naar voorraad** Schakel het selectievakje op de pagina voor het maken van creditnota&#39;s in toen deze optie was uitgeschakeld. <!--- MC-42002-->
 
 ![Probleem opgelost](../assets/fix.svg) Het beheer van voorraden van meer dan 10.000 artikelen is verbeterd. Eerder waren handelaars vanwege prestatieproblemen soms niet in staat om voorraden te bewerken in Admin voordat ze hun website lanceerden. <!--- MC-42643-->
 
@@ -148,7 +152,7 @@ Inventory management 1.2.4 (moduleversie: `magento/inventory-metapackage = 1.2.4
 
 ![Probleem opgelost](../assets/fix.svg) [!DNL Commerce] verfrist nu het geheime voorgeheugen van het categorieproduct wanneer een bundelproduct terug in voorraad is.
 
-## 1.2.2
+## 1.2.
 
 [!DNL Inventory Management] 1.2.2 (moduleversie: `magento/inventory-metapackage = 1.2.2`) wordt ondersteund door versie 2.4.2 en compatibel met versie 2.4.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -160,7 +164,7 @@ Inventory management 1.2.4 (moduleversie: `magento/inventory-metapackage = 1.2.4
 
 ![Nieuw](../assets/new.svg) **Functionele tests.** Er zijn nieuwe functionele tests ingevoerd en er zijn correcties voor bestaande tests ingevoerd om deze stabieler te maken.
 
-## 1.2.1
+## 1.
 
 [!DNL Inventory Management] 1.2.1 (moduleversie: `magento/inventory-metapackage = 1.2.1`) wordt ondersteund door versie 2.4.1 en compatibel met versie 2.4.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -168,7 +172,7 @@ Inventory management 1.2.4 (moduleversie: `magento/inventory-metapackage = 1.2.4
 
 ![Nieuw](../assets/new.svg) **Functionele tests.** Introduceerde nieuwe functionele tests om extra dekking te bieden voor de functie voor ophaalservice in de In-Store.
 
-## 1.2.0
+## 1.2.0.
 
 [!DNL Inventory Management] 1.2.0 (moduleversie: `magento/inventory-metapackage = 1.2.0`) wordt ondersteund door versie 2.4.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -193,7 +197,7 @@ SELECT GROUP_CONCAT(reservation_id) FROM inventory_reservation GROUP BY stock_id
 DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_query);
 ```
 
-## 1.1.6
+## 1.1.6.
 
 [!DNL Inventory Management] 1.1.6 (moduleversie: `inventory-composer-metapackage = 1.1.6`) wordt ondersteund door versie 2.3.6 en compatibel met versie 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 en 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -201,7 +205,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Nieuw](../assets/new.svg) **Asynchrone herindexering van voorraden.** De mogelijkheid toegevoegd om de voorraad asynchroon opnieuw te indexeren en de prestaties van verschillende kritieke scenario&#39;s te verbeteren.
 
-## 1.1.5
+## 1.1.5.
 
 [!DNL Inventory Management] 1.1.5 (moduleversie: `inventory-composer-metapackage = 1.1.5`) wordt ondersteund door versie 2.3.5 en compatibel met versie 2.3.4, 2.3.3, 2.3.2, 2.3.1 en 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -211,7 +215,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Bekend probleem](../assets/bug.svg) Oplossingen om oververkoop van producten te voorkomen, zichtbaarheid van producten uit de &quot;out of stock&quot; op de winkel, talrijke oplossingen voor schaalbare milieubescherming en verbeteringen in de gebruikersinterface.
 
-## 1.1.4
+## 1.1.4.
 
 [!DNL Inventory Management] 1.1.4 (moduleversie: `inventory-composer-metapackage = 1.1.4`) wordt ondersteund door versie 2.3.4 en compatibel met versie 2.3.3, 2.3.2, 2.3.1 en 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
@@ -221,7 +225,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Bekend probleem](../assets/bug.svg) Veel oplossingen zijn bedoeld om problemen op te lossen met kredietmemo&#39;s, gegroepeerde producten en massale acties voor bronnen en voorraden.
 
-## 1.1.3
+## 1.1.3.
 
 [!DNL Inventory Management] 1.1.3 (moduleversie: `inventory-composer-metapackage = 1.1.3`) wordt ondersteund door versie 2.3.3 en compatibel met versie 2.3.2, 2.3.1 en 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de codebasis van de Magento Open Source.
 
@@ -268,7 +272,7 @@ Nieuwe modules voor [!DNL Inventory Management] 1.1.2 Beta omvat:
 
 ![Nieuw](../assets/new.svg) **Export Aggregated Stock Service** - Deze release biedt een nieuwe service voor geaggregeerde exportbestanden (met behoud van reserveringen in het systeem) ter ondersteuning van externe Sales Channel, zoals Amazon, eBay en Google-winkeladvertenties.  <!-- https://github.com/magento/inventory/pull/2067 -->
 
-## 1.1.0
+## 1.1.0.
 
 [!DNL Inventory Management] 1.1.0 (moduleversie: `inventory-composer-metapackage = 1.1.0`) wordt ondersteund en is compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code. [!DNL Inventory Management] 1.1.1 wordt alleen vrijgegeven als een pakketnaamupdate, ondersteund voor versie 2.3.1 en compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source-code.
 
