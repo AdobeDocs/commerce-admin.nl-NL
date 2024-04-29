@@ -5,9 +5,9 @@ breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 0%
 # Aan de slag met Adobe Commerce {#start}
 
 + [Aan de slag met Adobe Commerce](guide-overview.md)
++ [Wat is Adobe Commerce?](about.md)
 + [Gegevens vrijgeven](about-this-release.md)
 + [Aanmeldingsgegevens en URL&#39;s](login-urls.md)
-+ Commerciële rekeningen {#commerce-account}
++ Commerce-accounts {#commerce-account}
    + [Uw account maken en openen](commerce-account-create.md)
    + [Uw account beveiligen](commerce-account-secure.md)
    + [Uw account delen](commerce-account-share.md)
@@ -69,7 +70,7 @@ ht-degree: 0%
    + [Klantrapporten](customer-reports.md)
    + [Productrapporten](product-reports.md)
    + [Privéverkooprapporten](private-sales-reports.md)
-   + [Handelsinformatie-instrumenten](business-intelligence.md)
+   + [Commerce Intelligence-tools](business-intelligence.md)
    + [New Relic-rapportage](new-relic-reporting.md)
 + Bronnen {#resources}
    + [Ecosysteem](resources.md)
