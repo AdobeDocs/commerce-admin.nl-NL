@@ -5,9 +5,9 @@ breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 + [Aan de slag met Adobe Commerce](guide-overview.md)
 + [Wat is Adobe Commerce?](about.md)
-+ [Gegevens vrijgeven](about-this-release.md)
 + [Aanmeldingsgegevens en URL&#39;s](login-urls.md)
 + Commerce-accounts {#commerce-account}
    + [Uw account maken en openen](commerce-account-create.md)

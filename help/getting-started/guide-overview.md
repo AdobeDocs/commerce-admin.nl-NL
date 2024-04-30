@@ -1,26 +1,26 @@
 ---
 title: Aan de slag met Adobe Commerce
-description: Uitgebreide informatie voor handelaren die nieuw zijn voor Adobe Commerce en Magento Open Source.
+description: Uitgebreide informatie voor verkopers die nieuw zijn voor Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Adobe Commerce
 
-Deze handleiding is bedoeld voor handelaren en systeembeheerders die nieuw zijn voor Adobe Commerce en Magento Open Source. Het verstrekt een overzicht van het platform vanuit hun perspectief en wat gedetailleerde informatie over basiseigenschappen die een functionele opslag toelaten.
+Deze handleiding is bedoeld voor handelaren en systeembeheerders die nieuw zijn voor Adobe Commerce. Het verstrekt een overzicht van het platform vanuit hun perspectief en wat gedetailleerde informatie over basiseigenschappen die een functionele opslag toelaten.
 
 Deze handleiding is van toepassing op:
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |
-| [Gegevens vrijgeven](about-this-release.md) | Meer informatie over de huidige Adobe Commerce en Magento Open Source release. |
+| [Informatie over Commerce](about.md) | Meer informatie over de huidige Adobe Commerce-release. |
 | [Aanmeldingsreferenties en URL&#39;s](login-urls.md) | Meer informatie over de [!DNL Commerce] URL&#39;s en accountgegevens die worden gebruikt om toegang te krijgen tot uw beheerder en winkelcentrum. |
 | [[!DNL Commerce] rekeningen](commerce-account-create.md) | Meer informatie over [!DNL Commerce] accounts, die de producten en services beheren die u hebt aangeschaft. |
 | [De beheerder](admin.md) | Meer informatie over de [!DNL Commerce] Beheerder, de plaats waar handelaars producten en promoties instellen, bestellingen beheren en andere beheertaken uitvoeren. |
@@ -32,7 +32,7 @@ Deze handleiding is van toepassing op:
 
 {style="table-layout:auto"}
 
-De meer gedetailleerde mogelijkheden van Adobe Commerce en Magento Open Source komen hier niet aan bod.
+De meer gedetailleerde mogelijkheden van Adobe Commerce worden hier niet in behandeld.
 
 ## Aanvullende documentatie
 

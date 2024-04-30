@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen verificatie met behulp van Commerce Admin integreren met de verificatieworkflow van Adobe IMS. Nadat deze integratie voor uw opslag van de Handel wordt toegelaten, moet elke gebruiker Admin hun geloofsbrieven van de Adobe — niet hun de rekeningsgeloofsbrieven van de Handel gebruiken om binnen te registreren. Zie [Overzicht van Adobe Commerce integreren met Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
+>Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce Admin-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar aanmeldingsgegevens voor de Adobe gebruiken, niet de gegevens van zijn of haar Commerce-account. Zie [Overzicht van Adobe Commerce integreren met Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Opmerking GTag-API&#39;s {#gtag-api-note}
 
@@ -75,10 +75,10 @@ Om tot de montages van de archiefconfiguratie toegang te hebben, verkies **[!UIC
 
 | Documentatiebron | Beschrijving |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Handelsdocumentatie](../landing/home.md) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
+| [Adobe Commerce 2.4 Handelsdocumentatie](../landing/home.md) | Bedrijfsgerichte documentatie voor Adobe Commerce |
 | [Services voor Adobe Commerce-documentatie](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
 | [Handleiding voor handel in Cloud-infrastructuur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stapsgewijze procedures voor de implementatie van Adobe Commerce op een beheerd, geautomatiseerd hostingplatform voor de cloud. |
-| [Adobe Commerce 2.4-handleidingen](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | De documentatie van systemen over de concepten, de processen, de hulpmiddelen, en beste praktijken om, projecten te ontwikkelen op Adobe Commerce en de platforms van de Magento Open Source op te stellen en te handhaven. |
-| [Adobe Commerce 2.4-documentatie voor ontwikkelaars](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce of Magento Open Source te bouwen en aan te passen |
+| [Adobe Commerce 2.4-handleidingen](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | De documentatie van systemen over de concepten, de processen, de hulpmiddelen, en beste praktijken om, Adobe Commerce projecten te ontwikkelen op te stellen en te handhaven. |
+| [Adobe Commerce 2.4-documentatie voor ontwikkelaars](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce aan te passen en met systemen van derden te integreren |
 
 {style="table-layout:auto"}
