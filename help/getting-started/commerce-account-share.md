@@ -3,9 +3,9 @@ title: Delen a [!DNL Commerce] account
 description: Leer hoe u beperkte toegang tot uw [!DNL Commerce] rekening voor andere [!DNL Commerce] rekeninghouders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De [!DNL Commerce] Het ondersteuningsteam heeft geen toegang tot de account en k
 1. Voordat u begint, moet u de volgende informatie ophalen uit het dialoogvenster [!DNL Commerce] de **nieuwe, gedeelde toegangskaart**:
 
    - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com.
-   - De `Account ID` die in de linkerbovenhoek van het dialoogvenster _[!UICONTROL Magento]_vlak boven de **Afmelden**koppeling.
+   - De `MAGE ID/Account ID (MAG00XXXXXXX)` wordt weergegeven in de linkerbovenhoek van het dialoogvenster _[!UICONTROL Magento]_vlak boven de **Afmelden**koppeling.
    - De `Email` adres dat aan de rekening wordt geassocieerd.
 
 1. Aanmelden bij uw [[!DNL Commerce] account](commerce-account-create.md).
@@ -90,7 +90,7 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
 ## Gedeelde toegang intrekken
 
-1. Meld u aan bij je Commerce-account.
+1. Meld u aan bij uw Commerce-account.
 
 1. Klik in het linkernavigatievenster op **[!UICONTROL Shared Access]**.
 
