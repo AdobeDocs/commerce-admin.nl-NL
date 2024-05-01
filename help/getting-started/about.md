@@ -2,13 +2,13 @@
 title: Wat is Adobe Commerce
 description: Adobe Commerce is een platform voor elektronische handel. Lees de nieuwste functies die wereldwijd de groei van e-commerceteams stimuleren.
 mini-toc-levels: 1
-source-git-commit: f3bba921f180f0338722d0e29fef1c6f260837de
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
+source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3326'
 ht-degree: 0%
 
 ---
-
 
 # Wat is Adobe Commerce?
 
@@ -34,6 +34,8 @@ De visie van de Adobe is om een ervaren, data-gedreven, technologie-toegelaten h
 - [Gegevensgestuurd](#data-powered-commerce). Adobe Commerce biedt naadloze gegevensuitwisseling in uw marketingtechnologiestack, zodat u uw eersteklas handelsgegevens aan het werk kunt zetten en de ervaringen op elk aanraakpunt en kanaal kunt aanpassen.
 
 - [Technologie ingeschakeld](#tech-enabled-commerce). Adobe Commerce is een composable e-commerce platform dat wordt ontworpen om e-commerce eigenschappen sneller te lanceren, gemakkelijk gegevens tussen derdesystemen te delen, en de kosten van eigendom voor integratie en aanpassingen te drukken.
+
+![Adobe Commerce-infografisch](assets/about-commerce.png)
 
 ## Commerce met ervaring
 
