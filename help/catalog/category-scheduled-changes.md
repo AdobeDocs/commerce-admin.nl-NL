@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor categorieën
 description: Leer hoe u wijzigingen in rubrieken kunt plannen om marketingcampagnes en winkelaanbiedingen te ondersteunen.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Categorieupdates kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen in de categorie of de wijzigingen toepassen op een bestaande campagne. Zie voor meer informatie [Inhoud stapelen](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>De [!UICONTROL Schedule Design Update] tab is verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks in de categorie worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 >[!NOTE]
 >

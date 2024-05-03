@@ -3,9 +3,9 @@ title: Inhoud stapelen
 description: Met Inhoud stapelen kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates voor uw winkel maken, voorvertonen en plannen, rechtstreeks vanuit de beheerder.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Met inhoudstaging kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates 
 De term _campagne_ verwijst naar het verslag van een geplande verandering, of een inzameling van veranderingen die van het het Opvoeren Dashboard worden beheerd. De wijzigingen kunnen worden weergegeven op een kalender of tijdlijn. De voorwaarden _geplande wijziging_ en _geplande update_ zijn onderling verwisselbaar en hebben betrekking op één enkele wijziging.
 
 Wanneer u een inhoudswijziging voor een specifieke tijdsperiode plant, keert de inhoud terug naar de vorige versie wanneer de geplande wijziging verloopt. U kunt meerdere versies maken van dezelfde basislijninhoud die u kunt gebruiken voor toekomstige updates. U kunt ook de tijdlijn doorlopen om vorige versies van de inhoud weer te geven. Als u een conceptversie wilt opslaan, wijst u gewoon een datum op de tijdlijn toe die zo ver in de toekomst ligt dat deze nooit in productie wordt genomen.
+
+>[!NOTE]
+>
+>Velden met betrekking tot de begindatum en einddatum zijn verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks worden gewijzigd op de pagina Prijsregels voor winkelwagentjes, catalogusprijzen, producten, categorieën en CMS. U moet een geplande update maken voor deze activeringen.
 
 ## Objecten en campagnes voor het opvoeren van inhoud
 

@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor de regels betreffende de kartprijs
 description: Leer hoe u regels voor winkelwagenprijzen op schema toepast als onderdeel van een campagne en gegroepeerd met andere wijzigingen in de inhoud.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 De prijsregels voor winkelwagentjes kunnen volgens schema worden toegepast als onderdeel van een campagne en worden gegroepeerd met andere wijzigingen in de inhoud. U kunt een campagne maken op basis van geplande wijzigingen in een prijsregel, of de wijzigingen toepassen op een bestaande campagne.
+
+>[!NOTE]
+>
+>De [!UICONTROL From] en [!UICONTROL To] velden zijn verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks op de regel van de kartonprijs worden aangepast. U moet een geplande update maken voor deze activeringen.
 
 ![Prijsregels voor winkelwagentjes - geplande wijzigingen](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

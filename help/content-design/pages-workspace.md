@@ -3,9 +3,9 @@ title: Besturingselementen voor de werkruimte Pagina
 description: Leer meer over de werkruimtegereedschappen waarmee u inhoudspagina's kunt zoeken en bijwerken.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de productpagina |
+| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de pagina. ![Magento Open Source](../assets/open-source.svg) (alleen Magento Open Source). |
 | [!UICONTROL Custom Theme] | Hiermee past u een aangepast thema toe op de pagina |
 | [!UICONTROL Custom Layout] | Bepaalt de aangepaste indeling van de pagina |
 | [!UICONTROL Meta Title] | Meta-titel voor de pagina |
@@ -111,7 +111,7 @@ Het vak Zoeken linksboven in het dialoogvenster _[!UICONTROL Pages]_U kunt een r
 | [!UICONTROL Store View] | Filter de zoekopdracht op basis van de winkelweergave. Opties: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filter de zoekopdracht op basis van de paginalay-out. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filter de zoekopdracht op de paginatiestatus. Opties: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | De zoekopdracht filteren op de begin- en einddatum waarop het geselecteerde ontwerp op de productpagina is toegepast |
+| [!UICONTROL Custom design from / to] | Filter de zoekopdracht op de begin- en einddatum waarop het geselecteerde ontwerp op de pagina wordt toegepast. ![Magento Open Source](../assets/open-source.svg) (alleen Magento Open Source). |
 | [!UICONTROL Asset] | De zoekopdracht filteren op de elementen van de paginatitel |
 | [!UICONTROL Custom Layout] | Filter de zoekopdracht op basis van een aangepaste indeling. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filter de zoekopdracht op basis van een aangepast thema. Standaardopties: `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ Klik op de knop _Weergave_ (![Oogpictogram](../assets/icon-view-eye.png)) en voe
 {{ee-feature}}
 
 Paginawijzigingen kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen op een pagina of de wijzigingen toepassen op een bestaande campagne. Zie voor meer informatie [Inhoud stapelen](content-staging.md).
+
+>[!NOTE]
+>
+>De [!UICONTROL Custom Design Update] tab is verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks op de pagina worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 >[!NOTE]
 >

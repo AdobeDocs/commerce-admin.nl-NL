@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor prijsregels voor catalogi
 description: Leer hoe u de prijsregels voor catalogi op schema toepast als onderdeel van een campagne en gegroepeerd met andere wijzigingen in de inhoud.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Het vak Geplande wijzigingen wordt boven aan de pagina weergegeven wanneer een nieuwe prijsregel wordt opgeslagen of bijgewerkt. De catalogusprijsregels kunnen volgens schema worden toegepast als onderdeel van een campagne en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen in een prijsregel, of de wijzigingen toepassen op een bestaande campagne.
+
+>[!NOTE]
+>
+>De [!UICONTROL From] en [!UICONTROL To] velden zijn verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks op de regel voor catalogusprijzen worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 >[!NOTE]
 >

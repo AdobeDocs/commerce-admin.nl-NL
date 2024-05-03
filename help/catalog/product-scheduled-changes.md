@@ -3,9 +3,9 @@ title: Geplande productupdates
 description: Leer hoe u wijzigingen in uw productaanbiedingen kunt plannen ter ondersteuning van campagnes en promotieprogramma's.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Productupdates kunnen volgens schema worden toegepast en met andere inhoudsveranderingen worden gegroepeerd. U kunt [inhoudstaging](../content-design/content-staging.md) om een campagne te creëren die op geplande veranderingen in het product wordt gebaseerd, of de veranderingen op een bestaande campagne toe te passen.
+
+>[!NOTE]
+>
+>De [!UICONTROL Set Product as New From] en [!UICONTROL To] velden en [!UICONTROL Schedule Design Update] tabblad is verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks op het product worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 >[!NOTE]
 >
