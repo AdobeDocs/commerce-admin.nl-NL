@@ -3,9 +3,9 @@ title: HIPAA-gereedheid op Adobe Commerce
 description: Leer hoe u de Adobe Commerce HIPAA-Klaar module kunt toevoegen en extra eigenschappen en functionaliteiten krijgt die u toestaan om aan uw verplichtingen van HIPAA te voldoen.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ De HIPAA-Klaar Diensten van de Adobe is technisch een composer metapakket `magen
 
 ## Verbeterde functies voor HIPAA-gereedheid
 
-De `magento/hipaa-ee` bevat enkele wijzigingen en verbeteringen in het basisproduct Commerce. De volgende secties verstrekken details over deze veranderingen en hoe zij het basisproduct veranderen.
+De `magento/hipaa-ee` bevat enkele wijzigingen en verbeteringen voor het basis-Commerce-product. De volgende secties verstrekken details over deze veranderingen en hoe zij het basisproduct veranderen.
 
 ### Handelingenlogboeken
 
@@ -182,7 +182,7 @@ Geen van de SaaS-services die voor Adobe Commerce worden aangeboden, zijn beschi
 ### Uitchecken door standaard uitgeschakelde gast
 
 - Het uitchecken van gasten vormt een potentieel risico voor verschillende aspecten van HIPAA, zoals het kappen, toegangscontrole, PHI-hygiëne en lineage, en mogelijk nog meer.
-- Uitchecken door gasten is standaard uitgeschakeld in de HIPAA-gereedheidsmodule, maar kan voor eigen risico worden ingeschakeld door mijn verkopers.
+- Afhandeling door gasten is standaard uitgeschakeld in de module HIPAA-gereedheid, maar dit kan door verkopers op eigen risico worden ingeschakeld.
 
 ### Standaard is de nieuwsbrief uitgeschakeld.
 
@@ -191,3 +191,7 @@ Geen van de SaaS-services die voor Adobe Commerce worden aangeboden, zijn beschi
 ### Gehandicapte Geavanceerde dienst die van de Rapportering door gebrek plaatst
 
 De Geavanceerde dienst die van de Rapportering wordt geplaatst is door gebrek gehandicapt om PHI te verhinderen voor analyse en rapportering worden gebruikt, maar kan door de handelaar op hun eigen risico worden toegelaten.
+
+### Standaard uitgeschakelde Sendgrid-service
+
+De service Sendgrid is standaard uitgeschakeld, omdat de toepassing niet compatibel is met HIPAA. De handelaren kunnen een steunverzoek indienen om Sendgrid toe te laten, maar zij moeten erkennen dat zij het risico zullen nemen om de dienst te gebruiken.
