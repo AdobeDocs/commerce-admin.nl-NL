@@ -3,9 +3,9 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ U kunt een voorwaarde instellen voor een regel voor de winkelprijs op basis van 
    | `Name` | Naam van het publiek, zoals `Orders over $50` |
    | `Description` | Beschrijving van het publiek, zoals `People who placed an order over $50 in the last month.`. |
    | `Source` | Geeft aan waar het publiek vandaan komt, zoals `Experience Platform`. |
-   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van de Handel met het Experience Platform door [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensie. |
+   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U maakt deze koppeling wanneer u uw Commerce-instantie verbindt met het Experience Platform via het [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensie. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +328,7 @@ Het label wordt weergegeven in het gedeelte met totalen van de volgorde waarin u
 
 1. Test de regel om er zeker van te zijn dat deze correct werkt.
 
-   Prijsregels worden elke avond automatisch met andere systeemregels verwerkt. Wanneer u een prijsregel maakt, moet u voldoende tijd toestaan om deze in het systeem te krijgen. Test ook de regel om er zeker van te zijn dat deze correct werkt. Aangezien nieuwe regels worden toegevoegd, herberekent de Handel de prijzen en de prioriteiten dienovereenkomstig.
+   Prijsregels worden elke avond automatisch met andere systeemregels verwerkt. Wanneer u een prijsregel maakt, moet u voldoende tijd toestaan om deze in het systeem te krijgen. Test ook de regel om er zeker van te zijn dat deze correct werkt. Aangezien nieuwe regels worden toegevoegd, herberekent Commerce de prijzen en de prioriteiten dienovereenkomstig.
 
 ## Demo van winkelprijsegel
 
@@ -360,6 +360,31 @@ Bekijk deze video voor meer informatie over het maken van regels voor winkelwage
 ### [!UICONTROL Conditions]
 
 Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel van de winkelwagenprijs in werking treedt. Indien leeg gelaten, geldt de regel voor alle producten in de winkelwagentje. De voorwaarden kunnen gebaseerd zijn op elke combinatie van karretjes en productkenmerken. Maar [aanpasbare opties](../catalog/settings-advanced-custom-options.md) kan niet worden verwezen in de voorwaarden van de kartprijsregel.
+
+| Veld | Beschrijving |
+|--- |--- |
+| [!UICONTROL **Kenmerk winkelitem**] |  |
+| [!UICONTROL Price in cart] | Productprijs. De regel is van toepassing als de productprijs in de kartonnen staat. |
+| [!UICONTROL Quantity in cart] | Aantal producten. De regel is van toepassing als aan de voorwaarde voor het karretje is voldaan. |
+| [!UICONTROL Row total in cart] | Totaal productrij. De regel is van toepassing als aan het totaal van de productrij in de voorwaarde van de kar wordt voldaan. |
+| [!UICONTROL **Productkenmerk**] |  |
+| [!UICONTROL Attribute Set] | Productkenmerkset. De regel is van toepassing als het product aan de voorwaarde van het productattribuut voldoet. |
+| [!UICONTROL Category] | Productcategorie. De regel is van toepassing als het product zelf of het onderliggende product ervan aan de categorieconfiguratie voldoet. |
+| [!UICONTROL Category (Children Only)] | Onderliggende productcategorie. De regel is van toepassing als alleen de kinderen van het product aan de categorietoestand voldoen (het product zelf wordt hier niet gecontroleerd). |
+| [!UICONTROL Category (Parent Only)] | Bovenliggende productcategorie. De regel is van toepassing als alleen het product zelf voldoet aan de categorietoewijzing (onderliggende producten worden hier niet gecontroleerd). |
+| [!UICONTROL **Kenmerk winkelwagentje**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Subtotaal van winkelwagentjes (exclusief belastingen). De regel is van toepassing als het winkelwagentje voldoet aan de subtotaal (exclusief belasting) voorwaarde. |
+| [!UICONTROL Subtotal (Incl. Tax)] | Subtotaal van winkelwagentjes (inclusief belasting). De regel is van toepassing als het winkelwagentje voldoet aan de subtotaal (inclusief belasting) voorwaarde. |
+| [!UICONTROL Subtotal] | Subtotaal winkelwagentje. De regel geldt als het winkelwagentje voldoet aan een subtotale voorwaarde. Met Controle wordt belasting opgenomen of uitgesloten volgens de huidige belastinginstellingen. |
+| [!UICONTROL Total Items Quantity] | Totale hoeveelheid van alle producten in het winkelwagentje. De regel is van toepassing als het winkelwagentje voldoet aan een voorwaarde voor het totale aantal artikelen. |
+| [!UICONTROL Total Weight] | Het totale gewicht van alle producten in het winkelwagentje. De regel is van toepassing als het winkelwagentje voldoet aan de totale gewichtsvoorwaarde. |
+| [!UICONTROL Payment Method] | Betalingsmethode geselecteerd bij afhandeling. De regel is van toepassing als aan de betalingsmethode is voldaan. |
+| [!UICONTROL Shipping Method] | Verzendmethode geselecteerd bij afhandeling. De regel geldt als aan de voorwaarde voor de verzendmethode is voldaan. |
+| [!UICONTROL Shipping Postcode] | Postcode verzendadres. De regel is van toepassing als het verzendadres voldoet aan de postcodevoorwaarde. |
+| [!UICONTROL Shipping Region] | Gebied met verzendadres. De regel is van toepassing als het verzendadres voldoet aan de regiovoorwaarde. |
+| [!UICONTROL Shipping State/Province] | Verzendadres: provincie. De regel is van toepassing als het verzendadres voldoet aan de voorwaarde voor de provincie. |
+| [!UICONTROL Shipping Country] | Land van verzendadres. De regel is van toepassing als het verzendadres voldoet aan de landvoorwaarde. |
+| [!UICONTROL Customer Segment] | De regel is van toepassing als een geregistreerde of gastklant aan de voorwaarde van het klantensegment voldoet. |
 
 ### [!UICONTROL Actions]
 
