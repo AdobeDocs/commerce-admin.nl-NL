@@ -3,9 +3,9 @@ title: Uitbreidingen van Adobe
 description: Informatie bekijken over extensies voor Adobe Commerce en Magento Open Source die door de Adobe zijn uitgebracht.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,6 @@ De [!DNL Catalog Service] biedt u de mogelijkheid om klanten een geoptimaliseerd
 ### [!DNL Payment Services]
 
 [!DNL Payment services] voor Adobe Commerce en Magento Open Source is een volledig geïntegreerde betalingsoplossing die het betalingsbeheerproces vereenvoudigt en uw klanten de mogelijkheid biedt om hun geld te betalen. Zorg ervoor dat alle betalings- en transactiegegevens binnen de Adobe Commerce Admin op een veilige manier met elkaar in overeenstemming worden gebracht, zodat u opdrachten en betalingen op één plaats kunt beheren en een naadloze afhandeling kunt uitvoeren. Zie de [[!DNL Payment Services] Handboek](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) voor meer informatie .
-
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] voor Adobe Commerce is een naadloze afrekenervaring ontworpen om eenmalige klanten om te zetten in loyale rekeninghouders.
-Zie de [[!DNL Quick Checkout] Handboek](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) voor meer informatie .
 
 ### [!DNL Store Fulfillment]
 
