@@ -2,7 +2,8 @@
 title: Personalisatie op schaal
 description: Leer welke functies je in Adobe Commerce kunt gebruiken om een persoonlijke ervaring voor je kopers te maken.
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -92,11 +93,11 @@ De volgende profielgebeurtenissen leggen gegevens vast die u kunnen helpen deze 
 - [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [accountDelted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 
-Storefront, achterkantoor, en profielgegevens vormen de stichting van de klant en de ordecontext van de Handel, die u helpt weten welke producten uw klanten bekijken en uiteindelijk kopen. Je kunt dan hun belangen bepalen en hun ervaring personaliseren. In de volgende sectie leert u welke soorten persoonlijke ervaringen u kunt gebruiken met uw klanten.
+Storefront-, back-office- en profielgegevens vormen de basis van de Commerce-context voor klanten en bestellingen, zodat u weet welke producten uw klanten bekijken en uiteindelijk kopen. Je kunt dan hun belangen bepalen en hun ervaring personaliseren. In de volgende sectie leert u welke soorten persoonlijke ervaringen u kunt gebruiken met uw klanten.
 
 ## Typen persoonlijke ervaringen
 
-De klant en de gegevens van de ordecontext in Handel bevorderen de volgende soorten gepersonaliseerde ervaringen:
+De klant en de gegevens van de ordecontext in Commerce bevorderen de volgende soorten gepersonaliseerde ervaringen:
 
 | Ervaring | Beschrijving |
 |---|---|
@@ -107,9 +108,9 @@ De klant en de gegevens van de ordecontext in Handel bevorderen de volgende soor
 
 In de volgende twee secties leert u hoe u deze gegevens kunt gebruiken om persoonlijke ervaringen te creëren in [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) en in [native Commerce-functies](#using-commerce-data-in-native-commerce-features).
 
-## Handelsgegevens gebruiken in Adobe Experience Platform
+## Commerce-gegevens gebruiken in Adobe Experience Platform
 
-Om een gepersonaliseerde ervaring voor uw kopers over alle kanalen tot stand te brengen, verzend uw gegevens van de Handel naar het Netwerk van de Rand van de Experience Platform gebruikend [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extensie.
+Als u een persoonlijke ervaring voor uw klanten op alle kanalen wilt creëren, stuurt u uw Commerce-gegevens naar de Edge Network van het Experience Platform met de [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extensie.
 
 ![De gegevensstroom naar de rand van het Experience Platform](assets/commerce-edge.png){width="700" zoomable="yes"}
 
@@ -117,29 +118,29 @@ In de bovenstaande afbeelding worden de gegevens van uw winkel, back office en k
 
 In de volgende tabel worden enkele van de beschikbare Experience Platforms-toepassingen gemarkeerd en wordt aangegeven hoe deze toepassingen uw Commerce-gegevens gebruiken.
 
-| Ervaring | Toepassing | Hoe de Gegevens van de Handel worden gebruikt |
+| Ervaring | Toepassing | Hoe Commerce Data wordt gebruikt |
 |---|---|---|
 | **Site-inhoud** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce-gegevens leveren geharmoniseerde klantprofielen op, waarbij Real-Time CDP gegevens uit verschillende bronnen (ERP, CRM, CMS, POS) onderbrengt in afzonderlijke profielen. Real-Time CDP kan zowel op regels-gebaseerde als op AI-Gebaseerde segmenten tot stand brengen om dan over uw geplaatste marketing oplossing te gebruiken. U kunt Real-Time CDP-publiek ook gebruiken om inhoudsblokken, promoties en gerelateerde productregels aan te passen. Zie [[!DNL Audience Activation]](../customers/audience-activation.md) voor meer informatie. &#x200B; |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce-gegevens kunnen in Adobe worden geactiveerd [!DNL Target] voor het testen, optimaliseren en maken van dynamische bestemmingspagina&#39;s. U kunt de volgorde aanpassen waarin inhoud op een pagina wordt weergegeven, zoals beschrijvingen, specificaties, revisies en aanbevolen producten op basis van de verzonden gegevens van de Handel. |
+|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce-gegevens kunnen in Adobe worden geactiveerd [!DNL Target] voor het testen, optimaliseren en maken van dynamische bestemmingspagina&#39;s. U kunt de volgorde aanpassen waarin inhoud op een pagina wordt weergegeven, zoals beschrijvingen, specificaties, revisies en aanbevolen producten op basis van de verzonden Commerce-gegevens. |
 | **Aanbiedingen en campagnes** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce-gedrags- en back-office gegevens kunnen worden gebruikt als een aansporing voor gepersonaliseerde omni-kanaalreizen, zoals e-mailcampagnes, SMS, pushmeldingen en nog veel meer. &#x200B; |
-| **Meting** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) en [Klant [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | De handel verzendt zowel opslag als achterkantoorgegevens naar Klant [!DNL Journey Analytics] (en alleen gegevens opslaan naar Adobe [!DNL Analytics]) om een rijkere analyse mogelijk te maken die verder gaat dan de elementaire maatstaven van Adobe Commerce Intelligence, zoals inkomsten, handelswaar en promoties. &#x200B; |
+| **Meting** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) en [Klant [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce stuurt zowel gegevens van de winkel als van de back-office naar de klant [!DNL Journey Analytics] (en alleen gegevens opslaan naar Adobe [!DNL Analytics]) om een rijkere analyse mogelijk te maken die verder gaat dan de elementaire maatstaven van Adobe Commerce Intelligence, zoals inkomsten, handelswaar en promoties. &#x200B; |
 
-Voor meer informatie over hoe u uw gegevens van de Handel naar het Experience Platform kunt verzenden, zie [Gegevensverbinding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+Ga voor meer informatie over hoe je Commerce-gegevens naar het Experience Platform kunt verzenden naar [Gegevensverbinding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
-## De gegevens van de Handel van het gebruiken in inheemse eigenschappen van de Handel
+## Commerce-gegevens gebruiken in systeemeigen Commerce-functies
 
-In de volgende sectie leert u hoe u native functies voor handel kunt gebruiken, zoals Product Recommendations en Live Search, om een persoonlijke winkelervaring te creëren. U zult ook over een eigenschap leren genoemd [!DNL Audience Activation], die gegevens gebruikt van een product dat beschikbaar is in de Experience Platform met de naam Real-Time CDP, zoals vermeld [voorheen](#using-commerce-data-in-adobe-experience-platform). Hoewel Real-Time CDP geen eigen product van de handel is, kan de informatie ervan via de [[!DNL Audience Activation]](../customers/audience-activation.md) extensie.
+In de volgende sectie leert u hoe u native Commerce-functies, zoals Product Recommendations en Live Search, kunt gebruiken om een persoonlijke winkelervaring te creëren. U zult ook over een eigenschap leren genoemd [!DNL Audience Activation], die gegevens gebruikt van een product dat beschikbaar is in de Experience Platform met de naam Real-Time CDP, zoals vermeld [voorheen](#using-commerce-data-in-adobe-experience-platform). Hoewel Real-Time CDP niet in Commerce is opgenomen, kan de informatie in Commerce via de [[!DNL Audience Activation]](../customers/audience-activation.md) extensie.
 
-De volgende lijst benadrukt de eigenschappen van de Handel beschikbaar om de klant van de Handel en de gegevens van de ordecontext in actionable inzichten te veranderen.
+In de volgende tabel worden de Commerce-functies beschreven die beschikbaar zijn om de Commerce-klanten en ordercontextgegevens om te zetten in inzichten die uitvoerbaar zijn.
 
 | Ervaring | Functie | Beschrijving |
 |---|---|---|
 | **Productdetectie** | [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | Gebruikt AI rangschikkingsalgoritmen om onderzoeksresultaten te personaliseren en te optimaliseren die op de acties van het het gedrag van een verkoopster ter plaatse worden gebaseerd, die onderzoeksrelevantie en omzetting bevorderen. |
 |  | [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | Hier worden productaanbevelingen weergegeven die zijn gebaseerd op winkelgedrag, trends, productgelijkenis en meer. Als de productaanbevelingen worden gecombineerd met uw Adobe Commerce-catalogus, bieden ze een zeer aantrekkelijke, relevante en persoonlijke ervaring. |
 |  | [Categorieverhandeling](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | Vanuit Live Search Admin is de categorie Handchandising benaderd met AI om de reeks producten op elke categoriepagina automatisch opnieuw te genereren en zo de relevantie en conversie voor elke winkel te verbeteren. U kunt op AI-Gebaseerde regels tot stand brengen en leiden om product het rangschikken op categoriepagina&#39;s volgens winkelacties en affiniteiten automatisch te herleiden. |
-| **Site-inhoud** | [Dynamische blokken die worden geïnformeerd door de native functies van Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde plaatsinhoud te leveren die op logica wordt gebaseerd die in prijsregels en klantensegmenten wordt gevormd. |
+| **Site-inhoud** | [Dynamische blokken die worden geïnformeerd door native Commerce-functies](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde plaatsinhoud te leveren die op logica wordt gebaseerd die in prijsregels en klantensegmenten wordt gevormd. |
 |  | [Dynamische blokken, geïnformeerd door Real-Time CDP-publiek](../customers/audience-activation.md) | Laat verkopers toe om gepersonaliseerde plaatsinhoud te leveren die op publiek wordt gebaseerd dat in Real-Time CDP wordt gevormd. |
 | **Aanbiedingen en campagnes** | [Prijsregels voor winkelwagentjes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | Hiermee kunt u op basis van een aantal voorwaarden kortingen toepassen op objecten in het winkelwagentje. |
-|  | [Dynamische blokken die worden geïnformeerd door de native functies van Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde bannerbevorderingen te tonen die op klantensegmenten worden gebaseerd die nationaal in Handel worden gevormd. |
+|  | [Dynamische blokken die worden geïnformeerd door native Commerce-functies](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde bannerbevorderingen te tonen die op klantensegmenten worden gebaseerd die in Commerce worden gevormd. |
 |  | [Dynamische blokken, geïnformeerd door Real-Time CDP-publiek](../customers/audience-activation.md) | Staat u toe om gepersonaliseerde bevorderingen te tonen die op publiek in Real-Time CDP wordt gevormd. |
 | **Meting** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (Vroeger bekend als Magento Business Intelligence) is een wolkenplatform dat inzicht in best practices biedt om u te helpen gegevensgestuurde beslissingen te nemen en duidelijke en geïnformeerde acties te ondernemen. Adobe Commerce Intelligence kan uw gegevens analyseren om u te helpen vragen te beantwoorden over de groei van bestellingen, het gedrag van klanten en de doeltreffendheid van promotiestrategieën. |

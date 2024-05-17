@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Onderzoek heeft aangetoond dat over [64% van de kopers](https://techreport.com/s
 Deze nieuwe krachtige winkel is al met succes beproefd door verschillende Adobe Commerce-handelaren, zoals [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), een eigenschap van HanesBrands. De resultaten spreken voor zich. Maidenform-pagina&#39;s leveren consequent Google Lighthouse-scores van [Resultaten van 100 en Core Web Vital](https://treo.sh/sitespeed/www.maidenform.com) ver boven het gemiddelde van de bedrijfstak.
 
 ![Resultaten van sitesnelheid](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Core Web Vital-grafiek](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Core Web Vital-grafiek](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Met het eerste Adobe Commerce-afspeelboek kunnen klanten eenvoudig verlaten wink
 
 Adobe voegt ook Commerce-specifieke dashboards in Adobe Experience Platform toe om marketers te helpen hun gegevens van Commerce analyseren en mogelijkheden voor verpersoonlijking identificeren.
 
-![Een diagram van een verlaten winkelwagentje](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![Een diagram van een verlaten winkelwagentje](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Verpersoonlijking activeren gebruikend publiek van Adobe In real time CDP
 

@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Met de [installatie](install.md) en [inschakelen](enable-basic-features.md) van 
 
 De bedrijfsrekeningcomponent is een belangrijke entiteit binnen B2B waarvan alle andere kenmerken op een of andere manier afhankelijk zijn. Het maakt het mogelijk om meerdere kopers die deel uitmaken van één enkel bedrijf, tot één enkel bedrijfsaccount (of bedrijfsaccount) aan te sluiten. De bedrijfbeheerder kan een bedrijfsstructuur (afdelingen, onderverdelingen, en gebruikers) bouwen die op het operationele model voor het bedrijf wijst en verschillende gebruikersrollen en toestemmingen voor bedrijfsleden verstrekt. Deze structuur staat de bedrijfbeheerder toe om gebruikersactiviteit voor de bedrijfrekening te controleren: het opdracht geven, het citeren, het kopen, toegang tot de informatie of het profiel van het bedrijfskrediet, etc.
 
-Van Admin, kan de de plaatsbeheerder van de Handel vormen hoe het bedrijf op de website werkt. De configuratie bepaalt de B2B mogelijkheden beschikbaar voor bedrijfgebruikers, met inbegrip van betalingsmethodes, prijsniveaus, de capaciteit om prijzen te bespreken gebruikend noteringen, de capaciteit om vraaglijsten te creëren, en meer.
+Vanuit de beheerder kan de Commerce-sitebeheerder configureren hoe het bedrijf op de website werkt. De configuratie bepaalt de B2B mogelijkheden beschikbaar voor bedrijfgebruikers, met inbegrip van betalingsmethodes, prijsniveaus, de capaciteit om prijzen te bespreken gebruikend noteringen, de capaciteit om vraaglijsten te creëren, en meer.
 
 Zie voor meer informatie [Bedrijfsrekeningen](account-companies.md).
 
@@ -48,7 +48,7 @@ Services voor Adobe Commerce zijn gehoste services die Adobe Commerce en Magento
 
 ## Gedeelde catalogi
 
-Gedeelde catalogi zijn de prijsniveaus waarmee aangepaste prijzen per product voor verschillende bedrijven op een of meerdere websites kunnen worden ingesteld. Door gedeelde catalogi te gebruiken, kunt u producten verkopen door verschillende prijsniveaus voor verschillende klantengroepen toe te passen. De steun voor Gedeelde catalogi is beschikbaar slechts voor de opslag van de Handel die wordt gevormd om de rekeningen van het Bedrijf te steunen.
+Gedeelde catalogi zijn de prijsniveaus waarmee aangepaste prijzen per product voor verschillende bedrijven op een of meerdere websites kunnen worden ingesteld. Door gedeelde catalogi te gebruiken, kunt u producten verkopen door verschillende prijsniveaus voor verschillende klantengroepen toe te passen. De steun voor Gedeelde catalogi is beschikbaar slechts voor de opslag van Commerce die wordt gevormd om de rekeningen van het Bedrijf te steunen.
 
 Zie voor meer informatie [Werken met gedeelde catalogi](catalog-shared.md).
 
@@ -68,7 +68,7 @@ Met de functie Aanhalingstekens kunt u prijsonderhandelingen starten tussen kope
 
 Kopers en verkopers gebruiken het citaat om onderhandelingsproces-zoals het toevoegen van punten, het bijwerken van hoeveelheden, het verzoeken en het toepassen van kortingen-tot zij een overeenkomst bereiken te leiden. De _Aanhalingen_ Het raster in de Admin geeft een overzicht van elke ontvangen offerte en houdt een geschiedenis bij van de communicatie tussen koper en verkoper.
 
-De steun voor Negotiable Citaten is beschikbaar slechts voor de opslag van de Handel die wordt gevormd om de rekeningen van het Bedrijf te steunen.
+De steun voor Negotiable Citaten is beschikbaar slechts voor de opslag van Commerce die wordt gevormd om de rekeningen van het Bedrijf te steunen.
 
 Zie voor meer informatie [Onderhandelbare aanhalingstekens](quotes.md).
 

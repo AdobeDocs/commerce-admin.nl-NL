@@ -7,8 +7,8 @@ breadcrumb-title: Handelsdocumenten
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ De informatie in de handelsdocumentatie wordt ontworpen om bedrijfsgebruikers aa
 
 Adobe Commerce is een flexibel B2B- en B2C-handelsplatform dat verkopers en merken in staat stelt hun omzet te versnellen door klantgerichte digitale handelervaringen over online en fysieke ruimten. Het is de toonaangevende keuze voor middelgrote en bedrijfsorganisaties omdat het de meest flexibele implementatiemodellen van on-prem tot beheerde cloud met gegarandeerde SLA&#39;s biedt. Adobe Commerce maakt eerste integratie van API&#39;s en volledig aanpasbare extensies mogelijk, en de rijkste reeks mogelijkheden voor commerciële ervaring op bedrijfsniveau, van marketing tot merchandising en afhandeling. Adobe Commerce is gebaseerd op open-source code base om flexibiliteit en uitbreidbaarheid te bieden, net als geen ander handelsplatform.
 
-Voor een lijst met de geavanceerde mogelijkheden die bij Adobe Commerce worden geleverd, raadpleegt u [Handelskenmerken](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in de _Gegevens vrijgeven_.
+Voor een lijst met de geavanceerde mogelijkheden die bij Adobe Commerce worden geleverd, raadpleegt u [Commerce-functies](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in de _Gegevens vrijgeven_.
 
 ## Magento Open Source codebasis
 
@@ -123,22 +123,22 @@ Magento Open Source is de basis van de code die de Adobe officieel bijdraagt tot
 
 | Beschrijving | Type | Datum |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B-release** - In de opmerkingen bij de release B2B for Adobe Commerce worden wijzigingen en aanvullingen voor de [1.4.0-release](../b2b/release-notes.md#b2b-v140). | Bijwerken | 06/13/23 |
-| **1.4.0 B2B-release** - de [Aanhalingstekens voor een koper starten](../b2b/sales-rep-initiates-quote.md) het onderwerp is nu opgenomen in het _B2B voor Adobe Commerce Guide_. Hierin wordt beschreven hoe een verkoper een prijsopgave kan maken voor een specifieke koper om het onderhandelingsproces te starten. | Nieuw | 06/13/23 |
-| **1.4.0 B2B-release** - de [Onderhandelingen over een offerte](../b2b/quote-price-negotiation.md), [Onderhandelbare aanhalingstekens](../b2b/quotes.md), en [B2B-functies inschakelen](../b2b/enable-basic-features.md) onderwerpen worden bijgewerkt met wijzigingen voor door de verkoper geïnitieerde aanhalingstekens en standaardfuncties. | Bijwerken | 06/13/23 |
-| **2.2.0 Adobe IMS-integratieversie** - de [Schakel de Admin-integratie van Commerce met Adobe ID uit](../getting-started/adobe-ims-disable.md) het onderwerp is nu opgenomen in het _Aan de slag_. Hierin wordt een optionele procedure beschreven voor het uitschakelen van de integratie van Adobe Commerce Admin met Adobe IMS. | Nieuw | 06/13/23 |
-| **2.2.0 Adobe IMS-integratieversie** - Wijzigingen in de [Overzicht van de integratie van Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) en [De integratie van Commerce Admin met Adobe ID configureren](../getting-started/adobe-ims-config.md) onderwerpen om bijgewerkte functionaliteit te weerspiegelen. | Bijwerken | 06/13/23 |
-| **[!DNL Audience Activation]** - Nieuwe en bijgewerkte en verbeterde informatie is opgenomen in de [[!DNL Audience Activation]](../customers/audience-activation.md) onderwerp dat de [!DNL Experience Platform Connector] configuratie UI en hoe te om de instantie van de Koophandel zonder kop met de regels van de kartprijs en dynamische blokken te gebruiken. | Bijwerken | 06/13/23 |
-| **Veroudering van UPS API** - De [United Parcel Service (UPS)](../stores-purchase/ups.md) en de [Leveringsmethoden](../configuration-reference/sales/delivery-methods.md#ups) de pagina van de configuratieverwijzing om op tijdelijke veroudering van UPS APIs voor het produceren van nieuwe API sleutels te wijzen. | Bijwerken | 06/08/23 |
-| **2.4.6 release** - De [Lijst met producten](../catalog/products-list.md) en [Referentie voor beheerdersconfiguratie](../configuration-reference/advanced/admin.md) onderwerpen om informatie over de beperkingen van de productvertoning te omvatten die kunnen worden gebruikt om prestaties voor grote catalogi te verbeteren. | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [Klantsegmenten maken en verwijderen](../customers/customer-segment-create.md) en [Referentie voor configuratie van klant](../configuration-reference/customers/customer-configuration.md) onderwerpen om informatie over bevestiging in real time voor segmenten te omvatten. | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [Braintree](../stores-purchase/braintree.md) en [Braintree configuratieverwijzing](../configuration-reference/sales/braintree.md) onderwerpen die de bijgewerkte en nieuwe betalingsopties moeten weerspiegelen die worden ondersteund door de gebundelde integratie van de Braintree. | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [Valutaconfiguratie](../stores-purchase/currency-configuration.md) en [Configuratie Valuta-instelling](../configuration-reference/general/currency-setup.md) onderwerpen die onder de nieuwe [!DNL Fixer API] (APILayer). | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [E-mailcommunicatie configureren](../systems/email-communications.md) en [Referentie voor systeemconfiguratie](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) onderwerpen om de nieuwe optie SMTP voor e-mailmededelingen te omvatten. | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [Opmerkingen bij de release van Inventory management](../inventory-management/release-notes.md) met een beschrijvende lijst met oplossingen die is opgenomen in de nieuwste versie van de gebundelde extensie (v1.2.6). | Bijwerken | 03/14/23 |
-| **2.4.6 release** - De [Opmerkingen bij de release B2B](../b2b/release-notes.md) met een beschrijvende lijst met oplossingen die is opgenomen in de meest recente extensieversie (v1.3.5). | Bijwerken | 03/14/23 |
-| **Nieuw onderwerp** - Toegevoegde [Activering publiek](../getting-started/commerce-account-transfer.md) aan het _Handleiding voor klantbeheer_, die gedetailleerde informatie verstrekt over het activeren van het Real-Time CDP-publiek in Adobe Commerce. | Nieuw | 03/13/23 |
-| **Nieuw onderwerp** - Toegevoegde [Een Commerce-account overdragen](../getting-started/commerce-account-transfer.md) aan het _Aan de slag_. | Nieuw | 02/27/23 |
+| **1.4.0 B2B-release** - In de opmerkingen bij de release B2B for Adobe Commerce worden wijzigingen en aanvullingen voor de [1.4.0-release](../b2b/release-notes.md#b2b-v140). | Bijwerken | 13-06-23 |
+| **1.4.0 B2B-release** - de [Aanhalingstekens voor een koper starten](../b2b/sales-rep-initiates-quote.md) het onderwerp is nu opgenomen in het _B2B voor Adobe Commerce Guide_. Hierin wordt beschreven hoe een verkoper een prijsopgave kan maken voor een specifieke koper om het onderhandelingsproces te starten. | Nieuw | 13-06-23 |
+| **1.4.0 B2B-release** - de [Onderhandelingen over een offerte](../b2b/quote-price-negotiation.md), [Onderhandelbare aanhalingstekens](../b2b/quotes.md), en [B2B-functies inschakelen](../b2b/enable-basic-features.md) onderwerpen worden bijgewerkt met wijzigingen voor door de verkoper geïnitieerde aanhalingstekens en standaardfuncties. | Bijwerken | 13-06-23 |
+| **2.2.0 Adobe IMS-integratieversie** - de [Commerce Admin Integration uitschakelen met Adobe ID](../getting-started/adobe-ims-disable.md) het onderwerp is nu opgenomen in het _Aan de slag_. Hierin wordt een optionele procedure beschreven voor het uitschakelen van de integratie van Adobe Commerce Admin met Adobe IMS. | Nieuw | 13-06-23 |
+| **2.2.0 Adobe IMS-integratieversie** - Wijzigingen in de [Overzicht van de integratie van Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) en [De integratie van Commerce Admin met Adobe ID configureren](../getting-started/adobe-ims-config.md) onderwerpen om bijgewerkte functionaliteit te weerspiegelen. | Bijwerken | 13-06-23 |
+| **[!DNL Audience Activation]** - Nieuwe en bijgewerkte en verbeterde informatie is opgenomen in de [[!DNL Audience Activation]](../customers/audience-activation.md) onderwerp dat de [!DNL Experience Platform Connector] configuratie-interface en hoe u Commerce-instantie zonder koppen kunt gebruiken met regels voor de kartonprijs en dynamische blokken. | Bijwerken | 13-06-23 |
+| **Veroudering van UPS API** - De [United Parcel Service (UPS)](../stores-purchase/ups.md) en de [Leveringsmethoden](../configuration-reference/sales/delivery-methods.md#ups) de pagina van de configuratieverwijzing om op tijdelijke veroudering van UPS APIs voor het produceren van nieuwe API sleutels te wijzen. | Bijwerken | 08-06-23 |
+| **2.4.6 release** - De [Lijst met producten](../catalog/products-list.md) en [Referentie voor beheerdersconfiguratie](../configuration-reference/advanced/admin.md) onderwerpen om informatie over de beperkingen van de productvertoning te omvatten die kunnen worden gebruikt om prestaties voor grote catalogi te verbeteren. | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [Klantsegmenten maken en verwijderen](../customers/customer-segment-create.md) en [Referentie voor configuratie van klant](../configuration-reference/customers/customer-configuration.md) onderwerpen om informatie over bevestiging in real time voor segmenten te omvatten. | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [Braintree](../stores-purchase/braintree.md) en [Braintree configuratieverwijzing](../configuration-reference/sales/braintree.md) onderwerpen die de bijgewerkte en nieuwe betalingsopties moeten weerspiegelen die worden ondersteund door de gebundelde integratie van de Braintree. | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [Valutaconfiguratie](../stores-purchase/currency-configuration.md) en [Configuratie Valuta-instelling](../configuration-reference/general/currency-setup.md) onderwerpen die onder de nieuwe [!DNL Fixer API] (APILayer). | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [E-mailcommunicatie configureren](../systems/email-communications.md) en [Referentie voor systeemconfiguratie](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) onderwerpen om de nieuwe optie SMTP voor e-mailmededelingen te omvatten. | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [Opmerkingen bij de release van Inventory management](../inventory-management/release-notes.md) met een beschrijvende lijst met oplossingen die is opgenomen in de nieuwste versie van de gebundelde extensie (v1.2.6). | Bijwerken | 14-03-23 |
+| **2.4.6 release** - De [Opmerkingen bij de release B2B](../b2b/release-notes.md) met een beschrijvende lijst met oplossingen die is opgenomen in de meest recente extensieversie (v1.3.5). | Bijwerken | 14-03-23 |
+| **Nieuw onderwerp** - Toegevoegde [Activering publiek](../getting-started/commerce-account-transfer.md) aan het _Handleiding voor klantbeheer_, die gedetailleerde informatie verstrekt over het activeren van het Real-Time CDP-publiek in Adobe Commerce. | Nieuw | 13-03-23 |
+| **Nieuw onderwerp** - Toegevoegde [Een Commerce-account overmaken](../getting-started/commerce-account-transfer.md) aan het _Aan de slag_. | Nieuw | 27-02-23 |
 
 {style="table-layout:auto"}
 

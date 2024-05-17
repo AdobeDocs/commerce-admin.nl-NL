@@ -1,15 +1,15 @@
 ---
-title: Inleiding tot de handel in en de promotie van de handel
-description: Leer de hulpmiddelen van de Handel voor het creëren van gerichte bevorderingen en kansen voor klantenovereenkomst.
+title: Inleiding tot verkoop en promoties in Commerce
+description: Leer Commerce-tools voor het maken van gerichte aanbiedingen en mogelijkheden voor betrokkenheid van klanten.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
-# Inleiding tot de handel in en de promotie van de handel
+# Inleiding tot verkoop en promoties in Commerce
 
 Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klanten, en verander kopers in kopers. Beheer klantenrelaties door activiteiten na de aankoop te ondersteunen en klanten die terugkeren speciale kortingen te bieden. Leer beste praktijken en technieken om uw initiatieven te steunen SEO.
 
