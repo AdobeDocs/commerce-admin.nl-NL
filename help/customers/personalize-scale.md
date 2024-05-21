@@ -1,146 +1,105 @@
 ---
-title: Personalisatie op schaal
-description: Leer welke functies je in Adobe Commerce kunt gebruiken om een persoonlijke ervaring voor je kopers te maken.
+title: Maak aansprekende, persoonlijke ervaringen op schaal
+description: Leer welke functies in Adobe zijn [!DNL Commerce] Hiermee kunt u een persoonlijke ervaring voor kopers maken.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
+source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
 
-# Personalisatie op schaal
+# Maak aansprekende, persoonlijke ervaringen op schaal
 
-&#x200B; Personalisatie op schaal staat ondernemingen toe om de het winkelen ervaring voor elk klantenaanraakpunt te personaliseren dat op directe context en eerder waargenomen gedrag wordt gebaseerd. Het doel is om telkens de meest relevante en gepersonaliseerde ervaring te presenteren.
+Adobe [!DNL Commerce] biedt u een krachtige toolkit om elk aanraakpunt van klanten aan te passen, waardoor de betrokkenheid van klanten, conversie en omzet wordt verhoogd.
 
-Als u de voordelen van een persoonlijke winkelervaring wilt begrijpen, downloadt u de [_Aan de slag met personalisatie op schaal_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) verslag.
+In dit artikel leert u:
 
-Om een gepersonaliseerde het winkelen ervaring te creëren vereist u om over het type van gegevens te leren nodig om de klantencontext te begrijpen. Van daaruit leert u over Adobe Commerce-functies die deze gegevens gebruiken om de inzichten van de klant te ontsluiten die u nodig hebt om de persoonlijke winkelervaring te creëren.
+- Wat is personalisatie?
+- Welke gegevens heb ik nodig om personalisatie te bereiken?
+- Hoe werkt Adobe? [!DNL Commerce] personalisatie ontgrendelen?
+- Beschikbare gebruiksgevallen voor personalisatie
 
-In de volgende afbeelding ziet u de concepten die u nodig hebt voor het aanpassen van de winkelervaring:
+## Wat is personalisatie?
 
-![Een personalisatiepijplijn maken](assets/personalization-journey.png){width="700" zoomable="yes"}
+Personalisatie betekent dat aspecten van de koopervaring van elke klant worden aangepast aan hun unieke behoeften, context en voorkeuren. Personalisatie is niet beperkt tot inhoud op de site of het aanbevelen van best-fit producten, maar omvat alle aanraakpunten over de reis van de klant, met inbegrip van:
 
-In dit artikel worden de bovenstaande concepten gedetailleerder besproken.
+- **Campagnes en communicatie** - relevante en consistente berichtgeving via campagnes en communicatie
+- **Productdetectie** - De juiste producten op de juiste momenten aan de juiste klanten tonen
+- **Aanbiedingen en aanbiedingen** - Promoties en aanbiedingen richten om elke klant te stimuleren om te converteren
+- **Ervaringen met inhoud** - Inhoud van de website aanpassen om hyper-relevant voor elke klant en zijn reis te voelen
 
-## Hoe maak je een persoonlijk tintje op de boodschappenbeleving?
+![Typen personalisatie](assets/types-personalization.png){width="700" zoomable="yes"}
 
-Succesvolle verpersoonlijking begint met klantencontext. In deze sectie, leert u over de gegevenstypes die beschikbaar zijn om u te helpen de klantencontext bouwen.
+Terwijl deze soorten gepersonaliseerde ervaringen voor een kleine ondergroep van klanten haalbaar kunnen schijnen, die aan schaal voor duizenden of miljoenen klanten over elk aanraakpunt en kanaal aanpassen, kunnen allen in real time zich onmogelijk voelen. In de volgende secties leert u hoe Adobe [!DNL Commerce] en Adobe Experience Cloud kan helpen.
 
-### Storefront-gegevens
+## Welke gegevens heb ik nodig om personalisatie te bereiken?
 
-Storefront-gegevens, ook wel gedrags- of browsergegevens genoemd, kunnen inzicht geven in de manier waarop kopers met uw site communiceren. Bijvoorbeeld:
+De efficiënte verpersoonlijking vereist context of signalen die informatie over klanten verstrekken die dan kunnen worden gebruikt om hun ervaring te wijzigen. De volgende tabel bevat de verschillende gegevenstypen en de rol die Adobe [!DNL Commerce] speelt bij het ondersteunen van het verzamelen en activeren van die gegevens.
 
-- Welke producten en categorieën zijn mijn kopers het meest geïnteresseerd?
-- Wat voor soort zoekquery&#39;s zijn mijn kopers het meest betrokken?
-- Zijn mijn kopers producten aan het winkelwagentje toevoegen en het dan verlaten?
-- Gebruiken mijn kopers een desktopcomputer of een mobiele browser?
+| Gegevenstypen | Storefront-gegevens (gedragsgebeurtenissen) | Back Office-gegevens (server-side gebeurtenissen) | Klantprofiel en segmentgegevens |
+|---|---|---|---|
+| **Definitie** | Klik of acties die klanten op uw site uitvoeren. | Informatie over de levenscyclus en details van elke bestelling (verleden en huidig). | Wie zijn de kopers en voor welke segmenten komen ze in aanmerking? |
+| **Gebeurtenissen vastgelegd door Adobe Commerce** | [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#pageview)<br>[productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchresponsereceived)<br>[addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#opencart)<br>[signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signin)<br>[signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signout)<br>[startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#createrequisitionlist)<br>[addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtorequisitionlist)<br>[removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#removefromrequisitionlist) | **Status van bestelling**:<br>[orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnsInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**Orderhistorie**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU, Naam, Prijshoeveelheid, Korting<br>- Productcategorie<br>- Betalingsbedrag, type, valuta<br>- Verzendmethode en -bedrag<br>- Terugbetaling-ID, Bedrag, Valuta<br>- Reden van terugkeer, Voorwaarde, Resolutie<br>- Adres<br>- E-mail | [**Profielrecord**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord): (Naam, Geslacht, Adres, Loyalty Status, Telefoonnummer, E-mailadres)<br>**Accountstatus**:<br>[accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDelted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountdeleted) |
 
-De volgende storefront gebeurtenissen vangen gegevens die u kunnen helpen deze vragen beantwoorden:
+Met al deze rijke, eerstepartijenlijst [!DNL Commerce] gegevens, bent u klaar om de ervaring van elke verkoopster te richten en te personaliseren. In de volgende sectie leert u hoe [!DNL Commerce] en Adobe Experience Cloud helpen u om persoonlijke ervaringen en gebruiksgevallen te maken die u kunt activeren.
 
-- [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
+## Hoe werkt Adobe? [!DNL Commerce] personalisatie kracht bijzetten?
 
-### Gegevens voor back-office
-
-De gegevens van het achterkantoor, ook genoemd server-zijgegevens, kunnen inzichten in de cyclus van het ordeleven openbaren. Bijvoorbeeld:
-
-- Zijn er producten die vaker op basis van het seizoen worden aangekocht?
-- Retourneert mijn winkels producten?
-- Hoe kan ik de waarde van levenslange klanten berekenen?
-
-De volgende gebeurtenissen van het achterkantoor vangen gegevens die u kunnen helpen deze vragen beantwoorden:
-
-- [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsReturnsInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-### Klantprofiel en segmentgegevens
-
-Klantprofielgegevens kunnen inzicht geven in wie uw klanten zijn en voor welke segmenten zij in aanmerking komen. Bijvoorbeeld:
-
-- Naam
-- Geslacht
-- Adres
-- Loyalstatus
-- Telefoonnummer
-- E-mailadres
-- Loyalstatus
-- Telefoonnummer
-- E-mailadres
-- Geschiktheid voor upgrades
-- Kopers tussen kanalen
-- Vooruitzichten voor nieuwe producten
-- Goud-, zilver- of bronzen loyaliteitsleden
-
-De volgende profielgebeurtenissen leggen gegevens vast die u kunnen helpen deze vragen te beantwoorden:
-
-- [Profielrecord](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord)
-- [accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountDelted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-Storefront-, back-office- en profielgegevens vormen de basis van de Commerce-context voor klanten en bestellingen, zodat u weet welke producten uw klanten bekijken en uiteindelijk kopen. Je kunt dan hun belangen bepalen en hun ervaring personaliseren. In de volgende sectie leert u welke soorten persoonlijke ervaringen u kunt gebruiken met uw klanten.
-
-## Typen persoonlijke ervaringen
-
-De klant en de gegevens van de ordecontext in Commerce bevorderen de volgende soorten gepersonaliseerde ervaringen:
-
-| Ervaring | Beschrijving |
-|---|---|
-| **Productdetectie** | Bevat merchandising-services die [geïmplementeerd als SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). Dit zijn functies waarmee u gedragsgegevens, productkenmerken en inventarisniveaus kunt gebruiken om productdetectie automatisch aan te passen aan de verschillende zoekresultaten, productaanbevelingen en bladerpagina&#39;s. Deze functies gebruiken allemaal [ADOBE SENSEI AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
-| **Site-inhoud** | Verwijst naar de capaciteit om gepersonaliseerde dynamische inhoudsblokken op te stellen die op de huidige klant worden gebaseerd die uw plaats doorbladert. |
-| **Aanbiedingen en campagnes** | Hiermee kunt u gepersonaliseerde promotionele inhoud implementeren op basis van segmentgegevens. |
-| **Meting** | Gebruikt gegevensintelligentie om uw zaken met inbegrip van opbrengst, kanaal en koopwaar prestaties, bevorderingen, etc. beter te begrijpen. |
-
-In de volgende twee secties leert u hoe u deze gegevens kunt gebruiken om persoonlijke ervaringen te creëren in [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) en in [native Commerce-functies](#using-commerce-data-in-native-commerce-features).
-
-## Commerce-gegevens gebruiken in Adobe Experience Platform
-
-Als u een persoonlijke ervaring voor uw klanten op alle kanalen wilt creëren, stuurt u uw Commerce-gegevens naar de Edge Network van het Experience Platform met de [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extensie.
+Adobe [!DNL Commerce] Met gegevensuitwisseling kunt u de gegevenstypen in de vorige tabel verzamelen en delen met andere Adobe Experience Cloud-producten, zodat u uniforme profielen en doelgroepen van klanten, gepersonaliseerde campagnes en rijke analyses en inzichten kunt gebruiken.
 
 ![De gegevensstroom naar de rand van het Experience Platform](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-In de bovenstaande afbeelding worden de gegevens van uw winkel, back office en klantprofiel naar de rand van het Experience Platform verzonden met behulp van een SDK, API en een bronaansluiting. U hoeft niet volledig te begrijpen hoe deze onderdelen werken als de extensie de complexiteit voor het delen van gegevens voor u behandelt. Wanneer de gebeurtenisgegevens zich aan de rand bevinden, kunt u die gegevens in andere Experience Platforms toepassingen opnemen.
+Adobe [!DNL Commerce] Het delen van gegevens omvat twee zeer belangrijke componenten:
 
-In de volgende tabel worden enkele van de beschikbare Experience Platforms-toepassingen gemarkeerd en wordt aangegeven hoe deze toepassingen uw Commerce-gegevens gebruiken.
+1. [Gegevensverbinding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview): Deel storefront, achterkantoor en klantprofielgegevens van Adobe [!DNL Commerce] naar het Adobe Experience Platform edge-netwerk voor gebruik in Adobe Experience Cloud-toepassingen, waaronder:
 
-| Ervaring | Toepassing | Hoe Commerce Data wordt gebruikt |
-|---|---|---|
-| **Site-inhoud** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce-gegevens leveren geharmoniseerde klantprofielen op, waarbij Real-Time CDP gegevens uit verschillende bronnen (ERP, CRM, CMS, POS) onderbrengt in afzonderlijke profielen. Real-Time CDP kan zowel op regels-gebaseerde als op AI-Gebaseerde segmenten tot stand brengen om dan over uw geplaatste marketing oplossing te gebruiken. U kunt Real-Time CDP-publiek ook gebruiken om inhoudsblokken, promoties en gerelateerde productregels aan te passen. Zie [[!DNL Audience Activation]](../customers/audience-activation.md) voor meer informatie. &#x200B; |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce-gegevens kunnen in Adobe worden geactiveerd [!DNL Target] voor het testen, optimaliseren en maken van dynamische bestemmingspagina&#39;s. U kunt de volgorde aanpassen waarin inhoud op een pagina wordt weergegeven, zoals beschrijvingen, specificaties, revisies en aanbevolen producten op basis van de verzonden Commerce-gegevens. |
-| **Aanbiedingen en campagnes** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce-gedrags- en back-office gegevens kunnen worden gebruikt als een aansporing voor gepersonaliseerde omni-kanaalreizen, zoals e-mailcampagnes, SMS, pushmeldingen en nog veel meer. &#x200B; |
-| **Meting** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) en [Klant [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce stuurt zowel gegevens van de winkel als van de back-office naar de klant [!DNL Journey Analytics] (en alleen gegevens opslaan naar Adobe [!DNL Analytics]) om een rijkere analyse mogelijk te maken die verder gaat dan de elementaire maatstaven van Adobe Commerce Intelligence, zoals inkomsten, handelswaar en promoties. &#x200B; |
+   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview): De gegevens van de klanten van de Stitch van over bronnen (ERP, CRM, POS) in verenigde profielen en leiden op regel-gebaseerde of op AI-Gebaseerde segmenten.
+   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started): Geppersonaliseerde e-mailreizen starten, waaronder e-mailcampagnes, SMS, pushmeldingen en nog veel meer.
+   - [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) en [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview): Verbeter inzichten in de klant en de zaken.
+   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro): Inhoud, aanbevolen producten, aanbiedingen, navigatie en meer testen en optimaliseren.
 
-Ga voor meer informatie over hoe je Commerce-gegevens naar het Experience Platform kunt verzenden naar [Gegevensverbinding](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Gebruik [!DNL Real-Time CDP] publiek om dynamische inhoudblokken, promoties en verwante productregels op uw Adobe aan te passen [!DNL Commerce] site.
 
-## Commerce-gegevens gebruiken in systeemeigen Commerce-functies
+### Buiten-de-doos Personalisatie: Ga aan de slag met inheemse Adobe [!DNL Commerce] functies
 
-In de volgende sectie leert u hoe u native Commerce-functies, zoals Product Recommendations en Live Search, kunt gebruiken om een persoonlijke winkelervaring te creëren. U zult ook over een eigenschap leren genoemd [!DNL Audience Activation], die gegevens gebruikt van een product dat beschikbaar is in de Experience Platform met de naam Real-Time CDP, zoals vermeld [voorheen](#using-commerce-data-in-adobe-experience-platform). Hoewel Real-Time CDP niet in Commerce is opgenomen, kan de informatie in Commerce via de [[!DNL Audience Activation]](../customers/audience-activation.md) extensie.
+Adobe [!DNL Commerce] biedt krachtige personalisatie met de native out-of-the-box mogelijkheden. De volgende tabel beschrijft [!DNL Commerce] functies die u direct kunt activeren om aan de slag te gaan met uw persoonlijke voorkeur.
 
-In de volgende tabel worden de Commerce-functies beschreven die beschikbaar zijn om de Commerce-klanten en ordercontextgegevens om te zetten in inzichten die uitvoerbaar zijn.
+| Categorie | Functies |
+|---|---|
+| Persoonlijke productdetectie | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): Pas de zoekresultaten aan en optimaliseer ze op basis van de acties en affiniteiten die een winkelier op locatie uitvoert met de zoekfunctie van AI.<br>[Intelligente handel in categorieën](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): Op categoriepagina&#39;s wordt een door AI aangedreven productclassificatie gebaseerd op de acties en affiniteiten van een verkoopster ter plaatse.<br>[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): Op AI gebaseerde productaanbevelingen op basis van gedrag, trends en affiniteiten van winkels.<br>[Regels voor verwante producten](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): Definieer aangepaste regels om producten uit uw catalogus weer te geven om cross-and-up-sell te stimuleren. |
+| Persoonlijke site-inhoud | [Dynamische-inhoudblokken](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Geef gepersonaliseerde inhoudsblokken weer, bijvoorbeeld banners, op basis van klantsegmenten in Adobe Commerce. |
+| Persoonlijke aanbiedingen en aanbiedingen | [Lijnen met winkelprijzen](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Pas kortingen toe op artikelen in het winkelwagentje op basis van een aantal voorwaarden, waaronder klantsegmenten in de Adobe [!DNL Commerce]. |
+| Inzichten en meting | [Adobe [!DNL Commerce] Intelligentie](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): Begrijp hoe uw verpersoonlijkingsstrategieën werken en verbeteren in de loop van de tijd. |
 
-| Ervaring | Functie | Beschrijving |
-|---|---|---|
-| **Productdetectie** | [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | Gebruikt AI rangschikkingsalgoritmen om onderzoeksresultaten te personaliseren en te optimaliseren die op de acties van het het gedrag van een verkoopster ter plaatse worden gebaseerd, die onderzoeksrelevantie en omzetting bevorderen. |
-|  | [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | Hier worden productaanbevelingen weergegeven die zijn gebaseerd op winkelgedrag, trends, productgelijkenis en meer. Als de productaanbevelingen worden gecombineerd met uw Adobe Commerce-catalogus, bieden ze een zeer aantrekkelijke, relevante en persoonlijke ervaring. |
-|  | [Categorieverhandeling](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | Vanuit Live Search Admin is de categorie Handchandising benaderd met AI om de reeks producten op elke categoriepagina automatisch opnieuw te genereren en zo de relevantie en conversie voor elke winkel te verbeteren. U kunt op AI-Gebaseerde regels tot stand brengen en leiden om product het rangschikken op categoriepagina&#39;s volgens winkelacties en affiniteiten automatisch te herleiden. |
-| **Site-inhoud** | [Dynamische blokken die worden geïnformeerd door native Commerce-functies](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde plaatsinhoud te leveren die op logica wordt gebaseerd die in prijsregels en klantensegmenten wordt gevormd. |
-|  | [Dynamische blokken, geïnformeerd door Real-Time CDP-publiek](../customers/audience-activation.md) | Laat verkopers toe om gepersonaliseerde plaatsinhoud te leveren die op publiek wordt gebaseerd dat in Real-Time CDP wordt gevormd. |
-| **Aanbiedingen en campagnes** | [Prijsregels voor winkelwagentjes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | Hiermee kunt u op basis van een aantal voorwaarden kortingen toepassen op objecten in het winkelwagentje. |
-|  | [Dynamische blokken die worden geïnformeerd door native Commerce-functies](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Staat u toe om gepersonaliseerde bannerbevorderingen te tonen die op klantensegmenten worden gebaseerd die in Commerce worden gevormd. |
-|  | [Dynamische blokken, geïnformeerd door Real-Time CDP-publiek](../customers/audience-activation.md) | Staat u toe om gepersonaliseerde bevorderingen te tonen die op publiek in Real-Time CDP wordt gevormd. |
-| **Meting** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (Vroeger bekend als Magento Business Intelligence) is een wolkenplatform dat inzicht in best practices biedt om u te helpen gegevensgestuurde beslissingen te nemen en duidelijke en geïnformeerde acties te ondernemen. Adobe Commerce Intelligence kan uw gegevens analyseren om u te helpen vragen te beantwoorden over de groei van bestellingen, het gedrag van klanten en de doeltreffendheid van promotiestrategieën. |
+## Gebruiksscenario&#39;s voor topverpersoonlijking
+
+Adobe [!DNL Commerce] klanten gebruiken out-of-the-box mogelijkheden en delen gegevens aan Adobe Experience Cloud voor een verscheidenheid van gebruiksgevallen. In de volgende secties worden de meest gebruikte gevallen beschreven en wordt beschreven hoe deze met Adobe zijn geïmplementeerd [!DNL Commerce] Alleen of [!DNL Commerce] plus Experience Cloud-apps.
+
+### Persoonlijke campagnes en communicatie
+
+| Hoofdletters en kleine letters | Oplossing |
+|---|---|
+| **Verlaten Kart en Bladeren** - Een persoonlijke e-mail of melding over een nieuwe service leveren wanneer een klant zijn winkelwagentje of bladersessie afsluit nadat een hoge service is aangetoond | **Adobe [!DNL Commerce] Alleen**:<br>[E-mailherinneringen](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe [!DNL Commerce] met Adobe Journey Optimizer**:<br>[!DNL Commerce] gegevens dienen als de aanzet tot een omni-channel-verlaten reis. Personaliseer die reis die op klantenattributen, wordt gebaseerd wat zij, ander het winkelgedrag, en vroegere aankopen verlieten.<br>Commerce met Adobe Journey Optimizer en Real-Time CDP: Tailor-opruimingscampagnes gebaseerd op verenigde klantprofielen en centraal beheerde doelgroepen, bijvoorbeeld door een hoog percentage gebruikers voor het verlaten van het bedrijf te creëren. |
+| **Gecentraliseerde publiek maken** - Maak op regels gebaseerd of door AI aangedreven publiek op basis van onsite gedrag, aankopen in het verleden, profielkenmerken, categorie-affiniteiten, loyaliteitsstatus, klantwaarde en meer | **Adobe [!DNL Commerce] Alleen**:<br>Klantprofielgegevens verzamelen wanneer [!DNL Commerce] klanten maken accounts. Op regels gebaseerd maken [klantsegmenten](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) en klantgroepen om inhoud en promoties aan te passen.<br>**Adobe [!DNL Commerce] met Adobe Real-Time CDP**:<br> [Verenigde profielen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) van verschillende gegevensbronnen en kanalen; op regels gebaseerd of door AI aangedreven publiek. |
+| **Aanbieding via persoonlijke e-mail/SMS op basis van gedrag van koper** - Verstuur persoonlijke aanbiedingen naar klanten via e-mail op basis van eerdere aankopen en winkelgedrag, bijvoorbeeld verzend voorstellen voor producten of categorieën die klanten hebben bekeken of gebruikt. | **Adobe [!DNL Commerce] Alleen**:<br>Gegevens exporteren voor gebruik met oplossingen voor marketingautomatisering.<br>**Adobe [!DNL Commerce] met Adobe Journey Optimizer en Real-Time CDP**:<br>[!DNL Commerce] gegevens fungeren als de trigger voor e-mail- of SMS-aanbiedingen en bieden signalen (gedrag van winkels) die u kunt aanpassen. Real-Time CDP is niet verplicht, maar deze aanbiedingen en campagnes worden over het algemeen rond het publiek opgezet, dat binnen Real-Time CDP zou worden gecreëerd en beheerd. |
+| **Compatibele producten/merken voor meerdere of verbeterde objecten** - Als een klant één product of merk koopt dat compatibel is of dat een hoge affiniteit voor een ander product of merk vertoont, stuurt u een campagne (e-mail/sms) om de omzetting van producten tussen verschillende producten te stimuleren. | **Adobe [!DNL Commerce] Alleen**:<br>Adobe gebruiken [!DNL Commerce] [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) om specifieke producten op de plaats aan te bevelen. U kunt ook [Regels voor verwante producten](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) andere producten voor te stellen.<br>**[!DNL Commerce] with [!DNL Target]**:<br>Adobe [!DNL Target] beschikt ook over een ingebouwde productaanbeveling-engine met krachtige mogelijkheden, zoals de affiniteit van categorieën. Dit kan voor dwars of upsell worden gebruikt.<br>**[!DNL Commerce] met Adobe Journey Optimizer**:<br>Gebruiken [!DNL Target] of [!DNL Commerce] om producten te bepalen die moeten worden aanbevolen, dan leveren via Adobe Journey Optimizer. |
+
+### Persoonlijke ervaringen met sites
+
+| Hoofdletters en kleine letters | Oplossing |
+|---|---|
+| **Persoonlijke site-inhoud** - Websitebanners en andere pagina-inhoud aanpassen op basis van winkelacties, zoals bladeren door producten en categorie-affiniteiten. Stel best-geschikte inhoud op die op resultaten van tests A/B of bedrijfsdoelstellingen wordt gebaseerd. | **Adobe [!DNL Commerce] Alleen**:<br>Segmentspecifiek implementeren [dynamische inhoudblokken](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] met Real-Time CDP **:<br>Gebruiken [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) om publiek-specifieke dynamische inhoudsblokken op te stellen die aan acties in real time en verenigde gegevens van het klantenprofiel antwoorden, terwijl het centraal beheren van profielen en publiek in Real-Time CDP.<br>**[!DNL Commerce] with[!DNL Target]**:<br>Pas elk deel van de site-ervaring aan, inclusief inhoud, navigatie-items, volledige paginalay-outs en meer met Adobe [!DNL Commerce] gegevens in Adobe [!DNL Target]. A/B testinhoud, selecteert en implementeert automatisch winnende inhoud voor elke klant.<br>**[!DNL Commerce] met AEM Assets **:<br>Sla al je inhoud op in Adobe Experience Manager Assets. U hebt vanuit Adobe Commerce native toegang tot die inhoud. Met GenAI kunt u inhoudvariaties maken die u kunt aanpassen aan verschillende segmenten of soorten publiek. |
+| **Persoonlijke onsite aanbieding op basis van gedrag** - Promoties aanpassen op basis van acties van winkels, zoals bladeren door producten en rubriekaffiniteiten. Implementeer de volgende beste aanbieding op basis van de resultaten van A/B-tests of bedrijfsdoelstellingen. | **Adobe [!DNL Commerce] Alleen**:<br>Segmentspecifieke catalogus implementeren en [regels betreffende de kartonprijs](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] met Real-Time CDP**:<br>Gebruiken [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) om publiekspecifieke aanbiedingen te implementeren en tegelijkertijd profielen/publiek centraal te beheren in Real-Time CDP.<br>**Commerce met[!DNL Target]**: De offer decisioning van het gebruik om te bepalen welke aanbieding om op te stellen, test A/B of vastgestelde bedrijfsdoelstellingen om aanbiedingen te begeleiden die in Adobe Commerce worden opgesteld. |
+
+### Analyses en inzichten
+
+| Hoofdletters en kleine letters | Oplossing |
+|---|---|
+| **Gedrag van de klant per kanaal** - Begrijp de nuances van hoe klanten in elk kanaal (Web, in-persoon, app, andere) aan invloed op marketing strategieën voor elk kanaal; begrijp de verkooptrechter en de zwakheden in de klantenervaring. | **Adobe [!DNL Commerce] Alleen**:<br>[Adobe [!DNL Commerce] Intelligentie](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) biedt uitgebreide analysemogelijkheden voor de digitale [!DNL Commerce] kanaal, maar niet over kanalen of bredere stukken van de klantenreis.<br>**Adobe [!DNL Commerce] met Customer Journey Analytics**:<br>[!DNL Commerce] gegevens voeren gegevensdashboards voor volledig rijke detail op alle stadia van de klantenervaring (over kanalen) uit. Begrijp elk aanraakpunt en de bredere trechter om zwakke punten in de klantenreis te identificeren waar de klanten van kunnen vallen. |
+| **Aankooptrends** - inzicht in het aankoopgedrag gedurende een specifiek tijdsbestek (bijvoorbeeld analyse van winkelmandjes, productanalyse) om trends, seizoensgebondenheid en optimalisering van de marketing op basis van historische aankooppatronen te identificeren. | **Adobe [!DNL Commerce] Alleen**:<br>[Adobe [!DNL Commerce] Intelligentie](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) biedt uitgebreide analysemogelijkheden voor de digitale [!DNL Commerce] kanaal, maar niet over kanalen of bredere stukken van de klantenreis.<br>**Adobe [!DNL Commerce] met Customer Journey Analytics**:<br>[!DNL Commerce] gegevens voeren gegevensdashboards voor volledig rijke detail op alle stadia van de klantenervaring (over kanalen) uit. Begrijp elk aanraakpunt en de bredere trechter om zwakke punten in de klantenreis te identificeren waar de klanten van kunnen vallen. |
+
+## Voorbeeld van gebruik-hoofdletters
+
+Meer informatie over hoe je Adobe Journey Optimizer kunt gebruiken voor [een e-mail met een verlaten winkelwagentje verzenden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
