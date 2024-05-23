@@ -1,12 +1,12 @@
 ---
 title: Inleiding tot [!DNL B2B for Adobe Commerce]
-description: Leer hoe u geïntegreerde B2B-functies kunt gebruiken om aan uw behoeften te voldoen voor klanten die bedrijven zijn.
+description: Leer hoe u geïntegreerde B2B-functies kunt gebruiken voor wat u nodig hebt bij klanten die bedrijven zijn.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
