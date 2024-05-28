@@ -4,9 +4,9 @@ description: Leer hoe u een uitgebreide beveiligingsscan uitvoert en elk van uw 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ Met de verbeterde beveiligingsscan kunt u elk van uw Adobe Commerce- en Magento 
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van uw [Handelsrekening](../getting-started/commerce-account-create.md). Voor technische informatie, zie [Het gereedschap Beveiligingsscan instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in de _Handleiding voor handel in Cloud-infrastructuur_.
+Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van uw [Commerce/Magento-account](../getting-started/commerce-account-create.md). Voor technische informatie, zie [Het gereedschap Beveiligingsscan instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in de _Handleiding voor handel in Cloud-infrastructuur_.
 
 ![Beveiligingsscan](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Een beveiligingsscan uitvoeren
 
-1. Ga naar de homepage van de Handel en meld u aan bij uw [Handelsrekening](../getting-started/commerce-account-create.md) en voer de volgende handelingen uit:
+1. Meld u aan bij uw [Commerce/Magento-account](../getting-started/commerce-account-create.md).
+
+1. Controleer en accepteer de voorwaarden voor het gebruik van het hulpprogramma voor beveiligingsscan.
 
    - Kies in het linkerdeelvenster de optie **[!UICONTROL Security Scan]**.
    - Klik op **[!UICONTROL Go to Security Scan]**.
@@ -37,13 +39,13 @@ Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van u
 
 1. Op de _[!UICONTROL Monitored Websites]_pagina, klikt u **[!UICONTROL +Add Site]**.
 
-   Als u meerdere sites met verschillende domeinen hebt, moet u een aparte scan voor elk domein configureren.
+   Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
    ![Gecontroleerde sites](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om te controleren of u eigenaar bent van het sitedomein door een bevestigingscode toe te voegen:
 
-   **Handelswinkel**:
+   **Commerce storefront**:
 
    - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]**.
    - Klik op **[!UICONTROL Generate Confirmation Code]**.
@@ -102,7 +104,7 @@ Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van u
 
         Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA store front worden opgesteld.
 
-1. Terugkeren naar de _[!UICONTROL Security Scan]_pagina in je Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om vast te stellen wie het domein is.
+1. Terugkeren naar de _[!UICONTROL Security Scan]_pagina in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein vast te stellen.
 
 1. Na een succesvolle bevestiging, vorm **[!UICONTROL Set Automatic Security Scan]** opties voor een van de volgende typen:
 
@@ -126,6 +128,6 @@ Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van u
 
 1. Klik op **[!UICONTROL Submit]**.
 
-   Nadat de eigendom van het domein is geverifieerd, wordt de site weergegeven in de lijst Gecontroleerde websites van uw Commerce-account.
+   Nadat de eigendom van het domein is gecontroleerd, wordt de site weergegeven in de lijst Gecontroleerde websites van uw Commerce-account.
 
 1. Als u meerdere websites met verschillende domeinen hebt, herhaalt u dit proces om voor elke website een beveiligingsscan in te stellen.
