@@ -3,9 +3,9 @@ title: Maak aansprekende, persoonlijke ervaringen op schaal
 description: Leer welke functies in Adobe zijn [!DNL Commerce] Hiermee kunt u een persoonlijke ervaring voor kopers maken.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ Adobe [!DNL Commerce] klanten gebruiken out-of-the-box mogelijkheden en delen ge
 
 ## Voorbeeld van gebruik-hoofdletters
 
-Meer informatie over hoe je Adobe Journey Optimizer kunt gebruiken voor [een e-mail met een verlaten winkelwagentje verzenden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Meer informatie over hoe je Adobe Journey Optimizer kunt gebruiken voor [een e-mail met een verlaten winkelwagentje verzenden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Leer hoe u [een publiek in Real-Time CDP maken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) informatie over een kartprijsregel in Adobe [!DNL Commerce].
