@@ -1,12 +1,12 @@
 ---
 title: HIPAA-gereedheid op Adobe Commerce
-description: Leer hoe u de Adobe Commerce HIPAA-Klaar uitbreiding kunt toevoegen en extra eigenschappen en functionaliteiten krijgt die u toestaan om aan uw verplichtingen van HIPAA te voldoen.
+description: Ontdek hoe u de Adobe Commerce HIPAA-Ready-extensie kunt toevoegen en extra functies en functionaliteiten kunt krijgen waarmee u aan uw HIPAA-verplichtingen kunt voldoen.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
