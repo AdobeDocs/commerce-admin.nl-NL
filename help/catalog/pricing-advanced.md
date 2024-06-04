@@ -3,9 +3,9 @@ title: Geavanceerde prijzen
 description: Meer informatie over de geavanceerde prijscontroles in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De _[!UICONTROL Advanced Pricing]_de montages bepalen de voorwaarden die voor sp
 
 Geavanceerde prijsgegevens worden gesynchroniseerd met productpagina&#39;s. Als u bijvoorbeeld een lagere prijshoeveelheid bijwerkt, werkt het systeem de waarde op de productpagina bij.
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar met [B2B voor Adobe Commerce](./b2b/../introduction.md) alleen) Als u gedeelde catalogi gebruikt, worden geavanceerde prijsgegevens gesynchroniseerd met zowel productpagina&#39;s als gedeelde catalogi. Als u bijvoorbeeld een lagere prijshoeveelheid bijwerkt, werkt het systeem de waarde in de gedeelde catalogus en op de productpagina bij. Om het even welke douaneprijs die in de gedeelde catalogus wordt vermeld heeft prioriteit over de prijs van de klantengroep. Zie ook [Prijsbepaling en structuur van gedeelde catalogus instellen](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in de _B2B voor Adobe Commerce Guide_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar met [Adobe Commerce B2B](./b2b/../introduction.md) alleen) Als u gedeelde catalogi gebruikt, worden geavanceerde prijsgegevens gesynchroniseerd met zowel productpagina&#39;s als gedeelde catalogi. Als u bijvoorbeeld een lagere prijshoeveelheid bijwerkt, werkt het systeem de waarde in de gedeelde catalogus en op de productpagina bij. Om het even welke douaneprijs die in de gedeelde catalogus wordt vermeld heeft prioriteit over de prijs van de klantengroep. Zie ook [Prijsbepaling en structuur van gedeelde catalogus instellen](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in de _Adobe Commerce B2B-gids_.
 
 ![Geavanceerde prijzen](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

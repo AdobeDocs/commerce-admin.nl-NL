@@ -4,9 +4,9 @@ description: Leer hoe u gedeelde catalogi maakt en bestaande gedeelde catalogi d
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Bekijk deze video voor een demonstratie van gedeeld catalogusbeheer:
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Name] | Identificeert de gedeelde catalogus door Admin, en in de klantenrekeningen waar het beschikbaar is. De catalogusnaam moet beschrijvend zijn en mag niet langer zijn dan 32 tekens. U kunt geen twee gedeelde catalogi met dezelfde naam hebben. Maximum aantal tekens: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identificeert een catalogus met aangepaste prijzen die alleen beschikbaar is voor de specifieke ondernemingen waaraan deze is toegewezen.<br/>**[!UICONTROL Public]**- Identificeert de gedeelde catalogus die beschikbaar is voor alle gastbezoekers en voor aangemelde klanten die niet aan een bedrijf zijn gekoppeld. Een standaard openbare gedeelde catalogus wordt gemaakt wanneer [!DNL B2B for Adobe Commerce] is geïnstalleerd, maar moet door een opslagbeheerder worden gevormd. Er kan slechts één openbare gedeelde catalogus tegelijk bestaan. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identificeert een catalogus met aangepaste prijzen die alleen beschikbaar is voor de specifieke ondernemingen waaraan deze is toegewezen.<br/>**[!UICONTROL Public]**- Identificeert de gedeelde catalogus die beschikbaar is voor alle gastbezoekers en voor aangemelde klanten die niet aan een bedrijf zijn gekoppeld. Een standaard openbare gedeelde catalogus wordt gemaakt wanneer [!DNL Adobe Commerce B2B] is geïnstalleerd, maar moet door een opslagbeheerder worden gevormd. Er kan slechts één openbare gedeelde catalogus tegelijk bestaan. |
 | [!UICONTROL Customer Tax Class] | Bepaalt de belastingklasse die wordt gebruikt voor aankopen uit de catalogus. De opties omvatten alle beschikbare belastingklassen. |
 | [!UICONTROL Description] | Een korte uitleg van de manier waarop de catalogus moet worden gebruikt. |
 

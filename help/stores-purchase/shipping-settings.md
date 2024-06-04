@@ -3,9 +3,9 @@ title: Verzendinstellingen
 description: Leer hoe u de verzendinstellingen configureert die het oorsprongspunt en het verzendbeleid voor uw winkel definiëren.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Met de verzendopties voor meerdere adressen kunnen klanten tijdens het afrekenen
 
 >[!NOTE]
 >
->![B2B voor Adobe Commerce](../assets/b2b.svg) (B2B voor Adobe Commerce) Voor bestellingen met meerdere verzendadressen worden de [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) De betalingsmethode, zelfs als deze ingeschakeld is, is niet beschikbaar tijdens het afrekenen.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Voor bestellingen met meerdere verzendadressen worden de [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) De betalingsmethode, zelfs als deze ingeschakeld is, is niet beschikbaar tijdens het afrekenen.

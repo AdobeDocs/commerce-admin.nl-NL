@@ -3,9 +3,9 @@ title: Lijst met producten
 description: Meer informatie over de _[!UICONTROL Products]_ pagina in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Alle producten in de catalogus zijn toegankelijk via de _[!UICONTROL Products]_in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
 
-De _[!UICONTROL Products]_de lijst bevat alle producten in de catalogus, geeft de websites aan waar deze beschikbaar zijn en of deze momenteel zijn ingeschakeld voor verkoop. In B2B voor Adobe Commerce-installaties met [gedeelde catalogi](../b2b/catalog-shared.md) Toegelaten, omvat het net een kolom die erop wijst welke producten afwisselende disconteringstarifering in een gedeelde catalogus hebben.
+De _[!UICONTROL Products]_de lijst bevat alle producten in de catalogus, geeft de websites aan waar deze beschikbaar zijn en of deze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B-installaties met [gedeelde catalogi](../b2b/catalog-shared.md) Toegelaten, omvat het net een kolom die erop wijst welke producten afwisselende disconteringstarifering in een gedeelde catalogus hebben.
 
 U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. De standaard gebruiken [besturingselementen](../getting-started/admin-grid-controls.md) de lijst sorteren en filteren en toepassen [handelingen](../getting-started/admin-actions-control.md) op geselecteerde producten.
 
@@ -84,7 +84,7 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 | [!UICONTROL Status] | Geeft de status van het product aan. Opties: `Enabled` en `Disabled` |
 | [!UICONTROL Websites] | Geeft de websites aan waar het product beschikbaar is. |
 | [!UICONTROL Action] | Opent het product in Edit wijze. |
-| [!UICONTROL Shared Catalog] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar met [B2B voor Adobe Commerce](./b2b/../introduction.md) (alleen) Geeft de gedeelde catalogi aan die aangepaste prijzen voor het product bevatten. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar met [Adobe Commerce B2B](./b2b/../introduction.md) (alleen) Geeft de gedeelde catalogi aan die aangepaste prijzen voor het product bevatten. |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,9 @@ title: Workflow en verwerking van bestellingen
 description: Leer over het ordewerkschema, de status die bij elke stap van toepassing is, en hoe te om orden door dit proces te bewegen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Alleen verkooporders die niet zijn gefactureerd, hebben de status `Processing`en
 | [!UICONTROL Order Date] | De datum en tijd waarop de bestelling is geplaatst. |
 | [!UICONTROL Purchased From] | Geeft de website-, opslag- en opslagweergave aan waarin de volgorde is geplaatst. |
 | [!UICONTROL Placed from IP] | Wijst op het IP adres van de computer waarvan de orde werd geplaatst. |
-| [!UICONTROL Order Placed from Quote] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Hiermee wordt de [citeren](../b2b/quotes.md) van waaruit de order is gegenereerd, indien van toepassing. De naam van het citaat is verbonden met het citaat. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Geeft de [citeren](../b2b/quotes.md) van waaruit de order is gegenereerd, indien van toepassing. De naam van het citaat is verbonden met het citaat. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Alleen verkooporders die niet zijn gefactureerd, hebben de status `Processing`en
 | [!UICONTROL Customer Name] | De naam van de klant of koper die de bestelling heeft geplaatst. De naam van de klant is gekoppeld aan het profiel van de klant. |
 | [!UICONTROL Email] | Het e-mailadres van de klant of koper. Het e-mailadres is gekoppeld aan een nieuw e-mailbericht. |
 | [!UICONTROL Customer Group] | De naam van de klantengroep of gedeelde catalogus waaraan de klant is toegewezen. |
-| [!UICONTROL Company Name] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De naam van de onderneming waarbij de koper is aangesloten en namens wie de order wordt geplaatst. De bedrijfsnaam is gekoppeld aan de [bedrijfsprofiel](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De naam van de onderneming waarbij de koper is aangesloten en namens wie de order wordt geplaatst. De bedrijfsnaam is gekoppeld aan de [bedrijfsprofiel](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ In de **[!UICONTROL Order Total]** Ga als volgt te werk:
 | [!UICONTROL Total Refunded] | Het totale bedrag dat van de bestelling is terugbetaald, indien van toepassing. |
 | [!UICONTROL Total Due] | Het totale verschuldigde bedrag. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Het bedrag van het beschikbare winkelkrediet dat op de bestelling wordt toegepast, indien van toepassing. |
-| [!UICONTROL Catalog Total Price] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De totale prijs van de items in het citaat zonder belasting, afhankelijk van de prijsstelling in de gedeelde catalogus of de standaardcatalogus die als basis voor het citaat wordt gebruikt. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
-| [!UICONTROL Negotiated Discount] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De korting die het resultaat is van een prijsopgave waarover tussen koper en verkoper is onderhandeld. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
-| [!UICONTROL Subtotal] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De totale catalogusprijs minus de overeengekomen korting. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De totale prijs van de items in het citaat zonder belasting, afhankelijk van de prijsstelling in de gedeelde catalogus of de standaardcatalogus die als basis voor het citaat wordt gebruikt. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De korting die het resultaat is van een prijsopgave waarover tussen koper en verkoper is onderhandeld. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De totale catalogusprijs minus de overeengekomen korting. |
 
 {style="table-layout:auto"}
 

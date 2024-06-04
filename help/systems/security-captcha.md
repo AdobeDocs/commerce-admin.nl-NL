@@ -4,9 +4,9 @@ description: Leer hoe u CAPTCHA configureert voor beheerdersrechten en verschill
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
 
 1. In de rechterbovenhoek stelt u **[!UICONTROL Store View]** tot `Default`.
 
-   Als de [bereik](../getting-started/websites-stores-views.md#scope-settings) van uw installatie van de Handel omvat veelvoudige websites, kies de websites waar u de configuratie CAPTCHA wilt toepassen.
+   Als de [bereik](../getting-started/websites-stores-views.md#scope-settings) Kies de websites waarop u de CAPTCHA-configuratie wilt toepassen als uw Commerce-installatie meerdere websites bevat.
 
 1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL CAPTCHA]** sectie.
 
@@ -41,7 +41,7 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
 
    - Voer de naam in van de **[!UICONTROL Font]** te gebruiken voor CAPTCHA-symbolen (standaard: `LinLibertine`).
 
-     Als u uw eigen lettertype wilt toevoegen, moet het lettertypebestand zich in dezelfde map bevinden als de installatie van de Commerce en moet het worden gedeclareerd in het dialoogvenster `config.xml` bestand van de module Captcha op `app/code/Magento/Captcha/etc`.
+     Als u uw eigen lettertype wilt toevoegen, moet het lettertypebestand zich in dezelfde map bevinden als de Commerce-installatie en moet het worden gedeclareerd in het dialoogvenster `config.xml` bestand van de module Captcha op `app/code/Magento/Captcha/etc`.
 
    - Selecteer een van de volgende opties **[!UICONTROL Forms]** waar de CAPTCHA moet worden gebruikt. Houd Ctrl (PC) of Command (Mac) ingedrukt om meerdere formulieren te kiezen.
 
@@ -85,7 +85,7 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
 
    - Voer de naam in van de **[!UICONTROL Font]** te gebruiken voor de CAPTCHA-symbolen (standaard: `LinLibertine`).
 
-     Als u uw eigen lettertype wilt toevoegen, moet het lettertypebestand zich in dezelfde map bevinden als de installatie van de Commerce en moet het worden gedeclareerd in het dialoogvenster `config.xml` bestand van de CAPTCHA-module.
+     Als u uw eigen lettertype wilt toevoegen, moet het lettertypebestand zich in dezelfde map bevinden als de Commerce-installatie en moet het worden gedeclareerd in het dialoogvenster `config.xml` bestand van de CAPTCHA-module.
 
    - Selecteer een van de volgende opties **[!UICONTROL Forms]** waar de CAPTCHA moet worden gebruikt. Houd Ctrl (PC) of Command (Mac) ingedrukt om meerdere formulieren te kiezen.
 
@@ -100,7 +100,7 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
       - `Payflow Pro` (zie [beveiligingspatroon](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Kennisbank_ artikel)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (alleen Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce)
-      - `Create company` ![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
    - Set **[!UICONTROL Displaying Mode]** op een van de volgende wijzen:
 

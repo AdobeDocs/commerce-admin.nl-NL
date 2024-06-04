@@ -3,9 +3,9 @@ title: Uw gedeelde catalogi beheren
 description: Meer informatie en gereedschappen vindt u op de pagina Gedeelde catalogi.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ De gedetailleerde informatie van om het even welke gedeelde catalogus kan gemakk
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Name] | Identificeert de gedeelde catalogus door Admin, en in de klantenrekeningen waar het beschikbaar is. De catalogusnaam moet beschrijvend zijn en mag niet langer zijn dan 32 tekens. U kunt geen twee gedeelde catalogi met dezelfde naam hebben. Maximum aantal tekens: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identificeert een catalogus met aangepaste prijzen die alleen beschikbaar is voor de specifieke ondernemingen waaraan deze is toegewezen.<br/>**[!UICONTROL Public]**- Identificeert de gedeelde catalogus die beschikbaar is voor alle gastbezoekers en voor aangemelde klanten die niet aan een bedrijf zijn gekoppeld. Een &quot;standaard&quot;openbare gedeelde catalogus wordt gecreeerd wanneer B2B voor Adobe Commerce wordt geïnstalleerd, maar moet door de beheerder worden gevormd. Er kan slechts één openbare gedeelde catalogus tegelijk bestaan. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identificeert een catalogus met aangepaste prijzen die alleen beschikbaar is voor de specifieke ondernemingen waaraan deze is toegewezen.<br/>**[!UICONTROL Public]**- Identificeert de gedeelde catalogus die beschikbaar is voor alle gastbezoekers en voor aangemelde klanten die niet aan een bedrijf zijn gekoppeld. Een &quot;standaard&quot;openbare gedeelde catalogus wordt gecreeerd wanneer Adobe Commerce B2B wordt geïnstalleerd, maar moet door de beheerder worden gevormd. Er kan slechts één openbare gedeelde catalogus tegelijk bestaan. |
 | [!UICONTROL Customer Tax Class] | Bepaalt de belastingklasse die wordt gebruikt voor aankopen uit de catalogus. De opties omvatten alle beschikbare belastingklassen. |
 | [!UICONTROL Description] | Een korte uitleg van de manier waarop de catalogus moet worden gebruikt. |
 

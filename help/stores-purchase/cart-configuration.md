@@ -3,9 +3,9 @@ title: Winkelconfiguratie
 description: Meer informatie over de winkelwagentfuncties die u kunt configureren voor de aankoop in uw winkel.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ De winkelwagenpagina kan zo worden geconfigureerd dat deze altijd wordt weergege
 
 ## Offerteleven
 
-Met de installatie en activering van B2B voor Adobe Commerce kunt u ondersteuning toevoegen voor de _Aanhalingen_ gebruiken. Hierdoor kunnen geautoriseerde kopers het onderhandelingsproces voor de prijs starten door een aanvraag van het winkelwagentje in te dienen. De _Aanhalingen_ Het raster geeft een overzicht van elke ontvangen offerte en houdt een geschiedenis bij van de communicatie tussen koper en verkoper. Zie voor meer informatie over de B2B-functies [Onderhandelde aanhalingstekens](../b2b/quotes.md) in de _B2B voor Adobe Commerce-gebruikershandleiding_.
+Met de installatie en activering van Adobe Commerce B2B kunt u ondersteuning toevoegen voor de _Aanhalingen_ gebruiken. Hierdoor kunnen geautoriseerde kopers het onderhandelingsproces voor de prijs starten door een aanvraag van het winkelwagentje in te dienen. De _Aanhalingen_ Het raster geeft een overzicht van elke ontvangen offerte en houdt een geschiedenis bij van de communicatie tussen koper en verkoper. Zie voor meer informatie over de B2B-functies [Onderhandelde aanhalingstekens](../b2b/quotes.md) in de _Adobe Commerce B2B-gebruikershandleiding_.
 
 U kunt bepalen hoe lang een prijs geldig is door het leven van het wortelcitaat in de configuratie te plaatsen. Als een winkelier bijvoorbeeld een winkelwagen na meerdere dagen zonder toezicht verlaat, is de prijs voor sommige objecten mogelijk niet meer gelijk. Standaard is de prijszetlevensduur ingesteld op 30 dagen.
 

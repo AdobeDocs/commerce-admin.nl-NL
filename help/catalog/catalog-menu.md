@@ -2,9 +2,9 @@
 title: '[!UICONTROL Catalog] menu'
 description: Gebruik de [!UICONTROL Catalog] menu voor toegang tot programma's voor het maken van producten, categorieën en voorraadbeheer.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ Maak de [categorie](categories.md) structuur die de basis vormt van de navigatie
 
 ## [!UICONTROL Shared Catalogs]
 
-Voor winkels met B2B voor Adobe Commerce geïnstalleerd en ingeschakeld, [gedeelde catalogi](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geef u de capaciteit om douaneprijzen aan verschillende bedrijven ter beschikking te stellen.
+Voor winkels waarop Adobe Commerce B2B is geïnstalleerd en ingeschakeld, [gedeelde catalogi](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geef u de capaciteit om douaneprijzen aan verschillende bedrijven ter beschikking te stellen.
 
 ![Gedeelde catalogusproducten](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

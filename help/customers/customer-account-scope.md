@@ -3,9 +3,9 @@ title: Bereik van klantenaccount
 description: Het bereik van klantenaccounts kan worden beperkt tot de website waar het account is gemaakt of wordt gedeeld met alle websites en winkels in de winkelhiërarchie.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 De koptekst van elke pagina in uw winkel breidt een uitnodiging voor kopers uit tot _Aanmelden of registreren_ voor een account bij je winkel. Klanten die een account openen, hebben een groot aantal voordelen, zoals:
 
 * **Klantenaccount maken** - Bezoekers kunnen een klantenaccount maken zodat ze de winkel als geregistreerde klant kunnen gebruiken.
-* **Een bedrijfsaccount maken** Afhankelijk van de configuratie kan een bezoeker van uw winkel desgewenst een bedrijfsaccount maken. Zie voor meer informatie [B2B voor Adobe Commerce](../b2b/introduction.md).
+* **Een bedrijfsaccount maken** Afhankelijk van de configuratie kan een bezoeker van uw winkel desgewenst een bedrijfsaccount maken. Zie voor meer informatie [Adobe Commerce B2B](../b2b/introduction.md).
 * **Snellere controle** — Geregistreerde klanten gaan sneller door met het afrekenen omdat veel van de gegevens al in hun accounts staan.
 * **Zelfbediening** — Geregistreerde klanten kunnen hun gegevens bijwerken, de status van bestellingen controleren en zelfs van hun accounts opnieuw rangschikken.
 

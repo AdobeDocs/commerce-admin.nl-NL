@@ -3,9 +3,9 @@ title: Een product maken
 description: Meer informatie over de typen producten die u voor uw catalogus kunt maken.
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ De meest gebruikte productinstellingen en -kenmerken worden boven aan de pagina 
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | Identificeert elke website waar het product beschikbaar is, volgens de opslaghiërarchie. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | Wordt gebruikt om een ander thema op de productpagina toe te passen, de kolomlay-out te wijzigen, te bepalen waar de productopties verschijnen en aangepaste XML-code in te voeren. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | Wordt gebruikt om een berichtoptie voor een cadeau tijdens het afrekenen op productniveau in of uit te schakelen. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar met [B2B voor Adobe Commerce](../b2b/introduction.md) alleen) Hiermee kunt u gedeelde catalogi onderhouden met aangepaste prijzen voor verschillende bedrijven. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar met [Adobe Commerce B2B](../b2b/introduction.md) alleen) Hiermee kunt u gedeelde catalogi onderhouden met aangepaste prijzen voor verschillende bedrijven. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | Hiermee definieert u de parameters voor het downloaden van producten. |
 
 {style="table-layout:auto"}

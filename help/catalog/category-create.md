@@ -3,9 +3,9 @@ title: Categorieën maken
 description: U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 1. Kies de optie **[!UICONTROL Customer Group]** waar de categorierechten van toepassing zijn.
 
-   ![B2B voor Adobe Commerce](../assets/b2b.svg) ([B2B voor Adobe Commerce](../b2b/introduction.md) (Alleen) Kies een **[!UICONTROL Shared Catalog]** in plaats daarvan.
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) (Alleen) Kies een **[!UICONTROL Shared Catalog]** in plaats daarvan.
 
 1. Stel de volgende machtigingen naar wens in:
 
@@ -192,7 +192,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 1. Stel de ontwerpinstellingen naar wens in:
 
-   - ([B2B voor Adobe Commerce](../b2b/introduction.md) alleen) Als u de ontwerpinstellingen van de bovenliggende categorie wilt toepassen op deze categorie, stelt u **[!UICONTROL Use Parent Category Settings]** tot `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) alleen) Als u de ontwerpinstellingen van de bovenliggende categorie wilt toepassen op deze categorie, stelt u **[!UICONTROL Use Parent Category Settings]** tot `Yes`.
 
    - Als u het ontwerp van de categoriepagina&#39;s wilt wijzigen, kiest u de optie **[!UICONTROL Theme]** die u wilt toepassen.
 

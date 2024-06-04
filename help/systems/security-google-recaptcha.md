@@ -4,9 +4,9 @@ description: Leer hoe u Google reCAPTCHA configureert voor beheertoegang en vers
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA wordt afzonderlijk geconfigureerd voor Admin en storefront.
 
-- Voor de Admin, kan Google reCAPTCHA op [Aanmelden](../getting-started/admin-signin.md) en wanneer een gebruiker om het opnieuw instellen van het wachtwoord vraagt. Als de standaardhandel [CAPTCHA](security-captcha.md) is ook ingeschakeld, kan Google reCAPTCHA tegelijkertijd zonder problemen worden gebruikt.
+- Voor de Admin, kan Google reCAPTCHA op [Aanmelden](../getting-started/admin-signin.md) en wanneer een gebruiker om het opnieuw instellen van het wachtwoord vraagt. Als de standaard Commerce [CAPTCHA](security-captcha.md) is ook ingeschakeld, kan Google reCAPTCHA tegelijkertijd zonder problemen worden gebruikt.
 
 - Voor de winkel kunt u Google reCAPTCHA gebruiken om u aan te melden bij een [klantenaccount](../customers/customer-sign-in.md), stuurt u een bericht van de [Contact opnemen](../getting-started/store-details.md#contact-us-form) en in vele andere winkellocaties.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

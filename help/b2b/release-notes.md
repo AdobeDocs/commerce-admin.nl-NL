@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] opmerkingen vrijgeven'
-description: Lees de release-notities voor meer informatie over wijzigingen in [!DNL B2B for Adobe Commerce] extensieversies.
+title: '''[!DNL Adobe Commerce B2B] opmerkingen vrijgeven'
+description: Lees de release-notities voor meer informatie over wijzigingen in [!DNL Adobe Commerce B2B] lozingen.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] releaseopmerkingen
+# [!DNL Adobe Commerce B2B] releaseopmerkingen
 
 In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correcties vastgelegd die Adobe tijdens een releasecyclus heeft toegevoegd, waaronder:
 
@@ -62,7 +62,7 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 
 ![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1825-->Aankooporders kunnen niet meer worden geplaatst door een gebruiker die met het bedrijf is geassocieerd nadat het bedrijf is geblokkeerd. Eerder had een gebruiker die banden had met het bedrijf kooporders kunnen plaatsen wanneer het bedrijf werd geblokkeerd.
 
-![Probleem opgelost](../assets/fix.svg)<!--ACP2E-1933-->De beheerders van het bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. Eerder, registreerde de Handel een fout wanneer een gebruiker Admin probeerde om een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![Probleem opgelost](../assets/fix.svg)<!--ACP2E-1933-->De beheerders van het bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. Eerder heeft Commerce een fout geregistreerd toen een Admin-gebruiker probeerde een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2
 
@@ -114,11 +114,11 @@ Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbar
 
 ![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1429--> In de montages van de Configuratie van de Opslag voor Functies B2B, **[!UICONTROL Enable Shared Catalog direct products price assigning]** veld wordt nu automatisch uitgeschakeld. In de winkel is deze verborgen wanneer de knop **[!UICONTROL Enable Company]** instellen of **[!UICONTROL Enable Shared Catalog]** instellen op **[!UICONTROL No]**.
 
-![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1683--> Wanneer het creëren van een bedrijfsrekening van de winkel, bevestigt de Handel nu het e-mailadres alvorens de bedrijfregistratie te verwerken. Als het e-mailadres ongeldig is, mislukt de bewerking en worden geen accountupdates verwerkt. Eerder werd een klantenrekening gecreeerd zelfs als het verzoek om een bedrijfrekening tot stand te brengen wegens een ongeldig e-mailadres ontbrak.
+![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1683--> Wanneer Commerce een bedrijfsaccount maakt vanuit de winkel, valideert het nu het e-mailadres voordat de bedrijfsregistratie wordt verwerkt. Als het e-mailadres ongeldig is, mislukt de bewerking en worden geen accountupdates verwerkt. Eerder werd een klantenrekening gecreeerd zelfs als het verzoek om een bedrijfrekening tot stand te brengen wegens een ongeldig e-mailadres ontbrak.
 
 ![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1664--> SKU&#39;s van producten die dubbele aanhalingstekens in de Gedeelde Catalogus en de prijsstructuur omvatten veroorzaken niet meer fouten in Admin.
 
-![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1498--> Bijgewerkt de configuratie van de Varnish voor de toepassing van de Handel om de gebruikers van de Gast te verhinderen gegevens van andere klantengroepen te zien.
+![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1498--> De Varnish-configuratie voor de Commerce-toepassing is bijgewerkt om te voorkomen dat gastgebruikers gegevens van andere klantgroepen kunnen zien.
 
 ### Bekend probleem
 
@@ -148,7 +148,7 @@ U kunt dit probleem verhelpen door handmatige afhankelijkheden voor het B2B-beve
 
 >[!NOTE]
 >
->Nadat u de Handel van 2.4.6 aan [nieuwste release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), zorg ervoor dat u een update uitvoert naar de ondersteunde B2B 1.3.5-patchrelease. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
+>Nadat u Commerce hebt geüpgraded van 2.4.6 naar [nieuwste release](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), zorg ervoor dat u een update uitvoert naar de ondersteunde B2B 1.3.5-patchrelease. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
 
 ![Nieuw](../assets/new.svg) Extra ondersteuning voor Adobe Commerce 2.4.6.
 

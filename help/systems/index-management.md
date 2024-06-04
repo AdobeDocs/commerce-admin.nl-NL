@@ -3,20 +3,20 @@ title: Indexbeheer
 description: Leer over indexbeheer, met inbegrip van de acties die het opnieuw indexeren en beste praktijken teweegbrengen.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
 
 # Indexbeheer
 
-Adobe Commerce en Magento Open Source worden automatisch opnieuw berekend telkens als een of meer items worden gewijzigd. Acties die opnieuw indexeren activeren, zijn onder andere prijswijzigingen, het maken van catalogi- of winkelregels voor winkelwagenprijzen, het toevoegen van nieuwe categorieën enzovoort. Om prestaties te optimaliseren, accumuleert de Handel gegevens in speciale lijsten gebruikend indexeerders. Als de gegevens veranderen, moeten de geïndexeerde tabellen worden bijgewerkt of opnieuw worden gedesdexeerd. De handel herstelt als achtergrondproces, en uw opslag blijft toegankelijk tijdens de processen.
+Adobe Commerce en Magento Open Source worden automatisch opnieuw berekend telkens als een of meer items worden gewijzigd. Acties die opnieuw indexeren activeren, zijn onder andere prijswijzigingen, het maken van catalogi- of winkelregels voor winkelwagenprijzen, het toevoegen van nieuwe categorieën enzovoort. Commerce slaat gegevens met behulp van indexen op in speciale tabellen om de prestaties te optimaliseren. Als de gegevens veranderen, moeten de geïndexeerde tabellen worden bijgewerkt of opnieuw worden gedesdexeerd. Commerce wordt opnieuw als een achtergrondproces gebruikt en uw winkel blijft tijdens het proces toegankelijk.
 
-Het opnieuw indexeren van gegevens versnelt de verwerking, en vermindert de tijd de klant moet wachten. Als je bijvoorbeeld de prijs van een object wijzigt van $4,99 in $3,99, worden de gegevens opnieuw ingedexeerd om de prijswijziging in de winkel aan te geven. Zonder indexering zou de Commerce de prijs van elk product tijdens de vlucht moeten berekenen; de regels van de winkelwagenprijs, de bundelprijs, kortingen, de laagprijs, enzovoort. Het laden van de prijs voor een product kan langer duren dan de klant bereid is te wachten.
+Het opnieuw indexeren van gegevens versnelt de verwerking, en vermindert de tijd de klant moet wachten. Als je bijvoorbeeld de prijs van een object wijzigt van $4,99 in $3,99, wijzigt Commerce de gegevens opnieuw om de prijswijziging in de winkel aan te geven. Zonder indexering zou Commerce de prijs van elk product op de vlucht moeten berekenen; regels voor winkelwagenprijzen, prijzen van pakketten, kortingen, prijzen op lagen, enzovoort. Het laden van de prijs voor een product kan langer duren dan de klant bereid is te wachten.
 
-De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Wanneer de indexering bij sparen, de Uitwisseling begint een herindex op sparen acties. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Er verschijnt een systeembericht als een [snijtaak](cron.md) is niet beschikbaar voor het bijwerken van indexen die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
+De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Er verschijnt een systeembericht als een [snijtaak](cron.md) is niet beschikbaar voor het bijwerken van indexen die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
 
 >[!NOTE]
 > Handelaren van Adobe Commerce die Live Search, Catalog Service of Product Recommendations gebruiken, kunnen een [Op SaaS gebaseerde prijsindexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
@@ -31,19 +31,19 @@ Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De in
 
 ## Aanbevolen werkwijzen voor herindexering
 
-Bij de Handel hebben opnieuw indexeren en in cache plaatsen verschillende doeleinden. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [Cursussen](cache-management.md) Sla geladen gegevens, afbeeldingen, indelingen en dergelijke op voor betere prestaties bij het laden en openen van de winkel.
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [Cursussen](cache-management.md) Sla geladen gegevens, afbeeldingen, indelingen en dergelijke op voor betere prestaties bij het laden en openen van de winkel.
 
-- Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in de handel.
+- Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in Commerce.
 - Als u een grote winkel of meerdere winkels hebt, kunt u indexeerders zoals categorie en producten instellen op geplande snijtaken vanwege de mogelijkheid van herindexering. U kunt de herdex instellen volgens een schema gedurende niet-piekuren.
 - Wanneer u opnieuw indexeert, hoeft u niet ook een uitlijncache uit te voeren.
-- Voor nieuwe installaties van de Handel, moet u het geheime voorgeheugen en de herdex leegmaken.
+- Voor nieuwe Commerce-installaties moet u het cachegeheugen leegmaken en opnieuw indexeren.
 - Door het leegmaken van caches en het opnieuw indexeren wordt de webbrowsercache van uw computer niet leeggemaakt. Wis de browsercache nadat u de updates voor uw winkel hebt voltooid.
 
 ## De indexmodus wijzigen
 
 >[!IMPORTANT]
 >
->Voor winkels die [B2B voor Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) en hebben Elasticsearch ingesteld als de volledige tekst (`catalogsearch_fulltext`) indexer: De fulltext-index moet opnieuw worden uitgevoerd nadat de bulkmachtigingen zijn gewijzigd of wanneer de indexfunctie &#39;permissions&#39; in de modus &#39;Gepland&#39; staat.
+>Voor winkels die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) en hebben Elasticsearch ingesteld als de volledige tekst (`catalogsearch_fulltext`) indexer: De fulltext-index moet opnieuw worden uitgevoerd nadat de bulkmachtigingen zijn gewijzigd of wanneer de indexfunctie &#39;permissions&#39; in de modus &#39;Gepland&#39; staat.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ Bij de Handel hebben opnieuw indexeren en in cache plaatsen verschillende doelei
 
 ## Opnieuw indexeren met de opdrachtregel
 
-De handel verstrekt extra herindexopties gebruikend de bevellijn. Voor volledige details en bevelopties, zie [Opnieuw indexeren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} in het dialoogvenster _Configuratiegids_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [Opnieuw indexeren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} in het dialoogvenster _Configuratiegids_.
 
 ## Gebeurtenissen van indextrigger
 
@@ -103,8 +103,8 @@ De handel verstrekt extra herindexopties gebruikend de bevellijn. Voor volledige
 | Handeling | Resultaat | Besturingselementen |
 | ------ | ------ | -------- |
 | Een winkel, nieuwe klantengroep of een handeling maken die in `Actions that Cause a Full Reindex` | Volledige herclassificatie | De volledige herindexering wordt uitgevoerd volgens het schema dat door uw Adobe Commerce of Magento Open Source wordt bepaald bouwbaan. |
-| Bulksgewijs laden van items (Commerce importeren/exporteren, Direct SQL-query en elke andere methode die gegevens direct toevoegt, wijzigt of verwijdert) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door de kroon van de Handel baan. |
-| Bereik wijzigen (bijvoorbeeld van algemeen naar website) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door de kroon van de Handel baan. |
+| Bulksgewijs laden van items (Commerce importeren/exporteren, Direct SQL-query en elke andere methode die gegevens rechtstreeks toevoegt, wijzigt of verwijdert) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door uw Commerce-bouwtaak. |
+| Bereik wijzigen (bijvoorbeeld van algemeen naar website) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door uw Commerce-bouwtaak. |
 
 {style="table-layout:auto"}
 

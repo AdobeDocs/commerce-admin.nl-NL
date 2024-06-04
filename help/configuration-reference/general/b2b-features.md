@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL B2B Features] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL B2B Features] pagina van Commerce Admin.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van B2B voor Adobe Commerce, kan de koopervaring met bedrijf-specifieke eigenschappen worden gepersonaliseerd. B2B voor Adobe Commerce is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de B2B-functies raadpleegt u de [_B2B voor Adobe Commerce-gebruikershandleiding_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de B2B-functies raadpleegt u de [_Adobe Commerce B2B-gebruikershandleiding_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 

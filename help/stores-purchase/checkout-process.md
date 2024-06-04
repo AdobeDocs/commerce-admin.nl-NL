@@ -3,9 +3,9 @@ title: Afhandelingsproces en opties
 description: Leer hoe het afhandelingsproces van Adobe Commerce en Magento Open Source de benodigde informatie verzamelt om de transactie te voltooien en de pagina Afhandeling leidt de klant door elke stap van het proces.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ Tijdens de tweede stap van het uitcheckproces kiest de klant [betalingsmethode](
 
 >[!NOTE]
 >
->Hoewel de Handel het vormen van veelvoudige couponcodes toestaat, kan een klant slechts één couponcode op de kar toepassen. (Zie de [Couponcodes](../merchandising-promotions/price-rules-cart-coupon.md) voor meer informatie .)
+>Hoewel Commerce het configureren van meerdere couponcodes toestaat, kan een klant slechts één couponcode op de kaart toepassen. (Zie de [Couponcodes](../merchandising-promotions/price-rules-cart-coupon.md) voor meer informatie .)
 
 ![Pagina controleren en betalen tijdens afhandeling](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Controle en betalingen - Inkooporder
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
 Wanneer een klant met een bedrijf wordt geassocieerd dat heeft toegelaten [inkooporders](../b2b/purchase-order-flow.md), worden alle orders verwerkt als kooporders. De beschikbare betalingsmethoden worden bepaald door de instellingen van de bedrijfsaccount.
 

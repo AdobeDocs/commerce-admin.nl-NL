@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] pagina van Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Voor gedetailleerde informatie over het configureren van deze instellingen voor 
 
 >[!NOTE]
 >
->![B2B voor Adobe Commerce](../../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce) Voor bestellingen met meerdere verzendadressen geldt het [Betaling op rekening](../../b2b/enable-basic-features.md#configure-payment-on-account) De betalingsmethode is, zelfs als deze ingeschakeld is, niet beschikbaar tijdens het afrekenen.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B) Voor bestellingen met meerdere verzendadressen kunt u de opdracht [Betaling op rekening](../../b2b/enable-basic-features.md#configure-payment-on-account) De betalingsmethode is, zelfs als deze ingeschakeld is, niet beschikbaar tijdens het afrekenen.

@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Alleen B2B-functie {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="B2B voor Adobe Commerce-functie" src="../assets/b2b.svg" width="20" height="20" /> Exclusieve functie alleen beschikbaar met <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B voor Adobe Commerce</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B-functie" src="../assets/b2b.svg" width="20" height="20" /> Exclusieve functie alleen beschikbaar met <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Alleen CE-functie {#ce-feature}

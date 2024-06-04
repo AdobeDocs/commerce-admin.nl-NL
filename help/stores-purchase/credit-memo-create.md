@@ -3,9 +3,9 @@ title: Een creditmemo uitgeven
 description: Leer hoe u een creditmemo voor een gefactureerde bestelling genereert en afdrukt.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Voordat een creditmemo kan worden afgedrukt, moet deze eerst worden gegenereerd voor een [gefactureerde bestelling](invoices.md#create-an-invoice). Afhankelijk van de betalingsmethode kunt u zowel online als offline terugbetalingen (gedeeltelijk of volledig) uitvoeren vanuit een open creditnota.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Restituties kunnen worden toegepast voor winkelkrediet.
-- ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Terugbetalingen kunnen worden toegepast op bedrijfskrediet.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Restituties kunnen worden toegepast op bedrijfskrediet.
 - Aankopen met een creditcard kunnen online of offline worden terugbetaald.
 - Aankopen via cheque of postwissel moeten offline worden terugbetaald.
 
@@ -108,13 +108,13 @@ Bepaal het type restitutie dat u wilt uitgeven—voor een [kredietaankoop](#issu
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Als u het bedrag wilt terugbetalen naar het winkelkrediet van de klant, selecteert u de optie **[!UICONTROL Refund to Store Credit]** selectievakje.
 
-   - ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Als u het bedrag wilt terugbetalen naar het bedrijfskrediet van de klant, selecteert u de optie **[!UICONTROL Refund to Company Credit]** selectievakje.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Als u het bedrag wilt terugbetalen naar het bedrijfskrediet van de klant, selecteert u de optie **[!UICONTROL Refund to Company Credit]** selectievakje.
 
    - Klik op **[!UICONTROL Refund Offline]**.
 
    - Klik op **[!UICONTROL Refund]**.
 
-   - ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Als de aankoop is betaald met bedrijfskrediet, klikt u op **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Klik op **[!UICONTROL Refund to Company Credit]**.
 
    Zie [Creditnota&#39;s](credit-memos.md) voor meer informatie over offline en online terugbetalingen.
 
@@ -195,7 +195,7 @@ Bepaal het type restitutie dat u wilt uitgeven—voor een [kredietaankoop](#issu
 | [!UICONTROL Customer Name] | De naam van de klant of koper die de bestelling heeft geplaatst. De naam van de klant is gekoppeld aan het profiel van de klant. |
 | [!UICONTROL Email] | Het e-mailadres van de klant of koper. Het e-mailadres is gekoppeld aan een nieuw e-mailbericht. |
 | [!UICONTROL Customer Group] | De naam van de klantengroep of gedeelde catalogus waaraan de klant is toegewezen. |
-| [!UICONTROL Company Name] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De naam van de met de koper verbonden onderneming en namens wie de order wordt geplaatst. De bedrijfsnaam is gekoppeld aan het bedrijfsprofiel. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De naam van de met de koper verbonden onderneming en namens wie de order wordt geplaatst. De bedrijfsnaam is gekoppeld aan het bedrijfsprofiel. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Bepaal het type restitutie dat u wilt uitgeven—voor een [kredietaankoop](#issu
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Product] | De productnaam, SKU en opties (indien van toepassing). |
-| [!UICONTROL Price] | De aankoopprijs van het object. Voor B2B voor Adobe Commerce geeft deze waarde eventuele kortingen weer die op het item uit de gedeelde catalogus zijn toegepast, indien van toepassing. |
+| [!UICONTROL Price] | De aankoopprijs van het object. Voor Adobe Commerce B2B geeft deze waarde eventuele kortingen weer die op het item uit de gedeelde catalogus zijn toegepast, indien van toepassing. |
 | [!UICONTROL Qty] | De bestelde hoeveelheid. |
 | [!UICONTROL Return to Stock] | Selectievakje dat aangeeft of het geretourneerde item moet worden geretourneerd naar voorraad. |
 | [!UICONTROL Qty to Refund] | Geeft het aantal geretourneerde eenheden van het product aan. |
@@ -254,7 +254,7 @@ Bepaal het type restitutie dat u wilt uitgeven—voor een [kredietaankoop](#issu
 | [!UICONTROL Append Comments] | Selectievakje dat bepaalt of opmerkingen in de creditnota worden opgenomen. |
 | [!UICONTROL Email Copy of Credit Memo] | Selectievakje dat bepaalt of een kopie van het creditmemo per e-mail wordt verzonden. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Selectievakje dat bepaalt of het totaal moet worden terugbetaald [winkelkrediet](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Het totaal van alle lijnitems die moeten worden terugbetaald. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Het totaal van alle lijnitems die moeten worden terugbetaald. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ De betalingsmethode die voor de bestelling wordt gebruikt, bepaalt de terugbetal
 |--- |--- |
 | **[!UICONTROL Refund]** | Als de oorspronkelijke aankoop via een creditcard is betaald via een betaalgateway, wordt het restitutiebedrag beheerd door de betalingsverwerker. Raadpleeg de documentatie van uw betalingsprovider voor informatie over het beheer van terugbetalingen. |
 | **[!UICONTROL Refund Offline]** | Als de oorspronkelijke aankoop per cheque of postwissel is betaald, wordt de terugbetaling rechtstreeks aan de klant betaald door een cheque, cadeaukaart of contant geld uit te geven als u een baksteen- en mortierwinkel hebt. De creditnota dient als een overzicht van de offlinetransactie. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) Als de aankoop op bedrijfskrediet werd afgeschreven, wordt de terugbetaling aan de [Zakelijke account](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) Als de aankoop op bedrijfskrediet werd afgeschreven, wordt de terugbetaling aan de [Zakelijke account](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

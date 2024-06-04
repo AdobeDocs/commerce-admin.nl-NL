@@ -3,9 +3,9 @@ title: Sociale media en RSS-feeds
 description: Leer hoe u sociale media en andere RSS-voederintegratie toevoegt om merk- en productbewustzijn te creëren.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakke
 
    Bijvoorbeeld: `facebook_like_button`.
 
-1. Als uw instantie van de Handel veelvoudige opslagmeningen heeft, kies elk **[!UICONTROL Store View]** wanneer het blok beschikbaar moet zijn.
+1. Als uw Commerce-exemplaar meerdere winkelweergaven heeft, kiest u elk **[!UICONTROL Store View]** wanneer het blok beschikbaar moet zijn.
 
 1. Voeg het codefragment toe aan de blokinhoud, afhankelijk van het gereedschap Inhoud:
 
@@ -81,7 +81,7 @@ De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakke
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Widget]** en voer de volgende handelingen uit:
 
-   - ![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce) In de _Instellingen_ sectie, set **[!UICONTROL Type]** tot `CMS Static Block` en klik op **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B) In het dialoogvenster _Instellingen_ sectie, set **[!UICONTROL Type]** tot `CMS Static Block` en klik op **[!UICONTROL Continue]**.
 
    - Controleren of **[!UICONTROL Design Theme]** wordt ingesteld op het huidige thema.
 

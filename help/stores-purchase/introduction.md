@@ -2,16 +2,16 @@
 title: Inleiding tot winkels en aankopen
 description: Leer meer over de functies die worden gebruikt voor het samenstellen en beheren van uw online winkels en over de aankoopervaring voor uw klanten.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Inleiding tot winkels en aankopen
 
-Adobe Commerce en Magento Open Source bieden een uitgebreide reeks functies voor het samenstellen en beheren van uw onlinewinkels en de aankoopervaring voor uw klanten. Binnen uw instantie van de Handel, kunt u de opslaghiërarchie van websites, opslag, en meningen beheren. U kunt ook de belastingen en wisselkoersen configureren die vereist zijn om winkels voor meerdere landinstellingen uit te voeren, inclusief belastingklassen voor producten en klantengroepen.
+Adobe Commerce en Magento Open Source bieden een uitgebreide reeks functies voor het samenstellen en beheren van uw onlinewinkels en de aankoopervaring voor uw klanten. Binnen uw Commerce-instantie kunt u de winkelhiërarchie van websites, winkels en weergaven beheren. U kunt ook de belastingen en wisselkoersen configureren die vereist zijn om winkels voor meerdere landinstellingen uit te voeren, inclusief belastingklassen voor producten en klantengroepen.
 
 ## Winkelstructuur
 
@@ -25,7 +25,7 @@ Adobe Commerce en Magento Open Source reduceren bestelfouten door automatisch de
 
 >[!TIP]
 >
->![B2B voor Adobe Commerce](../assets/b2b.svg) Met de installatie en activering van B2B voor Adobe Commerce kunt u _Snelle bestelling_ voor klanten die zijn gekoppeld aan een bedrijfsaccount. Deze functie vermindert het ordeproces tot verscheidene kliks wanneer zij de naam of SKU van de producten kennen die zij tot orde willen hebben. U kunt steun voor Negotiable Citaten voor uw bedrijfrekeningen ook vormen. Voor meer informatie over de B2B-functies raadpleegt u de [B2B voor Adobe Commerce-gebruikershandleiding](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Met de installatie en activering van Adobe Commerce B2B kunt u _Snelle bestelling_ voor klanten die zijn gekoppeld aan een bedrijfsaccount. Deze functie vermindert het ordeproces tot verscheidene kliks wanneer zij de naam of SKU van de producten kennen die zij tot orde willen hebben. U kunt steun voor Negotiable Citaten voor uw bedrijfrekeningen ook vormen. Voor meer informatie over de B2B-functies raadpleegt u de [Adobe Commerce B2B-gebruikershandleiding](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Hulp bij winkelen
 

@@ -3,9 +3,9 @@ title: Bestelling door SKU
 description: Leer hoe te om uw opslag te vormen om het opdracht geven door SKU als gemak voor uw klanten te steunen.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _Bestelling door SKU_ is een [widget](../content-design/widgets.md) die in de wi
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen B2B voor Adobe Commerce) _**Als u de functie Order by SKU wilt inschakelen, schakelt u de functie Snelle volgorde uit:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (alleen Adobe Commerce B2B) _**Als u de functie Order by SKU wilt inschakelen, schakelt u de functie Snelle volgorde uit:**_
 
 1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

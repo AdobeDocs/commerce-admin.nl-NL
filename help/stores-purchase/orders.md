@@ -3,9 +3,9 @@ title: Orders
 description: Leer meer over de werkruimte Bestellingen en de zoekmogelijkheden die worden gebruikt om bestellingen te zoeken in Admin.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Extra beschikbare kolommen:
 | [!UICONTROL Payment Method] | De wijze van betaling die voor de bestelling moet worden gebruikt. |
 | [!UICONTROL Total Refunded] | Elk bedrag van de bestelling dat aan de klant moet worden terugbetaald. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Elk bedrag uit de bestelling dat moet worden terugbetaald aan het winkelkrediet van de klant. |
-| [!UICONTROL Company Name] | ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) De naam van de [bedrijf](../b2b/account-companies.md) die de bestelling heeft geplaatst. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) De naam van de [bedrijf](../b2b/account-companies.md) die de bestelling heeft geplaatst. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ Het vakje van het Onderzoek in het hogere linkerzijde van het net van Orden kan 
 
 ## Bronnen voor probleemoplossing
 
-Voor hulp bij de kwesties van de het oplossen van problemenorde, zie de volgende artikelen van de Kennisbank van de Steun van de Handel:
+Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met bestelproblemen:
 
 - [Weergavefout voor bestellingen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [PayPal-fout bij dubbele bestellingen 10415](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

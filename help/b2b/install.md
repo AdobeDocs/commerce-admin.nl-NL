@@ -1,26 +1,26 @@
 ---
-title: Installeer de [!DNL B2B for Adobe Commerce] extension
-description: Leer hoe u de [!DNL B2B for Adobe Commerce] metapakket.
+title: Installeer de [!DNL Adobe Commerce B2B] extension
+description: Leer hoe u de [!DNL Adobe Commerce B2B] metapakket.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Installeer de [!DNL B2B for Adobe Commerce] extension
+# Installeer de [!DNL Adobe Commerce B2B] extension
 
-De B2B-extensie voor Adobe Commerce is alleen beschikbaar voor Adobe Commerce v2.2.0 of hoger. Het wordt geïnstalleerd na de installatie van Adobe Commerce.
+De Adobe Commerce B2B-extensie is alleen beschikbaar voor Adobe Commerce v2.2.0 of hoger. Het wordt geïnstalleerd na de installatie van Adobe Commerce.
 
 Installeer de meest recente versie van de B2B-extensie die wordt ondersteund door de geïmplementeerde Adobe Commerce-versie.
 
 >[!NOTE]
 >
->Deze installatie-instructies zijn van toepassing op Adobe Commerce dat op locaties wordt geïmplementeerd. Als u de B2B-extensie wilt installeren voor commerciële projecten die worden geïmplementeerd op een cloudinfrastructuur, raadpleegt u de [Commerce Cloud-infrastructuurgids](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
+>Deze installatie-instructies zijn van toepassing op Adobe Commerce dat op locaties wordt geïmplementeerd. Als u de B2B-extensie wilt installeren voor Commerce-projecten die worden geïmplementeerd op een cloudinfrastructuur, raadpleegt u de [Commerce Cloud-infrastructuurgids](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
 ## Vereisten
 
@@ -81,7 +81,7 @@ Nadat de installatie is voltooid, configureert en start u de berichtgebruikers, 
 
 ## Berichtconsumenten
 
-De B2B-extensie voor Adobe Commerce gebruikt MySQL voor beheer van berichtwachtrij. De volgende lijst maakt een lijst van de berichtconsumenten die B2B mogelijkheden steunen. Nadat u de uitbreiding installeert, begin de berichtconsumenten voor de B2B mogelijkheden die voor uw handelsafzet worden vereist.
+De Adobe Commerce B2B-extensie gebruikt MySQL voor het beheer van de wachtrij met berichten. De volgende lijst maakt een lijst van de berichtconsumenten die B2B mogelijkheden steunen. Nadat u de extensie hebt geïnstalleerd, start u het bericht dat consumenten krijgen voor de B2B-mogelijkheden die vereist zijn voor uw Commerce-winkel.
 
 | Consumenten | Beschrijving |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ U kunt programma&#39;s voor berichtconsumenten van ook vormen [Configuratie-inst
 
 ## B2B-functies inschakelen in Admin
 
-Na het installeren van B2B voor de uitbreiding van Adobe Commerce en het beginnen van berichtconsumenten, moet u ook [B2B-functies inschakelen in de beheerder](enable-basic-features.md).
+Na het installeren van de Adobe Commerce B2B-extensie en het starten van berichtgebruikers moet u ook [B2B-functies inschakelen in de beheerder](enable-basic-features.md).

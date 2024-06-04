@@ -3,9 +3,9 @@ title: Verbeterde storefronervaringen
 description: Leer over de vele hulpmiddelen die worden ontworpen om u te helpen uw klantenovereenkomst, behoud, en loyaliteit maximaliseren.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce en Magento Open Source bieden een aantal tools om u te helpen de 
 
 - **Geautomatiseerde bedrijfsregels** - Instellen [geautomatiseerde bedrijfsregels](../merchandising-promotions/price-rules-cart.md) die productrelaties definiëren en prijsregels gebruiken die kortingen activeren op basis van verschillende voorwaarden.
 
-- **Geïntegreerde B2B en B2C** - met [B2B voor Adobe Commerce](../b2b/introduction.md)kunt u zowel B2C- als B2B-klanten bedienen. Via een eenvoudig te gebruiken klantenportal kunnen B2B-klanten meerdere lagen kopers instellen met specifieke rollen en machtigingen, prijsopgaven en bestellingen bijhouden, regels voor goedkeuring van aankopen definiëren en hun krediet online beheren.
+- **Geïntegreerde B2B en B2C** - met [Adobe Commerce B2B](../b2b/introduction.md)kunt u zowel B2C- als B2B-klanten bedienen. Via een eenvoudig te gebruiken klantenportal kunnen B2B-klanten meerdere lagen kopers instellen met specifieke rollen en machtigingen, prijsopgaven en bestellingen bijhouden, regels voor goedkeuring van aankopen definiëren en hun krediet online beheren.
 
 ## Tijdstip van aankoop
 

@@ -1,10 +1,10 @@
 ---
 title: '[!UICONTROL Sales] menu'
-description: De Admin van de Handel omvat [!UICONTROL Sales] , die toegang biedt tot gereedschappen voor het werken met bestellingen afhankelijk van de plaats in de workflow.
+description: De Commerce-beheerder bevat de [!UICONTROL Sales] , die toegang biedt tot gereedschappen voor het werken met bestellingen afhankelijk van de plaats in de workflow.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Op de _Beheerder_ zijbalk, klikken **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B)
 
 Geautoriseerde kopers kunnen [de prijs](../b2b/quotes.md) met de verkoper door een [verzoek](../b2b/quote-request.md) uit de winkelwagentje.
 

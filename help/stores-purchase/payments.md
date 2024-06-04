@@ -3,9 +3,9 @@ title: Overzicht van betalingen
 description: Meer informatie over de betalingsmethoden en -services die native worden ondersteund in Adobe Commerce en Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce en Magento Open Source omvatten verschillende ingebouwde methoden
 - [Bankoverschrijving](bank-transfer.md)
 - [Cheque/postwissel](check-money-order.md)
 - [Inkooporder](purchase-order.md)
-- [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce)
+- [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B)
 
 ## Onlinebetalingsmethoden
 
@@ -78,7 +78,7 @@ Met de services en filters voor fraudebescherming worden verzonden bestellingen 
 
 >[!NOTE]
 >
->Ter ondersteuning van updates voor de naleving van de beveiligingsregels wordt de Signifyd-bescherming voor fraude verwijderd uit de handel vanaf de release 2.4.0. Als u de integratie Ondertekenen hebt gebruikt in een versie van 2.3.x of lager, is het raadzaam over te schakelen naar de [Bezig met ondertekenen van de extensie Fraud &amp; Chargeback Protection](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Zorg ervoor dat u updates voor de extensie bijhoudt volgens de richtlijnen van de leverancier.
+>Ter ondersteuning van updates voor de naleving van de beveiligingsvoorschriften wordt de Signifying Fraude Protection uit Commerce verwijderd vanaf de release 2.4.0. Als u de integratie Ondertekenen hebt gebruikt in een versie van 2.3.x of lager, is het raadzaam over te schakelen naar de [Bezig met ondertekenen van de extensie Fraud &amp; Chargeback Protection](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Zorg ervoor dat u updates voor de extensie bijhoudt volgens de richtlijnen van de leverancier.
 
 ## Bronnen voor probleemoplossing
 

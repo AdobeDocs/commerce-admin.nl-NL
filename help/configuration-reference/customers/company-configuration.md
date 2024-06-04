@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] pagina van Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van B2B voor Adobe Commerce, kan de koopervaring met bedrijf-specifieke eigenschappen worden gepersonaliseerd. B2B voor Adobe Commerce is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de B2B-functies raadpleegt u de [B2B voor Adobe Commerce-gebruikershandleiding](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de B2B-functies raadpleegt u de [Adobe Commerce B2B-gebruikershandleiding](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >De toegang tot deze configuratieopties voor B2B-functies wordt geregeld door de [rolbronnen](../../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de gebruikersrol worden geplaatst die aan de gebruiker Admin wordt toegewezen.
 
-Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-functies inschakelen](../../b2b/enable-basic-features.md) in de _B2B voor Adobe Commerce-gebruikershandleiding_.
+Voor meer informatie over het vormen van deze montages, zie [Standaard B2B-functies inschakelen](../../b2b/enable-basic-features.md) in de _Adobe Commerce B2B-gebruikershandleiding_.
 
 ## [!UICONTROL General]
 

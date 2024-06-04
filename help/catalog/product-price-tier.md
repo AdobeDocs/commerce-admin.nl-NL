@@ -3,9 +3,9 @@ title: Tier-prijsstelling
 description: Leer hoe u de prijzen op de laag gebruikt om een korting op de hoeveelheid van een productaanbieding of productpagina aan te bieden.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
 1. Als uw winkel meerdere websites heeft, kiest u de optie **[!UICONTROL Website]** waarvoor de tier - verrekenprijzen gelden.
 
-1. Indien nodig de beschikbaarheid van de prijsklasse beperken door de **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** (![B2B voor Adobe Commerce](../assets/b2b.svg) Beschikbaar met [B2B voor Adobe Commerce](./b2b/../introduction.md) alleen).
+1. Indien nodig de beschikbaarheid van de prijsklasse beperken door de **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Beschikbaar met [Adobe Commerce B2B](./b2b/../introduction.md) alleen).
 
 1. Voor **[!UICONTROL Qty]**, voert u de hoeveelheid in die moet worden besteld om de korting te ontvangen.
 

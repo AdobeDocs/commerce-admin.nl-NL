@@ -1,18 +1,18 @@
 ---
-title: Inleiding tot [!DNL B2B for Adobe Commerce]
+title: Inleiding tot [!DNL Adobe Commerce B2B]
 description: Leer hoe u geïntegreerde B2B-functies kunt gebruiken voor wat u nodig hebt bij klanten die bedrijven zijn.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
 
-# Inleiding tot [!DNL B2B for Adobe Commerce]
+# Inleiding tot [!DNL Adobe Commerce B2B]
 
-In tegenstelling tot het standaard business-to-consumer model zijn geïntegreerde B2B-functies (Business to Business) ontworpen om te voldoen aan de behoeften van verkopers (Adobe Commerce-verkopers) die klanten hebben die bedrijven zijn. Het past bedrijven met complexe organisatorische structuren en veelvoudige gebruikers met diverse rollen en niveaus van koopvergunning aan. Een doorsnee B2B-klant kan de beheerder van een detailhandelswinkel zijn, of een koper die namens een bedrijf aankopen doet. In beide gevallen vindt de transactie plaats tussen uw bedrijf en hun bedrijf. Je kunt producten ook direct aan de consument verkopen. [!DNL B2B for Adobe Commerce] is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt.
+In tegenstelling tot het standaard business-to-consumer model zijn geïntegreerde B2B-functies (Business to Business) ontworpen om te voldoen aan de behoeften van verkopers (Adobe Commerce-verkopers) die klanten hebben die bedrijven zijn. Het past bedrijven met complexe organisatorische structuren en veelvoudige gebruikers met diverse rollen en niveaus van koopvergunning aan. Een doorsnee B2B-klant kan de beheerder van een detailhandelswinkel zijn, of een koper die namens een bedrijf aankopen doet. In beide gevallen vindt de transactie plaats tussen uw bedrijf en hun bedrijf. Je kunt producten ook direct aan de consument verkopen. [!DNL Adobe Commerce B2B] is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt.
 
 Met de [installatie](install.md) en [inschakelen](enable-basic-features.md) van de B2B-extensie in uw Adobe Commerce-winkel, kunt u uw aankopen aanpassen aan klantspecifieke catalogi en prijzen en aan doelgerichte inhoud en promoties.
 

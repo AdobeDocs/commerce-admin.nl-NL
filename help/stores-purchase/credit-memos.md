@@ -3,9 +3,9 @@ title: Creditmemo's
 description: Meer informatie over creditnota's en hoe deze worden gebruikt om een gedeeltelijke of volledige terugbetaling uit te geven.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ U kunt bestellingen op drie manieren terugbetalen:
 
 - Creditering account - Betalingen met een creditrekening kunnen worden terugbetaald als een creditering van de rekening:
    - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) [Winkelkrediet](../customers/store-credit-using.md)
-   - ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) (offlinemethode)
-   - ![B2B voor Adobe Commerce](../assets/b2b.svg) (Beschikbaar bij B2B voor Adobe Commerce) [Bedrijfskrediet](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) (offlinemethode)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) [Bedrijfskrediet](../b2b/credit-company.md)
 - [Online restitutie](payments.md#online-payment-methods)—Bestellingen die via een creditcard worden betaald via een betaalgateway, zoals PayPal of Braintree, worden online terugbetaald via de betalingsprocessor.
 - [Offline restitutie](payments.md#offline-payment-methods)—Bestellingen die onder rembours worden betaald ([COD](cash-on-delivery.md)) of door [cheque of postwissel](check-money-order.md) worden offline terugbetaald.
 

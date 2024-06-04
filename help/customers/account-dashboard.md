@@ -3,9 +3,9 @@ title: Klantaccountdashboard
 description: Klanten kunnen hun eigen informatie en activiteiten beheren en controleren via het dashboard voor hun klantenaccount.
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Klanten kunnen hun eigen informatie en activiteiten beheren en controleren via h
 
 >[!NOTE]
 >
-> Met de installatie en activering van B2B voor Adobe Commerce, kan de koopervaring met bedrijf-specifieke eigenschappen worden gepersonaliseerd. Het volledige bereik van B2B-accountdashboardopties (inkooporders, aanvraaglijsten en onderhandelde koersen) kan worden ingeschakeld voor klanten die zijn gekoppeld aan een bedrijf. Voor meer informatie over de B2B-functies raadpleegt u de [B2B voor Adobe Commerce-gebruikershandleiding](../b2b/introduction.md).
+> Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Het volledige bereik van B2B-accountdashboardopties (inkooporders, aanvraaglijsten en onderhandelde koersen) kan worden ingeschakeld voor klanten die zijn gekoppeld aan een bedrijf. Voor meer informatie over de B2B-functies raadpleegt u de [Adobe Commerce B2B-gebruikershandleiding](../b2b/introduction.md).
 
 ![Het dashboard van de Rekening van het bedrijf op de storefront](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
@@ -44,14 +44,14 @@ De volgende lijst bevat informatie over alle secties beschikbaar in het dashboar
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Reward Points]**](../merchandising-promotions/rewards-loyalty.md) | Vermeldt alle bonuspunten die de klant heeft verdiend en die op aankopen kunnen worden toegepast. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Gift Registry]**](../merchandising-promotions/gift-registries.md) | Wordt gebruikt om cadeauregisters aan te bieden en bij te houden en nieuwe registers toe te voegen. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL My Invitations]**](../merchandising-promotions/invitations.md) | Vermeldt alle uitnodigingen die de klant voor geplande gebeurtenissen heeft gemaakt en verzonden. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Alleen bedrijven) Hier worden alle inkooporders vermeld die door de klant zijn ingediend of waarover de klant zeggenschap heeft, met een koppeling naar gedetailleerde informatie. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Alleen bedrijven) Hier worden alle prijsopgaven weergegeven die door de klant zijn ingediend, met een koppeling naar gedetailleerde informatie. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Alleen bedrijven) Hiermee blijven alle aanvraaglijsten die door de klant zijn gemaakt behouden. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Alleen bedrijven) Een aangewezen bedrijfsbeheerder kan bedrijfsinformatie beheren, zoals de naam en het adres van het bedrijf, de contactgegevens van de bedrijfsbeheerder en betalingsgegevens. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Alleen bedrijven) Hier wordt het huidige openstaande saldo, het beschikbare krediet en de kredietlimiet weergegeven die aan de account is toegewezen, gevolgd door een lijst met openstaande facturen. De sectie Bedrijfskrediet wordt alleen in het dashboard weergegeven wanneer [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) wordt toegelaten in de configuratie. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Alleen bedrijven) Gebruikt door de beheerder van de onderneming om de bedrijfsstructuur van de onderneming te bepalen. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Alleen bedrijven) Wordt door de beheerder van het bedrijf gebruikt om gebruikersaccounts te maken voor kopers van bedrijven. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Alleen bedrijven) Wordt gebruikt door de systeembeheerder van het bedrijf om rollen voor bedrijfgebruikers met verschillende machtigingsniveaus te definiëren. |
-| ![B2B voor Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Alleen bedrijven) Hiermee definieert u goedkeuringsregels voor inkooporders. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Alleen bedrijven) Hier worden alle inkooporders vermeld die door de klant zijn ingediend of waarover de klant zeggenschap heeft, met een koppeling naar gedetailleerde informatie. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Alleen bedrijven) Hier worden alle prijsopgaven weergegeven die door de klant zijn ingediend, met een koppeling naar gedetailleerde informatie. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Alleen bedrijven) Hiermee blijven alle aanvraaglijsten die door de klant zijn gemaakt behouden. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Alleen bedrijven) Een aangewezen bedrijfsbeheerder kan bedrijfsinformatie beheren, zoals de naam en het adres van het bedrijf, de contactgegevens van de bedrijfsbeheerder en betalingsgegevens. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Alleen bedrijven) Hier wordt het huidige openstaande saldo, het beschikbare krediet en de kredietlimiet weergegeven die aan de account is toegewezen, gevolgd door een lijst met openstaande facturen. De sectie Bedrijfskrediet wordt alleen in het dashboard weergegeven wanneer [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) wordt toegelaten in de configuratie. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Alleen bedrijven) Gebruikt door de beheerder van de onderneming om de bedrijfsstructuur van de onderneming te bepalen. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Alleen bedrijven) Wordt door de beheerder van het bedrijf gebruikt om gebruikersaccounts te maken voor kopers van bedrijven. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Alleen bedrijven) Wordt gebruikt door de systeembeheerder van het bedrijf om rollen voor bedrijfgebruikers met verschillende machtigingsniveaus te definiëren. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Alleen bedrijven) Hiermee definieert u goedkeuringsregels voor inkooporders. |
 
 {style="table-layout:auto"}

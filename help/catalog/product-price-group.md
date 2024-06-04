@@ -3,9 +3,9 @@ title: Groepsprijzen
 description: Leer hoe je groepsprijzen kunt gebruiken om prijzen voor objecten met korting in te stellen op basis van klantgroepen in je winkel.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Prijzen voor klantengroepen maken deel uit van [gedifferentieerde prijsstelling]
 
 1. In de _[!UICONTROL Customer Group Price]_sectie, klikken **[!UICONTROL Add]**.
 
-   Als uw winkel [B2B voor Adobe Commerce](../b2b/introduction.md) en heeft [gedeelde catalogi](../b2b/catalog-shared.md) deze sectie is ingeschakeld, wordt gelabeld _[!UICONTROL Catalog and Tier Price]_.
+   Als uw winkel [Adobe Commerce B2B](../b2b/introduction.md) en heeft [gedeelde catalogi](../b2b/catalog-shared.md) deze sectie is ingeschakeld, wordt gelabeld _[!UICONTROL Catalog and Tier Price]_.
 
    ![Geavanceerde prijzen](./assets/product-price-group.png){width="600" zoomable="yes"}
 

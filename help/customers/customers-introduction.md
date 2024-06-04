@@ -1,10 +1,10 @@
 ---
 title: Inleiding tot klantenbeheer
-description: Leer hoe te om de de klantenbeheerseigenschappen van de Handel te gebruiken om de klantenervaring voor uw opslag te verbeteren.
+description: Leer hoe u de Commerce-functies voor klantenbeheer kunt gebruiken om de klantervaring voor uw winkel te verbeteren.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,6 @@ Op de _Beheerder_ zijbalk, klikken [!UICONTROL Customers] om de menuopties weer 
 | [!UICONTROL Now Online] | Hier worden alle klanten en bezoekers weergegeven die momenteel [online](../customers/now-online.md) in uw winkel. |
 | [!UICONTROL Segments] | Hiermee geeft u de [klantsegmenten](../customers/customer-segments.md) die worden gebruikt om inhoud en promoties dynamisch aan specifieke klanten te tonen die op diverse eigenschappen worden gebaseerd. |
 | [!UICONTROL Customer Groups] | De [klantengroepen](../customers/customer-groups.md) bepalen welke kortingen beschikbaar zijn voor kopers en de belastingklasse voor de aankoop. |
-| [!UICONTROL Companies] | (B2B vereist voor Adobe Commerce) Hiermee worden alle actieve items weergegeven [bedrijfsrekeningen](../b2b/account-companies.md) en aanvragen die in behandeling zijn, ongeacht de instelling van de status, en bevat de gereedschappen die worden gebruikt voor het maken en [beheren](../b2b/account-company-manage.md) bedrijfsrekeningen. |
+| [!UICONTROL Companies] | (Adobe Commerce B2B vereist) Hiermee worden alle actieve items weergegeven [bedrijfsrekeningen](../b2b/account-companies.md) en aanvragen die in behandeling zijn, ongeacht de instelling van de status, en bevat de gereedschappen die worden gebruikt voor het maken en [beheren](../b2b/account-company-manage.md) bedrijfsrekeningen. |
 
 {style="table-layout:auto"}

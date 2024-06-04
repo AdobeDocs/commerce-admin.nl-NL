@@ -3,7 +3,7 @@ title: E-mailsjablonen
 description: Leer over e-mailmalplaatjes en hoe u hen kunt gebruiken om mededelingen aan uw klanten te steunen en uw merk te versterken.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Met e-mailsjablonen definieert u de indeling, inhoud en opmaak van geautomatiseerde berichten die vanuit uw winkel worden verzonden. Ze worden transactiee-mails genoemd omdat elke e-mail is gekoppeld aan een specifiek type transactie of gebeurtenis.
 
-De handel omvat een reeks ontvankelijke e-mailmalplaatjes die door diverse gebeurtenissen worden teweeggebracht die tijdens de verrichting van uw opslag plaatsvinden. Elke sjabloon is geoptimaliseerd voor elke schermgrootte en kan worden weergegeven vanaf het bureaublad en op tablets en mobiele apparaten. Er zijn diverse voorbereide e-mailsjablonen met betrekking tot klantactiviteiten, verkoop, productwaarschuwingen, beheeracties en systeemberichten die u kunt gebruiken [aanpassen](email-template-custom.md) om uw merk te weerspiegelen.
+Commerce bevat een reeks responsieve e-mailsjablonen die worden geactiveerd door verschillende gebeurtenissen die plaatsvinden tijdens het gebruik van uw winkel. Elke sjabloon is geoptimaliseerd voor elke schermgrootte en kan worden weergegeven vanaf het bureaublad en op tablets en mobiele apparaten. Er zijn diverse voorbereide e-mailsjablonen met betrekking tot klantactiviteiten, verkoop, productwaarschuwingen, beheeracties en systeemberichten die u kunt gebruiken [aanpassen](email-template-custom.md) om uw merk te weerspiegelen.
 
-E-mailberichten voor handel kunnen worden weergegeven door e-mailclients met HTML- en normale tekst. De manier waarop e-mailberichten worden weergegeven, kan per client verschillen.
+E-mailberichten van Commerce kunnen worden weergegeven door e-mailclients met HTML- en normale tekst. De manier waarop e-mailberichten worden weergegeven, kan per client verschillen.
 
 ## Uw e-maillogo voorbereiden
 
@@ -98,7 +98,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_Company]
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -121,7 +121,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -233,7 +233,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |

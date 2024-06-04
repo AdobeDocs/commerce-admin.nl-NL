@@ -3,9 +3,9 @@ title: Onderhandelbare aanhalingstekens
 description: Meer informatie over workflows met prijsopgave en hoe u deze service kunt aanbieden aan uw bedrijfsaccounts.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Tijdens het onderhandelingsproces kan het citaat alleen worden bijgewerkt door d
 
 Negotiable quotes zijn beschikbaar slechts als Adobe Commerce de volgende configuratiemontages heeft:
 
-- [De B2B-extensie voor Adobe Commerce is geïnstalleerd](install.md)
+- [De Adobe Commerce B2B-extensie is geïnstalleerd](install.md)
 - [Vormde B2B-functies](enable-basic-features.md)
    - Bedrijfsaccounts inschakelen
    - B2B-aanhalingsteken inschakelen
@@ -134,7 +134,7 @@ Alleen aanvragen met een `Open` status kan worden geweigerd.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Verstuurt het bijgewerkte prijsopgave als antwoord op de vraag van de koper. Deze knop is uitgeschakeld als de verkoper wacht op een antwoord van de koper. |
 | [!UICONTROL Back] | Hiermee wordt de _Aanhalingen_ pagina zonder wijzigingen op te slaan. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 bètamogelijkheden]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor deelnemers aan het bètaprogramma"}`<original quote name> (copy)`. Wijzig de naam door de waarde in het dialoogvenster [!UICONTROL Name] veld en het aanhalingsteken opslaan als concept. |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0 bètamogelijkheden]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Alleen beschikbaar voor deelnemers aan het bètaprogramma&quot;} Maak een nieuw aanhalingsteken van het huidige aanhalingsteken door het te kopiëren en een andere naam te geven. Wanneer het nieuwe citaat opent, is de standaardnaam `<original quote name> (copy)`. Wijzig de naam door de waarde in het dialoogvenster [!UICONTROL Name] veld en het aanhalingsteken opslaan als concept. |
 | [!UICONTROL Print] | Verzendt het aanhalingsteken naar een printer of slaat het op als een PDF-bestand. |
 | [!UICONTROL Create a copy] | Hiermee maakt u een kopie van het benoemde citaat `<original quote name> (copy)` en opent. Wijzig de naam van het nieuwe aanhalingsteken en werk het bij voordat u het opslaat als concept of naar de koper verzendt. |
 | [!UICONTROL Save as Draft] | Hiermee slaat u eventuele wijzigingen in de prijsopgave op, maar niet terugsturen naar de koper. |

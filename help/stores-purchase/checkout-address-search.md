@@ -3,9 +3,9 @@ title: Adreszoekopdracht bij afhandeling
 description: Leer hoe je adreszoekopdrachten kunt opnemen bij het afrekenen in je winkel.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als de klant geen standaard verzendadres heeft, _Verzending_ paginaweergaven _Ge
 
 ## Zoeken naar aanhalingstekens met vergrendeld adres
 
-![B2B voor Adobe Commerce](../assets/b2b.svg) (Alleen beschikbaar bij B2B voor Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B)
 
 Het toelaten van adresonderzoek beïnvloedt ook de controle voor orden die van citaten worden gecreeerd waar het aantal van de klant bewaarde adressen of de gevormde grens ontmoet overschrijdt. Wanneer de prijsopgave is voltooid en de klant doorgaat naar de kassa, wordt alleen het geselecteerde verzendadres weergegeven. Op de pagina wordt ook een bericht weergegeven dat het verzendadres vergrendeld is en alleen in de prijsopgave kan worden gewijzigd.
 

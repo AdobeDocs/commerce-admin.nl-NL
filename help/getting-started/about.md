@@ -3,9 +3,9 @@ title: Wat is Adobe Commerce
 description: Adobe Commerce is een e-commerceplatform voor ondernemingen. Raadpleeg de nieuwste functies die wereldwijd de groei van e-commerceteams stimuleren.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Beide mogelijkheden zijn compatibel met de native Adobe Commerce-opslagarchitect
 >[!TIP]
 >Lees onze documentatie voor meer informatie over B2B Commerce-mogelijkheden:
 >
->- [B2B voor Adobe Commerce-gebruikershandleiding](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [B2B voor Adobe Commerce Developer Guide](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Adobe Commerce B2B-gebruikershandleiding](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B-ontwikkelaarsgids](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Betalingsservices voor Adobe Commerce
 

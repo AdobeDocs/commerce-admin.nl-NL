@@ -4,9 +4,9 @@ description: Uitgebreide informatie over productcatalogusfuncties voor Adobe Com
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Deze handleiding is van toepassing op:
 
 >[!TIP]
 >
->B2B voor Adobe Commerce biedt u de mogelijkheid om gedeelde catalogi te onderhouden met aangepaste prijzen voor verschillende bedrijven. Naast de standaard, primaire, productcatalogus, verleent het klantentoegang tot twee types van gedeelde catalogi met verschillende prijsstructuren. Zie voor meer informatie over de functie voor gedeelde catalogi de [B2B voor Adobe Commerce-gebruikershandleiding](../b2b/catalog-shared.md).
+>Met Adobe Commerce B2B kunt u gedeelde catalogi bijhouden met aangepaste prijzen voor verschillende bedrijven. Naast de standaard, primaire, productcatalogus, verleent het klantentoegang tot twee types van gedeelde catalogi met verschillende prijsstructuren. Zie voor meer informatie over de functie voor gedeelde catalogi de [Adobe Commerce B2B-gebruikershandleiding](../b2b/catalog-shared.md).
 
 ## Beschikbare documentatie
 
