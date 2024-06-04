@@ -1,10 +1,10 @@
 ---
 title: De zijbalk Beheerder
-description: Admin van de Handel gebruikt een linkerzijbalk om tot het belangrijkste menu toegang te hebben. Handelaars hebben toegang tot alle beheerprogramma's die ze nodig hebben voor het configureren en beheren van hun winkel.
+description: De Commerce-beheerder gebruikt een linkerzijbalk om het hoofdmenu te openen. Handelaars hebben toegang tot alle beheerprogramma's die ze nodig hebben voor het configureren en beheren van hun winkel.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
-source-git-commit: 1be366de110b933aec163a675d8ed53e814dfbfe
+source-git-commit: 474e9bb6cd6dccc723165d919b1b1ebeaa26ae46
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De zijbalk links is het hoofdmenu voor de winkel _Beheerder_ en is ontworpen voo
 | ![Het menu Klanten](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | De [!UICONTROL Customers] in dit menu kunt u klantenaccounts beheren en zien welke klanten momenteel online zijn. |
 | ![Marketingmenu](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | De [!UICONTROL Marketing] in dit menu stelt u de regels en coupons voor catalogi en winkelwagentjes in. Prijsregels activeren handelingen wanneer aan een aantal specifieke voorwaarden is voldaan. |
 | ![Het menu Inhoud](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | De [!UICONTROL Content] is waar u de inhoudselementen en het ontwerp van uw opslag beheert. Leer hoe u pagina&#39;s, blokken en front-apps maakt en de presentatie van uw winkel beheert. |
-| ![Menu Rapporten](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | De [!UICONTROL Reports] biedt een breed scala aan rapporten die u inzicht geven in elk aspect van uw winkel, zoals verkoop, winkelwagentje, producten, klanten, tags, revisies en zoektermen. |
+| ![Menu Rapporten](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | De [!UICONTROL Reports] biedt een uitgebreide selectie van rapporten die u inzicht geven in elk aspect van uw winkel, zoals verkoop, winkelwagentje, producten, klanten, tags, revisies, zoektermen en 24/7 real-time prestatiebewaking en aanbevelingen van de [Analyse voor de hele site](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
 | ![Het menu Winkels](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | De [!UICONTROL Stores] bevat hulpprogramma&#39;s waarmee u elk aspect van uw winkel kunt configureren en onderhouden, inclusief installatie-instellingen voor meerdere sites, belastingen, valuta, productkenmerken en klantgroepen. |
 | ![Systeemmenu](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | De [!UICONTROL System] bevat hulpprogramma&#39;s voor het beheren van systeembewerkingen, het installeren van extensies en het beheren van webservices voor integratie met andere toepassingen. |
 | ![Extensies zoeken](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | De [!DNL Commerce Marketplace] Hier vind je Adobe Commerce en Magento Open Source oplossingen voor je winkel. |
