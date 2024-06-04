@@ -1,21 +1,21 @@
 ---
-user-guide-title: "[!DNL B2B for Adobe Commerce] Handleiding"
+user-guide-title: "[!DNL Adobe Commerce B2B] Handleiding"
 user-guide-description: Leer hoe u de geïntegreerde B2B-functies van Adobe Commerce kunt gebruiken.
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 496e3c7f03701ee3d5a222355ffab9cf0ebde543
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
 
 
-# [!DNL B2B for Adobe Commerce] Handleiding {#b2b}
+# [!DNL Adobe Commerce B2B] Handleiding {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] Handleiding](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] Handleiding](guide-overview.md)
 + [Inleiding tot B2B-functies](introduction.md)
 + [Opmerkingen bij de release](release-notes.md)
 + [Installatie](install.md)
@@ -62,4 +62,5 @@ ht-degree: 2%
    + [Het maximum van de lijst configureren](configure-requisition-lists.md)
    + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
 + Referentie {#reference}
+   + [Achteruit incompatibele wijzigingen](backward-incompatible-changes.md)
    + [Pakketten](packages.md)
