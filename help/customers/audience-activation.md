@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Dit probleem kan worden veroorzaakt door onvoldoende API-bevoegdheden voor het g
 1. Laat de systeembeheerder Adobe Experience Platform starten en ga naar **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Zoek met behulp van de e-mail over de technische account van boven naar de referenties die u wilt wijzigen.
 1. Open de referenties en selecteer **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Toevoegen **Alle toegang tot productie**.
+1. De rol toevoegen die **[!UICONTROL Manage destinations]** toestemming.
 1. Klik op **[!UICONTROL Save]**.
 1. [Regenereren](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) het toegangstoken in Console.
 1. Controleer of het token een geldige reactie biedt met de functie [API voor doelverbindingen](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
