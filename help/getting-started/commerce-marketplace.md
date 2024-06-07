@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Meer informatie over de [!DNL Commerce Marketplace], die verkopers een gekromde selectie van oplossingen aanbiedt, en gekwalificeerde ontwikkelaars de hulpmiddelen, het platform, en de eerste plaats verstrekt om een het gedijen zaken te bouwen.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ Ontwikkelaars hebben van oudsher PHP gebruikt om &#39;in-process&#39; extensies 
 
 De volgende bronnen bieden een beginpunt voor nieuwe gebruikers om vertrouwd te raken met apps:
 
-### Bron voor handel:
+### Commerce-bronnen
 
 - [I/O-gebeurtenissen instellen voor Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Gebeurtenissen configureren voor Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [De SDK van de beheerdersinterface instellen](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Een extensie converteren naar een app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Bronnen voor App Builder:
+### Bronnen voor App Builder
 
 - [Overzicht van Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [API-net instellen voor Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
@@ -79,17 +79,61 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 >
 >Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken aan [installeren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) of [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uw exemplaar. Deze eis omvat ook [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-Het installatieproces voor [!DNL Marketplace] aankopen zijn anders voor _op locatie_ installaties van Koophandel dan voor installaties die op [de Adobe Cloud Architecture][4].
+Het installatieproces voor [!DNL Marketplace] aankopen zijn anders voor _op locatie_ installaties van Commerce dan voor installaties die worden gehost op [de Adobe Cloud Architecture][4].
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## Ondersteuning
 
-Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar.
+Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar. Als wat u op Marketplace koopt niet aan uw behoeften voldoet, kunt u [om terugbetaling verzoeken](#refund-requests) binnen 25 dagen na de datum van aankoop. De Adobe herziet alle terugbetalingsverzoeken en geeft (indien goedgekeurd) de juiste terugbetaling uit. Raadpleeg voor ondersteuning van problemen met betrekking tot Commerce Marketplace de [[!DNL Marketplace] Help Center][5].
 
-Als wat u op Commerce Marketplace aanschaft, niet aan uw behoeften voldoet, kunt u binnen 25 dagen na aankoop een terugbetaling aanvragen. De Adobe herziet alle verzoeken om terugbetaling en geeft, indien goedgekeurd, de juiste terugbetaling uit.
+### Afhandelingsproblemen
 
-Raadpleeg voor ondersteuning van problemen met betrekking tot Commerce Marketplace de [[!DNL Marketplace] Help Center][5].
+De adresvelden in uw accountprofiel moeten worden ingevuld voor verificatiedoeleinden in het aankoopsysteem voor Markttoegang.
+
+1. Voeg de adresvelden toe aan uw Marketplace-accountprofiel.
+1. Sla het bijgewerkte profiel op.
+1. Ga door met het afrekenen.
+
+### Aanmeldingsproblemen
+
+Aanmeldingsproblemen hebben doorgaans betrekking op een onjuiste combinatie van uw MAGEID en e-mailadres in de accountdatabase. Neem contact op met de ondersteuning van de marktplaats.
+
+>[!INFO]
+>
+>Aankopen van apps en extensies kunnen niet worden uitgevoerd [overgedragen](#purchase-transfers) naar een nieuwe account.
+
+### Bronvragen openen
+
+Het marktondersteuningsteam verhelpt problemen met betrekking tot het [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) alleen sites. Gelieve vragen over de Magento Open Source aan de [Forum van de Gemeenschap](https://community.magento.com/) of [contact opnemen met een partner](https://business.adobe.com/products/magento/partners.html) die hulp kunnen bieden bij Magento Open Source.
+
+### Terugbetalingsaanvragen
+
+Als u een terugbetaling wilt aanvragen voor een aankoop op een Marketplace, meldt u zich aan bij uw account en voert u de volgende stappen uit:
+
+1. Klikken [!UICONTROL **Mijn profiel**] > [!UICONTROL **Aankoopgeschiedenis**].
+1. Zoek de aankoop en klik op [!UICONTROL **Terugbetaling aanvragen**].
+1. Vul het formulier voor de terugbetalingsopdracht in.
+
+Marketplace Support vraagt om informatie nadat het verzoek om terugbetaling is gegenereerd. De terugbetalingsoptie is 25 dagen na de aankoopdatum beschikbaar. Zie de [Overeenkomst voor klant van Marktplaats](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Facturen bestellen
+
+U kunt facturen voor bestellingen downloaden van de [!UICONTROL **Aankoopgeschiedenis**] in uw Marketplace account. De factuur levert de BTW of het adres van de verkoper niet, omdat dit momenteel geen marktverplichting is.
+
+Als u een bestelfactuur wilt downloaden voor een aankoop in een handelsplaats, meldt u zich aan bij uw Marketplace-account en voert u de volgende stappen uit:
+
+1. Klikken [!UICONTROL **Mijn profiel**] > [!UICONTROL **Aankoopgeschiedenis**].
+1. Zoek de aankoop.
+1. Klik op het printerpictogram in de rechterbovenhoek van de volgorde.
+
+### Inkoopoverdrachten
+
+Het marktondersteuningsteam heeft niet de mogelijkheid om aankopen naar een andere account over te dragen. U moet alle apps en extensies aanschaffen op de primaire Commerce-account om installatie- en implementatieproblemen te voorkomen. Adobe Commerce heeft recht op één unieke identificatiecode. Aangezien Composer wordt gebruikt voor de installatie, wordt slechts één set [toegangstoets](#create-an-access-key) kan worden gebruikt. De enige beschikbare oplossing is: [om terugbetaling verzoeken](#refund-requests) op de aankooprekening van de Marketplace (indien toegestaan door het terugbetalingsbeleid van Adobe Commerce).
+
+U kunt [delen](commerce-account-share.md) een Commerce-exemplaar via de primaire account. Gedeelde toegang verleent speciale toestemmingen aan een ondergeschikte rekening van een primaire rekening. Het gedeelde toegangspunt wordt gegenereerd van de primaire account. De primaire account kan de Commerce-account, de hoofdzakelijke account of een account zijn die binnen een organisatie wordt gedeeld.
+
+Deze speciale machtigingen verlenen Adobe Commerce hetzelfde toegangsniveau als de primaire rechten, maar ze worden niet overgedragen naar Adobe Commerce Marketplace of Developer Portal. Dit betekent dat het kopen van een extensie van een ondergeschikte rekening op de Marketplace niet kan worden gedeeld met de primaire account. Gedeelde toegang is een eenrichtingsweg (primair account dat ondergeschikt is). Het werkt niet wanneer een ondergeschikte account probeert terug te delen naar de primaire account.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
