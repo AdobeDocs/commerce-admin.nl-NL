@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL 2FA] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL 2FA] pagina van Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 
 | Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Algemeen | Het leven in seconden van elk eenmalig wachtwoord (OTP) dat door de Authenticator van Google wordt geproduceerd. Standaard: `30` |
+| [!UICONTROL OTP Window] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) het systeem het eenmalige wachtwoord (OTP) van een beheerder accepteert nadat het is verlopen. Kan niet hoger zijn dan het leven van één enkele OTP (gewoonlijk 30 seconden). Standaard: `29` |
 
 {style="table-layout:auto"}
 

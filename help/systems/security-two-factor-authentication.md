@@ -4,9 +4,9 @@ description: Leer over twee-factor authentificatiesteun om de veiligheid van uw 
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Voer de instellingen in voor elke 2FA-methode die u nodig hebt.
 
 Om te veranderen hoe lang het eenmalige wachtwoord (OTP) tijdens login beschikbaar is, ontruim **[!UICONTROL Use system value]** selectievakje. Voer vervolgens het aantal seconden in dat u de **[!UICONTROL OTP Window]** geldig zijn.
 
+![Beveiligingsconfiguratie - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 en later, controleert de OTP het plaatsen van de vensterconfiguratie hoe lang (in seconden) het systeem het éénmalige wachtwoord van een beheerder (OTP) goedkeurt nadat het is verlopen. Deze waarde moet minder dan 30 seconden zijn. De standaardinstelling van het systeem is `1`.<br><br> In versie 2.4.6, bepaalt het OTP venster het plaatsen het aantal verleden en toekomstige codes OTP die geldig blijven. Een waarde van `1` Geeft aan dat de huidige OTP-code plus één code in het verleden en één code in de toekomst geldig blijven op een bepaald tijdstip.
+>In Adobe Commerce 2.4.7 en later, controleert de OTP het plaatsen van de vensterconfiguratie hoe lang (in seconden) het systeem het éénmalige wachtwoord van een beheerder (OTP) goedkeurt nadat het is verlopen. Deze waarde moet minder dan 30 seconden zijn. De standaardinstelling van het systeem is `29`.<br><br> In versie 2.4.6, bepaalt het OTP venster het plaatsen het aantal verleden en toekomstige codes OTP die geldig blijven. Een waarde van `1` Geeft aan dat de huidige OTP-code plus één code in het verleden en één code in de toekomst geldig blijven op een bepaald tijdstip.
 
 ### [!DNL Duo Security]
 
