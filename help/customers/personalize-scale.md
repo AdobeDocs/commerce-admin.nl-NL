@@ -3,9 +3,9 @@ title: Maak aansprekende, persoonlijke ervaringen op schaal
 description: Leer welke functies in Adobe zijn [!DNL Commerce] Hiermee kunt u een persoonlijke ervaring voor kopers maken.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] Het delen van gegevens omvat twee zeer belangrijke compone
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Gebruik [!DNL Real-Time CDP] publiek om dynamische inhoudblokken, promoties en verwante productregels op uw Adobe aan te passen [!DNL Commerce] site.
 
+### Persoonlijke ervaring met winkelprestaties over elk kanaal, op schaal
+
+Adobe [!DNL Commerce] kan voordeel halen uit een krachtige winkel, genoemd [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/), om persoonlijke ervaringen op al uw kanalen te bieden, met AI-mogelijkheden in de kern en snelheid als basis.
+
+Met Edge Delivery Services kunt u:
+
+- **Aangepaste inhoud maken**: Gebruik op documenten gebaseerde authoring, native experimenten met algemene AI-tekst- en afbeeldingsvariaties om de ervaring op schaal aan te passen. Met Elementen en Generative AI-inhoud kunt u op schaal product- en marketingafbeeldingen maken.
+
+- **Variaties genereren**: Hiermee kunnen auteurs van inhoud Generative AI gebruiken om grote volumes met gepersonaliseerde AI-toepassingen te maken [tekstinhoud en afbeeldingsvariaties](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) met Adobe Firefly.
+
+- **Distribueren via Edge Delivery Services Storefront**: Inhoud op de Edge- en Commerce-functionaliteit, aangedreven door drop-in componenten, om op maat gesneden prachtige ervaringen voor uw publiek te maken.
+
+- **Commerce en Adobe Experience Manager Assets**: Generatieve creatie van AI-productactiva en schaalvariaties. Maak, lever en controleer de levering van inhoud via elk kanaal.
+
+![Drop-ins: pagina met productdetails](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### Buiten-de-doos Personalisatie: Ga aan de slag met inheemse Adobe [!DNL Commerce] functies
 
 Adobe [!DNL Commerce] biedt krachtige personalisatie met de native out-of-the-box mogelijkheden. De volgende tabel beschrijft [!DNL Commerce] functies die u direct kunt activeren om aan de slag te gaan met uw persoonlijke voorkeur.
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] klanten gebruiken out-of-the-box mogelijkheden en delen ge
 
 | Hoofdletters en kleine letters | Oplossing |
 |---|---|
-| **Persoonlijke site-inhoud** - Websitebanners en andere pagina-inhoud aanpassen op basis van winkelacties, zoals bladeren door producten en categorie-affiniteiten. Stel best-geschikte inhoud op die op resultaten van tests A/B of bedrijfsdoelstellingen wordt gebaseerd. | **Adobe [!DNL Commerce] Alleen**:<br>Segmentspecifiek implementeren [dynamische inhoudblokken](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] met Real-Time CDP **:<br>Gebruiken [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) om publiek-specifieke dynamische inhoudsblokken op te stellen die aan acties in real time en verenigde gegevens van het klantenprofiel antwoorden, terwijl het centraal beheren van profielen en publiek in Real-Time CDP.<br>**[!DNL Commerce] with[!DNL Target]**:<br>Pas elk deel van de site-ervaring aan, inclusief inhoud, navigatie-items, volledige paginalay-outs en meer met Adobe [!DNL Commerce] gegevens in Adobe [!DNL Target]. A/B testinhoud, selecteert en implementeert automatisch winnende inhoud voor elke klant.<br>**[!DNL Commerce] met AEM Assets **:<br>Sla al je inhoud op in Adobe Experience Manager Assets. U hebt vanuit Adobe Commerce native toegang tot die inhoud. Met GenAI kunt u inhoudvariaties maken die u kunt aanpassen aan verschillende segmenten of soorten publiek. |
+| **Persoonlijke site-inhoud** - Websitebanners en andere pagina-inhoud aanpassen op basis van winkelacties, zoals bladeren door producten en categorie-affiniteiten. Stel best-geschikte inhoud op die op resultaten van tests A/B of bedrijfsdoelstellingen wordt gebaseerd. | **Adobe [!DNL Commerce] Alleen**:<br>Segmentspecifiek implementeren [dynamische inhoudblokken](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] met Real-Time CDP **:<br>Gebruiken [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) om publiek-specifieke dynamische inhoudsblokken op te stellen die aan acties in real time en verenigde gegevens van het klantenprofiel antwoorden, terwijl het centraal beheren van profielen en publiek in Real-Time CDP.<br>**[!DNL Commerce] with[!DNL Target]**:<br>Pas elk deel van de site-ervaring aan, inclusief inhoud, navigatie-items, volledige paginalay-outs en meer met Adobe [!DNL Commerce] gegevens in Adobe [!DNL Target]. A/B testinhoud, selecteert en implementeert automatisch winnende inhoud voor elke klant.<br>**[!DNL Commerce] met AEM Assets **:<br>Sla al je inhoud op in Adobe Experience Manager Assets. U hebt vanuit Adobe Commerce native toegang tot die inhoud. Gebruik Generatieve AI om inhoudvariaties te maken die u kunt aanpassen aan verschillende segmenten of soorten publiek. |
 | **Persoonlijke onsite aanbieding op basis van gedrag** - Promoties aanpassen op basis van acties van winkels, zoals bladeren door producten en rubriekaffiniteiten. Implementeer de volgende beste aanbieding op basis van de resultaten van A/B-tests of bedrijfsdoelstellingen. | **Adobe [!DNL Commerce] Alleen**:<br>Segmentspecifieke catalogus implementeren en [regels betreffende de kartonprijs](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] met Real-Time CDP**:<br>Gebruiken [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) om publiekspecifieke aanbiedingen te implementeren en tegelijkertijd profielen/publiek centraal te beheren in Real-Time CDP.<br>**Commerce met[!DNL Target]**: De offer decisioning van het gebruik om te bepalen welke aanbieding om op te stellen, test A/B of vastgestelde bedrijfsdoelstellingen om aanbiedingen te begeleiden die in Adobe Commerce worden opgesteld. |
 
 ### Analyses en inzichten
