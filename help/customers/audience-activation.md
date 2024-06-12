@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 mei 2023_
 ![Nieuw](../assets/new.svg) - De [Real-Time CDP-dashboard Soorten publiek](#real-time-cdp-audiences-dashboard) om het actieve publiek in uw Adobe Commerce-instantie te sorteren, te zoeken en te filteren.
 
 +++
+
+### 2.2.0.
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+_12 juni 2024_
+
+![Nieuw](../assets/new.svg) - GA-release voor [verwante productregels](../merchandising-promotions/product-related-rule-create.md) door het publiek geïnformeerd.
 
 ### 2.1.1.
 
@@ -172,9 +180,11 @@ Met de [!DNL Audience Activation] extensie ingeschakeld, kunt u:
 
 - [Een regel voor een winkelwagenprijs maken](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) geïnformeerd door het publiek
 - [Een dynamisch blok maken](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) geïnformeerd door het publiek
-- [(**Beta**) Een regel voor een verwant product maken](../merchandising-promotions/product-related-rule-create.md) geïnformeerd door het publiek
+- [Een regel voor een verwant product maken](../merchandising-promotions/product-related-rule-create.md) geïnformeerd door het publiek
 
-Voor een volledige gebruiksscenario van begin tot eind over hoe te om uit te voeren [!DNL Commerce] gegevens naar Real-Time CDP, maak een publiek en activeer dat publiek vervolgens naar [!DNL Commerce], zie [Een publiek maken in Real-Time CDP met [!DNL Commerce] gebeurtenisgegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Voor een volledige gebruiksscenario van begin tot eind over hoe te om uit te voeren [!DNL Commerce] gegevens naar Real-Time CDP, maak een publiek en activeer dat publiek vervolgens naar [!DNL Commerce], zie [Een publiek maken in Real-Time CDP met [!DNL Commerce] gebeurtenisgegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP-doeldashboard
 
@@ -195,6 +205,7 @@ Het dashboard bevat de volgende velden:
 | `Websites` | Geeft aan welke websites zijn geconfigureerd om het publiek te gebruiken. |
 | `Dynamic Blocks` | Geeft aan welke dynamische blokken zijn geconfigureerd om het publiek te gebruiken. |
 | `Cart Price Rules` | Geeft aan welke regels voor de winkelwagenprijs zijn geconfigureerd om het publiek te gebruiken. |
+| `Related Product Rules` | Geeft aan welke gerelateerde productregels zijn geconfigureerd om het publiek te gebruiken. |
 | `Last updated` | Geeft aan wanneer het publiek is gewijzigd in Real-Time CDP. |
 | `Sync now` | Hiermee haalt u nieuwe of bijgewerkte soorten publiek op uit Real-Time CDP. |
 | `Customize table` | Hiermee kunt u de `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, en `Last updated` kolommen. |

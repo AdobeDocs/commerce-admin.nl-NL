@@ -3,9 +3,9 @@ title: Een regel voor een verwant product maken
 description: Leer hoe u een gerelateerde productregel maakt die kan worden geactiveerd voor het weergeven van verwante producten, upsells en cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Het proces om een verwante productregel tot stand te brengen is gelijkaardig aan
 
    - Als de regel van toepassing is op een specifieke [klantensegment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** tot `Specified` en kies het klantensegment van de lijst.
 
-   - (**Beta**) Als de regel van toepassing is op een specifieke [Real-Time CDP-publiek](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** tot `Specified` en kiest u het Real-Time CDP-publiek in de lijst. Deze functie is in bèta. Als u wilt deelnemen aan het bètaprogramma, verzendt u een aanvraag naar [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Als de regel van toepassing is op een specifieke [Real-Time CDP-publiek](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** tot `Specified` en kiest u het Real-Time CDP-publiek in de lijst. Deze functie is in bèta. Als u wilt deelnemen aan het bètaprogramma, verzendt u een aanvraag naar [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Regel voor verwante producten - Real-Time CDP-publiek](./assets/rtcdp-related-products.png){width="500"}
 
