@@ -1,20 +1,20 @@
 ---
-title: Een Commerce-account overdragen
+title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '986'
 ht-degree: 1%
 
 ---
 
-# Een Commerce-account overdragen
+# Een Commerce-account overmaken
 
-Naarmate de zakelijke verantwoordelijkheden veranderen, moet u mogelijk de eigendom van uw bestaande Commerce-account overdragen aan een nieuwe eigenaar of aan een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
+Als uw zakelijke verantwoordelijkheden veranderen, moet u mogelijk het eigendom van uw bestaande Commerce-account overdragen aan een nieuwe eigenaar of een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
 
-De volgende informatie beschrijft het proces om een rekening van de Handel (MAGEID) over te brengen. Er zijn geen wijzigingen voor het eigendom van een cloud-account (cloud project). Voor meer informatie over de toegang van het wolkenproject, zie [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in de _Handleiding voor handel in Cloud-infrastructuur_.
+De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in de _Handleiding voor handel in Cloud-infrastructuur_.
 
 ## Identificeer uw overdrachtstype
 
@@ -30,11 +30,11 @@ Hoe u deze overdracht voltooit, hangt af van welke van de volgende scenario&#39;
 
 >[!NOTE]
 >
->Aangezien Adobe Commerce met andere oplossingen van de Adobe blijft integreren, vereist een rekening van de Handel (MAGEID) nu een vereniging met een login van de Adobe. Deze Adobe ID gebruikt hetzelfde e-mailadres dat is verbonden met je Commerce-account.
+>Aangezien Adobe Commerce met andere oplossingen van de Adobe blijft integreren, vereist een rekening van Commerce (MAGEID) nu een vereniging met een Adobe login. Deze Adobe ID gebruikt hetzelfde e-mailadres als dat van uw Commerce-account.
 
 >[!NOTE]
 >
->Als de huidige of de nieuwe eigenaar een Adobe aanmeldingsaccount heeft die is gekoppeld aan andere Adobe producten/services, kunt u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) voor hulp bij het overmaken van een handelsrekening naar een andere Adobe ID.
+>Als de huidige of de nieuwe eigenaar een Adobe aanmeldingsaccount heeft die is gekoppeld aan andere Adobe producten/services, kunt u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) voor hulp bij het overmaken van een Commerce-rekening naar een andere Adobe ID.
 
 ## Nieuwe Adobe ID en e-mailwijziging
 
@@ -44,7 +44,7 @@ Hoe u deze overdracht voltooit, hangt af van welke van de volgende scenario&#39;
 
 Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die account vervolgens wijzigen in het e-mailadres voor de nieuwe eigenaar.
 
-1. Ga naar uw [Handelsrekening](https://account.magento.com/customer/account/login/).
+1. Ga naar uw [Commerce-account](https://account.magento.com/customer/account/login/).
 
 1. Klik op **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   Dit leidt tot een Adobe ID en verbindt het met de huidige rekening van de Handel (MAGEID). Met deze accountkoppeling kunt u _[!UICONTROL Email]_veld wordt geblokkeerd. Het bijbehorende e-mailadres wordt beheerd door de Adobe ID-account.
+   Hiermee wordt een Adobe ID gemaakt en gekoppeld aan de huidige Commerce-account (MAGEID). Met deze accountkoppeling kunt u _[!UICONTROL Email]_veld wordt geblokkeerd. Het bijbehorende e-mailadres wordt beheerd door de Adobe ID-account.
 
 1. Navigeren naar [account.adobe.com](https://account.adobe.com/).
 
