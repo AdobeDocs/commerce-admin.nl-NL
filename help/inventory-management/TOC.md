@@ -1,18 +1,18 @@
 ---
-user-guide-title: "[!DNL Inventory Management] Gebruikershandleiding"
+user-guide-title: "[!DNL Inventory Management] Handboek"
 user-guide-description: Leren gebruiken [!DNL Inventory Management] functies om de hoeveelheden voor verkoop te behouden en verzendingen te verwerken [!DNL Commerce] bestellingen.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 1%
 
 ---
 
 
-# [!DNL Inventory Management] Gebruikershandleiding {#inventory}
+# [!DNL Inventory Management] Handboek {#inventory}
 
 - [Inventory management Guide](guide-overview.md)
 - [Inleiding tot [!DNL Inventory Management]](introduction.md)
@@ -23,7 +23,7 @@ ht-degree: 4%
    - [Status van bestelling en boeking](order-status.md)
    - [Productsoorten](product-types.md)
 - Aan de slag {#get-started}
-   - [Verbeteringen in de handel](migrate.md)
+   - [Commerce-upgrades](migrate.md)
    - [Installeren en bijwerken](install-update.md)
    - [Zakelijke aanschaf](merchant-sourcing.md)
    - [Inventarisatie uitbreiden en herstructureren](expand-restructure.md)
@@ -58,3 +58,5 @@ ht-degree: 4%
    - [Overzicht](shipments.md)
    - [Verzendingen maken](shipments-create.md)
 - [CLI-verwijzing](cli.md)
+- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

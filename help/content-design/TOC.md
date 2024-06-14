@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -79,3 +79,5 @@ ht-degree: 0%
    - [Staging-dashboard](content-staging-dashboard.md)
    - [Een campagneitem toevoegen](content-staging-add-item.md)
    - [Een voorvertoning van een campagne weergeven](content-staging-preview.md)
+- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

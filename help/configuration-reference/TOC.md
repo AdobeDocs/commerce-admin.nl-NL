@@ -5,10 +5,10 @@ breadcrumb-title: Configuratieverwijzing
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -78,9 +78,11 @@ ht-degree: 1%
 - [Sales Channel](./sales-channels.md)
 - Services {#services}
    - [Web-API](./services/magento-web-api.md)
-   - [Commerciële diensten](./services/saas.md)
+   - [Commerce Services](./services/saas.md)
    - [OAuth](./services/oauth.md)
 - Geavanceerd {#advanced}
    - [Beheerder](./advanced/admin.md)
    - [Systeem](./advanced/system.md)
    - [Ontwikkelaar](./advanced/developer.md)
+- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

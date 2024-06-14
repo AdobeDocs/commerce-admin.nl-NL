@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce en Magento Open Source bevatten veel tool
 breadcrumb-title: Merchandising en promoties
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -87,3 +87,5 @@ ht-degree: 0%
    - [Google-tagbeheer](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google-contentexperimenten](google-content-experiments.md)
+- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

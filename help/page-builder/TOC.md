@@ -1,21 +1,21 @@
 ---
-user-guide-title: "[!DNL Page Builder] Gebruikershandleiding"
+user-guide-title: "[!DNL Page Builder] Handboek"
 user-guide-description: Leren gebruiken [!DNL Page Builder] eigenschappen om inhoud-rijke pagina's met douanelay-outs tot stand te brengen die uw visueel het vertellen verbeteren, en klantenovereenkomst en loyaliteit drijven.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# [!DNL Page Builder] Gebruikershandleiding {#page-builder}
+# [!DNL Page Builder] Handboek {#page-builder}
 
-- [[!DNL Page Builder] Gebruikershandleiding](guide-overview.md)
+- [[!DNL Page Builder] Handboek](guide-overview.md)
 - [Inleiding tot [!DNL Page Builder]](introduction.md)
 - [Opmerkingen bij de release](release-notes.md)
 - [Configuratie en installatie](setup.md)
@@ -46,3 +46,5 @@ ht-degree: 8%
    - [Producten](products.md)
    - [Product Recommendations](recommendations.md)
 - [Sjablonen](templates.md)
+- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
