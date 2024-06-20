@@ -3,9 +3,9 @@ title: Gegevensbeheerdashboard
 description: Leer hoe u toegang krijgt tot inzichten over gegevensstromen voor [!DNL Catalog Service], [!DNL Live Search], en [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Wanneer u producten in de Commerce-database bijwerkt, worden de productgegevens 
 >De tijd die nodig is om de synchronisatie te voltooien, is afhankelijk van de grootte van de catalogus en het volume van de bijgewerkte gegevens.
 
 Als het aantal verwerkte producten overeenkomt met het aantal bijgewerkte producten, geeft dit aan dat de synchronisatie is voltooid.
+
+>[!NOTE]
+>
+>Adobe verstrekt ook een bevel-lijn interface en systeemlogboeken die de ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatieverrichtingen te beheren en te volgen en fouten voor de diensten van Commerce op te lossen SaaS. Zie voor meer informatie de [Handleiding voor het exporteren van SaaS-gegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Lijst van gesynchroniseerde producten
 
