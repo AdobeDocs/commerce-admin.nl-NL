@@ -3,9 +3,9 @@ title: Klantrapporten
 description: Klantrapporten die beschikbaar zijn in Adobe Commerce en Magento Open Source bieden inzicht in de activiteiten van klanten gedurende een opgegeven periode of datumbereik.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,8 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 | [!UICONTROL Interval] | De orde totale interval, door `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | De naam van de klant die de bestellingen heeft geplaatst. |
 | [!UICONTROL Orders] | Het aantal orden voor het gespecificeerde interval. |
-| [!UICONTROL Average] | Gemiddeld orderbedrag. |
-| [!UICONTROL Total] | De som van alle orders voor de periode. |
+| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
+| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Als gevolg hiervan verschilt het in het rapport vermelde totaal van het bedrag dat in de ordergegevens wordt vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 | [!UICONTROL Interval] | Het interval van de ordentelling, door `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | De klant die de bestelling heeft geplaatst. |
 | [!UICONTROL Orders] | Het aantal orden voor het gespecificeerde interval. |
-| [!UICONTROL Average] | Gemiddeld orderbedrag. |
-| [!UICONTROL Total] | De som van alle orders voor de periode. |
+| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
+| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Als gevolg hiervan is het totaal in het rapport anders dan het bedrag in de orderdetails in gevallen waarin de ordertotalen getallen omvatten. |
 
 {style="table-layout:auto"}
 
