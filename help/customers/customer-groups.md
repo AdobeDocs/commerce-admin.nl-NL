@@ -3,9 +3,9 @@ title: Klantengroepen
 description: Gebruik klantengroepen om te bepalen welke kortingen aan klanten beschikbaar zijn die aan een groep en de belastingklasse worden toegewezen die met de groep wordt geassocieerd.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
+source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 1. Klik op **[!UICONTROL Save Customer Group]**.
 
 ## Een klant toewijzen aan een andere groep
+
+>[!NOTE]
+>
+>Nadat het veranderen van de bedrijvengroep, moet een bedrijfgebruiker zich afmelden en op Storefront aanmelden om nieuwe prijzen in de catalogus te zien.
 
 1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
