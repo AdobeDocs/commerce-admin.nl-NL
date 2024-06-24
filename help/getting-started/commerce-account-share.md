@@ -3,9 +3,9 @@ title: Delen a [!DNL Commerce] account
 description: Leer hoe u beperkte toegang tot uw [!DNL Commerce] rekening voor andere [!DNL Commerce] rekeninghouders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ De [!DNL Commerce] Het ondersteuningsteam heeft geen toegang tot de account en k
    De nieuwe gebruikersgegevens worden weergegeven in het dialoogvenster _[!UICONTROL Manage Permissions]_op de pagina Gedeelde toegang en er wordt een e-mailuitnodiging met instructies voor toegang tot de gedeelde account verzonden naar de nieuwe gebruiker.
 
    ![Rechten voor gedeelde toegang beheren](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>De toegang tot de _[!UICONTROL Security Tool]_- Elke gebruiker met een MAGE-id kan het hulpprogramma Beveiligingsscan met zijn eigen account instellen. Ze hebben alleen de benodigde rechten nodig om wijzigingen aan te brengen in de site en om de eigendom van het domein te controleren met behulp van een van de [vereiste methoden](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Een gedeelde account openen
 
