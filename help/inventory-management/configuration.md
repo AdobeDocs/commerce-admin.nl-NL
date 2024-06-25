@@ -3,9 +3,9 @@ title: "Configureren [!DNL Inventory Management]"
 description: Meer informatie over de configuratie van [!DNL Inventory Management] opties die bronbeschikbaarheid, opslagproducten, en ordeverzending bepalen.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Een andere manier u de drempel van de voorraadbeschikbaarheid kunt gebruiken is 
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Hiermee wordt bepaald of onderdelen van een product afzonderlijk kunnen worden verzonden. Deze optie is zichtbaar wanneer **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Hiermee geeft u aan of Achterorden zijn toegestaan. Gespecificeerd op het niveau van de bron, berekend op het niveau van de voorraad op basis van toegewezen bronnen. Indien ingeschakeld om achtergronden toe te staan, wordt een negatieve waarde voor de drempel voor Uit-van-voorraad ingesteld (zie [Backorders configureren](backorders.md)) wordt aanbevolen. Opties:<br />**[!UICONTROL No Backorders]**: accepteert geen backorders wanneer het product uit voorraad is.<br />**[!UICONTROL Allow Qty Below 0]**: Accepteert backorders als de hoeveelheid onder nul daalt.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Accepteert backorders wanneer het aantal onder nul daalt, maar waarschuwt klanten dat de orden nog kunnen worden geplaatst. |
 | [!UICONTROL Notify for Quantity Below] | Hiermee stelt u de hoeveelheid in die een melding Hoeveelheid onder activeert, met waarschuwing voor een lage voorraad. Dit bedrag wordt in mindering gebracht op de verkoopbare hoeveelheid en niet op de voorraadhoeveelheid. |
-| [!UICONTROL Enable Qty Increments] | Hiermee wordt bepaald of het product in hoeveelheden kan worden verkocht. Indien ingeschakeld, voert u de hoeveelheid producten in die u in stappen wilt aanschaffen. |
+| [!UICONTROL Enable Qty Increments] | Hiermee wordt bepaald of het product in hoeveelheden kan worden verkocht. Indien ingeschakeld, voert u de hoeveelheid producten in die u in stappen wilt aanschaffen. De verhogingen plaatsen hoeveel productpunten als één enkel product, en als kind van configureerbare, gegroepeerde en bundelproducten moeten worden gekocht. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] gebruikt deze waarde niet. Wanneer u een retour- of creditnota voltooit, wordt de producthoeveelheid automatisch teruggestuurd naar de desbetreffende bronhoeveelheid. Zie [Productopties configureren](product-options.md). |
 
 ## De daling van de configuratie en overerving

@@ -3,9 +3,9 @@ title: "Configureren [!DNL Inventory Management] productopties"
 description: Leer hoe u de [!DNL Inventory Management] productconfiguratieopties.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ De hoeveelheden en extra instellingen configureren per [toegevoegde bron](source
 
    Een artikel dat in stappen van zes wordt verkocht, kan bijvoorbeeld worden aangeschaft in hoeveelheden van 6, 12, 18 enzovoort.
 
+   **[!UICONTROL Qty Increments]** in het veld wordt bepaald hoeveel producten als één product en als onderliggend product van configureerbare, gegroepeerde en gebundelde producten moeten worden aangeschaft.
+
 1. Klik op **[!UICONTROL Done]** en vervolgens **[!UICONTROL Save]**.
 
 ### Veldomschrijvingen
@@ -113,7 +115,7 @@ De hoeveelheden en extra instellingen configureren per [toegevoegde bron](source
 | [!UICONTROL Qty Uses Decimals] | Algemeen | Hiermee bepaalt u of klanten een decimale waarde in plaats van een geheel getal kunnen gebruiken bij het invoeren van de geordende hoeveelheid. Opties:<br />`Yes` - Laat waarden toe om als decimalen in plaats van als hele getallen te worden ingegaan. Decimalen zijn geschikt voor producten die worden verkocht in gewicht, volume of lengte.<br />`No` - Vereist dat de kwantitatieve waarden als gehele getallen worden ingevoerd. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Algemeen | Hiermee wordt bepaald of onderdelen van het product afzonderlijk kunnen worden verzonden. Deze optie is zichtbaar wanneer **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Algemeen | Hiermee bepaalt u hoe achterorden worden beheerd. De achterorden veranderen niet de verwerkingsstatus van de orde. Geldmiddelen worden nog steeds onmiddellijk toegestaan of vastgelegd wanneer de bestelling wordt geplaatst, ongeacht of het product in voorraad is. De producten worden verzonden zodra ze beschikbaar zijn. Als deze optie is ingeschakeld, kunt u het beste een negatief bedrag voor de drempelwaarde voor de uit-of-voorraad invoeren. Opties:<br/>`No Backorders` - Accepteert geen backorders wanneer het product uit voorraad is.<br />`Allow Qty Below 0` - Accepteert backorders als de hoeveelheid onder nul daalt.<br />`Allow Qty Below 0 and Notify Customer` - Accepteert backorders wanneer het aantal onder nul daalt, maar waarschuwt klanten dat de orders nog kunnen worden geplaatst. |
-| [!UICONTROL Enable Qty Increments] | Algemeen | Hiermee wordt bepaald of het product in hoeveelheden kan worden verkocht. |
+| [!UICONTROL Enable Qty Increments] | Algemeen | Hiermee wordt bepaald of het product in hoeveelheden kan worden verkocht. De verhogingen plaatsen hoeveel productpunten als één enkel product, en als kind van configureerbare, gegroepeerde en bundelproducten moeten worden gekocht. |
 
 >[!NOTE]
 >
