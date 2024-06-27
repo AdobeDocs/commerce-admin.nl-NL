@@ -3,9 +3,9 @@ title: Gegevensoverdracht
 description: Meer informatie over ondersteuning voor gegevensoverdracht, waaronder gegevensvalidatie.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
+source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ Met de gereedschappen voor importeren en exporteren kunt u meerdere records in �
 
 U kunt bijvoorbeeld nieuwe producten aan uw voorraad toevoegen, productgegevens en geavanceerde prijsgegevens bijwerken en een reeks bestaande producten vervangen door nieuwe producten. Met de gereedschappen voor importeren en exporteren kunt u grote productcatalogi efficiënter beheren, omdat u de gegevens kunt exporteren, bewerken in een spreadsheet en deze weer in uw winkel kunt importeren in plaats van meerdere bewerkingen uit te voeren in de beheerfunctie.
 
-Naast de import- en exportfuncties heeft Adobe Commerce processen zoals [SaaS-gegevens exporteren](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) die productgegevens van de Commerce-server exporteren naar SaaS-services. SaaS-gegevensexport is geïntegreerd met Commerce SaaS Services, waaronder [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [Catalogusservice](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview), en [Prijsindexering SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. SaaS-gegevensexport is geïntegreerd met Commerce SaaS Services, waaronder [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), en [Catalogusservice](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Zie voor meer informatie de [Handleiding voor het exporteren van SaaS-gegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Gegevensvalidatie
 
