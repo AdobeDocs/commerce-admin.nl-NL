@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Commerce B2B] opmerkingen vrijgeven'
 description: Lees de release-notities voor meer informatie over wijzigingen in [!DNL Adobe Commerce B2B] lozingen.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 ![Probleem opgelost](../assets/fix.svg) <!--ACP2E-1825-->Aankooporders kunnen niet meer worden geplaatst door een gebruiker die met het bedrijf is geassocieerd nadat het bedrijf is geblokkeerd. Eerder had een gebruiker die banden had met het bedrijf kooporders kunnen plaatsen wanneer het bedrijf werd geblokkeerd.
 
 ![Probleem opgelost](../assets/fix.svg)<!--ACP2E-1933-->De beheerders van het bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. Eerder heeft Commerce een fout geregistreerd toen een Admin-gebruiker probeerde een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+
+![Nieuw](../assets/new.svg) Toegevoegde compatibiliteit met de patchreleases van Adobe Commerce 2.4.7-p1 en 2.4.6-p6.
+
 
 ## B2B v1.4.2
 
