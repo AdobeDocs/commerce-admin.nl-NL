@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Meer informatie over de [!DNL Commerce Marketplace], die verkopers een gekromde selectie van oplossingen aanbiedt, en gekwalificeerde ontwikkelaars de hulpmiddelen, het platform, en de eerste plaats verstrekt om een het gedijen zaken te bouwen.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ De volgende bronnen bieden een beginpunt voor nieuwe gebruikers om vertrouwd te 
 - [De SDK van de beheerdersinterface instellen](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Een extensie converteren naar een app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Bronnen voor App Builder
+### App Builder-bronnen
 
-- [Overzicht van Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Commerce App Builder - Overzicht](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [API-net instellen voor Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [App Builder-apps gebruiken](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD voor App Builder-apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
@@ -85,7 +85,7 @@ Het installatieproces voor [!DNL Marketplace] aankopen zijn anders voor _op loca
 
 ## Ondersteuning
 
-Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar. Als wat u op Marketplace koopt niet aan uw behoeften voldoet, kunt u [om terugbetaling verzoeken](#refund-requests) binnen 25 dagen na de datum van aankoop. De Adobe herziet alle terugbetalingsverzoeken en geeft (indien goedgekeurd) de juiste terugbetaling uit. Raadpleeg voor ondersteuning van problemen met betrekking tot Commerce Marketplace de [[!DNL Marketplace] Help Center][5].
+Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar. Als wat u op Marketplace koopt niet aan uw behoeften voldoet, kunt u [om terugbetaling verzoeken](#refund-requests) binnen 25 dagen na de datum van aankoop. De Adobe herziet alle terugbetalingsverzoeken en geeft (indien goedgekeurd) de juiste terugbetaling uit. Voor problemen met betrekking tot Commerce Marketplace kunt u contact opnemen met [Ondersteuning](mailto:commercemarketplacesupport@adobe.com).
 
 ### Afhandelingsproblemen
 
@@ -139,5 +139,4 @@ Deze speciale machtigingen verlenen Adobe Commerce hetzelfde toegangsniveau als 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
