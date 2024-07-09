@@ -3,9 +3,9 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 | [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Percent of product price discount]**- Hiermee wordt het object gekort door een percentage van de oorspronkelijke prijs af te trekken. Bijvoorbeeld: Enter `10` in _[!UICONTROL Discount Amount]_voor een bijgewerkte prijs die 10 % lager is dan de oorspronkelijke prijs.<br/>**[!UICONTROL Fixed amount discount]**- Kortingen op object door een vast bedrag af te trekken van de oorspronkelijke prijs van elk kwalificerend object in de winkelwagen. Bijvoorbeeld: Enter `10` in_[!UICONTROL Discount Amount]_ voor een bijgewerkte prijs die 10 dollar lager is dan de oorspronkelijke prijs. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Kort het hele winkelwagentje in door een vast bedrag af te trekken van het kartsubtotaal. Bijvoorbeeld: Enter `10` in _[!UICONTROL Discount Amount]_om $10 van het karretsubtotaal af te trekken. Standaard geldt de korting alleen voor het cartsubtotaal. Als u de korting op het subtotaal en de verzendkosten afzonderlijk wilt toepassen, raadpleegt u_Toepassen op verzendbedrag _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definieert een hoeveelheid die de klant moet kopen om een hoeveelheid gratis te ontvangen. (De_[!UICONTROL Discount Amount]_ is Y.) |
 | [!UICONTROL Discount Amount] | (Vereist) Het bedrag van korting dat wordt aangeboden. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Hiermee stelt u het maximum aantal producten in waarop de korting kan worden toegepast in dezelfde aankoop. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Hiermee stelt u het aantal producten in dat wordt vertegenwoordigd door `X` in een `Buy X Get Y Free` bevordering. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Hiermee stelt u het aantal producten in dat wordt vertegenwoordigd door `X` in een `Buy X Get Y Free` bevordering. Definieert ook hoeveel producten in batches aan het winkelwagentje moeten worden toegevoegd `Fixed amount discount` en `Percent of product price discount` promoties. |
 | [!UICONTROL Apply to Shipping Amount] | Hiermee wordt bepaald of de korting afzonderlijk wordt toegepast op het subtotaal en de verzendbedragen. Anders wordt deze alleen op het subtotaal toegepast. Opties: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Hiermee wordt bepaald of regels met lagere prioriteit (1 heeft de hoogste prioriteit) op het product kunnen worden toegepast wanneer deze regel voor de winkelwagenprijs een overeenkomst is. Schakel deze optie in om te voorkomen dat meerdere kortingen op hetzelfde product worden toegepast. Opties: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Hiermee bepaalt u of gratis verzending in de speciale actie wordt opgenomen en, zo ja, voor welke objecten. Opties: <br/>**[!UICONTROL No]**- Gratis verzending is niet beschikbaar voor de huidige regel.<br/>**[!UICONTROL For matching items only]** - Gratis verzending is alleen beschikbaar voor specifieke objecten in de winkelwagen die aan de regel voldoen. <br/>**[!UICONTROL For shipment with matching items]**- Gratis verzending is beschikbaar voor alle objecten in de winkelwagentje. De [Gratis verzending](../stores-purchase/shipping-free.md) Deze optie kan alleen worden gebruikt als de leveringsmethode is ingeschakeld. |
