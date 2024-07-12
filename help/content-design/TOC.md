@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -63,12 +63,19 @@ ht-degree: 0%
       - [Een mediadatabase gebruiken](media-storage-database.md)
       - [Een netwerk voor inhoudslevering gebruiken](media-storage-content-delivery-network.md)
       - [Dynamische media-URL&#39;s](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Assets-integratie](aem-assets.md)
+      - Onboarding {#onboarding}
+         - [AEM Assets configureren](aem-assets-configure-aem.md)
+         - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
+         - [Synchronisatieservices instellen](aem-assets-setup-synchronization.md)
+      - [AEM Assets gebruiken](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock-integratie](adobe-stock.md)
       - [Adobe Stock-afbeeldingen gebruiken](adobe-stock-manage.md)
       - [Een voorvertoning van een stockafbeelding opslaan](adobe-stock-save-preview.md)
       - [Een Stock-afbeelding licentiëren](adobe-stock-license-image.md)
-   - Medialerie {#gallery}
+   - Media Gallery {#gallery}
       - [Overzicht](media-gallery.md)
       - [Beheer van bedrijfsmiddelen](media-gallery-asset-management.md)
       - [Mapbeheer](media-gallery-folder-management.md)
@@ -79,5 +86,5 @@ ht-degree: 0%
    - [Staging-dashboard](content-staging-dashboard.md)
    - [Een campagneitem toevoegen](content-staging-add-item.md)
    - [Een voorvertoning van een campagne weergeven](content-staging-preview.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,26 +3,26 @@ title: Overzicht van productkenmerken
 description: Meer informatie over productkenmerken en hoe deze worden gebruikt om specifieke kenmerken van een product te beschrijven.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Overzicht van productkenmerken
 
-Kenmerken zijn de bouwstenen van uw productcatalogus en beschrijven specifieke kenmerken van een product. Productkenmerken kunnen worden ingedeeld in [kenmerksets](attribute-sets.md), die vervolgens worden gebruikt als sjablonen voor het maken van producten.
+Kenmerken zijn de bouwstenen van uw productcatalogus en beschrijven specifieke kenmerken van een product. De attributen van het product kunnen in [ attributenreeksen ](attribute-sets.md) worden georganiseerd, die dan als malplaatjes voor het creëren van producten worden gebruikt.
 
-De attributen bepalen het type van inputcontrole dat voor productopties wordt gebruikt, en verstrekken extra informatie voor productpagina&#39;s. Ze worden ook gebruikt als zoekparameters en criteria voor gelaagde navigatie, productvergelijkingsrapporten en promoties. U kunt zoveel kenmerken en kenmerksets maken als nodig zijn om de producten in uw catalogus te beschrijven. Naast de kenmerken die u kunt maken, worden systeemkenmerken, zoals de prijs, ingebouwd in het centrale handelsplatform en kunnen deze niet worden gewijzigd.
+De attributen bepalen het type van inputcontrole dat voor productopties wordt gebruikt, en verstrekken extra informatie voor productpagina&#39;s. Ze worden ook gebruikt als zoekparameters en criteria voor gelaagde navigatie, productvergelijkingsrapporten en promoties. U kunt zoveel kenmerken en kenmerksets maken als nodig zijn om de producten in uw catalogus te beschrijven. Naast de kenmerken die u kunt maken, worden systeemkenmerken, zoals prijs, ingebouwd in het Commerce-kernplatform en kunnen deze niet worden gewijzigd.
 
-![Een nieuw kenmerk maken tijdens het bewerken van een product](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
+![ Creërend een nieuw attribuut terwijl het uitgeven van een product ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
 Gebruik de beste werkwijzen die in de volgende secties worden beschreven wanneer u productkenmerken plant en creeert.
 
 ## Kenmerknamen
 
-Stel consistente conventies voor kenmerknaamgeving vast, inclusief lettertype en leestekens. Bijvoorbeeld: `Color:Green` en `Color:green` kunnen door verschillende systemen worden beschouwd als twee verschillende kenmerkwaarden. Dergelijke lawaai in de gegevens kan bedrijfsregels, onderzoeksresultaten, en gegevensfilters voor toepassingen beïnvloeden die producten aan regels aanpassen.
+Stel consistente conventies voor kenmerknaamgeving vast, inclusief lettertype en leestekens. `Color:Green` en `Color:green` kunnen bijvoorbeeld door verschillende systemen worden beschouwd als twee verschillende kenmerkwaarden. Dergelijke lawaai in de gegevens kan bedrijfsregels, onderzoeksresultaten, en gegevensfilters voor toepassingen beïnvloeden die producten aan regels aanpassen.
 
 ## Kenmerkgebruik
 
@@ -30,16 +30,21 @@ Bedenk hoe kenmerken moeten worden gebruikt bij het toewijzen van eigenschappen 
 
 ## Kleur
 
-Ad-hockleurbeschrijvingen kunnen een uitdaging vormen vanuit het oogpunt van databasebewerkingen. Kleurnamen zoals &quot;Azure Skies&quot; of &quot;Robin Egg Blue&quot; hebben veel aantrekkingskracht, maar retourneren mogelijk niet de beste resultaten bij gebruik als zoekcriterium of als voor handelsdoeleinden moet worden opgegeven `Color_Family:Blue`. Overweeg hoe kleuren worden vertegenwoordigd in zoekresultaten en gelaagde navigatie en stel enkele richtlijnen voor uw bedrijfsbehoeften vast. Zorg vervolgens voor consistentie bij het toewijzen van kleurkenmerkwaarden in de hele catalogus.
+Ad-hockleurbeschrijvingen kunnen een uitdaging vormen vanuit het oogpunt van databasebewerkingen. Kleurnamen zoals &quot;Azure Skies&quot; of &quot;Robin Egg Blue&quot; hebben een groot beroep, maar retourneren mogelijk niet de beste resultaten als ze als zoekcriteria worden gebruikt, of als u voor handelsdoeleinden `Color_Family:Blue` moet opgeven. Overweeg hoe kleuren worden vertegenwoordigd in zoekresultaten en gelaagde navigatie en stel enkele richtlijnen voor uw bedrijfsbehoeften vast. Zorg vervolgens voor consistentie bij het toewijzen van kleurkenmerkwaarden in de hele catalogus.
 
 ## Variatiebeheer
 
-Product gebruiken [configuratieopties](product-configurations.md) en [configureerbare producten](product-create-configurable.md) om variaties in uw productaanbod te beheren. Deze functies maken het gemakkelijker om producten te categoriseren, regels voor de kartprijs en dynamische categorieregels tot stand te brengen, en een selectie van opties met diverse tekst, selectie, en datuminputtypes aan te bieden.
+Het product van het gebruik [ configuratieopties ](product-configurations.md) en [ configureerbare producten ](product-create-configurable.md) om variaties in uw productdienstenaanbod te beheren. Deze functies maken het gemakkelijker om producten te categoriseren, regels voor de kartprijs en dynamische categorieregels tot stand te brengen, en een selectie van opties met diverse tekst, selectie, en datuminputtypes aan te bieden.
 
 ## Gewogen zoekopdracht
 
-Productkenmerken waarvoor [cataloguszoekopdracht](search.md) kan een gewicht worden toegewezen om ze een hogere waarde in de zoekresultaten te geven. Kenmerken met een groter gewicht worden geretourneerd vóór kenmerken met een lager gewicht. Neem bijvoorbeeld twee kenmerken in het systeem, _kleur_ met een zoekgewicht van 3 en _beschrijving_ met een zoekgewicht van 1. Een zoekopdracht naar het woord _rood_ retourneert een lijst met producten met een waarde voor kleurkenmerken van `red`, maar retourneert geen producten met beschrijvingen die het woord bevatten _rood_. In dit voorbeeld wordt `color` kenmerk heeft een groter gedefinieerd gewicht dan `description` kenmerk.
+De attributen van het product die voor [ catalogusonderzoek ](search.md) worden toegelaten kunnen een gewicht worden toegewezen om hen een hogere waarde in onderzoeksresultaten te geven. Kenmerken met een groter gewicht worden geretourneerd vóór kenmerken met een lager gewicht. Bijvoorbeeld, overweeg twee attributen in het systeem, _kleur_ met een onderzoeksgewicht van 3 en _beschrijving_ met een onderzoeksgewicht van 1. Een onderzoek naar het woord _rood_ keert een lijst van producten met een waarde van kleurenattributen van `red` terug, maar keert geen producten met beschrijvingen terug die het woord _rood_ bevatten. In dit voorbeeld heeft het kenmerk `color` een grotere gedefinieerde dikte dan het kenmerk `description` .
 
 ## Ongebruikte eigenschappen
 
 Verwijder ongebruikte producteigenschappen voor betere structurering en snellere indexering.
+
+
+>[ NOTA!]
+>
+>Voor informatie bij het optimaliseren van de configuratie van de productattributen voor prestaties, zie [ beste praktijken van het beheer van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) in _Playbook van de Implementatie_.

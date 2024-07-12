@@ -1,24 +1,24 @@
 ---
 title: Lijst met producten
-description: Meer informatie over de _[!UICONTROL Products]_ pagina in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven.
+description: Leer over de _[!UICONTROL Products] _pagina in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Lijst met producten
 
-Alle producten in de catalogus zijn toegankelijk via de _[!UICONTROL Products]_in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
+Alle producten in de catalogus zijn toegankelijk vanaf de pagina _[!UICONTROL Products]_in Beheer, waar u producten kunt maken en bestaande producten kunt bewerken. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
 
-De _[!UICONTROL Products]_de lijst bevat alle producten in de catalogus, geeft de websites aan waar deze beschikbaar zijn en of deze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B-installaties met [gedeelde catalogi](../b2b/catalog-shared.md) Toegelaten, omvat het net een kolom die erop wijst welke producten afwisselende disconteringstarifering in een gedeelde catalogus hebben.
+De lijst _[!UICONTROL Products]_bevat alle producten in de catalogus, geeft de websites aan waar ze beschikbaar zijn en of ze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B installaties met [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md), omvat het net een kolom die erop wijst welke producten afwisselende discontoprijs in een gedeelde catalogus hebben.
 
-U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. De standaard gebruiken [besturingselementen](../getting-started/admin-grid-controls.md) de lijst sorteren en filteren en toepassen [handelingen](../getting-started/admin-actions-control.md) op geselecteerde producten.
+U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. Gebruik de standaard [ controles ](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, en [ acties ](../getting-started/admin-actions-control.md) op geselecteerde producten toe te passen.
 
-![Productraster](./assets/products-grid.png){width="700" zoomable="yes"}
+![ Net van Producten ](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## Weergave van product beperken
 
@@ -34,23 +34,23 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 
 >[!NOTE]
 >
->Als u niet wilt dat het productraster wordt beperkt, gebruikt u filters nauwkeuriger om een verzameling te maken die minder items bevat dan het aantal dat is opgegeven in het dialoogvenster _[!UICONTROL Records Limit]_veld.
+>Als u niet wilt dat het productraster wordt beperkt, gebruikt u nauwkeuriger filters om een verzameling te maken die minder items bevat dan het aantal dat is opgegeven in het veld _[!UICONTROL Records Limit]_.
 
-**_De weergavebeperking van het product configureren:_**
+**_om de beperking van de productvertoning te vormen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Uitbreiden **[!UICONTROL Advanced]** en kiest u **[!UICONTROL Admin]**.
+1. Vouw **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Admin Grids]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Grids]** sectie uit en doe het volgende:
 
-   - Set **[!UICONTROL Limit Number of Products in Grid]** tot `Yes`.
+   - Stel **[!UICONTROL Limit Number of Products in Grid]** in op `Yes` .
 
-   - (Optioneel) Voer een waarde in het dialoogvenster **[!UICONTROL Records Limit]** om het aantal producten in het raster tot een bepaalde waarde te beperken. De standaard minimumwaarde is `20000`.
+   - (Optioneel) Voer in het veld **[!UICONTROL Records Limit]** een waarde in om het aantal producten in het raster te beperken tot een bepaalde waarde. De standaardwaarde voor de minimumwaarde is `20000` .
 
-   ![Configuratie-instellingen voor beheerrasters](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+   ![ Admin de configuratiemontages van Rasters ](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Paginabesturingselementen
 
@@ -70,7 +70,7 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 
 | Kolom | Beschrijving |
 |--- |--- |
-| (Selectievakje) | Hiermee selecteert u meerdere records die aan een handeling moeten worden onderworpen. Het selectievakje in de eerste kolom van elke geselecteerde record is gemarkeerd. Opties: <br/>**[!UICONTROL Select All]**- Hiermee selecteert u alle gevonden records die overeenkomen met de huidige filterinstellingen.<br/>**[!UICONTROL Select All on This Page]** - Hiermee selecteert u alleen de records op de huidige pagina die overeenkomen met de filterinstellingen. |
+| (Selectievakje) | Hiermee selecteert u meerdere records die aan een handeling moeten worden onderworpen. Het selectievakje in de eerste kolom van elke geselecteerde record is gemarkeerd. Opties: <br/>**[!UICONTROL Select All]**- Hiermee selecteert u alle records die overeenkomen met de huidige filterinstellingen.<br/>**[!UICONTROL Select All on This Page]** - Hiermee selecteert u alleen de records op de huidige pagina die overeenkomen met de filterinstellingen. |
 | [!UICONTROL ID] | Een uniek, opeenvolgend aantal dat wordt toegewezen wanneer een nieuw product voor het eerst wordt bewaard. |
 | [!UICONTROL Thumbnail] | Geeft een miniatuur weer van de hoofdafbeelding van het product. |
 | [!UICONTROL Name] | De productnaam. |
@@ -83,8 +83,9 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 | [!UICONTROL Visibility] | Geeft aan waar het product zichtbaar is in de catalogus. Opties: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Geeft de status van het product aan. Opties: `Enabled` en `Disabled` |
 | [!UICONTROL Websites] | Geeft de websites aan waar het product beschikbaar is. |
+| [!UICONTROL Remote Media URL] | Als de activa van productmedia gebruikend de [ Integratie van AEM Assets voor Commerce ](../content-design/aem-assets.md) worden beheerd, toont dit gebied URL om de activa van Commerce in de opslag van het Beheer van de Activa van de AEM te bekijken Digital, de gecentraliseerde bewaarplaats waar de activa worden gehouden. Dit veld wordt alleen weergegeven als de integratie met AEM Assets is ingeschakeld. |
 | [!UICONTROL Action] | Opent het product in Edit wijze. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar met [Adobe Commerce B2B](./b2b/../introduction.md) (alleen) Geeft de gedeelde catalogi aan die aangepaste prijzen voor het product bevatten. |
+| [!UICONTROL Shared Catalog] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met [ Adobe Commerce B2B ](./b2b/../introduction.md) slechts) wijst op de gedeelde catalogi die douanetarifering voor het product bevatten. |
 
 {style="table-layout:auto"}
 
