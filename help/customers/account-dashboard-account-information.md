@@ -14,42 +14,42 @@ ht-degree: 0%
 
 De basisgegevens van de klantenaccount bevatten uw naam en e-mailadres en wachtwoord. U kunt deze gegevens bijhouden via het dashboard voor de klantenaccount in de winkel.
 
-![Accountinformatie over de winkel](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![ de informatie van de Rekening over de storefront ](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-In de zijbalk van uw account kan de klant **[!UICONTROL Account Information]** en voer een van de volgende handelingen uit om hun accountgegevens bij te werken.
+In de zijbalk van uw account kan de klant **[!UICONTROL Account Information]** kiezen en een van de volgende handelingen uitvoeren om de accountgegevens bij te werken.
 
 ## De naam van de accountnaam bijwerken
 
-Om de naam voor de account bij te werken, wijzigt de klant de waarden in het dialoogvenster **[!UICONTROL First Name]** en **[!UICONTROL Last Name]** velden naar wens.
+Om de naam voor de account bij te werken, wijzigt de klant de waarden in de velden **[!UICONTROL First Name]** en **[!UICONTROL Last Name]** .
 
 >[!INFO]
 >
->Extra velden worden als onderdeel van de naam weergegeven als de [klantconfiguratie](../configuration-reference/customers/customer-configuration.md) bevat een voor-, middelste en eerste voorvoegsel.
+>De extra gebieden verschijnen als deel van de naam als de [ klantenconfiguratie ](../configuration-reference/customers/customer-configuration.md) een prefix, midden aanvankelijke, en achtervoegsel omvat.
 
 ## E-mailadres wijzigen
 
-1. De klant selecteert de **[!UICONTROL Change Email]** selectievakje.
+1. De klant selecteert het selectievakje **[!UICONTROL Change Email]** .
 
-1. Hiermee worden de nieuwe **[!UICONTROL Email]** adres.
+1. Voer het nieuwe **[!UICONTROL Email]** -adres in.
 
-1. Voer hun **[!UICONTROL Current Password]**.
+1. Voer hun **[!UICONTROL Current Password]** in.
 
-   ![E-mailadres wijzigen](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![ E-mailadres van de Verandering ](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
 ## Wachtwoord wijzigen
 
-1. De klant selecteert de **[!UICONTROL Change Password]** selectievakje.
+1. De klant selecteert het selectievakje **[!UICONTROL Change Password]** .
 
-1. Voer hun **[!UICONTROL Current Password]**.
+1. Voer hun **[!UICONTROL Current Password]** in.
 
-1. Voer hun **[!UICONTROL New Password]**.
+1. Voer hun **[!UICONTROL New Password]** in.
 
    >[!INFO]
    >
    >Het wachtwoord moet ten minste acht tekens lang zijn en kan bestaan uit een combinatie van hoofdletters en kleine letters, cijfers en symbolen. De sterkteaanduiding voor het wachtwoord helpt de klant het beste wachtwoord te kiezen.
 
-   ![Wachtwoord wijzigen](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
+   ![ Wachtwoord van de Verandering ](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
 
 1. Voer het nogmaals in om het te bevestigen.

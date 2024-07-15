@@ -5,16 +5,16 @@ exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # Overzicht van rubrieken
 
-Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur van uw catalogus instellen. Producten kunnen aan nul of meer categorieën worden toegewezen. Doorgaans worden categorieën vooraf gemaakt voordat producten aan de catalogus worden toegevoegd. U kunt echter ook categorieën toevoegen _op de vlucht_ tijdens het maken van een product. De categoriestructuur van de catalogus wordt weerspiegeld door het hoofdmenu — of [topnavigatie](navigation-top.md) — van de winkel.
+Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur van uw catalogus instellen. Producten kunnen aan nul of meer categorieën worden toegewezen. Doorgaans worden categorieën vooraf gemaakt voordat producten aan de catalogus worden toegevoegd. Nochtans, kunt u categorieën _op de vlucht_ ook toevoegen terwijl het creëren van een product. De categoriestructuur van de catalogus wordt weerspiegeld door het belangrijkste menu - of [ hoogste navigatie ](navigation-top.md) - van de opslag.
 
-![Categoriestructuur](./assets/category-selected.png){width="700" zoomable="yes"}
+![ boom van de Categorie ](./assets/category-selected.png){width="700" zoomable="yes"}
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -32,10 +32,10 @@ Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur
 
 ## Bronnen voor probleemoplossing
 
-Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen in verband met categoriekwesties:
+Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen in categorieën:
 
-- [Wijzigingen in categorieën worden niet opgeslagen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Hoofdmenu (Categorieën) wordt niet weergegeven op subpagina&#39;s waarvoor Snelheid is ingeschakeld](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [Ontbrekende producten uit categorieën, indexeren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- [Onvoldoende geheugen voor bepaalde categorieën](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [Producten en categorieën die niet worden weergegeven](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)
+- [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+- [ HoofdMenu (Categorieën) niet getoond op subpages met snelst toegelaten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [ Ontbrekende producten van categorieën, indexerend verwant ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
+- [ uit geheugen op bepaalde categorieën ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
+- [ Producten en categorieën die ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html) niet tonen

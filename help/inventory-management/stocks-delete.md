@@ -15,20 +15,20 @@ Wanneer u de voorraad verwijdert, worden alle toegewezen websites toegewezen aan
 
 >[!IMPORTANT]
 >
->Een [voorraad](stocks-manage.md) kan invloed hebben op verkoopbare hoeveelheden en onverwerkte orders voor een verkoopkanaal. Als u een verkoopkanaal blijft gebruiken, voegt u het verkoopkanaal toe aan een ander bestaand of nieuw materiaal.
+>Het schrappen van a [ voorraad ](stocks-manage.md) kan verkoopbare hoeveelheden en onverwerkte orden voor een verkoopkanaal beïnvloeden. Als u een verkoopkanaal blijft gebruiken, voegt u het verkoopkanaal toe aan een ander bestaand of nieuw materiaal.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
 1. Selecteer een of meer bestanden die u wilt verwijderen.
 
    Blader of zoek en selecteer selectievakjes voor de bestanden die u wilt verwijderen.
 
-1. Van de **[!UICONTROL Actions]** menu, selecteert u **[!UICONTROL Delete]**.
+1. Selecteer **[!UICONTROL Delete]** in het menu **[!UICONTROL Actions]** .
 
-   ![Selecteer Verwijderen in het menu Handelingen](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![ Uitgezochte Schrapping van het menu van Acties ](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
-1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
    De voorraad wordt verwijderd en toegewezen verkoopkanalen worden niet toegewezen.
 
-   ![Verificatiebericht &quot;voorraadverwijdering&quot;](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![ dossier schrapt controlebericht ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

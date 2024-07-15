@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,81 +14,81 @@ ht-degree: 0%
 
 Beheer de inventarisatie en bestelling op meerdere locaties met aangepaste bronnen. Maak een bron voor elke locatie, zoals pakhuizen, baksteen- en mortierwinkels, distributiecentra en verlopende bevrachters. Bronnen toewijzen en hoeveelheden per product bijwerken
 
-Als u de standaardbron bewerkt, kunt u alle configuraties bewerken, behalve de naam en code. Aanbevolen wordt dat single-source-handelaren informatie toevoegen die overeenkomt met hun locatie.
+Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve de naam en de code. Aanbevolen wordt dat single-source-handelaren informatie toevoegen die overeenkomt met hun locatie.
 
 ## Een inventarisbron toevoegen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
 1. Klik op **[!UICONTROL Add New Source]**.
 
-   ![Bronnen beheren](assets/inventory-sources.png)
+   ![ beheert Bronnen ](assets/inventory-sources.png)
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL General]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en doe het volgende:
 
-   - Voer een unieke inventarisbron in om de inventarisbron te identificeren **[!UICONTROL Name]**.
+   - Voer een unieke **[!UICONTROL Name]** in om de inventarisbron te identificeren.
 
-   - Voer een unieke waarde in **[!UICONTROL Code]**.
+   - Voer een uniek **[!UICONTROL Code]** in.
 
      De code ondersteunt hoofdletters en kleine letters, cijfers, streepjes en onderstrepingstekens. De code is een unieke id die wordt gebruikt bij het toewijzen van gegevens aan voorraad en exporteren.
 
-   - Als deze inventarisbron gebruiksklaar is, stelt u **[!UICONTROL Is Enabled]** tot `Yes`.
+   - Als deze inventarisbron klaar is om te worden gebruikt, stelt u **[!UICONTROL Is Enabled]** in op `Yes` .
 
-   - Voer een korte beschrijving in **[!UICONTROL Description]** voor deze locatie voor snelle informatie of aanvullende informatie.
+   - Voer een korte **[!UICONTROL Description]** in voor deze locatie voor meer informatie.
 
-   - Voor **[!UICONTROL Latitude]** en **[!UICONTROL Longitude]** Voer de GPS-coördinaten (Global Positioning System) van de locatie van de faciliteit in.
+   - Voer bij **[!UICONTROL Latitude]** en **[!UICONTROL Longitude]** de GPS-coördinaten (Global Positioning System) van de locatie van de faciliteit in.
 
-     De GPS-coördinaten zoeken met [Google-kaarten][1], typt u het adres in het zoekvak. Klik met de rechtermuisknop op de markering op de kaart en kies **[!UICONTROL What's here?]**. De GPS-coördinaten worden weergegeven in het detailvak onder het adres van de straat.
+     Om de coördinaten van GPS met [ de Kaarten van Google ][1] te vinden, ga het adres in de onderzoeksdoos in. Klik met de rechtermuisknop op de markering op de kaart en kies **[!UICONTROL What's here?]** . De GPS-coördinaten worden weergegeven in het detailvak onder het adres van de straat.
 
-     ![Algemene bronopties](assets/inventory-source-general.png)
+     ![ Algemene bronopties ](assets/inventory-source-general.png)
 
-   - Als deze inventarisbron een ophaallocatie is, stelt u **[!UICONTROL Use as Pickup Location]** tot `Yes`.
+   - Als deze inventarisbron een ophaallocatie is, stelt u **[!UICONTROL Use as Pickup Location]** in op `Yes` .
 
-     De standaardbron kan niet worden gebruikt als ophaallocatie voor ophaalorders in de winkel.
+     De Source Standaard kan niet worden gebruikt als ophaallocatie voor ophaalopdrachten in een winkel.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Contact Info]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Contact Info]** sectie uit en doe het volgende:
 
-   - Voor **[!UICONTROL Contact Name]**, voert u de volledige naam van de primaire contactpersoon op de locatie in.
+   - Voer bij **[!UICONTROL Contact Name]** de volledige naam in van de primaire contactpersoon op de locatie.
 
-   - Voer een **[!UICONTROL Email]** adres voor het contacteren van de plaats.
+   - Voer een **[!UICONTROL Email]** -adres in om contact op te nemen met de locatie.
 
-   - Voor **[!UICONTROL Phone]**, voert u de gebiedscode en het telefoonnummer in.
+   - Voer bij **[!UICONTROL Phone]** de gebiedscode en het telefoonnummer in.
 
-   - Voor **[!UICONTROL Fax]**, voert u de netnummer en het telefoonnummer van de fax in, indien beschikbaar.
+   - Voer bij **[!UICONTROL Fax]** de netnummer en het telefoonnummer van de fax in, indien beschikbaar.
 
-     ![Contactinfo](assets/inventory-source-contact-info.png)
+     ![ Info van het Contact ](assets/inventory-source-contact-info.png)
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Address Data]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Address Data]** sectie uit en doe het volgende:
 
-   - Kies de optie **[!UICONTROL Country]**.
+   - Kies de **[!UICONTROL Country]** .
 
-   - Voor **[!UICONTROL State/Province]** Voer de standaardafkorting voor de provincie in.
+   - Voer bij **[!UICONTROL State/Province]** de standaardafkorting in voor de staat of provincie.
 
-   - Voer de **[!UICONTROL City]**.
+   - Voer de **[!UICONTROL City]** in.
 
-   - Voer de fysieke waarde in **[!UICONTROL Street]** adres.
+   - Voer het fysieke **[!UICONTROL Street]** adres in.
 
-   - Voor **[!UICONTROL Postcode]** Voer de postcode in.
+   - Voer bij **[!UICONTROL Postcode]** de postcode in.
 
-     ![Adresgegevens](assets/inventory-source-address.png)
+     ](assets/inventory-source-address.png) Gegevens van 0} Adres![
 
-1. Als u de bron instelt als een ophaallocatie in de eerdere stap, vouwt u ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Pickup Location]** en geef een beschrijving van de locatie:
+1. Als u de bron als bestelwagenplaats in de vroegere stap plaatst, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Pickup Location]** sectie uit en verstrekt beschrijvende informatie over de plaats:
 
-   - Voer de **[!UICONTROL Frontend Name]** van de oppiklocatie.
+   - Voer de **[!UICONTROL Frontend Name]** van de locatie voor het ophalen in.
 
-   - Voer een **[!UICONTROL Frontend Description]** van de oppiklocatie. In dit tekstvak kunt u winkeluren, de locatie ten opzichte van andere markeringen of andere nuttige informatie weergeven waarmee de klant de juiste locatie voor het ophalen kan selecteren.
+   - Voer een **[!UICONTROL Frontend Description]** van de locatie voor het ophalen in. In dit tekstvak kunt u winkeluren, de locatie ten opzichte van andere markeringen of andere nuttige informatie weergeven waarmee de klant de juiste locatie voor het ophalen kan selecteren.
 
-     ![Ophaallocatie](assets/inventory-pickup-location.png)
+     ![ Pickup Plaats ](assets/inventory-pickup-location.png)
 
-   Voor meer informatie over hoe te om e-mailberichten te vormen wanneer het gebruiken van een bron als bestelplaats, zie [Verkoop-e-mails](../configuration-reference/sales/sales-emails.md) in de _Referentiehandleiding voor configuratie_.
+   Voor meer informatie over hoe te om e-mailberichten te vormen wanneer het gebruiken van een bron als bestelplaats, zie [ E-mail van de Verkoop ](../configuration-reference/sales/sales-emails.md) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Voer een van de volgende handelingen uit om uw werk op te slaan:
 
-   - Als u uw werk wilt opslaan en wilt doorgaan met bewerken, klikt u op **[!UICONTROL Save & Continue]**.
+   - Klik op **[!UICONTROL Save & Continue]** om uw werk op te slaan en door te gaan met bewerken.
 
-   - Als u uw werk wilt opslaan en wilt terugkeren naar de pagina Bronnen beheren, klikt u op de pijl omlaag (![Menupijl](../assets/icon-menu-down-arrow-red.png)) en kiest u **[!UICONTROL Save & Close]**.
+   - Om uw werk te bewaren en aan de Manage pagina van Bronnen terug te keren, klik de benedenpijl (![ pijl van het Menu ](../assets/icon-menu-down-arrow-red.png)) en kies **[!UICONTROL Save & Close]**.
 
-   - Als u uw werk op de huidige bronrecord wilt opslaan en een nieuwe bron wilt invoeren, kiest u **[!UICONTROL Save & New]**.
+   - Kies **[!UICONTROL Save & New]** als u uw werk op de huidige bronrecord wilt opslaan en een nieuwe bron wilt invoeren.
 
 ## Knopbalk
 
@@ -96,7 +96,7 @@ Als u de standaardbron bewerkt, kunt u alle configuraties bewerken, behalve de n
 |--|--|
 | [!UICONTROL Back] | Hiermee gaat u terug naar de pagina Bronnen beheren. |
 | [!UICONTROL Reset] | Hiermee herstelt u de waarden van alle velden in het formulier op het moment van de laatste keer opslaan. |
-| [!UICONTROL Save & Continue] | Hiermee slaat u alle wijzigingen op en opent u het formulier voor verdere bewerking. Klik op de pijl-omlaag voor extra opties:<br/>**[!UICONTROL Save & Close]**- Hiermee slaat u wijzigingen op in de huidige record, sluit u het formulier en keert u terug naar de pagina Bronnen beheren.<br/>**[!UICONTROL Save & New]** - Hiermee slaat u wijzigingen op, sluit u de huidige record en opent u een nieuw, leeg formulier. |
+| [!UICONTROL Save & Continue] | Hiermee slaat u alle wijzigingen op en opent u het formulier voor verdere bewerking. Klik op de pijl omlaag voor extra opties:<br/>**[!UICONTROL Save & Close]**- Hiermee slaat u wijzigingen op in de huidige record, sluit u het formulier en keert u terug naar de pagina Bronnen beheren.<br/>**[!UICONTROL Save & New]** - Hiermee slaat u wijzigingen op, sluit u de huidige record en opent u een nieuw, leeg formulier. |
 
 ## Veldomschrijvingen
 

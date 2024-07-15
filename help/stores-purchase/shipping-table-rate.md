@@ -5,14 +5,14 @@ exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
 
 # Verzending van tabeltarieven
 
-De _tabelsnelheid_ De verzendmethode verwijst naar een tabel met gegevens voor de berekening van de verzendkosten op basis van een combinatie van voorwaarden, waaronder:
+Het _tarief van de lijst_ verschepende methodeverwijzingen een lijst van gegevens om het verschepen tarieven te berekenen die op een combinatie voorwaarden worden gebaseerd, die omvatten:
 
 - Gewicht v. bestemming
 - Prijs v. bestemming
@@ -26,39 +26,39 @@ De gegevens die worden gebruikt om tabelsnelheden te berekenen, worden in een sp
 >
 >Er kan slechts één set tabelsnelheidsgegevens tegelijk actief zijn.
 
-![Verzendoptie voor tabelsnelheid in overzicht van winkelwagentbestelling](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![ de verschepende optie van het Tarief van de Lijst in het winkelwagentordoverzicht ](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## Stap 1: De standaardinstellingen voltooien
 
 De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabelsnelheden. U kunt deze stap voltooien zonder het werkingsgebied van de configuratie te veranderen.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In de _[!UICONTROL Sales]_in het linkerdeelvenster kiest u **[!UICONTROL Delivery Methods]**.
+1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_van het linkerdeelvenster.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Table Rates]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Table Rates]** sectie uit.
 
    >[!NOTE]
    >
-   >Indien nodig eerst de **[!UICONTROL Use system value]** Schakel het selectievakje in om de volgende instellingen te wijzigen zoals beschreven.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om de volgende instellingen te wijzigen zoals beschreven.
 
-   ![Tabeltarieven](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![ Tarieven van de Lijst ](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enabled]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 
-1. Voer de **[!UICONTROL Title]** die u tijdens het afrekenen voor de sectie Tabeltarieven wilt weergeven.
+1. Voer de **[!UICONTROL Title]** in die u tijdens het uitchecken voor de sectie met tabelsnelheden wilt weergeven.
 
-   De standaardtitel is `Best Way`.
+   De standaardtitel is `Best Way` .
 
-1. Voer de **[!UICONTROL Method Name]** dat u als etiket naast het berekende tarief in het winkelwagentje wilt verschijnen.
+1. Voer de **[!UICONTROL Method Name]** in die u als label naast de berekende frequentie in het winkelwagentje wilt weergeven.
 
-1. Set **[!UICONTROL Condition]** volgens een van de volgende berekeningsmethoden:
+1. Stel **[!UICONTROL Condition]** in op een van de volgende berekeningsmethoden:
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. Voor orders die virtuele producten bevatten, stelt u **[!UICONTROL Include Virtual Products in Price Calculation]** tot `Yes` als u de virtuele producten in de berekening wilt kunnen opnemen.
+1. Voor orders die virtuele producten bevatten, stelt u **[!UICONTROL Include Virtual Products in Price Calculation]** in op `Yes` als u de virtuele producten wilt opnemen in de berekening.
 
    >[!NOTE]
    >
@@ -68,70 +68,70 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
    De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die bij de verzendkosten worden opgeteld. Voer de volgende handelingen uit als u verpakkingskosten wilt opnemen:
 
-   - Set **[!UICONTROL Calculate Handling Fee]**:
+   - Instellen **[!UICONTROL Calculate Handling Fee]** :
 
       - `Fixed`
       - `Percent`
 
-   - Voer de **[!UICONTROL Handling Fee]** tarief volgens de methode die wordt gebruikt om de vergoeding te berekenen.
+   - Voer de **[!UICONTROL Handling Fee]** -rente in volgens de methode die wordt gebruikt om de kosten te berekenen.
 
-     Als de vergoeding bijvoorbeeld is gebaseerd op een vaste vergoeding, voert u het bedrag in als een decimaal, zoals `4.90`. Als de behandelingskosten echter zijn gebaseerd op een percentage van de bestelling, voert u het bedrag in als een percentage. Als u bijvoorbeeld zes procent van de bestelling in rekening brengt, voert u de waarde in als `.06`.
+     Als de kosten bijvoorbeeld zijn gebaseerd op een vaste vergoeding, voert u het bedrag in als een decimaal, bijvoorbeeld `4.90` . Als de behandelingskosten echter zijn gebaseerd op een percentage van de bestelling, voert u het bedrag in als een percentage. Als u bijvoorbeeld zes procent van de volgorde in rekening brengt, voert u de waarde in als `.06` .
 
-1. Wijzig, indien nodig, de **[!UICONTROL Displayed Error Message]**.
+1. Wijzig indien nodig de **[!UICONTROL Displayed Error Message]** .
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als deze leveringsmethode niet meer beschikbaar is.
 
-1. Set **[!UICONTROL Ship to Applicable Countries]**:
+1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) gespecificeerd in uw archiefconfiguratie kan deze leveringsmethode gebruiken.
-   - `Specific Countries` - Als u deze optie kiest, _[!UICONTROL Ship to Specific Countries]_wordt weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `Specific Countries` - Wanneer u deze optie kiest, wordt de lijst _[!UICONTROL Ship to Specific Countries]_weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-1. Set **[!UICONTROL Show Method if Not Applicable]** tot `Yes` als u de Tarieven van de Lijst allen wilt tonen
+1. Stel **[!UICONTROL Show Method if Not Applicable]** in op `Yes` als u de Tabelpercentages altijd wilt weergeven
 
-1. Voor **[!UICONTROL Sort Order]** Voer een getal in om de volgorde te bepalen waarin Verzending tabelsnelheid wordt weergegeven wanneer deze bij andere leveringsmethoden wordt vermeld tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin Verzending tabelsnelheid wordt weergegeven wanneer deze bij andere leveringsmethoden tijdens het afrekenen wordt vermeld.
 
-   `0` = eerst, `1` = seconde, `2` = derde, enzovoort.
+   `0` = first, `1` = second, `2` = third, enzovoort.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Stap 2: De tabelsnelheidsgegevens voorbereiden
 
-1. In de linkerbovenhoek, plaats **[!UICONTROL Store View]** tot `Main Website`of op elke andere website waarop de configuratie van toepassing is.
+1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op `Main Website` of op een andere website waarop de configuratie van toepassing is.
 
    >[!NOTE]
    >
-   >Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om de volgende instellingen te wijzigen zoals beschreven.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om de volgende instellingen te wijzigen zoals beschreven.
 
 1. Wijzig de **[!UICONTROL Condition]** indien nodig.
 
 1. Klik op **[!UICONTROL Export CSV]**.
 
-   ![CSV exporteren](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
+   ![ Uitvoer CSV ](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. Sla de `tablerates.csv` naar uw systeem.
+1. Sla het `tablerates.csv` -bestand op uw systeem op.
 
 1. Open het bestand in een spreadsheettoepassing.
 
 1. Vul de tabel in met de juiste waarden voor de verzendberekeningsvoorwaarde.
 
    - Gebruik een asterisk (*) als vervanging die alle mogelijke waarden in om het even welke categorie vertegenwoordigt.
-   - De _[!UICONTROL Country]_column must contain a [geldige code van drie tekens][1] voor elke rij.
-   - Gegevens sorteren op _[!UICONTROL Region/State]_de specifieke locaties staan dus boven aan de lijst en onder aan de jokertekenlocaties. Het gebruiken van deze methode verwerkt eerst de regels met de absolute waarden, en later de vervangingswaarden.
-   - Waarden in het dialoogvenster _[!UICONTROL Weight (and above)]_de kolom kan een maximum van vier decimalen hebben (zoals `2.5075`). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
+   - De _[!UICONTROL Country]_kolom moet a [ geldige code van drie tekens ][1] voor elke rij bevatten.
+   - Sorteer de gegevens op _[!UICONTROL Region/State]_, zodat de specifieke locaties zich boven aan de lijst bevinden en de jokertekenlocaties onderaan. Het gebruiken van deze methode verwerkt eerst de regels met de absolute waarden, en later de vervangingswaarden.
+   - Waarden in de kolom _[!UICONTROL Weight (and above)]_kunnen maximaal vier decimalen hebben (zoals `2.5075` ). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
 
-   ![Gewicht versus bestemming (Australië)](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![ Gewicht vs. Doel (Australië) ](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. Sla de `tablerates.csv` bestand.
+1. Sla het `tablerates.csv` -bestand op.
 
 ## Stap 3: De tabelsnelheidsgegevens importeren
 
-1. Terugkeren naar de **[!UICONTROL Table Rates]** van uw winkelconfiguratie.
+1. Ga terug naar de sectie **[!UICONTROL Table Rates]** van uw winkelconfiguratie.
 
-1. In de linkerbovenhoek, plaats **[!UICONTROL Store View]** naar de website waar deze methode wordt gebruikt.
+1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op de website waar deze methode wordt gebruikt.
 
-1. Voor **[!UICONTROL Import]**, klikt u op **[!UICONTROL Choose File]** en selecteer de voltooide `tablerates.csv` bestand om de tarieven te importeren.
+1. Voor **[!UICONTROL Import]** klikt u op **[!UICONTROL Choose File]** en selecteert u het voltooide `tablerates.csv` bestand om de tarieven te importeren.
 
-   ![Tabeltarieven importeren](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![ de Tarieven van de Lijst van de Invoer ](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -163,20 +163,20 @@ In dit voorbeeld wordt de voorwaarde Dikte v. bestemming gebruikt om verschillen
 
 | LAND | REGIO/STAAT | ZIP/POSTCODE | GEWICHT (en hoger) | VERZENDPRIJS |
 |--- |--- |--- |--- |--- |
-| AUS | NT | * | 9 | 39.95 |
-| AUS | NT | * | 0 | 19.95 |
-| AUS | VIC | * | 9 | 19.95 |
-| AUS | VIC | * | 0 | 5.95 |
-| AUS | WA | * | 9 | 39.95 |
-| AUS | WA | * | 0 | 19.95 |
-| AUS | * | * | 9 | 29.95 |
-| AUS | * | * | 0 | 9.95 |
+| AUS | NT | * | 9 | 39,95 |
+| AUS | NT | * | 0 | 19,95 |
+| AUS | VIC | * | 9 | 19,95 |
+| AUS | VIC | * | 0 | 5,95 |
+| AUS | WA | * | 9 | 39,95 |
+| AUS | WA | * | 0 | 19,95 |
+| AUS | * | * | 9 | 29,95 |
+| AUS | * | * | 0 | 9,95 |
 
 {style="table-layout:auto"}
 
 ### Voorbeeld 3: Beperking van de gratis verzending naar het Amerikaanse vasteland
 
-1. Een `tablerates.csv` bestand dat alle overheidsdoelen bevat waarvoor u gratis verzending wilt aanbieden.
+1. Maak een `tablerates.csv` -bestand dat alle statusdoelen bevat waarvoor u gratis verzending wilt aanbieden.
 
 1. Voltooi de configuratie van de tabelsnelheid met de volgende instellingen:
 
@@ -190,9 +190,9 @@ In dit voorbeeld wordt de voorwaarde Dikte v. bestemming gebruikt om verschillen
 
    {style="table-layout:auto"}
 
-1. In de linkerbovenhoek, plaats **[!UICONTROL Store View]** tot `Main Website`of op elke andere website waarop de configuratie van toepassing is.
+1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op `Main Website` of op een andere website waarop de configuratie van toepassing is.
 
-1. Voor **[!UICONTROL Import]**, klikt u op **[!UICONTROL Choose File]** en selecteer de voltooide `tablerates.csv` bestand om de tarieven te importeren.
+1. Voor **[!UICONTROL Import]** klikt u op **[!UICONTROL Choose File]** en selecteert u het voltooide `tablerates.csv` bestand om de tarieven te importeren.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

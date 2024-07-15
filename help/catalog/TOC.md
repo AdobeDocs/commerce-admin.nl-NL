@@ -26,7 +26,7 @@ ht-degree: 0%
       + [Breadcrumb, sporen](navigation-breadcrumb-trail.md)
       + [Productaanbiedingen](navigation-product-listings.md)
       + [Gelaagde navigatie](navigation-layered.md)
-   + Catalogus zoeken {#search}
+   + Cataloguszoekopdracht {#search}
       + [Overzicht van zoekopdrachten](search.md)
       + [Cataloguszoekopdracht configureren](search-configuration.md)
       + [Zoekresultaten](search-results.md)
@@ -52,7 +52,7 @@ ht-degree: 0%
    + [Lijst met producten](products-list.md)
    + [Productwerkruimte](product-workspace.md)
    + [Een product maken](product-create.md)
-   + Productsoorten {#types}
+   + Producttypen {#types}
       + [Eenvoudig product](product-create-simple.md)
       + [Configureerbaar product](product-create-configurable.md)
       + [Gegroepeerd product](product-create-grouped.md)
@@ -99,5 +99,5 @@ ht-degree: 0%
       + [Kenmerken maken en verwijderen](attribute-product-create.md)
       + [Bulkupdates](bulk-product-attribute-update.md)
       + [Kenmerksets](attribute-sets.md)
-+ [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

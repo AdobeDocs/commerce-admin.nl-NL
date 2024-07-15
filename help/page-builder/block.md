@@ -1,6 +1,6 @@
 ---
 title: Inhoud toevoegen - Blokkeren
-description: Meer informatie over het inhoudstype Blok dat wordt gebruikt om een herbruikbaar blok toe te voegen aan het dialoogvenster [!DNL Page Builder] in het werkgebied.
+description: Leer over het inhoudstype van het Blok, dat wordt gebruikt om een herbruikbaar blok aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Blokkeren
 
-Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/blocks.md) aan de [[!DNL Page Builder] stadium](workspace.md#stage). In het volgende voorbeeld bevat de eerste kolom het blok met een zijmenu voor de pagina. De tweede kolom bevat een afbeelding.
+Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../content-design/blocks.md) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. In het volgende voorbeeld bevat de eerste kolom het blok met een zijmenu voor de pagina. De tweede kolom bevat een afbeelding.
 
-![Blokkeren met een zijmenu](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![ Blok met een zijmenu ](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,12 +22,12 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | -------- | ------------- |
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png) | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png) | Hiermee opent u de pagina Blok bewerken, waarin u het blok kunt kiezen en de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![Pictogram verbergen](./assets/pb-icon-hide.png) | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
-| Tonen | ![Pictogram tonen](./assets/pb-icon-show.png) | Toont de verborgen blokcontainer en de inhoud ervan. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png) | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png) | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png) | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png) | Hiermee opent u de pagina Blok bewerken, waarin u het blok kunt kiezen en de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png) | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png) | Toont de verborgen blokcontainer en de inhoud ervan. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png) | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png) | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -35,33 +35,33 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
 ## Een bestaand blok toevoegen
 
-1. Ga naar de [!DNL Page Builder] op de doelpagina, het blok, het dynamische blok, het product, of de categorie.
+1. Navigeer naar de werkruimte [!DNL Page Builder] op de doelpagina, het blok, het dynamische blok, het product of de categorie.
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Add Content]** en sleep een **[!UICONTROL Block]** tijdelijke aanduiding naar het werkgebied.
+1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Block]** naar het werkgebied.
 
-   ![Een blok naar het werkgebied slepen](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![ slepend een blok op het stadium ](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Houd de muisaanwijzer boven de lege blokcontainer om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} ).
+1. Beweeg over de lege blokcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}).
 
 1. Klik op **[!UICONTROL Select Block]**.
 
-   ![Een blok selecteren](./assets/pb-add-content-block-select.png){width="200"}
+   ![ Selecterend een blok ](./assets/pb-add-content-block-select.png){width="200"}
 
 1. Klik in de rij van het blok dat u wilt toevoegen op **[!UICONTROL Select]** in de laatste kolom.
 
-   ![Geselecteerd blok](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
+   ![ Geselecteerd blok ](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
    De naam van het geselecteerde blok verschijnt op de pagina.
 
-   ![Bloknaam](./assets/pb-add-content-block-name.png){width="200"}
+   ![ de naam van het Blok ](./assets/pb-add-content-block-name.png){width="200"}
 
 1. Vul de overige instellingen naar wens in en gebruik de veldbeschrijvingen aan het einde van deze pagina ter referentie.
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ### Geavanceerde instellingen
 
-1. Als u de plaatsing van het blok in de bovenliggende container wilt bepalen, kiest u een **[!UICONTROL Alignment]**:
+1. Kies een **[!UICONTROL Alignment]** als u de plaatsing van het blok binnen de bovenliggende container wilt bepalen:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
    {style="table-layout:auto"}
 
-1. Een **[!UICONTROL Border]** stijl die wordt toegepast op alle vier zijden van de blokcontainer:
+1. Stel een **[!UICONTROL Border]** -stijl in die wordt toegepast op alle vier zijden van de blokcontainer:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
    {style="table-layout:auto"}
 
-1. Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+1. Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
    | Optie | Beschrijving |
    | ------ |------------ |
@@ -99,7 +99,7 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
    {style="table-layout:auto"}
 
-1. (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** in het huidige stijlblad toe te passen op de container.
+1. (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit de huidige stijlpagina die u op de container wilt toepassen.
 
    Scheid meerdere klassennamen met een spatie.
 
@@ -116,26 +116,26 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
 ## Blokinstellingen bewerken
 
-1. Houd de muisaanwijzer boven de blokcontainer en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} ) in de gereedschapset.
+1. Beweeg over de blokcontainer en kies het _pictogram van Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}) in toolbox.
 
-   ![Blokgereedschappen](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![ Toolbox van het Blok ](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. Als u een ander blok wilt kiezen, klikt u op **[!UICONTROL Select Block]**.
+1. Klik op **[!UICONTROL Select Block]** om een ander blok te kiezen.
 
    - Klik in de lijst met actieve blokken op **[!UICONTROL Select]** het blok dat u wilt toevoegen.
    - Klik op **[!UICONTROL Add Selected]**.
 
 1. Werk de overige instellingen naar wens bij en gebruik de veldbeschrijvingen aan het einde van deze pagina ter referentie.
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ## Een blok dupliceren
 
-1. Houd de muisaanwijzer boven de blokcontainer om de gereedschapset weer te geven en kies de optie _Dupliceren_ (![Pictogram Dupliceren](./assets/pb-icon-duplicate.png)).
+1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen dupliceert_ (![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png)) pictogram.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-1. Als u het nieuwe blok naar een nieuwe positie wilt verplaatsen, houdt u de muisaanwijzer boven de container en klikt u op _Verplaatsen_ (![Pictogram Verplaatsen](./assets/pb-icon-move.png)) in de gereedschapset.
+1. Om het nieuwe blok aan een nieuwe positie te bewegen, beweegt over de container, en klikt dan _Beweging_ (![ pictogram van de Beweging ](./assets/pb-icon-move.png)) in toolbox.
 
 1. Selecteer en sleep het blok totdat de rode hulplijn op de nieuwe positie wordt weergegeven.
 
@@ -143,6 +143,6 @@ Gebruik de _Blok_ inhoudstype om een bestaand, actief [blok](../content-design/b
 
 ## Een blok uit het werkgebied verwijderen
 
-1. Houd de muisaanwijzer boven de blokcontainer om de gereedschapset weer te geven en kies de optie _Verwijderen_ (![Pictogram verwijderen](./assets/pb-icon-remove.png)).
+1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen verwijder_ (![ verwijder pictogram ](./assets/pb-icon-remove.png)).
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.

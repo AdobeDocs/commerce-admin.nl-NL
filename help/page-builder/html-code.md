@@ -1,50 +1,50 @@
 ---
 title: Elements - HTML-code
-description: Meer informatie over het inhoudstype HTML Code, dat wordt gebruikt om fragmenten van HTML-, CSS- en JavaScript-code toe te voegen in het dialoogvenster [!DNL Page Builder] in het werkgebied.
+description: Leer over het inhoudstype van de Code van de HTML, dat wordt gebruikt om fragmenten van HTML, CSS, en code van JavaScript in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # Elements - HTML-code
 
-Gebruik de _HTML-code_ inhoudstype om fragmenten van HTML-, CSS- en JavaScript-code toe te voegen in de [[!DNL Page Builder] stadium](workspace.md#stage). U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
+Gebruik het _inhoudstype van de Code 0} HTML {om fragmenten van HTML, CSS, en code van JavaScript in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen._ U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
 
 ## Gereedschap HTML-code
 
-![Gereedschap HTML-code](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![ toolbox van de Code van HTML ](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ---------- | ----------------- |
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="25"} | Verplaatst de container van de Code van de HTML naar een andere geldige plaats op de pagina. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina HTML-code bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![Pictogram verbergen](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van de HTML. |
-| Tonen | ![Pictogram tonen](./assets/pb-icon-show.png){width="25"} | Toont de verborgen container van de Code van HTML. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container HTML Code. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container HTML Code en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de container van de Code van de HTML naar een andere geldige plaats op de pagina. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina HTML-code bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van de HTML. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de verborgen container van de Code van HTML. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container HTML Code. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container HTML Code en de inhoud ervan uit het werkgebied. |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## HTML-code toevoegen
 
-In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype][1] code en declareer aangepaste kopklassen die de huidige stijlpagina overschrijven.
+Het volgende voorbeeld toont aan hoe te om ][1] code in te bedden van de Doopvont van Google [ en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
 
 ### Stap 1: Kies een Google-lettertype
 
-1. Ga naar [Google-lettertypen][1] en kiest u de lettertypefamilie die u wilt gebruiken.
+1. Bezoek de [ plaats van de Doopvonten van Google ][1] en kies de doopvontfamilie die u wilt gebruiken.
 
-1. Kopieer de gegenereerde code die moet worden ingesloten in de `<head>` van de pagina en plak deze tijdelijk in een teksteditor.
+1. Kopieer de gegenereerde code die moet worden ingesloten in de sectie `<head>` van de pagina en plak deze tijdelijk in een teksteditor.
 
    - Fontcode insluiten
    - CSS-regel
 
-1. Voeg de regel font-family toe aan elke kopklasse en sluit de kopklassen in een `<style>` -tag.
+1. Voeg de regel font-family toe aan elke kopklasse en sluit de kopklassen in een `<style>` -tag in.
 
-   Deze code wordt geplakt in [!DNL Page Builder].
+   Deze code wordt geplakt in [!DNL Page Builder] .
 
    ```html
    <style>
@@ -56,51 +56,51 @@ In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype]
 
 ### Stap 2: Voeg de code toe aan de pagina
 
-1. In de _Beheerder_ zijbalk van je winkel, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. In _Admin_ sidebar van uw opslag, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Zoek de pagina waar het lettertype beschikbaar moet zijn en open het in de bewerkingsmodus.
 
-1. Omlaag schuiven en de **[!UICONTROL Content]** sectie.
+1. Schuif omlaag en vouw de sectie **[!UICONTROL Content]** uit.
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Elements]** en sleep een **[!UICONTROL HTML Code]** plaatsaanduiding voor een rij, kolom of tabset in het werkgebied.
+1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Elements]** uit en sleep een tijdelijke aanduiding **[!UICONTROL HTML Code]** naar een rij, kolom of tabset in het werkgebied.
 
    Gebruik de rode hulplijn om de scheidingslijn voor of na een andere inhoudscontainer in de rij, kolom of tabset te plaatsen.
 
-   ![Een tijdelijke aanduiding voor een HTML-code naar het werkgebied slepen](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![ slepend een placeholder van de Code van de HTML aan het stadium ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Houd de muisaanwijzer boven de container HTML om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ), pictogram.
+1. Beweeg over de container van de HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}), pictogram.
 
 1. Plak in het tekstvak de code en stijldeclaraties voor Google-fonts insluiten die u hebt voorbereid.
 
    U kunt een paar spaties invoeren om de code te laten inspringen, zodat u deze eenvoudiger kunt lezen.
 
-   ![HTML code en stijlen](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![ HTML code en stijlen ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Wijzig desgewenst de overige instellingen (zie [Instellingen voor HTML-code wijzigen](#html-settings) voor meer informatie).
+1. Werk de resterende montages zoals nodig bij (zie {de codecontages van de HTML van 0} Verandering ](#html-settings) voor details).[
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
    Het nieuwe lettertype wordt weergegeven wanneer de pagina via een browser wordt weergegeven.
 
 ### Stap 3: Voorvertoning van de pagina weergeven
 
-1. In de _[!UICONTROL Currently Active]_sectie, set **[!UICONTROL Enable Page]**tot `Yes`.
+1. Stel **[!UICONTROL Enable Page]** in op `Yes` in de sectie _[!UICONTROL Currently Active]_.
 
-   ![De pagina inschakelen](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![ toelatend de pagina ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op de knop **[!UICONTROL Save]** en kiest u **[!UICONTROL Save & Close]**.
+1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
-1. De pagina in het raster zoeken en **[!UICONTROL View]** in de _[!UICONTROL Actions]_kolom.
+1. Zoek de pagina in het raster en selecteer **[!UICONTROL View]** in de kolom _[!UICONTROL Actions]_.
 
-   ![De paginakoppen voorvertonen met de nieuwe lettertypefamilie](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![ Voorproef de paginakoppen met de nieuwe doopvontfamilie ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Instellingen voor HTML-code wijzigen {#html-settings}
 
-1. Houd de muisaanwijzer boven de container HTML om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de container van de HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
 1. Bewerk in het tekstvak de code naar wens.
 
-   HTML-, CSS- en JavaScript-code worden ondersteund. Codefragmenten die in de `<head>` sectie van de pagina kan hier worden ingegaan.
+   HTML-, CSS- en JavaScript-code worden ondersteund. Codefragmenten die in de sectie `<head>` van de pagina horen, kunnen hier worden ingevoerd.
 
    De redacteur verstrekt ook knopen om speciale elementen in de code op te nemen:
 
@@ -110,9 +110,9 @@ In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype]
    | Afbeelding invoegen... | Klik om een geüploade afbeelding of een afbeelding uit de galerie in te voegen op de positie van de cursor in het tekstvak HTML. |
    | Variabele invoegen... | Klik om een variabele op de positie van de cursor in het tekstvak HTML in te voegen. |
 
-1. Werk de _[!UICONTROL Advanced]_instellingen.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
-   - Als u de positie van de code in de bovenliggende container wilt bepalen, kiest u een **[!UICONTROL Alignment]**:
+   - Kies een **[!UICONTROL Alignment]** als u de positie van de code binnen de bovenliggende container wilt bepalen:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -123,9 +123,9 @@ In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype]
 
      In het volgende voorbeeld worden de opties zo ingesteld dat ze een uitlijning in het midden gebruiken voor het gerenderde codeblok.
 
-     ![Scheidingslijn met middelste uitlijning](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![ Scheidingsverdeler met een centrumgroepering ](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Stel de **[!UICONTROL Border]** stijl toegepast op alle vier zijden van de codecontainer:
+   - Stel de **[!UICONTROL Border]** -stijl in die op alle vier zijden van de codecontainer wordt toegepast:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -140,7 +140,7 @@ In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype]
      | `Inset` | De containerrand wordt weergegeven als een inzetlijn. |
      | `Outset` | De containerrand wordt weergegeven als een omtreklijn. |
 
-   - Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+   - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
      | Optie | Beschrijving |
      | ------ |------------ |
@@ -150,11 +150,11 @@ In het volgende voorbeeld wordt getoond hoe u kunt insluiten [Google-lettertype]
 
      {style="table-layout:auto"}
 
-   - (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** in het huidige stijlblad toe te passen op de container.
+   - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit de huidige stijlpagina die u op de container wilt toepassen.
 
      Scheid meerdere klassennamen met een spatie.
 
-   - Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenste marges en de binnenopvulling van de codecontainer te bepalen.
+   - Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenste marges en binnenopvulling van de codecontainer te bepalen.
 
      Voer de overeenkomende waarden in het diagram in.
 

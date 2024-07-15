@@ -12,55 +12,55 @@ ht-degree: 0%
 
 # Uitchecken op nul subtotaal
 
-_Uitchecken op nul subtotaal_ kan worden gebruikt voor orders met een subtotaal van nul die worden belast nadat een korting is toegepast. Het subtotaal van nul kan bijvoorbeeld in de volgende situaties worden gebruikt:
+_Nul subtotal checkout_ kan voor orden met een subtotaal van nul worden gebruikt die worden belast nadat een korting wordt toegepast. Het subtotaal van nul kan bijvoorbeeld in de volgende situaties worden gebruikt:
 
 - Een korting geldt voor de volledige aankoopprijs, zonder extra verzendkosten.
 
-- De klant voegt een [downloadbaar](../catalog/product-create-downloadable.md) of [virtueel](../catalog/product-create-virtual.md) op het winkelwagentje, en de prijs is gelijk aan nul.
+- De klant voegt a [ downloadbaar ](../catalog/product-create-downloadable.md) of [ virtueel ](../catalog/product-create-virtual.md) product aan het winkelwagentje toe, en de prijs evenaart nul.
 
-- De prijs van een [eenvoudig](../catalog/product-create-simple.md) het product is nul en het [gratis verzending](shipping-free.md) is beschikbaar.
+- De prijs van a [ eenvoudig ](../catalog/product-create-simple.md) product is nul, en de [ vrije het verschepen ](shipping-free.md) methode is beschikbaar.
 
-- A [couponcode](../merchandising-promotions/price-rules-cart-coupon.md) dekt de volledige prijs van producten en verzendingen.
+- A [ couponcode ](../merchandising-promotions/price-rules-cart-coupon.md) behandelt de volledige prijs van producten en het verschepen.
 
 Om tijd te besparen, kunnen de geen bevelen van het subtotaal aan automatisch factuur worden geplaatst.
 
-**_Om nul subtotal checkout te vormen:_**
+**_om nul subtotal checkout te vormen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Payment Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Onder _[!UICONTROL Other Payment Methods]_, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Zero Subtotal Checkout]**sectie.
+1. Onder _[!UICONTROL Other Payment Methods]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Zero Subtotal Checkout]**sectie.
 
-   ![Afhandeling nul subtotaal](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >Indien nodig eerst de **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
-
-1. Als u het uitchecken van het subtotaal nul wilt activeren, stelt u **[!UICONTROL Enabled]** tot `Yes`.
-
-1. Voor **[!UICONTROL Title]**, voert u een titel in die de methode Subtotaal nul aangeeft tijdens het afrekenen.
-
-1. Als de orden typisch op goedkeuring wachten, keur het gebrek goed **[!UICONTROL New Order Status]** als `Pending"` totdat de order is goedgekeurd.
-
-   U kunt desgewenst de opdracht `Processing` of `Suspected Fraud` status voor nieuwe orders met deze betalingsmethode.
-
-1. Set **[!UICONTROL Automatically Invoice All Items]** tot `Yes` als je automatisch alle objecten met een saldo van nul wilt factureren.
-
-   Deze optie is alleen beschikbaar als **[!UICONTROL New Order Status]** optie is ingesteld op `Processing`.
+   ![ Nul SubtotalCheckout ](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Indien _[!UICONTROL New Order Status]_is ingesteld op `Processing` en_[!UICONTROL Automatically Invoice All Items]_ is ingesteld op `No`, moet u ook **[!UICONTROL Order Status]** = `Processing` voor de **[!UICONTROL Order State]** = `Pending` en **[!UICONTROL Default Status]** = `No` het toewijzen van [Status van bestelling](order-status.md#custom-order-status) pagina.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Set **[!UICONTROL Payment from Applicable Countries]** op een van de volgende wijzen:
+1. Als u het uitchecken van het subtotaal nul wilt activeren, stelt u **[!UICONTROL Enabled]** in op `Yes` .
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) Deze betalingsmethode kan worden gebruikt.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, _[!UICONTROL Payment from Specific Countries]_wordt weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+1. Voer bij **[!UICONTROL Title]** een titel in die de methode Subtotaal nul aangeeft tijdens het uitchecken.
 
-1. Voor **[!UICONTROL Sort Order]**, voert u een getal in dat de positie van dit object bepaalt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
+1. Als orders doorgaans wachten op goedkeuring, accepteert u de standaardwaarde **[!UICONTROL New Order Status]** als `Pending"` totdat de volgorde is goedgekeurd.
 
-   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = eerst, `1` = seconde, `2` = derde, enzovoort.)
+   U kunt desgewenst de status `Processing` of `Suspected Fraud` gebruiken voor nieuwe bestellingen met deze betalingsmethode.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Stel **[!UICONTROL Automatically Invoice All Items]** in op `Yes` als u alle items met een nulsaldo automatisch wilt factureren.
+
+   Deze optie is alleen beschikbaar als de optie **[!UICONTROL New Order Status]** is ingesteld op `Processing` .
+
+   >[!NOTE]
+   >
+   >Als _[!UICONTROL New Order Status]_aan `Processing` wordt geplaatst en_[!UICONTROL Automatically Invoice All Items]_ aan `No` wordt geplaatst, moet u ook **[!UICONTROL Order Status]** = `Processing` voor **[!UICONTROL Order State]** = `Pending` en **[!UICONTROL Default Status]** = `No` afbeelding op de [ pagina van de Status van de Orde ](order-status.md#custom-order-status) toewijzen.
+
+1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
+
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+
+1. Voer bij **[!UICONTROL Sort Order]** een getal in dat de positie van dit item bepaalt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
+
+   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = first, `1` = second, `2` = third, enzovoort.)
+
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

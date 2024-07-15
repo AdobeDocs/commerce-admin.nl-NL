@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Het rapport van het Segment van de Klant verstrekt informatie over het aantal klanten in elk segment.
 
-![Rapport voor klantsegment](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![ Rapport van het Segment van de Klant ](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -30,11 +30,11 @@ Het rapport van het Segment van de Klant verstrekt informatie over het aantal kl
 
 U kunt naar een lijst met klanten in het segment gaan en de gegevens exporteren.
 
-![Omlaag naar klantgegevens](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![ Boor neer aan de Gegevens van de Klant ](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-Om ervoor te zorgen dat u over de meest recente gegevens beschikt, moeten de segmentgegevens worden vernieuwd. Als de segmentgegevens niet beschikbaar of verouderd zijn, klikt u op **[!UICONTROL Refresh Segment Data]** in de knopbalk die moet worden bijgewerkt.
+Om ervoor te zorgen dat u over de meest recente gegevens beschikt, moeten de segmentgegevens worden vernieuwd. Als de segmentgegevens niet beschikbaar of verouderd zijn, klikt u op **[!UICONTROL Refresh Segment Data]** in de knopbalk om bij te werken.
 
-1. Voor **[!UICONTROL Export to]** kiest u een exportindeling:
+1. Kies bij **[!UICONTROL Export to]** een exportindeling:
 
    * CSV - Een bestand met komma&#39;s als scheidingsteken dat normale tekstgegevens bevat.
    * Excel XML - Een op XML gebaseerde indeling voor spreadsheetgegevens.

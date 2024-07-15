@@ -6,14 +6,14 @@ role: Admin
 feature: Admin Workspace, Configuration, Security
 source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # Beveiliging van beheerder configureren
 
-Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen met het gebruik van een [aangepaste Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) Dat is niet gemakkelijk te raden, maar de duidelijke &quot;Admin&quot; of &quot;Backend&quot;. Door gebrek, wachtwoorden die worden gebruikt aan [aanmelden](../getting-started/admin-signin.md) naar de beheerder moet uit minimaal zeven tekens bestaan en zowel letters als cijfers bevatten. Als [beste praktijken](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)Gebruik alleen sterke beheerderswachtwoorden die een combinatie van letters, cijfers en symbolen bevatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
+Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [ douane Admin URL ](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [ login ](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. Als a [ beste praktijken ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
 
 Met de beveiligingsconfiguratie Admin kunt u:
 
@@ -21,65 +21,65 @@ Met de beveiligingsconfiguratie Admin kunt u:
 - Wachtwoorden zijn hoofdlettergevoelig
 - De duur van beheerderssessies beperken
 - De levensduur van wachtwoorden beperken
-- Beperk het aantal aanmeldpogingen dat kan worden uitgevoerd voordat de Admin-gebruikersaccount is ingesteld [vergrendeld](permissions-users-all.md#locked-users).
+- Beperk het aantal login pogingen die kunnen worden gemaakt alvorens de Admin gebruikersrekening [ wordt gesloten ](permissions-users-all.md#locked-users).
 
 Voor verhoogde veiligheid, kunt u de lengte van toetsenbordinactiviteit vormen alvorens de huidige zitting verloopt, en vereisen de gebruikersnaam en het wachtwoord om case-sensitive te zijn.
 
-Naast de beveiligingsinstellingen in deze sectie, [tweeledige verificatie](security-two-factor-authentication.md) (2FA) is vereist om de identiteit van gebruikers te verifiëren met een eenmalig wachtwoord dat door een app of apparaat wordt gegenereerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra beveiliging kan de beheerdersaanmelding ook zo worden geconfigureerd dat een [CAPTCHA](security-captcha.md).
+Naast de veiligheidsmontages in deze sectie, [ wordt tweeledige authentificatie ](security-two-factor-authentication.md) (2FA) vereist om de identiteit van gebruikers met een eenmalig wachtwoord te verifiëren dat door een app of een apparaat wordt geproduceerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra veiligheid, kan login Admin ook worden gevormd om a [ CAPTCHA ](security-captcha.md) te vereisen.
 
 >[!NOTE]
 >
->Winkels die zijn ingeschakeld [!DNL Adobe Identity Management Services] (IMS)-verificatie heeft native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. De gebruikers Admin die in hun instantie van de Handel met hun geloofsbrieven van de Adobe worden geregistreerd hoeven niet voor vele Admin taken opnieuw voor authentiek te verklaren. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service] (IMS) Overzicht van integratie](../getting-started/adobe-ims-integration-overview.md).
+>Voor opslagruimten waarvoor verificatie met [!DNL Adobe Identity Management Services] (IMS) is ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich bij hun Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
 
-Voor technische informatie, zie [Beveiligingsoverzicht](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;} in de ontwikkelaarsdocumentatie.
+Voor technische informatie, zie [ Overzicht van de Veiligheid ](https://developer.adobe.com/commerce/php/architecture/basics/security/) {:target= &quot;_blank&quot;} in de ontwikkelaardocumentatie.
 
-![Beveiliging beheerder](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![ Admin veiligheid ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Beveiliging van beheerder configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL Advanced]_, kiest u **[!UICONTROL Admin]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_de optie **[!UICONTROL Admin]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
-1. Als u wilt voorkomen dat Admin-gebruikers zich aanmelden bij hetzelfde account op verschillende apparaten, stelt u **[!UICONTROL Admin Account Sharing]** tot `No`.
+1. Stel **[!UICONTROL Admin Account Sharing]** in op `No` om te voorkomen dat Admin-gebruikers zich vanaf hetzelfde account aanmelden op verschillende apparaten.
 
-1. Om de methode te bepalen die wordt gebruikt om verzoeken om opnieuw instellen van wachtwoorden te beheren, plaatst **[!UICONTROL Password Reset Protection Type]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Password Reset Protection Type]** in op een van de volgende opties om te bepalen welke methode wordt gebruikt voor het beheren van aanvragen voor het opnieuw instellen van wachtwoorden:
 
-   - `By IP and Email` — Het wachtwoord kan online opnieuw worden ingesteld nadat een reactie is ontvangen van het bericht is verzonden naar het e-mailadres dat is gekoppeld aan de beheerdersaccount.
-   - `By IP` — Het wachtwoord kan online opnieuw worden ingesteld zonder extra bevestiging.
-   - `By Email` — Het wachtwoord kan alleen opnieuw worden ingesteld door per e-mail te reageren op het bericht dat is verzonden naar het e-mailadres dat is gekoppeld aan de beheerdersaccount.
-   - `None` — Het wachtwoord kan slechts door de opslagbeheerder worden teruggesteld.
+   - `By IP and Email` — Het wachtwoord kan online opnieuw worden ingesteld nadat een reactie is ontvangen van het bericht is verzonden naar het e-mailadres dat is gekoppeld aan het beheerdersaccount.
+   - `By IP` — U kunt het wachtwoord online opnieuw instellen zonder extra bevestiging.
+   - `By Email` — Het wachtwoord kan alleen opnieuw worden ingesteld door per e-mail te reageren op het bericht dat is verzonden naar het e-mailadres dat is gekoppeld aan het beheerdersaccount.
+   - `None` — Het wachtwoord kan slechts door de archiefbeheerder worden teruggesteld.
 
 1. Beveiligingsopties voor aanmelding instellen:
 
-   - Voor **[!UICONTROL Recovery Link Expiration Period (hours)]** Voer het aantal uren in dat een koppeling voor wachtwoordherstel geldig blijft.
+   - Voer voor **[!UICONTROL Recovery Link Expiration Period (hours)]** het aantal uren in dat een koppeling voor wachtwoordherstel geldig blijft.
 
-   - Om het maximumaantal wachtwoordverzoeken te bepalen dat per uur kan worden ingediend, ga het aantal voor **[!UICONTROL Max Number of Password Reset Requests]**.
+   - Om het maximumaantal wachtwoordverzoeken te bepalen dat per uur kan worden ingediend, ga het aantal voor **[!UICONTROL Max Number of Password Reset Requests]** in.
 
-   - Voor **[!UICONTROL Min Time Between Password Reset Requests]** Voer het minimale aantal minuten in dat moet worden doorgestuurd tussen aanvragen voor het opnieuw instellen van wachtwoorden.
+   - Voer bij **[!UICONTROL Min Time Between Password Reset Requests]** het minimale aantal minuten in dat moet worden doorgestuurd tussen aanvragen voor het opnieuw instellen van wachtwoorden.
 
-   - Als u een geheime sleutel als voorzorgsmaatregel tegen misbruik wilt toevoegen aan de URL van Admin, stelt u **[!UICONTROL Add Secret Key to URLs]** tot `Yes`. Deze instelling is standaard ingeschakeld.
+   - Stel **[!UICONTROL Add Secret Key to URLs]** in op `Yes` als u een geheime sleutel aan de URL van Admin wilt toevoegen als voorzorgsmaatregel tegen explosies. Deze instelling is standaard ingeschakeld.
 
-   - Om te vereisen dat het gebruik van hogere en kleine letters in om het even welke login ingegaan geloofsbrieven aanpast wat in het systeem wordt opgeslagen, plaats **[!UICONTROL Login is Case Sensitive]** tot `Yes`.
+   - Stel **[!UICONTROL Login is Case Sensitive]** in op `Yes` om te vereisen dat het gebruik van hoofdletters en kleine letters in aanmeldingsgegevens overeenkomt met wat in het systeem is opgeslagen.
 
-   - Voer de duur van de sessie in seconden in voor u de duur van een beheersessie voor time-out kunt bepalen **[!UICONTROL Admin Session Lifetime (seconds)]** veld. De waarde moet 60 seconden of langer zijn.
+   - Als u de lengte van een Admin-sessie wilt bepalen voordat deze wordt beëindigd, voert u de duur van de sessie in seconden in voor het veld **[!UICONTROL Admin Session Lifetime (seconds)]** . De waarde moet 60 seconden of langer zijn.
 
-   - Voor **[!UICONTROL Maximum Login Failures to Lockout Account]** Voer het aantal keren in dat een gebruiker zich kan aanmelden bij de beheerder voordat de account is vergrendeld. Standaard zijn zes pogingen toegestaan. Laat het veld leeg voor onbeperkte aanmeldpogingen.
+   - Voer bij **[!UICONTROL Maximum Login Failures to Lockout Account]** het aantal keren in dat een gebruiker zich kan aanmelden bij de beheerder voordat de account is vergrendeld. Standaard zijn zes pogingen toegestaan. Laat het veld leeg voor onbeperkte aanmeldpogingen.
 
-   - Voor **[!UICONTROL Lockout Time (minutes)]** Voer het aantal minuten in dat een beheerdersaccount is vergrendeld wanneer aan het maximumaantal pogingen is voldaan.
+   - Voer voor **[!UICONTROL Lockout Time (minutes)]** het aantal minuten in dat een beheerdersaccount is vergrendeld wanneer het maximumaantal pogingen is bereikt.
 
 1. Stel wachtwoordopties in:
 
-   - Voer het aantal dagen in waarop een wachtwoord geldig is om de levensduur van beheerderswachtwoorden te beperken **[!UICONTROL Password Lifetime (days)]**. Laat het veld leeg voor een onbeperkte levensduur.
+   - Als u de levensduur van beheerderswachtwoorden wilt beperken, voert u het aantal dagen in dat een wachtwoord geldig is voor **[!UICONTROL Password Lifetime (days)]** . Laat het veld leeg voor een onbeperkte levensduur.
 
-   - Set **[!UICONTROL Password Change]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Password Change]** in op een van de volgende opties:
 
       - `Forced` — Vereist dat Admin-gebruikers hun wachtwoorden wijzigen na het instellen van de account.
       - `Recommended` — Aanbevolen dat Admin-gebruikers hun wachtwoorden wijzigen na het instellen van de account.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Wachtwoordvereisten voor beheerders
 

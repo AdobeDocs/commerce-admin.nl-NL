@@ -20,7 +20,7 @@ ht-degree: 1%
 + [Opmerkingen bij de release](release-notes.md)
 + [Installatie](install.md)
 + [B2B-functies inschakelen](enable-basic-features.md)
-+ Bedrijfsrekeningen {#companies}
++ Bedrijfsaccounts {#companies}
    + [Overzicht](account-companies.md)
    + [E-mailopties voor bedrijven configureren](email-company-configuration.md)
    + [Een bedrijfsaccount maken](account-company-create.md)
@@ -30,7 +30,7 @@ ht-degree: 1%
    + [Een klantengroep toewijzen aan een bedrijf](account-company-customer-group.md)
    + [Klanten aan een bedrijf toevoegen](customer-assign-company.md)
    + [Bedrijfskrediet beheren](credit-company.md)
-   + Bedrijfs gebruikers en structuur {#users}
+   + Bedrijfgebruikers en -structuur {#users}
       + [Gebruikersaccounts van bedrijven](account-company-users.md)
       + [Bedrijfsrollen en -machtigingen](account-company-roles-permissions.md)
       + [Bedrijfsstructuur definiëren](account-company-structure.md)
@@ -50,7 +50,7 @@ ht-degree: 1%
    + [Aankooporders voor bedrijven](purchase-order-flow.md)
    + [Goedkeuringsvoorschriften](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ Aanhalingen {#quotes}
++ Aanhalingstekens {#quotes}
    + [Overzicht](quotes.md)
    + [Aanhalingstekens configureren](configure-quotes.md)
    + [Aanvraag voor offerte](quote-request.md)
@@ -64,4 +64,4 @@ ht-degree: 1%
 + Referentie {#reference}
    + [Achteruit incompatibele wijzigingen](backward-incompatible-changes.md)
    + [Pakketten](packages.md)
-+ [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

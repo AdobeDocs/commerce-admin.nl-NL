@@ -16,24 +16,24 @@ ht-degree: 0%
 
 De visuele configuratie van de Merchandiser bepaalt de attributen die in het het koophandel drijven venster en de minimumvoorraaddrempel kunnen worden gebruikt. De configuratie identificeert ook het kenmerk dat voor kleur en de volgorde van kleurwaarden wordt gebruikt.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Visual Merchandiser]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Visual Merchandiser]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit.
 
-   ![Catalogusconfiguratie - visuele handelaar](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - visuele handelaar ](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Attributes for Category Rules]** selecteert u elk kenmerk dat u beschikbaar wilt maken voor visuele merchandising.
+1. Selecteer in de lijst **[!UICONTROL Attributes for Category Rules]** elk kenmerk dat u beschikbaar wilt maken voor visuele merchandising.
 
    Als u meerdere kenmerken wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
 
-1. Voer de **[!UICONTROL Minimum Stock Threshold]** voor een product om in het Visuele venster van Merchandiser te verschijnen.
+1. Ga **[!UICONTROL Minimum Stock Threshold]** voor een product in om in het venster van Visual Merchandiser te verschijnen.
 
-1. Voer de **[!UICONTROL Color Attribute Code]**.
+1. Voer de **[!UICONTROL Color Attribute Code]** in.
 
-   De standaardwaarde is `color`. Als in de catalogus een ander kenmerk wordt gebruikt, voert u de naam van het kenmerk in kleine letters in.
+   De standaardwaarde is `color` . Als in de catalogus een ander kenmerk wordt gebruikt, voert u de naam van het kenmerk in kleine letters in.
 
-1. Voor **[!UICONTROL Color Order]** geeft u elke kleurwaarde op een aparte regel en in de juiste volgorde op om de prioriteit van elke kleur te bepalen.
+1. Voer bij **[!UICONTROL Color Order]** elke kleurwaarde in op een aparte regel en in de juiste volgorde om de prioriteit van elke kleur te bepalen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

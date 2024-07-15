@@ -12,165 +12,165 @@ ht-degree: 0%
 
 # Belastingconfiguratie-instellingen
 
-De volgende instructies nemen u door de basisbelastingconfiguratie voor uw instantie van de Handel. Voordat u belastingen instelt, moet u controleren of u bekend bent met de belastingvereisten van uw [landinstelling](store-localize.md#step-3-change-the-locale-of-the-store-view). Voltooi vervolgens de belastingconfiguratie volgens uw vereisten.
+De volgende instructies nemen u door de basisbelastingconfiguratie voor uw Commerce-exemplaar. Alvorens vestiging uw belastingen, zorg ervoor dat u met de belastingvereisten van uw [ scène ](store-localize.md#step-3-change-the-locale-of-the-store-view) vertrouwd bent. Voltooi vervolgens de belastingconfiguratie volgens uw vereisten.
 
-Beheerder [machtigingen](../systems/permissions.md) kan worden ingesteld op [toegang](../systems/permissions-user-roles.md) op basis van de bedrijfsactiviteit _moeten weten_. Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als u een website instelt voor een gebied dat afwijkt van uw standaard verzendpunt van oorsprong, moet u ook toegang verlenen tot de bronnen voor Systeem/Verzending voor de rol. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
+Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ toegang ](../systems/permissions-user-roles.md) aan belastingmiddelen te beperken, die op de zaken _worden gebaseerd moet_ kennen. Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als u een website instelt voor een gebied dat afwijkt van uw standaard verzendpunt van oorsprong, moet u ook toegang verlenen tot de bronnen voor Systeem/Verzending voor de rol. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
 
 ## De algemene belastinginstellingen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** naar de website en opslag die het doel van de configuratie is.
+1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** in op de website en slaat u die configuratie als doel heeft.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Tax]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
 1. Voer de volgende configuratie-instellingen uit.
 
-   Indien nodig de **[!UICONTROL Use system value]** Schakel het selectievakje in van instellingen die grijs worden weergegeven.
+   Wis indien nodig het selectievakje **[!UICONTROL Use system value]** van instellingen die grijs worden weergegeven.
 
 ### [!UICONTROL Tax Classes]
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
 
-   ![Belastingklassen](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![ Belastingklassen ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
-   - **Belastingklasse voor verzending** — Instellen op de juiste klasse. De standaardklassen zijn: `None` en `Taxable Goods`
-   - **Belastingsklasse voor Cadeauopties** — ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Stel dit in op de juiste klasse. De standaardklassen zijn: `None` en `Taxable Goods`
-   - **Standaardbelastingklasse voor product** — Instellen op de juiste klasse. De standaardklassen zijn: `None` en `Taxable Goods`
-   - **Standaardbelastingklasse voor klant** — Instellen op de juiste klasse. De standaardklasse is: `Retail Customer` en `Wholesale Customer`
+   - **Klasse van de Belasting voor Verzending** — Reeks aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
+   - **de Klasse van de Belasting voor de Opties van het Cadeautje** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) plaatste aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
+   - **StandaardKlasse van de Belasting voor Product** — Reeks aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
+   - **StandaardKlasse van de Belasting voor Klant** — Reeks aan de aangewezen klasse. De standaardklasse is: `Retail Customer` en `Wholesale Customer`
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### [!UICONTROL Calculation Settings]
 
 1. Vouw de sectie **[!UICONTROL Calculation Settings]** uit.
 
-   ![Instellingen voor berekening](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
+   ![ de Montages van de Berekening ](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Tax Calculation Method Based On]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Tax Calculation Method Based On]** in op een van de volgende opties:
 
    - `Unit Price` - De prijs van elk product
-   - `Row Total` - Het totaal van het lijnitem in de volgorde, minus kortingen
-   - `Total` - Het totaal van de bestelling
+   - `Row Total` - Het totaal van het lijstitem in de volgorde, minus kortingen
+   - `Total` - Het totaal van de volgorde
 
-1. Set **[!UICONTROL Tax Calculation Based On]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Tax Calculation Based On]** in op een van de volgende opties:
 
    - `Shipping Address` - Het adres waar de bestelling moet worden verzonden
    - `Billing Address` - Het factureringsadres van de klant of het bedrijf
-   - `Shipping Origin` - Het adres dat als [punt van oorsprong](shipping-settings.md#point-of-origin) voor uw winkel
+   - `Shipping Origin` - het adres dat als [ uitgangspunt ](shipping-settings.md#point-of-origin) voor uw opslag wordt gespecificeerd
 
-1. Set **[!UICONTROL Catalog Prices]** tot `Excluding Tax` of `Including Tax`.
+1. Stel **[!UICONTROL Catalog Prices]** in op `Excluding Tax` of `Including Tax` .
 
-1. Set **[!UICONTROL Shipping Prices]** tot `Excluding Tax` of `Including Tax`.
+1. Stel **[!UICONTROL Shipping Prices]** in op `Excluding Tax` of `Including Tax` .
 
-1. Set **[!UICONTROL Apply Customer Tax]** op een van de volgende wijzen om te bepalen of de belasting op de oorspronkelijke prijs of op de verlaagde prijs wordt toegepast: `After Discount` of `Before Discount`
+1. Stel **[!UICONTROL Apply Customer Tax]** in op een van de volgende opties om te bepalen of belasting wordt toegepast op de oorspronkelijke prijs of op de gedisconteerde prijs: `After Discount` of `Before Discount`
 
-1. Set **[!UICONTROL Apply Discount on Prices]** op een van de volgende manieren te bepalen of kortingen belastingen omvatten of uitsluiten: `Excluding Tax` of `Including Tax`
+1. Stel **[!UICONTROL Apply Discount on Prices]** in op een van de volgende opties om te bepalen of kortingen belasting bevatten of uitsluiten: `Excluding Tax` of `Including Tax`
 
-1. Set **[!UICONTROL Apply Tax On]** tot `Custom price if available` of `Original price only`.
+1. Stel **[!UICONTROL Apply Tax On]** in op `Custom price if available` of `Original price only` .
 
-1. Set **[!UICONTROL Enable Cross-Border Trade]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Enable Cross-Border Trade]** in op een van de volgende opties:
 
    - `Yes` - Gebruik consistente prijzen voor verschillende belastingtarieven. Als de catalogusprijs ook belasting bevat, kiest u deze instelling om de prijs vast te stellen, ongeacht het belastingtarief van de klant.
-   - `No` - Verander de prijs per belastingtarief.
+   - `No` - Verander de prijs door belastingtarief.
 
    >[!IMPORTANT]
    >
-   >Indien [grensoverschrijdende handel](#cross-border-price-consistency) wordt toegelaten, verandert de winstmarge door belastingtarief. De winst wordt bepaald door de formule (`Revenue - CustomerVAT - CostOfGoodsSold`). Om grensoverschrijdende handel mogelijk te maken, moeten de prijzen worden vastgesteld op basis van belastingen.
+   >Als [ grensoverschrijdende handel ](#cross-border-price-consistency) wordt toegelaten, verandert de winstmarge door belastingtarief. De winst wordt bepaald door de formule (`Revenue - CustomerVAT - CostOfGoodsSold`). Om grensoverschrijdende handel mogelijk te maken, moeten de prijzen worden vastgesteld op basis van belastingen.
 
 ### [!UICONTROL Default Tax Destination Calculation]
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie uit.
 
-   ![Berekening standaardbelastingbestemming](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![ Berekening van de StandaardBelastingbestemming ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
-1. Geef de **[!UICONTROL Default Country]** voor belastingberekeningen.
+1. Geef de **[!UICONTROL Default Country]** op voor belastingberekeningen.
 
-1. Geef, indien van toepassing, de **[!UICONTROL Default State]** voor belastingberekeningen.
+1. Geef indien van toepassing de **[!UICONTROL Default State]** op voor belastingberekeningen.
 
-1. Geef, indien van toepassing, de **[!UICONTROL Default Post Code]** voor belastingberekeningen.
+1. Geef indien van toepassing de **[!UICONTROL Default Post Code]** op voor belastingberekeningen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### [!UICONTROL Price Display Settings]
 
 >[!IMPORTANT]
 >
->Sommige combinaties van instellingen met betrekking tot een prijsweergave die zowel belasting bevatten als uitsluiten, kunnen verwarrend zijn voor de klant. Als u wilt voorkomen dat een waarschuwingsbericht wordt geactiveerd, raadpleegt u de [aanbevolen instellingen](taxes.md#warning-messages).
+>Sommige combinaties van instellingen met betrekking tot een prijsweergave die zowel belasting bevatten als uitsluiten, kunnen verwarrend zijn voor de klant. Om het teweegbrengen van een waarschuwingsbericht te vermijden, zie [ geadviseerde montages ](taxes.md#warning-messages).
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie uit.
 
-   ![Weergave-instellingen prijs](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+   ![ de Montages van de Vertoning van de Prijs ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Display Product Prices in Catalog]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Display Product Prices in Catalog]** in op een van de volgende opties:
 
-   - `Excluding Tax` - Catalogusprijzen die in de winkelruimte worden weergegeven, omvatten geen belasting.
-   - `Including Tax` - Catalogusprijzen in de winkel omvatten alleen belasting als een belastingregel overeenkomt met de fiscale oorsprong of als het adres van de klant overeenkomt met de belastingregel. Dit kan gebeuren als een klant een account maakt, zich aanmeldt of het gereedschap Belasting en verzending schatten in de winkelwagen gebruikt.
+   - `Excluding Tax` - Catalogusprijzen die in de winkel worden weergegeven, omvatten geen belasting.
+   - `Including Tax` - Catalogusprijzen in de winkel omvatten alleen belasting als een belastingregel overeenkomt met de belastingoorsprong of als het adres van de klant overeenkomt met de belastingregel. Dit kan gebeuren als een klant een account maakt, zich aanmeldt of het gereedschap Belasting en verzending schatten in de winkelwagen gebruikt.
    - `Including and Excluding Tax` - Catalogusprijzen die in de winkel worden weergegeven, worden zowel met als zonder belasting weergegeven.
 
-1. Set **[!UICONTROL Display Shipping Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+1. Stel **[!UICONTROL Display Shipping Prices]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### [!UICONTROL Shopping Cart Display Settings]
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie uit.
 
-   ![Weergave-instellingen winkelwagentje](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![ het Shopping de Montages van de Vertoning van de Kar ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. Kies voor elk van de volgende instellingen hoe u belastingen en prijzen in het winkelwagentje wilt weergeven, afhankelijk van de vereisten van uw winkel en landinstelling:
 
-   - Set **[!UICONTROL Display Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Prices]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - Set **[!UICONTROL Display Subtotal]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Subtotal]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - Set **[!UICONTROL Display Shipping Amount]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Shipping Amount]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Instellen **[!UICONTROL Display Gift Wrapping Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Instellen **[!UICONTROL Display Printed Card Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-1. Stel de volgende weergaveopties in op `Yes` of `No`, afhankelijk van uw behoeften:
+1. Stel de volgende weergaveopties naar wens in op `Yes` of `No` :
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-1. Uitbreiden ![Uitbreiding](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie.
+1. Breid ![ Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie.
 
-   ![Weergave-instellingen voor bestellingen, facturen, creditcards](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![ Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Geef op hoe prijzen en belastingen in bestellingen, facturen en creditnota&#39;s worden weergegeven:
 
-   - Set **[!UICONTROL Display Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Prices]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - Set **[!UICONTROL Display Subtotal]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Subtotal]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - Set **[!UICONTROL Display Shipping Amount]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - Stel **[!UICONTROL Display Shipping Amount]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Instellen **[!UICONTROL Display Gift Wrapping Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Instellen **[!UICONTROL Display Printed Card Prices]** tot `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-1. Stel de volgende weergaveopties in op `Yes` of `No`, op basis van uw vereisten:
+1. Stel de volgende weergaveopties naar wens in op `Yes` of `No` :
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### [!UICONTROL Fixed Product Taxes]
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie uit.
 
-   ![Vaste productbelastingen](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
+   ![ Vaste Belastingen van het Product ](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enable FPT]** aan of `Yes` of `No`, op basis van uw vereisten.
+1. Stel **[!UICONTROL Enable FPT]** naar wens in op `Yes` of `No` .
 
 1. Als FPT is ingeschakeld, geeft u de weergaveopties voor FPT op:
 
@@ -181,46 +181,46 @@ Beheerder [machtigingen](../systems/permissions.md) kan worden ingesteld op [toe
 
    - `Including FPT Only` - Weergegeven prijzen omvatten vaste productbelastingen. De hoeveelheid FPT wordt niet afzonderlijk weergegeven.
    - `Including FPT and FPT description` - Weergegeven prijzen omvatten vaste productbelastingen. De hoeveelheid FPT wordt afzonderlijk weergegeven.
-   - `Excluding FPT. Including FPT description and final price` - De weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt afzonderlijk weergegeven.
-   - `Excluding FPT` - De weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt niet afzonderlijk weergegeven.
+   - `Excluding FPT. Including FPT description and final price` - Weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt afzonderlijk weergegeven.
+   - `Excluding FPT` - Weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt niet afzonderlijk weergegeven.
 
-1. Set **[!UICONTROL Apply Discounts to FPT]** tot `Yes` of `No`, op basis van uw vereisten.
+1. Stel **[!UICONTROL Apply Discounts to FPT]** in op `Yes` of `No` , afhankelijk van uw vereisten.
 
-1. Set **[!UICONTROL FPT Tax Configuration]** bepalen hoe FPT wordt berekend.
+1. Stel **[!UICONTROL FPT Tax Configuration]** in om te bepalen hoe FPT wordt berekend.
 
-   - `Not Taxed` - Selecteer deze optie als uw belastingjurisdictie FPT niet belast. (Bijvoorbeeld Californië.)
-   - `Taxed` - Selecteer deze optie als de belastingjurisdictie FPT wel belast. (Bijvoorbeeld Canada.)
+   - `Not Taxed` - Selecteer deze optie als uw belastingjurisdictie geen FPT belast. (Bijvoorbeeld Californië.)
+   - `Taxed` - Selecteer deze optie als uw belastingjurisdictie FPT wel belast. (Bijvoorbeeld Canada.)
    - `Loaded and Displayed with Tax` - Klik op deze optie als FPT wordt toegevoegd aan het totaal van de bestelling voordat u belasting toepast. (Bijvoorbeeld EU-landen.)
 
-1. Set **[!UICONTROL Include FPT in Subtotal]** tot `Yes` of `No`, op basis van uw vereisten.
+1. Stel **[!UICONTROL Include FPT in Subtotal]** in op `Yes` of `No` , afhankelijk van uw vereisten.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Grensoverschrijdende prijsconsistentie
 
 Grensoverschrijdende handel (ook wel prijsconsistentie genoemd) ondersteunt de Europese Unie (EU) en andere handelaren die consistente prijzen willen handhaven voor klanten wier belastingtarieven verschillen van het belastingtarief voor winkels.
 
-Handelaren die in verschillende regio&#39;s en geografische gebieden actief zijn, kunnen één prijs weergeven door de belasting in de prijs van het product op te nemen. De prijzen zijn schoon en onoverzichtelijk, ongeacht de belastingstructuren en -tarieven die van land tot land verschillen. Voor deze instellingen moet een extensie voor belastingberekening zijn geïnstalleerd vanaf het tabblad [Marketplace](../getting-started/commerce-marketplace.md), zoals _Vertex Cloud_.
+Handelaren die in verschillende regio&#39;s en geografische gebieden actief zijn, kunnen één prijs weergeven door de belasting in de prijs van het product op te nemen. De prijzen zijn schoon en onoverzichtelijk, ongeacht de belastingstructuren en -tarieven die van land tot land verschillen. Deze montages vereisen dat een uitbreiding van de belastingberekening van [ Marketplace ](../getting-started/commerce-marketplace.md), zoals _de Wolk van de Hoekpunt_ wordt geïnstalleerd.
 
 >[!NOTE]
 >
->Wanneer grensoverschrijdende handel is ingeschakeld, wordt de winstmarge aangepast aan het belastingtarief. De winst wordt bepaald aan de hand van de formule:<br>
+>Wanneer grensoverschrijdende handel is ingeschakeld, wordt de winstmarge aangepast aan het belastingtarief. De winst wordt bepaald door de formule:<br>
 >`Revenue - CustomerVAT - CostOfGoodsSold`
 
-**_Om de consistentie van de grensoverschrijdende prijzen mogelijk te maken:_**
+**_om grensoverschrijdende prijsconsistentie toe te laten:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** naar de website en opslag die het doel van de configuratie is.
+1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** in op de website en slaat u die configuratie als doel heeft.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Tax]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Calculation Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Calculation Settings]** sectie uit.
 
-1. Set **[!UICONTROL Catalog Prices]** tot `Including Tax`.
+1. Stel **[!UICONTROL Catalog Prices]** in op `Including Tax` .
 
-1. Om grensoverschrijdende prijsconsistentie mogelijk te maken, stelt u **[!UICONTROL Enable Cross Border Trade]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Cross Border Trade]** in op `Yes` om consistentie bij grensoverschrijdende prijzen mogelijk te maken.
 
-   ![Instellingen voor grensoverschrijdende handel inschakelen](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
+   ![ laat Grensoverschrijdende handelsinstellingen ](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"} toe
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

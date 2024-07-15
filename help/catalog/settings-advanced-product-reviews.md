@@ -1,6 +1,6 @@
 ---
 title: Productinstellingen - [!UICONTROL Product Reviews]
-description: Voor een product geldt het [!UICONTROL Product Reviews] Met instellingen hebt u toegang tot de verzonden revisies voor het product en kunt u de status voor revisies in behandeling bewerken.
+description: Voor een product bieden de [!UICONTROL Product Reviews] -instellingen toegang tot verzonden revisies voor het product en bewerken ze de status voor revisies die in behandeling zijn.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Product Reviews]
 
-De _[!UICONTROL Product Reviews]_in deze sectie worden alle beoordelingen weergegeven die klanten over het product hebben verzonden. Deze sectie wordt alleen weergegeven met de andere productinformatie nadat een nieuw product voor het eerst is opgeslagen. Zie voor meer informatie [Productbeoordelingen](../merchandising-promotions/product-reviews.md).
+In de sectie _[!UICONTROL Product Reviews]_worden alle revisies weergegeven die klanten over het product hebben verzonden. Deze sectie wordt alleen weergegeven met de andere productinformatie nadat een nieuw product voor het eerst is opgeslagen. Voor meer informatie, zie [ Recensies van het Product ](../merchandising-promotions/product-reviews.md).
 
-![Productbeoordelingen](./assets/product-review.png){width="600" zoomable="yes"}
+![ Recensies van het Product ](./assets/product-review.png){width="600" zoomable="yes"}
 
 ## Veldverwijzing
 
@@ -22,7 +22,7 @@ De _[!UICONTROL Product Reviews]_in deze sectie worden alle beoordelingen weerge
 |--- |--- |
 | [!UICONTROL ID] | Unieke, numerieke id gegenereerd voor het product review-item |
 | [!UICONTROL Created] | Datum van bekendmaking van het nieuwe onderzoek |
-| [!UICONTROL Status] | Status controleren (`Pending`, `Approved`, of `Not Approved`) |
+| [!UICONTROL Status] | Revisiestatus (`Pending`, `Approved` of `Not Approved`) |
 | [!UICONTROL Title] | Revisietitel |
 | [!UICONTROL Nickname] | De bijnaam van de gebruiker die de revisie heeft verlaten |
 | [!UICONTROL Review] | Klantenoverzicht van het huidige product |
@@ -36,20 +36,20 @@ De _[!UICONTROL Product Reviews]_in deze sectie worden alle beoordelingen weerge
 
 ## Moderne revisies voor een specifiek product
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Zoek het product en open het in de bewerkingsmodus.
 
-1. Naar de _[!UICONTROL Product Reviews]_sectie.
+1. Blader naar de sectie _[!UICONTROL Product Reviews]_.
 
-1. Klikken **[!UICONTROL Edit]** voor een productoverzicht met `Pending` om de details weer te geven en te bewerken.
+1. Klik op **[!UICONTROL Edit]** voor een productoverzicht met de `Pending` -status om de details weer te geven en te bewerken.
 
 1. Status instellen voor revisie:
 
-   - Als u een revisie in behandeling wilt goedkeuren, selecteert u `Approved`.
-   - Als u een revisie wilt weigeren, selecteert u `Not Approved`.
-   - U kunt de revisiestatus wijzigen in `Pending` op elk moment.
+   - Selecteer `Approved` als u een revisie in behandeling wilt goedkeuren.
+   - Als u een revisie wilt afwijzen, selecteert u `Not Approved` .
+   - U kunt de revisiestatus op elk gewenst moment terugzetten naar `Pending` .
 
-1. Klik op **[!UICONTROL Save Review]**.
+1. Klik op **[!UICONTROL Save Review]** als de bewerking is voltooid.
 
-Revisies met de `Pending` en `Not Approved` statussen worden niet weergegeven in de winkelvoetnoot.
+Revisies met de statussen `Pending` en `Not Approved` worden niet weergegeven op de winkelvoorgrond.

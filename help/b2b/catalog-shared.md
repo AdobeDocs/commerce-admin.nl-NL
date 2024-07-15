@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # Overzicht van gedeelde catalogus
 
-Adobe Commerce B2B biedt u de mogelijkheid om de classificatie te behouden _gedeeld_ catalogi met aangepaste prijzen voor verschillende bedrijven. Naast de norm _primair_, productcatalogus, biedt de klant toegang tot twee typen gedeelde catalogi met verschillende prijsstructuren.
+Adobe Commerce B2B geeft u de capaciteit om gegoten _gedeelde_ catalogi met douaneprijzen voor verschillende bedrijven te handhaven. Naast de norm, _primaire_, productcatalogus, verleent het klantentoegang tot twee types van gedeelde catalogi met verschillende het tarief structuren.
 
-Als de [Functie Gedeelde catalogus](enable-basic-features.md) is ingeschakeld in de configuratie, blijft de oorspronkelijke primaire catalogus zichtbaar in de beheerfunctie, maar is alleen de standaard (algemene) gedeelde catalogus die door de overheid wordt gebruikt zichtbaar in de winkel. Bovendien kunnen aangepaste catalogi worden gemaakt die alleen zichtbaar zijn voor leden van specifieke [bedrijf](account-companies.md) rekeningen.
+Als de [ Gedeelde eigenschap van de Catalogus ](enable-basic-features.md) in de configuratie wordt toegelaten, blijft de originele primaire catalogus zichtbaar van Admin, maar slechts het Standaard (Algemene) openbare gedeelde catalogus is zichtbaar van de storefront. Bovendien kunnen de douanecatalogi worden gecreeerd die slechts aan leden van specifieke [ bedrijf ](account-companies.md) rekeningen zichtbaar zijn.
 
-Voor de `Default (General)` openbare gedeelde catalogus, moet u producten toewijzen om de catalogus in de winkel weer te geven. Standaard is deze leeg en bevat deze geen producten.
+Voor de openbare gedeelde catalogus van `Default (General)` moet u producten toewijzen om de catalogus in de winkel weer te geven. Standaard is deze leeg en bevat deze geen producten.
 
 >[!NOTE]
 >
->**[B2B-release 1.3.0](release-notes.md#b2b-v130) en hoger** — Wanneer u een gedeelde catalogus maakt, moet u elk [categorietoestemming](../catalog/category-permissions.md) voor de catalogus is ingesteld op _[!UICONTROL Allow for the Display Product Prices]_en_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` zelfs wanneer catalogusmachtigingen zijn ingesteld op `Allow`.
+>**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_en_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 >[!IMPORTANT]
 >
->Alle bestaande [machtigingen voor groep instellen](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alles_** categorieën in de catalogus als de **_[!UICONTROL Shared Catalog]_** -functie is ingeschakeld. [!UICONTROL Shared Catalog] beheert volledig alle categorierechten in de catalogus wanneer deze is ingeschakeld.
+>Alle bestaande [ montages van de groepstoestemming ](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
 
-De _[!UICONTROL Shared Catalogs]_biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is vergelijkbaar met de standaard [Werkruimte Beheer](../getting-started/admin-workspace.md)met filters en besturingselementen voor handelingen. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
+De pagina _[!UICONTROL Shared Catalogs]_biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is gelijkaardig aan de standaard [ werkruimte Admin ](../getting-started/admin-workspace.md), met filters en actiecontroles. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
 
-![Gedeelde catalogi](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
+![ Gedeelde Catalogi ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
-## Toegang krijgen tot de [!UICONTROL Shared Catalogs] page
+## De pagina [!UICONTROL Shared Catalogs] openen
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 ## Besturingselementen voor handelingen
 
-De [besturingselementen voor handelingen](../getting-started/admin-actions-control.md) in de linkerbovenhoek kunt u met het besturingselement voor massaacties geselecteerde gedeelde catalogi verwijderen die u niet meer nodig hebt. In het raster kunt u de _[!UICONTROL Actions]_de kolom bevat de volledige selectie van hulpmiddelen om uw gedeelde catalogi te beheren.
+De [ actiecontroles ](../getting-started/admin-actions-control.md) in de upper-left hoek kunnen met de controle van massaacties worden gebruikt om geselecteerde gedeelde catalogi te schrappen die niet meer nodig zijn. In het raster bevat de kolom _[!UICONTROL Actions]_alle gereedschappen voor het beheer van uw gedeelde catalogi.
 
-![Handelingen voor gedeelde catalogus](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
+![ Gedeelde Acties van de Catalogus ](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 
 | Besturing | Beschrijving |
 |------|-----------|
@@ -56,7 +56,7 @@ De [besturingselementen voor handelingen](../getting-started/admin-actions-contr
 | [!UICONTROL Select] | Hiermee selecteert u gedeelde catalogusrecords voor het toepassen van een handeling. U kunt het besturingselement in de koptekst gebruiken om alle gedeelde catalogusrecords in het raster te selecteren of de selectie ervan op te heffen. Schakel het selectievakje in als u een afzonderlijke gedeelde catalogus wilt selecteren. |
 | [!UICONTROL ID] | Een unieke numerieke id die op volgorde wordt toegewezen wanneer de catalogus wordt gemaakt. |
 | [!UICONTROL Name] | De naam van de gedeelde catalogus. Standaard is de standaard (algemene) gedeelde catalogus beschikbaar. |
-| [!UICONTROL Type] | Hiermee wordt het type gedeelde catalogus aangeduid als: <br/>**[!UICONTROL Public]**- De standaard openbare gedeelde catalogus wordt automatisch gemaakt wanneer Adobe Commerce B2B wordt geïnstalleerd. Deze wordt aanvankelijk toegewezen aan de `General` en `Not Logged In` de klantengroepen, en is zichtbaar aan gasten en individuele het programma geopende klanten die niet met een bedrijf worden geassocieerd. Het systeem ondersteunt slechts één openbare gedeelde catalogus tegelijk.<br/>**[!UICONTROL Custom]** - Een aangepaste gedeelde catalogus bevat prijzen die alleen zichtbaar zijn voor aangemelde medewerkers van de toegewezen bedrijfsaccounts. U kunt zoveel aangepaste gedeelde catalogi maken als u nodig hebt. |
+| [!UICONTROL Type] | Identificeert het type gedeelde catalogus als: <br/>**[!UICONTROL Public]**- De standaard openbare gedeelde catalogus wordt automatisch gemaakt wanneer Adobe Commerce B2B wordt geïnstalleerd. Deze wordt in eerste instantie toegewezen aan de klantengroepen `General` en `Not Logged In` en is zichtbaar voor gasten en individuele aangemelde klanten die niet aan een bedrijf zijn gekoppeld. Het systeem ondersteunt slechts één openbare gedeelde catalogus tegelijk.<br/>**[!UICONTROL Custom]** - Een aangepaste gedeelde catalogus bevat prijzen die alleen zichtbaar zijn voor aangemelde medewerkers van de toegewezen bedrijfsaccounts. U kunt zoveel aangepaste gedeelde catalogi maken als u nodig hebt. |
 | [!UICONTROL Customer Tax Class] | De belastingklasse die aan de overeenkomstige klantengroep wordt toegewezen. Deze kolom wordt niet weergegeven in het standaardraster, maar kan worden toegevoegd door de kolomlay-out te wijzigen. |
 | [!UICONTROL Created At] | De datum en tijd waarop de gedeelde catalogus is gemaakt. |
 | [!UICONTROL Created By] | De voornaam en achternaam van de opslagbeheerder die de gedeelde catalogus heeft gemaakt. |

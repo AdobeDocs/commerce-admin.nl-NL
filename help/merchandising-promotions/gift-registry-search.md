@@ -14,49 +14,49 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De [Widget](../content-design/widgets.md) kan worden gebruikt om een zoekvak voor een cadeauregister overal in uw winkel te plaatsen. U kunt de zoekopties opgeven die beschikbaar moeten zijn voor klanten, zoals naam, e-mailadres en registratie-id voor cadeautjes. Wanneer de klant op de knop Zoeken klikt, worden de resultaten weergegeven op de pagina Zoeken in register van cadeau. Als de zoekopdracht geen resultaten oplevert, kan de klant het opnieuw proberen met andere parameters.
+Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt om een vakje van de het onderzoeksdoos van de cadeauregistratie overal in uw opslag te plaatsen. U kunt de zoekopties opgeven die beschikbaar moeten zijn voor klanten, zoals naam, e-mailadres en registratie-id voor cadeautjes. Wanneer de klant op de knop Zoeken klikt, worden de resultaten weergegeven op de pagina Zoeken in register van cadeau. Als de zoekopdracht geen resultaten oplevert, kan de klant het opnieuw proberen met andere parameters.
 
-![Voorbeeld van storefront - zoeken in register van cadeautjes](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![ de storefront van het Voorbeeld - het onderzoek van de cadeauregistratie ](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Zoek in een cadeauregister configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Widget]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Widget]** .
 
-1. Kies de optie **[!UICONTROL Settings]** en voert u de volgende handelingen uit:
+1. Kies het tabblad **[!UICONTROL Settings]** en voer de volgende handelingen uit:
 
-   - Set **[!UICONTROL Type]** tot `Gift Registry Search`.
+   - Stel **[!UICONTROL Type]** in op `Gift Registry Search` .
 
-   - Set **[!UICONTROL Design Theme]** aan het thema dat door de opslag wordt gebruikt.
+   - Stel **[!UICONTROL Design Theme]** in op het thema dat door de winkel wordt gebruikt.
 
    - Klik op **[!UICONTROL Continue]**.
 
-   ![Cadeauregister - zoekinstellingen](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
+   ![ de registratie van het Cadeautje - onderzoeksmontages ](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. In de _[!UICONTROL Storefront Properties]_Ga als volgt te werk:
+1. Ga als volgt te werk in de sectie _[!UICONTROL Storefront Properties]_:
 
-   - Voer een **[!UICONTROL Widget Title]** voor interne referentie.
+   - Voer een **[!UICONTROL Widget Title]** in voor interne referentie.
 
-   - Set **[!UICONTROL Assign to Store Views]** in de winkelweergaven waar Cadeauregister zoeken beschikbaar moet zijn.
+   - Stel **[!UICONTROL Assign to Store Views]** in op de winkelweergaven waarop de zoekfunctie voor het register van cadeautjes beschikbaar moet zijn.
 
-   - Set **[!UICONTROL Sort Order]** om de orde te bepalen dat het blok van het Onderzoek van de Registratie van het Cadeautje verschijnt wanneer er andere blokken aan de zelfde plaats op de pagina worden toegewezen.
+   - Stel **[!UICONTROL Sort Order]** in om de volgorde te bepalen waarin het zoekblok voor de Cadeauregistratie wordt weergegeven wanneer er andere blokken zijn toegewezen aan dezelfde locatie op de pagina.
 
-   ![Cadeauregister - eigenschappen van winkel](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
+   ![ de registratie van het Cadeautje - storefront eigenschappen ](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. In de **[!UICONTROL Layout Updates]** sectie, klikken **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie **[!UICONTROL Layout Updates]** op **[!UICONTROL Add Layout Update]** .
 
 1. Ga als volgt te werk om te bepalen waar de zoekopdracht in de Cadeauregistratie in de winkel wordt weergegeven:
 
-   - Set **[!UICONTROL Display On]** op de pagina&#39;s in je winkel waar je zoekblok voor cadeauregister wilt weergeven.
+   - Stel **[!UICONTROL Display On]** in op de pagina&#39;s in de winkel waar u het zoekblok voor de cadeauregistratie wilt weergeven.
 
-   - Kies, indien van toepassing, de **[!UICONTROL Categories]** waar u het wilt weergeven.
+   - Kies, indien van toepassing, de **[!UICONTROL Categories]** waar u deze wilt weergeven.
 
-   - Set **[!UICONTROL Container]** naar de locatie op de pagina waar u het zoekblok voor het register van cadeautjes wilt plaatsen.
+   - Stel **[!UICONTROL Container]** in op de locatie op de pagina waar u het zoekblok voor de cadeauregistratie wilt plaatsen.
 
-   ![Cadeauregister - layout-updates](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![ de registratie van het Cadeautje - lay-outupdates ](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Widget Options]**.
+1. Kies **[!UICONTROL Widget Options]** in het linkerdeelvenster.
 
 1. Om te bepalen hoe bezoekers van uw site kunnen zoeken naar cadeauregisters, selecteert u zoveel van de volgende opties als van toepassing zijn:
 
@@ -65,9 +65,9 @@ De [Widget](../content-design/widgets.md) kan worden gebruikt om een zoekvak voo
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![Cadeauregister - widgetopties](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
+   ![ Cadeauregister - widgetopties ](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 1. Als u wordt gevraagd om de paginacache te vernieuwen, klikt u op de koppeling in het bericht boven aan de werkruimte en volgt u de instructies.
 

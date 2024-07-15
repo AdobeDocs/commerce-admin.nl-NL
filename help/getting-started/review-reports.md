@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Evaluatierapporten
 
-Als u de ingebouwde [!DNL Commerce] Revisies, overzichtsrapporten bieden informatie over productoverzichten per klant en per product.
+Als u de ingebouwde [!DNL Commerce] recensies gebruikt, bieden de overzichtsrapporten informatie over productrevisies door klant en door product.
 
 ## [!UICONTROL Customer Reviews Report]
 
-De [!UICONTROL Customer Reviews Report] bevat een lijst met alle klanten die productbeoordelingen hebben ingediend. Het rapport bevat het aantal beoordelingen dat door elke klant is ingediend en een koppeling naar de lijst met revisies.
+[!UICONTROL Customer Reviews Report] biedt een lijst met alle klanten die productrevisies hebben verzonden. Het rapport bevat het aantal beoordelingen dat door elke klant is ingediend en een koppeling naar de lijst met revisies.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
 
-![Rapport door klanten bekijken](./assets/customer-reviews.png){width="600"}
+![ Rapport van het Overzicht door Klanten ](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-De [!UICONTROL Product Reviews Report] geeft een lijst van alle producten die door klanten zijn herzien. Het rapport bevat het aantal beoordelingen en de gemiddelde beoordeling, het product is voor het laatst beoordeeld en een link naar de lijst van beoordelingen voor elk product.
+In [!UICONTROL Product Reviews Report] worden alle producten weergegeven die door klanten zijn gecontroleerd. Het rapport bevat het aantal beoordelingen en de gemiddelde beoordeling, het product is voor het laatst beoordeeld en een link naar de lijst van beoordelingen voor elk product.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
 
-![Rapport bekijken per product](./assets/product-reviews.png){width="600"}
+![ Rapport van het Overzicht door Product ](./assets/product-reviews.png){width="600"}

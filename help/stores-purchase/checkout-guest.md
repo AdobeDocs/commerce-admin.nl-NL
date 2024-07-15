@@ -14,26 +14,26 @@ ht-degree: 0%
 
 Uw winkel kan zo worden geconfigureerd dat kopers een account moeten openen voordat ze een aankoop doen. Met de standaardinstelling kunnen gasten aankopen doen, met een optie om zich voor een account te registreren nadat ze het afrekenen hebben voltooid.
 
-![In de winkel Luminantie wordt Uitchecken als gast weergegeven](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![ de vertoningenControle van de opslag van de Luma uit als Gast ](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-**_Uitchecken door gasten uitschakelen:_**
+**_om gastcontrole onbruikbaar te maken:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Checkout]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
 
-   ![Uitgebreide opties voor uitchecken op de configuratiepagina](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![ uitcheckopties die op de configuratiepagina ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"} worden uitgebreid
 
-Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Afhandelingsopties](../configuration-reference/sales/checkout.md#checkout-options) in de _Referentiehandleiding voor configuratie_.
+Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Opties van de Controle ](../configuration-reference/sales/checkout.md#checkout-options) in de _Gids van de Verwijzing van de Configuratie_.
 
-1. Als de instelling geldt voor een specifieke winkelweergave, [kiezen in de winkelweergave](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
-   Klik op **[!UICONTROL OK]** om door te gaan.
+   Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
-1. Set **[!UICONTROL Allow Guest Checkout]** tot `No`.
+1. Stel **[!UICONTROL Allow Guest Checkout]** in op `No` .
 
-   Indien nodig de **[!UICONTROL Use system value]** Schakel het selectievakje in om wijzigingen in deze instelling in te schakelen.
+   Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om wijzigingen in deze instelling in te schakelen.
 
 1. Klik op **[!UICONTROL Save Config]**.

@@ -14,69 +14,69 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Live zoeken gefilterde navigatie met [facetten](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
-Met gelaagde navigatie kunt u gemakkelijk producten zoeken op basis van categorie, prijsbereik of andere beschikbare kenmerken. Gelaagde navigatie verschijnt gewoonlijk in de linkerkolom van onderzoeksresultaten en categoriepagina&#39;s en soms op de homepage. De standaardnavigatie omvat een _Winkelen op_ lijst van categorieën en prijsbereik. U kunt de weergave van gelaagde navigatie configureren, inclusief het aantal producten en het prijsbereik.
+Met gelaagde navigatie kunt u gemakkelijk producten zoeken op basis van categorie, prijsbereik of andere beschikbare kenmerken. Gelaagde navigatie verschijnt gewoonlijk in de linkerkolom van onderzoeksresultaten en categoriepagina&#39;s en soms op de homepage. De standaardnavigatie omvat a _Winkel door_ lijst van categorieën en prijswaaier. U kunt de weergave van gelaagde navigatie configureren, inclusief het aantal producten en het prijsbereik.
 
-![Gelaagde navigatie per categorie en prijs](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
+![ Gelaagde navigatie door categorie en prijs ](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
 ## Filterbare kenmerken
 
 >[!NOTE]
 >
->De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [Live zoeken](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Zie voor meer informatie [Facetten](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Meer leren, zie [ Facetten ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
 Gelaagde navigatie kan worden gebruikt om naar producten door categorie of door attribuut te zoeken. Als een winkelier bijvoorbeeld de categorie Mens/Shorts kiest in de bovenste navigatie, worden in de eerste resultaten alle producten in de categorie opgenomen. De lijst kan verder worden gefilterd door een specifieke stijl, een specifiek klimaat, een bepaalde kleur, een bepaald materiaal, een bepaald patroon of een bepaalde prijs, of een combinatie van waarden te kiezen. Filterbare kenmerken worden weergegeven in een uitbreidende sectie waarin elke kenmerkwaarde wordt vermeld. Als optie, kan de lijst van producten met passende resultaten worden gevormd om producten met, of zonder, een gelijke te omvatten.
 
-De kenmerkeigenschappen, in combinatie met het type van productinput, bepalen welke attributen voor gelaagde navigatie kunnen worden gebruikt. Gelaagde navigatie is alleen beschikbaar voor [_anker_](categories-display-settings.md) categorieën, maar kan ook worden toegevoegd aan pagina&#39;s met zoekresultaten. De **Invoertype catalogus voor winkeleigenaar** eigenschap van elk kenmerk moet worden ingesteld op `Yes/No`, `Dropdown`, `Multiple Select`, of `Price`. Als u de kenmerken filterbaar wilt maken, **Gebruiken in gelaagde navigatie** eigenschap van elke eigenschap moet op een van beide worden ingesteld `Filterable (with results)` of `Filterable (no results)`.
+De kenmerkeigenschappen, in combinatie met het type van productinput, bepalen welke attributen voor gelaagde navigatie kunnen worden gebruikt. De gelaagde navigatie is beschikbaar slechts voor [_anker_](categories-display-settings.md) categorieën, maar kan ook aan de pagina&#39;s van onderzoeksresultaten worden toegevoegd. Het **Type van Invoer van de Catalogus voor het bezit van de Eigenaar van de Opslag** van elk attribuut moet aan `Yes/No`, `Dropdown`, `Multiple Select`, of `Price` worden geplaatst. Om de attributen filterbaar te maken, moet het **Gebruik in Gelaagd bezit van de Navigatie** van elk aan of `Filterable (with results)` of `Filterable (no results)` worden geplaatst.
 
-_Voorbeeld: Te filteren kenmerken met resultaten_
+_Voorbeeld: Filterbare attributen met resultaten_
 
-![Filterbare kenmerken in gelaagde navigatie](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
+![ Filterable attributen in gelaagde navigatie ](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
 
-_Voorbeeld: filterbare staalwaarden weergegeven zonder resultaat_
+_Voorbeeld: Filterbare die staalwaarden zonder resultaat_ worden getoond
 
-![Waarde filterbaar staal zonder resultaten](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
+![ Filterable monsterwaarde zonder resultaten ](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbare kenmerken instelt. Voor geavanceerde gelaagde navigatie met prijsstappen raadpleegt u [Prijsnavigatie](navigation-layered.md#configure-price-navigation).
+De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbare kenmerken instelt. Voor geavanceerde gelaagde navigatie met prijsstappen, zie [ Navigatie van de Prijs ](navigation-layered.md#configure-price-navigation).
 
 ## Stap 1: Opstelling de attributeneigenschappen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Blader naar of gebruik de gefilterde zoekopdracht om een kenmerk in de lijst te zoeken en open het in de bewerkingsmodus.
 
-   ![Voer zoektermen per kolom in voor de gefilterde zoekopdracht](./assets/attribute-search.png){width="700" zoomable="yes"}
+   ![ ga onderzoekstermijnen per kolom in om gefilterde onderzoek ](./assets/attribute-search.png){width="700" zoomable="yes"} te gebruiken
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Storefront Properties]** en instellen **[!UICONTROL Use In Layered Navigation]** op een van de volgende wijzen:
+1. Kies **[!UICONTROL Storefront Properties]** in het linkerdeelvenster en stel **[!UICONTROL Use In Layered Navigation]** in op een van de volgende opties:
 
    - `Filterable (with results)` - Gelaagde navigatie omvat slechts die filters waarvoor de passende producten kunnen worden gevonden. Elke kenmerkwaarde die al van toepassing is op alle producten in de lijst, moet nog steeds als een beschikbaar filter worden weergegeven. Kenmerkwaarden met een aantal van nul (0) overeenkomende producten worden weggelaten uit de lijst met beschikbare filters. De gefilterde lijst bevat alleen de producten die overeenkomen met het filter. De lijst met producten wordt alleen bijgewerkt als de geselecteerde filters wijzigen wat wordt weergegeven.
 
    - `Filterable (no results)` - Gelaagde navigatie omvat filters voor alle beschikbare attributenwaarden en hun productaantallen, met inbegrip van producten met nul (0) productgelijken. Als de kenmerkwaarde een staal is, wordt de waarde weergegeven als een filter, maar uitgestreept. Filteren met prijslagen wordt niet ondersteund door deze optie en heeft geen invloed op Prijsfilters.
 
-1. Set **[!UICONTROL Use In Search Results Layered Navigation]** tot `Yes`.
+1. Stel **[!UICONTROL Use In Search Results Layered Navigation]** in op `Yes` .
 
-   ![Eigenschappen van Storefront](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
+   ![ eigenschappen Storefront ](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Herhaal deze stappen voor elk kenmerk dat u in gelaagde navigatie wilt opnemen.
 
 >[!NOTE]
 >
->Wanneer de _[!UICONTROL Use in Search]_instellen op `No`de_[!UICONTROL Use in Search Results Layered Navigation]_ instelling wordt niet weergegeven en het productkenmerk wordt niet gebruikt in de zoekopdracht met [!UICONTROL Use in Layered Navigation] waarde instellen.
+>Wanneer de instelling _[!UICONTROL Use in Search]_is ingesteld op `No` , wordt de instelling_[!UICONTROL Use in Search Results Layered Navigation]_ niet weergegeven en wordt het kenmerk product niet gebruikt in de zoekopdracht met een instellingswaarde van [!UICONTROL Use in Layered Navigation] .
 
 >[!NOTE]
 >
->De [!UICONTROL Position] Het veld wordt standaard gedimd weergegeven, dus u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
+>Het veld [!UICONTROL Position] wordt standaard gedimd weergegeven. U moet het kenmerk dus opslaan voordat u deze instelling kunt wijzigen.
 
 ## Stap 2: Maak van de categorie een anker
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Selecteer in de categoriestructuur de categorie waarin u gelaagde navigatie wilt gebruiken.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Display Settings]** sectie en set **[!UICONTROL Anchor]** tot `Yes`.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Display Settings]** sectie uit en reeks **[!UICONTROL Anchor]** aan `Yes`.
 
-   ![Weergave-instellingen voor categorie](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
+   ![ Montages van de Vertoning van de Categorie ](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -90,21 +90,21 @@ Zoek, filter, en herzie de getoonde producten.
 
 Gelaagde navigatie omvat filters voor alle beschikbare attributenwaarden en hun productaantallen, met inbegrip van producten met nul (0) productgelijken (zoals aangetoond in het volgende beeld).
 
-![Nulfilters weergeven](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
+![ Nul filters die ](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"} tonen
 
 Dit resultaat kan het voor klanten moeilijk maken om een voorkeursproduct te selecteren en het is niet nodig om kenmerkwaarden weer te geven &#x200B; &#x200B; met 0 producten aan de voorzijde.
 
 U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producten uit de gelaagde navigatie te verwijderen:
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Blader naar of gebruik de gefilterde zoekopdracht om een kenmerk in de lijst te zoeken en open het in de bewerkingsmodus.
 
-1. Onder _[!UICONTROL Attribute Information]_, klikt u op **[!UICONTROL Storefront Properties]**.
+1. Klik onder _[!UICONTROL Attribute Information]_op **[!UICONTROL Storefront Properties]**.
 
-1. Voor **[!UICONTROL Layered Navigation]**, kiest u `Filterable (with results)`.
+1. Kies `Filterable (with results)` bij **[!UICONTROL Layered Navigation]** .
 
-   ![Sectie Kenmerkgegevens](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![ sectie van de Informatie van Attributen ](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Attribute]**.
 
@@ -112,7 +112,7 @@ U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producte
 
 >[!NOTE]
 >
->De configuratie van de prijsnavigatie die in dit onderwerp wordt beschreven verschilt voor [Live zoeken](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>De configuratie van de prijsnavigatie die in dit onderwerp wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
 
 De navigatie van de prijs kan worden gebruikt om producten door prijswaaier in gelaagde navigatie te verdelen. U kunt elk bereik ook in intervallen splitsen. Er zijn een paar manieren om prijsnavigatie te berekenen:
 
@@ -145,78 +145,78 @@ Iteratieve splitsing zorgt voor de beste verdeling van de producten over de prij
 
 >[!IMPORTANT]
 >
->De producten correct weergeven en de prijzen ervan afstemmen op _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in [BTW-configuratie](../configuration-reference/sales/tax.md) hebben dezelfde waarde (`Excluding Tax` **of** `Including Tax`). Voor de _[!UICONTROL Calculation Settings]_, controleert u de **[!UICONTROL Catalog Prices]**waarde. En for_[!UICONTROL Price Display Settings]_, controleert u de **[!UICONTROL Display Product Prices in Catalog]** waarde. Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+>Om producten en hun prijzen correct te tonen volgens _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _Gelaagde navigatie_ sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _Gelaagde sectie van de Navigatie_.
 
-   Standaard, **[!UICONTROL Display Product Count]** is ingesteld op `Yes`. Schakel indien nodig de optie **[!UICONTROL Use system value]** Schakel dit selectievakje in om deze instelling te wijzigen.
+   Standaard is **[!UICONTROL Display Product Count]** ingesteld op `Yes` . Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instelling te wijzigen.
 
-   ![Gelaagde navigatie](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
+   ![ Gelaagde Navigatie ](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze configuratieopties, zie [Gelaagde navigatie](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Configuratieverwijzing_.
+   Voor een gedetailleerde lijst van deze configuratieopties, zie [ Gelaagde Navigatie ](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.
 
-1. Set **[!UICONTROL Price Navigation Steps Calculation]** voor een van de methoden in de volgende secties.
+1. Stel **[!UICONTROL Price Navigation Steps Calculation]** in voor een van de methoden in de volgende secties.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### Methode 1: Automatisch (prijsbereiken egaliseren)
 
-Verlaten **[!UICONTROL Price Navigation Steps Calculation]** instellen op `Automatic (Equalize Price Ranges)` (standaard). Deze instelling gebruikt het standaardalgoritme voor prijsnavigatie.
+Laat **[!UICONTROL Price Navigation Steps Calculation]** ingesteld staan op `Automatic (Equalize Price Ranges)` (standaardwaarde). Deze instelling gebruikt het standaardalgoritme voor prijsnavigatie.
 
 ### Methode 2: Automatisch (het aantal producten gelijkstellen)
 
 >[!TIP]
 >
->Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+>Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Set **[!UICONTROL Price Navigation Steps Calculation]** tot `Automatic (equalize product counts)`.
+1. Stel **[!UICONTROL Price Navigation Steps Calculation]** in op `Automatic (equalize product counts)` .
 
-1. Eén prijs weergeven wanneer meerdere producten met dezelfde prijs zijn ingesteld **[!UICONTROL Display Price Interval as One Price]** tot `Yes`.
+1. Stel **[!UICONTROL Display Price Interval as One Price]** in op `Yes` als u één prijs wilt weergeven voor meerdere producten met dezelfde prijs.
 
-1. Voor **[!UICONTROL Interval Division Limit]** de drempel voor het aantal producten binnen een prijsbereik invullen.
+1. Voer bij **[!UICONTROL Interval Division Limit]** de drempel in voor het aantal producten binnen een prijsbereik.
 
-   Het bereik kan niet verder worden opgesplitst dan deze limiet. De standaardwaarde is `9`.
+   Het bereik kan niet verder worden opgesplitst dan deze limiet. De standaardwaarde is `9` .
 
-   ![Automatisch (productellingen gelijkmatig verdelen)](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
+   ![ Automatisch (equalize producttellingen) ](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
 
 ### Methode 3: Handmatig
 
 >[!NOTE]
 >
->Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+>Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Set **[!UICONTROL Price Navigation Steps Calculation]** tot `Manual`.
+1. Stel **[!UICONTROL Price Navigation Steps Calculation]** in op `Manual` .
 
-1. Voer een waarde in die het **[!UICONTROL Default Price Navigation Step]**.
+1. Voer een waarde in die de **[!UICONTROL Default Price Navigation Step]** bepaalt.
 
-1. Voer de **[!UICONTROL Maximum Number of Price Intervals]** toegestaan, tot `100`.
+1. Voer de toegestane **[!UICONTROL Maximum Number of Price Intervals]** in (maximaal `100` ).
 
-   ![Handmatig](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
+   ![ Handmatig ](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
 ## Gelaagde navigatie configureren
 
 >[!NOTE]
 >
->De standaardconfiguratie die in deze pagina wordt beschreven, verschilt voor [Live zoeken](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>De standaardconfiguratie die in deze pagina wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
 
 De gelaagde navigatieconfiguratie bepaalt als een producttelling tussen haakjes na elk attribuut verschijnt, en de grootte van de stapberekening die in prijsnavigatie wordt gebruikt.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster de _[!UICONTROL Catalog]_en kiest u **[!UICONTROL Catalog]**onder.
+1. Vouw in het linkerdeelvenster de sectie _[!UICONTROL Catalog]_uit en kies **[!UICONTROL Catalog]**eronder.
 
 1. Vouw de sectie _[!UICONTROL Layered Navigation]_uit.
 
    >[!NOTE]
    >
-   >Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Als u het aantal producten wilt weergeven dat voor elk kenmerk wordt gevonden, stelt u **[!UICONTROL Display Product Count]** tot `Yes`.
+1. Stel **[!UICONTROL Display Product Count]** in op `Yes` om het aantal producten weer te geven dat voor elk kenmerk wordt gevonden.
 
-1. Set **[!UICONTROL Price Navigation Step Calculation]** tot `Automatic (equalize price ranges)`.
+1. Stel **[!UICONTROL Price Navigation Step Calculation]** in op `Automatic (equalize price ranges)` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

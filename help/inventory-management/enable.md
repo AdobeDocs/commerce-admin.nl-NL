@@ -1,6 +1,6 @@
 ---
-title: "Inschakelen [!DNL Inventory Management]"
-description: Leer hoe u kunt inschakelen [!DNL Inventory Management] op het wereldwijde winkel- of productniveau.
+title: "Enable  [!DNL Inventory Management]"
+description: Leer hoe te om  [!DNL Inventory Management]  op de globale opslag of productniveau toe te laten.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -10,52 +10,52 @@ ht-degree: 0%
 
 ---
 
-# Inschakelen [!DNL Inventory Management]
+# [!DNL Inventory Management] inschakelen
 
-Schakel [!DNL Inventory Management] op het wereldwijde winkel- of productniveau. Wanneer de _Stock beheren_ optie is ingeschakeld, [!DNL Inventory Management] volgt automatisch producthoeveelheden beschikbaar voor de plaats door gevormde voorraden en bronnen. Elke functie en optie begint het volgen en het melden wanneer toegelaten, zonder extra configuratie.
+Schakel [!DNL Inventory Management] in de winkel of op productniveau in om uw productvoorraad te beheren. Wanneer de _beheert de optie van de Voorraad_ wordt toegelaten, [!DNL Inventory Management] volgt automatisch producthoeveelheden beschikbaar voor de plaats door gevormde voorraden en bronnen. Elke functie en optie begint het volgen en het melden wanneer toegelaten, zonder extra configuratie.
 
 Uw bedrijf loopt en inventarisupdates bij de snelheid van verkoop. Als klanten winkelen, ontvangt u nauwkeurige, bijgewerkte informatie voor beschikbare voorraad per verkoopkanaal en bron. Beschikbare verkoopbare hoeveelheden worden per voorraad bijgewerkt wanneer klanten producten aan winkelwagentjes toevoegen en aankopen voltooien, en wanneer en u bestellingen beheert, verzendingen maakt en terugbetalingen uitgeeft. Aanschaffen van nieuwe of overgedragen voorraad-update naar uw bronnen, direct beschikbaar voor online verkoop. Backorders voltooien tot gespecificeerde drempels zonder oneindige orden of extra configuraties. En u gaat en voltooit gedeeltelijke of volledige ladingen over één of meerdere bronnen met aanbevelingen in, die u volledige controle over ordenaleving en voorraad geven.
 
 >[!NOTE]
 >
->Standaard, [!DNL Inventory Management] is ingeschakeld bij installatie of upgrade [!DNL Commerce]. Afhankelijk van uw bedrijfsbehoeften, kunt u volgen willen toelaten of onbruikbaar maken [!DNL Inventory Management] binnen [!DNL Commerce].
+>[!DNL Inventory Management] wordt standaard ingeschakeld wanneer u [!DNL Commerce] installeert of bijwerkt. Afhankelijk van uw bedrijfsbehoeften, kunt u volgen [!DNL Inventory Management] binnen [!DNL Commerce] toelaten of willen onbruikbaar maken.
 
 Hoe deze instelling werkt in inventarissen van één en meerdere bronnen:
 
-- Te gebruiken [!DNL Inventory Management], enable _[!UICONTROL Manage Stock]_.
+- Schakel _[!UICONTROL Manage Stock]_in als u [!DNL Inventory Management] wilt gebruiken.
 
-- [!UICONTROL Manage Stock] de montages op de configuratie van het productniveau treden de archiefconfiguratie met voeten.
+- [!UICONTROL Manage Stock] de montages op de productconfiguratie treden de archiefconfiguratie met voeten.
 
-- Als u Order Management of services van derden (zoals ERP) wilt gebruiken, schakelt u [!UICONTROL Manage Stock].
+- Schakel [!UICONTROL Manage Stock] uit als u Order Management of services van derden (zoals ERP) wilt gebruiken.
 
 - Als de configuratie van het productniveau het systeemgebrek gebruikt, treedt de opslagconfiguratie met voeten.
 
-Met [!DNL Inventory Management] Toegelaten, zie het volgende om alle montages te vormen:
+Als [!DNL Inventory Management] is ingeschakeld, raadpleegt u het volgende om alle instellingen te configureren:
 
-- [Algemene opties configureren](global-options.md) - Instellingen die van invloed zijn op de gehele catalogus, worden beschouwd als de standaardinstellingen van het systeem.
+- [ het Vormen Globale Opties ](global-options.md) - Montages die uw volledige catalogus beïnvloeden, beschouwden de systeemstandaardmontages.
 
-- [Productopties configureren](product-options.md) - Instellingen voor een specifiek product dat algemene opties overschrijft.
+- [ het Vormen de Opties van het Product ](product-options.md) - Montages voor een specifiek product dat globale opties met voeten treedt.
 
-## In- of uitschakelen [!DNL Inventory Management]
+## [!DNL Inventory Management] in- of uitschakelen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Inventory]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) _Opties voor productvoorraad_ en configureren:
+1. Breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) _Opties van de Voorraad van het Product_ uit en vorm:
 
-   ![Opties voor productvoorraad](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![ Opties van de Voorraad van het Product ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
-   - Om inventaris te beheren en alles te gebruiken [!DNL Commerce] functies, set **[!UICONTROL Manage Stock]** tot `Yes` (standaard).
+   - Als u een overzicht wilt beheren en alle [!DNL Commerce] -functies wilt gebruiken, stelt u **[!UICONTROL Manage Stock]** in op `Yes` (standaardwaarde).
 
-   - Uitschakelen [!DNL Inventory Management]schakelt u de optie **[!UICONTROL Use system value]** selectievakje en set **[!UICONTROL Manage Stock]** tot `No`.
+   - Als u [!DNL Inventory Management] wilt uitschakelen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit en stelt u **[!UICONTROL Manage Stock]** in op `No` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## De voorraad voor een winkel beheren
 
-Zie [Globale opties configureren](global-options.md).
+Zie [ Globale Opties ](global-options.md) vormen.
 
 ## De voorraad voor een product beheren
 
-Zie [Productopties configureren](product-options.md).
+Zie [ het Vormen de Opties van het Product ](product-options.md).

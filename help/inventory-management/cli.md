@@ -1,19 +1,19 @@
 ---
-title: '''[!DNL Inventory Management] CLI-verwijzing"'
-description: Meer informatie over de opdrachten van de [!DNL Inventory Management] -module voor het beheren van inventarisgegevens en configuratie-instellingen.
+title: '[!DNL Inventory Management] CLI reference'
+description: Leer over de bevelen die door de  [!DNL Inventory Management]  module worden verstrekt om inventarisgegevens en configuratiemontages te beheren.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # [!DNL Inventory Management] CLI-verwijzing
 
-[!DNL Inventory Management] verstrekt bevelen om inventarisgegevens en configuratiemontages te beheren.
+[!DNL Inventory Management] bevat opdrachten voor het beheer van inventarisgegevens en configuratie-instellingen.
 
 Deze opdrachten zijn:
 
@@ -24,10 +24,10 @@ Deze opdrachten zijn:
 
 Met reserveringen wordt een verkoopbare hoeveelheid aangehouden voor SKU&#39;s per voorraad. Wanneer u producten verzendt, toevoegt, een bestelling annuleert of terugbetaalt, worden er compensatiereserveringen ingevoerd om deze bezittingen te plaatsen of te wissen.
 
-[!DNL Inventory Management] verstrekt twee bevelen om reserveringsinconsistenties te controleren en op te lossen:
+[!DNL Inventory Management] biedt twee opdrachten om inconsistenties in de reserveringen te controleren en op te lossen:
 
-- [Verhaal:reservation:list-inconsistenties&quot;](#list-inconsistencies-command)
-- [Verhaal:reservation:creëren van compensaties&quot;](#create-compensations-command)
+- [` inventariseren :reservation: lijst-inconsistenties `](#list-inconsistencies-command)
+- [` voorraad :reservation: creeer-compensaties `](#create-compensations-command)
 
 ### Oorzaken van inconsistenties in het voorbehoud
 
@@ -40,21 +40,21 @@ Met reserveringen wordt een verkoopbare hoeveelheid aangehouden voor SKU&#39;s p
 
 Voorbehoud-inconsistenties kunnen optreden wanneer:
 
-- [!DNL Inventory Management] De oorspronkelijke reservering verliest en voert te veel reserveringstoeslagen in (overcompensatie en onsamenhangende bedragen)
-- [!DNL Inventory Management] het oorspronkelijke voorbehoud correct wordt geplaatst, maar er worden geen compenserende voorbehouden gemaakt.
+- [!DNL Inventory Management] verliest de oorspronkelijke reservering en voert te veel reserveringsvergoedingen in (overcompensatie en leidt tot inconsistente bedragen)
+- [!DNL Inventory Management] plaatst de oorspronkelijke reservering correct, maar verliest compenserende reserveringen.
 
-U kunt reserveringen handmatig bekijken en controleren in het dialoogvenster `inventory_reservation` tabel.
+U kunt reserveringen handmatig controleren en controleren in de tabel `inventory_reservation` .
 
 De volgende configuraties en gebeurtenissen kunnen inconsistenties in de reserveringen veroorzaken:
 
-- **Voer een upgrade uit naar 2.3.x met bestellingen die zich niet in de uiteindelijke status bevinden (Voltooid, Geannuleerd of Gesloten).** [!DNL Inventory Management] tot compenserende reserveringen voor deze bestellingen leidt, maar de bestelling voert niet de oorspronkelijke boeking in die op de verkoopbare hoeveelheid in mindering wordt gebracht. Het wordt aanbevolen deze opdrachten te gebruiken nadat u een upgrade hebt uitgevoerd naar Adobe Commerce of Magento Open Source v2.3.x vanuit 2.1.x of 2.2.x. Als u bestellingen in behandeling hebt, werken de opdrachten het verkoopbare aantal en de reserveringen voor verkoop en bestelling correct bij.
-- **U beheert de voorraad niet en wijzigt deze configuratie later niet.** U kunt 2.3.x beginnen te gebruiken met **[!UICONTROL Manage Stock]** instellen op `No` in de configuratie. [!DNL Commerce] maakt geen voorbehoud bij plaatsen van orders en verzendingen. Als u later **[!UICONTROL Manage Stock]** configuratie en sommige orden worden gecreeerd, zou de Salable Qty met compensatiereserve worden bedorven wanneer u behandelt en die orde vervult.
-- **U wijst de voorraad voor een website toe terwijl bestellingen worden verzonden naar die website**. De oorspronkelijke boeking vermeldt voor de oorspronkelijke voorraad en alle reserveringen voor de vergoeding worden opgenomen in de nieuwe voorraad.
-- **Het totaal van alle voorbehouden kan niet worden opgelost voor `0`.** Alle voorbehouden in het kader van een bestelling in de definitieve staat (Voltooid, Geannuleerd, Gesloten) moeten worden opgelost om `0`, waarbij alle verkochte hoeveelheden worden verruimd.
+- **Verbetering aan 2.3.x met orden niet in een definitieve staat (Voltooid, Geannuleerd, of Gesloten).** [!DNL Inventory Management] maakt compenserende reserveringen voor deze bestellingen, maar het voert niet de oorspronkelijke reservering in of heeft deze die van de verkoopbare hoeveelheid wordt afgetrokken. Het wordt aanbevolen deze opdrachten te gebruiken nadat u een upgrade hebt uitgevoerd naar Adobe Commerce of Magento Open Source v2.3.x vanuit 2.1.x of 2.2.x. Als u bestellingen in behandeling hebt, werken de opdrachten het verkoopbare aantal en de reserveringen voor verkoop en bestelling correct bij.
+- **u beheert geen voorraad dan verandert later deze configuratie.** U kunt 2.3.x beginnen te gebruiken terwijl **[!UICONTROL Manage Stock]** is ingesteld op `No` in de configuratie. [!DNL Commerce] plaatst geen reserveringen bij de plaatsing van orders en verzendgebeurtenissen. Als u later de configuratie van **[!UICONTROL Manage Stock]** inschakelt en sommige bestellingen worden gemaakt, is de Salable Qty beschadigd met de reservering voor compensatie wanneer u die bestelling afhandelt en uitvoert.
+- **u wijst de Beeld voor een Website toe terwijl de orden aan die website** voorleggen. De oorspronkelijke boeking vermeldt voor de oorspronkelijke voorraad en alle reserveringen voor de vergoeding worden opgenomen in de nieuwe voorraad.
+- **het totaal van alle reserveringen kan niet aan `0` oplossen.** Alle reserveringen in het bereik van een bestelling in de uiteindelijke status (Voltooid, Geannuleerd, Gesloten) moeten worden omgezet in `0` , waarbij alle aanhoudingen voor de verkoopbare hoeveelheid worden gewist.
 
 ### Inconsistenties weergeven, opdracht
 
-De `list-inconsistencies` alle inconsistenties in de reservering worden gedetecteerd en vermeld. Gebruik de opdrachtopties om alleen voltooide of onvolledige bestellingen of alle opdrachten te controleren.
+De opdracht `list-inconsistencies` detecteert alle inconsistenties in de reservering en geeft deze weer. Gebruik de opdrachtopties om alleen voltooide of onvolledige bestellingen of alle opdrachten te controleren.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies
@@ -63,11 +63,11 @@ bin/magento inventory:reservation:list-inconsistencies
 Opdrachtopties:
 
 - `-c`, `--complete-orders` - Geeft inconsistenties voor voltooide orders. Onjuiste reserveringen kunnen nog steeds worden aangehouden voor voltooide orders.
-- `-i`, `--incomplete-orders` - Geeft inconsistenties voor incomplete orders (gedeeltelijk verzonden, niet verzonden). Onjuiste reserveringen kunnen te veel of onvoldoende verkoopbare hoeveelheid voor de bestellingen bevatten.
-- `-b`, `--bunch-size` - Hiermee definieert u het aantal orders dat in één keer moet worden geladen.
-- `-r`, `--raw` - Onbewerkte uitvoer.
+- `-i`, `--incomplete-orders` - Geeft inconsistenties voor incomplete bestellingen (gedeeltelijk verzonden, niet verzonden). Onjuiste reserveringen kunnen te veel of onvoldoende verkoopbare hoeveelheid voor de bestellingen bevatten.
+- `-b` , `--bunch-size` - Hiermee definieert u hoeveel bestellingen tegelijkertijd moeten worden geladen.
+- `-r` , `--raw` - Onbewerkte uitvoer.
 
-Reacties met `-r` return in `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` indeling:
+Reacties met `-r` return in `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` -indeling:
 
 - Order-id geeft het bereik van de inconsistentie aan.
 - SKU geeft het product aan met de inconsistentie.
@@ -94,9 +94,9 @@ Als er geen problemen worden gevonden, wordt dit bericht geretourneerd: er zijn 
 
 ### Vergoedingen maken, opdracht
 
-De `create-compensations` bevel leidt tot compensatiebedenkingen. Afhankelijk van het probleem worden nieuwe reserveringen gemaakt om een hoeveelheid te plaatsen of vrij te geven.
+Met de opdracht `create-compensations` maakt u compensatiereserveringen. Afhankelijk van het probleem worden nieuwe reserveringen gemaakt om een hoeveelheid te plaatsen of vrij te geven.
 
-Om reserveringen te creëren, verstrek compensaties gebruikend het formaat `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` zoals `172:bike-123:+2.000000:1`.
+Als u reserveringen wilt maken, biedt u compensaties met de indeling `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` , zoals `172:bike-123:+2.000000:1` .
 
 ```bash
 bin/magento inventory:reservation:create-compensations
@@ -104,7 +104,7 @@ bin/magento inventory:reservation:create-compensations
 
 Optie Opdracht:
 
-- `-r`, `--raw` - Retourneert onbewerkte uitvoer.
+- `-r` , `--raw` - Geeft onbewerkte uitvoer.
 
 Als de indeling van de aanvraag onjuist is, wordt het volgende bericht weergegeven:
 
@@ -129,7 +129,7 @@ bin/magento inventory:reservation:create-compensations 172:"bike 123":+2.000000:
 
 ### Inconsistenties opsporen en compensaties creëren
 
-U kunt inconsistenties detecteren en onmiddellijk compensaties maken door een pijp te gebruiken om beide opties uit te voeren `list-inconsistencies` en `create-compensations`. Gebruik de `-r` opdrachtoptie voor het genereren en verzenden van de onbewerkte gegevens naar `create-compensations`.
+U kunt inconsistenties detecteren en direct compensaties maken door met behulp van een pijp zowel de `list-inconsistencies` als de `create-compensations` uit te voeren. Gebruik de opdrachtoptie `-r` om de onbewerkte gegevens te genereren en naar `create-compensations` te verzenden.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
@@ -157,7 +157,7 @@ bin/magento inventory:reservation:list-inconsistencies -r
 No order inconsistencies were found.
 ```
 
-U kunt de opdrachten ook gebruiken om inconsistenties op te sporen en om alleen onvolledige compensaties te maken (`-i`) of complete (`-c`) bestellingen.
+U kunt de bevelen ook leiden om inconsistenties te ontdekken en compensaties voor slechts onvolledige (`-i`) tot stand te brengen of (`-c`) te voltooien orden.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies -r -i | bin/magento inventory:reservation:create-compensations
@@ -169,17 +169,17 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ## Geocodes importeren
 
-[!DNL Inventory Management] verstrekt [algoritme voor afstandprioriteit](distance-priority-algorithm.md), waarmee u de beste optie kunt bepalen voor het verzenden van een volledige of gedeeltelijke bestelling. Het algoritme gebruikt GPS-informatie of geocodes om de afstand tussen de bron (een pakhuis of andere fysieke locatie) van elk item in een bestelling en het verzendadres te berekenen. Op basis van die resultaten raadt het algoritme aan welke bron moet worden gebruikt om elk item in de volgorde te verzenden.
+[!DNL Inventory Management] verstrekt het [ Prioriteitsalgoritme van de Afstand ](distance-priority-algorithm.md), dat de hulp de beste optie voor het verschepen van een volledige of gedeeltelijke orde bepaalt. Het algoritme gebruikt GPS-informatie of geocodes om de afstand tussen de bron (een pakhuis of andere fysieke locatie) van elk item in een bestelling en het verzendadres te berekenen. Op basis van die resultaten raadt het algoritme aan welke bron moet worden gebruikt om elk item in de volgorde te verzenden.
 
 De handelaar selecteert de leverancier van de GPS- of geocodegegevens die nodig zijn om afstanden te berekenen:
 
-- **GOOGLE MAP** gebruik [Google Maps-platform](https://mapsplatform.google.com/) services om de afstand en tijd tussen het verzendadres en de bronlocatie te berekenen. Voor deze optie is een factureringsplan voor Google vereist en mogelijk worden kosten in rekening gebracht via Google.
+- **MAP van Google** gebruikt [ de Diensten van het Platform van de Kaarten van Google ](https://mapsplatform.google.com/) om de afstand en de tijd tussen het verschepende bestemmingsadres en bronplaatsen te berekenen. Voor deze optie is een factureringsplan voor Google vereist en mogelijk worden kosten in rekening gebracht via Google.
 
-- **Offlineberekening** berekent de afstand met behulp van gegevens die zijn gedownload van [geonames.org](https://www.geonames.org/) en geïmporteerd in de handel met een opdracht. Deze optie is gratis.
+- **Offline berekening** berekent de afstand gebruikend gegevens die van [ geonames.org ](https://www.geonames.org/) worden gedownload en in Commerce met een bevel worden ingevoerd. Deze optie is gratis.
 
 geocodes importeren voor offlineberekening:
 
-Voer de volgende opdracht in met een door spaties gescheiden lijst van [ISO-3166 alpha2-landcodes](https://www.geonames.org/countries/):
+Ga het volgende bevel met een spatie-gescheiden lijst van [ ISO-3166 alpha2 landcodes ](https://www.geonames.org/countries/) in:
 
 ```bash
 bin/magento inventory-geonames:import <country code> <country code> ...
@@ -191,4 +191,4 @@ Bijvoorbeeld:
 bin/magento inventory-geonames:import us ca gb de
 ```
 
-Het systeem downloadt en importeert de geocodes gegevens naar uw database en geeft vervolgens het bericht weer  `Importing <country code>: OK`.
+Het systeem downloadt en importeert de geocodes gegevens naar uw database en geeft vervolgens het bericht `Importing <country code>: OK` weer.

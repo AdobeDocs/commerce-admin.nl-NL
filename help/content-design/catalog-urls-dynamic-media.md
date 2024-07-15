@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Dynamische media-URL&#39;s
 
-Een dynamische media-URL is een relatieve verwijzing naar een afbeelding of ander media-element. Indien ingeschakeld, kunnen dynamische media-URL&#39;s worden gebruikt om rechtstreeks te koppelen aan elementen op uw server of aan bestanden die zijn opgeslagen op een [inhoudsleveringsnetwerk](media-storage-content-delivery-network.md). Het gebruik van dynamische media-URL&#39;s kan van invloed zijn op de prestaties van de catalogus en de [editor](editor.md#configure-the-editor) kan worden gevormd om of statische of dynamische media URLs te gebruiken.
+Een dynamische media-URL is een relatieve verwijzing naar een afbeelding of ander media-element. Wanneer toegelaten, kunnen de dynamische media URLs worden gebruikt om rechtstreeks met activa op uw server, of aan dossiers te verbinden die op het netwerk van de inhoudslevering van a [ worden opgeslagen ](media-storage-content-delivery-network.md). Het gebruik van dynamische media URLs kan catalogusprestaties beïnvloeden, en de [ redacteur ](editor.md#configure-the-editor) kan worden gevormd om of statische of dynamische media URLs te gebruiken.
 
-Zoals bij alles [opmaaktags](../systems/markup-tags.md)De richtlijn staat tussen twee accolades. De indeling van een dynamische media-URL ziet er als volgt uit:
+Zoals met alle [ prijsverhogingsmarkeringen ](../systems/markup-tags.md), is de richtlijn ingesloten in dubbele krullende steunen. De indeling van een dynamische media-URL ziet er als volgt uit:
 
 `\{\{media url="path/to/image.jpg"}}`
 
-Dynamische URL-instructies worden verwerkt op basis van opgeslagen HTML-inhoud wanneer de pagina wordt weergegeven op de opslagruimte. Elke keer dat de pagina wordt gerenderd, wordt de inhoud gescand voor `\{\{media url="..."}}` en elke instructie wordt vervangen door de bijbehorende media-URL.
+Dynamische URL-instructies worden verwerkt op basis van opgeslagen HTML-inhoud wanneer de pagina wordt weergegeven op de opslagruimte. Elke keer dat de pagina wordt weergegeven, wordt de inhoud gescand voor `\{\{media url="..."}}` en wordt elke aanwijzing vervangen door de bijbehorende media-URL.
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -26,18 +26,18 @@ Dynamische URL-instructies worden verwerkt op basis van opgeslagen HTML-inhoud w
 
 Standaard hebben afbeeldingen die vanuit de WYSIWYG-editor in de catalogus worden ingevoegd, relatieve, dynamische URL&#39;s. Als u liever een statische URL gebruikt, kunt u de configuratie-instelling wijzigen.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL WYSIWYG Options]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL WYSIWYG Options]** sectie uit.
 
-   ![WYSIWYG-opties](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![ WYSIWYG Opties ](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** in op een van de volgende opties:
 
-   - `Yes` - Gebruikt statische URLs voor media inhoud die met de redacteur WYSIWYG wordt opgenomen. Statische URL&#39;s zijn absoluut en onderbreken als de [basis-URL](../stores-purchase/store-urls.md) van de winkel wijzigen.
+   - `Yes` - Gebruikt statische URLs voor media inhoud die met de redacteur WYSIWYG wordt opgenomen. Statische URLs is absolute en onderbreking als [ basis URL ](../stores-purchase/store-urls.md) van de opslag verandert.
 
-   - `No` - (Standaard) Gebruikt dynamische URL&#39;s voor media-inhoud die met de WYSIWYG-editor wordt ingevoegd, op basis van de `\{\{media url="..."}}` richtlijn. Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert.
+   - `No` - (Standaard) Gebruikt dynamische URL&#39;s voor media-inhoud die met de WYSIWYG-editor is ingevoegd, op basis van de instructie `\{\{media url="..."}}` . Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

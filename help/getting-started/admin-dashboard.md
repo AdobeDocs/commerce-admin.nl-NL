@@ -4,89 +4,89 @@ description: Leer meer over het dashboard Admin, dat gewoonlijk de eerste pagina
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Beheerdersdashboard
 
-Het dashboard is meestal de eerste pagina die wordt weergegeven wanneer u zich aanmeldt bij het _Beheerder_ en kan een overzicht in real time van verkoop en klantenactiviteit verstrekken. De gegevens van het dashboard verstrekken een momentopname van levenslange verkoop, gemiddelde ordehoeveelheid, recente orden, en onderzoekstermijnen. Het diagram toont voltooide orders en bedragen voor het geselecteerde datumbereik en kan worden gegenereerd op basis van dynamische gegevens, real-time gegevens of historische geaggregeerde gegevens. De tabbladen onderaan bieden snelle rapporten van uw best verkochte producten, de meeste bekeken producten, nieuwe klanten en klanten die het meest hebben aangeschaft.
+Het dashboard is gewoonlijk de eerste pagina die wanneer u login aan _Admin_ verschijnt en een overzicht in real time van verkoop en klantenactiviteit kan verstrekken. De gegevens van het dashboard verstrekken een momentopname van levenslange verkoop, gemiddelde ordehoeveelheid, recente orden, en onderzoekstermijnen. Het diagram toont voltooide orders en bedragen voor het geselecteerde datumbereik en kan worden gegenereerd op basis van dynamische gegevens, real-time gegevens of historische geaggregeerde gegevens. De tabbladen onderaan bieden snelle rapporten van uw best verkochte producten, de meeste bekeken producten, nieuwe klanten en klanten die het meest hebben aangeschaft.
 
 Als u een aanzienlijke hoeveelheid gegevens hebt die moet worden verwerkt, kan het diagram worden uitgeschakeld om de prestaties te verbeteren. Het dashboard in het volgende voorbeeld wordt gevormd om gegevens in real time te gebruiken en toont voltooide orden tegen het uur voor de laatste 24 uren. De grafiek wordt bijgewerkt voor elke voltooide orde.
 
-![Dashboard](./assets/dashboard-full.png){zoomable=&quot;yes&quot;}
+![ Dashboard ](./assets/dashboard-full.png){zoomable="yes"}
 
-[Geavanceerde rapportage](business-intelligence.md#advanced-reporting) toont een gepersonaliseerd dashboard dat op uw product, orde, en klantengegevens wordt gebaseerd.
+[ Geavanceerde Rapportering ](business-intelligence.md#advanced-reporting) toont een gepersonaliseerd dashboard dat op uw product, orde, en klantengegevens wordt gebaseerd.
 
-![Geavanceerde rapportage](./assets/dashboard-advanced-reporting.png){zoomable=&quot;yes&quot;}
+![ Geavanceerde Rapportering ](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Het dashboard configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**en voer een van de volgende instellingen in.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**en voltooi om het even welke volgende montages.
 
-1. Wanneer de configuratie volledig is, klik **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** wanneer de configuratie is voltooid.
 
-1. Klik op **[!UICONTROL Cache Management]** en vernieuw elke ongeldige cache.
+1. Nadat u de wijzigingen hebt opgeslagen, klikt u op **[!UICONTROL Cache Management]** en vernieuwt u elke ongeldige cache.
 
 ### Grafieken inschakelen
 
 Als u een grote hoeveelheid te verwerken gegevens hebt, kunt u de weergave van het diagram uitschakelen om de prestaties te verbeteren. Als deze optie niet is ingeschakeld, wordt het bericht &quot;Geen gegevens gevonden&quot; weergegeven in plaats van het diagram, hoewel de onderstaande overzichtstotalen nog steeds worden gegenereerd.
 
-1. In het linkernavigatievenster onder **[!UICONTROL Advanced]**, kiest u **[!UICONTROL Admin]**.
+1. Kies **[!UICONTROL Admin]** onder **[!UICONTROL Advanced]** in het linkernavigatievenster.
 
-1. Vouw indien nodig de **[!UICONTROL Dashboard]** sectie.
+1. Vouw indien nodig de sectie **[!UICONTROL Dashboard]** uit.
 
-   ![Geavanceerde configuratie - Grafieken inschakelen](./assets/admin-dashboard-config.png){width="600"}
+   ![ Geavanceerde configuratie - laat grafieken ](./assets/admin-dashboard-config.png){width="600"} toe
 
-1. Als u de standaardwaarde wilt wijzigen, schakelt u de optie **[!UICONTROL Use system value]** selectievakje.
+1. Als u de standaardwaarde wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit.
 
-1. Set **Grafieken inschakelen** tot `Yes`.
+1. Plaats **laat Grafieken** aan `Yes` toe.
 
-Voor meer informatie over de configuratieopties van Admin raadpleegt u [Referentiehandleiding voor configuratie](../configuration-reference/advanced/admin.md).
+Voor meer informatie over de Admin configuratieopties, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/advanced/admin.md).
 
 ### De startpagina wijzigen
 
-Het dashboard is standaard [opstartpagina](../configuration-reference/advanced/admin.md) voor Admin, hoewel u een verschillende startpagina kunt vormen.
+Het dashboard is de standaard [ startpagina ](../configuration-reference/advanced/admin.md) voor Admin, hoewel u een verschillende startpagina kunt vormen.
 
-1. Als u nog niet de beheerdersconfiguratieopties hebt geopend, kiest u **[!UICONTROL Admin]** krachtens _[!UICONTROL Advanced]_in het linkernavigatievenster.
+1. Als u nog niet de beheerdersconfiguratieopties hebt geopend, kiest u **[!UICONTROL Admin]** onder _[!UICONTROL Advanced]_in het linkernavigatievenster.
 
-1. Klik om de **Opstartpagina** sectie.
+1. Klik om de **Startup sectie van de Pagina** uit te breiden.
 
-   ![Beheerdersdashboard - instelling startpagina](./assets/admin-startup-page.png){width="600"}
+   ![ Admin dashboard - startpagina het plaatsen ](./assets/admin-startup-page.png){width="600"}
 
-1. Wis de **[!UICONTROL Use system value]** selectievakje en kies de **Opstartpagina** die u wilt weergeven wanneer u zich aanmeldt bij de beheerder.
+1. Wis **[!UICONTROL Use system value]** checkbox en kies de **Opstartpagina** die u wilt verschijnen wanneer u login aan Admin.
 
 ### De begindatums kiezen
 
-1. In het linkernavigatievenster onder **[!UICONTROL General]**, kiest u **Rapporten**.
+1. In het linkernavigatievenster onder **[!UICONTROL General]**, kies **Rapporten**.
 
-1. Vouw op de pagina de **[!UICONTROL Dashboard]** sectie.
+1. Vouw de sectie **[!UICONTROL Dashboard]** op de pagina uit.
 
-1. Wis de **[!UICONTROL Use system value]** Schakel de selectievakjes voor de datuminstellingen in en voer de volgende handelingen uit:
+1. Schakel de selectievakjes **[!UICONTROL Use system value]** voor de datuminstellingen uit en voer de volgende handelingen uit:
 
-   - Set **Jaarlijks begin** aan de **Maand** en **Dag**.
+   - Plaats **jaar-aan-Datum begint** aan de **Maand** en **Dag**.
 
-   - Set **Huidige maand start** aan de **Dag**.
+   - Plaats **Huidige Maand begint** aan de **Dag**.
 
-   ![Beheerdashboard - Datuminstellingen](./assets/reports-dashboard.png){width="600"}
+   ![ Admin Dashboard - datummontages ](./assets/reports-dashboard.png){width="600"}
 
-Voor meer informatie over de [!UICONTROL Reports] configuratieopties, zie [_Referentiehandleiding voor configuratie_](../configuration-reference/general/reports.md).
+Voor meer informatie over de [!UICONTROL Reports] configuratieopties, zie de [_Gids van de Verwijzing van de Configuratie_](../configuration-reference/general/reports.md).
 
 ### De gegevensbron configureren
 
 Het dashboarddiagram kan in real time of door historische, samengevoegde gegevens te gebruiken worden geproduceerd. Als de prestaties van belang zijn, kunt u de prestaties versnellen door geaggregeerde gegevens te gebruiken.
 
-1. Klik in het linkernavigatievenster om uit te vouwen **Verkoop** en kiest u **Verkoop** onder.
+1. In het linkernavigatievenster, klik om **Verkoop** uit te breiden en **Verkoop** te kiezen onderaan.
 
-1. Vouw op de pagina de **[!UICONTROL Dashboard]** sectie.
+1. Vouw de sectie **[!UICONTROL Dashboard]** op de pagina uit.
 
-   ![Admin dashboard - gegevensbroninstelling](./assets/config-sales-dashboard.png){width="600"}
+   ![ Admin dashboard - gegevensbron het plaatsen ](./assets/config-sales-dashboard.png){width="600"}
 
-1. Wis de **[!UICONTROL Use system value]** selectievakje en set **[!UICONTROL Use Aggregated Data]** op een van de volgende wijzen:
+1. Schakel het selectievakje **[!UICONTROL Use system value]** uit en stel **[!UICONTROL Use Aggregated Data]** in op een van de volgende opties:
 
-   - Kies bij historische, geaggregeerde gegevens de optie `Yes`.
-   - Kies voor realtime gegevens de optie `No`.
+   - Kies `Yes` voor historische, samengevoegde gegevens.
+   - Kies `No` voor realtime-gegevens.
 
 ## Grafieksecties
 
@@ -127,6 +127,6 @@ Het dashboarddiagram kan in real time of door historische, samengevoegde gegeven
 | Knop | Beschrijving |
 |--- |--- |
 | [!UICONTROL Reload Data] | Hiermee vernieuwt u de dashboardgegevens. |
-| [!UICONTROL Go to Advanced Reporting] | Toont een gepersonaliseerd dashboard van dynamische grafieken en rapporten die op uw product, orde, en klantengegevens worden gebaseerd. Voor uitgebreidere analyse, zie [Geavanceerde rapportage](business-intelligence.md#advanced-reporting). |
+| [!UICONTROL Go to Advanced Reporting] | Toont een gepersonaliseerd dashboard van dynamische grafieken en rapporten die op uw product, orde, en klantengegevens worden gebaseerd. Voor uitgebreidere analyse, zie [ Geavanceerde Rapportering ](business-intelligence.md#advanced-reporting). |
 
 {style="table-layout:auto"}

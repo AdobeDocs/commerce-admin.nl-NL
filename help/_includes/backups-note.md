@@ -3,7 +3,7 @@ title: Opmerkingen bij back-ups
 description: Hergebruikte notitie over back-ups
 source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Uitgeschakelde functie:** Back-up is standaard uitgeschakeld. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _Installatiehandleiding_ onderwerp om steunen toe te laten: [Maak een back-up en maak een back-up van het bestandssysteem, de media en de database](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Gehandicapte eigenschap:** de Steun wordt onbruikbaar gemaakt door gebrek. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _onderwerp van de Gids van de Installatie 0} om steunen toe te laten: [ file en rol terug het dossiersysteem, media, en gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)._
 
 >[!NOTE]
 >
->**Waarschuwing:** Back-upfuncties zijn vanaf v2.3.0 verouderd. Het wordt aanbevolen dat alle handelaren aanvullende back-uptechnologieën en binaire back-uptools onderzoeken (zoals [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)).
+>**bericht van de Verdringing:** De reserve eigenschappen worden afgekeurd vanaf v2.3.0. Het wordt geadviseerd dat alle handelaren extra reservetechnologieën en binaire reservehulpmiddelen (zoals [[!DNL Percona XtraBackup] onderzoeken ](https://www.percona.com/software/mysql-database/percona-xtrabackup)).

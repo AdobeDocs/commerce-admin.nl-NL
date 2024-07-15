@@ -12,49 +12,49 @@ ht-degree: 0%
 
 # Onder rembours
 
-Met Adobe Commerce en Magento Open Source kun je accepteren _Onder rembours_ (COD) betalingen voor aankopen. U kunt de betaling van COD slechts van specifieke landen goedkeuren, en u kunt de configuratie met minimum en maximum totale grenzen van de orde verfijnen.
+Adobe Commerce en de Magento Open Source staan u toe om _geld op levering_ (COD) betalingen voor aankopen goed te keuren. U kunt de betaling van COD slechts van specifieke landen goedkeuren, en u kunt de configuratie met minimum en maximum totale grenzen van de orde verfijnen.
 
 De verzendende vervoerder ontvangt de betaling van de klant op het tijdstip van levering, die vervolgens aan u wordt overgedragen. Je kunt een correctie aanbrengen voor alle kosten die de vervoerder in rekening brengt in de verzendkosten.
 
-**_Contant betalen bij levering instellen:_**
+**_aan opstellingscontanten op leveringsbetalingen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Payment Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Onder _Andere betalingsmethoden_, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Cash On Delivery Payment]** sectie.
+1. Onder _Andere Wijzen van de Betaling_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Cash On Delivery Payment]** sectie uit.
 
-   ![Onder rembours](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png){width="600" zoomable="yes"}
+   ![ Betaling Onder rembours ](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Onder rembours](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) in de _Referentiehandleiding voor configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Betaling Onder rembours ](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) in de _Gids van de Verwijzing van de Configuratie_.
 
    >[!NOTE]
    >
-   >Indien nodig eerst de **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Als je de betaling via contant geld wilt activeren, moet je **[!UICONTROL Enabled]** tot `Yes`.
+1. Als u contant geld wilt activeren bij het betalen, stelt u **[!UICONTROL Enabled]** in op `Yes` .
 
-1. Voor **[!UICONTROL Title]**, voert u een titel in die de betalingsmethode voor Onder rembours aangeeft tijdens het afrekenen.
+1. Voer voor **[!UICONTROL Title]** een titel in die de betalingsmethode voor Onder rembours aangeeft tijdens het afrekenen.
 
-1. Set **[!UICONTROL New Order Status]** tot `Pending` totdat de ontvangst van de betaling is bevestigd.
+1. Stel **[!UICONTROL New Order Status]** in op `Pending` totdat de ontvangst van de betaling is bevestigd.
 
-   U kunt desgewenst de opdracht `Processing` of `Suspected Fraud` status voor nieuwe orders met deze betalingsmethode.
+   U kunt desgewenst de status `Processing` of `Suspected Fraud` gebruiken voor nieuwe bestellingen met deze betalingsmethode.
 
-1. Set **[!UICONTROL Payment from Applicable Countries]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) Deze betalingsmethode kan worden gebruikt.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, _[!UICONTROL Payment from Specific Countries]_wordt weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Voer de **[!UICONTROL Instructions]** voor het accepteren van levering van een COD-bestelling.
+1. Voer de **[!UICONTROL Instructions]** in voor het accepteren van de levering van een COD-bestelling.
 
-1. Set **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** op de orderbedragen die nodig zijn om in aanmerking te komen voor CZV-betaling.
+1. Stel **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** in op de orderbedragen die nodig zijn om in aanmerking te komen voor COD-betaling.
 
    >[!NOTE]
    >
    >Een orde komt in aanmerking als het totaal tussen, of gelijken, het minimum of maximumordertotaal is.
 
-1. Voor **[!UICONTROL Sort Order]**, voert u een getal in dat de positie van dit object bepaalt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in dat de positie van dit item bepaalt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
 
-   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = eerst, `1` = seconde, `2` = derde, enzovoort.)
+   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = first, `1` = second, `2` = third, enzovoort.)
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -12,65 +12,65 @@ ht-degree: 0%
 
 # Kenmerken toevoegen aan een product
 
-Hoewel attributen hoofdzakelijk van worden beheerd [Winkels](../stores-purchase/stores-menu.md) kunt u ook nieuwe kenmerken toevoegen _op de vlucht_ terwijl u aan een product werkt. U kunt een keuze maken in de lijst met bestaande kenmerken of een kenmerk maken. Het nieuwe kenmerk wordt toegevoegd aan de [kenmerkset](../catalog/attribute-sets.md) waarop het product is gebaseerd.
+Hoewel de attributen hoofdzakelijk van het [ Opslag ](../stores-purchase/stores-menu.md) menu worden beheerd, kunt u nieuwe attributen _op de vlucht_ ook toevoegen terwijl het werken aan een product. U kunt een keuze maken in de lijst met bestaande kenmerken of een kenmerk maken. Het nieuwe attribuut wordt toegevoegd aan de [ geplaatste attributen ](../catalog/attribute-sets.md) waarop het product gebaseerd is.
 
 ## Stap 1: Een kenmerk toevoegen
 
 1. Open het product in de bewerkingsmodus.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Attribute]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Attribute]** .
 
-   ![Nieuw product met standaardkenmerkset](./assets/product-attribute-add.png){width="600" zoomable="yes"}
+   ![ Nieuw product met standaard geplaatste attributen ](./assets/product-attribute-add.png){width="600" zoomable="yes"}
 
-1. Als u een bestaand kenmerk aan het product wilt toevoegen, gebruikt u de opdracht [filterbesturingselementen](../getting-started/admin-grid-controls.md) om het kenmerk in het raster te zoeken en ga als volgt te werk:
+1. Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om de attributen in het net te vinden en het volgende te doen:
 
    - Schakel het selectievakje in de eerste kolom van elk kenmerk dat u wilt toevoegen in.
 
    - Klik op **[!UICONTROL Add Selected]**.
 
-   ![Een kenmerk selecteren](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+   ![ Uitgezocht een attribuut ](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-1. Als u een nieuw kenmerk wilt definiëren, klikt u op **[!UICONTROL Create New Attribute]** en voltooi de items in Stap 2.
+1. Als u een nieuw kenmerk wilt definiëren, klikt u op **[!UICONTROL Create New Attribute]** en vult u de items in Stap 2 in.
 
 ## Stap 2: Beschrijf de eigenschappen van het basiskenmerk
 
-![Eigenschappen van kenmerk](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
+![ Eigenschappen van Attributen ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Onder _[!UICONTROL Attribute Properties]_, voert u een **[!UICONTROL Attribute Label]**om het kenmerk te identificeren.
+1. Voer onder _[!UICONTROL Attribute Properties]_een **[!UICONTROL Attribute Label]**in om het kenmerk te identificeren.
 
-1. Set **[!UICONTROL Catalog Input Type for Store Owner]** op het type [invoerbesturingselement](attributes-input-types.md) te gebruiken voor de gegevensinvoer.
+1. Plaats **[!UICONTROL Catalog Input Type for Store Owner]** aan het type van [ inputcontrole ](attributes-input-types.md) dat voor gegevensingang moet worden gebruikt.
 
-   Als het kenmerk voor een [configureerbaar product](product-create-configurable.md), kiest u `Dropdown`. Vervolgens stelt u **[!UICONTROL Required]** tot `Yes`.
+   Als het attribuut voor a [ configureerbaar product ](product-create-configurable.md) wordt gebruikt, kies `Dropdown`. Stel vervolgens **[!UICONTROL Required]** in op `Yes` .
 
-1. Voor `Dropdown` en `Multiple Select` Voer de volgende handelingen uit voor invoertypen:
+1. Ga als volgt te werk voor invoertypen `Dropdown` en `Multiple Select` :
 
-   - Onder **[!UICONTROL Values]**, klikt u op **[!UICONTROL Add Value]**.
+   - Klik onder **[!UICONTROL Values]** op **[!UICONTROL Add Value]** .
 
    - Voer de eerste waarde in die u in de lijst wilt weergeven.
 
      U kunt één waarde voor Admin en een vertaling van de waarde voor elke archiefmening ingaan. Als u slechts één winkelweergave hebt, kunt u alleen de Admin-waarde invoeren en deze wordt ook voor de winkel gebruikt.
 
-   - Klikken **[!UICONTROL Add Value]** en herhaal de vorige stap voor elke optie die u in de lijst wilt opnemen.
+   - Klik op **[!UICONTROL Add Value]** en herhaal de vorige stap voor elke optie die u in de lijst wilt opnemen.
 
-   - Selecteren **[!UICONTROL Is Default]** om de optie als standaardwaarde te gebruiken.
+   - Selecteer **[!UICONTROL Is Default]** om de optie als standaardwaarde te gebruiken.
 
-   ![Waarden](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
+   ![ Waarden ](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
-1. Als u de klant een optie wilt laten kiezen voordat het product kan worden aangeschaft, stelt u **[!UICONTROL Required]** tot `Yes`.
+1. Stel **[!UICONTROL Required]** in op `Yes` als u wilt dat de klant een optie kiest voordat het product kan worden aangeschaft.
 
 ## Stap 3: Beschrijf de geavanceerde eigenschappen (optioneel)
 
-![Geavanceerde kenmerkeigenschappen](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+![ Geavanceerde Eigenschappen van Attributen ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-1. Voer een unieke waarde in **[!UICONTROL Attribute Code]** in kleine letters en zonder spaties.
+1. Voer een unieke **[!UICONTROL Attribute Code]** in in kleine letters en zonder spaties.
 
-1. Set **[!UICONTROL Scope]** om aan te geven waar in uw winkelhiërarchie het kenmerk kan worden gebruikt.
+1. Stel **[!UICONTROL Scope]** in om aan te geven waar in de winkelhiërarchie het kenmerk kan worden gebruikt.
 
-   Als het kenmerk voor een [configureerbaar product](product-create-configurable.md), kiest u `Global`.
+   Als het attribuut voor a [ configureerbaar product ](product-create-configurable.md) wordt gebruikt, kies `Global`.
 
-1. Als dit kenmerk alleen van toepassing is op dit product, stelt u **[!UICONTROL Unique Value]** tot `Yes`.
+1. Als dit kenmerk alleen op dit product van toepassing is, stelt u **[!UICONTROL Unique Value]** in op `Yes` .
 
-1. Als u een geldigheidstest wilt uitvoeren voor gegevens die in een tekstveld zijn ingevoerd, stelt u **[!UICONTROL Input Validation for Store Owner]** op het type gegevens dat het veld moet bevatten.
+1. Als u een geldigheidstest wilt uitvoeren voor gegevens die in een tekstveld worden ingevoerd, stelt u **[!UICONTROL Input Validation for Store Owner]** in op het type gegevens dat het veld moet bevatten.
 
    Dit veld is niet beschikbaar voor invoertypen met geselecteerde waarden. Invoervalidatie kan worden gebruikt voor:
 
@@ -81,62 +81,62 @@ Hoewel attributen hoofdzakelijk van worden beheerd [Winkels](../stores-purchase/
    - `Letters`
    - `Letters (a-z, A-Z) or Numbers (0-9)`
 
-   ![Invoervalidatie](./assets/product-attribute-input-validation.png){width="500"}
+   ![ Bevestiging van de Input ](./assets/product-attribute-input-validation.png){width="500"}
 
-1. Als u het kenmerk als kolom wilt kunnen opnemen in het raster Producten, stelt u **[!UICONTROL Add to Column Options]** tot `Yes`.
+1. Als u het kenmerk wilt kunnen opnemen als een kolom in het raster Producten, stelt u **[!UICONTROL Add to Column Options]** in op `Yes` .
 
-1. Als u het filter _[!UICONTROL Products]_raster op deze kolom instellen **[!UICONTROL Use in Filter Options]**tot `Yes`.
+1. Als u het _[!UICONTROL Products]_raster door deze kolom wilt filteren, stelt u **[!UICONTROL Use in Filter Options]**in op `Yes` .
 
 ## Stap 4: Voer het veldlabel in
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Manage titles]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Manage titles]** sectie uit.
 
-1. Voer een **[!UICONTROL Title]** te gebruiken als label voor het veld.
+1. Voer een **[!UICONTROL Title]** in die als label voor het veld moet worden gebruikt.
 
    Als uw winkel in verschillende talen beschikbaar is, kunt u voor elke weergave een vertaalde titel invoeren.
 
-   ![Titels beheren](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![ beheert Titels ](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
 ## Stap 5: Beschrijf de storefront-eigenschappen
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Storefront Properties]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Storefront Properties]** sectie uit.
 
-   ![Eigenschappen van Storefront](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+   ![ Eigenschappen Storefront ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Als u het kenmerk beschikbaar wilt maken voor zoeken, stelt u **[!UICONTROL Use in Search]** tot `Yes`.
+1. Stel **[!UICONTROL Use in Search]** in op `Yes` als u het kenmerk beschikbaar wilt maken voor zoeken.
 
-1. Als u het kenmerk in Product vergelijken wilt opnemen, stelt u **[!UICONTROL Comparable on Storefront]** tot `Yes`.
+1. Als u het kenmerk in Product vergelijken wilt opnemen, stelt u **[!UICONTROL Comparable on Storefront]** in op `Yes` .
 
-1. Als u vervolgkeuzelijsten, meerdere selecties of prijskenmerken wilt opnemen in gelaagde navigatie, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** op een van de volgende wijzen:
+1. Als u vervolgkeuzelijsten, meerdere selecties of prijskenmerken wilt opnemen in gelaagde navigatie, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** in op een van de volgende opties:
 
-   - `Filterable (with results)` - Gelaagde navigatie omvat slechts die filters waarvoor de passende producten kunnen worden gevonden. Kenmerkwaarde die al van toepassing is op alle producten in de lijst, wordt niet weergegeven als een beschikbaar filter. Kenmerkwaarden met een aantal van nul (0) overeenkomende producten worden ook weggelaten uit de lijst met beschikbare filters.<br/><br/>De gefilterde lijst met producten bevat alleen de producten die overeenkomen met het filter. De lijst met producten wordt alleen bijgewerkt als de geselecteerde filters wijzigen wat wordt weergegeven.
+   - `Filterable (with results)` - Gelaagde navigatie omvat slechts die filters waarvoor de passende producten kunnen worden gevonden. Kenmerkwaarde die al van toepassing is op alle producten in de lijst, wordt niet weergegeven als een beschikbaar filter. Kenmerkwaarden met een aantal van nul (0) overeenkomende producten worden ook weggelaten uit de lijst met beschikbare filters.<br/><br/> de gefiltreerde lijst van producten omvat slechts de producten die de filter aanpassen. De lijst met producten wordt alleen bijgewerkt als de geselecteerde filters wijzigen wat wordt weergegeven.
 
    - `Filterable (no results)` - Gelaagde navigatie omvat filters voor alle beschikbare attributenwaarden en hun productaantallen, met inbegrip van de producten met nul (0) productgelijken. Als de kenmerkwaarde een staal is, wordt de waarde weergegeven als een filter, maar uitgestreept.
 
    >[!NOTE]
    >
-   >Wanneer de _[!UICONTROL Use in Search]_instellen op `No`de_[!UICONTROL Use in Search Results Layered Navigation]_ instelling wordt niet weergegeven en het productkenmerk wordt niet gebruikt in de zoekopdracht met [!UICONTROL Use in Layered Navigation] waarde instellen.
+   >Wanneer de instelling _[!UICONTROL Use in Search]_is ingesteld op `No` , wordt de instelling_[!UICONTROL Use in Search Results Layered Navigation]_ niet weergegeven en wordt het kenmerk product niet gebruikt in de zoekopdracht met een instellingswaarde van [!UICONTROL Use in Layered Navigation] .
 
-1. Als u het kenmerk in gelaagde navigatie wilt gebruiken op pagina&#39;s met zoekresultaten, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** tot `Yes` en voert u een getal in in het dialoogvenster **[!UICONTROL Position]** veld.
+1. Als u het kenmerk in gelaagde navigatie wilt gebruiken op pagina&#39;s met zoekresultaten, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** in op `Yes` en voert u een getal in het veld **[!UICONTROL Position]** in.
 
    Het positienummer geeft de relatieve positie van het kenmerk binnen het gelaagde navigatieblok aan.
 
    >[!NOTE]
    >
-   >De _[!UICONTROL Position]_wordt standaard grijs weergegeven en u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
+   >Het veld _[!UICONTROL Position]_wordt standaard grijs weergegeven en u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
 
-1. Als u het kenmerk wilt gebruiken in prijsregels, stelt u **[!UICONTROL Use for Promo Rule Conditions]** tot `Yes`.
+1. Stel **[!UICONTROL Use for Promo Rule Conditions]** in op `Yes` als u het kenmerk in prijsregels wilt gebruiken.
 
-1. Als u wilt toestaan dat de tekst wordt opgemaakt met HTML, stelt u **[!UICONTROL Allow HTML Tags on Storefront]** tot `Yes`.
+1. Als u wilt dat de tekst kan worden opgemaakt met HTML, stelt u **[!UICONTROL Allow HTML Tags on Storefront]** in op `Yes` .
 
    Deze instelling maakt de WYSIWYG-editor beschikbaar wanneer u het veld bewerkt.
 
-1. Als u het kenmerk op de productpagina wilt opnemen, stelt u **[!UICONTROL Visible on Catalog Pages on Storefront]** tot `Yes`.
+1. Stel **[!UICONTROL Visible on Catalog Pages on Storefront]** in op `Yes` om het kenmerk op de productpagina op te nemen.
 
 1. Vul de volgende instellingen in zoals deze worden ondersteund door uw thema:
 
-   - Als u het kenmerk wilt opnemen in productaanbiedingen, stelt u **[!UICONTROL Used in Product Listing]** tot `Yes`.
+   - Als u het kenmerk wilt opnemen in productlijsten, stelt u **[!UICONTROL Used in Product Listing]** in op `Yes` .
 
-   - Als u kenmerk wilt gebruiken als een sorteerparameter voor productaanbiedingen, stelt u **[!UICONTROL Used for Sorting in Product Listing]** tot `Yes`.
+   - Als u kenmerk wilt gebruiken als een sorteerparameter voor productlijsten, stelt u **[!UICONTROL Used for Sorting in Product Listing]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save Attribute]**.
+1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.

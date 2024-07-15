@@ -12,38 +12,38 @@ ht-degree: 0%
 
 # Hoeveelheden per product toewijzen
 
-Na toevoegen [bronnen](sources-assign-per-product.md), werkt u de inventarishoeveelheden voor uw product bij. Deze waarden volgen de beschikbare voorraden aan de hand.
+Na het toevoegen van [ bronnen ](sources-assign-per-product.md), werk de inventarishoeveelheden voor uw product bij. Deze waarden volgen de beschikbare voorraden aan de hand.
 
-Als u de voorraad van een bron wilt verbergen voor verzendingen zonder de bron te verwijderen, stelt u _[!UICONTROL Source Item Status]_tot `Out of Stock`. De veiligheidscontrole en de verzendingsopties hebben alleen toegang tot bronnen die zijn vermeld als `In Stock` met beschikbare inventarishoeveelheid.
+Als u de voorraad van een bron wilt verbergen voor verzendingen zonder de bron te verwijderen, stelt u _[!UICONTROL Source Item Status]_in op `Out of Stock` . De SSA en de verzendopties hebben alleen toegang tot bronnen die als `In Stock` met beschikbare inventarishoeveelheid worden vermeld.
 
 Alle bijgewerkte hoeveelheden en bronnen worden weergegeven in het productraster.
 
 ## Hoeveelheden bijwerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Zoek en open een product in de bewerkingsmodus.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit.
 
-1. Set **[!UICONTROL Source Item Status]** tot `In Stock`.
+1. Stel **[!UICONTROL Source Item Status]** in op `In Stock` .
 
-1. om de hoeveelheid voor de voorraad aan te passen, een bedrag in te voeren voor **[!UICONTROL Qty]**.
+1. Voer een bedrag in voor **[!UICONTROL Qty]** als u de hoeveelheid voor de voorraad wilt bijwerken.
 
 1. Voer een van de volgende handelingen uit om een melding voor inventarishoeveelheden in te stellen:
 
-   - Aangepast aantal berichten - Schakel het selectievakje **[!UICONTROL Use Default]** selectievakje en voer een bedrag in **[!UICONTROL Notify Qty]**.
-   - Standaardaantal meldingen - Selecteer de optie **[!UICONTROL Use Default]** selectievakje. [!DNL Commerce] controleert en gebruikt de instelling in _[!UICONTROL Advanced Inventory]_of globale winkelconfiguratie.
+   - Aangepast aantal berichten - Schakel het selectievakje **[!UICONTROL Use Default]** uit en voer een bedrag in **[!UICONTROL Notify Qty]** in.
+   - Standaardwaarde voor Hoeveelheid waarschuwen - Schakel het selectievakje **[!UICONTROL Use Default]** in. [!DNL Commerce] controleert en gebruikt de instelling in _[!UICONTROL Advanced Inventory]_of algemene winkelconfiguratie.
 
-   ![Producthoeveelheden per bron bijwerken](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
+   ![ de Hoeveelheden van het Product van de Update per Source ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om op te slaan:
 
    - Klik op **[!UICONTROL Save]**.
 
-   - Op de **[!UICONTROL Save]** (![Menupijl](../assets/icon-menu-down-arrow-red.png)), kiest u **[!UICONTROL Save & Close]**.
+   - Voor **[!UICONTROL Save]** (![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png)) menu, kies **[!UICONTROL Save & Close]**.
 
 
-Het productraster wordt bijgewerkt met een lijst met alle bronnen en gerelateerde hoeveelheden. Voor producten met meer dan vijf toegewezen bronnen, houdt u de muisaanwijzer boven de _[!UICONTROL Quantity per Source]_om de volledige lijst weer te geven.
+Het productraster wordt bijgewerkt met een lijst met alle bronnen en gerelateerde hoeveelheden. Voor producten met meer dan vijf toegewezen bronnen houdt u de muisaanwijzer boven de kolom _[!UICONTROL Quantity per Source]_om de volledige lijst weer te geven.
 
-![Producthoeveelheden per bron](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+![ de hoeveelheden van het Product per bron ](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De verslagen van de privé verkoop verstrekken informatie over [evenementen en particuliere verkoop](../merchandising-promotions/events-private-sales.md).
+De privé verkooprapporten verstrekken informatie over [ gebeurtenissen en privé verkoop ](../merchandising-promotions/events-private-sales.md).
 
 ## [!UICONTROL Invitations Report]
 
-De [!UICONTROL Invitations Report] geeft het aantal [uitnodigingen](../merchandising-promotions/invitations.md) verzonden tijdens de opgegeven periode, en het nummer dat is geaccepteerd en verwijderd.
+[!UICONTROL Invitations Report] toont het aantal [ uitnodigingen ](../merchandising-promotions/invitations.md) die tijdens de gespecificeerde tijdspanne worden verzonden, en het toegelaten aantal, en verworpen.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
-![Uitnodigingsrapport](./assets/private-sales-invitations.png){width="600"}
+![ het Rapport van Uitnodigingen ](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-De [!UICONTROL Invited Customers Report] toont alle klanten die uitnodigingen voor een privé verkoop of een gebeurtenis zijn verzonden. Dit omvat de naam en het e-mailadres, de klantengroep, het aantal verzonden uitnodigingen en het geaccepteerde nummer.
+In [!UICONTROL Invited Customers Report] worden alle klanten weergegeven die uitnodigingen hebben ontvangen voor een privéverkoop of -gebeurtenis. Dit omvat de naam en het e-mailadres, de klantengroep, het aantal verzonden uitnodigingen en het geaccepteerde nummer.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
 
-![Rapport Uitgenodigde klanten](./assets/private-sales-invited-customers.png){width="600"}
+![ Uitgenodigd Rapport van Klanten ](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-De [!UICONTROL Conversion Rate Report] het aantal verzonden en aanvaarde uitnodigingen, het aantal uitnodigingen dat tot een aankoop heeft geleid en de omrekeningskoers als een percentage.
+In [!UICONTROL Conversion Rate Report] ziet u het aantal verzonden en geaccepteerde uitnodigingen, het aantal uitnodigingen dat tot een aankoop heeft geleid en de conversiesnelheid als een percentage.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
 
-![Rapport voor conversiesnelheid](./assets/private-sales-conversions.png){width="600"}
+![ Rapport van het Tarief van de Omzetting ](./assets/private-sales-conversions.png){width="600"}

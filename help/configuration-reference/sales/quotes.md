@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Quotes] pagina van Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Quotes] van Commerce Admin.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de B2B-functies raadpleegt u de [Adobe Commerce B2B-gebruikershandleiding](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 {{config}}
 
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 ## [!UICONTROL General]
 
-![Algemeen](./assets/quotes-general.png)<!-- zoom -->
+![ Algemeen ](./assets/quotes-general.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Minimum Amount] | Website | Het minimumbedrag van het winkelwagentsubtotaal, na eventuele kortingen, dat vereist is voordat een klant een prijsaanvraag kan indienen. Standaardwaarde: `0` |
 | [!UICONTROL Minimum Amount Message] | Winkelweergave | Het bericht dat in het winkelwagentje wordt weergegeven wanneer een klant een aanvraag voor een prijsopgave probeert in te dienen, maar er wordt niet voldaan aan het vereiste minimumbedrag. |
-| [!UICONTROL Default Expiration Period] | Website | Hiermee wordt de standaardlevensduur van een [citeren](../../b2b/quote-price-negotiation.md) als periode vanaf de datum waarop het verzoek om een prijsopgave wordt ingediend. Opties: `Days` / `Weeks` / `Months` |
+| [!UICONTROL Default Expiration Period] | Website | Bepaalt de standaardlevensduur van a [ citeert ](../../b2b/quote-price-negotiation.md) als tijdperiode van de datum het verzoek om een citaat wordt voorgelegd. Opties: `Days` / `Weeks` / `Months` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
-![Bijgevoegde bestanden](./assets/quotes-attached-files.png)<!-- zoom -->
+![ Bijgevoegde Dossiers ](./assets/quotes-attached-files.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL File formats for upload] | Algemeen | Hiermee bepaalt u de bestandsindelingen die aan een offerte kunnen worden gekoppeld. Ondersteunde standaardwaarden: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, en `jpeg` |
+| [!UICONTROL File formats for upload] | Algemeen | Hiermee bepaalt u de bestandsindelingen die aan een offerte kunnen worden gekoppeld. Ondersteunde standaardwaarden: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png` en `jpeg` |
 | [!UICONTROL Maximum file size] | Algemeen | Bepaalt de maximumgrootte voor een dossier dat aan een citaat wordt vastgemaakt. Deze instelling kan worden overschreven door de serverconfiguratie. |
 
 {style="table-layout:auto"}

@@ -19,17 +19,17 @@ U kunt bijvoorbeeld nieuwe producten aan uw voorraad toevoegen, productgegevens 
 
 >[!NOTE]
 >
->Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. SaaS-gegevensexport is geïntegreerd met Commerce SaaS Services, waaronder [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live zoeken](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), en [Catalogusservice](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Zie voor meer informatie de [Handleiding voor het exporteren van SaaS-gegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) het Product Recommendations van 1}, [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), en [ de Dienst van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). [ Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Gegevensvalidatie
 
-Alle gegevens moeten validatie doorstaan om de kwaliteit, nauwkeurigheid en integriteit van de waarden te garanderen voordat ze in de winkel worden geïmporteerd. Validatie begint wanneer u klikt **[!UICONTROL Check Data]**. Tijdens het proces worden alle entiteiten in het importbestand gecontroleerd op het volgende:
+Alle gegevens moeten validatie doorstaan om de kwaliteit, nauwkeurigheid en integriteit van de waarden te garanderen voordat ze in de winkel worden geïmporteerd. De validatie begint wanneer u op **[!UICONTROL Check Data]** klikt. Tijdens het proces worden alle entiteiten in het importbestand gecontroleerd op het volgende:
 
-- **Attributen** - Kolomkopnamen worden geverifieerd om ervoor te zorgen dat ze overeenkomen met de corresponderende kenmerken in de systeemdatabase. De waarde van elk attribuut wordt gecontroleerd om ervoor te zorgen dat het aan de vereisten van het gegevenstype (decimaal, geheel, varchar, tekst, en datetime) voldoet.
-- **Complexe gegevens** - Waarden die afkomstig zijn van een gedefinieerde set, zoals een vervolgkeuzelijst of meerdere invoertypen die u selecteert, worden gecontroleerd om te controleren of de waarden in de gedefinieerde set aanwezig zijn.
-- **Servicegegevens** - De waarden in de kolommen van de de dienstgegevens worden geverifieerd om ervoor te zorgen dat de eigenschappen of de complexe gegevenswaarden verenigbaar zijn met wat reeds in het systeemgegevensbestand wordt bepaald.
-- **Vereiste waarden** - Voor nieuwe entiteiten wordt de aanwezigheid van vereiste kenmerkwaarden in het bestand gecontroleerd. Voor bestaande entiteiten is het niet nodig opnieuw te controleren of er vereiste kenmerkwaarden bestaan.
-- **Scheidingstekens** - Hoewel de scheidingstekens niet zichtbaar zijn in een spreadsheet, worden de gegevenswaarden in een CSV-bestand gescheiden door komma&#39;s en worden tekstwaarden ingesloten door dubbele aanhalingstekens. Tijdens het validatieproces wordt de opmaak gecontroleerd voor de scheidingstekens en elke set aanhalingstekens die tekenreeksen omsluiten.
+- **Attributen** - de kopbalnamen van de Kolom worden geverifieerd om ervoor te zorgen dat zij de overeenkomstige attributen in het systeemgegevensbestand aanpassen. De waarde van elk attribuut wordt gecontroleerd om ervoor te zorgen dat het aan de vereisten van het gegevenstype (decimaal, geheel, varchar, tekst, en datetime) voldoet.
+- **Complexe Gegevens** - de Waarden die uit een bepaalde reeks, zoals een drop-down of veelvoudige uitgezochte inputtype voortkomen, worden geverifieerd om ervoor te zorgen dat de waarden in de bepaalde reeks bestaan.
+- **Gegevens van de Dienst** - de waarden in de kolommen van de de dienstgegevens worden geverifieerd om ervoor te zorgen dat de eigenschappen of de complexe gegevenswaarden verenigbaar met zijn wat reeds in het systeemgegevensbestand wordt bepaald.
+- **Vereiste Waarden** - voor nieuwe entiteiten, wordt de aanwezigheid van vereiste attributenwaarden in het dossier gecontroleerd. Voor bestaande entiteiten is het niet nodig opnieuw te controleren of er vereiste kenmerkwaarden bestaan.
+- **Scheidingstekens** - hoewel de separators niet zichtbaar wanneer bekeken in een spreadsheet zijn, worden de gegevenswaarden in een Csv- dossier gescheiden door komma, en de tekstwaarden ingesloten in dubbel-citaten. Tijdens het validatieproces wordt de opmaak gecontroleerd voor de scheidingstekens en elke set aanhalingstekens die tekenreeksen omsluiten.
 
 De resultaten van de validatie worden weergegeven in de sectie Validatieresultaten en bevatten de volgende informatie:
 
@@ -37,9 +37,9 @@ De resultaten van de validatie worden weergegeven in de sectie Validatieresultat
 - Het aantal ongeldige rijen
 - Het aantal gevonden fouten
 
-Als de gegevens geldig zijn, kan een _Importeren voltooid_ wordt weergegeven.
+Als het gegeven geldig is, verschijnt een _bericht van het Succes van de Invoer_.
 
-![Systeembericht - bestand is geldig](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![ het bericht van het Systeem - het dossier is geldig ](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 Als de validatie mislukt, leest u de beschrijving van elke fout en corrigeert u het probleem in het CSV-bestand. Als een rij bijvoorbeeld een ongeldige SKU bevat, stopt het importproces en worden die rij en alle volgende rijen niet geïmporteerd. Importeer de gegevens opnieuw nadat het probleem correct is opgelost. Als er veel fouten worden aangetroffen, kan het meerdere pogingen duren om voor de validatie te slagen.
 

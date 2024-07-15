@@ -12,43 +12,43 @@ ht-degree: 0%
 
 # Productwerkruimte
 
-De werkruimte van het product is in principe hetzelfde voor alle producttypen, hoewel de selectie van velden afhankelijk van de gebruikte kenmerkenset verandert. De productkenmerken staan boven aan het formulier, gevolgd door uitbreidbare gedeelten van de productinformatie. Wanneer een nieuw product voor de eerste keer wordt opgeslagen, _[!UICONTROL Store View]_wordt linksboven in het formulier weergegeven.
+De werkruimte van het product is in principe hetzelfde voor alle producttypen, hoewel de selectie van velden afhankelijk van de gebruikte kenmerkenset verandert. De productkenmerken staan boven aan het formulier, gevolgd door uitbreidbare gedeelten van de productinformatie. Wanneer een nieuw product voor de eerste keer wordt opgeslagen, wordt de _[!UICONTROL Store View]_-kiezer linksboven in het formulier weergegeven.
 
-![Productwerkruimte](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
+![ de werkruimte van het Product ](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Enable Product] instellen
 
-De onlinestatus van het product wordt aangegeven door de switch boven aan het formulier. Als u de onlinestatus wilt wijzigen, stelt u de **[!UICONTROL Enable Product]** schakelen naar `Yes` of `No`.
+De onlinestatus van het product wordt aangegeven door de switch boven aan het formulier. Als u de onlinestatus wilt wijzigen, stelt u de **[!UICONTROL Enable Product]** switch in op `Yes` of `No` .
 
 | Besturing | Beschrijving |
 |-------- | ----------- |
-| ![Ja in-/uitschakelen](../assets/toggle-yes.png) | Geeft aan dat het product online is. |
-| ![Niet in-/uitschakelen](../assets/toggle-no.png) | Geeft aan dat het product offline is. |
+| ![ Wissel ja ](../assets/toggle-yes.png) | Geeft aan dat het product online is. |
+| ![ knevel nr. ](../assets/toggle-no.png) | Geeft aan dat het product offline is. |
 
 {style="table-layout:auto"}
 
 ## Kenmerkset
 
-De naam van [kenmerkset](attribute-sets.md) wordt in de linkerbovenhoek weergegeven en bepaalt de velden die in de productrecord worden weergegeven. Als u een andere kenmerkset wilt kiezen, klikt u op de pijl omlaag naast de naam van de standaardkenmerkset.
+De naam van de [ geplaatste attributen ](attribute-sets.md) verschijnt in de upper-left hoek en bepaalt de gebieden die in het productverslag verschijnen. Als u een andere kenmerkset wilt kiezen, klikt u op de pijl omlaag naast de naam van de standaardkenmerkset.
 
-![Kenmerkset](./assets/product-attribute-set.png){width="600" zoomable="yes"}
+![ Reeks van Attributen ](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## Uitvouwen/samenvouwen
 
-Als u een sectie wilt uitvouwen of samenvouwen, klikt u op de knop ![Expansiekiezer](../assets/icon-display-expand.png) of samenvouwen ![Selectie samenvouwen](../assets/icon-display-collapse.png) pictogram.
+Om een sectie uit te breiden of te doen ineenstorten, klik of ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uitbreiden of ![ invouwen selecteur ](../assets/icon-display-collapse.png) pictogram.
 
 ## [!UICONTROL Save] menu
 
-De _[!UICONTROL Save]_bevat verschillende opties waarmee u een product kunt opslaan en vervolgen, opslaan en maken, het product kunt opslaan en dupliceren of het kunt opslaan en sluiten.
+Het menu _[!UICONTROL Save]_bevat verschillende opties waarmee u een product kunt opslaan en vervolgen, opslaan en maken, het product kunt opslaan en dupliceren of het kunt opslaan en sluiten.
 
-![Menu Opslaan](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![ sparen menu ](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | Opdracht | Beschrijving |
 |--- |--- |
 | [!UICONTROL Save] | Sla het huidige product op en ga verder met werken. |
 | [!UICONTROL Save & New] | Sla het huidige product op, sluit het en start een nieuw product op basis van hetzelfde producttype en dezelfde sjabloon. |
 | [!UICONTROL Save & Duplicate] | Sla het huidige product op, sluit het en open een nieuwe kopie. |
-| [!UICONTROL Save & Close] | Het huidige product opslaan en terugkeren naar de _[!UICONTROL Products]_werkruimte. |
+| [!UICONTROL Save & Close] | Sla het huidige product op en ga terug naar de werkruimte van _[!UICONTROL Products]_. |
 
 {style="table-layout:auto"}
 
@@ -65,19 +65,19 @@ Als u tijd wilt besparen tijdens het maken van producten, verwijst de standaardw
 
 {style="table-layout:auto"}
 
-De plaatsaanduidingen die de waarde van een ander veld vertegenwoordigen, worden tussen dubbele accolades geplaatst. Elke kenmerkcode die in het product is opgenomen [kenmerkset](attribute-sets.md) kan als plaatsaanduiding worden gebruikt.
+De plaatsaanduidingen die de waarde van een ander veld vertegenwoordigen, worden tussen dubbele accolades geplaatst. Om het even welke kenmerkcode die in de product [ geplaatste attributen ](attribute-sets.md) inbegrepen is kan als placeholder worden gebruikt.
 
-![Productvelden automatisch genereren](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
+![ de Gebieden van het Product auto-Generatie ](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-Voor een gedetailleerde lijst van deze montages, zie [Productvelden automatisch genereren](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) in de _Configuratieverwijzing_.
+Voor een gedetailleerde lijst van deze montages, zie [ de Gebieden van het Product auto-Generatie ](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) in de _Verwijzing van de Configuratie_.
 
 ### De plaatsaanduidingswaarde bewerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Product Fields Auto-Generation]** en brengt de gewenste wijzigingen aan in de waarden van de plaatsaanduiding.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Product Fields Auto-Generation]** sectie uit en breng om het even welke noodzakelijke veranderingen in de placeholder waarden aan.
 
    Als er bijvoorbeeld een specifiek trefwoord is dat u voor elk product wilt opnemen of een woordgroep die u in elke metabeschrijving wilt opnemen, voert u de waarde rechtstreeks in het desbetreffende veld in.
 
@@ -85,7 +85,7 @@ Voor een gedetailleerde lijst van deze montages, zie [Productvelden automatisch 
    >
    >Als u de bestaande plaatsaanduidingswaarden wilt behouden, behoudt u de dubbele accolades rondom elke opmaakcode.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### Algemene plaatsaanduidingen
 

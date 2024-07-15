@@ -5,14 +5,14 @@ exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Valuta
 
-Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer dan 200 landen over de hele wereld. Als de winkel meerdere valuta&#39;s ondersteunt, kunt u een _valutaselectie_ verschijnt in de koptekst nadat de valutakoersen zijn [bijgewerkt](currency-update.md).
+Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer dan 200 landen over de hele wereld. Als de opslag veelvoudige valuta&#39;s steunt, verkiesster van de a _munt_ in de kopbal verschijnt nadat de munttarieven [ ](currency-update.md) worden bijgewerkt.
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer d
 
 Valutasymbolen worden weergegeven in productprijzen en verkoopdocumenten zoals orders en facturen. U kunt de valutasymbolen naar wens aanpassen en ook de prijsweergave voor elke winkel of weergave afzonderlijk instellen.
 
-![Voorbeeld van winkel - valutakeuze](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![ de storefront van het Voorbeeld - muntkiezer ](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

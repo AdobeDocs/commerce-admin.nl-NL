@@ -5,7 +5,7 @@ exl-id: 46add769-6fa9-40e0-9f4f-af2215f36283
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: dbe31fa6e7b83ac852e6e4988ac61627e30d9089
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -18,56 +18,56 @@ Met de prijsregels voor winkelwagentjes kan automatisch een korting worden aange
 
 Om een korting aan te bieden die aan eerste klanten wordt gericht, kunt u:
 
-- Creeer een klantensegment dat zoals wordt bepaald _kopers zonder bestelling_ en vervolgens
+- Creeer een klantensegment dat als _kopers zonder orden_ wordt bepaald, en dan
 - Creeer een de prijsregel van de winkelwagentje die het nieuwe klantensegment richt.
 
 >[!NOTE]
 >
->Zorg ervoor dat de functie voor klantsegmenten is ingeschakeld. Zie [Een klantsegment maken](../customers/customer-segment-create.md).
+>Zorg ervoor dat de functie voor klantsegmenten is ingeschakeld. Verwijs naar [ creeer een klantensegment ](../customers/customer-segment-create.md).
 
 ## Stap 1. Een klantsegment maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Segment]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Segment]** .
 
-1. Definieer de **[!UICONTROL General Properties]**.
+1. Definieer de **[!UICONTROL General Properties]** .
 
-   - Voer een **[!UICONTROL Segment Name]** om het klantensegment te identificeren (Voorbeeld: _Eerste klant_).
+   - Ga a **[!UICONTROL Segment Name]** in om het klantensegment te identificeren (Voorbeeld: _Eerste-tijdklant_).
 
-   - Voor **[!UICONTROL Assigned to Website]** selecteert u de website waarop het klantensegment kan worden gebruikt.
+   - Selecteer bij **[!UICONTROL Assigned to Website]** de website waar het klantsegment kan worden gebruikt.
 
-   - Voor **[!UICONTROL Status]**, selecteert u `Active`.
+   - Selecteer `Active` bij **[!UICONTROL Status]** .
 
-   - Voor **[!UICONTROL Apply to]**, selecteert u `Visitors and Registered Customers`.
+   - Selecteer `Visitors and Registered Customers` bij **[!UICONTROL Apply to]** .
 
-   - Klik op **[!UICONTROL Save and Continue Edit]**.
+   - Klik op **[!UICONTROL Save and Continue Edit]** als de bewerking is voltooid.
 
      Extra opties zijn beschikbaar in het deelvenster aan de linkerkant.
 
-   ![Eigenschappen van klantensegment](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
+   ![ het segmenteigenschappen van de Klant ](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
-1. Definieer de **[!UICONTROL Conditions]**.
+1. Definieer de **[!UICONTROL Conditions]** .
 
-   In dit voorbeeld richt de voorwaarde zich op klanten voor wie _Het totale aantal bestellingen is kleiner dan 1_ is Waar.
+   Voor dit voorbeeld, richt de voorwaarde klanten voor wie _Totaal Aantal Orden minder is dan 1_ waar is.
 
-   - Kies in het deelvenster aan de linkerkant de optie **[!UICONTROL Conditions]**.
+   - Kies **[!UICONTROL Conditions]** in het deelvenster aan de linkerkant.
 
      De standaardvoorwaarde begint, &quot;als ALLE van deze voorwaarden WAAR zijn:&quot;
 
-   - Klikken _Toevoegen_ (![Pictogram toevoegen](../assets/icon-add-green-circle.png)) en selecteert u `Number of Orders`.
+   - Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en selecteer `Number of Orders`.
 
-   - Klik op **[!UICONTROL is]** en selecteer `less than`.
+   - Klik op **[!UICONTROL is]** en selecteer `less than` .
 
-   - Klikken **...** en betreden `1` in het veld.
+   - Klik op **...** en voer `1` in het veld in.
 
-   - Klik op het groene vinkje ( ![Groen vinkje](../assets/icon-checkmark-green-circle.png) ) om de voorwaarde-instelling op te slaan.
+   - Klik het groene controleteken ( ![ Groen controleteken ](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
 
-   ![Klantsegmentvoorwaarde](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
+   ![ het segmentvoorwaarde van de Klant ](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
-Het klantensegment wordt gecreeerd en in _[!UICONTROL Customer Segments]_raster.
+Het klantsegment wordt gemaakt en weergegeven in het _[!UICONTROL Customer Segments]_-raster.
 
 >[!TIP]
 >
@@ -75,83 +75,83 @@ Het klantensegment wordt gecreeerd en in _[!UICONTROL Customer Segments]_raster.
 
 ## Stap 2. De regel voor de winkelprijs maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-   De **[!UICONTROL Rule Information]** sectie wordt standaard weergegeven, met uitbreidbare secties voor **[!UICONTROL Conditions]** en **[!UICONTROL Conditions]**.
+   De sectie **[!UICONTROL Rule Information]** wordt standaard weergegeven met uitbreidbare secties voor **[!UICONTROL Conditions]** en **[!UICONTROL Conditions]** .
 
-1. Definieer de **[!UICONTROL Rule Information]**.
+1. Definieer de **[!UICONTROL Rule Information]** .
 
-   - Voltooi de **[!UICONTROL Rule Name]** en **[!UICONTROL Description]** velden. Deze velden zijn alleen bedoeld voor uw interne referentie.
+   - Vul de velden **[!UICONTROL Rule Name]** en **[!UICONTROL Description]** in. Deze velden zijn alleen bedoeld voor uw interne referentie.
 
-   - Voor **[!UICONTROL Websites]** selecteert u de website waarop de regel beschikbaar moet zijn.
+   - Selecteer voor **[!UICONTROL Websites]** de website waarop de regel beschikbaar moet zijn.
 
-   - Voor **[!UICONTROL Customer Groups]** selecteert u de klantengroep waarop deze regel van toepassing is.
+   - Selecteer voor **[!UICONTROL Customer Groups]** de klantengroep waarop deze regel van toepassing is.
 
      Als u meerdere groepen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
      >[!NOTE]
      >
-     >De opties in deze lijst hangen van de klantengroepen af die binnen worden gecreeerd en worden geleid **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+     >De opties in deze lijst zijn afhankelijk van de klantgroepen die u maakt en beheert in **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** .
 
-   - Voor **[!UICONTROL Coupon]**, selecteert u `No Coupon`.
+   - Selecteer `No Coupon` bij **[!UICONTROL Coupon]** .
 
-   - Voor **[!UICONTROL Uses per Customer]**, enter `1`.
+   - Voer bij **[!UICONTROL Uses per Customer]** `1` in.
 
-   - Voor **[!UICONTROL Priority]** Voer een getal in om de prioriteit van deze regel ten opzichte van andere regels vast te stellen.
+   - Voer voor **[!UICONTROL Priority]** een getal in om de prioriteit van deze regel ten opzichte van andere regels vast te stellen.
 
      >[!NOTE]
      >
-     >De instelling Prioriteit is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meer dan één prijsregel zijn ingesteld. De regel met de hoogste Prioriteit het plaatsen wordt actief voor de klant. De hoogste prioriteit is 1. In dit voorbeeld voert u `1` betekent dat deze regel wordt toegepast vóór enige andere prijsregel. Deze waarde wordt gebruikt door de **[!UICONTROL Discard Subsequent Rules]** in het dialoogvenster **[!UICONTROL Action]** sectie.
+     >De instelling Prioriteit is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meer dan één prijsregel zijn ingesteld. De regel met de hoogste Prioriteit het plaatsen wordt actief voor de klant. De hoogste prioriteit is 1. In dit voorbeeld betekent het invoeren van `1` dat deze regel wordt toegepast vóór eventuele andere prijsregels. Deze waarde wordt gebruikt door de instelling **[!UICONTROL Discard Subsequent Rules]** in de sectie **[!UICONTROL Action]** .
 
-   - Klik op **[!UICONTROL Save and Continue Edit]**.
+   - Klik op **[!UICONTROL Save and Continue Edit]** als de bewerking is voltooid.
 
      Extra opties zijn beschikbaar in het deelvenster aan de linkerkant.
 
-   ![Informatie over de prijsregel voor winkelwagentjes](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
+   ![ de informatie van de prijsregel van de Kar ](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
 
-1. Definieer de **[!UICONTROL Conditions]**.
+1. Definieer de **[!UICONTROL Conditions]** .
 
-   - Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Conditions]** sectie.
+   - De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
 
      De standaardregel begint met &quot;Als ALLE van deze voorwaarden WAAR zijn:&quot;.
 
-   - Klikken _Toevoegen_ (![Pictogram toevoegen](../assets/icon-add-green-circle.png)) en selecteert u `Customer Segment`.
+   - Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en selecteer `Customer Segment`.
 
-     Het kwalificatieveld is standaard ingesteld op `matches`.
+     Het kwalificatieveld is standaard ingesteld op `matches` .
 
-   - Klikken **...** en ga segmentidentiteitskaart van het klantensegment in u wilt richten.
+   - Klik **..** en ga segmentidentiteitskaart van het klantensegment in u wilt richten.
 
-     Voor dit voorbeeld, segmentidentiteitskaart voor het nieuwe segment dat in Stap 1 wordt gecreeerd is `2`.
+     In dit voorbeeld is de segment-id voor het nieuwe segment dat in Stap 1 wordt gemaakt, `2` .
 
      >[!NOTE]
      >
-     >Als u segmentid niet kent, klikt u op het pictogram van de kiezer ( ![Lijstpictogram](../assets/icon-list-chooser.png) ) om de lijst met klantsegmenten weer te geven. U kunt de id handmatig invoeren in het veld of het selectievakje voor het gewenste segment inschakelen om het veld automatisch in te vullen.
+     >Als u segmentidentiteitskaart niet kent, klik het kiezerspictogram ( ![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) om de lijst van het Segment van de Klant te tonen. U kunt de id handmatig invoeren in het veld of het selectievakje voor het gewenste segment inschakelen om het veld automatisch in te vullen.
 
-   - Klik op het groene vinkje ( ![Groen vinkje](../assets/icon-checkmark-green-circle.png) ) om de voorwaarde-instelling op te slaan.
+   - Klik het groene controleteken ( ![ Groen controleteken ](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
 
-   - Klik op **[!UICONTROL Save and Continue Edit]**.
+   - Klik op **[!UICONTROL Save and Continue Edit]** als de bewerking is voltooid.
 
      Deze lijn van de regel is op alle klanten van toepassing die klant segmentidentiteitskaart 2 aanpassen.
 
-   ![Klantsegmentvoorwaarde](./assets/customer-segment-matches.png){width="400"}
+   ![ het segmentvoorwaarde van de Klant ](./assets/customer-segment-matches.png){width="400"}
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png)de **[!UICONTROL Conditions]** en definieert u de handelingen voor de regel.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie en bepaalt de acties voor de regel.
 
-   In deze sectie definieert u het type korting en de waarde/het bedrag van de korting die u wilt toepassen op nieuwe klanten. In dit voorbeeld wordt een korting van 10% gedefinieerd voor alle klanten die aan de gedefinieerde voorwaarde voldoen. Zie voor informatie over andere beschikbare opties [Een regel voor een startprijs maken](price-rules-cart-create.md).
+   In deze sectie definieert u het type korting en de waarde/het bedrag van de korting die u wilt toepassen op nieuwe klanten. In dit voorbeeld wordt een korting van 10% gedefinieerd voor alle klanten die aan de gedefinieerde voorwaarde voldoen. Voor informatie over andere beschikbare opties, zie [ Creërend een Regel van de Prijs van de Kar ](price-rules-cart-create.md).
 
-   - Voor **[!UICONTROL Apply]**, selecteer Percentage van de korting op de productprijs.
+   - Selecteer Percentage van korting op de productprijs bij **[!UICONTROL Apply]** .
 
-   - Voor **[!UICONTROL Discount Amount]**, enter `10`.
+   - Voer bij **[!UICONTROL Discount Amount]** `10` in.
 
-   - Als u deze prijsregel alleen op productbedragen wilt toepassen, stelt u **[!UICONTROL Apply to Shipping Amount]** tot `No`.
+   - Stel **[!UICONTROL Apply to Shipping Amount]** in op `No` als u deze prijsregel alleen op producthoeveelheden wilt toepassen.
 
-   - Om te voorkomen dat het systeem meerdere prijsregels toepast op hetzelfde product, stelt u **[!UICONTROL Discard Subsequent Rules]** tot `Yes`.
+   - Als u wilt voorkomen dat het systeem meerdere prijsregels op hetzelfde product toepast, stelt u **[!UICONTROL Discard Subsequent Rules]** in op `Yes` .
 
-   - Klik op **[!UICONTROL Save]**.
+   - Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   ![Handelingen met prijsregels voor winkelwagentjes](./assets/actions-first-time.png){width="600" zoomable="yes"}
+   ![ de acties van de prijsregel van de Kar ](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 De nieuwe regel is normaal beschikbaar binnen het uur. Test de regel om er zeker van te zijn dat deze werkt zoals u deze hebt gedefinieerd.
 

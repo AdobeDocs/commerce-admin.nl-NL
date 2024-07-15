@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Middelen in galerie beheren
 
-De nieuwe [Medialerie](media-gallery.md) biedt gereedschappen voor het beheer van geüploade mediabestanden en elementen die u via een [Adobe Stock-integratie](adobe-stock.md). Als u een Adobe Stock hebt opgeslagen [voorvertoning van afbeelding](adobe-stock-save-preview.md)kunt u ook [licentie](adobe-stock-license-image.md) de afbeelding in de nieuwe medialerie.
+De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [ ](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
 
 ## Middelen uploaden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Klik op **[!UICONTROL Upload Image]**.
 
@@ -26,11 +26,11 @@ De nieuwe [Medialerie](media-gallery.md) biedt gereedschappen voor het beheer va
 
 ## Elementdetails weergeven
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klik op de drie stippen onder het element (![Details, pictogram](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), klikt u vervolgens op **[!UICONTROL View Details]**.
+1. Klik de drie punten onder de activa (![ pictogram van Details ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL View Details]**.
 
-   ![Acties voor middelen](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
+   ![ Acties van Activa ](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
    De elementdetails worden weergegeven in een deelvenster. Zij omvatten de informatie waar het actief wordt gebruikt:
 
@@ -39,21 +39,21 @@ De nieuwe [Medialerie](media-gallery.md) biedt gereedschappen voor het beheer va
    - **[!UICONTROL Pages]**
    - **[!UICONTROL Blocks]**
 
-   ![Details van element](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
+   ![ Details van Activa ](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
-   Klik op de knop **[!UICONTROL Used In]** koppelingen. In het raster in het volgende voorbeeld worden alle categorieën weergegeven waarin een specifiek element wordt gebruikt.
+   Klik op de koppelingen **[!UICONTROL Used In]** om de details weer te geven. In het raster in het volgende voorbeeld worden alle categorieën weergegeven waarin een specifiek element wordt gebruikt.
 
-   ![Categorieraster](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
+   ![ Net van de Categorie ](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
-   Het is ook mogelijk om het middel uit het _Details weergeven_ sectie.
+   Het is ook mogelijk om de activa van de _sectie van de Details van de Mening_ te schrappen.
 
 ## Een element bewerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klik op de drie stippen onder het element (![Pictogram van het menu Element](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), klikt u vervolgens op **[!UICONTROL Edit]**.
+1. Klik de drie punten onder de activa (![ het menupictogram van Activa ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL Edit]**.
 
-   ![Element bewerken](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
+   ![ geef Activa ](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"} uit
 
 1. Wijzig zo nodig een van de volgende waarden voor metagegevens:
 
@@ -67,49 +67,49 @@ De nieuwe [Medialerie](media-gallery.md) biedt gereedschappen voor het beheer va
 
 ## Een element gebruiken
 
-Elementen kunnen in de gehele beheerdersgroep veel worden gebruikt, zoals [Een pagina toevoegen of bewerken](page-add.md), [een categorie maken of bewerken](../catalog/category-create.md), of [afbeeldingen invoegen vanuit de inhoudseditor](editor-insert-image.md).
+Assets kan uitgebreid door Admin worden gebruikt, zoals [ een pagina ](page-add.md) toevoegen of uitgeven, [ creeer of geef een categorie ](../catalog/category-create.md) uit, of [ neem beelden van de Redacteur van de Inhoud ](editor-insert-image.md) op.
 
 1. Open de nieuwe medialerie vanuit een gebied waarin u media-elementen kunt gebruiken.
 
-1. Selecteer het element en klik op **[!UICONTROL Add Selected]**.
+1. Selecteer het element en klik op **[!UICONTROL Add Selected]** .
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Elementen verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klikken **[!UICONTROL Delete Images...]** en schakelt u het selectievakje in voor elk element dat u wilt verwijderen.
+1. Klik op **[!UICONTROL Delete Images...]** en schakel het selectievakje in voor elk element dat u wilt verwijderen.
 
-1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL Delete Image]**.
+1. Klik op **[!UICONTROL Delete Image]** in het bevestigingsdialoogvenster.
 
-   ![Bevestiging verwijderen](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
+   ![ Bevestiging van de Schrapping ](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
 
 ## Middelen zoeken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Gebruik de **[!UICONTROL Search by keywords]** invoer voor het zoeken naar afbeeldingen op trefwoorden/tags.
+1. Gebruik de invoer **[!UICONTROL Search by keywords]** om het beeldonderzoek door sleutelwoorden/markeringen uit te voeren.
 
-   In het volgende voorbeeld wordt gezocht naar elementen die een specifieke tag bevatten (`mountain`).
+   Het onderzoek in het volgende voorbeeld vindt activa die een specifieke markering (`mountain`) bevatten.
 
-   ![Zoeken in middelen](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
+   ![ Onderzoek van Activa ](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Als u wilt weten hoe u afbeeldingscodes kunt bijwerken, raadpleegt u de _[Een element bewerken](#edit-an-asset)_ sectie.
+>Leren hoe u beeldmarkeringen kunt bijwerken, zie _[activa](#edit-an-asset)_ sectie uitgeven.
 
 ## Elementen filteren
 
 >[!NOTE]
 >
->De _Gebruikt in_ functionaliteit vereist dat [!UICONTROL Media Gallery Image Optimization] is ingeschakeld in het dialoogvenster [configuratie-instellingen](media-gallery-image-optimization.md).
+>_Gebruikt in_ functionaliteit vereist dat [!UICONTROL Media Gallery Image Optimization] in de [ configuratiemontages ](media-gallery-image-optimization.md) wordt toegelaten.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klik op de knop **[!UICONTROL Filters]** tab.
+1. Klik op de tab **[!UICONTROL Filters]** .
 
-   ![Filters](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![ Filters ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Stel de filteropties in.
 
@@ -120,16 +120,16 @@ Elementen kunnen in de gehele beheerdersgroep veel worden gebruikt, zoals [Een p
    - **[!UICONTROL Used in Pages]**
    - **[!UICONTROL Used in Blocks]**
 
-   U kunt de elementen ook filteren op **[!UICONTROL Store View]**, **[!UICONTROL License Status]**, en **[!UICONTROL Content Status]**. Datumbereik instellen voor **[!UICONTROL Uploaded Date]** en/of **[!UICONTROL Modification Date]** om elementen te filteren op basis van bestandsdatums.
+   U kunt de elementen ook filteren op **[!UICONTROL Store View]** , **[!UICONTROL License Status]** en **[!UICONTROL Content Status]** . Stel een datumbereik in voor **[!UICONTROL Uploaded Date]** en/of **[!UICONTROL Modification Date]** om elementen te filteren op basis van bestandsdatums.
 
-1. Klikken **[!UICONTROL Apply Filters]** om de resultaten te zien.
+1. Klik op **[!UICONTROL Apply Filters]** om de resultaten weer te geven.
 
-   Het filtreren in het volgende voorbeeld vindt activa die in een specifieke categorie (`cars`) en zijn ingeschakeld.
+   Het filtreren in het volgende voorbeeld vindt activa die in een specifieke categorie (`cars`) worden gebruikt en toegelaten.
 
-   ![Filter voor ingeschakelde elementen op categorie](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+   ![ Filter voor Toegelaten Assets door Categorie ](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
 ## Afbeeldingsduplicaten zoeken
 
-1. Klik op de knop **[!UICONTROL Filters]** en selecteert u de **[!UICONTROL Show duplicates]** selectievakje.
+1. Klik op de tab **[!UICONTROL Filters]** en selecteer het selectievakje **[!UICONTROL Show duplicates]** .
 
-1. Klik op **[!UICONTROL Apply Filters]**.
+1. Klik op **[!UICONTROL Apply Filters]** om de resultaten weer te geven.

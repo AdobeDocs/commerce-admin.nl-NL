@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aanvraag voor offerte
 
-Als aanhalingstekens zijn ingeschakeld in het dialoogvenster [Configuratie van verkoopfuncties](configure-quotes.md)kan een geautoriseerde koper van een bedrijf het onderhandelingsproces over de prijzen starten door een prijsopgave te vragen. Als een koper niet bereid is om een prijsopgave voor onderhandeling in te dienen, kan hij of zij het opslaan als concept.
+Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](configure-quotes.md) worden toegelaten, kan een erkende koper van een bedrijf het proces van de prijsonderhandeling in werking stellen door een citaat van hun het winkelwagentje te verzoeken. Als een koper niet bereid is om een prijsopgave voor onderhandeling in te dienen, kan hij of zij het opslaan als concept.
 
 >[!NOTE]
 >
@@ -21,34 +21,34 @@ Als aanhalingstekens zijn ingeschakeld in het dialoogvenster [Configuratie van v
 
 ## Aanvraagervaring voor klanten
 
-1. De klant meldt zich aan bij zijn gebruikersaccount als koper met [machtiging](account-company-roles-permissions.md) om een prijsopgave aan te vragen.
+1. De klant login aan hun gebruikersrekening als koper met [ toestemming ](account-company-roles-permissions.md) om een citaat te verzoeken.
 
 1. Hiermee voegt u de producten die u in de prijsopgave wilt opnemen, toe aan het winkelwagentje.
 
    >[!TIP]
    > 
-   >Klanten kunnen een lijst met product-SKU&#39;s sneller aan het winkelwagentje toevoegen door [Snelle bestelling](quick-order.md).
+   >De klanten kunnen een lijst van productSKUs aan de kar sneller toevoegen door [ Snelle Orde ](quick-order.md) te gebruiken.
 
-1. Selecties **[!UICONTROL Request a Quote]**.
+1. Selecteert **[!UICONTROL Request a Quote]** .
 
-   ![Aanvragen van een prijsopgave in het winkelwagentje](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
+   ![ die een citaat van het het winkelwagentje verzoeken ](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. In de **[!UICONTROL Add your comment]** de klant een korte notitie invoert om de aanvraag te beschrijven.
+1. In het vak **[!UICONTROL Add your comment]** voert de klant een korte notitie in om de aanvraag te beschrijven.
 
-1. Voert een **[!UICONTROL Quote Name]**.
+1. Voer een **[!UICONTROL Quote Name]** in.
 
-   ![Opmerkingen en namen voor aanhalingstekens invoeren](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![ het ingaan van de citaatcommentaren en naam ](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Koppelt zo nodig een ondersteunend document of afbeelding aan het citaat:
 
-   - Selecties **[!UICONTROL Attach file]**.
+   - Selecteert **[!UICONTROL Attach file]** .
    - Hiermee kiest u het bestand op hun systeem.
 
-   Standaard kunt u een [bijgevoegd bestand](configure-quotes.md) kan maximaal 2 MB zijn, in een van de volgende bestandsindelingen: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
+   Door gebrek, kan een [ dossier in bijlage ](configure-quotes.md) tot 2 MB, in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
 
 1. Hiermee maakt en verwerkt u het aanhalingsteken:
 
-   - Verzendt het prijsopgave naar de verkoper door **[!UICONTROL Request a Quote]**.
-   - [!BADGE 1.5.0 bèta-functionaliteit]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor deelnemers aan het bètaprogramma"}**[!UICONTROL Save as Draft]**.
+   - Verstuurt het aanhalingsteken naar de verkoper door **[!UICONTROL Request a Quote]** te selecteren.
+   - [!BADGE  1.5.0-bèta vermogen ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor Beta-programmadeelnemers"}**[!UICONTROL Save as Draft]**.
 
-     Als de koper het aanhalingsteken als concept opslaat, is het aanhalingsteken beschikbaar in [!UICONTROL My Quotes] in `Draft` status. Concepten zijn pas zichtbaar voor de verkoper nadat de koper ze ter controle heeft verzonden.
+     Als de koper het aanhalingsteken opslaat als concept, is het aanhalingsteken beschikbaar in de status [!UICONTROL My Quotes] in `Draft` . Concepten zijn pas zichtbaar voor de verkoper nadat de koper ze ter controle heeft verzonden.

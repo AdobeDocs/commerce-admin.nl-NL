@@ -1,93 +1,93 @@
 ---
-title: "Configureren [!DNL Inventory Management] globale opties"
-description: Leer hoe te om het gebrek te vormen [!DNL Inventory Management] configuratieopties voor product en voorraad voor uw websites.
+title: "Vorm  [!DNL Inventory Management]  globale opties"
+description: Leer hoe te om het gebrek  [!DNL Inventory Management]  configuratieopties voor product en voorraad voor uw websites te vormen.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
-# Configureren [!DNL Inventory Management] globale opties
+# Globale opties configureren: [!DNL Inventory Management]
 
-Configureer de standaardconfiguratieopties voor product en voorraad voor uw websites. Sommige van deze instellingen kunnen per product worden overschreven via [Productopties configureren](product-options.md). Om de montages van de Prioriteit van de Afstand te vormen, zie [Algorithm Distance Priority configureren](distance-priority-algorithm.md).
+Configureer de standaardconfiguratieopties voor product en voorraad voor uw websites. Sommige van deze montages kunnen per product door [ worden met voeten getreden die de Opties van het Product ](product-options.md) vormen. Om de montages van de Prioriteit van de Afstand te vormen, zie [ het Vormen het Prioritaire Algoritme van de Afstand ](distance-priority-algorithm.md).
 
 ## Wereldwijd product- en voorraadopties configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Inventory]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Stock Options]** en stel de opties in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Stock Options]** sectie uit en plaats de opties:
 
-   ![Opties voor voorraad](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
+   ![ Opties van de Voorraad ](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
-   - Als u de hoeveelheid op de hand wilt aanpassen wanneer een bestelling wordt geplaatst, stelt u **[!UICONTROL Decrease Stock When Order is Placed]** tot `Yes`.
+   - Stel **[!UICONTROL Decrease Stock When Order is Placed]** in op `Yes` als u de hoeveelheid op de hand wilt aanpassen.
 
-   - Om items in voorraad te retourneren als een bestelling wordt geannuleerd, **[!UICONTROL Set Items' Status to be in Stock When Order in Cancelled]** tot `Yes`.
+   - Als u items wilt retourneren naar de voorraad wanneer een bestelling wordt geannuleerd, **[!UICONTROL Set Items' Status to be in Stock When Order in Cancelled]** naar `Yes` .
 
-   - Als u wilt doorgaan met het weergeven van producten in de catalogus die niet meer in voorraad zijn, stelt u **[!UICONTROL Display Out of Stock Products]** tot `Yes`.
+   - Als u wilt doorgaan met het weergeven van producten in de catalogus die niet meer in voorraad zijn, stelt u **[!UICONTROL Display Out of Stock Products]** in op `Yes` .
 
-   - Indien [prijswaarschuwingen](alert-setup.md) zijn ingeschakeld, kunnen klanten zich aanmelden om op de hoogte te worden gesteld wanneer het product weer in voorraad is.
+   - Als [ prijsalarm ](alert-setup.md) wordt toegelaten, kunnen de klanten zich aanmelden om worden op de hoogte gebracht wanneer het product terug in voorraad is.
 
-   - Als u het begin wilt instellen voor de weergave van de laatste resterende voorraad op de productpagina, voert u een bedrag in voor **[!UICONTROL Only X left Threshold]**.
+   - Voer een bedrag in voor **[!UICONTROL Only X left Threshold]** om het begin in te stellen voor de weergave van de laatste voorraad op de productpagina.
 
-     Het bericht wordt weergegeven wanneer de voorraad de drempel bereikt. Als u bijvoorbeeld instelt op `3`, het bericht `Only 3 left` wordt weergegeven wanneer de voorraad meer dan drie bedraagt. Het bericht wordt aangepast aan de hoeveelheid in voorraad tot de hoeveelheid nul bereikt.
+     Het bericht wordt weergegeven wanneer de voorraad de drempel bereikt. Als de waarde bijvoorbeeld is ingesteld op `3` , wordt het bericht `Only 3 left` weergegeven wanneer de hoeveelheid in voorraad de waarde drie bereikt. Het bericht wordt aangepast aan de hoeveelheid in voorraad tot de hoeveelheid nul bereikt.
 
-   - Als u een bericht &quot;In voorraad&quot; of &quot;Uit voorraad&quot; wilt weergeven op de productpagina, stelt u **[!UICONTROL Display Products Availability In Stock on Storefront]** tot `Yes`.
+   - Als u het bericht In voorraad of Uit voorraad wilt weergeven op de productpagina, stelt u **[!UICONTROL Display Products Availability In Stock on Storefront]** in op `Yes` .
 
-   - Als u de voorraad wilt controleren tijdens het laden van een product in het winkelwagentje, stelt u **[!UICONTROL Enable Inventory Check On Cart Load]** tot `Yes`. Als deze optie is uitgeschakeld, wordt de voorraadcontrole overgeslagen. Als u deze optie uitschakelt, wordt het afrekenen versneld, vooral als er veel winkelwagentjes zijn. Als u de pre-validatie echter overslaat, kunnen klanten later tijdens het afrekenen fouten van het type &quot;out of stock&quot; zien.
+   - Stel **[!UICONTROL Enable Inventory Check On Cart Load]** in op `Yes` om de voorraad te controleren wanneer u een product in de winkelwagen laadt. Als deze optie is uitgeschakeld, wordt de voorraadcontrole overgeslagen. Als u deze optie uitschakelt, wordt het afrekenen versneld, vooral als er veel winkelwagentjes zijn. Als u de pre-validatie echter overslaat, kunnen klanten later tijdens het afrekenen fouten van het type &quot;out of stock&quot; zien.
 
-   - Als u de consistentie tussen de voorraad en de catalogus wilt behouden, stelt u **[!UICONTROL Synchronize with Catalog]** tot `Yes`. Als deze optie is ingeschakeld, worden de inventarisgegevens aangepast aan de wijzigingen in de catalogus (zoals het verwijderde product, de gewijzigde productSKU en het gewijzigde producttype).
+   - Stel **[!UICONTROL Synchronize with Catalog]** in op `Yes` om consistentie tussen voorraad en catalogus te behouden. Als deze optie is ingeschakeld, worden de inventarisgegevens aangepast aan de wijzigingen in de catalogus (zoals het verwijderde product, de gewijzigde productSKU en het gewijzigde producttype).
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** en stel de opties in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** sectie uit en plaats de opties:
 
-   - Om te activeren [inventariscontrole](enable.md) voor uw catalogus, set **[!UICONTROL Manage Stock]** tot `Yes`.
+   - Om [ inventariscontrole ](enable.md) voor uw catalogus te activeren, plaats **[!UICONTROL Manage Stock]** aan `Yes`.
 
-     ![Opties voor productvoorraad](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+     ![ Opties van de Voorraad van het Product ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Backorders]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Backorders]** in op een van de volgende opties:
 
      | Optie | Beschrijving |
      | ----- | ----- |
-     | `No Backorders` | [Achtergronden](backorders.md) worden niet geaccepteerd als het product uit voorraad is. |
+     | `No Backorders` | [ Achterorden ](backorders.md) worden niet goedgekeurd wanneer het product uit voorraad is. |
      | `Allow Qty Below 0` | Achterorden worden geaccepteerd als de hoeveelheid onder nul daalt. |
      | `Allow Qty Below 0 and Notify Customer` | Backorders worden geaccepteerd als het aantal minder is dan nul en het systeem de klant meldt dat de bestelling nog steeds kan worden geplaatst. |
 
-   - Voer de **[!UICONTROL Maximum Qty Allowed in Shopping Cart]**.
+   - Voer de **[!UICONTROL Maximum Qty Allowed in Shopping Cart]** in.
 
-   - Voer een bedrag in voor de **[!UICONTROL Out-of-Stock Threshold]**:
+   - Voer een bedrag in voor de **[!UICONTROL Out-of-Stock Threshold]** :
 
      | Waarde | Beschrijving |
      | ----- |-----|
      | Positief bedrag | Voer een positieve waarde in als Achterordes uitgeschakeld is. |
-     | Nul | Als Achterorden ingeschakeld, voert u `0` staat voor oneindige achterorden toe. |
-     | Negatief bedrag | Als Achterorden ingeschakeld, wordt u aangeraden een negatief bedrag in te voeren. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld `-50` om opdrachten tot dit bedrag toe te staan. |
+     | Nul | Als Achterorden ingeschakeld is en u `0` invoert, zijn oneindige achterorden mogelijk. |
+     | Negatief bedrag | Als Achterorden ingeschakeld, wordt u aangeraden een negatief bedrag in te voeren. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld `-50` in om bestellingen tot dit bedrag toe te staan. |
 
-   - Voer de **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** voor de geselecteerde groep en bedragen.
+   - Voer de **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** in voor de geselecteerde groep en hoeveelheden.
 
-   - Voor **[!UICONTROL Notify for Quantity Below]** Voer het voorraadniveau in dat de melding activeert dat het item niet langer in voorraad is.
+   - Voer bij **[!UICONTROL Notify for Quantity Below]** het voorraadniveau in dat een melding activeert dat het item uit voorraad is.
 
-   - Als u de hoeveelheid wilt verhogen voor het product, stelt u **[!UICONTROL Enable Qty Increments]** tot `Yes`. Dan, voor **[!UICONTROL Qty Increments]** Voer het aantal objecten in dat moet worden aangeschaft om aan de vereiste te voldoen.
+   - Stel **[!UICONTROL Enable Qty Increments]** in op `Yes` als u kwantitatieve stappen voor het product wilt activeren. Voer bij **[!UICONTROL Qty Increments]** vervolgens het aantal items in dat moet worden aangeschaft om aan de vereiste te voldoen.
 
-     Een artikel dat in stappen van zes wordt verkocht, kan bijvoorbeeld in hoeveelheden van `6`, `12`, `18`, enzovoort.
+     Een artikel dat in stappen van zes wordt verkocht, kan bijvoorbeeld worden aangeschaft in hoeveelheden van `6` , `12` , `18` , enzovoort.
 
-   - Voor [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** is ingesteld op `No`. Wanneer u een creditnota indient, voert u deze in en selecteert u deze om de voorraad terug te brengen naar bronnen.
+   - Voor [!DNL Inventory Management] wordt **[!UICONTROL Automatically Return Credit Memo Item to Stock]** ingesteld op `No` . Wanneer u een creditnota indient, voert u deze in en selecteert u deze om de voorraad terug te brengen naar bronnen.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Admin bulk operations]** en stel de opties in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin bulk operations]** sectie uit en plaats de opties:
 
-   ![Bulkbewerkingen voor beheerders](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
+   ![ BevestigingVerrichtingen van Admin ](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Run asynchronously]** bulkbewerkingen asynchroon uitvoeren voor acties voor massaproducten
+   - Stel **[!UICONTROL Run asynchronously]** in om bulkbewerkingen asynchroon uit te voeren voor acties voor grote producten
 
-     Deze bewerkingen omvatten bulk [Bronnen toewijzen en de toewijzing ervan opheffen](bulk-assignment.md), en [inventariseren naar bron](inventory-transfer.md). Het verzamelt bulkacties tot de Asynchrone partijgrootte, dan stelt die acties in werking. Deze optie is standaard uitgeschakeld. U wordt aangeraden de prestaties te beoordelen met acties in bulk voordat u deze inschakelt.
+     Deze verrichtingen omvatten bulk [ toewijzend en unassigning bronnen ](bulk-assignment.md), en [ overbrengend inventaris aan bron ](inventory-transfer.md). Het verzamelt bulkacties tot de Asynchrone partijgrootte, dan stelt die acties in werking. Deze optie is standaard uitgeschakeld. U wordt aangeraden de prestaties te beoordelen met acties in bulk voordat u deze inschakelt.
 
      >[!NOTE]
      >
-     >Configureren en ondersteunen _asynchrone rijmanagers_, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [Gebruikers in de wachtrij met berichten starten](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in de _Configuratiegids_.
+     >Om _asynchrone rijmanagers_ te vormen en te steunen, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in de _Gids van de Configuratie_.
 
-   - Indien ingeschakeld, stelt u de **[!UICONTROL Asynchronous batch size]**. De standaardbatch-grootte is 100. Wanneer de bulkprocessen dit bedrag bereiken, teweegbrengt het systeem het.
+   - Indien ingeschakeld, stelt u de **[!UICONTROL Asynchronous batch size]** in. De standaardbatch-grootte is 100. Wanneer de bulkprocessen dit bedrag bereiken, teweegbrengt het systeem het.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Als u een commerciële account hebt bij een ondersteunde provider, kunt u uw kla
 
 >[!NOTE]
 >
->Zie [Commerce Marketplace](../getting-started/commerce-marketplace.md) voor extra verzendservices voor de installatie van Commerce.
+>Zie [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
 
 Voordat u uw klanten een selectie van verzendingsdragers kunt aanbieden, moet u de volgende stappen uitvoeren:
 
-- Vorm [verzendinstellingen](shipping-settings.md) om het punt van oorsprong voor uw opslag te bepalen.
+- Vorm de [ verschepende montages ](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
 
 - Vorm de montages voor elke dragerdienst die u wilt aanbieden.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) biedt binnenlandse en internationale scheepvaartdiensten over land en door de lucht aan naar meer dan 220 landen.
-   - [**USPS**](usps.md) - De United States Postal Service (USPS) is de onafhankelijke postdienst van de Amerikaanse overheid. USPS biedt binnenlandse en internationale scheepvaartdiensten over land en door de lucht aan.
-   - [**FedEx**](fedex.md) - FedEx biedt binnenlandse en internationale scheepvaartdiensten over land en door de lucht aan naar meer dan 220 landen.
-   - [**DHL**](dhl.md) - DHL biedt geïntegreerde internationale diensten en op maat gesneden, klantgerichte oplossingen voor het beheren en vervoeren van brieven, goederen en informatie.
+   - [**UPS**](ups.md) - de Dienst van het Verenigde Pakket (UPS) biedt binnenlandse en internationale scheepvaartdiensten door land en lucht aan meer dan 220 landen aan.
+   - [**USPS**](usps.md) - de Postdienst van de Verenigde Staten (USPS) is de onafhankelijke postdienst van de overheid van de Verenigde Staten. USPS biedt binnenlandse en internationale scheepvaartdiensten over land en door de lucht aan.
+   - [**FedEx**](fedex.md) - FedEx biedt binnenlandse en internationale scheepvaartdiensten door land en lucht aan meer dan 220 landen aan.
+   - [**DHL**](dhl.md) - DHL biedt de geïntegreerde internationale diensten en op maat gemaakte, klant-geconcentreerde oplossingen voor het beheren van en het vervoeren van brieven, goederen, en informatie aan.
 
 ## Afmetingen
 

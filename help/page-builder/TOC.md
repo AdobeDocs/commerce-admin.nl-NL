@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Page Builder] Handboek"
-user-guide-description: Leren gebruiken [!DNL Page Builder] eigenschappen om inhoud-rijke pagina's met douanelay-outs tot stand te brengen die uw visueel het vertellen verbeteren, en klantenovereenkomst en loyaliteit drijven.
+user-guide-description: Leer hoe te om  [!DNL Page Builder]  eigenschappen te gebruiken om inhoud-rijke pagina's met douanelay-outs tot stand te brengen die uw visueel het vertellen verbeteren, en klantenovereenkomst en loyaliteit te drijven.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
@@ -16,19 +16,19 @@ ht-degree: 0%
 # [!DNL Page Builder] Handboek {#page-builder}
 
 - [[!DNL Page Builder] Handboek](guide-overview.md)
-- [Inleiding tot [!DNL Page Builder]](introduction.md)
+- [Inleiding tot  [!DNL Page Builder]](introduction.md)
 - [Opmerkingen bij de release](release-notes.md)
 - [Configuratie en installatie](setup.md)
-- Walkthrough {#walkthrough}
+- Doorlopen {#walkthrough}
    - [Deel 1: eenvoudige pagina](1-simple-page.md)
    - [Deel 2: Blokken](2-blocks.md)
    - [Deel 3: Inhoud catalogus](3-catalog-content.md)
-- [Werkruimte](workspace.md)
-- Layout {#layout}
+- [Workspace](workspace.md)
+- Lay-out {#layout}
    - [Rijen](row.md)
    - [Kolommen](column.md)
    - [Tabs](tabs.md)
-- Elementen {#elements}
+- Elements {#elements}
    - [Tekst](text.md)
    - [Kop](heading.md)
    - [Knoppen](buttons.md)
@@ -46,5 +46,5 @@ ht-degree: 0%
    - [Producten](products.md)
    - [Product Recommendations](recommendations.md)
 - [Sjablonen](templates.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

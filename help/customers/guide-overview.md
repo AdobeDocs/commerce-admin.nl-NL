@@ -18,17 +18,17 @@ Deze handleiding is bedoeld voor medewerkers van de klantenservice die in Adobe 
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |
-| [Inleiding](customers-introduction.md) | Overzicht van het gebruik van de functies voor klantbeheer in Commerce Admin. |
-| Hulpprogramma&#39;s voor klantenbeheer | Leer hoe u de [[!UICONTROL Customers] raster](customers-all.md) en [[!UICONTROL Now Online] functie](now-online.md) in de Commerce Admin die u kunt gebruiken om uw winkelklanten te beheren. |
-| Klantenrekeningen | Leer hoe u een optimale ervaring kunt bieden voor geregistreerde klanten op de winkel, van [logins](login-landing-page.md) tot [wachtwoord resteert](password-reset.md), en [hulp bieden aan winkeliers](login-as-customer.md). |
-| [Personalisatie op schaal](personalize-scale.md) | Leer over de eigenschappen beschikbaar om de het winkelen ervaring voor elke klant te personaliseren touchpoint die op directe context en eerder waargenomen gedrag wordt gebaseerd. |
-| [[!DNL Audience Activation]](audience-activation.md) | Meer informatie over de [!DNL Audience Activation] met een extensie waarmee u het Real-Time CDP-publiek in Adobe Commerce activeert om unieke aanbiedingen in de winkelwagen, dynamische blokken en verwante producten te informeren. |
-| [Klantengroepen](customer-groups.md) | Leer hoe te om klantengroepen te gebruiken om te bepalen welke kortingen aan klanten beschikbaar zijn die aan een groep en de belastingklasse worden toegewezen die met de groep wordt geassocieerd. |
-| [Klantsegmenten](customer-segments.md) | Bepaal klantensegmenten die u kunt gebruiken om inhoud en bevorderingen aan specifieke klanten dynamisch te tonen, die op diverse eigenschappen worden gebaseerd. |
+| [ Inleiding ](customers-introduction.md) | Overzicht van het gebruik van de functies voor klantbeheer in Commerce Admin. |
+| Hulpprogramma&#39;s voor klantenbeheer | Leer hoe u de functies [[!UICONTROL Customers] grid ](customers-all.md) en [[!UICONTROL Now Online] ](now-online.md) in Commerce Admin gebruikt om uw winkelklanten te beheren. |
+| Klantenrekeningen | Leer hoe te om een optimale ervaring voor geregistreerde klanten op de storefront te verstrekken, van [ logins ](login-landing-page.md) aan [ het wachtwoord rust ](password-reset.md), en [ verleent winkelhulp ](login-as-customer.md). |
+| [ Personalization bij schaal ](personalize-scale.md) | Leer over de eigenschappen beschikbaar om de het winkelen ervaring voor elke klant te personaliseren touchpoint die op directe context en eerder waargenomen gedrag wordt gebaseerd. |
+| [[!DNL Audience Activation]](audience-activation.md) | Meer informatie over de extensie [!DNL Audience Activation] waarmee u het Real-Time CDP-publiek in Adobe Commerce kunt activeren om unieke aanbiedingen in de winkelwagen, dynamische blokken en verwante producten te informeren. |
+| [ de groepen van de Klant ](customer-groups.md) | Leer hoe te om klantengroepen te gebruiken om te bepalen welke kortingen aan klanten beschikbaar zijn die aan een groep en de belastingklasse worden toegewezen die met de groep wordt geassocieerd. |
+| [ de segmenten van de Klant ](customer-segments.md) | Bepaal klantensegmenten die u kunt gebruiken om inhoud en bevorderingen aan specifieke klanten dynamisch te tonen, die op diverse eigenschappen worden gebaseerd. |
 
 >[!TIP]
 >
->Met Adobe Commerce B2B kunt u bedrijfsaccounts bijhouden die zijn gekoppeld aan individuele winkelrekeningen van klanten. Zie voor meer informatie over de functie voor bedrijfsaccounts de [Adobe Commerce B2B-gebruikershandleiding](../b2b/account-companies.md).
+>Met Adobe Commerce B2B kunt u bedrijfsaccounts bijhouden die zijn gekoppeld aan individuele winkelrekeningen van klanten. Voor meer informatie over de eigenschap van de bedrijfrekeningen, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](../b2b/account-companies.md).
 
 ## Aanvullende documentatie
 

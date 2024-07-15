@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Inventarisatie uitbreiden en herstructureren
 
-Naarmate uw bedrijf groeit en verandert, [!DNL Inventory Management] ondersteunt uw behoeften. U kunt met gemak uitbreiden naar een merchant met meerdere bronnen of omlaag reduceren naar een koopman met één bron.
+Naarmate uw bedrijf groeit en verandert, biedt [!DNL Inventory Management] ondersteuning voor uw behoeften. U kunt met gemak uitbreiden naar een merchant met meerdere bronnen of omlaag reduceren naar een koopman met één bron.
 
 ## Uitbreiden naar meerdere bronnen
 
 Single-source-handelaren kunnen nieuwe winkels, opslagplaatsen, verlader en nog veel meer toevoegen. Voor uitbreiding zijn slechts enkele toevoegingen en voorraadupdates nodig om uit te breiden naar multi-sourcing:
 
-1. Toevoegen [aangepaste bronnen](sources-add.md) voor elke nieuwe locatie.
+1. Voeg [ douanebronnen ](sources-add.md) voor elke nieuwe plaats toe.
 
-   U gebruikt alleen de standaardbron voor bundelproducten.
+   U gebruikt alleen de standaard-Source voor bundelproducten.
 
-1. Toevoegen [aangepaste voorraden](stocks-add.md) voor uw nieuwe bronnen.
+1. Voeg [ douanevoorraden ](stocks-add.md) toe zoals nodig voor uw nieuwe bronnen.
 
    U kunt bijvoorbeeld bestanden maken per website, land, landinstelling of andere methode. U kunt bronnen toewijzen aan uw aangepaste bestanden. U gebruikt alleen de standaardvoorraad voor bundelproducten.
 
-1. Bijwerken [brontoewijzingen en -hoeveelheden](quantities-manage.md) voor uw producten.
+1. Werk [ brontaken en hoeveelheden ](quantities-manage.md) voor uw producten bij.
 
-   U kunt ook de opdracht [Gereedschap Mengacties](bulk-assignment.md) en [Importeren en exporteren](inventory-import-export.md) om snel bronnen en productgegevens toe te voegen.
+   U kunt het [ Hulpmiddel van de Acties van de Massa ](bulk-assignment.md) en [ invoer-Uitvoer ](inventory-import-export.md) eigenschap ook gebruiken om bronnen en productgegevens snel toe te voegen.
 
 ## Herstructureren naar één bron
 
 Voor leveranciers met meerdere leveranciers die de onlineverkoop willen beperken tot één locatie voor verzending, wijzigt u de bronnen, voorraad en hoeveelheden die u wilt bijwerken:
 
-1. Uitschakelen [aangepaste bronnen](sources-disable.md).
+1. Maak [ douanebronnen ](sources-disable.md) onbruikbaar.
 
-1. Breng de productvoorraad over naar de standaardbron.
+1. Breng de productvoorraad over naar uw standaard Source.
 
-   Het gebruik van massaacties wordt aanbevolen. Zie [Overdracht van voorraad naar bron](inventory-transfer.md).
+   Het gebruik van massaacties wordt aanbevolen. Zie [ Overbrengend Overzicht aan Source ](inventory-transfer.md).
 
-1. Alle websites toewijzen aan de [Standaardvoorraad](stocks-manage.md).
+1. Wijs alle websites aan de [ StandaardVoorraad ](stocks-manage.md) toe.

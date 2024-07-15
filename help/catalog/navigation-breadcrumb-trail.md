@@ -16,7 +16,7 @@ A _broodkruimelspoor_ is een reeks verbindingen die de klant toont waar zij met 
 
 Het pad van de broodkruimel kan zo worden geconfigureerd dat het wordt weergegeven op inhoudspagina&#39;s en op cataloguspagina&#39;s. Het formaat en de positie van het broodkruimelspoor variëren door thema, maar het wordt typisch gevestigd enkel onder de kopbal. Standaard wordt het broodkruimelspoor weergegeven op CMS-pagina&#39;s.
 
-![Breadcrumb-trail weergegeven in de winkel](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![ Breadcrumb spoor dat in storefront ](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"} wordt getoond
 
 ## Algemene soorten broodkruimels
 
@@ -46,20 +46,20 @@ Voorbeeld: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Breedkruimels toevoegen/verwijderen uit CMS-pagina&#39;s
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
 
-   ![Broodkruimels tonen voor CMS-pagina&#39;s](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![ toon Broodkruimels voor Pagina&#39;s CMS ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Vouw de sectie _[!UICONTROL Default Pages]_uit.
 
-1. Hef de selectie van **[!UICONTROL Use system value]** selectievakje.
+1. Schakel het selectievakje **[!UICONTROL Use system value]** uit.
 
-1. Set **[!UICONTROL Show Breadcrumbs for CMS Pages]** tot `No` of `Yes`.
+1. Stel **[!UICONTROL Show Breadcrumbs for CMS Pages]** in op `No` of `Yes` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 >[!NOTE]
 >
->De bovenliggende categorie wordt niet weergegeven op het Breadcrumb-trail, op de pagina met onderliggende categorieën, als deze `Browsing Category`= `Deny` [categorietoestemming](category-permissions.md) instellingen.
+>De oudercategorie wordt niet getoond op het Trail van de Breadcrumb, op de pagina van de kindcategorie, wanneer het `Browsing Category`= `Deny` [ categorietoestemming ](category-permissions.md) montages heeft.

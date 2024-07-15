@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] van Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{config}}
 
-Zie voor meer informatie over het wijzigen van deze instellingen [Verzendinstellingen](../../stores-purchase/shipping-settings.md) in de _Handleiding voor winkels en aanschaf_.
+Voor meer informatie over het veranderen van deze montages, zie [ Verzendmontages ](../../stores-purchase/shipping-settings.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
 ## [!UICONTROL Origin]
 
-![Oorsprong](./assets/shipping-settings-origin.png)<!-- zoom -->
+![ Oorsprong ](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Country] | Website | Het land van oorsprong. |
 | [!UICONTROL Region/State] | Website | Het gebied of de staat van oorsprong. |
@@ -33,9 +33,9 @@ Zie voor meer informatie over het wijzigen van deze instellingen [Verzendinstell
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![Parameters voor verzendbeleid](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![ Verzendbeleidsparameters ](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Website | Hiermee wordt bepaald of je verzendbeleid wordt weergegeven tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Winkelweergave | Bevat je verzendbeleid als tekst. |

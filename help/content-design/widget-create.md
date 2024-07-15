@@ -4,7 +4,7 @@ description: Leer hoe u widgets maakt en beheert die automatisch inhoud in uw wi
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -13,80 +13,80 @@ ht-degree: 0%
 
 Widgets zijn herbruikbare componenten. U kunt eenvoudig widgets maken en bestaande widgets wijzigen om inhoud in uw winkel automatisch bij te werken. U kunt ook widgets verwijderen die niet meer in gebruik zijn.
 
-![Widgets](./assets/widgets.png){width="700" zoomable="yes"}
+![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Een widget maken
 
-Het proces voor het maken van een widget is vrijwel hetzelfde voor elke widget [widgettype](widgets.md#widget-types). U kunt het eerste deel van de instructies volgen en vervolgens het laatste deel voor het specifieke type widget voltooien.
+Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ widgettype ](widgets.md#widget-types). U kunt het eerste deel van de instructies volgen en vervolgens het laatste deel voor het specifieke type widget voltooien.
 
 ### Stap 1: Kies het type
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Klik op **[!UICONTROL Add Widget]**.
 
-1. In de _[!UICONTROL Settings]_sectie:
+1. In de sectie _[!UICONTROL Settings]_:
 
-   - Set **[!UICONTROL Type]** op het widgettype dat u wilt maken.
+   - Stel **[!UICONTROL Type]** in op het widgettype dat u wilt maken.
 
-   - Controleer of de **[!UICONTROL Design Theme]** wordt ingesteld op het huidige thema.
+   - Controleer of **[!UICONTROL Design Theme]** is ingesteld op het huidige thema.
 
-     ![Widget-instellingen](./assets/widget-settings.png){width="600" zoomable="yes"}
+     ![ montages van Widget ](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Continue]**.
 
 ### Stap 2: Eigenschappen en lay-out van storefront opgeven
 
-1. In de _[!UICONTROL Storefront Properties]_sectie:
+1. In de sectie _[!UICONTROL Storefront Properties]_:
 
-   - Voor **[!UICONTROL Widget Title]**, voert u een beschrijvende titel in voor de widget.
+   - Voer bij **[!UICONTROL Widget Title]** een beschrijvende titel in voor de widget.
 
      Deze titel is alleen zichtbaar vanuit de beheerder.
 
-   - Voor **[!UICONTROL Assign to Store Views]** selecteert u de winkelweergaven waarin u de widget zichtbaar wilt maken.
+   - Selecteer voor **[!UICONTROL Assign to Store Views]** de winkelweergaven waarin u de widget zichtbaar wilt maken.
 
-     U kunt een specifieke winkelweergave selecteren, of `All Store Views`. Als u meerdere weergaven wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+     U kunt een specifieke opslagweergave selecteren, of `All Store Views` . Als u meerdere weergaven wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-   - (Optioneel) Voor **[!UICONTROL Sort Order]** Voer een getal in om de volgorde te bepalen waarin dit item wordt weergegeven met andere items op hetzelfde deel van de pagina. (`0` = eerst, `1` = seconde, `3` = derde, enzovoort.)
+   - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-     ![Eigenschappen van Storefront](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+     ![ eigenschappen Storefront ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. In de _[!UICONTROL Layout Updates]_sectie, klikken **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
 
-1. Set **[!UICONTROL Display On]** op het paginatype waar het moet verschijnen.
+1. Stel **[!UICONTROL Display On]** in op het paginatype waar het moet worden weergegeven.
 
-1. In de **[!UICONTROL Container]** kiest u het gebied van de paginalay-out waar u de pagina wilt plaatsen.
+1. Kies in de lijst **[!UICONTROL Container]** het gebied van de paginalay-out waar u de pagina wilt plaatsen.
 
-   ![Layout-updates](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![ de updates van de Lay-out ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
-1. Als de widget een koppeling is, stelt u **[!UICONTROL Template]** op een van de volgende wijzen:
+1. Als de widget een koppeling is, stelt u **[!UICONTROL Template]** in op een van de volgende opties:
 
-   - `Block Template` - Hiermee wordt de inhoud opgemaakt, zodat deze als zelfstandige eenheid op de pagina kan worden geplaatst.
-   - `Inline Template` - Maakt de inhoud op, zodat deze in andere inhoud kan worden geplaatst. Bijvoorbeeld een koppeling die zich in een alinea met tekst bevindt.
+   - `Block Template` - Maakt de inhoud op, zodat deze als zelfstandige eenheid op de pagina kan worden geplaatst.
+   - `Inline Template` - Maakt de inhoud zodanig op dat deze binnen andere inhoud kan worden geplaatst. Bijvoorbeeld een koppeling die zich in een alinea met tekst bevindt.
 
 ### Stap 3: Voltooi de widgetopties
 
 De opties voor elk widgettype variëren enigszins, maar het proces is in wezen hetzelfde. In het volgende voorbeeld wordt de productlijst voor een specifieke categorie weergegeven, met pagineringsbesturingselementen.
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Widget Options]**.
+1. Kies **[!UICONTROL Widget Options]** in het linkerdeelvenster.
 
 1. Klik op **[!UICONTROL Select Block]**.
 
-1. Voer een **[!UICONTROL Title]** boven de lijst weergeven, zoals `Featured Products`.
+1. Voer een **[!UICONTROL Title]** in die boven de lijst wordt weergegeven, bijvoorbeeld `Featured Products` .
 
-1. Voor pagineringsbesturingselementen stelt u **[!UICONTROL Display Page Control]** tot `Yes`  en voer de volgende handelingen uit:
+1. Stel voor pagineringsbesturingselementen **[!UICONTROL Display Page Control]** in op `Yes` en voer de volgende handelingen uit:
 
-   - Voer de **[!UICONTROL Number of Products per Page]**.
+   - Voer de **[!UICONTROL Number of Products per Page]** in.
 
-   - Voer het totaal in **[!UICONTROL Number of Products to Display]**.
+   - Voer het totaal **[!UICONTROL Number of Products to Display]** in.
 
-   - Set **[!UICONTROL Condition]** op de categorie producten die moet worden vermeld.
+   - Stel **[!UICONTROL Condition]** in op de productcategorie die u wilt weergeven.
 
-     Het proces is hetzelfde als het instellen van een voorwaarde voor een [prijsregel](../merchandising-promotions/price-rules-catalog.md).
+     Het proces is het zelfde als het plaatsen van een voorwaarde voor a [ prijsregel ](../merchandising-promotions/price-rules-catalog.md).
 
 ### Stap 4: Het resultaat opslaan en controleren
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 1. Volg desgevraagd de instructies boven aan de werkruimte om de cache zo nodig bij te werken.
 
@@ -102,7 +102,7 @@ Bekijk deze video voor meer informatie over het maken van widgets:
 
 ## Een widget bewerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Zoek de widget met behulp van de filters boven het raster en klik op de naam van de widget.
 
@@ -110,16 +110,16 @@ Bekijk deze video voor meer informatie over het maken van widgets:
 
    Controleer de stappen voor het maken van een widget voor informatie over de widgetopties.
 
-1. Klik op de knop **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
 ## Een widget verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Zoek de widgets met behulp van de filters boven het raster en schakel vervolgens het selectievakje in van de widgets die u wilt verwijderen.
 
-1. In de linkerbovenhoek van de lijst stelt u **[!UICONTROL Actions]** tot `Delete`.
+1. Stel **[!UICONTROL Actions]** in op `Delete` in de linkerbovenhoek van de lijst.
 
-1. Klik op **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]** als de bewerking is voltooid.
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.

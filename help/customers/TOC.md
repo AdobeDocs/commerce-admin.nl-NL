@@ -17,8 +17,8 @@ ht-degree: 1%
 + Hulpprogramma&#39;s voor klantenbeheer {#customers-menu}
    + [Lijst met klanten](customers-all.md)
    + [Nu online](now-online.md)
-   + [Personalisatie op schaal](personalize-scale.md)
-+ Klantenrekeningen {#customer-accounts}
+   + [Personalization op schaal](personalize-scale.md)
++ Klantenaccounts {#customer-accounts}
    + [Accountbereik](customer-account-scope.md)
    + Accountopties {#configure}
       + [Aanmeldingspagina](login-landing-page.md)
@@ -37,7 +37,7 @@ ht-degree: 1%
       + [Eigenschappen van kenmerk](attribute-properties.md)
       + [Adreskenmerken](address-attributes.md)
       + [Adressjablonen](address-templates.md)
-   + Winkelkrediet {#store-credit}
+   + Creditering opslaan {#store-credit}
       + [Kredietworkflow opslaan](store-credit.md)
       + [Winkelkrediet configureren](credit-configure.md)
       + [Winkelkrediet toepassen](store-credit-using.md)
@@ -55,5 +55,5 @@ ht-degree: 1%
    + [Klantsegmenten maken en verwijderen](customer-segment-create.md)
    + [Klantsegmenten in prijsregels](customer-segment-price-rule.md)
    + [Rapport voor klantensegment](customer-segment-reports.md)
-+ [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

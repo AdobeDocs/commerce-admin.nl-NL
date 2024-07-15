@@ -12,25 +12,25 @@ ht-degree: 1%
 
 # Een Adobe Stock-voorvertoning van afbeeldingen opslaan
 
-Een voorvertoning van een afbeelding is een versie van een Adobe Stock-element met watermerk. Voorvertoningen van afbeeldingen zijn gratis en zijn een goede manier om met verschillende afbeeldingen te experimenteren voordat u besluit [een licentie aanschaffen][stock-license] voor specifieke afbeeldingen en deze gebruiken in uw productiewinkels.
+Een voorvertoning van een afbeelding is een versie van een Adobe Stock-element met watermerk. De voorproeven van het beeld zijn vrij en zijn een goede manier om met verschillende beelden te experimenteren alvorens u besluit [ een vergunning ][stock-license] voor specifieke beelden te kopen en hen op uw productieopslag te gebruiken.
 
-Als u gereed bent om een licentie voor een afbeelding te verkrijgen, wordt het nieuwe [[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie met Adobe Stock, zodat u de afbeelding gemakkelijk rechtstreeks vanaf de galeriepagina van een licentie kunt voorzien.
+Als u een licentie voor een afbeelding wilt maken, biedt de nieuwe [[!DNL Media Gallery]](media-gallery.md) een rechtstreekse integratie met Adobe Stock, waardoor u de afbeelding gemakkelijk rechtstreeks vanaf de galeriepagina kunt licentiëren.
 
 ## Vereisten
 
-Voor deze functie is het [Adobe Stock-integratie][adobe-stock-integration] module en configuratie.
+Deze eigenschap vereist de ][adobe-stock-integration] module en de configuratie van de Integratie van 0} Adobe Stock.[
 
 ## Een voorvertoningsafbeelding opslaan
 
-1. [Het Adobe Stock-zoekraster openen][access-search].
+1. [ heb toegang tot het het onderzoeksnet van Adobe Stock ][access-search].
 
-1. Naar [de details van de afbeelding weergeven][view-details], klikt u op een afbeelding in het zoekraster.
+1. Om [ de beelddetails ][view-details] te bekijken, klik een beeld in het onderzoeksnet.
 
 1. Klik op **[!UICONTROL Save Preview]**.
 
-   Met deze handeling wordt u gevraagd een bestandsnaam op te geven waarmee de afbeelding in de [media-opslag][media-storage]. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
+   Deze actie toont een herinnering voor u om een dossier te specificeren - naam die wordt gebruikt om het beeld aan de [ media opslag ][media-storage] te bewaren. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 
-   ![Adobe Stock-voorbeeldafbeelding opslaan](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
+   ![ sparen Adobe Stock voorproefbeeld ](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Confirm]**.
 

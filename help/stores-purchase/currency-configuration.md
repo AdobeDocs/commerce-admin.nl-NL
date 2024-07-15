@@ -12,150 +12,150 @@ ht-degree: 0%
 
 # Valutaconfiguratie
 
-Voordat u afzonderlijke valutakoersen gaat instellen, moet u eerst de reikwijdte van het [basisvaluta](../configuration-reference/general/currency-setup.md). De waarde is standaard ingesteld op globaal, waarbij de instelling voor de basisvaluta wordt toegepast op de gehele waarde [opslaghiërarchie](../getting-started/websites-stores-views.md). Als u een Adobe Commerce- of Magento Open Source-installatie met meerdere sites hebt, kunt u meerdere basisvaluta&#39;s beheren door het bereik in te stellen op websiteniveau.
+Alvorens individuele munttarieven op te zetten, moet u het werkingsgebied van de [ basismunt ](../configuration-reference/general/currency-setup.md) eerst plaatsen. Het wordt geplaatst aan globaal door gebrek, dat de basismunt die op de volledige [ opslaghiërarchie ](../getting-started/websites-stores-views.md) plaatst toepast. Als u een Adobe Commerce- of Magento Open Source-installatie met meerdere sites hebt, kunt u meerdere basisvaluta&#39;s beheren door het bereik in te stellen op websiteniveau.
 
-U geeft ook de valuta&#39;s op die u accepteert en de valuta die u wilt gebruiken voor de weergave van [prijzen](../catalog/catalog-price-scope.md) in uw winkel. In het volgende diagram wordt het bereik van de basisvaluta ingesteld op websiteniveau, zodat elke website een andere basisvaluta kan hebben.
+U specificeert ook de valuta die u goedkeurt en welke munt u voor de vertoning van [ prijzen ](../catalog/catalog-price-scope.md) in uw opslag wilt gebruiken. In het volgende diagram wordt het bereik van de basisvaluta ingesteld op websiteniveau, zodat elke website een andere basisvaluta kan hebben.
 
-![Grafiek valutabereik](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![ diagram van het werkingsgebied van de Valuta ](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
 
 ## Stap 1: Kies de geaccepteerde valuta&#39;s
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In de linkerbovenhoek, plaats **[!UICONTROL Scope]** op de archiefmening waar de configuratie van toepassing is.
+1. Stel in de linkerbovenhoek **[!UICONTROL Scope]** in op de winkelweergave waarop de configuratie van toepassing is.
 
-1. In het linkerdeelvenster onder _Algemeen_, kiest u **[!UICONTROL Currency Setup]**.
+1. In het linkerpaneel onder _Algemene_, kies **[!UICONTROL Currency Setup]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Currency Options]** en stelt u de volgende opties in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Currency Options]** sectie uit en plaats de volgende opties:
 
    - **[!UICONTROL Base Currency]** — Instellen op de primaire valuta die u gebruikt voor online transacties.
 
    - **[!UICONTROL Default Display Currency]** — Instellen op de valuta die u gebruikt om de prijsstelling in de winkelweergave weer te geven.
 
-   - **[!UICONTROL Allowed Currencies]** — Selecteer alle valuta&#39;s die je als betaling accepteert in de winkelweergave. Selecteer ook de primaire valuta.
+   - **[!UICONTROL Allowed Currencies]** — Selecteer alle valuta&#39;s die u als betaling accepteert in de winkelweergave. Selecteer ook de primaire valuta.
 
      Houd voor meerdere valuta&#39;s de Ctrl-toets (PC) of de Command-toets (Mac) ingedrukt en klik op elke optie.
 
-   ![Algemene configuratie - valutaopties](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - muntopties ](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Valuta-opties](../configuration-reference/general/currency-setup.md) in de _Referentiehandleiding voor configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Opties van de Valuta ](../configuration-reference/general/currency-setup.md) in de _Gids van de Verwijzing van de Configuratie_.
 
-1. Klik wanneer u wordt gevraagd de cache te vernieuwen op _Sluiten_ ( ![Vak sluiten](../assets/icon-close-x.png) ) in de rechterbovenhoek van het systeembericht.
+1. Wanneer ertoe aangezet om het geheime voorgeheugen te verfrissen, klik _dicht_ ( ![ dicht doos ](../assets/icon-close-x.png)) in de hoger-juiste hoek van het systeembericht.
 
-   U kunt [cache vernieuwen](../systems/cache-management.md) later.
+   U kunt [ het geheime voorgeheugen ](../systems/cache-management.md) later verfrissen.
 
 1. Bepaal de reikwijdte van de basisvaluta:
 
-   - Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+   - Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-   - Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Price]** sectie. (Deze sectie wordt alleen weergegeven als het bereik is ingesteld als **[!UICONTROL Store View:]** _Standaardconfiguratie_.)
+   - De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Price]** sectie. (Deze sectie verschijnt slechts als het werkingsgebied als **[!UICONTROL Store View:]** _Standaard config_ wordt geplaatst.)
 
-   - Set **[!UICONTROL Catalog Price Scope]** hetzij `Global` of `Website`.
+   - Stel **[!UICONTROL Catalog Price Scope]** in op `Global` of `Website` .
 
-   ![Catalogusconfiguratie - prijsopties](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - prijsopties ](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 ## Stap 2: De importverbinding configureren
 
 1. Blader naar de bovenkant van de pagina.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL General]** en kiest u **[!UICONTROL Currency Setup]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL Currency Setup]** .
 
 1. Configureer uw verbinding met de valutaservice:
 
-   Er zijn drie serviceopties: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_, en _[!UICONTROL Currency Converter API]_
+   Er zijn drie serviceopties: _[!UICONTROL Fixer.io (legacy)]_,_[!UICONTROL Fixer Api (APILayer)]_ en _[!UICONTROL Currency Converter API]_
 
    >[!IMPORTANT]
    >
-   >Vanaf de release van 2.4.6 kunt u [[!DNL Fixer.io]](https://fixer.io/) service is vervangen door de [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) service. Het wordt ten zeerste aanbevolen om een APILayer-account te gebruiken in plaats van een vervangen account [!DNL Fixer.io] account.
+   >Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] ](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) ](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
 
-   - _Als u verbinding wilt maken met de [fixer.io-service](https://fixer.io/):_
+   - _om met de {](https://fixer.io/) dienst 1} te verbinden fixer.io:_[
 
-      - Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Fixer.io]** sectie.
+      - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixer.io]** sectie uit.
 
-      - Voer uw fixer.io in **[!UICONTROL API key]**.
+      - Voer het bestand fixer.io **[!UICONTROL API key]** in.
 
-      - Voor **[!UICONTROL Connection Timeout in Seconds]**, ga het aantal seconden van inactiviteit in om toe te staan alvorens de verbindingstijden uit.
+      - Voer bij **[!UICONTROL Connection Timeout in Seconds]** het aantal seconden inactiviteit in dat is toegestaan voordat de verbinding wordt verbroken.
 
-     ![Algemene configuratie - valutaselectie - Fixer.io-opties](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
+     ![ Algemene configuratie - muntopstelling - opties Fixer.io ](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - _Als u verbinding wilt maken met de [[!DNL Fixer Api (APILayer)] service](https://apilayer.com/):_
+   - _om met de [[!DNL Fixer Api (APILayer)]  dienst ](https://apilayer.com/) te verbinden:_
 
-      - Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Fixer Api (APILayer)]** sectie.
+      - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixer Api (APILayer)]** sectie uit.
 
-      - Voer uw [!DNL APILayer] **[!UICONTROL API key]**.
+      - Voer uw [!DNL APILayer] **[!UICONTROL API key]** in.
 
-      - Voor **[!UICONTROL Connection Timeout in Seconds]**, ga het aantal seconden van inactiviteit in om toe te staan alvorens de verbindingstijden uit.
+      - Voer bij **[!UICONTROL Connection Timeout in Seconds]** het aantal seconden inactiviteit in dat is toegestaan voordat de verbinding wordt verbroken.
 
-     ![Algemene configuratie - valutaselectie - opties voor Fixer API (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
+     ![ Algemene configuratie - muntopstelling - de opties van Fixer API (APILayer) ](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - _Als u verbinding wilt maken met de [[!DNL Currency Convertor API] service](https://free.currencyconverterapi.com/):_
+   - _om met de [[!DNL Currency Convertor API]  dienst ](https://free.currencyconverterapi.com/) te verbinden:_
 
-      - Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Currency Convertor API]** sectie.
+      - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Currency Convertor API]** sectie uit.
 
-      - Voer uw valutaconvertor in **[!UICONTROL API key]**.
+      - Voer de valutaconvertor in **[!UICONTROL API key]** .
 
-      - Voor **[!UICONTROL Connection Timeout in Seconds]**, ga het aantal seconden van inactiviteit in om toe te staan alvorens de verbindingstijden uit.
+      - Voer bij **[!UICONTROL Connection Timeout in Seconds]** het aantal seconden inactiviteit in dat is toegestaan voordat de verbinding wordt verbroken.
 
-     ![Algemene configuratie - valutaselectie - API-opties voor valutacoconverter](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
+     ![ Algemene configuratie - muntopstelling - de opties van API van de Convertor van de Valuta ](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## Stap 3: Configureer de geplande importinstellingen
 
-1. Doorgaan met Valuta-instelling, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Scheduled Import Settings]** sectie.
+1. Voortdurend met de Opstelling van de Valuta, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Scheduled Import Settings]** sectie.
 
-   ![Algemene configuratie - voor geplande importinstellingen voor valuta](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - valuta geplande de invoermontages ](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 
-1. Als u de valutakoersen automatisch wilt bijwerken, stelt u **[!UICONTROL Enabled]** tot `Yes`.
+1. Als u de valutakoersen automatisch wilt bijwerken, stelt u **[!UICONTROL Enabled]** in op `Yes` .
 
 1. Stel de update-opties in:
 
-   - **[!UICONTROL Service]** — Instellen op de tariefprovider. De standaardwaarde is `Fixer.io (legacy)`.
+   - **[!UICONTROL Service]** — Instellen op de tariefprovider. De standaardwaarde is `Fixer.io (legacy)` .
 
    - **[!UICONTROL Start Time]** — Stel dit in op het uur, de minuut en de seconde waarop de tarieven volgens het schema worden bijgewerkt.
 
-   - **[!UICONTROL Frequency]** — Stel een van de volgende opties in om te bepalen hoe vaak de tarieven worden bijgewerkt:
+   - **[!UICONTROL Frequency]** — Om te bepalen hoe vaak de tarieven worden bijgewerkt, plaats aan één van het volgende:
 
       - `Daily`
       - `Weekly`
       - `Monthly`
 
-   - **[!UICONTROL Error Email Recipient]** — Voer het e-mailadres in van de persoon die een e-mailmelding moet ontvangen als er tijdens het importeren een fout optreedt.
+   - **[!UICONTROL Error Email Recipient]** — Voer het e-mailadres in van de persoon die de e-mailmelding moet ontvangen als zich tijdens het importeren een fout voordoet.
 
      Als u meerdere e-mailadressen wilt invoeren, scheidt u deze met een komma.
 
-   - **[!UICONTROL Error Email Sender]** — Instellen op [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) die wordt weergegeven als de afzender van de foutmelding.
+   - **[!UICONTROL Error Email Sender]** — Reeks aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat als afzender van het foutenmelding verschijnt.
 
    - **[!UICONTROL Error Email Template]** — Instellen op de e-mailsjabloon die wordt gebruikt voor de foutmelding.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. Klik op de knop **[!UICONTROL Cache Management]** de ongeldige cache koppelen en vernieuwen.
+1. Wanneer u wordt gevraagd de cache bij te werken, klikt u op de koppeling **[!UICONTROL Cache Management]** en vernieuwt u de ongeldige cache.
 
-   ![Systeembericht - de ongeldige cache vernieuwen](./assets/msg-cache-management.png){width="600" zoomable="yes"}
+   ![ bericht van het Systeem - vernieuw het ongeldige geheime voorgeheugen ](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 ## Stap 4: De wisselkoersen bijwerken
 
-De wisselkoersen moeten met de huidige waarden worden bijgewerkt voordat ze in werking treden. [De tarieven bijwerken](currency-update.md) handmatig of automatisch te importeren.
+De wisselkoersen moeten met de huidige waarden worden bijgewerkt voordat ze in werking treden. [ werk de tarieven ](currency-update.md) manueel bij of om de tarieven automatisch in te voeren.
 
 ## Stap 5: Valutasymbolen aanpassen (optioneel)
 
 Met behulp van Valutasymbolen kunt u het symbool aanpassen dat is gekoppeld aan elke valuta die als betaling in uw winkel wordt geaccepteerd.
 
-![Valutasymbolen](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
+![ de symbolen van de Valuta ](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
 
-   Elke valuta die voor je winkel is ingeschakeld, wordt weergegeven in de _[!UICONTROL Currency]_lijst.
+   Elke valuta die voor je winkel is ingeschakeld, wordt in de lijst _[!UICONTROL Currency]_weergegeven.
 
 1. Wijzig desgewenst de instellingen in de lijst:
 
-   - Voer een aangepast symbool in voor elke valuta die u wilt gebruiken, of selecteer de **[!UICONTROL Use Standard]** selectievakje voor elke valuta.
+   - Voer een aangepast symbool in voor elke valuta die u wilt gebruiken of selecteer het selectievakje **[!UICONTROL Use Standard]** voor elke valuta.
 
-   - Als u het standaardsymbool wilt overschrijven, schakelt u het _[!UICONTROL Use Standard]_Schakel het selectievakje in en voer het symbool in dat u wilt gebruiken.
+   - Als u het standaardsymbool wilt overschrijven, schakelt u het selectievakje _[!UICONTROL Use Standard]_uit en voert u het symbool in dat u wilt gebruiken.
 
    >[!NOTE]
    >
    >Het is niet mogelijk de uitlijning van het valutasymbool van links naar rechts te wijzigen.
 
-1. Klik op **[!UICONTROL Save Currency Symbols]**.
+1. Klik op **[!UICONTROL Save Currency Symbols]** als de bewerking is voltooid.
 
-1. Klik op de knop **[!UICONTROL Cache Management]** een koppeling maken en een ongeldige cache vernieuwen.
+1. Wanneer u wordt gevraagd de cache bij te werken, klikt u op de koppeling **[!UICONTROL Cache Management]** en vernieuwt u eventuele ongeldige cache.

@@ -13,40 +13,40 @@ ht-degree: 0%
 
 Plan uw wijzigingen in het themaontwerp vooraf, zodat deze van kracht worden volgens uw bedrijfscycli en gebeurtenissen. U kunt geplande ontwerpwijzigingen gebruiken voor seizoenswijzigingen, promoties of alleen om variatie toe te voegen.
 
-![Geplande ontwerpwijzigingen](./assets/design-schedule.png){width="700" zoomable="yes"}
+![ Geplande ontwerpveranderingen ](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## Een geplande ontwerpwijziging toevoegen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Klik op **[!UICONTROL Add Design Change]**.
 
-   ![Nieuwe instellingen voor wijzigingen in winkelontwerp](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![ Nieuwe montages van de Verandering van het Ontwerp van de Opslag ](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Store]** in de winkelweergave waar u de wijzigingen wilt toepassen.
+1. Stel **[!UICONTROL Store]** in op de winkelweergave waar u de wijzigingen wilt toepassen.
 
-1. Set **[!UICONTROL Custom Design]** aan het te gebruiken thema, of variatie van een thema.
+1. Stel **[!UICONTROL Custom Design]** in op het thema of de variatie van een te gebruiken thema.
 
-1. Voor de **[!UICONTROL Date From]** en **[!UICONTROL Date To]** klikt u op de knop _Kalender_ (![Kalenderpictogram](../assets/icon-calendar.png)) gebruiken om de begin- en eindwaarden te kiezen voor de periode waarin de wijziging van kracht is.
+1. Voor **[!UICONTROL Date From]** en **[!UICONTROL Date To]**, klik het _pictogram van de Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de begin en eindwaarden voor de periode te kiezen wanneer de verandering in feite is.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Geplande ontwerpwijziging bewerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Selecteer het item dat u wilt bewerken.
 
 1. Breng de gewenste wijzigingen aan.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Geplande ontwerpwijziging verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Selecteer het item dat u wilt verwijderen.
 
-1. Klik op de knopbalk boven aan de pagina op **[!UICONTROL Delete]**.
+1. Klik op **[!UICONTROL Delete]** in de knopbalk boven aan de pagina.
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.

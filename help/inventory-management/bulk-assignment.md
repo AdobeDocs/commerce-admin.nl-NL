@@ -5,58 +5,58 @@ exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
 # Bulkbrontoewijzing en -toewijzing
 
-Gebruik de _Bronnen toewijzen_ om een of meer bronnen aan uw producten toe te voegen. Het hulpmiddel helpt wanneer het creëren van en het toewijzen van douanebronnen aan uw StandaardVoorraad of douanevoorraden en het voorbereiden van nieuwe plaatsen en inventaris.
+Gebruik _toewijzen Bronnen_ hulpmiddel om één of meerdere bronnen aan uw producten toe te voegen. Het hulpmiddel helpt wanneer het creëren van en het toewijzen van douanebronnen aan uw StandaardVoorraad of douanevoorraden en het voorbereiden van nieuwe plaatsen en inventaris.
 
-Nadat u nieuwe aangepaste bronnen hebt toegevoegd, kunt u [inventarishoeveelheden per product](quantities-assign-per-product.md) of voor meerdere producten via de Admin of via het [importfunctie](inventory-import-export.md).
+Na het toevoegen van nieuwe douanebronnen, kunt u [ inventarishoeveelheden per product ](quantities-assign-per-product.md) of voor veelvoudige producten door Admin toevoegen of de [ invoereigenschap ](inventory-import-export.md) gebruiken.
 
-![voorraadbronnen toevoegen voor geselecteerde producten](assets/inventory-bulk-assign-sources.gif)
+![ voeg inventarisbronnen voor geselecteerde producten ](assets/inventory-bulk-assign-sources.gif) toe
 
 ## Bronnen en hoeveelheden toewijzen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Selecteer de producten waarvoor u de bronnen wilt wijzigen.
 
    Blader of zoek naar de producten en selecteer de selectievakjes.
 
-1. Klik op de knop **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Assign Inventory Source]**.
+1. Klik op het menu **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Assign Inventory Source]** .
 
-1. Klikken **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
+1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
 1. Voor alle bronnen die u aan de producten wilt toevoegen, selecteer checkboxes.
 
 1. Klik op **[!UICONTROL Assign Sources]**.
 
-   ![Producten selecteren om bronnen toe te voegen](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
+   ![ Uitgezochte producten om bronnen toe te voegen ](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
-De bronnen worden toegevoegd aan de producten met een inventarishoeveelheid van 0. U kunt [voorraadhoeveelheden](quantities-assign-per-product.md) per bron.
+De bronnen worden toegevoegd aan de producten met een inventarishoeveelheid van 0. U kunt [ inventarishoeveelheden ](quantities-assign-per-product.md) per bron toevoegen.
 
 ## Toewijzing van bronnen en hoeveelheden ongedaan maken
 
-Wanneer u de toewijzing van een bron uit een product ongedaan maakt, geeft u aan dat het product niet langer op die locatie is opgeslagen. Dit proces ontruimt volledig alle inventarisgegevens voor bron momenteel die aan het product wordt toegewezen. Als u de bestaande voorraad naar een nieuwe locatie wilt verplaatsen, kunt u de opdracht _Overdrachtsinventarisatie_ -optie.
+Wanneer u de toewijzing van een bron uit een product ongedaan maakt, geeft u aan dat het product niet langer op die locatie is opgeslagen. Dit proces ontruimt volledig alle inventarisgegevens voor bron momenteel die aan het product wordt toegewezen. Als u de bestaande inventaris naar een nieuwe plaats wilt verplaatsen, denk na gebruikend de _inventarisoptie van de Overdracht_.
 
 {{$include /help/_includes/unassign-source.md}}
 
 Het wordt ten zeerste aanbevolen alle bestellingen en verzendingen voor deze producten in te vullen voordat de bron wordt verwijderd.
 
-![Toewijzing van bronnen voor geselecteerde producten ongedaan maken](assets/inventory-bulk-unassign-sources.gif)
+![ wijst bronnen voor geselecteerde producten ](assets/inventory-bulk-unassign-sources.gif) unassign
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Selecteer de producten waarvoor u bronnen wilt wijzigen.
 
    Blader of zoek naar de producten en selecteer de selectievakjes.
 
-1. Klik op de knop **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Unassign Inventory Source]**.
+1. Klik op het menu **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Unassign Inventory Source]** .
 
-1. Klikken **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
+1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
 1. Selecteer de bron die u uit de producten wilt verwijderen.
 
@@ -64,4 +64,4 @@ Het wordt ten zeerste aanbevolen alle bestellingen en verzendingen voor deze pro
 
 1. Klik op **[!UICONTROL Unassign Sources]**.
 
-   ![Bronnen verwijderen uit geselecteerde producten](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+   ![ verwijdert bronnen uit geselecteerde producten ](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}

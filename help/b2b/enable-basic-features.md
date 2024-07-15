@@ -6,14 +6,14 @@ feature: B2B, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1608'
 ht-degree: 0%
 
 ---
 
 # B2B-functies inschakelen
 
-Standaard zijn alle B2B-functies in eerste instantie uitgeschakeld. Een opslagbeheerder kan de B2B-functies naar behoefte voor de winkels van de Handel in- of uitschakelen. Voor een volledige lijst van B2B configuratiemontages, zie [B2B-configuratiereferentie Functies](../configuration-reference/general/b2b-features.md).
+Standaard zijn alle B2B-functies in eerste instantie uitgeschakeld. Een opslagbeheerder kan de B2B-functies naar wens in- of uitschakelen voor Commerce-winkels. Voor een volledige lijst van B2B configuratiemontages, zie [ B2B de configuratieverwijzing van Eigenschappen ](../configuration-reference/general/b2b-features.md).
 
 Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra B2B-functies ingeschakeld:
 
@@ -33,98 +33,98 @@ Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra
 
   Hiermee bepaalt u de keuze van de betalings- en verzendopties die beschikbaar zijn voor B2B-kopers in de winkel.
 
-De configuratie-instellingen voor deze functies zijn alleen zichtbaar wanneer [!DNL Enable Company] is ingesteld op `Yes`.
+De configuratie-instellingen voor deze functies zijn alleen zichtbaar wanneer [!DNL Enable Company] is ingesteld op `Yes` .
 
-B2B [!DNL Quick Order] en [!DNL Requisition List] functies kunnen onafhankelijk van elkaar worden in- en uitgeschakeld.
+B2B [!DNL Quick Order] - en [!DNL Requisition List] -functies kunnen onafhankelijk van elkaar worden in- en uitgeschakeld.
 
 ## B2B-functies configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   Als u een installatie met meerdere sites hebt, stelt u de **[!UICONTROL Store View]** in de linkerbovenhoek van de website waarop de configuratie van toepassing is.
+   Als u een installatie met meerdere sites hebt, stelt u het besturingselement **[!UICONTROL Store View]** in de linkerbovenhoek in op de website waarop de configuratie van toepassing is.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL B2B Features]**:
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL B2B Features]**:
 
-   ![B2B-configuratie - algemeen](./assets/b2b-features.png){width="600"}
+   ![ B2B configuratie - algemeen ](./assets/b2b-features.png){width="600"}
 
-   - Klanten toestaan hun eigen bedrijfsaccounts te beheren en ondersteuning voor extra B2B-functies mogelijk te maken door **[!UICONTROL Enable Company]**  tot `Yes`.
+   - Klanten toestaan hun eigen bedrijfsaccounts te beheren en ondersteuning voor extra B2B-functies mogelijk te maken door **[!UICONTROL Enable Company]** in te stellen op `Yes` .
 
      Wanneer u bedrijfssteun toelaat, worden de Gedeelde Catalogus, de Citaat B2B, de Methoden van de Betaling B2B, en de methodes van de Verzending B2B automatisch toegelaten.
 
-   - Als u klanten en gasten wilt toestaan snel bestellingen te plaatsen op basis van SKU of productnaam, stelt u **[!UICONTROL Enable Quick Order]** tot `Yes`.
+   - Stel **[!UICONTROL Enable Quick Order]** in op `Yes` om klanten en gasten in staat te stellen snel bestellingen te plaatsen op basis van SKU of productnaam.
 
-   - Als u klanten wilt toestaan om aanvraaglijsten te maken en te beheren vanaf hun accountdashboard, stelt u **[!UICONTROL Enable Requisition List]** tot `Yes`.
+   - Als u klanten wilt toestaan om aanvraaglijsten te maken en te beheren vanaf hun accountdashboard, stelt u **[!UICONTROL Enable Requisition List]** in op `Yes` .
 
-     U kunt [vorm het maximumaantal lijsten](configure-requisition-lists.md) een klant kan over een account beschikken.
+     U kunt [ ook vormen het maximumaantal lijsten ](configure-requisition-lists.md) een klant voor hun rekening kan hebben.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Standaard B2B-betalings- en verzendmethoden configureren
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Payment Methods]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Payment Methods]** sectie uit.
 
-1. Om de betalingsmethoden voor wanbetaling voor B2B-orders vast te stellen, stelt u **[!UICONTROL Applicable Payment Methods]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Applicable Payment Methods]** in op een van de volgende opties om de standaardbetalingsmethoden voor B2B-orders in te stellen:
 
    - `All Payment Methods`
 
    - `Selected Payment Methods`
 
-     Selecteer voor de specifieke optie de optie **[!UICONTROL Payment Methods]** die u aan uw klanten beschikbaar wilt maken door de sleutel van CTRL (PC) of van het Bevel (Mac) te onderdrukken aangezien u elke optie klikt.
+     Selecteer voor de specifieke optie de **[!UICONTROL Payment Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (PC) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
 
-   De lijst van [betalingsmethoden](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel in uw opslag worden toegelaten of worden onbruikbaar gemaakt. Naast de standaardbetalingsmethoden bevat de lijst ook het volgende:
+   De lijst van [ betalingsmethodes ](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel of gehandicapt in uw opslag worden toegelaten. Naast de standaardbetalingsmethoden bevat de lijst ook het volgende:
 
    - Geen betalingsgegevens vereist
    - [Betaling op rekening](#configure-payment-on-account)
    - Opgeslagen accounts
    - Opgeslagen kaarten
 
-   ![B2B-configuratie - betalingsmethode-instellingen voor wanbetaling](./assets/b2b-features-default-payment-methods.png){width="600"}
+   ![ B2B configuratie - de montages van de standaard betalingsmethode ](./assets/b2b-features-default-payment-methods.png){width="600"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Shipping Methods]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Shipping Methods]** sectie uit.
 
-1. Als u de standaardverzendmethoden voor B2B-bestellingen wilt opgeven, stelt u **[!UICONTROL Applicable Shipping Methods]** op een van de volgende wijzen:
+1. Als u de standaardverzendmethoden voor B2B-orders wilt opgeven, stelt u **[!UICONTROL Applicable Shipping Methods]** in op een van de volgende opties:
 
    - `All Shipping Methods`
    - `Selected Shipping Methods`
 
-     Selecteer voor de specifieke optie de optie **[!UICONTROL Shipping Methods]** die u aan uw klanten beschikbaar wilt maken door de sleutel van CTRL (PC) of van het Bevel (Mac) te onderdrukken aangezien u elke optie klikt.
+     Selecteer voor de specifieke optie de **[!UICONTROL Shipping Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (PC) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
 
-     De lijst met verzendmethoden toont welke momenteel zijn [ingeschakeld of uitgeschakeld](../configuration-reference/sales/delivery-methods.md).
+     De lijst van het verschepen methodes toont die momenteel [ worden toegelaten of ](../configuration-reference/sales/delivery-methods.md) onbruikbaar gemaakt.
 
-   ![B2B-configuratie - standaardverzendmethoden](./assets/b2b-features-shipping-methods.png){width="600"}
+   ![ B2B configuratie - standaard verschepende methodes ](./assets/b2b-features-shipping-methods.png){width="600"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## E-mailopties voor bedrijven configureren
 
-De [verkoopvertegenwoordiger](account-company-manage.md#assign-a-sales-representative) dat als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
+De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-representative) die als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Company Configuration]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Company Configuration]** .
 
-1. Indien nodig, instellen **[!UICONTROL Store View]** in de winkelweergave om de [bereik](../getting-started/websites-stores-views.md#scope-settings) van de configuratie.
+1. Indien nodig, plaats **[!UICONTROL Store View]** aan de opslagmening om het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de configuratie te bepalen.
 
-1. Voltooi de **[!UICONTROL Company Registration]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Registration]** :
 
    >[!NOTE]
    >
-   >Wis de **[!UICONTROL Use system value]** Schakel het selectievakje in om het veld bewerkbaar te maken.
+   >Schakel het selectievakje **[!UICONTROL Use system value]** uit om het veld bewerkbaar te maken.
 
-   - Set **[!UICONTROL Company Registration Email Recipient]** aan de [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) wie op de hoogte moet worden gesteld wanneer een nieuw registratieverzoek van een vennootschap wordt ontvangen.
+   - Plaats **[!UICONTROL Company Registration Email Recipient]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een nieuw verzoek van de bedrijfregistratie wordt ontvangen.
 
-   - Voor **[!UICONTROL Send Company Registration Email Copy To]** Voer het e-mailadres in van elke persoon die een kopie van de registratiekennisgeving moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer bij **[!UICONTROL Send Company Registration Email Copy To]** het e-mailadres in van elke persoon die een kopie van het registratiebericht moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **E-mailkopieermethode verzenden** op een van de volgende wijzen:
+   - Om te bepalen hoe het exemplaar van het bericht wordt verzonden, plaats **verzendt de Methode van het E-mailExemplaar** aan één van het volgende:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-   - Als u een e-mailsjabloon hebt voorbereid voor gebruik in plaats van de standaardsjabloon, stelt u **[!UICONTROL Default Company Registration Email]** op de naam van de sjabloon. Standaard worden de `Company Registration Request` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid voor gebruik in plaats van de standaardsjabloon, stelt u **[!UICONTROL Default Company Registration Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Registration Request` gebruikt.
 
-     ![Configuratie van klanten - bedrijfsregistratie](./assets/company-email-options-company-registration.png){width="600"}
+     ![ configuratie van Klanten - bedrijfregistratie ](./assets/company-email-options-company-registration.png){width="600"}
 
-1. Voltooi de **[!UICONTROL Customer-Related Emails]** sectie:
+1. Voltooi de sectie **[!UICONTROL Customer-Related Emails]** :
 
    Als u alternatieve e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardinstellingen, kiest u de sjabloon die u wilt gebruiken voor elk van de volgende opties:
 
@@ -136,39 +136,39 @@ De [verkoopvertegenwoordiger](account-company-manage.md#assign-a-sales-represent
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![Configuratie van klanten - aan klanten gerelateerde e-mails](./assets/company-email-options-customer-related-emails.png){width="600"}
+   ![ configuratie van Klanten - klant verwante e-mails ](./assets/company-email-options-customer-related-emails.png){width="600"}
 
-1. Voltooi de **[!UICONTROL Company Status Change]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Status Change]** :
 
-   - Voor **[!UICONTROL Send Company Status Change Email Copy To]**, voert u het e-mailadres in van elke persoon die een kopie van het bericht voor statuswijziging moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer bij **[!UICONTROL Send Company Status Change Email Copy To]** het e-mailadres in van elke persoon die een kopie van het bericht over statuswijziging moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **E-mailkopieermethode verzenden** op een van de volgende wijzen:
+   - Om te bepalen hoe het exemplaar van het bericht wordt verzonden, plaats **verzendt de Methode van het E-mailExemplaar** aan één van het volgende:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert van `Pending Approval` tot `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** op de naam van de sjabloon. Standaard worden de `Company Status Active 1` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de status van het bedrijf verandert van `Pending Approval` in `Active` , stelt u **[!UICONTROL Default 'Company Status Change to Active 1' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Active 1` gebruikt.
 
-   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert van `Rejected` of `Blocked` tot `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** op de naam van de sjabloon. Standaard worden de `Company Status Active 2` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert van `Rejected` of `Blocked` in `Active` , stelt u **[!UICONTROL Default 'Company Status Change to Active 2' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Active 2` gebruikt.
 
-   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** op de naam van de sjabloon. Standaard worden de `Company Status Rejected` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Rejected` , stelt u **[!UICONTROL Default 'Company Status Change to Rejected' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Rejected` gebruikt.
 
-   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** op de naam van de sjabloon. Standaard worden de `Company Status Blocked` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Blocked` , stelt u **[!UICONTROL Default 'Company Status Change to Blocked' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Blocked` gebruikt.
 
-   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** op de naam van de sjabloon. Standaard worden de `Company Status Pending Approval` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Pending Approval` , stelt u **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Pending Approval` gebruikt.
 
-   ![Configuratie van klanten - wijziging van bedrijfsstatus](./assets/company-email-options-company-status-change.png){width="600"}
+   ![ configuratie van Klanten - de verandering van de bedrijfstatus ](./assets/company-email-options-company-status-change.png){width="600"}
 
-1. Voltooi de **[!UICONTROL Company Credit Emails]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Credit Emails]** :
 
-   - Set **[!UICONTROL Company Credit Change Email Sender]** aan de [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) wie op de hoogte moet worden gebracht wanneer de kredietlimiet die aan een onderneming is toegekend, wordt gewijzigd. Standaard wordt het bericht verzonden naar _Verkoopvertegenwoordiger_.
+   - Plaats **[!UICONTROL Company Credit Change Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een verandering aan de kredietgrens wordt aangebracht die aan een bedrijf wordt toegewezen. Door gebrek, wordt het bericht verzonden naar _Vertegenwoordiger van de Verkoop_.
 
-   - Voor **[!UICONTROL Send Company Credit Change Email Copy To]** Voer het e-mailadres in van elke persoon die een kopie van de kennisgeving van kredietwijziging moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer bij **[!UICONTROL Send Company Credit Change Email Copy To]** het e-mailadres in van elke persoon die een kopie van de kennisgeving van de wijziging van het creditcard moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **E-mailkopieermethode verzenden** op een van de volgende wijzen:
+   - Om te bepalen hoe het exemplaar van het bericht wordt verzonden, plaats **verzendt de Methode van het E-mailExemplaar** aan één van het volgende:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
    - Als u e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardwaarden, kiest u de sjabloon voor elk van de volgende meldingen die naar de bedrijfsbeheerder worden verzonden.
 
@@ -178,89 +178,89 @@ De [verkoopvertegenwoordiger](account-company-manage.md#assign-a-sales-represent
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-   ![Configuratie van klanten - bedrijfskrediet-e-mails](./assets/company-email-options-company-credit.png){width="600"}
+   ![ configuratie van Klanten - bedrijfkrediet e-mails ](./assets/company-email-options-company-credit.png){width="600"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Goedkeuring van bestellingen configureren
 
 Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bedrijfsbeheerders de handelingen van de kopers van het bedrijf controleren. De functionaliteit voor het goedkeuren van bestellingen is beschikbaar wanneer de functie voor inkooporders is ingeschakeld door een beheerder van de winkel.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL General]** en kiest u **[!UICONTROL B2B Features]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL B2B Features]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order Approval Configuration]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order Approval Configuration]** sectie uit.
 
-   ![Goedkeuringsconfiguratie bestellen](./assets/b2b-features-order-approval.png){width="600"}
+   ](./assets/b2b-features-order-approval.png){width="600"} de Configuratie van de Goedkeuring van de orde 0}![
 
-1. Om bedrijven toe te staan om hun eigen inkooporders te creëren, plaats **[!UICONTROL Enable Purchase Orders]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` als u bedrijven de mogelijkheid wilt geven eigen inkooporders te maken.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-   De functie voor inkooporders is ingeschakeld op websiteniveau. Om dit type orde voor een bedrijf toe te laten, doe het zelfde met de aangewezen montages in elk [bedrijfsprofiel](account-company-manage.md).
+   De functie voor inkooporders is ingeschakeld op websiteniveau. Om dit type van orde voor een bedrijf toe te laten, doe het zelfde met de aangewezen montages in elk [ bedrijfsprofiel ](account-company-manage.md).
 
 ## Aankooporders configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Zoek het bedrijf in de lijst en klik op **[!UICONTROL Edit]**.
+1. Zoek het bedrijf in de lijst en klik op **[!UICONTROL Edit]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
 
-1. Set **[!UICONTROL Enable Purchase Orders]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-Na activering **[!UICONTROL Approval Rules]** sectie wordt weergegeven in de winkel [Accountdashboard](../customers/account-dashboard.md) voor een bedrijfsbeheerder.
+Na activering, wordt de **[!UICONTROL Approval Rules]** sectie getoond op het storefront [ Dashboard van de Rekening ](../customers/account-dashboard.md) voor een bedrijfbeheerder.
 
 >[!NOTE]
 >
->De beheerder van het bedrijf moet toegang tot de inkooporder op de winkel verlenen op basis van [gebruikersrolmachtigingen van het bedrijf](account-company-roles-permissions.md).
+>De toegang van de orde van de aankoop op de storefront moet door de bedrijfbeheerder worden verleend die op [ de toestemmingen van de bedrijfs gebruikersrol ](account-company-roles-permissions.md) wordt gebaseerd.
 
 ## Betaling op account configureren
 
-Betaling op rekening is een methode voor offlinebetalingen waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is opgegeven. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het afrekenen weergegeven als dit is ingeschakeld. Wanneer _Betaling op rekening_ als betalingsmethode wordt gebruikt, verschijnt boven aan de bestelling een bericht dat de status van de rekening aangeeft. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [Bedrijfsaccounts beheren](account-company-manage.md).
+Betaling op rekening is een methode voor offlinebetalingen waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is opgegeven. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het afrekenen weergegeven als dit is ingeschakeld. Wanneer _Betaling op Rekening_ als betalingsmethode wordt gebruikt, verschijnt een bericht bij de bovenkant van de orde die op de status van de rekening wijst. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [ BedrijfsRekeningen ](account-company-manage.md) leiden.
 
 >[!NOTE]
 >
->Betaling op account wordt niet ondersteund voor bestellingen met [meerdere verzendadressen](../stores-purchase/shipping-settings.md#multiple-addresses) en niet als een van de betalingsopties voor deze bestellingen wordt weergegeven.
+>Betaling op Rekening wordt niet gesteund voor orden met [ veelvoudige verzendadressen ](../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties voor deze orden.
 
 Betaling op account inschakelen voor je winkel:
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Payment Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Payment on Account]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Payment on Account]** sectie uit.
 
-   ![Betaling op rekening](./assets/payment-methods-payment-on-account.png){width="600"}
+   ![ Betaling op Rekening ](./assets/payment-methods-payment-on-account.png){width="600"}
 
    >[!NOTE]
    >
-   >Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-1. Als je vooruitbetaling wilt toestaan, stelt u **[!UICONTROL Enabled]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled]** in op `Yes` als u betaling op rekening wilt toestaan.
 
-1. Voer een **[!UICONTROL Title]** die de betalingsmethode identificeert tijdens de afhandeling, of u kunt de `Payment on Account` standaardtitel.
+1. Voer een **[!UICONTROL Title]** in die de betalingsmethode tijdens het uitchecken aangeeft, of u kunt de standaardtitel van `Payment on Account` accepteren.
 
-1. Als de orden typisch op goedkeuring wachten, keur het gebrek goed **[!UICONTROL New Order Status]** als `Pending` totdat het is goedgekeurd.
+1. Als orders doorgaans wachten op goedkeuring, accepteert u de standaardwaarde **[!UICONTROL New Order Status]** als `Pending` totdat deze wordt goedgekeurd.
 
-   U kunt desgewenst de opdracht `Processing` of `Suspected Fraud` status voor nieuwe orders met deze betalingsmethode.
+   U kunt desgewenst de status `Processing` of `Suspected Fraud` gebruiken voor nieuwe bestellingen met deze betalingsmethode.
 
-1. Set **[!UICONTROL Payment from Applicable Countries]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) Deze betalingsmethode kan worden gebruikt.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, _[!UICONTROL Payment from Specific Countries]_wordt weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Set **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** de bedragen van de bestelling die nodig zijn om voor deze betalingsmethode in aanmerking te komen.
+1. Stel **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** in op de orderbedragen die nodig zijn om in aanmerking te komen voor deze betalingsmethode.
 
    >[!NOTE]
    >
    >Een orde komt in aanmerking als het totaal tussen, of precies aanpast, de minimum of maximumtotale waarden valt.
 
-1. Voer een **[!UICONTROL Sort Order]** getal dat de positie van dit object instelt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
+1. Voer een **[!UICONTROL Sort Order]** getal in dat de positie van dit item instelt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.
 
-   De waarde is relatief ten opzichte van de andere betalingsmethoden. (`0` = eerst, `1` = seconde, `2` = derde, enzovoort.)
+   De waarde is relatief ten opzichte van de andere betalingsmethoden. (`0` = first, `1` = second, `2` = third, enzovoort.)
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

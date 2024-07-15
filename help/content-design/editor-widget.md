@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Een widget invoegen in de editor
 
-De [widget](widget-create.md) kan worden gebruikt om diverse inhoudselementen aan de pagina toe te voegen, met inbegrip van verbindingen aan om het even welke de inhoudspagina of knoop, product, of categorie van de Handel. Koppelingen kunnen in blokindeling op de pagina worden geplaatst of rechtstreeks in de inhoud worden opgenomen. Met het gereedschap Widget kunt u koppelingen maken naar de volgende typen inhoud:
+Het [ widget ](widget-create.md) hulpmiddel kan worden gebruikt om diverse inhoudselementen aan de pagina toe te voegen, met inbegrip van verbindingen aan om het even welke de inhoudspagina of knoop van Commerce, product, of categorie. Koppelingen kunnen in blokindeling op de pagina worden geplaatst of rechtstreeks in de inhoud worden opgenomen. Met het gereedschap Widget kunt u koppelingen maken naar de volgende typen inhoud:
 
 - [Inhoudspagina&#39;s](pages.md)
 - [Cataloguscategorieën](../catalog/categories.md)
@@ -23,38 +23,38 @@ Koppelingen nemen hun stijl standaard over van de stijlpagina van het thema.
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
 
-1. Plaats de cursor op de positie waar de widget moet verschijnen en klik op de knop _Widget invoegen_ pictogram.
+1. Plaats de curseur waar u widget wilt verschijnen en het _pictogram van Widget van het Tussenvoegsel_ klikken.
 
-   ![Editor, werkbalk - Widget invoegen](./assets/editor-toolbar-widget-button.png){width="700" zoomable="yes"}
+   ![ toolbar van de Redacteur - Tussenvoegsel Widget ](./assets/editor-toolbar-widget-button.png){width="700" zoomable="yes"}
 
-   Als u de functie Page Builder niet hebt ingeschakeld, klikt u op **[!UICONTROL Show / Hide Editor]**. Plaats de invoegpositie op de plaats in de tekst waar u de widget wilt weergeven. Klik vervolgens op **[!UICONTROL Insert Widget]**.
+   Klik op **[!UICONTROL Show / Hide Editor]** als u Page Builder niet hebt ingeschakeld en liever met de code werkt. Plaats de invoegpositie op de plaats in de tekst waar u de widget wilt weergeven. Klik vervolgens op **[!UICONTROL Insert Widget]** .
 
-1. Kies de optie **[!UICONTROL Widget Type]**.
+1. Kies de **[!UICONTROL Widget Type]** .
 
-   Zie voor meer informatie over deze opties [Widgettypen](widgets.md#widget-types). In de volgende stappen wordt een voorbeeld gebruikt voor het invoegen van een koppeling naar een product.
+   Voor meer informatie over deze opties, zie {de Types van Widget 0} ](widgets.md#widget-types). [ In de volgende stappen wordt een voorbeeld gebruikt voor het invoegen van een koppeling naar een product.
 
-1. Als u de productnaam wilt gebruiken, laat u de **[!UICONTROL Anchor Custom Text]** veld leeg.
+1. Laat het veld **[!UICONTROL Anchor Custom Text]** leeg als u de productnaam wilt gebruiken.
 
-1. Voer een **[!UICONTROL Anchor Custom Title]** voor de beste SEO-praktijk.
+1. Voer een **[!UICONTROL Anchor Custom Title]** in voor de beste SEO-praktijk.
 
    Deze titel is niet zichtbaar op de pagina.
 
-1. Set **[!UICONTROL Template]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Template]** in op een van de volgende opties:
 
-   - Selecteer `Product Link Inline Template`.
+   - Selecteer `Product Link Inline Template` als u de koppeling in de tekst wilt opnemen.
 
-   - Selecteer `Product Link Block Template`.
+   - Selecteer `Product Link Block Template` als u de koppeling op een aparte regel wilt plaatsen.
 
-1. Klikken **[!UICONTROL Select Product]** en voer de volgende handelingen uit:
+1. Klik op **[!UICONTROL Select Product]** en voer de volgende handelingen uit:
 
    - Navigeer in de boomstructuur naar de gewenste categorie.
 
    - Kies het gekoppelde product in de lijst.
 
-1. Klikken **[!UICONTROL Insert Widget]** om de koppeling op de pagina te plaatsen.
+1. Klik op **[!UICONTROL Insert Widget]** om de koppeling op de pagina te plaatsen.
 
-   Als u met HTML code werkt, [markeringstag](../systems/markup-tags.md) voor de koppeling wordt boven aan de pagina weergegeven, ingesloten door dubbele accolades. Indien nodig, gebruik _Knippen en plakken_ om de opmaakcode in de code te plaatsen waar de koppeling moet worden weergegeven.
+   Als u met HTML code werkt, verschijnt a [ prijsverhogingsmarkering ](../systems/markup-tags.md) voor de verbinding bij de bovenkant van de pagina, ingesloten in dubbele krullende steunen. Indien nodig, gebruik _Besnoeiing en Deeg_ om de prijsverhogingsmarkering in de code te plaatsen waar u de verbinding wilt verschijnen.
 
-1. Wanneer uw inhoudsbewerkingen zijn voltooid, klikt u op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** wanneer de bewerkingen van de inhoud zijn voltooid.

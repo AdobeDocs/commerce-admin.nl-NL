@@ -5,40 +5,40 @@ exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
 # Een bestelling maken
 
-Voor geregistreerde klanten die hulp nodig hebben, kunt u een volledige orde direct van Admin tot stand brengen. De _[!UICONTROL Create New Order]_het formulier bevat alle informatie die nodig is voor het normale afrekenproces, met activiteitenoverzichten van het rekeningdashboard van de klant.
+Voor geregistreerde klanten die hulp nodig hebben, kunt u een volledige orde direct van Admin tot stand brengen. Het _[!UICONTROL Create New Order]_-formulier bevat alle informatie die nodig is voor het normale uitcheckproces, met activiteitenoverzichten van het rekeningdashboard van de klant.
 
-![Een bestelling voor een klant maken](./assets/create-new-order.png){width="700" zoomable="yes"}
+![ creeer een orde voor een klant ](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Stap 1: Een bestelling maken
 
-1. Op de _Beheerder_ zijbalk, klikken **[!UICONTROL Customers]**.
+1. Voor _Admin_ sidebar, klik **[!UICONTROL Customers]**.
 
 1. Zoek de klant in het raster.
 
-1. In de _Handeling_ kolom, klik **[!UICONTROL Edit]**.
+1. In de _kolom van de Actie_, klik **[!UICONTROL Edit]**.
 
-1. Klik in de koptekst van de werkruimte op **[!UICONTROL Create Order]**.
+1. Klik in de koptekst van de werkruimte op **[!UICONTROL Create Order]** .
 
-   ![Werkruimtekop](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![ de kopbal van Workspace ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   U kunt ook een volgorde maken in het dialoogvenster [Werkruimte Bestellen](orders.md#orders-workspace) door te klikken **[!UICONTROL Create New Order]**.
+   U kunt een orde in de [ werkruimte van de Orde ](orders.md#orders-workspace) ook tot stand brengen door **[!UICONTROL Create New Order]** te klikken.
 
 ## Stap 2: Producten toevoegen
 
 Als uw winkel meerdere weergaven heeft, kiest u de winkelweergave waarin de volgorde moet worden geplaatst.
 
-### Producten toevoegen uit de [!UICONTROL Customer's Activities] zijbalk
+### Producten toevoegen uit de zijbalk [!UICONTROL Customer's Activities]
 
 U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een klant of van onlangs bekeken, vergeleken of geordende items.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) een van de volgende secties:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) één van de volgende secties uit:
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -48,21 +48,21 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
 1. Schakel het selectievakje van elk product in het linkerdeelvenster in.
 
-1. Omlaag schuiven en klikken **[!UICONTROL Update Changes]**.
+1. Schuif omlaag en klik op **[!UICONTROL Update Changes]** .
 
    Het item wordt weergegeven in het bestelformulier.
 
-   ![Toevoegen aan winkelwagentje](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
+   ![ toevoegen aan Kar ](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
 ### Producten toevoegen uit de catalogus
 
 1. Klik op **[!UICONTROL Add Products]**.
 
-   ![Producten toevoegen](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
+   ![ voeg Producten ](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"} toe
 
-1. Schakel in het raster het selectievakje in van elk product dat aan het winkelwagentje moet worden toegevoegd en typ de optie **[!UICONTROL Qty]** te kopen.
+1. Selecteer in het raster het selectievakje van elk product dat aan de winkelwagentje moet worden toegevoegd en voer de **[!UICONTROL Qty]** in die u wilt kopen.
 
-   ![Producten selecteren](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
+   ![ Uitgezochte Producten ](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -76,17 +76,17 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
    - Klik op **[!UICONTROL OK]**.
 
-   - Klikken **[!UICONTROL Add Selected Product(s) to Order]** de winkelwagen bijwerken.
+   - Klik op **[!UICONTROL Add Selected Product(s) to Order]** om het winkelwagentje bij te werken.
 
-1. Als een product is geconfigureerd voor [cadeauopties](../catalog/product-gift-options.md)stelt u de gewenste opties in.
+1. Als een product voor [ giftopties ](../catalog/product-gift-options.md) wordt gevormd, plaats de opties zoals nodig.
 
 1. Overschrijf indien nodig de prijs van een object:
 
-   - Selecteer de **[!UICONTROL Custom Price]** en voer in onderstaand vak de nieuwe prijs in.
+   - Schakel het selectievakje **[!UICONTROL Custom Price]** in en voer in het onderstaande vak de nieuwe prijs in.
 
-   - Klik op **[!UICONTROL Update Items and Quantities]**.
+   - Klik op **[!UICONTROL Update Items and Quantities]** om de totaal van de winkelwagentjes bij te werken.
 
-   ![Aangepaste prijs](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![ Aangepaste Prijs ](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. Vul de volgende secties in die u nodig hebt voor de bestelling:
 
@@ -98,7 +98,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
 >[!NOTE]
 >
->Zie de [Handleiding voor betalingsservices](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) voor meer informatie over betalingsmethoden om deze functionaliteit te ondersteunen wanneer de extensie Betalingsservices is geïnstalleerd en geconfigureerd.
+>Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
 
 ## Stap 3: De bestelling verzenden
 

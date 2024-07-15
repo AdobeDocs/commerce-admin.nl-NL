@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Deze aanbevolen instellingen kunnen worden gebruikt voor de meeste belastingconf
 
 | Optie | Aanbevolen instelling |
 |--- |--- |
-| [!UICONTROL Enable FPT] | `No`, behalve in Californië. |
+| [!UICONTROL Enable FPT] | `No` , behalve in Californië. |
 
 {style="table-layout:auto"}
 
@@ -132,7 +132,7 @@ Deze aanbevolen instellingen kunnen worden gebruikt voor de meeste belastingconf
 | Belastingberekening | Op object |
 | Belasting op verzendkosten? | Ja |
 | Korting toepassen | Vóór belasting, korting op prijzen, inclusief belasting. |
-| Opmerking | Voor B2B-handelaren om eenvoudigere overwegingen met betrekking tot de btw-toeleveringsketen te bieden. De berekening van de belasting op rij is ook geldig; nochtans, controleer met uw het belasten jurisdictie. Er wordt vanuit gegaan dat een handelaar zich in de toeleveringsketen bevindt en dat verkochte goederen door andere verkopers worden gebruikt voor btw-kortingen, enzovoort. Deze definitie maakt het gemakkelijk om belasting door punt voor snellere kortingsgeneratie te onderscheiden. <br/><br/>**_Opmerking:_**Sommige rechtsgebieden vereisen verschillende afrondingsstrategieën die momenteel niet door de Handel worden ondersteund en die niet in alle rechtsgebieden de belasting op item- of rijniveau toestaan. |
+| Opmerking | Voor B2B-handelaren om eenvoudigere overwegingen met betrekking tot de btw-toeleveringsketen te bieden. De berekening van de belasting op rij is ook geldig; nochtans, controleer met uw het belasten jurisdictie. Er wordt vanuit gegaan dat een handelaar zich in de toeleveringsketen bevindt en dat verkochte goederen door andere verkopers worden gebruikt voor btw-kortingen, enzovoort. Deze definitie maakt het gemakkelijk om belasting door punt voor snellere kortingsgeneratie te onderscheiden. <br/><br/>**_Nota:_**sommige jurisdicties vereisen verschillende het afronden strategieën momenteel niet die door Commerce worden gesteund, en dat niet alle jurisdicties punt of rijniveaubelasting toestaan. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ Deze aanbevolen instellingen kunnen worden gebruikt voor de meeste belastingconf
 
 >[!IMPORTANT]
 >
->Handelaren in de provincie GST/PST (Montreal) moeten één belastingregel opstellen en een gecombineerd belastingbedrag laten zien. Raadpleeg een bevoegde belastingautoriteit als u vragen hebt. Zie voor meer informatie over de belastingvereisten van specifieke provincies het volgende: [Revenu Québec][1], [Regering van Saskatchewan][2], en [Manitoba-informatie voor leveranciers][3]
+>Handelaren in de provincie GST/PST (Montreal) moeten één belastingregel opstellen en een gecombineerd belastingbedrag laten zien. Raadpleeg een bevoegde belastingautoriteit als u vragen hebt. Voor informatie over de belastingvereisten van specifieke provincies, zie het volgende: [ Revenu Québec ][1], [ Regering van Saskatchewan ][2], en [ Informatie Manitoba voor Verkopers ][3]
 
 | Belastingoptie | Aanbeveling |
 |--- |--- |
@@ -160,11 +160,11 @@ In het volgende voorbeeld ziet u hoe u GST-belastingtarieven voor Canada en PST-
 
 ### Stap 1: Volledige instellingen voor belastingberekening
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** naar de website en opslag die het doel van de configuratie is.
+1. Voor een configuratie met meerdere sites stelt u **[!UICONTROL Store View]** in op de website en slaat u die configuratie als doel heeft.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Tax]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
 1. Klik om elke sectie op de pagina uit te vouwen en de volgende instellingen in te vullen:
 
@@ -258,7 +258,7 @@ Stel een ander belastingtarief in voor de betreffende provincie.
 
 ### Stap 4: Een GST-belastingregel maken
 
-Als u wilt voorkomen dat de belasting wordt samengeperst en de berekende belasting correct als afzonderlijke posten voor GST en PST wilt weergeven, stelt u verschillende prioriteiten voor elke regel in en selecteert u de **Alleen subtotaal berekenen** selectievakje. Elke belasting wordt weergegeven als een afzonderlijke post, maar de belastingbedragen worden niet samengevoegd.
+Vermijd het samenstellen van de belasting en de berekende belasting correct te tonen als afzonderlijke lijnpunten voor GST en PST, plaats verschillende prioriteiten voor elke regel en selecteer **Berekenen van subtotaal slechts** checkbox. Elke belasting wordt weergegeven als een afzonderlijke post, maar de belastingbedragen worden niet samengevoegd.
 
 #### Informatie over belastingregels
 
@@ -276,7 +276,7 @@ Als u wilt voorkomen dat de belasting wordt samengeperst en de berekende belasti
 
 ### Stap 5: Maak een PST-belastingregel voor Saskatchewan
 
-Voor deze belastingregel moet u de prioriteit instellen op 0 en de optie **Alleen subtotaal berekenen** selectievakje. Elke belasting wordt weergegeven als een afzonderlijke post, maar de belastingbedragen worden niet samengevoegd.
+Voor deze belastingregel, zorg ervoor om de prioriteit aan 0 te plaatsen en **te selecteren berekent van subtotal slechts** checkbox. Elke belasting wordt weergegeven als een afzonderlijke post, maar de belastingbedragen worden niet samengevoegd.
 
 #### Informatie over belastingregels
 
@@ -294,7 +294,7 @@ Voor deze belastingregel moet u de prioriteit instellen op 0 en de optie **Allee
 
 ### Stap 6: Sla de resultaten op en test deze
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 1. Ga terug naar de winkel en maak een voorbeeldvolgorde om de resultaten te testen.
 
@@ -324,10 +324,10 @@ Maak de volgende belastingtarieven:
 
 | Belastingtarieven | Instellingen |
 |--- |--- |
-| Frankrijk-NormVAT | Land: Frankrijk <br/>Staat/regio: * <br/>Postcode: * <br/>Percentage: 20% |
-| Verlaagde btw door Frankrijk | Land: Frankrijk <br/>Staat/regio: * <br/>Postcode: * <br/>Frequentie: 5% |
-| Duitsland-standaardBTW | Land: Duitsland <br/>Staat/regio: * <br/>Postcode: * Tarief: 19% |
-| Verlaagde btw voor Duitsland | Land: Duitsland <br/>Staat/regio: * <br/>Postcode: * <br/>Percentage: 7% |
+| Frankrijk-NormVAT | Land: Frankrijk <br/> Staat/Gebied: * <br/> ZIP/Postcode: * <br/> Tarief: 20% |
+| Verlaagde btw door Frankrijk | Land: Frankrijk <br/> Staat/Gebied: * <br/> ZIP/Postcode: * <br/> Tarief: 5% |
+| Duitsland-standaardBTW | Land: Duitsland <br/> Staat/Regio: * <br/> ZIP/Postcode: * Tarief: 19% |
+| Verlaagde btw voor Duitsland | Land: Duitsland <br/> Staat/Gebied: * <br/> ZIP/Postcode: * <br/> Tarief: 7% |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ Maak de volgende belastingregels:
 
 | Belastingregels | Instellingen |
 |--- |--- |
-| Retail-France-StandardVAT | Klantklasse: Retail Customer <br/>Belastingklasse: BTW-standaard <br/>Belastingtarief: Frankrijk-StandaardBTW <br/>Prioriteit: 0 <br/>Sorteervolgorde: 0 |
-| Retail-France-ReducedVAT | Klantklasse: Retail Customer <br/>Belastingklasse: btw verlaagd <br/>Belastingtarief: door Frankrijk verlaagd BTW <br/>Prioriteit: 0 <br/>Sorteervolgorde: 0 |
-| Retail-Germany-StandardVAT | Klantklasse: Retail Customer <br/>Belastingklasse: BTW-standaard <br/>Belastingtarief: Duitsland-Standaardbtw <br/>Prioriteit: 0 <br/>Sorteervolgorde: 0 |
-| Retail-Germany-ReducedVAT | Klantklasse: Retail Customer <br/>Belastingklasse: verlaagd btw <br/>Belastingtarief: door Duitsland verlaagd BTW <br/>Prioriteit: 0 <br/>Sorteervolgorde: 0 |
+| Retail-France-StandardVAT | Klant Klasse: de Belastingsklasse van de Klant van de kleinhandel <br/>: BTW-Standaard <br/> Tarief: Frankrijk-NormVAT <br/> Prioriteit: 0 <br/> Sorteervolgorde: 0 |
+| Retail-France-ReducedVAT | Klant Klasse: de Belastingsklasse van de Klant van de Kleinhandels <br/>: BTW verminderd <br/> Tarief: Frankrijk-ReducedVAT <br/> Prioriteit: 0 <br/> Sorteervolgorde: 0 |
+| Retail-Germany-StandardVAT | Klant Klasse: de Belastingsklasse van de Klant van de kleinhandel <br/>: BTW-Standaard <br/> Tarief: Duitsland-NormVAT <br/> Prioriteit: 0 <br/> Orde van de Soort: 0 |
+| Retail-Germany-ReducedVAT | Klant Klasse: de Belastingsklasse van de Klant van de kleinhandel <br/>: BTW-verminderd <br/> Tarief: Duitsland-GereduceerdeBTW <br/> Prioriteit: 0 <br/> Orde van de Sortering: 0 |
 
 {style="table-layout:auto"}
 
 ### Stap 4: Een winkelweergave instellen voor Duitsland
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Onder de standaardwebsite maakt u een winkelweergave voor **[!UICONTROL Germany]**.
+1. Maak onder de standaardwebsite een winkelweergave voor **[!UICONTROL Germany]** .
 
 1. Ga als volgt te werk:
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - In de linkerbovenhoek, plaats **[!UICONTROL Default Config]** naar de Franse opslagplaats.
+   - Stel in de linkerbovenhoek **[!UICONTROL Default Config]** in op de Franse opslag.
 
-   - Vouw op de pagina Algemeen de tekst uit ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** en het standaardland instellen op `France`.
+   - Voor de Algemene pagina, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** sectie uit, en plaats het standaardland aan `France`.
 
    - Vul de gewenste landinstellingen in.
 
-1. Kies in de linkerbovenhoek de optie Duits **[!UICONTROL Store View]**.
+1. Kies in de linkerbovenhoek de optie Duits **[!UICONTROL Store View]** .
 
-1. Op de _Algemeen_ pagina, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** en stelt het standaardland in op `Germany`.
+1. Voor de _Algemene_ pagina, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** uit en plaats het standaardland aan `Germany`.
 
 1. Vul de gewenste landinstellingen in.
 
@@ -397,27 +397,27 @@ Voer de volgende algemene belastinginstellingen in:
 
 ### Stap 6: De belastinginstellingen voor Duitsland configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In de rechterbovenhoek stelt u **[!UICONTROL Store View]** naar de Duitse winkel en klik op **[!UICONTROL OK]** ter bevestiging.
+1. In de rechterbovenhoek stelt u **[!UICONTROL Store View]** in op de weergave in de Duitse winkel en klikt u op **[!UICONTROL OK]** om te bevestigen.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Tax]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. In de **[!UICONTROL Default Tax Destination Calculation]** Ga als volgt te werk:
+1. Ga als volgt te werk in de sectie **[!UICONTROL Default Tax Destination Calculation]** :
 
-   - Wis de **[!UICONTROL Use Website]** selectievakje na elk veld,
+   - Schakel het selectievakje **[!UICONTROL Use Website]** na elk veld uit.
 
-   - Aanpassen aan de verzendinstellingen van uw site [punt van oorsprong](shipping-settings.md#point-of-origin)Werk de volgende waarden bij:
+   - Om het Verschepende Punt van Montages van uw plaats [ van oorsprong ](shipping-settings.md#point-of-origin) aan te passen, werk de volgende waarden bij:
 
       - Standaardland
       - Standaardstatus
-      - Standaardpostcode
+      - Standaard Post-code
 
      Deze instelling zorgt ervoor dat de belasting correct wordt berekend wanneer de productprijzen belasting bevatten.
 
-     ![Berekening standaardbelastingbestemming](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![ Berekening van de StandaardBelastingbestemming ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

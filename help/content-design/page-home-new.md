@@ -13,16 +13,16 @@ ht-degree: 1%
 
 U kunt een selectie van verschillende homepages handhaven, en de pagina activeren die u als standaardhomepage wilt gebruiken.
 
-1. Voer de stappen uit voor [toevoegen, pagina](page-add.md).
+1. Voltooi de stappen voor [ toevoegend een pagina ](page-add.md).
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie en set **[!UICONTROL CMS Home Page]** naar de nieuwe pagina.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit en reeks **[!UICONTROL CMS Home Page]** aan de nieuwe pagina.
 
-   ![Standaardwebpaginasamenstelling](./assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![ Web standaardpagina&#39;s configuratie ](./assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-1. Klik in het bericht boven aan de werkruimte op de knop **[!UICONTROL Cache Management]** koppelingen maken en eventuele ongeldige caches vernieuwen.
+1. Klik in het bericht boven aan de werkruimte op de koppeling **[!UICONTROL Cache Management]** en vernieuw eventuele ongeldige caches.

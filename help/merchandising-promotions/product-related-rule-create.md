@@ -18,67 +18,67 @@ Het proces om een verwante productregel tot stand te brengen is gelijkaardig aan
 
 >[!NOTE]
 >
->Voor een attribuut dat in een gerichte regel moet worden gebruikt, [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) eigenschap moet worden ingesteld op `Yes`.
+>Voor een kenmerk dat in een doelregel moet worden gebruikt, moet de eigenschap [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) op `Yes` worden ingesteld.
 
 >[!NOTE]
 >
->De `All Store Views` bereikwaarde wordt altijd gebruikt voor beide [!UICONTROL Products to Match] en [!UICONTROL Products to Display] voorwaarden voor alle productkenmerken. Dit is ook van toepassing wanneer de productkenmerken verschillende waarden hebben voor verschillende winkelweergaven en websites.
+>De waarde `All Store Views` scope wordt altijd gebruikt voor zowel [!UICONTROL Products to Match] als [!UICONTROL Products to Display] -voorwaarden voor alle productkenmerken. Dit is ook van toepassing wanneer de productkenmerken verschillende waarden hebben voor verschillende winkelweergaven en websites.
 
 ## Een regel voor een verwant product maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Rule]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Rule]** .
 
-   ![Regel voor verwante producten - informatie](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
+   ![ Verwante productregel - informatie ](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
-1. Voltooi de **[!UICONTROL Rule Information]** als volgt:
+1. Voltooi **[!UICONTROL Rule Information]** als volgt:
 
-   - Voer een **[!UICONTROL Rule Name]** om de regel te identificeren wanneer u in de Admin werkt.
+   - Voer een **[!UICONTROL Rule Name]** in om de regel te identificeren wanneer u in Beheer werkt.
 
-   - Voor **[!UICONTROL Priority]** Voer een getal in dat de volgorde bepaalt waarin de resultaten op de pagina worden weergegeven wanneer de resultaten van andere regels op dezelfde locatie worden toegepast. Getal `1` is de hoogste prioriteit.
+   - Voer bij **[!UICONTROL Priority]** een getal in dat de volgorde bepaalt waarin de resultaten op de pagina worden weergegeven wanneer de resultaten van andere regels op dezelfde locatie betrekking hebben. Number `1` is top priority.
 
-   - Om de regel toe te laten, reeks **[!UICONTROL Status]** tot `Active`.
+   - Stel **[!UICONTROL Status]** in op `Active` om de regel in te schakelen.
 
-   - Set **[!UICONTROL Apply To]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Apply To]** in op een van de volgende opties:
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-   - Als de regel voor een specifieke tijdspanne actief moet zijn, ga binnen **[!UICONTROL From]** en **[!UICONTROL To]** datums.
+   - Als de regel voor een bepaald tijdsbereik actief moet zijn, voert u de **[!UICONTROL From]** - en **[!UICONTROL To]** -datums in.
 
-   - Voor **[!UICONTROL Result Limit]**, voert u het aantal records in dat in de resultatenlijst moet worden weergegeven. Het maximumaantal is 20.
+   - Voer bij **[!UICONTROL Result Limit]** het aantal records in dat in de resultatenlijst moet worden weergegeven. Het maximumaantal is 20.
 
-   - Als de regel van toepassing is op een specifieke [klantensegment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** tot `Specified` en kies het klantensegment van de lijst.
+   - Als de regel op een specifiek [ klantensegment ](../customers/customer-segments.md) van toepassing is, plaats **[!UICONTROL Customer Segments]** aan `Specified` en kies het klantensegment van de lijst.
 
-   - Als de regel van toepassing is op een specifieke [Real-Time CDP-publiek](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** tot `Specified` en kiest u het Real-Time CDP-publiek in de lijst. Deze functie is in bèta. Als u wilt deelnemen aan het bètaprogramma, verzendt u een aanvraag naar [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Als de regel op een specifiek [ publiek van Real-Time CDP ](../customers/audience-activation.md) van toepassing is, plaats **[!UICONTROL Real-Time CDP Audience]** aan `Specified` en kies het publiek van Real-Time CDP van de lijst. Deze functie is in bèta. Als u zich bij het bètaprogramma zou willen aansluiten, verzend een verzoek aan [ dataconnection@adobe.com ](mailto:dataconnection@adobe.com).
 
-     ![Regel voor verwante producten - Real-Time CDP-publiek](./assets/rtcdp-related-products.png){width="500"}
+     ![ Verwante productregel - het publiek van Real-Time CDP ](./assets/rtcdp-related-products.png){width="500"}
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Products to Match]** en de voorwaarden te creëren zoals u zou willen [catalogusprijsregel](price-rules-catalog.md).
+1. In het linkerpaneel, kies **[!UICONTROL Products to Match]** en bouw de voorwaarden zoals u voor de regel van de a [ catalogusprijs ](price-rules-catalog.md) zou.
 
-   ![Regel voor verwante producten - producten die met elkaar overeenkomen](./assets/catalog-related-products-match.png){width="500"}
+   ![ Verwante productregel - producten om ](./assets/catalog-related-products-match.png){width="500"} aan te passen
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Products to Display]** en bouwt u de resultaten op zoals u voor een [catalogusprijsregel](price-rules-catalog.md).
+1. In het linkerpaneel, kies **[!UICONTROL Products to Display]** en bouw de resultaatvoorwaarden zoals u voor de regel van de a [ catalogusprijs ](price-rules-catalog.md) zou.
 
-   ![Regel voor verwante producten - weer te geven producten](./assets/catalog-related-products-to-display.png){width="500"}
+   ![ Verwante productregel - producten aan vertoning ](./assets/catalog-related-products-to-display.png){width="500"}
 
    Voltooi de voorwaarde om de producten te beschrijven die u in de getoonde resultaten wilt omvatten.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Een regel voor een verwant product verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
 1. Zoek de regel met verwante producten die u wilt verwijderen.
 
 1. Klik op de regel om de detailpagina te openen.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Delete]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Delete]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ## Demo van regel voor verwante producten
 

@@ -1,11 +1,11 @@
 ---
 title: URL herschrijft
-description: Meer informatie over URL-herschriften en het herschrijfgereedschap voor de handels-URL gebruiken om URL's te wijzigen die aan een product, categorie of CMS-pagina zijn gekoppeld.
+description: Meer informatie over het herschrijven van URL's vindt u met het gereedschap URL herschrijven van Commerce om URL's te wijzigen die zijn gekoppeld aan een product, categorie of CMS-pagina.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ Met het gereedschap URL herschrijven kunt u elke URL wijzigen die is gekoppeld a
 
 >[!NOTE]
 >
->Als u URL-herschrijvingen voor meerdere of alle producten tegelijk wilt bijwerken, raadpleegt u [Meerdere URL&#39;s worden herschreven](url-rewrite-product.md#multiple-url-rewrites).
+>Om URL bij te werken herschrijft voor veelvoudige of alle producten gelijktijdig, verwijs naar [ Veelvoudige URL herschrijft ](url-rewrite-product.md#multiple-url-rewrites).
 
-De voorwaarden _herschrijven_ en _omleiden_ worden vaak onderling verwisselbaar gebruikt, maar hebben betrekking op enigszins verschillende processen. Een URL wijzigt de manier waarop een URL in de browser wordt weergegeven. Een URL die omleidt werkt URL bij die op de server wordt opgeslagen. Een omleiding van een URL kan tijdelijk of permanent zijn. In uw winkel worden URL-herschriften en omleidingen gebruikt, zodat u gemakkelijk de URL-sleutel van een product, categorie of pagina kunt wijzigen en bestaande koppelingen kunt behouden.
+De termijnen _herschrijven_ en _richten_ vaak worden gebruikt onderling verwisselbaar, maar verwijzen naar lichtjes verschillende processen. Een URL wijzigt de manier waarop een URL in de browser wordt weergegeven. Een URL die omleidt werkt URL bij die op de server wordt opgeslagen. Een omleiding van een URL kan tijdelijk of permanent zijn. In uw winkel worden URL-herschriften en omleidingen gebruikt, zodat u gemakkelijk de URL-sleutel van een product, categorie of pagina kunt wijzigen en bestaande koppelingen kunt behouden.
 
-Standaard, [automatische URL-omleidingen](url-redirect-product-automatic.md) zijn ingeschakeld voor uw winkel en de **Permanente omleiding maken voor oude URL** Schakel het selectievakje in onder het veld URL-sleutel van elk product.
+Door gebrek, [ automatische opnieuw richt URL ](url-redirect-product-automatic.md) wordt toegelaten voor uw opslag en **leidt tot Permanent Redirect voor oude URL** checkbox wordt geselecteerd onder het zeer belangrijke gebied URL van elk product.
 
 {{url-rewrite-skip}}
 
 {{url-rewrite-params}}
 
-![Zoekmachine optimaliseren - permanente omleiding voor URL maken](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![ de motoroptimalisering van het Onderzoek - creeer permanent opnieuw richt URL ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## Canonieke URL&#39;s
 
@@ -38,37 +38,37 @@ Als u Google niet uitdrukkelijk vertelt welke URL canonicaal is, maakt het de ke
 
 Afhankelijk van de manier waarop u uw website instelt, kunnen er meerdere versies van uw site in de index voorkomen, waaronder:
 
-    https://www.example.com
-    https://www.example.com/
-    http://www.example.com
-    https://example.com
-    https://www.example.com/index.html
+     https://www.example.com 
+     https://www.example.com/ 
+     http://www.example.com
+     https://example.com 
+     https://www.example.com/index.html 
 
-Als u een canonieke pagina wilt opgeven, raadpleegt u [Google Search Central-documentatie](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Om een canonieke pagina te specificeren, zie {de documentatie van het Onderzoek van 0} Google Centrale ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).[
 
 ## URL-herschrijvingen configureren
 
-Het toelaten van de Server Apache van het Web maakt deel uit van de aanvankelijke opstelling van de Handel. De handel gebruikt routinematig URL herschrijft om het dossier te verwijderen - naam `index.php` die normaal gesproken in de URL net na de hoofdmap wordt weergegeven. Wanneer Herschrijvingen van de Server van het Web worden toegelaten, herschrijft het systeem elke URL om weg te gaan `index.php`. Het herschrijven verwijdert woorden die niets van waarde aan zoekmachines of klanten overbrengen, en heeft geen invloed op prestaties of plaatsrang.
+Het inschakelen van Apache Rewrites voor webservers maakt deel uit van de eerste Commerce-configuratie. Commerce gebruikt gewoonlijk URL herschrijft om de bestandsnaam `index.php` te verwijderen die normaal gesproken in de URL net na de hoofdmap wordt weergegeven. Wanneer Web Server Rewrites wordt toegelaten, herschrijft het systeem elke URL om `index.php` weg te laten. Het herschrijven verwijdert woorden die niets van waarde aan zoekmachines of klanten overbrengen, en heeft geen invloed op prestaties of plaatsrang.
 
 URL zonder herschrijven van webserver
 
-    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
+     http://www.yourdomain.com/magento/index.php/storeview/url-identifier
 
 URL met herschrijven van webserver
 
-    http://www.yourdomain.com/magento/storeview/url-identifier
+     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster waar **[!UICONTROL General]** wordt uitgebreid, kiest u **[!UICONTROL Web]**.
+1. Kies **[!UICONTROL Web]** in het linkerdeelvenster waar **[!UICONTROL General]** wordt uitgevouwen.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![Algemene configuratie - optimalisatie van zoekprogramma&#39;s voor het web](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - de optimalisering van de Webonderzoekmachine ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Use Web Server Rewrites]** naar uw voorkeur.
+1. Stel **[!UICONTROL Use Web Server Rewrites]** in op uw voorkeur.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## URL-herschrijvingen maken
 
@@ -78,24 +78,24 @@ URL herschrijft kan worden gebruikt om high-value sleutelwoorden toe te voegen o
 
 Systeem-URL
 
-    http://www.example.com/catalog/category/id/6
+     http://www.example.com/catalog/category/id/6
 
 Oorspronkelijke URL
 
-    http://www.example.com/peripherals/keyboard.html
+     http://www.example.com/peripherals/keyboard.html
 
 URL omgeleid product
 
-    http://www.example.com/ergonomic-keyboard.html
+     http://www.example.com/ergonomic-keyboard.html
 
 Aanvullende categorie-URL&#39;s
 
-    http://www.example.com/all-on-sale.html
-    http://www.example.com/save-now/spring-sale
+     http://www.example.com/all-on-sale.html
+     http://www.example.com/save-now/spring-sale 
 
-![URL herschrijft raster](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![ URL herschrijft net ](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
-De handel biedt deze URL aan herschrijft types:
+Commerce biedt de volgende URL-herschrijftypen aan:
 
 * [Productherschrijvingen](url-rewrite-product.md)
 * [Nieuwe categorie](url-rewrite-category.md)

@@ -14,41 +14,41 @@ ht-degree: 0%
 
 U kunt het beste regelmatig uw abonnementenlijst beheren en alle aanvragen om uw abonnement op te zeggen verwerken. In sommige rechtsgebieden is het wettelijk vereist dat verzoeken tot opzegging binnen een bepaalde termijn worden verwerkt.
 
-U kunt uw abonnees eenvoudig beheren met een eenvoudige lijst met actieve abonnementen. Wanneer een klant een afmeldingsverzoek indient, kunt u gewoon een _Abonnement opzeggen_ actie voor een of meer geselecteerde abonnementen.
+U kunt uw abonnees eenvoudig beheren met een eenvoudige lijst met actieve abonnementen. Wanneer een klant een unsubscribe verzoek voorlegt, kunt u eenvoudig een _Unsubscribe_ actie op één of meerdere geselecteerde abonnementen toepassen.
 
 In installaties met één site met meerdere winkelweergaven kan een abonnement op een klantenaccount worden gekoppeld aan een specifieke winkelweergave.
 
-In meerdere winkels en meerdere sites met een wereldwijd [bereik van klantenaccount](../customers/customer-account-scope.md), kan een klantenaccount worden geabonneerd op nieuwsbrieven voor meerdere sites/winkels. In dit geval kunt u de klantenaccount bewerken om een groep abonnementen te beheren of een abonnement voor een specifieke site/winkel annuleren om een aanvraag in te willigen.
+In multi-store en multi-site montages met een globaal [ werkingsgebied van de klantenrekening ](../customers/customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven voor veelvoudige plaatsen/opslag worden ingetekend. In dit geval kunt u de klantenaccount bewerken om een groep abonnementen te beheren of een abonnement voor een specifieke site/winkel annuleren om een aanvraag in te willigen.
 
 Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnementenlijst exporteren als een CSV- of XML-bestand.
 
 ## Abonnementen voor een klant beheren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Zoek de klant in het raster en klik op **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek de klant in het raster en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Klikken **[!UICONTROL Newsletter]** in het linkerdeelvenster.
+1. Klik op **[!UICONTROL Newsletter]** in het linkerdeelvenster.
 
 1. Wijzig de abonnementen voor de klant volgens uw plaats/opslagopstelling.
 
-   Voor één site/één winkel-instelling kunt u gewoon de opdracht **[!UICONTROL Subscribed to Newsletter]** selectievakje.
+   Voor één site of één winkel kunt u gewoon het selectievakje **[!UICONTROL Subscribed to Newsletter]** in- of uitschakelen.
 
-   ![Selectievakje voor abonnement voor nieuwsbrief van klant in één winkel](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
+   ![ Enige checkbox van het de bulletin van de archiefklant ](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
-   Voor één site/meerdere opslaglocaties kunt u de **[!UICONTROL Subscribed to Newsletter]** selectievakje en set **[!UICONTROL Subscribed on Store View]** naar de juiste winkelweergave voor het abonnement.
+   Voor één site/meerdere winkels kunt u het selectievakje **[!UICONTROL Subscribed to Newsletter]** in- of uitschakelen en **[!UICONTROL Subscribed on Store View]** instellen op de juiste winkelweergave voor het abonnement.
 
-   ![Selectievakje voor abonnement op nieuwsbrief van meerdere winkels en Kiezer voor weergave van winkels](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
+   ![ multi-store checkbox van het de bulletin van de klant en de selecteur van de opslagmening ](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
 
-   Voor een installatie van meerdere sites/meerdere winkels met een algemeen bereik voor klantenaccounts geeft de pagina de abonnementsstatus voor alle sites weer. U kunt de **[!UICONTROL Subscribed]** selectievakje en/of de **[!UICONTROL Store View]** voor het abonnement.
+   Voor een installatie van meerdere sites/meerdere winkels met een algemeen bereik voor klantenaccounts geeft de pagina de abonnementsstatus voor alle sites weer. U kunt het selectievakje **[!UICONTROL Subscribed]** in- of uitschakelen en/of de **[!UICONTROL Store View]** voor het abonnement wijzigen.
 
-   ![Selectievakjes voor abonnementen op nieuwsbrieven van klanten met meerdere sites en kiezers voor winkelweergave](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
+   ![ Multisite checkboxes van het de bulletin van de klant en de selecteurs van de opslagmening ](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Customer]**.
 
 ## Abonnement annuleren in de lijst met abonnees
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
 
    Voor een installatie op meerdere sites waarbij sommige klanten abonnementen hebben voor meerdere sites, wordt elk abonnement weergegeven als een lijstitem in het raster.
 
@@ -58,31 +58,31 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
    >
    >Als u het abonnement op grote hoeveelheden opzegt, schakelt u het selectievakje in van elke abonnee die u wilt annuleren.
 
-1. Stel de _[!UICONTROL Action]_controle op **[!UICONTROL Unsubscribe]**en klik op **[!UICONTROL Submit]**.
+1. Stel het besturingselement _[!UICONTROL Action]_in op **[!UICONTROL Unsubscribe]**en klik op **[!UICONTROL Submit]**.
 
-   ![Abonnement op nieuwsbrief opzeggen](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
+   ![ Unsubscribe nieuwsbrief ](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
-   De status van de record verandert in `Unsubscribed`.
+   De status van de record verandert in `Unsubscribed` .
 
 ## De lijst met abonnees exporteren
 
-1. Van de _[!UICONTROL Newsletter Subscribers]_lijst, gebruik de filtercontroles om slechts verslagen met te omvatten_ Status _van `Subscribed` en voor de juiste website, opslag of opslagweergave.
+1. Van de _[!UICONTROL Newsletter Subscribers]_lijst, gebruik de filtercontroles om slechts verslagen met a_ Status _van `Subscribed` en voor de aangewezen website, opslag, of opslagmening te omvatten.
 
-1. Stel de **[!UICONTROL Export to]** de controle op een van de volgende punten:
+1. Stel het besturingselement **[!UICONTROL Export to]** in op een van de volgende opties:
 
    - `CSV`
    - `XML`
 
-1. Klikken **[!UICONTROL Export]** en zoekt u naar de vraag onder aan het scherm en slaat u het bestand op.
+1. Klik op **[!UICONTROL Export]** en zoek de vraag onder aan het scherm en sla het bestand op.
 
-   ![Nieuwsbrieven exporteren](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
+   ![ de nieuwsbrief van de Uitvoer abonnees ](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
 
 ## Een abonnee verwijderen uit de lijst met abonnees
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
 
 1. Zoek de abonnee in het raster en selecteer het selectievakje in de eerste kolom.
 
-1. Stel de _[!UICONTROL Action]_controle op **[!UICONTROL Delete]**en klik op **[!UICONTROL Submit]**.
+1. Stel het besturingselement _[!UICONTROL Action]_in op **[!UICONTROL Delete]**en klik op **[!UICONTROL Submit]**.
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.

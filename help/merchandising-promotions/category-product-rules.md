@@ -18,45 +18,45 @@ Met Categorieregels wordt de productselectie dynamisch gewijzigd volgens een aan
 
 >[!TIP]
 >
->Tijdens de opstelling van categorieregels zijn de producten _gesorteerd_, _gematcht_, _toegewezen_, en _ongeplaatst_ volgens die regel **_alleen_** als deze rubriek is opgeslagen. Als u bijvoorbeeld een product aan de catalogus toevoegt en het volgens de regel wilt toewijzen, **moet elke categorie opnieuw opslaan** dat wordt geplaatst om producten door regel aan te passen. Als de status van een productvoorraad wordt gewijzigd in `In Stock` of `Out of Stock` en producten in de categorie _gesorteerd_ volgens de **[!UICONTROL Automatic Sorting]** regel, u moet klikken **[!UICONTROL Save Category]**.
+>Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**wanneer deze categorie wordt bewaard._ Bijvoorbeeld, als u een product aan de catalogus toevoegt en het volgens de regel wilt toewijzen, moet u **elke categorie** opnieuw opslaan die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _zouden moeten worden gesorteerd_ volgens de **[!UICONTROL Automatic Sorting]** regel, moet u **[!UICONTROL Save Category]** klikken.
 
-Elke voorwaarde bestaat uit een attribuut, waarde, en logische exploitant. Alleen kenmerken met de _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_eigenschap ingesteld op `Yes` kan worden gebruikt in categorieregels. U moet deze eigenschap instellen voor het kenmerk als u een kenmerk wilt gebruiken dat niet in productlijsten is opgenomen. Hoewel de attributen van de Datum niet worden gesteund, kunt u de Gemaakt Datum of Gewijzigde attributen gebruiken om een datum, of een waaier van data te bepalen. Als u bijvoorbeeld alleen producten wilt opnemen die in de afgelopen week zijn gemaakt, stelt u &#39;Aanmaakdatum&#39; in op de waarde `<7`.
+Elke voorwaarde bestaat uit een attribuut, waarde, en logische exploitant. In categorieregels kunnen alleen kenmerken worden gebruikt waarvoor de eigenschap _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_is ingesteld op `Yes` . U moet deze eigenschap instellen voor het kenmerk als u een kenmerk wilt gebruiken dat niet in productlijsten is opgenomen. Hoewel de attributen van de Datum niet worden gesteund, kunt u de Gemaakt Datum of Gewijzigde attributen gebruiken om een datum, of een waaier van data te bepalen. Als u bijvoorbeeld alleen producten wilt opnemen die in de afgelopen week zijn gemaakt, stelt u Aanmaakdatum in op de waarde `<7` .
 
 >[!NOTE]
 >
->Zorg ervoor om elk attribuut te vormen dat in de regel als a wordt gebruikt [_slim_ attribute](smart-attributes-configure.md).
+>Zorg ervoor om elk attribuut te vormen dat in de regel als a [_slimme_ attributen ](smart-attributes-configure.md) wordt gebruikt.
 
-![Productregel voor categorie](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![ Regel van het Product van de Categorie ](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-De productregels van de categorie kunnen het proces versnellen om specifieke producten aan categorieën toe te wijzen, die op voorwaarden worden gebaseerd die bepalen welke producten in de categorie verschijnen. De &quot;slimme&quot; kenmerken die kunnen worden gebruikt met de regels voor categorieproducten worden gespecificeerd in de [Visual Merchandiser](visual-merchandiser.md) configuratie.
+De productregels van de categorie kunnen het proces versnellen om specifieke producten aan categorieën toe te wijzen, die op voorwaarden worden gebaseerd die bepalen welke producten in de categorie verschijnen. De &quot;slimme&quot;attributen die met de regels van het categorieproduct kunnen worden gebruikt worden gespecificeerd in [ Visuele Merchandiser ](visual-merchandiser.md) configuratie.
 
 >[!NOTE]
 >
 >Wees voorzichtig bij het toepassen van een regel voor een categorieproduct, omdat alle producten die niet aan de voorwaarde voldoen, uit de categorie worden verwijderd. Als u bijvoorbeeld een regel maakt die alleen paarse tankdoppen bevat, worden alle andere tanktoppen uit de categorie verwijderd.
 
-## Stap 1: Vorm _slim_ attributes
+## Stap 1: Vorm de _slimme_ attributen
 
-1. Voor elk attribuut dat in de regel moet worden gebruikt, zorg ervoor dat [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) storefront, eigenschap is ingesteld op `Yes`.
+1. Voor elk attribuut dat in de regel moet worden gebruikt, zorg ervoor dat het [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) storefront bezit aan `Yes` wordt geplaatst.
 
    >[!NOTE]
    >
-   >Zorg ervoor dat het kenmerk dat u selecteert GEEN multiselect is _[!UICONTROL Input Type]_.
+   >Zorg ervoor dat het kenmerk dat u selecteert GEEN multiselect _[!UICONTROL Input Type]_is.
 
-1. Voltooi de [configuratie](smart-attributes-configure.md) om elk _slim_ attributen die met Visuele Merchandiser moeten worden gebruikt.
+1. Voltooi de [ configuratie ](smart-attributes-configure.md) om elk _slimme_ attribuut te identificeren dat met Visuele Merchandiser moet worden gebruikt.
 
 ## Stap 2: De categorieregel maken
 
 1. Open in de categoriestructuur de categorie die u wilt bewerken.
 
-1. In de **[!UICONTROL Products in Category]** sectie, set **[!UICONTROL Match products by rule]** tot `Yes`.
+1. Stel **[!UICONTROL Match products by rule]** in op `Yes` in de sectie **[!UICONTROL Products in Category]** .
 
    De opties voor automatisch sorteren en voorwaarden worden weergegeven.
 
 1. Klik op **[!UICONTROL Add Condition]**.
 
-1. Kies de optie **[!UICONTROL Attribute]** dat is de basis van de voorwaarde .
+1. Kies de **[!UICONTROL Attribute]** die de basis van de voorwaarde is.
 
-1. Set **[!UICONTROL Operator]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Operator]** in op een van de volgende opties:
 
    - `Equal`
    - `Not equal`
@@ -66,34 +66,34 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
    - `Less than or equal to`
    - `Contains`
 
-1. Voer de **[!UICONTROL Value]** dat moet worden nagekomen .
+1. Voer de **[!UICONTROL Value]** in die moet worden aangepast.
 
-   ![Voorwaarde toevoegen aan categorieregel](../catalog/assets/category-rule-create.png){width="500"}
+   ![ voeg Voorwaarde aan de Regel van de Categorie toe ](../catalog/assets/category-rule-create.png){width="500"}
 
 1. Herhaal dit proces voor elk kenmerk dat nodig is om de voorwaarden te beschrijven waaraan moet worden voldaan.
 
    Bijvoorbeeld, om producten aan te passen die tussen zeven tot 30 dagen geleden werden gecreeerd, doe het volgende:
 
-   - Set **[!UICONTROL Date Created]** tot `Less than 30`.
+   - Stel **[!UICONTROL Date Created]** in op `Less than 30` .
 
-   - Set **[!UICONTROL Logic]** tot `AND`.
+   - Stel **[!UICONTROL Logic]** in op `AND` .
 
      >[!NOTE]
      >
-     >Wanneer u `AND`, is de regel van toepassing op producten die aan alle voorwaarden voldoen. Kies `OR`, is zij van toepassing op producten waaraan ten minste één voorwaarde is voldaan.
+     >Wanneer u `AND` kiest, is de regel van toepassing op producten waar aan alle voorwaarden wordt voldaan. Wanneer u `OR` kiest, is deze van toepassing op producten waaraan ten minste één voorwaarde is voldaan.
 
-   - Set **[!UICONTROL Date Modified]** tot `Greater than 7`.
+   - Stel **[!UICONTROL Date Modified]** in op `Greater than 7` .
 
-1. Als u automatisch een sorteervolgorde wilt toepassen op de lijst met dynamisch gegenereerde producten, stelt u **[!UICONTROL Automatic Sorting]**.
+1. Stel **[!UICONTROL Automatic Sorting]** in als u automatisch een sorteervolgorde wilt toepassen op de lijst met dynamisch gegenereerde producten.
 
-   ![Automatisch sorteren](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
+   ![ Automatisch Sorteren ](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
    Sorteervolgordeopties worden globaal gedefinieerd en worden toegepast op basis van de huidige omstandigheden. U kunt geen andere sorteervolgorde instellen voor het weergaveniveau van de website, opslag of opslag.
 
    | Sorteren, optie | Beschrijving |
    |-----------| -----------|
-   | [!UICONTROL Stock quantity] | Sorteren op basis van voorraad, van boven of beneden: `Move low stock to top` of `Move out of stock to bottom` |
-   | [!UICONTROL Special price] | Sorteren op prijs, van boven of beneden: `Special price to top` of `Special price to bottom` |
+   | [!UICONTROL Stock quantity] | Sorteren op basis van voorraad, van boven of onder: `Move low stock to top` of `Move out of stock to bottom` |
+   | [!UICONTROL Special price] | Sorteren op prijs, van boven naar beneden: `Special price to top` of `Special price to bottom` |
    | [!UICONTROL New Products] | Nieuwste producten weergeven: `Newest products first` |
    | [!UICONTROL Color] | Alfabet sorteren op kleur: `Sort by color` |
    | [!UICONTROL Product Names] | Sorteren op naam in oplopende of aflopende volgorde: `Name A - Z` of `Name Z -A` |
@@ -102,7 +102,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
    {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save Category]**.
+1. Klik op **[!UICONTROL Save Category]** als de bewerking is voltooid.
 
 >[!NOTE]
 >
@@ -110,17 +110,17 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
 ### Menuopties
 
-- **[!UICONTROL Match products by rule]** - Hiermee wordt bepaald of de lijst van producten in de categorie dynamisch wordt gegenereerd door een categorieregel. Opties: `Yes` / `No`
+- **[!UICONTROL Match products by rule]** - Hiermee wordt bepaald of de lijst met producten in de categorie dynamisch wordt gegenereerd door een categorieregel. Opties: `Yes` / `No`
 
-- **[!UICONTROL Automatic Sorting]** - Hiermee wordt automatisch een sorteervolgorde toegepast op de lijst met categorieproducten. Opties: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low`, en `Price: Low to High`
+- **[!UICONTROL Automatic Sorting]** - Hiermee wordt automatisch een sorteervolgorde toegepast op de lijst met categorieproducten. Opties: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low` en `Price: Low to High`
 
   >[!NOTE]
   >
-  >Als u een configureerbaar product met kindproducten hebt, wordt de voorraad van het ouderproduct berekend gebaseerd op het gecombineerde totaal van de voorraden van het kindproduct. Overweeg een voorbeeld waar u configureerbaar product hebt _Proteus Fitness Shirt_ met oranje, rode en gele kinderproducten met verschillende voorraadhoeveelheden van elk. De voorraad van het bovenliggende product wordt berekend op basis van het gecombineerde totaal van de voorraad van oranje, rode en gele onderliggende producten. Met de `Move low stock to top` , wordt de voorraad van de ouderproducten berekend door al zijn verkoopbare kindproducten voorraad te combineren en dienovereenkomstig te sorteren.
+  >Als u een configureerbaar product met kindproducten hebt, wordt de voorraad van het ouderproduct berekend gebaseerd op het gecombineerde totaal van de voorraden van het kindproduct. Overweeg een voorbeeld waar u configureerbaar product _ProteusZitter van de Eiwitheid_ met oranje, rode, en gele kindproducten met verschillende voorraadhoeveelheden van elk hebt. De voorraad van het bovenliggende product wordt berekend op basis van het gecombineerde totaal van de voorraad van oranje, rode en gele onderliggende producten. Met de optie `Move low stock to top` wordt de voorraad van bovenliggende producten berekend door alle verkochte onderliggende producten te combineren en dienovereenkomstig te sorteren.
 
 - **[!UICONTROL Add Condition]** - Voegt een andere voorwaarde aan de regel toe.
 
-- **[!UICONTROL Attribute]** - Bepaalt het attribuut dat als basis van de voorwaarde wordt gebruikt. Opties:
+- **[!UICONTROL Attribute]** - Bepaalt het kenmerk dat wordt gebruikt als basis voor de voorwaarde. Opties:
 
   | Optie | Beschrijving |
   | ------ | ----------- |
@@ -137,10 +137,10 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
   >[!NOTE]
   >
-  >De hoeveelheid van een configureerbaar product met kindopties wordt berekend door alle verkoopbare aantallen van het kindproduct te combineren. Overweeg een voorbeeld waar u een configureerbaar product hebt _Standaard fitnesstank_ met opties voor paarse, rode en gele kleur en verschillende hoeveelheden van beide. In dit geval is de hoeveelheid van het bovenliggende product (Basic Fitness Tank) de gecombineerde verkoopbare hoeveelheid van de onderliggende producten van paarse, rode en gele kleur.
+  >De hoeveelheid van een configureerbaar product met kindopties wordt berekend door alle verkoopbare aantallen van het kindproduct te combineren. Overweeg een voorbeeld waar u een configureerbaar product _BasisSteek van de Fantasiteit_ met paarse, rode, en gele kleurenopties en verschillende hoeveelheden van elk hebt. In dit geval is de hoeveelheid van het bovenliggende product (Basic Fitness Tank) de gecombineerde verkoopbare hoeveelheid van de onderliggende producten van paarse, rode en gele kleur.
 
-- **[!UICONTROL Operator]** - Geeft de operator op die op de kenmerkwaarde wordt toegepast om aan de voorwaarde te voldoen. Tenzij een operator is opgegeven, `Equal` wordt gebruikt als standaard. Opties: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to`, en `Contains`
+- **[!UICONTROL Operator]** - Geeft de operator op die wordt toegepast op de kenmerkwaarde om aan de voorwaarde te voldoen. Tenzij een operator is opgegeven, wordt `Equal` als de standaardwaarde gebruikt. Opties: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` en `Contains`
 
 - **[!UICONTROL Value]** - Geeft de waarde op die het kenmerk aan de voorwaarde moet voldoen.
 
-- **[!UICONTROL Logic]** - De kolom Logica wordt gebruikt om meerdere voorwaarden te definiëren en wordt alleen weergegeven wanneer een andere voorwaarde wordt toegevoegd. De operatoren volgen de prioriteitsregels voor MySQL [booleaanse operatoren](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opties: `AND` / `OR`
+- **[!UICONTROL Logic]** - De kolom Logica wordt gebruikt om meerdere voorwaarden te definiëren en wordt alleen weergegeven wanneer een andere voorwaarde wordt toegevoegd. De exploitanten volgen de regels van belangrijkheid voor MySQL [ booleaanse exploitanten ](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opties: `AND` / `OR`

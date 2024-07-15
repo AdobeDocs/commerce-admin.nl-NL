@@ -18,51 +18,51 @@ Voordat u een gebeurtenis kunt maken, moet u de basisconfiguratie voltooien om g
 
 ## Gebeurtenissen inschakelen en configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Catalog Events]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Catalog Events]** sectie uit en doe het volgende:
 
-   ![Catalogusconfiguratie - catalogusgebeurtenissen](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - catalogusgebeurtenissen ](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Enable Catalog Events Functionality]** tot `Yes`.
+   - Stel **[!UICONTROL Enable Catalog Events Functionality]** in op `Yes` .
 
-   - Set **[!UICONTROL Enable Catalog Event Widget on Storefront]** tot `Yes`.
+   - Stel **[!UICONTROL Enable Catalog Event Widget on Storefront]** in op `Yes` .
 
-   - Voer de **[!UICONTROL Number of Events to be Displayed in the Event Slider Sidebar Widget]**. Deze waarde is standaard ingesteld op `5`. Als u slechts één gebeurtenis tegelijk in de schuifregelaar wilt weergeven, voert u `1`.
+   - Voer de **[!UICONTROL Number of Events to be Displayed in the Event Slider Sidebar Widget]** in. Deze waarde wordt standaard ingesteld op `5` . Voer `1` in als u slechts één gebeurtenis tegelijk in de schuifregelaar wilt weergeven.
 
-   - Voer het aantal van **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]**. Deze waarde is standaard ingesteld op `2`. Als u wilt dat de schuifregelaar de volgende gebeurtenis in de juiste volgorde weergeeft wanneer op de knop wordt geklikt, voert u `1`.
+   - Voer het getal **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]** in. Deze waarde wordt standaard ingesteld op `2` . Voer `1` in als u wilt dat de volgende gebeurtenis achtereenvolgens wordt weergegeven wanneer op de schuifregelaar wordt geklikt.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Toegangsbeperkingen
 
 De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde klanten worden beperkt die login, of uitgebreid tot niet geregistreerde klanten die zich moeten registreren alvorens toegang te verkrijgen.
 
-![Algemene configuratie - websitebeperkingen](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
+![ Algemene configuratie - websitebeperkingen ](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
 ### Toegang beperken
 
 De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde klanten worden beperkt die login, of uitgebreid tot niet geregistreerde klanten die zich moeten registreren alvorens toegang te verkrijgen.
 
-![Algemene configuratie - websitebeperkingen](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
+![ Algemene configuratie - websitebeperkingen ](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL General]** en kiest u **[!UICONTROL General]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL General]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Website Restrictions]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Website Restrictions]** sectie uit.
 
-1. Set **[!UICONTROL Access Restriction]** tot `Yes`.
+1. Stel **[!UICONTROL Access Restriction]** in op `Yes` .
 
-1. Set **[!UICONTROL Restriction Mode]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Restriction Mode]** in op een van de volgende opties:
 
    - `Website Closed`
    - `Private Sales: Login Only`
    - `Private Sales: Login and Register`
 
-1. Set **[!UICONTROL Startup Page]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Startup Page]** in op een van de volgende opties:
 
    - `To login form (302 Found)` - Gebruikers worden omgeleid naar het aanmeldingsformulier voordat ze toegang krijgen tot de site.
 
@@ -72,22 +72,22 @@ De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde
      >
      >Zorg ervoor dat u een koppeling naar de aanmeldingspagina opneemt vanaf de bestemmingspagina, zodat klanten zich kunnen aanmelden om toegang te krijgen tot de site.
 
-1. Kies de optie **[!UICONTROL Landing Page]** die wordt weergegeven voordat klanten zich aanmelden bij de particuliere verkoopsite.
+1. Kies de **[!UICONTROL Landing Page]** die wordt weergegeven voordat klanten zich aanmelden bij de persoonlijke verkoopsite.
 
-1. Als u wilt weten dat de bestemmingspagina correct is en dat de site geen andere pagina&#39;s bevat die u wilt indexeren, stelt u **[!UICONTROL HTTP Response]** tot `200 OK`.
+1. Stel **[!UICONTROL HTTP Response]** in op `200 OK` als u wilt dat de zoekmachine bots en spinnen weet dat de bestemmingspagina correct is en er geen andere pagina&#39;s op de site staan die u wilt indexeren.
 
-   In alle andere gevallen `503 Service Unavailable`.
+   In alle andere gevallen ingesteld op `503 Service Unavailable` .
 
    >[!NOTE]
    >
-   >Alleen van toepassing als de beperkingsmodus is ingesteld op _Website gesloten_. De landingspagina wordt weergegeven als ruwe HTML.
+   >Van toepassing slechts als de beperkingswijze aan _Gesloten Website_ wordt geplaatst. De landingspagina wordt weergegeven als ruwe HTML.
 
-1. Als u wilt dat de velden in de aanmeldingsnaam van de klant automatisch worden ingevuld en dat wachtwoordformulieren niet meer worden ingevuld bij eerdere invoer, stelt u **[!UICONTROL Enable Autocomplete on login/forgot password forms]** tot `Yes`.
+1. Als u wilt dat de velden in de aanmeldingsnaam van de klant automatisch worden ingevuld en wachtwoordformulieren worden vergeten van vorige vermeldingen, stelt u **[!UICONTROL Enable Autocomplete on login/forgot password forms]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### Verkoop beperken
 
-Standaard zijn producten die in volgende of gesloten gebeurtenissen worden weergegeven, niet beschikbaar voor algemene verkoop en de _[!UICONTROL Add to Cart]_niet op de productlijst of productpagina wordt weergegeven.
+Standaard zijn producten die in volgende of gesloten gebeurtenissen worden weergegeven, niet beschikbaar voor de algemene verkoop en staat de knop _[!UICONTROL Add to Cart]_niet op de productlijst of productpagina.
 
-Als u de _[!UICONTROL Add to Cart]_knop voor een gesloten gebeurtenis, moet de gebeurtenis worden verwijderd (zie [Gebeurtenissen bijwerken](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.
+Om de _[!UICONTROL Add to Cart]_knoop voor een gesloten gebeurtenis te herstellen, moet de gebeurtenis worden geschrapt (zie [ gebeurtenissen van de Update ](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.

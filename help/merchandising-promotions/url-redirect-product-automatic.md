@@ -1,6 +1,6 @@
 ---
 title: Automatische omleidingen
-description: Leer hoe u automatische omleidingen configureert die moeten worden gegenereerd wanneer de URL-sleutel van een product of categorie wordt gewijzigd in uw winkel Commerce.
+description: Leer hoe u automatische omleidingen configureert die worden gegenereerd wanneer de URL-sleutel van een product of categorie wordt gewijzigd in uw Commerce-winkel.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -20,35 +20,35 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 ## Automatische omleidingen instellen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![Catalogusconfiguratie - optimalisatie zoekprogramma](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** tot `Yes`.
+1. Stel **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## product-URL&#39;s automatisch doorsturen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Zoek het product in de lijst en klik om de record te openen.
 
-1. Uitbreiden ![Expansiekiezer ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![Optimalisatie van zoekmachines voor producten - permanent omleiden](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![ de optimalisering van het het onderzoekscentrum van het Product - permanent opnieuw richt ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL URL Key]** Ga als volgt te werk:
+1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
-   - Zorg ervoor dat de **[!UICONTROL Create Permanent Redirect for old URL]** selectievakje is ingeschakeld. Indien niet, volg de instructies op [automatische omleidingen inschakelen](url-rewrite.md#configure-url-rewrites).
+   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [ toe te laten automatisch opnieuw richt ](url-rewrite.md#configure-url-rewrites).
 
-   - Werk de **[!UICONTROL URL Key]** indien nodig, met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
+   - Werk **[!UICONTROL URL Key]** zo nodig bij met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 1. Wanneer ertoe aangezet om het geheime voorgeheugen te verfrissen, volg de verbindingen in het bericht bij de bovenkant van de werkruimte.
 
@@ -56,19 +56,19 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 ## Categorie-URL&#39;s automatisch doorsturen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Zoek de categorie in de structuur en klik om de record te openen.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-1. Voor **[!UICONTROL URL Key]** Ga als volgt te werk:
+1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
-   - Zorg ervoor dat de **[!UICONTROL Create Permanent Redirect for old URL]** selectievakje is ingeschakeld. Indien niet, volg de instructies op [automatische omleidingen inschakelen](url-rewrite.md#configure-url-rewrites).
+   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [ toe te laten automatisch opnieuw richt ](url-rewrite.md#configure-url-rewrites).
 
-   - Werk de **[!UICONTROL URL Key]** indien nodig, met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
+   - Werk **[!UICONTROL URL Key]** zo nodig bij met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 1. Wanneer ertoe aangezet om het geheime voorgeheugen te verfrissen, volg de verbindingen in het bericht bij de bovenkant van de werkruimte.
 
@@ -80,16 +80,16 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 >
 >Als u de URL voor het automatisch genereren van categorieën/producten uitschakelt, wordt de bestaande URL voor de categorie/het producttype permanent verwijderd. Deze URL kan niet worden hersteld. Dit kan mogelijk leiden tot onopgeloste URL-conflicten tussen categorieën/producttypen waarvoor een handmatige update van de URL-sleutel nodig is om deze op te lossen.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-1. Set **[!UICONTROL Generate "category/product" URL Rewrites]** tot `No`.
+1. Stel **[!UICONTROL Generate "category/product" URL Rewrites]** in op `No` .
 
-1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL OK]** om de wijziging en verwijdering van bestaande URL te bevestigen.
+1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL OK]** om de wijziging te bevestigen en de bestaande URL te verwijderen.
 
-   ![Herschrijvingen van categorie/product-URL uitschakelen - bevestigen](./assets/seo-rewrite-off.png){width="350"}
+   ![ Draai van categorie/productURL herschrijft - bevestigt ](./assets/seo-rewrite-off.png){width="350"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

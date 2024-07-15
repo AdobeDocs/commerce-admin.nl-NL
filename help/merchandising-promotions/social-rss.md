@@ -16,108 +16,108 @@ Veel handelaren gebruiken sociale media en andere digitale hulpmiddelen om merk-
 
 ## Sociale netwerken
 
-Uw winkel kan verbinding maken met sociale netwerken door een [Marketplace-extensie](../getting-started/commerce-marketplace.md). Bovendien kunt u eenvoudig sociale plug-ins toevoegen, zoals de _leuk_ naar CMS-blokken die in de gehele winkel in pagina&#39;s kunnen worden opgenomen.
+Uw opslag kan met sociale netwerken worden verbonden door de uitbreiding van de a [ Marketplace ](../getting-started/commerce-marketplace.md) te installeren. Bovendien kunt u sociale stoppen zoals _gemakkelijk toevoegen als_ knoop aan blokken CMS die in pagina&#39;s door uw opslag kunnen worden opgenomen.
 
-De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakkelijk aan uw opslag kunnen worden toegevoegd. Daarnaast bevat de Commerce Marketplace veel extensies die u kunt gebruiken om uw winkel te integreren met sociale media. In het volgende voorbeeld wordt getoond hoe u een Facebook kunt toevoegen _leuk_ aan uw winkel.
+De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakkelijk aan uw opslag kunnen worden toegevoegd. Daarnaast bevat de Commerce Marketplace veel extensies die u kunt gebruiken om uw winkel te integreren met sociale media. Het volgende voorbeeld toont hoe te om een Facebook _als_ knoop aan uw opslag toe te voegen.
 
 >[!NOTE]
 >
->Adobe Commerce heeft de native _Magento sociaal_ Facebook-integratie en ondersteunt de extensie niet meer. Ga naar de [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} om alternatieve extensies te zoeken voor Facebook-integratie.
+>Adobe Commerce heeft de inheemse _integratie van Facebook van het Magento Sociale_ verwijderd en steunt niet meer de uitbreiding. Ga naar de [ Commerce Marketplace ](https://marketplace.magento.com/catalogsearch/result/?q=Facebook) {:target= &quot;_blank&quot;} om van alternatieve uitbreidingen voor de integratie van Facebook de plaats te bepalen.
 
 ### Stap 1. De knopcode ophalen
 
-1. Ga op de website van Meta-ontwikkelaars naar [knopinstelling](https://developers.facebook.com/docs/plugins/like-button) pagina.
+1. Voor de website van de ontwikkelaars van Meta, ga naar de [ pagina van de knoopopstelling ](https://developers.facebook.com/docs/plugins/like-button).
 
-1. Voor **[!UICONTROL URL to Like]**, voert u de URL in van de pagina in uw winkel die u wilt laten weergeven aan _leuk_.
+1. Voor **[!UICONTROL URL to Like]**, ga URL van de pagina in uw opslag in die u mensen _als_ wilt houden.
 
    U kunt bijvoorbeeld de URL van de homepage van uw winkel invoeren.
 
-1. Kies de optie **[!UICONTROL Layout]** voor de knop.
+1. Kies de **[!UICONTROL Layout]** voor de knop.
 
-1. Voer de **[!UICONTROL Width]** in pixels die op uw site beschikbaar zijn voor de knop en eventuele bijbehorende tekstberichten.
+1. Voer de **[!UICONTROL Width]** in pixels in die op uw site beschikbaar is voor de knop en het bijbehorende tekstbericht.
 
-1. Set **[!UICONTROL Action Type]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Action Type]** in op een van de volgende opties:
 
    - `Like`
    - `Recommend`
 
-1. Klikken **[!UICONTROL Get Code]** om de gegenereerde code naar het klembord te kopiëren.
+1. Klik op **[!UICONTROL Get Code]** om de gegenereerde code naar het klembord te kopiëren.
 
 ### Stap 2. Een inhoudsblok maken
 
 1. Ga terug naar de beheerder van uw winkel.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Block]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Block]** .
 
-1. Voer een beschrijving in **[!UICONTROL Block Title]** voor interne referentie.
+1. Voer een beschrijving **[!UICONTROL Block Title]** in voor interne referentie.
 
-   Bijvoorbeeld: `Facebook Like Button`.
+   Bijvoorbeeld: `Facebook Like Button` .
 
-1. Een unieke waarde toewijzen **[!UICONTROL Identifier]** op het blok, met alle kleine letters en onderstrepingstekens in plaats van spaties.
+1. Wijs een uniek **[!UICONTROL Identifier]** aan het blok toe, waarbij u alle kleine letters gebruikt en onderstrepingstekens in plaats van spaties.
 
-   Bijvoorbeeld: `facebook_like_button`.
+   Bijvoorbeeld: `facebook_like_button` .
 
-1. Als uw Commerce-exemplaar meerdere winkelweergaven heeft, kiest u elk **[!UICONTROL Store View]** wanneer het blok beschikbaar moet zijn.
+1. Als uw Commerce-instantie meerdere winkelweergaven heeft, kiest u elke **[!UICONTROL Store View]** waar het blok beschikbaar moet zijn.
 
 1. Voeg het codefragment toe aan de blokinhoud, afhankelijk van het gereedschap Inhoud:
 
-   - Wanneer u [!DNL Page Builder], voegt u een [HTML-code](../page-builder/html-code.md) naar het werkgebied en plak het codefragment dat u van de Facebook-site hebt gekopieerd. Anders plakt u het codefragment in de **[!UICONTROL Content]** doos.
+   - Wanneer het gebruiken van [!DNL Page Builder], voeg een [ HTML codeblok ](../page-builder/html-code.md) aan het stadium toe en kleef het fragment van code die u van de plaats van Facebook kopieerde. Anders plakt u het codefragment in het vak **[!UICONTROL Content]** .
 
-   - Plak met de editor het codefragment dat u van de Facebook-site hebt gekopieerd naar de **[!UICONTROL Content]** doos.
+   - Plak met de editor het codefragment dat u van de Facebook-site hebt gekopieerd naar het vak **[!UICONTROL Content]** .
 
-1. Als het blok niet klaar is om live te gaan, stelt u **[!UICONTROL Enable Block]** tot `No`.
+1. Als het blok niet klaar is om live te gaan, stelt u **[!UICONTROL Enable Block]** in op `No` .
 
-1. Klik op **[!UICONTROL Save Block]**.
+1. Klik op **[!UICONTROL Save Block]** als de bewerking is voltooid.
 
 ### Stap 3. Plaats het blok
 
 1. Voeg het blok toe, afhankelijk van het inhoudsgereedschap:
 
-   - Wanneer u [!UICONTROL Page Builder]volgt u de instructies op [Voeg het blok toe](../page-builder/block.md) naar het werkgebied.
+   - Wanneer het gebruiken van [!UICONTROL Page Builder], volg de instructies aan [ voeg het blok ](../page-builder/block.md) aan het stadium toe.
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Widget]** en voer de volgende handelingen uit:
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Alleen beschikbaar bij Adobe Commerce B2B) In het dialoogvenster _Instellingen_ sectie, set **[!UICONTROL Type]** tot `CMS Static Block` en klik op **[!UICONTROL Continue]**.
+   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts) in de _sectie van Montages_, plaats **[!UICONTROL Type]** aan `CMS Static Block` en klik **[!UICONTROL Continue]**.
 
-   - Controleren of **[!UICONTROL Design Theme]** wordt ingesteld op het huidige thema.
+   - Controleer of **[!UICONTROL Design Theme]** is ingesteld op het huidige thema.
 
    - Klik op **[!UICONTROL Continue]**.
 
-1. In de **[!UICONTROL Storefront Properties]** Ga als volgt te werk:
+1. Ga als volgt te werk in de sectie **[!UICONTROL Storefront Properties]** :
 
-   - Voor **[!UICONTROL Widget Title]** voert u een titel in voor interne referentie.
+   - Voer bij **[!UICONTROL Widget Title]** een titel in voor interne referentie.
 
-   - Set **[!UICONTROL Assign to Store Views]** tot `All Store Views`of naar de weergave waar de app beschikbaar moet zijn. Als u meerdere weergaven wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+   - Stel **[!UICONTROL Assign to Store Views]** in op `All Store Views` of op de weergave waar de app beschikbaar moet zijn. Als u meerdere weergaven wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-   - Voer een getal in het dialoogvenster **[!UICONTROL Sort Order]** veld om de volgorde van het blok te bepalen als dit is toegewezen voor weergave op dezelfde locatie op de pagina als andere inhoudselementen. De bovenste positie is nul.
+   - Voer in het veld **[!UICONTROL Sort Order]** een getal in om de volgorde van het blok te bepalen als het blok op dezelfde locatie op de pagina moet verschijnen als andere inhoudselementen. De bovenste positie is nul.
 
-1. In de _[!UICONTROL Layout Updates]_sectie, klikken **[!UICONTROL Add Layout Update]**en instellen **[!UICONTROL Display On]**naar de categorie, het product of de pagina waarop u het blok wilt weergeven.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**en stel **[!UICONTROL Display On]**in op de categorie, het product of de pagina waar u het blok wilt weergeven.
 
-   Als u bijvoorbeeld `All Pages` en plaats het blok in of kopbal of footer, verschijnt het blok op de zelfde plaats op elke pagina van de opslag.
+   Als u bijvoorbeeld `All Pages` kiest en het blok in de kop- of voettekst plaatst, wordt het blok op elke pagina van de winkel op dezelfde plaats weergegeven.
 
    Ga als volgt te werk om het blok op een specifieke pagina te plaatsen:
 
-   - Set **[!UICONTROL Display On]** tot `Specified Page` en selecteert u de **[!UICONTROL Page]** waar u het blok wilt weergeven.
+   - Stel **[!UICONTROL Display On]** in op `Specified Page` en selecteer **[!UICONTROL Page]** waar u het blok wilt weergeven.
 
-   - Kies de optie **[!UICONTROL Block Reference]** om de plaats op de pagina te identificeren waar het blok moet worden geplaatst.
+   - Kies **[!UICONTROL Block Reference]** om de plaats op de pagina te identificeren waar het blok moet worden geplaatst.
 
-   - Accepteer de standaardinstelling voor **[!UICONTROL Template]**, die is ingesteld op `CMS Static Block Default Template`.
+   - Accepteer de standaardinstelling voor **[!UICONTROL Template]** , die is ingesteld op `CMS Static Block Default Template` .
 
    - Klik op **[!UICONTROL Save and Continue Edit]**.
 
-1. Kies in het deelvenster aan de linkerkant de optie **[!UICONTROL Widget Options]**.
+1. Kies **[!UICONTROL Widget Options]** in het deelvenster aan de linkerkant.
 
-1. Klikken **[!UICONTROL Select Block…]** en kiest u het blok dat u wilt plaatsen.
+1. Klik op **[!UICONTROL Select Block…]** en kies het blok dat u wilt plaatsen.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 1. Volg desgevraagd de instructies boven aan de werkruimte om de index en de paginacache bij te werken.
 
-   De widget wordt nu weergegeven in het deelvenster _[!UICONTROL Widgets]_lijst.
+   De widget wordt nu weergegeven in de lijst van _[!UICONTROL Widgets]_.
 
 ### Stap 4. De locatie in de winkel controleren
 
@@ -129,11 +129,11 @@ RSS (Echt Eenvoudige Syndicatie) is een op XML-Gebaseerd gegevensformaat dat wor
 
 Wanneer RSS-feeds zijn ingeschakeld, worden eventuele toevoegingen aan producten, specials, categorieën en coupons automatisch naar de abonnees van elke feed verzonden. Een koppeling naar alle RSS-feeds die u publiceert, staat in de voettekst van uw winkel.
 
-![RSS-feed, pictogram](./assets/icon-rss.png){width="100"}<br/>
+![ RSS voederpictogram ](./assets/icon-rss.png){width="100"}<br/>
 
 De software die nodig is om een RSS-feed te lezen, wordt een feed-lezer genoemd en stelt mensen in staat zich te abonneren op koppen, blogs, podcasts en nog veel meer. Google Reader is een van de vele feed-lezers die gratis online beschikbaar zijn.
 
-![Voorbeeld van storefront - RSS-feed](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![ storefront van het Voorbeeld - voer RSS ](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### Voordelen van het opzetten van een RSS-feed
 
@@ -158,34 +158,34 @@ De software die nodig is om een RSS-feed te lezen, wordt een feed-lezer genoemd 
 
 ### RSS-feeds instellen voor uw winkel
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In de rechterbovenhoek stelt u **[!UICONTROL Store View]** de weergaven waar de diervoeders beschikbaar moeten zijn.
+1. Stel in de rechterbovenhoek **[!UICONTROL Store View]** in op de weergaven waar de feeds beschikbaar moeten zijn.
 
-   Als u wordt gevraagd te bevestigen, klikt u op **[!UICONTROL OK]**.
+   Klik op **[!UICONTROL OK]** als u wordt gevraagd te bevestigen.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL RSS Feeds]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL RSS Feeds]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Rss Config]** sectie en set **[!UICONTROL Enable RSS]** tot `Enable`.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Rss Config]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
 
-   ![Catalogusconfiguratie - RSS-feeds](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - het voer van RSS ](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
-   Indien nodig de **[!UICONTROL Use Default]** Schakel het selectievakje in om de standaardwaarde te wijzigen.
+   Schakel indien nodig het selectievakje **[!UICONTROL Use Default]** uit om de standaardwaarde te wijzigen.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Wish List]** sectie en set **[!UICONTROL Enable RSS]** tot `Enable`.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Wish List]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Catalog]** sectie en andere feeds instellen op `Enable` indien nodig.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Catalog]** sectie uit en plaats andere voer aan `Enable` zoals nodig.
 
    - **[!UICONTROL New Products]**
    - **[!UICONTROL Special Products]**
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![Catalogus - instellingen voor RSS-feeds](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![ Catalogus - RSS voer montages ](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie en set **[!UICONTROL Customer Order Status Notification]** tot `Enable`.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit en reeks **[!UICONTROL Customer Order Status Notification]** aan `Enable`.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 1. Zie het resultaat op de winkel met `/rss` aan het einde van de pagina-URL.
 

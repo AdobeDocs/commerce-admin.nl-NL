@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Admin Unified Experience for Adobe Commerce] opmerkingen vrijgeven'
-description: Lees de opmerkingen bij de release voor meer informatie over de meest recente release van de [!DNL Admin Unified Experience] uitbreiding voor de handel.
+title: '[!DNL Admin Unified Experience for Adobe Commerce] opmerkingen bij de release'
+description: Herzie de versienota's voor informatie over de recentste versie van de  [!DNL Admin Unified Experience]  uitbreiding voor Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
 source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
@@ -11,33 +11,33 @@ ht-degree: 0%
 
 # Opmerkingen bij de release Admin Unified Experience
 
-Deze versienota&#39;s voor Admin van de Handel verenigden de uitbreiding van de Ervaring (`magento/module-unified-experience`) toevoegingen en correcties vastleggen die Adobe tijdens een releasecyclus heeft toegevoegd, waaronder:
+Deze versienota&#39;s voor Commerce Admin verenigde de uitbreiding van de Ervaring (`magento/module-unified-experience`) vangen toevoegingen en moeilijke situaties die de Adobe tijdens een versiecyclus, met inbegrip van heeft toegevoegd:
 
-![Nieuw](../assets/new.svg) Nieuwe functies
-![Probleem opgelost](../assets/fix.svg) Oplossingen en verbeteringen
+![ Nieuwe ](../assets/new.svg) Nieuwe eigenschappen
+![ Vaste kwestie ](../assets/fix.svg) Oplossingen en verbeteringen
 
 
 >[!NOTE]
 >
->Zie [Productbeschikbaarheid](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor gedetailleerde informatie over de releasestatus van de Admin Unified Experience-extensie ten opzichte van Adobe Commerce.
+>Zie [ beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor gedetailleerde informatie over de releasestatus van Admin Verenigde de uitbreiding van de Ervaring met betrekking tot Adobe Commerce.
 
 ## 1.0-release
 
-*13 februari 2023*
+*13 Februari, 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
 
-![Nieuw](../assets/new.svg) De algemene versie van de Beschikbaarheid van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
+![ Nieuwe ](../assets/new.svg) Algemene versie van de Beschikbaarheid van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 
-![Nieuw](../assets/new.svg) Wanneer de Admin Verenigde uitbreiding van de Ervaring op een project van Adobe Commerce wordt geïnstalleerd en toegelaten, kunnen de beheerders [Adobe Commerce-instanties weergeven en openen vanaf de startpagina van het Experience Cloud](admin-unified-experience-integration-overview.md).
+![ Nieuw ](../assets/new.svg) wanneer Admin verenigde de uitbreiding van de Ervaring geïnstalleerd en toegelaten op een project van Adobe Commerce is, kunnen de beheerders [ tot de instanties van Adobe Commerce van het Experience Cloud homepage ](admin-unified-experience-integration-overview.md) bekijken en toegang hebben.
 
 
 ## 1,0-release (bèta)
 
-*8 augustus 2023*
+*Augustus 8, 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
 
-![Nieuw](../assets/new.svg) Aanvankelijke bètaversie van de Admin Unified Experience-extensie om integratie met Adobe Experience Cloud mogelijk te maken.
+![ Nieuwe ](../assets/new.svg) Eerste bètaversie van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 
-![Nieuw](../assets/new.svg) Wanneer de Admin Verenigde uitbreiding van de Ervaring op een project van Adobe Commerce wordt geïnstalleerd en toegelaten, kunnen de beheerders [Adobe Commerce-instanties weergeven en openen vanaf de startpagina van het Experience Cloud](admin-unified-experience-integration-overview.md).
+![ Nieuw ](../assets/new.svg) wanneer Admin verenigde de uitbreiding van de Ervaring geïnstalleerd en toegelaten op een project van Adobe Commerce is, kunnen de beheerders [ tot de instanties van Adobe Commerce van het Experience Cloud homepage ](admin-unified-experience-integration-overview.md) bekijken en toegang hebben.

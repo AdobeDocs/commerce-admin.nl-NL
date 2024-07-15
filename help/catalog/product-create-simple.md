@@ -5,60 +5,60 @@ exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
 
 # Eenvoudig product
 
-Een van de sleutels tot het benutten van de kracht van producttypen is het leren wanneer een eenvoudig, zelfstandig product moet worden gebruikt. Een eenvoudig product kan afzonderlijk of als deel van een gegroepeerd, configureerbaar, of bundelproduct worden verkocht. Een eenvoudig product met aangepaste opties wordt soms ook wel een _samengesteld product_.
+Een van de sleutels tot het benutten van de kracht van producttypen is het leren wanneer een eenvoudig, zelfstandig product moet worden gebruikt. Een eenvoudig product kan afzonderlijk of als deel van een gegroepeerd, configureerbaar, of bundelproduct worden verkocht. Een eenvoudig product met douaneopties wordt soms bedoeld als a _samengesteld product_.
 
-De volgende instructies tonen het proces aan van het maken van een eenvoudig product met een [productsjabloon](attribute-sets.md), vereiste velden en basisinstellingen. Elk vereist veld is gemarkeerd met een rood sterretje (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies tonen het proces aan om een eenvoudig product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
-![Eenvoudig product](./assets/product-simple.png){width="700" zoomable="yes"}
+![ Eenvoudig product ](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## Stap 1: Kies het producttype
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Op de _[!UICONTROL Add Product]_( ![Menupijl](../assets/icon-menu-down-arrow-red.png){width="25"} ) in de rechterbovenhoek, kiest u **[!UICONTROL Simple Product]**.
+1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij hoger-recht, kies **[!UICONTROL Simple Product]**.
 
-   ![Eenvoudig product toevoegen](./assets/product-add-simple.png){width="700" zoomable="yes"}
+   ![ voeg Eenvoudig Product ](./assets/product-add-simple.png){width="700" zoomable="yes"} toe
 
 ## Stap 2: Kies de kenmerkset
 
-Als u de optie [kenmerkset](attribute-sets.md) die als template voor het product wordt gebruikt:
+Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt:
 
-- Klik in het dialoogvenster **[!UICONTROL Attribute Set]** en voert u de volledige of gedeeltelijke naam van de kenmerkset in.
+- Klik in het veld **[!UICONTROL Attribute Set]** en voer de naam van de kenmerkset in (geheel of gedeeltelijk).
 
 - Kies in de weergegeven lijst de kenmerkset die u wilt gebruiken.
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![Kenmerkset kiezen](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![ kies geplaatste attributen ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Stap 3: Voer de vereiste instellingen in
 
-1. Voer de **[!UICONTROL Product Name]**.
+1. Voer de **[!UICONTROL Product Name]** in.
 
-1. De standaardinstelling accepteren **[!UICONTROL SKU]** die is gebaseerd op de productnaam of een andere naam invoert.
+1. Accepteer de standaardwaarde **[!UICONTROL SKU]** die is gebaseerd op de productnaam of voer een andere naam in.
 
-1. Voer het product in **[!UICONTROL Price]**.
+1. Voer het product **[!UICONTROL Price]** in.
 
-1. Stel de optie **[!UICONTROL Enable Product]** optie voor `No`.
+1. Aangezien het product nog niet gereed is om te publiceren, stelt u de optie **[!UICONTROL Enable Product]** in op `No` .
 
-1. klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt opgeslagen, wordt [Winkelweergave](introduction.md#product-scope) wordt in de linkerbovenhoek weergegeven.
+   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
 
-1. Kies de optie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
+1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![De winkelweergave kiezen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![ kies de opslagmening ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Stap 4: De basisinstellingen voltooien
 
-1. Set **[!UICONTROL Tax Class]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Tax Class]** in op een van de volgende opties:
 
    - `None`
    - `Taxable Goods`
@@ -71,37 +71,37 @@ Het formulier wordt bijgewerkt met de wijziging.
    - `VAT Reduced`
    - `VAT Standard`
 
-1. Voer de **[!UICONTROL Quantity]** van het product dat in voorraad is.
+1. Voer de **[!UICONTROL Quantity]** in van het product dat in voorraad is.
 
-   Standaard, **[!UICONTROL Stock Status]** is ingesteld op `In Stock`.
+   Standaard is **[!UICONTROL Stock Status]** ingesteld op `In Stock` .
 
    >[!NOTE]
    >
-   >Als u [Inventory management](../inventory-management/introduction.md), wordt de hoeveelheid in deze sectie ingesteld door Single Source-handelaren. De multi-Bron handelaars voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _Bronnen en hoeveelheden toewijzen (Inventory management)_ sectie.
+   >Als u [ Inventory management ](../inventory-management/introduction.md) toelaat, plaatsen de Enige verkopers van Source de hoeveelheid in deze sectie. De multi handelaars van Source voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
 
-1. Voer de **[!UICONTROL Weight]** van het product.
+1. Voer de **[!UICONTROL Weight]** van het product in.
 
-1. De standaardinstelling accepteren **[!UICONTROL Visibility]** instellen van `Catalog, Search`.
+1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Om _[!UICONTROL Categories]_voor het product klikt u op de knop **[!UICONTROL Select…]**en voer een van de volgende handelingen uit:
+1. Als u _[!UICONTROL Categories]_aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**en voert u een van de volgende handelingen uit:
 
-   **Een bestaande categorie kiezen**:
+   **kies een bestaande categorie**:
 
    - Typ in het vak totdat u een overeenkomst hebt gevonden.
 
    - Schakel het selectievakje in van elke categorie die u wilt toewijzen.
 
-   **Een categorie maken**:
+   **creeer een categorie**:
 
    - Klik op **[!UICONTROL New Category]**.
 
-   - Voer de **[!UICONTROL Category Name]** en kiest u **[!UICONTROL Parent Category]**, die de positie in de menustructuur bepaalt.
+   - Voer de **[!UICONTROL Category Name]** in en kies de **[!UICONTROL Parent Category]** die de positie in de menustructuur bepaalt.
 
    - Klik op **[!UICONTROL Create Category]**.
 
-1. Het product plaatsen in de lijst met [nieuwe producten](../content-design/widget-new-products-list.md), selecteert u de **[!UICONTROL Set Product as New]** selectievakje.
+1. Om het product in de lijst van [ nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
 
-1. Kies de optie **[!UICONTROL Country of Manufacture]**.
+1. Kies de **[!UICONTROL Country of Manufacture]** .
 
 Er kunnen aanvullende individuele kenmerken zijn die het product beschrijven. De selectie varieert per kenmerkset en u kunt deze later voltooien.
 
@@ -122,25 +122,25 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 - [Ontwerp](settings-advanced-design.md)
 - [Cadeauopties](product-gift-options.md)
 
-## Stap 6: Het product publiceren
+## Stap 6: Publish het product
 
-1. Als u het product wilt publiceren in de catalogus, stelt u de optie **[!UICONTROL Enable Product]** schakelen naar `Yes`.
+1. Als u het product wilt publiceren in de catalogus, stelt u de **[!UICONTROL Enable Product]** switch in op `Yes` .
 
 1. Voer een van de volgende handelingen uit:
 
-   - **Methode 1:** Opslaan en voorvertonen
+   - **Methode 1:** sparen en Voorproef
 
-      - Klik in de rechterbovenhoek op **[!UICONTROL Save]**.
+      - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-      - Kies **[!UICONTROL Customer View]** op de _Beheerder_ (![Menupijl](../assets/icon-menu-down-arrow-black.png)).
+      - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ (![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
 
      De winkel wordt geopend in een nieuw browsertabblad.
 
-     ![Klantenweergave](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
-   - **Methode 2:** Opslaan en sluiten
+   - **Methode 2:** sparen en sluit
 
-     Op de _[!UICONTROL Save]_ ( ![Menupijl](../assets/icon-menu-down-arrow-red.png){width="25"} ), kiest u **[!UICONTROL Save & Close]**.
+     Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Te onthouden zaken
 

@@ -5,18 +5,18 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
 # Facturen
 
-Een factuur is een overzicht van de betalingsgegevens van een bestelling. Meerdere facturen kunnen [gemaakt](#create-an-invoice) voor één bestelling. Elk product kan maximaal of slechts een klein deel van de aangeschafte producten bevatten die u opgeeft. U kunt ook [PDF-facturen klaar voor afdrukken](#print-invoices) als verkoopdocumenten voor uw klanten.
+Een factuur is een overzicht van de betalingsgegevens van een bestelling. De veelvoudige facturen kunnen [ ](#create-an-invoice) voor één enkele orde worden gecreeerd, en elk kunnen zo vele of zo weinig van de gekochte producten omvatten die u specificeert. U kunt [ druk-klaar PDF facturen ](#print-invoices) als verkoopdocumenten voor uw klanten ook tot stand brengen.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _Bewerkingen_ > **Facturen** om de _Facturen_ en toegang tot uw gemaakte facturen.
+Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > _Verrichtingen_ > **Facturen** om het _8} net van Facturen {te openen en tot uw gecreeerde facturen toegang te hebben._
 
-![Raster facturen](./assets/invoices.png){width="700" zoomable="yes"}
+![ het net van Facturen ](./assets/invoices.png){width="700" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -41,7 +41,7 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _Bewerkingen_ > **Fa
 | [!UICONTROL Shipping Information] | De methode die moet worden gebruikt om de bestelling te verzenden. |
 | [!UICONTROL Subtotal] | Het subtotaal van de bestelling, zonder verzending en belasting. |
 | [!UICONTROL Shipping and Handling] | Het bedrag dat in rekening wordt gebracht voor verzending. |
-| [!UICONTROL Action] | **[!UICONTROL View]** - opent de factuur in de bewerkingsmodus. |
+| [!UICONTROL Action] | **[!UICONTROL View]** - hiermee wordt de factuur geopend in de bewerkingsmodus. |
 
 {style="table-layout:auto"}
 
@@ -49,89 +49,89 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _Bewerkingen_ > **Fa
 
 Als u een factuur voor een bestelling maakt, wordt deze verplaatst naar een staat waarin deze niet kan worden geannuleerd of gewijzigd. Een nieuwe factuurpagina ziet er ongeveer hetzelfde uit als een voltooide bestelling, met enkele extra velden. Elke activiteit die verband houdt met een bestelling wordt vermeld in de sectie Opmerkingen van de factuur.
 
-Gewoonlijk worden bestellingen gefactureerd en vastgelegd wanneer het verzendproces start. Als de betalingsmethode een kooporder is of als de [betalingsactie](../configuration-reference/sales/payment-methods.md#payment-actions) is ingesteld op `Authorize and Capture`, wordt de bestelling gefactureerd en wordt de betaling vastgelegd tijdens het afrekenen. U kunt een factuur genereren met een pakbon en ook verzendlabels afdrukken van uw transportaccount. Eén bestelling kan worden opgesplitst in gedeeltelijke overbrengingen, die indien nodig afzonderlijk worden gefactureerd.
+Gewoonlijk worden bestellingen gefactureerd en vastgelegd wanneer het verzendproces start. Als de methode van betaling een kooporder is, of als de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst, wordt de orde gefactureerd en de betaling wordt gevangen tijdens controle. U kunt een factuur genereren met een pakbon en ook verzendlabels afdrukken van uw transportaccount. Eén bestelling kan worden opgesplitst in gedeeltelijke overbrengingen, die indien nodig afzonderlijk worden gefactureerd.
 
-Wanneer de status van nieuwe orders is ingesteld op `Processing`, de optie _Alle items automatisch factureren_ beschikbaar wordt in de configuratie. Sommige betalingsmethoden voor creditcards voltooien de factureringsstap als onderdeel van het proces waarbij [betalingsactie](../configuration-reference/sales/payment-methods.md#payment-actions) is ingesteld op `Authorize and Capture`. In dat geval wordt de knop Factuur niet weergegeven en kan de bestelling worden verzonden.
+Wanneer de staat van nieuwe orden aan `Processing` wordt geplaatst, wordt de optie _automatisch Alle Punten van de Factuur_ beschikbaar in de configuratie. Sommige methodes van de creditcardbetaling voltooien de het factureren stap als deel van het proces wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst. In dat geval wordt de knop Factuur niet weergegeven en kan de bestelling worden verzonden.
 
 >[!NOTE]
 >
->Facturen worden niet automatisch gemaakt voor orders die worden geplaatst met `Gift Card`, `Store Credit`, `Reward Points`of andere methoden voor offlinebetaling.
+>Facturen worden niet automatisch gemaakt voor orders die worden geplaatst met `Gift Card` , `Store Credit` , `Reward Points` of andere methoden voor offlinebetalingen.
 
-Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worden afgedrukt. Als u de PDF wilt weergeven of afdrukken, downloadt en installeert u eerst een PDF-lezer, zoals [Adobe Acrobat Reader][1].
+Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worden afgedrukt. Om de PDF te bekijken of te drukken, eerst download en installeer een lezer van de PDF zoals [ Adobe Acrobat Reader ][1].
 
-**_Een bestelling factureren:_**
+**_om een orde te factureren:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Zoek de verkooporder met de status van `Processing` in het raster. Voer vervolgens de volgende handelingen uit:
+1. Zoek de verkooporder met de status `Processing` in het raster. Voer vervolgens de volgende handelingen uit:
 
-1. In de _Handeling_ kolom, klik **[!UICONTROL View]**.
+1. In de _kolom van de Actie_, klik **[!UICONTROL View]**.
 
-1. Kies in de koptekst van de verkooporder de optie **[!UICONTROL Invoice]** -optie.
+1. Kies in de koptekst van de verkooporder de optie **[!UICONTROL Invoice]** .
 
    >[!NOTE]
    >
-   >De _[!UICONTROL Invoice]_Deze optie wordt niet weergegeven als de [betalingsactie](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw [betalingsmethode](../configuration-reference/sales/payment-methods.md) is ingesteld op `Authorize and Capture`, die automatisch een factuur genereert. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
+   >De _[!UICONTROL Invoice]_optie verschijnt niet wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw specifieke [ betalingsmethode ](../configuration-reference/sales/payment-methods.md) aan `Authorize and Capture` wordt geplaatst, die auto-produceert een factuur. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
 
-   ![Factuurverkooporder](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
+   ![ de Orde van de Verkoop van de Factuur ](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
    De nieuwe factuurpagina ziet er ongeveer hetzelfde uit als een pagina met voltooide bestellingen, met extra velden die kunnen worden bewerkt.
 
 1. Als de objecten klaar zijn om te worden verzonden, genereert u een pakbon voor de verzending op het moment dat u de factuur maakt:
 
-   - In de _Verzendgegevens_ klikt u op de **[!UICONTROL Create Shipment]** Schakel het selectievakje in om het te selecteren.
+   - In de _Verzendinformatie_ sectie, klik **[!UICONTROL Create Shipment]** checkbox om het te selecteren.
 
      De ladingslijst wordt gecreeerd tezelfdertijd dat de factuur wordt geproduceerd.
 
    - Een trackingnummer opnemen:
 
       - Klik op **[!UICONTROL Add Tracking Number]**.
-      - Voer de volgende gegevens in: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_, en _[!UICONTROL Number]_
+      - Voer de volgende gegevens in: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ en _[!UICONTROL Number]_
 
-     ![Een Fedex-verzending maken](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
+     ![ creeer een verzending van de Verkoop ](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - U kunt desgewenst een gedeeltelijke factuur genereren:
 
-      - In de _Factuurobjecten_ sectie, update de **[!UICONTROL Qty to Invoice]** kolom die alleen specifieke objecten op de factuur bevat.
-      - Klik vervolgens op **[!UICONTROL Update Qty's]**.
+      - In de _Punten aan de sectie van de Factuur_, werk de **[!UICONTROL Qty to Invoice]** kolom bij om slechts specifieke punten op de factuur te omvatten.
+      - Klik vervolgens op **[!UICONTROL Update Qty's]** .
 
-        ![Factuurobjecten](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+        ![ Punten aan Factuur ](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
-1. Als voor de bestelling een online betalingsmethode is gebruikt, stelt u **[!UICONTROL Amount]** naar de juiste optie.
+1. Als een online betalingsmethode is gebruikt voor de bestelling, stelt u **[!UICONTROL Amount]** in op de juiste optie.
 
 1. Ga als volgt te werk om klanten via e-mail op de hoogte te stellen wanneer de factuur wordt gegenereerd:
 
-   - Selecteer de **[!UICONTROL Email Copy of Invoice]** selectievakje.
+   - Schakel het selectievakje **[!UICONTROL Email Copy of Invoice]** in.
 
-   - Voer een **[!UICONTROL Invoice Comments]**. Als u de opmerkingen wilt opnemen in de e-mailmelding, markeert u de **[!UICONTROL Append Comments]** selectievakje.
+   - Voer een **[!UICONTROL Invoice Comments]** in. Als u de opmerkingen wilt opnemen in de e-mailmelding, schakelt u het selectievakje **[!UICONTROL Append Comments]** in.
 
-1. Klik op **[!UICONTROL Submit Invoice]** onder aan de pagina.
+1. Klik na afloop op **[!UICONTROL Submit Invoice]** onder aan de pagina.
 
    **_Online betalingsmethode:_**
 
-   ![Factuur verzenden - online betalingsmethode](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
+   ![ leg Factuur - online betalingsmethode voor ](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
    **_Offline betalingsmethode:_**
 
-   ![Factuur verzenden - methode voor offline betaling)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![ leg Factuur voor - off-line betalingsmethode) ](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
-   De status van de bestelling verandert van `Pending` tot `Complete`.
+   De status van de volgorde verandert van `Pending` in `Complete` .
 
-   ![Overzicht van voltooide factuur](./assets/invoice-complete.png){width="600" zoomable="yes"}
+   ![ Voltooide factuursamenvatting ](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Facturen afdrukken
 
-Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een logo met hoge resolutie uploaden voor een PDF-factuur die klaar is voor afdrukken en de [Order-id](../stores-purchase/sales-documents.md#add-reference-ids) in de koptekst. Als u de factuurtemplate wilt aanpassen met uw logo en adres, raadpleegt u [Vereisten voor PDF-logo](../stores-purchase/sales-documents.md#image-formats).
+Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een high-resolution embleem voor een druk-klaar PDF factuur uploaden, en [ identiteitskaart van de Orde ](../stores-purchase/sales-documents.md#add-reference-ids) in de kopbal omvatten. Om het factuurmalplaatje met uw embleem en adres aan te passen, zie {de Vereisten van het Logo van 0} PDF ](../stores-purchase/sales-documents.md#image-formats).[
 
 >[!NOTE]
 >
->Als u de PDF wilt weergeven of afdrukken, hebt u een PDF-lezer nodig. U kunt downloaden [Adobe Reader][1] zonder kosten.
+>Als u de PDF wilt weergeven of afdrukken, hebt u een PDF-lezer nodig. U kunt [ Adobe Reader ][1] zonder last downloaden.
 
 ### Eén factuur afdrukken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. In de _[!UICONTROL Invoices]_raster, zoek de factuur en klik op **[!UICONTROL View]**in de_ Handeling _kolom.
+1. In het _[!UICONTROL Invoices]_net, bepaal de plaats van de factuur en klik **[!UICONTROL View]**in de_ kolom van de Actie _.
 
 1. Klik boven aan de factuur op **[!UICONTROL Print]** om een PDF van de factuur te genereren.
 
@@ -139,24 +139,24 @@ Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een fact
 
 ### Meerdere facturen afdrukken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. In de _[!UICONTROL Invoices]_, schakelt u het selectievakje in voor elke factuur die u wilt afdrukken.
+1. Selecteer in het raster _[!UICONTROL Invoices]_het selectievakje voor elke factuur die u wilt afdrukken.
 
-1. Stel de **[!UICONTROL Actions]** controle op `PDF Invoices`.
+1. Stel het besturingselement **[!UICONTROL Actions]** in op `PDF Invoices` .
 
-   ![Meerdere facturen afdrukken](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
+   ![ Druk veelvoudige facturen ](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 De facturen worden opgeslagen in één PDF-bestand dat naar een printer kan worden verzonden of dat kan worden opgeslagen.
 
 ## Bronnen voor probleemoplossing
 
-Raadpleeg de volgende bronnen voor hulp bij het oplossen van problemen met facturen _Kennisbank handelsondersteuning_ artikelen:
+Voor hulp bij het oplossen van problemenfactuurkwesties, zie de volgende _artikelen van de Kennisbank van de Steun van 0} Commerce:_
 
-- [Kan bundel virtuele en eenvoudige producten niet factureren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Factuur zonder crediteringsgegevens van winkel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [Belasting wordt weergegeven op factuur met korting van 100%](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Facturen bestellen wordt niet automatisch verzonden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
+- [ kan geen de bundelproducten virtuele en eenvoudige ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html) factureren
+- [ Factuur zonder de informatie van de opslagkrediet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
+- [ Belasting verschijnt op factuur met 100% korting ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
+- [ de facturen van de Orde verzenden automatisch niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
 
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader ophalen"

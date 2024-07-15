@@ -1,51 +1,51 @@
 ---
 title: '[!UICONTROL Content] menu'
-description: Gebruik de [!UICONTROL Content] voor toegang tot meerdere functies voor het beheer van de inhoud in uw winkel.
+description: Via het menu [!UICONTROL Content] hebt u toegang tot meerdere functies voor het beheer van de inhoud in uw winkel.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Content] menu
 
-![De [!UICONTROL Content] weergegeven in Beheer](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+![ het [!UICONTROL Content] menu dat in Admin ](./assets/admin-menu-content.png){width="400" zoomable="yes"} wordt getoond
 
 >[!NOTE]
 >
->Wanneer de nieuwe [[!DNL Media Gallery]](media-gallery.md) is ingeschakeld, wordt de _[!UICONTROL Media]_wordt weergegeven met één optie voor toegang tot de [!DNL Media Gallery]. U kunt de **[!UICONTROL Enable Old Media Gallery]**optie voor `No` door naar **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** en kiezen **[!UICONTROL Advanced]** > **[!UICONTROL System]** in het linkerdeelvenster.
+>Wanneer de nieuwe [[!DNL Media Gallery]](media-gallery.md) is ingeschakeld, wordt de sectie _[!UICONTROL Media]_weergegeven met één optie voor toegang tot de sectie [!DNL Media Gallery] . U kunt de optie **[!UICONTROL Enable Old Media Gallery]**instellen op `No` door in het linkerdeelvenster naar **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** te gaan en **[!UICONTROL Advanced]** > **[!UICONTROL System]** te kiezen.
 
-## De weergave van [!UICONTROL Content] menu
+## Het menu [!UICONTROL Content] weergeven
 
-Op de _Beheerder_ zijbalk, kies **[!UICONTROL Content]**.
+Voor _Admin_ sidebar, kies **[!UICONTROL Content]**.
 
 ## [!UICONTROL Elements]
 
-- Maken [pagina&#39;s](pages.md) met tekst, afbeeldingen, blokken, variabelen en widgets. Uw pagina&#39;s kunnen worden opgenomen in de navigatie van uw winkel en kunnen worden gekoppeld aan andere pagina&#39;s.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Organiseer uw pagina&#39;s in een [hiërarchie](page-hierarchy.md) met navigatie.
-- Maken [blokken](blocks.md) van inhoud zonder code te schrijven. Blokken kunnen tekst, afbeeldingen en zelfs video bevatten en kunnen worden toegewezen aan elk deel van de paginalay-out.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Maken [dynamische blokken](dynamic-blocks.md) om rijke, interactieve inhoud op te nemen die door logica van [prijsregels](../merchandising-promotions/introduction.md#promotions) en [klantsegmenten](../customers/customer-segments.md).
-- Maken [widgets](widgets.md) die dynamische gegevens weergeven en blokken, koppelingen en interactieve elementen toevoegen, waar dan ook in uw winkel.
-- Maken [sjablonen](../page-builder/templates.md) van uw inhoud van de Bouwer van de Pagina en bespaar tijd en inspanning wanneer het toevoegen van nieuwe inhoud (of het vervangen van oudere inhoud).
+- Creeer [ pagina&#39;s ](pages.md) met tekst, beelden, blokken, variabelen, en widgets. Uw pagina&#39;s kunnen worden opgenomen in de navigatie van uw winkel en kunnen worden gekoppeld aan andere pagina&#39;s.
+- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) organiseert uw pagina&#39;s in a [ hiërarchie ](page-hierarchy.md) met navigatie.
+- Creeer [ blokken ](blocks.md) van inhoud zonder enige code te schrijven. Blokken kunnen tekst, afbeeldingen en zelfs video bevatten en kunnen worden toegewezen aan elk deel van de paginalay-out.
+- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) creeert [ dynamische blokken ](dynamic-blocks.md) om rijke, interactieve inhoud op te nemen die door logica van [ prijsregels ](../merchandising-promotions/introduction.md#promotions) en [ klantensegmenten ](../customers/customer-segments.md) wordt gedreven.
+- Creeer [ widgets ](widgets.md) die dynamische gegevens tonen en blokken, verbindingen, en interactieve elementen overal in uw opslag toevoegen.
+- Creeer [ malplaatjes ](../page-builder/templates.md) van uw inhoud van de Bouwer van de Pagina en sparen tijd en inspanning wanneer het toevoegen van nieuwe inhoud (of het vervangen van oudere inhoud).
 
 >[!NOTE]
 >
->De _[!UICONTROL Banners]_in dit menu is vervangen in 2.3.1 en wordt nu verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
+>De optie _[!UICONTROL Banners]_in dit menu is vervangen in 2.3.1 en wordt nu verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
 
 ## [!UICONTROL Design] {#design-features}
 
 De visuele presentatie van uw winkel beheren:
 
-- Stel de [Ontwerpconfiguratie](configuration.md) om verschillende instellingen voor elke website, opslag en weergave in uw [!DNL Commerce] installatie.
+- Plaats de [ configuratie van het Ontwerp ](configuration.md) om verschillende montages voor elke website, opslag, en mening in uw [!DNL Commerce] installatie te handhaven.
 
-- Gebruiken [thema&#39;s](themes.md), dit zijn verzamelingen layoutbestanden, sjabloonbestanden, vertaalbestanden en skins om de visuele presentatie van uw winkel te bepalen.
+- Gebruik [ thema&#39;s ](themes.md), die inzamelingen van lay-outdossiers, malplaatjedossiers, vertaaldossiers, en huiden zijn, om de visuele presentatie van uw opslag te bepalen.
 
-- Gebruik de [schema](schedule.md) om van tevoren wijzigingen in thema&#39;s te plannen voor een seizoen of promotie.
+- Gebruik het [ programma ](schedule.md) om themaveranderingen vooraf voor een seizoen of een bevordering te plannen.
 
 ## [!UICONTROL Content Staging]
 
 {{ee-feature}}
 
-[Inhoud stapelen](content-staging.md) biedt uw bedrijfsteam de mogelijkheid om eenvoudig een groot aantal inhoudsupdates rechtstreeks vanuit de beheerder van uw winkel te maken, voor te vertonen en te plannen.
+[ Inhoud het opvoeren ](content-staging.md) geeft uw bedrijfsteam de capaciteit om, een brede waaier van inhoudsupdates direct van Admin van uw opslag gemakkelijk tot stand te brengen voor te vertonen en te plannen.

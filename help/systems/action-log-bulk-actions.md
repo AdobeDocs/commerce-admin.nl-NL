@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-In het logboek voor bulkacties worden de details vastgelegd van asynchrone massabewerkingen die op de achtergrond worden uitgevoerd, zoals importeren/exporteren of toewijzen [aangepaste prijzen](../b2b/catalog-shared-manage.md#update-custom-pricing) naar meerdere producten in een [gedeelde catalogus](../b2b/catalog-shared.md).
+Het bulkactielogboek registreert de details van asynchrone massaverrichtingen die op de achtergrond, zoals de invoer/de uitvoer lopen of [ douaneprijzen ](../b2b/catalog-shared-manage.md#update-custom-pricing) toewijst aan veelvoudige producten in a [ gedeelde catalogus ](../b2b/catalog-shared.md).
 
-![Logboek voor bulkacties](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![ Bulk actielogboek ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Handelingen voor bulkgoederen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Advanced]** en kiest u **[!UICONTROL System]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Bulk Actions]** en stel de optie voor het opslaan van logbestanden in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Bulk Actions]** sectie uit en plaats de logboek sparen optie:
 
    **[!UICONTROL Days Saved in Log]** — Voer het aantal dagen in waarop bulkacties worden opgeslagen in een logboek.
 
-   ![Geavanceerde configuratie - bulkacties](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![ Geavanceerde configuratie - bulkacties ](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van de configuratiemontages, zie [_Bulkhandelingen_](../configuration-reference/advanced/system.md) in de _Configuratieverwijzing_.
+   Voor een gedetailleerde lijst van de configuratiemontages, zie [_Bulk Acties_](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Handelingen in bulk weergeven
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
 
 1. Zoek de gewenste actie in het logboek.
 
-1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Details]**.
+1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Details]**.

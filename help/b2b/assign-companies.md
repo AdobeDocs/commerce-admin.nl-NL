@@ -13,63 +13,63 @@ ht-degree: 0%
 
 ---
 
-# De [!UICONTROL Company Hierarchy]
+# De [!UICONTROL Company Hierarchy] beheren
 
-[!BADGE 1.5.0-bèta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor deelnemers aan het bètaprogramma"}
+[!BADGE  1.5.0-bèta ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor Beta-programmadeelnemers"}
 
-Beheerders kunnen een [!UICONTROL Company Hierarchy] door gelieerde ondernemingen toe te wijzen aan een aangewezen moedermaatschappij, de onderneming die aan de top van de organisatie staat. Als de [!UICONTROL Company Type] is `Company`, maakt de onderneming geen deel uit van een organisatie en komt in aanmerking om een moedermaatschappij te worden of aan een bestaande moedermaatschappij te worden toegewezen.
+Beheerders kunnen een [!UICONTROL Company Hierarchy] maken door aan een aangewezen moedermaatschappij, het bedrijf boven aan de organisatie, verwante bedrijven toe te wijzen. Als [!UICONTROL Company Type] `Company` is, maakt het bedrijf geen deel uit van een organisatie en komt het in aanmerking om een moedermaatschappij te worden of om aan een bestaand moederbedrijf te worden toegewezen.
 
-In Admin, beheert u bedrijfstoewijzingen door een bedrijf uit te geven, en dan update [!UICONTROL Company Hierarchy] configuratie om bedrijven toe te wijzen of toe te wijzen.
+In Admin, beheert u bedrijfstoewijzingen door een bedrijf uit te geven, en dan de [!UICONTROL Company Hierarchy] configuratie bij te werken om bedrijven toe te wijzen of unassign.
 
-![Bedrijfshiërarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700"}
+![ Raster van de Hiërarchie van het Bedrijf ](./assets/company-detail-hierarchy-current-flag.png){width="700"}
 
 >[!NOTE]
 >
->Voor meer informatie over de [!UICONTROL Company Hierarchy] raster, zie [Bedrijfshiërarchie](account-company-create.md#company-hierarchy) veldbeschrijvingen.
+>Voor details over het [!UICONTROL Company Hierarchy] net, zie [ de 2} gebiedsbeschrijvingen van de Hiërarchie van het Bedrijf {.](account-company-create.md#company-hierarchy)
 
 ## Bedrijven toewijzen aan een organisatie
 
-1. Van de _Beheerder_ zijbalk, navigeren naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Van _Admin_ sidebar, navigeer aan **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. In de [!UICONTROL Companies] , opent u de pagina met bedrijfsdetails om de toewijzingen te maken.
+1. Open in het raster [!UICONTROL Companies] de pagina met bedrijfsdetails om de toewijzingen te maken.
 
-   - Als u aanvullende ondernemingen aan een bestaande moedermaatschappij wilt toewijzen, selecteert u de **[!UICONTROL Edit]** actie voor het moederbedrijf.
-   - Als u een moederbedrijf wilt maken, selecteert u de optie **[!UICONTROL Edit]** actie voor het bedrijf om als ouder aan te wijzen.
+   - Als u extra bedrijven wilt toewijzen aan een bestaand moederbedrijf, selecteert u de handeling **[!UICONTROL Edit]** voor het moederbedrijf.
+   - Als u een bovenliggend bedrijf wilt maken, selecteert u de handeling **[!UICONTROL Edit]** die het bedrijf als bovenliggend bedrijf moet aanwijzen.
 
      U kunt geen moederbedrijf van een bestaand ouder of kindbedrijf tot stand brengen.
 
-1. Vouw op de pagina met bedrijfsdetails uit **[!UICONTROL Company Hierarchy]**.
+1. Vouw op de pagina met bedrijfsdetails **[!UICONTROL Company Hierarchy]** uit.
 
-   ![Bedrijfshiërarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+   ![ Raster van de Hiërarchie van het Bedrijf ](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-   Het net toont bestaande bedrijfstoewijzingen, als om het even welk bestaan. Het moederbedrijf bevindt zich altijd boven aan de lijst [!UICONTROL Company Hierarchy] raster. De `[!UICONTROL Current]` de vlag wijst op het bedrijf dat wordt uitgegeven.
+   Het net toont bestaande bedrijfstoewijzingen, als om het even welk bestaan. Het bovenliggende bedrijf wordt altijd boven aan het [!UICONTROL Company Hierarchy] -raster geplaatst. De markering `[!UICONTROL Current]` geeft het bedrijf aan dat wordt bewerkt.
 
 1. Bedrijven toevoegen aan de moederorganisatie.
 
-   - Maak een keuze uit een lijst met beschikbare bedrijven door **[!UICONTROL Assign Companies]**.
+   - Selecteer **[!UICONTROL Assign Companies]** als u een keuze wilt maken in een lijst met beschikbare bedrijven.
 
-   - **Alles op deze pagina selecteren** of selecteer een of meer specifieke onderdelen van de bedrijfslijn.
+   - **selecteer allen op Deze Pagina**, of selecteer één of meerdere specifieke punten van de bedrijflijn.
 
-   - Selecteren **[!UICONTROL Assign Selected Companies]**.
+   - Selecteer **[!UICONTROL Assign Selected Companies]** .
 
-   - Voltooi de bedrijfs taak door te selecteren **[!UICONTROL Assign]**.
+   - Voltooi de bedrijfstoewijzing door **[!UICONTROL Assign]** te selecteren.
 
-     ![Bedrijven toewijzen aan organisatie](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
+     ![ wijs bedrijven aan organisatie ](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"} toe
 
 ## Ondernemingen van een moedermaatschappij ontkoppelen
 
-1. Op de _Beheerder_ zijbalk, navigeren naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Voor _Admin_ sidebar, navigeer aan **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   ![Companies Grid](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. In de [!UICONTROL Companies] raster: open de pagina met bedrijfsgegevens voor het moederbedrijf door **[!UICONTROL Edit]**.
+1. Open in het [!UICONTROL Companies] -raster de pagina met bedrijfsdetails voor het bovenliggende bedrijf door **[!UICONTROL Edit]** te selecteren.
 
-1. Bekijk de lijst van toegewezen bedrijven door uit te breiden **[!UICONTROL Company Hierarchy]**.
+1. U kunt de lijst met toegewezen bedrijven weergeven door **[!UICONTROL Company Hierarchy]** uit te breiden.
 
-1. Van de [!UICONTROL Company Hierarchy] raster, toewijzen van bedrijf ongedaan maken met **[!UICONTROL Select]** actiecontrole om te kiezen **[!UICONTROL Unassign from parent]**.
+1. Maak in het [!UICONTROL Company Hierarchy] -raster de toewijzing van een bedrijf ongedaan met behulp van het **[!UICONTROL Select]** actiecontrole om te kiezen **[!UICONTROL Unassign from parent]** .
 
-   ![Ondernemingen van een moederorganisatie verwijderen](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"}
+   ![ wijst Bedrijven van een ouderorganisatie ](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"} unassign
 
-1. Verwijder het toegewezen bedrijf uit de hiërarchie door **[!UICONTROL Unassign]**.
+1. Als daarom wordt gevraagd, verwijdert u het toegewezen bedrijf uit de hiërarchie door **[!UICONTROL Unassign]** te selecteren.

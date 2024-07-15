@@ -5,18 +5,18 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
 
 # Naleving van Cookie-recht
 
-Cookies zijn kleine bestanden die worden opgeslagen op de computer van elke bezoeker van uw site en die worden gebruikt als tijdelijke opslagplaatsen ter informatie. Informatie die in cookies wordt opgeslagen, wordt gebruikt om de winkelervaring te personaliseren, bezoekers te koppelen aan hun winkelwagentjes, verkeerspatronen te meten en de doeltreffendheid van promoties te verbeteren. Om gelijke tred te houden met de wetgeving in veel landen inzake het gebruik van cookies, bieden Adobe Commerce en Magento Open Source handelaren een keuze aan methoden om toestemming van klanten te verkrijgen. Voor een lijst met de standaardcookies in Adobe Commerce en Magento Open Source, [Referentie cookie](#default-cookies).
+Cookies zijn kleine bestanden die worden opgeslagen op de computer van elke bezoeker van uw site en die worden gebruikt als tijdelijke opslagplaatsen ter informatie. Informatie die in cookies wordt opgeslagen, wordt gebruikt om de winkelervaring te personaliseren, bezoekers te koppelen aan hun winkelwagentjes, verkeerspatronen te meten en de doeltreffendheid van promoties te verbeteren. Om gelijke tred te houden met de wetgeving in veel landen inzake het gebruik van cookies, bieden Adobe Commerce en Magento Open Source handelaren een keuze aan methoden om toestemming van klanten te verkrijgen. Voor een lijst van de standaardkoekjes in Adobe Commerce en Magento Open Source, de [ Verwijzing van het Koekje ](#default-cookies).
 
 >[!NOTE]
 >
->Als u de standaardinstelling wijzigt [Google-privacyinstellingen](../merchandising-promotions/google-tools.md#google-privacy-settings) om aan de [Algemene verordening inzake gegevensbescherming](compliance-gdpr.md), is het niet nodig toestemming van de gebruiker te verkrijgen voor het gebruik van cookies van Googles Analytics.
+>Als u het gebrek [ de privacymontages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) wijzigt om aan de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) te voldoen, is het niet noodzakelijk om gebruikerstoestemming voor het gebruik van de koekjes van Googles Analytics te verkrijgen.
 
 ## Methode 1: Impliciete toestemming
 
@@ -24,55 +24,55 @@ Impliciete toestemming houdt in dat bezoekers van uw winkel duidelijk begrijpen 
 
 ## Methode 2: Uitdrukkelijke toestemming
 
-Uw winkel gebruiken in _cookie-beperkingsmodus_ bezoekers moeten hun toestemming geven voordat cookies op hun computer kunnen worden opgeslagen. Veel functies van je winkel zijn niet beschikbaar, tenzij er toestemming is verleend. Als er bijvoorbeeld Googles Analytics beschikbaar zijn voor uw winkel, kan deze alleen worden aangeroepen nadat de bezoeker toestemming heeft gegeven cookies te gebruiken.
+Het in werking stellen van uw opslag op _wijze van de koekjesbeperking_ vereist bezoekers om hun toestemming uit te drukken alvorens om het even welke koekjes aan hun computers kunnen worden bewaard. Veel functies van je winkel zijn niet beschikbaar, tenzij er toestemming is verleend. Als er bijvoorbeeld Googles Analytics beschikbaar zijn voor uw winkel, kan deze alleen worden aangeroepen nadat de bezoeker toestemming heeft gegeven cookies te gebruiken.
 
 ## Modus Koekjesbeperking
 
 Wanneer de beperkingsmodus voor cookies is ingeschakeld, krijgen bezoekers van de winkel een melding dat cookies vereist zijn voor bewerkingen met alle functies. Afhankelijk van uw thema kan het bericht boven de koptekst, onder de voettekst of ergens anders op de pagina worden weergegeven. Het bericht verwijst naar uw privacybeleid voor meer informatie en moedigt bezoekers aan op de knop Toestaan te klikken om toestemming te verlenen. Nadat de toestemming wordt verleend, verdwijnt het bericht.
 
-Uw [privacybeleid](privacy-policy.md)) moet de naam van uw winkel en contactgegevens bevatten en het doel van elke cookie die door uw winkel wordt gebruikt, toelichten. Zie voor meer informatie [Referentie cookie](#default-cookies).
+Uw [ privacybeleid ](privacy-policy.md)) zou de naam van uw opslag en contactinformatie moeten omvatten, en het doel van elk koekje verklaren dat door uw opslag wordt gebruikt. Meer leren, zie ](#default-cookies) Referentie van het 0} Koekje.[
 
 >[!NOTE]
 >
->Als u de URL-sleutel van het privacybeleid wijzigt, moet u ook een aangepaste URL maken om het verkeer om te leiden naar de nieuwe URL-sleutel. Anders, keert de verbinding in het bericht van de Wijze van de Beperking van het Koken terug `404 Page Not Found`.
+>Als u de URL-sleutel van het privacybeleid wijzigt, moet u ook een aangepaste URL maken om het verkeer om te leiden naar de nieuwe URL-sleutel. Anders retourneert de koppeling in het bericht Cookie Restriction Mode `404 Page Not Found` .
 
-![Voorbeeld van storefront - kennisgeving van cookie-beperking](./assets/storefront-cookie-restriction-message.png){width="600"}
+![ storefront van het Voorbeeld - de mededeling van de koekjesbeperking ](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### Stap 1: de beperkingsmodus voor cookies inschakelen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkernavigatievenster onder **[!UICONTROL General]**, kiest u **[!UICONTROL Web]**.
+1. Kies **[!UICONTROL Web]** onder **[!UICONTROL General]** in het linkernavigatievenster.
 
-1. Breid uit **[!UICONTROL Default Cookie Settings]** en voer de volgende handelingen uit:
+1. Vouw de sectie **[!UICONTROL Default Cookie Settings]** uit en voer de volgende handelingen uit:
 
-   ![Webconfiguratie - standaardinstellingen voor cookies](./assets/web-default-cookie-settings.png){width="600"}
+   ![ configuratie van het Web - standaard koekjesmontages ](./assets/web-default-cookie-settings.png){width="600"}
 
-   - Voer de **[!UICONTROL Cookie Lifetime]** in seconden.
+   - Voer de **[!UICONTROL Cookie Lifetime]** in seconden in.
 
-   - Als u cookies beschikbaar wilt maken voor andere mappen, voert u de **[!UICONTROL Cookie Path]**. Als u de cookies overal op de site beschikbaar wilt maken, voert u een slash in (`/`). Deze waarde kan alleen het cookiepad bevatten, en **_kan_** bevat andere cookieparameters.
+   - Als u cookies beschikbaar wilt maken voor andere mappen, voert u de **[!UICONTROL Cookie Path]** in. Voer een slash (`/`) in om de cookies overal op de site beschikbaar te maken. Deze waarde kan slechts de koekjesweg bevatten, en **_kan_** geen andere koekjesparameters bevatten.
 
-   - Als u de cookies beschikbaar wilt maken voor een subdomein, voert u de subdomeinnaam in het dialoogvenster **[!UICONTROL Cookie Domain]** field (`subdomain.yourdomain.com`). Als u cookies beschikbaar wilt maken voor alle subdomeinen, voert u de domeinnaam in die wordt voorafgegaan door een punt (`.yourdomain.com`). Deze waarde kan alleen het cookiedomein bevatten, en **_kan_** bevat andere cookieparameters.
+   - Als u de cookies beschikbaar wilt maken voor een subdomein, voert u de subdomeinnaam in het veld **[!UICONTROL Cookie Domain]** (`subdomain.yourdomain.com` ) in. Als u cookies beschikbaar wilt maken voor alle subdomeinen, voert u de domeinnaam in die wordt voorafgegaan door een punt (`.yourdomain.com`). Deze waarde kan slechts het koekjesdomein bevatten, en **_kan_** geen andere koekjesparameters bevatten.
 
-   - Als u wilt voorkomen dat scripttalen, zoals JavaScript, toegang krijgen tot cookies, controleert u of **Alleen HTTP gebruiken** is ingesteld op `Yes`.
+   - Om scripting talen, zoals JavaScript te verhinderen, toegang tot koekjes te verkrijgen, zorg ervoor dat **slechts HTTP van het Gebruik** aan `Yes` wordt geplaatst.
 
-   - Set **[!UICONTROL Cookie Restriction Mode]** tot `Yes`.
+   - Stel **[!UICONTROL Cookie Restriction Mode]** in op `Yes` .
 
-     Wis indien nodig het selectievakje en klik op **[!UICONTROL OK]** om werkingsgebiedomschakeling te bevestigen.
+     Schakel indien nodig het selectievakje uit en klik op **[!UICONTROL OK]** om het schakelen tussen bereik en bereik te bevestigen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. Klik op de knop **[!UICONTROL Cache Management]** koppeling in het systeembericht. Vernieuw vervolgens elke ongeldige cache.
+1. Klik op de koppeling **[!UICONTROL Cache Management]** in het systeembericht wanneer u wordt gevraagd de cache bij te werken. Vernieuw vervolgens elke ongeldige cache.
 
 ### Stap 2: Je privacybeleid bijwerken
 
-Werk uw [privacybeleid](privacy-policy.md) zodat het de informatie weerspiegelt die uw bedrijf verzamelt en hoe het wordt gebruikt.
+Werk uw [ privacybeleid ](privacy-policy.md) bij zodat het op de informatie wijst die uw bedrijf verzamelt en hoe het wordt gebruikt.
 
 ## Standaardcookies
 
-De standaardcookies in Adobe Commerce en Magento Open Source worden ingedeeld als Vrijgesteld/Niet-Vrijgesteld om handelaren te helpen voldoen aan de vereisten van privacyregels zoals de [GDPR](compliance-gdpr.md). Handelaren dienen deze informatie als leidraad te gebruiken en juridische adviseurs te raadplegen om hun privacy- en cookiebeleid bij te werken als onderdeel van een uitgebreide nalevingsstrategie voor privacyregelgeving.
+De standaardkoekjes in Adobe Commerce en de Magento Open Source worden geclassificeerd als Vrijgesteld/niet-Vrijgesteld om handelaars te helpen aan de vereisten van privacyverordeningen zoals [ GDPR ](compliance-gdpr.md) voldoen. Handelaren dienen deze informatie als leidraad te gebruiken en juridische adviseurs te raadplegen om hun privacy- en cookiebeleid bij te werken als onderdeel van een uitgebreide nalevingsstrategie voor privacyregelgeving.
 
-De volgende cookies worden gebruikt door [!DNL Commerce] &quot;out of the box&quot; voor installaties in de bedrijfsruimte en in de cloud. Deze cookies zijn mogelijk vereist door functionaliteit die expliciet wordt aangevraagd door de klant. Voor meer informatie over de levensduur van sessiecookies raadpleegt u [Sessielevensduur](../customers/customer-online-options.md).
+De volgende cookies worden door [!DNL Commerce] &#39;out of the box&#39; gebruikt voor installaties op locatie en in de cloud. Deze cookies zijn mogelijk vereist door functionaliteit die expliciet wordt aangevraagd door de klant. Om over het leven van zittingskoekjes te leren, zie [ Levensduur van de Zitting ](../customers/customer-online-options.md).
 
 Sommige van deze cookies kunnen configuratieopties bieden, waaronder, indien nodig, in-/uitschakelen.
 
@@ -81,11 +81,11 @@ Sommige van deze cookies kunnen configuratieopties bieden, waaronder, indien nod
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Wordt gebruikt door Google-tagbeheer. Hiermee legt u de SKU van het product vast, de naam, de prijs en de hoeveelheid die uit het winkelwagentje zijn verwijderd, en maakt u de informatie beschikbaar voor toekomstige integratie door scripts van derden.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) die door de Manager van de Markering van Google wordt gebruikt. Hiermee legt u de SKU van het product vast, de naam, de prijs en de hoeveelheid die uit het winkelwagentje zijn verwijderd, en maakt u de informatie beschikbaar voor toekomstige integratie door scripts van derden.
 
 #### `guest-view`
 
-Hiermee slaat u de bestellings-id op die bezoekers gebruiken om de status van hun bestelling op te halen. Weergave Gastbestellingen. Gebruikt in _[!DNL Orders and Returns]_widgets.
+Hiermee slaat u de bestellings-id op die bezoekers gebruiken om de status van hun bestelling op te halen. Weergave Gastbestellingen. Wordt gebruikt in _[!DNL Orders and Returns]_-widgets.
 
 - Is veilig? Nee
 - Alleen HTTP: Ja
@@ -94,7 +94,7 @@ Hiermee slaat u de bestellings-id op die bezoekers gebruiken om de status van hu
 
 #### `login_redirect`
 
-Behoudt de bestemmingspagina die alvorens de klant aan login werd geleid laadde. Een login wordt omleiding gebruikt met de minikaart voor aangemelde klanten als [Min. winkelwagentje weergeven](../stores-purchase/cart-configuration.md#mini-cart) configuratieoptie is ingesteld op `Yes`.
+Behoudt de bestemmingspagina die alvorens de klant aan login werd geleid laadde. Login wordt omleiding gebruikt met de mini kart voor het programma geopende klanten als de ](../stores-purchase/cart-configuration.md#mini-cart) configuratieoptie van de Min van de Vertoning [ {aan `Yes` wordt geplaatst.
 
 - Is veilig? Nee
 - Alleen HTTP: Nee
@@ -103,7 +103,7 @@ Behoudt de bestemmingspagina die alvorens de klant aan login werd geleid laadde.
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Hiermee slaat u bannerinhoud lokaal op om de prestaties te verbeteren.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) slaat bannerinhoud plaatselijk op om prestaties te verbeteren.
 
 #### `mage-messages`
 
@@ -118,7 +118,7 @@ Er is geen optie om deze cookie uit te schakelen.
 
 #### `mage-translation-storage` (lokale opslag)
 
-Vertaalde inhoud wordt opgeslagen op verzoek van de winkelier. Wordt gebruikt wanneer [Vertaalstrategie](../configuration-reference/advanced/developer.md) wordt gevormd als &quot;Woordenboek (Vertaling aan de kant van Storefront)&quot;.
+Vertaalde inhoud wordt opgeslagen op verzoek van de winkelier. Gebruikt wanneer [ Vertaalstrategie ](../configuration-reference/advanced/developer.md) als &quot;Woordenboek (Vertaling op kant Storefront)&quot;wordt gevormd.
 
 - Is veilig? Nee
 - Alleen HTTP: Nee
@@ -127,7 +127,7 @@ Vertaalde inhoud wordt opgeslagen op verzoek van de winkelier. Wordt gebruikt wa
 
 #### `mage-translation-file-version` (lokale opslag)
 
-Tracks the version of translations in local storage. Wordt gebruikt wanneer [Vertaalstrategie](../configuration-reference/advanced/developer.md) is geconfigureerd als `Dictionary (Translation on Storefront side)`.
+Tracks the version of translations in local storage. Gebruikt wanneer [ Vertaalstrategie ](../configuration-reference/advanced/developer.md) als `Dictionary (Translation on Storefront side)` wordt gevormd.
 
 - Is veilig? Nee
 - Alleen HTTP: Nee
@@ -181,11 +181,11 @@ Hiermee slaat u product-id&#39;s van onlangs bekeken producten op voor eenvoudig
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Gebruikt door [Google-tagbeheer](../merchandising-promotions/google-tag-manager.md). Hiermee legt u de SKU, naam, prijs en hoeveelheid van het product vast die aan het winkelwagentje is toegevoegd, en stelt u de informatie beschikbaar voor toekomstige integratie door scripts van derden.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) die door [ wordt gebruikt de Manager van de Markering van Google ](../merchandising-promotions/google-tag-manager.md). Hiermee legt u de SKU, naam, prijs en hoeveelheid van het product vast die aan het winkelwagentje is toegevoegd, en stelt u de informatie beschikbaar voor toekomstige integratie door scripts van derden.
 
 #### `stf`
 
-Registreert de tijdberichten worden verzonden door SendFriend ([Een vriend e-mailen](../stores-purchase/email-a-friend.md)).
+Verslagen de tijdberichten worden verzonden door SendFriend ([ e-mail een Vriend ](../stores-purchase/email-a-friend.md)) module.
 
 - Is veilig? Ja
 - Alleen HTTP: Ja
@@ -214,7 +214,7 @@ Een beveiligingsmaatregel die een willekeurige tekenreeks toevoegt aan alle form
 
 #### `mage-cache-sessid`
 
-De waarde van dit cookie zorgt voor het opschonen van de lokale cacheopslag. Wanneer de cookie wordt verwijderd door de back-endtoepassing, schoont Admin de lokale opslag op en stelt de cookie-waarde in op `true`.
+De waarde van dit cookie zorgt voor het opschonen van de lokale cacheopslag. Wanneer de cookie wordt verwijderd door de back-endtoepassing, schoont Admin de lokale opslag op en stelt de cookiewaarde in op `true` .
 
 - Is veilig? Nee
 - Alleen HTTP: Nee
@@ -254,21 +254,21 @@ Hiermee slaat u de sleutel (ID) van een blijvende winkelwagen op om het mogelijk
 
 - Is veilig? Ja
 - Alleen HTTP: Ja
-- Vervalbeleid: gebaseerd op [Blijvende winkelwagentje](../stores-purchase/cart-persistent.md) - Configuratie van levensonderhoud (seconden)
+- Het Beleid van de vervalsing: Gebaseerd op [ het Persistent Shopping Cart ](../stores-purchase/cart-persistent.md) - de configuratie van het Levensduur van de persistentie (seconden)
 - Module: `Magento_Persistent`
 
 #### `private_content_version`
 
 Voegt een willekeurig, uniek aantal en tijd aan pagina&#39;s met klanteninhoud toe om hen te verhinderen in het voorgeheugen ondergebracht op de server worden.
 
-Deze wordt op meerdere plaatsen ingesteld: in PHP, in JavaScript als een cookie en in JavaScript op lokale opslag.
+Het wordt op meerdere plaatsen ingesteld: in PHP, in JavaScript als een cookie en in JavaScript als een lokale opslaglocatie.
 
-Alleen voor HTTP=`Yes` (gebaseerd op verzoek) betekent dit dat de cookie beveiligd is als deze tijdens een HTTPS-aanvraag wordt ingesteld en onveilig als deze tijdens een HTTP-aanvraag wordt ingesteld.
+Voor HTTP Only= `Yes` (die op verzoek wordt gebaseerd), betekent het dat het koekje veilig is indien geplaatst tijdens HTTPS verzoek en onveilig indien geplaatst tijdens HTTP- verzoek.
 
-- Is veilig? `Yes` (op verzoek), `No`
+- Is veilig? `Yes` (gebaseerd op verzoek), `No`
 - Alleen HTTP: `No`
-- Vervalbeleid: gebaseerd op [Blijvende winkelwagentje](../stores-purchase/cart-persistent.md) - Configuratie van levensonderhoud (seconden)
-   - PHP: `1` jaar / `315360000s` (tien jaar)
+- Het Beleid van de vervalsing: Gebaseerd op [ het Persistent Shopping Cart ](../stores-purchase/cart-persistent.md) - de configuratie van het Levensduur van de persistentie (seconden)
+   - PHP: `1` year / `315360000s` (10 jaar)
    - JS: `1` dag
    - JS lokale opslag: volgens lokale opslagregels (altijd)
 - Module: `Magento_PageCache`, `Magento_Customer`
@@ -293,7 +293,7 @@ Volgt de specifieke winkelweergave/-landinstelling die door de winkelier is gese
 
 #### `mage-banners-cache-storage` - lokale opslag
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Lokale opslag voor de Bannerfunctionaliteit.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Lokale opslag voor de functionaliteit van de Banner.
 
 - Is veilig? `No`
 - Alleen HTTP: `No`
@@ -302,47 +302,47 @@ Volgt de specifieke winkelweergave/-landinstelling die door de winkelier is gese
 
 ## Cookies Googles Analytics
 
-De volgende cookies worden gebruikt wanneer [Googles Analytics](../merchandising-promotions/google-analytics.md) of Google Universal Analytics is volledig ingeschakeld voor uw installatie. Als u deze cookies wilt uitschakelen zodat de privacyregels worden nageleefd, raadpleegt u [Google Privacy-instellingen](../merchandising-promotions/google-tools.md#google-privacy-settings). Zie voor meer informatie [Gebruik van Googles Analytics cookie op websites][1].
+De volgende koekjes worden gebruikt wanneer [ Googles Analytics ](../merchandising-promotions/google-analytics.md) of de Universele Analytics van Google volledig voor uw installatie wordt toegelaten. Om deze koekjes voor naleving van de privacyregeling onbruikbaar te maken, zie [ de Montages van de Privacy van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings). Meer leren, zie {het Gebruik van de Koekjeskolom 0} Googles Analytics op Websites ][1].[
 
 ### Google Universal Analytics cookies - niet vrijgesteld
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) JavaScript-bibliotheken: `gtag.js` en `analytics.js`
+![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce) de Bibliotheken van JavaScript: `gtag.js` en `analytics.js`
 
-- `_ga`: Hiermee verdeelt u bezoekers van uw site.
-- `_gid`: Hiermee verdeelt u bezoekers van uw site.
-- `gat`: Wordt gebruikt om de aanvraagsnelheid te vertragen.
-- `dc_gtm_<property-id>`: Het verzoektarief van Throttles wanneer de Googles Analytics met worden opgesteld [Google-tagbeheer](../merchandising-promotions/google-tag-manager.md).
+- `_ga`: hiermee verdeelt u bezoekers van uw site.
+- `_gid`: hiermee verdeelt u bezoekers van uw site.
+- `gat`: wordt gebruikt om de aanvraagsnelheid te vertragen.
+- `dc_gtm_<property-id>`: Het verzoektarief van schroeven wanneer de Googles Analytics met [ de Manager van de Markering van Google ](../merchandising-promotions/google-tag-manager.md) worden opgesteld.
 - `AMP_TOKEN`: Bevat een token dat kan worden gebruikt om een client-id op te halen van de AMP Client ID-service. Andere mogelijke waarden zijn opt-out, inflight-aanvraag of een fout bij het ophalen van een client-id van de AMP Client ID-service.
-- `_gac_<property-id>`: Bevat informatie over de campagne voor de gebruiker. Google AdWords-conversietags lezen dit cookie als Googles Analytics zijn gekoppeld aan uw [AdWords][2] account.
+- `_gac_<property-id>`: bevat campagnegerelateerde informatie voor de gebruiker. De omzettingsmarkeringen van Google AdWords lezen dit koekje als de Googles Analytics met uw [ AdWords ][2] rekening verbonden zijn.
 
 ### Cookies van Googles Analytics - niet-vrijgesteld
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) JavaScript-bibliotheek: `ga.js`
+![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce) de Bibliotheek van JavaScript: `ga.js`
 
-- `__utma`: Hiermee maakt u onderscheid tussen winkels en sessies. Dit cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en er geen bestaand cookie is. `__utma` cookie. Het cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
-- `__utmt`: Wordt gebruikt om de aanvraagsnelheid te vertragen.
-- `__utmb`: Bepaalt nieuwe sessies/bezoeken. Dit cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en er geen bestaand cookie is. `__utmb` cookie. Het cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
-- `_utmz`: Hiermee slaat u de verkeersbron of campagne op waarin wordt uitgelegd hoe de gebruiker uw site heeft bereikt. Het cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
-- `__utmv`: Hiermee slaat u aangepaste variabele gegevens op bezoekersniveau op. Deze cookie wordt gemaakt wanneer een ontwikkelaar de functie `_setCustomVar` methode met een aangepaste variabele op bezoekersniveau. Dit cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
+- `__utma`: onderscheidt gebruikers en sessies. Dit cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en er is geen bestaand `__utma` cookie. Het cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
+- `__utmt`: wordt gebruikt om de aanvraagsnelheid te vertragen.
+- `__utmb`: bepaalt nieuwe sessies/bezoeken. Dit cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en er is geen bestaand `__utmb` cookie. Het cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
+- `_utmz`: hiermee slaat u de verkeersbron of campagne op waarin wordt uitgelegd hoe de gebruiker uw site heeft bereikt. Het cookie wordt gemaakt wanneer de JavaScript-bibliotheek wordt uitgevoerd en wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
+- `__utmv`: slaat aangepaste variabele gegevens op bezoekersniveau op. Dit cookie wordt gemaakt wanneer een ontwikkelaar de methode `_setCustomVar` gebruikt met een aangepaste variabele op bezoekersniveau. Dit cookie wordt bijgewerkt telkens wanneer gegevens naar Googles Analytics worden verzonden.
 
 ## Product Recommendations cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) De volgende cookies worden door Product Recommendations gebruikt voor klanten van Adobe Commerce. Deze cookies worden geïnstalleerd met de [De module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door Product Recommendations voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg_dnt`: Hiermee kunt u [Adobe Commerce-gegevensverzameling beperken](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) als u aangepaste code hebt voor het beheer van cookie-toestemming op uw site.
-- `user_allowed_save_cookie`: Gebruikt voor [cookie-beperkingsmodus](#cookie-restriction-mode).
-- `authentication_flag`: Geeft aan of een winkelier zich heeft aangemeld of zich heeft afgemeld. Deze cookie wordt tegelijk bijgewerkt met de `dataservices_customer_id` cookie.
-- `dataservices_customer_id`: Geeft aan of een winkelier zich heeft aangemeld of zich heeft afgemeld. Dit cookie bevat de unieke id van de klant in het systeem.
-- `dataservices_customer_group`: Geeft de groep van een klant aan. Deze cookie wordt opgeslagen als [sha1](https://en.wikipedia.org/wiki/SHA-1) controlesom van de groep-id van de klant.
-- `dataservices_cart_id`: Identificeert de winkelwagentacties. Dit cookie bevat de unieke kaart-id van de klant in het systeem.
-- `dataservices_product_context`: Identificeert de productinteracties van een klant. Dit cookie bevat de unieke aanhalings-id van de klant in het systeem.
+- `mg_dnt`: Staat u toe [ om de gegevensinzameling van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
+- `user_allowed_save_cookie`: Gebruikt voor [ wijze van de koekjesbeperking ](#cookie-restriction-mode).
+- `authentication_flag`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Deze cookie wordt tegelijk met het `dataservices_customer_id` cookie bijgewerkt.
+- `dataservices_customer_id`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Dit cookie bevat de unieke id van de klant in het systeem.
+- `dataservices_customer_group`: geeft de groep van een klant aan. Dit koekje wordt opgeslagen als [ sha1 ](https://en.wikipedia.org/wiki/SHA-1) controlesom van de de groepsidentiteitskaart van de klant.
+- `dataservices_cart_id`: identificeert de winkelwagentacties. Dit cookie bevat de unieke kaart-id van de klant in het systeem.
+- `dataservices_product_context`: identificeert de productinteracties van een klant. Dit cookie bevat de unieke aanhalings-id van de klant in het systeem.
 
 ## Aanvullende cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) De volgende cookies worden ingesteld voor Adobe Commerce-klanten. Deze cookies worden geïnstalleerd met de [De module DataServices](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
-- `mg`: Ingesteld door JavaScript-tracker Snowplow. Meer informatie vindt u in de [Documentatie over gloed](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Deze cookie maakt deel uit van de [Alloy Web SDK](https://github.com/adobe/alloy).
+- `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [ documentatie van de Snowplow ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options) worden gevonden.
+- `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [ het Web SDK van de Legering ](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

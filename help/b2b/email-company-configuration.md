@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # E-mailopties voor bedrijven configureren
 
-De [verkoopvertegenwoordiger](account-company-manage.md) dat als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
+De [ verkoopvertegenwoordiger ](account-company-manage.md) die als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Company Configuration]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Company Configuration]** .
 
-1. Indien nodig, instellen **[!UICONTROL Store View]** in de winkelweergave om de [bereik](../getting-started/websites-stores-views.md#scope-settings) van de configuratie.
+1. Indien nodig, plaats **[!UICONTROL Store View]** aan de opslagmening om het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de configuratie te bepalen.
 
-1. Voltooi de **[!UICONTROL Company Registration]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Registration]** :
 
    >[!NOTE]
    >
-   >Wis de **[!UICONTROL Use system value]** Schakel het selectievakje in om het veld bewerkbaar te maken.
+   >Schakel het selectievakje **[!UICONTROL Use system value]** uit om het veld bewerkbaar te maken.
 
-   - Set **[!UICONTROL Company Registration Email Recipient]** aan de [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) wie op de hoogte moet worden gesteld wanneer een nieuw registratieverzoek van een vennootschap wordt ontvangen.
+   - Plaats **[!UICONTROL Company Registration Email Recipient]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een nieuw verzoek van de bedrijfregistratie wordt ontvangen.
 
-   - In de **[!UICONTROL Send Company Registration Email Copy To]** Voer in het veld het e-mailadres in van elke persoon die een kopie van de registratiekennisgeving moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer in het veld **[!UICONTROL Send Company Registration Email Copy To]** het e-mailadres in van elke persoon die een kopie van het registratiebericht moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** op een van de volgende wijzen:
+   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** in op een van de volgende opties:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-   - Als u een e-mailsjabloon hebt voorbereid voor gebruik in plaats van de standaardsjabloon, stelt u **[!UICONTROL Default Company Registration Email]** op de naam van de sjabloon. Standaard worden de `Company Registration Request` sjabloon wordt gebruikt.
+   - Als u een e-mailsjabloon hebt voorbereid voor gebruik in plaats van de standaardsjabloon, stelt u **[!UICONTROL Default Company Registration Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Registration Request` gebruikt.
 
-     ![Configuratie van klanten - bedrijfsregistratie](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
+     ![ configuratie van Klanten - bedrijfregistratie ](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
-1. Voltooi de **[!UICONTROL Customer-Related Emails]** sectie:
+1. Voltooi de sectie **[!UICONTROL Customer-Related Emails]** :
 
    Als u alternatieve e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardinstellingen, kiest u de sjabloon die u wilt gebruiken voor elk van de volgende opties:
 
@@ -52,41 +52,41 @@ De [verkoopvertegenwoordiger](account-company-manage.md) dat als primair contact
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![Configuratie van klanten - aan klanten gerelateerde e-mails](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
+   ![ configuratie van Klanten - klant verwante e-mails ](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
-1. Voltooi de **[!UICONTROL Company Status Change]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Status Change]** :
 
-   - Set **[!UICONTROL Company Status Change for Email Recipient]** aan de [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) wie in kennis moet worden gesteld wanneer de status van een onderneming verandert.
+   - Plaats **[!UICONTROL Company Status Change for Email Recipient]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer het statuut van een bedrijf verandert.
 
-   - In de **[!UICONTROL Send Company Status Change Email Copy To]** Voer in het veld het e-mailadres in van elke persoon die een kopie van het bericht voor statuswijziging moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer in het veld **[!UICONTROL Send Company Status Change Email Copy To]** het e-mailadres in van elke persoon die een kopie van het bericht over de statuswijziging moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** op een van de volgende wijzen:
+   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** in op een van de volgende opties:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-   - Als u een voorbereid e-mailmalplaatje hebt dat in plaats van het gebrek moet worden gebruikt wanneer de bedrijfstatus van verandert `Pending Approval` tot `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** naar die template. Standaard worden de `Company Status Active 1` sjabloon wordt gebruikt.
+   - Als u een voorbereide e-mailsjabloon hebt die in plaats van de standaardsjabloon moet worden gebruikt wanneer de bedrijfsstatus verandert van `Pending Approval` in `Active` , stelt u **[!UICONTROL Default 'Company Status Change to Active 1' Email]** in op die sjabloon. Standaard wordt de sjabloon `Company Status Active 1` gebruikt.
 
-   - Als u een voorbereid e-mailmalplaatje hebt dat in plaats van het gebrek moet worden gebruikt wanneer de bedrijfstatus van verandert `Rejected` of `Blocked` tot `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** naar die template. Standaard worden de `Company Status Active 2` sjabloon wordt gebruikt.
+   - Als u een voorbereide e-mailsjabloon hebt die in plaats van de standaardsjabloon moet worden gebruikt wanneer de bedrijfsstatus verandert van `Rejected` of `Blocked` in `Active` , stelt u **[!UICONTROL Default 'Company Status Change to Active 2' Email]** in op die sjabloon. Standaard wordt de sjabloon `Company Status Active 2` gebruikt.
 
-   - Als u een voorbereid e-mailmalplaatje hebt dat in plaats van het gebrek moet worden gebruikt wanneer de bedrijfstatus verandert in `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** naar die template. Standaard worden de `Company Status Rejected` sjabloon wordt gebruikt.
+   - Als u een voorbereide e-mailsjabloon hebt die in plaats van de standaardsjabloon moet worden gebruikt wanneer de bedrijfsstatus verandert in `Rejected` , stelt u **[!UICONTROL Default 'Company Status Change to Rejected' Email]** in op die sjabloon. Standaard wordt de sjabloon `Company Status Rejected` gebruikt.
 
-   - Als u een voorbereid e-mailmalplaatje hebt dat in plaats van het gebrek moet worden gebruikt wanneer de bedrijfstatus verandert in `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** naar die template. Standaard worden de `Company Status Blocked` sjabloon wordt gebruikt.
+   - Als u een voorbereide e-mailsjabloon hebt die in plaats van de standaardsjabloon moet worden gebruikt wanneer de bedrijfsstatus verandert in `Blocked` , stelt u **[!UICONTROL Default 'Company Status Change to Blocked' Email]** in op die sjabloon. Standaard wordt de sjabloon `Company Status Blocked` gebruikt.
 
-   - Als u een voorbereid e-mailmalplaatje hebt dat in plaats van het gebrek moet worden gebruikt wanneer de bedrijfstatus verandert in `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** naar die template. Standaard worden de `Company Status Pending Approval` sjabloon wordt gebruikt.
+   - Als u een voorbereide e-mailsjabloon hebt die in plaats van de standaardsjabloon moet worden gebruikt wanneer de bedrijfsstatus verandert in `Pending Approval` , stelt u **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** in op die sjabloon. Standaard wordt de sjabloon `Company Status Pending Approval` gebruikt.
 
-     ![Configuratie van klanten - wijziging van bedrijfsstatus](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
+     ![ configuratie van Klanten - de verandering van de bedrijfstatus ](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
-1. Voltooi de **[!UICONTROL Company Credit Emails]** sectie:
+1. Voltooi de sectie **[!UICONTROL Company Credit Emails]** :
 
-   - Set **[!UICONTROL Company Credit Change Email Sender]** aan de [contactpersoon voor winkel](../getting-started/store-details.md#store-email-addresses) wie op de hoogte moet worden gebracht wanneer de kredietlimiet die aan een onderneming is toegekend, wordt gewijzigd. Standaard wordt het bericht verzonden naar _Verkoopvertegenwoordiger_.
+   - Plaats **[!UICONTROL Company Credit Change Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een verandering aan de kredietgrens wordt aangebracht die aan een bedrijf wordt toegewezen. Door gebrek, wordt het bericht verzonden naar _Vertegenwoordiger van de Verkoop_.
 
-   - In de **[!UICONTROL Send Company Credit Change Email Copy To]** Voer in het veld het e-mailadres in van elke persoon die een kopie van de kennisgeving van wijziging van creditcard moet ontvangen. Scheid meerdere e-mailadressen met een komma.
+   - Voer in het veld **[!UICONTROL Send Company Credit Change Email Copy To]** het e-mailadres in van elke persoon die een kopie van het bericht over de wijziging van het bedrag moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
-   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** op een van de volgende wijzen:
+   - Als u wilt bepalen hoe de kopie van het bericht wordt verzonden, stelt u **[!UICONTROL Send Email Copy Method]** in op een van de volgende opties:
 
-      - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+      - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
    - Als u e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardwaarden, kiest u de sjabloon voor elk van de volgende meldingen die naar de bedrijfsbeheerder worden verzonden.
 
@@ -96,6 +96,6 @@ De [verkoopvertegenwoordiger](account-company-manage.md) dat als primair contact
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-   ![Configuratie van klanten - bedrijfskrediet-e-mails](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
+   ![ configuratie van Klanten - bedrijfkrediet e-mails ](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

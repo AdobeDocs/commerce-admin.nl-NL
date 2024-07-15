@@ -5,7 +5,7 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt een combinatie van configuratie-instellingen gebruiken om berichten over de beschikbaarheid van voorraden op productpagina&#39;s en in lijsten met producten op cataloguspagina&#39;s te beheren.
 
-![Gegroepeerd product met bericht &quot;Uit voorraad&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![ Gegroepeerd Product met &quot;Van voorraad&quot;Bericht ](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Voorraadberichten voor productpagina&#39;s
 
@@ -68,7 +68,7 @@ Wanneer de voorraad niet voor een product wordt beheerd, verhindert deze combina
 
 De volgende weergaveopties zijn mogelijk voor de lijst met categorieën en zoekresultaten, afhankelijk van de beschikbaarheid van het product en de configuratie-instellingen.
 
-![Bericht uit de voorraad op rubriekpagina](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![ Bericht uit-van-voorraad op de Pagina van de Categorie ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Voorbeeld 1: Bericht &quot;Uit voorraad&quot; weergeven voor product
 

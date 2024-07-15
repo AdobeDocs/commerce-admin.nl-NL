@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Status van bestelling en voorbehouden
 
-[!DNL Inventory Management] ondersteunt gedeeltelijke en volledige facturering, betalingen, verzending en annuleringen per bestelling. Terwijl u een bestelling beheert via verwerking, facturering, verzending en mogelijk terugbetalingen, [!DNL Commerce] voert automatisch een voorbehoud in of wijzigt dit om de verkoopbare hoeveelheid voor een voorraad (of verkoopkanaal) en de hoeveelheid voorraad ter plaatse per bron bij te werken. U hoeft geen actieve toegang te krijgen tot reserveringen of deze in te voeren. Als u acties uitvoert om een bestelling te voltooien, te annuleren of terug te betalen, gebeurt dit voor u.
+[!DNL Inventory Management] ondersteunt gedeeltelijke en volledige facturering, betalingen, verzending en annuleringen per bestelling. Als u een bestelling beheert via verwerking, facturering, verzending en mogelijk terugbetalingen, voert [!DNL Commerce] automatisch reserveringen in of wijzigt het de verkoopbare hoeveelheid voor een voorraad (of verkoopkanaal) en de hoeveelheid voorraad in voorraad per bron. U hoeft geen actieve toegang te krijgen tot reserveringen of deze in te voeren. Als u acties uitvoert om een bestelling te voltooien, te annuleren of terug te betalen, gebeurt dit voor u.
 
 Met deze voorbehouden wordt altijd de verkoopbare hoeveelheid aangepast, met positieve of negatieve bedragen om de hoeveelheid te verhogen of te verlagen. Het resultaat is een update van uw eigen voorraad en verkoopbare hoeveelheden voor actuele productbeschikbaarheid.
 
-Zie voor meer informatie over bestellingen en verzendingen [Bestellingen en verzendingen beheren](shipments.md).
+Voor details op orden en verzendingen, zie [ het Leiden Orden en Verzendingen ](shipments.md).
 
 ## Opties voor orderbeheer
 
@@ -32,30 +32,30 @@ Als een klant zijn bestelling vóór verzending (gedeeltelijk of volledig) annul
 
 ### Terugbetaalde bestellingen
 
-Als een klant om terugbetaling verzoekt, geeft u de creditnota voor de gedeeltelijke of volledige productbedragen uit. Wanneer u de geretourneerde producten ontvangt, voert u een creditnota in om de middelen te verstrekken en de productbedragen bij te werken. Als u de optie Terug naar voorraad selecteert, [!DNL Commerce] de hoeveelheden worden toegevoegd aan de producten en de bronnen die de orders hebben verzonden en de boekingsvergoedingen om de verkoopbare hoeveelheden voor de betrokken voorraden bij te werken.
+Als een klant om terugbetaling verzoekt, geeft u de creditnota voor de gedeeltelijke of volledige productbedragen uit. Wanneer u de geretourneerde producten ontvangt, voert u een creditnota in om de middelen te verstrekken en de productbedragen bij te werken. Wanneer u de optie Terug naar voorraad selecteert, worden met [!DNL Commerce] hoeveelheden toegevoegd aan de producten en bronnen die de bestellingen en boekingsvergoedingen hebben verzonden om de verkoopbare hoeveelheden voor de bijbehorende voorraad bij te werken.
 
 ## Ordertypen
 
-Eenvoudige bestellingen beginnen met een winkelwagentje, blijven betalen en eindigen met een bevredigende levering. In deze bestellingen [!DNL Inventory Management] eenvoudig voorbehouden verwerken tegen de beschikbaarheid (of verkoopbare hoeveelheid) in de kar en de afhandeling, en aftrekken van de voorraad ter plaatse bij verzending.
+Eenvoudige bestellingen beginnen met een winkelwagentje, blijven betalen en eindigen met een bevredigende levering. In deze bestellingen verwerkt [!DNL Inventory Management] eenvoudig voorbehouden tegen de beschikbaarheid (of verkoopbare hoeveelheid) in het winkelwagentje en de kassa, en brengt het de voorraad tijdens de verzending in mindering op de voorraad.
 
-![Proces voor een eenvoudige volgorde](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![ Proces voor een eenvoudige orde ](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Een gecompliceerder bestelling kan gedeeltelijk worden geannuleerd, gedeeltelijk worden verzonden en terugbetaald. In dergelijke situaties hebben de voorbehouden invloed op de beschikbare voorraad om hoeveelheden voor annuleringen en restituties toe te voegen en de hoeveelheden te verlagen wanneer ze worden besteld en verzonden.
 
-![Proces voor een gecompliceerde bestelling](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![ Proces voor een gecompliceerde orde ](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 De reserveringen van de beschikbaarheid en inventarisveranderingen komen op basis van de ordestatus voor.
 
 ## Status en voorbehouden
 
-In de volgende tabellen wordt de status van de order en creditnota met reserveringswijzigingen gespecificeerd die zijn ingevoerd door [!DNL Commerce] om je voorraad te beheren.
+In de volgende tabellen worden de volgorde en de status van de creditnota met de wijzigingen in de reserveringen die door [!DNL Commerce] zijn ingevoerd voor het beheer van uw voorraad in detail weergegeven.
 
 | Status van bestelling | Beschrijving | Voorbehoud voor verkoopbare hoeveelheid |
 |--|--|--|
 | [!UICONTROL Open] | Nieuw en recent verzonden, geen verwerking | Voorbehoud wordt bewaard wanneer de orde voor het dossier wordt voorgelegd. |
 | [!UICONTROL Canceled] | Geannuleerd geheel of gedeeltelijk vóór betaling | Voorwaardelijke verrekening wordt geboekt om de volledige of gedeeltelijke hoeveelheid weer op de verkoopbare hoeveelheid terug te brengen. |
 | [!UICONTROL On Hold] | Betaling en verzending niet verwerkt of gefactureerd | Voorbehoud blijft van kracht. |
-| [!UICONTROL Suspected Fraud] | Niet verwerkt wegens fraude | Indien goedgekeurd of herzien, blijft de reservering op zijn plaats.<br/>Indien geweigerd, blijft de reservering van kracht totdat de handelaar besluit deze goed te keuren of te annuleren.<br/>Indien de boeking wordt geannuleerd, wordt de volledige hoeveelheid teruggeboekt naar de verkoopbare hoeveelheid. |
+| [!UICONTROL Suspected Fraud] | Niet verwerkt wegens fraude | Indien goedgekeurd of herzien, blijft de reservering op zijn plaats.<br/> Als Verworpen, blijft de reserve op zijn plaats tot de handelaar besluit goed te keuren of te annuleren.<br/> Als geannuleerd, wordt de reserveringscompensatie ingegaan om volledige hoeveelheid terug te keren naar de voorraad verkoopbare hoeveelheid. |
 | [!UICONTROL Pending] | Te betalen | De reservering blijft van kracht. |
 | [!UICONTROL Processing] | Betalingsverwerking niet ontvangen | De reservering blijft van kracht. |
 | [!UICONTROL Pending Payment] | Betaling niet ontvangen | De reservering blijft van kracht. |
@@ -74,16 +74,16 @@ Blake Sanders bestelt fietsen en kleding voor hun familievakantie en plezier. Zi
 
 Ze kopen twee grote park fietsen voor hun kleine kinderen, een BMX fiets voor hun tiener, een mooie berg fiets voor zichzelf en een moderne Duitse fiets voor hun echtgenoot. De winkel had een verkoop op schattige hemden, dus kochten ze er wat voor de hele familie om mee te doen. Zie de onderstaande lijst met vacatureaankopen, de overeenkomende SKU&#39;s en de reserveringen ten aanzien van de verkoopbare voorraden.
 
-![Complexe volgorde](assets/diagram-order-complex.png){width="600" zoomable="yes"}
+![ Complexe orde ](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Ze laten hun familie zien wat ze vonden, maar ze veranderen. Voordat de betaling is voltooid, annuleren ze twee van de 33-BikeFun SKU&#39;s (kinderen vonden ze niet leuk). Dit is een gedeeltelijke annulering wegens hangende betaling, dus er is geen creditnota nodig. Om bij te werken, [!DNL Commerce] wordt toegevoegd aan de verkoopbare voorraad voor Canada. De bestelling wordt betaald en alle producten worden op tijd geleverd voor vakantie. [!DNL Commerce] actualiseert de verkoopbare hoeveelheid en de bronhoeveelheden voor de verzendende producten.
+Ze laten hun familie zien wat ze vonden, maar ze veranderen. Voordat de betaling is voltooid, annuleren ze twee van de 33-BikeFun SKU&#39;s (kinderen vonden ze niet leuk). Dit is een gedeeltelijke annulering wegens hangende betaling, dus er is geen creditnota nodig. Als u een update wilt uitvoeren, voegt [!DNL Commerce] terug naar de verkochte hoeveelheid voor Canada. De bestelling wordt betaald en alle producten worden op tijd geleverd voor vakantie. [!DNL Commerce] werkt de verkoopbare hoeveelheid en de bronhoeveelheden voor de verzendende producten bij.
 
 Maar het shirt paste niet helemaal bij hun echtgenoot. Blake vraagt om terugbetaling en stuurt zijn shirt terug. De creatie van de kredietmemo voegt een 54-BikeLife-shirt toe aan de Canadese voorraad en het Canadese pakhuis.
 
-- **Verzonden producten** - met aangekochte en verzonden producten, [!DNL Commerce] werkt de voorraad bij. Reserveringscompensaties worden omgezet in inhoudingen van de geleverde voorraad op de aangevoerde bron. De beschikbare verkoopbare hoeveelheid wordt bijgewerkt voor de voorraad.
+- **Verzonden producten** - met aangekochte en verscheepte producten, [!DNL Commerce] werkt de inventaris bij. Reserveringscompensaties worden omgezet in inhoudingen van de geleverde voorraad op de aangevoerde bron. De beschikbare verkoopbare hoeveelheid wordt bijgewerkt voor de voorraad.
 
-- **Geannuleerde producten** - door de voorraad te annuleren, [!DNL Commerce] verwijdert de reservering voor dat product. De reserveringsvergoeding wordt op het voorraadniveau geboekt om de verkoopbare hoeveelheden voor de gedeeltelijke annulering van twee hemden op te tellen. Dit heeft geen invloed op de inventarishoeveelheid op bronniveau.
+- **Geannuleerde producten** - door voorraad te annuleren, [!DNL Commerce] verwijdert de reserve voor dat product. De reserveringsvergoeding wordt op het voorraadniveau geboekt om de verkoopbare hoeveelheden voor de gedeeltelijke annulering van twee hemden op te tellen. Dit heeft geen invloed op de inventarishoeveelheid op bronniveau.
 
-- **Creditnota/Afgelost product** - Door de voorraden met boekhouding te leveren, moet deze worden opgeteld bij de hoeveelheden. Bij het uitgeven van de creditnota kunt u selecteren om aan voorraad terug te keren. [!DNL Commerce] Hiermee voegt u een voorraadhoeveelheid toe aan de verzendbron voor het product. De reserveringscompensaties worden ingevoerd om eventuele resterende voorbehouden te wissen. De verkoopbare hoeveelheid wordt opnieuw berekend ten opzichte van de bijgewerkte hoeveelheid.
+- **Memo/Geretourneerd product van het Krediet** - door voorraad terug te keren, moet het aan de hoeveelheden worden toegevoegd. Bij het uitgeven van de creditnota kunt u selecteren om aan voorraad terug te keren. [!DNL Commerce] voegt voorraadhoeveelheid aan de verscheepte bron voor het product toe. De reserveringscompensaties worden ingevoerd om eventuele resterende voorbehouden te wissen. De verkoopbare hoeveelheid wordt opnieuw berekend ten opzichte van de bijgewerkte hoeveelheid.
 
-![Updates van het aantal terugbetalingsaanvragen](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![ de updates van het de terugbetalingsaantal van de Orde ](assets/diagram-order-refund.png){width="600" zoomable="yes"}

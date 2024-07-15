@@ -14,49 +14,49 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worden voorgelegd. Een RMA kan slechts worden geproduceerd als er een punt in de orde is die voor terugkeer beschikbaar is. Verzoeken om individuele items te retourneren worden beheerd door de _RMA inschakelen_ in elke productrecord. Standaard worden de configuratie-instellingen toegepast op het product (_[!UICONTROL Use Config Settings]_is geselecteerd). Indien_[!UICONTROL Enable RMA]_ is ingesteld op `No`, wordt het product niet weergegeven in de lijst met items die kunnen worden geretourneerd. Als u de _RMA inschakelen_ het is van toepassing op zowel nieuwe als bestaande bestellingen.
+Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worden voorgelegd. Een RMA kan slechts worden geproduceerd als er een punt in de orde is die voor terugkeer beschikbaar is. De verzoeken om individuele punten terug te keren worden beheerd door _laat 1} attributen RMA in elk productverslag toe._ Door gebrek, worden de configuratiemontages toegepast op het product (_[!UICONTROL Use Config Settings]_wordt geselecteerd). Als_[!UICONTROL Enable RMA]_ is ingesteld op `No` , wordt het product niet weergegeven in de lijst met items die kunnen worden geretourneerd. Als u _verandert laat RMA_ plaatsen toe, is het op zowel nieuwe als bestaande orden van toepassing.
 
 ## RMA&#39;s inschakelen voor uw winkel
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Sales]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL RMA Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL RMA Settings]** sectie uit.
 
-   ![RMA-instellingen](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![ Montages RMA ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enable RMA on Storefront]** tot `Yes`.
+1. Stel **[!UICONTROL Enable RMA on Storefront]** in op `Yes` .
 
    Deze instelling bepaalt of klanten RMA-verzoeken vanuit de winkel kunnen maken en weergeven. RMA&#39;s kunnen worden toegepast op zowel nieuwe als bestaande orders.
 
-1. Set **[!UICONTROL Enable RMA on Product Level]** tot `Yes`.
+1. Stel **[!UICONTROL Enable RMA on Product Level]** in op `Yes` .
 
-   Deze instelling bepaalt het gedrag voor de _RMA inschakelen_ kenmerk voor afzonderlijke producten in de winkel:
+   Dit het plaatsen bepaalt het gedrag voor _laat 1} attributen RMA voor individuele producten op storefront toe:_
 
-   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `Yes`, kunnen klanten op de winkel alle afzonderlijke producten retourneren. Het omvat beide _[!UICONTROL Enable RMA]_= `Yes` en_[!UICONTROL Enable RMA]_ = `No` productkenmerkwaarden.
-   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `No`, kunnen klanten op de winkel alleen de producten met een _[!UICONTROL Enable RMA]_= `Yes` productkenmerkwaarde.
+   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `Yes` , kunnen klanten in de winkel alle afzonderlijke producten retourneren. Deze bevat zowel _[!UICONTROL Enable RMA]_= `Yes` als_[!UICONTROL Enable RMA]_ = `No` productkenmerkwaarden.
+   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `No` , kunnen klanten in de winkel alleen de producten retourneren met de waarde van het productkenmerk _[!UICONTROL Enable RMA]_= `Yes` .
 
-1. Set **[!UICONTROL Use Store Address]** op een van de volgende waarden:
+1. Stel **[!UICONTROL Use Store Address]** in op een van de volgende waarden:
 
-   - `Yes` - Teruggestuurde producten naar het adres van de winkel sturen.
+   - `Yes` - Verstuur de geretourneerde producten naar het adres van de winkel.
    - `No` - Voer een alternatief adres in voor de geretourneerde waarde van het product.
 
-   ![RMA-instellingen met alternatief adres](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![ Montages RMA met afwisselend adres ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Verzendmethoden configureren voor retourzendingen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Delivery Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid de sectie voor de drager uit die u voor de terugkeerdienst, zoals wilt gebruiken **[!UICONTROL UPS]**.
+1. Vouw de sectie uit voor de carrier die u wilt gebruiken voor de retourservice, zoals **[!UICONTROL UPS]** .
 
-   ![RMA-service inschakelen voor carrier](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
+   ![ laat de dienst RMA voor drager ](./assets/rma-delivery-method.png){width="600" zoomable="yes"} toe
 
-1. Set **[!UICONTROL Enabled for RMA]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled for RMA]** in op `Yes` .
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -66,12 +66,12 @@ Als u RMAs voor uw opslag toelaat en uw catalogus sommige producten bevat die ni
 
 1. Open het product in de bewerkingsmodus.
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Autosettings]** sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Autosettings]** sectie.
 
-1. Wis de **[!UICONTROL Use Config Setting]** selectievakje, indien nodig.
+1. Schakel indien nodig het selectievakje **[!UICONTROL Use Config Setting]** uit.
 
-1. Schakelen tussen **[!UICONTROL Enable RMA]** instellen op `No`.
+1. Schakel de instelling **[!UICONTROL Enable RMA]** in op `No` .
 
-   ![RMA uitschakelen voor een product](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
+   ![ maak RMA voor een product ](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"} onbruikbaar
 
 1. Klik op **[!UICONTROL Save]**.

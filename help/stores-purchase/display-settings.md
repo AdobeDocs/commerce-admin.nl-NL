@@ -5,7 +5,7 @@ exl-id: 6f97c474-ef6e-4ca6-899d-812c58b993ca
 feature: Checkout, Invoices, Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Als de productprijs ook belasting bevat, wordt de belasting alleen weergegeven a
 
 >[!IMPORTANT]
 >
->Het kan verwarrend zijn voor de klant om prijzen weer te geven die belasting omvatten en uitsluiten. Als u wilt voorkomen dat een waarschuwingsbericht wordt geactiveerd, raadpleegt u de [richtlijnen](international-tax-guidelines.md) voor uw land en [aanbevolen instellingen](taxes.md#warning-messages) om waarschuwingsberichten te voorkomen.
+>Het kan verwarrend zijn voor de klant om prijzen weer te geven die belasting omvatten en uitsluiten. Vermijd het teweegbrengen van een waarschuwingsbericht, zie de [ richtlijnen ](international-tax-guidelines.md) voor uw land en [ geadviseerde montages ](taxes.md#warning-messages) om waarschuwingsberichten te vermijden.
 
-![Weergave-instellingen prijs](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+![ de Montages van de Vertoning van de Prijs ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Weergave-instellingen prijs](../configuration-reference/sales/tax.md#price-display-settings) in de _Referentiehandleiding voor configuratie_.
+Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Montages van de Vertoning van de 0} Prijs ](../configuration-reference/sales/tax.md#price-display-settings) in de _Gids van de Verwijzing van de Configuratie_.[
 
 ## Prijsweergave-instellingen configureren
 
@@ -32,13 +32,13 @@ Het is aan te raden om prijzen weer te geven met de bijbehorende belastingen (in
 
 ### Stap 1: Weergave-instellingen voor catalogusprijzen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Tax]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie uit.
 
-1. Voor **[!UICONTROL Display Product Prices in Catalog]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Product Prices in Catalog]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -46,9 +46,9 @@ Het is aan te raden om prijzen weer te geven met de bijbehorende belastingen (in
 
    >[!NOTE]
    >
-   >Als u deze optie op `Including Tax`, wordt de belasting alleen weergegeven als er een belastingregel is die overeenkomt met de fiscale oorsprong of als er een klantadres is dat overeenkomt met de belastingregel. Gebeurtenissen die een overeenkomst kunnen activeren, zijn onder andere het aanmaken van een klantenaccount, aanmelding of het gebruik van het taxatieprogramma BTW en verzendkosten in het winkelwagentje.
+   >Als u deze optie instelt op `Including Tax` , wordt de belasting alleen weergegeven als er een belastingregel is die overeenkomt met de fiscale oorsprong of als er een klantadres is dat overeenkomt met de belastingregel. Gebeurtenissen die een overeenkomst kunnen activeren, zijn onder andere het aanmaken van een klantenaccount, aanmelding of het gebruik van het taxatieprogramma BTW en verzendkosten in het winkelwagentje.
 
-1. Voor **[!UICONTROL Display Shipping Prices]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Shipping Prices]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
@@ -56,45 +56,45 @@ Het is aan te raden om prijzen weer te geven met de bijbehorende belastingen (in
 
 Als u ervoor kiest om beide prijzen (met en zonder belasting) weer te geven, ziet de winkel er ongeveer als volgt uit:
 
-![Voorbeeld van de prijsaanduiding, inclusief de belasting op de winkel](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
+![ Voorbeeld van prijsvertoning met inbegrip van belastingen op de storefront ](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### Stap 2: De weergave-instellingen voor winkelwagentjes configureren
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie uit.
 
-   ![Weergave-instellingen winkelwagentje](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![ het Shopping de Montages van de Vertoning van de Kar ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL Display Prices]** kiest u een van de volgende opties:
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. Voor **[!UICONTROL Display Subtotal]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Prices]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Voor **[!UICONTROL Display Shipping Amount]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Subtotal]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Voor **[!UICONTROL Display Gift Wrapping Prices]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Shipping Amount]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Voor **[!UICONTROL Display Printed Card Prices]** kiest u een van de volgende opties:
+1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Display Gift Wrapping Prices]**, kies één van het volgende:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Voor elk van deze resterende opties schakelt u tussen `Yes` of `No` afhankelijk van uw voorkeur:
+1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Display Printed Card Prices]**, kies één van het volgende:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. Voor elk van deze resterende opties schakelt u naar `Yes` of `No` volgens uw voorkeur:
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
@@ -102,44 +102,44 @@ Als u ervoor kiest om beide prijzen (met en zonder belasting) weer te geven, zie
 
 ### Stap 3: De weergave-instellingen voor bestellingen, facturen en creditnota&#39;s configureren
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie uit.
 
-   ![Weergave-instellingen voor bestellingen, facturen, creditcards](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![ Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL Display Prices]** kiest u een van de volgende opties:
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. Voor **[!UICONTROL Display Subtotal]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Prices]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Voor **[!UICONTROL Display Shipping Amount]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Subtotal]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Voor **[!UICONTROL Display Gift Wrapping Prices]** kiest u een van de volgende opties:
+1. Kies bij **[!UICONTROL Display Shipping Amount]** een van de volgende opties:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) Voor **[!UICONTROL Display Printed Card Prices]** kiest u een van de volgende opties:
+1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Display Gift Wrapping Prices]**, kies één van het volgende:
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Voor elk van deze resterende opties schakelt u tussen `Yes` of `No` afhankelijk van uw voorkeur:
+1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Display Printed Card Prices]**, kies één van het volgende:
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. Voor elk van deze resterende opties schakelt u naar `Yes` of `No` volgens uw voorkeur:
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

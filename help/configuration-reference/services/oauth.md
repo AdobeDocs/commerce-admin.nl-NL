@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Services] &gt; [!UICONTROL OAuth] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Services] &gt; [!UICONTROL OAuth] van Commerce Admin.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Access Token Expiration]
 
-![Tokenvervaldatum benaderen](./assets/oauth-token-expire.png)<!-- zoom -->
+![ Symbolische Vervalsing van de Toegang ](./assets/oauth-token-expire.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Customer Token Lifetime (hours]) | Algemeen | Bepaalt de tijdsduur in uren alvorens een klant API teken verloopt. De klanttoken verloopt nooit wanneer het veld leeg is. Standaardwaarde: `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | Algemeen | Hiermee bepaalt u de tijdsduur in uren voordat een API-beheertoken verloopt. De beheerderstoken verloopt nooit wanneer het veld leeg is. Standaardwaarde: `4` |
@@ -27,24 +27,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Leven- en versleutelingsalgoritmen voor bidirectionele klanten en beheerders-API worden beheerd door de [JWT-verificatie](magento-web-api.md#jwt-authentication) configuratie-instellingen.
+>De dragerklant en admin API symbolische Lifetime en de encryptiealgoritmen worden gecontroleerd door de [ JWT de configuratiemontages van de Authentificatie ](magento-web-api.md#jwt-authentication).
 
 ## [!UICONTROL Cleanup Settings]
 
-![Instellingen opschonen](./assets/oauth-cleanup.png)<!-- zoom -->
+![ Montages van de Schoonmaakbeurt ](./assets/oauth-cleanup.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | Algemeen | Hiermee geeft u het aantal OAuth-verzoeken op voordat opschoning wordt gestart. Niet invoeren `0` om opruimen uit te schakelen. |
+| [!UICONTROL Cleanup Probability] | Algemeen | Hiermee geeft u het aantal OAuth-verzoeken op voordat opschoning wordt gestart. Voer `0` niet in om het opruimen uit te schakelen. |
 | [!UICONTROL Enable WSDL Cache] | Algemeen | Hiermee bepaalt u de leeftijd van de items in minuten voordat ze worden schoongemaakt. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
-![Consumenteninstellingen](./assets/oauth-consumer-settings.png)<!-- zoom -->
+![ Consumentenmontages ](./assets/oauth-consumer-settings.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL OAuth consumer credentials HTTP Post timeout] | Algemeen | Geeft het aantal seconden aan dat het systeem nodig heeft om de time-out op te geven wanneer klanten hun gegevens posten. |
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Algemeen | Hiermee wordt het maximale aantal omleidingen aangegeven dat betrekking heeft op het posten van de geloofsbrieven van de consument. |
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Authentication Locks]
 
-![Verificatie vergrendelt](./assets/oauth-locks.png)<!-- zoom -->
+![ Vergrendelingen van de Authentificatie ](./assets/oauth-locks.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | Algemeen | Hiermee geeft u het maximum aantal verificatiefouten op waarmee account kan worden afgesloten. |
 | [!UICONTROL Lockout Time (seconds)] | Algemeen | Hiermee geeft u de periode op in seconden waarna het account wordt ontgrendeld. |

@@ -1,20 +1,20 @@
 ---
 title: Media - toewijzen
-description: Meer informatie over het inhoudstype Kaart, dat wordt gebruikt om een kaart toe te voegen van [!DNL Google Maps] Platform naar de [!DNL Page Builder] in het werkgebied.
+description: Leer over het inhoudstype van de Kaart, dat wordt gebruikt om een kaart van  [!DNL Google Maps]  Platform aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Media - toewijzen
 
-Gebruik de _Kaart_ inhoudstype om een kaart toe te voegen van [[!DNL Google Maps] Platform][1] aan de [[!DNL Page Builder] stadium](workspace.md#stage). U kunt bijvoorbeeld een kaart aan een blok toevoegen en vervolgens het blok aan het blok toevoegen [Over ons](../content-design/pages.md#about-us) en [Contact opnemen](../getting-started/store-details.md#contact-us-form) pagina&#39;s.
+Gebruik het _inhoudstype van de Kaart_ om een kaart van [[!DNL Google Maps]  Platform ][1] aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Bijvoorbeeld, zou u een kaart aan een blok kunnen toevoegen, en dan het blok toevoegen aan [ Ongeveer de pagina&#39;s van ons ](../content-design/pages.md#about-us) en [ Contact ](../getting-started/store-details.md#contact-us-form).
 
-Om het meeste van te krijgen van [!DNL Google Maps] Platform, kunt u de kaart aanpassen, uw opslagplaatsen benadrukken en Google gebruiken [Plaatsen][2] om uitgebreide informatie over je winkel aan iedereen toe te voegen [!DNL Google Maps].
+Om de meesten van [!DNL Google Maps] Platform te krijgen, kunt u de kaart aanpassen, uw opslagplaatsen benadrukken, en Google [ Plaatsen ][2] gebruiken om rijke informatie over uw opslag aan allen [!DNL Google Maps] toe te voegen.
 
 ## Voordelen van het insluiten van een Google-kaart
 
@@ -26,7 +26,7 @@ Om het meeste van te krijgen van [!DNL Google Maps] Platform, kunt u de kaart aa
 
 1. Als u een keten van fysieke winkels hebt, kunt u door het toevoegen van een Google Map op uw site uw merkbekendheid en geloofwaardigheid in de vorm van gemarkeerde items vergroten.
 
-![Voorbeeld van storefront - kaart met locatie](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
+![ storefront van het Voorbeeld - kaart met plaats ](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -36,99 +36,99 @@ De kaarttoolbox verschijnt wanneer u over de kaartcontainer beweegt.
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de kaart naar een andere positie in het werkgebied. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de kaart naar een andere positie in het werkgebied. |
 | (label) | [!UICONTROL Map] | Identificeert de huidige inhoudscontainer als een kaart. Houd de muis boven de kaartcontainer om de gereedschapset te zien. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kaart bewerken, waarin u de eigenschappen van de kaart en de container kunt wijzigen. |
-| Verbergen | ![Pictogram verbergen](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige kaart. |
-| Tonen | ![Pictogram tonen](./assets/pb-icon-show.png){width="25"} | Hiermee geeft u de verborgen kaart weer. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de kaart. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de kaart uit het werkgebied. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kaart bewerken, waarin u de eigenschappen van de kaart en de container kunt wijzigen. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige kaart. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee geeft u de verborgen kaart weer. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de kaart. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de kaart uit het werkgebied. |
 
 {style="table-layout:auto"}
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## Configureren [!DNL Google Maps] voor uw beheerder
+## [!DNL Google Maps] voor uw beheerder configureren
 
-Voordat u een kaart toevoegt, moet u eerst een [account][3] voor een gratis proces van [!DNL Google Maps] Platform. De gratis proefversie duurt 12 maanden en omvat een krediet van € 300. Als je je creditering opgebruikt, factureert Google je account niet zonder je toestemming.
+Alvorens een kaart toe te voegen, moet u een [ rekening ][3] voor een vrije proef van [!DNL Google Maps] Platform eerst openen. De gratis proefversie duurt 12 maanden en omvat een krediet van € 300. Als je je creditering opgebruikt, factureert Google je account niet zonder je toestemming.
 
-### Stap 1: Krijg uw [!DNL Google Maps] API-sleutel
+### Stap 1: De API-sleutel van [!DNL Google Maps] ophalen
 
-Afhankelijk van of u al een [!DNL Google Maps] -toets, gebruikt u een van de volgende procedures om de API-sleutel te verkrijgen die vereist is voor de configuratie. Als u een [!DNL Google Maps] sleutel, moet u een plaatsbeheerder zijn geautoriseerd om het factureren voor uw rekening toe te laten. Als u niet klaar bent om een [!DNL Google Maps] Platformaccount, kunt u deze stap overslaan en voorlopig de tijdelijke kaart gebruiken.
+Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u een van de volgende procedures om de API-sleutel te verkrijgen die vereist is voor de configuratie. Als u een [!DNL Google Maps] -sleutel wilt instellen, moet u een sitebeheerder zijn die geautoriseerd is om facturering voor uw account in te schakelen. Als u niet klaar bent om een [!DNL Google Maps] Platform-account in te stellen, kunt u deze stap overslaan en de tijdelijke kaart nu gebruiken.
 
-1. Ga naar de [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview).
+1. Ga naar de [ Console van het Platform van Google Cloud ](https://cloud.google.com/console/google/maps-apis/overview).
 
 1. Klik het project drop-down en selecteer of creeer het project waarvoor u een API sleutel wilt toevoegen.
 
-1. Om uw API geloofsbrieven te vormen, volg [instructies][4] in de [!DNL Google Maps] documenten.
+1. Om uw API geloofsbrieven te vormen, volg de [ instructies ][4] in de [!DNL Google Maps] documenten.
 
 1. Kopieer de API-sleutel naar het klembord.
 
 ### Stap 2: configureren [!DNL Google Maps] in [!DNL Commerce]
 
-1. In de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
-   ![Geavanceerde gereedschappen voor inhoud](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![ Geavanceerde Hulpmiddelen van de Inhoud ](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Voor meer informatie over de configuratieopties van Geavanceerde hulpmiddelen van het Beheer van de Inhoud, zie [Referentiehandleiding voor configuratie](../configuration-reference/general/content-management.md).
+   Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Beheer van de Inhoud Geavanceerde, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/general/content-management.md).
 
-1. Voor **[!UICONTROL Google Maps API Key]** plakken, plakt u de sleutel die u in stap 1 hebt gekopieerd.
+1. Plak voor **[!UICONTROL Google Maps API Key]** de sleutel die u in stap 1 hebt gekopieerd.
 
 1. Klik op **[!UICONTROL Test Key]**.
 
-   Als er een probleem is met uw sleutel, keert u terug naar de [!DNL Google Maps] Platformsite om het probleem op te lossen. Probeer het vervolgens opnieuw.
+   Als er een probleem is met uw sleutel, gaat u terug naar de [!DNL Google Maps] Platform-site om het probleem op te lossen. Probeer het vervolgens opnieuw.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** nadat de toets is geverifieerd.
 
 ## Een kaart toevoegen aan het werkgebied
 
-1. Open de pagina, het blok of het dynamische blok voor [!DNL Page Builder] werkruimte.
+1. Open de pagina, het blok of het dynamische blok naar de werkruimte van [!DNL Page Builder] .
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Media]** en sleep een **[!UICONTROL Map]** tijdelijke aanduiding naar het werkgebied.
+1. Vouw **[!UICONTROL Media]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Map]** naar het werkgebied.
 
-   ![Een kaart naar het werkgebied slepen](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![ slepend een kaart aan het stadium ](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
-   Indien [!DNL Google Maps] Platform is geconfigureerd voor uw winkel. Er wordt een kaart weergegeven voor uw winkellocatie.
+   Als [!DNL Google Maps] Platform voor uw opslag wordt gevormd, verschijnt een kaart voor uw archiefplaats.
 
    ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
-   Indien [!DNL Google Maps] Platform is nog niet geconfigureerd voor uw winkel, maar er wordt een tijdelijke kaart weergegeven.
+   Als het [!DNL Google Maps] Platform nog niet voor uw opslag wordt gevormd, verschijnt een placeholder kaart in plaats daarvan.
 
-   ![[!DNL Google Maps] Plaatsaanduiding](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] Placeholder ](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## Een locatie voor een aangepaste kaart toevoegen
 
-1. Houd de muisaanwijzer boven de kaartcontainer om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de kaartcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. In de rechterbovenhoek van het dialoogvenster _[!UICONTROL Edit Map]_pagina, klikt u **[!UICONTROL Add Location]**.
+1. Klik in de rechterbovenhoek van de pagina _[!UICONTROL Edit Map]_op **[!UICONTROL Add Location]**.
 
-1. Voer de **[!UICONTROL Location Name]** dat u aan de speld op de kaart wilt worden geassocieerd.
+1. Voer de **[!UICONTROL Location Name]** in die u aan de pin op de kaart wilt koppelen.
 
 1. Verzamel de locatiecoördinaten die u wilt gebruiken voor de aangepaste locatie.
 
-   Als alternatief, in **[!UICONTROL Position]** kunt u het punt in de weergegeven kaart verslepen.
+   U kunt ook in het vak **[!UICONTROL Position]** het punt in de weergegeven kaart verslepen.
 
    Ga zo nodig naar [[!DNL Google Maps]][5] in een nieuw browservenster en gebruik een van de volgende methoden om de coördinaten op te halen:
 
-   ![Kaartcoördinaten](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
+   ![ Coördinaten van de Kaart ](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
-   **Methode 1:** Kopiëren van URL
+   **Methode 1:** Exemplaar van URL
 
-   - Voer in de linkerbovenhoek het adres in het dialoogvenster **[!UICONTROL Search]** en klik op _Zoeken_ ( ![Zoekpictogram](../assets/icon-magnify-search.png){width="20"} ).
+   - In de upper-left hoek, ga het adres in het **[!UICONTROL Search]** vakje in en klik het _Onderzoek_ ( ![ pictogram van het Onderzoek ](../assets/icon-magnify-search.png){width="20"}) pictogram.
 
    - Kopieer de coördinaten in de URL en plak ze in een notedop.
 
-   **Methode 2:** Kopie van &quot;Wat is hier?&quot;
+   **Methode 2:** Exemplaar van &quot;wat hier is?&quot;
 
    - Klik met de rechtermuisknop op het rode punt dat de locatie op de kaart markeert en kies **[!UICONTROL What's here?]** in het menu.
 
    - Kopieer in het weergegeven label de tekst, inclusief de coördinaten, en plak de tekst in een notitiepad.
 
-1. Voer in elk van de **[!UICONTROL Coordinates]** vakken.
+1. Voer in elk van de vakken **[!UICONTROL Coordinates]** de getallen zonder komma in.
 
    U kunt ook zoveel van de resterende informatie invoeren die u op de kaart beschikbaar wilt hebben.
 
@@ -146,47 +146,47 @@ Afhankelijk van of u al een [!DNL Google Maps] -toets, gebruikt u een van de vol
 
    {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   De nieuwe locatie wordt weergegeven op de kaart en in het locatieraster van de kaart op de _[!UICONTROL Edit Map]_pagina.
+   De nieuwe locatie wordt weergegeven op de kaart en in het locatieraster van de kaart op de pagina _[!UICONTROL Edit Map]_.
 
-   ![[!DNL Page Builder] - locatieraster met kaarten](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] - hiermee wordt het locatieraster toegewezen ](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## De kaart opmaken {#styling}
 
-Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één van zes vooraf bepaalde thema&#39;s toe te passen of een douanethema tot stand te brengen. U kunt een JSON-bestand genereren met de stijleigenschappen van de kaart of een koppeling naar de gestileerde kaart.
+Met de wizard [!DNL Google Maps] Platformstijlen kunt u een van de zes vooraf gedefinieerde thema&#39;s toepassen of een aangepast thema maken. U kunt een JSON-bestand genereren met de stijleigenschappen van de kaart of een koppeling naar de gestileerde kaart.
 
 ### De kaartstijl wijzigen
 
-1. In de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
-1. Onder de **[!UICONTROL Google Maps Style]** tekstvak, klik op [Kaartstijl maken][6].
+1. Onder het **[!UICONTROL Google Maps Style]** tekstvakje, klik [ creeer de Stijl van de Kaart ][6].
 
-   Deze handeling opent de [[!DNL Google Maps] Wizard Platformstijlen][6] op een apart tabblad kunt u een stijl definiëren voor uw [!DNL Google Maps] Platformproject.
+   Deze actie opent de [[!DNL Google Maps]  Tovenaar van de Stijlvorming van het Platform ][6] in een afzonderlijk lusje, waar u een stijl voor uw [!DNL Google Maps] project van het Platform kunt bepalen.
 
-1. Klikken **[!UICONTROL Create a Style]** en volgt u de geleverde instructies.
+1. Klik op **[!UICONTROL Create a Style]** en volg de instructies.
 
-   Klik op **[!UICONTROL Finish]**.
+   Klik op **[!UICONTROL Finish]** als de bewerking is voltooid.
 
-1. De voltooide stijl als code JSON of als URL uitvoeren zodat u het aan kunt toevoegen [!DNL Commerce] configuratie.
+1. Exporteer de voltooide stijl als JSON-code of als een URL zodat u deze aan de [!DNL Commerce] -configuratie kunt toevoegen.
 
-   - **JSON**: Klik onder het vak met de gegenereerde JSON-code op **[!UICONTROL Copy JSON]**.
+   - **JSON**: Onder de doos met de geproduceerde code JSON, klik **[!UICONTROL Copy JSON]**.
 
-   - **[!UICONTROL URL]**: Klik onder het vak met de gegenereerde URL op **[!UICONTROL Copy URL]**.
+   - **[!UICONTROL URL]**: Klik onder het vak met de gegenereerde URL op **[!UICONTROL Copy URL]** .
 
-1. Ga terug naar het tabblad Admin-browser en plak de gegenereerde code of URL in het dialoogvenster **Google Maps-stijl** doos.
+1. Keer aan uw browser Admin lusje terug en kleef de geproduceerde code of URL in het **vakje van de Stijl van de Kaarten van Google**.
 
-   Als u een URL gebruikt, vervangt u de `YOUR_API_KEY` plaatsaanduiding met uw [!DNL Google Maps] API-sleutel. Deze URL is gekoppeld aan uw opgemaakte Google Map.
+   Als u een URL gebruikt, vervangt u de tijdelijke aanduiding `YOUR_API_KEY` door de API-sleutel van [!DNL Google Maps] . Deze URL is gekoppeld aan uw opgemaakte Google Map.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Save Config]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Save Config]** .
 
 ### De kaartinstellingen wijzigen
 
-1. Houd de aanwijzer boven de kaartcontainer om het gereedschapvak weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de kaartcontainer om de hulpmiddeldoos te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig desgewenst de basisinstellingen:
 
@@ -197,9 +197,9 @@ Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één
 
    {style="table-layout:auto"}
 
-1. Wijzig de _[!UICONTROL Advanced]_instellingen naar wens:
+1. Wijzig desgewenst de instellingen voor _[!UICONTROL Advanced]_:
 
-   - Als u de horizontale positionering wilt bepalen van de kaartinhoud die aan de container is toegevoegd, kiest u een **[!UICONTROL Alignment]**:
+   - Kies een **[!UICONTROL Alignment]** als u de horizontale plaatsing wilt bepalen van de kaartinhoud die aan de container is toegevoegd:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -210,7 +210,7 @@ Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één
 
      {style="table-layout:auto"}
 
-   - Stel de **[!UICONTROL Border]** stijl toegepast op alle vier zijden van de kaartcontainer:
+   - Stel de stijl **[!UICONTROL Border]** in die op alle vier zijden van de kaartcontainer wordt toegepast:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -227,9 +227,9 @@ Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één
 
      {style="table-layout:auto"}
 
-   - Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+   - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-     ![Randkleur](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+     ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
      | Optie | Beschrijving |
      | ------ |------------ |
@@ -239,11 +239,11 @@ Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één
 
      {style="table-layout:auto"}
 
-   - (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** van het huidige stijlblad toe te passen op de kaartcontainer.
+   - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit het huidige stijlblad dat u wilt toepassen op de kaartcontainer.
 
      Scheid meerdere klassennamen met een spatie.
 
-   - Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenmarges en de binnenopvulling van de kaartcontainer op te geven.
+   - Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenste marges en de binnenopvulling van de kaartcontainer op te geven.
 
      Ga elke overeenkomstige waarde in het diagram van de kaartcontainer in.
 
@@ -258,31 +258,31 @@ Gebruik de [!DNL Google Maps] De Tovenaar van de Stijl van het platform om één
      >
      >Opvulling is niet beschikbaar voor het inhoudstype Kaart.
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ### De rastergrootte wijzigen
 
-De rastergrootte bepaalt de grootte van de kaart voor een [kolom](column.md) op de [!DNL Page Builder] in het werkgebied. De kaart is standaard 12 kolommen breed, met een maximum van 16 kolommen.
+De netgrootte bepaalt de grootte van de kaart met betrekking tot a [ kolom ](column.md) op het [!DNL Page Builder] stadium. De kaart is standaard 12 kolommen breed, met een maximum van 16 kolommen.
 
-1. In de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
 1. Werk de rasteropties naar wens bij:
 
    >[!NOTE]
    >
-   >Wis indien nodig de **[!UICONTROL Use system value]** Schakel het selectievakje in om deze instellingen te wijzigen.
+   >Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
 
-   - Voor **[!UICONTROL Default Column Grid Size]** Voer een nieuwe waarde in voor de standaardgrootte van het raster.
+   - Voer bij **[!UICONTROL Default Column Grid Size]** een nieuwe waarde in voor de standaardgrootte van het raster.
 
-   - Voor **[!UICONTROL Maximum Column Grid Size]** Voer een nieuwe waarde in voor de standaardmaximale rastergrootte.
+   - Voer bij **[!UICONTROL Maximum Column Grid Size]** een nieuwe waarde in voor de standaard maximale rastergrootte.
 
-   ![Instellingen voor rastergrootte van kolom](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
+   ![ montages van de het netgrootte van de Kolom ](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://cloud.google.com/maps-platform/places/

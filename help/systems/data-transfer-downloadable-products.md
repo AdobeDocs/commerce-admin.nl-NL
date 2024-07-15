@@ -5,25 +5,25 @@ exl-id: e0b45ef5-dff1-4ee4-aa7e-2407162669fd
 feature: Products, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
 # downloadbare producten importeren
 
-De stroom voor het invoeren van downloadbare producten is het zelfde als voor [Bundel producten](data-transfer-bundle-products.md) of [Configureerbare producten](data-transfer-configurable-products.md). Het verschil is dat een downloadbaar product [downloadbare koppelingen](../catalog/product-create-downloadable.md) en [downloadbare voorbeelden](../catalog/product-create-downloadable.md) met de afbeeldingen.
+De stroom voor het invoeren van downloadbare producten is het zelfde als voor [ de Producten van de Bundel ](data-transfer-bundle-products.md) of [ Configurable Producten ](data-transfer-configurable-products.md). Het verschil is dat een downloadbaar product [ downloadbare verbindingen ](../catalog/product-create-downloadable.md) en [ downloadbare steekproeven ](../catalog/product-create-downloadable.md) met zijn beelden heeft.
 
-De standaardhoofdmap voor downloadbare koppelingen en voorbeelden is `<Magento-root-folder>/pub/media/import`. Als de externe opslagmodule is ingeschakeld, is de standaardhoofdmap voor downloadbare koppelingen en voorbeelden de standaardhoofdmap `<remote-storage-root-folder>/media/import` directory.
+De standaardhoofdmap voor downloadbare koppelingen en voorbeelden is `<Magento-root-folder>/pub/media/import` . Als de externe opslagmodule is ingeschakeld, is de standaardhoofdmap voor downloadbare koppelingen en voorbeelden de map `<remote-storage-root-folder>/media/import` .
 
-Het CSV-bestand heeft aparte kolommen voor `downloadable_links` en `downloadable_samples`.
+Het CSV-bestand heeft aparte kolommen voor `downloadable_links` en `downloadable_samples` .
 
-- **Downloadbare koppelingsafbeeldingen** — In het volgende voorbeeld kunnen koppelingsafbeeldingen worden gedownload (`red.jpg` en `black.jpg`) in de `<Magento-root-folder>/pub/media/import/test` map. Als externe opslag is ingeschakeld, bevinden deze afbeeldingen zich in de `<remote-storage-root-folder>/media/import/test` map.
+- **Downloadbare verbindingsbeelden** — In het volgende voorbeeld, zijn de downloadbare verbindingsbeelden (`red.jpg` en `black.jpg`) in de `<Magento-root-folder>/pub/media/import/test` omslag. Als externe opslag is ingeschakeld, bevinden deze afbeeldingen zich in de map `<remote-storage-root-folder>/media/import/test` .
 
-  ![Voorbeeldgegevens - downloadbaar product met downloadbare koppelingen](./assets/data-import-downloadable-links.png){width="600" zoomable="yes"}
+  ![ gegevens van het Voorbeeld - downloadbaar product met downloadbare verbindingen ](./assets/data-import-downloadable-links.png){width="600" zoomable="yes"}
 
-- **Downloadbare voorbeeldafbeeldingen** — In het volgende voorbeeld wordt de te downloaden voorbeeldafbeelding (`white.jpg`) bevindt zich in de `<Magento-root-folder>/pub/media/import/test` map. Als externe opslag is ingeschakeld, bevindt deze afbeelding zich in de `<remote-storage-root-folder>/media/import/test` map.
+- **Downloadbare steekproefbeelden** - in het volgende voorbeeld, is het downloadbare steekproefbeeld (`white.jpg`) in de `<Magento-root-folder>/pub/media/import/test` omslag. Als externe opslag is ingeschakeld, bevindt deze afbeelding zich in de map `<remote-storage-root-folder>/media/import/test` .
 
-  ![Voorbeeldgegevens - downloadbaar product met downloadbare voorbeelden](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
+  ![ gegevens van het Voorbeeld - downloadbaar product met downloadbare steekproeven ](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-Ga voor meer informatie over het inschakelen en beheren van de externe opslagmodule naar [Externe opslag configureren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in de _Configuratiegids_.
+Voor meer informatie over het toelaten van en het beheren van de verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in de _gids van de Configuratie_ vormen.

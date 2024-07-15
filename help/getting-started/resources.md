@@ -5,7 +5,7 @@ exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 feature: Support
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ De Adobe verstrekt een rijkdom van zaken en technische middelen, zelfhulphulpmid
 
 | Ecosysteembron | Beschrijving |
 | ------------------ | ----------- |
-| [Productdocumentatie][1] | De handelaren, de ontwerpers, en de ontwikkelaars kunnen de documentatie gebruiken om een diepgaander inzicht in te krijgen hoe zij de macht van toepassing kunnen zijn [!DNL Commerce] om hun zaken te doen groeien. |
-| [Bron voor handel][3] | Toegang tot eBook, whitepapers van de Handel, en webinars om deskundig inzicht en online bedrijfsmiddelen te verkrijgen helpen uw opslag ontwikkelen en verbeteren. |
-| [Reactie op Adobe van productbeveiligingsincident][4] | Word lid van het register van de Waarschuwing van de Veiligheid om de recentste informatie over potentiële kwetsbaarheid te krijgen en [Aanbevolen werkwijzen voor beveiliging][5]. |
-| [Communityforums][6] | De forums bieden toegang tot een netwerk van toegewijde Adobe Commerce- en Magento Open Source-liefhebbers die tips, trucs en ondersteuning delen. |
-| [Blog][7] | Bekijk de blog voor de meest recente informatie over nieuwe functies, trends, beste praktijken, komende gebeurtenissen en meer. |
-| [Gebeurtenissen en webinars][8] | Houd tabbladen over de agenda van komende gebeurtenissen en webinars. Er gebeurt altijd iets in de [!DNL Commerce] ecosysteem. |
-| [[!DNL Commerce Marketplace]][9] | Ga naar [!DNL Commerce] de volgende generatie van oplossingen voor digitale handel. [!DNL Commerce Marketplace] biedt verkopers een gekromde selectie van oplossingen aan, terwijl het verstrekken van gekwalificeerde ontwikkelaars de hulpmiddelen, het platform, en de eerste plaats voor een het bloeien zaken. |
-| [Opleiding en certificering][10] | Leer hoe u de kracht en flexibiliteit van Adobe Commerce en Magento Open Source kunt vrijmaken. Er is training beschikbaar voor elke rol in uw bedrijf, zoals marketers, ontwerpers, ontwikkelaars en nog veel meer. Ervaren [!DNL Commerce] vakmensen kunnen hun echte vaardigheden valideren door een [!DNL Commerce] certificering. |
-| [Partners][12] | De partners van de Adobe zijn geëngageerd aan uw succes en verstrekken douaneintegratie, best-in-klasse klantenervaringen, strategische marketing initiatieven, en deskundige prestaties en scalability optimalisering voor zowel op-gebouw als op wolk-gebaseerde oplossingen. |
-| [Adobe Commerce Managed Services][13] | Het Adobe Commerce Managed Services-team helpt handelaren en oplossingspartners hun succes te maximaliseren. Deze deskundigen bieden uitgebreide analyses en aanbevelingen voor beste praktijken, van architectuurplanning tot post-plaatsing. |
+| [ documentatie van het Product ][1] | Handelaars, ontwerpers en ontwikkelaars kunnen de documentatie gebruiken om een dieper inzicht te krijgen in hoe zij de macht van [!DNL Commerce] kunnen toepassen om hun zaken te groeien. |
+| [ de Bibliotheek van Middelen van Commerce ][3] | Toegang tot Ebooks, Commerce whitepapers en webinars om deskundig inzicht te krijgen en online bedrijfsmiddelen om uw winkel te helpen ontwikkelen en verbeteren. |
+| {de Reactie van het Ongeval van de Veiligheid van het Product van 0} Adobe ][4][ | Sluit zich aan bij de Registratie van de Waarschuwing van de Veiligheid om de recentste informatie over potentiële kwetsbaarheid en [ Beste praktijken van de Veiligheid te krijgen ][5]. |
+| [ Communautaire Forums ][6] | De forums bieden toegang tot een netwerk van toegewijde Adobe Commerce- en Magento Open Source-liefhebbers die tips, trucs en ondersteuning delen. |
+| [ Blog ][7] | Bekijk de blog voor de meest recente informatie over nieuwe functies, trends, beste praktijken, komende gebeurtenissen en meer. |
+| [ Gebeurtenissen en webinars ][8] | Houd tabbladen over de agenda van komende gebeurtenissen en webinars. Er gebeurt altijd iets in het ecosysteem van [!DNL Commerce] . |
+| [[!DNL Commerce Marketplace]][9] | Bezoek de [!DNL Commerce] next-generation markt van oplossingen voor digitale handel. [!DNL Commerce Marketplace] biedt verkopers een gekromde selectie van oplossingen aan, terwijl het verstrekken van gekwalificeerde ontwikkelaars de hulpmiddelen, het platform, en de belangrijkste plaats voor een het bloeien zaken. |
+| [ Opleiding en certificatie ][10] | Leer hoe u de kracht en flexibiliteit van Adobe Commerce en Magento Open Source kunt vrijmaken. Er is training beschikbaar voor elke rol in uw bedrijf, zoals marketers, ontwerpers, ontwikkelaars en nog veel meer. Ervaren [!DNL Commerce] professionals kunnen hun praktische vaardigheden valideren door een [!DNL Commerce] -certificering te verdienen. |
+| [ Partners ][12] | De partners van de Adobe zijn geëngageerd aan uw succes en verstrekken douaneintegratie, best-in-klasse klantenervaringen, strategische marketing initiatieven, en deskundige prestaties en scalability optimalisering voor zowel op-gebouw als op wolk-gebaseerde oplossingen. |
+| [ Adobe Commerce Managed Services ][13] | Het Adobe Commerce Managed Services-team helpt handelaren en oplossingspartners hun succes te maximaliseren. Deze deskundigen bieden uitgebreide analyses en aanbevelingen voor beste praktijken, van architectuurplanning tot post-plaatsing. |
 
 {style="table-layout:auto"}
 

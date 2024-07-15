@@ -11,20 +11,20 @@ ht-degree: 0%
 
 # Inleiding tot klantenbeheer
 
-De _[!UICONTROL Customers]_biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
+Het menu _[!UICONTROL Customers]_biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
 
-![Het menu Klanten](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+![ het menu van Klanten ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
-## De weergave van [!UICONTROL Customers] menu
+## Het menu [!UICONTROL Customers] weergeven
 
-Op de _Beheerder_ zijbalk, klikken [!UICONTROL Customers] om de menuopties weer te geven:
+Voor _Admin_ sidebar, klik [!UICONTROL Customers] om de menuopties te tonen:
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL All Customers] | Alle lijsten [klanten](../customers/customers-all.md) die zich hebben geregistreerd voor een account bij uw winkel of die zijn toegevoegd door de beheerder. |
-| [!UICONTROL Now Online] | Hier worden alle klanten en bezoekers weergegeven die momenteel [online](../customers/now-online.md) in uw winkel. |
-| [!UICONTROL Segments] | Hiermee geeft u de [klantsegmenten](../customers/customer-segments.md) die worden gebruikt om inhoud en promoties dynamisch aan specifieke klanten te tonen die op diverse eigenschappen worden gebaseerd. |
-| [!UICONTROL Customer Groups] | De [klantengroepen](../customers/customer-groups.md) bepalen welke kortingen beschikbaar zijn voor kopers en de belastingklasse voor de aankoop. |
-| [!UICONTROL Companies] | (Adobe Commerce B2B vereist) Hiermee worden alle actieve items weergegeven [bedrijfsrekeningen](../b2b/account-companies.md) en aanvragen die in behandeling zijn, ongeacht de instelling van de status, en bevat de gereedschappen die worden gebruikt voor het maken en [beheren](../b2b/account-company-manage.md) bedrijfsrekeningen. |
+| [!UICONTROL All Customers] | Maakt een lijst van alle [ klanten ](../customers/customers-all.md) die voor een rekening bij uw opslag hebben geregistreerd of door de beheerder zijn toegevoegd. |
+| [!UICONTROL Now Online] | Maakt een lijst van alle klanten en bezoekers die momenteel [ online ](../customers/now-online.md) in uw opslag zijn. |
+| [!UICONTROL Segments] | Maakt een lijst van de [ klantensegmenten ](../customers/customer-segments.md) die worden gebruikt om inhoud en bevorderingen aan specifieke klanten dynamisch te tonen die op diverse eigenschappen worden gebaseerd. |
+| [!UICONTROL Customer Groups] | De [ klantengroepen ](../customers/customer-groups.md) bepalen welke kortingen aan kopers en de belastingklasse voor de aankoop beschikbaar zijn. |
+| [!UICONTROL Companies] | (Vereist Adobe Commerce B2B) maakt een lijst van alle actieve [ bedrijfrekeningen ](../b2b/account-companies.md) en hangende verzoeken, ongeacht status die plaatsen, en verstrekt de hulpmiddelen worden gebruikt om [ te creëren en ](../b2b/account-company-manage.md) bedrijfrekeningen te beheren. |
 
 {style="table-layout:auto"}

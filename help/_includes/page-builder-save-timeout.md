@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u belangrijke wijzigingen aanbrengt in [!DNL Page Builder] wordt aangeraden de [Levensduur beheersessie](../systems/security-admin.md) om te voorkomen dat de sessietime-out optreedt terwijl u werkt.
+>Als u significante veranderingen in [!DNL Page Builder] inhoud aanbrengt, adviseert men dat u het [ Levenslang van de Zitting Admin ](../systems/security-admin.md) verhoogt om de zitting te verhinderen uit timing terwijl u werkt.

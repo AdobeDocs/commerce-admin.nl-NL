@@ -16,13 +16,13 @@ Klantrapporten bieden inzicht in de klantactiviteiten tijdens een bepaalde perio
 
 ## [!UICONTROL Order Total Report]
 
-De [!UICONTROL Order Total Report] toont klantenorden voor een gespecificeerd tijdinterval of datumwaaier. Het rapport bevat het aantal orders per klant, het gemiddelde orderbedrag en het totale bedrag.
+[!UICONTROL Order Total Report] toont klantenorden voor een gespecificeerd tijdinterval of datumwaaier. Het rapport bevat het aantal orders per klant, het gemiddelde orderbedrag en het totale bedrag.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Totaal orderrapport](./assets/customers-order-total.png){width="600"}
+![ het Totale Rapport van de Orde ](./assets/customers-order-total.png){width="600"}
 
-### Besturingselementen werkruimte
+### Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -38,23 +38,23 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Interval] | De orde totale interval, door `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Het totale interval van de volgorde, met `Month` / `Day` / `Year` . |
 | [!UICONTROL Customer] | De naam van de klant die de bestellingen heeft geplaatst. |
 | [!UICONTROL Orders] | Het aantal orden voor het gespecificeerde interval. |
-| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
-| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Als gevolg hiervan verschilt het in het rapport vermelde totaal van het bedrag dat in de ordergegevens wordt vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
+| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, orde subtotaal en orde totaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
+| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, orde subtotaal en orde totaal belasting omvatten. Als gevolg hiervan verschilt het in het rapport vermelde totaal van het bedrag dat in de ordergegevens wordt vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-De [!UICONTROL Order Count Report] toont het aantal orden per klant voor een gespecificeerd tijdinterval of datumwaaier. Het rapport bevat het aantal orders per klant, het gemiddelde orderbedrag en het totale bedrag.
+In [!UICONTROL Order Count Report] wordt het aantal bestellingen per klant voor een opgegeven tijdinterval of datumbereik weergegeven. Het rapport bevat het aantal orders per klant, het gemiddelde orderbedrag en het totale bedrag.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
-![Rapport voor tellen van bestellingen](./assets/customer-order-count.png){width="600"}
+![ het Rapport van de Telling van de Orde ](./assets/customer-order-count.png){width="600"}
 
-### Besturingselementen werkruimte
+### Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -70,23 +70,23 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Interval] | Het interval van de ordentelling, door `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Het ordertelinterval, met `Month` / `Day` / `Year` . |
 | [!UICONTROL Customer] | De klant die de bestelling heeft geplaatst. |
 | [!UICONTROL Orders] | Het aantal orden voor het gespecificeerde interval. |
-| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
-| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, het ordersubtotaal en het ordertotaal belasting omvatten. Als gevolg hiervan is het totaal in het rapport anders dan het bedrag in de orderdetails in gevallen waarin de ordertotalen getallen omvatten. |
+| [!UICONTROL Average] | Gemiddeld orderbedrag. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, orde subtotaal en orde totaal belasting omvatten. Het in het verslag vermelde bedrag is dus anders dan het bedrag dat in de ordergegevens is vermeld in gevallen waarin de totalen van de orders ook belasting bevatten. |
+| [!UICONTROL Total] | De som van alle orders voor de periode. Dit bedrag wordt altijd berekend voor productprijzen **exclusief belasting** zelfs als de catalogusproductprijzen, orde subtotaal en orde totaal belasting omvatten. Als gevolg hiervan is het totaal in het rapport anders dan het bedrag in de orderdetails in gevallen waarin de ordertotalen getallen omvatten. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-De [!UICONTROL New Accounts Report] toont het aantal nieuwe klantenrekeningen die tijdens een gespecificeerd tijdinterval of datumwaaier worden geopend.
+[!UICONTROL New Accounts Report] toont het aantal nieuwe klantenrekeningen die tijdens een gespecificeerd tijdinterval of datumwaaier worden geopend.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![Rapport Nieuwe accounts](./assets/customers-new-accounts.png){width="600"}
+![ Nieuw Rapport van Rekeningen ](./assets/customers-new-accounts.png){width="600"}
 
-### Besturingselementen werkruimte
+### Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -109,15 +109,15 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 ## [!UICONTROL Customer Wish List Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce)
+![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-De [!UICONTROL Customer Wish List Report] verstrekt informatie over klanten wensen lijsten.
+[!UICONTROL Customer Wish List Report] verstrekt informatie over klanten wenst lijsten.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
-![Wish List Report](./assets/customer-wish-list.png){width="600"}
+![ Wenslijstrapport ](./assets/customer-wish-list.png){width="600"}
 
-### Besturingselementen werkruimte
+### Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -149,15 +149,15 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce)
+![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-De [!UICONTROL Customer Segment Report] verstrekt informatie over het aantal klanten in elk segment.
+[!UICONTROL Customer Segment Report] verstrekt informatie over het aantal klanten in elk segment.
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![Segmentrapport](./assets/customers-segments.png){width="600"}
+![ Rapport van Segmenten ](./assets/customers-segments.png){width="600"}
 
-### Besturingselementen werkruimte
+### Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |

@@ -14,61 +14,61 @@ ht-degree: 0%
 
 Met de koppeling E-mail kunnen uw klanten eenvoudig koppelingen naar producten delen met hun vrienden. In de demo Luma-store wordt de e-mailkoppeling weergegeven als een enveloppictogram. Het berichtmalplaatje kan voor uw stem en merk worden aangepast. Om spamming te verhinderen, kunt u het aantal ontvangers voor elke e-mail, en het aantal producten beperken die over een periode van één uur kunnen worden gedeeld.
 
-![Voorbeeld van winkel - e-mail een vriend](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
+![ de storefront van het Voorbeeld - e-mail een vriend ](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
 
 ## E-mail-a-vriend configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Email to a Friend]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Email to a Friend]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Email Templates]** en stel de opties in:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email Templates]** sectie uit en plaats de opties:
 
-   ![Catalogusconfiguratie - e-mailsjablonen](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - e-mailmalplaatjes ](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [E-mailsjablonen](../configuration-reference/catalog/email-to-a-friend.md) in de _Referentiehandleiding voor configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ E-mailMalplaatjes ](../configuration-reference/catalog/email-to-a-friend.md) in de _Gids van de Verwijzing van de Configuratie_.
 
-   Als u de standaardinstelling van een veld wilt wijzigen, schakelt u de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om het veld bewerkbaar te maken.
+   Als u de standaardinstelling van een veld wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit om het veld bewerkbaar te maken.
 
-   - Set **[!UICONTROL Enabled]** tot `Yes`.
+   - Stel **[!UICONTROL Enabled]** in op `Yes` .
 
-   - Set **[!UICONTROL Select Email Template]** aan het malplaatje dat u als basis van de berichten wilt gebruiken.
+   - Stel **[!UICONTROL Select Email Template]** in op de sjabloon die u als basis voor de berichten wilt gebruiken.
 
-   - Als u wilt dat alleen geregistreerde klanten e-mail naar vrienden kunnen verzenden, stelt u **[!UICONTROL Allow for Guests]** tot `No`.
+   - Stel **[!UICONTROL Allow for Guests]** in op `No` als u wilt dat alleen geregistreerde klanten e-mail naar vrienden kunnen verzenden.
 
-   - Voor **[!UICONTROL Max Recipients]** Voer het maximumaantal vrienden in dat op de distributielijst voor één bericht kan staan.
+   - Voer bij **[!UICONTROL Max Recipients]** het maximumaantal vrienden in dat zich in de distributielijst kan bevinden voor één bericht.
 
-   - Voor **[!UICONTROL Max Products Sent in 1 Hour]**, voert u het maximumaantal producten in dat door één gebruiker met vrienden kan worden gedeeld over een periode van één uur.
+   - Voer bij **[!UICONTROL Max Products Sent in 1 Hour]** het maximumaantal producten in dat gedurende een periode van één uur door één gebruiker met vrienden kan worden gedeeld.
 
-   - Set **[!UICONTROL Limit Sending By]** naar een van de volgende methoden om de afzender van e-mails te identificeren:
+   - Stel **[!UICONTROL Limit Sending By]** in op een van de volgende methoden om de afzender van e-mailberichten te identificeren:
 
-     `IP Address`  - (Aanbevolen) Identificeert de afzender door het IP adres van de computer die wordt gebruikt om de e-mails te verzenden.
+     `IP Address` - (Aanbevolen) Hiermee wordt de afzender aangeduid aan de hand van het IP-adres van de computer die wordt gebruikt om de e-mails te verzenden.
 
      `Cookie (unsafe)` - Identificeert de afzender door browser koekje. Deze methode is minder effectief omdat de afzender het cookie kan verwijderen om de limiet te overschrijden.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## E-mail verzenden naar een vriend in de winkel
 
 Wanneer deze functie is geconfigureerd, volgen klanten deze stappen om productinformatie met vrienden te delen.
 
-1. Op een cataloguspagina klikt de klant op de knop **[!UICONTROL Email]** koppeling.
+1. Op een cataloguspagina klikt de klant op de koppeling **[!UICONTROL Email]** .
 
 1. Als de eigenschap slechts voor geregistreerde gebruikers wordt gevormd, doe één van het volgende:
 
    - Meld u aan bij uw klantenaccount.
    - Aanmelden voor een nieuwe account.
 
-1. Hiermee voltooit u het **[!UICONTROL Message]** en wordt de ontvanger **[!UICONTROL Name]** en **[!UICONTROL Email Address]**.
+1. Voltooit **[!UICONTROL Message]** en voert de ontvanger **[!UICONTROL Name]** en **[!UICONTROL Email Address]** in.
 
    Indien nodig kan de klant meer ontvangers toevoegen:
 
-   - Klikken **[!UICONTROL Add Invitee]**.
+   - Klik op **[!UICONTROL Add Invitee]** .
 
-   - Hiermee wordt het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Email Address]** van de extra persoon.
+   - Voer de **[!UICONTROL Name]** en **[!UICONTROL Email Address]** van de extra persoon in.
 
-     Zij kunnen het bericht naar zoveel extra mensen verzenden zoals de configuratie toestaat. Ze kunnen de toegevoegde genodigde verwijderen door op de knop **[!DNL Remove]** koppeling.
+     Zij kunnen het bericht naar zoveel extra mensen verzenden zoals de configuratie toestaat. Ze kunnen de toegevoegde genodigde verwijderen door op de koppeling **[!DNL Remove]** te klikken.
 
-1. Wanneer klaar om het bericht te verzenden, klikt u **[!UICONTROL Send Email]**.
+1. Wanneer u klaar bent om het bericht te verzenden, klikt u op **[!UICONTROL Send Email]** .
 
-   ![Voorbeeld van winkel - e-mail naar een vriend](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}
+   ![ de storefront van het Voorbeeld - e-mail aan een vriend ](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

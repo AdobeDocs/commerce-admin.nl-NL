@@ -12,26 +12,26 @@ ht-degree: 0%
 
 # Prioriteit geven aan bronnen voor een bestand
 
-Na toevoegen [bronnen](sources-manage.md) aan de [voorraad](stocks-manage.md)rangschikt u deze bronnen in de eerste plaats van boven naar beneden om aan orders te voldoen. Het algoritme van de Selectie Bron (SSA) verstrekt een algoritme Prioriteit gebruikend deze orde wanneer het bepalen van verzending en inventarisaftrek.
+Na het toevoegen van [ bronnen ](sources-manage.md) aan de [ voorraad ](stocks-manage.md), rangschik die bronnen van boven tot onder in prioriteit voor het vervullen van orden. Het Source Selection Algorithm (SSA) biedt een algoritme Priority die deze volgorde gebruikt bij het bepalen van aftrekkingen voor verzending en inventaris.
 
 De bronprioriteit voor voorraden heeft geen invloed op toegewezen bronnen bij het bewerken van productinventarissen.
 
 In dit voorbeeld heeft het Britse Stock bronnen toegewezen die zijn toegewezen aan een winkel en twee opslagplaatsen in Londen en een pakhuis in Berlijn.
 
-![Bronvolgorde vóór prioritering](assets/inventory-priority-before.png){width="350" zoomable="yes"}
+![ orde van Source alvorens voorrang te geven ](assets/inventory-priority-before.png){width="350" zoomable="yes"}
 
 De handelaar geeft er de voorkeur aan dat de overbrengingen voorrang krijgen op het grotere Berlijnse pakhuis, het Londense entrepot, de overlooplocatie Londen en ten slotte de winkel in Londen. Om de volgorde te wijzigen, worden items gesleept en in de gewenste volgorde neergezet.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
-1. De voorraad openen in het dialoogvenster _Bewerken_ -modus.
+1. Open de voorraad op _geeft_ wijze uit.
 
-1. Breid uit _[!UICONTROL Sources]_indien nodig.
+1. Vouw indien nodig de tab _[!UICONTROL Sources]_uit.
 
-1. Gebruiken ![Pictogram Sorteren](assets/icon-sort.png) om de bronnen naar een prioriteit van boven (eerste) naar onder (laatste) te slepen.
+1. Het pictogram van de Soort van het gebruik ](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.![
 
    Deze bestelling is belangrijk bij verzendopdrachten. SSA beveelt aan dat zendingen worden uitgevoerd op basis van de volgorde van bronnen
 
-1. Klikken **[!UICONTROL Save & Continue]** om de wijzigingen op te slaan
+1. Klik op **[!UICONTROL Save & Continue]** om de wijzigingen op te slaan.
 
-![Bronvolgorde na prioritering](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}
+![ orde van Source na prioritering ](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}

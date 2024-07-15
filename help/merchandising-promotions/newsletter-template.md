@@ -14,71 +14,71 @@ ht-degree: 0%
 
 U kunt zo veel sjablonen voor nieuwsbrieven maken als u nodig hebt voor verschillende doeleinden. U kunt een wekelijkse productupdate, een maandelijkse nieuwsbrief, of jaarlijkse vakantienieuwsbrief verzenden. De malplaatjes van de nieuwsbrief kunnen met HTML prijsverhoging, of als gewone teksten worden voorbereid. In tegenstelling tot HTML, bevatten gewone tekstnieuwsbrieven geen beelden, rijke teksten, of geformatteerde verbindingen. In het raster geeft de kolom Sjabloontype aan of een sjabloon HTML of tekst is.
 
-![Sjablonen voor nieuwsbrief - toevoegen aan wachtrij voor nieuwsbrief](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
+![ Malplaatjes van de Nieuwsbrief - voeg aan nieuwsbrief rij ](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"} toe
 
 ## Een sjabloon voor een nieuwsbrief maken
 
 1. Ga op de zijbalk Beheerder naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
-1. Klik op **[!UICONTROL Add New Template]**.
+1. Klik op **[!UICONTROL Add New Template]** om een sjabloon toe te voegen.
 
 1. Vul de sjablooninstellingen in:
 
-   - Voor **[!UICONTROL Template Name]**, voert u een naam in voor interne referentie.
+   - Voer bij **[!UICONTROL Template Name]** een naam in voor interne referentie.
 
-   - Voor **[!UICONTROL Template Subject]**, beschrijft het doel van de nieuwsbrief.
+   - Beschrijf voor **[!UICONTROL Template Subject]** het doel van de nieuwsbrief.
 
-   - Voor **[!UICONTROL Sender Name]**, voert u de naam in van de persoon die als verzender van de nieuwsbrief moet worden weergegeven.
+   - Voer bij **[!UICONTROL Sender Name]** de naam in van de persoon die als afzender van de nieuwsbrief moet worden weergegeven.
 
-   - Voor **[!UICONTROL Sender Email]**, voert u het e-mailadres in van de nieuwszender.
+   - Voer bij **[!UICONTROL Sender Email]** het e-mailadres van de nieuwszender in.
 
-   ![Sjablooninformatie voor nieuwsbrief](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
+   ![ de informatie van het malplaatje van de Nieuwsbrief ](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
-   - Voor **[!UICONTROL Template Content]**, klikt u op **[!UICONTROL Show / Hide Editor]** om de WYSIWYG-editor weer te geven en de inhoud indien nodig bij te werken.
+   - Voor **[!UICONTROL Template Content]** klikt u op **[!UICONTROL Show / Hide Editor]** om de WYSIWYG-editor weer te geven en de inhoud waar nodig bij te werken.
 
-     Zie voor meer informatie [De Editor gebruiken](../content-design/editor.md).
+     Meer leren, zie [ Gebruikend de Redacteur ](../content-design/editor.md).
 
      >[!NOTE]
      >
      >Verwijder niet de unsubscribe verbinding bij de bodem van de malplaatjeinhoud. In sommige rechtsgebieden is de koppeling wettelijk verplicht.
 
-   - Voor **[!UICONTROL Template Styles]** voert u de CSS-declaraties in die nodig zijn om de inhoud op te maken.
+   - Voer bij **[!UICONTROL Template Styles]** de CSS-declaraties in die nodig zijn om de inhoud op te maken.
 
-1. Klikken **[!UICONTROL Preview Template]** om te zien hoe het eruit ziet en om het even welke veranderingen aan te brengen die nodig zijn.
+1. Klik op **[!UICONTROL Preview Template]** om te zien hoe het eruitziet en breng de benodigde wijzigingen aan.
 
-1. Klik op **[!UICONTROL Save Template]**.
+1. Klik op **[!UICONTROL Save Template]** als de bewerking is voltooid.
 
-   Nadat u een sjabloon hebt opgeslagen, **[!UICONTROL Save As]** wordt weergegeven wanneer u de sjabloon de volgende keer bewerkt. U kunt variaties van de sjabloon opslaan zonder het origineel te overschrijven.
+   Nadat u een sjabloon hebt opgeslagen, wordt **[!UICONTROL Save As]** weergegeven wanneer u de sjabloon de volgende keer bewerkt. U kunt variaties van de sjabloon opslaan zonder het origineel te overschrijven.
 
 ## De sjabloon converteren naar onbewerkte tekst
 
-1. Klik boven aan de pagina op **[!UICONTROL Convert to Plain Text]** en klik op **[!UICONTROL OK]** wanneer hierom wordt gevraagd.
+1. Klik boven aan de pagina op **[!UICONTROL Convert to Plain Text]** en klik op **[!UICONTROL OK]** wanneer u daarom wordt gevraagd.
 
-1. Als u een voorvertoning van de standaardtekstversie van de sjabloon wilt weergeven, klikt u op **[!UICONTROL Preview Template]**.
+1. Klik op **[!UICONTROL Preview Template]** als u een voorvertoning van de standaardtekstversie van de sjabloon wilt weergeven.
 
    De voorvertoning wordt geopend in een nieuw browsertabblad.
 
-1. Klik op **[!UICONTROL Save Template]**.
+1. Klik op **[!UICONTROL Save Template]** om de versie van onbewerkte tekst op te slaan.
 
 ## De HTML herstellen
 
-1. Klik boven aan de pagina op **[!UICONTROL Return HTML Version]**.  
+1. Klik boven aan de pagina op **[!UICONTROL Return HTML Version]** .  
 
-1. Als u de HTML-versie van de sjabloon wilt bekijken, klikt u op **[!UICONTROL Preview Template]**.
+1. Klik op **[!UICONTROL Preview Template]** om een voorvertoning van de HTML-versie van de sjabloon weer te geven.
 
    De voorvertoning wordt geopend in een nieuw browsertabblad.
 
-1. Als u de HTML-versie wilt opslaan, klikt u op **[!UICONTROL Save Template]**.
+1. Klik op **[!UICONTROL Save Template]** om de versie van de HTML op te slaan.
 
 ## Een sjabloon voor een nieuwsbrief verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
 1. Zoek de nieuwsbrief die u wilt verwijderen en open deze in de bewerkingsmodus.
 
-1. Klik in de menubalk op de knop **[!UICONTROL Delete Template]** knop.
+1. Klik in de menubalk op de knop **[!UICONTROL Delete Template]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ## Rasterkolommen
 
@@ -91,6 +91,6 @@ U kunt zo veel sjablonen voor nieuwsbrieven maken als u nodig hebt voor verschil
 | [!UICONTROL Subject] | Onderwerp van de nieuwsbrief |
 | [!UICONTROL Sender] | Contactgegevens voor de afzender |
 | [!UICONTROL Template Type] | Het sjabloontype: `html` of `text` |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**: hiermee wordt een apart venster geopend waarin een voorvertoning van de sjabloon wordt weergegeven <br>**[!UICONTROL Queue Newsletter]**: plaatst het nieuwsbrief malplaatje in de verzendende rij. |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]**: hiermee wordt een apart venster geopend met een voorvertoning van de sjabloon <br>**[!UICONTROL Queue Newsletter]**: de sjabloon voor de nieuwsbrief wordt in de verzendende wachtrij geplaatst. |
 
 {style="table-layout:auto"}

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] van Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De nieuwsbrief maakt deel uit van marketinginstrumenten waarmee nieuws, kortingen en andere marketinge-mails naar klanten kunnen worden verzonden. Geregistreerde klanten kunnen hun abonnement beheren vanuit hun [accountdashboard](../../customers/account-dashboard-my-account.md).
+>De nieuwsbrief maakt deel uit van marketinginstrumenten waarmee nieuws, kortingen en andere marketinge-mails naar klanten kunnen worden verzonden. De geregistreerde klanten kunnen hun abonnement van hun [ rekeningsdashboard ](../../customers/account-dashboard-my-account.md) beheren.
 
 ## [!UICONTROL General Options]
 
-![Algemene opties](./assets/newsletter-general-options.png)<!-- zoom -->
+![ Algemene Opties ](./assets/newsletter-general-options.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Bepaalt als nieuwsbrieven voor het werkingsgebied van de archiefmening worden toegelaten. Opties: `Yes` / `No` |
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Subscription Options]
 
-![Subscription Options](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![ Abonnementsopties ](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Guest Subscription] | Winkelweergave | Hiermee bepaalt u of niet-geregistreerde gasten zich op een nieuwsbrief kunnen abonneren. Opties: `Yes` / `No` |
 | [!UICONTROL Need to Confirm] | Winkelweergave | Hiermee bepaalt u of abonnementsaanvragen moeten worden bevestigd. Deze dubbele-opt-in methode is een bevestigingsmaatregel die mensen verhindert te worden ingetekend zonder hun toestemming. Opties: `Yes` / `No` |

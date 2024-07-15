@@ -1,6 +1,6 @@
 ---
 user-guide-title: Aan de slag met Adobe Commerce
-user-guide-description: Als je nog niet eerder met Adobe Commerce of Magento Open Source werkt, zoek dan bronnen van de [!DNL Commerce] ecosysteem, volg de reis van de klant om uw opslag te onderzoeken, en over zeer belangrijke eigenschappen te leren.
+user-guide-description: Als u aan Adobe Commerce of Magento Open Source nieuw bent, ontdek middelen van het  [!DNL Commerce]  ecosysteem, volg de klantenreis om uw opslag te onderzoeken, en over zeer belangrijke eigenschappen te leren.
 breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -46,8 +46,8 @@ ht-degree: 0%
       + [De integratie configureren](admin-unified-experience-integration-configure.md)
       + [De integratie van het Experience Cloud beheren](admin-unified-experience-integration-manage.md)
       + [Aanvullende informatie](admin-unified-experience-release-notes.md)
-   + Beheergereedschappen en werkruimte {#tools}
-      + [Werkruimte](admin-workspace.md)
+   + Gereedschappen en werkruimte voor beheerders {#tools}
+      + [Workspace](admin-workspace.md)
       + [De zijbalk Beheerder](admin-menu.md)
       + [Dashboard](admin-dashboard.md)
       + [Bericht in vak](admin-message-inbox.md)
@@ -56,12 +56,12 @@ ht-degree: 0%
 + De storefront {#storefront}
    + [Wat is de winkel?](storefront.md)
    + [Verbeterde opslagervaring](enhanced-experiences.md)
-+ Basisinstallatie en -configuratie {#setup}
++ Basisinstellingen en -configuratie {#setup}
    + [Reeks-, opslag- en weergavebereik](websites-stores-views.md)
    + [Winkelgegevens](store-details.md)
    + [Storefront-branding](storefront-branding.md)
    + [Controlelijst voor starten](prelaunch-checklist.md)
-+ Standaardrapportage  {#reporting}
++ Standaardrapportage {#reporting}
    + [Menu Rapporten](reports-menu.md)
    + [Marketingsrapporten](marketing-reports.md)
    + [Evaluatierapporten](review-reports.md)
@@ -69,11 +69,11 @@ ht-degree: 0%
    + [Klantrapporten](customer-reports.md)
    + [Productrapporten](product-reports.md)
    + [Privéverkooprapporten](private-sales-reports.md)
-   + [Commerce Intelligence-tools](business-intelligence.md)
+   + [Commerce Intelligence-gereedschappen](business-intelligence.md)
    + [New Relic-rapportage](new-relic-reporting.md)
 + Bronnen {#resources}
    + [Ecosysteem](resources.md)
    + [Extensies](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

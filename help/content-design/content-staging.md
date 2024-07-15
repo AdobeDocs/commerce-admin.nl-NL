@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Met inhoudstaging kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates voor uw winkel maken, bekijken en plannen, rechtstreeks vanuit de _Beheerder_. Neem bijvoorbeeld, in plaats van te denken aan een statische pagina, een pagina als een verzameling verschillende elementen die kunnen worden omgedraaid _op_ of _uit_ op basis van een schema. U kunt inhoud die opneemt gebruiken om een pagina te maken die het hele jaar volgens een schema automatisch verandert.
+Inhoud het opvoeren geeft uw bedrijfsteam de capaciteit om, een brede waaier van inhoudsupdates voor uw opslag direct van _te creëren voor te vertonen en te plannen Admin_. Bijvoorbeeld, eerder dan het denken in termen van een statische pagina, overweeg een pagina om een inzameling van verschillende elementen te zijn die _kunnen worden aangezet_ of _weg_ gebaseerd op een programma. U kunt inhoud die opneemt gebruiken om een pagina te maken die het hele jaar volgens een schema automatisch verandert.
 
-De term _campagne_ verwijst naar het verslag van een geplande verandering, of een inzameling van veranderingen die van het het Opvoeren Dashboard worden beheerd. De wijzigingen kunnen worden weergegeven op een kalender of tijdlijn. De voorwaarden _geplande wijziging_ en _geplande update_ zijn onderling verwisselbaar en hebben betrekking op één enkele wijziging.
+De termijn _campagne_ verwijst naar het verslag van een geplande verandering, of een inzameling van veranderingen die van het het Opvoeren Dashboard worden beheerd. De wijzigingen kunnen worden weergegeven op een kalender of tijdlijn. De termijnen _geplande verandering_ en _geplande update_ zijn onderling verwisselbaar en verwijzen naar één enkele verandering.
 
 Wanneer u een inhoudswijziging voor een specifieke tijdsperiode plant, keert de inhoud terug naar de vorige versie wanneer de geplande wijziging verloopt. U kunt meerdere versies maken van dezelfde basislijninhoud die u kunt gebruiken voor toekomstige updates. U kunt ook de tijdlijn doorlopen om vorige versies van de inhoud weer te geven. Als u een conceptversie wilt opslaan, wijst u gewoon een datum op de tijdlijn toe die zo ver in de toekomst ligt dat deze nooit in productie wordt genomen.
 
 >[!NOTE]
 >
->Velden met betrekking tot de begindatum en einddatum zijn verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks worden gewijzigd op de pagina Prijsregels voor winkelwagentjes, catalogusprijzen, producten, categorieën en CMS. U moet een geplande update maken voor deze activeringen.
+>De gebieden met betrekking tot de Datum van het Begin en de Datum van het Eind zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de de prijsregel van de kar, de regel van de catalogusprijs, product, categorie, en pagina CMS worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 ## Objecten en campagnes voor het opvoeren van inhoud
 
-Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende objecten, wordt een corresponderende campagne gemaakt als tijdelijke aanduiding en wordt de opdracht _[!UICONTROL Scheduled Changes]_wordt boven aan de pagina weergegeven. De plaatsaanduidingscampagne heeft een begindatum, maar geen einddatum. U kunt updates van de inhoud plannen als deel van een campagne, en dan voorproef en de veranderingen door datum, tijd, of opslagmening delen. Nadat een nieuwe campagne voor één voorwerp wordt gecreeerd, kunt u het als geplande update voor andere voorwerpen toewijzen.
+Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende objecten, wordt een corresponderende campagne gemaakt als tijdelijke aanduiding en wordt het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina weergegeven. De plaatsaanduidingscampagne heeft een begindatum, maar geen einddatum. U kunt updates van de inhoud plannen als deel van een campagne, en dan voorproef en de veranderingen door datum, tijd, of opslagmening delen. Nadat een nieuwe campagne voor één voorwerp wordt gecreeerd, kunt u het als geplande update voor andere voorwerpen toewijzen.
 
 - [Producten](../catalog/product-scheduled-changes.md)
 - [Categorieën](../catalog/category-scheduled-changes.md)
@@ -37,19 +37,19 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 
 ## Workflow voor het opslaan van inhoud
 
-1. **De basislijninhoud maken**
+1. **creeer de basislijninhoud**
 
-   De basislijn is de inhoud van een middel zonder een campagne en omvat alles onder de _[!UICONTROL Scheduled Changes]_boven aan de pagina. De basislijninhoud wordt altijd gebruikt, tenzij er een actieve campagne is met veranderingen die voor die plaats op de chronologie worden gepland.
+   De basislijn is de inhoud van een element zonder campagne en bevat alles onder de sectie _[!UICONTROL Scheduled Changes]_boven aan de pagina. De basislijninhoud wordt altijd gebruikt, tenzij er een actieve campagne is met veranderingen die voor die plaats op de chronologie worden gepland.
 
-1. **De eerste campagne maken**
+1. **creeer de eerste campagne**
 
    Maak waar nodig uw eerste campagne met de begin- en einddatum. Laat de einddatum leeg om de campagne open te maken. Wanneer de eerste campagne is beëindigd, wordt de oorspronkelijke basislijninhoud hersteld.
 
    >[!NOTE]
    >
-   >Begindatum en Einddatum van campagne moeten worden gedefinieerd met de instelling **_default_** Tijdzone voor beheerders, die wordt omgezet vanuit de lokale tijdzone van elke website. Bekijk een voorbeeld van meerdere websites in verschillende tijdzones, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen, en reeks **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** in omgezet van elke lokale tijdzone van de websitetijd in de standaardtijdzone van Admin.
+   >De Datum van het Begin van de campagne en de Datum van het Eind moeten worden bepaald door de **_gebrek_** tijdzone Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Bekijk een voorbeeld van meerdere websites in verschillende tijdzones, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen en **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** instellen in geconverteerde tijdzone van elke lokale website naar de standaardtijdzone van Admin.
 
-1. **Een tweede campagne toevoegen**
+1. **voeg een tweede campagne** toe
 
    Maak de tweede campagne met de begin- en einddatum naar wens. De tweede campagne kan worden toegewezen aan een heel andere periode. Wanneer u meerdere campagnes voor hetzelfde middel maakt, kunnen de campagnes elkaar niet overlappen. U kunt zoveel campagnes maken als u nodig hebt.
 
@@ -57,7 +57,7 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
    >
    >Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-1. **De basislijninhoud herstellen**
+1. **herstel de basislijninhoud**
 
    Als alle campagnes einddata hebben, wordt de basislijninhoud hersteld wanneer alle actieve campagnes beëindigen.
 
@@ -67,9 +67,9 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 
 ## [!UICONTROL Content Staging] dashboard
 
-De [!UICONTROL Content Staging] [dashboard](content-staging-dashboard.md) biedt zichtbaarheid in alle geplande wijzigingen en updates voor de site. Elke dag, elk datumbereik of elke tijdsperiode van een campagne kan vooraf worden bekeken en met anderen worden gedeeld.
+Het [!UICONTROL Content Staging] [ dashboard ](content-staging-dashboard.md) verstrekt zicht in alle geplande plaatsveranderingen en updates. Elke dag, elk datumbereik of elke tijdsperiode van een campagne kan vooraf worden bekeken en met anderen worden gedeeld.
 
-![Staging-dashboard](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
+![ het Opvoeren dashboard ](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## Demo voor inhoudstaging
 
@@ -79,8 +79,8 @@ Bekijk de volgende video voor meer informatie over het staging van inhoud:
 
 ## Bronnen voor probleemoplossing
 
-Raadpleeg de volgende bronnen voor hulp bij het oplossen van problemen met inhoud-staging [!DNL Commerce] Kennisbank-artikelen ondersteunen:
+Raadpleeg de volgende [!DNL Commerce] artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met betrekking tot het staging van inhoud:
 
-- [Fout 404 op alle pagina&#39;s vanwege probleem met inhoudstaging](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [Geplande updates voor het bijhouden van inhoud worden niet weergegeven met een verouderde snelcache](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [Kan ik updates voor het opslaan van inhoud plannen voor prijzen in een gedeelde catalogus?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [ Fout 404 op alle pagina&#39;s toe te schrijven aan inhoud die kwestie opneemt ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [ Geplande die updates van het Staging van de Inhoud niet met het oude Fastly geheime voorgeheugen worden getoond ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [ Kan ik de updates van het Staging van de Inhoud voor prijzen in een gedeelde catalogus plannen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

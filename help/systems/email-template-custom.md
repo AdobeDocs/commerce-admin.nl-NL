@@ -5,16 +5,16 @@ exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # E-mailsjablonen aanpassen
 
-De handel omvat een standaard e-mailmalplaatje voor de lichaamssectie van elk bericht dat door het systeem wordt verzonden. De sjabloon voor de inhoud van de hoofdtekst wordt gecombineerd met de kop- en voettekstsjablonen om het volledige bericht te maken. De inhoud is opgemaakt met HTML en CSS en kan eenvoudig worden bewerkt en aangepast door [variabelen](variables-predefined.md) en [widgets](../content-design/widgets.md). E-mailsjablonen kunnen worden aangepast voor elke website-, winkel- of winkelweergave. Als u aangepaste sjablonen gebruikt, moet u de [systeemconfiguratie](email-templates.md#configure-email-templates) om ervoor te zorgen dat de juiste template wordt gebruikt.
+Commerce bevat een standaard e-mailsjabloon voor de hoofdsectie van elk bericht dat door het systeem wordt verzonden. De sjabloon voor de inhoud van de hoofdtekst wordt gecombineerd met de kop- en voettekstsjablonen om het volledige bericht te maken. De inhoud wordt geformatteerd met HTML en CSS, en kan gemakkelijk worden uitgegeven, en worden aangepast door [ variabelen ](variables-predefined.md) en [ widgets ](../content-design/widgets.md) toe te voegen. E-mailsjablonen kunnen worden aangepast voor elke website-, winkel- of winkelweergave. Als het gebruiken van douanesjablonen, zorg ervoor om de [ systeemconfiguratie ](email-templates.md#configure-email-templates) bij te werken om ervoor te zorgen dat het correcte malplaatje wordt gebruikt.
 
-![Voorbeeld - e-mailvoorvertoning welkom](./assets/email-template-preview.png){width="500" zoomable="yes"}
+![ Voorbeeld - welkome e-mailvoorproef ](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
 De standaardsjablonen bevatten uw logo- en opslaggegevens en kunnen zonder verdere aanpassing worden gebruikt. Nochtans als beste praktijken, zou u elk malplaatje moeten bekijken, en om het even welke noodzakelijke veranderingen aanbrengen alvorens hen naar klanten te verzenden.
 
@@ -22,7 +22,7 @@ De standaardsjablonen bevatten uw logo- en opslaggegevens en kunnen zonder verde
 - [Sjabloon voor voettekst](email-template-custom.md#footer-template)
 - [Berichttemplates](email-template-custom.md#message-templates)
 
-![E-mailsjablonen](./assets/email-templates.png){width="700" zoomable="yes"}
+![ E-mailmalplaatjes ](./assets/email-templates.png){width="700" zoomable="yes"}
 
 ## Sjabloongegevens
 
@@ -32,23 +32,23 @@ De standaardsjablonen bevatten uw logo- en opslaggegevens en kunnen zonder verde
 | [!UICONTROL Insert Variable] | Voegt een variabele in het malplaatje bij de cursorplaats in. |
 | [!UICONTROL Template Subject] | Het onderwerp van het Malplaatje verschijnt in de Onderwerpkolom, en kan worden gebruikt om de malplaatjes in de lijst te sorteren en te filtreren. |
 | [!UICONTROL Template Content] | De inhoud van de sjabloon in HTML. |
-| [!UICONTROL Template Styles] | Eventuele CSS-stijldeclaraties die nodig zijn om de sjabloon op te maken, kunnen worden ingevoerd in het dialoogvenster _[!UICONTROL Template Styles]_doos. |
+| [!UICONTROL Template Styles] | Eventuele CSS-stijldeclaraties die nodig zijn om de sjabloon op te maken, kunnen in het vak _[!UICONTROL Template Styles]_worden ingevoerd. |
 
 {style="table-layout:auto"}
 
 ## Koptekstsjabloon
 
-Na het voltooien van de [configuratie](email-templates.md#configure-email-templates)De koptekstsjabloon voor e-mail bevat uw logo dat aan uw winkel is gekoppeld. Als u een basiskennis van HTML hebt, kunt u gemakkelijk gebruiken [vooraf gedefinieerde variabelen](variables-predefined.md) om contactgegevens van de winkel aan de koptekst toe te voegen.
+Na de voltooiing van de [ configuratie ](email-templates.md#configure-email-templates), omvat het malplaatje van de e-mailkopbal uw embleem dat met uw opslag wordt verbonden. Als u een basiskennis van HTML hebt, kunt u [ gemakkelijk gebruiken vooraf bepaalde variabelen ](variables-predefined.md) om de informatie van het opslagcontact aan de kopbal toe te voegen.
 
 ### Stap 1. De standaardsjabloon laden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Klik op **[!UICONTROL Add New Template]**.
 
-1. In de **[!UICONTROL Load default template]** klikt u op de **[!UICONTROL Template]** selector en kies `Magento_Email` > `Header`.
+1. Klik in de sectie **[!UICONTROL Load default template]** op de kiezer **[!UICONTROL Template]** en kies `Magento_Email` > `Header` .
 
-   ![Koptekst van e-mailsjabloon - standaardsjabloon laden](./assets/email-template-select-default-header.png){width="600" zoomable="yes"}
+   ![ E-mail malplaatjekopbal - ladings standaardmalplaatje ](./assets/email-template-select-default-header.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Load Template]**.
 
@@ -56,53 +56,53 @@ Na het voltooien van de [configuratie](email-templates.md#configure-email-templa
 
 ### Stap 2. De sjabloon aanpassen
 
-1. Voer de **[!UICONTROL Template Name]** voor uw aangepaste koptekst.
+1. Voer de **[!UICONTROL Template Name]** in voor de aangepaste koptekst.
 
-1. Voer een **[!UICONTROL Template Subject]** om de sjablonen beter in te delen.
+1. Voer een **[!UICONTROL Template Subject]** in om de sjablonen te ordenen.
 
-   In het raster kunt u de sjabloonlijst sorteren en filteren op de _[!UICONTROL Subject]_kolom.
+   In het raster kan de lijst met sjablonen worden gesorteerd en gefilterd door de kolom _[!UICONTROL Subject]_.
 
-   ![E-mailsjabloonkoptekstgegevens](./assets/email-template-information.png){width="600" zoomable="yes"}
+   ![ de informatie van de E-mailmalplaatjekopbal ](./assets/email-template-information.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Template Content]** wijzigt u zo nodig de HTML.
+1. Wijzig in het vak **[!UICONTROL Template Content]** de HTML naar wens.
 
    >[!NOTE]
    >
    >Als u in de sjablooncode werkt, moet u ervoor zorgen dat u niets overschrijft dat tussen dubbele accolades staat.
 
-1. Om een [variabel](variables-reference.md)Plaats de cursor in de code op de positie waar u de variabele wilt plaatsen en klik op **[!UICONTROL Insert Variable]**.
+1. Om a [ veranderlijke ](variables-reference.md) op te nemen, plaats de curseur in de code waar u de variabele wilt plaatsen en **[!UICONTROL Insert Variable]** klikken.
 
 1. Kies de variabele die u wilt invoegen.
 
-   ![Koptekstsjabloon - Variabele invoegen](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
+   ![ malplaatje van de Kopbal - Tussenvoegsel veranderlijke ](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Wanneer een variabele wordt geselecteerd, [markeringstag](markup-tags.md) voor de variabele wordt in de code ingevoegd.
+   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [ ](markup-tags.md) voor de variabele opgenomen in de code.
 
-   Hoewel de variabelen van het E-mailadres van de Opslag het vaakst inbegrepen in de kopbal zijn, kunt u de code voor om het even welk systeem ingaan of [aangepaste variabele](variables-custom.md) rechtstreeks in de sjabloon.
+   Hoewel de variabelen van het Adres van de E-mail van de Opslag het vaakst inbegrepen in de kopbal zijn, kunt u de code voor om het even welk systeem of [ douanevariabele ](variables-custom.md) direct in het malplaatje ingaan.
 
-1. Als u CSS-declaraties wilt maken, voert u de stijlen in het dialoogvenster **[!UICONTROL Template Styles]** doos.
+1. Als u CSS-declaraties wilt maken, voert u de stijlen in het vak **[!UICONTROL Template Styles]** in.
 
-1. Als u klaar bent om uw werk te bekijken, klikt u op **[!UICONTROL Preview Template]**.
+1. Klik op **[!UICONTROL Preview Template]** als u klaar bent om uw werk te bekijken.
 
    Breng de gewenste wijzigingen in de sjabloon aan.
 
-1. Klik op **[!UICONTROL Save Template]**.
+1. Klik op **[!UICONTROL Save Template]** als de bewerking is voltooid.
 
    De aangepaste koptekst wordt nu weergegeven in de lijst met beschikbare e-mailsjablonen.
 
 ### Stap 3. De configuratie bijwerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Transactional Emails]** sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Transactional Emails]** sectie.
 
-1. Kies de optie **[!UICONTROL Header Template]** die wordt gebruikt als standaard voor e-mailberichten.
+1. Kies de **[!UICONTROL Header Template]** die standaard wordt gebruikt voor e-mailberichten.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-![Configuratie van het transactieontwerp voor e-mail - koptekstsjabloon](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![ Transactionele configuratie van het e-mailontwerp - kopbalmalplaatje ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 ## Sjabloon voor voettekst
 
@@ -110,11 +110,11 @@ De voettekst van de e-mailsjabloon bevat de regel voor sluiten en ondertekenen v
 
 ### Stap 1. De standaardsjabloon laden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Klik op **[!UICONTROL Add New Template]**.
 
-1. In de **[!UICONTROL Load default template]** klikt u op de **[!UICONTROL Template]** selector en kies `Magento_Email` > `Footer`.
+1. Klik in de sectie **[!UICONTROL Load default template]** op de kiezer **[!UICONTROL Template]** en kies `Magento_Email` > `Footer` .
 
 1. Klik op **[!UICONTROL Load Template]**.
 
@@ -122,75 +122,75 @@ De voettekst van de e-mailsjabloon bevat de regel voor sluiten en ondertekenen v
 
 ### Stap 2. De sjabloon aanpassen en voorvertonen
 
-1. Voer de **[!UICONTROL Template Name]** voor uw aangepaste voettekst.
+1. Voer de **[!UICONTROL Template Name]** in voor de aangepaste voettekst.
 
-1. Voer een **[!UICONTROL Template Subject]** om de sjablonen beter in te delen.
+1. Voer een **[!UICONTROL Template Subject]** in om de sjablonen te ordenen.
 
-   In het raster kunnen de sjablonen worden gesorteerd en gefilterd door de _[!UICONTROL Subject]_kolom.
+   In het raster kunnen de sjablonen worden gesorteerd en gefilterd door de kolom _[!UICONTROL Subject]_.
 
-   ![E-mailsjabloonvoettekst - informatie](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
+   ![ E-mail malplaatjefooter - informatie ](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Template Content]** wijzigt u zo nodig de HTML.
+1. Wijzig in het vak **[!UICONTROL Template Content]** de HTML naar wens.
 
    >[!NOTE]
    >
    >Als u in de sjablooncode werkt, moet u ervoor zorgen dat u niets overschrijft dat tussen dubbele accolades staat.
 
-1. Om een [variabel](variables-reference.md)Plaats de cursor in de code op de positie waar u de variabele wilt plaatsen en klik op **[!UICONTROL Insert Variable]**.
+1. Om a [ veranderlijke ](variables-reference.md) op te nemen, plaats de curseur in de code waar u de variabele wilt plaatsen en **[!UICONTROL Insert Variable]** klikken.
 
 1. Kies de variabele die u wilt invoegen.
 
-   Wanneer een variabele wordt geselecteerd, [markeringstag](markup-tags.md) voor de variabele wordt in de code ingevoegd.
+   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [ ](markup-tags.md) voor de variabele opgenomen in de code.
 
-   Hoewel de variabelen van het Contact van de Opslag het vaakst inbegrepen in footer zijn, kunt u de code voor om het even welk systeem ingaan of [aangepaste variabele](variables-custom.md) rechtstreeks in de sjabloon.
+   Hoewel de variabelen van het Contact van de Opslag het vaakst inbegrepen in footer zijn, kunt u de code voor om het even welk systeem of [ douanevariabele ](variables-custom.md) direct in het malplaatje ingaan.
 
-1. Als u CSS-declaraties wilt maken, voert u de stijlen in het dialoogvenster **[!UICONTROL Template Styles]** doos.
+1. Als u CSS-declaraties wilt maken, voert u de stijlen in het vak **[!UICONTROL Template Styles]** in.
 
 ### Stap 3. De configuratie bijwerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Transactional Emails]** sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Transactional Emails]** sectie.
 
-1. Kies de optie **[!UICONTROL Footer Template]** die wordt gebruikt als standaardvoettekst in e-mailberichten.
+1. Kies de **[!UICONTROL Footer Template]** die wordt gebruikt als de standaardvoettekst in e-mailberichten.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-![Configuratie van het transactieontwerp voor e-mail - voettekstsjabloon](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![ Transactionele configuratie van het e-mailontwerp - footer malplaatje ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 ## Berichttemplates
 
-Het aanpassen van de hoofdtekst van elk bericht is hetzelfde als het aanpassen van de kop- of voettekst. Het enige verschil is het berichtmalplaatje voor elke activiteit of gebeurtenis die een bericht teweegbrengt. U kunt de sjablonen ongewijzigd gebruiken of ze aanpassen aan uw stem en merk. Naast de sjabloontekst is er een ruime keuze van toegestane [vooraf gedefinieerd](variables-predefined.md) variabelen en [aangepast](variables-custom.md) variabelen die u kunt maken en opnemen in de sjabloon.
+Het aanpassen van de hoofdtekst van elk bericht is hetzelfde als het aanpassen van de kop- of voettekst. Het enige verschil is het berichtmalplaatje voor elke activiteit of gebeurtenis die een bericht teweegbrengt. U kunt de sjablonen ongewijzigd gebruiken of ze aanpassen aan uw stem en merk. Naast de malplaatjetekst, is er een brede selectie van toegestane [ vooraf bepaalde ](variables-predefined.md) variabelen en [ douane ](variables-custom.md) variabelen die u in het malplaatje kunt tot stand brengen en opnemen.
 
 ### Stap 1. De standaardsjabloon laden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Klik op **[!UICONTROL Add New Template]**.
 
-   ![E-mailsjablonen - standaardsjabloon laden](./assets/email-templates-message-load-default.png){width="600" zoomable="yes"}
+   ![ E-mailmalplaatjes - ladings standaardmalplaatje ](./assets/email-templates-message-load-default.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk:
 
-   - Onder **[!UICONTROL Load default template]**, kiest u de **[!UICONTROL Template]** die u wilt aanpassen.
+   - Kies onder **[!UICONTROL Load default template]** de **[!UICONTROL Template]** die u wilt aanpassen.
 
    - Klik op **[!UICONTROL Load Template]**.
 
 ### Stap 2. De sjabloon aanpassen
 
-1. Voor **[!UICONTROL Template Name]**, voert u een naam in voor uw aangepaste sjabloon.
+1. Voer bij **[!UICONTROL Template Name]** een naam in voor de aangepaste sjabloon.
 
-1. Wijzig, indien nodig, de **[!UICONTROL Template Subject]**.
+1. Wijzig indien nodig de **[!UICONTROL Template Subject]** .
 
    Dit is de eerste lijn van het bericht, dat de aanhef door gebrek is. U kunt het zo laten, of u kunt iets beschrijvender ingaan.
 
-1. Neem nota van het **[!UICONTROL Currently Used For]** pad naar de sjabloon. Dit is het pad waarmee de configuratie wordt bijgewerkt.
+1. Neem nota van de **[!UICONTROL Currently Used For]** weg aan het malplaatje, dat de weg is die wordt gebruikt om de configuratie bij te werken.
 
-   ![E-mailsjablonen - sjabloongegevens](./assets/email-template-message-information.png){width="600" zoomable="yes"}
+   ![ E-mailmalplaatjes - malplaatjeinformatie ](./assets/email-template-message-information.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Template Content]** wijzigt u zo nodig de HTML.
+1. Wijzig in het vak **[!UICONTROL Template Content]** de HTML naar wens.
 
    De inhoud bestaat uit een combinatie van HTML-tags, CSS-instructies, variabelen en tekst.
 
@@ -200,50 +200,50 @@ Het aanpassen van de hoofdtekst van elk bericht is hetzelfde als het aanpassen v
 
 1. Als u een variabele wilt invoegen, plaatst u de cursor in de code op de positie waar u de variabele wilt weergeven.
 
-   De selectie van variabelen varieert per sjabloon en bevat toegestane [vooraf gedefinieerd](variables-predefined.md) en [aangepast](variables-custom.md) indien beschikbaar.
+   De selectie van variabelen varieert door malplaatje en omvat toegestaan [ vooraf bepaalde ](variables-predefined.md) en [ douane ](variables-custom.md) variabelen, als beschikbaar.
 
-1. Klikken **[!UICONTROL Insert Variable]** en kiest u de variabele die u wilt invoegen.
+1. Klik op **[!UICONTROL Insert Variable]** en kies de variabele die u wilt invoegen.
 
    Een opdracht voor het invoegen van de variabele wordt ingesloten door accolades en toegevoegd aan de code op de cursorlocatie. Bijvoorbeeld:
 
    `customVar code=my_custom_variable`
 
-1. Voer de stijlen in in om CSS-declaraties te maken **[!UICONTROL Template Styles]**.
+1. Voer de stijlen in **[!UICONTROL Template Styles]** in om CSS-declaraties te maken.
 
-   ![E-mailsjablonen - aangepaste stijlen toevoegen](./assets/email-template-add-custom-styles-min.png){width="600" zoomable="yes"}
+   ![ E-mailmalplaatjes - voeg douanestijlen ](./assets/email-template-add-custom-styles-min.png){width="600" zoomable="yes"} toe
 
    >[!NOTE]
    >
-   >Aangepaste stijlen worden alleen op de e-mail toegepast als `{{template config_path="design/email/header_template"}}` aanwezig is in het dialoogvenster _[!UICONTROL Template Styles]_. Als u aangepaste CSS zonder een standaardkoptekstsjabloon wilt gebruiken, moet u deze hier opgeven in het dialoogvenster `<style>` HTML-tag.
+   >Aangepaste stijlen worden alleen op de e-mail toegepast als `{{template config_path="design/email/header_template"}}` aanwezig is in de _[!UICONTROL Template Styles]_. Als u aangepaste CSS zonder een standaardkoptekstsjabloon wilt gebruiken, moet u deze hier opgeven binnen de tag `<style>` HTML.
 
 ### Stap 3. De configuratie bijwerken
 
-De _[!UICONTROL Currently Used For]_met behulp van het broodkruimelspoor wordt aangegeven waar de sjabloon wordt gebruikt. In dit voorbeeld bevindt de sjabloonconfiguratie zich op het tabblad_[!UICONTROL Customer Configuration]_ pagina, in de _[!UICONTROL Create New Account Options]_en in de_[!UICONTROL Default Welcome Email]_ veld.
+Het _[!UICONTROL Currently Used For]_breadcrumb-spoor geeft aan waar de sjabloon wordt gebruikt. In dit voorbeeld bevindt de sjabloonconfiguratie zich op de pagina_[!UICONTROL Customer Configuration]_ , in de sectie _[!UICONTROL Create New Account Options]_en in het veld_[!UICONTROL Default Welcome Email]_ .
 
 - Pagina - [!UICONTROL Customer Configuration]
 - Sectie - [!UICONTROL Create New Account Options]
 - Veld - [!UICONTROL Default Welcome Email]
 
-1. In de **[!UICONTROL Currently Used For]** broodkruimelspoor, klik de verbinding om de pagina van de malplaatjeconfiguratie te openen.
+1. Klik in het traject **[!UICONTROL Currently Used For]** breadcrumb op de koppeling om de sjabloonconfiguratiepagina te openen.
 
-   ![Huidige e-mailsjabloon](./assets/email-template-new-currently-used-for.png){width="600" zoomable="yes"}
+   ![ Huidige e-mailmalplaatje ](./assets/email-template-new-currently-used-for.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de sectie en zoek het veld voor de e-mailsjabloon die u hebt aangepast.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de sectie uit, en vind het gebied voor het e-mailmalplaatje dat u aanpast.
 
-1. Wis de **[!UICONTROL Use system value]** en klik op de naam van uw aangepaste sjabloon.
+1. Schakel het selectievakje **[!UICONTROL Use system value]** uit en klik op de naam van de aangepaste sjabloon.
 
-   ![Configuratie van klanten - standaard welkomstsjabloon voor e-mail](./assets/email-template-message-configuration-default-template.png){width="600" zoomable="yes"}
+   ![ configuratie van Klanten - standaard welkome e-mailmalplaatje ](./assets/email-template-message-configuration-default-template.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. Klik in het bericht boven aan de werkruimte op **[!UICONTROL Cache Management]** en wis een ongeldige cache.
+1. Klik in het bericht boven aan de werkruimte op **[!UICONTROL Cache Management]** en wis eventuele ongeldige cache.
 
 ### Stap 4. De sjabloon voorvertonen en opslaan
 
-1. Als u klaar bent om uw werk te bekijken, klikt u op **[!UICONTROL Preview Template]**.
+1. Klik op **[!UICONTROL Preview Template]** als u klaar bent om uw werk te bekijken.
 
 1. Werk de sjabloon naar wens bij.
 
-1. Klik op **[!UICONTROL Save Template]**.
+1. Klik op **[!UICONTROL Save Template]** als de bewerking is voltooid.
 
    Uw aangepaste sjabloon is nu beschikbaar in de lijst met e-mailsjablonen.

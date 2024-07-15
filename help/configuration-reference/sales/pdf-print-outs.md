@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] van Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice]
 
-![Factuur](./assets/pdf-print-invoice.png)<!-- zoom -->
+![ Factuur ](./assets/pdf-print-invoice.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van facturen ter referentie. Opties: `Yes` / `No` |
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment]
 
-![Verzending](./assets/pdf-print-shipment.png)<!-- zoom -->
+![ Verzending ](./assets/pdf-print-shipment.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id ter referentie op in de koptekst van de schuifregelaars voor het verpakken van de zending. Opties: `Yes` / `No` |
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo]
 
-![Kredietfaciliteit](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![ Memo van het Krediet ](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van creditnota&#39;s ter referentie. Opties: `Yes` / `No` |
 

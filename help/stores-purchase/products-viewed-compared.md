@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # Onlangs bekeken of vergeleken producten
 
-De _Onlangs bekeken en onlangs vergeleken_ worden gewoonlijk in de rechterzijbalk van een cataloguspagina weergegeven. Het aantal producten dat in elk wordt vermeld kan voor elke website, opslag, of opslagmening worden gevormd.
+De _onlangs Bekeken en onlangs Vergelijkte_ blokken verschijnen gewoonlijk in de juiste zijbalk van een cataloguspagina. Het aantal producten dat in elk wordt vermeld kan voor elke website, opslag, of opslagmening worden gevormd.
 
-**_Om onlangs bekeken en vergeleken producten te vormen:_**
+**_om onlangs bekeken en vergeleken producten te vormen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie uit.
 
-   ![Catalogusconfiguratie - onlangs bekeken/vergeleken producten](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - onlangs bekeken/vergeleken producten ](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Onlangs bekeken/vergeleken producten](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Referentiehandleiding voor configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Onlangs Bekeken/Vergeleken Producten ](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Gids van de Verwijzing van de Configuratie_.
 
-1. Set **[!UICONTROL Synchronize widget products with backend storage]** om productwidgetgegevens, zoals product-id, te synchroniseren met de huidige beschikbaarheid van productopslag in de database en deze informatie opnieuw te gebruiken op verschillende apparaten.
+1. Stel **[!UICONTROL Synchronize widget products with backend storage]** in om productwidgetgegevens, zoals product-id, te synchroniseren met de huidige beschikbaarheid van productopslag in de database en deze informatie opnieuw te gebruiken op verschillende apparaten.
 
-1. Set **[!UICONTROL Show for Current]** op de website, opslag, of opslagmening waar de configuratie van toepassing is.
+1. Stel **[!UICONTROL Show for Current]** in op de website-, opslag- of opslagweergave waarop de configuratie van toepassing is.
 
-1. Voor **[!UICONTROL Default Recently Viewed Products Count]**, geeft u het aantal onlangs weergegeven producten op dat in de lijst moet worden weergegeven.
+1. Voer bij **[!UICONTROL Default Recently Viewed Products Count]** het aantal onlangs weergegeven producten in dat in de lijst moet worden weergegeven.
 
-1. Voor **[!UICONTROL Default Recently Compared Products Count]** Voer het aantal onlangs vergeleken producten in dat in de lijst moet worden weergegeven.
+1. Voer bij **[!UICONTROL Default Recently Compared Products Count]** het aantal onlangs vergeleken producten in dat in de lijst moet worden weergegeven.
 
-1. Voor **[!UICONTROL Lifetime of products in Recently Viewed Widget]** Voer een willekeurig tijdbereik in seconden in, groter dan nul.
+1. Voer bij **[!UICONTROL Lifetime of products in Recently Viewed Widget]** een willekeurig tijdbereik in seconden in, groter dan nul.
 
    Deze instelling bepaalt hoe lang de weergegeven producten in de onlangs weergegeven lijst worden weergegeven.
 
-1. Voor **[!UICONTROL Lifetime of products in Recently Compared Widget]** Voer een willekeurig tijdbereik in seconden in, groter dan nul.
+1. Voer bij **[!UICONTROL Lifetime of products in Recently Compared Widget]** een willekeurig tijdbereik in seconden in, groter dan nul.
 
    Deze instelling bepaalt hoe lang de vergeleken producten worden weergegeven in de lijst die onlangs is vergeleken.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

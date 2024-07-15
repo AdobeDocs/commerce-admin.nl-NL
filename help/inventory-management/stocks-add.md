@@ -5,7 +5,7 @@ exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,19 +17,19 @@ Wanneer u een aangepaste voorraad maakt, wijst u websites en bronnen toe. De bro
 
 Nadat u bronnen hebt toegevoegd, moet u de volgorde voor de bronnen van boven (eerst) tot onder (laatst) als prioriteit instellen. Deze bestelling is van invloed op aanbevelingen tijdens de verzending van orders.
 
-![Nieuwe voorraad](assets/inventory-stock-new.png){width="600" zoomable="yes"}
+![ Nieuwe Voorraad ](assets/inventory-stock-new.png){width="600" zoomable="yes"}
 
 ## De voorraad toevoegen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
 
 1. Klik op **[!UICONTROL Add New Stock]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL General]** en voer een unieke **[!UICONTROL Name]** de identificatie van het nieuwe bestand.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en ga een unieke **[!UICONTROL Name]** in om de nieuwe voorraad te identificeren.
 
-   ![Algemene aandelenopties](assets/inventory-stock-general.png){width="350" zoomable="yes"}
+   ![ Algemene aandelenopties ](assets/inventory-stock-general.png){width="350" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Sales Channels]** en selecteert u de **[!UICONTROL Websites]** wanneer dit bestand beschikbaar is.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sales Channels]** sectie uit en selecteer **[!UICONTROL Websites]** waar deze voorraad beschikbaar is.
 
    Houd voor een installatie op meerdere sites de Ctrl-toets (PC) of de Command-toets (Mac) ingedrukt en klik op elke website.
 
@@ -37,13 +37,13 @@ Nadat u bronnen hebt toegevoegd, moet u de volgorde voor de bronnen van boven (e
    >
    >Als u een website of verkoopkanaal selecteert dat aan een andere voorraad is toegewezen, wordt de toewijzing ongedaan gemaakt. Alle Sales Channel die niet aan een aangepaste voorraad zijn toegewezen, worden toegewezen aan de standaardvoorraad.
 
-   ![Sales Channel-opties voor voorraden](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![ Sales Channel opties voor voorraden ](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** en voer de volgende handelingen uit voor alle andere bestanden dan de standaardinstelling:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit en doe het volgende voor om het even welke voorraad buiten het gebrek:
 
    - Klik op **[!UICONTROL Assign Sources]**.
 
-   ![Toegewezen bronnen](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
+   ![ Toegewezen Bronnen ](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
 
    - Schakel selectievakjes in voor alle bronnen die u aan de voorraad wilt toewijzen.
 
@@ -55,24 +55,24 @@ Nadat u bronnen hebt toegevoegd, moet u de volgorde voor de bronnen van boven (e
 
      De toegevoegde bronnen tonen in Toegewezen Bronnen.
 
-     ![Bronnen toewijzen aan voorraad](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
+     ![ wijs Bronnen aan Voorraad ](assets/inventory-assign-sources.png){width="600" zoomable="yes"} toe
 
-1. Gebruiken ![Pictogram Sorteren](assets/icon-sort.png) om de bronnen naar een prioriteit van boven (eerste) naar onder (laatste) te slepen.
+1. Het pictogram van de Soort van het gebruik ](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.![
 
    De bronvolgorde is belangrijk bij verzendopdrachten.
 
-   ![Voorbeeld van toegewezen bronnen](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
+   ![ Toegewezen Bronvoorbeeld ](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. Op de _[!UICONTROL Save]_(![Menupijl](../assets/icon-menu-down-arrow-red.png)), kiest u **[!UICONTROL Save & Close]**.
+1. Voor _[!UICONTROL Save]_(![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png)) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Veldomschrijvingen
 
 | Veld | Beschrijving |
 |--|--|
 | **[!UICONTROL General]** | |
-| [!UICONTROL Name] | Naam van het bestand. Bijvoorbeeld: `UK Stock`, `US Stock` |
+| [!UICONTROL Name] | Naam van het bestand. Bijvoorbeeld: `UK Stock` , `US Stock` |
 | **[!UICONTROL Sales Channels]** | |
-| [!UICONTROL Websites] | Definieert de [bereik](../getting-started/websites-stores-views.md#scope-settings) van de voorraad door de voorraad toe te wijzen aan specifieke websites als _verkoopkanalen_. Selecteer een of meer websites per bestand. Elke website kan slechts aan één bestand worden toegewezen. |
+| [!UICONTROL Websites] | Bepaalt het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de voorraad door de voorraad aan specifieke websites als _verkoopkanalen_ toe te wijzen. Selecteer een of meer websites per bestand. Elke website kan slechts aan één bestand worden toegewezen. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | Hiermee wijst u inventarisbronnen toe aan dit bestand. Aangepaste bronnen kunnen niet worden toegewezen aan standaardvoorraad. |
-| [!UICONTROL Assigned Sources] | Lijst met toegewezen bronnen. Bronnen slepen en neerzetten met ![Pictogram Sorteren](assets/icon-sort.png) in een geprioriteerde volgorde voor het uitvoeren van bestellingen en het verzenden van bestellingen.<br/><br/>**[!UICONTROL Code]**- Unieke code-id voor de bron.<br/>**[!UICONTROL Name]** - Beschrijving van naam voor de bron.<br/>**[!UICONTROL Unassign]**- Verwijder de toegewezen bron uit het bestand met ![Prullenbakpictogram](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assigned Sources] | Lijst met toegewezen bronnen. De belemmering en laat vallen de bronnen gebruikend ![ pictogram van de Soort ](assets/icon-sort.png) in een prioritaire orde voor ordeverwezenlijking en het verschepen.<br/><br/>**[!UICONTROL Code]**- Unieke code-id voor de bron.<br/>**[!UICONTROL Name]** - Geef een naam op voor de bron.<br/>**[!UICONTROL Unassign]**- verwijder de toegewezen bron uit de voorraad gebruikend ![ pictogram van het Afval ](../assets/icon-delete-trashcan-solid.png). |

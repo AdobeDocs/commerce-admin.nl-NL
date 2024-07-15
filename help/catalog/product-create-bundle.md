@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Bundel
 
-Een bundel is een _uw eigen_, aanpasbaar product. Elk item in een bundel kan op een van de volgende producttypen worden gebaseerd:
+Een bundel is a _bouwt uw eigen_, aanpasbaar product. Elk item in een bundel kan op een van de volgende producttypen worden gebaseerd:
 
 - [Eenvoudig product](product-create-simple.md)
 - [Virtueel product](product-create-virtual.md)
 
-![Bundel](./assets/product-bundle.png){width="700" zoomable="yes"}
+![ Bundel product ](./assets/product-bundle.png){width="700" zoomable="yes"}
 
-De opties verschijnen wanneer de klant of klikt **[!UICONTROL Customize]** of **[!UICONTROL Add to Cart]**. Omdat de producten die in de bundel inbegrepen zijn variëren, kan SKU, de Prijs, en het Gewicht aan of een dynamische of vaste waarde worden geplaatst.
+De opties worden weergegeven wanneer de klant op **[!UICONTROL Customize]** of **[!UICONTROL Add to Cart]** klikt. Omdat de producten die in de bundel inbegrepen zijn variëren, kan SKU, de Prijs, en het Gewicht aan of een dynamische of vaste waarde worden geplaatst.
 
 >[!NOTE]
 >
@@ -29,178 +29,178 @@ De opties verschijnen wanneer de klant of klikt **[!UICONTROL Customize]** of **
 >
 >Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.
 
-Indien [Direct aanschaffen](../stores-purchase/checkout-instant-purchase.md) is beschikbaar, _Direct aanschaffen_ wordt onder de knop _Toevoegen aan winkelwagentje_ voor elk item in de bundel.
+Als [ Onmiddellijke Aankoop ](../stores-purchase/checkout-instant-purchase.md) beschikbaar is, verschijnt de _Onmiddellijke knoop van de Aankoop_ onder _toevoegt aan Kar_ knoop voor elk punt in de bundel.
 
-![Bundel aanpassen](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
+![ pas Bundel ](./assets/product-bundle-customize.png){width="600" zoomable="yes"} aan
 
-De volgende instructies begeleiden u bij het maken van een bundelproduct met behulp van een [productsjabloon](attribute-sets.md), vereiste velden en basisinstellingen. Elk vereist veld is gemarkeerd met een rood sterretje (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies nemen u door het proces om een bundelproduct tot stand te brengen gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
 ## Stap 1: Kies het producttype
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In de rechterbovenhoek op het tabblad _[!UICONTROL Add Product]_( ![Menupijl](../assets/icon-menu-down-arrow-red.png){width="25"} ), kiest u **[!UICONTROL Bundle Product]**.
+1. In de hoger-juiste hoek op het _[!UICONTROL Add Product]_( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"} ) menu, kies **[!UICONTROL Bundle Product]**.
 
-   ![Bundelproduct toevoegen](./assets/product-add-bundle.png){width="700" zoomable="yes"}
+   ![ voeg Bundelproduct ](./assets/product-add-bundle.png){width="700" zoomable="yes"} toe
 
 ## Stap 2: Kies de kenmerkset
 
-Als u de optie [kenmerkset](attribute-sets.md) die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
+Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
 
-- Voor **[!UICONTROL Search]**, voert u de naam in van de kenmerkset,
+- Voer bij **[!UICONTROL Search]** de naam in van de kenmerkset,
 - Kies in de lijst de kenmerkset die u wilt gebruiken.
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![Sjabloon kiezen](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![ kies malplaatje ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Stap 3: Voer de vereiste instellingen in
 
-1. Voer het product in **[!UICONTROL Product Name]**.
+1. Voer het product **[!UICONTROL Product Name]** in.
 
-1. Accepteer de standaardinstelling **[!UICONTROL SKU]** die is gebaseerd op de productnaam of een andere waarde invoert.
+1. Accepteer de standaardwaarde **[!UICONTROL SKU]** die is gebaseerd op de productnaam of voer een andere waarde in.
 
    Ga als volgt te werk om het type SKU te bepalen dat aan elk bundelitem is toegewezen:
 
-   - A **[!UICONTROL Dynamic SKU]** kan automatisch aan elk bundelpunt worden toegewezen door een achtervoegsel aan standaardSKU toe te voegen. Standaard is deze ingesteld op `Yes`.
+   - Een **[!UICONTROL Dynamic SKU]** kan automatisch worden toegewezen aan elk bundelitem door een achtervoegsel toe te voegen aan de standaard-SKU. Standaard is dit ingesteld op `Yes` .
 
-   - Als u verkiest unieke SKU voor elk bundelpunt toe te wijzen, plaats **[!UICONTROL Dynamic SKU]** tot `No`.
+   - Als u liever een unieke SKU voor elk bundelitem wilt toewijzen, stelt u **[!UICONTROL Dynamic SKU]** in op `No` .
 
-   ![Dynamische SKU en prijs](./assets/product-bundle-manual-sku.png){width="600" zoomable="yes"}
+   ![ Dynamische SKU en prijs ](./assets/product-bundle-manual-sku.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om de prijs van de bundel te bepalen:
 
-   - Om de prijs de opties te laten weerspiegelen die de klant heeft gekozen, stelt u **[!UICONTROL Dynamic Price]** tot `Yes` en vertrekken **[!UICONTROL Price]** leeg. In dit geval heeft een bundelproduct geen eigen prijs uit de catalogus en wordt de productprijs afgeleid van de prijs van de afzonderlijke producten in de bundel.
+   - Als u wilt dat de prijs de door de klant gekozen opties weerspiegelt, stelt u **[!UICONTROL Dynamic Price]** in op `Yes` en laat u **[!UICONTROL Price]** leeg. In dit geval heeft een bundelproduct geen eigen prijs uit de catalogus en wordt de productprijs afgeleid van de prijs van de afzonderlijke producten in de bundel.
 
-   - Als u een vaste prijs voor de bundel wilt berekenen, stelt u **[!UICONTROL Dynamic Price]** tot `No` en voert u de **[!UICONTROL Price]** die u voor de bundel wilt opladen.
+   - Als u een vaste prijs voor de bundel wilt berekenen, stelt u **[!UICONTROL Dynamic Price]** in op `No` en voert u de **[!UICONTROL Price]** in die u voor de bundel wilt laden.
 
    >[!NOTE]
    >
-   >[!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (Tier-prijs) wordt altijd ingesteld als het kortingspercentage voor alle typen bundelproducten.
+   >[!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (Tier-prijs) worden altijd ingesteld als het kortingspercentage voor alle typen bundelproducten.
 
-1. Aangezien het product nog niet gereed is om te publiceren, stelt u **[!UICONTROL Enable Product]** tot `No`.
+1. Stel **[!UICONTROL Enable Product]** in op `No` omdat het product nog niet kan worden gepubliceerd.
 
-1. Klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt opgeslagen, wordt [Winkelweergave](introduction.md#product-scope) wordt in de linkerbovenhoek weergegeven.
+   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
 
-1. Kies de optie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
+1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![Winkelweergave kiezen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![ kies de Mening van de Opslag ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Stap 4: De basisinstellingen voltooien
 
-1. Als de bundel vaste prijs heeft, stelt u **[!UICONTROL Tax Class]** op een van de volgende wijzen:
+1. Als de bundel Vaste Prijsbepaling heeft, plaats **[!UICONTROL Tax Class]** aan één van het volgende:
 
    - `None`
    - `Taxable Goods`
 
-   Als de bundel Dynamische Prijsbepaling heeft, wordt de belasting bepaald voor **_elk_** bundelitem. Als de bundel vaste prijzen heeft, wordt de belasting bepaald voor de **_geheel_** bundelproduct.
+   Als de bundel Dynamische Prijsbepaling heeft, wordt de belasting bepaald voor **_elk_** bundelpunt. Als de bundel Vaste Prijsbepaling heeft, wordt de belasting bepaald voor het **_volledige_** bundelproduct.
 
 1. Let op het volgende:
 
-   - De **[!UICONTROL Quantity]** is niet beschikbaar omdat de waarde wordt bepaald voor elk bundelitem.
+   - **[!UICONTROL Quantity]** is niet beschikbaar omdat de waarde wordt bepaald voor elk bundelitem.
 
-   - Standaard worden de **[!UICONTROL Stock Status]** is ingesteld op `In Stock`.
+   - Standaard is de waarde van **[!UICONTROL Stock Status]** ingesteld op `In Stock` .
 
 1. Voer een van de volgende handelingen uit om het gewicht van de bundel te bepalen:
 
-   - Als u wilt dat het gewicht de door de klant gekozen opties weerspiegelt, stelt u **[!UICONTROL Dynamic Weight]** set `Yes` en vertrekken **[!UICONTROL Weight]** leeg.
+   - Als u wilt dat het gewicht de door de klant gekozen opties weerspiegelt, stelt u **[!UICONTROL Dynamic Weight]** set `Yes` in en laat u **[!UICONTROL Weight]** leeg.
 
-   - Als u een vaste dikte aan de bundel wilt toewijzen, stelt u **[!UICONTROL Dynamic Weight]** tot `No` en voert u de **[!UICONTROL Weight]** van de bundel.
+   - Als u een vaste dikte aan de bundel wilt toewijzen, stelt u **[!UICONTROL Dynamic Weight]** in op `No` en voert u de **[!UICONTROL Weight]** van de bundel in.
 
-   ![Dynamische dikte](./assets/product-bundle-dynamic-weight.png){width="600" zoomable="yes"}
+   ![ Dynamisch Gewicht ](./assets/product-bundle-dynamic-weight.png){width="600" zoomable="yes"}
 
-1. Het product plaatsen in de lijst met [nieuwe producten](../content-design/widget-new-products-list.md), selecteert u de **[!UICONTROL Set Product as New]** selectievakje.
+1. Om het product in de lijst van [ nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
 
-1. De standaardinstelling accepteren **[!UICONTROL Visibility]** instellen van `Catalog, Search`.
+1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Om _[!UICONTROL Categories]_voor het product klikt u op de knop **[!UICONTROL Select…]**en voer een van de volgende handelingen uit:
+1. Als u _[!UICONTROL Categories]_aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**en voert u een van de volgende handelingen uit:
 
-   **Kies een bestaande categorie:**
+   **kies een bestaande categorie:**
 
    - Typ in het vak totdat u een overeenkomst hebt gevonden.
 
    - Schakel het selectievakje in van elke categorie die u wilt toewijzen.
 
-   ![Selecteer een of meer categorieën voor het bundelproduct](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![ selecteer één of meerdere categorieën voor het bundelproduct ](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
-   **Een categorie maken:**
+   **creeer een categorie:**
 
    - Klik op **[!UICONTROL New Category]**.
 
-   - Voer de **[!UICONTROL Category Name]** en kiest u **[!UICONTROL Parent Category]**, die de positie in de menustructuur bepaalt.
+   - Voer de **[!UICONTROL Category Name]** in en kies de **[!UICONTROL Parent Category]** die de positie in de menustructuur bepaalt.
 
    - Klik op **[!UICONTROL Create Category]**.
 
-1. Kies de optie **[!UICONTROL Country of Manufacture]**.
+1. Kies de **[!UICONTROL Country of Manufacture]** .
 
    Er kunnen aanvullende kenmerken zijn die het product beschrijven. De selectie varieert kenmerkset en u kunt deze later voltooien.
 
 ## Stap 5: Voeg de bundelitems toe
 
-De _[!UICONTROL Bundle Items]_wordt gebruikt om items toe te voegen aan een bundel voor producttypen en om de huidige selectie van items te bewerken.
+De sectie _[!UICONTROL Bundle Items]_wordt gebruikt om items toe te voegen aan een bundelproducttype en om de huidige selectie van items te bewerken.
 
-![Bundel items die zijn gedefinieerd voor een product](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
+![ Bundel punten die voor een product ](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"} worden bepaald
 
-1. Omlaag schuiven naar de _Bundel-items_ sectie en set **[!UICONTROL Ship Bundle Items]** op een van de volgende wijzen:
+1. De rol neer aan de _sectie van de Punten van de Bundel_ en reeks **[!UICONTROL Ship Bundle Items]** aan één van het volgende:
 
    - `Separately`
    - `Together`
 
-   Als u `Together`moeten alle bundelitems op dezelfde manier worden toegewezen [bron](../inventory-management/sources-manage.md).
+   Als u `Together` selecteert, moeten alle bundelpunten de zelfde [ bron ](../inventory-management/sources-manage.md) worden toegewezen.
 
-1. Klikken **[!UICONTROL Add Option]** en voer de volgende handelingen uit:
+1. Klik op **[!UICONTROL Add Option]** en voer de volgende handelingen uit:
 
-   - Voer een **[!UICONTROL Option Title]** als veldlabel te gebruiken.
+   - Voer een **[!UICONTROL Option Title]** in dat als veldlabel moet worden gebruikt.
 
-   - Set **[!UICONTROL Input Type]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Input Type]** in op een van de volgende opties:
 
       - `Drop-down`
       - `Radio buttons`
       - `Checkbox`
       - `Multiple Select`
 
-   - Als u van het veld een verplicht item wilt maken, selecteert u de optie **[!UICONTROL Required]** selectievakje.
+   - Schakel het selectievakje **[!UICONTROL Required]** in om van het veld een verplicht item te maken.
 
-   - Klikken **[!UICONTROL Add Products to Option]** en schakelt u het selectievakje in van elk product dat u in deze optie wilt opnemen.
+   - Klik op **[!UICONTROL Add Products to Option]** en schakel het selectievakje in van elk product dat u in deze optie wilt opnemen.
 
      Als er vele producten zijn, gebruik de lijstfilters en pagineringscontroles om de producten te vinden u nodig hebt.
 
    - Klik op **[!UICONTROL Add Selected Products]**.
 
-     ![Geselecteerde producten toevoegen](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
+     ![ voeg Geselecteerde Producten ](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"} toe
 
-   - Nadat de items in het deelvenster _Opties_ sectie, kies een punt om te zijn **[!UICONTROL Default]** selectie.
+   - Nadat de punten in de _sectie van Opties_ verschijnen, kies een punt om de **[!UICONTROL Default]** selectie te zijn.
 
-   - In de _Standaardhoeveelheid_ de hoeveelheid van elk item in die aan de bundel moet worden toegevoegd wanneer een klant het item kiest.
+   - In de _StandaardHoeveelheid_ kolom, ga de hoeveelheid van elk punt in dat aan de bundel moet worden toegevoegd wanneer een klant het punt kiest.
 
-   - Als u klanten wilt toestaan de hoeveelheid van een bundelitem te wijzigen, selecteert u **[!UICONTROL User Defined]**.
+   - Selecteer **[!UICONTROL User Defined]** als u klanten wilt toestaan de hoeveelheid van een bundelitem te wijzigen.
 
 
      >[!NOTE]
      >
-     >De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs echter geen _[!UICONTROL User Defined]_eigenschap om het selectievakje in te schakelen of invoertypen te selecteren die meerdere malen zijn geselecteerd.
+     >De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
 
      Standaard kan de standaardhoeveelheid die in een bundelitem is opgenomen, niet door de klant worden gewijzigd. De klant kan echter de hoeveelheid van het item invoeren die in de bundel moet worden opgenomen.
 
-     Als bijvoorbeeld de standaardhoeveelheid van de Sprite-statusbalk is ingesteld op `2` en de orders van de klant `4` van die bundeloptie is het totale aantal aangekochte ballen `8`.
+     Als de Standaardhoeveelheid van de Sprite-statusbalk bijvoorbeeld is ingesteld op `2` en de klant geeft `4` van die bundeloptie de opdracht, is het totale aantal gekochte ballen `8` .
 
-     ![Itemdetails](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
+     ![ Detail van het Punt ](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
 
 1. Herhaal deze stappen voor elk item dat u aan de bundel wilt toevoegen.
 
-1. Als u de volgorde van items in een bundelsectie wilt wijzigen, klikt u op de knop _Verplaatsen_ ( ![Pictogram Verplaatsen](../assets/icon-move.png) ) aan het begin van de rij en sleep het item naar de gewenste positie.
+1. Om de orde van punten in een bundelsectie te veranderen, klik de _Beweging_ ( ![ pictogram van de Beweging ](../assets/icon-move.png) ) aan het begin van de rij en sleep het punt in positie.
 
-   ![De volgorde van bundelitems wijzigen](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+   ![ verander de orde van de Punten van de Bundel ](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
-   De volgorde van items kan ook worden gewijzigd in de gegevens van een geëxporteerd bundelproduct en vervolgens opnieuw worden geïmporteerd in de catalogus. Zie voor meer informatie [Bundelproducten importeren](../systems/data-transfer-bundle-products.md).
+   De volgorde van items kan ook worden gewijzigd in de gegevens van een geëxporteerd bundelproduct en vervolgens opnieuw worden geïmporteerd in de catalogus. Voor meer informatie, zie [ het Invoeren van de Producten van de Bundel ](../systems/data-transfer-bundle-products.md).
 
    Voor een betere weergave van de werkruimte, vouwt u eerst elke sectie samen en sleept u deze naar de gewenste positie.
 
-1. Als u een item uit de bundel wilt verwijderen, klikt u op de knop **[!UICONTROL Delete]** ( ![Prullenbakpictogram](../assets/icon-delete-trashcan.png) ).
+1. Om om het even welk punt uit de bundel te verwijderen, klik het **[!UICONTROL Delete]** ( ![ pictogram van het Afval ](../assets/icon-delete-trashcan.png)) pictogram.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Stap 6: De productinformatie invullen
 
@@ -215,34 +215,34 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 - [Ontwerp](settings-advanced-design.md)
 - [Cadeauopties](product-gift-options.md)
 
-## Stap 7: Het product publiceren
+## Stap 7: Publish het product
 
-1. Als u het product wilt publiceren in de catalogus, stelt u **[!UICONTROL Enable Product]** tot `Yes` ( ![Ja in-/uitschakelen](../assets/toggle-yes.png) ).
+1. Als u bereid bent om het product in de catalogus te publiceren, plaats **[!UICONTROL Enable Product]** aan `Yes` ( ![ Wissel ja ](../assets/toggle-yes.png)).
 
 1. Voer een van de volgende handelingen uit:
 
-   **Methode 1:** Opslaan en voorvertonen
+   **Methode 1:** sparen en voorproef
 
-   - Klik in de rechterbovenhoek op **[!UICONTROL Save]**.
+   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   - Kies **[!UICONTROL Customer View]** op de _Beheerder_ ( ![Menupijl](../assets/icon-menu-down-arrow-black.png) ).
+   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
 
      De winkel wordt geopend in een nieuw browsertabblad.
 
-   ![Klantenweergave](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
-   **Methode 2:** Opslaan en sluiten
+   **Methode 2:** sparen en sluit
 
-   Op de _[!UICONTROL Save]_( ![Menupijl](../assets/icon-menu-down-arrow-red.png){width="25"} ), kiest u **[!UICONTROL Save & Close]**.
+   Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Invoerbesturingselementen
 
 | Besturing | Beschrijving | Voorbeeld |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | Hiermee geeft u een vervolgkeuzelijst met opties weer met de productnaam en de prijs. Er kan slechts één item worden geselecteerd. | ![Vervolgkeuzelijst](./assets/product-bundle-input-type-drop-down.png){width="200"} |
-| [!UICONTROL Radio Buttons] | Hiermee geeft u een keuzerondje voor elke optie weer, gevolgd door de productnaam en -prijs. Er kan slechts één item worden geselecteerd. | ![Keuzerondjes](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
-| [!UICONTROL Checkbox] | Hiermee wordt voor elke optie een selectievakje weergegeven, gevolgd door de productnaam en de prijs. U kunt meerdere items selecteren. | ![Selectievakje](./assets/product-bundle-input-type-checkbox.png){width="200"} |
-| [!UICONTROL Multiple Select] | Hiermee geeft u een lijst met opties weer met de productnaam en de prijs. Als u meerdere items wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item. | ![Meerdere selecties](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
+| [!UICONTROL Drop-down] | Hiermee geeft u een vervolgkeuzelijst met opties weer met de productnaam en de prijs. Er kan slechts één item worden geselecteerd. | ![ drop-down ](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Radio Buttons] | Hiermee geeft u een keuzerondje voor elke optie weer, gevolgd door de productnaam en -prijs. Er kan slechts één item worden geselecteerd. | ![ Keuzerondjes ](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
+| [!UICONTROL Checkbox] | Hiermee wordt voor elke optie een selectievakje weergegeven, gevolgd door de productnaam en de prijs. U kunt meerdere items selecteren. | ![ Checkbox ](./assets/product-bundle-input-type-checkbox.png){width="200"} |
+| [!UICONTROL Multiple Select] | Hiermee geeft u een lijst met opties weer met de productnaam en de prijs. Als u meerdere items wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item. | ![ Veelvoudige Uitgezochte ](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
 
 {style="table-layout:auto"}
 
@@ -259,32 +259,32 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 
 ## Status van bundelproductvoorraad
 
-De status van de bundelproductvoorraad is **_automatisch gewijzigd in Uit voorraad_** wanneer een van deze scenario&#39;s zich voordoet:
+De status van de de productvoorraad van de bundel wordt **_automatisch veranderd in uit Voorraad_** wanneer één van beiden van deze scenario&#39;s voorkomt:
 
-- Alle opties zijn optioneel en alle bijbehorende producten zijn _Uit voorraad_.
+- Alle opties zijn facultatief en alle bijbehorende producten zijn _uit Voorraad_.
 
-- Sommige opties zijn vereist en de producten die aan om het even welke vereiste opties worden geassocieerd _Uit voorraad_.
+- Sommige opties worden vereist en de producten die aan om het even welke vereiste opties worden geassocieerd zijn _uit Voorraad_.
 
-De status van de bundelproductvoorraad is **_niet automatisch gewijzigd in Uit voorraad_** wanneer een van deze scenario&#39;s zich voordoet:
+De status van de de productvoorraad van de bundel is **_niet automatisch veranderd in uit voorraad_** wanneer één van beiden van deze scenario&#39;s voorkomt:
 
-- Alle opties zijn optioneel en ten minste één gekoppeld product is _In voorraad_.
+- Alle opties zijn facultatief en minstens één geassocieerd product is _in Voorraad_.
 
-- Sommige opties zijn vereist en ten minste één bijbehorend product in elke vereiste optie is _In voorraad_.
+- Sommige opties worden vereist en minstens één geassocieerd product in elke vereiste optie is _in Voorraad_.
 
 ## Te onthouden zaken
 
-![Selectievakje](../assets/checkbox.png) Klanten kunnen _hun eigen_ bundelproduct.
+![ Checkbox ](../assets/checkbox.png) Klanten kunnen _hun eigen_ bundelproduct bouwen.
 
-![Selectievakje](../assets/checkbox.png) Bundelitems kunnen eenvoudig zijn of virtuele producten zonder aangepaste opties.
+![ checkbox ](../assets/checkbox.png) de punten van de Bundel kunnen eenvoudige of virtuele producten zonder douaneopties zijn.
 
-![Selectievakje](../assets/checkbox.png) De prijsweergave kan worden ingesteld op `Price Range` of `As Low As`.
+![ Checkbox ](../assets/checkbox.png) de Mening van de Prijs kan aan of `Price Range` of `As Low As` worden geplaatst.
 
-![Selectievakje](../assets/checkbox.png) SKU en Gewicht kunnen `Fixed` of `Dynamic`.
+![ Checkbox ](../assets/checkbox.png) SKU en Gewicht kunnen of `Fixed` of `Dynamic` zijn.
 
-![Selectievakje](../assets/checkbox.png) De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs echter geen _[!UICONTROL User Defined]_eigenschap om het selectievakje in te schakelen of invoertypen te selecteren die meerdere malen zijn geselecteerd.
+![ Checkbox ](../assets/checkbox.png) de hoeveelheid kan een vooraf ingestelde of user-defined waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
 
-![Selectievakje](../assets/checkbox.png) Bundelobjecten kunnen samen of afzonderlijk worden verzonden.
+](../assets/checkbox.png) de punten van de Bundel van 0} Checkbox {kunnen samen of afzonderlijk worden verscheept.![
 
-![Selectievakje](../assets/checkbox.png) Het bovenliggende bundelproduct wordt altijd automatisch weergegeven als een up-sell-product voor alle onderliggende producten.
+![ CheckBox ](../assets/checkbox.png) de bundelproduct van de Ouder wordt altijd getoond als omhoog-verkoopproduct voor al zijn kindproducten automatisch.
 
-![Selectievakje](../assets/checkbox.png) [!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (Tier-prijs) wordt altijd ingesteld als het kortingspercentage voor alle typen bundelproducten.
+![ Checkbox ](../assets/checkbox.png) [!UICONTROL Special Price] en [!UICONTROL Customer Group Price] (de Prijs van de Rij) worden altijd geplaatst als disconteringspercentage voor alle types van bundelproduct.

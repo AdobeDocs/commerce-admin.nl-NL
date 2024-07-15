@@ -5,7 +5,7 @@ exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Deze informatie is een van de onderwerpen die Adobe Commerce en Magento Open Source handelaren en ontwikkelaars moeten helpen de implicaties van de algemene gegevensbeschermingsverordening (GDPR) te begrijpen. De informatie is uitsluitend bedoeld voor informatieve doeleinden en mag niet worden opgevat als juridisch advies. Neem contact op met uw juridisch adviseur om te bepalen of en hoe uw bedrijf aan wettelijke verplichtingen moet voldoen.
 
-De algemene gegevensbeschermingsverordening (GDPR) is wetgeving die gegevensbescherming en privacy voor alle personen in de Europese Unie en de Europese Economische Ruimte regelt. De wetgeving is ook van toepassing op de uitvoer van persoonsgegevens buiten de EU. De GDPR is in april 2016 aangenomen en is op 25 mei 2018 uitvoerbaar geworden. Ondernemingen die niet in de EU gevestigd zijn, maar zich bezighouden met de wereldhandel, moeten zich aan de verordening houden. De GDPA-definitie **persoonsgegevens** als volgt:
+De algemene gegevensbeschermingsverordening (GDPR) is wetgeving die gegevensbescherming en privacy voor alle personen in de Europese Unie en de Europese Economische Ruimte regelt. De wetgeving is ook van toepassing op de uitvoer van persoonsgegevens buiten de EU. De GDPR is in april 2016 aangenomen en is op 25 mei 2018 uitvoerbaar geworden. Ondernemingen die niet in de EU gevestigd zijn, maar zich bezighouden met de wereldhandel, moeten zich aan de verordening houden. GDPA bepaalt **persoonlijke gegevens** als volgt:
 
 >Elke informatie betreffende een geïdentificeerde of identificeerbare natuurlijke persoon (&quot;betrokkene&quot;); een identificeerbare natuurlijke persoon is een persoon die direct of indirect kan worden geïdentificeerd, met name door verwijzing naar een identificator, zoals een naam, een identificatienummer, locatiegegevens, een online-identificator of een of meer factoren die specifiek zijn voor de fysieke, fysiologische, genetische, mentale, economische, culturele of sociale identiteit van die natuurlijke persoon.
 
@@ -30,26 +30,26 @@ Alle organisaties die persoonsgegevens verwerken, moeten het volgende bekendmake
 
 ## GDPR en CCPA
 
-Als uw bedrijf zowel de GDPR als de [California Consumer Privacy Act (CCPA)](../getting-started/compliance-ccpa.md), kunt u een deel van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel GDPR als de [ Wet van de Privacy van de consument van Californië (CCPA) ](../getting-started/compliance-ccpa.md) moeten naleven, kunt u wat van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Zie voor meer informatie de [CCPA-werkblad][3]{:target=&quot;_blank&quot;}.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie ][3] {:target= &quot;_blank&quot;} het [ Cpa- Werkblad.
 
 ## Aanbevolen procedures
 
-- Huidige onderzoeken [privacybeleid](../getting-started/privacy-policy.md) voor al uw winkels om ervoor te zorgen dat deze voldoen aan alle toepasselijke wettelijke vereisten (inclusief, maar niet beperkt tot, GDPR en CCPA).
+- Onderzoek het huidige [ privacybeleid ](../getting-started/privacy-policy.md) voor al uw opslag om ervoor te zorgen dat zij met om het even welke toepasselijke wettelijke vereisten (met inbegrip van, maar niet beperkt tot GDPR en CCPA) richten.
 
-- Werk uw [Google-instellingen](../merchandising-promotions/google-tools.md#google-privacy-settings) en ervoor te zorgen dat zij in overeenstemming zijn met uw wettelijke verplichtingen inzake het gebruik van persoonsgegevens.
+- Werk uw [ montages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) bij en zorg ervoor dat zij met uw wettelijke verplichtingen betreffende het gebruik van persoonlijke gegevens richten.
 
 - Transparantie behouden en grondige documentatie bewaren.
 
-- Als u wilt weten hoe Adobe handelaren helpt te voldoen aan de toepasselijke wettelijke verplichtingen, gaat u naar de [website][1]{:target=&quot;_blank&quot;}.
+- Om te leren hoe de Adobe handelaren helpt om aan toepasselijke wettelijke verplichtingen te voldoen, bezoek de [ website ][1] {:target= &quot;_blank&quot;}.
 
-- Voor gegevensstroomdiagrammen en de afbeelding van de gegevensbestandentiteit, zie [Persoonlijke gegevens][2]{: target=&quot;_blank&quot;}.
+- Voor de diagrammen van de gegevensstroom en de afbeelding van de gegevensbestandentiteit, zie de [ Verwijzing van de Persoonlijke Informatie ][2] {: target= &quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html

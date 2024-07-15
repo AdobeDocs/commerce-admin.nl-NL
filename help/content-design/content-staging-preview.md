@@ -18,25 +18,25 @@ Elke dag of periode tijdens een campagne kan worden voorvertoond en met anderen 
 
 1. Gebruik een van de volgende methoden om een voorvertoningsvenster te openen:
 
-   - _Van het Dashboard voor het plaatsen van inhoud_
+   - _van het Staging Dashboard van de Inhoud_
 
-      - Op de _Beheerder_ zijbalk, ga naar  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Klik op een item op de pagina en klik vervolgens op **[!UICONTROL Preview]** op de getoonde summiere informatie voor de campagne.
+      - Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+      - Klik op een item op de pagina en klik vervolgens op **[!UICONTROL Preview]** op de weergegeven overzichtsinformatie voor de campagne.
 
-   - _Van elke pagina met geplande wijzigingen_
+   - _van om het even welke pagina met geplande veranderingen_
 
-      - Alle pagina&#39;s openen met een _[!UICONTROL Scheduled Changes]_bovenaan.
+      - Open een pagina met bovenaan een vak _[!UICONTROL Scheduled Changes]_.
       - Klik op **[!UICONTROL Preview]**.
 
    De voorvertoning wordt geopend op een nieuw browsertabblad en toont hoe het product wordt weergegeven tijdens de geplande campagne.
 
-1. Klik in de linkerbovenhoek van het voorvertoningsvenster op **[!UICONTROL Calendar]**.
+1. Klik in de linkerbovenhoek van het voorvertoningsvenster op **[!UICONTROL Calendar]** .
 
    De kalenderdetails tonen andere campagnes die voor de zelfde dag gepland zijn. Elke record in de lijst is een aparte campagne.
 
 1. Een voorvertoning van een bepaalde dag of tijd weergeven:
 
-   - Klik op de knop **[!UICONTROL Date & Time]** kalender (![Kalenderpictogram](../assets/icon-calendar.png){width="10" zoomable="no"}).
+   - Klik de **[!UICONTROL Date & Time]** kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Kies een andere datum en/of tijd.
 
@@ -44,22 +44,22 @@ Elke dag of periode tijdens een campagne kan worden voorvertoond en met anderen 
 
 1. Het bereik van de voorvertoning voor een andere winkelweergave wijzigen:
 
-   - Klik in de koptekst van de voorvertoningspagina op **[!UICONTROL Scope]**.
+   - Klik in de koptekst van de voorvertoningspagina op **[!UICONTROL Scope]** .
 
    - Kies de website-, opslag- of opslagweergave die u wilt voorvertonen.
 
    >[!NOTE]
    >
-   >Voorvertoningen beginnen altijd vanaf het tabblad **default** archiefweergave die de ervaring van de klant navigeert door de campagne. Campagnes in één stadium kunnen wijzigingen bevatten die van invloed zijn op meerdere winkelweergaven en websites. Zorg ervoor dat deze weergaven/websites de campagne correct weergeven.
+   >De voorproeven beginnen altijd van de **standaard** opslagmening die de ervaring van de klant navigeert door de campagne. Campagnes in één stadium kunnen wijzigingen bevatten die van invloed zijn op meerdere winkelweergaven en websites. Zorg ervoor dat deze weergaven/websites de campagne correct weergeven.
 
 1. Een koppeling delen naar de voorvertoning:
 
-   - Klikken **[!UICONTROL Share]** en kopieer de koppeling naar het klembord.
+   - Klik op **[!UICONTROL Share]** en kopieer de koppeling naar het klembord.
 
    - Plak de koppeling in de tekst van een e-mailbericht.
 
      >[!NOTE]
      >
-     >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als u gemachtigd bent om [Een Admin-gebruikersaccount maken](../systems/permissions-users-all.md#create-a-user), moet u de account voor een nieuwe gebruiker maken voordat u de account deelt.
+     >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als u toestemming hebt om [ een Admin gebruikersrekening ](../systems/permissions-users-all.md#create-a-user) tot stand te brengen, moet u de rekening voor een nieuwe gebruiker vóór het delen tot stand brengen.
 
-1. Als u wilt terugkeren naar de campagnemalender, klikt u op **[!UICONTROL Calendar]** in de koptekst van de pagina Voorvertoning.
+1. Klik op **[!UICONTROL Calendar]** in de koptekst van de voorvertoningspagina om terug te keren naar de campagnemalender.

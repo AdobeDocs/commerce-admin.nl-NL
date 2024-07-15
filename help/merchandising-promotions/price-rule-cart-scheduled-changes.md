@@ -18,22 +18,22 @@ De prijsregels voor winkelwagentjes kunnen volgens schema worden toegepast als o
 
 >[!NOTE]
 >
->De [!UICONTROL From] en [!UICONTROL To] velden zijn verwijderd in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce en kan niet rechtstreeks op de regel van de kartonprijs worden aangepast. U moet een geplande update maken voor deze activeringen.
+>De [!UICONTROL From] en [!UICONTROL To] gebieden zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de regel van de kartprijs worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
-![Prijsregels voor winkelwagentjes - geplande wijzigingen](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
+![ de prijsregels van de Kar - geplande veranderingen ](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
 >Alle geplande updates worden achtereenvolgens toegepast. Dit betekent dat elke entiteit slechts één geplande update op één tijdstip kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, _[!UICONTROL Priority]_het bepalen van de prijsregel bepaalt welke regel voorrang krijgt . Zie voor meer informatie [Inhoud stapelen](../content-design/content-staging.md).
+Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, bepaalt de _[!UICONTROL Priority]_-instelling van de prijsregel welke regel voorrang krijgt. Meer leren, zie [ Inhoud het Opvoeren ](../content-design/content-staging.md).
 
 Houd rekening met het volgende:
 
 - Als een campagne met een prijsregel in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt met een einddatum. U wordt aangeraden een einddatum toe te voegen wanneer u de campagne maakt of een dubbele versie van de bestaande campagne te maken en de einddatum desgewenst aan het duplicaat toe te voegen.
 - Wanneer u een geplande update gebruikt om een regel voor de winkelwagenprijs met een einddatum in te schakelen, moet u de regel instellen als aanvankelijk uitgeschakeld. Regels die al actief zijn, respecteren de einddatum niet.
-- Coupons houden geen verband met de regels voor de kartprijs. Een geplande update biedt geen toegang tot de _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_, en_[!UICONTROL Uses per Customer]_ velden op de _[!UICONTROL Rule Information]_tab. Alle instellingen van het dialoogvenster_[!UICONTROL Manage Coupon Codes]_ zijn niet beschikbaar.
+- Coupons houden geen verband met de regels voor de kartprijs. Een geplande update biedt geen toegang tot de velden _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_ , _[!UICONTROL Uses per Coupon]_en_[!UICONTROL Uses per Customer]_ op het tabblad _[!UICONTROL Rule Information]_. Bovendien zijn niet alle instellingen op het tabblad_[!UICONTROL Manage Coupon Codes]_ beschikbaar.
 
 >[!IMPORTANT]
 >
->Campagne **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** moet worden gedefinieerd met behulp van de **_default_** Tijdzone voor beheer, die wordt omgezet vanuit de lokale tijdzone van elke website. Neem bijvoorbeeld een voorbeeld waarin u meerdere websites in verschillende tijdzones hebt, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u voor elke lokale tijdzone een afzonderlijke update plannen en instellen **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** omgezet van elke lokale tijdzone van de websitetijd in standaardtijdzone Admin.
+>De campagne **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** moeten worden bepaald door de **_standaard_** tijdzone Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Neem bijvoorbeeld een voorbeeld waarin u meerdere websites in verschillende tijdzones hebt, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen en **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor elke lokale tijdzone van de website omzetten in de standaardtijdzone van de beheerder.

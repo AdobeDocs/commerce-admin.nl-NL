@@ -14,40 +14,40 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De functie Logs van de Actie registreert (registreert) elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. Zo kunt u alle wijzigingen bijhouden die in uw winkel zijn aangebracht. Deze wijzigingen bijhouden, samen met de instelling [Beheerdersmachtigingen](permissions.md) voor een gebruiker, kan helpen uw opslag tegen ongewenste veranderingen beveiligen.
+De functie Logs van de Actie registreert (registreert) elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. Zo kunt u alle wijzigingen bijhouden die in uw winkel zijn aangebracht. Het volgen van deze veranderingen, samen met het plaatsen van [ toestemmingen Admin ](permissions.md) voor een gebruiker, kan helpen om uw opslag tegen ongewenste veranderingen te beveiligen.
 
 Voor de meeste Admin-acties bevat de geregistreerde informatie de actie, de naam van de gebruiker, het al dan niet slagen van de actie en de id van het object dat door de actie wordt beïnvloed. Het IP adres en de datum worden ook geregistreerd.
 
 Standaard worden alle beheeracties ingeschakeld en geregistreerd. Als u Logboekregistratie voor beheeracties wilt configureren, controleert u de opties en schakelt u het selectievakje voor elk actietype in of uit. Adobe Commerce logt alleen geselecteerde typen in.
 
-De weergave [Rapport met handelingslogboeken](action-log-report.md) om geregistreerde admin acties en details te herzien.
+Bekijk het [ Logs Rapport van de Actie ](action-log-report.md) aan overzicht geregistreerde admin acties en details.
 
-![Geavanceerde configuratie - registratie van beheeracties](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
+![ Geavanceerde configuratie - admin acties registreren ](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
-Voor een gedetailleerde lijst van de configuratiemontages, zie [Logbestand voor beheeracties archiveren](../configuration-reference/advanced/system.md) in de _Configuratieverwijzing_.
+Voor een gedetailleerde lijst van de configuratiemontages, zie [ Logarchivering van Acties Admin ](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 
 ## Beheerdersacties configureren voor logbestanden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Advanced]** en kiest u **[!UICONTROL Admin]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Logging]** en voer de volgende handelingen uit voor elke actie:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Logging]** sectie uit en doe het volgende voor elke actie:
 
    - Schakel het selectievakje in om het aanmelden bij Admin voor de handeling in te schakelen.
    - Schakel het selectievakje uit om het aanmelden bij Admin voor de handeling uit te schakelen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Logbestand met archiefbeheeracties
 
 Logbestanden voor beheeracties kunnen gedurende een willekeurig aantal dagen worden gearchiveerd. Archiefbestanden kunnen ook na een opgegeven duur worden verwijderd.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Advanced]** en kiest u **[!UICONTROL System]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Uitbreiden **[!UICONTROL Admin Action Log Archiving]** en stel de opties in:
+1. Vouw **[!UICONTROL Admin Action Log Archiving]** uit en stel de opties in:
 
    - **[!UICONTROL Logs Entry Lifetime, Days]** - Stel het aantal dagen in waarop het gearchiveerde logbestand moet worden behouden.
    - **[!UICONTROL Log Archiving Frequency]** - Stel de frequentie in voor het maken van archieven.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

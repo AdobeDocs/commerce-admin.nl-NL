@@ -20,15 +20,15 @@ Deze handleiding is van toepassing op:
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |
-| [Informatie over Commerce](about.md) | Meer informatie over de huidige Adobe Commerce-release. |
-| [Aanmeldingsreferenties en URL&#39;s](login-urls.md) | Meer informatie over de [!DNL Commerce] URL&#39;s en accountgegevens die worden gebruikt om toegang te krijgen tot uw beheerder en winkelcentrum. |
-| [[!DNL Commerce] rekeningen](commerce-account-create.md) | Meer informatie over [!DNL Commerce] accounts, die de producten en services beheren die u hebt aangeschaft. |
-| [De beheerder](admin.md) | Meer informatie over de [!DNL Commerce] Beheerder, de plaats waar handelaars producten en promoties instellen, bestellingen beheren en andere beheertaken uitvoeren. |
-| [The Storefront](storefront.md) | Meer informatie over de pagina&#39;s en functionele elementen die uw winkel kan bieden ter ondersteuning van de winkelervaring voor uw klanten. |
-| [Basisinstallatie en -configuratie](websites-stores-views.md) | Leer de concepten opslaghiërarchie en configuratiewerkingsgebied en loop door de basisconfiguratiemontages. |
-| [Site-compatibiliteit](privacy-policy.md) | Leer hoe verkopers verantwoordelijk zijn voor het naleven van de richtlijnen van de branche voor het handhaven van een veilige omgeving, en om aan de wettelijke vereisten en beste praktijken voor online handelaars in hun rechtsgebied te voldoen. |
-| [Standaardrapportage](reports-menu.md) | Leer hoe u gegevens filtert en online rapporten genereert. De rapportgegevens kunnen in een spreadsheet worden geopend of in andere toepassingen worden ingevoerd. |
-| [Bronnen](resources.md) | Leer over de rijkdom van zaken en technische middelen, zelfhulphulpmiddelen, en de diensten die u helpen slagen. |
+| [ Ongeveer Commerce ](about.md) | Meer informatie over de huidige Adobe Commerce-release. |
+| [ Login Referenties en URLs ](login-urls.md) | Meer informatie over de [!DNL Commerce] URL&#39;s en accountgegevens die worden gebruikt om toegang te krijgen tot uw beheerder en uw winkel. |
+| [[!DNL Commerce]  rekeningen ](commerce-account-create.md) | Meer informatie over [!DNL Commerce] -accounts, die de producten en services beheren die u hebt aangeschaft. |
+| [ Admin ](admin.md) | Leer meer over [!DNL Commerce] Admin, de plaats waar de handelaars producten en bevorderingen oprichten, orden beheren, en andere administratieve taken uitvoeren. |
+| [ Storefront ](storefront.md) | Meer informatie over de pagina&#39;s en functionele elementen die uw winkel kan bieden ter ondersteuning van de winkelervaring voor uw klanten. |
+| [ BasisOpstelling en Configuratie ](websites-stores-views.md) | Leer de concepten opslaghiërarchie en configuratiewerkingsgebied en loop door de basisconfiguratiemontages. |
+| [ Naleving van de Plaats ](privacy-policy.md) | Leer hoe verkopers verantwoordelijk zijn voor het naleven van de richtlijnen van de branche voor het handhaven van een veilige omgeving, en om aan de wettelijke vereisten en beste praktijken voor online handelaars in hun rechtsgebied te voldoen. |
+| [ Standaard het Melden ](reports-menu.md) | Leer hoe u gegevens filtert en online rapporten genereert. De rapportgegevens kunnen in een spreadsheet worden geopend of in andere toepassingen worden ingevoerd. |
+| [ Middelen ](resources.md) | Leer over de rijkdom van zaken en technische middelen, zelfhulphulpmiddelen, en de diensten die u helpen slagen. |
 
 {style="table-layout:auto"}
 

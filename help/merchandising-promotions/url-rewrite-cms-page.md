@@ -1,24 +1,24 @@
 ---
 title: URL van inhoudspagina herschrijft
-description: Leer hoe u URL van inhoudspagina gebruikt om koppelingen om te leiden naar de URL van een andere inhoudspagina in uw winkel van de Handel.
+description: Leer hoe u URL van inhoudspagina gebruikt om koppelingen om te leiden naar de URL van een andere inhoudspagina in uw Commerce-winkel.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # URL van inhoudspagina herschrijft
 
-Voordat u begint, moet u controleren of u precies begrijpt wat omleiding precies inhoudt. Denk aan _target_ / _bron_ of _omleiden naar_ / _omleiden van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
+Voordat u begint, moet u controleren of u precies begrijpt wat omleiding precies inhoudt. Denk in termen van _doel_ / _bron_ of _opnieuw richt aan_ / _opnieuw richt van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
 
-![URL herschrijft - CMS-pagina](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![ URL herschrijft - CMS pagina ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Stap 1. Herschrijven plannen
 
-Als u fouten wilt voorkomen, noteert u de URL-sleutel van het dialoogvenster _omleiden naar_ pagina en _omleiden van_ pagina.
+Om fouten te vermijden, schrijf de sleutel URL van _opnieuw richt aan_ pagina en _opnieuw richt van_ pagina.
 
 Als u niet zeker bent, open elke pagina in uw opslag, en kopieer de weg van de adresbar van uw browser.
 
@@ -32,49 +32,49 @@ Omleiden vanaf: `old-page`
 
 {{url-rewrite-params}}
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
 1. Ga als volgt te werk voordat u verdergaat om te controleren of het aanvraagpad beschikbaar is.
 
-   - In het zoekfilter boven aan het dialoogvenster **[!UICONTROL Request Path]** voert u de URL-sleutel in van de pagina die opnieuw moet worden omgeleid en klikt u op **[!UICONTROL Search]**.
+   - Voer in het zoekfilter boven aan de kolom **[!UICONTROL Request Path]** de URL-sleutel in van de pagina die omgeleid moet worden en klik op **[!UICONTROL Search]** .
 
    - Als er meerdere omleidingsrecords voor de pagina zijn, zoekt u de record die overeenkomt met de toepasselijke winkelweergave en opent u deze in de bewerkingsmodus.
 
-   - Klik in de rechterbovenhoek op **[!UICONTROL Delete]**. Klik op **[!UICONTROL OK]** ter bevestiging.
+   - Klik in de rechterbovenhoek op **[!UICONTROL Delete]** . Klik op **[!UICONTROL OK]** om te bevestigen wanneer hierom wordt gevraagd.
 
-1. Als u terugkeert naar de pagina URL herschrijft, klikt u op **[!UICONTROL Add URL Rewrite]**.
+1. Klik op **[!UICONTROL Add URL Rewrite]** wanneer u terugkeert naar de pagina URL herschrijft.
 
-1. Set **[!UICONTROL Create URL Rewrite]** tot `for CMS page`.
+1. Stel **[!UICONTROL Create URL Rewrite]** in op `for CMS page` .
 
 1. Zoek de nieuwe doelpagina in het raster en open de bewerkingsmodus.
 
-   ![URL-herschrijven toevoegen - voor CMS-pagina](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![ voeg URL toe herschrijft - voor CMS pagina ](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Voer onder Informatie voor herschrijven van URL de volgende handelingen uit:
 
-   - Als u meerdere winkelweergaven hebt, selecteert u de **[!UICONTROL Store]** waar de herschrijving van toepassing is.
+   - Als u meerdere winkelweergaven hebt, selecteert u de **[!UICONTROL Store]** waar het herschrijven van toepassing is.
 
-   - Voor **[!UICONTROL Request Path]**, voert u de URL-sleutel in van de oorspronkelijke pagina die de klant aanvraagt. Dit is het _omleiden van_ pagina.
+   - Voer bij **[!UICONTROL Request Path]** de URL-sleutel in van de oorspronkelijke pagina die de klant aanvraagt. Dit is _opnieuw richt van_ pagina.
 
      >[!NOTE]
      >
      >Het verzoekpad moet uniek zijn voor de opgegeven opslag. Als er al een omleiding is die het zelfde Weg van het Verzoek gebruikt, ontvangt u een fout wanneer u probeert om omleiding te bewaren. De vorige omleiding moet worden verwijderd voordat u een omleiding kunt maken.
 
-   - Set **[!UICONTROL Redirect]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Redirect]** in op een van de volgende opties:
 
       - `Temporary (302)`
       - `Permanent (301)`
 
    - Voer ter referentie een korte beschrijving in van het herschrijven.
 
-   ![URL-herschrijfgegevens](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+   ![ URL herschrijft informatie ](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. Lees het volgende voordat u de omleiding opslaat:
 
    - De koppeling in de linkerbovenhoek geeft de naam van de doelpagina weer.
-   - Het verzoekpad bevat het pad voor het origineel _omleiden van_ pagina.
+   - Het Weg van het Verzoek bevat de weg voor originele _omleiding van_ pagina.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
    Het nieuwe herschrijven verschijnt in het net bij de bovenkant van de lijst.
 
@@ -84,8 +84,8 @@ Omleiden vanaf: `old-page`
 
 1. Voer een van de volgende handelingen uit:
 
-   - Naar origineel navigeren _omleiden van_ pagina.
-   - Voer in de adresbalk van de browser de naam in van het origineel _omleiden van_ pagina direct na de winkel-URL en druk op **Enter**.
+   - Navigeer aan origineel _opnieuw richt van_ pagina.
+   - In de adresbar van browser, ga de naam van originele _omleiding van_ pagina onmiddellijk na opslag URL in en druk **gaat** binnen.
 
    De nieuwe doelpagina wordt weergegeven in plaats van de oorspronkelijke paginaaanvraag.
 

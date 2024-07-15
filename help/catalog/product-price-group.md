@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Groepsprijzen
 
-U kunt de instellingen voor productconfiguratie in de Admin gebruiken om prijzen voor gedisconteerde objecten in te stellen op basis van klantgroepen in uw winkel. Dit strategische prijsmodel wordt _groepsprijsstelling_.
+U kunt de instellingen voor productconfiguratie in de Admin gebruiken om prijzen voor gedisconteerde objecten in te stellen op basis van klantgroepen in uw winkel. Dit strategische het tariferen model wordt genoemd _groep tarifering_.
 
 De gedisconteerde prijs van om het even welk product kan aan leden van een specifieke klantengroep worden aangeboden wanneer de verkoopster aan hun rekening wordt het programma geopend. De prijs van de klantengroep wordt samen met de normale prijs op de productpagina weergegeven, zodat een winkelier de prijzen gemakkelijk kan vergelijken en dienovereenkomstig kan handelen. Nadat zij het product aan het winkelwagentje hebben toegevoegd, wordt de normale prijs vervangen door de groepsprijs op basis van hun klantengroep.
 
-Prijzen voor klantengroepen maken deel uit van [gedifferentieerde prijsstelling](product-price-tier.md) en op soortgelijke wijze wordt vastgesteld. Het enige verschil is dat de prijzen van de klantengroep een hoeveelheid van 1 hebben.
+Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](product-price-tier.md) en op een gelijkaardige manier geplaatst. Het enige verschil is dat de prijzen van de klantengroep een hoeveelheid van 1 hebben.
 
-![Kortingen voor klantgroep](./assets/storefront-price-group.png){width="600" zoomable="yes"}
+![ Korting van de Groep van de Klant ](./assets/storefront-price-group.png){width="600" zoomable="yes"}
 
 ## Voordelen van het gebruik van groepsprijzen
 
@@ -34,38 +34,38 @@ Prijzen voor klantengroepen maken deel uit van [gedifferentieerde prijsstelling]
 
 1. Open het product in de bewerkingsmodus.
 
-1. Onder de _[!UICONTROL Price]_veld, klikken **[!UICONTROL Advanced Pricing]**.
+1. Klik onder het veld _[!UICONTROL Price]_op **[!UICONTROL Advanced Pricing]**.
 
-1. In de _[!UICONTROL Customer Group Price]_sectie, klikken **[!UICONTROL Add]**.
+1. Klik in de sectie _[!UICONTROL Customer Group Price]_op **[!UICONTROL Add]**.
 
-   Als uw winkel [Adobe Commerce B2B](../b2b/introduction.md) en heeft [gedeelde catalogi](../b2b/catalog-shared.md) deze sectie is ingeschakeld, wordt gelabeld _[!UICONTROL Catalog and Tier Price]_.
+   Als uw opslag [ Adobe Commerce B2B ](../b2b/introduction.md) omvat en [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md) heeft, wordt deze sectie geëtiketteerd _[!UICONTROL Catalog and Tier Price]_.
 
-   ![Geavanceerde prijzen](./assets/product-price-group.png){width="600" zoomable="yes"}
+   ![ Geavanceerde Prijsverhoging ](./assets/product-price-group.png){width="600" zoomable="yes"}
 
 1. Configureer de groepsprijs:
 
-   - Kies voor een installatie op meerdere locaties de optie **[!UICONTROL Website]** wanneer de groepsprijs van toepassing is.
+   - Kies voor een installatie met meerdere sites de **[!UICONTROL Website]** waar de groepsprijs van toepassing is.
 
-   - Kies de optie **[!UICONTROL Customer Group]** dat wil zeggen de korting.
+   - Kies de **[!UICONTROL Customer Group]** die de korting moet ontvangen.
 
-   - Voer een **[!UICONTROL Quantity]** van `1`.
+   - Voer een **[!UICONTROL Quantity]** van `1` in.
 
-   - Voor **[!UICONTROL Price]** stelt u het type en het bedrag van de prijsstelling in:
+   - Stel voor **[!UICONTROL Price]** het type en het bedrag van de prijs in:
 
       - `Fixed` - Voer de gedisconteerde productprijs in.
 
-      - `Discount` - Vermeld de verlaagde prijs als percentage van de productprijs.
+      - `Discount` - Voer de gedisconteerde prijs in als een percentage van de productprijs.
 
-     ![Prijzen voor klantgroepen](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
+     ![ Prijzen van de Groep van de Klant ](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
-1. Als u nog een groepsprijs wilt toevoegen, klikt u op **[!UICONTROL Add]** en herhaal de vorige stap.
+1. Als u nog een groepsprijs wilt toevoegen, klikt u op **[!UICONTROL Add]** en herhaalt u de vorige stap.
 
-1. Klik op **[!UICONTROL Done]** en vervolgens **[!UICONTROL Save]**.
-
->[!NOTE]
->
->De **_final_** de productprijs wordt berekend als **_minimum_** relevante prijs, met gebruikmaking van de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+1. Klik na voltooiing op **[!UICONTROL Done]** en vervolgens op **[!UICONTROL Save]** .
 
 >[!NOTE]
 >
->**_Vaste prijs_** Aanpasbare opties voor producten zijn _niet_ worden beïnvloed door de regels voor groepsprijs, Tier-prijs, Speciale prijs of Catalogusprijs.
+>De **_definitieve_** productprijs wordt berekend als **_minimum_** relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+
+>[!NOTE]
+>
+>_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.

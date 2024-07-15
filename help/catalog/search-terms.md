@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Zoektermen beheren
 
-De [landingspagina](../content-design/pages.md) voor een zoekterm kan dit een inhoudspagina, een categoriepagina, een pagina met productdetails of zelfs een pagina op een andere site zijn.
+De [ landende pagina ](../content-design/pages.md) voor een onderzoekstermijn kan een inhoudspagina, een categoriepagina, een pagina van het productdetail, of zelfs een pagina op een verschillende plaats zijn.
 
-Gebruik zoektermen om veelvoorkomende spelfouten vast te leggen en deze om te leiden naar de juiste pagina. Als je bijvoorbeeld ijzergeduldig meubilair verkoopt, weet je dat veel mensen de term verkeerd spellen als _gietijzer_, of zelfs _rotijzer_. U kunt elk verkeerd gespeld woord invoeren als zoekterm en deze synoniemen maken voor _ruw ijzer_. Hoewel het woord verkeerd is gespeld, wordt de zoekopdracht naar de pagina gestuurd voor ruw ijzer.
+Gebruik zoektermen om veelvoorkomende spelfouten vast te leggen en deze om te leiden naar de juiste pagina. Bijvoorbeeld, als u ruw ijzergeduld meubilair verkoopt, weet u dat vele mensen de termijn als _ruw ijzer_ verkeerd spellen, of zelfs _rotijzer_. U kunt elk verkeerd gespeld woord als onderzoekstermijn ingaan, en hen synoniemen maken voor _droogt ijzer_. Hoewel het woord verkeerd is gespeld, wordt de zoekopdracht naar de pagina gestuurd voor ruw ijzer.
 
 U kunt ook leren wat uw klanten zoeken door de zoektermen te bekijken die zij gebruiken om producten in uw winkel te zoeken. Als er voldoende mensen zijn die op zoek zijn naar een product dat niet in uw catalogus staat, kan dit wijzen op een verkoopmogelijkheid. In plaats van ze leeg te laten, kunt u ze nu doorsturen naar een ander product in uw catalogus.
 
@@ -22,7 +22,7 @@ U kunt ook leren wat uw klanten zoeken door de zoektermen te bekijken die zij ge
 
 Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, kunt u deze toevoegen aan de lijst met zoektermen om mensen naar de meest overeenkomende producten in uw catalogus te leiden.
 
-![Het raster Zoektermen](./assets/search-terms.png){width="700" zoomable="yes"}
+![ het Net van de Termijnen van het Onderzoek ](./assets/search-terms.png){width="700" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -42,114 +42,114 @@ Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, k
 
 ### Een zoekterm toevoegen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
 1. Klik op **[!UICONTROL Add New Search Term]**.
 
-   ![Algemene informatie over termen zoeken](./assets/search-terms-information.png){width="600" zoomable="yes"}
+   ![ de termen algemene informatie van het Onderzoek ](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Onder _[!UICONTROL General Information]_in de **[!UICONTROL Search Query]**voert u het woord of de woordgroep in die u als een nieuwe zoekterm wilt toevoegen.
+1. Voer onder _[!UICONTROL General Information]_in het vak **[!UICONTROL Search Query]**het woord of de woordgroep in die u als een nieuwe zoekterm wilt toevoegen.
 
-1. Als uw winkel in meerdere talen beschikbaar is, kiest u de optie **[!UICONTROL Store]** weergeven.
+1. Als uw winkel in meerdere talen beschikbaar is, kiest u de toepasselijke **[!UICONTROL Store]** -weergave.
 
-1. Als u de zoekresultaten wilt doorsturen naar een andere pagina in uw winkel of naar een andere website, voert u de volledige URL van de doelpagina in het dialoogvenster **[!UICONTROL Redirect URL]** veld.
+1. Als u de zoekresultaten wilt doorsturen naar een andere pagina in uw winkel of naar een andere website, voert u de volledige URL van de doelpagina in het veld **[!UICONTROL Redirect URL]** in.
 
-1. Als u wilt dat deze term beschikbaar is voor gebruik als suggestie wanneer een zoekopdracht geen resultaten oplevert, stelt u **[!UICONTROL Display in Suggested Terms]** tot `Yes`.
+1. Stel **[!UICONTROL Display in Suggested Terms]** in op `Yes` als u wilt dat deze term beschikbaar is voor gebruik als suggestie wanneer een zoekopdracht geen resultaten oplevert.
 
-1. Klik op **[!UICONTROL Save Search]**.
+1. Klik op **[!UICONTROL Save Search]** als de bewerking is voltooid.
 
 ## Een zoekterm bewerken
 
-1. In de _[!UICONTROL Search Terms]_, klikt u op de rij van records om de zoekterm in de bewerkingsmodus te openen.
+1. Klik in het _[!UICONTROL Search Terms]_-raster op de rij van elke record om de zoekterm te openen in de bewerkingsmodus.
 
 1. Breng de gewenste wijzigingen aan.
 
-1. Klik op **[!UICONTROL Save Search]**.
+1. Klik op **[!UICONTROL Save Search]** als de bewerking is voltooid.
 
 ## Een zoekterm verwijderen
 
 Er zijn twee methoden om een zoekterm te verwijderen: uit het raster en op de bewerkingspagina.
 
-**Methode 1:** In de _[!UICONTROL Search Terms]_raster
+**Methode 1:** in het _[!UICONTROL Search Terms]_net
 
 1. Selecteer in de lijst het selectievakje van de term die u wilt verwijderen.
 
-1. In de linkerbovenhoek van de lijst stelt u **[!UICONTROL Actions]** tot `Delete`.
+1. Stel **[!UICONTROL Actions]** in op `Delete` in de linkerbovenhoek van de lijst.
 
-1. Klik op **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]** als de bewerking is voltooid.
 
-**Methode 2:** Op de _[!UICONTROL Edit a Search Term]_page
+**Methode 2:** op de _[!UICONTROL Edit a Search Term]_pagina
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
 1. Zoek de zoekterm die u wilt verwijderen en open deze in de bewerkingsmodus.
 
 1. Klik op **[!UICONTROL Delete Search]**.
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ## Populaire zoektermen
 
-De _Zoekvoorwaarden_ de koppeling in de voettekst van uw winkel geeft de zoektermen weer die bezoekers gebruiken in uw winkel, gerangschikt op populariteit. Zoektermen worden weergegeven in een _tagcloud_ opmaak, waarbij de grootte van de tekst de populariteit van de term aangeeft.
+De _verbinding van de Termen van het Onderzoek_ in footer van uw opslag toont de onderzoekstermijnen die door bezoekers aan uw opslag worden gebruikt, die door populariteit wordt gerangschikt. De termijnen van het onderzoek verschijnen in het formaat van de a _markeringswolk_, waar de grootte van de tekst op de populariteit van de termijn wijst.
 
 Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor optimalisatie van zoekprogramma&#39;s, maar er is geen directe verbinding met het zoekproces van de catalogus. Omdat de pagina Zoekvoorwaarden wordt geïndexeerd door zoekmachines, kunnen termen op de pagina de positie van je zoekmachine en de zichtbaarheid van je winkel verbeteren. De URL van de pagina Populaire zoektermen is: `mystore.com/search/term/popular/`
 
-![Voorbeeld van een winkel - populaire zoektermen](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
+![ de storefront van het Voorbeeld - populaire onderzoekstermijnen ](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-**_Veelgebruikte zoektermen configureren:_**
+**_om populaire onderzoekstermijnen te vormen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![Catalogusconfiguratie - optimalisatie zoekprogramma](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [Optimalisatie zoekmachine](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Configuratieverwijzing_.
+   Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.[
 
-1. Set **[!UICONTROL Popular Search Terms]** indien nodig.
+1. Stel **[!UICONTROL Popular Search Terms]** naar wens in.
 
-   Wis indien nodig de **[!UICONTROL Use system value]** Schakel dit selectievakje in om deze instelling te wijzigen.
+   Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instelling te wijzigen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 >[!NOTE]
 >
->U kunt het in cache plaatsen van populaire [cataloguszoekopdrachten](search-configuration.md).
+>U kunt het caching van populaire [ catalogusonderzoeken ](search-configuration.md) verder vormen.
 
 ## Synoniemen zoeken
 
-Een manier om de doeltreffendheid van [cataloguszoekopdracht](search-configuration.md) moet verschillende termen bevatten die mensen kunnen gebruiken om hetzelfde item te beschrijven. Je wilt een uitverkoop niet verliezen alleen omdat iemand op zoek is naar een _sofa_ en je product wordt aangeboden als een _bank_. U kunt een breder bereik van zoektermen vastleggen door de zoektermen in te voeren _sofa_, _davenport_, en _lovesisch_ als synoniemen voor _bank_ en stuurt ze naar dezelfde landingspagina.
+Één manier om de doeltreffendheid van [ catalogusonderzoek ](search-configuration.md) te verbeteren moet verschillende termijnen omvatten die de mensen kunnen gebruiken om het zelfde punt te beschrijven. U wilt geen verkoop verliezen enkel omdat iemand a _sofa_ zoekt, en uw product is vermeld als a _bank_. U kunt een bredere waaier van onderzoekstermijnen vangen door _sofa_ in te gaan, _davenport_, en _loveseat_ als synoniemen voor _bank_, en hen te leiden aan de zelfde het landen pagina.
 
 Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 
-- Live zoeken [Synoniemen](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) is beschikbaar voor Adobe Commerce-installaties waarop Live Search is geïnstalleerd.
+- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
 - De standaardfunctie Synonyms zoeken (die in deze pagina wordt beschreven) is beschikbaar in alle Adobe Commerce-installaties.
 
 >[!NOTE]
 >
->De standaardfunctie Synonyms zoeken biedt ondersteuning voor de box `name` en `sku` productkenmerken **_alleen_**.
+>De standaardeigenschap van de Synoniemen van het Onderzoek buiten-de-doos steunt `name` en `sku` productattributen **_slechts_**.
 
 >[!IMPORTANT]
 >
 >De zoeksynoniemenfunctie gebruikt alleen een zoekmethode met volledige tekst die overeenkomt.
 
-![Voorbeeld van storefront - zoekresultaten met synoniemen](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
+![ storefront van het Voorbeeld - onderzoeksresultaten met synoniemen ](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Een synoniem maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   De _[!UICONTROL Search Synonyms]_wordt weergegeven. Als het de eerste keer is dat u zoeksynoniemen hebt gebruikt, is het raster leeg.
+   Het _[!UICONTROL Search Synonyms]_-raster wordt weergegeven. Als het de eerste keer is dat u zoeksynoniemen hebt gebruikt, is het raster leeg.
 
-   ![Synoniemenraster zoeken](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
+   ![ Synoniemennet van het Onderzoek ](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL New Synonym Group]**.
 
-   ![Nieuwe groep met zoeksynoniemen](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
+   ![ Nieuwe groep van onderzoekssynoniemen ](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
-1. Set **[!UICONTROL Scope]** op de opslagweergaven waarop de synoniemen van toepassing zijn.
+1. Stel **[!UICONTROL Scope]** in op de winkelweergaven waarop de synoniemen van toepassing zijn.
 
 1. Voer elk synoniem in de groep in, gescheiden door komma&#39;s. Kies woorden die mensen kunnen gebruiken als zoekcriteria. Bijvoorbeeld:
 
@@ -158,31 +158,31 @@ Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
    - `couch, sofa, davenport`
    - `wrought iron, rot iron, rod iron`
 
-1. Als u deze synoniemen wilt samenvoegen in een groep met andere synoniemen met hetzelfde bereik, selecteert u de optie **[!UICONTROL Merge existing synonyms]** selectievakje.
+1. Schakel het selectievakje **[!UICONTROL Merge existing synonyms]** in als u deze synoniemen wilt samenvoegen in een groep met andere synoniemen met hetzelfde bereik.
 
-1. Klik op **[!UICONTROL Save Synonym Group]**.
+1. Klik op **[!UICONTROL Save Synonym Group]** als de bewerking is voltooid.
 
 ### Een synoniem-groep bewerken
 
-1. In de _[!UICONTROL Search Synonyms]_, klikt u op de rij van records om de synoniem groep te openen in de bewerkingsmodus.
+1. Klik in het _[!UICONTROL Search Synonyms]_-raster op de rij van elke record om de synoniem groep te openen in de bewerkingsmodus.
 
 1. Breng de gewenste wijzigingen aan.
 
-1. Klik op **[!UICONTROL Save Synonym Group]**.
+1. Klik op **[!UICONTROL Save Synonym Group]** als de bewerking is voltooid.
 
 ### Een synoniem-groep verwijderen
 
 Er zijn twee methoden voor het verwijderen van een synoniemengroep: uit het raster en op de bewerkingspagina.
 
-**Methode 1:** In het raster Synoniemen zoeken
+**Methode 1:** in het net van Synoniemen van het Onderzoek
 
-1. In de _[!UICONTROL Search Synonyms]_, schakelt u het selectievakje in van de groep die u wilt verwijderen.
+1. Selecteer in het _[!UICONTROL Search Synonyms]_-raster het selectievakje van de groep die u wilt verwijderen.
 
-1. In de linkerbovenhoek van de lijst stelt u **[!UICONTROL Actions]** tot `Delete`.
+1. Stel **[!UICONTROL Actions]** in op `Delete` in de linkerbovenhoek van de lijst.
 
-1. Klik op **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]** als de bewerking is voltooid.
 
-**Methode 2:** Op de pagina Een symboolgroep bewerken
+**Methode 2:** op Edit een pagina van de SynonymGroep
 
 1. Klik in het raster Synoniemen zoeken op de rij met alle records om de synoniem groep te openen in de bewerkingsmodus.
 
@@ -196,17 +196,17 @@ Het rapport Zoektermen toont het aantal resultaten voor elke term en het aantal 
 
 ### Het rapport weergeven
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**.
 
 1. Gebruik de besturingselementen om het rapport naar wens te filteren.
 
-   ![Rapport met zoektermen](./assets/search-terms-report.png){width="700" zoomable="yes"}
+   ![ het rapport van de Termijnen van het Onderzoek ](./assets/search-terms-report.png){width="700" zoomable="yes"}
 
 ## Het rapport exporteren
 
-1. Voor **[!UICONTROL Export to]** kiest u een exportindeling:
+1. Kies bij **[!UICONTROL Export to]** een exportindeling:
 
-   - `CSV` - Een bestand met door komma&#39;s gescheiden waarden dat normale tekstgegevens bevat
+   - `CSV` - Een bestand met komma&#39;s als scheidingsteken dat normale tekstgegevens bevat
    - `Excel XML` - Een op XML gebaseerde indeling voor spreadsheetgegevens
 
 1. Klik op **[!UICONTROL Export]**.

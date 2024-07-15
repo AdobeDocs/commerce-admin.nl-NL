@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] van Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen uw winkel en Adobe Commerce-services naar [Commerciële diensten](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {de Diensten van 0} Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).[
 
 {{config}}
 
 ## [!UICONTROL Sandbox API Keys]
 
-![API-sleutel voor sandbox](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
+![ Sandbox API Sleutel ](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sandbox public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Sandbox private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
@@ -29,9 +29,9 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 
 ## [!UICONTROL Production Keys]
 
-![API-sleutel voor productie](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![ de Sleutel van productie API ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Production public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Production private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
@@ -40,18 +40,18 @@ Ga voor meer informatie over hoe u een verbinding tot stand kunt brengen tussen 
 
 ## [!UICONTROL SaaS Identifier]
 
-![SaaS-id](./assets/saas-identifier.png)<!-- zoom -->
+![ identiteitskaart SaaS ](./assets/saas-identifier.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Project] | Algemeen | Naam van het project SaaS dat elk van uw gegevensruimten SaaS groepeert. A _Project maken_ verschijnt als geen projecten SaaS bestaan. |
-| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw af [Handelsvergunning](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - Eén productiedespatiëntruimte; twee testgegevenspaties;<br />Magento Open Source - Eén gegevensruimte voor productie; geen gegevensruimten voor tests |
+| [!UICONTROL Project] | Algemeen | Naam van het project SaaS dat elk van uw gegevensruimten SaaS groepeert. A _creeer de knoop van het Project_ verschijnt als geen projecten SaaS bestaan. |
+| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw [ vergunning van Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) af:<br /> Adobe Commerce - Één ruimte van productiegegevens; twee het testen van gegevensruimten;<br /> Magento Open Source - Één ruimte van productiegegevens; geen het testen van gegevensruimten |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![IMS-organisatie](./assets/ims-organization.png)<!-- zoom -->
+![ IMS Organisatie ](./assets/ims-organization.png)<!-- zoom -->
 
 | Veld | Beschrijving |
 |--- |--- |

@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Systeemmeldingen
 
-De _Meldingen_ op de pagina worden alle berichten weergegeven die door de ernst zijn gerangschikt, met de meest recente bovenaan. De opdrachten van Handeling kunnen worden gebruikt om afzonderlijke berichten te markeren als gelezen berichten, om gedetailleerdere informatie weer te geven of om het bericht uit het Postvak IN te verwijderen.
+De _pagina van Meldingen_ maakt een lijst van alle berichten die door strengheid, met meest recente bij de bovenkant worden gerangschikt. De opdrachten van Handeling kunnen worden gebruikt om afzonderlijke berichten te markeren als gelezen berichten, om gedetailleerdere informatie weer te geven of om het bericht uit het Postvak IN te verwijderen.
 
-1. Voer een van de volgende handelingen uit om het dialoogvenster _[!UICONTROL Notifications]_pagina:
+1. Voer een van de volgende handelingen uit om de pagina _[!UICONTROL Notifications]_te openen:
 
-   - Klik op de knop _Melding_ in de koptekst. Als er een of meer nieuwe berichten worden weergegeven, klikt u op **[!UICONTROL See All]**.
+   - Klik het _pictogram van het Bericht_ in de kopbal. Als er een of meer nieuwe berichten worden weergegeven, klikt u op **[!UICONTROL See All]** .
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. In de **[!UICONTROL Action]** Voer een van de volgende handelingen uit in de kolom:
+1. Voer in de kolom **[!UICONTROL Action]** een van de volgende handelingen uit:
 
-   - Klik voor meer informatie op **[!UICONTROL Read Details]** om de gekoppelde pagina in een nieuw venster te openen.
+   - Klik op **[!UICONTROL Read Details]** voor meer informatie om de gekoppelde pagina in een nieuw venster te openen.
 
-   - Als u het bericht in uw postvak wilt bewaren, klikt u op **[!UICONTROL Mark As Read]**.
+   - Klik op **[!UICONTROL Mark As Read]** als u het bericht in uw postvak wilt bewaren.
 
-     ![Beheerder - meldingen](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![ Admin - berichten ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
-   - Klik op **[!UICONTROL Remove]**.
+   - Klik op **[!UICONTROL Remove]** om het bericht te verwijderen.
 
 1. Voer een van de volgende handelingen uit om een actie toe te passen op meerdere berichten:
 
    - Schakel het selectievakje in de eerste kolom in voor elk bericht dat u wilt beheren.
-   - Als u meerdere berichten wilt selecteren, stelt u de **[!UICONTROL Mass Actions]** controle indien nodig.
+   - Als u meerdere berichten wilt selecteren, stelt u het besturingselement **[!UICONTROL Mass Actions]** naar wens in.
 
-1. Stel de **[!UICONTROL Actions]** de controle op een van de volgende punten:
+1. Stel het besturingselement **[!UICONTROL Actions]** in op een van de volgende opties:
 
    - `Mark as Read`
    - `Remove`
 
-1. Klikken **[!UICONTROL Submit]** om het proces te voltooien.
+1. Klik op **[!UICONTROL Submit]** om het proces te voltooien.

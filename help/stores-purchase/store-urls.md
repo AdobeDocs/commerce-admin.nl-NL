@@ -12,132 +12,132 @@ ht-degree: 0%
 
 # URL&#39;s opslaan
 
-Elke website in een Adobe Commerce- of Magento Open Source-installatie heeft een basis-URL die is toegewezen aan de storefront en een andere URL die is toegewezen aan de beheerder. De Adobe gebruikt variabelen om interne verbindingen met betrekking tot basis URL te bepalen, die het mogelijk maakt om een volledige opslag van één plaats aan een andere te bewegen zonder de verbindingen bij te werken. Standaard basis-URL&#39;s beginnen met `http`en beveiligde basis-URL&#39;s beginnen met `https`.
+Elke website in een Adobe Commerce- of Magento Open Source-installatie heeft een basis-URL die is toegewezen aan de storefront en een andere URL die is toegewezen aan de beheerder. De Adobe gebruikt variabelen om interne verbindingen met betrekking tot basis URL te bepalen, die het mogelijk maakt om een volledige opslag van één plaats aan een andere te bewegen zonder de verbindingen bij te werken. Standaard basis-URL&#39;s beginnen met `http` en veilige basis-URL&#39;s beginnen met `https` .
 
-- **Basis-URL** — `http://www.yourdomain.com/magento/`
-- **Beveiligde basis-URL** — `https://www.yourdomain.com/magento/`
-- **URL met IP-adres** — `http://###.###.###.###/magento/` of `https://###.###.###.###/magento/`
+- **Basis URL** — `http://www.yourdomain.com/magento/`
+- **Veilige Basis URL** — `https://www.yourdomain.com/magento/`
+- **URL met IP adres** — `http://###.###.###.###/magento/` of `https://###.###.###.###/magento/`
 
 >[!IMPORTANT]
 >
->Wijzig de URL van de beheerder niet vanuit de standaard basis-URL-configuratie. Ga naar [Een aangepaste Admin URL gebruiken](#use-a-custom-admin-url).
+>Wijzig de URL van de beheerder niet vanuit de standaard basis-URL-configuratie. Om Admin URL of weg te veranderen, zie [ Gebruik een douane Admin URL ](#use-a-custom-admin-url).
 
 ## Beveiligd protocol gebruiken
 
-De basis-URL&#39;s voor uw winkel zijn aanvankelijk ingesteld tijdens de Adobe Commerce-installatie. Als er op dat moment een beveiligingscertificaat beschikbaar was, kunt u opgeven voor `HTTPS` URL&#39;s die moeten worden gebruikt voor de winkel, beheerder of beide. Als uw Adobe Commerce-installatie meerdere winkels bevat of als u later meer winkels wilt toevoegen, kunt u de winkelcode opnemen in de URL. Alle middelen en verrichtingen van de Adobe kunnen met veilig protocol worden gebruikt.
+De basis-URL&#39;s voor uw winkel zijn aanvankelijk ingesteld tijdens de Adobe Commerce-installatie. Als een beveiligingscertificaat op dat moment beschikbaar was, kunt u opgeven dat `HTTPS` URL&#39;s moeten worden gebruikt voor de winkel, beheerder of beide. Als uw Adobe Commerce-installatie meerdere winkels bevat of als u later meer winkels wilt toevoegen, kunt u de winkelcode opnemen in de URL. Alle middelen en verrichtingen van de Adobe kunnen met veilig protocol worden gebruikt.
 
-Als een beveiligingscertificaat niet beschikbaar was voor het domein op het moment van de installatie, moet u de configuratie bijwerken voordat u de winkel start. Nadat een beveiligingscertificaat voor uw domein is ingesteld, kunt u ofwel basis-URL&#39;s configureren voor gebruik met de gecodeerde SSL (Secure Sockets Layer) en [Transport Layer Security][1] (TLS).
+Als een beveiligingscertificaat niet beschikbaar was voor het domein op het moment van de installatie, moet u de configuratie bijwerken voordat u de winkel start. Nadat een veiligheidscertificaat voor uw domein wordt gevestigd, kunt u één van beide of beide basis URLs vormen om met gecodeerde Veilige Laag van Contactdozen (SSL) en [ het protocol van de Veiligheid van de Laag van het Vervoer van de Laag ][1] (TLS) in werking te stellen.
 
 >[!IMPORTANT]
 >
 >Adobe beveelt ten zeerste aan alle pagina&#39;s van een productiesite, inclusief de inhoud en productpagina&#39;s, via een beveiligd protocol over te brengen.
 
-Adobe Commerce en Magento Open Source kunnen zo worden geconfigureerd dat alle pagina&#39;s over `HTTPS` standaard. Als uw winkel het standaardprotocol gebruikt, kunt u de beveiliging verbeteren door [HTTP - Strikte vervoersbeveiliging][2] (HSTS) en een upgrade uitvoeren van onveilige paginaverzoeken. HSTS is een opt-in protocol dat browsers verhindert om norm terug te geven `HTTP` pagina&#39;s die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s mogelijk al elke pagina van je winkel hebben geïndexeerd met standaard `HTTP` URLs, kunt u Handel vormen om het even welke onveilige paginaverzoeken te bevorderen aan `HTTPS` automatisch, zodat verliest u geen verkeer. Wanneer de Handel wordt gevormd om veilige URLs voor zowel de storefront als Admin te gebruiken, verschijnen twee extra gebieden die u toestaan om toe te laten `HSTS`.
+Adobe Commerce en Magento Open Source kunnen standaard zo worden geconfigureerd dat alle pagina&#39;s via `HTTPS` worden geleverd. Als uw opslag met standaardprotocol in werking is gesteld, kunt u veiligheid verbeteren door ][2] de Strikte Veiligheid van het Vervoer van HTTP toe te laten [ (HSTS) en om het even welke onveilige paginaverzoeken te bevorderen. HSTS is een opt-in protocol dat browsers verhindert standaard `HTTP` pagina&#39;s terug te geven die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s elke pagina van uw winkel mogelijk al hebben geïndexeerd met standaard `HTTP` URL&#39;s, kunt u Commerce zo configureren dat onveilige paginaaanvragen automatisch worden bijgewerkt naar `HTTPS` , zodat er geen verkeer verloren gaat. Wanneer Commerce is geconfigureerd voor het gebruik van beveiligde URL&#39;s voor zowel de winkel als de beheerder, worden twee extra velden weergegeven waarmee u `HSTS` kunt inschakelen.
 
 ## De basis-URL configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Onder _Algemeen_ in het linkerdeelvenster kiest u **[!UICONTROL Web]**.
+1. Onder _Algemeen_ in het linkerpaneel, kies **[!UICONTROL Web]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Base URL]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Base URL]** sectie uit.
 
    - **[!UICONTROL Base URL]** — Voer de volledig gekwalificeerde basis-URL voor uw winkel in. Zorg ervoor dat u de URL beëindigt met een slash, zodat deze kan worden uitgebreid met extra URL-sleutels uit uw winkel. Bijvoorbeeld: `http://yourdomain.com/`
 
      >[!NOTE]
      >
-     >Wijzig de plaatsaanduiding in het dialoogvenster _[!UICONTROL Base Link URL]_veld. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
+     >Wijzig de plaatsaanduiding in het veld _[!UICONTROL Base Link URL]_niet. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
 
-   - **[!UICONTROL Base URL for Static View Files]** — (Optioneel) Geef een alternatieve locatie op voor de basis-URL voor statische weergavebestanden door het pad in te voeren, te beginnen met de volgende tijdelijke aanduiding:
+   - **[!UICONTROL Base URL for Static View Files]** — (Optioneel) Geef een alternatieve locatie op voor de basis-URL voor statische weergavebestanden door het pad in te voeren, te beginnen met de volgende plaatsaanduiding:
 
-     \{\{unsecure_base_url}}
+     \{unsecure_base_url}
 
-   - **[!UICONTROL Base URL for User Media Files]** — (Optioneel) Geef een alternatieve locatie voor de basis-URL voor gebruikersmediabestanden op door het pad in te voeren, te beginnen met de volgende tijdelijke aanduiding:
+   - **[!UICONTROL Base URL for User Media Files]** — (Optioneel) Geef een alternatieve locatie op voor de basis-URL voor gebruikersmediabestanden door het pad in te voeren, te beginnen met de volgende plaatsaanduiding:
 
-     \{\{unsecure_base_url}}
+     \{unsecure_base_url}
 
      Voor een gebruikelijke installatie is het niet nodig de paden voor de statische weergavebestanden of mediabestanden bij te werken, omdat deze relatief zijn ten opzichte van de basis-URL.
 
-   ![Algemene configuratie - basis-URL&#39;s op internet](../configuration-reference/general/assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - Web basis URLs ](../configuration-reference/general/assets/web-base-urls.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >Plaatsaanduidingen tussen dubbele accolades zijn opmaakcodes voor variabelen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## De beveiligde basis-URL configureren
 
 Als uw domein een geldig veiligheidscertificaat heeft, kunt u URLs van zowel de storefront als Admin vormen om gegevens over een veilig (https) kanaal over te brengen. Zonder geldig beveiligingscertificaat kan uw winkel niet werken met het veilige protocol (SSL/TLS).
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Base URLs (Secure])_ en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit _[!UICONTROL Base URLs (Secure])_ sectie en doe het volgende:
 
-   ![Algemene configuratie - veilige basis-URL&#39;s](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - veilige basis URLs ](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Secure Base URL]** — Voer de volledige beveiligde basis-URL in, gevolgd door een slash. Bijvoorbeeld: `https://yourdomain.com/`
 
-   - **[!UICONTROL Secure Base Link URL]** — Wijzig de tijdelijke aanduiding niet in het veld URL van de beveiligde basiskoppeling. Deze wordt gebruikt om relatieve koppelingen naar de beveiligde basis-URL te maken.
+   - **[!UICONTROL Secure Base Link URL]** — Wijzig de plaatsaanduiding niet in het veld voor de beveiligde basiskoppeling van de URL. Deze wordt gebruikt om relatieve koppelingen naar de beveiligde basis-URL te maken.
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Optioneel) Geef een alternatieve locatie op voor de beveiligde basis-URL voor statische weergavebestanden door het pad in te voeren, te beginnen met de volgende tijdelijke aanduiding:
 
-     \{\{secure_base_url}}
+     \{secure_base_url}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Optioneel) Geef een alternatieve locatie op voor de beveiligde basis-URL voor gebruikersmediabestanden door het pad in te voeren, te beginnen met de volgende tijdelijke aanduiding:
 
-     \{\{secure_base_url}}
+     \{secure_base_url}
 
-1. Als u de beveiliging wilt verbeteren, stelt u beide volgende opties in op `Yes`.
+1. Stel beide volgende opties in op `Yes` om de beveiliging te verbeteren.
 
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. Voor _[!UICONTROL Enhanced Security Settings]_Ga als volgt te werk:
+1. Voer voor _[!UICONTROL Enhanced Security Settings]_de volgende handelingen uit:
 
-   - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — Als u wilt dat uw winkel alleen beveiligde HTTPS-paginaverzoeken weergeeft, stelt u in op `Yes`.
+   - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — Als u wilt dat uw winkel alleen beveiligde HTTPS-paginaaanvragen weergeeft, stelt u deze in op `Yes` .
 
-   - **[!UICONTROL Upgrade Insecure Requests]** — Als u aanvragen voor standaard onbeveiligde HTTP-pagina&#39;s wilt bijwerken naar HTTPS, stelt u in op `Yes`.
+   - **[!UICONTROL Upgrade Insecure Requests]** — Als u aanvragen voor standaard onbeveiligde HTTP-pagina&#39;s wilt bijwerken om HTTPS te beveiligen, stelt u deze in op `Yes` .
 
-1. Stel de **[!UICONTROL Offloader Header]** voor uw server.
+1. Stel de **[!UICONTROL Offloader Header]** voor uw server in.
 
-   De meeste installaties van de Handel gebruiken het gebrek `X-Forward-Proto` het protocol aan te wijzen als: `HTTP` of `HTTPS`. Als uw serverconfiguratie een verschillende offloader_header gebruikt, ga het hier in.
+   De meeste Commerce-installaties gebruiken de standaardwaarde `X-Forward-Proto` om het protocol als `HTTP` of `HTTPS` aan te duiden. Als uw serverconfiguratie een verschillende offloader_header gebruikt, ga het hier in.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## De winkelcode opnemen in URL&#39;s
 
 >[!NOTE]
 >
->Wanneer de _Winkelcode toevoegen aan URL&#39;s_ optie is ingesteld op `Yes`, moet u opslagcodes opnemen in uw browser-URL&#39;s. Deze instelling zorgt ervoor dat herschreven URL-bestanden correct worden toegewezen en dat alle pagina&#39;s zijn geopend, zonder _&quot;404 Pagina niet gevonden&quot;_ fouten.
+>Wanneer _de Add optie van de Opslag Code aan URLs_ aan `Yes` wordt geplaatst, moet u opslagcodes in uw browser URLs omvatten. Dit het plaatsen zorgt ervoor dat URL herschrijft correct in kaart wordt gebracht en alle pagina&#39;s met succes worden geopend, zonder _&quot;404 Pagina niet gevonden&quot;_ fouten.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Onder _[!UICONTROL General]_in het linkerdeelvenster kiest u **[!UICONTROL Web]**.
+1. Kies onder _[!UICONTROL General]_in het linkerdeelvenster de optie **[!UICONTROL Web]**.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL URL Options]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL URL Options]** sectie uit.
 
-1. Set **[!UICONTROL Add Store Code]** naar uw voorkeur:
+1. Stel **[!UICONTROL Add Store Code]** in op uw voorkeur:
 
    - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
    - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-   ![Algemene configuratie - web-URL-opties](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+   ![ Algemene configuratie - Web URL opties ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. Klik op de knop **[!UICONTROL Cache Management]** in het bericht boven aan de werkruimte. Volg vervolgens de instructies om de cache te vernieuwen.
+1. Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven aan de werkruimte. Volg vervolgens de instructies om de cache te vernieuwen.
 
-   ![Cachebeheerbericht](./assets/msg-cache-management.png)
+   ![ het beheersbericht van het Geheime voorgeheugen ](./assets/msg-cache-management.png)
 
 ## URL-probleemoplossing
 
-Als na het volgen van de configuratieinstructies sommige pagina&#39;s met onveilige URL blijven worden gediend (`http://`), doet u het volgende:
+Als na het volgen van de configuratieinstructies, sommige pagina&#39;s met onveilige URL (`http://`) blijven worden gediend, doe het volgende:
 
 - Wijzig de (onveilige) basis-URL in de beveiligde HTTPS-URL.
-- Bewerk de `.htaccess` bestand (of taakverdelingsmechanisme), zodat de onveilige URL wordt omgeleid naar de beveiligde URL.
+- Bewerk het bestand `.htaccess` (of het taakverdelingsmechanisme) op de server, zodat de onveilige URL wordt omgeleid naar de beveiligde URL.
 
 ## Een aangepaste Admin URL gebruiken
 
-Als [best practices op het gebied van beveiliging](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), raadt Adobe u aan een unieke Admin-URL te gebruiken in plaats van de standaard _admin_ of een gemeenschappelijke term zoals _achterste_. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
+Als beste praktijken van de a [ veiligheid ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), adviseert de Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
 
 >[!NOTE]
 >
@@ -145,51 +145,51 @@ Als [best practices op het gebied van beveiliging](https://experienceleague.adob
 
 In een standaardinstallatie volgen de URL en het pad van de beheerder direct de basis-URL. Het beheerpad bevindt zich in een map onder het hoofdknooppunt.
 
-- **Standaardbasis-URL**: `http://yourdomain.com/magento/`
-- **Standaardbeheerpad**: `admin`
-- **URL en pad voor standaardbeheerder**: `http://yourdomain.com/magento/admin`
+- **StandaardBasis URL**: `http://yourdomain.com/magento/`
+- **Standaard Admin Weg**: `admin`
+- **Standaard Admin URL en Weg**: `http://yourdomain.com/magento/admin`
 
 Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locatie te wijzigen, verwijdert elke fout de toegang tot de beheerder en moet deze worden gecorrigeerd vanaf de server.
 
 >[!NOTE]
 >
->Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor Adobe Commerce-projecten die worden geïmplementeerd op een cloudinfrastructuur wijzigt u de URL voor Admin door de volgende stappen uit te voeren: [instructies](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in de *Adobe Commerce on Cloud Infrastructure Guide*.
+>Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [ instructies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
 
 ### Methode 1: Wijzigen ten opzichte van de beheerder
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Advanced]** en kiest u **[!UICONTROL Admin]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Admin Base URL]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Base URL]** sectie uit.
 
 1. Stel de configuratieopties voor de aangepaste URL in:
 
-   ![Geavanceerde configuratie - basis-URL van beheerder](../configuration-reference/advanced/assets/admin-admin-base-url.png){width="600" zoomable="yes"}
+   ![ Geavanceerde configuratie - basisURL Admin ](../configuration-reference/advanced/assets/admin-admin-base-url.png){width="600" zoomable="yes"}
 
-   Wis indien nodig de **[!UICONTROL Use system value]** Schakel het selectievakje in om de instelling te wijzigen.
+   Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om de instelling te wijzigen.
 
-   - Set **[!UICONTROL Use Custom Admin URL]** tot `Yes`.
+   - Stel **[!UICONTROL Use Custom Admin URL]** in op `Yes` .
 
-   - Voer de **[!UICONTROL Custom Admin URL]**: `http://yourdomain.com/magento/`
+   - Voer de **[!UICONTROL Custom Admin URL]** in: `http://yourdomain.com/magento/`
 
      >[!NOTE]
      >
-     >Admin URL moet in de zelfde installatie van de Handel zijn, en de zelfde documentwortel hebben zoals de storefront.
+     >De Admin-URL moet zich in dezelfde Commerce-installatie bevinden en moet dezelfde hoofdmap van het document hebben als de storefront.
 
-   - Set **[!UICONTROL Custom Admin Path]** tot `Yes`.
+   - Stel **[!UICONTROL Custom Admin Path]** in op `Yes` .
 
-   - Voor **[!UICONTROL Custom Admin Path]**, voert u het pad in dat u als naam voor de aangepaste beheermap wilt gebruiken.
+   - Voer bij **[!UICONTROL Custom Admin Path]** het pad in dat u wilt gebruiken als de naam van de aangepaste beheermap.
 
      Voorbeeld: `sample_custom_admin`
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 1. Nadat de wijzigingen zijn opgeslagen, meldt u zich af bij Beheer en meldt u zich weer aan met de nieuwe Admin-URL en het nieuwe pad.
 
 ### Methode 2: Wijzig het beheerpad van de opdrachtregel van de server
 
-1. Open de `app/etc/env.php` en wijzigt u de waarde van de `frontName` parameter van de `backend` sectie. Sla het bestand vervolgens op.
+1. Open het bestand `app/etc/env.php` in een teksteditor en wijzig de waarde van de parameter `frontName` in de sectie `backend` . Sla het bestand vervolgens op.
 
    Gebruik alleen kleine letters.
 
@@ -199,9 +199,9 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
    >[!TIP]
    >
-   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de `ADMIN_URL` in de interface van de cloud. Zie de [Onderwerp van beheervariabelen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in de _Handleiding voor handel in Cloud-infrastructuur_.
+   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [ onderwerp van Admin variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
-   - **Standaardbeheerpad**
+   - **Standaard Admin Weg**
 
      ```php?start_inline=1
      'backend' => [
@@ -209,7 +209,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
      ],
      ```
 
-   - **Nieuw beheerpad**
+   - **Nieuwe Admin Weg**
 
      ```php?start_inline=1
      'backend' => [
@@ -219,7 +219,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 1. Gebruik een van de volgende methoden om de cache te wissen:
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
    - Voer op de server het volgende uit:
 
      ```terminal
@@ -228,17 +228,17 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
    >[!NOTE]
    >
-   >De wijzigingen die zijn aangebracht met behulp van methode 1 hebben voorrang op de wijzigingen die zijn aangebracht in de `app/etc/env.php` bestand.
+   >De wijzigingen die zijn aangebracht met methode 1 hebben voorrang op de wijzigingen die zijn aangebracht in het bestand `app/etc/env.php` .
 
-### Methode 3: Wijzig de weg Admin gebruikend de Handel CLI
+### Methode 3: Wijzig het beheerpad met de Commerce CLI
 
-U kunt CLI gebruiken `setup:config:set` om het beheerpad te wijzigen. In het volgende voorbeeld wordt het `--backend-frontname` optie om de weg van de wortel van de Handel in een nieuw weg te veranderen Admin:
+U kunt de CLI `setup:config:set` opdracht gebruiken om het Admin-pad te wijzigen. In het volgende voorbeeld wordt de optie `--backend-frontname` gebruikt om het pad van de Commerce-hoofdmap te wijzigen in een nieuw beheerpad:
 
 ```terminal
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
-Met deze opdracht werkt u de `backend` > `frontName` configuratieoptie in het dialoogvenster `app/etc/env.php` bestand.
+Met deze opdracht werkt u de configuratieoptie `backend` > `frontName` in het `app/etc/env.php` -bestand bij.
 
 ## Het standaardpad voor Admin URL en Admin herstellen
 
@@ -250,7 +250,7 @@ Als u een ongeldige Admin URL of een Weg van Admin hebt geplaatst en toegang tot
    php bin/magento config:set admin/url/use_custom 0
    ```
 
-1. Als u het standaardbeheerpad wilt herstellen (ingesteld in het dialoogvenster `app/etc/env.php` zoals beschreven in methode 2), voert deze opdracht uit:
+1. Als u het standaardbeheerpad wilt herstellen (ingesteld in de `app/etc/env.php` , zoals beschreven in methode 2), voert u deze opdracht uit:
 
    ```terminal
    php bin/magento config:set admin/url/use_custom_path 0
@@ -258,7 +258,7 @@ Als u een ongeldige Admin URL of een Weg van Admin hebt geplaatst en toegang tot
 
 1. Gebruik een van de volgende methoden om de cache te wissen:
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
    - Voer op de server het volgende uit:
 
      ```terminal

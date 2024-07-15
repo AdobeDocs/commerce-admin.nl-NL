@@ -22,64 +22,64 @@ Met de verbeterde beveiligingsscan kunt u elk van uw Adobe Commerce- en Magento 
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van uw [Commerce/Magento-account](../getting-started/commerce-account-create.md). Voor technische informatie, zie [Het gereedschap Beveiligingsscan instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in de _Handleiding voor handel in Cloud-infrastructuur_.
+Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
-![Beveiligingsscan](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![ het aftasten van de Veiligheid hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Een beveiligingsscan uitvoeren
 
-1. Meld u aan bij uw [Commerce/Magento-account](../getting-started/commerce-account-create.md).
+1. Van de homepage van Commerce, teken binnen aan uw [ Commerce/rekening van het Magento ](../getting-started/commerce-account-create.md).
 
 1. Controleer en accepteer de voorwaarden voor het gebruik van het hulpprogramma voor beveiligingsscan.
 
-   - Kies in het linkerdeelvenster de optie **[!UICONTROL Security Scan]**.
+   - Kies **[!UICONTROL Security Scan]** in het linkerdeelvenster.
    - Klik op **[!UICONTROL Go to Security Scan]**.
-   - Lees de **[!UICONTROL Terms and Conditions]**.
-   - Klikken **[!UICONTROL Agree]** om door te gaan.
+   - Lees de **[!UICONTROL Terms and Conditions]** .
+   - Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Op de _[!UICONTROL Monitored Websites]_pagina, klikt u **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
-   ![Gecontroleerde sites](./assets/monitored-website.png){width="600" zoomable="yes"}
+   ![ bewaakte Plaatsen ](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om te controleren of u eigenaar bent van het sitedomein door een bevestigingscode toe te voegen:
 
    **Commerce storefront**:
 
-   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]**.
+   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
    - Klik op **[!UICONTROL Generate Confirmation Code]**.
-   - Klikken **Kopiëren** om de bevestigingscode naar het klembord te kopiëren.
+   - Klik **Exemplaar** om uw bevestigingscode aan het klembord te kopiëren.
 
-     ![Bevestigingscode genereren](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![ produceer Bevestigingscode ](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Meld u aan bij de beheerder van uw winkel als een gebruiker met volledige beheerdersrechten en voer de volgende handelingen uit:
 
-      - In de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      - Zoek uw site in de lijst en klik op **[!UICONTROL Edit]**.
-      - Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie.
-      - Omlaag schuiven naar **[!UICONTROL Scripts and Style Sheets]** en klik in het tekstvak aan het einde van een bestaande code en plak de bevestigingscode in het tekstvak.
+      - In _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Zoek uw site in de lijst en klik op **[!UICONTROL Edit]** .
+      - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
+      - Blader omlaag naar **[!UICONTROL Scripts and Style Sheets]** en klik in het tekstvak aan het einde van een bestaande code en plak de bevestigingscode in het tekstvak.
 
-        ![Scripts en stijlbladen](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![ Manuscripten en de Bladen van de Stijl ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - Klik op **[!UICONTROL Save Configuration]**.
+      - Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
    **PWA storefront**:
 
-   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]**.
+   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
 
-   - Voor **[!UICONTROL Confirmation Code]**, kiest u de `META Tag` en klik vervolgens op **[!UICONTROL Generate Code]**.
+   - Kies bij **[!UICONTROL Confirmation Code]** de optie `META Tag` en klik op **[!UICONTROL Generate Code]** .
 
-   - Klikken **[!UICONTROL Copy]** om de gegenereerde bevestigingscode META-tag naar het klembord te kopiëren.
+   - Klik op **[!UICONTROL Copy]** om de gegenereerde bevestigingscode van de META-tag naar het klembord te kopiëren.
 
-     ![Bevestigingscode genereren](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![ produceer Bevestigingscode ](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - Ga naar de PWA Studio storefront projectfolder en doe het volgende:
 
-      - Ga onder de projectfolder van de PWA Studio naar `packages > venia-concept > template.html`.
+      - Ga onder de projectmap PWA Studio naar `packages > venia-concept > template.html` .
       - Voeg de gekopieerde bevestigingscode (de gegenereerde META-tag) toe aan de kop van de HTML en sla de wijzigingen op.
 
-        ![Bevestigingscode kopiëren](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![ Code van de Bevestiging van het Exemplaar ](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       - Ga terug naar PWA Studio CLI, en gebruik garen om projectgebiedsdelen te installeren en het project in werking te stellen bouwt bevel.
 
@@ -88,7 +88,7 @@ Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van u
         yarn build
         ```
 
-      - *In uw Cloud-project*, een `pwa` map en kopieer de inhoud binnen het project van uw winkel `dist` map.
+      - *in uw project van de Wolk*, creeer a `pwa` omslag en kopieer de inhoud binnen de omslag van uw storefront project `dist`.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,29 +104,29 @@ Het gereedschap Beveiligingsscan is gratis beschikbaar vanaf het dashboard van u
 
         Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA store front worden opgesteld.
 
-1. Terugkeren naar de _[!UICONTROL Security Scan]_pagina in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein vast te stellen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
 
-1. Na een succesvolle bevestiging, vorm **[!UICONTROL Set Automatic Security Scan]** opties voor een van de volgende typen:
+1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
-   **Wekelijks scannen (aanbevolen)**:
+   **Scannen Wekelijks (geadviseerd)**:
 
-   - Kies de optie **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, en **[!UICONTROL Time Zone]** de scan elke week moet plaatsvinden.
+   - Kies de **[!UICONTROL Week Day]** , **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** waar de scan elke week moet plaatsvinden.
    - Standaard wordt de scan elke week om middernacht zaterdag, UTC en verder naar begin zondag gepland.
 
-     ![Wekelijks scannen](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![ Wekelijks aftasten ](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
-   **Dagelijks scannen**:
+   **Scannen Dagelijks**:
 
-   - Kies de optie **[!UICONTROL Time]**, en **[!UICONTROL Time Zone]** dat de scan elke dag moet plaatsvinden.
+   - Kies de lus **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** dat de scan elke dag moet worden uitgevoerd.
    - Standaard wordt de scan elke dag om middernacht (UTC) uitgevoerd.
 
-     ![Dagelijks scannen](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![ Scan Dagelijks ](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. Voer de **[!UICONTROL Email Address]** waar u meldingen wilt ontvangen van voltooide scans en beveiligingsupdates.
+1. Voer de **[!UICONTROL Email Address]** in waar u meldingen van voltooide scans en beveiligingsupdates wilt ontvangen.
 
-   ![E-mailadres](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![ E-mailadres ](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]** als de bewerking is voltooid.
 
    Nadat de eigendom van het domein is gecontroleerd, wordt de site weergegeven in de lijst Gecontroleerde websites van uw Commerce-account.
 

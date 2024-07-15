@@ -5,73 +5,73 @@ exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # Belastingzones en -tarieven
 
-Over het algemeen gelden belastingtarieven voor transacties die binnen een bepaald geografisch gebied plaatsvinden. Gebruik de _Belastingzones en -tarieven_ een instrument om het belastingtarief te specificeren voor elk geografisch gebied waarvan u belastingen int en kwijtscheldt. Omdat elke belastingzone en elk tarief een uniek herkenningsteken hebben, kunt u veelvoudige belastingtarieven voor een bepaald geografisch gebied (zoals plaatsen die geen voedsel of geneeskunde, maar belasting andere voorwerpen belasten) hebben.
+Over het algemeen gelden belastingtarieven voor transacties die binnen een bepaald geografisch gebied plaatsvinden. Gebruik het _hulpmiddel van de Zones en van Tarieven van de Belasting_ om het belastingtarief voor elk geografisch gebied te specificeren waarvan u belastingen int en verdeelt. Omdat elke belastingzone en elk tarief een uniek herkenningsteken hebben, kunt u veelvoudige belastingtarieven voor een bepaald geografisch gebied (zoals plaatsen die geen voedsel of geneeskunde, maar belasting andere voorwerpen belasten) hebben.
 
-Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerkelijke klantenbelasting voor een orde wordt berekend nadat de klant de ordeinformatie voltooit. De handel berekent dan de belasting volgens de belastingconfiguratie van de opslag.
+Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerkelijke klantenbelasting voor een orde wordt berekend nadat de klant de ordeinformatie voltooit. Commerce berekent vervolgens de belasting op basis van de belastingconfiguratie van de winkel.
 
-![Belastingzones en -tarieven](./assets/tax-zones-rates.png){width="600" zoomable="yes"}
+![ Belastingzones en Tarieven ](./assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 ## Een nieuw belastingtarief definiëren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Tax Rate]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Tax Rate]** .
 
-   ![Nieuw belastingtarief](./assets/tax-rate-new.png){width="600" zoomable="yes"}
+   ![ Nieuw Tarief van de Belasting ](./assets/tax-rate-new.png){width="600" zoomable="yes"}
 
-1. Voer een **[!UICONTROL Tax Identifier]**.
+1. Voer een **[!UICONTROL Tax Identifier]** in.
 
-1. Als u het belastingtarief op één postcode of postcode wilt toepassen, voert u de code in voor **[!UICONTROL Zip/Post Code]**.
+1. Voer de code voor **[!UICONTROL Zip/Post Code]** in als u het belastingtarief op één postcode of postcode wilt toepassen.
 
-   Het sterretje (`*`) kan worden gebruikt om maximaal tien tekens in de code overeen te laten komen. Bijvoorbeeld: `90*` staat voor alle ZIP-codes tussen 90000 en 90999.
+   Het asteriskvervanging (`*`) kan worden gebruikt om tot tien karakters in de code aan te passen. `90*` vertegenwoordigt bijvoorbeeld alle ZIP-codes tussen 90000 en 90999.
 
 1. Ga als volgt te werk om het belastingtarief toe te passen op een reeks postcodes of postcodes:
 
-   - Selecteer de **[!UICONTROL Zip/Post is Range]** selectievakje en geef het bereik op door de eerste en laatste postcode van **[!UICONTROL Range From]** en **[!UICONTROL Range To]**.
+   - Schakel het selectievakje **[!UICONTROL Zip/Post is Range]** in en definieer het bereik door de eerste en laatste postcode voor **[!UICONTROL Range From]** en **[!UICONTROL Range To]** in te voeren.
 
-     ![ZIP/Post is bereik](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
+     ![ ZIP/Post is Waaier ](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
 
-   - Kies de optie **[!UICONTROL State]** wanneer het belastingtarief van toepassing is.
+   - Kies de **[!UICONTROL State]** waar het belastingtarief van toepassing is.
 
-   - Kies de optie **[!UICONTROL Country]** wanneer het belastingtarief van toepassing is.
+   - Kies de **[!UICONTROL Country]** waar het belastingtarief van toepassing is.
 
-   - Voer de **[!UICONTROL Rate Percent]** die wordt gebruikt voor de berekening van het belastingtarief.
+   - Voer de **[!UICONTROL Rate Percent]** in die voor de berekening van het belastingtarief wordt gebruikt.
 
-1. Als u meerdere opslagruimten hebt, kunt u **[!UICONTROL Tax Titles]** voor elke winkelweergave.
+1. Als u meerdere winkels hebt, kunt u **[!UICONTROL Tax Titles]** instellen voor elke winkelweergave.
 
    >[!NOTE]
    >
    >Laat dit veld leeg als u de BTW-ID wilt gebruiken.
 
-1. Klik op **[!UICONTROL Save Rate]**.
+1. Klik op **[!UICONTROL Save Rate]** als de bewerking is voltooid.
 
 ## Een bestaand belastingtarief bewerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Zoek het belastingtarief in de _[!UICONTROL Tax Zones and Rates]_en opent u de record in de bewerkingsmodus.
+1. Zoek het belastingtarief in het _[!UICONTROL Tax Zones and Rates]_net, en open het verslag in geef wijze uit.
 
-   Als de lijst veel snelheden bevat, gebruikt u de opdracht [filterbesturingselementen](../getting-started/admin-grid-controls.md) om het tarief te vinden u nodig hebt.
+   Als er vele tarieven in de lijst zijn, gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om het tarief te vinden u wenst.
 
-1. Breng de noodzakelijke wijzigingen aan in de **[!UICONTROL Tax Rate Information]**.
+1. Breng de gewenste wijzigingen aan in de **[!UICONTROL Tax Rate Information]** .
 
-1. Werk de **[!UICONTROL Tax Titles]** indien nodig.
+1. Werk de **[!UICONTROL Tax Titles]** zo nodig bij.
 
-1. Klik op **[!UICONTROL Save Rate]**.
+1. Klik op **[!UICONTROL Save Rate]** als de bewerking is voltooid.
 
 ## Belastingtarief verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
 1. Zoek het belastingtarief dat moet worden geschrapt en open het in uitgeven wijze.
 
-1. Klik in de menubalk op **[!UICONTROL Delete Rate]**.
+1. Klik in de menubalk op **[!UICONTROL Delete Rate]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.

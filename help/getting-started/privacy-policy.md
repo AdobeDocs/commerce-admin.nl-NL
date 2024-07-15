@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Privacybeleid opslaan
 
-Je winkel bevat een voorbeeld van privacybeleid dat moet worden bijgewerkt met je eigen gegevens. Uw privacybeleid zou het type informatie moeten beschrijven dat uw bedrijf verzamelt, en hoe het wordt gebruikt. Ook de bestandsnamen van [cookies](compliance-cookie-law.md#default-cookies) die worden geplaatst op de computers van mensen die uw winkel bezoeken. Extra cookies die zijn gekoppeld aan extensies en invoegtoepassingen van derden, moeten in de lijst worden opgenomen.
+Je winkel bevat een voorbeeld van privacybeleid dat moet worden bijgewerkt met je eigen gegevens. Uw privacybeleid zou het type informatie moeten beschrijven dat uw bedrijf verzamelt, en hoe het wordt gebruikt. Het zou ook van de filenames van [ koekjes ](compliance-cookie-law.md#default-cookies) moeten een lijst maken die op de computers van mensen worden geplaatst die uw opslag bezoeken. Extra cookies die zijn gekoppeld aan extensies en invoegtoepassingen van derden, moeten in de lijst worden opgenomen.
 
 ## Persoonlijke gegevens
 
@@ -26,7 +26,7 @@ Alle informatie die redelijkerwijs kan worden geïdentificeerd of gebruikt om ee
 
 Elke weergave van informatie die de identiteit mogelijk maakt van een persoon op wie de informatie van toepassing is, kan redelijkerwijs op directe of indirecte wijze worden afgeleid. PII wordt gedefinieerd als informatie die een persoon rechtstreeks identificeert (zoals naam, adres, socialezekerheidsnummer of ander identificatienummer). Het is ook informatie waarmee een agentschap specifieke personen wil identificeren met andere gegevenselementen (indirecte identificatie). Deze gegevenselementen kunnen een combinatie van geslacht, ras, geboortedatum, geografische indicator en andere beschrijvingen omvatten. Het bevat ook informatie die het mogelijk maakt fysieke of online contact op te nemen met een bepaalde persoon, is hetzelfde als persoonlijk identificeerbare informatie. Deze informatie kan op papier, in elektronische vorm of in andere media worden bewaard.
 
-![Voorbeeld-winkel - privacybeleid](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![ de storefront van het Voorbeeld - privacybeleid ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## Je privacybeleid bewerken
 
@@ -34,18 +34,18 @@ Elke weergave van informatie die de identiteit mogelijk maakt van een persoon op
 >
 >De voorbeeldgegevens van de Luminantie bevatten een privacybeleid dat u kunt wijzigen voor uw gebruik.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Zoek in het raster **[!UICONTROL Privacy Policy]**. Dan, in _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**en kiest u **[!UICONTROL Edit]**.
+1. Zoek in het raster naar **[!UICONTROL Privacy Policy]** . Klik vervolgens in de kolom _[!UICONTROL Action]_op **[!UICONTROL Select]**en kies **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >
-   >Als u de URL-sleutel van de pagina met privacybeleid wijzigt, moet u ook een [aangepaste URL herschrijven](../merchandising-promotions/url-rewrite-custom.md) om verkeer naar de nieuwe sleutel van URL om te leiden. Anders wordt de koppeling in de voettekst geretourneerd `404 Page Not Found`.
+   >Als u de sleutel URL van de pagina van het privacybeleid verandert, moet u a [ douane URL ook creëren herschrijft ](../merchandising-promotions/url-rewrite-custom.md) om verkeer aan de nieuwe sleutel van URL om te leiden. Anders retourneert de koppeling in de voettekst `404 Page Not Found` .
 
-1. Breid uit **[!UICONTROL Content]** en brengt u de gewenste wijzigingen aan in de inhoud.
+1. Vouw de sectie **[!UICONTROL Content]** uit en breng de benodigde wijzigingen in de inhoud aan.
 
-   Ga voor meer informatie over het gebruik van gereedschappen voor pagina-inhoud naar [De inhoud voltooien](../content-design/page-add.md#step-2-complete-the-content) in de _Inhoud- en ontwerphandleiding_.
+   Meer leren over het gebruiken van de hulpmiddelen van de paginacontent, zie [ de inhoud ](../content-design/page-add.md#step-2-complete-the-content) in de _Gids van de Inhoud en van het Ontwerp_ voltooien.
 
-   ![Pagina Privacybeleid - inhoud bewerken](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![ pagina van het Beleid van de Privacy - geef inhoud uit ](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save Page]**.
+1. Klik op **[!UICONTROL Save Page]** als de bewerking is voltooid.

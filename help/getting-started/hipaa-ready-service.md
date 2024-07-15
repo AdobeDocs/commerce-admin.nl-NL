@@ -14,14 +14,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Rechtsvordering**<br/>
+>**Juridische Disclaimer**<br/>
 >Deze informatie is bedoeld om Adobe klanten te helpen hun vragen betreffende de HIPAA-Klaar Diensten van de Adobe beantwoorden. Het is geen juridisch advies. Handelaren moeten hun eigen juridische adviseur raadplegen om te begrijpen wat hun verplichtingen zijn in het kader van de HIPAA en wat het juiste gebruik en de juiste configuratie van de producten van de Adobe is.
 
 >[!BEGINSHADEBOX]
 
-**Health Insurance Portability and Accountability Act (HIPAA)**
+**de Portabiliteit en de Verantwoording van de Verzekering van de Gezondheid (HIPAA)**
 
-De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijkste federale privacywet voor gezondheidszorg in de Verenigde Staten en wordt gehandhaafd door het Amerikaanse ministerie van Gezondheid en Menselijke Diensten (HHS). HIPAA geldt voor _Gedekte entiteiten_ (zoals zorgaanbieders, verzekeraars en clearinghuizen) en _Zakelijke partners_ (zoals die entiteiten die diensten verlenen aan onder deze richtlijn vallende entiteiten). De vereisten van HIPAA worden geplaatst over drie afzonderlijke regels: de Regel van de Privacy, de Regel van de Veiligheid, en de Regel van het Bericht van het Schending. De Adobe treedt als BedrijfsVennoot voor bepaalde producten op, die de Adobe als &quot;HIPAA-Klaar Diensten&quot;classificeert. Gegevens die onder HIPAA vallen, worden aangeduid als _Beschermde gezondheidsinformatie_ of PHI. PHI is een subset van gezondheidsinformatie die (1) wordt gecreëerd of ontvangen door een zorgaanbieder, een gezondheidsplan of een clearinghouse voor de gezondheidszorg, (2) betrekking heeft op het verleden, het heden of de toekomstige lichamelijke of geestelijke gezondheid of toestand van een individu, de verstrekking van gezondheidszorg aan een individu, of de eerdere, huidige of toekomstige betaling voor de verstrekking van gezondheidszorg aan een individu, en (3) de persoon identificeert of ten aanzien waarvan er een redelijke basis voor bestaat informatie kan worden gebruikt om het individu te identificeren. De HIPAA-privacy- en beveiligingsregels vereisen dat een onder de overeenkomst vallende entiteit schriftelijke garanties krijgt van een Business Associate in de vorm van een Business Associate Agreement, of BAA, waarbij de Business Associate wordt verplicht de privacy en veiligheid van de PHI van de onder de overeenkomst vallende entiteit te waarborgen. Zie voor meer informatie [HIPAA en de Producten en de Diensten van de Adobe](https://www.adobe.com/trust/compliance/hipaa-ready.html) in het Adobe Trust Center.
+De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijkste federale privacywet voor gezondheidszorg in de Verenigde Staten en wordt gehandhaafd door het Amerikaanse ministerie van Gezondheid en Menselijke Diensten (HHS). HIPAA is op _Bedekte Entiteiten_ (zoals gezondheidszorgleveranciers, verzekeraars, en clearinghuizen) en _BedrijfsVennoten_ (zoals die entiteiten van toepassing die de diensten aan overdekte entiteiten verlenen) van toepassing. De vereisten van HIPAA worden geplaatst over drie afzonderlijke regels: de Regel van de Privacy, de Regel van de Veiligheid, en de Regel van het Bericht van het Schending. De Adobe treedt als BedrijfsVennoot voor bepaalde producten op, die de Adobe als &quot;HIPAA-Klaar Diensten&quot;classificeert. Gegevens die onder HIPAA worden gereguleerd worden bedoeld als _Beschermde Informatie van de Gezondheid_ of PHI. PHI is een subset van gezondheidsinformatie die (1) wordt gecreëerd of ontvangen door een zorgaanbieder, een gezondheidsplan of een clearinghouse voor de gezondheidszorg, (2) betrekking heeft op het verleden, het heden of de toekomstige lichamelijke of geestelijke gezondheid of toestand van een individu, de verstrekking van gezondheidszorg aan een individu, of de eerdere, huidige of toekomstige betaling voor de verstrekking van gezondheidszorg aan een individu, en (3) de persoon identificeert of ten aanzien waarvan er een redelijke basis voor bestaat informatie kan worden gebruikt om het individu te identificeren. De HIPAA-privacy- en beveiligingsregels vereisen dat een onder de overeenkomst vallende entiteit schriftelijke garanties krijgt van een Business Associate in de vorm van een Business Associate Agreement, of BAA, waarbij de Business Associate wordt verplicht de privacy en veiligheid van de PHI van de onder de overeenkomst vallende entiteit te waarborgen. Voor meer informatie, zie [ HIPAA en de Producten en de Diensten van de Adobe ](https://www.adobe.com/trust/compliance/hipaa-ready.html) in het Centrum van het Vertrouwen van de Adobe.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijks
 
 De Adobe Commerce HIPAA-Ready-uitbreiding voegt extra functies en functies toe aan Adobe Commerce-installaties die handelaren in staat stellen te voldoen aan hun respectieve HIPAA-verplichtingen.
 
-De Adobe Commerce HIPAA-Ready extensie, `magento/hipaa-ee` is beschikbaar voor Adobe Commerce op wolkeninfrastructuur of Adobe Managed Services-projecten. Het Adobe Commerce HIPAA-Klaar installatieproces maakt sommige inheemse diensten en eigenschappen onbruikbaar om aan vereisten te voldoen HIPAA. Zie [Uitgeschakelde services en functies](#disabled-services-and-features).
+De Adobe Commerce HIPAA-Ready-extensie `magento/hipaa-ee` is beschikbaar voor Adobe Commerce op cloudinfrastructuur of Managed Services-projecten voor Adobe. Het Adobe Commerce HIPAA-Klaar installatieproces maakt sommige inheemse diensten en eigenschappen onbruikbaar om aan vereisten te voldoen HIPAA. Zie [ Gehandicapte diensten en eigenschappen ](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Toegang tot functies en functionaliteit die klaar zijn voor HIPAA is alleen beschikbaar voor handelaren die de invoegtoepassing voor gezondheidszorg voor Adobe Commerce hebben aangeschaft.
 
-*Deze materialen zijn uitsluitend bestemd voor informatieve doeleinden. Het verstrekken van deze informatie geeft de ontvanger geen recht op contractuele of andere rechten. Er zijn inspanningen geleverd om de juistheid van de informatie te waarborgen vanaf de datum waarop deze is verstrekt, maar er zijn geen aanwijzingen dat deze informatie juist en volledig is. Adobe verbindt zich ertoe deze informatie niet bij te werken wanneer de wet of de Adobe haar producten wijzigt. Dit document mag ook niet zonder schriftelijke toestemming van de Adobe worden verspreid onder een andere partij dan de beoogde ontvanger.*
+*Deze materialen zijn voorgenomen voor informatieve slechts doeleinden. Het verstrekken van deze informatie geeft de ontvanger geen recht op contractuele of andere rechten. Er zijn inspanningen geleverd om de juistheid van de informatie te waarborgen vanaf de datum waarop deze is verstrekt, maar er zijn geen aanwijzingen dat deze informatie juist en volledig is. Adobe verbindt zich ertoe deze informatie niet bij te werken wanneer de wet of de Adobe haar producten wijzigt. Dit document mag ook niet zonder schriftelijke toestemming van de Adobe worden verspreid naar een andere partij dan de beoogde ontvanger.*
 
 ## Systeemvereisten
 
@@ -48,17 +48,17 @@ Adobe Commerce moet worden geïmplementeerd op Adobe Commerce op cloudinfrastruc
 >[!BEGINSHADEBOX]
 
 - Adobe heeft uw Adobe Commerce-account ingericht voor toegang tot de HIPAA Ready-extensie.
-- Toegang tot [repo.magento.com](https://repo.magento.com) om de extensie te installeren. Voor sleutelgeneratie en het verkrijgen van de nodige rechten, zie [Uw verificatietoetsen ophalen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Toegang tot [ repo.magento.com ](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) krijgen.
 
 >[!ENDSHADEBOX]
 
-Installeer de nieuwste versie van de HIPAA-Ready Services-extensie van de Adobe (`magento/hipaa-ee`) op een instantie die Adobe Commerce versie 2.4.6-p3 of hoger uitvoert. De extensie wordt geleverd als een componentmetapakket vanuit de [repo.magento.com](https://repo.magento.com) opslagplaats. Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
+Installeer de recentste versie van de uitbreiding van de Diensten van HIPAA-Klaar van de Adobe (`magento/hipaa-ee`) op een instantie die versie 2.4.6-p3 of later van Adobe Commerce in werking stelt. De uitbreiding wordt geleverd als composer metapack van de {](https://repo.magento.com) bewaarplaats 0} repo.magento.com. [ Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
 
 1. Schakel op uw lokale werkstation de projectmap voor uw Adobe Commerce over het infrastructuurproject voor de cloud in.
 
    >[!NOTE]
    >
-   >Voor informatie over het lokale beheer van Commerce-projectomgevingen raadpleegt u  [Het leiden van takken met CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in de _Gebruikershandleiding Adobe Commerce on Cloud Infrastructure_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Check de omgevingsvertakking uit om bij te werken met de Adobe Commerce Cloud CLI.
 
@@ -66,7 +66,7 @@ Installeer de nieuwste versie van de HIPAA-Ready Services-extensie van de Adobe 
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. De metapakket toevoegen `magento/hipaa-ee` aan de componentenconfiguratie die composer CLI gebruikt.
+1. Voeg het metapakket `magento/hipaa-ee` toe aan de componentenconfiguratie gebruikend composer CLI.
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -86,11 +86,11 @@ Installeer de nieuwste versie van de HIPAA-Ready Services-extensie van de Adobe 
    git push origin <branch-name>
    ```
 
-   Als u op de updates drukt, wordt het dialoogvenster [Commerce-implementatieproces voor cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) om de wijzigingen toe te passen. Controleer de implementatiestatus via de [logboek implementeren](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Het duwen van de updates stelt het [ proces van de de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Installatie controleren
 
-Nadat de updates worden opgesteld, verifieer dat `Hipaa*` extensie is geïnstalleerd
+Nadat de updates zijn geïmplementeerd, controleert u of de extensie `Hipaa*` is geïnstalleerd
 
 1. Gebruik SSH om u aan te melden bij de externe cloud-omgeving.
 
@@ -121,37 +121,37 @@ Nadat de updates worden opgesteld, verifieer dat `Hipaa*` extensie is geïnstall
    <truncated for brevity>
    ```
 
-   Alle modules vooraf uitgerust met `Magento_Hipaa` moet in de toegelaten modulessectie zijn.
+   Alle modules die met `Magento_Hipaa` worden voorgefixeerd moeten in de toegelaten modulessectie zijn.
 
 ## Verbeterde functies voor HIPAA-gereedheid
 
-De `magento/hipaa-ee` De extensie brengt enkele wijzigingen en verbeteringen aan in het basis-Commerce-product. De volgende secties verstrekken details over deze veranderingen en hoe zij het basisproduct veranderen.
+De extensie `magento/hipaa-ee` bevat enkele wijzigingen en verbeteringen voor het basis-Commerce-product. De volgende secties verstrekken details over deze veranderingen en hoe zij het basisproduct veranderen.
 
 ### Handelingenlogboeken
 
-Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce [Handelingenlogboeken](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) registreert elke wijziging die wordt aangebracht door een Admin-gebruiker die in uw winkel werkt. Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
+Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce, registreert de ](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) eigenschap van de Actie 0} {elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. [ Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
 
 #### Rapport Action Logs
 
-De _Handelingenlogboeken_ rapportraster (**[!UICONTROL System]** > Handelingenlogboeken > Rapport) wordt aangepast aan acties van klanten die via de interface van Admin en de API worden uitgevoerd.
+Het _Logs van de Actie_ rapportnet (**[!UICONTROL System]** > Logboeken van de Actie > Rapport) wordt gewijzigd om klantenacties aan te passen die door Admin UI en API worden uitgevoerd.
 
 1. Twee kolommen toegevoegd:
-   - ***Bron***: Geeft weer waar de handeling is uitgevoerd.
+   - ***Source***: Toont waar de actie werd uitgevoerd.
 Waarden: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
-   - ***Type client***: Geeft het clienttype weer.
+   - ***Type van Cliënt***: Toont het cliënttype.
 Waarden: Klant | Beheerder | Integratie
 
-2. De naam van de ***Gebruikersnaam*** kolonie naar ***Client-id***
-   - ***Client-id***: Hiermee geeft u de aanmeldings-id weer voor de gebruiker die de handeling heeft uitgevoerd.
+2. Hernoemd ***Gebruikersnaam*** kolom aan ***Herkenningsteken van de Cliënt***
+   - ***Identiteitskaart van de Cliënt***: Toont login identiteitskaart voor de gebruiker die de actie uitvoerde.
 Waarden:
       - een e-mail als het Type van Cliënt Klant is
       - een gebruikersnaam als het type client beheerder is
       - een naam als het Type van Cliënt Integratie is
 
-3. De naam van de ***Volledige naam van handeling*** kolom naar ***Doel***
-   - ***Doel***: Geeft de naam van de handeling weer.
+3. De anders genoemde ***Volledige kolom van de Naam van de Actie*** aan ***Doel***
+   - ***Doel***: Toont de actienaam.
 Waarden:
-      - een eindpunt als Bron een REST API of SOAP API is
+      - een eindpunt als Source een REST API of SOAP API is
       - een naam voor query&#39;s of mutaties als een GraphQL API
       - een handelingnaam als een beheerdersinterface of gebruikersinterface van de klant.
 
@@ -165,11 +165,11 @@ Verbeteringen in de functies voor importeren en exporteren zijn gericht op het v
 
 >[!NOTE]
 >
->Deze ***de verbeteringen hebben geen invloed op de kernlogica voor importeren en exporteren*** De functionaliteit wordt eerder uitgebreid, zodat een uitgebreidere registratie en een betere gegevenstoewijzing mogelijk zijn. De fundamentele functionaliteit van importeren en exporteren blijft ongewijzigd. Gebruikers kunnen de bestaande functies en workflows blijven gebruiken zonder onderbreking.
+>Deze ***verhogingen veranderen niet de de kernlogica van de Invoer en van de Uitvoer***; eerder, breiden zij de functionaliteit uit om uitvoeriger registreren en betere gegevensattributie aan te bieden. De fundamentele functionaliteit van importeren en exporteren blijft ongewijzigd. Gebruikers kunnen de bestaande functies en workflows blijven gebruiken zonder onderbreking.
 
 #### Logboek van administratieve handelingen
 
-Een van de belangrijkste verbeteringen in de import- en exportfuncties is de verbeterde registratie van administratieve handelingen. Deze verbetering introduceert de mogelijkheid om dieper in te gaan op activiteiten die verband houden met het importeren en exporteren van gegevens en zo bij te dragen tot een betere traceerbaarheid en controleerbaarheid. De volgende acties worden nu vastgelegd en weerspiegeld in het dialoogvenster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**raster:
+Een van de belangrijkste verbeteringen in de import- en exportfuncties is de verbeterde registratie van administratieve handelingen. Deze verbetering introduceert de mogelijkheid om dieper in te gaan op activiteiten die verband houden met het importeren en exporteren van gegevens en zo bij te dragen tot een betere traceerbaarheid en controleerbaarheid. De volgende acties worden nu vastgelegd en weerspiegeld in het raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**:
 
 | Type | Handelingen |
 | ---- | ------- |
@@ -183,24 +183,24 @@ Om Admin gebruikers met meer informatieve netten te machtigen, verstrekt de HIPA
 
 #### Historie importeren ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- Ingeschakeld filteren voor alle kolommen behalve voor **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]**, en **[!UICONTROL Summary]**.
+- Filteren ingeschakeld voor alle kolommen behalve **[!UICONTROL Imported File]** , **[!UICONTROL Error File]** , **[!UICONTROL Execution Time]** en **[!UICONTROL Summary]** .
 
 #### Exporteren ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 
-- Toegevoegde **[!UICONTROL ID]** kolom.
-- Toegevoegde **[!UICONTROL Requested At]** kolom (_datum en tijdstip waarop uitvoer is aangevraagd_).
-- Toegevoegde **[!UICONTROL User]** kolom (_gebruikersnaam van een beheerder die het verzoek heeft gedaan_).
-- Een **[!UICONTROL Action]** kolom.
-- Verplaatst **[!UICONTROL Download]** koppeling naar een **[!UICONTROL File name]** kolom (_zoals het raster Historie importeren_).
-- De handeling die verantwoordelijk is voor het verwijderen van een geëxporteerd bestand (_de tracering verbeteren_).
-- sorteren ingeschakeld voor alle kolommen behalve **[!UICONTROL File name]**.
+- Er is een kolom **[!UICONTROL ID]** toegevoegd.
+- Toegevoegd a **[!UICONTROL Requested At]** kolom (_datum en tijd toen de uitvoer werd gevraagd_).
+- Toegevoegd a **[!UICONTROL User]** kolom (_gebruikersbenaming van admin die het verzoek_) deed.
+- Een kolom **[!UICONTROL Action]** is verwijderd.
+- Verplaatst de **[!UICONTROL Download]** verbinding naar a **[!UICONTROL File name]** kolom (_als het net van de Geschiedenis van de Invoer_).
+- Uitgeschakeld de actie verantwoordelijk voor schrapping van een uitgevoerd dossier (_om het volgen_ te verbeteren).
+- sorteren ingeschakeld voor alle kolommen behalve **[!UICONTROL File name]** .
 - Filteren ingeschakeld voor alle kolommen.
 
-#### Geplande invoer en uitvoer ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
+#### Geplande import en export ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- Toegevoegde **[!UICONTROL ID]** kolom.
-- Toegevoegde **[!UICONTROL Scheduled At]** kolom (de _datum en tijdstip waarop de import of export gepland was_).
-- Toegevoegde **[!UICONTROL User]** kolom (de _gebruikersnaam van een Admin-gebruiker die het importeren of exporteren heeft gepland_).
+- Er is een kolom **[!UICONTROL ID]** toegevoegd.
+- Toegevoegd a **[!UICONTROL Scheduled At]** kolom (de _datum en de tijd toen de invoer of de uitvoer_ gepland waren).
+- Toegevoegd a **[!UICONTROL User]** kolom (de _gebruikersbenaming van een gebruiker Admin die de invoer of de uitvoer_ plaatste).
 
 ## Uitgeschakelde services en functies
 
@@ -208,21 +208,21 @@ Om aan HIPAA-vereisten te voldoen, zijn sommige services en functies die door Ad
 
 ### Services
 
-- **Adobe Commerce-services**—Geen van de diensten van Adobe Commerce of rekbaarheidsdiensten zijn beschikbaar onder het HIPAA-bereidheid aanbieden. Deze diensten omvatten, maar zijn niet beperkt tot:
+- **de diensten van Adobe Commerce** - niets van de diensten of de rekbaarheidsdiensten van Adobe Commerce zijn beschikbaar onder het HIPAA-bereidheid aanbieden. Deze diensten omvatten, maar zijn niet beperkt tot:
 
    - Live zoeken
    - API-net
    - App Builder
    - Catalogusservice
 
-- **[SendGrid-service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—Deze service is standaard uitgeschakeld omdat de toepassing niet HIPAA-compatibel is.
+- **[dienst SendGrid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** - Deze dienst wordt onbruikbaar gemaakt door gebrek omdat de toepassing niet-HIPAA-volgzaam is.
 
 ### Functies die standaard zijn uitgeschakeld
 
 De volgende functies zijn standaard uitgeschakeld in de HIPAA-gereedheidsmodule. Handelaren kunnen al deze functies op eigen risico inschakelen.
 
-- **[Uitchecken door gast](../stores-purchase/checkout-guest.md)**—Deze functie brengt een potentieel risico met zich mee voor diverse aspecten van HIPAA, zoals houtkap, toegangscontrole, PHI-hygiëne en lineage, en mogelijk nog meer.
+- **[controle van de Gast](../stores-purchase/checkout-guest.md)** - Deze eigenschap stelt een potentieel risico voor diverse aspecten van HIPAA met inbegrip van registreren, toegangsbeheer, hygiëne PHI en lijn, en potentieel meer voor.
 
-- **[Nieuwsbrief](../merchandising-promotions/newsletters.md)**—Deze functie is uitgeschakeld om te voorkomen dat PHI wordt gebruikt in een marketingcontext.
+- **[eigenschap van het Nieuwsbrief](../merchandising-promotions/newsletters.md)** - Deze eigenschap wordt onbruikbaar gemaakt om PHI te verhinderen die in een marketing context wordt gebruikt.
 
-- **[Geavanceerde instelling voor rapportservice](../getting-started/business-intelligence.md)**— Deze configuratie-instelling is uitgeschakeld om te voorkomen dat PHI wordt gebruikt voor analyse en rapportage.
+- **[Geavanceerde het Melden van de dienst die](../getting-started/business-intelligence.md)** plaatst - Deze configuratie die wordt onbruikbaar gemaakt om PHI te verhinderen voor analyse en rapportering worden gebruikt.

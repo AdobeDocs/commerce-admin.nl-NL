@@ -1,5 +1,5 @@
 ---
-title: Het algoritme voor bronprioriteit configureren
+title: Het Source Priority Algorithm configureren
 description: Leer hoe te om de bronprioriteit te vormen die voor de orde van toegewezen bronnen in uw voorraad wordt gebruikt om aanbevelingen te doen.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Het algoritme voor bronprioriteit configureren
+# Het Source Priority Algorithm configureren
 
 Aangepaste voorraden bevatten een lijst met bronnen die via je winkel kunnen worden verkocht en geleverd. Dit algoritme gebruikt de orde van toegewezen bronnen in uw voorraad om aanbevelingen te doen.
 
@@ -24,25 +24,25 @@ Bij uitvoering, het algoritme:
 
 - Hiermee slaat u uitgeschakelde bronnen over als deze in de lijst worden gevonden
 
-Om te vormen, schik die bronnen van bovenkant tot bodem in prioriteit voor het vervullen van orden. Het algoritme van de Selectie Bron (SSA) verstrekt een algoritme Prioriteit gebruikend deze orde wanneer het bepalen van verzending en inventarisaftrek. Zie [Prioritaire bronnen voor een bestand](stocks-prioritize-sources.md).
+Om te vormen, schik die bronnen van bovenkant tot bodem in prioriteit voor het vervullen van orden. Het Source Selection Algorithm (SSA) biedt een algoritme Priority die deze volgorde gebruikt bij het bepalen van aftrekkingen voor verzending en inventaris. Zie [ Prioritizing Bronnen voor een Voorraad ](stocks-prioritize-sources.md).
 
 ## De prioriteit van bronnen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
 
-1. Een bestand openen in de bewerkingsmodus en naar de _[!UICONTROL Sources]_gebied.
+1. Open een bestand in de bewerkingsmodus en ga naar het _[!UICONTROL Sources]_-gebied.
 
 1. Klik op **[!UICONTROL Assign Sources]**.
 
-1. In de _[!UICONTROL Assign Sources]_de mening, selecteert checkbox voor de vereiste bron, en klikt dan **[!UICONTROL Done]**om een bron aan het bestand toe te wijzen.
+1. Selecteer in de weergave _[!UICONTROL Assign Sources]_het selectievakje voor de vereiste bron en klik vervolgens op **[!UICONTROL Done]**om een bron aan het bestand toe te wijzen.
 
 >[!NOTE]
 >
->Wanneer u de opdracht [Prioriteit afstand](distance-priority-algorithm.md) algoritme voor verzending als routes en gegevens niet worden geretourneerd voor de geselecteerde [Rekenmodus](distance-priority-algorithm.md) (het besturen, het fietsen, of het lopen) voor een lading, blijft SSA aan het gebruiken van de Prioriteit Bron in gebreke.
+>Wanneer het gebruiken van het ](distance-priority-algorithm.md) algoritme van de Prioriteit van de Afstand [ voor het verschepen, als de routes en de gegevens niet voor de geselecteerde [ wijze van de Berekening ](distance-priority-algorithm.md) (het drijven, het fietsen, of het lopen) voor een lading terugkeren, blijft SSA aan het gebruiken van de Prioriteit van Source in gebreke.
 
-![Bronvolgorde na prioritering](assets/inventory-stock-priority-after.png)
+![ orde van Source na prioritering ](assets/inventory-stock-priority-after.png)
 
 | pictogrammen | Beschrijving |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![het pictogram slepen en neerzetten om prioriteit in te stellen](assets/icon-drag-and-drop-action.png) | Gebruik deze optie om bronnen te slepen en neer te zetten op basis van prioriteit. |
-| ![Klik op het pictogram om de toewijzing van een bron ongedaan te maken](assets/icon-delete-action.png) | De toewijzing van een bron aan een bestand opheffen. |
+| ![ belemmering en laat vallen het pictogram om prioriteit ](assets/icon-drag-and-drop-action.png) te plaatsen | Gebruik deze optie om bronnen te slepen en neer te zetten op basis van prioriteit. |
+| ![ klik pictogram aan unassign een bron ](assets/icon-delete-action.png) | De toewijzing van een bron aan een bestand opheffen. |

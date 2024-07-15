@@ -5,7 +5,7 @@ exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Er wordt automatisch een cadeaukaartaccount aangemaakt voor elke cadeaukaart die wordt aangeschaft. De waarde van de cadeaukaart kan vervolgens worden toegepast op de aankoop van een product in uw winkel. U kunt ook cadeaukaartaccounts maken via de beheerfunctie als speciale actie of service voor klanten. Het rekeningnummer van de cadeaukaart komt overeen met de code van de cadeau-kaart.
 
-![Cadeaucreditcardrekeningen](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
+![ de Rekeningrekeningen van de Cadeaukaart ](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
 
 ## Kaartaccounts configureren
 
@@ -22,33 +22,33 @@ De configuratie van de cadeaukaart bepaalt de standaardinstellingen voor alle ca
 
 ### Stap 1: E-mailmeldingen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Gift Cards]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Gift Cards]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Email Settings]_en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Email Settings]_sectie uit en doe het volgende:
 
-   - Set **[!UICONTROL Gift Card Notification Email Sender]** aan de winkelidentiteit die wordt weergegeven als de afzender van kaartmeldingen.
+   - Stel **[!UICONTROL Gift Card Notification Email Sender]** in op de winkelidentiteit die wordt weergegeven als de verzender van kaartmeldingen.
 
-   - Set **[!UICONTROL Gift Card Notification Email Template]** aan het malplaatje dat voor het bericht wordt gebruikt.
+   - Stel **[!UICONTROL Gift Card Notification Email Template]** in op de sjabloon die voor de melding wordt gebruikt.
 
-   ![E-mailinstellingen creditcard](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
+   ![ E-mailmontages van de Kaart van het Cadeautje ](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Email Sent from Gift Card Account Management]_en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Email Sent from Gift Card Account Management]_sectie uit en doe het volgende:
 
-   - Set **[!UICONTROL Gift Card Email Sender]** aan de winkelidentiteit om te worden weergegeven als de afzender van de cadeaukaarten.
+   - Stel **[!UICONTROL Gift Card Email Sender]** in op de winkelidentiteit zodat deze wordt weergegeven als de afzender van de cadeaukaarten.
 
-   - Set **[!UICONTROL Gift Card Template]** naar de sjabloon die u voor de cadeaukaart wilt gebruiken.
+   - Stel **[!UICONTROL Gift Card Template]** in op de sjabloon die u voor de cadeaukaart wilt gebruiken.
 
-Zie [E-mailadressen van winkel](../configuration-reference/general/store-email-addresses.md) voor specifieke configuratiegebieden en opties.
+Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-email-addresses.md) voor specifieke configuratiegebieden en opties.
 
 ### Stap 2: De algemene instellingen voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card General Settings]_sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card General Settings]_sectie uit.
 
-1. Om de klant in staat te stellen de waarde op de kaart in te wisselen voor contanten, stelt u **[!UICONTROL Redeemable]** tot `Yes`.
+1. Stel **[!UICONTROL Redeemable]** in op `Yes` om de klant in staat te stellen de waarde op de kaart in te wisselen voor contanten.
 
-1. Voor **[!UICONTROL Lifetime (days)]** Voer het aantal dagen in voordat de kaart verloopt.
+1. Voer bij **[!UICONTROL Lifetime (days)]** het aantal dagen in voordat de kaart verloopt.
 
    Laat het veld leeg als er geen vervaldatum is.
 
@@ -56,20 +56,20 @@ Zie [E-mailadressen van winkel](../configuration-reference/general/store-email-a
    >
    >Afhankelijk van uw locatie kan het ongeldig zijn om cadeaukaarten te laten verlopen. Controleer uw lokale wetten voordat u een leven instelt voor uw cadeaukaarten.
 
-1. Als u klanten de optie wilt geven om een bericht bij de cadeaukaart in te voeren, stelt u **[!UICONTROL Allow Gift Message]** tot `Yes` en voer het aantal tekens in dat beschikbaar is voor het bericht voor **[!UICONTROL Gift Message Maximum Length]**.
+1. Als u klanten de optie wilt geven om een bericht bij te voegen dat de cadeaukaart moet vergezellen, stelt u **[!UICONTROL Allow Gift Message]** in op `Yes` en voert u het aantal tekens in dat beschikbaar is voor het bericht voor **[!UICONTROL Gift Message Maximum Length]** .
 
-1. Set **[!UICONTROL Generate Gift Card Account when Orders Item is]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Generate Gift Card Account when Orders Item is]** in op een van de volgende opties:
 
    - `Ordered` - De rekening van de cadeaukaart wordt gecreeerd wanneer de orde wordt geplaatst.
    - `Invoiced` - De rekening van de cadeaukaart wordt gecreeerd nadat de betaling wordt gevangen en de orde wordt gefactureerd.
 
-   ![Algemene instellingen voor creditcard](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
+   ![ Algemene Montages van de Kaart van het Cadeautje ](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### Stap 3: Bepaal de groep van de cadeaukaartcode
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Account General Settings]_en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Account General Settings]_sectie uit en doe het volgende:
 
-   ![Algemene instellingen Cadeaukaartaccount](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
+   ![ de Algemene Montages van de Rekening van de Kaart van het Cadeautje ](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - Als u de code wilt aanpassen, voert u het volgende in op basis van uw voorkeur:
 
@@ -79,71 +79,71 @@ Zie [E-mailadressen van winkel](../configuration-reference/general/store-email-a
       - Codeachtervoegsel
       - Streep om de X-tekens
 
-   - Om het aantal te produceren codes te bepalen, ga in **[!UICONTROL New Pool Size]**.
+   - Voer de **[!UICONTROL New Pool Size]** in om het aantal te genereren codes te bepalen.
 
-   - Om te specificeren wanneer u bericht ontvangt om de codepool te hervoorraaden, ga in **[!UICONTROL Low Code Pool Threshold]**.
+   - Voer de **[!UICONTROL Low Code Pool Threshold]** in om op te geven wanneer u een melding ontvangt om de codepool opnieuw in te slaan.
 
-1. Klik voordat u de codegroep genereert op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** voordat u de codegroep genereert.
 
 1. Klik op **[!UICONTROL Generate]**.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Een bestaande cadeaukaartaccount bekijken
 
 1. Ga als volgt te werk om het nummer van het kaartenaccount voor een huidige bestelling te zoeken:
 
-   - Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-   - Zoek de volgorde in de lijst en klik op **[!UICONTROL View]** in de _[!UICONTROL Action]_kolom.
+   - Zoek de volgorde in de lijst en klik op **[!UICONTROL View]** in de kolom _[!UICONTROL Action]_.
 
-   - Omlaag schuiven naar de _[!UICONTROL Items Ordered]_sectie.
+   - Schuif omlaag naar de sectie _[!UICONTROL Items Ordered]_.
 
-   Het nummer staat in de _[!UICONTROL Product]_kolom, onder **[!UICONTROL Gift Card Accounts]**.
+   Het getal staat in de kolom _[!UICONTROL Product]_onder **[!UICONTROL Gift Card Accounts]**.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Zoek het kaartenaccount in het raster en open het in de bewerkingsmodus.
 
-   De code van de cadeau-kaart wordt boven aan het scherm weergegeven _Informatie_ sectie.
+   De code van de giftekaart verschijnt bij de bovenkant van de _sectie van de Informatie_.
 
-   ![Cadeaukaartgegevens](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
+   ![ de Informatie van de Rekening van de Kaart van de Kaart ](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## Een kaartenaccount voor cadeaus maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Gift Card Account]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Gift Card Account]** .
 
-1. In de _[!UICONTROL Information]_sectie, set **[!UICONTROL Active]**tot `Yes` en voer de volgende handelingen uit:
+1. Stel in de sectie _[!UICONTROL Information]_**[!UICONTROL Active]**in op `Yes` en voer de volgende handelingen uit:
 
-   - Om het creditsaldo van de kaart bij afhandeling terug te betalen of naar het winkelkrediet van de klant over te dragen, stelt u **[!UICONTROL Redeemable]** tot `Yes`.
+   - Als u het saldo van de kaart bij het uitchecken wilt aflossen of wilt overdragen naar het winkelkrediet van de klant, stelt u **[!UICONTROL Redeemable]** in op `Yes` .
 
-   - Kies de optie **[!UICONTROL Website]** waar het geschenkkaartaccount kan worden gebruikt.
+   - Kies de **[!UICONTROL Website]** waar het geschenkkaartaccount kan worden gebruikt.
 
-   - Voer de initiaal in **[!UICONTROL Balance]** op de cadeaukaart.
+   - Voer het initiaal **[!UICONTROL Balance]** in op de cadeaukaart.
 
-   - _(Optioneel)_ Om een **[!UICONTROL Expiration Date]** voor de cadeaukaart selecteert u de datum in de kalender ![Kalenderpictogram](../assets/icon-calendar.png).
+   - _(Facultatief)_ om een **[!UICONTROL Expiration Date]** voor de geschenkkaart te plaatsen, selecteer de datum van het kalender{](../assets/icon-calendar.png) pictogram 3} van de Kalender.![
 
      Als deze optie leeg blijft, verloopt de rekening van de cadeaukaart niet.
 
-     ![Nieuw account](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
+     ![ Nieuwe Rekening ](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Send Gift Card]** en voer de volgende handelingen uit:
+1. Kies **[!UICONTROL Send Gift Card]** in het linkerdeelvenster en voer de volgende handelingen uit:
 
-   - Voer de **[!UICONTROL Recipient Email]** adres.
+   - Voer het **[!UICONTROL Recipient Email]** -adres in.
 
-   - Voer de **[!UICONTROL Recipient Name]**.
+   - Voer de **[!UICONTROL Recipient Name]** in.
 
-   - Set **[!UICONTROL Send Email from the Following Store View]** in de winkelweergave die wordt weergegeven als de verzender van het bericht voor de cadeaukaart.
+   - Stel **[!UICONTROL Send Email from the Following Store View]** in op de winkelweergave die wordt weergegeven als de afzender van het bericht voor de cadeaukaart.
 
-   ![Cadeauinstellingen verzenden](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
+   ![ verzend de Montages van de Kaart van het Cadeautje ](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om het nieuwe account op te slaan:
 
-   - Als u niet klaar bent om de cadeaukaart te verzenden, klikt u op **[!UICONTROL Save]**.
+   - Klik op **[!UICONTROL Save]** als u de kaartje nog niet wilt verzenden.
 
-   - Klik op **E-mail opslaan en verzenden**.
+   - Om de veranderingen te bewaren en de geschenkkaart per e-mail naar de ontvanger te verzenden, klik **sparen en E-mail** verzenden.
 
 ## Accountgeschiedenis van cadeaukaart weergeven
 
@@ -153,7 +153,7 @@ Zie [E-mailadressen van winkel](../configuration-reference/general/store-email-a
 
 1. De **[!UICONTROL History]** van de cadeaukaart wordt weergegeven.
 
-   ![Cadeaugeschiedenis](./assets/gift-card-history.png){width="600" zoomable="yes"}
+   ![ Geschiedenis van de Kaart van het Cadeautje ](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -168,13 +168,13 @@ Zie [E-mailadressen van winkel](../configuration-reference/general/store-email-a
 
 ## Een kaartenaccount voor cadeaus verwijderen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Selecteer het kaartenaccount dat u wilt verwijderen en open het in de bewerkingsmodus.
 
-1. Klik in de menubalk op **[!UICONTROL Delete]**.
+1. Klik in de menubalk op **[!UICONTROL Delete]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ## Kolombeschrijvingen
 

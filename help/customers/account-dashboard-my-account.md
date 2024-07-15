@@ -1,6 +1,6 @@
 ---
-title: "[!UICONTROL My Account] pagina"
-description: De [!UICONTROL My Account] op de pagina van het dashboard voor klanten wordt een overzicht gegeven van hun gegevens en activiteiten met betrekking tot uw winkel.
+title: "[!UICONTROL My Account] page"
+description: Op de pagina [!UICONTROL My Account] van het Klantdashboard krijgen klanten een overzicht van hun informatie en activiteiten met betrekking tot uw winkel.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL My Account] page
+# [!UICONTROL My Account] pagina
 
-De **[!UICONTROL My Account]** op de pagina van het dashboard voor klanten wordt een overzicht gegeven van hun gegevens en activiteiten met betrekking tot uw winkel.
+Op de pagina **[!UICONTROL My Account]** van het Klantdashboard krijgen klanten een overzicht van hun informatie en activiteiten met betrekking tot uw winkel.
 
 Deze pagina bestaat uit de volgende secties:
 
@@ -21,4 +21,4 @@ Deze pagina bestaat uit de volgende secties:
 * [**[!UICONTROL My Recent Reviews]**](../merchandising-promotions/product-reviews.md#product-reviews-on-the-storefront)
 * [**[!UICONTROL Recent Orders]**](../stores-purchase/orders-storefront.md#view-recently-ordered-products)
 
-![Pagina Mijn account op de winkelpagina](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}
+![ Mijn pagina van de Rekening op de storefront ](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}

@@ -6,36 +6,36 @@ feature: Site Management, System
 role: Admin, Leader
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Controlelijst voor starten
 
-Nadat u het ontwerp, de ontwikkeling, en het testen van uw opslag voltooit, controleer de volgende configuratiemontages om ervoor te zorgen dat alles correct vóór de opslag is _gaat live_. Voor een uitvoerige beschrijving van elke configuratie die plaatst, zie [_Configuratieverwijzing_](../configuration-reference/guide-overview.md).
+Nadat u het ontwerp, de ontwikkeling, en het testen van uw opslag voltooit, controleer de volgende configuratiemontages om ervoor te zorgen dat alles correct is alvorens de opslag _levend_ gaat. Voor een uitvoerige beschrijving van elke configuratie die plaatsen, zie de [_Verwijzing van de Configuratie_](../configuration-reference/guide-overview.md).
 
 ## Algemene instellingen
 
-- [URL&#39;s opslaan](../stores-purchase/store-urls.md) - Controleer of de URL&#39;s van de winkel voor de winkel en de beheerder correct zijn voor een live productieomgeving.
+- [ opslag URLs ](../stores-purchase/store-urls.md) - verifieer dat opslag URLs voor de opslag en Admin voor een levende productiemilieu correct zijn.
 - Beveiligingscertificaat - Installeer een 100% ondertekend en vertrouwd beveiligingscertificaat voor het domein dat is opgegeven in de basis-URL voordat u de winkel start.
-- [E-mailadressen van winkel](../getting-started/store-details.md#store-email-addresses) - Vul alle e-mailadressen in die worden gebruikt voor het verzenden en ontvangen van e-mailberichten, zoals nieuwe bestellingen, facturen, verzendingen, creditnota&#39;s, waarschuwingen over de productprijs en nieuwsbrieven. Zorg ervoor dat elk veld een geldig e-mailadres voor het bedrijf bevat.
+- [ E-mailadressen van de Opslag ](../getting-started/store-details.md#store-email-addresses) - voltooi alle e-mailadressen die worden gebruikt om e-mailberichten, zoals nieuwe orden, facturen, verzendingen, creditnota&#39;s, productprijsalarm, en nieuwsbrieven te verzenden en te ontvangen. Zorg ervoor dat elk veld een geldig e-mailadres voor het bedrijf bevat.
 
 ## Marketinginstellingen
 
-- [E-mailsjablonen](../systems/email-templates.md) - Werk de standaard e-mailsjablonen bij met uw merk. Als u sjablonen maakt, moet u de configuratie bijwerken.
-- [Verkoopmededelingen](../stores-purchase/introduction.md#order-management-and-operations) - Zorg ervoor dat uw facturen en verpakkingsslips de juiste bedrijfsgegevens bevatten en uw merk weerspiegelen.
-- [Google Tools](../merchandising-promotions/google-tools.md) - [!DNL Commerce] biedt integratie met Google API zodat uw bedrijf Googles Analytics en Google AdWords kan gebruiken.
+- [ E-mailMalplaatjes ](../systems/email-templates.md) - werk de standaard e-mailmalplaatjes bij om op uw merk te wijzen. Als u sjablonen maakt, moet u de configuratie bijwerken.
+- [ Mededelingen van de Verkoop ](../stores-purchase/introduction.md#order-management-and-operations) - zorg ervoor dat uw facturen en verpakkingsslips de correcte bedrijfsinformatie omvatten en op uw merk wijzen.
+- [ de Hulpmiddelen van Google ](../merchandising-promotions/google-tools.md) - [!DNL Commerce] verstrekt integratie met Google API om uw zaken toe te staan om Googles Analytics en Google AdWords te gebruiken.
 
 ## Verkoopinstellingen
 
-- [Opties voor winkelwagentje](../stores-purchase/cart-configuration.md) - Bekijk de instellingen voor de configuratie van de winkelwagentje om te zien of er iets is dat u wilt wijzigen, zoals het bepalen van het minimale orderbedrag en de levensduur van de prijzen in de winkelwagentje.
-- [Afhandelingsopties](../stores-purchase/checkout-process.md#checkout-options) - Bekijk de afrekenopties om te zien of er iets is dat u wilt wijzigen, zoals het instellen van voorwaarden en voorwaarden, en het configureren van uitchecken door gasten.
-- [Belastingen](../stores-purchase/taxes.md) - Zorg ervoor dat belastingen correct zijn geconfigureerd volgens de belastingregels van uw bedrijf en de lokale vereisten.
-- [Leveringsmethoden](../stores-purchase/delivery.md) - Alle vervoerders en leveringsmethoden door de onderneming laten gebruiken.
-- [PayPal](../stores-purchase/paypal.md) - Als u uw klanten het gemak wilt bieden om met PayPal te betalen, opent u een PayPal Merchant-account en stelt u een betalingsmethode in. Voer een aantal testtransacties uit in de Sandbox-modus voordat de winkel actief wordt.
-- [Betalingsmethoden](../stores-purchase/payments.md) - Schakel de betaalmethoden die u wilt gebruiken in en zorg ervoor dat deze correct zijn geconfigureerd. Controleer de instellingen voor de status van de bestelling, de geaccepteerde valuta, de landen die dit toestaan, enzovoort.
+- {de Opties van het Kart van 0} ](../stores-purchase/cart-configuration.md) - bekijk de montages van de wortelconfiguratie, om te zien of is er om het even wat dat u, zoals het plaatsen van het minimumordebedrag en het leven van de prijzen in de kar wilt veranderen.[
+- [ Opties van de Controle ](../stores-purchase/checkout-process.md#checkout-options) - bekijk de controleopties, om te zien of is er om het even wat dat u, zoals opstellings termijnen en voorwaarden, en het vormen gastcontrole wilt veranderen.
+- [ Belastingen ](../stores-purchase/taxes.md) - zorg ervoor dat de belastingen behoorlijk volgens uw regels van de bedrijfsbelasting en lokale vereisten worden gevormd.
+- [ Methoden van de Levering ](../stores-purchase/delivery.md) - laat alle dragers en leveringsmethodes toe die door het bedrijf moeten worden gebruikt.
+- [ PayPal ](../stores-purchase/paypal.md) - als u van plan bent om uw klanten het gemak aan te bieden om met PayPal te betalen, open een Merchant Rekening van PayPal, en opstelling een betalingsmethode. Voer een aantal testtransacties uit in de Sandbox-modus voordat de winkel actief wordt.
+- [ de Methoden van de Betaling ](../stores-purchase/payments.md) - laat de betalingsmethodes toe die u van plan bent te gebruiken, en zorg ervoor dat zij behoorlijk worden gevormd. Controleer de instellingen voor de status van de bestelling, de geaccepteerde valuta, de landen die dit toestaan, enzovoort.
 
 ## Systeeminstellingen
 
-[Uitsnijden (geplande taken)](../systems/cron.md) - Cron-taken worden gebruikt voor het verwerken van e-mail, catalogusprijsregels, nieuwsbrieven, klantenwaarschuwingen, Google-sitemaps, het bijwerken van valutakoersen, enzovoort. Zorg ervoor dat de banen van het Gewas aan looppas bij het aangewezen tijdinterval, in notulen worden geplaatst.
+[ Uitsnede (Geplande Taken) ](../systems/cron.md) - de banen van de Kroon worden gebruikt om e-mail, de regels van de catalogusprijs, bulletins, klantenalarm, Google sitemaps, updatematrijzen, etc. te verwerken. Zorg ervoor dat de banen van het Gewas aan looppas bij het aangewezen tijdinterval, in notulen worden geplaatst.

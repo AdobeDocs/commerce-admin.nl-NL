@@ -1,24 +1,24 @@
 ---
 title: Elementen - Verdeler
-description: Leer over het inhoudstype Scheider, dat wordt gebruikt om een regel als visuele onderbreking tussen secties in te voegen [!DNL Page Builder] in het werkgebied.
+description: Leer over het Divider inhoudstype, dat wordt gebruikt om een regel als visuele onderbreking tussen secties van inhoud in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Elementen - Verdeler
 
-Gebruik de _Scheidingslijn_ inhoudstype om een regel toe te voegen als een visueel onderbreking tussen secties in de [[!DNL Page Builder] stadium](workspace.md#stage). U kunt de lijnkleur, dikte en breedte van de scheidingslijn opgeven. U kunt ook de uitlijning bepalen, de marges en opvulling instellen en de opmaak van de containerrand instellen. Standaard is de scheidingslijn een haarlijnregel die de volledige breedte van de container uitbreidt, met ruimte voor opvulling.
+Gebruik het _Verdeler_ inhoudstype om een regel als visuele onderbreking tussen secties van inhoud in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. U kunt de lijnkleur, dikte en breedte van de scheidingslijn opgeven. U kunt ook de uitlijning bepalen, de marges en opvulling instellen en de opmaak van de containerrand instellen. Standaard is de scheidingslijn een haarlijnregel die de volledige breedte van de container uitbreidt, met ruimte voor opvulling.
 
-![Standaardscheidingslijn in een container zonder rand](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
+![ Standaard verdeler in een container zonder een grens ](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
 Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbeeld de container met een rode gestippelde grens zodat kunt u het verband tussen de verdeler, de opvulling, en de container zien. U kunt de opvulling boven en onder aan de scheidingslijn aanpassen om de afstand tussen de elementen te bepalen.
 
-![Scheidingslijn met opvulling in container met onderbroken rand](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
+![ Scheidingslijn met het opvullen in container met onderbroken grens ](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,13 +26,13 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
 | Gereedschap | Pictogram | Beschrijving |
 | ---- | --------------------| ------------|
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="25"} | Verplaatst de container van de verdeler naar een andere geldige plaats op de pagina. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de container van de verdeler naar een andere geldige plaats op de pagina. |
 | (label) | SCHEIDINGSTEKEN | Identificeert de huidige container als een scheidingselement. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Verdeler bewerken, waarin u de eigenschappen van de scheidingslijn en de bijbehorende container kunt wijzigen. |
-| Verbergen | ![Pictogram verbergen](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de scheidingscontainer. |
-| Tonen | ![Pictogram tonen](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen scheidingscontainer weergegeven. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container voor scheidingstekens. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container van de scheidingslijn en de inhoud ervan uit het werkgebied. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Verdeler bewerken, waarin u de eigenschappen van de scheidingslijn en de bijbehorende container kunt wijzigen. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de scheidingscontainer. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen scheidingscontainer weergegeven. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container voor scheidingstekens. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container van de scheidingslijn en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -40,42 +40,42 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
 ## Een scheidingslijn toevoegen
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Elements]** en sleep een **[!UICONTROL Divider]** plaatsaanduiding voor een rij, kolom of tabset in het werkgebied.
+1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Elements]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Divider]** naar een rij, kolom of tabset in het werkgebied.
 
    Gebruik de rode hulplijn ter referentie wanneer u de scheidingslijn voor of na een andere inhoudscontainer in het werkgebied plaatst.
 
-   ![Een scheidingslijn naar het werkgebied slepen](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![ slepend een verdeler aan het stadium ](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
    In het volgende voorbeeld markeert de scheidingslijn het begin van een nieuwe tekstsectie.
 
-   ![Secties van tekst scheiden door scheidingstekens](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![ Scheidingsverdeler die secties van tekst ](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"} scheiden
 
 1. Volg de volgende procedure om de instellingen van de nieuwe scheidingslijn op te geven.
 
 ## De instellingen voor de scheidingslijn wijzigen
 
-1. Houd de aanwijzer boven de container om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de verdelercontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   ![Scheidingsgereedschapset](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![ Scheidingstoolbox ](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. De scheidingslijn wijzigen **[!UICONTROL Line Color]** met een van de volgende methoden:
+1. Wijzig de scheidingslijn **[!UICONTROL Line Color]** op een van de volgende manieren:
 
-   - Voer een geldige waarde in [Kleurnaam HTML][1]. Bijvoorbeeld, `Teal`.
-   - Voer de hexadecimale kleurwaarde in. Bijvoorbeeld, `#008080`.
+   - Ga een geldige [ de kleurnaam van de HTML ][1] in. Bijvoorbeeld `Teal` .
+   - Voer de hexadecimale kleurwaarde in. Bijvoorbeeld `#008080` .
 
-   Klik op **[!UICONTROL Apply]**.
+   Klik op **[!UICONTROL Apply]** als de bewerking is voltooid.
 
-   ![De lijnkleur instellen](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
+   ![ plaatsend de lijnkleur ](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
-1. Voer de **[!UICONTROL Line Thickness]** in pixels.
+1. Voer de **[!UICONTROL Line Thickness]** in pixels in.
 
-1. Voer de **[!UICONTROL Line Width]** gevolgd door: `px` of `%`.
+1. Voer de **[!UICONTROL Line Width]** gevolgd door `px` of `%` in om de maateenheid aan te geven.
 
-   ![Lijnkleur, -dikte en -breedte instellen](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![ Plaatsende lijnkleur, dikte, en breedte ](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Werk de _[!UICONTROL Advanced]_instellingen.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
-   - Als u de positie van de scheidingslijn in de bovenliggende container wilt bepalen, kiest u de optie **[!UICONTROL Alignment]**:
+   - Kies de optie **[!UICONTROL Alignment]** als u de positie van de scheidingslijn in de bovenliggende container wilt bepalen:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -88,9 +88,9 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
      In het volgende voorbeeld worden de opties zo ingesteld dat voor de scheidingslijn een uitlijning in het midden wordt gebruikt.
 
-     ![Scheidingslijn met middelste uitlijning](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![ Scheidingsverdeler met een centrumgroepering ](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Stel de **[!UICONTROL Border]** stijl toegepast op alle vier zijden van de container van de verdeler:
+   - Stel de stijl **[!UICONTROL Border]** in die op alle vier zijden van de container van de scheidingslijn wordt toegepast:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -107,7 +107,7 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
      {style="table-layout:auto"}
 
-   - Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+   - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
      | Optie | Beschrijving |
      | ------ |------------ |
@@ -117,7 +117,7 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
      {style="table-layout:auto"}
 
-   - (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** in het huidige stijlblad toe te passen op de container.
+   - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit de huidige stijlpagina die u op de container wilt toepassen.
 
      Scheid meerdere klassennamen met een spatie.
 
@@ -132,28 +132,28 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
      {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
-   ![Scheidingslijn gecentreerd in een rij](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
+   ![ Divider die in een rij ](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"} wordt gecentreerd
 
 ## Een scheidingslijn dupliceren
 
 Voor een opgemaakte scheidingslijn met specifieke instellingen is het efficiënter om een duplicaat te maken in plaats van opnieuw te beginnen met een nieuwe plaatsaanduiding.
 
-1. Houd de aanwijzer boven de container om de gereedschapset weer te geven en kies de optie _Dupliceren_ ( ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Beweeg over de verdelercontainer om toolbox te tonen en _te kiezen dupliceert_ ( ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
    De gedupliceerde container wordt net onder het origineel weergegeven.
 
-   ![Dubbele scheidingslijn](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
+   ![ Gedupliceerde verdeler ](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Houd de aanwijzer boven de nieuwe scheidingscontainer om de gereedschapset weer te geven en kies de optie _Verplaatsen_ ( ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="20"} ).
+1. Beweeg over de nieuwe verdelercontainer om toolbox te tonen en de _Beweging_ te kiezen ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}) pictogram.
 
-   ![Een scheidingslijn verplaatsen](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
+   ![ Bewegend een verdeler ](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 
 1. Selecteer en sleep de scheidingslijn totdat de rode hulplijn de nieuwe positie markeert.
 
    De boven- en onderrand van elke container worden weergegeven als onderbroken lijnen terwijl de scheidingslijn wordt verplaatst.
 
-   ![De gedupliceerde scheidingslijn verplaatsen naar de juiste positie](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
+   ![ Bewegend de gedupliceerde verdeler in positie ](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors

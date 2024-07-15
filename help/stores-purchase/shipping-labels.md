@@ -5,16 +5,16 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Verzendlabels
 
-De handel omvat een hoog niveau van integratie met belangrijke scheepvaartmaatschappijen, die u toegang tot dragerverzendsystemen verleent om orden te volgen, verschepende etiketten te creëren, en meer. Er kunnen verzendlabels worden gemaakt voor regelmatige zendingen en producten met een retourvergunning. Naast de door de scheepvaartmaatschappij verstrekte informatie bevat het etiket ook het ordernummer van de koophandel, het nummer van de verpakking en de totale hoeveelheid colli voor de zending.
+Commerce biedt een hoge mate van integratie met de belangrijkste scheepvaartmaatschappijen, waardoor u toegang hebt tot de transportsystemen voor het volgen van bestellingen, het maken van verzendlabels en nog veel meer. Er kunnen verzendlabels worden gemaakt voor regelmatige zendingen en producten met een retourvergunning. Naast de door de scheepvaartmaatschappij verstrekte informatie bevat het etiket ook het Commerce-ordernummer, het nummer van de verpakking en de totale hoeveelheid colli voor de verzending.
 
-![USPS Prioritair verzendlabel](./assets/shipping-usps-priority-label.png){width="300"}
+![ Prioriteit USPS Verzendlabel ](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [Verzendlabels configureren](shipping-label-configure.md)
 - [Verzendlabels en -pakketten maken](shipping-label-create.md)
@@ -29,7 +29,7 @@ De verkoper/de opslagmanager voltooit de informatie noodzakelijk om etiketten te
 
 ### Stap 2: Verzoek verzonden aan drager
 
-De handel neemt contact op met de scheepvaartmaatschappij en leidt tot een bestelling in het systeem van de vervoerder. Voor elk verzonden pakket wordt een aparte volgorde gemaakt.
+Commerce neemt contact op met de scheepvaartmaatschappij en maakt een bestelling in het systeem van de vervoerder. Voor elk verzonden pakket wordt een aparte volgorde gemaakt.
 
 ### Stap 3: De vervoerder verstuurt het label en trackingnummer
 

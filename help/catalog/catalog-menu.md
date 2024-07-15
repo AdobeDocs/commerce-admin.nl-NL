@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] menu'
-description: Gebruik de [!UICONTROL Catalog] menu voor toegang tot programma's voor het maken van producten, categorieën en voorraadbeheer.
+description: Gebruik het menu [!UICONTROL Catalog] om toegang te krijgen tot programma's voor het maken van producten, categorieën en voorraadbeheer.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] menu
 
-De [!UICONTROL Catalog] biedt eenvoudig toegang tot programma&#39;s voor het maken van producten, categorieën en voorraadbeheer en gedeelde catalogi voor aangepaste prijzen in [B2B-opslagruimten](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Het [!UICONTROL Catalog] menu verleent gemakkelijke toegang tot productverwezenlijking, categorie, en hulpmiddelen van het inventarisbeheer, en gedeelde catalogi voor douanetarifering in [ B2B opslag ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
-![Het menu Catalogus](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
+![ het menu van de Catalogus ](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
-Op de _Beheerder_ zijbalk, klikken **[!UICONTROL Catalog]**.
+Voor _Admin_ sidebar, klik **[!UICONTROL Catalog]**.
 
 ## [!UICONTROL Products]
 
-Maken [producten](products-list.md) van elk type en beheer uw voorraad.
+Creeer [ producten ](products-list.md) van elk type en beheer uw inventaris.
 
-![Productraster](./assets/products-grid.png){width="700" zoomable="yes"}
+![ Net van Producten ](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Categories]
 
-Maak de [categorie](categories.md) structuur die de basis vormt van de navigatie van uw winkel.
+Creeer de [ categorie ](categories.md) structuur die de stichting van de navigatie van uw opslag is.
 
-![Categoriewerkruimte](./assets/category-workspace.png){width="700" zoomable="yes"}
+![ de werkruimte van de Categorie ](./assets/category-workspace.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Shared Catalogs]
 
-Voor winkels waarop Adobe Commerce B2B is geïnstalleerd en ingeschakeld, [gedeelde catalogi](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geef u de capaciteit om douaneprijzen aan verschillende bedrijven ter beschikking te stellen.
+Voor opslag met Adobe Commerce B2B geïnstalleerd en toegelaten, [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geven u de capaciteit om douaneprijzen ter beschikking te stellen van verschillende bedrijven.
 
-![Gedeelde catalogusproducten](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+![ Gedeelde catalogusproducten ](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

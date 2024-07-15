@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Opmaaktags
 
-Een markeringsmarkering is een richtlijn die codefragment met een relatieve verwijzing naar een voorwerp in uw opslag zoals een variabele, URL, beeld, of blok bevat. Opmaaktags kunnen worden gebruikt op elke locatie waar de editor beschikbaar is en in de HTML van [email](email-templates.md) en [nieuwsbrief](../merchandising-promotions/newsletter-template.md) sjablonen en andere typen [content](../content-design/introduction.md#content).
+Een markeringsmarkering is een richtlijn die codefragment met een relatieve verwijzing naar een voorwerp in uw opslag zoals een variabele, URL, beeld, of blok bevat. De markeringen van de prijsverhoging kunnen overal worden gebruikt de redacteur beschikbaar is en in de HTML van [ e-mail ](email-templates.md) en [ nieuwsbrief ](../merchandising-promotions/newsletter-template.md) malplaatjes, evenals andere soorten [ inhoud ](../content-design/introduction.md#content) wordt opgenomen.
 
 Markeringstags worden ingesloten door dubbele accolades en kunnen worden gegenereerd met het gereedschap Widget of rechtstreeks in HTML-inhoud worden getypt. In plaats van het volledige pad naar een pagina te coderen met de code, kunt u bijvoorbeeld een opmaakcode gebruiken voor de URL van de winkel. De opmaakcodes in de volgende voorbeelden zijn:
 
@@ -20,13 +20,13 @@ Markeringstags worden ingesloten door dubbele accolades en kunnen worden gegener
 
 ## Aangepaste variabele
 
-U kunt de opmaakcode voor variabelen gebruiken om een [aangepaste variabele](variables-custom.md) in een e-mailsjabloon, blokken, nieuwsbrieven en inhoudspagina&#39;s.
+De veranderlijke prijsverhogingsmarkering kan worden gebruikt om a [ douanevariabele ](variables-custom.md) in een e-mailmalplaatje, blokken, nieuwsbrieven, en inhoudspagina&#39;s op te nemen.
 
 \{\{CustomVar code= &quot;my_custom_variable&quot;}
 
 ## URL van winkel
 
-De opmaaktag URL opslaan vertegenwoordigt de basis-URL van uw website en wordt gebruikt als vervanging voor het eerste deel van een volledige URL, inclusief de domeinnaam. Er zijn twee versies van deze opmaaktag: een die rechtstreeks naar uw winkel gaat en een andere met een slash (`/`) aan het einde dat wordt gebruikt wanneer een pad wordt toegevoegd.
+De opmaaktag URL opslaan vertegenwoordigt de basis-URL van uw website en wordt gebruikt als vervanging voor het eerste deel van een volledige URL, inclusief de domeinnaam. Er zijn twee versies van deze prijsverhogingsmarkering: één die rechtstreeks naar uw opslag gaat, en andere met een voorwaartse schuine streep (`/`) aan het eind die wordt gebruikt wanneer een weg wordt toegevoegd.
 
 \{\{store url=&#39;apparel/schoenen/womens&#39;}
 
@@ -70,7 +70,7 @@ U kunt opmaakcodes gebruiken met HTML-ankerlabels en rechtstreeks koppelen aan e
 
 ### Stap 1. De doel-URL identificeren
 
-Blader, indien mogelijk, naar de pagina waarnaar u wilt koppelen en kopieer de volledige URL van de adresbalk van uw browser. Het gedeelte van de URL dat u nodig hebt, komt na de `.com/`. Als dat niet het geval is, kopieert u de URL-sleutel van de CMS-pagina die u als doel voor de koppeling wilt gebruiken.
+Blader, indien mogelijk, naar de pagina waarnaar u wilt koppelen en kopieer de volledige URL van de adresbalk van uw browser. Het deel van de URL dat u nodig hebt, komt na de `.com/` . Als dat niet het geval is, kopieert u de URL-sleutel van de CMS-pagina die u als doel voor de koppeling wilt gebruiken.
 
 #### Volledige URL naar categoriepagina
 
@@ -88,15 +88,15 @@ Blader, indien mogelijk, naar de pagina waarnaar u wilt koppelen en kopieer de v
 
 ### Stap 2. De markering toevoegen aan de URL
 
-De Store URL-tag vertegenwoordigt de basis-URL van uw website en wordt gebruikt als vervanging voor het HTTP-adresgedeelte van de winkel-URL, inclusief de domeinnaam en `.com`. Er zijn twee versies van de tag, die u kunt gebruiken, afhankelijk van de resultaten die u wilt bereiken.
+De tag Store URL vertegenwoordigt de basis-URL van uw website en wordt gebruikt als vervanging voor het HTTP-adresgedeelte van de winkel-URL, inclusief de domeinnaam en `.com` . Er zijn twee versies van de tag, die u kunt gebruiken, afhankelijk van de resultaten die u wilt bereiken.
 
 `store direct_url` - Koppelingen rechtstreeks naar een pagina.
 
-`store url` - Hiermee plaatst u een slash aan het einde, zodat u meer verwijzingen kunt toevoegen als een pad.
+`store url` - Hiermee plaatst u een slash aan het einde, zodat extra verwijzingen kunnen worden toegevoegd als een pad.
 
 In de volgende voorbeelden wordt de URL-sleutel tussen enkele aanhalingstekens geplaatst en wordt de volledige opmaaktag tussen dubbele accolades geplaatst. Wanneer de markering wordt gebruikt met een ankertag, wordt deze binnen de dubbele aanhalingstekens van het anker geplaatst. U voorkomt verwarring door enkele en dubbele aanhalingstekens te gebruiken voor elke geneste set aanhalingstekens.
 
-Als u begint met een volledige URL, verwijdert u het HTTP-adres (`http://` of `https://`) deel van de URL, tot en met de `.com/`. Voer in plaats daarvan de opmaaktag URL van winkel in, tot en met het eerste enkele aanhalingsteken.
+Als u begint met een volledige URL, verwijdert u het HTTP-adres (`http://` of `https://` ) deel van de URL, tot en met `.com/` . Voer in plaats daarvan de opmaaktag URL van winkel in, tot en met het eerste enkele aanhalingsteken.
 
 #### Tag voor URL-markering opslaan
 
@@ -120,10 +120,10 @@ Plaats de voltooide opmaakcode binnen een ankertag met de opmaaktag in plaats va
 
 #### Opmaak in ankertag
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>Tekst koppelen\&lt;/a>
+\&lt;a href=&quot;\{\{markup tag goes here}&quot;>
 
 Plak de voltooide ankertag in de code van een CMS-pagina, -blok, -banner of -e-mailsjabloon, waar u de koppeling wilt weergeven.
 
 ### Koppeling met markering voltooien
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Schoonverkoop\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;apparel/schoenen&#39;}&quot;>Schoonverkoop\&lt;/a>

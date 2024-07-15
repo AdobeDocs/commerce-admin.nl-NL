@@ -23,7 +23,7 @@ ht-degree: 0%
    + [Winkelweergaven](store-views.md)
    + [Winkellokalisatie](store-localize.md)
    + [URL&#39;s opslaan](store-urls.md)
-   + Belastingen {#taxes}
+   + Taxes {#taxes}
       + [Overzicht](taxes.md)
       + [Belastingconfiguratie-instellingen](tax-settings-general.md)
       + [Instellingen voor prijsweergave](display-settings.md)
@@ -51,7 +51,7 @@ ht-degree: 0%
       + [Een winkelwagentje beheren](shopping-assisted-cart-manage.md)
       + [Een bestelling maken](customer-account-create-order.md)
       + [Een klantenorder bijwerken](order-update.md)
-   + Afhandeling {#checkout}
+   + Uitchecken {#checkout}
       + [Overzicht](checkout-process.md)
       + [Uitchecken via één pagina](checkout-one-page.md)
       + [Uitchecken door gast](checkout-guest.md)
@@ -62,9 +62,9 @@ ht-degree: 0%
    + Cadeaukaarten {#gift-cards}
       + [Aankoop en terugbetaling van creditcard](product-gift-card-workflow.md)
       + [Cadeaucreditcardrekeningen](product-gift-card-accounts.md)
-+ Gereedschappen {#shopper-tools}
++ Gereedschappen voor penseelstreken {#shopper-tools}
    + [Een vriend e-mailen](email-a-friend.md)
-   + Wenslijsten {#wish-lists}
+   + Wullijsten {#wish-lists}
       + [Overzicht](wishlists.md)
       + [Wenslijsten configureren](wishlist-configuration.md)
       + [Wish list storefront experience](wishlist-storefront.md)
@@ -116,12 +116,12 @@ ht-degree: 0%
 + Aflevering {#delivery}
    + [Overzicht](delivery.md)
    + [Verzendinstellingen](shipping-settings.md)
-   + Basisleveringsmethoden {#basic-methods}
+   + Basismethoden voor levering {#basic-methods}
       + [Gratis verzending](shipping-free.md)
       + [Plat tarief](shipping-flat-rate.md)
       + [Tabeltarieven](shipping-table-rate.md)
       + [Levering in de winkel](shipping-in-store-delivery.md)
-   + Scheepvaartmaatschappijen {#shipping-carriers}
+   + Verzenddragers {#shipping-carriers}
       + [Setup van transportbedrijf](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
@@ -131,5 +131,5 @@ ht-degree: 0%
       + [Overzicht verzendlabel](shipping-labels.md)
       + [Verzendlabels configureren](shipping-label-configure.md)
       + [Verzendlabels maken](shipping-label-create.md)
-+ [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

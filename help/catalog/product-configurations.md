@@ -1,6 +1,6 @@
 ---
 title: Productinstellingen - [!UICONTROL Configurations]
-description: Voor een product geldt het [!UICONTROL Configurations] de montages bepalen variaties voor gebruik met het Configurable producttype.
+description: Voor een product, bepalen de [!UICONTROL Configurations] montages variaties voor gebruik met het Configurable producttype.
 exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Configurations]
 
-De _[!UICONTROL Configurations]_de sectie maakt een lijst van om het even welke bestaande variaties van het product en kan worden gebruikt om variaties voor gebruik met het Configurable producttype te produceren. Zie voor meer informatie [Configureerbaar product](product-create-configurable.md).
+De sectie _[!UICONTROL Configurations]_bevat een lijst met bestaande variaties van het product en kan worden gebruikt om variaties te genereren voor gebruik met het configureerbare producttype. Voor meer informatie, zie [ Configureerbaar Product ](product-create-configurable.md).
 
-![Sectie Configuraties](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+![ Sectie van Configuraties ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
-![Productconfiguraties](./assets/product-configurations-hoodie.png){width="600" zoomable="yes"}
+![ de Configuraties van het Product ](./assets/product-configurations-hoodie.png){width="600" zoomable="yes"}
 
 ## Veldverwijzing
 
@@ -30,6 +30,6 @@ De _[!UICONTROL Configurations]_de sectie maakt een lijst van om het even welke 
 | [!UICONTROL Weight] | Het productgewicht |
 | [!UICONTROL Status] | Productstatus **[!UICONTROL Enabled]** / **[!UICONTROL Disabled]** |
 | [!UICONTROL Attributes] | Een set kenmerken die worden gebruikt om een product te beschrijven |
-| [!UICONTROL Actions] | Hiermee geeft u alle acties weer die op geselecteerde producten kunnen worden toegepast. Handelingen:<br /> **[!UICONTROL Choose a different Product]** - Hiermee verwijdert en vervangt u het huidige product door de nieuwe selectie.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - Hiermee schakelt u het geselecteerde product uit of in.<br /> **[!UICONTROL Remove Product]** - Hiermee verwijdert u het geselecteerde product uit de huidige configuratie. |
+| [!UICONTROL Actions] | Hiermee geeft u alle acties weer die op geselecteerde producten kunnen worden toegepast. Handelingen:<br /> **[!UICONTROL Choose a different Product]** - Hiermee verwijdert en vervangt u het huidige product door de nieuwe selectie. <br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - Schakelt het geselecteerde product uit of schakelt het in. <br /> **[!UICONTROL Remove Product]** - Verwijdert geselecteerd product uit de huidige configuratie. |
 
 {style="table-layout:auto"}

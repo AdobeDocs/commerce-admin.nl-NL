@@ -18,37 +18,37 @@ In het volgende voorbeeld wordt tijdens de campagne een promotieafbeelding aan d
 
 ## Het campagneitem toevoegen voor een categorie
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Zoek de categorie die u in de campagne wilt gebruiken en open deze in de bewerkingsmodus.
 
 1. Klik op **[!UICONTROL Schedule New Update]**.
 
-1. Selecteren **[!UICONTROL Assign to Existing Campaign]**.
+1. Selecteer **[!UICONTROL Assign to Existing Campaign]** .
 
 1. Selecteer in de lijst de campagne die u wilt wijzigen.
 
-   ![Toewijzen aan een bestaande campagne](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![ Toewijzend aan een bestaande campagne ](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
 
-1. Voor **[!UICONTROL Category Image]**, klikt u op **[!UICONTROL Upload]** en selecteert u de afbeelding die tijdens de campagne op de categoriepagina moet worden weergegeven.
+1. Voor **[!UICONTROL Category Image]** klikt u op **[!UICONTROL Upload]** en selecteert u de afbeelding die tijdens de campagne op de categoriepagina moet worden weergegeven.
 
-   ![Een categorieafbeelding toevoegen](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![ Toevoegend een categoriebeeld ](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Het item valideren
 
-1. Op de _Beheerder_ zijbalk, ga naar  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
 1. Zoek de campagne in de weergegeven lijst of tijdlijn en open de campagne voor toegang tot de details:
 
-   - Voor een lijstweergave klikt u op **[!UICONTROL Select]** en vervolgens **[!UICONTROL View/Edit]** in de _[!UICONTROL Action]_kolom.
-   - Klik eenmaal voor een tijdlijnweergave om het overzicht weer te geven en klik vervolgens op **[!UICONTROL View/Edit]**.
+   - Klik voor een lijstweergave op **[!UICONTROL Select]** en vervolgens op **[!UICONTROL View/Edit]** in de kolom _[!UICONTROL Action]_.
+   - Klik eenmaal voor een tijdlijnweergave om het overzicht weer te geven en klik vervolgens op **[!UICONTROL View/Edit]** .
 
-   ![Campagnedetail](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
+   ![ het detail van de Campagne ](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Categories]** om de lijst met toegewezen categorieën weer te geven.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Categories]** uit om de lijst van toegewezen categorieën te bekijken.
 
-1. Als u de pagina&#39;s voor de categorie wilt bekijken terwijl de campagne actief is, gaat u terug naar het dashboard, klikt u nogmaals op de campagne en klikt u vervolgens op **[!UICONTROL Preview]**.
+1. Als u de pagina&#39;s voor de categorie wilt bekijken terwijl de campagne actief is, gaat u terug naar het dashboard, klikt u opnieuw op de campagne en klikt u vervolgens op **[!UICONTROL Preview]** .

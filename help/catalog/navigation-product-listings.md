@@ -16,62 +16,62 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
 >[!NOTE]
 >
->Wanneer u een categorie sorteert op een productkenmerk, worden producten met dezelfde kenmerkwaarden ook gesorteerd op hun _[!UICONTROL Product ID]_in oplopende volgorde.
+>Wanneer u een categorie sorteert op een productkenmerk, worden producten met dezelfde kenmerkwaarden ook in oplopende volgorde gesorteerd op _[!UICONTROL Product ID]_.
 
-![Producten die als een raster worden weergegeven](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
+![ Producten die als net ](./assets/storefront-catalog-page.png){width="700" zoomable="yes"} worden getoond
 
 ## Productaanbiedingen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Catalog]** en kiest u **[!UICONTROL Catalog]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Storefront]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Storefront]** sectie uit.
 
-   ![Configuratieopties voor Storefront](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
+   ![ de configuratieopties van de Storefront ](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [Storefront](../configuration-reference/catalog/catalog.md#storefront) in de _Configuratieverwijzing_.
+   Voor een gedetailleerde lijst van deze opties, zie [ Storefront ](../configuration-reference/catalog/catalog.md#storefront) in de _Verwijzing van de Configuratie_.
 
    >[!NOTE]
    >
-   >De producten correct weergeven en de prijzen ervan afstemmen op _productsortering op prijs_ zorgt u ervoor dat de instellingen voor de prijs in het dialoogvenster [BTW-configuratie](../configuration-reference/sales/tax.md) hebben dezelfde waarde (`Excluding Tax` **of** `Including Tax`). Voor de _[!UICONTROL Calculation Settings]_, controleert u de **[!UICONTROL Catalog Prices]**waarde. En for_[!UICONTROL Price Display Settings]_, controleert u de **[!UICONTROL Display Product Prices in Catalog]** waarde. Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+   >Om producten en hun prijzen correct te tonen volgens _product sorterend door prijs_, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
-1. De standaardinstelling instellen **[!UICONTROL List Mode]** op een van de volgende wijzen:
+1. Stel de standaardwaarde **[!UICONTROL List Mode]** in op een van de volgende opties:
 
    - `Grid Only`
    - `List Only`
    - `Grid (default) / List`
    - `List (default / Grid`
 
-1. Voor **[!UICONTROL Products per Page on Grid Allowed Values]**, voert u het aantal producten in dat u per pagina wilt weergeven wanneer deze in de rasterindeling worden weergegeven.
+1. Voer bij **[!UICONTROL Products per Page on Grid Allowed Values]** het aantal producten in dat u per pagina wilt weergeven wanneer deze in rasterindeling wordt weergegeven.
 
    Als u een selectie van waarden wilt invoeren, scheidt u elk getal met een komma.
 
-1. Voor **[!UICONTROL Products per Page on Grid Default Value]** voert u het standaardaantal producten in dat per pagina in het raster moet worden weergegeven.
+1. Voer bij **[!UICONTROL Products per Page on Grid Default Value]** het standaardaantal producten in dat per pagina in het raster moet worden weergegeven.
 
-1. Voor **[!UICONTROL Products per Page on List Allowed Values]**, voert u het aantal producten in dat u per pagina wilt weergeven wanneer deze in de lijstindeling worden weergegeven.
+1. Voer bij **[!UICONTROL Products per Page on List Allowed Values]** het aantal producten in dat u per pagina wilt weergeven wanneer deze in de lijstindeling worden weergegeven.
 
    Als u een selectie van waarden wilt invoeren, scheidt u elk getal met een komma.
 
-1. Voor **[!UICONTROL Products per page on List Default Value]**, voert u het standaardaantal producten in dat in de lijst per pagina wordt weergegeven.
+1. Voer bij **[!UICONTROL Products per page on List Default Value]** het standaardaantal producten in dat per pagina in de lijst wordt weergegeven.
 
-1. Set **[!UICONTROL Product Listing Sorted by]** aan het standaardattribuut dat aanvankelijk wordt gebruikt om de lijst te sorteren.
+1. Stel **[!UICONTROL Product Listing Sorted by]** in op het standaardkenmerk waarmee de lijst eerst wordt gesorteerd.
 
-1. Als u klanten de optie wilt geven om alle producten weer te geven, stelt u **[!UICONTROL Allow All Products on Page]** tot `Yes`.
+1. Als u klanten de optie wilt geven om alle producten weer te geven, stelt u **[!UICONTROL Allow All Products on Page]** in op `Yes` .
 
-1. Als u alle pagineringsinstellingen wilt behouden terwijl klanten door cataloguslijsten bladeren, stelt u **[!UICONTROL Remember Category Pagination]** tot `Yes`.
+1. Als u alle pagineringsinstellingen wilt behouden terwijl klanten door cataloguslijsten bladeren, stelt u **[!UICONTROL Remember Category Pagination]** in op `Yes` .
 
-   Als u deze instelling inschakelt, blijft het aantal producten dat in een lijst of raster wordt weergegeven behouden wanneer kopers van de ene categorie naar de andere bladeren. Dit veld is standaard ingesteld op `No` omdat het meer geheim voorgeheugenopslag gebruikt en de manier kan beïnvloeden de pagina&#39;s door onderzoeksmotoren worden geïndexeerd.
+   Als u deze instelling inschakelt, blijft het aantal producten dat in een lijst of raster wordt weergegeven behouden wanneer kopers van de ene categorie naar de andere bladeren. Dit veld is standaard ingesteld op `No` omdat het meer cache-opslag gebruikt en invloed kan hebben op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd.
 
-1. Als u een [platte catalogus](catalog-flat.md) (**niet aanbevolen**), doet u het volgende:
+1. Als het gebruiken van a [ vlakke catalogus ](catalog-flat.md) (**geadviseerd niet**), doe het volgende:
 
-   - Als je een lijst met een vaste categorie wilt weergeven, moet je **[!UICONTROL Use Flat Catalog Category]** tot `Yes`.
+   - Stel **[!UICONTROL Use Flat Catalog Category]** in op `Yes` als u een lijst met één categorie producten wilt weergeven.
 
-   - Als u een enkele productaanbieding wilt weergeven, stelt u **[!UICONTROL Use Flat Catalog Product]** tot `Yes`.
+   - Stel **[!UICONTROL Use Flat Catalog Product]** in op `Yes` als u een platte productlijst wilt weergeven.
 
-1. Als u dynamische verwijzingen naar media-elementen in categorie- en product-URL&#39;s wilt toestaan, stelt u **[!UICONTROL Allow Dynamic Media URLs in Products and Categories]** tot `Yes`.
+1. Als u dynamische verwijzingen naar media-elementen in categorie- en product-URL&#39;s wilt toestaan, stelt u **[!UICONTROL Allow Dynamic Media URLs in Products and Categories]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Paginabesturingselementen
 
@@ -88,41 +88,41 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
 De pagineringsinstellingen worden boven en onder aan de lijst weergegeven en bepalen de indeling van de pagineringskoppelingen voor productaanbiedingen. U kunt het aantal verbindingen plaatsen die in de controle verschijnen, en de Volgende en Vorige verbindingen vormen. De pagineringskoppelingen worden alleen weergegeven als de lijst meer producten bevat dan per pagina is toegestaan in de configuratie van de productlijst.
 
-![Besturingselementen voor paginering](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
+![ controles van de Paginering ](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
 
 ### Besturingselementen voor paginering in Storefront
 
 | Besturing | Beschrijving |
 |--- |--- |
-| ![Raster weergeven](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Hiermee geeft u de lijst weer in de indeling Raster of Lijst. |
-| ![Sorteren op](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. De _[!UICONTROL Used for Sorting in Product Listing]_storefront, eigenschap bepaalt welke [productkenmerken](../catalog/product-attributes.md) kan worden gebruikt om de lijst te sorteren. |
-| ![Tonen per pagina](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Hiermee bepaalt u hoeveel producten er per pagina worden weergegeven. |
-| ![Pagineringskoppelingen](./assets/control-pagination.png) | Pagineringskoppelingen - Navigatiekoppelingen naar andere pagina&#39;s. |
+| ![ Net van de Vertoning ](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Geeft de lijst weer in de indeling Raster of Lijst. |
+| ![ Soort door ](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. Het _[!UICONTROL Used for Sorting in Product Listing]_storefront bezit bepaalt welke [ productattributen ](../catalog/product-attributes.md) kunnen worden gebruikt om de lijst te sorteren. |
+| ![ toon per pagina ](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Hiermee bepaalt u hoeveel producten er per pagina worden weergegeven. |
+| ![ de verbindingen van de Paginering ](./assets/control-pagination.png) | Pagineringskoppelingen - Navigatiekoppelingen naar andere pagina&#39;s. |
 
 {style="table-layout:auto"}
 
 ### De pagineringsbesturingselementen configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek de archiefweergave die u wilt configureren en, in het dialoogvenster **[!UICONTROL Action]** kolom, klik **[!UICONTROL Edit]**.
+1. Zoek de archiefweergave die u wilt configureren en klik in de kolom **[!UICONTROL Action]** op **[!UICONTROL Edit]** .
 
-1. Onder **[!UICONTROL Other Settings]**, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Pagination]** sectie.
+1. Onder **[!UICONTROL Other Settings]**, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Pagination]** sectie.
 
-   ![Paginering](./assets/config-design-pagination.png){width="600" zoomable="yes"}
+   ![ Paginering ](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
-   Zie voor meer informatie over deze instellingen [Ontwerpconfiguratie](../content-design/configuration.md).
+   Voor meer informatie over deze montages, zie {de Configuratie van het 0} Ontwerp ](../content-design/configuration.md).[
 
-1. Voor **[!UICONTROL Pagination Frame]**, ga het aantal verbindingen in dat u in de pagineringscontrole wilt verschijnen.
+1. Voer bij **[!UICONTROL Pagination Frame]** het aantal koppelingen in dat u wilt weergeven in het pagineringsbesturingselement.
 
-1. Voor **[!UICONTROL Pagination Frame Skip]**, ga het aantal verbindingen in dat u vooruit wilt overslaan alvorens de volgende reeks verbindingen in de pagineringscontrole te tonen.
+1. Voer bij **[!UICONTROL Pagination Frame Skip]** het aantal koppelingen in dat u wilt overslaan voordat u de volgende set koppelingen in het pagineringsbesturingselement weergeeft.
 
-   Als het pagineringskader bijvoorbeeld vijf koppelingen heeft en u naar de volgende vijf koppelingen wilt gaan, hoeveel koppelingen wilt u dan overslaan? Als u de waarde instelt op vier (`4`), is de laatste koppeling van de vorige set de eerste koppeling in de volgende set.
+   Als het pagineringskader bijvoorbeeld vijf koppelingen heeft en u naar de volgende vijf koppelingen wilt gaan, hoeveel koppelingen wilt u dan overslaan? Als u de waarde op vier (`4`) plaatst, is de laatste verbinding van de vorige reeks de eerste verbinding in de volgende reeks.
 
-1. Voor **[!UICONTROL Anchor Text for Previous]**, voert u de tekst in die u voor de koppeling Vorige wilt weergeven.
+1. Voer bij **[!UICONTROL Anchor Text for Previous]** de tekst in die u voor de koppeling Vorige wilt weergeven.
 
    Laat leeg om de standaardpijl te gebruiken.
 
-1. Voor **[!UICONTROL Anchor Text for Next]** Voer de tekst in die u voor de koppeling Volgende wilt weergeven. Laat leeg om de standaardpijl te gebruiken.
+1. Voer bij **[!UICONTROL Anchor Text for Next]** de tekst in die u voor de koppeling Volgende wilt weergeven. Laat leeg om de standaardpijl te gebruiken.
 
-1. Klik op **[!UICONTROL Save Configuration]**.
+1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.

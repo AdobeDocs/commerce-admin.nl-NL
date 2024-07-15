@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Optimalisatie van afbeeldingen met geanimeerd GIF wordt niet ondersteund. Dergelijke afbeeldingen kunnen hun animatie verliezen na het optimalisatieproces van de afbeelding. Om dit te voorkomen, moet u ervoor zorgen dat de afbeeldingsgrootte van het geanimeerde GIF zich onder de maximale breedte en hoogte bevindt die door de [[!UICONTROL Media Gallery Image Optimization] configuratie-instellingen](../content-design/media-gallery-image-optimization.md).
+>Optimalisatie van afbeeldingen met geanimeerd GIF wordt niet ondersteund. Dergelijke afbeeldingen kunnen hun animatie verliezen na het optimalisatieproces van de afbeelding. Om dit te vermijden, zorg ervoor de geanimeerde grootte van het GIF onder de maximumbreedte en hoogte is die door de [[!UICONTROL Media Gallery Image Optimization] configuratiemontages ](../content-design/media-gallery-image-optimization.md) wordt bepaald.

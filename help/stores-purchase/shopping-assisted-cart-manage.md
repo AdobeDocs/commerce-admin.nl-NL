@@ -14,9 +14,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de winkel zijn aangemeld bij de klant om de informatie beschikbaar te stellen. Als de klant geen account heeft, kunt u [één maken](../customers/account-create.md).
+Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de winkel zijn aangemeld bij de klant om de informatie beschikbaar te stellen. Als de klant geen rekening heeft, kunt u [ tot één ](../customers/account-create.md) leiden.
 
-![Winkelwagentje in de klantenaccount](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
+![ het Winkelen Kart binnen in de klantenrekening ](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
 ## Handelingencontrole
 
@@ -32,40 +32,40 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 | Knop | Beschrijving |
 |--- |--- |
 | [!UICONTROL Clear my shopping cart] | Wist het huidige winkelwagentje van alle producten. |
-| [!UICONTROL Update Items and Quantities|]Voer de vereiste hoeveelheid in het dialoogvenster **[!UICONTROL Qty]** het aantal artikelen in het winkelwagentje bij te werken. |
+| [!UICONTROL Update Items and Quantities|] ga het vereiste aantal op het **[!UICONTROL Qty]** gebied in en werk het aantal punten in het karretje bij. |
 | [!UICONTROL Add selections to my cart] | Hiermee voegt u producten van alle secties toe aan het winkelwagentje. |
 
 {style="table-layout:auto"}
 
 ## Controleren of de klant is aangemeld
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
 
    Alle bezoekers van de winkel en aangemelde klanten worden in de lijst weergegeven.
 
-   ![Klanten nu online](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![ Klanten nu online ](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
 ## Bied assistentie bij winkelen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Open in de lijst de klantrecord in de bewerkingsmodus.
 
    >[!TIP]
    >
-   >Als u snel de gegevens van de klant wilt vinden, gebruikt u de [Filters](../getting-started/admin-grid-controls.md) controle.
+   >Om het klantenverslag in een haast te vinden, gebruik de [ controle van Filters ](../getting-started/admin-grid-controls.md).
 
-   In het klantenprofiel onder _[!UICONTROL Personal Information]_de_[!UICONTROL Last Logged In]_ datum en tijd geven aan dat de klant online is.
+   In het klantprofiel onder _[!UICONTROL Personal Information]_toont de datum en tijd van_[!UICONTROL Last Logged In]_ dat de klant online is.
 
-   ![Klantprofiel van een online klant](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
+   ![ profiel van de Klant van een online klant ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. Als u de modus voor ondersteund winkelen wilt inschakelen, klikt u op **[!UICONTROL Manage Shopping Cart]** in de bovenste knopbalk.
 
-   ![Assistent-winkelmodus](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
+   ![ Hulp het winkelen wijze ](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
 
 ## Producten aan winkelwagentje per kenmerk toevoegen
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Products]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Products]** sectie uit.
 
 1. Een product zoeken met een van de filters boven aan elke kolom.
 
@@ -77,61 +77,61 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 
 1. Klik op het product dat u wilt bestellen.
 
-   Met deze handeling wordt de record geselecteerd en ingesteld **[!UICONTROL Quantity]** op de standaardwaarde van `1`.
+   Met deze handeling wordt de record geselecteerd en wordt **[!UICONTROL Quantity]** ingesteld op de standaardwaarde van `1` .
 
 1. Werk indien nodig de geordende hoeveelheid bij.
 
-1. Klik links boven het raster op **[!UICONTROL Add selections to my cart]**.
+1. Klik links boven het raster op **[!UICONTROL Add selections to my cart]** .
 
-   ![Product toevoegen aan winkelwagentje](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"}
+   ![ voeg Product aan Kar ](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"} toe
 
    Het regelitem wordt boven aan de pagina toegevoegd aan het winkelwagentje.
 
-   ![Winkelwagentje bijgewerkt](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
+   ![ Bijgewerkte Kar ](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
 
 ### Een product met configuratie toevoegen
 
-Er zijn drie soorten producten die moeten worden gevormd alvorens aan de kar toe te voegen: `Bundle Product`, `Configurable Product`, en `Grouped Product`.
+Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan de winkelwagentje toevoegt: `Bundle Product`, `Configurable Product` en `Grouped Product` .
 
 1. Klik in het raster op **[!UICONTROL Configure]** naast de productnaam.
 
-   ![Het product configureren](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
+   ![ vorm het product ](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
-1. In de _Bijbehorende producten_ , kiest u elke productoptie om het item te beschrijven dat u wilt bestellen, voert u de optie **[!UICONTROL Quantity]** en klik op **[!UICONTROL OK]**.
+1. In de _Verwante dialoog van Producten_, verkies elke productoptie om het punt te beschrijven dat moet worden bevolen, ga **[!UICONTROL Quantity]** in, en klik **[!UICONTROL OK]**.
 
    Het product wordt geselecteerd met een vinkje en de geordende hoeveelheid wordt weergegeven in het raster.
 
-1. Als u het product aan het winkelwagentje wilt toevoegen, klikt u op **[!UICONTROL Add selections to my cart]**.
+1. Klik op **[!UICONTROL Add selections to my cart]** om het product aan het winkelwagentje toe te voegen.
 
-   ![Configureerbaar product in de kar](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
+   ![ Configureerbaar product in de kar ](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
 1. Werk zo nodig de productopties in het winkelwagentje bij:
 
    - Klik op **[!UICONTROL Configure]**.
 
-   - Werk de opties bij en klik vervolgens op **[!UICONTROL OK]**.
+   - Werk de opties bij en klik op **[!UICONTROL OK]** .
 
 ## Product toevoegen door SKU
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Add to Shopping Cart by SKU]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Add to Shopping Cart by SKU]** sectie uit.
 
-1. Producten afzonderlijk toevoegen door **[!UICONTROL SKU]** of voeg producten toe door een CSV-bestand te uploaden.
+1. Voeg producten afzonderlijk toe door **[!UICONTROL SKU]** of voeg producten toe door een CSV-bestand te uploaden.
 
 ### Items afzonderlijk toevoegen door SKU
 
-1. Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** van het te bestellen item.
+1. Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** in van het item dat moet worden geordend.
 
-1. Als u een ander product wilt bestellen, klikt u op **[!UICONTROL Add another]**.
+1. Klik op **[!UICONTROL Add another]** als u een ander product wilt bestellen.
 
-   ![Producten toevoegen door SKU](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}
+   ![ voegt Producten door SKU ](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Add selections to my cart]**.
 
-1. Als het item een configureerbaar product is, kiest u de productopties wanneer u hierom wordt gevraagd en klikt u op **[!UICONTROL Add to Shopping Cart]**.
+1. Als het item een configureerbaar product is, kiest u de productopties wanneer u hierom wordt gevraagd en klikt u op **[!UICONTROL Add to Shopping Cart]** .
 
 ### Producten toevoegen door een CSV-bestand te uploaden
 
-1. Een [csv-bestand](../systems/data-csv.md) met de items die aan het winkelwagentje moeten worden toegevoegd.
+1. Bereid a [ csv- dossier ](../systems/data-csv.md) met de punten voor die aan de kar moeten worden toegevoegd.
 
    Het bestand mag slechts twee kolommen bevatten, met `sku` en `qty` in de koptekst.
 
@@ -145,7 +145,7 @@ Er zijn drie soorten producten die moeten worden gevormd alvorens aan de kar toe
 
 U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van een klant en onlangs bekeken, vergeleken of geordende objecten. Het aantal items in elke sectie wordt tussen haakjes achter de sectiekop weergegeven.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) een van de volgende secties:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) één van de volgende secties uit:
 
    - [!UICONTROL Wish List]
    - [!UICONTROL Products in the Comparison List]
@@ -153,21 +153,21 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
    - [!UICONTROL Recently Viewed Products]
    - [!UICONTROL Last Ordered Items]
 
-1. Selecteer in het raster elk product dat u wilt bestellen en voer de **[!UICONTROL Quantity]**.
+1. Selecteer in het raster elk product dat u wilt bestellen en voer de **[!UICONTROL Quantity]** in.
 
-1. Als u de opties voor een configureerbaar product wilt invoeren, klikt u op **[!UICONTROL Configure]** en stelt de productopties zo nodig in.
+1. Als u de opties voor een configureerbaar product wilt invoeren, klikt u op **[!UICONTROL Configure]** en stelt u de gewenste opties in.
 
 1. Klik op **[!UICONTROL Add selections to my cart]**.
 
 1. Pas een of meer couponcodes toe, indien beschikbaar:
 
-   - Voor **[!UICONTROL Apply Coupon Code]** Voer een geldige waardeboncode in.
+   - Voer bij **[!UICONTROL Apply Coupon Code]** een geldige couponcode in.
 
-   - Klik op de knop _Toepassen_ ( ![Pijlpictogram](../assets/icon-apply-arrow.png) ).
+   - Klik _toepassen_ ( ![ het pictogram van de Pijl ](../assets/icon-apply-arrow.png)) pijl.
 
 1. Pas de geordende hoeveelheid naar wens aan:
 
-   - In de **[!UICONTROL Qty]** vermeld het juiste bedrag in de kolom van het aan te passen product.
+   - Voer in de kolom **[!UICONTROL Qty]** van het aan te passen product de juiste hoeveelheid in.
 
    - Klik op **[!UICONTROL Update Items and Quantities]**.
 
@@ -175,10 +175,10 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
 1. Klik op **[!UICONTROL Create Order]**.
 
-   De _[!UICONTROL Create New Order]_op de pagina worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
+   Op de pagina _[!UICONTROL Create New Order]_worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
 
 1. Voltooi de verzend- en betalingsgegevens.
 
 1. Klik op **[!UICONTROL Submit Order]**.
 
-Zie voor meer informatie [Een bestelling maken](customer-account-create-order.md).
+Meer leren, zie [ een orde ](customer-account-create-order.md) creëren.

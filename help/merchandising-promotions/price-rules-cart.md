@@ -18,23 +18,23 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 >
 >Als de regel voor het couponwinkelwagentje voorwaarden bevat die afhandelingsopties specificeren, zoals bepaalde verzend- of betalingsmethoden, wordt alleen aan de voorwaarden voldaan bij afhandeling nadat de specifieke verzend-/betalingsmethoden zijn geselecteerd. In dit geval kan de coupon worden toegepast bij afhandeling in de laatste stap.
 
-![Voorbeeld van storefront - winkelwagentje past coupon toe](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![ Voorbeeld storefront - kart past coupon toe ](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## Toegangsprijsregels
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
-   ![Winkelprijsregel](./assets/price-rule-cart.png){width="700" zoomable="yes"}
+   ![ de prijsregel van de Kar ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
-1. Als u veel regels hebt, gebruikt u de filteropties boven aan elke kolom om de lijst te stroomlijnen en klikt u op **[!UICONTROL Search]** om de filters toe te passen
+1. Als u veel regels hebt, gebruikt u de filteropties boven aan elke kolom om de lijst te stroomlijnen en klikt u op **[!UICONTROL Search]** om de filters toe te passen.
 
-1. Om alle filteropties te ontruimen en de volledige lijst te tonen, klik **[!UICONTROL Reset Filter]**.
+1. Als u alle filteropties wilt wissen en de volledige lijst wilt weergeven, klikt u op **[!UICONTROL Reset Filter]** .
 
 1. Eigenschappen voor een regel bijwerken:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Klik op **[!UICONTROL Edit]** om de pagina Regelgegevens weer te geven.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de pagina van de Informatie van de Regel te tonen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Alleen Magento Open Source) Klik op de regel in de lijst om de pagina Regelgegevens weer te geven.
+   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de pagina van de Informatie van de Regel te tonen.
 
    Daar kunt u de montages voor de regel (gelijkend op het creëren van een regel) veranderen.
 
@@ -46,14 +46,14 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 | [!UICONTROL Rule] | Voer tekst in om de lijst te filteren op basis van de regelnaam die is gedefinieerd toen de regel werd gemaakt. |
 | [!UICONTROL Coupon Code] | Voer tekst in om de lijst te filteren op basis van de codenaam die is gedefinieerd toen de regel werd gemaakt. |
 | [!UICONTROL Priority] | Vrije-tekstveld dat de lijst filtert op basis van de prioriteit die voor een regel is gedefinieerd. |
-| [!UICONTROL Status] | Gebruik deze optie om de lijst te filteren op basis van regelstatus (`Active` of `Inactive`). |
+| [!UICONTROL Status] | Gebruik deze optie om de lijst te filteren op regelstatus (`Active` of `Inactive`). |
 | [!UICONTROL Web Site] | Met deze optie filtert u de lijst op basis van websites die voor een regel zijn gedefinieerd. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Klik op **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_pagina en werk de regelinstellingen bij (vergelijkbaar met het maken van een regel). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (Alleen Magento Open Source) De dynamische kalendervelden gebruiken (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filteren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (Alleen Magento Open Source) De dynamische kalendervelden gebruiken (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filteren die op de einddatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL Action] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_pagina te tonen en de regelmontages (gelijkend op het creëren van een regel) bij te werken. |
+| [!UICONTROL Start] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL End] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die toen de regel werd gecreeerd. |
 
 {style="table-layout:auto"}
 
 ## Real-Time CDP-publiek gebruiken om regels voor de kartprijs te informeren
 
-Leer hoe u [activate](../customers/audience-activation.md) Real-Time CDP stuurt een publiek naar je Adobe Commerce-exemplaar om de regels voor de winkelwagenprijs te informeren.
+Leer hoe te [ ](../customers/audience-activation.md) het publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om de regels van de wortelprijs te informeren.

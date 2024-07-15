@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Security] &gt; [!UICONTROL 2FA] pagina van Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Security] &gt; [!UICONTROL 2FA] van Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
 source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Opslagruimten die verificatie voor Adobe Identity Management Services (IMS) hebben ingeschakeld, hebben native Adobe Commerce en Magento Open Source tweefelige verificatie (2FA) uitgeschakeld. Admin-gebruikers die zich bij hun Adobe Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [Overzicht van Adobe Commerce integreren met Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Opslagruimten die verificatie voor Adobe Identity Management Services (IMS) hebben ingeschakeld, hebben native Adobe Commerce en Magento Open Source tweefelige verificatie (2FA) uitgeschakeld. Admin-gebruikers die zich bij hun Adobe Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 {{config}}
 
-Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verificatie (2FA)](../../systems/security-two-factor-authentication.md) in de _Admin Systems Guide_.
+Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor authentificatie (2FA) ](../../systems/security-two-factor-authentication.md) in de _Gids van Systemen Admin_.
 
 ## [!UICONTROL General]
 
-![Algemeen](./assets/2fa-general.png)<!-- zoom -->
+![ Algemeen ](./assets/2fa-general.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Algemeen | Wijst op de twee-factor authentificatiemethodes die u vereist. Als u meer dan één leverancier selecteert, wordt elke gebruiker vereist om elke methode te vormen 2FA de volgende tijd zij login. |
-| [!UICONTROL Configuration Email URL for Web API] | Algemeen | Voor aangepaste implementaties, de URL voor een alternatieve e-mailconfiguratiekoppeling waarnaar wordt verzonden _Beheerder_ gebruikers bij eerste aanmelding. Gebruik de tijdelijke aanduiding in de e-mailsjabloon `:tfat` om aan te geven waar het token wordt geïnjecteerd. |
+| [!UICONTROL Configuration Email URL for Web API] | Algemeen | Voor douaneimplementaties, URL voor een afwisselende verbinding van de e-mailconfiguratie die naar _Admin_ gebruikers bij eerste login wordt verzonden. In het e-mailmalplaatje, gebruik placeholder `:tfat` om erop te wijzen waar het teken wordt ingespoten. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
-![Google](./assets/2fa-google.png)<!-- zoom -->
+![ Google ](./assets/2fa-google.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) het systeem het eenmalige wachtwoord (OTP) van een beheerder accepteert nadat het is verlopen. Kan niet hoger zijn dan het leven van één enkele OTP (gewoonlijk 30 seconden). Standaard: `29` |
 
@@ -43,33 +43,33 @@ Zie voor meer informatie over het wijzigen van deze instellingen [2-factor verif
 
 ## [!UICONTROL Duo Security]
 
-![Duo Security](./assets/2fa-duo-security.png)<!-- zoom -->
+![ Duo Veiligheid ](./assets/2fa-duo-security.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Algemeen | De integratiesleutel van uw [!DNL Duo Security] account. |
+| [!UICONTROL Integration Key] | Algemeen | De integratietoets van uw [!DNL Duo Security] -account. |
 | [!UICONTROL Secret Key] | Algemeen | De geheime sleutel van uw [!DNL Duo Security] account. |
-| [!UICONTROL API Hostname] | Algemeen | De API-hostnaam van uw [!DNL Duo Security] account. |
+| [!UICONTROL API Hostname] | Algemeen | De API-hostnaam van uw [!DNL Duo Security] -account. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
-![Auteur](./assets/2fa-authy.png)<!-- zoom -->
+![ Authy ](./assets/2fa-authy.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL API Key] | Algemeen | De API-sleutel van uw [!DNL Authy] account. |
-| [!UICONTROL OneTouch Message] | Algemeen | Het bericht dat wordt weergegeven in het dialoogvenster [!DNL Authy] authenticator bij aanmelden. Standaard: `Login request to your Magento Admin` |
+| [!UICONTROL API Key] | Algemeen | De API-sleutel van uw [!DNL Authy] -account. |
+| [!UICONTROL OneTouch Message] | Algemeen | Het bericht dat bij het aanmelden in de [!DNL Authy] -verificator wordt weergegeven. Standaard: `Login request to your Magento Admin` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
-![U2F-sleutel](./assets/2fa-u2f-key.png)<!-- zoom -->
+![ Sleutel U2F ](./assets/2fa-u2f-key.png)<!-- zoom -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL WebApi Challenge Domain] | Algemeen | Het domein dat wordt gebruikt aan kwestie en proces [!DNL WebAuthn] uitdagingen voor douaneimplementaties WebAPI. |
+| [!UICONTROL WebApi Challenge Domain] | Algemeen | Het domein dat wordt gebruikt om [!DNL WebAuthn] uitdagingen voor douaneimplementaties uit te geven en te verwerken WebAPI. |
 
 {style="table-layout:auto"}

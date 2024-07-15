@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # Creditmemo&#39;s
 
-A _creditnota_ is een document waarin het bedrag wordt weergegeven dat de klant verschuldigd is voor een volledige of gedeeltelijke terugbetaling. Het bedrag kan op een aankoop worden toegepast of aan de klant worden terugbetaald. U kunt een creditnota voor één enkele orde, of voor veelvoudige orden als partij drukken. Voordat een creditnota kan worden afgedrukt, moet deze eerst voor de bestelling worden gegenereerd. De _Creditnota&#39;s_ Deze pagina bevat een overzicht van de creditmemo&#39;s die aan klanten zijn uitgegeven.
+A _creditmemo_ is een document dat het bedrag toont dat de klant voor een volledige of gedeeltelijke terugbetaling verschuldigd is. Het bedrag kan op een aankoop worden toegepast of aan de klant worden terugbetaald. U kunt een creditnota voor één enkele orde, of voor veelvoudige orden als partij drukken. Voordat een creditnota kan worden afgedrukt, moet deze eerst voor de bestelling worden gegenereerd. De _Memo&#39;s van het Krediet_ pagina maakt een lijst van de kredietmemo&#39;s die aan klanten zijn uitgegeven.
 
-![Creditnota&#39;s](./assets/credit-memos.png){width="700" zoomable="yes"}
+![ Memo&#39;s van de Krediet ](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## Restitutiemethode
 
-De [betalingsmethode](payments.md) voor de volgorde bepaalt in zekere mate de methode waarmee u een bestelling terugbetaalt.
+De [ betalingsmethode ](payments.md) voor de orde bepaalt, in zekere mate, de methode waardoor u een orde terugbetaalt.
 
 U kunt bestellingen op drie manieren terugbetalen:
 
 - Creditering account - Betalingen met een creditrekening kunnen worden terugbetaald als een creditering van de rekening:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (alleen Adobe Commerce) [Winkelkrediet](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account) (offlinemethode)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Beschikbaar bij Adobe Commerce B2B) [Bedrijfskrediet](../b2b/credit-company.md)
-- [Online restitutie](payments.md#online-payment-methods)—Bestellingen die via een creditcard worden betaald via een betaalgateway, zoals PayPal of Braintree, worden online terugbetaald via de betalingsprocessor.
-- [Offline restitutie](payments.md#offline-payment-methods)—Bestellingen die onder rembours worden betaald ([COD](cash-on-delivery.md)) of door [cheque of postwissel](check-money-order.md) worden offline terugbetaald.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) [ Krediet van de Opslag ](../customers/store-credit-using.md)
+   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) (off-line methode)
+   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) [ Bedrijfskrediet ](../b2b/credit-company.md)
+- [ Online terugbetaling ](payments.md#online-payment-methods) - de Orders die door creditcard door een betaalgateway, zoals PayPal of Braintree worden betaald, worden online teruggegeven via de betalingsbewerker.
+- [ Off-line teruggave ](payments.md#offline-payment-methods) - Orders die door Geld op Levering ([ CZV ](cash-on-delivery.md)) of door [ controle of postorde ](check-money-order.md) worden betaald offline terugbetaald.
 
 U kunt voor elke betalingsmethode een offlinerestitutie of een creditering van de account (indien ingeschakeld) uitgeven.
 
-Een bestelling die onder rembours is betaald ([COD](cash-on-delivery.md)) of door [cheque of postwissel](check-money-order.md) wordt offline terugbetaald.
+Een orde die door Geld op Levering ([ CZV ](cash-on-delivery.md)) of door [ controle of postorde ](check-money-order.md) werd betaald wordt offline teruggegeven.
 
 ## Terugbetalingsworkflow
 
-1. **Betalingsactie** - Als de [Betalingsactie](credit-memo-create.md#payment-action-setting) configuratie is ingesteld op `Authorize`, moet u een factuur genereren voordat u een creditcard maakt. Ga verder met stap 2. Indien ingesteld op `Authorize and Capture`, er is al een factuur gegenereerd. Ga verder met stap 3.
+1. **de actie van de Betaling** - als de [ configuratie van de Actie van de Betaling ](credit-memo-create.md#payment-action-setting) aan `Authorize` wordt geplaatst, moet u een factuur produceren alvorens een krediet memo-te creëren te gaan aan stap 2. Indien ingesteld op `Authorize and Capture` , is al een factuur gegenereerd. Ga verder met stap 3.
 
-1. **Factuur genereren** - [Een factuur maken](invoices.md#create-an-invoice) voor de bestelling, zodat u de klant een terugbetaling kunt sturen via creditnota.
+1. **produceer factuur** - [ creeer een factuur ](invoices.md#create-an-invoice) voor de orde, zodat u een terugbetaling naar de klant via creditnota kunt verzenden.
 
-1. **Creditnota maken** - [Een creditmemo uitgeven](credit-memo-create.md) in de Admin [kredietaankoop](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)of een [cheque of postwissel](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
+1. **creeer creditnota** - [ geef een creditnota ](credit-memo-create.md) in Admin voor a [ kredietaankoop ](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) uit, of a [ controle of geldorde ](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
 
 ## Kolombeschrijvingen
 
@@ -53,7 +53,7 @@ Een bestelling die onder rembours is betaald ([COD](cash-on-delivery.md)) of doo
 | [!UICONTROL Bill-to Name] | De naam van de persoon die verantwoordelijk is voor de betaling van de beschikking. |
 | [!UICONTROL Status] | Geeft de huidige status van een aanvraag voor een creditcard aan. |
 | [!UICONTROL Refunded] | Het totale bedrag dat van de orde wordt terugbetaald. |
-| [!UICONTROL Actions] | **[!UICONTROL View]** - Opent het verzoek om een creditnota en houdt een overzicht bij van de onderhandelingen tussen koper en verkoper. |
+| [!UICONTROL Actions] | **[!UICONTROL View]** - Hiermee opent u het verzoek om een creditnota en houdt u een overzicht bij van de onderhandelingen tussen koper en verkoper. |
 | [!UICONTROL Order Status] | Hiermee wordt de status van de volgorde aangegeven. |
 | [!UICONTROL Purchased From] | Geeft de website-, opslag- en opslagweergave aan waarin de volgorde is geplaatst. |
 | [!UICONTROL Billing Address] | Het factureringsadres van de klant die de orde plaatste. |

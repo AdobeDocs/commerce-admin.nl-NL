@@ -5,7 +5,7 @@ exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -14,55 +14,55 @@ ht-degree: 0%
 
 Verschillende e-mailberichten worden geactiveerd door de gebeurtenissen met betrekking tot een bestelling en de configuratie is vergelijkbaar. Zorg ervoor dat u het opslagcontact identificeert dat als afzender van het bericht verschijnt, het te gebruiken e-mailmalplaatje, en iedereen anders die een exemplaar van het bericht moet ontvangen. Verkoop-e-mails kunnen worden verzonden wanneer ze worden geactiveerd door een gebeurtenis of door een vooraf bepaald interval.
 
-![Verkoopconfiguratie - e-mails over verkoop](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
+![ de configuratie van de Verkoop - verkoop e-mails ](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
 
 ## Stap 1. E-mailsjablonen bijwerken
 
-Zorg ervoor dat u de [e-mailheader](../systems/email-template-custom.md#header-template) een sjabloon die uw merk weerspiegelt en zo nodig de andere e-mailsjablonen. Voor een volledige lijst met sjablonen raadpleegt u [E-mailsjablonen](../systems/email-templates.md).
+Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-template) malplaatje bij te werken zodat het uw merk, en de andere e-mailmalplaatjes zoals nodig weerspiegelt. Voor een volledige lijst van malplaatjes, zie [ E-mailmalplaatjes ](../systems/email-templates.md).
 
 ## Stap 2. Het type verzending kiezen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Sales Emails]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales Emails]** .
 
-1. Indien nodig uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de  **[!UICONTROL General Settings]** sectie.
+1. Indien noodzakelijk, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** sectie uit.
 
-   ![Verkoopconfiguratie - algemene instellingen voor e-mail voor verkoop](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![ configuratie van de Verkoop - verkoop e-mail algemene montages ](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
-   Standaard is Asynchroon verzenden ingesteld op `Disable`. Als u de systeeminstelling wilt wijzigen, wist u de knop **[!UICONTROL Use system value]** selectievakje en set **[!UICONTROL Asynchronous sending]** op een van de volgende wijzen:
+   Standaard is Asynchroon verzenden ingesteld op `Disable` . Als u de systeeminstelling wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit en stelt u **[!UICONTROL Asynchronous sending]** in op een van de volgende opties:
 
-   - `Disable` - Verzendt een e-mail over de verkoop wanneer deze door een gebeurtenis wordt geactiveerd.
-   - `Enable` - Verstuurt verkoopberichten op vooraf bepaalde, regelmatige intervallen.
+   - `Disable` - Verstuurt een e-mail over de verkoop wanneer deze door een gebeurtenis wordt geactiveerd.
+   - `Enable` - Verzendt een e-mail met vooraf bepaalde, regelmatige intervallen.
 
-   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [Best practices voor configuratie voor verwerking van bestellingen](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in Adobe Commerce Support Knowledge Base.
+   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [ beste praktijken van de Configuratie voor ordeverwerking ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in de Kennisbank van de Steun van Adobe Commerce.
 
 ## Stap 3. Voer de gegevens voor elk e-mailbericht in
 
-1. Indien nodig uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie.
+1. Indien noodzakelijk, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
 
-   ![Verkoopconfiguratie - e-mailbestelling voor verkoop](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![ configuratie van de Verkoop - verkoop e-mailorde ](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
-1. Controleren of **[!UICONTROL Enabled]** is ingesteld op `Yes` (standaard).
+1. Controleer of **[!UICONTROL Enabled]** is ingesteld op `Yes` (standaardwaarde).
 
-1. Set **[!UICONTROL New Order Confirmation Email]** aan het opslagcontact dat als afzender van het bericht verschijnt.
+1. Stel **[!UICONTROL New Order Confirmation Email]** in op de opslagcontactpersoon die wordt weergegeven als de afzender van het bericht.
 
-1. Set **[!UICONTROL New Order Confirmation Template]** naar de sjabloon die wordt gebruikt voor de e-mail die naar geregistreerde klanten wordt verzonden.
+1. Stel **[!UICONTROL New Order Confirmation Template]** in op de sjabloon die wordt gebruikt voor het e-mailbericht dat naar geregistreerde klanten wordt verzonden.
 
-1. Set **[!UICONTROL New Order Confirmation Template for Guest]** naar de sjabloon die wordt gebruikt voor het e-mailbericht dat wordt verzonden naar gasten die geen account bij uw winkel hebben.
+1. Stel **[!UICONTROL New Order Confirmation Template for Guest]** in op de sjabloon die wordt gebruikt voor het e-mailbericht dat wordt verzonden naar gasten die geen account bij uw winkel hebben.
 
-1. Voor **[!UICONTROL Send Order Email Copy To]**, voert u het e-mailadres in van iedereen die een kopie van de nieuwe bestelling per e-mail ontvangt.
+1. Voer bij **[!UICONTROL Send Order Email Copy To]** het e-mailadres in van iedereen die een kopie van de e-mail met de nieuwe bestelling moet ontvangen.
 
    Als u een kopie naar meerdere ontvangers verzendt, scheidt u elk adres met een komma.
 
-1. Set **[!UICONTROL Send Order Email Copy Method]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Send Order Email Copy Method]** in op een van de volgende opties:
 
-   - `Bcc` - verzendt een _blinde, hoffelijke kopie_ door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant is verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-   - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
+   - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
+   - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order Comments]** en herhaalt u deze stappen.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order Comments]** sectie uit en herhaal deze stappen.
 
-   ![Verkoopconfiguratie - Opmerkingen bij verkooporders](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
+   ![ de configuratie van de Verkoop - de opmerkingen van de de ordeorde van de Verkoop ](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
 
 1. Voltooi de configuratie voor de overige e-mailtypen voor de verkoop:
 
@@ -70,6 +70,6 @@ Zorg ervoor dat u de [e-mailheader](../systems/email-template-custom.md#header-t
    - **[!UICONTROL Shipment]** / **[!UICONTROL Shipment Comments]**
    - **[!UICONTROL Credit Memo]** / **[!UICONTROL Credit Memo Comments]**
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-   Klik op de knop [Cachebeheer](../systems/cache-management.md) in het bericht boven aan de werkruimte en wis alle ongeldige caches.
+   Wanneer ertoe aangezet, klik de ](../systems/cache-management.md) verbinding van het Beheer van het Geheime voorgeheugen [ in het bericht bij de bovenkant van de werkruimte en ontruim alle ongeldige geheime voorgeheugens.

@@ -16,16 +16,16 @@ Verborgen categorieën kunnen op verschillende manieren worden gebruikt. U zou e
 
 ## Verborgen categorieën maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Selecteer in de categoriestructuur de categorie die u wilt verbergen en ga als volgt te werk:
 
-   - Set **[!UICONTROL Is Active]** tot `Yes`.
-   - Set **[!UICONTROL Include in Menu]** tot `No`.
+   - Stel **[!UICONTROL Is Active]** in op `Yes` .
+   - Stel **[!UICONTROL Include in Menu]** in op `No` .
 
-1. In de **[!UICONTROL Display Settings]** sectie, set **[!UICONTROL Anchor]** tot `No`.
+1. Stel **[!UICONTROL Anchor]** in op `No` in de sectie **[!UICONTROL Display Settings]** .
 
-   ![Verborgen categorie](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![ Verborgen categorie ](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    De verborgen categorie is actief, maar wordt niet weergegeven in het bovenste menu of in gelaagde navigatie.
 
@@ -35,9 +35,9 @@ Verborgen categorieën kunnen op verschillende manieren worden gebruikt. U zou e
    >
    >Hoewel de categorie verborgen is, kunt u onderliggende subcategorieën maken en deze activeren.
 
-   - Set **[!UICONTROL Enable Category]** tot `Yes`.
-   - In de **[!UICONTROL Display Settings]** sectie, set **[!UICONTROL Anchor]** tot `Yes`.
+   - Stel **[!UICONTROL Enable Category]** in op `Yes` .
+   - Stel **[!UICONTROL Anchor]** in op `Yes` in de sectie **[!UICONTROL Display Settings]** .
 
    Als actieve categorieën kunt u nu een koppeling maken naar deze categorieën vanuit andere locaties in uw winkel, maar deze worden niet weergegeven in het menu.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.

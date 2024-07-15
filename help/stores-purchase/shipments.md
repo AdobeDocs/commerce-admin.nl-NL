@@ -5,18 +5,18 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
 
 # Overbrengingen
 
-De _[!UICONTROL Shipments]_In het rooster wordt een overzicht gegeven van alle facturen die voor verzending zijn opgesteld. Een ladingsverslag kan worden geproduceerd wanneer een orde is [gefactureerd](invoices.md) of hoger.
+Het _[!UICONTROL Shipments]_-raster bevat de verzendrecord van alle facturen die zijn voorbereid voor verzending. Een ladingsverslag kan worden geproduceerd wanneer een orde [ ](invoices.md) of later wordt gefactureerd.
 
-Adobe Commerce en Magento Open Source ondersteunen gedeeltelijke en volledige verzending van bestellingen, met extra opties beschikbaar van [Inventory management](../inventory-management/introduction.md) en extensies van derden.
+Adobe Commerce en de Magento Open Source steunen gedeeltelijke en volledige ordeverzending, met extra opties beschikbaar bij [ Inventory management ](../inventory-management/introduction.md) en derdeuitbreidingen.
 
-![Verzendraster](./assets/shipments.png){width="600" zoomable="yes"}
+![ het net van Verzendingen ](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -51,13 +51,13 @@ Aanvullende kolommen:
 
 ## Een verzending maken
 
-Met de volgende instructies doorloopt u het proces voor het maken van een verzending in Adobe Commerce of Magento Open Source. Als je Inventory management hebt ingeschakeld, kun je het beste controleren [Multibronverzendingen maken](../inventory-management/shipments-create.md) en selecteer een bron (of locatie) en een hoeveelheid die u per regelitem wilt verzenden.
+Met de volgende instructies doorloopt u het proces voor het maken van een verzending in Adobe Commerce of Magento Open Source. Als u Inventory management hebt toegelaten, kunt u [ willen herzien creeer de Verzendingen van meerdere Source ](../inventory-management/shipments-create.md) en selecteer een bron (of plaats) en een hoeveelheid per lijnpunt te verzenden.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Zoek de volgorde in het raster en open deze.
 
-1. Als de bestelling is betaald, gefactureerd en klaar is om te worden verzonden, klikt u op **[!UICONTROL Ship]**.
+1. Als de bestelling is betaald, gefactureerd en klaar is om te worden verzonden, klikt u op **[!UICONTROL Ship]** .
 
    De secties boven aan de verzending bevatten naam, adres en betalingsgegevens uit de verkooporder.
 
@@ -65,21 +65,21 @@ Met de volgende instructies doorloopt u het proces voor het maken van een verzen
 
 ### [!UICONTROL Items to Ship]
 
-Voor elk lijnpunt in de orde, wijzig **[!UICONTROL Qty to Ship]** indien nodig.
+Wijzig voor elk regelitem in de volgorde de **[!UICONTROL Qty to Ship]** naar wens.
 
 ### [!UICONTROL Shipping Information]
 
-**Methode 1:** De bestelpagina gebruiken
+**Methode 1:** Gebruikend de orde pagina
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. In de **[!UICONTROL Action]** voor de geselecteerde volgorde klikt u op **[!UICONTROL View]**.
+1. Klik in de kolom **[!UICONTROL Action]** voor de geselecteerde volgorde op **[!UICONTROL View]** .
 
 1. Klik op **[!UICONTROL Ship]**.
 
-1. Omlaag schuiven naar de _[!UICONTROL Payment & Shipping Method]_blok en klik **[!UICONTROL Add Tracking Number]**.
+1. Blader omlaag naar het _[!UICONTROL Payment & Shipping Method]_-blok en klik op **[!UICONTROL Add Tracking Number]**.
 
-1. Set **[!UICONTROL Carrier]**:
+1. Instellen **[!UICONTROL Carrier]** :
 
    - `Custom Value`
    - `DHL`
@@ -87,32 +87,32 @@ Voor elk lijnpunt in de orde, wijzig **[!UICONTROL Qty to Ship]** indien nodig.
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Als u de zending wilt volgen, voert u de **[!UICONTROL Title]** en **[!UICONTROL Number]** .
+1. Voer **[!UICONTROL Title]** en **[!UICONTROL Number]** in om de verzending te volgen.
 
-**Methode 2:** De verzendpagina gebruiken
+**Methode 2:** Gebruikend de verzendingspagina
 
 Deze methode is alleen toegestaan als de verzending van de bestelling al vanaf de bestelpagina is gemaakt.
 U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina voor rechtstreekse verzending:
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. De verzending zoeken en openen in de bewerkingsmodus.
 
-1. Omlaag schuiven naar de _[!UICONTROL Payment & Shipping Method]_blokkeren.
+1. Schuif omlaag naar het _[!UICONTROL Payment & Shipping Method]_-blok.
 
-1. Selecteer de **[!UICONTROL Carrier]**.
+1. Selecteer de **[!UICONTROL Carrier]** .
 
-1. Voer een **[!UICONTROL Title]** voor het pakket.
+1. Voer een **[!UICONTROL Title]** in voor het pakket.
 
-1. De tekstspatiëring invoeren **[!UICONTROL Number]**.
+1. Voer de tekstspatiëring in **[!UICONTROL Number]** .
 
 1. Klik op **[!UICONTROL Add]**.
 
-1. Als u een e-mail met trackinggegevens naar de klant wilt verzenden, klikt u op **[!UICONTROL Send Tracking Information]** en de actie bevestigen.
+1. Als u een e-mail met trackinggegevens naar de klant wilt verzenden, klikt u op **[!UICONTROL Send Tracking Information]** en bevestigt u de handeling.
 
-   Als u de locatie van een verzending wilt volgen, opent u de gewenste verzending in de bewerkingsmodus en klikt u op **[!UICONTROL Track this shipment]**.
+   Als u de locatie van een willekeurige verzending wilt bijhouden, opent u de gewenste verzending in de bewerkingsmodus en klikt u op **[!UICONTROL Track this shipment]** .
 
-   ![Verzendgegevens en trackinggegevens](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![ het verschepen en het Volgen Informatie ](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### Knoppen
 
@@ -126,31 +126,31 @@ U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina v
 
 ### Opmerkingen verzenden
 
-1. Enter **Opmerkingen** voor de overbrenging, indien nodig.
+1. Ga **Commentaren** voor de verzending in, indien nodig.
 
-1. Wanneer de verzending klaar is, klikt u op **Verzending verzenden**.
+1. Wanneer de verzending klaar is, klik **voorleggen Verzending**.
 
 ## Opmerkingen instellen voor verzendingen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Selecteer onder _[!UICONTROL Sales]_de optie **[!UICONTROL Sales Email]**.
 
-1. Breid uit **Opmerkingen bij verzending** en wijzigt u de instellingen indien nodig:
+1. Breid de **sectie van de Commentaren van de Verzending** uit en wijzig de montages zoals nodig:
 
-   ![Configuratie van verzendcommentaar](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![ de commentaarconfiguratie van de Verzending ](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - De **[!UICONTROL Enabled]** optie is ingesteld op `Yes` standaard, wat betekent dat het e-mailbericht naar een klant wordt verzonden wanneer er een verzendopmerking wordt ingevoerd.
+   - De optie **[!UICONTROL Enabled]** is standaard ingesteld op `Yes` . Dit houdt in dat de e-mail naar een klant wordt verzonden wanneer een verzendopmerking wordt ingevoerd.
 
-   - Voor **[!UICONTROL Shipment Comment Email Sender]**, selecteert u de persoon van wie het bericht met opmerkingen over de verzending is verzonden. Standaard zijn er vijf e-mailadressen.
+   - Selecteer voor **[!UICONTROL Shipment Comment Email Sender]** de persoon van wie de opmerkingsmail voor verzending is verzonden. Standaard zijn er vijf e-mailadressen.
 
-   - Voor **[!UICONTROL Shipment Comment Email Template]** selecteert u de sjabloon op basis van uw vereisten of selecteert u de standaardoptie.
+   - Selecteer voor **[!UICONTROL Shipment Comment Email Template]** de sjabloon op basis van uw vereiste of selecteer de standaardoptie.
 
-   - Voor **[!UICONTROL Shipment Comment Email Template for Guests]**, kiest u de sjabloon die wordt gebruikt voor klanten die geen account in uw winkel hebben.
+   - Kies voor **[!UICONTROL Shipment Comment Email Template for Guests]** de sjabloon die wordt gebruikt voor klanten die geen account in uw winkel hebben.
 
-   - Voor **[!UICONTROL Shipment Comment Email Copy To]**, voert u de e-mailadressen in om een kopie van de opmerkingen over de verzending te verzenden. Scheid meerdere e-mailadressen met een komma.
+   - Voer voor **[!UICONTROL Shipment Comment Email Copy To]** de e-mailadressen in om een e-mailexemplaar met opmerkingen over de verzending te verzenden. Scheid meerdere e-mailadressen met een komma.
 
-   - Voor **[!UICONTROL Shipment Comment Email Copy Method]**, selecteert u `bcc` (blinde koolstofkopie) of `separate email copy` op basis van uw voorkeur.
+   - Selecteer bij **[!UICONTROL Shipment Comment Email Copy Method]** de methode `bcc` (blinde koolstofkopie) of `separate email copy` op basis van uw voorkeur.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -158,21 +158,21 @@ U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina v
 
 Voordat een zending naar een vervoerder wordt verzonden, kan deze worden geannuleerd door de bestelling te openen en naar de lading te navigeren, op voorwaarde dat de vervoerder annuleringen ondersteunt. Sommige dragers beperken of beperken annuleringen na het boeken. UPS staat bijvoorbeeld annuleringen toe, maar vereist dat u 24 uur wacht nadat de verzending is geboekt. Als een transport wordt geannuleerd, kan de annulering niet worden teruggedraaid. De enige mogelijkheid is om de bestelling opnieuw te maken.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Zoek de volgorde in het raster.
 
-1. In de _Handeling_ kolom, kies **[!UICONTROL View]**.
+1. In de _kolom van de Actie_, kies **[!UICONTROL View]**.
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Shipments]**.
+1. Kies **[!UICONTROL Shipments]** in het linkerdeelvenster.
 
-   Als de overbrenging kan worden geannuleerd, _[!UICONTROL Cancel Shipment]_verschijnt als een optie in de hoogste knoopbar.
+   Als de verzending kan worden geannuleerd, wordt _[!UICONTROL Cancel Shipment]_weergegeven als een optie in de bovenste knopbalk.
 
 1. Klik op **[!UICONTROL Cancel Shipment]**.
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
-De status van de overbrenging verandert in `Canceled`. Als de vervoerder geen annuleringen ondersteunt, wordt een foutbericht weergegeven waarin wordt uitgelegd waarom de verzending niet kan worden geannuleerd.
+De status van de verzending verandert in `Canceled` . Als de vervoerder geen annuleringen ondersteunt, wordt een foutbericht weergegeven waarin wordt uitgelegd waarom de verzending niet kan worden geannuleerd.
 
 ## Beschrijvingen van verzendvelden
 
@@ -183,7 +183,7 @@ De status van de overbrenging verandert in `Canceled`. Als de vervoerder geen an
 | [!UICONTROL Carrier] | De naam van de geselecteerde vervoerder |
 | [!UICONTROL Title] | Een beschrijvende naam die door de vervoerder aan het pakket is toegewezen. |
 | [!UICONTROL Number] | Het gekoppelde volgnummer dat aan het pakket is toegewezen. |
-| [!UICONTROL Action] | ![Trashcan-pictogram](../assets/icon-delete-trashcan-solid.png) - Hiermee verwijdert u de pakketgegevens uit de ladingsrecord. |
+| [!UICONTROL Action] | ![ Trashcan pictogram ](../assets/icon-delete-trashcan-solid.png) - schrapt de pakketinformatie van het ladingsverslag. |
 | [!UICONTROL Add] | Voeg nog een pakket toe aan de verzending. |
 
 {style="table-layout:auto"}
@@ -222,6 +222,6 @@ De status van de overbrenging verandert in `Canceled`. Als de vervoerder geen an
 
 | Veld | Beschrijving |
 |-----|-----------|
-| [!UICONTROL Package Label] | **PNG** - Download het label van het verzendpakket. Grootte: A6 (105 x 148 mm; 4,1 x 5,6 inch) |
+| [!UICONTROL Package Label] | **PNG** - Download het etiket van het vervoerspakket. Grootte: A6 (105 x 148 mm; 4,1 x 5,6 inch) |
 
 {style="table-layout:auto"}

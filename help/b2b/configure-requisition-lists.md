@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Maximale lijst met aanvragen configureren
 
-Wanneer de functie voor de lijst met aanvragen is ingeschakeld, kunnen klanten meerdere lijsten met vaak aangeschafte items maken en deze lijsten gebruiken voor plaatsing van bestellingen. Het is beschikbaar voor zowel aangemelde gebruikers als gasten. U kunt aanvraaglijsten inschakelen wanneer u [de B2B-functies configureren](enable-basic-features.md).
+Wanneer de functie voor de lijst met aanvragen is ingeschakeld, kunnen klanten meerdere lijsten met vaak aangeschafte items maken en deze lijsten gebruiken voor plaatsing van bestellingen. Het is beschikbaar voor zowel aangemelde gebruikers als gasten. U kunt vraaglijsten toelaten wanneer u [ de eigenschappen B2B ](enable-basic-features.md) vormt.
 
-Een klant kan meerdere lijsten hebben die zich richten op producten van verschillende leveranciers, kopers, teams, campagnes of iets anders dat algemene workflows stroomlijnt. [Functionaliteit van aanvraaglijst](requisition-lists.md) is gelijkaardig aan wensen lijsten, met de volgende verschillen:
+Een klant kan meerdere lijsten hebben die zich richten op producten van verschillende leveranciers, kopers, teams, campagnes of iets anders dat algemene workflows stroomlijnt. [ de lijstfunctionaliteit van de Verzoek ](requisition-lists.md) is gelijkaardig aan wensenlijsten, met de volgende verschillen:
 
 - Een aanvraaglijst wordt niet gewist nadat artikelen naar het winkelwagentje zijn verzonden. Het kan meerdere keren worden gebruikt.
 - De gebruikersinterface voor aanvraaglijsten gebruikt een compacte weergave om veel items weer te geven.
 
 Standaard kunnen klanten voor hun account maximaal 999 aanvraaglijsten bijhouden. Maar u kunt de configuratie wijzigen en een lager aantal specificeren om de lading op uw opslag te verminderen.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Requisition Lists]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Requisition Lists]** .
 
-   ![Aanvraaglijsten - algemene instelling](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
+   ![ lijsten van de Aanvraag - het algemene plaatsen ](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL Number of Requisition Lists]**, voert u het maximumaantal aanvraaglijsten in dat voor elke klantenaccount kan worden onderhouden.
+1. Voer bij **[!UICONTROL Number of Requisition Lists]** het maximumaantal aanvraaglijsten in dat voor elke klantenaccount kan worden gehandhaafd.
 
-   Het minimumaantal is `2`en het maximum is `999`.
+   Het minimale getal is `2` en het maximale getal is `999` .
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

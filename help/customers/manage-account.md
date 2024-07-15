@@ -1,25 +1,25 @@
 ---
 title: Klantenaccounts beheren
-description: Gebruik de [!UICONTROL Customers] netwerk om om het even welke klantenrekening en toegangsinformatie voor individuele klantenrekeningen te vinden.
+description: Gebruik het [!UICONTROL Customers] -raster om een klantenaccount en toegangsgegevens voor individuele klantaccounts te zoeken.
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Klantenaccounts beheren
 
-Gebruik de _[!UICONTROL Customers]_raster om een klantenaccount te zoeken. U kunt de standaard [besturingselementen voor werkplek](../getting-started/admin-workspace.md) om de lijst te filteren, wijzigt u de [kolomindeling](../getting-started/admin-grid-controls.md), slaat weergaven op en exporteert gegevens. De [Handelingencontrole](../getting-started/admin-actions-control.md) boven het net kan worden gebruikt om een verrichting op veelvoudige klantenverslagen toe te passen.
+Gebruik het raster _[!UICONTROL Customers]_om een klantenaccount te zoeken. U kunt de standaard [ werkplekcontroles ](../getting-started/admin-workspace.md) gebruiken om de lijst te filtreren, de [ kolomlay-out ](../getting-started/admin-grid-controls.md), sparen meningen, en de uitvoergegevens te veranderen. De [ controle van Acties ](../getting-started/admin-actions-control.md) boven het net kan worden gebruikt om een verrichting op veelvoudige klantenverslagen toe te passen.
 
-![Alle klanten](assets/customers-all-customers.png){width="700" zoomable="yes"}
+![ Alle Klanten ](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Zie [Klantprofiel bijwerken](update-account.md) voor informatie over het uitvoeren van handmatige updates voor een klantenaccount.
+Zie [ de klantenprofiel van de Update ](update-account.md) voor informatie over het maken van handupdates aan een klantenrekening.
 
 ## Acties voor klantenaccounts
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Selecteer in de eerste kolom van het raster het selectievakje van elke record die u wilt bijwerken.
 
@@ -29,45 +29,45 @@ Zie [Klantprofiel bijwerken](update-account.md) voor informatie over het uitvoer
    >
    >De volgende handelingen kunnen op één of meerdere records worden toegepast.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### Abonneren op nieuwsbrief
 
-In meerdere winkels en meerdere sites met een wereldwijd [bereik van klantenaccount](../customers/customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven veelvoudige plaatsen of opslag worden geabonneerd. Als u het _Abonneren_ activeert de toepassing voor een klantaccount het abonnement op de nieuwsbrief voor alleen de standaardweergave van de site of winkel.
+In multi-store en multi-site montages met een globaal [ werkingsgebied van de klantenrekening ](../customers/customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven veelvoudige plaatsen of opslag worden ingetekend. Als u __ actie van het Abonneren op een klantenrekening toepast, activeert het het nieuwsbrief abonnement voor de standaardplaats/archiefmening slechts.
 
-* Stel de **[!UICONTROL Actions]** controle op `Subscribe to newsletter`.
+* Stel het besturingselement **[!UICONTROL Actions]** in op `Subscribe to newsletter` .
 
-Zie [Abonnees beheren](../merchandising-promotions/newsletter-subscribers.md) voor meer informatie over het beheren van nieuwsbrieven abonnementen voor een klant.
+Zie [ abonnees ](../merchandising-promotions/newsletter-subscribers.md) voor meer informatie over het beheren van nieuwsbrief abonnementen voor een klant beheren.
 
 ### Abonnement op nieuwsbrief opzeggen
 
-In meerdere winkels en meerdere sites met een wereldwijd [bereik van klantenaccount](customer-account-scope.md), kan een klantenaccount worden geabonneerd op nieuwsbrieven voor meerdere sites/winkels. Als u het _Abonnement opzeggen_ actie aan een klantenrekening, worden alle actieve abonnementen geabonneerd.
+In multi-store en multi-site montages met een globaal [ werkingsgebied van de klantenrekening ](customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven voor veelvoudige plaatsen/opslag worden ingetekend. Als u de _Unsubscribe_ actie op een klantenrekening toepast, zijn alle actieve abonnementen unsubscribed.
 
-1. Stel de **[!UICONTROL Actions]** controle op `Unsubscribe to newsletter`.
+1. Stel het besturingselement **[!UICONTROL Actions]** in op `Unsubscribe to newsletter` .
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **OK**.
+1. Wanneer ertoe aangezet om te bevestigen, klik **OK**.
 
 ### Een klantengroep toewijzen
 
-1. Stel de **[!UICONTROL Actions]** controle op `Assign a customer group`.
+1. Stel het besturingselement **[!UICONTROL Actions]** in op `Assign a customer group` .
 
 1. Kies de klantengroep waaraan alle geselecteerde klantenverslagen moeten worden toegewezen.
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
 ### Klantenaccounts verwijderen
 
 Verwijderde klantaccounts kunnen niet worden hersteld. Informatie over klantactiviteiten en transacties wordt in het systeem bewaard.
 
-1. Stel de **[!UICONTROL Actions]** controle op `Delete`.
+1. Stel het besturingselement **[!UICONTROL Actions]** in op `Delete` .
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
 ## Klantenaccounts exporteren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Klik in het menu Tabelkop **[!UICONTROL Export]** en selecteer de gewenste indeling:
+1. Klik in het menu Tabelkoptekst op **[!UICONTROL Export]** en selecteer de gewenste indeling:
 
    * CSV
    * Excel XML
@@ -108,7 +108,7 @@ De bovenstaande instructie exporteert alle klantenaccounts. Als u een beperkte s
 | **[!UICONTROL Confirmed Email]** | Hiermee geeft u aan of een bevestigingsbericht vereist is. |
 | **[!UICONTROL Account Created In]** | Geeft de winkelweergave aan waaruit de klantenaccount is gemaakt. |
 | **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. In overeenstemming met de huidige beste praktijken op het gebied van beveiliging en privacy, dient u zich bewust te zijn van mogelijke juridische en veiligheidsrisico&#39;s die verbonden zijn aan de opslag van de volledige geboortedatum van de klant (maand, dag, jaar) met andere persoonlijke identificatoren. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
-| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingnummer of [belasting over toegevoegde waarde](../stores-purchase/vat.md) nummer dat aan de klant is toegewezen. <br/><br/> Dit veld is niet hetzelfde als het BTW-nummer. |
+| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingaantal of [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan de klant wordt toegewezen. <br/><br/> Dit veld is niet hetzelfde als het BTW-nummer. |
 | **[!UICONTROL Gender]** | Het geslacht van de klant. |
 | **[!UICONTROL Action]** | Bewerken - Opent het bedrijfsaccount in de bewerkingsmodus. |
 
@@ -116,7 +116,7 @@ De bovenstaande instructie exporteert alle klantenaccounts. Als u een beperkte s
 
 ### Aanvullende kolommen
 
-Deze kolommen zijn beschikbaar door de [kolomindeling](../getting-started/admin-grid-controls.md) van het raster.
+Deze kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-started/admin-grid-controls.md) van het net te veranderen.
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -128,8 +128,8 @@ Deze kolommen zijn beschikbaar door de [kolomindeling](../getting-started/admin-
 | **[!UICONTROL Billing Lastname]** | De achternaam in het factureringsadres van de klant. |
 | **[!UICONTROL Billing Address]** | Het adres waar factureringsinformatie moet worden verzonden. |
 | **[!UICONTROL Shipping Address]** | Het adres waar bestellingen moeten worden verzonden. |
-| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [digitale goederen](../stores-purchase/taxes.md) in de EU wordt verkocht, is de btw gebaseerd op het factuuradres van de afnemer. <br/><br/> Dit veld is niet hetzelfde als het BTW-nummer. |
-| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als beveiligingsmaatregel kunnen klantenaccounts [vergrendeld](../customers/password-options.md) na te veel aanmeldpogingen. Waarden: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [ digitale goederen ](../stores-purchase/taxes.md) die in de EU worden verkocht, is de BTW gebaseerd op het factureringsadres van de klant. <br/><br/> Dit veld is niet hetzelfde als het BTW-nummer. |
+| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als veiligheidsmaatregel, kunnen de klantenrekeningen [ worden gesloten ](../customers/password-options.md) na teveel login pogingen. Waarden: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | De huidige gebruikersstatus. Opties: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Klantclassificatie. Opties: `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | De verkoper die als contactpunt voor een bedrijfrekening wordt toegewezen en alle geautomatiseerde e-mailberichten ontvangt met betrekking tot het bedrijf. |

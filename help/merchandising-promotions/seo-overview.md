@@ -1,6 +1,6 @@
 ---
 title: Zoekmachine optimaliseren
-description: Meer informatie over SEO-tools (Search Engine Optimization, optimalisatie van zoekprogramma's) voor handelsites en beste praktijken voor optimale SEO.
+description: Meer informatie over SEO-gereedschappen (Search Engine Optimization, optimalisatie van zoekprogramma's) voor Commerce-sites en tips en trucs voor optimale SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -12,69 +12,69 @@ ht-degree: 0%
 
 # Overzicht van SEO
 
-_Zoekmachine optimaliseren_ (SEO) is de praktijk om de inhoud en presentatie van een site te verfijnen om de manier waarop de pagina&#39;s door zoekmachines worden geïndexeerd te verbeteren. De handel omvat diverse eigenschappen om uw aan de gang zijnde SEO inspanning te steunen.
+_de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijnen van de inhoud en de presentatie van een plaats om de manier te verbeteren de pagina&#39;s door onderzoeksmotoren worden geïndexeerd. Commerce bevat verschillende functies die uw huidige SEO-inspanningen ondersteunen.
 
 ## Metagegevens
 
-Meer informatie over het toevoegen en verbeteren van trefwoordrijk [metagegevens](meta-data.md) voor uw site en winkel.
+Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [ meta- gegevens ](meta-data.md) voor uw plaats en opslag.
 
 ## Een sitemap gebruiken
 
-A [site-overzicht](sitemap-xml.md) verbetert de manier waarop uw winkel door zoekmachines wordt geïndexeerd en is ontworpen om pagina&#39;s te zoeken die door webcrawlers over het hoofd kunnen worden gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
+A [ plaatskaart ](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
 ## URL herschrijft
 
-De [URL herschrijven](url-rewrite.md) kunt u elke URL wijzigen die is gekoppeld aan een product, categorie of CMS-pagina.
+[ URL herschrijft ](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of pagina CMS wordt geassocieerd.
 
 ## Zoekmachine-robots
 
-De configuratie van de Handel omvat montages om instructies voor Webkruiplers en bots te produceren en te beheren die uw plaats indexeren. Indien de aanvraag `robots.txt` bereikt Handel (eerder dan een fysiek dossier), wordt het dynamisch verpletterd aan het robots controlemechanisme. De instructies zijn richtlijnen die door de meeste zoekmachines worden erkend en gevolgd.
+De Commerce-configuratie bevat instellingen voor het genereren en beheren van instructies voor webcrawlers en bots die uw site indexeren. Als de aanvraag voor `robots.txt` Commerce bereikt (in plaats van een fysiek bestand), wordt deze dynamisch gerouteerd naar de robots-controller. De instructies zijn richtlijnen die door de meeste zoekmachines worden erkend en gevolgd.
 
-Standaard bevat het bestand robots.txt dat wordt gegenereerd door Handel instructies voor webcrawler om te voorkomen dat bepaalde delen van de site worden geïndexeerd die bestanden bevatten die intern door het systeem worden gebruikt. U kunt de standaardinstellingen gebruiken of uw eigen aangepaste instructies definiëren voor iedereen of voor specifieke zoekprogramma&#39;s. Er zijn veel online artikelen die het onderwerp in detail onderzoeken.
+Standaard bevat het bestand robots.txt dat door Commerce wordt gegenereerd, instructies voor webcrawler om te voorkomen dat bepaalde delen van de site worden geïndexeerd die bestanden bevatten die intern door het systeem worden gebruikt. U kunt de standaardinstellingen gebruiken of uw eigen aangepaste instructies definiëren voor iedereen of voor specifieke zoekprogramma&#39;s. Er zijn veel online artikelen die het onderwerp in detail onderzoeken.
 
 ### Voorbeeld van aangepaste instructies
 
-**Volledige toegang toestaan**
+**staat Volledige Toegang** toe
 
-    Gebruikersagent:*
-    Niet toestaan:
+     gebruiker-agent:* 
+     verlaat:
 
-**Hiermee wordt de toegang tot alle mappen uitgeschakeld**
+**ontkent Toegang tot Alle Omslagen**
 
-    Gebruikersagent:*
-    Niet toestaan: /
+     gebruiker-agent:* 
+     Ontoegestaan: /
 
-**Standaardinstructies**
+**StandaardInstructies**
 
-    Gebruikersagent: *
-    Niet toestaan: /index.php/
-    Niet toestaan: /*?
-    Niet toestaan: /checkout/
-    Niet toestaan: /app/
-    Niet toestaan: /lib/
-    Niet toestaan: /*.php$
-    Niet toestaan: /pkginfo/
-    Niet toestaan: /report/
-    Niet toestaan: /var/
-    Niet toestaan: /catalog/
-    Niet toestaan: /customer/
-    Niet toestaan: /sendvriend/
-    Niet toestaan: /review/
-    Niet toestaan: /*SID=
+     gebruiker-agent: *
+     Ontoegestaan: /index.php/
+     Ontoegestaan: /*?
+     Ontoegestaan: /checkout/
+     Ontoegestaan: /app/
+     Ontoegestaan: /lib/
+     Ontoegestaan: /*.php$ 
+     Ontoegestaan: /pkginfo/
+     Ontoegestaan: /report/
+     Ontoegestaan: /var/
+     Ontoegestaan: /catalog/
+     Ontoegestaan: /customer/
+     Afwijzen: /sendvriend/ 
+     Ontoegestaan: /review/
+     Ontoegestaan: /*SID= 
 
 ### Configureren `robots.txt`
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek de **[!UICONTROL Global]** configuratie in de eerste rij van het raster en klik op **[!UICONTROL Edit]**.
+1. Zoek de **[!UICONTROL Global]** -configuratie in de eerste rij van het raster en klik op **[!UICONTROL Edit]** .
 
-   ![Algemene ontwerpconfiguratie](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![ Globale ontwerpconfiguratie ](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Robots]** en voer de volgende handelingen uit:
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Search Engine Robots]** sectie en doet het volgende:
 
-   ![Ontwerpconfiguratie - robots van zoekmachines](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![ configuratie van het Ontwerp - de robots van de onderzoeksmotor ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Default Robots]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Default Robots]** in op een van de volgende opties:
 
      | Optie | Beschrijving |
      |------|------------|
@@ -85,8 +85,8 @@ Standaard bevat het bestand robots.txt dat wordt gegenereerd door Handel instruc
 
      {style="table-layout:auto"}
 
-   - Voer zo nodig aangepaste instructies in het dialoogvenster **[!UICONTROL Edit Custom instruction of robots.txt file]** doos. Als een site bijvoorbeeld in ontwikkeling is, wilt u mogelijk de toegang tot alle mappen weigeren.
+   - Voer zo nodig aangepaste instructies in het vak **[!UICONTROL Edit Custom instruction of robots.txt file]** in. Als een site bijvoorbeeld in ontwikkeling is, wilt u mogelijk de toegang tot alle mappen weigeren.
 
-   - Klik op **[!UICONTROL Reset to Default]**.
+   - Klik op **[!UICONTROL Reset to Default]** om de standaardinstructies te herstellen.
 
-1. Klik op **[!UICONTROL Save Configuration]**.
+1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.

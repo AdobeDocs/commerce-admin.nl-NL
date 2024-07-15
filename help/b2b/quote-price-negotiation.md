@@ -5,18 +5,18 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
 
 # Onderhandelingen over een offerte
 
-Indien [B2B-aanhalingstekens zijn ingeschakeld](configure-quotes.md) in de configuratie kan een geautoriseerde koper van een onderneming of een verkoopvertegenwoordiger prijsonderhandelingen openen .
+Als [ B2B de Citaten ](configure-quotes.md) in de configuratie worden toegelaten, kan de prijsonderhandeling door een erkende koper van een bedrijf of een verkoopvertegenwoordiger worden in werking gesteld.
 
-Kopers starten het prijsonderhandelingsproces door [aanhalingsteken aanvragen](quote-request.md) uit de winkelwagentje. Verkoopvertegenwoordigers kunnen onderhandelingen beginnen door [een conceptprijsopgave voor een koper maken](sales-rep-initiates-quote.md), door het aanhalingsteken bij te werken met de eerste bestelling en de prijzen, en het aan de koper te sturen.
+De kopers stellen het proces van de prijsonderhandeling door [ in werking verzoekend om een citaat ](quote-request.md) van het winkelwagentje. De Vertegenwoordigers van de verkoop kunnen onderhandeling door [ in werking stellen creërend een ontwerp citaat voor een koper ](sales-rep-initiates-quote.md), die het citaat met de aanvankelijke orde punten en de tarifering bijwerkt, en het verzenden naar de koper.
 
-Wanneer de prijsonderhandeling begint, worden de citaten vermeld in [Aanhalingen](quotes.md) raster. Alle onderhandelingen tussen de koper en de verkoper vinden plaats per e-mail en worden gestart en bijgehouden vanuit de gedetailleerde weergave van de prijsopgave.
+Wanneer de prijsonderhandeling begint, worden de citaten vermeld in het [ Citaten ](quotes.md) net. Alle onderhandelingen tussen de koper en de verkoper vinden plaats per e-mail en worden gestart en bijgehouden vanuit de gedetailleerde weergave van de prijsopgave.
 
 Tijdens het onderhandelingsproces kan de verkoper het volgende doen via de beheerder:
 
@@ -27,99 +27,100 @@ Tijdens het onderhandelingsproces kan de verkoper het volgende doen via de behee
 - Opmerkingen toevoegen
 - De bijgewerkte prijsopgave naar de koper sturen of opslaan als concept
 
-Kopers beheren het onderhandelingsproces voor aanhalingstekens vanuit de winkel met [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). Terwijl de prijsopgave kan worden gecontroleerd, wordt de status op de rekening van de koper ingesteld op `Pending`. De koper kan de prijsopgave wijzigen en opnieuw verzenden, zelfs als deze is afgewezen of verlopen is.
+Kopers beheren het onderhandelingsproces voor aanhalingstekens vanuit de winkel met [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md) . Hoewel het aanhalingsteken kan worden gecontroleerd, is de status op de account van de koper ingesteld op `Pending` . De koper kan de prijsopgave wijzigen en opnieuw verzenden, zelfs als deze is afgewezen of verlopen is.
 
 ## Stap 1: De aanvraag weergeven
 
-1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** .
 
-   Het nieuwe verzoek wordt weergegeven in het dialoogvenster _[!UICONTROL Quotes]_raster.
+   De nieuwe aanvraag wordt weergegeven in het raster van _[!UICONTROL Quotes]_.
 
-1. In de _Handelingen_ kolom, klik **[!UICONTROL View]**.
+1. In de _kolom van Acties_, klik **[!UICONTROL View]**.
 
-   ![Nieuwe offerte](./assets/quote-grid-new.png){width="700" zoomable="yes"}
+   ![ Nieuwe Citaat ](./assets/quote-grid-new.png){width="700" zoomable="yes"}
 
 ## Stap 2: Het aanhalingsteken wijzigen
 
-1. Onder _[!UICONTROL Quote & Account Information]_klikt u op de knop_ Kalender _(![Kalenderpictogram](../assets/icon-calendar.png)).
+1. Onder _[!UICONTROL Quote & Account Information]_, klik het_ Kalender _(![ pictogram van de Kalender ](../assets/icon-calendar.png)) pictogram.
 
-   ![Offerte- en accountgegevens](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
+   ![ Citaat en rekeningsinformatie ](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
-1. Kies een **[!UICONTROL Expiration Date]** voor het citaat.
+1. Kies een **[!UICONTROL Expiration Date]** voor de offerte.
 
-1. Omlaag schuiven naar de _[!UICONTROL Quote Totals]_en werkt de **[!UICONTROL Negotiated Price]**indien nodig.
+1. Blader omlaag naar de sectie _[!UICONTROL Quote Totals]_en werk de **[!UICONTROL Negotiated Price]**zo nodig bij.
 
-   ![Onderhandelde prijs bijwerken](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
+   ![ Update Onderhandelde Prijs ](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
    Als de koper de hoeveelheid in de prijsopgave vermelde items wijzigt, wordt boven aan de prijsopgave een bericht weergegeven waarin wordt aangegeven dat de lijst met artikelen is gewijzigd en dat de prijs van de overeenkomst moet worden bijgewerkt.
 
-   ![Kennisgeving prijswijziging](./assets/quote-change-notice.png){width="600" zoomable="yes"}
+   ![ Bericht van de Verandering van het Citaat ](./assets/quote-change-notice.png){width="600" zoomable="yes"}
 
 ### Nieuwe producten aan de prijsopgave toevoegen
 
 1. Klik op **[!UICONTROL Add Products by SKU]**.
 
-1. Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** toe te voegen.
+1. Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** in die u wilt toevoegen.
 
-   ![Toevoegen aan offerte door SKU](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
+   ![ voeg aan Citaat door SKU ](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"} toe
 
 ### Regelitemupdates toepassen
 
-Wijzigingen voor regelitems toepassen in het dialoogvenster _[!UICONTROL Items Quoted]_indien nodig.
+Pas indien nodig wijzigingen van regelitems toe in de sectie _[!UICONTROL Items Quoted]_.
 
-![Regelitemupdates toepassen](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
+![ pas de updates van het lijnpunt toe ](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
-- Wijzig de **[!UICONTROL Quantity]** die tegen de voorgestelde prijs moeten worden gekocht.
+- Wijzig de **[!UICONTROL Quantity]** die u voor de voorgestelde prijs moet kopen.
 
-- Selecteren **[!UICONTROL Configure]** en wijzigt u de productopties.
+- Selecteer **[!UICONTROL Configure]** en wijzig de productopties.
 
-  De [!UICONTROL Configure] optie is beschikbaar slechts op een lijnpunt voor een configureerbaar product
+  De optie [!UICONTROL Configure] is alleen beschikbaar op een regelitem voor een configureerbaar product
 
-- In de **[!UICONTROL Action]** selecteert u een handeling om het item bij te werken:
-   - **Korting op item** om een korting toe te passen als een percentage, vast bedrag, of aangewezen prijs.
-U kunt desgewenst het kortingsbedrag vergrendelen om verdere kortingen te voorkomen. Als de korting niet vergrendeld is, worden zowel de korting op het regelitem als de korting op het prijsniveau toegepast op de productprijs.
-   - **Een opmerking aan de koper geven** om de koper aanvullende informatie over een object te geven
-   - **Verwijderen** om een item uit het citaat te verwijderen.
+- Selecteer in het menu **[!UICONTROL Action]** een handeling om het item bij te werken:
+   - **punt van de Korting** om een korting als percentage, vast bedrag, of aangewezen tarifering toe te passen.
+U kunt desgewenst het kortingsbedrag vergrendelen om verdere kortingen te voorkomen. Als de korting niet vergrendeld is,
+zowel de korting op het regelartikel als de korting op het prijsniveau worden toegepast op de productprijs.
+   - **verlaat een nota aan koper** om de koper van extra informatie over een punt te voorzien
+   - **verwijder** om een punt uit het citaat te verwijderen.
 
 ### Wijzigingen toepassen en bijwerken
 
-- Als u wijzigingen wilt toepassen, klikt u op **[!UICONTROL Add to Quote]**.
+- Klik op **[!UICONTROL Add to Quote]** om wijzigingen toe te passen.
 
-- Als u het citaat wilt bijwerken, klikt u op **[!UICONTROL Recalculate the Quote]**.
+- Klik op **[!UICONTROL Recalculate the Quote]** om het aanhalingsteken bij te werken.
 
-- Klik op **[!UICONTROL Update Prices]** en klik vervolgens op **[!UICONTROL Proceed]** om de update te bevestigen.
+- Als u de wijzigingen wilt toepassen en het aanhalingsteken wilt bijwerken naar de gedeelde catalogus en prijsregels, klikt u op **[!UICONTROL Update Prices]** en vervolgens op **[!UICONTROL Proceed]** om de update te bevestigen.
 
-  ![Opgegeven items](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
+  ![ Gepoteerde Punten ](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
 
 ### Verzendgegevens bijwerken
 
-1. Als de koper een _Verzenden naar_ adres in het citaat, klik **[!UICONTROL Get shipping methods and rates]**.
+1. Als de koper a _Verzenden aan_ adres in het citaat omvat, klik **[!UICONTROL Get shipping methods and rates]**.
 
 1. Kies een verzendmethode uit de beschikbare opties.
 
-1. Voer een **[!UICONTROL Proposed Shipping Price]**.
+1. Voer een **[!UICONTROL Proposed Shipping Price]** in.
 
-   De _[!UICONTROL Quote Totals]_worden aangepast aan de voorgestelde verzendprijs.
+   _[!UICONTROL Quote Totals]_wordt bijgewerkt om de voorgestelde verzendprijs weer te geven.
 
 ### Voeg een ondersteunend document bij
 
-1. Onder de _Opmerking toevoegen_ vak, klikt u op **[!UICONTROL Attach file]**.
+1. Onder _voeg uw commentaar_ doos toe, klik **[!UICONTROL Attach file]**.
 
-   Standaard, [bijgevoegde bestanden](../configuration-reference/sales/quotes.md) U kunt maximaal 2 MB in een van de volgende bestandsindelingen gebruiken: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
+   Door gebrek, [ in bijlage dossiers ](../configuration-reference/sales/quotes.md) kan tot 2 MB in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
 
 1. Kies het bestand in de map.
 
 ## Stap 3: Werk citaat-vlakke informatie bij, en verzend uw antwoord
 
-1. In de _[!UICONTROL Negotiation]_de_[!UICONTROL Comments]_ -tabblad, voert u uw antwoord in in het dialoogvenster **[!UICONTROL Add your comment]** sectie.
+1. Voer in de sectie _[!UICONTROL Negotiation]_op het tabblad_[!UICONTROL Comments]_ uw antwoord in de sectie **[!UICONTROL Add your comment]** in.
 
-1. Als u een ondersteunend document wilt opnemen, klikt u op **[!UICONTROL Attach file]** en selecteer het bestand in de map.
+1. Als u een ondersteunend document wilt opnemen, klikt u op **[!UICONTROL Attach file]** en selecteert u het bestand in de directory.
 
    De maximale bestandsgrootte voor bijlagen is 2 MB.
 
 1. Een korting toepassen op het volledige citaat:
 
-   - Onder _[!UICONTROL Quote Totals]_in de_[!UICONTROL Negotiated Price]_ kiest u een van de volgende kortingstypen:
+   - Kies onder _[!UICONTROL Quote Totals]_in de sectie_[!UICONTROL Negotiated Price]_ een van de volgende kortingstypen:
 
       - `Percentage Discount`
       - `Amount Discount`
@@ -127,13 +128,13 @@ U kunt desgewenst het kortingsbedrag vergrendelen om verdere kortingen te voorko
 
    - Voer het bedrag in als een percentage of een vaste prijs.
 
-     ![Opmerkingen bij de onderhandelingen](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+     ![ Commentaren van de Onderhandeling ](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
 
 1. De offerte verzenden of opslaan:
 
-   - Als de prijsopgave klaar is om naar de koper te worden teruggestuurd, klikt u op **[!UICONTROL Send]**.
+   - Klik op **[!UICONTROL Send]** als het aanhalingsteken klaar is om naar de koper te worden teruggestuurd.
 
-   - Als u het aanhalingsteken later wilt blijven gebruiken, klikt u op **[!UICONTROL Save as Draft]**.
+   - Klik op **[!UICONTROL Save as Draft]** als u het aanhalingsteken later wilt blijven gebruiken.
 
 ## Stap 4: Follow-up van een prijsopgave
 
@@ -149,9 +150,9 @@ Controleer uw e-mail en de status van het aanhalingsteken in het raster om de po
 
 | Knop | Beschrijving |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Hiermee wordt de _[!UICONTROL Quotes]_pagina zonder wijzigingen op te slaan. |
+| [!UICONTROL Back] | Hiermee gaat u terug naar de _[!UICONTROL Quotes]_-pagina zonder wijzigingen op te slaan. |
 | [!UICONTROL Print] | Verzendt het aanhalingsteken naar een printer of slaat het op als een PDF-bestand. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 bètamogelijkheden]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor deelnemers aan het bètaprogramma"}`(copy)` toegevoegd aan de oorspronkelijke naam. Wijzig de naam van het nieuwe aanhalingsteken door het [!UICONTROL Name] veld. Verwerk het nieuwe aanhalingsteken door het als concept op te slaan of te verzenden naar de klant. |
+| [!UICONTROL Create Copy] | [!BADGE  1.5.0-bètamogelijkheden ] {type=Informative url=&quot;/help/b2b/release-notes.md&quot;tooltip=&quot;Beschikbaar slechts voor de programmadeelnemers van Beta&quot;} creeert en opent een exemplaar van het huidige citaat met `(copy)` toegevoegd aan de originele naam. Wijzig de naam van het nieuwe aanhalingsteken door het veld [!UICONTROL Name] te bewerken. Verwerk het nieuwe aanhalingsteken door het als concept op te slaan of te verzenden naar de klant. |
 | [!UICONTROL Save as Draft] | Sla eventuele wijzigingen in de prijsopgave op, maar verzend deze niet naar de koper. |
 | [!UICONTROL Decline] | Het verzoek om over prijzen te onderhandelen wordt afgewezen, hetzij op het eerste onderzoek, hetzij tijdens lopende onderhandelingen. Wanneer een prijsopgave wordt afgewezen, moet de verkoper een opmerking toevoegen om de beslissing toe te lichten. Wanneer een prijsopgave wordt afgewezen, worden alle onderhandelde prijzen weer op de oorspronkelijke waarden ingesteld. Deze knop is uitgeschakeld terwijl de verkoper wacht op een antwoord van de koper. |
 | [!UICONTROL Send] | Verstuurt het bijgewerkte prijsopgave als antwoord op de vraag van de koper. Deze knop is uitgeschakeld als de verkoper wacht op een antwoord van de koper. |
@@ -166,15 +167,15 @@ De informatie van het citaat en de functies in Admin worden georganiseerd in de 
 
 | Veld | Beschrijving |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | De naam die door de [koper](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | Geeft de huidige status van het aanhalingsteken aan. De status van een prijsopgave kan alleen worden gewijzigd door actie van de koper of de verkoper. Zie ook de [Statusinstellingen](quotes.md) van de beheerder en de [kopersaccount](account-dashboard-my-quotes.md). |
+| [!UICONTROL Name] | De naam die aan een citaatverzoek door de [ koper ](account-company-roles-permissions.md) wordt toegewezen. |
+| [!UICONTROL Status] | Geeft de huidige status van het aanhalingsteken aan. De status van een prijsopgave kan alleen worden gewijzigd door actie van de koper of de verkoper. Zie ook de [ montages van de Status ](quotes.md) van Admin en de [ rekening van de koper ](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | De datum en het tijdstip waarop de koper de aanvraag voor een prijsopgave voor het eerst heeft ingediend. |
 | [!UICONTROL Created By] | De voornaam en achternaam van de koper van de onderneming die het prijsverzoek heeft ingediend. |
-| [!UICONTROL Expiration Date] | Geeft de laatste dag aan dat het huidige aanhalingsteken geldig is. De standaardvervaldatum wordt in de configuratie ingesteld op 30 dagen nadat een koper een aanvraag voor een prijsopgave heeft ingediend. <br/><br/>De verkoper kan de standaardvervaldatum overschrijven door een andere datum (DD MMM YYYY) in te voeren of de datum in de kalender te kiezen. Het aanhalingsteken verloopt nooit als het veld leeg blijft. <br/><br/>Voor open aanhalingstekens ontvangt de verkoper een [e-mailmelding](../systems/email-templates.md) 48 uur voordat de prijsopgave volgens de planning verloopt. Kopers krijgen een melding 24 uur vóór de vervaldatum. <br/><br/>De status van het aanhalingsteken verandert in _Verlopen_ en de koper kan de prijsopgave niet verder wijzigen. De voorgestelde prijzen in het citaat keren terug naar de oorspronkelijke waarden uit de catalogus. <br/><br/>Als een prijsopgave open is voor controle door de verkoper wanneer de prijsopgave is ingesteld op verlopen, wordt de vervaldatum opnieuw ingesteld op basis van het bereik dat in de configuratie is ingesteld. <br/><br/>De vervaldatum is het enige veld in het dialoogvenster _Offerte en account_ die tijdens het revisieproces kunnen worden bewerkt. |
-| [!UICONTROL Company] | De wettelijke naam van de [bedrijf](account-companies.md) die de koper vertegenwoordigt. |
-| [!UICONTROL Company Admin Email] | Het e-mailadres van de [bedrijfsbeheerder](account-company-admin.md). |
-| [!UICONTROL Sales Rep] | De [verkoopvertegenwoordiger](account-company-manage.md) die voor de verkoper werkt en de primaire contactpersoon is die aan de bedrijfsaccount is toegewezen. |
-| [!UICONTROL Shared Catalog (or Customer Group)] | De [gedeelde catalogus](catalog-shared.md) of [klantengroep](account-company-customer-group.md) waaraan de vennootschap is toegewezen. Het citaat zou douaneprijzen van de gedeelde catalogus kunnen omvatten die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Expiration Date] | Geeft de laatste dag aan dat het huidige aanhalingsteken geldig is. De standaardvervaldatum wordt in de configuratie ingesteld op 30 dagen nadat een koper een aanvraag voor een prijsopgave heeft ingediend. <br/><br/> de verkoper kan de standaardvervaldatum met voeten treden door een verschillende datum (MMM DD JJJJ) in te gaan of de datum van de kalender te kiezen. Het aanhalingsteken verloopt nooit als het veld leeg blijft. <br/><br/> voor open citaten, ontvangt de verkoper een [ e-mailbericht ](../systems/email-templates.md) 48 uur alvorens het citaat gepland is te verlopen. Kopers krijgen een melding 24 uur vóór de vervaldatum. <br/><br/> de status van het citaat verandert in _Verlopen_ en de koper kan geen verdere veranderingen in het citaat aanbrengen. De voorgestelde prijzen in het citaat keren terug naar de oorspronkelijke waarden uit de catalogus. <br/><br/> als een citaat voor overzicht door de verkoper open is wanneer het citaat wordt geplaatst om te verlopen, wordt de vervaldatum teruggesteld volgens de waaier die in de configuratie wordt geplaatst. <br/><br/> de Datum van de Vervalsing is het enige gebied in de _Citaat &amp; sectie van de Rekening_ die tijdens het overzichtsproces kan worden uitgegeven. |
+| [!UICONTROL Company] | De wettelijke naam van het [ bedrijf ](account-companies.md) dat de koper vertegenwoordigt. |
+| [!UICONTROL Company Admin Email] | Het e-mailadres van de [ bedrijfbeheerder ](account-company-admin.md). |
+| [!UICONTROL Sales Rep] | De [ verkoopvertegenwoordiger ](account-company-manage.md) die voor de verkoper werkt, en is het primaire contact dat aan de bedrijfrekening wordt toegewezen. |
+| [!UICONTROL Shared Catalog (or Customer Group)] | De [ gedeelde catalogus ](catalog-shared.md) of [ klantengroep ](account-company-customer-group.md) waaraan het bedrijf wordt toegewezen. Het citaat zou douaneprijzen van de gedeelde catalogus kunnen omvatten die aan het bedrijf wordt toegewezen. |
 
 {style="table-layout:auto"}
 
@@ -214,7 +215,7 @@ De informatie van het citaat en de functies in Admin worden georganiseerd in de 
 | Veld | Beschrijving |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Shipping Address] | Hier wordt het verzendadres weergegeven dat is opgegeven in de account van de koper. Het verzendadres is leeg als de koper geen adres heeft opgegeven voordat hij de aanvraag indient. |
-| [!UICONTROL Shipping Method & Price] | De link Verzendmethoden en tarieven ophalen wordt weergegeven als de koper een _Verzenden naar_ adres in het citaat. |
+| [!UICONTROL Shipping Method & Price] | De Get Verzendmethodes en de verbinding van Tarieven verschijnt als de koper a _Verzenden aan_ adres in het citaat omvat. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +223,7 @@ De informatie van het citaat en de functies in Admin worden georganiseerd in de 
 
 | Veld | Beschrijving |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | Het tabblad Opmerkingen van de sectie Onderhandeling wordt gebruikt om een bericht aan de koper over de prijsopgave in te voeren. <br/>**[!UICONTROL Add your comment]**- De opmerkingen worden gebruikt om tijdens het onderhandelingsproces met de koper te communiceren. Gebruik de opmerkingen om eventuele kortingen in het citaat uit te leggen, of de reden waarom een prijsaanvraag wordt afgewezen.<br/>**[!UICONTROL Attach file]** - De maximale bestandsgrootte en ondersteunde bestandstypen voor [bijgevoegde bestanden](configure-quotes.md) worden bepaald door de configuratie. Een bijgevoegd bestand kan standaard maximaal 2 MB en een van de volgende bestandstypen hebben: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG. |
+| [!UICONTROL Comments] | Het tabblad Opmerkingen van de sectie Onderhandeling wordt gebruikt om een bericht aan de koper over de prijsopgave in te voeren. <br/>**[!UICONTROL Add your comment]**- De opmerkingen worden gebruikt om tijdens het onderhandelingsproces met de koper te communiceren. Gebruik de opmerkingen om eventuele kortingen in het citaat uit te leggen, of de reden waarom een prijsaanvraag wordt afgewezen.<br/>**[!UICONTROL Attach file]** - de maximumdossiergrootte en de gesteunde dossiertypes voor [ in bijlage dossiers ](configure-quotes.md) worden bepaald door de configuratie. Een bijgevoegd bestand kan standaard maximaal 2 MB en een van de volgende bestandstypen hebben: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG. |
 | [!UICONTROL History Log] | Op dit tabblad wordt een volledige historie van het aanhalingsteken weergegeven met datums, aanhalingstekenstatus en opmerkingen. |
 
 {style="table-layout:auto"}
@@ -232,11 +233,11 @@ De informatie van het citaat en de functies in Admin worden georganiseerd in de 
 | Veld | Beschrijving |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | De totale kosten voor de verkoper van de objecten die in de prijsopgave zijn opgenomen. |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | De totale prijs van de items in het citaat zonder belasting, volgens de prijzen in de gedeelde catalogus of de primaire catalogus die als basis voor het citaat wordt gebruikt. Breid de sectie uit om de waarden weer te geven die in de berekening worden gebruikt, afhankelijk van de [Subtotaal weergeven](../configuration-reference/sales/tax.md) het plaatsen in de configuratie. Opties: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- De totale catalogusprijs zonder geschatte belasting.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - De totale catalogusprijs zonder geschatte belasting. <br/>**[!UICONTROL Estimated Tax]**- Het belastingbedrag dat naar schatting van toepassing is op de totale catalogusprijs. |
-| Onderhandelde prijs | De korting die aan de koper wordt aangeboden, kan op een van de volgende manieren worden gebaseerd: <br/>**[!UICONTROL Percentage Discount]**- De korting als percentage.<br/>**[!UICONTROL Amount Discount]** - De korting als vast bedrag. <br/>**[!UICONTROL Proposed Price]**- De door de verkoper voorgestelde prijs.<p>Als voor alle items in de offerte een korting op een vergrendeld item geldt, wordt de optie [!UICONTROL Negotiated Price] is uitgeschakeld omdat er geen verdere korting kan worden toegepast.</p><p>Als een product een korting op regelitems heeft die niet is vergrendeld, worden zowel de korting op regelitem als de korting op het prijsniveau toegepast op de productprijs.</p> |
-| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | De totale voorgestelde prijs van elke post van de regel in het citaat, met of zonder belasting, afhankelijk van [belastingberekening](../configuration-reference/sales/tax.md) instellingen in de configuratie. |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | De totale prijs van de items in het citaat zonder belasting, volgens de prijzen in de gedeelde catalogus of de primaire catalogus die als basis voor het citaat wordt gebruikt. Breid de sectie uit om de waarden te tonen die in de berekening, afhankelijk van [ Subtotaal van de Vertoning ](../configuration-reference/sales/tax.md) het plaatsen in de configuratie worden gebruikt. Opties: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- De totale catalogusprijs zonder geschatte belasting.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - De totale catalogusprijs zonder geschatte belasting. <br/>**[!UICONTROL Estimated Tax]**- Het belastingbedrag dat naar schatting wordt toegepast op de totale catalogusprijs. |
+| Onderhandelde prijs | De korting die aan de koper wordt aangeboden, kan op elk van de volgende manieren worden gebaseerd: <br/>**[!UICONTROL Percentage Discount]**- De korting als een percentage.<br/>**[!UICONTROL Amount Discount]** - De korting als een vast bedrag. <br/>**[!UICONTROL Proposed Price]**- De prijs die door de verkoper wordt voorgesteld.<p>Als alle items in het citaat een vergrendelde itemkorting hebben, is de sectie [!UICONTROL Negotiated Price] uitgeschakeld omdat er geen verdere korting kan worden toegepast.</p><p>Als een product een korting op regelitems heeft die niet is vergrendeld, worden zowel de korting op regelitem als de korting op het prijsniveau toegepast op de productprijs.</p> |
+| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | De totale voorgestelde prijs van elk lijnpunt in het citaat, of met of zonder belasting, afhankelijk van de [ montages van de belastingberekening ](../configuration-reference/sales/tax.md) in de configuratie. |
 | [!UICONTROL Shipping & Handling] | Het bedrag dat de verkoper heeft ingevoerd in het veld Voorgestelde verzendprijs in het gedeelte Verzendgegevens van de prijsopgave. Als dat veld leeg is, wordt het bedrag gebaseerd op de geselecteerde verzendmethode. |
-| [!UICONTROL Estimated Tax] | Het bedrag van de verschuldigde belasting, zoals gespecificeerd in de configuratie [weergave-instellingen](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | De hoeveelheid belasting die om, zoals gespecificeerd in de configuratie [ vertoningsmontages ](../configuration-reference/sales/tax.md) wordt geschat te zijn. |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | Het uiteindelijke totaal onder aan de prijsopgave, inclusief de onderhandelingsprijs, de geschatte belasting en de voorgestelde verzending. |
 
 {style="table-layout:auto"}

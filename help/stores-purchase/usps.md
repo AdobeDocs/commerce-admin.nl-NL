@@ -16,116 +16,116 @@ De United States Postal Service is de onafhankelijke postdienst van de Amerikaan
 
 ## Stap 1: Een verzendaccount voor USPS openen
 
-Een [USPS-webgereedschappen][1] account. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
+Open a ][1] rekening van de Hulpmiddelen van het Web van USPS [. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
 
-U kunt ook een [USPS-webgereedschappen][1] account. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Voor meer informatie over de Webhulpmiddelen van USPS, zie hun [Technische documentatie][2].
+U kunt ook de 1} rekening van de Hulpmiddelen van het Web van a [ USPS {openen. ][1] Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Meer over de Hulpmiddelen van het Web van USPS leren, zie hun [ Technische Documentatie ][2].
 
 ## Stap 2: USPS inschakelen voor uw winkel
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Delivery Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit.
 
    >[!NOTE]
    >
-   >Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om de volgende instellingen te wijzigen zoals beschreven.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om de volgende instellingen te wijzigen zoals beschreven.
 
-1. Set **[!UICONTROL Enabled for Checkout]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
-1. Voer zo nodig de **[!UICONTROL Gateway URL]** voor toegang tot verzendkosten van USPS.
+1. Voer indien nodig de **[!UICONTROL Gateway URL]** in om de verzendkosten van USPS te openen.
 
    >[!IMPORTANT]
    >
-   >Vanaf 24 juni 2021 verwijdert USPS Web Tools de ondersteuning voor alle onveilige HTTP-eindpunten. Na deze verandering, zullen alle hulpmiddelen API van het Web verzoeken dat aan een onbeveiligd eindpunt van HTTP zal ontbreken. Zorg ervoor dat uw **[!UICONTROL Gateway URL]** gebruikt het veilige eindpunt HTTPS.
+   >Vanaf 24 juni 2021 verwijdert USPS Web Tools de ondersteuning voor alle onveilige HTTP-eindpunten. Na deze verandering, zullen alle hulpmiddelen API van het Web verzoeken dat aan een onbeveiligd eindpunt van HTTP zal ontbreken. Zorg ervoor dat uw **[!UICONTROL Gateway URL]** het veilige eindpunt HTTPS gebruikt.
 
    Het veld is standaard vooraf ingesteld en hoeft normaal gesproken niet te worden gewijzigd.
 
-1. Voer een **[!UICONTROL Title]** voor deze verzendmethode die tijdens het afrekenen wordt weergegeven.
+1. Voer een **[!UICONTROL Title]** in voor deze verzendmethode die tijdens het uitchecken wordt weergegeven.
 
-1. Voer de **[!UICONTROL User ID]** en **[!UICONTROL Password]** voor uw USPS-account.
+1. Voer de **[!UICONTROL User ID]** en **[!UICONTROL Password]** in voor uw USPS-account.
 
-1. Set **[!UICONTROL Mode]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Mode]** in op een van de volgende opties:
 
-   - `Development` - Voert USPS uit in een testomgeving. Nadat u USPS hebt uitgevoerd in een ontwikkelomgeving, moet u ervoor zorgen dat u later terugkeert en Modus instelt op `Live`.
+   - `Development` - Voert USPS uit in een testomgeving. Nadat u USPS hebt uitgevoerd in een ontwikkelomgeving, moet u ervoor zorgen dat u later terugkeert en Modus instelt op `Live` .
    - `Live` - Voert USPS uit in een live productieomgeving.
 
 ## Stap 3: de verpakkingsbeschrijving invullen
 
-1. Om te bepalen hoe de orde wordt beheerd als verzonden als veelvoudige pakketten, plaats **[!UICONTROL Packages Request Type]** op een van de volgende wijzen:
+1. Als u wilt bepalen hoe de volgorde wordt beheerd wanneer deze als meerdere pakketten wordt verzonden, stelt u **[!UICONTROL Packages Request Type]** in op een van de volgende opties:
 
-   - `Divide to Equal Weight` - (Eén aanvraag) De verzending van meerdere verpakkingen kan als één aanvraag worden ingediend indien de verpakkingen worden gedeeld door hetzelfde gewicht.
-   - `Use Origin Weight` - (Meerdere verzoeken) Meerdere pakketten moeten als afzonderlijke aanvragen worden ingediend als het oorsprongsgewicht wordt gebruikt als basis voor de berekening van de verzendkosten.
+   - `Divide to Equal Weight` - (Eén aanvraag) De verzending van meerdere pakketten kan als één aanvraag worden ingediend als de pakketten worden gedeeld door hetzelfde gewicht.
+   - `Use Origin Weight` - (Meerdere aanvragen) Meerdere pakketten moeten als afzonderlijke aanvragen worden ingediend als het oorsprongsgewicht wordt gebruikt als basis voor de berekening van de verzendkosten.
 
-1. Set **[!UICONTROL Container]** op het soort verpakking dat gewoonlijk wordt gebruikt voor het verzenden van producten die voor uw winkel zijn besteld.
+1. Stel **[!UICONTROL Container]** in op het type verpakking dat normaal wordt gebruikt voor het verzenden van producten die voor uw winkel zijn besteld.
 
-1. Stel de **[!UICONTROL Size]** van het gebruikelijke pakket dat vanuit uw winkel wordt verzonden.
+1. Stel de **[!UICONTROL Size]** in van het gebruikelijke pakket dat vanuit uw winkel wordt verzonden.
 
-1. Set **[!UICONTROL Machinable]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Machinable]** in op een van de volgende opties:
 
-   - `Yes` - Als uw typische verpakking door een machine kan worden verwerkt.
-   - `No` - Als de gebruikelijke verpakking handmatig moet worden verwerkt.
+   - `Yes` - Als uw standaardpakket door een computer kan worden verwerkt.
+   - `No` - Als het gebruikelijke pakket handmatig moet worden verwerkt.
 
-1. Voer de **[!UICONTROL Maximum Package Weight]** volgens de eisen van de vervoerder.
+1. Voer de **[!UICONTROL Maximum Package Weight]** in op basis van de vereisten van de provider.
 
-   ![Verpakkingsinstellingen USPS](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
+   ![ USPS het Verpakken Montages ](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
 ## Stap 4: Afhandelingskosten instellen
 
 De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verzendkosten toegevoegd. Voer de volgende handelingen uit als u verpakkingskosten wilt opnemen:
 
-1. Set **[!UICONTROL Calculate Handling Fee]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Calculate Handling Fee]** in op een van de volgende methoden:
 
    - `Fixed`
    - `Percent`
 
-1. Om te bepalen hoe de behandelingskosten worden toegepast, stelt u **[!UICONTROL Handling Applied]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Handling Applied]** in op een van de volgende opties om te bepalen hoe de behandelingskosten worden toegepast:
 
    - `Per Order`
    - `Per Package`
 
-1. Voer de hoeveelheid van de **[!UICONTROL Handling Fee]** in rekening te brengen.
+1. Voer het bedrag in van de **[!UICONTROL Handling Fee]** die moet worden geladen.
 
-   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` voor 25%.
+   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` in voor 25%.
 
-   ![Verzendkosten voor USPS](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
+   ![ de Behandelingskosten van USPS ](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
 ## Stap 5: Geef de toegestane methoden en de toepasselijke landen op
 
-1. Voor **[!UICONTROL Allowed Methods]**, kiest u elke verzendmethode van USPS die beschikbaar is voor uw klanten.
+1. Kies voor **[!UICONTROL Allowed Methods]** elke verzendmethode van USPS die beschikbaar is voor uw klanten.
 
    De methoden worden onder USPS weergegeven tijdens het afrekenen. Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Als u een [Gratis verzending](shipping-free.md) Stel de opties voor gratis verzending in via USPS:
+1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door USPS wilt verstrekken, plaats de vrije het verschepen opties:
 
-   - Set **[!UICONTROL Free Method]** op de methode die je wilt gebruiken voor gratis verzending. Kies `None`.
+   - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via USPS wilt aanbieden.
 
-   - Als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met USPS, stelt u **[!UICONTROL Enable Free Shipping Threshold]** tot `Enable`. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Stel **[!UICONTROL Enable Free Shipping Threshold]** in op `Enable` als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met USPS. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]** in.
 
-1. Wijzig, indien nodig, de **[!UICONTROL Displayed Error Message]**.
+1. Wijzig indien nodig de **[!UICONTROL Displayed Error Message]** .
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als USPS niet meer beschikbaar is.
 
-   ![Toegestane USPS-methoden](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![ USPS Toegestane Methoden ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Ship to Applicable Countries]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Ship to Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) gespecificeerd in uw archiefconfiguratie kan deze leveringsmethode gebruiken.
-   - `Specific Countries` - Als u deze optie kiest, _Schip naar specifieke landen_ wordt weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-   ![Toepasselijke landen van USPS](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+   ![ USPS Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Show Method if Not Applicable]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Show Method if Not Applicable]** in op een van de volgende opties:
 
    - `Yes` - Vermeldt alle beschikbare verzendmethoden van USPS tijdens het afrekenen, inclusief methoden die niet van toepassing zijn op de verzending.
    - `No` - Vermeldt alleen de verzendmethoden van USPS die van toepassing zijn op de verzending.
 
-1. Als u een logbestand wilt maken met de details van USPS-verzendingen die vanuit uw winkel zijn gemaakt, stelt u **[!UICONTROL Debug]** tot `Yes`.
+1. Als u een logbestand wilt maken met de details van USPS-verzendingen die vanuit uw winkel zijn gemaakt, stelt u **[!UICONTROL Debug]** in op `Yes` .
 
-1. Voor **[!UICONTROL Sort Order]** voert u een getal in om de volgorde te bepalen waarin USPS wordt weergegeven bij andere leveringsmethoden tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde USPS wordt weergegeven wanneer deze bij andere leveringsmethoden tijdens het afrekenen wordt vermeld.
 
-   `0` = eerst, `1` = seconde, `2` = derde, enzovoort.
+   `0` = first, `1` = second, `2` = third, enzovoort.
 
 1. Klik op **[!UICONTROL Save Config]**.
 

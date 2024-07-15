@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Afhankelijk van de bedrijfsrol en de toestemmingen, kunnen de gebruikers, goedke
 
 >[!IMPORTANT]
 >
->Voor het instellen van een goedkeuringsregel is een definitie vereist [bedrijfsstructuur](account-company-structure.md) om de goedkeuring door de manager van de klant die de aankoop uitvoert te specificeren.
+>De opstelling van de goedkeuringsregel vereist een bepaalde [ bedrijfstructuur ](account-company-structure.md) om goedkeuring door de manager van de koopklant te specificeren.
 
 ## Betalingsmethoden
 
@@ -36,39 +36,39 @@ Goedkeuringsstromen voor inkooporders ondersteunen zowel online- als offline bet
 
 ## Goedkeuringsregelinstelling
 
-Met de vereiste [machtigingen voor hun rol](account-company-roles-permissions.md)B2B-klanten kunnen goedkeuringsregels instellen om het bedrijfsbeleid af te dwingen door op **[!UICONTROL Approval Rules]** in het linkerpaneel voor hun klantenrekening.
+Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions.md), kunnen de klanten B2B opstelling goedkeuringsregels om bedrijfbeleid af te dwingen door **[!UICONTROL Approval Rules]** in het linkerpaneel voor hun klantenrekening te klikken.
 
-![Regels voor bedrijfsgoedkeuring](./assets/approval-rules.png){width="700" zoomable="yes"}
+![ Regels van de Goedkeuring van het Bedrijf ](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Om een goedkeuringsregel tot stand te brengen, voltooit een klant de volgende stappen:
 
-1. Klikken **[!UICONTROL Add New Rule]** om een regel te maken.
+1. Klik op **[!UICONTROL Add New Rule]** om een regel te maken.
 
-1. Indien nodig wijzigt u de regel van **[!UICONTROL Enabled]** tot **[!UICONTROL Disabled]**.
+1. Wijzig zo nodig de regel van **[!UICONTROL Enabled]** in **[!UICONTROL Disabled]** .
 
    De regel is zoals toegelaten als gebrek, maar een klant kan de regel tot stand brengen gebruikend gehandicapten die en dan het toelaten later wanneer zij bereid zijn om het af te dwingen.
 
-1. Voor **[!UICONTROL Rule name]**, voert een korte maar beschrijvende naam in voor de regel, zoals `Orders less than $100`.
+1. Voor **[!UICONTROL Rule name]** voert u een korte, maar beschrijvende naam in voor de regel, zoals `Orders less than $100` .
 
    Regelnamen moeten uniek zijn.
 
-1. Voor **[!UICONTROL Description]** voert een langere uitleg van de regel in.
+1. Voor **[!UICONTROL Description]** voert u een langere uitleg van de regel in.
 
-1. Voor **[!UICONTROL Applies to]** kiest u een of meer rollen van het bedrijf die worden gebruikt voor het toepassen van de regel.
+1. Kies voor **[!UICONTROL Applies to]** een of meer rollen van het bedrijf die worden gebruikt voor het toepassen van de regel.
 
-1. Hiermee kiest u de **[!UICONTROL Rule Type]** en definieert de regel.
+1. Hiermee kiest u de **[!UICONTROL Rule Type]** en definieert u de regel.
 
    De volgende secties verstrekken een gedetailleerde verklaring en een voorbeeld voor elk regeltype.
 
-   ![Een nieuwe goedkeuringsregel maken](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![ Creërend een nieuwe goedkeuringsregel ](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. Voor **[!UICONTROL Requires approval from]** kiest de aanvrager een of meer vereiste goedkeuraars naar gelang van het type goedkeuring.
+1. Kies voor **[!UICONTROL Requires approval from]** een of meer vereiste fiatteurs op basis van het type goedkeuring.
 
    >[!NOTE]
    >
    >* Wanneer u een rol als fiatteur toewijst, moet u ervoor zorgen dat er ten minste één gebruiker in die rol is.
-   >* Als er twee of meer gebruikers met dezelfde fiatteur zijn, kan de maker van de kooporder deze niet goedkeuren. In dit geval is handmatige goedkeuring vereist door elke andere gebruiker met deze goedkeurende rol. Als echter `Auto-approve POs created within this role` wordt ingesteld in het dialoogvenster [Rolmachtigingen](account-company-roles-permissions.md), wordt de kooporder automatisch goedgekeurd.
-   >* Als er slechts één gebruiker met de fiatterrol is en die gebruiker de schepper is, wordt de kooporder altijd automatisch goedgekeurd—het `Auto-approve POs created within this role` machtigingsinstelling wordt genegeerd.
+   >* Als er twee of meer gebruikers met dezelfde fiatteur zijn, kan de maker van de kooporder deze niet goedkeuren. In dit geval is handmatige goedkeuring vereist door elke andere gebruiker met deze goedkeurende rol. Nochtans, als `Auto-approve POs created within this role` optie in de [ Toestemmingen van de Rol ](account-company-roles-permissions.md) wordt geplaatst, wordt de kooporde automatisch goedgekeurd.
+   >* Als er slechts één gebruiker met de goedkeurende rol is en die gebruiker de schepper is, wordt de kooporder altijd automatisch goedgekeurd-het `Auto-approve POs created within this role` toestemmingsplaatsen wordt genegeerd.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -76,7 +76,7 @@ Om een goedkeuringsregel tot stand te brengen, voltooit een klant de volgende st
 
 Dit regeltype wordt gebruikt om een goedkeuring van PO te vereisen die op het ordertotaal, met inbegrip van belasting wordt gebaseerd.
 
-1. Kies een **[!UICONTROL Order Total amount]** optie:
+1. Hiermee kiest u een optie **[!UICONTROL Order Total amount]** :
 
    * `is more than`
    * `is less than`
@@ -85,13 +85,13 @@ Dit regeltype wordt gebruikt om een goedkeuring van PO te vereisen die op het or
 
 1. Selecteert het valutatype en voer het bedrag in.
 
-![Volgorde voor goedkeuring](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![ de Totale Regel van de Goedkeuring van de Orde ](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
 Dit regeltype wordt gebruikt om een goedkeuring te vereisen van PO die op verzendkosten wordt gebaseerd, die vele bedrijven vereisen.
 
-1. Hiermee stelt u de **[!UICONTROL Shipping cost value]**:
+1. Hiermee stelt u de **[!UICONTROL Shipping cost value]** in:
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ Dit regeltype wordt gebruikt om een goedkeuring te vereisen van PO die op verzen
 
 1. Hiermee stelt u het gewenste verzendbedrag in.
 
-![Goedkeuringsregel verzendkosten](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![ Verzendkosten Goedkeuringsregel ](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ Dit regeltype wordt gebruikt om een goedkeuring van PO te vereisen die op het aa
 
 Dit voorbeeld specificeert vijf punten, maar twee verschillende SKUs.
 
-1. Hiermee stelt u de **[!UICONTROL Number of SKUs]** waarde:
+1. Hiermee wordt de waarde **[!UICONTROL Number of SKUs]** ingesteld:
 
    * `is more than`
    * `is less than`
@@ -120,31 +120,31 @@ Dit voorbeeld specificeert vijf punten, maar twee verschillende SKUs.
 
 1. Hiermee stelt u de hoeveelheid SKU&#39;s in.
 
-![Aantal SKU&#39;s-goedkeuringsregels](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![ Aantal Regel van de Goedkeuring van SKUs ](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## Goedkeuringsregels bewerken
 
 Om een bestaande goedkeuringsregel te wijzigen, kan een klant de volgende stappen voltooien:
 
-1. In de zijbalk van hun account selecteert de klant **[!UICONTROL Approval Rules]**.
+1. In de zijbalk van hun account selecteert de klant **[!UICONTROL Approval Rules]** .
 
 1. Vindt de ingang van de goedkeuringsregel die moet worden uitgegeven.
 
-1. Klikken **[!UICONTROL Edit]**.
+1. Klik op **[!UICONTROL Edit]** .
 
-1. Hiermee brengt u alle benodigde wijzigingen aan en klikt u op **[!UICONTROL Save]**.
+1. Hiermee brengt u alle benodigde wijzigingen aan en klikt u op **[!UICONTROL Save]** .
 
 ## Goedkeuringsregels verwijderen
 
 Om een bestaande goedkeuringsregel te verwijderen, kan een klant de volgende stappen voltooien:
 
-1. Kies in de zijbalk van hun account de optie **[!UICONTROL Approval Rules]**.
+1. Selecteer **[!UICONTROL Approval Rules]** in de zijbalk van hun account.
 
 1. Vindt de ingang van de goedkeuringsregel die moet worden geschrapt.
 
-1. Klikken **[!UICONTROL Delete]**.
+1. Klik op **[!UICONTROL Delete]** .
 
-1. Klik om de handeling te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ## Goedkeuringsdemo voor inkooporders
 

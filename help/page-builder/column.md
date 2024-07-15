@@ -1,30 +1,30 @@
 ---
 title: Layout - kolom
-description: Meer informatie over het inhoudstype Kolom waarmee u een pagina in meerdere kolommen in het dialoogvenster [!DNL Page Builder] in het werkgebied.
+description: Leer over het inhoudstype van de Kolom, dat wordt gebruikt om een pagina in veelvoudige kolommen in het  [!DNL Page Builder]  stadium te verdelen.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
 source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
 # Layout - kolom
 
-Gebruik de _Kolom_ inhoudstype om een pagina in meerdere kolommen in het dialoogvenster [[!DNL Page Builder] stadium](workspace.md#stage). Wanneer u een kolom toevoegt aan een rij of tab of rechtstreeks aan het werkgebied, wordt de kolomgroep in eerste instantie verdeeld in twee kolommen met dezelfde breedte. Desgewenst kunt u kolommen toevoegen of verwijderen. U kunt de grootte van een kolom wijzigen door de rand tussen twee kolommen te slepen. De breedte van de volgende kolom wordt aangepast om de beschikbare ruimte binnen de rij, de tab of het werkgebied te vullen. Met één kolom wordt de volledige breedte van het werkgebied of de container uitgebreid.
+Gebruik het _inhoudstype van de Kolom_ om een pagina in veelvoudige kolommen in het [[!DNL Page Builder]  stadium ](workspace.md#stage) te verdelen. Wanneer u een kolom toevoegt aan een rij of tab of rechtstreeks aan het werkgebied, wordt de kolomgroep in eerste instantie verdeeld in twee kolommen met dezelfde breedte. Desgewenst kunt u kolommen toevoegen of verwijderen. U kunt de grootte van een kolom wijzigen door de rand tussen twee kolommen te slepen. De breedte van de volgende kolom wordt aangepast om de beschikbare ruimte binnen de rij, de tab of het werkgebied te vullen. Met één kolom wordt de volledige breedte van het werkgebied of de container uitgebreid.
 
-![Een kolom toevoegen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+![ Toevoegend een kolom ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Updates in de release 2.4.5
 
-De mogelijkheden van de Bouwer van de pagina worden bijgewerkt in versie 2.4.5 zodat de gebruikers nu gebruiken _[!DNL Columns]_als bovenliggende container voor afzonderlijke kolommen. Deze nieuwe container ondersteunt ook eigenschappen voor de achtergrond en maakt het niet nodig kolommen in een rij te laten omlopen. Het vermindert onnodige prijsverhoging en geeft een fijnere controle over de archiefrontvertoning en ervaring.
+De mogelijkheden van de Bouwer van de pagina worden bijgewerkt in versie 2.4.5 zodat de gebruikers _[!DNL Columns]_nu als oudercontainer voor individuele kolommen gebruiken. Deze nieuwe container ondersteunt ook eigenschappen voor de achtergrond en maakt het niet nodig kolommen in een rij te laten omlopen. Het vermindert onnodige prijsverhoging en geeft een fijnere controle over de archiefrontvertoning en ervaring.
 
-U kunt de layout van het dialoogvenster [!DNL Columns] door een kolom boven of onder andere kolommen in de groep te slepen en deze te stapelen. Dit opent een nieuwe verscheidenheid van mogelijke lay-outcombinaties die zonder de behoefte aan aanpassing door ontwikkelaars kunnen worden bereikt.
+U kunt de lay-out van de container van [!DNL Columns] veranderen door een kolom boven of onder andere kolommen in de groep te slepen en hen te stapelen. Dit opent een nieuwe verscheidenheid van mogelijke lay-outcombinaties die zonder de behoefte aan aanpassing door ontwikkelaars kunnen worden bereikt.
 
-Bekijk deze video voor een demonstratie van hoe [!DNL Columns] U kunt de container gebruiken om uw pagina-indelingen te verfijnen:
+Bekijk deze video voor een demonstratie van hoe u de container van [!DNL Columns] kunt gebruiken om uw paginalay-outs te verfijnen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
 
@@ -34,39 +34,39 @@ Elke kolom heeft een gereedschapset met opties die wordt weergegeven wanneer u d
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="25"} | Verplaatst de kolom en de inhoud ervan naar een andere positie ten opzichte van andere kolommen. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de kolom en de inhoud ervan naar een andere positie ten opzichte van andere kolommen. |
 | (label) | Kolom | Identificeert de huidige container als een kolom. Houd de muisaanwijzer boven de kolomcontainer om de gereedschapset weer te geven. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kolom bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige kolom. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige kolom en de inhoud ervan. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kolom bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige kolom. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige kolom en de inhoud ervan. |
 
 {style="table-layout:auto"}
 
 ## Kolomraster
 
-De [raster](workspace.md) zorgt ervoor dat de inhoud consistent wordt uitgelijnd in een kolom en dat de pagina zowel op het bureaublad als op mobiele apparaten correct wordt weergegeven. Zie de klasse [Geavanceerde gereedschappen voor inhoud](setup.md) van de [!DNL Page Builder] configuratie.
+Het [ net ](workspace.md) zorgt ervoor dat de inhoud constant in een kolom wordt gericht en helpt de pagina correct op zowel Desktop als mobiele apparaten teruggeven. Voor meer informatie, zie de [ Geavanceerde sectie van de Hulpmiddelen van de Inhoud ](setup.md) van de [!DNL Page Builder] configuratie.
 
-![Rasterverdelingen op een rij met één kolom](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
+![ de divisies van het Net op een rij met één kolom ](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
 In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/12) in de bovenrand van elke kolomcontainer het aantal rasterdivisies in elke kolom en het totale aantal scheidingen aan. In dit geval is de kolom de breedte van zes rastereenheden op een totaal van 12.
 
-![Rasterverdelingen op rij met twee kolommen](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
+![ de afdelingen van het Net op rij met twee kolommen ](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Een kolom toevoegen
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Column]**naar het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een **[!UICONTROL Column]**naar het werkgebied.
 
-   ![Een kolom naar het werkgebied slepen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+   ![ slepend een kolom aan het stadium ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    De kolomgroep is nu verdeeld in twee kolommen van gelijke breedte. Elke kolom is een aparte container voor inhoud en heeft een eigen set gereedschapsopties.
 
-   ![Twee gelijke kolommen](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
+   ![ Twee gelijke kolommen ](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
-1. Klik in de linkerbovenhoek van de kolomgroep op de knop _Raster_ gereedschap (![Rasterbesturingselement](./assets/pb-icon-grid-control.png)) en past de rastergrootte zo nodig aan.
+1. In de upper-left hoek van de kolomgroep, klik het _hulpmiddel van het Net_ (![ controle van het Net ](./assets/pb-icon-grid-control.png)) en pas de netgrootte zonodig aan.
 
-   Door de inhoud op het raster te positioneren, kunt u de inhoud consistent uitlijnen en de pagina op zowel het bureaublad als het mobiele apparaat op de juiste wijze weergeven. Zie de klasse [Geavanceerde gereedschappen voor inhoud](../configuration-reference/general/content-management.md) van de [!DNL Page Builder] configuratie.
+   Door de inhoud op het raster te positioneren, kunt u de inhoud consistent uitlijnen en de pagina op zowel het bureaublad als het mobiele apparaat op de juiste wijze weergeven. Voor meer informatie, zie de [ Geavanceerde sectie van de Hulpmiddelen van de Inhoud ](../configuration-reference/general/content-management.md) van de [!DNL Page Builder] configuratie.
 
-   ![Rasterverdelingen op twee kolommen](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
+   ![ de afdelingen van het Net op twee kolommen ](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Het formaat van een kolom wijzigen
 
@@ -74,47 +74,47 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
    De rand wordt gemarkeerd en de gereedschapset voor de geselecteerde kolom wordt weergegeven.
 
-   ![Gemarkeerde rand tussen twee kolommen](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
+   ![ Gemarkeerde grens tussen twee kolommen ](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
 
 1. Houd de muisknop ingedrukt om het raster weer te geven en sleep de rand naar een nieuwe positie op het raster.
 
    De breedte van beide kolommen wordt aangepast aan de wijziging. De nieuwe breedte van elke kolom wordt na het label weergegeven, bijvoorbeeld `4/12` (vier van de twaalf) en `8/12` (acht van de twaalf).
 
-   ![Formaatse kolommen](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
+   ![ Resized kolommen ](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
 
 ## Een kolom verwijderen
 
-1. Houd de cursor boven de kolom die u wilt verwijderen om de gereedschapset weer te geven en kies de optie _Verwijderen_ ( ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="20"} ).
+1. Beweeg over de kolom die u wilt verwijderen om toolbox te tonen en _te kiezen verwijdert_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="20"} ).
 
-   ![Gereedschap Kolom](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
+   ![ toolbox van de Kolom ](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL OK]** ter bevestiging.
+1. Als de kolom inhoud bevat, klikt u op **[!UICONTROL OK]** om te bevestigen.
 
-   Als u het proces in de toekomst wilt versnellen, kunt u de bevestigingsstap overslaan door de optie **[!UICONTROL Do not show this again]** selectievakje.
+   Als u het proces in de toekomst wilt versnellen, kunt u de bevestigingsstap overslaan door het selectievakje **[!UICONTROL Do not show this again]** in te schakelen.
 
    De kolomgroep heeft nu één kolom (12/12) en een raster. Omdat het raster alleen beschikbaar is voor kolommen, kunt u het raster met deze techniek weergeven.
 
-   ![Eén kolom met raster](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
+   ![ Enige kolom met net ](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
 
 1. Als u wilt dat de kolomgroep de resterende kolom tot de volledige breedte van de rij of het werkgebied uitbreidt:
 
-   - Houd de muisaanwijzer boven de kolom om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+   - Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   - Omlaag schuiven naar de _[!UICONTROL Advanced]_en alle vier instellen **[!UICONTROL Padding]**waarden voor `0`.
+   - Blader omlaag naar de sectie _[!UICONTROL Advanced]_en stel alle vier de **[!UICONTROL Padding]**waarden in op `0` .
 
-     ![Opvulling met nul gebruiken](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+     ![ Gebruikend nul het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de _[!UICONTROL Edit Column]_pagina.
+   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de pagina _[!UICONTROL Edit Column]_te sluiten.
 
-1. Klik op de knop _Volledig scherm sluiten_ ( ![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png){width="20"} ) in de rechterbovenhoek van de werkruimte en klik vervolgens op **[!UICONTROL Save]** in de rechterbovenhoek.
+1. Klik het _Dichte Volledige Scherm_ ( ![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png){width="20"}) pictogram in de hoger-juiste hoek van de werkruimte, en klik dan **[!UICONTROL Save]** in de hoger-juiste hoek.
 
 ## Kolominstellingen wijzigen
 
-1. Houd de muisaanwijzer boven de kolom om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   ![Gereedschap Kolom](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
+   ![ toolbox van de Kolom ](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Wijzig de **[!UICONTROL Appearance]** instellingen.
+1. Wijzig desgewenst de instellingen van **[!UICONTROL Appearance]** .
 
    - Kies de uitlijningsinstelling die de positie van de kolom ten opzichte van de container bepaalt.
 
@@ -127,21 +127,21 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - Voer zo nodig de **[!UICONTROL Minimum Height]** voor de kolom. U kunt bijvoorbeeld de minimumhoogte instellen zodat deze overeenkomt met de hoogte van een achtergrondafbeelding.
+   - Voer indien nodig de **[!UICONTROL Minimum Height]** voor de kolom in. U kunt bijvoorbeeld de minimumhoogte instellen zodat deze overeenkomt met de hoogte van een achtergrondafbeelding.
 
-   - Als u de minimumhoogte instelt, stelt u de optie **[!UICONTROL Vertical Alignment]**  om de positie te bepalen van inhoudscontainers die aan de kolom worden toegevoegd (`Top`, `Center`, of `Bottom`).
+   - Als u de minimumhoogte instelt, stelt u **[!UICONTROL Vertical Alignment]** in om de positie te bepalen van inhoudscontainers die aan de kolom worden toegevoegd (`Top`, `Center` of `Bottom`).
 
 1. Wijzig de achtergrond voor de kolominhoud.
 
    - **[!UICONTROL Background Color]** - Geef de kleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren. Deze instelling bepaalt de achtergrondkleur van de kolom.
 
-   - **[!UICONTROL Background Image]** - Kies zo nodig met de beschikbare gereedschappen een achtergrondafbeelding die u op de kolom wilt toepassen:
+   - **[!UICONTROL Background Image]** - Gebruik indien nodig de beschikbare gereedschappen om een achtergrondafbeelding te kiezen die u op de kolom wilt toepassen:
 
      | Gereedschap | Beschrijving |
      | ------ | ----------- |
      | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als achtergrondafbeelding voor de kolom. |
      | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor de kolom. |
-     | ![Pictogram Camera](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+     | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
      {style="table-layout:auto"}
 
@@ -157,7 +157,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Position]** - Wijzig deze instelling om het ankerpunt van de afbeelding ten opzichte van de kolom te bepalen. Opties: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center`, of `Bottom Right`
+   - **[!UICONTROL Background Position]** - Wijzig deze instelling om het ankerpunt van de afbeelding ten opzichte van de kolom te bepalen. Opties: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center` of `Bottom Right`
 
    - **[!UICONTROL Background Attachment]** - Wijzig deze instelling om te bepalen hoe de achtergrondafbeelding ten opzichte van de schuifpagina wordt verplaatst:
 
@@ -168,11 +168,11 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Repeat]** - Als u de achtergrondafbeelding wilt herhalen om de ruimte te vullen, wijzigt u deze instelling `Yes`.
+   - **[!UICONTROL Background Repeat]** - Als u de achtergrondafbeelding wilt herhalen om de ruimte te vullen, wijzigt u deze instelling `Yes` .
 
-1. Werk de _[!UICONTROL Advanced]_instellingen.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
-   - Als u de horizontale plaatsing wilt bepalen van inhoudscontainers die aan de kolom worden toegevoegd, kiest u een **[!UICONTROL Alignment]**:
+   - Kies een **[!UICONTROL Alignment]** als u de horizontale plaatsing wilt bepalen van inhoudscontainers die aan de kolom worden toegevoegd:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -183,7 +183,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - Stel de **[!UICONTROL Border]** stijl, die wordt toegepast op alle vier zijden van de kolomcontainer:
+   - Stel de stijl **[!UICONTROL Border]** in, die wordt toegepast op alle vier zijden van de kolomcontainer:
 
      | Optie | Beschrijving |
      | ------ | ----------- |
@@ -200,7 +200,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+   - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
      | Optie | Beschrijving |
      | ------ |------------ |
@@ -210,7 +210,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-   - (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** in het huidige stijlblad toe te passen op de kolomcontainer.
+   - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit het huidige stijlblad die u wilt toepassen op de kolomcontainer.
 
      Scheid meerdere klassennamen met een spatie.
 
@@ -225,4 +225,4 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
      {style="table-layout:auto"}
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .

@@ -5,14 +5,14 @@ exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Gratis verzending
 
-_Gratis verzending_ is een van de meest effectieve aanbiedingen die je kunt aanbieden. Deze kan gebaseerd zijn op een minimale aankoop of worden ingesteld als een [kartonnen prijsregel](../merchandising-promotions/price-rules-cart.md) die wordt toegepast wanneer aan een reeks voorwaarden wordt voldaan. Als beide op de zelfde orde van toepassing zijn, neemt het configuratie plaatsen belangrijkheid over de wortelregel.
+_het Vrij verschepen_ is één van de meest efficiënte bevorderingen die u kunt aanbieden. Het kan op een minimumaankoop worden gebaseerd, of opstelling als regel van de a [ kartprijs ](../merchandising-promotions/price-rules-cart.md) die wordt toegepast wanneer een reeks voorwaarden wordt voldaan. Als beide op de zelfde orde van toepassing zijn, neemt het configuratie plaatsen belangrijkheid over de wortelregel.
 
 >[!NOTE]
 >
@@ -20,62 +20,62 @@ _Gratis verzending_ is een van de meest effectieve aanbiedingen die je kunt aanb
 
 ## Stap 1: Vrije verzending configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Delivery Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Free Shipping]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Free Shipping]** sectie uit.
 
    >[!NOTE]
    >
-   >Schakel indien nodig eerst de optie **[!UICONTROL Use system value]** Schakel het selectievakje in om de volgende instellingen te wijzigen zoals beschreven.
+   >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om de volgende instellingen te wijzigen zoals beschreven.
 
-1. Set **[!UICONTROL Enabled]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 
-1. Voor **[!UICONTROL Title]**, voert u een titel in die de methode voor gratis verzending tijdens het afrekenen aangeeft en een **[!UICONTROL Method Name]** om het te beschrijven.
+1. Voer bij **[!UICONTROL Title]** een titel in die de methode voor het gratis verzenden van objecten tijdens het afrekenen aangeeft en een **[!UICONTROL Method Name]** die deze methode beschrijft.
 
-1. Voor **[!UICONTROL Minimum Order Amount]** Voer de minimale totale waarde in die in aanmerking komt voor gratis verzending.
+1. Voer bij **[!UICONTROL Minimum Order Amount]** de minimale totale waarde in die in aanmerking komt voor gratis verzending.
 
    >[!TIP]
    >
-   >Voor gratis verzending met [tabeltarieven](shipping-table-rate.md)de _[!UICONTROL Minimum Order Amount]_zo hoog dat het nooit wordt gehaald. Als je deze hoge waarde gebruikt, wordt de gratis verzending niet van kracht, tenzij deze wordt geactiveerd door een prijsregel.
+   >Om het vrije verschepen met [ lijsttarieven ](shipping-table-rate.md) te gebruiken, maak _[!UICONTROL Minimum Order Amount]_zo hoog dat het nooit wordt ontmoet. Als je deze hoge waarde gebruikt, wordt de gratis verzending niet van kracht, tenzij deze wordt geactiveerd door een prijsregel.
 
-1. Set **[!UICONTROL Include Tax to Amount]**:
+1. Instellen **[!UICONTROL Include Tax to Amount]** :
 
-   - `Yes` - Omvat belasting bij de berekening van het minimumbestelbedrag (Subtotaal + Belasting - Korting).
-   - `No` - Omvat geen belasting bij de berekening van het minimumorderbedrag (Subtotaal - Korting).
+   - `Yes` - Hiermee wordt belasting opgenomen bij het berekenen van het minimumbedrag voor bestellingen (Subtotaal + BTW - Korting).
+   - `No` - Neemt geen belasting op bij de berekening van het minimumbedrag van de order (Subtotaal - Korting).
 
-   ![Gratis verzending](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
+   ![ Vrij die ](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"} verscheept
 
-1. Voor **[!UICONTROL Displayed Error Message]**, voer het bericht in dat wordt weergegeven als de gratis verzending niet beschikbaar is.
+1. Voer bij **[!UICONTROL Displayed Error Message]** het bericht in dat wordt weergegeven als de gratis verzending niet langer beschikbaar is.
 
-1. Set **[!UICONTROL Ship to Applicable Countries]**:
+1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) Je kunt gratis verzending gebruiken die in je winkelconfiguratie is opgegeven.
+   - `All Allowed Countries` - de Klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen vrije verzending gebruiken.
 
-   - `Specific Countries` - Nadat u deze waarde hebt gekozen, _[!UICONTROL Ship to Specific Countries]_wordt weergegeven. Selecteer elk land in de lijst waar gratis verzending kan worden gebruikt.
+   - `Specific Countries` - Nadat u deze waarde hebt gekozen, wordt de lijst _[!UICONTROL Ship to Specific Countries]_weergegeven. Selecteer elk land in de lijst waar gratis verzending kan worden gebruikt.
 
-1. Set **[!UICONTROL Show Method if Not Applicable]**:
+1. Instellen **[!UICONTROL Show Method if Not Applicable]** :
 
-   - `Yes` - Altijd de methode voor gratis verzending weergeven, zelfs als deze niet van toepassing is.
-   - `No` - Geeft alleen de methode voor gratis verzending weer wanneer van toepassing.
+   - `Yes` - Geeft altijd de methode voor gratis verzending weer, zelfs als deze niet van toepassing is.
+   - `No` - Geeft de methode voor gratis verzending alleen weer wanneer deze van toepassing is.
 
-1. Voor **[!UICONTROL Sort Order]**, voert u het getal in dat de positie van de gratis verzending bepaalt in de lijst met leveringsmethoden tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** het getal in dat de positie van de gratis verzending bepaalt in de lijst met leveringsmethoden tijdens het afrekenen.
 
-   `0` = eerst, `1` = seconde, `2` = derde, enzovoort.
+   `0` = first, `1` = second, `2` = third, enzovoort.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Stap 2: Laat het vrije verschepen in de dragerconfiguratie toe
 
-Zorg ervoor om het even welke configuratie te voltooien die voor elke drager wordt vereist die u voor vrije verzending van plan bent te gebruiken. Als uw [UPS-configuratie](ups.md) is anders volledig, werk de volgende montages bij om vrije verzending toe te laten en te vormen.
+Zorg ervoor om het even welke configuratie te voltooien die voor elke drager wordt vereist die u voor vrije verzending van plan bent te gebruiken. Bijvoorbeeld, als uw [ configuratie van UPS ](ups.md) anders volledig is, werk de volgende montages bij om vrije verzending toe te laten en te vormen.
 
-1. In de _[!UICONTROL Delivery Methods]_configuratie, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL UPS]**sectie.
+1. In de _[!UICONTROL Delivery Methods]_configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL UPS]**sectie.
 
-1. Set **[!UICONTROL Free Method]** tot `UPS Ground` of een ander type dat je wilt aanwijzen voor gratis verzending.
+1. Stel **[!UICONTROL Free Method]** in op `UPS Ground` of een ander type dat u wilt toewijzen voor gratis verzending.
 
-1. Als je een minimale bestelling voor gratis verzending wilt vereisen, stelt u **[!UICONTROL Enable Free Shipping Threshold]** tot `Enable`.
+1. Als u een minimale bestelling voor gratis verzending wilt vereisen, stelt u **[!UICONTROL Enable Free Shipping Threshold]** in op `Enable` .
 
-   Als u een minimumvolgorde kiest, voert u het vereiste bedrag in voor **[!UICONTROL Free Shipping Amount Threshold]**.
+   Als u een minimumvolgorde wilt gebruiken, voert u de vereiste hoeveelheid voor **[!UICONTROL Free Shipping Amount Threshold]** in.
 
 1. Klik op **[!UICONTROL Save Config]**.

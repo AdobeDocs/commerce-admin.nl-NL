@@ -1,6 +1,6 @@
 ---
 title: Storefront-orderbeheer
-description: Leer hoe klanten hun ordergeschiedenis kunnen bekijken en beheren op de Commerce-winkel.
+description: Leer hoe klanten hun ordergeschiedenis op de Commerce-winkel kunnen bekijken en beheren.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
@@ -18,9 +18,9 @@ Klanten hebben toegang tot al hun bestellingen via hun account. Bestellingen kun
 
 {{b2b-feature}}
 
-Uw eerste _[!UICONTROL My Orders]_resultaten bevatten ook overeenkomende opdrachten van ondergeschikte gebruikers van alle websites in de instantie commerce. Een klant die aan een bedrijfrekening wordt geassocieerd kan de orderlijst filtreren om verslagen binnen de resultaten snel te vinden. Om de filteropties te tonen, klikt de klant **[!UICONTROL Filter]**en klikken **[!UICONTROL Close]**de filters verbergen.
+Uw initiële _[!UICONTROL My Orders]_resultaten bevatten ook overeenkomende opdrachten van ondergeschikte gebruikers van alle websites in de instantie commerce. Een klant die aan een bedrijfrekening wordt geassocieerd kan de orderlijst filtreren om verslagen binnen de resultaten snel te vinden. Om de filteropties te tonen, klikt de klant **[!UICONTROL Filter]**, en klikt **[!UICONTROL Close]**om de filters te verbergen.
 
-![Mijn bestellingen](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
+![ Mijn Orden ](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
 | Filter | Beschrijving |
 | ------ | ----------- |
@@ -34,67 +34,67 @@ Uw eerste _[!UICONTROL My Orders]_resultaten bevatten ook overeenkomende opdrach
 
 ## Een bestelling weergeven
 
-Een klant vindt de orde in de lijst en klikt **[!UICONTROL View Order]**. Vanuit de open volgorde kunnen ze een van de volgende handelingen uitvoeren:
+Een klant zoekt de volgorde in de lijst en klikt op **[!UICONTROL View Order]** . Vanuit de open volgorde kunnen ze een van de volgende handelingen uitvoeren:
 
-![Volgorde weergeven](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
+![ de Orde van de Mening ](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### Onlangs bestelde producten weergeven
 
-De **[!UICONTROL Recent Orders]** blok wordt weergegeven in de zijbalk en op de **[!UICONTROL My Account]** pagina voor klanten die na het plaatsen van een bestelling zijn aangemeld. Er worden vijf producten weergegeven vanaf de laatste aankoop.
+Het blok **[!UICONTROL Recent Orders]** wordt weergegeven op de zijbalk en op de pagina **[!UICONTROL My Account]** voor klanten die zich na het plaatsen van een bestelling hebben aangemeld. Er worden vijf producten weergegeven vanaf de laatste aankoop.
 
-De klant kan producten aan de kar lezen door de producten te selecteren en te klikken **[!UICONTROL Add to Cart]**. Ze kunnen ook de laatste volgorde weergeven door op **[!UICONTROL View all]**, die wordt doorgestuurd naar de _[!UICONTROL My Account]_en de **[!UICONTROL Recent Orders]**blokkeren.
+De klant kan producten aan de kar lezen door de producten te selecteren en **[!UICONTROL Add to Cart]** te klikken. Ze kunnen ook de laatste volgorde weergeven door op **[!UICONTROL View all]** te klikken. Hiermee wordt doorgegaan naar de pagina _[!UICONTROL My Account]_en het blok **[!UICONTROL Recent Orders]**.
 
 ### Afdrukvolgorde
 
-1. De klant klikt **[!UICONTROL Print Order]**.
+1. De klant klikt op **[!UICONTROL Print Order]** .
 
 1. Volg de instructies in het dialoogvenster Afdrukken om het afdrukken te voltooien.
 
 ### Facturen afdrukken
 
-1. Op de **[!UICONTROL Invoices]** tabblad klikt de klant op een van de volgende opties:
+1. Op het tabblad **[!UICONTROL Invoices]** klikt de klant op een van de volgende opties:
 
    - **[!UICONTROL Print All Invoices]**
 
    - **[!UICONTROL Print Invoice]**
 
-   ![Facturen](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
+   ![ Facturen ](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
 
 1. Gebruikt het dialoogvenster Afdrukken om het afdrukken te voltooien.
 
 ### Afdrukken
 
-1. Op de **[!UICONTROL Order Shipments]** tabblad klikt de klant op een van de volgende opties:
+1. Op het tabblad **[!UICONTROL Order Shipments]** klikt de klant op een van de volgende opties:
 
    - **[!UICONTROL Print All Shipments]**
 
    - **[!UICONTROL Print Shipment]**
 
-   ![Alle verzendingen afdrukken](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
+   ![ Druk Alle Verzendingen ](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
 
 1. Gebruikt het dialoogvenster Afdrukken om het afdrukken te voltooien.
 
 ### Een verzending volgen
 
-1. Op de **[!UICONTROL Order Shipments]** tabblad, klikt u op **[!UICONTROL Track this Shipment]**.
+1. Klik op het tabblad **[!UICONTROL Order Shipments]** op **[!UICONTROL Track this Shipment]** .
 
    Alle beschikbare trackinggegevens worden weergegeven in een pop-upvenster.
 
-1. Wanneer klaar, klikt de klant **[!UICONTROL Close Window]**.
+1. Wanneer deze gereed is, klikt de klant op **[!UICONTROL Close Window]** .
 
 ### Afdrukrestituties
 
-1. Op de **Restituties** tabblad klikt de klant op een van de volgende opties:
+1. Op **terugkeert** lusje terug, klikt de klant één van het volgende:
 
-   - **Alle restituties afdrukken**
+   - **Druk Alle Terugbetalingen**
 
-   - **Terugbetaling afdrukken**
+   - **Terugbetaling van de Druk**
 
-   ![Restituties](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![ Terugbetalingen ](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 1. Gebruikt het dialoogvenster Afdrukken om het afdrukken te voltooien.
 
-Herschikkingen zijn beschikbaar voor klanten wanneer de [_Opnieuw ordenen toestaan_](reorders-allow.md) configuratieoptie is ingeschakeld.
+Reorders zijn beschikbaar aan klanten wanneer [_toestaat opnieuw rangschikt_](reorders-allow.md) configuratieoptie wordt toegelaten.
 
 Een klant kan de functionaliteit voor opnieuw ordenen voor een specifieke volgorde op twee pagina&#39;s starten:
 
@@ -103,31 +103,31 @@ Een klant kan de functionaliteit voor opnieuw ordenen voor een specifieke volgor
 
 ## Herschikkingen
 
-De _[!UICONTROL Reorder]_de verbinding wordt getoond in de lijst met orden dichtbij_[!UICONTROL View]_ koppeling.
+De koppeling _[!UICONTROL Reorder]_wordt weergegeven in de lijst met bestellingen bij de koppeling_[!UICONTROL View]_ .
 
-![Koppeling opnieuw ordenen op de pagina Mijn bestelling](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![ herordent verbinding op de Mijn pagina van de Orde ](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
-**Zaak 1.** Alle producten van de bestelling kunnen opnieuw worden geordend
+**Geval 1.** Alle producten van de bestelling zijn beschikbaar voor herschikking
 
 De klant wordt omgeleid naar het winkelwagentje en alle producten worden aan het winkelwagentje toegevoegd.
 
-**Zaak 2.** Enkele/alle producten van de bestelling zijn niet beschikbaar voor herschikking
+**Geval 2.** Sommige/alle producten van de bestelling zijn niet beschikbaar voor herschikking
 
 >[!NOTE]
 >
->Het is mogelijk de volgorde te wijzigen `Not Visible Individually` producten.
+>Het is mogelijk om `Not Visible Individually` -producten opnieuw te ordenen.
 
-De _[!UICONTROL Reorder]_de koppeling wordt niet weergegeven op het tabblad_[!UICONTROL My Orders]_ en _[!UICONTROL View Order]_pagina&#39;s.
+De koppeling _[!UICONTROL Reorder]_wordt niet weergegeven op de pagina&#39;s_[!UICONTROL My Orders]_ en _[!UICONTROL View Order]_.
 
-![Pagina Mijn bestelling](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![ Mijn pagina van de Orde ](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Als het winkelwagentje niet leeg is en de klant klikt **[!UICONTROL Reorder]** (van de [!UICONTROL My Orders] of [!UICONTROL Order View] pagina), blijven de bestaande producten in het winkelwagentje met de toegevoegde producten van de herschikking.
+>Als het winkelwagentje niet leeg is en de klant op **[!UICONTROL Reorder]** klikt (vanaf de pagina [!UICONTROL My Orders] of [!UICONTROL Order View] ), blijven de bestaande producten in het winkelwagentje met de toegevoegde producten voor opnieuw ordenen.
 
 ## Bestellingen annuleren
 
-Annuleren is beschikbaar voor klanten wanneer de [_Annuleren toestaan_](cancel-allow.md) configuratieoptie is ingeschakeld.
+Annuleren is beschikbaar aan klanten wanneer [_toestaat annuleer_](cancel-allow.md) configuratieoptie wordt toegelaten.
 
 Een klant kan de functie voor annuleren voor een specifieke bestelling starten op drie pagina&#39;s:
 
@@ -135,9 +135,9 @@ Een klant kan de functie voor annuleren voor een specifieke bestelling starten o
 - Weergavepagina Volgorde
 - Pagina Mijn account
 
-De _[!UICONTROL Cancel Order]_de koppeling wordt weergegeven bij de_[!UICONTROL Reorder]_ koppeling. Als de volgorde niet kan worden geannuleerd, wordt de koppeling niet weergegeven.
+De koppeling _[!UICONTROL Cancel Order]_wordt weergegeven bij de koppeling_[!UICONTROL Reorder]_ . Als de volgorde niet kan worden geannuleerd, wordt de koppeling niet weergegeven.
 
-![Koppeling op de pagina Mijn bestelling annuleren](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+![ annuleert verbinding op de Mijn pagina van de Orde ](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 Om annuleren uit te voeren, annuleert de klant:
 
@@ -145,30 +145,30 @@ Om annuleren uit te voeren, annuleert de klant:
 
 1. Verstrekt een annuleringsreden
 
-   ![Opdrachten annuleren](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+   ![ annuleert orderedenen ](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   U kunt de annuleringsredenen aanpassen in het dialoogvenster [_Annuleren toestaan_](cancel-allow.md) pagina.
+   U kunt de annuleringsredenen op [_aanpassen toestaat annuleert_](cancel-allow.md) pagina.
 
 1. Klikken **[!UICONTROL Confirm]**
 
-   ![Annuleren op de pagina Mijn bestelling](./assets/cancel-order.png){width="700" zoomable="yes"}
+   ![ annuleert op de Mijn pagina van de Orde ](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Na de annulering waren de bestellingen in _[!UICONTROL Pending]_status, wijzigen in_[!UICONTROL Canceled]_ status, de bestellingen in _[!UICONTROL Processing]_status, wijzigen in_[!UICONTROL Closed]_ status en terugbetaling worden verwerkt.
+   Na de annulering worden de bestellingen die de status _[!UICONTROL Pending]_hadden, gewijzigd in_[!UICONTROL Canceled]_ status, de bestellingen die de status _[!UICONTROL Processing]_hadden, gewijzigd in_[!UICONTROL Closed]_ status en terugbetaald.
 
    Wanneer de annulering is voltooid, wordt een e-mail verzonden naar de klant.
 
-   ![E-mail bestellen annuleren](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+   ![ annuleer orde e-mail ](./assets/cancel-order-email.png){width="700" zoomable="yes"}
 
    De annuleringsinformatie wordt toegevoegd aan de ordergeschiedenis van de klant. Deze wordt weergegeven in de notities bij de volgorde en op het tabblad Overzicht van opmerkingen.
 
-   ![Bestelnotities annuleren](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+   ![ annuleer ordentnota&#39;s ](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
 
-   ![Opmerkingen annuleren](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+   ![ annuleer commentaargeschiedenis ](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
 
    Als de bestelling om een of andere reden is gewijzigd in een status die niet kan worden geannuleerd en de klant de pagina niet heeft vernieuwd, wordt de koppeling om de bestelling te annuleren nog steeds weergegeven. Wanneer ze echter proberen te annuleren, wordt een foutbericht weergegeven.
 
-   ![Foutbericht voor bestelling annuleren](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![ annuleer het bericht van de ordefout ](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    Nadat u de pagina hebt vernieuwd, ziet u dat de volgorde al is voltooid. Daarom werkt de annulering niet.
 
-   ![Bestelling annuleren na vernieuwen](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![ annuleer orde na verfrissen ](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

@@ -18,7 +18,7 @@ ht-degree: 0%
 - [Admin Systems Guide](guide-overview.md)
 - [Inleiding tot beheersystemen](introduction.md)
 - [[!UICONTROL System] menu](system-menu.md)
-- Gebruikersaccounts voor beheerders {#user-accounts}
+- Beheerdersaccounts {#user-accounts}
    - [Beheerdersmachtigingen](permissions.md)
    - [Gebruikersaccounts beheren](permissions-users-all.md)
    - [Gebruikersrollen](permissions-user-roles.md)
@@ -70,13 +70,13 @@ ht-degree: 0%
    - CAPTCHA {#captcha}
       - [Standaard CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Two-Factor Authentificatie (2FA) {#2fa}
+   - Verificatie met twee factoren (2FA) {#2fa}
       - [Overzicht](security-two-factor-authentication.md)
       - [Gebruikersaccount instellen voor 2FA](security-two-factor-authentication-use.md)
       - [2FA beheren](security-two-factor-authentication-manage.md)
    - [Sessiebeheer](security-session-management.md)
    - [Detectie van browsermogelijkheden](security-browser-capabilities-detection.md)
    - [Melding van beveiligingsproblemen](security-issue-reporting.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

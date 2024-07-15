@@ -16,88 +16,88 @@ ht-degree: 0%
 
 Een &#39;SKU&#39; is een &#39;Stock Keeping Unit&#39;. SKU&#39;s helpen online verkopers over het algemeen de belangrijkste productkenmerken zoals grootte, kleur, prijs, en materiaal te identificeren. Product-id&#39;s verschillen van SKU&#39;s:
 
-- De `Product ID` is opeenvolgende reeksen van aantallen die intern worden gebruikt om producten te identificeren en niet beschikbaar aan klanten zijn.
-- De `SKU` wordt gegenereerd door de verkoper, gewoonlijk op basis van de productnaam en de kenmerken voor marketing of interne tracking. Bijvoorbeeld: een blauw, T-shirt voor de katoenproductie, formaatmedium: T-COT-MED-BL. Indien nodig kan de verkoper de SKU wijzigen.
+- `Product ID` is opeenvolgende reeks aantallen die intern worden gebruikt om producten te identificeren en niet beschikbaar aan klanten zijn.
+- De `SKU` wordt gegenereerd door de verkoper, meestal op basis van de productnaam en -kenmerken voor marketing of interne tracering. Bijvoorbeeld: een blauw, T-shirt voor de katoenproductie, formaatmedium: T-COT-MED-BL. Indien nodig kan de verkoper de SKU wijzigen.
 
 Normaal gesproken bevat een SKU een reeks afkortingen die de onderscheidende kenmerken van het product aangeven. De maximale SKU-lengte is 64 tekens. SKUs is belangrijk om inventaris effectief te volgen en te beheren, zodat is het correct opzetten van hen voor e-handel kritiek.
 
-_Bestelling door SKU_ is een [widget](../content-design/widgets.md) die in de winkel als gebruiksgemak voor alle kopers kunnen worden weergegeven, of die alleen aan de kopers in specifieke klantengroepen ter beschikking kunnen worden gesteld. Klanten kunnen de SKU- en kwantitatieve gegevens rechtstreeks in de Order invoeren per SKU-blok of een CSV-bestand uploaden vanaf hun klantenaccount. Ongeacht de configuratie, is de orde door SKU altijd beschikbaar om beheerders op te slaan.
+_Orde door SKU_ is a [ widget ](../content-design/widgets.md) die in de opslag als gemak voor alle kopers kan worden getoond, of ter beschikking gesteld aan slechts de kopers in specifieke klantengroepen. Klanten kunnen de SKU- en kwantitatieve gegevens rechtstreeks in de Order invoeren per SKU-blok of een CSV-bestand uploaden vanaf hun klantenaccount. Ongeacht de configuratie, is de orde door SKU altijd beschikbaar om beheerders op te slaan.
 
-![Bestel door SKU in de Storefront](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
+![ Orde door SKU in Storefront ](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
 ## Volgorde door SKU configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster de **[!UICONTROL Sales]** en kiest u **[!UICONTROL Sales]** onder.
+1. Vouw in het linkerdeelvenster de sectie **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order by SKU Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order by SKU Settings]** sectie uit.
 
-1. Set **[!UICONTROL Enable Order by SKU on my Account in Storefront]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Enable Order by SKU on my Account in Storefront]** in op een van de volgende opties:
 
-   - `Yes, for Everyone` - De Orde door het blok van SKU is beschikbaar in de opslag voor elke verkoopster.
+   - `Yes, for Everyone` - Het blok van de Orde door SKU is beschikbaar in de opslag voor elke verkoopster.
    - `Yes, for Specified Customer Groups` - De orde door SKU is beschikbaar slechts aan leden van een specifieke klantengroep, zoals `Wholesale`.
-   - `No` - Het blok van de Orde door SKU verschijnt niet in de opslagruimte, en de Orde door de pagina van SKU is niet beschikbaar in de klantenrekening.
+   - `No` - Het blok van de Orde door SKU verschijnt niet in de winkel, en de Orde door de pagina van SKU is niet beschikbaar in de klantenrekening.
 
-   ![Bestellen op SKU-instellingen](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
+   ![ Orde door de Montages van SKU ](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (alleen Adobe Commerce B2B) _**Als u de functie Order by SKU wilt inschakelen, schakelt u de functie Snelle volgorde uit:**_
+![ Adobe Commerce B2B ](../assets/b2b.svg) (Adobe Commerce B2B slechts) _**om de Orde door de functie van SKU toe te laten, maak de Snelle functie van de Orde onbruikbaar:**_
 
 1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het linkerdeelvenster onder _[!UICONTROL General]_, kiest u **[!UICONTROL B2B Features]**
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL B2B Features]**
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL B2B Features]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL B2B Features]** sectie uit.
 
-1. Set **[!UICONTROL Enable Quick Order]** tot `No`.
+1. Stel **[!UICONTROL Enable Quick Order]** in op `No` .
 
-   De [Functie Snelle bestelling](../b2b/quick-order.md) kunnen klanten en gasten snel bestellingen plaatsen op basis van SKU of productnaam.
+   De [ Snelle eigenschap van de Orde ](../b2b/quick-order.md) staat klanten en gasten toe om orden snel te plaatsen die op SKU of productnaam worden gebaseerd.
 
 ## Storefront-ervaring
 
-Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot door SKU van om het even welke pagina opdracht geven die omvat _Bestelling door SKU_ widget of hun accountdashboard.
+Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot door SKU van om het even welke pagina opdracht geven die de _Orde door SKU_ widget of van hun rekeningsdashboard omvat.
 
 ### Volgorde door SKU van paginaslok
 
-1. In de _Bestelling door SKU_ blok, gaat de klant binnen **[!UICONTROL SKU]** en **[!UICONTROL Qty]** van het te bestellen item.
+1. In de _Orde door het blok van SKU_, gaat de klant **[!UICONTROL SKU]** in en **[!UICONTROL Qty]** van het punt dat moet worden bevolen.
 
-1. Als u nog een item wilt toevoegen, klikt u op **[!UICONTROL Add Row]** en herhaal het proces.
+1. Als u nog een item wilt toevoegen, klikt u op **[!UICONTROL Add Row]** en herhaalt u het proces.
 
-1. Klikken **[!UICONTROL Add to Cart]**.
+1. Klik op **[!UICONTROL Add to Cart]** .
 
 ### Bestellen door SKU van een klantenaccount
 
 1. Vanaf de storefront meldt de klant zich aan bij zijn account.
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Order by SKU]**.
+1. Kies **[!UICONTROL Order by SKU]** in het linkerdeelvenster.
 
 1. Hiermee voegt u afzonderlijke items toe op basis van voorkeur:
 
-   _**Voegt elk punt door SKU toe:**_
+   _**voegt elk punt door SKU toe:**_
 
-   - Hiermee wordt het dialoogvenster **[!UICONTROL SKU]** en **[!UICONTROL Qty]** van het te bestellen item.
+   - Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** in van het item dat moet worden geordend.
 
-   - Klik op _Rij toevoegen_ ![Knop Plus](../assets/button-add-item.png) en herhaalt voor zoveel items als nodig is.
+   - Om extra punten toe te voegen zoals nodig, klikt _Rij_ ![ plus ondertekent knoop ](../assets/button-add-item.png) en herhaalt voor zo vele punten zonodig.
 
-   - Klikken **[!UICONTROL Add to Cart]**.
+   - Klik op **[!UICONTROL Add to Cart]** .
 
-   _**Uploadt een CSV-bestand met meerdere items:**_
+   _**uploadt een Csv- dossier van veelvoudige punten:**_
 
-   - Bereidt een [CSV-importgegevens](../systems/data-csv.md) (Door komma&#39;s gescheiden waarde) bestand met kolommen voor `SKU` en `Qty`.
+   - Bereidt een [ dossier van de de invoergegevens CSV ](../systems/data-csv.md) (komma-Gescheiden Waarde) voor dat kolommen voor `SKU` en `Qty` omvat.
 
-   ![Te importeren SKU&#39;s](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+   ![ SKUs om ](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"} in te voeren
 
-   - Als u het CSV-bestand wilt uploaden, klikt u **[!UICONTROL Choose File]** en selecteer het bestand dat u wilt uploaden.
+   - Klik op **[!UICONTROL Choose File]** en selecteer het bestand dat u wilt uploaden om het CSV-bestand te uploaden.
 
-   - Klikken **[!UICONTROL Add to Cart]**.
+   - Klik op **[!UICONTROL Add to Cart]** .
 
    Als een van de producten aanvullende opties heeft, wordt de klant vanuit het winkelwagentje gevraagd om aandacht voor het product.
 
-   ![Product vereist aandacht](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
+   ![ Product vereist Aandacht ](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Als er dubbele SKU&#39;s zijn, worden de hoeveelheden gecombineerd in één artikel in het winkelwagentje. De klant kan het aantal van elk onderdeel wijzigen en op **[!UICONTROL Update Shopping Cart]** om de totalen opnieuw te berekenen.
+   >Als er dubbele SKU&#39;s zijn, worden de hoeveelheden gecombineerd in één artikel in het winkelwagentje. De klant kan het aantal van elk item wijzigen en op **[!UICONTROL Update Shopping Cart]** klikken om de totalen opnieuw te berekenen.
 

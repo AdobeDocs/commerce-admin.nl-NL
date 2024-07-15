@@ -1,6 +1,6 @@
 ---
 user-guide-title: Referentiehandleiding voor configuratie
-user-guide-description: Deze gids verstrekt verwijzingsinformatie voor alle montages van de archiefconfiguratie die van _Admin_ sidebar bij ** worden betreden[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Deze gids verstrekt verwijzingsinformatie voor alle montages van de opslagconfiguratie die van _Admin_ sidebar bij ** [!UICONTROL Stores] ** worden betreden > _ [!UICONTROL Settings] _ > ** [!UICONTROL Configuration] **.
 breadcrumb-title: Configuratieverwijzing
 hide: false
 role: Admin, Developer, User
@@ -84,5 +84,5 @@ ht-degree: 0%
    - [Beheerder](./advanced/admin.md)
    - [Systeem](./advanced/system.md)
    - [Ontwikkelaar](./advanced/developer.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

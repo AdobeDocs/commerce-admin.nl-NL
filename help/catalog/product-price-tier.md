@@ -14,62 +14,62 @@ ht-degree: 0%
 
 Met de prijzen voor Tier kunt u een korting bieden op de hoeveelheid van een productaanbieding of productpagina in de winkel. De korting kan worden toegepast op een specifieke opslagweergave of een klantgroep of gedeelde catalogus.
 
-Als u veel producten hebt om bij te werken, is het het meest efficiënt om de prijsveranderingen van de lijst in plaats van hen individueel in te voeren. Zie voor meer informatie [Invoerprijzen](../systems/data-import-price-tier.md).
+Als u veel producten hebt om bij te werken, is het het meest efficiënt om de prijsveranderingen van de lijst in plaats van hen individueel in te voeren. Voor meer informatie, zie [ de laagprijzen van de Invoer ](../systems/data-import-price-tier.md).
 
-![Prijs op een productpagina van de winkel](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![ de prijs van de Rij op een storefront productpagina ](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 Op de productpagina wordt de kwantumkorting berekend en wordt een bericht weergegeven, zoals:
 
 `Buy 6 for $5.95 each and save 15%`
 
-De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelheid. Als u een lagere prijs voor de hoeveelheid hebt `5` en één voor `10`en een klant voegt vijf, zes, zeven, acht of negen artikelen aan het winkelwagentje toe, ontvangt de klant de verlaagde prijs voor de hoeveelheid `5` laag. Wanneer de klant het tiende object toevoegt, wordt de voor de hoeveelheid opgegeven prijs met korting berekend `10` laag vervangt het niveau voor een hoeveelheid van `5`, en de verlaagde prijs voor `10` van toepassing.
+De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelheid. Als u een prijs op de laag hebt voor het aantal `5` en één voor `10` en een klant vijf, zes, zeven, acht of negen items aan het winkelwagentje toevoegt, ontvangt de klant de verlaagde prijs voor de laag voor het aantal `5` . Wanneer de klant het tiende item toevoegt, vervangt de gedisconteerde prijs die voor de kwantiteit `10` is opgegeven de laag voor een hoeveelheid `5` en geldt de gedisconteerde prijs voor `10` .
 
 ## Een prijsniveau toevoegen voor een product
 
 1. Open het product in de bewerkingsmodus.
 
-1. Onder de _[!UICONTROL Price]_veld, klikken **[!UICONTROL Advanced Pricing]**.
+1. Klik onder het veld _[!UICONTROL Price]_op **[!UICONTROL Advanced Pricing]**.
 
-1. In de _[!UICONTROL Tier Price]_sectie, klikken **[!UICONTROL Add]**.
+1. Klik in de sectie _[!UICONTROL Tier Price]_op **[!UICONTROL Add]**.
 
-   Als u een lijst met verschillende prijzen maakt, klikt u op **[!UICONTROL Add]** voor elk extra niveau, zodat kunt u alle lagen tezelfdertijd werken. Elke laag in de groep heeft dezelfde website en dezelfde klantengroep of dezelfde gedeelde catalogustoewijzing, maar een ander aantal en een andere prijs.
+   Als u een laag van verscheidene prijzen creeert, klik **[!UICONTROL Add]** voor elk extra niveau, zodat kunt u alle rijen tezelfdertijd werken. Elke laag in de groep heeft dezelfde website en dezelfde klantengroep of dezelfde gedeelde catalogustoewijzing, maar een ander aantal en een andere prijs.
 
 ## Prijsniveau configureren
 
-1. Als uw winkel meerdere websites heeft, kiest u de optie **[!UICONTROL Website]** waarvoor de tier - verrekenprijzen gelden.
+1. Als uw winkel meerdere websites heeft, kiest u de **[!UICONTROL Website]** waarvoor de prijzen op de laag van toepassing zijn.
 
-1. Indien nodig de beschikbaarheid van de prijsklasse beperken door de **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Beschikbaar met [Adobe Commerce B2B](./b2b/../introduction.md) alleen).
+1. Indien nodig, beperk de beschikbaarheid van de het tarief rij door **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** te selecteren (![ Adobe Commerce B2B ](../assets/b2b.svg) Beschikbaar met [ Adobe Commerce B2B ](./b2b/../introduction.md) slechts).
 
-1. Voor **[!UICONTROL Qty]**, voert u de hoeveelheid in die moet worden besteld om de korting te ontvangen.
+1. Voer bij **[!UICONTROL Qty]** de hoeveelheid in die moet worden besteld om de korting te ontvangen.
 
-   - **Methode 1:** Prijs invoeren als vast bedrag
+   - **Methode 1:** ga prijs als vast bedrag in
 
-     Set **[!UICONTROL Price]** tot `Fixed` en voert de aangepaste prijs voor één eenheid op dat niveau in.
+     Stel **[!UICONTROL Price]** in op `Fixed` en voer de aangepaste prijs voor één eenheid op die laag in.
 
-     ![Tier-prijs als vast bedrag](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
+     ![ Prijs van de Rij als Vast Bedrag ](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
 
-   - **Methode 2:** Prijs invoeren als percentage
+   - **Methode 2:** ga prijs als percentage in
 
-     Set **[!UICONTROL Price]** tot `Discount` en vermeld de verlaagde prijs als een percentage van de basisprijs van het product.
+     Stel **[!UICONTROL Price]** in op `Discount` en voer de gedisconteerde prijs in als een percentage van de basisprijs van het product.
 
-     Voer bijvoorbeeld voor een korting van 15 procent het getal in `15`. (De prijs wordt opgeslagen met twee decimale posities, zoals `15.00`.)
+     Voer bijvoorbeeld voor een korting van 15 procent het getal `15` in. (De prijs wordt opgeslagen met twee decimale posities, zoals `15.00` .)
 
      >[!NOTE]
      >
-     >Om de gedisconteerde prijs te verkrijgen, wordt het gedefinieerde percentage berekend op basis van de waarde die in het _[!UICONTROL Price]_ veld, niet _[!UICONTROL Special Price]_ veld.
+     >Om de gedisconteerde prijs op te halen, wordt het gedefinieerde percentage berekend aan de hand van de waarde die is gedefinieerd in het veld _[!UICONTROL Price]_, niet in het veld_[!UICONTROL Special Price]_ .
 
-     ![Tier-prijs als percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
+     ![ Prijs van de Rij als Percentage ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
 ## Voltooi de prijsconfiguratie
 
 1. Herhaal de vorige stappen om nog een reeks prijzen voor een andere website of klantengroep toe te voegen.
 
-1. Klik op **[!UICONTROL Done]** en vervolgens **[!UICONTROL Save]**.
+1. Klik na voltooiing op **[!UICONTROL Done]** en vervolgens op **[!UICONTROL Save]** .
 
 >[!NOTE]
 >
->De **_final_** de productprijs wordt berekend als **_minimum_** relevante prijs, met gebruikmaking van de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+>De **_definitieve_** productprijs wordt berekend als **_minimum_** relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
 >[!NOTE]
 >
->**_Vaste prijs_** Aanpasbare opties voor producten zijn _niet_ worden beïnvloed door de regels voor groepsprijs, Tier-prijs, Speciale prijs of Catalogusprijs.
+>_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.

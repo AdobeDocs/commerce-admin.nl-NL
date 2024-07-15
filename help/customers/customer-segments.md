@@ -4,7 +4,7 @@ description: De segmenten van de klant staan u toe om inhoud en bevorderingen aa
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De segmenten van klanten staan u toe om inhoud en bevorderingen aan specifieke klanten dynamisch te tonen, die op diverse eigenschappen worden gebaseerd. Sommige voorbeelden zijn het adres van de klant, de ordergeschiedenis en de inhoud van het winkelwagentje. U kunt marketinginitiatieven optimaliseren op basis van doelsegmenten met winkelwagenprijsregels. U kunt ook rapporten genereren en de lijst met beoogde klanten exporteren. Omdat de informatie van het klantensegment constant wordt verfrist, kunnen de klanten van een segment worden geassocieerd en worden losgemaakt aangezien zij in uw opslag winkelen.
 
-Om het verschil beter te begrijpen tussen [klantengroepen](../customers/customer-groups.md) en klantsegmenten, noteer waar zij worden gebruikt:
+Om het verschil tussen [ klantengroepen ](../customers/customer-groups.md) en klantensegmenten beter te begrijpen, neem nota waar zij worden gebruikt:
 
 |  | Klantsegment | Klantgroep |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ Om het verschil beter te begrijpen tussen [klantengroepen](../customers/customer
 
 ## Clientsegmentkenmerken
 
-De het segmentattributen van klanten worden bepaald op een manier gelijkend op winkelwagentje en catalogusprijsregels. Voor een attribuut dat in een voorwaarde van het klantensegment moet worden gebruikt, _[!UICONTROL Use in Customer Segment]_[eigenschap](attribute-properties.md#) moet worden ingesteld op `Yes`. De de segmentvoorwaarden van de klant kunnen de volgende types van attributen omvatten:
+De het segmentattributen van klanten worden bepaald op een manier gelijkend op winkelwagentje en catalogusprijsregels. Voor een attribuut dat in een voorwaarde van het klantensegment moet worden gebruikt, moet het _[!UICONTROL Use in Customer Segment]_[ bezit ](attribute-properties.md#) aan `Yes` worden geplaatst. De de segmentvoorwaarden van de klant kunnen de volgende types van attributen omvatten:
 
 | Kenmerk | Beschrijving |
 |---|---|
@@ -42,9 +42,9 @@ De het segmentattributen van klanten worden bepaald op een manier gelijkend op w
 
 {style="table-layout:auto"}
 
-Zie [Klantsegmenten maken en verwijderen](../customers/customer-segment-create.md) voor meer informatie over het bepalen van klantensegmenten.
+Zie [ klantensegmenten ](../customers/customer-segment-create.md) voor meer informatie tot stand brengen en schrappen over het bepalen van klantensegmenten.
 
 ## eBooks
 
-- **Klantsegmentering** — Haal de [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) om te leren hoe te om winsten en algemene klantentevredenheid te verhogen.
-- **Segmentatietactiek** — Haal de [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) om het richten van uw berichten en bevorderingen te verbeteren om zinvolle gesprekken met uw klanten tot stand te brengen.
+- **segmentatie van de Klant** — Krijg [ eBook ](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) leren hoe te om winsten en algemene klantentevredenheid te verhogen.
+- **de tactiek van de Segmentatie** - krijg [ eBook ](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) om het richten van uw berichten en bevorderingen te verbeteren om betekenisvolle gesprekken met uw klanten tot stand te brengen.

@@ -16,56 +16,56 @@ De opties van het klantenwachtwoord bepalen het niveau van veiligheid dat voor d
 
 ## Opties voor klantwachtwoord configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Customer Configuration]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Customer Configuration]** .
 
 1. Vouw de sectie **[!UICONTROL Password Options]** uit.
 
-   ![Wachtwoordopties](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
+   ![ Opties van het Wachtwoord ](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
-1. Stel de **[!UICONTROL Password Reset Protection Type]** aan de methode die u wilt gebruiken voor het controleren van verzoeken om opnieuw instellen van wachtwoorden:
+1. Stel de **[!UICONTROL Password Reset Protection Type]** in op de methode die u wilt gebruiken voor het controleren van aanvragen voor het opnieuw instellen van wachtwoorden:
 
    - `By IP and Email` - Controleren op vorige pogingen om het wachtwoord opnieuw in te stellen voor specifieke e-mail of van specifieke IP.
-   - `By IP` - Controleren op vorige pogingen om het wachtwoord opnieuw in te stellen vanuit specifieke IP.
-   - `By Email` - Controleren op vorige pogingen om het wachtwoord opnieuw in te stellen voor specifieke e-mail.
+   - `By IP` - Controle voor vorige pogingen om wachtwoord van specifieke IP terug te stellen.
+   - `By Email` - Controleren op vorige pogingen om het wachtwoord voor specifieke e-mail opnieuw in te stellen.
    - `None` - Beveiliging uitgeschakeld (geen beperkingen voor het opnieuw instellen van het wachtwoord).
 
-   De **[!UICONTROL Max Number of Password Reset Requests]** en **[!UICONTROL Min Time Between Password Reset Requests]** worden berekend op basis van deze configuratie.
+   De waarden **[!UICONTROL Max Number of Password Reset Requests]** en **[!UICONTROL Min Time Between Password Reset Requests]** worden berekend op basis van deze configuratie.
 
 1. Ga als volgt te werk om het aantal aanvragen voor het opnieuw instellen van wachtwoorden dat per uur wordt verzonden te beperken:
 
-   - Voor **[!UICONTROL Max Number of Password Reset Requests]** Voer het maximumaantal verzoeken om opnieuw in te stellen voor wachtwoorden dat per uur kan worden verzonden.
+   - Voer bij **[!UICONTROL Max Number of Password Reset Requests]** het maximumaantal verzoeken om opnieuw in te stellen voor wachtwoorden in dat per uur kan worden verzonden.
 
-   - Voor **[!UICONTROL Min Time Between Password Reset Requests]** Voer het minimale aantal minuten in dat tussen de aanvragen moet verstrijken.
+   - Voer bij **[!UICONTROL Min Time Between Password Reset Requests]** het minimale aantal minuten in dat tussen de aanvragen moet verstrijken.
 
 1. Ga als volgt te werk om het e-mailbericht voor het opnieuw instellen van wachtwoorden te configureren:
 
-   - Set **[!UICONTROL Forgot Email Template]** naar de sjabloon die wordt gebruikt voor de e-mail die wordt verzonden naar klanten die hun wachtwoorden zijn vergeten.
+   - Stel **[!UICONTROL Forgot Email Template]** in op de sjabloon die wordt gebruikt voor het e-mailbericht dat wordt verzonden naar klanten die hun wachtwoorden vergeten zijn.
 
-   - Set **[!UICONTROL Remind Email Template]** naar de sjabloon die wordt gebruikt wanneer een klantwachtwoord door een Admin-gebruiker opnieuw wordt ingesteld.
+   - Stel **[!UICONTROL Remind Email Template]** in op de sjabloon die wordt gebruikt wanneer een klantwachtwoord door een Admin-gebruiker opnieuw wordt ingesteld.
 
-   - Set **[!UICONTROL Reset Password Template]** aan het malplaatje dat wordt gebruikt wanneer de klanten hun wachtwoorden veranderen.
+   - Stel **[!UICONTROL Reset Password Template]** in op de sjabloon die wordt gebruikt wanneer klanten hun wachtwoorden wijzigen.
 
-   - Set **[!UICONTROL Password Template Email Sender]** aan de [contactpersoon voor winkel](../getting-started/store-details.md) die wordt weergegeven als de verzender van wachtwoordgerelateerde meldingen.
+   - Plaats **[!UICONTROL Password Template Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md) dat als afzender van op wachtwoord betrekking hebbende berichten verschijnt.
 
 1. Voer de volgende beveiligingsopties voor het opnieuw instellen van wachtwoorden in:
 
-   - Voor **[!UICONTROL Recovery Link Expiration Period (hours)]**, ga het aantal uren in alvorens de verbinding van de wachtwoordterugwinning verloopt.
+   - Voer bij **[!UICONTROL Recovery Link Expiration Period (hours)]** het aantal uren in voordat de koppeling voor wachtwoordherstel verloopt.
 
-   - Als u wilt dat de velden in de aanmeldingsnaam van de klant automatisch worden ingevuld en dat wachtwoordformulieren niet meer worden ingevuld bij eerdere invoer, stelt u **[!UICONTROL Enable Autocomplete on login/forgot password forms]** tot `Yes`.
+   - Als u wilt dat de velden in de aanmeldingsnaam van de klant automatisch worden ingevuld en wachtwoordformulieren worden vergeten van vorige vermeldingen, stelt u **[!UICONTROL Enable Autocomplete on login/forgot password forms]** in op `Yes` .
 
-   - Voor **[!UICONTROL Number of Required Character Classes]** Voer het aantal verschillende tekentypen in dat in een wachtwoord moet worden opgenomen op basis van de volgende tekenklassen:
+   - Voer bij **[!UICONTROL Number of Required Character Classes]** het aantal verschillende tekentypen in dat in een wachtwoord moet worden opgenomen op basis van de volgende tekenklassen:
 
       - `Lowercase`
       - `Uppercase`
       - `Numeric`
       - `Special Characters`
 
-   - Voor **[!UICONTROL Maximum Login Failures to Lockout Account]**, voert u het aantal mislukte aanmeldingspogingen in totdat de klantenaccount is vergrendeld. Voer voor onbeperkte pogingen nul in (`0`).
+   - Voer bij **[!UICONTROL Maximum Login Failures to Lockout Account]** het aantal mislukte aanmeldingspogingen in totdat de klantenaccount is vergrendeld. Voor onbeperkte pogingen, ga nul (`0`) in.
 
-   - Voor **[!UICONTROL Minimum Password Length]** Voer het minimale aantal tekens in dat in een wachtwoord kan worden gebruikt. Het getal moet groter zijn dan nul.
+   - Voer bij **[!UICONTROL Minimum Password Length]** het minimale aantal tekens in dat in een wachtwoord kan worden gebruikt. Het getal moet groter zijn dan nul.
 
-   - Voor **[!UICONTROL Lockout Time (minutes)]**, voert u het aantal minuten in dat een klantenaccount is vergrendeld nadat te veel mislukte aanmeldingspogingen zijn uitgevoerd.
+   - Voer voor **[!UICONTROL Lockout Time (minutes)]** het aantal minuten in dat een klantenaccount is vergrendeld nadat te veel mislukte aanmeldingspogingen zijn uitgevoerd.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

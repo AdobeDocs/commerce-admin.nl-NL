@@ -5,42 +5,42 @@ exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
 # Belastingen
 
-Configureer uw winkel om belastingen te berekenen volgens de vereisten van uw landinstelling. U kunt [belastingklassen](tax-class.md) voor producten en klantengroepen, en creeer [belastingregels](tax-rules.md) waarin de klassen van producten en klanten, belastingzones en tarieven worden gecombineerd. De handel verstrekt ook configuratiemontages voor vaste productbelastingen, samengestelde belastingen, en vertoning voor prijzen over internationale grenzen. Als u een [belasting over toegevoegde waarde](vat.md), kunt u uw winkel zo instellen dat automatisch de juiste hoeveelheid wordt berekend met validatie.
+Configureer uw winkel om belastingen te berekenen volgens de vereisten van uw landinstelling. U kunt opstelling [ belastingklassen ](tax-class.md) voor producten en klantengroepen, en [ belastingregels ](tax-rules.md) creëren die product en klantenklassen, belastingstreken, en tarieven combineren. Commerce biedt ook configuratie-instellingen voor vaste productbelastingen, samengestelde belastingen en prijzen over de internationale grenzen heen. Als u wordt vereist om a [ toegevoegde belasting ](vat.md) te verzamelen, kunt u opstelling uw opslag om de aangewezen hoeveelheid met bevestiging automatisch te berekenen.
 
 >[!NOTE]
 >
->Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door de leverancier ontwikkelde Vertex-extensie die wordt gebruikt voor integratie met de Vertex Cloud om belastingbeheer en adreszuivering te bieden. Vanaf de release 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace of rechtstreeks vanaf de leverancier. [Vertex contact](https://marketplace.magento.com/partner/vertex_inc) voor informatie over de extensie en documentatie.<br><br>
+>Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door de leverancier ontwikkelde Vertex-extensie die wordt gebruikt voor integratie met de Vertex Cloud om belastingbeheer en adreszuivering te bieden. Vanaf de release 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace of rechtstreeks vanaf de leverancier. [ Vertex van het Contact ](https://marketplace.magento.com/partner/vertex_inc) voor informatie over de uitbreiding en de documentatie.<br><br>
 >
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [Upgrademodules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Upgradehandleiding_.
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_.
 
 ## Snelle verwijzing
 
-Sommige belastinginstellingen hebben een keuze uit opties die bepalen hoe de belasting wordt berekend en aan de klant wordt gepresenteerd. Zie voor meer informatie [Internationale belastingrichtsnoeren](international-tax-guidelines.md).
+Sommige belastinginstellingen hebben een keuze uit opties die bepalen hoe de belasting wordt berekend en aan de klant wordt gepresenteerd. Voor meer informatie, zie [ Internationale Richtsnoeren van de Belasting ](international-tax-guidelines.md).
 
 Gebruik de volgende tabellen ter referentie bij het configureren van instellingen voor belastingberekening:
 
 ### Methoden voor belastingberekening
 
-Opties voor de berekeningsmethode voor belastingen omvatten [!UICONTROL Unit Price], [!UICONTROL Row Total], en [!UICONTROL Total]. In de volgende tabel wordt uitgelegd hoe afronden (tot twee cijfers) wordt verwerkt voor verschillende instellingen.
+De opties voor de berekeningsmethode voor belastingen omvatten [!UICONTROL Unit Price] , [!UICONTROL Row Total] en [!UICONTROL Total] . In de volgende tabel wordt uitgelegd hoe afronden (tot twee cijfers) wordt verwerkt voor verschillende instellingen.
 
 | Instelling | Berekening en weergave |
 |--- |--- |
-| [!UICONTROL Unit Price] | De handel berekent de belasting voor elk voorwerp en toont prijzen fiscaal-inclusief. Om het totaal van de belasting te berekenen, wordt de belasting voor elk punt afgerond, en dan voegt hen samen. |
-| [!UICONTROL Row Total] | De handel berekent de belasting voor elke lijn. Om het totaal van de belasting te berekenen, rondt het de belasting voor elke lijnpost en voegt dan hen samen. |
-| [!UICONTROL Total] | De handel berekent de belasting voor elke post en voegt die belastingwaarden toe om het totale niet-afgeronde belastingbedrag voor de orde te berekenen. Vervolgens wordt de opgegeven afrondingsmodus toegepast op de totale belasting om de totale belasting voor de bestelling te bepalen. |
+| [!UICONTROL Unit Price] | Commerce berekent de belasting voor elk object en geeft de prijzen inclusief btw weer. Om het totaal van de belasting te berekenen, wordt de belasting voor elk punt afgerond, en dan voegt hen samen. |
+| [!UICONTROL Row Total] | Commerce berekent de belasting voor elke regel. Om het totaal van de belasting te berekenen, rondt het de belasting voor elke lijnpost en voegt dan hen samen. |
+| [!UICONTROL Total] | Commerce berekent de belasting voor elk item en voegt deze belastingwaarden toe om het totale niet-afgeronde belastingbedrag voor de order te berekenen. Vervolgens wordt de opgegeven afrondingsmodus toegepast op de totale belasting om de totale belasting voor de bestelling te bepalen. |
 
 {style="table-layout:auto"}
 
 ### Catalogusprijzen met of zonder belasting
 
-De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in de catalogusprijzen belastingen zijn opgenomen of niet. Weergavevelden hebben twee decimale precisie in normale berekeningen. Bij sommige combinaties van prijsinstellingen worden prijzen weergegeven die zowel belasting als geen belasting bevatten. Wanneer beide op hetzelfde lijstitem worden weergegeven, kan dit verwarrend zijn voor klanten en leidt dit tot een [waarschuwing](taxes.md#warning-messages).
+De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in de catalogusprijzen belastingen zijn opgenomen of niet. Weergavevelden hebben twee decimale precisie in normale berekeningen. Bij sommige combinaties van prijsinstellingen worden prijzen weergegeven die zowel belasting als geen belasting bevatten. Wanneer allebei op het zelfde lijnpunt verschijnen, kan het aan klanten verwarrend zijn, en a [ waarschuwing ](taxes.md#warning-messages) teweegbrengt.
 
 | Instelling | Berekening en weergave |
 |--- |--- |
@@ -51,7 +51,7 @@ De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in 
 
 >[!IMPORTANT]
 >
->Er zijn veranderingen ten opzichte van eerdere versies voor EU-handelaren of andere btw-handelaren die prijzen, inclusief belastingen, weergeven en actief zijn in verschillende landen met meerdere opvattingen over winkels. Als je prijzen met meer dan twee cijfers nauwkeurig laadt, worden alle prijzen automatisch naar twee cijfers afgerond om ervoor te zorgen dat kopers een consistente prijs krijgen te zien.
+>Er zijn veranderingen ten opzichte van eerdere versies voor EU-handelaren of andere btw-handelaren die prijzen, inclusief belastingen, weergeven en actief zijn in verschillende landen met meerdere opvattingen over winkels. Als je prijzen met meer dan twee cijfers nauwkeurig laadt, geeft Commerce automatisch alle prijzen weer op twee cijfers zodat kopers een consistente prijs krijgen te zien.
 
 ### Verzendprijzen met of zonder btw
 
@@ -64,17 +64,17 @@ De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in 
 
 ### Belastingbedragen als posten
 
-Om twee verschillende belastingbedragen als afzonderlijke lijnpunten, zoals GST en PST voor Canadese opslag te tonen, moet u verschillende prioriteiten voor de verwante belastingregels plaatsen. In eerdere belastingberekeningen zouden belastingen met verschillende prioriteiten echter automatisch worden aangevuld. Als u afzonderlijke belastingbedragen correct wilt weergeven zonder de belastingbedragen onjuist te vergelijken, kunt u verschillende prioriteiten instellen en ook de opties selecteren _Alleen subtotaal berekenen_ selectievakje. Deze instelling resulteert in correct berekende belastingbedragen die als afzonderlijke regelitems worden weergegeven.
+Om twee verschillende belastingbedragen als afzonderlijke lijnpunten, zoals GST en PST voor Canadese opslag te tonen, moet u verschillende prioriteiten voor de verwante belastingregels plaatsen. In eerdere belastingberekeningen zouden belastingen met verschillende prioriteiten echter automatisch worden aangevuld. Om afzonderlijke belastingbedragen zonder een onjuiste samenstelling van de belastingbedragen correct te tonen, kunt u verschillende prioriteiten plaatsen, en ook _selecteren berekent van subtotaal slechts_ checkbox. Deze instelling resulteert in correct berekende belastingbedragen die als afzonderlijke regelitems worden weergegeven.
 
 ## Waarschuwingsberichten
 
-Sommige combinaties van belastinggerelateerde opties kunnen verwarrend zijn voor klanten en een waarschuwing veroorzaken. Deze voorwaarden kunnen zich voordoen wanneer de methode voor belastingberekening is ingesteld op `Row` of `Total`, en de klant krijgt prijzen te zien die zowel belasting uitsluiten als omvatten. Dit kan ook gebeuren wanneer er belasting per artikel in de winkelwagen is. Omdat de belastingberekening is afgerond, kan het bedrag dat in de winkelwagen wordt weergegeven afwijken van het bedrag dat een klant verwacht te betalen.
+Sommige combinaties van belastinggerelateerde opties kunnen verwarrend zijn voor klanten en een waarschuwing veroorzaken. Deze voorwaarden kunnen zich voordoen wanneer de methode voor belastingberekening is ingesteld op `Row` of `Total` en de klant prijzen krijgt die zowel belasting uitsluiten als opnemen. Dit kan ook gebeuren wanneer er belasting per artikel in de winkelwagen is. Omdat de belastingberekening is afgerond, kan het bedrag dat in de winkelwagen wordt weergegeven afwijken van het bedrag dat een klant verwacht te betalen.
 
 Als uw belastingberekening op een problematische configuratie gebaseerd is, verschijnen de volgende waarschuwingen:
 
-![Uitroepteken](../assets/icon-warning.png) **Waarschuwing**. `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`
+](../assets/icon-warning.png) **Waarschuwing** van het 0} Uitroepingspunt `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`.![
 
-![Uitroepteken](../assets/icon-warning.png) **Waarschuwing**. `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`
+](../assets/icon-warning.png) **Waarschuwing** van het 0} Uitroepingspunt `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`.![
 
 ## Plaats van levering van digitale goederen (EU)
 
@@ -87,9 +87,9 @@ Handelaren die de drempel nog niet hebben bereikt (50 k/100 kB euro per jaaromze
 Handelaren die worden gecontroleerd op voor digitale goederen betaalde belastingen, moeten twee ondersteunende gegevens verstrekken om de verblijfplaats van de afnemer te bepalen.
 
 - Het verzendadres van de klant en een overzicht van een geslaagde betalingstransactie kunnen worden gebruikt om de woonplaats van de klant vast te stellen. (Betaling wordt alleen geaccepteerd als het verzendadres overeenkomt met de gegevens van de betalingsprovider.)
-- De informatie kan ook direct van de gegevensopslag in de het gegevensbestandlijsten van de Handel worden gevangen.
+- De informatie kan ook rechtstreeks worden vastgelegd via de gegevensopslag in de Commerce-databasetabellen.
 
-_**Informatie over de belasting op digitale goederen verzamelen:**_
+_**om digitale goederen belastinginformatie te verzamelen:**_
 
 1. De belastingtarieven voor alle EU-lidstaten laden.
 
@@ -97,7 +97,7 @@ _**Informatie over de belasting op digitale goederen verzamelen:**_
 
 1. Wijs al uw digitale goederen aan de de belastingklasse van het digitale goederenproduct toe.
 
-1. Maken [belastingregels](tax-rules.md) voor uw fysieke goederen, gebruikend fysieke klassen van de productbelasting, en associeer hen met de aangewezen belastingtarieven.
+1. Creeer [ belastingregels ](tax-rules.md) voor uw fysieke goederen, gebruikend fysieke klassen van de productbelasting, en associeer hen met de aangewezen belastingtarieven.
 
 1. Maak belastingregels voor uw digitale goederen, gebruik de productbelastingklasse voor digitale goederen, en associeer deze met de juiste belastingtarieven voor EU-lidstaten.
 
@@ -107,8 +107,8 @@ _**Informatie over de belasting op digitale goederen verzamelen:**_
 
 Aanvullende bronnen:
 
-- [Europese Commissie Belastingen en douane-unie][1]
-- [EU 1015 Wijzigingen in plaats van levering][2]
+- [ Belastingen en Douane-unie van de Europese Commissie ][1]
+- [ EU 1015 Plaats van de Veranderingen van de Levering ][2]
 
 [1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
 [2]: https://www2.deloitte.com/global/en/services/tax.html

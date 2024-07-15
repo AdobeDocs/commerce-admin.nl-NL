@@ -11,33 +11,33 @@ ht-degree: 0%
 
 # Lijst met klanten
 
-In de Admin [!UICONTROL Customers] In het raster worden alle klanten weergegeven die zich voor een account bij uw winkel hebben geregistreerd of die door de beheerder zijn toegevoegd. De standaard gebruiken [rasterbesturingselementen](../getting-started/admin-grid-controls.md) om de lijst te filteren en de kolomlay-out aan te passen. Zie voor meer informatie [Klantenaccounts beheren](../customers/manage-account.md).
+In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten weergegeven die zich voor een account bij uw winkel hebben geregistreerd of die door de beheerder zijn toegevoegd. Gebruik de standaard [ netcontroles ](../getting-started/admin-grid-controls.md) om de lijst te filtreren en de kolomlay-out aan te passen. Meer leren, zie [ klantenrekeningen beheren ](../customers/manage-account.md).
 
-![Lijst met klanten](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
+![ lijst van Klanten ](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## Klantgegevens bijwerken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Zoek de klantrecord en klik op [!UICONTROL **Bewerken**] in de _[!UICONTROL Action]_kolom.
+1. Vind het klantenverslag en klik [!UICONTROL **uitgeven**] in de _[!UICONTROL Action]_kolom.
 
 1. Kies in het linkerdeelvenster de informatie die u wilt bewerken en breng de benodigde wijzigingen aan.
 
    >[!NOTE]
    >
-   >Zie voor meer informatie [Klantenaccounts bijwerken](../customers/update-account.md).
+   >Meer leren, zie [ de klantenrekeningen van de Update ](../customers/update-account.md).
 
-1. Klik op **[!UICONTROL Save Customer]**.
+1. Klik op **[!UICONTROL Save Customer]** als de bewerking is voltooid.
 
-## Besturingselementen werkruimte
+## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Maakt een klantenaccount. |
 | **[!UICONTROL Search]** | Hiermee wordt een zoekopdracht naar klanten gestart op basis van de huidige filters. |
-| **[!UICONTROL Filters]** | Definieert een set zoekparameters die wordt gebruikt om de records te filteren die in het dialoogvenster [raster](../getting-started/admin-grid-controls.md). |
-| **[!UICONTROL Default View]** | Hiermee bepaalt u de standaardkolom [layout](../getting-started/admin-grid-controls.md) van het raster. |
-| **[!UICONTROL Columns]** | Hiermee bepaalt u de selectie van [kolommen](../getting-started/admin-grid-controls.md) en hun rekeningen op het net. De kolomlay-out kan worden gewijzigd en opgeslagen als een _weergave_. Standaard worden slechts enkele kolommen in het raster opgenomen. |
+| **[!UICONTROL Filters]** | Bepaalt een reeks onderzoeksparameters die worden gebruikt om de verslagen te filtreren die in het [ net ](../getting-started/admin-grid-controls.md) verschijnen. |
+| **[!UICONTROL Default View]** | Bepaalt de standaardkolom [ lay-out ](../getting-started/admin-grid-controls.md) van het net. |
+| **[!UICONTROL Columns]** | Bepaalt de selectie van [ kolommen ](../getting-started/admin-grid-controls.md) en hun rekeningen in het net. De kolomlay-out kan als a _mening_ worden veranderd en worden bewaard. Standaard worden slechts enkele kolommen in het raster opgenomen. |
 | **[!UICONTROL Export]** | Hiermee exporteert u de geselecteerde records als een CSV- of Excel XML-bestand. |
 
 {style="table-layout:auto"}
@@ -59,8 +59,8 @@ In de Admin [!UICONTROL Customers] In het raster worden alle klanten weergegeven
 | **[!UICONTROL Web Site]** | De website in de opslaghiërarchie waaraan het klantenaccount is gekoppeld. |
 | **[!UICONTROL Confirmed Email]** | Hiermee geeft u aan of een bevestigingsbericht vereist is. |
 | **[!UICONTROL Account Created In]** | Geeft de winkelweergave aan waaruit de klantenaccount is gemaakt. |
-| **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. <br><br>**_Belangrijk:_**In overeenstemming met de huidige beste praktijken op het gebied van beveiliging en privacy, dient u zich bewust te zijn van mogelijke juridische en veiligheidsrisico&#39;s die verbonden zijn aan de opslag van de volledige geboortedatum van de klant (maand, dag, jaar) met andere persoonlijke identificatoren. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
-| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingnummer of [belasting over toegevoegde waarde](../stores-purchase/vat.md) nummer dat aan de klant is toegewezen. <br/><br/>Dit veld is niet hetzelfde als het BTW-nummer. |
+| **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. <br><br>**_Belangrijk:_**in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
+| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingaantal of [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan de klant wordt toegewezen. <br/><br/> Dit gebied is niet het zelfde als het Aantal van de BTW. |
 | **[!UICONTROL Gender]** | Het geslacht van de klant. |
 | **[!UICONTROL Action]** | Bewerken - Opent het bedrijfsaccount in de bewerkingsmodus. |
 
@@ -68,7 +68,7 @@ In de Admin [!UICONTROL Customers] In het raster worden alle klanten weergegeven
 
 ### Aanvullende kolommen
 
-Deze kolommen zijn beschikbaar door de [kolomindeling](../getting-started/admin-grid-controls.md) van het raster.
+Deze kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-started/admin-grid-controls.md) van het net te veranderen.
 
 | Kolom | Beschrijving |
 | --- | --- |
@@ -80,7 +80,7 @@ Deze kolommen zijn beschikbaar door de [kolomindeling](../getting-started/admin-
 | **[!UICONTROL Billing Lastname]** | De achternaam in het factureringsadres van de klant. |
 | **[!UICONTROL Billing Address]** | Het adres waar factureringsinformatie moet worden verzonden. |
 | **[!UICONTROL Shipping Address]** | Het adres waar bestellingen moeten worden verzonden. |
-| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [digitale goederen](../stores-purchase/taxes.md) in de EU wordt verkocht, is de btw gebaseerd op het factuuradres van de afnemer. <br/><br/>Dit veld is niet hetzelfde als het BTW-nummer. |
-| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als beveiligingsmaatregel kunnen klantenaccounts [vergrendeld](../customers/password-options.md) na te veel aanmeldpogingen. Waarden: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [ digitale goederen ](../stores-purchase/taxes.md) die in de EU worden verkocht, is de BTW gebaseerd op het factureringsadres van de klant. <br/><br/> Dit gebied is niet het zelfde als het BTW Aantal. |
+| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als veiligheidsmaatregel, kunnen de klantenrekeningen [ worden gesloten ](../customers/password-options.md) na teveel login pogingen. Waarden: `Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

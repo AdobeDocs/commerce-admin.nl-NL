@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Veel instructies invoegen, vooral widgets zoals de _Onlangs bekeken_ / _Vergeleken producten_ tekst, kan een negatief effect hebben op de eerste keer dat de pagina wordt geladen als deze niet in de cache is geplaatst. Gebruik deze daarom met voorzichtigheid. Doorgaans leidt dit niet tot een probleem. Maar u zou deze potentiële kwestie met uw ontwikkelingsteam moeten bespreken.
+>Het opnemen van vele richtlijnen, vooral widgets zoals _onlangs bekeken_ / _Vergeleken type van Producten_, kan een negatief effect op de eerste lading van de pagina veroorzaken wanneer het niet in het voorgeheugen ondergebracht is. Gebruik deze daarom met voorzichtigheid. Doorgaans leidt dit niet tot een probleem. Maar u zou deze potentiële kwestie met uw ontwikkelingsteam moeten bespreken.

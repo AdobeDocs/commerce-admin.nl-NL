@@ -16,24 +16,24 @@ Het doel van één pagina-afhandeling is om de benodigde informatie te verzamele
 
 Afhandeling van één pagina is standaard ingeschakeld. Als u een aangepaste integratie of uitcheckextensie implementeert, kan het nodig zijn om uitchecken op één pagina uit te schakelen.
 
-**_Het uitchecken van één pagina uitschakelen:_**
+**_om één-pagina controle onbruikbaar te maken:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Checkout]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
 
-   ![Configuratie - opties voor uitchecken](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![ Configuratie - controleopties ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [Afhandelingsopties](../configuration-reference/sales/checkout.md#checkout-options) in de _Referentiehandleiding voor configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Opties van de Controle ](../configuration-reference/sales/checkout.md#checkout-options) in de _Gids van de Verwijzing van de Configuratie_.
 
-1. Als de instelling geldt voor een specifieke winkelweergave, [kiezen in de winkelweergave](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
-   Klik op **[!UICONTROL OK]** om door te gaan.
+   Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
-1. Set **[!UICONTROL Enable Onepage Checkout]** tot `No`.
+1. Stel **[!UICONTROL Enable Onepage Checkout]** in op `No` .
 
-   Indien nodig de **[!UICONTROL Use system value]** Schakel dit selectievakje in om deze instelling te wijzigen.
+   Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instelling te wijzigen.
 
 1. Klik op **[!UICONTROL Save Config]**.

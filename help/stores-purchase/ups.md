@@ -18,7 +18,7 @@ United Parcel Service (UPS) biedt binnenlandse en internationale scheepvaartdien
 
 >[!NOTE]
 >
->UPS kan [dimensionaal gewicht](carriers.md#dimensional-weight) om bepaalde verzendkosten te bepalen. Adobe Commerce ondersteunt echter alleen berekening van verzendkosten op basis van gewicht.
+>UPS kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce ondersteunt echter alleen berekening van verzendkosten op basis van gewicht.
 
 ## Stap 1: Een UPS-verzendaccount openen
 
@@ -26,56 +26,56 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
 ## Stap 2: UPS inschakelen voor uw winkel
 
-1. Op de _Admin sidebar_, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin sidebar_, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In het deelvenster aan de linkerkant, onder **[!UICONTROL Sales]**, kiest u **[!UICONTROL Delivery Methods]**.
+1. Kies in het linkerdeelvenster onder **[!UICONTROL Sales]** de optie **[!UICONTROL Delivery Methods]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
 
-1. Set **[!UICONTROL Enabled for Checkout]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
 1. Ga als volgt te werk voor een UPS REST-account (standaardwaarde):
 
-   - Voer uw UPS-gebruikersgegevens in: UPS ClientID als **[!UICONTROL User ID]**, UPS-clientgeheim als **[!UICONTROL Password]**
+   - Voer uw UPS-gebruikersgegevens in: UPS ClientID als **[!UICONTROL User ID]**, UPS Client Secret als **[!UICONTROL Password]**
 
-   - Set **[!UICONTROL Mode]** tot `Live` gegevens naar het UPS-verzendsysteem verzenden via een beveiligde verbinding. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
+   - Stel **[!UICONTROL Mode]** in op `Live` om gegevens via een veilige verbinding naar het UPS-verzendsysteem te verzenden. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
 
-   - Controleer de **[!UICONTROL Gateway URL]** dat nodig is om verzoeken te verzenden. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
+   - Controleer **[!UICONTROL Gateway URL]** die nodig is om aanvragen te verzenden. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
 
-   - Controleer de **[!UICONTROL Tracking URL]** is vereist voor het ophalen van trackinggegevens. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
+   - Controleer **[!UICONTROL Tracking URL]** die nodig is voor het ophalen van trackinggegevens. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
 
-   - Set **[!UICONTROL Origin of the Shipment]** naar de regio waar de overbrenging haar oorsprong heeft.
+   - Stel **[!UICONTROL Origin of the Shipment]** in op het gebied waar de verzending vandaan komt.
 
-   - Als u speciale tarieven met UPS hebt, plaats **[!UICONTROL Enable Negotiated Rates]** tot `Yes` en voert u het zescijferige **[!UICONTROL Shipper Number]** toegewezen aan u door UPS.
+   - Als u speciale tarieven met UPS hebt, plaats **[!UICONTROL Enable Negotiated Rates]** aan `Yes` en ga zes-cijfer **[!UICONTROL Shipper Number]** in die aan u door UPS wordt toegewezen.
 
-   - Set **[!UICONTROL Live Account]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Live Account]** in op een van de volgende opties:
 
-      - `Yes` - UPS wordt in de productiemodus uitgevoerd en UPS wordt als verzendmethode aan uw klanten aangeboden.
-      - `No` - UPS wordt in een testmodus uitgevoerd.
+      - `Yes` - Voert UPS uit in de productiemodus en biedt UPS als verzendmethode aan uw klanten.
+      - `No` - Voert UPS in een testmodus uit.
 
    >[!NOTE]
    >
-   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties, gebruik het gebrek `United Parcel Service REST` type. Het REST-type is ook vereist om [verzendlabels](shipping-labels.md).<br/>
-   >Voor de release van 2.4.7 **[!UICONTROL UPS Type]**  is verwijderd omdat `UPS` en `UPS XML` typen zijn gepland voor afgekeurd en `UPS REST` is de standaardwaarde. De API&#39;s van de United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, zijn tijdelijk vervangen omdat deze momenteel geen ondersteuning bieden voor het OAuth 2.0-beveiligingsmodel.
+   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties gebruikt u het standaardtype `United Parcel Service REST` . Het REST type wordt ook vereist om [ verschepende etiketten ](shipping-labels.md) te produceren.<br/>
+   >Voor de release 2.4.7 wordt **[!UICONTROL UPS Type]** verwijderd omdat de typen `UPS` en `UPS XML` gepland zijn voor afschrijving en `UPS REST` de standaardwaarde is. De API&#39;s van de United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, zijn tijdelijk vervangen omdat deze momenteel geen ondersteuning bieden voor het OAuth 2.0-beveiligingsmodel.
 
    >[!IMPORTANT]
    >
-   >UPS stopt de ondersteuning van HTTP, dat wordt gebruikt in de huidige standaardwaarde (systeemwaarde). Wis de **[!UICONTROL Use system value]** Schakel het selectievakje in en wijzig de URL om HTTPS te gebruiken. Voorbeeld: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >UPS stopt de ondersteuning van HTTP, dat wordt gebruikt in de huidige standaardwaarde (systeemwaarde). Schakel het selectievakje **[!UICONTROL Use system value]** uit en wijzig de URL om HTTPS te gebruiken. Voorbeeld: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
-1. Voor **[!UICONTROL Title]**, voert u de naam van deze verzendoptie in zoals u deze tijdens het afrekenen wilt weergeven.
+1. Voer bij **[!UICONTROL Title]** de naam van deze verzendoptie in zoals u deze tijdens het afrekenen wilt weergeven.
 
-   Dit veld is standaard ingesteld op `United Parcel Service`.
+   Dit veld is standaard ingesteld op `United Parcel Service` .
 
-   ![UPS inschakelen](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
+   ![ laat UPS ](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"} toe
 
 ## Stap 3: Voer de beschrijving van de container in
 
-1. Set **[!UICONTROL Packages Request Type]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Packages Request Type]** in op een van de volgende opties:
 
    - `Use origin weight (few requests)`
    - `Divide to equal weight (one request)`
 
-1. Voor **[!UICONTROL Container]**, het typische verpakkingstype specificeren dat voor verzending wordt gebruikt:
+1. Geef bij **[!UICONTROL Container]** het typische pakkettype op dat wordt gebruikt voor verzending:
 
    - `Customer Packaging`
    - `UPS Letter Envelope`
@@ -90,21 +90,21 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
    - `Medium Express Box`
    - `Large Express Box`
 
-1. Set **[!UICONTROL Weight Unit]** op het systeem dat u gebruikt om het productgewicht te meten.
+1. Stel **[!UICONTROL Weight Unit]** in op het systeem dat u gebruikt om het productgewicht te meten.
 
    Het gewichtsysteem dat door UPS wordt ondersteund, verschilt per land. Vraag UPS in geval van twijfel welk gewichtssysteem u moet gebruiken. U kunt onder andere de volgende opties kiezen:
 
    - `LBS`
    - `KGS`
 
-1. Set **[!UICONTROL Destination Type]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Destination Type]** in op een van de volgende opties:
 
-   - `Residential` - De meeste van uw verzendingen zijn zakelijk voor de consument (B2C).
-   - `Commercial` - De meeste verzendingen zijn zakelijk (B2B).
+   - `Residential` - De meeste van uw verzendingen zijn zakelijk voor consumenten (B2C).
+   - `Commercial` - De meeste van uw verzendingen zijn zakelijk (B2B).
 
-1. Voer de **[!UICONTROL Maximum Package Weight]** toegestaan door de vervoerder.
+1. Voer de **[!UICONTROL Maximum Package Weight]** in die de vervoerder toestaat.
 
-1. Set **[!UICONTROL Pickup Method]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Pickup Method]** in op een van de volgende opties:
 
    - `Regular Daily Pickup`
    - `On Call Air`
@@ -112,82 +112,82 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
    - `Letter Center`
    - `Customer Counter`
 
-1. Voer de **[!UICONTROL Minimum Package Weight]** toegestaan door de vervoerder.
+1. Voer de **[!UICONTROL Minimum Package Weight]** in die de vervoerder toestaat.
 
-   ![Containerbeschrijving](./assets/ups2.png){width="600" zoomable="yes"}
+   ![ Beschrijving van de Container ](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## Stap 4: Afhandelingskosten instellen
 
 De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die bij de verzendkosten van de UPS worden opgeteld. Voer de volgende handelingen uit als u verpakkingskosten wilt opnemen:
 
-1. Set **[!UICONTROL Calculate Handling Fee]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Calculate Handling Fee]** in op een van de volgende methoden:
 
    - `Fixed`
    - `Percent`
 
-1. Om te bepalen hoe de behandelingskosten worden toegepast, stelt u **[!UICONTROL Handling Applied]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Handling Applied]** in op een van de volgende opties om te bepalen hoe de behandelingskosten worden toegepast:
 
    - `Per Order`
    - `Per Package`
 
-1. Voer de hoeveelheid van de **[!UICONTROL Handling Fee]** in rekening te brengen.
+1. Voer het bedrag in van de **[!UICONTROL Handling Fee]** die moet worden geladen.
 
-   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` voor 25%.
+   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` in voor 25%.
 
-   ![Verhandelingskosten](./assets/ups3.png){width="600" zoomable="yes"}
+   ![ Behandelingskosten ](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Stap 5: Geef de toegestane methoden en de toepasselijke landen op
 
-1. Voor **[!UICONTROL Allowed Methods]**, kiest u elke UPS-verzendmethode die beschikbaar is voor uw klanten.
+1. Kies voor **[!UICONTROL Allowed Methods]** elke UPS-verzendmethode die beschikbaar is voor uw klanten.
 
    De methoden worden onder UPS weergegeven tijdens het uitchecken. Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Als u een [Gratis verzending](shipping-free.md) Stel de opties voor gratis verzending in via UPS:
+1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door UPS wilt verstrekken, plaats de vrije het verschepen opties:
 
-   - Set **[!UICONTROL Free Method]** op de methode die je wilt gebruiken voor gratis verzending. Kies `None`.
+   - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via UPS wilt aanbieden.
 
-   - Als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met UPS, stelt u **[!UICONTROL Enable Free Shipping Threshold]** tot `Enable`. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Stel **[!UICONTROL Enable Free Shipping Threshold]** in op `Enable` als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met UPS. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]** in.
 
-1. Wijzig, indien nodig, de **[!UICONTROL Displayed Error Message]**.
+1. Wijzig indien nodig de **[!UICONTROL Displayed Error Message]** .
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als UPS niet meer beschikbaar is.
 
-   ![Toegestane methoden](./assets/ups4.png){width="600" zoomable="yes"}
+   ![ Toegestane Methoden ](./assets/ups4.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Ship to Applicable Countries]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Ship to Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) gespecificeerd in uw archiefconfiguratie kan deze leveringsmethode gebruiken.
-   - `Specific Countries` - Als u deze optie kiest, _Schip naar specifieke landen_ wordt weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-1. Set **[!UICONTROL Show Method if Not Applicable]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Show Method if Not Applicable]** in op een van de volgende opties:
 
-   - `Yes` - Vermeldt alle beschikbare UPS-verzendmethoden tijdens het afrekenen, inclusief methoden die niet van toepassing zijn op de verzending.
-   - `No` - Vermeldt alleen de UPS-verzendmethoden die van toepassing zijn op de verzending.
+   - `Yes` - Vermeldt alle beschikbare verzendmethoden voor UPS tijdens het afrekenen, inclusief methoden die niet van toepassing zijn op de verzending.
+   - `No` - Hier worden alleen de UPS-verzendmethoden vermeld die van toepassing zijn op de verzending.
 
-   ![Toepasselijke landen](./assets/ups5.png){width="600" zoomable="yes"}
+   ![ Toepasselijke Landen ](./assets/ups5.png){width="600" zoomable="yes"}
 
-1. Als u een logbestand wilt maken met de details van UPS-verzendingen die vanuit uw winkel zijn gemaakt, stelt u **[!UICONTROL Debug]** tot `Yes`.
+1. Als u een logbestand wilt maken met de details van UPS-verzendingen die vanuit uw winkel worden gemaakt, stelt u **[!UICONTROL Debug]** in op `Yes` .
 
-1. Voor **[!UICONTROL Sort Order]**, voert u een getal in om de volgorde te bepalen waarin UPS wordt weergegeven bij andere leveringsmethoden tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde UPS wordt weergegeven wanneer deze bij andere leveringsmethoden tijdens het afrekenen wordt vermeld.
 
-   `0` = eerst, `1` = seconde, `2` = derde, enzovoort.
+   `0` = first, `1` = second, `2` = third, enzovoort.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Stap 6: Stel het adres van de verzendoorsprong in
 
-1. Zorg ervoor dat uw [Opslaggegevens](../getting-started/store-details.md#store-information) is voltooid.
+1. Zorg ervoor dat uw [ Informatie van de Opslag ](../getting-started/store-details.md#store-information) volledig is.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en selecteert u **[!UICONTROL Shipping Settings]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Shipping Settings]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Origin]** op de pagina en het adres van de verzendoorsprong configureren.
+1. Vouw ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Origin]** op de pagina uit en vorm het verschepende oorsprongadres.
 
-   ![Verkoopconfiguratie - Adresopties voor oorsprong van verzending](./assets/shipping-origin.png){width="600" zoomable="yes"}
+   ![ de configuratie van de Verkoop - verschepende oorsprong adresopties ](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->Bij de berekening van de verzendkosten wordt de volledige bestellingsprijs niet aan UPS aangegeven. Dit gedrag kan niet worden gewijzigd.
+>Commerce declareert de volledige bestellingsprijs niet aan UPS bij het berekenen van verzendkosten. Dit gedrag kan niet worden gewijzigd.

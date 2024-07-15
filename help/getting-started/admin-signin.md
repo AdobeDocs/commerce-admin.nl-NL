@@ -5,94 +5,94 @@ exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
 source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Uw beheerdersaccount
 
-Het primaire beheerdersaccount is oorspronkelijk ingesteld tijdens de installatie en bevat mogelijk initiële plaatsaanduidingsgegevens of voorbeeldgegevens. De aangewezen eigenaar van dit account kan de gebruikersnaam en het wachtwoord aanpassen en de voornaam, achternaam en het e-mailadres op elk gewenst moment bijwerken. Deze account, a _supergebruiker_ met alle rechten standaard worden meestal de Admin-gebruikersaccounts gemaakt die nodig zijn voor het bedrijf.
+Het primaire beheerdersaccount is oorspronkelijk ingesteld tijdens de installatie en bevat mogelijk initiële plaatsaanduidingsgegevens of voorbeeldgegevens. De aangewezen eigenaar van dit account kan de gebruikersnaam en het wachtwoord aanpassen en de voornaam, achternaam en het e-mailadres op elk gewenst moment bijwerken. Deze rekening, a _super gebruiker_ met alle toestemmingen door gebrek, leidt typisch tot de Admin gebruikersrekeningen nodig voor de zaken.
 
-- Zie [Een gebruiker maken](../systems/permissions-users-all.md#create-a-user) voor informatie over het toevoegen of bewerken van gebruikers.
+- Zie [ een gebruiker ](../systems/permissions-users-all.md#create-a-user) voor informatie creëren bij het toevoegen van of het uitgeven van gebruikers.
 
-- Zie [Machtigingen](../systems/permissions.md) en [Gebruikersrollen](../systems/permissions-user-roles.md) voor informatie over Admin en gebruikersrollen.
+- Zie [ Toestemmingen ](../systems/permissions.md) en [ Rollen van de Gebruiker ](../systems/permissions-user-roles.md) voor informatie over Admin en gebruikersrollen.
 
 {{ims-admin-note}}
 
 ## Aanmelden bij beheerder
 
-De [!DNL Commerce] _Beheerder_ wordt beschermd door veelvoudige lagen van veiligheidsmaatregelen om onbevoegde toegang tot uw opslag, orde, en klantengegevens te verhinderen. De eerste keer dat u zich aanmeldt bij de _Beheerder_, moet u uw gebruikersnaam en wachtwoord invoeren en instellen [tweeledige verificatie](../systems/security-two-factor-authentication.md) (2FA).
+[!DNL Commerce] _Admin_ wordt beschermd door veelvoudige lagen van veiligheidsmaatregelen om onbevoegde toegang tot uw opslag, orde, en klantengegevens te verhinderen. De eerste keer u binnen aan _Admin_ ondertekent, moet u uw gebruikersbenaming en wachtwoord ingaan en aan opstelling [ tweefaste authentificatie ](../systems/security-two-factor-authentication.md) (2FA).
 
-Afhankelijk van de configuratie van uw winkel, kan er een [CAPTCHA](../systems/security-google-recaptcha.md) problemen oplossen, zoals het invoeren van een reeks toetsenbordtekens, het oplossen van een puzzel of het klikken van een reeks afbeeldingen met een gemeenschappelijk thema. Deze tests zijn ontworpen om je te identificeren als mens, in plaats van als een geautomatiseerde bot.
+Afhankelijk van de configuratie van uw opslag, kan er a [ CAPTCHA ](../systems/security-google-recaptcha.md) uitdaging zijn op te lossen, zoals het ingaan van een reeks toetsenbordkarakters, het oplossen van een raadsel, of het klikken van een reeks beelden met een gemeenschappelijk thema. Deze tests zijn ontworpen om je te identificeren als mens, in plaats van als een geautomatiseerde bot.
 
-Voor extra veiligheid, kunt u bepalen welke delen van _Beheerder_ elke gebruiker heeft [machtiging](../systems/permissions.md) toegang te krijgen en tevens het aantal [aanmeldpogingen](../configuration-reference/advanced/admin.md). Standaard is het account na zes pogingen vergrendeld en moet de gebruiker een paar minuten wachten voordat hij het opnieuw probeert. [Vergrendelde accounts](../systems/permissions-users-all.md#locked-users) kan ook opnieuw worden ingesteld vanuit de _Beheerder_.
+Voor extra veiligheid, kunt u bepalen welke delen van _Admin_ elke gebruiker [ toestemming ](../systems/permissions.md) heeft om toegang te hebben, en ook het aantal [ login pogingen ](../configuration-reference/advanced/admin.md) te beperken. Standaard is het account na zes pogingen vergrendeld en moet de gebruiker een paar minuten wachten voordat hij het opnieuw probeert. [ Vergrendelde rekeningen ](../systems/permissions-users-all.md#locked-users) kunnen ook van _Admin_ worden teruggesteld.
 
 >[!NOTE]
 >
->De eerste keer dat u zich aanmeldt bij de _Beheerder_, wordt u gevraagd _Gegevensverzameling van beheerdersgebruik toestaan_. Zie [Gegevensverzameling gebruiken](admin.md#usage-data-collection) voor meer informatie .
+>De eerste keer u binnen aan _Admin_ ondertekent, wordt u ertoe aangezet om _de inzameling van admin gebruiksgegevens_ toe te staan. Zie [ de gegevensinzameling van het Gebruik ](admin.md#usage-data-collection) voor meer informatie.
 
-![Aanmelden bij beheerder](./assets/admin-login.png){width="400"}
+![ binnen teken Admin ](./assets/admin-login.png){width="400"}
 
 ### Stap 1: Opstelling tweefasenauthentificatie
 
-Voordat u zich kunt aanmelden bij de _Beheerder_ van uw opslag, moet u een twee-factor authentificatieoplossing opstelling hebben en klaar om te gebruiken. Meer over het authentificatieproces leren dat door elke oplossing wordt gebruikt, zie [De verificatie met twee factoren gebruiken](../systems/security-two-factor-authentication-use.md). Standaard, [!DNL Commerce] supports [Google Authenticator][1].
+Alvorens u binnen aan _Admin_ van uw opslag kunt ondertekenen, moet u een twee-factor opstelling van de authentificatieoplossing hebben en klaar te gebruiken. Meer over het authentificatieproces leren dat door elke oplossing wordt gebruikt, zie [ Gebruikend Two-Factor Authentificatie ](../systems/security-two-factor-authentication-use.md). Door gebrek, [!DNL Commerce] steunt [ de Authenticator van Google ][1].
 
-Vraag uw [!DNL Commerce] systeembeheerder die de oplossingen 2FA voor de opslag worden gesteund. Voer vervolgens de installatie van de gewenste 2FA-oplossing uit volgens de instructies van de provider.
+Vraag aan de systeembeheerder van [!DNL Commerce] welke 2FA-oplossingen worden ondersteund voor de winkel. Voer vervolgens de installatie van de gewenste 2FA-oplossing uit volgens de instructies van de provider.
 
 ### Stap 2: Aanmelden bij de beheerder
 
-1. Voer de _Beheerder_ URL die tijdens [!DNL Commerce] installatie.
+1. Ga _Admin_ URL in die tijdens de [!DNL Commerce] installatie werd gespecificeerd.
 
-   De standaardwaarde _Beheerder_ URL ziet er ongeveer zo uit `https://www.yourdomain.com/your-custom-admin-domain`.
+   Het gebrek _Admin_ URL kijkt iets als `https://www.yourdomain.com/your-custom-admin-domain`.
 
    >[!NOTE]
    >
-   >Hoewel deze documentatie gebruikt `admin` als basis-URL in de meeste voorbeelden, wordt aanbevolen een unieke en moeilijk te raden URL te kiezen [aangepaste URL](../stores-purchase/store-urls.md) voor de _Beheerder_ van uw winkel.
+   >Hoewel deze documentatie `admin` als basis URL in de meeste voorbeelden gebruikt, wordt het geadviseerd dat u een uniek en hard-aan-gok [ douane URL ](../stores-purchase/store-urls.md) voor _Admin_ van uw opslag kiest.
 
    U kunt een bladwijzer voor de pagina toevoegen of een sneltoets op uw bureaublad opslaan, zodat u deze gemakkelijk kunt openen.
 
-1. Voer uw _Beheerder_ **[!UICONTROL Username]** en **[!UICONTROL Password]**.
+1. Ga uw _Admin_ **[!UICONTROL Username]** en **[!UICONTROL Password]** in.
 
 1. (Optioneel) Als een CAPTCHA voor uw winkel is ingeschakeld, volgt u de aanwijzingen op het scherm om de uitdaging op te lossen.
 
-   Zie voor meer informatie [CAPTCHA](../systems/security-captcha.md) en [reCAPTCHA](../systems/security-google-recaptcha.md).
+   Meer leren, zie [ CAPTCHA ](../systems/security-captcha.md) en [ reCAPTCHA ](../systems/security-google-recaptcha.md).
 
 1. Klik op **[!UICONTROL Sign in]**.
 
-   Als het de eerste keer is dat u zich hebt aangemeld bij de _Beheerder_ van de account ontvangt u een e-mail met een koppeling naar configuratie-instructies.
+   Als het de eerste keer is u binnen aan _Admin_ van de rekening hebt ondertekend, zou u een e-mail met een verbinding aan configuratieinstructies moeten ontvangen.
 
 ### Stap 3: Voltooi de 2FA-configuratie
 
-In het volgende voorbeeld wordt getoond hoe u uw _Beheerder_ account bij Google Authenticator.
+Het volgende voorbeeld toont hoe te om uw _Admin_ rekening met de Authenticator van Google te koppelen.
 
-1. Wanneer de QR-code wordt weergegeven, gebruikt u een van de volgende methoden om de code vast te leggen en Google Authenticator te koppelen aan uw _Beheerder_ account.
+1. Wanneer de QR code verschijnt, gebruik één van de volgende methodes om de code en paarGoogle Authenticator met uw _Admin_ rekening te vangen.
 
-   ![Google-verificator instellen](./assets/admin-login-google-auth-setup.png){width="400"}
+   ![ de Authenticator van Google van de opstelling ](./assets/admin-login-google-auth-setup.png){width="400"}
 
    - QR-code vastleggen met een smartphone
 
-     Start Google Authenticator op uw smartphone. Tik op de knop _plusteken_ (+) in de rechterbovenhoek van de app. Tik vervolgens onder aan het scherm op **[!UICONTROL Scan Barcode]** en maak een foto van de QR-code.
+     Start Google Authenticator op uw smartphone. Tik het _plusteken_ (+) in de hoger-juiste hoek van app. Tik vervolgens onder aan het scherm op **[!UICONTROL Scan Barcode]** en maak een foto van de QR-code.
 
    - QR-code vastleggen vanuit browser
 
-     Als Google Authenticator als extensie in uw browser is geïnstalleerd, klikt u op de knop **Authenticator** op de werkbalk en leg de pagina vast.
+     Als de Authenticator van Google als uitbreiding in uw browser wordt geïnstalleerd, klik het **Authenticator** pictogram in de toolbar en vang de pagina.
 
    - Voer handmatig de QR-code in
 
-     Kopieer de tekstreeks onder de QR-code. Start Google Authenticator met uw smartphone of browser en klik op het plusteken (+). Kies vervolgens **[!UICONTROL Manual Entry]**. Onder **[!UICONTROL Account]** voert u het e-mailadres in dat aan uw _Beheerder_ account en plak de tekenreeks QR-code in de **[!UICONTROL Key]** veld.
+     Kopieer de tekstreeks onder de QR-code. Start Google Authenticator met uw smartphone of browser en klik op het plusteken (+). Kies vervolgens **[!UICONTROL Manual Entry]** . Onder **[!UICONTROL Account]**, ga het e-mailadres in dat met uw _Admin_ rekening wordt geassocieerd en kleef het QR codekoord in het **[!UICONTROL Key]** gebied.
 
-1. Aanmelden bij de _Beheerder_ met twee-factor authentificatie, ga de zes-cijfercode in die door de Authenticator van Google in wordt geproduceerd **[!UICONTROL Authenticator code]** en klik vervolgens op **[!UICONTROL Confirm]**.
+1. Om binnen aan _Admin_ met twee-factor authentificatie te ondertekenen, ga de code van zes cijfers in die door de Authenticator van Google in het **[!UICONTROL Authenticator code]** gebied wordt geproduceerd, en klik dan **[!UICONTROL Confirm]**.
 
-   ![Voer de verificatorcode in](./assets/admin-login-2fa-google.png){width="400"}
+   ![ ga de code van Authenticator ](./assets/admin-login-2fa-google.png){width="400"} in
 
 ## Wachtwoord opnieuw instellen
 
 Hergebruik van de laatste vier wachtwoorden die aan de account zijn toegewezen, is niet toegestaan.
 
-1. Voer de **[!UICONTROL Email Address]** die verband houdt met de _Beheerder_ account.
+1. Ga **[!UICONTROL Email Address]** in dat met de _Admin_ rekening wordt geassocieerd.
 
-   ![Wachtwoord vergeten](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![ vergeten wachtwoord ](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. Klik op **[!UICONTROL Retrieve Password]**.
 
@@ -100,25 +100,25 @@ Hergebruik van de laatste vier wachtwoorden die aan de account zijn toegewezen, 
 
    >[!NOTE]
    >
-   >An _Beheerder_ Het wachtwoord moet uit minimaal zeven tekens bestaan en zowel letters als cijfers bevatten. Zie [Configureren _Beheerder_ Beveiliging](../systems/security-admin.md) voor informatie over wachtwoordopties.
+   >Een _Admin_ wachtwoord moet zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. Zie [ Vormend _Admin_ Veiligheid ](../systems/security-admin.md) voor informatie over wachtwoordopties.
 
 ## Afmelden bij de beheerder
 
-1. Klik in de rechterbovenhoek op de knop _Account_ (![Account](../assets/icon-admin-user.png)).
+1. In de hoger-juiste hoek, klik het _pictogram van de Rekening_ (![ Rekening ](../assets/icon-admin-user.png)).
 
 1. Klik op **[!UICONTROL Sign Out]**.
 
-   ![Afmelden](./assets/admin-sign-out.png){width="700" zoomable="yes"}
+   ![ Teken uit ](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-De _[!UICONTROL Sign In]_op de pagina wordt een bericht weergegeven dat u bent afgemeld. Afmelden bij_ Beheerder _wanneer u de computer onbewaakt verlaat.
+Op de pagina _[!UICONTROL Sign In]_wordt een bericht weergegeven dat u bent afgemeld. Teken uit_ Admin _wanneer u uw computer onbeheerd verlaat.
 
 ## Accountgegevens bewerken
 
-1. Klik op de knop _Account_ (![Accountpictogram](../assets/icon-admin-user.png)).
+1. Klik het _pictogram van de Rekening_ (![ het pictogram van de Rekening ](../assets/icon-admin-user.png)).
 
 1. Klik op **[!UICONTROL Account Setting]**.
 
-   ![Accountinformatie](./assets/admin-account-information.png){width="700" zoomable="yes"}
+   ![ de Informatie van de Rekening ](./assets/admin-account-information.png){width="700" zoomable="yes"}
 
 1. Breng de benodigde wijzigingen aan in uw accountgegevens.
 
@@ -132,27 +132,27 @@ De _[!UICONTROL Sign In]_op de pagina wordt een bericht weergegeven dat u bent a
 
 De beheerder biedt toegang om de functies voor bestellingen, klanten, producten, verzending en betalingen te beheren. De standaardconfiguratie wordt geplaatst om veelvoudige logins voor een Admin gebruikersrekening als veiligheids beste praktijken niet toe te staan. U kunt deze instelling echter wijzigen zodat Admin-gebruikers zich vanaf meerdere apparaten kunnen aanmelden voor uw zakelijke workflows.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het navigatievenster aan de linkerkant de optie **[!UICONTROL Advanced]** en kiest u **[!UICONTROL Admin]**.
+1. Vouw in het navigatievenster aan de linkerkant **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
-1. Voor **Account delen beheren**, selecteert u `Yes`.
+1. Voor **het Delen van de Rekening Admin**, uitgezochte `Yes`.
 
-   ![Delen van beheerdersaccount toestaan](./assets/multiple-admin-login.png){width="700" zoomable="yes"}
+   ![ staat Admin rekening het delen ](./assets/multiple-admin-login.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Aanmeldingsnamen van Admin-gebruikers instellen als hoofdlettergevoelig
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het navigatievenster aan de linkerkant de optie **[!UICONTROL Advanced]** en kiest u **[!UICONTROL Admin]**.
+1. Vouw in het navigatievenster aan de linkerkant **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
-1. Stel de **[!UICONTROL Login is Case Sensitive]** veld naar `Yes`.
+1. Stel het veld **[!UICONTROL Login is Case Sensitive]** in op `Yes` .
 
 1. Klik op **[!UICONTROL Save Config]**.
 

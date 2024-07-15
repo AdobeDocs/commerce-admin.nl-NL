@@ -2,13 +2,13 @@
 title: Annuleren van bestelling toestaan
 description: Leer hoe u uw klanten annuleringsmogelijkheden biedt.
 feature: Orders, Storefront
-source-git-commit: 613c081c02dd9b5e55de37dccd021af4e429d424
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
+source-git-commit: a9d1dc4fe50e98f0f1dfc8ec204930e2cc885d6e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Annuleren van bestelling toestaan
 
@@ -16,31 +16,31 @@ Als deze optie is ingeschakeld, kunt u een bestelling rechtstreeks vanaf de acco
 
 ## Criteria voor annulering die moeten worden ingeschakeld voor een bestelling
 
-- De _Volgorde annuleren_ De configuratieoptie moet worden ingeschakeld.
+- _toestaat annuleer de configuratieoptie van de Orde_ moet worden toegelaten.
 
-- Als de volgorde in `Hold`, `Canceled`, `Complete`, of `Closed` status, wordt de optie Annuleren uitgeschakeld in de winkel.
+- Als de volgorde de status `Hold`, `Canceled`, `Complete` of `Closed` heeft, wordt de optie Annuleren uitgeschakeld in de winkel.
 
 - Als een van de items in de bestelling is verzonden, is de optie Annuleren uitgeschakeld in de winkel.
 
 - Als er een object is betaald, is de optie Annuleren ingeschakeld en wordt de restitutie voor dat object gemaakt.
 
-- Als de volgorde in `Pending` of `Processing` status, wordt de optie Annuleren ingeschakeld in de winkel.
+- Als de volgorde de status `Pending` of `Processing` heeft, wordt de optie Annuleren ingeschakeld in de winkel.
 
 ## Configureren om annulering door klanten toe te staan en de annuleringsredenen aan te passen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en selecteert u **[!UICONTROL Sales]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Sales]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Order cancellation]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order cancellation]** sectie uit.
 
-   ![Opties voor annulering van bestelling](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
+   ![ de annuleringsopties van de Orde ](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Order cancellation through GraphQL]** tot `Yes`.
+1. Stel **[!UICONTROL Order cancellation through GraphQL]** in op `Yes` .
 
    Met deze instelling wordt de functionaliteit voor annuleren ingeschakeld vanuit de klantenaccount in de winkel.
 
-1. In de **[!UICONTROL Order Order cancellation reasons]** u kunt annuleringsredenen toevoegen, verwijderen of wijzigen.
+1. In **[!UICONTROL Order Order cancellation reasons]** kunt u annuleringsredenen toevoegen, verwijderen of wijzigen.
 
    Met deze instelling worden annuleringsredenen weergegeven in de winkel aan de klant wanneer deze een bestelling annuleert.
 Zorg ervoor dat u ten minste één reden hebt opgegeven.
@@ -51,28 +51,26 @@ Zorg ervoor dat u ten minste één reden hebt opgegeven.
 
 Een klant kan de functie voor annuleren voor een specifieke bestelling starten op drie pagina&#39;s:
 
-- _Mijn bestellingen_ page
+- _Mijn Orden_ pagina
 
-- _Weergave bestelling_ page
+- _de Mening van de Orde_ pagina
 
-- _Mijn account_ page
+- _Mijn Rekening_ pagina
 
 ### Mijn bestellingen
 
-De _Bestelling annuleren_ wordt weergegeven op de pagina Mijn bestellingen als de bestelling kan worden geannuleerd.
+_annuleert de knoop van de Orde_ wordt getoond in de Mijn pagina van Orden als de orde kan worden geannuleerd.
 
-![Voorbeeld van winkel - pagina Mijn bestellingen](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![ storefront van het Voorbeeld - Mijn pagina van Orden ](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
 ### Weergavepagina Volgorde
 
-De _Bestelling annuleren_ wordt weergegeven op de pagina Weergavevolgorde als de volgorde kan worden geannuleerd.
+_annuleert de knoop van de Orde_ wordt getoond in de pagina van de Orde van de Mening als de orde kan worden geannuleerd.
 
-![Pagina met bestelgegevens](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
+![ de detailpagina van de Orde ](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### Mijn account
 
-De _Bestelling annuleren_ wordt weergegeven in de sectie Recente bestellingen van de pagina Mijn account als de bestelling kan worden geannuleerd.
+_annuleert de knoop van de Orde_ wordt getoond in de Recente sectie van Orden van de Mijn pagina van de Rekening, als de orde kan worden geannuleerd.
 
-![Pagina Mijn account](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-
+![ Mijn pagina van de Rekening ](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}

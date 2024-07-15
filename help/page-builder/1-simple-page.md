@@ -1,48 +1,48 @@
 ---
-title: '''[!DNL Page Builder] Doorlopen, deel 1: eenvoudige pagina"'
-description: Gebruik de voorbeeldbestanden en volg de stappen om een eenvoudige pagina te maken in het dialoogvenster [!DNL Page Builder] interface.
+title: '[!DNL Page Builder] Doorlopen, deel 1: eenvoudige pagina'
+description: Gebruik de steekproefdossiers en volg de stappen om een eenvoudige pagina in de  [!DNL Page Builder]  interface tot stand te brengen.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Doorlopen, deel 1: eenvoudige pagina
 
-Volg deze driedelige oefening om vertrouwd te raken met [!DNL Page Builder] door een eenvoudige pagina te maken die laat zien hoe eenvoudig het is om inhoudrijke pagina&#39;s van uw eigen ontwerp te maken.
+Volg deze driedelige oefening om met de [!DNL Page Builder] werkruimte vertrouwd te worden door een eenvoudige pagina te creëren die toont hoe gemakkelijk het is om inhoud-rijke pagina&#39;s van uw eigen ontwerp tot stand te brengen.
 
-![Voorbeeld van eenvoudige pagina](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
+![ Eenvoudig voorbeeld van de Pagina ](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Deze doorlichtingsoefeningen worden bijgewerkt om rekening te houden met recente wijzigingen in de [!DNL Page Builder] in de release 2.4.1. Als u een eerdere Adobe Commerce-versie gebruikt, gebruikt u de [!DNL Page Builder] de in de [[!DNL Commerce] 2.3 Handboek](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Deze doorlopende oefeningen worden bijgewerkt om recente wijzigingen in de [!DNL Page Builder] -werkruimte in de release 2.4.1 te weerspiegelen. Als u een vroegere versie van Adobe Commerce gebruikt, gebruik [!DNL Page Builder] walkthrough oefeningen inbegrepen in de [[!DNL Commerce]  2.3 Gids van de Gebruiker ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## Voordat u begint
 
-Voordat u met deze oefening begint, wordt u aangeraden de dosis [Levensduur beheersessie](../systems/security-admin.md) om te voorkomen dat de sessietime-out optreedt terwijl u werkt.
+Alvorens deze oefening te beginnen, adviseert men dat u het [ Levenslang van de Zitting Admin ](../systems/security-admin.md) verhoogt om de zitting te verhinderen uit timing terwijl u werkt.
 
 Controleer de vereiste configuratie-instellingen voor inhoudsbeheer:
 
-- WYSIWYG Editor is ingeschakeld in het dialoogvenster [WYSIWYG-opties](../content-design/editor.md#configure-the-editor) configuratie.
+- De Redacteur WYSIWYG wordt toegelaten in de [ configuratie van de Opties WYSIWYG ](../content-design/editor.md#configure-the-editor).
 
-- [!DNL Page Builder] is ingeschakeld in het dialoogvenster [Geavanceerde gereedschappen voor inhoud](setup.md) configuratie.
+- [!DNL Page Builder] wordt toegelaten in de [ Geavanceerde 2} configuratie van Hulpmiddelen van de Inhoud {.](setup.md)
 
 ### De doorlopende afbeeldingselementen downloaden
 
-1. Download de [`simple-page-assets`](./assets/simple-page-assets.zip) en sla het bestand op uw lokale systeem op.
+1. Download het [`simple-page-assets`](./assets/simple-page-assets.zip) -bestand en sla het bestand op uw lokale systeem op.
 
 1. Navigeer naar het gedownloade bestand en extraheer de gecomprimeerde bestanden.
 
-   Klik in een Windows-systeem met de rechtermuisknop en kies **[!UICONTROL Extract All]** bestanden. Kies vervolgens de doelmap en klik op **[!UICONTROL Extract]**.
+   Klik op een Windows-systeem met de rechtermuisknop en kies **[!UICONTROL Extract All]** bestanden. Kies vervolgens de doelmap en klik op **[!UICONTROL Extract]** .
 
    Op een Mac-systeem kunt u gewoon dubbelklikken op het ZIP-bestand en de geëxtraheerde bestanden verplaatsen naar de doelmap.
 
    De map bevat de volgende afbeeldingsbestanden:
 
-   ![[!DNL Page Builder] doorlopende bestanden - eenvoudige pagina-elementen](./assets/pb-tutorial-simple-page-assets.png){width="500"}
+   ![[!DNL Page Builder] doorloopt bestanden - eenvoudige pagina-elementen ](./assets/pb-tutorial-simple-page-assets.png){width="500"}
 
 Volg de drie delen van deze analyse in orde.
 
@@ -50,130 +50,130 @@ Volg de drie delen van deze analyse in orde.
 
 In dit gedeelte van de oefening Eenvoudige Pagina, creeert u een pagina die een volledig-aflooprij en een banner heeft. De rij heeft verschillende achtergrondafbeeldingen voor desktops en mobiele apparaten.
 
-![[!DNL Page Builder] volledige aflooprij met banner](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
+![[!DNL Page Builder] volledige aflooprij met banner ](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
 
 ### Stap 1: Een pagina maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Page]** en voer de volgende handelingen uit:
 
-   - Als u wilt voorkomen dat deze pagina in uw winkel wordt gepubliceerd, stelt u **[!UICONTROL Enable Page]** tot `No`.
+   - Stel **[!UICONTROL Enable Page]** in op `No` om te voorkomen dat deze pagina in uw winkel wordt gepubliceerd.
 
-   - Voor **[!UICONTROL Page Title]**, enter `Simple Page`.
+   - Voer bij **[!UICONTROL Page Title]** `Simple Page` in.
 
-   ![Basispagina-instellingen](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
+   ![ Basispagina montages ](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Design]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Design]** sectie uit.
 
-   Let op: **[!UICONTROL Layout]** is ingesteld op `Page -- Full Width` standaard. Naast de norm van vijf [layout](../content-design/page-layout.md) opties, [!DNL Page Builder] Hiermee voegt u lay-outs van volledige breedte toe voor pagina&#39;s, categorieën en producten.
+   **[!UICONTROL Layout]** is standaard ingesteld op `Page -- Full Width` . Naast de vijf standaard [ lay-out ](../content-design/page-layout.md) opties, [!DNL Page Builder] voegt lay-outs van volledige breedte voor pagina&#39;s, categorieën, en producten toe.
 
-1. Als de voorbeeldgegevens beschikbaar zijn, stelt u **[!UICONTROL New Theme]** tot `Magento Luma`. Anders kunt u een ander beschikbaar thema kiezen of dit leeg laten om het standaardthema te gebruiken.
+1. Als de voorbeeldgegevens beschikbaar zijn, stelt u **[!UICONTROL New Theme]** in op `Magento Luma` . Anders kunt u een ander beschikbaar thema kiezen of dit leeg laten om het standaardthema te gebruiken.
 
-   De _[!UICONTROL New Theme]_Met deze instelling kunt u het standaardthema overschrijven en een ander thema op de pagina toepassen.
+   Met de instelling _[!UICONTROL New Theme]_kunt u het standaardthema overschrijven en een ander thema op de pagina toepassen.
 
    >[!NOTE]
    >
-   >De lay-out Volledige breedte kan alleen worden gebruikt met een compatibele [thema](../content-design/themes.md).
+   >De Volledige lay-out van de Breedte kan slechts met een compatibel [ thema ](../content-design/themes.md) worden gebruikt.
 
-   ![Instellingen voor paginaontwerp](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
+   ![ het ontwerpmontages van de Pagina ](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Save]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   Wanneer de pagina wordt opgeslagen, wordt de naam _Eenvoudige pagina_ wordt in de linkerbovenhoek van de pagina weergegeven.
+   Wanneer de pagina wordt bewaard, verschijnt de naam _Eenvoudige Pagina_ in de upper-left hoek van de pagina.
 
 ### Stap 2: De rij opmaken
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
-   Met deze actie wordt het dialoogvenster [!DNL Page Builder] met een lege rij.
+   Met deze actie wordt de voorvertoning van [!DNL Page Builder] weergegeven met een lege rij.
 
    >[!NOTE]
    >
-   >De [Inhoudskop](workspace.md) veld is optioneel. De notatie wordt standaard ingesteld op kopniveau 1 (H1), afhankelijk van het thema. Voor deze oefening _Inhoudskop_ is leeg.
+   >Het [ gebied van de Kop van de Inhoud ](workspace.md) is facultatief. De notatie wordt standaard ingesteld op kopniveau 1 (H1), afhankelijk van het thema. Voor deze oefening, wordt de _Kop van de Inhoud_ verlaten leeg.
 
-   ![Voorvertoning van pagina-inhoud met lege rij](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
+   ![ de inhoudsvoorproef van de Pagina met lege rij ](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
 
-1. Klikken **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
+1. Klik op **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
 
-   In het uitgebreide [!DNL Page Builder] [werkruimte](workspace.md)In het linkerdeelvenster vindt u bovendien de gereedschappen voor de inhoud die u kunt gebruiken om de inhoud van het werkgebied samen te stellen.
+   In de uitgebreide [!DNL Page Builder] [ werkruimte ](workspace.md), verstrekt het paneel op de linkerzijde de inhoudshulpmiddelen u kunt gebruiken om uw inhoud in het stadium te bouwen.
 
 1. Houd de muisaanwijzer boven de lege rij om de gereedschapset weer te geven.
 
    Elke inhoudscontainer heeft een gereedschapset met vergelijkbare opties.
 
-   ![[!DNL Page Builder] rijgereedschappen](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] rijgereedschapset ](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
-1. Kies in de gereedschapset Rij de optie _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} pictogram.
+1. In toolbox van de Rij, kies het _pictogram van Montages_ (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}.
 
-1. Onder _[!UICONTROL Appearance]_, kiest u **Volledig afloopgebied**.
+1. Onder _[!UICONTROL Appearance]_, kies **Volledig afloopgebied**.
 
    Met de weergave Volledig afloopgebied worden de linker- en rechterranden van het inhoudsgebied van de rij en de achtergrond uitgebreid tot de volledige breedte van de pagina.
 
-   ![Rijinstellingen - volledige afloop](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
+   ![ montages van de Rij - volledig afloopgebied ](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Omlaag schuiven naar de _[!UICONTROL Advanced]_sectie en alles instellen **[!UICONTROL Margins and Padding]**instellingen voor `0`.
+1. Blader omlaag naar de sectie _[!UICONTROL Advanced]_en stel alle **[!UICONTROL Margins and Padding]**-instellingen in op `0` .
 
    Deze instelling zorgt ervoor dat de banner de volledige breedte van de rij uitbreidt.
 
-   ![Rijinstellingen - marges en opvulling](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![ de montages van de Rij - marges en het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. De instellingen opslaan en terugkeren naar de [!DNL Page Builder] de werkruimte, scrol omhoog aan de bovenkant van de pagina en klik **[!UICONTROL Save]** in de rechterbovenhoek.
+1. Als u de instellingen wilt opslaan en wilt terugkeren naar de werkruimte van [!DNL Page Builder] , schuift u omhoog naar de bovenkant van de pagina en klikt u op **[!UICONTROL Save]** in de rechterbovenhoek.
 
 ### Stap 3: Een banner toevoegen
 
 >[!NOTE]
 >
->[!DNL Page Builder] heeft een nieuw inhoudstype genaamd _Banner_, die in deze stap wordt weergegeven. Wat voorheen _Banner_ in het menu Inhoud is nu een _Dynamisch blok_.
+>[!DNL Page Builder] heeft een nieuw inhoudstype genoemd _Banner_, dat in deze stap wordt kenmerkt. Wat eerder de _optie van de Banner_ in het menu van de Inhoud was, is nu a _Dynamisch Blok_.
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Media]** en sleep een **Banner** tijdelijke aanduiding naar het werkgebied.
+1. In het [!DNL Page Builder] paneel, breid **[!UICONTROL Media]** uit en sleep placeholder van de a **Banner** aan het stadium.
 
-   ![Een type bannerinhoud naar het werkgebied slepen](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
+   ![ slepend een type van bannerinhoud aan het stadium ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 1. Houd de cursor boven de bannercontainer om de gereedschapset weer te geven.
 
    >[!NOTE]
    >
    >Het werkgebied heeft nu twee inhoudscontainers, elk met een aparte gereedschapset. Omdat de banner in de rij is genest, moet u controleren of u in de juiste gereedschapset werkt.
 
-   Naast de gereedschapset, _Afbeelding uploaden_ en _Selecteren in galerie_ De knoppen zijn opgenomen zodat u de banner direct vanuit het werkgebied snel kunt wijzigen.
+   Naast toolbox, uploadt _Beeld_ en _Uitgezocht van de knopen van de Galerij_ zijn inbegrepen zodat kunt u snelle veranderingen in de banner direct van het stadium aanbrengen.
 
-   ![Banner, gereedschapset](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+   ![ toolbox van de Banner ](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
-1. Kies in de gereedschapset Banner de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. In de toolbox van de Banner, kies het _pictogram van Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. Onder _[!UICONTROL Appearance]_, kiest u **[!UICONTROL Collage Right]**.
+1. Kies onder _[!UICONTROL Appearance]_de optie **[!UICONTROL Collage Right]**.
 
    Met de instelling Kollage rechts plaatst u de inhoud aan de rechterkant van de banner.
 
-   ![Bannervormgeving - collage rechts](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![ de verschijning van de Banner - collage recht ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Omlaag schuiven naar de _[!UICONTROL Background]_en stel de achtergrondafbeelding voor de banner in:
+1. Schuif omlaag naar de sectie _[!UICONTROL Background]_en stel de achtergrondafbeelding voor de banner in:
 
-   - Voor **[!UICONTROL Background Image]**, klikt u op **Uploaden**.
+   - Voor **[!UICONTROL Background Image]**, klik **uploaden**.
 
-     ![Bannerachtergrond - afbeelding uploaden](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
+     ![ Banner achtergrond - upload beeld ](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
 
-     Navigeer naar de map waarin u de geëxtraheerde elementen voor eenvoudige pagina&#39;s hebt opgeslagen en kies de optie `wide-banner-background.jpg` bestand.
+     Navigeer naar de map waarin u de geëxtraheerde elementen voor eenvoudige pagina&#39;s hebt opgeslagen en kies het bestand `wide-banner-background.jpg` .
 
      De afbeelding wordt geüpload en er wordt een miniatuur van de geüploade afbeelding weergegeven. De bestandsnaam, de afmetingen van de afbeelding en de bestandsgrootte worden hieronder vermeld.
 
-     ![Geüploade achtergrondafbeelding in de mediagalerie](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
+     ![ Geüploade achtergrondbeeld in de media galerij ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
-   - Voor **[!UICONTROL Background Mobile Image]**, klikt u op **Uploaden**.
+   - Voor **[!UICONTROL Background Mobile Image]**, klik **uploaden**.
 
-     Kies in dezelfde bestandsmap de optie `wide-banner-background-mobile.jpg` bestand.
+     Kies het bestand `wide-banner-background-mobile.jpg` in dezelfde bestandsmap.
 
      De mobiele achtergrondafbeelding wordt gebruikt voor mobiele apparaten en ook wanneer het formaat van een browservenster wordt aangepast aan de breedte van een mobiel apparaat.
 
-     ![Het afbeeldingsbestand met de voorbeeldbanner selecteren voor mobiele apparaten](./assets/pb-tutorial1-row-settings-background-mobile-image-selected.png){width="600" zoomable="yes"}
+     ![ Selecterend het dossier van het beeldbeeld van de steekproefbanner voor mobiele ](./assets/pb-tutorial1-row-settings-background-mobile-image-selected.png){width="600" zoomable="yes"}
 
-   - Ga terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+   - Blader terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
      De achtergrond wordt in het werkgebied weergegeven en breidt de volledige breedte van de rij uit.
 
-     ![Banner met achtergrondafbeelding](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+     ![ Banner met achtergrondbeeld ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-   U ziet de plaatsaanduidingstekst die rechts van de rij wordt weergegeven. De positie van deze tekst weerspiegelt de _Collage rechts_ weergave-instelling.
+   U ziet de plaatsaanduidingstekst die rechts van de rij wordt weergegeven. De positie van deze tekst wijst op het _Recht van de Collage_ verschijning plaatsen.
 
 1. Klik op de tekst van de tijdelijke aanduiding en voer het volgende bericht in als twee regels:
 
@@ -181,42 +181,42 @@ In dit gedeelte van de oefening Eenvoudige Pagina, creeert u een pagina die een 
 
    `New LUMA yoga collection`
 
-   De editor-werkbalk wordt boven het tekstvak weergegeven. Tekst kan rechtstreeks vanuit het werkgebied worden ingevoerd en opgemaakt, of door _Instellingen_ in de bannergereedschapset.
+   De editor-werkbalk wordt boven het tekstvak weergegeven. De tekst kan of direct van het stadium worden ingegaan en worden geformatteerd, of door _Montages_ in bannertoolbox te kiezen.
 
-   ![Bannerinhoud bewerken vanuit het werkgebied](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
+   ![ het Uitgeven bannerinhoud van het stadium ](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
 1. Opmaak toepassen op de tekst:
 
-   - Selecteer de eerste tekstregel. Dan, op de redacteurstoolbar onder **Indelingen**, kiest u `Heading 2`.
+   - Selecteer de eerste tekstregel. Dan, op de redacteurstoolbar onder **Formaten**, kies `Heading 2`.
 
-     ![De indeling Kop 2 toepassen](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
+     ![ Toepassend Kop 2 formaat ](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
 
-   - Selecteer de tweede tekstregel. Dan, op de redacteurstoolbar onder **Indelingen**, kiest u `Paragraph`.
+   - Selecteer de tweede tekstregel. Dan, op de redacteurstoolbar onder **Formaten**, kies `Paragraph`.
 
    Met de indelingsinstellingen worden de stijlen toegepast van het stijlblad dat aan het huidige thema is gekoppeld.
 
-   ![Banner in het inhoudswerkgebied met opgemaakte tekst](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![ Banner in het inhoudsstadium met geformatteerde tekst ](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
-1. Als u de gereedschapset Banner wilt weergeven, kiest u de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ) opnieuw, en scrol dan aan _[!UICONTROL Content]_sectie.
+1. Hover om toolbox van de Banner te tonen, verkies opnieuw het _pictogram van Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}), dan rol aan de _[!UICONTROL Content]_sectie.
 
-   De tekst wordt weergegeven in het dialoogvenster _Berichttekst_ doos. Tekst kan vanuit het werkgebied of vanuit het _[!UICONTROL Content]_van de bannerinstellingen.
+   Bericht dat uw tekst in het _vakje van de Tekst van het Bericht_ wordt getoond. U kunt tekst invoeren en bewerken vanuit het werkgebied of vanuit het gedeelte _[!UICONTROL Content]_van de bannerinstellingen.
 
-   ![Bannerinstellingen - berichttekst](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![ montages van de Banner - berichttekst ](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Het voortzetten in _[!UICONTROL Content]_de bannerkoppeling en -knop instellen:
+1. Stel in de sectie _[!UICONTROL Content]_de bannerkoppeling en -knop in:
 
-   - Set **Koppeling** tot `Category`en klik vervolgens op **[!UICONTROL Select]** om de categoriestructuur weer te geven.
+   - Plaats **Verbinding** aan `Category`, en klik dan **[!UICONTROL Select]** om de categorieboom te tonen.
 
    - Kies `What's New` als de gekoppelde categorie.
 
-     ![Bannerinhoud - koppelen naar categorie](./assets/pb-tutorial1-banner-settings-link-category-tree.png){width="600" zoomable="yes"}
+     ![ inhoud van de Banner - verbinding aan categorie ](./assets/pb-tutorial1-banner-settings-link-category-tree.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Show Button]** tot `Always`.
+   - Stel **[!UICONTROL Show Button]** in op `Always` .
 
-   - Voor **[!UICONTROL Button Text]**, enter `Shop Now` als de tekst die op de knop wordt weergegeven.
+   - Voer bij **[!UICONTROL Button Text]** `Shop Now` in als de tekst die op de knop wordt weergegeven.
 
-   - Voor **[!UICONTROL Button Type]**, de `Primary` standaard.
+   - Accepteer de standaardwaarde `Primary` voor **[!UICONTROL Button Type]** .
 
      De knopstijl van het huidige thema bepaalt de knopindeling.
 
@@ -224,244 +224,244 @@ __
 
    Met een bedekking kunt u een achtergrondkleur toepassen op het actieve inhoudsgebied dat wordt gedefinieerd door de instelling Weergave. De bannerachtergrondafbeelding blijft zichtbaar voor de volledige breedte van de banner.
 
-   - Set **[!UICONTROL Show Overlay]** tot `Always`.
+   - Stel **[!UICONTROL Show Overlay]** in op `Always` .
 
-   - Voor **[!UICONTROL Overlay Color]** Voer een van de volgende handelingen uit:
+   - Voer bij **[!UICONTROL Overlay Color]** een van de volgende handelingen uit:
 
       - Klik op het gekleurde vierkant en kies het witte staal.
-      - Klik in het dialoogvenster _Geen kleur_ tekstvak en typ `White` of de hexadecimale waarde `#ffffff`.
+      - Klik in _Geen de tekstvakje van de Kleur_ en ga `White` of de hexadecimale waarde `#ffffff` in.
 
-     Klik vervolgens op **[!UICONTROL Apply]**.
+     Klik vervolgens op **[!UICONTROL Apply]** .
 
-     ![Bannerinstellingen - kleur voor knopbedekking](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+     ![ montages van de Banner - kleur van de knoopbekleding ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-   - Ga terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+   - Blader terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
      De knop wordt onder het bannerbericht in het werkgebied weergegeven.
 
-     ![Banner in het inhoudswerkgebied met tekstbericht en knop](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+     ![ Banner in het inhoudsstadium met tekstbericht en knoop ](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek van het werkgebied op de knop _Volledig scherm sluiten_ (![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png)).
+1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Als u op dit pictogram klikt, keert u terug naar het dialoogvenster _[!UICONTROL Content]_de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
 
    U kunt op elk gewenst moment schakelen tussen de twee werkruimtemodi.
 
-1. Klik in de rechterbovenhoek op de knop **[!UICONTROL Save]** en kiest u **[!UICONTROL Save & Close]**.
+1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
-1. Klik op de knop [Cachebeheer](../systems/cache-management.md) in het bericht boven aan de pagina en vernieuw een ongeldige cache.
+1. Indien ertoe aangezet, klik de [ verbinding van het Beheer van het Geheime voorgeheugen ](../systems/cache-management.md) in het bericht bij de bovenkant van de pagina en vernieuw om het even welk ongeldig geheime voorgeheugen.
 
 ## Deel 2: Bevat rij met twee gelijke kolommen
 
-In dit gedeelte van de oefening, voegt u een rij aan de pagina toe, en verdeelt de rij in twee gelijke kolommen. Vervolgens voegt u een gekoppelde afbeelding toe aan elke kolom. In de instructies wordt elke nieuwe rij vóór de eerste rij toegevoegd om de [!DNL Page Builder] wordt uitgelijnd met het werkgebied. Aan het einde van de oefening wijzigt u de rangschikking van de rijen zodat deze overeenkomen met het voorbeeld Eenvoudige pagina.
+In dit gedeelte van de oefening, voegt u een rij aan de pagina toe, en verdeelt de rij in twee gelijke kolommen. Vervolgens voegt u een gekoppelde afbeelding toe aan elke kolom. In de instructies wordt elke nieuwe rij vóór de eerste rij toegevoegd, zodat het deelvenster [!DNL Page Builder] wordt uitgelijnd met het werkgebied. Aan het einde van de oefening wijzigt u de rangschikking van de rijen zodat deze overeenkomen met het voorbeeld Eenvoudige pagina.
 
-![Voorbeeld van een pagina met daarin opgenomen rij met twee gelijke kolommen](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
+![ pagina die van het Voorbeeld bevat rij met twee gelijke kolommen gebruiken ](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
 
 ### Stap 1: Een rij toevoegen
 
-1. Zoek in het raster Pagina&#39;s de _Eenvoudige pagina_ die u in het eerste deel van deze oefening creeerde en uitgezocht **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. In het net van Pagina&#39;s, vind de _Eenvoudige Pagina_ die u in het eerste deel van deze oefening creeerde en **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom selecteert.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
-1. Klikken **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
+1. Klik op **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Row]**plaatsaanduiding in het werkgebied en plaats deze boven de banner.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Row]**naar het werkgebied en plaats deze boven de banner.
 
    De rode hulplijn markeert de grens tussen de twee rijen.
 
-   ![Een nieuwe rij boven de banner toevoegen](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
+   ![ Toevoegend een nieuwe rij boven de banner ](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
 
-1. Houd de muisaanwijzer boven de nieuwe rij om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de nieuwe rij om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   ![Gereedschapset Rij](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
+   ![ toolbox van de Rij ](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. Onder _[!UICONTROL Appearance]_, de **Bevat**standaardinstelling.
+1. Onder _[!UICONTROL Appearance]_, keur het **Bebevatte**gebrek het plaatsen goed.
 
    Met deze instelling beperkt u het inhoudsgebied van de rij tot de breedte van de pagina zoals gedefinieerd door het thema.
 
-   ![De standaardinstelling voor de weergave Bevat behouden](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
+   ![ het Houden van het gebrek Contained verschijning plaatsend ](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ### Stap 2: Een kolom toevoegen
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Column]**tijdelijke aanduiding voor de nieuwe rij.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Column]**naar de nieuwe rij.
 
-   ![Een kolominhoudstype naar het werkgebied slepen](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
+   ![ slepend een type van kolominhoud aan het stadium ](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
    De rij is nu verdeeld in twee kolommen van gelijke breedte. Elke kolom is een aparte container voor inhoud met eigen specifieke gereedschapset met opties.
 
-   ![Rij met twee kolommen van gelijke breedte](./assets/pb-tutorial1-columns-equal-width.png){width="600" zoomable="yes"}
+   ![ Rij met twee kolommen van gelijke breedte ](./assets/pb-tutorial1-columns-equal-width.png){width="600" zoomable="yes"}
 
-1. Klik in de linkerbovenhoek van de eerste kolom op de cirkel _Raster_ besturingselement (![Rasterbesturingselement](./assets/pb-icon-grid-control.png)) om de rasterrichtlijnen weer te geven.
+1. In de upper-left hoek van de eerste kolom, klik de cirkelvormige _controle van het Net_ (![ controle van het Net ](./assets/pb-icon-grid-control.png)) om de netrichtlijnen te tonen.
 
-   Het raster zorgt ervoor dat de inhoud consistent wordt uitgelijnd en correct wordt weergegeven op zowel mobiele als desktopapparaten. Voor informatie over het vormen van de netgrootte, zie [Configureren [!DNL Page Builder]](setup.md#configure-page-builder) in de [!DNL Page Builder] Installatieonderwerp.
+   Het raster zorgt ervoor dat de inhoud consistent wordt uitgelijnd en correct wordt weergegeven op zowel mobiele als desktopapparaten. Voor informatie over het vormen van de netgrootte, zie [  [!DNL Page Builder]](setup.md#configure-page-builder) sectie in het [!DNL Page Builder] onderwerp van de Opstelling vormen.
 
    De getallen tussen haakjes (6/12) op de bovenrand van elke kolomcontainer geven het aantal rasterdivisies in elke kolom aan en het totale aantal divisies in de rij.
 
-   ![Rastergroottedetails voor de kolom weergeven](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
+   ![ Weergevend de details van de netgrootte voor de kolom ](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
 
 ### Stap 3: Afbeeldingen toevoegen met koppelingen
 
 In deze stap leert u hoe u een afbeelding uploadt naar de banner.
 
-1. In de [!DNL Page Builder] deelvenster, vouwt u de **[!UICONTROL Media]** en sleep een **[!UICONTROL Image]** tijdelijke aanduiding voor de eerste kolom.
+1. Vouw in het deelvenster [!DNL Page Builder] de sectie **[!UICONTROL Media]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Image]** naar de eerste kolom.
 
-   ![Het inhoudstype van de afbeelding naar de eerste kolom slepen](./assets/pb-tutorial1-column1-media-image-drag.png){width="600" zoomable="yes"}
+   ![ slepend het type van beeldinhoud aan eerste kolom ](./assets/pb-tutorial1-column1-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Voeg de voorbeeldafbeelding in de plaatsaanduiding.
 
-   ![Tijdelijke aanduiding voor afbeelding](./assets/pb-tutorial1-column-image-upload.png){width="600" zoomable="yes"}
+   ![ placeholder van het Beeld ](./assets/pb-tutorial1-column-image-upload.png){width="600" zoomable="yes"}
 
    Voor een afbeelding die zich op uw systeem bevindt, kunt u een van de volgende methoden kiezen:
 
-   - **Het afbeeldingsbestand uploaden**: Klik in de eerste kolom op **[!UICONTROL Upload Image]**. Navigeer vervolgens naar de map waarin u de geëxtraheerde eenvoudige pagina-elementen hebt opgeslagen en kies de map `small-banner-1.jpg` bestand.
+   - **upload het beelddossier**: In de eerste kolom, klik **[!UICONTROL Upload Image]**. Navigeer vervolgens naar de map waarin u de geëxtraheerde eenvoudige pagina-elementen hebt opgeslagen en kies het `small-banner-1.jpg` -bestand.
 
-     ![Geüploade afbeelding toegevoegd aan de eerste kolom](./assets/pb-tutorial1-column1-image.png){width="600" zoomable="yes"}
+     ![ Geüploade beeld dat aan de eerste kolom ](./assets/pb-tutorial1-column1-image.png){width="600" zoomable="yes"} wordt toegevoegd
 
-     Herhaal deze handeling om de `small-banner-2.jpg` naar de tweede kolom.
+     Herhaal deze handeling om het `small-banner-2.jpg` -bestand toe te voegen aan de tweede kolom.
 
-   - **Sleep het afbeeldingsbestand**: Open op uw bureaublad de map met eenvoudige pagina-elementen en plaats deze naast het browservenster Beheer waar u met het [!DNL Page Builder] in het werkgebied. Sleep vervolgens het bestand `small-banner-1.jpg` in de map met eenvoudige pagina-elementen en zet deze neer in de eerste kolom.
+   - **Belemmering het beelddossier**: Op uw Desktop, open de eenvoudige omslag van paginamiddelen en plaats het naast het browser venster Admin waar u met het [!DNL Page Builder] stadium werkt. Vervolgens sleept u het bestand `small-banner-1.jpg` uit de map met eenvoudige pagina-elementen en zet u het neer in de eerste kolom.
 
-     ![De afbeelding naar de tweede kolom slepen](./assets/pb-tutorial1-column-image-drag.png){width="600" zoomable="yes"}
+     ![ slepend het beeld op de tweede kolom ](./assets/pb-tutorial1-column-image-drag.png){width="600" zoomable="yes"}
 
-     Herhaal deze handeling om de `small-banner-2.jpg` naar de tweede kolom.
+     Herhaal deze handeling om het `small-banner-2.jpg` -bestand toe te voegen aan de tweede kolom.
 
 1. Bepaal welke pagina in de catalogus u aan elke afbeelding wilt koppelen.
 
-1. Houd de muisaanwijzer boven de afbeelding in de eerste kolom om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over het beeld in de eerste kolom om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   ![Gereedschap Afbeelding](./assets/pb-tutorial1-column1-image-settings.png){width="600" zoomable="yes"}
+   ![ toolbox van het Beeld ](./assets/pb-tutorial1-column1-image-settings.png){width="600" zoomable="yes"}
 
 1. De afbeelding aan een categorie koppelen:
 
-   - Omlaag schuiven en instellen **Koppeling** tot `Category`.
+   - De rol neer en plaatst **Verbinding** aan `Category`.
 
-   - Blader in de categoriestructuur omlaag en kies de optie `Men's Hoodies & Sweatshirt` categorie.
+   - Blader in de categoriestructuur omlaag en kies de categorie `Men's Hoodies & Sweatshirt` .
 
-   - In de rechterbovenhoek: **[!UICONTROL Save]** de instellingen en ga terug naar de [!DNL Page Builder] werkruimte.
+   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** de instellingen en ga terug naar de werkruimte van [!DNL Page Builder] .
 
-1. Herhaal de vorige stap om de afbeelding in de tweede kolom te koppelen aan de _Tandwiel_ categorie.
+1. Herhaal de vorige stap om het beeld in de tweede kolom aan de _categorie van het Gear_ te verbinden.
 
-1. Klik in de rechterbovenhoek van het werkgebied op de knop _Volledig scherm sluiten_ (![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png)).
+1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Als u op dit pictogram klikt, keert u terug naar het dialoogvenster _[!UICONTROL Content]_de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
 
-1. Klik in de rechterbovenhoek op de knop **[!UICONTROL Save]** en kiest u **[!UICONTROL Save & Close]**.
+1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
-1. Klik op de knop [Cachebeheer](../systems/cache-management.md) in het bericht boven aan de pagina en vernieuw een ongeldige cache.
+1. Wanneer ertoe aangezet, klik de [ verbinding van het Beheer van het Geheime voorgeheugen ](../systems/cache-management.md) in het bericht bij de bovenkant van de pagina en vernieuw om het even welk ongeldig geheime voorgeheugen.
 
 ## Deel 3: Rij met volledige breedte en ongelijke kolommen
 
 De laatste rij op deze pagina bevat de inhoud van een productrevisie. U voegt een rij met volledige breedte toe en verdeelt deze in twee kolommen met verschillende breedten. Er wordt een achtergrondafbeelding aan de eerste kolom toegevoegd, met een overeenkomende achtergrondkleur die op de rij wordt toegepast voor een verenigd effect.
 
-![Voorbeeld van een rij met volledige breedte met kolommen van verschillende breedten](./assets/pb-tutorial1-full-width-row-two-unequal-columns.png){width="500"}
+![ de volledige breedterij van het Voorbeeld met kolommen van verschillende breedten ](./assets/pb-tutorial1-full-width-row-two-unequal-columns.png){width="500"}
 
 ### Stap 1: Een rij toevoegen
 
-1. Zoek in het raster Pagina&#39;s de _Eenvoudige pagina_ die u in het eerste deel van deze oefening creeerde en uitgezocht **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. In het net van Pagina&#39;s, vind de _Eenvoudige Pagina_ die u in het eerste deel van deze oefening creeerde en **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom selecteert.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
-1. Klikken **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
+1. Klik op **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Row]**tijdelijke aanduiding naar het werkgebied en plaats deze boven de rij die is gemaakt in het tweede deel van deze bewerking.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Row]**naar het werkgebied en plaats deze boven de rij die in het tweede deel van deze bewerking is gemaakt.
 
    Een rode hulplijn markeert de grens tussen de twee rijen.
 
-   ![Een nieuwe rij toevoegen](./assets/pb-tutorial1-add-new-row.png){width="600" zoomable="yes"}
+   ![ Toevoegend een nieuwe rij ](./assets/pb-tutorial1-add-new-row.png){width="600" zoomable="yes"}
 
-1. Houd de muisaanwijzer boven de nieuwe rij om de gereedschapset weer te geven en kies de optie _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de nieuwe rij om toolbox te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}) pictogram.
 
-   ![Gereedschapset Rij](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
+   ![ toolbox van de Rij ](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. Op de pagina Rij bewerken onder _[!UICONTROL Appearance]_, kiest u **[!UICONTROL Full Width]**.
+1. Kies **[!UICONTROL Full Width]** op de pagina Rij bewerken onder _[!UICONTROL Appearance]_.
 
    Met deze instelling beperkt u het inhoudsgebied tot de maximale paginabreedte die door het thema wordt gedefinieerd. De achtergrondkleur en/of -afbeelding zijn niet beperkt en breiden de volledige breedte van de rij uit.
 
-   ![De vormgeving Volledige breedte selecteren](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
+   ![ Selecterend de Volledige verschijning van de Breedte ](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. In de _[!UICONTROL Background]_sectie, enter `#f1f1f1` als de **[!UICONTROL Background Color]**.
+1. Typ `#f1f1f1` als **[!UICONTROL Background Color]** in de sectie _[!UICONTROL Background]_.
 
-   ![De achtergrondkleur instellen](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
+   ![ plaatsend de achtergrondkleur ](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Omlaag schuiven naar de _[!UICONTROL Advanced]_sectie en alles instellen **Marges en opvulling**waarden voor `0`.
+1. De rol neer aan de _[!UICONTROL Advanced]_sectie en plaatst alle **Marges &amp; het Opvullen**waarden aan `0`.
 
-   ![Marges en opvulling instellen](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![ plaatsend de marges en het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Ga terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Blader terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
    De achtergrondkleur van de rij is nu lichtbeige.
 
-   ![Rij met de achtergrondkleur in het werkgebied](./assets/pb-tutorial1-row-background-beige.png){width="600" zoomable="yes"}
+   ![ Rij met de achtergrondkleur in het stadium ](./assets/pb-tutorial1-row-background-beige.png){width="600" zoomable="yes"}
 
 ### Stap 2: kolommen van verschillende breedten toevoegen
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Column]**tijdelijke aanduiding voor de bovenste rij in het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Column]**naar de bovenste rij in het werkgebied.
 
-   ![Een kolom naar het werkgebied slepen](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
+   ![ slepend een kolom aan het stadium ](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
-1. Sleep de rechterrand van de eerste kolom naar de vier van de twaalf (`4/12`) op het raster.
+1. Sleep de rechterrand van de eerste kolom naar de vier van de 12 (`4/12`) positie op het raster.
 
    De grootte van de tweede kolom wordt aangepast aan acht van 12 (`8/12`).
 
-   ![De grootte van de eerste kolom wijzigen](./assets/pb-tutorial1-column-first-4.png){width="600" zoomable="yes"}
+   ![ het Resizing van de eerste kolom ](./assets/pb-tutorial1-column-first-4.png){width="600" zoomable="yes"}
 
-1. Houd de muisaanwijzer boven de eerste kolomcontainer om de gereedschapset weer te geven en kies de optie _Instellingen_ ( ![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+1. Beweeg over de eerste kolomcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. Omlaag schuiven naar de _[!UICONTROL Advanced]_sectie en alles instellen **Marges en opvulling**waarden voor `0`.
+1. De rol neer aan de _[!UICONTROL Advanced]_sectie en plaatst alle **Marges &amp; het Opvullen**waarden aan `0`.
 
-   ![Marges en opvulling instellen](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![ plaatsend de marges en het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Ga terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Blader terug naar de bovenkant van de pagina en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ### Stap 3: Een afbeelding toevoegen aan de eerste kolom
 
-1. In de [!DNL Page Builder] deelvenster, uitvouwen **[!UICONTROL Media]** en sleep een **[!UICONTROL Image]** inhoudstype aan de eerste kolom.
+1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Media]** uit en sleep een inhoudstype **[!UICONTROL Image]** naar de eerste kolom.
 
-   ![Een type afbeeldingsinhoud naar de eerste kolom slepen](./assets/pb-tutorial1-column1-image-drag.png){width="600" zoomable="yes"}
+   ![ slepend een type van beeldinhoud aan de eerste kolom ](./assets/pb-tutorial1-column1-image-drag.png){width="600" zoomable="yes"}
 
-1. Klik in de voorlopige afbeelding op **[!UICONTROL Upload Image]**.
+1. Klik op **[!UICONTROL Upload Image]** in de voorlopige afbeelding.
 
-   ![Afbeelding uploaden](./assets/pb-tutorial1-column1-image-upload.png){width="600" zoomable="yes"}
+   ![ upload Beeld ](./assets/pb-tutorial1-column1-image-upload.png){width="600" zoomable="yes"}
 
-1. Navigeer naar de map waarin u de geëxtraheerde elementen voor eenvoudige pagina&#39;s hebt opgeslagen en kies de optie `review-image.jpg` bestand.
+1. Navigeer naar de map waarin u de geëxtraheerde elementen voor eenvoudige pagina&#39;s hebt opgeslagen en kies het bestand `review-image.jpg` .
 
    De geüploade afbeelding wordt weergegeven in de eerste kolom en vloeit naadloos over met de achtergrondkleur van de rij.
 
-   ![Geüploade afbeelding toegevoegd aan de kolom](./assets/pb-tutorial1-column1-image-uploaded.png){width="600" zoomable="yes"}
+   ![ Geüploade beeld dat aan de kolom ](./assets/pb-tutorial1-column1-image-uploaded.png){width="600" zoomable="yes"} wordt toegevoegd
 
 ### Stap 4: Inhoud van revisie toevoegen aan de tweede kolom
 
 De tweede kolom van de rij moet inhoud bevatten van een revisie van de klant, inclusief de classificatieafbeelding met vijf sterren en het opgemaakte tekstbericht.
 
-1. In de [!DNL Page Builder] deelvenster, vouwt u de **[!UICONTROL Elements]** en sleep de **[!UICONTROL Text]** inhoudstype aan de tweede kolom.
+1. Vouw in het deelvenster [!DNL Page Builder] de sectie **[!UICONTROL Elements]** uit en sleep het inhoudstype **[!UICONTROL Text]** naar de tweede kolom.
 
-   ![Het type tekstinhoud naar het werkgebied slepen](./assets/pb-tutorial1-column2-text-drag.png){width="600" zoomable="yes"}
+   ![ slepend het type van tekstinhoud aan het stadium ](./assets/pb-tutorial1-column2-text-drag.png){width="600" zoomable="yes"}
 
 1. Klik in het tekstelement om de editor-werkbalk weer te geven.
 
-1. Klik op de werkbalk op de knop _Afbeelding invoegen_ (![Afbeeldingspictogram invoegen](./assets/editor-btn-insert-edit-image.png)) en voer de volgende handelingen uit:
+1. In de toolbar, klik het _Beeld van het Tussenvoegsel_ (![ het beeldpictogram van het Tussenvoegsel ](./assets/editor-btn-insert-edit-image.png)) pictogram en doe het volgende:
 
-   ![Een afbeelding invoegen in de tekst](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
+   ![ Invoegend een beeld in de tekst ](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - In de _[!UICONTROL Insert/edit image]_klikt u op de knop_ Zoeken _( ![Pictogram Zoeken](./assets/editor-btn-find-source.png) ) naast het pictogram_[!UICONTROL Source]_ veld.
+   - In de _[!UICONTROL Insert/edit image]_dialoog, klik het_ Vondst _( ![ pictogram van de Vondst ](./assets/editor-btn-find-source.png)) pictogram naast het_[!UICONTROL Source]_ gebied.
 
-     ![Dialoogvenster Afbeelding invoegen/bewerken](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
+     ![ Tussenvoegsel/geef beelddialoog uit ](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - Op de _[!UICONTROL Select Images]_pagina, klikt u **[!UICONTROL Choose Files]**.
+   - Klik op de pagina _[!UICONTROL Select Images]_op **[!UICONTROL Choose Files]**.
 
-   - Kies in de map waarin u de elementen van de eenvoudige pagina hebt opgeslagen de optie `rating.png`.
+   - Kies `rating.png` in de map waarin u de elementen van de eenvoudige pagina hebt opgeslagen.
 
-   - Dubbelklik op de pagina weer op de afbeeldingstabel om deze te selecteren en voeg de URL van de tegel in het veld Bron in.
+   - Dubbelklik op de pagina weer op de afbeeldingstegel om deze te selecteren en voeg de URL ervan in het Source-veld in.
 
-     ![De afbeelding op de pagina kiezen](./assets/pb-tutorial1-column2-editor-gallery-select-image.png){width="600" zoomable="yes"}
+     ![ het Kiezen van het beeld op de pagina ](./assets/pb-tutorial1-column2-editor-gallery-select-image.png){width="600" zoomable="yes"}
 
-   - Voor **[!UICONTROL Image Description]**, enter `5-Star Rating` en klik op **[!UICONTROL OK]** om de afbeelding in te voegen in de kolom.
+   - Voer bij **[!UICONTROL Image Description]** `5-Star Rating` in en klik **[!UICONTROL OK]** om de afbeelding in de kolom in te voegen.
 
-   - Klik in de editor-werkbalk op **Centreren** (![Knop Centreren](./assets/editor-btn-align-center.png)) om de afbeelding in de kolom te centreren.
+   - In de redacteurstoolbar, klik **centreert** (![ richt centreert knoop ](./assets/editor-btn-align-center.png)) om het beeld in de kolom te centreren.
 
-     ![Afbeelding met gecentreerde classificatie](./assets/pb-tutorial1-column2-5stars-centered.png){width="600" zoomable="yes"}
+     ![ Gecentreerd classificatiebeeld ](./assets/pb-tutorial1-column2-5stars-centered.png){width="600" zoomable="yes"}
 
 1. Plaats de invoegpositie net na de afbeelding met vijf sterren, druk op Enter/Return om een nieuwe regel te beginnen en voer de volgende tekst in:
 
@@ -473,89 +473,89 @@ De tweede kolom van de rij moet inhoud bevatten van een revisie van de klant, in
 
    De tekst wordt gecentreerd terwijl u typt.
 
-   ![De in de kolom gecentreerde tekst controleren](./assets/pb-tutorial1-column2-text-unformatted.png){width="600" zoomable="yes"}
+   ![ tekst van het Overzicht die in de kolom ](./assets/pb-tutorial1-column2-text-unformatted.png){width="600" zoomable="yes"} wordt gecentreerd
 
 1. Maak de tekst op:
 
-   - Klik ergens in de eerste tekstregel en op de editor-werkbalk onder **Indelingen**, kiest u `Heading 2`.
+   - Klik overal in de eerste lijn van tekst en op de redacteurstoolbar onder **Formaten**, kies `Heading 2`.
 
-   - Selecteer de resterende tekst en klik op de editor-werkbalk onder **Indelingen**, kiest u `Paragraph`.
+   - Selecteer de resterende tekst en op de redacteurstoolbar onder **Formaten**, kies `Paragraph`.
 
    De tekst wordt opgemaakt op basis van de stijlpagina die aan het thema is gekoppeld.
 
 1. Haal de afmetingen van de afbeelding op, zodat u de inhoud verticaal in de kolom kunt centreren:
 
-   - Houd de muisaanwijzer boven de afbeelding in de eerste kolom om de gereedschapset weer te geven en kies de optie _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+   - Beweeg over het beeld in de eerste kolom om toolbox te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
    - Houd rekening met de afmetingen van de afbeelding onder de miniatuur van de afbeelding.
 
-     ![Afbeeldingsafmetingen weergegeven onder de miniatuur](./assets/pb-tutorial1-column1-image-dimensions.png){width="600" zoomable="yes"}
+     ![ dimensies van het Beeld die onder de duimnagel ](./assets/pb-tutorial1-column1-image-dimensions.png){width="600" zoomable="yes"} worden getoond
 
-   - Klik in de rechterbovenhoek op **Sluiten**.
+   - In de hoger-juiste hoek, klik **dicht**.
 
 1. De inhoud verticaal centreren in de tweede kolom:
 
-   - Houd de muisaanwijzer boven de tweede kolom om de gereedschapset weer te geven en kies de optie _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png){width="20"} ).
+   - Beweeg over de tweede kolom om toolbox te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}) pictogram.
 
    >[!NOTE]
    >
    >Selecteer de kolomcontainer in plaats van de tekstcontainer om de juiste gereedschapset weer te geven.
 
-   - Voor **[!UICONTROL Minimum Height]**, enter `450` als de hoogte in pixels voor de afbeelding in de eerste kolom.
+   - Voer bij **[!UICONTROL Minimum Height]** `450` in als de hoogte in pixels voor de afbeelding in de eerste kolom.
 
-   - Set **[!UICONTROL Vertical Alignment]** tot `Center`.
+   - Stel **[!UICONTROL Vertical Alignment]** in op `Center` .
 
-   ![Minimumhoogte en verticale uitlijning instellen](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
+   ![ plaatsend de minimumhoogte en de verticale groepering ](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Omlaag schuiven naar de _[!UICONTROL Advanced]_sectie en alles instellen **[!UICONTROL Margins and Padding]**waarden naar nul ( `0` ).
+1. Schuif omlaag naar de sectie _[!UICONTROL Advanced]_en stel alle **[!UICONTROL Margins and Padding]**-waarden in op nul ( `0` ).
 
-   ![Marges en opvulling instellen](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![ plaatsend de marges en het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. Ga terug naar de bovenkant van de pagina en klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Blader terug naar de bovenkant van de pagina en in de rechterbovenhoek en klik op **[!UICONTROL Save]** om de instellingen op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
-   ![Rij met revisie-inhoud in het werkgebied](./assets/pb-tutorial1-row-reviw-content.png){width="600" zoomable="yes"}
+   ![ Rij met overzichtsinhoud op het stadium ](./assets/pb-tutorial1-row-reviw-content.png){width="600" zoomable="yes"}
 
 ### Stap 5: Een koppeling voor een catalogusproduct invoegen
 
-1. Selecteer de `Antonia Racer Tank` tekst en klik op _Koppeling invoegen_ (![Koppelingspictogram invoegen](./assets/editor-btn-insert-edit-link.png)) op de werkbalk van de editor.
+1. Selecteer de `Antonia Racer Tank` tekst en klik het _Verbinding van het Tussenvoegsel_ (![ verbindingspictogram van het Tussenvoegsel ](./assets/editor-btn-insert-edit-link.png)) pictogram in de redacteurstoolbar.
 
-1. In de _Koppeling invoegen_ , geeft u de koppeling naar het catalogusproduct op:
+1. In de _verbinding van het Tussenvoegsel_ dialoog, specificeer de verbinding aan het catalogusproduct:
 
-   - Voer het product in **[!UICONTROL URL]**.
+   - Voer het product **[!UICONTROL URL]** in.
 
      U kunt een relatieve of volledig gekwalificeerde URL invoeren. De volgende relatieve koppeling wordt ingevoerd voor dit voorbeeld:
 
      `../antonia-racer-tank.html`
 
-   - (Optioneel) Voor **Titel**, voert u de productnaam in.
+   - (Optioneel) Voer voor **Titel** de productnaam in.
 
      Het kenmerk Title link wordt door sommige browsers gebruikt als knopinfo.
 
-     ![Een koppeling in de tekst invoegen](./assets/pb-tutorial1-text-link-insert.png){width="600" zoomable="yes"}
+     ![ Invoegend een verbinding in de tekst ](./assets/pb-tutorial1-text-link-insert.png){width="600" zoomable="yes"}
 
-   - Klik op **[!UICONTROL OK]** om de koppeling op te slaan.
+   - Klik wanneer u klaar bent op **[!UICONTROL OK]** om de koppeling op te slaan.
 
      De gekoppelde tekst wordt nu gemarkeerd in de banner.
 
-     ![Banner met gekoppelde tekst](./assets/pb-tutorial1-text-link-highlight.png){width="600" zoomable="yes"}
+     ![ Banner met verbonden teksten ](./assets/pb-tutorial1-text-link-highlight.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek van het werkgebied op de knop _Volledig scherm sluiten_ (![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png)).
+1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Als u op dit pictogram klikt, keert u terug naar het dialoogvenster _[!UICONTROL Content]_de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Save]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
 ### Stap 6: De rijen opnieuw rangschikken
 
-Wanneer alle drie de rijen zijn voltooid, bestaat de laatste stap uit het opnieuw rangschikken van de rijen zodat deze overeenkomen met het origineel _Eenvoudige pagina_ voorbeeld. Voor het oorspronkelijke voorbeeld moet de eerste rij naar de onderkant worden verplaatst en de laatste rij naar de bovenkant.
+Met alle drie rijen volledig, moet de definitieve stap de rijen opnieuw rangschikken om het originele _Eenvoudige Pagina_ voorbeeld aan te passen. Voor het oorspronkelijke voorbeeld moet de eerste rij naar de onderkant worden verplaatst en de laatste rij naar de bovenkant.
 
-1. Indien nodig uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie.
+1. Indien noodzakelijk, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
-1. Klikken **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
+1. Klik op **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud.
 
-1. Houd de muisaanwijzer boven de eerste rij in het werkgebied om de gereedschapset weer te geven en kies de optie _Verplaatsen_ ( ![Pictogram Verplaatsen](./assets/pb-icon-move.png)).
+1. Beweeg over de eerste rij op het stadium om toolbox te tonen en de _Beweging_ te kiezen ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png)) pictogram.
 
-   ![Verplaatsen](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
+   ![ Beweging ](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
 
 1. Houd de muisknop ingedrukt terwijl u controleert of alle inhoud van de rij is geselecteerd en sleep de rij naar de positie onder de rode hulplijn onder aan de pagina.
 
@@ -563,20 +563,20 @@ Wanneer alle drie de rijen zijn voltooid, bestaat de laatste stap uit het opnieu
    >
    >Als u per ongeluk slechts een deel van de inhoud verplaatst, zoals de afbeelding, verplaatst u de inhoud gewoon terug waar deze hoort en probeert u het opnieuw.
 
-   ![Een rij verplaatsen in het werkgebied](./assets/pb-tutorial1-row-toolbox-move-to-position.png){width="600" zoomable="yes"}
+   ![ Bewegend een rij op het stadium ](./assets/pb-tutorial1-row-toolbox-move-to-position.png){width="600" zoomable="yes"}
 
 1. Herhaal dit proces om de eerste rij naar de tweede positie te verplaatsen.
 
    De volgorde van de rijen op de pagina komt nu overeen met het voorbeeld Eenvoudige pagina.
 
-1. Klik in de rechterbovenhoek van het werkgebied op de knop _Volledig scherm sluiten_ (![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png)).
+1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Als u op dit pictogram klikt, keert u terug naar het dialoogvenster _[!UICONTROL Content]_de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
 
-1. Klik in de rechterbovenhoek op de knop **[!UICONTROL Save]** en kiest u **[!UICONTROL Save & Close]**.
+1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
-1. Klik op de knop [Cachebeheer](../systems/cache-management.md) in het bericht boven aan de pagina en vernieuw een ongeldige cache.
+1. Indien ertoe aangezet, klik de [ verbinding van het Beheer van het Geheime voorgeheugen ](../systems/cache-management.md) in het bericht bij de bovenkant van de pagina en vernieuw om het even welk ongeldig geheime voorgeheugen.
 
 U hebt de oefening Eenvoudige Pagina voltooid. Behoud het werk dat u hebt gemaakt, zodat u er later naar kunt verwijzen.
 
-Als u klaar bent, gaat u verder naar [Deel 2: Blokken](2-blocks.md).
+Wanneer u klaar bent, ga aan [ Deel 2 te werk: Blokken ](2-blocks.md).

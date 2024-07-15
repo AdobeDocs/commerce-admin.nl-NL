@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL General] &gt; [!UICONTROL Reports] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL Reports] van Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Dashboard]
 
-![Dashboard](./assets/reports-dashboard.png)<!-- zoom -->
+![ Dashboard ](./assets/reports-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Year-to-Date Starts] | Algemeen | Hiermee geeft u de maand en de dag op waarop de berekeningen van jaar tot dag worden gebaseerd. |
 | [!UICONTROL Current Month Starts] | Algemeen | Geeft de dag van de maand aan die in berekeningen wordt gebruikt om het begin van de huidige maand te markeren. |
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## [!UICONTROL General Options]
 
-![Algemene opties](./assets/reports-general-options.png)<!-- zoom -->
+![ Algemene Opties ](./assets/reports-general-options.png)<!-- zoom -->
 
 >[!NOTE]
 >
 >Als uw bedrijfsfuncties geen rapportering vereisen, adviseren wij dat u de rapportfunctionaliteit onbruikbaar maakt om opslagprestaties te verbeteren. Nochtans, baseren sommige eigenschappen, zoals dynamische klantensegmenten, zich op rapportgegevens om behoorlijk te functioneren.
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Reports] | Algemeen | Schakelt rapportgebeurtenissen in of uit. |
 | [!UICONTROL Enable "Product View" Report] | Algemeen | Hiermee schakelt u het verzamelen van statistieken van weergegeven productpagina&#39;s in of uit. |

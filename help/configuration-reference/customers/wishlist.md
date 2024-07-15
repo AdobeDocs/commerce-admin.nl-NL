@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Controleer de configuratie-instellingen op het tabblad [!UICONTROL Customers] &gt; [!UICONTROL Wish List] pagina van de Commerce Admin.
+description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Customers] &gt; [!UICONTROL Wish List] van Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,26 @@ ht-degree: 0%
 
 ## [!UICONTROL General Options]
 
-![Algemene opties](./assets/wishlist-general-options.png)<!-- zoom -->
+![ Algemene Opties ](./assets/wishlist-general-options.png)<!-- zoom -->
 
 <!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee activeert u de module Lijst met wensen voor uw winkel. Opties: `Yes` / `No` |
-| [!UICONTROL Show in Sidebar] | Winkelweergave | Geeft de zichtbaarheid van de verlanglijsten in de zijbalk aan. <br/>Opties: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Wanneer ingesteld op `Yes`, staat klanten toe om veelvoudige wensen lijsten tot stand te brengen en te handhaven. Opties: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Winkelweergave | ![Adobe Commerce](../../assets/adobe-logo.svg) (Alleen Adobe Commerce) Als meerdere verlanglijsten zijn ingeschakeld, bepaalt u het maximumaantal wenslijsten dat klanten aan hun account kunnen hebben gekoppeld. |
+| [!UICONTROL Show in Sidebar] | Winkelweergave | Geeft de zichtbaarheid van de verlanglijsten in de zijbalk aan. <br/> Opties: `Yes` / `No` |
+| [!UICONTROL Enable Multiple Wish Lists] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) Wanneer reeks aan `Yes`, staat klanten toe om veelvoudige wenslijsten tot stand te brengen en te handhaven. Opties: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) als de veelvoudige wenslijsten worden toegelaten, bepaalt het maximumaantal wenslijsten klanten met hun rekening kunnen geassocieerd hebben. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
-![Opties voor delen](./assets/wishlist-share-options.png)<!-- zoom -->
+![ Opties van het Aandeel ](./assets/wishlist-share-options.png)<!-- zoom -->
 
 <!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | Winkelweergave | Bepaalt het opslagcontact dat als afzender van het verzonden bericht verschijnt wanneer een wensenlijst wordt gedeeld. Standaardcontactpersoon: `General Contact` |
 | [!UICONTROL Email Template] | Winkelweergave | Bepaalt het e-mailmalplaatje dat voor het verzonden bericht wordt gebruikt wanneer een wensenlijst wordt gedeeld. Standaardsjabloon: `Share Wishlist` |
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ## [!UICONTROL My Wish List Link]
 
-![Mijn favoriete lijstkoppeling](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+![ Mijn Verbinding van de Lijst van de Wenslijst ](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
 <!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Veld | [Toepassingsgebied](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Website | Vormt de vertoning van de Samenvatting van de Lijst van de Vlek in het dashboard van de klantenrekening. Opties: `Display number of items in wish list` / `Display item quantities` |
 

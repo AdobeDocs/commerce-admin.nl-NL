@@ -12,10 +12,10 @@ ht-degree: 0%
 
 # Winkelwagentje
 
-De wagen wordt op het snijpunt van het aan te schaffen pad geplaatst _Kopen_ en _Abandon_ en is een van de belangrijkste pagina&#39;s in uw winkel. De winkelwagen is waar het ordertotaal wordt berekend, samen met kortingscoupons en geschatte verzendkosten en belastingen. Het is een fantastische plaats om je vertrouwensbadges en zegels te laten zien, en een ideale gelegenheid om nog een laatste item aan te bieden. U kunt de objecten kiezen die als een crossselimpulsaankoop moeten worden aangeboden wanneer een specifiek object in het winkelwagentje wordt weergegeven.
+De wagentje wordt geplaatst aan het eind van de weg aan aankoop, op het snijpunt van _kopen_ en _verlaat_, en is één van de belangrijkste pagina&#39;s in uw opslag. De winkelwagen is waar het ordertotaal wordt berekend, samen met kortingscoupons en geschatte verzendkosten en belastingen. Het is een fantastische plaats om je vertrouwensbadges en zegels te laten zien, en een ideale gelegenheid om nog een laatste item aan te bieden. U kunt de objecten kiezen die als een crossselimpulsaankoop moeten worden aangeboden wanneer een specifiek object in het winkelwagentje wordt weergegeven.
 
-![Op de pagina Winkelwagentje worden gereedschappen weergegeven die de winkelier kan gebruiken om de producten voor bestelling te beheren ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
+![ De het winkelen kartpagina toont hulpmiddelen de verkoopster kan gebruiken om de producten voor hun orde te beheren ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
 
-- Vorm [winkelwagentje](cart-configuration.md) om te bepalen welke gereedschappen beschikbaar zijn voor kopers en om de weergave te wijzigen.
-- Vorm [hardnekkigheid van het karretje](cart-persistent.md) gedrag om kopers te helpen de inhoud van hun winkelwagentje te behouden.
-- Voeg de [Bestelling door SKU](order-by-sku.md) widget als handig voor alle kopers, of alleen voor kopers in specifieke klantengroepen, om de SKU- en kwantitatieve informatie rechtstreeks op een pagina in te voeren.
+- Vorm de [ het winkelen kaartopties ](cart-configuration.md) om te bepalen welke hulpmiddelen aan kopers beschikbaar zijn, en de vertoning te wijzigen.
+- Vorm het [ 1} gedrag van de wortelpersistentie {om shoppers te helpen de inhoud van hun kar behouden.](cart-persistent.md)
+- Voeg de [ Orde door ](order-by-sku.md) widget SKU als gemak voor alle kopers, of slechts voor consumenten in specifieke klantengroepen toe, om SKU en kwantitatieve informatie direct in een pagina in te gaan.

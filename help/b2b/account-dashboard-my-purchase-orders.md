@@ -5,28 +5,28 @@ exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL My Purchase Orders]
 
-Wanneer inkooporders [toegelaten voor een bedrijf](purchase-order-flow.md), wordt elke bestelling voor een klant die is aangemeld bij een bedrijfsgebruikersaccount automatisch gemaakt als een inkooporder (inkooporder). De gebruikers van het bedrijf met de vereiste toestemmingen kunnen tot stand brengen, uitgeven en POs schrappen die zij, samen met POs leiden die door ondergeschikte gebruikers worden gecreeerd.
+Wanneer de kooporders [ voor een bedrijf ](purchase-order-flow.md) worden toegelaten, wordt om het even welke orde voor een klant die in een rekening van de bedrijfgebruiker wordt ondertekend automatisch gecreeerd als kooporder (PO). De gebruikers van het bedrijf met de vereiste toestemmingen kunnen tot stand brengen, uitgeven en POs schrappen die zij, samen met POs leiden die door ondergeschikte gebruikers worden gecreeerd.
 
-![Mijn inkooporders](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![ Mijn orden van de Aankoop ](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Inkooporders maken een _opname_ van objectprijzen, kortingen en verzendprijzen op het moment dat de bestelling werd gemaakt. Als de prijs van een item verandert nadat de inkooporder is gemaakt, wordt de oorspronkelijke prijs gebruikt.
+>De Orden van de aankoop leiden a _momentopname_ van puntprijzen, kortingen, en verschepende prijzen op het tijdstip dat de orde werd gecreeerd. Als de prijs van een item verandert nadat de inkooporder is gemaakt, wordt de oorspronkelijke prijs gebruikt.
 
 ## Aankooporders beheren
 
-Van de _Inkooporder weergeven_ pagina, kan de klant PO, afhankelijk van hun beheren [rolmachtigingen](account-company-roles-permissions.md).
+Van de _pagina van de Inkooporder van de Mening_, kan de klant PO, afhankelijk van hun [ roltoestemmingen ](account-company-roles-permissions.md) beheren.
 
-- Klik op **[!UICONTROL View]**.
-- Om om het even welke commentaren over PO te zien, klik **[!UICONTROL Comments]** tab.
-- Als u een volledige ordergeschiedenis wilt weergeven, klikt u op de knop **[!UICONTROL History Log]** tab.
+- Klik op **[!UICONTROL View]** om de inkooporder weer te geven.
+- Als u opmerkingen over de inkooporder wilt zien, klikt u op de tab **[!UICONTROL Comments]** .
+- Klik op het tabblad **[!UICONTROL History Log]** om de geschiedenis van de volledige volgorde weer te geven.
 
 >[!IMPORTANT]
 >
@@ -36,36 +36,36 @@ Van de _Inkooporder weergeven_ pagina, kan de klant PO, afhankelijk van hun behe
 
 Als de klant een bestaande inkooporder heeft en nieuwe items wilt toevoegen, kunnen deze een dubbele inkooporder genereren met nieuwe producten die aan de nieuwe inkooporder zijn toegevoegd. De klant voert de volgende stappen uit:
 
-1. Op de _Mijn inkooporder_ pagina, zoekt de klant naar de kooporder en klikt op de **[!UICONTROL View]** koppeling.
+1. Op de _Mijn pagina van de Inkooporder_, de klantenplaats van de aankooporde en klikt de **[!UICONTROL View]** verbinding.
 
-1. De klant klikt **[!UICONTROL Add Items to Shopping Cart]**.
+1. De klant klikt op **[!UICONTROL Add Items to Shopping Cart]** .
 
    De pagina Winkelwagentje wordt geopend met alle vermelde items.
 
 1. Hiermee brengt u toevoegingen of wijzigingen aan.
 
-1. (Optioneel) Gebruikt de **[!UICONTROL Custom Reference Number]** om een intern Factuur/Inkooporderaantal aan de orde toe te voegen.
+1. (Optioneel) Hiermee wordt de **[!UICONTROL Custom Reference Number]** gebruikt om een intern Factuur-/inkoopordernummer aan de bestelling toe te voegen.
 
-1. Volg de normale uitcheckworkflow en klik op **[!UICONTROL Place Purchase Order]**.
+1. Volg de normale uitcheckworkflow en klik op **[!UICONTROL Place Purchase Order]** .
 
-Als ze artikelen in hun winkelwagentje hebben wanneer ze op _[!UICONTROL Add Items to Shopping Cart]_wordt een dialoogvenster weergegeven. In dit dialoogvenster kunnen ze kiezen tussen het samenvoegen van de winkelwagentjes met de nieuwe artikelen of het vervangen van de artikelen in het winkelwagentje door de artikelen in de inkooporder.
+Als ze artikelen in hun winkelwagentje hebben wanneer ze op _[!UICONTROL Add Items to Shopping Cart]_klikken, wordt er een dialoogvenster weergegeven. In dit dialoogvenster kunnen ze kiezen tussen het samenvoegen van de winkelwagentjes met de nieuwe artikelen of het vervangen van de artikelen in het winkelwagentje door de artikelen in de inkooporder.
 
 De oorspronkelijke kooporder kan worden gesloten als deze niet meer nodig is.
 
 ## Goedkeuring van inkooporders
 
-Voor een klant die als fiatteur op bedrijfsstructuur of toegewezen bedrijfrol wordt aangewezen, _[!UICONTROL My Purchase Orders]_op de dashboardpagina wordt de **[!UICONTROL Requires My Approval]**tab. De klant klikt dit lusje om POs te herzien die op hun goedkeuring wachten. De teller toont hoeveel orden op goedkeuring wachten.
+Voor een klant die is aangewezen als fiatteur op basis van de bedrijfsstructuur of de toegewezen bedrijfsrol, wordt op de _[!UICONTROL My Purchase Orders]_-dashboardpagina het tabblad **[!UICONTROL Requires My Approval]**weergegeven. De klant klikt dit lusje om POs te herzien die op hun goedkeuring wachten. De teller toont hoeveel orden op goedkeuring wachten.
 
-Na klikken **[!UICONTROL View]** voor een inkooporder en het bekijken van de details, kan de fiatteur klikken op **[!UICONTROL Approve]** of **[!UICONTROL Reject]**.
+Nadat u op **[!UICONTROL View]** voor een inkooporder hebt geklikt en de details hebt bekeken, kan de fiatteur op **[!UICONTROL Approve]** of **[!UICONTROL Reject]** klikken.
 
 ### Goedkeuring/afkeuring van een lamp
 
 Vanaf Adobe Commerce 2.4.1 kunnen fiatteurs meerdere inkooporders tegelijk goedkeuren of afwijzen.
 
-1. Op de _[!UICONTROL My Purchase Order]_pagina, klikt u op de knop **[!UICONTROL Requires My Approval]**tab.
+1. Klik op de pagina _[!UICONTROL My Purchase Order]_op de tab **[!UICONTROL Requires My Approval]**.
 
 1. Schakel het selectievakje in voor elke inkooporder die moet worden goedgekeurd of geweigerd.
 
-1. Klikken **[!UICONTROL Approve Selected]** of **[!UICONTROL Reject Selected]**.
+1. Klik op **[!UICONTROL Approve Selected]** of **[!UICONTROL Reject Selected]** .
 
 Een klant kan alleen de inkooporders selecteren met een status die een handeling toestaat. Bedrijfsbeheerders kunnen bulkgoedkeuringen of afwijzingen maken voor alle actieve inkooporders in hun bedrijf.

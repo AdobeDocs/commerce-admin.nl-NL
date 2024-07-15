@@ -16,7 +16,7 @@ Nadat een categorie is gemaakt, kan deze worden bewerkt, naar een andere positie
 
 ## Een categorie verplaatsen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Als u een categorie wilt verplaatsen, sleept u de categorie naar een nieuwe positie in de structuur.
 
@@ -30,6 +30,6 @@ Nadat een categorie is gemaakt, kan deze worden bewerkt, naar een andere positie
 
 1. Klik op **[!UICONTROL Delete Category]**.
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
-U kunt [de gebeurtenissen bijwerken](../merchandising-promotions/event-create.md#create-and-update-events) die geassocieerd zijn met een categorie van **[!UICONTROL Events]** of de **[!UICONTROL Category]** pagina.
+U kunt ook [ de gebeurtenissen ](../merchandising-promotions/event-create.md#create-and-update-events) bijwerken verbonden aan een categorie van of de **[!UICONTROL Events]** pagina of de **[!UICONTROL Category]** pagina.

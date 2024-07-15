@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # Bronnen toewijzen per product
 
-Voordat u de hoeveelheden en instellingen kunt wijzigen, moet u [bronnen](sources-manage.md) op de producten.
+Alvorens hoeveelheden en montages te wijzigen, moet u [ bronnen ](sources-manage.md) aan de producten toewijzen.
 
 {{$include /help/_includes/unassign-source.md}}
 
 ## Bronnen aan een product toewijzen
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Een product openen in _Bewerken_ -modus.
+1. Open een product op _geef_ wijze uit.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit.
 
    In deze sectie kunt u de bron wijzigen, inventarishoeveelheden bijwerken en meer.
 
    >[!NOTE]
    >
-   >Momenteel ondersteunen alleen eenvoudige, configureerbare, virtuele, downloadbare en gegroepeerde producten meerdere bronnen. Bundelproducten kunnen alleen worden gemaakt en beheerd met de standaardbron en -voorraad.
+   >Momenteel ondersteunen alleen eenvoudige, configureerbare, virtuele, downloadbare en gegroepeerde producten meerdere bronnen. Bundelproducten kunnen alleen worden gemaakt en beheerd met Standaard Source en Stock.
 
-   ![Sectie Productbronnen](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
+   ![ sectie van de Bronnen van het Product ](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Assign Sources]**.
+1. Klik op **[!UICONTROL Assign Sources]** om een bron toe te voegen.
 
-1. Op de _[!UICONTROL Assign Sources]_selecteert u het selectievakje naast elke bron die u voor het product wilt toewijzen.
+1. Schakel op de pagina _[!UICONTROL Assign Sources]_het selectievakje in naast elke bron die u voor het product wilt toewijzen.
 
-   ![Product - bronnen toewijzen](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
+   ![ Product - wijs bronnen ](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
 
-1. Klikken **[!UICONTROL Done]** om de bronnen toe te voegen.
+1. Klik op **[!UICONTROL Done]** om de bronnen toe te voegen.
 
 1. Voer een van de volgende handelingen uit om op te slaan:
 
    - Klik op **[!UICONTROL Save]**.
-   - Op de _[!UICONTROL Save]_ (![menupijl](../assets/icon-menu-down-arrow-red.png)), kiest u **[!UICONTROL Save & Close]**.
+   - Voor _[!UICONTROL Save]_(![ menupijl ](../assets/icon-menu-down-arrow-red.png)) menu, kies **[!UICONTROL Save & Close]**.
 
-Nadat u bronnen hebt toegewezen, werkt u de [voorraadhoeveelheid](quantities-assign-per-product.md) voor elke productbron.
+Na het toewijzen van bronnen, werk de [ inventarishoeveelheid ](quantities-assign-per-product.md) voor elke productbron bij.

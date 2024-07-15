@@ -5,78 +5,78 @@ exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 0%
+source-wordcount: '996'
+ht-degree: 1%
 
 ---
 
 # Adobe Stock-afbeeldingen gebruiken
 
-[Adobe Stock](https://stock.adobe.com) U kunt afbeeldingen gebruiken in plaats van uw eigen afbeeldingsinhoud te uploaden. Bij het maken van een pagina wordt vaak afbeeldingsinhoud geüpload en geplaatst.
+[ Adobe Stock ](https://stock.adobe.com) beelden kunnen in plaats van het uploaden van uw eigen beeldinhoud worden gebruikt. Bij het maken van een pagina wordt vaak afbeeldingsinhoud geüpload en geplaatst.
 
-De [[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie met Adobe Stock, zodat u eenvoudig rechtstreeks vanaf de galeriepagina licenties voor uw afbeeldingen kunt maken.
+[[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie met Adobe Stock, waardoor het eenvoudig is om rechtstreeks vanaf de galeriepagina een licentie voor uw afbeeldingen te maken.
 
 ## Het Adobe Stock-zoekraster openen
 
-Het Adobe Stock-zoekvenster is toegankelijk wanneer u [Een pagina toevoegen of bewerken](page-add.md), wanneer u [een categorie maken of bewerken](../catalog/category-create.md)of wanneer u [afbeeldingen invoegen via de Content Editor](editor-insert-image.md).
+Het het onderzoekspaneel van Adobe Stock is toegankelijk wanneer u [ toevoegt of een pagina ](page-add.md) uitgeeft, wanneer u [ een categorie ](../catalog/category-create.md) creeert of uitgeeft, of wanneer u [ beelden via de Inhoudsredacteur ](editor-insert-image.md) opneemt.
 
-**_Adobe Stock-elementen zoeken en een voorraadafbeelding aan een pagina toevoegen:_**
+**_om de activa van Adobe Stock te zoeken en een voorraadbeeld aan een pagina toe te voegen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Klik op **[!UICONTROL Add a New Page]**.
 
-   Als u een bestaande pagina wilt bewerken, kunt u de _[!UICONTROL Action]_te klikken kolom **[!UICONTROL Select]**en kiest u **[!UICONTROL Edit]**.
+   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en doe het volgende:
 
-   - Als u de [WYSIWYG-editor ingeschakeld](editor.md), klikt u op **[!UICONTROL Show/Hide Editor]** en klik vervolgens op **[!UICONTROL Insert Image]**.
+   - Als u de [ toegelaten redacteur WYSIWYG ](editor.md) hebt, klik **[!UICONTROL Show/Hide Editor]** en klik dan **[!UICONTROL Insert Image]**.
 
-   - Als u [Page Builder ingeschakeld](../page-builder/setup.md), breid de **[!UICONTROL Media]** en sleep een **[!UICONTROL Image]** plaatsaanduiding naar de doelcontainer. Klik vervolgens op **[!UICONTROL Select from Gallery]**.
+   - Als u [ toegelaten Bouwer van de Pagina ](../page-builder/setup.md) hebt, breid het **[!UICONTROL Media]** paneel uit en sleep **[!UICONTROL Image]** placeholder aan de doelcontainer. Klik vervolgens op **[!UICONTROL Select from Gallery]** .
 
-     ![Een afbeelding naar het werkgebied van Page Builder slepen](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+     ![ slepend een beeld aan het stadium van de Bouwer van de Pagina ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Search Adobe Stock]**.
 
-**_Adobe Stock-elementen zoeken en een voorraadafbeelding aan een categorie toevoegen:_**
+**_om de activa van Adobe Stock te zoeken en een voorraadbeeld aan een categorie toe te voegen:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Klikken **[!UICONTROL Add Root Category]** of **[!UICONTROL Add Subcategory]**.
+1. Klik op **[!UICONTROL Add Root Category]** of **[!UICONTROL Add Subcategory]** .
 
    Als u de afbeelding wilt toevoegen aan een bestaande categorie, klikt u op de categorienaam in de lijst aan de linkerkant.
 
-1. Breid uit **[!UICONTROL Content]** en onder _[!UICONTROL Category Image]_klikken **[!UICONTROL Select from Gallery]**.
+1. Vouw de sectie **[!UICONTROL Content]** uit en klik onder _[!UICONTROL Category Image]_click **[!UICONTROL Select from Gallery]**.
 
 1. Klik op **[!UICONTROL Search Adobe Stock]**.
 
 U kunt als volgt Adobe Stock-elementen zoeken en een voorraadafbeelding toevoegen vanuit de WYSIWYG Editor:
 
-1. klikken **[!UICONTROL Show/Hide Editor]**.
+1. Klik op **[!UICONTROL Show/Hide Editor]** .
 
 1. Klik op **[!UICONTROL Insert Image]**.
 
 1. Klik op **[!UICONTROL Search Adobe Stock]**.
 
-   ![Adobe Stock-zoekresultaten](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
+   ![ Resultaten van het Onderzoek van Adobe Stock ](./assets/adobe-stock-search-grid.png){width="600" zoomable="yes"}
 
 ## Filteren en zoeken naar Adobe Stock-middelen
 
-De [Adobe Stock-zoekraster](#access-the-adobe-stock-search-grid) biedt functionaliteit voor zoeken en filteren, zodat u de perfecte afbeelding voor uw [!DNL Commerce] winkels.
+Het [ het onderzoeksNet van Adobe Stock ](#access-the-adobe-stock-search-grid) verstrekt het vragen en het filtreren functionaliteit om u te helpen het perfecte beeld voor uw [!DNL Commerce] opslag vinden.
 
 Standaard zijn de weergegeven zoekresultaten afkomstig van een galerie met Adobe Stock-curven van een paar honderd resultaten. Wanneer u uw eigen trefwoordzoekopdracht toepast, zoekt u de miljoenen beschikbare middelen via Adobe Stock.
 
 ### Adobe Stock-elementen zoeken op trefwoorden
 
-1. [Het Adobe Stock-zoekraster openen](#access-the-adobe-stock-search-grid).
+1. [ heb toegang tot het net van het Onderzoek van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
-1. Voer uw trefwoordzoekopdracht in de **[!UICONTROL Search by keyword]** invoerveld linksboven en klik op het vergrootglas of druk op **Enter**.
+1. Ga uw sleutelwoordonderzoek in het **[!UICONTROL Search by keyword]** inputgebied in top-left in en klik het vergrootende glas of druk **binnengaan**.
 
-   ![Adobe Stock-zoekresultaten voor het trefwoord &quot;mango&quot;](./assets/adobe-stock-search-keyword.png){width="600" zoomable="yes"}
+   ![ Resultaten van het Onderzoek van Adobe Stock voor het &quot;mango&quot;sleutelwoord ](./assets/adobe-stock-search-keyword.png){width="600" zoomable="yes"}
 
 ### Adobe Stock-middelen filteren
 
-1. [Een trefwoordzoekopdracht voor Adobe Stock-elementen uitvoeren](#search-for-adobe-stock-assets-by-keywords).
+1. [ stel een sleutelwoordonderzoek voor de activa van Adobe Stock in werking ](#search-for-adobe-stock-assets-by-keywords).
 
 1. Klik op **[!UICONTROL Filters]**.
 
@@ -84,16 +84,16 @@ Standaard zijn de weergegeven zoekresultaten afkomstig van een galerie met Adobe
 
    | Filter | Beschrijving |
    |---|---|
-   | [!UICONTROL Subcategory] | Filter voor afbeeldingen die **Foto&#39;s** of **Illustraties** |
+   | [!UICONTROL Subcategory] | Filter voor beelden die **Foto&#39;s** of **Afbeeldingen** zijn |
    | [!UICONTROL Orientation] | Filter voor afbeeldingen op grootte, vorm en aspect |
    | [!UICONTROL Color] | Een kleurenpalet gebruiken om voor afbeeldingen op kleur te filteren |
    | [!UICONTROL Price] | Filter voor afbeeldingen op basis van de kosten |
    | [!UICONTROL Safe search] | Veilig zoeken in- of uitschakelen |
-   | [!UICONTROL Isolated Assets] | De weergave beperken tot alleen _geïsoleerde activa_, die alleen onderwerpen op een effen achtergrond hebben |
+   | [!UICONTROL Isolated Assets] | Beperk de vertoning tot slechts _geïsoleerde activa_, die onderwerpen alleen op een stevige achtergrond hebben verschijnen |
 
    {style="table-layout:auto"}
 
-   ![Adobe Stock-zoekfilters](./assets/adobe-stock-filters.png){width="600" zoomable="yes"}
+   ![ de onderzoeksfilters van Adobe Stock ](./assets/adobe-stock-filters.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Apply Filters]**.
 
@@ -101,62 +101,62 @@ Standaard zijn de weergegeven zoekresultaten afkomstig van een galerie met Adobe
 
 ## Afbeeldingsdetails weergeven
 
-Elke afbeelding bevat details die u kunt weergeven. Aanvullende afbeeldingsspecifieke handelingen, zoals [voorvertoningen van afbeeldingen opslaan](adobe-stock-save-preview.md) of [afbeeldingen opslaan (en optioneel licentiëren)](adobe-stock-license-image.md), zijn beschikbaar via deze gedetailleerde weergave.
+Elke afbeelding bevat details die u kunt weergeven. De extra beeld-specifieke acties, zoals [ sparen beeldvoorproeven ](adobe-stock-save-preview.md) of [ het bewaren (en naar keuze vergunning gevend) beelden ](adobe-stock-license-image.md), zijn beschikbaar via deze gedetailleerde mening.
 
-1. [Het Adobe Stock-zoekraster openen](#access-the-adobe-stock-search-grid).
+1. [ heb toegang tot het het onderzoeksnet van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
 1. Klik op een afbeelding in de zoekresultaten.
 
    Er worden meer details van de afbeelding weergegeven, zoals:
 
    - Een grotere versie van de afbeelding
-   - Metagegevens van afbeeldingen, zoals _[!UICONTROL Dimensions]_,_[!UICONTROL File type]_, _[!UICONTROL Category]_,_[!UICONTROL File]_, en _Trefwoorden_
-   - Verwante afbeeldingen, zoals afbeeldingen van dezelfde _serie_ of _model_
+   - De meta-gegevens van het beeld, zoals _[!UICONTROL Dimensions]_,_[!UICONTROL File type]_, _[!UICONTROL Category]_,_[!UICONTROL File]_, en _Trefwoorden_
+   - Verwante beelden, zoals beelden van de zelfde _reeksen_ of _model_
    - Knoppen voor handelingen, zoals [[!UICONTROL Save Preview]](adobe-stock-save-preview.md) en [[!UICONTROL Save (and optionally license) Image]](adobe-stock-license-image.md)
 
-     ![Adobe Stock-afbeeldingsdetails](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
+     ![ de beelddetails van Adobe Stock ](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
 
 ## Aanmelden bij uw Adobe-account
 
-Als u volledige toegang tot een afbeelding wilt krijgen en het Adobe Stock-watermerk wilt verwijderen, moet u [aanmelden met een Adobe-account](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) en koopt kredieten aan licentierechten voor het gebruik van een afbeelding.
+Om volledige toegang tot een beeld te verkrijgen en het watermerk van Adobe Stock te elimineren, moet u [ binnen met een rekening van de Adobe ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) ondertekenen en kredieten aan vergunningsrechten kopen om een beeld te gebruiken.
 
-1. [Het Adobe Stock-zoekraster openen](#access-the-adobe-stock-search-grid).
+1. [ heb toegang tot het net van het Onderzoek van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
-1. Klikken **[!UICONTROL Sign In]** aan de rechterbovenhoek.
+1. Klik op **[!UICONTROL Sign In]** rechtsboven.
 
-   Een nieuw browservenster begeleidt u door de [Aanmeldingsproces voor Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Een nieuw browser venstergidsen u door het [ Adobe teken-binnen proces ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Nadat u het aanmeldingsproces hebt voltooid, wordt de gelicentieerde status van afbeeldingen in de zoekresultaten weergegeven als een label.
 
-   ![Aanmelden bij Adobe](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
+   ![ teken van de Adobe binnen ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### De gelicentieerde status van zoekresultaten weergeven
 
-[Aanmelden bij uw Adobe-account](#log-in-to-your-adobe-account).
+[ Login aan uw rekening van de Adobe ](#log-in-to-your-adobe-account).
 
 Alle afbeeldingen met licentie die aan uw Adobe-account zijn gekoppeld, hebben een label dat op deze afbeeldingen wordt weergegeven, zodat duidelijk is welke afbeeldingen u een licentie hebt.
 
-![Adobe Stock-zoekresultaten met gelicentieerde afbeeldingen](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
+![ Adobe Stock onderzoeksresultaten met vergunning gegeven beelden ](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
 ### Afbeeldingen opslaan in de mediaopslag
 
-Afbeeldingen die worden doorzocht met Adobe Stock-integratie kunnen worden opgeslagen in de [!DNL Commerce] [media-opslag](media-storage.md) voor eenvoudig hergebruik in uw [!DNL Commerce] opslaan.
+De beelden die worden gezocht gebruikend de integratie van Adobe Stock kunnen aan [!DNL Commerce] [ worden bewaard media opslag ](media-storage.md) voor gemakkelijk hergebruik over uw [!DNL Commerce] opslag.
 
-U kunt twee typen afbeeldingen opslaan: en [voorvertoning van afbeelding](adobe-stock-save-preview.md) of [gelicentieerde afbeelding](adobe-stock-license-image.md).
+U kunt twee soorten beelden bewaren: een [ beeldvoorproef ](adobe-stock-save-preview.md) of a [ vergunning gegeven beeld ](adobe-stock-license-image.md).
 
 #### Een voorvertoning van een afbeelding opslaan
 
 Een voorvertoning van een afbeelding is een versie van een Adobe Stock-element met watermerk. Voorvertoningen van afbeeldingen zijn gratis en zijn een goede manier om met verschillende afbeeldingen te experimenteren voordat u besluit een licentie voor specifieke afbeeldingen te kopen en deze in uw productiewinkels te gebruiken.
 
-1. [Het Adobe Stock-zoekraster openen](#access-the-adobe-stock-search-grid).
+1. [ heb toegang tot het het onderzoeksnet van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
-1. Naar [de details van de afbeelding weergeven](#view-image-details), klikt u op een afbeelding in het zoekraster.
+1. Om [ de beelddetails ](#view-image-details) te bekijken, klik een beeld in het onderzoeksnet.
 
 1. Klik op **[!UICONTROL Save Preview]**.
 
    Met deze handeling wordt u gevraagd een bestandsnaam op te geven waarmee de afbeelding wordt opgeslagen in de mediaopslagruimte. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 
-   ![Adobe Stock-voorbeeldafbeelding opslaan](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
+   ![ sparen Adobe Stock voorproefbeeld ](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Confirm]**.
 
@@ -164,23 +164,23 @@ Een voorvertoning van een afbeelding is een versie van een Adobe Stock-element m
 
 #### Een afbeelding met een licentie opslaan
 
-Adobe Stock-elementen die u voor uw productie wilt gebruiken [!DNL Commerce] winkels moeten een licentie krijgen . Het verlenen van vergunningen zorgt ervoor dat u wettelijk toegang tot het beeld hebt en om het watermerk van Adobe Stock te elimineren dat op allen aanwezig is [voorvertoningen afbeeldingen](adobe-stock-save-preview.md). Als u afbeeldingen wilt licentiëren of afbeeldingen met een licentie wilt opslaan, moet u zijn aangemeld bij uw Adobe-account.
+Adobe Stock-elementen die u voor uw [!DNL Commerce] -productiewinkels wilt gebruiken, moeten een licentie hebben. Het verlenen van vergunningen zorgt ervoor dat u wettelijke toegang tot het beeld hebt en om het watermerk van Adobe Stock te elimineren dat op alle [ beeldvoorproeven ](adobe-stock-save-preview.md) aanwezig is. Als u afbeeldingen wilt licentiëren of afbeeldingen met een licentie wilt opslaan, moet u zijn aangemeld bij uw Adobe-account.
 
-1. [Aanmelden bij uw Adobe-account](#log-in-to-your-adobe-account).
+1. [ Login aan uw rekening van de Adobe ](#log-in-to-your-adobe-account).
 
-1. Naar [de details van de afbeelding weergeven](#view-image-details), klikt u op een afbeelding in het zoekraster.
+1. Om [ de beelddetails ](#view-image-details) te bekijken, klik een beeld in het onderzoeksnet.
 
 1. Voer afhankelijk van de huidige licentiestatus van de afbeelding een van de volgende handelingen uit:
 
-   - Als voor de afbeelding al een licentie is verleend, klikt u op **[!UICONTROL Save]**.
+   - Als voor de afbeelding al een licentie is verleend, klikt u op **[!UICONTROL Save]** .
 
-   - Als de afbeelding _niet_ gelicentieerd, klik **[!UICONTROL License and Save]**.
+   - Als het beeld __ niet **[!UICONTROL License and Save]** vergunning heeft gekregen, klik.
 
      >[!NOTE]
      >
-     >U moet beschikken over [Adobe Stock credits](https://helpx.adobe.com/stock/help/credit-packs.html) in uw account om een licentie voor de afbeelding te geven.
+     >U moet beschikbare [ credits van Adobe Stock ](https://helpx.adobe.com/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
 
-   Met deze handeling wordt u gevraagd een bestandsnaam op te geven waarmee de afbeelding in de [media-opslag](media-storage.md). Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
+   Deze actie toont een herinnering voor u om een dossier te specificeren - naam die wordt gebruikt om het beeld aan de [ media opslag ](media-storage.md) te bewaren. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 
 1. Klik op **[!UICONTROL Confirm]**.
 

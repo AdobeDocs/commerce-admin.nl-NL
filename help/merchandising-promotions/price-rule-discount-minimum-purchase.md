@@ -5,7 +5,7 @@ exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -18,57 +18,57 @@ X% korting op alle Y (categorie) boven $Z dollars
 
 ## Stap 1. Een winkelwagentregel maken
 
-Volg de basis [instructies](price-rules-cart.md) om een winkelwagentje te maken.
+Volg de basis [ instructies ](price-rules-cart.md) om een wortelregel tot stand te brengen.
 
 ## Stap 2. De voorwaarden definiëren
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Conditions]** sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
 
-1. Klikken _Toevoegen_ (![Pictogram toevoegen](../assets/icon-add-green-circle.png)) en kiest u **[!UICONTROL Product Attribute Combination]**.
+1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en kies **[!UICONTROL Product Attribute Combination]**.
 
-   ![Voorwaarde van de prijsregel voor winkelwagentjes - combinatie van productkenmerken](./assets/condition1.png){width="500" zoomable="yes"}
+   ![ de voorwaarde van de prijsregel van de Kar - de combinatie van productattributen ](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. Klikken _Toevoegen_ (![Pictogram toevoegen](../assets/icon-add-green-circle.png)) aan het begin van de volgende regel en in de lijst onder **[!UICONTROL Product Attribute]**, kiest u **[!UICONTROL Category]**.
+1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) aan het begin van de volgende lijn en in de lijst onder **[!UICONTROL Product Attribute]**, kies **[!UICONTROL Category]**.
 
-   - Klik op de knop (**...**) _meer_ voor het weergeven van extra opties.
+   - Klik (**..**) _meer_ verbinding om extra opties te tonen.
 
-     ![Voorwaarde van de prijsregel voor winkelwagentjes - rubriekopties](./assets/condition3.png){width="600" zoomable="yes"}
+     ![ voorwaarde van de prijsregel van de Kar - categorieopties ](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - Klik op de knop _Kiezer_ (![Lijstpictogram](../assets/icon-list-chooser.png)) om de beschikbare categorieën weer te geven. Schakel in de categoriestructuur het selectievakje in van elke categorie die u wilt opnemen. Klik op het controlepictogram om de rubriekselecties te accepteren.
+   - Klik het _pictogram van de Kiezer_ (![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) om de beschikbare categorieën te zien. Schakel in de categoriestructuur het selectievakje in van elke categorie die u wilt opnemen. Klik op het controlepictogram om de rubriekselecties te accepteren.
 
-     ![Voorwaarde van de prijsregel voor winkelwagentjes - rubriek](./assets/condition4.png){width="600" zoomable="yes"}
+     ![ voorwaarde van de prijsregel van de Kar - categorie ](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. Klikken _Toevoegen_ (![Pictogram toevoegen](../assets/icon-add-green-circle.png)) aan het begin van de volgende regel en voer de volgende handelingen uit:
+1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) aan het begin van de volgende lijn en doe het volgende:
 
-   - In de lijst onder **[!UICONTROL Cart Item Attribute]**, kiest u **[!UICONTROL Price in cart]**.
+   - Kies in de lijst onder **[!UICONTROL Cart Item Attribute]** de optie **[!UICONTROL Price in cart]** .
 
-     ![Voorwaarde van de prijsregel voor winkelwagentjes - kenmerk van winkelwagentje](./assets/condition5.png){width="500"}
+     ![ de voorwaarde van de prijsregel van de Kar - het attribuut van het wortelpunt ](./assets/condition5.png){width="500"}
 
-   - Klikken **is** en kiest u `equals or greater than`.
+   - Klik **is** en kies `equals or greater than`.
 
-   - Klikken **...** en voer het bedrag in dat de prijs in winkelwagentje moet zijn om aan de voorwaarde te voldoen. Voer bijvoorbeeld `30`.
+   - Klik op **..** en voer het bedrag in dat de prijs in winkelwagentje moet hebben om aan de voorwaarde te voldoen. Voer bijvoorbeeld `30` in.
 
-     ![Voorwaarde voor de prijsregel voor winkelwagentjes - prijs in winkelwagentje](./assets/condition6.png){width="500"}
+     ![ voorwaarde van de prijsregel van de Kar - prijs in kar ](./assets/condition6.png){width="500"}
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
 ## Stap 3. De acties definiëren
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Actions]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Actions]** sectie uit en doe het volgende:
 
-   ![Handelingen met prijsregels voor winkelwagentjes](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![ de acties van de prijsregel van de Kar ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
-   - Set **[!UICONTROL Apply]** tot `Percent of product price discount`.
+   - Stel **[!UICONTROL Apply]** in op `Percent of product price discount` .
 
-   - Voer de **[!UICONTROL Discount Amount]**. Voer bijvoorbeeld `10` voor een korting van 10%.
+   - Voer de **[!UICONTROL Discount Amount]** in. Voer bijvoorbeeld `10` in voor een korting van 10%.
 
-   - Als u wilt voorkomen dat extra aanbiedingen op de aankoop worden toegepast, stelt u **[!UICONTROL Discard subsequent rules]** tot `Yes`.
+   - Stel **[!UICONTROL Discard subsequent rules]** in op `Yes` als u wilt voorkomen dat extra promoties op de aankoop worden toegepast.
 
-1. Klikken **[!UICONTROL Save and Continue Edit]** en vult de regel zo nodig in.
+1. Klik op **[!UICONTROL Save and Continue Edit]** en voer de gewenste regel in.
 
 ## Stap 4. De labels voltooien
 
-Voltooid [Stap 4](price-rules-cart.md) van de instructies in het kader van de prijsregel voor winkelwagentjes om eventuele labels in te voeren die tijdens de afhandeling worden weergegeven.
+Voltooi [ Stap 4 ](price-rules-cart.md) van de de regelinstructies van de kartprijs om het even welke etiketten in te gaan die tijdens controle verschijnen.
 
 ## Stap 5: Sla de regel op en test deze
 

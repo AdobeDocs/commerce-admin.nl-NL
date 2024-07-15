@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Referentie variabelen
 
-Meeste [e-mailsjablonen](email-template-custom.md) hebben een sectie van [vooraf gedefinieerde variabelen](variables-predefined.md) die specifiek zijn voor de sjabloon. De volgende lijst bevat voorbeelden van vaak gebruikte e-mailsjablonen en de bijbehorende variabelen.
+De meeste [ e-mailmalplaatjes ](email-template-custom.md) hebben een sectie van [ vooraf bepaalde variabelen ](variables-predefined.md) die voor het malplaatje specifiek zijn. De volgende lijst bevat voorbeelden van vaak gebruikte e-mailsjablonen en de bijbehorende variabelen.
 
 ## E-mailsjabloonvariabelen
 

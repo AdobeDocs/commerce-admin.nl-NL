@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De [Cadeauregister](gift-registries.md) in het gedeelte van de klantenaccount worden de huidige cadeauregisters van de klant en de bijbehorende gebeurtenis weergegeven. Klanten kunnen de huidige registers beheren en nieuwe registers toevoegen.
+Het ](gift-registries.md) gedeelte van de Registratie van het Cadeautje [ {van de klantenrekening maakt een lijst van de huidige geschenkregisters van de klant en de bijbehorende gebeurtenis. Klanten kunnen de huidige registers beheren en nieuwe registers toevoegen.
 
-![Cadeauregister](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![ Cadeauregister ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## Cadeauregistergegevens
 
 Klanten kunnen cadeauregisters maken en beheren op basis van hun accounts. Alle informatie die aan elk type van registratie wordt geassocieerd is beschikbaar bij de rekening van de klant.
 
-![Voorbeeld van storefront - registerinformatie voor cadeau](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![ de storefront van het Voorbeeld - de informatie van de cadeauregistratie ](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Sectie | Beschrijving |
 |--- |--- |
@@ -40,11 +40,11 @@ Klanten kunnen cadeauregisters maken en beheren op basis van hun accounts. Alle 
 
 ## Een cadeauregister maken
 
-1. De klant selecteert **[!UICONTROL Gift Registry]** in het dashboard van hun account.
+1. De klant selecteert **[!UICONTROL Gift Registry]** in het dashboard van de account.
 
-1. Op de _Cadeauregister_ pagina, klikken **[!UICONTROL Add New]**.
+1. Voor de _pagina van de Registratie van het Cadeautje_, klikt **[!UICONTROL Add New]**.
 
-1. Kies een **[!UICONTROL Gift Registry Type]**, zoals:
+1. Hiermee kiest u een **[!UICONTROL Gift Registry Type]** , zoals:
 
    - Geboortedatum
 
@@ -52,58 +52,58 @@ Klanten kunnen cadeauregisters maken en beheren op basis van hun accounts. Alle 
 
    - Bruiloft
 
-1. Klikken **[!UICONTROL Next]**.
+1. Klik op **[!UICONTROL Next]** .
 
-1. Voer de vereiste informatie in en klik op **[!UICONTROL Save]**.
+1. Voer de vereiste informatie in en klik op **[!UICONTROL Save]** .
 
 ## Een product toevoegen aan een register
 
 1. De klant opent het product dat zij aan de gebeurtenis van de cadeauregistratie willen toevoegen.
 
-1. Klikken **[!UICONTROL Add to Cart]**.
+1. Klik op **[!UICONTROL Add to Cart]** .
 
-1. Klikken **[!UICONTROL View and Edit Cart]** op de minikaart.
+1. Klik op **[!UICONTROL View and Edit Cart]** op de minikaart.
 
-1. Selecteer op de pagina Winkelwagentje de gewenste gebeurtenis en klik/tikt op **[!UICONTROL Add All To Gift Registry]**.
+1. Op de pagina Winkelwagentje selecteert u de gewenste gebeurtenis en klikt/tikt u op **[!UICONTROL Add All To Gift Registry]** .
 
    Items worden toegevoegd aan het cadeauregister van de geselecteerde gebeurtenis.
 
 ## Een cadeauregister delen
 
-1. Van hun rekeningdashboard gaat de klant naar **[!UICONTROL Gift Registry]**.
+1. Vanaf het dashboard van de account gaat de klant naar **[!UICONTROL Gift Registry]** .
 
 1. Vindt de registratiegebeurtenis die zij willen beheren en klikken **[!UICONTROL Share]**.
 
-1. Voer de vereiste informatie in en klik op **[!UICONTROL Share Gift Registry]**.
+1. Voer de vereiste informatie in en klik op **[!UICONTROL Share Gift Registry]** .
 
 ## Een cadeauregister bewerken
 
-1. Van hun rekeningdashboard gaat de klant naar **[!UICONTROL Gift Registry]**.
+1. Vanaf het dashboard van de account gaat de klant naar **[!UICONTROL Gift Registry]** .
 
 1. Vindt de registratiegebeurtenis die zij willen beheren en klikken **[!UICONTROL Edit]**.
 
 1. Hiermee wijzigt u zo nodig opties.
 
-1. Hiermee bewerkt u de vereiste opties en klikt u op **[!UICONTROL Save]**.
+1. Hiermee bewerkt u de vereiste opties en klikt u op **[!UICONTROL Save]** .
 
 ## Registeritems voor cadeaus beheren
 
-1. Van hun rekeningdashboard gaat de klant naar **[!UICONTROL Gift Registry]**.
+1. Vanaf het dashboard van de account gaat de klant naar **[!UICONTROL Gift Registry]** .
 
-   ![Inschrijvingsregisteritems beheren](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![ het Leiden punten van het cadeauregister ](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
 1. Vindt de registratiegebeurtenis, selecteert de punten die zij willen beheren, en klikt **[!DNL Manage Items]**.
 
-1. Hiermee wijzigt u de vereiste opties, zoals **[!UICONTROL Note]** en **[!UICONTROL Qty]**.
+1. Hiermee wijzigt u de vereiste opties, zoals **[!UICONTROL Note]** en **[!UICONTROL Qty]** .
 
-1. Indien nodig, verwijdert u een item uit het cadeauregister door het selectievakje in te schakelen en op **[!UICONTROL Delete]**.
+1. Indien nodig, verwijdert u een item uit het cadeauregister door het selectievakje in te schakelen en op **[!UICONTROL Delete]** te klikken.
 
-1. Klikken **[!UICONTROL Update Gift Registry]** om de wijzigingen op te slaan
+1. Klik **[!UICONTROL Update Gift Registry]** om de veranderingen te bewaren.
 
 ## Een cadeauregister verwijderen
 
-1. Van hun rekeningdashboard gaat de klant naar **[!UICONTROL Gift Registry]**.
+1. Vanaf het dashboard van de account gaat de klant naar **[!UICONTROL Gift Registry]** .
 
 1. Vindt de registratiegebeurtenis die zij willen beheren en klikken **[!UICONTROL Delete]**.
 
-1. Klikken **[!UICONTROL OK]** ter bevestiging.
+1. Klik op **[!UICONTROL OK]** om te bevestigen.

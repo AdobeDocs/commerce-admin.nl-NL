@@ -5,7 +5,7 @@ exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -18,42 +18,42 @@ Creditmemo&#39;s worden ondersteund voor zowel online als offline terugbetalinge
 
 >[!IMPORTANT]
 >
->**PSD2 Eisen:** <br/>
->Vanaf 14 september 2019 zouden Europese banken betalingen kunnen terugdringen die niet voldoen aan [PSD 2](../getting-started/compliance-payment-services-directive.md) eisen. Om te voldoen aan PSD2, moet PayPal Payflow Link zijn geïntegreerd met Cardinal Commerce. Zie voor meer informatie [3-D veilig voor Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**PSD2 Vereisten:** <br/>
+>Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Om te voldoen aan PSD2, moet PayPal Payflow Link zijn geïntegreerd met Kardinaal Commerce. Meer leren, zie [ 3-D Veilig voor Payflow ](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 ## Vereisten
 
-- [PayPal Business-account][1] De PayPal Payflow Pro-gateway koppelt de zakelijke rekening bij PayPal aan de commerciële website, die als gateway en een zakelijke rekening fungeert.
+- [ PayPal BedrijfsRekening ][1] de gateway van de Payflow Pro van PayPal verbindt de handelaarrekening bij PayPal met de handelaarwebsite, handelend als gateway en een handelaarrekening.
 
-- Als u meerdere Commerce-websites beheert, moet u voor elke website een aparte PayPal-handelsaccount hebben.
+- Als u meerdere Commerce-websites beheert, moet u voor elke website een aparte PayPal Merchant-account hebben.
 
 ## Workflow van de klant
 
-1. **Klant gaat naar de kassa** - Tijdens het afrekenen kiest de klant ervoor te betalen met PayPal Payflow Link en voert de creditcardgegevens in. De klant hoeft geen persoonlijke PayPal-rekening te hebben.
-1. **Klant kiest Nu betalen** - De klant tikt op de knop Nu betalen om de bestelling te verzenden.
-1. **Klanten kunnen creditcardgegevens invoeren** - De klant voert de creditcardgegevens in op een formulier dat wordt gehost door PayPal. Als de klant op de knop _Betaling annuleren_ koppeling: de klant keert terug naar de betalingsinformatiefase van de afhandeling en de status van de bestelling verandert in _Geannuleerd_.
-1. **De klant dient de bestelling in** - De creditcardgegevens worden rechtstreeks naar PayPal verzonden en worden nergens op de site Handel bewaard.
+1. **de Klant gaat naar het afrekenen** - tijdens afhandeling, verkiest de klant om met de verbinding van de Betalingsstroom te betalen PayPal en gaat de creditcardinformatie in. De klant hoeft geen persoonlijke PayPal-rekening te hebben.
+1. **de Klant kiest nu betalen** - de klant tikt de knoop van het nu Betalen om de orde voor te leggen.
+1. **Klant gaat creditcardinformatie** in - de klant gaat de creditcardinformatie over een vorm in die door PayPal wordt ontvangen. Als de klant _klikt annuleer Betaling_ verbinding, keert de klant aan het stadium van de Informatie van de Betaling van controle terug en de veranderingen van de ordestatus in _Geannuleerd_.
+1. **Klant legt de orde** voor - de creditcardinformatie wordt voorgelegd direct aan PayPal en wordt niet bewaard nergens op de plaats van Commerce.
 
 ## Workflow voor bestellingen
 
-1. **PayPal ontvangt aanvraag** - PayPal ontvangt het verzoek van de klant om Nu te betalen.
-1. **PayPal verifieert de betalingsgegevens** - PayPal verifieert de creditcardgegevens en kent de juiste status toe:
-   - **Betaling geverifieerd:** Indien geverifieerd, wordt de _In behandeling_ de status wordt aanvankelijk toegewezen aan de order totdat de transactie is afgewikkeld.
-   - **Verwerking** - De transactie is voltooid.
-   - **In behandeling** - Het systeem heeft geen reactie van PayPal ontvangen.
-   - **Geannuleerd** - De transactie is om een of andere reden niet succesvol geweest.
-   - **Vermoedelijke fraude** - De transactie voldeed niet aan een deel van de [Paypal-fraudefilters](paypal.md#paypal-fraud-management-filters). Het systeem ontvangt van PayPal de reactie dat de transactie wordt gecontroleerd door de Fraud Service.
-   - **Betaling annuleren:** Als de klant op de knop _Betaling annuleren_ koppeling: de klant keert terug naar de betalingsinformatiefase van de afhandeling en de status van de bestelling verandert in _Geannuleerd_.
-1. **Klant wordt doorgestuurd naar bevestigingspagina**  - Als de transactie met succes is voltooid, wordt de klant doorgestuurd naar de pagina voor bevestiging van de bestelling in uw winkel. Als de transactie om welke reden dan ook mislukt, verschijnt er een foutbericht op de uitcheckpagina en wordt de klant opgedragen het uitcheckproces te herhalen. Deze situaties worden beheerd door PayPal.
-1. **Handelsmaatschappij voldoet aan order** - De handelsfactuur en de bestelling worden op de gebruikelijke wijze verzonden.
+1. **PayPal ontvangt verzoek** - PayPal ontvangt het verzoek van de klant om nu te betalen.
+1. **PayPal verifieert de betalingsinformatie** - PayPal verifieert de creditcardinformatie, en wijst de aangewezen status toe:
+   - **Betaling verifieerde:** Indien geverifieerd, wordt de _Hangende status van de Betaling_ aanvankelijk toegewezen aan de orde tot de transactie wordt afgewikkeld.
+   - **Verwerking** - de transactie was succesvol.
+   - **In afwachting van Betaling** - het systeem ontving geen reactie van PayPal.
+   - **Geannuleerd** - de transactie was om een of andere reden niet succesvol.
+   - **Vermoedelijke Fraude** - de transactie ging niet enkele [ Paypal fraudefilters ](paypal.md#paypal-fraud-management-filters) over. Het systeem ontvangt van PayPal de reactie dat de transactie wordt gecontroleerd door de Fraud Service.
+   - **annuleert Betaling:** als de klant _klikt annuleer Betaling_ verbinding, keert de klant aan het stadium van de Informatie van de Betaling van controle terug en de veranderingen van de ordestatus in _Geannuleerd_.
+1. **Klant wordt opnieuw gericht aan bevestigingspagina** - als de transactie met succes wordt voltooid, wordt de klant opnieuw gericht aan de pagina van de ordesbevestiging in uw opslag. Als de transactie om welke reden dan ook mislukt, verschijnt er een foutbericht op de uitcheckpagina en wordt de klant opgedragen het uitcheckproces te herhalen. Deze situaties worden beheerd door PayPal.
+1. **Merchant voldoet orde** - de handelaarfacturen en verschepen de orde zoals gewoonlijk.
 
 ## Uw PayPal-account configureren
 
-1. Aanmelden bij uw [PayPal-zakelijke account][2].
+1. Login aan uw [ PayPal bedrijfsrekening ][2].
 
-1. Vorm [Gehoste afhandelingspagina&#39;s][4] met PayPal Manager de volgende instellingen:
+1. Vorm de [ Ontvangen Pagina&#39;s van de Controle ][4] gebruikend Manager PayPal met de volgende montages:
 
-   - Onder **[!UICONTROL Security Options]**, voer de volgende instellingen in:
+   - Voer onder **[!UICONTROL Security Options]** de volgende instellingen in:
 
      **[!UICONTROL AVS]**: `No`
 
@@ -61,19 +61,19 @@ Creditmemo&#39;s worden ondersteund voor zowel online als offline terugbetalinge
 
      **[!UICONTROL Enable Secure Token]**: `Yes`
 
-   - Kies **[!UICONTROL Customize]** en kies vervolgens **[!UICONTROL Layout C]**.
+   - Kies **[!UICONTROL Customize]** en kies vervolgens **[!UICONTROL Layout C]** .
 
      Layout C geeft alleen velden voor creditcards en betaalkaarten weer en kan op uw site worden geframed of als een zelfstandig popup worden gebruikt. De grootte is vast op 490 x 565 pixels, met extra ruimte voor foutberichten. Op sommige systemen corrigeert deze instelling een probleem met transparante omleiding.
 
-1. Wanneer de configuratie-instellingen zijn voltooid, klikt u op **[!UICONTROL Save and Publish]**.
+1. Klik op **[!UICONTROL Save and Publish]** wanneer de configuratie-instellingen zijn voltooid.
 
 1. Een extra gebruiker instellen (aanbevolen door PayPal):
 
-   - Klik in de tweede rij van het hoofdmenu op **[!UICONTROL Manage Users]**.
+   - Klik in de tweede rij van het hoofdmenu op **[!UICONTROL Manage Users]** .
 
-   - Als u nog een gebruiker aan de account wilt toevoegen, klikt u op **[!UICONTROL Add User]**.
+   - Klik op **[!UICONTROL Add User]** als u nog een gebruiker aan de account wilt toevoegen.
 
-   - Vul de vereiste velden in de volgende secties van het dialoogvenster _Gebruiker toevoegen_ formulier:
+   - Voltooi de vereiste gebieden in de volgende secties van _voeg de vorm van de Gebruiker_ toe:
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -86,33 +86,33 @@ Creditmemo&#39;s worden ondersteund voor zowel online als offline terugbetalinge
 
 >[!TIP]
 >
->Klikken **[!UICONTROL Save Config]** om uw voortgang op elk gewenst moment op te slaan.
+>Klik op **[!UICONTROL Save Config]** om de voortgang op te slaan.
 
 ### Stap 1: Begin met de configuratie
 
 Bij deze instelmethode wordt ervan uitgegaan dat u een bestaand PayPal-account hebt.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Payment Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Als uw installatie van de Handel veelvoudige websites, opslag, of meningen heeft, plaats **[!UICONTROL Store View]** op de archiefmening waar u deze configuratie wilt toepassen.
+1. Als uw Commerce-installatie meerdere websites, winkels of weergaven bevat, stelt u **[!UICONTROL Store View]** in op de winkelweergave waar u deze configuratie wilt toepassen.
 
-1. In de _[!UICONTROL Merchant Location]_selecteert u de **[!UICONTROL Merchant Country]**waar uw bedrijf wordt gevestigd.
+1. Selecteer in de sectie _[!UICONTROL Merchant Location]_de **[!UICONTROL Merchant Country]**waar uw bedrijf zich bevindt.
 
    Deze instelling bepaalt de selectie van PayPal-oplossingen die in de configuratie worden weergegeven.
 
-   ![Land van koophandel](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![ Merchant Land ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Uitbreiden **[!UICONTROL PayPal Payment Gateways]** (indien nodig) en klik op **[!UICONTROL Configure]** for **[!UICONTROL Payflow Link]**.
+1. Vouw **[!UICONTROL PayPal Payment Gateways]** (indien nodig) uit en klik op **[!UICONTROL Configure]** for **[!UICONTROL Payflow Link]** .
 
-   ![Payflow Link - Configureren](./assets/payflow-link.png){width="600" zoomable="yes"}
+   ![ Verbinding van de Payflow - vorm ](./assets/payflow-link.png){width="600" zoomable="yes"}
 
 ### Stap 2: Voltooi de vereiste PayPal-instellingen
 
-![Vereiste PayPal-instellingen - PayPal Payflow Link](./assets/payflow-required-link.png){width="600" zoomable="yes"}
+![ Vereiste Montages PayPal - de Verbinding van de Payflow van PayPal ](./assets/payflow-required-link.png){width="600" zoomable="yes"}
 
-1. (Optioneel) Voer de **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
+1. (Optioneel) Voer de **[!UICONTROL Email Associated with your PayPal Merchant Account]** in.
 
    >[!IMPORTANT]
    >
@@ -120,61 +120,61 @@ Bij deze instelmethode wordt ervan uitgegaan dat u een bestaand PayPal-account h
 
 1. Voer een van de volgende gegevens in waarmee u zich aanmeldt bij uw PayPal-zakelijke account:
 
-   - **[!UICONTROL Partner]** - Je PayPal-partner-id.
-   - **[!UICONTROL User]** - De id van een andere gebruiker die is ingesteld op uw PayPal-account.
+   - **[!UICONTROL Partner]** - Uw PayPal-partner-id.
+   - **[!UICONTROL User]** - De id van een andere gebruiker die is ingesteld op uw Paypal-account.
    - **[!UICONTROL Vendor]** - De gebruikersnaam van uw PayPal-gebruikersaanmelding.
 
-1. Voer de **[!UICONTROL Password]** die aan uw PayPal-account is gekoppeld.
+1. Voer de **[!UICONTROL Password]** in die aan uw Paypal-account is gekoppeld.
 
-1. Als u testtransacties wilt uitvoeren, stelt u **[!UICONTROL Test Mode]** tot `Yes`.
+1. Als u testtransacties wilt uitvoeren, stelt u **[!UICONTROL Test Mode]** in op `Yes` .
 
-   Gebruik bij het testen van de configuratie in een sandbox alleen [creditcardnummers][3] die worden aanbevolen door PayPal. Wanneer u klaar bent om naar productie te gaan, terugkeer naar de configuratie en plaats de Wijze van de Test aan `No`.
+   Wanneer het testen van de configuratie in een zandbak, gebruik slechts [ creditcardaantallen ][3] die door PayPal worden geadviseerd. Als u gereed bent om naar de productie te gaan, gaat u terug naar de configuratie en stelt u Testmodus in op `No` .
 
-1. Als uw systeem een proxyserver gebruikt om de verbinding met het PayPal-systeem tot stand te brengen, stelt u **[!UICONTROL Test Mode]** tot `Yes` en voer de volgende handelingen uit:
+1. Als uw systeem een proxyserver gebruikt om de verbinding met het PayPal-systeem tot stand te brengen, stelt u **[!UICONTROL Test Mode]** in op `Yes` en voert u de volgende handelingen uit:
 
-   - Voer het IP-adres in van de **[!UICONTROL Proxy Host]**.
+   - Voer het IP-adres van de **[!UICONTROL Proxy Host]** in.
 
-   - Voer het poortnummer in van het dialoogvenster **[!UICONTROL Proxy Port]**.
+   - Voer het poortnummer van de **[!UICONTROL Proxy Port]** in.
 
      Er wordt een proxy gebruikt wanneer de serverfirewall directe toegang tot de PayPal-server voorkomt. In een dergelijk geval, wordt een derdenserver gebruikt om verkeer af te lossen.
 
-1. Set **[!UICONTROL Enable Payflow Link]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Payflow Link]** in op `Yes` .
 
-1. Als u wilt inschakelen [PayPal Express-afhandeling](paypal-express-checkout.md) opties voor klanten instellen **[!UICONTROL Enable Express Checkout]** tot `Yes`.
+1. Als u [ Uitdrukkelijke de Afhandeling van PayPal ](paypal-express-checkout.md) opties voor klanten wilt toelaten, plaats **[!UICONTROL Enable Express Checkout]** aan `Yes`.
 
-1. Als je wilt aanbieden [PayPal-creditering](paypal.md#paypal-credit-and-pay-later) aan uw klanten, reeks **[!UICONTROL Enable PayPal Credit]** tot `Yes`.
+1. Als u [ Krediet van PayPal ](paypal.md#paypal-credit-and-pay-later) aan uw klanten wilt aanbieden, plaats **[!UICONTROL Enable PayPal Credit]** aan `Yes`.
 
 ### Stap 3: Adverteer PayPal-creditering / Adverteer PayPal Later (optioneel)
 
 Vanaf de release 2.4.3 wordt PayPal PayLater ondersteund in implementaties die PayPal bevatten. Met deze functie kunnen kopers een bestelling in tweewekelijkse termijnen betalen in plaats van het volledige bedrag op het moment van aankoop te betalen. De PayPal-ervaring is afgekeurd.
 
-Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wijzen:
+Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgende opties:
 
-- `Yes` - Adverteer PayPal PayPal later instellen
-- `No` - Adverteren van PayPal-krediet instellen
+- `Yes` - Meer informatie over PayPal PayPal instellen
+- `No` - Adverteer PayPal-creditering instellen
 
 #### PayPal-krediet adverteren
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal Credit]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal Credit]** sectie uit.
 
-   ![PayPal-krediet adverteren](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![ Adverteer PayPal Krediet ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Get Publisher ID from PayPal]** en volgt u de instructies.
+1. Klik op **[!UICONTROL Get Publisher ID from PayPal]** en volg de instructies op uw account om uw accountgegevens op te vragen.
 
-1. Voer uw **[!UICONTROL Publisher ID]**.
+1. Voer uw **[!UICONTROL Publisher ID]** in.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
 
-   ![Instellingen homepage van PayPal-creditering publiceren](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![ Adverteer de Montages van de Homepage van het Krediet van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
-1. Als u een banner op de pagina wilt plaatsen, stelt u **[!UICONTROL Display]** tot `Yes`.
+1. Stel **[!UICONTROL Display]** in op `Yes` als u een banner op de pagina wilt plaatsen.
 
-1. Set **[!UICONTROL Position]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Position]** in op een van de volgende opties:
 
    - `Header (center)`
    - `Sidebar (right)`
 
-1. Set **[!UICONTROL Size]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Size]** in op een van de volgende opties:
 
    - `190 x 100`
    - `234 x 60`
@@ -183,7 +183,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
    - `728 x 90`
    - `800 x 66`
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de overige secties en herhaal de vorige stappen voor de configuratie van de homepage:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen voor de configuratie van de homepage:
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -191,47 +191,47 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
 
 #### Adverteer PayPal PayPal Later
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal PayLater]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal PayLater]** sectie uit.
 
-1. Set **[!UICONTROL Enable PayPal PayLater]** tot `Yes`.
+1. Stel **[!UICONTROL Enable PayPal PayLater]** in op `Yes` .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
 
-   ![Instellingen homepage van PayPal-creditering publiceren](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![ Adverteer de Montages van de Homepage van het Krediet van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
-1. Als u een banner op de pagina wilt plaatsen, stelt u **[!UICONTROL Display]** tot `Yes`.
+1. Stel **[!UICONTROL Display]** in op `Yes` als u een banner op de pagina wilt plaatsen.
 
-1. Set **[!UICONTROL Position]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Position]** in op een van de volgende opties:
 
    - `Header (center)`
    - `Sidebar`
 
-1. Set **[!UICONTROL Style Layout]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Style Layout]** in op een van de volgende opties:
 
    - `Text`
    - `Flex`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Text]** alleen, instellen **[!UICONTROL Logo Type]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Text]** in op een van de volgende opties: **[!UICONTROL Logo Type]**
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Text]** alleen, instellen **[!UICONTROL Logo Position]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Text]** in op een van de volgende opties: **[!UICONTROL Logo Position]**
 
    - `Left`
    - `Right`
    - `Top`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Text]** alleen, instellen **[!UICONTROL Text Color]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Text]** in op een van de volgende opties: **[!UICONTROL Text Color]**
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Text]** alleen, instellen **[!UICONTROL Text Size]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Text]** in op een van de volgende opties: **[!UICONTROL Text Size]**
 
    - `10px`
    - `11px`
@@ -241,14 +241,14 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
    - `15px`
    - `16px`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Flex]** alleen, instellen **[!UICONTROL Ratio]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Flex]** in op een van de volgende opties: **[!UICONTROL Ratio]**
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. Voor [!UICONTROL Style Layout] **[!UICONTROL Flex]** alleen, instellen **[!UICONTROL Color]** op een van de volgende wijzen:
+1. Stel [!UICONTROL Style Layout] alleen **[!UICONTROL Flex]** in op een van de volgende opties: **[!UICONTROL Color]**
 
    - `Blue`
    - `Black`
@@ -258,7 +258,7 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
    - `Monochrome`
    - `Grayscale`
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de overige secties en herhaal de vorige stappen:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen:
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
@@ -267,54 +267,54 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
 
 ### Stap 4: De basisinstellingen voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Payflow Link]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Payflow Link]** sectie uit.
 
-   ![Basisinstellingen - PayPal Payflow Link](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
+   ![ Basismontages - de Verbinding van de Payflow van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL Title]**, voer een titel in die PayPal Payflow Link aangeeft tijdens het afrekenen.
+1. Voer voor **[!UICONTROL Title]** een titel in die PayPal Payflow Link aangeeft tijdens het afrekenen.
 
-   U kunt de titel het beste gebruiken _Debet of creditcard_.
+   Men adviseert dat u de titel _Debit of Kaart_ gebruikt.
 
-1. Als je meerdere betalingsmethoden aanbiedt, voer dan een nummer in voor **[!UICONTROL Sort Order]** om te bepalen in welke volgorde Payflow Link wordt weergegeven wanneer deze bij de andere betalingsmethoden wordt aangeboden.
+1. Als u meerdere betalingsmethoden aanbiedt, voert u een getal in voor **[!UICONTROL Sort Order]** om de volgorde te bepalen waarin Payflow Link wordt weergegeven wanneer deze bij de andere betalingsmethoden wordt aangeboden.
 
-   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = eerst, `1` = seconde, `2` = derde, enzovoort.)
+   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = first, `1` = second, `2` = third, enzovoort.)
 
-1. Set **[!UICONTROL Payment Action]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment Action]** in op een van de volgende opties:
 
-   - `Authorization` - Goedkeuring van de aankoop en blokkering van de middelen. De hoeveelheid wordt pas opgevangen nadat de handelaar deze heeft opgevangen.
-   - `Sale` - Het bedrag van de aankoop wordt toegestaan en onmiddellijk van de rekening van de klant teruggetrokken.
+   - `Authorization` - Hiermee gaat u akkoord met de aankoop en houdt u de middelen in de wacht. De hoeveelheid wordt pas opgevangen nadat de handelaar deze heeft opgevangen.
+   - `Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
 
 ### Stap 5: De geavanceerde instellingen voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
 
-   ![Geavanceerde instellingen - PayPal Payflow Link](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
+   ![ Geavanceerde Montages - de Verbinding van de Payflow van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Payment Applicable From]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) Deze betalingsmethode kan worden gebruikt.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, _[!UICONTROL Payment from Specific Countries]_wordt weergegeven. Houd Ctrl ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
-1. Om mededelingen met het betalingssysteem in het logboekdossier te schrijven, plaats **[!UICONTROL Debug Mode]** tot `Yes`.
+1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
    >[!NOTE]
    >
    >In overeenstemming met de normen van de Veiligheid van Gegevens PCI, wordt de creditcardinformatie niet geregistreerd in het logboekdossier.
 
-1. Als u verificatie van de authenticiteit van de host wilt inschakelen, stelt u **[!UICONTROL Enable SSL Verification]** tot `Yes`.
+1. Als u verificatie van de authenticiteit van de host wilt inschakelen, stelt u **[!UICONTROL Enable SSL Verification]** in op `Yes` .
 
-1. Als u wilt dat de klant zijn vermelding van de driecijferige CVV-beveiligingscode vanaf de achterzijde van een creditcard kan corrigeren, stelt u **[!UICONTROL CVV Entry is Editable]** tot `Yes`.
+1. Als u wilt dat de klant de invoer van de driecijferige CVV-beveiligingscode vanaf de achterkant van een creditcard kan corrigeren, stelt u **[!UICONTROL CVV Entry is Editable]** in op `Yes` .
 
-1. Om klanten te vereisen om een CVV code in te gaan, reeks **[!UICONTROL Require CVV Entry]** tot `Yes`.
+1. Stel **[!UICONTROL Require CVV Entry]** in op `Yes` als u wilt dat klanten een CVV-code invoeren.
 
-1. Als u een bevestiging van de betaling aan de klant wilt verzenden, stelt u **[!UICONTROL Send Email Confirmation]** tot `Yes`.
+1. Als u een bevestiging van de betaling naar de klant wilt verzenden, stelt u **[!UICONTROL Send Email Confirmation]** in op `Yes` .
 
-1. Als u wilt bepalen welke methode wordt gebruikt om informatie uit te wisselen met de PayPal-server tijdens een transactie, stelt u de **[!UICONTROL URL method for Cancel URL and Return URL]** op een van de volgende wijzen:
+1. Als u wilt bepalen welke methode wordt gebruikt om informatie uit te wisselen met de PayPal-server tijdens een transactie, stelt u de **[!UICONTROL URL method for Cancel URL and Return URL]** in op een van de volgende opties:
 
    - `GET` - Hiermee wordt informatie opgehaald die het resultaat is van een proces (standaardmethode).
-   - `POST` - Hiermee wordt een gegevensblok, zoals gegevens die in een formulier zijn ingevoerd, aangeboden voor een gegevensverwerkingsproces.
+   - `POST` - Hiermee wordt een gegevensverwerkingsproces gestart, zoals gegevens die in een formulier worden ingevoerd.
 
-   De _URL annuleren_ en _URL retourneren_ verwijzen naar de pagina waarop de klant terugkeert nadat het betalingsgedeelte van het betalingsproces op de PayPal-server is voltooid of geannuleerd.
+   _annuleert URL_ en _Terugkeer URL_ verwijzen naar de pagina waar de klant na het voltooien van of het annuleren van het betalingsgedeelte van het controleproces op de server PayPal terugkeert
 
 1. Vul de volgende secties in, indien nodig voor uw winkel:
 
@@ -323,32 +323,32 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
 
 #### Instellingen voor afwikkelingsrapport
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Settlement Report Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Settlement Report Settings]** sectie uit.
 
-   ![Instellingen voor afhandelingsrapport - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![ de Montages van het Rapport van de Afrekening - PayPal Payflow Pro ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL SFTP Credentials]** Ga als volgt te werk:
+1. Voer voor **[!UICONTROL SFTP Credentials]** de volgende handelingen uit:
 
    - Als u zich hebt aangemeld bij de PayPal Secure FTP-server, voert u de volgende SFTP-aanmeldgegevens in:
 
       - Aanmelden
       - Wachtwoord
 
-   - Als u testrapporten wilt uitvoeren voordat u live gaat met Express Checkout op uw site, stelt u **[!UICONTROL Sandbox Mode]** tot `Yes`.
+   - Stel **[!UICONTROL Sandbox Mode]** in op `Yes` als u testrapporten wilt uitvoeren voordat u live gaat met Express Checkout op uw site.
 
-   - Voer de **[!UICONTROL Custom Endpoint Hostname or IP Address]**.
+   - Voer de **[!UICONTROL Custom Endpoint Hostname or IP Address]** in.
 
-     De standaardwaarde is `reports.paypal.com`.
+     De standaardwaarde is `reports.paypal.com` .
 
-   - Voer de **[!UICONTROL Custom Path]** waarin rapporten worden opgeslagen.
+   - Voer de **[!UICONTROL Custom Path]** in waarin rapporten worden opgeslagen.
 
-     De standaardwaarde is `/ppreports/outgoing`.
+     De standaardwaarde is `/ppreports/outgoing` .
 
-1. Om rapporten volgens een programma te produceren, voltooi **[!UICONTROL Scheduled Fetching]** instellingen:
+1. Als u rapporten wilt genereren volgens een schema, voert u de **[!UICONTROL Scheduled Fetching]** -instellingen in:
 
-   - Set **[!UICONTROL Enable Automatic Fetching]** tot `Yes`.
+   - Stel **[!UICONTROL Enable Automatic Fetching]** in op `Yes` .
 
-   - Set **[!UICONTROL Schedule]** op een van de volgende wijzen:
+   - Stel **[!UICONTROL Schedule]** in op een van de volgende opties:
 
       - `Daily`
       - `Every 3 Days`
@@ -360,17 +360,17 @@ Set **[!UICONTROL Enable PayPal PayLater Experience]** op een van de volgende wi
 
      PayPal bewaart elk rapport 45 dagen.
 
-   - Set **[!UICONTROL Time of Day]** tot het uur, de minuut, en de seconde wanneer u de rapporten wilt worden geproduceerd.
+   - Stel **[!UICONTROL Time of Day]** in op het uur, de minuut en de seconde waarop u de rapporten wilt genereren.
 
 #### Instellingen voor voorvertoning
 
-Gebruik de _[!UICONTROL Frontend Experience Settings]_om te kiezen welke PayPal-logo&#39;s op uw site worden weergegeven en om de weergave van uw PayPal-handelpagina&#39;s aan te passen.
+Gebruik _[!UICONTROL Frontend Experience Settings]_om te kiezen welke PayPal-logo&#39;s op uw site worden weergegeven en om de weergave van uw handelspagina&#39;s van PayPal aan te passen.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Frontend Experience Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Frontend Experience Settings]** sectie uit.
 
-   ![Instellingen voor vooraf belevenis - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![ De Montages van de Begeleving van de Voorzijde - PayPal Payflow Pro ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
-1. Selecteer de **[!UICONTROL PayPal Product Logo]** die je in het PayPal-blok in je winkel wilt weergeven.
+1. Selecteer de **[!UICONTROL PayPal Product Logo]** die u in het PayPal-blok in uw winkel wilt weergeven.
 
    De PayPal-logo&#39;s zijn beschikbaar in vier stijlen en twee formaten:
 
@@ -382,71 +382,71 @@ Gebruik de _[!UICONTROL Frontend Experience Settings]_om te kiezen welke PayPal-
 
 1. De weergave van je PayPal-winkelpagina&#39;s aanpassen:
 
-   - Voer de naam in van de **[!UICONTROL Page Style]** die je op je PayPal-handelpagina&#39;s wilt toepassen:
+   - Voer de naam in van de **[!UICONTROL Page Style]** die u wilt toepassen op de handelspagina&#39;s van PayPal:
 
       - `paypal` - Gebruikt de paginastijl van PayPal.
-      - `primary` - Gebruikt de paginastijl die u als _primair_ stijl in uw accountprofiel.
-      - `your_custom_value` - Hiermee gebruikt u een aangepaste paginastijl voor betalingen, die in uw accountprofiel is opgegeven.
+      - `primary` - gebruikt de paginastijl die u als _primaire_ stijl in uw rekeningsprofiel identificeerde.
+      - `your_custom_value` - Gebruikt een aangepaste paginastijl voor betalingen, die in uw accountprofiel is opgegeven.
 
-   - Voor **[!UICONTROL Header Image URL]** Voer de URL in van de afbeelding die u in de linkerbovenhoek van de betaalpagina wilt weergeven. De maximale bestandsgrootte is 750 pixels breed en 90 pixels hoog.
+   - Voer bij **[!UICONTROL Header Image URL]** de URL in van de afbeelding die u in de linkerbovenhoek van de betaalpagina wilt weergeven. De maximale bestandsgrootte is 750 pixels breed en 90 pixels hoog.
 
      >[!NOTE]
      >
-     >PayPal raadt aan de afbeelding op een beveiligde server (https) te plaatsen. Anders kan een browser waarschuwen dat _de pagina bevat zowel beveiligde als niet-beveiligde items_.
+     >PayPal raadt aan de afbeelding op een beveiligde server (https) te plaatsen. Anders, kan browser waarschuwen dat _de pagina zowel veilige als niet veilige punten_ bevat.
 
-   - Als u de kleur voor uw pagina&#39;s wilt instellen, voert u de hexadecimale code van zes tekens in, zonder de `#` symbool, voor elk van de volgende elementen:
+   - Als u de kleur voor uw pagina&#39;s wilt instellen, voert u voor elk van de volgende handelingen de zestekenige hexadecimale code in, zonder het symbool `#` :
 
-      - **[!UICONTROL Header Background Color]** - Achtergrondkleur voor koptekst van uitcheckpagina.
-      - **[!UICONTROL Header Border Color]** - Kleur voor een rand van twee pixels rondom de koptekst.
-      - **[!UICONTROL Page Background Color]** - Achtergrondkleur voor de afhandelingspagina en rond de koptekst en het betalingsformulier.
+      - **[!UICONTROL Header Background Color]** - Achtergrondkleur voor de koptekst van de uitcheckpagina.
+      - **[!UICONTROL Header Border Color]** - Kleur voor rand van twee pixels rond de koptekst.
+      - **[!UICONTROL Page Background Color]** - Achtergrondkleur voor de uitcheckpagina en rond de koptekst en het betalingsformulier.
 
 ### Stap 6: De basisinstellingen voor PayPal Express Checkout voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Express Checkout]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Express Checkout]** sectie uit.
 
-   ![Basisinstellingen](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![ Basismontages ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
-1. Voor **[!UICONTROL Title]**, voert u een titel in die deze betalingsmethode identificeert tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Title]** een titel in die deze betalingsmethode identificeert tijdens het afrekenen.
 
-   De titel instellen op _PayPal_ voor elke winkelweergave wordt aanbevolen.
+   Het plaatsen van de titel aan _PayPal_ voor elke opslagmening wordt geadviseerd.
 
-1. Als je meerdere betalingsmethoden aanbiedt, voer dan een nummer in voor **[!UICONTROL Sort Order]** om de volgorde te bepalen waarin PayPal Express Checkout wordt weergegeven wanneer deze bij de andere betalingsmethoden wordt aangeboden.
+1. Als u meerdere betalingsmethoden aanbiedt, voert u een getal voor **[!UICONTROL Sort Order]** in om de volgorde te bepalen waarin PayPal Express Checkout wordt weergegeven wanneer deze bij de andere betalingsmethoden wordt aangeboden.
 
-   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = eerst, `1` = seconde, `2` = derde, enzovoort.)
+   Dit getal is relatief ten opzichte van de andere betalingsmethoden. (`0` = first, `1` = second, `2` = third, enzovoort.)
 
-1. Set **[!UICONTROL Payment Action]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment Action]** in op een van de volgende opties:
 
-   - `Authorization` - Goedkeuring van de aankoop en blokkering van de middelen. Het bedrag wordt pas ingetrokken als het is _vastgelegd_ door de handelaar.
-   - `Sale` - Het bedrag van de aankoop wordt toegestaan en onmiddellijk van de rekening van de klant teruggetrokken.
+   - `Authorization` - Hiermee gaat u akkoord met de aankoop en houdt u de middelen in de wacht. Het bedrag wordt niet teruggetrokken tot het __ door de koopman wordt gevangen.
+   - `Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
 
-1. Als u het dialoogvenster _[!UICONTROL Check out with PayPal]_op de productpagina, instellen **[!UICONTROL Display on Product Details Page]**tot `Yes`.
+1. Stel **[!UICONTROL Display on Product Details Page]** in op `Yes` om de knop _[!UICONTROL Check out with PayPal]_op de productpagina weer te geven.
 
 ### Stap 7: De geavanceerde instellingen voor PayPal Express-afhandeling voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
 
-   ![Geavanceerde instellingen](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
+   ![ Geavanceerde Montages ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Display on Shopping Cart]** tot `Yes`.
+1. Stel **[!UICONTROL Display on Shopping Cart]** in op `Yes` .
 
-1. Set **[!UICONTROL Payment Applicable From]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, _[!UICONTROL Payment from Specific Countries]_wordt weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
 
-1. Om mededelingen met het betalingssysteem in het logboekdossier te schrijven, plaats **[!UICONTROL Debug Mode]** tot `Yes`.
+1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
    >[!NOTE]
    >
    >In overeenstemming met de normen van de Veiligheid van Gegevens PCI, wordt de creditcardinformatie niet geregistreerd in het logboekdossier.
 
-1. Als u verificatie van de authenticiteit van de host wilt inschakelen, stelt u **[!UICONTROL Enable SSL Verification]** tot `Yes`.
+1. Als u verificatie van de authenticiteit van de host wilt inschakelen, stelt u **[!UICONTROL Enable SSL Verification]** in op `Yes` .
 
-1. Als u een volledig overzicht wilt weergeven van de bestelling van de klant per online item op de PayPal-site, stelt u **[!UICONTROL Transfer Cart Line Items]** tot `Yes`.
+1. Stel **[!UICONTROL Transfer Cart Line Items]** in op `Yes` als u een volledig overzicht van de bestelling van de klant per lijstitem vanaf de PayPal-site wilt weergeven.
 
-1. Als u wilt dat de klant de transactie kan voltooien vanaf de PayPal-site zonder deze terug te sturen naar uw winkel voor het controleren van bestellingen, stelt u **[!UICONTROL Skip Order Review Step]** tot `Yes`.
+1. Stel **[!UICONTROL Skip Order Review Step]** in op `Yes` als u de klant wilt toestaan de transactie van de PayPal-site te voltooien zonder deze terug te sturen naar uw winkel voor het reviseren van bestellingen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/

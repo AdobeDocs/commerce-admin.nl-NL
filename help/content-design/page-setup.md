@@ -4,7 +4,7 @@ description: Leer hoe u de standaardwaarden voor de hoofdonderdelen van een wink
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,23 @@ De hoofdsecties van de pagina worden gedeeltelijk bestuurd door een set standaar
 - [Koptekst](#header)
 - [Voettekst](#footer)
 
-![Secties HTML pagina](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![ HTML pagina secties ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML Head
 
-De instellingen in de sectie HTML Head komen overeen met de instellingen in de sectie `<head>` -tag van een HTML-pagina en kan worden geconfigureerd voor elke winkelweergave. Naast metagegevens voor de paginatitel, beschrijving en trefwoorden bevat de sectie een koppeling naar het favicon en diverse scripts. In deze sectie worden ook instructies voor robots van zoekprogramma&#39;s en de weergave van de mededeling van de opslagdemo geconfigureerd.
+De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een pagina HTML en kunnen voor elke winkelweergave worden geconfigureerd. Naast metagegevens voor de paginatitel, beschrijving en trefwoorden bevat de sectie een koppeling naar het favicon en diverse scripts. In deze sectie worden ook instructies voor robots van zoekprogramma&#39;s en de weergave van de mededeling van de opslagdemo geconfigureerd.
 
 ### De kop van de HTML configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek de archiefmening die u wilt vormen en klikken **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Overige instellingen_, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie.
+1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
 
-   ![HTML Head-configuratie-instellingen](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![ de configuratiemontages van het Kop van HTML ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. Werk de [favicon](../getting-started/storefront-branding.md#add-a-favicon) indien nodig.
+1. Werk [ favicon ](../getting-started/storefront-branding.md#add-a-favicon) indien nodig bij.
 
 1. Pas de instellingen voor de paginatitel aan uw wensen aan:
 
@@ -48,11 +48,11 @@ De instellingen in de sectie HTML Head komen overeen met de instellingen in de s
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. Voer een **[!UICONTROL Scripts and Style Sheets]** indien nodig.
+1. Voer zo nodig een **[!UICONTROL Scripts and Style Sheets]** in.
 
-1. Schakel de [demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) indien nodig.
+1. Laat of maak de [ kennisgeving van de duoopslag ](../getting-started/storefront-branding.md#set-the-store-demo-notice) indien nodig toe onbruikbaar.
 
-1. Klik op **[!UICONTROL Save Configuration]**.
+1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
 ### HTML Head-veldbeschrijvingen
 
@@ -64,7 +64,7 @@ De instellingen in de sectie HTML Head komen overeen met de instellingen in de s
 | [!UICONTROL Page Title Suffix] | Winkelweergave | U kunt na de titel een achtervoegsel toevoegen om een titel van twee of drie delen te maken. Een verticale balk of dubbele punt kan als scheidingsteken aan het einde van het voorvoegsel worden gebruikt om het te onderscheiden van de tekst van de hoofdtitel. |
 | [!UICONTROL Default Meta Description] | Winkelweergave | De beschrijving bevat een overzicht van je site voor aanbiedingen met zoekprogramma&#39;s en mag niet langer zijn dan 160 tekens. |
 | [!UICONTROL Default Meta Keywords] | Winkelweergave | Een reeks trefwoorden die uw winkel beschrijven, elk gescheiden door een komma. |
-| [!UICONTROL Scripts and Style Sheets] | Winkelweergave | Bevat manuscripten die in de HTML vóór het sluiten moeten worden omvat `<head>` -tag. JavaScript van derden moet bijvoorbeeld vóór het dialoogvenster `<body>` -tag kan hier worden ingevoerd. |
+| [!UICONTROL Scripts and Style Sheets] | Winkelweergave | Bevat scripts die moeten worden opgenomen in de HTML vóór de afsluitende tag `<head>` . JavaScript van derden die vóór de tag `<body>` moet worden geplaatst, kan hier bijvoorbeeld worden ingevoerd. |
 | [!UICONTROL Display Demo Store Notice] | Winkelweergave | Controls the display of the demo store notice at the top of the page. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -73,22 +73,22 @@ De instellingen in de sectie HTML Head komen overeen met de instellingen in de s
 
 De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en specificeert de lt tekst van het embleem en welkomstbericht.
 
-![Instellingen voor koptekstconfiguratie](./assets/configuration-header.png){width="400" zoomable="yes"}
+![ de configuratiemontages van de Kopbal ](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### De koptekst configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek de archiefmening die u wilt vormen en klikken **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Overige instellingen_, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Header]** sectie.
+1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Header]** sectie uit.
 
 1. Breng de gewenste wijzigingen aan in de winkelweergave:
 
-   - [Logo](../getting-started/storefront-branding.md#upload-your-logo) instellingen
-   - [Welkom](../getting-started/storefront-branding.md#change-the-welcome-message) instellingen
+   - ](../getting-started/storefront-branding.md#upload-your-logo) montages van 0} Logo {[
+   - [ Welkome bericht ](../getting-started/storefront-branding.md#change-the-welcome-message) montages
 
-1. Klik op **[!UICONTROL Save Configuration]**.
+1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
 ### Beschrijvingen van koptekstvelden
 
@@ -99,34 +99,34 @@ De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en spec
 | [!UICONTROL Logo Attribute Height] | Winkelweergave | De hoogte van de logoafbeelding in pixels. |
 | [!UICONTROL Welcome Text] | Winkelweergave | Het welkomstbericht wordt weergegeven in de koptekst van de pagina en bevat de naam van de klanten die zijn aangemeld. |
 | [!UICONTROL Logo Image Alt] | Winkelweergave | De Alt-tekst die aan het logo is gekoppeld. |
-| [!UICONTROL Translate Title] | Winkelweergave | Hiermee wordt bepaald of de `Page Title` of `Meta Title` moet worden vertaald. |
+| [!UICONTROL Translate Title] | Winkelweergave | Hiermee bepaalt u of de instructie `Page Title` of `Meta Title` moet worden vertaald. |
 
 {style="table-layout:auto"}
 
 ## Voettekst
 
-In het gedeelte Voettekstconfiguratie kunt u de [copyrightmelding](../getting-started/storefront-branding.md#change-the-copyright-notice) die onder aan de pagina wordt weergegeven, en voert diverse scripts in die moeten worden geplaatst vóór het sluiten `<body>` -tag.
+De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [ copyrightkennisgeving ](../getting-started/storefront-branding.md#change-the-copyright-notice) kunt bijwerken die bij de bodem van de pagina verschijnt, en diverse manuscripten ingaan die vóór de sluitende `<body>` markering moeten worden geplaatst.
 
-![Instellingen voor voettekstconfiguratie](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![ de configuratiemontages van de Voettekst ](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### De voettekst configureren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Zoek de archiefmening die u wilt vormen en klikken **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Overige instellingen_, uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Footer]** sectie.
+1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Footer]** sectie uit.
 
-1. Breng desgewenst wijzigingen aan in de **[!UICONTROL Copyright]** en **[!UICONTROL Miscellaneous HTML]** instellingen.
+1. Breng de benodigde wijzigingen aan in de instellingen **[!UICONTROL Copyright]** en **[!UICONTROL Miscellaneous HTML]** .
 
-1. Klik op **[!UICONTROL Save Configuration]**.
+1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
 ## Beschrijvingen van voettekstvelden
 
 | Veld | Toepassingsgebied | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | Winkelweergave | Een invoervak waarin u diverse scripts naar de server kunt uploaden die vlak voor het sluiten moeten worden geplaatst `<body>` -tag. |
-| [!UICONTROL Copyright] | Winkelweergave | De copyrightinstructie die onder aan elke pagina wordt weergegeven. Als u het copyrightsymbool wilt opnemen, gebruikt u de tekeneenheid HTML `\&copy;` zoals in het volgende: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Vervang de copyrightkennisgeving voor het voorbeeld door uw eigen melding. |
+| [!UICONTROL Miscellaneous HTML] | Winkelweergave | Een invoervak waarin u diverse scripts naar de server kunt uploaden die vlak voor de afsluitende tag `<body>` moeten worden geplaatst. |
+| [!UICONTROL Copyright] | Winkelweergave | De copyrightinstructie die onder aan elke pagina wordt weergegeven. Als u het copyrightsymbool wilt opnemen, gebruikt u de tekeneenheid HTML `\&copy;` als volgt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` vervang de copyrightkennisgeving voor het voorbeeld door uw eigen instantie. |
 | [!UICONTROL Display Report Bugs Link] | Winkelweergave | Hiermee wordt bepaald of de koppeling voor het foutopsporingsrapport (ondersteund voor bepaalde thema&#39;s) is in- of uitgeschakeld. |
 
 {style="table-layout:auto"}

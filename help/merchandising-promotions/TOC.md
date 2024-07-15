@@ -28,21 +28,21 @@ ht-degree: 0%
       - [Registratie van cadeautjes instellen](gift-registry-create.md)
       - [Zoeken naar cadeauregister toevoegen](gift-registry-search.md)
       - [Ervaring met opslag van cadeauregisters](gift-registry-storefront.md)
-   - Punten achteruit {#reward-points}
+   - Punten omkeren {#reward-points}
       - [Overzicht en configuratie van beloningen](rewards-loyalty.md)
       - [Wisselkoersen](reward-exchange-rates.md)
       - [Retourpunten van de prijsregels](reward-points-price-rules.md)
       - [Reward points storefroning experience](reward-points-storefront.md)
-   - Productbeoordelingen {#product-reviews}
+   - Productoverzichten {#product-reviews}
       - [Productoverzichten van klanten](product-reviews.md)
       - [Moderne beoordelingen](product-reviews-moderate.md)
-- Aanbiedingen {#promotions}
-   - Privéverkoop en evenementen {#events}
+- Promoties {#promotions}
+   - Privéverkoop en -gebeurtenissen {#events}
       - [Overzicht van gebeurtenissen](events-private-sales.md)
       - [Gebeurtenissen configureren](event-configure.md)
       - [Gebeurtenissen maken](event-create.md)
       - [Uitnodigingen voor gebeurtenissen](invitations.md)
-   - Regels inzake catalogusprijzen {#catalog-rules}
+   - Catalogusprijsregels {#catalog-rules}
       - [Overzicht van de catalogusprijsregels](price-rules-catalog.md)
       - [Een regel voor catalogusprijzen maken](price-rules-catalog-create.md)
       - [Geplande wijzigingen voor prijsregels voor catalogi](price-rule-catalog-scheduled-changes.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       - [Overzicht](product-relationships.md)
       - [Regels en configuratie voor verwante producten](product-related-rules.md)
       - [Een regel voor een verwant product maken](product-related-rule-create.md)
-- Marketingsmededelingen {#communications}
+- Marketing, communicatie {#communications}
    - Nieuwsbrieven {#newsletters}
       - [Nieuwsbrieven inschakelen](newsletters.md)
       - [Sjablonen voor nieuwsbrieven](newsletter-template.md)
@@ -87,5 +87,5 @@ ht-degree: 0%
    - [Google-tagbeheer](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google-contentexperimenten](google-content-experiments.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

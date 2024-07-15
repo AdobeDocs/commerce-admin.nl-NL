@@ -10,26 +10,26 @@ ht-degree: 0%
 
 # Inventaris - toewijzing van bronnen en hoeveelheden
 
-Voor handelaren die multisource gebruiken [[!DNL Inventory Management]](../inventory-management/introduction.md), schuiven omlaag naar de **Bronnen** de verdeling en de toewijzing van de bronnen en hoeveelheden:
+Voor multisource handelaars die [[!DNL Inventory Management]](../inventory-management/introduction.md) gebruiken, scrol neer aan de **Bronnen** sectie en wijs bronnen en hoeveelheden toe:
 
-1. Klik op **[!UICONTROL Assign Sources]**.
+1. Klik op **[!UICONTROL Assign Sources]** om een bron toe te voegen.
 
 1. Blader naar bronnen of zoek naar bronnen en schakel het selectievakje in naast de bronnen die u voor het product wilt toevoegen.
 
-   ![Bronnen aan het product toewijzen](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
+   ![ wijs bronnen aan het product ](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
 
-1. Klikken **[!UICONTROL Done]** om de bronnen toe te voegen.
+1. Klik op **[!UICONTROL Done]** om de bronnen toe te voegen.
 
-1. Als u de hoeveelheid en status van de bron wilt beheren, klikt u op **[!UICONTROL Advanced Inventory]** en instellen **[!UICONTROL Manage Stock]** tot `Yes`.
+1. Als u het aantal en de status van de bron wilt beheren, klikt u op **[!UICONTROL Advanced Inventory]** en stelt u **[!UICONTROL Manage Stock]** in op `Yes` .
 
-1. Set **[!UICONTROL Source Item Status]** tot `In Stock`.
+1. Stel **[!UICONTROL Source Item Status]** in op `In Stock` .
 
-1. Voer een bedrag in om de **[!UICONTROL Qty]** voor eigen voorraad.
+1. Voer een bedrag in om de **[!UICONTROL Qty]** voor voorraad aan te passen.
 
 1. Voer een van de volgende handelingen uit om een melding voor inventarishoeveelheden in te stellen:
 
-   - _Aangepast aantal berichten_ - Wis de **[!UICONTROL Notify Quantity Use Default]** selectievakje en voer een bedrag in **[!UICONTROL Notify Quantity]**.
+   - _de Douane deelt Hoeveelheid_ op - ontruim checkbox **[!UICONTROL Notify Quantity Use Default]** en ga een bedrag in **[!UICONTROL Notify Quantity]** in.
 
-   - _Standaardaantal meldingen_ - Selecteer de **[!UICONTROL Notify Quantity Use Default]** selectievakje. Handel controleert en gebruikt het plaatsen binnen [!UICONTROL Advanced Inventory] of globale winkelconfiguratie.
+   - _Standaard meldt Aantal_ - selecteer **[!UICONTROL Notify Quantity Use Default]** checkbox. Commerce controleert en gebruikt de instelling in [!UICONTROL Advanced Inventory] of algemene winkelconfiguratie.
 
-   ![Producthoeveelheden per bron bijwerken](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+   ![ de Hoeveelheden van het Product van de Update per Source ](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

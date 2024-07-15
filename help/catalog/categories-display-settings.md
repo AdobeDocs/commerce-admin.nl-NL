@@ -1,6 +1,6 @@
 ---
 title: Categorieën - Weergave-instellingen
-description: Meer informatie over het gebruik van de [!UICONTROL Display] instellingen om te bepalen welke inhoudselementen worden weergegeven op een categoriepagina en de volgorde waarin producten worden weergegeven.
+description: Leer hoe u de instellingen van [!UICONTROL Display] gebruikt om te bepalen welke inhoudselementen op een categoriepagina worden weergegeven en in welke volgorde producten worden weergegeven.
 exl-id: bb3a1b00-ba56-4113-8208-860963612333
 feature: Catalog Management, Categories, Page Content
 source-git-commit: a47e744cf4cc5163ca2ba0718ccb78eb65a7d404
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Categorieën - Weergave-instellingen
 
-Met weergave-instellingen bepaalt u welke inhoudselementen worden weergegeven op een categoriepagina en in welke volgorde producten worden weergegeven. U kunt CMS-blokken inschakelen, de ankerstatus van de categorie instellen en sorteeropties beheren vanuit de _[!UICONTROL Display Settings]_tab. Voor voorbeelden van hoe categorieën in de winkel worden weerspiegeld, zie [Catalogusnavigatie](navigation.md).
+Met weergave-instellingen bepaalt u welke inhoudselementen worden weergegeven op een categoriepagina en in welke volgorde producten worden weergegeven. U kunt CMS-blokken inschakelen, de ankerstatus van de categorie instellen en sorteeropties beheren via het tabblad _[!UICONTROL Display Settings]_. Voor voorbeelden van hoe de categorieën in de storefront worden weerspiegeld, zie {de Navigatie van de Catalogus van 0} ](navigation.md).[
 
-![Instellingen voor categorieën weergeven](./assets/category-display-settings.png){width="600" zoomable="yes"}
+![ Montages van de Vertoning voor categorieën ](./assets/category-display-settings.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Display Mode] | Bepaalt de inhoudselementen die op de categoriepagina worden getoond. Opties: `Products Only` / `Static Block Only` / `Static Block and Products` |
-| [!UICONTROL Anchor] | Wanneer ingesteld op `Yes`worden producten uit de subcategorieën in de categorie weergegeven, zelfs als deze niet expliciet aan de categorie zijn toegevoegd, en wordt de weergave van de _[!UICONTROL filter by attribute]_in de gelaagde navigatie. Opties: `Yes` / `No` |
-| [!UICONTROL Available Product Listing Sort By] | (Vereist) De standaardwaarden zijn `Position`, `Name`, en `Price`. Als u de sorteeroptie wilt aanpassen, schakelt u de optie **[!UICONTROL Use All Available Attributes]** Schakel het selectievakje in en selecteer de kenmerken die u wilt gebruiken. Desgewenst kunt u kenmerken definiëren en toevoegen. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
-| [!UICONTROL Default Product Listing Sort By] | (Vereist) Als u de standaardwaarde wilt definiëren _[!UICONTROL Sort By]_Schakel de optie **[!UICONTROL Use Config Settings]**Schakel het selectievakje in en selecteer een kenmerk. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
-| [!UICONTROL Layered Navigation Price Step] | Standaard geeft Commerce het prijsbereik weer in stappen van 10, 100 en 1000, afhankelijk van de producten in de lijst. Als u het bereik Prijsstap wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use Config Settings]** selectievakje. |
+| [!UICONTROL Anchor] | Als u deze optie instelt op `Yes` , worden producten uit de subcategorieën in de categorie weergegeven, zelfs als ze niet expliciet aan de categorie zijn toegevoegd. Bovendien wordt de sectie _[!UICONTROL filter by attribute]_weergegeven in de navigatie met lagen. Opties: `Yes` / `No` |
+| [!UICONTROL Available Product Listing Sort By] | (Vereist) De standaardwaarden zijn `Position` , `Name` en `Price` . Als u de sorteeroptie wilt aanpassen, schakelt u het selectievakje **[!UICONTROL Use All Available Attributes]** uit en selecteert u de kenmerken die u wilt gebruiken. Desgewenst kunt u kenmerken definiëren en toevoegen. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| [!UICONTROL Default Product Listing Sort By] | (Vereist) Als u de standaardoptie _[!UICONTROL Sort By]_wilt definiëren, schakelt u het selectievakje **[!UICONTROL Use Config Settings]**uit en selecteert u een kenmerk. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| [!UICONTROL Layered Navigation Price Step] | Standaard geeft Commerce het prijsbereik weer in stappen van 10, 100 en 1000, afhankelijk van de producten in de lijst. Schakel het selectievakje **[!UICONTROL Use Config Settings]** uit als u het bereik Prijsstap wilt wijzigen. |
 
 {style="table-layout:auto"}

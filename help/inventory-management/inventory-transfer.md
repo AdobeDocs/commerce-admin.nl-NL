@@ -16,7 +16,7 @@ Afhankelijk van de bedrijfsbehoeften en de status van locatie, brengen leveranci
 
 Met deze optie kunt u een of meer producten selecteren, de bron van waaruit de voorraad wordt overgedragen en de doelbron waarop de hoeveelheden worden ontvangen:
 
-- De hoeveelheden van de voorraad, de status van de bronpost (in voorraad/uit voorraad) en de hoeveelheid van de kennisgeving voor de geselecteerde bron worden per product verplaatst.
+- De hoeveelheden van de voorraad, de status van Source-objecten (in voorraad/uit voorraad) en de hoeveelheid van de geselecteerde bron melden worden per product verplaatst.
 
 - Als een product die bron niet heeft, wordt het overgeslagen.
 
@@ -30,25 +30,25 @@ U kunt de toewijzing van de bron ook ongedaan maken wanneer u inventarishoeveelh
 
 {{$include /help/_includes/unassign-source.md}}
 
-![Overdracht van voorraad naar andere bron](assets/inventory-bulk-transfer-source.gif)
+![ voorraad van de Overdracht aan een andere bron ](assets/inventory-bulk-transfer-source.gif)
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Selecteer de producten waarvoor u bronnen wilt wijzigen.
 
    Blader of zoek naar producten en selecteer selectievakjes voor overdracht.
 
-1. Klik op de knop **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Transfer Inventory to Source]**.
+1. Klik op het menu **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Transfer Inventory to Source]** .
 
-1. Klikken **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
+1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
-1. Als u producten naar een nieuwe bestemming wilt overbrengen, selecteert u de oorsprong (_[!UICONTROL from]_).
+1. Om producten naar een nieuwe bestemming over te brengen, selecteer de oorsprong (_[!UICONTROL from]_) bron.
 
-1. om producten naar een nieuwe bestemming over te brengen, selecteer de bestemming (_[!UICONTROL to]_).
+1. om producten naar een nieuwe bestemming over te brengen, selecteer de bestemmingsbron (_[!UICONTROL to]_).
 
-1. Als u de bron uit de producten wilt verwijderen, schakelt u het optionele selectievakje in **[!UICONTROL Unassign from origin source after transfer]**.
+1. Als u de bron uit de producten wilt verwijderen, schakelt u het optionele selectievakje **[!UICONTROL Unassign from origin source after transfer]** in.
 
-   ![Oorsprong en bestemming voor overdracht selecteren](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
+   ![ Uitgezochte oorsprong en bestemming voor overdracht ](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Transfer Inventory]**.
 

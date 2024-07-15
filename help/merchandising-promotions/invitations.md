@@ -18,34 +18,34 @@ Wanneer uitnodigingen zijn ingeschakeld, kunnen klanten uitnodigingen verzenden 
 
 ## Mijn uitnodigingen
 
-De _[!UICONTROL My Invitations]_in het gedeelte van de klantenaccount worden alle uitnodigingen weergegeven die de klant heeft verzonden. Klanten kunnen uitnodigingen verzenden aan vrienden en familie voor winkelgebeurtenissen, cadeauregisters, verlanglijsten enzovoort.
+In de sectie _[!UICONTROL My Invitations]_van de klantenaccount worden alle uitnodigingen weergegeven die de klant heeft verzonden. Klanten kunnen uitnodigingen verzenden aan vrienden en familie voor winkelgebeurtenissen, cadeauregisters, verlanglijsten enzovoort.
 
-![Mijn uitnodigingen](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
+![ Mijn Uitnodigingen ](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### Uitnodigingsworkflow
 
-1. **De klant bereidt uitnodigingen voor**: Vanaf het accountdashboard bereidt de klant de lijst met ontvangers voor en voltooit de uitnodiging. Afhankelijk van de configuratie kan een aangepast bericht worden opgenomen.
-1. **De klant verzendt uitnodigingen**: Wanneer gereed, klikt de klant op _[!UICONTROL Send Invitations]_knop.
-1. **Systeem beheert transmissie**: Het systeem verzendt uitnodigingen in partijen, volgens het aantal dat in de configuratie wordt geplaatst.
-1. **Antwoord van de klant**: De klant controleert de status van elke uitnodiging vanaf het accountdashboard, zoals `Sent`, `Accepted`, of `Canceled`.
+1. **Klant bereidt uitnodigingen** voor: Van het rekeningsdashboard, bereidt de klant de lijst van ontvangers voor en voltooit de uitnodiging. Afhankelijk van de configuratie kan een aangepast bericht worden opgenomen.
+1. **de Klant verzendt uitnodigingen**: Wanneer klaar, klikt de klant de _[!UICONTROL Send Invitations]_knoop.
+1. **het Systeem beheert transmissie**: Het systeem verzendt uitnodigingen in partijen, volgens het aantal dat in de configuratie wordt geplaatst.
+1. **controleert de Klant reactie**: De klant controleert het statuut van elke uitnodiging van het rekeningsdashboard, zoals `Sent`, `Accepted`, of `Canceled`.
 
 ### Een uitnodiging verzenden
 
-1. In de zijbalk van hun account op de winkel kiest de klant **[!UICONTROL My Invitations]**.
+1. In de zijbalk van hun account op de storefront kiest de klant **[!UICONTROL My Invitations]** .
 
-1. Op de _Mijn uitnodiging_ pagina, klikken **[!UICONTROL Send Invitation]**.
+1. Voor de _Mijn pagina van de Uitnodiging_, klikt **[!UICONTROL Send Invitation]**.
 
 1. Hiermee definieert u het nieuwe uitnodigingsitem:
 
    - Voltooi de e-mailgegevens.
 
-   - (Optioneel) Hiermee maakt u een uitnodiging voor meerdere adressen door op **+** en nog een e-mailadres toevoegen.
+   - (Optioneel) Hiermee maakt u een uitnodiging voor meerdere adressen door op **+** te klikken en een ander e-mailadres toe te voegen.
 
      Voor één uitnodiging geldt een limiet van vijf e-mailadressen.
 
    - (Optioneel) Voer een begeleidend bericht in.
 
-1. Na voltooiing klikt u op **[!UICONTROL Send Invitation]**.
+1. Klik op **[!UICONTROL Send Invitation]** wanneer dit is voltooid.
 
 Er wordt een uitnodigingsbericht verzonden naar het e-mailadres van de uitgenodigde gebruiker met de koppeling Instructies om het account in te stellen.
 
@@ -57,79 +57,79 @@ Er wordt een uitnodigingsbericht verzonden naar het e-mailadres van de uitgenodi
 
 De uitnodigingsconfiguratie laat uitnodigingen voor de opslag toe en bepaalt hoe zij worden verzonden.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Invitations]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Invitations]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit.
 
-   ![Configuratie van klanten - uitnodigingen, algemene opties](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
+   ![ configuratie van Klanten - uitnodigingen algemene opties ](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enable Invitations Functionality]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Invitations Functionality]** in op `Yes` .
 
-1. Als u klanten wilt toestaan uitnodigingen te beheren vanuit de winkel, stelt u **Uitnodigingen inschakelen op Storefront** tot `Yes`.
+1. Om klanten toe te staan om uitnodigingen van de storefront te beheren, plaats **laat Uitnodigingen op Storefront** aan `Yes` toe.
 
-1. Set **[!UICONTROL Referred Customer Group]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Referred Customer Group]** in op een van de volgende opties:
 
    - `Same as Inviter`
    - `Default Customer Group from Configuration`
 
-1. Set **[!UICONTROL New Accounts Registration]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL New Accounts Registration]** in op een van de volgende opties:
 
    - `By Invitation Only`
    - `Available to All`
 
-1. Naar **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]**, selecteert u `Yes`.
+1. Selecteer `Yes` als u **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]** wilt gebruiken.
 
-1. Als u het aantal uitnodigingen dat tegelijk kan worden verzonden wilt beperken, voert u het aantal in het dialoogvenster **[!UICONTROL Max Invitations Allowed to be Sent at One Time]** veld.
+1. Als u het aantal uitnodigingen dat tegelijkertijd kan worden verzonden wilt beperken, voert u het nummer in het veld **[!UICONTROL Max Invitations Allowed to be Sent at One Time]** in.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Email]** en voer de volgende handelingen uit:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email]** sectie uit en doe het volgende:
 
-   ![Configuratie van klanten - e-mailopties voor uitnodigingen](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
+   ![ configuratie van Klanten - uitnodigingen e-mailopties ](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
-   - Selecteer de opslagidentiteit die u wilt gebruiken als de **[!UICONTROL Customer Invitation Email Sender]**.
+   - Selecteer de opslagidentiteit die u als **[!UICONTROL Customer Invitation Email Sender]** wilt gebruiken.
 
-   - Selecteer de **[!UICONTROL Customer Invitation Email Template]** gebruikt voor verzonden uitnodigingen.
+   - Selecteer de **[!UICONTROL Customer Invitation Email Template]** die wordt gebruikt voor verzonden uitnodigingen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Uitnodigingen verzenden en beheren in Beheer
 
-In de [Privéverkooprapporten](../getting-started/private-sales-reports.md) kunt u het aantal uitnodigingen zien dat tijdens een bepaalde periode is verzonden, of klanten aan wie u uitnodigingen hebt verzonden.
+In de [ Privé sectie van de Rapporten van de Verkoop ](../getting-started/private-sales-reports.md), kunt u het aantal uitnodigingen zien die tijdens een gespecificeerde periode worden verzonden, of klanten aan wie u uitnodigingen hebt verzonden.
 
 ### Een uitnodiging maken in de beheerder
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Invitations]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Invitations]** .
 
 1. Voer in het volgende scherm e-mailadressen in om nieuwe klanten uit te nodigen, voeg een aangepast bericht toe, kies een afzender en selecteer een groep genodigden.
 
-   Als u meerdere winkelweergaven hebt, gebruikt u de **[!UICONTROL Send From]** om de winkelweergave op te geven van waaruit een uitnodiging wordt verzonden.
+   Als u meerdere winkelweergaven hebt, gebruikt u de optie **[!UICONTROL Send From]** om de winkelweergave op te geven van waaruit een uitnodiging wordt verzonden.
 
-   ![Uitnodigingen](./assets/create-invitation-page.png){width="700" zoomable="yes"}
+   ![ Informatie van Uitnodigingen ](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ### Uitnodigingen voor één entiteit negeren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
 1. Zoek de gewenste uitnodiging met behulp van filters en open deze in de bewerkingsmodus.
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Discard Invitation]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Discard Invitation]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ### Uitnodigingen voor meerdere entiteiten negeren
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
 1. Zoek en selecteer de uitnodigingen die u wilt verwijderen.
 
-1. Gebruik in de linkerbovenhoek de **[!UICONTROL Actions]** te kiezen menu **[!UICONTROL Discard Selected]** en klik op **[!UICONTROL Submit]**.
+1. Kies in de linkerbovenhoek het menu **[!UICONTROL Actions]** om **[!UICONTROL Discard Selected]** te kiezen en klik op **[!UICONTROL Submit]** .
 
-1. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** om de handeling te bevestigen.
 
 ### Veldomschrijvingen
 

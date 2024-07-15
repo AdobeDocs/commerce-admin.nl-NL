@@ -6,51 +6,51 @@ feature: B2B, Companies, Catalog Management
 role: Admin
 source-git-commit: 95ce1f897b281402b440a6f71960dab4d6d4bb72
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
 # Bedrijven toewijzen aan een gedeelde catalogus
 
-Er zijn twee manieren om een bedrijf aan een gedeelde catalogus toe te wijzen. U kunt de toewijzing maken via de _[!UICONTROL Shared Catalogs]_net, of geef het bedrijf uit en wijs de gedeelde catalogus toe aangezien u een klantengroep zou kiezen.
+Er zijn twee manieren om een bedrijf aan een gedeelde catalogus toe te wijzen. U kunt de toewijzing maken via het _[!UICONTROL Shared Catalogs]_-raster of het bedrijf bewerken en de gedeelde catalogus toewijzen zoals u een klantengroep zou kiezen.
 
-![Ondernemingen toewijzen](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
+![ wijs Bedrijven ](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"} toe
 
 ## Methode 1: Bedrijven toewijzen uit de gedeelde catalogus
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Ga voor de gedeelde catalogus in het raster waar u een bedrijf wilt toewijzen naar de knop **[!UICONTROL Action]** kolom en selecteer **[!UICONTROL Assign Companies]**.
+1. Ga voor de gedeelde catalogus in het raster waar u een bedrijf wilt toewijzen naar de kolom **[!UICONTROL Action]** en selecteer **[!UICONTROL Assign Companies]** .
 
    De lijst van beschikbare bedrijven verschijnt in het net.
 
-1. Selecteer het bedrijf dat u wilt toewijzen aan de gedeelde catalogus, klik op de knop **[!UICONTROL Actions]** en kiest u **[!UICONTROL Assign Catalog]**.
+1. Selecteer het bedrijf dat u wilt toewijzen aan de gedeelde catalogus, klik op het menu **[!UICONTROL Actions]** en kies **[!UICONTROL Assign Catalog]** .
 
-   ![Beschikbare bedrijven](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
+   ![ Beschikbare Bedrijven ](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
 
-   U kunt ook op **[!UICONTROL Assign]** in de **[!UICONTROL Action]** kolom voor een bedrijf dat niet aan de catalogus is toegewezen.
+   U kunt ook op **[!UICONTROL Assign]** in de kolom **[!UICONTROL Action]** klikken voor elk bedrijf dat niet aan de catalogus is toegewezen.
 
 1. Herhaal dit voor elk bedrijf dat u wilt toewijzen aan de gedeelde catalogus.
 
    Het bedrijf wordt toegewezen aan de gedeelde catalogus.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Methode 2: Bewerk het bedrijf
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Voor het bedrijf dat in het net wordt getoond, ga naar **[!UICONTROL Action]** kolom en klik op **[!UICONTROL Edit]**.
+1. Ga voor het bedrijf dat in het raster wordt weergegeven naar de kolom **[!UICONTROL Action]** en klik op **[!UICONTROL Edit]** .
 
-   ![Bedrijf bewerken](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
+   ![ geef Bedrijf ](./assets/companies-grid-edit.png){width="700" zoomable="yes"} uit
 
-1. Schuif omlaag en vouw op de pagina van het bedrijf uit ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie.
+1. Voor de bedrijfpagina, scrol neer en breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Advanced Settings]** sectie.
 
-1. Set **[!UICONTROL Customer Group]** naar de desbetreffende gedeelde catalogus.
+1. Stel **[!UICONTROL Customer Group]** in op de desbetreffende gedeelde catalogus.
 
    Het veranderen van de gedeelde catalogustaak verandert ook de klantengroepstoewijzing voor alle bedrijfsleden.
 
-   ![Klantengroepen/gedeelde catalogi](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![ de Groepen van de Klant / Gedeelde Catalogi ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL Proceed]** en vervolgens **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Proceed]** en vervolgens op **[!UICONTROL Save]** wanneer u wordt gevraagd om de bevestiging te bevestigen.

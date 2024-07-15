@@ -15,19 +15,19 @@ Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klante
 
 ## Merchandising
 
-_Merchandising_ is een term die in de detailhandel wordt gebruikt om de kunst en wetenschap van de ontwikkeling van vloerplannen en de presentatie van producten te beschrijven. Je zou kunnen denken aan de [categorienavigatie](../catalog/navigation-top.md) als het vloerplan van de winkel, en de dynamische presentatie van producten als de voorwaarden die u kunt toepassen op de vermelding van producten in de winkel. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
+_Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [ op categorie-gebaseerde navigatie ](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
 
-- [Visual Merchandiser](visual-merchandiser.md) - Een reeks geavanceerde gereedschappen waarmee u producten kunt positioneren en voorwaarden kunt toepassen die bepalen welke producten in de categorielijst worden weergegeven.
+- [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
 
-- [Cadeauregisters](gift-registries.md) - Geef uw klanten de mogelijkheid om cadeauregisters te maken voor speciale gelegenheden en hun vrienden en familie uit te nodigen om hun geschenken aan te schaffen bij het register van geschenken.
+- [ Cadeauregisters ](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
 
-- [Beloning en loyaliteit](rewards-loyalty.md) - Gebruik een puntensysteem om unieke programma&#39;s uit te voeren die klantenbetrokkenheid drijven en klantenloyaliteit bevorderen. U kunt punten toewijzen voor een groot aantal transactie- en klantactiviteiten en de punttoewijzing, het saldo en de vervaldatum bepalen.
+- [ Beloningen en loyaliteit ](rewards-loyalty.md) - gebruik een puntensysteem om unieke programma&#39;s uit te voeren die klantenovereenkomst drijven en klantenloyaliteit bevorderen. U kunt punten toewijzen voor een groot aantal transactie- en klantactiviteiten en de punttoewijzing, het saldo en de vervaldatum bepalen.
 
-- [Privéverkoop en evenementen](events-private-sales.md) - Gebruik uw bestaande klantenbestand om zoemgeluid en nieuwe leads te genereren of om overtollige voorraad te offloaden via particuliere verkoop en andere catalogusgebeurtenissen.
+- [ Privé verkoop en gebeurtenissen ](events-private-sales.md) - gebruik uw bestaande klantenbasis om gezoem en nieuwe lood te produceren, of overtollige voorraad door privé verkoop en andere catalogusgebeurtenissen te offloaden.
 
 >[!TIP]
 >
->Als je meer wilt weten over Product Recommendations en hoe ze je het inzicht en de controle kunnen geven dat je nodig hebt om de beste ervaring voor je kopers te creëren, zie dan de [Recommendations-gebruikershandleiding voor product](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Om over Product Recommendations te leren en hoe zij u het inzicht en de controle kunnen geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van Recommendations van het Product ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
 ## Aanbiedingen
 
@@ -45,22 +45,22 @@ Voorwaarden zijn instructies die de lijst met producten en situaties voor het to
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **[!UICONTROL Use for Promo Rule Conditions]** moet worden ingesteld op `Yes` voor het kenmerk in uw [Eigenschappen van Storefront](../catalog/attribute-product-create.md).
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **[!UICONTROL Use for Promo Rule Conditions]** moet aan `Yes` voor de attributen in uw [ Eigenschappen worden geplaatst Storefront ](../catalog/attribute-product-create.md).
 
 
 ### Prijsregels
 
-Voor [catalogusprijsregels](price-rules-catalog.md)bouwt u voorwaarden op basis van [kenmerksets](../catalog/attribute-sets.md) in uw catalogus, vergelijkingsfuncties en geselecteerde kenmerken. U kunt voorwaarden zoals zinnen maken door een paar instructies te selecteren. U kunt bijvoorbeeld twee prijsregels maken om kortingen toe te passen op kinderkleding en kleding voor mannen en vrouwen op basis van de categorie.
+Voor [ de regels van de catalogusprijs ](price-rules-catalog.md), bouwt u voorwaarden die op [ worden gebaseerd kenmerkreeksen ](../catalog/attribute-sets.md) in uw catalogus, vergelijkingsfuncties, en geselecteerde attributen. U kunt voorwaarden zoals zinnen maken door een paar instructies te selecteren. U kunt bijvoorbeeld twee prijsregels maken om kortingen toe te passen op kinderkleding en kleding voor mannen en vrouwen op basis van de categorie.
 
-![Diagram - voorbeeld van catalogusprijsregels](./assets/diagram-catalog-price-rules.png){width="500"}
+![ Diagram - de regels van de catalogusprijs van het voorbeeld ](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[Winkelprijsregel](price-rules-cart.md) de voorwaarden kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag is [basis](../catalog/category-root.md). Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
+](price-rules-cart.md) de voorwaarden van de prijsregel van het Kart [ kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag [ wortel ](../catalog/category-root.md) is. Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
 
-![Diagram - voorbeeld van regels voor de kartonprijs](./assets/diagram-cart-price-rules.png){width="500"}
+![ Diagram - de regels van de kartprijs van het voorbeeld ](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## Communicatie en SEO
 
-Mastering [SEO (Search Engine Optimization)](seo-overview.md) is van cruciaal belang om potentiële kopers te betrekken. Leer over het optimaliseren van zoekprogramma&#39;s en het verfijnen van de inhoud en presentatie van uw site om de manier te verbeteren waarop de pagina&#39;s door zoekprogramma&#39;s worden geïndexeerd.
+Het beheersen van [ Optimalisering van de Motor van het Onderzoek (SEO) ](seo-overview.md) is essentieel om potentiële kopers in te brengen. Leer over het optimaliseren van zoekprogramma&#39;s en het verfijnen van de inhoud en presentatie van uw site om de manier te verbeteren waarop de pagina&#39;s door zoekprogramma&#39;s worden geïndexeerd.
 
 Één van de taken om te voltooien alvorens uw opslag te lanceren is de e-mailmalplaatjes te herzien die voor alle mededelingen worden gebruikt die van uw opslag worden verzonden om ervoor te zorgen dat zij op uw merk wijzen. Maar u zou dit een stap verder moeten nemen door andere mededelingen te ontwikkelen die uw merk en producten aan bestaande klanten bevorderen. U kunt de inhoud aanpassen met variabelen en opmaakcodes.
 
@@ -68,13 +68,13 @@ Mastering [SEO (Search Engine Optimization)](seo-overview.md) is van cruciaal be
 >
 >In de Adobe Commerce- en Magento Open Source-releases 2.4.0 tot en met 2.4.3 is de uitbreiding opgenomen die door de digitale leverancier is ontwikkeld en die wordt gebruikt om te integreren met de dotdigital Engagement Cloud. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br><br>
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [Upgrademodules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Upgradehandleiding_ voor meer informatie .
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
 
-- [Nieuwsbrieven](newsletters.md) - Maak nieuwsbrieven, beheer uw lijst met abonnees, ontwikkel inhoud en aandrijf verkeer naar uw winkel.
+- [ Nieuwsbrieven ](newsletters.md) - produceer nieuwsbrieven, beheer uw lijst van abonnees, ontwikkel inhoud, en aandrijvingsverkeer aan uw opslag.
 
-- [RSS feeds](social-rss.md#rss-feeds) - Gebruik RSS-feeds om uw productinformatie te publiceren naar winkelverzamelplaatsen en deze zelfs op te nemen in uw nieuwsbrieven. Klanten kunnen zich abonneren op uw RSS-feeds om meer te leren over nieuwe producten en promoties.
+- [ RSS van het Beeld ](social-rss.md#rss-feeds) - het voer van RSS van het Gebruik om uw productinformatie aan het winkelen van aggregatieplaatsen te publiceren, en zelfs hen te omvatten in uw nieuwsbrieven. Klanten kunnen zich abonneren op uw RSS-feeds om meer te leren over nieuwe producten en promoties.
 
-- [Sociale netwerken](social-rss.md#social-networks) - Integreer uw winkel met uw sociale netwerken door een Marketplace-extensie te installeren of door een plug-in toe te voegen aan uw inhoudspagina&#39;s.
+- [ Sociale netwerken ](social-rss.md#social-networks) - integreer uw opslag met uw sociale netwerken door een uitbreiding van de Marketplace te installeren of een stop toe te voegen aan uw inhoudspagina&#39;s.
 
 ## Google-marketingtools
 
@@ -82,12 +82,12 @@ Uw winkelconfiguratie is geïntegreerd met de volgende Google-tools om uw inhoud
 
 >[!NOTE]
 >
->Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Zie de klasse [Documentatie voor ontwikkelaars van Googles Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Voor meer informatie, zie de [ documentatie van de Googles Analytics ontwikkelaar ](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Googles Analytics](google-analytics.md) - Gebruik Google Universal Analytics om extra aangepaste afmetingen en maatstaven voor tracering te definiëren, met ondersteuning voor offline- en mobiele-toepassingsinteracties en toegang tot lopende updates.
+- [ Googles Analytics ](google-analytics.md) - de Universele Analytics van Google van het gebruik om extra douanedimensies en metriek voor het volgen, met steun voor off-line en mobiele toepassingsinteractie, en toegang tot aan de gang zijnde updates te bepalen.
 
-- [Google-contentexperimenten](google-content-experiments.md) - Een A/B-test instellen voor producten, categorieën of inhoudspagina&#39;s met behulp van Inhoud van Googles Analytics
+- [ de Experimenten van de Inhoud van Google ](google-content-experiments.md) - opstelling een A/B test van producten, categorieën, of inhoudspagina&#39;s die de Inhoud van Googles Analytics gebruiken
 
-- [Google-tagbeheer](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Gebruik Google Tag Manager om de vele tags te beheren die betrekking hebben op marketingcampagnegebeurtenissen.
+- [ de Manager van de Markering van Google ](google-tag-manager.md) - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de Manager van de Markering van Google van het Gebruik om de vele markeringen met betrekking tot marketing campagnegebeurtenissen te beheren.
 
-- [Google AdWords](google-adwords.md) - Maak een Google AdWords-campagne en volg omzettingen voor je winkel.
+- [ Google AdWords ](google-adwords.md) - creeer een Google AdWords campagne en spooromzettingen voor uw opslag.

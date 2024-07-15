@@ -44,7 +44,7 @@ Als er een kenmerk bestaat dat in het importbestand is opgegeven en de waarde er
 ### Ongeldige bestanden
 
 - Een bestand kan niet worden geïmporteerd als alle rijen ongeldig zijn.
-- Er zijn niet-bestaande servicegegevens of complexe gegevensnamen opgegeven in het importbestand, zoals een kolom met een `_<non-existing name>` kop.
+- In het importbestand wordt een niet-bestaande service- of complexe gegevensnaam opgegeven, zoals een kolom met een kop `_<non-existing name>` .
 
 Adobe Commerce-importproces herkent mogelijk niet correct bestanden die zijn gecodeerd in UTF-8 en die gebruikmaken van een BOM (Byte Order Mark). Bestanden met een BOM kunnen tijdens het importeren problemen of fouten veroorzaken.
 
@@ -52,27 +52,27 @@ Adobe Commerce-importproces herkent mogelijk niet correct bestanden die zijn gec
 
 | Bewerking | Beschrijving |
 | --------- | ----------- |
-| Toevoegen/bijwerken | Nieuwe productgegevens worden toegevoegd aan de bestaande productgegevens voor de bestaande vermeldingen in de database. Alle velden behalve `sku` kan worden bijgewerkt.<br><br>Nieuwe belastingklassen die in de importgegevens worden opgegeven, worden automatisch gemaakt.<br><br>Nieuwe productcategorieën die in het importbestand zijn opgegeven, worden automatisch gemaakt.<br><br>Nieuwe SKU&#39;s die in het importbestand zijn opgegeven, worden automatisch gemaakt <br><br>**_Opmerking:_**Voor producten, kunt u alle gebieden behalve SKU door de invoer bijwerken.<br><br>**_Belangrijk:_** Meerdere veldwaarden, zoals websites of categorieën, kunnen niet worden verwijderd met de opdracht _Toevoegen/bijwerken_ importgedrag. Deze velden blijven na het importeren in de database als ze niet in het CSV-bestand worden vermeld. |
-| Vervangen | De bestaande productgegevens worden vervangen door nieuwe gegevens.<br><br>**_Belangrijk:_**Wees voorzichtig bij het vervangen van gegevens, omdat de bestaande productgegevens worden gewist en alle referenties in het systeem verloren gaan.<br><br>Als een SKU in de invoergegevens SKU van een bestaande entiteit aanpast, worden alle gebieden, met inbegrip van SKU, geschrapt en een nieuw verslag wordt gecreeerd gebruikend de CSV gegevens. Er treedt een fout op als het CSV-bestand verwijst naar een SKU die niet bestaat in de database. U kunt Gegevens controleren om fout te tonen. |
-| Verwijderen | Entiteiten in de importgegevens die in de database aanwezig zijn, worden uit de database verwijderd.<br><br>Met Verwijderen worden alle kolommen in de importgegevens genegeerd, behalve SKU. U kunt alle andere kenmerken in de gegevens negeren.<br><br>Er treedt een fout op als het CSV-bestand verwijst naar een SKU die niet bestaat in de database. U kunt Gegevens controleren om fout te tonen. |
+| Toevoegen/bijwerken | Nieuwe productgegevens worden toegevoegd aan de bestaande productgegevens voor de bestaande vermeldingen in de database. Alle velden behalve `sku` kunnen worden bijgewerkt.<br><br> Nieuwe belastingklassen die in de de invoergegevens worden gespecificeerd worden automatisch gecreeerd.<br><br> Nieuwe productcategorieën die in het de invoerdossier worden gespecificeerd worden gecreeerd automatisch.<br><br> Nieuwe SKUs die in het de invoerdossier worden gespecificeerd wordt gecreeerd automatisch <br><br>**_Nota:_**voor producten, kunt u alle gebieden behalve SKU door de invoer bijwerken.<br><br>**_ Belangrijk:_** De veelvoudige gebiedswaarden, zoals websites of categorieën, kunnen niet worden verwijderd gebruikend _toevoegen/bijwerken_ invoergedrag. Deze velden blijven na het importeren in de database als ze niet in het CSV-bestand worden vermeld. |
+| Vervangen | De bestaande productgegevens worden vervangen door nieuwe gegevens.<br><br>**_Belangrijk:_**oefent voorzichtigheid uit wanneer het vervangen van gegevens omdat de bestaande productgegevens worden ontruimd en alle verwijzingen in het systeem worden verloren.<br><br> als SKU in de de invoergegevens SKU van een bestaande entiteit aanpast, worden alle gebieden, met inbegrip van SKU, geschrapt en een nieuw verslag wordt gecreeerd gebruikend de gegevens CSV. Er treedt een fout op als het CSV-bestand verwijst naar een SKU die niet bestaat in de database. U kunt Gegevens controleren om fout te tonen. |
+| Verwijderen | Entiteiten in de importgegevens die in de database aanwezig zijn, worden uit de database verwijderd.<br><br> schrapping negeert alle kolommen in de de invoergegevens, behalve SKU. U kunt alle andere kenmerken in de gegevens negeren.<br><br> een fout komt voor als het CSV- dossier verwijzingen een SKU die niet in het gegevensbestand bestaat. U kunt Gegevens controleren om fout te tonen. |
 
 {style="table-layout:auto"}
 
 ## Importproces
 
-De grootte van het importbestand wordt bepaald door de instellingen in het dialoogvenster `php.ini` op de server. Het systeembericht op de _Importeren_ geeft de huidige maximale grootte aan. De standaardgrootte is 2 MB.
+De grootte van het importbestand wordt bepaald door de instellingen in het `php.ini` -bestand op de server. Het systeembericht op de _Invoer_ pagina wijst op de huidige groottegrens. De standaardgrootte is 2 MB.
 
-Speciale tekens (zoals het gelijkteken, groter en kleiner dan symbolen, enkele en dubbele aanhalingstekens, backslash, pipe en en ampersand-symbolen) kunnen problemen veroorzaken tijdens de gegevensoverdracht. Om ervoor te zorgen dat dergelijke speciale tekens correct worden geïnterpreteerd, kunnen ze worden gemarkeerd als een _escapereeks_. Als de gegevens bijvoorbeeld een tekenreeks bevatten, zoals `code="str"`, `code="str2"`Als u ervoor kiest de tekst tussen dubbele aanhalingstekens te plaatsen, zorgt u ervoor dat de oorspronkelijke dubbele aanhalingstekens worden beschouwd als onderdeel van de gegevens. Wanneer het systeem een dubbele reeks dubbele citaten ontmoet, begrijpt het dat de buitenste reeks dubbele citaten de daadwerkelijke gegevens omsluit.
+Speciale tekens (zoals het gelijkteken, groter en kleiner dan symbolen, enkele en dubbele aanhalingstekens, backslash, pipe en en ampersand-symbolen) kunnen problemen veroorzaken tijdens de gegevensoverdracht. Om ervoor te zorgen dat dergelijke speciale karakters correct worden geïnterpreteerd, kunnen zij als _vluchtopeenvolging_ worden gemerkt. Als de gegevens bijvoorbeeld een tekenreeks `code="str"`, `code="str2"` bevatten en u ervoor kiest de tekst tussen dubbele aanhalingstekens te plaatsen, zorgt u ervoor dat de oorspronkelijke dubbele aanhalingstekens worden begrepen als onderdeel van de gegevens. Wanneer het systeem een dubbele reeks dubbele citaten ontmoet, begrijpt het dat de buitenste reeks dubbele citaten de daadwerkelijke gegevens omsluit.
 
 Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd aan bestaande productgegevens in de database. Alle velden behalve SKU kunnen via importeren worden bijgewerkt. Alle bestaande productgegevens worden vervangen door de geïmporteerde nieuwe gegevens. Wees voorzichtig bij het vervangen van gegevens. Alle bestaande productgegevens worden gewist en alle referenties in het systeem gaan verloren.
 
-![Gegevens importeren](./assets/import-options.png){width="600" zoomable="yes"}
+![ de invoer van Gegevens ](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### Stap 1: De gegevens voorbereiden
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Onder _Instellingen importeren_, set **[!UICONTROL Entity Type]** op een van de volgende wijzen:
+1. Onder _de Montages van de Invoer_, plaats **[!UICONTROL Entity Type]** aan één van het volgende:
 
    - `Advanced Pricing`
    - `Products`
@@ -88,25 +88,25 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
    Het voorbeeldbestand bevat kolomkoppen met plaatsaanduidingsgegevens voor de producttypen.
 
-   ![Gegevensvoorbeeldbestand importeren](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![ het dossier van de de gegevenssteekproef van de Invoer ](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. Onderzoek de structuur van het steekproefdossier en gebruik het om uw CSV het invoerdossier voor te bereiden, ervoor zorgend dat de kolomrubrieken correct worden gespeld.
 
 1. Controleer of de grootte van het importbestand de limiet die in het bericht wordt weergegeven, niet overschrijdt.
 
-   ![Gegevensimportgroottemelding](./assets/data-import-size-notification.png){width="600"}
+   ![ het bericht van de de invoergrootte van Gegevens ](./assets/data-import-size-notification.png){width="600"}
 
 1. Als de importgegevens paden naar productafbeeldingen bevatten, moet u ervoor zorgen dat de afbeeldingsbestanden naar de juiste locatie zijn geüpload.
 
-   De standaardlocatie op de Commerce-server is: `pub/media/import`.
+   De standaardlocatie op de Commerce-server is: `pub/media/import` .
 
    Als de afbeeldingen zich op een externe server bevinden, controleert u of u de volledige URL naar de map met de afbeeldingen hebt.
 
 ### Stap 2: kies het importgedrag
 
-![Gedrag bij importeren van gegevens](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![ het invoergedrag van Gegevens ](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Import Behavior]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Import Behavior]** in op een van de volgende opties:
 
    - `Add/Update` (Voor producten kunt u alle velden bijwerken, behalve SKU via importeren.)
    - `Replace`
@@ -117,49 +117,49 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
    - `Stop on Error`
    - `Skip error entries`
 
-1. Voor **[!UICONTROL Allowed Errors Count]** Voer het aantal fouten in dat kan optreden voordat het importeren wordt geannuleerd.
+1. Voer bij **[!UICONTROL Allowed Errors Count]** het aantal fouten in dat kan optreden voordat het importeren wordt geannuleerd.
 
    De standaardwaarde is 10.
 
-1. Accepteer de standaardwaarde van een komma (`,`) voor **[!UICONTROL Field separator]**.
+1. Accepteer de standaardwaarde van een komma (`,`) voor **[!UICONTROL Field separator]** .
 
-1. Accepteer de standaardwaarde van een komma (`,`) voor **[!UICONTROL Multiple value separator]**.
+1. Accepteer de standaardwaarde van een komma (`,`) voor **[!UICONTROL Multiple value separator]** .
 
    In een CSV-bestand is een komma het standaardscheidingsteken. Als u een ander teken wilt gebruiken, moet u ervoor zorgen dat de gegevens in het CSV-bestand overeenkomen met het teken dat u opgeeft.
 
-1. De standaardwaarde accepteren `_EMPTY_VALUE_` for **[!UICONTROL Empty attribute value constant]**.
+1. Accepteer de standaardwaarde `_EMPTY_VALUE_` voor **[!UICONTROL Empty attribute value constant]** .
 
-1. Als u speciale tekens wilt insluiten die in de gegevens kunnen worden gevonden als een _escapereeks_, selecteert u de **[!UICONTROL Fields Enclosure]** selectievakje.
+1. Als u om het even welke speciale karakters wilt insluiten die in de gegevens als _vluchtopeenvolging_ zouden kunnen worden gevonden, selecteer **[!UICONTROL Fields Enclosure]** checkbox.
 
 ### Stap 3: het importbestand identificeren
 
-![Gegevensimportbestand](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+![ het invoerdossier van Gegevens ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. Klikken **[!UICONTROL Choose File]** om het te importeren bestand te selecteren.
+1. Klik op **[!UICONTROL Choose File]** om het bestand te selecteren dat u wilt importeren.
 
-1. Zoek het CSV-bestand dat u wilt importeren en klik op **[!UICONTROL Open]**.
+1. Zoek het CSV-bestand dat u wilt importeren en klik op **[!UICONTROL Open]** .
 
-1. Voor **[!UICONTROL Images File Directory]**, voert u het relatieve pad in naar de locatie op de Commerce-server waar de geüploade afbeeldingen worden opgeslagen.
+1. Voer bij **[!UICONTROL Images File Directory]** het relatieve pad in naar de locatie op de Commerce-server waar de geüploade afbeeldingen worden opgeslagen.
 
-   Bijvoorbeeld: `product_images`.
+   Bijvoorbeeld: `product_images` .
 
    >[!NOTE]
    >
-   >Vanaf de Adobe Commerce en de Magento Open Source `2.3.2` release, het pad dat is opgegeven in _[!UICONTROL Images File Directory]_schakelt voor het importeren naar de basismap van de afbeelding samengevoegd: `<Magento-root-folder>/var/import/images`. Plaats bijvoorbeeld de `product_images` in de `<Magento-root-directory>/var/import/images/product_images` map. De basismap met importimages kan worden geconfigureerd in de `\Magento\ImportExport\etc\config.xml` bestand. Als de externe opslagmodule is ingeschakeld, importeert u bestanden naar de `<remote-storage-root-directory>/var/import/images/product_images` map.
+   >Vanaf de release Adobe Commerce en Magento Open Source `2.3.2` wordt het pad dat in _[!UICONTROL Images File Directory]_is opgegeven, samengevoegd voor import naar de basismap images: `<Magento-root-folder>/var/import/images` . Plaats bijvoorbeeld de bestanden `product_images` in de map `<Magento-root-directory>/var/import/images/product_images` . De basismap met importimages kan in het `\Magento\ImportExport\etc\config.xml` -bestand worden geconfigureerd. Als de externe opslagmodule is ingeschakeld, importeert u bestanden naar de map `<remote-storage-root-directory>/var/import/images/product_images` .
 
-   Ga voor meer informatie over het importeren van productafbeeldingen naar [Afbeeldingen van producten importeren](data-import-product-images.md).
+   Meer over het invoeren van productbeelden leren, zie [ productafbeeldingen van de Invoer ](data-import-product-images.md).
 
 ### Stap 4: controleer de importgegevens
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Check Data]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Check Data]** .
 
 1. Wacht even totdat het validatieproces is voltooid.
 
    Als de importgegevens geldig zijn, wordt het volgende bericht weergegeven:
 
-   ![Bericht met succes - bestand is geldig](./assets/data-import-validation-message.png){width="600"}
+   ![ bericht van het Succes - het dossier is geldig ](./assets/data-import-validation-message.png){width="600"}
 
-1. Als het bestand geldig is, klikt u **[!UICONTROL Import]**.
+1. Klik op **[!UICONTROL Import]** als het bestand geldig is.
 
    Als dat niet het geval is, verhelpt u elk probleem met de gegevens in het bericht en probeert u het bestand opnieuw te importeren.
 
@@ -167,23 +167,23 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
    Als een foutbericht wordt weergegeven in de resultaten van de validatie, verhelpt u het probleem in de gegevens en importeert u het bestand opnieuw.
 
-   ![Foutbericht - URL-sleutel bestaat al](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![ het bericht van de Fout - sleutel URL bestaat reeds ](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    Er verschijnt een bericht wanneer het importeren is voltooid.
 
 ## Historie importeren
 
-De handel houdt een verslag van gegevens bij die in uw opslag zijn ingevoerd, met inbegrip van de begindatum en de tijd, de gebruiker, de uitvoeringstijd, en een verbinding aan het ingevoerde dossier. De _Uitvoeringstijd_ is de duur van het importproces.
+Commerce houdt een record bij met gegevens die in uw winkel zijn geïmporteerd, zoals de begindatum en -tijd, de gebruiker, de uitvoeringstijd en een koppeling naar het geïmporteerde bestand. De _Tijd van de Uitvoering_ is de duur van het de invoerproces.
 
-**_De importgeschiedenis bekijken:_**
+**_om de de invoergeschiedenis te bekijken:_**
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
 
-![Importgeschiedenis gegevens](./assets/data-import-history.png){width="600" zoomable="yes"}
+![ de invoergeschiedenis van Gegevens ](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Standaard bevinden bestanden met importgeschiedenis zich in de `<Magento-root-directory>/var/import_history` map. Als de externe opslagmodule is ingeschakeld, bevinden de bestanden met importhistorie zich in het dialoogvenster `<remote-storage-root-directory>/import_export/import_history` map.
+>Standaard bevinden de bestanden met importhistorie zich in de map `<Magento-root-directory>/var/import_history` . Als de externe opslagmodule is ingeschakeld, bevinden de bestanden met importhistorie zich in de map `<remote-storage-root-directory>/import_export/import_history` .
 
 | Veld | Beschrijving |
 |--- |--- |
@@ -197,4 +197,4 @@ Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Data T
 
 {style="table-layout:auto"}
 
-Als u het dialoogvenster _Geïmporteerd/Fout_ bestand, klikt u op **[!UICONTROL Download]**.
+Om het _Geïmporteerde/Fout_ dossier te downloaden, klik **[!UICONTROL Download]**.

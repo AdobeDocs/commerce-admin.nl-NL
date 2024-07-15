@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,20 @@ Het vermogen van het Beheer van het Bedrijf stroomlijnt bedrijfsverrichtingen vo
 
 Bouw een bedrijfshiërarchie van de de detailpagina van het Bedrijf.
 
-![Companies Grid](./assets/company-detail-view.png){width="700" zoomable="yes"}
+![ het Net van Bedrijven ](./assets/company-detail-view.png){width="700" zoomable="yes"}
 
 ## De pagina Bedrijfsgegevens openen
 
-1. Van de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Van _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Open de pagina met bedrijfsdetails in het net van Bedrijven voor het moederbedrijf door **[!UICONTROL Edit]** handeling.
+1. Open de pagina met bedrijfsdetails in het raster Bedrijven voor het moederbedrijf door de handeling **[!UICONTROL Edit]** te selecteren.
 
-Zie de [Bedrijfsaccounts beheren](account-company-manage.md) voor meer informatie over het netwerk van Bedrijven.
+Zie [ bedrijfsrekeningen beheren ](account-company-manage.md) voor meer informatie over het net van Bedrijven.
 
 ## [!UICONTROL Company Hierarchy]
 
-Bij de initiële oprichting van een bedrijf [!UICONTROL Company Hierarchy] het raster is leeg wanneer u het uitbreidt. Nadat een bedrijf is gemaakt, kunnen Admin-gebruikers met de juiste machtigingen de opdracht [!UICONTROL Company Hierarchy] een moedermaatschappij op te richten door de aangewezen moedermaatschappij te bewerken en daarmee verbonden ondernemingen toe te wijzen.
+Bij het maken van het eerste bedrijf is het raster [!UICONTROL Company Hierarchy] leeg wanneer u het uitbreidt. Nadat een bedrijf is gemaakt, kunnen Admin-gebruikers met de juiste machtigingen de [!UICONTROL Company Hierarchy] gebruiken om een organisatie van een moederbedrijf te bouwen door het aangewezen moederbedrijf te bewerken en verwante bedrijven toe te wijzen.
 
-![Hiërarchieraster voor bedrijven](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![ het Net van de Hiërarchie van Bedrijven ](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Zie [cen en cessie aan ondernemingen ontnemen](assign-companies.md) voor meer informatie over beschikbare acties in het [!UICONTROL Company Hierarchy] raster.
+Zie [ toewijzen en unassign bedrijven ](assign-companies.md) voor meer informatie over beschikbare acties in het [!UICONTROL Company Hierarchy] net.

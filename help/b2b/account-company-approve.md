@@ -13,40 +13,40 @@ ht-degree: 0%
 
 # Een bedrijfsaccount goedkeuren
 
-De status van de verzoeken die van de winkel worden ontvangen om een bedrijf op te richten is `Pending Approval` tot het verzoek door de opslagbeheerder wordt herzien, en of goedgekeurd of verworpen. De status van een bedrijfsaccount kan op een van de volgende manieren worden ingesteld:
+De status van aanvragen die worden ontvangen van de winkel om een bedrijf te maken, is `Pending Approval` totdat het verzoek is doorgenomen door de beheerder van de winkel. De aanvraag is goedgekeurd of afgewezen. De status van een bedrijfsaccount kan op een van de volgende manieren worden ingesteld:
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-U kunt ook de opdracht [Handelingencontrole](account-company-manage.md) om veelvoudige bedrijfverzoeken goed te keuren.
+U kunt de [ controle van Acties ](account-company-manage.md) ook gebruiken om veelvoudige bedrijfverzoeken goed te keuren.
 
-![In behandeling](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![ in afwachting van Goedkeuring ](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Een bedrijfsaccount goedkeuren dat in behandeling is
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   U kunt de _[!UICONTROL Columns]_selector boven het raster om de **[!UICONTROL Status]**kolom.
+   U kunt de kiezer _[!UICONTROL Columns]_boven het raster gebruiken om de kolom **[!UICONTROL Status]**weer te geven.
 
-1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Edit]**.
+1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Edit]**.
 
-1. Set **[!UICONTROL Company Status]** tot `Active`.
+1. Stel **[!UICONTROL Company Status]** in op `Active` .
 
-   ![De bedrijfsstatus instellen](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![ plaats de bedrijfstatus ](./assets/company-status-active.png){width="700" zoomable="yes"}
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL Change status]**.
+1. Klik op **[!UICONTROL Change status]** wanneer u wordt gevraagd om te bevestigen.
 
    De bedrijfsbeheerder ontvangt een e-mailbericht dat het bedrijf nu actief is.
 
-1. Indien van toepassing, instellen **[!UICONTROL Sales Representative]** naar een specifieke Admin-gebruikersaccount.
+1. Indien van toepassing, stelt u **[!UICONTROL Sales Representative]** in op een specifieke Admin-gebruikersaccount.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png)  de **[!UICONTROL Account Information]** en de **[!UICONTROL Comment]** veld voor het invoeren van notities over de account.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Account Information]** sectie uit en gebruik het **[!UICONTROL Comment]** gebied om nota&#39;s over de rekening in te gaan.
 
    De opmerkingen zijn niet zichtbaar vanuit de winkel.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
    Er wordt een bevestigingsbericht verzonden naar het bedrijf en de systeembeheerder van het bedrijf dat de bedrijfsaccount is goedgekeurd.
 

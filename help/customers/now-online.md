@@ -1,49 +1,49 @@
 ---
 title: Klanten zijn nu online
-description: De optie _Now Online_ op de knop [!UICONTROL Customers ]worden alle klanten en bezoekers weergegeven die momenteel online in uw winkel zijn.
+description: De _Now Online_ optie op het [!UICONTROL Customers ] menu maakt een lijst van alle klanten en bezoekers die momenteel online in uw opslag zijn.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Klanten zijn nu online
 
-De **[!UICONTROL Now Online]** de optie [!DNL Customers] worden alle klanten en bezoekers weergegeven die momenteel online in uw winkel zijn. Het tijdsinterval dat de klanten zoals momenteel online worden getoond wordt geplaatst in de configuratie, en bepaalt hoe lang [!DNL Customer's] activiteit is zichtbaar vanuit de beheerder. Standaard is het interval 15 minuten. De sessie wordt beëindigd als het toetsenbord tijdens deze periode niet wordt gebruikt en klanten zich opnieuw moeten aanmelden bij hun accounts om verder te gaan met winkelen. Het is belangrijk op te merken dat de inhoud van de winkelwagentjes wordt bewaard voor latere toegang.
+De optie **[!UICONTROL Now Online]** in het menu [!DNL Customers] bevat een lijst met alle klanten en bezoekers die momenteel online in uw winkel zijn. Het tijdsinterval dat klanten zoals momenteel online wordt getoond wordt geplaatst in de configuratie, en bepaalt hoe lang de [!DNL Customer's] activiteit van Admin zichtbaar is. Standaard is het interval 15 minuten. De sessie wordt beëindigd als het toetsenbord tijdens deze periode niet wordt gebruikt en klanten zich opnieuw moeten aanmelden bij hun accounts om verder te gaan met winkelen. Het is belangrijk op te merken dat de inhoud van de winkelwagentjes wordt bewaard voor latere toegang.
 
-![Online klanten](assets/customers-now-online.png){width="700" zoomable="yes"}
+![ Online Klanten ](assets/customers-now-online.png){width="700" zoomable="yes"}
 
 De onlinestatus van klanten wordt alleen bijgewerkt wanneer de klant zich aanmeldt, zich registreert of een andere statusveranderende gebeurtenis. Het omvat gebeurtenissen met betrekking tot winkelwagentjes, zoals het toevoegen, verwijderen en wijzigen van producten.
 
 >[!NOTE]
 >
->Bij paginabezoeken alleen wordt de online status van de klant niet bijgewerkt. Om dergelijke informatie te verzamelen, wordt aanbevolen [Googles Analytics instellen](../merchandising-promotions/google-analytics.md) (alleen of met [Google-tagbeheer](../merchandising-promotions/google-tag-manager.md)) of gebruik andere analysesoftware met Adobe Commerce.
+>Bij paginabezoeken alleen wordt de online status van de klant niet bijgewerkt. Om dergelijke informatie te verzamelen, wordt het geadviseerd aan [ opstellings Googles Analytics ](../merchandising-promotions/google-analytics.md) (alleen of met [ de Manager van de Markering van Google ](../merchandising-promotions/google-tag-manager.md)) of andere analysesoftware met Adobe Commerce te gebruiken.
 
 ## Alle klanten die momenteel online zijn bekijken
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL Online Now]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Online Now]**.
 
 >[!TIP]
 >
->Voor informatie over hoe een online klant een aankoop kan voltooien, raadpleegt u [Hulp bij winkelen](../stores-purchase/introduction.md#shopping-assistance).
+>Voor informatie over het helpen van een online klant voltooit een aankoop, zie [ Shopping hulp ](../stores-purchase/introduction.md#shopping-assistance).
 
 ## Vorm het tijdinterval
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Customers]** en kiest u **[!UICONTROL Customer Configuration]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Customer Configuration]** .
 
-1. Breid uit **[!UICONTROL Online Customers Options]** en voer de volgende handelingen uit:
+1. Vouw de sectie **[!UICONTROL Online Customers Options]** uit en voer de volgende handelingen uit:
 
-   ![Online klantopties](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
+   ![ Online de opties van de Klant ](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
 
-   - Voor **[!UICONTROL Online Minutes Interval]**, voert u het aantal minuten in dat de sessie van de klant van de beheerder kan worden weergegeven. Laat het veld leeg om het standaardinterval van 15 minuten te accepteren.
+   - Voer bij **[!UICONTROL Online Minutes Interval]** het aantal minuten in dat de sessie van de klant van de beheerder moet worden weergegeven. Laat het veld leeg om het standaardinterval van 15 minuten te accepteren.
 
-   - Voor **[!UICONTROL Customer Data Lifetime]**, voert u het aantal minuten in voordat de niet-opgeslagen gegevens die de klant heeft ingevoerd, verlopen.
+   - Voer bij **[!UICONTROL Customer Data Lifetime]** het aantal minuten in voordat de niet-opgeslagen gegevens die de klant heeft ingevoerd, verlopen.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Kolombeschrijvingen
 

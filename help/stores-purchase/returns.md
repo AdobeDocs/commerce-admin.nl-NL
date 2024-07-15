@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Retourneert
 
-A _geretourneerde handelsvergunning_ (RMA) kan worden toegekend aan klanten die een product willen retourneren ter vervanging of terugbetaling. Doorgaans neemt de klant contact op met de handelaar om terugbetaling aan te vragen. Indien goedgekeurd, wordt een uniek aantal RMA toegewezen om het teruggekeerde product te identificeren. In de configuratie, kunt u of RMA voor alle producten toelaten of RMA voor slechts bepaalde producten toestaan. De _[!UICONTROL Returns]_Het net maakt een lijst van de huidige teruggekeerde handelsmiddelverzoeken (RMAs) en wordt gebruikt om nieuwe terugkeerverzoeken in te gaan.
+A _teruggekeerde handelsvergunning_ (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. Doorgaans neemt de klant contact op met de handelaar om terugbetaling aan te vragen. Indien goedgekeurd, wordt een uniek aantal RMA toegewezen om het teruggekeerde product te identificeren. In de configuratie, kunt u of RMA voor alle producten toelaten of RMA voor slechts bepaalde producten toestaan. Het raster _[!UICONTROL Returns]_bevat een lijst met de huidige geretourneerde handelswijzigingsverzoeken (RMA&#39;s) en wordt gebruikt om nieuwe retourverzoeken in te voeren.
 
-![Retourneert raster](./assets/return.png){width="600" zoomable="yes"}
+![ keert net ](./assets/return.png){width="600" zoomable="yes"} terug
 
 RMAs kan voor eenvoudige, gegroepeerde, configureerbare, en bundelproducttypes worden uitgegeven. RMA&#39;s zijn echter niet beschikbaar voor virtuele producten, downloadbare producten en cadeaukaarten.
 
@@ -29,19 +29,19 @@ RMAs kan voor eenvoudige, gegroepeerde, configureerbare, en bundelproducttypes w
 | [!UICONTROL Ordered] | De datum en het tijdstip waarop de order is geplaatst |
 | [!UICONTROL Customer] | De naam van de klant of koper die de bestelling heeft geplaatst |
 | [!UICONTROL Status] | Retourstatus. Opties: `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** Hiermee wordt de geretourneerde waarde geopend in de bewerkingsmodus. |
+| [!UICONTROL Action] | **[!UICONTROL View]** opent de terugkeer in uitgeeft wijze. |
 
 {style="table-layout:auto"}
 
 ## RMA en retourworkflow
 
-1. **Aanvraag ontvangen** - Indien [enabled](rma-configure.md#enable-rmas-for-your-store) voor de winkel kunnen zowel geregistreerde klanten als gasten een RMA aanvragen. U kunt [een RMA-verzoek indienen in de beheerder](#create-a-return-request-in-the-admin).
+1. **ontvangt verzoek** - als [ ](rma-configure.md#enable-rmas-for-your-store) voor de storefront wordt toegelaten, zowel kunnen de geregistreerde klanten als de gasten om een RMA verzoeken. U kunt ook [ een verzoek RMA in Admin ](#create-a-return-request-in-the-admin) voorleggen.
 
-2. **RMA uitgegeven** - Nadat u het verzoek hebt overwogen, kunt u het gedeeltelijk, volledig of geannuleerd. Als u de terugzending toestaat en ermee akkoord gaat de terugzending te betalen, kunt u een bestelling van Admin met een gesteunde drager tot stand brengen.
+2. **uitgegeven RMA** - na het overwegen van het verzoek, kunt u het gedeeltelijk, volledig machtigen, of het verzoek annuleren. Als u de terugzending toestaat en ermee akkoord gaat de terugzending te betalen, kunt u een bestelling van Admin met een gesteunde drager tot stand brengen.
 
-3. **Ontvangen goederen en verwerkte terugzending van producten** - Het volgende stroomdiagram beschrijft de operationele orde om het terugkeerproces te voltooien:
+3. **ontvangen Merchandies en verwerkte productterugkeer** - het volgende stroomdiagram beschrijft de operationele orde om het terugkeerproces te voltooien:
 
-   ![Workflow voor teruggave van producten](./assets/workflow-customer-returns.png){width="500"}
+   ![ Werkschema van de Terugkeer van het Product ](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA-status
 
@@ -64,45 +64,45 @@ Tijdens zijn levenscyclus, kan een teruggekeerde handelsvergunning (RMA) vele to
 
 ## Een verzoek om terugkeer maken in de beheerder
 
-Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand brengen. Klanten kunnen [een verzoek om terugkeer maken](rma-customer-experience.md) op de winkel van Adobe Commerce.
+Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand brengen. De klanten kunnen [ een terugkeerverzoek ](rma-customer-experience.md) op de storefront voor een opslag van Adobe Commerce tot stand brengen.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
 1. Klik op **[!UICONTROL New Return Request]**.
 
-1. Om een terugkeerverzoek tot stand te brengen, klik een orde met een `Complete` status.
+1. Als u een retouraanvraag wilt maken, klikt u op een bestelling met de status `Complete` .
 
-1. Onder de _[!UICONTROL Return Information]_selecteert u de **[!UICONTROL Return Items]**tab.
+1. Selecteer onder de sectie _[!UICONTROL Return Information]_de tab **[!UICONTROL Return Items]**.
 
-1. Als u items wilt toevoegen die u wilt retourneren, klikt u op **[!UICONTROL Add Items]**.
+1. Klik op **[!UICONTROL Add Items]** om items toe te voegen die u wilt retourneren.
 
-1. Schakel het selectievakje voor het vereiste product in en klik op **[!UICONTROL Add Selected Product to returns]**.
+1. Schakel het selectievakje voor het vereiste product in en klik op **[!UICONTROL Add Selected Product to returns]** .
 
-1. Voor **[!UICONTROL Requested]**, voert u het aantal objecten in dat moet worden geretourneerd.
+1. Voer bij **[!UICONTROL Requested]** het aantal items in dat moet worden geretourneerd.
 
-1. Set **[!UICONTROL Return Reason]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Return Reason]** in op een van de volgende opties:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Als de reden voor het retourneren anders is dan de vermelde opties, kunt u uw eigen keuze invoeren als u de optie `Other` -optie.
+   Als de reden voor de return anders is dan de vermelde keuzes, kunt u uw eigen keuzes invoeren als u de optie `Other` selecteert.
 
-1. Set **[!UICONTROL Item Condition]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Item Condition]** in op een van de volgende opties:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Set **[!UICONTROL Resolution]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Resolution]** in op een van de volgende opties:
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. Als u een terugkeer wilt maken, klikt u op **[!UICONTROL Submit Returns]**.
+1. Klik op **[!UICONTROL Submit Returns]** om een return te maken.
 
-   ![Aangevraagde RMA-items](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![ Gevraagde Punten RMA ](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   Het nieuwe RMA-verzoek wordt weergegeven op het tabblad **[!UICONTROL Returns]** pagina met een `Pending` status.
+   Het nieuwe RMA-verzoek wordt weergegeven op de **[!UICONTROL Returns]** -pagina met de status `Pending` .

@@ -14,23 +14,23 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De [Punten omkeren](rewards-loyalty.md) op de rekening van de klant blijkt dat het huidige saldo van de door de klant verdiende beloningspunten en een historie van hun beloningspunten.
+De [ Punten van de Terugkeer ](rewards-loyalty.md) sectie van de klantenrekening toont aan dat het huidige saldo van beloningspunten door de klant, en een geschiedenis van hun evenwicht van het opbrengstpunt wordt verdiend.
 
-![Punten omkeren](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![ de Punten van de Beloning ](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## De beloningspunten tijdens de afrekening inwisselen
 
-Indien [Wisselkoers](reward-exchange-rates.md) with `Points to Currency` de richting wordt gevormd, kunnen de klanten beloningspunten tijdens de controle gebruiken.
+Als [ het Tarief van de Uitwisseling van de Winst ](reward-exchange-rates.md) met `Points to Currency` richting wordt gevormd, kunnen de klanten beloningspunten tijdens de controle gebruiken.
 
 1. Na het toevoegen van alle benodigde producten aan hun winkelwagentje navigeert de klant naar de kassa.
 
-1. Voer alle vereiste verzendgegevens in en navigeer naar de _Reviseren en betalen_ stap.
+1. Ga alle vereiste het verschepen informatie in en navigeert aan de _Controle &amp; stap van Betalingen_.
 
-1. In de _[!UICONTROL Reward points]_controleert u het aantal beschikbare punten en de valutawaarde ervan.
+1. In de sectie _[!UICONTROL Reward points]_worden het aantal beschikbare punten en de bijbehorende valutawaarde gecontroleerd.
 
-1. Klikken **[!UICONTROL Use reward points]**.
+1. Klik op **[!UICONTROL Use reward points]** .
 
-![Punten omkeren bij afrekenen](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
+![ Punten van de Beloning op controle ](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 
 De beschikbare puntkorting wordt toegepast op subtotal.
 

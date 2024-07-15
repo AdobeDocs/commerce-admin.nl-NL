@@ -16,22 +16,22 @@ Adobe Commerce en Magento Open Source worden automatisch opnieuw berekend telken
 
 Het opnieuw indexeren van gegevens versnelt de verwerking, en vermindert de tijd de klant moet wachten. Als je bijvoorbeeld de prijs van een object wijzigt van $4,99 in $3,99, wijzigt Commerce de gegevens opnieuw om de prijswijziging in de winkel aan te geven. Zonder indexering zou Commerce de prijs van elk product op de vlucht moeten berekenen; regels voor winkelwagenprijzen, prijzen van pakketten, kortingen, prijzen op lagen, enzovoort. Het laden van de prijs voor een product kan langer duren dan de klant bereid is te wachten.
 
-De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Er verschijnt een systeembericht als een [snijtaak](cron.md) is niet beschikbaar voor het bijwerken van indexen die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
+De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Een systeembericht verschijnt als de baan van de a [ cron ](cron.md) niet beschikbaar is om het even welke indexen bij te werken die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
 
 >[!NOTE]
-> Handelaren van Adobe Commerce die Live Search, Catalog Service of Product Recommendations gebruiken, kunnen een [Op SaaS gebaseerde prijsindexer](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
+> De handelaars van Adobe Commerce die Live Onderzoek, de Dienst van de Catalogus, of het Product Recommendations gebruiken hebben de optie om op a [ op SaaS-Gebaseerde prijsindexeerder ](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html) te gebruiken.
 
-Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De index en het bericht worden gewist op basis van de herindexmodus en de mogelijke acties die u uitvoert. Raadpleeg voor meer informatie over indexering de [Hoe de toepassing indexering implementeert](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in de _PHP-ontwikkelaarsgids_.
+Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De index en het bericht worden gewist op basis van de herindexmodus en de mogelijke acties die u uitvoert. Voor meer gedetailleerde informatie over het indexeren, zie [ hoe de toepassing het indexeren ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in de _Gids van de Ontwikkelaar PHP_ uitvoert.
 
-![Indexbeheer - handelingen](./assets/index-management.png){width="700" zoomable="yes"}
+![ Beheer van de Index - acties ](./assets/index-management.png){width="700" zoomable="yes"}
 
 - Index Management heeft een iets andere presentatie voor platte productcatalogi.
-- Om problemen te voorkomen wanneer meerdere Admin-gebruikers objecten bijwerken die automatisch opnieuw indexeren activeren, wordt u aangeraden alle indexen volgens schema uit te voeren [kroonbanen](cron.md). Anders kunnen objecten met onderlinge afhankelijkheden, telkens wanneer een object wordt opgeslagen, een impasse veroorzaken. Symptomen van een impasse zijn onder andere een hoog CPU-gebruik en MySQL-fouten. Als beste praktijken, adviseert men dat u geplande indexering gebruikt.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Alleen Adobe Commerce) Standaard worden beheeracties, zoals opnieuw indexeren, vastgelegd door het systeem en kunnen deze worden weergegeven in het dialoogvenster [Rapport met handelingslogboeken](action-log-report.md). Het registreren van de actie kan in worden gevormd [Logboekregistratie van beheerhandelingen](action-log.md) in de geavanceerde beheerinstellingen van uw winkel.
+- Om problemen te vermijden wanneer de veelvoudige gebruikers Admin voorwerpen bijwerken die automatische het opnieuw indexeren teweegbrengen, wordt het geadviseerd dat u alle indexen plaatst om op programma te lopen als [ bouwbanen ](cron.md). Anders kunnen objecten met onderlinge afhankelijkheden, telkens wanneer een object wordt opgeslagen, een impasse veroorzaken. Symptomen van een impasse zijn onder andere een hoog CPU-gebruik en MySQL-fouten. Als beste praktijken, adviseert men dat u geplande indexering gebruikt.
+- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) door gebrek, worden de beheerderacties, zoals het opnieuw indexeren, geregistreerd door het systeem en kunnen in het [ Rapport van de Logboeken van de Actie ](action-log-report.md) worden bekeken. Het registreren van de actie kan in het [ Loggen van Acties Admin ](action-log.md) in geavanceerde adminmontages van uw opslag worden gevormd.
 
 ## Aanbevolen werkwijzen voor herindexering
 
-Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [Cursussen](cache-management.md) Sla geladen gegevens, afbeeldingen, indelingen en dergelijke op voor betere prestaties bij het laden en openen van de winkel.
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. ](cache-management.md) sparen de Caches van 0} geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.[
 
 - Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in Commerce.
 - Als u een grote winkel of meerdere winkels hebt, kunt u indexeerders zoals categorie en producten instellen op geplande snijtaken vanwege de mogelijkheid van herindexering. U kunt de herdex instellen volgens een schema gedurende niet-piekuren.
@@ -43,13 +43,13 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 >[!IMPORTANT]
 >
->Voor winkels die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) en hebben Elasticsearch ingesteld als de volledige tekst (`catalogsearch_fulltext`) indexer: De fulltext-index moet opnieuw worden uitgevoerd nadat de bulkmachtigingen zijn gewijzigd of wanneer de indexfunctie &#39;permissions&#39; in de modus &#39;Gepland&#39; staat.
+>Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke verandering van bulktoestemmingen opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
 1. Schakel het selectievakje in voor elke index die u wilt wijzigen.
 
-1. Set **[!UICONTROL Actions]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Actions]** in op een van de volgende opties:
 
    - `Update on Save`
    - `Update by Schedule`
@@ -57,26 +57,26 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
    >[!IMPORTANT]
    >
-   >Het Net van de Klant kan slechts opnieuw worden gedexeerd gebruikend `Update on Save`. Deze index doet dit **_niet_** ondersteuning `Update by Schedule`.
+   >Het raster van de klant kan slechts opnieuw worden geformatteerd gebruikend `Update on Save`. Deze index **_steunt_** niet `Update by Schedule`.
 
-1. Klikken **[!UICONTROL Submit]** om de wijziging toe te passen op elke geselecteerde index.
+1. Klik op **[!UICONTROL Submit]** om de wijziging toe te passen op elke geselecteerde index.
 
-   **Kolommen Indexbeheer**
+   **de kolommen van het Beheer van de Index**
 
    | Kolom | Beschrijving |
    | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | De naam van de index. |
    | [!UICONTROL Description] | Een beschrijving van de index. |
-   | [!UICONTROL Mode] | Hiermee wordt de huidige updatemodus voor elke index aangegeven. Opties: <br/>**[!UICONTROL Update on Save]**- De index wordt ingesteld op bijwerken wanneer een entiteitswijziging wordt opgeslagen. Deze entiteiten omvatten producten, categorieën, en klanten. Wanneer de opslagactie is voltooid, wordt een reeks stappen uitgevoerd om de wijzigingen vast te leggen en de index bij te werken. De pagina van het Beheer van de Index werkt en spoelt het herindexbericht binnen een minuut of twee bij.<br/>**[!UICONTROL Update on Schedule]** - De index is ingesteld op een update volgens een schema [snijtaak](cron.md). De bouwbaan omvat het planningsinterval voor het opnieuw indexeren, schrijvend updates aan de index wanneer looppas. |
+   | [!UICONTROL Mode] | Hiermee wordt de huidige updatemodus voor elke index aangegeven. Opties: <br/>**[!UICONTROL Update on Save]**- De index wordt ingesteld om bij te werken wanneer een entiteitswijziging wordt opgeslagen. Deze entiteiten omvatten producten, categorieën, en klanten. Wanneer de opslagactie is voltooid, wordt een reeks stappen uitgevoerd om de wijzigingen vast te leggen en de index bij te werken. De pagina van het Beheer van de Index werkt en spoelt het herindexbericht binnen een minuut of twee bij.<br/>**[!UICONTROL Update on Schedule]** - de index wordt geplaatst om op programma volgens de baan van de a [ cron ](cron.md) bij te werken. De bouwbaan omvat het planningsinterval voor het opnieuw indexeren, schrijvend updates aan de index wanneer looppas. |
    | [!UICONTROL Schedule Status] | Geeft de statusupdates van het schema weer. |
-   | [!UICONTROL Status] | Hiermee geeft u een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is bijgewerkt.<br/>**[!UICONTROL Suspended]** - Opnieuw indexeren is onderbroken. <br/>**[!UICONTROL Processing]**- Er wordt momenteel opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controleren of [kraan](cron.md) is beschikbaar en correct gevormd. |
+   | [!UICONTROL Status] | Geeft een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is up-to-date.<br/>**[!UICONTROL Suspended]** - Opnieuw indexeren is gepauzeerd. <br/>**[!UICONTROL Processing]**- Er wordt momenteel opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controle om te zien of is [ cron ](cron.md) beschikbaar en correct gevormd. |
    | [!UICONTROL Updated] | Geeft de datum en tijd aan waarop een index voor het laatst is bijgewerkt. |
 
    {style="table-layout:auto"}
 
 ## Opnieuw indexeren met de opdrachtregel
 
-Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [Opnieuw indexeren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} in het dialoogvenster _Configuratiegids_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex) opnieuw indexeren [ {:target= &quot;leeg&quot;} in de _Gids van de Configuratie_.
 
 ## Gebeurtenissen van indextrigger
 
@@ -84,25 +84,25 @@ Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. V
 
 | Indextype | Gebeurtenis voor opnieuw indexeren |
 | ---------- | ---------------- |
-| [!UICONTROL Product Prices] | Klantengroep toevoegen<br/>Configuratieinstellingen wijzigen |
-| [!UICONTROL Flat catalog product data] | Winkel toevoegen<br/>Winkelgroep toevoegen<br/>Kenmerk toevoegen, bewerken of verwijderen (voor zoeken en filteren) |
-| [!UICONTROL Flat catalog category data] | Winkel toevoegen<br/>Winkelgroep toevoegen<br/>Kenmerk toevoegen, bewerken of verwijderen (voor zoeken en filteren) |
-| [!UICONTROL Catalog category/product index] | Producten toevoegen, bewerken of verwijderen (enkelvoudig, massa en importeren)<br/>Relaties tussen producten en categorieën wijzigen<br/>Categorieën toevoegen, bewerken of verwijderen<br/>Opslag toevoegen of verwijderen<br/>Winkelgroepen verwijderen<br/>Websites verwijderen |
-| [!UICONTROL Catalog search index] | Producten toevoegen, bewerken of verwijderen (enkelvoudig, massa en importeren)<br/>Opslag toevoegen of verwijderen<br/>Winkelgroepen verwijderen<br/>Websites verwijderen |
+| [!UICONTROL Product Prices] | De configuratiemontages van de Verandering van de klantengroep <br/> toevoegen |
+| [!UICONTROL Flat catalog product data] | Voeg opslag <br/> toe toevoegt opslaggroep <br/>, geef, of schrap attributen (voor het zoeken en het filtreren) toe |
+| [!UICONTROL Flat catalog category data] | Voeg opslag <br/> toe toevoegt opslaggroep <br/>, geef, of schrap attributen (voor het zoeken en het filtreren) toe |
+| [!UICONTROL Catalog category/product index] | Voeg toe, geef uit, of schrap producten (enige, massa, en de invoer) <br/> product-aan-categorie relaties van de Verandering <br/> toe, geef, of schrap categorieën uit <br/> voeg of schrap opslag <br/> de groepen van de de opslagplaats van de Schrapping <br/> websites van de Schrapping toe |
+| [!UICONTROL Catalog search index] | Voeg toe, geef uit, of schrap producten (enige, massa, en de invoer) <br/> toe of schrap opslag <br/> de groepen van de de opslagplaats van de Schrapping <br/> websites van de Schrapping |
 | [!UICONTROL Stock status index] | Wijzig de configuratie-instellingen voor de voorraad. |
-| [!UICONTROL Category permissions index] | Winkel toevoegen<br/>Winkelgroep toevoegen<br/>Kenmerk toevoegen, verwijderen of bijwerken (voor zoeken en filteren) |
+| [!UICONTROL Category permissions index] | Voeg opslag <br/> toe toevoegt opslaggroep <br/>, schrapt, of updateattribuut (voor het zoeken en het filtreren) |
 
 {style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
->Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Zie [Plat catalogusproduct gebruiken](../catalog/catalog-flat.md) voor meer informatie .
+>Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Zie [ het Platte Product van de Catalogus van het Gebruik ](../catalog/catalog-flat.md) voor meer informatie.
 
 ## Indexhandelingen en -besturingselementen
 
 | Handeling | Resultaat | Besturingselementen |
 | ------ | ------ | -------- |
-| Een winkel, nieuwe klantengroep of een handeling maken die in `Actions that Cause a Full Reindex` | Volledige herclassificatie | De volledige herindexering wordt uitgevoerd volgens het schema dat door uw Adobe Commerce of Magento Open Source wordt bepaald bouwbaan. |
+| Een winkel, nieuwe klantengroep of een handeling maken die wordt vermeld in `Actions that Cause a Full Reindex` | Volledige herclassificatie | De volledige herindexering wordt uitgevoerd volgens het schema dat door uw Adobe Commerce of Magento Open Source wordt bepaald bouwbaan. |
 | Bulksgewijs laden van items (Commerce importeren/exporteren, Direct SQL-query en elke andere methode die gegevens rechtstreeks toevoegt, wijzigt of verwijdert) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door uw Commerce-bouwtaak. |
 | Bereik wijzigen (bijvoorbeeld van algemeen naar website) | Gedeeltelijke herindex (alleen gewijzigde items worden opnieuw gedesdexeerd) | Met de frequentie die wordt bepaald door uw Commerce-bouwtaak. |
 
@@ -112,10 +112,10 @@ Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. V
 
 | Indexer | Gebeurtenis |
 | ------- | ----- |
-| [!UICONTROL Catalog Category Flat Indexer] | Een webwinkel maken<br/>Een webwinkelweergave maken<br/>Maak of verwijder een kenmerk dat een van de volgende kenmerken heeft:<br/>- Doorzoekbaar of zichtbaar in geavanceerd zoeken<br/>- Filterbaar<br/>- Filterbaar in zoekopdracht<br/>- Gebruikt voor sorteren<br/>Wijzig een bestaand kenmerk in een van de voorgaande kenmerken.<br/>Opties voor één winkelcentrum voor categorieën inschakelen |
-| [!UICONTROL Catalog Product Flat Indexer] | Een webwinkel maken<br>Een webwinkelweergave maken<br/>Maak of verwijder een kenmerk dat een van de volgende kenmerken heeft:<br/>- Doorzoekbaar of zichtbaar in geavanceerd zoeken<br>- Filterbaar<br>- Filterbaar in zoekopdracht<br/>- Gebruikt voor sorteren <br/>Wijzig een bestaand kenmerk in een van de voorgaande kenmerken.<br/>Opties voor één winkelcentrum voor categorieën inschakelen |
-| [!UICONTROL Stock status indexer] | Wanneer het volgende _Opties voor catalogusinventarisatie_ wijziging in de systeemconfiguratie:<br/>`Stock Options` - Weergave producten uit voorraad<br/>`Product Stock Options` - Voorraad beheren |
-| [!UICONTROL Price Indexer] | Een klantengroep toevoegen.<br/>Wanneer een of meer van de volgende opties in de catalogusinventarisatie worden gewijzigd in de systeemconfiguratie:<br/>`Stock Options` - Weergave producten uit voorraad<br/>`Product Stock Options` - Voorraad beheren<br/>`Price` - Bereik catalogusprijs |
-| [!UICONTROL Category or Product Indexer] | Een winkelweergave maken of verwijderen<br/>Een winkel verwijderen<br/>Een website verwijderen |
+| [!UICONTROL Catalog Category Flat Indexer] | Creeer een Webopslag <br/> creeer een mening van de Webopslag <br/>, of schrap een attribuut dat om het even welk volgend is:<br/> - Doorzoekbaar of zichtbaar in geavanceerd onderzoek <br/> - Filterbaar <br/> - Filterbaar in onderzoek <br/> - Gebruikt voor het sorteren <br/> Verandert een bestaand attribuut om het even welk van het voorafgaande te zijn.<br/> toelaten de vlakke opties van de categorieopslag |
+| [!UICONTROL Catalog Product Flat Indexer] | Creeer een Webopslag <br> creeer een mening van de Webopslag <br/>, of schrap een attribuut dat om het even welk volgend is:<br/> - Doorzoekbaar of zichtbaar in geavanceerd onderzoek <br> - Filterbaar <br> - Filterbaar in onderzoek <br/> - Gebruikt voor het sorteren <br/> Verandert een bestaand attribuut om het even welk van het voorafgaande te zijn.<br/> toelaten de vlakke opties van de categorieopslag |
+| [!UICONTROL Stock status indexer] | Wanneer de volgende _opties van de Inventaris van de Catalogus_ verandering in de systeemconfiguratie:<br/>`Stock Options` - de Vertoning uit Producten van de Voorraad <br/>`Product Stock Options` - beheert Voorraad |
+| [!UICONTROL Price Indexer] | Een klantengroep toevoegen.<br/> wanneer om het even welke volgende opties van de Inventaris van de Catalogus in de systeemconfiguratie veranderen:<br/>`Stock Options` - de Vertoning uit Producten van de Voorraad <br/>`Product Stock Options` - beheert Voorraad <br/>`Price` - de Reikwijdte van de Prijs van de Catalogus |
+| [!UICONTROL Category or Product Indexer] | Creeer of schrap een opslagmening <br/> Schrap een opslag <br/> een website schrap |
 
 {style="table-layout:auto"}

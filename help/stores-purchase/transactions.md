@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Transacties
 
-De _Transacties_ Deze pagina bevat een overzicht van alle betalingsactiviteiten die hebben plaatsgevonden tussen je winkel en een betalingssysteem en biedt toegang tot meer gedetailleerde informatie.
+De _pagina van Transacties_ maakt een lijst van alle betalingsactiviteit die tussen uw opslag en een betalingssysteem heeft plaatsgevonden, en verleent toegang tot meer gedetailleerde informatie.
 
 ## Transacties weergeven
 
-Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
-![Transactieraster](./assets/transactions.png){width="600" zoomable="yes"}
+![ het net van Transacties ](./assets/transactions.png){width="600" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -41,7 +41,7 @@ Op de pagina met transactiedetails kunt u de transactiedetails en het raster van
 
 ### Transactiegegevens
 
-Deze sectie bevat informatie over de transactie en bevat een koppeling naar de orderpagina in het dialoogvenster **Order-id** kolom.
+Deze sectie omvat informatie betreffende de transactie, en verstrekt een verbinding aan de ordepagina in de **identiteitskaart van de Orde** kolom.
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -55,7 +55,7 @@ Deze sectie bevat informatie over de transactie en bevat een koppeling naar de o
 
 ### Onderliggende transacties
 
-Onderliggende transacties worden in het raster weergegeven nadat de facturen voor [orders](orders.md). Met deze indeling kunt u de transactiegeschiedenis bijhouden aan de hand van een transactiehiërarchie.
+De transacties van het kind worden getoond in het net na het creëren van facturen voor [ orden ](orders.md). Met deze indeling kunt u de transactiegeschiedenis bijhouden aan de hand van een transactiehiërarchie.
 
 ### [!UICONTROL Transaction Details]
 
@@ -86,4 +86,4 @@ Deze sectie bevat de aanvullende informatie voor een bepaalde transactie. De inf
 
 >[!NOTE]
 >
->Als de transactiegegevens niet beschikbaar of verouderd zijn, klikt u op **[!UICONTROL Fetch]** in de knopbalk om deze bij te werken.
+>Als de transactiedetails niet beschikbaar of verouderd zijn, klik **[!UICONTROL Fetch]** in de knoopbar om hen bij te werken.

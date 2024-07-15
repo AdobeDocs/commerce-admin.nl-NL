@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # De integratie van Experiencen Cloud beheren
 
-Na aanvankelijke enablement, beheer de status van de Experience Cloud integratie door de Handel toe te laten of onbruikbaar te maken Admin Verenigde uitbreiding van de Ervaring.
+Na aanvankelijke enablement, beheer de status van de Experience Cloud integratie door de Commerce Admin Verenigde uitbreiding van de Ervaring toe te laten of onbruikbaar te maken.
 
-- Als Admin van de Handel verenigde de uitbreiding van de Ervaring wordt toegelaten en de beheerderrekeningen zijn [correct geleverd](#manage-admin-user-accounts), kunnen de beheerders van de Handel beschikbare projecten van de Handel van Adobe Experience Cloud bekijken en toegang hebben. De beheerders kunnen tot individuele projecten nog toegang hebben gebruikend Admin URL voor het het projectmilieu van de Handel.
+- Als de Commerce Admin Verenigde Uitbreiding van de Ervaring wordt toegelaten en de beheerderrekeningen [ correct provisioned ](#manage-admin-user-accounts) zijn, kunnen de beheerders van Commerce beschikbare projecten van Commerce van Adobe Experience Cloud bekijken en toegang hebben. Beheerders hebben nog steeds toegang tot afzonderlijke projecten met de beheerdersURL voor de Commerce-projectomgeving.
 
-- Als de Commerce Admin Verenigde Uitbreiding van de Ervaring wordt onbruikbaar gemaakt, is de toegang door Experience Cloud gehandicapt. De beheerders moeten login aan individuele projecten gebruikend Admin URL voor het het projectmilieu van de Handel.
+- Als de Commerce Admin Unified Experience-extensie is uitgeschakeld, is de toegang via het Experience Cloud uitgeschakeld. Beheerders moeten zich aanmelden bij afzonderlijke projecten met de beheerdersinterface voor de Commerce-projectomgeving.
 
 >[!WARNING]
 >
@@ -26,15 +26,15 @@ Na aanvankelijke enablement, beheer de status van de Experience Cloud integratie
 
 ## De integratie beheren vanuit de beheerder
 
-1. Open het menu Opslagconfiguratie in Beheer handel door **[!UICONTROL Stores]** in het navigatiemenu aan de linkerkant en selecteer **[!UICONTROL Configuration]**.
+1. Open in Commerce Admin het menu Store Configuration door **[!UICONTROL Stores]** te selecteren in het navigatiemenu links en vervolgens **[!UICONTROL Configuration]** te selecteren.
 
-1. Selecteer in het menu Configuratie de optie **[!UICONTROL Advanced > Admin]** en breid vervolgens de **[!UICONTROL Unified Experience option]**.
+1. Selecteer **[!UICONTROL Advanced > Admin]** in het menu Configuratie en vouw vervolgens de **[!UICONTROL Unified Experience option]** uit.
 
-   ![Admin Store Configuration for Experience Cloud integration](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![ Configuratie van de Winkel Admin voor de integratie van het Experience Cloud ](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
-1. Schakel de integratie in of uit door de **[!UICONTROL Enable]** waarde.
+1. Schakel de integratie in of uit door de waarde **[!UICONTROL Enable]** te selecteren.
 
-1. Wijzig de projectnaam die in de werkruimte van de Projecten van de Handel door wordt getoond of bij te werken **[!UICONTROL Project Name]** waarde.
+1. Wijzig de projectnaam die wordt weergegeven in de Commerce Projecten-werkruimte door de waarde **[!UICONTROL Project Name]** toe te voegen of bij te werken.
 
 1. Sla de configuratie op.
 
@@ -42,7 +42,7 @@ Na aanvankelijke enablement, beheer de status van de Experience Cloud integratie
 
 ## Integratie beheren met de Adobe Commerce CLI
 
-Systeembeheerders van de handel met Admin toegang tot het de wolkenproject van de Handel kan Adobe Commerce CLI bevelen gebruiken om de integratie van het Experience Cloud te beheren.
+Commerce-systeembeheerders met beheerdersrechten voor het Commerce-cloudproject kunnen Adobe Commerce CLI-opdrachten gebruiken om de integratie van het Experience Cloud te beheren.
 
 1. Meld u vanuit uw lokale ontwikkelomgeving aan bij het cloudproject.
 
@@ -50,7 +50,7 @@ Systeembeheerders van de handel met Admin toegang tot het de wolkenproject van d
    magento-cloud login
    ```
 
-1. Van de wortelfolder van uw het projectmilieu van de Wolk, verbind met de de toepassingsserver van de Handel.
+1. Maak verbinding met de Commerce-toepassingsserver vanuit de hoofdmap van uw Cloud-projectomgeving.
 
    ```bash
    ssh magento-cloud
@@ -64,22 +64,22 @@ Systeembeheerders van de handel met Admin toegang tot het de wolkenproject van d
 
 1. De status van de extensie wijzigen om de integratie uit te schakelen
 
-   - **Inschakelen**—`bin/magento config:set admin/unified_experience/enabled 1`
+   - **laat** toe—`bin/magento config:set admin/unified_experience/enabled 1`
 
-   - **Uitschakelen**—`bin/magento config:set admin/unified_experience/enabled 0`
+   - **maak** onbruikbaar `bin/magento config:set admin/unified_experience/enabled 0`
 
 ## Beheerdersaccounts beheren
 
-Alle Admin van de Handel gebruikers moeten zowel een Admin rekening op de instantie van de Handel als een gebruikersrekening van de Adobe (Adobe ID) hebben om tot de producten en de diensten van de Adobe toegang te hebben. Beide accounts moeten aan hetzelfde e-mailadres zijn gekoppeld.
+Alle Commerce Admin-gebruikers moeten zowel een Admin-account op het Commerce-exemplaar als een Adobe-gebruikersaccount (Adobe ID) hebben om toegang te krijgen tot producten en services van de Adobe. Beide accounts moeten aan hetzelfde e-mailadres zijn gekoppeld.
 
-- **Commerce Admin-account**—[Admin-gebruikers voor handel beheren](../systems/permissions-users-all.md) van Admin voor de instantie van de Handel. De rekeningen van de gebruiker voor de beheerders van de Handel moeten de rol Admin worden toegewezen.
+- **Commerce Admin rekening** - [ beheert Commerce Admin gebruikers ](../systems/permissions-users-all.md) van Admin voor de instantie van Commerce. Aan gebruikersaccounts voor Commerce-beheerders moet de beheerdersrol worden toegewezen.
 
-  De beheerders van het systeem op het project van de Handel kunnen gebruiken [SSH voor verbinding met de externe omgeving](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)en gebruik de Commerce CLI `admin:user:create` en `admin:user:unlock` opdrachten om Admin-gebruikersaccounts toe te voegen of te ontgrendelen.
+  De beheerders van het systeem op het project van Commerce kunnen [ SSH gebruiken om met het verre milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) te verbinden, en Commerce CLI `admin:user:create` en `admin:user:unlock` bevelen te gebruiken om Admin gebruikersrekeningen toe te voegen of te ontgrendelen.
 
-- **Gebruikersaccount Adoben**—Een beheerder voor de organisatie van de Adobe verbonden aan de instantie van de Handel moet login aan Adobe Admin Console en Adobe ID voor elke beheerder van de Handel aan de organisatie toevoegen. Vervolgens moeten zij productrechten en machtigingen toewijzen om toegang te krijgen tot de toepassing Commerce. Zie [Adobe Commerce-gebruikers configureren in de Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **gebruikersrekening van de Adobe** - een beheerder voor de organisatie van de Adobe verbonden aan de instantie van Commerce moet login aan Adobe Admin Console en Adobe ID voor elke beheerder van Commerce aan de organisatie toevoegen. Vervolgens moeten ze productrechten en machtigingen toewijzen om toegang te krijgen tot de Commerce-toepassing. Zie [ de gebruikers van Adobe Commerce in Adobe Admin Console ](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console) vormen.
 
-Beheerders die de configuratie voor de integratie van Experiencen Cloud vanuit de Adobe Developer-console beheren, moeten een gebruikersaccount voor Adobe hebben bij System Administrator of Developer Access.
+De beheerders die de configuratie voor de Experience Cloud integratie van Adobe Developer Console beheren moeten een gebruikersrekening van de Adobe met de toegang van de Beheerder of van de Ontwikkelaar van het Systeem hebben.
 
 >[!NOTE]
 >
->Een Adobe ID is een account die via Adobe is gemaakt en die vereist is voor toegang tot producten en services via Experience Cloud. Commerce-beheerders zonder Adobe ID kunnen [een gratis account maken](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) met hetzelfde e-mailadres dat ze gebruiken om zich aan te melden bij Commerce Admin.
+>Een Adobe ID is een account die via Adobe is gemaakt en die vereist is voor toegang tot producten en services via Experience Cloud. De beheerders van Commerce die geen Adobe ID hebben kunnen [ een vrije rekening ](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) tot stand brengen gebruikend het zelfde e-mailadres zij gebruiken om binnen aan Commerce Admin te ondertekenen.

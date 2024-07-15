@@ -4,7 +4,7 @@ description: Gebruik dynamische blokken om rijke, interactieve inhoud te creëre
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -13,37 +13,37 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Rijke, interactieve inhoud maken die door logica wordt aangedreven [prijsregels](../merchandising-promotions/introduction.md#price-rules) en [klantsegmenten](../customers/customer-segments.md). Bestaande [dynamische blokken](../page-builder/dynamic-block.md) rechtstreeks aan de [!DNL Page Builder] [stadium](../page-builder/workspace.md). Voor een gedetailleerd, geleidelijke voorbeeld voor het gebruiken van dynamische blokken, zie [Lesbestand 2: Blokken](../page-builder/2-blocks.md).
+Creeer rijke, interactieve inhoud die door logica van [ prijsregels ](../merchandising-promotions/introduction.md#price-rules) en [ klantensegmenten ](../customers/customer-segments.md) wordt gedreven. Bestaande [ dynamische blokken ](../page-builder/dynamic-block.md) kunnen direct aan het [!DNL Page Builder] [ stadium ](../page-builder/workspace.md) worden toegevoegd. Voor een gedetailleerd, geleidelijke voorbeeld voor het gebruiken van dynamische blokken, zie [ Leerprogramma 2: Blokken ](../page-builder/2-blocks.md).
 
 >[!NOTE]
 >
->De _[!UICONTROL Banner]_in de [[!UICONTROL Content] menu](content-menu.md) is vervangen in punt 2.3.1 en verwijderd in punt 2.4.0. De functionaliteit ervan wordt vervangen door Dynamische blokken.
+>De optie _[!UICONTROL Banner]_in het [[!UICONTROL Content] menu ](content-menu.md) werd afgekeurd in 2.3.1 en in 2.4.0 verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
 
-![[!DNL Page Builder] - dynamisch blok met prijsregel en klantensegment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - dynamisch blok met prijsregel en klantsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## Stap 1: Een dynamisch blok maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-   ![Lijst met dynamische blokken](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
+   ![ Dynamische blokkeringslijst ](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Dynamic Block]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Dynamic Block]** .
 
-   ![Nieuw dynamisch blok](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
+   ![ Nieuw dynamisch blok ](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
-1. Indien van toepassing, instellen **[!UICONTROL Store View]** naar een specifieke winkelweergave waar het dynamische blok moet worden weergegeven.
+1. Indien van toepassing, stelt u **[!UICONTROL Store View]** in op een specifieke opslagweergave waar het dynamische blok moet worden weergegeven.
 
-1. Als u het dynamische blok wilt activeren, stelt u **[!UICONTROL Enable Dynamic Block]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Dynamic Block]** in op `Yes` om het dynamische blok te activeren.
 
-1. Voer een beschrijving in voor interne referentie **[!UICONTROL Dynamic Block Name]**.
+1. Voer een beschrijving in **[!UICONTROL Dynamic Block Name]** voor interne referentie.
 
-1. Set **[!UICONTROL Dynamic Block Type]** naar het gebied van de pagina waar u het dynamische blok wilt weergeven en klik op **[!UICONTROL Done]**.
+1. Stel **[!UICONTROL Dynamic Block Type]** in op het gebied van de pagina waar u het dynamische blok wilt weergeven en klik op **[!UICONTROL Done]** .
 
-   ![Het dynamische bloktype instellen](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
+   ![ plaatsend het dynamische bloktype ](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
 
-1. In de **[!UICONTROL Customer Segment]** lijst, selecteer checkbox van elk segment dat u het dynamische blok wilt zien en klik **[!UICONTROL Done]** om de instelling op te slaan.
+1. Selecteer in de lijst **[!UICONTROL Customer Segment]** het selectievakje van elk segment dat u het dynamische blok wilt zien en klik op **[!UICONTROL Done]** om de instelling op te slaan.
 
-   ![Een klantsegment kiezen](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
+   ![ het Kiezen van een klantensegment ](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -53,41 +53,41 @@ Rijke, interactieve inhoud maken die door logica wordt aangedreven [prijsregels]
 
 ### Real-Time CDP-publiek gebruiken in dynamische blokken
 
-Als u [geïnstalleerd](../customers/audience-activation.md#install-the-extension) en [geconfigureerd](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] extensie, wordt een sectie met de naam **[!UICONTROL Audiences]**.
+Als u [ installeerde ](../customers/audience-activation.md#install-the-extension) en [ ](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] uitbreiding vormde, ziet u een sectie genoemd **[!UICONTROL Audiences]**.
 
-![Een Real-Time CDP-publiek kiezen](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
+![ kies een publiek van Real-Time CDP ](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 
-In de **[!UICONTROL Real-Time CDP Audience]** Selecteer het selectievakje van elk publiek dat u het dynamische blok wilt zien en klik op **[!UICONTROL Done]** om de instelling op te slaan.
+Schakel in de lijst **[!UICONTROL Real-Time CDP Audience]** het selectievakje in van elk publiek dat u het dynamische blok wilt zien en klik op **[!UICONTROL Done]** om de instelling op te slaan.
 
 ## Stap 2: De inhoud voltooien
 
-Gebruik de [!DNL Page Builder] [werkruimte](../page-builder/workspace.md) om de inhoud te voltooien.
+Gebruik [!DNL Page Builder] [ werkruimte ](../page-builder/workspace.md) om de inhoud te voltooien.
 
-![[!DNL Page Builder] - de dynamische blokwerkruimte](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - werkruimte voor dynamische blokken ](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
 
 ## Stap 3: Een verwante aanbieding kiezen
 
-1. Omlaag schuiven en uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]**.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]** uit.
 
 1. Klik op het soort promotie dat u wilt koppelen aan het dynamische blok:
 
-   - **[!UICONTROL Add Cart Price Rules]** (zie [Lijnen met winkelprijzen](../merchandising-promotions/price-rules-cart.md))
+   - **[!UICONTROL Add Cart Price Rules]** (zie [ de Regels van de Prijs van de Kar ](../merchandising-promotions/price-rules-cart.md))
 
-   - **[!UICONTROL Add Catalog Price Rules]** (zie [Catalogusprijsregels](../merchandising-promotions/price-rules-catalog.md))
+   - **[!UICONTROL Add Catalog Price Rules]** (zie [ Regels van de Prijs van de Catalogus ](../merchandising-promotions/price-rules-catalog.md))
 
    >[!NOTE]
    >
    >Catalogusprijsregels worden niet ondersteund voor Real-Time CDP-gebruikers.
 
-1. Selecteer in de lijst met beschikbare regels het selectievakje van elke regel die u wilt gebruiken en klik op **[!UICONTROL Add Selected]**.
+1. Schakel in de lijst met beschikbare regels het selectievakje in van elke regel die u wilt gebruiken en klik op **[!UICONTROL Add Selected]** .
 
-1. Wanneer het dynamische blok is voltooid, klikt u op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** wanneer het dynamische blok is voltooid.
 
 ## Stap 4: Voeg het dynamische blok toe aan een pagina
 
 1. Open de pagina waar u het dynamische blok wilt weergeven.
 
-1. Gebruik de [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) inhoudstype om het dynamische blok aan het werkgebied toe te voegen.
+1. Gebruik het inhoudstype [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) om het dynamische blok aan het werkgebied toe te voegen.
 
 ## Beschrijving van veld en gereedschap
 
@@ -96,9 +96,9 @@ Gebruik de [!DNL Page Builder] [werkruimte](../page-builder/workspace.md) om de 
 | [!UICONTROL Store View] | Hiermee geeft u de winkelweergaven op waarin het dynamische blok beschikbaar moet zijn. |
 | [!UICONTROL Enable Dynamic Block] | Hiermee activeert of deactiveert u het dynamische blok. Opties: Ja/Nee |
 | [!UICONTROL Dynamic Block Name] | Een beschrijvende naam die het dynamische blok in Admin identificeert. |
-| [!UICONTROL Dynamic Block Type] | Identificeert de plaats in [standaardpagina-indeling](layout-updates.md) waar het dynamische blok wordt geplaatst. Opties: <br/>**[!UICONTROL Content Area]**- Plaatst het dynamische blok in het hoofdgedeelte [inhoudsgebied](layout-updates.md) van de pagina.<br/>**[!UICONTROL Footer]** - Plaatst het dynamische blok op de pagina [voettekst](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Plaatst het dynamische blok op de pagina [header](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Plaatst het dynamische blok in de [linkerzijbalk](page-layout.md#standard-page-layouts) met een indeling met twee of drie kolommen. <br/>**[!UICONTROL Right Column]**- Plaatst het dynamische blok in de [rechterzijbalk](page-layout.md#standard-page-layouts) met een indeling met twee of drie kolommen. |
+| [!UICONTROL Dynamic Block Type] | Identificeert de plaats in de [ standaardpaginalay-out ](layout-updates.md) waar het dynamische blok wordt geplaatst. Opties: <br/>**[!UICONTROL Content Area]**- Plaatst het dynamische blok in het belangrijkste [ inhoudsgebied ](layout-updates.md) van de pagina.<br/>**[!UICONTROL Footer]** - Plaatst het dynamische blok in de pagina [ footer ](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Plaatst het dynamische blok in de pagina [ kopbal ](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Plaatst het dynamische blok in [ linkerzijbalk ](page-layout.md#standard-page-layouts) van een twee-of drie-kolomlay-out. <br/>**[!UICONTROL Right Column]**- Plaatst het dynamische blok in [ juiste sidebar ](page-layout.md#standard-page-layouts) van een twee- of driekolomlay-out. |
 | Klantsegment | Associeert een klantensegment met het dynamische blok om te bepalen welke klanten het kunnen zien. |
-| Real-Time CDP-publiek | Associates a [Real-Time CDP-publiek](../customers/audience-activation.md) met het dynamische blok om te bepalen welke klanten het kunnen zien. |
+| Real-Time CDP-publiek | Associeert het publiek van a [ Real-Time CDP ](../customers/audience-activation.md) met het dynamische blok om te bepalen welke klanten het kunnen zien. |
 
 {style="table-layout:auto"}
 
@@ -117,7 +117,7 @@ Gebruik de [!DNL Page Builder] [werkruimte](../page-builder/workspace.md) om de 
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Een bestaande koppeling maken [kartonnen prijsregel](../merchandising-promotions/price-rules-cart.md) met het dynamische blok als een promotie. |
-| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - Een bestaande koppeling maken [catalogusprijsregel](../merchandising-promotions/price-rules-catalog.md) met het dynamische blok als een promotie. |
+| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - associeer een bestaande [ de prijsregel van de kar ](../merchandising-promotions/price-rules-cart.md) met het dynamische blok als bevordering. |
+| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - associeer een bestaande [ regel van de catalogusprijs ](../merchandising-promotions/price-rules-catalog.md) met het dynamische blok als bevordering. |
 
 {style="table-layout:auto"}

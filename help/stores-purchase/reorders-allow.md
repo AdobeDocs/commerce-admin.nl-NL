@@ -5,38 +5,38 @@ exl-id: 9fe4c4fb-8596-4fd0-a93b-927ebdfc0c94
 feature: Orders, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # Herstellingen toestaan
 
-Als deze optie is ingeschakeld, kunt u de volgorde direct vanaf de klantenaccount of vanaf de oorspronkelijke volgorde in de _Beheerder_. Herstellingen zijn standaard ingeschakeld.
+Wanneer toegelaten, kan reorders direct van de klantenrekening of van de originele orde in _Admin_ worden gemaakt. Herstellingen zijn standaard ingeschakeld.
 
-![Koppeling voor opnieuw ordenen van klant in Admin](./assets/customer-reorder.png){width="700" zoomable="yes"}
+![ Klante reorder verbinding in Admin ](./assets/customer-reorder.png){width="700" zoomable="yes"}
 
 ## Criteria voor het inschakelen van de volgorde van een bestelling
 
-- De _Opnieuw ordenen toestaan_ De configuratieoptie moet worden ingeschakeld.
+- De _staat Reorder_ configuratieoptie toe moet worden toegelaten.
 
-- Als de volgorde in `Hold` of in `Payment Review` status, is de optie voor opnieuw ordenen uitgeschakeld.
+- Als de volgorde in de status `Hold` of `Payment Review` staat, is de optie voor opnieuw ordenen uitgeschakeld.
 
 - Als een van de items in de volgorde niet beschikbaar, uit voorraad of uitgeschakeld is, is de optie voor opnieuw ordenen uitgeschakeld in de winkel.
 
-- An _Beheerder_ kan de volgorde wijzigen, zelfs als een van de items uit voorraad is of is uitgeschakeld.
+- Een _Admin_ kan reorder zelfs als om het even welke punten uit voorraad of onbruikbaar gemaakt zijn.
 
 ## Configureren om klantherschikkingen toe te staan
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Sales]** onder.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Reorder]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Reorder]** sectie uit.
 
-   ![Opties voor opnieuw ordenen](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
+   ![ herschikt opties ](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Allow Reorder]** tot `Yes`.
+1. Stel **[!UICONTROL Allow Reorder]** in op `Yes` .
 
    Met deze instelling wordt functionaliteit voor opnieuw ordenen ingeschakeld vanaf de klantenaccount in de winkel of in de lijst met bestellingen in de beheerder.
 
@@ -46,68 +46,68 @@ Als deze optie is ingeschakeld, kunt u de volgorde direct vanaf de klantenaccoun
 
 Een klant kan de functionaliteit voor opnieuw ordenen voor een specifieke volgorde op twee pagina&#39;s starten:
 
-- _Mijn bestellingen_ page
+- _Mijn Orden_ pagina
 
-- _Weergave bestelling_ page
+- _de Mening van de Orde_ pagina
 
 ### Mijn bestellingen
 
-De _Opnieuw_ Deze knop wordt altijd weergegeven in de lijst met bestellingen (zelfs als niet alle producten in de bestelling opnieuw kunnen worden geordend).
+De _herschikt_ knoop wordt altijd getoond in de lijst met Worden (zelfs als alle producten van de orde niet beschikbaar voor reorder zijn).
 
-![Voorbeeld van winkel - pagina Mijn bestellingen](./assets/my-order-page-view.png){width="700" zoomable="yes"}
+![ storefront van het Voorbeeld - Mijn pagina van Orden ](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
-**Zaak 1.** Alle producten van de orde zijn **beschikbaar** voor herschikking
+**Geval 1.** Alle producten van de orde zijn **beschikbaar** voor reorder
 
 De gebruiker wordt omgeleid naar de kar en alle producten worden toegevoegd aan de kar
 
-![Winkelwagentje](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
+![ Shopping kar ](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
 
-**Zaak 2.** Enkele/alle producten uit de bestelling zijn **niet beschikbaar** voor herschikking
+**Geval 2.** Sommige/alle producten van de orde zijn **niet beschikbaar** voor reorder
 
 >[!NOTE]
 >
->Het is mogelijk de volgorde te wijzigen `Not Visible Individually` producten.
+>Het is mogelijk om `Not Visible Individually` -producten opnieuw te ordenen.
 
-De _Opnieuw_ wordt niet weergegeven op de knop _Mijn bestellingen_ en _Volgorde weergeven_ pagina&#39;s.
+De _herschikt_ knoop verschijnt niet op _Mijn Orden_ en _Volgorde van de Mening_ pagina&#39;s.
 
-![Pagina met Mijn bestellingen 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![ Mijn Orden pagina 1 ](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### Weergavepagina Volgorde
 
-**Zaak 1.** Alle producten van de bestelling kunnen opnieuw worden geordend
+**Geval 1.** Alle producten van de bestelling zijn beschikbaar voor herschikking
 
 De gebruiker wordt omgeleid naar de kar en alle producten worden toegevoegd aan de kar
 
-**Zaak 2.** Enkele/alle producten uit de bestelling zijn **niet beschikbaar** voor herschikking
+**Geval 2.** Sommige/alle producten van de orde zijn **niet beschikbaar** voor reorder
 
 >[!NOTE]
 >
->Het is mogelijk de volgorde te wijzigen `Not Visible Individually` producten.
+>Het is mogelijk om `Not Visible Individually` -producten opnieuw te ordenen.
 
-De _Opnieuw_ wordt niet weergegeven op de knop _Mijn bestellingen_ en _Volgorde weergeven_ pagina&#39;s.
+De _herschikt_ knoop verschijnt niet op _Mijn Orden_ en _Volgorde van de Mening_ pagina&#39;s.
 
-![Pagina met bestelgegevens](./assets/order-view-page.png){width="700" zoomable="yes"}
+![ de detailpagina van de Orde ](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### Winkelwagentje is niet leeg
 
-Als het winkelwagentje niet leeg is en de gebruiker klikt **[!UICONTROL Reorder]** (van de _Mijn bestellingen_  of _Weergave bestelling_ pagina), blijven de bestaande producten in het winkelwagentje met de toegevoegde producten van de herschikking.
+Als het karretje niet leeg is en de gebruiker **[!UICONTROL Reorder]** klikt (van _Mijn Orden_ of _de pagina van de Mening van de Orde_), blijven de bestaande producten in het karretje met toegevoegde reorder producten.
 
-![Items opnieuw ordenen](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
+![ opnieuw rangschikt punten ](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## Opnieuw ordenen via de beheerder
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Zoek de volgorde en open deze in **[!UICONTROL View]** -modus.
+1. Zoek de volgorde en open in de modus **[!UICONTROL View]** .
 
-1. Klikken **[!UICONTROL Reorder]** die wordt weergegeven in de bovenste knopbalk.
+1. Klik op **[!UICONTROL Reorder]** dat wordt weergegeven in de bovenste knopbalk.
 
-   ![Bestelgegevens in de beheerder](./assets/order-view-admin.png){width="600" zoomable="yes"}
+   ![ de details van de Orde in Admin ](./assets/order-view-admin.png){width="600" zoomable="yes"}
 
-   Nadat u op **[!UICONTROL Reorder]** de _Nieuwe volgorde maken_ De pagina wordt geopend met producten opnieuw ordenen.
+   Nadat u **[!UICONTROL Reorder]** klikt, _creeer Nieuwe Orde_ pagina met reorder producten opent.
 
-   ![Opnieuw ordenen](./assets/create-reorder-page.png){width="600" zoomable="yes"}
+   ![ creeer reorder ](./assets/create-reorder-page.png){width="600" zoomable="yes"}
 
 1. Vul alle vereiste velden naar wens in.
 
-1. Als u de volgorde wilt verzenden, klikt u op **[!UICONTROL Submit Order]**.
+1. Klik op **[!UICONTROL Submit Order]** om de volgorde te verzenden.

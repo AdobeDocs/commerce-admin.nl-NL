@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Categorieën maken
 
-De categoriestructuur van de catalogus is vergelijkbaar met een ondersteboven liggende structuur, met bovenaan het basiselement. Elke sectie van de boomstructuur kan worden uitgevouwen en samengevouwen. Alle uitgeschakelde of verborgen categorieën worden grijs weergegeven. De categorieën op het eerste niveau (onder de [basis](category-root.md)) worden doorgaans weergegeven als opties in het dialoogvenster [hoofdmenu](navigation-top.md). U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst. Categorieën kunnen naar andere locaties in de boomstructuur worden gesleept en neergezet. Het categorie-id-nummer staat tussen haakjes achter de categorienaam boven aan de pagina.
+De categoriestructuur van de catalogus is vergelijkbaar met een ondersteboven liggende structuur, met bovenaan het basiselement. Elke sectie van de boomstructuur kan worden uitgevouwen en samengevouwen. Alle uitgeschakelde of verborgen categorieën worden grijs weergegeven. De categorieën op het eerste niveau (onder de [ wortel ](category-root.md)) verschijnen typisch als opties in het [ belangrijkste menu ](navigation-top.md). U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst. Categorieën kunnen naar andere locaties in de boomstructuur worden gesleept en neergezet. Het categorie-id-nummer staat tussen haakjes achter de categorienaam boven aan de pagina.
 
-Voor een website met meerdere [winkelen](../stores-purchase/stores.md#add-stores), kunt u voor elke winkel een andere hoofdcategorie maken die de set categorieën definieert die voor de [topnavigatie](navigation-top.md).
+Voor een website met veelvoudige [ opslag ](../stores-purchase/stores.md#add-stores), kunt u een verschillende wortelcategorie voor elke opslag tot stand brengen die de reeks categorieën bepaalt die voor de [ hoogste navigatie ](navigation-top.md) wordt gebruikt.
 
-![Categoriestructuur](./assets/category-selected.png){width="700" zoomable="yes"}
+![ boom van de Categorie ](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Aanbevolen procedures
 
@@ -24,7 +24,7 @@ Gebruik deze beste werkwijzen wanneer u categorieën plant en creeert.
 
 ### Categoriestructuur
 
-De structuur van de categorieën in het hoofdmenu kan van invloed zijn op de gebruikerservaring en -prestaties. Als beste praktijken, zou u één over-arching top-level categorie moeten identificeren, en vermijden hebbend andere categorieën met de zelfde naam. In plaats van meerdere categorieën voor &quot;Kinderen&quot; te hebben, bijvoorbeeld georganiseerd onder verschillende afdelingen, zoals `Clothing/Kids`, `Shoes/Kids`, `Accessories/Kids`. Het kan efficiënter zijn om van de oudercategorie op hoofdniveau te maken `Kids`en maak vervolgens subcategorieën naar wens hieronder. Zorg voor consistentie met de categoriestructuur en gebruik dezelfde aanpak voor alle producttypen in uw catalogus.
+De structuur van de categorieën in het hoofdmenu kan van invloed zijn op de gebruikerservaring en -prestaties. Als beste praktijken, zou u één over-arching top-level categorie moeten identificeren, en vermijden hebbend andere categorieën met de zelfde naam. In plaats van bijvoorbeeld meerdere categorieën voor &#39;Kinderen&#39; te hebben die onder verschillende afdelingen zijn ingedeeld, zoals `Clothing/Kids`, `Shoes/Kids`, `Accessories/Kids` . Het kan efficiënter zijn om de hoofdcategorie op hoofdniveau `Kids` te maken, en dan subcategorieën zoals hieronder nodig tot stand te brengen. Zorg voor consistentie met de categoriestructuur en gebruik dezelfde aanpak voor alle producttypen in uw catalogus.
 
 ### Bedrijfsregels en automatisering
 
@@ -50,131 +50,131 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 ## Stap 1: Een categorie maken
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Set **[!UICONTROL Store View]** om te bepalen waar de nieuwe categorie beschikbaar moet zijn.
+1. Stel **[!UICONTROL Store View]** in om te bepalen waar de nieuwe categorie beschikbaar moet zijn.
 
 1. Selecteer in de categoriestructuur de bovenliggende categorie van de nieuwe categorie.
 
    Het bovenliggende element bevindt zich op één niveau boven de nieuwe categorie.
 
-   Als u zonder gegevens vanaf het begin begint, zijn er mogelijk slechts twee categorieën in de lijst: _Standaardcategorie_, dat de basis vormt, en _Voorbeeldcategorie_
+   Als u van het begin zonder om het even welk gegeven begint, zouden er slechts twee categorieën in de lijst kunnen zijn: _Standaard Categorie_, die de wortel, en een _categorie van het Voorbeeld_ is
 
 1. Klik op **[!UICONTROL Add Subcategory]**.
 
 ## Stap 2: De basisgegevens invullen
 
-1. Als je wilt dat de rubriek direct beschikbaar is in de winkel, stel je **[!UICONTROL Enable Category]** tot `Yes`.
+1. Stel **[!UICONTROL Enable Category]** in op `Yes` als u wilt dat de categorie direct beschikbaar is in de winkel.
 
-1. De categorie opnemen in het dialoogvenster [topnavigatie](navigation-top.md), set **[!UICONTROL Include in Menu]** tot `Yes`.
+1. Om de categorie in de [ hoogste navigatie ](navigation-top.md) te omvatten, plaats **[!UICONTROL Include in Menu]** aan `Yes`.
 
-1. Voer de **[!UICONTROL Category Name]**.
+1. Voer de **[!UICONTROL Category Name]** in.
 
-   ![Basisinformatie over rubrieken](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
+   ![ Basis categoriesinformatie ](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
 
-1. klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
 ## Stap 3: De inhoud van de categorie voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
-   ![Categorie-inhoud](./assets/category-content.png){width="600" zoomable="yes"}
+   ![ inhoud van de Categorie ](./assets/category-content.png){width="600" zoomable="yes"}
 
-1. Als u een **[!UICONTROL Category Image]** boven aan de pagina kunt u uw eigen afbeelding uploaden of een afbeelding gebruiken die in het dialoogvenster [Media-opslag](../content-design/media-storage.md).
+1. Om a **[!UICONTROL Category Image]** bij de bovenkant van de pagina te tonen, kunt u of uw eigen beeld uploaden of een beeld gebruiken dat in de [ Opslag van Media ](../content-design/media-storage.md) bestaat.
 
    - Als u uw eigen afbeelding wilt uploaden, klikt u op **[!UICONTROL Upload]** en kiest u de afbeelding die u wilt weergeven in de categorie.
 
-   - Als u afbeeldingen van Media Storage wilt gebruiken, klikt u op **[!UICONTROL Select from Gallery]** en selecteer de afbeelding die u wilt weergeven in de categorie.
+   - Als u afbeeldingen van Media Storage wilt gebruiken, klikt u op **[!UICONTROL Select from Gallery]** en selecteert u de afbeelding die u voor de categorie wilt weergeven.
 
    >[!NOTE]
    >
-   >In de Medialerie kunt u ook de opdracht [Adobe Stock-integratie](../content-design/adobe-stock.md) om een geschikte afbeelding te zoeken door op **[!UICONTROL Search Adobe Stock]**.
+   >Binnen de Galerij van Media, kunt u de [ Integratie van Adobe Stock ](../content-design/adobe-stock.md) ook gebruiken om een aangewezen beeld te vinden door **[!UICONTROL Search Adobe Stock]** te klikken.
 
-1. Voor **[!UICONTROL Description]** voert u de tekst of andere inhoud in die u op de bestemmingspagina van de categorie wilt weergeven.
+1. Voer bij **[!UICONTROL Description]** de tekst of andere inhoud in die u wilt weergeven op de bestemmingspagina van de categorie.
 
-   Zie voor meer informatie [Categorie-inhoud](categories-content-settings.md).
+   Voor meer informatie, zie [ Inhoud van de Categorie ](categories-content-settings.md).
 
-1. Als u een inhoudsblok wilt opnemen op de bestemmingspagina van de categorie, kiest u de optie **[!UICONTROL CMS Block]** die u wilt weergeven.
+1. Als u een inhoudsblok wilt opnemen op de bestemmingspagina van de categorie, kiest u de **[!UICONTROL CMS Block]** die u wilt weergeven.
 
-1. klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
 ## Stap 4: De weergave-instellingen voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Display Setting]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Display Setting]** sectie uit.
 
-   ![Weergave-instellingen](./assets/category-display-settings.png){width="600" zoomable="yes"}
+   ![ montages van de Vertoning ](./assets/category-display-settings.png){width="600" zoomable="yes"}
 
-   Zie voor meer informatie over deze opties voor meer informatie over deze opties  [Weergave-instellingen](categories-display-settings.md).
+   Voor meer informatie over deze opties, zie voor meer informatie over deze opties, [ montages van de Vertoning ](categories-display-settings.md) zien.
 
-1. Set **[!UICONTROL Display Mode]** op een van de volgende wijzen:
+1. Stel **[!UICONTROL Display Mode]** in op een van de volgende opties:
 
    - `Products Only`
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Als u wilt dat de categoriepagina de _`Filter by Attribute`_sectie met gelaagde navigatie, set **[!UICONTROL Anchor]**tot `Yes`.
+1. Als u wilt dat de categoriepagina de sectie _`Filter by Attribute`_van gelaagde navigatie bevat, stelt u **[!UICONTROL Anchor]**in op `Yes` .
 
-1. Voor de **[!UICONTROL Available Product Listing Sort By]** selecteert u een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Selecteer voor de opties van **[!UICONTROL Available Product Listing Sort By]** een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
-   Standaard worden alle beschikbare waarden opgenomen. Hef de selectie van **[!UICONTROL Use All]** Schakel het selectievakje in om de selecties te wijzigen. De waarden kunnen bijvoorbeeld het volgende zijn:
+   Standaard worden alle beschikbare waarden opgenomen. Schakel het selectievakje **[!UICONTROL Use All]** uit om de selecties te wijzigen. De waarden kunnen bijvoorbeeld het volgende zijn:
 
    - `Position`
    - `Product Name`
    - `Price`
 
-1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u **[!UICONTROL Default Product Listing Sort By]** waarde. Deze instelling is niet van toepassing op [!DNL Live Search] [Widget pagina met productaanbiedingen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u de waarde **[!UICONTROL Default Product Listing Sort By]** . Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
-1. De standaardnavigatie in lagen wijzigen [prijsstap](navigation-layered.md#configure-price-navigation) Ga als volgt te werk om deze instelling in te stellen:
+1. Om de standaard gelaagde navigatie [ prijsstap ](navigation-layered.md#configure-price-navigation) het plaatsen te veranderen, doe het volgende:
 
-   - Hef de selectie van **[!UICONTROL Use Config Settings]** selectievakje.
+   - Schakel het selectievakje **[!UICONTROL Use Config Settings]** uit.
 
    - Voer de waarde in die u als een incrementele prijsstap voor gelaagde navigatie wilt gebruiken.
 
-1. Klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
 ## Stap 5: De optimalisatie-instellingen voor zoekprogramma&#39;s voltooien
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization Settings]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization Settings]** sectie uit.
 
-   ![Zoekmachine optimaliseren](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ de motoroptimalisering van het Onderzoek ](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Zie voor meer informatie over deze opties [Zoekmachine optimaliseren](categories-search-engine-optimization.md).
+   Voor meer informatie over deze opties, zie [ de motoroptimalisering van het Onderzoek ](categories-search-engine-optimization.md).
 
-1. Voer de volgende handelingen uit [metagegevens](../merchandising-promotions/meta-data.md) voor de categorie:
+1. Voltooi de volgende [ meta- gegevens ](../merchandising-promotions/meta-data.md) voor de categorie:
 
    - [!UICONTROL Meta Title]
    - [!UICONTROL Meta Keywords]
    - [!UICONTROL Meta Description]
 
-1. Klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
 ## Stap 6: kies de producten in categorie
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Products in Category]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Products in Category]** sectie uit.
 
-   ![Producten in categorie](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+   ![ Producten in categorie ](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
-   Zie voor meer informatie over deze opties [Producten in categorie](categories-product-assignments.md).
+   Voor meer informatie over deze opties, zie [ Producten in categorie ](categories-product-assignments.md).
 
-1. Gebruik indien nodig de [filters](../getting-started/admin-grid-controls.md) om de producten te vinden.
+1. Indien nodig, gebruik de [ filters ](../getting-started/admin-grid-controls.md) om de producten te vinden.
 
-   Als u alle records wilt weergeven die nog niet in de categorie zijn opgenomen, stelt u de recordkiezer in de eerste kolom in op `No` en klik op **[!UICONTROL Search]**.
+   Als u alle records wilt weergeven die nog niet in de categorie zijn opgenomen, stelt u de recordkiezer in de eerste kolom in op `No` en klikt u op **[!UICONTROL Search]** .
 
 1. Selecteer in de eerste kolom het selectievakje voor elk product dat u in de categorie wilt opnemen.
 
-1. Klikken **[!UICONTROL Save]** en doorgaan.
+1. Klik op **[!UICONTROL Save]** en ga verder.
 
 ## Stap 7: De categorierechten instellen
 
 {{ee-feature}}
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Category Permissions]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Category Permissions]** sectie uit.
 
-1. Kies voor een installatie op meerdere locaties de optie **[!UICONTROL Website]** waar de categorierechten van toepassing zijn.
+1. Kies voor een installatie op meerdere locaties de **[!UICONTROL Website]** locatie waar de categorierechten van toepassing zijn.
 
-1. Kies de optie **[!UICONTROL Customer Group]** waar de categorierechten van toepassing zijn.
+1. Kies **[!UICONTROL Customer Group]** waar de categorierechten van toepassing zijn.
 
-   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) (Alleen) Kies een **[!UICONTROL Shared Catalog]** in plaats daarvan.
+   ![ Adobe Commerce B2B ](../assets/b2b.svg) ([ Adobe Commerce B2B ](../b2b/introduction.md) slechts) indien nodig, kunt u a **[!UICONTROL Shared Catalog]** in plaats daarvan kiezen.
 
 1. Stel de volgende machtigingen naar wens in:
 
@@ -182,34 +182,34 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
    - [!UICONTROL Display Product Prices]
    - [!UICONTROL Add to Cart]
 
-1. Als u nog een machtigingsregel wilt toevoegen, klikt u op **[!UICONTROL New Permission]** en herhaal het proces.
+1. Als u nog een machtigingsregel wilt toevoegen, klikt u op **[!UICONTROL New Permission]** en herhaalt u het proces.
 
-   ![Categoriemachtigingen](./assets/category-create-permissions.png){width="600" zoomable="yes"}
+   ![ toestemmingen van de Categorie ](./assets/category-create-permissions.png){width="600" zoomable="yes"}
 
 ## Stap 8: Voltooi de ontwerpinstellingen
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL Design]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Design]** sectie uit.
 
 1. Stel de ontwerpinstellingen naar wens in:
 
-   - ([Adobe Commerce B2B](../b2b/introduction.md) alleen) Als u de ontwerpinstellingen van de bovenliggende categorie wilt toepassen op deze categorie, stelt u **[!UICONTROL Use Parent Category Settings]** tot `Yes`.
+   - ([ Adobe Commerce B2B ](../b2b/introduction.md) slechts) om de montages van het oudercategorieontwerp op deze categorie toe te passen, reeks **[!UICONTROL Use Parent Category Settings]** aan `Yes`.
 
-   - Als u het ontwerp van de categoriepagina&#39;s wilt wijzigen, kiest u de optie **[!UICONTROL Theme]** die u wilt toepassen.
+   - Als u het ontwerp van de categoriepagina&#39;s wilt wijzigen, kiest u de **[!UICONTROL Theme]** die u wilt toepassen.
 
-   - Als u de kolomindeling van de categoriepagina&#39;s wilt wijzigen, kiest u de optie **[!UICONTROL Layout]** die u wilt toepassen.
+   - Als u de kolomlay-out van de categoriepagina&#39;s wilt wijzigen, kiest u de **[!UICONTROL Layout]** die u wilt toepassen.
 
-   - Als u aangepaste code wilt invoeren, voert u in het dialoogvenster **[!UICONTROL Layout Update XML]** doos.
+   - Voer in het vak **[!UICONTROL Layout Update XML]** een geldige XML-code in om aangepaste code in te voeren.
 
-   - Als u hetzelfde ontwerp wilt gebruiken voor productpagina&#39;s, stelt u **[!UICONTROL Apply Design to Products]** tot `Yes`.
+   - Als u hetzelfde ontwerp wilt gebruiken voor productpagina&#39;s, stelt u **[!UICONTROL Apply Design to Products]** in op `Yes` .
 
-   ![Ontwerpinstellingen](./assets/category-design.png){width="600" zoomable="yes"}
+   ![ montages van het Ontwerp ](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg) (Alleen Magento Open Source) Ga als volgt te werk om de ontwerpupdate voor een bepaalde periode te plannen:
+1. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) om de ontwerpupdate voor een specifieke tijdspanne te plannen, doe het volgende:
 
    - Vouw de sectie _[!UICONTROL Schedule Design Update]_uit.
 
-   - De kalender gebruiken (![Kalenderpictogram](../assets/icon-calendar.png)) om de Update van het Programma te kiezen **[!UICONTROL from]** en **[!UICONTROL to]** datums.
+   - Gebruik de kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de Update van het Programma **[!UICONTROL from]** en **[!UICONTROL to]** data te kiezen.
 
-   ![Geplande ontwerpupdate](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
+   ![ Geplande ontwerpupdate ](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.

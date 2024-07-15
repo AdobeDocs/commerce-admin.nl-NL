@@ -1,10 +1,10 @@
 ---
 title: '[!DNL AR Viewer] voor Adobe Commerce'
-description: Meer informatie over [!DNL AR Viewer] kan uw Adobe Commerce-exemplaar ten goede komen en de extensie met succes aan boord installeren en instellen.
+description: Leer hoe  [!DNL AR Viewer]  uw instantie van Adobe Commerce kon bevoordelen en hoe te met succes aan boord te gaan en de uitbreiding te plaatsen.
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
 source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 De Augmented reality (AR) beschrijft gebruikerservaringen die 2D of 3D elementen aan het levende beeld van de camera van een apparaat op een bepaalde manier toevoegen die die elementen schijnen om de echte wereld te bewonen.
 
-De [!DNL AR Viewer] voor Adobe Commerce-extensie maakt een naadloze ervaring mogelijk die is ontworpen om gerenderde 3D-afbeeldingen voor de gebruiker weer te geven.
+Met de extensie [!DNL AR Viewer] for Adobe Commerce beschikt u over een naadloze ervaring die is ontworpen om gerenderde 3D-afbeeldingen voor de gebruiker weer te geven.
 
-De informatie in deze handleiding geeft een overzicht van de ervaring bij het aan boord nemen van de [!DNL AR Viewer] in Adobe Commerce en hoe [!DNL AR Viewer] de gebruiker ten goede komt, en beste praktijken om die reis te volgen.
+De informatie in deze handleiding biedt een overzicht van de instapervaring voor de [!DNL AR Viewer] -gebruiker in Adobe Commerce en van de voordelen die [!DNL AR Viewer] biedt voor de gebruiker. Ook bevat deze handleiding tips en trucs voor het volgen van deze reis.
 
-Ontwikkeld door Pixar, [Universele beschrijving van scène (USD)](https://www.pixar.com/usd){target=_blank} is de eerste opensource-software die op robuuste en schaalbare wijze 3D-scènes kan uitwisselen die uit vele verschillende middelen, bronnen en animaties kunnen bestaan, en die tegelijkertijd zeer samenwerkingsworkflows stimuleert. Deze USD wordt gebruikt binnen `.USDZ` bestanden. Dit `.USDZ` AIR- en 3D-inhoud wordt geleverd aan de apparaten van de gebruiker.
+Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://www.pixar.com/usd) {target=_blank} is de eerste open-bronsoftware die robuust en scalable 3D scènes kan ruilen die uit vele verschillende activa, bronnen, en animaties kunnen bestaan, terwijl het bevorderen van hoogst samenwerkingswerkschema&#39;s. Deze USD wordt gebruikt in `.USDZ` -bestanden. Dit `.USDZ` -bestand levert AIR- en 3D-inhoud aan de apparaten van de gebruiker.
 
 >[!NOTE]
 >
-> De [!DNL AR Viewer] Alleen ondersteuning `.USDZ` bestanden.
+> [!DNL AR Viewer] ondersteunt alleen `.USDZ` -bestanden.
 
 ## [!DNL AR Viewer] vereisten
 
-De [!DNL AR Viewer] is compatibel met beide [!DNL Magento Open Source] en Adobe Commerce. Zie [Levenscyclusbeleid](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} voor meer informatie over ondersteunde versies.
+[!DNL AR Viewer] is zowel compatibel met [!DNL Magento Open Source] als met Adobe Commerce. Zie {het Beleid van de Levenscyclus 0} ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) {target=_blank} voor meer informatie over gesteunde versies.[
 
-Zie [Installeer de [!DNL AR Viewer] extension](../catalog/ar-viewer-setup.md) voor meer informatie .
+Zie [ installeren de  [!DNL AR Viewer]  uitbreiding ](../catalog/ar-viewer-setup.md) voor meer informatie.
 
-Voor gebruik [!DNL AR Viewer], moet het volgende beschikbaar zijn voor uw instantie:
+Als u [!DNL AR Viewer] wilt gebruiken, moet u het volgende beschikbaar hebben voor uw instantie:
 
 * PHP 8.1.0
 * Adobe Commerce versie 2.4.4 en hoger
@@ -39,6 +39,6 @@ Voor gebruik [!DNL AR Viewer], moet het volgende beschikbaar zijn voor uw instan
 
 [!DNL AR Viewer] bestaande compatibiliteitsbeperkingen:
 
-* `.USDZ` alleen: deze functie wordt alleen ondersteund `.USDZ` bestanden.
-* `qr-code`: Vereist `endroid/qr-code` versie 4.5.
-* `Catalog module`: Vereist `magento/module-catalog` versie 104.0.0.
+* `.USDZ` alleen: deze functie ondersteunt alleen `.USDZ` -bestanden.
+* `qr-code`: vereist `endroid/qr-code` versie 4.5.
+* `Catalog module`: vereist `magento/module-catalog` versie 104.0.0.

@@ -14,31 +14,31 @@ ht-degree: 0%
 
 FedEx is een van &#39;s werelds grootste scheepvaartmaatschappijen die lucht-, vracht- en grondvaartdiensten met verschillende prioriteitsniveaus aanbieden.
 
-![Verzendopties FedEx bij afhandeling](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+![ Verzendopties FedEx bij Afhandeling ](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->FedEx kan gebruiken [dimensionaal gewicht](carriers.md#dimensional-weight) om bepaalde verzendkosten te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen de berekening van verzendkosten op basis van gewicht.
+>FedEx kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen de berekening van verzendkosten op basis van gewicht.
 
 ## Stap 1: Register voor de Productie van de Diensten van het Web FedEx
 
-A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie van de Diensten van het Web FedEx wordt vereist. Nadat u een FedEx-account hebt gemaakt, leest u de pagina met informatie over de productieaccount en klikt u op de knop _productiesleutel verkrijgen_ een koppeling onder aan de pagina om een sleutel te registreren en te verkrijgen.
+A [ FedEx handelsrekening ][1] en de registratie voor de Toegang van de Productie van de Diensten van het Web FedEx wordt vereist. Na het creëren van een rekening FedEx, lees door de pagina van de informatie van de productierekening, dan klik _verkrijg de Sleutel van de Productie_ verbinding bij de bodem van de pagina om een sleutel te registreren en te verkrijgen.
 
 >[!NOTE]
 >
->Zorg ervoor om de authentificatiesleutel te kopiëren of te schrijven. Je moet FedEx instellen in je verzendinstellingen voor Handel.
+>Zorg ervoor om de authentificatiesleutel te kopiëren of te schrijven. Het is vereist om FedEx in te stellen in je verzendinstellingen voor Commerce.
 
 ## Stap 2: FedEx inschakelen voor je winkel
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales]** en kiest u **[!UICONTROL Delivery Methods]**.
+1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Uitbreiden ![Expansiekiezer](../assets/icon-display-expand.png) de **[!UICONTROL FedEx]** sectie.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL FedEx]** sectie uit.
 
-1. Set **[!UICONTROL Enabled for Checkout]** tot `Yes`.
+1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
-1. Voor **[!UICONTROL Title]**, voert u een titel in die de verzendmethode van FedEx tijdens het afrekenen aangeeft.
+1. Voer bij **[!UICONTROL Title]** een titel in die de verzendmethode van FedEx tijdens het afrekenen aangeeft.
 
 1. Voer de volgende gegevens in van uw FedEx-account:
 
@@ -46,70 +46,70 @@ A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie v
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
 
-1. Als u een FedEx-sandbox hebt ingesteld en wilt werken in de testomgeving, stelt u **[!UICONTROL Sandbox Mode]** tot `Yes`.
+1. Stel **[!UICONTROL Sandbox Mode]** in op `Yes` als u een FedEx-sandbox hebt ingesteld en wilt werken in de testomgeving.
 
    >[!NOTE]
    >
-   >Sandboxmodus instellen op `No` als u klaar bent om FedEx als verzendmethode aan uw klanten aan te bieden.
+   >Stel de sandboxmodus in op `No` wanneer u FedEx als verzendmethode aan uw klanten wilt aanbieden.
 
-   ![FedEx-accountinstellingen](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+   ![ de Montages van de Rekening FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
 ## Stap 3: Verpakkings- en verpakkingskosten
 
-1. Set **[!UICONTROL Pickup Type]** op de ophaalmethode die wordt gebruikt voor overbrengingen.
+1. Stel **[!UICONTROL Pickup Type]** in op de ophaalmethode die wordt gebruikt voor verzendingen.
 
    - `DropOff at Fedex Location` - (Standaard) Geeft aan dat u verzendingen op uw lokale FedEx-station neerzet.
    - `Contact Fedex to Schedule` - Geeft aan dat u contact opneemt met FedEx om een afhaalbewerking aan te vragen.
-   - `Use Scheduled Pickup` - Geeft aan dat de zending wordt opgehaald als onderdeel van een normale geplande ophaling.
-   - `On Call` - Wijst erop dat de bestelwagen door FedEx wordt gepland te roepen.
-   - `Package Return Program` - Geeft aan dat de verzending wordt opgehaald door het FedEx Ground Package Returns Program.
+   - `Use Scheduled Pickup` - Geeft aan dat de verzending wordt opgehaald als onderdeel van een normale geplande ophaling.
+   - `On Call` - Geeft aan dat het ophalen is gepland door FedEx aan te roepen.
+   - `Package Return Program` - Geeft aan dat de verzending is opgehaald door het FedEx Ground Package Returns Program.
    - `Regular Stop` - Geeft aan dat de verzending wordt opgehaald volgens het normale ophaalschema.
-   - `Tag` - Geeft aan dat het ophalen van de lading specifiek is voor een aanvraag van de tag Express of grondaanroep. Dit is alleen van toepassing op verzendlabel voor retourzending.
+   - `Tag` - Geeft aan dat het ophalen van de verzending specifiek is voor een aanvraag voor het ophalen van de tag Express of grondaanroep. Dit is alleen van toepassing op verzendlabel voor retourzending.
 
-1. Voor **[!UICONTROL Packages Request Type]** Selecteer het aanvraagtype dat het beste uw voorkeur beschrijft wanneer u een bestelling opsplitst in meerdere verzendingen:
+1. Selecteer voor **[!UICONTROL Packages Request Type]** het aanvraagtype dat het beste uw voorkeur beschrijft bij het splitsen van een bestelling in meerdere verzendingen:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Voor **[!UICONTROL Packaging]** selecteert u het type FedEx-verpakking dat u doorgaans gebruikt om producten uit uw winkel te verzenden.
+1. Selecteer voor **[!UICONTROL Packaging]** het type FedEx-pakket dat u doorgaans gebruikt om producten uit uw winkel te verzenden.
 
-1. Set **[!UICONTROL Weight Unit]** aan de maateenheid die wordt gebruikt in uw landinstelling.
+1. Stel **[!UICONTROL Weight Unit]** in op de maateenheid die in uw landinstelling wordt gebruikt.
 
    - `Pounds`
    - `Kilograms`
 
-1. Voer de **[!UICONTROL Maximum Package Weight]** toegestaan voor FedEx-verzendingen.
+1. Voer de **[!UICONTROL Maximum Package Weight]** in die is toegestaan voor FedEx-verzendingen.
 
-   Het standaard FedEx maximumgewicht is 150 lbs. Raadpleeg uw verzendende maatschappij voor meer informatie. De standaardwaarde wordt aanbevolen, tenzij u speciale regelingen hebt getroffen met FedEx. Zie [Afmetingen](carriers.md#dimensional-weight) voor meer informatie .
+   Het standaard FedEx maximumgewicht is 150 lbs. Raadpleeg uw verzendende maatschappij voor meer informatie. De standaardwaarde wordt aanbevolen, tenzij u speciale regelingen hebt getroffen met FedEx. Zie [ Afmetingen gewicht ](carriers.md#dimensional-weight) voor meer informatie.
 
-   ![FedEx-pakketinstellingen](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![ de Montages van het Pakket FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. Configureer de opties voor de behandelingskosten naar wens.
 
    De verpakkingskosten zijn optioneel en zijn niet zichtbaar tijdens het afrekenen. Voer de volgende handelingen uit als u verpakkingskosten wilt opnemen:
 
-   - Set **[!UICONTROL Calculate Handling Fee]**:
+   - Instellen **[!UICONTROL Calculate Handling Fee]** :
 
       - `Fixed Fee`
       - `Percentage`
 
-   - Voor **[!UICONTROL Handling Applied]** kiest u een van de volgende methoden voor het beheer van afhandelingskosten:
+   - Kies bij **[!UICONTROL Handling Applied]** een van de volgende methoden voor het beheer van afhandelingskosten:
 
       - `Per Order`
       - `Per Package`
 
-   - Voer de **[!UICONTROL Handling Fee]** als `fixed` bedrag of `percentage`, afhankelijk van de berekeningsmethode.
+   - Voer de **[!UICONTROL Handling Fee]** in als een `fixed` bedrag of `percentage` , afhankelijk van de berekeningsmethode.
 
-1. Set **[!UICONTROL Residential Delivery]** op een van de volgende manieren, afhankelijk van het feit of u Business-to-Consumer (B2C) of Business-to-Business (B2B) verkoopt.
+1. Stel **[!UICONTROL Residential Delivery]** in op een van de volgende opties, afhankelijk van het feit of u Business-to-Consumer (B2C) of Business-to-Business (B2B) verkoopt.
 
-   - `Yes` - voor leveringen van B2C-woningen.
-   - `No` - voor B2B-leveringen.
+   - `Yes` - Voor B2C-residentiële leveringen.
+   - `No` - Voor B2B-residentiële leveringen.
 
-   ![FedEx-instellingen voor afhandelingskosten](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
+   ![ FedEx die de Montages van de Vergoeding ](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"} behandelt
 
 ## Stap 4: Toegestane methoden en toepasselijke landen
 
-1. Set **[!UICONTROL Allowed Methods]** aan elke verzendmethode die u wilt aanbieden.
+1. Stel **[!UICONTROL Allowed Methods]** in op elke verzendmethode die u wilt aanbieden.
 
    Houd bij het kiezen van methoden rekening met uw FedEx-account, de frequentie en de grootte van uw verzendingen en als u internationale verzendingen toestaat. U kunt zo veel of zo weinig methoden aanbieden als u wilt, zoals:
 
@@ -118,46 +118,46 @@ A [FedEx-zakelijke account][1] en registratie voor de Toegang van de Productie v
    - Binnenlandse opties — Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - Internationale opties - Internationale economie, binnenlandse economie, goederenvervoer, internationale eerste, internationale grond, internationaal, prioritair
    - Prioriteitsopties - Vracht, Prioriteit overnight
-   - Smart Post-if die de methode Smart Post aanbiedt (ga in **Hub-id**)
+   - Slim Post-als het aanbieden van de Slimme methode van Post (ga **identiteitskaart van de Hub** in)
    - Goederenopties — Vracht, nationaal goederenvervoer
 
-1. Als u een [Gratis verzending](shipping-free.md) Stel de opties voor gratis verzending in via FedEx.
+1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door FedEx wilt verstrekken, plaats de vrije het verschepen opties.
 
-   - Set **[!UICONTROL Free Method]** op de methode die je wilt gebruiken voor gratis verzending. Kies `None`.
+   - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via FedEx wilt aanbieden.
 
-   - Als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met FedEx, stelt u **[!UICONTROL Enable Free Shipping Threshold]** tot `Enable`. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Stel **[!UICONTROL Enable Free Shipping Threshold]** in op `Enable` als u een minimale bestelling wilt vereisen die in aanmerking komt voor gratis verzending met FedEx. Voer vervolgens de minimumwaarde in **[!UICONTROL Free Shipping Amount Threshold]** in.
 
    Deze instelling is vergelijkbaar met de instelling voor de standaardmethode voor gratis verzending, maar wordt tijdens het uitchecken weergegeven in de sectie FedEx, zodat klanten weten welke methode wordt gebruikt voor hun bestelling.
 
-1. Wijzig, indien nodig, de **[!UICONTROL Displayed Error Message]**.
+1. Wijzig indien nodig de **[!UICONTROL Displayed Error Message]** .
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als FedEx niet beschikbaar is.
 
-   ![Toegestane leveringsmethoden FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+   ![ FedEx Toegestane Methoden van de Levering ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Ship to Applicable Countries]**:
+1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - Klanten van iedereen [landen](../getting-started/store-details.md#country-options) gespecificeerd in uw archiefconfiguratie kan deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
 
-   - `Specific Countries` - Als u deze optie kiest, _Schip naar specifieke landen_ wordt weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
+   - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-1. Als u een logboek van al mededeling tussen uw opslag en het systeem wilt houden FedEx, plaats **[!UICONTROL Debug]** tot `Yes`.
+1. Stel **[!UICONTROL Debug]** in op `Yes` als u een logboek wilt bijhouden van alle communicatie tussen uw winkel en het FedEx-systeem.
 
-1. Set **[!UICONTROL Show Method if Not Applicable]**:
+1. Instellen **[!UICONTROL Show Method if Not Applicable]** :
 
-   - `Yes` - Geeft alle verzendmethoden van FedEx aan klanten weer, ongeacht hun beschikbaarheid.
+   - `Yes` - Toont alle verzendmethoden van FedEx aan klanten, ongeacht hun beschikbaarheid.
    - `No` - Geeft alleen de verzendmethoden van FedEx weer die van toepassing zijn op de bestelling.
 
-1. Voor **[!UICONTROL Sort Order]** voert u een getal in om de volgorde te bepalen waarin FedEx wordt weergegeven bij andere leveringsmethoden tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde FedEx wordt weergegeven wanneer deze bij andere leveringsmethoden wordt vermeld tijdens het afrekenen.
 
-   `0` = eerst, `1` = seconde, `2` = derde, enzovoort.
+   `0` = first, `1` = second, `2` = third, enzovoort.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-   ![FedEx-landen](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+   ![ FedEx Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->De handel verklaart altijd de volledige bestellingsprijs aan FedEx wanneer het berekenen van verzendkosten. Dit gedrag kan niet worden gewijzigd.
+>Commerce declareert altijd de volledige bestellingsprijs aan FedEx bij het berekenen van verzendkosten. Dit gedrag kan niet worden gewijzigd.
 
 [1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

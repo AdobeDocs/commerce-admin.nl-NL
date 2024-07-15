@@ -5,7 +5,7 @@ exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2256'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze informatie is in een reeks onderwerpen om verkopers en ontwikkelaars van Adobe Commerce te helpen de implicaties van de Wet van de Privacy van de Consumentenbescherming van Californië begrijpen. De informatie is gebaseerd op de tekst van het statuut. Om te bevestigen als CCPA op uw zaken van toepassing is, raadpleeg uw advocaat.
 
-De [California Consumer Privacy Act][5] (CCPA) breidt de rechten van consumenten in Californië uit om te bepalen hoe hun persoonlijke informatie wordt verzameld, opgeslagen, en gebruikt. De nadruk ligt op de bescherming van de consument tegen de ongeoorloofde verkoop of uitwisseling van persoonlijke informatie. De CCPA is in 2018 vastgesteld en is op 1 januari 2020 in werking getreden.
+De [ Wet van de Privacy van de Consumentenbescherming van Californië ][5] (CCPA) breidt de rechten van consumenten in Californië uit om te bepalen hoe hun persoonlijke informatie wordt verzameld, opgeslagen, en gebruikt. De nadruk ligt op de bescherming van de consument tegen de ongeoorloofde verkoop of uitwisseling van persoonlijke informatie. De CCPA is in 2018 vastgesteld en is op 1 januari 2020 in werking getreden.
 
 De CCPA verleent de consument de volgende nieuwe rechten:
 
-- **Recht op kennis** de categorieën van persoonlijke informatie over hen die in de afgelopen twaalf maanden worden verzameld, gebruikt, gedeeld of verkocht.
-- **Recht om te verwijderen** bepaalde soorten persoonlijke informatie die in het bezit zijn van een bedrijf en/of hun dienstverleners.
-- **Recht om te weigeren** van de verkoop van hun persoonlijke gegevens.
-- **Recht op non-discriminatie** in termen van prijs of dienst voor het uitoefenen van een privacyrecht in het kader van de CCPA.
+- **Recht om** de categorieën persoonlijke informatie over hen te kennen die wordt verzameld, gebruikt, gedeeld, of verkocht in de afgelopen 12 maanden.
+- **recht om** bepaalde soorten persoonlijke informatie te schrappen die door een zaken en/of hun dienstverleners wordt gehouden.
+- **Recht om uit** van de verkoop van hun persoonlijke informatie te kiezen.
+- **recht op non-discriminatie** in termen van prijs of dienst voor het uitoefenen van een privacyrecht uit hoofde van CCPA.
 
 Voor CCPA-doeleinden wordt persoonlijke informatie in deze context gedefinieerd als:
 
@@ -31,7 +31,7 @@ Voor CCPA-doeleinden wordt persoonlijke informatie in deze context gedefinieerd 
 
 In dit verband omvat het bepaalde gegevenselementen die niet als persoonsgegevens in de context van andere wet- of regelgeving kunnen worden beschouwd. Handelaren moeten dit in gedachten houden wanneer zij bepalen of en hoe zij de wet moeten naleven.
 
-CCPA vereist ook ondernemingen om te verstrekken _redelijke zekerheid_, en omvat uitgebreide bepalingen inzake gegevensbescherming voor consumenten, waaronder het recht om juridische stappen te ondernemen in geval van een inbreuk in verband met gegevens.
+CCPA vereist ook ondernemingen om _redelijke veiligheid_ te verstrekken, en omvat uitgebreide gegevensbeschermingsbepalingen voor consumenten, met inbegrip van het recht om juridische actie te voeren als er een gegevensinbreuk is.
 
 Raadpleeg uw juridische adviseur om te bepalen of en hoe u aan om het even welke vereisten zou moeten voldoen CCPA die op u en uw zaken van toepassing kunnen zijn. Dit omvat de nieuwe vereisten inzake kennisgeving, opt-out en registratie die bedrijven volgens de wet moeten uitvoeren.
 
@@ -49,22 +49,22 @@ Deze sectie verstrekt een overzicht op hoog niveau van de stappen die voor verko
 
 ### GDPR en CCPA
 
-Als uw bedrijf zowel aan [Algemene verordening inzake gegevensbescherming](compliance-gdpr.md) (GDPR) en de CCPA kunt u een deel van het werk uit uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) (GDPR) als CCPA moeten naleven, kunt u wat werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Zie voor meer informatie de [CCPA-werkblad][3]{:target=&quot;_blank&quot;}.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie ][3] {:target= &quot;_blank&quot;} het [ Cpa- Werkblad.
 
 ### Routekaart voor naleving
 
-Er is een gecoördineerde inspanning nodig om een plan te ontwikkelen en uit te voeren om de naleving aan te pakken. Gebruik deze roadmap als gids om middelen te mobiliseren en aan taken voorrang te geven zodat u zich op veelvoudige fronten kunt bewegen. Het proces is in wezen hetzelfde voor iedereen [!DNL Commerce] installaties, met uitzondering van:
+Er is een gecoördineerde inspanning nodig om een plan te ontwikkelen en uit te voeren om de naleving aan te pakken. Gebruik deze roadmap als gids om middelen te mobiliseren en aan taken voorrang te geven zodat u zich op veelvoudige fronten kunt bewegen. Het proces is in wezen hetzelfde voor alle [!DNL Commerce] -installaties, met de volgende uitzondering:
 
-- **Adobe Commerce over cloudinfrastructuur**: Handelaars met winkels die op Adobe worden gehost [cloudinfrastructuur][4]{:target=&quot;_blank&quot;} kan de technische accountmanager van Adobe Commerce of de klantenondersteuning vragen om hulp bij het beantwoorden van consumentenverzoeken.
+- **Adobe Commerce op wolkeninfrastructuur**: Merchants met opslag die op Adobe [ wordt ontvangen wolkeninfrastructuur ][4] {:target= &quot;_blank&quot;} kan hun Manager van de Rekening van Adobe Commerce Technische of de Steun van de Klant voor hulp vragen met het antwoorden op consumentenverzoeken.
 
-- **Op locatie**: Handelaren met installaties op locatie in Adobe Commerce of Magento Open Source moeten hun eigen processen en instrumenten ontwikkelen om te reageren op en om consumentenverzoeken in verband met privacyregels te beheren.
+- **op-gebouw**: De handelaren met op-gebouw installaties van Adobe Commerce of Magento Open Source moeten hun eigen processen en hulpmiddelen ontwikkelen om aan consumentenverzoeken met betrekking tot privacyverordeningen te antwoorden en te beheren.
 
 #### Stap 1: Samenstellen van een interfunctioneel team dat de naleving van de regelgeving moet aanpakken
 
@@ -81,52 +81,52 @@ Vanuit zakelijk perspectief moet u bepalen of uw bedrijf deze privacybescherming
 
 #### Stap 2: Maak een inventaris van uw digitale eigenschappen
 
-**Belanghebbenden:** Informatietechnologie, juridische en administratieve ondersteuning
+**Belanghebbenden:** Informatietechnologie, Juridische, Administratieve Steun
 
 Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en wie toegang heeft tot uw consumentengegevens.
 
-1. Bepaal welke persoonlijke openbare en persoonlijke gegevens worden verzameld via uw websites en mobiele toepassingen. Bijvoorbeeld, slaat een standaardgegevensbestand van de Handel de volgende soorten openbare en privé persoonlijke informatie op:
+1. Bepaal welke persoonlijke openbare en persoonlijke gegevens worden verzameld via uw websites en mobiele toepassingen. In een standaard Commerce-database worden bijvoorbeeld de volgende soorten persoonlijke en persoonlijke gegevens opgeslagen:
 
-   - **Openbaar**: Gezichtslijsten, productoverzichten
+   - **Openbaar**: De lijsten van de wens, productoverzichten
 
-   - **Persoonlijk**: Informatie van de klant, bestelgegevens, terugbetalingspunten, register van cadeau, adresboek, winkelkrediet, betalingsmethoden, factureringsovereenkomsten, abonnementen op nieuwsbrief, uitnodigingen.
+   - **Privé**: De Informatie van de klant, de Informatie van de Orde, de Punten van de Terugbetaling, het Registratie van het Cadeautje, het Boek van het Adres, de Krediet van de Opslag, de Methoden van de Betaling, de Abonnementen van de Newsletter, Uitnodigingen.
 
-     Als uw [!DNL Commerce] de installatie is aangepast, aanvullende persoonlijke informatie kan worden verzameld. Persoonlijke gegevens kunnen ook in [cookies](./compliance-cookie-law.md), tags en andere technologieën die informatie verzamelen.
+     Als de [!DNL Commerce] -installatie is aangepast, worden mogelijk aanvullende persoonlijke gegevens verzameld. De persoonlijke informatie zou ook in [ koekjes ](./compliance-cookie-law.md), markeringen, en andere technologieën kunnen verblijven die informatie verzamelen.
 
 1. Identificeer de partijen met wie u gegevens deelt. In de lijst moeten dienstverleners en derden worden opgenomen. Onder andere advertentienetwerken, internetserviceproviders, gegevensanalytische providers, overheidsentiteiten, besturingssystemen en platforms, sociale netwerken en wederverkopers van consumentengegevens die niet rechtstreeks persoonlijke informatie van uw consumenten verzamelen.
 
-   - **Serviceproviders**: Entiteiten die voor zakelijke doeleinden toegang hebben tot uw consumentengegevens en die namens u services leveren. Adobe is bijvoorbeeld een serviceprovider, net als sommige ontwikkelaars van aanpassingen, extensies en services.
+   - **Dienstverleners**: De entiteiten die toegang tot uw consumentengegevens voor een bedrijfsdoel hebben, en de diensten namens u verlenen. Adobe is bijvoorbeeld een serviceprovider, net als sommige ontwikkelaars van aanpassingen, extensies en services.
 
-     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Zie voor meer informatie [Google Privacy-instellingen](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Meer leren, zie [ de Montages van de Privacy van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
-   - **Andere derde partijen**: Entiteiten met wie u consumentengegevens deelt of verkoopt. U kunt bijvoorbeeld consumentengegevens delen met een reclamenetwerk in ruil voor reclame.
+   - **Andere Derde Partijen**: De entiteiten met wie u consumentengegevens deelt of verkoopt. U kunt bijvoorbeeld consumentengegevens delen met een reclamenetwerk in ruil voor reclame.
 
 #### Stap 3: Wijs de klantenreis en het proces van de gegevensinzameling in uw opslag toe
 
-**Belanghebbenden:** Gebruikerservaring, informatietechnologie, administratieve ondersteuning
+**Belanghebbenden:** Ervaring van de Gebruiker, de Technologie van de Informatie, Administratieve Steun
 
-1. Elk punt in het dialoogvenster identificeren [reis van klant] wanneer persoonlijke informatie wordt verzameld, en het type informatie dat bij elke stap wordt verzameld.
+1. Identificeer elk punt in de [ klantenreis ] waar de persoonlijke informatie wordt verzameld, en het type van informatie dat bij elke stap wordt verzameld.
 
    Bezoekers van uw site moeten hiervan vooraf op de hoogte worden gesteld of op het punt waar de gegevens worden verzameld. Een winkel zonder aangepaste integratie verzamelt bijvoorbeeld persoonlijke gegevens wanneer een klantenaccount wordt gemaakt en tijdens het afrekenen. Als uw winkel aangepaste integraties heeft, zijn er mogelijk aanvullende gegevensposten en kenmerken die moeten worden geïdentificeerd.
 
 1. Zie de volgende onderwerpen voor toepasselijke gegevensstroomdiagrammen en de afbeeldingen van de gegevensbestandentiteit voor elke versie:
 
-   - [Referentie van persoonlijke gegevens (2.x)][1]
-   - [Referentie van persoonlijke gegevens (1.x)][2]
+   - [ Persoonlijke Verwijzing van de Informatie (2.x) ][1]
+   - [ Persoonlijke Verwijzing van de Informatie (1.x) ][2]
 
-   ![diagram](./assets/privacy-frontend-diagram.svg)
+   ![ diagram ](./assets/privacy-frontend-diagram.svg)
 
 #### Stap 4: Vestig procedures en mechanismen om op klantenverzoeken te antwoorden
 
-**Belanghebbenden:** Klantenservice, informatietechnologie, gebruikerservaring, administratieve ondersteuning
+**Belanghebbenden:** de Dienst van de Klant, de Technologie van de Informatie, Ervaring van de Gebruiker, Administratieve Steun
 
 Vanuit het oogpunt van gegevensbeheer zijn bij elk verzoek om persoonlijke informatie de volgende partijen betrokken:
 
-- **Gegevensproefpersonen** (Consumenten): Onder CCPA kan elke persoon in Californië die persoonlijke informatie verstrekt om een aankoop te doen en/of een klantenrekening te handhaven een verzoek indienen om tot hun persoonlijke gegevens toegang te hebben of te schrappen.
+- **Onderwerpen van Gegevens** (Consumenten): Onder CCPA, om het even welke persoon in Californië die persoonlijke informatie verstrekt om een aankoop te maken en/of een klantenrekening te handhaven zou een verzoek kunnen voorleggen om tot hun persoonlijke gegevens toegang te hebben of te schrappen.
 
-- **Entiteiten die optreden als ondernemingen binnen het toepassingsgebied van de CCPA** (merken): [!DNL Commerce] handelaren verzamelen en bewaren persoonlijke gegevens van hun klanten en gasten die in hun winkels aankopen doen .
+- **Entiteiten handelend als Ondernemingen binnen het werkingsgebied van CCPA** (Merken): [!DNL Commerce] de handelaren verzamelen en slaan persoonlijke informatie van hun klanten en gasten op die aankopen in hun opslag maken.
 
-- **Gegevensprocessor** (Technologieleveranciers): Adobe Commerce en Magento Open Source werken als verwerkers van de persoonsgegevens die worden opgeslagen als onderdeel van de diensten die aan handelaren worden geleverd. Als verwerker verwerkt de Adobe persoonsgegevens overeenkomstig de toestemming en instructies van de handelaar, overeenkomstig de licentieovereenkomst.
+- **Bewerker van Gegevens** (de Leveranciers van de Technologie): Adobe Commerce en de Magento Open Source handelen als bewerkers van het persoonlijke gegeven dat als deel van de diensten wordt opgeslagen die aan handelaren worden verleend. Als verwerker verwerkt de Adobe persoonsgegevens overeenkomstig de toestemming en instructies van de handelaar, overeenkomstig de licentieovereenkomst.
 
 Merchants zijn verantwoordelijk voor het volgende:
 
@@ -140,28 +140,28 @@ Merchants zijn verantwoordelijk voor het volgende:
 
 1. Stel responsprocedures vast en documenteer elk van de volgende verzoeken:
 
-   - **Verzoeken om kennis** - Bezoekers in uw winkel moeten op de hoogte worden gesteld van alle regelingen die u moet treffen om hun persoonlijke gegevens te verkopen of met derden te delen, en mogen zich afmelden. De details van uw gebruik van persoonlijke gegevens en de partijen met wie u gegevens deelt of verkoopt, kunnen in uw privacybeleid worden gehandhaafd.
+   - **Verzoeken om** te kennen - de Bezoekers aan uw opslag moeten van om het even welke regelingen op de hoogte worden gesteld dat u hun persoonlijke informatie met derden moet verkopen of delen, en moeten worden toegestaan om te weigeren. De details van uw gebruik van persoonlijke gegevens en de partijen met wie u gegevens deelt of verkoopt, kunnen in uw privacybeleid worden gehandhaafd.
 
-   - **Verzoeken om te weigeren** - Indien persoonsgegevens worden verkocht of aan derden worden doorgegeven in ruil voor een waardevolle vergoeding, vereist de CCPA een _Mijn gegevens niet verkopen_ koppeling op elk punt waar deze wordt verzameld. Aanvullende door de gebruiker ingeschakelde invoerbesturingselementen, zoals selectievakjes en knoppen, kunnen worden gebruikt in e-mailcommunicatie, voorkeursinstellingen voor websites of in websiteformulieren op het punt van gegevensverzameling, zodat individuen een geldige &quot;opt-out&quot;-aanvraag kunnen indienen.
+   - **Verzoeken om uit te kiezen** - als het persoonlijke gegeven wordt verkocht of aan derden in ruil voor waardevolle overweging overgebracht, vereist CCPA a _niet Verkoop Mijn Verbinding van Info_ op elk punt waar het wordt verzameld. Aanvullende door de gebruiker ingeschakelde invoerbesturingselementen, zoals selectievakjes en knoppen, kunnen worden gebruikt in e-mailcommunicatie, voorkeursinstellingen voor websites of in websiteformulieren op het punt van gegevensverzameling, zodat individuen een geldige &quot;opt-out&quot;-aanvraag kunnen indienen.
 
-   - **Verzoeken om te verwijderen**
+   - **Verzoeken om** te schrappen
 
       - Handelaren wier winkels op Adobe Commerce Cloud worden gehost, dienen contact op te nemen met de Adobe Support voor hulp bij het verwijderen van persoonlijke gegevens. Neem voor meer informatie contact op met de technische accountmanager of de klantenondersteuning van de Adobe.
       - Handelaars die installaties van Adobe Commerce of Magento Open Source op gebouw in werking stellen moeten hun eigen proces en manuscript uitvoeren om persoonlijke informatie op verzoek te schrappen.
 
 #### Stap 5: Schrijf de inhoud voor de vereiste klantenberichten
 
-**Belanghebbenden:** Juridisch, Klantenservice, gebruikerservaring, informatietechnologie, administratieve ondersteuning
+**Belanghebbenden:** Juridische dienst, de Dienst van de Klant, Ervaring van de Gebruiker, de Technologie van de Informatie, Administratieve Steun
 
 1. Bepaal in samenwerking met uw juridisch adviseur de soorten berichten die aan uw website moeten worden toegevoegd om aan verplichtingen CCPA te voldoen.
 
-   - **Kennisgeving van verzameling**: Een kennisgeving die op of vóór het tijdstip waarop de persoonsgegevens bij de consument worden verzameld, wordt verstrekt. De kennisgeving moet in gewone taal worden geschreven en moet voor de gemiddelde persoon gemakkelijk te begrijpen zijn. De kennisgeving moet opvallend zijn en in een of meer dezelfde talen worden geleverd als de inhoud van uw website.
+   - **Bericht van Inzameling**: Een bericht dat bij of vóór de tijd wordt gegeven wordt de persoonlijke informatie verzameld van de consument. De kennisgeving moet in gewone taal worden geschreven en moet voor de gemiddelde persoon gemakkelijk te begrijpen zijn. De kennisgeving moet opvallend zijn en in een of meer dezelfde talen worden geleverd als de inhoud van uw website.
 
-   - **Kennisgeving van het recht om te weigeren**: Een kennisgeving die consumenten informeert over hun recht om zich te onthouden van de verkoop van hun persoonlijke gegevens.
+   - **Bericht van Recht om uit te kiezen**: Een bericht dat consumenten van hun recht op om uit de verkoop van hun persoonlijke informatie op de hoogte brengt.
 
-   - **Aankondiging van financiële stimulans**: Een kennisgeving waarin elke financiële prikkel, prijs of verschil in service wordt uitgelegd die uw bedrijf ontvangt in ruil voor persoonlijke informatie.
+   - **Bericht van Financiële Aansporing**: Een bericht dat elke financiële aansporing, prijs, of de dienstverschil verklaart dat uw bedrijf in ruil voor persoonlijke informatie ontvangt.
 
-   - **Hoe te om een Verzoek om de Verzameling van Persoonlijke Informatie en Gebruik voor te leggen**: Instructies voor individuen om een verzoek in te dienen dat u de persoonlijke informatie openbaar maakt die u over het individu hebt verzameld, met inbegrip van:
+   - **hoe te om een Verzoek om de Inzameling en het Gebruik van Persoonlijke Informatie voor te leggen**: Instructies voor individuen om een verzoek voor te leggen dat u de persoonlijke informatie openbaart die u over het individu hebt verzameld, die omvatten:
 
       - Specifieke persoonlijke gegevens die u over de consument hebt verzameld
       - Categorieën persoonlijke gegevens die u over de consument hebt verzameld
@@ -178,31 +178,31 @@ Merchants zijn verantwoordelijk voor het volgende:
 
 #### Stap 6: Controleer uw overeenkomsten met serviceproviders
 
-**Belanghebbenden:** Juridische en administratieve ondersteuning
+**Belanghebbenden:** Juridische, Administratieve Steun
 
 Controleer en werk zo nodig alle dienstverleningscontracten bij om de CCPA-vereisten te weerspiegelen.
 
 #### Stap 7: Je privacybeleid bijwerken
 
-**Belanghebbenden:** Juridische en administratieve ondersteuning
+**Belanghebbenden:** Juridische, Administratieve Steun
 
 Controleer uw huidige privacybeleid en overweeg wat, als om het even welk, extra informatie noodzakelijk is.
 
-- **Gebruik van persoonlijke gegevens**: U moet openbaar maken welke persoonlijke gegevens worden verzameld en welke financiële prikkels u krijgt in ruil voor de verkoop van persoonlijke gegevens. U moet ook uitleggen hoe de prikkel in het kader van de CCPA is toegestaan en hoe de waarde van de persoonlijke gegevens wordt berekend.
+- **Gebruik van Persoonlijke Informatie**: U moet openbaar maken welke persoonlijke informatie wordt verzameld, en om het even welke financiële prikkels u in ruil van de verkoop van persoonlijke informatie ontvangt. U moet ook uitleggen hoe de prikkel in het kader van de CCPA is toegestaan en hoe de waarde van de persoonlijke gegevens wordt berekend.
 
-- **Leeftijd van instemming**: Wanneer u persoonlijke gegevens over minderjarigen verzamelt of gebruikt, kan het zijn dat aan de volgende vereisten wordt voldaan:
+- **Leeftijd van Toestemming**: Als u persoonlijke informatie over minderjarigen verzamelt of gebruikt, kunt u aan de volgende vereisten onderworpen zijn:
 
-   - **Mineruren &lt; 13**: Ouderlijke toelating is vereist voor minderjarigen jonger dan 13 jaar om zich aan te sluiten bij de verkoop van hun persoonlijke gegevens.
+   - **Minors &lt; 13**: De ouderlijke vergunning wordt vereist voor minderjarigen onder de leeftijd van 13 om aan de verkoop van hun persoonlijke informatie te kiezen.
 
-   - **Minder dan 13 tot &lt; 16**: Minderjarigen van ten minste 13 jaar en jonger dan 16 jaar kunnen zich aanmelden voor de verkoop van hun persoonlijke gegevens, mits het bedrijf een redelijke procedure instelt om de actie te documenteren. Het proces moet in het bedrijf worden beschreven [privacybeleid](privacy-policy.md). Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
+   - **Minderjarigen 13 tot &lt; 16**: Minderjarigen van minstens 13 jaar en minder dan 16 jaar kunnen zich aanmelden bij de verkoop van hun persoonlijke informatie, op voorwaarde dat de zaken een redelijk proces om de actie te documenteren tot stand brengen. Het proces moet in het 0} van het bedrijf {privacybeleid ](privacy-policy.md) worden beschreven. [ Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
 
   >[!IMPORTANT]
   >
-  >Handelaren mogen de persoonsgegevens van kinderen niet op [!DNL Commerce] platform of systemen. Als er redenen zijn om aan te nemen dat de verzamelde gegevens tot een minderjarige behoren, moet het uit een [!DNL Commerce] onmiddellijk platform om schending van de licentievoorwaarden van de Adobe te voorkomen.
+  >Handelaars mogen de persoonlijke gegevens van kinderen niet opslaan op [!DNL Commerce] -platform of -systemen. Als er reden is om aan te nemen dat verzamelde gegevens tot een minderjarige behoren, moet deze onmiddellijk van een [!DNL Commerce] -platform worden verwijderd om schending van de licentievoorwaarden van de Adobe te voorkomen.
 
 #### Stap 8: alle gerelateerde procedures documenteren en registers bijhouden
 
-**Belanghebbenden:** Klantenservice, administratieve ondersteuning
+**Belanghebbenden:** de Dienst van de Klant, Administratieve Steun
 
 Gedurende 24 maanden nadat elk verzoek om individuele rechten is ontvangen, wordt een register bijgehouden van het verzoek en de antwoorden van uw bedrijf.
 

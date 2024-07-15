@@ -1,6 +1,6 @@
 ---
 title: Inhoud toevoegen - Product Recommendations
-description: Meer informatie over het Recommendations-inhoudssoort Product waarmee u een lijst met aanbevelingen kunt toevoegen aan de [!DNL Page Builder] in het werkgebied.
+description: Leer over het inhoudstype van Recommendations van het Product, dat wordt gebruikt om een lijst van aanbevelingen aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Product Recommendations
 
-Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbeveling-eenheid](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) aan de [[!DNL Page Builder] stadium](workspace.md#stage) voor een CMS-pagina, -blok of -blok.
+Gebruik het _inhoudstype van Recommendations van het 0} Product {om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS- pagina, een blok, of een dynamisch blok toe te voegen._
 
 >[!NOTE]
 >
->De [!DNL Page Builder] _Product Recommendations_ inhoudstype wordt ondersteund in Adobe Commerce 2.4.4 en hoger en is beschikbaar in het dialoogvenster [Product Recommendations-metapakketversie 3.0.x of hoger](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Toevoegen [!DNL Page Builder] ondersteuning voor Product Recommendations; [zie de installatiegegevens](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
+>Het [!DNL Page Builder] _Recommendations van het Product_ inhoudstype wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van Recommendations van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor Product Recommendations toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,12 +24,12 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 | Gereedschap | Pictogram | Beschrijving |
 | --- | --| --- |
-| Verplaatsen | ![Pictogram Verplaatsen](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de container met productaanbevelingen en de inhoud ervan naar een andere positie in het werkgebied. |
-| Instellingen | ![Instellingenpictogram](./assets/pb-icon-settings.png){width="25"} | Opent de Edit pagina van de Aanbeveling van het Product, waar u de aanbeveling eenheid kunt kiezen en de eigenschappen van de container veranderen. |
-| Verbergen | ![Pictogram verbergen](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige container met productaanbevelingen en de inhoud ervan. |
-| Tonen | ![Pictogram tonen](./assets/pb-icon-show.png){width="25"} | Toont de verborgen container van de productaanbeveling en zijn inhoud. |
-| Dupliceren | ![Pictogram Dupliceren](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een gedupliceerde kopie van de container met productaanbevelingen en de inhoud ervan. |
-| Verwijderen | ![Pictogram verwijderen](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container met productaanbevelingen en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de container met productaanbevelingen en de inhoud ervan naar een andere positie in het werkgebied. |
+| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Opent de Edit pagina van de Aanbeveling van het Product, waar u de aanbeveling eenheid kunt kiezen en de eigenschappen van de container veranderen. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige container met productaanbevelingen en de inhoud ervan. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de verborgen container van de productaanbeveling en zijn inhoud. |
+| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een gedupliceerde kopie van de container met productaanbevelingen en de inhoud ervan. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container met productaanbevelingen en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -37,68 +37,68 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Een bestaande aanbevolen eenheid toevoegen
 
-1. Controleer of u al [heeft een aanbevolen eenheid gecreëerd](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) voor de [!DNL Page Builder] paginatype.
+1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
 
 >[!NOTE]
 >
->U kunt aanbevelingen maken voor de [!DNL Page Builder] paginatype alleen in de standaardwinkelweergave.
+>U kunt alleen in de standaardwinkelweergave aanbevolen eenheden voor het paginatype [!DNL Page Builder] maken.
 
 1. Open de pagina, het blok of het dynamische blok in de bewerkingsmodus.
 
-1. Breid uit _[!UICONTROL Content]_sectie en klik op **[!UICONTROL Edit with Page Builder]**of in het voorvertoningsgebied van de inhoud om het dialoogvenster [!DNL Page Builder] werkruimte.
+1. Vouw de sectie _[!UICONTROL Content]_uit en klik op **[!UICONTROL Edit with Page Builder]**of in het voorvertoningsgebied van de inhoud om de werkruimte van [!DNL Page Builder] te openen.
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Layout]_, sleept u **[!UICONTROL Row]**tijdelijke aanduiding naar het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Row]**naar het werkgebied.
 
-1. In de [!DNL Page Builder] paneel onder _[!UICONTROL Add Content]_, sleept u **[!UICONTROL Product Recommendation]**tijdelijke aanduiding voor de rij.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Add Content]_een tijdelijke aanduiding **[!UICONTROL Product Recommendation]**naar de rij.
 
-   ![Het inhoudstype Productaanbeveling toevoegen](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
+   ![ Toevoegend het inhoudstype van de Aanbeveling van het Product ](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit:
 
    - Klik op **[!UICONTROL Edit Product Recommendation]**.
-   - Houd de muisaanwijzer boven de lege container om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png)).
+   - Beweeg over de lege container om toolbox te tonen en de _Montages_ te klikken (![ pictogram van Montages ](./assets/pb-icon-settings.png)).
 
-   ![Productaanbeveling bewerken](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
+   ![ geef de Aanbeveling van het Product uit ](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. In de _[!UICONTROL Selection]_sectie, klikken **[!UICONTROL Select]**.
+1. Klik in de sectie _[!UICONTROL Selection]_op **[!UICONTROL Select]**.
 
 1. Zoek in de lijst met actieve productaanbevelingen de rij met de aanbevolen eenheid die u wilt toevoegen en klik op **[!UICONTROL Select]** in de laatste kolom.
 
-   ![Geselecteerde productaanbeveling](./assets/pb-prex-select.png){width="600" zoomable="yes"}
+   ![ Geselecteerde Aanbeveling van het Product ](./assets/pb-prex-select.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Add Selected]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Add Selected]** .
 
-   De naam van de geselecteerde productaanbeveling wordt weergegeven in het dialoogvenster _[!UICONTROL Selection]_van de_[!UICONTROL Edit Product Recommendation]_ pagina.
+   De naam van de geselecteerde productaanbeveling wordt weergegeven in de sectie _[!UICONTROL Selection]_van de pagina_[!UICONTROL Edit Product Recommendation]_ .
 
-1. Breng desgewenst wijzigingen aan in de [Geavanceerde instellingen](#advanced-settings).
+1. Breng om het even welke veranderingen noodzakelijk aan de [ Geavanceerde montages ](#advanced-settings) aan.
 
-   ![Productaanbeveling bewerken](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
+   ![ geef de Aanbeveling van het Product uit ](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. Voer de volgende handelingen uit wanneer deze zijn voltooid:
 
-   - Als u met een volledig gemaximaliseerd browservenster werkt, klikt u op de knop _Volledig scherm sluiten_ (![Pictogram Volledig scherm sluiten](./assets/pb-icon-reduce.png)) in de rechterbovenhoek van de werkruimte.
+   - Als het werken met volledig gemaximaliseerd browser venster, klik het _Dichte Volledige Scherm_ (![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram in de hoger-juiste hoek van de werkruimte.
 
-   - Klikken **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+   - Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
    Wanneer u terugkeert naar het werkgebied, worden voorlopige afbeeldingen van het product weergegeven in de container.
 
 ## Aanbevolen eenheidsinstellingen bewerken
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Instellingen_ (![Instellingenpictogram](./assets/pb-icon-settings.png)).
+1. Beweeg over de container van de aanbevelingseenheid om toolbox te tonen en de _Montages_ te klikken (![ pictogram van Montages ](./assets/pb-icon-settings.png)).
 
-   ![Gereedschap Aanbeveling](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
+   ![ Toolbox van de Aanbeveling ](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
-1. Breng desgewenst wijzigingen aan in de [Geavanceerde instellingen](#advanced-settings).
+1. Breng om het even welke veranderingen noodzakelijk aan de [ Geavanceerde montages ](#advanced-settings) aan.
 
-1. Klik op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de [!DNL Page Builder] werkruimte.
+1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ## Een aanbevolen eenheid dupliceren
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid om de gereedschapset weer te geven en klik op de knop _Dupliceren_ (![Pictogram Dupliceren](./assets/pb-icon-duplicate.png)) in de gereedschapset.
+1. Beweeg over de container van de aanbevelingseenheid om toolbox te tonen en _te klikken dupliceert_ (![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png)) pictogram in toolbox.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-1. Als u de gedupliceerde aanbevolen eenheid naar een nieuwe positie wilt verplaatsen, houdt u de muisaanwijzer boven de container en klikt u op de knop _Verplaatsen_ (![Pictogram Verplaatsen](./assets/pb-icon-move.png)) in de gereedschapset.
+1. Om de gedupliceerde aanbeveling te bewegen eenheid aan een nieuwe positie, over de container te bewegen en de _Beweging_ (![ het pictogram van de Beweging ](./assets/pb-icon-move.png)) te klikken pictogram in toolbox.
 
 1. Selecteer en sleep de aanbevolen eenheid totdat de rode hulplijn op de nieuwe positie wordt weergegeven.
 
@@ -106,13 +106,13 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
 ## Een aanbevolen eenheid uit het werkgebied verwijderen
 
-1. Houd de muisaanwijzer boven de container van de aanbevolen eenheid en klik op de knop _Verwijderen_ ( ![Pictogram verwijderen](./assets/pb-icon-remove.png)) in de gereedschapset.
+1. Beweeg over de container van de aanbevelingseenheid en klik _verwijderen_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png)) pictogram in toolbox.
 
-1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
 ## Geavanceerde instellingen
 
-1. Als u de plaatsing van de Product Recommendations-eenheid in de bovenliggende container wilt bepalen, kiest u de optie **[!UICONTROL Alignment]**:
+1. Kies de optie **[!UICONTROL Alignment]** als u de plaatsing van de Product Recommendations-eenheid in de bovenliggende container wilt bepalen:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
    {style="table-layout:auto"}
 
-1. Stel de **[!UICONTROL Border]** stijl die wordt toegepast op alle vier zijden van de Product Recommendations-eenheid:
+1. Stel de **[!UICONTROL Border]** -stijl in die wordt toegepast op alle vier zijden van de Product Recommendations-eenheid:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
@@ -140,7 +140,7 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
    {style="table-layout:auto"}
 
-1. Als u een andere randstijl dan `None`, vult u de weergaveopties voor de rand in:
+1. Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
    | Optie | Beschrijving |
    | ------ |------------ |
@@ -150,11 +150,11 @@ Gebruik de _Product Recommendations_ inhoudstype om een bestaand, actief [aanbev
 
    {style="table-layout:auto"}
 
-1. (Optioneel) Geef de namen op van **[!UICONTROL CSS classes]** in het huidige stijlblad toe te passen op de eenheid.
+1. (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit het huidige stijlblad die u op de eenheid wilt toepassen.
 
    Scheid meerdere klassennamen met een spatie.
 
-1. Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenste marges en de binnenopvulling van de eenheid te bepalen.
+1. Voer in pixels waarden in voor de **[!UICONTROL Margins and Padding]** om de buitenste marges en binnenopvulling van de eenheid te bepalen.
 
    Voer de overeenkomende waarden in het diagram in.
 

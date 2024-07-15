@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Inventory Management] Handboek"
-user-guide-description: Leren gebruiken [!DNL Inventory Management] functies om de hoeveelheden voor verkoop te behouden en verzendingen te verwerken [!DNL Commerce] bestellingen.
+user-guide-description: Leer hoe te om  [!DNL Inventory Management]  eigenschappen te gebruiken om hoeveelheden voor verkoop te handhaven en verzendingen te behandelen om  [!DNL Commerce]  orden te voltooien.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
@@ -15,11 +15,11 @@ ht-degree: 1%
 # [!DNL Inventory Management] Handboek {#inventory}
 
 - [Inventory management Guide](guide-overview.md)
-- [Inleiding tot [!DNL Inventory Management]](introduction.md)
+- [Inleiding tot  [!DNL Inventory Management]](introduction.md)
 - [Aanvullende informatie](release-notes.md)
-- Grondbeginselen van de inventarisatie {#basics}
+- Grondbeginselen van inventarissen {#basics}
    - [Bronnen en voorraden](sources-stocks.md)
-   - [Bronselectie en voorbehouden](selection-reservations.md)
+   - [Selectie en voorbehouden voor Source](selection-reservations.md)
    - [Status van bestelling en boeking](order-status.md)
    - [Productsoorten](product-types.md)
 - Aan de slag {#get-started}
@@ -29,7 +29,7 @@ ht-degree: 1%
    - [Inventarisatie uitbreiden en herstructureren](expand-restructure.md)
 - Configuratie {#configuration}
    - [Overzicht](configuration.md)
-   - [Inschakelen [!DNL Inventory Management]](enable.md)
+   - [Enable  [!DNL Inventory Management]](enable.md)
    - [Globale opties configureren](global-options.md)
    - [Productopties configureren](product-options.md)
    - [Achtergronden configureren](backorders.md)
@@ -42,7 +42,7 @@ ht-degree: 1%
    - [Overzicht](sources-manage.md)
    - [Bronnen toevoegen](sources-add.md)
    - [Bronnen uitschakelen](sources-disable.md)
-- Bestanden beheren {#stocks}
+- Voorraden beheren {#stocks}
    - [Overzicht](stocks-manage.md)
    - [Voorraaditems toevoegen](stocks-add.md)
    - [Prioritaire bronnen voor bestanden](stocks-prioritize-sources.md)
@@ -58,5 +58,5 @@ ht-degree: 1%
    - [Overzicht](shipments.md)
    - [Verzendingen maken](shipments-create.md)
 - [CLI-verwijzing](cli.md)
-- [Terug naar Handelshulplijnen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -14,40 +14,40 @@ ht-degree: 0%
 
 Een verlanglijst is een lijst met producten die een geregistreerde klant met vrienden kan delen, of kan opslaan om later naar de winkelwagen over te brengen. Als verlanglijsten zijn ingeschakeld, wordt de koppeling Toevoegen aan lijst met websites weergegeven op de categorie- en productpagina&#39;s van elk product in de winkel. Afhankelijk van het thema kan het een tekstkoppeling of een grafische afbeelding zijn.
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ondersteunt het gebruik van meerdere wenslijsten per klantenaccount.
+![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce steunt het gebruik van veelvoudige wenslijsten per klantenrekening.
 
-![Magento Open Source](../assets/open-source.svg) Magento Open Source ondersteunt het gebruik van één verlanglijst per klantenaccount.
+![ Magento Open Source ](../assets/open-source.svg) Magento Open Source steunt het gebruik van één enkele wensenlijst per klantenrekening.
 
 De gedeelde wensenlijsten worden verzonden van een e-mailadres van de opslag, maar het lichaam van het bericht bevat een gepersonaliseerde nota van de klant. U kunt de e-mailsjabloon aanpassen die wordt gebruikt wanneer wenslijsten worden gedeeld en de opslagcontactpersoon kiezen die als de afzender wordt weergegeven.
 
-De lijsten van de wens kunnen van het dashboard van worden bijgewerkt [klantenaccount](../customers/account-dashboard.md). De punten kunnen tussen de verlanglijst en winkelwagentje door de klant of door de opslagbeheerder worden toegevoegd of worden overgebracht.
+Wenslijsten kunnen van het dashboard van de [ klantenrekening ](../customers/account-dashboard.md) worden bijgewerkt. De punten kunnen tussen de verlanglijst en winkelwagentje door de klant of door de opslagbeheerder worden toegevoegd of worden overgebracht.
 
-![Voorbeeld van een winkel - Mijn lijst met wensen](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
+![ de storefront van het Voorbeeld - Mijn Lijst van wensen ](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
 Wanneer een product met meerdere opties wordt toegevoegd aan een verlanglijst, worden alle opties die door de klant zijn geselecteerd, opgenomen in de beschrijving van het verlanglijstitem. Als de klant bijvoorbeeld hetzelfde paar schoenen in drie verschillende kleuren toevoegt, wordt elk paar weergegeven als een apart item voor een wensenlijst. Als de klant echter hetzelfde product meerdere keren aan de verlanglijst toevoegt, wordt het product slechts één keer weergegeven, maar wordt de hoeveelheid van de productpagina geselecteerd.
 
 ## Wenslijstassistentie in Admin
 
-Klanten kunnen [hun verlanglijsten beheren](wishlist-storefront.md) door zich aan te melden bij hun accounts in de winkel. Als beheerder van de opslagplaats, kunt u klanten wensen lijsten van Admin ook beheren.
+De klanten kunnen [ hun verlanglijsten ](wishlist-storefront.md) beheren door aan hun rekeningen op de storefront het programma te openen. Als beheerder van de opslagplaats, kunt u klanten wensen lijsten van Admin ook beheren.
 
-**_Lijstitems voor wensen bijwerken via de beheerder:_**
+**_om wensen lijstpunten van Admin bij te werken:_**
 
-1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Zoek de klant in de lijst en klik op **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Zoek de klant in de lijst en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Kies in het linkerdeelvenster de optie **[!UICONTROL Wish List]** en zoek het item dat u wilt bewerken in de lijst.
+1. Kies **[!UICONTROL Wish List]** in het linkerdeelvenster en zoek het item dat u wilt bewerken in de lijst.
 
    Alle voor het product geselecteerde opties worden onder de productnaam weergegeven.
 
-   ![Commerce Admin - Customer wish list](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+   ![ Admin van Commerce - klant wenst lijst ](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de productopties te bewerken:
 
-   - In de **[!UICONTROL Action]** kolom, klik **[!UICONTROL Configure]**.
+   - Klik in de kolom **[!UICONTROL Action]** op **[!UICONTROL Configure]** .
 
-   - Werk de opties op de productpagina bij en **[!UICONTROL Quantity]** indien nodig.
+   - Werk de opties op de productpagina bij en **[!UICONTROL Quantity]** naar wens.
 
    - Klik op **[!UICONTROL OK]**.
 
-1. Klik op **[!UICONTROL Save Customer]** of **[!UICONTROL Save and Continue Edit]**.
+1. Klik op **[!UICONTROL Save Customer]** of **[!UICONTROL Save and Continue Edit]** als de bewerking is voltooid.
