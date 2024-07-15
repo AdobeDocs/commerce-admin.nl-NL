@@ -2,7 +2,7 @@
 title: De synchronisatieservice instellen
 description: "Leer hoe u uw Adobe Commerce- en Experience Manager Assets-projecten kunt verbinden met de Assets Rule Engine Service om de synchronisatie van bedrijfsmiddelen tussen deze twee systemen mogelijk te maken."
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ U hebt de volgende geloofsbrieven nodig om uw het projectmilieu van Commerce en 
 | Vereiste gegevens | Source | Waar vindt u het? |
 | ---------- | ------ | ------------- |
 | API-sleutel van Magento-account | Commerce | Geef de openbare API-sleutel op voor de Commerce-omgeving die u gebruikt, Staging of Production. U kunt de API sleutels voor de milieu&#39;s van de Productie en van het Staging op de ](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) pagina van de Opstelling van de Schakelaar van de Dienst van 0} Commerce in Admin, of op de [!UICONTROL My Account] pagina in de [!UICONTROL API Portal] sectie vinden.[ |
-| Commerce SaaS Project Identifier <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | Deze waarden identificeren de Commerce-omgeving en SaaS-gegevensruimte en -project waarmee verbinding moet worden gemaakt. De waarden komen uit de [ Configuratie van het Herkenningsteken van SaaS van de Schakelaar van Commerce Services ].(aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
-| AEM `programId`<br>`environmentId` | [ AEM Assets Authoring Environment ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open de AEM Sites-pagina en selecteer **[!UICONTROL Assets]** .  Kopieer de project- en omgeving-id&#39;s van de URL: `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS Project Identifier <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce Admin | Deze waarden identificeren de Commerce-omgeving en SaaS-gegevensruimte en -project waarmee verbinding moet worden gemaakt. De waarden komen uit de [ Configuratie van het Herkenningsteken van SaaS van de Schakelaar van Commerce Services ](aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
+| AEM `programId` en <br>`environmentId` | [ AEM Assets Authoring Environment ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | Open de AEM Sites-pagina en selecteer **[!UICONTROL Assets]** .  Kopieer project en milieu IDs van URL:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
 | baseURL | Commerce storefront | De [ basis URL ](../stores-purchase/store-urls.md) voor uw Commerce storefront. |
 | OAuth-referenties voor API-toegang | Commerce Admin | U kunt deze geloofsbrieven in de de configuratiemontages van Commerce [ voor de integratie van Assets ](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release) vinden. |
 
