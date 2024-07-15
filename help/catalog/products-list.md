@@ -3,9 +3,9 @@ title: Lijst met producten
 description: Leer over de _[!UICONTROL Products] _pagina in Admin, waar u producten kunt tot stand brengen en bestaande degenen uitgeven.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 | [!UICONTROL Visibility] | Geeft aan waar het product zichtbaar is in de catalogus. Opties: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Geeft de status van het product aan. Opties: `Enabled` en `Disabled` |
 | [!UICONTROL Websites] | Geeft de websites aan waar het product beschikbaar is. |
-| [!UICONTROL Remote Media URL] | Als de activa van productmedia gebruikend de [ Integratie van AEM Assets voor Commerce ](../content-design/aem-assets.md) worden beheerd, toont dit gebied URL om de activa van Commerce in de opslag van het Beheer van de Activa van de AEM te bekijken Digital, de gecentraliseerde bewaarplaats waar de activa worden gehouden. Dit veld wordt alleen weergegeven als de integratie met AEM Assets is ingeschakeld. |
 | [!UICONTROL Action] | Opent het product in Edit wijze. |
 | [!UICONTROL Shared Catalog] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met [ Adobe Commerce B2B ](./b2b/../introduction.md) slechts) wijst op de gedeelde catalogi die douanetarifering voor het product bevatten. |
 
