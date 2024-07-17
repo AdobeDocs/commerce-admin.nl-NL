@@ -1,10 +1,10 @@
 ---
-title: De synchronisatieservice instellen
+title: Elementsynchronisatie inschakelen
 description: "Leer hoe u uw Adobe Commerce- en Experience Manager Assets-projecten kunt verbinden met de Assets Rule Engine Service om de synchronisatie van bedrijfsmiddelen tussen deze twee systemen mogelijk te maken."
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
       - Onboarding {#onboarding}
          - [AEM Assets configureren](aem-assets-configure-aem.md)
          - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
-         - [Synchronisatieservices instellen](aem-assets-setup-synchronization.md)
+         - [Elementsynchronisatie inschakelen](aem-assets-setup-synchronization.md)
       - [AEM Assets gebruiken](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock-integratie](adobe-stock.md)

@@ -2,9 +2,9 @@
 title: Experience Manager Assets-integratie installeren en configureren
 description: "Leer hoe te om te installeren en te vormen  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Installeer en configureer de AEM Assets-integratie voor Commerce door de extensi
 - PHP 8.1, 8.2, 8.3
 - Composer: 2.x
 
-## Vereisten
+**de vereisten van de Configuratie**
 
 - Adobe Commerce moet worden gevormd om [ authentificatie van Adobe te gebruiken IMS ](/help/getting-started/adobe-ims-config.md).
-- Accountprovisioning en -machtigingen—Beheerders moeten toegang hebben tot de volgende bronnen om de Experience Manager Assets-integratie te configureren:
-   - Beheerder van Commerce-toepassing—Installeer de vereiste extensies en configureer de Commerce-toepassingsserver via de beheerdersinterface of de opdrachtregel
+- Account instellen en machtigingen
+   - [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn
    - [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
-   - [ Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction) - de toepassingsbeheerder van Adobe IMS of gebruikersrekening. Account moet beschikken over de juiste machtigingen om mappen te maken en te beheren en openbare verzamelingen te maken, elementen te uploaden, machtigingen in te stellen en metagegevens in te stellen.
 
 ## Overzicht van configuratie
 
