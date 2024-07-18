@@ -3,7 +3,7 @@ title: URL's opslaan
 description: Leer over opslag URLs en hoe te om basisURL en opslagcodes te vormen.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
    - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
    - Voer op de server het volgende uit:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 U kunt de CLI `setup:config:set` opdracht gebruiken om het Admin-pad te wijzigen. In het volgende voorbeeld wordt de optie `--backend-frontname` gebruikt om het pad van de Commerce-hoofdmap te wijzigen in een nieuw beheerpad:
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ Als u een ongeldige Admin URL of een Weg van Admin hebt geplaatst en toegang tot
 
 1. Voer de volgende opdracht uit om terug te keren naar de standaard URL voor Admin:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. Als u het standaardbeheerpad wilt herstellen (ingesteld in de `app/etc/env.php` , zoals beschreven in methode 2), voert u deze opdracht uit:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ Als u een ongeldige Admin URL of een Weg van Admin hebt geplaatst en toegang tot
    - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. Klik vervolgens op **[!UICONTROL Flush Magento Cache]**.
    - Voer op de server het volgende uit:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 

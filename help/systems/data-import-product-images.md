@@ -3,7 +3,7 @@ title: Importeren van productafbeelding
 description: Leer hoe u productafbeeldingen importeert met het pad en de bestandsnaam van elke afbeelding.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
 1. Upload de afbeeldingsbestanden op de Commerce-server naar de map `var/import/images` of naar een submap, zoals `var/import/images/product_images` . Dit is de standaardhoofdmap voor het importeren van productafbeeldingen.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
 1. Nadat u het te importeren bestand hebt geselecteerd, voert u het relatieve pad in na **[!UICONTROL Images File Directory]** .
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
 1. Voer in de CSV-gegevens de volledige URL voor elk afbeeldingsbestand in in de juiste kolom op afbeeldingstype (`base_image`, `small_image`, `thumbnail_image` of `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
 1. Upload de afbeeldingsbestanden in de module Extern opslaan naar de map `var/import/images` of een submap, zoals `var/import/images/product_images` . Dit is de standaardhoofdmap voor het importeren van productafbeeldingen.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
 1. Nadat u het te importeren bestand hebt geselecteerd, voert u het relatieve pad in na **[!UICONTROL Images File Directory]** .
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 
