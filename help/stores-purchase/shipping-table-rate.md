@@ -3,9 +3,9 @@ title: Verzending van tabeltarieven
 description: Leer hoe je een verzendoptie voor tabeltarieven instelt voor je winkel.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
    - Gebruik een asterisk (*) als vervanging die alle mogelijke waarden in om het even welke categorie vertegenwoordigt.
    - De _[!UICONTROL Country]_kolom moet a [ geldige code van drie tekens ][1] voor elke rij bevatten.
    - Sorteer de gegevens op _[!UICONTROL Region/State]_, zodat de specifieke locaties zich boven aan de lijst bevinden en de jokertekenlocaties onderaan. Het gebruiken van deze methode verwerkt eerst de regels met de absolute waarden, en later de vervangingswaarden.
+   - Postcodes worden niet ondersteund. Gebruik een asterisk (*) om alle codes binnen het gebied/de staat toe te staan, of specificeer één enkele code voor een specifieke plaats in de _[!UICONTROL Zip/Postal Code]_kolom.
    - Waarden in de kolom _[!UICONTROL Weight (and above)]_kunnen maximaal vier decimalen hebben (zoals `2.5075` ). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
 
    ![ Gewicht vs. Doel (Australië) ](./assets/table-rates-weight-destination-csv.png){width="500"}
