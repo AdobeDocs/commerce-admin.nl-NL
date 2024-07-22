@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Nadat het gegeven wordt teruggewonnen, kunt u het gebruiken om publiek-geïnform
 
 Als Real-Time CDP-publiek niet wordt weergegeven in Commerce, kan dit worden veroorzaakt door:
 
+- Ongeldige verbinding
 - Onjuist die authentificatietype in de **configuratiepagina van de Verbinding van 0} wordt geselecteerd**
 - Onvoldoende rechten voor gegenereerd token
 
-De volgende twee secties beschrijven hoe te om één van beide geval problemen op te lossen.
+In de volgende secties wordt beschreven hoe u deze problemen kunt oplossen.
+
+### De verbinding valideren
+
+Voer de volgende opdracht uit om de referenties en het antwoord van Adobe Experience Platform te valideren:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Dit bevel keert de verbindingsstatus terug. Voeg de markering `-v` toe voor extra breedtegraad:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Bijvoorbeeld:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Onjuist verificatietype geselecteerd in configuratie
 
