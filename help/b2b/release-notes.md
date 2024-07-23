@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
 workflow-type: tm+mt
-source-wordcount: '6867'
+source-wordcount: '6904'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p1+ en 2.4.6-p6+ de versies van het veiligheidspatch.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden.
 
 
 ## B2B v1.4.2
