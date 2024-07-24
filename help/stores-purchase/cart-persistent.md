@@ -3,167 +3,85 @@ title: persistentie van winkelwagentjes
 description: Leer hoe een hardnekkig winkelwagentje niet-aangeschafte winkelartikelen bijhoudt en de informatie voor het volgende bezoek van de klant opslaat.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 26d4bb35c6e1878a8ea8c5f05a982559e5d6dc35
+source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
 
 # persistentie van winkelwagentjes
 
-Een hardnekkig winkelwagentje volgt niet-aangeschafte artikelen die in het winkelwagentje blijven staan en slaat de informatie op voor het volgende bezoek van de klant. De klanten die _worden herinnerd_ kunnen de inhoud van hun winkelwagentjes hebben worden hersteld de volgende tijd zij uw opslag bezoeken.
+Een hardnekkig winkelwagentje volgt niet-aangeschafte artikelen in de kar en slaat de informatie op. Dit proces zorgt ervoor dat de inhoud van het winkelwagentje toegankelijk blijft wanneer de het programma geopende zitting verloopt.
 
-Een hardnekkig winkelwagentje kan helpen het aantal verlaten winkelwagentjes te verminderen en de verkoop te verhogen. Het is belangrijk te begrijpen dat het hardnekkige winkelwagentje op geen enkel moment gevoelige accountinformatie blootstelt. Terwijl het hardnekkige winkelwagentje in gebruik is, moeten zowel geregistreerde klanten als gastklanten zich aanmelden bij een bestaande account of een account maken voordat ze de afhandeling kunnen uitvoeren. Voor gastkopers is een hardnekkig winkelwagentje de enige manier om informatie van een vorige sessie op te halen.
+Als een klant _wordt herinnerd_, blijft de inhoud van hun het winkelwagentje toegankelijk op het huidige apparaat wanneer de het programma geopende zitting verloopt. Nadat de sessie is verlopen, wordt het winkelwagentje van de klant geopend met behulp van de permanente winkelwagentsessie. Als dezelfde klant zich aanmeldt op een ander apparaat of een andere browser en iets toevoegt aan zijn winkelwagentje en vervolgens terugkeert naar het apparaat met een actieve, permanente sessie, wordt het winkelwagentje bijgewerkt met de toegevoegde items.
+
+Een hardnekkig winkelwagentje kan het aantal verlaten winkelwagentjes verminderen en de verkoop verhogen. Het blijvende het winkelwagentje **stelt niet** gevoelige rekeningsinformatie op geen enkel ogenblik bloot.
 
 Om het gebruik van kartpersistentie voor uw plaats of binnen specifieke archiefmeningen te beheren, kunt u [ blijvende het winkelen kar ](#configure-a-persistent-cart) montages vormen. Voor meer informatie over hoe deze montages de verkoopervaring in uw winkelfront beïnvloeden, zie [ het Blijvende werkschema van het karretje ](#persistent-cart-workflow).
 
 >[!NOTE]
 >
->Wanneer u een blijvend winkelwagentje gebruikt, wordt u aangeraden de levensduur van de serversessie en het sessiecookie in te stellen op een lange periode. Zie [ Levensduur van de Zitting ](../customers/customer-online-options.md) voor meer informatie.
-
-Als u het hardnekkige winkelwagentje wilt gebruiken, moet de browser van de klant zo zijn ingesteld dat cookies zijn toegestaan. Er worden twee soorten cookies gebruikt voor winkelwagentjes:
-
-- **koekje van de Zitting** - een kortetermijnzittingskoekje bestaat tijdens één enkel bezoek aan uw plaats, en verloopt wanneer de klant, of na een vastgestelde tijdspanne verlaat.
-
-- **Persistent Koekje** - een langdurige, blijvende koekje blijft bestaan na het eind van de zitting en bewaart een verslag van het het winkelwagentje van de klant voor toekomstige verwijzing.
+>De mogelijkheid tot hardnekkig winkelwagentje is alleen beschikbaar voor klanten die zijn geregistreerd en aangemeld. Klanten van gasten kunnen de functie hardnekkig winkelwagentje niet gebruiken.
 
 ## Blijvende workflow voor winkelwagentjes
 
 Wanneer het blijvende het winkelwagentje [ ](#configure-a-persistent-cart) wordt toegelaten, hangt het werkschema van af:
 
-- De waarden van _toelaten herinneren me_ en _Duidelijke Persistence op Logout_ montages
-- Het besluit van de klant om _te selecteren of te ontruimen herinner me_ checkbox
+- De waarden van de instellingen _[!UICONTROL Enable Remember Me]_en_[!UICONTROL Clear Persistence on Log Out]_
+- De beslissing van de klant om het selectievakje _[!UICONTROL Remember Me]_in of uit te schakelen
 - Wanneer de permanente cookie wordt gewist
 
-Wanneer een permanente cookie wordt toegepast, wordt een koppeling `Not Jane Smith?` weergegeven in de paginakoptekst. Deze herinnering geeft de klant de capaciteit om de blijvende zitting te eindigen en beginnen werkend als gast, of aan login als verschillende klant. Het systeem houdt een register bij van de inhoud van het winkelwagentje, zelfs als de klant later andere apparaten gebruikt om in uw winkel te winkelen. Een klant kan bijvoorbeeld een item vanaf een laptop aan het winkelwagentje toevoegen, meer items van een mobiel apparaat toevoegen en het afrekenproces vanaf een tablet voltooien.
+Wanneer de klantensessie verloopt, wordt een koppeling `Not Jane Smith?` onder de volgende voorwaarden weergegeven in de paginakoptekst:
+- de aangemelde klant heeft de optie _[!UICONTROL Remember Me]_geselecteerd en er wordt een permanente cookie toegepast
+- de klant meldt zich af wanneer het systeem is geconfigureerd met _[!UICONTROL Clear Persistence on Sign Out]_ingesteld op `No` .
 
-Er is een afzonderlijke, onafhankelijke, permanente cookie voor elke browser. Als de klant meerdere browsers gebruikt tijdens het bezoeken van uw winkel tijdens één permanente sessie, worden de wijzigingen die in de ene browser zijn aangebracht, doorgevoerd in elke andere browser nadat de pagina is vernieuwd. Terwijl de persistente winkelwagentje is ingeschakeld, maakt en onderhoudt uw winkel een aparte, permanente cookie voor elke browser die door een klant wordt gebruikt om zich aan te melden of een account te maken.
+Het systeem houdt een verslag van de het winkelwagentinhoud op het huidige apparaat, zelfs als de het programma geopende zitting verloopt. Met de koppeling `Not Jane Smith?` kan de klant de blijvende sessie beëindigen en als gast gaan werken, of zich aanmelden als een andere of dezelfde klant.
 
-### Voorbeeld: een open sessie op een gedeelde computer
+Als de klant tijdens het aanmelden het selectievakje _[!UICONTROL Remember Me]_heeft ingeschakeld, wordt in uw winkel een aparte, permanente cookie gemaakt en onderhouden. Met dit cookie blijft het winkelwagentje van de klant toegankelijk, zelfs nadat de browser is gesloten of naar een andere site is gegaan en de aangemelde sessie is verlopen.
 
-Jane voltooit haar vakantiewinkelen met een blijvende sessie. Ze voegt een cadeautje voor John toe aan haar kar en iets voor haar moeder. Dan gaat ze naar de keuken voor een snack.
+Als dezelfde klant uw winkel bezoekt met meerdere browsers terwijl hij zich heeft aangemeld of als een permanente sessie actief is, worden de wijzigingen die de klant aanbrengt in de inhoud van het winkelwagentje in één browser weerspiegeld in andere browsers wanneer de pagina wordt vernieuwd.
 
-John zit op de computer om snel te winkelen terwijl Jane in de keuken is. Zonder de koppeling `Not Jane Smith?` boven aan de pagina te zien, vindt hij een leuk cadeau voor Jane en voegt hij deze toe aan de wagen. Als hij uitcheckt en zich aanmeldt als zichzelf, worden beide items in Jane&#39;s winkelwagen aan zijn winkelwagen toegevoegd. John is in zulk een haast dat hij niet de extra punten tijdens _Overzicht van de Orde_ opmerkt, en legt de orde voor. Jane&#39;s winkelwagen is nu leeg en John heeft alle geschenken gekocht.
+>[!NOTE]
+>
+>Om ervoor te zorgen dat de kartsynchronisatie op meerdere apparaten of browsers plaatsvindt, moeten klanten zich aanmelden op elk nieuw apparaat dat ze gebruiken voor winkelen. Voor aangemelde klanten wordt de inhoud van het winkelwagentje gesynchroniseerd op meerdere apparaten en browsers zolang ze zijn aangemeld onder dezelfde account, ongeacht de configuratie voor continue winkelwagentjes.
 
-### Mijn gegevens onthouden
+### Functie van het selectievakje Onthouden
 
-De klanten kunnen _selecteren me_ checkbox op de login pagina herinneren om de inhoud van hun winkelwagentjes te bewaren.
+Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_inschakelen op de aanmeldingspagina of bij het maken van een nieuwe account om de inhoud van het winkelwagentje toegankelijk te houden op het huidige apparaat wanneer de aangemelde sessie verloopt.
 
 | Herinner me? | Resultaat |
 | ------------ |  ------ |
-| Geselecteerd | Maakt een permanente cookie en slaat de inhoud van het winkelwagentje op voor de volgende aangemelde sessie van de klant. |
-| Niet geselecteerd | Er wordt geen permanente cookie gemaakt en de winkelwagengegevens worden niet opgeslagen voor de volgende aangemelde sessie van de klant. |
+| Geselecteerd | Maakt een permanente cookie en zorgt ervoor dat de inhoud van de winkelwagentje toegankelijk blijft op het huidige apparaat wanneer de aanmeldingssessie van de klant verloopt. |
+| Niet geselecteerd | Er wordt geen permanente cookie gemaakt en de inhoud van het winkelwagentje blijft op het huidige apparaat beschikbaar wanneer de aanmeldingssessie verloopt. De inhoud van het winkelwagentje wordt nog steeds opgeslagen in de account van de klant en de volgende keer dat de klant zich aanmeldt, opnieuw geladen. |
 
 {style="table-layout:auto"}
 
-### Doorgaan met persistentie bij afmelden - nee
+### Persistentie bij afmelden wissen, gedrag
 
-| Handeling | Resultaat |
-| ------ | ------ |
-| Aanmelden bij klant | Roept de permanente cookie aan naast de sessiecookie die al in gebruik is. |
-| Klant meldt zich af | Verwijdert de sessiecookie maar de permanente cookie blijft van kracht. De volgende keer dat de klant zich aanmeldt, worden de winkelwagentjes weer hersteld of worden ze toegevoegd aan nieuwe items die in het winkelwagentje zijn geplaatst. |
-| De klant meldt zich niet af en het sessiecookie verloopt | De permanente cookie blijft van kracht. |
+Wanneer de klant het programma opent of met _registreert me_ geselecteerde optie onthoudt, bepaalt de configuratie van _Duidelijke persistentie op Ondertekenen uit_ optie het Persistente gedrag van de Kar.
 
-{style="table-layout:auto"}
+|  | Persistentie bij afmelden wissen ingesteld op Ja | Persistentie bij afmelden wissen ingesteld op Nee |
+| ------ | ------ | ------ |
+| _Onthouden_ klantenlogout | Verwijdert zowel sessie- als permanente cookies, zodat de inhoud van het winkelwagentje op het huidige apparaat verdwijnt totdat dezelfde klant zich weer aanmeldt. | Verwijdert de sessiecookie maar de permanente cookie blijft van kracht. De inhoud van het winkelwagentje blijft toegankelijk op het huidige apparaat. |
+| _Onthouden_ klant meldt niet uit maar het zittingskoekje verloopt | De permanente cookie blijft van kracht en de inhoud van het winkelwagentje is toegankelijk vanaf het huidige apparaat. | De permanente cookie blijft van kracht en de inhoud van het winkelwagentje is toegankelijk vanaf het huidige apparaat. |
 
-### Doorhaling van afmelding wissen
+### Een voorbeeld van een open sessie op een gedeelde computer
 
-| Handeling | Resultaat |
-| ------ | ------ |
-| Aanmelden bij klant | Roept de permanente cookie aan naast de sessiecookie die al in gebruik is. |
-| Klant meldt zich af | Hiermee verwijdert u beide cookies. |
-| De klant meldt zich niet uit maar het sessiecookie verloopt | De permanente cookie blijft van kracht. |
+Jane voltooit haar vakantie die als a _wordt winkelen Onthouden_ het programma geopende klant. Ze voegt een cadeautje voor John toe aan haar kar en iets voor haar moeder. Daarna gaat ze naar de keuken voor een snack en haar aanmeldsessie verloopt.
 
-{style="table-layout:auto"}
-
-## Blijvende tekeninstellingen en effecten
-
-| Instellingen | Effect |
-|----------|--------|
-| **[!UICONTROL Enable Remember Me]** wordt ingesteld op `No` .<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**heeft een willekeurige waarde.<br/><br/>** herinner me **checkbox niet beschikbaar op login en registratiepagina. | De permanente cookie wordt niet gebruikt. |
-| **[!UICONTROL Enable Remember Me]** wordt ingesteld op `Yes` .<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**heeft een willekeurige waarde.<br/><br/>** herinner me **niet wordt geselecteerd. | De sessiecookie wordt op de gebruikelijke manier toegepast; de permanente cookie wordt niet gebruikt. |
-| **[!UICONTROL Enable Remember Me]** wordt ingesteld op `Yes` .<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**wordt ingesteld op `Yes` .<br/><br/>** herinner me **wordt geplaatst aan `Yes`. | Wanneer een klant zich aanmeldt, worden beide cookies toegepast. Wanneer een klant zich afmeldt, worden beide cookies verwijderd. Als een klant zich niet aanmeldt maar het sessiecookie verloopt, wordt de permanente cookie nog steeds gebruikt. Naast het afmelden wordt de permanente cookie verwijderd wanneer de levensduur van de cookie is verstreken of wanneer de klant op de koppeling `Not Jane Smith` klikt. |
-| **[!UICONTROL Enable Remember Me]** wordt ingesteld op `Yes` .<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**wordt ingesteld op `No` .<br/><br/>** herinner me **wordt geplaatst aan `Yes` | Wanneer een klant zich aanmeldt, worden beide cookies toegepast. Wanneer een klant zich afmeldt, wordt het sessiecookie verwijderd, wordt de permanente sessie voortgezet. De permanente cookie wordt verwijderd wanneer de levensduur van de cookie is verstreken of wanneer de klant op de koppeling `Not Jane Smith` klikt. |
-
-{style="table-layout:auto"}
+John zit op de computer om snel te winkelen terwijl Jane in de keuken is. Zonder de koppeling `Not Jane Smith?` boven aan de pagina te zien, vindt John een leuk cadeau voor Jane en voegt het toe aan de winkelwagen. Wanneer hij uitcheckt, merkt hij op dat de verzend- en factureringsadressen vooraf zijn ingevuld en denkt dat hij is aangemeld. John is in zulk een haast dat hij niet de extra punten tijdens _Overzicht van de Orde_ opmerkt, en legt de orde voor. Jane&#39;s winkelwagen is nu leeg en John heeft alle geschenken gekocht.
 
 ## Een blijvende poort configureren
 
 Tijdens de opstelling van een blijvend winkelwagentje, kunt u de levensduur van de koekjes specificeren, en welke opties u voor diverse klantenactiviteiten ter beschikking wilt stellen.
 
-Voor meer informatie over hoe het klantenwerkschema door deze montages wordt bepaald, zie [ het Blijvende werkschema van het winkelwagentje ](#persistent-cart-workflow).
+Als u het hardnekkige winkelwagentje wilt gebruiken, moet de browser van de klant zo zijn ingesteld dat cookies zijn toegestaan. Er worden twee soorten cookies gebruikt voor winkelwagentjes:
 
->[!NOTE]
->
->Als het sessiecookie verloopt terwijl de klant is aangemeld, blijft de permanente cookie actief.
+- **koekje van de Zitting** - een kortetermijnzittingskoekje bestaat tijdens één enkel bezoek aan uw plaats. Dit cookie verloopt wanneer de klant zich afmeldt of wanneer de sessie verloopt.
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+- **het Aanhoudende Koekje** - een langdurige, blijvende koekje blijft bestaan na het het programma geopende zittingseind. Dit cookie zorgt ervoor dat de inhoud van het winkelwagentje van een klant toegankelijk blijft wanneer de klant zich afmeldt of de sessie verloopt.
 
-1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Persistent Shopping Cart]** .
+Voor meer informatie over hoe deze configuratiemontages het klantenwerkschema beïnvloeden, zie [ het Blijvende werkschema van het karretje ](#persistent-cart-workflow).
 
-1. Stel **[!UICONTROL Enable Persistence]** in op `Yes` als u het permanente winkelwagentje wilt inschakelen en extra opties wilt weergeven.
-
-   ![ toelatend en vormend de klokpersistentie ](../configuration-reference/customers/assets/persistent-shopping-cart-general.png){width="600" zoomable="yes"}
-
-   Voor meer informatie over elk van deze configuratiemontages, zie de [_Verwijzing van de Configuratie_](../configuration-reference/customers/persistent-shopping-cart.md)
-
-   >[!NOTE]
-   >
-   >Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instellingen te wijzigen.
-
-1. Voer voor **[!UICONTROL Persistence Lifetime (seconds)]** de tijdsduur in seconden in waarin de permanente cookie moet duren.
-
-   De standaardwaarde van 31.536.000 seconden is gelijk aan één jaar. De maximaal toegestane tijd is 100 jaar.
-
-1. Stel **[!UICONTROL Enable "Remember Me"]** in op een van de volgende opties:
-
-   - `Yes` - Toont _me_ checkbox op de Login pagina van uw opslag herinnert, zodat de klanten kunnen verkiezen om hun het winkelwagentinformatie te bewaren.
-
-   - `No` - Persistentie kan nog steeds worden ingeschakeld, maar klanten krijgen niet de optie om te kiezen of ze hun gegevens willen opslaan.
-
-1. Om _vooraf te selecteren herinner me_ checkbox voor de klant, plaats **[!UICONTROL Remember Me Default Value]** aan `Yes`.
-
-   De klant kan deze optie desgewenst wissen.
-
-1. Stel **[!UICONTROL Clear Persistence on Log Out]** in op een van de volgende opties:
-
-   - `Yes` - Het winkelwagentje wordt gewist wanneer een geregistreerde klant zich afmeldt.
-
-   - `No` - Het winkelwagentje wordt opgeslagen wanneer een geregistreerde klant zich afmeldt.
-
-   >[!NOTE]
-   >
-   >Als het sessiecookie verloopt terwijl de klant nog steeds is aangemeld, blijft de permanente cookie in gebruik.
-
-1. Stel **[!UICONTROL Persist Shopping Cart]** in op een van de volgende opties:
-
-   - `Yes` - Als het sessiecookie verloopt, blijft de permanente cookie behouden. Als een gast later zich aanmeldt of een account maakt, wordt het winkelwagentje hersteld.
-
-   - `No` - Het winkelwagentje blijft niet behouden voor gasten nadat het sessiecookie is verlopen.
-
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Persist Wish List]** om te bepalen als de staat van klant wenst lijsten wordt behouden wanneer de zitting beëindigt:
-
-   - `Yes` - De inhoud van de wensenlijst wordt opgeslagen wanneer de sessie wordt beëindigd.
-
-   - `No` - De lijst met wensen wordt niet opgeslagen wanneer de sessie wordt beëindigd.
-
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Persist Recently Ordered Items]** om te bepalen als de staat van onlangs bevolen punten wordt behouden wanneer de zitting beëindigt:
-
-   - `Yes` - De status van recent bestelde items wordt opgeslagen wanneer de sessie wordt beëindigd.
-
-   - `No` - De status van recent bestelde items wordt niet opgeslagen wanneer de sessie wordt beëindigd.
-
-1. Stel **[!UICONTROL Persist Currently Compared Products]** in op `Yes` of `No` .
-
-1. Stel **[!UICONTROL Persist Comparison History]** in op `Yes` of `No` .
-
-1. Stel **[!UICONTROL Persist Recently Viewed Products]** in op `Yes` of `No` .
-
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Persist Customer Group Membership and Segmentation]** om te bepalen als de staat van het de groepslidmaatschap en segmenteringscriteria van de klant worden behouden wanneer de zitting beëindigt:
-
-   - `Yes` - De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden opgeslagen wanneer de sessie wordt beëindigd.
-
-   - `No` - De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden niet opgeslagen wanneer de sessie wordt beëindigd.
-
-1. Klik op **[!UICONTROL Save Config]**.
+{{$include /help/_includes/persistent-cart-configuration.md}}
