@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] van Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus: De montages die beschikbaar zijn wanneer [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) wordt geïnstalleerd, en die die voor inheemse Adobe Commerce beschikbaar zijn. Volg de instructies voor uw installatie.
+U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
 
 ### Adobe Commerce met [!DNL Live Search]
 
@@ -254,43 +254,40 @@ Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configur
 
 {style="table-layout:auto"}
 
-### Adobe Commerce met Elasticsearch
+### Zoekprogramma&#39;s van derden
 
-Native Adobe Commerce met Elasticsearch bevat de volgende configuratie-instellingen:
-
-![ het Onderzoek van de Catalogus - Elasticsearch ](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Commerce-versies 2.3.7-p3, 2.4.3-p2 en 2.4.4 en hoger ondersteunen de OpenSearch-service. Elasticsearch 7.11 en hoger wordt niet ondersteund door Adobe Commerce voor projecten met cloudinfrastructuur. Elasticsearch wordt nog steeds ondersteund voor installaties op locatie.
 
 >[!IMPORTANT]
 >
->Gezien de Elasticsearch 7 eindeaankondiging voor augustus 2023, wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>- Gezien de Elasticsearch 7 eindesteunaankondiging voor Augustus 2023, adviseert de Adobe dat alle klanten van Adobe Commerce aan OpenSearch 2.x onderzoeksmotor migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>- In versies 2.4.4 en 2.4.3-p2 zijn alle velden met het label Elasticsearch ook van toepassing op OpenSearch. Toen de steun voor Elasticsearch 8.x in versie 2.4.6 werd geïntroduceerd, werden de nieuwe etiketten gecreeerd om tussen Elasticsearch en configuraties te onderscheiden OpenSearch. De configuratieopties voor beide zijn echter gelijk.
+
+![ de opties van de het onderzoeksconfiguratie van de Catalogus ](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de zoekmachine voor Elasticsearch. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
-| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de zoekmachine voor Elasticsearch. Als u deze waarde bijvoorbeeld instelt op 300 in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
+| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, moet u de waarde ook bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `3` |
+| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `300` in Adobe Commerce, moet u de waarde bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `128` |
 | [!UICONTROL Number of top search results to cache] | Winkelweergave | Het aantal populaire zoektermen en resultaten dat in cache moet worden geplaatst voor snellere reacties. Als u de waarde `0` invoert, worden alle zoektermen en resultaten in cache opgeslagen wanneer u de tweede keer invoert. Standaardwaarde: `100` |
-| [!UICONTROL Enable EAV Indexer] | Algemeen | Hiermee bepaalt u of u de EAV-indexeerfunctie van het product wilt in- of uitschakelen. Deze functie verbetert de indexatiesnelheid en beperkt het gebruik van indexen door extensies van derden. Deze optie wordt alleen weergegeven voor Elasticsearch of Elasticsearch 5.0+-zoekmachines. Standaardoptie: `Yes` voor ingeschakeld |
+| [!UICONTROL Enable EAV Indexer] | Algemeen | Hiermee bepaalt u of de EAV-indexeerfunctie van het product moet worden in- of uitgeschakeld. Deze functie verbetert de indexatiesnelheid en beperkt het gebruik van indexen door extensies van derden. Standaardoptie: `Yes` voor ingeschakeld |
 | [!UICONTROL Autocomplete Limit] | Winkelweergave | Het maximum aantal zoekopdrachten dat onder het zoekveld wordt weergegeven voor automatisch aanvullen van de zoekopdracht. Als u deze hoeveelheid beperkt, worden de zoekresultaten beter en wordt de lijst kleiner. Standaardwaarde: `8` |
-| Zoekmachine | Algemeen | Hiermee wordt het zoekprogramma aangegeven dat is vereist voor het verwerken van aanvragen voor catalogusgegevens. Elasticsearch 7.6.x is vereist voor alle Adobe Commerce-installaties. Option: `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | Algemeen | Hier geeft u de naam van de Elasticsearch-server op. Standaardwaarde: `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | Algemeen | Geeft het nummer op van de serverpoort die door de Elasticsearch wordt gebruikt. Standaardwaarde: `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | Algemeen | Wijst een voorvoegsel toe om de index van de Elasticsearch te identificeren. Standaardwaarde: `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | Algemeen | Indien toegelaten, gebruikt de authentificatie van gebruiksHTTP om voor een gebruikersbenaming en wachtwoord te vragen alvorens tot de Server van de Elasticsearch toegang te hebben. Opties: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert de gebruikersbenaming voor de authentificatie van HTTP van de Elasticsearch. |
-| [!UICONTROL Elasticsearch HTTP Password] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert het wachtwoord voor de authentificatie van HTTP van de Elasticsearch. |
-| [!UICONTROL Elasticsearch Server Timeout] | Algemeen | Hiermee bepaalt u het aantal seconden voordat de servertime-out optreedt. Standaardwaarde: `15` |
-| [!UICONTROL Test Connection] |  | Valideert de verbinding van de Elasticsearch. |
+| Zoekmachine | Algemeen | Hiermee wordt het zoekprogramma aangegeven dat is vereist voor het verwerken van aanvragen voor catalogusgegevens. De configuratieopties van de zoekmachine zijn hetzelfde voor zowel OpenSearch als Elasticsearch. Opties: `OpenSearch` of `Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | Algemeen | Hier geeft u de naam op van de OpenSearch- of Elasticsearch-hostserver. |
+| [!UICONTROL OpenSearch Server Port] | Algemeen | Hier geeft u het nummer op van de serverpoort die door OpenSearch of Elasticsearch wordt gebruikt. Standaardwaarde: `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | Algemeen | Wijst een voorvoegsel toe om de index van OpenSearch of van de Elasticsearch te identificeren. Standaardwaarde: `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | Algemeen | Indien ingeschakeld, gebruikt u HTTP-verificatie om een gebruikersnaam en wachtwoord op te vragen voordat u de OpenSearch- of Elasticsearch-server opent. Opties: `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert de gebruikersbenaming voor OpenSearch of de authentificatie van HTTP van de Elasticsearch. |
+| [!UICONTROL OpenSearch HTTP Password] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert het wachtwoord voor de authentificatie van OpenSearch of van HTTP van de Elasticsearch. |
+| [!UICONTROL OpenSearch Server Timeout] | Algemeen | Hiermee bepaalt u het aantal seconden voordat een aanvraag naar de OpenSearch- of Elasticsearch-server wordt verzonden. Standaardwaarde: `15` |
+| [!UICONTROL Test Connection] |  | Valideert de OpenSearch- of Elasticsearch-verbinding. |
 | [!UICONTROL Enable Search Recommendations] | Winkelweergave | Hiermee bepaalt u of zoekaanbevelingen worden aangeboden wanneer een zoekopdracht geen resultaten oplevert en onder de sectie `Related search terms` op de pagina met zoekresultaten wordt weergegeven. Opties: `Yes` / `No` <br/> Als deze optie is ingesteld op Ja, worden extra opties weergegeven voor _[!UICONTROL Search Recommendations Count]_en_[!UICONTROL Shows Results Count for Each Recommendation]_ . |
 | [!UICONTROL Search Recommendations Count] | Winkelweergave | Hier geeft u het aantal zoektermen op dat als aanbevelingen wordt aangeboden. Standaard worden er maximaal vijf weergegeven. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Winkelweergave | Wanneer ingesteld op `Yes` , wordt het aantal producten dat wordt gevonden voor de voorgestelde zoekaanbeveling tussen haakjes weergegeven. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Winkelweergave | Hiermee bepaalt u of zoeksuggesties worden weergegeven voor veelvoorkomende spelfouten. Wanneer toegelaten, worden de onderzoekssuggesties aangeboden voor om het even welk verzoek dat geen resultaten terugkeert en onder de `Did you mean` sectie op de **2} pagina van de Resultaten van het Onderzoek {verschijnt.** Zoeksuggesties kunnen van invloed zijn op de zoekprestaties. Als deze optie is ingesteld op `Yes`, worden extra opties weergegeven voor Zoeken in Recommendations en de bijbehorende velden. Opties: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Winkelweergave | Hiermee bepaalt u het aantal aangeboden zoeksuggesties. Bijvoorbeeld: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Winkelweergave | Hiermee bepaalt u of het aantal zoekresultaten voor elke suggestie wordt weergegeven. Afhankelijk van thema, verschijnt het aantal gewoonlijk tussen haakjes na de suggestie. Opties: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Meer leren, zie [ minimum_should_match parameter ](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in de documentatie van de Elasticsearch. |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Meer leren, zie [ minimum_should_match parameter ](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in de documentatie OpenSearch. |
 
 ## [!UICONTROL Downloadable Product Options]
 
