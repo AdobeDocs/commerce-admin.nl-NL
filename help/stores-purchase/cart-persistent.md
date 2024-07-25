@@ -3,16 +3,16 @@ title: persistentie van winkelwagentjes
 description: Leer hoe een hardnekkig winkelwagentje niet-aangeschafte winkelartikelen bijhoudt en de informatie voor het volgende bezoek van de klant opslaat.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # persistentie van winkelwagentjes
 
-Een hardnekkig winkelwagentje volgt niet-aangeschafte artikelen in de kar en slaat de informatie op. Dit proces zorgt ervoor dat de inhoud van het winkelwagentje toegankelijk blijft wanneer de het programma geopende zitting verloopt.
+Een hardnekkig winkelwagentje slaat een verwijzing naar de rekening van de klant op het huidige apparaat op, die ervoor zorgt dat de inhoud van het winkelwagentje toegankelijk blijft wanneer de aangemelde sessie verloopt.
 
 Als een klant _wordt herinnerd_, blijft de inhoud van hun het winkelwagentje toegankelijk op het huidige apparaat wanneer de het programma geopende zitting verloopt. Nadat de sessie is verlopen, wordt het winkelwagentje van de klant geopend met behulp van de permanente winkelwagentsessie. Als dezelfde klant zich aanmeldt op een ander apparaat of een andere browser en iets toevoegt aan zijn winkelwagentje en vervolgens terugkeert naar het apparaat met een actieve, permanente sessie, wordt het winkelwagentje bijgewerkt met de toegevoegde items.
 
