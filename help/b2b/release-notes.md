@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
+source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
 workflow-type: tm+mt
-source-wordcount: '6904'
+source-wordcount: '6967'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden.
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 
 ## B2B v1.4.2
@@ -81,9 +81,13 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-De B2B v1.4.2-release bevat kwaliteitsverbeteringen en foutoplossingen
+De B2B v1.4.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situaties.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--B2B-2897--> als een Verkoper een koperscitaat creeert dat een product SKU niet beschikbaar in de gedeelde catalogus verbonden aan het kopersbedrijf omvat, toont het systeem het foutenbericht `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  De verkoper kan de prijsopgave pas opslaan als hij het product verwijdert dat niet beschikbaar is. Eerder, werd het citaat bewaard met niet beschikbare inbegrepen SKU, en het citaat kon niet op de storefront laden.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
