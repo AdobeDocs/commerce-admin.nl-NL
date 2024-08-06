@@ -4,9 +4,9 @@ description: Meer informatie over het inschakelen van B2B-functies voor uw Adobe
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ De configuratie-instellingen voor deze functies zijn alleen zichtbaar wanneer [!
 B2B [!DNL Quick Order] - en [!DNL Requisition List] -functies kunnen onafhankelijk van elkaar worden in- en uitgeschakeld.
 
 ## B2B-functies configureren
+
+De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts op de projecten van Commerce die de [ geïnstalleerde uitbreiding van Adobe Commerce B2B ](install.md) hebben.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
