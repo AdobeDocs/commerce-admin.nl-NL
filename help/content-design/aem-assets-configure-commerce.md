@@ -1,8 +1,9 @@
 ---
 title: Experience Manager Assets-integratie installeren en configureren
-description: "Leer hoe te om te installeren en te vormen  [!DNL AEM Assets Integration for Adobe Commerce]"
+description: Leer om te installeren en te vormen  [!DNL AEM Assets Integration for Adobe Commerce]
 feature: CMS, Media
-source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
+exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
+source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Installeer en configureer de AEM Assets-integratie voor Commerce door de extensi
 
 Schakel de integratie in door de volgende taken uit te voeren:
 
-1. [ installeer de de integratieuitbreiding van AEM Assets (`aem-assets-integration`) ](#install-the-aem-assets-integration-extension).
+1. [ installeer de uitbreiding van de Integratie van AEM Assets (`aem-assets-integration`) ](#install-the-aem-assets-integration-extension).
 1. [ vorm de Schakelaar van de Dienst van Commerce ](#configure-the-commerce-services-connector) om uw instantie van Adobe Commerce en met de diensten aan te sluiten die gegevens toelaten om tussen Adobe Commerce en AEM Assets worden overgebracht.
 1. [Adobe I/O-gebeurtenissen configureren voor Commerce](#configure-adobe-io-events-for-commerce)
 1. [Verificatiegegevens ophalen voor API-toegang](#get-authentication-credentials-for-api-access)
