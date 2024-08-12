@@ -3,9 +3,9 @@ title: Gegroepeerd product
 description: Leer hoe u een gegroepeerd product maakt dat bestaat uit eenvoudige zelfstandige producten die als groep worden aangeboden.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Als u voor elk product in de groep een andere afbeelding hebt, kunt u de configu
 ## Te onthouden zaken
 
 - Een gegroepeerd product is in wezen een verzameling eenvoudige, verwante producten.
+
+- Alle kindproducten worden toegewezen en unassigned van het gegroepeerde product **_globaal_** voor alle websites, opslag, en opslagmeningen tezelfdertijd.
 
 - Gegroepeerde onderliggende producten kunnen eenvoudig, downloadbaar of virtueel zijn **[!UICONTROL without custom options]** .
 

@@ -3,9 +3,9 @@ title: Configureerbaar product
 description: Leer hoe u een configureerbaar product maakt dat kopers verschillende mogelijkheden biedt voor selectie.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ De _Status van de Voorraad_ van het configureerbare product wordt gedeeltelijk g
 - [ Status van de Voorraad ](../inventory-management/sources-stocks.md) voor een configureerbaar product is een semi-manueel gecontroleerd plaatsen. Het is anders dan de voorraadstatus van het eenvoudige product, waar het een directe weergave van de beschikbaarheid van het product is. Voor een configureerbaar product maakt de voorraadstatus deel uit van een voorraadstatusberekening met meerdere criteria.
 
 - De configureerbare kindproducten kunnen eenvoudige of virtuele producten **zonder douaneopties** zijn. Als u aangepaste onderliggende producten virtueel wilt maken, moet u voor elk product de instelling **[!UICONTROL Weight]** `Тhis item has no weight` selecteren.
+
+- Alle kindproducten worden toegewezen en unassigned van het configureerbare product **_globaal_** voor alle websites, opslag, en opslagmeningen tezelfdertijd.
 
 - Een configureerbaar product heeft geen eigen prijs in de catalogus. De configureerbare productprijs wordt afgeleid van de onderliggende [!UICONTROL In Stock] producten.
 

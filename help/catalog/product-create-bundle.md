@@ -3,9 +3,9 @@ title: Bundel
 description: Leer hoe u een bundelproduct maakt waarmee kopers een aangepast product in uw winkel kunnen maken.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ De status van de de productvoorraad van de bundel is **_niet automatisch verande
 ## Te onthouden zaken
 
 ![ Checkbox ](../assets/checkbox.png) Klanten kunnen _hun eigen_ bundelproduct bouwen.
+
+![ Checkbox ](../assets/checkbox.png) Alle kindproducten worden toegewezen en unassigned van het bundelproduct **_globaal_** voor alle websites, opslag, en opslagmeningen tezelfdertijd.
 
 ![ checkbox ](../assets/checkbox.png) de punten van de Bundel kunnen eenvoudige of virtuele producten zonder douaneopties zijn.
 
