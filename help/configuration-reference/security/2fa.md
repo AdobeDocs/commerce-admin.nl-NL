@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Security] &gt; [!UICONTROL 2FA] van Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Algemeen | Wijst op de twee-factor authentificatiemethodes die u vereist. Als u meer dan één leverancier selecteert, wordt elke gebruiker vereist om elke methode te vormen 2FA de volgende tijd zij login. |
 | [!UICONTROL Configuration Email URL for Web API] | Algemeen | Voor douaneimplementaties, URL voor een afwisselende verbinding van de e-mailconfiguratie die naar _Admin_ gebruikers bij eerste login wordt verzonden. In het e-mailmalplaatje, gebruik placeholder `:tfat` om erop te wijzen waar het teken wordt ingespoten. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Algemeen | Hiermee bepaalt u hoe vaak een beheerder een [!DNL one-time password (OTP)] kan invoeren voordat zijn of haar account tijdelijk is uitgeschakeld. Standaard: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) een beheerder kan wachten om een [!DNL one-time password (OTP)] in te voeren voordat zijn account tijdelijk is uitgeschakeld. Standaard: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) het systeem het eenmalige wachtwoord (OTP) van een beheerder accepteert nadat het is verlopen. Kan niet hoger zijn dan het leven van één enkele OTP (gewoonlijk 30 seconden). Standaard: `29` |
+| [!UICONTROL OTP Window] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) het systeem de beheerder [!DNL one-time-password (OTP)] accepteert nadat deze is verlopen. Kan niet hoger zijn dan het leven van één enkele OTP (gewoonlijk 30 seconden). Standaard: `29` |
 
 {style="table-layout:auto"}
 

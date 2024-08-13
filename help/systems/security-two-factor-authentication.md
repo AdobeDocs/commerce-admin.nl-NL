@@ -4,7 +4,7 @@ description: Leer over twee-factor authentificatiesteun om de veiligheid van uw 
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&lear
 
    Houd Ctrl (PC) of Command (Mac) ingedrukt en klik op elk item om meerdere methoden te selecteren.
 
-1. Vul de instellingen voor elke vereiste 2FA-methode in.
+1. Voltooi de [ montages ](../configuration-reference/security/2fa.md) voor elke vereiste methode 2FA.
 
    ![ Configuratie van de Veiligheid - 2FA ](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
