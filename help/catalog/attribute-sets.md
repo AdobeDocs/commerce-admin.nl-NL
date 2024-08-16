@@ -3,9 +3,9 @@ title: Kenmerksets
 description: Leer hoe u kenmerken in groepen indeelt, die bepalen waar ze in de productrecord worden weergegeven.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
 1. Stel **[!UICONTROL Based On]** in op een bestaand kenmerk dat als sjabloon moet worden gebruikt.
 
-1. Klik op **[!UICONTROL Save]** .
+1. Klik op **[!UICONTROL Save]**.
 
    Op de volgende pagina wordt het volgende weergegeven:
 
@@ -38,7 +38,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
    - In het midden van de pagina wordt de huidige selectie van kenmerkgroepen weergegeven.
    - In de rechterkolom wordt de selectie weergegeven van kenmerken die momenteel niet zijn toegewezen aan de kenmerkset.
 
-1. Als u een kenmerk aan de set wilt toevoegen, sleept u het kenmerk van de lijst **[!UICONTROL Unassigned Attributes]** naar de desbetreffende map in de kolom **[!UICONTROL Groups]** .
+1. Als u een kenmerk aan de set wilt toevoegen, sleept u het kenmerk van de lijst **[!UICONTROL Unassigned Attributes]** naar de desbetreffende map in de kolom **[!UICONTROL Groups]** . Als u een kenmerk uit de set wilt verwijderen, sleept u het naar de lijst **[!UICONTROL Unassigned Attributes]** .
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
 ## Een kenmerkengroep maken
 
-1. Klik in de kolom _[!UICONTROL Groups]_in de kenmerkset op **[!UICONTROL Add New]**.
+1. Klik in de kolom _[!UICONTROL Groups]_van de kenmerkset op **[!UICONTROL Add New]**.
 
 1. Voer een **[!UICONTROL Name]** in voor de nieuwe groep en klik op **[!UICONTROL OK]** .
 
@@ -58,6 +58,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
    - Sleep **[!UICONTROL Unassigned Attributes]** naar de nieuwe groep.
    - Sleep kenmerken van een andere groep naar de nieuwe groep.
+   - Sleep overbodige kenmerken naar **[!UICONTROL Unassigned Attributes]** .
 
    De nieuwe groep wordt een sectie van attributen in om het even welk product dat op de kenmerkreeks gebaseerd is.
 
