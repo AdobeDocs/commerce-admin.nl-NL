@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Leer hoe te om  [!DNL Google Tag Manager]  te gebruiken om de vele markeringen (fragmenten van code) te beheren die met uw marketing campagnegebeurtenissen in uw plaatsen van Adobe Commerce verwant zijn.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Met [!DNL Google Tag Manager] kunt u de vele labels (codefragmenten) beheren die betrekking hebben op uw marketingcampagnegebeurtenissen. Met [!DNL Google Tag Manager] kunt u tags voor bijhouden toevoegen aan uw site om het publiek te meten of om marketinginitiatieven voor zoekprogramma&#39;s aan te passen, opnieuw te richten of uit te voeren.
+[!DNL Google Tag Manager] is een krachtig hulpmiddel dat u helpt diverse markeringen (codefragmenten) efficiënt beheren en op te stellen verbonden aan uw de campagnegebeurtenissen van de marketing. Met [!DNL Google Tag Manager] kunt u tags voor bijhouden toevoegen aan uw site om het publiek te meten of om marketinginitiatieven voor zoekprogramma&#39;s aan te passen, opnieuw te richten of uit te voeren.
 
 [!DNL Google Tag Manager] brengt gegevens en gebeurtenissen rechtstreeks over naar [!DNL Google Analytics] , Enhanced Ecommerce en andere analyseoplossingen van derden om een duidelijk beeld te krijgen van hoe goed uw site, producten en promoties presteren.
 
@@ -137,24 +137,6 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 >[!NOTE]
 >
 >Elke container is gekoppeld aan één website en u hebt slechts één container per account nodig. Als u een Commerce-instantie met meerdere sites hebt, hebt u aparte containers nodig.
-
-## Stap 4. Voeg de GTM-code toe aan uw Adobe Commerce-winkel
-
-1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]** om de GTM-code te kopiëren.
-
-   Er zijn twee GTM-codefragmenten die aan uw Commerce-site moeten worden toegevoegd: het eerste codefragment voor de `<head>` -tag en het tweede codefragment voor de `<body>` -tag.
-
-1. Ga in Commerce Admin naar **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**en open de winkelweergave in de bewerkingsmodus.
-
-1. Onder _[!UICONTROL Other Settings]_vouwt u **[!UICONTROL HTML Head]**uit en plakt u de code die u van GTM hebt gekopieerd voor de tag `<head>` in het veld **[!UICONTROL Scripts and Style Sheets]**.
-
-   ![ Invoegend code in het Hoofd van HTML ](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. Vouw **[!UICONTROL Footer]** uit en plak de GTM-code voor `<body>` in het veld **[!UICONTROL Miscellaneous HTML]** .
-
-   ![ Invoegend code in Voettekst ](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
 ## Veldomschrijvingen
 

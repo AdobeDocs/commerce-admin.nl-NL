@@ -2,9 +2,9 @@
 title: Pagina-instelling
 description: Leer hoe u de standaardwaarden voor de hoofdonderdelen van een winkelpagina configureert.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Voer zo nodig een **[!UICONTROL Scripts and Style Sheets]** in.
+
+   >[!NOTE]
+   >
+   >Alle JavaScript die u in het veld [!UICONTROL Scripts and Style Sheets] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [ Beleid van de Veiligheid van de Inhoud ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Laat of maak de [ kennisgeving van de duoopslag ](../getting-started/storefront-branding.md#set-the-store-demo-notice) indien nodig toe onbruikbaar.
 
@@ -118,6 +123,10 @@ De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [ cop
 1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Footer]** sectie uit.
 
 1. Breng de benodigde wijzigingen aan in de instellingen **[!UICONTROL Copyright]** en **[!UICONTROL Miscellaneous HTML]** .
+
+   >[!NOTE]
+   >
+   >Alle JavaScript die u in het veld [!UICONTROL Miscellaneous HTML] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [ Beleid van de Veiligheid van de Inhoud ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
