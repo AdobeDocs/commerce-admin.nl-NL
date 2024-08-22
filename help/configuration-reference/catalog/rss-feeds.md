@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] van Commerce Admin.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 239295ada2bdb3b94d9654b960a31ad8e102f93e
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 | [!UICONTROL Enable RSS] | Winkelweergave | Laat klanten toe om het voer van RSS van de opslag te ontvangen. |
 
 {style="table-layout:auto"}
+
+Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegelaten, zie [ Sociale media en het voer van RSS ](../../merchandising-promotions/social-rss.md).
 
 ## [!UICONTROL Wish List]
 
