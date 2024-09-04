@@ -3,9 +3,9 @@ title: Couponcodes
 description: Leer hoe u couponcodes met de regels voor winkelprijzen kunt gebruiken om een korting toe te passen wanneer aan een aantal voorwaarden wordt voldaan.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ De codes van coupons worden gebruikt met [ de regels van de kartprijs ](price-ru
 Couponcodes kunnen via e-mail worden verzonden of worden opgenomen in nieuwsbrieven, catalogi en advertenties. De lijst met couponcodes kan worden geëxporteerd en naar een commerciële drukker worden verzonden. U kunt ook in-store coupons maken met een snelle antwoordcode die kopers kunnen scannen met hun smartphones. De QR-code kan worden gekoppeld aan een pagina op uw site met meer informatie over de aanbieding.
 
 Vanaf Commerce 2.4.7 kunnen kopers meerdere coupons toepassen op een winkelwagentje. Handelaren kunnen ook meerdere coupons toepassen met behulp van winkelhulp.
+
+>[!NOTE]
+>
+>Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel (coupon) wordt toegepast op matchende producten afzonderlijk, één voor één, volgens de regel-ID van de kartonprijs in de database. Om de volgorde te bepalen waarin kortingen worden toegepast, beveelt de Adobe aan om voor elke regel van de toegevoegde kartprijs een andere prioriteit vast te stellen.
 
 ## couponcodes configureren
 

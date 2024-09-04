@@ -3,9 +3,9 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
    >[!NOTE]
    >
-   >Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel wordt toegepast op producten die afzonderlijk overeenkomen, één voor één.
+   >Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel (coupon) wordt toegepast op matchende producten afzonderlijk, één voor één, volgens de regel-ID van de kartonprijs in de database. Om de volgorde te bepalen waarin kortingen worden toegepast, beveelt de Adobe aan om voor elke regel van de toegevoegde kartprijs een andere prioriteit vast te stellen.
 
 1. Om de regel op gepubliceerde [ voer RSS ](social-rss.md#rss-feeds) toe te passen, plaats **Openbaar in RSS voer** aan `Yes`.
 
