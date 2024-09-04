@@ -3,9 +3,9 @@ title: Geplande productupdates
 description: Leer hoe u wijzigingen in uw productaanbiedingen kunt plannen ter ondersteuning van campagnes en promotieprogramma's.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 1. Klik in het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina op **[!UICONTROL View/Edit]**.
 
 1. Breng de benodigde wijzigingen aan in de geplande update.
+
+>[!NOTE]
+>
+>Als een campagne met meer dan één product wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 1. Klik op **[!UICONTROL Save]**.
 

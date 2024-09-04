@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor de regels betreffende de kartprijs
 description: Leer hoe u regels voor winkelwagenprijzen op schema toepast als onderdeel van een campagne en gegroepeerd met andere wijzigingen in de inhoud.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ De prijsregels voor winkelwagentjes kunnen volgens schema worden toegepast als o
 >Alle geplande updates worden achtereenvolgens toegepast. Dit betekent dat elke entiteit slechts één geplande update op één tijdstip kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
 Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, bepaalt de _[!UICONTROL Priority]_-instelling van de prijsregel welke regel voorrang krijgt. Meer leren, zie [ Inhoud het Opvoeren ](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Als een campagne met meer dan één regel van de kartprijs verbonden is, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 Houd rekening met het volgende:
 

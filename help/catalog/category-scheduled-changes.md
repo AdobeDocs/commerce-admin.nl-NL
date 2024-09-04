@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor categorieën
 description: Leer hoe u wijzigingen in rubrieken kunt plannen om marketingcampagnes en winkelaanbiedingen te ondersteunen.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ Categorieupdates kunnen volgens schema worden toegepast en worden gegroepeerd me
 1. Breng de benodigde wijzigingen aan in de geplande update.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
+
+   >[!NOTE]
+   >
+   >Als een campagne met meer dan één categorie wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.

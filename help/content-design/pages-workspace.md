@@ -3,9 +3,9 @@ title: Besturingselementen voor de werkruimte Pagina
 description: Leer meer over de werkruimtegereedschappen waarmee u inhoudspagina's kunt zoeken en bijwerken.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Klik de _controle van de Mening_ (![ het pictogram van het Oogje ](../assets/ico
 {{ee-feature}}
 
 Paginawijzigingen kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen op een pagina of de wijzigingen toepassen op een bestaande campagne. Voor meer informatie, zie [ Inhoud het Opvoeren ](content-staging.md).
+
+>[!NOTE]
+>
+>Als een campagne met meer dan één pagina wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](content-staging-dashboard.md) worden uitgegeven.
 
 >[!NOTE]
 >

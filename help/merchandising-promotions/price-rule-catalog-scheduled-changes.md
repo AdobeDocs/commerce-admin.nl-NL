@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor prijsregels voor catalogi
 description: Leer hoe u de prijsregels voor catalogi op schema toepast als onderdeel van een campagne en gegroepeerd met andere wijzigingen in de inhoud.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 1. Klik in het vak **[!UICONTROL Scheduled Changes]** boven aan de pagina op **[!UICONTROL View/Edit]** .
 
 1. Breng de benodigde wijzigingen aan in de geplande update.
+
+   >[!NOTE]
+   >
+   >Als een campagne met meer dan één regel van de catalogusprijs verbonden is, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 1. Klik op **[!UICONTROL Save]**.
 
