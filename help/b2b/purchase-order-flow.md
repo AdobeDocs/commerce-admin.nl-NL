@@ -3,9 +3,9 @@ title: Aankooporders voor bedrijven
 description: Meer informatie over workflows voor inkooporders waarmee bedrijven hun uitgaven kunnen bijhouden en controleren.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ De workflow voor inkooporders voor een bedrijf kan op een aantal manieren varië
   >Standaard wordt een `Purchase order has been submitted for approval` -bericht altijd weergegeven voor bedrijfsgebruikers, zelfs als er geen goedkeuringsregels zijn ingesteld. Wanneer geen goedkeuringsproces wordt vereist, ontvangen de bedrijfgebruikers automatisch een e-mail die hen informeren dat de orde werd gecreeerd en goedgekeurd.
 
 - Als de goedkeuringsregels door de bedrijfbeheerder worden bepaald, gaan de gebruikers door het goedkeuringsproces.
+- Als er meerdere goedkeuringsregels gelden voor een inkooporder, moeten alle unieke vereiste fiatteurs het goedkeuren.
 - Bij het aanmaken van de kooporder worden de details van de offlinebetaling ingevoerd.
 - De online betalingsgegevens worden ingevoerd nadat de kooporder is goedgekeurd.
 
@@ -57,7 +58,7 @@ De goedkeuringsregels worden gebruikt om uitgaven te controleren die op bedrijfs
 - Voor elke bestelling van meer dan $1000 is de goedkeuring van uw manager en de bedrijfsbeheerder vereist.
 - Om het even welke orde met meer dan 30 unieke SKUs vereist de goedkeuring van de bedrijfbeheerder.
 
-Als deze regels gelden voor een bedrijf, kan een bedrijfsgebruiker de bestelling direct voltooien wanneer de bestelling minder dan $100 is. Om de definitie van de goedkeuringsregel te leren, zie [ Regels van de Goedkeuring ](account-dashboard-approval-rules.md)
+Als deze regels gelden voor een bedrijf, kan een bedrijfsgebruiker de bestelling direct voltooien wanneer de bestelling minder dan $100 is. Om de definitie van de goedkeuringsregel te leren, zie [ Regels van de Goedkeuring ](account-dashboard-approval-rules.md).
 
 ### Soorten winkelgebruikers
 
