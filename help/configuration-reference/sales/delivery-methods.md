@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] van Commerce Admin.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | Winkelweergave | Geeft aan dat de account United Parcel Service live is. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze verzendmethode wordt gebruikt. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | Website | Voor UPS REST-service worden de volgende URL&#39;s weergegeven die vereist zijn voor het verzenden van JSON-gegevens: Gateway URL, URL voor bijhouden, URL voor verzending |
+| [!UICONTROL Gateway URL] | Website | Voor UPS REST-service worden de volgende URL&#39;s weergegeven die vereist zijn om JSON-gegevens te verzenden: Gateway URL, Tracking URL, Shipping URL. Gebruik ofwel de sandbox of de eindpunten van de productie volgens de instelling voor Live account. |
 | [!UICONTROL Mode] | Website | Bepaalt de wijze van transmissie die voor gegevens wordt gebruikt die naar het systeem UPS worden verzonden. Opties: <br/>**`Development`**- UPS controleert niet of gegevens die van de Commerce-server zijn ontvangen, via SSL zijn verzonden.<br/>**`Live`** - UPS controleert of gegevens die van de Commerce-server zijn ontvangen, via een SSL (Secure Socket Layer) worden verzonden. |
 | Gebruikersnaam | Website | Uw client-id voor UPS-verzendaccount. |
 | [!UICONTROL Origin of the Shipment] | Website | (Alleen UPS REST) Het land of de regio waar de verzending van het product afkomstig is. |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | Website | (Alleen UPS-REST) Het uit zes tekens bestaande UPS-verzendnummer is vereist om te kunnen verwijzen naar overeengekomen tarieven. |
 | [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verpakken van verzendingen. Opties: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Website | Hiermee stelt u de standaardmaateenheid voor productgewicht in uw winkel in. Zie [ Afdrukgewicht ](../../stores-purchase/carriers.md#dimensional-weight) voor extra informatie. |
-| [!UICONTROL Tracking URL] | Website | (Alleen UPS REST) De URL van UPS die wordt gebruikt om pakketten bij te houden. |
+| [!UICONTROL Tracking URL] | Website | (Alleen UPS REST) De URL van UPS die wordt gebruikt om pakketten bij te houden. Gebruik `https://onlinetools.ups.com/api/track` voor Productie OF `https://wwwcie.ups.com/api/track` voor Sandbox-instelling. |
 | [!UICONTROL Destination Type] | Website | Hiermee stelt u het standaardtype van de verzendbestemming in. Opties: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen zoals opgegeven door UPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. Volgens [ UPS.com ](https://www.ups.com/us/en/global.page), kunnen de pakketten 150 lbs (70 kg) Controle met uw verzendende drager niet overschrijden om het maximumgewicht te verifiëren. |
 | [!UICONTROL Pickup Method] | Website | Hiermee stelt u de ophaalmethode voor UPS in. Opties: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |

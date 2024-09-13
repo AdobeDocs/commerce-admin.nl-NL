@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Leer hoe u UPS instelt als een verzendprovider voor uw winkel.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
    - Stel **[!UICONTROL Mode]** in op `Live` om gegevens via een veilige verbinding naar het UPS-verzendsysteem te verzenden. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
 
-   - Controleer **[!UICONTROL Gateway URL]** die nodig is om aanvragen te verzenden. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
+   - Controleer **[!UICONTROL Gateway URL]** die nodig is om aanvragen te verzenden. Gebruik een zandbak URL (`https://wwwcie.ups.com/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
 
-   - Controleer **[!UICONTROL Tracking URL]** die nodig is voor het ophalen van trackinggegevens. Gebruik een sandbox-URL voor de testmodus en een productie-URL voor liveaanvragen.
+   - Controleer **[!UICONTROL Tracking URL]** die nodig is voor het ophalen van trackinggegevens. Gebruik een zandbak URL (`https://wwwcie.ups.com/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
 
    - Stel **[!UICONTROL Origin of the Shipment]** in op het gebied waar de verzending vandaan komt.
 
@@ -50,8 +50,8 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
    - Stel **[!UICONTROL Live Account]** in op een van de volgende opties:
 
-      - `Yes` - Voert UPS uit in de productiemodus en biedt UPS als verzendmethode aan uw klanten.
-      - `No` - Voert UPS in een testmodus uit.
+      - `Yes` - Voert UPS uit in de productiemodus en biedt UPS als verzendmethode aan uw klanten. Zorg ervoor om de correcte Eindpunten onder Gateway URL en het Volgen URL te gebruiken.
+      - `No` - Voert UPS in een testmodus uit. Zorg ervoor om de correcte Eindpunten onder Gateway URL en het Volgen URL te gebruiken.
 
    >[!NOTE]
    >
