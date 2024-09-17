@@ -3,9 +3,9 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
    >[!NOTE]
    >
-   >De instelling Prioriteit is belangrijk wanneer twee regels/couponcodes tegelijkertijd geldig zijn voor hetzelfde product. De regel met de hoogste Prioriteit die (`1` is het hoogste) plaatst controleert de kartactie. Zie _de Volgende Regels van de Prijs verwerpen_ in _de Acties_ stap bepalen.
+   >De instelling _[!UICONTROL Priority]_is belangrijk wanneer twee regels voor winkelwagentjes of couponcodes tegelijkertijd geldig zijn voor hetzelfde product. De regel met de hoogste [!UICONTROL Priority] instelling die de handeling van het winkelwagentje bestuurt.  Prioriteiten van de hoogste naar de laagste waarde zijn `0,1,2,3...` . Zie_ de Volgende Regels van de Prijs verwerpen _in_[ de Acties ](#step-3-define-the-actions)_stap bepalen.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Bekijk deze video voor meer informatie over het maken van regels voor winkelwage
 | [!UICONTROL Coupon] | (Vereist) Geeft aan of een coupon aan de regel is gekoppeld. Opties: <br/>**[!UICONTROL No Coupon]**- er is geen coupon aan de regel gekoppeld.<br/>**[!UICONTROL Specific Coupon]** - Een specifieke coupon is gekoppeld aan de regel. <br/>**[!UICONTROL Coupon Code]**- Voer desgevraagd de Coupon-code in die de klant moet invoeren om te kunnen profiteren van de speciale actie.<br/>**[!UICONTROL Use Auto Generation]** - Schakel het selectievakje in om automatisch meerdere couponcodes te genereren die kunnen worden gebruikt voor de speciale actie. <br/>**[!UICONTROL Auto]**- Geeft de sectie _[!UICONTROL Manage Coupon Codes]_weer om de indeling van de te genereren couponcodes te definiëren. |
 | [!UICONTROL Uses per Coupon] | Hiermee bepaalt u hoe vaak de couponcode kan worden gebruikt. Laat het veld leeg als er geen limiet is. |
 | [!UICONTROL Uses per Customer] | Hiermee bepaalt u hoe vaak de regel van de winkelwagenprijs kan worden gebruikt door dezelfde geregistreerde klant die tot een geselecteerde klantengroep behoort. Is niet van toepassing op gastkopers die lid zijn van NIET IN klantengroep LOGGED, of op klanten die zonder het programma openen aan hun rekeningen winkelen. Voor geen limiet, laat leeg. |
-| [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. De hoogste prioriteit is nummer `1` . |
+| [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. Prioriteiten van het hoogste naar het laagste niveau zijn `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Hiermee bepaalt u of de aanbieding wordt opgenomen in de openbare RSS-feed van uw winkel. Opties:  `Yes` / `No` |
 | [!UICONTROL From] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) de eerste datum de coupon kan worden gebruikt. |
 | [!UICONTROL To] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) de laatste datum de coupon kan worden gebruikt. |

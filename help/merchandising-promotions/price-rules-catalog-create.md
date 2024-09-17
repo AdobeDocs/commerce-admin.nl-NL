@@ -3,9 +3,9 @@ title: Een regel voor catalogusprijzen maken
 description: Leer hoe u een regel voor catalogusprijzen maakt die een korting toepast op specifieke producten wanneer aan een bepaalde voorwaarde wordt voldaan.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
    >[!NOTE]
    >
-   >De instelling _[!UICONTROL Priority]_is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meerdere prijsregels zijn ingesteld. De regel met de hoogste prioriteit (1 is het hoogste) wordt actief voor het product.
+   >De instelling _[!UICONTROL Priority]_is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meerdere prijsregels zijn ingesteld. De regel met de hoogste prioriteit (prioriteiten van het hoogste tot het laagste zijn 0,1,2,3...) wordt actief voor het product.
 
 ## Stap 2: De voorwaarden definiëren
 
@@ -236,7 +236,7 @@ Bekijk deze video voor meer informatie over het maken van prijsregels voor catal
 | [!UICONTROL Description] | Een beschrijving van de regel moet het doel van de regel bevatten en uitleggen hoe deze wordt gebruikt. |
 | [!UICONTROL Websites] | (Vereist) Hiermee worden de websites geïdentificeerd waarop de regel kan worden gebruikt. |
 | [!UICONTROL Customer Groups] | (Vereist) Identificeert de klantengroepen waarop de regel van toepassing is. |
-| [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. De hoogste prioriteit is nummer 1. |
+| [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. Prioriteiten van het hoogste naar het laagste niveau zijn `0,1,2,3...` |
 | [!UICONTROL Status] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) bepaalt als de regel in de opslag actief is. Opties: `Yes` / `No` |
 | [!UICONTROL From] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) specificeert de eerste dag dat de prijsregel in feite is. Als deze optie leeg blijft, wordt de prijsregel toegepast wanneer deze wordt opgeslagen. |
 | [!UICONTROL To] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) specificeert de laatste dag dat de prijsregel in feite is. Als je niets invult, gaat de prijsregel eindeloos door. |
