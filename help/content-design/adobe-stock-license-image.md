@@ -3,9 +3,9 @@ title: Een Adobe Stock-afbeelding in licentie geven
 description: Als u juridische toegang wilt garanderen en het Adobe Stock-watermerk wilt verwijderen, moet u een licentie voor uw Adobe Stock-afbeeldingen aanschaffen.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Adobe Stock-middelen die u voor uw productie-Adobe Commerce en Magento Open Sour
 
 De nieuwe [[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie met Adobe Stock, waardoor het eenvoudig is om rechtstreeks vanaf de galeriepagina een licentie voor uw afbeeldingen te maken.
 
-## Vereisten
+>[!BEGINSHADEBOX]
 
-Deze eigenschap vereist de ][adobe-stock-integration] module en de configuratie van de Integratie van 0} Adobe Stock. [ Het verlenen van vergunningen ][adobe-stock] beelden van Adobe Stock [ vereist een betaald plan van Adobe Stock en een [ rekening van de Adobe ][adobe-signin].
+**Eerste vereisten**
+
+De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als de [ Integratie van Adobe Stock ][adobe-stock-integration] geïnstalleerd en gevormd is. Het verlenen van vergunningen ][adobe-stock] beelden van Adobe Stock [ vereist een betaald plan van Adobe Stock en een [ rekening van de Adobe ][adobe-signin].
+
+>[!ENDSHADEBOX]
 
 ## Een licentie geven voor een afbeelding uit het nieuwe bestand [!DNL Media Gallery]
 
