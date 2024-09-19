@@ -3,9 +3,9 @@ title: HIPAA-gereedheid op Adobe Commerce
 description: Ontdek hoe u de Adobe Commerce HIPAA-Ready-extensie kunt toevoegen en extra functies en functionaliteiten kunt krijgen waarmee u aan uw HIPAA-verplichtingen kunt voldoen.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: bce0e581e89139875e09b671038a21976eccebca
+source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1599'
 ht-degree: 1%
 
 ---
@@ -214,7 +214,7 @@ Om aan HIPAA-vereisten te voldoen, zijn sommige services en functies die door Ad
    - API-net
    - App Builder
 
-- **[dienst SendGrid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** - Deze dienst wordt onbruikbaar gemaakt door gebrek omdat de toepassing niet-HIPAA-volgzaam is.
+- **Transactionele e-mail** - [ SendGrid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) wordt onbruikbaar gemaakt door gebrek omdat de dienst niet-HIPAA-klaar is. Adobe Commerce verstrekt een integratieoptie die u met uw eigen [ Eenvoudige van AWS E-mailDienst ](https://docs.aws.amazon.com/ses/) rekening kunt gebruiken. Neem contact op met de technische accountmanager van de klant of de Adobe Commerce-ondersteuning voor configuratiegegevens.
 
 ### Functies die standaard zijn uitgeschakeld
 
