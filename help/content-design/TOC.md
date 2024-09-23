@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -57,19 +57,11 @@ ht-degree: 0%
    - [Een afbeelding invoegen](editor-insert-image.md)
    - [Een widget invoegen](editor-widget.md)
    - [Een variabele invoegen](editor-insert-variable.md)
-- Media {#media}
    - Media-opslag {#storage}
       - [Overzicht](media-storage.md)
       - [Een mediadatabase gebruiken](media-storage-database.md)
       - [Een netwerk voor inhoudslevering gebruiken](media-storage-content-delivery-network.md)
       - [Dynamische media-URL&#39;s](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Assets-integratie](aem-assets.md)
-      - Onboarding {#onboarding}
-         - [AEM Assets configureren](aem-assets-configure-aem.md)
-         - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
-         - [Elementsynchronisatie inschakelen](aem-assets-setup-synchronization.md)
-      - [AEM Assets gebruiken](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock-integratie](adobe-stock.md)
       - [Adobe Stock-afbeeldingen gebruiken](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 0%
       - [Beheer van bedrijfsmiddelen](media-gallery-asset-management.md)
       - [Mapbeheer](media-gallery-folder-management.md)
       - [Optimalisatie van afbeeldingen](media-gallery-image-optimization.md)
+- Geavanceerd beheer van bedrijfsmiddelen {#aem-assets}
+   - [AEM Assets-integratie voor Commerce](aem-assets.md)
+   - Integratie instellen {#onboarding}
+      - [Overzicht](aem-assets-setup.md)
+      - [AEM Assets configureren](aem-assets-configure-aem.md)
+      - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
+      - [Elementsynchronisatie inschakelen](aem-assets-setup-synchronization.md)
+   - [AEM Assets gebruiken](aem-assets-manage.md)
+- Media {#media}
 - Inhoud stapelen {#staging}
    - [Overzicht](content-staging.md)
    - [Een update plannen](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 0%
    - [Een campagneitem toevoegen](content-staging-add-item.md)
    - [Een voorvertoning van een campagne weergeven](content-staging-preview.md)
 - [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
