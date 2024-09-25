@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
+source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ ht-degree: 0%
       - [Beheer van bedrijfsmiddelen](media-gallery-asset-management.md)
       - [Mapbeheer](media-gallery-folder-management.md)
       - [Optimalisatie van afbeeldingen](media-gallery-image-optimization.md)
-- Geavanceerd beheer van bedrijfsmiddelen {#aem-assets}
-   - [AEM Assets-integratie voor Commerce](aem-assets.md)
+- Asset Management met AEM Assets {#aem-asset-management}
+   - [AEM Assets-integratie voor Commerce](aem-assets-integration.md)
    - Integratie instellen {#onboarding}
       - [Overzicht](aem-assets-setup.md)
       - [AEM Assets configureren](aem-assets-configure-aem.md)
       - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
       - [Elementsynchronisatie inschakelen](aem-assets-setup-synchronization.md)
-   - [AEM Assets gebruiken](aem-assets-manage.md)
+   - [Elementen beheren](aem-assets-manage.md)
 - Media {#media}
 - Inhoud stapelen {#staging}
    - [Overzicht](content-staging.md)
