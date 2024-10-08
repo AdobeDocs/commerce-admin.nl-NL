@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
+source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
 workflow-type: tm+mt
-source-wordcount: '7033'
+source-wordcount: '7198'
 ht-degree: 0%
 
 ---
@@ -64,21 +64,35 @@ De B2B v1.5.0-bètaversie bevat nieuwe functies, kwaliteitsverbeteringen en oplo
 
 ![ Vaste de beheerders van het 1} Bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. ](../assets/fix.svg)<!--ACP2E-1933--> Eerder heeft Commerce een fout geregistreerd toen een Admin-gebruiker probeerde een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123` .
 
+## B2B v1.4.2-p3
+
+*8 Oktober, 2024*
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB24-73 ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om compatibiliteit met de Adobe Commerce B2B-release te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
 ## B2B v1.4.2-p2
 
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p2+ en 2.4.6-p7+ de versies van het veiligheidspatch. De B2B 1.4.2-p2-release is niet beschikbaar
-steun de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p2+ en 2.4.6-p7+ de versies van het veiligheidspatch.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de moeilijke situaties van de Veiligheid die in Bulletin xxxx van de Veiligheid worden gedocumenteerd.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden.
-
-
-https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.2-p1
+
+*9 augustus, 2024*
 
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
@@ -87,7 +101,6 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
 
 ## B2B v1.4.2
 
@@ -165,6 +178,24 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspakket toe te voegen door handgebiedsdelen voor het B2B veiligheidspakket met a [ stabiliteitsmarkering ](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen. Voor instructies, zie de [ Kennisbank van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p8
+
+*8 Oktober, 2024*
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p8.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB24-73 ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
+
+## B2B v1.3.5-p7
+
+*9 augustus, 2024*
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p7.
+
 ## B2B v1.3.5
 
 *Maart 14, 2023*
@@ -200,6 +231,16 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-2456--> de vragen van de Categorie keren nu productprijzen volgens de montages van de opslagconfiguratie terug wanneer er geen categorietoestemmingen uitdrukkelijk geplaatst op de categorie zijn die wordt gevraagd.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-6829--> De **[!UICONTROL Place Order]** knoop werkt nu zoals verwacht wanneer het voltooien van een aankoop met een goedgekeurd citaatverzoek. Problemen met de plug-in voor verhandelbare aanhalingstekens `negotiableQuoteCheckoutSessionPlugin` zijn opgelost.
+
+## B2B v1.3.4-p10
+
+*9 Oktober, 2024*
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p10.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB24-73 ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
 ## B2B v1.3.4
 
