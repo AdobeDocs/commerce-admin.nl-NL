@@ -3,9 +3,9 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
+source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
@@ -160,6 +160,6 @@ Nadat de nieuwe eigenaar zijn Adobe-account naar de huidige (nu vorige) eigenaar
 
 1. Klik op **[!UICONTROL Verify]**.
 
-1. **leg een verzoek van de Steun** voor om het team van de Steun mee te delen dat u het e-mailadres van de rekeningseigenaar hebt bijgewerkt.
+1. **leg een verzoek van de Steun** voor om het team van de Steun mee te delen dat u het e-mailadres van de rekeningseigenaar hebt bijgewerkt. Neem het e-mailadres van de vorige rekeninghouder op in uw aanvraag.
 
 Er zijn extra stappen die door Steun, zoals het bijwerken van het e-mailadres op uw [ Commerce Marketplace ](https://commercemarketplace.adobe.com/) profiel moeten worden uitgevoerd.
