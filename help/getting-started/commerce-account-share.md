@@ -3,9 +3,9 @@ title: Deel a [!DNL Commerce]  rekening
 description: Leer hoe te om beperkte toegang tot uw  [!DNL Commerce]  rekening voor andere  [!DNL Commerce]  rekeninghouders te verlenen.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
    Het linkernavigatievenster van uw account heeft een nieuwe tab _[!UICONTROL Shared with me]_. Het besturingselement_[!UICONTROL Switch Accounts]_ in de rechterbovenhoek bevat opties voor `My Account` en de naam van de gedeelde account.
 
    ![ Gedeeld met me ](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   Als u niet de _[!UICONTROL Switch Accounts]_controle ziet, contacteer de primaire rekeninghouder en bevestig dat zij uw correcte [ rekeningsinformatie ](#set-up-a-shared-account) zijn ingegaan.
+
 
 1. Als u toegang wilt krijgen tot de gedeelde account, stelt u **[!UICONTROL Switch Accounts]** in op de naam van de gedeelde account.
 
