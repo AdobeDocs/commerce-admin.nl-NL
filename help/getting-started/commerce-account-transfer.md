@@ -3,7 +3,7 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -69,6 +69,8 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 1. Voer de bevestigingscode in die naar het nieuwe e-mailadres is verzonden.
 
 1. Klik op **[!UICONTROL Verify]**.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-mailwijziging
 
