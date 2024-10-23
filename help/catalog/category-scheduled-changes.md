@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor categorieën
 description: Leer hoe u wijzigingen in rubrieken kunt plannen om marketingcampagnes en winkelaanbiedingen te ondersteunen.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Categorieupdates kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen in de categorie of de wijzigingen toepassen op een bestaande campagne. Meer leren, zie [ Inhoud het Opvoeren ](../content-design/content-staging.md).
 
->[!NOTE]
->
->Het [!UICONTROL Schedule Design Update] lusje is verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kan niet direct op de categorie worden gewijzigd. U moet een geplande update maken voor deze activeringen.
+Houd bij het plannen van wijzigingen voor categorieën rekening met het volgende:
+
+- Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit veelvoudige geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
+
+- Als een campagne met meer dan één categorie wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
+
+- Als een campagne met meer dan één categorie wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 >[!NOTE]
 >
->Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit veelvoudige geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
+>Het [!UICONTROL Schedule Design Update] lusje is verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kan niet direct op de categorie worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 ## Een update voor een categorie plannen
 
@@ -69,7 +73,3 @@ Categorieupdates kunnen volgens schema worden toegepast en worden gegroepeerd me
 1. Breng de benodigde wijzigingen aan in de geplande update.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
-
-   >[!NOTE]
-   >
-   >Als een campagne met meer dan één categorie wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.

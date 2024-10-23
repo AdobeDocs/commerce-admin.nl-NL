@@ -3,9 +3,9 @@ title: Geplande wijzigingen voor prijsregels voor catalogi
 description: Leer hoe u de prijsregels voor catalogi op schema toepast als onderdeel van een campagne en gegroepeerd met andere wijzigingen in de inhoud.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
 >[!IMPORTANT]
 >
->Als een campagne met een prijsregel in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. U wordt aangeraden een einddatum toe te voegen wanneer u de campagne maakt of een dubbele versie van de bestaande campagne te maken en de einddatum desgewenst aan het duplicaat toe te voegen.
+>Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
 ![ de prijsregel van de Catalogus - geplande veranderingen ](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

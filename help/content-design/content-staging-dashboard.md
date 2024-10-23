@@ -3,9 +3,9 @@ title: Inhoudsopmaakdashboard
 description: Gebruik het dashboard voor de inhoudstaging voor toegang tot een overzicht van alle actieve en komende campagnes.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Bestaande campagneobjecten kunnen worden bewerkt vanaf het testdashboard, behalv
 
 >[!NOTE]
 >
->Als een campagne met een prijsregel in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
+>Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
 ![ het detail van de Campagne ](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

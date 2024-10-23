@@ -3,9 +3,9 @@ title: Geplande productupdates
 description: Leer hoe u wijzigingen in uw productaanbiedingen kunt plannen ter ondersteuning van campagnes en promotieprogramma's.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Productupdates kunnen volgens schema worden toegepast en met andere inhoudsveranderingen worden gegroepeerd. U kunt [ inhoud gebruiken die ](../content-design/content-staging.md) staging om een campagne tot stand te brengen die op geplande veranderingen in het product wordt gebaseerd, of de veranderingen op een bestaande campagne toe te passen.
 
+Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bewerkingscampagnes configureert:
+
+- Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
+
+- Een het opvoeren voorproef voor een geplande update begint altijd van de **standaard** opslagmening, die de ervaring van de klant navigeert om door de het opvoeren updatecampagne te navigeren.
+
+- Als een campagne met meer dan één product wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
+
+- Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
+
+
 >[!NOTE]
 >
 >[!UICONTROL Set Product as New From] en [!UICONTROL To] gebieden en [!UICONTROL Schedule Design Update] lusje zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op het product worden gewijzigd. U moet een geplande update maken voor deze activeringen.
-
->[!NOTE]
->
->Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
-
->[!NOTE]
->
->Een het opvoeren voorproef voor een geplande update begint altijd van de **standaard** opslagmening, die de ervaring van de klant navigeert om door de het opvoeren updatecampagne te navigeren.
 
 ## Een geplande update maken
 
@@ -86,10 +89,6 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 1. Breng de benodigde wijzigingen aan in de geplande update.
 
->[!NOTE]
->
->Als een campagne met meer dan één product wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
-
 1. Klik op **[!UICONTROL Save]**.
 
 ## De geplande wijziging verwijderen
@@ -102,9 +101,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 1. Selecteer **[!UICONTROL Delete the Update]** in het dialoogvenster en klik op **[!UICONTROL Done]** .
 
-   >[!NOTE]
-   >
-   >Het product wordt verwijderd uit de update en alle geplande wijzigingen gaan verloren.
+   Het product wordt verwijderd uit de update en alle geplande wijzigingen gaan verloren.
 
 ## Een ontwerpupdate plannen
 

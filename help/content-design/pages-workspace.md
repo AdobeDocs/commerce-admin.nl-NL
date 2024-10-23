@@ -3,9 +3,9 @@ title: Besturingselementen voor de werkruimte Pagina
 description: Leer meer over de werkruimtegereedschappen waarmee u inhoudspagina's kunt zoeken en bijwerken.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Klik de _controle van de Mening_ (![ het pictogram van het Oogje ](../assets/ico
 
 Paginawijzigingen kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen op een pagina of de wijzigingen toepassen op een bestaande campagne. Voor meer informatie, zie [ Inhoud het Opvoeren ](content-staging.md).
 
->[!NOTE]
->
->Als een campagne met meer dan één pagina wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](content-staging-dashboard.md) worden uitgegeven.
+Houd rekening met het volgende wanneer u schema&#39;s voor paginawijzigingen en bewerkingscampagnes configureert:
+
+- Alle geplande updates worden achtereenvolgens toegepast, wat betekent dat elke entiteit slechts één geplande update op één punt kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
+
+- Als een campagne met meer dan één pagina wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](content-staging-dashboard.md) worden uitgegeven.
+
+- Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
+
+- De Datum van het Begin van de campagne en de Datum van het Eind moeten worden bepaald door de **_gebrek_** tijdzone Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Bekijk een voorbeeld van meerdere websites in verschillende tijdzones, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen en **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** instellen in geconverteerde tijdzone van elke lokale website naar de standaardtijdzone van Admin.
+
+- U kunt wijzigingen voor productupdates plannen en een voorvertoning weergeven. Voor meer informatie, zie [ plannend een Update ](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >Het [!UICONTROL Custom Design Update] lusje is verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kan niet direct op de pagina worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
->[!NOTE]
->
->Alle geplande updates worden achtereenvolgens toegepast, wat betekent dat elke entiteit slechts één geplande update op één punt kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
-
 ![ De pagina van het Huis toont geplande veranderingen bij de bovenkant ](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->De Datum van het Begin van de campagne en de Datum van het Eind moeten worden bepaald door de **_gebrek_** tijdzone Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Bekijk een voorbeeld van meerdere websites in verschillende tijdzones, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen en **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** instellen in geconverteerde tijdzone van elke lokale website naar de standaardtijdzone van Admin.
-
-Ook kunt u wijzigingen voor productupdates plannen en voorvertonen. Voor meer informatie, zie [ plannend een Update ](content-staging-scheduled-update.md).

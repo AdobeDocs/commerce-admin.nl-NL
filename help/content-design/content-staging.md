@@ -3,9 +3,9 @@ title: Inhoud stapelen
 description: Met Inhoud stapelen kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates voor uw winkel maken, voorvertonen en plannen, rechtstreeks vanuit de beheerder.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 1. **herstel de basislijninhoud**
 
    Als alle campagnes einddata hebben, wordt de basislijninhoud hersteld wanneer alle actieve campagnes beëindigen.
+
+   >[!NOTE]
+   >
+   >Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
 >[!NOTE]
 >
