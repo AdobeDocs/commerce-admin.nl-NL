@@ -4,9 +4,9 @@ description: Leer hoe klanten die zijn gekoppeld aan een bedrijfsaccount een aan
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](config
 1. Hiermee maakt en verwerkt u het aanhalingsteken:
 
    - Verstuurt het aanhalingsteken naar de verkoper door **[!UICONTROL Request a Quote]** te selecteren.
-   - [!BADGE  1.5.0-bèta vermogen ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor Beta-programmadeelnemers"}**[!UICONTROL Save as Draft]**.
+   - Hiermee slaat u het aanhalingsteken op als een concept door **[!UICONTROL Save as Draft]** te selecteren.
 
      Als de koper het aanhalingsteken opslaat als concept, is het aanhalingsteken beschikbaar in de status [!UICONTROL My Quotes] in `Draft` . Concepten zijn pas zichtbaar voor de verkoper nadat de koper ze ter controle heeft verzonden.

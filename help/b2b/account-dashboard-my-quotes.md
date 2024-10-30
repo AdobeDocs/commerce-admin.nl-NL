@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: Meer informatie over de ervaring van klanten met prijsopgaven, die beschikbaar is op het dashboard van hun account.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes]_v
 
 De koper begint het proces door [ een verzoek ](quote-request.md) voor een citaat van het het winkelwagentje voor te leggen voor te leggen. E-mail wordt geruild tussen de koper en de verkoper tijdens het [ onderhandelingsproces ](quote-price-negotiation.md). Voor de koper is de pagina [!UICONTROL My Quotes] het centrale punt voor alle communicatie tussen koper en verkoper tijdens het onderhandelingsproces. Een koper die de door de verkoper geboden onderhandelingsprijs accepteert, kan direct vanaf de prijsopgave naar de betalingspagina gaan. Er kunnen geen extra kortingen aan het onderhandelde prijsopgave worden toegevoegd.
 
-Een koper kan de volgende handelingen uitvoeren bij het onderhandelen over een prijsopgave:
+Bij het onderhandelen over een prijsopgave heeft een koper verschillende opties om de prijsopgave te beheren of de prijsdetails bij te werken.
 
-* Prijsbepaling en updates van objecten controleren
-* Houd het onderhandelingsproces bij vanuit de secties [!UICONTROL Comments] en [!UICONTROL History] .
-* Het aanhalingsteken wijzigen om items te verwijderen
-* Communiceren en onderhandelen met de verkoper door opmerkingen toe te voegen op het niveau van het regelobject en de prijsopgave
-* Aanhalingsteken ter controle naar verkoper sturen
-* Zet het citaat in een orde om als de termijnen aanvaardbaar zijn
-* Het aanhalingsteken sluiten
-* Het aanhalingsteken verwijderen
-* [!BADGE  1.5.0-bètamogelijkheden ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Alleen beschikbaar voor Beta-programmadeelnemers"}
+* Acties in verband met het beheer van de offerte:
+
+   * Een kopie van het aanhalingsteken maken
+   * Close the quote
+   * Delete the quote
+   * Rename the quote
+   * Print the quote
+   * Create a template
+
+* Handelingen voor het bijwerken van de prijsdetails:
+
+   * Prijsbepaling en updates van objecten controleren
+   * Houd het onderhandelingsproces bij vanuit de secties [!UICONTROL Comments] en [!UICONTROL History] .
+   * Het aanhalingsteken wijzigen om items te verwijderen
+   * Communiceren en onderhandelen met de verkoper door opmerkingen toe te voegen op het niveau van het regelobject en de prijsopgave
+   * Verzendadres toevoegen
+   * Regelitems verplaatsen naar een aanvraaglijst
+   * Zet het citaat in een orde om als de termijnen aanvaardbaar zijn
+
+* Algemene acties tijdens de onderhandelingen:
+
+   * Aanhalingsteken ter controle naar verkoper sturen
+   * Doorgaan naar Afhandeling
 
 In het volgende voorbeeld wordt een prijsopgave getoond die door de koper is bijgewerkt en ter controle naar de verkoper is teruggestuurd.
 
 
-![ mening van de Koper van citaat ](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![ mening van de Koper van citaat ](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Aanhalingstekens met de status `Updated` worden vergrendeld totdat de verkoper het aanhalingsteken retourneert.
 
 ## Aanhalingstekens tonen
 
-Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions.md), kunnen de klanten verbonden aan een bedrijfrekening citaten zien die door [ worden gevraagd ondergeschikte gebruikers ](account-company-structure.md). De beheerders van het bedrijf kunnen alle citaten voor de bedrijfrekening zien.
+Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions.md), kunnen de kopers verbonden aan een bedrijfrekening citaten zien die door [ worden gevraagd ondergeschikte gebruikers ](account-company-structure.md). De beheerders van het bedrijf kunnen alle citaten voor de bedrijfrekening zien.
 
-1. De klant meldt zich aan bij zijn account op de winkel.
+1. De koper meldt zich aan bij zijn account op de winkel.
 
 1. Klik op **[!UICONTROL My Quotes]** in de linkernavigatie.
 
@@ -52,15 +66,89 @@ Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions
 
 ## Een aanhalingsteken weergeven
 
-1. De klant meldt zich aan bij zijn account.
+1. De koper heeft zich aangemeld bij zijn account.
 
 1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
 
 1. Zoekt het aanhalingsteken in de lijst en klikt op **[!UICONTROL View]** in de kolom _[!UICONTROL Action]_.
 
+## Een aanhalingsteken kopiëren
+
+1. De koper meldt zich aan bij zijn bedrijfsaccount op de winkel.
+
+1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
+
+1. Zoek en open het gewenste citaat in de lijst en klik **[!UICONTROL Create Copy]** van het originele citaat.
+
+## Sjabloon maken
+
+1. De koper heeft zich aangemeld bij zijn account.
+
+1. Kies **[!UICONTROL My Quote Templates]** in het linkerdeelvenster.
+
+1. Zoekt het aanhalingsteken in de lijst **[!UICONTROL My Quotes]** en klikt op **[!UICONTROL Create Quote Template]** in de kolom _[!UICONTROL Action]_.
+
+## Regelitems verplaatsen van een aanhalingsteken naar een aanvraaglijst
+
+1. De koper heeft zich aangemeld bij zijn account.
+
+1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
+
+1. Zoek en open het gewenste citaat in de lijst.
+
+1. Selecteer de regelitems.
+
+1. Klik op **[!UICONTROL Move to Requisition list]** in de vervolgkeuzelijst _[!UICONTROL Actions]_.
+
+1. Selecteer een bestaande aanvraaglijst om de geselecteerde items te verplaatsen.
+
+1. Klik op **[!UICONTROL Move item]**.
+
+Zie [ producten aan een verzoeklijst ](requisition-lists.md) toevoegen om meer over dit proces te leren.
+
+>[!NOTE]
+>
+> U kunt geen nieuwe aanvraaglijst maken wanneer u items verplaatst. Items kunnen alleen worden verplaatst naar een bestaande aanvraaglijst.
+
+## Regelitems verplaatsen naar een nieuw aanhalingsteken
+
+1. De koper heeft zich aangemeld bij zijn account.
+
+1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
+
+1. Zoek en open het gewenste citaat in de lijst.
+
+1. Selecteer de regelitems.
+
+1. Klik op **[!UICONTROL Move item to new quote]** in de vervolgkeuzelijst _[!UICONTROL Actions]_.
+
+1. Geef het nieuwe aanhalingsteken een naam in het modaal.
+
+1. Selecteer **[!UICONTROL Move to quote]** om het geselecteerde item naar het nieuwe aanhalingsteken te verplaatsen.
+
+>[!NOTE]
+>
+> Wanneer u meerdere items selecteert, wordt modaal weergegeven als **[!UICONTROL Move selected items to new quote]** .
+
+## Verzendadres toevoegen
+
+1. De koper heeft zich aangemeld bij zijn account.
+
+1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
+
+1. Selects the desired quote.
+
+1. **[!UICONTROL Shipping Information]****[!UICONTROL Add New Address]**
+
+1. Fills in details for the new address.
+
+1. **[!UICONTROL Save Address]**
+
+When the buyer adds the address, the seller provides the shipping and delivery options. These updates can affect the negotiated quote pricing. The shipping options are locked on checkout.
+
 ## Een aanhalingsteken afdrukken
 
-1. In het open citaat rechts van de _[!UICONTROL Items Quoted]_sectie, klikt de klant **[!UICONTROL Print]**.
+1. In het open citaat rechts van de _[!UICONTROL Items Quoted]_sectie, klikt de koper **[!UICONTROL Print]**.
 
 1. Controleert **[!UICONTROL Destination]** als of printer of PDF.
 
@@ -82,9 +170,10 @@ Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions
 
 | Handeling | Beschrijving |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Naam wijzigen | [!BADGE  1.5.0-bètamogelijkheden ] {type=Informative url=&quot;/help/b2b/release-notes.md&quot;tooltip=&quot;Beschikbaar slechts voor Beta programmadeelnemers&quot;} Verandering de naam van het citaat |
-| Een kopie maken | [!BADGE  1.5.0-bètamogelijkheden ] {type=Informative url=&quot;/help/b2b/release-notes.md&quot;tooltip=&quot;Beschikbaar slechts voor Beta programmadeelnemers&quot;} Een koper kan een nieuw citaat van het huidige citaat tot stand brengen door het te kopiëren en anders te noemen. |
+| Naam wijzigen | De naam van het aanhalingsteken wijzigen |
+| Kopie maken | Een koper kan een aanhalingsteken maken van het huidige aanhalingsteken door het te kopiëren en een andere naam te geven. |
 | Aanhalingsteken sluiten | Nadat een koper een prijsopgave heeft gesloten, kan deze niet opnieuw worden geopend. Indien nodig kan de koper het opnieuw maken met de handeling [!UICONTROL Create Copy] . Deze optie is niet beschikbaar als de status van het citaat `Draft` is. |
+| Sjabloon maken | Creeer een citaatmalplaatje dat op het huidige citaat wordt gebaseerd. Offertesjablonen stroomlijnen de prijsonderhandeling door kopers en verkopers in staat te stellen overeenstemming te bereiken over contractvoorwaarden en prijsvoorwaarden die op meerdere offertes kunnen worden toegepast.  Na overeenstemming kan de koper een vooraf goedgekeurd, gekoppeld citaat uit de template genereren voor volgende orders in plaats van het aanvraagproces (RFQ) opnieuw te starten. |
 | Aanhalingsteken verwijderen | Wanneer een koper een prijsopgave verwijdert, wordt deze uit het systeem verwijderd en is deze niet meer beschikbaar. |
 | Afdrukken | Hiermee opent u een afdrukformulier waarin u het aanhalingsteken kunt opslaan als een PDF, bestand of afdrukbestand naar een geconfigureerde printer. |
 

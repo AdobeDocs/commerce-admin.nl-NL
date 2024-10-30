@@ -4,9 +4,9 @@ description: Meer informatie over het inschakelen van B2B-functies voor uw Adobe
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Standaard zijn alle B2B-functies in eerste instantie uitgeschakeld. Een opslagbe
 
 Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra B2B-functies ingeschakeld:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Ondersteunt aangepaste prijsconfiguratie voor verschillende bedrijven en schakelt ook categorietoestemmingen voor alle winkels in.
 
@@ -25,7 +25,7 @@ Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra
 
   Verbetert plaatsprestaties door slechts producten op te slaan die aan een gedeelde catalogus in de prijsindex worden toegewezen. Het toelaten van deze eigenschap is een beste praktijk voor Merchants die vele gedeelde catalogi hebben om douaneprijzen voor verschillende bedrijven te beheren.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Verkopers en bedrijven krijgen de mogelijkheid om prijzen te onderhandelen.
 
@@ -35,7 +35,7 @@ Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra
 
 De configuratie-instellingen voor deze functies zijn alleen zichtbaar wanneer [!DNL Enable Company] is ingesteld op `Yes` .
 
-B2B [!DNL Quick Order] - en [!DNL Requisition List] -functies kunnen onafhankelijk van elkaar worden in- en uitgeschakeld.
+De functies B2B [[!DNL Quick Order]](quick-order.md) en [[!DNL Requisition List]](requisition-lists.md) kunnen onafhankelijk worden in- en uitgeschakeld.
 
 ## B2B-functies configureren
 
@@ -53,29 +53,31 @@ De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts
 
      Wanneer u bedrijfssteun toelaat, worden de Gedeelde Catalogus, de Citaat B2B, de Methoden van de Betaling B2B, en de methodes van de Verzending B2B automatisch toegelaten.
 
-   - Stel **[!UICONTROL Enable Quick Order]** in op `Yes` om klanten en gasten in staat te stellen snel bestellingen te plaatsen op basis van SKU of productnaam.
+     ![ B2B configuratie - bedrijfeigenschappen ](assets/b2b-additional-features.png){width="600"}
 
-   - Als u klanten wilt toestaan om aanvraaglijsten te maken en te beheren vanaf hun accountdashboard, stelt u **[!UICONTROL Enable Requisition List]** in op `Yes` .
+   - Als u klanten en gasten wilt toestaan snel bestellingen te plaatsen op basis van de SKU- of productnaam, stelt u **[!UICONTROL Enable Quick Order]** in op `Yes` .
 
-     U kunt [ ook vormen het maximumaantal lijsten ](configure-requisition-lists.md) een klant voor hun rekening kan hebben.
+   - Stel **[!UICONTROL Enable Requisition List]** in op `Yes` als u klanten wilt toestaan om aanvraaglijsten te maken en te beheren vanuit hun accountdashboard.
+
+     U kunt [ ook het maximumaantal lijsten ](configure-requisition-lists.md) vormen een klant voor hun rekening kan hebben.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Standaard B2B-betalings- en verzendmethoden configureren
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Payment Methods]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Default B2B Payment Methods]** sectie.
 
-1. Stel **[!UICONTROL Applicable Payment Methods]** in op een van de volgende opties om de standaardbetalingsmethoden voor B2B-orders in te stellen:
+1. Stel **[!UICONTROL Applicable Payment Methods]** in op een van de volgende opties om de standaardbetalingsmethoden voor B2B-orders vast te stellen:
 
    - `All Payment Methods`
 
    - `Selected Payment Methods`
 
-     Selecteer voor de specifieke optie de **[!UICONTROL Payment Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (PC) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
+     Voor de specifieke optie selecteert u de **[!UICONTROL Payment Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (pc) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
 
-   De lijst van [ betalingsmethodes ](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel of gehandicapt in uw opslag worden toegelaten. Naast de standaardbetalingsmethoden bevat de lijst ook het volgende:
+   De lijst van [ betaalmethodes ](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel of gehandicapt in uw opslag worden toegelaten. Naast de standaardbetalingsmethoden bevat de lijst ook de volgende elementen:
 
-   - Geen betalingsgegevens vereist
+   - Er zijn geen betalingsgegevens vereist
    - [Betaling op rekening](#configure-payment-on-account)
    - Opgeslagen accounts
    - Opgeslagen kaarten
@@ -170,9 +172,9 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
    - Om te bepalen hoe het exemplaar van het bericht wordt verzonden, plaats **verzendt de Methode van het E-mailExemplaar** aan één van het volgende:
 
       - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
-      - `Separate Email` - Verzendt de kopie als een aparte e-mail.
+      - `Separate Email` - Hiermee verzendt u de kopie als een aparte e-mail.
 
-   - Als u e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardwaarden, kiest u de sjabloon voor elk van de volgende meldingen die naar de bedrijfsbeheerder worden verzonden.
+   - Als u e-mailsjablonen hebt voorbereid voor gebruik in plaats van de standaardinstellingen, kiest u de sjabloon voor elk van de volgende meldingen die naar de bedrijfsbeheerder worden verzonden.
 
       - **[!UICONTROL Allocated Email Template]**
       - **[!UICONTROL Updated Email Template]**
@@ -186,17 +188,17 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
 
 ## Goedkeuring van bestellingen configureren
 
-Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bedrijfsbeheerders de handelingen van de kopers van het bedrijf controleren. De functionaliteit voor het goedkeuren van bestellingen is beschikbaar wanneer de functie voor inkooporders is ingeschakeld door een beheerder van de winkel.
+Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bedrijfsbeheerders de handelingen van de kopers van het bedrijf controleren. De functie voor het goedkeuren van bestellingen is beschikbaar wanneer de functie voor het bestellen van inkooporders is ingeschakeld door een beheerder van de winkel.
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Op _Admin_ sidebar, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL B2B Features]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order Approval Configuration]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Order Approval Configuration]** sectie.
 
-   ](./assets/b2b-features-order-approval.png){width="600"} de Configuratie van de Goedkeuring van de orde 0}![
+   ![ de Configuratie van de Goedkeuring van de Orde ](./assets/b2b-features-order-approval.png){width="600"}
 
-1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` als u bedrijven de mogelijkheid wilt geven eigen inkooporders te maken.
+1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` als u bedrijven wilt toestaan eigen inkooporders te maken.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -212,7 +214,7 @@ Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bed
 
 1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` .
 
-1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
+1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
 Na activering, wordt de **[!UICONTROL Approval Rules]** sectie getoond op het storefront [ Dashboard van de Rekening ](../customers/account-dashboard.md) voor een bedrijfbeheerder.
 
@@ -222,13 +224,13 @@ Na activering, wordt de **[!UICONTROL Approval Rules]** sectie getoond op het st
 
 ## Betaling op account configureren
 
-Betaling op rekening is een methode voor offlinebetalingen waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is opgegeven. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het afrekenen weergegeven als dit is ingeschakeld. Wanneer _Betaling op Rekening_ als betalingsmethode wordt gebruikt, verschijnt een bericht bij de bovenkant van de orde die op de status van de rekening wijst. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [ BedrijfsRekeningen ](account-company-manage.md) leiden.
+Betaling op account is een methode voor offline betaling waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is vastgelegd. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het uitchecken weergegeven als deze optie is ingeschakeld. Wanneer _Betaling op Rekening_ als betalingsmethode wordt gebruikt, verschijnt een bericht bij de bovenkant van de orde die op de status van de rekening wijst. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [ BedrijfsRekeningen beheren ](account-company-manage.md).
 
 >[!NOTE]
 >
->Betaling op Rekening wordt niet gesteund voor orden met [ veelvoudige verzendadressen ](../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties voor deze orden.
+>Betaling op rekening wordt niet gesteund voor orden met [ veelvoudige verzendadressen ](../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties voor deze orden.
 
-Betaling op account inschakelen voor je winkel:
+Als u Betaling op account voor uw winkel wilt inschakelen:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

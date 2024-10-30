@@ -1,38 +1,108 @@
 ---
-title: Bedrijfsbeheer
-description: Leer over bedrijfsbeheer en hoe zij tussen bedrijven in B2B werken.
-feature: B2B, Companies, Storefront
+title: Manage the Company Hierarchy
+description: Build and manage company hierarchies to support B2B organizations with complex operational models.
+feature: B2B, Companies
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
+hide: false
+hidefromtoc: false
+exl-id: a277ed95-7935-4d27-adb2-35116972732b
+source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
+# [!UICONTROL Company Hierarchy]
 
-# Bedrijfsbeheer
+[!UICONTROL Company Hierarchy]
 
-Het vermogen van het Beheer van het Bedrijf stroomlijnt bedrijfsverrichtingen voor bedrijven met complexe organisatorische structuren. Admin-gebruikers kunnen bedrijven als groep beheren door een bedrijfshiërarchie te maken die verbonden bedrijven toewijst aan een aangewezen moedermaatschappij. Deze toewijzing stelt de beheerder van het moederbedrijf in staat zijn eigen rekening en de bedrijfsrekeningen voor alle toegewezen ondernemingen te beheren.
+Creëer in Beheer een moederbedrijf door een afzonderlijk bedrijf (`[!UICONTROL Company Type] = Company`) te bewerken en verwante bedrijven toe te wijzen in de [!UICONTROL Company Hierarchy] -configuratie.
 
-Bouw een bedrijfshiërarchie van de de detailpagina van het Bedrijf.
+![](./assets/company-hierarchy-grid.png){width="700"}
 
-![ het Net van Bedrijven ](./assets/company-detail-view.png){width="700" zoomable="yes"}
 
-## De pagina Bedrijfsgegevens openen
+>[!NOTE]
+>
+>[!UICONTROL Company Hierarchy][](account-company-create.md#company-hierarchy)
 
-1. Van _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+*[!UICONTROL Company Hierarchy]* *[!UICONTROL Actions]*[](#change-company-settings)
 
-1. Open de pagina met bedrijfsdetails in het raster Bedrijven voor het moederbedrijf door de handeling **[!UICONTROL Edit]** te selecteren.
+## Assign companies to a parent company
 
-Zie [ bedrijfsrekeningen beheren ](account-company-manage.md) voor meer informatie over het net van Bedrijven.
+1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
 
-## [!UICONTROL Company Hierarchy]
+   ![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Bij het maken van het eerste bedrijf is het raster [!UICONTROL Company Hierarchy] leeg wanneer u het uitbreidt. Nadat een bedrijf is gemaakt, kunnen Admin-gebruikers met de juiste machtigingen de [!UICONTROL Company Hierarchy] gebruiken om een organisatie van een moederbedrijf te bouwen door het aangewezen moederbedrijf te bewerken en verwante bedrijven toe te wijzen.
+1. Open vanuit het [!UICONTROL Companies] -raster de pagina met bedrijfsdetails om de toewijzingen te maken.
 
-![ het Net van de Hiërarchie van Bedrijven ](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   - Als u extra bedrijven wilt toewijzen aan een bestaand moederbedrijf, selecteert u de handeling **[!UICONTROL Edit]** voor het moederbedrijf.
+   - Als u een moedermaatschappij wilt maken, selecteert u de handeling **[!UICONTROL Edit]** voor het bedrijf dat als moedermaatschappij is aangewezen.
 
-Zie [ toewijzen en unassign bedrijven ](assign-companies.md) voor meer informatie over beschikbare acties in het [!UICONTROL Company Hierarchy] net.
+     U kunt geen nieuw moederbedrijf van een bestaand ouder of kindbedrijf tot stand brengen.
+
+1. Vouw op de pagina Bedrijfsgegevens **[!UICONTROL Company Hierarchy]** uit en selecteer vervolgens **[!UICONTROL Assign Companies]** .
+
+   ![ creeer ouderbedrijf ](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
+
+1. Kies in de lijst met beschikbare bedrijven de bedrijven die u wilt toewijzen en selecteer vervolgens **[!UICONTROL Assign Selected Companies]** .
+
+   ![ Uitgezochte bedrijven om toe te wijzen ](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
+
+1. Als hierom wordt gevraagd, voltooit u de bedrijfstoewijzing door **[!UICONTROL Assign]** te selecteren.
+
+## Ondernemingen van een moedermaatschappij ontkoppelen
+
+1. **[!UICONTROL Edit]**
+
+   ![](./assets/company-update.png){width="700" zoomable="yes"}
+
+1. **[!UICONTROL Company Hierarchy]**
+
+1. Remove the company from the organization.
+
+   - In de kolom [!UICONTROL Action] die het bedrijf moet verwijderen, **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]** .
+
+     ![](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
+
+   - **[!UICONTROL Unassign]**
+
+## Manage company settings for an organization
+
+[](account-company-create.md#advanced-settings)
+
+During the update process the initial configuration values default to the the current values configured for the parent company. You must change at least one setting to update the configuration for selected companies.
+
+**verander de Geavanceerde configuratie van Montages voor veelvoudige bedrijven**
+
+1. Voor _Admin_ sidebar, navigeer aan **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. Bewerk in het raster [!UICONTROL Companies] het bovenliggende bedrijf door **[!UICONTROL Edit]** in de kolom **[!UICONTROL Action]** te selecteren.
+
+1. Vouw de sectie **[!UICONTROL Company Hierarchy]** op de detailpagina van het moederbedrijf uit om bedrijven in de organisatie weer te geven.
+
+1. Selecteer de bedrijven die u wilt configureren.
+
+   ![ Uitgezochte bedrijven van bedrijfshiërarchie ](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
+
+1. Selecteer **[!UICONTROL Change company settings]** bij het **[!UICONTROL Actions]** -besturingselement boven het raster.
+
+   ![ bedrijfmontages van de Verandering voor bedrijfshiërarchie ](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
+
+1. Wijzig de configuratie van de instellingen.
+
+   - Zoek op de pagina [!UICONTROL Change company settings] naar de configuratie-instelling die u wilt wijzigen.
+
+   - Schakel het selectievakje **[!UICONTROL Change]** in om de instelling in te schakelen.
+
+   - Update the value as needed.
+
+     ![](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
+
+1. **[!UICONTROL Apply Changes]**
+
+1. **[!UICONTROL Change settings]**
+
+>[!TIP]
+>
+>Manage the advanced settings configuration for a single company by editing the company line item.

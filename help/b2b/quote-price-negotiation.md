@@ -3,9 +3,9 @@ title: Onderhandelingen over een offerte
 description: Meer informatie over workflows voor prijsonderhandeling en over hoe u met kopers kunt werken voor aankopen.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
+source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Tijdens het onderhandelingsproces kan de verkoper het volgende doen via de behee
 
 - Producten toevoegen of verwijderen
 - Het aantal wijzigen
-- Een korting toepassen op regelobjecten of op de totale prijs
+- Een korting toepassen op regelitems of op het volledige aanhalingsteken
 - Verzendmethode toevoegen of wijzigen
 - Opmerkingen toevoegen
 - De bijgewerkte prijsopgave naar de koper sturen of opslaan als concept
@@ -118,23 +118,33 @@ zowel de korting op het regelartikel als de korting op het prijsniveau worden to
 
    De maximale bestandsgrootte voor bijlagen is 2 MB.
 
-1. Een korting toepassen op het volledige citaat:
+1. Een korting toepassen op het citaat:
 
    - Kies onder _[!UICONTROL Quote Totals]_in de sectie_[!UICONTROL Negotiated Price]_ een van de volgende kortingstypen:
 
-      - `Percentage Discount`
-      - `Amount Discount`
-      - `Proposed Price`
+      - `Percentage Discount`: Met een percentagekorting verlaagt u de oorspronkelijke prijs met een bepaald percentage.
+      - `Amount Discount`: Met een korting op het bedrag wordt een vaste prijsverlaging toegepast.
+      - `Proposed Price`: Een voorgestelde prijskorting stelt de uiteindelijke prijs in op een bepaald bedrag, ongeacht de oorspronkelijke prijs.
 
    - Voer het bedrag in als een percentage of een vaste prijs.
 
      ![ Commentaren van de Onderhandeling ](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - U kunt kortingen op elk lijnpunt of het citaat als geheel toepassen:
+
+      - **het puntkortingen van de Lijn**: De het puntkortingen van de Lijn worden toegepast op individuele punten in de kar. De korting kan een `percentage`, een specifieke `amount` of een `proposed price` zijn.
+      - **Kart-vlakke kortingen**: De kunst-vlakke kortingen worden toegepast op het volledige het winkelwagentje. De korting kan een `percentage` of een specifieke `amount` zijn en wordt toegepast op de totale waarde van het winkelwagentje.
+      - **Combinatie van Kortingen van het Punt van de Kar en van het Punt van de Lijn**: In sommige gevallen, kunnen de kortingen op zowel de kar als de niveaus van het lijnpunt worden toegepast. De korting op het regelitem wordt eerst toegepast, gevolgd door de korting op het winkelwagenniveau op het resterende totaal.
 
 1. De offerte verzenden of opslaan:
 
    - Klik op **[!UICONTROL Send]** als het aanhalingsteken klaar is om naar de koper te worden teruggestuurd.
 
    - Klik op **[!UICONTROL Save as Draft]** als u het aanhalingsteken later wilt blijven gebruiken.
+
+>[!NOTE]
+>
+> Tijdens de citaatonderhandelingen, kunnen de kortingen worden gesloten om verdere veranderingen te verhinderen. Zodra een citaat wordt gesloten, noch kan het kortingstype noch het bedrag worden veranderd zonder het citaat eerst te ontgrendelen. Dit vergrendelingsmechanisme zorgt ervoor dat de tussen de verkoper en de koper overeengekomen voorwaarden worden gehandhaafd.
 
 ## Stap 4: Follow-up van een prijsopgave
 
@@ -152,7 +162,8 @@ Controleer uw e-mail en de status van het aanhalingsteken in het raster om de po
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Hiermee gaat u terug naar de _[!UICONTROL Quotes]_-pagina zonder wijzigingen op te slaan. |
 | [!UICONTROL Print] | Verzendt het aanhalingsteken naar een printer of slaat het op als een PDF-bestand. |
-| [!UICONTROL Create Copy] | [!BADGE  1.5.0-bètamogelijkheden ] {type=Informative url=&quot;/help/b2b/release-notes.md&quot;tooltip=&quot;Beschikbaar slechts voor de programmadeelnemers van Beta&quot;} creeert en opent een exemplaar van het huidige citaat met `(copy)` toegevoegd aan de originele naam. Wijzig de naam van het nieuwe aanhalingsteken door het veld [!UICONTROL Name] te bewerken. Verwerk het nieuwe aanhalingsteken door het als concept op te slaan of te verzenden naar de klant. |
+| [!UICONTROL Create Copy] | Hiermee maakt en opent u een kopie van het huidige aanhalingsteken, waarbij `(copy)` aan de oorspronkelijke naam wordt toegevoegd. Wijzig de naam van het nieuwe aanhalingsteken door het veld [!UICONTROL Name] te bewerken. Verwerk het nieuwe aanhalingsteken door het als concept op te slaan of te verzenden naar de klant. |
+| Sjabloon maken | Creeer een citaatmalplaatje dat op het huidige citaat wordt gebaseerd. Offertesjablonen stroomlijnen de prijsonderhandeling door kopers en verkopers in staat te stellen overeenstemming te bereiken over contractvoorwaarden en prijsvoorwaarden die op meerdere offertes kunnen worden toegepast. . Na overeenstemming kan de koper een vooraf goedgekeurd, gekoppeld citaat uit de template genereren voor volgende orders in plaats van het aanvraagproces (RFQ) opnieuw te starten. |
 | [!UICONTROL Save as Draft] | Sla eventuele wijzigingen in de prijsopgave op, maar verzend deze niet naar de koper. |
 | [!UICONTROL Decline] | Het verzoek om over prijzen te onderhandelen wordt afgewezen, hetzij op het eerste onderzoek, hetzij tijdens lopende onderhandelingen. Wanneer een prijsopgave wordt afgewezen, moet de verkoper een opmerking toevoegen om de beslissing toe te lichten. Wanneer een prijsopgave wordt afgewezen, worden alle onderhandelde prijzen weer op de oorspronkelijke waarden ingesteld. Deze knop is uitgeschakeld terwijl de verkoper wacht op een antwoord van de koper. |
 | [!UICONTROL Send] | Verstuurt het bijgewerkte prijsopgave als antwoord op de vraag van de koper. Deze knop is uitgeschakeld als de verkoper wacht op een antwoord van de koper. |

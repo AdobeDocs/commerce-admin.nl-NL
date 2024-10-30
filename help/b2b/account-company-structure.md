@@ -4,9 +4,9 @@ description: Leer over bedrijfsstructuren en hoe een bedrijfbeheerder het kan be
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,31 +17,29 @@ Een bedrijfsrekening kan worden opgezet om de structuur van de onderneming te we
 
 ![ Structuur van het Bedrijf met Afdelingen ](./assets/company-structure-diagram.svg){width="500"}
 
-In het de rekeningsdashboard van de bedrijfbeheerder, wordt de bedrijfstructuur vertegenwoordigd als boom en bestaat aanvankelijk uit slechts de bedrijfbeheerder.
+In het de rekeningsdashboard van de bedrijfbeheerder op de storefront, wordt de bedrijfstructuur vertegenwoordigd als boom en bestaat aanvankelijk uit slechts de bedrijfbeheerder.
 
-![ Structuur van het Bedrijf met de Beheerder van het Bedrijf ](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![ Structuur van het Bedrijf met de Beheerder van het Bedrijf ](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-Wanneer de account is gemaakt en goedgekeurd, kan de beheerder van het bedrijf het e-mailadres van het bedrijf gebruiken of een ander e-mailadres krijgen toegewezen.
-
-Het is mogelijk dat de persoon die als bedrijfbeheerder dienst heeft veelvoudige rollen binnen het bedrijf heeft. Als een afzonderlijk e-mailadres voor de bedrijfbeheerder is ingegaan, omvat de aanvankelijke bedrijfstructuur de bedrijfbeheerder plus een individuele gebruikersrekening in de naam van de bedrijfbeheerder. In dat geval kan de beheerder van het bedrijf zich aanmelden bij de account als bedrijf of als individuele gebruiker.
-
-![ Structuur van het Bedrijf met Beheerder en Rekening van de Gebruiker ](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-Voor handelaren, wordt de volledige bedrijfstructuur weerspiegeld in de _Bedrijven_ en _Klanten_ netten binnen Admin. Het net van Bedrijven maakt een lijst van alle bedrijven ongeacht status. Het volgende voorbeeld toont rekeningen voor twee bedrijven: het _ACME_ bedrijf en het _Verkoperij_ bedrijf.
+Voor handelaren, wordt de volledige bedrijfstructuur weerspiegeld in de _Bedrijven_ en _Klanten_ netten binnen Admin. Het net van Bedrijven maakt een lijst van alle bedrijven ongeacht status.
 
 ![ het Net van Bedrijven ](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-In het volgende voorbeeld wordt het [!UICONTROL Customers] -raster weergegeven met de initiële bedrijfsbeheerdersaccounts voor deze bedrijven.
+In het volgende voorbeeld wordt het [!UICONTROL Customers] -raster weergegeven met de initiële bedrijfsbeheerdersaccounts voor elk bedrijf.
 
-![ het net van Klanten met de rekening van de bedrijfbeheerder ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![ het net van Klanten met de rekeningen van de bedrijfbeheerder ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Na het creëren van de rekening, moet de bedrijfbeheerder de bedrijfstructuur van [ teams ](account-company-structure.md) bepalen, opstelling de [ bedrijfgebruikers ](account-company-users.md), en [ rollen en toestemmingen ](account-company-roles-permissions.md) voor elk vestigen.
+Na het creëren van de rekening, kan de bedrijfbeheerder een bedrijfstructuur met [ teams ](account-company-structure.md) bepalen, opstelling de [ bedrijfgebruikers ](account-company-users.md), en [ rollen en toestemmingen ](account-company-roles-permissions.md) voor elk vestigen.
+
+>[!NOTE]
+>
+>Wanneer een bedrijfgebruikers wordt toegevoegd, wordt de bedrijfgebruiker aanvankelijk toegevoegd aan de basisbedrijfstructuur, ondergeschikt aan de bedrijfbeheerder. Als de bedrijfsbeheerder meerdere rollen binnen het bedrijf uitvoert, maakt u afzonderlijke bedrijfsgebruikersaccounts met een ander e-mailadres voor elke rol.
 
 ## Pictogrammen bedrijfsstructuur
 
 | Pictogram | Beschrijving |
 | ---- | ----------------- |
-| ![ pictogram van de Beheerder van het Bedrijf ](./assets/company-icon-admin.png) | Vertegenwoordigt de bedrijfbeheerder in de bedrijfstructuur. |
+| ![ pictogram van de Beheerder van het Bedrijf ](./assets/company-icon-admin.png) | Vertegenwoordigt de bedrijfsbeheerder in de bedrijfstructuur. |
 | ![ pictogram van het Team ](./assets/company-icon-team.png) | Vertegenwoordigt een team in de bedrijfstructuur. |
 | ![ pictogram van de Gebruiker ](./assets/company-icon-user.png) | Vertegenwoordigt een gebruiker in de bedrijfstructuur. |
 | ![ pictogram van de Beweging ](./assets/company-icon-move.png) | Verplaatst een team naar een andere positie in de bedrijfsstructuur. |
@@ -54,11 +52,11 @@ Na het creëren van de rekening, moet de bedrijfbeheerder de bedrijfstructuur va
 
 De structuur van een bedrijfsrekening moet de aankooporganisatie weerspiegelen, of het nu gaat om een eenvoudige en vlakke organisatie of om een complexe organisatie met verschillende teams voor elke afdeling en afdeling van de onderneming.
 
-Als de opslag [ ](enable-basic-features.md) wordt gevormd om bedrijven toe te staan om hun eigen rekeningen te beheren, is vestiging de bedrijfsstructuur één van de eerste taken voor een bedrijfbeheerder om te voltooien nadat de rekening wordt goedgekeurd. In de bedrijfsrekening, wordt de structuur van het bedrijf vertegenwoordigd als boom met de bedrijfbeheerder bij de bovenkant.
+Als de opslag [ ](enable-basic-features.md) wordt gevormd om bedrijven toe te staan om hun eigen rekeningen te beheren, is vestiging de bedrijfstructuur één van de eerste taken voor een bedrijfbeheerder om te voltooien nadat de rekening wordt goedgekeurd. In de bedrijfsrekening, wordt de structuur van het bedrijf vertegenwoordigd als boom met de bedrijfbeheerder bij de bovenkant.
 
-![ Structuur van het Bedrijf met Teams ](./assets/company-structure-teams-diagram.svg){width="450"}
+![ Bedrijfsstructuur met teams ](./assets/company-structure-teams-diagram.svg){width="450"}
 
-1. De beheerder van het bedrijf ondertekent binnen aan hun rekening.
+1. De beheerder van het bedrijf meldt zich aan bij hun account.
 
 1. Kies **[!UICONTROL Company Structure]** in het linkerdeelvenster.
 
@@ -70,13 +68,11 @@ Als de opslag [ ](enable-basic-features.md) wordt gevormd om bedrijven toe te st
 
      ![ voeg team ](./assets/company-structure-add-team.png){width="700" zoomable="yes"} toe
 
-   - Klik op **[!UICONTROL Save]** wanneer dit is voltooid.
+   - Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   - Hiermee maakt u zoveel teams als u nodig hebt.
+   - Creëert zoveel teams als nodig is.
 
-     ![ Structuur van het Bedrijf met Teams ](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. Ga als volgt te werk om een hiërarchie van teams te maken:
+1. De beheerder doet het volgende om een hiërarchie van teams te maken:
 
    - Hiermee selecteert u het bovenliggende team en klikt u op **[!UICONTROL Add Team]** .
 
@@ -94,7 +90,7 @@ Als de opslag [ ](enable-basic-features.md) wordt gevormd om bedrijven toe te st
 
 Aangezien de bedrijfbeheerder met de bedrijfstructuur werkt, kunnen zij teams of afdelingen naar andere plaatsen in de structuur slepen.
 
-1. De bedrijfbeheerder bepaalt de locatie van het team dat moet worden verplaatst.
+1. De bedrijfsbeheerder zoekt het team dat moet worden verplaatst.
 
 1. Klik en sleep het team aan een nieuwe positie in de bedrijfstructuur.
 
@@ -129,7 +125,7 @@ Wanneer de teams en de gebruikers eerst aan de [ bedrijfstructuur ](account-comp
 | [!UICONTROL Collapse All / Expand All] | Hiermee vouwt u de boomstructuur van de bedrijfsstructuur samen of breidt u deze uit |
 | [!UICONTROL Add User] | Maakt een gebruiker onder het huidige team |
 | [!UICONTROL Add Team] | Hiermee wordt een team gemaakt |
-| [!UICONTROL Edit Selected / Delete Selected] | Hiermee bewerkt of verwijdert u gebruikers uit de boomstructuur van het bedrijf |
+| [!UICONTROL Edit Selected / Remove from Structure] | Hiermee bewerkt u gebruikersgegevens of verwijdert u gebruikers uit de bedrijfsstructuur. Voor details, zie [ bedrijfgebruikersrekeningen beheren ](account-company-users.md). |
 
 {style="table-layout:auto"}
 

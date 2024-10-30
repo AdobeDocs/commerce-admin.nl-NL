@@ -1,29 +1,29 @@
 ---
-title: Bedrijfsrollen en -machtigingen
-description: Leer over rollen en toestemmingen die een bedrijfbeheerder op bedrijfgebruikers kan toepassen, die voor diverse niveaus toegang tot ordeinformatie en middelen toestaan.
+title: Company roles and permissions
+description: Learn about roles and permissions that a company administrator can apply to company users, allowing for various levels access to order information and resources.
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
-# Bedrijfrollen en -machtigingen
+# Company Roles and Permissions
 
-De rollen voor bedrijfgebruikers worden opstelling met diverse niveaus van toestemming om tot verkoopinformatie en middelen toegang te hebben. Door gebrek, is de bedrijfbeheerder a _super gebruiker_ met volledige toestemmingen. De [ Ontkende Toegang ](../content-design/pages.md#access-denied) pagina verschijnt als de gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
+Roles for company users are set up with various levels of permission to access sales information and resources. __ De [ Ontkende Toegang ](../content-design/pages.md#access-denied) pagina verschijnt als de gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
 
-![ Rollen en de pagina van Toestemmingen met standaardrol ](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-Het systeem heeft één vooraf bepaalde rol van de Gebruiker Standaard, die u _kunt gebruiken zoals_ is of zich wijzigt om uw behoeften aan te passen. U kunt zo vele rollen tot stand brengen zonodig om uw bedrijfsstructuur en organisatorische verantwoordelijkheden, zoals het volgende aan te passen:
+__ You can create as many roles as necessary to match your company structure and organizational responsibilities, such as the following:
 
-- **StandaardGebruiker** - de standaardgebruiker heeft volledige toegang tot activiteiten met betrekking tot verkoop en citaten, en mening-slechts toegang tot bedrijfsprofiel en kredietinformatie.
+- ****
 
-- **Hogere Koper** — Een hogere koper zou toegang tot alle Verkoop en Citaten middelen, en mening-slechts toestemmingen aan het Profiel van het Bedrijf, Gebruiker en Teams, de Informatie van de Betaling, en het Krediet van het Bedrijf kunnen hebben.
+- ****
 
-- **HulpKoper** - een hulpkoper zou toestemming kunnen hebben om een orde te plaatsen gebruikend _Afhandeling met Citaat_, en om orden, citaten, en informatie in het bedrijfsprofiel te bekijken.
+- ****__
 
 ## Rollen en machtigingen beheren
 
@@ -31,9 +31,9 @@ Het systeem heeft één vooraf bepaalde rol van de Gebruiker Standaard, die u _k
 
 1. Kies **[!UICONTROL Roles and Permissions]** in het linkerdeelvenster.
 
-1. Hiermee kunt u een van de volgende taken uitvoeren.
+1. Completes any of the following tasks.
 
-### Een rol maken
+### Create a role
 
 1. Klik op **[!UICONTROL Add New Role]** .
 
@@ -47,37 +47,37 @@ Het systeem heeft één vooraf bepaalde rol van de Gebruiker Standaard, die u _k
 
    - Selecteert checkbox **[!UICONTROL All]** en ontruimt checkbox van elke middel of activiteit dat de gebruikers aan de rol toegewezen geen toestemming hebben om toegang te hebben.
 
-1. Klik op **[!UICONTROL Save Role]** .
+1. **[!UICONTROL Save Role]**
 
-1. Hiermee maakt u zoveel rollen als nodig zijn door deze stappen te herhalen.
+1. Creates as many roles as necessary by repeating these steps.
 
-### Een rol wijzigen
+### Modify a role
 
-1. De bedrijfsbeheerder klikt op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Actions]_om de rol te wijzigen.
-
-1. Hiermee wijzigt u de benodigde naam- en machtigingsinstellingen.
-
-1. Klik op **[!UICONTROL Save Role]** wanneer dit is voltooid.
-
-### Een rol dupliceren
-
-1. De bedrijfsbeheerder klikt op **[!UICONTROL Duplicate]** in de kolom _[!UICONTROL Actions]_om de rol te dupliceren.
+1. **[!UICONTROL Edit]**_[!UICONTROL Actions]_
 
 1. Hiermee wijzigt u de benodigde naam- en machtigingsinstellingen.
 
-1. Klik op **[!UICONTROL Save Role]** wanneer dit is voltooid.
+1. **[!UICONTROL Save Role]**
 
-### Een rol verwijderen
+### Duplicate a role
+
+1. **[!UICONTROL Duplicate]**_[!UICONTROL Actions]_
+
+1. Makes the necessary changes to the name and permission settings.
+
+1. **[!UICONTROL Save Role]**
+
+### Delete a role
 
 1. De bedrijfbeheerder vindt de rol die in de lijst van rollen moet worden geschrapt.
 
    Alleen rollen zonder toegewezen gebruikers kunnen worden verwijderd.
 
-1. Klik op **[!UICONTROL Delete]** in de kolom _[!UICONTROL Actions]_.
+1. **[!UICONTROL Delete]**_[!UICONTROL Actions]_
 
-1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
+1. **[!UICONTROL OK]**
 
-## Handelingen
+## Actions
 
 | Handeling | Beschrijving |
 |-----------| ----------- |
@@ -87,57 +87,26 @@ Het systeem heeft één vooraf bepaalde rol van de Gebruiker Standaard, die u _k
 
 {style="table-layout:auto"}
 
-## Rolmachtigingen
+## Role permissions
 
-- Alles
-   - Verkoop
-      - Afhandeling toestaan (volgorde plaatsen)
-         - De methode Betalen op account gebruiken
-      - Bestellingen weergeven
-         - Bestellingen van ondergeschikte gebruikers weergeven
-- Aanhalingen
-   - Weergave
-      - Aanvragen, bewerken, verwijderen
-      - Afhandeling met aanhalingsteken
-      - Aanhalingstekens van onderliggende gebruikers weergeven
-- Goedkeuringen bestellen
-   - Mijn inkooporders bekijken
-      - Weergeven voor onderliggende waarden
-      - Weergeven voor alle bedrijven
-   - Automatisch PO&#39;s goedkeuren die binnen deze rol zijn gemaakt
-   - Aankooporders goedkeuren zonder andere goedkeuring
-   - Goedkeuringsregels weergeven
-      - Maken, bewerken en verwijderen
-- Bedrijfsprofiel
-   - Accountinformatie (Weergave)
-      - Bewerken
-   - Juridisch adres
-      - Bewerken
-   - Contacten (weergave)
-   - Betalingsgegevens (Weergave)
-   - Verzendgegevens (Weergave)
-- Gebruikersbeheer van bedrijven
-   - Rollen en machtigingen weergeven
-      - Rollen en machtigingen beheren
-   - Gebruikers en teams weergeven
-      - Gebruikers en teams beheren
-- Bedrijfskrediet
-   - Weergave
+[!UICONTROL Edit action]****
+
+![](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Een rol toewijzen aan een bedrijfsgebruiker
 
 Na het bepalen van de rollen die nodig zijn, wijst de bedrijfbeheerder een rol aan elke bedrijfgebruiker toe.
 
-1. Meld u aan bij hun bedrijfsaccount als de beheerder van het bedrijf.
+1. Logs in to their company account as the company administrator.
 
 1. Kies **[!UICONTROL Company Users]** in het linkerdeelvenster.
 
    ![ Gebruikers van het Bedrijf ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Hiermee zoekt u de gebruiker in de lijst en klikt u op **[!UICONTROL Edit]** .
+1. **[!UICONTROL Edit]**
 
-1. Kies de juiste **[!UICONTROL User Role]** voor de gebruiker.
+1. **[!UICONTROL User Role]**
 
-   ![ geef Gebruiker uit - kies een gebruikersrol ](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** .

@@ -1,46 +1,53 @@
 ---
-title: Een bedrijfsbeheerder toewijzen
-description: Leer hoe u een bedrijfsgebruikersaccount toewijst als de aangewezen bedrijfsbeheerder voor het bedrijfsaccount.
+title: Assign a company administrator
+description: Learn how to assign a company user account as the designated company administrator for the company account.
 exl-id: 26f3a449-6f3a-4078-816d-6248ac6d1e46
 feature: B2B, Companies
 role: Admin, User
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
-# Een bedrijfsbeheerder toewijzen
+# Assign a company administrator
 
-De bedrijfbeheerder wordt aanvankelijk toegewezen wanneer de bedrijfrekening eerst wordt gecreeerd, en kan slechts door een opslagbeheerder van Admin worden gewijzigd.
+The company administrator is initially assigned when the company account is first created, and can be modified only by a store administrator from the Admin.
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+- Each company can have only one assigned administrator.
+- A company user can be the administrator for only one company.
+- Changes to the assigned company administrator must be completed by a store administrator from the Admin.
 
-1. Zoek het bedrijf in de lijst en klik op **[!UICONTROL Edit]** .
+## Change assigned company administrator
 
-   ![ Bedrijven ](./assets/companies-grid.png){width="700" zoomable="yes"}
+1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Company Admin]** sectie uit.
+   ![](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-   ![ Bedrijf Admin ](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+1. **[!UICONTROL Edit]**
 
-1. Voer **[!UICONTROL Job Title]** van de nieuwe bedrijfsbeheerder in en klik op **[!UICONTROL Proceed]** om door te gaan.
+1. ![](../assets/icon-display-expand.png)**[!UICONTROL Company Admin]**
 
-   Hiermee wist u het formulier en worden de vereiste _[!UICONTROL First Name]_- en_[!UICONTROL Last Name]_ -velden gemarkeerd.
+   ![](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Voer het **[!UICONTROL Email]** -adres van de nieuwe bedrijfsbeheerder in.
+1. **[!UICONTROL Job Title]**
 
-   Als het systeem niet het e-mailadres in het gegevensbestand vindt, wordt u ertoe aangezet om te bevestigen dat u de bedrijfbeheerder wilt vervangen.
+   _[!UICONTROL First Name]__[!UICONTROL Last Name]_
 
-   - Als er geen gebruikersaccount voor de nieuwe bedrijfsbeheerder bestaat, maakt het systeem een account van het `Company Admin` type.
+1. **[!UICONTROL Email]**
 
-   - Als de gebruikersrekening in het systeem bestaat, wordt het verplaatst naar de positie van de bedrijfbeheerder in de bedrijfstructuur.
+   If the system doesn&#39;t find the email address in the database, you are prompted to confirm that you want to replace the company administrator.
 
-1. Voer de **[!UICONTROL First Name]** en **[!UICONTROL Last Name]** in en geef desgewenst andere gegevens op voor de nieuwe bedrijfsbeheerder.
+   - `Company Admin`
 
-1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
+   - If the user account exists in the system, it is moved to the company administrator position in the company structure.
 
-   De individuele rekening van de vroegere bedrijfbeheerder blijft in het systeem als actieve individuele gebruikersrekening in de bedrijfstructuur, die aan de standaardgebruikersrol wordt toegewezen.
+1. **[!UICONTROL First Name]****[!UICONTROL Last Name]**
 
-   Het systeem verzendt e-mailbericht van de verandering naar de nieuwe en vroegere bedrijfbeheerders.
+1. **[!UICONTROL Save]**
+
+   The individual account of the former company administrator remains in the system as an active user account, assigned to the default user role. *[!UICONTROL Company user]**[!UICONTROL Individual user]*
+
+   The system sends email notification of the change to the new and former company administrators.
+

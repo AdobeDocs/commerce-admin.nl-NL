@@ -4,9 +4,9 @@ description: Meer informatie over het toewijzen van een klantengroep aan een bed
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
+source-git-commit: 581d2cf82880552432471171b69a1a597da54c30
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,12 @@ ht-degree: 0%
 
 Het toewijzen van een klantengroep aan een bedrijf is in wezen het zelfde als het toewijzen van een gedeelde catalogus. Als de Gedeelde Catalogus niet [ in de configuratie ](enable-basic-features.md) wordt toegelaten, wordt een Groep van de Klant — eerder dan een Gedeelde Catalogus — toegewezen aan een bedrijf.
 
->[!NOTE]
->
-> Er kan slechts één klantengroep of gedeelde catalogus tegelijk aan een bedrijf worden toegewezen. Een klantengroep die is gekoppeld aan een gedeelde catalogus, kan niet worden verwijderd.
+- Er kan slechts één klantengroep of gedeelde catalogus tegelijk aan een bedrijf worden toegewezen. Een klantengroep die is gekoppeld aan een gedeelde catalogus, kan niet worden verwijderd.
+- Als u de klantengroep wijzigt die aan het bedrijf is toegewezen, worden de profielen van alle leden van het bedrijf bijgewerkt.
+- Als de toewijzing van de klantengroep van een gedeelde catalogus in een regelmatige klantengroep wordt veranderd, verliezen de bedrijfsleden toegang tot de gedeelde catalogus en de primaire catalogus wordt beschikbaar aan hen van de winkel.
+- Nadat het veranderen van de bedrijvengroep, moet een bedrijfgebruiker zich afmelden en op Storefront aanmelden om nieuwe prijzen in de catalogus te zien.
+
+## De klantengroep wijzigen
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -29,21 +32,9 @@ Het toewijzen van een klantengroep aan een bedrijf is in wezen het zelfde als he
 
 1. Stel de juiste **[!UICONTROL Customer Group]** in.
 
-   >[!NOTE]
-   >
-   >De lijst [!UICONTROL Customer Group] bevat alle bestaande gedeelde catalogi, zelfs als Gedeelde catalogi is uitgeschakeld in de configuratie.
-
-   Als u de klantengroep wijzigt die aan het bedrijf is toegewezen, worden de profielen van alle leden van het bedrijf bijgewerkt.
-
-   >[!NOTE]
-   >
-   >Nadat het veranderen van de bedrijvengroep, moet een bedrijfgebruiker zich afmelden en op Storefront aanmelden om nieuwe prijzen in de catalogus te zien.
+   De lijst [!UICONTROL Customer Group] bevat alle bestaande gedeelde catalogi, zelfs als Gedeelde catalogi is uitgeschakeld in de configuratie.
 
    ![ de klantengroep van de Verandering of gedeelde catalogus ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
-
-   >[!NOTE]
-   >
-   >Als de toewijzing van de klantengroep van een gedeelde catalogus in een regelmatige klantengroep wordt veranderd, verliezen de bedrijfsleden toegang tot de gedeelde catalogus en de primaire catalogus wordt beschikbaar aan hen van de winkel.
 
 1. Klik op **[!UICONTROL Proceed]** wanneer u wordt gevraagd om te bevestigen.
 
