@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] van Commerce Admin.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ Merchant Plaats ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ De volgende betalingsoplossingen worden aanbevolen als een gemakkelijke manier v
 
 >[!NOTE]
 >
->Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.4.x-releases en verplaatst naar de Commerce Marketplace. U kunt de recentste officiële uitbreidingen van de betaalintegratie in [ Commerce Marketplace ](https://marketplace.magento.com/extensions/payments-security.html) vinden {:target= &quot;_blank&quot;}.
+>Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.4.x-releases en verplaatst naar de Commerce Marketplace. U kunt de recentste officiële uitbreidingen van de betaalintegratie in [ Commerce Marketplace ](https://marketplace.magento.com/extensions/payments-security.html) vinden {:target="_blank"}.
 ><br/>
 >**Amazon betaal** en **Klarna**: Adobe Commerce en de versies van de Magento Open Source 2.4.0 door 2.4.3 omvatten deze leverancier-ontwikkelde uitbreidingen. Vanaf de release 2.4.4 worden deze extensies niet meer gebundeld met de kernrelease en moeten ze vanaf de Commerce Marketplace worden geïnstalleerd en bijgewerkt. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br/>
 >Als u een van deze gebundelde extensies hebt ingeschakeld en geconfigureerd, moet u het `composer.json` -bestand bijwerken als onderdeel van het upgradeproces 2.4.4 en de extensies verder beheren. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445) {:target= &quot;_blank&quot;}.
+>**Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445) {:target="_blank"}.
 
 ## Andere PayPal-methoden
 
@@ -71,7 +71,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Controle/Geldorde ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Betaling van de Overdracht van de Bank ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Betaling op Rekening ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL Web] van Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Web > Algemene Opties ](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Veld | Toepassingsgebied | Beschrijving |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![ Web > de Optimalisering van de Motor van het Onderzoek ](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![ Web > Basis URLS ](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![ Web > Basis URLs (Veilig) ](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -79,16 +79,16 @@ ht-degree: 0%
 
 ![ Web > Standaardpagina&#39;s ](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Default Web URL] | Winkelweergave | Geeft de bestemmingspagina aan die aan de basis-URL is gekoppeld. Deze is standaard ingesteld op &quot;cms&quot; om een pagina van het Commerce-inhoudsbeheersysteem (CMS) aan te geven. U kunt ook een ander type bestemmingspagina gebruiken, zoals een blog. Als een blog bijvoorbeeld is geïnstalleerd op de server op `magento/blog` , kunt u de naam van de map &quot;blog&quot; invoeren als een relatief pad naar de selectie van pagina&#39;s. |
-| [!UICONTROL CMS Home Page] | Winkelweergave | Als u de homepage voor de winkel wilt kiezen, selecteert u gewoon de CMS-pagina in de lijst. Standaard wordt op de CMS-startpagina de volledige selectie van CMS-pagina&#39;s weergegeven die beschikbaar zijn voor uw winkel. |
+| [!UICONTROL Default Web URL] | Winkelweergave | Geeft de bestemmingspagina aan die aan de basis-URL is gekoppeld. Deze is standaard ingesteld op &quot;cms&quot; om een pagina aan te geven vanuit het Commerce-inhoudsbeheersysteem (CMS). U kunt ook een ander type bestemmingspagina gebruiken, zoals een blog. Als een blog bijvoorbeeld is geïnstalleerd op de server op `magento/blog` , kunt u de naam van de map &quot;blog&quot; invoeren als een relatief pad naar de selectie van pagina&#39;s. |
+| [!UICONTROL CMS Home Page] | Winkelweergave | Als u de homepage voor de winkel wilt kiezen, selecteert u gewoon de CMS-pagina in de lijst. Standaard wordt op de startpagina van CMS de volledige selectie van CMS-pagina&#39;s weergegeven die beschikbaar zijn voor je winkel. |
 | [!UICONTROL Default No-route URL] | Winkelweergave | Bevat de URL van de standaardpagina die u wilt weergeven wanneer een fout `404 Page not Found` optreedt. De standaardwaarde is `cms/noroute/index` . |
 | [!UICONTROL CMS No Route Page] | Winkelweergave | Hiermee wordt een specifieke CMS-pagina aangegeven die moet worden weergegeven wanneer een fout van 404 pagina niet gevonden optreedt. De standaardpagina is 404 Niet gevonden. |
 | [!UICONTROL CMS No Cookies Page] | Winkelweergave | Hiermee wordt een specifieke CMS-pagina aangegeven die wordt weergegeven wanneer cookies niet zijn ingeschakeld voor de browser. Op de pagina wordt uitgelegd waarom cookies worden gebruikt en hoe u deze voor elke browser inschakelt. De standaardpagina is Enable Cookies. |
-| [!UICONTROL Show Breadcrumbs for CMS Pages] | Winkelweergave | Hiermee wordt bepaald of een breedbandtrail op alle CMS-pagina&#39;s in de catalogus wordt weergegeven. Opties: `Yes` / `No` |
+| [!UICONTROL Show Breadcrumbs for CMS Pages] | Winkelweergave | Hiermee wordt bepaald of een broodkruimelspoor op alle CMS-pagina&#39;s in de catalogus wordt weergegeven. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![ StandaardLay-outs ](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | Algemeen | Bepaalt de [ lay-out ](../../content-design/page-layout.md) die door gebrek voor productpagina&#39;s wordt gebruikt. Opties: <br/>**`No layout updates`**- layout-updates zijn standaard niet beschikbaar voor productpagina&#39;s.<br/>**`Empty`** - Voor productpagina&#39;s wordt standaard een lege indeling gebruikt. <br/>**`1 column`**- Voor productpagina&#39;s wordt standaard één kolomindeling gebruikt.<br/>**`2 columns with left bar`** - Voor productpagina&#39;s wordt standaard een lay-out van twee kolommen gebruikt, waarbij de zijbalk links in het scherm wordt weergegeven. <br/>**`2 columns with right bar`**- Voor productpagina&#39;s wordt standaard een lay-out van twee kolommen gebruikt, met de zijbalk rechts.<br/>**`3 columns`** - Voor productpagina&#39;s wordt standaard een lay-out van drie kolommen gebruikt met zijbalken links en rechts.<br/>**`Page -- Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Pagina — Volledige breedte gebruikt voor productpagina&#39;s.<br/>**`Category - Full Width`** - (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Categorie - Volledige breedte gebruikt voor productpagina&#39;s. <br/>**`Product - Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Product - Volledige breedte gebruikt voor productpagina&#39;s. |
 | [!UICONTROL Default Category Layout] | Algemeen | Bepaalt de [ lay-out ](../../content-design/page-layout.md) die door gebrek voor categoriepagina&#39;s wordt gebruikt. Opties: <br/>**`No layout updates`**- layout-updates zijn standaard niet beschikbaar voor categoriepagina&#39;s.<br/>**`Empty`** - Voor categoriepagina&#39;s wordt standaard een lege indeling gebruikt. <br/>**`1 column`**- Voor categoriepagina&#39;s wordt standaard één kolomindeling gebruikt.<br/>**`2 columns with left bar`** - Voor categoriepagina&#39;s gebruikt u standaard een lay-out met twee kolommen en de zijbalk links. <br/>**`2 columns with right bar`**- Voor categoriepagina&#39;s wordt standaard een lay-out met twee kolommen gebruikt, waarbij de zijbalk rechts.<br/>**`3 columns`** - Voor categoriepagina&#39;s gebruikt u standaard een lay-out met drie kolommen en zijbalken links en rechts.<br/>**`Page - Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Pagina - volledige breedte gebruikt voor categoriepagina&#39;s.<br/>**`Category - Full Width`** - (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Categorie - Volledige breedte gebruikt voor categoriepagina&#39;s. <br/>**`Product - Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Product - Volledige breedte gebruikt voor categoriepagina&#39;s. |
-| Standaardpagina-indeling | Algemeen | Bepaalt de [ lay-out ](../../content-design/page-layout.md) die door gebrek voor CMS pagina&#39;s wordt gebruikt. Opties: <br/>**`No layout updates`**- layout-updates zijn standaard niet beschikbaar voor CMS-pagina&#39;s.<br/>**`Empty`** - Voor CMS-pagina&#39;s wordt standaard een lege indeling gebruikt. <br/>**`1 column`**- Voor CMS-pagina&#39;s wordt standaard één kolomindeling gebruikt.<br/>**`2 columns with left bar`** - Voor CMS-pagina&#39;s wordt standaard een lay-out van twee kolommen gebruikt met de zijbalk links.<br/>**`2 columns with right bar`**- Voor CMS-pagina&#39;s wordt standaard een lay-out van twee kolommen gebruikt met de zijbalk rechts.<br/>**`3 columns`** - Voor CMS-pagina&#39;s wordt standaard een lay-out van drie kolommen gebruikt met zijbalken links en rechts.<br/>**`Page - Full Width`**- (Vereist [!UICONTROL Page Builder] ) Standaard wordt de indeling Pagina - volledige breedte gebruikt voor CMS-pagina&#39;s.<br/>**`Category - Full Width`** - (Vereist [!UICONTROL Page Builder] ) Standaard wordt de indeling Categorie - Volledige breedte gebruikt voor CMS-pagina&#39;s. <br/>**`Product - Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Product - Volledige breedte gebruikt voor CMS-pagina&#39;s. |
+| Standaardpagina-indeling | Algemeen | Bepaalt de [ lay-out ](../../content-design/page-layout.md) die door gebrek voor de pagina&#39;s van CMS wordt gebruikt. Opties: <br/>**`No layout updates`**- layout-updates zijn standaard niet beschikbaar voor CMS-pagina&#39;s.<br/>**`Empty`** - Voor CMS-pagina&#39;s wordt standaard een lege indeling gebruikt. <br/>**`1 column`**- Voor CMS-pagina&#39;s wordt standaard één kolomindeling gebruikt.<br/>**`2 columns with left bar`** - Voor CMS-pagina&#39;s wordt standaard een lay-out met twee kolommen gebruikt, waarbij de zijbalk links wordt weergegeven.<br/>**`2 columns with right bar`**- Voor CMS-pagina&#39;s wordt standaard een lay-out van twee kolommen gebruikt, met de zijbalk rechts.<br/>**`3 columns`** - Voor CMS-pagina&#39;s wordt standaard een lay-out van drie kolommen gebruikt met zijbalken links en rechts.<br/>**`Page - Full Width`**- (Vereist [!UICONTROL Page Builder] ) Standaard wordt de lay-out Pagina - volledige breedte gebruikt voor CMS-pagina&#39;s.<br/>**`Category - Full Width`** - (Vereist [!UICONTROL Page Builder] ) Standaard wordt de indeling Categorie - Volledige breedte gebruikt voor CMS-pagina&#39;s. <br/>**`Product - Full Width`**- (Vereist [!DNL Page Builder] ) Standaard wordt de indeling Product - Volledige breedte gebruikt voor CMS-pagina&#39;s. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![ Web > de Montages van het StandaardKoekje ](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![ Web > Bevestiging van de Zitting ](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -141,11 +141,11 @@ ht-degree: 0%
 
 ![ Web > Browser Mogelijkheden Detection ](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | Winkelweergave | Als cookies door de browser worden uitgeschakeld, wordt deze automatisch doorgestuurd naar de pagina CMS No Cookies. Opties: `Yes` / `No` |
+| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | Winkelweergave | Als cookies door de browser worden uitgeschakeld, worden deze cookies automatisch doorgestuurd naar de CMS No Cookies Page. Opties: `Yes` / `No` |
 | [!UICONTROL Show Notice if JavaScript is Disabled] | Winkelweergave | Als JavaScript door de browser is uitgeschakeld, wordt een melding weergegeven waarin de gebruiker wordt gevraagd JavaScript-opties in te schakelen: `Yes` / `No` (Schakelt uit) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Winkelweergave | Hiermee wordt een bericht weergegeven als de lokale cache is uitgeschakeld. Opties: `Yes` / `No` |
 

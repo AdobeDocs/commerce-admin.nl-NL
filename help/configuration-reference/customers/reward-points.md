@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] van Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![ de Punten van de Beloning ](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Calculation] | Website | Bepaalt de methode die wordt gebruikt om te bepalen wanneer de bonuspunten verlopen. Opties: <br/>**`Static`**- bepaalt de resterende levensduur van bonuspunten op basis van het aantal dagen dat is ingesteld in de configuratie. Als de vervallimiet in de configuratie verandert, verandert de vervaldatum van bestaande punten niet.<br/>**`Dynamic`** - Berekent het aantal dagen dat resteert wanneer de evenwicht van het beloningspunt stijgt. Als de vervallimiet in de configuratie verandert, worden de verloopberekeningen voor alle bestaande punten dienovereenkomstig bijgewerkt. |
 | [!UICONTROL Refund Reward Points Automatically] | Algemeen | Hiermee wordt bepaald of beschikbare bonuspunten automatisch worden terugbetaald. Opties: `Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Algemeen | Hiermee bepaalt u of de beloningspunten die via aankopen worden verdiend, geheel of gedeeltelijk worden ingetrokken bij de terugbetaling van bestellingen, wanneer deze functie is ingeschakeld. Alleen bonuspunten uit de bestelling die ze heeft verdiend, worden beïnvloed wanneer die bestelling wordt terugbetaald. Opties: `Yes` / `No` . |
-| [!UICONTROL Landing Page] | Winkelweergave | Hier geeft u de CMS-pagina op waarin uw bonuspuntprogramma wordt uitgelegd. Er verschijnt een koppeling naar de pagina met standaardbeloningen op de locaties in de winkel waar punten kunnen worden verdiend. |
+| [!UICONTROL Landing Page] | Winkelweergave | Hier geeft u de CMS-pagina op die uw bonuspuntprogramma uitlegt. Er verschijnt een koppeling naar de pagina met standaardbeloningen op de locaties in de winkel waar punten kunnen worden verdiend. |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![ Acties voor het Ophalen van de Punten van de Beloning door Klanten ](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![ de Montages van het Bericht E-mail ](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

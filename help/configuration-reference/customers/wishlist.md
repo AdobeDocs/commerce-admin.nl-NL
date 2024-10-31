@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Customers] &gt; [!UICONTROL Wish List] van Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ Algemene Opties ](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![ Opties van het Aandeel ](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![ Mijn Verbinding van de Lijst van de Wenslijst ](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

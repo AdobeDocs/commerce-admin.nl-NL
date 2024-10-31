@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL Content Management] van Commerce Admin.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## [!UICONTROL WYSIWYG Options]
 
-![ WYSIWYG Opties ](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
+![ de Opties van WYSIWYG ](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://docs.magento.com/user-guide/cms/editor.html) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable WYSIWYG Editor] | Winkelweergave | Bepaalt als de redacteur voor de opslag wordt toegelaten. Opties: Ingeschakeld door Standaard/Uitgeschakeld door Standaard/Volledig uitgeschakeld |
-| [!UICONTROL WYSIWYG Editor] | Website | Bepaalt de versie van de redacteur TinyMCE die voor de redacteur WYSIWYG wordt gebruikt. Opties: <br/>**`TinyMCE 5`**- (Standaard) gebruikt TinyMCE versie 5 als de standaard WYSIWYG-editor.<br><br>_** Nota:**_Een update aan TinyMCE 5.10 bibliotheek in Adobe Commerce en Magento Open Source 2.4.5 verhelpt een kwetsbaarheid die willekeurige uitvoering van JavaScript wanneer het bijwerken van een beeld of verbinding gebruikend sommige types van URLs toeliet. TinyMCE 3 is afgekeurd in de release 2.4.0 en verwijderd uit de release 2.4.3. TinyMCE 4 is verwijderd uit de release 2.4.4. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Algemeen | Bepaalt als [ statische URLs ](../../content-design/catalog-urls-dynamic-media.md) voor media inhoud wordt gebruikt die van de redacteur WYSIWYG van verwijzingen wordt voorzien. De instelling is van toepassing op alle plaatsen waar de WYSIWYG-editor beschikbaar is, inclusief producten, categorieën, pagina&#39;s en blokken. Opties: <br/>**`Yes`**- gebruikt statische URL&#39;s voor media-inhoud die met de WYSIWYG-editor is ingevoegd. Statische URLs is absolute en onderbreking als [ basis URL ](../../stores-purchase/store-urls.md) van de opslag verandert.<br/>**`No`** (Standaard) - Gebruikt dynamische URL&#39;s voor media-inhoud die wordt ingevoegd met de WYSIWYG-editor, op basis van de instructie `{{media url="..."}}` . Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert. |
+| [!UICONTROL WYSIWYG Editor] | Website | Bepaalt de versie van de redacteur TinyMCE die voor de redacteur van WYSIWYG wordt gebruikt. Opties: <br/>**`TinyMCE 5`**- (Standaard) gebruikt TinyMCE versie 5 als de standaard WYSIWYG-editor.<br><br>_** Nota:**_Een update aan TinyMCE 5.10 bibliotheek in Adobe Commerce en Magento Open Source 2.4.5 verhelpt een kwetsbaarheid die willekeurige uitvoering van JavaScript wanneer het bijwerken van een beeld of verbinding gebruikend sommige types van URLs toeliet. TinyMCE 3 is afgekeurd in de release 2.4.0 en verwijderd uit de release 2.4.3. TinyMCE 4 is verwijderd uit de release 2.4.4. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Algemeen | Bepaalt als [ statische URLs ](../../content-design/catalog-urls-dynamic-media.md) voor media inhoud wordt gebruikt die van de redacteur van WYSIWYG van verwijzingen wordt voorzien. De instelling is van toepassing op alle plaatsen waar de WYSIWYG-editor beschikbaar is, inclusief producten, categorieën, pagina&#39;s en blokken. Opties: <br/>**`Yes`**- gebruikt statische URL&#39;s voor media-inhoud die wordt ingevoegd met de WYSIWYG-editor. Statische URLs is absolute en onderbreking als [ basis URL ](../../stores-purchase/store-urls.md) van de opslag verandert.<br/>**`No`** (Standaard) - Gebruikt dynamische URL&#39;s voor media-inhoud die wordt ingevoegd met de WYSIWYG-editor, op basis van de instructie `{{media url="..."}}` . Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert. |
 
 {style="table-layout:auto"}
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ CMS de Hiërarchie van de Pagina ](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
+![ de Hiërarchie van de Pagina van CMS ](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://docs.magento.com/user-guide/cms/page-hierarchy.html) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![ Geavanceerde Hulpmiddelen van de Inhoud ](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://docs.magento.com/user-guide/cms/page-builder-workspace.html) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

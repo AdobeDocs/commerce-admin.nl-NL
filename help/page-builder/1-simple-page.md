@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] Doorlopen, deel 1: eenvoudige pagina'
 description: Gebruik de steekproefdossiers en volg de stappen om een eenvoudige pagina in de  [!DNL Page Builder]  interface tot stand te brengen.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Volg deze driedelige oefening om met de [!DNL Page Builder] werkruimte vertrouwd
 
 >[!NOTE]
 >
->Deze doorlopende oefeningen worden bijgewerkt om recente wijzigingen in de [!DNL Page Builder] -werkruimte in de release 2.4.1 te weerspiegelen. Als u een vroegere versie van Adobe Commerce gebruikt, gebruik [!DNL Page Builder] walkthrough oefeningen inbegrepen in de [[!DNL Commerce]  2.3 Gids van de Gebruiker ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Deze doorlopende oefeningen worden bijgewerkt om recente wijzigingen in de [!DNL Page Builder] -werkruimte in de release 2.4.1 te weerspiegelen.
 
 ## Voordat u begint
 
@@ -26,7 +26,7 @@ Alvorens deze oefening te beginnen, adviseert men dat u het [ Levenslang van de 
 
 Controleer de vereiste configuratie-instellingen voor inhoudsbeheer:
 
-- De Redacteur WYSIWYG wordt toegelaten in de [ configuratie van de Opties WYSIWYG ](../content-design/editor.md#configure-the-editor).
+- De Redacteur van WYSIWYG wordt toegelaten in de [ 1} configuratie van Opties van WYSIWYG.](../content-design/editor.md#configure-the-editor)
 
 - [!DNL Page Builder] wordt toegelaten in de [ Geavanceerde 2} configuratie van Hulpmiddelen van de Inhoud {.](setup.md)
 

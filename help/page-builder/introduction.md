@@ -2,9 +2,9 @@
 title: Inleiding tot  [!DNL Page Builder]
 description: Leer over de  [!DNL Page Builder]  hulpmiddelen voor gemakkelijke inhoudsverwezenlijking in Adobe Commerce en Magento Open Source.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 Met [!DNL Page Builder] kunt u eenvoudig pagina&#39;s met rijke inhoud maken met aangepaste lay-outs die uw visuele verhalen verbeteren en de betrokkenheid en loyaliteit van klanten stimuleren. Hier volgen slechts enkele van de vele [!DNL Page Builder] -functies die zijn ontworpen om de kwaliteit te verbeteren en de tijd en kosten voor het maken van aangepaste pagina&#39;s te verminderen:
 
 - Geavanceerde gereedschappen voor inhoud
-- Lay-outs van volledige pagina&#39;s voor CMS pagina&#39;s, producten, en categorieën
+- Lay-outs van volledige pagina&#39;s voor CMS, producten, en categorieën
 - Real-time bewerkingen vanuit de werkruimte
 - Pagina-ontwerp slepen en neerzetten
 - Rijke toewijzing van inhoudstypen
@@ -32,7 +32,7 @@ Of u nu nieuw bent in [!DNL Commerce] of een ervaren gebruiker, voltooi de volge
 
 >[!NOTE]
 >
->Deze doorlopende oefeningen worden bijgewerkt om significante veranderingen in de [!DNL Page Builder] werkruimte in de 2.4.x versielijn te weerspiegelen. Als u een vroegere versie van Adobe Commerce gebruikt, gebruik [!DNL Page Builder] walkthrough oefeningen inbegrepen in de [[!DNL Commerce]  2.3 Gids van de Gebruiker ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Deze doorlopende oefeningen worden bijgewerkt om significante veranderingen in de [!DNL Page Builder] werkruimte in de 2.4.x versielijn te weerspiegelen.
 
 ## Page Builder-demo
 

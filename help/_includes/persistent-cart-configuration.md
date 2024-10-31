@@ -1,7 +1,7 @@
 ---
 title: Referentie voor configuratie van het programma voor permanente winkelen
 description: Herbruikbare inhoud voor de configuratieverwijzing van de Persistent Shopping Cart.
-source-git-commit: d23cb0d63409e533cf950d8d14514d9f9157fd05
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![ Algemene Opties ](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/sales/cart-persistent-configuration.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 | Veld | [ Reikwijdte ](/help/getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |------------------------------------------------------------------------|--- |

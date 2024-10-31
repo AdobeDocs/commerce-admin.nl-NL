@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] van Commerce Admin.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Opties van Categorieën ](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ![ de Opties van Producten ](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 ## [!UICONTROL CMS Pages Options]
 
-![ Opties van de Pagina&#39;s CMS ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![ de Opties van de Pagina&#39;s van CMS ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Winkelweergave | Hiermee bepaalt u hoe vaak CMS-sitemap-pagina&#39;s worden bijgewerkt. Opties: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit van CMS-pagina-sitemap-updates ten opzichte van andere inhoud bepaalt. Nul (`0.0`) heeft de laagste prioriteit. |
+| [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit bepaalt van CMS-pagina-sitemap-updates ten opzichte van andere inhoud. Nul (`0.0`) heeft de laagste prioriteit. |
 
 {style="table-layout:auto"}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ![ Montages van de Generatie ](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ![ Limieten van het Dossier Sitemap ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ![ de Verzendmontages van de Motor van het Onderzoek ](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

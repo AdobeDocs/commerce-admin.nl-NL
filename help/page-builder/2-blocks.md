@@ -3,9 +3,9 @@ title: "[!DNL Page Builder] Doorloop deel 2: blokken"
 description: Leer het verschil tussen eenvoudige blokken en dynamische blokken wanneer het gebruiken van  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Deze oefening veronderstelt dat u [ Deel 1 hebt voltooid: Eenvoudige Pagina ](1-
 
 >[!NOTE]
 >
->Deze doorlopende oefeningen worden bijgewerkt om recente wijzigingen in de [!DNL Page Builder] -werkruimte in de release 2.4.1 te weerspiegelen. Als u een vroegere versie van Adobe Commerce gebruikt, gebruik [!DNL Page Builder] oefeningen inbegrepen in de [[!DNL Commerce]  2.3 Gids van de Gebruiker ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Deze doorlopende oefeningen worden bijgewerkt om recente wijzigingen in de [!DNL Page Builder] -werkruimte in de release 2.4.1 te weerspiegelen.
 
 ## Deel 1: Een eenvoudig blok maken
 
-In deze doorlichtingsoefening, creeert u een eenvoudig blok met inhoud van [!DNL Google Maps]. De eenvoudige blokken worden soms genoemd _blokken CMS_ of _statische blokken_, omdat de inhoud niet verandert. Een eenvoudig blok is ideaal voor inhoud die u wellicht opnieuw wilt gebruiken.
+In deze doorlichtingsoefening, creeert u een eenvoudig blok met inhoud van [!DNL Google Maps]. De eenvoudige blokken worden soms genoemd _blokken van CMS_ of _statische blokken_, omdat de inhoud niet verandert. Een eenvoudig blok is ideaal voor inhoud die u wellicht opnieuw wilt gebruiken.
 
 ### Stap 1: Een blok maken
 
