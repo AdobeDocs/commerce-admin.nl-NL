@@ -3,9 +3,9 @@ title: Winkellokalisatie
 description: Leer hoe u een winkel- of winkelweergave lokaliseert.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Het merendeel van de tekst die op pagina&#39;s in de winkel hard lijkt te zijn gecodeerd, kan direct worden gewijzigd in een andere taal door de landinstelling van de weergave te wijzigen. Als u de landinstelling wijzigt, wordt de tekst woord voor woord niet vertaald, maar wordt gewoon verwezen naar een andere vertaaltabel die de interfacetekst bevat die in de hele winkel wordt gebruikt. De tekst die kan worden veranderd omvat navigatietitels, etiketten, knopen, en verbindingen zoals _Mijn Kaart_ en _Mijn Rekening_. U kunt het [ Inline Vertaling ](../configuration-reference/advanced/developer.md) hulpmiddel ook gebruiken om tekst in de interface aan te raken.
 
-De pakken van de taal kunnen onder [ Vertalingen &amp; Localization ][1] worden gevonden {:target= &quot;_blank&quot;} op Commerce Marketplace. Er worden voortdurend nieuwe extensies toegevoegd aan Marketplace. Ga daarom vaak terug.
+De pakken van de taal kunnen onder [ Vertalingen &amp; Localization ][1]{:target="_blank"} op Commerce Marketplace worden gevonden. Er worden voortdurend nieuwe extensies toegevoegd aan Marketplace. Ga daarom vaak terug.
 
 ## Stap 1: Een taalpakket installeren
 
@@ -46,11 +46,9 @@ Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voo
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op de specifieke weergave waarop de configuratie moet worden toegepast.
+1. Selecteer in het vervolgkeuzemenu **[!UICONTROL Scope]** de archiefweergave die u wilt configureren, en klik op **[!UICONTROL OK]** wanneer u daarom wordt gevraagd.
 
-1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd het schakelen tussen bereik en bereik te bevestigen.
-
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Locale Options]** sectie uit.
+1. Voor de *[!UICONTROL General]* configuratiepagina, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Locale Options]** sectie.
 
 1. Schakel het selectievakje **[!UICONTROL Use Website]** uit en stel **[!UICONTROL Locale]** in op de taal die u aan de weergave wilt toewijzen.
 
