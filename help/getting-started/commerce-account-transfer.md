@@ -3,9 +3,9 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
+source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '958'
 ht-degree: 1%
 
 ---
@@ -31,10 +31,6 @@ Hoe u deze overdracht voltooit, hangt af van welke van de volgende scenario&#39;
 >[!NOTE]
 >
 >Aangezien Adobe Commerce met andere oplossingen van de Adobe blijft integreren, vereist een rekening van Commerce (MAGEID) nu een vereniging met een Adobe login. Deze Adobe ID gebruikt hetzelfde e-mailadres als dat van uw Commerce-account.
-
->[!NOTE]
->
->Als of de huidige of nieuwe eigenaar een Adobe login rekening heeft die met andere producten/de diensten van de Adobe wordt geassocieerd, kunt u a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) voor hulp openen met het overbrengen van een rekening van Commerce naar een andere Adobe ID.
 
 ## Nieuwe Adobe ID en e-mailwijziging
 
