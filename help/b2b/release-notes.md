@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Compatibel met Adobe Commerce-versies 2.4.8-beta1, 2.4.7 tot 2.4.7-p2, 2.4.6 tot
 
 De B2B v1.5.0 versie omvat nieuwe eigenschappen, kwaliteitsverbeteringen, en insectenmoeilijke situaties.
 
+>[!NOTE]
+>
+> Leer over achteruit-onverenigbaar veranderingen (BICs) die in B2B 1.5.0 versie door de hoogtepunten en verwijzingsinformatie in het [ Achteruit Incompatibele onderwerp van Veranderingen ](backward-incompatible-changes.md) worden geïntroduceerd.
+
 ### Bedrijfsbeheer
 
 ![ Nieuwe ](../assets/new.svg) **Beheer van het Bedrijf**<!--B2B-2901--> - de Handelaars kunnen de bedrijven van Adobe Commerce nu bekijken en beheren als hiërarchische organisaties door bedrijven aan aangewezen ouderbedrijven toe te wijzen. Nadat een bedrijf aan een ouder wordt toegewezen, kan de beheerder van het moederbedrijf de bedrijfrekening beheren. Alleen geautoriseerde beheergebruikers kunnen bedrijfstoewijzingen toevoegen en beheren. Voor details, zie [ bedrijfshiërarchie beheren ](manage-company-hierarchy.md).
@@ -52,26 +56,26 @@ De B2B v1.5.0 versie omvat nieuwe eigenschappen, kwaliteitsverbeteringen, en ins
 >
 >Een bedrijfgebruiker kan aan veelvoudige bedrijven worden toegewezen, maar zij kunnen de bedrijfbeheerder voor slechts één bedrijf zijn.
 
-![ Nieuw ](../assets/new.svg) <!--B2B-2747--> **het werkingsgebiedselecteur van het Bedrijf** - verstrekt capaciteit voor bedrijfgebruikers die aan veelvoudige bedrijven worden toegewezen om bedrijven op de storefront te veranderen. Wanneer het werkingsgebied wordt geschakeld, werken de gegevens bij om de informatie te tonen die op de nieuwe bedrijfcontext wordt gebaseerd. Als het nieuwe bedrijf bijvoorbeeld een andere gedeelde catalogus gebruikt, ziet de gebruiker van het bedrijf producten, prijzen en andere informatie op basis van de nieuwe gedeelde catalogus. Content related to orders, quotes, quote templates also updates based on the context of the selected company.
+![ Nieuw ](../assets/new.svg) <!--B2B-2747--> **het werkingsgebiedselecteur van het Bedrijf** - verstrekt capaciteit voor bedrijfgebruikers die aan veelvoudige bedrijven worden toegewezen om bedrijven op de storefront te veranderen. Wanneer het werkingsgebied wordt geschakeld, werken de gegevens bij om de informatie te tonen die op de nieuwe bedrijfcontext wordt gebaseerd. Als het nieuwe bedrijf bijvoorbeeld een andere gedeelde catalogus gebruikt, ziet de gebruiker van het bedrijf producten, prijzen en andere informatie op basis van de nieuwe gedeelde catalogus. De inhoud met betrekking tot orden, citaten, citaatmalplaatjes werkt ook bij gebaseerd op de context van het geselecteerde bedrijf.
 
 >[!NOTE]
 >
 >Als de gebruiker van het bedrijf van bedrijven met punten in het winkelwagentje overschakelt, werk het karretje bij om productassortiment, de tarifering en de promotionele kortingen op basis van de nieuwe bedrijfcontext te weerspiegelen.
 
-![](../assets/fix.svg)<!--ACP2E-1933--> `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`
+![ Vaste kwestie ](../assets/fix.svg)<!--ACP2E-1933--> de beheerders van het Bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. Eerder heeft Commerce een fout geregistreerd toen een Admin-gebruiker probeerde een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123` .
 
-### Quotes and Quote Templates
+### Aanhalingstekens en Citaatsjablonen
 
-Verbeteringen in de mogelijkheden om offertes te citeren helpen kopers en verkopers om offertes effectiever te beheren en om offertes te schrijven.
+De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citaten beheren en citeren onderhandelingen effectiever.
 
-![ Nieuwe ](../assets/new.svg) **malplaatjes van het Citaat** -<!--B2B-3367--> de Kopers en de verkopers kunnen het citaatproces nu stroomlijnen door herbruikbare en klantgerichte citaatmalplaatjes te creëren. Met behulp van offertesjablonen kan het onderhandelingsproces voor offertes eenmaal worden voltooid en kunnen kopers vooraf goedgekeurde gekoppelde offertes genereren voor terugkerende bestellingen in plaats van voor elke bestelling het onderhandelingsproces voor offertes te doorlopen. Aanhalingssjablonen breiden de bestaande functionaliteit voor aanhalingstekens uit door de volgende geavanceerde functies toe te voegen:
+![ Nieuwe ](../assets/new.svg) **malplaatjes van het Citaat** - <!--B2B-3367--> Kopers en verkopers kunnen het citaatproces nu stroomlijnen door herbruikbare en klantgerichte citaatmalplaatjes te creëren. Met behulp van aanhalingstekensjablonen kan het onderhandelingsproces voor aanhalingstekens eenmaal worden voltooid en kunnen kopers vooraf goedgekeurde gekoppelde aanhalingstekens genereren voor terugkerende orders in plaats van voor elke bestelling het onderhandelingsproces voor aanhalingstekens te doorlopen. Aanhalingssjablonen breiden de bestaande functionaliteit voor aanhalingstekens uit door de volgende geavanceerde functies toe te voegen:
 
 - **de drempels van de Orde** staan verkopers toe om minimum en maximumorderverplichtingen te bepalen, die de koper verzekeren aan overeengekomen-op koopgevolume.
 - **plaatsende minimum en maximumhoeveelheden van de puntorde** voorziet de koper van de flexibiliteit om ordehoeveelheden op het verbonden citaat aan te passen zonder een nieuw malplaatje of verdere onderhandeling te vereisen.
 - **spoor het aantal verbonden citaten die en met succes voltooide orden** worden geproduceerd om inzichten in de naleving van onderhandelde overeenkomsten te bereiken.
-- ****
+- **Gekoppelde citaten** zijn vooraf goedgekeurde citaten die de koper van een actief citaatmalplaatje produceert om terugkomende die orden voor te leggen op de termijnen in het citaatmalplaatje worden besproken.
 
-![](../assets/new.svg)****
+![ Nieuwe ](../assets/new.svg) **Verbeteringen aan bestaande citaatmogelijkheden**
 
 - **bijgewerkte de regels van de Lijst van het Toegangsbeheer van Commerce (ACL)** staan B2B managers en supervisors toe om citaten en citaatmalplaatjes van ondergeschikte gebruikers te beheren. De afzonderlijke regels steunen korrelige configuratie voor mening, geef, en schrap toegang uit.
 
@@ -145,25 +149,25 @@ Verbeteringen in de mogelijkheden om offertes te citeren helpen kopers en verkop
 
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-De B2B versie 1.4.2 bevat kwaliteitsverbeteringen en gecorrigeerde softwarefouten.
+De B2B v1.4.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situaties.
 
-![](../assets/fix.svg) <!--B2B-2897-->Probleem opgelost Als een verkoper een offerte van een koper maakt met een SKU van het product die niet beschikbaar is in de gedeelde catalogus die aan het koperbedrijf is gekoppeld, wordt de foutmelding `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`weergegeven in het systeem .  Verkoper kan de offerte pas opslaan als hij het product heeft verwijderd dat niet beschikbaar is. Voorheen werd de offerte opgeslagen met de niet-beschikbare SKU opgenomen en kon de offerte niet op de etalage worden geladen.
+![ Vaste kwestie ](../assets/fix.svg) <!--B2B-2897--> als een Verkoper een koperscitaat creeert dat een product SKU niet beschikbaar in de gedeelde catalogus verbonden aan het kopersbedrijf omvat, toont het systeem het foutenbericht `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  De verkoper kan de prijsopgave pas opslaan als hij het product verwijdert dat niet beschikbaar is. Eerder, werd het citaat bewaard met niet beschikbare inbegrepen SKU, en het citaat kon niet op de storefront laden.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with Adobe Commerce B2B release. [](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
-**
+*7 Augustus, 2023*
 
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}[ Adobe Commerce 2.4.6-p2 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1.
 
 De versie B2B v1.4.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1825--> de orden van de Aankoop kunnen niet meer door een gebruiker worden geplaatst verbonden aan het bedrijf nadat het bedrijf is geblokkeerd. Previously, a user associated with the company could place purchase orders when the company was blocked.
+![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1825--> de orden van de Aankoop kunnen niet meer door een gebruiker worden geplaatst verbonden aan het bedrijf nadat het bedrijf is geblokkeerd. Eerder had een gebruiker die banden had met het bedrijf kooporders kunnen plaatsen wanneer het bedrijf werd geblokkeerd.
 
-![](../assets/fix.svg)<!--ACP2E-1943--> Previously, products that were available for shipment were incorrectly identified as backordered.
+![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1943--> product backordered status wordt nu correct getoond op de storefront. Eerder werden producten die voor verzending beschikbaar waren, onjuist geïdentificeerd als achtergeordend.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1862--> als de vorm van de bedrijfregistratie een attribuut van het type van klantendossier omvat, is het dossier dat tijdens het registratieproces wordt geupload nu inbegrepen in de rekeningsinformatie voor de Beheerder van het Bedrijf nadat het bedrijf wordt gecreeerd. Eerder ontbrak de bijlage.
 
@@ -229,7 +233,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *9 augustus, 2024*
 
-[!BADGE ]{type=Informative tooltip="Supported"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p7.
 
@@ -241,21 +245,21 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Nieuwe ](../assets/new.svg) vrijgekomen B2B versie 1.3.5-p2 om verenigbaarheid met Adobe Commerce 2.4.6-p2 te steunen.
 
-![Nieuwe](../assets/new.svg) versie B2B 1.3.5-p1 ter ondersteuning van compatibiliteit met Adobe Commerce 2.4.6-p1.
+![ Nieuwe ](../assets/new.svg) vrijgekomen B2B versie 1.3.5-p1 om verenigbaarheid met Adobe Commerce 2.4.6-p1 te steunen.
 
 >[!NOTE]
 >
->Nadat u Commerce hebt bijgewerkt van versie 2.4.6 naar de [nieuwste versie](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), moet u een update uitvoeren naar de ondersteunde patchversie voor B2B 1.3.5. Of u kunt de B2B-extensie bijwerken van versie 1.3.5 naar versie 1.4.0 of hoger voor de nieuwste functies.
+>Nadat u Commerce van 2.4.6 aan de [ recentste versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) bevordert, zorg ervoor om aan de gesteunde B2B 1.3.5 flardversie bij te werken. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
 
-![Nieuwe](../assets/new.svg) toegevoegde ondersteuning voor Adobe Commerce 2.4.6.
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.6.
 
-![](../assets/fix.svg) <!--- ACP2E-689--> Probleem opgelost Adobe Commerce geeft nu de juiste gegevens tijdens de betaling weer wanneer de optie Inkooporders is ingeschakeld en een virtuele offerte is gemaakt met de optie PayPal betaling is geselecteerd. Previously, totals were displayed as zero under these conditions.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce toont nu correcte details tijdens betaling wanneer de optie van de Orden van de Aankoop wordt toegelaten en een virtueel citaat dat met de PayPal betalingsoptie werd gecreeerd is geselecteerd. Eerder werden de totalen onder deze omstandigheden als nul weergegeven.
 
-![](../assets/fix.svg)<!--- ACP2E-609-->****
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-609--> de lijst van klantengroepen voor **toestaat het doorbladeren Categorie** het plaatsen bevat niet meer klantengroepen die met gedeelde catalogi verwant zijn.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1244--> Het de klantenattribuut van het Belasting/van het BTW Aantal werkt nu zoals verwacht met de rekeningen van het bedrijfbeheer op zowel Admin als storefront. Custom Tax/VAT attributes are no longer required to create a company account. Eerder, toen een handelaar een ondernemingsrekening met een douaneTarief/BTW attribuut creeerde, gaf Adobe Commerce een bevestigingsfout op zowel storefront als Admin.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1244--> het de klantenattribuut van het BTW/Aantal werkt nu zoals verwacht met bedrijf admin rekeningen op zowel Admin als opslag. Aangepaste BTW-kenmerken zijn niet meer vereist om een bedrijfsaccount te maken. Eerder, toen een handelaar een ondernemingsrekening met een douaneBelastings/BTW attribuut creeerde, gaf Adobe Commerce een bevestigingsfout op zowel de opslagplaats als Admin.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1236--> het onbruikbaar maken van de gedeelde cataloguseigenschap op een specifiek werkingsgebied werkt nu correct. Voorheen stelde Adobe Commerce een ongeldig bereik in toen een handelaar de configuratie van een gedeelde catalogus opsloeg.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1236--> Het onbruikbaar maken van de gedeelde cataloguseigenschap op een specifiek werkingsgebied werkt nu correct. Eerder stelde Adobe Commerce een ongeldig werkingsgebied in wanneer een handelaar gedeelde catalogusconfiguratie bewaarde.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1203--> Admin gebruikers kunnen klanten de waarden van de douaneattributen voor bedrijfgebruikers nu bewaren. Eerder konden de douanekenmerken van de klant voor bedrijfgebruikers niet worden bewaard.
 
@@ -265,7 +269,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1090--> De prestaties van `SELECT` verrichtingen van bedrijftoestemmingen zijn verbeterd.
 
-![](../assets/fix.svg)<!--- ACP2E-2456-->
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-2456--> de vragen van de Categorie keren nu productprijzen volgens de montages van de opslagconfiguratie terug wanneer er geen categorietoestemmingen uitdrukkelijk geplaatst op de categorie zijn die wordt gevraagd.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-6829--> De **[!UICONTROL Place Order]** knoop werkt nu zoals verwacht wanneer het voltooien van een aankoop met een goedgekeurd citaatverzoek. Problemen met de plug-in voor verhandelbare aanhalingstekens `negotiableQuoteCheckoutSessionPlugin` zijn opgelost.
 
@@ -297,11 +301,11 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-302--> De titel van het gebied van SKU van de Snelle pagina van de Orde wordt veranderd voor duidelijkheid.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-543--> Adobe Commerce toont nu een meer informatief foutenbericht wanneer een verkoopster een ongeldige SKU in het **ingaat SKU of gebied van de Naam van het Product** ingaat.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-543--> Adobe Commerce toont nu een informatievere foutenmelding wanneer een verkoopster een ongeldige SKU in het **gaat SKU of gebied van de Naam van het Product** in.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1753--> het **[!UICONTROL Account Created in]** gebied voor een bedrijfbeheerder blijft nu zijn waarde zoals verwacht nadat u sparen het bedrijf.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1753--> het **[!UICONTROL Account Created in]** gebied voor een bedrijfbeheerder behoudt nu zijn waarde zoals verwacht na u sparen het bedrijf.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-722 --> de `customer` vraag keert niet meer lege resultaten terug wanneer het vorderingslijsten terugwint die door `uid` worden gefiltreerd.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-722 --> de `customer` vraag keert niet meer lege resultaten terug wanneer het vraaglijsten terugwint die door `uid` worden gefiltreerd.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-210 --> voegde een stop vóór de `collectQuoteTotals` vraag toe om ervoor te zorgen dat de opslagkredieten slechts eenmaal worden toegepast.
 
@@ -311,7 +315,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-607 --> De naam van het Bedrijf is nu zichtbaar zoals verwacht in het factureren en het verschepen adressecties van het controlewerkschema.
 
-![](../assets/fix.svg)<!--- ACP2E-375 -->**[!UICONTROL Zero Subtotal Checkout]** Previously, the Store Credit checkbox was not functional during order placement from the Admin. `The requested Payment Method is not available`
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-375 --> het krediet van de opslag is nu niet beschikbaar wanneer de **[!UICONTROL Zero Subtotal Checkout]** betalingsmethode wordt onbruikbaar gemaakt. Eerder was het selectievakje Winkelkrediet niet functioneel tijdens de plaatsing van de bestelling bij de beheerder. De toepassing heeft de bestelling niet bij het winkelkrediet geplaatst en deze fout weergegeven: `The requested Payment Method is not available`.
 
 ## B2B v1.3.3
 
@@ -323,7 +327,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41985--> de tijd die wordt vereist om van Adobe Commerce 2.3.x aan Adobe Commerce 2.4.x in plaatsingen met meer dan 100.000 bedrijfrollen te bevorderen is wezenlijk verminderd.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42153--> Het verzoek van de POST `V1/order/:orderId/invoice` steunt nu de verwezenlijking van gedeeltelijke facturen wanneer de **[!UICONTROL Payment on Account]** betalingsmethode wordt toegelaten. `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity` [](https://github.com/magento/magento2/issues/32428)
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42153--> Het verzoek van de POST `V1/order/:orderId/invoice` steunt nu de verwezenlijking van gedeeltelijke facturen wanneer de **[!UICONTROL Payment on Account]** betalingsmethode wordt toegelaten. Eerder heeft Adobe Commerce deze fout gegenereerd: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity` . [ GitHub-32428 ](https://github.com/magento/magento2/issues/32428)
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro werkt nu zoals verwacht met B2B verhandelbaar citaat wanneer de wagentje van de klant andere producten bevat. Adobe Commerce verwerkt de bestelling nu met succes en stuurt een e-mail naar de klant zoals u had verwacht. Eerder gaf Adobe Commerce een fatale fout en stuurde een bevestigingsbericht naar de klant met daarin de nulwaarden.
 
@@ -335,29 +339,29 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42787--> Adobe Commerce toont niet meer de reorder verbinding op de opslagplaats wanneer een verkoopster zich in een opslag registreert waarvoor reorders zijn onbruikbaar gemaakt.
 
-![](../assets/fix.svg) <!--- MC-43115--> Probleem opgelost Snel zoeken via SKU is nu onderscheid tussen hoofdletters en kleine letters wanneer gedeelde catalogus is ingeschakeld.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-43115--> Snelle het onderzoek van de Orde door SKU is nu case-insensitive wanneer de gedeelde catalogus wordt toegelaten.
 
-![Oplossing van een probleem](../assets/fix.svg) <!--- MC-42203--> U kunt nu een bestand bijwerken voor een klantkenmerk wanneer u een bedrijf maakt. Bij eerdere pogingen om een bedrijf met een typebijlage `File`te maken, heeft Adobe Commerce het bedrijf niet gemaakt en deze fout geregistreerd in het uitzonderingslogbestand: `Something went wrong while saving file`.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42203--> U kunt een dossier voor een klantenattribuut nu bijwerken wanneer het creëren van een bedrijf. Eerder, toen u probeerde om een bedrijf met een gehechtheid van type `File` tot stand te brengen, creeerde Adobe Commerce niet het bedrijf en registreerde deze fout in het uitzonderingslogboek: `Something went wrong while saving file`.
 
-![Oplossing van een probleem](../assets/fix.svg) <!--- MC-42242--> U kunt nu een bedrijf maken met een klantaccount dat een aangepast kenmerk met een (`File`) of (`Image`) type heeft. Als in vorige versies een van deze aanpasbare opties voor het account beschikbaar was, kon de paginalader voor het bedrijf niet worden opgelost, waardoor de bedrijfsgegevens niet meer kunnen worden bewerkt.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42242--> U kunt een bedrijf met een klantenrekening nu tot stand brengen die een douanekenmerk met a (`File`) of (`Image`) type heeft. Eerder, als de rekening één van deze klantgerichte opties had, gaf het Bedrijf uit paginalader uitgeeft niet op, die het uitgeven van bedrijfdetails verhinderden.
 
-![Opgelost probleem](../assets/fix.svg) <!--- MC-42268--> De `products` query retourneert nu een nauwkeurig `total_count` veld wanneer gedeelde catalogus is ingeschakeld.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42268--> De `products` vraag keert nu een nauwkeurig `total_count` gebied terug wanneer de gedeelde catalogus wordt toegelaten.
 
-![](../assets/fix.svg)<!--- MC-42203--> `File``Something went wrong while saving file`
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42203--> U kunt een dossier voor een klantenattribuut nu bijwerken wanneer het creëren van een bedrijf. Eerder, toen u probeerde om een bedrijf met een gehechtheid van type `File` tot stand te brengen, creeerde Adobe Commerce niet het bedrijf en registreerde deze fout in het uitzonderingslogboek: `Something went wrong while saving file`.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-43178--> de _Configuratie van het Bedrijf_ en _creëren bedrijf_ pagina&#39;s nu werken zoals verwacht nadat u online het verschepen methode onbruikbaar maakt. Verification has been added to prevent the attempted processing of disabled Shipping modules. Eerder gaf Adobe Commerce deze fout weer: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected` .
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-43178--> de _Configuratie van het Bedrijf_ en _creëren bedrijf_ pagina&#39;s nu werken zoals verwacht nadat u een online het verschepen methode onbruikbaar maakt. Er is een verificatie toegevoegd om te voorkomen dat wordt geprobeerd uitgeschakelde Verzendmodules te verwerken. Eerder werd deze fout door Adobe Commerce weergegeven: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected` .
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42214--> de _pagina van de Categorie_ toont nu verenigbare productgegevens terwijl de toestemmingen tijdens het gedeeltelijke indexeren worden geproduceerd. Aan dit proces is een nieuwe partiële index voor directorymachtigingen toegevoegd. Eerder waren de gegevens die werden weergegeven terwijl de indexeerder werd uitgevoerd onjuist.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42214--> de _Categorie_ pagina toont nu verenigbare productgegevens terwijl de toestemmingen tijdens het gedeeltelijke indexeren worden geproduceerd. Er is een nieuwe gedeeltelijke indexator voor directorymachtigingen toegevoegd aan dit proces. Eerder waren de gegevens die werden weergegeven terwijl de indexeerfunctie werd uitgevoerd onjuist.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42567--> De `categoryList` vraag keert nu het correcte aantal producten terug wanneer de catalogustoestemmingen worden gebruikt en de producten aan een gedeelde catalogus worden toegewezen.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42528--> de `categoryList` vraag respecteert nu categorietoestemmingen en keert slechts toegelaten categorieën terug. Eerder, keerde het alle toegewezen en niet toegewezen categorieën terug.
 
-![](../assets/fix.svg)<!--- MC-42399-->`rest/V1/company/{id}``is_purchase_order_enabled`
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42399--> Het `rest/V1/company/{id}` verzoek keert nu `is_purchase_order_enabled` attributenwaarden terug zoals verwacht.
 
-![](../assets/fix.svg)<!--- ACP2E-128-->__
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-128--> de klantenattributen van de Douane worden nu getoond zoals verwacht in _Admin van het Bedrijf_ tabel.
 
-![](../assets/fix.svg)<!--- ACP2E-130-->
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-130--> het Mijn blok van de Lijst van de Wonen op de Mijn pagina van de Rekening wordt nu getoond zoals verwacht voor de Beheerders van het Bedrijf en de Gebruikers van het Bedrijf.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-133--> de Snelle fouten van de Orde worden niet meer getoond in het het winkelwagentje. Eerder, toonde Adobe Commerce deze fout in het winkelwagentje toen SKU niet in de catalogus werd gevonden: `The SKU was not found in the catalog`.
 
@@ -369,27 +373,27 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *Augustus 29, 2022*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Supported"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![](../assets/new.svg)
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.3.
 
-![](../assets/fix.svg)<!--- MC-39862--> Eerder, toen een verhandelbaar prijsopgave verstreek, heeft Adobe Commerce geen e-mails verzonden voor updates.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39862--> Adobe Commerce verzendt nu met succes updatemails over verlopen verhandelbare citaten. Eerder, toen een verhandelbaar prijsopgave verstreek, heeft Adobe Commerce geen e-mails verzonden voor updates.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40682--> Adobe Commerce verzendt nu met succes updatemails over spoedig om te verlopen en verlopen onderhandelbare citaten wanneer een `cron` baan mist.
 
 ### Bedrijf
 
-![](../assets/fix.svg)<!--- MC-41542--> `AN`
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41542--> het Create Nieuwe het dropdown gebied van het de paginaland van de Rekening van het Bedrijf maakt maakt niet meer van lege optiewaarden een lijst. Eerder waren de eerste twee opties en de landcode `AN` leeg.
 
-![](../assets/fix.svg)<!--- MC-41260-->**[!UICONTROL Return]** Previously, the administrator was redirected to the Order History page.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41260--> het klikken van de **[!UICONTROL Return]** knoop voor een orde die door een bedrijfgebruiker werd gecreeerd richt nu een administratieve gebruiker aan de Create pagina van de Terugkeer opnieuw zoals verwacht. Eerder werd de beheerder omgeleid naar de pagina Order History.
 
-![](../assets/fix.svg)<!--- MC-40798-->`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply``bin/magento setup:upgrade` Previously, Adobe Commerce did not use batch size for collection when initializing permissions, but instead loaded a collection of all company roles.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce ontbreekt niet meer met een uit-van-geheugenfout wanneer het uitvoeren van de `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` methode tijdens `bin/magento setup:upgrade`. Eerder, gebruikte Adobe Commerce niet partijgrootte voor inzameling toen het initialiseren van toestemmingen, maar in plaats daarvan geladen een inzameling van alle bedrijfrollen.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40551--> De gebruikers van het Bedrijf kunnen klanten de waarden van de douaneattributen nu uitgeven en bijwerken. Eerder waren deze kenmerken niet correct gekoppeld aan het formulier voor het maken en bewerken van een gebruikersformulier. Een bedrijfgebruiker kan verschillende kenmerkwaarden invoeren, maar Adobe Commerce heeft deze waarden niet correct opgeslagen.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40551--> De gebruikers van het Bedrijf kunnen klanten de waarden van de douaneattributen nu uitgeven en bijwerken. Eerder waren deze kenmerken niet correct gekoppeld aan het formulier voor het maken en bewerken van gebruikers. Een bedrijfgebruiker kon verschillende kenmerkwaarden ingaan, maar Adobe Commerce heeft deze waarden niet correct bewaard.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-32653--> De middelboom voor de toestemmingen van de bedrijfrol kan nu worden vertaald zoals verwacht. Eerder was de machtigingenstructuur niet vertaald, ook al waren er geldige vertaalbestanden aanwezig.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40358--> Adobe Commerce bewaart nu de waarden van de douaneklantenattributen voor B2B gebruikers zoals verwacht. Eerder leidde het maken van een bedrijfsaccount met aangepaste klantkenmerken tot een sjabloonfout en het formulier werd niet geladen door Adobe Commerce. Door een argument toe te voegen aan de lay-out van `company_create_account` is dit probleem opgelost.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40358--> Adobe Commerce bewaart nu de waarden van de douaneklantenattributen voor B2B gebruikers zoals verwacht. Eerder leidde het maken van een bedrijfsaccount dat aangepaste klantkenmerken bevatte tot een sjabloonfout en kon Adobe Commerce het formulier niet laden. Door een argument toe te voegen aan de lay-out van `company_create_account` is dit probleem opgelost.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41721--> de gebruikersfilters van het Bedrijf zoals toon Alle Gebruikers, toon Actieve Gebruikers, en toon Inactieve Gebruikers nu werken zoals verwacht. Eerder, veroorzaakte het filtreren acties op de pagina van de bedrijfgebruiker een fout van JavaScript.
 
@@ -399,9 +403,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41523--> Adobe Commerce verzendt nu bedrijfe-mails van het correcte `from` e-mailadres en werkingsgebied. Eerder heeft Adobe Commerce geen rekening gehouden met het bereik van de website bij het verzenden van een bedrijfskrediet of het bijwerken van een e-mail.
 
-### Quick Order
+### Snelle bestelling
 
-![](../assets/fix.svg)<!--- MC-42104-->
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42104--> Creërend een orde gebruikend Snelle Orde van een Csv- dossier nu werkt zoals verwacht met nonexistent SKUs.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40268--> het gebruiken van Snelle Orde aan onderzoek op veelvoudige SKUs werkt nu zoals verwacht. Eerder waren er dubbele vermeldingen in de resultaten opgenomen.
 
@@ -413,9 +417,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41299--> Adobe Commerce toont nu producten die als **niet zichtbaar individueel** op de Snelle pagina van de Orde auto-stelt lijst en onderzoeksresultaten zijn gevormd voor.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42402--> de Kopers kunnen de Snelle vorm van de Orde nu gebruiken om veelvoudige producten door SKUs toe te voegen die karakters in hoofdletters omvatten. Previously, only the first product was added.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42402--> de Kopers kunnen de Snelle vorm van de Orde nu gebruiken om veelvoudige producten door SKUs toe te voegen die karakters in hoofdletters omvatten. Eerder werd alleen het eerste product toegevoegd.
 
-### Negotiable quote
+### Verhandelbaar aanhalingsteken
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41232--> De Klanten worden nu opnieuw gericht aan de onderhandelbare citaatpagina na het kleven van de verbinding aan een onderhandelbaar citaat op het gebied URL en met succes het programma openen. Eerder werd de koper doorgestuurd naar de pagina Mijn account.
 
@@ -427,19 +431,19 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ### Aankooporders
 
-![Het probleem](../assets/fix.svg) <!--- MC-39983--> is opgelost in Adobe Commerce toont nu een informatief foutbericht zoals verwacht wanneer u een inkooporder plaatst met PayPal Express checkout wanneer het **[!UICONTROL Name Prefix]** kenmerk is ingesteld op `required`. Voorheen heeft Adobe Commerce de bestelling niet geplaatst en er wordt geen foutbericht weergegeven.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39983--> Adobe Commerce toont nu een informatief foutenmelding zoals verwacht wanneer u een kooporder gebruikend Uitdrukkelijke Betaling PayPal plaatst wanneer het **[!UICONTROL Name Prefix]** attribuut aan `required` wordt geplaatst. Eerder heeft Adobe Commerce de bestelling niet geplaatst of een foutbericht weergegeven.
 
-![](../assets/fix.svg) <!--- MC-39620--> Probleem opgelost De ui-component voor het factuuradres in de module Inkooporder gebruikt nu op de juiste wijze het offerteadres wanneer Google Tag Manager is ingeschakeld. Eerder deed zich een JavaScript-fout voor op de betalingspagina.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39620--> De component UI voor het factureringsadres in de module van de Orde van de Aankoop gebruikt nu correct citaatadres wanneer de Manager van de Markering van Google wordt toegelaten. Er is eerder een JavaScript-fout opgetreden op de betalingspagina.
 
-### Lijsten van opdracht
+### Aanvraaglijsten
 
-![](../assets/fix.svg)<!--- MC-40426-->`rest/all/V1/requisition_lists` `Could not save Requisition List`
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40426--> De handelaren kunnen het POST `rest/all/V1/requisition_lists` eindpunt nu gebruiken om een verzoeklijst voor een klant tot stand te brengen. Eerder heeft Adobe Commerce deze fout van 400 gegenereerd toen u een aanvraaglijst probeerde te maken: `Could not save Requisition List` .
 
-![](../assets/fix.svg)<!--- MC-41123-->**[!UICONTROL Add to Requisition List]** Als een winkelwagentje twee producten bevatte waarvan één niet op voorraad was, werd de knop _[!UICONTROL Add to Requisition List]_niet weergegeven voor beide producten.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41123--> De **[!UICONTROL Add to Requisition List]** knoop verschijnt nu voor de producten van het winkelwagentje in voorraad wanneer het karretje ook uit-van-voorraad producten bevat. Als een winkelwagentje twee producten bevatte, waarvan er één uit voorraad was, werd de knop _[!UICONTROL Add to Requisition List]_eerder voor geen van beide producten weergegeven.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40877--> U kunt REST API nu gebruiken om een product aan een aanvraaglijst toe te voegen.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40877--> U kunt REST API nu gebruiken om een product aan een verzoeklijst toe te voegen.
 
-![ Opgeloste kwestie ](../assets/fix.svg) <!--- MC-40155--> de waarden van de lijst van de Vereiste **[!UICONTROL Latest Activity Date]** houden nu aan het formaat van de scène.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40155--> de lijstwaarden van de Vereiste **[!UICONTROL Latest Activity Date]** houden nu aan scèneformaat vast.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39580--> Adobe Commerce werpt niet meer een fatale fout wanneer u een bundelproduct van een verzoeklijst uitgeeft.
 
@@ -449,11 +453,11 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ### Gedeelde catalogus
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40497--> een beheerder met een rol die tot een specifieke website wordt beperkt kan een gedeelde catalogus nu creëren, bekijken en uitgeven. Previously, Adobe Commerce threw a fatal error when an administrator with a limited role tried to create a shared catalog.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40497--> een beheerder met een rol die tot een specifieke website wordt beperkt kan een gedeelde catalogus nu creëren, bekijken en uitgeven. Eerder gaf Adobe Commerce een fatale fout op toen een beheerder met een beperkte rol probeerde een gedeelde catalogus te creëren.
 
-![](../assets/fix.svg)<!--- MC-41337--> Previously, only one filter could be applied, and Adobe Commerce displayed an inaccurate product count in layered navigation.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41337--> Gelaagde navigatieresultaten omvatten nu een nauwkeurige telling van producten met gefilterde attributen, en de kopers kunnen veelvoudige filters nu toepassen. Eerder kon slechts één filter worden toegepast en gaf Adobe Commerce een onnauwkeurig aantal producten weer in gelaagde navigatie.
 
-![](../assets/fix.svg)<!--- MC-40779--> Eerder gebruikte een insteekmodule voor de pagina met zoekresultaten geen Elasticsearch, maar werd een nieuwe query naar de database verzonden.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce toont nu correct productaantallen in gelaagde navigatiefilters in onderzoeksresultaten. Eerder gebruikte een insteekmodule voor de pagina met zoekresultaten geen Elasticsearch, maar werd een nieuwe query naar de database verzonden.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce schrapt niet meer laagprijzen wanneer een handelaar alle producten van een standaard gedeelde catalogus schrapt.
 
@@ -463,41 +467,41 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ## B2B v1.3.1
 
-**
+*9 Februari, 2021*
 
-[!BADGE ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.2.
 
-![](../assets/new.svg)
+![ Nieuwe ](../assets/new.svg) Online betalingsmethodes worden nu gesteund voor kooporden.
 
-![](../assets/fix.svg)
+![ Vaste kwestie ](../assets/fix.svg) Toevoegend een configureerbaar product aan het winkelwagentje direct van een verzoeklijst wanneer dit product in een vroegere orde werd gebruikt keert niet meer een systeemfout terug.
 
-![](../assets/fix.svg)
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont nu correct het Vereist Mijn lusje van de Goedkeuring voor kooporden wanneer een gespleten gegevensbestandconfiguratie wordt opgesteld.
 
-![](../assets/fix.svg)
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont nu details over bundelproducten en giftekaart wanneer u kooporden bekijkt.
 
-![](../assets/fix.svg)**[!UICONTROL Website Restriction]****[!UICONTROL Restriction Mode]**`Private Sales: Login Only` <!--- MC-38934-->
+![ Vaste kwestie ](../assets/fix.svg) De Klanten worden nu opnieuw gericht zoals verwacht na het registreren in hun rekening terwijl het doorbladeren in een opslag waar **[!UICONTROL Website Restriction]** wordt toegelaten en **[!UICONTROL Restriction Mode]** wordt geplaatst aan `Private Sales: Login Only`. Eerder werden kopers omgeleid naar de homepage van de winkel. <!--- MC-38934-->
 
-![ Vaste kwestie ](../assets/fix.svg) de geschiedenis van de Orde laadt nu zoals verwacht in de pagina van het de rekeningsdashboard van een bedrijfbeheerder in plaatsingen met een B2B bedrijfshiërarchie die vele klanten (groter dan 13000) bevat. Voorheen werd de bestelhistorie langzaam of helemaal niet geladen en gaf Adobe Commerce een 503-fout weer. <!--- MC-38830-->
+![ Vaste kwestie ](../assets/fix.svg) de geschiedenis van de Orde laadt nu zoals verwacht in de pagina van het de rekeningsdashboard van een bedrijfbeheerder in plaatsingen met een B2B bedrijfshiërarchie die vele klanten (groter dan 13000) bevat. Eerder werd de volgorde van de historie traag of helemaal niet geladen en gaf Adobe Commerce een fout van 503 weer. <!--- MC-38830-->
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont niet meer veelvoudige identieke waarschuwingsberichten wanneer u een niet gevormd product met klantgerichte opties aan een Lijst van de Vereiste van een pagina van de Categorie toevoegt. <!--- MC-38342-->
 
-![ de Vaste kwestie ](../assets/fix.svg) Nieuwe en gedupliceerde producten zijn nu zichtbaar zoals verwacht op de categoriepagina wanneer B2B gedeelde catalogi worden toegelaten. <!--- MC-38307-->
+![ Vaste kwestie ](../assets/fix.svg) Nieuwe en gedupliceerde producten zijn nu zichtbaar zoals verwacht op de categoriepagina wanneer B2B gedeelde catalogi worden toegelaten. <!--- MC-38307-->
 
-![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce handhaaft nu het correcte `store_id` dat met een bedrijfbeheerder wordt geassocieerd wanneer de klantengroep voor een bedrijf wordt bijgewerkt. Eerder is `store_id` veranderd in de standaardopslag toen de groep werd bijgewerkt. <!--- MC-38196-->
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce handhaaft nu het correcte `store_id` dat met een bedrijfbeheerder wordt geassocieerd wanneer de klantengroep voor een bedrijf wordt bijgewerkt. Eerder is de waarde van `store_id` gewijzigd in de standaardwinkel toen de groep werd bijgewerkt. <!--- MC-38196-->
 
-![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce bewaart nu een gegroepeerd product aan een verzoeklijst als lijst van eenvoudige producten op de zelfde manier als het een gegroepeerd product aan een winkelwagentje toevoegt. Eerder werd vanwege de manier waarop Adobe Commerce gegroepeerde producten heeft opgeslagen, de koppeling voor een gegroepeerd product uit de aanvraaglijst altijd omgeleid naar eenvoudige producten en niet naar het gegroepeerde product. <!--- MC-38049-->
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce bewaart nu een gegroepeerd product aan een verzoeklijst als lijst van eenvoudige producten op de zelfde manier aangezien het een gegroepeerd product aan een winkelwagentje toevoegt. Als gevolg van de manier waarop Adobe Commerce gegroepeerde producten heeft opgeslagen, werd de koppeling voor een gegroepeerd product in de aanvraaglijst altijd doorgestuurd naar eenvoudige producten en niet naar het gegroepeerde product. <!--- MC-38049-->
 
 ![ Vaste kwestie ](../assets/fix.svg) u kunt orden door het **[!UICONTROL Company Name]** gebied nu filtreren wanneer het uitvoeren van ordeinformatie in formaat CSV. Eerder heeft Adobe Commerce een fout aangemeld in `var/export/{file-id}` . <!--- MC-37785-->
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont nu Create popup van de Lijst van de Vergunning zoals verwacht wanneer u creeert het Create Nieuwe lusje van de Lijst van de Vergunning op de storefront selecteert. <!--- MC-37915-->
 
-![ de Vaste lijst van de kwestie ](../assets/fix.svg) Vereiste omvat nu alle gegroepeerde producten en hoeveelheden die aan de lijst zijn toegevoegd. `1 product(s) require your attention - Options were updated. Please review available configurations`<!--- MC-37621-->
+![ de Vaste lijst van de kwestie ](../assets/fix.svg) Vereiste omvat nu alle gegroepeerde producten en hoeveelheden die aan de lijst zijn toegevoegd. Eerder, toen een handelaar aan een verzoeklijst navigeerde nadat het toevoegen van producten aan het van een productdetailpagina, gaf Adobe Commerce deze fout weer: `1 product(s) require your attention - Options were updated. Please review available configurations`. <!--- MC-37621-->
 
-![](../assets/fix.svg) `The store view is not in the associated website`<!--- MC-37488-->
+![ Vaste kwestie ](../assets/fix.svg) de correcte opslagmening wordt nu geassocieerd met de relevante website wanneer u een bedrijf in een plaatsing op meerdere plaatsen creeert. Eerder kon u geen bedrijf maken en Adobe Commerce gaf deze fout weer: `The store view is not in the associated website` . <!--- MC-37488-->
 
-![](../assets/fix.svg)<!--- MC-37427-->
+![ Vaste kwestie ](../assets/fix.svg) die tot producten door SKU opdracht geeft die Snelle Orde gebruikt niet meer in dubbele producthoeveelheden in het Csv- dossier resulteert. <!--- MC-37427-->
 
 ![ Vaste kwestie ](../assets/fix.svg) de **[!UICONTROL Add to Cart]** knoop wordt niet meer geblokkeerd wanneer de _[!UICONTROL Enter Multiple SKUs]_sectie van de Snelle pagina van de Orde een lege waarde bevat. In plaats daarvan geeft Adobe Commerce nu een bericht weer waarin u wordt gevraagd geldige SKU&#39;s in te voeren. <!--- MC-37387-->
 
@@ -505,9 +509,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) De prestaties van de `sharedCatalogUpdateCategoryPermissions` consument zijn verbeterd. Na het creëren van een gedeelde catalogus, gebruikt de indexator van de catalogustoestemming nu slechts identiteitskaart van de klantengroep van de gedeelde catalogus, niet alle klantengroepen. <!--- MC-36770-->
 
-![](../assets/fix.svg)<!--- MC-36630-->
+](../assets/fix.svg) de gebieden van het de klantenadresattribuut van de klant van 0} Vaste kwestie {die met het niet-standaardadres van een verkoopster worden geassocieerd worden nu bewaard zoals verwacht in het storefront controlewerkschema. <!--- MC-36630-->![
 
-![](../assets/fix.svg)`rest/V1/carts/{<CART_ID>/items` `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave` `No such shared catalog entity`<!--- MC-36535-->
+![ Vaste kwestie ](../assets/fix.svg) Orders voor producten die tot het gebrek van een opslag gedeelde catalogus behoren kunnen nu voor kopers door Admin REST API (`rest/V1/carts/{<CART_ID>/items`) worden geplaatst zoals verwacht. Adobe Commerce controleert nu of het product aan een openbare catalogus is toegewezen voordat de validatie van gedeelde catalogusmachtigingen in `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave` wordt uitgevoerd. Eerder heeft Adobe Commerce het product niet aan de winkelwagentje toegevoegd en deze fout gegenereerd: `No such shared catalog entity` . <!--- MC-36535-->
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce verzendt nu nieuwe e-mails van de bedrijfs gebruikersregistratie van het adres van de opslag van Adobe Commerce. Eerder werd deze e-mail verzonden van het adres van de bedrijfbeheerder. <!--- MC-36480-->
 
@@ -519,7 +523,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ### Bekende problemen
 
-- B2B-kopers kunnen online betalingsmethoden gebruiken om de gebruikelijke inkooporderstroom te omzeilen. Dit scenario kan optreden als de koper zijn volledige afrekentotaal kan verlagen tot 0 , bijvoorbeeld met een aanbiedingscode of cadeaubon, en vervolgens de code of cadeaubon kan verwijderen. Zelfs onder die omstandigheden plaatst Adobe Commerce nog steeds de order voor het juiste bedrag op basis van de prijzen van de artikelen in de toegewezen catalogus. **_Oplossing_**: Schakel cadeaubonnen en couponcodes uit wanneer online betaalmethoden zijn ingeschakeld voor goedkeuring van inkooporders. <!--- B2B-1603-->
+- B2B-kopers kunnen online betalingsmethoden gebruiken om de gebruikelijke inkooporderstroom te omzeilen. Dit scenario kan zich voordoen als de koper zijn volledige afhandelingstotaal tot 0 kan terugbrengen — bijvoorbeeld door een promotiecode of een cadeaukaart — en vervolgens de code of geschenkkaart kan verwijderen. Zelfs onder deze omstandigheden plaatst Adobe Commerce nog steeds de order voor het juiste bedrag op basis van de prijzen van de items in de toegewezen catalogus. **_Oplossing_**: maak geschenkkaarten en couponcodes onbruikbaar wanneer de online betalingsmethodes voor de goedkeuring van de inkooporde worden toegelaten. <!--- B2B-1603-->
 
 - Kopers worden omgeleid naar het winkelwagentje wanneer ze een bestelling proberen te plaatsen via een inkooporder met PayPal Express Checkout wanneer **[!UICONTROL In-Context Mode]** is uitgeschakeld. <!--- B2B-1604-->
 
@@ -537,11 +541,11 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendmethoden, winkelwagentje en registratie van beheeracties.
 
-![](../assets/new.svg)
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.1.
 
-![](../assets/new.svg)
+![ de Nieuwe ](../assets/new.svg) B2B ordesgoedkeuringen zijn verbeterd om bruikbaarheid te verbeteren en voor bulkacties op kooporden toe te staan.
 
-![](../assets/new.svg)<!--- BUNDLE-160 161 162 -->
+![ Nieuwe ](../assets/new.svg) B2B de handelaren kunnen verzendingsmethodes nu controleren die aan elk Bedrijf worden aangeboden.<!--- BUNDLE-160 161 162 -->
 
 ![ Nieuwe ](../assets/new.svg) Merchants kunnen gebruikers nu toestaan om de inhoud van hun winkelwagentje in één enkele actie te ontruimen en kunnen deze capaciteit onafhankelijk op elke website vormen <!--- BUNDLE-108 -->
 
@@ -553,31 +557,31 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Nieuwe ](../assets/new.svg) Merchants kunnen de Klanten nu Online net door Bedrijf filtreren. <!--- BUNDLE-137 -->
 
-![](../assets/new.svg)<!--- BUNDLE-110 -->
+![ Nieuwe ](../assets/new.svg) Admins kan klanten in Admin door Verkoper nu filtreren. <!--- BUNDLE-110 -->
 
-![](../assets/new.svg)<!--- BUNDLE-154 -->
+![ Nieuw ](../assets/new.svg) om verwezenlijking van frauduleuze of spamrekeningen te verminderen, kunnen de handelaren Google reCAPTCHA op de Nieuwe vorm van het Verzoek van het Bedrijf op de winkel nu toelaten. <!--- BUNDLE-154 -->
 
-![](../assets/new.svg) `Company``NegotiableQuote``CompanyCredit``SharedCatalog`<!--- BUNDLE-180 181 182 183 -->
+![ Nieuwe ](../assets/new.svg) acties Admin die in de modules van het Bedrijf worden genomen worden nu het programma geopend het Logboek van Acties Admin. Handelingen worden vanuit alle relevante bedrijfsmodules geregistreerd: `Company` , `NegotiableQuote` , `CompanyCredit` , `SharedCatalog` . <!--- BUNDLE-180 181 182 183 -->
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont niet meer de **[!UICONTROL Delete customer]** knoop op de **Klanten** pagina wanneer de het programma geopende beheerder geen rechten heeft om klanten in plaatsingen te schrappen waar B2B geïnstalleerd is. <!--- MC-35655-->
 
-![](../assets/fix.svg)<!--- MC-35254-->
+![ Vaste kwestie ](../assets/fix.svg) de groep van de Klant wordt niet meer automatisch veranderd voor een klant die aan een Bedrijf wordt toegewezen wanneer u de klant op het net van de Klant uitgeeft. <!--- MC-35254-->
 
-![](../assets/fix.svg)`Allow`**[!UICONTROL Display Product Prices]****[!UICONTROL Add to Cart]** `Deny``Allow`<!--- MC-34792-->
+![ Vaste kwestie ](../assets/fix.svg) wanneer een handelaar tot een gedeelde catalogus leidt, worden de toestemmingen nu automatisch geplaatst aan `Allow` voor de **[!UICONTROL Display Product Prices]** en **[!UICONTROL Add to Cart]** eigenschappen in categorieën wanneer de klantengroep deze toegang in de montages van de catalogustoestemming wordt toegewezen. Eerder, werden deze montages automatisch geplaatst aan `Deny` zelfs toen catalogustoestemmingen aan `Allow` werden geplaatst.<!--- MC-34792-->
 
-![](../assets/fix.svg)<!--- MC-34777-->
+](../assets/fix.svg) Gedeelde de categorietoestemmingen van de 0} Vaste kwestie {worden niet meer beschreven wanneer een product van de product uitgeeft pagina wordt uitgegeven.<!--- MC-34777-->![
 
-![](../assets/fix.svg)**[!UICONTROL Allow To Exceed Credit Limit]** <!--- MC-34584-->
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce verzendt nu een e-mailbericht bevestigend dat een klant toestemming heeft om de aangewezen kredietgrens te overschrijden wanneer een handelaar **[!UICONTROL Allow To Exceed Credit Limit]** het plaatsen toelaat. Eerder gaf het e-mailbericht van Adobe Commerce aan dat de klant geen toestemming had om de limiet te overschrijden. <!--- MC-34584-->
 
 ![ Vaste kwestie ](../assets/fix.svg) de container van de HTML die productprijs op verzoeklijsten omringt wordt nu correct teruggegeven voor de kinderen van gebundelde producten. <!--- MC-36331-->
 
-![ de Vaste kwestie ](../assets/fix.svg) Merchants kunnen nu de taal aanwijzen waarin de bedrijfgebruiker e-mail wordt verzonden wanneer het creëren van een bedrijf in meertalige plaatsingen. Eerder werd het vervolgkeuzemenu waarin de winkeliers de juiste winkelweergave kunnen selecteren en werd de taal niet weergegeven.  <!--- MC-35777-->
+![ Vaste kwestie ](../assets/fix.svg) de Merchants kunnen nu de taal aanwijzen waarin de bedrijfgebruiker e-mail wordt verzonden wanneer het creëren van een bedrijf in meertalige plaatsingen. Eerder, laat het drop-down menu verkopers toe om de aangewezen opslagmening te selecteren en de taal werd niet getoond.  <!--- MC-35777-->
 
-![ de Vaste 1} gebieden van de de attributen van het klantenadres van de uitgave {worden nu getoond zoals verwacht in het storefront controlewerkschema. <!--- MC-35607-->](../assets/fix.svg)
+](../assets/fix.svg) de gebieden van de de klantenadresattributen van 0} Vaste kwestie {worden de gebieden van het klantenadres van de douane nu getoond zoals verwacht in het storefront controlewerkschema. <!--- MC-35607-->![
 
-![ Vaste kwestie ](../assets/fix.svg) het B2B de configuratielusje van Eigenschappen opent nu correct. <!--- MC-35458--> de gasten kunnen QuickOrder nu gebruiken om producten aan hun kar toe te voegen en dan met succes punten te verwijderen. Eerder, toen een verkoopster QuickOrder gebruikte om veelvoudige producten aan hun kar toe te voegen, en dan een product te verwijderen, werd het product niet verwijderd. <!--- MC-35327-->
+![ Vaste kwestie ](../assets/fix.svg) het B2B lusje van de configuratie van Eigenschappen opent nu correct. <!--- MC-35458--> de Gasten kunnen QuickOrder nu gebruiken om producten aan hun kar toe te voegen en dan met succes punten te verwijderen. Eerder, toen een verkoopster QuickOrder gebruikte om veelvoudige producten aan hun kar toe te voegen, en dan een product te verwijderen, werd het product niet verwijderd. <!--- MC-35327-->
 
-![ Vaste kwestie ](../assets/fix.svg) een bedrijf kan nu worden bijgewerkt gebruikend het REST API PUT `/V1/company/:companyId` verzoek zonder `region_id` te specificeren wanneer de staat als **niet wordt gevormd vereist**. Eerder gaf Adobe Commerce een fout als deze niet was opgegeven, ook al was `region_id` niet vereist. <!--- MC-35304-->
+![ Vaste kwestie ](../assets/fix.svg) Een bedrijf kan nu worden bijgewerkt gebruikend het REST API PUT `/V1/company/:companyId` verzoek zonder `region_id` te specificeren wanneer de staat als **wordt gevormd niet vereist**. Hoewel `region_id` voorheen niet vereist was, gaf Adobe Commerce een fout als deze niet was opgegeven. <!--- MC-35304-->
 
 ![ Vaste kwestie ](../assets/fix.svg) wanneer u creeert of een B2B Bedrijf bijwerkt gebruikend REST API (`http://magento.local/rest/V1/company/2`, waar `2` bedrijfsidentiteitskaart) vertegenwoordigt, omvat de reactie nu de montages voor `applicable_payment_method` of `available_payment_methods` zoals verwacht. <!--- MC-35248-->
 
@@ -585,11 +589,11 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste de toestemmingen van de 1} Categorie van de kwestie {veranderen niet meer wanneer een nieuw product aan een openbare gedeelde catalogus wordt toegewezen. ](../assets/fix.svg) Eerder werden categorietoestemmingen gedupliceerd. <!--- MC-34386-->
 
-![](../assets/fix.svg)`rest/default/V1/company/{id}`<!--- MC-34308-->
+![ Vaste kwestie ](../assets/fix.svg) de REST API eindpuntPUT `rest/default/V1/company/{id}`, die wordt gebruikt om bedrijfs-e-mail bij te werken, is niet meer case-sensitive. <!--- MC-34308-->
 
-![](../assets/fix.svg) <!--- MC-34191-->
+![ Vaste kwestie ](../assets/fix.svg) het onbruikbaar maken beloningsmodules beïnvloedt niet meer B2B eigenschappen op klantenrekeningen. Eerder, toen de beloningsmodules onbruikbaar werden gemaakt, werden de volgende B2B-Verwante lusjes niet getoond: Het Profiel van het Bedrijf, de Gebruikers van het Bedrijf, en Rollen en Toestemmingen.<!--- MC-34191-->
 
-![](../assets/fix.svg) Eerder, gebruikte Adobe Commerce de algemene naam van de contactafzender die in het standaardwerkingsgebied voor alle e-mails wordt bepaald. <!--- MC-33917-->
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce gebruikt nu de correcte afzendernaam op e-mailberichten wanneer de veranderingen in bedrijfrekeningen worden aangebracht. Eerder, gebruikte Adobe Commerce de algemene naam van de contactafzender die in het standaardwerkingsgebied voor alle e-mails wordt bepaald. <!--- MC-33917-->
 
 ![ Vaste kwestie ](../assets/fix.svg) U kunt multiShipping voor orden nu met succes uitvoeren die zowel fysieke als virtuele producten bevatten. <!--- MC-33818-->
 
@@ -599,7 +603,7 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce werpt niet meer een fatale fout wanneer een beheerder een klant toewijst die een actief het winkelwagentje aan een klantengroep heeft. <!--- MC-33313-->
 
-![](../assets/fix.svg)`addToCart`<!--- MC-33295-->
+![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce verstrekt nu een `addToCart` gebeurtenis DataLayer voor de Snelle lijsten van de Orde en van de Vereiste pagina&#39;s.  <!--- MC-33295-->
 
 ![ Vaste de e-mails van de kwestie ](../assets/fix.svg) Bericht die naar verkoopvertegenwoordigers worden verzonden die aan een bedrijf worden toegewezen omvat nu het toegewezen collectieve embleem. Eerder bevatte het e-mailbericht het standaard LUMA-logo, niet het geüploade bedrijfslogo. <!--- MC-33232-->
 
@@ -637,9 +641,9 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) Sorterende Indicator wordt nu getoond behoorlijk in het Mijn Net van de Orden van de Aankoop.
 
-![ Vaste kwestie ](../assets/fix.svg) nu, kunt u klikken goedkeuren, annuleert, verwerpt, en de knopen van de Orde van de Aankoop slechts eenmaal. Previously, you could click the button multiple times.
+![ Vaste kwestie ](../assets/fix.svg) nu, kunt u klikken goedkeuren, annuleert, verwerpt, en de knopen van de Orde van de Aankoop slechts eenmaal. Eerder kon u meerdere keren op de knop klikken.
 
-![](../assets/fix.svg)
+![ Vaste kwestie ](../assets/fix.svg) De Bevel van de Aankoop keurt, verwerpt, annuleert, en bevestigt knopen nu correct op mobiele apparaten terug.
 
 ![ Vaste kwestie ](../assets/fix.svg) eerder, goedkeurend een Inkooporder met een korting die is verlopen plaatste de orde bij het volledige bedrag en werkte niet het totaal van de Inkooporder bij. Nu wordt het totaal van de inkooporder bijgewerkt om het juiste totaal weer te geven.
 
@@ -647,29 +651,29 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) met geïnstalleerd B2B, zou een SQL fout verschijnen wanneer het toewijzen van categorieën aan gedeelde catalogi. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) wegens een onjuiste veranderlijke typewaarde, konden beheerders geen configureerbare producten aan een orde toevoegen. The option dropdowns would not populate. This feature now works properly.
+![ Vaste kwestie ](../assets/fix.svg) wegens een onjuiste veranderlijke typewaarde, konden beheerders geen configureerbare producten aan een orde toevoegen. De keuzelijst met opties wordt niet gevuld. Deze functie werkt nu goed.
 
-![](../assets/fix.svg) This issue has been fixed.
+![ Vaste kwestie ](../assets/fix.svg) eerder, wanneer het uitgeven van de Toestemmingen van de Categorie voor niet Gelogde binnen groep, zou een fout voorkomen wanneer het bewaren van de veranderingen. Dit probleem is opgelost.
 
-![](../assets/fix.svg) Previously, an error message would appear when adding an item not in the catalog.
+![ Vaste kwestie ](../assets/fix.svg) een moeilijke situatie wordt toegevoegd om opslagbeheerders toe te staan om producten aan een orde toe te voegen die niet in de gedeelde catalogus zijn. Er wordt eerder een foutbericht weergegeven wanneer u een item toevoegt dat zich niet in de catalogus bevindt.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, na het in werking stellen van het bevel `php bin/magento indexer:set-dimensions-mode catalog_product_price website` en dan het proberen om een gedeelde catalogus tot stand te brengen, zou een fout voorkomen. This issue has been fixed.
+![ Vaste kwestie ](../assets/fix.svg) eerder, na het in werking stellen van het bevel `php bin/magento indexer:set-dimensions-mode catalog_product_price website` en dan het proberen om een gedeelde catalogus tot stand te brengen, zou een fout voorkomen. Dit probleem is opgelost.
 
-![](../assets/fix.svg) This issue has been fixed.
+![ Vaste kwestie ](../assets/fix.svg) toen het toevoegen van een bedrijf en het toewijzen van de bedrijfbeheerder aan een niet-standaard website, werd verkeerde plaatsidentiteitskaart verzonden, veroorzakend een fout. Dit probleem is opgelost.
 
-![](../assets/fix.svg)__ This issue has been fixed.
+![ Vaste kwestie ](../assets/fix.svg) eerder, nadat een klant aan een andere klantengroep werd bewogen, die een product aan een orde toevoegt gebruikend _Snelle Orde_ zou met een fout ontbreken. Dit probleem is opgelost.
 
-![](../assets/fix.svg) This issue has been fixed.
+![ Vaste kwestie ](../assets/fix.svg) eerder, toen het proberen om uit te checken gebruikend WebAPI met een citaat B2B, werd een onjuiste waarde verzonden naar API, veroorzakend een fout om voor te komen. Dit probleem is opgelost.
 
 ![ Vaste kwestie ](../assets/fix.svg) eerder, wanneer het plaatsen van een bedrijf aan &quot;Actief&quot;via API, zou een fout voorkomen. Dit probleem is nu opgelost.
 
-![ Opgeloste kwestie ](../assets/fix.svg) wegens een onnodige `form` markering, ververfrist de ordepagina automatisch wanneer u op Enter na het veranderen van een voorgestelde verschepende last duwde. Dit probleem is opgelost.
+![ Vaste kwestie ](../assets/fix.svg) wegens een onnodige `form` markering, verfrist de ordepagina automatisch wanneer u binnengaan na het veranderen van een voorgestelde het verschepen tarief duwde. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, toen het plaatsen van een grens van de productvertoning op een cataloguspagina en die grens was minder dan het aantal totale producten, kwam een fout voor. Die functie werkt nu zoals verwacht.
+![ Vaste kwestie ](../assets/fix.svg) eerder, toen het plaatsen van een grens van de productvertoning op een cataloguspagina en die grens was minder dan het aantal totale producten, kwam een fout voor. Die functie werkt nu zoals u had verwacht.
 
 ![ Vaste kwestie ](../assets/fix.svg) eerder, toen het veranderen van admin van een bedrijf, het originele adminadres aan nieuwe admin zou worden gekopieerd, die hen twee adressen geven. Nu wordt alleen het juiste adres toegevoegd.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, gebruikend API om een citaatpunt op te slaan wanneer het git aan &quot;Toegestaan wordt geplaatst en Klant&quot;op de hoogte brengt zou ontbreken. Deze API-aanroep werkt nu zoals verwacht.
+![ Vaste kwestie ](../assets/fix.svg) eerder, gebruikend API om een citaatpunt op te slaan wanneer het git aan &quot;Toegestaan wordt geplaatst en Klant&quot;op de hoogte brengt zou ontbreken. Deze API-aanroep werkt nu zoals u had verwacht.
 
 ![ Vaste kwestie ](../assets/fix.svg) De Vaste Belasting van het Product wordt nu getoond op de de detailpagina van Citaten.
 
