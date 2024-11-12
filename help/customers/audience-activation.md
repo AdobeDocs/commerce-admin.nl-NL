@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
+source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 Mei, 2023_
 ![ Nieuw ](../assets/new.svg) - Bijgewerkt het [ dashboard van het Soorten Soorten publiek van Real-Time CDP ](#real-time-cdp-audiences-dashboard) om de capaciteit te omvatten, het actieve publiek binnen uw instantie van Adobe Commerce te sorteren, te zoeken en te filtreren.
 
 +++
+
+### 2.3.1.
+
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+
+_12 November, 2024_
+
+![ bevestig ](../assets/fix.svg) - Vloeiende een kwestie wanneer het filtreren van de beschikbare publiek van Real-Time CDP om te kiezen van.
 
 ### 2.3.0.
 
