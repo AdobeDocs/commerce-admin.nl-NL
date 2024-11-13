@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: Meer informatie over het instellen van PayPal Payflow Pro als een online betalingsoplossing in je winkel.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ Bij deze instelmethode wordt ervan uitgegaan dat u een bestaand PayPal-account h
 1. Voer een van de volgende gegevens in waarmee u zich aanmeldt bij uw PayPal-zakelijke account:
 
    - **[!UICONTROL Partner]** - Uw PayPal-partner-id.
-   - **[!UICONTROL User]** - De id van een andere gebruiker die is ingesteld op uw Paypal-account.
-   - **[!UICONTROL Vendor]** - De gebruikersnaam van uw PayPal-gebruikersaanmelding.
+   - **[!UICONTROL User]** - Als u een of meer extra gebruikers op de account instelt, is deze waarde de id van de gebruiker die gemachtigd is om transacties te verwerken. Als u echter geen extra gebruikers hebt ingesteld, heeft **[!UICONTROL USER]** dezelfde waarde als **[!UICONTROL Vendor]** .
+   - **[!UICONTROL Vendor]** - Uw bedrijfs login identiteitskaart creeerde toen u voor de rekening registreerde.
 
 1. Voer de **[!UICONTROL Password]** in die aan uw Paypal-account is gekoppeld.
 

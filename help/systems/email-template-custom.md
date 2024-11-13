@@ -3,16 +3,16 @@ title: E-mailsjablonen aanpassen
 description: Leer hoe u e-mailsjablonen aanpast voor elke website, winkel of winkelweergave.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # E-mailsjablonen aanpassen
 
-Commerce bevat een standaard e-mailsjabloon voor de hoofdsectie van elk bericht dat door het systeem wordt verzonden. De sjabloon voor de inhoud van de hoofdtekst wordt gecombineerd met de kop- en voettekstsjablonen om het volledige bericht te maken. De inhoud wordt geformatteerd met HTML en CSS, en kan gemakkelijk worden uitgegeven, en worden aangepast door [ variabelen ](variables-predefined.md) en [ widgets ](../content-design/widgets.md) toe te voegen. E-mailsjablonen kunnen worden aangepast voor elke website-, winkel- of winkelweergave. Als het gebruiken van douanesjablonen, zorg ervoor om de [ systeemconfiguratie ](email-templates.md#configure-email-templates) bij te werken om ervoor te zorgen dat het correcte malplaatje wordt gebruikt.
+Commerce bevat een standaard e-mailsjabloon voor de hoofdsectie van elk bericht dat door het systeem wordt verzonden. De sjabloon voor de inhoud van de hoofdtekst wordt gecombineerd met de kop- en voettekstsjablonen om het volledige bericht te maken. De inhoud wordt geformatteerd met HTML en CSS, en kan gemakkelijk worden uitgegeven, en worden aangepast door [ variabelen ](variables-predefined.md) toe te voegen. E-mailsjablonen kunnen worden aangepast voor elke website-, winkel- of winkelweergave. Als het gebruiken van douanesjablonen, zorg ervoor om de [ systeemconfiguratie ](email-templates.md#configure-email-templates) bij te werken om ervoor te zorgen dat het correcte malplaatje wordt gebruikt. Leren hoe u voorwaardelijke verklaringen in het aanpassen van het e-mailmalplaatje kunt gebruiken, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![ Voorbeeld - welkome e-mailvoorproef ](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
