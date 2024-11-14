@@ -3,7 +3,7 @@ title: Layout - kolom
 description: Leer over het inhoudstype van de Kolom, dat wordt gebruikt om een pagina in veelvoudige kolommen in het  [!DNL Page Builder]  stadium te verdelen.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ U kunt de lay-out van de container van [!DNL Columns] veranderen door een kolom 
 
 Bekijk deze video voor een demonstratie van hoe u de container van [!DNL Columns] kunt gebruiken om uw paginalay-outs te verfijnen:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Gereedschap Kolom
 

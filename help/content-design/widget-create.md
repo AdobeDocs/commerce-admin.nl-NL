@@ -2,7 +2,7 @@
 title: Widgets maken en beheren
 description: Leer hoe u widgets maakt en beheert die automatisch inhoud in uw winkel bijwerken.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -98,7 +98,7 @@ De opties voor elk widgettype variëren enigszins, maar het proces is in wezen h
 
 Bekijk deze video voor meer informatie over het maken van widgets:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Een widget bewerken
 

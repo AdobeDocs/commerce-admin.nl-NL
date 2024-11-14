@@ -3,7 +3,7 @@ title: Inhoud stapelen
 description: Met Inhoud stapelen kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates voor uw winkel maken, voorvertonen en plannen, rechtstreeks vanuit de beheerder.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Het [!UICONTROL Content Staging] [ dashboard ](content-staging-dashboard.md) ver
 
 Bekijk de volgende video voor meer informatie over het staging van inhoud:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Bronnen voor probleemoplossing
 

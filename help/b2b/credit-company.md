@@ -4,7 +4,7 @@ description: Meer informatie over bedrijfskredietlijnen, parameters instellen en
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -119,4 +119,4 @@ Als de handelaar een orde annuleert die aan bedrijfskrediet in rekening werd geb
 
 Bekijk deze demo-video voor meer informatie over het beheren van bedrijfskrediet:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)

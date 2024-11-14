@@ -3,9 +3,9 @@ title: Verzending
 description: Meer informatie over ondersteuning voor verschillende leveringsmethoden en verzenddragers die u aan uw klanten kunt aanbieden.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De studies tonen aan dat de opslag die klanten een keus van verscheidene leverin
 
 >[!NOTE]
 >
->Als gevolg van het afsluiten van Temando wordt de ondersteuning voor [!DNL Magento Shipping] verwijderd in 2.4.0. Voor gedetailleerde statusinformatie en aanbevelingen voor nieuwe verschepende implementaties in Commerce, zie de [ productinformatie ](https://business.adobe.com/products/magento/shipping.html) {:target= &quot;_blank&quot;} pagina.
+>Als gevolg van het afsluiten van Temando wordt de ondersteuning voor [!DNL Magento Shipping] verwijderd in 2.4.0. Voor gedetailleerde statusinformatie en aanbevelingen voor nieuwe verschepende implementaties in Commerce, zie de [ productinformatie ](https://business.adobe.com/products/magento/shipping.html) {:target="_blank"} pagina.
 
 ## Basisleveringsmethoden
 
@@ -40,4 +40,4 @@ Als u een commerciële rekening met één of meerdere [ gesteunde dragers ](carr
 
 Je kunt meer weten over verzendmethoden en leveringsmethoden door naar deze video te kijken:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

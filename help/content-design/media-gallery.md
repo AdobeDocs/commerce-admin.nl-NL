@@ -3,7 +3,7 @@ title: The [!DNL Media Gallery]
 description: Met de medialerie kunt u uw mediabestanden op de server ordenen en beheren.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -64,13 +64,13 @@ De nieuwe medialerie openen wanneer u een pagina toevoegt of bewerkt:
 
      ![ beeld van de belemmering aan stadium ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - Als u de [ toegelaten redacteur WYSIWYG ](/help/content-design/editor.md) hebt, klik **[!UICONTROL Show/Hide Editor]** en klik dan **[!UICONTROL Insert Image]**.
+   - Als u de [ toegelaten redacteur van WYSIWYG ](/help/content-design/editor.md) hebt, klik **[!UICONTROL Show/Hide Editor]** en klik dan **[!UICONTROL Insert Image]**.
 
 ## [!DNL Media Gallery] demo
 
 Bekijk deze video voor meer informatie over [!DNL Media Gallery] :
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

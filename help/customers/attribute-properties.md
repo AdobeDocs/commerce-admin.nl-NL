@@ -3,7 +3,7 @@ title: Eigenschappen van klantkenmerken
 description: Leer hoe te om de eigenschappen van klantenattributen te vormen.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -45,7 +45,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
      | Type | Beschrijving |
      |----|-----------|
      | `Text Field` | Een tekstveld met één regel. |
-     | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de redacteur WYSIWYG gebruiken om de tekst met markeringen van HTML te formatteren, of de markeringen direct in de tekst in te gaan. |
+     | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de WYSIWYG-editor gebruiken om de tekst op te maken met HTML-tags of u kunt de tags rechtstreeks in de tekst invoeren. |
      | `Multiple Line` | Hiermee maakt u meerdere tekstregels voor het kenmerk, vergelijkbaar met een adres voor meerdere regels. Het aantal afzonderlijke gegevensinvoerregels kan tussen twee en twintig liggen. Gebruik `Default Value` om de beginwaarde van het veld op te geven. |
      | `Date` | Hiermee geeft u een datumwaarde weer in de datumnotatie en tijdzone van de voorkeur. De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
@@ -171,4 +171,4 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 
 Bekijk deze video voor een demonstratie over het maken van klantkenmerken:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

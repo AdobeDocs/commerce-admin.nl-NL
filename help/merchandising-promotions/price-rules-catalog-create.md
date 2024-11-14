@@ -3,7 +3,7 @@ title: Een regel voor catalogusprijzen maken
 description: Leer hoe u een regel voor catalogusprijzen maakt die een korting toepast op specifieke producten wanneer aan een bepaalde voorwaarde wordt voldaan.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 Bekijk deze video voor meer informatie over het maken van prijsregels voor catalogi:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Veldomschrijvingen
 

@@ -2,7 +2,7 @@
 title: Inleiding tot winkels en aankopen
 description: Leer meer over de functies die worden gebruikt voor het samenstellen en beheren van uw online winkels en over de aankoopervaring voor uw klanten.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Klanten hebben soms hulp nodig om een aankoop te voltooien. Sommige klanten will
 
 Bekijk deze video voor meer informatie over winkelen met hulp van verkopers:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Orderbeheer en -activiteiten
 
