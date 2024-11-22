@@ -1,68 +1,74 @@
 ---
-title: Gebruiksscenario's en workflows voor offertesjablonen
-description: Maak een offertsjabloon op basis van een bestaand citaat om de offerteonderhandeling voor terugkerende bestellingen te stroomlijnen.
+title: Gebruiksscenario's en workflows voor het Citatesjabloon
+description: Creeer een citaatmalplaatje van een bestaand citaat om citaatonderhandeling voor terugkomende orden te stroomlijnen.
 feature: B2B, Quotes
-source-git-commit: 3000d9abab467a86e37c7eca6e7db16b39c763ab
+exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
 
+# Gebruik hoofdletters en workflows voor prijssjablonen
 
-# Gebruik hoofdletters en kleine letters voor offertesjablonen en workflows
-
-Met de mogelijkheid Offertesjabloon kunnen kopers en verkopers het offerteproces stroomlijnen door herbruikbare en aanpasbare offertjablonen te maken.
+Met de mogelijkheid Offertesjabloon kunnen kopers en verkopers het prijsverhogingsproces stroomlijnen door herbruikbare en aanpasbare prijsquotasjablonen te maken.
 
 - **Aanpasbare Citaten** - de Kopers kunnen verbonden citaten van een vooraf goedgekeurd malplaatje produceren, dat voor aanpassing binnen gespecificeerde parameters zoals lijn-punt hoeveelheden en selecties toestaat.
-- **de Drempels van de Orde** - de verkopers kunnen minimum en maximumorderverplichtingen bepalen, die ervoor zorgen dat de kopers aan overeengekomen koopgevolumes naleven.
-- **Vervaldatums** - de Malplaatjes kunnen geldigheidsperioden hebben, die ervoor zorgen dat de termijnen slechts binnen een gespecificeerd tijdkader van toepassing zijn.
-- **Kortingen en het Tarief** - de verkopers kunnen het zelfde lijn-punt, citaat-niveau, en de mogelijkheden van de verschepende prijskorting gebruiken beschikbaar met citaten om kortingen voor terugkerende orden te plaatsen, die het onderhandelingsproces vereenvoudigen.
-- **het Volgen en het Melden** - het systeem volgt het aantal verbonden citaten die van het malplaatje worden geproduceerd en met succes voltooide orden om inzichten in de voltooiing van overeengekomen op orderquota te verstrekken.
+- **de Drempelwaarden van de Orde** - Verkopers kunnen minimum en maximumorderverplichtingen plaatsen, die ervoor zorgen dat de kopers aan overeengekomen-op koopgevolume naleven. Nadat de koper de prijsverhogingsmalplaatje goedkeurt, stijgt de telling van de ordedrempel telkens als een verbonden citaat wordt geproduceerd. Als het gekoppelde citaat wordt gesloten zonder in een orde worden omgezet, wordt de orde afgetrokken van de drempeltelling. Wanneer aan de maximumorderdrempel wordt voldaan, verloopt het citaatmalplaatje.
+- **Vervaldata** - de Malplaatjes kunnen geldigheidsperioden (*[!UICONTROL Valid Until]*) hebben, die ervoor zorgen dat de termijnen slechts binnen een gespecificeerd tijdkader van toepassing zijn. Bij het verlopen wordt de sjabloon gesloten en worden alle gekoppelde aanhalingstekens gesloten.
+- **Kortingen en het Tarief** - de verkopers kunnen het zelfde lijn-punt, citaat-niveau, en het verschepen mogelijkheden van de prijskorting gebruiken beschikbaar met citaten om kortingen voor terugkomende orden te plaatsen, die het onderhandelingsproces vereenvoudigen.
+- **het Volgen en het Melden** - het systeem volgt het aantal verbonden citaten die van het malplaatje worden geproduceerd en met succes voltooide orden om inzichten in de naleving van overeengekomen op orderquota te verstrekken.
 
 ## Hoofdletters gebruiken
 
 Een bedrijfkoper kan een prijsverhogingsmalplaatje gebruiken om een specifieke reeks producten over een periode te bestellen. De koper configureert de volgende opties van het citaatmalplaatje om het het citeren proces efficiënter, consistenter, en gericht aan strategische koopovereenkomsten te maken.
 
-- Besteldrempel om het minimum- en maximumaantal bestellingen te specificeren dat in aanmerking komt voor overeengekomen prijsstelling. This can be used to apply and track order quotas specified in contract agreements.
+- Besteldrempel om het minimum- en maximumaantal bestellingen te specificeren dat in aanmerking komt voor overeengekomen prijsstelling. Dit kan worden gebruikt voor de toepassing en het volgen van in contractovereenkomsten bepaalde quota&#39;s.
 
-- Quantity thresholds (minimum/maximum quantities) The template specifies a quantity threshold to set the minimum and maximum quantity that can be purchased for each order, ensuring that the seller can manage stock levels effectively while providing the buyer with the flexibility to adjust quantities as needed.
+- Hoeveelheden (minimum-/maximumhoeveelheden) In de template wordt een drempel voor de hoeveelheid vastgesteld die minimaal en maximaal kan worden aangekocht voor elke bestelling, zodat de verkoper de voorraadniveaus doeltreffend kan beheren en de koper de flexibiliteit krijgt om de hoeveelheden naar behoefte aan te passen.
 
-## Quote template workflow
+## Workflow voor prijssjabloon
 
-Quote templates can be initiated by the buyer or the seller.
+Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
 
 **Stap 1: De creatie van het malplaatje van het citaat (Nieuw)**
 
 - **de Koper leidt tot het citaatmalplaatje**
 
-  Wanneer de koper een bestaande prijsverhogingsmalplaatje controleert, besluit dat het bedrijf veelvoudige orden in het volgende jaar moet indienen en extra kortingen wil vragen die op herhaalde zaken worden gebaseerd. Ze maken een aanhalingstekensjabloon met de handeling *[!UICONTROL Create quote template]* voor het aanhalingsteken. Vervolgens beginnen ze de onderhandelingen door de nieuwe template ter controle naar de verkoper te sturen.
+  Wanneer de koper een bestaande prijsopgave bekijkt, besluit hij dat het bedrijf in het komende jaar meerdere bestellingen moet indienen en wil hij extra kortingen aanvragen op basis van herhaalde transacties. Ze maken een aanhalingstekensjabloon met de handeling *[!UICONTROL Create quote template]* voor het aanhalingsteken. Vervolgens beginnen ze met onderhandelen door de prijsopgave ter controle naar de verkoper te sturen.
 
-  Kopers kunnen ook rechtstreeks via de pagina *[!UICONTROL My Quote Templates]** op de winkel een aanhalingsteken maken.
+  Kopers kunnen ook een prijsopmaaksjabloon aanvragen door producten die ze regelmatig willen kopen toe te voegen aan het winkelwagentje. Vervolgens vraagt u om een prijsopgave en vermeldt u in de opmerkingen hoe vaak de aankoop moet worden herhaald.
 
-- **Verkoper** - een Vertegenwoordiger kan een citaatmalplaatje van Admin namens een specifieke bedrijfkoper creëren. De verkoper kan de offertesjabloon in de beheerder maken op basis van een bestaande offerte of op basis van het [!UICONTROL Quote Templates] -raster en deze opslaan als een `draft` of de sjabloon naar de koper sturen om de onderhandelingen te starten. In de conceptstatus is de offerte alleen zichtbaar voor de verkoper. Nadat de offerte is verzonden, is de status `Submitted` . De verkoper kan de wijziging pas aanbrengen nadat de koper de wijziging heeft teruggestuurd.
+- **Verkoper** — Een Vertegenwoordiger kan een citaatmalplaatje van Admin namens een specifieke bedrijfkoper tot stand brengen. De verkoper kan de prijsverhogingsmalplaatje in Admin van een bestaand citaat of van het [!UICONTROL Quote Templates] net tot stand brengen en het opslaan als `draft` of het verzenden naar de koper om de onderhandeling te beginnen. In de conceptversie is de prijsopgave alleen zichtbaar voor de verkoper. Nadat het aanhalingsteken is verzonden, is de status `Submitted` . Deze kan pas door de verkoper worden gewijzigd nadat de koper de transactie heeft teruggestuurd.
 
   ![ Verkoper die een koperscitaat van het net van Citaten in Admin in werking stelt ](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}
+
+  Wanneer de verkoper de aanhalingstekensjabloon maakt, wordt de vervaldatum ([!UICONTROL Valid until] datumveld) standaard ingesteld op 180 dagen. Als de koper de template heeft gemaakt, is de vervaldatum leeg.  De koper moet de vervaldatum instellen voordat de template ter controle naar de koper wordt teruggestuurd.
+
+  Wanneer de verkoper de aanhalingstekensjabloon maakt, wordt de vervaldatum (*[!UICONTROL Valid until]* datumveld) standaard ingesteld op 180 dagen. Als de koper de template heeft gemaakt, is de vervaldatum leeg.  De koper moet de vervaldatum instellen voordat de template ter controle naar de koper wordt teruggestuurd.
 
 **Stap 2: De overzicht en de onderhandeling van het citaat (Overzicht)**
 
 Het bekijken van of onderhandelen over een prijsopgavesjabloon kan onder meer bestaan uit het wijzigen van hoeveelheden, het verwijderen van objecten, het toevoegen van commentaar op lijstitems, het toepassen van kortingen op lijstitems of noteringen (verkoper) en het toevoegen van een verzendadres (koper).
 
-- **de meningsverzoek van de verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]* * net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de offerte in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [ citaatonderhandeling ](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en stuurt het citaat terug naar de koper. De koper en de verkoopvertegenwoordiger worden per e-mail op de hoogte gesteld van het feit dat de verkoper heeft gereageerd.
+- **de meningsverzoek van de Verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]** net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de prijsopgave in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [ citaat onderhandeling ](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en verzendt het citaatmalplaatje terug naar de koper. De koper en de verkoper worden per e-mail op de hoogte gesteld dat de verkoper heeft gereageerd.
 
-- **de vertoningen van de koper citaatmalplaatje van verkoper en verzendt reactie** - de koper klikt de verbinding in het e-mailbericht om het citaatmalplaatje te openen, of opent het citaat van de _Mijn pagina van de Malplaatjes van het Citaat_ van het accountdashboard. De koper kan opmerkingen aan de verkoper overlaten op het regel- of offerteniveau, hoeveelheden wijzigen en objecten verwijderen.
+- **de meningen van de koper citeren malplaatje van verkoper en verzendt reactie** - de koper klikt de verbinding in het e-mailbericht om het citaatmalplaatje te openen, of opent het van de _Mijn pagina van de Malplaatjes van het Citaat_ van het rekeningsdashboard. De koper kan opmerkingen aan de verkoper overlaten op het regel- of prijsniveau, hoeveelheden wijzigen en objecten verwijderen.
 
-De koper en de verkoper zetten het onderhandelingsproces voort totdat een overeenkomst is bereikt of totdat de verkoper de offertesjabloon afwijst. Als de koper wijzigingen aanbrengt in de offerte (door producten toe te voegen of te verwijderen of door producthoeveelheden te wijzigen), moet de offerte ter controle worden teruggestuurd naar de verkoper.
+De koper en verkoper gaan verder met de onderhandelingsprocedure totdat een overeenkomst is bereikt of de verkoper de prijsopgave afwijst. Als de koper wijzigingen aanbrengt in de prijsopmaaksjabloon: producten toevoegen of verwijderen of producthoeveelheden wijzigen, moet deze ter controle aan de verkoper worden geretourneerd.
 
-- **de Koper voegt een het verschepen adres** toe - de koper moet een het verschepen adres aan het citaatmalplaatje toevoegen als het niet heeft. After the buyer adds the address, the seller can provide shipping and delivery options. De weergegeven verzendmethoden zijn afhankelijk van de configuratie Storefront.
+- **de Koper voegt een het verschepen adres** toe - de koper moet een het verschepen adres aan het citaatmalplaatje toevoegen als het niet heeft. Nadat de koper het adres heeft toegevoegd, kan de verkoper verzend- en leveringsopties opgeven. De weergegeven verzendmethoden zijn afhankelijk van de configuratie Storefront.
 
-If the buyer adds a shipping address, the negotiation agreement has to be reviewed, and the seller can continue the negotiation process until an agreement is reached, or the seller declines the quote template.
+Als de koper een verzendadres toevoegt, moet de onderhandelingsovereenkomst worden herzien en kan de verkoper het onderhandelingsproces voortzetten totdat een overeenkomst is bereikt of de verkoper de prijsopmaaksjabloon afwijst.
 
-****
+**Stap 3: De koper keurt citaatmalplaatje** goed
 
-The buyer accepts the negotiated terms in the template. After the quote template is accepted, the buyer can use it to generate pre-approved, linked quotes that can be used to submit orders without requiring further negotiation.
+De koper accepteert de onderhandelde voorwaarden in de template. Nadat het citaatmalplaatje wordt goedgekeurd, kan de koper het gebruiken aan [ vooraf goedgekeurde, verbonden citaten ](account-dashboard-my-quote-templates.md#generate-a-linked-quote) produceren die kunnen worden gebruikt om orden voor te leggen zonder verdere onderhandeling te vereisen.
 
 Verzendopties zijn vergrendeld bij afhandeling.
+
+Offertesjablonen blijven actief totdat deze verlopen, geannuleerd of gesloten zijn of totdat de maximumorderdrempel voor de koper is bereikt.
 
 ### Een aanhalingsteken weergeven
 
@@ -72,25 +78,24 @@ Verzendopties zijn vergrendeld bij afhandeling.
 
 ### Sjabloonactiviteit voor aanhalingstekens weergeven
 
-Bekijk de tijdlijn van de onderhandelingen, de communicatie en andere offerteactiviteiten in de [!UICONTROL Comments] en [!UICONTROL History Log] - informatie omvat statuswijzigingen, updates van klant- en verzendgegevens, item- en prijsupdates en andere belangrijke informatie.
+Bekijk de tijdlijn van de onderhandeling, de communicatie, en andere activiteit van het citaatmalplaatje van [!UICONTROL Comments] en [!UICONTROL History Log] - de informatie omvat statusveranderingen, updates aan klant en verschepende informatie, punt en prijsupdates, en andere belangrijke informatie.
 
-1. Open een offertsjabloon.
+1. Open een aanhalingsteken.
 
-1. Bekijk opmerkingen over de offerteonderhandelingen en de geschiedenis door naar **[!UICONTROL Negotiation]** te schuiven en **[!UICONTROL Comments]** en **[!UICONTROL History Log]** te selecteren.
+1. Opmerkingen bij de onderhandeling en de geschiedenis van aanhalingstekens weergeven door naar **[!UICONTROL Negotiation]** te schuiven en **[!UICONTROL Comments]** en **[!UICONTROL History Log]** te selecteren.
 
-   ![ Geschiedenis van de Mening ](./assets/quote-view-history.png){width="400"}
+   ![ Geschiedenis van de Mening ](./assets/quote-view-history.png){width="400" zoomable="yes"}
 
 1. De geschiedenis wordt ook bijgehouden op het niveau van het lijnpunt.
 
-   ![ de Geschiedenis van het Punt van de Lijn van de Mening ](./assets/quote-view-line-item-history.png){width="400"}
-
+   ![ de Geschiedenis van het Punt van de Lijn van de Mening ](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
 
 ### Een aanhalingstekensjabloon afwijzen
 
 Alleen aanhalingstekensjablonen met de status `In Review` kunnen worden geweigerd.
 
-1. *[!UICONTROL Quote Templates]*
+1. Open in het *[!UICONTROL Quote Templates]* -raster de aanhalingstekensjabloon die u wilt afwijzen.
 
-1. **[!UICONTROL Decline]**
+1. Voor het citaatmalplaatje, klik **[!UICONTROL Decline]**.
 
-1. **[!UICONTROL Confirm]**
+1. Voer de reden in waarom het aanhalingsteken is afgewezen en klik op **[!UICONTROL Confirm]** .

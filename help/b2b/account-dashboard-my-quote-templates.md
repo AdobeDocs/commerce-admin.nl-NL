@@ -1,88 +1,88 @@
 ---
 title: '[!UICONTROL My Quote Templates]'
-description: Learn about the customer experience for quote templates, which is available in the storefront account dashboard.
+description: Meer informatie over de ervaring van klanten met prijsopmaaksjablonen, die beschikbaar is in het storefront account dashboard.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
 
-
 # [!UICONTROL My Quote Templates]
 
-Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes Template]_van het klantoverdashboard alle offertjablonen weergegeven die aan het klantoverzicht zijn gekoppeld. Depending on their permissions, only buyers who make purchases on behalf of a company can request a quote template and negotiate quote pricing and terms for recurring orders.
+Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes Template]_van het dashboard voor de klantenaccount alle prijsaanhalingstekensjablonen weergegeven die aan de klantenaccount zijn gekoppeld. Afhankelijk van hun machtigingen kunnen alleen kopers die voor rekening van een bedrijf aankopen doen, een prijsopgave aanvragen en prijsopgave en voorwaarden voor terugkerende orders bespreken.
 
 ![ Mijn Malplaatjes van het Citaat ](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
-The quote template list organizes templates by status.
+De lijst van het citaatmalplaatje organiseert malplaatjes door status.
 
-- **[!UICONTROL Active Quote Templates]** Information includes minimum quote total and orders placed if these options were configured during the negotiation process. Buyers can generate a linked quote from the template to submit an order based on quote terms.
+- In **[!UICONTROL Active Quote Templates]** worden sjablonen weergegeven die zijn onderhandeld en goedgekeurd voor gebruik. De informatie omvat minimum citaattotaal en geplaatste orden als deze opties tijdens het onderhandelingsproces werden gevormd. Kopers kunnen een gekoppeld aanhalingsteken genereren op basis van de sjabloon voor het verzenden van een bestelling op basis van prijsvoorwaarden.
 
-- **[!UICONTROL In Review]**
+- **[!UICONTROL In Review]** geeft een lijst van malplaatjes in het onderhandelingsproces die de huidige status tonen en een verbinding verstrekken om het malplaatje te openen.
 
-- **[!UICONTROL Inactive]**
+- In **[!UICONTROL Inactive]** worden sjablonen weergegeven die zijn verlopen, geannuleerd of niet meer geldig zijn omdat een koper het toegestane aantal gecommitteerde orders heeft opgebruikt.
 
-*[!UICONTROL My Quotes Templates]*
+Voor de koper is de pagina *[!UICONTROL My Quotes Templates]* het centrale punt voor alle communicatie tussen koper en verkoper tijdens het onderhandelingsproces.
 
-A buyer who accepts the negotiated terms offered by the seller can accept the template, and then use it to generate pre-approved linked quotes that can be used to place orders.
+Een koper die de door de verkoper aangeboden onderhandelingstermijnen accepteert, kan de template accepteren en deze gebruiken om vooraf goedgekeurde gekoppelde koersen te genereren die kunnen worden gebruikt om bestellingen te plaatsen.
 
-- Actions related to managing the quote template:
+- Acties met betrekking tot het beheer van de prijsaanhalingssjabloon:
 
-   - Cancel a template
-   - Send to seller for review
-   - Accept the quote template
-   - Verander de vervaldatum van de offertesjabloon
+   - Een sjabloon annuleren
+   - Ter controle naar de verkoper verzenden
+   - Accepteer de prijsverhogingssjabloon
+   - De vervaldatum van de aanhalingstekensjabloon wijzigen
    - Verzendadres toevoegen
 
-- Acties voor het bijwerken van de gegevens van het citaatmalplaatje tijdens het onderhandelingsproces:
+- Acties voor het bijwerken van de details van het citaatmalplaatje tijdens het onderhandelingsproces:
 
-   - Bekijk de prijzen en updates van je artikelen.
-   - Pas de minimum- en maximumwaarden aan als er kwantitatieve drempels zijn geconfigureerd in de offertesjabloon.
-   - [!UICONTROL Comments][!UICONTROL History]
-   - For templates still being reviewed, the buyer can modify the quote template by removing items.
-   - Communicate and negotiate with the seller by adding notes at the line item and quote level.
+   - Prijsgegevens en updates van objecten bekijken.
+   - Als de kwantitatieve drempels op het citaatmalplaatje zijn gevormd, pas de minimum en maximumwaarden aan.
+   - Houd het onderhandelingsproces bij in de secties [!UICONTROL Comments] en [!UICONTROL History] .
+   - Voor templates die nog steeds worden gecontroleerd, kan de koper de aanbiedingstemplate wijzigen door items te verwijderen.
+   - Communiceer en onderhandel met de verkoper door opmerkingen toe te voegen op het niveau van het regelobject en de prijsopgave.
 
-  After making changes, the buyer returns the template to the seller for review.
+  Na het aanbrengen van wijzigingen geeft de koper de template ter controle aan de verkoper.
 
 - Algemene acties tijdens de onderhandelingen:
 
-   - Offertesjabloon naar verkoper verzenden voor review
-   - Accept the quote template
-   - Cancel to end negotiation and close the quote
+   - Aanbiedingsjabloon ter controle naar de verkoper sturen
+   - Accepteer de prijsverhogingssjabloon
+   - Annuleren om de onderhandeling te beëindigen en het aanhalingsteken te sluiten
 
-The following example shows a quote template that has been updated by the buyer and sent back to the seller for review.
+In het volgende voorbeeld ziet u een prijsopmaaksjabloon die door de koper is bijgewerkt en ter controle naar de verkoper is teruggestuurd.
 
-![](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
+![ mening van de Koper van citaatmalplaatje ](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
 
-`Submitted`
+Sjablonen met de status `Submitted` zijn vergrendeld totdat de verkoper de template bekijkt en bijwerkt en deze naar de koper retourneert.
 
-## Create a quote template
+## Een aanhalingsteken maken
 
-The buyer can begin the quote template negotiation process using either of the following methods:
+De koper kan het onderhandelingsproces van het citaatmalplaatje beginnen gebruikend één van beiden van de volgende methodes:
 
-- **[!UICONTROL Create quote template]**
+- Maak een sjabloon van een bestaand aanhalingsteken door op de handeling **[!UICONTROL Create quote template]** te klikken.
 
-- Submit a quote request from the storefront and add comments asking the sales representative to create a quote template from the quote request.
+- Verzend een citaatverzoek van de winkel en voeg commentaren toe vragend de verkoopvertegenwoordiger om een citaatmalplaatje van het citaatverzoek tot stand te brengen.
 
-## View a quote template
+## Een aanhalingsteken weergeven
 
-1. The buyer logs in to their account.
+1. De koper heeft zich aangemeld bij zijn account.
 
 1. Kies **[!UICONTROL My Quote Templates]** in het linkerdeelvenster.
 
-1. Hiermee zoekt u de offertsjabloon in de lijst en klikt u op **[!UICONTROL View]** in de kolom _[!UICONTROL Action]_.
+1. Zoekt de aanhalingstekensjabloon in de lijst en klikt op **[!UICONTROL View]** in de kolom _[!UICONTROL Action]_.
 
 ## Verzendadres toevoegen
 
-De koper kan een offertesjabloon pas accepteren als hij een verzendadres heeft.
+De koper kan pas een aanbiedingstemplate accepteren als hij een verzendadres heeft.
 
-1. De koper meldt zich aan bij zijn account.
+1. De koper heeft zich aangemeld bij zijn account.
 
-1. **[!UICONTROL My Quote Templates]**
+1. Kies **[!UICONTROL My Quote Templates]** in het linkerdeelvenster.
 
-1. Selects the desired quote template.
+1. Selecteert het gewenste citaatmalplaatje.
 
 1. Klik in de sectie **[!UICONTROL Shipping Information]** op **[!UICONTROL Add New Address]** .
 
@@ -90,31 +90,27 @@ De koper kan een offertesjabloon pas accepteren als hij een verzendadres heeft.
 
 1. Klik op **[!UICONTROL Save Address]** .
 
-Nadat de koper het adres heeft toegevoegd, stuurt hij de sjabloon terug naar de verkoper ter controle. De verkoper biedt de verzend- en leveringsopties. These updates can affect the negotiated quote pricing. The shipping options are locked on checkout.
+Nadat de koper het adres heeft toegevoegd, stuurt hij de template terug naar de verkoper ter controle. De verkoper biedt de verzend- en leveringsopties. Deze updates kunnen van invloed zijn op de prijs van de onderhandelde prijsopgave. De verzendopties zijn vergrendeld bij het afrekenen.
 
-## Generate a linked quote
+## Een gekoppeld aanhalingsteken genereren
 
-*[!UICONTROL My Quote Templates dashboard]***[!UICONTROL Generate a quote]**
+Nadat de koper een aanhalingstekensjabloon heeft geaccepteerd, kunnen ze deze gebruiken om vooraf goedgekeurde, gekoppelde aanhalingstekens te genereren vanuit de *[!UICONTROL My Quote Templates dashboard]* -sjabloon of vanuit de aanhalingstekensjabloon met behulp van de **[!UICONTROL Generate a quote]** -actie.
 
-The linked quote includes a notification indicating that it is approved and ready for checkout. It also provides a link to the quote template in the header information.
+Het gekoppelde aanhalingsteken bevat een melding die aangeeft dat het is goedgekeurd en gereed voor afhandeling. Het verstrekt ook een verbinding aan het citaatmalplaatje in de kopbalinformatie.
 
-![](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
+![ Gekoppeld citaat dat van een citaatmalplaatje wordt geproduceerd ](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
 
-Als de offertesjabloon is geconfigureerd met een besteldrempel, wordt het aantal verhoogd wanneer het gekoppelde aanhalingsteken wordt gegenereerd.
+Als het citaatmalplaatje met een ordedrempel werd gevormd, wordt de telling verhoogd wanneer het verbonden citaat wordt geproduceerd.
 
-Kopers kunnen de volgende handelingen uitvoeren via een gekoppeld aanhalingsteken:
+Kopers kunnen de volgende handelingen uitvoeren vanuit een gekoppeld aanhalingsteken:
 
 - Als het citaat met kwantitatieve drempels wordt gevormd, pas de ordehoeveelheid voor lijnpunten aan.
-- Ga verder met de afhandeling om een bestelling te verzenden.
-- Verwijder of druk de offerte af.
-- Open the quote template used to generate the quote.
+- Ga door met de kassa om een bestelling te verzenden.
+- Verwijder of druk het citaat.
+- Open het citaatmalplaatje wordt gebruikt om het citaat te produceren dat.
 
-## Cancel a quote template
+## Een aanhalingsteken annuleren
 
-**[!UICONTROL Cancel Quote Template]**
+Klik op **[!UICONTROL Cancel Quote Template]** op de pagina met de aanhalingstekensjabloon.
 
-De offertesjabloon wordt geannuleerd en de offertstatus verandert in `Closed` . *[!UICONTROL Inactive]*_[!UICONTROL Quote Templates]_
-
-
-
-
+De aanhalingstekensjabloon wordt geannuleerd en de status van het aanhalingsteken verandert in `Closed` . Het gesloten citaat blijft in uw lijst van *[!UICONTROL Inactive]* citaten, en blijft vermeld in het _[!UICONTROL Quote Templates]_net in Admin.
