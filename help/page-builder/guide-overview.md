@@ -4,9 +4,9 @@ description: Uitgebreide informatie over  [!DNL Page Builder]  voor de beheerder
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: fa4030d391fc9a3b21cf8fb6f681df9e9165157d
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,3 @@ De kernmogelijkheden van Adobe Commerce en Magento Open Source worden hier niet 
 Raadpleeg de volgende [!DNL Commerce] artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met [!DNL Page Builder] -problemen:
 
 - [ Lege pagina wanneer Opgeslagen DotDigital  [!DNL Page Builder]  vorm ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
-- [[!DNL Page Builder]  laadt media geen galerie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-12/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.html)
-- [[!DNL Page Builder]  voorproef breekt productprijs verschillen over plaatsen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.html)
-- [ kan pagina van Termen niet bewaren ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.html)

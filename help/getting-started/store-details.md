@@ -3,9 +3,9 @@ title: Winkelgegevens
 description: Leer hoe u de basisgegevens voor je winkel kunt bijwerken.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmet
 Raadpleeg de volgende artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met de landconfiguratie: [!DNL Commerce]
 
 - [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html) toe te voegen
-- [ verstrekte countryId bestaat niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -324,7 +323,7 @@ De de steekproefgegevens van de Luma omvatten het blok van Info van het a _Conta
 
 >[!IMPORTANT]
 >
->Vanaf de release 2.4.0 kan het contactformulier niet meer bellen in een CMS-blok of CMS-pagina. Alle aanpassingen van het contactformulier moeten worden uitgevoerd met de indeling xml of aangepaste themasjablonen.
+>Vanaf de release 2.4.0 kan het contactformulier niet meer worden gebeld binnen een CMS-blok of CMS-pagina. Alle aanpassingen van het contactformulier moeten worden uitgevoerd met de indeling xml of aangepaste themasjablonen.
 
 Door gebrek, hebben de kopers toegang tot de contactvorm gebruikend de _verbinding van het Contact_ in footer van de storefront pagina&#39;s. Voor meer informatie over het aanpassen van de contactpagina, verwijs naar de [ Gids van de Ontwikkelaar van het Front ][theme-guide].
 

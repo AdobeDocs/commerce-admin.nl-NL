@@ -3,9 +3,9 @@ title: Orders
 description: Leer meer over de werkruimte Bestellingen en de zoekmogelijkheden die worden gebruikt om bestellingen te zoeken in Admin.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ Het vakje van het Onderzoek in het hogere linkerzijde van het net van Orden kan 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met bestelproblemen:
 
 - [ de vertoningsfout van Orden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [ PayPal dubbele orden 10415 fout ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [ de Nieuwe orden worden verzonden naar archief ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [ de Orden worden niet getoond in het net van Orden in Admin ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [ status van de Orde - onjuiste die verzending via REST API wordt gecreeerd ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

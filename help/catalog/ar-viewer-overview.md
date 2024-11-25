@@ -2,7 +2,7 @@
 title: '[!DNL AR Viewer] voor Adobe Commerce'
 description: Leer hoe  [!DNL AR Viewer]  uw instantie van Adobe Commerce kon bevoordelen en hoe te met succes aan boord te gaan en de uitbreiding te plaatsen.
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Met de extensie [!DNL AR Viewer] for Adobe Commerce beschikt u over een naadloze
 
 De informatie in deze handleiding biedt een overzicht van de instapervaring voor de [!DNL AR Viewer] -gebruiker in Adobe Commerce en van de voordelen die [!DNL AR Viewer] biedt voor de gebruiker. Ook bevat deze handleiding tips en trucs voor het volgen van deze reis.
 
-Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://www.pixar.com/usd) {target=_blank} is de eerste open-bronsoftware die robuust en scalable 3D scènes kan ruilen die uit vele verschillende activa, bronnen, en animaties kunnen bestaan, terwijl het bevorderen van hoogst samenwerkingswerkschema&#39;s. Deze USD wordt gebruikt in `.USDZ` -bestanden. Dit `.USDZ` -bestand levert AIR- en 3D-inhoud aan de apparaten van de gebruiker.
+Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://openusd.org/release/index.html) {target=_blank} is de eerste open-bronsoftware die robuust en scalable 3D scènes kan ruilen die uit vele verschillende activa, bronnen, en animaties kunnen bestaan, terwijl het bevorderen van hoogst samenwerkingswerkschema&#39;s. Deze USD wordt gebruikt in `.USDZ` -bestanden. Dit `.USDZ` -bestand levert AIR- en 3D-inhoud aan de apparaten van de gebruiker.
 
 >[!NOTE]
 >

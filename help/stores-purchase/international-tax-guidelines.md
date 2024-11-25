@@ -3,9 +3,9 @@ title: Belastingrichtsnoeren per land
 description: Bekijk de aanbevolen belastinginstellingen per land.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Deze aanbevolen instellingen kunnen worden gebruikt voor de meeste belastingconf
 
 >[!IMPORTANT]
 >
->Handelaren in de provincie GST/PST (Montreal) moeten één belastingregel opstellen en een gecombineerd belastingbedrag laten zien. Raadpleeg een bevoegde belastingautoriteit als u vragen hebt. Voor informatie over de belastingvereisten van specifieke provincies, zie het volgende: [ Revenu Québec ][1], [ Regering van Saskatchewan ][2], en [ Informatie Manitoba voor Verkopers ][3]
+>Handelaren in de provincie GST/PST (Montreal) moeten één belastingregel opstellen en een gecombineerd belastingbedrag laten zien. Raadpleeg een bevoegde belastingautoriteit als u vragen hebt.
 
 | Belastingoptie | Aanbeveling |
 |--- |--- |
@@ -411,14 +411,10 @@ Voer de volgende algemene belastinginstellingen in:
 
       - Standaardland
       - Standaardstatus
-      - Standaard Post-code
+      - Standaardpostcode
 
      Deze instelling zorgt ervoor dat de belasting correct wordt berekend wanneer de productprijzen belasting bevatten.
 
      ![ Berekening van de StandaardBelastingbestemming ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

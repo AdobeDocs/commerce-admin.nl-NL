@@ -3,9 +3,9 @@ title: Afbeeldingen en video in catalogus
 description: Meer informatie over het gebruik van digitale media om de productpagina's van uw catalogus te verfraaien en uw klanten visueel materiaal te bieden.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Er zijn veel andere lichte vakken en schuifregelaars waarmee u de presentatie va
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met afbeeldingen en video&#39;s:
 
 - [ na het installeren, laden de beelden en de stijlbladen niet; slechts tekstvertoningen, geen grafiek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [ Kwesties met het beheren van productbeelden via REST API ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [ gedupliceerde producten.csv beelden van de Invoer ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [ de beelden van het Product tonen niet ondanks Product geeft beeldrollen uit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [ beelden van de opslag niet getoond na plaatsing ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

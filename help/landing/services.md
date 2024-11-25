@@ -3,7 +3,8 @@ title: Commerce SaaS Services
 description: Meer informatie over Commerce SaaS Services die beschikbaar zijn om Commerce-winkelmogelijkheden uit te breiden
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe verstrekt een inzameling van de diensten van Commerce, de integratiedienst
 
 ](../landing/assets/icon-magnify.svg){width="40"}**[ Levende Onderzoek van het 1} Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) **- voer een AI-aangedreven onderzoekshulpmiddel uit dat slimmer, sneller, en relevantere resultaten voor B2C shoppers levert.![
 
-![ ThumbsUp ](../landing/assets/icon-thumbs-up.svg){width="40"}**[ Product Recommendations ](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview) **- voeg AI-voortgedreven aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
+![ ThumbsUp ](../landing/assets/icon-thumbs-up.svg){width="40"}**[ Product Recommendations ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) **- voeg AI-voortgedreven aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
 
 ![ catalogusgegevens voor de verbonden diensten ](../landing/assets/icon-data-book.svg){width="40"}**[ de Dienst van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview) **- geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, het verbeteren van scalability, en het verhogen van omzettingen.
 

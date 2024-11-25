@@ -3,7 +3,7 @@ title: Een bestelling maken
 description: Leer hoe u een bestelling voor een klant maakt in Commerce Admin.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -98,7 +98,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
 >[!NOTE]
 >
->Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
+>Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
 
 ## Stap 3: De bestelling verzenden
 

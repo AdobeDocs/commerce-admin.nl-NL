@@ -3,9 +3,9 @@ title: Gegevens exporteren
 description: Meer informatie over filters en kenmerken voor het exporteren van gegevens en over het exporteren van gegevens uit uw winkel.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -93,5 +93,3 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met het exporteren van gegevens:
 
 - [ Uitgevoerde producten.csv- dossier verschijnt niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
-- [ de uitvoerdossier van het Product tonen niet in Admin ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
-- [ Uitgave in het uitvoeren van orden in formaat CSV ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)

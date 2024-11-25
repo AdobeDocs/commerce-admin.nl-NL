@@ -4,9 +4,9 @@ description: Uitgebreide informatie over  [!DNL Inventory Management]  voor de b
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,5 @@ Zie [[!DNL Inventory Management] ](https://developer.adobe.com/commerce/webapi/r
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-- [ Inconsistenties van de grote aantalreserve ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.html)
-- [ de inconsistentiekwesties van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33281-magento-patch-inventory-inconsistency-issues.html)
-- [ de stalen slaan-door inventaris niet bereikt &quot;0&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.html)
 - [ onjuiste status van het Beeld na de installatie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
 - [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.

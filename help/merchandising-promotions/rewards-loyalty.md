@@ -3,9 +3,9 @@ title: Programma's voor beloningen en loyaliteit
 description: Leer over het systeem van beloningspunten dat u kunt gebruiken om klantenovereenkomst te drijven en klantenloyaliteit te bevorderen.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -187,5 +187,4 @@ Alle acties met betrekking tot bonuspunten worden weergegeven in het _[!UICONTRO
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met beloningspunten:
 
-- [ Loyalty richt op gedeeltelijke orden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - [ 404 fout - het verwijderen van beloningspunten op multi-verschepende controle ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
