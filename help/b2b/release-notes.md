@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Commerce B2B] opmerkingen bij de release'
+title: '[!DNL Adobe Commerce B2B] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes

@@ -190,7 +190,7 @@ In deze stap maakt u twee nieuwe aangepaste kenmerken om te tonen hoe de invoert
 
 1. Stel **[!UICONTROL Catalog Input Type for Store Owner]** in op `Page Builder` .
 
-   Wanneer u een aangepast kenmerk maakt, kunt u de editor die het meest geschikt is voor de toepassing opgeven als `Page Builder` of de standaard WYSIWYG `Text Editor` .
+   Wanneer u een aangepast kenmerk maakt, kunt u de editor die het meest geschikt is voor de toepassing opgeven als `Page Builder` of als de standaard, WYSIWYG `Text Editor` .
 
    ![[!DNL Page Builder] Invoertype ](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ In deze stap maakt u twee nieuwe aangepaste kenmerken om te tonen hoe de invoert
    Als u naar de onderste helft van de sectie scrolt, zijn er twee kenmerken die u hebt gemaakt en toegewezen:
 
    - _Mijn [!DNL Page Builder] Attribuut_, dat de [!DNL Page Builder] voorproef toont.
-   - _Mijn Kenmerk van de Redacteur van de Tekst_, dat de standaard redacteur WYSIWYG gebruikt.
+   - _Mijn Kenmerk van de Redacteur van de Tekst_, dat de standaard redacteur van WYSIWYG gebruikt.
 
    ![ de inhoud die van het Product ](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"} uitgeeft
 

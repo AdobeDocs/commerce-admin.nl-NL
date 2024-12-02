@@ -24,11 +24,11 @@ Bij het onderhandelen over een prijsopgave heeft een koper verschillende opties 
 * Acties in verband met het beheer van de offerte:
 
    * Een kopie van het aanhalingsteken maken
-   * Close the quote
-   * Delete the quote
-   * Rename the quote
-   * Print the quote
-   * Create a template
+   * Het aanhalingsteken sluiten
+   * Het aanhalingsteken verwijderen
+   * De naam van het aanhalingsteken wijzigen
+   * Het aanhalingsteken afdrukken
+   * Een sjabloon maken
 
 * Handelingen voor het bijwerken van de prijsdetails:
 
@@ -136,15 +136,15 @@ Zie [ producten aan een verzoeklijst ](requisition-lists.md) toevoegen om meer o
 
 1. Kies **[!UICONTROL My Quotes]** in het linkerdeelvenster.
 
-1. Selects the desired quote.
+1. Selecteert het gewenste citaat.
 
-1. **[!UICONTROL Shipping Information]****[!UICONTROL Add New Address]**
+1. Klik in de sectie **[!UICONTROL Shipping Information]** op **[!UICONTROL Add New Address]** .
 
-1. Fills in details for the new address.
+1. Vult details voor het nieuwe adres in.
 
-1. **[!UICONTROL Save Address]**
+1. Klik op **[!UICONTROL Save Address]** .
 
-When the buyer adds the address, the seller provides the shipping and delivery options. These updates can affect the negotiated quote pricing. The shipping options are locked on checkout.
+Wanneer de koper het adres toevoegt, biedt de verkoper de verzend- en leveringsopties. Deze updates kunnen van invloed zijn op de prijs van de onderhandelde prijsopgave. De verzendopties zijn vergrendeld bij het afrekenen.
 
 ## Een aanhalingsteken afdrukken
 

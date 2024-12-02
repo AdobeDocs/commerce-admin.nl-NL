@@ -1,5 +1,5 @@
 ---
-title: "[!UICONTROL My Account] page"
+title: '[!UICONTROL My Account] pagina'
 description: Op de pagina [!UICONTROL My Account] van het Klantdashboard krijgen klanten een overzicht van hun informatie en activiteiten met betrekking tot uw winkel.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront

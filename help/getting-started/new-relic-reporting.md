@@ -1,5 +1,5 @@
 ---
-title: '[!DNL New Relic] reporting'
+title: '[!DNL New Relic] rapporten'
 description: Leer over  [!DNL New Relic]  rapportering beschikbaar voor rekeningen voor Adobe Commerce op wolkeninfrastructuur, die de software voor de dienst van New Relic APM omvat.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
@@ -21,15 +21,15 @@ ht-degree: 0%
 
    U kunt zich ook aanmelden voor een gratis proefaccount.
 
-1. Volg de instructies op de site. Kies desgevraagd het product dat u als eerste wilt installeren.
+1. Volg de instructies op de site. Wanneer u hierom wordt gevraagd, kiest u het product dat u als eerste wilt installeren.
 
-1. Zoek in uw account naar de volgende referenties die nodig zijn om de configuratie voor Commerce te voltooien:
+1. Zoek in uw account naar de volgende referenties die nodig zijn om de Commerce-configuratie te voltooien:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
-   | Account-id | Vanuit het [!DNL New Relic] -accountdashboard is de account-id het nummer in de URL na: `/accounts` |
-   | Toepassings-id | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL New Relic APM]** . Kies **[!UICONTROL Applications]** in het menu. Kies vervolgens de toepassing. De toepassings-id is het nummer in de URL na: `/applications/` |
-   | Nieuwe Relic-API-sleutel | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Account Settings]** . Kies in het menu aan de linkerkant onder Integraties de optie **[!UICONTROL Data Sharing]** . U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
+   | Account-ID | Vanuit het [!DNL New Relic] -accountdashboard is de account-id het nummer in de URL na: `/accounts` |
+   | Toepassings-id | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL New Relic APM]** . Kies **[!UICONTROL Applications]** in het menu. Kies vervolgens de toepassing. De toepassings-ID is het nummer in de URL na: `/applications/` |
+   | Nieuwe Relic API-sleutel | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Account Settings]** . Kies in het menu aan de linkerkant onder Integraties de optie **[!UICONTROL Data Sharing]** . U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
    | API-sleutel voor inzichten | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Insights]** . Kies **[!UICONTROL API Keys]** in het menu links onder Beheer. Uw API-sleutels voor inzichten worden op deze pagina weergegeven. Indien nodig, klik het plusteken (**+**) naast de Sleutels van het Tussenvoegsel om een sleutel te produceren. |
 
    {style="table-layout:auto"}
@@ -127,18 +127,18 @@ Retourneert het aantal recente Admin-handelingen.
 
 #### Laatste beheeractiviteit
 
-Retourneert gedetailleerde informatie over recente beheerhandelingen, zoals de gebruikersnaam, duur en toepassingsnaam van de beheerder.
+Retourneert gedetailleerde informatie over recente beheerdersacties, waaronder de gebruikersnaam, duur en toepassingsnaam van de beheerder.
 
-    SELECTEER AdminName, duration, name
-    FROM Transaction
-    WHERE appName=&lt;your_app_name>&#39;&#39; AND AdminName IS NOT NULL
-    AND AdminName!&lt;/your_app_name>= &#39;N/A&#39;-LIMIET 50
+    SELECTEER AdminName, duur, naam
+    VAN Transactie
+    WAAR appName=&#39;&lt;your_app_name>&#39; EN AdminName IS NIET NULL
+    EN AdminName !&lt;/your_app_name>= &#39;N.V.T.&#39; LIMIET 50
 
-### Cron-gebeurtenissen
+### Cron evenementen
 
 #### Aantal categorieën
 
-Retourneert het aantal toepassingsevenementen per categorie gedurende de opgegeven periode.
+Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opgegeven periode.
 
      SELECTEER gemiddelde (CatalogCategoryCount) 
      VAN Kroon 
@@ -149,11 +149,11 @@ Retourneert het aantal toepassingsevenementen per categorie gedurende de opgegev
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen in de catalogus per categorie gedurende de opgegeven tijdsperiode.
 
-    SELECT average (CatalogCategoryCount)
-    FROM Cron
-    WHERE CatalogCategoryCount IS NOT NULL
-    AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SINDS 2 minuten ago LIMIT 1
+    SELECTEER gemiddelde(CatalogCategoryCount)
+    VAN Cron
+    WAAR CatalogCategoryCount NIET NULL
+    IS EN CatalogCategoryCount > 0
+    EN appName = &#39;&lt;your_app_name>&#39; SINDS 2 minuten geleden LIMIET 1
 &lt;/your_app_name>
 #### Actieve producten
 
@@ -304,31 +304,31 @@ Retourneert de bovenste klanten tijdens de opgegeven tijdsperiode.
 
 Retourneert een gedefinieerd aantal records met recente activiteit, die de naam van de klant en de duur van het bezoek bevatten.
 
-    SELECTEER CustomerName, duration, name
-    FROM Transaction
-    WHERE appName=&lt;your_app_name>&#39;&#39;
+    SELECTEER KlantNaam, duur, naam
+    VAN Transactie
+    WAAR appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    AND CustomerName!&lt;/your_app_name>= &#39;N/A&#39;-LIMIET 50
+    AND CustomerName !&lt;/your_app_name>= &#39;N.V.T.&#39; LIMIET 50
 
 ### Orders
 
-#### Aantal geplaatste orders
+#### Aantal geplaatste bestellingen
 
-Retourneert het aantal orders dat tijdens de opgegeven periode is geplaatst.
+Retourneert het aantal bestellingen dat tijdens de opgegeven periode is geplaatst.
 
-    SELECT count(Order)
-    FROM Transactie SINCE 1 day ago
+    SELECTEER count(Order)
+    FROM Transactie SINDS 1 dag geleden
 
 #### Totale orderwaarde
 
 Retourneert het totale aantal regelitems dat is geordend tijdens de opgegeven tijdsperiode.
 
-    SELECT sum(orderValue)
-    FROM Transaction SINCE 1 day ago
+    SELECTEER sum(orderValue)
+    FROM Transactie SINDS 1 dag geleden
 
 #### Totaal aantal bestelde regelitems
 
-Hiermee wordt het totale aantal tijdens de opgegeven periode bestelde regelitems geretourneerd.
+Retourneert het totale aantal regelitems dat tijdens de opgegeven periode is besteld.
 
      SELECT som (lineItemCount) 
      VAN Transactie SINCE 1 dag geleden 

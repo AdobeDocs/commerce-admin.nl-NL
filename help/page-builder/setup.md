@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] setup'
+title: '[!DNL Page Builder] instellen'
 description: Leer over  [!DNL Page Builder]  eigenschapconfiguratie in Admin voor Adobe Commerce en Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] instellen
 
-Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en dynamische blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [ paginalay-out ](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en pagina&#39;s CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die WYSIWYG [ redacteur ](../content-design/editor.md) gebruikt.
+Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en -blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [ paginalay-out ](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en de pagina&#39;s van CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die de redacteur van WYSIWYG [ ](../content-design/editor.md) gebruikt.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 >[!NOTE]
 >
->Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de WYSIWYG [ redacteur ](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
+>Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de redacteur van WYSIWYG [ ](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

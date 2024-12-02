@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Inventory Management] opmerkingen bij de release'
+title: '[!DNL Inventory Management] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over alle  [!DNL Inventory Management]  versies.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes

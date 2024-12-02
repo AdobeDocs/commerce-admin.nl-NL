@@ -153,11 +153,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Algemeen | Hiermee wordt bepaald of het Commerce-exemplaar back-ups toestaat. Opties: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Wordt weergegeven wanneer _[!UICONTROL Enable Backup]_is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van het Commerce-exemplaar. Opties: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Algemeen | (Wordt weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_is ingesteld op `Yes` .) Bepaalt de elementen van de instantie van Commerce die in de steun inbegrepen zijn. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Algemeen | (Wordt weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee geeft u het uur, de minuut en de seconde op waarop de geplande back-up begint. |
-| [!UICONTROL Frequency] | Algemeen | (Wordt weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee bepaalt u hoe vaak de geplande back-up plaatsvindt. Opties: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Algemeen | (Wordt weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee bepaalt u of de opslagruimte tijdens de geplande back-up in de onderhoudsmodus wordt geplaatst. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_is ingesteld op `Yes` .) Hiermee bepaalt u de elementen van de Commerce-instantie die in de back-up zijn opgenomen. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hier geeft u het uur, de minuut en de seconde op waarin de geplande back-up begint. |
+| [!UICONTROL Frequency] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee bepaalt u hoe vaak de geplande back-up plaatsvindt. Opties: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee wordt bepaald of de opslag in de onderhoudsmodus wordt geplaatst tijdens de geplande back-up. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

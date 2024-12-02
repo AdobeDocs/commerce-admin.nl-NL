@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Audience Activation]"
+title: '[!DNL Audience Activation]'
 description: Leer hoe u het Real-Time CDP-publiek in Adobe Commerce activeert om personalisatie in uw winkel te stimuleren.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization

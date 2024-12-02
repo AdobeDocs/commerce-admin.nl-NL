@@ -1,5 +1,5 @@
 ---
-title: "Configure  [!DNL Inventory Management]"
+title: Configureren  [!DNL Inventory Management]
 description: Leer over de configuratie van  [!DNL Inventory Management]  opties die bronbeschikbaarheid, storefront producten, en ordeverzending bepalen.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration

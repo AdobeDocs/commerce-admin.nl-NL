@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Inventory Management] CLI reference'
+title: '[!DNL Inventory Management] CLI-verwijzing'
 description: Leer over de bevelen die door de  [!DNL Inventory Management]  module worden verstrekt om inventarisgegevens en configuratiemontages te beheren.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced

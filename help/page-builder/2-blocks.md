@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Page Builder] Doorloop deel 2: blokken"
+title: '[!DNL Page Builder] Doorlopen, deel 2: blokken'
 description: Leer het verschil tussen eenvoudige blokken en dynamische blokken wanneer het gebruiken van  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content

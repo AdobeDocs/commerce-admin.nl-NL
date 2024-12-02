@@ -1,6 +1,6 @@
 ---
 title: Belasting over de toegevoegde waarde (btw)
-description: '&lt;Hierheen beschrijving toevoegen;amp;gt;'
+description: beschrijving toevoegen;amp;gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7

@@ -56,7 +56,7 @@ ht-degree: 0%
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Algemeen | Determines is dat gasten anoniem toegang hebben tot CMS, catalogi en bronnen van zowel SOAP- als REST-API&#39;s kunnen opslaan. Standaard is anonieme toegang voor gasten niet toegestaan. Opties: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Algemeen | Determines is dat gasten anoniem toegang hebben tot CMS, catalogiseren en bronnen van zowel SOAP- als REST-API&#39;s kunnen opslaan. Standaard is anonieme toegang voor gasten niet toegestaan. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

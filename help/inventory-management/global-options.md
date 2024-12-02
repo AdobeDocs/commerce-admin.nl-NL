@@ -1,5 +1,5 @@
 ---
-title: "Vorm  [!DNL Inventory Management]  globale opties"
+title: Vorm  [!DNL Inventory Management]  globale opties
 description: Leer hoe te om het gebrek  [!DNL Inventory Management]  configuratieopties voor product en voorraad voor uw websites te vormen.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration

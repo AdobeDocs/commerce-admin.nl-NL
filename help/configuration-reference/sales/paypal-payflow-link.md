@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL CVV Entry is Editable] | Website | Hiermee wordt bepaald of de klant de CVV kan bewerken nadat deze is ingevoerd. Opties: `Yes` / `No` |
 | [!UICONTROL Require CVV Entry] | Website | Hiermee wordt bepaald of klanten de CVV-code vanaf de achterzijde van hun creditcard moeten invoeren. Opties: `Yes` / `No` |
 | [!UICONTROL Send Email Confirmation] | Website | Hiermee bepaalt u of de klant een e-mailbevestiging van de betaling ontvangt. Opties: `Yes` / `No` |
-| [!UICONTROL URL Method for Cancel  URL and Return URL] | Website | Bepaalt de methode die wordt gebruikt om informatie uit te wisselen met de PayPal-server tijdens een transactie. Opties: <br/>**`GET`**- Hiermee wordt informatie opgehaald die het resultaat is van een proces. (Dit is de standaardmethode.)<br/>**`POST`** - Hiermee wordt een gegevensblok, zoals gegevens die in een formulier zijn ingevoerd, verzonden naar het gegevensverwerkingsproces. |
+| [!UICONTROL URL Method for Cancel  URL and Return URL] | Website | Bepaalt de methode die wordt gebruikt om informatie uit te wisselen met de PayPal-server tijdens een transactie. Opties: <br/>**`GET`**- Hiermee wordt informatie opgehaald die het resultaat is van een proces. (Dit is de standaardmethode.)<br/>**`POST`** - Verzendt een gegevensblok, zoals gegevens die in een formulier zijn ingevoerd, naar het gegevensverwerkingsproces. |
 
 {style="table-layout:auto"}
 

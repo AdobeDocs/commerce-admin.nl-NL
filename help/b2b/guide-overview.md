@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Commerce B2B] Hulplijn'
+title: '[!DNL Adobe Commerce B2B] Handleiding'
 description: Uitgebreide informatie voor  [!DNL Adobe Commerce B2B]  beheerders, met inbegrip van installatie en configuratie.
 breadcrumb-title: Overzicht van de handleiding
 seo-title: '[!DNL Adobe Commerce B2B] Guide'

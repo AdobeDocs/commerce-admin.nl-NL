@@ -1,5 +1,5 @@
 ---
-title: '[!DNL AR Viewer] voor Adobe Commerce setup'
+title: '[!DNL AR Viewer] voor Adobe Commerce instellen'
 description: Leer over het beheren van 3D modelactiva gebruikend de  [!DNL AR Viewer]  uitbreiding voor uw productlijsten.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 source-git-commit: f84667a7bbc93504499279d77967796bcd11791c

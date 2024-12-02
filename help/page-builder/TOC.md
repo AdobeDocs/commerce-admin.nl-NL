@@ -1,7 +1,7 @@
 ---
-user-guide-title: "[!DNL Page Builder] Handboek"
+user-guide-title: '[!DNL Page Builder] Handboek'
 user-guide-description: Leer hoe te om  [!DNL Page Builder]  eigenschappen te gebruiken om inhoud-rijke pagina's met douanelay-outs tot stand te brengen die uw visueel het vertellen verbeteren, en klantenovereenkomst en loyaliteit te drijven.
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User

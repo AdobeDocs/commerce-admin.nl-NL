@@ -1,5 +1,5 @@
 ---
-title: "Vorm  [!DNL Inventory Management]  achterorden"
+title: Vorm  [!DNL Inventory Management]  achterorden
 description: Leer hoe te om backorders te vormen om verkoop van uit-van-voorraad producten te steunen.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
