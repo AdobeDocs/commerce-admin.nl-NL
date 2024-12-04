@@ -1,20 +1,20 @@
 ---
-title: Voorbeeld van de prijsregel voor winkelwagentjes - korting met minimumaankoop
-description: Bekijk een voorbeeld van het gebruik van een winkelprijsegel om een korting met een minimale aankoop aan te bieden.
+title: Voorbeeld van de prijsregel voor winkelwagentjes - korting op de minimumprijs van het product
+description: Bekijk een voorbeeld van het gebruik van een winkelprijsegel om een korting aan te bieden met een minimale productprijs.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Voorbeeld van de prijsregel voor winkelwagentjes - korting met minimumaankoop
 
-De prijsregels voor winkelwagentjes kunnen worden gebruikt om een percentagekorting aan te bieden op basis van een minimumaankoop. In het volgende voorbeeld wordt een korting van 25% toegepast op alle aankopen boven $200,00 in een specifieke categorie. Het formaat van de korting is als volgt:
+De prijsregels voor winkelwagentjes kunnen worden gebruikt om een korting op basis van een minimumprijs in het winkelwagentje aan te bieden. In het volgende voorbeeld wordt een korting van 10% toegepast op alle producten in het hele winkelwagentje wanneer ten minste één product met een prijs van meer dan € 30,00 uit een bepaalde categorie aan het winkelwagentje wordt toegevoegd. Het formaat van de korting is als volgt:
 
-X% korting op alle Y (categorie) boven $Z dollars
+X% hele kar korting wanneer ten minste 1 product van de Y-categorie komt en de prijs ervan meer dan $Z dollar bedraagt.
 
 ## Stap 1. Een winkelwagentregel maken
 
