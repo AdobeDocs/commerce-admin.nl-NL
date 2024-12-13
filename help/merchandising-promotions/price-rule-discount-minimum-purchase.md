@@ -3,14 +3,14 @@ title: Voorbeeld van de prijsregel voor winkelwagentjes - korting op de minimump
 description: Bekijk een voorbeeld van het gebruik van een winkelprijsegel om een korting aan te bieden met een minimale productprijs.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Voorbeeld van de prijsregel voor winkelwagentjes - korting met minimumaankoop
+# Voorbeeld van de prijsregel voor winkelwagentjes - korting op de minimumprijs van het product
 
 De prijsregels voor winkelwagentjes kunnen worden gebruikt om een korting op basis van een minimumprijs in het winkelwagentje aan te bieden. In het volgende voorbeeld wordt een korting van 10% toegepast op alle producten in het hele winkelwagentje wanneer ten minste één product met een prijs van meer dan € 30,00 uit een bepaalde categorie aan het winkelwagentje wordt toegevoegd. Het formaat van de korting is als volgt:
 
