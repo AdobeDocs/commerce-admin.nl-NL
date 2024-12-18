@@ -4,9 +4,9 @@ description: Leer hoe u sessiebeheer configureert om de beheerder en winkel te b
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Als veiligheidsmaatregel, is _Admin_ aanvankelijk geplaatst aan tijd uit na 900 
 
 1. Klik op **[!UICONTROL Admin]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Security]_sectie uit.
-
-1. Voer bij **[!UICONTROL Admin Session Lifetime (seconds)]** het aantal seconden in dat een sessie actief blijft voordat deze wordt beëindigd.
-
-   ![ Geavanceerde configuratie - de veiligheidsmontages van Admin ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.## Tijdens Admin-sessie
-
-Als veiligheidsmaatregel, is _Admin_ aanvankelijk geplaatst aan tijd uit na 900 seconden (15 minuten) van toetsenbordinactiviteit. U kunt de levensduur van de sessie aanpassen aan uw werkstijl.
-
-**_om Admin zittingsleven aan te passen:_**
-
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-
-1. Schuif omlaag en vouw **[!UICONTROL Advanced]** uit in het linkerdeelvenster.
-
-1. Klik op **[!UICONTROL Admin]**.
-
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _sectie van de Veiligheid_.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
 1. Voer bij **[!UICONTROL Admin Session Lifetime (seconds)]** het aantal seconden in dat een sessie actief blijft voordat deze wordt beëindigd.
 
