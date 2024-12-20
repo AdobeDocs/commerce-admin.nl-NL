@@ -3,7 +3,7 @@ title: Voorbeeld van de prijsregel voor winkelwagentjes - korting op de minimump
 description: Bekijk een voorbeeld van het gebruik van een winkelprijsegel om een korting aan te bieden met een minimale productprijs.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
+source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -75,5 +75,4 @@ Voltooi [ Stap 4 ](price-rules-cart.md) van de de regelinstructies van de kartpr
 {{new-price-rule}}
 
 1. Wanneer uw regel volledig is, klik **[!UICONTROL Save Rule]**.
-
 1. Test de regel om er zeker van te zijn dat deze correct werkt.
