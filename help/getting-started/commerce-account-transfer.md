@@ -3,9 +3,9 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Hoe u deze overdracht voltooit, hangt af van welke van de volgende scenario&#39;
 | Overdrachtstype | Huidige eigenaar | Nieuwe eigenaar |
 | ------------- | ------------- | --------- |
 | [ Nieuwe Adobe ID en e-mailverandering ](#new-adobe-id-and-email-change) | Heeft MAGEID die **_niet_** met een Adobe login rekening verbonden is. | Heeft geen MAGEID en is niet verbonden met een Adobe aanmeldingsaccount. |
-| [ E-mailverandering ](#email-change) | Heeft MAGEID die **__** met een Adobe login rekening met geen andere Adobe verbonden producten/diensten is verbonden. | Heeft geen MAGEID en is niet verbonden met een Adobe aanmeldingsaccount. |
-| [ de schakelaar van Adobe ID ](#adobe-id-account-switch) | Heeft MAGEID die **__** met een Adobe login rekening met geen andere Adobe verbonden producten/diensten is verbonden. | Heeft een MAGEID en is verbonden met een Adobe login rekening zonder andere Adobe producten/diensten verbonden. |
+| [ E-mailverandering ](#email-change) | Heeft een MAGEID die **__** met een Adobe login rekening wordt verbonden. | Heeft geen MAGEID en is niet verbonden met een Adobe aanmeldingsaccount. |
+| [ de schakelaar van Adobe ID ](#adobe-id-account-switch) | Heeft een MAGEID die **__** met een Adobe login rekening wordt verbonden. | Heeft een MAGEID en is verbonden met een Adobe login rekening zonder andere Adobe producten/diensten verbonden. |
 
 {style="table-layout:auto"}
 
