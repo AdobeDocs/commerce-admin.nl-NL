@@ -3,9 +3,9 @@ title: Uw beheerdersaccount
 description: Meer informatie over uw beheerdersaccount en over het gebruik van tweeledige verificatie voor aanmelding bij de beheerder.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ De beheerder biedt toegang om de functies voor bestellingen, klanten, producten,
 1. Klik op **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Veilige toegang tot de beheerder
+
+Om de veiligheid van uw admin te verzekeren, voer regelmatige controles van gebruikers en rollen met admintoegang uit.
+
+Bovendien, overweeg [ het bijwerken van de configuratie Admin Basis URL ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) om het standaard `/admin` eindpunt in een douanepad te veranderen. Het vormen van een douanepad verstrekt de volgende veiligheidsvoordelen:
+
+**Verbeterde Veiligheid**: De standaard &quot;admin&quot;weg is wijd gekend en vaak gericht door kwaadwillige acteurs die brute krachtaanvallen proberen. Door het in een unieke, douanewaarde te veranderen, vermindert u beduidend het risico van ongeoorloofde toegangspogingen.
+
+**Verminderde Vulnerability**: De geautomatiseerde bots scannen vaak voor gemeenschappelijke wegen zoals &quot;admin&quot;om kwetsbaarheid te exploiteren. Een douanepad maakt het voor deze bots moeilijker om van uw admin login pagina de plaats te bepalen, daardoor verminderend de waarschijnlijkheid van aanvallen.
+
+**Verbeterde Privacy**: Een weg van douane admin voegt een extra laag van onveiligheid toe, makend het voor potentiële aanvallers moeilijker om uw admin login pagina te identificeren en te richten.
+
+**Naleving met Beste praktijken**: Na veiligheids beste praktijken, zoals het aanpassen van uw admin weg, toont een pro-actieve benadering aan om uw e-commercesite en klantengegevens te beschermen.
+
+>[!NOTE]
+>
+>Als een breuk wordt vermoed, zorg ervoor om alle onbekende gebruikers Admin te verwijderen en alle wachtwoorden Admin terug te stellen en het [ actieplan van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) voor verdere stappen te herzien.
