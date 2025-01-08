@@ -3,9 +3,9 @@ title: De Experience Manager Assets-integratie installeren en configureren
 description: Leer hoe te om  [!DNL AEM Assets Integration for Adobe Commerce]  op een instantie van Adobe Commerce te installeren en te vormen.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ De AEM Assets Integration voor Commerce heeft de volgende systeem- en configurat
 
 **de vereisten van de Configuratie**
 
-- Adobe Commerce moet worden gevormd om [ authentificatie van Adobe te gebruiken IMS ](/help/getting-started/adobe-ims-config.md).
 - Account instellen en machtigingen
    - [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn
    - [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
+
+>[!TIP]
+>
+> Adobe Commerce kan worden gevormd om [ authentificatie van Adobe te gebruiken IMS ](/help/getting-started/adobe-ims-config.md).
 
 ## Overzicht van configuratie
 
@@ -186,6 +189,44 @@ Schakel het gebeurtenisframework in via Commerce Admin.
    ![ Adobe I/O Gebeurtenissen Commerce Admin configuratie - laat de gebeurtenissen van Commerce ](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"} toe
 
 1. Voer de bedrijfsnaam van de handelaar in **[!UICONTROL Merchant ID]** en de omgevingsnaam in **[!UICONTROL Environment ID]** gebieden in. Gebruik bij het instellen van deze waarden alleen alfanumerieke tekens en onderstrepingstekens.
+
+>[!BEGINSHADEBOX]
+
+**vorm Douane VCL voor het blokkeren van verzoeken**
+
+Als u een aangepast VCL-fragment gebruikt om onbekende binnenkomende aanvragen te blokkeren, moet u mogelijk de HTTP-header `X-Ims-Org-Idheader` opnemen om binnenkomende verbindingen van de AEM Assets Integration for Commerce-service toe te staan.
+
+>[!TIP]
+>
+> U kunt de Fastly CDN module gebruiken om Edge ACL met een lijst van IP adressen tot stand te brengen die u wilt blokkeren.
+
+De volgende aangepaste VCL-fragmentcode (JSON-indeling) toont een voorbeeld met een `X-Ims-Org-Id` aanvraagkoptekst.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Voordat u een op dit voorbeeld gebaseerd fragment maakt, controleert u de waarden om te bepalen of u wijzigingen wilt aanbrengen:
+
+- `name`: naam voor het VCL-fragment. In dit voorbeeld hebben we de naam `blockbyuseragent` gebruikt.
+
+- `dynamic` : stelt de fragmentversie in. In dit voorbeeld hebben we `0` gebruikt. Zie de [ Snelle fragmenten VCL ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) voor gedetailleerde informatie van het gegevensmodel.
+
+- `type` - Geeft het type VCL-fragment op, dat de locatie van het fragment in de gegenereerde VCL-code bepaalt. In dit voorbeeld, gebruikten wij `recv`, zie de [ VCL fragmentverwijzing ](https://docs.fastly.com/api/config#api-section-snippet) voor de lijst van fragmenttypes.
+
+- `priority`: hiermee wordt bepaald wanneer het VCL-fragment wordt uitgevoerd. In dit voorbeeld wordt prioriteit `5` gebruikt om direct te starten en te controleren of een beheerdersverzoek afkomstig is van een toegestaan IP-adres.
+
+- `content`: Het fragment van VCL-code dat moet worden uitgevoerd, dat het client-IP-adres controleert. Als IP in ACL van Edge is, wordt het geblokkeerd van toegang met een `405 Not allowed` fout voor de volledige website. Alle andere client-IP-adressen hebben toegang.
+
+Voor gedetailleerde informatie over het gebruiken van fragmenten VCL om inkomende verzoeken te blokkeren, zie [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+
+>[!ENDSHADEBOX]
 
 ## Verificatiegegevens ophalen voor API-toegang
 
