@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL General] van Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ Voor meer informatie over het veranderen van deze montages, zie [ enig-opslagwij
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Algemeen | Wanneer toegelaten voor enig-opslaginstallaties, verbergt het vakje van het configuratiebereik en verwante gebiedslabels Opties: `Yes` / `No` <br/>**_Nota:_**de enig-opslagwijze wordt genegeerd voor opslag met meer dan één mening.<br/> Als u de modus Eén winkel inschakelt, worden alle specifieke gegevens van de catalogus en de productopslag gekopieerd van de standaardwinkelweergave naar het volledige weergavebereik van de winkel. De catalogus- en productgegevens worden alleen gekopieerd als de winkel slechts over één voorvertoning beschikt. Als de opslag één gehandicapte opslagmening en één toegelaten opslagvoorproef heeft zal het geen catalogus en productgegevens kopiëren.<br/> Als u de modus Eén winkel inschakelt, worden de specifieke configuratie-instellingen voor de opslag genegeerd voor gegevens die specifiek zijn voor de inhoud. In plaats daarvan, gebruikt het configuratiemontages die op het globale niveauwerkingsgebied worden bepaald om consistentie tussen Admin UI en opslag te verzekeren. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![ Algemeen > de Diensten van Gegevens ](./assets/general-data-services.png)<!-- zoom -->
+
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | Algemeen | Deze configuratie wordt uitgezet door gebrek als u een gezondheidszorgklant bent en de ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation) uitbreiding van HIPAA [ van de Diensten van Gegevens {geïnstalleerd. Als gevolg hiervan worden opslaggebeurtenisgegevens die worden gebruikt door Live Search en Product Recommendations niet meer vastgelegd. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Om storefront gebeurtenisgegevens voor gebruik door te blijven vangen en verzenden [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) en [ de diensten van Recommendations van het Product ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), plaatste **Gebeurtenissen van Commerce Toegelaten** aan `Yes`. |
 
 {style="table-layout:auto"}

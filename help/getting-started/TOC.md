@@ -5,9 +5,9 @@ breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
    + [Uw account delen](commerce-account-share.md)
    + [Een account overdragen](commerce-account-transfer.md)
 + Naleving van site {#compliance}
-   + [HIPAA-gereedheid op Adobe Commerce](hipaa-ready-service.md)
+   + HIPAA-gereedheid op Adobe Commerce {#hipaa-ready-service}
+      + [Overzicht](hipaa/overview.md)
+      + [Operationele richtsnoeren](hipaa/operations.md)
    + Privacy {#privacy}
       + [Privacybeleid opslaan](privacy-policy.md)
       + [CCPA-conformiteit](compliance-ccpa.md)
