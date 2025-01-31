@@ -3,7 +3,7 @@ title: De Experience Manager Assets-integratie installeren en configureren
 description: Leer hoe te om  [!DNL AEM Assets Integration for Adobe Commerce]  op een instantie van Adobe Commerce te installeren en te vormen.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ De AEM Assets Integration voor Commerce heeft de volgende systeem- en configurat
 
 **de vereisten van de Configuratie**
 
-- Account instellen en machtigingen
+- Account instellen en machtigingen:
+
    - [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn
+
    - [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
 
 >[!TIP]

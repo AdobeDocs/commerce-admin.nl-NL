@@ -3,9 +3,9 @@ title: Elementsynchronisatie inschakelen
 description: Leer hoe u uw Adobe Commerce- en Experience Manager Assets-projecten kunt verbinden om de synchronisatie van bedrijfsmiddelen tussen deze twee systemen mogelijk te maken.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
+source-git-commit: e9b3ede8945de0a6ed0cdb02e5675d736764d3e4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,14 @@ Voor aanvankelijke onboarding, gebruik het gebrek *Gelijke door product sku* reg
 ## Vereisten
 
 - [Experience Manager Assets configureren AEM Commerce-middelen beheren](#aem-assets-configure-aem)
+
 - [ installeer en vorm de Integratie van AEM Assets voor Commerce ](#aem-assets-configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
+
+- Creeer een steunkaartje aan verzoekenablement voor de Integratie van AEM Assets. U moet de waarden **[!UICONTROL Program ID]** , **[!UICONTROL Environment ID]** en **[!UICONTROL IMS Org ID]** opgeven.
+
+  >[!TIP]
+  >
+  > (Optioneel) Geef de **[!UICONTROL Asset Selector IMS Client ID]** op, indien beschikbaar.
 
 ## De verbinding configureren
 
@@ -43,11 +50,11 @@ Voor aanvankelijke onboarding, gebruik het gebrek *Gelijke door product sku* reg
 
 1. Voer de AEM Assets-omgeving **[!UICONTROL Program ID]** en **[!UICONTROL Environment ID]** in.
 
-1. Ga ** [!UICONTROL Asset Selector IMS Client ID] in.
+1. Voer de **[!UICONTROL Asset Selector IMS Client ID]** in, indien beschikbaar.
 
-   [ identiteitskaart IMS ](../getting-started/adobe-ims-config.md) staat u toe om AEM Assets met de Bouwer van de Pagina te integreren.
+   [ identiteitskaart IMS ](../getting-started/adobe-ims-config.md) wordt vereist door [[!UICONTROL Assets Selector] ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), die beelden voor categorieën en/of [!DNL Page Builder] selecteert.
 
-1. Selecteer [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** voor het verifiëren van aanvragen tussen Commerce en de service voor het afstemmen van elementen.
+1. Selecteer [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) voor het verifiëren van aanvragen tussen Commerce en de service voor het afstemmen van elementen.
 
 1. Commerce toestaan binnenkomende updates van AEM Assets te accepteren door **[!UICONTROL Integration enabled]** in te stellen op `Yes` .
 
