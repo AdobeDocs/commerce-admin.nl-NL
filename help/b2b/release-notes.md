@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ De B2B v1.5.0 versie omvat nieuwe eigenschappen, kwaliteitsverbeteringen, en ins
 ![ Nieuw ](../assets/new.svg) <!--B2B-2747--> **het werkingsgebiedselecteur van het Bedrijf** - verstrekt capaciteit voor bedrijfgebruikers die aan veelvoudige bedrijven worden toegewezen om bedrijven op de storefront te veranderen. Wanneer het werkingsgebied wordt geschakeld, werken de gegevens bij om de informatie te tonen die op de nieuwe bedrijfcontext wordt gebaseerd. Als het nieuwe bedrijf bijvoorbeeld een andere gedeelde catalogus gebruikt, ziet de gebruiker van het bedrijf producten, prijzen en andere informatie op basis van de nieuwe gedeelde catalogus. De inhoud met betrekking tot orden, citaten, citaatmalplaatjes werkt ook bij gebaseerd op de context van het geselecteerde bedrijf.
 
 >[!NOTE]
->
->Als de gebruiker van het bedrijf van bedrijven met punten in het winkelwagentje overschakelt, werk het karretje bij om productassortiment, de tarifering en de promotionele kortingen op basis van de nieuwe bedrijfcontext te weerspiegelen.
+>De inhoud van het winkelwagentje weerspiegelt de items die door de huidige klant zijn geselecteerd. Als de klant een actieve winkelwagentje heeft en een ander bedrijf selecteert, wordt hen ertoe aangezet om de wagentje bij te werken om de productassortiment, de tarifering, en promotionele kortingen te weerspiegelen die op de nieuwe bedrijfcontext worden gebaseerd. Producten die niet beschikbaar zijn in de catalogus van het nieuwe bedrijf, worden uit het winkelwagentje verwijderd. Als het product een verschillende prijs of een beschikbaarheid heeft, werkt het karretje bij om de gegevens te weerspiegelen beschikbaar in de context van het geselecteerde bedrijf.<!--B2B-4222-->
 
 ![ Vaste kwestie ](../assets/fix.svg)<!--ACP2E-1933--> de beheerders van het Bedrijf kunnen bedrijfgebruikers van de storefront nu toevoegen. Eerder heeft Commerce een fout geregistreerd toen een Admin-gebruiker probeerde een nieuwe gebruiker toe te voegen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123` .
 
