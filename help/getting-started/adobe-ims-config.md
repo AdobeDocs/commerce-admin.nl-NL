@@ -3,7 +3,7 @@ title: Commerce Admin Integration met ID configureren
 description: Volg deze optionele procedure voor het integreren van Adobe Commerce Admin-gebruikersaccountaanmeldingen met Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
+source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Om projecten voor een organisatie tot stand te brengen, moet de rekening Admin v
 1. Klik op **[!UICONTROL Add API]** op de nieuwe projectpagina.
 1. Selecteer **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]** .
 1. Selecteer **[!UICONTROL Oauth 2.0 Web]** .
-1. Geef de waarde **[!UICONTROL Redirect URI]** op: `https://<hostname>/`
-1. Geef de waarde **[!UICONTROL Redirect URI pattern]** op: `https://<hostname>/.*`
+1. Geef de waarde **[!UICONTROL Redirect URI]** op: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Geef de waarde **[!UICONTROL Redirect URI pattern]** op: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    U kunt punten in de hostnaam laten springen door vóór de punten `\\` te gaan. Als u een jokerteken toevoegt aan het einde van de URL, wordt de geheime sleutel Adobe Commerce Admin ondersteund.
 
