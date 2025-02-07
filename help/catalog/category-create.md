@@ -3,9 +3,9 @@ title: Categorieën maken
 description: U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
    - Als u afbeeldingen van Media Storage wilt gebruiken, klikt u op **[!UICONTROL Select from Gallery]** en selecteert u de afbeelding die u voor de categorie wilt weergeven.
 
+   Binnen de Galerij van Media, kunt u de [ Integratie van Adobe Stock ](../content-design/adobe-stock.md) ook gebruiken om een aangewezen beeld te vinden door **[!UICONTROL Search Adobe Stock]** te klikken.
+
    >[!NOTE]
    >
-   >Binnen de Galerij van Media, kunt u de [ Integratie van Adobe Stock ](../content-design/adobe-stock.md) ook gebruiken om een aangewezen beeld te vinden door **[!UICONTROL Search Adobe Stock]** te klikken.
+   > Als u AEM Assets hebt toegelaten, zie [ categorieën ](../content-design/aem-assets-manage.md) voor meer informatie leiden.
 
 1. Voer bij **[!UICONTROL Description]** de tekst of andere inhoud in die u wilt weergeven op de bestemmingspagina van de categorie.
 
