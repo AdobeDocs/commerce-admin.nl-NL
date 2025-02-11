@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 >
 >Zie [ de beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor informatie over versies van de B2B uitbreiding van Commerce die voor beschikbare versies van Adobe Commerce wordt gesteund.
 
+## B2B 1.5.1
+
+*11 Februari, 2025*
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+Compatibel met Adobe Commerce-versies 2.4.8-beta1 tot 2.4.8-beta2, 2.4.7 tot 2.4.7-p3, 2.4.6 tot 2.4.9-p8
+
+De versie B2B v1.5.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen.
+
+### Bedrijf
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-4422 --> als een klant probeert om bedrijven op de pagina van de Details van het Citaat te schakelen, richt het systeem nu de klant aan een *Ontkende Toegang* pagina om ervoor te zorgen dat een citaat dat voor één bedrijf wordt gecreeerd niet kan worden gebruikt om een orde met de prijzen van een ander bedrijf te plaatsen. Voorheen kon een gebruiker een prijsopgave voor één bedrijf maken en vervolgens overschakelen op een ander bedrijf om een bestelling met verschillende prijzen te plaatsen.
+
+### Korting op regelobjecten
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-2938 --> Verbeterde systeemefficiency door een prestatiesdegradatie te richten die in het scenario van de citaatherberekening wordt waargenomen. Eerder werden twee nieuwe entiteiten toegevoegd aan elk onderdeel van de winkelwagentje, wat een merkbare toename van de databaseaanvragen veroorzaakte, wat tot langzamere prestaties leidde.
+
+### Verhandelbaar aanhalingsteken
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-3820 --> het systeem handhaaft nu de positie van elementen UI wanneer de bevestiging van JavaScript wordt toegepast op de *[!UICONTROL min/max qty]* gebieden op de pagina van het Malplaatje van het Citaat van de Opbrengst van de Luma. Als u eerder JavaScript-validatie toepaste op deze velden, werden andere UI-elementen op de pagina verschoven.
+
+### Winkelwagentje
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-4222 --> introduceerde een nieuw het winkelwagentbeheerssysteem dat wordt ontworpen om de het winkelen ervaring voor gebruikers te stroomlijnen die veelvoudige bedrijfrekeningen beheren. Het nieuwe systeem associeert winkelwagentjes met individuele bedrijven eerder dan de klantenrekening om de het winkelen ervaring te stroomlijnen en het werkschema te verbeteren door de volgende mogelijkheden te steunen.
+
+- **bedrijf-specifieke wortels:** - De winkelwagentjes zijn nu verbonden met individuele bedrijven om bedrijf-specifieke tarifering en productopties te steunen.
+- **Naadloze omschakeling** - de gebruikers kunnen gemakkelijk tussen verschillende bedrijfrekeningen schakelen zonder de inhoud van de kar van elk bedrijf te beïnvloeden.
+- **Contextuele Integriteit** - Alle worteldetails blijven binnen de context van het respectieve bedrijf, die een verenigbare en betrouwbare het winkelen ervaring verstrekken.
 
 ## B2B 1.5.0
 
@@ -192,7 +220,7 @@ Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbar
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce toont nu correcte details tijdens betaling wanneer de optie van de Orden van de Aankoop wordt toegelaten en een virtueel citaat dat met de PayPal betalingsoptie werd gecreeerd is geselecteerd. Eerder werden de totalen onder deze omstandigheden als nul weergegeven.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1504--> de fouten van de Bevestiging komen niet meer voor wanneer u probeert om een bedrijf met een kredietgrens te bewaren die 999 overschrijdt. Eerder, voor bedrijfskredietgrenzen groter dan 999, nam de handel van de Adobe een komma separator op, die een bevestigingsfout veroorzaakte die updates verhinderde worden bewaard.
+![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1504--> de fouten van de Bevestiging komen niet meer voor wanneer u probeert om een bedrijf met een kredietgrens te bewaren die 999 overschrijdt. Eerder, voor bedrijfskredietgrenzen groter dan 999, voegde de handel van Adobe een komma separator in, die een bevestigingsfout veroorzaakte die updates verhinderde worden bewaard.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1474--> het geselecteerde verschepende adres blijft nu onveranderd wanneer u een orde met een onderhandelbaar citaat plaatst. Eerder, toen u een bestelling plaatste, werd het geselecteerde verzendadres veranderd in het standaardverzendadres.
 
@@ -296,7 +324,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-406--> Adobe Commerce berekent nu correct een groot totaal van een onderhandelbaar citaat wanneer het **[!UICONTROL Enable Cross Border Trade]** plaatsen van de belastingberekening wordt toegelaten.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-322--> De configureerbare producten worden nu verplaatst naar de laatste positie in de productlijst nadat de voorraad wordt bijgewerkt wanneer **[!UICONTROL Move out of stock to the bottom]** het plaatsen wordt toegelaten. Er wordt een nieuwe aangepaste databasequery geïmplementeerd om ervoor te zorgen dat de sorteervolgorde voor de index van de Elasticsearch nu overeenkomt met de sorteervolgorde voor beheerders. Eerder, werden de configureerbare producten en hun kindproducten niet verplaatst naar de bodem van de lijst toen dit het plaatsen werd toegelaten.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-322--> De configureerbare producten worden nu verplaatst naar de laatste positie in de productlijst nadat de voorraad wordt bijgewerkt wanneer **[!UICONTROL Move out of stock to the bottom]** het plaatsen wordt toegelaten. Er wordt een nieuwe aangepaste databasequery geïmplementeerd om ervoor te zorgen dat de sorteervolgorde voor de Elasticsearch-index nu overeenkomt met de sorteervolgorde voor beheerders. Eerder, werden de configureerbare producten en hun kindproducten niet verplaatst naar de bodem van de lijst toen dit het plaatsen werd toegelaten.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-308--> E-mail van de Orde van de Aankoop neemt nu het e-mailverzenden van het plaatsen van elke website in een multi-plaatsplaatsing. Een controle op de instelling **[!UICONTROL Disable Email Communications]** wordt toegevoegd aan de aangepaste logica voor e-mailwachtrijen. Eerder heeft Adobe Commerce de instelling voor het verzenden van e-mail voor de secundaire website niet gerespecteerd.
 
@@ -328,7 +356,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41985--> de tijd die wordt vereist om van Adobe Commerce 2.3.x aan Adobe Commerce 2.4.x in plaatsingen met meer dan 100.000 bedrijfrollen te bevorderen is wezenlijk verminderd.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42153--> Het verzoek van de POST `V1/order/:orderId/invoice` steunt nu de verwezenlijking van gedeeltelijke facturen wanneer de **[!UICONTROL Payment on Account]** betalingsmethode wordt toegelaten. Eerder heeft Adobe Commerce deze fout gegenereerd: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity` . [ GitHub-32428 ](https://github.com/magento/magento2/issues/32428)
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42153--> Het POST `V1/order/:orderId/invoice` verzoek steunt nu de verwezenlijking van gedeeltelijke facturen wanneer de **[!UICONTROL Payment on Account]** betalingsmethode wordt toegelaten. Eerder heeft Adobe Commerce deze fout gegenereerd: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity` . [ GitHub-32428 ](https://github.com/magento/magento2/issues/32428)
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro werkt nu zoals verwacht met B2B verhandelbaar citaat wanneer de wagentje van de klant andere producten bevat. Adobe Commerce verwerkt de bestelling nu met succes en stuurt een e-mail naar de klant zoals u had verwacht. Eerder gaf Adobe Commerce een fatale fout en stuurde een bevestigingsbericht naar de klant met daarin de nulwaarden.
 
@@ -438,7 +466,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ### Aanvraaglijsten
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40426--> De handelaren kunnen het POST `rest/all/V1/requisition_lists` eindpunt nu gebruiken om een verzoeklijst voor een klant tot stand te brengen. Eerder heeft Adobe Commerce deze fout van 400 gegenereerd toen u een aanvraaglijst probeerde te maken: `Could not save Requisition List` .
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40426--> De handelaren kunnen het POST `rest/all/V1/requisition_lists` eindpunt nu gebruiken om een vraaglijst voor een klant tot stand te brengen. Eerder heeft Adobe Commerce deze fout van 400 gegenereerd toen u een aanvraaglijst probeerde te maken: `Could not save Requisition List` .
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41123--> De **[!UICONTROL Add to Requisition List]** knoop verschijnt nu voor de producten van het winkelwagentje in voorraad wanneer het karretje ook uit-van-voorraad producten bevat. Als een winkelwagentje twee producten bevatte, waarvan er één uit voorraad was, werd de knop _[!UICONTROL Add to Requisition List]_eerder voor geen van beide producten weergegeven.
 
@@ -574,7 +602,7 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) Adobe Commerce verzendt nu een e-mailbericht bevestigend dat een klant toestemming heeft om de aangewezen kredietgrens te overschrijden wanneer een handelaar **[!UICONTROL Allow To Exceed Credit Limit]** het plaatsen toelaat. Eerder gaf het e-mailbericht van Adobe Commerce aan dat de klant geen toestemming had om de limiet te overschrijden. <!--- MC-34584-->
 
-![ Vaste kwestie ](../assets/fix.svg) de container van de HTML die productprijs op verzoeklijsten omringt wordt nu correct teruggegeven voor de kinderen van gebundelde producten. <!--- MC-36331-->
+![ Vaste kwestie ](../assets/fix.svg) de container van HTML die productprijs op aanvraaglijsten omringt wordt nu correct teruggegeven voor de kinderen van gebundelde producten. <!--- MC-36331-->
 
 ![ Vaste kwestie ](../assets/fix.svg) de Merchants kunnen nu de taal aanwijzen waarin de bedrijfgebruiker e-mail wordt verzonden wanneer het creëren van een bedrijf in meertalige plaatsingen. Eerder, laat het drop-down menu verkopers toe om de aangewezen opslagmening te selecteren en de taal werd niet getoond.  <!--- MC-35777-->
 
@@ -590,7 +618,7 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste de toestemmingen van de 1} Categorie van de kwestie {veranderen niet meer wanneer een nieuw product aan een openbare gedeelde catalogus wordt toegewezen. ](../assets/fix.svg) Eerder werden categorietoestemmingen gedupliceerd. <!--- MC-34386-->
 
-![ Vaste kwestie ](../assets/fix.svg) de REST API eindpuntPUT `rest/default/V1/company/{id}`, die wordt gebruikt om bedrijfs-e-mail bij te werken, is niet meer case-sensitive. <!--- MC-34308-->
+![ Vaste kwestie ](../assets/fix.svg) het REST API eindpunt PUT `rest/default/V1/company/{id}`, dat wordt gebruikt om bedrijfs-e-mail bij te werken, is niet meer case-sensitive. <!--- MC-34308-->
 
 ![ Vaste kwestie ](../assets/fix.svg) het onbruikbaar maken beloningsmodules beïnvloedt niet meer B2B eigenschappen op klantenrekeningen. Eerder, toen de beloningsmodules onbruikbaar werden gemaakt, werden de volgende B2B-Verwante lusjes niet getoond: Het Profiel van het Bedrijf, de Gebruikers van het Bedrijf, en Rollen en Toestemmingen.<!--- MC-34191-->
 
