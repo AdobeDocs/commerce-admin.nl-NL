@@ -3,7 +3,7 @@ title: Referentie productgegevenskenmerken
 description: Gebruik deze referentie van productgegevenskenmerken wanneer u werkt met het importeren en exporteren van productgegevens.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,10 +24,10 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 | `store_view_code` | Hiermee geeft u de specifieke opmaakweergaven aan van de locatie waar het product beschikbaar is. Als dit leeg is, is het product beschikbaar in de standaardwinkelweergave. Bijvoorbeeld: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Hiermee wijst u het product toe aan een specifieke kenmerkset of productsjabloon, afhankelijk van het producttype. Nadat het product is gemaakt, kan de kenmerkset niet meer worden gewijzigd. Bijvoorbeeld: `default` |
 | `product_type` | Geeft het type product aan. Waarden:<br/>`simple` — Materiële goederen die gewoonlijk als afzonderlijke eenheden of in vaste hoeveelheden worden verkocht.<br/>`grouped` — Een groep afzonderlijke producten die als een set wordt verkocht.<br/>`configurable` — Een product met meerdere opties die de klant moet selecteren voordat hij een aankoop doet. De inventaris kan voor elke reeks variaties worden beheerd omdat zij een afzonderlijk product met verschillende SKU vertegenwoordigen. Een combinatie van kleur en grootte voor een configureerbaar product is bijvoorbeeld gekoppeld aan een specifieke SKU in de catalogus.<br/>`virtual` — Een niet-tastbaar product waarvoor geen verzending vereist is en dat niet in voorraad wordt gehouden. Voorbeelden zijn services, abonnementen en abonnementen.<br/>`bundle` — Een aanpasbare productset met eenvoudige producten die samen worden verkocht. |
-| `categories` | Hiermee geeft u elke categorie aan die aan het product is toegewezen. Afzonderlijke categorieën en subcategorieën met een slash. Als u meerdere categoriepaden wilt aangeven, scheidt u elk pad met een pijp | symbool. Bijvoorbeeld: `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | Hiermee geeft u elke categorie aan die aan het product is toegewezen. Afzonderlijke categorieën en subcategorieën met een slash. Als u meerdere categoriepaden wilt aangeven, scheidt u elk pad met een verticale balk \| symbool. Bijvoorbeeld: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | De websitecode van elke website waar het product beschikbaar is. Een enkel product kan aan meerdere websites worden toegewezen of tot één worden beperkt. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `base` of `base,website2` |
 | `name` | De productnaam wordt in alle productaanbiedingen weergegeven en is de naam die klanten gebruiken om het product te identificeren. |
-| `description` | De productbeschrijving bevat gedetailleerde informatie over het product en kan eenvoudige HTML-tags bevatten. |
+| `description` | De productbeschrijving bevat gedetailleerde informatie over het product, waaronder eenvoudige HTML-tags. |
 | `short_description` | Het gebruik van de korte productbeschrijving is afhankelijk van het thema. Het wordt mogelijk in productaanbiedingen weergegeven en wordt soms gebruikt in RSS-voederaanbiedingen die naar winkelsites worden gestuurd. |
 | `weight` | Het gewicht van het afzonderlijke product. Het werkelijke productgewicht wordt door de vervoerder bepaald op het tijdstip van verzending. |
 | product_online | Hiermee wordt bepaald of het product beschikbaar is voor verkoop in de winkel. Waarden:<br/>`1` — (ja) het product wordt toegelaten, en beschikbaar voor verkoop.<br/>`2` — (Nee) Het product is uitgeschakeld en niet te koop. |
