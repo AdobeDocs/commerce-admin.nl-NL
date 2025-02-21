@@ -3,9 +3,9 @@ title: Productkenmerken maken en verwijderen
 description: Leer over het creëren van en het verwijderen van productattributen, die worden gebruikt om specifieke kenmerken van de producten in uw catalogus te beschrijven.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
    | Eigenschap | Beschrijving |
    |--- |--- |
    | `Text Field` | Een invoerveld bestaande uit één regel voor tekst. |
-   | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. Met de WYSIWYG Editor kunt u de tekst opmaken met HTML-tags of de tags rechtstreeks in de tekst invoeren. |
+   | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de WYSIWYG Editor gebruiken om de tekst op te maken met HTML-tags of u kunt de tags rechtstreeks in de tekst invoeren. |
    | `Text Editor` | Een volledig werkende tekstredacteur bij de attributenplaats. |
    | Datum | Toont een datumwaarde in het [ aangewezen formaat ](attributes-input-types.md#date-and-time-options) en [ tijdzone ](../getting-started/store-details.md#locale-options). De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
@@ -63,6 +63,10 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
 ## Stap 2: Beschrijf de geavanceerde eigenschappen (indien nodig)
 
 1. Voer een unieke **[!UICONTROL Attribute Code]** in in kleine letters en zonder spaties.
+
+   >[!NOTE]
+   >
+   >Het wordt afgeraden de waarde `type` in het veld [!UICONTROL Attribute Code] te gebruiken. Dit kan fouten veroorzaken omdat de waarde `type` gereserveerd is voor systeemgebruik.
 
    ![ attributen van het Product - geavanceerde eigenschappen ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -128,7 +132,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
 
 1. Als u wilt dat de tekst kan worden opgemaakt met HTML, stelt u **[!UICONTROL Allow HTML Tags on Frontend]** in op `Yes` .
 
-   Deze instelling stelt de WYSIWYG-editor beschikbaar voor het veld.
+   Met deze instelling maakt u de WYSIWYG-editor beschikbaar voor het veld.
 
 1. Stel **[!UICONTROL Visible on Catalog Pages on Storefront]** in op `Yes` om het kenmerk op de productpagina op te nemen.
 
