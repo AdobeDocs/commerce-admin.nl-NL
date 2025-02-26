@@ -3,9 +3,9 @@ title: Deel a [!DNL Commerce]  rekening
 description: Leer hoe te om beperkte toegang tot uw  [!DNL Commerce]  rekening voor andere  [!DNL Commerce]  rekeninghouders te verlenen.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 
 >[!NOTE]
 >
->Alle acties die worden ondernomen door gebruikers met gedeelde toegang vallen uitsluitend onder de verantwoordelijkheid van de primaire rekeninghouder. Adobe is niet verantwoordelijk voor handelingen die worden uitgevoerd door gebruikers die gedeelde toegang tot uw account hebben.
+>Alle acties die worden ondernomen door gebruikers met gedeelde toegang vallen uitsluitend onder de verantwoordelijkheid van de primaire rekeninghouder. Adobe is niet verantwoordelijk voor acties die worden uitgevoerd door gebruikers die gedeelde toegang tot uw account hebben.
 
 ![ Gedeelde toegangsinstellingen ](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 
 1. Alvorens u begint, krijg de volgende informatie van de [!DNL Commerce] rekening van **nieuwe gedeelde toegangsonderneming**:
 
-   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com.
+   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com. Zie [ een rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
    - `MAGE ID/Account ID (MAG00XXXXXXX)` wordt getoond in de upper-left hoek van het _[!UICONTROL Magento]_lusje, enkel boven de **Logout**verbinding.
    - Het `Email` -adres dat aan het account is gekoppeld.
 

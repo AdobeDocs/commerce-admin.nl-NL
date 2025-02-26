@@ -4,9 +4,9 @@ description: Leer hoe u Admin-gebruikersaccounts maakt en rollen toewijst om beh
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Wanneer uw winkel voor het eerst wordt geïnstalleerd, wordt een standaard beheerdersaccount gemaakt met aanmeldingsgegevens die u volledige beheerrechten geven. Als beste praktijken, zou u een andere gebruikersrekening met volledige toegang van de Beheerder moeten tot stand brengen. Op die manier kunt u één account gebruiken voor uw dagelijkse beheeractiviteiten en de andere reserveren als een &quot;Super Admin&quot;-account. Dit kan nuttig zijn als u uw regelmatige geloofsbrieven vergeet, of zij op één of andere manier onbruikbaar worden.
 
-Als er anderen op uw team of dienstverleners zijn die toegang nodig hebben, kunt u een afzonderlijke gebruikersrekening voor elk tot stand brengen en beperkte toegang toewijzen die op hun bedrijfsbehoefte wordt gebaseerd om te weten. Om de websites of de opslag te beperken die de gebruikers in Admin kunnen toegang hebben, moet u eerst [ een rol ](permissions-user-roles.md) met beperkt werkingsgebied en slechts de noodzakelijke geselecteerde middelen tot stand brengen. Vervolgens kunt u de rol toewijzen aan een specifieke gebruikersaccount. Admin-gebruikers die zijn toegewezen aan een beperkte rol, kunnen alleen gegevens zien en wijzigen voor websites of winkels die zijn gekoppeld aan de rol, maar kunnen geen algemene instellingen of gegevens wijzigen.
+Als andere teamleden of dienstverleners toegang nodig hebben, kunt u individuele gebruikersrekeningen voor hen tot stand brengen en beperkte toegang toewijzen die op hun specifieke bedrijfsbehoeften wordt gebaseerd. Om de websites of de opslag te beperken die de gebruikers in Admin kunnen toegang hebben, moet u eerst [ een rol ](permissions-user-roles.md) met beperkt werkingsgebied en slechts de noodzakelijke geselecteerde middelen tot stand brengen. Vervolgens kunt u de rol toewijzen aan een specifieke gebruikersaccount. Admin-gebruikers die zijn toegewezen aan een beperkte rol, kunnen alleen gegevens zien en wijzigen voor websites of winkels die zijn gekoppeld aan de rol, maar kunnen geen algemene instellingen of gegevens wijzigen.
 
 >[!NOTE]
 >
->Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar aanmeldingsgegevens voor de Adobe gebruiken, niet zijn of haar Commerce-gegevens. Zie [ het Overzicht van de Integratie van de Dienst van Identity Management van de Adobe (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar Adobe-gegevens gebruiken, niet zijn of haar Commerce-gegevens. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de gebruikersrekening ook plaatsen.
 

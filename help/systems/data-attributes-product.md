@@ -3,9 +3,9 @@ title: Referentie productgegevenskenmerken
 description: Gebruik deze referentie van productgegevenskenmerken wanneer u werkt met het importeren en exporteren van productgegevens.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 |--- |--- |
 | `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_**Een SKU langer dan 64 karakters veroorzaakt invoer om te ontbreken. |
 | `store_view_code` | Hiermee geeft u de specifieke opmaakweergaven aan van de locatie waar het product beschikbaar is. Als dit leeg is, is het product beschikbaar in de standaardwinkelweergave. Bijvoorbeeld: `storeview1`, `english`, `spanish` |
-| `attribute_set_code` | Hiermee wijst u het product toe aan een specifieke kenmerkset of productsjabloon, afhankelijk van het producttype. Nadat het product is gemaakt, kan de kenmerkset niet meer worden gewijzigd. Bijvoorbeeld: `default` |
+| `attribute_set_code` | Hiermee wijst u het product toe aan een specifieke kenmerkset of productsjabloon, afhankelijk van het producttype. Bijvoorbeeld: `default`<br><br> nadat het product wordt gecreeerd, kan de kenmerkenreeks niet worden veranderd gebruikend de de invoerfunctionaliteit. U kunt de kenmerkset echter wijzigen via de beheerdersset en het product opnieuw exporteren om het CSV-bestand bij te werken. |
 | `product_type` | Geeft het type product aan. Waarden:<br/>`simple` — Materiële goederen die gewoonlijk als afzonderlijke eenheden of in vaste hoeveelheden worden verkocht.<br/>`grouped` — Een groep afzonderlijke producten die als een set wordt verkocht.<br/>`configurable` — Een product met meerdere opties die de klant moet selecteren voordat hij een aankoop doet. De inventaris kan voor elke reeks variaties worden beheerd omdat zij een afzonderlijk product met verschillende SKU vertegenwoordigen. Een combinatie van kleur en grootte voor een configureerbaar product is bijvoorbeeld gekoppeld aan een specifieke SKU in de catalogus.<br/>`virtual` — Een niet-tastbaar product waarvoor geen verzending vereist is en dat niet in voorraad wordt gehouden. Voorbeelden zijn services, abonnementen en abonnementen.<br/>`bundle` — Een aanpasbare productset met eenvoudige producten die samen worden verkocht. |
 | `categories` | Hiermee geeft u elke categorie aan die aan het product is toegewezen. Afzonderlijke categorieën en subcategorieën met een slash. Als u meerdere categoriepaden wilt aangeven, scheidt u elk pad met een verticale balk \| symbool. Bijvoorbeeld: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | De websitecode van elke website waar het product beschikbaar is. Een enkel product kan aan meerdere websites worden toegewezen of tot één worden beperkt. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `base` of `base,website2` |
