@@ -1,11 +1,11 @@
 ---
 user-guide-title: Inhoud- en ontwerphandleiding
-user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce en Magento Open Source beheerders en eCommerce-marketers.
+user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce- en Magento Open Source-beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,16 @@ ht-degree: 0%
       - [Beheer van bedrijfsmiddelen](media-gallery-asset-management.md)
       - [Mapbeheer](media-gallery-folder-management.md)
       - [Optimalisatie van afbeeldingen](media-gallery-image-optimization.md)
-- Asset Management met AEM Assets {#aem-asset-management}
-   - [AEM Assets-integratie voor Commerce](aem-assets-integration.md)
-   - Integratie instellen {#onboarding}
-      - [Overzicht](aem-assets-setup.md)
+- AEM Assets-integratie voor Commerce {#aem-asset-management}
+   - [Overzicht van integratie](aem-assets-integration.md)
+   - [Opmerkingen bij de release](aem-assets-release-notes.md)
+   - Aan de slag {#onboarding}
+      - [AEM Assets instellen](aem-assets-onboard.md)
       - [AEM Assets configureren](aem-assets-configure-aem.md)
       - [Adobe Commerce configureren](aem-assets-configure-commerce.md)
       - [Elementsynchronisatie inschakelen](aem-assets-setup-synchronization.md)
-   - [Elementen beheren](aem-assets-manage.md)
+   - Elementen beheren {#manage}
+      - [AEM Assets gebruiken met Commerce](aem-assets-manage.md)
 - Media {#media}
 - Inhoud stapelen {#staging}
    - [Overzicht](content-staging.md)

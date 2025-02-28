@@ -3,9 +3,9 @@ title: AEM Assets gebruiken
 description: Beheer uw media-elementen van uw winkel met AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Raadpleeg de volgende documentatie bij AEM Assets voor meer informatie.
 
 - [ keur activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
 
-## Categorieën beheren
+## Elementen toevoegen aan categorieën-inhoud
 
 U kunt elementen toevoegen aan uw cataloguscategorieën nadat u de AEM Assets-integratie hebt ingeschakeld en geconfigureerd:
 
