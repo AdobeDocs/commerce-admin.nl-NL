@@ -3,7 +3,7 @@ title: Adobe Experience Manager Assets-integratie voor Commerce
 description: Leer hoe te om Experience Manager Assets met uw  [!DNL Commerce]  instantie te integreren om tot ontelbare media activa voor gebruik in uw opslag toegang te hebben.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Bekijk deze video om te leren hoe Adobe Commerce en AEM Assets samenwerken om in
 
 ## Volgende stap
 
-[ de Integratie van AEM Assets van de opstelling voor Commerce ](aem-assets-onboard.md).
+[ de Integratie van AEM Assets van de opstelling voor Commerce ](aem-assets-getting-started.md).
 
 ## Ondersteuning
 
