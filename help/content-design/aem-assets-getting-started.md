@@ -1,27 +1,28 @@
 ---
 title: AEM Assets Integration instellen voor Commerce
-description: Leer hoe te aan boord van Experience Manager Assets met uw  [!DNL Commerce]  instantie om tot ontelbare media activa voor gebruik in uw opslag toegang te hebben.
+description: Leer hoe u uw Experience Manager Assets-omgeving kunt instellen en configureren om Commerce-middelen voor uw winkel te beheren.
 feature: CMS, Media, Configuration
-source-git-commit: c109edc9d9277baafd61da1df0f1917f07089353
+exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
+source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # AEM Assets Integration instellen voor Commerce
 
-Voor het instellen van de AEM Assets-integratie is beheerderstoegang vereist om de toepassings- en omgevingsconfiguratie aan te passen.
+Als u de Adobe Experience Manager Assets-integratie voor Commerce wilt instellen, hebt u beheerdersrechten nodig om de toepassings- en omgevingsconfiguratie aan te passen.
 
 - Administratieve toegang tot het Cloud Manager-programma waar de AEM Assets as a Cloud Service-omgevingen zijn ingericht.
 
-- Beheerbare toegang tot de Adobe Commerce-omgeving en mogelijkheid om API-sleutels op te halen of te genereren die vereist zijn voor verificatie.
+- Administratieve toegang tot de Adobe Commerce-omgeving en de mogelijkheid om de API-sleutels die vereist zijn voor verificatie op te halen of te genereren.
 
 ## Vereisten voor het gebruik van de integratie
 
 Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende vereisten voldoen:
 
-- De actieve vergunningen voor Adobe Commerce, AEM Assets, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+- De actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
@@ -38,14 +39,14 @@ Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende ve
 
 - **Officiële Oplossing van Adobe** - ontwikkeld, gehandhaafd, en volledig gesteund door Adobe, die stabiliteit en groepering met toekomstige platformverhogingen verzekeren.
 
-- **Adobe Beheerde Model van de Steun** - de hulp en het oplossen van problemen worden behandeld direct door Adobe, die vrede van mening en gestroomlijnde probleemresolutie verstrekt.
+- **Adobe Beheerde Model van de Steun** - Adobe behandelt hulp en het oplossen van problemen, die gemoedsrust en gestroomlijnde probleemresolutie verstrekken.
 
 ## Volgende stappen
 
 De integratie van Commerce met Experience Manager Assets mogelijk maken is een driestappenproces:
 
-1. [ vorm uw de activa van AEM project om de activa van Adobe Commerce te beheren ](aem-assets-configure-aem.md).
+1. [ vorm uw de activa van Adobe Experience Manager project om de activa van Adobe Commerce te beheren ](aem-assets-configure-aem.md).
 
-1. [ installeer de de montagesintegratieuitbreiding van AEM en vorm Adobe Commerce ](aem-assets-configure-aem.md).
+1. [ installeer de integratie van Adobe Experience Manager Assets voor de uitbreiding van Commerce en vorm Adobe Commerce ](aem-assets-configure-aem.md).
 
 1. [ laat activasynchronisatie ](aem-assets-setup-synchronization.md) toe.
