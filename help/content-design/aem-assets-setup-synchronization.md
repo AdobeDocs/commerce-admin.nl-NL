@@ -1,20 +1,20 @@
 ---
-title: Elementsynchronisatie inschakelen
+title: De integratie configureren
 description: Leer hoe u uw Adobe Commerce- en Experience Manager Assets-projecten kunt verbinden om de synchronisatie van bedrijfsmiddelen tussen deze twee systemen mogelijk te maken.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# Elementsynchronisatie inschakelen
+# De integratie configureren
 
-Schakel de synchronisatie van elementen in door de Commerce-omgevingsconfiguratie bij te werken en Commerce te verbinden met de AEM Assets-instantie. Dankzij deze integratie kunnen de elementen tussen Commerce en AEM Assets worden gesynchroniseerd, zodat productafbeeldingen en andere elementen altijd up-to-date zijn.
+Configureer de integratie door Commerce aan te sluiten op de AEM Assets-instantie en de bijbehorende strategie voor de synchronisatie van bedrijfsmiddelen te selecteren.
 
-Nadat u het AEM-middelenproject hebt geïdentificeerd, selecteert u de regel voor het synchroniseren van elementen tussen Adobe Commerce en AEM Assets.
+Nadat u het AEM Assets-project hebt geïdentificeerd, selecteert u de regel voor het synchroniseren van elementen tussen Adobe Commerce en AEM Assets.
 
 - **[!UICONTROL Match by product SKU]** - Standaard regel die SKU in de activameta-gegevens met het [ product SKU van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) aanpast om ervoor te zorgen dat de activa met de correcte producten worden geassocieerd.
 
@@ -24,11 +24,11 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 ## Vereisten
 
-- [AEM Assets configureren voor het beheer van Commerce-middelen](aem-assets-configure-aem.md)
+- [AEM Assets-pakket installeren](aem-assets-configure-aem.md)
 
-- [ installeer en vorm de Integratie van AEM Assets voor Commerce ](aem-assets-configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
+- [ installeer de pakketten van Adobe Commerce ](aem-assets-configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
 
-- Creeer een steunkaartje aan verzoekenablement voor de Integratie van AEM Assets. U moet de eigenschappen **[!UICONTROL Program ID]** , **[!UICONTROL Environment ID]** en **[!UICONTROL IMS Org ID]** opgeven voor de AEM Assets-ontwerpomgeving die u wilt verbinden met Commerce.
+- Maak een ondersteuningsticket voor de AEM Assets for Commerce Integration. Neem in het ticket de **[!UICONTROL Program ID]** , **[!UICONTROL Environment ID]** en **[!UICONTROL IMS Org ID]** op voor de AEM Assets-ontwerpomgeving die u met Commerce wilt verbinden.
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 1. Selecteer **[!UICONTROL Save Config]** om updates toe te passen en de synchronisatie van elementen te starten.
 
-   De configuratieupdate activeert het initiële synchronisatieproces, waardoor Commerce binnenkomende updates van AEM Assets kan accepteren. De tijd die nodig is voor synchronisatie is afhankelijk van het volume van de middelen en specifieke configuraties. De integratie gebruikt geautomatiseerde processen om de tijd die nodig is voor synchronisatie te minimaliseren.
+   De configuratieupdate activeert het eerste synchronisatieproces, zodat Commerce binnenkomende updates van AEM Assets kan accepteren. De tijd die nodig is voor synchronisatie is afhankelijk van het volume van elementen en specifieke configuraties. De integratie gebruikt geautomatiseerde processen om de tijd die nodig is voor synchronisatie te minimaliseren.
 
 ## Volgende stap
 

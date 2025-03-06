@@ -1,20 +1,20 @@
 ---
-title: Experience Manager Assets configureren
+title: AEM Assets-pakket installeren voor Commerce
 description: Voeg de metagegevens voor elementen toe die nodig zijn om de AEM Assets Integration voor Commerce in te schakelen voor het synchroniseren van elementen tussen Adobe Commerce- en Experience Manager Assets-projecten.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
-# Experience Manager Assets configureren
+# Het AEM Assets-pakket installeren
 
-Stel AEM as a Cloud Service in om Commerce-elementen te beheren door de AEM Assets-omgevingsconfiguratie bij te werken en metagegevens in de AEM Assets-ontwerpomgeving te configureren.
+Adobe biedt een projectsjabloon, `commerce-assets` , om Commerce-naamruimte en -metagegevensschemabronnen toe te voegen aan de Experience Manager Assets as a Cloud Service-omgevingsconfiguratie. Implementeer deze sjabloon in uw omgeving als een Maven-pakket. Configureer vervolgens de Commerce-metagegevens in de AEM Assets-ontwerpomgeving om de installatie te voltooien.
 
-Adobe verstrekt een het projectmalplaatje van AEM om namespace en de middelen van het meta-gegevensschema aan de de milieuconfiguratie van as a Cloud Service van AEM Assets toe te voegen. De sjabloon voegt toe:
+De sjabloon voegt de volgende bronnen toe aan de AEM Assets-ontwerpomgeving.
 
 - A [ douanenamespace ](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` om op Commerce betrekking hebbende eigenschappen te identificeren.
 
@@ -31,7 +31,7 @@ Adobe verstrekt een het projectmalplaatje van AEM om namespace en de middelen va
 - A [ steekproef geëtiketteerde en goedgekeurde activa van Commerce ](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` om aanvankelijke activasynchronisatie te steunen. Alleen goedgekeurde Commerce-middelen kunnen van AEM Assets naar Adobe Commerce worden gesynchroniseerd.
 
 >[!NOTE]
->Voor extra informatie over het Commerce-Assets AEM projectmalplaatje, zie [ Leesmij ](https://github.com/ankumalh/assets-commerce).
+>Voor extra informatie over het `commerce-assets` het projectmalplaatje van AEM, zie [ Leesmij ](https://github.com/ankumalh/assets-commerce).
 
 U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken voor het bijwerken van de omgevingsconfiguratie:
 
@@ -41,7 +41,7 @@ U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken
 
 - Begrijp [ het projectstructuur van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
 
-## AEM Assets-omgevingsconfiguratie bijwerken en implementeren
+## Het pakket `commerce-assets` installeren
 
 1. Creëer vanuit de Cloud Manager productie- en staging-omgevingen voor uw AEM Assets-project, indien nodig.
 
@@ -51,16 +51,15 @@ U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken
 
 1. Van uw [ lokale de ontwikkelomgeving van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installeer de douanecode in uw het milieuconfiguratie van AEM Assets als Geweven pakket, of door de code in de bestaande projectconfiguratie manueel te kopiëren.
 
-1. Leg de wijzigingen vast en duw uw lokale ontwikkelingsvertakking naar de Cloud Manager git-opslagplaats.
+1. Leg de wijzigingen vast en duw uw lokale ontwikkelingsvertakking naar de Cloud Manager Git-opslagplaats.
 
 1. Van Cloud Manager, [ stelt uw code op om het milieu van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager) bij te werken.
 
 ## Een metagegevensprofiel configureren
 
-Stel in de AEM Assets-ontwerpomgeving standaardwaarden in voor metagegevens van Commerce-elementen door een metagegevensprofiel te maken. Pas vervolgens het nieuwe profiel toe op
-AEM Asset-mappen gebruiken deze standaardinstellingen automatisch. Deze configuratie stroomlijnt de verwerking van bedrijfsmiddelen door handmatige stappen te verminderen.
+Stel in de AEM Assets-ontwerpomgeving standaardwaarden in voor metagegevens van Commerce-elementen door een metagegevensprofiel te maken. Pas vervolgens het nieuwe profiel toe op de mappen AEM Asset om deze standaardinstellingen automatisch te gebruiken. Deze configuratie stroomlijnt de verwerking van bedrijfsmiddelen door handmatige stappen te verminderen.
 
-1. Ga in de Adobe Experience Manager-werkruimte naar de werkruimte voor het beheer van inhoud voor auteurs voor AEM Assets door op het Adobe Experience Manager-pictogram te klikken.
+1. Ga in de Adobe Experience Manager-werkruimte naar de werkruimte voor het beheer van inhoud van de auteur voor AEM Assets door op het Adobe Experience Manager-pictogram te klikken.
 
    ![ AEM Assets authoring ](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
@@ -90,7 +89,7 @@ AEM Asset-mappen gebruiken deze standaardinstellingen automatisch. Deze configur
 
    1. Van de [!UICONTROL  Metadata Profiles] pagina, selecteer het de integratieprofiel van Commerce.
 
-   1. Selecteer **[!UICONTROL Apply Metadata Profiles to Folder(s)]** in het menu Handeling.
+   1. Selecteer **[!UICONTROL Apply Metadata Profiles to Folders]** in het menu Handeling.
 
    1. Selecteer de map met Commerce-elementen.
 
@@ -104,4 +103,4 @@ AEM Asset-mappen gebruiken deze standaardinstellingen automatisch. Deze configur
 
 ## Volgende stap
 
-[De AEM Assets Integration voor Adobe Commerce installeren en configureren](aem-assets-configure-commerce.md)
+[Adobe Commerce-pakketten installeren](aem-assets-configure-commerce.md)

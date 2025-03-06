@@ -1,22 +1,24 @@
 ---
-title: De Experience Manager Assets-integratie installeren en configureren
-description: Leer hoe te om  [!DNL AEM Assets Integration for Adobe Commerce]  op een instantie van Adobe Commerce te installeren en te vormen.
+title: Adobe Commerce-pakketten installeren
+description: Leer hoe te om de  [!DNL AEM Assets Integration for Adobe Commerce]  uitbreiding en op een instantie van Adobe Commerce te installeren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# De AEM Assets Integration voor Commerce installeren en configureren
+# Adobe Commerce-pakketten installeren
 
-Bereid uw Commerce-omgeving voor om AEM Assets Integration voor Commerce te gebruiken door de `aem-assets-integration` PHP-extensie te installeren. Werk vervolgens de beheerconfiguratie bij om communicatie en workflows tussen Adobe Commerce en AEM Assets mogelijk te maken.
+Met de extensie AEM Assets Integration for Commerce (`aem-assets-integration` ) kunt u elementen synchroniseren tussen Adobe Commerce en Adobe Experience Manager Assets. De extensie biedt een set gereedschappen en services voor het beheer van middelen, waaronder productafbeeldingen, video&#39;s en andere media-elementen, op beide platforms.
+
+Voeg deze extensie toe aan de Commerce-omgeving door de `aem-assets-integration` PHP-extensie te installeren. U moet Adobe I/O Events for Commerce ook inschakelen en de vereiste gegevens voor communicatie en workflows tussen Adobe Commerce en Adobe Experience Manager Assets genereren.
 
 ## Systeemvereisten
 
-De AEM Assets Integration voor Commerce heeft de volgende systeem- en configuratievereisten.
+De AEM Assets Integration for Commerce-extensie heeft de volgende systeem- en configuratievereisten.
 
 **de vereisten van de Software**
 
@@ -24,38 +26,32 @@ De AEM Assets Integration voor Commerce heeft de volgende systeem- en configurat
 - PHP 8.1, 8.2, 8.3
 - Composer: 2.x
 
-**de vereisten van de Configuratie**
+**de vereisten van de Toegang**
 
-- Account instellen en machtigingen:
+U hebt de volgende rollen en toestemmingen nodig om opstelling de integratie.
 
-   - [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn
+- [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn.
 
-   - [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
+   - Toegang [ repo.magento.com ](https://repo.magento.com/admin/dashboard) om de uitbreiding te installeren.
+
+     Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen.
 
 >[!TIP]
 >
 > Adobe Commerce kan worden gevormd om [ authentificatie van Adobe te gebruiken IMS ](/help/getting-started/adobe-ims-config.md).
 
-## Configuratieworkflow
+## Workflow voor installatie en configuratie
 
-Schakel de integratie in door de volgende taken uit te voeren:
+Installeer het Adobe Commerce-pakket en maak de Commerce-omgeving gereed door de volgende taken uit te voeren:
 
-1. [ installeer de uitbreiding van de Integratie van AEM Assets (`aem-assets-integration`) ](#install-the-aem-assets-integration-extension).
+1. [ installeer de Integratie van AEM Assets voor de uitbreiding van Commerce (`aem-assets-integration`) ](#install-the-aem-assets-integration-extension).
 1. [ vorm de Schakelaar van de Diensten van Commerce ](#configure-the-commerce-services-connector) om uw instantie van Adobe Commerce en met de diensten te verbinden die gegevens toelaten om tussen Adobe Commerce en AEM Assets worden overgebracht.
 1. [Adobe I/O Events voor Commerce configureren](#configure-adobe-io-events-for-commerce)
 1. [Verificatiegegevens ophalen voor API-toegang](#get-authentication-credentials-for-api-access)
 
 ## De extensie `aem-assets-integration` installeren
-
-Voor het installeren van de extensie zijn de volgende machtigingen vereist:
-
-- Toegang [ repo.magento.com ](https://repo.magento.com/admin/dashboard) om de uitbreiding te installeren.
-
-  Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
-
-### De extensie toevoegen aan uw Commerce-omgeving
 
 Installeer de nieuwste versie van de extensie AEM Assets Integration (`aem-assets-integration`) op een Adobe Commerce-instantie met versie Adobe Commerce 2.4.5+. De integratie van de Activa van AEM wordt geleverd als composer metapakket van de {](https://repo.magento.com/admin/dashboard) bewaarplaats 0} repo.magento.com.[
 
@@ -159,7 +155,7 @@ Wanneer u sparen de configuratie, produceert het systeem SaaS project en gegeven
 
 De integratie van AEM Assets gebruikt de dienst van Adobe I/O Events om de gegevens van de douanegebeurtenis tussen de instantie van Commerce en Experience Cloud te verzenden. De gebeurtenisgegevens worden gebruikt om workflows voor AEM Assets-integratie te coördineren.
 
-Controleer voordat u Adobe I/O-gebeurtenissen configureert de configuratie van de RabbitMQ- en Cron-taak voor uw Commerce-project:
+Controleer voordat u Adobe I/O Events configureert de configuratie van de RabbitMQ- en Cron-taak voor uw Commerce-project:
 
 - Zorg ervoor dat RabbitMQ is ingeschakeld en luister naar gebeurtenissen.
    - [ Opstelling RabbitMQ voor Adobe Commerce op gebouw ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -175,6 +171,10 @@ Controleer voordat u Adobe I/O-gebeurtenissen configureert de configuratie van d
 
 Schakel het gebeurtenisframework in via Commerce Admin.
 
+>[!NOTE]
+>
+>App Builder-instellingen zijn alleen vereist als u een aangepaste matching-strategie wilt gebruiken om elementen tussen Commerce en AEM Assets te synchroniseren.
+
 1. Van Admin, ga **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
 1. Vouw **[!UICONTROL Commerce events]** uit.
@@ -183,7 +183,7 @@ Schakel het gebeurtenisframework in via Commerce Admin.
 
    ![ Adobe I/O Events Commerce Admin configuratie - laat de gebeurtenissen van Commerce ](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"} toe
 
-1. Voer de bedrijfsnaam van de handelaar in **[!UICONTROL Merchant ID]** en de omgevingsnaam in **[!UICONTROL Environment ID]** gebieden in. Gebruik bij het instellen van deze waarden alleen alfanumerieke tekens en onderstrepingstekens.
+1. Voer de bedrijfsnaam van de handelaar in **[!UICONTROL Merchant ID]** en de omgevingsnaam in de **[!UICONTROL Environment ID]** gebieden in. Gebruik bij het instellen van deze waarden alleen alfanumerieke tekens en onderstrepingstekens.
 
 >[!BEGINSHADEBOX]
 
@@ -209,13 +209,13 @@ De volgende aangepaste VCL-fragmentcode (JSON-indeling) toont een voorbeeld met 
 
 Voordat u een op dit voorbeeld gebaseerd fragment maakt, controleert u de waarden om te bepalen of u wijzigingen wilt aanbrengen:
 
-- `name`: naam voor het VCL-fragment. In dit voorbeeld hebben we de naam `blockbyuseragent` gebruikt.
+- `name`: naam voor het VCL-fragment. In dit voorbeeld wordt de naam `blockbyuseragent` gebruikt.
 
-- `dynamic` : stelt de fragmentversie in. In dit voorbeeld hebben we `0` gebruikt. Zie de [ Snelle fragmenten VCL ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) voor gedetailleerde informatie van het gegevensmodel.
+- `dynamic` : stelt de fragmentversie in. In dit voorbeeld wordt `0` gebruikt. Zie de [ Snelle fragmenten VCL ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) voor gedetailleerde informatie van het gegevensmodel.
 
-- `type` - Geeft het type VCL-fragment op, dat de locatie van het fragment in de gegenereerde VCL-code bepaalt. In dit voorbeeld, gebruikten wij `recv`, zie de [ VCL fragmentverwijzing ](https://docs.fastly.com/api/config#api-section-snippet) voor de lijst van fragmenttypes.
+- `type` - Geeft het type VCL-fragment op, dat de locatie van het fragment in de gegenereerde VCL-code bepaalt. In dit voorbeeld wordt `recv` gebruikt. Zie de [ Snelle VCL fragmentverwijzing ](https://www.fastly.com/documentation/reference/api/#api-section-snippet) voor de lijst van fragmenttypes.
 
-- `priority`: hiermee wordt bepaald wanneer het VCL-fragment wordt uitgevoerd. In dit voorbeeld wordt prioriteit `5` gebruikt om direct te starten en te controleren of een beheerdersverzoek afkomstig is van een toegestaan IP-adres.
+- `priority`: hiermee wordt bepaald wanneer het VCL-fragment wordt uitgevoerd. In dit voorbeeld wordt prioriteit `5` gebruikt om direct te worden uitgevoerd en te controleren of een beheerdersverzoek afkomstig is van een toegestaan IP-adres.
 
 - `content`: Het fragment van VCL-code dat moet worden uitgevoerd, dat het client-IP-adres controleert. Als IP in ACL van Edge is, wordt het geblokkeerd van toegang met een `405 Not allowed` fout voor de volledige website. Alle andere client-IP-adressen hebben toegang.
 
@@ -253,7 +253,7 @@ U genereert de referenties door de integratie aan de Commerce-instantie toe te v
 
 1. Klik op **[!UICONTROL Save]**.
 
-### Referenties genereren
+### OAuth-referenties genereren
 
 Voor de pagina van Integraties, produceer de OAuth authentificatiegeloofsbrieven door **te klikken activeer** voor de integratie van Assets. U hebt deze gegevens nodig om het Commerce-project te registreren bij de Assets Rule Engine-service en om API-aanvragen in te dienen voor het beheer van middelen tussen Adobe Commerce en AEM Assets.
 
@@ -273,4 +273,4 @@ Voor de pagina van Integraties, produceer de OAuth authentificatiegeloofsbrieven
 
 ## Volgende stap
 
-[Middelensynchronisatie inschakelen om elementen over te brengen tussen uw Adobe Commerce-projectomgeving en de AEM Assets-projectomgeving](aem-assets-setup-synchronization.md)
+[Verbind de Adobe Commerce en AEM Assets projectmilieu&#39;s en selecteer de passende strategie voor het synchroniseren van activa](aem-assets-setup-synchronization.md)
