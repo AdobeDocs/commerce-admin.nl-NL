@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Leer hoe u UPS instelt als een verzendprovider voor uw winkel.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service (UPS) biedt binnenlandse en internationale scheepvaartdien
 
 ## Stap 1: Een UPS-verzendaccount openen
 
-Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een account bij UPS openen.
+Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een UPS-account openen en de toepassing voltooien om een verzendrekeningnummer te verkrijgen. Zie [ een Vrije Rekening van UPS ](https://www.ups.com/us/en/business-solutions/open-an-account) openen.
 
-## Stap 2: UPS inschakelen voor uw winkel
+## Stap 2: UPS OAUTH-referenties verkrijgen
+
+Volg de stappen in [ Begonnen het Worden met de gids van UPS APIs ](https://developer.ups.com/get-started) om de API geloofsbrieven (cliënt identiteitskaart en cliëntgeheim) te verkrijgen om de integratie van UPS toe te laten. U moet een UPS-toepassing maken om de referenties op te halen.
+
+Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaarden voor de `username` en `password` .
+
+## Stap 3: UPS inschakelen voor uw winkel
 
 1. Voor _Admin sidebar_, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -36,7 +42,7 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
 1. Ga als volgt te werk voor een UPS REST-account (standaardwaarde):
 
-   - Voer uw UPS-gebruikersgegevens in: UPS ClientID als **[!UICONTROL User ID]**, UPS Client Secret als **[!UICONTROL Password]**
+   - Voer uw UPS-referenties in: UPS ClientID als **[!UICONTROL User ID]** , UPS Client Secret als **[!UICONTROL Password]** .
 
    - Stel **[!UICONTROL Mode]** in op `Live` om gegevens via een veilige verbinding naar het UPS-verzendsysteem te verzenden. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
 
@@ -116,7 +122,7 @@ Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een accoun
 
    ![ Beschrijving van de Container ](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Stap 4: Afhandelingskosten instellen
+## Stap 5: Afhandelingskosten instellen
 
 De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die bij de verzendkosten van de UPS worden opgeteld. Voer de volgende handelingen uit als u verpakkingskosten wilt opnemen:
 
@@ -136,7 +142,7 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
    ![ Behandelingskosten ](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Stap 5: Geef de toegestane methoden en de toepasselijke landen op
+## Stap 6: Geef de toegestane methoden en de toepasselijke landen op
 
 1. Kies voor **[!UICONTROL Allowed Methods]** elke UPS-verzendmethode die beschikbaar is voor uw klanten.
 
@@ -174,7 +180,7 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-## Stap 6: Stel het adres van de verzendoorsprong in
+## Stap 7: Het adres van de verzendoorsprong instellen
 
 1. Zorg ervoor dat uw [ Informatie van de Opslag ](../getting-started/store-details.md#store-information) volledig is.
 
