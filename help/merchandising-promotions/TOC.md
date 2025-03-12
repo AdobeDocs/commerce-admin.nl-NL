@@ -1,12 +1,12 @@
 ---
 user-guide-title: Handleiding voor het verhandelen en promoten van Adobe Commerce
-user-guide-description: Adobe Commerce en Magento Open Source bevatten veel tools die u kunt gebruiken om verkoop te stimuleren, mogelijkheden voor betrokkenheid van klanten te creëren en gerichte promoties in te stellen.
+user-guide-description: Adobe Commerce en Magento Open Source bevatten veel tools die u kunt gebruiken om verkoop te stimuleren, mogelijkheden voor betrokkenheid van klanten te creëren en gerichte aanbiedingen in te stellen.
 breadcrumb-title: Merchandising en promoties
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,9 @@ ht-degree: 0%
       - [Automatische omleidingen](url-redirect-product-automatic.md)
 - Google-sitegereedschappen {#google-tools}
    - [Overzicht](google-tools.md)
-   - [Googles Analytics](google-analytics.md)
+   - [Google Analytics](google-analytics.md)
    - [Google-tagbeheer](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google-contentexperimenten](google-content-experiments.md)
-- [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

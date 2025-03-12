@@ -3,7 +3,7 @@ title: Een regel voor een winkelwagenprijs maken
 description: Leer hoe u een regel voor de winkelwagenprijs maakt op basis van winkelwagentjes of productkenmerken.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
      ![ de prijsregel van de Kar - couponmontages ](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik _Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de **[!UICONTROL From]** en **[!UICONTROL To]** datumwaaier voor de bevordering te kiezen.
+   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik _Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!UICONTROL From]** en **[!UICONTROL To]** datumwaaier voor de bevordering te kiezen.
 
 1. Voer een getal in om de **[!UICONTROL Priority]** van deze prijsregel te definiëren ten opzichte van de handelingsinstellingen van andere prijsregels die tegelijkertijd actief zijn.
 
@@ -65,13 +65,13 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
    >[!NOTE]
    >
-   >Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel (coupon) wordt toegepast op matchende producten afzonderlijk, één voor één, volgens de regel-ID van de kartonprijs in de database. Om de volgorde te bepalen waarin kortingen worden toegepast, beveelt de Adobe aan om voor elke regel van de toegevoegde kartprijs een andere prioriteit vast te stellen.
+   >Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel (coupon) wordt toegepast op matchende producten afzonderlijk, één voor één, volgens de regel-ID van de kartonprijs in de database. Om de volgorde te bepalen waarin kortingen worden toegepast, raadt Adobe aan een andere prioriteit vast te stellen voor elke regel van de toegevoegde winkelprijs.
 
 1. Om de regel op gepubliceerde [ voer RSS ](social-rss.md#rss-feeds) toe te passen, plaats **Openbaar in RSS voer** aan `Yes`.
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) nadat de regel wordt bewaard, verschijnt de naam van de regel van de wortelprijs bij de bovenkant van de pagina.
+   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Nadat de regel wordt bewaard, verschijnt de naam van de regel van de kartprijs bij de bovenkant van de pagina.
 
    - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) nadat de regel wordt bewaard, verschijnt de naam van de de kartonprijsregel en [ Geplande Veranderingen ](price-rule-cart-scheduled-changes.md) doos bij de bovenkant van de pagina.
 
@@ -219,7 +219,7 @@ U kunt een voorwaarde voor een regel plaatsen van de wortelprijs die op een Real
    | `Name` | Naam van het publiek, zoals `Orders over $50` |
    | `Description` | Beschrijving van het publiek, zoals `People who placed an order over $50 in the last month.` . |
    | `Source` | Geeft aan waar het publiek vandaan kwam, zoals `Experience Platform` . |
-   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met het Experience Platform door de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) uitbreiding verbindt. |
+   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met de Experience Platform door de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) uitbreiding verbindt. |
 
    {style="table-layout:auto"}
 

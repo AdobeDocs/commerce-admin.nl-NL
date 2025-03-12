@@ -1,26 +1,25 @@
 ---
-title: Aan de slag met Adobe Commerce
-description: Uitgebreide informatie voor verkopers voor wie Adobe Commerce nieuw is.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Aan de slag met Adobe Commerce Admin Guide
+description: Uitgebreide informatie voor verkopers die nieuw zijn voor de Admin van Adobe Commerce.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 3%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Aan de slag met Adobe Commerce
 
-Deze handleiding is bedoeld voor handelaren en systeembeheerders die nieuw zijn voor Adobe Commerce. Het verstrekt een overzicht van het platform vanuit hun perspectief en wat gedetailleerde informatie over basiseigenschappen die een functionele opslag toelaten.
+Deze handleiding is bedoeld voor handelaren en systeembeheerders die nieuw zijn voor Adobe Commerce Admin. Het verstrekt een overzicht van het platform vanuit hun perspectief en wat gedetailleerde informatie over basiseigenschappen die een functionele opslag toelaten.
 
 Deze handleiding is van toepassing op:
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |
-| [ Ongeveer Commerce ](about.md) | Meer informatie over de huidige Adobe Commerce-release. |
 | [ Login Referenties en URLs ](login-urls.md) | Meer informatie over de [!DNL Commerce] URL&#39;s en accountgegevens die worden gebruikt om toegang te krijgen tot uw beheerder en uw winkel. |
 | [[!DNL Commerce]  rekeningen ](commerce-account-create.md) | Meer informatie over [!DNL Commerce] -accounts, die de producten en services beheren die u hebt aangeschaft. |
 | [ Admin ](admin.md) | Leer meer over [!DNL Commerce] Admin, de plaats waar de handelaars producten en bevorderingen oprichten, orden beheren, en andere administratieve taken uitvoeren. |

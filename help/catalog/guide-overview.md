@@ -4,16 +4,16 @@ description: Uitgebreide informatie over productcatalogusfuncties voor Adobe Com
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Catalog Management Guide
 
-Deze gids is bedoeld voor producthandelaren en voorraadbeheerders die in Adobe Commerce en Magento Open Source werken. Het biedt gedetailleerde informatie over de functies van de productcatalogus, waaronder het maken van de navigatiestructuren voor een catalogus. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
+Deze handleiding is bedoeld voor producthandelaren en voorraadbeheerders die in Adobe Commerce en Magento Open Source Admin werken. Het biedt gedetailleerde informatie over de functies van de productcatalogus, waaronder het maken van de navigatiestructuren voor een catalogus. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
 
 Deze handleiding is van toepassing op:
 

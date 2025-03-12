@@ -1,16 +1,16 @@
 ---
-user-guide-title: Adobe Commerce Merchant-documentatie
+user-guide-title: Handboek Adobe Commerce Admin-gebruiker
 user-guide-description: Documentatie en bronnen voor Adobe Commerce- en Magento Open Source-handelaren die in de Admin werken.
-title: Adobe Commerce Merchant-documentatie
+title: Handboek Adobe Commerce Admin-gebruiker
 feature: Admin Workspace
-source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 39%
+ht-degree: 27%
 
 ---
 
-# Adobe Commerce-handelsdocumentatie {#user-guides}
+# Handboek Adobe Commerce Admin-gebruiker {#user-guides}
 
 - [Adobe Commerce Merchant-documentatie](home.md)
 - [ Begonnen het worden ](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
@@ -24,4 +24,3 @@ ht-degree: 39%
 - [ Opslag en Ervaring van de Aankoop ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [ Admin systemen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [ Gids van de Verwijzing van de Configuratie ](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services voor Commerce](services.md)

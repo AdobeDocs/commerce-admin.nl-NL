@@ -3,7 +3,7 @@ title: Adobe Commerce-pakketten installeren
 description: Leer hoe te om de  [!DNL AEM Assets Integration for Adobe Commerce]  uitbreiding en op een instantie van Adobe Commerce te installeren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Gebruik deze methode om de extensie [!DNL AEM Assets Integration] te installeren
 
 >[!NOTE]
 >
->De opstelling van de Verbinding van de Diensten van Commerce is een eenmalig proces dat wordt vereist om [ de diensten van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices) te gebruiken. Als u de connector voor een andere service al hebt geconfigureerd, kunt u de bestaande configuratie weergeven via Commerce Admin door **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** te selecteren.
+>De opstelling van de Verbinding van de Diensten van Commerce is een eenmalig proces dat wordt vereist om [ de diensten van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices) te gebruiken. Als u de connector voor een andere service al hebt geconfigureerd, kunt u de bestaande configuratie weergeven via Commerce Admin door **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** te selecteren.
 
 Als u gegevens wilt verzenden tussen uw Adobe Commerce-instantie en de services die AEM Assets Integration inschakelen, configureert u de Commerce Services-connector via de beheerfunctie ( **[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** ).
 
@@ -147,7 +147,7 @@ Geef de volgende waarden op in de configuratie
 - Naam gegevensruimte (SaaS-id) voor beveiligde cloudopslag
 - IMS-organisatie-id waar uw Commerce- en AEM Assets-omgevingen zijn ingericht
 
-Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3} documentatie van de Schakelaar van de Diensten van Commerce {.](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid)
+Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3} documentatie van de Schakelaar van de Diensten van Commerce {.](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)
 
 Wanneer u sparen de configuratie, produceert het systeem SaaS project en gegevensbestand IDs voor uw milieu. Deze waarden zijn vereist om de synchronisatie van bedrijfsmiddelen tussen Adobe Commerce en AEM Assets in te schakelen.
 

@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce Customer Management Guide
-description: Uitgebreide informatie over klantenrekeningen en segmenten voor Adobe Commerce en de beheerders van de Magento Open Source, met inbegrip van configuratie.
+description: Uitgebreide informatie over klantenrekeningen en segmenten voor beheerders van Adobe Commerce en Magento Open Source, met inbegrip van configuratie.
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Commerce Customer Management Guide
 
-Deze handleiding is bedoeld voor medewerkers van de klantenservice die in Adobe Commerce en Magento Open Source werken. Het biedt gedetailleerde informatie over de functies voor klantenbeheer in de Commerce Admin en de ervaring met klantenaccounts in de winkel. Hierbij wordt uitgegaan van een basiskennis van de basisconfiguratie en -functionaliteit van Commerce.
+Deze handleiding is bedoeld voor medewerkers van de klantenservice die in de Adobe Commerce en Magento Open Source Admin werken. Het biedt gedetailleerde informatie over de functies voor klantenbeheer in de Commerce Admin en de ervaring met klantenaccounts in de winkel. Hierbij wordt uitgegaan van een basiskennis van de basisconfiguratie en -functionaliteit van Commerce.
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |

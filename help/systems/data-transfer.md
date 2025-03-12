@@ -3,7 +3,7 @@ title: Gegevensoverdracht
 description: Meer informatie over ondersteuning voor gegevensoverdracht, waaronder gegevensvalidatie.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -19,7 +19,7 @@ U kunt bijvoorbeeld nieuwe producten aan uw voorraad toevoegen, productgegevens 
 
 >[!NOTE]
 >
->Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) het Product Recommendations van 1}, [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), en [ de Dienst van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). [ Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), en [ Dienst van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ## Gegevensvalidatie
 

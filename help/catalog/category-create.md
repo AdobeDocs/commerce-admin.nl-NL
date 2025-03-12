@@ -3,7 +3,7 @@ title: Categorieën maken
 description: U kunt zo veel extra subcategorieën tot stand brengen zoals nodig, volgens de maximummenudiepte die in de configuratie wordt geplaatst.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 1. Als u wilt dat de categoriepagina de sectie _`Filter by Attribute`_van gelaagde navigatie bevat, stelt u **[!UICONTROL Anchor]**in op `Yes` .
 
-1. Selecteer voor de opties van **[!UICONTROL Available Product Listing Sort By]** een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Selecteer voor de opties van **[!UICONTROL Available Product Listing Sort By]** een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Standaard worden alle beschikbare waarden opgenomen. Schakel het selectievakje **[!UICONTROL Use All]** uit om de selecties te wijzigen. De waarden kunnen bijvoorbeeld het volgende zijn:
 
@@ -124,7 +124,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
    - `Product Name`
    - `Price`
 
-1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u de waarde **[!UICONTROL Default Product Listing Sort By]** . Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Als u de standaardsorteervolgorde voor de categorie wilt instellen, kiest u de waarde **[!UICONTROL Default Product Listing Sort By]** . Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Om de standaard gelaagde navigatie [ prijsstap ](navigation-layered.md#configure-price-navigation) het plaatsen te veranderen, doe het volgende:
 

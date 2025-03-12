@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Om tot de montages van de opslagconfiguratie toegang te hebben, verkies **[!UICO
 
 | Documentatiebron | Beschrijving |
 |----------------------- | ----------- |
-| [ Adobe Commerce 2.4 de Documentatie van de Merchant ](../landing/home.md) | Bedrijfsgerichte documentatie voor Adobe Commerce |
-| [ de Diensten voor de Documentatie van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
-| [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stapsgewijze procedures voor de implementatie van Adobe Commerce op een beheerd, geautomatiseerd hostingplatform voor de cloud. |
-| [ Adobe Commerce 2.4 Operationele Gidsen ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | De documentatie van systemen over de concepten, de processen, de hulpmiddelen, en beste praktijken om, Adobe Commerce projecten te ontwikkelen op te stellen en te handhaven. |
-| [ Adobe Commerce 2.4 Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce aan te passen en met systemen van derden te integreren |
+| [ Adobe Commerce 2.4 de Gidsen van de Gebruiker Admin ](../landing/home.md) | Documentatie en bronnen voor handelaren die in de Admin werken. |
+| [ de Diensten voor de Documentatie van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentatie om een inzameling van de koophandel te steunen de diensten die handelaars helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
+| [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stapsgewijze procedures voor de implementatie van Adobe Commerce op een beheerd, geautomatiseerd hostingplatform voor cloud. |
+| [ Adobe Commerce 2.4 Operationele Gidsen ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentatie van systemen over de concepten, processen, hulpmiddelen, en beste praktijken om Adobe Commerce op Cloud en op-gebouw projecten te ontwikkelen, op te stellen en te handhaven. |
+| [ Adobe Commerce 2.4 Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce aan te passen en te integreren met systemen van derden. |
 
 {style="table-layout:auto"}

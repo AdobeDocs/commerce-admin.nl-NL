@@ -1,26 +1,26 @@
 ---
-title: Inhoud toevoegen - Product Recommendations
-description: Leer over het inhoudstype van Recommendations van het Product, dat wordt gebruikt om een lijst van aanbevelingen aan het  [!DNL Page Builder]  stadium toe te voegen.
+title: Inhoud toevoegen - Productaanbevelingen
+description: Leer over het inhoudstype van de Aanbevelingen van het Product, dat wordt gebruikt om een lijst van aanbevelingen aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# Inhoud toevoegen - Product Recommendations
+# Inhoud toevoegen - Productaanbevelingen
 
-Gebruik het _inhoudstype van Recommendations van het 0} Product {om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS- pagina, een blok, of een dynamisch blok toe te voegen._
+Gebruik het _inhoudstype van de Aanbevelingen van het 0} Product {om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS pagina, een blok, of een dynamisch blok toe te voegen._
 
 >[!NOTE]
 >
->Het [!DNL Page Builder] _Recommendations van het Product_ inhoudstype wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van Recommendations van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor Product Recommendations toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
+>Het [!DNL Page Builder] _inhoudstype van 1} de Aanbevelingen van het Product_ wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van de Aanbevelingen van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor de Aanbevelingen van het Product toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## De Recommendations-gereedschapset voor producten
+## Werkset Productaanbevelingen
 
 | Gereedschap | Pictogram | Beschrijving |
 | --- | --| --- |
@@ -37,7 +37,7 @@ Gebruik het _inhoudstype van Recommendations van het 0} Product {om een bestaand
 
 ## Een bestaande aanbevolen eenheid toevoegen
 
-1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
+1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Gebruik het _inhoudstype van Recommendations van het 0} Product {om een bestaand
 
 ## Geavanceerde instellingen
 
-1. Kies de optie **[!UICONTROL Alignment]** als u de plaatsing van de Product Recommendations-eenheid in de bovenliggende container wilt bepalen:
+1. Kies de optie **[!UICONTROL Alignment]** als u de plaatsing van de eenheid met productaanbevelingen in de bovenliggende container wilt bepalen:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Gebruik het _inhoudstype van Recommendations van het 0} Product {om een bestaand
 
    {style="table-layout:auto"}
 
-1. Stel de **[!UICONTROL Border]** -stijl in die wordt toegepast op alle vier zijden van de Product Recommendations-eenheid:
+1. Stel de stijl **[!UICONTROL Border]** in die wordt toegepast op alle vier zijden van de eenheid Productaanbevelingen:
 
    | Optie | Beschrijving |
    | ------ | ----------- |

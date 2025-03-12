@@ -3,7 +3,7 @@ title: Overzicht van zoeken in catalogus
 description: Meer informatie over de gereedschappen Snel zoeken en Geavanceerd zoeken die klanten kunnen gebruiken om producten op de winkel te zoeken.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) levert een snelle, super-relevante, en intuïtieve onderzoekservaring en is beschikbaar voor Adobe Commerce zonder extra kosten. In deze sectie wordt de standaardzoekfunctionaliteit beschreven die kan verschillen van [!DNL Live Search] .
+>[[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) levert een snelle, super-relevante, en intuïtieve onderzoekservaring en is beschikbaar voor Adobe Commerce zonder extra kosten. In deze sectie wordt de standaardzoekfunctionaliteit beschreven die kan verschillen van [!DNL Live Search] .
 
 Uit onderzoek blijkt dat mensen die zoeken, meer geneigd zijn om een aankoop te doen dan klanten die alleen op navigatie vertrouwen. Volgens sommige studies zijn mensen die zoeken bijna twee keer zo vaak geneigd om een aankoop te doen.
 
@@ -32,7 +32,7 @@ In de volgende secties worden de basismogelijkheden voor het zoeken naar catalog
 
 >[!NOTE]
 >
->Wanneer [[!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) wordt geïnstalleerd en [[!DNL Storefront Popover] ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) widget wordt toegelaten, keert het onderzoeksvakje &quot;onderzoek terug aangezien u&quot;resultaten in een pop over typt.
+>Wanneer [[!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) wordt geïnstalleerd en [[!DNL Storefront Popover] ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) widget wordt toegelaten, keert het onderzoeksvakje &quot;onderzoek terug aangezien u&quot;resultaten in een pop over typt.
 
 Met het zoekvak in de koptekst van de winkel kunnen bezoekers producten zoeken in uw catalogus. De zoektekst kan de volledige of gedeeltelijke productnaam of een ander woord of zinsdeel zijn dat het product beschrijft. De zoektermen die mensen gebruiken om producten te zoeken, kunnen worden beheerd via de beheerder.
 
@@ -48,7 +48,7 @@ Met het zoekvak in de koptekst van de winkel kunnen bezoekers producten zoeken i
 
 >[!NOTE]
 >
->De hier beschreven geavanceerde functionaliteit voor het zoeken van formulieren is niet van toepassing op [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) .
+>De hier beschreven geavanceerde functionaliteit voor het zoeken van formulieren is niet van toepassing op [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) .
 
 Met Geavanceerd zoeken kunnen kopers de catalogus doorzoeken op basis van waarden die in een formulier zijn ingevoerd. Omdat het formulier meerdere velden bevat, kan één zoekopdracht verschillende parameters bevatten. Het resultaat is een lijst van alle producten in de catalogus die aan de criteria voldoen. Een koppeling naar Geavanceerd zoeken vindt u in de voettekst van uw winkel.
 

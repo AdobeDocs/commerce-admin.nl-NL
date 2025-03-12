@@ -2,16 +2,16 @@
 title: Admin Systems Guide
 description: Leer beste veiligheidspraktijken om uw opslag van Commerce te beschermen en toestemmingen te beheren, en hoe te om gegevens in te voeren en uit te voeren, integraties en uitbreidingen te beheren, en routine onderhoud te behandelen.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Admin Systems Guide
 
-Deze handleiding is bedoeld voor systeembeheerders en integrators die in Adobe Commerce en Magento Open Source werken. Het verstrekt gedetailleerde informatie over veiligheid Admin, onderhoudsverrichtingen, en systeembronnen die activiteiten over veelvoudige organisatorische functies voor uw e-commercesector steunen. Het veronderstelt basisbegrip van de de kernconfiguratie van Commerce, en functionaliteit.
+Deze handleiding is bedoeld voor systeembeheerders en integrators die in de Adobe Commerce en Magento Open Source Admin werken. Het verstrekt gedetailleerde informatie over veiligheid Admin, onderhoudsverrichtingen, en systeembronnen die activiteiten over veelvoudige organisatorische functies voor uw e-commercesector steunen. Het veronderstelt basisbegrip van de de kernconfiguratie van Commerce, en functionaliteit.
 
 Deze handleiding is van toepassing op:
 

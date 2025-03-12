@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Controleer de configuratie-instellingen in de sectie [!UICONTROL Payment Services] op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] van Commerce Admin.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-De Diensten van de betaling verstrekt een kant-en-klare oplossing, met inbegrip van zandbak het testen en een eenvoudige opstelling, voor het verstrekken van robuuste en veilige betalingsverwerking. Meer leren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+De Diensten van de betaling verstrekt een kant-en-klare oplossing, met inbegrip van zandbak het testen en een eenvoudige opstelling, voor het verstrekken van robuuste en veilige betalingsverwerking. Meer leren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebben, op _Admin_ sidebar gaat **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** en klik **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebbe
 
 >[!NOTE]
 >
->Om de configuratie van de Oudheid in plaats van [ Montages ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html) te gebruiken, zie [ Verouderde configuratie ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>Om de configuratie van de Oudheid in plaats van [ Montages ](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html) te gebruiken, zie [ Verouderde configuratie ](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebbe
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg de tekst die tijdens het afrekenen wordt weergegeven als titel voor deze betalingsoptie toe aan de weergave Betalingsmethode. |
 | [!UICONTROL Payment Action] | website | De [ betalingsactie ](payment-methods.md#payment-actions) voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | website | Laat of maak [ 3DS Veilige authentificatie ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds) toe onbruikbaar. Opties: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | website | Laat of maak [ 3DS Veilige authentificatie ](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds) toe onbruikbaar. Opties: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | In- of uitschakelen van creditcardvelden voor weergave op de afhandelingspagina. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | winkelweergave | Laat toe of maak [ creditcard het vaulteren ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html) onbruikbaar. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | winkelweergave | Laat of maak de capaciteit toe onbruikbaar om orden voor klanten in Admin [ te voltooien gebruikend een in kaart gebrachte betalingsmethode ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Opties: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | winkelweergave | Laat toe of maak [ creditcard het vaulteren ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html) onbruikbaar. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | winkelweergave | Laat of maak de capaciteit toe onbruikbaar om orden voor klanten in Admin [ te voltooien gebruikend een in kaart gebrachte betalingsmethode ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | De foutopsporingsmodus in- of uitschakelen. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

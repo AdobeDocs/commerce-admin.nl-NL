@@ -3,7 +3,7 @@ title: Gelaagde navigatie
 description: Leer hoe kopers met gelaagde navigatie gemakkelijk producten kunnen vinden op basis van categorie, prijsklasse of andere beschikbare kenmerken.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 Met gelaagde navigatie kunt u gemakkelijk producten zoeken op basis van categorie, prijsbereik of andere beschikbare kenmerken. Gelaagde navigatie verschijnt gewoonlijk in de linkerkolom van onderzoeksresultaten en categoriepagina&#39;s en soms op de homepage. De standaardnavigatie omvat a _Winkel door_ lijst van categorieën en prijswaaier. U kunt de weergave van gelaagde navigatie configureren, inclusief het aantal producten en het prijsbereik.
 
@@ -24,7 +24,7 @@ Met gelaagde navigatie kunt u gemakkelijk producten zoeken op basis van categori
 
 >[!NOTE]
 >
->De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Meer leren, zie [ Facetten ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Meer leren, zie [ Facetten ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 Gelaagde navigatie kan worden gebruikt om naar producten door categorie of door attribuut te zoeken. Als een winkelier bijvoorbeeld de categorie Mens/Shorts kiest in de bovenste navigatie, worden in de eerste resultaten alle producten in de categorie opgenomen. De lijst kan verder worden gefilterd door een specifieke stijl, een specifiek klimaat, een bepaalde kleur, een bepaald materiaal, een bepaald patroon of een bepaalde prijs, of een combinatie van waarden te kiezen. Filterbare kenmerken worden weergegeven in een uitbreidende sectie waarin elke kenmerkwaarde wordt vermeld. Als optie, kan de lijst van producten met passende resultaten worden gevormd om producten met, of zonder, een gelijke te omvatten.
 
@@ -112,7 +112,7 @@ U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producte
 
 >[!NOTE]
 >
->De configuratie van de prijsnavigatie die in dit onderwerp wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>De configuratie van de prijsnavigatie die in dit onderwerp wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 De navigatie van de prijs kan worden gebruikt om producten door prijswaaier in gelaagde navigatie te verdelen. U kunt elk bereik ook in intervallen splitsen. Er zijn een paar manieren om prijsnavigatie te berekenen:
 
@@ -201,7 +201,7 @@ Laat **[!UICONTROL Price Navigation Steps Calculation]** ingesteld staan op `Aut
 
 >[!NOTE]
 >
->De standaardconfiguratie die in deze pagina wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>De standaardconfiguratie die in deze pagina wordt beschreven verschilt voor [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 De gelaagde navigatieconfiguratie bepaalt als een producttelling tussen haakjes na elk attribuut verschijnt, en de grootte van de stapberekening die in prijsnavigatie wordt gebruikt.
 

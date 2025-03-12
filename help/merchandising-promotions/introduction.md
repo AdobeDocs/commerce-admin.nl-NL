@@ -2,7 +2,7 @@
 title: Inleiding tot verkoop en promoties in Commerce
 description: Ontdek hoe u Commerce-tools gebruikt voor het maken van gerichte promoties en kansen om klantenbinding te bevorderen.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en 
 
 >[!TIP]
 >
->Om over Product Recommendations te leren en hoe zij u het inzicht en de controle kunnen geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van Recommendations van het Product ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Om over de Aanbevelingen van het Product te leren en hoe zij u het inzicht en de controle kunnen geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Aanbiedingen
 
@@ -66,7 +66,7 @@ Het beheersen van [ Optimalisering van de Motor van het Onderzoek (SEO) ](seo-ov
 
 >[!NOTE]
 >
->In de Adobe Commerce- en Magento Open Source-releases 2.4.0 tot en met 2.4.3 is de uitbreiding opgenomen die door de digitale leverancier is ontwikkeld en die wordt gebruikt om te integreren met de dotdigital Engagement Cloud. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
+>Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door een digitale leverancier ontwikkelde uitbreiding voor dotdigital vendor die wordt gebruikt om te integreren met de dotdigital Engagement Cloud. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br><br>
 >Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
 
@@ -82,11 +82,11 @@ Uw winkelconfiguratie is geïntegreerd met de volgende Google-tools om uw inhoud
 
 >[!NOTE]
 >
->Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Voor meer informatie, zie de [ documentatie van de Googles Analytics ontwikkelaar ](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Voor meer informatie, zie de [ de ontwikkelaarsdocumentatie van Google Analytics ](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [ Googles Analytics ](google-analytics.md) - de Universele Analytics van Google van het gebruik om extra douanedimensies en metriek voor het volgen, met steun voor off-line en mobiele toepassingsinteractie, en toegang tot aan de gang zijnde updates te bepalen.
+- [ Google Analytics ](google-analytics.md) - de Universele Analytics van Google van het gebruik om extra douanedimensies en metriek voor het volgen, met steun voor off-line en mobiele toepassingsinteractie, en toegang tot aan de gang zijnde updates te bepalen.
 
-- [ de Experimenten van de Inhoud van Google ](google-content-experiments.md) - opstelling een A/B test van producten, categorieën, of inhoudspagina&#39;s die de Inhoud van Googles Analytics gebruiken
+- [ de Experimenten van de Inhoud van Google ](google-content-experiments.md) - opstelling A/B test van producten, categorieën, of inhoudspagina&#39;s die de Inhoud van Google Analytics gebruiken
 
 - [ de Manager van de Markering van Google ](google-tag-manager.md) - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de Manager van de Markering van Google van het Gebruik om de vele markeringen met betrekking tot marketing campagnegebeurtenissen te beheren.
 

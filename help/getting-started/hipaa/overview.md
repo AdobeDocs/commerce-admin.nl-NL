@@ -3,7 +3,7 @@ title: HIPAA-gereedheid op Adobe Commerce
 description: Ontdek hoe u de Adobe Commerce HIPAA-Ready-extensie kunt toevoegen en extra functies en functionaliteiten kunt krijgen waarmee u aan uw HIPAA-verplichtingen kunt voldoen.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magen
 
 >[!NOTE]
 >
->Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [ de uitbreidingsgids van de Verbinding van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [ de uitbreidingsgids van de Verbinding van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Schakel op uw lokale werkstation de projectmap voor uw Adobe Commerce over het infrastructuurproject voor de cloud in.
 
@@ -264,12 +264,12 @@ De volgende lijst identificeert de diensten van Adobe Commerce die voor het HIPA
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [ Adobe Developer App Builder ](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
 | [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Ja | Ja |
-| [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nee | Nee |
-| [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nee | Nee |
-| [ de Diensten van de Betaling ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Nee | Nee |
-| [ De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [ de Gebeurtenissen van de Opslag van de Verbinding van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
+| [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nee | Nee |
+| [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nee | Nee |
+| [ de Diensten van de Betaling ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nee | Nee |
+| [ De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [ de Gebeurtenissen van de Opslag van de Verbinding van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
 | [ Audience Activation ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nee | Nee |
 
 ### Gereedschappen

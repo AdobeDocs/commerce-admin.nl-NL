@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 0%
@@ -20,7 +20,7 @@ U kunt publiek in een Luma storefront of [ zonder kop ](#headless-support) store
 
 ## Opmerkingen bij de release
 
-Deze sectie bevat informatie over updates voor de extensie Audience Activation en bevat:
+Deze sectie bevat informatie over updates voor de Audience Activation-extensie en bevat:
 
 ![ Nieuw ](../assets/new.svg) - Nieuwe eigenschappen
 ![ Repareren ](../assets/fix.svg) - Oplossingen en verbeteringen
@@ -32,7 +32,7 @@ Zie de ontwikkelaarsdocumentatie aan [ over productverenigbaarheid ](https://exp
 
 ## Ondersteunde service-updates
 
-In deze releaseopmerkingen worden wijzigingen in de functies en correcties beschreven die betrekking hebben op extensies die door het Audience Activation worden gebruikt.
+In deze releaseopmerkingen worden wijzigingen in functies en correcties beschreven die betrekking hebben op extensies die door Audience Activation worden gebruikt.
 
 +++Ondersteunde service-updates
 
@@ -113,7 +113,7 @@ _16 november 2023_
 
 _10 oktober, 2023_
 
-![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [ ](#configure-the-extension) de uitbreiding van het Audience Activation vormt.
+![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [ ](#configure-the-extension) de uitbreiding van Audience Activation vormt.
 ![ Repareren ](../assets/fix.svg) - Verbeterde stabiliteit.
 
 ### 1.2.0.
@@ -139,7 +139,7 @@ _Mei 11, 2023_
 [!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
 
 ![ bevestig ](../assets/fix.svg) - Vaste een kwestie waar een dynamisch blok of de regel van de kartprijs niet op de storefront werd toegepast.
-![ Bevestig ](../assets/fix.svg) - Vloedigde een kwestie waar een niet gevormde installatie van de uitbreiding van het Audience Activation een fout veroorzaakte wanneer een handelaar probeerde om een dynamisch blok tot stand te brengen of bij te werken.
+![ Bevestig ](../assets/fix.svg) - Vloedigde een kwestie waar een niet gevormde installatie van de uitbreiding van Audience Activation een fout veroorzaakte wanneer een handelaar probeerde om een dynamisch blok tot stand te brengen of bij te werken.
 
 ### 1.0.0.
 
@@ -172,23 +172,23 @@ Nadat u de extensie [!DNL Audience Activation] hebt geïnstalleerd, moet u zich 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [ Teken binnen ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) aan uw rekening van de Adobe en selecteer uw organisatieidentiteitskaart
+1. [ Teken binnen ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) aan uw rekening van Adobe en selecteer uw organisatieidentiteitskaart
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
 1. Op het **[!UICONTROL Datastream ID]** gebied, kleef identiteitskaart van de gegevensstroom die u creeerde toen u [ ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als bestemming in Real-Time CDP activeerde.
 
-   Deze gegevensstroom verzendt gegevens van uw Commerce-website naar Real-Time CDP om te bepalen of een klant tot een publiek behoort. Als u nog geen gegevensstroom hebt gecreeerd, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) in Experience Platform, [ voeg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) het aan de bestemming van Commerce in Real-Time CDP toe, en aan de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) uitbreiding in Admin.
+   Deze gegevensstroom verzendt gegevens van uw Commerce-website naar Real-Time CDP om te bepalen of een klant tot een publiek behoort. Als u nog geen gegevensstroom hebt gecreeerd, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) in Experience Platform, [ voeg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) het aan de bestemming van Commerce in Real-Time CDP toe, en aan de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) uitbreiding in Admin.
 
    >[!NOTE]
    >
-   >Wanneer u een gegevensstroomidentiteitskaart specificeert, associeert u [ het aan een specifieke website ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in de [!DNL Data Connection] uitbreiding. Als uw opslag van Commerce veelvoudige websites heeft, [ creeer een bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) voor elke website in Real-Time CDP en gebruik verschillende gegevensstroom identiteitskaart voor elk.
+   >Wanneer u een gegevensstroomidentiteitskaart specificeert, associeert u [ het aan een specifieke website ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) in de [!DNL Data Connection] uitbreiding. Als uw opslag van Commerce veelvoudige websites heeft, [ creeer een bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) voor elke website in Real-Time CDP en gebruik verschillende gegevensstroom identiteitskaart voor elk.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw **[!UICONTROL Services]** uit en selecteer **[!UICONTROL [!DNL Data Connection]]** .
 
-1. [ voeg ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) de dienstrekening en credentiedetails toe.
+1. [ voeg ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) de dienstrekening en credentiedetails toe.
 
 ## Waar kan het Real-Time CDP-publiek in Commerce worden gebruikt?
 
@@ -200,7 +200,7 @@ Als de extensie [!DNL Audience Activation] is ingeschakeld, kunt u:
 
 >[!TIP]
 >
->Voor een volledig gebruiksgeval van begin tot eind over hoe te om [!DNL Commerce] gegevens naar Real-Time CDP uit te voeren, bouwt een publiek, dan activeert dat publiek aan [!DNL Commerce], zie [ een publiek in Real-Time CDP creëren gebruikend  [!DNL Commerce]  gebeurtenisgegevens ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Voor een volledig gebruiksgeval van begin tot eind over hoe te om [!DNL Commerce] gegevens naar Real-Time CDP uit te voeren, bouwt een publiek, dan activeert dat publiek aan [!DNL Commerce], zie [ een publiek in Real-Time CDP creëren gebruikend  [!DNL Commerce]  gebeurtenisgegevens ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP-doeldashboard
 
@@ -234,13 +234,13 @@ U kunt het publiek in een Adobe Commerce-instantie zonder kop, zoals AEM en PWA,
 
 ### Cart price rules and related product rules
 
-Voor de regels van de kartprijs en verwante productregels, communiceert een headless storefront aan het Experience Platform door het [ Commerce integration framework (CIF) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. Publiek-informatie, zoals het segment van een klant, gaat naar Commerce via een GraphQL-headerparameter genaamd: `aep-segments-membership` .
+Voor de regels van de kartprijs en verwante productregels, communiceert een koploze winkel aan Experience Platform door [ Commerce integration framework (CIF) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. Publiek-informatie, zoals het segment van een klant, gaat naar Commerce via een GraphQL-headerparameter genaamd: `aep-segments-membership` .
 
 De architectuur ziet er als volgt uit:
 
 ![ verzendend Gegevens van Hoofdloze Storefront aan Achtergrond ](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Nadat u [ ](#install-the-extension) installeert en [ ](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van het Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
+Nadat u [ ](#install-the-extension) installeert en [ ](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
 
 Om die segmentlidmaatschap van SDK te vangen, zie dit [ codefragment ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
@@ -332,14 +332,14 @@ Leer meer over de `dynamicBlocks` vraag van GraphQL in de [ ontwikkelaardocument
 
 ## Soorten publiek ophalen met de Adobe Experience Platform Mobile SDK
 
-U kunt een Real-Time CDP-publiek ophalen met de Adobe Experience Platform Mobile SDK.
+U kunt het Real-Time CDP-publiek ophalen met de Adobe Experience Platform Mobile SDK.
 
-1. [ installeer ](#install-the-extension) de uitbreiding van het Audience Activation.
-1. [ installeer en vorm SDK voor uw mobiele plaats van Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [ installeer ](#install-the-extension) de uitbreiding van Audience Activation.
+1. [ installeer en vorm SDK voor uw mobiele plaats van Commerce ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
->De Adobe Experience Platform Mobile SDK voor iOS ondersteunt iOS 11 of hoger.
+>De Adobe Experience Platform Mobile SDK for iOS ondersteunt iOS 11 of hoger.
 
 Nadat u de configuratie hebt voltooid, gebruikt u mobiele SDK-bewerkingen om de publieksgegevens op te halen. Bijvoorbeeld:
 

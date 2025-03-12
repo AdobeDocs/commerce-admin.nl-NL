@@ -1,18 +1,18 @@
 ---
-title: Uitbreidingen van Adobe
-description: Informatie bekijken over extensies voor Adobe Commerce en Magento Open Source die door de Adobe zijn uitgebracht.
+title: Extensies van Adobe
+description: Bekijk de informatie over extensies voor Adobe Commerce en Magento Open Source die door Adobe zijn uitgebracht.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Uitbreidingen van Adobe
+# Extensies van Adobe
 
-Dit onderwerp verstrekt informatie over uitbreidingen voor Adobe Commerce en Magento Open Source die door Adobe worden vrijgegeven. Met extensies voegt u functies, functionaliteit, services en integratie toe aan Admin en Store. Sommige van deze verlengingen worden ontwikkeld door middel van communautaire bijdragen van de Magento Open Source. Sommige extensies moeten apart worden geïnstalleerd, andere worden standaard geïnstalleerd.
+Dit onderwerp bevat informatie over extensies voor Adobe Commerce en Magento Open Source die door Adobe worden uitgebracht. Met extensies voegt u functies, functionaliteit, services en integratie toe aan Admin en Store. Sommige van deze verlengingen worden ontwikkeld met behulp van de bijdragen van de Gemeenschap van Magento Open Source. Sommige extensies moeten apart worden geïnstalleerd, andere worden standaard geïnstalleerd.
 
 ## Geïnstalleerde extensies
 
@@ -32,9 +32,9 @@ Sommige extensies worden automatisch geïnstalleerd met Adobe Commerce of Magent
 
 PayPal en Gene Commerce hebben samen de officiële Braintree-extensie voor Commerce 2.4.x-winkels ontwikkeld. De updates zijn uitgerust met een verbeterde afrekenervaring die is ontworpen om de conversie te stimuleren en bevatten PayLater-opties die automatisch relevante PayLater-berichten en -knoppen weergeven aan consumenten tijdens het winkelen en tijdens het afrekenen.
 
-Deze uitbreiding wordt geïnstalleerd door gebrek, maar vereist de rekening van de a [ Braintree ](https://www.braintreepayments.com/) en configuratie in Admin om voor uw opslag worden toegelaten. Om de kosten te bepalen die van toepassing zijn wanneer het gebruiken van Braintree om uw transacties te verwerken, controleer de [ Braintree tarifering ](https://www.braintreepayments.com/braintree-pricing).
+Deze uitbreiding wordt geïnstalleerd door gebrek, maar vereist de a [ rekening van Braintree ](https://www.braintreepayments.com/) en configuratie in Admin om voor uw opslag worden toegelaten. Om de kosten te bepalen die van toepassing zijn wanneer het gebruiken van Braintree om uw transacties te verwerken, controleer de [ prijs van Braintree ](https://www.braintreepayments.com/braintree-pricing).
 
-Voor informatie over de configuratie van de Braintree in Admin, zie het [ Braintree ](../stores-purchase/braintree.md) onderwerp in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
+Voor informatie over de configuratie van Braintree in Admin, zie het [ Braintree ](../stores-purchase/braintree.md) onderwerp in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
 
 ### Google reCAPTCHA
 
@@ -53,39 +53,39 @@ Deze functies zijn standaard ingeschakeld. Elke Admin-gebruiker moet een van de 
 
 >[!NOTE]
 >
->Adobe Commerce-winkels die Adobe Identity Management Services (IMS)-verificatie voor de Admin hebben ingeschakeld, hebben native Commerce 2FA uitgeschakeld. Gebruikers die zich bij de beheerder hebben aangemeld met hun Adobe hoeven niet opnieuw te verifiëren voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van de Dienst van Identity Management van de Adobe (IMS) ](./adobe-ims-integration-overview.md).
+>Adobe Commerce-winkels die Adobe Identity Management Services (IMS)-verificatie voor de Admin hebben ingeschakeld, hebben native Commerce 2FA uitgeschakeld. Gebruikers die zich bij de beheerder hebben aangemeld met hun Adobe-gebruikersgegevens hoeven niet opnieuw te verifiëren voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](./adobe-ims-integration-overview.md).
 
 ## Toe te voegen extensies
 
-[[!DNL Commerce Marketplace] ](https://marketplace.magento.com/) is de globale bron van de eCommerce voor toepassingen en de diensten die [!DNL Commerce] oplossingen met krachtige nieuwe eigenschappen en functionaliteit uitbreiden. Met Adobe worden via [!DNL Marketplace] verschillende extensies uitgebracht die kunnen worden geïnstalleerd en geconfigureerd in uw Adobe Commerce- of Magento Open Source-winkel voor verbeterde integratie en mogelijkheden.
+[[!DNL Commerce Marketplace] ](https://marketplace.magento.com/) is de globale bron van de eCommerce voor toepassingen en de diensten die [!DNL Commerce] oplossingen met krachtige nieuwe eigenschappen en functionaliteit uitbreiden. Adobe geeft via [!DNL Marketplace] verschillende extensies vrij die kunnen worden geïnstalleerd en geconfigureerd in uw Adobe Commerce- of Magento Open Source-winkel voor verbeterde integratie en mogelijkheden.
 
 ### [!DNL Live Search]
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce
 
-De extensie [!DNL Live Search] verbindt uw winkel met de service Live zoeken. Dit is een gratis zoekplatform van Adobe Commerce dat verkopers naadloos de mogelijkheid biedt om klanten een AI-zoekervaring te bieden. Dankzij de kunstmatige intelligentie van de Adobe helpt Adobe Sensei Intelligent Faceting handelaren meer te doen met minder door het handmatige werk rondom facettering/filteren te verwijderen.
+De extensie [!DNL Live Search] verbindt uw winkel met de service Live zoeken. Dit is een gratis zoekplatform van Adobe Commerce dat verkopers naadloos de mogelijkheid biedt om klanten een AI-zoekervaring te bieden. Adobe Sensei, Intelligent Faceting, dat is gebouwd met de kunstmatige intelligentie van Adobe, helpt handelaren meer te doen met minder door het handmatige werk rondom facettering/filteren te verwijderen.
 
-Zie de [ Levende Gids van de Gebruiker van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) voor meer informatie.
+Zie de [ Levende Gids van de Gebruiker van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html) voor meer informatie.
 
 ### [!DNL Product Recommendations]
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce
 
-De extensie [!DNL Product Recommendations] verbindt uw winkel met de service Product Recommendations. Dit is een krachtig marketinginstrument waarmee u conversies, inkomsten en betrokkenheid kunt verhogen. [!DNL Product Recommendations] is gebouwd door Adobe Commerce en wordt aangedreven door de in de strijd geteste kunstmatige intelligentie, Adobe Sensei, zodat u op een betrouwbare manier betrokkenheid en conversie kunt stimuleren. Met deze functie verwijdert u het handmatige werk dat nodig is om relevante productaanbevelingen aan elke winkel te doen.
+De extensie [!DNL Product Recommendations] verbindt uw winkel met de service Productaanbevelingen, een krachtig marketinginstrument waarmee u conversies, inkomsten en betrokkenheid kunt verhogen. [!DNL Product Recommendations] is gebouwd door Adobe Commerce en wordt aangedreven door de in de strijd geteste kunstmatige intelligentie, Adobe Sensei, zodat u op een betrouwbare manier betrokkenheid en conversie kunt stimuleren. Met deze functie verwijdert u het handmatige werk dat nodig is om relevante productaanbevelingen aan elke winkel te doen.
 
-Zie de [[!DNL Product Recommendations]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) voor meer informatie.
+Zie de [[!DNL Product Recommendations]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en) voor meer informatie.
 
 ### [!DNL Catalog Service]
 
-Met [!DNL Catalog Service] kunt u klanten een geoptimaliseerde productervaring bieden en tegelijk de prestaties verhogen, de schaalbaarheid verbeteren en conversies verhogen. Zie de [[!DNL Catalog Service]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) voor meer informatie.
+Met [!DNL Catalog Service] kunt u klanten een geoptimaliseerde productervaring bieden en tegelijk de prestaties verhogen, de schaalbaarheid verbeteren en conversies verhogen. Zie de [[!DNL Catalog Service]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html) voor meer informatie.
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] voor Adobe Commerce en Magento Open Source is een volledig geïntegreerde betalingsoplossing die het beheer van betalingen vereenvoudigt en uw klanten de mogelijkheid biedt om hun manier van betalen te betalen. Zorg ervoor dat alle betalings- en transactiegegevens binnen de Adobe Commerce Admin op een veilige manier met elkaar in overeenstemming worden gebracht, zodat u opdrachten en betalingen op één plaats kunt beheren en een naadloze afhandeling kunt uitvoeren. Zie de [[!DNL Payment Services]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) voor meer informatie.
+[!DNL Payment services] voor Adobe Commerce en Magento Open Source is een volledig geïntegreerde betalingsoplossing die het beheer van betalingen vereenvoudigt en uw klanten de mogelijkheid biedt om hun manier van betalen te betalen. Zorg ervoor dat alle betalings- en transactiegegevens binnen de Adobe Commerce Admin op een veilige manier met elkaar in overeenstemming worden gebracht, zodat u opdrachten en betalingen op één plaats kunt beheren en een naadloze afhandeling kunt uitvoeren. Zie de [[!DNL Payment Services]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html) voor meer informatie.
 
 ### [!DNL Store Fulfillment]
 
-Met de functie Opslagtegoeden voor Adobe Commerce en Magento Open Source kan een superieur online aankopen, de klant van BOPIS (Ophalen in Store) ophalen en de werknemersproductiviteit maximaliseren door een uitgebreide uitvoeringsworkflow te bieden die via een mobiel apparaat wordt ingeschakeld. Zie de [[!DNL Store Fulfillment]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) voor meer informatie.
+Met Store Fulfillment voor Adobe Commerce en Magento Open Source kan een superieur online kopen, de klant van BOPIS (Ophalen in Store) beleven en de productiviteit van de werknemers maximaliseren door een uitgebreide uitvoeringsworkflow te bieden die via een mobiel apparaat wordt ingeschakeld. Zie de [[!DNL Store Fulfillment]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html) voor meer informatie.
 
 ### [!DNL Amazon Sales Channel]
 

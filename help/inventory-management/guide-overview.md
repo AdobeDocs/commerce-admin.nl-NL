@@ -1,19 +1,19 @@
 ---
 title: 'Inventory management Guide  [!DNL Inventory Management] '
-description: Uitgebreide informatie over  [!DNL Inventory Management]  voor de beheerders van Adobe Commerce en van de Magento Open Source, met inbegrip van migratie en configuratie.
+description: Uitgebreide informatie over  [!DNL Inventory Management]  voor de beheerders van Adobe Commerce en van Magento Open Source, met inbegrip van migratie en configuratie.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Overzicht van [!DNL Inventory Management] hulplijnen
 
-Deze handleiding is bedoeld voor beheerders van Adobe Commerce en Magento Open Source. Het verstrekt gedetailleerde informatie over het toelaten van deze module, met inbegrip van configuratie en beheer van zijn eigenschappen. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
+Deze handleiding is bedoeld voor beheerders die werken in Adobe Commerce en Magento Open Source Admin. Het verstrekt gedetailleerde informatie over het toelaten van deze module, met inbegrip van configuratie en beheer van zijn eigenschappen. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
 
 [!DNL Inventory Management] heeft twee gebieden voor beheerders:
 

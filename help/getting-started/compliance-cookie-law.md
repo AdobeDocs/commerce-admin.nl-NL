@@ -3,7 +3,7 @@ title: Naleving van Cookie-recht
 description: Om gelijke tred te houden met de wetgeving in veel landen inzake het gebruik van cookies, bieden Adobe Commerce en Magento Open Source handelaren een keuze aan methoden om toestemming van klanten te verkrijgen.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Cookies zijn kleine bestanden die worden opgeslagen op de computer van elke bezo
 
 >[!NOTE]
 >
->Als u het gebrek [ de privacymontages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) wijzigt om aan de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) te voldoen, is het niet noodzakelijk om gebruikerstoestemming voor het gebruik van de koekjes van Googles Analytics te verkrijgen.
+>Als u het gebrek [ de privacymontages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) wijzigt om aan de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) te voldoen, is het niet noodzakelijk om gebruikerstoestemming voor het gebruik van de koekjes van Google Analytics te verkrijgen.
 
 ## Modus Koekjesbeperking
 
@@ -62,7 +62,7 @@ Werk uw [ privacybeleid ](privacy-policy.md) bij zodat het op de informatie wijs
 
 ## Standaardcookies
 
-De standaardkoekjes in Adobe Commerce en de Magento Open Source worden geclassificeerd als Vrijgesteld/niet-Vrijgesteld om handelaars te helpen aan de vereisten van privacyverordeningen zoals [ GDPR ](compliance-gdpr.md) voldoen. Handelaren dienen deze informatie als leidraad te gebruiken en juridische adviseurs te raadplegen om hun privacy- en cookiebeleid bij te werken als onderdeel van een uitgebreide nalevingsstrategie voor privacyregelgeving.
+De standaardkoekjes in Adobe Commerce en Magento Open Source worden geclassificeerd als Vrijgesteld/niet-Vrijgesteld om handelaars te helpen aan de vereisten van privacyverordeningen zoals [ GDPR ](compliance-gdpr.md) voldoen. Handelaren dienen deze informatie als leidraad te gebruiken en juridische adviseurs te raadplegen om hun privacy- en cookiebeleid bij te werken als onderdeel van een uitgebreide nalevingsstrategie voor privacyregelgeving.
 
 De volgende cookies worden door [!DNL Commerce] &#39;out of the box&#39; gebruikt voor installaties op locatie en in de cloud. Deze cookies zijn mogelijk vereist door functionaliteit die expliciet wordt aangevraagd door de klant. Meer over het leven van zittingskoekjes leren, zie [ Levensduur van de Zitting ](../customers/customer-online-options.md).
 
@@ -72,7 +72,7 @@ Sommige van deze cookies kunnen configuratieopties bieden, waaronder, indien nod
 
 #### `add_to_cart`
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) vangt het product SKU, de naam, de prijs, en de hoeveelheid die uit het karretje wordt verwijderd. Hiermee kunnen Googles Analytics weten wanneer een product aan een winkelwagen is toegevoegd.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) vangt het product SKU, de naam, de prijs, en de hoeveelheid die uit het karretje wordt verwijderd. Hiermee kan Google Analytics weten wanneer een product aan een winkelwagen is toegevoegd.
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Hiermee slaat u product-id&#39;s van onlangs bekeken producten op voor eenvoudig
 
 #### `remove_from_cart`
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) staat Googles Analytics toe om te weten wanneer een product uit een kar is verwijderd.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) staat Google Analytics toe om te weten wanneer een product uit een kar is verwijderd.
 
 #### `stf`
 
@@ -196,7 +196,7 @@ Wordt ingesteld door de Gainsight PX-bibliotheek die indirect wordt gebruikt doo
 
 #### `s_sq`
 
-Deze optie wordt indirect ingesteld door de module Admin Analytics. Wordt gebruikt door de functie ClickMap die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. Hiermee slaat u gegevens van elke klik op. Wordt alleen gebruikt in een administratieve ruimte van een winkel. Niet van toepassing op kopers.
+Deze optie wordt indirect ingesteld door de module Admin Analytics. Wordt gebruikt door de ClickMap-functie die gegevens verzamelt over waar bezoekers klikken en waarop ze klikken. Hiermee slaat u gegevens van elke klik op. Wordt alleen gebruikt in een administratieve ruimte van een winkel. Niet van toepassing op kopers.
 
 #### `pagebuilder_modal_dismissed`
 
@@ -210,11 +210,11 @@ Door de Module van de Bouwer van de Pagina worden geplaatst. Bevat een vlag die 
 
 Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionaliteit in een beheergebied van een winkel. Niet van toepassing op kopers.
 
-## Product Recommendations cookies
+## Cookies met productaanbevelingen
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door Product Recommendations voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door de Aanbevelingen van het Product voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Staat u toe [ om de gegevensinzameling van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
+- `mg_dnt`: Staat u toe [ om de gegevensinzameling van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
 - `user_allowed_save_cookie`: Gebruikt voor [ wijze van de koekjesbeperking ](#cookie-restriction-mode).
 - `authentication_flag`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Deze cookie wordt tegelijk met het `dataservices_customer_id` cookie bijgewerkt.
 - `dataservices_customer_id`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Dit cookie bevat de unieke id van de klant in het systeem.
@@ -224,10 +224,10 @@ Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionalite
 
 ## Aanvullende cookies
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [ documentatie van de Snowplow ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options) worden gevonden.
-- `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [ het Web SDK van de Legering ](https://github.com/adobe/alloy).
+- `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [ het Web SDK ](https://github.com/adobe/alloy) van de Legering.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

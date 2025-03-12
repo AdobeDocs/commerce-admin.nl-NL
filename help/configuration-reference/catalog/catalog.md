@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] van Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de rasterweergave. |
 | [!UICONTROL Products per Page on List Allowed Values] | Winkelweergave | Bepaalt het aantal producten die in de Mening van de Lijst worden getoond. Als u opties wilt selecteren, voert u meerdere waarden in, gescheiden door komma&#39;s. |
 | [!UICONTROL Products per Page on List Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de lijstweergave. |
-| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Winkelweergave | Indien ingesteld op `Yes` , neemt u de optie `ALL` op in het besturingselement &#39;Tonen per pagina&#39;. |
 | [!UICONTROL Remember Category Pagination] | Algemeen | Als reeks aan `Yes`, worden de huidige waarden van de categoriepage bewaard aangezien de klanten van één categorie aan een andere in [ productlijsten ](../../catalog/navigation-product-listings.md) doorbladeren. Bij het opslaan van de waarde wordt meer cache-opslag gebruikt en kan dit van invloed zijn op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd. Opties: `Yes` / `No` (standaardwaarde) |
 | [!UICONTROL Use Flat Catalog Category] | Algemeen | Laat de [ vlakke categoriestructuur ](../../catalog/catalog-flat.md) toe (geadviseerd niet). Opties: `Yes` / `No` |
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) gebruiken. Opties: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) gebruiken. Opties: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op product-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Category URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op categorie-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Use Categories Path for Product URLs] | Winkelweergave | Hiermee wordt bepaald of categoriepaden worden opgenomen in product-URL&#39;s. Dit kan ertoe leiden dat meerdere URL&#39;s naar dezelfde pagina verwijzen, wat van invloed kan zijn op de zoekpositie. Meer leren, zie [ Canonical meta markering ](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
+U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
 
 ### Adobe Commerce met [!DNL Live Search]
 
@@ -247,8 +247,8 @@ Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configur
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de zoekmachine voor Elasticsearch. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
-| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de zoekmachine voor Elasticsearch. Als u deze waarde bijvoorbeeld instelt op 300 in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
+| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de Elasticsearch-zoekmachine. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
+| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de Elasticsearch-zoekmachine. Als u deze waarde bijvoorbeeld instelt op 300 in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
 | [!UICONTROL Number of top search results to cache] | Winkelweergave | Het aantal populaire zoektermen en resultaten dat in cache moet worden geplaatst voor snellere reacties. Als u de waarde `0` invoert, worden alle zoektermen en resultaten in cache opgeslagen wanneer u de tweede keer invoert. Standaardwaarde: `100` |
 | [!UICONTROL Autocomplete Limit] | Winkelweergave | Bepaalt het maximumaantal lijnen beschikbaar in de [ opslag popover ] pagina. De standaardwaarde kan worden gewijzigd wanneer Live zoeken is geïnstalleerd en later worden bijgewerkt door deze configuratie-instelling te wijzigen. Standaardwaarde: `8` |
 
@@ -256,35 +256,35 @@ Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configur
 
 ### Zoekprogramma&#39;s van derden
 
-Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Commerce-versies 2.3.7-p3, 2.4.3-p2 en 2.4.4 en hoger ondersteunen de OpenSearch-service. Elasticsearch 7.11 en hoger wordt niet ondersteund door Adobe Commerce voor projecten met cloudinfrastructuur. Elasticsearch wordt nog steeds ondersteund voor installaties op locatie.
+Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Commerce-versies 2.3.7-p3, 2.4.3-p2 en 2.4.4 en hoger ondersteunen de OpenSearch-service. Elasticsearch 7.11 en hoger wordt niet ondersteund op Adobe Commerce voor cloudinfrastructuurprojecten. Elasticsearch wordt nog steeds ondersteund voor installaties op locatie.
 
 >[!IMPORTANT]
 >
->- Gezien de Elasticsearch 7 eindesteunaankondiging voor Augustus 2023, adviseert de Adobe dat alle klanten van Adobe Commerce aan OpenSearch 2.x onderzoeksmotor migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>- Vanwege de Elasticsearch 7-aankondiging aan het einde van de service voor augustus 2023 raadt Adobe alle Adobe Commerce-klanten aan naar de OpenSearch 2.x-zoekmachine te migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
 >- In versies 2.4.4 en 2.4.3-p2 zijn alle velden met het label Elasticsearch ook van toepassing op OpenSearch. Toen de steun voor Elasticsearch 8.x in versie 2.4.6 werd geïntroduceerd, werden de nieuwe etiketten gecreeerd om tussen Elasticsearch en configuraties te onderscheiden OpenSearch. De configuratieopties voor beide zijn echter gelijk.
 
 ![ de opties van de het onderzoeksconfiguratie van de Catalogus ](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, moet u de waarde ook bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `3` |
-| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie wordt ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `300` in Adobe Commerce, moet u de waarde bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `128` |
+| [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, moet u de waarde ook bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `3` |
+| [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `300` in Adobe Commerce, moet u de waarde bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `128` |
 | [!UICONTROL Number of top search results to cache] | Winkelweergave | Het aantal populaire zoektermen en resultaten dat in cache moet worden geplaatst voor snellere reacties. Als u de waarde `0` invoert, worden alle zoektermen en resultaten in cache opgeslagen wanneer u de tweede keer invoert. Standaardwaarde: `100` |
 | [!UICONTROL Enable EAV Indexer] | Algemeen | Hiermee bepaalt u of de EAV-indexeerfunctie van het product moet worden in- of uitgeschakeld. Deze functie verbetert de indexatiesnelheid en beperkt het gebruik van indexen door extensies van derden. Standaardoptie: `Yes` voor ingeschakeld |
 | [!UICONTROL Autocomplete Limit] | Winkelweergave | Het maximum aantal zoekopdrachten dat onder het zoekveld wordt weergegeven voor automatisch aanvullen van de zoekopdracht. Als u deze hoeveelheid beperkt, worden de zoekresultaten beter en wordt de lijst kleiner. Standaardwaarde: `8` |
-| Zoekmachine | Algemeen | Hiermee wordt het zoekprogramma aangegeven dat is vereist voor het verwerken van aanvragen voor catalogusgegevens. De configuratieopties van de zoekmachine zijn hetzelfde voor zowel OpenSearch als Elasticsearch. Opties: `OpenSearch` of `Elasticsearch` |
+| Zoekmachine | Algemeen | Hiermee wordt het zoekprogramma aangegeven dat is vereist voor het verwerken van aanvragen voor catalogusgegevens. De configuratieopties voor zoekprogramma&#39;s zijn hetzelfde voor zowel OpenSearch als Elasticsearch. Opties: `OpenSearch` of `Elasticsearch` |
 | [!UICONTROL OpenSearch Server Hostname] | Algemeen | Hier geeft u de naam op van de OpenSearch- of Elasticsearch-hostserver. |
-| [!UICONTROL OpenSearch Server Port] | Algemeen | Hier geeft u het nummer op van de serverpoort die door OpenSearch of Elasticsearch wordt gebruikt. Standaardwaarde: `9200` |
-| [!UICONTROL OpenSearch Index Prefix] | Algemeen | Wijst een voorvoegsel toe om de index van OpenSearch of van de Elasticsearch te identificeren. Standaardwaarde: `magento2` |
-| [!UICONTROL Enable OpenSearch HTTP Auth] | Algemeen | Indien ingeschakeld, gebruikt u HTTP-verificatie om een gebruikersnaam en wachtwoord op te vragen voordat u de OpenSearch- of Elasticsearch-server opent. Opties: `Yes` / `No` |
-| [!UICONTROL OpenSearch HTTP Username] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert de gebruikersbenaming voor OpenSearch of de authentificatie van HTTP van de Elasticsearch. |
-| [!UICONTROL OpenSearch HTTP Password] | Algemeen | Wanneer _de Auteur van HTTP van de Elasticsearch_ aan `Yes` wordt geplaatst, specificeert het wachtwoord voor de authentificatie van OpenSearch of van HTTP van de Elasticsearch. |
+| [!UICONTROL OpenSearch Server Port] | Algemeen | Hier geeft u het nummer op van de serverpoort die wordt gebruikt door OpenSearch of Elasticsearch. Standaardwaarde: `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | Algemeen | Wijst een voorvoegsel toe om de OpenSearch- of Elasticsearch-index te identificeren. Standaardwaarde: `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | Algemeen | Indien ingeschakeld, gebruikt u HTTP-verificatie om te vragen naar een gebruikersnaam en wachtwoord voordat u de OpenSearch- of Elasticsearch-server opent. Opties: `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | Algemeen | Wanneer _de Audio van HTTP van Elasticsearch_ wordt geplaatst aan `Yes`, specificeert de gebruikersbenaming voor OpenSearch of de authentificatie van HTTP van Elasticsearch. |
+| [!UICONTROL OpenSearch HTTP Password] | Algemeen | Wanneer _de Audio van HTTP van Elasticsearch_ aan `Yes` wordt geplaatst, specificeert het wachtwoord voor OpenSearch of de authentificatie van HTTP van Elasticsearch. |
 | [!UICONTROL OpenSearch Server Timeout] | Algemeen | Hiermee bepaalt u het aantal seconden voordat een aanvraag naar de OpenSearch- of Elasticsearch-server wordt verzonden. Standaardwaarde: `15` |
 | [!UICONTROL Test Connection] |  | Valideert de OpenSearch- of Elasticsearch-verbinding. |
 | [!UICONTROL Enable Search Recommendations] | Winkelweergave | Hiermee bepaalt u of zoekaanbevelingen worden aangeboden wanneer een zoekopdracht geen resultaten oplevert en onder de sectie `Related search terms` op de pagina met zoekresultaten wordt weergegeven. Opties: `Yes` / `No` <br/> Als deze optie is ingesteld op Ja, worden extra opties weergegeven voor _[!UICONTROL Search Recommendations Count]_en_[!UICONTROL Shows Results Count for Each Recommendation]_ . |
 | [!UICONTROL Search Recommendations Count] | Winkelweergave | Hier geeft u het aantal zoektermen op dat als aanbevelingen wordt aangeboden. Standaard worden er maximaal vijf weergegeven. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Winkelweergave | Wanneer ingesteld op `Yes` , wordt het aantal producten dat wordt gevonden voor de voorgestelde zoekaanbeveling tussen haakjes weergegeven. Opties: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Winkelweergave | Hiermee bepaalt u of zoeksuggesties worden weergegeven voor veelvoorkomende spelfouten. Wanneer toegelaten, worden de onderzoekssuggesties aangeboden voor om het even welk verzoek dat geen resultaten terugkeert en onder de `Did you mean` sectie op de **2} pagina van de Resultaten van het Onderzoek {verschijnt.** Zoeksuggesties kunnen van invloed zijn op de zoekprestaties. Als deze optie is ingesteld op `Yes`, worden extra opties weergegeven voor Zoeken in Recommendations en de bijbehorende velden. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Winkelweergave | Hiermee bepaalt u of zoeksuggesties worden weergegeven voor veelvoorkomende spelfouten. Wanneer toegelaten, worden de onderzoekssuggesties aangeboden voor om het even welk verzoek dat geen resultaten terugkeert en onder de `Did you mean` sectie op de **2} pagina van de Resultaten van het Onderzoek {verschijnt.** Zoeksuggesties kunnen van invloed zijn op de zoekprestaties. Als deze waarde is ingesteld op `Yes`, worden extra opties weergegeven voor Aanbevelingen voor zoeken inschakelen en de bijbehorende velden. Opties: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Winkelweergave | Hiermee bepaalt u het aantal aangeboden zoeksuggesties. Bijvoorbeeld: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Winkelweergave | Hiermee bepaalt u of het aantal zoekresultaten voor elke suggestie wordt weergegeven. Afhankelijk van thema, verschijnt het aantal gewoonlijk tussen haakjes na de suggestie. Opties: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Meer leren, zie [ minimum_should_match parameter ](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in de documentatie OpenSearch. |

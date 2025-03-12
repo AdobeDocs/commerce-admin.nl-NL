@@ -3,7 +3,7 @@ title: Productrelaties
 description: Klik hier als je wilt weten welke productrelatietypen je kunt gebruiken om producten te promoten bij kopers op wie je bent gericht.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Wanneer u creeert of een product bijwerkt, staan de [ productmontages ](../catal
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) [ Verwante productregels ](product-related-rules.md) geven u de capaciteit om de selectie van producten te richten die aan klanten als verwante producten, omhoog-verkoopt, en dwars-verkoopt worden voorgesteld.
 
-## Product Recommendations met Adobe Sensei
+## Productaanbevelingen van Adobe Sensei
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) [ Product Recommendations ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) aangedreven door Adobe Sensei vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) aangedreven door Adobe Sensei vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.

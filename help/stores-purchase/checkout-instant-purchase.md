@@ -3,7 +3,7 @@ title: Direct aanschaffen
 description: Klik hier als je wilt weten hoe je direct kunt kopen en hoe je een snelle afhandeling voor geregistreerde klantenaccounts kunt aanbieden.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,7 +28,7 @@ _Onmiddellijke Aankoop_ staat klanten toe om door het controleproces te versnell
 
   De volgende betalingsmethoden kunnen worden gebruikt om beveiligde toegang tot opgeslagen creditcardgegevens te bieden:
 
-   - [ Kredietkaarten van de Braintree ](braintree.md) (De Onmiddellijke Aankoop kan niet met de Kaarten van de Krediet van de Braintree worden gebruikt als 3D Veilig wordt toegelaten.)
+   - [ de Kredietkaarten van Braintree ](braintree.md) (De Onmiddellijke Aankoop kan niet met de Kredietkaarten van Braintree worden gebruikt als 3D Veilig wordt toegelaten.)
    - [Braintree met PayPal ingeschakeld](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -52,12 +52,12 @@ _Onmiddellijke Aankoop_ staat klanten toe om door het controleproces te versnell
 
 ### Stap 2: De vault van de betalingsmethode configureren
 
-U kunt Direct kopen met Braintree of Betalingsservices gebruiken voor Adobe Commerce en Magento Open Source. Vaulting moet zijn ingeschakeld voordat een winkelier de functie Onmiddellijk kopen kan gebruiken.
+U kunt Direct aanschaffen met Braintree of Betalingsservices voor Adobe Commerce en Magento Open Source gebruiken. Vaulting moet zijn ingeschakeld voordat een winkelier de functie Onmiddellijk kopen kan gebruiken.
 
-Leer hoe u de betalingsmethode configureert en het valideren van Braintree- of betalingsservices inschakelt:
+Leer hoe u de betalingsmethode configureert en archivering voor Braintree of Betalingsservices inschakelt:
 
 - [Braintree](braintree.md)
-- [ documentatie van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [ documentatie van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Stap 3: Directe aankoop inschakelen
 

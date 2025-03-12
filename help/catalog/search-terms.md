@@ -3,7 +3,7 @@ title: Zoektermen beheren
 description: Leer hoe u de zoektermen voor uw winkel beheert om klanten om te leiden met verkeerd gespelde of alternatieve termen.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor opti
 
 Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 
-- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
+- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
 - De standaardfunctie Synonyms zoeken (die in deze pagina wordt beschreven) is beschikbaar in alle Adobe Commerce-installaties.
 
 >[!NOTE]

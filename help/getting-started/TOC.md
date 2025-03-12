@@ -1,22 +1,21 @@
 ---
-user-guide-title: Aan de slag met Adobe Commerce
-user-guide-description: Als u aan Adobe Commerce of Magento Open Source nieuw bent, ontdek middelen van het  [!DNL Commerce]  ecosysteem, volg de klantenreis om uw opslag te onderzoeken, en over zeer belangrijke eigenschappen te leren.
+user-guide-title: Aan de slag met Adobe Commerce Admin Guide
+user-guide-description: Als u aan Adobe Commerce of Magento Open Source Admin nieuw bent, ontdek middelen van het  [!DNL Commerce]  ecosysteem, volg de klantenreis om uw opslag te onderzoeken, en over zeer belangrijke eigenschappen te leren Admin.
 breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 
-# Aan de slag met Adobe Commerce {#start}
+# Aan de slag met Adobe Commerce Admin Guide {#start}
 
-+ [Aan de slag met Adobe Commerce](guide-overview.md)
-+ [Wat is Adobe Commerce?](about.md)
++ [Aan de slag met Adobe Commerce Admin Guide](guide-overview.md)
 + [Aanmeldingsgegevens en URL&#39;s](login-urls.md)
 + Commerce-accounts {#commerce-account}
    + [Uw account maken en openen](commerce-account-create.md)
@@ -46,7 +45,7 @@ ht-degree: 0%
    + Adobe Experience Cloud-integratie {#unifiedexperience}
       + [Overzicht](admin-unified-experience-integration-overview.md)
       + [De integratie configureren](admin-unified-experience-integration-configure.md)
-      + [De integratie van het Experience Cloud beheren](admin-unified-experience-integration-manage.md)
+      + [De Experience Cloud-integratie beheren](admin-unified-experience-integration-manage.md)
       + [Aanvullende informatie](admin-unified-experience-release-notes.md)
    + Gereedschappen en werkruimte voor beheerders {#tools}
       + [Workspace](admin-workspace.md)
@@ -77,5 +76,5 @@ ht-degree: 0%
    + [Ecosysteem](resources.md)
    + [Extensies](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [ Terugkeer aan Merchant Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

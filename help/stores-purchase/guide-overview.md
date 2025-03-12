@@ -3,16 +3,16 @@ title: Handleiding voor winkels en aanschaf
 description: Uitgebreide informatie over opslagdefinitie en verkoopverwerkingseigenschappen voor de agenten van de klantendienst en verkoopmanagers die in Adobe Commerce en Magento Open Source Admin werken.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Handleiding voor Adobe Commerce-winkels en -aankopen
 
-Deze gids is voorgenomen voor de agenten van de klantendienst en verkoopmanagers die in Adobe Commerce en Magento Open Source werken. Het biedt gedetailleerde informatie over functies voor orderbeheer en aanschaf, waaronder de manier waarop het winkelwagentje kan worden geconfigureerd om klanten te helpen en de verkoop te bevorderen. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
+Deze handleiding is bedoeld voor agenten van de klantenservice en verkoopmanagers die in de Admin van Adobe Commerce en van Magento Open Source werken. Het biedt gedetailleerde informatie over functies voor orderbeheer en aanschaf, waaronder de manier waarop het winkelwagentje kan worden geconfigureerd om klanten te helpen en de verkoop te bevorderen. Hierbij wordt uitgegaan van een basisbegrip van de basisconfiguratie en -functionaliteit van [!DNL Commerce] .
 
 Deze handleiding is van toepassing op:
 

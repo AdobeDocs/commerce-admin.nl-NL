@@ -3,16 +3,16 @@ title: Cataloguszoekopdracht configureren
 description: Leer hoe u het zoeken naar catalogi voor uw winkel kunt configureren.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Cataloguszoekopdracht configureren
 
-Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. De eerste methode beschrijft de beschikbare montages wanneer [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) geïnstalleerd is. De tweede methode beschrijft de configuratiemontages voor inheemse Adobe Commerce met [ OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) {:target= &quot;_blank&quot;}.
+Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. De eerste methode beschrijft de beschikbare montages wanneer [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) geïnstalleerd is. De tweede methode beschrijft de configuratiemontages voor inheemse Adobe Commerce met [ OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) {:target="_blank"}.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 
    De standaardwaarde is `100` . Als u de waarde `0` invoert, worden alle zoektermen en resultaten in cache opgeslagen wanneer u de tweede keer invoert.
 
-1. Om het maximumaantal lijnen te veranderen die voor teruggekeerde resultaten in [ storefront pop over ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) beschikbaar zijn, ga een verschillende **[!UICONTROL Autocomplete Limit]** waarde in.
+1. Om het maximumaantal lijnen te veranderen die voor teruggekeerde resultaten in [ storefront pop over ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) beschikbaar zijn, ga een verschillende **[!UICONTROL Autocomplete Limit]** waarde in.
 
    Als u het aantal regels beperkt, worden zoekopdrachten sneller uitgevoerd en wordt de lijst kleiner. De standaardwaarde is `8` regels.
 
@@ -51,7 +51,7 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 
 >[!NOTE]
 >
->Met OpenSearch en Elasticsearch, is er geen out-of-box steun voor onderzoek door het achtervoegsel. Bijvoorbeeld, kan het onderzoek door SKU niet het verwachte resultaat terugkeren als het sleutelwoord slechts het einddeel van SKU bevat.
+>Met OpenSearch en Elasticsearch is er geen ondersteuning buiten de box voor zoeken op het achtervoegsel. Bijvoorbeeld, kan het onderzoek door SKU niet het verwachte resultaat terugkeren als het sleutelwoord slechts het einddeel van SKU bevat.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -95,7 +95,7 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 
    In dit voorbeeld is de standaardwaarde `9200` .
 
-1. Voer bij **[!UICONTROL OpenSearch Index Prefix]** een voorvoegsel in om de index van de Elasticsearch te identificeren.
+1. Voer bij **[!UICONTROL OpenSearch Index Prefix]** een voorvoegsel in om de Elasticsearch-index te identificeren.
 
    De standaardwaarde is `magento2` .
 

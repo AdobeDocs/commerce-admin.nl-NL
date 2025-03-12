@@ -3,9 +3,9 @@ title: Wat is de winkel?
 description: Meer informatie over de pagina's en functionele elementen die uw winkel kan bieden ter ondersteuning van de winkelervaring voor uw klanten.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,51 @@ ht-degree: 0%
 In uw Adobe Commerce- of Magento Open Source-implementatie is de winkel het externe, openbare gedeelte van uw winkel. Het biedt de inhoud en functionele componenten die uw klanten gebruiken om te winkelen en aan te schaffen.
 
 De wegklanten nemen aan een verkoop soms wordt genoemd de _weg aan aankoop_, en uw opslag omvat de componenten voor klanten om deze weg te voltooien. In de volgende secties vindt u een overzicht van de basispaginatypen die een strategische waarde bieden. De plaatsen waar klanten gewoonlijk bezoeken tijdens het winkelen in uw winkel. Terwijl u ze bekijkt, moet u rekening houden met verschillende opslagfuncties die in elk stadium van de reis van de klant kunnen worden gebruikt.
+
+## Commerce Storefront
+
+Met de introductie van [!DNL **Commerce Storefront die door Edge Delivery Services**] wordt aangedreven, biedt Adobe een krachtige, scalable, en betrouwbare opslagront aan die hefboomwerkingen geavanceerde technologie om superieure snelheid en gebruikerservaring te leveren.
+
+- **Verbeterde prestaties**: Het ontvangen van winkelcentra op Edge Delivery Services verzekert snellere ladingstijden en betere plaatsprestaties, die tot hogere omzettingspercentages en betere SEO-classificaties kunnen leiden.
+
+- **Schaalbaarheid**: De architectuur steunt naadloze schrapen om verhoogd verkeer en grotere productcatalogi te behandelen zonder prestaties te compromitteren.
+
+- **Flexibiliteit**: De opslag is hoogst klantgericht, toestaand ondernemingen om het winkelen ervaring aan hun unieke behoeften aan te passen.
+
+- **Verbeterde gebruikerservaring**: De eigenschappen zoals geavanceerd caching, updates in real time, en gepersonaliseerde inhoudslevering dragen aan een vlottere en boeiendere het winkelervaring bij.
+
+### Belangrijkste kenmerken
+
+De Commerce Storefront van Edge Delivery Services biedt verschillende belangrijke functies die zowel handelaren als ontwikkelaars ten goede komen. Met deze functies kunnen bedrijven aantrekkelijke boodschapervaringen creëren en tegelijk de flexibiliteit behouden om hun winkelvoorkeuren aan te passen en te schalen aan hun behoeften.
+
+Voor meer gedetailleerde informatie en begeleiding bij vestiging en het optimaliseren van uw Opslag van Commerce, zie de [ Documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB  Merchants ]
+
+De Commerce Storefront van Edge Delivery Services biedt een intuïtieve, op documenten gebaseerde ontwerpervaring die het voor handelaren eenvoudig maakt om inhoud te maken en te beheren. Met vertrouwde gereedschappen, zoals Microsoft Word of Google Docs, kunnen verkopers rijke inhoud maken, terwijl ze versiebeheer behouden en met teamleden samenwerken.
+
+- **Vereenvoudigde inhoudsverwezenlijking**: Creeer en geef inhoud uit gebruikend vertrouwde op document-gebaseerde auteurshulpmiddelen, zoals Microsoft Word of Google Docs.
+- **Voorproef in real time**: Zie veranderingen onmiddellijk met levende voorproefmogelijkheden alvorens te publiceren.
+- **de controle van de Versie**: De veranderingen van de inhoud van het spoor en rollen gemakkelijk terug naar vorige versies.
+- **Samenwerkings werkschema**: De veelvoudige teamleden kunnen aan inhoud gelijktijdig met ingebouwde overzichtsprocessen werken.
+- **Inhoud hergebruikt**: Creeer inhoudsblokken die over veelvoudige pagina&#39;s kunnen worden opnieuw gebruikt om consistentie te handhaven.
+
+>[!TAB  Ontwikkelaars ]
+
+Dankzij de implementatie zonder koppen kunnen ontwikkelaars de front-end presentatielaag loskoppelen van de back-end handelsfunctionaliteit, waardoor ze flexibele, aangepaste winkels kunnen maken die zijn gebouwd met moderne technologieën en tegelijk de robuuste back-endservices van Commerce kunnen benutten.
+
+- **API-eerste architectuur**: Bouw de ervaringen van de douane frontend gebruikend moderne kaders terwijl het leveraging van de backenddiensten van Commerce.
+- **Composable componenten**: Creeer en stel modulaire, herbruikbare componenten op die in verschillende paginalay-outs kunnen worden geassembleerd.
+- **Verlengbaar platform**: Voeg douanefunctionaliteit door APIs en webhooks toe zonder kerncode te wijzigen.
+- **Moderne ontwikkelingshulpmiddelen**: Gebruik industrie-standaardontwikkelingshulpmiddelen en werkschema&#39;s voor snellere implementatie en plaatsing.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Hoewel de Commerce Storefront talrijke voordelen biedt, blijft Adobe de originele, op Luma gebaseerde winkel ondersteunen. Ondernemingen die momenteel Luma gebruiken, kunnen zonder onderbreking blijven werken en hebben de optie om in hun eigen tempo over te schakelen naar de nieuwe winkel. De overige secties op deze pagina zijn gebaseerd op Luminantiepunten.
 
 ## Homepage
 
@@ -36,7 +81,7 @@ Wist u dat mensen die zoeken bijna twee keer zo vaak een aankoop doen als mensen
 
 ### [!DNL Live Search]
 
-Met [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
+Met [[!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
 
 ![ Levend voorbeeld van het Onderzoek - onderzoek aangezien u ](./assets/storefront-search-as-you-type.png){width="700"} typt
 
@@ -54,13 +99,13 @@ De productpagina gaat veel verder! Het eerste wat uw ogen op de productpagina ra
 
 ## Winkelwagentje
 
-In het winkelwagentje kan het ordertotaal worden bepaald, samen met kortingsbonnen en geschatte verzendkosten en belastingen, en een geweldige plaats om je vertrouwensbadges en zegels weer te geven. Het is ook een ideale gelegenheid om nog een laatste punt aan te bieden. Als een cross-sell-object kunt u bepaalde objecten selecteren die als een impulsaankoop moeten worden aangeboden wanneer een bepaald object in het winkelwagentje wordt weergegeven.
+Het winkelwagentje geeft het ordertotaal weer, inclusief eventuele kortingsbonnen, geschatte verzendkosten en belastingen. Deze functies maken het een goede plaats om vertrouwensbadges en -zegels weer te geven. U kunt de winkelwagentje ook gebruiken als een mogelijkheid voor één laatste voorstel. U kunt bijvoorbeeld cross-sell-items instellen die worden weergegeven als opties voor impulsaankopen wanneer bepaalde producten zich in het winkelwagentje bevinden.
 
 ![ de winkelwagentje van het Voorbeeld winkelende pagina ](./assets/storefront-cart-full.png){width="700"}
 
 ## Afhandelingspagina
 
-Afhandelingsproces bestaat uit twee stappen:
+Het uitcheckproces bestaat uit twee stappen:
 
 1. Verzendgegevens
 
@@ -83,4 +128,4 @@ De vooruitgangsbar bij de bovenkant van de pagina volgt elke stap van het contro
 
 >[!NOTE]
 >
->De uitzondering op een controle in twee stappen is van toepassing op virtuele en/of downloadbare producten. Als het winkelwagentje alleen dergelijke producten bevat, wordt de afhandeling automatisch omgezet in één stap, omdat de verzendgegevens niet vereist zijn.
+>De uitzondering op een controle in twee stappen is van toepassing op virtuele en/of downloadbare producten. Als het winkelwagentje alleen dergelijke producten bevat, wordt de afhandeling automatisch omgezet in een procedure in één stap, omdat de verzendgegevens niet vereist zijn.

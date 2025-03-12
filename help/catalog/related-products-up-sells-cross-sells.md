@@ -3,7 +3,7 @@ title: Productinstellingen - [!UICONTROL Related Products, Up-Sells, and Cross-S
 description: Voor een product definiëren de [!UICONTROL Related Products, Up-Sells, and Cross-Sells] -instellingen eenvoudige promotieblokken op de productpagina die een selectie extra producten markeren.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Elk blok bestaat uit een lijst van producten die tot een specifieke optie behore
 
 >[!TIP]
 >
->![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) **Product Recommendations die door Adobe Sensei** wordt aangedreven vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
+>![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) **de Aanbevelingen van het Product die door Adobe Sensei** worden aangedreven vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
 ><br/>
->Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van Recommendations van het Product ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Verwante producten
 

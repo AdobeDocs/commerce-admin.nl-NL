@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL General] van Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ Voor meer informatie over het veranderen van deze montages, zie [ enig-opslagwij
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Algemeen | Deze configuratie wordt uitgezet door gebrek als u een gezondheidszorgklant bent en de ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) uitbreiding van HIPAA [ van de Diensten van Gegevens {geïnstalleerd. Hierdoor worden gegevens over opslaggebeurtenissen die worden gebruikt door Live zoeken en productaanbevelingen niet meer vastgelegd. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Om storefront gebeurtenisgegevens voor gebruik door het [ Levende Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) en de [ diensten van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) verder te vangen en te verzenden, plaatste **Gebeurtenissen van Commerce Toegelaten** aan `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Algemeen | Deze configuratie wordt uitgezet door gebrek als u een gezondheidszorgklant bent en de ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) uitbreiding van HIPAA [ van de Diensten van Gegevens {geïnstalleerd. Hierdoor worden gegevens over opslaggebeurtenissen die worden gebruikt door Live zoeken en productaanbevelingen niet meer vastgelegd. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Om storefront gebeurtenisgegevens voor gebruik door het [ Levende Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) en de [ diensten van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) verder te vangen en te verzenden, plaatste **Gebeurtenissen van Commerce Toegelaten** aan `Yes`. |
 
 {style="table-layout:auto"}
