@@ -3,20 +3,38 @@ title: Extensies van Adobe
 description: Bekijk de informatie over extensies voor Adobe Commerce en Magento Open Source die door Adobe zijn uitgebracht.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: e37ca150c72bb46066690524a35de52d6db6d56a
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
 
 # Extensies van Adobe
 
-Dit onderwerp bevat informatie over extensies voor Adobe Commerce en Magento Open Source die door Adobe worden uitgebracht. Met extensies voegt u functies, functionaliteit, services en integratie toe aan Admin en Store. Sommige van deze verlengingen worden ontwikkeld met behulp van de bijdragen van de Gemeenschap van Magento Open Source. Sommige extensies moeten apart worden geïnstalleerd, andere worden standaard geïnstalleerd.
+Dit onderwerp bevat informatie over PHP-extensies voor Adobe Commerce en Magento Open Source die door Adobe worden uitgegeven.
 
-## Geïnstalleerde extensies
+Met extensies voegt u functies, functionaliteit, services en integratie toe aan Admin en Store. Sommige van deze verlengingen worden ontwikkeld met behulp van de bijdragen van de Gemeenschap van Magento Open Source. Sommige extensies worden standaard geïnstalleerd en andere moeten apart worden geïnstalleerd.
 
-Sommige extensies worden automatisch geïnstalleerd met Adobe Commerce of Magento Open Source.
++++Meer informatie over Adobe Commerce uitbreiden
+
+Adobe biedt twee hoofdmanieren om uw Adobe Commerce-projecten uit te breiden of aan te passen:
+
+- Procesuitbreidbaarheid: gebruikt aangepaste code en extensies die in het Adobe Commerce-toepassingsproces worden uitgevoerd, zoals PHP-extensies. Deze traditionele benadering staat diepe integratie toe maar vereist zorgvuldig beheer tijdens verbeteringen.
+
+- Buiten-de-procesrekbaarheid: Gebruikt douanecode en toepassingen die onafhankelijk van de kernsoftware werken. Deze moderne aanpak helpt de totale eigendomskosten te verlagen door:
+
+   - Verbeteringen vereenvoudigen omdat extensies worden losgekoppeld van de kern
+   - Ontwikkelaars meer controle geven over de timing en methoden van de implementatie
+   - Onafhankelijk schalen en onderhoud van extensiecomponenten inschakelen
+
+Adobe Commerce biedt strategieën en instrumenten om beide soorten uitbreidbaarheid te ondersteunen. Meer leren, zie [ uitbreidbaarheid van Adobe Commerce ](https://developer.adobe.com/commerce/extensibility/).
+
++++
+
+## Adobe-extensies die standaard zijn geïnstalleerd
+
+De volgende Adobe-extensies worden meegeleverd bij Adobe Commerce en worden automatisch geïnstalleerd bij de Adobe Commerce-toepassing. Sommige extensies moeten verder worden geconfigureerd of ingeschakeld in de beheerfunctie, zoals vermeld in de extensiebeschrijving.
 
 ### [!DNL Inventory Management]
 
@@ -55,42 +73,74 @@ Deze functies zijn standaard ingeschakeld. Elke Admin-gebruiker moet een van de 
 >
 >Adobe Commerce-winkels die Adobe Identity Management Services (IMS)-verificatie voor de Admin hebben ingeschakeld, hebben native Commerce 2FA uitgeschakeld. Gebruikers die zich bij de beheerder hebben aangemeld met hun Adobe-gebruikersgegevens hoeven niet opnieuw te verifiëren voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](./adobe-ims-integration-overview.md).
 
-## Toe te voegen extensies
+## Adobe-extensies die moeten worden geïnstalleerd
 
-[[!DNL Commerce Marketplace] ](https://marketplace.magento.com/) is de globale bron van de eCommerce voor toepassingen en de diensten die [!DNL Commerce] oplossingen met krachtige nieuwe eigenschappen en functionaliteit uitbreiden. Adobe geeft via [!DNL Marketplace] verschillende extensies vrij die kunnen worden geïnstalleerd en geconfigureerd in uw Adobe Commerce- of Magento Open Source-winkel voor verbeterde integratie en mogelijkheden.
+Adobe biedt extra extensies die afzonderlijk met Composer moeten worden geïnstalleerd. Deze extensies zijn via verschillende kanalen beschikbaar:
+
+- Toegang tot opslagplaats (repo.magento.com)
+
+  Voor de volgende extensies zijn provisioning en aanmeldingsgegevens van account vereist. Neem contact op met uw Adobe-accountvertegenwoordiger voor hulp.
+
+   - [Adobe Commerce B2B](#adobe-commerce-b2b)
+   - [AEM Assets-integratie voor Commerce](#assets-integration-for-commerce)
+
+- Adobe Commerce Marketplace
+
+  De volgende uitbreidingen van Adobe zijn openbaar toegankelijk bij [ marketplace.magento.com ](https://marketplace.magento.com). Deze extensies zijn zonder extra kosten beschikbaar.
+
+   - [Live zoeken](#live-search)
+   - [Aanbevelingen voor producten](#product-recommendations)
+   - [Catalogusservice](#catalog-service)
+   - [Betalingsdiensten](#payment-services)
+
+### [!DNL Adobe Commerce B2B]
+
+![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce, vereist een afzonderlijke vergunning.
+
+[!DNL Adobe Commerce B2B] is een geïntegreerde extensie die standaard Commerce-winkels omzet in uitgebreide business-to-business platforms. Het laat bedrijven toe om complexe organisatorische structuren met veelvoudige kopers, douanerollen, en kooptoestemmingen onder verenigde bedrijfrekeningen te beheren. Tot de belangrijkste functies behoren bedrijfsspecifieke catalogi en prijzen, verhandelbare prijzen, beheer van inkooporders, aanvraaglijsten en mogelijkheden voor snel bestellen. De oplossing steunt zowel modellen B2B als B2C op één enkele instantie, die het voor diverse bedrijfsbehoeften flexibel maakt. De extensie vereist een aparte licentie en kan naadloos worden geïntegreerd met de kernfuncties van Adobe Commerce om een volledige E-commerceoplossing voor B2B te bieden.
+
+Neem voor provisioning contact op met uw Adobe-accountvertegenwoordiger. Voor implementatiedetails en configuratiestappen, zie de [[!DNL B2B for Adobe Commerce]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+
+### [!DNL AEM Assets Integration for Commerce]
+
+![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce, vereist ook vergunningen voor Adobe Experience Manager (AEM) Assets en AEM Dynamic Media.
+
+[!DNL AEM Assets Integration for Commerce] maakt een verbinding tussen Adobe Commerce en het Adobe Experience Manager Digital Asset Management (DAM)-systeem om gecentraliseerde controle over alle digitale middelen mogelijk te maken. Deze integratie maakt automatische synchronisatie van bedrijfsmiddelen, real-time updates en efficiënt hergebruik van inhoud in verschillende winkelwinkelwinkelcentra mogelijk. Door de robuuste mogelijkheden voor middelenbeheer van AEM te combineren met Commerce, kunnen bedrijven profiteren van gestroomlijnde workflows, consistente merkervaringen en geoptimaliseerde media-levering via cloudgebaseerde infrastructuren.
+
+Neem voor provisioning contact op met uw Adobe-accountvertegenwoordiger. Voor implementatiedetails en configuratiestappen, zie de [[!DNL Assets Integration]  Gids van de Gebruiker ](../content-design/aem-assets-integration.md).
 
 ### [!DNL Live Search]
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce
 
-De extensie [!DNL Live Search] verbindt uw winkel met de service Live zoeken. Dit is een gratis zoekplatform van Adobe Commerce dat verkopers naadloos de mogelijkheid biedt om klanten een AI-zoekervaring te bieden. Adobe Sensei, Intelligent Faceting, dat is gebouwd met de kunstmatige intelligentie van Adobe, helpt handelaren meer te doen met minder door het handmatige werk rondom facettering/filteren te verwijderen.
+Live zoeken is een exclusieve Adobe Commerce-functie die een door AI aangedreven zoekoplossing biedt met real-time functionaliteit voor &#39;zoeken als u-typen&#39;. Het levert snelle, relevante resultaten met productduimnagels terwijl de kopers typen, samen met intelligente facetten die filters automatisch aanpassen gebaseerd op winkelgedrag. De oplossing omvat verkoopbevorderende mogelijkheden voor product en het begraven, synoniem beheer, en onderzoek analyseert. [!DNL Live Search] wordt zonder extra kosten bij Adobe Commerce geleverd en vervangt de standaardzoekfunctionaliteit door een meer geavanceerde zoekervaring op basis van SaaS. Het vereist minimale configuratie om te beginnen.
 
-Zie de [ Levende Gids van de Gebruiker van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html) voor meer informatie.
+Voor implementatiedetails en technische vereisten, zie de [ Levende Gids van de Gebruiker van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 ### [!DNL Product Recommendations]
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) slechts Adobe Commerce
 
-De extensie [!DNL Product Recommendations] verbindt uw winkel met de service Productaanbevelingen, een krachtig marketinginstrument waarmee u conversies, inkomsten en betrokkenheid kunt verhogen. [!DNL Product Recommendations] is gebouwd door Adobe Commerce en wordt aangedreven door de in de strijd geteste kunstmatige intelligentie, Adobe Sensei, zodat u op een betrouwbare manier betrokkenheid en conversie kunt stimuleren. Met deze functie verwijdert u het handmatige werk dat nodig is om relevante productaanbevelingen aan elke winkel te doen.
+[!DNL Product Recommendations] is een exclusieve Adobe Commerce-functie met Adobe Sensei AI-technologie die gepersonaliseerde productsuggesties levert gedurende de hele reis van de klant. De oplossing analyseert verkoopgedrag en productrelaties in real-time om automatisch relevante aanbevelingen te genereren, waarvoor geen handmatige handelsregels vereist zijn. Deze op AI gebaseerde aanpak helpt de conversiekoersen en het inkomstenpotentieel te verhogen en zorgt voor meer aantrekkelijke ervaringen met productdetectie voor kopers.
 
-Zie de [[!DNL Product Recommendations]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en) voor meer informatie.
+Voor implementatiedetails en beste praktijken, zie de [[!DNL Product Recommendations]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
 
 ### [!DNL Catalog Service]
 
-Met [!DNL Catalog Service] kunt u klanten een geoptimaliseerde productervaring bieden en tegelijk de prestaties verhogen, de schaalbaarheid verbeteren en conversies verhogen. Zie de [[!DNL Catalog Service]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html) voor meer informatie.
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+[!DNL Catalog Service] is een krachtige oplossing voor Adobe Commerce en Magento Open Source die geoptimaliseerde toegang tot catalogusgegevens biedt via GraphQL-eindpunten. Er wordt een aparte gesynchroniseerde database bijgehouden voor productdetails en gerelateerde informatie, waarbij directe communicatie tussen toepassingen wordt overgeslagen om sneller pagina&#39;s te laden. De service is bijzonder waardevol voor pagina&#39;s met productdetails, categorielijsten en pagina&#39;s met zoekresultaten, waardoor deze ideaal is voor zowel traditionele als koploze handelsimplementaties.
+
+Voor opstellingsinstructies en technische details, zie de [[!DNL Catalog Service]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+
+>[!NOTE]
+>
+>Catalogusservices worden automatisch geïnstalleerd wanneer Live zoeken of productaanbevelingen zijn ingeschakeld. Handmatige installatie is niet vereist.
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] voor Adobe Commerce en Magento Open Source is een volledig geïntegreerde betalingsoplossing die het beheer van betalingen vereenvoudigt en uw klanten de mogelijkheid biedt om hun manier van betalen te betalen. Zorg ervoor dat alle betalings- en transactiegegevens binnen de Adobe Commerce Admin op een veilige manier met elkaar in overeenstemming worden gebracht, zodat u opdrachten en betalingen op één plaats kunt beheren en een naadloze afhandeling kunt uitvoeren. Zie de [[!DNL Payment Services]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html) voor meer informatie.
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-### [!DNL Store Fulfillment]
+[!DNL Payment Services] is een kant-en-klare betalingsoplossing voor Adobe Commerce- en Magento Open Source-winkels die uitgebreide mogelijkheden voor betalingsverwerking biedt. De service integreert beveiligde betaalgatewayfunctionaliteit met ingebouwde fraudebescherming, terwijl er meerdere betalingsopties worden aangeboden, zoals krediet-/debetkaarten, PayPal, Venmo (VS) en PayLater plannen. Het biedt uniforme transactierapportering en orderbeheer via de Commerce Admin-interface, waardoor handelaren eenvoudig betalingen kunnen bijhouden, de kasstroom kunnen beheren en alle financiële gegevens op één locatie met elkaar in overeenstemming kunnen brengen.
 
-Met Store Fulfillment voor Adobe Commerce en Magento Open Source kan een superieur online kopen, de klant van BOPIS (Ophalen in Store) beleven en de productiviteit van de werknemers maximaliseren door een uitgebreide uitvoeringsworkflow te bieden die via een mobiel apparaat wordt ingeschakeld. Zie de [[!DNL Store Fulfillment]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html) voor meer informatie.
-
-### [!DNL Amazon Sales Channel]
-
-Met [!DNL Amazon Sales Channel] voor Adobe Commerce kunt u uw Amazon Seller Central-aanbiedingsdatabase integreren met uw productcatalogus van [!DNL Commerce] en uw Amazon-aanbiedingen en -verkopen beheren in Commerce Admin. Zie de [[!DNL Amazon Sales]  Gids van de Gebruiker van de Gids ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) voor meer informatie.
-
-### [!DNL Channel Manager]
-
-Met [!DNL Channel Manager] kunt u de verkoop verhogen, nieuwe klanten bereiken, bewerkingen stroomlijnen en tijd besparen door een Adobe Commerce- of Magento Open Source-productcatalogus te integreren met de Walmart Marketplace. Nadat u de extensie hebt geïnstalleerd en geconfigureerd, kunnen uw medewerkers aanbiedingen, inventarisaties, bestellingen, retourneert en terugbetalingen van de [!DNL Commerce Admin] probleemloos beheren. Zie de [[!DNL Channel Manager]  Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) voor meer informatie.
+Voor gedetailleerde configuratiestappen en betalingsopties, zie de [[!DNL Payment Services]  Gids van de Gebruiker ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
