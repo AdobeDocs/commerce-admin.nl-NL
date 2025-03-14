@@ -3,25 +3,29 @@ title: Braintree
 description: Leer hoe u Braintree instelt als een online betalingsoplossing in uw winkel.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: fcd08ea5d8c3bd498eb4beae41bdf2f078a89f55
+source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
 
 # Braintree
 
-Braintree biedt een volledig aanpasbare uitcheckervaring met fraudedetectie en PayPal-integratie. Deze biedt ondersteuning voor [!DNL Apple Pay] -, [!DNL Google Pay] -, ACH-, Venmo- en lokale betalingsmethoden. Braintree vermindert de PCI nalevingslast voor handelaren omdat de transactie op het systeem van de Braintree plaatsvindt. De integratie van de Betalingen van de Braintree wordt ontwikkeld door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/).
+>[!IMPORTANT]
+>
+>Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pagina voor hulp.
+
+Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie. Deze biedt ondersteuning voor [!DNL Apple Pay] -, [!DNL Google Pay] -, ACH-, Venmo- en lokale betalingsmethoden. Braintree vermindert de PCI-nalevingslast voor handelaren omdat de transactie plaatsvindt op het Braintree-systeem. De integratie van de Betalingen van Braintree wordt ontwikkeld door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/).
 
 >[!NOTE]
 >
->Als u aan 2.4.x van een vroegere versie van Adobe Commerce of Magento Open Source met de geïnstalleerde Braintree uitbreiding van Commerce Marketplace bevordert, zie [ 2.4 verbeteringsnota&#39;s ](#24-upgrade-notes) aan het eind van deze pagina.
+>Als u aan 2.4.x van een vroegere versie van Adobe Commerce of Magento Open Source met de geïnstalleerde uitbreiding van Braintree van Commerce Marketplace bevordert, zie [ 2.4 verbeteringsnota&#39;s ](#24-upgrade-notes) aan het eind van deze pagina.
 
 
-## Stap 1: Krijg uw geloofsbrieven van de Braintree
+## Stap 1: Vraag je Braintree-gebruikersgegevens aan
 
-Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
+Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 ## Stap 2: De basisinstellingen voltooien
 
@@ -37,9 +41,9 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
    ![ vorm Braintree ](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
-1. Voer bij **[!UICONTROL Title]** een titel in die Braintree tijdens het afrekenen als een betalingsoptie aanduidt.
+1. Voer bij **[!UICONTROL Title]** een titel in die Braintree tijdens het afrekenen als betalingsoptie aanduidt.
 
-1. Stel het huidige besturingssysteem **[!UICONTROL Environment]** voor Braintree in op `Sandbox` of `Production`
+1. Stel het huidige besturingssysteem **[!UICONTROL Environment]** voor Braintree-transacties in op `Sandbox` of `Production`
 
    Wanneer het testen van de configuratie in een zandbak, gebruik slechts [ creditcardaantallen ][2] die door Braintree worden geadviseerd. Wanneer u gereed bent om te gaan produceren met Braintree, stelt u **[!UICONTROL Environment]** in op `Production` .
 
@@ -79,7 +83,7 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
 1. Voer de **[!UICONTROL Merchant Account ID]** in vanaf uw Braintree-account.
 
-   Als u niet de te gebruiken handelsrekening specificeert, verwerkt de Braintree de transactie gebruikend uw standaard handelaarrekening.
+   Als u niet opgeeft welke zakelijke account moet worden gebruikt, verwerkt Braintree de transactie met uw standaard zakelijke account.
 
 1. Als u een snellere afhandeling wilt bieden met de opties voor Express Payment aan het begin van het afhandelingsproces, zoals PayPal, PayPal, Apple Pay en Google Pay, stelt u **[!UICONTROL Enable Checkout Express Payments]** in op `Yes` .
 
@@ -89,33 +93,33 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
    Als u dit veld leeg laat, wordt deze optie uitgeschakeld.
 
-1. Als u wilt dat het systeem een logbestand met interacties tussen de winkel en de Braintree opslaat, stelt u **[!UICONTROL Debug]** in op `Yes` .
+1. Stel **[!UICONTROL Debug]** in op `Yes` als u wilt dat het systeem een logbestand met interacties tussen uw winkel en Braintree opslaat.
 
 1. Stel **[!UICONTROL CVV Verification]** in op `Yes` als u wilt dat klanten vanaf de achterkant van een creditcard de driecijferige beveiligingscode opgeven.
 
-   Als het gebruiken van controle CVV, zorg ervoor om AVS en/of CVV in de _Montages/sectie van de Verwerking_ van uw rekening van de Braintree toe te laten.
+   Als het gebruiken van controle CVV, zorg ervoor om AVS en/of CVV in de _Montages/sectie van de Verwerking_ van uw rekening van Braintree toe te laten.
 
 1. Stel **[!UICONTROL Send Card Line Items]** in op `Yes` als u de tekenregelitems voor alle betalingsmethoden wilt verzenden.
 
-1. Selecteer voor **[!UICONTROL Credit Card Types]** elke creditcard die door je winkel wordt geaccepteerd als betaling via Braintree.
+1. Selecteer voor **[!UICONTROL Credit Card Types]** elke creditcard die je winkel accepteert als betaling via Braintree.
 
    Als u meerdere kaarttypen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin Braintree wordt weergegeven wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin Braintree wordt weergegeven wanneer dit bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen.
 
-## Stap 4: Voltooi de Braintree webhaakinstellingen
+## Stap 4: De Braintree-instellingen voor webhaken voltooien
 
-![ de Montages van Webhooks van de Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![ de Montages van Webhooks van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Webhook]** in op `Yes` om de webhafunctionaliteit in te schakelen voor fraudebeveiliging, ACH-betalingen en lokale betalingsmethoden.
 
-1. Kopieer de URL in het veld **[!UICONTROL Fraud Protection URL]** en voeg deze toe aan uw Braintree-account als _[!UICONTROL Webhook Destination URL]_.
+1. Kopieer de URL in het veld **[!UICONTROL Fraud Protection URL]** en voeg deze toe aan uw Braintree-account als de _[!UICONTROL Webhook Destination URL]_.
 
    >[!IMPORTANT]
    >
    >Deze URL moet veilig en openbaar toegankelijk zijn.
 
-1. Stel het veld **[!UICONTROL Fraud Protection Approve Order Status]** in om te bepalen wanneer fraudebeveiliging wordt goedgekeurd door Braintree.
+1. Stel het veld **[!UICONTROL Fraud Protection Approve Order Status]** in om te bepalen wanneer de fraudebeveiliging door Braintree wordt goedgekeurd.
 
    De status van de geselecteerde bestelling wordt toegewezen aan de Commerce-bestelling.
 
@@ -140,23 +144,23 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
    - Herhaal dit om de creditcards te identificeren die vanuit elk land worden geaccepteerd.
 
-## Stap 6: Voltooi ACH door de montages van de Braintree
+## Stap 6: Voltooi het ACH door de montages van Braintree
 
 ![ ACH door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
 
-1. Als u ACH wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable ACH Direct Debit]** in op `Yes` .
+1. Als u ACH wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable ACH Direct Debit]** in op `Yes` .
 
 1. Klanten kunnen hun betalingsmethode voor automatische incasso voor eenmalig gebruik berekenen en deze opslaan voor toekomstig gebruik. Als de automatische incasso eenmaal in de kluis is is geplaatst, kunnen klanten de automatische incasso opnieuw gebruiken zonder dat ze hun betalingsgegevens opnieuw hoeven in te voeren of te verifiëren als ze **[!UICONTROL Enable Vault for ACH Direct Debit]** op `Yes` hebben ingesteld.
 
 1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin de Braintree ACH-betalingsoptie wordt weergegeven wanneer deze bij andere betalingsopties wordt aangeboden tijdens het afrekenen.
 
-## Stap 7: Voltooi de instellingen voor Braintree van [!UICONTROL Apple Pay]
+## Stap 7: Voltooi de instellingen voor [!UICONTROL Apple Pay] tot en met Braintree
 
-![ ApplePay door Braintree montages ](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
+![ ApplePay door de montages van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
 
-1. Als u [!DNL Apple Pay] wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable ApplePay through Braintree]** in op `Yes` .
+1. Als u [!DNL Apple Pay] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable ApplePay through Braintree]** in op `Yes` .
 
-   Zorg ervoor om [ uw domeinnaam ](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) in uw Braintree eerst te verifiëren.
+   Zorg ervoor om [ uw domeinnaam ](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) in uw rekening van Braintree eerst te verifiëren.
 
 1. Als u de mogelijkheid wilt hebben om klantgegevens veilig op te slaan, zodat klanten deze niet telkens opnieuw hoeven in te voeren wanneer ze een aankoop doen via Apple Pay, stelt u **[!UICONTROL Enable Vault for ApplePay]** in op `Yes` .
 
@@ -175,7 +179,7 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
 1. Voer bij **[!UICONTROL Title]** de tekst in die u wilt gebruiken voor het label dat wordt weergegeven in het gedeelte betalingsmethode voor uitchecken (standaardwaarde: `Local Payments` ).
 
-1. Voer bij **[!UICONTROL Fallback Button Text]** de tekst in die u wilt gebruiken voor de knop die wordt weergegeven op de pagina voor de Braintree van de fallback om de klant terug te nemen naar de website (bijvoorbeeld `Complete Checkout` ).
+1. Voer bij **[!UICONTROL Fallback Button Text]** de tekst in die u wilt gebruiken voor de knop die wordt weergegeven op de pagina voor de noodoplossing van Braintree om de klant terug te nemen naar de website (bijvoorbeeld `Complete Checkout` ).
 
 1. Voer bij **[!UICONTROL Redirect on Fail]** de URL in waar klanten omgeleid moeten worden wanneer lokale betalingstransacties geannuleerd, mislukt of fouten optreden. Dit moet de betalingspagina voor uitchecken zijn (bijvoorbeeld `https://www.domain.com/checkout#payment` ).
 
@@ -187,15 +191,15 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
    >[!NOTE]
    >
-   >De gebundelde uitbreiding van de Braintree steunt niet alle lokale betalingsmethodes die in de [ documentatie van de ontwikkelaar van de Braintree ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview) worden vermeld. Andere lokale betalingsmethoden worden momenteel ontwikkeld en zullen in toekomstige versies worden ondersteund.
+   >De gebundelde uitbreiding van Braintree steunt niet alle lokale betalingsmethodes die in [ worden vermeld de ontwikkelaarsdocumentatie van Braintree ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Andere lokale betalingsmethoden worden momenteel ontwikkeld en zullen in toekomstige versies worden ondersteund.
 
 1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin de lokale betalingsmethode wordt weergegeven wanneer deze bij andere betalingsopties wordt aangeboden tijdens het afrekenen.
 
-## Stap 9: voltooi de instellingen voor de Braintree van [!DNL Google Pay]
+## Stap 9: Voltooi de instellingen voor [!DNL Google Pay] tot en met Braintree
 
-![ Google betaalt door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
+![ Google betalen door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
 
-1. Als u [!DNL Google Pay] wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable GooglePay Through Braintree]** in op `Yes` .
+1. Als u [!DNL Google Pay] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable GooglePay Through Braintree]** in op `Yes` .
 
 1. Als u de mogelijkheid wilt hebben om klantgegevens veilig op te slaan, zodat klanten deze niet telkens opnieuw hoeven in te voeren wanneer ze een aankoop doen via Google Pay, stelt u **[!UICONTROL Enable Vault for GooglePay]** in op `Yes` .
 
@@ -214,9 +218,9 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
 1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin [!DNL Google Pay] wordt weergegeven wanneer deze bij andere betalingsopties wordt weergegeven tijdens het uitchecken.
 
-## Stap 10: Vul de Venmo-instellingen in via de Braintree
+## Stap 10: De instellingen voor Venmo voltooien via Braintree
 
-1. Als u Venmo wilt opnemen als betalingsoptie met Braintree, stelt u **[!UICONTROL Enable Venmo through Braintree]** in op `Yes` .
+1. Als u Venmo wilt opnemen als betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable Venmo through Braintree]** in op `Yes` .
 
 1. Stel **[!UICONTROL Enable Vault for Venmo]** in op `Yes` om het gebruik van een beveiligde kluis voor het opslaan van de Venmo-account van klanten in te schakelen, zodat klanten zich niet opnieuw hoeven aan te melden bij hun Venmo-account voor toekomstige transacties.
 
@@ -229,19 +233,19 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
 
 1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin Venmo wordt weergegeven wanneer deze bij andere betalingsopties wordt weergegeven tijdens het afrekenen.
 
-## Stap 11: Voltooi de PayPal-Braintree-instellingen
+## Stap 11: Voltooi de PayPal-instellingen via Braintree
 
-![ PayPal door de Montages van de Braintree ](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![ PayPal door de Montages van Braintree ](./assets/braintree-paypal.png){width="550" zoomable="yes"}
 
-1. Als u PayPal wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable PayPal through Braintree]** in op `Yes` .
+1. Als u PayPal als betalingsoptie wilt opnemen in Braintree, stelt u **[!UICONTROL Enable PayPal through Braintree]** in op `Yes` .
 
-1. Geef je PayPal-rekening op via de betalingsmethode voor Braintreeën:
+1. Geef je PayPal-rekening op met de betalingsmethode van Braintree:
 
    >[!NOTE]
    >
    >U kunt **[!DNL PayPal Credit]** of **[!DNL PayPal PayLater]** inschakelen. Beide methoden kunnen niet tegelijkertijd worden ingeschakeld.
 
-   - Als u [!DNL PayPal Credit] wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable PayPal Credit through Braintree]** in op `Yes` .
+   - Als u [!DNL PayPal Credit] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable PayPal Credit through Braintree]** in op `Yes` .
 
      Wanneer **PayPal door Braintree** toelaat wordt geplaatst aan `Yes`, slechts verschijnt dit gebied.
 
@@ -249,13 +253,13 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
      >
      >PayPal-krediet is alleen beschikbaar in de Verenigde Staten en het Verenigd Koninkrijk. PayPal-krediet is uitgeschakeld als de geselecteerde waarde voor het veld _[!UICONTROL Merchant Country]_niet `US` of `UK` is.
 
-   - Als u [!DNL PayPal PayLater] wilt opnemen als een betalingsoptie met Braintree, stelt u **[!UICONTROL Enable PayPal PayLater through Braintree]** in op `Yes` .
+   - Als u [!DNL PayPal PayLater] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable PayPal PayLater through Braintree]** in op `Yes` .
 
      Wanneer **[!UICONTROL Enable PayPal PayLater through Braintree]** is ingesteld op `Yes` , wordt alleen dit veld weergegeven.
 
      U kunt het overseinen van PayLater op uw plaats voor aanbiedingen, zoals _betalen in 3_ tonen, die klanten met drie renteloze maandelijkse betalingen laat betalen. De Braintree-integratie kan berichten op uw site weergeven om deze functie te promoten. Je kunt PayPal-aanbiedingen niet promoten met andere inhoud, marketing of materialen.
 
-1. Voer voor **[!UICONTROL Title]** een titel in die de Braintree aangeeft die via PayPal is betaald tijdens het afrekenen.
+1. Voer bij **[!UICONTROL Title]** een titel in die aangeeft welke Braintree-betaling via PayPal is verricht tijdens het afrekenen.
 
 1. Stel **[!UICONTROL Vault Enabled]** in op `Yes` om het gebruik van een beveiligde kluis voor het opslaan van het PayPal-account van klanten in te schakelen. U kunt een Vaulted PayPal-account gebruiken voor toekomstige transacties, waardoor het aantal stappen voor klanten afneemt.
 
@@ -270,7 +274,7 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
    - `Authorize Only` - Hiermee gaat u akkoord met de aankoop en houdt u de middelen in de wacht. Het bedrag wordt niet teruggetrokken van de bankrekening van de klant tot de verkoop __ door de handelaar wordt gevangen.
    - `Authorize and Capture` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
 
-1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties voor Braintree die door PayPal wordt verwerkt:
+1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties voor Braintree-transacties die worden verwerkt door PayPal:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
@@ -281,7 +285,7 @@ Ga naar [ Betalingen van de Braintree ][1] en teken omhoog voor een rekening.
    >
    >Deze functie moet voor uw account zijn ingeschakeld door de technische ondersteuning van PayPal.
 
-1. Als u een logbestand met interacties tussen uw winkel en PayPal via Braintree wilt opslaan, stelt u **[!UICONTROL Debug]** in op `Yes` .
+1. Als u een logbestand wilt opslaan met interacties tussen uw winkel en PayPal via Braintree, stelt u **[!UICONTROL Debug]** in op `Yes` .
 
 1. Als u de PayPal-knop wilt weergeven op zowel de miniwinkelwagentje als de winkelwagentje pagina, stelt u **[!UICONTROL Display on Shopping Cart]** in op `Yes` .
 
@@ -354,9 +358,9 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
    ![ 3D verificatiemontages ](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## Stap 14: Opstelling de dynamische beschrijvers van de Braintree
+## Stap 14: De dynamische descriptoren van Braintree instellen
 
-De volgende beschrijvingen worden gebruikt om aankopen te identificeren op creditcardoverzichten van klanten. U kunt het aantal terugbetalingen verminderen door duidelijk het bedrijf te identificeren dat met elke aankoop wordt geassocieerd. Als dynamische beschrijvingen niet zijn ingeschakeld voor uw account, neemt u contact op met de ondersteuning van Braintreeën.
+De volgende beschrijvingen worden gebruikt om aankopen te identificeren op creditcardoverzichten van klanten. U kunt het aantal terugbetalingen verminderen door duidelijk het bedrijf te identificeren dat met elke aankoop wordt geassocieerd. Neem contact op met de ondersteuning van Braintree als dynamische beschrijvingen niet zijn ingeschakeld voor uw account.
 
 ![ Dynamische beschrijvers ](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
@@ -388,11 +392,11 @@ De volgende beschrijvingen worden gebruikt om aankopen te identificeren op credi
 
      `company.com`
 
-1. Klik op **[!UICONTROL Save Config]** wanneer de configuratie van de Braintree is voltooid.
+1. Klik op **[!UICONTROL Save Config]** wanneer uw Braintree-configuratie is voltooid.
 
 ## 2.4 opmerkingen bij upgrades
 
-Vanaf Adobe Commerce en Magento Open Source 2.4.0 is de extensie Braintree opgenomen in de release. Als u naar Commerce 2.4.x migreert vanaf een versie van vóór 2.4.0 waarop de extensie Braintree Marketplace is geïnstalleerd, moet u die extensie verwijderen ( `paypal/module-braintree` of `gene/module-braintree` ) en eventuele codeaanpassingen bijwerken om de naamruimte `PayPal_Braintree` te gebruiken in plaats van `Magento_Braintree` . De montages van de configuratie van de kernBetalingen van de Braintree van Commerce bundelden uitbreiding en de uitbreiding die op Commerce Marketplace wordt verdeeld blijft bestaan en de betalingen die met die vorige versies worden geplaatst kunnen nog worden gevangen, ongeldig worden verklaard, of worden teruggegeven zoals normaal.
+Vanaf Adobe Commerce en Magento Open Source 2.4.0 wordt de extensie Braintree opgenomen in de release. Als u naar Commerce 2.4.x migreert vanaf een versie van vóór 2.4.0 waarop de extensie Marketplace Braintree is geïnstalleerd, moet u die extensie verwijderen ( `paypal/module-braintree` of `gene/module-braintree` ) en eventuele codeaanpassingen bijwerken om de naamruimte `PayPal_Braintree` te gebruiken in plaats van `Magento_Braintree` . De montages van de configuratie van de kernCommerce Braintree Betalingen bundelden uitbreiding en de uitbreiding die op Commerce Marketplace wordt verdeeld blijft bestaan en de betalingen die met die vorige versies worden geplaatst kunnen nog worden gevangen, worden geannuleerd, of worden teruggegeven als normaal.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php
