@@ -3,7 +3,7 @@ title: Commerce Admin Integration met ID configureren
 description: Volg deze optionele procedure voor het integreren van Adobe Commerce Admin-gebruikersaccountaanmeldingen met Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Deze integratie ondersteunt Commerce-handelaren met Admin-gebruikers die een Adobe ID hebben en die hun aanmelding bij Adobe Commerce en Adobe Business-producten willen stroomlijnen. Het is optioneel en wordt per geval ingeschakeld. Alleen de workflows van de Admin-gebruiker worden beïnvloed wanneer deze worden ingeschakeld. 
+Deze integratie ondersteunt Commerce-handelaren met Admin-gebruikers die een Adobe ID hebben en die hun aanmelding bij Adobe Commerce- en Adobe Business-producten willen stroomlijnen. Het is optioneel en wordt per geval ingeschakeld. Alleen de workflows van de Admin-gebruiker worden beïnvloed wanneer deze worden ingeschakeld. 
 
 >[!IMPORTANT]
 >
@@ -48,21 +48,21 @@ Voor een geslaagde integratie moeten alle Adobe Commerce-gebruikers beschikken o
 
 Nadat de volgende stappen zijn uitgevoerd door een beheerder of ontwikkelaar met systeemtoegang, wordt de knop _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_weergegeven op de aanmeldingspagina voor Commerce Admin voor alle Admin-gebruikers.
 
-### Stap 1: Adobe-ID ophalen
+### Stap 1: Adobe-organisatie-id ophalen
 
-Lidmaatschap in ten minste één IMS-organisatie is vereist om deze functie in te schakelen. Als u een Adobe ID hebt, behoort u standaard tot minstens één Adobe organisatie. Login aan [ Adobe Admin Console ](https://adminconsole.adobe.com/) om uw organisatieidentiteitskaart terug te winnen
+Lidmaatschap in ten minste één IMS-organisatie is vereist om deze functie in te schakelen. Als u een Adobe ID hebt, behoort u standaard tot minstens één Adobe-organisatie. Login aan [ Adobe Admin Console ](https://adminconsole.adobe.com/) om uw organisatieidentiteitskaart terug te winnen
 
 ### Stap 2: Genereer een nieuw project, de sleutels IMS API en geheim
 
-Om projecten voor een organisatie tot stand te brengen, moet de rekening Admin van de Adobe voor de organisatie de systeembeheerder of ontwikkelaarrol hebben. Zie de [ Gids van Developer Console ](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Om projecten voor een organisatie tot stand te brengen, moet de rekening van Adobe Admin voor de organisatie de systeembeheerder of ontwikkelaarrol hebben. Zie de [ Gids van Developer Console ](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Login aan [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Ga naar het tabblad **[!UICONTROL Projects]** (adobe.io/projects) en klik op **[!UICONTROL Create a new project]** .
 1. Klik op **[!UICONTROL Add API]** op de nieuwe projectpagina.
 1. Selecteer **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]** .
 1. Selecteer **[!UICONTROL Oauth 2.0 Web]** .
-1. Geef de waarde **[!UICONTROL Redirect URI]** op: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Geef de waarde **[!UICONTROL Redirect URI pattern]** op: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Geef de waarde **[!UICONTROL Redirect URI]** op: `https://<commerce_base_url>/`
+1. Geef de waarde **[!UICONTROL Redirect URI pattern]** op: `https://<commerce_base_url>/.*`
 
    U kunt punten in de hostnaam laten springen door vóór de punten `\\` te gaan. Als u een jokerteken toevoegt aan het einde van de URL, wordt de geheime sleutel Adobe Commerce Admin ondersteund.
 
@@ -71,7 +71,7 @@ Om projecten voor een organisatie tot stand te brengen, moet de rekening Admin v
 
 ### Stap 3: Adobe Commerce-gebruikers configureren in de Adobe Admin Console
 
-Voordat u de integratie inschakelt, controleert u of elke Adobe Commerce Admin-gebruikersaccount een overeenkomende Adobe IMS-account heeft. Adobe Commerce-gebruikers moeten tot een bepaalde Adobe behoren om zich aan te melden met een Adobe ID.
+Voordat u de integratie inschakelt, controleert u of elke Adobe Commerce Admin-gebruikersaccount een overeenkomende Adobe IMS-account heeft. Adobe Commerce-gebruikers moeten tot een specifieke Adobe-organisatie behoren om zich aan te melden met een Adobe ID.
 
 >[!TIP]
 >
