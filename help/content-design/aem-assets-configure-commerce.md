@@ -3,9 +3,9 @@ title: Adobe Commerce-pakketten installeren
 description: Leer hoe te om de  [!DNL AEM Assets Integration for Adobe Commerce]  uitbreiding en op een instantie van Adobe Commerce te installeren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 8b86a0dfef91b9922189e3258a3db33d228eff9d
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De AEM Assets Integration for Commerce-extensie heeft de volgende systeem- en co
 **de vereisten van de Software**
 
 - Adobe Commerce 2.4.5+
-- PHP 8.1, 8.2, 8.3
+- PHP-versie is compatibel met de geïnstalleerde versie van Adobe Commerce (versie 8.1, 8.2, 8.3 of 8.4)
 - Composer: 2.x
 
 **de vereisten van de Toegang**
