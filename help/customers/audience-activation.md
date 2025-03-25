@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 90c653684be644f876937dc7acbc8f72498c5e3b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1575'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 Mei, 2023_
 ![ Nieuw ](../assets/new.svg) - Bijgewerkt het [ dashboard van het Soorten Soorten publiek van Real-Time CDP ](#real-time-cdp-audiences-dashboard) om de capaciteit te omvatten, het actieve publiek binnen uw instantie van Adobe Commerce te sorteren, te zoeken en te filtreren.
 
 +++
+
+### 2.4.0.
+
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+
+_Maart 24, 2025_
+
+![ Nieuw ](../assets/new.svg) - Toegevoegde PHP 8.4 steun.
 
 ### 2.3.1.
 
