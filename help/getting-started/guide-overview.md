@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Adobe Commerce Admin Guide
-description: Uitgebreide informatie voor verkopers die nieuw zijn voor de Admin van Adobe Commerce.
+description: Uitgebreide informatie voor verkopers die voor het eerst kennismaken met Adobe Commerce Admin.
 seo-title: Adobe Commerce Admin Getting Started Guide
 seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
