@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Leer over  [!DNL Commerce Marketplace], die verkopers een gekromde selectie van oplossingen aanbiedt, en gekwalificeerde ontwikkelaars de hulpmiddelen, het platform, en de eerste plaats verstrekt om een het bloeien zaken te bouwen.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De volgende bronnen bieden een beginpunt voor nieuwe gebruikers om vertrouwd te 
 
 - [ Vestigings I/O Gebeurtenissen voor Adobe Commerce ](https://developer.adobe.com/commerce/extensibility/events/)
 - [ Vormende Gebeurtenissen voor Adobe Commerce ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [ Vestiging Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [ Plaatsende Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [ Omzettend een uitbreiding in app ](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder-bronnen
@@ -45,9 +45,9 @@ De volgende bronnen bieden een beginpunt voor nieuwe gebruikers om vertrouwd te 
 
 Voordat u een extensie kunt installeren die u hebt aangeschaft van [!DNL Commerce Marketplace] , meldt u zich aan bij uw [!DNL Commerce] -account en controleert u of u een actieve toegangssleutel hebt. U kunt binnen aan uw [!DNL Commerce] rekening van de kopbal van [[!DNL Marketplace]][1] of [ Magento.com ][6] ondertekenen.
 
-Uw toegangssleutel is een reeks openbare en persoonlijke sleutels die wordt gebruikt om uw [!DNL Commerce] installatie met uw [!DNL Commerce] rekening te synchroniseren en uw geloofsbrieven te verifiëren. Nadat uw account is gesynchroniseerd, moet u telkens uw persoonlijke sleutel invoeren wanneer u een extensie of module installeert vanuit de Commerce Marketplace of wanneer u de [!DNL Commerce] -installatie bijwerkt.
+Uw toegangssleutel is een reeks openbare en persoonlijke sleutels die wordt gebruikt om uw [!DNL Commerce] installatie met uw [!DNL Commerce] rekening te synchroniseren en uw geloofsbrieven te verifiëren. Nadat uw account is gesynchroniseerd, moet u elke keer dat u een extensie of module installeert vanuit Commerce Marketplace, uw persoonlijke sleutel invoeren of de installatie van [!DNL Commerce] upgraden.
 
-U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar wens in- of uitschakelen. U moet echter dezelfde toegangstoets gebruiken als waarmee de software van [!DNL Commerce] is geïnstalleerd. U kunt bijvoorbeeld geen toegangssleutel voor Magento Open Sourcen gebruiken om Adobe Commerce bij te werken of bij te werken, of omgekeerd. U kunt ook geen toegangstoets gebruiken die tot een andere gebruiker of één behoort die van a [ gedeelde rekening ](commerce-account-share.md) is.
+U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar wens in- of uitschakelen. U moet echter dezelfde toegangstoets gebruiken als waarmee de software van [!DNL Commerce] is geïnstalleerd. U kunt bijvoorbeeld geen Magento Open Source-toegangstoets gebruiken om Adobe Commerce bij te werken of bij te werken, of omgekeerd. U kunt ook geen toegangstoets gebruiken die tot een andere gebruiker of één behoort die van a [ gedeelde rekening ](commerce-account-share.md) is.
 
 ### Een toegangstoets maken
 
@@ -71,7 +71,7 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
    De nieuwe toegangssleutel wordt toegelaten en verschijnt in de lijst.
 
-   Merk op de _verbinding van het 0} Exemplaar {na elke openbare en privé sleutel._ In de volgende stap kopieert en plakt u deze waarden om de winkel te synchroniseren met de Commerce Marketplace.
+   Merk op de _verbinding van het 0} Exemplaar {na elke openbare en privé sleutel._ In de volgende stap kopieert en plakt u deze waarden om uw winkel te synchroniseren met Commerce Marketplace.
 
 ## Installatieproces
 
@@ -79,13 +79,17 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 >
 >Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) te installeren of [ verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uw instantie. [ Dit vereiste omvat ook [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [ uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [ worden ontvangen de Architectuur van de Wolk van de Adobe ][4].
+Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [ worden ontvangen de Architectuur van de Wolk van Adobe ][4].
 
 ![ Commerce Marketplace ](./assets/marketplace.png){width="600"}
 
 ## Ondersteuning
 
-Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar. Als wat u op Marketplace koopt niet aan uw behoeften voldoet, kunt u [ om een terugbetaling verzoeken ](#refund-requests) binnen 25 dagen na de datum van aankoop. De Adobe herziet alle terugbetalingsverzoeken en geeft (indien goedgekeurd) de juiste terugbetaling uit. Voor kwesties met betrekking tot Commerce Marketplace, contacteer [ Steun ](mailto:commercemarketplacesupport@adobe.com).
+Als u hulp bij het installeren of met het gebruiken van een uitbreiding nodig hebt, kijk eerst in de documentatie die de uitbreiding vergezelt. Als u het antwoord op uw vraag niet kunt vinden, gebruikt u de contactgegevens in de lijst met extensies om rechtstreeks contact op te nemen met de ontwikkelaar. Als wat u op Marketplace koopt niet aan uw behoeften voldoet, kunt u [ om een terugbetaling verzoeken ](#refund-requests) binnen 25 dagen na de datum van aankoop. Adobe herziet alle verzoeken om terugbetaling en geeft (indien goedgekeurd) de juiste terugbetaling uit. Voor problemen met betrekking tot Commerce Marketplace:
+
+Methode 1: Ga naar [ de Marketplace van Adobe Commerce ](https://commercemarketplace.adobe.com/), navigeer aan de bodem van de pagina en klik [!UICONTROL Contact Us] die een vorm zal openen om een kaartje voor te leggen.
+
+Methode 2: [ E-mailsteun ](mailto:commercemarketplacesupport@adobe.com).
 
 ### Afhandelingsproblemen
 
