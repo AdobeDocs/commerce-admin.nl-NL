@@ -3,9 +3,9 @@ title: URL's van catalogi en producten
 description: Leer over de formaattypes URL voor uw catalogusproducten, en hoe te om hen te vormen.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De URL-sleutel moet bestaan uit kleine letters met niet-afbreekstreepjes tussen 
 >
 >Om aanpassingen URL, zoals gelokaliseerde URLs uit te breiden, zie [ URL herschrijft ](../merchandising-promotions/url-rewrite.md) voor meer informatie.
 
-### achtervoegsel HTML
+### HTML-achtervoegsel
 
 Uw catalogus kan worden geconfigureerd om het achtervoegsel als onderdeel van categorie- en product-URL&#39;s op te nemen of uit te sluiten. Er zijn verschillende redenen waarom mensen zouden kunnen kiezen om het achtervoegsel te gebruiken of weg te laten. Sommigen zijn van mening dat het achtervoegsel geen nut meer heeft en dat pagina&#39;s zonder achtervoegsel effectiever worden geïndexeerd door zoekmachines. Uw bedrijf kan echter een gestandaardiseerde indeling voor URL&#39;s hebben waarvoor een achtervoegsel is vereist.
 
@@ -56,19 +56,19 @@ Omdat het achtervoegsel door de systeemconfiguratie wordt gecontroleerd, zou u h
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
 
-#### URL zonder achtervoegsel HTML
+#### URL zonder HTML-achtervoegsel
 
 - `http://mystore.com/helena-hooded-fleece`
 
 ### Categoriepad
 
-U kunt de URL zodanig configureren dat het categoriepad wordt opgenomen of uitgesloten. Standaard wordt het categoriepad opgenomen in alle categorieën en productpagina&#39;s. In de volgende voorbeelden ziet u dezelfde product-URL met en zonder het categoriepad.
+U kunt de product-URL&#39;s zodanig configureren dat het categoriepad wordt opgenomen of uitgesloten op basis van uw voorkeuren. Standaard is het categoriepad niet opgenomen in product-URL&#39;s. Bij geneste categorieën wordt echter altijd het volledige categoriepad weergegeven in de URL&#39;s, zodat de categorienavigatie duidelijk en consistent is. In de volgende voorbeelden ziet u dezelfde product-URL met en zonder het categoriepad.
 
-#### URL met categoriepad
+#### Product-URL met categoriepad
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL zonder categoriepad
+#### URL van product zonder categoriepad
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
