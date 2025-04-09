@@ -3,9 +3,9 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce- en Magento Open Source-beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
       - [Adobe Stock-afbeeldingen gebruiken](adobe-stock-manage.md)
       - [Een voorvertoning van een stockafbeelding opslaan](adobe-stock-save-preview.md)
       - [Een Stock-afbeelding licentiëren](adobe-stock-license-image.md)
-   - Media Gallery {#gallery}
+   - Medialerie {#gallery}
       - [Overzicht](media-gallery.md)
       - [Beheer van bedrijfsmiddelen](media-gallery-asset-management.md)
       - [Mapbeheer](media-gallery-folder-management.md)
@@ -81,6 +81,7 @@ ht-degree: 0%
       - [Adobe Commerce-pakketten installeren](aem-assets-configure-commerce.md)
       - [De integratie configureren](aem-assets-setup-synchronization.md)
       - [Logbestanden weergeven en beheren](aem-assets-log-files.md)
+   - [Mediabestanden migreren naar AEM Assets](aem-assets-migrate-data.md)
    - Elementen beheren {#manage}
       - [AEM Assets gebruiken met Commerce](aem-assets-manage.md)
 - Media {#media}
