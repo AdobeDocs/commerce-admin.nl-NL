@@ -3,7 +3,7 @@ title: Een bestelling verzenden
 description: Leer hoe u de verzendgegevens voor een verwerkingsbestelling invult en de verzendings- en trackinggegevens bekijkt.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
    - Schakel het selectievakje **[!UICONTROL Visible on Frontend]** in om de opmerking op het account van de klant te plaatsen.
 
-1. Klik op **[!UICONTROL Submit Comment]**.
+1. Klik op **[!UICONTROL Update]**.
 
 ## De verzending volgen
 

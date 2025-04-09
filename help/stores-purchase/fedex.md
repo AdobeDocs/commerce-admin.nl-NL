@@ -3,9 +3,9 @@ title: FedEx
 description: Leer hoe u FedEx instelt als een verzender voor je winkel.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 FedEx is een van &#39;s werelds grootste scheepvaartmaatschappijen die lucht-, vracht- en grondvaartdiensten met verschillende prioriteitsniveaus aanbieden.
 
-![ Verzendopties FedEx bij Afhandeling ](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+![ Verzendopties FedEx bij Afhandeling ](./assets/storefront-checkout-shipping-fedex.png)
 
 >[!NOTE]
 >
->FedEx kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen de berekening van verzendkosten op basis van gewicht.
+>FedEx kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen berekening van verzendkosten op basis van gewicht.
 
 ## Stap 1: Register voor de Productie van de Diensten van het Web FedEx
 
@@ -46,13 +46,22 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
 
+1. Als u afzonderlijke volgAPI-referenties hebt, schakelt u de volgende configuratie in:
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. Voer de volgende gegevens in van uw FedEx-account:
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
+
 1. Stel **[!UICONTROL Sandbox Mode]** in op `Yes` als u een FedEx-sandbox hebt ingesteld en wilt werken in de testomgeving.
 
    >[!NOTE]
    >
    >Stel de sandboxmodus in op `No` wanneer u FedEx als verzendmethode aan uw klanten wilt aanbieden.
 
-   ![ de Montages van de Rekening FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+   ![ de Montages van de Rekening FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png)
 
 ## Stap 3: Verpakkings- en verpakkingskosten
 
@@ -82,7 +91,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
    Het standaard FedEx maximumgewicht is 150 lbs. Raadpleeg uw verzendende maatschappij voor meer informatie. De standaardwaarde wordt aanbevolen, tenzij u speciale regelingen hebt getroffen met FedEx. Zie [ Afmetingen gewicht ](carriers.md#dimensional-weight) voor meer informatie.
 
-   ![ de Montages van het Pakket FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![ de Montages van het Pakket FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png)
 
 1. Configureer de opties voor de behandelingskosten naar wens.
 
@@ -105,7 +114,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
    - `Yes` - Voor B2C-residentiële leveringen.
    - `No` - Voor B2B-residentiële leveringen.
 
-   ![ FedEx die de Montages van de Vergoeding ](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"} behandelt
+   ![ FedEx die de Montages van de Vergoeding ](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png) behandelt
 
 ## Stap 4: Toegestane methoden en toepasselijke landen
 
@@ -133,7 +142,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als FedEx niet beschikbaar is.
 
-   ![ FedEx Toegestane Methoden van de Levering ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+   ![ FedEx Toegestane Methoden van de Levering ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png)
 
 1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
@@ -154,7 +163,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-   ![ FedEx Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+   ![ FedEx Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png)
 
 >[!NOTE]
 >

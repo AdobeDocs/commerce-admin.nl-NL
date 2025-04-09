@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over veranderingen in  [!DNL Adobe Commerce B2B]  versies.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
+source-git-commit: de145205e5fcdcb49ca7626b2666e82af102344f
 workflow-type: tm+mt
-source-wordcount: '8313'
+source-wordcount: '8702'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,51 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 >
 >Zie [ de beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor informatie over versies van de B2B uitbreiding van Commerce die voor beschikbare versies van Adobe Commerce wordt gesteund.
 
+## B2B 1.5.2
+
+*8 April, 2025*
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies 2.4.8 van Adobe Commerce, 2.4.7-p5 en 2.4.6-p10 de versies van het veiligheidspatch.
+Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p4, 2.4.6 tot 2.4.6-p9
+
+De B2B v1.5.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situaties.
+
+### Bedrijfsbeheer
+
+![ Nieuwe ](../assets/new.svg)<!-- B2B-4123 --> Beheerders kunnen veelvoudige bedrijven van één enkele rekening nu beheren gebruikend de schakelaar van het storefront bedrijf. Belangrijkste voordelen zijn:
+
+- **Vereenvoudigd multi-bedrijf beheer** - de beheerders kunnen veelvoudige bedrijven van één gebruikersrekening nu controleren, die de behoefte elimineren om afzonderlijke logins voor elk bedrijf tot stand te brengen en te beheren.
+- **Efficiënte bedrijfsomschakeling** - een intuïtieve interface staat beheerders toe om snel tussen bedrijven te schakelen en updates te maken, die productiviteit verbeteren wanneer het beheren van veelvoudige entiteiten.
+- **Gestroomlijnde verrichtingen** - de regionale managers en bedrijfsleiders kunnen centraal al hun bedrijven beheren, toelatend snellere besluitvorming en vlottere bedrijfsverrichtingen.
+
+Deze verbetering bouwt voort op het multi-company van B2B 1.5.0 vermogen van het lidmaatschap, dat gebruikers om tot veelvoudige bedrijven toeliet te behoren maar geen admin toegang over bedrijven steunde. De bedrijfschakelaar elimineert de behoefte aan afzonderlijke adminrekeningen terwijl het handhaven van juiste toegangscontroles en bedrijf-specifieke meningen.
+
+### Bedrijf
+
+![Probleem](../assets/fix.svg)<!-- B2B-4480 --> opgelost Probleem opgelost waarbij gastklanten een `No such entity with cartId = ?` foutmelding kregen wanneer ze zich aanmeldden als gebruiker van het bedrijf met producten in hun winkelwagentje.
+
+### Bespreekbare offerte
+
+![De](../assets/fix.svg) B2B v1.5.2-release bevat de volgende oplossingen voor onderhandelbare prijsopgaven:
+
+- <!-- B2B-3252 -->Het [!UICONTROL Line Item Discount Amount] veld valideert nu invoer om te voorkomen dat negatieve kortingswaarden worden ingevoerd.
+- <!-- B2B-3224 -->Probleem met gebruikerservaring verholpen waarbij lange-line itemopmerkingen werden afgebroken en moeilijk leesbaar waren voor B2B-klanten.
+- <!-- B2B-2865 -->B2B-klanten kunnen nu producthoeveelheden opgeven met decimale waarden (zoals 1,5 of 2,75) bij het maken van noteringen.
+
+### Offertesjabloon
+
+![ Nieuwe ](../assets/new.svg)<!-- B2B-4104 --> Nieuwe capaciteit voor B2B kopers en verkopers om externe documentverbindingen aan citaatmalplaatjes vast te maken. Met deze functie kunt u rechtstreeks vanuit aanhalingstekens koppelingen maken naar documenten die worden gehost in services zoals DocuSign en Adobe Sign, als aanvulling op de bestaande mogelijkheden voor bestandsbijlagen. Belangrijkste voordelen zijn:
+
+- Gestroomlijnde samenwerking via directe toegang tot kritieke overeenkomsten en contracten
+- Verbeterde transparantie met onmiddellijke toegang tot de meest recente documentatie
+- Snellere prijsonderhandelingen, omdat bestanden niet hoeven te worden gedownload en geüpload
+- Flexibel documentbeheer met externe hostingservices voor documenten
+
 ## B2B 1.5.1
 
 *11 Februari, 2025*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteunde ]{type=Informative tooltip="Ondersteund"} versies 2.4.7-p4+ en 2.4.6-p9+ de versies van het veiligheidspatch van Adobe Commerce.
 Compatibel met Adobe Commerce-versies 2.4.8-beta1 tot 2.4.8-beta2, 2.4.7 tot 2.4.7-p3, 2.4.6 tot 2.4.9-p8
 
 De versie B2B v1.5.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen.
@@ -37,11 +77,11 @@ De versie B2B v1.5.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen
 
 ### Korting op regelobjecten
 
-![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-2938 --> Verbeterde systeemefficiency door een prestatiesdegradatie te richten die in het scenario van de citaatherberekening wordt waargenomen. Eerder werden twee nieuwe entiteiten toegevoegd aan elk onderdeel van de winkelwagentje, wat een merkbare toename van de databaseaanvragen veroorzaakte, wat tot langzamere prestaties leidde.
+![Verbeterde](../assets/fix.svg)<!-- B2B-2938 --> systeemefficiëntie door een prestatievermindering aan te pakken die werd waargenomen in het scenario voor herberekening van de offerte. Voorheen werden twee nieuwe entiteiten toegevoegd aan elk winkelwagenregelitem, wat een merkbare toename van databaseverzoeken veroorzaakte, wat leidde tot tragere prestaties.
 
-### Verhandelbaar aanhalingsteken
+### Bespreekbare offerte
 
-![ Vaste kwestie ](../assets/fix.svg)<!-- B2B-3820 --> het systeem handhaaft nu de positie van elementen UI wanneer de bevestiging van JavaScript wordt toegepast op de *[!UICONTROL min/max qty]* gebieden op de pagina van het Malplaatje van het Citaat van de Opbrengst van de Luma. Als u eerder JavaScript-validatie toepaste op deze velden, werden andere UI-elementen op de pagina verschoven.
+![Probleem opgelost:](../assets/fix.svg)<!-- B2B-3820 --> het systeem behoudt nu de positie van UI-elementen wanneer JavaScript-validatie wordt toegepast op de *[!UICONTROL min/max qty]* velden op de pagina Luma Storefront Quote Template. Voorheen zorgde het toepassen van JavaScript-validatie op deze velden ervoor dat andere UI-elementen op de pagina verschoven.
 
 ### Winkelwagentje
 
@@ -55,7 +95,7 @@ De versie B2B v1.5.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen
 
 *30 oktober, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteunde ]{type=Informative tooltip="Ondersteund"} versies 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch van Adobe Commerce.
 Compatibel met Adobe Commerce-versies 2.4.8-beta1, 2.4.7 tot 2.4.7-p2, 2.4.6 tot 2.4.6-p7.
 
 Adobe Commerce B2B versie 1.5.0 is ook compatibel met PHP 8.3 en steunt de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
@@ -95,11 +135,11 @@ De B2B v1.5.0 versie omvat nieuwe eigenschappen, kwaliteitsverbeteringen, en ins
 
 ### Aanhalingstekens en Citaatsjablonen
 
-De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citaten beheren en citeren onderhandelingen effectiever.
+Verbeteringen in de mogelijkheden voor offertes helpen kopers en verkopers om offertes en onderhandelingen over offertes effectiever te beheren.
 
-![ Nieuwe ](../assets/new.svg) **malplaatjes van het Citaat** - <!--B2B-3367--> Kopers en verkopers kunnen het citaatproces nu stroomlijnen door herbruikbare en klantgerichte citaatmalplaatjes te creëren. Met behulp van aanhalingstekensjablonen kan het onderhandelingsproces voor aanhalingstekens eenmaal worden voltooid en kunnen kopers vooraf goedgekeurde gekoppelde aanhalingstekens genereren voor terugkerende orders in plaats van voor elke bestelling het onderhandelingsproces voor aanhalingstekens te doorlopen. Aanhalingssjablonen breiden de bestaande functionaliteit voor aanhalingstekens uit door de volgende geavanceerde functies toe te voegen:
+![Nieuwe](../assets/new.svg) **offertesjablonen**:<!--B2B-3367--> kopers en verkopers kunnen nu het offerteproces stroomlijnen door herbruikbare en aanpasbare offertesjablonen te maken. Met behulp van offertesjablonen kan het onderhandelingsproces voor offertes één keer worden voltooid en kunnen kopers vooraf goedgekeurde gekoppelde offertes genereren voor terugkerende bestellingen in plaats van het onderhandelingsproces voor offertes voor elke bestelling te doorlopen. Offertesjablonen breiden de bestaande offertefunctionaliteit uit door de volgende geavanceerde functies toe te voegen:
 
-- **de drempels van de Orde** staan verkopers toe om minimum en maximumorderverplichtingen te bepalen, die de koper verzekeren aan overeengekomen-op koopgevolume.
+- **Besteldrempels** stellen verkopers in staat om minimale en maximale bestelverplichtingen in te stellen, zodat de koper zich aan de overeengekomen aankoopvolumes houdt.
 - **plaatsende minimum en maximumhoeveelheden van de puntorde** voorziet de koper van de flexibiliteit om ordehoeveelheden op het verbonden citaat aan te passen zonder een nieuw malplaatje of verdere onderhandeling te vereisen.
 - **spoor het aantal verbonden citaten die en met succes voltooide orden** worden geproduceerd om inzichten in de naleving van onderhandelde overeenkomsten te bereiken.
 - **Gekoppelde citaten** zijn vooraf goedgekeurde citaten die de koper van een actief citaatmalplaatje produceert om terugkomende die orden voor te leggen op de termijnen in het citaatmalplaatje worden besproken.
@@ -122,76 +162,79 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 ![ Vaste kwestie ](../assets/fix.svg) **Vormen voor bestaande citaatmogelijkheden**
 
-- Wanneer verkopers op de knop *[!UICONTROL Print]* klikken in de gedetailleerde weergave van het citaat in Admin, wordt nu gevraagd het citaat op te slaan als een PDF. Eerder werden handelaren omgeleid naar een pagina met aanhalingsgegevens. <!--ACP2E-1984-->
+- Wanneer verkopers op de knop *[!UICONTROL Print]* klikken in de gedetailleerde weergave van het citaat in Admin, wordt nu gevraagd het citaat op te slaan als een PDF. Voorheen werden verkopers omgeleid naar een pagina met prijsopgavegegevens. <!--ACP2E-1984-->
 
-- Eerder bij het verzenden van een aanhalingsteken van de klant met `0` percentage en het wijzigen van het aantal, genereert de beheerder een uitzondering, maar wordt het aantal opgeslagen. Nadat deze correctie is toegepast, wordt de uitzondering `0 percentage` right met een bericht gegenereerd. <!--ACP2E-1742-->
+- Voorheen bij het verzenden van een klantofferte met `0` percentage en het wijzigen van de hoeveelheid, gooide de beheerder een uitzondering, maar sloeg de hoeveelheid op. Nadat deze correctie is toegepast, wordt de uitzondering `0 percentage` right met een bericht gegenereerd. <!--ACP2E-1742-->
 
 - Tijdens prijsonderhandelingen kan een verkoper nu een `0%` korting opgeven in het veld Offerteprijskorting voor onderhandelde offerte en de prijsopgave terugsturen naar de koper. Als de verkoper eerder een korting van 0% heeft ingevoerd en het prijsopgave heeft teruggestuurd naar de koper, heeft de beheerder een foutbericht van `Exception occurred during quote sending` geretourneerd. <!--ACP2E-1742-->
 
-- De validatie van ReCaptcha werkt nu correct tijdens het afrekenen voor een B2B citaat wanneer ReCaptcha V3 voor storefront afhandeling wordt gevormd. Eerder is de validatie mislukt met een `recaptcha validation failed, please try again` -foutbericht.  <!--ACP2E-2097-->
+- ReCaptcha-validatie werkt nu correct tijdens het afrekenproces voor een B2B-offerte wanneer ReCaptcha V3 is geconfigureerd voor het afrekenen in de winkel. Eerder is de validatie mislukt met een `recaptcha validation failed, please try again` -foutbericht.  <!--ACP2E-2097-->
 
-### Aankooporders
+### Inkooporders
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1825--> de orden van de Aankoop kunnen niet meer door een gebruiker worden geplaatst verbonden aan het bedrijf nadat het bedrijf is geblokkeerd. Eerder had een gebruiker die banden had met het bedrijf kooporders kunnen plaatsen wanneer het bedrijf werd geblokkeerd.
+
+## B2B v1.4.2-p5
+
+*8 April, 2025*
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p5+ en 2.4.6-p10+ de versies van het veiligheidspatch.
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p5+ en 2.4.6-p10+ de versies van het veiligheidspatch.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-26 ](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p4
 
 *11 Februari, 2025*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p4+ en 2.4.6-p9+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p4+ en 2.4.6-p9+ de versies van het veiligheidspatch.
 
 ![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ Bulletin APSB25-08 van de Veiligheid ](https://helpx.adobe.com/security/products/magento/apsb25-08.html) worden gedocumenteerd.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om compatibiliteit met de Adobe Commerce B2B-release te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
-
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p3
 
 *8 Oktober, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch.
 
 ![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB24-73 ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om compatibiliteit met de Adobe Commerce B2B-release te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p2+ en 2.4.6-p7+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p2+ en 2.4.6-p7+ de versies van het veiligheidspatch.
 
 ![ Vaste kwestie ](../assets/fix.svg) omvat de moeilijke situaties van de Veiligheid die in Bulletin xxxx van de Veiligheid worden gedocumenteerd.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2-p1
 
 *9 augustus, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p1+ en 2.4.6-p6+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p1+ en 2.4.6-p6+ de versies van het veiligheidspatch.
 
->[!IMPORTANT]
->
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+{{b2b-compatibility}}
 
 ## B2B v1.4.2
 
 *10 oktober, 2023*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.7 van Adobe Commerce en versie van 2.4.6 aan 2.4.6-p5.
 
 De B2B v1.4.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situaties.
 
@@ -203,13 +246,13 @@ De B2B v1.4.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situatie
 
 ## B2B v1.4.1
 
-*7 Augustus, 2023*
+*7 augustus 2023*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}[ Adobe Commerce 2.4.6-p2 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1.
+[!BADGE Ondersteunde]{type=Informative tooltip="Ondersteund"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-bèta1.
 
-De versie B2B v1.4.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen.
+De B2B v1.4.1-release bevat kwaliteitsverbeteringen en bugfixes.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1825--> de orden van de Aankoop kunnen niet meer door een gebruiker worden geplaatst verbonden aan het bedrijf nadat het bedrijf is geblokkeerd. Eerder had een gebruiker die banden had met het bedrijf kooporders kunnen plaatsen wanneer het bedrijf werd geblokkeerd.
+![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1825--> de orden van de Aankoop kunnen niet meer door een gebruiker worden geplaatst verbonden aan het bedrijf nadat het bedrijf is geblokkeerd. Voorheen kon een gebruiker die aan het bedrijf was gekoppeld, inkooporders plaatsen wanneer het bedrijf was geblokkeerd.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1943--> product backordered status wordt nu correct getoond op de storefront. Eerder werden producten die voor verzending beschikbaar waren, onjuist geïdentificeerd als achtergeordend.
 
@@ -223,7 +266,7 @@ De versie B2B v1.4.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen
 
 *13 Juni, 2023*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}[ Adobe Commerce 2.4.6-p1 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} [ Adobe Commerce 2.4.6-p1 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1
 
 Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbare aanhalingstekens en meerdere opgeloste problemen.
 
@@ -239,9 +282,9 @@ Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbar
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1474--> het geselecteerde verschepende adres blijft nu onveranderd wanneer u een orde met een onderhandelbaar citaat plaatst. Eerder, toen u een bestelling plaatste, werd het geselecteerde verzendadres veranderd in het standaardverzendadres.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1429--> in de montages van de Configuratie van de Opslag voor Eigenschappen B2B, wordt het **[!UICONTROL Enable Shared Catalog direct products price assigning]** gebied nu automatisch onbruikbaar gemaakt. In de winkel is deze verborgen wanneer de instelling **[!UICONTROL Enable Company]** of **[!UICONTROL Enable Shared Catalog]** is ingesteld op **[!UICONTROL No]** .
+![Probleem](../assets/fix.svg) <!--ACP2E-1429--> opgelost In de instellingen voor winkelconfiguratie voor B2B-functies is het **[!UICONTROL Enable Shared Catalog direct products price assigning]** veld nu automatisch uitgeschakeld. In de winkel is deze verborgen wanneer de instelling **[!UICONTROL Enable Company]** of **[!UICONTROL Enable Shared Catalog]** is ingesteld op **[!UICONTROL No]** .
 
-![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1683--> wanneer het creëren van een bedrijfrekening van de storefront, bevestigt Commerce nu het e-mailadres alvorens de bedrijfregistratie te verwerken. Als het e-mailadres ongeldig is, mislukt de bewerking en worden geen accountupdates verwerkt. Eerder werd een klantenrekening gecreeerd zelfs als het verzoek om een bedrijfrekening tot stand te brengen wegens een ongeldig e-mailadres ontbrak.
+![Bij](../assets/fix.svg) <!--ACP2E-1683--> het maken van een bedrijfsaccount vanuit de etalage valideert Commerce nu het e-mailadres voordat de bedrijfsregistratie wordt verwerkt. Als het e-mailadres ongeldig is, mislukt de bewerking en worden geen accountupdates verwerkt. Eerder werd een klantenrekening gecreeerd zelfs als het verzoek om een bedrijfrekening tot stand te brengen wegens een ongeldig e-mailadres ontbrak.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--ACP2E-1664--> Product SKUs die dubbele aanhalingstekens in de Gedeelde Catalogus en het tarief structuur omvatten veroorzaakt niet meer fouten in Admin.
 
@@ -263,11 +306,21 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspakket toe te voegen door handgebiedsdelen voor het B2B veiligheidspakket met a [ stabiliteitsmarkering ](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen. Voor instructies, zie de [ Kennisbank van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p10
+
+*8 April, 2025*
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p10+ de versies van het veiligheidspatch.
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.6-p10 de versies van het veiligheidspatch.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-26 ](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+
 ## B2B v1.3.5-p9
 
 *11 Februari, 2025*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p9+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p9.
 
@@ -277,7 +330,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *8 Oktober, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p8+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p8.
 
@@ -287,7 +340,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *9 augustus, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p7+ de versies van het veiligheidspatch.
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p7.
 
@@ -295,7 +348,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *Maart 14, 2023*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 - 2.4.6 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) vrijgekomen B2B versie 1.3.5-p2 om verenigbaarheid met Adobe Commerce 2.4.6-p2 te steunen.
 
@@ -305,9 +358,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 >
 >Nadat u Commerce van 2.4.6 aan de [ recentste versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) bevordert, zorg ervoor om aan de gesteunde B2B 1.3.5 flardversie bij te werken. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.6.
+![Nieuw](../assets/new.svg) Ondersteuning toegevoegd voor Adobe Commerce 2.4.6.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerce toont nu correcte details tijdens betaling wanneer de optie van de Orden van de Aankoop wordt toegelaten en een virtueel citaat dat met de PayPal betalingsoptie werd gecreeerd is geselecteerd. Eerder werden de totalen onder deze omstandigheden als nul weergegeven.
+![Adobe](../assets/fix.svg) <!--- ACP2E-689--> Commerce geeft nu de juiste gegevens weer tijdens de betaling wanneer de optie Inkooporders is ingeschakeld en een virtuele prijsopgave is gemaakt met de PayPal-betalingsoptie. Voorheen werden totalen onder deze omstandigheden als nul weergegeven.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-609--> de lijst van klantengroepen voor **toestaat het doorbladeren Categorie** het plaatsen bevat niet meer klantengroepen die met gedeelde catalogi verwant zijn.
 
@@ -315,11 +368,11 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1236--> Het onbruikbaar maken van de gedeelde cataloguseigenschap op een specifiek werkingsgebied werkt nu correct. Eerder stelde Adobe Commerce een ongeldig werkingsgebied in wanneer een handelaar gedeelde catalogusconfiguratie bewaarde.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1203--> Admin gebruikers kunnen klanten de waarden van de douaneattributen voor bedrijfgebruikers nu bewaren. Eerder konden de douanekenmerken van de klant voor bedrijfgebruikers niet worden bewaard.
+![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1203--> Admin gebruikers kunnen klanten de waarden van de douaneattributen voor bedrijfgebruikers nu bewaren. Voorheen konden aangepaste kenmerken van klanten voor gebruikers van het bedrijf niet worden opgeslagen.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1221--> De kwesties van prestaties worden opgelost met de bevestiging van bedrijftoestemmingen die door GraphQL worden verstrekt wanneer vele bedrijftoestemmingen reeds worden toegewezen.
+![Probleem opgelost](../assets/fix.svg) <!--- ACP2E-1221--> Prestatieproblemen worden opgelost met de validatie van bedrijfsmachtigingen die via GraphQL worden verstrekt wanneer veel bedrijfsmachtigingen al zijn toegewezen.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce werpt niet meer een fout op de wortelpagina wanneer de Snelle Orde wordt gebruikt om een product in een hoeveelheid toe te voegen die beschikbare voorraad overschrijdt.
+![Adobe](../assets/fix.svg) <!--- ACP2E-1242--> Commerce genereert niet langer een foutmelding op de winkelwagenpagina wanneer Quick Order wordt gebruikt om een product toe te voegen in een hoeveelheid die de beschikbare voorraad overschrijdt.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-1090--> De prestaties van `SELECT` verrichtingen van bedrijftoestemmingen zijn verbeterd.
 
@@ -327,11 +380,21 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- ACP2E-6829--> De **[!UICONTROL Place Order]** knoop werkt nu zoals verwacht wanneer het voltooien van een aankoop met een goedgekeurd citaatverzoek. Problemen met de plug-in voor verhandelbare aanhalingstekens `negotiableQuoteCheckoutSessionPlugin` zijn opgelost.
 
+## B2B v1.3.4-p12
+
+*8 April, 2025*
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p12.
+
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-26 ](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+
 ## B2B v1.3.4-p11
 
 *11 Februari, 2025*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p11.
 
@@ -341,9 +404,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *9 Oktober, 2024*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE Ondersteunde]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p10.
+![Nieuw](../assets/new.svg) Ondersteuning toegevoegd voor Adobe Commerce 2.4.5-p10.
 
 ![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB24-73 ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
@@ -351,7 +414,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *9 augustus, 2022*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5.
 
@@ -385,7 +448,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *9 augustus, 2022*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.4.
 
@@ -407,13 +470,13 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42203--> U kunt een dossier voor een klantenattribuut nu bijwerken wanneer het creëren van een bedrijf. Eerder, toen u probeerde om een bedrijf met een gehechtheid van type `File` tot stand te brengen, creeerde Adobe Commerce niet het bedrijf en registreerde deze fout in het uitzonderingslogboek: `Something went wrong while saving file`.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42242--> U kunt een bedrijf met een klantenrekening nu tot stand brengen die een douanekenmerk met a (`File`) of (`Image`) type heeft. Eerder, als de rekening één van deze klantgerichte opties had, gaf het Bedrijf uit paginalader uitgeeft niet op, die het uitgeven van bedrijfdetails verhinderden.
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42242--> U kunt een bedrijf met een klantenrekening nu tot stand brengen die een douanekenmerk met a (`File`) of (`Image`) type heeft. Als het account voorheen een van deze aanpasbare opties had, werd de lader voor het bewerken van de pagina van het bedrijf niet opgelost, waardoor het bewerken van bedrijfsgegevens werd voorkomen.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42268--> De `products` vraag keert nu een nauwkeurig `total_count` gebied terug wanneer de gedeelde catalogus wordt toegelaten.
+![Probleem](../assets/fix.svg) <!--- MC-42268--> opgelost De `products` query retourneert nu een nauwkeurig `total_count` veld wanneer gedeelde catalogus is ingeschakeld.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42203--> U kunt een dossier voor een klantenattribuut nu bijwerken wanneer het creëren van een bedrijf. Eerder, toen u probeerde om een bedrijf met een gehechtheid van type `File` tot stand te brengen, creeerde Adobe Commerce niet het bedrijf en registreerde deze fout in het uitzonderingslogboek: `Something went wrong while saving file`.
+![Opgelost probleem:](../assets/fix.svg) <!--- MC-42203-->  u kunt nu een bestand voor een klantkenmerk bijwerken bij het maken van een bedrijf. Eerder, toen u probeerde een bedrijf te maken met een bijlage van het type `File`, heeft Adobe Commerce het bedrijf niet gemaakt en deze fout geregistreerd in het uitzonderingslogboek: `Something went wrong while saving file`.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-43178--> de _Configuratie van het Bedrijf_ en _creëren bedrijf_ pagina&#39;s nu werken zoals verwacht nadat u een online het verschepen methode onbruikbaar maakt. Er is een verificatie toegevoegd om te voorkomen dat wordt geprobeerd uitgeschakelde Verzendmodules te verwerken. Eerder werd deze fout door Adobe Commerce weergegeven: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected` .
+![ Vaste kwestie ](../assets/fix.svg) <!--- MC-43178--> de _Configuratie van het Bedrijf_ en _creëren bedrijf_ pagina&#39;s nu werken zoals verwacht nadat u een online het verschepen methode onbruikbaar maakt. Verificatie is toegevoegd om te voorkomen dat pogingen tot verwerking van uitgeschakelde verzendmodules worden gedaan. Eerder werd deze fout door Adobe Commerce weergegeven: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected` .
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-42214--> de _Categorie_ pagina toont nu verenigbare productgegevens terwijl de toestemmingen tijdens het gedeeltelijke indexeren worden geproduceerd. Er is een nieuwe gedeeltelijke indexator voor directorymachtigingen toegevoegd aan dit proces. Eerder waren de gegevens die werden weergegeven terwijl de indexeerfunctie werd uitgevoerd onjuist.
 
@@ -437,7 +500,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *Augustus 29, 2022*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE Ondersteunde]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.3.
 
@@ -499,11 +562,11 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-39620--> De component UI voor het factureringsadres in de module van de Orde van de Aankoop gebruikt nu correct citaatadres wanneer de Manager van de Markering van Google wordt toegelaten. Er is eerder een JavaScript-fout opgetreden op de betalingspagina.
 
-### Aanvraaglijsten
+### Lijsten van aanvragen
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40426--> De handelaren kunnen het POST `rest/all/V1/requisition_lists` eindpunt nu gebruiken om een vraaglijst voor een klant tot stand te brengen. Eerder heeft Adobe Commerce deze fout van 400 gegenereerd toen u een aanvraaglijst probeerde te maken: `Could not save Requisition List` .
+![Opgelost probleem:](../assets/fix.svg) <!--- MC-40426--> winkeliers kunnen nu het POST-eindpunt `rest/all/V1/requisition_lists` gebruiken om een bestellijst voor een klant te maken. Voorheen gooide Adobe Commerce deze 400-fout toen u probeerde een bestellijst te maken: `Could not save Requisition List`.
 
-![ Vaste kwestie ](../assets/fix.svg) <!--- MC-41123--> De **[!UICONTROL Add to Requisition List]** knoop verschijnt nu voor de producten van het winkelwagentje in voorraad wanneer het karretje ook uit-van-voorraad producten bevat. Als een winkelwagentje twee producten bevatte, waarvan er één uit voorraad was, werd de knop _[!UICONTROL Add to Requisition List]_eerder voor geen van beide producten weergegeven.
+![Probleem](../assets/fix.svg) <!--- MC-41123--> opgelost: de **[!UICONTROL Add to Requisition List]** knop verschijnt nu voor de producten die op voorraad zijn van een winkelwagentje wanneer de winkelwagen ook producten bevat die niet op voorraad zijn. Als een winkelwagentje voorheen twee producten bevatte, waarvan er één niet op voorraad was, verscheen de _[!UICONTROL Add to Requisition List]_knop voor geen van beide producten.
 
 ![ Vaste kwestie ](../assets/fix.svg) <!--- MC-40877--> U kunt REST API nu gebruiken om een product aan een verzoeklijst toe te voegen.
 
@@ -531,9 +594,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ## B2B v1.3.1
 
-*9 Februari, 2021*
+*9 februari 2021*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.2.
 
@@ -591,9 +654,9 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 - Kopers worden omgeleid naar het winkelwagentje wanneer ze een bestelling proberen te plaatsen via een inkooporder met PayPal Express Checkout wanneer **[!UICONTROL In-Context Mode]** is uitgeschakeld. <!--- B2B-1604-->
 
-- Adobe Commerce geeft soms een fout van 404 weer wanneer een koper een inkooporder maakt en vervolgens naar de afhandelingspagina navigeert. Deze fout treedt op wanneer een koper eerder een andere inkooporder met een online betalingsmethode heeft gemaakt voordat hij naar de betalingspagina navigeert zonder de vorige aankoop te voltooien. De koper kan de kooporder nog steeds plaatsen. **_werk rond_**: niets. <!--- B2B-1605-->
+- Adobe Commerce geeft soms een fout van 404 weer wanneer een koper een inkooporder maakt en vervolgens naar de afhandelingspagina navigeert. Deze fout treedt op wanneer een koper eerder een andere inkooporder met een online betalingsmethode heeft gemaakt voordat hij naar de betalingspagina navigeert zonder de vorige aankoop te voltooien. De koper kan de inkooporder nog steeds plaatsen. **_Tijdelijke oplossing_**: Geen. <!--- B2B-1605-->
 
-- Kortingen voor een specifieke betalingsmethode blijven bestaan tijdens afhandeling voor een inkooporder, zelfs als de koper zijn betalingsmethode wijzigt tijdens de laatste afhandeling. Als gevolg hiervan kunnen klanten een korting ontvangen waarop ze geen recht hebben. Deze kwestie doet zich voor omdat ondanks de wijziging in de betalingsmethode nog steeds een kartregel voor de oorspronkelijke betalingsmethode wordt toegepast. **_werk rond_**: niets. Zie [ Adobe Commerce 2.4.2 B2B bekende kwestie: de korting blijft voor online Orden van de Aankoop nadat de betalingsmethode ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _artikel van de Kennisbank_ wordt veranderd. <!-- B2B-1012 -->
+- Kortingen voor een specifieke betaalmethode blijven bestaan tijdens het afrekenen voor een inkooporder, zelfs wanneer de koper zijn betaalmethode wijzigt tijdens het afrekenen. Hierdoor kunnen klanten een korting krijgen waar ze geen recht op hebben. Dit probleem treedt op omdat een winkelwagenregel voor de oorspronkelijke betaalmethode nog steeds wordt toegepast, ondanks de wijziging in de betaalmethode. **_Tijdelijke oplossing_**: Geen. Zie het [bekende probleem van Adobe Commerce 2.4.2 B2B: de korting blijft bestaan voor online inkooporders nadat de betaalmethode is gewijzigd](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Knowledge Base_ . <!-- B2B-1012 -->
 
 - De query `deleteRequisitionListOutput` retourneert details over de verwijderde aanvraaglijst in plaats van de resterende aanvraaglijsten. <!--- MC-39894-->
 
@@ -601,7 +664,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 *15 oktober 2020*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendmethoden, winkelwagentje en registratie van beheeracties.
 
@@ -683,7 +746,7 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 *28 juli, 2020*
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.0.
 
@@ -691,11 +754,11 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Nieuwe ](../assets/new.svg) Orders van de Aankoop worden verbeterd en herschreven. Ze zijn nu standaard opgenomen in Adobe Commerce.
 
-![ Nieuwe ](../assets/new.svg) Regels van de Goedkeuring van de Inkooporder zijn uitgevoerd. Met deze regels kunnen gebruikers de workflow voor inkooporders beheren door aankoopregels voor bestellingen te maken.
+![Er zijn nieuwe](../assets/new.svg) regels voor de goedkeuring van inkooporders geïmplementeerd. Met deze regels kunnen gebruikers de workflow van de inkooporder beheren door inkoopregels voor orders te maken.
 
-![ Nieuwe ](../assets/new.svg) Login als Klant is nu inbegrepen door gebrek in Adobe Commerce. Deze eigenschap staat plaatswerknemers toe om klanten bij te staan door zich aan te melden als klant om te zien wat zij zien.
+![Nieuwe](../assets/new.svg) aanmelding als klant is nu standaard opgenomen in Adobe Commerce. Met deze functie kunnen sitemedewerkers klanten helpen door in te loggen als klant om te zien wat ze zien.
 
-](../assets/fix.svg) de samenvoegingen van het Attribuut van 0} Vaste kwestie {werken nu correct voor Gelaagde Navigatie met Elasticsearch![
+![Kenmerkaggregaties](../assets/fix.svg) werken nu correct voor gelaagde navigatie met Elasticsearch
 
 ![ Vaste kwestie ](../assets/fix.svg) Het zoeken van orden door speciale karakters werkt nu behoorlijk.
 
@@ -715,11 +778,11 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) met geïnstalleerd B2B, zou een SQL fout verschijnen wanneer het toewijzen van categorieën aan gedeelde catalogi. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) wegens een onjuiste veranderlijke typewaarde, konden beheerders geen configureerbare producten aan een orde toevoegen. De keuzelijst met opties wordt niet gevuld. Deze functie werkt nu goed.
+![ Vaste kwestie ](../assets/fix.svg) wegens een onjuiste veranderlijke typewaarde, konden beheerders geen configureerbare producten aan een orde toevoegen. De vervolgkeuzelijsten voor opties werden niet ingevuld. Deze functie werkt nu naar behoren.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, wanneer het uitgeven van de Toestemmingen van de Categorie voor niet Gelogde binnen groep, zou een fout voorkomen wanneer het bewaren van de veranderingen. Dit probleem is opgelost.
+![Voorheen](../assets/fix.svg) trad er bij het bewerken van categoriemachtigingen voor de groep Niet aangemeld een fout op bij het opslaan van de wijzigingen. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) een moeilijke situatie wordt toegevoegd om opslagbeheerders toe te staan om producten aan een orde toe te voegen die niet in de gedeelde catalogus zijn. Er wordt eerder een foutbericht weergegeven wanneer u een item toevoegt dat zich niet in de catalogus bevindt.
+![Er is een](../assets/fix.svg) oplossing toegevoegd om winkelbeheerders in staat te stellen producten aan een bestelling toe te voegen die niet in de gedeelde catalogus staan. Voorheen verscheen er een foutmelding bij het toevoegen van een artikel dat niet in de catalogus stond.
 
 ![ Vaste kwestie ](../assets/fix.svg) eerder, na het in werking stellen van het bevel `php bin/magento indexer:set-dimensions-mode catalog_product_price website` en dan het proberen om een gedeelde catalogus tot stand te brengen, zou een fout voorkomen. Dit probleem is opgelost.
 
@@ -727,9 +790,9 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![ Vaste kwestie ](../assets/fix.svg) eerder, nadat een klant aan een andere klantengroep werd bewogen, die een product aan een orde toevoegt gebruikend _Snelle Orde_ zou met een fout ontbreken. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, toen het proberen om uit te checken gebruikend WebAPI met een citaat B2B, werd een onjuiste waarde verzonden naar API, veroorzakend een fout om voor te komen. Dit probleem is opgelost.
+![Voorheen werd er bij het afrekenen met behulp van de WebAPI met een B2B-prijsopgave een onjuiste waarde naar de API verzonden, waardoor er een fout optrad. Dit probleem](../assets/fix.svg) is nu opgelost. Dit probleem is opgelost.
 
-![ Vaste kwestie ](../assets/fix.svg) eerder, wanneer het plaatsen van een bedrijf aan &quot;Actief&quot;via API, zou een fout voorkomen. Dit probleem is nu opgelost.
+![Probleem opgelost](../assets/fix.svg) Voorheen trad er een fout op bij het instellen van een bedrijf op &#39;Actief&#39; via de API. Dit probleem is nu opgelost.
 
 ![ Vaste kwestie ](../assets/fix.svg) wegens een onnodige `form` markering, verfrist de ordepagina automatisch wanneer u binnengaan na het veranderen van een voorgestelde het verschepen tarief duwde. Dit probleem is opgelost.
 

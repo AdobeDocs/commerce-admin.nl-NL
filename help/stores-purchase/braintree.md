@@ -3,9 +3,9 @@ title: Braintree
 description: Leer hoe u Braintree instelt als een online betalingsoplossing in uw winkel.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2873'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en Pa
 
 >[!NOTE]
 >
->Als u aan 2.4.x van een vroegere versie van Adobe Commerce of Magento Open Source met de geïnstalleerde uitbreiding van Braintree van Commerce Marketplace bevordert, zie [ 2.4 verbeteringsnota&#39;s ](#24-upgrade-notes) aan het eind van deze pagina.
+>Als u een upgrade uitvoert naar 2.4.x vanuit een eerdere versie van Adobe Commerce of Magento Open Source waarop de Braintree-extensie van Commerce Marketplace is geïnstalleerd, raadpleegt u de opmerkingen bij](#24-upgrade-notes) de [2.4-upgrade aan het einde van deze pagina.
 
 
-## Stap 1: Vraag je Braintree-gebruikersgegevens aan
+## Stap 1: Verkrijg uw Braintree-inloggegevens
 
-Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
+Ga naar [Braintree Payments][1] en meld je aan voor een account.
 
-## Stap 2: De basisinstellingen voltooien
+## Stap 2: Voltooi de basisinstellingen
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -37,9 +37,9 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
    - Controleer in de sectie _[!UICONTROL Merchant Location]_of **[!UICONTROL Merchant Country]**is ingesteld op de locatie van uw bedrijf.
 
-1. Onder _[!UICONTROL Recommended Solutions]_, in_[!UICONTROL Braintree Payments] (door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [ de Nota&#39;s van de Versie ](https://support.gene.co.uk/support/solutions/articles/35000228529) _sectie, klik **[!UICONTROL Configure]**.
+1. Onder _[!UICONTROL Recommended Solutions]_, in_[!UICONTROL Braintree Payments] (door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [ de Nota&#39;s van de Versie ](https://support.gene.co.uk/support/solutions/articles/35000278668) _sectie, klik **[!UICONTROL Configure]**.
 
-   ![ vorm Braintree ](./assets/braintree-payments.png){width="600" zoomable="yes"}
+   ![ vorm Braintree ](./assets/braintree-payments.png)
 
 1. Voer bij **[!UICONTROL Title]** een titel in die Braintree tijdens het afrekenen als betalingsoptie aanduidt.
 
@@ -47,7 +47,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
    Wanneer het testen van de configuratie in een zandbak, gebruik slechts [ creditcardaantallen ][2] die door Braintree worden geadviseerd. Wanneer u gereed bent om te gaan produceren met Braintree, stelt u **[!UICONTROL Environment]** in op `Production` .
 
-   ![ Basisgeloofsbrieven Montages ](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![ Basisgeloofsbrieven Montages ](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png)
 
 1. Stel **[!UICONTROL Payment Action]** in op een van de volgende opties:
 
@@ -69,15 +69,15 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 1. Stel **[!UICONTROL Enable Card Payments]** in op `Yes` .
 
-   ![ Basismontages ](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. Als u klantgegevens veilig wilt opslaan, zodat klanten deze niet telkens opnieuw hoeven in te voeren wanneer ze een aankoop doen, stelt u **[!UICONTROL Enable Vault for Card Payments]** in op `Yes` .
 
-   Als u klantgegevens veilig wilt opslaan, zodat klanten deze niet telkens opnieuw hoeven in te voeren wanneer ze een aankoop doen, stelt u **[!UICONTROL Enable Vault for Card Payments]** in op `Yes` .
+1. Als u wilt dat een klant bij elke aankoop het CVV-nummer voor de door hem gearchiveerde kaart verifieert, stelt u **[!UICONTROL Enable Vault CVV Re-verification]** in op `Yes` .
 
 ## Stap 3: De geavanceerde instellingen voltooien
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Braintree Settings]** sectie uit.
 
-   ![ Geavanceerde Montages ](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
+   ![ Geavanceerde Montages ](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png)
 
 1. Voer bij **[!UICONTROL Vault Title]** een beschrijvende titel in voor uw referentie die de vault identificeert waar de gegevens van uw klantenkaart zijn opgeslagen.
 
@@ -109,7 +109,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 ## Stap 4: De Braintree-instellingen voor webhaken voltooien
 
-![ de Montages van Webhooks van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![ de Montages van Webhooks van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png)
 
 1. Stel **[!UICONTROL Enable Webhook]** in op `Yes` om de webhafunctionaliteit in te schakelen voor fraudebeveiliging, ACH-betalingen en lokale betalingsmethoden.
 
@@ -119,9 +119,9 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
    >
    >Deze URL moet veilig en openbaar toegankelijk zijn.
 
-1. Stel het veld **[!UICONTROL Fraud Protection Approve Order Status]** in om te bepalen wanneer de fraudebeveiliging door Braintree wordt goedgekeurd.
+1. Stel het **[!UICONTROL Fraud Protection Approve Order Status]** veld in om te bepalen wanneer fraudebescherming wordt goedgekeurd door Braintree.
 
-   De status van de geselecteerde bestelling wordt toegewezen aan de Commerce-bestelling.
+   De geselecteerde orderstatus wordt toegewezen aan de Commerce-order.
 
 1. Stel het veld **[!UICONTROL Fraud Protection Reject Order Status]** in om te bepalen wanneer fraudebeveiliging door Braintree wordt geweigerd.
 
@@ -134,7 +134,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
-   ![ Land-Specifieke Montages ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
+   ![ Land-Specifieke Montages ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png)
 
 1. Instellen **[!UICONTROL Country Specific Credit Card Types]** :
 
@@ -144,11 +144,11 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
    - Herhaal dit om de creditcards te identificeren die vanuit elk land worden geaccepteerd.
 
-## Stap 6: Voltooi het ACH door de montages van Braintree
+## Stap 6: Voltooi de ACH via Braintree-instellingen
 
-![ ACH door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
+![ACH via Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png)
 
-1. Als u ACH wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable ACH Direct Debit]** in op `Yes` .
+1. Als u ACH als betalingsoptie wilt opnemen in Braintree, stelt u deze in **[!UICONTROL Enable ACH Direct Debit]** op `Yes`.
 
 1. Klanten kunnen hun betalingsmethode voor automatische incasso voor eenmalig gebruik berekenen en deze opslaan voor toekomstig gebruik. Als de automatische incasso eenmaal in de kluis is is geplaatst, kunnen klanten de automatische incasso opnieuw gebruiken zonder dat ze hun betalingsgegevens opnieuw hoeven in te voeren of te verifiëren als ze **[!UICONTROL Enable Vault for ACH Direct Debit]** op `Yes` hebben ingesteld.
 
@@ -156,7 +156,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 ## Stap 7: Voltooi de instellingen voor [!UICONTROL Apple Pay] tot en met Braintree
 
-![ ApplePay door de montages van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
+![ ApplePay door de montages van Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png)
 
 1. Als u [!DNL Apple Pay] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable ApplePay through Braintree]** in op `Yes` .
 
@@ -187,7 +187,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
    Opties: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (nog niet ondersteund)
 
-   ![ Lokale montages van de Methoden van de Betaling ](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   ![ Lokale montages van de Methoden van de Betaling ](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png)
 
    >[!NOTE]
    >
@@ -197,7 +197,7 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 ## Stap 9: Voltooi de instellingen voor [!DNL Google Pay] tot en met Braintree
 
-![ Google betalen door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
+![ Google betalen door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png)
 
 1. Als u [!DNL Google Pay] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable GooglePay Through Braintree]** in op `Yes` .
 
@@ -224,18 +224,18 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
 1. Stel **[!UICONTROL Enable Vault for Venmo]** in op `Yes` om het gebruik van een beveiligde kluis voor het opslaan van de Venmo-account van klanten in te schakelen, zodat klanten zich niet opnieuw hoeven aan te melden bij hun Venmo-account voor toekomstige transacties.
 
-   ![ Venmo door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
+   ![ Venmo door Braintree ](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png)
 
 1. Stel **[!UICONTROL Payment Action]** in op een van de volgende opties:
 
    - `Authorize Only` - Hiermee gaat u akkoord met de aankoop en houdt u de middelen in de wacht. Het bedrag wordt niet teruggetrokken van de bankrekening van de klant tot de verkoop __ door de handelaar wordt gevangen.
-   - `Intent Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
+   - `Intent Sale`  - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant afgeschreven.
 
-1. Voer bij **[!UICONTROL Sort Order]** een getal in om de volgorde te bepalen waarin Venmo wordt weergegeven wanneer deze bij andere betalingsopties wordt weergegeven tijdens het afrekenen.
+1. Voor **[!UICONTROL Sort Order]** voert u een getal in om de volgorde te bepalen waarin Venmo wordt weergegeven wanneer deze tijdens het afrekenen wordt vermeld met andere betalingsopties.
 
-## Stap 11: Voltooi de PayPal-instellingen via Braintree
+## Stap 11: Voltooi de instellingen van PayPal via Braintree
 
-![ PayPal door de Montages van Braintree ](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![ PayPal door de Montages van Braintree 1 ](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png)
 
 1. Als u PayPal als betalingsoptie wilt opnemen in Braintree, stelt u **[!UICONTROL Enable PayPal through Braintree]** in op `Yes` .
 
@@ -257,11 +257,11 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
 
      Wanneer **[!UICONTROL Enable PayPal PayLater through Braintree]** is ingesteld op `Yes` , wordt alleen dit veld weergegeven.
 
-     U kunt het overseinen van PayLater op uw plaats voor aanbiedingen, zoals _betalen in 3_ tonen, die klanten met drie renteloze maandelijkse betalingen laat betalen. De Braintree-integratie kan berichten op uw site weergeven om deze functie te promoten. Je kunt PayPal-aanbiedingen niet promoten met andere inhoud, marketing of materialen.
+     U kunt het overseinen van PayLater op uw plaats voor aanbiedingen, zoals _betalen in 3_ tonen, die klanten met drie renteloze maandelijkse betalingen laat betalen. De Braintree-integratie kan berichten op uw site weergeven om deze functie te promoten. U kunt PayLater-aanbiedingen niet promoten met andere inhoud, marketing of materialen.
 
-1. Voer bij **[!UICONTROL Title]** een titel in die aangeeft welke Braintree-betaling via PayPal is verricht tijdens het afrekenen.
+1. Voer **[!UICONTROL Title]** tijdens het afrekenen een titel in die de Braintree-betaling via PayPal-optie identificeert.
 
-1. Stel **[!UICONTROL Vault Enabled]** in op `Yes` om het gebruik van een beveiligde kluis voor het opslaan van het PayPal-account van klanten in te schakelen. U kunt een Vaulted PayPal-account gebruiken voor toekomstige transacties, waardoor het aantal stappen voor klanten afneemt.
+1. Stel deze optie **[!UICONTROL Vault Enabled]** in `Yes` om het gebruik van een beveiligde kluis mogelijk te maken om het PayPal-account van klanten op te slaan. Een opgeslagen PayPal-account kan worden gebruikt voor toekomstige transacties, waardoor het aantal stappen voor klanten wordt verminderd.
 
 1. Stel **[!UICONTROL Send Cart Line Items for PayPal]** in op `Yes` om de lijstitems (bestelling-objecten) samen met Cards, Cadeauverpakking voor objecten, Cadeauverpakking voor bestelling, Creditering, Verzending en Belasting als lijnobjecten naar PayPal te sturen.
 
@@ -279,21 +279,33 @@ Ga naar [ Betalingen van Braintree ][1] en onderteken omhoog voor een rekening.
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
-1. Stel **[!UICONTROL Require Customer's Billing Address]** in op `Yes` als u wilt dat klanten een factuuradres opgeven.
+   ![PayPal via Braintree-instellingen 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png)
+
+1. Als u wilt dat klanten een factuuradres opgeven, stelt u deze in **[!UICONTROL Require Customer's Billing Address]** op `Yes`.
 
    >[!NOTE]
    >
    >Deze functie moet voor uw account zijn ingeschakeld door de technische ondersteuning van PayPal.
 
+1. Als u de pagina voor de beoordeling van de bestelling voor PayPal Express wilt overslaan, stelt u deze in **[!UICONTROL Skip Order Review Step]** op `Yes`.
+
+   Voor klanten die betalen met PayPal Express: als u wilt dat klanten worden omgeleid naar een overzichtspagina voordat ze de betaling voltooien, stelt u deze in op `No` . Als u liever wilt dat klanten de overzichtspagina overslaan, stelt u deze in op `Yes` .
+
 1. Als u een logbestand wilt opslaan met interacties tussen uw winkel en PayPal via Braintree, stelt u **[!UICONTROL Debug]** in op `Yes` .
 
 1. Als u de PayPal-knop wilt weergeven op zowel de miniwinkelwagentje als de winkelwagentje pagina, stelt u **[!UICONTROL Display on Shopping Cart]** in op `Yes` .
+
+1. Stel **[!UICONTROL Send Package Tracking]** in op `Yes` als u trackinggegevens voor pakketten naar PayPal wilt verzenden.
+
+   Gegevens over het bijhouden van pakketten worden alleen naar PayPal verzonden voor PayPal-transacties/bestellingen. De functie [!UICONTROL Package Tracking] werkt alleen correct als u het configuratieveld [!UICONTROL Send Cart Line Items for PayPal] inschakelt.
+
+1. Als u een koper of betaler via PayPal op de hoogte wilt stellen van de updates voor het bijhouden van het pakket, stelt u **[!UICONTROL Use PayPal's "Notify Payer" functionality]** in op `Yes` .
 
 ## Stap 12: De stijlinstellingen instellen
 
 1. Kies bij **[!UICONTROL Location]** waar PayPal-knoppen en -berichten worden weergegeven: `Mini-Cart and Cart Page` , `Checkout Page` of `Product Page`
 
-   ![ PayPal het Stijlen montages ](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png){width="600" zoomable="yes"}
+   ![ PayPal het Stijlen montages ](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png)
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
@@ -319,13 +331,41 @@ De opties en instellingen in deze sectie variëren afhankelijk van het knoptype 
 >
 >Het configuratieveld **[!DNL Size(Deprecated)]** is afgekeurd en wordt niet gebruikt om de PayPal-knoppen op te maken.
 
-**[!UICONTROL PayLater Messaging]**
+Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knoppen bekijken. U kunt de instellingen toepassen of de waarden opnieuw instellen met behulp van de volgende besturingselementen:
 
-1. Stel **[!UICONTROL Show PayLater Messaging]** in op `Yes` als u [!DNL PayLater] -berichten wilt weergeven in de winkel op de geselecteerde locatie.
+- Klik op **[!UICONTROL Apply]** als u de geselecteerde opmaakinstellingen voor knoppen en PayLater-berichten wilt opslaan en deze op de huidige locatie en het huidige knoptype wilt toepassen.
 
-   Dit overseinen omvat de vertoning van [!DNL PayLater] overseinen voor beschikbare aanbiedingen ([ de beperkingen zijn van toepassing ](https://developer.paypal.com/docs/checkout/pay-later/us/)).
+- Klik op **[!UICONTROL Apply to All Buttons]** als u de geselecteerde opmaakinstellingen voor knoppen en berichtwaarden in PayLater wilt opslaan en deze wilt toepassen op alle knoptypen en -locaties.
 
-1. Selecteer voor **[!UICONTROL Message Layout]** de [!DNL PayLater] berichtlay-out: `Text` of `Flex`
+- Klik op **[!UICONTROL Reset to Recommended Defaults]** als u de opmaakinstellingen wilt terugzetten op de aanbevolen standaardwaarden voor knoppen en PayLater-berichten en deze wilt toepassen op alle typen knoppen en locaties.
+
+## Stap 13: Later berichten betalen
+
+**[!UICONTROL Product Page]**
+
+![ Betaal Later Bericht - de montages van de Pagina van het Product ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png)
+
+1. Stel **[!UICONTROL Show PayLater Messaging]** in op `Yes` als u [!DNL Pay Later] messaging wilt weergeven op de winkelpagina op de productpagina.
+
+   Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. Zie [de documentatie](https://developer.paypal.com/studio/checkout/pay-later/us) van PayPal.
+
+1. Selecteer voor **[!UICONTROL Message Layout]** de [!DNL Pay Later] berichtlay-out: `Text` of `Flex`
+
+1. Selecteer voor **[!UICONTROL Logo]** het PayPal-logotype: `Inline`, `Primary`, `Alternative`, of `None`
+
+1. Selecteer voor **[!UICONTROL Logo Position]** de positie van het PayPal-logo: `Left`, `Right`, of `Top`
+
+1. Selecteer voor **[!UICONTROL Text Color]** de tekstkleur van het [!DNL PayLater] bericht: `Black`, `White`, `Monochrome`, of `Grayscale`
+
+**[!UICONTROL Cart]**
+
+![ Betaal Later Bericht - de montages van de Pagina van de Kar ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png)
+
+1. Stel **[!UICONTROL Show PayLater Messaging]** in op `Yes` om [!DNL Pay Later] -berichten weer te geven op de winkelpagina op de miniwinkelwagentje- of winkelpagina.
+
+   Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. Zie {de documentatie van 0} PayPal ](https://developer.paypal.com/studio/checkout/pay-later/us).[
+
+1. Selecteer voor **[!UICONTROL Message Layout]** de [!DNL Pay Later] berichtlay-out: `Text` of `Flex`
 
 1. Selecteer bij **[!UICONTROL Logo]** het PayPal-logotype: `Inline` , `Primary` , `Alternative` of `None`
 
@@ -333,15 +373,19 @@ De opties en instellingen in deze sectie variëren afhankelijk van het knoptype 
 
 1. Selecteer bij **[!UICONTROL Text Color]** de tekstkleur [!DNL PayLater] message: `Black` , `White` , `Monochrome` of `Grayscale`
 
-Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knoppen en PayPal-berichten zien. U kunt de instellingen toepassen of de waarden opnieuw instellen met behulp van de volgende besturingselementen:
+**[!UICONTROL Checkout]**
 
-- Klik op **[!UICONTROL Apply]** als u de geselecteerde opmaakinstellingen voor knoppen en PayLater-berichten wilt opslaan en deze op de huidige locatie en het huidige knoptype wilt toepassen.
+![ Betaal Later Bericht - de montages van de Pagina van de Controle ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png)
 
-- Klik op **[!UICONTROL Apply to All Buttons]** als u de geselecteerde opmaakinstellingen voor knoppen en waarden voor PayLater-berichten wilt opslaan en deze op alle typen knoppen en locaties wilt toepassen.
+1. Stel **[!UICONTROL Show PayLater Messaging]** in op `Yes` als u het [!DNL Pay Later] -bericht wilt weergeven in de winkel bij het uitchecken.
 
-- Klik op **[!UICONTROL Reset to Recommended Defaults]** als u de opmaakinstellingen wilt terugzetten op de aanbevolen standaardwaarden voor knoppen en PayLater-berichten en deze wilt toepassen op alle typen knoppen en locaties.
+   Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er zijn beperkingen van toepassing. Zie [de documentatie](https://developer.paypal.com/studio/checkout/pay-later/us) van PayPal.
 
-## Stap 13: De instellingen voor 3D-verificatie voltooien
+1. Voor **[!UICONTROL Text Align]**, selecteer de tekst uitlijnen voor [!DNL Pay Later] bericht: `Text` of `Center` of `Right`
+
+1. Selecteer voor **[!UICONTROL Text Color]** de tekstkleur [!DNL Pay Later] message: `Black` , `White`
+
+## Stap 14: De instellingen voor 3D-verificatie voltooien
 
 1. Als u een verificatiestap voor klanten wilt toevoegen gebruikend creditcards die in een verificatieprogramma (zoals _die door VISA_ wordt geverifieerd) worden ingeschreven, plaats **[!UICONTROL 3D Secure Verification]** aan `Yes`.
 
@@ -356,13 +400,13 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Verify for Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
-   ![ 3D verificatiemontages ](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
+   ![Instellingen voor 3D-verificatie](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png)
 
-## Stap 14: De dynamische descriptoren van Braintree instellen
+## Stap 15: Stel de dynamische descriptoren van Braintree in
 
-De volgende beschrijvingen worden gebruikt om aankopen te identificeren op creditcardoverzichten van klanten. U kunt het aantal terugbetalingen verminderen door duidelijk het bedrijf te identificeren dat met elke aankoop wordt geassocieerd. Neem contact op met de ondersteuning van Braintree als dynamische beschrijvingen niet zijn ingeschakeld voor uw account.
+De volgende descriptoren worden gebruikt om aankopen op creditcardafschriften van klanten te identificeren. U kunt het aantal terugboekingen verminderen door het bedrijf dat bij elke aankoop betrokken is duidelijk te identificeren. Als dynamische descriptoren niet zijn ingeschakeld voor uw account, neemt u contact op met Braintree-ondersteuning.
 
-![ Dynamische beschrijvers ](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
+![Dynamische descriptoren](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png)
 
 1. Voer de dynamische descriptor voor de **[!UICONTROL Name]** , **[!UICONTROL Phone]** en **[!UICONTROL URL]** volgens deze richtlijnen in:
 

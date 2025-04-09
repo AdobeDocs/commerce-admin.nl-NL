@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,9 @@ Om tot de montages van de opslagconfiguratie toegang te hebben, verkies **[!UICO
 | [ Adobe Commerce 2.4 Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce aan te passen en te integreren met systemen van derden. |
 
 {style="table-layout:auto"}
+
+## B2B-compatibiliteit {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om compatibiliteit met de Adobe Commerce B2B-release te behouden. Bovendien, steunt de B2B 1.4.2+ versie niet de [ Server van de Toepassing van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

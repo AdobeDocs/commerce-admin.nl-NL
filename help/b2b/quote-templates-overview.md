@@ -3,9 +3,9 @@ title: Gebruiksscenario's en workflows voor het Citatesjabloon
 description: Creeer een citaatmalplaatje van een bestaand citaat om citaatonderhandeling voor terugkomende orden te stroomlijnen.
 feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 6fe8a356ab517fc5dd169c4a6f7ef52937f705c4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Met de mogelijkheid Offertesjabloon kunnen kopers en verkopers het prijsverhogin
 - **Vervaldata** - de Malplaatjes kunnen geldigheidsperioden (*[!UICONTROL Valid Until]*) hebben, die ervoor zorgen dat de termijnen slechts binnen een gespecificeerd tijdkader van toepassing zijn. Bij het verlopen wordt de sjabloon gesloten en worden alle gekoppelde aanhalingstekens gesloten.
 - **Kortingen en het Tarief** - de verkopers kunnen het zelfde lijn-punt, citaat-niveau, en het verschepen mogelijkheden van de prijskorting gebruiken beschikbaar met citaten om kortingen voor terugkomende orden te plaatsen, die het onderhandelingsproces vereenvoudigen.
 - **het Volgen en het Melden** - het systeem volgt het aantal verbonden citaten die van het malplaatje worden geproduceerd en met succes voltooide orden om inzichten in de naleving van overeengekomen op orderquota te verstrekken.
+- **Verbindingen van het Document van de Verwijzing** - zowel kunnen de kopers als de verkopers externe documentverbindingen (zoals DocuSign, het Teken van Adobe, of andere online diensten) aan het citaatmalplaatje toevoegen, uitgeven en beheren. Dit maakt gemakkelijke toegang tot verwante contracten en overeenkomsten tijdens het proces van het citaatmalplaatje mogelijk.
 
 ## Hoofdletters gebruiken
 
@@ -28,6 +29,8 @@ Een bedrijfkoper kan een prijsverhogingsmalplaatje gebruiken om een specifieke r
 
 - Hoeveelheden (minimum-/maximumhoeveelheden) In de template wordt een drempel voor de hoeveelheid vastgesteld die minimaal en maximaal kan worden aangekocht voor elke bestelling, zodat de verkoper de voorraadniveaus doeltreffend kan beheren en de koper de flexibiliteit krijgt om de hoeveelheden naar behoefte aan te passen.
 
+- Referentiedocument is gekoppeld om verbindingen te onderhouden met externe contracten en overeenkomsten, waardoor het makkelijker wordt om tijdens het prijsaanvraagproces toegang te krijgen tot gerelateerde documentatie.
+
 ## Workflow voor prijssjabloon
 
 Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
@@ -36,7 +39,7 @@ Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
 
 - **de Koper leidt tot het citaatmalplaatje**
 
-  Wanneer de koper een bestaande prijsopgave bekijkt, besluit hij dat het bedrijf in het komende jaar meerdere bestellingen moet indienen en wil hij extra kortingen aanvragen op basis van herhaalde transacties. Ze maken een aanhalingstekensjabloon met de handeling *[!UICONTROL Create quote template]* voor het aanhalingsteken. Vervolgens beginnen ze met onderhandelen door de prijsopgave ter controle naar de verkoper te sturen.
+  Wanneer de koper een bestaande prijsopgave bekijkt, besluit hij dat het bedrijf in het komende jaar meerdere bestellingen moet indienen en wil hij extra kortingen aanvragen op basis van herhaalde transacties. Ze maken een aanhalingstekensjabloon met de handeling *[!UICONTROL Create quote template]* voor het aanhalingsteken. De koper kan met behulp van het besturingselement *[!UICONTROL Add]* in de sectie met referentiedocumenten koppelingen naar externe contracten of overeenkomsten toevoegen. Vervolgens beginnen ze met onderhandelen door de prijsopgave ter controle naar de verkoper te sturen.
 
   Kopers kunnen ook een prijsopmaaksjabloon aanvragen door producten die ze regelmatig willen kopen toe te voegen aan het winkelwagentje. Vervolgens vraagt u om een prijsopgave en vermeldt u in de opmerkingen hoe vaak de aankoop moet worden herhaald.
 
@@ -50,13 +53,13 @@ Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
 
 **Stap 2: De overzicht en de onderhandeling van het citaat (Overzicht)**
 
-Het bekijken van of onderhandelen over een prijsopgavesjabloon kan onder meer bestaan uit het wijzigen van hoeveelheden, het verwijderen van objecten, het toevoegen van commentaar op lijstitems, het toepassen van kortingen op lijstitems of noteringen (verkoper) en het toevoegen van een verzendadres (koper).
+Het bekijken van of onderhandelen over een prijsopgavesjabloon kan onder meer bestaan uit het wijzigen van hoeveelheden, het verwijderen van objecten, het toevoegen van commentaar op regelobjecten, het toepassen van kortingen op regelobjecten of prijsopgaven (verkoper), het toevoegen van een verzendadres (koper) en het beheren van koppelingen naar referentiedocumenten.
 
-- **de meningsverzoek van de Verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]** net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de prijsopgave in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [ citaat onderhandeling ](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en verzendt het citaatmalplaatje terug naar de koper. De koper en de verkoper worden per e-mail op de hoogte gesteld dat de verkoper heeft gereageerd.
+- **de meningsverzoek van de Verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]** net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de prijsopgave in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [ citaat onderhandeling ](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en verzendt het citaatmalplaatje terug naar de koper. De verkoper kan tijdens dit proces ook koppelingen naar referentiedocumenten toevoegen, bewerken of verwijderen. De koper en de verkoper worden per e-mail op de hoogte gesteld dat de verkoper heeft gereageerd.
 
-- **de meningen van de koper citeren malplaatje van verkoper en verzendt reactie** - de koper klikt de verbinding in het e-mailbericht om het citaatmalplaatje te openen, of opent het van de _Mijn pagina van de Malplaatjes van het Citaat_ van het rekeningsdashboard. De koper kan opmerkingen aan de verkoper overlaten op het regel- of prijsniveau, hoeveelheden wijzigen en objecten verwijderen.
+- **de meningen van de koper citeren malplaatje van verkoper en verzendt reactie** - de koper klikt de verbinding in het e-mailbericht om het citaatmalplaatje te openen, of opent het van de _Mijn pagina van de Malplaatjes van het Citaat_ van het rekeningsdashboard. De koper kan opmerkingen aan de verkoper overlaten op het regel- of prijsniveau, hoeveelheden wijzigen, objecten verwijderen en koppelingen naar referentiedocumenten beheren.
 
-De koper en verkoper gaan verder met de onderhandelingsprocedure totdat een overeenkomst is bereikt of de verkoper de prijsopgave afwijst. Als de koper wijzigingen aanbrengt in de prijsopmaaksjabloon: producten toevoegen of verwijderen of producthoeveelheden wijzigen, moet deze ter controle aan de verkoper worden geretourneerd.
+De koper en verkoper gaan verder met de onderhandelingsprocedure totdat een overeenkomst is bereikt of de verkoper de prijsopgave afwijst. Als de koper wijzigingen aanbrengt in de prijsopgave (door producten toe te voegen of te verwijderen, door de producthoeveelheden te wijzigen of door het referentiedocument te wijzigen), moet de aanhaling ter controle worden teruggestuurd naar de verkoper.
 
 - **de Koper voegt een het verschepen adres** toe - de koper moet een het verschepen adres aan het citaatmalplaatje toevoegen als het niet heeft. Nadat de koper het adres heeft toegevoegd, kan de verkoper verzend- en leveringsopties opgeven. De weergegeven verzendmethoden zijn afhankelijk van de configuratie Storefront.
 

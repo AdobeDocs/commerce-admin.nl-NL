@@ -4,22 +4,22 @@ description: Leer hoe u verificatie met twee factoren instelt tijdens de eerste 
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
 # Twee-factor authentificatie opstelling voor gebruikersrekeningen
 
-In deze instructies ziet u hoe u verificatie met twee factoren instelt tijdens uw eerste aanmelding bij Adobe Commerce of Magento Open Source en hoe u uw identiteit verifieert met de volgende apps en apparaten.
+In deze instructies ziet u hoe u verificatie met twee factoren instelt tijdens uw eerste aanmelding bij Adobe Commerce of Magento Open Source en hoe u uw identiteit kunt verifiëren met de volgende apps en apparaten.
 
 Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Voor opslagruimten waarvoor verificatie met [!DNL Adobe Identity Management Services] (IMS) is ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich bij hun Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
+>Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
@@ -59,27 +59,23 @@ Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-
 
 1. Ga uw rekeningsgeloofsbrieven in en meld binnen aan _Admin_.
 
-1. Wanneer de pagina [!DNL Duo] Setup wordt weergegeven, klikt u op **[!UICONTROL Start setup]** en voert u de volgende handelingen uit:
+1. Wanneer de pagina [!DNL Duo] Setup wordt weergegeven, klikt u op **[!UICONTROL Get Started]** en voert u de volgende handelingen uit:
 
-   ![ storefront van het Voorbeeld - duo opstelling ](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![ storefront van het Voorbeeld - duo opstelling ](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Selecteer het apparaat.
+1. Selecteer uw optie. U kunt Touch ID, Duo Mobile, Beveiligingssleutel of Telefoonnummer kiezen. In dit voorbeeld ziet u de optie Duo Mobiel of Telefoonnummer.
 
 1. Voer desgevraagd uw telefoonnummer in en klik op **[!UICONTROL Continue]** .
 
-   In dit voorbeeld wordt om uw telefoonnummer gevraagd, omdat we een mobiel apparaat gebruiken.
+   Bevestig de eigendom door het wachtwoord op het telefoonnummer te verzenden en te verifiëren.
 
 1. Klik op **[!UICONTROL I have Duo Mobile]** wanneer u wordt gevraagd om [!DNL Duo Mobile] voor uw type telefoon te installeren.
 
 1. Open [!DNL Duo Mobile] en scan de QR-code om de authenticator te synchroniseren met Adobe Commerce. Wanneer de activering is voltooid, wordt een vinkje weergegeven.
 
-1. Om uw montages voor het apparaat te vormen, kies de actie die u wilt plaatsvinden wanneer u binnen ondertekent.
+1. U kunt (indien nodig) meer apparaten toevoegen of overslaan. Uw installatie is nu voltooid en u kunt zich aanmelden met Duo.
 
-   - `Ask me to choose an authenticator method` — Staat de gebruiker toe om te selecteren wanneer het registreren en het voor authentiek verklaren in _Admin_.
-   - `Automatically send this device a Duo Push` — Verstuurt een bericht naar het apparaat voor acceptatie of weigering van toegang.
-   - `Automatically call this device` — Vraag en verstrekt een wachtwoord om voor toegang in te gaan.
-
-   ![ Duo controleacties ](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![ Duo controleacties ](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Stap 2: Aanmelden met [!DNL Duo Security]
 
@@ -89,13 +85,11 @@ In het volgende voorbeeld worden de opties voor `Ask me to choose an authenticat
 
    ![ Duo - handtekening ](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Kies de methode die u wilt gebruiken voor verificatie:
+1. Kies Aanmelden met Duo om een pushmelding te krijgen in de Duo Mobile-app, u aan te melden met Touch ID of een andere optie te kiezen die u tijdens de installatie hebt geconfigureerd.
 
-   - `Send Me a Push` — Klik om een pushbericht te ontvangen aan [!DNL Duo Mobile] . Accepteren voor verificatie.
-   - `Call Me` — Klik deze optie, ontvang een vraag met een code, en ga de pascode in.
-   - `Enter a Passcode` — Klik op deze optie om een voldoende-code te ontvangen en in te voeren.
+1. Goedkeuren van de aanvraag van het duo app/Touch ID/Text-bericht en u wordt aangemeld.
 
-1. Voltooi duw of code om binnen aan _Admin_ volledig te ondertekenen.
+   ![ Duo - handtekening ](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 

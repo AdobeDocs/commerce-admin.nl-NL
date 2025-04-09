@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Security] &gt; [!UICONTROL 2FA] van Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Opslagruimten die verificatie voor Adobe Identity Management Services (IMS) hebben ingeschakeld, hebben native Adobe Commerce en Magento Open Source tweefelige verificatie (2FA) uitgeschakeld. Admin-gebruikers die zich bij hun Adobe Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Voor opslagruimten die verificatie met Adobe Identity Management Services (IMS) hebben ingeschakeld, zijn native Adobe Commerce- en Magento Open Source-verificatie met twee factoren (2FA) uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Adobe Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 {{config}}
 
@@ -49,8 +49,10 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Algemeen | De integratietoets van uw [!DNL Duo Security] -account. |
-| [!UICONTROL Secret Key] | Algemeen | De geheime sleutel van uw [!DNL Duo Security] account. |
+| [!UICONTROL Client Id] | Algemeen | De client-id van uw [!DNL Duo Security] -account. |
+| [!UICONTROL Client Secret] | Algemeen | Het clientgeheim van uw [!DNL Duo Security] -account. |
+| [!UICONTROL Integration Key] | Algemeen | De integratietoets van uw [!DNL Duo Security] API-account. |
+| [!UICONTROL Secret Key] | Algemeen | De geheime sleutel van uw [!DNL Duo Security] API-account. |
 | [!UICONTROL API Hostname] | Algemeen | De API-hostnaam van uw [!DNL Duo Security] -account. |
 
 {style="table-layout:auto"}

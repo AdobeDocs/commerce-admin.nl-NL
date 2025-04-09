@@ -1,100 +1,121 @@
 ---
-title: Versleutelingssleutel
-description: Leer hoe u automatisch uw eigen coderingssleutel genereert of toevoegt. Deze sleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren.
+title: Coderingssleutel
+description: Leer hoe u uw eigen coderingssleutel kunt wijzigen, wat regelmatig moet worden gedaan om de beveiliging te verbeteren.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# Versleutelingssleutel
+# Coderingssleutel
 
 >[!NOTE]
 >
->Als u hebt geprobeerd om deze stappen te voltooien en kwesties hebt, zie de [ Zeer belangrijke Omwenteling van de Encryptie van het Oplossen van problemen: CVE-2024-34102 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) artikel van de Kennisbank.
+>Als u hebt geprobeerd deze stappen uit te voeren en problemen ondervindt, raadpleegt u het [Knowledge Base-artikel Problemen met versleutelingssleutelrotatie: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base.
 
-Adobe Commerce en Magento Open Source gebruiken een coderingssleutel om wachtwoorden en andere vertrouwelijke gegevens te beschermen. Een industriestandaard [!DNL ChaCha20-Poly1305] -algoritme wordt gebruikt met een 256-bits sleutel om alle gegevens te coderen die codering vereisen. Hieronder vallen creditcardgegevens en integratiewachtwoorden (betalings- en verzendmodule). Bovendien wordt een sterk Veilig Algorithm (SHA-256) gebruikt om alle gegevens te hashen die geen decryptie vereisen.
+Adobe Commerce en Magento Open Source gebruiken een versleutelingssleutel om wachtwoorden en andere gevoelige gegevens te beschermen. Een industriestandaard [!DNL ChaCha20-Poly1305] algoritme wordt gebruikt met een 256-bits sleutel om alle gegevens te versleutelen die versleuteling vereisen. Dit omvat creditcardgegevens en integratiewachtwoorden (betalings- en verzendmodule). Bovendien wordt een sterk Secure Hash Algorithm (SHA-256) gebruikt om alle gegevens te hashen die niet hoeven te worden ontsleuteld.
 
-Tijdens de eerste installatie wordt u gevraagd of u Commerce een coderingssleutel wilt laten genereren of een van uw eigen coderingssleutels wilt invoeren. Met de coderingssleutel kunt u de sleutel naar wens wijzigen. De coderingssleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren en op elk moment kan de oorspronkelijke sleutel in gevaar worden gebracht.
+Tijdens de eerste installatie wordt u gevraagd om Commerce een coderingssleutel te laten genereren of om een eigen coderingssleutel in te voeren. Met de coderingssleutel kunt u de sleutel naar behoefte wijzigen. De coderingssleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren, en op elk moment kan de oorspronkelijke sleutel worden gecompromitteerd.
 
-Voor technische informatie, zie [ Geavanceerde op-gebouwinstallatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in de _Gids van de Installatie_.
+Zie [Geavanceerde on-premises installatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in de _installatiehandleiding_ en [versleuteling van gegevens in de _PHP-ontwikkelaarshandleiding](https://developer.adobe.com/commerce/php/development/security/data-encryption/)_ voor technische informatie.
 
 >[!IMPORTANT]
 >
->Voordat u de instructies voor het wijzigen van de coderingssleutel uitvoert, moet u controleren of het volgende bestand beschrijfbaar is: `[your store]/app/etc/env.php`
+>- Voordat u deze instructies volgt om de coderingssleutel te wijzigen, moet u ervoor zorgen dat het volgende bestand beschrijfbaar is: `[your store]/app/etc/env.php`
+>- De functie voor het wijzigen van de coderingssleutel in de beheerdersinstellingen is afgeschaft en is verwijderd in 2.4.8. U moet de CLI-opdracht gebruiken die op deze pagina wordt beschreven om uw coderingssleutel te wijzigen na het upgraden naar 2.4.8.
 
-**om een encryptiesleutel te veranderen:**
+**Een versleutelingssleutel wijzigen:**
 
-De volgende instructies vereisen toegang tot een terminal.
+Voor de volgende instructies is toegang tot een terminal vereist.
 
-1. Laat [ onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) toe.
+1. Schakel de onderhoudsmodus](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) in[.
 
    ```bash
    bin/magento maintenance:enable
    ```
 
-1. Uitsnijdtaken uitschakelen.
+1. Schakel cron-taken uit.
 
-   _de infrastructuurprojecten van de Wolk:_
+   _Projecten voor cloudinfrastructuur:_
 
    ```bash
    ./vendor/bin/ece-tools cron:disable
    ```
 
-   _op-gebouwprojecten_
+   _Projecten op locatie_
 
    ```bash
    crontab -e
    ```
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+1. Wijzig de coderingssleutel met behulp van een van de volgende methoden.
 
-   ![ de encryptiesleutel van het Systeem ](./assets/encryption-key.png){width="700" zoomable="yes"}
+   +++CLI opdracht
 
-1. Voer een van de volgende handelingen uit:
+   Voer de volgende CLI-opdracht uit en zorg ervoor dat deze zonder fouten wordt voltooid. Als je bepaalde systeemconfiguratiewaarden of betalingsvelden opnieuw moet versleutelen, bekijk dan de gedetailleerde [gids over herversleuteling](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in de _PHP Develop Guide_.
 
-   - Als u een nieuwe sleutel wilt genereren, stelt u **[!UICONTROL Auto-generate Key]** in op `Yes` .
-   - Als u een andere toets wilt gebruiken, stelt u **[!UICONTROL Auto-generate Key]** in op `No` . Voer vervolgens in het veld **[!UICONTROL New Key]** de gewenste toets in of plak deze.
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. Klik op **[!UICONTROL Change Encryption Key]**.
++++
 
-   >[!NOTE]
+   +++Admin instellingen
+
+   >[!IMPORTANT]
    >
-   >Een record van de nieuwe sleutel op een veilige locatie bewaren. De gegevens moeten worden gedecodeerd als er problemen optreden met de bestanden.
+   >Deze functie is afgeschaft en is verwijderd in 2.4.8. Adobe raadt aan om versleutelingssleutels te wijzigen met de CLI.
 
-1. Maak de cache leeg.
+   1. Ga in de _zijbalk voor beheerders_ naar **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
-   _de infrastructuurprojecten van de Wolk:_
+      ![Systeem encryptie sleutel](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Voer een van de volgende handelingen uit:
+
+      - Als u een nieuwe sleutel wilt genereren, stelt u deze in **[!UICONTROL Auto-generate Key]** op `Yes`.
+      - Als u een andere toets wilt gebruiken, stelt u deze in **[!UICONTROL Auto-generate Key]** op `No`. Voer vervolgens in het **[!UICONTROL New Key]** veld de sleutel in of plak deze die u wilt gebruiken.
+
+   1. Klik op **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Bewaar de nieuwe sleutel op een veilige locatie. Het is vereist om de gegevens te decoderen als er problemen optreden met uw bestanden.
+
++++
+
+1. Leeg de cache.
+
+   _Projecten voor cloudinfrastructuur:_
 
    ```bash
    magento-cloud cc
    ```
 
-   _op-gebouw projecten:_
+   _Projecten op locatie:_
 
    ```bash
    bin/magento cache:flush
    ```
 
-1. Snijtaken inschakelen.
+1. Schakel cron-taken in.
 
-   _de infrastructuurprojecten van de Wolk:_
+   _Projecten voor cloudinfrastructuur:_
 
    ```bash
    ./vendor/bin/ece-tools cron:enable
    ```
 
-   _op-gebouw projecten:_
+   _Projecten op locatie:_
 
    ```bash
    crontab -e
    ```
 
-1. Onderhoudsmodus uitschakelen.
+1. Schakel de onderhoudsmodus uit.
 
    ```bash
    bin/magento maintenance:disable

@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Leer hoe te om  [!DNL Google Tag Manager]  te gebruiken om de vele markeringen (fragmenten van code) te beheren die met uw marketing campagnegebeurtenissen in uw plaatsen van Adobe Commerce verwant zijn.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ U hebt een [!DNL Google Analytics] - en [!DNL Tag Manager] -account nodig om dit
 
 ## Stap 1. Uw [!DNL Google Analytics] -account configureren
 
-Zie [ het Onderzoek van de Plaats van de Opstelling ](https://support.google.com/analytics/answer/1012264) in de Hulp van Google voor de grondbeginselen u voor begonnen wordt nodig hebt. Zie ook de gidsen van Google voor [ Googles Analytics ](https://support.google.com/analytics/answer/9304153) en [ de Manager van de Markering van Google ](https://support.google.com/tagmanager/answer/6102821).
+Zie [ het Onderzoek van de Plaats van de Opstelling ](https://support.google.com/analytics/answer/1012264) in de Hulp van Google voor de grondbeginselen u voor begonnen wordt nodig hebt. Zie ook de gidsen van Google voor [ Google Analytics ](https://support.google.com/analytics/answer/9304153) en [ de Manager van de Markering van Google ](https://support.google.com/tagmanager/answer/6102821).
 
-1. Meld u aan bij uw [!DNL Google Analytics] -account.
+1. Log in op uw [!DNL Google Analytics] account.
 
-1. Ga als volgt te werk om **[!UICONTROL Internal Site Search Tracking]** in te schakelen:
+1. Ga als volgt te werk om dit in te schakelen **[!UICONTROL Internal Site Search Tracking]**:
 
    - Ga naar **[!UICONTROL Select View]** > **[!UICONTROL View Settings]**.
 
-   - Stel **[!UICONTROL Site Search Tracking]** in op `On` .
+   - Stel in **[!UICONTROL Site Search Tracking]** op `On`.
 
-   - Stel de parameter **[!UICONTROL Query]** in op `q` .
+   - Stel **[!UICONTROL Query]** de parameter in op `q`.
 
-   - Wanneer deze bewerking is voltooid, **[!UICONTROL Save]** de instellingen.
+   - Als u klaar bent, **[!UICONTROL Save]** worden de instellingen.
 
 1. Ga als volgt te werk om weergavefuncties in te schakelen:
 
@@ -118,7 +118,7 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** sectie uit en vorm het volgende:
 
-   ![ de configuratie van de Verkoop - Googles Analytics ](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
+   ![ configuratie van de Verkoop - Google Analytics ](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Enable]** in op `Yes` .
 
@@ -126,7 +126,7 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 
    - Voer in het veld **[!UICONTROL Container ID]** uw GTM-id in (`GTM-xxxxxx` ).
 
-   - Als u ook Googles Analytics aan inhoudexperimenten gebruikt, plaats **laat de Experimenten van de Inhoud** aan `Yes` toe.
+   - Als u ook Google Analytics aan inhoudsexperimenten gebruikt, plaats **laat de Experimenten van de Inhoud** aan `Yes` toe.
 
    - Gebruik de standaardwaarden voor de overige velden.
 
@@ -142,17 +142,17 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 
 | Veld | Toepassingsgebied | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Winkelweergave | Bepaalt als de Googles Analytics Verbeterde Handel kunnen worden gebruikt om activiteit in uw opslag te analyseren. Opties: `Yes` / `No` |
-| [!UICONTROL Account type] | Winkelweergave | Bepaalt de het volgen code van Google die wordt gebruikt om opslagactiviteit en verkeer te controleren. Opties: `Google Analytics` / `Google Tag Manager` |
-| [!UICONTROL Anonymize IP] | Winkelweergave | Bepaalt als het identificeren van informatie uit IP adressen wordt verwijderd die in Googles Analytics resultaten verschijnen. |
-| [!UICONTROL Enable Content Experiments] | Winkelweergave | Activeert Google Content Experiments, waarmee u maximaal tien verschillende versies van dezelfde pagina kunt testen. Opties: `Yes` / `No` |
+| [!UICONTROL Enable] | Winkelweergave | Hiermee bepaalt u of Google Analytics Enhanced Ecommerce kan worden gebruikt om activiteiten in uw winkel te analyseren. Opties: `Yes` / `No` |
+| [!UICONTROL Account type] | Winkelweergave | Bepaalt de Google-trackingcode die wordt gebruikt om de winkelactiviteit en het verkeer te volgen. Opties: `Google Analytics` / `Google Tag Manager` |
+| [!UICONTROL Anonymize IP] | Winkel weergave | Bepaalt of identificerende informatie wordt verwijderd uit IP-adressen die worden weergegeven in Google Analytics-resultaten. |
+| [!UICONTROL Enable Content Experiments] | Winkel weergave | Activeert Google Content Experiments, waarmee u maximaal tien verschillende versies van dezelfde pagina kunt testen. Opties: `Yes` / `No` |
 | [!UICONTROL Container Id] | Winkelweergave | Als [!DNL Google Tag Manager] al is geïnstalleerd en geconfigureerd voor uw winkel, wordt de container-id automatisch weergegeven in dit veld. |
 | [!UICONTROL List property for the catalog page] | Winkelweergave | Hiermee wordt de eigenschap Tagbeheer geïdentificeerd die is gekoppeld aan de cataloguspagina. Standaardwaarde: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Winkelweergave | Identificeert het bezit van de Manager van de Markering verbonden aan het dwars-verkoopblok. Standaardwaarde: `Cross-sell` |
 | [!UICONTROL List property for the up-sell block] | Winkelweergave | Identificeert het bezit van de Manager van de Markering verbonden aan het up-sell blok. Standaardwaarde: `Up-sell` |
-| [!UICONTROL List property for the related products block] | Winkelweergave | Identificeert het bezit van de Manager van de Markering verbonden aan het verwante productblok. Standaardwaarde: `Related Products` |
-| [!UICONTROL List property for the search results page] | Winkelweergave | Hiermee wordt de eigenschap Tagbeheer geïdentificeerd die is gekoppeld aan de pagina met zoekresultaten. Standaardwaarde: `Search Results` |
-| [!UICONTROL "Internal Promotions" for promotions field "Label"] | Winkelweergave | Identificeert het bezit van de Manager van de Markering verbonden aan de etiketten voor interne bevorderingen. Standaardwaarde: `Label` |
+| [!UICONTROL List property for the related products block] | Winkelweergave | Identificeert de Tag Manager-eigenschap die is gekoppeld aan het blok met gerelateerde producten. Standaardwaarde: `Related Products` |
+| [!UICONTROL List property for the search results page] | Winkel weergave | Identificeert de Tag Manager-eigenschap die is gekoppeld aan de pagina met zoekresultaten. Standaardwaarde: `Search Results` |
+| [!UICONTROL "Internal Promotions" for promotions field "Label"] | Winkel weergave | Identificeert het bezit van de Manager van de Markering verbonden aan de etiketten voor interne bevorderingen. Standaardwaarde: `Label` |
 
 {style="table-layout:auto"}
 
@@ -210,3 +210,55 @@ Als u doorgaat vanaf het dashboard van [!DNL Google Tag Manager] , bestaat de vo
 ### Stap 3. Voorvertonen en publiceren
 
 De volgende stap in het proces is een voorvertoning van de tag. Elke keer dat een voorvertoning van de tag wordt weergegeven, wordt een momentopname van de versie opgeslagen. Als u tevreden bent met het resultaat, gaat u naar de gewenste versie en klikt u op **[!UICONTROL Publish]** .
+
+## Aangepaste HTML-tag met JavaScript
+
+In deze sectie wordt uitgelegd hoe u een CSP-abonnement één keer toevoegt aan de HTML-tag JavaScript Aangepast, zodat deze kan worden uitgevoerd op de afhandelingspagina, zodat wordt voldaan aan de CSP-vereisten (Content Security Policy). Deze toevoeging verbetert de sitebeveiliging door te voorkomen dat onbevoegde scripts worden uitgevoerd. Voor meer gedetailleerde informatie, zie de ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) documentatie van het Beleid van de Veiligheid van de Inhoud 0} {.[
+
+>[!NOTE]
+>
+>Het importeren van de globale variabele `cspNonce` naar Google Tag Manager wordt alleen ondersteund in Adobe Commerce versie 2.4.8 en hoger.
+
+>[!WARNING]
+>
+>Het toevoegen van onbekende scripts aan uw winkel kan gegevensnadelig zijn. Scripts die zijn geautoriseerd op de afhandelingspagina kunnen vertrouwelijke klantgegevens, waaronder betalingsgegevens, stelen. Het is van essentieel belang dat u voorzorgsmaatregelen neemt om uw Google Tag Manager-account te beschermen. Voeg alleen vertrouwde scripts toe, controleer en controleer regelmatig uw tags en implementeer krachtige beveiligingsmaatregelen, zoals 2-factor verificatie (2FA) en toegangscontroles.
+
+### Stap 1. Een CSP nonce-variabele maken
+
+U kunt een CSP Nonce Variable maken die u kunt gebruiken in uw Google Tag Manager door de variabeleconfiguratie te importeren of handmatig te configureren.
+
+#### Importeer de variabele configuratie
+
+De CSP Nonce-variabele is opgenomen in de voorbeeldcontainer [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt). U kunt de variabele maken door deze code in uw werkruimte te importeren.
+
+#### Handmatig de variabele maken
+
+Als u niet de veranderlijke configuratie kunt invoeren, voltooi de volgende stappen hieronder om het tot stand te brengen.
+
+1. In uw werkruimte, navigeer aan de **sectie van Variabelen** in sidebar.
+1. Klik op de **Nieuwe** knoop bij de bodem van de pagina in de **user-defined sectie van Variabelen**.
+1. Geef de variabele een naam `gtmNonce` .
+1. Klik op het potloodpictogram om de variabele te bewerken.
+1. Selecteer **Variabele van JavaScript** van de **Variabele van de Pagina** sectie.
+1. Op het **gebied van de Naam van de Globale Variabele**, ga `window.cspNonce` in.
+1. Sla de variabele op.
+
+Meer over [ de Variabelen van de Manager van de Markering van Google ](https://support.google.com/tagmanager/answer/7683056?hl=en) leren, zie [ user-defined veranderlijke types voor Web ](https://support.google.com/tagmanager/answer/7683362?hl=en) in de documentatie van Google. In deze documentatie vindt u gedetailleerde instructies voor het maken en beheren van aangepaste variabelen die zijn afgestemd op het beheer van uw labels en die zijn afgestemd op specifieke marketing- en analytische behoeften.
+
+### Stap 2. Een aangepaste HTML-tag maken
+
+1. Navigeer in uw werkruimte naar de **sectie Tags** in de zijbalk.
+1. Klik op de **knop Nieuw** .
+1. Selecteer in de **sectie Tagconfiguratie** de optie **Aangepaste HTML-tag**.
+1. Voer het vereiste JavaScript in het tekstgebied in en voeg een nonce-attribuut toe aan de openingstag `<script>` die verwijst naar de variabele die u in de vorige stap hebt gemaakt. Bijvoorbeeld:
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. Selecteer **Document.write van de Steun**.
+1. In de **teweegbrengende** sectie, selecteer de gewenste trekker. Bijvoorbeeld, **toestemming Initialisatie - Alle Pagina&#39;s**.
+
+Voor meer informatie over [ Markeringen ](https://support.google.com/tagmanager/answer/3281060) in de Manager van de Markering van Google, zie [ Eigen markeringen ](https://support.google.com/tagmanager/answer/6107167) in de documentatie van Google.

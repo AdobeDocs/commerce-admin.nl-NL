@@ -3,9 +3,9 @@ title: persistentie van winkelwagentjes
 description: Leer hoe een hardnekkig winkelwagentje niet-aangeschafte winkelartikelen bijhoudt en de informatie voor het volgende bezoek van de klant opslaat.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Als dezelfde klant uw winkel bezoekt met meerdere browsers terwijl hij zich heef
 
 ### Functie van het selectievakje Onthouden
 
-Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_inschakelen op de aanmeldingspagina of bij het maken van een nieuwe account om de inhoud van het winkelwagentje toegankelijk te houden op het huidige apparaat wanneer de aangemelde sessie verloopt.
+Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_inschakelen op de aanmeldingspagina, de verificatiepop-up, inloggen bij uitchecken of bij het maken van een nieuwe account om de inhoud van het winkelwagentje toegankelijk te houden op het huidige apparaat wanneer de aanmeldingssessie verloopt.
 
 | Herinner me? | Resultaat |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_inschakelen op de aan
 | Niet geselecteerd | Er wordt geen permanente cookie gemaakt en de inhoud van het winkelwagentje blijft op het huidige apparaat beschikbaar wanneer de aanmeldingssessie verloopt. De inhoud van het winkelwagentje wordt nog steeds opgeslagen in de account van de klant en de volgende keer dat de klant zich aanmeldt, opnieuw geladen. |
 
 {style="table-layout:auto"}
+
+![ herinner me Login van de Klant ](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![ herinner me Pop-up van de Authentificatie ](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![ herinner me Afmelden-ins van de Afhandeling ](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Persistentie bij afmelden wissen, gedrag
 
