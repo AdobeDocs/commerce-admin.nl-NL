@@ -1,7 +1,7 @@
 ---
-source-git-commit: fefaf699dda58e9c908c6b85b0cc16432edb90b6
+source-git-commit: a37e67c332140fbba7609db8cc5e22a3625a1c9d
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -29,70 +29,68 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
 
 `magento/extension-b2b 1.5.2` heeft de volgende afhankelijkheden:
 
-```config
-magento/framework: >=103.0.6 <103.0.9
-magento/magento2-b2b-base: 1.5.2
-magento/module-b2b: 100.5.2
-magento/module-bundle-negotiable-quote: 100.5.1
-magento/module-bundle-requisition-list: 100.5.1
-magento/module-bundle-requisition-list-graph-ql: 1.5.1
-magento/module-bundle-shared-catalog: 100.5.1
-magento/module-checkout-address-search-negotiable-quote: 100.5.1
-magento/module-checkout-agreements-negotiable-quote: 100.5.1
-magento/module-checkout-agreements-purchase-order: 1.5.1
-magento/module-company: 102.0.2
-magento/module-company-asynchronous-operations: 1.5.1
-magento/module-company-credit: 100.5.2
-magento/module-company-credit-graph-ql: 1.5.1
-magento/module-company-customer-import-export: 1.5.0
-magento/module-company-graph-ql: 1.5.2
-magento/module-company-negotiable-quote: 1.5.1
-magento/module-company-negotiable-quote-template: 1.5.1
-magento/module-company-payment: 100.5.1
-magento/module-company-quote: 1.5.2
-magento/module-company-quote-graph-ql: 1.5.2
-magento/module-company-relation: 1.5.2
-magento/module-company-relation-shared-catalog: 1.5.1
-magento/module-company-shipping: 1.5.1
-magento/module-configurable-negotiable-quote: 100.5.1
-magento/module-configurable-requisition-list: 100.5.1
-magento/module-configurable-requisition-list-graph-ql: 1.5.1
-magento/module-configurable-shared-catalog: 100.5.1
-magento/module-downloadable-company: 1.5.1
-magento/module-downloadable-requisition-list-graph-ql: 1.5.1
-magento/module-gift-card-negotiable-quote: 100.5.1
-magento/module-gift-card-requisition-list: 100.5.1
-magento/module-gift-card-requisition-list-graph-ql: 1.5.1
-magento/module-gift-card-shared-catalog: 100.5.1
-magento/module-grouped-requisition-list: 100.5.1
-magento/module-grouped-shared-catalog: 100.5.1
-magento/module-negotiable-quote: 101.0.2
-magento/module-negotiable-quote-async-order: 1.5.1
-magento/module-negotiable-quote-duplicate: 1.5.2
-magento/module-negotiable-quote-duplicate-graph-ql: 1.5.1
-magento/module-negotiable-quote-graph-ql: 1.5.1
-magento/module-negotiable-quote-requisition-list: 1.5.1
-magento/module-negotiable-quote-requisition-list-graph-ql: 1.5.1
-magento/module-negotiable-quote-shared-catalog: 100.5.1
-magento/module-negotiable-quote-template: 1.5.2
-magento/module-negotiable-quote-template-graph-ql: 1.5.2
-magento/module-negotiable-quote-template-shared-catalog: 1.5.1
-magento/module-negotiable-quote-weee: 100.5.1
-magento/module-order-history-search: 100.5.2
-magento/module-paypal-negotiable-quote: 1.5.1
-magento/module-paypal-purchase-order: 1.5.1
-magento/module-purchase-order: 100.5.2
-magento/module-purchase-order-graph-ql: 1.5.1
-magento/module-purchase-order-rule: 100.5.2
-magento/module-purchase-order-rule-graph-ql: 1.5.1
-magento/module-quick-order: 100.5.1
-magento/module-quick-order-graph-ql: 1.5.1
-magento/module-requisition-list: 100.5.2
-magento/module-requisition-list-graph-ql: 1.5.1
-magento/module-shared-catalog: 100.5.2
-magento/module-shared-catalog-graph-ql: 1.5.1
-magento/security-package-b2b: 1.0.6
-```
+- magento/framework: >=103.0.6 &lt;103.0.9
+- magento/magento2-b2b-base: 1.5.2
+- [ magento/module-b2b ](https://developer.adobe.com/commerce/php/module-reference/module-b2b/): 100.5.2
+- [ magento/module-bundle-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote/): 100.5.1
+- [ magento/module-bundel-vordering-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list/): 100.5.1
+- [ magento/module-bundle-requisition-list-graph-ql ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-bundle-shared-catalog ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog/): 100.5.1
+- [ magento/module-checkout-adres-onderzoek-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote/): 100.5.1
+- [ magento/module-checkout-agreements-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote/): 100.5.1
+- [ magento/module-checkout-agreements-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order/): 1.5.1
+- [ magento/module-bedrijf ](https://developer.adobe.com/commerce/php/module-reference/module-company/): 102.0.2
+- [ magento/module-bedrijf-asynchrone-verrichtingen ](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations/): 1.5.1
+- [ magento/module-bedrijf-krediet ](https://developer.adobe.com/commerce/php/module-reference/module-company-credit/): 100.5.2
+- [ magento/module-bedrijf-krediet-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql/): 1.5.1
+- [ magento/module-bedrijf-klant-invoer-uitvoer ](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export/): 1.5.0
+- [ magento/module-bedrijf-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql/): 1.5.2
+- [ magento/module-bedrijf-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote/): 1.5.1
+- [ magento/module-bedrijf-onderhandelbaar-citaat-malplaatje ](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template/): 1.5.1
+- [ magento/module-bedrijf-betaling ](https://developer.adobe.com/commerce/php/module-reference/module-company-payment/): 100.5.1
+- [ magento/module-bedrijf-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-company-quote/): 1.5.2
+- [ magento/module-bedrijf-citaat-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql/): 1.5.2
+- [ magento/module-bedrijf-verhouding ](https://developer.adobe.com/commerce/php/module-reference/module-company-relation/): 1.5.2
+- [ magento/module-bedrijf-verband-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog/): 1.5.1
+- [ magento/module-bedrijf-verschepen ](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping/): 1.5.1
+- [ magento/module-configureerbaar-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote/): 100.5.1
+- [ magento/module-configureerbaar-eis-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list/): 100.5.1
+- [ magento/module-configureerbaar-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-configureerbaar-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog/): 100.5.1
+- [ magento/module-downloadbaar-bedrijf ](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company/): 1.5.1
+- [ magento/module-downloadbaar-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-gift-kaart-verhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote/): 100.5.1
+- [ magento/module-gift-kaart-aanvraag-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list/): 100.5.1
+- [ magento/module-gift-kaart-vordering-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-gift-kaart-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog/): 100.5.1
+- [ magento/module-gegroepeerd-aanvraag-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list/): 100.5.1
+- [ magento/module-gegroepeerde-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog/): 100.5.1
+- [ magento/module-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote/): 101.0.2
+- [ magento/module-onderhandelbaar-citaat-async-orde ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-dubbel ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate/): 1.5.2
+- [ magento/module-onderhandelbaar-citaat-dubbel-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-aanvraag-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog/): 100.5.1
+- [ magento/module-onderhandelbaar-citaat-malplaatje ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template/): 1.5.2
+- [ magento/module-onderhandelbaar-citaat-malplaatje-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql/): 1.5.2
+- [ magento/module-onderhandelbaar-citaat-malplaatje-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog/): 1.5.1
+- [ magento/module-onderhandelbaar-citaat-weee ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee/): 100.5.1
+- [ magento/module-orde-geschiedenis-onderzoek ](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search/): 100.5.2
+- [ magento/module-paypal-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote/): 1.5.1
+- [ magento/module-paypal-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order/): 1.5.1
+- [ magento/module-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order/): 100.5.2
+- [ magento/module-aankoop-orde-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql/): 1.5.1
+- [ magento/module-aankoop-orde-regel ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule/): 100.5.2
+- [ magento/module-aankoop-orde-regel-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql/): 1.5.1
+- [ magento/module-snel-orde ](https://developer.adobe.com/commerce/php/module-reference/module-quick-order/): 100.5.1
+- [ magento/module-snel-orde-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql/): 1.5.1
+- [ magento/module-aanvraag-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list/): 100.5.2
+- [ magento/module-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql/): 1.5.1
+- [ magento/module-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog/): 100.5.2
+- [ magento/module-gedeelde-catalogus-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql/): 1.5.1
+- magento/security-package-b2b: 1.0.6
 
 ## Licenties van derden
 
@@ -109,9 +107,9 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/opensearch-project/opensearch-php.git"> openssearch-project/openssearch-php </a>
+      <a href="https://github.com/opensearch-project/opensearch-php"> openssearch-project/openssearch-php </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PHP-client voor OpenSearch</td>
   </tr>
   </tbody>
@@ -130,57 +128,57 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/adobe/stock-api-libphp.git"> astock/stock-api-libphp </a>
+      <a href="https://github.com/adobe/stock-api-libphp"> astock/stock-api-libphp </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Adobe Stock API-bibliotheek</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/awslabs/aws-crt-php.git"> aws/aws-crt-php </a>
+      <a href="https://github.com/awslabs/aws-crt-php"> aws/aws-crt-php </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>AWS Common Runtime voor PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/aws/aws-sdk-php.git"> aws/aws-sdk-php </a>
+      <a href="https://github.com/aws/aws-sdk-php"> aws/aws-sdk-php </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>AWS SDK for PHP - Amazon Web Services gebruiken in je PHP project</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opentelemetry-php/api.git"> open-telemetry/api </a>
+      <a href="https://github.com/opentelemetry-php/api"> open-telemetry/api </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>API voor OpenTelemetry PHP.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/opentelemetry-php/context.git"> open-telemetrie/context </a>
+      <a href="https://github.com/opentelemetry-php/context"> open-telemetrie/context </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Context-implementatie voor OpenTelemetry PHP.</td>
   </tr>
   <tr>
     <td>
       paypal/module-breintree
     </td>
-    <td>pakket</td>
+    <td>Metapakket</td>
     <td>Braintree Magento</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/wikimedia/less.php.git"> wikimedia/less.php</a>
+      <a href="https://github.com/wikimedia/less.php"> wikimedia/less.php</a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PHP poort van de LESS processor</td>
   </tr>
   </tbody>
 </table>
 
-### BSD-2-clausule
+### BSD-2-Clause
 
 <table>
   <thead>
@@ -193,29 +191,29 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/Bacon/BaconQrCode.git"> bacon/bacon-qr-code </a>
+      <a href="https://github.com/Bacon/BaconQrCode"> bacon/bacon-qr-code </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>BaconQrCode is een QR code generator voor PHP.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/DASPRiD/Enum.git"> dasprid/enum </a>
+      <a href="https://github.com/DASPRiD/Enum"> dasprid/enum </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PHP 7.1 enum implementatie</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/webimpress/safe-writer.git"> webimpress/safe-writer </a>
+      <a href="https://github.com/webimpress/safe-writer"> webimpress/safe-writer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Gereedschap om bestanden veilig te schrijven om rasomstandigheden te voorkomen</td>
   </tr>
   </tbody>
 </table>
 
-### BSD-3-clausule
+### BSD-3-Clause
 
 <table>
   <thead>
@@ -228,260 +226,260 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/colinmollenhour/Cm_Cache_Backend_File.git"> colinmelenhour/cache-back-end-file </a>
+      <a href="https://github.com/colinmollenhour/Cm_Cache_Backend_File"> colinmelenhour/cache-back-end-file </a>
     </td>
-    <td>magento-module</td>
+    <td>Magento-module</td>
     <td>De stock Zend_Cache_Backend_File achtergrond heeft uiterst slechte prestaties voor schoonmaken door markeringen die het onbruikbaar maken maken aangezien het aantal caching punten stijgt. Deze backend brengt vele veranderingen met zich mee die in een enorme prestatiesverhoging, vooral voor markeringszuivering resulteren.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/colinmollenhour/php-redis-session-abstract.git"> colinmolenhour/php-redis-session-abstract </a>
+      <a href="https://github.com/colinmollenhour/php-redis-session-abstract"> colinmolenhour/php-redis-session-abstract </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een op Redis gebaseerde sessiehandler met optimistische vergrendeling</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/duosecurity/duo_universal_php.git"> duosecurity/duo_Universal_php </a>
+      <a href="https://github.com/duosecurity/duo_universal_php"> duosecurity/duo_Universal_php </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-implementatie van de Duo Universal SDK.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/firebase/php-jwt.git"> firebase/php-jwt </a>
+      <a href="https://github.com/firebase/php-jwt"> firebase/php-jwt </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een eenvoudige bibliotheek voor het coderen en decoderen van JSON Web Tokens (JWT) in PHP. Moet in overeenstemming zijn met de huidige specificatie.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-captcha.git"> laminas/laminas-captcha </a>
+      <a href="https://github.com/laminas/laminas-captcha"> laminas/laminas-captcha </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>CAPTCHA's genereren en valideren met behulp van figuren, afbeeldingen, ReCaptcha en meer</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-code.git"> laminas/laminas-code </a>
+      <a href="https://github.com/laminas/laminas-code"> laminas/laminas-code </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Extensies voor de PHP Reflectie-API, scannen van statische code en genereren van code</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-config.git"> laminas/laminas-config </a>
+      <a href="https://github.com/laminas/laminas-config"> laminas/laminas-config </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>biedt een geneste, op objecteigenschappen gebaseerde gebruikersinterface voor toegang tot deze configuratiegegevens binnen de toepassingscode</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-di.git"> laminas/laminas-di </a>
+      <a href="https://github.com/laminas/laminas-di"> laminas/laminas-di </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Geautomatiseerde afhankelijkheidsinjectie voor PSR-11 containers</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-escaper.git"> laminas/laminas-escaper </a>
+      <a href="https://github.com/laminas/laminas-escaper"> laminas/laminas-escaper </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Veilig en veilig ontsnappen aan HTML, HTML-kenmerken, JavaScript, CSS en URL's</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-eventmanager.git"> laminas/laminas-eventmanager </a>
+      <a href="https://github.com/laminas/laminas-eventmanager"> laminas/laminas-eventmanager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Trigger en luister naar gebeurtenissen in een PHP-toepassing</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-feed.git"> laminas/laminas-voer </a>
+      <a href="https://github.com/laminas/laminas-feed"> laminas/laminas-voer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>biedt functionaliteit voor het maken en gebruiken van RSS- en Atom-feeds</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-filter.git"> laminas/laminas-filter </a>
+      <a href="https://github.com/laminas/laminas-filter"> laminas/laminas-filter </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Gegevens en bestanden programmatisch filteren en normaliseren</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-http.git"> laminas/laminas-http </a>
+      <a href="https://github.com/laminas/laminas-http"> laminas/laminas-http </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt een eenvoudige interface voor het uitvoeren van HTTP-aanvragen (Hyper-Text Transfer Protocol)</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-i18n.git"> laminas/laminas-i18n </a>
+      <a href="https://github.com/laminas/laminas-i18n"> laminas/laminas-i18n </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Vertaal uw toepassing en filtert en valideert geïnternationaliseerde waarden</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-json.git"> laminas/laminas-json </a>
+      <a href="https://github.com/laminas/laminas-json"> laminas/laminas-json </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>biedt gebruiksvriendelijke methoden voor het serialiseren van native PHP naar JSON en het decoderen van JSON naar native PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-loader.git"> laminas/laminas-loader </a>
+      <a href="https://github.com/laminas/laminas-loader"> laminas/laminas-loader </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Laden van autoloading en plug-in</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-modulemanager.git"> laminas/laminas-modulemanager </a>
+      <a href="https://github.com/laminas/laminas-modulemanager"> laminas/laminas-modulemanager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Modulair toepassingssysteem voor laminas-mvc-toepassingen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mvc.git"> laminas/laminas-mvc </a>
+      <a href="https://github.com/laminas/laminas-mvc"> laminas/laminas-mvc </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>De gebeurtenis-gedreven laag MVC van Laminas, met inbegrip van Toepassingen MVC, Controllers, en Insteekmodules</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-permissions-acl.git"> laminas/laminas-permissions-acl </a>
+      <a href="https://github.com/laminas/laminas-permissions-acl"> laminas/laminas-permissions-acl </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Verstrekt een lichtgewichten flexibele implementatie van de toegangsbeheerlijst (ACL) voor toegangsbeheer</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-recaptcha.git"> laminas/laminas-recaptcha </a>
+      <a href="https://github.com/laminas/laminas-recaptcha"> laminas/laminas-recaptcha </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>OOP-wrapper voor de ReCaptcha-webservice</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-router.git"> laminas/laminas-router </a>
+      <a href="https://github.com/laminas/laminas-router"> laminas/laminas-router </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Flexibel verpletterend systeem voor HTTP en consoletoepassingen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-server.git"> laminas/laminas-server </a>
+      <a href="https://github.com/laminas/laminas-server"> laminas/laminas-server </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Op reflectie gebaseerde RPC-servers maken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-servicemanager.git"> laminas/laminas-servicemanager </a>
+      <a href="https://github.com/laminas/laminas-servicemanager"> laminas/laminas-servicemanager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>In de fabriek aangebrachte afhankelijkheidsinjectiecontainer</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-session.git"> laminas/laminas-zitting </a>
+      <a href="https://github.com/laminas/laminas-session"> laminas/laminas-zitting </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Object-oriented interface aan PHP zittingen en opslag</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-soap.git"> laminas/laminas-soap </a>
+      <a href="https://github.com/laminas/laminas-soap"> laminas/laminas-soap </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td></td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-stdlib.git"> laminas/laminas-stdlib </a>
+      <a href="https://github.com/laminas/laminas-stdlib"> laminas/laminas-stdlib </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>SPL-extensies, arrayhulpprogramma's, fouthandlers en meer</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-text.git"> laminas/laminas-text </a>
+      <a href="https://github.com/laminas/laminas-text"> laminas/laminas-text </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>FIGlets en op tekst gebaseerde tabellen maken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-translator.git"> laminas/laminas-vertaler </a>
+      <a href="https://github.com/laminas/laminas-translator"> laminas/laminas-vertaler </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Interfaces voor de component Translator van laminas-i18n</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-uri.git"> laminas/laminas-uri </a>
+      <a href="https://github.com/laminas/laminas-uri"> laminas/laminas-uri </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een component die helpt bij het manipuleren en valideren van URI's (Uniform Resource Identifiers)</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-validator.git"> laminas/laminas-validator </a>
+      <a href="https://github.com/laminas/laminas-validator"> laminas/laminas-validator </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Validatieklassen voor een groot aantal domeinen en de mogelijkheid om validators te ketenen om complexe validatiecriteria te maken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-view.git"> laminas/laminas-mening </a>
+      <a href="https://github.com/laminas/laminas-view"> laminas/laminas-mening </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Flexibele weergavelaag die meerdere weergavelagen, hulplijnen en meer ondersteunt en biedt</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/marc-mabe/php-enum.git"> marc-mabe/php-enum </a>
+      <a href="https://github.com/marc-mabe/php-enum"> marc-mabe/php-enum </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Eenvoudige en snelle implementatie van opsommingen met native PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/nikic/PHP-Parser.git"> nikic/php-parser </a>
+      <a href="https://github.com/nikic/PHP-Parser"> nikic/php-parser </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP parser geschreven in PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/phpfui/recaptcha.git"> phpfui/recaptcha </a>
+      <a href="https://github.com/phpfui/recaptcha"> phpfui/recaptcha </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Clientbibliotheek voor Google reCAPTCHA voor PHP 8.4 en hoger</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/tedious/JShrink.git"> tedivm/jshrink </a>
+      <a href="https://github.com/tedious/JShrink"> tedivm/jshrink </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Javascript Minifier geïntegreerd in PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git"> tubalmartin/cssmin </a>
+      <a href="https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"> tubalmartin/cssmin </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-poort van de YUI CSS-compressor</td>
   </tr>
   </tbody>
 </table>
 
-### BSD-3-clausule-wijziging
+### BSD-3-Clause-Modification
 
 <table>
   <thead>
@@ -494,9 +492,9 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/colinmollenhour/Cm_Cache_Backend_Redis.git"> colinmolenhour/cache-backend-redis </a>
+      <a href="https://github.com/colinmollenhour/Cm_Cache_Backend_Redis"> colinmolenhour/cache-backend-redis </a>
     </td>
-    <td>magento-module</td>
+    <td>Magento-module</td>
     <td>Zend_Cache backend met Redis met volledige ondersteuning voor tags.</td>
   </tr>
   </tbody>
@@ -515,9 +513,9 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/paragonie/sodium_compat.git"> paragonie/natrium_compat </a>
+      <a href="https://github.com/paragonie/sodium_compat"> paragonie/natrium_compat </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Puur PHP implementatie van libnatrium; gebruikt de PHP extensie als deze bestaat</td>
   </tr>
   </tbody>
@@ -536,16 +534,16 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/ezyang/htmlpurifier.git"> ezyang/htmlpurifier </a>
+      <a href="https://github.com/ezyang/htmlpurifier"> ezyang/htmlpurifier </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>HTML-filter voldoet aan standaarden geschreven in PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-amqplib/php-amqplib.git"> php-amqplib/php-amqplib </a>
+      <a href="https://github.com/php-amqplib/php-amqplib"> php-amqplib/php-amqplib </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Vroeger videlalvaro/php-amqplib.  Deze bibliotheek is een pure PHP-implementatie van het AMQP-protocol. Het is getest op RabbitMQ.</td>
   </tr>
   </tbody>
@@ -564,667 +562,667 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/braintree/braintree_php.git"> breintree/braintree_php </a>
+      <a href="https://github.com/braintree/braintree_php"> breintree/braintree_php </a>
     </td>
-    <td>bibliotheek</td>
-    <td>Braintree PHP Client Bibliotheek</td>
+    <td>Bibliotheek</td>
+    <td>Braintree PHP Client Library</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/brick/math.git"> steen/math </a>
+      <a href="https://github.com/brick/math"> steen/math </a>
     </td>
-    <td>bibliotheek</td>
-    <td>Rekenbibliotheek met willekeurige precisie</td>
+    <td>Bibliotheek</td>
+    <td>Rekenkundige bibliotheek met willekeurige precisie</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/brick/varexporter.git">Baksteen/Varexporter</a>
+      <a href="https://github.com/brick/varexporter"> baksteen/varexporter </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een krachtig alternatief voor var_export(), dat sluitingen en objecten zonder __set_state() kan exporteren</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ChristianRiesen/base32.git"> christian-riesen/base32 </a>
+      <a href="https://github.com/ChristianRiesen/base32"> christian-riesen/base32 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Base32 encoder/decoder volgens RFC 4648</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/colinmollenhour/credis.git"> colinmolenhour/credits </a>
+      <a href="https://github.com/colinmollenhour/credis"> colinmolenhour/credits </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Credis is een lichtgewicht interface naar de sleutelwaardewinkel van Redis, waar de phpredis-bibliotheek wordt geplaatst als deze beschikbaar is voor betere prestaties.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/ca-bundle.git"> composer/ca-bundle </a>
+      <a href="https://github.com/composer/ca-bundle"> composer/ca-bundle </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hier vindt u een pad naar de CA-bundel van het systeem en een fallback naar de Mozilla CA-bundel.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/class-map-generator.git"> composer/klasse-kaart-generator </a>
+      <a href="https://github.com/composer/class-map-generator"> composer/klasse-kaart-generator </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hulpprogramma's voor het scannen van PHP-code en het genereren van klassenkaarten.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/composer.git"> composer/composer </a>
+      <a href="https://github.com/composer/composer"> composer/composer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Met Composer kunt u afhankelijkheden van PHP-projecten declareren, beheren en installeren. Zo weet u zeker dat u overal de juiste stapel hebt.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/metadata-minifier.git"> composer/metadata-minifier </a>
+      <a href="https://github.com/composer/metadata-minifier"> composer/metadata-minifier </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Kleine nutsbibliotheek die meta-gegevensminificatie en uitbreiding behandelt.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/pcre.git"> composer/pcre </a>
+      <a href="https://github.com/composer/pcre"> composer/pcre </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PCRE-wrapping-bibliotheek met type-veilige preg_* vervangingen.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/semver.git"> composer/semver </a>
+      <a href="https://github.com/composer/semver"> composer/semver </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Semverbibliotheek met hulpprogramma's, parsering en validatie van versiebeperkingen.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/spdx-licenses.git"> composer/spdx-vergunningen </a>
+      <a href="https://github.com/composer/spdx-licenses"> composer/spdx-vergunningen </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Lijst met SPDX-licenties en validatiebibliotheek.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/xdebug-handler.git"> composer/xdebug-manager </a>
+      <a href="https://github.com/composer/xdebug-handler"> composer/xdebug-manager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Start een proces zonder Xdebug opnieuw.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/doctrine/lexer.git"> doctrine/lexer </a>
+      <a href="https://github.com/doctrine/lexer"> doctrine/lexer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PHP Doctrine Lexer parser bibliotheek die gebruikt kan worden in top-down, Recursive Descent Parsers.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/egulias/EmailValidator.git"> egulias/e-mail-validator </a>
+      <a href="https://github.com/egulias/EmailValidator"> egulias/e-mail-validator </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een bibliotheek voor het valideren van e-mailberichten op verschillende RFC's</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/elastic/elastic-transport-php.git"> elastic/vervoer </a>
+      <a href="https://github.com/elastic/elastic-transport-php"> elastic/vervoer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>HTTP transport PHP bibliotheek voor Elastic producten</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/elastic/elasticsearch-php.git"> elasticsearch/elasticsearch </a>
+      <a href="https://github.com/elastic/elasticsearch-php"> elasticsearch/elasticsearch </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PHP Client voor Elasticsearch</td>
+    <td>Bibliotheek</td>
+    <td>PHP-client voor Elasticsearch</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/endroid/qr-code.git">Endroid/QR-code</a>
+      <a href="https://github.com/endroid/qr-code"> endroid/qr-code </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>QR-code van Endroid</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ezimuel/guzzlestreams.git"> ezimuel/guzzlestreams </a>
+      <a href="https://github.com/ezimuel/guzzlestreams"> ezimuel/guzzlestreams </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Vork van guzzle/streams (verlaten) voor gebruik met elasticsearch-php</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ezimuel/ringphp.git"> ezimuel/ringphp </a>
+      <a href="https://github.com/ezimuel/ringphp"> ezimuel/ringphp </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Vork van guzzle/RingPHP (verlaten) voor gebruik met elasticsearch-php</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/guzzle/guzzle.git"> guzzlehttp/guzzle </a>
+      <a href="https://github.com/guzzle/guzzle"> guzzlehttp/guzzle </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Guzzle is een PHP HTTP client library</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/guzzle/promises.git"> guzzlehttp/promise </a>
+      <a href="https://github.com/guzzle/promises"> guzzlehttp/promise </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Guzzle belooft library</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/guzzle/psr7.git"> guzzlehttp/psr7 </a>
+      <a href="https://github.com/guzzle/psr7"> guzzlehttp/psr7 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>PSR-7 berichtimplementatie die ook gemeenschappelijke nutsmethodes verstrekt</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/jsonrainbow/json-schema.git"> justinrainbow/json-schema </a>
+      <a href="https://github.com/jsonrainbow/json-schema"> justinrainbow/json-schema </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een bibliotheek om een jseschema te valideren.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem.git"> liga/vliegsysteem </a>
+      <a href="https://github.com/thephpleague/flysystem"> liga/vliegsysteem </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Abstractie van bestandsopslag voor PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem-aws-s3-v3.git"> liga/flysystem-ws-s3-v3 </a>
+      <a href="https://github.com/thephpleague/flysystem-aws-s3-v3"> liga/flysystem-ws-s3-v3 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>AWS S3-bestandssysteemadapter voor Flysystem.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem-local.git"> liga/flysystem-local </a>
+      <a href="https://github.com/thephpleague/flysystem-local"> liga/flysystem-local </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Lokale bestandssysteemadapter voor Flysystem.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/mime-type-detection.git"> liga/mime-type-opsporing </a>
+      <a href="https://github.com/thephpleague/mime-type-detection"> liga/mime-type-opsporing </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>MIME-typedetectie voor Flysystem</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Seldaek/monolog.git"> monolog/monolog </a>
+      <a href="https://github.com/Seldaek/monolog"> monolog/monolog </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee verzendt u uw logbestanden naar bestanden, sockets, inboxen, databases en verschillende webservices</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/jmespath/jmespath.php.git"> mtdowling/jmespath.php</a>
+      <a href="https://github.com/jmespath/jmespath.php"> mtdowling/jmespath.php</a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Declaratief opgeven hoe elementen uit een JSON-document worden geëxtraheerd</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/paragonie/constant_time_encoding.git"> paragonie/constant_time_encoding </a>
+      <a href="https://github.com/paragonie/constant_time_encoding"> paragonie/constant_time_encoding </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Constante-tijdImplementaties van Codering RFC 4648 (basis-64, basis-32, basis-16)</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/paragonie/random_compat.git"> paragonie/random_compat </a>
+      <a href="https://github.com/paragonie/random_compat"> paragonie/random_compat </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PHP 5.x polyfill voor random_bytes() en random_int() vanaf PHP 7</td>
+    <td>Bibliotheek</td>
+    <td>PHP 5.x polyfill for random_bytes() en random_int() van PHP 7</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/MyIntervals/emogrifier.git">Pelago/Emogrifier</a>
+      <a href="https://github.com/MyIntervals/emogrifier"> pelago/emogrifier </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee zet u CSS-stijlen om in inline stijlkenmerken in uw HTML-code</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-http/discovery.git"> php-http/discovery </a>
+      <a href="https://github.com/php-http/discovery"> php-http/discovery </a>
     </td>
-    <td>composer-plug-in</td>
+    <td>Composer-plug-in</td>
     <td>Vindt en installeert PSR-7, PSR-17, PSR-18 en HTTPlug implementaties</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-http/httplug.git"> php-http/httplug </a>
+      <a href="https://github.com/php-http/httplug"> php-http/httplug </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>HTTPlug, de HTTP client abstractie voor PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-http/promise.git"> php-http/promise </a>
+      <a href="https://github.com/php-http/promise"> php-http/promise </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Promise die voor asynchrone HTTP- verzoeken wordt gebruikt</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/CssXPath.git"> phpgt/cssxpath </a>
+      <a href="https://github.com/PhpGt/CssXPath"> phpgt/cssxpath </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>CSS-kiezers converteren naar XPath-query's.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/Dom.git"> phpgt/dom </a>
+      <a href="https://github.com/PhpGt/Dom"> phpgt/dom </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Moderne DOM API.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/PropFunc.git"> phpgt/propfunc </a>
+      <a href="https://github.com/PhpGt/PropFunc"> phpgt/propfunc </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Functies van accessoreigenschap en mutator.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/phpseclib/mcrypt_compat.git"> phpseclib/mcrypt_compat </a>
+      <a href="https://github.com/phpseclib/mcrypt_compat"> phpseclib/mcrypt_compat </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PHP 5.x-8.x polyfill voor mcrypt extensie</td>
+    <td>Bibliotheek</td>
+    <td>PHP 5.x-8.x polyfill for mcrypt extension</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/phpseclib/phpseclib.git"> phpseclib/phpseclib </a>
+      <a href="https://github.com/phpseclib/phpseclib"> phpseclib/phpseclib </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PHP Secure Communications Library - Pure-PHP implementaties van RSA, AES, SSH2, SFTP, X.509 etc.</td>
+    <td>Bibliotheek</td>
+    <td>PHP Secure Communications Library - Pure-PHP implementaties van RSA, AES, SSH2, SFTP, X.509 enz.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/cache.git"> psr/cache </a>
+      <a href="https://github.com/php-fig/cache"> psr/cache </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene interface voor het in cache plaatsen van bibliotheken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/clock.git"> psr/klok </a>
+      <a href="https://github.com/php-fig/clock"> psr/klok </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Gemeenschappelijke interface voor het lezen van de klok.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/container.git"> psr/container </a>
+      <a href="https://github.com/php-fig/container"> psr/container </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Common Container Interface (PHP FIG PSR-11)</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/event-dispatcher.git"> psr/event-dispatcher </a>
+      <a href="https://github.com/php-fig/event-dispatcher"> psr/event-dispatcher </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Standaardinterfaces voor gebeurtenisafhandeling.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/http-client.git"> psr/http-client </a>
+      <a href="https://github.com/php-fig/http-client"> psr/http-client </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene interface voor HTTP-clients</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/http-factory.git"> psr/http-factory </a>
+      <a href="https://github.com/php-fig/http-factory"> psr/http-factory </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PSR-17: Gemeenschappelijke interfaces voor PSR-7 HTTP-berichtenfabrieken</td>
+    <td>Bibliotheek</td>
+    <td>PSR-17: Gemeenschappelijke interfaces voor PSR-7 HTTP- berichtfabrieken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/http-message.git">psr/http-bericht</a>
+      <a href="https://github.com/php-fig/http-message"> psr/http-message </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene interface voor HTTP-berichten</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/log.git"> psr/log </a>
+      <a href="https://github.com/php-fig/log"> psr/log </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene interface voor logbibliotheken</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ralouphie/getallheaders.git"> ralouphie/getallheaders </a>
+      <a href="https://github.com/ralouphie/getallheaders"> ralouphie/getallheaders </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een polyfill voor getallheaders.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ramsey/collection.git"> ramsey/inzameling </a>
+      <a href="https://github.com/ramsey/collection"> ramsey/inzameling </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-bibliotheek voor het weergeven en manipuleren van verzamelingen.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ramsey/uuid.git"> ramsey/uuid </a>
+      <a href="https://github.com/ramsey/uuid"> ramsey/uuid </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-bibliotheek voor het genereren en gebruiken van universeel unieke id's (UUID's).</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/reactphp/promise.git"> reactie/belofte </a>
+      <a href="https://github.com/reactphp/promise"> reactie/belofte </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een lichte implementatie van CommonJS Promises/A voor PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/MyIntervals/PHP-CSS-Parser.git"> sabberworm/php-css-parser </a>
+      <a href="https://github.com/MyIntervals/PHP-CSS-Parser"> sabberworm/php-css-parser </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Parser voor CSS-bestanden geschreven in PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Seldaek/jsonlint.git"> seld/jsonlint </a>
+      <a href="https://github.com/Seldaek/jsonlint"> seld/jsonlint </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>JSON Linter</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Seldaek/phar-utils.git"> seld/phar-utils </a>
+      <a href="https://github.com/Seldaek/phar-utils"> seld/phar-utils </a>
     </td>
-    <td>bibliotheek</td>
-    <td>PHAR bestandsformaat hulpprogramma's, voor wanneer PHP je opvoert</td>
+    <td>Bibliotheek</td>
+    <td>Hulpprogramma's voor PHAR-bestandsindelingen, bijvoorbeeld wanneer PHP je opbelt</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Seldaek/signal-handler.git">seld/sein-handler</a>
+      <a href="https://github.com/Seldaek/signal-handler"> geselecteerd/signaal-manager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Eenvoudige unix signaalmanager die ongemerkt ontbreekt waar de signalen niet voor gemakkelijke dwars-platformontwikkeling worden gesteund</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Spomky-Labs/aes-key-wrap.git"> spomky-labs/aes-key-wrap </a>
+      <a href="https://github.com/Spomky-Labs/aes-key-wrap"> spomky-labs/aes-key-wrap </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>AES Key Wrap voor PHP.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Spomky-Labs/otphp.git"> spomky-labs/otphp </a>
+      <a href="https://github.com/Spomky-Labs/otphp"> spomky-labs/otphp </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP bibliotheek voor het produceren van één tijdwachtwoorden volgens RFC 4226 (het Algoritme van HOTP) en RFC 6238 (TOTP Algorithm) en compatibel met de Authenticator van Google</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Spomky-Labs/pki-framework.git"> spomky-labs/pki-kader </a>
+      <a href="https://github.com/Spomky-Labs/pki-framework"> spomky-labs/pki-kader </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-framework voor het beheren van infrastructuur voor openbare sleutels. Het omvat X.509 openbare zeer belangrijke certificaten, attributencertificaten, certificatieverzoeken en certificatiewegbevestiging.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/config.git"> symfony/config </a>
+      <a href="https://github.com/symfony/config"> symfony/config </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Helpt u configuratiewaarden van om het even welke aard te vinden, te laden, te combineren, automatisch te vullen en te bevestigen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/console.git"> symfony/console </a>
+      <a href="https://github.com/symfony/console"> symfony/console </a>
     </td>
-    <td>bibliotheek</td>
-    <td>Vereenvoudigt het maken van mooie en testbare opdrachtregelinterfaces</td>
+    <td>Bibliotheek</td>
+    <td>Versnelt het creëren van mooie en testable bevellijninterfaces</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/css-selector.git"> symfony/css-selector </a>
+      <a href="https://github.com/symfony/css-selector"> symfony/css-selector </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee converteert u CSS-kiezers naar XPath-expressies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/dependency-injection.git"> symfony/afhankelijkheid-injectie </a>
+      <a href="https://github.com/symfony/dependency-injection"> symfony/afhankelijkheid-injectie </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee kunt u de manier waarop objecten in uw toepassing worden gemaakt standaardiseren en centraliseren</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/deprecation-contracts.git"> symfony/deprecation-Contracten </a>
+      <a href="https://github.com/symfony/deprecation-contracts"> symfony/deprecation-Contracten </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een algemene functie en conventie voor het activeren van plaatsingsberichten</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/error-handler.git"> symfony/fout-manager </a>
+      <a href="https://github.com/symfony/error-handler"> symfony/fout-manager </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt tools om fouten te beheren en foutopsporing in PHP-code te vereenvoudigen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/event-dispatcher.git"> symfony/event-dispatcher </a>
+      <a href="https://github.com/symfony/event-dispatcher"> symfony/event-dispatcher </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Verstrekt hulpmiddelen die uw toepassingscomponenten toestaan om met elkaar te communiceren door gebeurtenissen te verzenden en aan hen te luisteren</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/event-dispatcher-contracts.git"> symfony/event-dispatcher-Contracts </a>
+      <a href="https://github.com/symfony/event-dispatcher-contracts"> symfony/event-dispatcher-Contracts </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene abstracties met betrekking tot verzendgebeurtenis</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/filesystem.git"> symfony/filesystem </a>
+      <a href="https://github.com/symfony/filesystem"> symfony/filesystem </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt basisfuncties voor het bestandssysteem</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/finder.git"> symfony/vinder </a>
+      <a href="https://github.com/symfony/finder"> symfony/vinder </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee zoekt u bestanden en mappen via een intuïtieve fluent-interface</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/http-client.git"> symfony/http-client </a>
+      <a href="https://github.com/symfony/http-client"> symfony/http-client </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt krachtige methoden om HTTP-bronnen synchroon of asynchroon op te halen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/http-client-contracts.git"> symfony/http-client-Contracts </a>
+      <a href="https://github.com/symfony/http-client-contracts"> symfony/http-client-Contracts </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene abstracties met betrekking tot HTTP-clients</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/http-foundation.git"> symfony/http-foundation </a>
+      <a href="https://github.com/symfony/http-foundation"> symfony/http-foundation </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Definieert een objectgeoriënteerde laag voor de HTTP-specificatie</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/http-kernel.git"> symfony/http-kernel </a>
+      <a href="https://github.com/symfony/http-kernel"> symfony/http-kernel </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Verstrekt een gestructureerd proces om een Verzoek in een Reactie om te zetten</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/intl.git"> symfony/intl </a>
+      <a href="https://github.com/symfony/intl"> symfony/intl </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Verleent toegang tot de localisatiegegevens van de bibliotheek ICU</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/mailer.git"> symfony/mailer </a>
+      <a href="https://github.com/symfony/mailer"> symfony/mailer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hulp bij het verzenden van e-mails</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/mime.git"> symfony/mime </a>
+      <a href="https://github.com/symfony/mime"> symfony/mime </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>MIME-berichten kunnen worden bewerkt</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-ctype.git"> symfony/polyfill-type </a>
+      <a href="https://github.com/symfony/polyfill-ctype"> symfony/polyfill-type </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill voor tekstfuncties</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-intl-grapheme.git"> symfony/polyfill-intl-grapheme </a>
+      <a href="https://github.com/symfony/polyfill-intl-grapheme"> symfony/polyfill-intl-grapheme </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill voor de functies grapheme_* van intl</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-intl-idn.git"> symfony/polyfill-intl-idn </a>
+      <a href="https://github.com/symfony/polyfill-intl-idn"> symfony/polyfill-intl-idn </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill voor de functies idn_to_ascii en idn_to_utf8</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-intl-normalizer.git"> symfony/polyfill-intl-normalizer </a>
+      <a href="https://github.com/symfony/polyfill-intl-normalizer"> symfony/polyfill-intl-normalizer </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill voor de klasse Normalizer van intl en verwante functies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-mbstring.git"> symfony/polyfill-mbstring </a>
+      <a href="https://github.com/symfony/polyfill-mbstring"> symfony/polyfill-mbstring </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill voor de extensie Mbstring</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php73.git"> symfony/polyfill-php73 </a>
+      <a href="https://github.com/symfony/polyfill-php73"> symfony/polyfill-php73 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill geeft een aantal functies van PHP 7.3+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php80.git"> symfony/polyfill-php80 </a>
+      <a href="https://github.com/symfony/polyfill-php80"> symfony/polyfill-php80 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill geeft een aantal functies van PHP 8.0+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php81.git"> symfony/polyfill-php81 </a>
+      <a href="https://github.com/symfony/polyfill-php81"> symfony/polyfill-php81 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill geeft een aantal functies van PHP 8.1+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php82.git"> symfony/polyfill-php82 </a>
+      <a href="https://github.com/symfony/polyfill-php82"> symfony/polyfill-php82 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill geeft een aantal functies van PHP 8.2+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php83.git"> symfony/polyfill-php83 </a>
+      <a href="https://github.com/symfony/polyfill-php83"> symfony/polyfill-php83 </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Symfony polyfill geeft een aantal functies van PHP 8.3+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/process.git"> symfony/proces </a>
+      <a href="https://github.com/symfony/process"> symfony/proces </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee voert u opdrachten uit in subprocessen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/service-contracts.git"> symfony/dienst-contracten </a>
+      <a href="https://github.com/symfony/service-contracts"> symfony/dienst-contracten </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Algemene abstracties met betrekking tot schrijfdiensten</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/string.git"> symfony/koord </a>
+      <a href="https://github.com/symfony/string"> symfony/koord </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt een objectgeoriënteerde API voor tekenreeksen en behandelt bytes, UTF-8-codepunten en grafeemclusters op een uniforme manier</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/var-dumper.git"> symfony/var-dumper </a>
+      <a href="https://github.com/symfony/var-dumper"> symfony/var-dumper </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Biedt mechanismen om willekeurige PHP variabelen te doorlopen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/var-exporter.git"> symfony/var-exporter </a>
+      <a href="https://github.com/symfony/var-exporter"> symfony/var-exporter </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Hiermee wordt het exporteren van eventuele serialiseerbare PHP-gegevensstructuur naar normale PHP-code toegestaan</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/yaml.git"> symfony/yaml </a>
+      <a href="https://github.com/symfony/yaml"> symfony/yaml </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>YAML-bestanden laden en dumpen</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/web-token/jwt-framework.git"> web-token/jwt-framework </a>
+      <a href="https://github.com/web-token/jwt-framework"> web-token/jwt-framework </a>
     </td>
-    <td>symfony-bundel</td>
-    <td>JSON Object Signing en Encryption bibliotheek voor PHP en Symfony Bundle.</td>
+    <td>Symfony-bundle</td>
+    <td>JSON Object Signing and Encryption library for PHP and Symfony Bundle.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/webonyx/graphql-php.git"> webonyx/graphql-php </a>
+      <a href="https://github.com/webonyx/graphql-php"> webonyx/graphql-php </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>Een PHP-poort van GraphQL referentie-implementatie</td>
   </tr>
   </tbody>
@@ -1250,28 +1248,28 @@ magento/security-package-b2b: 1.0.6
   </tr>
   <tr>
     <td>
-      PayPal/module-braintree-cadeaubon
+      paypal/module-braintree-gift-card
     </td>
-    <td>magento2-module</td>
+    <td>Magento2-module</td>
     <td>NVT</td>
   </tr>
   <tr>
     <td>
       paypal/module-braintree-gift-card-account
     </td>
-    <td>magento2-module</td>
+    <td>Magento2-module</td>
     <td>NVT</td>
   </tr>
   <tr>
     <td>
       paypal/module-braintree-gift-wrapping
     </td>
-    <td>magento2-module</td>
+    <td>Magento2-module</td>
     <td>NVT</td>
   </tr>
   <tr>
     <td>
-      PayPal/module-braintree-graph-ql
+      paypal/module-braintree-graph-ql
     </td>
     <td>Magento2-module</td>
     <td>NVT</td>
@@ -1280,7 +1278,7 @@ magento/security-package-b2b: 1.0.6
     <td>
       paypal/module-braintree-promise
     </td>
-    <td>magento2-module</td>
+    <td>Magento2-module</td>
     <td>NVT</td>
   </tr>
   </tbody>
@@ -1313,9 +1311,9 @@ magento/security-package-b2b: 1.0.6
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/2tvenom/CBOREncode.git"> 2tvenom/cancode </a>
+      <a href="https://github.com/2tvenom/CBOREncode"> 2tvenom/cancode </a>
     </td>
-    <td>bibliotheek</td>
+    <td>Bibliotheek</td>
     <td>CBOR encoder voor PHP</td>
   </tr>
   </tbody>
