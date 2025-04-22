@@ -3,7 +3,7 @@ title: Naleving van Cookie-recht
 description: Om gelijke tred te houden met de wetgeving in veel landen inzake het gebruik van cookies, bieden Adobe Commerce en Magento Open Source handelaren een keuze aan methoden om toestemming van klanten te verkrijgen.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionalite
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [ documentatie van de Snowplow ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options) worden gevonden.
+- `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [ documentatie van de Snowplow ](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/) worden gevonden.
 - `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [ het Web SDK ](https://github.com/adobe/alloy) van de Legering.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
