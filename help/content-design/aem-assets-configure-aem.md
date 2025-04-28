@@ -3,9 +3,9 @@ title: AEM Assets-pakket installeren voor Commerce
 description: Voeg de metagegevens voor elementen toe die nodig zijn om de AEM Assets Integration voor Commerce in te schakelen voor het synchroniseren van elementen tussen Adobe Commerce- en Experience Manager Assets-projecten.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De sjabloon voegt de volgende bronnen toe aan de AEM Assets-ontwerpomgeving.
 
   ![ Controle UI van de Gegevens van het Product van de Douane ](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Een metagegevensschema met een Commerce-tabblad dat de velden `Does it exist in Adobe Commerce?` en `Product Data` bevat voor het labelen van Commerce-elementen. Het formulier bevat ook opties voor het weergeven of verbergen van de velden `roles` en `order` (positie) in de gebruikersinterface van AEM Assets.
+- Een metagegevensschema met een Commerce-tabblad dat de velden `Eligible for Commerce?` en `Product Data` bevat voor het labelen van Commerce-elementen. Het formulier bevat ook opties voor het weergeven of verbergen van de velden `roles` en `order` (positie) in de gebruikersinterface van AEM Assets.
 
   ![ Commerce lusje voor de vorm van het de meta-gegevensschema van AEM Assets ](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken
 
 Stel in de AEM Assets-auteursomgeving standaardwaarden in voor metagegevens van Commerce-elementen door een metagegevensprofiel te maken. Pas vervolgens het nieuwe profiel toe op de mappen AEM Asset om deze standaardinstellingen automatisch te gebruiken. Deze configuratie stroomlijnt de verwerking van bedrijfsmiddelen door handmatige stappen te verminderen.
 
+Wanneer u het profiel van meta-gegevens vormt, moet u slechts de volgende componenten vormen:
+
+- Voeg een Commerce-tabblad toe. Op dit tabblad worden Commerce-specifieke configuratie-instellingen ingeschakeld die door de sjabloon worden toegevoegd
+- Voeg het veld `Eligible for Commerce` toe aan het tabblad Commerce.
+
+De UI-component Productgegevens wordt automatisch toegevoegd op basis van de sjabloon.
+
+### Het metagegevensprofiel instellen
+
 1. Meld u aan bij de Adobe Experience Manager-ontwikkelomgeving.
 
 1. Ga in de Adobe Experience Manager-werkruimte naar de werkruimte voor het beheer van inhoud van de auteur voor AEM Assets door op het Adobe Experience Manager-pictogram te klikken.
@@ -81,27 +90,41 @@ Stel in de AEM Assets-auteursomgeving standaardwaarden in voor metagegevens van 
 
    1. Klik op **[!UICONTROL +]** in de tabsectie en geef vervolgens de **[!UICONTROL Tab Name]** , `Commerce` op.
 
-1. Voeg het veld `Does it exist in Commerce?` toe aan het formulier en stel de standaardwaarde in op `yes` .
+1. Voeg het veld `Eligible for Commerce` toe aan het formulier.
 
    ![ Admin van de Auteur van AEM voegt meta-gegevensgebieden aan profiel toe ](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - Klik op **[!UICONTROL Build form]**.
+
+   - Sleep het veld `Single Line text` naar het formulier.
+
+   - Voeg de tekst `Eligible for Commerce` voor het label toe door op **[!UICONTROL Field Label]** te klikken.
+
+   - Voor het lusje van Montages, voeg de etikettekst aan **Etiket van het Gebied** toe.
+
+   - Stel de plaatsaanduidingstekst in op `yes` .
+
+   - Kopieer en plak in het veld **[!UICONTROL Map to Property]** de volgende waarde
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Optioneel. Als u goedgekeurde Commerce-elementen automatisch wilt synchroniseren terwijl deze naar de AEM Assets-omgeving worden geüpload, stelt u de standaardwaarde voor het veld _[!UICONTROL Review Status]_op de `Basic` tab in op `approved` .
+
 1. Sla de update op.
 
-1. Pas het metagegevensprofiel `Commerce integration` toe op de map waarin Commerce-elementen zijn opgeslagen.
+#### Het metagegevensprofiel toepassen op de bronmap van Commerce-elementen
 
-   1. Van de [!UICONTROL  Metadata Profiles] pagina, selecteer het de integratieprofiel van Commerce.
+1. Van de [!UICONTROL  Metadata Profiles] pagina, selecteer het de integratieprofiel van Commerce.
 
-   1. Selecteer **[!UICONTROL Apply Metadata Profiles to Folders]** in het menu Handeling.
+1. Selecteer **[!UICONTROL Apply Metadata Profiles to Folders]** in het menu Handeling.
 
-   1. Selecteer de map met Commerce-elementen.
+1. Selecteer de map met Commerce-elementen.
 
-      Maak een Commerce-map als deze niet bestaat.
+   Maak een Commerce-map als deze niet bestaat.
 
-   1. Klik op **[!UICONTROL Apply]**.
-
->[!TIP]
->
->U kunt Commerce-elementen tijdens het uploaden naar de AEM Assets-omgeving automatisch synchroniseren door het metagegevensprofiel bij te werken en de standaardwaarde voor het veld _[!UICONTROL Review Status]_in te stellen op `Approved` . Het eigenschapstype voor het veld `Review Status` is `./jcr:content/metadata/dam:status` .
+1. Klik op **[!UICONTROL Apply]**.
 
 ## Volgende stap
 
