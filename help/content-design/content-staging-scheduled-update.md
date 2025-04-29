@@ -3,9 +3,10 @@ title: Een inhoudsupdate plannen
 description: Bekijk dit campagnevoorbeeld dat wordt gebruikt om een tijdelijke prijswijziging voor een product te plannen.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -14,10 +15,10 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een product kunt plannen. Dit omvat het plannen en voorvertonen van wijzigingen en het weergeven van geplande updates in de kalender. Hoewel dit voorbeeld slechts één wijziging omvat, kan een campagne meerdere veranderingen in producten, prijsregels, CMS-pagina&#39;s, en andere entiteiten omvatten die tezelfdertijd moeten plaatsvinden. Volg een vergelijkbare methode om de datum van/tot voor het kenmerk [!UICONTROL Set Product As New] op te geven.
+In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een product kunt plannen. Dit omvat het plannen en voorvertonen van wijzigingen en het weergeven van geplande updates in de kalender. Hoewel dit voorbeeld slechts één wijziging bevat, kan een campagne meerdere wijzigingen in producten, prijsregels, CMS-pagina&#39;s en andere entiteiten bevatten die op hetzelfde moment moeten plaatsvinden. Volg een vergelijkbare methode om de datum van/tot voor het kenmerk [!UICONTROL Set Product As New] op te geven.
 
 >[!NOTE]
->U moet een geplande update maken om een begin- (en einddatum) voor [!UICONTROL Set Product As New] op te geven. Voor [!UICONTROL Special Price] en [!UICONTROL Design Change] worden de van/tot datumvelden verwijderd uit Adobe Commerce en alleen beschikbaar in Magento Open Source.
+>U moet een geplande update maken om een begin- (en einddatum) voor [!UICONTROL Set Product As New] op te geven. Voor [!UICONTROL Special Price] en [!UICONTROL Design Change] worden de van/tot-datumvelden verwijderd uit Adobe Commerce en alleen beschikbaar in Magento Open Source.
 >
 >Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
