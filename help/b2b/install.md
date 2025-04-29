@@ -4,9 +4,10 @@ description: Leer hoe te om het  [!DNL Adobe Commerce B2B]  metapakket te instal
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,9 @@ Installeer de B2B-extensie (`magento/b2b-extension`) met behulp van Composer. De
 
 >[!TIP]
 >
->Wanneer u Adobe Commerce B2B installeert op cloudinfrastructuur, wordt u aangeraden uw Adobe Commerce-toepassing vóór het begin te implementeren in een integratie- of staging-omgeving.
+>Wanneer u Adobe Commerce B2B installeert op de cloudinfrastructuur, raadt Adobe u aan uw Adobe Commerce-toepassing te implementeren in een integratie- of staging-omgeving voordat u begint.
 
-De Adobe adviseert werkend in een ontwikkelingstak wanneer het toevoegen van de B2B uitbreiding aan uw project. Als u geen tak hebt, zie [ een tak voor ontwikkeling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) creëren. Wanneer u de B2B-extensie installeert, wordt de extensienaam `Magento_B2b` automatisch ingevoegd in het `app/etc/config.php` -bestand. U hoeft het bestand niet rechtstreeks te bewerken.
+Adobe raadt u aan in een ontwikkelingsvertakking te werken wanneer u de B2B-extensie aan uw project toevoegt. Als u geen tak hebt, zie [ een tak voor ontwikkeling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) creëren. Wanneer u de B2B-extensie installeert, wordt de extensienaam `Magento_B2b` automatisch ingevoegd in het `app/etc/config.php` -bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
 **om de B2B uitbreiding** te installeren:
 
@@ -185,7 +186,7 @@ De Adobe Commerce B2B-extensie gebruikt MySQL voor het beheer van de wachtrij me
 
 Verhinder mogelijke verwerkingskwesties of vertragingen door de volgende parameters toe te voegen wanneer u [ de berichtconsumenten ](#start-message-consumers) voor B2B mogelijkheden begint.
 
-- `--max-messages <value>`— Geeft het maximumaantal berichten op dat elke consument moet verwerken voordat deze wordt beëindigd (standaard = 10000). Hoewel de Adobe het niet adviseert, kunt u 0 gebruiken om de consument te verhinderen te eindigen. De beste manier voor een PHP-toepassing is om langlopende processen opnieuw te starten om mogelijke geheugenlekken te voorkomen.
+- `--max-messages <value>`— Geeft het maximumaantal berichten op dat elke consument moet verwerken voordat deze wordt beëindigd (standaard = 10000). Hoewel Adobe dit niet aanbeveelt, kunt u 0 gebruiken om te voorkomen dat de consument wordt beëindigd. De beste manier voor een PHP-toepassing is om langlopende processen opnieuw te starten om mogelijke geheugenlekken te voorkomen.
 
 - `--batch-size <value>`— Hiermee kunt u de systeembronnen beperken die door de consument worden verbruikt (CPU, geheugen). Het gebruik van kleinere batches verlaagt het gebruik van bronnen en leidt dus tot een langzamere verwerking.  Indien opgegeven, worden berichten in een wachtrij in batches van `<value>` elk gebruikt. Deze optie is alleen van toepassing op de batchconsument. Als `--batch-size` niet wordt bepaald, ontvangt de partijconsument alle beschikbare berichten in een rij.
 
