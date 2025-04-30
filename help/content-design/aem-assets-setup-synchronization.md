@@ -3,9 +3,9 @@ title: De integratie configureren
 description: Leer hoe u uw Adobe Commerce- en Experience Manager Assets-projecten kunt verbinden om de synchronisatie van bedrijfsmiddelen tussen deze twee systemen mogelijk te maken.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
+source-git-commit: f01ba239d885d96285186e35361a8d40f2f68e4e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 - Maak een ondersteuningsticket voor de AEM Assets for Commerce Integration. Neem in het ticket de **[!UICONTROL Program ID]** , **[!UICONTROL Environment ID]** en **[!UICONTROL IMS Org ID]** op voor de AEM Assets-ontwerpomgeving die u met Commerce wilt verbinden.
 
-  >[!TIP]
-  >
-  > (Optioneel) Geef de **[!UICONTROL Asset Selector IMS Client ID]** op, indien beschikbaar. Zie [ ImsAuthProps ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in de *3} documentatie van de Selecteur van AEM Assets.*
+- Geef de **[!UICONTROL Asset Selector IMS Client ID]** op. Zie [ ImsAuthProps ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in de *3} documentatie van de Selecteur van AEM Assets.*
 
 ## De verbinding configureren
 
@@ -51,7 +49,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
    Bewerk de configuratiewaarden door de selectie uit *[!UICONTROL Use system value]* te verwijderen.
 
-1. Voer de **[!UICONTROL Asset Selector IMS Client ID]** in, indien beschikbaar.
+1. Voer de **[!UICONTROL Asset Selector IMS Client ID]** in.
 
    De [ identiteitskaart van de Cliënt IMS van de Selecteur van Activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) wordt vereist door [!UICONTROL Assets Selector], een eigenschap van AEM Assets die gebruikers toestaat om visuele activa direct in de productpagina&#39;s van Commerce in te bedden.
 
@@ -73,7 +71,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 ### De URL van het aangepaste domein configureren
 
-Als een handelaar de Naam van het Domein van de a [ Douane ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name) {target=_blank} in hun dashboard van AEM plaatst, is het noodzakelijk om dit **Domein URL van de Douane** in Commerce toe te voegen, zodat kan de integratie van AEM Assets het gebruiken.
+Als een handelaar a [ Naam van het Domein van de Douane ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} in hun dashboard van AEM plaatst, is het noodzakelijk om dit **Domein URL van de Douane** in Commerce toe te voegen, zodat kan de integratie van AEM Assets het gebruiken.
 
 1. Navigeer naar **[!UICONTROL Store]** > Configuratie > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]** .
 

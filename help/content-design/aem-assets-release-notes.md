@@ -2,13 +2,13 @@
 title: Opmerkingen bij de release AEM Assets Integration for Commerce
 description: Raadpleeg de releaseopmerkingen voor informatie over alle AEM Assets Integration-releases.
 feature: CMS, Media, Release Notes
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
+source-git-commit: b104e504eea70d931233a880c2d52043d48346c5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release AEM Assets Integration for Commerce
 
@@ -34,10 +34,28 @@ _11 Februari, 2025_
 
 +++
 
+## v1.1.0
+
+_23 April, 2025_
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+
+![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-955 --> nu, a [ Douane URL van het Domein van de Douane ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) kan in plaats van de Levering URL van AEM worden gebruikt. Als een handelaar a **Naam van het Domein van de Douane** in hun dashboard van AEM plaatst, is het noodzakelijk om dit **Domein URL van de Douane** in Commerce toe te voegen.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- Issue ACAP-987 --> Verbeterde algemene logboeken voor de synchronisatieprocessen van AEM Assets.
+
+## v1.0.22
+
+_Maart 12, 2025_
+
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+
+![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-xx --> nu, wordt identiteitskaart van de Cliënt IMS van de selecteur van Assets [ ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization) vereist door de Selecteur van Assets om afbeelding van AEM Assets met productcategorieën en de Bouwer van de Pagina toe te laten geproduceerde inhoud.
+
 ## v1.0.20
 
 _11 Februari, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
 
-![ Nieuwe ](../assets/new.svg) Algemene beschikbaarheidsversie.
+![ Nieuwe ](../assets/new.svg)<!-- Issue ACAP-xx --> Algemene beschikbaarheidsversie.
