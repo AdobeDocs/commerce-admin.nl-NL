@@ -3,9 +3,10 @@ title: URL herschrijft
 description: Meer informatie over het herschrijven van URL's vindt u met het gereedschap URL herschrijven van Commerce om URL's te wijzigen die zijn gekoppeld aan een product, categorie of CMS-pagina.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -74,7 +75,7 @@ URL met herschrijven van webserver
 
 Met het gereedschap URL-herschrijven kunt u product- en categorieherschrijvingen maken en aangepaste herschrijvingen maken voor elke pagina in uw winkel. Wanneer het herschrijven van kracht wordt, worden om het even welke bestaande verbindingen die aan vorige URL richten naadloos opnieuw gericht aan het nieuwe adres.
 
-URL herschrijft kan worden gebruikt om high-value sleutelwoorden toe te voegen om de manier te verbeteren het product door onderzoeksmotoren wordt geïndexeerd. U kunt ook Herschrijvingen gebruiken om extra URL&#39;s te maken voor een tijdelijke seizoenswijziging of permanente wijziging. Herschrijvingen kunnen worden gemaakt voor elk geldig pad, inclusief pagina&#39;s met CMS-inhoud. Intern verwijst het systeem altijd naar producten en categorieën op basis van hun id. Hoe vaak de URL verandert, de id blijft ongewijzigd. Hier volgen enkele manieren waarop u URL&#39;s kunt herschrijven:
+URL herschrijft kan worden gebruikt om high-value sleutelwoorden toe te voegen om de manier te verbeteren het product door onderzoeksmotoren wordt geïndexeerd. U kunt ook Herschrijvingen gebruiken om extra URL&#39;s te maken voor een tijdelijke seizoenswijziging of permanente wijziging. Herschrijvingen kunnen worden gemaakt voor elk geldig pad, inclusief CMS-inhoudspagina&#39;s. Intern verwijst het systeem altijd naar producten en categorieën op basis van hun id. Hoe vaak de URL verandert, de id blijft ongewijzigd. Hier volgen enkele manieren waarop u URL&#39;s kunt herschrijven:
 
 Systeem-URL
 
@@ -99,7 +100,7 @@ Commerce biedt de volgende URL-herschrijftypen aan:
 
 * [Productherschrijvingen](url-rewrite-product.md)
 * [Nieuwe categorie](url-rewrite-category.md)
-* [CMS-pagina herschrijft](url-rewrite-cms-page.md)
+* [CMS Page Rewrites](url-rewrite-cms-page.md)
 * [Aangepaste herschrijvingen](url-rewrite-custom.md)
 
 ## URL herschrijft demo

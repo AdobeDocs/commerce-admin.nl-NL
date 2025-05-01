@@ -3,9 +3,10 @@ title: URL van inhoudspagina herschrijft
 description: Leer hoe u URL van inhoudspagina gebruikt om koppelingen om te leiden naar de URL van een andere inhoudspagina in uw Commerce-winkel.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Voordat u begint, moet u controleren of u precies begrijpt wat omleiding precies inhoudt. Denk in termen van _doel_ / _bron_ of _opnieuw richt aan_ / _opnieuw richt van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
 
-![ URL herschrijft - CMS pagina ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![ URL herschrijft - de pagina van CMS ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Stap 1. Herschrijven plannen
 
@@ -48,7 +49,7 @@ Omleiden vanaf: `old-page`
 
 1. Zoek de nieuwe doelpagina in het raster en open de bewerkingsmodus.
 
-   ![ voeg URL toe herschrijft - voor CMS pagina ](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![ voeg URL toe herschrijft - voor de pagina van CMS ](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Voer onder Informatie voor herschrijven van URL de volgende handelingen uit:
 

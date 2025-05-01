@@ -1,26 +1,27 @@
 ---
 title: Automatische omleidingen
-description: Meer informatie over het configureren van automatische omleidingen die worden gegenereerd wanneer de URL-sleutel van een product of categorie wordt gewijzigd in uw Commerce-winkel.
+description: Leer hoe u automatische omleidingen configureert die worden gegenereerd wanneer de URL-sleutel van een product of categorie wordt gewijzigd in uw Commerce-winkel.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # Automatische omleidingen
 
-Je winkel kan worden geconfigureerd om automatisch een permanente omleiding te genereren wanneer de URL-sleutel van een product of categorie verandert. In het gedeelte Zoekmachineoptimalisatie geeft het selectievakje onder de URL-sleutel aan of permanente omleidingen zijn ingeschakeld. Als uw winkel al is geconfigureerd om catalogus-URL&#39;s automatisch om te leiden, is omleiding een eenvoudige update van de URL-sleutel. Het proces voor het maken van een automatische omleiding is hetzelfde voor zowel producten als categorieën.
+Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding wordt gegenereerd wanneer de URL-sleutel van een product of categorie verandert. In de sectie van de Optimalisering van de Motor van het Onderzoek, checkbox onder de sleutel URL wijst op als de permanente omleidingen worden toegelaten. Als uw winkel al is geconfigureerd om catalogus-URL&#39;s automatisch om te leiden, is omleiding een eenvoudige update van de URL-sleutel. Het proces voor het maken van automatische omleiding is hetzelfde voor zowel producten als categorieën.
 
 >[!NOTE]
 >
->Wanneer automatische omleidingen zijn ingeschakeld en u een categorie opslaat, worden alle herschrijvingen van producten en categorieën in realtime gegenereerd en standaard opgeslagen in databasetabellen. Dit kan leiden tot aanzienlijke prestatieproblemen voor categorieën waaraan veel producten zijn toegewezen. De oplossing is om deze standaard te wijzigen en het genereren van URL-herschrijvingen van categorieën/producten voor producten op categorie Save over te slaan. In dit geval worden productherschrijvingen alleen gegenereerd voor de canonieke product-URL.
+>Wanneer automatische omleidingen zijn ingeschakeld en u een categorie opslaat, worden alle product- en categorieherschrijvingen in real-time gegenereerd en standaard in databasetabellen opgeslagen. Dit kan leiden tot aanzienlijke prestatieproblemen voor categorieën met veel toegewezen producten. De oplossing is om deze standaard te wijzigen en het genereren van een categorie/producten-URL voor herschrijvingen van producten op de categorie Opslaan over te slaan. In dit geval worden herschrijfbewerkingen van het product alleen gegenereerd voor de URL van het canonieke product.
 
 ## Automatische omleidingen instellen
 
-1. Ga in de _zijbalk voor beheerders_ naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
@@ -45,27 +46,27 @@ Je winkel kan worden geconfigureerd om automatisch een permanente omleiding te g
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![Productzoekmachineoptimalisatie - permanente redirect](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![ de optimalisering van het het onderzoekscentrum van het Product - permanent opnieuw richt ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
-1. Ga als **[!UICONTROL URL Key]** volgt te werk:
+1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
-   - Zorg ervoor dat het **[!UICONTROL Create Permanent Redirect for old URL]** selectievakje is ingeschakeld. Als dit niet het geval is, volgt u de instructies om automatische omleidingen](url-rewrite.md#configure-url-rewrites) in te [schakelen.
+   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [ toe te laten automatisch opnieuw richt ](url-rewrite.md#configure-url-rewrites).
 
    - Werk **[!UICONTROL URL Key]** zo nodig bij met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-1. Wanneer u wordt gevraagd om de cache te vernieuwen, volgt u de koppelingen in het bericht boven aan de werkruimte.
+1. Wanneer ertoe aangezet om het geheime voorgeheugen te verfrissen, volg de verbindingen in het bericht bij de bovenkant van de werkruimte.
 
-   De permanente omleiding is nu van kracht voor het product en alle bijbehorende categorie-URL&#39;s.
+   De permanente omleiding is nu van kracht voor het product en om het even welke bijbehorende categorie URLs.
 
-## Categorie-URL&#39;s automatisch omleiden
+## Categorie-URL&#39;s automatisch doorsturen
 
-1. Ga in de _zijbalk voor beheerders_ naar **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Zoek de categorie in de boom en klik om het record te openen.
+1. Zoek de categorie in de structuur en klik om de record te openen.
 
-1. Vouw de uitbreidingskiezer de](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** sectie uit![.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
 1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
@@ -89,11 +90,11 @@ Je winkel kan worden geconfigureerd om automatisch een permanente omleiding te g
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Vouw de uitbreidingskiezer de](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** sectie uit![.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-1. Stel in **[!UICONTROL Generate "category/product" URL Rewrites]** op `No`.
+1. Stel **[!UICONTROL Generate "category/product" URL Rewrites]** in op `No` .
 
-1. Klik in het bevestigingsvenster om **[!UICONTROL OK]** de wijziging en de verwijdering van bestaande URL-herschrijvingen te bevestigen.
+1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL OK]** om de wijziging te bevestigen en de bestaande URL te verwijderen.
 
    ![ Draai van categorie/productURL herschrijft - bevestigt ](./assets/seo-rewrite-off.png){width="350"}
 

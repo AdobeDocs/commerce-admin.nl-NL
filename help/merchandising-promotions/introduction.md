@@ -2,9 +2,9 @@
 title: Inleiding tot verkoop en promoties in Commerce
 description: Ontdek hoe u Commerce-tools gebruikt voor het maken van gerichte promoties en kansen om klantenbinding te bevorderen.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klante
 
 _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [ op categorie-gebaseerde navigatie ](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
 
-- [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
+- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
 
 - [ Cadeauregisters ](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
 
@@ -27,7 +27,7 @@ _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en 
 
 >[!TIP]
 >
->Om over de Aanbevelingen van het Product te leren en hoe zij u het inzicht en de controle kunnen geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Om over de Aanbevelingen van het Product te leren en hoe zij u de insight kunnen geven en u te controleren moet tot de beste ervaring voor uw kopers leiden, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Aanbiedingen
 
