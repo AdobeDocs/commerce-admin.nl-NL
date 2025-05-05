@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u het inzicht en de controle kan geven u de beste ervaring voor uw kopers moet creëren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+>Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u het inzicht en de controle kan geven u de beste ervaring voor uw kopers moet creëren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
 
 {{config}}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ Merchant Plaats ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ De volgende betalingsoplossingen worden aanbevolen als een gemakkelijke manier v
 ><br/>
 >**Amazon betaalt** en **Klarna**: Adobe Commerce en Magento Open Source geeft 2.4.0 door 2.4.3 omvat deze leverancier-ontwikkelde uitbreidingen. Vanaf de release 2.4.4 worden deze extensies niet meer gebundeld met de kernversie en moeten ze vanaf de Commerce Marketplace worden geïnstalleerd en bijgewerkt. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br/>
->Als u een van deze gebundelde extensies hebt ingeschakeld en geconfigureerd, moet u het `composer.json` -bestand bijwerken als onderdeel van het upgradeproces 2.4.4 en de extensies verder beheren. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.<br/>
+>Als u een van deze gebundelde extensies hebt ingeschakeld en geconfigureerd, moet u het `composer.json` -bestand bijwerken als onderdeel van het upgradeproces 2.4.4 en de extensies verder beheren. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.<br/>
 ><br/>
 >**Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445) {:target="_blank"}.
 
@@ -71,7 +71,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Controle/Geldorde ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Betaling van de Overdracht van de Bank ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ![ Betaling op Rekening ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

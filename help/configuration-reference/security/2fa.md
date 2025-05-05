@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Voor opslagruimten die verificatie met Adobe Identity Management Services (IMS) hebben ingeschakeld, zijn native Adobe Commerce- en Magento Open Source-verificatie met twee factoren (2FA) uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Adobe Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Voor opslagruimten die verificatie met Adobe Identity Management Services (IMS) hebben ingeschakeld, zijn native Adobe Commerce- en Magento Open Source-verificatie met twee factoren (2FA) uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Adobe Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
 
 {{config}}
 

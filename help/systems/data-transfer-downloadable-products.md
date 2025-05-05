@@ -26,4 +26,4 @@ Het CSV-bestand heeft aparte kolommen voor `downloadable_links` en `downloadable
 
   ![ gegevens van het Voorbeeld - downloadbaar product met downloadbare steekproeven ](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-Voor meer informatie over het toelaten van en het beheren van de verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in de _gids van de Configuratie_ vormen.
+Voor meer informatie over het toelaten van en het beheren van de verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=nl-NL) in de _gids van de Configuratie_ vormen.

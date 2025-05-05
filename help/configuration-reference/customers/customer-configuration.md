@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ de Opties van het Delen van de Rekening ](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![ Online Klantenopties ](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![ creeer de Nieuwe Opties van de Rekening (de Velden van BTW) ](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![ Opties van het Wachtwoord ](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ![ Naam en de Opties van het Adres - Open Source ](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![ de Opties van de Naam en van het Adres - Commerce ](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![ de Kredietopties van de Opslag ](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![ Login Opties ](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ![ Malplaatjes van het Adres ](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | Sjabloon | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 ![ Segmenten van de Klant ](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | Sjabloon | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 ![ CAPTCHA ](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Website | Hiermee schakelt u CAPTCHA in de winkels in die bij de Commerce-website horen. Opties: `Yes` / `No` |
 | [!UICONTROL Font] | Website | Bepaalt het lettertype dat wordt gebruikt om de CAPTCHA weer te geven. Als u uw eigen lettertype wilt toevoegen, plaatst u het lettertypebestand in dezelfde map als de Commerce-installatie en voegt u de declaratie toe aan het `config.xml` -bestand op `app/code/Magento/Captcha/etc` . |
-| [!UICONTROL Forms] | Website | Hiermee bepaalt u de formulieren waarin CAPTCHA wordt gebruikt. Opties: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br />`Create company` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Create Gebruiker, het Wachtwoord van het Forgot Pro vormen zijn altijd ingeschakeld wanneer deze optie is geselecteerd. |
+| [!UICONTROL Forms] | Website | Hiermee bepaalt u de formulieren waarin CAPTCHA wordt gebruikt. Opties: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL)) <br />`Add Gift Card Code` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br />`Create company` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Create Gebruiker, het Wachtwoord van het Forgot Pro vormen zijn altijd ingeschakeld wanneer deze optie is geselecteerd. |
 | [!UICONTROL Displaying Mode] | Website | Hiermee bepaalt u wanneer de CAPTCHA wordt weergegeven. Opties: <br/>**`Always`**- CAPTCHA is altijd vereist om u aan te melden.<br/>**`After number of attempts to login`** - Deze optie is alleen van toepassing op het aanmeldingsformulier voor de beheerder. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde `0` (nul) komt overeen met het instellen van [!UICONTROL Displaying Mode] op `Always` .<br/>_&#x200B;**Nota:**&#x200B;_om het aantal mislukte login pogingen te volgen, wordt elke poging aan login onder één e-mailadres en van één IP-adres geteld. Het maximumaantal login pogingen die van het zelfde IP-adres worden toegestaan is 1.000. Deze beperking is alleen van toepassing wanneer CAPTCHA is ingeschakeld. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Website | Hier geeft u op hoe vaak een klant zich kan aanmelden voordat de account is vergrendeld. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Website | Bepaalt de levensduur van de huidige CAPTCHA. Wanneer de CAPTCHA verloopt, moet de gebruiker de pagina opnieuw laden. |

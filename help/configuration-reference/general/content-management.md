@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ de Opties van WYSIWYG ](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![ de Hiërarchie van de Pagina van CMS ](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![ Geavanceerde Hulpmiddelen van de Inhoud ](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

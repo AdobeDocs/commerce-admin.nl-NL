@@ -188,7 +188,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Volledige pagi
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Algemeen | Bepaalt de toepassing die wordt gebruikt om het full-page geheime voorgeheugen te beheren. Opties: <br/>**`Built-in Application`**- Niet aanbevolen voor de productieomgeving.<br/>**`Varnish Caching`** - aanbevolen voor de productieomgeving. |
 | [!UICONTROL TTL for public content] | Algemeen | Bepaalt het leven van het openbare inhoudsgeheime voorgeheugen in seconden. Standaardwaarde: `120` |
-| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
+| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Algemeen | Specificeert de IP adressen die de configuratie van Varnish kunnen zuiveren om een config dossier te produceren. Scheid meerdere items met een komma. Standaardwaarde: `localhost` |
 | [!UICONTROL Backend host] | Algemeen | Specificeert de backendgastheer die config dossiers produceert. Standaardwaarde: `localhost` |
@@ -268,7 +268,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ![ Geavanceerde configuratie - het Beeld uploadt Configuratie ](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

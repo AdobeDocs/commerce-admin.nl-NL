@@ -142,4 +142,4 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL

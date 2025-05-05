@@ -64,7 +64,7 @@ Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, ma
 
 Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixatie of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
 
-Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in de _Gids van de Configuratie_.
+Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ![ Algemene configuratie - de zittingsbevestiging van het Web ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

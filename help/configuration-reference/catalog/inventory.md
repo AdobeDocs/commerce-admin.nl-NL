@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] voor Adobe Commerce en Magento Open Source biedt u de tools om uw productvoorraad te beheren. Handelaars met één winkel kunnen deze functies gebruiken om de verkoop en de verzending van goederen te voltooien. Voor meer informatie over deze eigenschappen en hoe u hen kunt gebruiken om voorraad in veelvoudige plaatsen te beheren, zie de [_[!DNL Inventory Management] Gids van de Gebruiker _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] voor Adobe Commerce en Magento Open Source biedt u de tools om uw productvoorraad te beheren. Handelaars met één winkel kunnen deze functies gebruiken om de verkoop en de verzending van goederen te voltooien. Voor meer informatie over deze eigenschappen en hoe u hen kunt gebruiken om voorraad in veelvoudige plaatsen te beheren, zie de [_[!DNL Inventory Management] Gids van de Gebruiker _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=nl-NL).
 
 ## [!UICONTROL Stock Options]
 
 ![ Opties van de Voorraad ](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![ Opties van de Voorraad van het Product ](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Algemeen | Hiermee bepaalt u of u de volledige voorraadcontrole gebruikt om de items in uw catalogus te beheren. Opties: <br/>**ja** - activeert volledige inventariscontrole om het aantal punten momenteel in voorraad te volgen. <br/>**Nr** - volgt niet het aantal punten momenteel in voorraad. |
 | [!UICONTROL Backorders] | Algemeen | Hiermee bepaalt u hoe de winkel de achtergronden beheert. Een backorder verandert de verwerkingsstatus van de order niet. Geldmiddelen worden nog steeds onmiddellijk toegestaan of vastgelegd wanneer de bestelling wordt geplaatst, ongeacht of het product in voorraad is. Zodra het product beschikbaar is, wordt het verzonden. Opties: <br/>**Geen Achterorden** - keurt geen achterorden goed wanneer het product uit voorraad is. <br/>**staat Aantal onder 0** toe - keurt achterorden goed wanneer de hoeveelheid onder nul daalt. <br/>**staat Aantal onder 0 toe en deelt Klant** mee - keurt backorders goed wanneer het aantal onder nul daalt, maar deelt klanten mee dat de orden nog kunnen worden geplaatst. |
-| [!UICONTROL Use deferred Stock update] | Algemeen | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of om voorraadupdate uit te stellen als de achterorden worden toegestaan (de _Achterorden_ optie wordt geplaatst aan om het even wat naast de `No backorders` standaardwaarde). Het werkt voor één enkel product of een volledige website, en gebruikt het _mechanisme van de Rij van de 0&rbrace; Baan &lbrace;om de indicatoren van de inventarishoeveelheid toe te staan om asynchroon bij te werken nadat de orden worden geplaatst._ Deze optie werkt ook met [ Asynchrone ordeplaatsing ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) in combinatie met [ Inventory management ](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Algemeen | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of om voorraadupdate uit te stellen als de achterorden worden toegestaan (de _Achterorden_ optie wordt geplaatst aan om het even wat naast de `No backorders` standaardwaarde). Het werkt voor één enkel product of een volledige website, en gebruikt het _mechanisme van de Rij van de 0&rbrace; Baan &lbrace;om de indicatoren van de inventarishoeveelheid toe te staan om asynchroon bij te werken nadat de orden worden geplaatst._ Deze optie werkt ook met [ Asynchrone ordeplaatsing ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=nl-NL#asynchronous-order-placement) in combinatie met [ Inventory management ](../../inventory-management/introduction.md). |
 | Maximale toegestane hoeveelheid in winkelwagentje | Algemeen | Hiermee bepaalt u het maximumaantal producten dat in één bestelling kan worden aangeschaft. Standaard is de maximale hoeveelheid ingesteld op 10.000. |
 | [!UICONTROL Out-of-Stock Threshold] | Algemeen | Hiermee wordt bepaald op welk voorraadniveau een product als niet in voorraad wordt beschouwd. Opties: <br/>**Positieve hoeveelheid** - met _Gehandicapte Achterorden_, ga een positieve hoeveelheid in. Als Achterorden ingeschakeld, wordt deze hoeveelheid genegeerd. <br/>**Nul** - met _toegelaten Achterorden_, die `0` ingaan staat voor oneindige achterorden toe. <br/>**Negatieve hoeveelheid** - met _Toegelaten Achterorden_, adviseren wij het ingaan van een negatief bedrag. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld -50 in om bestellingen tot dit bedrag toe te staan. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Algemeen | Bepaalt het minimumbedrag van een punt dat voor aankoop volgens klantengroep beschikbaar is. Standaard is de minimale hoeveelheid ingesteld op 1. Klik op **[!UICONTROL Add Minimum Qty]** om een andere waarde voor een specifieke klantengroep in te voeren. |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![ BevestigingVerrichtingen van Admin ](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Om **asynchrone rijmanagers** te vormen en te steunen, moet u de bevellijn gebruiken. Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in de _Gids van de Configuratie_.
+>Om **asynchrone rijmanagers** te vormen en te steunen, moet u de bevellijn gebruiken. Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![ Leveranciers van de Afstand voor Afstand Gebaseerde SSA ](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![ Leverancier van de Afstand van Google ](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

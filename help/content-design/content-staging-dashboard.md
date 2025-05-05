@@ -3,7 +3,7 @@ title: Inhoudsopmaakdashboard
 description: Gebruik het dashboard voor de inhoudstaging voor toegang tot een overzicht van alle actieve en komende campagnes.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
 source-wordcount: '440'

@@ -35,11 +35,11 @@ De privé verkoop en andere catalogusgebeurtenissen zijn een grote manier om uw 
 
 ### [!UICONTROL Channels]
 
-De opbrengst van de verhoging door verkoop aan extra webstores met [ integratie van de Marketplace van Amazon uit te breiden ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html). Het submenu Kanalen wordt alleen weergegeven wanneer de Amazon-Sales Channel is geconfigureerd.
+De opbrengst van de verhoging door verkoop aan extra webstores met [ integratie van de Marketplace van Amazon uit te breiden ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=nl-NL). Het submenu Kanalen wordt alleen weergegeven wanneer de Amazon-Sales Channel is geconfigureerd.
 
 >[!TIP]
 >
->De Manager van het kanaal helpt verkopers verkoop verhogen, nieuwe klanten bereiken, verkoopverrichtingen stroomlijnen, en tijd besparen door een Adobe Commerce of Magento Open Source productcatalogus met de Marketplace van de Markt van de Markt te integreren. Zie de [_Gids van de Manager van het Kanaal_ ](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html) voor meer informatie over de installatie van de Manager van het Kanaal, onboarding, configuratie, en beheer.
+>De Manager van het kanaal helpt verkopers verkoop verhogen, nieuwe klanten bereiken, verkoopverrichtingen stroomlijnen, en tijd besparen door een Adobe Commerce of Magento Open Source productcatalogus met de Marketplace van de Markt van de Markt te integreren. Zie de [_Gids van de Manager van het Kanaal_ ](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=nl-NL) voor meer informatie over de installatie van de Manager van het Kanaal, onboarding, configuratie, en beheer.
 
 ### [!UICONTROL Communications]
 

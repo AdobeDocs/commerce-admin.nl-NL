@@ -187,5 +187,5 @@ Het vakje van het Onderzoek in het hogere linkerzijde van het net van Orden kan 
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met bestelproblemen:
 
-- [ de vertoningsfout van Orden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [ de vertoningsfout van Orden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=nl-NL)
 - [ de Orden worden niet getoond in het net van Orden in Admin ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

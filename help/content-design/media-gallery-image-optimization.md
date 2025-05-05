@@ -31,6 +31,6 @@ Wanneer de het beeldoptimaliseringsfunctionaliteit van de Galerij van Media word
 
 Wanneer de _Maximale waarden van de Breedte_ en _Maximale Hoogte_ in de configuratie worden veranderd, werkt het alle bestaande geoptimaliseerde beelden bij die eerder werden opgenomen.
 
-Voor de optimalisatie van afbeeldingen in de medialalerie is het vereist dat de gebruikers in de wachtrij van `media.gallery.renditions.update` de geoptimaliseerde afbeeldingen opnieuw genereren wanneer de configuratie wordt gewijzigd. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_ voor meer details.
+Voor de optimalisatie van afbeeldingen in de medialalerie is het vereist dat de gebruikers in de wachtrij van `media.gallery.renditions.update` de geoptimaliseerde afbeeldingen opnieuw genereren wanneer de configuratie wordt gewijzigd. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_ voor meer details.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

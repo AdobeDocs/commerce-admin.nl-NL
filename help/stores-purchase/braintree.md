@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pagina voor hulp.
+>Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/nl/manage-account/using/cancel-subscription.html) pagina voor hulp.
 
 Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie. Deze biedt ondersteuning voor [!DNL Apple Pay] -, [!DNL Google Pay] -, ACH-, Venmo- en lokale betalingsmethoden. Braintree vermindert de PCI-nalevingslast voor handelaren omdat de transactie plaatsvindt op het Braintree-systeem. De integratie van de Betalingen van Braintree wordt ontwikkeld door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/).
 

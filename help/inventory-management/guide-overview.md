@@ -49,5 +49,5 @@ Zie [[!DNL Inventory Management] ](https://developer.adobe.com/commerce/webapi/r
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-- [ onjuiste status van het Beeld na de installatie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.
+- [ onjuiste status van het Beeld na de installatie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=nl-NL)
+- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.

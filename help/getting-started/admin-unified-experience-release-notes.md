@@ -19,7 +19,7 @@ Deze versienota&#39;s voor Commerce Admin verenigde de uitbreiding van de Ervari
 
 >[!NOTE]
 >
->Zie [ beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor gedetailleerde informatie over de releasestatus van Admin Verenigde de uitbreiding van de Ervaring met betrekking tot Adobe Commerce.
+>Zie [ beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL) voor gedetailleerde informatie over de releasestatus van Admin Verenigde de uitbreiding van de Ervaring met betrekking tot Adobe Commerce.
 
 ## 1.0-release
 

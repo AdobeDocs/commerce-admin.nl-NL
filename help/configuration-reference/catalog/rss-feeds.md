@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Rss Config ](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -32,7 +32,7 @@ Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegela
 
 ![ Wenslijst ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegela
 
 ![ Catalogus ](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegela
 
 ![ Orde ](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

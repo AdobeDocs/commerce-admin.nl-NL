@@ -137,7 +137,7 @@ Als na het volgen van de configuratieinstructies, sommige pagina&#39;s met onvei
 
 ## Een aangepaste Admin URL gebruiken
 
-Als beste praktijken van de a [ veiligheid ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), adviseert de Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
+Als beste praktijken van de a [ veiligheid ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), adviseert de Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 >[!NOTE]
 >
->Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [ instructies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
+>Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [ instructies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
 
 ### Methode 1: Wijzigen ten opzichte van de beheerder
 
@@ -199,7 +199,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
    >[!TIP]
    >
-   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [ onderwerp van Admin variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [ onderwerp van Admin variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
    - **Standaard Admin Weg**
 

@@ -22,11 +22,11 @@ U kunt uw winkel op meerdere manieren beveiligen en uw gegevensbeveiliging handh
 >
 >Voor opslagruimten waarvoor verificatie met [!DNL Adobe Identity Management Services] (IMS) is ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich bij hun Commerce-instantie hebben aangemeld met hun aanmeldingsgegevens voor de Adobe, hoeven niet opnieuw te worden geverifieerd voor een groot aantal beheertaken. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
 
-Bezoek het [ Centrum van de Veiligheid ](https://helpx.adobe.com/security.html) {:target= &quot;_blank&quot;} om het recentste nieuws over potentiële kwetsbaarheid te krijgen, voor de berichten van de Veiligheid van de Adobe te registreren, en tot het Centrum van het Vertrouwen van de Adobe toegang te hebben.
+Bezoek het [ Centrum van de Veiligheid ](https://helpx.adobe.com/nl/security.html) {:target= &quot;_blank&quot;} om het recentste nieuws over potentiële kwetsbaarheid te krijgen, voor de berichten van de Veiligheid van de Adobe te registreren, en tot het Centrum van het Vertrouwen van de Adobe toegang te hebben.
 
 ![ Centrum van de Veiligheid ](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Voor informatie over veiligheid beste praktijken, zie [ uw Plaats en Infrastructuur van Commerce beveiligen ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) in _Playbook van de Implementatie_.
+Voor informatie over veiligheid beste praktijken, zie [ uw Plaats en Infrastructuur van Commerce beveiligen ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL) in _Playbook van de Implementatie_.
 
 ## Actieplan voor veiligheid
 

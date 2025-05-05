@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Algemeen ](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![ Afhandelingstotalen de Orde van de Sortering ](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![ herschikt ](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ![ Factuur en het Pakken Ontwerp van de Scheiding ](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![ Minimale Hoeveelheid van de Orde ](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 ![ Dashboard ](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ![ orden de Montages van het Gewas ](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cron) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 ![ Cadeauopties ](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 ![ Minimale Geadverteerde Prijs ](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 ![ Orde door de Montages van SKU ](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![ Orde door de Montages van SKU voor de Groep van de Klant ](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 ![ Onmiddellijke Aankoop ](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

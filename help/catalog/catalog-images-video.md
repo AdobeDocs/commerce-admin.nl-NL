@@ -38,6 +38,6 @@ Er zijn veel andere lichte vakken en schuifregelaars waarmee u de presentatie va
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met afbeeldingen en video&#39;s:
 
-- [ na het installeren, laden de beelden en de stijlbladen niet; slechts tekstvertoningen, geen grafiek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [ de beelden van het Product tonen niet ondanks Product geeft beeldrollen uit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [ beelden van de opslag niet getoond na plaatsing ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [ na het installeren, laden de beelden en de stijlbladen niet; slechts tekstvertoningen, geen grafiek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=nl-NL)
+- [ de beelden van het Product tonen niet ondanks Product geeft beeldrollen uit ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=nl-NL)
+- [ beelden van de opslag niet getoond na plaatsing ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=nl-NL)

@@ -18,7 +18,7 @@ Net als de meeste websites en toepassingen op internet, vereisen Adobe Commerce 
 - Als de browser privacymontages koekjes verbieden, kunt u het systeem vormen om hen aan [ automatisch om te leiden laat Cookies ](../content-design/pages.md#enable-cookies) pagina toe, die verklaart hoe te om de geadviseerde montages met meeste browsers te maken.
 - Als de privacyinstellingen van de browser JavaScript niet toestaan, kunt u het systeem zo configureren dat het volgende bericht boven de koptekst van elke pagina wordt weergegeven.
 
-Voor technische informatie, verwijs naar [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) in de _Gids van de Installatie_.
+Voor technische informatie, verwijs naar [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=nl-NL#supported-browsers) in de _Gids van de Installatie_.
 
 ## Detectie van browsermogelijkheden configureren
 

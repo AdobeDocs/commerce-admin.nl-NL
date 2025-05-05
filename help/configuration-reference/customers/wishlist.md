@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ Algemene Opties ](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![ Opties van het Aandeel ](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!-- [Share Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![ Mijn Verbinding van de Lijst van de Wenslijst ](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

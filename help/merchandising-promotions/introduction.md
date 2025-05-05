@@ -17,7 +17,7 @@ Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klante
 
 _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [ op categorie-gebaseerde navigatie ](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
 
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
 
 - [ Cadeauregisters ](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
 
@@ -27,7 +27,7 @@ _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en 
 
 >[!TIP]
 >
->Om over de Aanbevelingen van het Product te leren en hoe zij u de insight kunnen geven en u te controleren moet tot de beste ervaring voor uw kopers leiden, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Om over de Aanbevelingen van het Product te leren en hoe zij u de insight kunnen geven en u te controleren moet tot de beste ervaring voor uw kopers leiden, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL).
 
 ## Aanbiedingen
 
@@ -68,7 +68,7 @@ Het beheersen van [ Optimalisering van de Motor van het Onderzoek (SEO) ](seo-ov
 >
 >Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door een digitale leverancier ontwikkelde uitbreiding voor dotdigital vendor die wordt gebruikt om te integreren met de dotdigital Engagement Cloud. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br><br>
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
 
 - [ Nieuwsbrieven ](newsletters.md) - produceer nieuwsbrieven, beheer uw lijst van abonnees, ontwikkel inhoud, en aandrijvingsverkeer aan uw opslag.
 

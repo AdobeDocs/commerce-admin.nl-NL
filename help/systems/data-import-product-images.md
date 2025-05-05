@@ -110,7 +110,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    Als u meerdere afbeeldingen voor één `sku` importeert, voegt u de afbeeldingen in in een kolom met de naam `additional_images` (voeg de kolom toe als deze nog niet is toegevoegd), gescheiden door komma&#39;s: `image02.jpg,image03.jpg`
 
-Voor meer informatie over het toelaten van en het beheren van de Verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) in de _gids van de Configuratie_ vormen.
+Voor meer informatie over het toelaten van en het beheren van de Verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=nl-NL) in de _gids van de Configuratie_ vormen.
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Contact ons ](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![ E-mailopties ](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Email Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

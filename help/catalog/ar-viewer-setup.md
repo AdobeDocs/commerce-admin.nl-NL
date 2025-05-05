@@ -19,7 +19,7 @@ Voor elk product kunt u een `.USDZ` -bestand uploaden waarmee AIR- en 3D-modelle
 
 [!DNL AR Viewer] is geïnstalleerd als uitbreiding van de [ Marketplace van Adobe Commerce ](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank} .
 
-Zie de [_Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) voor meer informatie over het proces van de uitbreidingsinstallatie.
+Zie de [_Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL) voor meer informatie over het proces van de uitbreidingsinstallatie.
 
 Nadat de extensie [!DNL AR Viewer] is geïnstalleerd en geconfigureerd, kunnen Admin-gebruikers productlijsten instellen, aanpassen en beheren om 3D-modellen op te nemen.
 
@@ -61,4 +61,4 @@ Wanneer de productgegevens worden bijgewerkt met het 3D-model:
 
 >[!NOTE]
 >
-> Voor een reeks demonstratievideo&#39;s van een gebruiker die een 3d model aan een product toevoegen, zie de [ AR Kijker voor Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) pagina in _de Video&#39;s en Tutorials van Commerce_.
+> Voor een reeks demonstratievideo&#39;s van een gebruiker die een 3d model aan een product toevoegen, zie de [ AR Kijker voor Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=nl-NL) pagina in _de Video&#39;s en Tutorials van Commerce_.

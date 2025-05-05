@@ -16,7 +16,7 @@ Elke installatie van Adobe Commerce en van de Magento Open Source heeft a [ hië
 
 >[!NOTE]
 >
->Meer leren, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in de [!DNL Commerce] ontwikkelaarsdocumentatie.
+>Meer leren, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de [!DNL Commerce] ontwikkelaarsdocumentatie.
 
 ## Websites
 

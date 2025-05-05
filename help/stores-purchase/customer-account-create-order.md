@@ -98,7 +98,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
 >[!NOTE]
 >
->Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
+>Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
 
 ## Stap 3: De bestelling verzenden
 

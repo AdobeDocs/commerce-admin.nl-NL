@@ -35,11 +35,11 @@ De sjabloon voegt de volgende bronnen toe aan de AEM Assets-ontwerpomgeving.
 
 U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken voor het bijwerken van de omgevingsconfiguratie:
 
-- [ Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
+- [ Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
 
-- A [ lokale de ontwikkelomgeving van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
+- A [ lokale de ontwikkelomgeving van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
 
-- Begrijp [ het projectstructuur van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
+- Begrijp [ het projectstructuur van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
 
 ## Het pakket `commerce-assets` installeren
 
@@ -49,11 +49,11 @@ U hebt de volgende bronnen en machtigingen nodig om dit AEM-project te gebruiken
 
 1. Van GitHub, download de boilerplate code van het [ Commerce-Assets AEM project ](https://github.com/ankumalh/assets-commerce).
 
-1. Van uw [ lokale de ontwikkelomgeving van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installeer de douanecode in uw het milieuconfiguratie van AEM Assets als Geweven pakket, of door de code in de bestaande projectconfiguratie manueel te kopiëren.
+1. Van uw [ lokale de ontwikkelomgeving van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), installeer de douanecode in uw het milieuconfiguratie van AEM Assets als Geweven pakket, of door de code in de bestaande projectconfiguratie manueel te kopiëren.
 
 1. Leg de wijzigingen vast en duw uw lokale ontwikkelingsvertakking naar de Cloud Manager Git-opslagplaats.
 
-1. Van Cloud Manager, [ stelt uw code op om het milieu van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager) bij te werken.
+1. Van Cloud Manager, [ stelt uw code op om het milieu van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager) bij te werken.
 
 ## Een metagegevensprofiel configureren
 

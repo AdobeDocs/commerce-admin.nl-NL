@@ -40,7 +40,7 @@ Met Adobe Commerce of Magento Open Source 2.4, kunnen de handelaren nieuwe _verb
 
 >[!NOTE]
 >
->Volledige functionaliteit voor nieuwe [!DNL Media Gallery] vereist dat `media.gallery.synchronization` - en `media.content.synchronization` -gebruikers in de wachtrij worden gestart voor eerste synchronisatie. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_ voor meer details.
+>Volledige functionaliteit voor nieuwe [!DNL Media Gallery] vereist dat `media.gallery.synchronization` - en `media.content.synchronization` -gebruikers in de wachtrij worden gestart voor eerste synchronisatie. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_ voor meer details.
 
 ## Toegang krijgen tot de nieuwe [!DNL Media Gallery]
 

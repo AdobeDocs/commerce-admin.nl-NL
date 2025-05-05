@@ -20,7 +20,7 @@ Voor gedetailleerde informatie over het vormen van deze multiShipping montages v
 
 ![ Opties ](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

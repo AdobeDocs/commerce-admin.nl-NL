@@ -86,7 +86,7 @@ Configureer de standaardconfiguratieopties voor product en voorraad voor uw webs
 
      >[!NOTE]
      >
-     >Om _asynchrone rijmanagers_ te vormen en te steunen, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in de _Gids van de Configuratie_.
+     >Om _asynchrone rijmanagers_ te vormen en te steunen, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
    - Indien ingeschakeld, stelt u de **[!UICONTROL Asynchronous batch size]** in. De standaardbatch-grootte is 100. Wanneer de bulkprocessen dit bedrag bereiken, teweegbrengt het systeem het.
 

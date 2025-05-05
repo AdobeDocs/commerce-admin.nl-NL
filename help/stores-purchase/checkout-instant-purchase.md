@@ -57,7 +57,7 @@ U kunt Direct aanschaffen met Braintree of Betalingsservices voor Adobe Commerce
 Leer hoe u de betalingsmethode configureert en archivering voor Braintree of Betalingsservices inschakelt:
 
 - [Braintree](braintree.md)
-- [ documentatie van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [ documentatie van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
 
 ### Stap 3: Directe aankoop inschakelen
 

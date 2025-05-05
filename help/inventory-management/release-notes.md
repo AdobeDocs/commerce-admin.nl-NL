@@ -20,11 +20,11 @@ Deze releaseopmerkingen beschrijven de releases van [!DNL Inventory Management] 
 
 [!DNL Inventory Management] is een speciaal project van de Techniek van de Gemeenschap van de Magento Open Source open aan contribuanten. Om deel te nemen en bij te dragen, zie het [&#128279;](https://github.com/magento/inventory) bewaarplaats van het project GitHub en [ wiki ](https://github.com/magento/inventory/wiki) om begonnen te worden. [ Om het project te bespreken, sluit me aan bij het ](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) kanaal van de Slack  ([ zelf-tekent ](https://opensource.magento.com/slack)).
 
-[ programma van de Versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}  voor gesteunde en compatibele versies.
+[ programma van de Versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL){target="_blank"}  voor gesteunde en compatibele versies.
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 de versienota&#39;s zijn inbegrepen in de [ kern 2.4.7 versienota&#39;s ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+[!DNL Inventory Management] 1.2.7 de versienota&#39;s zijn inbegrepen in de [ kern 2.4.7 versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ Nieuwe modules voor [!DNL Inventory Management] 1.1.2 Beta zijn:
 
 [!DNL Inventory Management] 1.1.0 (moduleversie: `inventory-composer-metapackage = 1.1.0` ) wordt ondersteund en is compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code. [!DNL Inventory Management] 1.1.1 wordt alleen vrijgegeven als een pakketnaamupdate, ondersteund voor versie 2.3.1 en compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de basis van de Magento Open Source code.
 
-![ Vaste kwestie ](../assets/fix.svg) **Toegevoegde steun voor Elasticsearch voor enige en multi-bronwijzen** — U kunt Elasticsearch met douanevoorraden nu vormen en gebruiken. Zie &lbrace;de dienst van de Elasticsearch van de opstelling &rbrack;(https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html) {target="_blank"} voor installatieinformatie. <!-- PR https://github.com/magento/inventory/pull/1943 -->&lbrack;
+![ Vaste kwestie ](../assets/fix.svg) **Toegevoegde steun voor Elasticsearch voor enige en multi-bronwijzen** — U kunt Elasticsearch met douanevoorraden nu vormen en gebruiken. Zie &lbrace;de dienst van de Elasticsearch van de opstelling &rbrack;(https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=nl-NL) {target="_blank"} voor installatieinformatie. <!-- PR https://github.com/magento/inventory/pull/1943 -->&lbrack;
 
 ![ Vaste kwestie ](../assets/fix.svg) Opgeloste prestatieskwesties met StandaardVoorraad om prestaties met talrijke verrichtingen drastisch te verhogen. De verbeteringen verhogen prestaties voor single-source wijze, Overdracht Inventaris aan Source, de pagina&#39;s van de Categorie van de Storefront, en de berekeningen van de Hoeveelheid van de Verkoop.
 

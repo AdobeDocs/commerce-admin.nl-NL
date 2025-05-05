@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![ Geautomatiseerde Regels van de Herinnering E-mail ](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ![ Auto Gegenereerde Specifieke Codes van de Coupon ](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

@@ -187,4 +187,4 @@ Alle acties met betrekking tot bonuspunten worden weergegeven in het _[!UICONTRO
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met beloningspunten:
 
-- [ 404 fout - het verwijderen van beloningspunten op multi-verschepende controle ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [ 404 fout - het verwijderen van beloningspunten op multi-verschepende controle ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=nl-NL)

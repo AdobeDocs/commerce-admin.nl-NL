@@ -43,7 +43,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 >[!IMPORTANT]
 >
->Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
+>Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 ## Opnieuw indexeren met de opdrachtregel
 
-Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex) {:target="blank"} in de _Gids van de Configuratie_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=nl-NL#reindex) {:target="blank"} in de _Gids van de Configuratie_.
 
 ## Gebeurtenissen van indextrigger
 

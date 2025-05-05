@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ Login als Klant - Algemene Opties ](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | Optie | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-- | -- | -- |

@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![ Abonnementsopties ](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

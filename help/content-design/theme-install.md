@@ -16,7 +16,7 @@ Wanneer u [!DNL Commerce] voor het eerst installeert, zijn de ontwerpelementen v
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) hebt.
+Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=nl-NL) hebt.
 
 Als u een thema wilt toevoegen aan uw [!DNL Commerce] -winkel, volgt u de instructies in [!DNL Commerce Marketplace] :
 

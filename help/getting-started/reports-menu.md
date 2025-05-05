@@ -36,7 +36,7 @@ De selectie van [ verkooprapporten ](sales-reports.md) omvat Orders, Belasting, 
 
 ### [!UICONTROL System Insights]
 
-(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
+(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
 
 ### [!UICONTROL Customers]
 

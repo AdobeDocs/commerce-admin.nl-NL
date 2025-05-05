@@ -3,7 +3,7 @@ title: Vorm slimme attributen voor Visuele Merchandiser
 description: Leer hoe te om de slimme attributen te vormen die door Visuele Merchandiser worden gebruikt.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
 feature: Merchandising, Products, Configuration, Attributes
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
 source-wordcount: '186'

@@ -4,7 +4,7 @@ description: Leer hoe te om het  [!DNL Adobe Commerce B2B]  metapakket te instal
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
 source-wordcount: '1149'
@@ -39,16 +39,16 @@ De Adobe Commerce B2B-extensie `magento/extension-b2b` is beschikbaar voor alle 
 
 **Eerste vereisten**
 
-- Toegang tot [ repo.magento.com ](https://repo.magento.com/) om de uitbreiding te downloaden. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
+- Toegang tot [ repo.magento.com ](https://repo.magento.com/) om de uitbreiding te downloaden. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
 
   Sparen authentificatiesleutels voor installatie door hen globaal in uw [ COMPOSER_HOME ](https://getcomposer.org/doc/03-cli.md#composer-home) folder te bepalen. Of, bewaar hen aan een {[&#128279;](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) dossier 0} auth.json in de folder van de de toepassingswortel van Adobe Commerce.
 
-- [ Gesteunde versie van de B2B uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) - bepaal de meest recente versie van de B2B uitbreiding die op de opgestelde versie van Adobe Commerce wordt gesteund.
+- [ Gesteunde versie van de B2B uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/product-availability) - bepaal de meest recente versie van de B2B uitbreiding die op de opgestelde versie van Adobe Commerce wordt gesteund.
 
 - Raadpleeg de opmerkingen bij de release voor de meest recente informatie over versiecompatibiliteit, updates of wijzigingen die van invloed kunnen zijn op de installatie- of upgradevereisten.
 
    - [Opmerkingen bij de release B2B](release-notes.md)
-   - [ de Nota&#39;s van de Versie van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+   - [ de Nota&#39;s van de Versie van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Installeer de B2B-extensie (`magento/b2b-extension`) met behulp van Composer. De
 >
 >Wanneer u Adobe Commerce B2B installeert op de cloudinfrastructuur, raadt Adobe u aan uw Adobe Commerce-toepassing te implementeren in een integratie- of staging-omgeving voordat u begint.
 
-Adobe raadt u aan in een ontwikkelingsvertakking te werken wanneer u de B2B-extensie aan uw project toevoegt. Als u geen tak hebt, zie [ een tak voor ontwikkeling ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) creëren. Wanneer u de B2B-extensie installeert, wordt de extensienaam `Magento_B2b` automatisch ingevoegd in het `app/etc/config.php` -bestand. U hoeft het bestand niet rechtstreeks te bewerken.
+Adobe raadt u aan in een ontwikkelingsvertakking te werken wanneer u de B2B-extensie aan uw project toevoegt. Als u geen tak hebt, zie [ een tak voor ontwikkeling ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) creëren. Wanneer u de B2B-extensie installeert, wordt de extensienaam `Magento_B2b` automatisch ingevoegd in het `app/etc/config.php` -bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
 **om de B2B uitbreiding** te installeren:
 
@@ -98,7 +98,7 @@ Adobe raadt u aan in een ontwikkelingsvertakking te werken wanneer u de B2B-exte
 
    >[!NOTE]
    >
-   >Door updates naar de cloudomgeving te verscherpen, wordt het Commerce-implementatieproces voor de cloud gestart om de wijzigingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). Als u plaatsingsfouten ontmoet, zie [ Herstel van componentenmislukking ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >Door updates naar de cloudomgeving te verscherpen, wordt het Commerce-implementatieproces voor de cloud gestart om de wijzigingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process). Als u plaatsingsfouten ontmoet, zie [ Herstel van componentenmislukking ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 1. Nadat de build en implementatie is voltooid, gebruikt u SSH om u aan te melden bij de externe omgeving en controleert u of de B2B-extensie is geïnstalleerd en ingeschakeld.
 
@@ -130,7 +130,7 @@ Adobe raadt u aan in een ontwikkelingsvertakking te werken wanneer u de B2B-exte
 
    Controleer de spelling van het pakket, de versiebeperking en of het pakket beschikbaar is en voldoet aan de minimale (stabiele) stabiliteitseis.
 
-1. Indien ertoe aangezet, ga uw [ authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in.
+1. Indien ertoe aangezet, ga uw [ authentificatietoetsen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in.
 
    Uw _openbare sleutel_ is uw gebruikersbenaming; uw _privé sleutel_ is uw wachtwoord. Als u de openbare en persoonlijke sleutels in `auth.json` hebt opgeslagen, wordt u niet gevraagd om u te verifiëren.
 
@@ -173,14 +173,14 @@ De Adobe Commerce B2B-extensie gebruikt MySQL voor het beheer van de wachtrij me
 | `purchaseorder.transactional.email` | E-mails met inkoopordergegevens verzenden. Vereist wanneer de optie [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) is ingeschakeld in de configuratie-instellingen voor het beheersysteem. |
 | `purchaseorder.validation` | Valideert kooporder tegen relevante [ goedkeuringsregels ](account-dashboard-approval-rules.md). Vereist wanneer de optie [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) is ingeschakeld in de configuratie-instellingen voor het beheersysteem. |
 | `quoteItemCleaner` | Hiermee verwijdert u ongeldige of inactieve prijsaanhalingstekens wanneer een product uit de catalogus wordt verwijderd of uit het winkelwagentje wordt verwijderd. Vereist wanneer de optie [**[!UICONTROL Quotes]**](quotes.md) is ingeschakeld in de configuratie-instellingen voor het beheersysteem. |
-| `inventoryQtyCounter` | Corrigeert asynchroon de aandelenindex nadat een bestelling is geplaatst of een product is verwijderd. Vereist wanneer de optie [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) voor Inventory management is ingeschakeld in de configuratie-instellingen voor Admin. Zie [ Beste praktijken van Prestaties ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
+| `inventoryQtyCounter` | Corrigeert asynchroon de aandelenindex nadat een bestelling is geplaatst of een product is verwijderd. Vereist wanneer de optie [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) voor Inventory management is ingeschakeld in de configuratie-instellingen voor Admin. Zie [ Beste praktijken van Prestaties ](https://experienceleague.adobe.com/nl/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
 | `async.operations.all` | Creeert berichten voor elke individuele taak van a [ bulkverrichting ](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) zoals het invoeren van of het uitvoeren van punten, het veranderen van prijzen op een massaschaal, en het toewijzen van producten aan een pakhuis. Vereist wanneer de [**bulkverrichtingen Admin**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) optie voor [!DNL Inventory Management] aan **Looppas asynchroon** in de de configuratiemontages van het Systeem Admin wordt geplaatst. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Voor een lijst van alle het berichtconsumenten van Adobe Commerce, zie [ de rijconsumenten van het Bericht ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/consumers) in de _Gids van de Configuratie_.
+>Voor een lijst van alle het berichtconsumenten van Adobe Commerce, zie [ de rijconsumenten van het Bericht ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/consumers) in de _Gids van de Configuratie_.
 
 ### Berichtconsumenten configureren
 
@@ -190,7 +190,7 @@ Verhinder mogelijke verwerkingskwesties of vertragingen door de volgende paramet
 
 - `--batch-size <value>`— Hiermee kunt u de systeembronnen beperken die door de consument worden verbruikt (CPU, geheugen). Het gebruik van kleinere batches verlaagt het gebruik van bronnen en leidt dus tot een langzamere verwerking.  Indien opgegeven, worden berichten in een wachtrij in batches van `<value>` elk gebruikt. Deze optie is alleen van toepassing op de batchconsument. Als `--batch-size` niet wordt bepaald, ontvangt de partijconsument alle beschikbare berichten in een rij.
 
-Voor informatie over extra configuratieopties, zie [ specifiek-configuratie ](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration).
+Voor informatie over extra configuratieopties, zie [ specifiek-configuratie ](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues?lang=nl-NL#specific-configuration).
 
 ### Beginnen met bericht aan consumenten
 
@@ -220,11 +220,11 @@ Om asynchrone verrichtingen voor B2B mogelijkheden toe te laten, moet u veelvoud
 >
 >Als u het bestand op de achtergrond wilt uitvoeren, voegt u `&` toe aan de opdracht, keert u terug naar een vraag en gaat u verder met het uitvoeren van opdrachten. Bijvoorbeeld: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &` .
 
-Voor meer informatie, zie [ berichtrijen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in de _Gids van de Configuratie_ beheren.
+Voor meer informatie, zie [ berichtrijen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in de _Gids van de Configuratie_ beheren.
 
 ### Berichtconsumenten toevoegen aan uitsnijden
 
-U kunt het runtime programma voor `SharedCatalogUpdateCategoryPermissions` en `SharedCatalogUpdatePrice` berichtconsumenten automatiseren door het programma aan het dossier van de cron- configuratie [ toe te voegen /app/code/Magento/MessageQueue/etc/crontab.xml ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
+U kunt het runtime programma voor `SharedCatalogUpdateCategoryPermissions` en `SharedCatalogUpdatePrice` berichtconsumenten automatiseren door het programma aan het dossier van de cron- configuratie [ toe te voegen /app/code/Magento/MessageQueue/etc/crontab.xml ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
 
 ```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &

@@ -19,7 +19,7 @@ Als andere teamleden of dienstverleners toegang nodig hebben, kunt u individuele
 
 >[!NOTE]
 >
->Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar Adobe-gegevens gebruiken, niet zijn of haar Commerce-gegevens. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar Adobe-gegevens gebruiken, niet zijn of haar Commerce-gegevens. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
 
 Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de gebruikersrekening ook plaatsen.
 

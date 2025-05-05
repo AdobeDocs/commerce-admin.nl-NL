@@ -22,7 +22,7 @@ Met de verbeterde beveiligingsscan kunt u elk van uw Adobe Commerce- en Magento 
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=nl-NL#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
 ![ het aftasten van de Veiligheid hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

@@ -96,6 +96,6 @@ Om de systeemconfiguratie in uw [!DNL Commerce] Admin te plaatsen, gebruik _API 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

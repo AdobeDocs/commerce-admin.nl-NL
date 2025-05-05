@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze pagina beschrijft standaardonderzoeksfunctionaliteit die van [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) zou kunnen verschillen.
+>Deze pagina beschrijft standaardonderzoeksfunctionaliteit die van [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) zou kunnen verschillen.
 
 De _lijst van de Resultaten van het Onderzoek_ omvat alle producten die de onderzoekscriteria ingegaan in het Snelle vakje van het Onderzoek of de Geavanceerde vorm van het Onderzoek aanpassen. Elke productlijst in de catalogus heeft in wezen dezelfde besturingselementen. Het enige verschil is dat één het resultaat van een onderzoeksvraag is, en het andere verschil is het resultaat van [ navigatie ](navigation.md).
 
@@ -30,7 +30,7 @@ Met **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
 
 ## Trefwoordtoewijzing om zoekresultaten uit te breiden
 

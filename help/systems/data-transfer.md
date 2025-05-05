@@ -19,7 +19,7 @@ U kunt bijvoorbeeld nieuwe producten aan uw voorraad toevoegen, productgegevens 
 
 >[!NOTE]
 >
->Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [ Levend Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), en [ Dienst van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+>Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=nl-NL), [ Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview), en [ Dienst van de Catalogus ](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview).
 
 ## Gegevensvalidatie
 

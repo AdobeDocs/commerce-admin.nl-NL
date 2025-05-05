@@ -16,7 +16,7 @@ Adobe Commerce en Magento Open Source bieden ondersteuning voor verschillende be
 
 >[!TIP]
 >
->Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u het inzicht en de controle kan geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+>Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u het inzicht en de controle kan geven u de beste ervaring voor uw kopers moet creëren, zie de [ Gids van de Gebruiker van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.
 
 - **Amazon betaalt** en **Klarna**: Adobe Commerce en Magento Open Source geven 2.4.0 door 2.4.3 op omvat deze leverancier-ontwikkelde uitbreidingen. Vanaf de release 2.4.4 worden deze extensies niet meer gebundeld met de kernversie en moeten ze vanaf de Commerce Marketplace worden geïnstalleerd en bijgewerkt. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 
-  Als u één van beiden van deze gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
+  Als u één van beiden van deze gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
 
 - **Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445) {:target="_blank"}.
 
@@ -49,7 +49,7 @@ Adobe Commerce en Magento Open Source ondersteunen een groot aantal betalingsopl
 
 ### Aanbevolen oplossingen
 
-- [ de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [ de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
 - [PayPal Express-afhandeling](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
@@ -82,6 +82,6 @@ Met de services en filters voor fraudebescherming worden verzonden bestellingen 
 
 ## Bronnen voor probleemoplossing
 
-Voor hulp bij het oplossen van problemen met betaling, zie de [ Kennisbank van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+Voor hulp bij het oplossen van problemen met betaling, zie de [ Kennisbank van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

@@ -212,9 +212,9 @@ Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionalite
 
 ## Cookies met productaanbevelingen
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door de Aanbevelingen van het Product voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door de Aanbevelingen van het Product voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Staat u toe [ om de gegevensinzameling van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
+- `mg_dnt`: Staat u toe [ om de gegevensinzameling van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
 - `user_allowed_save_cookie`: Gebruikt voor [ wijze van de koekjesbeperking ](#cookie-restriction-mode).
 - `authentication_flag`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Deze cookie wordt tegelijk met het `dataservices_customer_id` cookie bijgewerkt.
 - `dataservices_customer_id`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Dit cookie bevat de unieke id van de klant in het systeem.
@@ -224,7 +224,7 @@ Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionalite
 
 ## Aanvullende cookies
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [ module DataServices ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [ documentatie van de Snowplow ](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/) worden gevonden.
 - `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [ het Web SDK ](https://github.com/adobe/alloy) van de Legering.

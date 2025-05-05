@@ -48,4 +48,4 @@ Bekijk deze video om te leren hoe Adobe Commerce en AEM Assets samenwerken om in
 
 ## Ondersteuning
 
-Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) om extra hulp te ontvangen.
+Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) om extra hulp te ontvangen.

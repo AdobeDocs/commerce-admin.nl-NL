@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ de Gebieden van het Product auto-Generatie ](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![ Recensies van het Product ](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![ Storefront ](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de rasterweergave. |
 | [!UICONTROL Products per Page on List Allowed Values] | Winkelweergave | Bepaalt het aantal producten die in de Mening van de Lijst worden getoond. Als u opties wilt selecteren, voert u meerdere waarden in, gescheiden door komma&#39;s. |
 | [!UICONTROL Products per Page on List Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de lijstweergave. |
-| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
+| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Winkelweergave | Indien ingesteld op `Yes` , neemt u de optie `ALL` op in het besturingselement &#39;Tonen per pagina&#39;. |
 | [!UICONTROL Remember Category Pagination] | Algemeen | Als reeks aan `Yes`, worden de huidige waarden van de categoriepage bewaard aangezien de klanten van één categorie aan een andere in [ productlijsten ](../../catalog/navigation-product-listings.md) doorbladeren. Bij het opslaan van de waarde wordt meer cache-opslag gebruikt en kan dit van invloed zijn op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd. Opties: `Yes` / `No` (standaardwaarde) |
 | [!UICONTROL Use Flat Catalog Category] | Algemeen | Laat de [ vlakke categoriestructuur ](../../catalog/catalog-flat.md) toe (geadviseerd niet). Opties: `Yes` / `No` |
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ![ de Alarm van het Product ](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ![ de Alarm van het Product stelt Montages ](./assets/catalog-product-alerts-run-settings.png)<!-- zoom --> in werking
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ![ Plaatsaanduidingen van het Beeld van het Product ](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ![ onlangs bekeken/Vergeleken Producten ](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 ![ Video&#39;s van het Product ](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![ Prijs ](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -163,9 +163,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL).
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
 ![ Gelaagde Navigatie - Automatisch (equalize prijswaaiers) ](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 ![ Toestemmingen van de Categorie ](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -204,11 +204,11 @@ ht-degree: 0%
 
 ![ Optimalisering van de Motor van het Onderzoek ](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) gebruiken. Opties: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) gebruiken. Opties: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op product-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Category URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op categorie-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Use Categories Path for Product URLs] | Winkelweergave | Hiermee bepaalt u of categoriepaden worden opgenomen in product-URL&#39;s in de winkel. Dit kan ertoe leiden dat meerdere URL&#39;s naar dezelfde pagina verwijzen, wat van invloed kan zijn op de zoekpositie. Meer leren, zie [ Canonical meta markering ](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 &rbrack;(./assets/catalog-category-top-navigation.png)<!-- zoom --> de Top Navigatie van de Categorie 0&rbrace; &lbrace;!&lbrack;
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
+U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
 
 ### Adobe Commerce met [!DNL Live Search]
 
@@ -243,7 +243,7 @@ Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configur
 
 ![ het Onderzoek van de Catalogus naar Levend Onderzoek ](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -260,7 +260,7 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 >[!IMPORTANT]
 >
->- Vanwege de Elasticsearch 7-aankondiging aan het einde van de service voor augustus 2023 raadt Adobe alle Adobe Commerce-klanten aan naar de OpenSearch 2.x-zoekmachine te migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>- Vanwege de Elasticsearch 7-aankondiging aan het einde van de service voor augustus 2023 raadt Adobe alle Adobe Commerce-klanten aan naar de OpenSearch 2.x-zoekmachine te migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
 >- In versies 2.4.4 en 2.4.3-p2 zijn alle velden met het label Elasticsearch ook van toepassing op OpenSearch. Toen de steun voor Elasticsearch 8.x in versie 2.4.6 werd geïntroduceerd, werden de nieuwe etiketten gecreeerd om tussen Elasticsearch en configuraties te onderscheiden OpenSearch. De configuratieopties voor beide zijn echter gelijk.
 
 ![ de opties van de het onderzoeksconfiguratie van de Catalogus ](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -293,7 +293,7 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 ![ Downloadbare Opties van het Product ](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -312,7 +312,7 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 ![ de Opties van de Douane van de Datum &amp; van de Tijd ](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -329,7 +329,7 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 ![ Gebeurtenissen van de Catalogus ](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -346,7 +346,7 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 ![ regel-Gebaseerde Betrekkingen van het Product ](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

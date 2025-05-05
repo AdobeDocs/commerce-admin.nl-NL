@@ -22,7 +22,7 @@ De informatie in de gebruikershandleidingen voor beheerders is ontworpen voor za
 
 Adobe Commerce is een flexibel B2B- en B2C-handelsplatform dat verkopers en merken in staat stelt hun omzet te versnellen door klantgerichte digitale handelervaringen over online en fysieke ruimten. Het is de toonaangevende keuze voor middelgrote en bedrijfsorganisaties omdat het de meest flexibele implementatiemodellen van on-prem tot beheerde cloud met gegarandeerde SLA&#39;s biedt. Adobe Commerce maakt eerste integratie van API&#39;s en volledig aanpasbare extensies mogelijk, en de rijkste reeks mogelijkheden voor commerciële ervaring op bedrijfsniveau, van marketing tot merchandising en afhandeling. Adobe Commerce is gebaseerd op open-source code base om flexibiliteit en uitbreidbaarheid te bieden, net als geen ander handelsplatform.
 
-Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in de _Informatie van de Versie_.
+Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=nl-NL) in de _Informatie van de Versie_.
 
 ## Magento Open Source-codebasis
 
@@ -35,7 +35,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
    <td valign="top" width="60px">
        <img alt="Aan de slag" src="./assets/icon-lightbulb.svg" width="40" height="40" /></td>
    <td valign="top">
-   <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong> Begonnen het worden </strong></a>
+   <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=nl-NL"><strong> Begonnen het worden </strong></a>
     <div>
     <em> "waarom, waar, en hoe"vragen die de meeste verkopers wanneer eerst het leren aan Admin, evenals middelen en verwijzingsinformatie hebben. Deze gids is een lente aan geavanceerdere onderwerpen.</em>
     <br> </div>
@@ -44,7 +44,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong> Adobe Commerce B2B </strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=nl-NL"><strong> Adobe Commerce B2B </strong></a>
     <div><em> Deze eigenschapreeks wordt ontworpen om aan de behoeften van verkopers (verkopers) te voldoen de waarvan klanten hoofdzakelijk bedrijf-misschien met complexe organisatorische structuren en veelvoudige personeelsleden met diverse rollen en niveaus van het kopen van toestemming zijn.</em>
     <br></div>
   </td>
@@ -52,7 +52,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
   <td valign="top">
     <img alt="Catalogusbeheer" src="./assets/icon-shop.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html"><strong> Beheer van de Catalogus </strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=nl-NL"><strong> Beheer van de Catalogus </strong></a>
     <div><em> één van de belangrijkste gebieden in het creëren van en het beheren van uw opslag is de productcatalogus en de categorieën. Admin verstrekt vele hulpmiddelen voor de aanvankelijke opstelling van uw opslag en productcatalogus.</em>
     <br></div>
   </td>
@@ -60,56 +60,56 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
     <td valign="top">
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html"> <strong>[!DNL Inventory Management]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=nl-NL"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em> de [!DNL Inventory Management] eigenschappen laten verkopers met één enkele opslag toe aan veelvoudige pakhuizen, opslag, oppikken plaatsen, dalingsexpediteurs, en meer. Gebruik deze functies om de verkoop in stand te houden en verzendingen te verwerken om bestellingen te voltooien. </em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Merchandising en promoties" src="./assets/icon-labels.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html"> <strong> Merchandising en Bevorderingen </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html?lang=nl-NL"> <strong> Merchandising en Bevorderingen </strong> </a>
     <div><em> creeer gerichte bevorderingen en kansen voor klantenovereenkomst die klanten in kopers veranderen. Beheer klantenrelaties door activiteiten na de aankoop te ondersteunen en klanten die terugkeren speciale kortingen te bieden. Leer beste praktijken en technieken die uw initiatieven SEO steunen.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Inhoud en ontwerp" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html"> <strong> Inhoud en Ontwerp </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=nl-NL"> <strong> Inhoud en Ontwerp </strong> </a>
     <div><em> Uw inhoud bepaalt de pagina's en de elementen die de klanten zien wanneer zij tot uw opslag toegang hebben. Bepaal basiselementen voor uw pagina's, zoals tekst en beelden, evenals geavanceerdere elementen die interactieve en dynamische inhoud verstrekken om de het winkelen ervaring te verbeteren.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=nl-NL"> <strong>[!DNL Page Builder]</strong></a>
     <div>Met <em>[!DNL Page Builder] kunt u eenvoudig pagina's met rijke inhoud maken met aangepaste layouts. Deze eigenschappen worden ontworpen om kwaliteit te verbeteren, en de tijd en de kosten te verminderen om douanepagina's te produceren.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Klantenbeheer" src="./assets/icon-demographic.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html"> <strong> Beheer van de Klant </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=nl-NL"> <strong> Beheer van de Klant </strong> </a>
     <div><em> aangezien u uw opslag blijft handhaven en uitbreiden, klantenrekeningen en klantengroepen in Admin beheren.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Winkels en koopervaring" src="./assets/icon-shopping-cart.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html"> <strong> Opslag en Ervaring van de Aankoop </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=nl-NL"> <strong> Opslag en Ervaring van de Aankoop </strong> </a>
     <div><em> de kar wordt geplaatst aan het eind van de weg aan aankoop, bij de kruising van koop en verlaat. Opstelling het punt van aankoop en de ondersteunende functies die winkelwagentjes in voltooide orden veranderen.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Beheersystemen" src="./assets/icon-globe-grid.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html"> <strong> Systemen Admin </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=nl-NL"> <strong> Systemen Admin </strong> </a>
     <div><em> Admin verstrekt veelvoudige hulpmiddelen om uw systeem te beheren en zijn prestaties te optimaliseren. Deze gids omvat informatie over het beleid van de Admin gebruikersrekening, met de bijbehorende rollen en de toestemmingen.</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
        <img alt="Configuratieverwijzing" src="./assets/icon-settings.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html"> <strong> Verwijzing van de Configuratie </strong> </a>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=nl-NL"> <strong> Verwijzing van de Configuratie </strong> </a>
     <div><em> Snelle en handige verwijzing die gebiedsbeschrijvingen voor elke configuratie die in Admin plaatst verstrekt.</em></div>
   </td>
 </tr>
@@ -119,7 +119,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 
 >[!TIP]
 >
->U kunt [ ook herzien wat in de documentatie van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) nieuw is en [ wat in de Operationele gidsen ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new) nieuw is.
+>U kunt [ ook herzien wat in de documentatie van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL#what%E2%80%99s-new) nieuw is en [ wat in de Operationele gidsen ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=nl-NL#what%E2%80%99s-new) nieuw is.
 
 | Beschrijving | Type | Datum |
 | ----------- | ---- | ---- |

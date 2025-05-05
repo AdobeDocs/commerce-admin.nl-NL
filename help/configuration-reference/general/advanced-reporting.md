@@ -20,7 +20,7 @@ _[!DNL Advanced Reporting]_&#x200B;is de op wolk-gebaseerde dienst die door [ Ad
 
 ![ Geavanceerde Rapportering ](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -30,5 +30,5 @@ _[!DNL Advanced Reporting]_&#x200B;is de op wolk-gebaseerde dienst die door [ Ad
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
-[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=nl-NL
+[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=nl-NL#advanced-reporting

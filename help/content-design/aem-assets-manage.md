@@ -20,9 +20,9 @@ Nadat u een middel in AEM Assets hebt bewerkt, verzendt u de updates naar Commer
 
 Raadpleeg de volgende documentatie bij AEM Assets voor meer informatie.
 
-- [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [ keur activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
+- [ keur activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
 
 ## Elementen toevoegen aan categorieën-inhoud
 

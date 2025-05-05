@@ -32,7 +32,7 @@ Met de introductie van [!DNL **Commerce Storefront die door Edge Delivery Servic
 
 De Commerce Storefront van Edge Delivery Services biedt verschillende belangrijke functies die zowel handelaren als ontwikkelaars ten goede komen. Met deze functies kunnen bedrijven aantrekkelijke boodschapervaringen creëren en tegelijk de flexibiliteit behouden om hun winkelvoorkeuren aan te passen en te schalen aan hun behoeften.
 
-Voor meer gedetailleerde informatie en begeleiding bij vestiging en het optimaliseren van uw Opslag van Commerce, zie de [ Documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce).
+Voor meer gedetailleerde informatie en begeleiding bij vestiging en het optimaliseren van uw Opslag van Commerce, zie de [ Documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Wist u dat mensen die zoeken bijna twee keer zo vaak een aankoop doen als mensen
 
 ### [!DNL Live Search]
 
-Met [[!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
+Met [[!DNL Live Search] ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
 
 ![ Levend voorbeeld van het Onderzoek - onderzoek aangezien u ](./assets/storefront-search-as-you-type.png){width="700"} typt
 

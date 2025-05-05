@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ de Opties van de Controle ](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![ Shopping Cart ](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ![ Mijn Verbinding van de Kar ](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![ Mini Kar ](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ![ Betaling Ontbroken E-mail ](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

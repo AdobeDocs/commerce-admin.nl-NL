@@ -40,9 +40,9 @@ Voor meer informatie, zie [ Beheer van het Bedrijf ](manage-companies.md).
 
 Services voor Adobe Commerce zijn gehoste services die Adobe Commerce en Magento Open Source uitgebreide mogelijkheden bieden. De diensten die B2B werkstromen steunen zijn:
 
-* [ de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
-* [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
-* [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+* [ de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=nl-NL)
+* [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=nl-NL)
+* [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL)
 
 ## Gedeelde catalogi
 

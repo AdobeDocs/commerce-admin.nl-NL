@@ -25,7 +25,7 @@ Adobe Commerce en Magento Open Source reduceren bestelfouten door automatisch de
 
 >[!TIP]
 >
->![ Adobe Commerce B2B ](../assets/b2b.svg) met de installatie en het toelaten van Adobe Commerce B2B, kunt u _Snelle Orde_ voor klanten vormen verbonden aan een bedrijfrekening. Deze functie vermindert het ordeproces tot verscheidene kliks wanneer zij de naam of SKU van de producten kennen die zij tot orde willen hebben. U kunt steun voor Negotiable Citaten voor uw bedrijfrekeningen ook vormen. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![ Adobe Commerce B2B ](../assets/b2b.svg) met de installatie en het toelaten van Adobe Commerce B2B, kunt u _Snelle Orde_ voor klanten vormen verbonden aan een bedrijfrekening. Deze functie vermindert het ordeproces tot verscheidene kliks wanneer zij de naam of SKU van de producten kennen die zij tot orde willen hebben. U kunt steun voor Negotiable Citaten voor uw bedrijfrekeningen ook vormen. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 ## Hulp bij winkelen
 

@@ -46,5 +46,5 @@ ht-degree: 0%
    - [Producten](products.md)
    - [Aanbevelingen voor producten](recommendations.md)
 - [Sjablonen](templates.md)
-- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
 

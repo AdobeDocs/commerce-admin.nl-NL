@@ -97,7 +97,7 @@ Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te make
    
 >[!NOTE]
 >
->Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
+>Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
 
 ## Kolombeschrijvingen
 
@@ -223,6 +223,6 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

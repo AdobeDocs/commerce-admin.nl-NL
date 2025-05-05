@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een netwerk voor inhoudslevering gebruiken
 
-U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
+U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
 
 Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijzigingen kunnen op globaal niveau of op het niveau van de website worden aangebracht. Wanneer een CDN wordt gebruikt voor mediaopslag, worden alle paden naar media op Commerce-winkelpagina&#39;s gewijzigd in de CDN-paden die in de configuratie zijn opgegeven.
 

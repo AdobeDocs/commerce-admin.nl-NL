@@ -27,7 +27,7 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 >[!NOTE]
 >
->[&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)__
+>[&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=nl-NL)__
 
 ### Create a quote from the Quote grid
 
@@ -79,7 +79,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    >[!NOTE]
    >
-   >Voor een videodemo van hoe de kortingen bij het werk van het lijnpunt, zie [ de Vertegenwoordiger van de Verkoop korting op een punt van de citaatlijn ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Video&#39;s en Tutorials van Commerce_ toepast.
+   >Voor een videodemo van hoe de kortingen bij het werk van het lijnpunt, zie [ de Vertegenwoordiger van de Verkoop korting op een punt van de citaatlijn ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=nl-NL) in _Video&#39;s en Tutorials van Commerce_ toepast.
 
 1. Apply a quote-level discount as needed:
 

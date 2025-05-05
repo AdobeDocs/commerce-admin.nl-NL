@@ -206,8 +206,8 @@ Controleer uw huidige privacybeleid en overweeg wat, als om het even welk, extra
 
 Gedurende 24 maanden nadat elk verzoek om individuele rechten is ontvangen, wordt een register bijgehouden van het verzoek en de antwoorden van uw bedrijf.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=nl-NL
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=nl-NL
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

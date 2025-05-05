@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Productaanbevelingen
 
-Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS pagina, een blok, of een dynamisch blok toe te voegen._
+Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS pagina, een blok, of een dynamisch blok toe te voegen._
 
 >[!NOTE]
 >
->Het [!DNL Page Builder] _inhoudstype van 1&rbrace; de Aanbevelingen van het Product_ wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van de Aanbevelingen van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor de Aanbevelingen van het Product toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
+>Het [!DNL Page Builder] _inhoudstype van 1&rbrace; de Aanbevelingen van het Product_ wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van de Aanbevelingen van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor de Aanbevelingen van het Product toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
 
 ## Een bestaande aanbevolen eenheid toevoegen
 
-1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
+1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
 
 >[!NOTE]
 >

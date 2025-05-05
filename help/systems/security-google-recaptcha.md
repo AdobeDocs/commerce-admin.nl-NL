@@ -33,7 +33,7 @@ Google reCAPTCHA kan op verschillende manieren worden geïmplementeerd:
 
 >[!IMPORTANT]
 >
->Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ Vereiste PHP Montages ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) {:target= &quot;_blank&quot;} in de Gids van de Installatie.
+>Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ Vereiste PHP Montages ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=nl-NL) {:target= &quot;_blank&quot;} in de Gids van de Installatie.
 
 ## Stap 1: Google reCAPTCHA-toetsen genereren
 

@@ -23,14 +23,14 @@ Adobe Commerce en Magento Open Source voeren sommige bewerkingen volgens schema 
 
 >[!IMPORTANT]
 >
->Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [ instructies in de _Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) voor gedetailleerde informatie over het installeren van de diensten aan contab.
+>Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [ instructies in de _Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL) voor gedetailleerde informatie over het installeren van de diensten aan contab.
 
 Daarnaast kunt u het volgende configureren om volgens een uitsnijdschema te worden uitgevoerd:
 
 - Updates en opnieuw indexeren van systeemrasters ordenen
 - Betalingslevensduur in behandeling
 
-Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [ en looppas pictogram ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) in de _Gids van de Configuratie_.
+Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [ en looppas pictogram ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ## Uitsnede configureren
 

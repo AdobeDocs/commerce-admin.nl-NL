@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] menu
 
-Het [!UICONTROL Catalog] menu verleent gemakkelijke toegang tot productverwezenlijking, categorie, en hulpmiddelen van het inventarisbeheer, en gedeelde catalogi voor douanetarifering in [ B2B opslag ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Het [!UICONTROL Catalog] menu verleent gemakkelijke toegang tot productverwezenlijking, categorie, en hulpmiddelen van het inventarisbeheer, en gedeelde catalogi voor douanetarifering in [ B2B opslag ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 ![ het menu van de Catalogus ](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
@@ -31,6 +31,6 @@ Creeer de [ categorie ](categories.md) structuur die de stichting van de navigat
 
 ## [!UICONTROL Shared Catalogs]
 
-Voor opslag met Adobe Commerce B2B geïnstalleerd en toegelaten, [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geven u de capaciteit om douaneprijzen ter beschikking te stellen van verschillende bedrijven.
+Voor opslag met Adobe Commerce B2B geïnstalleerd en toegelaten, [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=nl-NL) geven u de capaciteit om douaneprijzen ter beschikking te stellen van verschillende bedrijven.
 
 ![ Gedeelde catalogusproducten ](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

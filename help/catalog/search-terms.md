@@ -124,7 +124,7 @@ Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor opti
 
 Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 
-- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
+- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=nl-NL) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
 - De standaardfunctie Synonyms zoeken (die in deze pagina wordt beschreven) is beschikbaar in alle Adobe Commerce-installaties.
 
 >[!NOTE]

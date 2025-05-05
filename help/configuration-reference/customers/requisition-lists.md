@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![ Algemeen ](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
+<!-- [General](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

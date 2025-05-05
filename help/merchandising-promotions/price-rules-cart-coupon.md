@@ -62,7 +62,7 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 >[!NOTE]
 >
->Voordat u coupons maakt, controleert u met de opdracht `bin/magento cron:run` of de uitsnede wordt uitgevoerd. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
+>Voordat u coupons maakt, controleert u met de opdracht `bin/magento cron:run` of de uitsnede wordt uitgevoerd. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
 
 ### Methode 1: Een specifieke coupon maken
 

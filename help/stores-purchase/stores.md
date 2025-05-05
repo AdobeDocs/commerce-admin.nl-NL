@@ -33,7 +33,7 @@ Hier zijn sommige voorbeelden van hoe URLs voor veelvoudige opslag kan worden ge
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Elke winkel heeft een ander pad, maar deelt een domein. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Elke opslag heeft een verschillend subdomein van het primaire domein. |
 
-Installaties voor meerdere opslagruimten van Adobe Commerce moeten worden geconfigureerd via de beheerfunctie en ook vanaf de opdrachtregel van de server. De Gids van de Configuratie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
+Installaties voor meerdere opslagruimten van Adobe Commerce moeten worden geconfigureerd via de beheerfunctie en ook vanaf de opdrachtregel van de server. De Gids van de Configuratie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
 
 ### Stap 1: kies het archiefdomein
 
@@ -105,20 +105,20 @@ De eerste stap bestaat uit het kiezen van de positie van de winkel. Moeten de op
 
 ### Stap 5: Configureer de server
 
-Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in de _Gids van de Configuratie_.
+Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 Zie de volgende bronnen voor hulp bij het configureren van uw webserver:
 
-- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
+- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
 
-Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).
 
 ## Websites toevoegen
 
 U kunt meerdere websites instellen vanuit één Adobe Commerce- of Magento Open Source-installatie met hetzelfde domein of verschillende domeinen. Standaard hebben opslagruimten die zich onder dezelfde website bevinden, hetzelfde IP-adres en hetzelfde domein, gebruiken ze hetzelfde beveiligingscertificaat en delen ze één afrekenproces. Als u elke opslag een specifiek controleproces onder zijn eigen domein wilt hebben, moet elke opslag een verschillend IP adres en een afzonderlijk veiligheidscertificaat hebben.
 
-Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moeten worden geconfigureerd via de beheerfunctie en ook via de opdrachtregel van de server. De Gids van de Configuratie van Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
+Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moeten worden geconfigureerd via de beheerfunctie en ook via de opdrachtregel van de server. De Gids van de Configuratie van Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
 
 ![ Reikwijdte - websites ](./assets/scope-multisite.svg){width="550"}
 
@@ -152,11 +152,11 @@ Om de [ opslag URLs ](store-urls.md) te vormen, volg de instructies.
 
 ### Stap 3: Configureer de server
 
-Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in de _Gids van de Configuratie_.
+Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 Raadpleeg de volgende zelfstudies voor hulp bij het configureren van uw webserver:
 
-- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
+- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
 
-Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).

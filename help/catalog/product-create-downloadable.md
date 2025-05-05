@@ -201,7 +201,7 @@ Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Inform
 
    >[!NOTE]
    >
-   >Koppelingen naar externe bronnen kunt u niet gebruiken als downloadbare producten. De geldige verbindingsdomeinen zijn vooraf bepaald programmatically in het `env.php` dossier (zie [ env.php- verwijzing ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) in de _Gids van de Configuratie_).
+   >Koppelingen naar externe bronnen kunt u niet gebruiken als downloadbare producten. De geldige verbindingsdomeinen zijn vooraf bepaald programmatically in het `env.php` dossier (zie [ env.php- verwijzing ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=nl-NL) in de _Gids van de Configuratie_).
 
    - Stel **[!UICONTROL Shareable]** in op een van de volgende opties:
 

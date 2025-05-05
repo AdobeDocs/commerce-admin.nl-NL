@@ -3,7 +3,7 @@ title: Overzicht van Visual Merchandiser
 description: Leer over de hulpmiddelen van Visual Merchandiser die u toestaan om producten te plaatsen en te bepalen welke producten in de categorielijst verschijnen.
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
 source-wordcount: '382'

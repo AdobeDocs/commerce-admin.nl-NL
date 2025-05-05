@@ -3,7 +3,7 @@ title: Inhoud stapelen
 description: Met Inhoud stapelen kan uw bedrijfsteam eenvoudig een groot aantal inhoudsupdates voor uw winkel maken, voorvertonen en plannen, rechtstreeks vanuit de beheerder.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
 source-wordcount: '946'
@@ -86,6 +86,6 @@ Bekijk de volgende video voor meer informatie over het staging van inhoud:
 
 Raadpleeg de volgende [!DNL Commerce] artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met betrekking tot het staging van inhoud:
 
-- [ Fout 404 op alle pagina&#39;s toe te schrijven aan inhoud die kwestie opneemt ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [ Geplande die updates van het Staging van de Inhoud niet met het oude Fastly geheime voorgeheugen worden getoond ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [ Kan ik de updates van het Staging van de Inhoud voor prijzen in een gedeelde catalogus plannen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [ Fout 404 op alle pagina&#39;s toe te schrijven aan inhoud die kwestie opneemt ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=nl-NL)
+- [ Geplande die updates van het Staging van de Inhoud niet met het oude Fastly geheime voorgeheugen worden getoond ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=nl-NL)
+- [ Kan ik de updates van het Staging van de Inhoud voor prijzen in een gedeelde catalogus plannen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=nl-NL)

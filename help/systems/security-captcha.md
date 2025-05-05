@@ -97,7 +97,7 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _artikel van de Kennisbank_)
+      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL) _artikel van de Kennisbank_)
       - `Send to Friend Form` ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts)
       - `Add Gift Card Code` ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
       - `Create company` ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)

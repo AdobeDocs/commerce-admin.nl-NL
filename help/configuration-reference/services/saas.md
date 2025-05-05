@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] van Commerce Admin.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 0020db425032254fb7661701533d1e700d98260c
 workflow-type: tm+mt
 source-wordcount: '215'
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {de Diensten van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
+Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {de Diensten van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL).
 
 {{config}}
 
@@ -46,7 +46,7 @@ Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Project] | Algemeen | Naam van het project SaaS dat elk van uw gegevensruimten SaaS groepeert. A _creeer de knoop van het Project_ verschijnt als geen projecten SaaS bestaan. |
-| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw [ vergunning van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html) af:<br /> Adobe Commerce - Één ruimte van productiegegevens; twee het testen van gegevensruimten;<br /> Magento Open Source - Één ruimte van productiegegevens; geen het testen van gegevensruimten |
+| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw [ vergunning van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL) af:<br /> Adobe Commerce - Één ruimte van productiegegevens; twee het testen van gegevensruimten;<br /> Magento Open Source - Één ruimte van productiegegevens; geen het testen van gegevensruimten |
 
 {style="table-layout:auto"}
 

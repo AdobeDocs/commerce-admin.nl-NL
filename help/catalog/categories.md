@@ -34,5 +34,5 @@ Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen in categorieën:
 
-- [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [ HoofdMenu (Categorieën) niet getoond op subpages met snelst toegelaten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=nl-NL)
+- [ HoofdMenu (Categorieën) niet getoond op subpages met snelst toegelaten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=nl-NL)

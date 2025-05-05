@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 {{config}}
 
-<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/quotes/quotes) -->
 
 ## [!UICONTROL General]
 

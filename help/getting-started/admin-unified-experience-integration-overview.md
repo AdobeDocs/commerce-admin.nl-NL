@@ -13,7 +13,7 @@ ht-degree: 0%
 # Adobe Experience Cloud-integratie voor Commerce
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce-functie" src="../assets/adobe-logo.svg" width="20" height="20" /> De exclusieve eigenschap slechts in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions"> leert meer </a>)</td></tr>
+<tr><td><img alt="Adobe Commerce-functie" src="../assets/adobe-logo.svg" width="20" height="20" /> De exclusieve eigenschap slechts in Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL#product-editions"> leert meer </a>)</td></tr>
 </table>
 
 Integreer de projecten van Adobe Commerce met Experience Cloud door Admin Verenigde uitbreiding van de Ervaring toe te laten. Als de integratie actief is, hebben beheerders toegang tot Commerce-projecten vanuit Adobe Experience Cloud.
@@ -30,11 +30,11 @@ Beheerders kunnen de opdrachten Admin en Storefront voor elk project openen vanu
 
 - **Momentopname van Commerce storefront homepage** - Momentopname van de storefront homepage. Als een project veelvoudige websites heeft, toont de momentopname de homepage voor de standaardplaats.
 
-- **[naam van het Project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** - identificeert het milieu van het wolkenproject voor de instantie. De naam van het Project blijft aan de [ vertakkingsnaam van de it ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in het wolkenproject in gebreke. Verandering of werk de projectnaam in de [ Verenigde montages van de de opslagconfiguratie van de Ervaring ](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin) bij.
+- **[naam van het Project ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=nl-NL)** - identificeert het milieu van het wolkenproject voor de instantie. De naam van het Project blijft aan de [ vertakkingsnaam van de it ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=nl-NL) in het wolkenproject in gebreke. Verandering of werk de projectnaam in de [ Verenigde montages van de de opslagconfiguratie van de Ervaring ](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin) bij.
 
 - **[opslag URL](../stores-purchase/store-urls.md)** - toont de basis URL voor de standaardwebsite.
 
-- **[het type van Milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** - de instanties van Commerce die aan een ontwikkeling of het opvoeren milieu worden opgesteld worden geïdentificeerd met a [!UICONTROL Development] of [!UICONTROL Staging] etiket. Instanties zonder label worden geïmplementeerd in een productieomgeving.
+- **[het type van Milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=nl-NL)** - de instanties van Commerce die aan een ontwikkeling of het opvoeren milieu worden opgesteld worden geïdentificeerd met a [!UICONTROL Development] of [!UICONTROL Staging] etiket. Instanties zonder label worden geïmplementeerd in een productieomgeving.
 
 - **toegang van Admin van Commerce** - open Admin door **[!UICONTROL Open]** te klikken.
 
@@ -50,7 +50,7 @@ Wanneer de integratie van het Experience Cloud wordt toegelaten, gebruiken de be
 
    ![ het Teken van het Experience Cloud binnen pagina ](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   Beheerders moeten zich aanmelden bij Experience Cloud met het bedrijfsprofiel van de Adobe voor de organisatie die is gekoppeld aan de Commerce-instantie. Zie [ de profielen van de Adobe beheren ](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   Beheerders moeten zich aanmelden bij Experience Cloud met het bedrijfsprofiel van de Adobe voor de organisatie die is gekoppeld aan de Commerce-instantie. Zie [ de profielen van de Adobe beheren ](https://helpx.adobe.com/nl/enterprise/using/manage-adobe-profiles.html).
 
 1. Open op de startpagina van het Experience Cloud de [!UICONTROL Commerce Projects workspace] door **[!UICONTROL Open]** te selecteren.
 

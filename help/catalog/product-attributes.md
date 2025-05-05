@@ -47,4 +47,4 @@ Verwijder ongebruikte producteigenschappen voor betere structurering en snellere
 
 >[ NOTA!]
 >
->Voor informatie bij het optimaliseren van de configuratie van de productattributen voor prestaties, zie [ beste praktijken van het beheer van de Catalogus ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) in _Playbook van de Implementatie_.
+>Voor informatie bij het optimaliseren van de configuratie van de productattributen voor prestaties, zie [ beste praktijken van het beheer van de Catalogus ](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) in _Playbook van de Implementatie_.

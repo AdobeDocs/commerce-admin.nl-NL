@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Cataloguszoekopdracht configureren
 
-Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. De eerste methode beschrijft de beschikbare montages wanneer [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) geïnstalleerd is. De tweede methode beschrijft de configuratiemontages voor inheemse Adobe Commerce met [ OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) {:target="_blank"}.
+Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. De eerste methode beschrijft de beschikbare montages wanneer [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) geïnstalleerd is. De tweede methode beschrijft de configuratiemontages voor inheemse Adobe Commerce met [ OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=nl-NL) {:target="_blank"}.
 
 >[!NOTE]
 >
->Voor de projecten van de wolkeninfrastructuur, zie extra instructies in [_Commerce op de Gids van de Infrastructuur van de Wolk_ ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>Voor de projecten van de wolkeninfrastructuur, zie extra instructies in [_Commerce op de Gids van de Infrastructuur van de Wolk_ ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Methode 1: Adobe Commerce met [!DNL Live Search]
 
@@ -36,7 +36,7 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 
    De standaardwaarde is `100` . Als u de waarde `0` invoert, worden alle zoektermen en resultaten in cache opgeslagen wanneer u de tweede keer invoert.
 
-1. Om het maximumaantal lijnen te veranderen die voor teruggekeerde resultaten in [ storefront pop over ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) beschikbaar zijn, ga een verschillende **[!UICONTROL Autocomplete Limit]** waarde in.
+1. Om het maximumaantal lijnen te veranderen die voor teruggekeerde resultaten in [ storefront pop over ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=nl-NL) beschikbaar zijn, ga een verschillende **[!UICONTROL Autocomplete Limit]** waarde in.
 
    Als u het aantal regels beperkt, worden zoekopdrachten sneller uitgevoerd en wordt de lijst kleiner. De standaardwaarde is `8` regels.
 
@@ -44,7 +44,7 @@ Er zijn twee variaties van de configuratie van het Onderzoek van de Catalogus. D
 
 >[!IMPORTANT]
 >
->- Vanwege de aankondiging van het einde van de [!DNL Elasticsearch 7] -service voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x-zoekfunctie migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in de _Gids van de Verbetering_.
+>- Vanwege de aankondiging van het einde van de [!DNL Elasticsearch 7] -service voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x-zoekfunctie migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
 >- In versies 2.4.4 en 2.4.3-p2 zijn alle velden met het label Elasticsearch ook van toepassing op OpenSearch. Toen de steun voor Elasticsearch 8.x in versie 2.4.6 werd geïntroduceerd, werden de nieuwe etiketten gecreeerd om tussen Elasticsearch en configuraties te onderscheiden OpenSearch. De configuratieopties voor beide zijn echter gelijk.
 
 ### Stap 1: algemene zoekopties configureren

@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u hebt geprobeerd deze stappen uit te voeren en problemen ondervindt, raadpleegt u het [Knowledge Base-artikel Problemen met versleutelingssleutelrotatie: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base.
+>Als u hebt geprobeerd deze stappen uit te voeren en problemen ondervindt, raadpleegt u het [Knowledge Base-artikel Problemen met versleutelingssleutelrotatie: CVE-2024-34102](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base.
 
 Adobe Commerce en Magento Open Source gebruiken een versleutelingssleutel om wachtwoorden en andere gevoelige gegevens te beschermen. Een industriestandaard [!DNL ChaCha20-Poly1305] algoritme wordt gebruikt met een 256-bits sleutel om alle gegevens te versleutelen die versleuteling vereisen. Dit omvat creditcardgegevens en integratiewachtwoorden (betalings- en verzendmodule). Bovendien wordt een sterk Secure Hash Algorithm (SHA-256) gebruikt om alle gegevens te hashen die niet hoeven te worden ontsleuteld.
 
 Tijdens de eerste installatie wordt u gevraagd om Commerce een coderingssleutel te laten genereren of om een eigen coderingssleutel in te voeren. Met de coderingssleutel kunt u de sleutel naar behoefte wijzigen. De coderingssleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren, en op elk moment kan de oorspronkelijke sleutel worden gecompromitteerd.
 
-Zie [Geavanceerde on-premises installatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in de _installatiehandleiding_ en [versleuteling van gegevens in de _PHP-ontwikkelaarshandleiding](https://developer.adobe.com/commerce/php/development/security/data-encryption/)_ voor technische informatie.
+Zie [Geavanceerde on-premises installatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) in de _installatiehandleiding_ en [versleuteling van gegevens in de _PHP-ontwikkelaarshandleiding](https://developer.adobe.com/commerce/php/development/security/data-encryption/)_ voor technische informatie.
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Zie [Geavanceerde on-premises installatie](https://experienceleague.adobe.com/do
 
 Voor de volgende instructies is toegang tot een terminal vereist.
 
-1. Schakel de onderhoudsmodus[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) in.
+1. Schakel de onderhoudsmodus[&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) in.
 
    ```bash
    bin/magento maintenance:enable

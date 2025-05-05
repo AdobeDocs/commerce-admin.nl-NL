@@ -162,7 +162,7 @@ De beheerder biedt toegang om de functies voor bestellingen, klanten, producten,
 
 Om de veiligheid van uw admin te verzekeren, voer regelmatige controles van gebruikers en rollen met admintoegang uit.
 
-Bovendien, overweeg [ het bijwerken van de configuratie Admin Basis URL ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) om het standaard `/admin` eindpunt in een douanepad te veranderen. Het vormen van een douanepad verstrekt de volgende veiligheidsvoordelen:
+Bovendien, overweeg [ het bijwerken van de configuratie Admin Basis URL ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/advanced/admin#admin-base-url) om het standaard `/admin` eindpunt in een douanepad te veranderen. Het vormen van een douanepad verstrekt de volgende veiligheidsvoordelen:
 
 **Verbeterde Veiligheid**: De standaard &quot;admin&quot;weg is wijd gekend en vaak gericht door kwaadwillige acteurs die brute krachtaanvallen proberen. Door het in een unieke, douanewaarde te veranderen, vermindert u beduidend het risico van ongeoorloofde toegangspogingen.
 
@@ -174,4 +174,4 @@ Bovendien, overweeg [ het bijwerken van de configuratie Admin Basis URL ](https:
 
 >[!NOTE]
 >
->Als een breuk wordt vermoed, zorg ervoor om alle onbekende gebruikers Admin te verwijderen en alle wachtwoorden Admin terug te stellen en het [ actieplan van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) voor verdere stappen te herzien.
+>Als een breuk wordt vermoed, zorg ervoor om alle onbekende gebruikers Admin te verwijderen en alle wachtwoorden Admin terug te stellen en het [ actieplan van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security) voor verdere stappen te herzien.

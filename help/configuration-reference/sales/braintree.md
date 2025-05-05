@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pagina voor hulp.
+>Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/nl/manage-account/using/cancel-subscription.html) pagina voor hulp.
 
 ## [!UICONTROL Basic Braintree Settings]
 

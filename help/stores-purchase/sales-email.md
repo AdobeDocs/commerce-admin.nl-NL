@@ -35,7 +35,7 @@ Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-t
    - `Disable` - Verstuurt een e-mail over de verkoop wanneer deze door een gebeurtenis wordt geactiveerd.
    - `Enable` - Verzendt een e-mail met vooraf bepaalde, regelmatige intervallen.
 
-   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [ beste praktijken van de Configuratie voor ordeverwerking ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in de Kennisbank van de Steun van Adobe Commerce.
+   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [ beste praktijken van de Configuratie voor ordeverwerking ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=nl-NL) in de Kennisbank van de Steun van Adobe Commerce.
 
 ## Stap 3. Voer de gegevens voor elk e-mailbericht in
 

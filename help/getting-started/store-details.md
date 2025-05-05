@@ -169,7 +169,7 @@ U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmet
 
 Raadpleeg de volgende artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met de landconfiguratie: [!DNL Commerce]
 
-- [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html) toe te voegen
+- [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=nl-NL) toe te voegen
 
 ## [!UICONTROL Merchant Location]
 

@@ -80,7 +80,7 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 1. Schuif omlaag en klik op **[!UICONTROL Continue]** in de rechterbenedenhoek van de pagina.
 
-   Na voltooiing van de taak wordt het bestand verwerkt via een wachtrij met berichten (zorg ervoor dat de uitsnijdtaak wordt uitgevoerd). Het geëxporteerde bestand wordt opgeslagen in de `var/export/ folder` . Voor meer informatie over de berichtrij, zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_.
+   Na voltooiing van de taak wordt het bestand verwerkt via een wachtrij met berichten (zorg ervoor dat de uitsnijdtaak wordt uitgevoerd). Het geëxporteerde bestand wordt opgeslagen in de `var/export/ folder` . Voor meer informatie over de berichtrij, zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_.
 
    U kunt het geëxporteerde CSV-bestand opslaan of openen als spreadsheet, de gegevens vervolgens bewerken en weer importeren in uw winkel.
 
@@ -92,4 +92,4 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met het exporteren van gegevens:
 
-- [ Uitgevoerde producten.csv- dossier verschijnt niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [ Uitgevoerde producten.csv- dossier verschijnt niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=nl-NL)

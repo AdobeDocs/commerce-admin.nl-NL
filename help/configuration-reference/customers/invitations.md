@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![ Algemeen ](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [General](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![ E-mail ](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [Email](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |

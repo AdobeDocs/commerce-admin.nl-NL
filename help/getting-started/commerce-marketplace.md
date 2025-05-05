@@ -77,7 +77,7 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
 >[!IMPORTANT]
 >
->Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) te installeren of [ verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uw instantie.  Dit vereiste omvat ook [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [ uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) te installeren of [ verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL) uw instantie.  Dit vereiste omvat ook [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) en [ uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL).
 
 Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [ worden ontvangen de Architectuur van de Wolk van Adobe ][4].
 

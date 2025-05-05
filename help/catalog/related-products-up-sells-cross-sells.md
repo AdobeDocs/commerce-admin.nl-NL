@@ -35,7 +35,7 @@ Elk blok bestaat uit een lijst van producten die tot een specifieke optie behore
 >
 >![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) **de Aanbevelingen van het Product die door Adobe Sensei** worden aangedreven vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
 ><br/>
->Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
+>Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL)_.
 
 ## Verwante producten
 
