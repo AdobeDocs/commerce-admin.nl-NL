@@ -67,7 +67,7 @@ In de volgende tabel wordt de compatibiliteit tussen versies van Adobe Commerce 
 
 >[!ENDSHADEBOX]
 
-Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magento/hipaa-ee`) voor een instantie die Adobe Commerce versie 2.4.7-p5 of 2.4.6-p3 tot en met 2.4.6-p8 uitvoert. De uitbreiding wordt geleverd als composer metapack van de {](https://repo.magento.com) bewaarplaats 0} repo.magento.com. [ Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
+Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magento/hipaa-ee`) voor een instantie die Adobe Commerce versie 2.4.7-p5 of 2.4.6-p3 tot en met 2.4.6-p8 uitvoert. De uitbreiding wordt geleverd als composer metapack van de {[&#128279;](https://repo.magento.com) bewaarplaats 0} repo.magento.com.  Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ De extensie `magento/hipaa-ee` bevat enkele wijzigingen en verbeteringen voor he
 
 ### Handelingenlogboeken
 
-Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce, registreert de ](../../systems/action-log.md) eigenschap van de Actie 0} {elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. [ Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
+Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce, registreert de [&#128279;](../../systems/action-log.md) eigenschap van de Actie 0&rbrace; &lbrace;elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt.  Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
 
 Met Action Logs worden ook gebeurtenissen vastgelegd wanneer Adobe-services toegang krijgen tot uw opslaggegevens. U kunt deze gebeurtenissen identificeren door te filteren op de actie &quot;Gegevens verzonden buiten&quot;in het rapport van de Logs van de Actie.
 

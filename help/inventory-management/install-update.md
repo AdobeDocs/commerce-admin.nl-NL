@@ -84,7 +84,7 @@ Tijdens het installatieproces van [!DNL Inventory Management] worden alle module
 
 ## [!DNL Inventory Management] -functies inschakelen
 
-Wanneer de optie _[!UICONTROL Manage Stock]_in de beheerfunctie is geïnstalleerd, bijgewerkt of bijgewerkt, is deze standaard ingeschakeld. Met deze optie kunt u inventarisgegevens bijhouden en beheren, maar dit heeft geen invloed op de status van de module. Zie de volgende sectie om modules uit te schakelen.
+Wanneer de optie _[!UICONTROL Manage Stock]_&#x200B;in de beheerfunctie is geïnstalleerd, bijgewerkt of bijgewerkt, is deze standaard ingeschakeld. Met deze optie kunt u inventarisgegevens bijhouden en beheren, maar dit heeft geen invloed op de status van de module. Zie de volgende sectie om modules uit te schakelen.
 
 Voor meer informatie over configuraties, zie [ Inventory management ](configuration.md) vormen.
 

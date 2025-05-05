@@ -48,7 +48,7 @@ Gebruik de volgende configuratie-instellingen om de maximale sessiegrootte voor 
 
 ### Admin-sessies
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Als u de maximale sessiegrootte overschrijdt, wordt een foutbericht weergegeven en wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-sessies
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, maar wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
@@ -80,7 +80,7 @@ Het toelaten van alle bevestigingsvariabelen kan aanvallen helpen verhinderen, m
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster _[!UICONTROL General]_uit en kies **[!UICONTROL Web]**.
+1. Vouw in het linkerdeelvenster _[!UICONTROL General]_&#x200B;uit en kies **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie uit.
 

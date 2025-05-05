@@ -33,7 +33,7 @@ De geplande invoer en de uitvoer kunnen op een dagelijkse, wekelijkse, of maandb
    >
    >Wanneer u een geplande import/export maakt of bijwerkt, leidt dit tot een wijziging in de systeemconfiguratie. Nadat u het bestand hebt opgeslagen, controleert u of u de melding van de cachevalidatie die boven aan de beheerpagina wordt weergegeven, hebt opgelost en verwijdert u de cache om het nieuwe of bijgewerkte schema toe te passen.
 
-1. [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke geplande baan, wordt een exemplaar van het dossier geplaatst in de `var/log/import_export` folder op de lokale server van Adobe Commerce.
+1. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke geplande baan, wordt een exemplaar van het dossier geplaatst in de `var/log/import_export` folder op de lokale server van Adobe Commerce.
 
    De details van elke verrichting worden niet geschreven aan het logboek. Als een fout optreedt, wordt een melding verzonden van de mislukte import-/exporttaak, met een beschrijving van de fout.
 
@@ -48,7 +48,7 @@ Het voordeel van geplande importbewerkingen is dat u een gegevensbestand meerder
 
 De details van elke de invoerverrichting worden niet geschreven aan een logboek, maar wanneer er een mislukking is ontvangt u Ontbroken _Invoer_ e-mail met een beschrijving van de fout. Het resultaat van de laatste geplande importtaak wordt weergegeven in de kolom Laatste resultaat op de geplande pagina Importeren/exporteren.
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke de invoerverrichting, wordt een exemplaar van het de invoerdossier geplaatst in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. De tijdstempel, de markering van de geïmporteerde entiteit (producten of klanten) en het type bewerking (in dit geval importeren) worden toegevoegd aan de naam van het importbestand.
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke de invoerverrichting, wordt een exemplaar van het de invoerdossier geplaatst in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. De tijdstempel, de markering van de geïmporteerde entiteit (producten of klanten) en het type bewerking (in dit geval importeren) worden toegevoegd aan de naam van het importbestand.
 
 Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgevoerd. Op de voorgrond worden wijzigingen in de beschrijvingen en andere tekstinformatie weerspiegeld nadat de bijgewerkte gegevens naar de database gaan, en de prijswijzigingen worden pas na de herindexeringsoperatie doorgevoerd.
 
@@ -83,7 +83,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
      >[!NOTE]
      >
-     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_en_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
+     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_&#x200B;en&#x200B;_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Stel dit in op het uur, de minuut en de seconde waarop het importeren moet beginnen.
 
@@ -173,7 +173,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 | Veld | Beschrijving |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
+| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_&#x200B;selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
 | [!UICONTROL File Directory] | Geef de map op waarin het importbestand zich bevindt. Als Servertype is ingesteld op _[!UICONTROL Local Server]_, geeft u het pad op ten opzichte van de installatiemap van Commerce. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
 | [!UICONTROL File Name] | Geef de naam van het importbestand op. |
 | [!UICONTROL Images File Directory] | Voer het pad in naar de map waarin de productafbeeldingen zijn opgeslagen. Voer voor een lokale server een relatief pad in. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
@@ -203,7 +203,7 @@ Het voordeel van het gebruik van Geplande export is dat u gegevens meerdere kere
 
 De details van elke export worden niet naar een logboek geschreven, maar als er een fout optreedt, ontvangt u een e-mail met exportfout die de foutbeschrijving bevat. Het resultaat van de laatste exporttaak wordt weergegeven in de kolom Laatste resultaat op de pagina Geplande import/export.
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke uitvoer, wordt het uitvoerdossier geplaatst in de user-defined plaats, en een exemplaar in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. Het tijdstempel en de markering van de geëxporteerde entiteit (producten of klanten) en het type bewerking (in dit geval exporteren) worden toegevoegd aan de naam van het exportbestand.
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke uitvoer, wordt het uitvoerdossier geplaatst in de user-defined plaats, en een exemplaar in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. Het tijdstempel en de markering van de geëxporteerde entiteit (producten of klanten) en het type bewerking (in dit geval exporteren) worden toegevoegd aan de naam van het exportbestand.
 
 ### Stap 1: de exportinstellingen voltooien
 
@@ -224,7 +224,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
       - `Customer Addresses`
       - `Stock Sources`
 
-     De sectie _[!UICONTROL Entity Attributes]_onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
+     De sectie _[!UICONTROL Entity Attributes]_&#x200B;onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
 
    - Stel **[!UICONTROL Start Time]** in op het uur, de minuut en de seconde waarop het exporteren moet beginnen.
 
@@ -285,9 +285,9 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 
 ### Stap 4: kies de entiteitskenmerken
 
-1. Kies in de sectie _[!UICONTROL Entity Attributes]_de kenmerken die u wilt opnemen in de exportgegevens.
+1. Kies in de sectie _[!UICONTROL Entity Attributes]_&#x200B;de kenmerken die u wilt opnemen in de exportgegevens.
 
-   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_in.
+   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_&#x200B;in.
    - Als u producten of klanten met bepaalde kenmerkwaarden wilt uitsluiten, voert u de waarden in van de kenmerken die u wilt uitsluiten en schakelt u het selectievakje Overslaan in de kolom Overslaan in.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
@@ -319,7 +319,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 | Veld | Beschrijving |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Bepaalt de locatie van het exportbestand. Opties:<br>**Lokale Server** - Plaatst het de uitvoerdossier op de zelfde server waar Commerce wordt opgesteld. Als de externe opslagmodule is ingeschakeld, wordt `Local Server` geschakeld naar `Remote Storage` .<br>**Verre FTP** — Plaatst het de uitvoerdossier op een verre server. Er worden extra opties voor referenties en instellingen voor bestandsoverdracht weergegeven. |
-| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
+| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_&#x200B;is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
 
 {style="table-layout:auto"}
 

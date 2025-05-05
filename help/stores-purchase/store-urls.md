@@ -33,7 +33,7 @@ Als een beveiligingscertificaat niet beschikbaar was voor het domein op het mome
 >
 >Adobe raadt ten zeerste aan alle pagina&#39;s van een productiesite, inclusief de inhoud en productpagina&#39;s, via een beveiligd protocol over te brengen.
 
-Adobe Commerce en Magento Open Source kunnen standaard worden geconfigureerd om alle pagina&#39;s via `HTTPS` te leveren. Als uw opslag met standaardprotocol in werking is gesteld, kunt u veiligheid verbeteren door ][2] de Strikte Veiligheid van het Vervoer van HTTP toe te laten [ (HSTS) en om het even welke onveilige paginaverzoeken te bevorderen. HSTS is een opt-in protocol dat browsers verhindert standaard `HTTP` pagina&#39;s terug te geven die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s elke pagina van uw winkel mogelijk al hebben geïndexeerd met standaard `HTTP` URL&#39;s, kunt u Commerce zo configureren dat onveilige paginaaanvragen automatisch worden bijgewerkt naar `HTTPS` , zodat er geen verkeer verloren gaat. Wanneer Commerce is geconfigureerd voor het gebruik van beveiligde URL&#39;s voor zowel de winkel als de beheerder, worden twee extra velden weergegeven waarmee u `HSTS` kunt inschakelen.
+Adobe Commerce en Magento Open Source kunnen standaard worden geconfigureerd om alle pagina&#39;s via `HTTPS` te leveren. Als uw opslag met standaardprotocol in werking is gesteld, kunt u veiligheid verbeteren door &rbrack;[2] de Strikte Veiligheid van het Vervoer van HTTP toe te laten &lbrack; (HSTS) en om het even welke onveilige paginaverzoeken te bevorderen. HSTS is een opt-in protocol dat browsers verhindert standaard `HTTP` pagina&#39;s terug te geven die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s elke pagina van uw winkel mogelijk al hebben geïndexeerd met standaard `HTTP` URL&#39;s, kunt u Commerce zo configureren dat onveilige paginaaanvragen automatisch worden bijgewerkt naar `HTTPS` , zodat er geen verkeer verloren gaat. Wanneer Commerce is geconfigureerd voor het gebruik van beveiligde URL&#39;s voor zowel de winkel als de beheerder, worden twee extra velden weergegeven waarmee u `HSTS` kunt inschakelen.
 
 ## De basis-URL configureren
 
@@ -47,7 +47,7 @@ Adobe Commerce en Magento Open Source kunnen standaard worden geconfigureerd om 
 
      >[!NOTE]
      >
-     >Wijzig de plaatsaanduiding in het veld _[!UICONTROL Base Link URL]_niet. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
+     >Wijzig de plaatsaanduiding in het veld _[!UICONTROL Base Link URL]_&#x200B;niet. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
 
    - **[!UICONTROL Base URL for Static View Files]** — (Optioneel) Geef een alternatieve locatie op voor de basis-URL voor statische weergavebestanden door het pad in te voeren, te beginnen met de volgende plaatsaanduiding:
 
@@ -92,7 +92,7 @@ Als uw domein een geldig veiligheidscertificaat heeft, kunt u URLs van zowel de 
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. Voer voor _[!UICONTROL Enhanced Security Settings]_de volgende handelingen uit:
+1. Voer voor _[!UICONTROL Enhanced Security Settings]_&#x200B;de volgende handelingen uit:
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — Als u wilt dat uw winkel alleen beveiligde HTTPS-paginaaanvragen weergeeft, stelt u deze in op `Yes` .
 
@@ -112,7 +112,7 @@ Als uw domein een geldig veiligheidscertificaat heeft, kunt u URLs van zowel de 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies onder _[!UICONTROL General]_in het linkerdeelvenster de optie **[!UICONTROL Web]**.
+1. Kies onder _[!UICONTROL General]_&#x200B;in het linkerdeelvenster de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL URL Options]** sectie uit.
 
