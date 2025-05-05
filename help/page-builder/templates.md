@@ -30,7 +30,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!
 
    ![[!DNL Page Builder] werkgebied met knop Opslaan als sjabloon ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Save Content as Template]_weergegeven.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Save Content as Template]_&#x200B;weergegeven.
 
    ![[!DNL Page Builder] Het dialoogvenster Opslaan als sjabloon ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ U kunt een sjabloon toepassen op een [!DNL Page Builder] -inhoudsgebied (pagina,
 
    ![[!DNL Page Builder] Knop Sjabloon toepassen ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Kies een sjabloon in het _[!UICONTROL Apply Template]_-raster en klik op **[!UICONTROL Apply]**aan het einde van de rij.
+1. Kies een sjabloon in het _[!UICONTROL Apply Template]_-raster en klik op **[!UICONTROL Apply]**&#x200B;aan het einde van de rij.
 
    Als u de volledige sjabloon wilt zien, klikt u op de miniatuurafbeelding van de sjabloon. Met deze handeling wordt de afbeelding uitgebreid, zodat u de volledige sjabloon naar wens kunt bekijken.
 
@@ -74,7 +74,7 @@ U kunt een sjabloon toepassen op een [!DNL Page Builder] -inhoudsgebied (pagina,
 
 ## Filtersjablonen
 
-_pas het 1} net van het Malplaatje {en het_ 3} paginaraster van Malplaatjes {toe verstrekt twee manieren om het malplaatjeraster te filtreren:__
+_pas het 1&rbrace; net van het Malplaatje {en het_ 3} paginaraster van Malplaatjes &lbrace;toe verstrekt twee manieren om het malplaatjeraster te filtreren:__
 
 - Gebruik het zoekvak linksboven om het raster te filteren op de sjabloonnaam, gebaseerd op de ingevoerde tekst.
 

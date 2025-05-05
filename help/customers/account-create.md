@@ -116,7 +116,7 @@ Als handelaar, kunt u een klantenrekening van Admin tot stand brengen.
 
    >[!INFO]
    >
-   >Nadat de klantenrekening wordt bewaard, verschijnt de volledige reeks opties in het linkerpaneel en in het menu bij de bovenkant van de pagina. Op het tabblad _[!UICONTROL Customer View]_wordt een overzicht van de account weergegeven.
+   >Nadat de klantenrekening wordt bewaard, verschijnt de volledige reeks opties in het linkerpaneel en in het menu bij de bovenkant van de pagina. Op het tabblad _[!UICONTROL Customer View]_&#x200B;wordt een overzicht van de account weergegeven.
 
    ![ Mening van de Klant ](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Als handelaar, kunt u een klantenrekening van Admin tot stand brengen.
 
    Anders klikt u op **[!UICONTROL Save and Continue Edit]** en herhaalt u de vorige stappen om extra adressen toe te voegen.
 
-   Het nieuwe adres wordt weergegeven op de pagina [!UICONTROL Addresses] met de geselecteerde _[!UICONTROL Default Billing]_- en_[!UICONTROL Default Shipping]_ -adressen boven de volledige lijst.
+   Het nieuwe adres wordt weergegeven op de pagina [!UICONTROL Addresses] met de geselecteerde _[!UICONTROL Default Billing]_- en&#x200B;_[!UICONTROL Default Shipping]_ -adressen boven de volledige lijst.
 
    ![ mening van Adressen ](assets/address-list.png){width="600" zoomable="yes"}
 

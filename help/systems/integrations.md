@@ -19,7 +19,7 @@ Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth
 
 ## Workflow voor onboarding
 
-1. **machtigt de integratie** - ga naar **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**pagina, vind de relevante integratie, en autoriseer.
+1. **machtigt de integratie** - ga naar **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;pagina, vind de relevante integratie, en autoriseer.
 1. **verifieer en vestigt login** - wanneer ertoe aangezet, keur de gevraagde toegang goed. Als u een account hebt omgeleid naar een derde, meldt u zich aan bij het systeem of maakt u een account. Na een geslaagde aanmelding keert u terug naar de integratiepagina.
 1. **ontvang bevestiging van erkende integratie** - het systeem verzendt bericht dat de integratie met succes is gemachtigd. Na vestiging is een integratie en het ontvangen van de geloofsbrieven, het niet meer noodzakelijk om vraag aan toegang of verzoektekenen te maken.
 
@@ -80,7 +80,7 @@ Om een nieuwe Token van de Toegang van de Integratie en het Geheime Geheim van d
 
 1. De integratie met de status **[!UICONTROL Active]** zoeken.
 
-1. Klik in de kolom _[!UICONTROL Activate]_op **[!UICONTROL Reauthorize]**.
+1. Klik in de kolom _[!UICONTROL Activate]_&#x200B;op **[!UICONTROL Reauthorize]**.
 
 1. Klik op **[!UICONTROL Reauthorize]** om de toegang tot de API-bronnen goed te keuren.
 

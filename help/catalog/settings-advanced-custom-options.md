@@ -30,7 +30,7 @@ Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële bereken
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Customizable Options]_sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Customizable Options]_&#x200B;sectie.
 
 1. Klik op **[!UICONTROL Add Option]**.
 
@@ -57,7 +57,7 @@ Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële bereken
 
    - (Optioneel) Voer een **[!UICONTROL SKU]** in voor de optie. De optie SKU is een achtervoegsel dat aan product SKU wordt toegevoegd.
 
-   - Als de waarde _[!UICONTROL Option Type]_`File` is, stelt u de parameters voor het bestand in. Voer bij **[!UICONTROL Compatible File Extensions]**de geldige extensies in als door komma&#39;s gescheiden waarden (zoals `png, jpg, gif` ). Voer bij **[!UICONTROL Maximum Image Size]**de maximale afbeeldingsgrootte in pixels in. Als het een tekstitem is, voert u de maximumwaarde voor **[!UICONTROL Maximum Characters]**in.
+   - Als de waarde _[!UICONTROL Option Type]_`File` is, stelt u de parameters voor het bestand in. Voer bij **[!UICONTROL Compatible File Extensions]**&#x200B;de geldige extensies in als door komma&#39;s gescheiden waarden (zoals `png, jpg, gif` ). Voer bij **[!UICONTROL Maximum Image Size]**&#x200B;de maximale afbeeldingsgrootte in pixels in. Als het een tekstitem is, voert u de maximumwaarde voor **[!UICONTROL Maximum Characters]**&#x200B;in.
 
    ![ voegt Waarden voor aanpassingsoptie ](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"} toe
 

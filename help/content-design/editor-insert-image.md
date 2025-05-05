@@ -21,7 +21,7 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_&#x200B;en klik op een element dat de editor ondersteunt.
 
 1. Plaats de cursor op de positie waar u de afbeelding wilt weergeven.
 
@@ -29,9 +29,9 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
    ![ pictogram van het Beeld van het Tussenvoegsel ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_&#x200B;geopend.
 
-1. Voor **Source**, klik het _3} pictogram van het Onderzoek {en gebruik de methode die de plaats van de beeldactiva aanpast die u wilt gebruiken:_
+1. Voor **Source**, klik het _3&rbrace; pictogram van het Onderzoek &lbrace;en gebruik de methode die de plaats van de beeldactiva aanpast die u wilt gebruiken:_
 
    ![ Selecterend het onderzoekspictogram ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

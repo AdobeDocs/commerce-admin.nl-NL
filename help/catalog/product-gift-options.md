@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Gift Options]
 
-In de sectie _[!UICONTROL Gift Options]_kunt u het bericht en de opties voor het inpakken van cadeaus instellen bij het afrekenen op productniveau. Schakel het selectievakje **[!UICONTROL Use Config Settings]**uit als u de standaardconfiguratie-instelling wilt overschrijven.
+In de sectie _[!UICONTROL Gift Options]_&#x200B;kunt u het bericht en de opties voor het inpakken van cadeaus instellen bij het afrekenen op productniveau. Schakel het selectievakje **[!UICONTROL Use Config Settings]**&#x200B;uit als u de standaardconfiguratie-instelling wilt overschrijven.
 
 ![ Cadeauopties ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ In de sectie _[!UICONTROL Gift Options]_kunt u het bericht en de opties voor het
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Gift Options]_sectie en doet het volgende:
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Gift Options]_&#x200B;sectie en doet het volgende:
 
    - Schakel het selectievakje **[!UICONTROL Use Config Settings]** uit als u de standaardinstelling wilt overschrijven.
 

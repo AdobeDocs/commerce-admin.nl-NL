@@ -33,7 +33,7 @@ Hier zijn sommige voorbeelden van hoe URLs voor veelvoudige opslag kan worden ge
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Elke winkel heeft een ander pad, maar deelt een domein. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Elke opslag heeft een verschillend subdomein van het primaire domein. |
 
-Installaties voor meerdere opslagruimten van Adobe Commerce moeten worden geconfigureerd via de beheerfunctie en ook vanaf de opdrachtregel van de server. De Gids van de Configuratie van Adobe Commerce [ ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
+Installaties voor meerdere opslagruimten van Adobe Commerce moeten worden geconfigureerd via de beheerfunctie en ook vanaf de opdrachtregel van de server. De Gids van de Configuratie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
 
 ### Stap 1: kies het archiefdomein
 
@@ -85,7 +85,7 @@ De eerste stap bestaat uit het kiezen van de positie van de winkel. Moeten de op
 
 1. Voor _Admin_ sidebar, klik **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies onder _[!UICONTROL General]_in het linkerdeelvenster aan de linkerkant de optie **[!UICONTROL Web]**.
+1. Kies onder _[!UICONTROL General]_&#x200B;in het linkerdeelvenster aan de linkerkant de optie **[!UICONTROL Web]**.
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op de weergave die u voor de nieuwe winkel hebt gemaakt.
 
@@ -118,7 +118,7 @@ Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websit
 
 U kunt meerdere websites instellen vanuit één Adobe Commerce- of Magento Open Source-installatie met hetzelfde domein of verschillende domeinen. Standaard hebben opslagruimten die zich onder dezelfde website bevinden, hetzelfde IP-adres en hetzelfde domein, gebruiken ze hetzelfde beveiligingscertificaat en delen ze één afrekenproces. Als u elke opslag een specifiek controleproces onder zijn eigen domein wilt hebben, moet elke opslag een verschillend IP adres en een afzonderlijk veiligheidscertificaat hebben.
 
-Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moeten worden geconfigureerd via de beheerfunctie en ook via de opdrachtregel van de server. De Gids van de Configuratie van Commerce [ ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
+Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moeten worden geconfigureerd via de beheerfunctie en ook via de opdrachtregel van de server. De Gids van de Configuratie van Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
 
 ![ Reikwijdte - websites ](./assets/scope-multisite.svg){width="550"}
 

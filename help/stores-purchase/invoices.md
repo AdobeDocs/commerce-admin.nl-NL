@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Facturen
 
-Een factuur is een overzicht van de betalingsgegevens van een bestelling. De veelvoudige facturen kunnen [ ](#create-an-invoice) voor één enkele orde worden gecreeerd, en elk kunnen zo vele of zo weinig van de gekochte producten omvatten die u specificeert. U kunt [ druk-klaar PDF facturen ](#print-invoices) als verkoopdocumenten voor uw klanten ook tot stand brengen.
+Een factuur is een overzicht van de betalingsgegevens van een bestelling. De veelvoudige facturen kunnen [&#128279;](#create-an-invoice) voor één enkele orde worden gecreeerd, en elk kunnen zo vele of zo weinig van de gekochte producten omvatten die u specificeert. U kunt [ druk-klaar PDF facturen ](#print-invoices) als verkoopdocumenten voor uw klanten ook tot stand brengen.
 
-Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > _Verrichtingen_ > **Facturen** om het _8} net van Facturen {te openen en tot uw gecreeerde facturen toegang te hebben._
+Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > _Verrichtingen_ > **Facturen** om het _8&rbrace; net van Facturen &lbrace;te openen en tot uw gecreeerde facturen toegang te hebben._
 
 ![ het net van Facturen ](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -71,7 +71,7 @@ Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worde
 
    >[!NOTE]
    >
-   >De _[!UICONTROL Invoice]_optie verschijnt niet wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw specifieke [ betalingsmethode ](../configuration-reference/sales/payment-methods.md) aan `Authorize and Capture` wordt geplaatst, die auto-produceert een factuur. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
+   >De _[!UICONTROL Invoice]_&#x200B;optie verschijnt niet wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw specifieke [ betalingsmethode ](../configuration-reference/sales/payment-methods.md) aan `Authorize and Capture` wordt geplaatst, die auto-produceert een factuur. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
 
    ![ de Orde van de Verkoop van de Factuur ](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -121,7 +121,7 @@ Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worde
 
 ## Facturen afdrukken
 
-Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een high-resolution embleem voor een druk-klaar PDF factuur uploaden, en [ identiteitskaart van de Orde ](../stores-purchase/sales-documents.md#add-reference-ids) in de kopbal omvatten. Om het factuurmalplaatje met uw embleem en adres aan te passen, zie {de Vereisten van het Logo van 0} PDF ](../stores-purchase/sales-documents.md#image-formats).[
+Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een high-resolution embleem voor een druk-klaar PDF factuur uploaden, en [ identiteitskaart van de Orde ](../stores-purchase/sales-documents.md#add-reference-ids) in de kopbal omvatten. Om het factuurmalplaatje met uw embleem en adres aan te passen, zie {de Vereisten van het Logo van 0} PDF [&#128279;](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een fact
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. In het _[!UICONTROL Invoices]_net, bepaal de plaats van de factuur en klik **[!UICONTROL View]**in de_ kolom van de Actie _.
+1. In het _[!UICONTROL Invoices]_&#x200B;net, bepaal de plaats van de factuur en klik **[!UICONTROL View]**&#x200B;in de_ kolom van de Actie _.
 
 1. Klik boven aan de factuur op **[!UICONTROL Print]** om een PDF van de factuur te genereren.
 
@@ -141,7 +141,7 @@ Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een fact
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Selecteer in het raster _[!UICONTROL Invoices]_het selectievakje voor elke factuur die u wilt afdrukken.
+1. Selecteer in het raster _[!UICONTROL Invoices]_&#x200B;het selectievakje voor elke factuur die u wilt afdrukken.
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `PDF Invoices` .
 

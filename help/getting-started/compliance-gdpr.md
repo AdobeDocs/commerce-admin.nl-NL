@@ -37,7 +37,7 @@ Als uw zaken zowel GDPR als de [ Wet van de Privacy van de consument van Califor
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie ][3] {:target= &quot;_blank&quot;} het [ Cpa- Werkblad.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie &rbrack;[3] {:target= &quot;_blank&quot;} het &lbrack; Cpa- Werkblad.
 
 ## Aanbevolen procedures
 

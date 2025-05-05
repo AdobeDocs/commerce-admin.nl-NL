@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Bedrijfsaccounts beheren
 
-De pagina _[!UICONTROL Companies]_bevat een lijst met alle huidige bedrijfsaccounts, ongeacht de status. Eventuele lopende goedkeuringsaanvragen staan boven aan de lijst.
+De pagina _[!UICONTROL Companies]_&#x200B;bevat een lijst met alle huidige bedrijfsaccounts, ongeacht de status. Eventuele lopende goedkeuringsaanvragen staan boven aan de lijst.
 
 ![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Gebruik het besturingselement *[!UICONTROL Columns]* om de kolommen in het raster aan te passen. Pas de bedrijven aan die in de weergave worden weergegeven met de zoek- en filtermogelijkheden.
 
-- Vind bedrijven in het **Bedrijven** net door _[!UICONTROL Search]_te gebruiken. Het onderzoek indexeert de **Naam van het Bedrijf**en **ouder**kolommen.
+- Vind bedrijven in het **Bedrijven** net door _[!UICONTROL Search]_&#x200B;te gebruiken. Het onderzoek indexeert de **Naam van het Bedrijf**&#x200B;en **ouder**&#x200B;kolommen.
 
 - Pas de weergave aan om records op te nemen die aan specifieke criteria voldoen met de [!UICONTROL Filter] . Bijvoorbeeld, als de B2B plaats wordt gevormd om zowel enige bedrijfrekeningen als [ bedrijfhiërarchieën ](manage-companies.md) te beheren, kunt u filtreren door `[!UICONTROL Company Type - Company]` om slechts enige bedrijven te tonen, of door `[!UICONTROL Company Type - Parent]` om slechts het ouderbedrijf voor elke hiërarchie te tonen.
 
-Pas een actie op veelvoudige bedrijfverslagen toe door de _[!UICONTROL Actions]_controle boven het net te gebruiken. In plaats van bijvoorbeeld elk afzonderlijk bedrijfsverzoek goed te keuren, kunt u meerdere verzoeken selecteren om de accounts in één handeling te activeren. De beschikbare acties hangen van de [ toestemmingen ](../systems/permissions.md) voor de rol af die aan uw Admin gebruikersrekening wordt toegewezen.
+Pas een actie op veelvoudige bedrijfverslagen toe door de _[!UICONTROL Actions]_&#x200B;controle boven het net te gebruiken. In plaats van bijvoorbeeld elk afzonderlijk bedrijfsverzoek goed te keuren, kunt u meerdere verzoeken selecteren om de accounts in één handeling te activeren. De beschikbare acties hangen van de [ toestemmingen ](../systems/permissions.md) voor de rol af die aan uw Admin gebruikersrekening wordt toegewezen.
 
 ## Bronnen voor bedrijfsrollen
 
@@ -194,7 +194,7 @@ De naam en het e-mailadres van de toegewezen vertegenwoordiger zijn voor de lede
 
 Het bedrijfsprofiel kan van de winkel door de bedrijfbeheerder, en ook van Admin door een opslagbeheerder worden gehandhaafd.
 
-](./assets/company-update.png){width="700" zoomable="yes"} Profiel van 0} Bedrijf![
+![&#128279;](./assets/company-update.png){width="700" zoomable="yes"} Profiel van 0&rbrace; Bedrijf
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 

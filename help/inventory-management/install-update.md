@@ -19,7 +19,7 @@ Deze eigenschappen en uitbreidingen werden ontwikkeld als deel van het [ project
 
 [!DNL Inventory Management] wordt geïnstalleerd in 2.3.x- en 2.4.x-versies van Adobe Commerce en Magento Open Source, waarbij alle functies standaard zijn ingeschakeld. Er zijn geen aanvullende stappen vereist voor het inschakelen van deze voorraadfuncties. Voor upgrades vanaf v2.1.x of 2.2.x zijn mogelijk extra stappen vereist. Zie [ Verbetering Inventory management ](#upgrade-inventory-management).
 
-Installatie volgens [ Snelle begin op-gebouw installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html) {target="_blank"} wordt geadviseerd. Installeer met een metappakket om alle [!DNL Inventory Management] -modules te ontvangen.
+Installatie volgens [ Snelle begin op-gebouw installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}  wordt geadviseerd. Installeer met een metappakket om alle [!DNL Inventory Management] -modules te ontvangen.
 
 De volgende regel in het `composer.json` metapakket installeert [!DNL Inventory Management] :
 
@@ -83,7 +83,7 @@ Tijdens het installatieproces van [!DNL Inventory Management] worden alle module
 
 ## [!DNL Inventory Management] -functies inschakelen
 
-Wanneer de optie _[!UICONTROL Manage Stock]_in de beheerfunctie is geïnstalleerd, bijgewerkt of bijgewerkt, is deze standaard ingeschakeld. Met deze optie kunt u inventarisgegevens bijhouden en beheren, maar dit heeft geen invloed op de status van de module. Zie de volgende sectie om modules uit te schakelen.
+Wanneer de optie _[!UICONTROL Manage Stock]_&#x200B;in de beheerfunctie is geïnstalleerd, bijgewerkt of bijgewerkt, is deze standaard ingeschakeld. Met deze optie kunt u inventarisgegevens bijhouden en beheren, maar dit heeft geen invloed op de status van de module. Zie de volgende sectie om modules uit te schakelen.
 
 Voor meer informatie over configuraties, zie [ Inventory management ](configuration.md) vormen.
 
@@ -240,5 +240,5 @@ Werk voor de meest recente versie van het pakket de volgende wijzigingen bij:
 
 Raadpleeg de volgende handleidingen voor meer informatie over Commerce-upgrades:
 
-* [ Gids van de Update van Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) {target="_blank"}
-* [ laat of maakt modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) {target="_blank"} toe onbruikbaar
+* [ Gids van de Update van Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"} 
+* [ laat of maakt modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}  toe onbruikbaar

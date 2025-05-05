@@ -19,19 +19,19 @@ Met de in-store leveringsmethode, kan de klant een bron selecteren die als oppik
 Tijdens het afrekenen op de winkel:
 
 1. De klant klikt op **[!UICONTROL Pick In Store]** of selecteert de verzendmethode _[!UICONTROL In-Store Pickup Delivery]_.
-1. Het tabblad _[!UICONTROL Pick In Store]_Uitchecken wordt geopend.
+1. Het tabblad _[!UICONTROL Pick In Store]_&#x200B;Uitchecken wordt geopend.
 
-Wanneer de klant een adres heeft of het formulier voor het verzendadres heeft ingevuld voordat de klant naar het tabblad _[!UICONTROL Pick In Store]_gaat:
+Wanneer de klant een adres heeft of het formulier voor het verzendadres heeft ingevuld voordat de klant naar het tabblad _[!UICONTROL Pick In Store]_&#x200B;gaat:
 
 - De dichtstbijzijnde bron aan het klantenadres binnen de gevormde straal wordt automatisch vooraf geselecteerd als ophaalopslag.
-- Wanneer de klant op **[!UICONTROL Select Other]** klikt, wordt het zoekformulier van _[!UICONTROL Select Store]_geopend. Alleen opslagruimten binnen de geconfigureerde afstand (straal) tot de vooraf geselecteerde opslagruimte worden in de lijst weergegeven. Alle opslagruimten in de lijst worden gesorteerd op de afstand tot de vooraf geselecteerde opslagplaats.
+- Wanneer de klant op **[!UICONTROL Select Other]** klikt, wordt het zoekformulier van _[!UICONTROL Select Store]_&#x200B;geopend. Alleen opslagruimten binnen de geconfigureerde afstand (straal) tot de vooraf geselecteerde opslagruimte worden in de lijst weergegeven. Alle opslagruimten in de lijst worden gesorteerd op de afstand tot de vooraf geselecteerde opslagplaats.
 - Wanneer de klant een postcode of plaatsnaam in het onderzoeksgebied ingaat, slechts worden de opslag binnen de gevormde afstand (straal) aan de gezochte plaats getoond in de lijst. Alle opslagruimten in de lijst worden gesorteerd op de afstand tot de gezochte locatie.
 - Wanneer de klant de postcode of plaatsnaam van het onderzoeksgebied ontruimt, worden alle ophaalwinkels die aan de producten in het winkelwagentje worden toegewezen getoond aan de klant. Alle opslagruimten in de lijst worden in oplopende volgorde van de broncodes gesorteerd zonder beperking van de afstand (straal).
 
 Als de klant geen adres heeft of het formulier voor het verzendadres niet eerder heeft ingevuld voordat wordt overgeschakeld op het tabblad _[!UICONTROL Pick In Store]_:
 
 - De pagina toont _wij konden oppikken geen op beschikbare informatie_ bericht worden gebaseerd die op bestelplaats vooraf selecteren.
-- Wanneer de klant op **[!UICONTROL Select Store]** klikt, wordt het zoekformulier van _[!UICONTROL Select Store]_geopend.
+- Wanneer de klant op **[!UICONTROL Select Store]** klikt, wordt het zoekformulier van _[!UICONTROL Select Store]_&#x200B;geopend.
 - Alle ophaalwinkels die aan de producten in het winkelwagentje zijn toegewezen, worden in oplopende volgorde van de broncodes weergegeven zonder beperking van de afstand (straal).
 - Wanneer de klant een postcode of plaatsnaam in het onderzoeksgebied ingaat, slechts worden de opslag binnen de gevormde afstand (straal) aan de gezochte plaats getoond in de lijst. Alle opslagruimten in de lijst worden gesorteerd op de afstand tot de gezochte locatie.
 
@@ -39,14 +39,14 @@ Als de klant geen adres heeft of het formulier voor het verzendadres niet eerder
 
 - Zorg ervoor u een non-default voorraad en een bron hebt. Voor meer informatie over hoe te om een bron als bestelwagenplaats te vormen, zie [ een bron ](../inventory-management/sources-add.md) toevoegen.
 - Zorg ervoor u een Prioritair Algorithm van de Afstand hebt gevormd. Voor meer informatie, zie [ het Prioritaire Algoritme van de Afstand ](../inventory-management/distance-priority-algorithm.md) vormen.
-- Zorg ervoor u ](../inventory-management/cli.md#import-geocodes) alle noodzakelijke geocodes voor off-line berekening hebt gedownload en ingevoerd.[
+- Zorg ervoor u [&#128279;](../inventory-management/cli.md#import-geocodes) alle noodzakelijke geocodes voor off-line berekening hebt gedownload en ingevoerd.
 - Zorg ervoor u [ de montages van de Berekening van de StandaardBelastingbestemming ](../configuration-reference/sales/tax.md#default-tax-destination-calculation) hebt gevormd.
 
 >[!IMPORTANT]
 >
 >**in de storefront, worden de onderzoeksresultaten gefiltreerd door afstand (straal) om relevante resultaten te tonen:**<br><br>
 >Als de klant een het verschepen adres heeft, wordt de basisplaats om de afstand (straal) te berekenen genomen van het het verschepen adres.<br><br>
->Als de klant geen verschepend adres heeft, wordt de basisplaats om de afstand te berekenen genomen van de ](../configuration-reference/sales/tax.md#default-tax-destination-calculation) montages van de Berekening van de StandaardBTW van de Bestemming [. Deze montages worden geplaatst per archiefmening en u moet de montages van de Berekening van de StandaardBelastingbestemming vormen om ervoor te zorgen dat het onderzoek van de ophaalwinkel behoorlijk werkt.
+>Als de klant geen verschepend adres heeft, wordt de basisplaats om de afstand te berekenen genomen van de [&#128279;](../configuration-reference/sales/tax.md#default-tax-destination-calculation) montages van de Berekening van de StandaardBTW van de Bestemming . Deze montages worden geplaatst per archiefmening en u moet de montages van de Berekening van de StandaardBelastingbestemming vormen om ervoor te zorgen dat het onderzoek van de ophaalwinkel behoorlijk werkt.
 
 ## In-store levering instellen
 

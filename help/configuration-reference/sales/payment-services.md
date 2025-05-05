@@ -62,8 +62,8 @@ Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebbe
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg tijdens het afrekenen de tekst toe die als titel voor deze betalingsoptie moet worden weergegeven in de weergave Betalingsmethode. |
 | [!UICONTROL Payment Action] | website | De [ betalingsactie ](payment-methods.md#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de uitcheckpagina. Opties: [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de pagina met productdetails. Opties: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de uitcheckpagina. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de pagina met productdetails. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit in de voorvertoning van de miniwinkelwagentje. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de tekstpagina. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | winkelweergave | De weergave van betalingsopties voor latere betalingen in- of uitschakelen wanneer betalingsknoppen worden weergegeven. Opties: [!UICONTROL Yes] / [!UICONTROL No] |

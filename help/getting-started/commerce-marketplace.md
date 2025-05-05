@@ -53,13 +53,13 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
 1. Meld u aan bij uw [!DNL Commerce] -account.
 
-1. Kies op de pagina _[!UICONTROL My Account]_de tab **[!UICONTROL Marketplace]**.
+1. Kies op de pagina _[!UICONTROL My Account]_&#x200B;de tab **[!UICONTROL Marketplace]**.
 
 1. Klik in de rechterbovenhoek naast uw naam op de pijl omlaag en kies **[!UICONTROL My Profile]** .
 
    ![ Uw [!DNL Marketplace] profiel ](./assets/marketplace-profile.png){width="600"}
 
-1. Klik op de tab _[!UICONTROL Marketplace]_onder_[!UICONTROL My Products]_ op **[!UICONTROL Access Keys]** en voer een van de volgende twee handelingen uit:
+1. Klik op de tab _[!UICONTROL Marketplace]_&#x200B;onder&#x200B;_[!UICONTROL My Products]_ op **[!UICONTROL Access Keys]** en voer een van de volgende twee handelingen uit:
 
    - Controleer of je al een set toegangstoetsen hebt voor je aankopen op Marketplace. U kunt meerdere sets toegangstoetsen maken voor verschillende doeleinden.
 
@@ -71,13 +71,13 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
    De nieuwe toegangssleutel wordt toegelaten en verschijnt in de lijst.
 
-   Merk op de _verbinding van het 0} Exemplaar {na elke openbare en privé sleutel._ In de volgende stap kopieert en plakt u deze waarden om uw winkel te synchroniseren met Commerce Marketplace.
+   Merk op de _verbinding van het 0&rbrace; Exemplaar &lbrace;na elke openbare en privé sleutel._ In de volgende stap kopieert en plakt u deze waarden om uw winkel te synchroniseren met Commerce Marketplace.
 
 ## Installatieproces
 
 >[!IMPORTANT]
 >
->Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) te installeren of [ verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uw instantie. [ Dit vereiste omvat ook [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [ uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) te installeren of [ verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) uw instantie.  Dit vereiste omvat ook [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [ uitbreidingen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [ worden ontvangen de Architectuur van de Wolk van Adobe ][4].
 
@@ -135,7 +135,7 @@ Als u een bestelfactuur wilt downloaden voor een aankoop in een handelsplaats, m
 
 Het marktondersteuningsteam heeft niet de mogelijkheid om aankopen naar een andere account over te dragen. U moet alle apps en extensies aanschaffen op de primaire Commerce-account om installatie- en implementatieproblemen te voorkomen. Adobe Commerce heeft recht op één unieke identificatiecode. Aangezien Composer voor installatie wordt gebruikt, slechts kan één reeks [ toegangssleutels ](#create-an-access-key) verbonden aan de primaire rekening worden gebruikt. De enige beschikbare oplossing is om [ een terugbetaling ](#refund-requests) van de de kooprekening van de Marktplaats te verzoeken (als toegestaan door het terugbetalingsbeleid van Adobe Commerce).
 
-U kunt [ ](commerce-account-share.md) een instantie van Commerce door de primaire rekening delen. Gedeelde toegang verleent speciale toestemmingen aan een ondergeschikte rekening van een primaire rekening. Het gedeelde toegangspunt wordt gegenereerd van de primaire account. De primaire account kan de Commerce-account, de hoofdzakelijke account of een account zijn die binnen een organisatie wordt gedeeld.
+U kunt [&#128279;](commerce-account-share.md) een instantie van Commerce door de primaire rekening delen. Gedeelde toegang verleent speciale toestemmingen aan een ondergeschikte rekening van een primaire rekening. Het gedeelde toegangspunt wordt gegenereerd van de primaire account. De primaire account kan de Commerce-account, de hoofdzakelijke account of een account zijn die binnen een organisatie wordt gedeeld.
 
 Deze speciale machtigingen verlenen Adobe Commerce hetzelfde toegangsniveau als de primaire rechten, maar ze worden niet overgedragen naar Adobe Commerce Marketplace of Developer Portal. Dit betekent dat het kopen van een extensie van een ondergeschikte rekening op de Marketplace niet kan worden gedeeld met de primaire account. Gedeelde toegang is een eenrichtingsweg (primair account dat ondergeschikt is). Het werkt niet wanneer een ondergeschikte account probeert terug te delen naar de primaire account.
 

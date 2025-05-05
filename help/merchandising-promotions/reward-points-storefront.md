@@ -26,7 +26,7 @@ Als [ het Tarief van de Uitwisseling van de Winst ](reward-exchange-rates.md) me
 
 1. Ga alle vereiste het verschepen informatie in en navigeert aan de _Controle &amp; stap van Betalingen_.
 
-1. In de sectie _[!UICONTROL Reward points]_worden het aantal beschikbare punten en de bijbehorende valutawaarde gecontroleerd.
+1. In de sectie _[!UICONTROL Reward points]_&#x200B;worden het aantal beschikbare punten en de bijbehorende valutawaarde gecontroleerd.
 
 1. Klik op **[!UICONTROL Use reward points]** .
 

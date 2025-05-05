@@ -15,7 +15,7 @@ Wanneer u met een verzameling records in het raster werkt, kunt u met het bestur
 
 U kunt zoveel wijzigingen aanbrengen als nodig zijn en de records vervolgens in één stap bijwerken. Het is veel efficiënter dan de montages individueel voor elk product te veranderen. Het toepassen van bewerkingen op een batch records is een asynchrone bewerking die op de achtergrond wordt uitgevoerd, zodat u in de beheerfunctie kunt blijven werken zonder te wachten tot de bewerking is voltooid. Het systeem geeft een bericht weer wanneer de taak is voltooid.
 
-De selectie van beschikbare acties varieert per lijst en er kunnen aanvullende opties worden weergegeven, afhankelijk van de geselecteerde actie. Wanneer u bijvoorbeeld de status van een groep records wijzigt, wordt naast het besturingselement Handelingen een vak _[!UICONTROL Status]_weergegeven met extra opties.
+De selectie van beschikbare acties varieert per lijst en er kunnen aanvullende opties worden weergegeven, afhankelijk van de geselecteerde actie. Wanneer u bijvoorbeeld de status van een groep records wijzigt, wordt naast het besturingselement Handelingen een vak _[!UICONTROL Status]_&#x200B;weergegeven met extra opties.
 
 ## Stap 1: records selecteren
 

@@ -17,5 +17,5 @@ De wagentje wordt geplaatst aan het eind van de weg aan aankoop, op het snijpunt
 ![ De het winkelen kartpagina toont hulpmiddelen de verkoopster kan gebruiken om de producten voor hun orde te beheren ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
 
 - Vorm de [ het winkelen kaartopties ](cart-configuration.md) om te bepalen welke hulpmiddelen aan kopers beschikbaar zijn, en de vertoning te wijzigen.
-- Vorm het [ 1} gedrag van de wortelpersistentie {om shoppers te helpen de inhoud van hun kar behouden.](cart-persistent.md)
+- Vorm het [ 1&rbrace; gedrag van de wortelpersistentie &lbrace;om shoppers te helpen de inhoud van hun kar behouden.](cart-persistent.md)
 - Voeg de [ Orde door ](order-by-sku.md) widget SKU als gemak voor alle kopers, of slechts voor consumenten in specifieke klantengroepen toe, om SKU en kwantitatieve informatie direct in een pagina in te gaan.

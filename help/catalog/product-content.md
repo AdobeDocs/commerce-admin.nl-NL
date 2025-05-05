@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Content]
 
-De sectie _[!UICONTROL Content]_wordt gebruikt om de hoofdproductbeschrijving op de productpagina in te voeren en te bewerken. De korte beschrijving kan in de meeste voer van RSS worden gebruikt, en zou ook in cataloguslijsten, afhankelijk van [ thema ](../content-design/themes.md) kunnen verschijnen.
+De sectie _[!UICONTROL Content]_&#x200B;wordt gebruikt om de hoofdproductbeschrijving op de productpagina in te voeren en te bewerken. De korte beschrijving kan in de meeste voer van RSS worden gebruikt, en zou ook in cataloguslijsten, afhankelijk van [ thema ](../content-design/themes.md) kunnen verschijnen.
 
 ## Voeg de productbeschrijving toe in [!DNL Page Builder]
 
@@ -30,7 +30,7 @@ De sectie _[!UICONTROL Content]_wordt gebruikt om de hoofdproductbeschrijving op
 
 ## [!DNL Page Builder] voorvertoning
 
-Wanneer u de sectie _[!UICONTROL Content]_uitvouwt voor een bestaand product waarin inhoud is gemaakt met [!DNL Page Builder] , wordt een voorvertoning van de **[!UICONTROL Description]**-inhoud weergegeven zoals deze op de productpagina wordt weergegeven. Open de [!DNL Page Builder] -werkruimte, waar u de benodigde updates kunt uitvoeren, door op **[!UICONTROL Edit with Page Builder]**te klikken.
+Wanneer u de sectie _[!UICONTROL Content]_&#x200B;uitvouwt voor een bestaand product waarin inhoud is gemaakt met [!DNL Page Builder] , wordt een voorvertoning van de **[!UICONTROL Description]**-inhoud weergegeven zoals deze op de productpagina wordt weergegeven. Open de [!DNL Page Builder] -werkruimte, waar u de benodigde updates kunt uitvoeren, door op **[!UICONTROL Edit with Page Builder]**&#x200B;te klikken.
 
 ![ de voorproef van de Beschrijving ](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

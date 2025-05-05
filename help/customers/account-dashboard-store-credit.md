@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Op de pagina _[!UICONTROL Store Credit]_van het dashboard voor de klantenaccount worden bedragen weergegeven van geretourneerde bedragen en terugbetalingen die op toekomstige aankopen kunnen worden toegepast. Klanten kunnen de waarde ook inwisselen van een cadeaukaart.
+Op de pagina _[!UICONTROL Store Credit]_&#x200B;van het dashboard voor de klantenaccount worden bedragen weergegeven van geretourneerde bedragen en terugbetalingen die op toekomstige aankopen kunnen worden toegepast. Klanten kunnen de waarde ook inwisselen van een cadeaukaart.
 
 ![ Krediet van de Winkel van de Klant ](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

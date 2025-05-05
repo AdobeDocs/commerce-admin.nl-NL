@@ -100,7 +100,7 @@ Omleiden vanaf: `overnight-duffle.html`
 1. Voer een van de volgende handelingen uit:
 
    - Navigeer aan origineel _omleiding van_ pagina van het productverzoek.
-   - In de adresbar van browser, ga de weg aan origineel _in opnieuw richt van_ product onmiddellijk na opslag URL en druk **** binnengaan.
+   - In de adresbar van browser, ga de weg aan origineel _in opnieuw richt van_ product onmiddellijk na opslag URL en druk **&#x200B;**&#x200B;binnengaan.
 
    Het nieuwe doelproduct wordt weergegeven in plaats van het oorspronkelijke productverzoek.
 
@@ -124,11 +124,11 @@ U kunt URL herschrijvingen voor veelvoudige of alle producten snel bijwerken gel
 
 1. Selecteer alle producten waarvoor u URL wilt bijwerken herschrijft.
 
-1. Kies onder _[!UICONTROL Actions]_de optie **[!UICONTROL Update attributes]**om meerdere of alle herschrijvingen bij te werken.
+1. Kies onder _[!UICONTROL Actions]_&#x200B;de optie **[!UICONTROL Update attributes]**&#x200B;om meerdere of alle herschrijvingen bij te werken.
 
-1. Klik onder _[!UICONTROL PRODUCTS INFORMATION]_op de tab **[!UICONTROL Websites]**.
+1. Klik onder _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;op de tab **[!UICONTROL Websites]**.
 
-1. Selecteer in de sectie _[!UICONTROL Add Product To Websites]_alle websites waarvan u de URL wilt herstellen.
+1. Selecteer in de sectie _[!UICONTROL Add Product To Websites]_&#x200B;alle websites waarvan u de URL wilt herstellen.
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent om bij te werken.
 

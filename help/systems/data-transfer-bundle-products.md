@@ -55,7 +55,7 @@ In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv
 
 1. Schuif omlaag naar de onderkant van de sectie en klik op **[!UICONTROL Continue]** .
 
-1. Klik in de kolom _[!UICONTROL Action]_van het_[!UICONTROL File name]_ raster op **[!UICONTROL Select]** en kies `Download` .
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;van het&#x200B;_[!UICONTROL File name]_ raster op **[!UICONTROL Select]** en kies `Download` .
 
    Het bestand wordt weergegeven op de downloadlocatie die door de browser wordt gebruikt.
 
@@ -83,7 +83,7 @@ In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Stel onder _[!UICONTROL Import Settings]_de waarde **[!UICONTROL Entity Type]**in op `Products` .
+1. Stel onder _[!UICONTROL Import Settings]_&#x200B;de waarde **[!UICONTROL Entity Type]**&#x200B;in op `Products` .
 
 1. Stel **[!UICONTROL Import Behavior]** in op `Replace` .
 
@@ -97,6 +97,6 @@ In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv
 
 1. Klik op **[!UICONTROL Import]** als het bestand geldig is.
 
-1. Wanneer het proces is voltooid, gaat u naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**en klikt u op **[!UICONTROL Flush Cache Storage]**.
+1. Wanneer het proces is voltooid, gaat u naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;en klikt u op **[!UICONTROL Flush Cache Storage]**.
 
    Dit zorgt ervoor dat het bijgewerkte product direct beschikbaar is in de winkel.

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Sources]
 
-In het gedeelte _[!UICONTROL Sources]_van de productinstellingen worden de bronnen weergegeven waaruit het product kan worden gedistribueerd. Het wordt gebruikt om bronnen toe te wijzen en weg te wijzen en de hoeveelheid en de beschikbaarheid van het product te beheren. Deze sectie wordt alleen weergegeven als er meer dan één bron is gedefinieerd voor uw winkel. Voor meer informatie over bronnen, zie [ bronnen ](../inventory-management/sources-manage.md) leiden.
+In het gedeelte _[!UICONTROL Sources]_&#x200B;van de productinstellingen worden de bronnen weergegeven waaruit het product kan worden gedistribueerd. Het wordt gebruikt om bronnen toe te wijzen en weg te wijzen en de hoeveelheid en de beschikbaarheid van het product te beheren. Deze sectie wordt alleen weergegeven als er meer dan één bron is gedefinieerd voor uw winkel. Voor meer informatie over bronnen, zie [ bronnen ](../inventory-management/sources-manage.md) leiden.
 
 ## Een bron toewijzen voor een product
 

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Design]
 
-Met de instellingen van _[!UICONTROL Design]_kunt u een ander thema op de productpagina toepassen, de kolomlay-out wijzigen, bepalen waar de productopties worden weergegeven en aangepaste XML-code invoeren.
+Met de instellingen van _[!UICONTROL Design]_&#x200B;kunt u een ander thema op de productpagina toepassen, de kolomlay-out wijzigen, bepalen waar de productopties worden weergegeven en aangepaste XML-code invoeren.
 
 ![ Ontwerp ](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Wanneer het zelfde product aan verscheidene categorieën met verschillende ontwerpmontages voor elke categorie wordt toegewezen, wordt het geadviseerd om **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` in de [ de configuratieopties van de Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) te plaatsen. Als u deze instelling wilt openen, gaat u naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, vouwt u **[!UICONTROL Catalog]**uit en kiest u **[!UICONTROL Catalog]**onder in het linkerdeelvenster. Vouw vervolgens de sectie **[!UICONTROL Search Engine Optimization]**op de pagina uit.
+>Wanneer het zelfde product aan verscheidene categorieën met verschillende ontwerpmontages voor elke categorie wordt toegewezen, wordt het geadviseerd om **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` in de [ de configuratieopties van de Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) te plaatsen. Als u deze instelling wilt openen, gaat u naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, vouwt u **[!UICONTROL Catalog]**&#x200B;uit en kiest u **[!UICONTROL Catalog]**&#x200B;onder in het linkerdeelvenster. Vouw vervolgens de sectie **[!UICONTROL Search Engine Optimization]**&#x200B;op de pagina uit.
 
 | Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---|---|----|

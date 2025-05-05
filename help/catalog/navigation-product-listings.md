@@ -34,7 +34,7 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
    >[!NOTE]
    >
-   >Om producten en hun prijzen correct te tonen volgens _product sorterend door prijs_, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+   >Om producten en hun prijzen correct te tonen volgens _product sorterend door prijs_, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
 1. Stel de standaardwaarde **[!UICONTROL List Mode]** in op een van de volgende opties:
 
@@ -95,7 +95,7 @@ De pagineringsinstellingen worden boven en onder aan de lijst weergegeven en bep
 | Besturing | Beschrijving |
 |--- |--- |
 | ![ Net van de Vertoning ](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Geeft de lijst weer in de indeling Raster of Lijst. |
-| ![ Soort door ](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. Het _[!UICONTROL Used for Sorting in Product Listing]_storefront bezit bepaalt welke [ productattributen ](../catalog/product-attributes.md) kunnen worden gebruikt om de lijst te sorteren. |
+| ![ Soort door ](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. Het _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront bezit bepaalt welke [ productattributen ](../catalog/product-attributes.md) kunnen worden gebruikt om de lijst te sorteren. |
 | ![ toon per pagina ](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Hiermee bepaalt u hoeveel producten er per pagina worden weergegeven. |
 | ![ de verbindingen van de Paginering ](./assets/control-pagination.png) | Pagineringskoppelingen - Navigatiekoppelingen naar andere pagina&#39;s. |
 
@@ -111,7 +111,7 @@ De pagineringsinstellingen worden boven en onder aan de lijst weergegeven en bep
 
    ![ Paginering ](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
-   Voor meer informatie over deze montages, zie {de Configuratie van het 0} Ontwerp ](../content-design/configuration.md).[
+   Voor meer informatie over deze montages, zie {de Configuratie van het 0} Ontwerp [&#128279;](../content-design/configuration.md).
 
 1. Voer bij **[!UICONTROL Pagination Frame]** het aantal koppelingen in dat u wilt weergeven in het pagineringsbesturingselement.
 

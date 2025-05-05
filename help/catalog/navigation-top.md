@@ -66,11 +66,11 @@ Voor een multistore installatie, kan een verschillend hoofdmenu als [ wortelcate
 
 1. Vouw de sectie **[!UICONTROL Category Top Navigation]** uit.
 
-   ](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"} de Top Navigatie van de Categorie 0} {![
+   ![&#128279;](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"} de Top Navigatie van de Categorie 0&rbrace; &lbrace;
 
-   Omdat de diepte van de hoogste navigatie een globaal [ configuratiewerkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) heeft, is het plaatsen van toepassing op alle websites, opslag, en opslagmeningen in de installatie van Commerce. De configuratiesectie _[!UICONTROL Category Top Navigation]_is alleen beschikbaar als_[!UICONTROL Store View]_ in de linkerbovenhoek is ingesteld op `Default Config` .
+   Omdat de diepte van de hoogste navigatie een globaal [ configuratiewerkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) heeft, is het plaatsen van toepassing op alle websites, opslag, en opslagmeningen in de installatie van Commerce. De configuratiesectie _[!UICONTROL Category Top Navigation]_&#x200B;is alleen beschikbaar als&#x200B;_[!UICONTROL Store View]_ in de linkerbovenhoek is ingesteld op `Default Config` .
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Top Navigatie van de Categorie 0} ](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.[
+   Voor een gedetailleerde lijst van deze opties, zie {de Top Navigatie van de Categorie 0} [&#128279;](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.
 
 1. Als u het aantal subcategorieën in de bovenste navigatie wilt beperken, voert u het getal voor **[!UICONTROL Maximal Depth]** in.
 

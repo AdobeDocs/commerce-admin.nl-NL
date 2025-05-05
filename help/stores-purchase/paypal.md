@@ -39,7 +39,7 @@ U kunt vrije, kant-en-klare banneradvertenties aan pagina&#39;s van uw plaats en
 >
 >Vanaf de release 2.4.3 wordt PayPal PayLater ondersteund in implementaties die PayPal bevatten. Met deze functie kunnen kopers een bestelling in tweewekelijkse termijnen betalen in plaats van het volledige bedrag op het moment van aankoop te betalen. De PayPal-ervaring is afgekeurd.
 
-Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de ](paypal-express-checkout.md) betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal [. Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [ Uitdrukkelijke configuratie van de Controle van PayPal ](paypal-express-checkout.md#features).
+Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de [&#128279;](paypal-express-checkout.md) betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal . Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [ Uitdrukkelijke configuratie van de Controle van PayPal ](paypal-express-checkout.md#features).
 
 PayPal-krediet is standaard uitgeschakeld voor de andere PayPal-betalingsoplossingen, maar kan in de configuratie van de betalingsmethode worden ingeschakeld voor ondersteunende oplossingen:
 
@@ -102,7 +102,7 @@ Met PayPal-filters voor fraudebeheer is het gemakkelijker om frauduleuze transac
 | Handeling | Resultaat |
 | --- | --- |
 | [!UICONTROL Review] | De verdachte orde ontvangt de status _Controle van de Betaling_ wanneer de orde wordt geplaatst. U kunt de bestelling bekijken en goedkeuren of de betaling annuleren in de beheerfunctie of op de PayPal-zijde. Wanneer u op **[!UICONTROL Accept Payment]** of **[!UICONTROL Deny Payment]** klikt, worden er geen nieuwe transacties voor de volgorde gemaakt. <br/><br/> als u de status van de transactie op de plaats PayPal verandert, moet u **[!UICONTROL Get Payment Update]** in de pagina van de Orde van Admin klikken om de veranderingen toe te passen. Als u op **[!UICONTROL Accept Payment]** of **[!UICONTROL Deny Payment]** klikt, worden de wijzigingen toegepast die op de Paypal-site zijn aangebracht. |
-| [!UICONTROL Deny] | De verdachte bestelling kan niet door de klant worden geplaatst, omdat de bijbehorende transactie door PayPal wordt geweigerd. <br/><br/> om de betaling van Admin te ontkennen, klik **[!UICONTROL Deny Payment]** in de hoger-juiste hoek van de pagina. De orderstatus verandert in `Canceled` , de transactie wordt teruggedraaid en er worden middelen vrijgemaakt op de klantenaccount. De bijbehorende informatie wordt toegevoegd in de sectie _[!UICONTROL Comments History]_van de ordeweergave. |
+| [!UICONTROL Deny] | De verdachte bestelling kan niet door de klant worden geplaatst, omdat de bijbehorende transactie door PayPal wordt geweigerd. <br/><br/> om de betaling van Admin te ontkennen, klik **[!UICONTROL Deny Payment]** in de hoger-juiste hoek van de pagina. De orderstatus verandert in `Canceled` , de transactie wordt teruggedraaid en er worden middelen vrijgemaakt op de klantenaccount. De bijbehorende informatie wordt toegevoegd in de sectie _[!UICONTROL Comments History]_&#x200B;van de ordeweergave. |
 | [!UICONTROL Flag] | De vermoedelijke volgorde krijgt de status `Processing` wanneer deze wordt geplaatst. De corresponderende transactie wordt gemarkeerd met een vlag in de lijst van handelstransacties. |
 
 {style="table-layout:auto"}

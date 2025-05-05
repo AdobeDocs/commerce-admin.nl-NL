@@ -41,7 +41,7 @@ De Adobe Commerce B2B-extensie `magento/extension-b2b` is beschikbaar voor alle 
 
 - Toegang tot [ repo.magento.com ](https://repo.magento.com/) om de uitbreiding te downloaden. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
 
-  Sparen authentificatiesleutels voor installatie door hen globaal in uw [ COMPOSER_HOME ](https://getcomposer.org/doc/03-cli.md#composer-home) folder te bepalen. Of, bewaar hen aan een {](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) dossier 0} auth.json in de folder van de de toepassingswortel van Adobe Commerce.[
+  Sparen authentificatiesleutels voor installatie door hen globaal in uw [ COMPOSER_HOME ](https://getcomposer.org/doc/03-cli.md#composer-home) folder te bepalen. Of, bewaar hen aan een {[&#128279;](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) dossier 0} auth.json in de folder van de de toepassingswortel van Adobe Commerce.
 
 - [ Gesteunde versie van de B2B uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) - bepaal de meest recente versie van de B2B uitbreiding die op de opgestelde versie van Adobe Commerce wordt gesteund.
 

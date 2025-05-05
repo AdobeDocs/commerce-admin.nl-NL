@@ -19,7 +19,7 @@ Met Categorieregels wordt de productselectie dynamisch gewijzigd volgens een aan
 
 >[!TIP]
 >
->Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**wanneer deze categorie wordt bewaard._ Bijvoorbeeld, als u een product aan de catalogus toevoegt en het volgens de regel wilt toewijzen, moet u **elke categorie** opnieuw opslaan die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _zouden moeten worden gesorteerd_ volgens de **[!UICONTROL Automatic Sorting]** regel, moet u **[!UICONTROL Save Category]** klikken.
+>Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**&#x200B;wanneer deze categorie wordt bewaard._ Bijvoorbeeld, als u een product aan de catalogus toevoegt en het volgens de regel wilt toewijzen, moet u **elke categorie** opnieuw opslaan die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _zouden moeten worden gesorteerd_ volgens de **[!UICONTROL Automatic Sorting]** regel, moet u **[!UICONTROL Save Category]** klikken.
 
 Elke voorwaarde bestaat uit een attribuut, waarde, en logische exploitant. In categorieregels kunnen alleen kenmerken worden gebruikt waarvoor de eigenschap _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_is ingesteld op `Yes` . U moet deze eigenschap instellen voor het kenmerk als u een kenmerk wilt gebruiken dat niet in productlijsten is opgenomen. Hoewel de attributen van de Datum niet worden gesteund, kunt u de Gemaakt Datum of Gewijzigde attributen gebruiken om een datum, of een waaier van data te bepalen. Als u bijvoorbeeld alleen producten wilt opnemen die in de afgelopen week zijn gemaakt, stelt u Aanmaakdatum in op de waarde `<7` .
 
@@ -41,7 +41,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
    >[!NOTE]
    >
-   >Zorg ervoor dat het kenmerk dat u selecteert GEEN multiselect _[!UICONTROL Input Type]_is.
+   >Zorg ervoor dat het kenmerk dat u selecteert GEEN multiselect _[!UICONTROL Input Type]_&#x200B;is.
 
 1. Voltooi de [ configuratie ](smart-attributes-configure.md) om elk _slimme_ attribuut te identificeren dat met Visuele Merchandiser moet worden gebruikt.
 

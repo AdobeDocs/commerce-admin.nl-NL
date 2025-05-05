@@ -83,7 +83,7 @@ Om het even welke openbare wensenlijst kan worden gevonden gebruikend het Onderz
 
      `0` = first (standaardwaarde), `1` = second, `2` = third, enzovoort.
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**en stel **[!UICONTROL Display on]**in op een van de volgende opties:
+1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**&#x200B;en stel **[!UICONTROL Display on]**&#x200B;in op een van de volgende opties:
 
    - _[!UICONTROL Categories]_
 

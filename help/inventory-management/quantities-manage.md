@@ -24,7 +24,7 @@ Single- en multi-source-handelaren kunnen bronnen, inventarishoeveelheden en dre
 
 - Meerbronhandelaren kunnen meerdere bronnen en hoeveelheden per product toewijzen voor elke locatie (opslagplaatsen, winkels, verlader, enzovoort). We raden u aan bronnen toe te voegen voordat u de hoeveelheden voor de productvoorraad instelt.
 
-Wanneer u bronnen en hoeveelheden aan uw producten toevoegt, kunt u de hoeveelheden via het productraster bekijken. Als u een groot aantal bronnen hebt, houdt u de muisaanwijzer boven _[!UICONTROL Quantity per Source]_om de volledige, schuifbare lijst met bronnen met de huidige hoeveelheden weer te geven.
+Wanneer u bronnen en hoeveelheden aan uw producten toevoegt, kunt u de hoeveelheden via het productraster bekijken. Als u een groot aantal bronnen hebt, houdt u de muisaanwijzer boven _[!UICONTROL Quantity per Source]_&#x200B;om de volledige, schuifbare lijst met bronnen met de huidige hoeveelheden weer te geven.
 
 ![ de hoeveelheden van het Product per bron ](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

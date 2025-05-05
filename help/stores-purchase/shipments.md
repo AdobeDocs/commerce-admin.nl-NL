@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Overbrengingen
 
-Het _[!UICONTROL Shipments]_-raster bevat de verzendrecord van alle facturen die zijn voorbereid voor verzending. Een ladingsverslag kan worden geproduceerd wanneer een orde [ ](invoices.md) of later wordt gefactureerd.
+Het _[!UICONTROL Shipments]_-raster bevat de verzendrecord van alle facturen die zijn voorbereid voor verzending. Een ladingsverslag kan worden geproduceerd wanneer een orde [&#128279;](invoices.md) of later wordt gefactureerd.
 
 Adobe Commerce en de Magento Open Source steunen gedeeltelijke en volledige ordeverzending, met extra opties beschikbaar bij [ Inventory management ](../inventory-management/introduction.md) en derdeuitbreidingen.
 
@@ -134,7 +134,7 @@ U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina v
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Selecteer onder _[!UICONTROL Sales]_de optie **[!UICONTROL Sales Email]**.
+1. Selecteer onder _[!UICONTROL Sales]_&#x200B;de optie **[!UICONTROL Sales Email]**.
 
 1. Breid de **sectie van de Commentaren van de Verzending** uit en wijzig de montages zoals nodig:
 
@@ -166,7 +166,7 @@ Voordat een zending naar een vervoerder wordt verzonden, kan deze worden geannul
 
 1. Kies **[!UICONTROL Shipments]** in het linkerdeelvenster.
 
-   Als de verzending kan worden geannuleerd, wordt _[!UICONTROL Cancel Shipment]_weergegeven als een optie in de bovenste knopbalk.
+   Als de verzending kan worden geannuleerd, wordt _[!UICONTROL Cancel Shipment]_&#x200B;weergegeven als een optie in de bovenste knopbalk.
 
 1. Klik op **[!UICONTROL Cancel Shipment]**.
 

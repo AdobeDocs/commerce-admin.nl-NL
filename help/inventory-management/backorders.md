@@ -55,7 +55,7 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 ### Status van voorraad
 
-Producten moeten de status `In Stock` hebben wanneer ze backorders inschakelen. U kunt deze waarde van de _pagina van het Product_ plaatsen. Voor multisource-producten moet ten minste één bron zijn gemarkeerd als `In Stock` . De toegang en plaatsen de status door de _pagina van het 0} Product {en toegewezen_ Bronnen _net._
+Producten moeten de status `In Stock` hebben wanneer ze backorders inschakelen. U kunt deze waarde van de _pagina van het Product_ plaatsen. Voor multisource-producten moet ten minste één bron zijn gemarkeerd als `In Stock` . De toegang en plaatsen de status door de _pagina van het 0&rbrace; Product &lbrace;en toegewezen_ Bronnen _net._
 
 ## Globaal randapparatuur configureren
 

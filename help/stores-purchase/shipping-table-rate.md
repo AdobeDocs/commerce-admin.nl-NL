@@ -34,7 +34,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_van het linkerdeelvenster.
+1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_&#x200B;van het linkerdeelvenster.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Table Rates]** sectie uit.
 
@@ -84,7 +84,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
-   - `Specific Countries` - Wanneer u deze optie kiest, wordt de lijst _[!UICONTROL Ship to Specific Countries]_weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
+   - `Specific Countries` - Wanneer u deze optie kiest, wordt de lijst _[!UICONTROL Ship to Specific Countries]_&#x200B;weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
 1. Stel **[!UICONTROL Show Method if Not Applicable]** in op `Yes` als u de Tabelpercentages altijd wilt weergeven
 
@@ -115,10 +115,10 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 1. Vul de tabel in met de juiste waarden voor de verzendberekeningsvoorwaarde.
 
    - Gebruik een asterisk (*) als vervanging die alle mogelijke waarden in om het even welke categorie vertegenwoordigt.
-   - De _[!UICONTROL Country]_kolom moet a [ geldige code van drie tekens ][1] voor elke rij bevatten.
+   - De _[!UICONTROL Country]_&#x200B;kolom moet a [ geldige code van drie tekens ][1] voor elke rij bevatten.
    - Sorteer de gegevens op _[!UICONTROL Region/State]_, zodat de specifieke locaties zich boven aan de lijst bevinden en de jokertekenlocaties onderaan. Het gebruiken van deze methode verwerkt eerst de regels met de absolute waarden, en later de vervangingswaarden.
-   - Postcodes worden niet ondersteund. Gebruik een asterisk (*) om alle codes binnen het gebied/de staat toe te staan, of specificeer één enkele code voor een specifieke plaats in de _[!UICONTROL Zip/Postal Code]_kolom.
-   - Waarden in de kolom _[!UICONTROL Weight (and above)]_kunnen maximaal vier decimalen hebben (zoals `2.5075` ). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
+   - Postcodes worden niet ondersteund. Gebruik een asterisk (*) om alle codes binnen het gebied/de staat toe te staan, of specificeer één enkele code voor een specifieke plaats in de _[!UICONTROL Zip/Postal Code]_&#x200B;kolom.
+   - Waarden in de kolom _[!UICONTROL Weight (and above)]_&#x200B;kunnen maximaal vier decimalen hebben (zoals `2.5075` ). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
 
    ![ Gewicht vs. Doel (Australië) ](./assets/table-rates-weight-destination-csv.png){width="500"}
 

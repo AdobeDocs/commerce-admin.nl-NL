@@ -55,7 +55,7 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
    >
    >Om het klantenverslag in een haast te vinden, gebruik de [ controle van Filters ](../getting-started/admin-grid-controls.md).
 
-   In het klantprofiel onder _[!UICONTROL Personal Information]_toont de datum en tijd van_[!UICONTROL Last Logged In]_ dat de klant online is.
+   In het klantprofiel onder _[!UICONTROL Personal Information]_&#x200B;toont de datum en tijd van&#x200B;_[!UICONTROL Last Logged In]_ dat de klant online is.
 
    ![ profiel van de Klant van een online klant ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
 1. Klik op **[!UICONTROL Create Order]**.
 
-   Op de pagina _[!UICONTROL Create New Order]_worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
+   Op de pagina _[!UICONTROL Create New Order]_&#x200B;worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
 
 1. Voltooi de verzend- en betalingsgegevens.
 

@@ -32,7 +32,7 @@ Voor informatie over veiligheid beste praktijken, zie [ uw Plaats en Infrastruct
 
 Als u vermoedt dat uw Adobe Commerce- of Magento Open Source-site in gevaar is, volgt u dit actieplan onverwijld.
 
-1. **Diagnose**: stel een aftasten in werking om de veiligheidsstatus van uw opslag van Commerce te vestigen. Het Scannen van de Veiligheid van Commerce ](security-scan.md) is de vrije dienst die door Adobe wordt aangeboden die u toestaat om uw plaatsen van Commerce voor bekende veiligheidsrisico&#39;s en malware te controleren, en veiligheidsberichten te ontvangen.[
+1. **Diagnose**: stel een aftasten in werking om de veiligheidsstatus van uw opslag van Commerce te vestigen. Het Scannen van de Veiligheid van Commerce [&#128279;](security-scan.md) is de vrije dienst die door Adobe wordt aangeboden die u toestaat om uw plaatsen van Commerce voor bekende veiligheidsrisico&#39;s en malware te controleren, en veiligheidsberichten te ontvangen.
 
 1. **Schone**: Huur a [ gekwalificeerde adviseur ](https://solutionpartners.adobe.com/s/directory/?partner_type=1) of de online dienst om uw plaats van al kwaadwillige code te zuiveren. Sommige leden van de Commerce-gemeenschap raden aan [[!DNL Sucuri Website Malware Removal] ](https://sucuri.net/website-antivirus/malware-removal) te gebruiken. Controleer de map `/media` op uitvoerbare code van de overgebleven map. Verwijder alle onbekende Admin-gebruikers en stel alle Admin-wachtwoorden opnieuw in.
 

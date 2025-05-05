@@ -44,7 +44,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_&#x200B;sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
 
    ![ de Videoconfiguratie van het Product ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Open een product in de bewerkingsmodus.
 
-1. Blader naar de sectie _[!UICONTROL Images and Videos]_en vouw deze uit.
+1. Blader naar de sectie _[!UICONTROL Images and Videos]_&#x200B;en vouw deze uit.
 
    ![ Beelden en Video&#39;s ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
    >[!NOTE]
    >
-   >Als de configuratieoptie _[!UICONTROL Autostart base video]_is ingesteld op `Yes` maar de video niet automatisch begint af te spelen, kan dit worden veroorzaakt door het automatisch afspeelbeleid dat door de browser wordt afgedwongen en dat niet door Adobe Commerce kan worden beheerd. Elke ondersteunde browser heeft een eigen beleid voor automatisch afspelen dat in de loop der tijd kan worden gewijzigd en de video wordt in de toekomst mogelijk niet automatisch afgespeeld. Als geadviseerde beste praktijken, zou u niet op autoplay voor bedrijfskritieke functionaliteit moeten vertrouwen en zou het videogedrag in uw opslag met elke gesteunde browser moeten testen.
+   >Als de configuratieoptie _[!UICONTROL Autostart base video]_&#x200B;is ingesteld op `Yes` maar de video niet automatisch begint af te spelen, kan dit worden veroorzaakt door het automatisch afspeelbeleid dat door de browser wordt afgedwongen en dat niet door Adobe Commerce kan worden beheerd. Elke ondersteunde browser heeft een eigen beleid voor automatisch afspelen dat in de loop der tijd kan worden gewijzigd en de video wordt in de toekomst mogelijk niet automatisch afgespeeld. Als geadviseerde beste praktijken, zou u niet op autoplay voor bedrijfskritieke functionaliteit moeten vertrouwen en zou het videogedrag in uw opslag met elke gesteunde browser moeten testen.
 
 ## API-toegang behouden
 

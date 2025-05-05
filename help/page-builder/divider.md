@@ -73,7 +73,7 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
    ![ Plaatsende lijnkleur, dikte, en breedte ](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies de optie **[!UICONTROL Alignment]** als u de positie van de scheidingslijn in de bovenliggende container wilt bepalen:
 

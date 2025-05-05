@@ -45,7 +45,7 @@ Afhankelijk van de manier waarop u uw website instelt, kunnen er meerdere versie
      https://example.com 
      https://www.example.com/index.html 
 
-Om een canonieke pagina te specificeren, zie {de documentatie van het Onderzoek van 0} Google Centrale ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).[
+Om een canonieke pagina te specificeren, zie {de documentatie van het Onderzoek van 0} Google Centrale [&#128279;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
 
 ## URL-herschrijvingen configureren
 

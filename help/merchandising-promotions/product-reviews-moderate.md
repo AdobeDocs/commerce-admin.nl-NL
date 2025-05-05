@@ -24,11 +24,11 @@ Ga als volgt te werk om alle revisies voor een specifiek product in Admin weer t
 
 1. Voor de productpagina, scrol neer en breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Reviews]** sectie.
 
-   In dit raster kunt u de specifieke revisie ook wijzigen door op de koppeling **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_te klikken.
+   In dit raster kunt u de specifieke revisie ook wijzigen door op de koppeling **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_&#x200B;te klikken.
 
 ## Status bijwerken voor revisies
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**of **[!UICONTROL All Reviews]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;of **[!UICONTROL All Reviews]**.
 
 1. Klik in de lijst op een revisie die in behandeling is om de details weer te geven en indien nodig te bewerken.
 

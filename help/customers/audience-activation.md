@@ -52,7 +52,7 @@ _30 Mei, 2023_
 
 ### 2.4.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _Maart 24, 2025_
 
@@ -60,7 +60,7 @@ _Maart 24, 2025_
 
 ### 2.3.1.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _12 November, 2024_
 
@@ -68,7 +68,7 @@ _12 November, 2024_
 
 ### 2.3.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _29 juli, 2024_
 
@@ -76,7 +76,7 @@ _29 juli, 2024_
 
 ### 2.2.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _12 Juni, 2024_
 
@@ -84,7 +84,7 @@ _12 Juni, 2024_
 
 ### 2.1.1.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _4 April, 2024_
 
@@ -92,7 +92,7 @@ _4 April, 2024_
 
 ### 2.2.0-bèta1
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _16 februari 2024_
 
@@ -101,7 +101,7 @@ _16 februari 2024_
 
 ### 2.1.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _Januari 24, 2024_
 
@@ -109,7 +109,7 @@ _Januari 24, 2024_
 
 ### 2.0.1.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _16 november 2023_
 
@@ -117,16 +117,16 @@ _16 november 2023_
 
 ### 2.0.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _10 oktober, 2023_
 
-![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [ ](#configure-the-extension) de uitbreiding van Audience Activation vormt.
+![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [&#128279;](#configure-the-extension) de uitbreiding van Audience Activation vormt.
 ![ Repareren ](../assets/fix.svg) - Verbeterde stabiliteit.
 
 ### 1.2.0.
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 _Augustus 15, 2023_
 
@@ -136,7 +136,7 @@ _Augustus 15, 2023_
 
 _30 Mei, 2023_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor [ dynamische blokken ](#headless-support) in een headless storefront.
 
@@ -144,7 +144,7 @@ _30 Mei, 2023_
 
 _Mei 11, 2023_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ bevestig ](../assets/fix.svg) - Vaste een kwestie waar een dynamisch blok of de regel van de kartprijs niet op de storefront werd toegepast.
 ![ Bevestig ](../assets/fix.svg) - Vloedigde een kwestie waar een niet gevormde installatie van de uitbreiding van Audience Activation een fout veroorzaakte wanneer een handelaar probeerde om een dynamisch blok tot stand te brengen of bij te werken.
@@ -153,7 +153,7 @@ _Mei 11, 2023_
 
 _Maart 31, 2023_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - Algemene beschikbaarheidsversie
 
@@ -184,7 +184,7 @@ Nadat u de extensie [!DNL Audience Activation] hebt geïnstalleerd, moet u zich 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
-1. Op het **[!UICONTROL Datastream ID]** gebied, kleef identiteitskaart van de gegevensstroom die u creeerde toen u [ ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als bestemming in Real-Time CDP activeerde.
+1. Op het **[!UICONTROL Datastream ID]** gebied, kleef identiteitskaart van de gegevensstroom die u creeerde toen u [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als bestemming in Real-Time CDP activeerde.
 
    Deze gegevensstroom verzendt gegevens van uw Commerce-website naar Real-Time CDP om te bepalen of een klant tot een publiek behoort. Als u nog geen gegevensstroom hebt gecreeerd, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) in Experience Platform, [ voeg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) het aan de bestemming van Commerce in Real-Time CDP toe, en aan de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) uitbreiding in Admin.
 
@@ -212,7 +212,7 @@ Als de extensie [!DNL Audience Activation] is ingeschakeld, kunt u:
 
 ## Real-Time CDP-doeldashboard
 
-U kunt alle [ actieve ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) publiek bekijken dat beschikbaar is om binnen uw instantie van Adobe Commerce te personaliseren gebruikend het **3} dashboard van het Soorten publiek van Real-Time CDP {.**
+U kunt alle [ actieve ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) publiek bekijken dat beschikbaar is om binnen uw instantie van Adobe Commerce te personaliseren gebruikend het **3&rbrace; dashboard van het Soorten publiek van Real-Time CDP &lbrace;.**
 
 Om tot het **publiek van Real-Time CDP** dashboard toegang te hebben, ga naar _Admin_ sidebar, dan ga **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
@@ -248,7 +248,7 @@ De architectuur ziet er als volgt uit:
 
 ![ verzendend Gegevens van Hoofdloze Storefront aan Achtergrond ](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Nadat u [ ](#install-the-extension) installeert en [ ](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
+Nadat u [&#128279;](#install-the-extension) installeert en [&#128279;](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
 
 Om die segmentlidmaatschap van SDK te vangen, zie dit [ codefragment ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
@@ -384,7 +384,7 @@ Nadat het gegeven wordt teruggewonnen, kunt u het gebruiken om publiek-geïnform
 Als Real-Time CDP-publiek niet wordt weergegeven in Commerce, kan dit worden veroorzaakt door:
 
 - Ongeldige verbinding
-- Onjuist die authentificatietype in de **configuratiepagina van de Verbinding van 0} wordt geselecteerd**
+- Onjuist die authentificatietype in de **configuratiepagina van de Verbinding van 0&rbrace; wordt geselecteerd**
 - Onvoldoende rechten voor gegenereerd token
 
 In de volgende secties wordt beschreven hoe u deze problemen kunt oplossen.

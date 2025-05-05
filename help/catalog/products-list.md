@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Lijst met producten
 
-Alle producten in de catalogus zijn toegankelijk vanaf de pagina _[!UICONTROL Products]_in Beheer, waar u producten kunt maken en bestaande producten kunt bewerken. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
+Alle producten in de catalogus zijn toegankelijk vanaf de pagina _[!UICONTROL Products]_&#x200B;in Beheer, waar u producten kunt maken en bestaande producten kunt bewerken. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
 
-De lijst _[!UICONTROL Products]_bevat alle producten in de catalogus, geeft de websites aan waar ze beschikbaar zijn en of ze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B installaties met [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md), omvat het net een kolom die erop wijst welke producten afwisselende discontoprijs in een gedeelde catalogus hebben.
+De lijst _[!UICONTROL Products]_&#x200B;bevat alle producten in de catalogus, geeft de websites aan waar ze beschikbaar zijn en of ze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B installaties met [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md), omvat het net een kolom die erop wijst welke producten afwisselende discontoprijs in een gedeelde catalogus hebben.
 
 U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. Gebruik de standaard [ controles ](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, en [ acties ](../getting-started/admin-actions-control.md) op geselecteerde producten toe te passen.
 

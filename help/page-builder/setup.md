@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] instellen
 
-Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en -blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [ paginalay-out ](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en de pagina&#39;s van CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die de redacteur van WYSIWYG [ ](../content-design/editor.md) gebruikt.
+Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en -blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [ paginalay-out ](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en de pagina&#39;s van CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die de redacteur van WYSIWYG [&#128279;](../content-design/editor.md) gebruikt.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Vouw ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en verifieer dat **[!UICONTROL Enable Page Builder]** aan `Yes` wordt geplaatst.
 
@@ -62,7 +62,7 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** uit en doe het volgende:
 
@@ -82,11 +82,11 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 >[!NOTE]
 >
->Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de redacteur van WYSIWYG [ ](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
+>Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de redacteur van WYSIWYG [&#128279;](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en reeks **[!UICONTROL Enable Page Builder]** aan `No`.
 

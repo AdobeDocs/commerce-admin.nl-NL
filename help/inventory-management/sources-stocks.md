@@ -39,12 +39,12 @@ U begint met een standaardvoorraad die is toegewezen met de standaard-Source en 
 
 De hoeveelheid is het aantal producten in uw actieve voorraad dat kan worden aangeschaft. De hoeveelheid producten neemt toe en af wanneer u de verzending voltooit of de voorraad aanpast. Het toevoegen van producten aan een winkelwagentje heeft geen invloed op deze hoeveelheid. In het vak Aankoopbare hoeveelheid wordt de beschikbaarheid van het product voor een verkoopkanaal bijgehouden en wordt deze waarde ook gebruikt om de beschikbare voorraad voor aankoop te bepalen. Afhankelijk van het aantal bronnen, ziet en beheert u de producthoeveelheid voor een van de volgende opties:
 
-- **Hoeveelheid** - voor single-source handelaren, volgen de _[!UICONTROL Quantity]_kolom en de waarde de hoeveelheid beschikbare voorraad van de hand.
-- **Hoeveelheid per Source** - voor multi-bronverkopers, volgen de _[!UICONTROL Quantity per Source]_kolom en de waarden de voorraad ter plaatse beschikbaar door plaats. Als u meerdere bronnen toevoegt, vervangt deze waarde de Hoeveelheid en wordt elke bron en toegewezen hoeveelheid weergegeven.
+- **Hoeveelheid** - voor single-source handelaren, volgen de _[!UICONTROL Quantity]_&#x200B;kolom en de waarde de hoeveelheid beschikbare voorraad van de hand.
+- **Hoeveelheid per Source** - voor multi-bronverkopers, volgen de _[!UICONTROL Quantity per Source]_&#x200B;kolom en de waarden de voorraad ter plaatse beschikbaar door plaats. Als u meerdere bronnen toevoegt, vervangt deze waarde de Hoeveelheid en wordt elke bron en toegewezen hoeveelheid weergegeven.
 
 De reserves volgen voorraadverzoeken voor het volledige het winkelen proces-toevoegend producten aan karretje, het voltooien van controle, en het beheren van terugbetalingen. Voor de beschikbare voorraad en voorraad wordt de reservevoorraad per bestelling via het afrekeningsproces van de verkoopbare hoeveelheid afgetrokken. Voorbehouden worden omgezet in aftrekbare hoeveelheden bij facturering en verzending van producten.
 
-Met Aankoopbare hoeveelheid wordt de virtuele inventaris van producten (of beschikbaarheid) berekend aan de hand van geconfigureerde drempelwaarden, gereserveerde of verkochte hoeveelheden en hoeveelheden per bron. Voor elke voorraad heeft [!DNL Commerce] toegang tot alle toegewezen bronnen en bijbehorende producthoeveelheden als aggregaat. Met deze basiswaarde worden vervolgens alle reserveringsbedragen en de drempelwaarde _[!UICONTROL Notify for Quantity Below]_afgetrokken.
+Met Aankoopbare hoeveelheid wordt de virtuele inventaris van producten (of beschikbaarheid) berekend aan de hand van geconfigureerde drempelwaarden, gereserveerde of verkochte hoeveelheden en hoeveelheden per bron. Voor elke voorraad heeft [!DNL Commerce] toegang tot alle toegewezen bronnen en bijbehorende producthoeveelheden als aggregaat. Met deze basiswaarde worden vervolgens alle reserveringsbedragen en de drempelwaarde _[!UICONTROL Notify for Quantity Below]_&#x200B;afgetrokken.
 
 ![ Berekend de verkoopbare hoeveelheid voor een voorraad ](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 

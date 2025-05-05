@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Product Reviews]
 
-In de sectie _[!UICONTROL Product Reviews]_worden alle revisies weergegeven die klanten over het product hebben verzonden. Deze sectie wordt alleen weergegeven met de andere productinformatie nadat een nieuw product voor het eerst is opgeslagen. Voor meer informatie, zie [ Recensies van het Product ](../merchandising-promotions/product-reviews.md).
+In de sectie _[!UICONTROL Product Reviews]_&#x200B;worden alle revisies weergegeven die klanten over het product hebben verzonden. Deze sectie wordt alleen weergegeven met de andere productinformatie nadat een nieuw product voor het eerst is opgeslagen. Voor meer informatie, zie [ Recensies van het Product ](../merchandising-promotions/product-reviews.md).
 
 ![ Recensies van het Product ](./assets/product-review.png){width="600" zoomable="yes"}
 

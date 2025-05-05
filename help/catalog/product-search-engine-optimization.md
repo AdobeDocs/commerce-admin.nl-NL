@@ -14,15 +14,15 @@ ht-degree: 0%
 
 _de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijnen van de inhoud en de presentatie van een plaats om de manier te verbeteren de pagina&#39;s door onderzoeksmotoren worden geïndexeerd.
 
-De _[!UICONTROL Search Engine Optimization]_montages voor een product specificeren de [ Sleutel URL ](catalog-urls.md) en [ meta- gegevens ](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om het product te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere zoekprogramma&#39;s deze gebruiken. De huidige [ beste praktijken van SEO ](../merchandising-promotions/seo-overview.md) moet high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
+De _[!UICONTROL Search Engine Optimization]_&#x200B;montages voor een product specificeren de [ Sleutel URL ](catalog-urls.md) en [ meta- gegevens ](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om het product te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere zoekprogramma&#39;s deze gebruiken. De huidige [ beste praktijken van SEO ](../merchandising-promotions/seo-overview.md) moet high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
 
-De standaardwaarde voor elk metagegevensveld kan automatisch worden gegenereerd op basis van de waarden die in de configuratie zijn opgegeven. Elk veld bevat een tijdelijke aanduiding die wordt vervangen door een werkelijke waarde. Voor meer informatie, zie {de gebieden van het 0} Product auto-Generatie ](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).[
+De standaardwaarde voor elk metagegevensveld kan automatisch worden gegenereerd op basis van de waarden die in de configuratie zijn opgegeven. Elk veld bevat een tijdelijke aanduiding die wordt vervangen door een werkelijke waarde. Voor meer informatie, zie {de gebieden van het 0} Product auto-Generatie [&#128279;](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 
 ## De SEO-velden invullen
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Search Engine Optimization]_sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Search Engine Optimization]_&#x200B;sectie.
 
 ![ Optimalisering van de Motor van het Onderzoek ](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 

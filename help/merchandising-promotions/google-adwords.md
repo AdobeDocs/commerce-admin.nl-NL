@@ -125,7 +125,7 @@ Bij het bijhouden van de conversie ziet u het aantal advertenties dat tot een ve
    - `Dynamic` - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van de dynamische waarde voor Hoeveelheid volgorde.
    - `Constant` - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van een specifieke ingevoerde waarde.
 
-   Voor het type van a _Constante_ omzetwaarde, ga specifiek **[!UICONTROL Value]** voor _[!UICONTROL Order Amount]_in om als omzetting te kwalificeren.
+   Voor het type van a _Constante_ omzetwaarde, ga specifiek **[!UICONTROL Value]** voor _[!UICONTROL Order Amount]_&#x200B;in om als omzetting te kwalificeren.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 

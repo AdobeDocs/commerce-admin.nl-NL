@@ -16,7 +16,7 @@ Het kiezen van een producttype is een van de eerste dingen die u moet doen om ee
 
 >[!NOTE]
 >
->Voor een dieper begrip, verwijs naar catalogus [ navigatie ](navigation.md), hoe te opstelling [ categorieën ](categories.md) en [ attributen ](product-attributes.md), en de opties van catalogus [ URL ](catalog-urls.md) die beschikbaar zijn. Nadat u deze concepten begrijpt, moet de meest efficiënte manier om vele producten aan de catalogus toe te voegen [ ](../systems/data-import.md) hen van een Csv- dossier invoeren.
+>Voor een dieper begrip, verwijs naar catalogus [ navigatie ](navigation.md), hoe te opstelling [ categorieën ](categories.md) en [ attributen ](product-attributes.md), en de opties van catalogus [ URL ](catalog-urls.md) die beschikbaar zijn. Nadat u deze concepten begrijpt, moet de meest efficiënte manier om vele producten aan de catalogus toe te voegen [&#128279;](../systems/data-import.md) hen van een Csv- dossier invoeren.
 
 ![ pagina van het Product op de storefront ](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 

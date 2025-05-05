@@ -48,13 +48,13 @@ Als de klant een bestaande inkooporder heeft en nieuwe items wilt toevoegen, kun
 
 1. Volg de normale uitcheckworkflow en klik op **[!UICONTROL Place Purchase Order]** .
 
-Als ze artikelen in hun winkelwagentje hebben wanneer ze op _[!UICONTROL Add Items to Shopping Cart]_klikken, wordt er een dialoogvenster weergegeven. In dit dialoogvenster kunnen ze kiezen tussen het samenvoegen van de winkelwagentjes met de nieuwe artikelen of het vervangen van de artikelen in het winkelwagentje door de artikelen in de inkooporder.
+Als ze artikelen in hun winkelwagentje hebben wanneer ze op _[!UICONTROL Add Items to Shopping Cart]_&#x200B;klikken, wordt er een dialoogvenster weergegeven. In dit dialoogvenster kunnen ze kiezen tussen het samenvoegen van de winkelwagentjes met de nieuwe artikelen of het vervangen van de artikelen in het winkelwagentje door de artikelen in de inkooporder.
 
 De oorspronkelijke kooporder kan worden gesloten als deze niet meer nodig is.
 
 ## Goedkeuring van inkooporders
 
-Voor een klant die is aangewezen als fiatteur op basis van de bedrijfsstructuur of de toegewezen bedrijfsrol, wordt op de _[!UICONTROL My Purchase Orders]_-dashboardpagina het tabblad **[!UICONTROL Requires My Approval]**weergegeven. De klant klikt dit lusje om POs te herzien die op hun goedkeuring wachten. De teller toont hoeveel orden op goedkeuring wachten.
+Voor een klant die is aangewezen als fiatteur op basis van de bedrijfsstructuur of de toegewezen bedrijfsrol, wordt op de _[!UICONTROL My Purchase Orders]_-dashboardpagina het tabblad **[!UICONTROL Requires My Approval]**&#x200B;weergegeven. De klant klikt dit lusje om POs te herzien die op hun goedkeuring wachten. De teller toont hoeveel orden op goedkeuring wachten.
 
 Nadat u op **[!UICONTROL View]** voor een inkooporder hebt geklikt en de details hebt bekeken, kan de fiatteur op **[!UICONTROL Approve]** of **[!UICONTROL Reject]** klikken.
 
@@ -62,7 +62,7 @@ Nadat u op **[!UICONTROL View]** voor een inkooporder hebt geklikt en de details
 
 Vanaf Adobe Commerce 2.4.1 kunnen fiatteurs meerdere inkooporders tegelijk goedkeuren of afwijzen.
 
-1. Klik op de pagina _[!UICONTROL My Purchase Order]_op de tab **[!UICONTROL Requires My Approval]**.
+1. Klik op de pagina _[!UICONTROL My Purchase Order]_&#x200B;op de tab **[!UICONTROL Requires My Approval]**.
 
 1. Schakel het selectievakje in voor elke inkooporder die moet worden goedgekeurd of geweigerd.
 

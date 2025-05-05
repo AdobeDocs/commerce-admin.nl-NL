@@ -22,7 +22,7 @@ Uw bedrijf loopt en inventarisupdates bij de snelheid van verkoop. Als klanten w
 
 Hoe deze instelling werkt in inventarissen van één en meerdere bronnen:
 
-- Schakel _[!UICONTROL Manage Stock]_in als u [!DNL Inventory Management] wilt gebruiken.
+- Schakel _[!UICONTROL Manage Stock]_&#x200B;in als u [!DNL Inventory Management] wilt gebruiken.
 
 - [!UICONTROL Manage Stock] de montages op de productconfiguratie treden de archiefconfiguratie met voeten.
 

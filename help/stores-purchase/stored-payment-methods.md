@@ -36,7 +36,7 @@ Een betalingsmethode die een veilige kluis, zoals [ Braintree ](braintree.md) st
 
 1. Klik op **[!UICONTROL Place Order]** .
 
-De opgeslagen betalingsmethode wordt vervolgens weergegeven op het tabblad _[!UICONTROL Stored Payment Methods]_van het klantendashboard.
+De opgeslagen betalingsmethode wordt vervolgens weergegeven op het tabblad _[!UICONTROL Stored Payment Methods]_&#x200B;van het klantendashboard.
 
 ## Een opgeslagen betalingsmethode verwijderen
 

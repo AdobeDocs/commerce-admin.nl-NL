@@ -34,11 +34,11 @@ Om authentificators van de bevellijn en meer geavanceerde het oplossen van probl
 
 1. Selecteer de gebruiker en open de account in de bewerkingsmodus.
 
-1. Blader omlaag naar de sectie _[!UICONTROL Current User Identity Verification]_en voer uw wachtwoord in.
+1. Blader omlaag naar de sectie _[!UICONTROL Current User Identity Verification]_&#x200B;en voer uw wachtwoord in.
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL 2FA]** .
 
-1. Klik in de sectie _[!UICONTROL Configuration reset]_op **[!UICONTROL Reset]**en **[!UICONTROL OK]**om te bevestigen.
+1. Klik in de sectie _[!UICONTROL Configuration reset]_&#x200B;op **[!UICONTROL Reset]**&#x200B;en **[!UICONTROL OK]**&#x200B;om te bevestigen.
 
    ![ rekening van de Gebruiker - laat 2FA ](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"} toe
 

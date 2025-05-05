@@ -19,7 +19,7 @@ Sales Channel vertegenwoordigen entiteiten die je voorraad verkopen. Standaard b
 
 - **de Steun van de Sales Channel** - de verkoopkanalen omvatten momenteel websites uit-van-de-doos. U kunt verkoopkanalen uitbreiden om douaneopties zoals B2B klantengroepen en opslagmeningen te omvatten. Aan elk verkoopkanaal kan slechts één voorraad worden toegewezen. Eén voorraad kan aan meerdere verkoopkanalen worden toegewezen.
 - **Kaart aan Bronnen** - Elk dossier kan één of meerdere toegelaten of gehandicapte toegewezen bronnen hebben, die de virtuele bijeengevoegde inventaris per product berekenen.
-- **Prioritaire Volgorde 1} - het uit-van-de-doos algoritme van de Prioriteit voor het Algoritme van de Selectie van Source gebruikt de bron van de voorraad van boven tot onder wanneer het vervullen van orden.**
+- **Prioritaire Volgorde 1&rbrace; - het uit-van-de-doos algoritme van de Prioriteit voor het Algoritme van de Selectie van Source gebruikt de bron van de voorraad van boven tot onder wanneer het vervullen van orden.**
 
 Het volgende diagram helpt bepalen hoe een Voorraad met betrekking tot Bronnen en Sales Channel voor een handelaar van de Winkel van de Bicycle werkt.
 

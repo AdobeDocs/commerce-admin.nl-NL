@@ -18,7 +18,7 @@ De Adobe verstrekt een rijkdom van zaken en technische middelen, zelfhulphulpmid
 | ------------------ | ----------- |
 | [ documentatie van het Product ][1] | Handelaars, ontwerpers en ontwikkelaars kunnen de documentatie gebruiken om een dieper inzicht te krijgen in hoe zij de macht van [!DNL Commerce] kunnen toepassen om hun zaken te groeien. |
 | [ de Bibliotheek van Middelen van Commerce ][3] | Toegang tot Ebooks, Commerce whitepapers en webinars om deskundig inzicht te krijgen en online bedrijfsmiddelen om uw winkel te helpen ontwikkelen en verbeteren. |
-| {de Reactie van het Ongeval van de Veiligheid van het Product van 0} Adobe ][4][ | Sluit zich aan bij de Registratie van de Waarschuwing van de Veiligheid om de recentste informatie over potentiële kwetsbaarheid en [ Beste praktijken van de Veiligheid te krijgen ][5]. |
+| {de Reactie van het Ongeval van de Veiligheid van het Product van 0} Adobe &rbrack;[4]&lbrack; | Sluit zich aan bij de Registratie van de Waarschuwing van de Veiligheid om de recentste informatie over potentiële kwetsbaarheid en [ Beste praktijken van de Veiligheid te krijgen ][5]. |
 | [ Communautaire Forums ][6] | De forums bieden toegang tot een netwerk van toegewijde Adobe Commerce- en Magento Open Source-liefhebbers die tips, trucs en ondersteuning delen. |
 | [ Blog ][7] | Bekijk de blog voor de meest recente informatie over nieuwe functies, trends, beste praktijken, komende gebeurtenissen en meer. |
 | [ Gebeurtenissen en webinars ][8] | Houd tabbladen over de agenda van komende gebeurtenissen en webinars. Er gebeurt altijd iets in het ecosysteem van [!DNL Commerce] . |

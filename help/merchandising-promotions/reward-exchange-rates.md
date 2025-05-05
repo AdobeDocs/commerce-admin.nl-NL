@@ -55,8 +55,8 @@ Bij het omzetten van een valuta in punten kan het aantal punten niet worden gede
 
    | Richting | Snelheidinstellingen |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | Voer in het eerste veld _[!UICONTROL Rate]_het aantal punten in. Voer in het tweede veld_[!UICONTROL Rate]_ de monetaire waarde van de punten in. |
-   | [!UICONTROL Currency to Points] | Voer in het eerste veld _[!UICONTROL Rate]_de monetaire waarde in. Voer in het tweede veld_[!UICONTROL Rate]_ het aantal punten in dat door de monetaire waarde wordt vertegenwoordigd. |
+   | [!UICONTROL Points to Currency] | Voer in het eerste veld _[!UICONTROL Rate]_&#x200B;het aantal punten in. Voer in het tweede veld&#x200B;_[!UICONTROL Rate]_ de monetaire waarde van de punten in. |
+   | [!UICONTROL Currency to Points] | Voer in het eerste veld _[!UICONTROL Rate]_&#x200B;de monetaire waarde in. Voer in het tweede veld&#x200B;_[!UICONTROL Rate]_ het aantal punten in dat door de monetaire waarde wordt vertegenwoordigd. |
 
    Bij de conversie van punten naar valuta kan het aantal punten niet worden gedeeld. Als tien punten bijvoorbeeld worden omgezet in $2,00, moeten punten worden ingewisseld in groepen van tien. Daarom zouden 25 punten worden terugbetaald voor $4,00, waarbij 5 punten in het saldo van de klant overblijven.
 
@@ -80,4 +80,4 @@ Bij het omzetten van een valuta in punten kan het aantal punten niet worden gede
 |--- |--- |
 | [!UICONTROL Website] | De websites waarop de bonustarieven van toepassing zijn. |
 | [!UICONTROL Customer Group] | De klantengroepen waarop de beloningsrente van toepassing is. |
-| [!UICONTROL Direction] | Bepaalt welk type transactie de wisselkoers bepaalt. Opties: <br/>**[!UICONTROL Points to Currency]**- Hiermee definieert u het aantal punten dat als creditering kan worden toegepast op het bedrag van een bestelling. Voer in het eerste veld _[!UICONTROL Rate]_het aantal punten in. Voer in het tweede veld_[!UICONTROL Rate]_ de monetaire waarde van de punten in.<br/>**[!UICONTROL Currency to Points]** - Hiermee bepaalt u de hoeveelheid van een bestelling die de punten van de klant kan verdienen. Voer in het eerste veld _[!UICONTROL Rate]_de monetaire waarde in. Voer in het tweede veld_[!UICONTROL Rate]_ het aantal punten in dat door de monetaire waarde wordt vertegenwoordigd. |
+| [!UICONTROL Direction] | Bepaalt welk type transactie de wisselkoers bepaalt. Opties: <br/>**[!UICONTROL Points to Currency]**- Hiermee definieert u het aantal punten dat als creditering kan worden toegepast op het bedrag van een bestelling. Voer in het eerste veld _[!UICONTROL Rate]_&#x200B;het aantal punten in. Voer in het tweede veld&#x200B;_[!UICONTROL Rate]_ de monetaire waarde van de punten in.<br/>**[!UICONTROL Currency to Points]** - Hiermee bepaalt u de hoeveelheid van een bestelling die de punten van de klant kan verdienen. Voer in het eerste veld _[!UICONTROL Rate]_&#x200B;de monetaire waarde in. Voer in het tweede veld&#x200B;_[!UICONTROL Rate]_ het aantal punten in dat door de monetaire waarde wordt vertegenwoordigd. |

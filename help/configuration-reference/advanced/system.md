@@ -132,7 +132,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ beheer van de 
 
 ![ Geavanceerde configuratie - Meldingen ](./assets/system-notifications.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem ](../../systems/notifications.md) in de _Gids van Systemen Admin_.[
+Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem [&#128279;](../../systems/notifications.md) in de _Gids van Systemen Admin_.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -153,8 +153,8 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Algemeen | Hiermee wordt bepaald of het Commerce-exemplaar back-ups toestaat. Opties: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_is ingesteld op `Yes` .) Hiermee bepaalt u de elementen van de Commerce-instantie die in de back-up zijn opgenomen. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_&#x200B;is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_&#x200B;is ingesteld op `Yes` .) Hiermee bepaalt u de elementen van de Commerce-instantie die in de back-up zijn opgenomen. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hier geeft u het uur, de minuut en de seconde op waarin de geplande back-up begint. |
 | [!UICONTROL Frequency] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee bepaalt u hoe vaak de geplande back-up plaatsvindt. Opties: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee wordt bepaald of de opslag in de onderhoudsmodus wordt geplaatst tijdens de geplande back-up. Opties: `Yes` / `No` |
@@ -167,7 +167,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 
 ![ Geavanceerde configuratie - het Archiveren van het Logboek van Acties Admin ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie ](../../systems/action-log-archive.md) in de _Gids van Systemen Admin_.[
+Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie [&#128279;](../../systems/action-log-archive.md) in de _Gids van Systemen Admin_.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -239,7 +239,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Bulkacties ](.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Days Saved in Log] | Algemeen | Bepaalt het aantal dagen dat de bulkacties in het _archief van het Logboek van de Acties van 0} Bulk {worden gehouden._ Standaard: `60` |
+| [!UICONTROL Days Saved in Log] | Algemeen | Bepaalt het aantal dagen dat de bulkacties in het _archief van het Logboek van de Acties van 0&rbrace; Bulk &lbrace;worden gehouden._ Standaard: `60` |
 
 {style="table-layout:auto"}
 

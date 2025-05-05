@@ -36,7 +36,7 @@ U kunt de naam, het adres, de GPS-locatie en de contactgegevens bijwerken. De br
 
 Als u de standaard Source bewerkt, kunt u alle configuraties bewerken, behalve de naam en de code. Aanbevolen wordt dat single-source-handelaren informatie toevoegen die overeenkomt met hun locatie.
 
-De pagina _[!UICONTROL Manage Sources]_bevat een lijst met alle beschikbare inventarislocaties en uitvoeringsfaciliteiten. U kunt nieuwe inventarisbronnen toevoegen en bestaande locaties bewerken.
+De pagina _[!UICONTROL Manage Sources]_&#x200B;bevat een lijst met alle beschikbare inventarislocaties en uitvoeringsfaciliteiten. U kunt nieuwe inventarisbronnen toevoegen en bestaande locaties bewerken.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 

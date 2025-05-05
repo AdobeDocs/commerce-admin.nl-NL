@@ -22,7 +22,7 @@ Het [!UICONTROL Products in Cart] -rapport bevat een lijst met alle producten di
 
 ## [!UICONTROL Search Terms Report]
 
-Het ](../catalog/search-terms.md#search-terms-report) rapport van de Termijnen van het 0} Onderzoek {toont wat uw klanten in elke opslagmening zoeken. [ Het rapport bevat het aantal overeenkomende items in de catalogus en het aantal keren dat de zoekterm is gebruikt.
+Het [&#128279;](../catalog/search-terms.md#search-terms-report) rapport van de Termijnen van het 0&rbrace; Onderzoek &lbrace;toont wat uw klanten in elke opslagmening zoeken.  Het rapport bevat het aantal overeenkomende items in de catalogus en het aantal keren dat de zoekterm is gebruikt.
 
 ![ Rapport van de Termijnen van het Onderzoek ](./assets/search-terms.png){width="600"}
 

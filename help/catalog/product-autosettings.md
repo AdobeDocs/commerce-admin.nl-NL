@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De sectie _[!UICONTROL Autosettings]_bevat alle kenmerken die afhankelijk zijn van andere bewerkingen. U kunt de standaard [ configuratie RMA ](../stores-purchase/rma-configure.md) plaatsen op het product toepassen of het met voeten treden, zoals nodig.
+De sectie _[!UICONTROL Autosettings]_&#x200B;bevat alle kenmerken die afhankelijk zijn van andere bewerkingen. U kunt de standaard [ configuratie RMA ](../stores-purchase/rma-configure.md) plaatsen op het product toepassen of het met voeten treden, zoals nodig.
 
 ![ Autosettings ](./assets/product-autosettings.png){width="600" zoomable="yes"}

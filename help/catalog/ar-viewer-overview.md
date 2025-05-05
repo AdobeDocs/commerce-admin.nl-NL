@@ -17,7 +17,7 @@ Met de extensie [!DNL AR Viewer] for Adobe Commerce beschikt u over een naadloze
 
 De informatie in deze handleiding biedt een overzicht van de instapervaring voor de [!DNL AR Viewer] -gebruiker in Adobe Commerce en van de voordelen die [!DNL AR Viewer] biedt voor de gebruiker. Ook bevat deze handleiding tips en trucs voor het volgen van deze reis.
 
-Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://openusd.org/release/index.html) {target=_blank} is de eerste open-bronsoftware die robuust en scalable 3D scènes kan ruilen die uit vele verschillende activa, bronnen, en animaties kunnen bestaan, terwijl het bevorderen van hoogst samenwerkingswerkschema&#39;s. Deze USD wordt gebruikt in `.USDZ` -bestanden. Dit `.USDZ` -bestand levert AIR- en 3D-inhoud aan de apparaten van de gebruiker.
+Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://openusd.org/release/index.html){target=_blank}  is de eerste open-bronsoftware die robuust en scalable 3D scènes kan ruilen die uit vele verschillende activa, bronnen, en animaties kunnen bestaan, terwijl het bevorderen van hoogst samenwerkingswerkschema&#39;s. Deze USD wordt gebruikt in `.USDZ` -bestanden. Dit `.USDZ` -bestand levert AIR- en 3D-inhoud aan de apparaten van de gebruiker.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Ontwikkeld door Pixar, [ Universele Beschrijving van de Scène (USD) ](https://o
 
 ## [!DNL AR Viewer] vereisten
 
-[!DNL AR Viewer] is zowel compatibel met [!DNL Magento Open Source] als met Adobe Commerce. Zie {het Beleid van de Levenscyclus 0} ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) {target=_blank} voor meer informatie over gesteunde versies.[
+[!DNL AR Viewer] is zowel compatibel met [!DNL Magento Open Source] als met Adobe Commerce. Zie {het Beleid van de Levenscyclus 0} [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank}  voor meer informatie over gesteunde versies.
 
 Zie [ installeren de  [!DNL AR Viewer]  uitbreiding ](../catalog/ar-viewer-setup.md) voor meer informatie.
 

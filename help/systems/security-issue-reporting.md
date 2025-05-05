@@ -19,13 +19,13 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Klik in het linkerdeelvenster onder _[!UICONTROL Security]_op **[!UICONTROL Security.txt]**.
+1. Klik in het linkerdeelvenster onder _[!UICONTROL Security]_&#x200B;op **[!UICONTROL Security.txt]**.
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` in de sectie _[!UICONTROL General]_.
 
    ![ Algemene veiligheidsconfiguratie ](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. Voer onder _[!UICONTROL Contact Information]_het volgende in:
+1. Voer onder _[!UICONTROL Contact Information]_&#x200B;het volgende in:
 
    - Het e-mailadres en telefoonnummer van de persoon die beveiligingsproblemen voor je winkel beheert.
 
@@ -33,7 +33,7 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
    ![ configuratie van de Informatie van het Contact ](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. Voer onder _[!UICONTROL Other Information]_het volgende in:
+1. Voer onder _[!UICONTROL Other Information]_&#x200B;het volgende in:
 
    - De URL van de openbare **[!UICONTROL Encryption]** -toets. Bijvoorbeeld: `https://example.com/pgp-key.txt`
 

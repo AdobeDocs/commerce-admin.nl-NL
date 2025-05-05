@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Retourneert
 
-A _teruggekeerde handelsvergunning_ (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. Doorgaans neemt de klant contact op met de handelaar om terugbetaling aan te vragen. Indien goedgekeurd, wordt een uniek aantal RMA toegewezen om het teruggekeerde product te identificeren. In de configuratie, kunt u of RMA voor alle producten toelaten of RMA voor slechts bepaalde producten toestaan. Het raster _[!UICONTROL Returns]_bevat een lijst met de huidige geretourneerde handelswijzigingsverzoeken (RMA&#39;s) en wordt gebruikt om nieuwe retourverzoeken in te voeren.
+A _teruggekeerde handelsvergunning_ (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. Doorgaans neemt de klant contact op met de handelaar om terugbetaling aan te vragen. Indien goedgekeurd, wordt een uniek aantal RMA toegewezen om het teruggekeerde product te identificeren. In de configuratie, kunt u of RMA voor alle producten toelaten of RMA voor slechts bepaalde producten toestaan. Het raster _[!UICONTROL Returns]_&#x200B;bevat een lijst met de huidige geretourneerde handelswijzigingsverzoeken (RMA&#39;s) en wordt gebruikt om nieuwe retourverzoeken in te voeren.
 
 ![ keert net ](./assets/return.png){width="600" zoomable="yes"} terug
 
@@ -35,7 +35,7 @@ RMAs kan voor eenvoudige, gegroepeerde, configureerbare, en bundelproducttypes w
 
 ## RMA en retourworkflow
 
-1. **ontvangt verzoek** - als [ ](rma-configure.md#enable-rmas-for-your-store) voor de storefront wordt toegelaten, zowel kunnen de geregistreerde klanten als de gasten om een RMA verzoeken. U kunt ook [ een verzoek RMA in Admin ](#create-a-return-request-in-the-admin) voorleggen.
+1. **ontvangt verzoek** - als [&#128279;](rma-configure.md#enable-rmas-for-your-store) voor de storefront wordt toegelaten, zowel kunnen de geregistreerde klanten als de gasten om een RMA verzoeken. U kunt ook [ een verzoek RMA in Admin ](#create-a-return-request-in-the-admin) voorleggen.
 
 2. **uitgegeven RMA** - na het overwegen van het verzoek, kunt u het gedeeltelijk, volledig machtigen, of het verzoek annuleren. Als u de terugzending toestaat en ermee akkoord gaat de terugzending te betalen, kunt u een bestelling van Admin met een gesteunde drager tot stand brengen.
 
@@ -72,7 +72,7 @@ Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand breng
 
 1. Als u een retouraanvraag wilt maken, klikt u op een bestelling met de status `Complete` .
 
-1. Selecteer onder de sectie _[!UICONTROL Return Information]_de tab **[!UICONTROL Return Items]**.
+1. Selecteer onder de sectie _[!UICONTROL Return Information]_&#x200B;de tab **[!UICONTROL Return Items]**.
 
 1. Klik op **[!UICONTROL Add Items]** om items toe te voegen die u wilt retourneren.
 

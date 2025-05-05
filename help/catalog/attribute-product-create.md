@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productkenmerken maken en verwijderen
 
-U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONTROL Product Attributes]_. De volgende stappen tonen hoe u kenmerken kunt maken in het menu_[!UICONTROL Stores]_ .
+U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONTROL Product Attributes]_. De volgende stappen tonen hoe u kenmerken kunt maken in het menu&#x200B;_[!UICONTROL Stores]_ .
 
 ## Stap 1: Beschrijf de eigenschappen van de basiskenmerken
 
@@ -31,7 +31,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
    | `Text Field` | Een invoerveld bestaande uit één regel voor tekst. |
    | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de WYSIWYG Editor gebruiken om de tekst op te maken met HTML-tags of u kunt de tags rechtstreeks in de tekst invoeren. |
    | `Text Editor` | Een volledig werkende tekstredacteur bij de attributenplaats. |
-   | Datum | Toont een datumwaarde in het [ aangewezen formaat ](attributes-input-types.md#date-and-time-options) en [ tijdzone ](../getting-started/store-details.md#locale-options). De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](attributes-input-types.md#date-and-time-options). |
+   | Datum | Toont een datumwaarde in het [ aangewezen formaat ](attributes-input-types.md#date-and-time-options) en [ tijdzone ](../getting-started/store-details.md#locale-options). De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
    | `Dropdown` | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [ configureerbare producten ](product-create-configurable.md). |
    | `Multiple Select` | Hiermee geeft u een vervolgkeuzelijst weer met waarden die meerdere selecties accepteren. |
@@ -40,7 +40,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
    | `Fixed Product Tax` | Laat u [ tarieven van FPT ](../stores-purchase/fixed-product-tax.md) bepalen die op de vereisten van uw scène worden gebaseerd. |
    | `Visual Swatch` | Hiermee geeft u een staal weer met de kleur, structuur of patroon van een configureerbaar product. A [ het visuele monster ](swatches.md) kan met een hexadecimale kleurenwaarde worden gevuld, of een geupload beeld tonen dat de kleur, het materiaal, de textuur, of het patroon van de optie vertegenwoordigt. |
    | `Text Swatch` | Een op tekst gebaseerde representatie van een configureerbare productoptie die vaak voor de grootte wordt gebruikt. [ de stalen van de Tekst ](swatches.md#text-based-swatches) kunnen hexadecimale kleurenwaarden ook omvatten. |
-   | `Page Builder` | Een volledig werkende ](../page-builder/introduction.md) werkruimte van de Bouwer van de Pagina 1} bij de attributenplaats die het gemakkelijk maakt om het in dienst nemen van inhoud aan de productpagina toe te voegen.[ |
+   | `Page Builder` | Een volledig werkende [&#128279;](../page-builder/introduction.md) werkruimte van de Bouwer van de Pagina 1&rbrace; bij de attributenplaats die het gemakkelijk maakt om het in dienst nemen van inhoud aan de productpagina toe te voegen. |
 
    {style="table-layout:auto"}
 
@@ -48,7 +48,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
 
 1. Ga als volgt te werk voor invoertypen [!UICONTROL Dropdown] en [!UICONTROL Multiple Select] :
 
-   - Klik onder _[!UICONTROL Manage Options]_op **[!UICONTROL Add Option]**.
+   - Klik onder _[!UICONTROL Manage Options]_&#x200B;op **[!UICONTROL Add Option]**.
 
    - Voer de eerste waarde in die u in de lijst wilt weergeven.
 
@@ -91,8 +91,8 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
 
 1. Om dit attribuut aan de [ lijst van Producten ](products-list.md) toe te voegen, plaats de volgende opties aan `Yes`.
 
-   - **voeg aan de Opties van de Kolom toe** - omvat de attributen als kolom in de _[!UICONTROL Products]_lijst.
-   - **Gebruik in de Opties van de Filter** - voegt een filtercontrole aan de kolomkopbal in de _[!UICONTROL Products]_lijst toe.
+   - **voeg aan de Opties van de Kolom toe** - omvat de attributen als kolom in de _[!UICONTROL Products]_&#x200B;lijst.
+   - **Gebruik in de Opties van de Filter** - voegt een filtercontrole aan de kolomkopbal in de _[!UICONTROL Products]_&#x200B;lijst toe.
 
 ## Stap 3: Voer het veldlabel in
 

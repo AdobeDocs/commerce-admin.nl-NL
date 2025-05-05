@@ -31,7 +31,7 @@ De gegevensverzamelaar verzamelt de informatie over uw systeem die ons ondersteu
 
 1. Ga als volgt te werk om een logboek met de back-updetails weer te geven:
 
-   - Selecteer in de kolom _[!UICONTROL Action]_de optie **[!UICONTROL Show Log]**.
+   - Selecteer in de kolom _[!UICONTROL Action]_&#x200B;de optie **[!UICONTROL Show Log]**.
 
    - Klik op **[!UICONTROL Back]** om terug te keren naar het raster.
 
@@ -55,7 +55,7 @@ Nadat de back-up is gegenereerd, kunt u de kopie van code- en databasegegevens d
 
 1. Zorg ervoor dat de status `Complete` is.
 
-1. Klik op de entiteitsnaam in de kolommen _[!UICONTROL Code Dump]_of_[!UICONTROL DB Dump]_.
+1. Klik op de entiteitsnaam in de kolommen _[!UICONTROL Code Dump]_&#x200B;of&#x200B;_[!UICONTROL DB Dump]_.
 
 Het downloadproces moet automatisch starten.
 
@@ -65,7 +65,7 @@ Het downloadproces moet automatisch starten.
 
 1. Zoek en selecteer de back-upgegevens die u wilt verwijderen.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Delete]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL Delete]**.
 
 1. Klik op **[!UICONTROL OK]** om de actie te bevestigen.
 

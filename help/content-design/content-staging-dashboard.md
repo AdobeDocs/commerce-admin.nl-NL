@@ -76,7 +76,7 @@ Voer de onderstaande stappen uit om objecten in deze campagne te bewerken.
    - Klik voor een lijstweergave op **[!UICONTROL Select]** en vervolgens op **[!UICONTROL View/Edit]** in de kolom _[!UICONTROL Action]_.
    - Klik eenmaal voor een tijdlijnweergave om het overzicht weer te geven en klik vervolgens op **[!UICONTROL View/Edit]** .
 
-1. Werk de instellingen in de sectie _[!UICONTROL General]_naar wens bij.
+1. Werk de instellingen in de sectie _[!UICONTROL General]_&#x200B;naar wens bij.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit om het even welke sectie die een punt bevat dat moet worden uitgegeven.
 

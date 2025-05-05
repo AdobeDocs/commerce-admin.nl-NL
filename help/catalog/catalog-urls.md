@@ -33,11 +33,11 @@ Een statische URL is een vast adres voor een specifieke pagina. Een statische UR
 
 ### URL-sleutel
 
-De URL-sleutel is het deel van een statische URL dat het product of de categorie beschrijft. Wanneer u een product of categorie maakt, wordt automatisch een eerste URL-sleutel gegenereerd op basis van de naam. Om de sleutel te veranderen URL, zie de ](product-search-engine-optimization.md) sectie van de Optimalisering van de Motor van het Onderzoek [ van de productinformatie.
+De URL-sleutel is het deel van een statische URL dat het product of de categorie beschrijft. Wanneer u een product of categorie maakt, wordt automatisch een eerste URL-sleutel gegenereerd op basis van de naam. Om de sleutel te veranderen URL, zie de [&#128279;](product-search-engine-optimization.md) sectie van de Optimalisering van de Motor van het Onderzoek  van de productinformatie.
 
 >[!NOTE]
 >
->Standaard worden speciale tekens met accent automatisch vervangen door de normale versie zonder accent in de URL-sleutel. `ñ` wordt bijvoorbeeld automatisch vervangen door `n` . Dit gedrag kan worden uitgeschakeld door de configuratieoptie _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_in te stellen op `No` . Zie [ catalogus URLs ](#configure-catalog-urls) vormen.
+>Standaard worden speciale tekens met accent automatisch vervangen door de normale versie zonder accent in de URL-sleutel. `ñ` wordt bijvoorbeeld automatisch vervangen door `n` . Dit gedrag kan worden uitgeschakeld door de configuratieoptie _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;in te stellen op `No` . Zie [ catalogus URLs ](#configure-catalog-urls) vormen.
 
 De URL-sleutel moet bestaan uit kleine letters met niet-afbreekstreepjes tussen deze tekens om woorden van elkaar te scheiden. Afbreekstreepjes zijn niet toegestaan aan het begin of aan het einde van de URL-sleutel. Een goed ontworpen URL-sleutel die &#39;geschikt is voor zoekprogramma&#39;s&#39; kan de productnaam en trefwoorden bevatten om de manier waarop deze wordt geïndexeerd door zoekprogramma&#39;s te verbeteren. De URL-sleutel kan worden geconfigureerd om een automatische omleiding te maken als de URL-sleutel verandert.
 
@@ -90,7 +90,7 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 
    ![ Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.[
+   Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek [&#128279;](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -113,7 +113,7 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 | Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Algemeen | Als rewrites van de Webserver worden toegelaten, neemt het toelaten van deze het plaatsen de Code van de Opslag van de huidige mening in URL op. Opties: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Algemeen | (Voor Single-store-instellingen) Als er een verbroken koppeling op uw site staat, wordt het verkeer omgeleid naar de basis-URL in plaats van naar een pagina met het bericht &quot;404 Pagina niet gevonden&quot;. Opties: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Belangrijk!_**Gebruik geen automatische omleiding naar de basis-URL voor instellingen in meerdere winkels. |
+| [!UICONTROL Auto-redirect to Base URL] | Algemeen | (Voor Single-store-instellingen) Als er een verbroken koppeling op uw site staat, wordt het verkeer omgeleid naar de basis-URL in plaats van naar een pagina met het bericht &quot;404 Pagina niet gevonden&quot;. Opties: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Belangrijk!_**&#x200B;Gebruik geen automatische omleiding naar de basis-URL voor instellingen in meerdere winkels. |
 | [!UICONTROL Catalog media URL format] | Algemeen | Hiermee definieert u de URL-indeling die is toegewezen aan producten en categorieën. Opties: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definieert omgezette bestandsnaam als een unieke hash-waarde.<br />**[!UICONTROL Image optimization based on query parameters]** - bepaalt [ beeld optimaliseert ](../content-design/media-gallery-image-optimization.md) proces afhankelijk van vraagparameters. |
 
 {style="table-layout:auto"}

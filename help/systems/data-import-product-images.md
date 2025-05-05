@@ -58,7 +58,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    >[!TIP]
    >
-   >Laat _[!UICONTROL Images File Directory]_leeg als u de map `<Magento-root-folder>/var/import/images` wilt gebruiken. Vanaf Adobe Commerce en Magento Open Source versie 2.3.2 is dit de standaardbasismap voor geïmporteerde afbeeldingen.
+   >Laat _[!UICONTROL Images File Directory]_&#x200B;leeg als u de map `<Magento-root-folder>/var/import/images` wilt gebruiken. Vanaf Adobe Commerce en Magento Open Source versie 2.3.2 is dit de standaardbasismap voor geïmporteerde afbeeldingen.
 
    Als u meerdere afbeeldingen voor één `sku` importeert, voegt u de afbeeldingen in in een kolom met de naam `additional_images` (voeg de kolom toe als deze nog niet is toegevoegd), gescheiden door komma&#39;s. Voorbeeld: `image02.jpg,image03.jpg`
 
@@ -84,7 +84,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    >[!NOTE]
    >
-   >Vanaf de release Adobe Commerce en Magento Open Source `2.3.2` wordt het pad dat in _[!UICONTROL Images File Directory]_is opgegeven, samengevoegd voor import naar de basismap images: `<remote-storage-root-folder>/var/import/images` . Voor eerdere Adobe Commerce- en Magento Open Source-releases kunt u een andere map op de Commerce-server gebruiken zolang het pad naar de map tijdens het importeren is opgegeven.
+   >Vanaf de release Adobe Commerce en Magento Open Source `2.3.2` wordt het pad dat in _[!UICONTROL Images File Directory]_&#x200B;is opgegeven, samengevoegd voor import naar de basismap images: `<remote-storage-root-folder>/var/import/images` . Voor eerdere Adobe Commerce- en Magento Open Source-releases kunt u een andere map op de Commerce-server gebruiken zolang het pad naar de map tijdens het importeren is opgegeven.
 
 1. Voer in de CSV-gegevens de naam in van elk afbeeldingsbestand dat op de juiste rij, op `sku` en in de juiste kolom moet worden geïmporteerd op basis van het afbeeldingstype ( `base_image` , `small_image` , `thumbnail_image` of `additional_images`).
 
@@ -106,7 +106,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    >[!TIP]
    >
-   >Laat _[!UICONTROL Images File Directory]_leeg om de map `<Magento-root-folder>/var/import/images` te gebruiken. Vanaf Adobe Commerce en Magento Open Source versie 2.3.2 is dit de standaardbasismap voor geïmporteerde afbeeldingen.
+   >Laat _[!UICONTROL Images File Directory]_&#x200B;leeg om de map `<Magento-root-folder>/var/import/images` te gebruiken. Vanaf Adobe Commerce en Magento Open Source versie 2.3.2 is dit de standaardbasismap voor geïmporteerde afbeeldingen.
 
    Als u meerdere afbeeldingen voor één `sku` importeert, voegt u de afbeeldingen in in een kolom met de naam `additional_images` (voeg de kolom toe als deze nog niet is toegevoegd), gescheiden door komma&#39;s: `image02.jpg,image03.jpg`
 

@@ -38,7 +38,7 @@ ht-degree: 0%
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Algemeen | Hiermee bepaalt u of de houder van de cadeau-kaart zijn waarde voor contant geld kan inwisselen. Opties: `Yes` / `No` . |
-| [!UICONTROL Lifetime (days)] | Algemeen | Hiermee bepaalt u hoeveel dagen de kaart geldig is. Als de kaart leeg blijft, verloopt deze niet. <br/><br/>**_Belangrijk:_**in sommige plaatsen, is het illegaal om een vervalsingsgegevens op giftekaarten te plaatsen. Controleer uw lokale wetten voordat u een leven instelt voor uw cadeaukaarten. |
+| [!UICONTROL Lifetime (days)] | Algemeen | Hiermee bepaalt u hoeveel dagen de kaart geldig is. Als de kaart leeg blijft, verloopt deze niet. <br/><br/>**_Belangrijk:_**&#x200B;in sommige plaatsen, is het illegaal om een vervalsingsgegevens op giftekaarten te plaatsen. Controleer uw lokale wetten voordat u een leven instelt voor uw cadeaukaarten. |
 | [!UICONTROL Allow Gift Message] | Winkelweergave | Bepaalt of de optie om een cadeaubericht op te nemen beschikbaar is voor klanten die een cadeaukaart aanschaffen. Opties: `Yes` / `No` . |
 | [!UICONTROL Gift Message Maximum Length] | Winkelweergave | Hiermee bepaalt u het maximum aantal tekens dat is toegestaan in een cadeaukaartbericht. Standaardwaarde: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Algemeen | Hiermee bepaalt u of een rekening met een cadeaukaart wordt gegenereerd wanneer een klant een bestelling plaatst of wanneer de bestelling wordt gefactureerd. Opties: `Ordered` / `Invoiced` |

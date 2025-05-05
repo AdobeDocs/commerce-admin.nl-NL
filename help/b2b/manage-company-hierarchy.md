@@ -24,13 +24,13 @@ Creëer in Beheer een moederbedrijf door een afzonderlijk bedrijf (`[!UICONTROL 
 
 >[!NOTE]
 >
->[!UICONTROL Company Hierarchy][](account-company-create.md#company-hierarchy)
+>[!UICONTROL Company Hierarchy][&#128279;](account-company-create.md#company-hierarchy)
 
-*[!UICONTROL Company Hierarchy]* *[!UICONTROL Actions]*[](#change-company-settings)
+*[!UICONTROL Company Hierarchy]* *[!UICONTROL Actions]*[&#128279;](#change-company-settings)
 
 ## Assign companies to a parent company
 
-1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
+1. __&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL Companies]**
 
    ![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ Creëer in Beheer een moederbedrijf door een afzonderlijk bedrijf (`[!UICONTROL 
 
 ## Manage company settings for an organization
 
-[](account-company-create.md#advanced-settings)
+[&#128279;](account-company-create.md#advanced-settings)
 
 During the update process the initial configuration values default to the the current values configured for the parent company. You must change at least one setting to update the configuration for selected companies.
 

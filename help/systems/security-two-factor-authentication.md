@@ -39,7 +39,7 @@ U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&lear
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Security]** uit en kies **[!UICONTROL 2FA]** .
 
-1. Selecteer in de sectie _[!UICONTROL General]_de providers die u wilt gebruiken.
+1. Selecteer in de sectie _[!UICONTROL General]_&#x200B;de providers die u wilt gebruiken.
 
    | Provider | Functie |
    |--- |--- |

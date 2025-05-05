@@ -22,7 +22,7 @@ Cookies zijn kleine bestanden die worden opgeslagen op de computer van elke bezo
 
 Wanneer de beperkingsmodus voor cookies is ingeschakeld, krijgen bezoekers van de winkel een melding dat cookies vereist zijn voor bewerkingen met alle functies. Afhankelijk van uw thema kan het bericht boven de koptekst, onder de voettekst of ergens anders op de pagina worden weergegeven. Het bericht verwijst naar uw privacybeleid voor meer informatie en moedigt bezoekers aan op de knop Toestaan te klikken om toestemming te verlenen. Nadat de toestemming wordt verleend, verdwijnt het bericht.
 
-Uw [ privacybeleid ](privacy-policy.md)) zou de naam van uw opslag en contactinformatie moeten omvatten, en het doel van elk koekje verklaren dat door uw opslag wordt gebruikt. Meer leren, zie ](#default-cookies) Referentie van het 0} Koekje.[
+Uw [ privacybeleid ](privacy-policy.md)) zou de naam van uw opslag en contactinformatie moeten omvatten, en het doel van elk koekje verklaren dat door uw opslag wordt gebruikt. Meer leren, zie [&#128279;](#default-cookies) Referentie van het 0&rbrace; Koekje.
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ Door de Module van de Bouwer van de Pagina worden geplaatst. Bevat een vlag die 
 
 Door de Module van de Bouwer van de Pagina worden geplaatst. Bevat een vlag die verdere herinneringen verhindert die een beheerder vragen om een bepaalde actie te bevestigen openen als de beheerder hen uitdrukkelijk verwierp alvorens. Wordt alleen gebruikt in een administratieve ruimte van een winkel. Niet van toepassing op kopers.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionaliteit in een beheergebied van een winkel. Niet van toepassing op kopers.
 

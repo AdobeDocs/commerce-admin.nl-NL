@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Na het toevoegen van [ bronnen ](sources-assign-per-product.md), werk de inventarishoeveelheden voor uw product bij. Deze waarden volgen de beschikbare voorraden aan de hand.
 
-Als u de voorraad van een bron wilt verbergen voor verzendingen zonder de bron te verwijderen, stelt u _[!UICONTROL Source Item Status]_in op `Out of Stock` . De SSA en de verzendopties hebben alleen toegang tot bronnen die als `In Stock` met beschikbare inventarishoeveelheid worden vermeld.
+Als u de voorraad van een bron wilt verbergen voor verzendingen zonder de bron te verwijderen, stelt u _[!UICONTROL Source Item Status]_&#x200B;in op `Out of Stock` . De SSA en de verzendopties hebben alleen toegang tot bronnen die als `In Stock` met beschikbare inventarishoeveelheid worden vermeld.
 
 Alle bijgewerkte hoeveelheden en bronnen worden weergegeven in het productraster.
 
@@ -33,7 +33,7 @@ Alle bijgewerkte hoeveelheden en bronnen worden weergegeven in het productraster
 1. Voer een van de volgende handelingen uit om een melding voor inventarishoeveelheden in te stellen:
 
    - Aangepast aantal berichten - Schakel het selectievakje **[!UICONTROL Use Default]** uit en voer een bedrag in **[!UICONTROL Notify Qty]** in.
-   - Standaardwaarde voor Hoeveelheid waarschuwen - Schakel het selectievakje **[!UICONTROL Use Default]** in. [!DNL Commerce] controleert en gebruikt de instelling in _[!UICONTROL Advanced Inventory]_of algemene winkelconfiguratie.
+   - Standaardwaarde voor Hoeveelheid waarschuwen - Schakel het selectievakje **[!UICONTROL Use Default]** in. [!DNL Commerce] controleert en gebruikt de instelling in _[!UICONTROL Advanced Inventory]_&#x200B;of algemene winkelconfiguratie.
 
    ![ de Hoeveelheden van het Product van de Update per Source ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ Alle bijgewerkte hoeveelheden en bronnen worden weergegeven in het productraster
    - Voor **[!UICONTROL Save]** (![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png)) menu, kies **[!UICONTROL Save & Close]**.
 
 
-Het productraster wordt bijgewerkt met een lijst met alle bronnen en gerelateerde hoeveelheden. Voor producten met meer dan vijf toegewezen bronnen houdt u de muisaanwijzer boven de kolom _[!UICONTROL Quantity per Source]_om de volledige lijst weer te geven.
+Het productraster wordt bijgewerkt met een lijst met alle bronnen en gerelateerde hoeveelheden. Voor producten met meer dan vijf toegewezen bronnen houdt u de muisaanwijzer boven de kolom _[!UICONTROL Quantity per Source]_&#x200B;om de volledige lijst weer te geven.
 
 ![ de hoeveelheden van het Product per bron ](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

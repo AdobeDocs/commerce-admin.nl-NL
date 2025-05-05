@@ -28,7 +28,7 @@ Exportfilters worden gebruikt om de gegevens op te geven die u in het exportbest
 
 U kunt filters gebruiken om te bepalen welke SKUs in het de uitvoerdossier inbegrepen zijn. Als u bijvoorbeeld een waarde invoert in het filter Land van vervaardiging, bevat het geëxporteerde CSV-bestand alleen producten die in dat land zijn gemaakt.
 
-Het type filter komt overeen met het gegevenstype. Voor datumgebieden, kunt u de datum van het pictogram van de Kalender ![ kiezen Kalender ](../assets/icon-calendar.png). Zie {de Types van Invoer van 0} Attributen ](../catalog/attributes-input-types.md) voor meer informatie.[
+Het type filter komt overeen met het gegevenstype. Voor datumgebieden, kunt u de datum van het pictogram van de Kalender ![ kiezen Kalender ](../assets/icon-calendar.png). Zie {de Types van Invoer van 0} Attributen [&#128279;](../catalog/attributes-input-types.md) voor meer informatie.
 
 Het formaat van de datum wordt bepaald door de [ scène ](../getting-started/store-details.md#locale-options).
 

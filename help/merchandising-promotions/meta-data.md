@@ -34,7 +34,7 @@ Meta-beschrijvingen bieden een kort overzicht van de pagina voor aanbiedingen me
 
 ## Rijke fragmenten
 
-Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {][1] norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. [ Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
+Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {&rbrack;[1] norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. &lbrack; Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
 
 ## Canonical meta tag
 
@@ -71,7 +71,7 @@ U kunt voorkomen dat zoekmachines worden gestraft door de categorie weg te laten
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **sectie van de Optimalisering van de Motor van het Onderzoek**.
 
-   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0} Gebruik na elk gebied eerst ontruimen.**
+   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik na elk gebied eerst ontruimen.**
 
    ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 

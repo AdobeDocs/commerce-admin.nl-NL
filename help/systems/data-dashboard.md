@@ -57,9 +57,9 @@ Als u de details van een gesynchroniseerd product wilt zien, klikt u op het prod
 
 ### Catalogusgegevens opnieuw synchroniseren
 
-Om ervoor te zorgen dat uw diensten van Commerce SaaS altijd bijgewerkt met de recentste productinformatie zijn, zou u een programma ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) voor het synchroniseren van catalogusgegevens [ moeten uitvoeren.
+Om ervoor te zorgen dat uw diensten van Commerce SaaS altijd bijgewerkt met de recentste productinformatie zijn, zou u een programma [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) voor het synchroniseren van catalogusgegevens  moeten uitvoeren.
 
-Terwijl u [ ](#manually-resync-catalog) manueel kunt in werking stellen catalogusgegevens resync van het gegevensbestand van Commerce aan de diensten SaaS, wordt het niet geadviseerd aangezien het de lading op hardwaremiddelen kan verhogen. In de volgende gevallen kan het echter nodig zijn de catalogus handmatig opnieuw te synchroniseren:
+Terwijl u [&#128279;](#manually-resync-catalog) manueel kunt in werking stellen catalogusgegevens resync van het gegevensbestand van Commerce aan de diensten SaaS, wordt het niet geadviseerd aangezien het de lading op hardwaremiddelen kan verhogen. In de volgende gevallen kan het echter nodig zijn de catalogus handmatig opnieuw te synchroniseren:
 
 - Telkens wanneer er belangrijke wijzigingen in uw productcatalogus worden aangebracht, zoals het toevoegen van nieuwe producten, het bijwerken van productdetails of het wijzigen van categorieën
 

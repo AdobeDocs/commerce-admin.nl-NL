@@ -26,9 +26,9 @@ De handelaar geeft er de voorkeur aan dat de overbrengingen voorrang krijgen op 
 
 1. Open de voorraad op _geeft_ wijze uit.
 
-1. Vouw indien nodig de tab _[!UICONTROL Sources]_uit.
+1. Vouw indien nodig de tab _[!UICONTROL Sources]_&#x200B;uit.
 
-1. Het pictogram van de Soort van het gebruik ](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.![
+1. Het pictogram van de Soort van het gebruik ![&#128279;](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.
 
    Deze bestelling is belangrijk bij verzendopdrachten. SSA beveelt aan dat zendingen worden uitgevoerd op basis van de volgorde van bronnen
 

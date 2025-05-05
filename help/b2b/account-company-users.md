@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gebruikersaccounts van bedrijven beheren
 
-Op de opslagruimte, worden de bedrijfgebruikers toegewezen door de bedrijfbeheerder, en zijn zichtbaar van de _[!UICONTROL Company Users]_pagina. Deze personen zijn doorgaans kopers met verschillende machtigingsniveaus voor toegang tot services en bronnen in de winkel.
+Op de opslagruimte, worden de bedrijfgebruikers toegewezen door de bedrijfbeheerder, en zijn zichtbaar van de _[!UICONTROL Company Users]_&#x200B;pagina. Deze personen zijn doorgaans kopers met verschillende machtigingsniveaus voor toegang tot services en bronnen in de winkel.
 
 De bedrijfbeheerder plaatst eerst omhoog de [ bedrijfstructuur ](account-company-structure.md), en voltooit dan de volgende taken, zoals nodig:
 

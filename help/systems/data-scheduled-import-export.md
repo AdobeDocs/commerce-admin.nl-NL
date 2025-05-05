@@ -83,7 +83,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
      >[!NOTE]
      >
-     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_en_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
+     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_&#x200B;en&#x200B;_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Stel dit in op het uur, de minuut en de seconde waarop het importeren moet beginnen.
 
@@ -173,7 +173,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 | Veld | Beschrijving |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
+| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_&#x200B;selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
 | [!UICONTROL File Directory] | Geef de map op waarin het importbestand zich bevindt. Als Servertype is ingesteld op _[!UICONTROL Local Server]_, geeft u het pad op ten opzichte van de installatiemap van Commerce. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
 | [!UICONTROL File Name] | Geef de naam van het importbestand op. |
 | [!UICONTROL Images File Directory] | Voer het pad in naar de map waarin de productafbeeldingen zijn opgeslagen. Voer voor een lokale server een relatief pad in. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
@@ -224,7 +224,7 @@ Na elke exportbewerking wordt het exportbestand op de door de gebruiker gedefini
       - `Customer Addresses`
       - `Stock Sources`
 
-     De sectie _[!UICONTROL Entity Attributes]_onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
+     De sectie _[!UICONTROL Entity Attributes]_&#x200B;onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
 
    - Stel **[!UICONTROL Start Time]** in op het uur, de minuut en de seconde waarop het exporteren moet beginnen.
 
@@ -285,9 +285,9 @@ Na elke exportbewerking wordt het exportbestand op de door de gebruiker gedefini
 
 ### Stap 4: kies de entiteitskenmerken
 
-1. Kies in de sectie _[!UICONTROL Entity Attributes]_de kenmerken die u wilt opnemen in de exportgegevens.
+1. Kies in de sectie _[!UICONTROL Entity Attributes]_&#x200B;de kenmerken die u wilt opnemen in de exportgegevens.
 
-   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_in.
+   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_&#x200B;in.
    - Als u producten of klanten met bepaalde kenmerkwaarden wilt uitsluiten, voert u de waarden in van de kenmerken die u wilt uitsluiten en schakelt u het selectievakje Overslaan in de kolom Overslaan in.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
@@ -319,7 +319,7 @@ Na elke exportbewerking wordt het exportbestand op de door de gebruiker gedefini
 | Veld | Beschrijving |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Bepaalt de locatie van het exportbestand. Opties:<br>**Lokale Server** - Plaatst het de uitvoerdossier op de zelfde server waar Commerce wordt opgesteld. Als de externe opslagmodule is ingeschakeld, wordt `Local Server` geschakeld naar `Remote Storage` .<br>**Verre FTP** — Plaatst het de uitvoerdossier op een verre server. Er worden extra opties voor referenties en instellingen voor bestandsoverdracht weergegeven. |
-| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
+| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_&#x200B;is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
 
 {style="table-layout:auto"}
 

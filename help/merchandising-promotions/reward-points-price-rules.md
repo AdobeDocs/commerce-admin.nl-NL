@@ -18,7 +18,7 @@ De beloningspunten kunnen aan klanten volgens de regel van de a [ kartprijs ](pr
 
 >[!NOTE]
 >
->](reward-exchange-rates.md) de configuratie van de Tarieven van de Uitwisseling van 0} wordt de Winst {vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.[
+>[&#128279;](reward-exchange-rates.md) de configuratie van de Tarieven van de Uitwisseling van 0&rbrace; wordt de Winst &lbrace;vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.
 
 ## Beloningspunten toevoegen aan een prijsregel
 

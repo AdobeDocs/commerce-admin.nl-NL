@@ -16,7 +16,7 @@ Klanten hebben soms hulp nodig bij hun bestelling. De beheerders van de opslag k
 
 Alle acties die tijdens het aanmelden als de klant worden uitgevoerd, worden toegepast op de account van de werkelijke klant.
 
-Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONTROL Login as Customer]_knoop in veelvoudige pagina&#39;s:
+Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONTROL Login as Customer]_&#x200B;knoop in veelvoudige pagina&#39;s:
 
 * [Bewerkingspagina van klant](../customers/update-account.md)
 * [Weergavepagina Volgorde](../stores-purchase/order-processing.md)
@@ -56,7 +56,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
 
 1. Klik op de rol in de lijst.
 
-1. In het _]linkerpaneel van de Informatie van de Rol 0} {, klik **[!UICONTROL Role Resources]**.[!UICONTROL _
+1. In het _linkerpaneel van de Informatie van de Rol 0&rbrace; &lbrace;, klik **[!UICONTROL Role Resources]**._
 
 1. Wijzig **[!UICONTROL Role Resources]** op de pagina in `Custom` .
 

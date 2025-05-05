@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bulkupdates voor productkenmerken
 
-Met het gereedschap _[!UICONTROL Update Attributes]_kunt u een of meer kenmerken in uw producten wijzigen. Met dit gereedschap kunt u belangrijke wijzigingen toepassen op een grote groep producten.
+Met het gereedschap _[!UICONTROL Update Attributes]_&#x200B;kunt u een of meer kenmerken in uw producten wijzigen. Met dit gereedschap kunt u belangrijke wijzigingen toepassen op een grote groep producten.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

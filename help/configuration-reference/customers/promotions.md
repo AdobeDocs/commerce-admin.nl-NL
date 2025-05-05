@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Algemeen | Definieert de notatie van de couponcode. Opties zijn: <br/>**`Alphanumeric`**- Een willekeurige combinatie van letters en cijfers.<br/>**`Alphabetical`** - Alleen letters. <br/>**`Numeric`**- Alleen nummers. |
 | [!UICONTROL Code Prefix] | Algemeen | Een waarde die aan het begin van alle couponcodes wordt toegevoegd. Laat het veld leeg als u geen voorvoegsel wilt gebruiken. |
 | [!UICONTROL Code Suffix] | Algemeen | Een waarde die aan het einde van alle codes wordt toegevoegd. Laat het veld leeg als u geen achtervoegsel wilt gebruiken. |
-| [!UICONTROL Dash Every X Characters] | Algemeen | Het interval voor het invoegen van een streepje (-) in alle couponcodes. Laat het veld leeg als u geen streepje wilt gebruiken. <br/>_**Nota:**_ de codes van de coupon die door slechts een streepje verschillen worden beschouwd als verschillende codes. |
+| [!UICONTROL Dash Every X Characters] | Algemeen | Het interval voor het invoegen van een streepje (-) in alle couponcodes. Laat het veld leeg als u geen streepje wilt gebruiken. <br/>_&#x200B;**Nota:**&#x200B;_ de codes van de coupon die door slechts een streepje verschillen worden beschouwd als verschillende codes. |
 
 {style="table-layout:auto"}

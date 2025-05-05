@@ -18,7 +18,7 @@ De banen van het gebruik [ Gewas ](../systems/cron.md) om de volgende taken van 
 
 ## Levensduur betalingsopdracht instellen
 
-Het leven van orden met hangende betalingen wordt bepaald door de _configuratie van de Montages van het Gewas van 0} Orden {._ De standaardwaarde is 480 minuten, namelijk 8 uur.
+Het leven van orden met hangende betalingen wordt bepaald door de _configuratie van de Montages van het Gewas van 0&rbrace; Orden &lbrace;._ De standaardwaarde is 480 minuten, namelijk 8 uur.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

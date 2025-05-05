@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Wachtrijen voor nieuwsbrief
 
-Om de lading op de server te beheren, worden de nieuwsbrieven met vele abonnees verzonden in een rij van veelvoudige partijen. U kunt de nieuwsbrief rij periodiek controleren om de status te controleren, en te zien hoeveel zijn verwerkt. Om het even welke problemen die tijdens transmissie voorkomen verschijnen op het _1} rapport van het Probleem van de Nieuwsbrief {._
+Om de lading op de server te beheren, worden de nieuwsbrieven met vele abonnees verzonden in een rij van veelvoudige partijen. U kunt de nieuwsbrief rij periodiek controleren om de status te controleren, en te zien hoeveel zijn verwerkt. Om het even welke problemen die tijdens transmissie voorkomen verschijnen op het _1&rbrace; rapport van het Probleem van de Nieuwsbrief &lbrace;._
 
 ## Een nieuwsbrief verzenden
 

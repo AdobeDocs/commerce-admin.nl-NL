@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Middelen in galerie beheren
 
-De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [ ](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
+De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [&#128279;](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
 
 ## Middelen uploaden
 

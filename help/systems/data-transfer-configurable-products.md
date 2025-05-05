@@ -68,7 +68,7 @@ In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe g
 
    - Stel **[!UICONTROL Export File Format]** in op `CSV` .
 
-1. Blader onder _[!UICONTROL Entity Attributes]_omlaag of gebruik het kenmerklabelfilter om het kenmerk **[!UICONTROL SKU]**te zoeken en voer de volgende handelingen uit:
+1. Blader onder _[!UICONTROL Entity Attributes]_&#x200B;omlaag of gebruik het kenmerklabelfilter om het kenmerk **[!UICONTROL SKU]**&#x200B;te zoeken en voer de volgende handelingen uit:
 
    - Voer de SKU in van het configureerbare product dat u wilt exporteren en klik op **[!UICONTROL Continue]** .
 
@@ -152,13 +152,13 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Stel onder _[!UICONTROL Import Settings]_de waarde **[!UICONTROL Entity Type]**in op `Products` .
+1. Stel onder _[!UICONTROL Import Settings]_&#x200B;de waarde **[!UICONTROL Entity Type]**&#x200B;in op `Products` .
 
-1. Stel onder _[!UICONTROL Import Behavior]_de waarde **[!UICONTROL Import Behavior]**in op `Add/Update` .
+1. Stel onder _[!UICONTROL Import Behavior]_&#x200B;de waarde **[!UICONTROL Import Behavior]**&#x200B;in op `Add/Update` .
 
    ![ het invoergedrag van Gegevens ](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. Klik onder _[!UICONTROL File to Import]_op **[!UICONTROL Choose File]**en navigeer naar het CSV-bestand dat u hebt voorbereid voor importeren en kies het bestand.
+1. Klik onder _[!UICONTROL File to Import]_&#x200B;op **[!UICONTROL Choose File]**&#x200B;en navigeer naar het CSV-bestand dat u hebt voorbereid voor importeren en kies het bestand.
 
    ![ het invoerdossier van Gegevens ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

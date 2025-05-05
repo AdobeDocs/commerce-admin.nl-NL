@@ -16,7 +16,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
 1. Voor _Admin_ sidebar, uitgezochte **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Zoek in de lijst _[!UICONTROL Orders]_de volgorde die u wilt verzenden en klik om deze te openen.
+1. Zoek in de lijst _[!UICONTROL Orders]_&#x200B;de volgorde die u wilt verzenden en klik om deze te openen.
 
 1. Klik in de rechterbovenhoek op de knop **[!UICONTROL Ship]** .
 
@@ -26,7 +26,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
 1. Als u wilt dat de vervoerder een verzendlabel genereert, schakelt u het selectievakje **[!UICONTROL Create Shipping Label]** in en stelt u de opties in:
 
-   - Als u een trackingnummer wilt toevoegen, schuift u omlaag naar de sectie _[!UICONTROL Shipping Information]_en klikt u op **[!UICONTROL Add Tracking Number]**.
+   - Als u een trackingnummer wilt toevoegen, schuift u omlaag naar de sectie _[!UICONTROL Shipping Information]_&#x200B;en klikt u op **[!UICONTROL Add Tracking Number]**.
 
    - Voer een van de volgende handelingen uit:
 
@@ -62,7 +62,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
 1. Zoek de verzending in de lijst en klik om de record te openen.
 
-1. Als u een opmerking aan de volgorde wilt toevoegen, schuift u omlaag naar de sectie _[!UICONTROL Comments History]_en voert u de opmerking in het vak in.
+1. Als u een opmerking aan de volgorde wilt toevoegen, schuift u omlaag naar de sectie _[!UICONTROL Comments History]_&#x200B;en voert u de opmerking in het vak in.
 
    - Als u de opmerking per e-mail naar de klant wilt verzenden, schakelt u het selectievakje **[!UICONTROL Notify Customer by Email]** in.
 
@@ -78,7 +78,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
 1. Zoek de verzendvolgorde in het raster en klik op **[!UICONTROL View]** .
 
-1. Blader omlaag naar de sectie _[!UICONTROL Shipping & Handling Information]_en klik op **[!UICONTROL Track Order]**.
+1. Blader omlaag naar de sectie _[!UICONTROL Shipping & Handling Information]_&#x200B;en klik op **[!UICONTROL Track Order]**.
 
    Alle beschikbare trackinggegevens worden weergegeven in een pop-upvenster.
 

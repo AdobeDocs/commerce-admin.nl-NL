@@ -40,7 +40,7 @@ Houd rekening met het volgende:
 
 - Als een campagne met een prijsregel in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt met een einddatum. U wordt aangeraden een einddatum toe te voegen wanneer u de campagne maakt of een dubbele versie van de bestaande campagne te maken en de einddatum desgewenst aan het duplicaat toe te voegen.
 - Wanneer u een geplande update gebruikt om een regel voor de winkelwagenprijs met een einddatum in te schakelen, moet u de regel instellen als aanvankelijk uitgeschakeld. Regels die al actief zijn, respecteren de einddatum niet.
-- Coupons houden geen verband met de regels voor de kartprijs. Een geplande update biedt geen toegang tot de velden _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_ , _[!UICONTROL Uses per Coupon]_en_[!UICONTROL Uses per Customer]_ op het tabblad _[!UICONTROL Rule Information]_. Bovendien zijn niet alle instellingen op het tabblad_[!UICONTROL Manage Coupon Codes]_ beschikbaar.
+- Coupons houden geen verband met de regels voor de kartprijs. Een geplande update biedt geen toegang tot de velden _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_ , _[!UICONTROL Uses per Coupon]_&#x200B;en&#x200B;_[!UICONTROL Uses per Customer]_ op het tabblad _[!UICONTROL Rule Information]_. Bovendien zijn niet alle instellingen op het tabblad&#x200B;_[!UICONTROL Manage Coupon Codes]_ beschikbaar.
 
 >[!IMPORTANT]
 >

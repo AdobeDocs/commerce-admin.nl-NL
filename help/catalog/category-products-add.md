@@ -30,7 +30,7 @@ Van de [ Producten in Categorie ](categories-product-assignments.md) sectie, kan
 
    ![ Onderzoek Alle Producten tabel ](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. Schakel in de kolom _[!UICONTROL Assign]_de optie in op `Yes` voor elk product dat u wilt toevoegen.
+1. Schakel in de kolom _[!UICONTROL Assign]_&#x200B;de optie in op `Yes` voor elk product dat u wilt toevoegen.
 
    Als u alle weergegeven producten wilt opnemen, klikt u op de menupijl in de kolomkop en kiest u **[!UICONTROL Select All]** .
 
@@ -67,10 +67,10 @@ Van de [ Producten in Categorie ](categories-product-assignments.md) sectie, kan
 
 1. Kies in de categoriestructuur aan de linkerkant de categorie die u wilt bewerken.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Products in Category]_sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Products in Category]_&#x200B;sectie uit.
 
 1. Zoek de producten die u wilt verwijderen.
 
-1. Klik in de kolom _[!UICONTROL Actions]_op **[!UICONTROL Unassign]**.
+1. Klik in de kolom _[!UICONTROL Actions]_&#x200B;op **[!UICONTROL Unassign]**.
 
 1. Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.

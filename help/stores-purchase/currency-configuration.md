@@ -68,7 +68,7 @@ U specificeert ook de valuta die u goedkeurt en welke munt u voor de vertoning v
    >
    >Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] ](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) ](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
 
-   - _om met de {](https://fixer.io/) dienst 1} te verbinden fixer.io:_[
+   - _om met de {[&#128279;](https://fixer.io/) dienst 1} te verbinden fixer.io:_
 
       - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixer.io]** sectie uit.
 
@@ -144,13 +144,13 @@ Met behulp van Valutasymbolen kunt u het symbool aanpassen dat is gekoppeld aan 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
 
-   Elke valuta die voor je winkel is ingeschakeld, wordt in de lijst _[!UICONTROL Currency]_weergegeven.
+   Elke valuta die voor je winkel is ingeschakeld, wordt in de lijst _[!UICONTROL Currency]_&#x200B;weergegeven.
 
 1. Wijzig desgewenst de instellingen in de lijst:
 
    - Voer een aangepast symbool in voor elke valuta die u wilt gebruiken of selecteer het selectievakje **[!UICONTROL Use Standard]** voor elke valuta.
 
-   - Als u het standaardsymbool wilt overschrijven, schakelt u het selectievakje _[!UICONTROL Use Standard]_uit en voert u het symbool in dat u wilt gebruiken.
+   - Als u het standaardsymbool wilt overschrijven, schakelt u het selectievakje _[!UICONTROL Use Standard]_&#x200B;uit en voert u het symbool in dat u wilt gebruiken.
 
    >[!NOTE]
    >

@@ -50,7 +50,7 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
    >
    >Door websites uit te sluiten, kan de prijs van het product en de tijd voor het indexeren van catalogi afnemen, omdat uitgesloten websites niet worden geïndexeerd. Wanneer een klantengroep met een toegevoegde websiteuitsluiting wordt opgeslagen, worden de de productprijs, catalogusregel, en indexen van het catalogusonderzoek ongeldig gemaakt. Als u veel producten, websites en klantengroepen hebt, is het raadzaam het herindexeringsproces te pauzeren totdat u websites van de klantengroepen hebt uitgesloten.
 
-   Er zijn standaard geen websites uitgesloten. Om veelvoudige waarden te selecteren, onderdruk de _sleutel van CTRL_ (PC) of de _3} sleutel van het Bevel {(Mac) en klik elke optie._
+   Er zijn standaard geen websites uitgesloten. Om veelvoudige waarden te selecteren, onderdruk de _sleutel van CTRL_ (PC) of de _3&rbrace; sleutel van het Bevel &lbrace;(Mac) en klik elke optie._
 
 1. Klik op **[!UICONTROL Save Customer Group]** als de bewerking is voltooid.
 

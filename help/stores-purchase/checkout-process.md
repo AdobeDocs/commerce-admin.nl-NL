@@ -36,7 +36,7 @@ De voortgangsbalk boven aan de pagina volgt elke stap van het uitcheckproces en 
 
 #### Een adres toevoegen
 
-1. Onder aan de sectie _[!UICONTROL Shipping Address]_klikt de klant op **[!UICONTROL + New Address]**.
+1. Onder aan de sectie _[!UICONTROL Shipping Address]_&#x200B;klikt de klant op **[!UICONTROL + New Address]**.
 
 1. Voltooit het _[!UICONTROL Shipping Address]_-formulier.
 
@@ -148,7 +148,7 @@ Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie 
 | [!UICONTROL Enable Terms and Conditions] | Winkelweergave | Bepaalt als de klanten worden vereist om met de [ Voorwaarden ](terms-and-conditions.md) van de verkoop in te stemmen alvorens een aankoop te doen. Opties: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Winkelweergave | Hiermee bepaalt u de locatie van het factuuradres tijdens het afrekenen. Opties: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Winkelweergave | Hiermee bepaalt u het maximumaantal items dat tijdens het uitchecken in het overzicht van de volgorde kan worden weergegeven. De standaardwaarde is `10` . |
-| [!UICONTROL Enable Address Search] | Website | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de klanten [ functionaliteit van het adresonderzoek ](checkout-address-search.md) voor _het verschepen_ kunnen gebruiken, en de _Controle &amp; de stappen van de Betalingen_. Wanneer deze functie is ingeschakeld, gebruikt u _[!UICONTROL Number of Customer Addresses Limit]_om het aantal opgeslagen adressen in te stellen dat is vereist om deze functie te activeren tijdens het uitchecken. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Website | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de klanten [ functionaliteit van het adresonderzoek ](checkout-address-search.md) voor _het verschepen_ kunnen gebruiken, en de _Controle &amp; de stappen van de Betalingen_. Wanneer deze functie is ingeschakeld, gebruikt u _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;om het aantal opgeslagen adressen in te stellen dat is vereist om deze functie te activeren tijdens het uitchecken. Opties: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Website | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) wanneer het adresonderzoek **[!UICONTROL Enabled]** is, bepaalt het aantal bewaarde adressen die worden vereist om deze functionaliteit tijdens controle te activeren. Wanneer het aantal van de klant bewaarde adressen samenkomt of dit aantal overschrijdt, slechts wordt het standaardadres teruggegeven op de _Verschepende_ en _Controle &amp; de stappen van de Betalingen_. De klant kan een zoekfunctie gebruiken om het geselecteerde adres te wijzigen. De standaardwaarde is 10. |
 
 {style="table-layout:auto"}

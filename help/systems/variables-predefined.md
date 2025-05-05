@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - Als u de variabele in een nieuwe sjabloon wilt gebruiken, klikt u op **[!UICONTROL Add New Template]** en past u de standaardsjablooncode aan. Zie [ Malplaatjes van het Bericht ](email-template-custom.md#message-templates).
 
-1. Kies onder _[!UICONTROL Load default template]_de **[!UICONTROL Template]**die u wilt aanpassen.
+1. Kies onder _[!UICONTROL Load default template]_&#x200B;de **[!UICONTROL Template]**&#x200B;die u wilt aanpassen.
 
 1. Klik op **[!UICONTROL Load Template]** om een sjabloon toe te passen.
 
-   In het veld _[!UICONTROL Currently used for]_wordt het configuratiepad voor de sjabloon weergegeven. De_[!UICONTROL Template Subject]_ en _[!UICONTROL Template Content]_worden automatisch gegenereerd ten opzichte van de geselecteerde sjabloon.
+   In het veld _[!UICONTROL Currently used for]_&#x200B;wordt het configuratiepad voor de sjabloon weergegeven. De&#x200B;_[!UICONTROL Template Subject]_ en _[!UICONTROL Template Content]_&#x200B;worden automatisch gegenereerd ten opzichte van de geselecteerde sjabloon.
 
    - **[!UICONTROL Template Subject]** - Deze tekst wordt weergegeven in de onderwerpregel van een e-mail.
 

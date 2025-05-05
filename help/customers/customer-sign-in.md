@@ -80,7 +80,7 @@ Voor winkels met een geconfigureerde [!DNL Amazon Pay] en [!DNL Login with Amazo
 
 ## Afmelden bij een klantenaccount
 
-1. In de rechterbovenhoek naast _[!UICONTROL Welcome, Customer Name!]_klikt de klant op de menukiezer **[!UICONTROL v]**.
+1. In de rechterbovenhoek naast _[!UICONTROL Welcome, Customer Name!]_&#x200B;klikt de klant op de menukiezer **[!UICONTROL v]**.
 
 1. Kies **[!UICONTROL Sign Out]** .
 

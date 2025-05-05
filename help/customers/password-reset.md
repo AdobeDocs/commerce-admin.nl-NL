@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Wachtwoorden van klanten opnieuw instellen
 
-Klanten kunnen hun wachtwoorden meestal opnieuw instellen vanuit de winkel door op _[!UICONTROL Forgot Your Password?]_te klikken. De beheerder van de winkel kan echter een opnieuw instellen van het wachtwoord of een geforceerde aanmelding starten vanuit de beheerder.
+Klanten kunnen hun wachtwoorden meestal opnieuw instellen vanuit de winkel door op _[!UICONTROL Forgot Your Password?]_&#x200B;te klikken. De beheerder van de winkel kan echter een opnieuw instellen van het wachtwoord of een geforceerde aanmelding starten vanuit de beheerder.
 
 | Functie | Beschrijving |
 | --- | --- |

@@ -21,7 +21,7 @@ The company administrator is initially assigned when the company account is firs
 
 ## Change assigned company administrator
 
-1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
+1. __&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL Companies]**
 
    ![](./assets/companies-grid.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ The company administrator is initially assigned when the company account is firs
 
 1. **[!UICONTROL Job Title]**
 
-   _[!UICONTROL First Name]__[!UICONTROL Last Name]_
+   _[!UICONTROL First Name]_&#x200B;_[!UICONTROL Last Name]_
 
 1. **[!UICONTROL Email]**
 
@@ -43,7 +43,7 @@ The company administrator is initially assigned when the company account is firs
 
    - If the user account exists in the system, it is moved to the company administrator position in the company structure.
 
-1. **[!UICONTROL First Name]****[!UICONTROL Last Name]**
+1. **[!UICONTROL First Name]**&#x200B;**[!UICONTROL Last Name]**
 
 1. **[!UICONTROL Save]**
 

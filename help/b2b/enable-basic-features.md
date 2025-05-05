@@ -45,7 +45,7 @@ De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts
 
    Als u een installatie met meerdere sites hebt, stelt u het besturingselement **[!UICONTROL Store View]** in de linkerbovenhoek in op de website waarop de configuratie van toepassing is.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL B2B Features]**:
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL B2B Features]**:
 
    ![ B2B configuratie - algemeen ](./assets/b2b-features.png){width="600"}
 
@@ -255,7 +255,7 @@ Als u Betaling op account voor uw winkel wilt inschakelen:
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
 1. Stel **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** in op de orderbedragen die nodig zijn om in aanmerking te komen voor deze betalingsmethode.
 

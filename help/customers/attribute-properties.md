@@ -36,7 +36,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 
    >[!TIP]
    >
-   >**Kortere weg:** om slechts de vereiste gebieden te voltooien, scrol neer aan _[!UICONTROL Storefront Properties]_, ga_[!UICONTROL Sort Order]_ in, en bewaar.
+   >**Kortere weg:** om slechts de vereiste gebieden te voltooien, scrol neer aan _[!UICONTROL Storefront Properties]_, ga&#x200B;_[!UICONTROL Sort Order]_ in, en bewaar.
 
 1. Vul de eigenschappen van gegevensinvoer in:
 
@@ -47,7 +47,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
      | `Text Field` | Een tekstveld met één regel. |
      | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de WYSIWYG-editor gebruiken om de tekst op te maken met HTML-tags of u kunt de tags rechtstreeks in de tekst invoeren. |
      | `Multiple Line` | Hiermee maakt u meerdere tekstregels voor het kenmerk, vergelijkbaar met een adres voor meerdere regels. Het aantal afzonderlijke gegevensinvoerregels kan tussen twee en twintig liggen. Gebruik `Default Value` om de beginwaarde van het veld op te geven. |
-     | `Date` | Hiermee geeft u een datumwaarde weer in de datumnotatie en tijdzone van de voorkeur. De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Hiermee geeft u een datumwaarde weer in de datumnotatie en tijdzone van de voorkeur. De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
      | `Dropdown` | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [ configureerbare producten ](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Een vervolgkeuzelijst waarin meerdere waarden kunnen worden geselecteerd. |
@@ -163,7 +163,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 | `lastname` | De achternaam van de klant. |
 | `suffix` | Een achtervoegsel dat wordt gebruikt met de naam van de klant. (zoals Jr., Sr. of Esquire) |
 | `email` | Het e-mailadres van de klant |
-| `dob` | De geboortedatum van de klant.  <br><br>**_Belangrijk:_**in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
+| `dob` | De geboortedatum van de klant.  <br><br>**_Belangrijk:_**&#x200B;in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
 | `taxvat` | De BTW-identificatienummer dat aan de klant is toegewezen. Het standaardlabel van dit kenmerk is `VAT Number` . Het veld BTW-nummer is altijd aanwezig in alle adressen van de verzend- en factureringsklant wanneer deze wordt bekeken vanuit de beheerder, maar is geen verplicht veld. |
 | `gender` | The customer gender. |
 

@@ -20,7 +20,7 @@ Een carrouselwidget voor catalogusgebeurtenissen geeft een schuifregelaar van aa
 
 ## Stap 1: De carrouselwidget voor de catalogus inschakelen
 
-Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-configure.md) om de _3} widget van de Gebeurtenis van de Catalogus te vormen {zodat het voor de storefront wordt toegelaten._
+Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-configure.md) om de _3&rbrace; widget van de Gebeurtenis van de Catalogus te vormen &lbrace;zodat het voor de storefront wordt toegelaten._
 
 ![ de gebeurtenisconfiguratie van de Catalogus ](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
@@ -70,7 +70,7 @@ Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-con
 
    >[!NOTE]
    >
-   >De resultaten zijn afhankelijk van het thema en de pagina-indeling. U moet ook de _[!UICONTROL Catalog Events Carousel Default Template]_opgeven in de categorieconfiguratie.
+   >De resultaten zijn afhankelijk van het thema en de pagina-indeling. U moet ook de _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;opgeven in de categorieconfiguratie.
 
 1. Als u wilt dat de gebeurteniscarrousel op een andere locatie in de winkel wordt weergegeven, klikt u op **[!UICONTROL Add Layout Update]** en herhaalt u deze stappen voor die locatie.
 

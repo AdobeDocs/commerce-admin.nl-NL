@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De ](../../stores-purchase/braintree.md) betaalgateway van de Braintree [ {steunt ook [!DNL 3-D Secure] controle.
+>De [&#128279;](../../stores-purchase/braintree.md) betaalgateway van de Braintree  &lbrace;steunt ook [!DNL 3-D Secure] controle.
 
 {{config}}
 

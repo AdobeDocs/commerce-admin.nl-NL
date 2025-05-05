@@ -53,7 +53,7 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
 1. Zoek de volgorde in het raster en klik op **[!UICONTROL View]** .
 
-1. Als de knop _[!UICONTROL Credit Memo]_zichtbaar is in de knopbalk, voert u een van de volgende handelingen uit:
+1. Als de knop _[!UICONTROL Credit Memo]_&#x200B;zichtbaar is in de knopbalk, voert u een van de volgende handelingen uit:
 
    - Ga naar stap 6 als u een `offline` restitutie wilt uitgeven.
    - Ga verder met stap 4 als u een `online` restitutie wilt uitgeven.

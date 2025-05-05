@@ -41,7 +41,7 @@ U kunt de naam- en adresopties configureren die aan klanten in de winkel worden 
 
    >[!INFO]
    >
-   >De sectie _[!UICONTROL Name and Address Options]_wordt niet weergegeven wanneer het bereik is ingesteld op `Default Store View` .
+   >De sectie _[!UICONTROL Name and Address Options]_&#x200B;wordt niet weergegeven wanneer het bereik is ingesteld op `Default Store View` .
 
    ![ Toepassingsgebied van de Configuratie ](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

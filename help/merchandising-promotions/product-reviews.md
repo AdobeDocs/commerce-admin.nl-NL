@@ -42,7 +42,7 @@ Het aantal sterren geeft de tevredenheid van het product aan. Bezoekers kunnen o
 
 ### [!UICONTROL My Product Reviews]
 
-In het gedeelte _[!UICONTROL My Product Reviews]_van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
+In het gedeelte _[!UICONTROL My Product Reviews]_&#x200B;van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
 
 ![ Mijn Recensies van het Product ](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Met de Commerce Product Reviews kunnen klanten beoordelingen toewijzen wanneer z
 
    ![ Admin - Ratings ](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Voer in de sectie _[!UICONTROL Rating Title]_de **[!UICONTROL Default Value]**in voor de nieuwe classificatie.
+1. Voer in de sectie _[!UICONTROL Rating Title]_&#x200B;de **[!UICONTROL Default Value]**&#x200B;in voor de nieuwe classificatie.
 
    Voer, indien van toepassing, ook de vertaling in voor elke winkelweergave.
 

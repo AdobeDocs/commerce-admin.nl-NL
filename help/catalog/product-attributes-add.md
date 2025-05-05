@@ -36,7 +36,7 @@ Hoewel de attributen hoofdzakelijk van het [ Opslag ](../stores-purchase/stores-
 
 ![ Eigenschappen van Attributen ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Voer onder _[!UICONTROL Attribute Properties]_een **[!UICONTROL Attribute Label]**in om het kenmerk te identificeren.
+1. Voer onder _[!UICONTROL Attribute Properties]_&#x200B;een **[!UICONTROL Attribute Label]**&#x200B;in om het kenmerk te identificeren.
 
 1. Plaats **[!UICONTROL Catalog Input Type for Store Owner]** aan het type van [ inputcontrole ](attributes-input-types.md) dat voor gegevensingang moet worden gebruikt.
 
@@ -85,7 +85,7 @@ Hoewel de attributen hoofdzakelijk van het [ Opslag ](../stores-purchase/stores-
 
 1. Als u het kenmerk wilt kunnen opnemen als een kolom in het raster Producten, stelt u **[!UICONTROL Add to Column Options]** in op `Yes` .
 
-1. Als u het _[!UICONTROL Products]_raster door deze kolom wilt filteren, stelt u **[!UICONTROL Use in Filter Options]**in op `Yes` .
+1. Als u het _[!UICONTROL Products]_&#x200B;raster door deze kolom wilt filteren, stelt u **[!UICONTROL Use in Filter Options]**&#x200B;in op `Yes` .
 
 ## Stap 4: Voer het veldlabel in
 
@@ -115,7 +115,7 @@ Hoewel de attributen hoofdzakelijk van het [ Opslag ](../stores-purchase/stores-
 
    >[!NOTE]
    >
-   >Wanneer de instelling _[!UICONTROL Use in Search]_is ingesteld op `No` , wordt de instelling_[!UICONTROL Use in Search Results Layered Navigation]_ niet weergegeven en wordt het kenmerk product niet gebruikt in de zoekopdracht met een instellingswaarde van [!UICONTROL Use in Layered Navigation] .
+   >Wanneer de instelling _[!UICONTROL Use in Search]_&#x200B;is ingesteld op `No` , wordt de instelling&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ niet weergegeven en wordt het kenmerk product niet gebruikt in de zoekopdracht met een instellingswaarde van [!UICONTROL Use in Layered Navigation] .
 
 1. Als u het kenmerk in gelaagde navigatie wilt gebruiken op pagina&#39;s met zoekresultaten, stelt u **[!UICONTROL Use in Search Results Layered Navigation]** in op `Yes` en voert u een getal in het veld **[!UICONTROL Position]** in.
 
@@ -123,7 +123,7 @@ Hoewel de attributen hoofdzakelijk van het [ Opslag ](../stores-purchase/stores-
 
    >[!NOTE]
    >
-   >Het veld _[!UICONTROL Position]_wordt standaard grijs weergegeven en u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
+   >Het veld _[!UICONTROL Position]_&#x200B;wordt standaard grijs weergegeven en u moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
 
 1. Stel **[!UICONTROL Use for Promo Rule Conditions]** in op `Yes` als u het kenmerk in prijsregels wilt gebruiken.
 

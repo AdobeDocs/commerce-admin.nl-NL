@@ -72,9 +72,9 @@ Sommige combinaties van belastinggerelateerde opties kunnen verwarrend zijn voor
 
 Als uw belastingberekening op een problematische configuratie gebaseerd is, verschijnen de volgende waarschuwingen:
 
-](../assets/icon-warning.png) **Waarschuwing** van het 0} Uitroepingspunt `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`.![
+![&#128279;](../assets/icon-warning.png) **Waarschuwing** van het 0&rbrace; Uitroepingspunt `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`.
 
-](../assets/icon-warning.png) **Waarschuwing** van het 0} Uitroepingspunt `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`.![
+![&#128279;](../assets/icon-warning.png) **Waarschuwing** van het 0&rbrace; Uitroepingspunt `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`.
 
 ## Plaats van levering van digitale goederen (EU)
 
@@ -89,7 +89,7 @@ Handelaren die worden gecontroleerd op voor digitale goederen betaalde belasting
 - Het verzendadres van de klant en een overzicht van een geslaagde betalingstransactie kunnen worden gebruikt om de woonplaats van de klant vast te stellen. (Betaling wordt alleen geaccepteerd als het verzendadres overeenkomt met de gegevens van de betalingsprovider.)
 - De informatie kan ook rechtstreeks worden vastgelegd via de gegevensopslag in de Commerce-databasetabellen.
 
-_**om digitale goederen belastinginformatie te verzamelen:**_
+_&#x200B;**om digitale goederen belastinginformatie te verzamelen:**&#x200B;_
 
 1. De belastingtarieven voor alle EU-lidstaten laden.
 

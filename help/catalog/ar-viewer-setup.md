@@ -17,7 +17,7 @@ Voor elk product kunt u een `.USDZ` -bestand uploaden waarmee AIR- en 3D-modelle
 
 ## De extensie installeren
 
-[!DNL AR Viewer] is geïnstalleerd als uitbreiding van de [ Marketplace van Adobe Commerce ](https://commercemarketplace.adobe.com/magento-module-arviewer.html) {target=_blank}.
+[!DNL AR Viewer] is geïnstalleerd als uitbreiding van de [ Marketplace van Adobe Commerce ](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank} .
 
 Zie de [_Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) voor meer informatie over het proces van de uitbreidingsinstallatie.
 
@@ -33,7 +33,7 @@ Nadat de extensie [!DNL AR Viewer] is geïnstalleerd en geconfigureerd, kunnen A
    >
    >De nieuwe product 3D modellen zijn altijd _geupload en zichtbaar in_ alle _opslagmeningen, zelfs als het `All Store Views` werkingsgebied niet voor upload wordt gebruikt._ <br/><br/> om het even welke product 3D modellen van een specifieke opslagmening te verbergen, moet u aan die Mening van de Opslag overschakelen, **[!UICONTROL Hide from Product Page]** checkbox voor het 3D model selecteren, en klikken **[!UICONTROL Save]**.
 
-1. Schuif omlaag en vouw de sectie _[!UICONTROL Product 3D Model]_uit.
+1. Schuif omlaag en vouw de sectie _[!UICONTROL Product 3D Model]_&#x200B;uit.
 
    ![ Pop-up van het Menu ](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 

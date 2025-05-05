@@ -30,7 +30,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 - Maak een ondersteuningsticket voor de AEM Assets for Commerce Integration. Neem in het ticket de **[!UICONTROL Program ID]** , **[!UICONTROL Environment ID]** en **[!UICONTROL IMS Org ID]** op voor de AEM Assets-ontwerpomgeving die u met Commerce wilt verbinden.
 
-- Geef de **[!UICONTROL Asset Selector IMS Client ID]** op. Zie [ ImsAuthProps ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in de *3} documentatie van de Selecteur van AEM Assets.*
+- Geef de **[!UICONTROL Asset Selector IMS Client ID]** op. Zie [ ImsAuthProps ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in de *3&rbrace; documentatie van de Selecteur van AEM Assets.*
 
 ## De verbinding configureren
 

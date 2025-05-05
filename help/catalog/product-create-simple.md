@@ -83,7 +83,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Als u _[!UICONTROL Categories]_aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**en voert u een van de volgende handelingen uit:
+1. Als u _[!UICONTROL Categories]_&#x200B;aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**&#x200B;en voert u een van de volgende handelingen uit:
 
    **kies een bestaande categorie**:
 

@@ -20,7 +20,7 @@ Alvorens u begint, zorg ervoor dat de [ Eigenschappen Storefront ](../catalog/at
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. Typ `sku` in het zoekfilter boven aan de kolom _[!UICONTROL Attribute Code]_en klik op **[!UICONTROL Search]**.
+1. Typ `sku` in het zoekfilter boven aan de kolom _[!UICONTROL Attribute Code]_&#x200B;en klik op **[!UICONTROL Search]**.
 
 1. Klik om het kenmerk `sku` te openen in de bewerkingsmodus.
 

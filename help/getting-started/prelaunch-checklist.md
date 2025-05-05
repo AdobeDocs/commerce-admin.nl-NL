@@ -29,7 +29,7 @@ Nadat u het ontwerp, de ontwikkeling, en het testen van uw opslag voltooit, cont
 
 ## Verkoopinstellingen
 
-- {de Opties van het Kart van 0} ](../stores-purchase/cart-configuration.md) - bekijk de montages van de wortelconfiguratie, om te zien of is er om het even wat dat u, zoals het plaatsen van het minimumordebedrag en het leven van de prijzen in de kar wilt veranderen.[
+- {de Opties van het Kart van 0} [&#128279;](../stores-purchase/cart-configuration.md) - bekijk de montages van de wortelconfiguratie, om te zien of is er om het even wat dat u, zoals het plaatsen van het minimumordebedrag en het leven van de prijzen in de kar wilt veranderen.
 - [ Opties van de Controle ](../stores-purchase/checkout-process.md#checkout-options) - bekijk de controleopties, om te zien of is er om het even wat dat u, zoals opstellings termijnen en voorwaarden, en het vormen gastcontrole wilt veranderen.
 - [ Belastingen ](../stores-purchase/taxes.md) - zorg ervoor dat de belastingen behoorlijk volgens uw regels van de bedrijfsbelasting en lokale vereisten worden gevormd.
 - [ Methoden van de Levering ](../stores-purchase/delivery.md) - laat alle dragers en leveringsmethodes toe die door het bedrijf moeten worden gebruikt.

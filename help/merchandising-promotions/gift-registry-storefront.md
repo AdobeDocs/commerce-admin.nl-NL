@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het ](gift-registries.md) gedeelte van de Registratie van het Cadeautje [ {van de klantenrekening maakt een lijst van de huidige geschenkregisters van de klant en de bijbehorende gebeurtenis. Klanten kunnen de huidige registers beheren en nieuwe registers toevoegen.
+Het [&#128279;](gift-registries.md) gedeelte van de Registratie van het Cadeautje  &lbrace;van de klantenrekening maakt een lijst van de huidige geschenkregisters van de klant en de bijbehorende gebeurtenis. Klanten kunnen de huidige registers beheren en nieuwe registers toevoegen.
 
 ![ Cadeauregister ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met kopniveaus wordt een hiërarchie ingesteld die inhoud ordent en zoekprogramma&#39;s helpt elke pagina te indexeren. Gebruik het _inhoudstype van de Kop_ in het [[!DNL Page Builder]  stadium ](workspace.md#stage) om een tekstcontainer met een kopniveau van H1 aan H6 aan het stadium toe te voegen. Koppen worden opgemaakt op basis van het stijlblad dat is gekoppeld aan het huidige thema.
 
-Het [ gebied van de Kop van de Inhoud ](workspace.md) in de _[!UICONTROL Content]_sectie kan worden gebruikt om een H1 rubriek aan de bovenkant van de pagina toe te voegen. Het veld is echter een verouderde versie van [!DNL Commerce] en wordt geleverd ter ondersteuning van oudere inhoud. In dit veld worden de geavanceerde functies van [!DNL Page Builder] niet benut. Het wordt aanbevolen het veld Inhoudskop leeg te laten en het inhoudstype [!DNL Page Builder] Koptekst te gebruiken om koppen van een willekeurig niveau aan de pagina toe te voegen.
+Het [ gebied van de Kop van de Inhoud ](workspace.md) in de _[!UICONTROL Content]_&#x200B;sectie kan worden gebruikt om een H1 rubriek aan de bovenkant van de pagina toe te voegen. Het veld is echter een verouderde versie van [!DNL Commerce] en wordt geleverd ter ondersteuning van oudere inhoud. In dit veld worden de geavanceerde functies van [!DNL Page Builder] niet benut. Het wordt aanbevolen het veld Inhoudskop leeg te laten en het inhoudstype [!DNL Page Builder] Koptekst te gebruiken om koppen van een willekeurig niveau aan de pagina toe te voegen.
 
 In het volgende voorbeeld ziet u hoe de inhoudsopgave Kop inhoud en Kop worden weergegeven wanneer deze worden opgemaakt door het thema Luma.
 
@@ -74,7 +74,7 @@ Net als bij alle inhoudscontainers wordt de gereedschapset weergegeven wanneer u
 
    U kunt deze inhoud ook bijwerken in de kopteksteditor.
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de kop in de bovenliggende container wilt bepalen:
 

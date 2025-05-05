@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Categorieën - Optimalisatie-instellingen voor zoekprogramma&#39;s
 
-De _[!UICONTROL Search Engine Optimization]_sectie specificeert de [ Sleutel URL ](catalog-urls.md) en [ meta- gegevens ](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om de categorie te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere deze gebruiken. De huidige SEO beste praktijken moeten high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
+De _[!UICONTROL Search Engine Optimization]_&#x200B;sectie specificeert de [ Sleutel URL ](catalog-urls.md) en [ meta- gegevens ](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om de categorie te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere deze gebruiken. De huidige SEO beste praktijken moeten high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
 
 ![ Optimalisering van de Motor van het Onderzoek ](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

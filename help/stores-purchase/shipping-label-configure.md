@@ -78,7 +78,7 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
    - **[!UICONTROL Password]** - Het wachtwoord wordt verstrekt door USPS en geeft u toegang tot hun systeem door de Diensten van het Web.
    - **Lengte, Breedte, Hoogte, Meisje** - de standaardafmetingen van het pakket. Als u deze velden wilt weergeven, stelt u **[!UICONTROL Size]** in op `Large` .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **** sectie FedEx en verifieer dat de volgende gebieden volledig zijn:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **&#x200B;**&#x200B;sectie FedEx en verifieer dat de volgende gebieden volledig zijn:
 
    - Meternummer
    - Sleutel

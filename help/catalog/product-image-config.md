@@ -83,7 +83,7 @@ Adobe Commerce en Magento Open Source gebruiken tijdelijke afbeeldingen als plaa
 
    ![ Plaatsaanduidingen van het Beeld van het Product ](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze configuratiemontages, zie {Plaatsaanduidingen van het Beeld van 0} Product _](../configuration-reference/catalog/catalog.md#product-image-placeholders)in de_ Verwijzing van de Configuratie _.[_
+   Voor een gedetailleerde lijst van deze configuratiemontages, zie {Plaatsaanduidingen van het Beeld van 0} Product _[&#128279;](../configuration-reference/catalog/catalog.md#product-image-placeholders)in de_ Verwijzing van de Configuratie _._
 
 1. Klik voor elke afbeeldingsrol op **[!UICONTROL Choose File]** , zoek de afbeelding op uw computer en upload het bestand.
 

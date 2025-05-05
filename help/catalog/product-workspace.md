@@ -39,7 +39,7 @@ Om een sectie uit te breiden of te doen ineenstorten, klik of ![ de selecteur va
 
 ## [!UICONTROL Save] menu
 
-Het menu _[!UICONTROL Save]_bevat verschillende opties waarmee u een product kunt opslaan en vervolgen, opslaan en maken, het product kunt opslaan en dupliceren of het kunt opslaan en sluiten.
+Het menu _[!UICONTROL Save]_&#x200B;bevat verschillende opties waarmee u een product kunt opslaan en vervolgen, opslaan en maken, het product kunt opslaan en dupliceren of het kunt opslaan en sluiten.
 
 ![ sparen menu ](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

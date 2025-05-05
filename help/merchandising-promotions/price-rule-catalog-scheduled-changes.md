@@ -60,7 +60,7 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    >[!NOTE]
    >
-   >Als u de parameters voor regelinformatie wijzigt, moet u controleren of de eigenschap _[!UICONTROL Status]_op de juiste wijze is ingesteld. Als u de verandering in een actief toegepaste regel wilt resulteren, zou de status `Active` moeten zijn.
+   >Als u de parameters voor regelinformatie wijzigt, moet u controleren of de eigenschap _[!UICONTROL Status]_&#x200B;op de juiste wijze is ingesteld. Als u de verandering in een actief toegepaste regel wilt resulteren, zou de status `Active` moeten zijn.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -114,4 +114,4 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    Als u de geplande wijzigingen voor de verschillende winkelweergaven wilt zien, klikt u op **[!UICONTROL Scope]** in de koptekst van de pagina Voorvertoning. Kies de website-, opslag- of opslagweergave die u wilt voorvertonen.
 
-1. Ga zo nodig terug naar de kalender en klik op **[!UICONTROL View/Edit]** in de kolom _[!UICONTROL Action]_om een andere geplande update te openen.
+1. Ga zo nodig terug naar de kalender en klik op **[!UICONTROL View/Edit]** in de kolom _[!UICONTROL Action]_&#x200B;om een andere geplande update te openen.

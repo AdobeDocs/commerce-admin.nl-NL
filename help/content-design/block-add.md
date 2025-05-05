@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Inhoudsblokken toevoegen
 
-U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [ basiscontroles ](pages-workspace.md) zoals de _3} werkruimte van Pagina&#39;s {om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [ gebruiken Widget ](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
+U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [ basiscontroles ](pages-workspace.md) zoals de _3&rbrace; werkruimte van Pagina&#39;s &lbrace;om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [ gebruiken Widget ](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
 
 ![ de pagina van Blokken toont een net van bestaande blokken ](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 

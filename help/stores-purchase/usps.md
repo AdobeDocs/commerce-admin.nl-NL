@@ -16,9 +16,9 @@ De United States Postal Service is de onafhankelijke postdienst van de Amerikaan
 
 ## Stap 1: Een verzendaccount voor USPS openen
 
-Open a ][1] rekening van de Hulpmiddelen van het Web van USPS [. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
+Open a &rbrack;[1] rekening van de Hulpmiddelen van het Web van USPS &lbrack;. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
 
-U kunt ook de 1} rekening van de Hulpmiddelen van het Web van a [ USPS {openen. ][1] Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Meer over de Hulpmiddelen van het Web van USPS leren, zie hun [ Technische Documentatie ][2].
+U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [ USPS &lbrace;openen. ][1] Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Meer over de Hulpmiddelen van het Web van USPS leren, zie hun [ Technische Documentatie ][2].
 
 ## Stap 2: USPS inschakelen voor uw winkel
 

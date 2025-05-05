@@ -115,7 +115,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Als u _[!UICONTROL Categories]_aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**en voert u een van de volgende handelingen uit:
+1. Als u _[!UICONTROL Categories]_&#x200B;aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**&#x200B;en voert u een van de volgende handelingen uit:
 
    **kies een bestaande categorie:**
 
@@ -139,7 +139,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 ## Stap 5: Voeg de bundelitems toe
 
-De sectie _[!UICONTROL Bundle Items]_wordt gebruikt om items toe te voegen aan een bundelproducttype en om de huidige selectie van items te bewerken.
+De sectie _[!UICONTROL Bundle Items]_&#x200B;wordt gebruikt om items toe te voegen aan een bundelproducttype en om de huidige selectie van items te bewerken.
 
 ![ Bundel punten die voor een product ](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"} worden bepaald
 
@@ -180,7 +180,7 @@ De sectie _[!UICONTROL Bundle Items]_wordt gebruikt om items toe te voegen aan e
 
      >[!NOTE]
      >
-     >De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
+     >De hoeveelheid kan een vooraf ingestelde of door de gebruiker gedefinieerde waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_&#x200B;echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
 
      Standaard kan de standaardhoeveelheid die in een bundelitem is opgenomen, niet door de klant worden gewijzigd. De klant kan echter de hoeveelheid van het item invoeren die in de bundel moet worden opgenomen.
 
@@ -283,9 +283,9 @@ De status van de de productvoorraad van de bundel is **_niet automatisch verande
 
 ![ Checkbox ](../assets/checkbox.png) SKU en Gewicht kunnen of `Fixed` of `Dynamic` zijn.
 
-![ Checkbox ](../assets/checkbox.png) de hoeveelheid kan een vooraf ingestelde of user-defined waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
+![ Checkbox ](../assets/checkbox.png) de hoeveelheid kan een vooraf ingestelde of user-defined waarde zijn. Wijs de eigenschap _[!UICONTROL User Defined]_&#x200B;echter niet toe aan een selectievakje of aan invoertypen die een meervoudige selectie bevatten.
 
-](../assets/checkbox.png) de punten van de Bundel van 0} Checkbox {kunnen samen of afzonderlijk worden verscheept.![
+![&#128279;](../assets/checkbox.png) de punten van de Bundel van 0&rbrace; Checkbox &lbrace;kunnen samen of afzonderlijk worden verscheept.
 
 ![ CheckBox ](../assets/checkbox.png) de bundelproduct van de Ouder wordt altijd getoond als omhoog-verkoopproduct voor al zijn kindproducten automatisch.
 

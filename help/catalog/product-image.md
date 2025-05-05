@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Voor elk product kunt u meerdere afbeeldingen en video&#39;s uploaden, de volgorde ervan wijzigen en bepalen hoe elk wordt gebruikt. Als u een groot aantal afbeeldingen wilt beheren, kunt u deze liever als een batch importeren in plaats van ze afzonderlijk te uploaden. Voor meer informatie, zie [ het productbeelden van de Invoer ](../systems/data-import-product-images.md).
 
-Als u grote afbeeldingen wilt uploaden om deze op de _[!UICONTROL Product Details]_-pagina weer te geven, kunt u overwegen een maximale pixelgrootte (breedte en hoogte) in te stellen en de bestanden tijdens het uploaden automatisch te vergroten of te verkleinen. Er is een optie om het automatisch aanpassen van het formaat van grotere afbeeldingsbestanden tijdens het uploaden in te schakelen. Voor meer informatie, zie {het beeld van het 0} Product resizing ](product-image-config.md#product-image-resizing).[
+Als u grote afbeeldingen wilt uploaden om deze op de _[!UICONTROL Product Details]_-pagina weer te geven, kunt u overwegen een maximale pixelgrootte (breedte en hoogte) in te stellen en de bestanden tijdens het uploaden automatisch te vergroten of te verkleinen. Er is een optie om het automatisch aanpassen van het formaat van grotere afbeeldingsbestanden tijdens het uploaden in te schakelen. Voor meer informatie, zie {het beeld van het 0} Product resizing [&#128279;](product-image-config.md#product-image-resizing).
 
 ## De productafbeeldingen bijwerken
 
@@ -26,7 +26,7 @@ Als u grote afbeeldingen wilt uploaden om deze op de _[!UICONTROL Product Detail
    >
    >De nieuwe productafbeeldingen zijn **_altijd_** geupload en zichtbaar in **_alle_** opslagmeningen, zelfs als het `All Store Views` werkingsgebied niet voor upload wordt gebruikt. <br/><br/> om het even welke productbeeld van een specifieke opslagmening te verbergen, moet u aan die Mening van de Opslag overschakelen, **[!UICONTROL Hide from Product Page]** checkbox voor het beeld selecteren, en **[!UICONTROL Save]** klikken.
 
-1. Schuif omlaag en vouw de sectie _[!UICONTROL Images and Videos]_uit.
+1. Schuif omlaag en vouw de sectie _[!UICONTROL Images and Videos]_&#x200B;uit.
 
 ### Een afbeelding uploaden
 
@@ -36,15 +36,15 @@ De naam van het afbeeldingsbestand mag niet langer zijn dan 90 tekens, inclusief
 
 Voer een van de volgende handelingen uit om een afbeelding te uploaden:
 
-- Sleep een beeld van uw Desktop en laat vallen het op de _Tile van de Camera_ ( ![ het pictogram van de Camera ](../assets/icon-camera.png)) in de _[!UICONTROL Images And Videos]_doos.
+- Sleep een beeld van uw Desktop en laat vallen het op de _Tile van de Camera_ ( ![ het pictogram van de Camera ](../assets/icon-camera.png)) in de _[!UICONTROL Images And Videos]_&#x200B;doos.
 
-- In het _[!UICONTROL Images And Videos]_vakje, klik de_ 2} ( ![ het pictogram van de Camera ](../assets/icon-camera.png)) tegel, selecteer het beelddossier op uw computer, en klik **[!UICONTROL Open]**._
+- In het _[!UICONTROL Images And Videos]_&#x200B;vakje, klik de_ 2&rbrace; ( ![ het pictogram van de Camera ](../assets/icon-camera.png)) tegel, selecteer het beelddossier op uw computer, en klik **[!UICONTROL Open]**._
 
   ![ uploadt of sleept en laat vallen ](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### Afbeeldingen opnieuw rangschikken
 
-Om de orde van beelden in de galerij te veranderen, klik het _[!UICONTROL Sort]_( ![ pictogram van de Soort ](./assets/inventory-icon-sort.png)) pictogram bij de bodem van de beeldtegel en sleep het beeld aan een verschillende positie in_[!UICONTROL Images And Videos]_ doos.
+Om de orde van beelden in de galerij te veranderen, klik het _[!UICONTROL Sort]_( ![ pictogram van de Soort ](./assets/inventory-icon-sort.png)) pictogram bij de bodem van de beeldtegel en sleep het beeld aan een verschillende positie in&#x200B;_[!UICONTROL Images And Videos]_ doos.
 
 ![ de Orde van de Verandering ](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 Schermlezers verwijzen naar Alt-tekst voor afbeeldingen om de webtoegankelijkheid te verbeteren en naar zoekprogramma&#39;s om de site te indexeren. In sommige browsers wordt de Alt-tekst weergegeven bij mouseover. Alt-tekst kan meerdere woorden lang zijn en zorgvuldig geselecteerde trefwoorden bevatten.
 
-Voer in het vak _[!UICONTROL Alt Text]_een korte beschrijving van de afbeelding in.
+Voer in het vak _[!UICONTROL Alt Text]_&#x200B;een korte beschrijving van de afbeelding in.
 
 #### Rollen toewijzen
 
 Standaard worden alle rollen toegewezen aan de eerste afbeelding die naar het product is geüpload. Ga als volgt te werk om een rol toe te wijzen aan een andere afbeelding:
 
-Kies in het vak _[!UICONTROL Role]_de rol die u aan de afbeelding wilt toewijzen.
+Kies in het vak _[!UICONTROL Role]_&#x200B;de rol die u aan de afbeelding wilt toewijzen.
 
 Wanneer u aan de _Beelden en de sectie van Video&#39;s_ terugkeert, verschijnen de momenteel toegewezen rollen onder elk beeld.
 
@@ -115,7 +115,7 @@ Het watermerk dat voor het _kleine_ beeld in het volgende voorbeeld wordt gebrui
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Image Watermarks]**sectie.
+1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Image Watermarks]**&#x200B;sectie.
 
    ![ Watermerken van het Beeld van het Product - Basis ](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

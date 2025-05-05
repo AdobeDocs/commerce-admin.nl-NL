@@ -16,7 +16,7 @@ De _Post die Montages_ verzendt geeft u de capaciteit om teruggekeerde e-mail of
 
 >[!IMPORTANT]
 >
->**Bericht van de Veiligheid** Alle handelaren zouden hun post onmiddellijk plaatsen verzendende configuratie tegen onlangs geïdentificeerde potentiële verre codeuitvoering te beschermen uitbuiten. Zolang dit probleem niet is opgelost, wordt u aangeraden [!DNL Sendmail] niet te gebruiken voor e-mailcommunicatie. Controleer in het _[!UICONTROL Mail Sending Settings]_of_[!UICONTROL Set Return Path]_ is ingesteld op `No` .
+>**Bericht van de Veiligheid** Alle handelaren zouden hun post onmiddellijk plaatsen verzendende configuratie tegen onlangs geïdentificeerde potentiële verre codeuitvoering te beschermen uitbuiten. Zolang dit probleem niet is opgelost, wordt u aangeraden [!DNL Sendmail] niet te gebruiken voor e-mailcommunicatie. Controleer in het _[!UICONTROL Mail Sending Settings]_&#x200B;of&#x200B;_[!UICONTROL Set Return Path]_ is ingesteld op `No` .
 
 Voor een gedetailleerde lijst van de configuratiemontages, zie [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 

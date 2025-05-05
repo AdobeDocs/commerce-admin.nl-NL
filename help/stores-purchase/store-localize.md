@@ -76,7 +76,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
    - Plak of typ de vertaalde tekst in het veld.
 
-   Zorg ervoor om alle tekstgebieden, met inbegrip van [ beeld ](../catalog/catalog-images-video.md) etiketten en de tekst van Alt, [ de gebieden van de Optimalisering van de Motor van het Onderzoek ](../catalog/product-search-engine-optimization.md) en om het even welke [ 5} informatie van de Opties van de Douane te vertalen.](../catalog/settings-advanced-custom-options.md)
+   Zorg ervoor om alle tekstgebieden, met inbegrip van [ beeld ](../catalog/catalog-images-video.md) etiketten en de tekst van Alt, [ de gebieden van de Optimalisering van de Motor van het Onderzoek ](../catalog/product-search-engine-optimization.md) en om het even welke [ 5&rbrace; informatie van de Opties van de Douane te vertalen.](../catalog/settings-advanced-custom-options.md)
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -88,7 +88,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 1. Kies **[!UICONTROL Manage Labels]** in het linkerdeelvenster.
 
-1. Voer in de sectie _[!UICONTROL Manage Titles]_een vertaald label in voor elke winkelweergave.
+1. Voer in de sectie _[!UICONTROL Manage Titles]_&#x200B;een vertaald label in voor elke winkelweergave.
 
    ![ ga Vertaalde Etiketten ](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"} in
 
@@ -104,7 +104,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 1. Voor _BasisInformatie_, vertaal **[!UICONTROL Category Name]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Content]_sectie uit en vertaalt **[!UICONTROL Description]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Content]_&#x200B;sectie uit en vertaalt **[!UICONTROL Description]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization Settings]** sectie uit en vertaal de volgende gebieden:
 
@@ -112,7 +112,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Voer onder de sectie _[!UICONTROL Search Engine Optimization Settings]_de volgende handelingen uit om de **[!UICONTROL URL Key]**te vertalen:
+1. Voer onder de sectie _[!UICONTROL Search Engine Optimization Settings]_&#x200B;de volgende handelingen uit om de **[!UICONTROL URL Key]**&#x200B;te vertalen:
 
    - Schakel het selectievakje **[!UICONTROL Use Default Value]** rechts van het veld uit.
 

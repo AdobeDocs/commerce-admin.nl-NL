@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Images and Videos]
 
-Vanuit de sectie _[!UICONTROL Images and Videos]_kunt u basistaken voor beeldbeheer uitvoeren, zoals het uploaden van meerdere afbeeldingen, het opnieuw rangschikken van afbeeldingen en het bepalen hoe elke afbeelding wordt gebruikt. Voor extra controle over individuele beelden, kunt u elk beeld in_ detailmening _openen. Voor meer informatie, zie [ de Beelden en Video van de Catalogus ](catalog-images-video.md).
+Vanuit de sectie _[!UICONTROL Images and Videos]_&#x200B;kunt u basistaken voor beeldbeheer uitvoeren, zoals het uploaden van meerdere afbeeldingen, het opnieuw rangschikken van afbeeldingen en het bepalen hoe elke afbeelding wordt gebruikt. Voor extra controle over individuele beelden, kunt u elk beeld in_ detailmening _openen. Voor meer informatie, zie [ de Beelden en Video van de Catalogus ](catalog-images-video.md).
 
 ## Een nieuwe afbeelding uploaden
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
 
    ![ Beelden en Video&#39;s ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 

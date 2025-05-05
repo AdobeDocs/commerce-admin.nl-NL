@@ -39,7 +39,7 @@ Wanneer de eigenschap van het Bedrijf wordt toegelaten, zijn de extra gebieden b
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Website | Wanneer toegelaten, maakt het mogelijk om gekrulde catalogi met douaneprijzen tot stand te brengen die of globaal, of beperkt tot specifieke bedrijven beschikbaar zijn. Opties: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Website | Wanneer het veld _[!UICONTROL Enable Shared Catalog]_is ingesteld op `Yes` , is deze optie beschikbaar. Wanneer toegelaten, slechts worden de producten die aan een gedeelde catalogus worden toegewezen opgeslagen in de prijsindex. Producten die niet aan de gedeelde catalogus zijn toegewezen, worden niet in de winkel weergegeven. Opties: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Website | Wanneer het veld _[!UICONTROL Enable Shared Catalog]_&#x200B;is ingesteld op `Yes` , is deze optie beschikbaar. Wanneer toegelaten, slechts worden de producten die aan een gedeelde catalogus worden toegewezen opgeslagen in de prijsindex. Producten die niet aan de gedeelde catalogus zijn toegewezen, worden niet in de winkel weergegeven. Opties: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Website | Als deze optie is ingeschakeld, kunnen kopers van bedrijven een prijsaanvraag indienen via het winkelwagentje. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -62,7 +62,7 @@ Wanneer de eigenschap van het Bedrijf wordt toegelaten, zijn de extra gebieden b
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Algemeen | Bepaalt de selectie van verzendmethoden die standaard beschikbaar zijn voor B2B-kopers. Opties: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Algemeen | Geeft elke verzendmethode aan die standaard beschikbaar is voor B2B-kopers. <br/>**_Nota:_**u kunt de het verschepen methodes voor een specifieke [ bedrijfrekening ](../../b2b/account-companies.md) ook beperken. |
+| [!UICONTROL Shipping Methods] | Algemeen | Geeft elke verzendmethode aan die standaard beschikbaar is voor B2B-kopers. <br/>**_Nota:_**&#x200B;u kunt de het verschepen methodes voor een specifieke [ bedrijfrekening ](../../b2b/account-companies.md) ook beperken. |
 
 {style="table-layout:auto"}
 

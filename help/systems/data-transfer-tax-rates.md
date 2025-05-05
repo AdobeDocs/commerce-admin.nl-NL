@@ -16,7 +16,7 @@ Als je zaken doet in verschillende landen en een groot aantal producten verzendt
 
 >[!NOTE]
 >
->Als u in het automatiseren van uw verkoop geinteresseerd bent en belastingnaleving en rapportering gebruikt, kunt u Commerce-vertrouwde op opties op de ](https://solutionpartners.adobe.com/s/directory/?solution=commerce) plaats van de Partners van Commerce 0} vinden {.[
+>Als u in het automatiseren van uw verkoop geinteresseerd bent en belastingnaleving en rapportering gebruikt, kunt u Commerce-vertrouwde op opties op de [&#128279;](https://solutionpartners.adobe.com/s/directory/?solution=commerce) plaats van de Partners van Commerce 0&rbrace; vinden &lbrace;.
 
 ## Stap 1: De gegevens over het Commerce-belastingtarief exporteren
 

@@ -19,7 +19,7 @@ Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](config
 - Conceptprijsopgaven kunnen pas worden ingediend nadat de verkoper items, relevante kortingen en opmerkingen heeft toegevoegd om de oorspronkelijke aanbieding voor de koper te maken.
 - Een verkoper kan een aanhalingsteken maken op basis van de offertes of het klantenraster.
 
-De verkoper stuurt de prijsopgave naar de koper om het onderhandelingsproces in gang te zetten. [](quote-price-negotiation.md)
+De verkoper stuurt de prijsopgave naar de koper om het onderhandelingsproces in gang te zetten. [&#128279;](quote-price-negotiation.md)
 
 ## Sales representative quote creation experience
 
@@ -27,11 +27,11 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 >[!NOTE]
 >
->[](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)__
+>[&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)__
 
 ### Create a quote from the Quote grid
 
-1. [](../systems/permissions.md)
+1. [&#128279;](../systems/permissions.md)
 
 1. Ga in Beheer naar het [!UICONTROL Quotes] -raster door **[!UICONTROL Sales]** te selecteren en selecteer vervolgens **[!UICONTROL Quotes]** .
 
@@ -63,9 +63,9 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Pas indien nodig kortingen voor regelobjecten toe op producten.
 
-   - [!UICONTROL Select]**[!UICONTROL Discount Item]**
+   - [!UICONTROL Select]&#x200B;**[!UICONTROL Discount Item]**
 
-   - [!UICONTROL Discount Line item]**[!UICONTROL Discount Type]**
+   - [!UICONTROL Discount Line item]&#x200B;**[!UICONTROL Discount Type]**
 
      ![](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    Shipping options are locked on checkout.
 
-   [](account-dashboard-my-quotes.md#adding-a-shipping-address)
+   [&#128279;](account-dashboard-my-quotes.md#adding-a-shipping-address)
 
 1. Process the quote.
 

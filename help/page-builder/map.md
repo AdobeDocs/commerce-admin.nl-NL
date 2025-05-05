@@ -68,7 +68,7 @@ Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u 
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -104,7 +104,7 @@ Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u 
 
 1. Beweeg over de kaartcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. Klik in de rechterbovenhoek van de pagina _[!UICONTROL Edit Map]_op **[!UICONTROL Add Location]**.
+1. Klik in de rechterbovenhoek van de pagina _[!UICONTROL Edit Map]_&#x200B;op **[!UICONTROL Add Location]**.
 
 1. Voer de **[!UICONTROL Location Name]** in die u aan de pin op de kaart wilt koppelen.
 
@@ -160,7 +160,7 @@ Met de wizard [!DNL Google Maps] Platformstijlen kunt u een van de zes vooraf ge
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -266,7 +266,7 @@ De netgrootte bepaalt de grootte van de kaart met betrekking tot a [ kolom ](col
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 

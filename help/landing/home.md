@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
 
 Welkom bij de volgende generatie van het toonaangevende platform voor digitale handel ter wereld. Adobe Commerce biedt online handelaren ongeëvenaarde flexibiliteit en controle over de vormgeving, inhoud en functionaliteit van hun online winkels. De beheerder beschikt over krachtige tools voor marketing, optimalisatie van zoekprogramma&#39;s en productbeheer waarmee u sites kunt maken die zijn afgestemd op uw unieke bedrijfsbehoeften.
 
@@ -22,7 +22,7 @@ De informatie in de gebruikershandleidingen voor beheerders is ontworpen voor za
 
 Adobe Commerce is een flexibel B2B- en B2C-handelsplatform dat verkopers en merken in staat stelt hun omzet te versnellen door klantgerichte digitale handelervaringen over online en fysieke ruimten. Het is de toonaangevende keuze voor middelgrote en bedrijfsorganisaties omdat het de meest flexibele implementatiemodellen van on-prem tot beheerde cloud met gegarandeerde SLA&#39;s biedt. Adobe Commerce maakt eerste integratie van API&#39;s en volledig aanpasbare extensies mogelijk, en de rijkste reeks mogelijkheden voor commerciële ervaring op bedrijfsniveau, van marketing tot merchandising en afhandeling. Adobe Commerce is gebaseerd op open-source code base om flexibiliteit en uitbreidbaarheid te bieden, net als geen ander handelsplatform.
 
-Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in de _Informatie van de Versie_.[
+Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in de _Informatie van de Versie_.
 
 ## Magento Open Source-codebasis
 
@@ -129,7 +129,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 | **2.2.0 de integratieversie van Adobe IMS** - [ onbruikbaar maakt de Integratie van Commerce Admin met Adobe ID ](../getting-started/adobe-ims-disable.md) onderwerp is nu inbegrepen in _Begonnen Gids_. Hierin wordt een optionele procedure beschreven voor het uitschakelen van de integratie van Adobe Commerce Admin met Adobe IMS. | Nieuw | 13-06-23 |
 | **2.2.0 de integratieversie van Adobe IMS** - Veranderingen in het [ de integratieoverzicht van de Dienst van Identity Management van Adobe (IMS) ](../getting-started/adobe-ims-integration-overview.md) en [ vormen de Integratie van Commerce Admin met Adobe ID ](../getting-started/adobe-ims-config.md) onderwerpen om op bijgewerkte functionaliteit te wijzen. | Bijwerken | 13-06-23 |
 | **[!DNL Audience Activation]** - Het onderwerp [[!DNL Audience Activation]](../customers/audience-activation.md) bevat nieuwe, bijgewerkte en verbeterde informatie die de configuratie-interface van [!DNL Experience Platform Connector] weerspiegelt en aangeeft hoe u Commerce-instanties zonder koppen kunt gebruiken met regels voor de winkelprijs en dynamische blokken. | Bijwerken | 13-06-23 |
-| **UPS API veroudering** - werkte het [ United Parcel Service (UPS) ](../stores-purchase/ups.md) onderwerp en de [ de 5} pagina van de de configuratieverwijzing van de Methoden van de Levering {bij om tijdelijke veroudering van UPS APIs voor het produceren van nieuwe API sleutels te wijzen.](../configuration-reference/sales/delivery-methods.md#ups) | Bijwerken | 08-06-23 |
+| **UPS API veroudering** - werkte het [ United Parcel Service (UPS) ](../stores-purchase/ups.md) onderwerp en de [ de 5&rbrace; pagina van de de configuratieverwijzing van de Methoden van de Levering &lbrace;bij om tijdelijke veroudering van UPS APIs voor het produceren van nieuwe API sleutels te wijzen.](../configuration-reference/sales/delivery-methods.md#ups) | Bijwerken | 08-06-23 |
 | **2.4.6 versie** - werkte de [ lijst van Producten ](../catalog/products-list.md) en [ Admin de onderwerpen van de configuratieverwijzing ](../configuration-reference/advanced/admin.md) bij om informatie over de beperkingen van de productvertoning te omvatten die kunnen worden gebruikt om prestaties voor grote catalogi te verbeteren. | Bijwerken | 14-03-23 |
 | **2.4.6 versie** - werkte [ aan creeert en schrapt klantensegmenten ](../customers/customer-segment-create.md) en [ de verwijzings ](../configuration-reference/customers/customer-configuration.md) onderwerpen van de Configuratie van de Klant om informatie over bevestiging in real time voor segmenten te omvatten. | Bijwerken | 14-03-23 |
 | **2.4.6 versie** - werkte de [ Braintree ](../stores-purchase/braintree.md) en [ de configuratiereferentie van Braintree ](../configuration-reference/sales/braintree.md) onderwerpen bij om op bijgewerkte en nieuwe betalingsopties te wijzen die door de gebundelde integratie van Braintree worden gesteund. | Bijwerken | 14-03-23 |
@@ -137,7 +137,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 | **2.4.6 versie** - werkte [ e-mailmededelingen ](../systems/email-communications.md) en [ de configuratieverwijzing van het Systeem ](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) onderwerpen bij om de nieuwe optie SMTP voor e-mailmededelingen te omvatten. | Bijwerken | 14-03-23 |
 | **2.4.6 versie** - werkte de [ Nota&#39;s van de Versie van Inventory management ](../inventory-management/release-notes.md) met een beschrijvende lijst van moeilijke situaties bij inbegrepen in de recentste gebundelde uitbreidingsversie (v1.2.6). | Bijwerken | 14-03-23 |
 | **2.4.6 versie** - werkte de [ Nota&#39;s van de Versie B2B ](../b2b/release-notes.md) met een beschrijvende lijst van moeilijke situaties bij inbegrepen in de recentste uitbreidingsversie (v1.3.5). | Bijwerken | 14-03-23 |
-| **Nieuw onderwerp** - voegde het [ 3} onderwerp van de activering van het publiek aan de _Gids van het Beheer van de Klant_ toe, die gedetailleerde informatie over het activeren van het publiek van Real-Time CDP in Adobe Commerce verstrekt.](../getting-started/commerce-account-transfer.md) | Nieuw | 13-03-23 |
+| **Nieuw onderwerp** - voegde het [ 3&rbrace; onderwerp van de activering van het publiek aan de _Gids van het Beheer van de Klant_ toe, die gedetailleerde informatie over het activeren van het publiek van Real-Time CDP in Adobe Commerce verstrekt.](../getting-started/commerce-account-transfer.md) | Nieuw | 13-03-23 |
 | **Nieuw onderwerp** - voegde [ een Commerce rekening ](../getting-started/commerce-account-transfer.md) onderwerp over aan _Begonnen Gids_. | Nieuw | 27-02-23 |
 
 {style="table-layout:auto"}

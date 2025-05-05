@@ -95,7 +95,7 @@ De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakke
 
    - Voer in het veld **[!UICONTROL Sort Order]** een getal in om de volgorde van het blok te bepalen als het blok op dezelfde locatie op de pagina moet verschijnen als andere inhoudselementen. De bovenste positie is nul.
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**en stel **[!UICONTROL Display On]**in op de categorie, het product of de pagina waar u het blok wilt weergeven.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**&#x200B;en stel **[!UICONTROL Display On]**&#x200B;in op de categorie, het product of de pagina waar u het blok wilt weergeven.
 
    Als u bijvoorbeeld `All Pages` kiest en het blok in de kop- of voettekst plaatst, wordt het blok op elke pagina van de winkel op dezelfde plaats weergegeven.
 

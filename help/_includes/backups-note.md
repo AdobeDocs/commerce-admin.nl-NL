@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Gehandicapte eigenschap:** de Steun wordt onbruikbaar gemaakt door gebrek. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _onderwerp van de Gids van de Installatie 0} om steunen toe te laten: [ file en rol terug het dossiersysteem, media, en gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)._
+>**Gehandicapte eigenschap:** de Steun wordt onbruikbaar gemaakt door gebrek. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _onderwerp van de Gids van de Installatie 0&rbrace; om steunen toe te laten: [ file en rol terug het dossiersysteem, media, en gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)._
 
 >[!NOTE]
 >

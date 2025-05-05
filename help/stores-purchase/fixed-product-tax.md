@@ -33,7 +33,7 @@ Wees voorzichtig wanneer u FPT-prijzen per e-mail citeert, omdat het prijsversch
 
 ## FPT configureren
 
-Het Vaste de inputtype van de Belasting van het Product (FPT) [ ](../catalog/attributes-input-types.md) leidt tot een sectie van gebieden voor het beheren van belasting voor elk gebied.
+Het Vaste de inputtype van de Belasting van het Product (FPT) [&#128279;](../catalog/attributes-input-types.md) leidt tot een sectie van gebieden voor het beheren van belasting voor elk gebied.
 
 In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winkel kunt instellen, bijvoorbeeld met &quot;eco-belasting&quot;. Na het bepalen van de draagwijdte voor de belasting en de landen en staten waar de belasting van toepassing is, en afhankelijk van de opties u kiest, kunnen de inputgebieden veranderen volgens de lokale vereisten. Meer leren, zie [ productattributen ](../catalog/attribute-product-create.md) creëren.
 
@@ -89,7 +89,7 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
    - **[!UICONTROL Add to Column Options]** - als u het FPT gebied in de [ lijst van Producten ](../catalog/products-list.md) wilt verschijnen, die aan `Yes` wordt geplaatst.
 
-   - **[!UICONTROL Use in Filter Options]** - als u [ filter ](../getting-started/admin-workspace.md) producten in het net wilt kunnen {zijn dat op de waarde van het FPT gebied wordt gebaseerd, aan `Yes` wordt geplaatst.
+   - **[!UICONTROL Use in Filter Options]** - als u [ filter ](../getting-started/admin-workspace.md) producten in het net wilt kunnen &lbrace;zijn dat op de waarde van het FPT gebied wordt gebaseerd, aan `Yes` wordt geplaatst.
 
    ![ Geavanceerde Eigenschappen van Attributen ](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 

@@ -53,7 +53,7 @@ Installeer het Adobe Commerce-pakket en maak de Commerce-omgeving gereed door de
 
 ## De extensie `aem-assets-integration` installeren
 
-Installeer de nieuwste versie van de extensie AEM Assets Integration (`aem-assets-integration`) op een Adobe Commerce-instantie met versie Adobe Commerce 2.4.5+. De integratie van de Activa van AEM wordt geleverd als composer metapakket van de {](https://repo.magento.com/admin/dashboard) bewaarplaats 0} repo.magento.com.[
+Installeer de nieuwste versie van de extensie AEM Assets Integration (`aem-assets-integration`) op een Adobe Commerce-instantie met versie Adobe Commerce 2.4.5+. De integratie van de Activa van AEM wordt geleverd als composer metapakket van de {[&#128279;](https://repo.magento.com/admin/dashboard) bewaarplaats 0} repo.magento.com.
 
 >[!BEGINTABS]
 
@@ -147,7 +147,7 @@ Geef de volgende waarden op in de configuratie
 - Naam gegevensruimte (SaaS-id) voor beveiligde cloudopslag
 - IMS-organisatie-id waar uw Commerce- en AEM Assets-omgevingen zijn ingericht
 
-Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3} documentatie van de Schakelaar van de Diensten van Commerce {.](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)
+Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3&rbrace; documentatie van de Schakelaar van de Diensten van Commerce &lbrace;.](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)
 
 Wanneer u sparen de configuratie, produceert het systeem SaaS project en gegevensbestand IDs voor uw milieu. Deze waarden zijn vereist om de synchronisatie van bedrijfsmiddelen tussen Adobe Commerce en AEM Assets in te schakelen.
 

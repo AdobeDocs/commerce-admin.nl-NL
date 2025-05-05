@@ -24,7 +24,7 @@ In het volgende voorbeeld worden prijsgegevens voor lagen voor één product ge�
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. Stel onder _[!UICONTROL Export Settings]_de waarde **[!UICONTROL Entity Type]**in op `Advanced Pricing` .
+1. Stel onder _[!UICONTROL Export Settings]_&#x200B;de waarde **[!UICONTROL Entity Type]**&#x200B;in op `Advanced Pricing` .
 
 1. Blader in het **[!UICONTROL Entity Attributes]** -raster omlaag naar de SKU-kenmerken en voer de volgende handelingen uit:
 

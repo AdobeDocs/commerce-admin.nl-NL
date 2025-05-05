@@ -31,7 +31,7 @@ Een aangemelde koper die is gekoppeld aan een bedrijfsaccount, kan een aanvraagl
 
 1. Kies **[!UICONTROL My Requisition Lists]** in de zijbalk van hun account.
 
-1. Klik op de pagina _[!UICONTROL Requisition Lists]_op **[!UICONTROL Create New Requisition List]**.
+1. Klik op de pagina _[!UICONTROL Requisition Lists]_&#x200B;op **[!UICONTROL Create New Requisition List]**.
 
 1. Voer **[!UICONTROL Requisition List Name]** en **[!UICONTROL Description]** in.
 
@@ -133,7 +133,7 @@ Als een koper zich bij zijn account heeft aangemeld, kan hij of zij een van de v
 
 1. Kies **[!UICONTROL My Requisition Lists]** in de zijbalk van het accountdashboard.
 
-1. In de lijst van verzoeklijsten, klikt **[!UICONTROL View]** in de _2} kolom van Acties {._
+1. In de lijst van verzoeklijsten, klikt **[!UICONTROL View]** in de _2&rbrace; kolom van Acties &lbrace;._
 
 ### Van een willekeurige winkelpagina
 

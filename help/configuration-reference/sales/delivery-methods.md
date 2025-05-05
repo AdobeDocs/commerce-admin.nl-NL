@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Website | Hiermee stelt u het minimumgewicht in dat een pakket kan hebben zoals opgegeven door UPS. Als de bestelde producten minder wegen dan het minimumpakketgewicht, is deze verzendoptie niet beschikbaar. Neem contact op met de vervoerder om het minimumgewicht te controleren. |
 | [!UICONTROL Calculate Handling Fee] | Website | Hiermee stelt u de berekeningsmethode voor de behandelingskosten in voor het verzenden van tabeltarieven. Opties: <br>**`Fixed`**- De verwerkingskosten zijn een vast tarief.<br>**`Percent`** - De verwerkingskosten worden toegepast als een percentage van het orderbedrag. |
 | [!UICONTROL Handling Applied] | Website | Geeft aan of behandelingskosten worden toegepast op elke bestelling of op elk pakket binnen een bestelling. |
-| [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Nota:_**als het typen van een percentagebedrag, gebruik het decimale formaat `0.25` voor 25%. |
+| [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Nota:_**&#x200B;als het typen van een percentagebedrag, gebruik het decimale formaat `0.25` voor 25%. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Geeft de toegestane verzendmethoden voor UPS aan die aan klanten worden aangeboden. De verzendkosten worden berekend op basis van de geselecteerde verzendmethode. |
-| [!UICONTROL Free Method] | Website | Geeft aan welke methode wordt gebruikt voor de methode voor gratis verzending via UPS. Kies Geen als u de optie voor gratis verzending wilt uitschakelen. <br/><br/>**_Nota:_**Deze methode is gelijkaardig aan basis [ Vrij die ](../../stores-purchase/shipping-free.md) verscheept, nochtans verschijnt het als het verschepen UPS optie tijdens controle. |
+| [!UICONTROL Free Method] | Website | Geeft aan welke methode wordt gebruikt voor de methode voor gratis verzending via UPS. Kies Geen als u de optie voor gratis verzending wilt uitschakelen. <br/><br/>**_Nota:_**&#x200B;Deze methode is gelijkaardig aan basis [ Vrij die ](../../stores-purchase/shipping-free.md) verscheept, nochtans verschijnt het als het verschepen UPS optie tijdens controle. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee bepaalt u of gratis verzending wordt toegepast wanneer het orderbedrag de drempel voor gratis verzending overschrijdt. Opties: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee stelt u het minimale totale bedrag in dat een bestelling moet bereiken om in aanmerking te komen voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het foutbericht dat wordt weergegeven wanneer deze verzendmethode om welke reden dan ook niet beschikbaar is. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | Hiermee stelt u de berekeningsmethode voor de behandelingskosten in voor het verzenden van tabeltarieven. Opties: <br/>**`Fixed`**- De verwerkingskosten zijn een vast tarief.<br/>**`Percent`** - De verwerkingskosten worden toegepast als een percentage van het orderbedrag. |
 | [!UICONTROL Handling Applied] | Website | Geeft aan of behandelingskosten worden toegepast op elke bestelling of op elk pakket binnen een bestelling. |
-| [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Nota:_**wanneer het typen van een percentagebedrag, gebruik het decimale formaat `0.25` voor 25%. |
+| [!UICONTROL Handling Fee] | Website | Hiermee stelt u de afhandeling in die bij de verzendprijs wordt inbegrepen. De verwerkingskosten kunnen worden vastgesteld als een vast bedrag of als een percentage. <br/><br/>**_Nota:_**&#x200B;wanneer het typen van een percentagebedrag, gebruik het decimale formaat `0.25` voor 25%. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Geeft de toegestane verzendmethoden van USPS aan die aan klanten worden aangeboden. De verzendkosten worden berekend op basis van de geselecteerde verzendmethode. |
-| [!UICONTROL Free Method] | Website | Hiermee stelt u de methode voor gratis verzending in via USPS, of u kunt deze uitschakelen door `None` te selecteren. <br/><br/>**_Nota:_**Deze verschepende methode is gelijkaardig aan de Vrije Verzending van uw opslag methode, nochtans is het vermeld als USPS het verschepen optie en geïdentificeerd als het verschepen van USPS. |
+| [!UICONTROL Free Method] | Website | Hiermee stelt u de methode voor gratis verzending in via USPS, of u kunt deze uitschakelen door `None` te selecteren. <br/><br/>**_Nota:_**&#x200B;Deze verschepende methode is gelijkaardig aan de Vrije Verzending van uw opslag methode, nochtans is het vermeld als USPS het verschepen optie en geïdentificeerd als het verschepen van USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Website | Hiermee stelt u het minimale orderbedrag in dat moet worden behaald om in aanmerking te komen voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het foutbericht dat wordt weergegeven wanneer USPS om welke reden dan ook niet beschikbaar is. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Website | Bepaalt de methode die wordt gebruikt om de behandelingskosten te berekenen. Opties: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**de behandelende kosten is facultatief, en verschijnt als extra last die aan de verzendkosten FedEx wordt toegevoegd. |
+| [!UICONTROL Calculate Handling Fee] | Website | Bepaalt de methode die wordt gebruikt om de behandelingskosten te berekenen. Opties: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**&#x200B;de behandelende kosten is facultatief, en verschijnt als extra last die aan de verzendkosten FedEx wordt toegevoegd. |
 | [!UICONTROL Handling Applied] | Website | Hiermee bepaalt u hoe behandelingskosten worden toegepast. Opties: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Website | Geeft het bedrag aan dat in rekening wordt gebracht als een behandelingsvergoeding, op basis van de methode die wordt gebruikt om het bedrag te berekenen. Als de kosten zijn gebaseerd op een vaste vergoeding, voert u het bedrag in als een decimaal, bijvoorbeeld `4.90` . Als de behandelingskosten gebaseerd zijn op een percentage van de bestelling, voert u het bedrag in als een percentage. Als u bijvoorbeeld zes procent van de volgorde wilt opladen, voert u de waarde in als `.06` . |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Website | Stel dit in op een van de volgende opties, afhankelijk van het feit of u Business-to-Consumer (B2C) of Business-to-Business (B2B) verkoopt: <br/>**`Yes`**- voor B2C-leveringen<br/>**`No`** - voor B2B-leveringen |
 | [!UICONTROL Allowed Methods] | Website | Selecteer in de lijst de verzendmethoden die u ondersteunt. De methoden zijn afhankelijk van uw FedEx-account, de frequentie en de grootte van uw verzendingen en of u internationale verzendingen toestaat. Als verkoper kun je besluiten alleen verzending op de grond aan te bieden. |
 | [!UICONTROL Hub ID] | Website | Een id die wordt geleverd door FedEx en die wordt gebruikt met de methode [!DNL Smart Post] . |
-| [!UICONTROL Free Method] | Website | Selecteer in de lijst de verzendmethode die je wilt gebruiken voor voorstellen voor gratis verzending. <br/><br/>**_Nota:_**Deze verschepende methode is gelijkaardig aan de regelmatige Vrije Verzendmethode, nochtans is het vermeld binnen de FedEx het verschepen opties en geïdentificeerd als verscheepende FedEx. |
+| [!UICONTROL Free Method] | Website | Selecteer in de lijst de verzendmethode die je wilt gebruiken voor voorstellen voor gratis verzending. <br/><br/>**_Nota:_**&#x200B;Deze verschepende methode is gelijkaardig aan de regelmatige Vrije Verzendmethode, nochtans is het vermeld binnen de FedEx het verschepen opties en geïdentificeerd als verscheepende FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee bepaalt u of een minimumbestelling vereist is voor gratis verzending. Opties: <br/>**`Enable`**- Maakt gratis verzending via FedEx mogelijk voor bestellingen die aan het minimumbedrag voldoen.<br/>**`Disable`** - Schakelt gratis verzending via FedEx met minimale bestelling uit. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee geeft u het minimale orderbedrag op dat vereist is voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het bericht dat wordt weergegeven wanneer FedEx om welke reden dan ook niet beschikbaar is. U kunt het standaardbericht gebruiken of een ander ingaan. |

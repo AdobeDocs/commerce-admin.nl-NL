@@ -65,7 +65,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 | [!UICONTROL Conversion Color] | Winkelweergave | Bepaalt de kleur van het conversielabel. Gebruik de plukker van de a [ kleur ](https://www.w3schools.com/colors/colors_picker.asp) om de hexadecimale waarde te kiezen. Deze hexadecimale waarde wordt toegewezen aan de variabele `google_conversion_color` in uw AdWords-script. Bijvoorbeeld: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Winkelweergave | Een tekstlabel dat wordt weergegeven bij de melding [!DNL Google Site Stats] . Deze tekstreeks wordt toegewezen aan de variabele `~` in het script AdWords. Bijvoorbeeld: &quot;Bedankt voor het winkelen!&quot; |
 | [!UICONTROL Conversion Value Type] | Winkelweergave | Hiermee geeft u het type waarde op dat wordt gebruikt om te bepalen wanneer een conversie plaatsvindt. Opties: <br/>**`Dynamic`**- Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van het dynamische orderbedrag.<br/>**`Constant`** - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van de ingevoerde waarde. |
-| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_omzetwaarde. |
+| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_&#x200B;omzetwaarde. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 | [!UICONTROL Conversion Color] | Winkelweergave | Bepaalt de kleur van het conversielabel. Gebruik de plukker van de a [ kleur ](https://www.w3schools.com/colors/colors_picker.asp) om de hexadecimale waarde te kiezen. Deze hexadecimale waarde wordt toegewezen aan de variabele `google_conversion_color` in uw AdWords-script. Bijvoorbeeld: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Winkelweergave | Een tekstlabel dat wordt weergegeven bij de melding Google Site Stats. Deze tekstreeks wordt toegewezen aan de variabele `~` in het script AdWords. Bijvoorbeeld: &quot;Bedankt voor het winkelen!&quot; |
 | [!UICONTROL Conversion Value Type] | Winkelweergave | Hiermee geeft u het type waarde op dat wordt gebruikt om te bepalen wanneer een conversie plaatsvindt. Opties: <br/>**`Dynamic`**- Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van het dynamische orderbedrag.<br/>**`Constant`** - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van de ingevoerde waarde. |
-| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_omzetwaarde. |
+| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_&#x200B;omzetwaarde. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
 {style="table-layout:auto"}

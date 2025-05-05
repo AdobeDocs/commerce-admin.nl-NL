@@ -22,35 +22,35 @@ Markeringstags worden ingesloten door dubbele accolades en kunnen worden gegener
 
 De veranderlijke prijsverhogingsmarkering kan worden gebruikt om a [ douanevariabele ](variables-custom.md) in een e-mailmalplaatje, blokken, nieuwsbrieven, en inhoudspagina&#39;s op te nemen.
 
-\{\{CustomVar code= &quot;my_custom_variable&quot;}
+\&lbrace;\{CustomVar code= &quot;my_custom_variable&quot;}
 
 ## URL van winkel
 
 De opmaaktag URL opslaan vertegenwoordigt de basis-URL van uw website en wordt gebruikt als vervanging voor het eerste deel van een volledige URL, inclusief de domeinnaam. Er zijn twee versies van deze prijsverhogingsmarkering: één die rechtstreeks naar uw opslag gaat, en andere met een voorwaartse schuine streep (`/`) aan het eind die wordt gebruikt wanneer een weg wordt toegevoegd.
 
-\{\{store url=&#39;apparel/schoenen/womens&#39;}
+\&lbrace;\{store url=&#39;apparel/schoenen/womens&#39;}
 
 ## Media-URL
 
 De markering voor dynamische media-URL vertegenwoordigt de locatie en bestandsnaam van een afbeelding die is opgeslagen op een CDN (Content Delivery Network). De tag kan worden gebruikt om een afbeelding op een pagina, blok, banner of e-mailsjabloon te plaatsen.
 
-\{\{media url=&#39;shoe-sale.jpg&#39;}
+\&lbrace;\{media url=&#39;shoe-sale.jpg&#39;}
 
 ## Blok-id
 
 De markering Blok-id is een van de gemakkelijkste manieren om te gebruiken en kan worden gebruikt om een blok rechtstreeks op een CMS-pagina te plaatsen, of zelfs in een ander blok te nesten. U kunt deze techniek gebruiken om een blok voor verschillende promoties of talen te wijzigen. De markering Blok-id verwijst naar een blok met de id.
 
-\{\{block id=&#39;block-id&#39;}
+\&lbrace;\{block id=&#39;block-id&#39;}
 
 ## Sjabloonlabel
 
 Een sjabloontag verwijst naar een PHTML-sjabloonbestand en kan worden gebruikt om het blok weer te geven op een CMS-pagina of statisch blok. De code in het volgende voorbeeld kan aan een pagina of een blok worden toegevoegd om het formulier Contact met ons te tonen.
 
-\{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}
+\&lbrace;\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}
 
 De code in het volgende voorbeeld kan aan een pagina of een blok worden toegevoegd om een lijst van producten in een specifieke categorie, door categorie ID te tonen.
 
-\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}
+\&lbrace;\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}
 
 ## Widget-code
 
@@ -58,11 +58,11 @@ Met het gereedschap Widget kunt u lijsten met producten weergeven of complexe ko
 
 De code in het volgende voorbeeld kan aan een pagina of een blok worden toegevoegd om de lijst van nieuwe producten te tonen.
 
-\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}
+\&lbrace;\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}
 
 De code in het volgende voorbeeld kan aan een pagina of een blok worden toegevoegd om een verbinding aan een specifiek product, door product identiteitskaart te tonen.
 
-\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;Mijn productkoppeling&quot; title=&quot;Mijn productkoppeling&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;}
+\&lbrace;\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;Mijn productkoppeling&quot; title=&quot;Mijn productkoppeling&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;}
 
 ## Markeringstags gebruiken in koppelingen
 
@@ -120,10 +120,10 @@ Plaats de voltooide opmaakcode binnen een ankertag met de opmaaktag in plaats va
 
 #### Opmaak in ankertag
 
-\&lt;a href=&quot;\{\{markup tag goes here}&quot;>
+\&lt;a href=&quot;\&lbrace;\{markup tag goes here}&quot;>
 
 Plak de voltooide ankertag in de code van een CMS-pagina, -blok, -banner of -e-mailsjabloon, waar u de koppeling wilt weergeven.
 
 ### Koppeling met markering voltooien
 
-\&lt;a href=&quot;\{\{store url=&#39;apparel/schoenen&#39;}&quot;>Schoonverkoop\&lt;/a>
+\&lt;a href=&quot;\&lbrace;\{store url=&#39;apparel/schoenen&#39;}&quot;>Schoonverkoop\&lt;/a>

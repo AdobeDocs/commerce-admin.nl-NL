@@ -19,11 +19,11 @@ Roles for company users are set up with various levels of permission to access s
 
 __ You can create as many roles as necessary to match your company structure and organizational responsibilities, such as the following:
 
-- ****
+- **&#x200B;**
 
-- ****
+- **&#x200B;**
 
-- ****__
+- **&#x200B;**&#x200B;__
 
 ## Rollen en machtigingen beheren
 
@@ -41,7 +41,7 @@ __ You can create as many roles as necessary to match your company structure and
 
 1. Hiermee wordt een beschrijvende waarde **[!UICONTROL Role Name]** ingevoerd.
 
-1. Voer onder _[!UICONTROL Role Permissions]_een van de volgende handelingen uit:
+1. Voer onder _[!UICONTROL Role Permissions]_&#x200B;een van de volgende handelingen uit:
 
    - Selecteert checkbox van elk middel of activiteit dat de gebruikers de rol toewezen toestemming hebben om tot toegang te hebben.
 
@@ -53,7 +53,7 @@ __ You can create as many roles as necessary to match your company structure and
 
 ### Modify a role
 
-1. **[!UICONTROL Edit]**_[!UICONTROL Actions]_
+1. **[!UICONTROL Edit]**&#x200B;_[!UICONTROL Actions]_
 
 1. Hiermee wijzigt u de benodigde naam- en machtigingsinstellingen.
 
@@ -61,7 +61,7 @@ __ You can create as many roles as necessary to match your company structure and
 
 ### Duplicate a role
 
-1. **[!UICONTROL Duplicate]**_[!UICONTROL Actions]_
+1. **[!UICONTROL Duplicate]**&#x200B;_[!UICONTROL Actions]_
 
 1. Makes the necessary changes to the name and permission settings.
 
@@ -73,7 +73,7 @@ __ You can create as many roles as necessary to match your company structure and
 
    Alleen rollen zonder toegewezen gebruikers kunnen worden verwijderd.
 
-1. **[!UICONTROL Delete]**_[!UICONTROL Actions]_
+1. **[!UICONTROL Delete]**&#x200B;_[!UICONTROL Actions]_
 
 1. **[!UICONTROL OK]**
 
@@ -89,7 +89,7 @@ __ You can create as many roles as necessary to match your company structure and
 
 ## Role permissions
 
-[!UICONTROL Edit action]****
+[!UICONTROL Edit action]&#x200B;**&#x200B;**
 
 ![](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 

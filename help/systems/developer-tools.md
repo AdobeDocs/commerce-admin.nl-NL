@@ -246,7 +246,7 @@ Als uw winkel in meerdere talen beschikbaar is, kunt u de vertaalde tekst voor d
 
    Schakel indien nodig het selectievakje **[!UICONTROL Use Website]** uit om deze instellingen te wijzigen.
 
-   De optie _[!UICONTROL Enabled for Admin]_is niet beschikbaar wanneer u een specifieke opslagweergave bewerkt.
+   De optie _[!UICONTROL Enabled for Admin]_&#x200B;is niet beschikbaar wanneer u een specifieke opslagweergave bewerkt.
 
    ![ Geavanceerde configuratie - vertaal inline ](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

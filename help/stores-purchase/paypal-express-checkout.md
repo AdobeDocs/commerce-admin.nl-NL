@@ -19,7 +19,7 @@ Met PayPal Express Checkout kunt u de verkoop verhogen door uw klanten de mogeli
 >**PSD2 Vereisten:** <br/>
 >Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Er is geen actie nodig om PayPal Express Checkout te laten voldoen aan PSD2 omdat alle vereisten door PayPal worden afgehandeld.
 
-Klanten met huidige PayPal-accounts kunnen in één stap een aankoop doen door op de knop _[!UICONTROL Check out with PayPal]_te klikken. Uitdrukkelijke afhandeling kan worden gebruikt als een zelfstandige, of met een van de PayPal alles-in-één oplossingen. Als je al online creditcards accepteert, kun je Express Checkout aanbieden als extra optie om nieuwe klanten aan te trekken die liever met PayPal betalen.
+Klanten met huidige PayPal-accounts kunnen in één stap een aankoop doen door op de knop _[!UICONTROL Check out with PayPal]_&#x200B;te klikken. Uitdrukkelijke afhandeling kan worden gebruikt als een zelfstandige, of met een van de PayPal alles-in-één oplossingen. Als je al online creditcards accepteert, kun je Express Checkout aanbieden als extra optie om nieuwe klanten aan te trekken die liever met PayPal betalen.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Klanten met huidige PayPal-accounts kunnen in één stap een aankoop doen door o
 
 In tegenstelling tot andere betalingsmethoden kan de klant via PayPal Express Checkout aan het begin van de gebruikelijke afrekenworkflow uitchecken via de productpagina, de mini-winkelwagen en het winkelwagentje.
 
-1. **Klant plaatst orde** - de klant klikt/tikt de _[!UICONTROL Check out with PayPal]_knoop.
+1. **Klant plaatst orde** - de klant klikt/tikt de _[!UICONTROL Check out with PayPal]_&#x200B;knoop.
 1. **de Klant wordt opnieuw gericht aan de plaats van PayPal** - de klant wordt opnieuw gericht aan de plaats PayPal om de transactie te voltooien.
 1. **de Klant login aan hun rekening PayPal** - de klant moet login aan hun rekening PayPal om de transactie te voltooien. Het betalingssysteem gebruikt de facturerings- en verzendgegevens van hun PayPal-rekening.
 1. **Keert de Klant terug naar de controlepagina** - de klant wordt opnieuw gericht terug naar de controlepagina in uw opslag om de orde te herzien.
@@ -93,13 +93,13 @@ Er kunnen twee PayPal-oplossingen tegelijkertijd actief zijn: PayPal Express Che
 
 1. Als uw installatie meerdere websites, winkels of weergaven bevat, stelt u **[!UICONTROL Store View]** in op de winkelweergave waar u deze configuratie wilt toepassen.
 
-1. Selecteer in de sectie _[!UICONTROL Merchant Location]_de **[!UICONTROL Merchant Country]**waar uw bedrijf zich bevindt.
+1. Selecteer in de sectie _[!UICONTROL Merchant Location]_&#x200B;de **[!UICONTROL Merchant Country]**&#x200B;waar uw bedrijf zich bevindt.
 
    Deze instelling bepaalt de selectie van PayPal-oplossingen die in de configuratie worden weergegeven.
 
    ![ Merchant Land ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klik onder _[!UICONTROL Recommended Solutions]_op **[!UICONTROL Configure]**for **[!UICONTROL PayPal Express Checkout]**.
+1. Klik onder _[!UICONTROL Recommended Solutions]_&#x200B;op **[!UICONTROL Configure]**&#x200B;for **[!UICONTROL PayPal Express Checkout]**.
 
    ![ Vorm Uitdrukkelijke Betaling PayPal ](./assets/paypal-express-checkout.png){width="600"}
 
@@ -311,7 +311,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
    - `Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
    - `Order` - Het bedrag van de bestelling wordt niet vastgelegd of geautoriseerd op de klantenbalans, bankrekening of creditcard bij PayPal. De betalingsactie voor bestellingen is een overeenkomst tussen het PayPal-betalingssysteem en de handelaar. Het stelt de handelaar in staat een of meer bedragen tot het geordende totaal van de klantenkopersrekening over een periode van maximaal 29 dagen af te halen. Nadat de fondsen zijn besteld, kan de handelaar ze op elk moment gedurende de volgende periode van 29 dagen opvangen. Het vastleggen van het orderbedrag kan alleen worden uitgevoerd vanuit Commerce Admin door een of meer facturen te maken.
 
-1. Stel **[!UICONTROL Display on Product Details Page]** in op `Yes` om de knop _[!UICONTROL Check out with PayPal]_op de productpagina weer te geven.
+1. Stel **[!UICONTROL Display on Product Details Page]** in op `Yes` om de knop _[!UICONTROL Check out with PayPal]_&#x200B;op de productpagina weer te geven.
 
 1. Als de betalingsactie is ingesteld op `Order` , voert u de volgende handelingen uit
 
@@ -332,7 +332,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
 
 1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
@@ -409,7 +409,7 @@ A [ factureringsovereenkomst ](paypal-billing-agreements.md) is een verkoopovere
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk land.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk land.
 
 1. Als u de communicatie met het betalingssysteem wilt opnemen in het logbestand, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
@@ -579,5 +579,5 @@ Met de instellingen voor functies kunt u bepaalde functies voor deze PayPal-oplo
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

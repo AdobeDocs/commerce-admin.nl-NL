@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->{de 1} configuratie van de Tarieven van de Uitwisseling van 0} wordt de Winst {vereist voor terugbetaling van beloningspunten door klanten en beheerders tijdens controle.[](../../merchandising-promotions/reward-exchange-rates.md)
+>{de 1} configuratie van de Tarieven van de Uitwisseling van 0&rbrace; wordt de Winst &lbrace;vereist voor terugbetaling van beloningspunten door klanten en beheerders tijdens controle.[&#128279;](../../merchandising-promotions/reward-exchange-rates.md)
 
 ## [!UICONTROL Reward Points]
 

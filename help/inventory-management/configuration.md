@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De module [!DNL Inventory Management] ondersteunt de configuratie-instellingen voor voorraden op product- en globaal niveau en biedt ook extra instellingen die de beschikbaarheid van de bron, de winkelproducten en de verzending van bestellingen beïnvloeden. De configuratie-instellingen gelden voor:
 
-- De hele catalogus: Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Vouw vervolgens **[!UICONTROL Catalog]**in het linkerdeelvenster uit en selecteer **[!UICONTROL Inventory]**.
+- De hele catalogus: Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Vouw vervolgens **[!UICONTROL Catalog]**&#x200B;in het linkerdeelvenster uit en selecteer **[!UICONTROL Inventory]**.
 
 - Specifieke producten: Ga naar **[!UICONTROL Catalog]** > **[!UICONTROL Products]** . Open vervolgens het product in de bewerkingsmodus en klik op **[!UICONTROL Advanced Inventory]** in de sectie _[!UICONTROL Sources]_.
 
@@ -46,7 +46,7 @@ Een andere manier u de drempel van de voorraadbeschikbaarheid kunt gebruiken is 
 
 ## De daling van de configuratie en overerving
 
-Configuraties overschrijven of toepassen in het volgende overervingspad: de sectie Product _[!UICONTROL Sources]_heeft voorrang op de_[!UICONTROL Advanced Options]_ algemene _[!UICONTROL Inventory]_winkelconfiguratie van Product.
+Configuraties overschrijven of toepassen in het volgende overervingspad: de sectie Product _[!UICONTROL Sources]_&#x200B;heeft voorrang op de&#x200B;_[!UICONTROL Advanced Options]_ algemene _[!UICONTROL Inventory]_&#x200B;winkelconfiguratie van Product.
 
 Wanneer [!DNL Commerce] controleert of er aangepaste instellingen worden toegepast, volgt deze volgorde:
 

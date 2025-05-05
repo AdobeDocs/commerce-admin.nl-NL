@@ -132,7 +132,7 @@ Deze aanbevolen instellingen kunnen worden gebruikt voor de meeste belastingconf
 | Belastingberekening | Op object |
 | Belasting op verzendkosten? | Ja |
 | Korting toepassen | Vóór belasting, korting op prijzen, inclusief belasting. |
-| Opmerking | Voor B2B-handelaren om eenvoudigere overwegingen met betrekking tot de btw-toeleveringsketen te bieden. De berekening van de belasting op rij is ook geldig; nochtans, controleer met uw het belasten jurisdictie. Er wordt vanuit gegaan dat een handelaar zich in de toeleveringsketen bevindt en dat verkochte goederen door andere verkopers worden gebruikt voor btw-kortingen, enzovoort. Deze definitie maakt het gemakkelijk om belasting door punt voor snellere kortingsgeneratie te onderscheiden. <br/><br/>**_Nota:_**sommige jurisdicties vereisen verschillende het afronden strategieën momenteel niet die door Commerce worden gesteund, en dat niet alle jurisdicties punt of rijniveaubelasting toestaan. |
+| Opmerking | Voor B2B-handelaren om eenvoudigere overwegingen met betrekking tot de btw-toeleveringsketen te bieden. De berekening van de belasting op rij is ook geldig; nochtans, controleer met uw het belasten jurisdictie. Er wordt vanuit gegaan dat een handelaar zich in de toeleveringsketen bevindt en dat verkochte goederen door andere verkopers worden gebruikt voor btw-kortingen, enzovoort. Deze definitie maakt het gemakkelijk om belasting door punt voor snellere kortingsgeneratie te onderscheiden. <br/><br/>**_Nota:_**&#x200B;sommige jurisdicties vereisen verschillende het afronden strategieën momenteel niet die door Commerce worden gesteund, en dat niet alle jurisdicties punt of rijniveaubelasting toestaan. |
 
 {style="table-layout:auto"}
 

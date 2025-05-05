@@ -90,7 +90,7 @@ De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en spec
 
 1. Breng de gewenste wijzigingen aan in de winkelweergave:
 
-   - ](../getting-started/storefront-branding.md#upload-your-logo) montages van 0} Logo {[
+   - [&#128279;](../getting-started/storefront-branding.md#upload-your-logo) montages van 0&rbrace; Logo &lbrace;
    - [ Welkome bericht ](../getting-started/storefront-branding.md#change-the-welcome-message) montages
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.

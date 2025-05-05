@@ -22,7 +22,7 @@ Adobe Experience Manager (AEM) Assets Integration for Commerce combineert de rob
 
 - **AEM Assets als Enige Source van Waarheid** - AEM Assets dient als centrale bewaarplaats voor alle digitale activa, die ervoor zorgen dat alle elektronische platforms toegang tot merkgebonden, goedgekeurde activa hebben.
 
-- **-Organisaties van het Beheer van de Activa van 0} het Bulk kunnen grote volumes van activa efficiënt beheren, dankzij de robuuste mogelijkheden van het activabeheer van AEM.** Op deze manier kunnen marketeers en handelaren grote sets afbeeldingen efficiënt toewijzen voor nieuwe productlijnen.
+- **-Organisaties van het Beheer van de Activa van 0&rbrace; het Bulk kunnen grote volumes van activa efficiënt beheren, dankzij de robuuste mogelijkheden van het activabeheer van AEM.** Op deze manier kunnen marketeers en handelaren grote sets afbeeldingen efficiënt toewijzen voor nieuwe productlijnen.
 
 ![ controle ](assets/icon-check.png) **Gepersonaliseerde Ervaringen van Commerce** - Gebruikend de diensten van GenAI in AEM, kunnen de organisaties miljoenen productvariaties voor gepersonaliseerde e-handelervaringen produceren. Marketers en handelaren kunnen deze afbeeldingen gebruiken om dynamische winkels te maken voor productlanceringen en seizoenscampagnes, waardoor de betrokkenheid wordt vergroot en de conversiesnelheden worden verhoogd.
 
@@ -34,7 +34,7 @@ Adobe Experience Manager (AEM) Assets Integration for Commerce combineert de rob
 
 - **Dynamische Updates** - houd productbeelden huidig met de recentste veranderingen in het systeem van het activabeheer. Deze geautomatiseerde updates zorgen ervoor dat de handels winkeliers altijd de meest bijgewerkte productinformatie hebben.
 
-- **Efficiënt Beheer van de Catalogus 1} - vereenvoudigt het onderhoud van de productcatalogus door activa te automatiseren schoonmaak en verfrist zich.**
+- **Efficiënt Beheer van de Catalogus 1&rbrace; - vereenvoudigt het onderhoud van de productcatalogus door activa te automatiseren schoonmaak en verfrist zich.**
 
 >[!ENDSHADEBOX]
 

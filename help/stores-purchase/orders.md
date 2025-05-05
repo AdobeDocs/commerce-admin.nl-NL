@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Orders
 
-Het _bevel_ net maakt een lijst van alle huidige orden en volgt hun vooruitgang en [ ordestatus ](order-status.md) door het [ werkschema ](order-processing.md). Een gemakkelijke manier om het basisproces te begrijpen is dat een orde een [ factuur ](invoices.md) wordt, en een factuur wordt a [ lading ](shipments.md). Het net vertegenwoordigt het eerste stadium van het proces, en is waar u [ ](order-update.md) bestaande orden kunt bijwerken en orden creëren.
+Het _bevel_ net maakt een lijst van alle huidige orden en volgt hun vooruitgang en [ ordestatus ](order-status.md) door het [ werkschema ](order-processing.md). Een gemakkelijke manier om het basisproces te begrijpen is dat een orde een [ factuur ](invoices.md) wordt, en een factuur wordt a [ lading ](shipments.md). Het net vertegenwoordigt het eerste stadium van het proces, en is waar u [&#128279;](order-update.md) bestaande orden kunt bijwerken en orden creëren.
 
 Gewoonlijk worden bestellingen gemaakt wanneer klanten het afrekenproces vanuit de winkel voltooien. Nochtans, als een klant hulp nodig heeft, kunt u tot hun [ winkelwagentje ](shopping-assisted-cart-manage.md) of [ tot een orde ](customer-account-create-order.md) of van het _Orders_ net of direct van hun klantenrekening toegang hebben.
 
 ## De werkruimte voor bestellingen
 
-De werkruimte van Orden maakt een lijst van alle huidige orden, en geeft u de capaciteit om bestaande orden uit te geven en [ ](customer-account-create-order.md) orden tot stand te brengen. Elke rij in het raster staat voor de volgorde van de klant en elke kolom staat voor een kenmerk of gegevensveld. Gebruik de standaard [ controles ](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, orden te vinden, en [ acties ](../getting-started/admin-actions-control.md) op geselecteerde orden toe te passen. Met de tabbladen boven de pagineringsbesturingselementen kunt u de lijst filteren, de standaardweergave wijzigen, kolommen wijzigen en opnieuw rangschikken en gegevens exporteren.
+De werkruimte van Orden maakt een lijst van alle huidige orden, en geeft u de capaciteit om bestaande orden uit te geven en [&#128279;](customer-account-create-order.md) orden tot stand te brengen. Elke rij in het raster staat voor de volgorde van de klant en elke kolom staat voor een kenmerk of gegevensveld. Gebruik de standaard [ controles ](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, orden te vinden, en [ acties ](../getting-started/admin-actions-control.md) op geselecteerde orden toe te passen. Met de tabbladen boven de pagineringsbesturingselementen kunt u de lijst filteren, de standaardweergave wijzigen, kolommen wijzigen en opnieuw rangschikken en gegevens exporteren.
 
 ![ het net van Orden ](./assets/orders-grid.png){width="700" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Klik de **[!UICONTROL View]** ( ![ pictogram van het Ogen ](../assets/icon-view-
 
 Als u een actie wilt toepassen op specifieke orders, schakelt u het selectievakje in de eerste kolom van elke volgorde in. Als u alle bestellingen wilt selecteren of deselecteren, gebruikt u het besturingselement boven aan de kolom.
 
-](./assets/orders-action.png){width="600" zoomable="yes"} de Acties van de orde 0}![
+![&#128279;](./assets/orders-action.png){width="600" zoomable="yes"} de Acties van de orde 0&rbrace;
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -111,7 +111,7 @@ Als u een actie wilt toepassen op specifieke orders, schakelt u het selectievakj
 | [!UICONTROL Grand Total (Base)] | Het totale bedrag van de bestelling. |
 | [!UICONTROL Grand Total (Purchased)] | Het totaal-generaal aan producten die in de bestelling zijn aangeschaft. |
 | [!UICONTROL Status] | De huidige orderstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_opent de volgorde in de bewerkingsmodus. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;opent de volgorde in de bewerkingsmodus. |
 | [!UICONTROL Allocated sources] | De bronnen die aan die specifieke orde worden toegewezen. |
 
 {style="table-layout:auto"}

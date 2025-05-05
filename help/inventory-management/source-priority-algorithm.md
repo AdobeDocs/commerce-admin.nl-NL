@@ -34,11 +34,11 @@ Om te vormen, schik die bronnen van bovenkant tot bodem in prioriteit voor het v
 
 1. Klik op **[!UICONTROL Assign Sources]**.
 
-1. Selecteer in de weergave _[!UICONTROL Assign Sources]_het selectievakje voor de vereiste bron en klik vervolgens op **[!UICONTROL Done]**om een bron aan het bestand toe te wijzen.
+1. Selecteer in de weergave _[!UICONTROL Assign Sources]_&#x200B;het selectievakje voor de vereiste bron en klik vervolgens op **[!UICONTROL Done]**&#x200B;om een bron aan het bestand toe te wijzen.
 
 >[!NOTE]
 >
->Wanneer het gebruiken van het ](distance-priority-algorithm.md) algoritme van de Prioriteit van de Afstand [ voor het verschepen, als de routes en de gegevens niet voor de geselecteerde [ wijze van de Berekening ](distance-priority-algorithm.md) (het drijven, het fietsen, of het lopen) voor een lading terugkeren, blijft SSA aan het gebruiken van de Prioriteit van Source in gebreke.
+>Wanneer het gebruiken van het [&#128279;](distance-priority-algorithm.md) algoritme van de Prioriteit van de Afstand  voor het verschepen, als de routes en de gegevens niet voor de geselecteerde [ wijze van de Berekening ](distance-priority-algorithm.md) (het drijven, het fietsen, of het lopen) voor een lading terugkeren, blijft SSA aan het gebruiken van de Prioriteit van Source in gebreke.
 
 ![ orde van Source na prioritering ](assets/inventory-stock-priority-after.png)
 

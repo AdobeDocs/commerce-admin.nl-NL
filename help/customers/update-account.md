@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Een klantprofiel bijwerken
 
-In het linkerdeelvenster van de pagina _[!UICONTROL Customer Information]_vindt u informatie over de activiteiten van klanten, adressen, orderstatistieken, recente bestellingen, winkelwageninhoud, productrelevaluaties en abonnementen op nieuwsbrieven.
+In het linkerdeelvenster van de pagina _[!UICONTROL Customer Information]_&#x200B;vindt u informatie over de activiteiten van klanten, adressen, orderstatistieken, recente bestellingen, winkelwageninhoud, productrelevaluaties en abonnementen op nieuwsbrieven.
 
 ![ Profiel van de Klant ](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Methode 2: **_Volledig geeft_** uit
 
 ### [!UICONTROL Customer View]
 
-Het _lusje van de Mening van de Klant 0} {maakt een lijst van informatie over de klant, omvat **[!UICONTROL Personal Information]**,**[!UICONTROL Reward Points Balance]**, en **[!UICONTROL Store Credit Balance]**._
+Het _lusje van de Mening van de Klant 0&rbrace; &lbrace;maakt een lijst van informatie over de klant, omvat **[!UICONTROL Personal Information]**,**[!UICONTROL Reward Points Balance]**, en **[!UICONTROL Store Credit Balance]**._
 
 ### [!UICONTROL Account Information]
 
@@ -99,7 +99,7 @@ De [ sectie van de Registratie van het Cadeautje ](../merchandising-promotions/g
 
 {{ee-feature}}
 
-Het ](../customers/store-credit.md) lusje van de Krediet van de Opslag 0} toont een bedrag dat aan een klantenrekening wordt hersteld, kan admin deze waarde beheren.[
+Het [&#128279;](../customers/store-credit.md) lusje van de Krediet van de Opslag 0&rbrace; toont een bedrag dat aan een klantenrekening wordt hersteld, kan admin deze waarde beheren.
 
 ### [!UICONTROL Newsletter]
 

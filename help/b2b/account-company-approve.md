@@ -28,9 +28,9 @@ U kunt de [ controle van Acties ](account-company-manage.md) ook gebruiken om ve
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   U kunt de kiezer _[!UICONTROL Columns]_boven het raster gebruiken om de kolom **[!UICONTROL Status]**weer te geven.
+   U kunt de kiezer _[!UICONTROL Columns]_&#x200B;boven het raster gebruiken om de kolom **[!UICONTROL Status]**&#x200B;weer te geven.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Edit]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL Edit]**.
 
 1. Stel **[!UICONTROL Company Status]** in op `Active` .
 

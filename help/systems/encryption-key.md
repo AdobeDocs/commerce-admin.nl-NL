@@ -32,7 +32,7 @@ Zie [Geavanceerde on-premises installatie](https://experienceleague.adobe.com/do
 
 Voor de volgende instructies is toegang tot een terminal vereist.
 
-1. Schakel de onderhoudsmodus](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) in[.
+1. Schakel de onderhoudsmodus[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) in.
 
    ```bash
    bin/magento maintenance:enable
@@ -62,7 +62,7 @@ Voor de volgende instructies is toegang tot een terminal vereist.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Admin instellingen
 
@@ -85,7 +85,7 @@ Voor de volgende instructies is toegang tot een terminal vereist.
       >
       >Bewaar de nieuwe sleutel op een veilige locatie. Het is vereist om de gegevens te decoderen als er problemen optreden met uw bestanden.
 
-+++
+   +++
 
 1. Leeg de cache.
 

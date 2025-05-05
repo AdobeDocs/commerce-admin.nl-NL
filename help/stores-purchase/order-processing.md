@@ -38,7 +38,7 @@ Wanneer een klant een bestelling plaatst, wordt een verkooporder gemaakt als een
 
 1. Zoek de volgorde in het raster.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL View]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL View]**.
 
 1. Status van bestelling controleren:
 
@@ -84,7 +84,7 @@ Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen t
 
 >[!NOTE]
 >
->Een beheerder moet machtigingen](../systems/permissions-user-roles.md) hebben [**[!UICONTROL Sales / Archive]** voor zijn of haar rolbereik om de _tabbladen Facturen_, _Creditnota&#39;s_ en _Verzendingen_ te kunnen bekijken.
+>Een beheerder moet machtigingen[&#128279;](../systems/permissions-user-roles.md) hebben **[!UICONTROL Sales / Archive]** voor zijn of haar rolbereik om de _tabbladen Facturen_, _Creditnota&#39;s_ en _Verzendingen_ te kunnen bekijken.
 
 ### Knoppenbalk
 

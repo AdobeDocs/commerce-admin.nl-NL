@@ -28,7 +28,7 @@ Retourpuntsaldi kunnen worden beheerd door Admin-gebruikers per klant. Indien in
 
 >[!NOTE]
 >
->](reward-exchange-rates.md) de configuratie van de Tarieven van de Uitwisseling van 0} wordt de Winst {vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.[
+>[&#128279;](reward-exchange-rates.md) de configuratie van de Tarieven van de Uitwisseling van 0&rbrace; wordt de Winst &lbrace;vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.
 
 Punten kunnen tijdens het uitchecken worden terugbetaald door Admin-gebruikers en -klanten (indien ingeschakeld). In de sectie Betalingsmethode wordt het selectievakje Mijn betalingspunten gebruiken boven de toegestane betalingsmethoden weergegeven. De beschikbare punten en de monetaire wisselkoers zijn inbegrepen. Als het beschikbare saldo groter is dan het totaal-generaal van de bestelling, is geen aanvullende betalingsmethode vereist. Het aantal bonuspunten dat op de bestelling wordt toegepast, wordt weergegeven met de ordertotalen, afgetrokken van het totaal-generaal, vergelijkbaar met winkelkrediet of cadeaukaarten. Als bonuspunten samen met winkelkrediet of een cadeaukaart worden gebruikt, worden de bonuspunten eerst afgetrokken. Het winkelkrediet of de cadeaukaart wordt vervolgens afgetrokken als het totaal van de bestelling groter is dan het terugvorderbare aantal bonuspunten.
 

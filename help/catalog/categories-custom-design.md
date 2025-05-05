@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Categorieën - ontwerpinstellingen
 
-In de sectie _[!UICONTROL Design]_hebt u controle over de vormgeving van een categorie, alle bijbehorende productpagina&#39;s en de paginalay-out. Je kunt een rubriekpagina en de bijbehorende producten aanpassen voor een speciale actie of om een onderscheid te maken tussen de rubrieken. U kunt bijvoorbeeld een speciaal ontwerp voor een merk of een speciale lijn met producten ontwikkelen of een update voor een bepaalde periode toepassen.
+In de sectie _[!UICONTROL Design]_&#x200B;hebt u controle over de vormgeving van een categorie, alle bijbehorende productpagina&#39;s en de paginalay-out. Je kunt een rubriekpagina en de bijbehorende producten aanpassen voor een speciale actie of om een onderscheid te maken tussen de rubrieken. U kunt bijvoorbeeld een speciaal ontwerp voor een merk of een speciale lijn met producten ontwikkelen of een update voor een bepaalde periode toepassen.
 
 ![ montages van het Ontwerp voor een categorie ](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Wanneer het zelfde product aan verscheidene categorieën met verschillende ontwerpmontages voor elke categorie wordt toegewezen, wordt het geadviseerd om **Weg van de Categorieën van het Gebruik voor Product URLs** = `Yes` in de [ configuratieopties van de Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) te plaatsen. Om tot dit het plaatsen toegang te hebben, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, breid **[!UICONTROL Catalog]**uit en kies **Catalogus**onderaan in het linkerpaneel, en breid dan de **sectie van de Optimalisering van de Motor van het Onderzoek**op de pagina uit.
+>Wanneer het zelfde product aan verscheidene categorieën met verschillende ontwerpmontages voor elke categorie wordt toegewezen, wordt het geadviseerd om **Weg van de Categorieën van het Gebruik voor Product URLs** = `Yes` in de [ configuratieopties van de Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) te plaatsen. Om tot dit het plaatsen toegang te hebben, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, breid **[!UICONTROL Catalog]**&#x200B;uit en kies **Catalogus**&#x200B;onderaan in het linkerpaneel, en breid dan de **sectie van de Optimalisering van de Motor van het Onderzoek**&#x200B;op de pagina uit.
 
 | Veld | Beschrijving |
 |--- |--- |
@@ -34,7 +34,7 @@ In de sectie _[!UICONTROL Design]_hebt u controle over de vormgeving van een cat
 
 {{ce-feature}}
 
-De sectie _[!UICONTROL Scheduled Design Update]_bepaalt het datumbereik wanneer een aangepast ontwerp wordt toegepast op categoriepagina&#39;s.
+De sectie _[!UICONTROL Scheduled Design Update]_&#x200B;bepaalt het datumbereik wanneer een aangepast ontwerp wordt toegepast op categoriepagina&#39;s.
 
 | Veld | Beschrijving |
 |--- |--- |

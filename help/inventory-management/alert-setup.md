@@ -22,7 +22,7 @@ Wanneer het alarm van de prijsverandering wordt toegelaten, stelt a _me op de ho
 
 ## Waarschuwingen in de voorraadboekhouding
 
-Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit product in voorraad_ voor elk product is dat uit voorraad is. Klanten kunnen op de koppeling klikken om zich te abonneren op de waarschuwing. Wanneer het product weer in voorraad is, ontvangen klanten een e-mail bericht dat het product beschikbaar is. De producten met alarm hebben het 1} lusje van de Alarm van het Product van a _{in het paneel van de Informatie van het Product dat van de klanten een lijst maakt die aan een alarm hebben ingetekend._
+Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit product in voorraad_ voor elk product is dat uit voorraad is. Klanten kunnen op de koppeling klikken om zich te abonneren op de waarschuwing. Wanneer het product weer in voorraad is, ontvangen klanten een e-mail bericht dat het product beschikbaar is. De producten met alarm hebben het 1&rbrace; lusje van de Alarm van het Product van a _&lbrace;in het paneel van de Informatie van het Product dat van de klanten een lijst maakt die aan een alarm hebben ingetekend._
 
 ![ Lijst van product en prijsalarm abonnementen ](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
 
@@ -32,7 +32,7 @@ Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Klik om de sectie _[!UICONTROL Product Alerts]_uit te vouwen en voer de volgende handelingen uit:
+1. Klik om de sectie _[!UICONTROL Product Alerts]_&#x200B;uit te vouwen en voer de volgende handelingen uit:
 
    ![ de Alarm van het Product ](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ Voor meer gedetailleerde informatie over het gebruiken van e-mailoverseinen, zie
 
 1. Onder _het standaardmalplaatje van de Lading_, kies **[!UICONTROL Template]** dat u wilt aanpassen.
 
-   U kunt de waarschuwingssjabloon kiezen die bij uw thema is inbegrepen. U kunt ook de sjablonen `Price Alert` of `Stock Alert` onder _[!UICONTROL Magento_PriceAlert]_selecteren.
+   U kunt de waarschuwingssjabloon kiezen die bij uw thema is inbegrepen. U kunt ook de sjablonen `Price Alert` of `Stock Alert` onder _[!UICONTROL Magento_PriceAlert]_&#x200B;selecteren.
 
 1. Klik op **[!UICONTROL Load Template]**.
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Inleiding tot klantenbeheer
 
-Het menu _[!UICONTROL Customers]_biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
+Het menu _[!UICONTROL Customers]_&#x200B;biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
 
 ![ het menu van Klanten ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 

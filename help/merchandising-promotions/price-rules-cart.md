@@ -48,12 +48,12 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 | [!UICONTROL Priority] | Vrije-tekstveld dat de lijst filtert op basis van de prioriteit die voor een regel is gedefinieerd. |
 | [!UICONTROL Status] | Gebruik deze optie om de lijst te filteren op regelstatus (`Active` of `Inactive`). |
 | [!UICONTROL Web Site] | Met deze optie filtert u de lijst op basis van websites die voor een regel zijn gedefinieerd. |
-| [!UICONTROL Action] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_pagina te tonen en de regelmontages (gelijkend op het creëren van een regel) bij te werken. |
-| [!UICONTROL Start] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
-| [!UICONTROL End] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die toen de regel werd gecreeerd. |
+| [!UICONTROL Action] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen en de regelmontages (gelijkend op het creëren van een regel) bij te werken. |
+| [!UICONTROL Start] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL End] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die toen de regel werd gecreeerd. |
 
 {style="table-layout:auto"}
 
 ## Real-Time CDP-publiek gebruiken om regels voor de kartprijs te informeren
 
-Leer hoe te [ ](../customers/audience-activation.md) het publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om de regels van de wortelprijs te informeren.
+Leer hoe te [&#128279;](../customers/audience-activation.md) het publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om de regels van de wortelprijs te informeren.

@@ -36,7 +36,7 @@ Elke weergave van informatie die de identiteit mogelijk maakt van een persoon op
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Zoek in het raster naar **[!UICONTROL Privacy Policy]** . Klik vervolgens in de kolom _[!UICONTROL Action]_op **[!UICONTROL Select]**en kies **[!UICONTROL Edit]**.
+1. Zoek in het raster naar **[!UICONTROL Privacy Policy]** . Klik vervolgens in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL Select]**&#x200B;en kies **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

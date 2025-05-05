@@ -23,7 +23,7 @@ Als u een aanzienlijke hoeveelheid gegevens hebt die moet worden verwerkt, kan h
 
 ## Het dashboard configureren
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**en voltooi om het even welke volgende montages.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;en voltooi om het even welke volgende montages.
 
 1. Klik op **[!UICONTROL Save Config]** wanneer de configuratie is voltooid.
 
@@ -49,7 +49,7 @@ Voor meer informatie over de Admin configuratieopties, zie de [ Gids van de Verw
 
 Het dashboard is de standaard [ startpagina ](../configuration-reference/advanced/admin.md) voor Admin, hoewel u een verschillende startpagina kunt vormen.
 
-1. Als u nog niet de beheerdersconfiguratieopties hebt geopend, kiest u **[!UICONTROL Admin]** onder _[!UICONTROL Advanced]_in het linkernavigatievenster.
+1. Als u nog niet de beheerdersconfiguratieopties hebt geopend, kiest u **[!UICONTROL Admin]** onder _[!UICONTROL Advanced]_&#x200B;in het linkernavigatievenster.
 
 1. Klik om de **Startup sectie van de Pagina** uit te breiden.
 

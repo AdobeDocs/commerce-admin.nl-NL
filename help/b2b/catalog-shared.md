@@ -20,13 +20,13 @@ Voor de openbare gedeelde catalogus van `Default (General)` moet u producten toe
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_en_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 >[!IMPORTANT]
 >
 >Alle bestaande [ montages van de groepstoestemming ](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
 
-De pagina _[!UICONTROL Shared Catalogs]_biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is gelijkaardig aan de standaard [ werkruimte Admin ](../getting-started/admin-workspace.md), met filters en actiecontroles. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
+De pagina _[!UICONTROL Shared Catalogs]_&#x200B;biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is gelijkaardig aan de standaard [ werkruimte Admin ](../getting-started/admin-workspace.md), met filters en actiecontroles. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
 
 ![ Gedeelde Catalogi ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog
 
 ## Besturingselementen voor handelingen
 
-De [ actiecontroles ](../getting-started/admin-actions-control.md) in de upper-left hoek kunnen met de controle van massaacties worden gebruikt om geselecteerde gedeelde catalogi te schrappen die niet meer nodig zijn. In het raster bevat de kolom _[!UICONTROL Actions]_alle gereedschappen voor het beheer van uw gedeelde catalogi.
+De [ actiecontroles ](../getting-started/admin-actions-control.md) in de upper-left hoek kunnen met de controle van massaacties worden gebruikt om geselecteerde gedeelde catalogi te schrappen die niet meer nodig zijn. In het raster bevat de kolom _[!UICONTROL Actions]_&#x200B;alle gereedschappen voor het beheer van uw gedeelde catalogi.
 
 ![ Gedeelde Acties van de Catalogus ](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

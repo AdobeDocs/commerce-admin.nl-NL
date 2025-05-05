@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Storefront-branding
 
-Één van de eerste dingen u wilt doen is het embleem ](#upload-your-logo) in de kopbal te veranderen en [ een favicon ](#add-a-favicon) voor browser te uploaden. [ Daarna, zou u uw welkome bericht ](#change-the-welcome-message) moeten toevoegen en [ de copyrightkennisgeving ](#change-the-copyright-notice) in footer bijwerken. [ Deze taken zijn een paar eenvoudige ontwerpelementen die u meteen kunt uitvoeren. Terwijl uw opslag in ontwikkeling is, kunt u [ de kennisgeving van de opslagdemo ](#set-the-store-demo-notice) aanzetten, en dan het verwijderen wanneer u klaar bent om te lanceren.
+Één van de eerste dingen u wilt doen is het embleem [&#128279;](#upload-your-logo) in de kopbal te veranderen en [ een favicon ](#add-a-favicon) voor browser te uploaden. [ Daarna, zou u uw welkome bericht ](#change-the-welcome-message) moeten toevoegen en [ de copyrightkennisgeving ](#change-the-copyright-notice) in footer bijwerken.  Deze taken zijn een paar eenvoudige ontwerpelementen die u meteen kunt uitvoeren. Terwijl uw opslag in ontwikkeling is, kunt u [ de kennisgeving van de opslagdemo ](#set-the-store-demo-notice) aanzetten, en dan het verwijderen wanneer u klaar bent om te lanceren.
 
 ![ Storefront brandende elementen ](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Een favicon heeft doorgaans een grootte van 16 x 16 pixels of 32 x 32 pixels. [!
 
 1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL HTML Head]**sectie.
+1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL HTML Head]**&#x200B;sectie.
 
    ![ HTML Hoofd montages ](./assets/configuration-html-head.png){width="600"}
 
@@ -126,7 +126,7 @@ Het welkomstbericht in de koptekst wordt uitgebreid om de naam van de klant op t
 
 1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Header]**sectie.
+1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Header]**&#x200B;sectie.
 
 1. Voer bij **[!UICONTROL Welcome Text]** de welkomstberichttekst in die u wilt weergeven in de koptekst van uw winkel.
 
@@ -178,7 +178,7 @@ Als uw winkel online is, maar nog steeds in aanbouw is, kunt u boven aan de pagi
 
 1. Zoek in het raster de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL HTML Head]**sectie.
+1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL HTML Head]**&#x200B;sectie.
 
    ![ HTML Head ](./assets/configuration-html-head.png){width="600"}
 

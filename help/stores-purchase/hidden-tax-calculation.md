@@ -69,7 +69,7 @@ Wanneer er een korting is die belasting ingebed in het heeft, berekent Commerce 
 
 1. Hoe de klant gewoonlijk de gedisconteerde prijs (het Totaal van de Orde) begrijpt:
 
-   _Volledige prijs van punt met inbegrip van belastingen **minder**het disconteringsbedrag: $100 - $8.33 = $91.67_
+   _Volledige prijs van punt met inbegrip van belastingen **minder**&#x200B;het disconteringsbedrag: $100 - $8.33 = $91.67_
 
 1. **hoe Commerce de gedisconteerde prijs** berekent (zie vroeger voor formule):
 

@@ -18,7 +18,7 @@ De basisinformatie voor uw winkel omvat de naam en het adres van de winkel, het 
 
 ## [!UICONTROL Store Information]
 
-De sectie _[!UICONTROL Store Information]_bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
+De sectie _[!UICONTROL Store Information]_&#x200B;bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -193,7 +193,7 @@ De Opstelling van de Valuta - bepaalt de basis [ munt ](../stores-purchase/curre
 
 Valutasymbolen - bepaalt de [ muntsymbolen ](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in productprijzen en verkoopdocumenten zoals orden en facturen verschijnen. [!DNL Commerce] ondersteunt valuta&#39;s uit meer dan 200 landen over de hele wereld.
 
-Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [ ](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
+Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [&#128279;](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
 
 De Chooser van de Valuta - als de veelvoudige valuta&#39;s beschikbaar zijn, [ muntkiezer ](../stores-purchase/currency.md) is beschikbaar in de kopbal van de opslag.
 

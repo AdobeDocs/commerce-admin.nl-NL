@@ -31,7 +31,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New User]** .
 
-   Klik op een gebruikersnaam in het raster om een bestaande gebruiker te bewerken. U kunt de secties _[!UICONTROL User Info]_en_[!UICONTROL User Role]_ naar wens wijzigen.
+   Klik op een gebruikersnaam in het raster om een bestaande gebruiker te bewerken. U kunt de secties _[!UICONTROL User Info]_&#x200B;en&#x200B;_[!UICONTROL User Role]_ naar wens wijzigen.
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Account Information]_:
 
@@ -65,17 +65,17 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
    Het definiëren van een vervaldatum is handig wanneer een gebruiker of rol tijdelijk is. Na de vervaldatum verandert de status van de gebruikersaccount in `Inactive` en kan deze, indien nodig, worden bijgewerkt.
 
-1. Voer onder _[!UICONTROL Current User Identity Verification]_het wachtwoord voor uw gebruikersaccount in.
+1. Voer onder _[!UICONTROL Current User Identity Verification]_&#x200B;het wachtwoord voor uw gebruikersaccount in.
 
 >[!IMPORTANT]
 >
->Als de sectie _[!UICONTROL Account Information]_is voltooid, kunt u de gebruiker opslaan. De nieuwe gebruiker wordt weergegeven in het raster van_[!UICONTROL Users]_ , maar de gebruikersnaam kan zich pas aanmelden wanneer een rol is toegewezen.
+>Als de sectie _[!UICONTROL Account Information]_&#x200B;is voltooid, kunt u de gebruiker opslaan. De nieuwe gebruiker wordt weergegeven in het raster van&#x200B;_[!UICONTROL Users]_ , maar de gebruikersnaam kan zich pas aanmelden wanneer een rol is toegewezen.
 
 ## Een gebruikersrol toewijzen
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL User Role]** .
 
-   In het raster worden alle bestaande gebruikersrollen weergegeven. Voor een nieuwe winkel is _[!UICONTROL Administrators]_de enige beschikbare rol.
+   In het raster worden alle bestaande gebruikersrollen weergegeven. Voor een nieuwe winkel is _[!UICONTROL Administrators]_&#x200B;de enige beschikbare rol.
 
    ![ Admin - voeg nieuwe gebruikersrol ](./assets/permissions-user-roles.png){width="600" zoomable="yes"} toe
 
@@ -105,7 +105,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
 1. Voer desgevraagd uw wachtwoord in om uw identiteit te bevestigen en klik nogmaals op **[!UICONTROL Save User]** .
 
-   Het raster _[!UICONTROL Users]_wordt geopend en bevat een lijst met alle gebruikers.
+   Het raster _[!UICONTROL Users]_&#x200B;wordt geopend en bevat een lijst met alle gebruikers.
 
 ## Een Admin-gebruiker verwijderen
 
@@ -145,7 +145,7 @@ De sjabloonconfiguratie voor e-mailberichten van Admin bepaalt welke e-mailberic
 
 Voor de veiligheid van uw zaken, worden de gebruikersrekeningen gesloten door gebrek na zes ontbroken pogingen aan [ login ](../getting-started/admin-signin.md) aan Admin. Alle gebruikersaccounts die momenteel zijn vergrendeld, worden weergegeven in het raster Vergrendelde gebruikers. Een account kan worden ontgrendeld door elke andere gebruiker met volledige beheerdersrechten.
 
-De extra maatregelen van de wachtwoordveiligheid kunnen in de [ Geavanceerde Admin ](../configuration-reference/advanced/admin.md#security) configuratie worden uitgevoerd. Zie ](security-admin.md) Veiligheid Admin.[
+De extra maatregelen van de wachtwoordveiligheid kunnen in de [ Geavanceerde Admin ](../configuration-reference/advanced/admin.md#security) configuratie worden uitgevoerd. Zie [&#128279;](security-admin.md) Veiligheid Admin.
 
 ![ Login het schermalarm van het Login - de rekening is tijdelijk gehandicapt ](./assets/admin-login-locked-out-message.png){width="300"}
 

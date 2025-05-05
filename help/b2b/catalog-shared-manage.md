@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Uw gedeelde catalogi beheren
 
-De pagina _[!UICONTROL Shared Catalogs]_biedt toegang tot de gereedschappen die nodig zijn voor het beheer van uw gedeelde catalogi. De pagina is vergelijkbaar met de standaardwerkruimte voor beheerders, met filters en besturingselementen voor handelingen. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
+De pagina _[!UICONTROL Shared Catalogs]_&#x200B;biedt toegang tot de gereedschappen die nodig zijn voor het beheer van uw gedeelde catalogi. De pagina is vergelijkbaar met de standaardwerkruimte voor beheerders, met filters en besturingselementen voor handelingen. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
 
 ## De productselectie bijwerken
 
-De selectie van producten in een gedeelde catalogus kan eenvoudig worden bijgewerkt vanuit de kolom _[!UICONTROL Action]_in het raster voor gedeelde catalogi. De wijzigingen die u aanbrengt, zijn zichtbaar voor leden van gekoppelde bedrijfsaccounts. Het proces is hoofdzakelijk het zelfde als het kiezen van producten voor een nieuwe [ catalogusstructuur ](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
+De selectie van producten in een gedeelde catalogus kan eenvoudig worden bijgewerkt vanuit de kolom _[!UICONTROL Action]_&#x200B;in het raster voor gedeelde catalogi. De wijzigingen die u aanbrengt, zijn zichtbaar voor leden van gekoppelde bedrijfsaccounts. Het proces is hoofdzakelijk het zelfde als het kiezen van producten voor een nieuwe [ catalogusstructuur ](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -28,7 +28,7 @@ De selectie van producten in een gedeelde catalogus kan eenvoudig worden bijgewe
 
    U kunt het eerste item overslaan, omdat het bereik van een gedeelde catalogus niet kan worden gewijzigd nadat het voor de eerste keer is opgeslagen.
 
-Als u met een specifiek product werkt, wordt in de sectie _[!UICONTROL Products In Shared Catalog]_elke gedeelde catalogus weergegeven waarin het product beschikbaar is. Meer leren, zie [ producten aan een gedeelde catalogus ](catalog-shared-product-add.md) toevoegen.
+Als u met een specifiek product werkt, wordt in de sectie _[!UICONTROL Products In Shared Catalog]_&#x200B;elke gedeelde catalogus weergegeven waarin het product beschikbaar is. Meer leren, zie [ producten aan een gedeelde catalogus ](catalog-shared-product-add.md) toevoegen.
 
 ![ Product in Gedeelde Catalogi ](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
 
 1. Ga voor de gedeelde catalogus in het raster die u wilt bijwerken naar de kolom **[!UICONTROL Action]** en selecteer **[!UICONTROL Set Pricing and Structure]** .
 
-1. Klik op de pagina _[!UICONTROL Catalog Structure]_op **[!UICONTROL Configure]**en voer een van de volgende handelingen uit:
+1. Klik op de pagina _[!UICONTROL Catalog Structure]_&#x200B;op **[!UICONTROL Configure]**&#x200B;en voer een van de volgende handelingen uit:
 
    - Klik op **[!UICONTROL Pricing]** in de voortgangsindicator boven aan de pagina.
    - Klik in de rechterbovenhoek op **[!UICONTROL Next]** .
@@ -49,11 +49,11 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
 
 ## Categoriemachtigingen bijwerken
 
-{de toestemmingen van de Categorie 0} ](../catalog/category-permissions.md) worden automatisch geplaatst aan `Allow` voor producten die van de categorieboom aan een gedeelde catalogus worden toegevoegd. [ U kunt de toestemmingen later aanpassen, of extra regels tot stand brengen, zoals nodig.
+{de toestemmingen van de Categorie 0} [&#128279;](../catalog/category-permissions.md) worden automatisch geplaatst aan `Allow` voor producten die van de categorieboom aan een gedeelde catalogus worden toegevoegd.  U kunt de toestemmingen later aanpassen, of extra regels tot stand brengen, zoals nodig.
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan `Allow` voor _[!UICONTROL Display Product Prices]_en_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan `Allow` voor _[!UICONTROL Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 >[!IMPORTANT]
 >

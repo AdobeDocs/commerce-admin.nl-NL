@@ -16,9 +16,9 @@ Buyers and sellers use Quotes to manage the negotiation process for an order–a
 
 ![](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}
 
-After the quote is created, the negotiation process begins when the buyer or seller submits the quote for review. __ [](../getting-started/admin-workspace.md)
+After the quote is created, the negotiation process begins when the buyer or seller submits the quote for review. __ [&#128279;](../getting-started/admin-workspace.md)
 
-- [](quote-price-negotiation.md) When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
+- [&#128279;](quote-price-negotiation.md) When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
 
 - In the Admin, Sales representatives can create quotes on behalf of company buyer. When creating the quote, a seller can save the quote as a draft, or submit it directly to the buyer to initiate the negotiation process.
 
@@ -55,9 +55,9 @@ In dit diagram worden de prijsstatussen voor kopers en verkopers (Admin) in de v
 
 Als je een prijsopgave bekijkt of onderhandelt, kun je onder andere hoeveelheden wijzigen, objecten verwijderen, commentaren op regelobjecten toevoegen, regelobjecten of prijskortingen (verkoper) toepassen en een verzendadres (koper) toevoegen.
 
-- **** `Pending` [](quote-price-negotiation.md) The buyer and sales representative are notified by email that the seller has responded.
+- **&#x200B;**&#x200B;`Pending` [&#128279;](quote-price-negotiation.md) The buyer and sales representative are notified by email that the seller has responded.
 
-- ****__ The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
+- **&#x200B;**&#x200B;__ The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
 
 The buyer and seller can continue the negotiation process until an agreement is reached, or the seller declines the quote. If the buyer makes changes to the quote—adding or removing products or changing product quantities—the quote must be returned to the seller for review.
 
@@ -65,7 +65,7 @@ The buyer and seller can continue the negotiation process until an agreement is 
 
 If the buyer adds a shipping address, the negotiation agreement has to be reviewed, and the seller can continue the negotiation process until an agreement is reached, or the seller declines the quote.
 
-****
+**&#x200B;**
 
 The buyer accepts the proposed price and proceeds to checkout. Additional discounts cannot be added to the negotiated quote.
 
@@ -97,9 +97,9 @@ Quote status provides information about the current state of the quote in the qu
 
 ## B2B role resources for store quotes
 
-[](../systems/permissions-user-roles.md#role-resources) These role resources must be set for the Admin user role that is assigned to the store administrator.
+[&#128279;](../systems/permissions-user-roles.md#role-resources) These role resources must be set for the Admin user role that is assigned to the store administrator.
 
-**[!UICONTROL System]**_[!UICONTROL Permissions]_**[!UICONTROL User Roles]**[!UICONTROL Sales][!UICONTROL Operations][!UICONTROL Quotes]__
+**[!UICONTROL System]**&#x200B;_[!UICONTROL Permissions]_&#x200B;**[!UICONTROL User Roles]**&#x200B;[!UICONTROL Sales][!UICONTROL Operations][!UICONTROL Quotes]__
 
 ![](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
@@ -109,7 +109,7 @@ Quote status provides information about the current state of the quote in the qu
 
 ![](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. __**[!UICONTROL Sales]****[!UICONTROL Quotes]**
+1. __&#x200B;**[!UICONTROL Sales]**&#x200B;**[!UICONTROL Quotes]**
 
 1. In the first column of the grid, select the checkbox for each record that you want to apply the action to.
 
@@ -142,7 +142,7 @@ Alleen aanhalingsaanvragen met de status `Open` kunnen worden afgewezen.
 
 1. Selecteer elk open citaatverzoek dat u wilt verwerpen.
 
-1. Stel het besturingselement _[!UICONTROL Actions]_in op `Declined` .
+1. Stel het besturingselement _[!UICONTROL Actions]_&#x200B;in op `Declined` .
 
 1. Voer de reden in waarom het aanhalingsteken is afgewezen en klik op **[!UICONTROL Confirm]** .
 

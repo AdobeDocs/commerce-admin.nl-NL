@@ -52,7 +52,7 @@ Na het creëren van de rekening, kan de bedrijfbeheerder een bedrijfstructuur me
 
 De structuur van een bedrijfsrekening moet de aankooporganisatie weerspiegelen, of het nu gaat om een eenvoudige en vlakke organisatie of om een complexe organisatie met verschillende teams voor elke afdeling en afdeling van de onderneming.
 
-Als de opslag [ ](enable-basic-features.md) wordt gevormd om bedrijven toe te staan om hun eigen rekeningen te beheren, is vestiging de bedrijfstructuur één van de eerste taken voor een bedrijfbeheerder om te voltooien nadat de rekening wordt goedgekeurd. In de bedrijfsrekening, wordt de structuur van het bedrijf vertegenwoordigd als boom met de bedrijfbeheerder bij de bovenkant.
+Als de opslag [&#128279;](enable-basic-features.md) wordt gevormd om bedrijven toe te staan om hun eigen rekeningen te beheren, is vestiging de bedrijfstructuur één van de eerste taken voor een bedrijfbeheerder om te voltooien nadat de rekening wordt goedgekeurd. In de bedrijfsrekening, wordt de structuur van het bedrijf vertegenwoordigd als boom met de bedrijfbeheerder bij de bovenkant.
 
 ![ Bedrijfsstructuur met teams ](./assets/company-structure-teams-diagram.svg){width="450"}
 

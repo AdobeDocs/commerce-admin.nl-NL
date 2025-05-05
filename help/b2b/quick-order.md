@@ -20,7 +20,7 @@ De _Snelle eigenschap van de Orde_ vermindert het ordeproces aan verscheidene kl
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies **[!UICONTROL B2B Features]** in de sectie _[!UICONTROL General]_in het linkerdeelvenster.
+1. Kies **[!UICONTROL B2B Features]** in de sectie _[!UICONTROL General]_&#x200B;in het linkerdeelvenster.
 
 1. Stel **[!UICONTROL Enable Quick Order]** in op `Yes` .
 
@@ -92,7 +92,7 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
 ### Methode 3: Een lijst met producten uploaden
 
-1. Klik in de sectie _[!UICONTROL Add from File]_op **[!UICONTROL Download Sample]**om een ordersjabloon te downloaden.
+1. Klik in de sectie _[!UICONTROL Add from File]_&#x200B;op **[!UICONTROL Download Sample]**&#x200B;om een ordersjabloon te downloaden.
 
    ![ voeg van Dossier ](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"} toe
 

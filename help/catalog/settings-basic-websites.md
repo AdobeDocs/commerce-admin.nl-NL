@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Product in Websites]
 
-De _[!UICONTROL Product in Websites]_sectie identificeert elke website waar het product, volgens de [ opslaghiërarchie ](../stores-purchase/stores.md) beschikbaar is.
+De _[!UICONTROL Product in Websites]_&#x200B;sectie identificeert elke website waar het product, volgens de [ opslaghiërarchie ](../stores-purchase/stores.md) beschikbaar is.
 
 ![ het diagram van het het Webbereik van het Product ](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ De _[!UICONTROL Product in Websites]_sectie identificeert elke website waar het 
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Product in Websites]_sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Product in Websites]_&#x200B;sectie.
 
    ![ Product in Websites ](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 

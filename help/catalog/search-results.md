@@ -45,7 +45,7 @@ Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseer
 
 ### Stap 1: Een kenmerk maken
 
-1. Open in de lijst _[!UICONTROL Products]_de bewerkingsmodus van `Montana Wind Jacket` (MJ03).
+1. Open in de lijst _[!UICONTROL Products]_&#x200B;de bewerkingsmodus van `Montana Wind Jacket` (MJ03).
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Attribute]** .
 1. Voor de _Uitgezochte pagina van Attributen_, klik **[!UICONTROL Create New Attribute]**.
 1. Vul de eigenschappen van het kenmerk als volgt in:
@@ -72,7 +72,7 @@ Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseer
 
 ### Stap 2: Wijs het eerste product toe
 
-1. Schuif omlaag op de pagina met productinstellingen en vouw de sectie _[!UICONTROL Attributes]_uit.
+1. Schuif omlaag op de pagina met productinstellingen en vouw de sectie _[!UICONTROL Attributes]_&#x200B;uit.
 1. Voer in het veld **[!UICONTROL Search Keywords]** de SKU `MH01` in die aan dit product moet worden toegewezen.
 
    U kunt meerdere SKU&#39;s invoeren die door een spatie worden gescheiden in het veld Trefwoorden zoeken. In dit voorbeeld wordt slechts één item ingevoerd.
@@ -80,15 +80,15 @@ Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseer
    ![ sectie van Attributen met onderzoekssleutelwoord ](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
-1. Ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**en vernieuw de **[!UICONTROL Page Cache]**.
+1. Ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;en vernieuw de **[!UICONTROL Page Cache]**.
 
 ### Stap 3: Het tweede product toewijzen
 
-1. Open in de lijst _[!UICONTROL Products]_de `Chaz Kangaroo Hoodie` (MH01) in de bewerkingsmodus.
+1. Open in de lijst _[!UICONTROL Products]_&#x200B;de `Chaz Kangaroo Hoodie` (MH01) in de bewerkingsmodus.
 1. Schuif omlaag en vouw de sectie **[!UICONTROL Attributes]** uit.
 1. Voer in het veld **[!UICONTROL Search Keywords]** de SKU voor het andere product in, `MJ03` .
 1. Klik op **[!UICONTROL Save]**.
-1. Ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**en vernieuw de **[!UICONTROL Page Cache]**.
+1. Ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;en vernieuw de **[!UICONTROL Page Cache]**.
 
 ### Stap 4: Test het in de winkel
 

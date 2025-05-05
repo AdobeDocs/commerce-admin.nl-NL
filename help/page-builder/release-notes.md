@@ -94,7 +94,7 @@ Zie [ Lay-out - Kolom ](./column.md) voor informatie over het gebruiken van de n
 
 ![ Nieuwe ](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Inmersive, volledig-scherm het uitgeven** - het uitgeven [!DNL Page Builder] inhoud is nu volledig-scherm slechts voor alle gebieden die door [!DNL Page Builder] worden gecontroleerd. Deze wijziging omvat CMS-pagina&#39;s, product- en categoriepagina&#39;s, blokken en dynamische blokken. Bij bewerking op volledig scherm krijgt de inhoud de focus en wordt een weergave geboden die beter aansluit bij de gebruikerservaring op de winkel.
 
-![ Nieuwe ](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] inhoudsvoorproeven **- door gebrek, [!DNL Page Builder] verstrekt nu inhoudsvoorproeven niet alleen voor CMS pagina&#39;s, Blokken, en Dynamische Blokken, maar ook voor de pagina&#39;s van het Product en van de Categorie. U kunt deze functie zo configureren dat deze in- of uitgeschakeld is voor product- en categoriepagina&#39;s met de nieuwe instelling [!DNL Page Builder] Voorvertoning van inhoud, die u kunt openen in de winkelconfiguratie via Inhoudbeheer > Geavanceerde gereedschappen voor inhoud.
+![ Nieuwe ](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] inhoudsvoorproeven &#x200B;**- door gebrek, [!DNL Page Builder] verstrekt nu inhoudsvoorproeven niet alleen voor CMS pagina&#39;s, Blokken, en Dynamische Blokken, maar ook voor de pagina&#39;s van het Product en van de Categorie. U kunt deze functie zo configureren dat deze in- of uitgeschakeld is voor product- en categoriepagina&#39;s met de nieuwe instelling [!DNL Page Builder] Voorvertoning van inhoud, die u kunt openen in de winkelconfiguratie via Inhoudbeheer > Geavanceerde gereedschappen voor inhoud.
 
 ![ Nieuw ](../assets/new.svg) <!-- Issue 543 -->**Verbeterde toegang tot de korte beschrijvingen van het Product** - door gebrek, wordt een korte beschrijving van het Product nu getoond vóór de langere beschrijving. Deze wijziging komt overeen met de volgorde waarin ze in de winkel worden weergegeven. Hierdoor is het niet nodig door de langere beschrijvingsinhoud te bladeren om toegang te krijgen tot de korte beschrijving.
 
@@ -186,16 +186,16 @@ Deze versie van [!DNL Page Builder] is slechts een versienummerupdate voor Adobe
 
 ![ Vaste kwestie ](../assets/fix.svg) **Diverse moeilijke situaties**
 
-- <!-- PB-50 -->Probleem verholpen waarbij het TinyMCE-menu voor dia-inhoud onder andere inhoudstypen werd weergegeven als de bovenliggende container van de dia is gedupliceerd.
-- <!-- PB-166 -->Bijgewerkt [!DNL Page Builder] om een vernietigingsmethode te implementeren om geheugenlekken in sommige scenario&#39;s te voorkomen.
-- <!-- PB-170 -->Verbeterde TinyMCE-prestaties wanneer meerdere instanties in het beheerwerkgebied worden gebruikt.
-- <!-- PB-252 -->Probleem verholpen waarbij het inhoudstype Dynamisch blok niet wordt gerenderd in het beheerwerkgebied als de bovenste rij is gemarkeerd als verborgen.
-- <!-- PB-273 -->Verfijnde muis-hover gebeurtenissen op het Admin stadium door een vertraging van 200 ms uit diverse controles UI te verwijderen. Door deze wijziging kunt u gemakkelijker werken met geneste inhoudsitems in het werkgebied.
-- <!-- PB-294 -->Probleem verholpen waarbij het valutasymbool onjuist werd beschermd in de productlijstwidget in het blok/dynamisch blok in het beheerstadium.
-- <!-- PB-296 -->Correctie van een probleem waarbij het producttotaal in het bewerkingspaneel [!DNL Page Builder] niet werkte voor aangepaste MSI-voorraadproducten.
-- <!-- PB-317 -->Correctie van een probleem waarbij het opslaan van [!DNL Page Builder] -inhoud met achtergrondafbeeldingen op Microsoft Edge deze afbeeldingen niet op de winkelachtergrond weergeeft.
-- <!-- PB-390 -->Correctie van een probleem waarbij geneste [!DNL Page Builder] -inhoud niet kon worden opgeslagen als gebruikers op de knop Opslaan klikken voordat de pagina volledig wordt weergegeven.
-- <!-- PB-418 -->Correctie van uitzonderingsfout die in snijtaken is gegenereerd als gevolg van [!DNL Page Builder] analytics.
+- &#x200B;<!-- PB-50 -->Probleem verholpen waarbij het TinyMCE-menu voor dia-inhoud onder andere inhoudstypen werd weergegeven als de bovenliggende container van de dia is gedupliceerd.
+- &#x200B;<!-- PB-166 -->Bijgewerkt [!DNL Page Builder] om een vernietigingsmethode te implementeren om geheugenlekken in sommige scenario&#39;s te voorkomen.
+- &#x200B;<!-- PB-170 -->Verbeterde TinyMCE-prestaties wanneer meerdere instanties in het beheerwerkgebied worden gebruikt.
+- &#x200B;<!-- PB-252 -->Probleem verholpen waarbij het inhoudstype Dynamisch blok niet wordt gerenderd in het beheerwerkgebied als de bovenste rij is gemarkeerd als verborgen.
+- &#x200B;<!-- PB-273 -->Verfijnde muis-hover gebeurtenissen op het Admin stadium door een vertraging van 200 ms uit diverse controles UI te verwijderen. Door deze wijziging kunt u gemakkelijker werken met geneste inhoudsitems in het werkgebied.
+- &#x200B;<!-- PB-294 -->Probleem verholpen waarbij het valutasymbool onjuist werd beschermd in de productlijstwidget in het blok/dynamisch blok in het beheerstadium.
+- &#x200B;<!-- PB-296 -->Correctie van een probleem waarbij het producttotaal in het bewerkingspaneel [!DNL Page Builder] niet werkte voor aangepaste MSI-voorraadproducten.
+- &#x200B;<!-- PB-317 -->Correctie van een probleem waarbij het opslaan van [!DNL Page Builder] -inhoud met achtergrondafbeeldingen op Microsoft Edge deze afbeeldingen niet op de winkelachtergrond weergeeft.
+- &#x200B;<!-- PB-390 -->Correctie van een probleem waarbij geneste [!DNL Page Builder] -inhoud niet kon worden opgeslagen als gebruikers op de knop Opslaan klikken voordat de pagina volledig wordt weergegeven.
+- &#x200B;<!-- PB-418 -->Correctie van uitzonderingsfout die in snijtaken is gegenereerd als gevolg van [!DNL Page Builder] analytics.
 
 ## 1.2.2 voor Adobe Commerce 2.3.4-p2
 
@@ -219,14 +219,14 @@ Deze versie van [!DNL Page Builder] is slechts een versienummerupdate voor Adobe
 
 ![ Vaste kwestie ](../assets/fix.svg) **Diverse moeilijke situaties**
 
-- <!-- PB-237 -->Verbeterde beveiliging.
-- <!-- PB-41 -->Vaste zoekopdrachten binnen UI selecteren componenten om slechts één AJAX verzoek per zoekterm in te dienen.
-- <!-- PB-76, PB-84-->Bijgewerkte productvoorvertoningen in de Admin die overeenkomen met de winkel, inclusief de sterrenwaardering, kleur en grootteopties van het product, indien van toepassing.
-- <!-- PB-169 -->Correctie van een probleem waarbij [!DNL Page Builder] niet kon worden opgeslagen wanneer JavaScript minification en bundling zijn ingeschakeld in Commerce.
-- <!-- PB-241 -->Oplossing voor een geschikte oplossing voor de voorvertoningen in Beheer van Producten, Blokken en Dynamische Blokken bij Commerce-installaties die verschillende URL&#39;s definiëren voor de Admin en de frontend.
-- <!-- PB-238 -->Vaste Admin voorproeven van Producten, Blokken, en Dynamische Blokken om correct op de installaties van Commerce met B2B terug te geven die met _wordt geïnstalleerd Login slechts_ toegelaten optie. Voordat deze correctie wordt uitgevoerd, leidt de voorvertoning van [!DNL Page Builder] ertoe dat de pagina wordt omgeleid naar de aanmeldingsgegevens van de klantenaccount.
-- <!-- PB-239 -->Oplossing voor een sessiefout die kan optreden wanneer een voorvertoning van een grote pagina in de [!DNL Page Builder] Admin wordt weergegeven.
-- <!-- PB-248 -->[!DNL Page Builder] LESS-stijlen zijn bijgewerkt om overlapping in de storefront-stijl te voorkomen.
+- &#x200B;<!-- PB-237 -->Verbeterde beveiliging.
+- &#x200B;<!-- PB-41 -->Vaste zoekopdrachten binnen UI selecteren componenten om slechts één AJAX verzoek per zoekterm in te dienen.
+- &#x200B;<!-- PB-76, PB-84-->Bijgewerkte productvoorvertoningen in de Admin die overeenkomen met de winkel, inclusief de sterrenwaardering, kleur en grootteopties van het product, indien van toepassing.
+- &#x200B;<!-- PB-169 -->Correctie van een probleem waarbij [!DNL Page Builder] niet kon worden opgeslagen wanneer JavaScript minification en bundling zijn ingeschakeld in Commerce.
+- &#x200B;<!-- PB-241 -->Oplossing voor een geschikte oplossing voor de voorvertoningen in Beheer van Producten, Blokken en Dynamische Blokken bij Commerce-installaties die verschillende URL&#39;s definiëren voor de Admin en de frontend.
+- &#x200B;<!-- PB-238 -->Vaste Admin voorproeven van Producten, Blokken, en Dynamische Blokken om correct op de installaties van Commerce met B2B terug te geven die met _wordt geïnstalleerd Login slechts_ toegelaten optie. Voordat deze correctie wordt uitgevoerd, leidt de voorvertoning van [!DNL Page Builder] ertoe dat de pagina wordt omgeleid naar de aanmeldingsgegevens van de klantenaccount.
+- &#x200B;<!-- PB-239 -->Oplossing voor een sessiefout die kan optreden wanneer een voorvertoning van een grote pagina in de [!DNL Page Builder] Admin wordt weergegeven.
+- &#x200B;<!-- PB-248 -->[!DNL Page Builder] LESS-stijlen zijn bijgewerkt om overlapping in de storefront-stijl te voorkomen.
 
 ## 1.1.1 voor Adobe Commerce 2.3.3-p1
 

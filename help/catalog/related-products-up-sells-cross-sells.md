@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Gebruik de sectie _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_om eenvoudige promotieblokken in te stellen die een selectie van extra producten voorstellen die van belang kunnen zijn voor de klant. Voor meer informatie, zie [ Verhoudingen van het Product ](../merchandising-promotions/product-relationships.md).
+Gebruik de sectie _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;om eenvoudige promotieblokken in te stellen die een selectie van extra producten voorstellen die van belang kunnen zijn voor de klant. Voor meer informatie, zie [ Verhoudingen van het Product ](../merchandising-promotions/product-relationships.md).
 
 ![ Verwante Producten, omhoog-Verkopen, en dwars-Verkoop ](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Cross-sell-items zijn vergelijkbaar met impulsaankopen die naast het kasregister
 
 >[!NOTE]
 >
->Om dwars-verkoop punten per opslagmening te tonen of te verbergen, zie [ Controle > het Schepen van Kar ](../configuration-reference/sales/checkout.md) optie genoemd _[!UICONTROL Show Cross-sell Items]_in het Schepen Kar. U kunt cross-sells tijdens specifieke verkoop of voor het testen A/B in een archiefmening willen verbergen.
+>Om dwars-verkoop punten per opslagmening te tonen of te verbergen, zie [ Controle > het Schepen van Kar ](../configuration-reference/sales/checkout.md) optie genoemd _[!UICONTROL Show Cross-sell Items]_&#x200B;in het Schepen Kar. U kunt cross-sells tijdens specifieke verkoop of voor het testen A/B in een archiefmening willen verbergen.
 
 ![ dwars-verkoopt in het winkelwagentje ](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

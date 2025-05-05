@@ -42,7 +42,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
    >[!NOTE]
    >
-   >Systeemkenmerken zijn gemarkeerd met een punt en kunnen niet uit de lijst van _[!UICONTROL Groups]_worden verwijderd. Ze kunnen echter naar een andere groep in de kenmerkset worden gesleept.
+   >Systeemkenmerken zijn gemarkeerd met een punt en kunnen niet uit de lijst van _[!UICONTROL Groups]_&#x200B;worden verwijderd. Ze kunnen echter naar een andere groep in de kenmerkset worden gesleept.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -50,7 +50,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
 ## Een kenmerkengroep maken
 
-1. Klik in de kolom _[!UICONTROL Groups]_van de kenmerkset op **[!UICONTROL Add New]**.
+1. Klik in de kolom _[!UICONTROL Groups]_&#x200B;van de kenmerkset op **[!UICONTROL Add New]**.
 
 1. Voer een **[!UICONTROL Name]** in voor de nieuwe groep en klik op **[!UICONTROL OK]** .
 

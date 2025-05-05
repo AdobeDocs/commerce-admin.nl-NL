@@ -26,7 +26,7 @@ Tijdens de controle van de bestelling wordt het totaal onder aan de bestelling w
 
    ![ de totalen van de Controle genummerde opties om de soortorde te bepalen ](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Volumes van de Controle 1} de Orde van de Soort in de _Gids van de Verwijzing van de Configuratie_.[](../configuration-reference/sales/sales.md#checkout-totals-sort-order)
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Volumes van de Controle 1} de Orde van de Soort in de _Gids van de Verwijzing van de Configuratie_.[&#128279;](../configuration-reference/sales/sales.md#checkout-totals-sort-order)
 
 1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 

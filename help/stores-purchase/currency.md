@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Valuta
 
-Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer dan 200 landen over de hele wereld. Als de opslag veelvoudige valuta&#39;s steunt, verkiesster van de a _munt_ in de kopbal verschijnt nadat de munttarieven [ ](currency-update.md) worden bijgewerkt.
+Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer dan 200 landen over de hele wereld. Als de opslag veelvoudige valuta&#39;s steunt, verkiesster van de a _munt_ in de kopbal verschijnt nadat de munttarieven [&#128279;](currency-update.md) worden bijgewerkt.
 
 >[!NOTE]
 >

@@ -43,11 +43,11 @@ _Orde door SKU_ is a [ widget ](../content-design/widgets.md) die in de opslag a
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Adobe Commerce B2B slechts) _**om de Orde door de functie van SKU toe te laten, maak de Snelle functie van de Orde onbruikbaar:**_
+![ Adobe Commerce B2B ](../assets/b2b.svg) (Adobe Commerce B2B slechts) _&#x200B;**om de Orde door de functie van SKU toe te laten, maak de Snelle functie van de Orde onbruikbaar:**&#x200B;_
 
 1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL B2B Features]**
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL B2B Features]**
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL B2B Features]** sectie uit.
 
@@ -75,7 +75,7 @@ Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot d
 
 1. Hiermee voegt u afzonderlijke items toe op basis van voorkeur:
 
-   _**voegt elk punt door SKU toe:**_
+   _&#x200B;**voegt elk punt door SKU toe:**&#x200B;_
 
    - Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** in van het item dat moet worden geordend.
 
@@ -83,7 +83,7 @@ Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot d
 
    - Klik op **[!UICONTROL Add to Cart]** .
 
-   _**uploadt een Csv- dossier van veelvoudige punten:**_
+   _&#x200B;**uploadt een Csv- dossier van veelvoudige punten:**&#x200B;_
 
    - Bereidt een [ dossier van de de invoergegevens CSV ](../systems/data-csv.md) (komma-Gescheiden Waarde) voor dat kolommen voor `SKU` en `Qty` omvat.
 

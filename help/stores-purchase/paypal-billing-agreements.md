@@ -26,7 +26,7 @@ Om het afhandelingsproces te vereenvoudigen, kunnen klanten een factureringsover
 
 ## Factureringsovereenkomsten beheren
 
-De pagina _[!UICONTROL Billing Agreements]_bevat alle factureringsovereenkomsten tussen uw winkel en zijn klanten. De handelaren kunnen de verslagen door de klant of de informatie van de factureringsovereenkomst met inbegrip van de verwijzings identiteitskaart van de factureringsovereenkomst, status, en aanmaakdatum filtreren. Elk record bevat algemene informatie over de factureringsovereenkomst en alle verkooporders die deze als betalingsmethode hebben gebruikt. U kunt factureringsovereenkomsten van klanten weergeven, annuleren of verwijderen. Een geannuleerde factureringsovereenkomst kan slechts door de archiefbeheerder worden geschrapt.
+De pagina _[!UICONTROL Billing Agreements]_&#x200B;bevat alle factureringsovereenkomsten tussen uw winkel en zijn klanten. De handelaren kunnen de verslagen door de klant of de informatie van de factureringsovereenkomst met inbegrip van de verwijzings identiteitskaart van de factureringsovereenkomst, status, en aanmaakdatum filtreren. Elk record bevat algemene informatie over de factureringsovereenkomst en alle verkooporders die deze als betalingsmethode hebben gebruikt. U kunt factureringsovereenkomsten van klanten weergeven, annuleren of verwijderen. Een geannuleerde factureringsovereenkomst kan slechts door de archiefbeheerder worden geschrapt.
 
 ### Een factureringsovereenkomst weergeven
 
@@ -34,7 +34,7 @@ De pagina _[!UICONTROL Billing Agreements]_bevat alle factureringsovereenkomsten
 
 1. Zoek de factureringsovereenkomst in de lijst en klik om deze te openen.
 
-Elke pagina met factureringsovereenkomsten bestaat uit twee tabbladen: _[!UICONTROL General Information]_en_[!UICONTROL Related Orders]_ .
+Elke pagina met factureringsovereenkomsten bestaat uit twee tabbladen: _[!UICONTROL General Information]_&#x200B;en&#x200B;_[!UICONTROL Related Orders]_ .
 
 #### Algemene informatie
 

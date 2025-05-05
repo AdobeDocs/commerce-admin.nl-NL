@@ -55,6 +55,6 @@ De volgende lijst beschrijft de plaatsen door paginatype waar de blokken typisch
 | [!UICONTROL Product View Extra Hint] | De inhoud wordt weergegeven onder de hoofdprijs van het product. |
 | [!UICONTROL Right Column] | De inhoud wordt onder de rechterkolomblokken weergegeven. |
 | [!UICONTROL Store Language] | De inhoud wordt rechts van de taalkiezer weergegeven. |
-| [!UICONTROL Tags List Before] | De inhoud wordt boven het veld _[!UICONTROL Add Your Tags]_weergegeven. |
+| [!UICONTROL Tags List Before] | De inhoud wordt boven het veld _[!UICONTROL Add Your Tags]_&#x200B;weergegeven. |
 
 {style="table-layout:auto"}

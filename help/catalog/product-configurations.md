@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Configurations]
 
-De sectie _[!UICONTROL Configurations]_bevat een lijst met bestaande variaties van het product en kan worden gebruikt om variaties te genereren voor gebruik met het configureerbare producttype. Voor meer informatie, zie [ Configureerbaar Product ](product-create-configurable.md).
+De sectie _[!UICONTROL Configurations]_&#x200B;bevat een lijst met bestaande variaties van het product en kan worden gebruikt om variaties te genereren voor gebruik met het configureerbare producttype. Voor meer informatie, zie [ Configureerbaar Product ](product-create-configurable.md).
 
 ![ Sectie van Configuraties ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

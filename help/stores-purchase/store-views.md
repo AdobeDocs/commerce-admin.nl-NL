@@ -57,9 +57,9 @@ Als uw Adobe Commerce- of Magento Open Source-installatie meerdere sites of meer
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Klik in de kolom _[!UICONTROL Store View]_van het raster op de naam van de weergave die u wilt bewerken.
+1. Klik in de kolom _[!UICONTROL Store View]_&#x200B;van het raster op de naam van de weergave die u wilt bewerken.
 
-   Wanneer u de standaardweergave bewerkt, zijn de velden _[!UICONTROL Store]_en_[!UICONTROL Status]_ niet beschikbaar.
+   Wanneer u de standaardweergave bewerkt, zijn de velden _[!UICONTROL Store]_&#x200B;en&#x200B;_[!UICONTROL Status]_ niet beschikbaar.
 
    ![ mening van de Opslag - geef standaardmening uit ](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

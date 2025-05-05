@@ -56,7 +56,7 @@ Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerk
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Zoek het belastingtarief in het _[!UICONTROL Tax Zones and Rates]_net, en open het verslag in geef wijze uit.
+1. Zoek het belastingtarief in het _[!UICONTROL Tax Zones and Rates]_&#x200B;net, en open het verslag in geef wijze uit.
 
    Als er vele tarieven in de lijst zijn, gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om het tarief te vinden u wenst.
 

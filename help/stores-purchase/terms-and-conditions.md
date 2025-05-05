@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Voorwaarden voor afhandeling
 
-Wanneer de hand _functionaliteit van de Voorwaarden van 0} wordt toegelaten, worden de klanten vereist om met de voorwaarden van de verkoop in te stemmen alvorens de aankoop wordt gebeëindigd._ De verkoopvoorwaarden omvatten doorgaans informatie die wettelijk vereist is voor B2C- of B2B-sites, en schetst de rechten van de koper en de verkoper. Het bericht van de Voorwaarden verschijnt na de betalingsinformatie, enkel vóór de _knoop van de Orde van de Plaats_.
+Wanneer de hand _functionaliteit van de Voorwaarden van 0&rbrace; wordt toegelaten, worden de klanten vereist om met de voorwaarden van de verkoop in te stemmen alvorens de aankoop wordt gebeëindigd._ De verkoopvoorwaarden omvatten doorgaans informatie die wettelijk vereist is voor B2C- of B2B-sites, en schetst de rechten van de koper en de verkoper. Het bericht van de Voorwaarden verschijnt na de betalingsinformatie, enkel vóór de _knoop van de Orde van de Plaats_.
 
 ![ Termen en Voorwaarden bij controle ](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 

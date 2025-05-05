@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {de Diensten van 0} Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).[
+Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {de Diensten van 0} Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 

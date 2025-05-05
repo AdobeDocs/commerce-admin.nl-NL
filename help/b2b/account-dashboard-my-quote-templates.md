@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes Template]_van het dashboard voor de klantenaccount alle prijsaanhalingstekensjablonen weergegeven die aan de klantenaccount zijn gekoppeld. Afhankelijk van hun machtigingen kunnen alleen kopers die voor rekening van een bedrijf aankopen doen, een prijsopgave aanvragen en prijsopgave en voorwaarden voor terugkerende orders bespreken.
+Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes Template]_&#x200B;van het dashboard voor de klantenaccount alle prijsaanhalingstekensjablonen weergegeven die aan de klantenaccount zijn gekoppeld. Afhankelijk van hun machtigingen kunnen alleen kopers die voor rekening van een bedrijf aankopen doen, een prijsopgave aanvragen en prijsopgave en voorwaarden voor terugkerende orders bespreken.
 
 ![ Mijn Malplaatjes van het Citaat ](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Kopers kunnen de volgende handelingen uitvoeren vanuit een gekoppeld aanhalingst
 
 Klik op **[!UICONTROL Cancel Quote Template]** op de pagina met de aanhalingstekensjabloon.
 
-De aanhalingstekensjabloon wordt geannuleerd en de status van het aanhalingsteken verandert in `Closed` . De gesloten prijsopgave blijft in uw lijst met *[!UICONTROL Inactive]* koersen staan en blijft in het _[!UICONTROL Quote Templates]_raster in de beheerder staan.
+De aanhalingstekensjabloon wordt geannuleerd en de status van het aanhalingsteken verandert in `Closed` . De gesloten prijsopgave blijft in uw lijst met *[!UICONTROL Inactive]* koersen staan en blijft in het _[!UICONTROL Quote Templates]_&#x200B;raster in de beheerder staan.
 
 ## Referentiedocumentkoppelingen beheren
 

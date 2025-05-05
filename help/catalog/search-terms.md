@@ -48,7 +48,7 @@ Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, k
 
    ![ de termen algemene informatie van het Onderzoek ](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Voer onder _[!UICONTROL General Information]_in het vak **[!UICONTROL Search Query]**het woord of de woordgroep in die u als een nieuwe zoekterm wilt toevoegen.
+1. Voer onder _[!UICONTROL General Information]_&#x200B;in het vak **[!UICONTROL Search Query]**&#x200B;het woord of de woordgroep in die u als een nieuwe zoekterm wilt toevoegen.
 
 1. Als uw winkel in meerdere talen beschikbaar is, kiest u de toepasselijke **[!UICONTROL Store]** -weergave.
 
@@ -70,7 +70,7 @@ Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, k
 
 Er zijn twee methoden om een zoekterm te verwijderen: uit het raster en op de bewerkingspagina.
 
-**Methode 1:** in het _[!UICONTROL Search Terms]_net
+**Methode 1:** in het _[!UICONTROL Search Terms]_&#x200B;net
 
 1. Selecteer in de lijst het selectievakje van de term die u wilt verwijderen.
 
@@ -78,7 +78,7 @@ Er zijn twee methoden om een zoekterm te verwijderen: uit het raster en op de be
 
 1. Klik op **[!UICONTROL Submit]** als de bewerking is voltooid.
 
-**Methode 2:** op de _[!UICONTROL Edit a Search Term]_pagina
+**Methode 2:** op de _[!UICONTROL Edit a Search Term]_&#x200B;pagina
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
@@ -106,7 +106,7 @@ Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor opti
 
    ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek ](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.[
+   Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek [&#128279;](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Popular Search Terms]** naar wens in.
 

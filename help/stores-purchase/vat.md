@@ -52,7 +52,7 @@ Het proces om een belastingregel tot stand te brengen begint door een belastingt
 
 1. Voer de **[!UICONTROL Tax Identifier]** in voor de nieuwe belastingklasse.
 
-   Alle belastingtarieven worden getoond op het _1} gebied van het Tarief van de Tarief {in de_ Informatie van de Regel van de Belasting _wanneer u belastingregels creeert._
+   Alle belastingtarieven worden getoond op het _1&rbrace; gebied van het Tarief van de Tarief &lbrace;in de_ Informatie van de Regel van de Belasting _wanneer u belastingregels creeert._
 
 1. Als u het postcodebereik wilt instellen (van / tot), schakelt u het selectievakje **[!UICONTROL Zip/Post is Range]** in.
 
@@ -156,7 +156,7 @@ Commerce gebruikt de volgende [ de configuratiemontages van de Informatie van de
 
 **[!UICONTROL VAT Number]** - Het BTW-nummer dat aan de handelaar wordt toegekend.
 
-**[!UICONTROL Validate VAT Number]** - {de bevestiging van 1} BTW ](#vat-id-validation) bevestigt dat het btw aantal het overeenkomstige verslag in het [ Europese Commissie ](https://ec.europa.eu/taxation_customs/vies/) gegevensbestand aanpast.[
+**[!UICONTROL Validate VAT Number]** - {de bevestiging van 1} BTW [&#128279;](#vat-id-validation) bevestigt dat het btw aantal het overeenkomstige verslag in het [ Europese Commissie ](https://ec.europa.eu/taxation_customs/vies/) gegevensbestand aanpast.
 
 ### Klantgegevens
 
@@ -201,7 +201,7 @@ Als Validering van BTW-identificatienummer is ingeschakeld, wordt na registratie
 
 Nadat een klant het BTW-nummer en andere adresvelden heeft opgegeven en ervoor kiest om op te slaan, slaat het systeem het adres op en verzendt het verzoek tot validatie van het BTW-identificatienummer naar de server van de Europese Commissie. Volgens de resultaten van de validatie wordt een van de standaardgroepen toegewezen aan een klant. Deze groep kan worden gewijzigd als een klant of een beheerder het BTW-identificatienummer van het standaardadres wijzigt of het volledige standaardadres wijzigt. Soms kan de groep tijdelijk worden gewijzigd (groepswijziging wordt geëmuleerd) tijdens het uitchecken van één pagina.
 
-Als deze optie is ingeschakeld, kunt u de BTW-ID-validatie voor individuele klanten overschrijven door het selectievakje op de pagina _[!UICONTROL Customer Information]_in te schakelen.
+Als deze optie is ingeschakeld, kunt u de BTW-ID-validatie voor individuele klanten overschrijven door het selectievakje op de pagina _[!UICONTROL Customer Information]_&#x200B;in te schakelen.
 
 ### Workflow voor uitchecken
 

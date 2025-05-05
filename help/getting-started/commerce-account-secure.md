@@ -68,7 +68,7 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
    Als u geen verificatiecode kunt opgeven wanneer u zich aanmeldt bij uw [!DNL Commerce] -account, moet u een herstelcode gebruiken om de toegang tot uw account te herstellen.
 
-   Elke terugwinningscode kan slechts één keer worden gebruikt, maar u kunt ](#generate-new-recovery-codes) nieuwe degenen [ produceren. Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode kan slechts één keer worden gebruikt, maar u kunt [&#128279;](#generate-new-recovery-codes) nieuwe degenen  produceren. Herstelcodes zijn hoofdlettergevoelig.
 
 1. Schakel het selectievakje voor bevestiging in en selecteer **[!UICONTROL Submit]** om door te gaan.
 
@@ -160,7 +160,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
    Als u geen verificatiecode kunt opgeven om u aan te melden bij uw [!DNL Commerce] -account, kunt u alleen met een herstelcode toegang krijgen tot uw account.
 
-   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt ](#generate-new-recovery-codes) nieuwe degenen altijd produceren [. Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [&#128279;](#generate-new-recovery-codes) nieuwe degenen altijd produceren . Herstelcodes zijn hoofdlettergevoelig.
 
    ![ de terugwinningscodes van de Mening ](./assets/2fa-view-recovery.png){width="400"}
 
@@ -246,7 +246,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
    Als u geen verificatiecode kunt opgeven wanneer u zich aanmeldt bij uw [!DNL Commerce] -account, kunt u de toegang tot uw account alleen herstellen met behulp van een herstelcode.
 
-   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt ](#generate-new-recovery-codes) nieuwe degenen altijd produceren [. Herstelcodes zijn hoofdlettergevoelig. Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [&#128279;](#generate-new-recovery-codes) nieuwe degenen altijd produceren . Herstelcodes zijn hoofdlettergevoelig. Herstelcodes zijn hoofdlettergevoelig.
 
 1. Schakel het selectievakje in om te bevestigen en selecteer **[!UICONTROL Submit]** om door te gaan.
 

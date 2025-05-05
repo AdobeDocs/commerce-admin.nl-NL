@@ -46,7 +46,7 @@ Voor een geslaagde integratie moeten alle Adobe Commerce-gebruikers beschikken o
 
 ## De integratie configureren
 
-Nadat de volgende stappen zijn uitgevoerd door een beheerder of ontwikkelaar met systeemtoegang, wordt de knop _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_weergegeven op de aanmeldingspagina voor Commerce Admin voor alle Admin-gebruikers.
+Nadat de volgende stappen zijn uitgevoerd door een beheerder of ontwikkelaar met systeemtoegang, wordt de knop _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;weergegeven op de aanmeldingspagina voor Commerce Admin voor alle Admin-gebruikers.
 
 ### Stap 1: Adobe-organisatie-id ophalen
 

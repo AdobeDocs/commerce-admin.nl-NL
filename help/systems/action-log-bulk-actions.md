@@ -40,4 +40,4 @@ Het bulkactielogboek registreert de details van asynchrone massaverrichtingen di
 
 1. Zoek de gewenste actie in het logboek.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Details]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL Details]**.

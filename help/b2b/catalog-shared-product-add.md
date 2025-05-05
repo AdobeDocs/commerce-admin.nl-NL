@@ -26,9 +26,9 @@ Een complex product (zoals bundel, gegroepeerd of configureerbaar) kan alleen zi
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Ga voor het product in het raster dat u wilt toevoegen naar de kolom _[!UICONTROL Action]_en klik op **[!UICONTROL Edit]**.
+1. Ga voor het product in het raster dat u wilt toevoegen naar de kolom _[!UICONTROL Action]_&#x200B;en klik op **[!UICONTROL Edit]**.
 
-1. De rol neer, breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product in Shared Catalogs]_sectie uit, en doet het volgende:
+1. De rol neer, breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product in Shared Catalogs]_&#x200B;sectie uit, en doet het volgende:
 
    - Schakel het selectievakje in van elke gedeelde catalogus waarin het product moet worden weergegeven. Klik op **[!UICONTROL Select all]** om alle catalogi te kiezen.
 
@@ -46,7 +46,7 @@ Een complex product (zoals bundel, gegroepeerd of configureerbaar) kan alleen zi
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Ga voor de gedeelde catalogus in het raster naar de kolom _[!UICONTROL Action]_en selecteer **[!UICONTROL Set Pricing and Structure]**.
+1. Ga voor de gedeelde catalogus in het raster naar de kolom _[!UICONTROL Action]_&#x200B;en selecteer **[!UICONTROL Set Pricing and Structure]**.
 
 1. Voer in de categoriestructuur een van de volgende handelingen uit:
 

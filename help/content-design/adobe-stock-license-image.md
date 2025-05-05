@@ -20,7 +20,7 @@ De nieuwe [[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie 
 
 **Eerste vereisten**
 
-De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als de [ Integratie van Adobe Stock ](./adobe-stock.md) geïnstalleerd en gevormd is. Het verlenen van vergunningen ][adobe-stock] beelden van Adobe Stock [ vereist een betaald plan van Adobe Stock en een [ rekening van de Adobe ][adobe-signin].
+De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als de [ Integratie van Adobe Stock ](./adobe-stock.md) geïnstalleerd en gevormd is. Het verlenen van vergunningen &rbrack;[adobe-stock] beelden van Adobe Stock &lbrack; vereist een betaald plan van Adobe Stock en een [ rekening van de Adobe ][adobe-signin].
 
 >[!ENDSHADEBOX]
 

@@ -117,7 +117,7 @@ Voor meer informatie over het gebruiken van [!UICONTROL PayPal Settlement Report
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Het ](../stores-purchase/braintree.md) Rapport van de Afwikkeling van de Braintree [ kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
+Het [&#128279;](../stores-purchase/braintree.md) Rapport van de Afwikkeling van de Braintree  kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 

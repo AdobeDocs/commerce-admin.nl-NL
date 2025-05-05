@@ -22,7 +22,7 @@ Als de productprijs ook belasting bevat, wordt de belasting alleen weergegeven a
 
 ![ de Montages van de Vertoning van de Prijs ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Montages van de Vertoning van de 0} Prijs ](../configuration-reference/sales/tax.md#price-display-settings) in de _Gids van de Verwijzing van de Configuratie_.[
+Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Montages van de Vertoning van de 0} Prijs [&#128279;](../configuration-reference/sales/tax.md#price-display-settings) in de _Gids van de Verwijzing van de Configuratie_.
 
 ## Prijsweergave-instellingen configureren
 

@@ -20,7 +20,7 @@ Klanten die hun adresboeken actueel houden, kunnen het afrekenen versnellen. Het
 
 1. In de linkernavigatie van hun klantenrekening, kiest de klant **[!UICONTROL Address Book]**.
 
-1. Voor de _[!UICONTROL Address Book]_pagina onder_ Extra Ingangen van het Adres _, klikt **[!UICONTROL Add New Address]**.
+1. Voor de _[!UICONTROL Address Book]_&#x200B;pagina onder_ Extra Ingangen van het Adres _, klikt **[!UICONTROL Add New Address]**.
 
    ![ voeg Nieuw Adres ](assets/add-new-address.png){width="600" zoomable="yes"} toe
 

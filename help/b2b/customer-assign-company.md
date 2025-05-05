@@ -59,13 +59,13 @@ Wanneer u een bedrijfgebruiker toevoegt, is het eerste bedrijf u met de gebruike
 
 In [!UICONTROL Customers grid] wordt een aparte rij weergegeven voor elk bedrijf waaraan de gebruiker is toegewezen. De volgende kolommen worden bijgewerkt.
 
-- De kolom _[!UICONTROL Customer Type]_wordt bijgewerkt om de rol te tonen die aan de gebruiker wordt toegewezen.
+- De kolom _[!UICONTROL Customer Type]_&#x200B;wordt bijgewerkt om de rol te tonen die aan de gebruiker wordt toegewezen.
 
-  Als dit de eerste keer is dat de klant aan een bedrijf is toegewezen, wordt de kolom _[!UICONTROL Customer Type]_bijgewerkt van_[!UICONTROL Individual user]_ tot _[!UICONTROL Company User]_.
+  Als dit de eerste keer is dat de klant aan een bedrijf is toegewezen, wordt de kolom _[!UICONTROL Customer Type]_&#x200B;bijgewerkt van&#x200B;_[!UICONTROL Individual user]_ tot _[!UICONTROL Company User]_.
 
-- De kolom _[!UICONTROL Group]_verandert in de naam van de klantengroep (of gedeelde catalogus) die aan het bedrijf wordt toegewezen.
+- De kolom _[!UICONTROL Group]_&#x200B;verandert in de naam van de klantengroep (of gedeelde catalogus) die aan het bedrijf wordt toegewezen.
 
-- In de kolom _[!UICONTROL Company]_wordt de naam weergegeven van het bedrijf waaraan het klantprofiel nu is gekoppeld.
+- In de kolom _[!UICONTROL Company]_&#x200B;wordt de naam weergegeven van het bedrijf waaraan het klantprofiel nu is gekoppeld.
 
 ## Een gebruiker toewijzen aan een of meer bedrijfsaccounts
 
@@ -83,7 +83,7 @@ Wanneer u een nieuwe gebruiker toewijst, is het eerste bedrijf u met de gebruike
 
 ## De bedrijfstoewijzing van een gebruikersaccount verwijderen
 
-Als u een bedrijf uit een gebruikersprofiel verwijdert, wordt de gebruikerstoegang tot dat bedrijf ingetrokken. Gebruikersgegevens blijven beschikbaar in de Admin. Als u alle bedrijfstoewijzingen verwijdert, verandert _[!UICONTROL Customer Type]_in *[!UICONTROL Individual user]*het uitschakelen van B2B-mogelijkheden voor de account.
+Als u een bedrijf uit een gebruikersprofiel verwijdert, wordt de gebruikerstoegang tot dat bedrijf ingetrokken. Gebruikersgegevens blijven beschikbaar in de Admin. Als u alle bedrijfstoewijzingen verwijdert, verandert _[!UICONTROL Customer Type]_&#x200B;in *[!UICONTROL Individual user]*&#x200B;het uitschakelen van B2B-mogelijkheden voor de account.
 
 1. Bewerk het klantprofiel dat u wilt bijwerken via het raster van de klant in de beheerder.
 

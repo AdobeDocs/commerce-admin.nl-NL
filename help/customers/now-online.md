@@ -1,6 +1,6 @@
 ---
 title: Klanten zijn nu online
-description: De _Now Online_ optie op het [!UICONTROL Customers ] menu maakt een lijst van alle klanten en bezoekers die momenteel online in uw opslag zijn.
+description: De _Now Online_ optie op het [!UICONTROL Customers &#x200B;] menu maakt een lijst van alle klanten en bezoekers die momenteel online in uw opslag zijn.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt

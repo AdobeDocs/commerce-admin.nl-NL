@@ -51,7 +51,7 @@ De verbinding kan worden gevormd om het aantal verschillende producten (of SKUs)
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Mini Cart]_sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Mini Cart]_&#x200B;sectie uit.
 
    ![ Vormend de minikaart ](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -321,7 +321,7 @@ De geschenkompafbeelding moet een staal zijn met het herhalende patroon en kan o
 
 1. Als u een miniatuur **[!UICONTROL Image]** van de cadeauverpakking wilt uploaden, klikt u op **[!UICONTROL Choose File]** en selecteert u het bestand dat u wilt uploaden in de map.
 
-   Er wordt een miniatuur van de afbeelding weergegeven in de _[!UICONTROL Gift Wrapping Information]_nadat de record is opgeslagen.
+   Er wordt een miniatuur van de afbeelding weergegeven in de _[!UICONTROL Gift Wrapping Information]_&#x200B;nadat de record is opgeslagen.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -341,7 +341,7 @@ De geschenkompafbeelding moet een staal zijn met het herhalende patroon en kan o
 
 #### Indelingsontwerpen voor cadeaus verwijderen
 
-Met het _open net van de Wrapping van het Cadeautje_ {, gebruik één van deze methodes om omslagontwerpen te schrappen.
+Met het _open net van de Wrapping van het Cadeautje_ &lbrace;, gebruik één van deze methodes om omslagontwerpen te schrappen.
 
 **_Methode 1: Schrap één enkel ontwerp van de geschenkomslag_**
 

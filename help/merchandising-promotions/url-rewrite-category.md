@@ -45,7 +45,7 @@ Omleiden vanaf: `gear/bags.html`
 
    - Klik in de rechterbovenhoek op **[!UICONTROL Delete]** . Klik op **[!UICONTROL OK]** om te bevestigen wanneer hierom wordt gevraagd.
 
-1. Wanneer u terugkeert naar de _[!UICONTROL URL Rewrites]_pagina, klikt u op **[!UICONTROL Add URL Rewrite]**.
+1. Wanneer u terugkeert naar de _[!UICONTROL URL Rewrites]_&#x200B;pagina, klikt u op **[!UICONTROL Add URL Rewrite]**.
 
 1. Stel **[!UICONTROL Create URL Rewrite]** in op `For category` en kies de doelcategorie in de boomstructuur die het doel van de omleiding is.
 

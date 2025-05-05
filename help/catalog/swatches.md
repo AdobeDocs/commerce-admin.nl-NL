@@ -20,7 +20,7 @@ Voor [ configureerbare producten ](product-create-configurable.md), kan de kleur
 
 >[!NOTE]
 >
->Staalkenmerken kunnen worden geconfigureerd om geen overeenkomende eenvoudige productafbeeldingen weer te geven wanneer het staal wordt geselecteerd door de optiewaarde _[!UICONTROL Update Product Preview Image]_in te stellen op `No` op de pagina [!UICONTROL Attribute Edit] in Admin.
+>Staalkenmerken kunnen worden geconfigureerd om geen overeenkomende eenvoudige productafbeeldingen weer te geven wanneer het staal wordt geselecteerd door de optiewaarde _[!UICONTROL Update Product Preview Image]_&#x200B;in te stellen op `No` op de pagina [!UICONTROL Attribute Edit] in Admin.
 
 ## Op tekst gebaseerde stalen
 
@@ -30,7 +30,7 @@ Als een afbeelding niet beschikbaar is voor een staal, wordt de kenmerkwaarde we
 
 ## Stalen in gelaagde navigatie
 
-Stalen kunnen ook worden gebruikt in gelaagde navigatie als de eigenschap _[!UICONTROL Use in Layered Navigation]_van het kenmerk color is ingesteld op `Yes` . In het volgende voorbeeld ziet u zowel tekststalen als kleurafbeeldingsstalen in gelaagde navigatie.
+Stalen kunnen ook worden gebruikt in gelaagde navigatie als de eigenschap _[!UICONTROL Use in Layered Navigation]_&#x200B;van het kenmerk color is ingesteld op `Yes` . In het volgende voorbeeld ziet u zowel tekststalen als kleurafbeeldingsstalen in gelaagde navigatie.
 
 ![ Monsters in getoond in gelaagde navigatie ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
 1. Stel **[!UICONTROL Update Product Preview Image]** in op `No` als u liever geen overeenkomende eenvoudige productafbeeldingen wilt weergeven wanneer het staal op de productweergavepagina is geselecteerd.
 
-1. Klik onder _[!UICONTROL Manage Swatch (Values of Your Attribute)]_op **[!UICONTROL Add Swatch]**en voer de volgende handelingen uit:
+1. Klik onder _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;op **[!UICONTROL Add Swatch]**&#x200B;en voer de volgende handelingen uit:
 
    ![ beheer de Waarden van het Monster ](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
 1. Stel **[!UICONTROL Update Product Preview Image]** in op `No` als u liever geen overeenkomende eenvoudige productafbeeldingen wilt weergeven wanneer het staal op de productweergavepagina is geselecteerd.
 
-1. Klik onder _[!UICONTROL Manage Swatch]_(waarden van het kenmerk) op **[!UICONTROL Add Swatch]**en voer de volgende handelingen uit:
+1. Klik onder _[!UICONTROL Manage Swatch]_(waarden van het kenmerk) op **[!UICONTROL Add Swatch]**&#x200B;en voer de volgende handelingen uit:
 
-   - Klik in de kolom _[!UICONTROL Swatch]_op het nieuwe staal om het menu weer te geven en kies **[!UICONTROL Upload a file]**.
+   - Klik in de kolom _[!UICONTROL Swatch]_&#x200B;op het nieuwe staal om het menu weer te geven en kies **[!UICONTROL Upload a file]**.
 
    - Navigeer naar het staalbestand dat u hebt voorbereid en kies het bestand dat u wilt uploaden.
 

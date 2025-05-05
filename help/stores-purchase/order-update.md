@@ -28,7 +28,7 @@ Als u wezenlijke delen van een orde wijzigt, wordt de originele orde geannuleerd
 | **[!UICONTROL Login as Customer]** | Staat een admin gebruiker toe om klanten met hun orden bij te staan. |
 | **[!UICONTROL Cancel]** | Annuleert de in behandeling zijnde bestelling. |
 | **[!UICONTROL Send Email]** | Stuur een e-mail over de bestelling die in behandeling is naar de klant. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Wijzigt de status van de in behandeling zijnde bestelling in `On Hold` . Kies _[!UICONTROL Unhold]_als u de muisknop wilt loslaten. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Wijzigt de status van de in behandeling zijnde bestelling in `On Hold` . Kies _[!UICONTROL Unhold]_&#x200B;als u de muisknop wilt loslaten. |
 | **[!UICONTROL Invoice]** | Creeert een [ factuur ](invoices.md#create-an-invoice) van de hangende orde door de orde in een factuur om te zetten, en verandert de ordestatus in `processing`. |
 | **[!UICONTROL Ship]** | Creeert a [ lading ](shipments.md#create-a-shipment) verslag voor de orde. |
 | **[!UICONTROL Reorder]** | Hiermee maakt u een nieuwe volgorde in behandeling die een duplicaat is van de huidige volgorde in behandeling. |
@@ -59,7 +59,7 @@ U kunt een bestelling van `Processing` niet ingrijpend wijzigen, maar u kunt wel
 | **[!UICONTROL Send Email]** | Stuur een e-mail over de bestelling naar de klant. |
 | **[!UICONTROL Void]** | [ Voids ](#void-a-processing-order) een ordetransactie, of een gedeeltelijke ordetransactie. |
 | **[!UICONTROL Credit Memo]** | Initieert het proces om a [ creditnota ](credit-memo-create.md) tot stand te brengen. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Hiermee wijzigt u de status van de verkooporder in `On Hold` . Kies _[!UICONTROL Unhold]_om de greep op de verkooporder vrij te geven. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Hiermee wijzigt u de status van de verkooporder in `On Hold` . Kies _[!UICONTROL Unhold]_&#x200B;om de greep op de verkooporder vrij te geven. |
 | **[!UICONTROL Reorder]** | Hiermee maakt u een nieuwe volgorde in behandeling op basis van de huidige volgorde. |
 | **[!UICONTROL Create Returns]** | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) initieert het proces aan [ terugkeer ](returns.md) één of meerdere punten van de orde. |
 
@@ -121,7 +121,7 @@ Als u een bestelling annuleert, wordt de status van de bestelling gewijzigd van 
 
 1. Zoek in het _[!UICONTROL Orders]_-raster naar de volgorde die in behandeling is en die moet worden geannuleerd.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL View]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL View]**.
 
 1. Klik op **[!UICONTROL Cancel]** om de bestelling te annuleren.
 

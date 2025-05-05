@@ -26,7 +26,7 @@ De configuratie van de cadeaukaart bepaalt de standaardinstellingen voor alle ca
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Gift Cards]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Email Settings]_sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Email Settings]_&#x200B;sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Gift Card Notification Email Sender]** in op de winkelidentiteit die wordt weergegeven als de verzender van kaartmeldingen.
 
@@ -34,7 +34,7 @@ De configuratie van de cadeaukaart bepaalt de standaardinstellingen voor alle ca
 
    ![ E-mailmontages van de Kaart van het Cadeautje ](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Email Sent from Gift Card Account Management]_sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Gift Card Email Sender]** in op de winkelidentiteit zodat deze wordt weergegeven als de afzender van de cadeaukaarten.
 
@@ -44,7 +44,7 @@ Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-em
 
 ### Stap 2: De algemene instellingen voltooien
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card General Settings]_sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card General Settings]_&#x200B;sectie uit.
 
 1. Stel **[!UICONTROL Redeemable]** in op `Yes` om de klant in staat te stellen de waarde op de kaart in te wisselen voor contanten.
 
@@ -67,7 +67,7 @@ Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-em
 
 ### Stap 3: Bepaal de groep van de cadeaukaartcode
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Account General Settings]_sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Gift Card Account General Settings]_&#x200B;sectie uit en doe het volgende:
 
    ![ de Algemene Montages van de Rekening van de Kaart van het Cadeautje ](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -99,7 +99,7 @@ Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-em
 
    - Schuif omlaag naar de sectie _[!UICONTROL Items Ordered]_.
 
-   Het getal staat in de kolom _[!UICONTROL Product]_onder **[!UICONTROL Gift Card Accounts]**.
+   Het getal staat in de kolom _[!UICONTROL Product]_&#x200B;onder **[!UICONTROL Gift Card Accounts]**.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
@@ -115,7 +115,7 @@ Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-em
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Gift Card Account]** .
 
-1. Stel in de sectie _[!UICONTROL Information]_**[!UICONTROL Active]**in op `Yes` en voer de volgende handelingen uit:
+1. Stel in de sectie _[!UICONTROL Information]_&#x200B;**[!UICONTROL Active]**&#x200B;in op `Yes` en voer de volgende handelingen uit:
 
    - Als u het saldo van de kaart bij het uitchecken wilt aflossen of wilt overdragen naar het winkelkrediet van de klant, stelt u **[!UICONTROL Redeemable]** in op `Yes` .
 
@@ -123,7 +123,7 @@ Zie [ E-mailadressen van de Opslag ](../configuration-reference/general/store-em
 
    - Voer het initiaal **[!UICONTROL Balance]** in op de cadeaukaart.
 
-   - _(Facultatief)_ om een **[!UICONTROL Expiration Date]** voor de geschenkkaart te plaatsen, selecteer de datum van het kalender{](../assets/icon-calendar.png) pictogram 3} van de Kalender.![
+   - _(Facultatief)_ om een **[!UICONTROL Expiration Date]** voor de geschenkkaart te plaatsen, selecteer de datum van het kalender{![&#128279;](../assets/icon-calendar.png) pictogram 3} van de Kalender.
 
      Als deze optie leeg blijft, verloopt de rekening van de cadeaukaart niet.
 

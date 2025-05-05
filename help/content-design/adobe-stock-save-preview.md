@@ -18,7 +18,7 @@ Als u een licentie voor een afbeelding wilt maken, biedt de nieuwe [[!DNL Media 
 
 ## Vereisten
 
-Deze eigenschap vereist de ](./adobe-stock.md) module en de configuratie van de Integratie van 0} Adobe Stock.[
+Deze eigenschap vereist de [&#128279;](./adobe-stock.md) module en de configuratie van de Integratie van 0&rbrace; Adobe Stock.
 
 ## Een voorvertoningsafbeelding opslaan
 

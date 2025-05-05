@@ -114,7 +114,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Als u wilt dat de categoriepagina de sectie _`Filter by Attribute`_van gelaagde navigatie bevat, stelt u **[!UICONTROL Anchor]**in op `Yes` .
+1. Als u wilt dat de categoriepagina de sectie _`Filter by Attribute`_van gelaagde navigatie bevat, stelt u **[!UICONTROL Anchor]**&#x200B;in op `Yes` .
 
 1. Selecteer voor de opties van **[!UICONTROL Available Product Listing Sort By]** een of meer van de beschikbare waarden die beschikbaar zijn voor klanten om de lijst te sorteren. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
@@ -208,7 +208,7 @@ Definieer ook de bijbehorende trefwoorden en kenmerken, zoals:
 
 1. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) om de ontwerpupdate voor een specifieke tijdspanne te plannen, doe het volgende:
 
-   - Vouw de sectie _[!UICONTROL Schedule Design Update]_uit.
+   - Vouw de sectie _[!UICONTROL Schedule Design Update]_&#x200B;uit.
 
    - Gebruik de kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de Update van het Programma **[!UICONTROL from]** en **[!UICONTROL to]** data te kiezen.
 

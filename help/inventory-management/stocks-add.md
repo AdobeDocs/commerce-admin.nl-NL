@@ -57,7 +57,7 @@ Nadat u bronnen hebt toegevoegd, moet u de volgorde voor de bronnen van boven (e
 
      ![ wijs Bronnen aan Voorraad ](assets/inventory-assign-sources.png){width="600" zoomable="yes"} toe
 
-1. Het pictogram van de Soort van het gebruik ](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.![
+1. Het pictogram van de Soort van het gebruik ![&#128279;](assets/icon-sort.png) om de bronnen in een prioriteit van bovenkant (eerst) aan bodem (laatste) te slepen en te laten vallen.
 
    De bronvolgorde is belangrijk bij verzendopdrachten.
 

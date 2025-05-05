@@ -77,11 +77,11 @@ De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocodi
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_sectie uit en reeks **[!UICONTROL Provider]**aan `Google MAP`.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit en reeks **[!UICONTROL Provider]**&#x200B;aan `Google MAP`.
 
    ![ Leveranciers voor Op afstand-Gebaseerde SSA ](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Google Distance Provider]_sectie uit en vorm de montages:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Google Distance Provider]_&#x200B;sectie uit en vorm de montages:
 
    - Voer bij **[!UICONTROL Google API Key]** de gekopieerde sleutel in van uw Google-account.
 
@@ -128,7 +128,7 @@ Vul deze opdrachten altijd in als u meer geocodes wilt toevoegen.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit.
 
 1. Schakel het selectievakje **[!UICONTROL Use system value]** uit en stel **[!UICONTROL Provider]** in op `Offline Calculation` .
 

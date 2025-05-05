@@ -72,4 +72,4 @@ Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-t
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-   Wanneer ertoe aangezet, klik de ](../systems/cache-management.md) verbinding van het Beheer van het Geheime voorgeheugen [ in het bericht bij de bovenkant van de werkruimte en ontruim alle ongeldige geheime voorgeheugens.
+   Wanneer ertoe aangezet, klik de [&#128279;](../systems/cache-management.md) verbinding van het Beheer van het Geheime voorgeheugen  in het bericht bij de bovenkant van de werkruimte en ontruim alle ongeldige geheime voorgeheugens.

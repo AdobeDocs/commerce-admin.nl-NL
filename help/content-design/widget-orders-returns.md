@@ -57,7 +57,7 @@ De _orden en Keert_ widget terug geeft gasten de capaciteit om de status van hun
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**en voer de volgende handelingen uit:
+1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**&#x200B;en voer de volgende handelingen uit:
 
    - Stel **[!UICONTROL Display On]** in op het paginatype waar u de widget wilt weergeven.
 

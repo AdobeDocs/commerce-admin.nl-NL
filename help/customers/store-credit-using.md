@@ -26,7 +26,7 @@ Winkelbeheerders kunnen het creditsaldo en de geschiedenis van de rekening van d
 
 1. In de _kolom van de Actie_, klik **[!UICONTROL Edit]**.
 
-1. Schuif _[!UICONTROL Customer View]_naar de pagina en bekijk de **[!UICONTROL Store Credit Balance]**onderaan.
+1. Schuif _[!UICONTROL Customer View]_&#x200B;naar de pagina en bekijk de **[!UICONTROL Store Credit Balance]**&#x200B;onderaan.
 
 ![ Saldo van de Krediet van de Opslag ](assets/store-credit-balance.png){width="600" zoomable="yes"}
 

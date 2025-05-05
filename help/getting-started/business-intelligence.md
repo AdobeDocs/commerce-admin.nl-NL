@@ -51,7 +51,7 @@ Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documen
 
 ### Stap 1: Inschakelen [!DNL Advanced Reporting]
 
-In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) wordt toegelaten door gebrek, en begint automatisch als de kruin [ ](../configuration-reference/advanced/system.md) wordt gevormd en loopt. Een poging om het abonnement te vestigen wordt begonnen aan het begin van elk uur over de volgende 24 uur tot succesvol. De status van het abonnement is in behandeling totdat het abonnement is ingesteld.
+In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) wordt toegelaten door gebrek, en begint automatisch als de kruin [&#128279;](../configuration-reference/advanced/system.md) wordt gevormd en loopt. Een poging om het abonnement te vestigen wordt begonnen aan het begin van elk uur over de volgende 24 uur tot succesvol. De status van het abonnement is in behandeling totdat het abonnement is ingesteld.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -54,6 +54,6 @@ Alvorens deviezentarieven in te voeren, voltooi de [ opstelling van het munttari
 
 1. Om de valuta te specificeren die u goedkeurt en de de invoerverbinding en programma vestigt, voltooi de [ Opstelling van het Tarief van de Valuta ](currency-configuration.md).
 
-1. Controleer de lijst met _[!UICONTROL Currency Rates]_om te controleren of de tarieven volgens schema worden geïmporteerd.
+1. Controleer de lijst met _[!UICONTROL Currency Rates]_&#x200B;om te controleren of de tarieven volgens schema worden geïmporteerd.
 
 1. Wacht op de periode van de frequentie die voor het schema wordt bepaald en controleer opnieuw de tarieven.

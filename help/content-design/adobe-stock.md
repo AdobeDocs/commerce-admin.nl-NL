@@ -28,7 +28,7 @@ Deze integratie vereist:
 Voor licenties voor Adobe Stock-afbeeldingen is het volgende vereist:
 
 - Een [ rekening van de Adobe ][adobe-signin]
-- Een betaald ][adobe-stock] plan van Adobe Stock [ verbonden aan de rekening
+- Een betaald &rbrack;[adobe-stock] plan van Adobe Stock &lbrack; verbonden aan de rekening
 
 ## Integreer [!DNL Commerce] en Adobe Stock
 
@@ -41,9 +41,9 @@ Het configureren van de Adobe Stock-integratie voor Adobe Commerce bestaat uit t
 
 1. Navigeer aan [ Adobe Developer Console ][dev-console].
 
-1. Klik onder _[!UICONTROL Quick Start]_op **[!UICONTROL Create new project]**.
+1. Klik onder _[!UICONTROL Quick Start]_&#x200B;op **[!UICONTROL Create new project]**.
 
-1. Klik in het blok _[!UICONTROL Project overview]_op **[!UICONTROL Add API]**.
+1. Klik in het blok _[!UICONTROL Project overview]_&#x200B;op **[!UICONTROL Add API]**.
 
 1. Selecteer **[!UICONTROL Adobe Stock]** in de lijst Integraties en klik op **[!UICONTROL Next]** .
 

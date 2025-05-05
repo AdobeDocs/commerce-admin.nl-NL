@@ -19,7 +19,7 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Vind het klantenverslag en klik [!UICONTROL **uitgeven**] in de _[!UICONTROL Action]_kolom.
+1. Vind het klantenverslag en klik [!UICONTROL **uitgeven**] in de _[!UICONTROL Action]_&#x200B;kolom.
 
 1. Kies in het linkerdeelvenster de informatie die u wilt bewerken en breng de benodigde wijzigingen aan.
 
@@ -59,7 +59,7 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 | **[!UICONTROL Web Site]** | De website in de opslaghiërarchie waaraan het klantenaccount is gekoppeld. |
 | **[!UICONTROL Confirmed Email]** | Hiermee geeft u aan of een bevestigingsbericht vereist is. |
 | **[!UICONTROL Account Created In]** | Geeft de winkelweergave aan waaruit de klantenaccount is gemaakt. |
-| **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. <br><br>**_Belangrijk:_**in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
+| **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. <br><br>**_Belangrijk:_**&#x200B;in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
 | **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingaantal of [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan de klant wordt toegewezen. <br/><br/> Dit gebied is niet het zelfde als het Aantal van de BTW. |
 | **[!UICONTROL Gender]** | Het geslacht van de klant. |
 | **[!UICONTROL Action]** | Bewerken - Opent het bedrijfsaccount in de bewerkingsmodus. |

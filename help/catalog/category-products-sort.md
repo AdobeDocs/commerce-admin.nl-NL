@@ -28,7 +28,7 @@ U kunt opstelling afzonderlijk de categorieopties voor elke [ opslagmening ](../
 
 1. Kies zo nodig de **[!UICONTROL Store View]** waar de instellingen van toepassing zijn.
 
-   Voor een installatie in meerdere opslagruimten past de instelling _[!UICONTROL Store View]_de sorteervolgorde toe op alle beschikbare weergaven in de winkel.
+   Voor een installatie in meerdere opslagruimten past de instelling _[!UICONTROL Store View]_&#x200B;de sorteervolgorde toe op alle beschikbare weergaven in de winkel.
 
 1. Kies in de categoriestructuur aan de linkerkant de categorie die u wilt bewerken.
 
@@ -40,7 +40,7 @@ U kunt opstelling afzonderlijk de categorieopties voor elke [ opslagmening ](../
 >
 >Wanneer u een categorie sorteert op een productkenmerk, worden producten met dezelfde kenmerkwaarden ook in oplopende volgorde gesorteerd op _[!UICONTROL Product ID]_.
 
-In de _[!UICONTROL Products in Category]_sectie, klik de tegels ( ![ de tegels van de Mening ](../assets/icon-view-tiles.png)) pictogram om de producttegels in een net te tonen. Gebruik de handmatige of automatische methode om de producten te sorteren.
+In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![ de tegels van de Mening ](../assets/icon-view-tiles.png)) pictogram om de producttegels in een net te tonen. Gebruik de handmatige of automatische methode om de producten te sorteren.
 
 ![ de tegels van het Product ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 

@@ -27,7 +27,7 @@ Velden met betrekking tot de begindatum en einddatum zijn uit Adobe Commerce ver
 
 Alle geplande updates worden opeenvolgend toegepast, wat betekent dat elke entiteit slechts één geplande update tegelijk kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende objecten, wordt een corresponderende campagne gemaakt als tijdelijke aanduiding en wordt het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina weergegeven. De plaatsaanduidingscampagne heeft een begindatum, maar geen einddatum. U kunt updates van de inhoud plannen als deel van een campagne, en dan voorproef en de veranderingen door datum, tijd, of opslagmening delen. Nadat een nieuwe campagne voor één voorwerp wordt gecreeerd, kunt u het als geplande update voor andere voorwerpen toewijzen.
+Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende objecten, wordt een corresponderende campagne gemaakt als tijdelijke aanduiding en wordt het vak _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina weergegeven. De plaatsaanduidingscampagne heeft een begindatum, maar geen einddatum. U kunt updates van de inhoud plannen als deel van een campagne, en dan voorproef en de veranderingen door datum, tijd, of opslagmening delen. Nadat een nieuwe campagne voor één voorwerp wordt gecreeerd, kunt u het als geplande update voor andere voorwerpen toewijzen.
 
 - [Producten](../catalog/product-scheduled-changes.md)
 - [Categorieën](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 
 1. **creeer de basislijninhoud**
 
-   De basislijn is de inhoud van een element zonder campagne en bevat alles onder de sectie _[!UICONTROL Scheduled Changes]_boven aan de pagina. De basislijninhoud wordt altijd gebruikt, tenzij er een actieve campagne is met veranderingen die voor die plaats op de chronologie worden gepland.
+   De basislijn is de inhoud van een element zonder campagne en bevat alles onder de sectie _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina. De basislijninhoud wordt altijd gebruikt, tenzij er een actieve campagne is met veranderingen die voor die plaats op de chronologie worden gepland.
 
 1. **creeer de eerste campagne**
 

@@ -20,7 +20,7 @@ Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en Pa
 
 >[!NOTE]
 >
->Als u een upgrade uitvoert naar 2.4.x vanuit een eerdere versie van Adobe Commerce of Magento Open Source waarop de Braintree-extensie van Commerce Marketplace is geïnstalleerd, raadpleegt u de opmerkingen bij](#24-upgrade-notes) de [2.4-upgrade aan het einde van deze pagina.
+>Als u een upgrade uitvoert naar 2.4.x vanuit een eerdere versie van Adobe Commerce of Magento Open Source waarop de Braintree-extensie van Commerce Marketplace is geïnstalleerd, raadpleegt u de opmerkingen bij[&#128279;](#24-upgrade-notes) de 2.4-upgrade aan het einde van deze pagina.
 
 
 ## Stap 1: Verkrijg uw Braintree-inloggegevens
@@ -35,7 +35,7 @@ Ga naar [Braintree Payments][1] en meld je aan voor een account.
 
    - Als uw Commerce-installatie meerdere websites, winkels of weergaven heeft, kiest u in de linkerbovenhoek de **[!UICONTROL Store View]** waar de configuratie van toepassing is.
 
-   - Controleer in de sectie _[!UICONTROL Merchant Location]_of **[!UICONTROL Merchant Country]**is ingesteld op de locatie van uw bedrijf.
+   - Controleer in de sectie _[!UICONTROL Merchant Location]_&#x200B;of **[!UICONTROL Merchant Country]**&#x200B;is ingesteld op de locatie van uw bedrijf.
 
 1. Onder _[!UICONTROL Recommended Solutions]_, in_[!UICONTROL Braintree Payments] (door [ GENE Commerce ](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [ de Nota&#39;s van de Versie ](https://support.gene.co.uk/support/solutions/articles/35000278668) _sectie, klik **[!UICONTROL Configure]**.
 
@@ -132,7 +132,7 @@ Ga naar [Braintree Payments][1] en meld je aan voor een account.
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
    ![ Land-Specifieke Montages ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png)
 
@@ -251,7 +251,7 @@ Ga naar [Braintree Payments][1] en meld je aan voor een account.
 
      >[!NOTE]
      >
-     >PayPal-krediet is alleen beschikbaar in de Verenigde Staten en het Verenigd Koninkrijk. PayPal-krediet is uitgeschakeld als de geselecteerde waarde voor het veld _[!UICONTROL Merchant Country]_niet `US` of `UK` is.
+     >PayPal-krediet is alleen beschikbaar in de Verenigde Staten en het Verenigd Koninkrijk. PayPal-krediet is uitgeschakeld als de geselecteerde waarde voor het veld _[!UICONTROL Merchant Country]_&#x200B;niet `US` of `UK` is.
 
    - Als u [!DNL PayPal PayLater] wilt opnemen als een betalingsoptie bij Braintree, stelt u **[!UICONTROL Enable PayPal PayLater through Braintree]** in op `Yes` .
 
@@ -277,7 +277,7 @@ Ga naar [Braintree Payments][1] en meld je aan voor een account.
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties voor Braintree-transacties die worden verwerkt door PayPal:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
    ![PayPal via Braintree-instellingen 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png)
 
@@ -363,7 +363,7 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 1. Stel **[!UICONTROL Show PayLater Messaging]** in op `Yes` om [!DNL Pay Later] -berichten weer te geven op de winkelpagina op de miniwinkelwagentje- of winkelpagina.
 
-   Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. Zie {de documentatie van 0} PayPal ](https://developer.paypal.com/studio/checkout/pay-later/us).[
+   Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. Zie {de documentatie van 0} PayPal [&#128279;](https://developer.paypal.com/studio/checkout/pay-later/us).
 
 1. Selecteer voor **[!UICONTROL Message Layout]** de [!DNL Pay Later] berichtlay-out: `Text` of `Flex`
 
@@ -398,7 +398,7 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 4. Stel **[!UICONTROL Verify for Applicable Countries]** in op een van de volgende opties:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Verify for Specific Countries]_weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Verify for Specific Countries]_&#x200B;weergegeven. Houd Ctrl (PC) of Command (Mac) ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
    ![Instellingen voor 3D-verificatie](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png)
 

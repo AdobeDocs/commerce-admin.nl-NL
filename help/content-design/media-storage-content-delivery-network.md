@@ -31,7 +31,7 @@ Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijziginge
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** naar wens in.
 

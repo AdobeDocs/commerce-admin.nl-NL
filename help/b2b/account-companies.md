@@ -26,19 +26,19 @@ Voordelen van een bedrijfsaccount:
 
 - Verstrekt een mechanisme voor handelaren om inkomen te verhogen door [ bedrijfsleekrediet ](credit-company.md) als betalingsmethode aan te bieden.
 
-- [](account-company-manage.md)
+- [&#128279;](account-company-manage.md)
 
 ## View company accounts
 
-__ [](account-company-create.md)[](account-company-manage.md) Use the standard grid controls to filter the list, and adjust the column layout. __[](account-company-manage.md)
+__ [&#128279;](account-company-create.md) [&#128279;](account-company-manage.md) Use the standard grid controls to filter the list, and adjust the column layout. __[&#128279;](account-company-manage.md)
 
 Customers can create a company account from the storefront, or a merchant can create one from the Admin. By default, the ability to create company accounts from the storefront is enabled. If allowed by the configuration, a visitor to the store can request to open a company account. After the company account is approved, the company administrator can set up the company structure and users with various levels of permission.
 
-__**[!UICONTROL Customers]****[!UICONTROL Companies]**
+__&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL Companies]**
 
 ![](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] [](manage-company-hierarchy.md)[](/help/b2b/account-company-manage.md#company-options-and-columns) [](../getting-started/admin-grid-controls.md)
+[!UICONTROL Companies] [&#128279;](manage-company-hierarchy.md) [&#128279;](/help/b2b/account-company-manage.md#company-options-and-columns) [&#128279;](../getting-started/admin-grid-controls.md)
 
 ## Bedrijfsleider
 
@@ -48,7 +48,7 @@ Het volgende voorbeeld toont het _netwerk van Klanten_ met de aanvankelijke reke
 
 Elke onderneming heeft één enkele bedrijfbeheerder die door het rekening e-mailadres en de eerste en achternaam van de beheerder wordt geïdentificeerd. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
-[](account-company-structure.md)[](account-company-users.md)[](account-company-roles-permissions.md)
+[&#128279;](account-company-structure.md) [&#128279;](account-company-users.md) [&#128279;](account-company-roles-permissions.md)
 
 ### Wachtwoord voor bedrijfsbeheerder instellen voor eerste aanmelding
 
@@ -71,13 +71,13 @@ Elke onderneming heeft één enkele bedrijfbeheerder die door het rekening e-mai
    - Numbers (1234567890)
    - Special characters (!@#$...)
 
-1. [!UICONTROL ****]
+1. [!UICONTROL **&#x200B;**]
 
    ![](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. [!UICONTROL Customer Login][!UICONTROL ****][!UICONTROL ****]
+1. [!UICONTROL Customer Login][!UICONTROL **&#x200B;**][!UICONTROL **&#x200B;**]
 
-1. [!UICONTROL ****]
+1. [!UICONTROL **&#x200B;**]
 
    ![](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 

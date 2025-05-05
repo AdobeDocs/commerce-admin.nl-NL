@@ -38,7 +38,7 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
 
    - Voer bij **[!UICONTROL Search String]** de browser-id voor het specifieke apparaat in.
 
-     Een onderzoekskoord kan of een normale uitdrukking of Perl Compatible Regular Uitdrukking (PCRE) (zie {de Agent van de Gebruiker 1} voor meer informatie) zijn. [](https://en.wikipedia.org/wiki/User_agent) De volgende zoekreeks identificeert Firefox:
+     Een onderzoekskoord kan of een normale uitdrukking of Perl Compatible Regular Uitdrukking (PCRE) (zie {de Agent van de Gebruiker 1} voor meer informatie) zijn. [&#128279;](https://en.wikipedia.org/wiki/User_agent) De volgende zoekreeks identificeert Firefox:
 
          /^mozilla/i
      
@@ -48,7 +48,7 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
    >
    >U kunt zoveel regels toevoegen voor de apparaten die u wilt aanwijzen. De zoekreeksen komen overeen in de volgorde waarin ze worden ingevoerd.
 
-1. Vouw onder _[!UICONTROL Other Settings]_elke sectie uit en volg de instructies in de gekoppelde onderwerpen om de instellingen naar wens te bewerken.
+1. Vouw onder _[!UICONTROL Other Settings]_&#x200B;elke sectie uit en volg de instructies in de gekoppelde onderwerpen om de instellingen naar wens te bewerken.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

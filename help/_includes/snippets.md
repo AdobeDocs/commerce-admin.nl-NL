@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce Admin-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zich aanmelden met zijn Adobe-gegevens, niet met de Commerce-accountgegevens. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](/help/getting-started/adobe-ims-integration-overview.md).
 
-## Opmerking GTag-API&#39;s {#gtag-api-note}
+## Opmerking GTag-API's {#gtag-api-note}
 
 >[!NOTE]
 >
@@ -60,13 +60,13 @@ ht-degree: 0%
 
 ## Configuratie-instellingen {#config}
 
-Om tot de montages van de opslagconfiguratie toegang te hebben, verkies **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**van_ Admin _sidebar.
+Om tot de montages van de opslagconfiguratie toegang te hebben, verkies **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;van_ Admin _sidebar.
 
 ## Veroudering van UPS API {#ups-api}
 
 >[!IMPORTANT]
 >
->Vanaf juni 2024 kunnen Adobe Commerce-handelaren niet langer communiceren met de huidige UPS-integratie. De reden hiervoor is dat de API&#39;s van United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, momenteel niet het vereiste OAuth 2.0-beveiligingsmodel ondersteunen. Om de integratie toe te laten, [ creeer een toepassing op het de ontwikkelaarsplatform van UPS ](https://developer.ups.com/get-started) om de geloofsbrieven te verkrijgen die voor OAuth 2.0 worden vereist. Gebruik de nieuwe referenties als de `username` en `password` in de configuratie voor verzending van Commerce UPS. Om meer over de verandering van het veiligheidsmodel te leren, zie [ Belangrijkste Gids van de Migratie van de Toegang van het Portaal van de Ontwikkelaar 1}. <br/>](https://developer.ups.com/oauth-developer-guide)
+>Vanaf juni 2024 kunnen Adobe Commerce-handelaren niet langer communiceren met de huidige UPS-integratie. De reden hiervoor is dat de API&#39;s van United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, momenteel niet het vereiste OAuth 2.0-beveiligingsmodel ondersteunen. Om de integratie toe te laten, [ creeer een toepassing op het de ontwikkelaarsplatform van UPS ](https://developer.ups.com/get-started) om de geloofsbrieven te verkrijgen die voor OAuth 2.0 worden vereist. Gebruik de nieuwe referenties als de `username` en `password` in de configuratie voor verzending van Commerce UPS. Om meer over de verandering van het veiligheidsmodel te leren, zie [ Belangrijkste Gids van de Migratie van de Toegang van het Portaal van de Ontwikkelaar 1&rbrace;. <br/>](https://developer.ups.com/oauth-developer-guide)
 >
 >De handelaren zouden [ een update van het kwaliteitspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) op hun opslag moeten toepassen om van SOAP API aan RESTful API te migreren, die OAuth 2.0 authentificatieprotocollen steunt.
 

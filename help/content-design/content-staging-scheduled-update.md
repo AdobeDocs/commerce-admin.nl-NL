@@ -26,7 +26,7 @@ In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een pr
 
 1. Open in het _[!UICONTROL Products]_-raster een product in de bewerkingsmodus.
 
-1. Klik in het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina op **[!UICONTROL Schedule New Update]**.
+1. Klik in het vak _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina op **[!UICONTROL Schedule New Update]**.
 
    ![ Plan nieuwe update ](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een pr
      >
      >De de begindatum en einddatum van de campagne moeten worden bepaald door de **_gebrek_** tijdzone van Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Wanneer u bijvoorbeeld meerdere websites in verschillende tijdzones hebt, maar u wilt een campagne starten op basis van een tijdzone in de VS (de standaardtijdzone), moet u een afzonderlijke update voor elke lokale tijdzone plannen. In dit geval stelt u **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** in als omgezet van elke tijdzone van de lokale website naar de standaardtijdzone van Admin.
 
-1. Schuif omlaag naar _[!UICONTROL Price]_en klik op **[!UICONTROL Advanced Pricing]**.
+1. Schuif omlaag naar _[!UICONTROL Price]_&#x200B;en klik op **[!UICONTROL Advanced Pricing]**.
 
 1. Voer een **[!UICONTROL Special Price]** voor het product in tijdens de geplande campagne en klik op **[!UICONTROL Done]** .
 

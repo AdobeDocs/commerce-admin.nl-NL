@@ -66,7 +66,7 @@ Hoe cadeaukaarten werken op de winkel:
 
 - Accounts voor cadeaucodes worden gemaakt om de balans van een specifieke voucher bij te houden. Een opslagbeheerder kan de balans handmatig aanpassen.
 
-De ontvangende klant kan de _[!UICONTROL Gift Card]_sectie van hun rekeningsdashboard gebruiken om het saldo van hun [ rekening van de cadeaukaart ](product-gift-card-accounts.md) te controleren en giftekaarten voor [ opslagkrediet ](../customers/store-credit-using.md) terug te betalen.
+De ontvangende klant kan de _[!UICONTROL Gift Card]_&#x200B;sectie van hun rekeningsdashboard gebruiken om het saldo van hun [ rekening van de cadeaukaart ](product-gift-card-accounts.md) te controleren en giftekaarten voor [ opslagkrediet ](../customers/store-credit-using.md) terug te betalen.
 
 ![ Kaart van het Cadeautje ](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ De balans van de cadeaukaart wordt weergegeven.
 
 ### Activering van creditcard
 
-1. Op de pagina _[!UICONTROL Gift Card]_voert de klant code voor cadeaukaarten in.
+1. Op de pagina _[!UICONTROL Gift Card]_&#x200B;voert de klant code voor cadeaukaarten in.
 
 1. De klant klikt op **[!UICONTROL Redeem Gift Card]** .
 

@@ -18,7 +18,7 @@ Een klantensegment kan voor gerichte bevorderingen worden gebruikt door het met 
 
 ![ de prijsregel van het Kart - gericht klantensegment ](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**om een segment met een regel van de wortelprijs te associëren:**_
+_&#x200B;**om een segment met een regel van de wortelprijs te associëren:**&#x200B;_
 
 1. Op _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _Bevorderingen_ > **[!UICONTROL Cart Price Rules]**.
 

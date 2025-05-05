@@ -22,7 +22,7 @@ Belastingklassen kunnen worden toegewezen aan klanten, producten en verzendingen
 
 ## Belastingsklassen configureren
 
-De belastingklasse die voor het verschepen wordt gebruikt, en de standaardbelastingklassen voor [ producten en klanten ](#add-a-product-tax-class) worden geplaatst in de _[!UICONTROL Sales]_configuratie.
+De belastingklasse die voor het verschepen wordt gebruikt, en de standaardbelastingklassen voor [ producten en klanten ](#add-a-product-tax-class) worden geplaatst in de _[!UICONTROL Sales]_&#x200B;configuratie.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

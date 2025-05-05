@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elements - HTML-code
 
-Gebruik het _inhoudstype van de Code 0} HTML {om fragmenten van HTML, CSS, en code van JavaScript in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen._ U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
+Gebruik het _inhoudstype van de Code 0&rbrace; HTML &lbrace;om fragmenten van HTML, CSS, en code van JavaScript in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen._ U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
 
 ## Gereedschap HTML-code
 
@@ -31,7 +31,7 @@ Gebruik het _inhoudstype van de Code 0} HTML {om fragmenten van HTML, CSS, en co
 
 ## HTML-code toevoegen
 
-Het volgende voorbeeld toont aan hoe te om ][1] code in te bedden van de Doopvont van Google [ en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
+Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de Doopvont van Google &lbrack; en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
 
 ### Stap 1: Kies een Google-lettertype
 
@@ -76,7 +76,7 @@ Het volgende voorbeeld toont aan hoe te om ][1] code in te bedden van de Doopvon
 
    ![ HTML code en stijlen ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Werk de resterende montages zoals nodig bij (zie {de codecontages van de HTML van 0} Verandering ](#html-settings) voor details).[
+1. Werk de resterende montages zoals nodig bij (zie {de codecontages van de HTML van 0} Verandering [&#128279;](#html-settings) voor details).
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -110,7 +110,7 @@ Het volgende voorbeeld toont aan hoe te om ][1] code in te bedden van de Doopvon
    | Afbeelding invoegen... | Klik om een geüploade afbeelding of een afbeelding uit de galerie in te voegen op de positie van de cursor in het tekstvak HTML. |
    | Variabele invoegen... | Klik om een variabele op de positie van de cursor in het tekstvak HTML in te voegen. |
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de code binnen de bovenliggende container wilt bepalen:
 

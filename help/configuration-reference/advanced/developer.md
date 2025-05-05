@@ -35,7 +35,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ de ontwikkelin
 
 ![ Beperkingen van de Cliënt van de Ontwikkelaar ](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van dit het plaatsen, zie {de beperkingen van de Cliënt ](../../systems/developer-tools.md#client-restrictions) in de _Gids van Systemen Admin_.[
+Voor meer informatie over het veranderen van dit het plaatsen, zie &lbrace;de beperkingen van de Cliënt [&#128279;](../../systems/developer-tools.md#client-restrictions) in de _Gids van Systemen Admin_.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Optimaliserend
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Algemeen | Hiermee geeft u de adapter op die wordt gebruikt om afbeeldingen te renderen. Nadat u de adapterinstelling hebt gewijzigd, verwijdert u de cache van catalogusafbeeldingen. Opties: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**het IO- dossiertype wordt gesteund slechts door de adapter ImageMagik. |
+| [!UICONTROL Image Adapter] | Algemeen | Hiermee geeft u de adapter op die wordt gebruikt om afbeeldingen te renderen. Nadat u de adapterinstelling hebt gewijzigd, verwijdert u de cache van catalogusafbeeldingen. Opties: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**&#x200B;het IO- dossiertype wordt gesteund slechts door de adapter ImageMagik. |
 
 {style="table-layout:auto"}
 

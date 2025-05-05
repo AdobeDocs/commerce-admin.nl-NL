@@ -58,7 +58,7 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
    >
    >Als u het abonnement op grote hoeveelheden opzegt, schakelt u het selectievakje in van elke abonnee die u wilt annuleren.
 
-1. Stel het besturingselement _[!UICONTROL Action]_in op **[!UICONTROL Unsubscribe]**en klik op **[!UICONTROL Submit]**.
+1. Stel het besturingselement _[!UICONTROL Action]_&#x200B;in op **[!UICONTROL Unsubscribe]**&#x200B;en klik op **[!UICONTROL Submit]**.
 
    ![ Unsubscribe nieuwsbrief ](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
 
 ## De lijst met abonnees exporteren
 
-1. Van de _[!UICONTROL Newsletter Subscribers]_lijst, gebruik de filtercontroles om slechts verslagen met a_ Status _van `Subscribed` en voor de aangewezen website, opslag, of opslagmening te omvatten.
+1. Van de _[!UICONTROL Newsletter Subscribers]_&#x200B;lijst, gebruik de filtercontroles om slechts verslagen met a_ Status _van `Subscribed` en voor de aangewezen website, opslag, of opslagmening te omvatten.
 
 1. Stel het besturingselement **[!UICONTROL Export to]** in op een van de volgende opties:
 
@@ -83,6 +83,6 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
 
 1. Zoek de abonnee in het raster en selecteer het selectievakje in de eerste kolom.
 
-1. Stel het besturingselement _[!UICONTROL Action]_in op **[!UICONTROL Delete]**en klik op **[!UICONTROL Submit]**.
+1. Stel het besturingselement _[!UICONTROL Action]_&#x200B;in op **[!UICONTROL Delete]**&#x200B;en klik op **[!UICONTROL Submit]**.
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.

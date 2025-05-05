@@ -20,7 +20,7 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-   De sectie _[!UICONTROL Rule Information]_bevat uitbreidbare secties voor **[!UICONTROL Conditions]**en **[!UICONTROL Actions]**.
+   De sectie _[!UICONTROL Rule Information]_&#x200B;bevat uitbreidbare secties voor **[!UICONTROL Conditions]**&#x200B;en **[!UICONTROL Actions]**.
 
    ![ de prijsregel van de Catalogus - informatie ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
    >[!NOTE]
    >
-   >De instelling _[!UICONTROL Priority]_is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meerdere prijsregels zijn ingesteld. De regel met de hoogste prioriteit (prioriteiten van het hoogste tot het laagste zijn 0,1,2,3...) wordt actief voor het product.
+   >De instelling _[!UICONTROL Priority]_&#x200B;is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meerdere prijsregels zijn ingesteld. De regel met de hoogste prioriteit (prioriteiten van het hoogste tot het laagste zijn 0,1,2,3...) wordt actief voor het product.
 
 ## Stap 2: De voorwaarden definiëren
 
@@ -96,7 +96,7 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    >[!NOTE]
    >
-   >Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Meer leren, zie {de Attributen van het 0} Product ](../catalog/product-attributes.md).[
+   >Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Meer leren, zie {de Attributen van het 0} Product [&#128279;](../catalog/product-attributes.md).
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    >[!NOTE]
    >
-   >_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+   >_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
 
 1. Voer de **[!UICONTROL Discount Amount]** in.
 
@@ -212,9 +212,9 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 1. Eigenschappen voor een regel bijwerken:
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_pagina te tonen.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_pagina te tonen.
+   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
 
 1. Test de regel om er zeker van te zijn dat deze correct werkt.
 
@@ -251,7 +251,7 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 
 | Veld | Beschrijving |
 |-----|-----------|
-| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Apply as percentage of original]**- hiermee wordt het item in mindering gebracht op een percentage van de normale prijs.<br/>**[!UICONTROL Apply as fixed amount]** - Hiermee wordt het object gekort door een vast bedrag af te trekken van de normale prijs. <br/>**[!UICONTROL Adjust final price to this percentage]**- Past de definitieve prijs met een percentage van de regelmatige prijs aan.<br/>**[!UICONTROL Adjust final price to discount value]** - Hiermee stelt u de uiteindelijke prijs in op een vast, gedisconteerd bedrag. <br/><br/>**_Nota:_**Regelmatige prijs verwijst naar de prijs van het basisproduct zonder enige geavanceerde tarifering (special/tier/groep) of promotionele kortingen. De uiteindelijke prijs heeft betrekking op de verlaagde prijs die in het winkelwagentje wordt weergegeven. <br/> de**_definitieve _**productprijs wordt berekend als**_minimum _**relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Apply as percentage of original]**- hiermee wordt het item in mindering gebracht op een percentage van de normale prijs.<br/>**[!UICONTROL Apply as fixed amount]** - Hiermee wordt het object gekort door een vast bedrag af te trekken van de normale prijs. <br/>**[!UICONTROL Adjust final price to this percentage]**- Past de definitieve prijs met een percentage van de regelmatige prijs aan.<br/>**[!UICONTROL Adjust final price to discount value]** - Hiermee stelt u de uiteindelijke prijs in op een vast, gedisconteerd bedrag. <br/><br/>**_Nota:_**&#x200B;Regelmatige prijs verwijst naar de prijs van het basisproduct zonder enige geavanceerde tarifering (special/tier/groep) of promotionele kortingen. De uiteindelijke prijs heeft betrekking op de verlaagde prijs die in het winkelwagentje wordt weergegeven. <br/> de&#x200B;**_definitieve _**&#x200B;productprijs wordt berekend als&#x200B;**_minimum _**&#x200B;relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Vereist) Het bedrag van korting dat wordt aangeboden. |
 | [!UICONTROL Discard Subsequent Rules] | Hiermee bepaalt u of er aanvullende regels kunnen worden toegepast op deze aankoop. Selecteer `Yes` om te voorkomen dat meerdere kortingen op dezelfde aankoop worden toegepast. Opties: `Yes` / `No` |
 

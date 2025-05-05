@@ -22,7 +22,7 @@ De bedrijfsrekeningcomponent is een belangrijke entiteit binnen B2B waarvan alle
 
 Vanuit de beheerder kan de Commerce-sitebeheerder configureren hoe het bedrijf op de website werkt. De configuratie bepaalt de B2B mogelijkheden beschikbaar voor bedrijfgebruikers, met inbegrip van betalingsmethodes, prijsniveaus, de capaciteit om prijzen te bespreken gebruikend noteringen, de capaciteit om vraaglijsten te creëren, en meer.
 
-Voor meer informatie, zie {de Rekeningen van het 0} Bedrijf ](account-companies.md).[
+Voor meer informatie, zie {de Rekeningen van het 0} Bedrijf [&#128279;](account-companies.md).
 
 >[!NOTE]
 >

@@ -17,7 +17,7 @@ Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klante
 
 _Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [ op categorie-gebaseerde navigatie ](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
 
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
 
 - [ Cadeauregisters ](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
 
@@ -54,7 +54,7 @@ Voor [ de regels van de catalogusprijs ](price-rules-catalog.md), bouwt u voorwa
 
 ![ Diagram - de regels van de catalogusprijs van het voorbeeld ](./assets/diagram-catalog-price-rules.png){width="500"}
 
-](price-rules-cart.md) de voorwaarden van de prijsregel van het Kart [ kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag [ wortel ](../catalog/category-root.md) is. Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
+[&#128279;](price-rules-cart.md) de voorwaarden van de prijsregel van het Kart  kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag [ wortel ](../catalog/category-root.md) is. Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
 
 ![ Diagram - de regels van de kartprijs van het voorbeeld ](./assets/diagram-cart-price-rules.png){width="500"}
 

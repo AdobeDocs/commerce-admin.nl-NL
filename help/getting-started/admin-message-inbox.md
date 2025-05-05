@@ -15,7 +15,7 @@ Uw winkel ontvangt regelmatig berichten van de Adobe. De berichten worden beoord
 
 ![ Admin - inkomende berichten ](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Op de pagina _[!UICONTROL Notifications]_worden alle berichten weergegeven die op datum zijn gerangschikt. Met de opdrachten van_[!UICONTROL Action]_ kunt u afzonderlijke berichten markeren als gelezen berichten, meer gedetailleerde informatie weergeven of het bericht uit het Postvak IN verwijderen.
+Op de pagina _[!UICONTROL Notifications]_&#x200B;worden alle berichten weergegeven die op datum zijn gerangschikt. Met de opdrachten van&#x200B;_[!UICONTROL Action]_ kunt u afzonderlijke berichten markeren als gelezen berichten, meer gedetailleerde informatie weergeven of het bericht uit het Postvak IN verwijderen.
 
 De configuratie bepaalt hoe vaak inbox wordt bijgewerkt, en hoe de berichten worden geleverd. Als de beheerder van de winkel een beveiligde URL heeft, moeten meldingen via HTTPS worden verzonden.
 

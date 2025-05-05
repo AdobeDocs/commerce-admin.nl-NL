@@ -25,7 +25,7 @@ Deze versienota&#39;s voor Commerce Admin verenigde de uitbreiding van de Ervari
 
 *13 Februari, 2023*
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuwe ](../assets/new.svg) Algemene versie van de Beschikbaarheid van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 
@@ -36,7 +36,7 @@ Deze versienota&#39;s voor Commerce Admin verenigde de uitbreiding van de Ervari
 
 *Augustus 8, 2023*
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuwe ](../assets/new.svg) Eerste bètaversie van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 

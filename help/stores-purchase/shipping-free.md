@@ -38,7 +38,7 @@ _het Vrij verschepen_ is één van de meest efficiënte bevorderingen die u kunt
 
    >[!TIP]
    >
-   >Om het vrije verschepen met [ lijsttarieven ](shipping-table-rate.md) te gebruiken, maak _[!UICONTROL Minimum Order Amount]_zo hoog dat het nooit wordt ontmoet. Als je deze hoge waarde gebruikt, wordt de gratis verzending niet van kracht, tenzij deze wordt geactiveerd door een prijsregel.
+   >Om het vrije verschepen met [ lijsttarieven ](shipping-table-rate.md) te gebruiken, maak _[!UICONTROL Minimum Order Amount]_&#x200B;zo hoog dat het nooit wordt ontmoet. Als je deze hoge waarde gebruikt, wordt de gratis verzending niet van kracht, tenzij deze wordt geactiveerd door een prijsregel.
 
 1. Instellen **[!UICONTROL Include Tax to Amount]** :
 
@@ -53,7 +53,7 @@ _het Vrij verschepen_ is één van de meest efficiënte bevorderingen die u kunt
 
    - `All Allowed Countries` - de Klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen vrije verzending gebruiken.
 
-   - `Specific Countries` - Nadat u deze waarde hebt gekozen, wordt de lijst _[!UICONTROL Ship to Specific Countries]_weergegeven. Selecteer elk land in de lijst waar gratis verzending kan worden gebruikt.
+   - `Specific Countries` - Nadat u deze waarde hebt gekozen, wordt de lijst _[!UICONTROL Ship to Specific Countries]_&#x200B;weergegeven. Selecteer elk land in de lijst waar gratis verzending kan worden gebruikt.
 
 1. Instellen **[!UICONTROL Show Method if Not Applicable]** :
 
@@ -70,7 +70,7 @@ _het Vrij verschepen_ is één van de meest efficiënte bevorderingen die u kunt
 
 Zorg ervoor om het even welke configuratie te voltooien die voor elke drager wordt vereist die u voor vrije verzending van plan bent te gebruiken. Bijvoorbeeld, als uw [ configuratie van UPS ](ups.md) anders volledig is, werk de volgende montages bij om vrije verzending toe te laten en te vormen.
 
-1. In de _[!UICONTROL Delivery Methods]_configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL UPS]**sectie.
+1. In de _[!UICONTROL Delivery Methods]_&#x200B;configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL UPS]**&#x200B;sectie.
 
 1. Stel **[!UICONTROL Free Method]** in op `UPS Ground` of een ander type dat u wilt toewijzen voor gratis verzending.
 

@@ -110,7 +110,7 @@ Hergebruik van de laatste vier wachtwoorden die aan de account zijn toegewezen, 
 
    ![ Teken uit ](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Op de pagina _[!UICONTROL Sign In]_wordt een bericht weergegeven dat u bent afgemeld. Teken uit_ Admin _wanneer u uw computer onbeheerd verlaat.
+Op de pagina _[!UICONTROL Sign In]_&#x200B;wordt een bericht weergegeven dat u bent afgemeld. Teken uit_ Admin _wanneer u uw computer onbeheerd verlaat.
 
 ## Accountgegevens bewerken
 

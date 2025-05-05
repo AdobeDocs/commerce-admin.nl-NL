@@ -97,7 +97,7 @@ Als een openbare gedeelde catalogus wordt gedupliceerd, verandert het type van d
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   Het duplicaat wordt in het raster van _[!UICONTROL Shared Catalogs]_weergegeven met een unieke id.
+   Het duplicaat wordt in het raster van _[!UICONTROL Shared Catalogs]_&#x200B;weergegeven met een unieke id.
 
 ## Stap 2: De installatie voltooien
 
@@ -105,7 +105,7 @@ Na het creëren van een nieuwe gedeelde catalogus, moet het met de aangewezen pr
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_en_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 ## Demo van gedeelde catalogus
 

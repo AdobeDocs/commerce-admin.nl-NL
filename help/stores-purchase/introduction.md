@@ -47,7 +47,7 @@ In Admin, kunnen de handelaren tot informatie in elk stadium van het orde werksc
 
 - De [ orden ](orders.md) pagina verstrekt handelaren van een gemakkelijk-aan-toegangslijst van alle huidige orden, en omvat hulpmiddelen om bestaande orden uit te geven en te verwerken, en orden namens klanten tot stand te brengen.
 
-- De ](invoices.md) pagina van de Winsten [ {maakt een lijst van een factuur is gebaseerd op een tijdelijke verkooporde en verstrekt een permanent verslag van de orde.
+- De [&#128279;](invoices.md) pagina van de Winsten  &lbrace;maakt een lijst van een factuur is gebaseerd op een tijdelijke verkooporde en verstrekt een permanent verslag van de orde.
 
 - De [ pagina van Verzendingen ](shipments.md) maakt een lijst van het ladingsverslag van elke factuur die klaar is om te worden verscheept.
 

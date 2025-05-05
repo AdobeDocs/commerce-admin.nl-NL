@@ -26,11 +26,11 @@ Met [!DNL Page Builder] kunt u eenvoudig een productlijst aan het werkgebied toe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Vind de _Eenvoudige Pagina_ die u in de eerste oefening creeerde en in de tweede veranderde, en **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom selecteert.
+1. Vind de _Eenvoudige Pagina_ die u in de eerste oefening creeerde en in de tweede veranderde, en **[!UICONTROL Edit]** in de _[!UICONTROL Action]_&#x200B;kolom selecteert.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en klik **[!UICONTROL Edit with Page Builder]** of binnen het gebied van de inhoudsvoorproef.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een **[!UICONTROL Row]**naar de bovenkant van het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een **[!UICONTROL Row]**&#x200B;naar de bovenkant van het werkgebied.
 
 1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Products]** naar de nieuwe rij.
 
@@ -48,7 +48,7 @@ Met [!DNL Page Builder] kunt u eenvoudig een productlijst aan het werkgebied toe
 
    - Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) pictogram.
 
-   - Kies onder _[!UICONTROL Product Attribute]_de optie **[!UICONTROL Category]**.
+   - Kies onder _[!UICONTROL Product Attribute]_&#x200B;de optie **[!UICONTROL Category]**.
 
      ![ het Kiezen van de categoriekenmerken voor de voorwaarde ](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Met [!DNL Page Builder] kunt u eenvoudig een productlijst aan het werkgebied toe
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ ( ![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png){width="20"}) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor de pagina waarop de voorvertoning wordt weergegeven.
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
@@ -98,13 +98,13 @@ In dit gedeelte van de oefening leert u hoe gemakkelijk het is om een productpag
 
 1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Content]** sectie.
 
-1. Klik naast _[!UICONTROL Description]_op **[!UICONTROL Edit with Page Builder]**.
+1. Klik naast _[!UICONTROL Description]_&#x200B;op **[!UICONTROL Edit with Page Builder]**.
 
    ![ de beschrijvingsinhoud van het Product ](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    Als de productbeschrijving eerder zonder [!DNL Page Builder] was ingegaan, verschijnt de huidige beschrijving als HTML in een [ container van de Code van de HTML ](html-code.md). Bij het thema Luma wordt de productbeschrijving weergegeven op het tabblad Details.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een **[!UICONTROL Row]**naar het werkgebied en plaats het onder de container met HTML-code.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een **[!UICONTROL Row]**&#x200B;naar het werkgebied en plaats het onder de container met HTML-code.
 
    De rode hulplijn wordt weergegeven wanneer de rij zich op de juiste positie bevindt.
 
@@ -136,7 +136,7 @@ In dit gedeelte van de oefening leert u hoe gemakkelijk het is om een productpag
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ ( ![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png){width="20"}) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor de pagina waarop de voorvertoning wordt weergegeven.
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
@@ -148,7 +148,7 @@ In de winkel wordt de video weergegeven onder de tabs. Als u wilt zien hoe de pa
 
 ## Deel 3: Aangepaste kenmerken toevoegen
 
-Met het aangepaste kenmerk [!DNL Page Builder] kunt u een volledig functionerende [!DNL Page Builder] -werkruimte toevoegen aan een productpagina die u kunt gebruiken om aansprekende inhoud te maken. In dit deel van de oefening, leert u hoe te om een douanekenmerk tot stand te brengen gebruikend het [!DNL Page Builder] inputtype en het op productpagina&#39;s in uw catalogus toe te passen. Voor meer informatie over deze attributen, zie {de Attributen van het 0} Product ](../catalog/product-attributes.md).[
+Met het aangepaste kenmerk [!DNL Page Builder] kunt u een volledig functionerende [!DNL Page Builder] -werkruimte toevoegen aan een productpagina die u kunt gebruiken om aansprekende inhoud te maken. In dit deel van de oefening, leert u hoe te om een douanekenmerk tot stand te brengen gebruikend het [!DNL Page Builder] inputtype en het op productpagina&#39;s in uw catalogus toe te passen. Voor meer informatie over deze attributen, zie {de Attributen van het 0} Product [&#128279;](../catalog/product-attributes.md).
 
 ### Stap 1: Een product maken
 
@@ -160,17 +160,22 @@ Als u wijzigingen in uw live winkel wilt voorkomen, maakt u een product met de b
 
 1. Maak het product met de volgende eigenschappen:
 
-   - 
-     [!UICONTROL, kenmerkset]: Default
+   - &#x200B;
+
+     [!UICONTROL , kenmerkset]: Default
    - [!UICONTROL Product Name]: Mijn product
-   - 
+   - &#x200B;
+
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
+
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
+
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: in voorraad
-   - 
+   - &#x200B;
+
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Vrouwen > Tees > Tees
 
@@ -199,20 +204,26 @@ In deze stap maakt u twee nieuwe aangepaste kenmerken om te tonen hoe de invoert
    - [!UICONTROL Attribute Code]: voer een kenmerkcode in kleine letters in met afbreekstreepjes in plaats van spaties. Gebruik `my_page_builder_attribute` voor dit voorbeeld.
    - [!UICONTROL Scope]: accepteer de standaardwaarde, `Store View` .
    - [!UICONTROL Default Value]: voer een standaardwaarde voor het kenmerk in.
-   - 
+   - &#x200B;
+
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Kies in het deelvenster _[!UICONTROL Attribute Information]_aan de linkerkant de optie **[!UICONTROL Storefront Properties]**en stel de volgende instellingen in:
+1. Kies in het deelvenster _[!UICONTROL Attribute Information]_&#x200B;aan de linkerkant de optie **[!UICONTROL Storefront Properties]**&#x200B;en stel de volgende instellingen in:
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.
@@ -221,8 +232,9 @@ In deze stap maakt u twee nieuwe aangepaste kenmerken om te tonen hoe de invoert
 
    - [!UICONTROL Default Label]: Kenmerk van mijn teksteditor
    - [!UICONTROL Catalog Input Type for Store Owner]: Teksteditor
-   - 
-     [!UICONTROL-kenmerkcode]: `my_text_editor_attribute`
+   - &#x200B;
+
+     [!UICONTROL -kenmerkcode]: `my_text_editor_attribute`
 
 ### Stap 3: Werk de set met productkenmerken bij
 
@@ -234,9 +246,9 @@ In deze stap maakt u twee nieuwe aangepaste kenmerken om te tonen hoe de invoert
    >
    >Als u uw live winkel niet wilt wijzigen, kunt u de stappen volgen zonder de kenmerkset bij te werken.
 
-1. Zoek het kenmerk _[!UICONTROL Default]_dat is ingesteld in de lijst en dubbelklik erop om het te openen in de bewerkingsmodus.
+1. Zoek het kenmerk _[!UICONTROL Default]_&#x200B;dat is ingesteld in de lijst en dubbelklik erop om het te openen in de bewerkingsmodus.
 
-1. In de _Niet toegewezen Lijst van Attributen_, vind de nieuwe attributen u creeerde en sleep elk aan de _[!UICONTROL Groups]_kolom, onder **[!UICONTROL Content]**.
+1. In de _Niet toegewezen Lijst van Attributen_, vind de nieuwe attributen u creeerde en sleep elk aan de _[!UICONTROL Groups]_&#x200B;kolom, onder **[!UICONTROL Content]**.
 
    De locatie van het kenmerk in de kolom [!UICONTROL Groups] bepaalt waar het kenmerk op de pagina wordt weergegeven.
 

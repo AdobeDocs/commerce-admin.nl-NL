@@ -148,7 +148,7 @@ Schakel de extensie Commerce Events (`magento/commerce-eventing`) in om aangepas
 
 ### De integratie met Commerce Events configureren
 
-Configureer de integratie met Commerce Events door de volgende taken uit te voeren. Voor gedetailleerde instructies, zie {de Gebeurtenissen van 0} Adobe I/O voor de ontwikkelaarsdocumentatie van Commerce ](https://developer.adobe.com/commerce/extensibility/events/project-setup/).[
+Configureer de integratie met Commerce Events door de volgende taken uit te voeren. Voor gedetailleerde instructies, zie {de Gebeurtenissen van 0} Adobe I/O voor de ontwikkelaarsdocumentatie van Commerce [&#128279;](https://developer.adobe.com/commerce/extensibility/events/project-setup/).
 
 1. [ creeer een project van App Builder ](https://developer.adobe.com/commerce/extensibility/events/project-setup/) om gebeurtenisgegevens van de instantie van Commerce te ontvangen.
 

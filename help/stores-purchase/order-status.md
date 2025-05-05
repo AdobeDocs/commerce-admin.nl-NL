@@ -25,7 +25,7 @@ instellingen voor de ordestatus.
 
 ![ de staten en de statussen van de Orde ](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
 
-De status van elke orde wordt getoond in de _kolom van de Status_ van het _3} net van Orden {._
+De status van elke orde wordt getoond in de _kolom van de Status_ van het _3&rbrace; net van Orden &lbrace;._
 
 ![ Status van de Orde ](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
@@ -76,13 +76,13 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
    ![ creeer de Nieuwe Status van de Orde ](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. Werk de sectie _[!UICONTROL Order Status Information]_bij:
+1. Werk de sectie _[!UICONTROL Order Status Information]_&#x200B;bij:
 
    - Voer een **[!UICONTROL Status Code]** in voor interne referentie. Het eerste teken moet een letter (a-z) zijn en de rest mag elke combinatie van letters en cijfers (0-9) zijn. Gebruik het onderstrepingsteken in plaats van een spatie.
 
    - Voer bij **[!UICONTROL Status Label]** een label in dat de status identificeert die zowel in Admin als in de winkel is ingesteld.
 
-1. Voer in de sectie _[!UICONTROL Store View Specific Labels]_de labels in die nodig zijn voor verschillende winkelweergaven.
+1. Voer in de sectie _[!UICONTROL Store View Specific Labels]_&#x200B;de labels in die nodig zijn voor verschillende winkelweergaven.
 
 1. Klik op **[!UICONTROL Save Status]**.
 
@@ -130,13 +130,13 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
 1. Zoek in het _[!UICONTROL Order Status]_-raster naar de orderstatusrecord die niet is toegewezen.
 
-1. Klik in de kolom _[!UICONTROL Action]_helemaal rechts van de rij op de koppeling **[!UICONTROL Unassign]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;helemaal rechts van de rij op de koppeling **[!UICONTROL Unassign]**.
 
    Boven aan de werkruimte verschijnt het bericht dat de status van de bestelling niet is toegewezen. Hoewel het statuslabel van de volgorde nog steeds in de lijst staat, wordt het niet meer toegewezen aan een status. De instellingen voor de orderstatus kunnen niet worden verwijderd.
 
 >[!NOTE]
 >
->Als de status van de standaardorde van de ordestatus unassigned is, _**wordt een andere**_ ordestatus _**automatisch geplaatst**_ als gebrek voor deze ordestatus.
+>Als de status van de standaardorde van de ordestatus unassigned is, _&#x200B;**wordt een andere**&#x200B;_ ordestatus _&#x200B;**automatisch geplaatst**&#x200B;_ als gebrek voor deze ordestatus.
 
 ## Melding
 

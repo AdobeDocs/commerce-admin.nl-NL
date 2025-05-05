@@ -19,7 +19,7 @@ Een gemakkelijke manier om een verbinding op te nemen is de _knoop van de Verbin
 
    ![ de toolbar van de Redacteur - de Verbinding van het Tussenvoegsel ](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert link]_geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert link]_&#x200B;geopend.
 
    ![ Redacteur - de verbindingsdialoog van het Tussenvoegsel ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

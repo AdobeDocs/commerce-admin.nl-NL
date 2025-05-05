@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het archief van de Acties Admin [ ](action-log.md) maakt een lijst van de CSV logboekdossiers die op de server worden opgeslagen. In de configuratie, kunt u specificeren hoe lang de logboekingangen worden opgeslagen, en hoe vaak zij worden gearchiveerd. Standaard bevat de bestandsnaam de huidige datum in de ISO-indeling:  `yyyyMMddHH`
+Het archief van de Acties Admin [&#128279;](action-log.md) maakt een lijst van de CSV logboekdossiers die op de server worden opgeslagen. In de configuratie, kunt u specificeren hoe lang de logboekingangen worden opgeslagen, en hoe vaak zij worden gearchiveerd. Standaard bevat de bestandsnaam de huidige datum in de ISO-indeling:  `yyyyMMddHH`
 
 >[!NOTE]
 >

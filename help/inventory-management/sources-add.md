@@ -70,7 +70,7 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 
    - Voer bij **[!UICONTROL Postcode]** de postcode in.
 
-     ](assets/inventory-source-address.png) Gegevens van 0} Adres![
+     ![&#128279;](assets/inventory-source-address.png) Gegevens van 0&rbrace; Adres
 
 1. Als u de bron als bestelwagenplaats in de vroegere stap plaatst, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Pickup Location]** sectie uit en verstrekt beschrijvende informatie over de plaats:
 

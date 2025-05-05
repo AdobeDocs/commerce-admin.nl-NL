@@ -70,7 +70,7 @@ Als MAP is ingeschakeld, worden de MAP-instellingen op productniveau beschikbaar
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Minimum Advertised Price]_sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Minimum Advertised Price]_&#x200B;sectie uit.
 
 1. Indien nodig, plaats **laat KAART** aan `Yes` toe.
 

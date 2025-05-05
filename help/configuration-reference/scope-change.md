@@ -27,7 +27,7 @@ De keuze van de Mening van de Opslag in de upper-left hoek van vele configuratie
 
 ## [!UICONTROL Use system value]
 
-Het selectievakje _[!UICONTROL Use System Value]_rechts van veel configuratie-instellingen wordt gebruikt om de standaardwaarde voor het veld binnen het huidige configuratiebereik toe te passen of te overschrijven. De standaardwaarde voor het veld kan niet worden gewijzigd wanneer het selectievakje is ingeschakeld. Als u de waarde wilt wijzigen, schakelt u het selectievakje uit en voert u de nieuwe waarde in. U wordt gevraagd te bevestigen wanneer u de systeemwaarde wijzigt.
+Het selectievakje _[!UICONTROL Use System Value]_&#x200B;rechts van veel configuratie-instellingen wordt gebruikt om de standaardwaarde voor het veld binnen het huidige configuratiebereik toe te passen of te overschrijven. De standaardwaarde voor het veld kan niet worden gewijzigd wanneer het selectievakje is ingeschakeld. Als u de waarde wilt wijzigen, schakelt u het selectievakje uit en voert u de nieuwe waarde in. U wordt gevraagd te bevestigen wanneer u de systeemwaarde wijzigt.
 
 Het label van het selectievakje verandert afhankelijk van het huidige bereik en verwijst altijd naar het bovenliggende niveau dat één stap hoger in de hiërarchie van het bereik is. Omdat het ouderniveau een container voor alle punten onder dat niveau is, wordt het werkingsgebied dat van het ouderniveau plaatst geërft tenzij het wordt met voeten getreden.
 

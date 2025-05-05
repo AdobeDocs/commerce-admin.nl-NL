@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Nieuwe opties voor klantenaccount
 
-In de sectie _[!UICONTROL Create New Account Options]_van de configuratie worden de basisaccountopties gecombineerd met meer geavanceerde opties die betrekking hebben op de validatie van BTW-id&#39;s en aangepaste integratie. De volgende instructies hebben alleen betrekking op de meest gebruikte opties. Om over automatische taken van de klantengroep te leren, zie [ de Bevestiging van de BTW ](../stores-purchase/vat.md).
+In de sectie _[!UICONTROL Create New Account Options]_&#x200B;van de configuratie worden de basisaccountopties gecombineerd met meer geavanceerde opties die betrekking hebben op de validatie van BTW-id&#39;s en aangepaste integratie. De volgende instructies hebben alleen betrekking op de meest gebruikte opties. Om over automatische taken van de klantengroep te leren, zie [ de Bevestiging van de BTW ](../stores-purchase/vat.md).
 
 ![ creeer de Nieuwe Opties van de Rekening ](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 

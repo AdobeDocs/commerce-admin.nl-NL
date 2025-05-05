@@ -32,7 +32,7 @@ Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Website | Bepaalt als de bezoekers aan uw opslag de keus hebben om [ ](../../customers/customer-sign-in.md) voor een bedrijfrekening of een individuele rekening te registreren. Opties: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Website | Bepaalt als de bezoekers aan uw opslag de keus hebben om [&#128279;](../../customers/customer-sign-in.md) voor een bedrijfrekening of een individuele rekening te registreren. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

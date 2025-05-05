@@ -17,7 +17,7 @@ Creeer rijke, interactieve inhoud die door logica van [ prijsregels ](../merchan
 
 >[!NOTE]
 >
->De optie _[!UICONTROL Banner]_in het [[!UICONTROL Content] menu ](content-menu.md) werd afgekeurd in 2.3.1 en in 2.4.0 verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
+>De optie _[!UICONTROL Banner]_&#x200B;in het [[!UICONTROL Content] menu ](content-menu.md) werd afgekeurd in 2.3.1 en in 2.4.0 verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
 
 ![[!DNL Page Builder] - dynamisch blok met prijsregel en klantsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -53,7 +53,7 @@ Creeer rijke, interactieve inhoud die door logica van [ prijsregels ](../merchan
 
 ### Real-Time CDP-publiek gebruiken in dynamische blokken
 
-Als u [ installeerde ](../customers/audience-activation.md#install-the-extension) en [ ](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] uitbreiding vormde, ziet u een sectie genoemd **[!UICONTROL Audiences]**.
+Als u [ installeerde ](../customers/audience-activation.md#install-the-extension) en [&#128279;](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] uitbreiding vormde, ziet u een sectie genoemd **[!UICONTROL Audiences]**.
 
 ![ kies een publiek van Real-Time CDP ](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 

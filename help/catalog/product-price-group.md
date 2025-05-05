@@ -34,9 +34,9 @@ Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](prod
 
 1. Open het product in de bewerkingsmodus.
 
-1. Klik onder het veld _[!UICONTROL Price]_op **[!UICONTROL Advanced Pricing]**.
+1. Klik onder het veld _[!UICONTROL Price]_&#x200B;op **[!UICONTROL Advanced Pricing]**.
 
-1. Klik in de sectie _[!UICONTROL Customer Group Price]_op **[!UICONTROL Add]**.
+1. Klik in de sectie _[!UICONTROL Customer Group Price]_&#x200B;op **[!UICONTROL Add]**.
 
    Als uw opslag [ Adobe Commerce B2B ](../b2b/introduction.md) omvat en [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md) heeft, wordt deze sectie geëtiketteerd _[!UICONTROL Catalog and Tier Price]_.
 
@@ -68,4 +68,4 @@ Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](prod
 
 >[!NOTE]
 >
->_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+>_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.

@@ -18,7 +18,7 @@ Door bestellingen te archiveren worden de prestaties regelmatig verbeterd en bli
 
 >[!NOTE]
 >
->De _[!UICONTROL Archive]_optie verschijnt in het [[!UICONTROL Sales] menu ](sales-menu.md) slechts wanneer het archiveren [ ](../configuration-reference/sales/sales.md) wordt toegelaten.
+>De _[!UICONTROL Archive]_&#x200B;optie verschijnt in het [[!UICONTROL Sales] menu ](sales-menu.md) slechts wanneer het archiveren [&#128279;](../configuration-reference/sales/sales.md) wordt toegelaten.
 
 ## Het orderarchief configureren
 
@@ -52,7 +52,7 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
 ## Gearchiveerde documenten weergeven
 
-1. Kies in het menu _[!UICONTROL Sales]_onder_[!UICONTROL Archive]_ een van de volgende opties:
+1. Kies in het menu _[!UICONTROL Sales]_&#x200B;onder&#x200B;_[!UICONTROL Archive]_ een van de volgende opties:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +111,7 @@ Selecteer elk document dat het doel van de handeling moet zijn en kies een van d
 
 1. Klik op **[!UICONTROL Export]**.
 
-Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archiveren van bestellingen, facturen, verzendingen en creditnota&#39;s. U kunt bestellingen en de bijbehorende documenten verplaatsen naar het archief of de vorige status ervan herstellen. Gearchiveerde bestellingen worden niet verwijderd en blijven beschikbaar bij de beheerder. Gearchiveerde gegevens kunnen naar een CSV-bestand worden geëxporteerd en in een spreadsheet worden geopend. Als deze optie is ingeschakeld, wordt de opdracht _[!UICONTROL Archive]_boven in de werkruimte weergegeven.
+Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archiveren van bestellingen, facturen, verzendingen en creditnota&#39;s. U kunt bestellingen en de bijbehorende documenten verplaatsen naar het archief of de vorige status ervan herstellen. Gearchiveerde bestellingen worden niet verwijderd en blijven beschikbaar bij de beheerder. Gearchiveerde gegevens kunnen naar een CSV-bestand worden geëxporteerd en in een spreadsheet worden geopend. Als deze optie is ingeschakeld, wordt de opdracht _[!UICONTROL Archive]_&#x200B;boven in de werkruimte weergegeven.
 
 ## Handmatig bestellingen archiveren
 
@@ -137,7 +137,7 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
    >[!NOTE]
    >
-   >Net als op de pagina Bestellingen is de titel van de pagina Gearchiveerde bestellingen _[!UICONTROL Orders]_. Het enige merkbare verschil is de optie in de knopbalk tot en met_[!UICONTROL Return to Orders Management]_ . De URL van de pagina geeft ook aan dat u zich in het orderarchief bevindt.
+   >Net als op de pagina Bestellingen is de titel van de pagina Gearchiveerde bestellingen _[!UICONTROL Orders]_. Het enige merkbare verschil is de optie in de knopbalk tot en met&#x200B;_[!UICONTROL Return to Orders Management]_ . De URL van de pagina geeft ook aan dat u zich in het orderarchief bevindt.
 
 1. In de _kolom van de Actie_, klik **[!UICONTROL View]**.
 

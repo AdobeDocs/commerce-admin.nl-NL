@@ -32,7 +32,7 @@ De standaardsjablonen bevatten uw logo- en opslaggegevens en kunnen zonder verde
 | [!UICONTROL Insert Variable] | Voegt een variabele in het malplaatje bij de cursorplaats in. |
 | [!UICONTROL Template Subject] | Het onderwerp van het Malplaatje verschijnt in de Onderwerpkolom, en kan worden gebruikt om de malplaatjes in de lijst te sorteren en te filtreren. |
 | [!UICONTROL Template Content] | De inhoud van de sjabloon in HTML. |
-| [!UICONTROL Template Styles] | Eventuele CSS-stijldeclaraties die nodig zijn om de sjabloon op te maken, kunnen in het vak _[!UICONTROL Template Styles]_worden ingevoerd. |
+| [!UICONTROL Template Styles] | Eventuele CSS-stijldeclaraties die nodig zijn om de sjabloon op te maken, kunnen in het vak _[!UICONTROL Template Styles]_&#x200B;worden ingevoerd. |
 
 {style="table-layout:auto"}
 
@@ -76,7 +76,7 @@ Na de voltooiing van de [ configuratie ](email-templates.md#configure-email-temp
 
    ![ malplaatje van de Kopbal - Tussenvoegsel veranderlijke ](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [ ](markup-tags.md) voor de variabele opgenomen in de code.
+   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [&#128279;](markup-tags.md) voor de variabele opgenomen in de code.
 
    Hoewel de variabelen van het Adres van de E-mail van de Opslag het vaakst inbegrepen in de kopbal zijn, kunt u de code voor om het even welk systeem of [ douanevariabele ](variables-custom.md) direct in het malplaatje ingaan.
 
@@ -140,7 +140,7 @@ De voettekst van de e-mailsjabloon bevat de regel voor sluiten en ondertekenen v
 
 1. Kies de variabele die u wilt invoegen.
 
-   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [ ](markup-tags.md) voor de variabele opgenomen in de code.
+   Wanneer een variabele wordt geselecteerd, wordt de markering van de a [&#128279;](markup-tags.md) voor de variabele opgenomen in de code.
 
    Hoewel de variabelen van het Contact van de Opslag het vaakst inbegrepen in footer zijn, kunt u de code voor om het even welk systeem of [ douanevariabele ](variables-custom.md) direct in het malplaatje ingaan.
 
@@ -218,7 +218,7 @@ Het aanpassen van de hoofdtekst van elk bericht is hetzelfde als het aanpassen v
 
 ### Stap 3. De configuratie bijwerken
 
-Het _[!UICONTROL Currently Used For]_breadcrumb-spoor geeft aan waar de sjabloon wordt gebruikt. In dit voorbeeld bevindt de sjabloonconfiguratie zich op de pagina_[!UICONTROL Customer Configuration]_ , in de sectie _[!UICONTROL Create New Account Options]_en in het veld_[!UICONTROL Default Welcome Email]_ .
+Het _[!UICONTROL Currently Used For]_&#x200B;breadcrumb-spoor geeft aan waar de sjabloon wordt gebruikt. In dit voorbeeld bevindt de sjabloonconfiguratie zich op de pagina&#x200B;_[!UICONTROL Customer Configuration]_ , in de sectie _[!UICONTROL Create New Account Options]_&#x200B;en in het veld&#x200B;_[!UICONTROL Default Welcome Email]_ .
 
 - Pagina - [!UICONTROL Customer Configuration]
 - Sectie - [!UICONTROL Create New Account Options]

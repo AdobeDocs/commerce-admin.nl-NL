@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Inventory Management] productopties configureren
 
-Deze configuraties zijn alleen van toepassing op het bewerkte product en overschrijven alle configuraties op algemeen websiteniveau. Wijzig deze instellingen tijdens het bewerken van een product via de secties _[!UICONTROL Sources]_en_[!UICONTROL Advanced Inventory]_ .
+Deze configuraties zijn alleen van toepassing op het bewerkte product en overschrijven alle configuraties op algemeen websiteniveau. Wijzig deze instellingen tijdens het bewerken van een product via de secties _[!UICONTROL Sources]_&#x200B;en&#x200B;_[!UICONTROL Advanced Inventory]_ .
 
 - Productopties configureren per bron
 - Productopties configureren voor geavanceerde inventarisatie
@@ -51,8 +51,8 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
 | [!UICONTROL Status] | Algemeen | Product is in- of uitgeschakeld in de catalogus. |
 | [!UICONTROL Source Item Status] | Algemeen | Bepaalt de huidige beschikbaarheid van het product. Opties:<br />`In Stock` - maakt het product beschikbaar voor aankoop.<br />`Out of Stock` - Als u geen achtergrondbestanden activeert, kan het product niet worden aangeschaft en wordt de aanbieding uit de catalogus verwijderd. |
 | [!UICONTROL Qty] | Algemeen | Aandelen voor elke bron of locatie. |
-| [!UICONTROL Notify Quantity] | Algemeen | Een hoeveelheid voor de _[!UICONTROL Notify for Quantity Below]_voor deze specifieke bron als_[!UICONTROL Notify Quantity Use Default]_ niet is geselecteerd. |
-| [!UICONTROL Notify Quantity Use Default] | Algemeen | Geeft aan dat de standaardinstelling voor _[!UICONTROL Notify for Quantity Below]_moet worden gebruikt in het product_[!UICONTROL Advanced Inventory]_ of de globale instelling in de winkelconfiguratie. |
+| [!UICONTROL Notify Quantity] | Algemeen | Een hoeveelheid voor de _[!UICONTROL Notify for Quantity Below]_&#x200B;voor deze specifieke bron als&#x200B;_[!UICONTROL Notify Quantity Use Default]_ niet is geselecteerd. |
+| [!UICONTROL Notify Quantity Use Default] | Algemeen | Geeft aan dat de standaardinstelling voor _[!UICONTROL Notify for Quantity Below]_&#x200B;moet worden gebruikt in het product&#x200B;_[!UICONTROL Advanced Inventory]_ of de globale instelling in de winkelconfiguratie. |
 
 ## Geavanceerde productopties
 
@@ -74,9 +74,9 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
 
    | Waarde | Beschrijving |
    | ----- | ----- |
-   | Positief bedrag | Voer een positieve waarde in als _[!UICONTROL Backorders]_is uitgeschakeld. |
-   | Nul | Als _[!UICONTROL Backorders]_is ingeschakeld, kunt u met het invoeren van `0` oneindige backorders invoeren. |
-   | Negatief bedrag | Als _[!UICONTROL Backorders]_is ingeschakeld, wordt u aangeraden een negatieve waarde in te voeren. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld `-50` in om bestellingen tot dit bedrag toe te staan. |
+   | Positief bedrag | Voer een positieve waarde in als _[!UICONTROL Backorders]_&#x200B;is uitgeschakeld. |
+   | Nul | Als _[!UICONTROL Backorders]_&#x200B;is ingeschakeld, kunt u met het invoeren van `0` oneindige backorders invoeren. |
+   | Negatief bedrag | Als _[!UICONTROL Backorders]_&#x200B;is ingeschakeld, wordt u aangeraden een negatieve waarde in te voeren. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld `-50` in om bestellingen tot dit bedrag toe te staan. |
 
 1. Voer de **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** in.
 

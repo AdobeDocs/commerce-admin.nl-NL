@@ -51,7 +51,7 @@ Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ wid
 
      ![ eigenschappen Storefront ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
 
 1. Stel **[!UICONTROL Display On]** in op het paginatype waar het moet worden weergegeven.
 

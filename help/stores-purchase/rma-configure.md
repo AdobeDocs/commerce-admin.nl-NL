@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worden voorgelegd. Een RMA kan slechts worden geproduceerd als er een punt in de orde is die voor terugkeer beschikbaar is. De verzoeken om individuele punten terug te keren worden beheerd door _laat 1} attributen RMA in elk productverslag toe._ Door gebrek, worden de configuratiemontages toegepast op het product (_[!UICONTROL Use Config Settings]_wordt geselecteerd). Als_[!UICONTROL Enable RMA]_ is ingesteld op `No` , wordt het product niet weergegeven in de lijst met items die kunnen worden geretourneerd. Als u _verandert laat RMA_ plaatsen toe, is het op zowel nieuwe als bestaande orden van toepassing.
+Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worden voorgelegd. Een RMA kan slechts worden geproduceerd als er een punt in de orde is die voor terugkeer beschikbaar is. De verzoeken om individuele punten terug te keren worden beheerd door _laat 1&rbrace; attributen RMA in elk productverslag toe._ Door gebrek, worden de configuratiemontages toegepast op het product (_[!UICONTROL Use Config Settings]_&#x200B;wordt geselecteerd). Als&#x200B;_[!UICONTROL Enable RMA]_ is ingesteld op `No` , wordt het product niet weergegeven in de lijst met items die kunnen worden geretourneerd. Als u _verandert laat RMA_ plaatsen toe, is het op zowel nieuwe als bestaande orden van toepassing.
 
 ## RMA&#39;s inschakelen voor uw winkel
 
@@ -32,9 +32,9 @@ Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worde
 
 1. Stel **[!UICONTROL Enable RMA on Product Level]** in op `Yes` .
 
-   Dit het plaatsen bepaalt het gedrag voor _laat 1} attributen RMA voor individuele producten op storefront toe:_
+   Dit het plaatsen bepaalt het gedrag voor _laat 1&rbrace; attributen RMA voor individuele producten op storefront toe:_
 
-   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `Yes` , kunnen klanten in de winkel alle afzonderlijke producten retourneren. Deze bevat zowel _[!UICONTROL Enable RMA]_= `Yes` als_[!UICONTROL Enable RMA]_ = `No` productkenmerkwaarden.
+   - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `Yes` , kunnen klanten in de winkel alle afzonderlijke producten retourneren. Deze bevat zowel _[!UICONTROL Enable RMA]_= `Yes` als&#x200B;_[!UICONTROL Enable RMA]_ = `No` productkenmerkwaarden.
    - Wanneer [!UICONTROL Enable RMA on Product Level] is ingesteld op `No` , kunnen klanten in de winkel alleen de producten retourneren met de waarde van het productkenmerk _[!UICONTROL Enable RMA]_= `Yes` .
 
 1. Stel **[!UICONTROL Use Store Address]** in op een van de volgende waarden:

@@ -27,7 +27,7 @@ Elk attribuut, of gebied, wordt vertegenwoordigd in het CSV- dossier als kolom, 
 | `created_at` | De datum waarop de klantenaccount is gemaakt. |
 | `created_in` | De winkelweergave waar het account is gemaakt. |
 | `disable_auto_group_change` | Hiermee bepaalt u of klantgroepen dynamisch kunnen worden toegewezen tijdens de validatie van BTW-id. |
-| `dob` | De geboortedatum van de klant. <br><br>**_Belangrijk:_**in overeenstemming met huidige veiligheid en privacy beste praktijken, herzie de opslag en de verwerking van de volledige geboortedatum van klanten (maand, dag, jaar). Wanneer verzameld met andere persoonlijke herkenningstekens (zoals_ volledige naam _), is het een potentieel wettelijk en veiligheidsrisico. We raden u aan om de volledige geboortedatum van klanten te beperken en in plaats daarvan het geboortejaar van de klant als alternatief te gebruiken. |
+| `dob` | De geboortedatum van de klant. <br><br>**_Belangrijk:_**&#x200B;in overeenstemming met huidige veiligheid en privacy beste praktijken, herzie de opslag en de verwerking van de volledige geboortedatum van klanten (maand, dag, jaar). Wanneer verzameld met andere persoonlijke herkenningstekens (zoals_ volledige naam _), is het een potentieel wettelijk en veiligheidsrisico. We raden u aan om de volledige geboortedatum van klanten te beperken en in plaats daarvan het geboortejaar van de klant als alternatief te gebruiken. |
 | `firstname` | De voornaam van de klant. |
 | `gender` | The customer gender. |
 | `group_id` | De id van de klantengroep waaraan de klant is toegewezen. |

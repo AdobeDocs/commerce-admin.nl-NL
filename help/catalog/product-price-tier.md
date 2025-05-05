@@ -28,9 +28,9 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
 1. Open het product in de bewerkingsmodus.
 
-1. Klik onder het veld _[!UICONTROL Price]_op **[!UICONTROL Advanced Pricing]**.
+1. Klik onder het veld _[!UICONTROL Price]_&#x200B;op **[!UICONTROL Advanced Pricing]**.
 
-1. Klik in de sectie _[!UICONTROL Tier Price]_op **[!UICONTROL Add]**.
+1. Klik in de sectie _[!UICONTROL Tier Price]_&#x200B;op **[!UICONTROL Add]**.
 
    Als u een laag van verscheidene prijzen creeert, klik **[!UICONTROL Add]** voor elk extra niveau, zodat kunt u alle rijen tezelfdertijd werken. Elke laag in de groep heeft dezelfde website en dezelfde klantengroep of dezelfde gedeelde catalogustoewijzing, maar een ander aantal en een andere prijs.
 
@@ -56,7 +56,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
      >[!NOTE]
      >
-     >Om de gedisconteerde prijs op te halen, wordt het gedefinieerde percentage berekend aan de hand van de waarde die is gedefinieerd in het veld _[!UICONTROL Price]_, niet in het veld_[!UICONTROL Special Price]_ .
+     >Om de gedisconteerde prijs op te halen, wordt het gedefinieerde percentage berekend aan de hand van de waarde die is gedefinieerd in het veld _[!UICONTROL Price]_, niet in het veld&#x200B;_[!UICONTROL Special Price]_ .
 
      ![ Prijs van de Rij als Percentage ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -72,4 +72,4 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
 >[!NOTE]
 >
->_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+>_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.

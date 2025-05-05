@@ -56,7 +56,7 @@ Als uw zaken zowel de [ Algemene Verordening van de Bescherming van Gegevens ](c
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie ][3] {:target= &quot;_blank&quot;} het [ Cpa- Werkblad.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie &rbrack;[3] {:target= &quot;_blank&quot;} het &lbrack; Cpa- Werkblad.
 
 ### Routekaart voor naleving
 
@@ -194,7 +194,7 @@ Controleer uw huidige privacybeleid en overweeg wat, als om het even welk, extra
 
    - **Minors &lt; 13**: De ouderlijke vergunning wordt vereist voor minderjarigen onder de leeftijd van 13 om aan de verkoop van hun persoonlijke informatie te kiezen.
 
-   - **Minderjarigen 13 tot &lt; 16**: Minderjarigen van minstens 13 jaar en minder dan 16 jaar kunnen zich aanmelden bij de verkoop van hun persoonlijke informatie, op voorwaarde dat de zaken een redelijk proces om de actie te documenteren tot stand brengen. Het proces moet in het 0} van het bedrijf {privacybeleid ](privacy-policy.md) worden beschreven. [ Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
+   - **Minderjarigen 13 tot &lt; 16**: Minderjarigen van minstens 13 jaar en minder dan 16 jaar kunnen zich aanmelden bij de verkoop van hun persoonlijke informatie, op voorwaarde dat de zaken een redelijk proces om de actie te documenteren tot stand brengen. Het proces moet in het 0&rbrace; van het bedrijf &lbrace;privacybeleid [&#128279;](privacy-policy.md) worden beschreven.  Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
 
   >[!IMPORTANT]
   >

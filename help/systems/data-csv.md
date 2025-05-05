@@ -37,7 +37,7 @@ De categoriekolom bevat een pad voor elke categorie waaraan het product is toege
 
 Om gegevens in te voeren, moet u slechts SKU en om het even welke kolommen met veranderingen omvatten. Eventuele lege kolommen worden tijdens het importproces genegeerd. Het is niet mogelijk kenmerken toe te voegen tijdens het importproces. U kunt alleen bestaande kenmerken opnemen.
 
-Voor een gedetailleerde beschrijving van elk productattribuut, zie {de Structuur van het Dossier CSV van 0} Product CSV ](data-attributes-product.md).[
+Voor een gedetailleerde beschrijving van elk productattribuut, zie {de Structuur van het Dossier CSV van 0} Product CSV [&#128279;](data-attributes-product.md).
 
 | Kolomnaam | Beschrijving |
 | ----------- | ----------- |
@@ -54,7 +54,7 @@ De eerste rij van de tabel bevat de namen van de kenmerkkolommen (die hetzelfde 
 
 Om meer dan één adres voor een klant toe te voegen of te vervangen, voeg een rij voor elk nieuw adres met lege klantengegevens en de nieuwe of bijgewerkte adresgegevens onder de rij van klantengegevens toe.
 
-Voor een gedetailleerde beschrijving van elk klantenattribuut, zie {de Structuur van het Dossier van de Klant CSV ](data-attributes-customer.md).[
+Voor een gedetailleerde beschrijving van elk klantenattribuut, zie &lbrace;de Structuur van het Dossier van de Klant CSV [&#128279;](data-attributes-customer.md).
 
 | Kolomnaam | Beschrijving |
 | ----------- | ----------- |

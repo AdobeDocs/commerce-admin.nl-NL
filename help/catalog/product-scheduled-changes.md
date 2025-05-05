@@ -53,7 +53,7 @@ Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bew
 
    ![ Programma als nieuwe update ](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Schuif omlaag naar _[!UICONTROL Price]_en klik op **[!UICONTROL Advanced Pricing]**.
+1. Schuif omlaag naar _[!UICONTROL Price]_&#x200B;en klik op **[!UICONTROL Advanced Pricing]**.
 
 1. Voer een **[!UICONTROL Special Price]** voor het product in tijdens de geplande campagne en klik op **[!UICONTROL Done]** .
 
@@ -85,7 +85,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 ## De geplande wijziging bewerken
 
-1. Klik in het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina op **[!UICONTROL View/Edit]**.
+1. Klik in het vak _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina op **[!UICONTROL View/Edit]**.
 
 1. Breng de benodigde wijzigingen aan in de geplande update.
 
@@ -93,7 +93,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 ## De geplande wijziging verwijderen
 
-1. Klik in het vak _[!UICONTROL Scheduled Changes]_boven aan de pagina op **[!UICONTROL View/Edit]**.
+1. Klik in het vak _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina op **[!UICONTROL View/Edit]**.
 
 1. Klik op **[!UICONTROL Remove from Update]** op de bovenste balk.
 
@@ -107,7 +107,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 {{ce-feature}}
 
-Met de sectie _[!UICONTROL Schedule Design Update]_kunt u tijdelijke wijzigingen aanbrengen in de weergave van de productpagina. U kunt ontwerpwijzigingen plannen voor een seizoen, voor speciale acties of alleen om de zaken vers te maken. De veranderingen van het ontwerp kunnen vooraf worden gepland, zodat gaan zij in werking, of_ druppel _, op uw bepaalde programma.
+Met de sectie _[!UICONTROL Schedule Design Update]_&#x200B;kunt u tijdelijke wijzigingen aanbrengen in de weergave van de productpagina. U kunt ontwerpwijzigingen plannen voor een seizoen, voor speciale acties of alleen om de zaken vers te maken. De veranderingen van het ontwerp kunnen vooraf worden gepland, zodat gaan zij in werking, of_ druppel _, op uw bepaalde programma.
 
 ![ Geplande Update van het Ontwerp ](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

@@ -64,7 +64,7 @@ In deze doorlichtingsoefening, creeert u een eenvoudig blok met inhoud van [!DNL
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor het blok met de voorvertoning weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor het blok met de voorvertoning weergegeven.
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
@@ -82,7 +82,7 @@ Als [!DNL Google Maps] al voor uw opslag wordt gevormd, kunt u deze stap oversla
 
 1. Ga terug naar [!DNL Commerce] Admin en ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -102,11 +102,11 @@ Als [!DNL Google Maps] al voor uw opslag wordt gevormd, kunt u deze stap oversla
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Zoek in het raster de _[!UICONTROL Simple Page]_die u in de eerste zelfstudie hebt gemaakt en selecteer **[!UICONTROL Edit]**in de kolom_[!UICONTROL Action]_ .
+1. Zoek in het raster de _[!UICONTROL Simple Page]_&#x200B;die u in de eerste zelfstudie hebt gemaakt en selecteer **[!UICONTROL Edit]**&#x200B;in de kolom&#x200B;_[!UICONTROL Action]_ .
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en klik **[!UICONTROL Edit with Page Builder]** of binnen het gebied van de inhoudsvoorproef.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Row]**naar de bovenkant van het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een tijdelijke aanduiding voor **[!UICONTROL Row]**&#x200B;naar de bovenkant van het werkgebied.
 
    ![ Toevoegend de rij aan de bovenkant van het stadium ](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Als [!DNL Google Maps] al voor uw opslag wordt gevormd, kunt u deze stap oversla
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor de pagina waarop de voorvertoning wordt weergegeven.
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
@@ -178,11 +178,11 @@ Schuif omlaag naar de sectie _[!UICONTROL Content]_, waarin een lege voorvertoni
 
 1. Beweeg over de rijcontainer om toolbox te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}) pictogram.
 
-1. Kies onder _[!UICONTROL Appearance]_de optie **[!UICONTROL Full Bleed]**.
+1. Kies onder _[!UICONTROL Appearance]_&#x200B;de optie **[!UICONTROL Full Bleed]**.
 
 1. Voer bij **[!UICONTROL Minimum Height]** `400px` in.
 
-1. Blader naar de sectie _[!UICONTROL Background]_en stel de **[!UICONTROL Background Image]**afbeelding in door op **[!UICONTROL Select from Gallery]**te klikken en de `wide-banner-background.png` afbeelding te kiezen die in de eerste zelfstudie is geüpload.
+1. Blader naar de sectie _[!UICONTROL Background]_&#x200B;en stel de **[!UICONTROL Background Image]**&#x200B;afbeelding in door op **[!UICONTROL Select from Gallery]**&#x200B;te klikken en de `wide-banner-background.png` afbeelding te kiezen die in de eerste zelfstudie is geüpload.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -190,7 +190,7 @@ Schuif omlaag naar de sectie _[!UICONTROL Content]_, waarin een lege voorvertoni
 
 **Taak 2:** voeg kolommen toe
 
-Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding **[!UICONTROL Column]**naar de rij.
+Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een tijdelijke aanduiding **[!UICONTROL Column]**&#x200B;naar de rij.
 
 ![ slepend het kolomtype in de rij ](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -230,7 +230,7 @@ De rij is nu verdeeld in twee kolommen van gelijke breedte.
 
 **Taak 4:** voeg een Verbinding toe
 
-In de eerste oefening, leerde u hoe te om het [ 1} inhoudstype van de Knoop {te gebruiken om een verbinding tot stand te brengen. ](buttons.md) In dit voorbeeld ziet u hoe u een koppeling invoegt op de werkbalk van de editor.
+In de eerste oefening, leerde u hoe te om het [ 1&rbrace; inhoudstype van de Knoop &lbrace;te gebruiken om een verbinding tot stand te brengen. ](buttons.md) In dit voorbeeld ziet u hoe u een koppeling invoegt op de werkbalk van de editor.
 
 1. Open de storefront op een ander browsertabblad en navigeer naar de pagina die het doeldoel voor de koppeling moet zijn.
 
@@ -264,7 +264,7 @@ In de eerste oefening, leerde u hoe te om het [ 1} inhoudstype van de Knoop {te 
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor het dynamische blok met de voorvertoning.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor het dynamische blok met de voorvertoning.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
@@ -298,7 +298,7 @@ In de eerste oefening, leerde u hoe te om het [ 1} inhoudstype van de Knoop {te 
 
    Klik op **[!UICONTROL OK]** om te bevestigen dat de rij van de pagina is verwijderd.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een nieuwe tijdelijke aanduiding voor **[!UICONTROL Row]**naar de bovenkant van het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een nieuwe tijdelijke aanduiding voor **[!UICONTROL Row]**&#x200B;naar de bovenkant van het werkgebied.
 
 1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Dynamic Block]** naar de nieuwe rij.
 
@@ -308,11 +308,11 @@ In de eerste oefening, leerde u hoe te om het [ 1} inhoudstype van de Knoop {te 
 
    ![ Dynamische bloktoolbox ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Klik op de pagina _[!UICONTROL Edit Dynamic Block]_op **[!UICONTROL Select Dynamic Block]**.
+1. Klik op de pagina _[!UICONTROL Edit Dynamic Block]_&#x200B;op **[!UICONTROL Select Dynamic Block]**.
 
    ![ Uitgezochte Dynamisch Blok ](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Zoek het _[!DNL Tee Shirt Promo]_dynamische blok dat u hebt gemaakt en klik op **[!UICONTROL Select]**.
+1. Zoek het _[!DNL Tee Shirt Promo]_&#x200B;dynamische blok dat u hebt gemaakt en klik op **[!UICONTROL Select]**.
 
    Hieronder wordt een samenvatting van de dynamische blokinformatie weergegeven.
 
@@ -326,7 +326,7 @@ In de eerste oefening, leerde u hoe te om het [ 1} inhoudstype van de Knoop {te 
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor de pagina waarop de voorvertoning wordt weergegeven.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor de pagina waarop de voorvertoning wordt weergegeven.
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
@@ -342,7 +342,7 @@ In dit laatste deel van de oefening, geeft u een dynamisch blok uit terwijl de p
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Zoek het _[!DNL Tee Shirt Promo]_dynamische blok in het raster en open het in de bewerkingsmodus.
+1. Zoek het _[!DNL Tee Shirt Promo]_&#x200B;dynamische blok in het raster en open het in de bewerkingsmodus.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en klik **[!UICONTROL Edit with Page Builder]**.
 
@@ -368,7 +368,7 @@ In dit laatste deel van de oefening, geeft u een dynamisch blok uit terwijl de p
 
 1. In de hoger-juiste hoek van het stadium, klik het _Dichte Volledige Scherm_ (![ Dichte volledig het schermpictogram ](./assets/pb-icon-reduce.png)) pictogram.
 
-   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_voor het dynamische blok met de voorvertoning.
+   Wanneer u op dit pictogram klikt, keert u terug naar de sectie _[!UICONTROL Content]_&#x200B;voor het dynamische blok met de voorvertoning.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 

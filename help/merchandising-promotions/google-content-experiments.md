@@ -49,7 +49,7 @@ U kunt maximaal tien variaties maken van elke entiteit die u wilt testen. Voor p
 
    **Methode 1:** kies een Bestaande Mening
 
-   Klik in de koptekst van de kolom _[!UICONTROL View]_op de pijl-omlaag en kies de weergave die de gegevens voor het experiment moet leveren.
+   Klik in de koptekst van de kolom _[!UICONTROL View]_&#x200B;op de pijl-omlaag en kies de weergave die de gegevens voor het experiment moet leveren.
 
    **Methode 2:** creeer een Nieuwe Rapporterende Mening
 
@@ -63,7 +63,7 @@ U kunt maximaal tien variaties maken van elke entiteit die u wilt testen. Voor p
 
    - Klik, wanneer deze bewerking is voltooid, op **[!UICONTROL Create View]** en vervolgens op de pijl Vorige om terug te keren naar de vorige pagina.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL Reports]_de optie **[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL Reports]_&#x200B;de optie **[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**.
 
 1. Klik op **[!UICONTROL Create experiment]** en voer de volgende handelingen uit:
 

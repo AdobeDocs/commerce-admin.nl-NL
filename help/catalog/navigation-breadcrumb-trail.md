@@ -48,11 +48,11 @@ Voorbeeld: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
    ![ toon Broodkruimels voor Pagina&#39;s CMS ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Vouw de sectie _[!UICONTROL Default Pages]_uit.
+1. Vouw de sectie _[!UICONTROL Default Pages]_&#x200B;uit.
 
 1. Schakel het selectievakje **[!UICONTROL Use system value]** uit.
 

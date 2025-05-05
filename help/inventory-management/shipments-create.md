@@ -54,9 +54,9 @@ Terwijl u verzendingen invoert, worden de ingevoerde hoeveelheden in de voorraad
 
      ![ selecteer een Source en ga een Aantal ](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"} in
 
-1. Controleer de pagina _[!UICONTROL New Shipment]_en voer zo nodig aanvullende wijzigingen in.
+1. Controleer de pagina _[!UICONTROL New Shipment]_&#x200B;en voer zo nodig aanvullende wijzigingen in.
 
-   In de sectie _[!UICONTROL Inventory]_worden de bron, de producten die worden verzonden, de totale geordende hoeveelheid en de hoeveelheid die wordt verzonden weergegeven.
+   In de sectie _[!UICONTROL Inventory]_&#x200B;worden de bron, de producten die worden verzonden, de totale geordende hoeveelheid en de hoeveelheid die wordt verzonden weergegeven.
 
    ![ de details van de Inventaris voor de verzending, voorbeeld gedeeltelijke verzending ](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

@@ -16,17 +16,17 @@ Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvo
 
 ![ sparen productattribuut - update geheim voorgeheugenbericht ](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-Op de pagina _[!UICONTROL Cache Management]_ziet u de status van elke primaire cache en de bijbehorende tag. De grote knopen in de hoger-juiste hoek kunnen worden gebruikt om het geheime voorgeheugen, of de alle-inclusieve Opslag van het Geheime voorgeheugen te spoelen. Onder aan de pagina kunt u met extra knoppen de cache voor productafbeeldingen in de catalogus en de JavaScript/CSS-cache leegmaken.
+Op de pagina _[!UICONTROL Cache Management]_&#x200B;ziet u de status van elke primaire cache en de bijbehorende tag. De grote knopen in de hoger-juiste hoek kunnen worden gebruikt om het geheime voorgeheugen, of de alle-inclusieve Opslag van het Geheime voorgeheugen te spoelen. Onder aan de pagina kunt u met extra knoppen de cache voor productafbeeldingen in de catalogus en de JavaScript/CSS-cache leegmaken.
 
 >[!IMPORTANT]
 >
->Wanneer entiteiten uit een catalogus worden gewijzigd, kan dit van invloed zijn op andere pagina&#39;s en meerdere cache tegelijk ongeldig maken. Wanneer u de pagina van het geheim voorgeheugenbeheer herziet, kon u ongeldige punten zien die vereisen verfrissen toen zij _**niet direct**_ werden uitgegeven. Deze validatie treedt bijvoorbeeld op wanneer u een product in de catalogus bewerkt dat aan een categorie is toegewezen, of wanneer u een regel voor een verwant product wijzigt.
+>Wanneer entiteiten uit een catalogus worden gewijzigd, kan dit van invloed zijn op andere pagina&#39;s en meerdere cache tegelijk ongeldig maken. Wanneer u de pagina van het geheim voorgeheugenbeheer herziet, kon u ongeldige punten zien die vereisen verfrissen toen zij _&#x200B;**niet direct**&#x200B;_ werden uitgegeven. Deze validatie treedt bijvoorbeeld op wanneer u een product in de catalogus bewerkt dat aan een categorie is toegewezen, of wanneer u een regel voor een verwant product wijzigt.
 
 Nadat u een cache hebt gewist, vernieuwt u altijd de browser om te controleren of u de meest recente bestanden kunt zien. Als u de Commerce-cache wist, wordt de cache van uw webbrowser niet gewist. Mogelijk moet u de cache van de browser wissen om de bijgewerkte inhoud te kunnen zien.
 
 De extra technische informatie over Adobe Commerce caching is beschikbaar van het [ overzicht van het Geheime voorgeheugen ](https://developer.adobe.com/commerce/frontend-core/guide/caching/) {:target= &quot;_blank&quot;} in de _Gids van de Ontwikkeling van de Voorkant van Commerce_.
 
-Ga op een van de volgende manieren te werk om de pagina _[!UICONTROL Cache Management]_te openen:
+Ga op een van de volgende manieren te werk om de pagina _[!UICONTROL Cache Management]_&#x200B;te openen:
 
 - Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven de werkruimte.
 - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -49,7 +49,7 @@ U kunt toegang tot specifieke acties van het geheim voorgeheugenonderhoud aan ge
 
 ![ de middelen van de Rol - geheim voorgeheugenbeheer ](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
-Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikersrekeningen te verlenen, zie {de middelen van de Rol 0} ](permissions-user-roles.md#role-resources). [ De volgende middelen controleren toegang tot de hulpmiddelen van het geheim voorgeheugenbeheer:
+Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikersrekeningen te verlenen, zie {de middelen van de Rol 0} [&#128279;](permissions-user-roles.md#role-resources).  De volgende middelen controleren toegang tot de hulpmiddelen van het geheim voorgeheugenbeheer:
 
 - [!UICONTROL Clean Cache Actions]
 
@@ -86,7 +86,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## De cache van de productafbeelding leegmaken
 
-1. Klik onder _[!UICONTROL Additional Cache Management]_op **[!UICONTROL Flush Catalog Images Cache]**om vooraf gegenereerde afbeeldingsbestanden voor het product te wissen.
+1. Klik onder _[!UICONTROL Additional Cache Management]_&#x200B;op **[!UICONTROL Flush Catalog Images Cache]**&#x200B;om vooraf gegenereerde afbeeldingsbestanden voor het product te wissen.
 
    Het `Image cache was cleaned` -bericht wordt boven in de werkruimte weergegeven.
 
@@ -94,7 +94,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## De JavaScript/CSS-cache leegmaken
 
-1. Wis onder _[!UICONTROL Additional Cache Management]_Javascript- en CSS-bestanden die zijn samengevoegd tot één bestand door op **[!UICONTROL Flush JavaScript/CSS Cache]**te klikken.
+1. Wis onder _[!UICONTROL Additional Cache Management]_&#x200B;Javascript- en CSS-bestanden die zijn samengevoegd tot één bestand door op **[!UICONTROL Flush JavaScript/CSS Cache]**&#x200B;te klikken.
 
    Het `The JavaScript/CSS cache has been cleaned` -bericht wordt boven in de werkruimte weergegeven.
 
@@ -108,7 +108,7 @@ Systeembeheerders en -ontwikkelaars met toegang tot de Commerce-toepassingsserve
 
 | Besturing | Beschrijving |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Selecteert checkbox van veelvoudige geheime voorgeheugens. Opties: <br/>**[!UICONTROL Select All]**— Selecteert het selectievakje van alle cache.<br/>** Unselect allen **— ontruimt checkbox van alle geheime voorgeheugens.<br/>**[!UICONTROL Select Visible]** — Selecteert het selectievakje van alle zichtbare cache. <br/>**[!UICONTROL Unselect Visible]**— Wist het selectievakje van alle zichtbare cache. |
+| [!UICONTROL Mass Actions] | Selecteert checkbox van veelvoudige geheime voorgeheugens. Opties: <br/>**[!UICONTROL Select All]**— Selecteert het selectievakje van alle cache.<br/>**&#x200B; Unselect allen &#x200B;**— ontruimt checkbox van alle geheime voorgeheugens.<br/>**[!UICONTROL Select Visible]** — Selecteert het selectievakje van alle zichtbare cache. <br/>**[!UICONTROL Unselect Visible]**— Wist het selectievakje van alle zichtbare cache. |
 | [!UICONTROL Actions] | Hiermee bepaalt u de actie die op alle geselecteerde caches moet worden toegepast. Opties: <br/>**[!UICONTROL Enable]**— Hiermee schakelt u alle geselecteerde caches in.<br/>**[!UICONTROL Disable]** — Schakelt alle geselecteerde caches uit. <br/>**[!UICONTROL Refresh]**— Hiermee vernieuwt u alle geselecteerde caches. |
 | [!UICONTROL Submit] | Hiermee past u de handeling toe op alle geselecteerde caches. |
 

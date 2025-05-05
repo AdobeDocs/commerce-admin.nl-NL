@@ -18,7 +18,7 @@ Klanten hebben toegang tot al hun bestellingen via hun account. Bestellingen kun
 
 {{b2b-feature}}
 
-Uw initiële _[!UICONTROL My Orders]_resultaten bevatten ook overeenkomende opdrachten van ondergeschikte gebruikers van alle websites in de instantie commerce. Een klant die aan een bedrijfrekening wordt geassocieerd kan de orderlijst filtreren om verslagen binnen de resultaten snel te vinden. Om de filteropties te tonen, klikt de klant **[!UICONTROL Filter]**, en klikt **[!UICONTROL Close]**om de filters te verbergen.
+Uw initiële _[!UICONTROL My Orders]_&#x200B;resultaten bevatten ook overeenkomende opdrachten van ondergeschikte gebruikers van alle websites in de instantie commerce. Een klant die aan een bedrijfrekening wordt geassocieerd kan de orderlijst filtreren om verslagen binnen de resultaten snel te vinden. Om de filteropties te tonen, klikt de klant **[!UICONTROL Filter]**, en klikt **[!UICONTROL Close]**&#x200B;om de filters te verbergen.
 
 ![ Mijn Orden ](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Een klant zoekt de volgorde in de lijst en klikt op **[!UICONTROL View Order]** 
 
 Het blok **[!UICONTROL Recent Orders]** wordt weergegeven op de zijbalk en op de pagina **[!UICONTROL My Account]** voor klanten die zich na het plaatsen van een bestelling hebben aangemeld. Er worden vijf producten weergegeven vanaf de laatste aankoop.
 
-De klant kan producten aan de kar lezen door de producten te selecteren en **[!UICONTROL Add to Cart]** te klikken. Ze kunnen ook de laatste volgorde weergeven door op **[!UICONTROL View all]** te klikken. Hiermee wordt doorgegaan naar de pagina _[!UICONTROL My Account]_en het blok **[!UICONTROL Recent Orders]**.
+De klant kan producten aan de kar lezen door de producten te selecteren en **[!UICONTROL Add to Cart]** te klikken. Ze kunnen ook de laatste volgorde weergeven door op **[!UICONTROL View all]** te klikken. Hiermee wordt doorgegaan naar de pagina _[!UICONTROL My Account]_&#x200B;en het blok **[!UICONTROL Recent Orders]**.
 
 ### Afdrukvolgorde
 
@@ -103,7 +103,7 @@ Een klant kan de functionaliteit voor opnieuw ordenen voor een specifieke volgor
 
 ## Herschikkingen
 
-De koppeling _[!UICONTROL Reorder]_wordt weergegeven in de lijst met bestellingen bij de koppeling_[!UICONTROL View]_ .
+De koppeling _[!UICONTROL Reorder]_&#x200B;wordt weergegeven in de lijst met bestellingen bij de koppeling&#x200B;_[!UICONTROL View]_ .
 
 ![ herordent verbinding op de Mijn pagina van de Orde ](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ De klant wordt omgeleid naar het winkelwagentje en alle producten worden aan het
 >
 >Het is mogelijk om `Not Visible Individually` -producten opnieuw te ordenen.
 
-De koppeling _[!UICONTROL Reorder]_wordt niet weergegeven op de pagina&#39;s_[!UICONTROL My Orders]_ en _[!UICONTROL View Order]_.
+De koppeling _[!UICONTROL Reorder]_&#x200B;wordt niet weergegeven op de pagina&#39;s&#x200B;_[!UICONTROL My Orders]_ en _[!UICONTROL View Order]_.
 
 ![ Mijn pagina van de Orde ](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Een klant kan de functie voor annuleren voor een specifieke bestelling starten o
 - Weergavepagina Volgorde
 - Pagina Mijn account
 
-De koppeling _[!UICONTROL Cancel Order]_wordt weergegeven bij de koppeling_[!UICONTROL Reorder]_ . Als de volgorde niet kan worden geannuleerd, wordt de koppeling niet weergegeven.
+De koppeling _[!UICONTROL Cancel Order]_&#x200B;wordt weergegeven bij de koppeling&#x200B;_[!UICONTROL Reorder]_ . Als de volgorde niet kan worden geannuleerd, wordt de koppeling niet weergegeven.
 
 ![ annuleert verbinding op de Mijn pagina van de Orde ](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Om annuleren uit te voeren, annuleert de klant:
 
    ![ annuleert op de Mijn pagina van de Orde ](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Na de annulering worden de bestellingen die de status _[!UICONTROL Pending]_hadden, gewijzigd in_[!UICONTROL Canceled]_ status, de bestellingen die de status _[!UICONTROL Processing]_hadden, gewijzigd in_[!UICONTROL Closed]_ status en terugbetaald.
+   Na de annulering worden de bestellingen die de status _[!UICONTROL Pending]_&#x200B;hadden, gewijzigd in&#x200B;_[!UICONTROL Canceled]_ status, de bestellingen die de status _[!UICONTROL Processing]_&#x200B;hadden, gewijzigd in&#x200B;_[!UICONTROL Closed]_ status en terugbetaald.
 
    Wanneer de annulering is voltooid, wordt een e-mail verzonden naar de klant.
 

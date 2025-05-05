@@ -30,7 +30,7 @@ De eerste stap bij het maken van nieuwsbrieven is het configureren van de nieuws
 
 1. Als u nieuwsbrieven wilt inschakelen voor het weergavebereik van de winkel, stelt u **[!UICONTROL Enabled]** in op `Yes` .
 
-Nadat u de nieuwsbrief hebt ingeschakeld, wordt de sectie _[!UICONTROL Subscription Options]_weergegeven.
+Nadat u de nieuwsbrief hebt ingeschakeld, wordt de sectie _[!UICONTROL Subscription Options]_&#x200B;weergegeven.
 
 ## Abonnementsopties configureren
 

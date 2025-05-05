@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL New Relic] rapporten
 
-[ New Relic ][1] is de dienst van de softwareanalyse die u helpt toepassingsinteractie analyseren en verbeteren. Voor Adobe Commerce-accounts in de cloud-infrastructuur is de software voor de [!DNL New Relic APM] -service inbegrepen. Voor meer informatie, zie {de diensten van 0} New Relic ][4] in _Commerce op de Gids van de Infrastructuur van de Wolk_.[
+[ New Relic ][1] is de dienst van de softwareanalyse die u helpt toepassingsinteractie analyseren en verbeteren. Voor Adobe Commerce-accounts in de cloud-infrastructuur is de software voor de [!DNL New Relic APM] -service inbegrepen. Voor meer informatie, zie {de diensten van 0} New Relic &rbrack;[4] in _Commerce op de Gids van de Infrastructuur van de Wolk_.&lbrack;
 
 ## Stap 1: Aanmelden voor een [!DNL New Relic] -account
 
@@ -145,6 +145,7 @@ Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opge
      WAAR CatalogCategoryCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  is
+
 #### Huidig aantal catalogi
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen in de catalogus per categorie gedurende de opgegeven tijdsperiode.
@@ -155,6 +156,7 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen in de catalogus per 
     IS EN CatalogCategoryCount > 0
     EN appName = &#39;&lt;your_app_name>&#39; SINDS 2 minuten geleden LIMIET 1
 &lt;/your_app_name>
+
 #### Actieve producten
 
 Retourneert het aantal toepassingsgebeurtenissen per product gedurende de opgegeven periode.
@@ -164,6 +166,7 @@ Retourneert het aantal toepassingsgebeurtenissen per product gedurende de opgege
      WAAR CatalogProductActiveCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
+
 #### Aantal actieve producten
 
 Geeft als resultaat het gemiddelde aantal actieve toepassingsgebeurtenissen per product gedurende de opgegeven periode.
@@ -174,6 +177,7 @@ Geeft als resultaat het gemiddelde aantal actieve toepassingsgebeurtenissen per 
      EN CatalogProductActiveCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  is
+
 #### Configureerbare producten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor configureerbare producten tijdens de opgegeven tijdsperiode.
@@ -183,6 +187,7 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor configureerbare
      WAAR CatalogProductConfigurableCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
+
 #### Configureerbaar aantal producten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen per configureerbaar product tijdens de opgegeven tijdsperiode.
@@ -193,6 +198,7 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen per configureerbaar 
      EN CatalogProductConfigurableCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  is
+
 #### Aantal producten (alle)
 
 Retourneert het totale aantal toepassingsgebeurtenissen voor alle producten.
@@ -202,6 +208,7 @@ Retourneert het totale aantal toepassingsgebeurtenissen voor alle producten.
      WAAR CatalogProductCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
+
 #### Huidig aantal producten (alle)
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor alle producten gedurende de opgegeven tijdsperiode.
@@ -212,6 +219,7 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor alle producten 
      EN CatalogProductCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  IS
+
 #### Aantal klanten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen per klant.
@@ -222,6 +230,7 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen per klant.
      EN CustomerCount > 0 &lt;
      EN appName = &quot;&lt;your_app_name>&quot;TIMESERIES 2 minuten 
  IS
+
 #### Huidig aantal klanten
 
 Retourneert het gemiddelde aantal klanten gedurende de opgegeven tijdsperiode.
@@ -232,6 +241,7 @@ Retourneert het gemiddelde aantal klanten gedurende de opgegeven tijdsperiode.
      EN CustomerCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  IS
+
 #### Modulestatus
 
 Retourneert het gemiddelde aantal keren dat toepassingsmodules tijdens de opgegeven tijdsperiode zijn ingeschakeld, uitgeschakeld of geïnstalleerd.
@@ -256,7 +266,7 @@ Geeft het gemiddelde aantal toepassingsgebeurtenissen per website en store tijde
 
      SELECT gemiddelde (StoreViewCount), gemiddelde (WebsiteCount) 
      VAN Kroon 
-     WAAR appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuten 
+     WAAR appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minuten 
 
 #### Huidige website- en winkelaantallen
 

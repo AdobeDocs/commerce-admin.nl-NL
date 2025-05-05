@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De _pagina van Meldingen_ maakt een lijst van alle berichten die door strengheid, met meest recente bij de bovenkant worden gerangschikt. De opdrachten van Handeling kunnen worden gebruikt om afzonderlijke berichten te markeren als gelezen berichten, om gedetailleerdere informatie weer te geven of om het bericht uit het Postvak IN te verwijderen.
 
-1. Voer een van de volgende handelingen uit om de pagina _[!UICONTROL Notifications]_te openen:
+1. Voer een van de volgende handelingen uit om de pagina _[!UICONTROL Notifications]_&#x200B;te openen:
 
    - Klik het _pictogram van het Bericht_ in de kopbal. Als er een of meer nieuwe berichten worden weergegeven, klikt u op **[!UICONTROL See All]** .
 

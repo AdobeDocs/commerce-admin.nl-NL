@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Virtuele producten, of digitale goederen, vertegenwoordigen niet-tastbare zaken zoals lidmaatschappen, de diensten, de garanties, of abonnementen, en digitale downloads van boeken, muziek, video&#39;s, of andere producten. De virtuele producten kunnen individueel of inbegrepen als deel van het [ Gegroepeerde Product ](product-create-grouped.md), [ Configureerbaar Product ](product-create-configurable.md), of [ Bundel de producttypes van het Product ](product-create-bundle.md) worden verkocht.
 
-Behalve de afwezigheid van het veld _[!UICONTROL Weight]_is het proces voor het maken van een virtueel product en een eenvoudig product hetzelfde. De volgende instructies tonen het proces aan om een virtueel product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+Behalve de afwezigheid van het veld _[!UICONTROL Weight]_&#x200B;is het proces voor het maken van een virtueel product en een eenvoudig product hetzelfde. De volgende instructies tonen het proces aan om een virtueel product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Voer de benodigde gegevens in de volgende secties in:
 
 >[!NOTE]
 >
->De optie _[!UICONTROL Is this downloadable product?]_is standaard uitgeschakeld. Het toelaten van deze eigenschap voor een virtueel product maakt het product [ Downloadbaar ](product-create-downloadable.md#downloadable-product).
+>De optie _[!UICONTROL Is this downloadable product?]_&#x200B;is standaard uitgeschakeld. Het toelaten van deze eigenschap voor een virtueel product maakt het product [ Downloadbaar ](product-create-downloadable.md#downloadable-product).
 
 ## Stap 6: Publish het product
 

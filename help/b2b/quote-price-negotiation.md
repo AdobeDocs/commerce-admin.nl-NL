@@ -47,7 +47,7 @@ Kopers beheren het onderhandelingsproces voor aanhalingstekens vanuit de winkel 
 
 1. Kies een **[!UICONTROL Expiration Date]** voor de offerte.
 
-1. Blader omlaag naar de sectie _[!UICONTROL Quote Totals]_en werk de **[!UICONTROL Negotiated Price]**zo nodig bij.
+1. Blader omlaag naar de sectie _[!UICONTROL Quote Totals]_&#x200B;en werk de **[!UICONTROL Negotiated Price]**&#x200B;zo nodig bij.
 
    ![ Update Onderhandelde Prijs ](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ zowel de korting op het regelartikel als de korting op het prijsniveau worden to
 
 1. Voer een **[!UICONTROL Proposed Shipping Price]** in.
 
-   _[!UICONTROL Quote Totals]_wordt bijgewerkt om de voorgestelde verzendprijs weer te geven.
+   _[!UICONTROL Quote Totals]_&#x200B;wordt bijgewerkt om de voorgestelde verzendprijs weer te geven.
 
 ### Voeg een ondersteunend document bij
 
@@ -112,7 +112,7 @@ zowel de korting op het regelartikel als de korting op het prijsniveau worden to
 
 ## Stap 3: Werk citaat-vlakke informatie bij, en verzend uw antwoord
 
-1. Voer in de sectie _[!UICONTROL Negotiation]_op het tabblad_[!UICONTROL Comments]_ uw antwoord in de sectie **[!UICONTROL Add your comment]** in.
+1. Voer in de sectie _[!UICONTROL Negotiation]_&#x200B;op het tabblad&#x200B;_[!UICONTROL Comments]_ uw antwoord in de sectie **[!UICONTROL Add your comment]** in.
 
 1. Als u een ondersteunend document wilt opnemen, klikt u op **[!UICONTROL Attach file]** en selecteert u het bestand in de directory.
 
@@ -120,7 +120,7 @@ zowel de korting op het regelartikel als de korting op het prijsniveau worden to
 
 1. Een korting toepassen op het citaat:
 
-   - Kies onder _[!UICONTROL Quote Totals]_in de sectie_[!UICONTROL Negotiated Price]_ een van de volgende kortingstypen:
+   - Kies onder _[!UICONTROL Quote Totals]_&#x200B;in de sectie&#x200B;_[!UICONTROL Negotiated Price]_ een van de volgende kortingstypen:
 
       - `Percentage Discount`: Met een percentagekorting verlaagt u de oorspronkelijke prijs met een bepaald percentage.
       - `Amount Discount`: Met een korting op het bedrag wordt een vaste prijsverlaging toegepast.

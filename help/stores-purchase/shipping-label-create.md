@@ -45,7 +45,7 @@ Volg de instructies van elke vervoerder om ondersteuning voor verzendlabels aan 
 
 United Parcel Service verzendt zowel binnenlands als internationaal. Verzendlabels kunnen echter alleen worden gegenereerd voor zendingen die afkomstig zijn uit de Verenigde Staten.
 
-1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_in het linkerdeelvenster.
+1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_&#x200B;in het linkerdeelvenster.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
 
@@ -124,7 +124,7 @@ DHL verleent internationale scheepvaartdiensten.
 
 1. Producten toevoegen of bijwerken in pakket:
 
-   - Klik op **[!UICONTROL Add Products]** om producten uit de volgorde aan het pakket toe te voegen. In de kolom _[!UICONTROL Quantity]_wordt het maximumaantal producten weergegeven dat beschikbaar is voor het pakket.
+   - Klik op **[!UICONTROL Add Products]** om producten uit de volgorde aan het pakket toe te voegen. In de kolom _[!UICONTROL Quantity]_&#x200B;wordt het maximumaantal producten weergegeven dat beschikbaar is voor het pakket.
 
    - Schakel het selectievakje in van elk product dat aan het pakket moet worden toegevoegd en voer de **[!UICONTROL Quantity]** van elk product in. Klik vervolgens op **[!UICONTROL Add Selected Product(s) to Package]** .
 
@@ -132,7 +132,7 @@ DHL verleent internationale scheepvaartdiensten.
 
    - Als u een pakket wilt verwijderen, klikt u op **[!UICONTROL Delete Package]** .
 
-   - Als u een bestelling wilt annuleren, klikt u op **[!UICONTROL Cancel]** . Er wordt geen verzendlabel gemaakt en het selectievakje _[!UICONTROL Create Shipping Label]_wordt gewist.
+   - Als u een bestelling wilt annuleren, klikt u op **[!UICONTROL Cancel]** . Er wordt geen verzendlabel gemaakt en het selectievakje _[!UICONTROL Create Shipping Label]_&#x200B;wordt gewist.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ DHL verleent internationale scheepvaartdiensten.
 
 1. Zoek de volgorde in het raster en open het verzendformulier.
 
-1. Klik in de sectie _[!UICONTROL Shipping and Tracking Information]_op **[!UICONTROL Create Shipping Label]**.
+1. Klik in de sectie _[!UICONTROL Shipping and Tracking Information]_&#x200B;op **[!UICONTROL Create Shipping Label]**.
 
 1. Verdeel de geordende producten naar de juiste pakketten en klik op **[!UICONTROL OK]** .
 
@@ -174,7 +174,7 @@ Verzendlabels worden gegenereerd in PDF-indeling en kunnen worden afgedrukt via 
 
    Afhankelijk van uw browserinstellingen kunnen de verzendlabels rechtstreeks vanuit het PDF-bestand worden weergegeven en afgedrukt.
 
-   De knop _[!UICONTROL Print Shipping Label]_wordt alleen weergegeven nadat de provider labels voor de verzending heeft gegenereerd. Klik op **[!UICONTROL Create Shipping Label]**als de knop ontbreekt. De knop wordt weergegeven nadat Commerce het label van de carrier heeft ontvangen.
+   De knop _[!UICONTROL Print Shipping Label]_&#x200B;wordt alleen weergegeven nadat de provider labels voor de verzending heeft gegenereerd. Klik op **[!UICONTROL Create Shipping Label]**&#x200B;als de knop ontbreekt. De knop wordt weergegeven nadat Commerce het label van de carrier heeft ontvangen.
 
 ### Methode 2: etiketten afdrukken voor meerdere bestellingen
 
@@ -203,7 +203,7 @@ Voor elke verzending die betrekking heeft op de geselecteerde bestellingen, word
 
 ## Pakketten maken
 
-Het venster _[!UICONTROL Create Packages]_wordt weergegeven wanneer u een verzendlabel maakt. U kunt direct beginnen het eerste pakket te vormen.
+Het venster _[!UICONTROL Create Packages]_&#x200B;wordt weergegeven wanneer u een verzendlabel maakt. U kunt direct beginnen het eerste pakket te vormen.
 
 ### Een pakket configureren
 
@@ -215,7 +215,7 @@ Het venster _[!UICONTROL Create Packages]_wordt weergegeven wanneer u een verzen
 
    - Vermeld de producten en de hoeveelheden.
 
-     In de kolom _[!UICONTROL Qty]_wordt de maximale hoeveelheid weergegeven die u kunt toevoegen. Voor de eerste verpakking is het nummer de totale hoeveelheid van het te verzenden product.
+     In de kolom _[!UICONTROL Qty]_&#x200B;wordt de maximale hoeveelheid weergegeven die u kunt toevoegen. Voor de eerste verpakking is het nummer de totale hoeveelheid van het te verzenden product.
 
    - Klik op **[!UICONTROL Add Selected Product(s) to Package]** om de producten aan het pakket toe te voegen.
 
@@ -255,7 +255,7 @@ U kunt desgewenst op **[!UICONTROL Cancel]** klikken om het proces te stoppen. D
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Type] | Geeft het type pakket aan. Selecteer een van de vooraf gedefinieerde waarden. De beschikbare pakkettypen zijn verschillend voor elke verzender. Als het pop-upvenster Pakketten maken wordt geopend, wordt het standaardpakket voor de verzendende provider weergegeven in het veld Type. Als u een pakket selecteert dat niet door een verzendende vervoerder is ontworpen, moet u de afmetingen van het pakket invoeren. Voor verzendlabels die zijn gemaakt voor DHL-, FedEx- en UPS-verzendingen, wordt het veld Type van goederen ingesteld op `Merchandise` . Voor USPS, wijst het gebied op de waarde van het _gebied van de Inhoud_ in het _[!UICONTROL Create Packages]_venster. |
+| [!UICONTROL Type] | Geeft het type pakket aan. Selecteer een van de vooraf gedefinieerde waarden. De beschikbare pakkettypen zijn verschillend voor elke verzender. Als het pop-upvenster Pakketten maken wordt geopend, wordt het standaardpakket voor de verzendende provider weergegeven in het veld Type. Als u een pakket selecteert dat niet door een verzendende vervoerder is ontworpen, moet u de afmetingen van het pakket invoeren. Voor verzendlabels die zijn gemaakt voor DHL-, FedEx- en UPS-verzendingen, wordt het veld Type van goederen ingesteld op `Merchandise` . Voor USPS, wijst het gebied op de waarde van het _gebied van de Inhoud_ in het _[!UICONTROL Create Packages]_&#x200B;venster. |
 | [!UICONTROL Total Weight] | Het totale gewicht van een verpakking. Het veld wordt voorgevuld met het totale gewicht van de producten in een verpakking. De meeteenheid kan worden ingesteld op kilogram of kilogram. |
 | [!UICONTROL Length] | De lengte van een pakket, geheel getal en drijvende-kommagetallen. Het veld wordt ingeschakeld als het aangepaste pakkettype wordt gebruikt. De maateenheid kan worden ingesteld op inches of centimeters. |
 | [!UICONTROL Width] | De breedte van een pakket, geheel getal en drijvende-kommagetallen. Het veld wordt ingeschakeld als het aangepaste pakkettype wordt gebruikt. U kunt de maateenheden opgeven in het vervolgkeuzemenu naast het veld Hoogte. U kunt deze eenheden selecteren tussen inches en centimeters. |

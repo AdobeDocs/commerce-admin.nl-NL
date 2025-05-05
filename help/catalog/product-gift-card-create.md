@@ -96,7 +96,7 @@ Er kunnen aanvullende individuele kenmerken zijn die het product beschrijven. De
 
 ### Stap 5: De kaartgegevens van de cadeau invullen
 
-De _[!UICONTROL Gift Card Information]_sectie van de productmontages kan worden gebruikt om de [ configuratie van de giftekaart ](../configuration-reference/sales/gift-cards.md) montages met voeten te treden die bepalen hoe de kaart wordt beheerd.
+De _[!UICONTROL Gift Card Information]_&#x200B;sectie van de productmontages kan worden gebruikt om de [ configuratie van de giftekaart ](../configuration-reference/sales/gift-cards.md) montages met voeten te treden die bepalen hoe de kaart wordt beheerd.
 
 1. Schuif omlaag naar de sectie _[!UICONTROL Gift Card Information]_.
 

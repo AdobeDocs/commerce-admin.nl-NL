@@ -36,7 +36,7 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 >[!NOTE]
 >
-> URL herschrijft kan voor de archiefmening of het websitewerkingsgebied worden geproduceerd. Stel het bereik voor het herschrijven van de URL in via Beheer op **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selecteer het bereik in het veld_[!UICONTROL Product URL Rewrite Scope]_ .
+> URL herschrijft kan voor de archiefmening of het websitewerkingsgebied worden geproduceerd. Stel het bereik voor het herschrijven van de URL in via Beheer op **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selecteer het bereik in het veld&#x200B;_[!UICONTROL Product URL Rewrite Scope]_ .
 
 ## product-URL&#39;s automatisch doorsturen
 

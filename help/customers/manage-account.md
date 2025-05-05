@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Klantenaccounts beheren
 
-Gebruik het raster _[!UICONTROL Customers]_om een klantenaccount te zoeken. U kunt de standaard [ werkplekcontroles ](../getting-started/admin-workspace.md) gebruiken om de lijst te filtreren, de [ kolomlay-out ](../getting-started/admin-grid-controls.md), sparen meningen, en de uitvoergegevens te veranderen. De [ controle van Acties ](../getting-started/admin-actions-control.md) boven het net kan worden gebruikt om een verrichting op veelvoudige klantenverslagen toe te passen.
+Gebruik het raster _[!UICONTROL Customers]_&#x200B;om een klantenaccount te zoeken. U kunt de standaard [ werkplekcontroles ](../getting-started/admin-workspace.md) gebruiken om de lijst te filtreren, de [ kolomlay-out ](../getting-started/admin-grid-controls.md), sparen meningen, en de uitvoergegevens te veranderen. De [ controle van Acties ](../getting-started/admin-actions-control.md) boven het net kan worden gebruikt om een verrichting op veelvoudige klantenverslagen toe te passen.
 
 ![ Alle Klanten ](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

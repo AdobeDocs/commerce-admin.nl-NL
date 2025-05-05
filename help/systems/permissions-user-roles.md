@@ -26,9 +26,9 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 ### Stap 1: Voeg de rolnaam toe
 
-1. Voer onder _[!UICONTROL Role Information]_een beschrijvende **[!UICONTROL Role Name]**in.
+1. Voer onder _[!UICONTROL Role Information]_&#x200B;een beschrijvende **[!UICONTROL Role Name]**&#x200B;in.
 
-1. Voer onder _[!UICONTROL Current User Identity Verification]_uw wachtwoord in.
+1. Voer onder _[!UICONTROL Current User Identity Verification]_&#x200B;uw wachtwoord in.
 
    ![ toestemmingen van het Systeem - rolinformatie ](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
    >[!NOTE]
    >
-   >Gebruikers met een rolbereik van `Custom` kunnen geen websites en categorieën maken, producten aan categorieën toewijzen of producten in het bereik van _[!UICONTROL All Store Views]_bewerken wanneer ze worden toegewezen aan winkels met beperkingen. Deze gebruikers kunnen ook andere_ globale _acties uitvoeren die werkingsgebied beïnvloeden waar zij geen toegang hebben.
+   >Gebruikers met een rolbereik van `Custom` kunnen geen websites en categorieën maken, producten aan categorieën toewijzen of producten in het bereik van _[!UICONTROL All Store Views]_&#x200B;bewerken wanneer ze worden toegewezen aan winkels met beperkingen. Deze gebruikers kunnen ook andere_ globale _acties uitvoeren die werkingsgebied beïnvloeden waar zij geen toegang hebben.
 
-1. Stel onder _[!UICONTROL Roles Resources]_de waarde **[!UICONTROL Resource Access]**in op `Custom` .
+1. Stel onder _[!UICONTROL Roles Resources]_&#x200B;de waarde **[!UICONTROL Resource Access]**&#x200B;in op `Custom` .
 
 1. Selecteer in de boomstructuur van **[!UICONTROL Resource]** het selectievakje van elke beheerfunctie waartoe de rol toegang heeft.
 
@@ -63,7 +63,7 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
    >[!NOTE]
    >
-   >Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** toestemmingen voor hun rolwerkingsgebied hebben om _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, en _[!UICONTROL Shipments]_orde [ lusjes ](../stores-purchase/order-processing.md) te zien.
+   >Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** toestemmingen voor hun rolwerkingsgebied hebben om _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, en _[!UICONTROL Shipments]_&#x200B;orde [ lusjes ](../stores-purchase/order-processing.md) te zien.
 
 1. Klik op **[!UICONTROL Save Role]** als de bewerking is voltooid.
 
@@ -73,11 +73,11 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 1. Open vanuit het _[!UICONTROL Roles]_-raster de record in de bewerkingsmodus.
 
-1. Voer onder _[!UICONTROL Current User Identity Verification]_het wachtwoord voor uw gebruikersaccount in.
+1. Voer onder _[!UICONTROL Current User Identity Verification]_&#x200B;het wachtwoord voor uw gebruikersaccount in.
 
 1. Kies **[!UICONTROL Role Users]** in het linkerdeelvenster.
 
-   De optie _[!UICONTROL Role Users]_wordt alleen weergegeven nadat een nieuwe rol is opgeslagen.
+   De optie _[!UICONTROL Role Users]_&#x200B;wordt alleen weergegeven nadat een nieuwe rol is opgeslagen.
 
    ![ die de rekeningen van de Gebruiker aan de rol ](./assets/permissions-role-users.png){width="600" zoomable="yes"} worden toegewezen
 

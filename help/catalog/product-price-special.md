@@ -50,7 +50,7 @@ Adobe Commerce omvat steun voor [ geplande updates ](../content-design/content-s
 
    In de winkel moet de speciale prijs zowel in de cataloguslijst als op de productpagina worden vermeld.
 
-   De _[!UICONTROL Scheduled Change]_wordt boven aan de pagina weergegeven.
+   De _[!UICONTROL Scheduled Change]_&#x200B;wordt boven aan de pagina weergegeven.
 
    ![ Geplande Verandering ](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Magento Open Source bevat eenvoudige begin- en einddatumopties in de geavanceerd
 
 1. Open het product in de bewerkingsmodus.
 
-1. Schuif omlaag naar het veld _[!UICONTROL Price]_, klik op **[!UICONTROL Advanced Pricing]**en voer de hoeveelheid **[!UICONTROL Special Price]**in.
+1. Schuif omlaag naar het veld _[!UICONTROL Price]_, klik op **[!UICONTROL Advanced Pricing]**&#x200B;en voer de hoeveelheid **[!UICONTROL Special Price]**&#x200B;in.
 
 1. Gebruik het _pictogram van de Kalender_ ( ![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de speciale prijsbevordering te kiezen.
 
@@ -84,7 +84,7 @@ U kunt een speciale prijs aan veelvoudige producten, zoals veelvoudige variaties
 
 In het volgende voorbeeld ziet u hoe u dezelfde speciale prijs kunt toewijzen aan meerdere productvariaties van een configureerbaar product in Adobe Commerce.
 
-1. Klik op de pagina _[!UICONTROL Products]_op **[!UICONTROL Filters]**en voer de **[!UICONTROL Name]**van het configureerbare product in.
+1. Klik op de pagina _[!UICONTROL Products]_&#x200B;op **[!UICONTROL Filters]**&#x200B;en voer de **[!UICONTROL Name]**&#x200B;van het configureerbare product in.
 
 1. Stel **[!UICONTROL Type]** in op `Configurable Product` en klik op **[!UICONTROL Apply Filters]** .
 
@@ -94,7 +94,7 @@ In het volgende voorbeeld ziet u hoe u dezelfde speciale prijs kunt toewijzen aa
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `Update attributes` .
 
-1. Schuif omlaag naar het veld _[!UICONTROL Special Price]_en schakel het selectievakje **[!UICONTROL Change]**onder het veld_[!UICONTROL Special Price]_ in. Voer vervolgens de speciale prijs in die u wilt aanbieden.
+1. Schuif omlaag naar het veld _[!UICONTROL Special Price]_&#x200B;en schakel het selectievakje **[!UICONTROL Change]**&#x200B;onder het veld&#x200B;_[!UICONTROL Special Price]_ in. Voer vervolgens de speciale prijs in die u wilt aanbieden.
 
    ![ de Speciale gebieden van de Prijs ](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -164,4 +164,4 @@ Als de speciale prijs niet correct in de winkel op zowel de cataloguslijst als p
 
 >[!NOTE]
 >
->_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+>_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Toewijzingen van producten in categorie
 
-Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_om de producten te bekijken die momenteel aan de categorie zijn toegewezen. De zoekfilters boven aan elke kolom worden gebruikt om producten toe te voegen aan en te verwijderen uit de categorie. U kunt [ categorieregels ](../merchandising-promotions/category-product-rules.md) ( ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce slechts) ook gebruiken om de productselectie dynamisch te veranderen wanneer een reeks voorwaarden wordt voldaan aan. Meer leren, zie [ Visuele Merchandiser ](../merchandising-promotions/visual-merchandiser.md)).
+Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x200B;om de producten te bekijken die momenteel aan de categorie zijn toegewezen. De zoekfilters boven aan elke kolom worden gebruikt om producten toe te voegen aan en te verwijderen uit de categorie. U kunt [ categorieregels ](../merchandising-promotions/category-product-rules.md) ( ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce slechts) ook gebruiken om de productselectie dynamisch te veranderen wanneer een reeks voorwaarden wordt voldaan aan. Meer leren, zie [ Visuele Merchandiser ](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
->Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**wanneer deze categorie wordt bewaard._ Om ervoor te zorgen dat een nieuw product volgens de regel wordt toegewezen wanneer u het aan de catalogus toevoegt, moet u **elke categorie** resave die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _gesorteerd_ volgens de **Automatische het Sorteren** regel, moet u **[!UICONTROL Save Category]** klikken.
+>Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**&#x200B;wanneer deze categorie wordt bewaard._ Om ervoor te zorgen dat een nieuw product volgens de regel wordt toegewezen wanneer u het aan de catalogus toevoegt, moet u **elke categorie** resave die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _gesorteerd_ volgens de **Automatische het Sorteren** regel, moet u **[!UICONTROL Save Category]** klikken.
 
 ![ Producten van de Categorie ](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_om de
 
 >[!NOTE]
 >
->De _kolom van de Voorraad_ toont verkoopbare producthoeveelheid voor _**geselecteerd categoriewerkingsgebied**_ slechts. Wanneer de veelvoudige voorraden voor producten worden beheerd, zou u tussen het overeenkomstige werkingsgebied moeten schakelen om andere _de kolomwaarden van de Beeld_ in het _CategorieProducten_ net te tonen.
+>De _kolom van de Voorraad_ toont verkoopbare producthoeveelheid voor _&#x200B;**geselecteerd categoriewerkingsgebied**&#x200B;_ slechts. Wanneer de veelvoudige voorraden voor producten worden beheerd, zou u tussen het overeenkomstige werkingsgebied moeten schakelen om andere _de kolomwaarden van de Beeld_ in het _CategorieProducten_ net te tonen.
 
 ## Een categorieregel toepassen
 
@@ -80,7 +80,7 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_om de
 
 | Optie | Beschrijving |
 |--- |--- |
-| [!UICONTROL Attribute] | Bepaalt het attribuut dat als basis van de voorwaarde wordt gebruikt. Opties: <br/>**[!UICONTROL Clone Category ID(s)]**- kloont producten dynamisch, zonder sorteren en volgorde, van meerdere categorieën op basis van categorie-id.<br/>**[!UICONTROL Color]** - Bevat producten die op kleur zijn gebaseerd. <br/>**[!UICONTROL Date Created (days ago)]**- Bevat producten op basis van het aantal dagen sinds de producten aan de catalogus zijn toegevoegd.<br/>**[!UICONTROL Date Modified (days ago)]** - Bevat producten op basis van het aantal dagen sinds de producten voor het laatst zijn gewijzigd. <br/>**[!UICONTROL Name]**- Bevat producten op basis van de productnaam.<br/>**[!UICONTROL Price]** - Bevat producten op basis van de prijs. <br/>**[!UICONTROL Quantity]**- Bevat producten op basis van de hoeveelheid in voorraad.<br/>** SKU **- omvat producten die op SKU worden gebaseerd. |
+| [!UICONTROL Attribute] | Bepaalt het attribuut dat als basis van de voorwaarde wordt gebruikt. Opties: <br/>**[!UICONTROL Clone Category ID(s)]**- kloont producten dynamisch, zonder sorteren en volgorde, van meerdere categorieën op basis van categorie-id.<br/>**[!UICONTROL Color]** - Bevat producten die op kleur zijn gebaseerd. <br/>**[!UICONTROL Date Created (days ago)]**- Bevat producten op basis van het aantal dagen sinds de producten aan de catalogus zijn toegevoegd.<br/>**[!UICONTROL Date Modified (days ago)]** - Bevat producten op basis van het aantal dagen sinds de producten voor het laatst zijn gewijzigd. <br/>**[!UICONTROL Name]**- Bevat producten op basis van de productnaam.<br/>**[!UICONTROL Price]** - Bevat producten op basis van de prijs. <br/>**[!UICONTROL Quantity]**- Bevat producten op basis van de hoeveelheid in voorraad.<br/>**&#x200B; SKU &#x200B;**- omvat producten die op SKU worden gebaseerd. |
 | [!UICONTROL Operator] | Geeft de operator op die op de kenmerkwaarde wordt toegepast om aan de voorwaarde te voldoen. Tenzij een operator is opgegeven, wordt `Equal` als de standaardwaarde gebruikt. Opties: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Geeft de waarde op die het kenmerk aan de voorwaarde moet voldoen. |
 | [!UICONTROL Logic] | Wordt gebruikt om meerdere voorwaarden te definiëren en wordt alleen weergegeven wanneer een andere voorwaarde wordt toegevoegd. Opties: `OR` / `AND` |

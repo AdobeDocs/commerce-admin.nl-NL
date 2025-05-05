@@ -51,7 +51,7 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
    - Stel **[!UICONTROL Displaying Modes]** in op een van de volgende opties:
 
       - `Always` — CAPTCHA is altijd vereist om u aan te melden bij de beheerder.
-      - `After number of attempts to login` — Deze optie is alleen van toepassing op het aanmeldingsformulier voor beheerders. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde 0 (nul) komt overeen met het instellen van de weergavemodus op `Always` .
+      - `After number of attempts to login` — Deze optie is alleen van toepassing op het aanmeldingsformulier voor beheerders. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde 0 (nul) komt overeen met het instellen van de weergavemodus op `Always` .
 
      Om het aantal mislukte aanmeldingspogingen bij te houden, wordt elke poging tot aanmelding onder één e-mailadres en van één IP-adres geteld. Het maximumaantal login pogingen die van het zelfde IP-adres worden toegestaan is 1.000. Deze beperking is alleen van toepassing wanneer CAPTCHA is ingeschakeld.
 

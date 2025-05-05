@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores] menu
 
-Via het menu _[!UICONTROL Stores]_hebt u toegang tot instellingen die minder vaak worden gebruikt, maar waarnaar in de hele installatie van Adobe Commerce of Magento Open Source wordt verwezen. Deze functies omvatten het instellen van de hiërarchie van de winkel, configuratie, verkoop- en orderinstellingen, belastingen en valuta, productkenmerken, beoordelingen van productevaluaties en klantengroepen.
+Via het menu _[!UICONTROL Stores]_&#x200B;hebt u toegang tot instellingen die minder vaak worden gebruikt, maar waarnaar in de hele installatie van Adobe Commerce of Magento Open Source wordt verwezen. Deze functies omvatten het instellen van de hiërarchie van de winkel, configuratie, verkoop- en orderinstellingen, belastingen en valuta, productkenmerken, beoordelingen van productevaluaties en klantengroepen.
 
 ![ Admin - het menu van Opslag ](./assets/stores-menu.png){width="500" zoomable="yes"}
 

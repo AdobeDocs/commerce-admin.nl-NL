@@ -23,7 +23,7 @@ In de standaardcategorieboom, is de wortelcategorie de hoogste container en word
 
 1. Op _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. Ga voor de gedeelde catalogus in het raster naar de kolom _[!UICONTROL Action]_en klik op **[!UICONTROL Set Pricing and Structure]**.
+1. Ga voor de gedeelde catalogus in het raster naar de kolom _[!UICONTROL Action]_&#x200B;en klik op **[!UICONTROL Set Pricing and Structure]**.
 
    ![ Vastgestelde tarifering en structuur voor gedeelde catalogus ](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -79,11 +79,11 @@ U kunt aangepaste prijzen voor elk product afzonderlijk instellen of de _[!UICON
 
   >[!NOTE]
   >
-  >_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+  >_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
 
 - **[!UICONTROL Percentage]**: hiermee wordt de aangepaste prijs bepaald op basis van het kortingspercentage. Als u bijvoorbeeld een korting van 10 procent wilt aanbieden, stelt u het aangepaste prijstype in op `Percentage` en voert u `10` in. De verdisconteerde aangepaste prijs is 90 procent van de oorspronkelijke productprijs.
 
-Als u de korting wilt instellen op een vast bedrag of een percentage voor de volgende producttypen, gebruikt u de kolom _[!UICONTROL Custom Price]_in het raster:
+Als u de korting wilt instellen op een vast bedrag of een percentage voor de volgende producttypen, gebruikt u de kolom _[!UICONTROL Custom Price]_&#x200B;in het raster:
 
 - [ Eenvoudig ](../catalog/product-create-simple.md) (met inbegrip van configureerbare productvariaties)
 - [Bundel](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ De selectie van producten in het net kan niet van de _pagina van de Prijzen van 
 1. Gebruik een van de volgende methoden om de producten te selecteren waarop de aangepaste prijs van toepassing is.
 
    - Gebruik de categoriestructuur om alle producten in een specifieke categorie te selecteren.
-   - Stel het besturingselement _[!UICONTROL Mass Actions]_in de koptekst in op `Select All` .
+   - Stel het besturingselement _[!UICONTROL Mass Actions]_&#x200B;in de koptekst in op `Select All` .
    - Schakel het selectievakje voor afzonderlijke producten in.
 
    In het raster worden de producten in de momenteel geselecteerde categorieën weergegeven en u kunt de standaardbesturingselementen gebruiken om producten te zoeken en de lijst te filteren.
@@ -163,4 +163,4 @@ De volgende instructies laten zien hoe u de prijzen op lagen kunt toepassen op �
 
 Wanneer de aangepaste prijs is voltooid, klikt u op **[!UICONTROL Generate Catalog]** en **[!UICONTROL Save]** .
 
-De gedeelde catalogus wordt nu opgeslagen in de database. De naam ervan wordt weergegeven in de kolom _[!UICONTROL Shared Catalog]_van het_[!UICONTROL Products]_ -raster. De volgende stap moet [ de gedeelde catalogus aan een bedrijf ](./catalog-shared-assign-companies.md) toewijzen.
+De gedeelde catalogus wordt nu opgeslagen in de database. De naam ervan wordt weergegeven in de kolom _[!UICONTROL Shared Catalog]_&#x200B;van het&#x200B;_[!UICONTROL Products]_ -raster. De volgende stap moet [ de gedeelde catalogus aan een bedrijf ](./catalog-shared-assign-companies.md) toewijzen.

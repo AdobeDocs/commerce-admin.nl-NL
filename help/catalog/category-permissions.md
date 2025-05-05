@@ -24,7 +24,7 @@ Bijvoorbeeld, als u slechts aan groothandelsklanten verkoopt, kunt u iedereen to
 
 ![ Logged-in gebruikers zien &quot;Inzamelingen&quot;categorie ](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Als deze optie is ingeschakeld, wordt op de pagina Categorie een nieuwe sectie _[!UICONTROL Category Permissions]_weergegeven waarmee u de benodigde toegang voor elke categorie kunt toepassen. U kunt veelvoudige toestemmingsregels aan elke categorie voor verschillende websites en klantengroepen toevoegen.
+Als deze optie is ingeschakeld, wordt op de pagina Categorie een nieuwe sectie _[!UICONTROL Category Permissions]_&#x200B;weergegeven waarmee u de benodigde toegang voor elke categorie kunt toepassen. U kunt veelvoudige toestemmingsregels aan elke categorie voor verschillende websites en klantengroepen toevoegen.
 
 ## Stap 1: Categoriemachtigingen configureren
 
@@ -74,7 +74,7 @@ Om **_toegang te beperken en aan een het landen pagina_** om te leiden, doe het 
 
    >[!NOTE]
    >
-   >Hoewel de instelling _[!UICONTROL Allow Browsing Category]_van toepassing is op alle categorieën in de website, kunt u voor elke winkelweergave een andere bestemmingspagina configureren.
+   >Hoewel de instelling _[!UICONTROL Allow Browsing Category]_&#x200B;van toepassing is op alle categorieën in de website, kunt u voor elke winkelweergave een andere bestemmingspagina configureren.
 
 ### [!UICONTROL Display Product Prices]
 
