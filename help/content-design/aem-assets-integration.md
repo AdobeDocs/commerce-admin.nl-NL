@@ -40,7 +40,7 @@ Adobe Experience Manager (AEM) Assets Integration for Commerce combineert de rob
 
 Bekijk deze video om te leren hoe Adobe Commerce en AEM Assets samenwerken om inhoudsworkflows te stroomlijnen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447889?captions=dut)
 
 ## Volgende stap
 

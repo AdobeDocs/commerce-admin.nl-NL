@@ -38,4 +38,4 @@ Of u nu nieuw bent in [!DNL Commerce] of een ervaren gebruiker, voltooi de volge
 
 Bekijk deze video voor meer informatie over de mogelijkheden van Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447899?quality=12&learn=on&captions=dut)
