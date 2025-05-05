@@ -5,10 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -19,16 +20,16 @@ ht-degree: 0%
 - [Inleiding tot  [!DNL Page Builder]](introduction.md)
 - [Opmerkingen bij de release](release-notes.md)
 - [Configuratie en installatie](setup.md)
-- Doorlopen {#walkthrough}
+- Walkthrough {#walkthrough}
    - [Deel 1: eenvoudige pagina](1-simple-page.md)
    - [Deel 2: Blokken](2-blocks.md)
    - [Deel 3: Inhoud catalogus](3-catalog-content.md)
 - [Workspace](workspace.md)
-- Lay-out {#layout}
+- Layout {#layout}
    - [Rijen](row.md)
    - [Kolommen](column.md)
    - [Tabs](tabs.md)
-- Elements {#elements}
+- Elementen {#elements}
    - [Tekst](text.md)
    - [Kop](heading.md)
    - [Knoppen](buttons.md)
@@ -46,5 +47,5 @@ ht-degree: 0%
    - [Producten](products.md)
    - [Aanbevelingen voor producten](recommendations.md)
 - [Sjablonen](templates.md)
-- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
