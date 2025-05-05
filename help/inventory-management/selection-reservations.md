@@ -3,9 +3,9 @@ title: Source-algoritmen en -reserveringen
 description: Meer informatie over de Source Selection Algorithm and Reservations-systemen die op de achtergrond worden uitgevoerd om uw verkoopbare hoeveelheden bij te werken.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ In plaats van onmiddellijk de hoeveelheden van de productvoorraad af te trekken 
 
 >[!NOTE]
 >
->De reserveringsmogelijkheid vereist dat de gebruiker van de `inventory.reservations.updateSalabilityStatus` berichtenwachtrij doorlopend wordt uitgevoerd. Gebruik de opdracht `bin/magento queue:consumers:list` om te controleren of de bewerking wordt uitgevoerd. Als de consument in de wachtrij niet wordt vermeld, start u deze: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus` .
+>[!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} het reservatiecapaciteit vereist de `inventory.reservations.updateSalabilityStatus` consument van de berichtrij om onophoudelijk te lopen. Gebruik de opdracht `bin/magento queue:consumers:list` om te controleren of de bewerking wordt uitgevoerd. Als de consument in de wachtrij niet wordt vermeld, start u deze: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus` .
 
 ### Bevoegdheid
 
@@ -188,7 +188,7 @@ De drie `quantity` -waarden lopen op tot 0 (-25 + 5 + 20). Het systeem wijzigt g
 
 De `inventory_cleanup_reservations` -cron-taak voert SQL-query&#39;s uit om de databasetabel met reserveringen te wissen. Door gebrek, loopt het dagelijks bij middernacht, maar u kunt de tijden en de frequentie vormen. Bij de uitsnijdtaak wordt een script uitgevoerd waarmee de database wordt opgezocht naar volledige reserveringsreeksen waarin de som van de kwantitatieve waarden 0 is. Wanneer alle reserveringen voor een bepaald product die op de zelfde dag (of andere gevormde tijd) voortkwamen zijn gecompenseerd, schrapt de cron baan de reserveringen allen in één keer.
 
-De `inventory_reservations_cleanup` cron-taak is niet hetzelfde als de `inventory.reservations.cleanup` message queue consumer. De consument schrapt asynchroon reserveringen door product SKU nadat een product is verwijderd, terwijl de kroonbaan de volledige reserveringstabel ontruimt. De consument wordt vereist wanneer u [**synchroniseert met de voorraadoptie van de Catalogus**](../configuration-reference/catalog/inventory.md) in de opslagconfiguratie toelaat. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_.
+De `inventory_reservations_cleanup` cron-taak is niet hetzelfde als de `inventory.reservations.cleanup` message queue consumer. De consument schrapt asynchroon reserveringen door product SKU nadat een product is verwijderd, terwijl de kroonbaan de volledige reserveringstabel ontruimt. De consument wordt vereist wanneer u [**synchroniseert met de voorraadoptie van de Catalogus**](../configuration-reference/catalog/inventory.md) in de opslagconfiguratie toelaat. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_.
 
 Vaak kunnen de eerste voorbehouden die op één dag zijn gemaakt, niet op dezelfde dag worden gecompenseerd. Deze situatie kan zich voordoen wanneer een klant een bestelling plaatst vlak voordat de bouwtaak begint of de aankoop uitvoert met een methode voor offline betaling, zoals een bankoverschrijving. De gecompenseerde reserveringsreeksen blijven in de database totdat ze allemaal gecompenseerd worden. Deze praktijk interfereert niet met reserveringsberekeningen, omdat het totaal voor elke reservering 0 is.
 

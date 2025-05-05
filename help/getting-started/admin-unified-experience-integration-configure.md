@@ -1,31 +1,32 @@
 ---
-title: De integratie van Experiencen Cloud voor Commerce Admin configureren
-description: Leer hoe te om een project van Commerce te vormen om beheerdertoegang door Experience Cloud toe te laten.
+title: De Experience Cloud-integratie voor Commerce Admin configureren
+description: Leer hoe u een Commerce-project configureert om beheerderstoegang mogelijk te maken via Experience Cloud.
 hide: false
 hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
 
-# De integratie van het Experience Cloud configureren met Commerce Admin
+# De Experience Cloud-integratie configureren met Commerce Admin
 
-Ga aan de slag met de Experience Cloud-integratie met Commerce Admin door de Commerce-toepassing te configureren voor gebruik van de Commerce Admin Unified Experience en Commerce Events-extensies.
+Ga aan de slag met de Experience Cloud-integratie met Commerce Admin door de Commerce-toepassing te configureren voor gebruik van de Commerce Admin Unified Experience- en Commerce Events-extensies.
 
 
 ## Vereisten
 
 - Adobe Commerce moet worden gevormd om [ authentificatie van Adobe te gebruiken IMS ](../getting-started/adobe-ims-config.md)
-- De levering van de rekening en toestemmings-beheerders moeten een [ Adobe bedrijfsprofiel ](https://helpx.adobe.com/nl/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) met toegang tot de volgende middelen hebben om de integratie van het Experience Cloud te vormen:
-   - [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) - voeg en beheer de gebruikers en de ontwikkelaars van de Adobe rekeningen voor de organisatie toe
-   - [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started/) - de ontwikkelaar of de toegang van de systeembeheerder om de projecten van App Builder tot stand te brengen en de verbindingsgeloofsbrieven en projectconfiguratie te produceren om de dienst van de Gebeurtenissen van de Adobe I/O te gebruiken
-   - [ Commerce op het project van de wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=nl-NL#get-started-with-the-project-web-interface) - installeer vereiste modules en vorm de de toepassingsserver van Commerce gebruikend Adobe Commerce CLI
-   - [ Commerce Admin ](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=nl-NL) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
+- De provisioning van de rekening en toestemmings-beheerders moeten een [ bedrijfsprofiel van Adobe ](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address) met toegang tot de volgende middelen hebben om de integratie van Experience Cloud te vormen:
+   - [ Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) - voeg toe en beheer Adobe gebruiker en ontwikkelaarsrekeningen voor de organisatie
+   - [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started/) - ontwikkelaar of systeembeheerdertoegang om de projecten van App Builder tot stand te brengen en de verbindingsgeloofsbrieven en projectconfiguratie te produceren om de dienst van Adobe I/O Events te gebruiken
+   - [ Commerce op het project van de wolkeninfrastructuur ](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) - installeer vereiste modules en vorm de de toepassingsserver van Commerce gebruikend Adobe Commerce CLI
+   - [ Commerce Admin ](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen
 
 ## Overzicht van configuratie
 
@@ -35,21 +36,21 @@ Schakel de integratie in door de volgende taken uit te voeren:
 
 1. [ laat de Commerce Admin Verenigde uitbreiding van de Ervaring ](#enable-the-commerce-admin-unified-experience-extension) toe.
 
-1. [ de Gebeurtenissen van Adobe I/O van de opstelling voor Commerce ](#set-up-adobe-io-events).
+1. [ Opstelling Adobe I/O Events voor Commerce ](#set-up-adobe-io-events).
 
 1. [ Test de integratie ](#test-the-integration).
 
 ## De Commerce-omgeving en toepassingsconfiguratie controleren
 
-Voordat u de integratie van het Experience Cloud configureert, controleert u of uw project en Commerce-toepassing aan de vereisten voldoen.
+Voordat u de Experience Cloud-integratie configureert, controleert u of uw project en Commerce-toepassing aan de vereisten voldoen.
 
 1. Wijzig op uw lokale werkstation de projectmap voor uw Commerce-project.
 
-1. Bekijk de omgevingsvertakking voor de instantie die u met het Experience Cloud wilt integreren.
+1. Bekijk de omgevingsvertakking voor de instantie die u met Experience Cloud wilt integreren.
 
 1. Controleer of Adobe IMS is ingeschakeld.
 
-   - Gebruik [ de Toegang URL van SSH ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL) voor het milieu om met de de toepassingsserver van Commerce te verbinden.
+   - Gebruik [ de Toegang URL van SSH ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) voor het milieu om met de de toepassingsserver van Commerce te verbinden.
 
    - Gebruik vanuit de opdrachtregel de Adobe Commerce CLI om de status van de IMS-module te controleren.
 
@@ -90,13 +91,13 @@ Voordat u de integratie van het Experience Cloud configureert, controleert u of 
 
 ## Commerce Admin Unified Experience inschakelen
 
-Schakel de Commerce Admin Unified Experience-extensie in en meld u vervolgens aan via het Experience Cloud.
+Schakel de Commerce Admin Unified Experience-extensie in en meld u vervolgens aan via Experience Cloud.
 
 >[!NOTE]
 >
->Deze instructies tonen hoe een Commerce Cloud projectbeheerder de uitbreiding kan toelaten gebruikend Adobe Commerce CLI. De gebruikers van Admin van Commerce kunnen de uitbreiding ook toelaten door de [ montages van de de opslagconfiguratie van Commerce ](admin-unified-experience-integration-manage.md#from-the-commerce-admin) bij te werken.
+>Deze instructies tonen hoe een het projectbeheerder van Commerce Cloud de uitbreiding kan toelaten gebruikend Adobe Commerce CLI. De gebruikers van Admin van Commerce kunnen de uitbreiding ook toelaten door de [ montages van de de opslagconfiguratie van Commerce ](admin-unified-experience-integration-manage.md#from-the-commerce-admin) bij te werken.
 
-1. Van de wortelfolder van uw het projectmilieu van de Wolk op uw lokale werkstation, gebruik het [ magento-wolk CLI hulpmiddel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=nl-NL) aan login aan de de toepassingsserver van Commerce.
+1. Van de wortelfolder van uw het projectmilieu van de Wolk op uw lokale werkstation, gebruik het [ magento-wolk CLI hulpmiddel ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) aan login aan de de toepassingsserver van Commerce.
 
    ```bash
    magento-cloud ssh
@@ -115,13 +116,13 @@ Schakel de Commerce Admin Unified Experience-extensie in en meld u vervolgens aa
    bin/magento cache:clean
    ```
 
-## Adobe I/O-gebeurtenissen instellen voor Commerce
+## Adobe I/O Events instellen voor Commerce
 
-Wanneer de integratie van het Experience Cloud wordt toegelaten, verzendt de dienst van de Gebeurtenissen van Adobe I/O Commerce gebeurtenisgegevens naar Experience Cloud om beheerdertoegang tot de projecten van Commerce te beheren. De de dienstopstelling vereist het toelaten van de Gebeurtenissen van de Adobe I/O voor de uitbreiding van Commerce (`magento/commerce-eventing`) en het vormen van de dienst van de Gebeurtenissen van de Adobe I/O in Admin.
+Wanneer de integratie van Experience Cloud is ingeschakeld, stuurt de Adobe I/O Events-service Commerce-gebeurtenisgegevens naar Experience Cloud om de beheerderstoegang tot Commerce-projecten te beheren. Voor het instellen van de service is het inschakelen van de extensie Adobe I/O Events for Commerce (`magento/commerce-eventing`) en het configureren van de Adobe I/O Events-service in de beheerfunctie vereist.
 
 ### Commerce-gebeurtenissen inschakelen
 
-Schakel de extensie Commerce Events (`magento/commerce-eventing`) in om aangepaste gebeurtenisgegevens van de Commerce-toepassing naar de service Adobe I/O Events te verzenden.
+Schakel de extensie Commerce Events (`magento/commerce-eventing`) in om aangepaste gebeurtenisgegevens van de Commerce-toepassing naar de Adobe I/O Events-service te verzenden.
 
 >[!NOTE]
 >
@@ -144,19 +145,19 @@ Schakel de extensie Commerce Events (`magento/commerce-eventing`) in om aangepas
 
 >[!TIP]
 >
->Voor details bij het vormen van en het beheren van omgevingsvariabelen die het `.magento.env.yaml` dossier gebruiken, zie [ milieu variabelen voor plaatsing ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=nl-NL) vormen.
+>Voor details bij het vormen van en het beheren van omgevingsvariabelen die het `.magento.env.yaml` dossier gebruiken, zie [ milieu variabelen voor plaatsing ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) vormen.
 
 ### De integratie met Commerce Events configureren
 
-Configureer de integratie met Commerce Events door de volgende taken uit te voeren. Voor gedetailleerde instructies, zie {de Gebeurtenissen van 0} Adobe I/O voor de ontwikkelaarsdocumentatie van Commerce [&#128279;](https://developer.adobe.com/commerce/extensibility/events/project-setup/).
+Configureer de integratie met Commerce Events door de volgende taken uit te voeren. Voor gedetailleerde instructies, zie [ Adobe I/O Events voor Commerce ](https://developer.adobe.com/commerce/extensibility/events/project-setup/) ontwikkelaarsdocumentatie.
 
 1. [ creeer een project van App Builder ](https://developer.adobe.com/commerce/extensibility/events/project-setup/) om gebeurtenisgegevens van de instantie van Commerce te ontvangen.
 
    U hebt geloofsbrieven en configuratiegegevens van het project van App Builder nodig om de integratie in Commerce Admin te vormen.
 
-1. Configureer Adobe Commerce om Adobe I/O-gebeurtenissen te gebruiken.
+1. Configureer Adobe Commerce voor het gebruik van Adobe I/O Events.
 
-   - [ werk de montages van de Configuratie van de Opslag voor de dienst van de Gebeurtenissen van Adobe I/O ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce) bij.
+   - [ werk de montages van de Configuratie van de Opslag voor de dienst van Adobe I/O Events ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce) bij.
 
    - [ vorm een gebeurtenisleverancier om de gebeurtenissen van Commerce ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration) te verzenden.
 
@@ -168,7 +169,7 @@ Configureer de integratie met Commerce Events door de volgende taken uit te voer
 
 1. Om de verbinding tot stand te brengen, verzend een gebeurtenis door de gebeurtenisleverancier aan de consument.
 
-   - Van de bevellijn in de lokale folder van het wolkenproject, [ gebruik SSH om met de de toepassingsserver van Commerce ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL#connect-to-a-remote-environment) te verbinden.
+   - Van de bevellijn in de lokale folder van het wolkenproject, [ gebruik SSH om met de de toepassingsserver van Commerce ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) te verbinden.
 
      ```bash
      magento-cloud ssh
@@ -182,11 +183,11 @@ Configureer de integratie met Commerce Events door de volgende taken uit te voer
 
 ### Integratie testen
 
-Verifieer dat een Beheerder van Commerce zich bij Experience Cloud kan aanmelden om beschikbare projecten van Commerce te bekijken en tot Admin en Storefront voor elk project toegang te hebben.
+Controleer of een Commerce-beheerder zich kan aanmelden bij Experience Cloud om de beschikbare Commerce-projecten weer te geven en toegang te krijgen tot de beheerfunctie en de winkelserver voor elk project.
 
 1. [ Teken binnen aan Experience Cloud ](https://experiencecloud.adobe.com/library) gebruikend Adobe ID en de organisatie verbonden aan de instantie van Commerce.
 
-   ![ de projecten van Commerce van de Toegang van de Experience Cloud homepage ](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
+   ![ de projecten van Commerce van de Toegang van de homepage van Experience Cloud ](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
 
 1. U kunt beschikbare Commerce-projecten weergeven door **[!UICONTROL Commerce]** te selecteren.
 
@@ -194,10 +195,10 @@ Verifieer dat een Beheerder van Commerce zich bij Experience Cloud kan aanmelden
 
 1. Open Admin voor een instantie door **[!UICONTROL Open]** te selecteren.
 
-   ![ Commerce Admin mening met toegelaten de integratie van het Experience Cloud ](./assets/admin-dashboard.png){width="600" zoomable="yes"}
+   ![ Commerce Admin mening met toegelaten integratie van Experience Cloud ](./assets/admin-dashboard.png){width="600" zoomable="yes"}
 
 1. Controleer of u de beheertaken naar behoren kunt uitvoeren.
 
-   Workflows in de Commerce-beheerder moeten hetzelfde proces volgen. Als u werkschemaveranderingen of fouten na het toelaten van de Experience Cloud integratie ervaart, contacteer uw het systeembeheerder van Commerce of [ voorlegt een kaartje van de Steun van de Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket).
+   Workflows in de Commerce-beheerder moeten hetzelfde proces volgen. Als u werkschemaveranderingen of fouten na het toelaten van de integratie van Experience Cloud ervaart, contacteer uw het systeembeheerder van Commerce of [ voorlegt een kaartje van de Steun van Adobe ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
-Nadat u de integratie van het Experience Cloud vormt, verifieer dat de beheerderrekeningen correct zijn provisioned om tot de projecten van Commerce door Experience Cloud toegang te hebben. Zie [ Admin gebruikers beheren ](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).
+Nadat u de integratie van Experience Cloud vormt, verifieer dat de beheerderrekeningen correct provisioned zijn om tot de projecten van Commerce door Experience Cloud toegang te hebben. Zie [ Admin gebruikers beheren ](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts).

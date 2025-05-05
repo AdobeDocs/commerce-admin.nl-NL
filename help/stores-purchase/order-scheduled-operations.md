@@ -3,9 +3,9 @@ title: Geplande orderactiviteiten
 description: Leer meer over de geplande bestelbewerkingen en bestellingen die deze functionaliteit ondersteunen.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De banen van het gebruik [ Gewas ](../systems/cron.md) om de volgende taken van 
 
 ## Levensduur betalingsopdracht instellen
 
-Het leven van orden met hangende betalingen wordt bepaald door de _configuratie van de Montages van het Gewas van 0&rbrace; Orden &lbrace;._ De standaardwaarde is 480 minuten, namelijk 8 uur.
+Het leven van orden met hangende betalingen wordt bepaald door de _configuratie van de Montages van het Gewas van 0} Orden {._ De standaardwaarde is 480 minuten, namelijk 8 uur.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -45,11 +45,11 @@ Door deze taken te plannen, kunt u de sloten vermijden die voorkomen wanneer het
 
 **_om de updates en het opnieuw indexeren toe te laten:_**
 
-Wanneer [ de wijze van de Productie ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#production-mode) (de standaardwijze die in Adobe Commerce op wolkeninfrastructuur wordt gebruikt) wordt toegelaten, stel het volgende bevel in werking:
+[!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} wanneer [ de wijze van de Productie ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (de standaardwijze die in Adobe Commerce op wolkeninfrastructuur wordt gebruikt) wordt toegelaten, stel het volgende bevel in werking:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-Wanneer [ Standaardwijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#default-mode) wordt toegelaten, voltooi de volgende stappen:
+Wanneer [ Standaardwijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) wordt toegelaten, voltooi de volgende stappen:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

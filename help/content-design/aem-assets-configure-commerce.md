@@ -3,9 +3,10 @@ title: Adobe Commerce-pakketten installeren
 description: Leer hoe te om de  [!DNL AEM Assets Integration for Adobe Commerce]  uitbreiding en op een instantie van Adobe Commerce te installeren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 8b86a0dfef91b9922189e3258a3db33d228eff9d
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ De AEM Assets Integration for Commerce-extensie heeft de volgende systeem- en co
 
 U hebt de volgende rollen en toestemmingen nodig om opstelling de integratie.
 
-- [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn.
+- [ de beheerder van het wolkenproject van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - installeer vereiste uitbreidingen en vorm de de toepassingsserver van Commerce van Admin of de bevellijn.
 
    - Toegang [ repo.magento.com ](https://repo.magento.com/admin/dashboard) om de uitbreiding te installeren.
 
-     Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+     Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
-- [ Commerce Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen.
+- [ Commerce Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - de opslagconfiguratie van de Update en beheert Commerce gebruikersrekeningen.
 
 >[!TIP]
 >
@@ -53,7 +54,7 @@ Installeer het Adobe Commerce-pakket en maak de Commerce-omgeving gereed door de
 
 ## De extensie `aem-assets-integration` installeren
 
-Installeer de nieuwste versie van de extensie AEM Assets Integration (`aem-assets-integration`) op een Adobe Commerce-instantie met versie Adobe Commerce 2.4.5+. De integratie van de Activa van AEM wordt geleverd als composer metapakket van de {[&#128279;](https://repo.magento.com/admin/dashboard) bewaarplaats 0} repo.magento.com.
+Installeer de nieuwste versie van de extensie AEM Assets Integration (`aem-assets-integration`) op een Adobe Commerce-instantie met versie Adobe Commerce 2.4.5+. De integratie van de Activa van AEM wordt geleverd als composer metapakket van de {](https://repo.magento.com/admin/dashboard) bewaarplaats 0} repo.magento.com.[
 
 >[!BEGINTABS]
 
@@ -65,7 +66,7 @@ Gebruik deze methode om de extensie [!DNL AEM Assets Integration] voor een Comme
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Bekijk de omgevingsvertakking voor update met de Adobe Commerce Cloud CLI.
 
@@ -95,7 +96,7 @@ Gebruik deze methode om de extensie [!DNL AEM Assets Integration] voor een Comme
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates stelt het [ proces van de de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Het duwen van de updates stelt het [ proces van de de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB  op-gebouw ]
 
@@ -135,7 +136,7 @@ Gebruik deze methode om de extensie [!DNL AEM Assets Integration] te installeren
 
 >[!NOTE]
 >
->De opstelling van de Verbinding van de Diensten van Commerce is een eenmalig proces dat wordt vereist om [ de diensten van Adobe Commerce SaaS ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/integration-services/saas#availableservices) te gebruiken. Als u de connector voor een andere service al hebt geconfigureerd, kunt u de bestaande configuratie weergeven via Commerce Admin door **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** te selecteren.
+>De opstelling van de Verbinding van de Diensten van Commerce is een eenmalig proces dat wordt vereist om [ de diensten van Adobe Commerce SaaS ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices) te gebruiken. Als u de connector voor een andere service al hebt geconfigureerd, kunt u de bestaande configuratie weergeven via Commerce Admin door **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** te selecteren.
 
 Als u gegevens wilt verzenden tussen uw Adobe Commerce-instantie en de services die AEM Assets Integration inschakelen, configureert u de Commerce Services-connector via de beheerfunctie ( **[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** ).
 
@@ -147,7 +148,7 @@ Geef de volgende waarden op in de configuratie
 - Naam gegevensruimte (SaaS-id) voor beveiligde cloudopslag
 - IMS-organisatie-id waar uw Commerce- en AEM Assets-omgevingen zijn ingericht
 
-Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3&rbrace; documentatie van de Schakelaar van de Diensten van Commerce &lbrace;.](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/integration-services/saas#organizationid)
+Voor gedetailleerde instructies, bekijk de [ de configuratievideo van de Verbinding van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs), van zie de [ 3} documentatie van de Schakelaar van de Diensten van Commerce {.](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)
 
 Wanneer u sparen de configuratie, produceert het systeem SaaS project en gegevensbestand IDs voor uw milieu. Deze waarden zijn vereist om de synchronisatie van bedrijfsmiddelen tussen Adobe Commerce en AEM Assets in te schakelen.
 
@@ -158,8 +159,8 @@ De integratie van AEM Assets gebruikt de dienst van Adobe I/O Events om de gegev
 Controleer voordat u Adobe I/O Events configureert de configuratie van de RabbitMQ- en Cron-taak voor uw Commerce-project:
 
 - Zorg ervoor dat RabbitMQ is ingeschakeld en luister naar gebeurtenissen.
-   - [ Opstelling RabbitMQ voor Adobe Commerce op gebouw ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [ RabbitMQ Opstelling voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [ Opstelling RabbitMQ voor Adobe Commerce op gebouw ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [ RabbitMQ Opstelling voor Adobe Commerce op wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - Verifieer dat [ gewassentaken ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration) worden toegelaten. Cron-taken zijn vereist voor communicatie en workflows voor AEM Assets-integratie.
 
 >[!NOTE]
@@ -219,7 +220,7 @@ Voordat u een op dit voorbeeld gebaseerd fragment maakt, controleert u de waarde
 
 - `content`: Het fragment van VCL-code dat moet worden uitgevoerd, dat het client-IP-adres controleert. Als IP in ACL van Edge is, wordt het geblokkeerd van toegang met een `405 Not allowed` fout voor de volledige website. Alle andere client-IP-adressen hebben toegang.
 
-Voor gedetailleerde informatie over het gebruiken van fragmenten VCL om inkomende verzoeken te blokkeren, zie [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+Voor gedetailleerde informatie over het gebruiken van fragmenten VCL om inkomende verzoeken te blokkeren, zie [ Douane VCL voor het blokkeren van verzoeken ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
 >[!ENDSHADEBOX]
 

@@ -3,16 +3,17 @@ title: URL's opslaan
 description: Leer over opslag URLs en hoe te om basisURL en opslagcodes te vormen.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
 
 # URL&#39;s opslaan
 
-Elke website in een Adobe Commerce- of Magento Open Source-installatie heeft een basis-URL die is toegewezen aan de storefront en een andere URL die is toegewezen aan de beheerder. De Adobe gebruikt variabelen om interne verbindingen met betrekking tot basis URL te bepalen, die het mogelijk maakt om een volledige opslag van één plaats aan een andere te bewegen zonder de verbindingen bij te werken. Standaard basis-URL&#39;s beginnen met `http` en veilige basis-URL&#39;s beginnen met `https` .
+Elke website in een Adobe Commerce- of Magento Open Source-installatie heeft een basis-URL die is toegewezen aan de storefront en een andere URL die is toegewezen aan de beheerder. Adobe gebruikt variabelen om interne koppelingen te definiëren met betrekking tot de basis-URL, waardoor het mogelijk wordt om een volledige winkel van de ene locatie naar de andere te verplaatsen zonder de koppelingen bij te werken. Standaard basis-URL&#39;s beginnen met `http` en veilige basis-URL&#39;s beginnen met `https` .
 
 - **Basis URL** — `http://www.yourdomain.com/magento/`
 - **Veilige Basis URL** — `https://www.yourdomain.com/magento/`
@@ -24,15 +25,15 @@ Elke website in een Adobe Commerce- of Magento Open Source-installatie heeft een
 
 ## Beveiligd protocol gebruiken
 
-De basis-URL&#39;s voor uw winkel zijn aanvankelijk ingesteld tijdens de Adobe Commerce-installatie. Als een beveiligingscertificaat op dat moment beschikbaar was, kunt u opgeven dat `HTTPS` URL&#39;s moeten worden gebruikt voor de winkel, beheerder of beide. Als uw Adobe Commerce-installatie meerdere winkels bevat of als u later meer winkels wilt toevoegen, kunt u de winkelcode opnemen in de URL. Alle middelen en verrichtingen van de Adobe kunnen met veilig protocol worden gebruikt.
+De basis-URL&#39;s voor uw winkel zijn aanvankelijk ingesteld tijdens de Adobe Commerce-installatie. Als een beveiligingscertificaat op dat moment beschikbaar was, kunt u opgeven dat `HTTPS` URL&#39;s moeten worden gebruikt voor de winkel, beheerder of beide. Als uw Adobe Commerce-installatie meerdere winkels bevat of als u later meer winkels wilt toevoegen, kunt u de winkelcode opnemen in de URL. Alle Adobe-bronnen en -bewerkingen kunnen met een beveiligd protocol worden gebruikt.
 
 Als een beveiligingscertificaat niet beschikbaar was voor het domein op het moment van de installatie, moet u de configuratie bijwerken voordat u de winkel start. Nadat een veiligheidscertificaat voor uw domein wordt gevestigd, kunt u één van beide of beide basis URLs vormen om met gecodeerde Veilige Laag van Contactdozen (SSL) en [ het protocol van de Veiligheid van de Laag van het Vervoer van de Laag ][1] (TLS) in werking te stellen.
 
 >[!IMPORTANT]
 >
->Adobe beveelt ten zeerste aan alle pagina&#39;s van een productiesite, inclusief de inhoud en productpagina&#39;s, via een beveiligd protocol over te brengen.
+>Adobe raadt ten zeerste aan alle pagina&#39;s van een productiesite, inclusief de inhoud en productpagina&#39;s, via een beveiligd protocol over te brengen.
 
-Adobe Commerce en Magento Open Source kunnen standaard zo worden geconfigureerd dat alle pagina&#39;s via `HTTPS` worden geleverd. Als uw opslag met standaardprotocol in werking is gesteld, kunt u veiligheid verbeteren door &rbrack;[2] de Strikte Veiligheid van het Vervoer van HTTP toe te laten &lbrack; (HSTS) en om het even welke onveilige paginaverzoeken te bevorderen. HSTS is een opt-in protocol dat browsers verhindert standaard `HTTP` pagina&#39;s terug te geven die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s elke pagina van uw winkel mogelijk al hebben geïndexeerd met standaard `HTTP` URL&#39;s, kunt u Commerce zo configureren dat onveilige paginaaanvragen automatisch worden bijgewerkt naar `HTTPS` , zodat er geen verkeer verloren gaat. Wanneer Commerce is geconfigureerd voor het gebruik van beveiligde URL&#39;s voor zowel de winkel als de beheerder, worden twee extra velden weergegeven waarmee u `HSTS` kunt inschakelen.
+Adobe Commerce en Magento Open Source kunnen standaard worden geconfigureerd om alle pagina&#39;s via `HTTPS` te leveren. Als uw opslag met standaardprotocol in werking is gesteld, kunt u veiligheid verbeteren door ][2] de Strikte Veiligheid van het Vervoer van HTTP toe te laten [ (HSTS) en om het even welke onveilige paginaverzoeken te bevorderen. HSTS is een opt-in protocol dat browsers verhindert standaard `HTTP` pagina&#39;s terug te geven die met onbeveiligd protocol voor het gespecificeerde domein worden overgebracht. Omdat zoekprogramma&#39;s elke pagina van uw winkel mogelijk al hebben geïndexeerd met standaard `HTTP` URL&#39;s, kunt u Commerce zo configureren dat onveilige paginaaanvragen automatisch worden bijgewerkt naar `HTTPS` , zodat er geen verkeer verloren gaat. Wanneer Commerce is geconfigureerd voor het gebruik van beveiligde URL&#39;s voor zowel de winkel als de beheerder, worden twee extra velden weergegeven waarmee u `HSTS` kunt inschakelen.
 
 ## De basis-URL configureren
 
@@ -46,7 +47,7 @@ Adobe Commerce en Magento Open Source kunnen standaard zo worden geconfigureerd 
 
      >[!NOTE]
      >
-     >Wijzig de plaatsaanduiding in het veld _[!UICONTROL Base Link URL]_&#x200B;niet. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
+     >Wijzig de plaatsaanduiding in het veld _[!UICONTROL Base Link URL]_niet. Deze tijdelijke aanduiding wordt gebruikt om relatieve koppelingen naar de basis-URL te maken.
 
    - **[!UICONTROL Base URL for Static View Files]** — (Optioneel) Geef een alternatieve locatie op voor de basis-URL voor statische weergavebestanden door het pad in te voeren, te beginnen met de volgende plaatsaanduiding:
 
@@ -91,7 +92,7 @@ Als uw domein een geldig veiligheidscertificaat heeft, kunt u URLs van zowel de 
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. Voer voor _[!UICONTROL Enhanced Security Settings]_&#x200B;de volgende handelingen uit:
+1. Voer voor _[!UICONTROL Enhanced Security Settings]_de volgende handelingen uit:
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — Als u wilt dat uw winkel alleen beveiligde HTTPS-paginaaanvragen weergeeft, stelt u deze in op `Yes` .
 
@@ -111,7 +112,7 @@ Als uw domein een geldig veiligheidscertificaat heeft, kunt u URLs van zowel de 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies onder _[!UICONTROL General]_&#x200B;in het linkerdeelvenster de optie **[!UICONTROL Web]**.
+1. Kies onder _[!UICONTROL General]_in het linkerdeelvenster de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL URL Options]** sectie uit.
 
@@ -137,7 +138,7 @@ Als na het volgen van de configuratieinstructies, sommige pagina&#39;s met onvei
 
 ## Een aangepaste Admin URL gebruiken
 
-Als beste praktijken van de a [ veiligheid ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), adviseert de Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
+Als beste praktijken van de a [ veiligheid ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), adviseert Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
 
 >[!NOTE]
 >
@@ -153,7 +154,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 >[!NOTE]
 >
->Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [ instructies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
+>Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [ instructies ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
 
 ### Methode 1: Wijzigen ten opzichte van de beheerder
 
@@ -199,7 +200,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
    >[!TIP]
    >
-   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [ onderwerp van Admin variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [ onderwerp van Admin variabelen ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
    - **Standaard Admin Weg**
 
