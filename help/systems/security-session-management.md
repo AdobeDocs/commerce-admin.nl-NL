@@ -48,7 +48,7 @@ Gebruik de volgende configuratie-instellingen om de maximale sessiegrootte voor 
 
 ### Admin-sessies
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Als u de maximale sessiegrootte overschrijdt, wordt een foutbericht weergegeven en wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-sessies
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, maar wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
@@ -68,7 +68,7 @@ Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, ma
 
 Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixaties of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
 
-Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in de _Gids van de Configuratie_.
+Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ![ Algemene configuratie - de zittingsbevestiging van het Web ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

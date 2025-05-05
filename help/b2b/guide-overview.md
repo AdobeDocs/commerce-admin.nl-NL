@@ -20,7 +20,7 @@ Deze handleiding is bedoeld voor beheerders die in Adobe Commerce Admin werken. 
 Er zijn twee gebieden voor opslagbeheerders:
 
 - Admin: Gebruik dit gebied om tot de configuratie UI en het melden toegang te hebben.
-- [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} de bevel-lijn interface: Gebruik dit hulpmiddel om installatie en achterste configuratietaken uit te voeren.
+- [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} de bevel-lijn interface: Gebruik dit hulpmiddel om installatie en achterste configuratietaken uit te voeren.
 
 Deze handleiding is van toepassing op:
 
@@ -28,7 +28,7 @@ Deze handleiding is van toepassing op:
 | ------- | ----------- |
 | [ Inleiding ](introduction.md) | Welke functies zijn beschikbaar met [!DNL Adobe Commerce B2B]? |
 | [ de Nota&#39;s van de Versie ](release-notes.md) | Bekijk de updates in elke [!DNL Adobe Commerce B2B] -release. |
-| [ installeer ](install.md) | [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} installeert de [!DNL Adobe Commerce B2B] uitbreiding. |
+| [ installeer ](install.md) | [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} installeert de [!DNL Adobe Commerce B2B] uitbreiding. |
 | [ laat Basisfuncties B2B ](enable-basic-features.md) toe | Nadat u [!DNL Adobe Commerce B2B] hebt geïnstalleerd, moet u de functies inschakelen die u voor uw winkel wilt activeren. |
 | [ De Rekeningen van het Bedrijf ](account-companies.md) | Meer informatie over bedrijfsaccounts en hoe ze de primaire bouwsteen vormen voor het bieden van ondersteuning aan B2B-kopers in je winkel. |
 | [ Beheer van het Bedrijf ](manage-companies.md) | Leer hoe de B2B de plaatsbeheerders van Commerce bedrijfhiërarchieën kunnen bouwen om het beheer van veelvoudige bedrijven te stroomlijnen die tot de zelfde bedrijfsonderneming behoren. |
@@ -52,5 +52,5 @@ Voor informatie over veranderingen inbegrepen in moduleversies, zie de [ Nota&#3
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-- [ de Kennisbank van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.
+- [ de Kennisbank van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL)
+- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.

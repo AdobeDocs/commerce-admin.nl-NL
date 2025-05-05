@@ -5,7 +5,7 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '531'
@@ -75,7 +75,7 @@ Alle Commerce Admin-gebruikers moeten zowel een Admin-account op het Commerce-ex
 
 - **Commerce Admin rekening** - [ beheert Commerce Admin gebruikers ](../systems/permissions-users-all.md) van Admin voor de instantie van Commerce. Aan gebruikersaccounts voor Commerce-beheerders moet de beheerdersrol worden toegewezen.
 
-  De beheerders van het systeem op het project van Commerce kunnen [ SSH gebruiken om met het verre milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) te verbinden, en Commerce CLI `admin:user:create` en `admin:user:unlock` bevelen te gebruiken om Admin gebruikersrekeningen toe te voegen of te ontgrendelen.
+  De beheerders van het systeem op het project van Commerce kunnen [ SSH gebruiken om met het verre milieu ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=nl-NL#connect-to-a-remote-environment) te verbinden, en Commerce CLI `admin:user:create` en `admin:user:unlock` bevelen te gebruiken om Admin gebruikersrekeningen toe te voegen of te ontgrendelen.
 
 - **Adobe gebruikersrekening** - een beheerder voor de organisatie van Adobe verbonden aan de instantie van Commerce moet login aan Adobe Admin Console en Adobe ID voor elke beheerder van Commerce aan de organisatie toevoegen. Vervolgens moeten ze productrechten en machtigingen toewijzen om toegang te krijgen tot de Commerce-toepassing. Zie [ de gebruikers van Adobe Commerce in Adobe Admin Console ](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console) vormen.
 
@@ -83,4 +83,4 @@ Beheerders die de configuratie voor de Experience Cloud-integratie vanuit de Ado
 
 >[!NOTE]
 >
->Een Adobe ID is een account die via Adobe is gemaakt en die vereist is voor toegang tot producten en services via Experience Cloud. De beheerders van Commerce die geen Adobe ID hebben kunnen [ een vrije rekening ](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) tot stand brengen gebruikend het zelfde e-mailadres zij gebruiken om binnen aan Commerce Admin te ondertekenen.
+>Een Adobe ID is een account die via Adobe is gemaakt en die vereist is voor toegang tot producten en services via Experience Cloud. De beheerders van Commerce die geen Adobe ID hebben kunnen [ een vrije rekening ](https://helpx.adobe.com/nl/manage-account/using/create-update-adobe-id.html) tot stand brengen gebruikend het zelfde e-mailadres zij gebruiken om binnen aan Commerce Admin te ondertekenen.

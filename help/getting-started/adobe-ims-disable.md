@@ -3,7 +3,7 @@ title: Commerce Admin Integration uitschakelen met Adobe ID
 description: Volg deze optionele procedure om de integratie van Adobe Commerce Admin met Adobe IMS uit te schakelen.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '319'
@@ -19,7 +19,7 @@ Handelaars die hun Commerce-exemplaar hebben geïntegreerd met de Adobe IMS-veri
 
 Commerce-implementaties herstellen de standaard Commerce-verificatieworkflow en het standaard-wachtwoordbeleid nadat de IMS-integratie is uitgeschakeld. Alleen de workflows van de beheerder-gebruiker worden beïnvloed wanneer deze integratie is in- of uitgeschakeld.
 
-Zie [ Uw rekening Admin ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) voor een overzicht van Commerce binnen Admin.
+Zie [ Uw rekening Admin ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=nl-NL) voor een overzicht van Commerce binnen Admin.
 
 ## Stap 1: De integratie uitschakelen
 
@@ -43,7 +43,7 @@ Nadat de integratie is uitgeschakeld, moeten de gebruikers van de beheerder een 
 
 * Commerce-beheerders die hun bestaande Commerce-wachtwoord onthouden (dat wil zeggen een Commerce-wachtwoord dat is gemaakt voordat de IMS-integratie is voltooid), kunnen dit gebruiken om u aan te melden bij de Admin.
 
-* Commerce-beheergebruikers die geen bestaand Commerce-wachtwoord hebben of zijn vergeten, moeten een nieuw wachtwoord maken. Als u een nieuw wachtwoord wilt maken, kunnen beheerders met de functie [!UICONTROL Forgot your password?] op de Commerce-aanmeldingspagina een nieuw wachtwoord maken. Zie [ de klantenwachtwoorden van het Terugstellen ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce accepteert geen leeg wachtwoordveld.
+* Commerce-beheergebruikers die geen bestaand Commerce-wachtwoord hebben of zijn vergeten, moeten een nieuw wachtwoord maken. Als u een nieuw wachtwoord wilt maken, kunnen beheerders met de functie [!UICONTROL Forgot your password?] op de Commerce-aanmeldingspagina een nieuw wachtwoord maken. Zie [ de klantenwachtwoorden van het Terugstellen ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=nl-NL). Commerce accepteert geen leeg wachtwoordveld.
 
 ## Na het uitschakelen van de integratie
 

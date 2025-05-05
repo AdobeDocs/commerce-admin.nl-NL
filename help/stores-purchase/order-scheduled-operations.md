@@ -45,11 +45,11 @@ Door deze taken te plannen, kunt u de sloten vermijden die voorkomen wanneer het
 
 **_om de updates en het opnieuw indexeren toe te laten:_**
 
-[!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} wanneer [ de wijze van de Productie ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (de standaardwijze die in Adobe Commerce op wolkeninfrastructuur wordt gebruikt) wordt toegelaten, stel het volgende bevel in werking:
+[!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} wanneer [ de wijze van de Productie ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#production-mode) (de standaardwijze die in Adobe Commerce op wolkeninfrastructuur wordt gebruikt) wordt toegelaten, stel het volgende bevel in werking:
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Wanneer [ Standaardwijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) wordt toegelaten, voltooi de volgende stappen:
+Wanneer [ Standaardwijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=nl-NL#default-mode) wordt toegelaten, voltooi de volgende stappen:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

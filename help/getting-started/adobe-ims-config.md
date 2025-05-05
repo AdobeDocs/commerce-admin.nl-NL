@@ -3,7 +3,7 @@ title: Commerce Admin Integration met ID configureren
 description: Volg deze optionele procedure voor het integreren van Adobe Commerce Admin-gebruikersaccountaanmeldingen met Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '772'
@@ -28,8 +28,8 @@ Deze integratie ondersteunt Commerce-handelaren met Admin-gebruikers die een Ado
 
 De beheerder die deze integratie vormt vereist de volgende geloofsbrieven tijdens moduleenactivering:
 
-* Identiteitskaart van de organisatie (die uit [ wordt verkregen Adobe Admin Console ](https://adminconsole.adobe.com/)), die minstens 24 karakters in lengte moet zijn. De geverifieerde gebruiker moet deel uitmaken van deze IMS-organisatie. Voor informatie over het vinden van uw organisatie identiteitskaart, zie [ Organisaties in Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controle [ de montages van de Authentificatie ](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* Identiteitskaart van de organisatie (die uit [ wordt verkregen Adobe Admin Console ](https://adminconsole.adobe.com/)), die minstens 24 karakters in lengte moet zijn. De geverifieerde gebruiker moet deel uitmaken van deze IMS-organisatie. Voor informatie over het vinden van uw organisatie identiteitskaart, zie [ Organisaties in Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl-NL).
+* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controle [ de montages van de Authentificatie ](https://helpx.adobe.com/nl/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-id
 * Clientgeheim
 * Identiteitskaart van de cliënt en cliëntgeheim zijn beschikbaar na het terugwinnen van API sleutels van [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/credentials/).
@@ -76,7 +76,7 @@ Voordat u de integratie inschakelt, controleert u of elke Adobe Commerce Admin-g
 
 >[!TIP]
 >
->U kunt meerdere gebruikersaccounts maken door de gebruikersgegevens van een CSV-bestand te uploaden. Zie [ veelvoudige gebruikers beheren ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>U kunt meerdere gebruikersaccounts maken door de gebruikersgegevens van een CSV-bestand te uploaden. Zie [ veelvoudige gebruikers beheren ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html).
 
 1. In [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), navigeer aan **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 

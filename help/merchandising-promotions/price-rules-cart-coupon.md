@@ -62,7 +62,7 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 >[!NOTE]
 >
->[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
+>[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
 
 ### Methode 1: Een specifieke coupon maken
 

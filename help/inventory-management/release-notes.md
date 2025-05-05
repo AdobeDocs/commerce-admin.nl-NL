@@ -20,11 +20,11 @@ Deze releaseopmerkingen beschrijven de releases van [!DNL Inventory Management] 
 
 [!DNL Inventory Management] is een speciaal project van de Techniek van de Gemeenschap van Magento Open Source open aan contribuanten. Om deel te nemen en bij te dragen, zie het [&#128279;](https://github.com/magento/inventory) bewaarplaats van het project GitHub en [ wiki ](https://github.com/magento/inventory/wiki) om begonnen te worden. [ Om het project te bespreken, sluit me aan bij het ](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) kanaal 0&rbrace; Slack ([ zelf-tekent ](https://opensource.magento.com/slack)).
 
-[ programma van de Versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} voor gesteunde en compatibele versies.
+[ programma van de Versie ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL){target="_blank"} voor gesteunde en compatibele versies.
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 de versienota&#39;s zijn inbegrepen in de [ kern 2.4.7 versienota&#39;s ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+[!DNL Inventory Management] 1.2.7 de versienota&#39;s zijn inbegrepen in de [ kern 2.4.7 versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -116,7 +116,7 @@ Inventory management 1.2.4 (moduleversie: `magento/inventory-metapackage = 1.2.4
 
 ![ Vaste kwestie ](../assets/fix.svg) Prestaties zijn verbeterd voor kar-en-controlemaatregelen zoals het toevoegen van producten aan de kar in plaatsingen met vele (ongeveer 10.000) inventarisbronnen. <!--- MC-42570-->
 
-![ Vaste kwestie ](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} het `bin/magento inventory:reservation:list-inconsistencies` bevel behandelt nu correct orden met gedeeltelijke verzendingen zelfs als de reserveringen van het gegevensbestand worden gemist en het geheime voorgeheugen is ontruimd. Eerder, toen deze opdracht werd uitgevoerd met een vooraf gewist cachegeheugen, gaf Commerce de volgende fout weer: `Area code is not set` . <!--- MC-42142-->
+![ Vaste kwestie ](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} het `bin/magento inventory:reservation:list-inconsistencies` bevel behandelt nu correct orden met gedeeltelijke verzendingen zelfs als de reserveringen van het gegevensbestand worden gemist en het geheime voorgeheugen is ontruimd. Eerder, toen deze opdracht werd uitgevoerd met een vooraf gewist cachegeheugen, gaf Commerce de volgende fout weer: `Area code is not set` . <!--- MC-42142-->
 
 
 ![ Vaste kwestie ](../assets/fix.svg) Incrementele indexering van gegroepeerde producten van het productkind veroorzaakt niet meer andere gegroepeerde producten om verkeerd worden geïndexeerd wanneer de kinderen worden gedeeld. <!--- MC-41963-->
@@ -277,7 +277,7 @@ Nieuwe modules voor [!DNL Inventory Management] 1.1.2 Beta zijn:
 
 [!DNL Inventory Management] 1.1.0 (moduleversie: `inventory-composer-metapackage = 1.1.0` ) wordt ondersteund en is compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de Magento Open Source-codebasis. [!DNL Inventory Management] 1.1.1 wordt alleen vrijgegeven als een pakketnaamupdate, ondersteund voor versie 2.3.1 en compatibel met versie 2.3.0 van Adobe Commerce, Adobe Commerce op cloudinfrastructuur en de Magento Open Source-codebasis.
 
-![ Vaste kwestie ](../assets/fix.svg) **Toegevoegde steun voor Elasticsearch voor enige en multi-bronwijzen** — U kunt Elasticsearch met douaneaandelen nu vormen en gebruiken. Zie [ de dienst van Elasticsearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} voor installatieinformatie. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![ Vaste kwestie ](../assets/fix.svg) **Toegevoegde steun voor Elasticsearch voor enige en multi-bronwijzen** — U kunt Elasticsearch met douaneaandelen nu vormen en gebruiken. Zie [ de dienst van Elasticsearch van de Opstelling ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=nl-NL){target="_blank"} voor installatieinformatie. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![ Vaste kwestie ](../assets/fix.svg) Opgeloste prestatieskwesties met StandaardVoorraad om prestaties met talrijke verrichtingen drastisch te verhogen. De verbeteringen verhogen prestaties voor single-source wijze, Overdracht Inventaris aan Source, de pagina&#39;s van de Categorie van de Storefront, en de berekeningen van de Hoeveelheid van de Verkoop.
 

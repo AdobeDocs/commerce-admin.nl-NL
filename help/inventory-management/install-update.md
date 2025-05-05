@@ -4,7 +4,7 @@ description: Leer hoe te om het  [!DNL Inventory Management]  metapakket te behe
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '620'
@@ -20,7 +20,7 @@ Deze eigenschappen en uitbreidingen werden ontwikkeld als deel van het [ project
 
 [!DNL Inventory Management] wordt geïnstalleerd in 2.3.x- en 2.4.x-versies van Adobe Commerce en Magento Open Source, waarbij alle functies standaard zijn ingeschakeld. Er zijn geen aanvullende stappen vereist voor het inschakelen van deze voorraadfuncties. Voor upgrades vanaf v2.1.x of 2.2.x zijn mogelijk extra stappen vereist. Zie [ Verbetering Inventory management ](#upgrade-inventory-management).
 
-De installatie volgens [ Snelle begin op-gebouw installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} wordt geadviseerd. Installeer met een metappakket om alle [!DNL Inventory Management] -modules te ontvangen.
+De installatie volgens [ Snelle begin op-gebouw installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=nl-NL){target="_blank"} wordt geadviseerd. Installeer met een metappakket om alle [!DNL Inventory Management] -modules te ontvangen.
 
 De volgende regel in het `composer.json` metapakket installeert [!DNL Inventory Management] :
 
@@ -99,7 +99,7 @@ U kunt [!DNL Inventory Management] modules uitschakelen in:
 * Het upgradeproces versnellen voor handelaren die van 2.0.x, 2.1.x, 2.2.x, of 2.3.x naar 2.4.x migreren.
 * Gebruik aangepaste of externe inventarisatie- en orderbeheersysteemmodules.
 
-Zie [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) toelaten of onbruikbaar maken pagina in de _Gids van de Installatie_ voor informatie over hoe te om de toepasselijke modules onbruikbaar te maken.
+Zie [ modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=nl-NL) toelaten of onbruikbaar maken pagina in de _Gids van de Installatie_ voor informatie over hoe te om de toepasselijke modules onbruikbaar te maken.
 
 Na voltooiing, verstrekt het systeem een lijst van modules en waarden in `<Magento_installation_directory>/app/etc/config.php`, die met beginnen:
 
@@ -241,5 +241,5 @@ Werk voor de meest recente versie van het pakket de volgende wijzigingen bij:
 
 Raadpleeg de volgende handleidingen voor meer informatie over Commerce-upgrades:
 
-* [ Gids van de Update van Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [ laat of maakt modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"} toe onbruikbaar
+* [ Gids van de Update van Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=nl-NL){target="_blank"}
+* [ laat of maakt modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=nl-NL){target="_blank"} toe onbruikbaar
