@@ -2,9 +2,9 @@
 title: Inleiding tot beheersystemen
 description: Leer over de systeemhulpmiddelen en de functies die de beheerder van de opslag kan gebruiken om de plaatsen, de gegevens, de integratie, en gebruikers te beheren Admin.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Variabelen zijn gegevens die één keer kunnen worden gemaakt en op meerdere pla
 - [Vooraf gedefinieerde variabelen](variables-predefined.md)
 - [Aangepaste variabelen](variables-custom.md)
 
-Één van de taken om te voltooien alvorens uw opslag te lanceren is de e-mailmalplaatjes te herzien die voor alle mededelingen worden gebruikt die van uw opslag worden verzonden om ervoor te zorgen dat zij op uw merk wijzen. Dit omvat het aanpassen van e-mail en [ nieuwsbrieven malplaatjes ](../merchandising-promotions/newsletter-template.md), en PDF facturen en verpakkingsslips. Het omvat ook het personaliseren van de inhoud met variabelen en [ prijsverhogingsmarkeringen ](markup-tags.md).
+Één van de taken om te voltooien alvorens uw opslag te lanceren is de e-mailmalplaatjes te herzien die voor alle mededelingen worden gebruikt die van uw opslag worden verzonden om ervoor te zorgen dat zij op uw merk wijzen. Dit omvat het aanpassen van e-mail en [ nieuwsbrieven malplaatjes ](../merchandising-promotions/newsletter-template.md), en de facturen en verpakkingsslips van PDF. Het omvat ook het personaliseren van de inhoud met variabelen en [ prijsverhogingsmarkeringen ](markup-tags.md).
 
 ## Operationeel beheer
 
@@ -32,4 +32,4 @@ De beheerder ondersteunt ook diverse taken voor systeembeheerders om de Admin-ge
 - **Overdracht van Gegevens** - gebruik de [ hulpmiddelen van de gegevensoverdracht ](data-transfer.md) om gegevens in te voeren en uit te voeren, evenals product, tarifering, klant, en de gegevens van het belastingtarief te beheren.
 - **Integraties** - Vestig de plaats van geloofsbrieven OAuth en richt URL voor [ derdesintegraties ](integrations.md) opnieuw, en identificeer beschikbare API middelen.
 - **Logboeken van de Actie** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) toegang tot de verslagen ([ actielogboeken ](action-log.md)) voor veranderingen die door Admin gebruikers worden aangebracht die in uw opslag werken.
-- **hulpmiddelen van de Steun** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de steunhulpmiddelen ([ de Collector van Gegevens ](support.md#data-collector) en [ de Rapporten van het Systeem ](support.md#access-system-reports)) worden ontworpen om bekende kwesties in uw systeem te identificeren. Ze kunnen worden gebruikt als bron tijdens de ontwikkelings- en optimalisatieprocessen en als diagnostisch hulpmiddel om ons ondersteuningsteam te helpen problemen op te sporen en op te lossen.
+- **hulpmiddelen van de Steun** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) [ de Rapporten van het Systeem ](support.md#access-system-reports) worden ontworpen om bekende kwesties in uw systeem te identificeren. Ze kunnen worden gebruikt als bron tijdens de ontwikkelings- en optimalisatieprocessen en als diagnostisch hulpmiddel om ons ondersteuningsteam te helpen problemen op te sporen en op te lossen.

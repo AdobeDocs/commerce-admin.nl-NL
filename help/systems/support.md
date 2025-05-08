@@ -2,9 +2,9 @@
 title: Ondersteuningsgereedschappen
 description: Leer over de verstrekte steunhulpmiddelen die u kunt gebruiken om kwesties in uw systeem te identificeren.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -13,97 +13,43 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De hulpmiddelen van de steun worden ontworpen om bekende kwesties in uw systeem te identificeren. Ze kunnen worden gebruikt als een resource tijdens de ontwikkelings- en optimalisatieprocessen en als een diagnostische tool om ons ondersteuningsteam te helpen problemen te identificeren en op te lossen.
-
-## Dataverzamelaar
-
-De gegevensverzamelaar verzamelt de informatie over uw systeem die ons ondersteuningsteam nodig heeft om problemen met uw Adobe Commerce-installatie op te lossen. De gemaakte back-up duurt enkele minuten en bevat zowel een code- als een databasedump. De gegevens kunnen worden geëxporteerd naar een CSV- of Excel-XML-bestand.
-
-![systeem - dataverzamelaar](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### De dataverzamelaar uitvoeren
-
-1. Ga in de zijbalk _Admin_ naar **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
-
-1. Klik in de rechterbovenhoek op **[!UICONTROL New Backup]**.
-
-   Het genereren van de back-up duurt enkele minuten. U kunt de resultaten van de verwerking controleren door op **[!UICONTROL Refresh Status]** te klikken. Als de back-up is voltooid, wordt deze weergegeven in het raster _[!UICONTROL Data Collector]_.
-
-1. Ga als volgt te werk om een logboek met de back-updetails weer te geven:
-
-   - Selecteer in de kolom _[!UICONTROL Action]_&#x200B;de optie **[!UICONTROL Show Log]**.
-
-   - Klik op **[!UICONTROL Back]** om terug te keren naar het raster.
-
-   ![logboek gegevensverzamelaar](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### Back-upgegevens exporteren
-
-1. Schakel in de eerste kolom het selectievakje in van de back-up die u wilt exporteren.
-
-1. Gebruik het menu **[!UICONTROL Export]** om de indeling van de exportdata te kiezen.
-
-   ![exportindeling](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. Open het bestand vanaf de downloadlocatie van de webbrowser en **[!UICONTROL Save]**.
-
-### Back-upgegevens downloaden
-
-Nadat de back-up is gegenereerd, kunt u de kopie van code- en databasegegevens downloaden.
-
-1. Zoek de benodigde back-upeenheid in het raster.
-
-1. Zorg ervoor dat de status `Complete` is.
-
-1. Klik op de entiteitsnaam in de kolommen _[!UICONTROL Code Dump]_&#x200B;of&#x200B;_[!UICONTROL DB Dump]_.
-
-Het downloadproces moet automatisch starten.
-
-## Back-upgegevens verwijderen
-
-1. Ga in de zijbalk _Beheerder_ naar **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
-
-1. Zoek en selecteer de back-upgegevens die u wilt verwijderen.
-
-1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL Delete]**.
-
-1. Klik op **[!UICONTROL OK]** om de actie te bevestigen.
+De hulpmiddelen van de steun worden ontworpen om bekende kwesties in uw systeem te identificeren. Ze kunnen worden gebruikt als bron tijdens de ontwikkelings- en optimalisatieprocessen en als diagnostisch hulpmiddel om ons ondersteuningsteam te helpen problemen op te sporen en op te lossen.
 
 ## Systeemrapporten
 
-Met de tool voor systeemrapportage kunt u periodieke volledige of gedeeltelijke momentopnamen van het systeem maken en opslaan voor toekomstig gebruik. U kunt prestatie-instellingen vergelijken voor en na cycli voor codeontwikkeling of wijzigingen in serverinstellingen. Met de systeemrapportagetool kunt u de tijd die nodig is voor het voorbereiden en indienen van de informatie die ondersteuning nodig heeft om een onderzoek te starten, aanzienlijk verkorten.
+Het systeem rapporteringshulpmiddel geeft u de capaciteit periodieke volledige, of gedeeltelijke, momentopnamen van het systeem, en bewaart hen voor toekomstige verwijzing. U kunt prestatiesmontages vóór en na de cycli van de codeontwikkeling, of veranderingen in servermontages vergelijken. Met het systeem voor systeemrapportage kan de tijd die nodig is om de informatie voor te bereiden en in te dienen om een onderzoek te starten, aanzienlijk worden verkort.
 
-Vanuit het raster Systeemrapporten kunt u bestaande rapporten bekijken en downloaden, rapporten verwijderen en rapporten maken.
+Via het raster Systeemrapporten kunt u bestaande rapporten weergeven en downloaden, rapporten verwijderen en rapporten maken.
 
-### Systeemrapporten openen
+### Toegangssysteemrapporten
 
-Ga op de zijbalk _Admin_ naar **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 
-![Beheerder - systeemrapporten](./assets/reports.png){width="600" zoomable="yes"}
+![ Admin - systeemrapporten ](./assets/reports.png){width="600" zoomable="yes"}
 
 ### Een rapport genereren
 
 1. Klik op **[!UICONTROL New Report]**.
 
-1. Selecteer in de lijst **[!UICONTROL Groups]** elke set informatie die u in het rapport wilt opnemen. Standaard zijn alle groepen geselecteerd.
+1. Selecteer in de lijst **[!UICONTROL Groups]** elke set gegevens die u in het rapport wilt opnemen. Standaard zijn alle groepen geselecteerd.
 
-   ![Systeemrapport - groepen selecteren](./assets/report-create.png){width="600" zoomable="yes"}
+   ![ het rapport van het Systeem - uitgezochte groepen ](./assets/report-create.png){width="600" zoomable="yes"}
 
-1. Klik in de rechterbovenhoek op **[!UICONTROL Create]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Create]** .
 
-   Het kan een paar minuten duren voordat het rapport wordt gegenereerd, afhankelijk van het aantal geselecteerde rapporttypen. Wanneer het rapport klaar is, wordt het boven aan het raster weergegeven met de gegenereerde datum en tijd.
+   Het zou een paar notulen voor het te produceren rapport kunnen vergen, afhankelijk van het aantal geselecteerde rapporttypes. Wanneer het rapport klaar is, verschijnt het boven aan het raster met de gegenereerde datum en tijd.
 
-### Informatie over module weergeven
+### Modulegegevens weergeven
 
-U vindt nuttige informatie over geïnstalleerde modules.
+U kunt nuttige informatie over geïnstalleerde modules vinden.
 
-**_Rapportinformatie weergeven voor elke geïnstalleerde module:_**
+**_om rapportinfo voor elke geïnstalleerde module te bekijken:_**
 
-1. Ga in de zijbalk _Beheerder_ naar **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 1. Klik op **[!UICONTROL New Report]**.
-1. Selecteer `Modules` in de lijst **[!UICONTROL Groups]**.
+1. Selecteer `Modules` in de lijst **[!UICONTROL Groups]** .
 1. Klik op **[!UICONTROL Create]**.
-1. Nadat het rapport is gegenereerd, klikt u op **[!UICONTROL Select]** en vervolgens op **[!UICONTROL View]** om alle moduleversies te bekijken.
+1. Nadat het rapport is gegenereerd, klikt u op **[!UICONTROL Select]** en vervolgens op **[!UICONTROL View]** om alle moduleversies weer te geven.
 1. Klik op **[!UICONTROL Download]** om het rapport te downloaden.
 
 ### Systeemrapporten beheren
@@ -114,29 +60,29 @@ Selecteer in de kolom **[!UICONTROL Action]** van het raster een van de volgende
 - `Delete` - Gebruik deze functie om het gegenereerde rapport uit de lijst te verwijderen.
 - `Download` - Gebruik deze functie om het rapport op te slaan als een HTML-bestand.
 
-### Systeemrapportdetails weergeven
+### Gegevens van systeemrapporten weergeven
 
-1. Selecteer voor het benodigde rapport **[!UICONTROL View]** in de kolom _[!UICONTROL Actions]_.
+1. Selecteer **[!UICONTROL View]** in de kolom _[!UICONTROL Actions]_voor het rapport dat u nodig hebt.
 
-1. Vouw in het linkerdeelvenster ![Uitbreidingskiezer](../assets/icon-display-expand.png) elke sectie van het rapport uit om de details weer te geven.
+1. In het linkerpaneel, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) elke sectie van het rapport uit om het detail te bekijken.
 
-   ![Algemene systeemrapportinformatie](./assets/report-information.png){width="600" zoomable="yes"}
+   ![ Algemene informatie van het systeemrapport ](./assets/report-information.png){width="600" zoomable="yes"}
 
 ### Beschikbare systeemrapporten
 
-| Rapportgroep | Inbegrepen informatie |
+| Rapportgroep | Informatie inbegrepen |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Adobe Commerce-versie <br>Aantal gegevens<br>cachestatus<br>indexstatus |
-| [!UICONTROL Environment] | Omgevingsinformatie<br>MySQL-status |
-| [!UICONTROL Data] | Categorieën dupliceren op URL-sleutel<br>Producten dupliceren op URL-sleutel<br>Producten dupliceren op SKU<br>Bestellingen dupliceren op increment-id<br>Gebruikers dupliceren op e-mail<br>Beschadigde categoriedata |
-| [!UICONTROL Modules] | Aangepaste modules lijst<br>Uitgeschakelde modules lijst<br>Alle modules lijst |
-| [!UICONTROL Configuration] | Configuratie<br>data van `app/etc/env.php`<br>verzendmethoden<br>betalingsmethoden<br>functionaliteitsmatrix voor betalingen |
-| [!UICONTROL Logs] | Logbestanden<br>Top systeemberichten<br>De beste systeemberichten van vandaag<br>Top foutopsporingsberichten<br>De beste foutopsporingsberichten van vandaag<br>Top uitzonderingsberichten<br>De beste uitzonderingsberichten van vandaag |
-| [!UICONTROL Attributes] | Door gebruiker gedefinieerde EAV-kenmerken<br>Nieuwe EAV-kenmerken<br>entiteitstypen<br>Alle EAV-kenmerken<br>Categorie EAV-kenmerken<br>Product EAV-kenmerken<br>Klant EAV-kenmerken<br>Klantadres EAV-kenmerk<br>RMA-item EAV-kenmerken |
-| [!UICONTROL Events] | Aangepaste wereldwijde gebeurtenissen<br>Aangepaste beheergebeurtenissen<br>Aangepaste front-end gebeurtenissen<br>Aangepaste doc gebeurtenissen<br>Aangepaste CronTab gebeurtenissen<br>Aangepaste REST gebeurtenissen<br>Aangepaste SOAP SOAP gebeurtenissen<br>Algemene gebeurtenissen<br>Kernbeheerders gebeurtenissen<br>Kernfront-end gebeurtenissen<br>Kerndocgebeurtenissen<br>Kernconcrontabgebeurtenissen<br>Kerngebeurtenissen<br>Alle wereldwijde gebeurtenissen<br>Alle Beheergebeurtenissen<br>Alle front-end gebeurtenissen<br>Alle Doc gebeurtenissen<br><br>Alle REST gebeurtenissen<br>Alle SOAP gebeurtenissen<br>Alle CronTab gebeurtenissen |
-| [!UICONTROL Cron] | Cron Schedules per statuscode<br>Cron Schedules per taakcode<br>Fouten in Cron Schedules Queue<br>Cron Schedules Lijst<br>Aangepaste globale Cron Taken<br>Aangepaste configureerbare Cron Taken<br>Kernglobale Cron Taken<br>Kernconfigureerbare Cron Taken<br>Alle wereldwijde Cron Taken<br>Alle configureerbare Cron Taken |
-| [!UICONTROL Design] | AdminHTML Thema&#39;s Lijst<br>Frontend Thema&#39;s Lijst |
-| [!UICONTROL Stores] | Website Boom<br>Websites Lijst<br>Winkellijst<br>Winkelweergaven Lijst |
-| OMS-connector <br>_(zichtbaar met OMS-integratie)_ | Connectorversie<br>Connector controleren<br>Resultaten van berichtverwerking |
+| [!UICONTROL General] | De Status van het Geheime voorgeheugen van de Telling van de Versie van Adobe Commerce <br> <br> Index<br> |
+| [!UICONTROL Environment] | De Informatie van het milieu <br> Status MySQL |
+| [!UICONTROL Data] | De dubbele Categorieën door sleutel URL <br> dupliceren Producten door sleutel URL <br> dupliceert Producten door SKU <br> dubbele Orden door identiteitskaart van de Toename <br> dubbele Gebruikers door E-mail <br> beschadigde CategorieënGegevens |
+| [!UICONTROL Modules] | De Lijst van de Modules van de Douane <br> Gehandicapte Lijst van Modules <br> Alle Lijst van Modules |
+| [!UICONTROL Configuration] | De Gegevens van de configuratie <br> van `app/etc/env.php`<br> Verschepende Methoden <br> de Methoden van de Betaling <br> Matrijs van de Functionaliteit van Betalingen |
+| [!UICONTROL Logs] | De Dossiers van het Logboek <br> Hoogste Berichten van het Systeem <br> Van vandaag de hoogste Berichten van het Systeem <br> Debug Berichten <br> Van vandaag de hoogste Berichten van de Uitzondering <br> <br> Van de de hoogste Uitzondering van vandaag Berichten |
+| [!UICONTROL Attributes] | Gebruiker bepaalde EAV Attributen <br> Nieuwe Attributen EAV <br> Typen van de Entiteit <br> Alle Attributen EAV <br> attributen van de Categorie EAV <br> Attributen van het Product EAV <br> Attributen van de Klant EAV <br> Attributen van het Adres van de Klant {<br> Attributen van het Punt RMA EAV |
+| [!UICONTROL Events] | De Eigen Globale Gebeurtenissen van Gebeurtenissen van Admin van de Gebeurtenissen van Admin van de Douane {<br> Gebeurtenissen van de Gebeurtenissen van de Gebeurtenissen van de Gebeurtenissen van de Aangepaste Crontab van de Gebeurtenissen van de Eigen {<br> Eigen Gebeurtenissen van SOAP van de Kern van de Gebeurtenissen van Admin van 7} van de Kern van Admin {<br> Gebeurtenissen van de Gebeurtenissen van de Kern van de Voorzie {<br> 11} 111} 11} Core van de Gebeurtenissen van de Gebeurtenissen van de Gebeurtenissen van 1111110} van de ECN van de Gebeurtenissen van de Gebeurtenissen van de ECN van de ECN van de ECN van de ECN { De Gebeurtenissen van de Kern van de Gebeurtenissen van SOAP 12} <br> Alle Globale Gebeurtenissen <br> Alle Gebeurtenissen Admin <br> Alle Gebeurtenissen van het Front <br> Alle Gebeurtenissen van Doc <br> Alle gebeurtenissen van het Terugsturen <br> Alle Gebeurtenissen van SOAP <br> Alle Gebeurtenissen Crontab<br><br><br><br><br><br><br><br><br> |
+| [!UICONTROL Cron] | De programma&#39;s van het gewricht door statuscode <br> Gewas Programma&#39;s door baancode <br> Fouten in de 2} Gewas Lijst van Programma&#39;s van de Rij <br> Eigen Globale Banen van het Gewas <br> Aangepaste Aanpasbare Banen van het Gewas <br> de Mondiale Banen van de Kern van de Banen van de Bouw van de Kern {<br> Zulden Alle Globale Gelijkaardige Gelijke Graadwerk van 7} Globale Graadwerk van de Globale Graad <br> Globale 3} Globale Banen van de Globale Wegen <br> Globale Wegen <br> |
+| [!UICONTROL Design] | Adminhtml Lijst van Thema&#39;s <br> de Lijst van Thema&#39;s van het Front |
+| [!UICONTROL Stores] | De Boom van de website <br> Lijst van Websites <br> de Lijst van de Lijsten van de Opslag <br> Lijst van de Bekijken van de Opslag |
+| OMS Connector <br>_(zichtbaar met integratie OMS)_ | De Versie van de schakelaar <br> Schakelaar controleerde <br> Resultaten van de Verwerking van het Bericht |
 
 {style="table-layout:auto"}
