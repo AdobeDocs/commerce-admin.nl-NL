@@ -3,9 +3,10 @@ title: Betalingsovereenkomsten met PayPal
 description: Leer hoe je PayPal-factureringsovereenkomsten en een betalingsmethode in je winkel kunt ondersteunen.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Om het afhandelingsproces te vereenvoudigen, kunnen klanten een factureringsover
 
 ## Factureringsovereenkomsten beheren
 
-De pagina _[!UICONTROL Billing Agreements]_&#x200B;bevat alle factureringsovereenkomsten tussen uw winkel en zijn klanten. De handelaren kunnen de verslagen door de klant of de informatie van de factureringsovereenkomst met inbegrip van de verwijzings identiteitskaart van de factureringsovereenkomst, status, en aanmaakdatum filtreren. Elk record bevat algemene informatie over de factureringsovereenkomst en alle verkooporders die deze als betalingsmethode hebben gebruikt. U kunt factureringsovereenkomsten van klanten weergeven, annuleren of verwijderen. Een geannuleerde factureringsovereenkomst kan slechts door de archiefbeheerder worden geschrapt.
+De pagina _[!UICONTROL Billing Agreements]_bevat alle factureringsovereenkomsten tussen uw winkel en zijn klanten. De handelaren kunnen de verslagen door de klant of de informatie van de factureringsovereenkomst met inbegrip van de verwijzings identiteitskaart van de factureringsovereenkomst, status, en aanmaakdatum filtreren. Elk record bevat algemene informatie over de factureringsovereenkomst en alle verkooporders die deze als betalingsmethode hebben gebruikt. U kunt factureringsovereenkomsten van klanten weergeven, annuleren of verwijderen. Een geannuleerde factureringsovereenkomst kan slechts door de archiefbeheerder worden geschrapt.
 
 ### Een factureringsovereenkomst weergeven
 
@@ -34,7 +35,7 @@ De pagina _[!UICONTROL Billing Agreements]_&#x200B;bevat alle factureringsoveree
 
 1. Zoek de factureringsovereenkomst in de lijst en klik om deze te openen.
 
-Elke pagina met factureringsovereenkomsten bestaat uit twee tabbladen: _[!UICONTROL General Information]_&#x200B;en&#x200B;_[!UICONTROL Related Orders]_ .
+Elke pagina met factureringsovereenkomsten bestaat uit twee tabbladen: _[!UICONTROL General Information]_en_[!UICONTROL Related Orders]_ .
 
 #### Algemene informatie
 

@@ -3,23 +3,24 @@ title: PayPal Payflow Link
 description: Meer informatie over het instellen van PayPal Payflow Link als een online betalingsoplossing in je winkel.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # PayPal Payflow Link
 
-PayPal Payflow Link is alleen beschikbaar voor verkopers in de Verenigde Staten en Canada. Klanten hoeven geen persoonlijke PayPal-rekening te hebben en hun creditcardgegevens in een formulier in te voeren dat door PayPal wordt gehost. De gegevens worden nooit opgeslagen op uw Adobe Commerce of Magento Open Source server. De Verbinding van de nuttige stroom kan niet voor orden worden gebruikt die van Admin worden gecreeerd.
+PayPal Payflow Link is alleen beschikbaar voor verkopers in de Verenigde Staten en Canada. Klanten hoeven geen persoonlijke PayPal-rekening te hebben en hun creditcardgegevens in een formulier in te voeren dat door PayPal wordt gehost. De gegevens worden nooit opgeslagen op uw Adobe Commerce- of Magento Open Source-server. De Verbinding van de nuttige stroom kan niet voor orden worden gebruikt die van Admin worden gecreeerd.
 
 Creditmemo&#39;s worden ondersteund voor zowel online als offline terugbetalingen. Meerdere online terugbetalingen worden echter niet ondersteund.
 
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Om te voldoen aan PSD2, moet PayPal Payflow Link zijn geïntegreerd met Kardinaal Commerce. Meer leren, zie [ 3-D Veilig voor Payflow ](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Om te voldoen aan PSD2, moet PayPal Payflow Link zijn geïntegreerd met Cardinal Commerce. Meer leren, zie [ 3-D Veilig voor Payflow ](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 ## Vereisten
 
@@ -98,7 +99,7 @@ Bij deze instelmethode wordt ervan uitgegaan dat u een bestaand PayPal-account h
 
 1. Als uw Commerce-installatie meerdere websites, winkels of weergaven bevat, stelt u **[!UICONTROL Store View]** in op de winkelweergave waar u deze configuratie wilt toepassen.
 
-1. Selecteer in de sectie _[!UICONTROL Merchant Location]_&#x200B;de **[!UICONTROL Merchant Country]**&#x200B;waar uw bedrijf zich bevindt.
+1. Selecteer in de sectie _[!UICONTROL Merchant Location]_de **[!UICONTROL Merchant Country]**waar uw bedrijf zich bevindt.
 
    Deze instelling bepaalt de selectie van PayPal-oplossingen die in de configuratie worden weergegeven.
 
@@ -293,7 +294,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Houd Ctrl ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Houd Ctrl ingedrukt en selecteer elk land in de lijst waar klanten aankopen kunnen doen in uw winkel.
 
 1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
@@ -364,7 +365,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 #### Instellingen voor voorvertoning
 
-Gebruik _[!UICONTROL Frontend Experience Settings]_&#x200B;om te kiezen welke PayPal-logo&#39;s op uw site worden weergegeven en om de weergave van uw handelspagina&#39;s van PayPal aan te passen.
+Gebruik _[!UICONTROL Frontend Experience Settings]_om te kiezen welke PayPal-logo&#39;s op uw site worden weergegeven en om de weergave van uw handelspagina&#39;s van PayPal aan te passen.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Frontend Experience Settings]** sectie uit.
 
@@ -419,7 +420,7 @@ Gebruik _[!UICONTROL Frontend Experience Settings]_&#x200B;om te kiezen welke Pa
    - `Authorization` - Hiermee gaat u akkoord met de aankoop en houdt u de middelen in de wacht. Het bedrag wordt niet teruggetrokken tot het __ door de koopman wordt gevangen.
    - `Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
 
-1. Stel **[!UICONTROL Display on Product Details Page]** in op `Yes` om de knop _[!UICONTROL Check out with PayPal]_&#x200B;op de productpagina weer te geven.
+1. Stel **[!UICONTROL Display on Product Details Page]** in op `Yes` om de knop _[!UICONTROL Check out with PayPal]_op de productpagina weer te geven.
 
 ### Stap 7: De geavanceerde instellingen voor PayPal Express-afhandeling voltooien
 
@@ -432,7 +433,7 @@ Gebruik _[!UICONTROL Frontend Experience Settings]_&#x200B;om te kiezen welke Pa
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
 
 1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 

@@ -3,9 +3,10 @@ title: PayPal-afwikkelingsrapport
 description: Meer informatie over het PayPal-afwikkelingsrapport als een hulpmiddel voor het beheer van PayPal-transacties.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Het PayPal-afwikkelingsrapport geeft verkopers de informatie over elke transacti
 >
 >Voordat de beheerder van de winkel afwikkelingsrapporten kan genereren, moet hij of zij PayPal Merchant Technical Services vragen een SFTP-gebruikersaccount te maken, het genereren van afwikkelingsrapporten mogelijk te maken en SFTP in te schakelen in hun PayPal-zakelijke account.
 
-Na het configureren en inschakelen van afwikkelingsrapporten op de PayPal Merchant-account, zullen Adobe Commerce en Magento Open Source rapporten genereren gedurende de volgende 24 uur. De lijst met beschikbare vereveningsrapporten kan worden bekeken door de beheerder.
+Na het configureren en inschakelen van afwikkelingsrapporten op de PayPal Merchant-account, beginnen Adobe Commerce en Magento Open Source rapporten te genereren gedurende de volgende 24 uur. De lijst met beschikbare vereveningsrapporten kan worden bekeken door de beheerder.
 
 **_om schikkingsrapporten te bekijken:_**
 
