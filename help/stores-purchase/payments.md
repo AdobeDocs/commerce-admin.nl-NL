@@ -24,7 +24,7 @@ Adobe Commerce en Magento Open Source ondersteunen een breed scala aan betalings
 
 ## Wijzigingen in 2.4
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.4.x-releases en verplaatst naar de Commerce Marketplace. U kunt de recentste officiële uitbreidingen van de betaalintegratie in [ Commerce Marketplace ](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"} vinden.
 
@@ -52,18 +52,18 @@ Adobe Commerce en Magento Open Source ondersteunen een groot aantal betalingsopl
 ### Aanbevolen oplossingen
 
 - [ de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Uitdrukkelijke Controle PayPal ](paypal-express-checkout.md)
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Braintree ](braintree.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Uitdrukkelijke Controle PayPal ](paypal-express-checkout.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Braintree ](braintree.md)
 
 ### Andere PayPal-betalingsoplossingen
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Zie [ PayPal betalingsoplossingen ](paypal.md) voor meer informatie over PayPal de opties van de betalingsmethode.
 
 #### Alles-in-één PayPal-oplossingen
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 - [PayPal-betalingen geavanceerd](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -71,14 +71,14 @@ Zie [ PayPal betalingsoplossingen ](paypal.md) voor meer informatie over PayPal 
 
 #### PayPal-betalingsgateways
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal Payflow Link](paypal-payflow-link.md)
 
 ## Fraudebescherming
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Met de services en filters voor fraudebescherming worden verzonden bestellingen gecontroleerd voordat de transactie wordt verwerkt om frauduleuze bestellingen op te sporen en u te beschermen tegen de kosten van terugbetalingen. Adobe Commerce en Magento Open Source ondersteunen de volgende oplossingen voor fraudebescherming:
 
@@ -92,7 +92,7 @@ Met de services en filters voor fraudebescherming worden verzonden bestellingen 
 
 ## Bronnen voor probleemoplossing
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Voor hulp bij het oplossen van problemen met betaling, zie de [ Kennisbank van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
 

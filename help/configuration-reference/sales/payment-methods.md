@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ Merchant Plaats ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 De volgende betalingsoplossingen worden aanbevolen als een gemakkelijke manier voor verkopers die net beginnen met het accepteren van online betalingen via PayPal-rekening of creditcard. Naarmate uw bedrijf groeit, kunt u deze combineren met extra PayPal-betalingsoplossingen.
 
 - [Betalingsdiensten](payment-services.md)
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Uitdrukkelijke Controle PayPal ](paypal-express-checkout.md)
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Braintree ](braintree.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Uitdrukkelijke Controle PayPal ](paypal-express-checkout.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Braintree ](braintree.md)
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ De volgende betalingsoplossingen worden aanbevolen als een gemakkelijke manier v
 
 ## Andere PayPal-methoden
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 PayPal biedt verschillende betalingsoplossingen die voldoen aan de behoeften van bedrijven van elke omvang en die wereldwijd actief zijn in het zakenleven. Met PayPal kun je betalingen accepteren van alle grote incasso- en creditcards. PayPal biedt extra gemak zonder extra moeite, omdat zelfs klanten die geen PayPal-rekening hebben voor hun aankopen kunnen betalen met PayPal.
 
 ### PayPal all-in-one methoden
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 - [PayPal-betaling geavanceerd](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -66,7 +66,7 @@ PayPal biedt verschillende betalingsoplossingen die voldoen aan de behoeften van
 
 ### PayPal-betalingsgateways
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 - [ PayPal Payflow Pro ](paypal-payflow-pro.md) (Omvat Uitdrukkelijke Afhandeling)
 - [ PayPal de Verbinding van de Payflow ](paypal-payflow-link.md) (omvat Uitdrukkelijke Afhandeling)
@@ -91,7 +91,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 | [!UICONTROL Make Check Payable to] | Winkelweergave | De naam van de entiteit aan wie cheques en postwissels moeten worden betaald. |
 | [!UICONTROL Send Check to] | Winkelweergave | Het adres of postbus waar cheques en postwissels moeten worden verzonden. |
 | [!UICONTROL Minimum Order Total] | Website | Het kleinste orderbedrag dat per cheque of postwissel kan worden betaald. |
-| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per cheque of postwissel kan worden betaald. <br/><br/>**_Nota:_**een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
+| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per cheque of postwissel kan worden betaald. <br/><br/>**_Nota:_**&#x200B;een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die wordt betaald via cheque of postwissel wanneer deze bij andere betalingsmethoden tijdens het afrekenen wordt weergegeven. Voer `0` in om het boven aan de lijst te plaatsen. |
 
 {style="table-layout:auto"}
@@ -110,7 +110,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 | [!UICONTROL Payment from Applicable Countries] | Website | Hiermee bepaalt u van welke landen je betaling via overschrijving accepteert. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Hiermee worden de specifieke landen aangegeven waaruit je betaling via overschrijving accepteert. |
 | [!UICONTROL Minimum Order Total] | Website | Het kleinste orderbedrag dat per bankoverschrijving kan worden betaald. |
-| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Nota:_**een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
+| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Nota:_**&#x200B;een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die bij het afrekenen bij een andere betalingsmethode wordt weergegeven als de betaling via een overschrijving wordt uitgevoerd. Voer `0` in om het boven aan de lijst te plaatsen. |
 
 {style="table-layout:auto"}
@@ -131,7 +131,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 | [!UICONTROL Payment from Applicable Countries] | Website | Hiermee bepaalt u in welke landen bedrijven aankopen op hun rekening mogen afschrijven. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Identificeert de specifieke landen waar bedrijven aankopen op hun rekeningen kunnen aanrekenen. |
 | [!UICONTROL Minimum Order Total] | Website | Hiermee geeft u het kleinste orderbedrag op dat in rekening kan worden gebracht op een bedrijfsaccount. |
-| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat op een bedrijfsaccount in rekening kan worden gebracht. <br/><br/>**_Nota:_**een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
+| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat op een bedrijfsaccount in rekening kan worden gebracht. <br/><br/>**_Nota:_**&#x200B;een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin de betaling op rekening wordt weergegeven wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. Voer `0` in om het boven aan de lijst te plaatsen. |
 
 {style="table-layout:auto"}
@@ -154,7 +154,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 | [!UICONTROL Payment from Applicable Countries] | Website | Hiermee bepaalt u van welke landen je betaling via overschrijving accepteert. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Hiermee worden de specifieke landen aangegeven waaruit je betaling via overschrijving accepteert. |
 | [!UICONTROL Minimum Order Total] | Website | Geeft het kleinste orderbedrag aan dat per overschrijving kan worden betaald. |
-| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Nota:_**een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
+| [!UICONTROL Maximum Order Total] | Website | Het hoogste orderbedrag dat per bankoverschrijving kan worden betaald. <br/><br/>**_Nota:_**&#x200B;een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die bij het afrekenen bij een andere betalingsmethode wordt weergegeven als de betaling via een overschrijving wordt uitgevoerd. Voer `0` in om het boven aan de lijst te plaatsen. |
 
 {style="table-layout:auto"}
@@ -178,7 +178,7 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ## [!UICONTROL Payment actions]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 De acties van de betaling worden gevormd _per betalingsmethode_. De betalingsactie bepaalt wanneer de fondsen worden vastgelegd en wanneer facturen voor uw verkooporders worden gemaakt.
 
@@ -199,7 +199,7 @@ Zie de Basis montagessectie van elk individueel onderwerp van de betalingsmethod
 
 >[!NOTE]
 >
->Selecteer de optie _[!UICONTROL Not Capture]_alleen als u zeker weet dat u de betaling later via Commerce gaat vastleggen. U kunt pas een creditmemo maken nadat de betaling is vastgelegd met de knop Vastleggen.
+>Selecteer de optie _[!UICONTROL Not Capture]_&#x200B;alleen als u zeker weet dat u de betaling later via Commerce gaat vastleggen. U kunt pas een creditmemo maken nadat de betaling is vastgelegd met de knop Vastleggen.
 
 ## [!UICONTROL Purchase Order]
 
@@ -215,7 +215,7 @@ Zie de Basis montagessectie van elk individueel onderwerp van de betalingsmethod
 | [!UICONTROL Payment from Applicable Countries] | Website | Bepaalt de landen waarvan u betaling door PO goedkeurt. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Identificeert de specifieke landen waarvan u betaling door PO goedkeurt. |
 | [!UICONTROL Minimum Order Total] | Website | Het kleinste orderbedrag dat door PO kan worden betaald. |
-| [!UICONTROL Maximum Order Total] | Website | Het grootste orderbedrag dat door PO kan worden betaald. <br/><br/>**_Nota:_**een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
+| [!UICONTROL Maximum Order Total] | Website | Het grootste orderbedrag dat door PO kan worden betaald. <br/><br/>**_Nota:_**&#x200B;een orde kwalificeert als het totaal tussen, of gelijken, het minimum of maximumordertotaal is. |
 | [!UICONTROL Sort Order] | Website | Een getal dat de bestelling bepaalt die de betaling per inkooporder weergeeft wanneer deze bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. Voer `0` in om het boven aan de lijst te plaatsen. |
 
 {style="table-layout:auto"}
