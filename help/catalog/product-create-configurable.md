@@ -3,7 +3,7 @@ title: Configureerbaar product
 description: Leer hoe u een configureerbaar product maakt dat kopers verschillende mogelijkheden biedt voor selectie.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ De eigenschappen van elk attribuut dat voor een configureerbare productvariatie 
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Het invoertype van een kenmerk dat wordt gebruikt voor een productvariatie, moet een van de volgende waarden zijn: `Dropdown`, `Visual Swatch` of `Text Swatch` . |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -92,7 +93,7 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt de selectie van gebieden
 
    >[!NOTE]
    >
-   >De **Status van de Beeld** van het configureerbare product is a **_half-manueel_** gecontroleerd plaatsen. Het wordt gedeeltelijk gecontroleerd door de voorraadstatus van zijn kinderproducten. Het is een deel van de berekening van de a **_multi-criteria_** voorraadstatus, die in [ wordt beschreven vormt de 3&rbrace; sectie van de Status van de Voorraad &lbrace;.](#configure-the-stock-status)
+   >De **Status van de Beeld** van het configureerbare product is a **_half-manueel_** gecontroleerd plaatsen. Het wordt gedeeltelijk gecontroleerd door de voorraadstatus van zijn kinderproducten. Het is een deel van de berekening van de a **_multi-criteria_** voorraadstatus, die in [ wordt beschreven vormt de 3} sectie van de Status van de Voorraad {.](#configure-the-stock-status)
 
 1. Voer het product **[!UICONTROL Weight]** in.
 
@@ -138,7 +139,7 @@ De voortgangsbalk boven aan de pagina geeft aan waar u zich in het proces bevind
 
 ### Stap 1: Kies de kenmerken
 
-1. Blader vanaf boven naar de sectie _[!UICONTROL Configurations]_&#x200B;en klik op **[!UICONTROL Create Configurations]**.
+1. Blader vanaf boven naar de sectie _[!UICONTROL Configurations]_en klik op **[!UICONTROL Create Configurations]**.
 
    ![ Configuraties ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -278,7 +279,7 @@ De huidige productvariaties verschijnen bij de bodem van de _sectie van de Confi
 
 ### Stap 5: productafbeeldingen toevoegen
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_sectie.
 
 1. Klik de _tegel van de Camera_ en doorblader aan het belangrijkste beeld dat u voor het configureerbare product wilt gebruiken.
 
@@ -302,7 +303,7 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 
 - [Cadeauopties](product-gift-options.md)
 
-### Stap 7: Publish het product
+### Stap 7: Het product publiceren
 
 1. Als u het product wilt publiceren in de catalogus, stelt u **[!UICONTROL Enable Product]** in op `Yes` en voert u een van de volgende handelingen uit:
 
@@ -328,7 +329,7 @@ Als u voor elke variatie een andere afbeelding hebt, kunt u de configuratie zo i
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_&#x200B;sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_sectie uit.
 
 1. Stel **[!UICONTROL Configurable Product Image]** in op `Product Thumbnail Itself` .
 
