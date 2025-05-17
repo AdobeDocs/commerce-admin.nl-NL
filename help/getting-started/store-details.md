@@ -3,9 +3,9 @@ title: Winkelgegevens
 description: Leer hoe u de basisgegevens voor je winkel kunt bijwerken.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De basisinformatie voor uw winkel omvat de naam en het adres van de winkel, het 
 
 ## [!UICONTROL Store Information]
 
-De sectie _[!UICONTROL Store Information]_&#x200B;bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
+De sectie _[!UICONTROL Store Information]_bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,11 +169,11 @@ U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmet
 
 Raadpleeg de volgende artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met de landconfiguratie: [!DNL Commerce]
 
-- [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=nl-NL) toe te voegen
+- [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html) toe te voegen
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Het plaatsen van de Plaats van de Merchant wordt gebruikt om [ betalingsmethodes ](../stores-purchase/payments.md) te vormen. Als er geen waarde voor dit het plaatsen is, wordt het [ StandaardLand ](#uicontrol-country-options) plaatsen gebruikt.
 
@@ -195,7 +195,7 @@ De Opstelling van de Valuta - bepaalt de basis [ munt ](../stores-purchase/curre
 
 Valutasymbolen - bepaalt de [ muntsymbolen ](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in productprijzen en verkoopdocumenten zoals orden en facturen verschijnen. [!DNL Commerce] ondersteunt valuta&#39;s uit meer dan 200 landen over de hele wereld.
 
-Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [&#128279;](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
+Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [ ](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
 
 De Chooser van de Valuta - als de veelvoudige valuta&#39;s beschikbaar zijn, [ muntkiezer ](../stores-purchase/currency.md) is beschikbaar in de kopbal van de opslag.
 
@@ -213,7 +213,21 @@ Elke identiteit en het bijbehorende e-mailadres kunnen worden gekoppeld aan spec
 
 Voordat u e-mailadressen voor de winkel kunt configureren, moet u elk adres instellen als geldig e-mailadres voor uw domein. Volg de instructies van uw serverbeheerder of e-mailhostingprovider om elk e-mailadres te maken dat u nodig hebt.
 
-### Stap 2: Vorm de e-mailadressen voor uw opslag
+### Stap 2: stel de basis-URL in voor gegenereerde koppelingen
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+Sommige klant-onder ogen ziet e-mails omvatten verbindingen aan de opslag, zoals die die klanten helpen hun wachtwoorden terugstellen. Om ervoor te zorgen dat de koppelingen naar de winkel goed werken, moet u de basis-URL voor de winkel definiëren.
+
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Kies onder **[!UICONTROL General]** in het linkernavigatievenster de optie **[!UICONTROL Store Email Addresses]** .
+
+1. Voer in de sectie **[!UICONTROL Storefront Base URL]** field **[!UICONTROL General]** de basis-URL voor de winkel in, bijvoorbeeld `https://www.example.com/` . De URL moet eindigen met een slash.
+
+   ![ Algemene configuratie - Algemeen ](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### Stap 3: Vorm de e-mailadressen voor uw opslag
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -231,7 +245,7 @@ Voordat u e-mailadressen voor de winkel kunt configureren, moet u elk adres inst
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-### Stap 3: Werk de configuratie van de verkoopmail bij
+### Stap 4: Werk de configuratie van de e-mail van de verkoop bij
 
 Als u aangepaste e-mailadressen gebruikt, moet u de configuratie van gerelateerde e-mailberichten bijwerken, zodat de juiste identiteit wordt weergegeven als de afzender.
 
