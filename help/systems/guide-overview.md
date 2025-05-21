@@ -1,11 +1,11 @@
 ---
 title: Admin Systems Guide
-description: Leer beste veiligheidspraktijken om uw opslag van Commerce te beschermen en toestemmingen te beheren, en hoe te om gegevens in te voeren en uit te voeren, integraties en uitbreidingen te beheren, en routine onderhoud te behandelen.
+description: Leer de beste beveiligingspraktijken om uw Commerce-winkel te beschermen en machtigingen te beheren. Ook leert u hoe u gegevens importeert en exporteert, integraties en extensies beheert en routinematig onderhoud uitvoert.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
