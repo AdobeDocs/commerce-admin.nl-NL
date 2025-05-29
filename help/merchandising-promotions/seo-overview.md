@@ -3,9 +3,9 @@ title: Zoekmachine optimaliseren
 description: Meer informatie over SEO-gereedschappen (Search Engine Optimization, optimalisatie van zoekprogramma's) voor Commerce-sites en tips en trucs voor optimale SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,27 @@ ht-degree: 0%
 
 _de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijnen van de inhoud en de presentatie van een plaats om de manier te verbeteren de pagina&#39;s door onderzoeksmotoren worden geïndexeerd. Commerce bevat verschillende functies die uw huidige SEO-inspanningen ondersteunen.
 
+>[!TIP]
+>
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+
 ## Metagegevens
 
-Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [ meta- gegevens ](meta-data.md) voor uw plaats en opslag.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
+Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [ meta-gegevens ](meta-data.md) voor uw plaats en opslag.
 
 ## Een sitemap gebruiken
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 A [ plaatskaart ](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
 ## URL herschrijft
 
-[ URL herschrijft ](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of pagina CMS wordt geassocieerd.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
+[ URL herschrijft ](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of een pagina van CMS wordt geassocieerd.
 
 ## Zoekmachine-robots
 

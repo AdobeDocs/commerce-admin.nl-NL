@@ -3,9 +3,10 @@ title: Indexbeheer
 description: Leer over indexbeheer, met inbegrip van de acties die het opnieuw indexeren en beste praktijken teweegbrengen.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De in
 
 ## Aanbevolen werkwijzen voor herindexering
 
-Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [&#128279;](cache-management.md) sparen de Caches van 0&rbrace; geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. ](cache-management.md) sparen de Caches van 0} geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.[
 
 - Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in Commerce.
 - Als u een grote winkel of meerdere winkels hebt, kunt u indexeerders zoals categorie en producten instellen op geplande snijtaken vanwege de mogelijkheid van herindexering. U kunt de herdex instellen volgens een schema gedurende niet-piekuren.
@@ -43,7 +44,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 >[!IMPORTANT]
 >
->Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
+>Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +77,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 ## Opnieuw indexeren met de opdrachtregel
 
-Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=nl-NL#reindex) {:target="blank"} in de _Gids van de Configuratie_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} in de _Gids van de Configuratie_.
 
 ## Gebeurtenissen van indextrigger
 

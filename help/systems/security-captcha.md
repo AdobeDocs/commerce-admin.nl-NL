@@ -4,16 +4,17 @@ description: Leer hoe u CAPTCHA configureert voor beheerdersrechten en verschill
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # CAPTCHA
 
-Een CAPTCHA is een visueel apparaat dat ervoor zorgt dat een mens, in plaats van een computer (of &#39;bot&#39;), communiceert met de site. CAPTCHA is een acroniem voor _volledig Geautomatiseerde Openbare Turing test om Computers en Humans te vertellen over_. Het kan voor zowel toegang Admin als diverse storefront acties worden gebruikt die door geregistreerde klanten in werking worden gesteld. Adobe Commerce en de Magento Open Source steunen standaardCAPTCHA die in dit onderwerp en [ Google reCAPTCHA ](security-google-recaptcha.md) wordt beschreven.
+Een CAPTCHA is een visueel apparaat dat ervoor zorgt dat een mens, in plaats van een computer (of &#39;bot&#39;), communiceert met de site. CAPTCHA is een acroniem voor _volledig Geautomatiseerde Openbare Turing test om Computers en Humans te vertellen over_. Het kan voor zowel toegang Admin als diverse storefront acties worden gebruikt die door geregistreerde klanten in werking worden gesteld. Adobe Commerce en Magento Open Source steunen standaardCAPTCHA die in dit onderwerp en [ Google reCAPTCHA ](security-google-recaptcha.md) wordt beschreven.
 
 U kunt de CAPTCHA zo vaak opnieuw laden als nodig is door op het pictogram Opnieuw laden in de rechterbovenhoek van de afbeelding te klikken. CAPTCHA is volledig configureerbaar en kan elke keer, of slechts na een bepaald aantal ontbroken login pogingen worden geplaatst.
 
@@ -51,7 +52,7 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
    - Stel **[!UICONTROL Displaying Modes]** in op een van de volgende opties:
 
       - `Always` — CAPTCHA is altijd vereist om u aan te melden bij de beheerder.
-      - `After number of attempts to login` — Deze optie is alleen van toepassing op het aanmeldingsformulier voor beheerders. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde 0 (nul) komt overeen met het instellen van de weergavemodus op `Always` .
+      - `After number of attempts to login` — Deze optie is alleen van toepassing op het aanmeldingsformulier voor beheerders. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde 0 (nul) komt overeen met het instellen van de weergavemodus op `Always` .
 
      Om het aantal mislukte aanmeldingspogingen bij te houden, wordt elke poging tot aanmelding onder één e-mailadres en van één IP-adres geteld. Het maximumaantal login pogingen die van het zelfde IP-adres worden toegestaan is 1.000. Deze beperking is alleen van toepassing wanneer CAPTCHA is ingeschakeld.
 
@@ -97,8 +98,8 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL) _artikel van de Kennisbank_)
-      - `Send to Friend Form` ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts)
+      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _artikel van de Kennisbank_)
+      - `Send to Friend Form` ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source)
       - `Add Gift Card Code` ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
       - `Create company` ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
 

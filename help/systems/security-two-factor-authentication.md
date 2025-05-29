@@ -4,9 +4,10 @@ description: Leer over twee-factor authentificatiesteun om de veiligheid van uw 
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Commerce _Admin_ voor uw installatie van Adobe Commerce of Magento Open Source v
 
 Verificatie met twee factoren wordt op grote schaal gebruikt en het is gebruikelijk om toegangscodes te genereren voor verschillende websites op dezelfde app. Deze extra verificatie zorgt ervoor dat alleen u zich kunt aanmelden bij uw gebruikersaccount. Als je je wachtwoord verliest of als een bot het vermoedt, voegt tweeledige verificatie een extra beveiligingslaag toe. U kunt bijvoorbeeld Google Authenticator gebruiken om codes te genereren voor de beheerder van uw winkel, uw Commerce-account en uw Google-account.
 
-![ de configuratieiphone van de Veiligheid - 2FA ](./assets/google-authenticator-iphone.png)
+![ de configuratieiphone van de Veiligheid - 2FA ](./assets/google-authenticator-iphone.png){width="300"}
 
 Adobe Commerce ondersteunt 2FA-methoden van meerdere providers. Sommige vereisen de installatie van een app die een eenmalig wachtwoord (OTP) produceert dat de gebruikers bij login ingaan om hun identiteit te verifiëren. De universele apparaten van de tweede factor (U2F) lijken op een zeer belangrijk fob en produceren een unieke sleutel om identiteit te verifiëren. Andere apparaten verifiëren identiteit wanneer zij in een haven van USB worden opgenomen. Als opslagbeheerder, kunt u één of meerdere beschikbare methodes vereisen 2FA om gebruikersidentiteit te verifiëren. Uw 2FA-configuratie is van toepassing op alle websites en winkels die aan de Adobe Commerce-installatie zijn gekoppeld.
 
@@ -29,7 +30,7 @@ De eerste keer een gebruiker ondertekent binnen aan _Admin_, moeten zij opstelli
 
 >[!NOTE]
 >
->In winkels waar verificatie voor Adobe Identity Management Services (IMS) is ingeschakeld, zijn de native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
+>In winkels waar verificatie voor Adobe Identity Management Services (IMS) is ingeschakeld, zijn de native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&learn=on) voor een overzicht van twee-factor authentificatie in Admin letten.
 
@@ -39,7 +40,7 @@ U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&lear
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Security]** uit en kies **[!UICONTROL 2FA]** .
 
-1. Selecteer in de sectie _[!UICONTROL General]_&#x200B;de providers die u wilt gebruiken.
+1. Selecteer in de sectie _[!UICONTROL General]_de providers die u wilt gebruiken.
 
    | Provider | Functie |
    |--- |--- |
@@ -52,7 +53,7 @@ U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&lear
 
 1. Voltooi de [ montages ](../configuration-reference/security/2fa.md) voor elke vereiste methode 2FA.
 
-   ![ Configuratie van de Veiligheid - 2FA ](../configuration-reference/security/assets/2fa-general.png)
+   ![ Configuratie van de Veiligheid - 2FA ](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -66,7 +67,7 @@ Voer de instellingen in voor elke 2FA-methode die u nodig hebt.
 
 Als u wilt wijzigen hoe lang het eenmalige wachtwoord (OTP) beschikbaar is tijdens het aanmelden, schakelt u het selectievakje **[!UICONTROL Use system value]** uit. Voer vervolgens het aantal seconden in dat de **[!UICONTROL OTP Window]** geldig moet zijn.
 
-![ configuratie van de Veiligheid - Google ](../configuration-reference/security/assets/2fa-google.png)
+![ configuratie van de Veiligheid - Google ](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -82,7 +83,7 @@ Voer de volgende gegevens in van uw Duo Security-account:
 - Geheime sleutel
 - API-hostnaam
 
-![ configuratie van de Veiligheid - Duo ](../configuration-reference/security/assets/2fa-duo-security.png)
+![ configuratie van de Veiligheid - Duo ](../configuration-reference/security/assets/2fa-duo-security.png){width="600" zoomable="yes"}
 
 ### [!DNL Authy]
 
@@ -90,10 +91,10 @@ Voer de volgende gegevens in van uw Duo Security-account:
 
 1. Als u het standaardbericht wilt wijzigen dat tijdens de verificatie wordt weergegeven, schakelt u het selectievakje **[!UICONTROL Use system value]** uit. Voer vervolgens de **[!UICONTROL OneTouch Message]** in die u wilt weergeven.
 
-   ![ configuratie van de Veiligheid - Authy ](../configuration-reference/security/assets/2fa-authy.png)
+   ![ configuratie van de Veiligheid - Authy ](../configuration-reference/security/assets/2fa-authy.png){width="600" zoomable="yes"}
 
 ### U2F-apparaten ([!DNL Yubikey] en andere)
 
 Het opslagdomein wordt standaard gebruikt tijdens het verificatieproces. Als u een aangepast domein wilt gebruiken voor verificatieproblemen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit. Voer vervolgens de **[!UICONTROL WebAPi Challenge Domain]** in.
 
-![ configuratie van de Veiligheid - de Apparaten U2F ](../configuration-reference/security/assets/2fa-u2f-key.png)
+![ configuratie van de Veiligheid - de Apparaten U2F ](../configuration-reference/security/assets/2fa-u2f-key.png){width="600" zoomable="yes"}

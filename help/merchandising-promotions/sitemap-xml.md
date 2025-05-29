@@ -3,14 +3,19 @@ title: Site-maps
 description: Leer hoe u een site-overzicht configureert om alle pagina's en afbeeldingen van uw Commerce-sites te indexeren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # Site-maps
+
+>[!TIP]
+>
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 Een site-overzicht verbetert de manier waarop uw winkel wordt geïndexeerd door zoekprogramma&#39;s en is ontworpen om pagina&#39;s te zoeken die mogelijk door webcrawlers worden genegeerd. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
@@ -97,7 +102,7 @@ Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te make
    
 >[!NOTE]
 >
->Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
+>Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
 
 ## Kolombeschrijvingen
 
@@ -159,9 +164,9 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL CMS Pages Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
-   ![ configuratie van de Catalogus - de sitemap CMS van XML pagina&#39;s ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de pagina&#39;s van CMS van XML sitemap ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie &lbrace;de Opties van de Pagina&#39;s CMS [&#128279;](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie {de Opties van de Pagina&#39;s van 0} CMS ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in de _Verwijzing van de Configuratie_.[
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Url Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
@@ -175,7 +180,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Generation Settings]** sectie uit.
 
-   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik om deze montages te veranderen.**
+   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0} Gebruik om deze montages te veranderen.**
 
    ![ configuratie van de Catalogus - de montages van de de sitemapgeneratie van XML ](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
@@ -203,7 +208,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
    ![ configuratie van de Catalogus - de beperkingen van het de sitemapdossier van XML ](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap [&#128279;](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap ](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in de _Verwijzing van de Configuratie_.[
 
 1. Voer bij **[!UICONTROL Maximum No of URLs per File]** het maximumaantal URL&#39;s in dat in de sitemap kan worden opgenomen.
 
@@ -223,6 +228,6 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

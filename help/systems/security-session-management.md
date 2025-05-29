@@ -4,9 +4,10 @@ description: Leer hoe u sessiebeheer configureert om de beheerder en winkel te b
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -48,8 +49,6 @@ Gebruik de volgende configuratie-instellingen om de maximale sessiegrootte voor 
 
 ### Admin-sessies
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-
 Als u de maximale sessiegrootte overschrijdt, wordt een foutbericht weergegeven en wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
 Als u toegang tot Admin verliest nadat het plaatsen van de zittingsgrootte aan laag, gebruik CLI om de configuratie terug te stellen:
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-sessies
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-
 Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, maar wordt de sessiegrootte door het systeem vastgelegd in de map `var/log` .
 
 ## Sessievalidatie
 
 Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixaties of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
 
-Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
+Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in de _Gids van de Configuratie_.
 
 ![ Algemene configuratie - de zittingsbevestiging van het Web ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -80,7 +77,7 @@ Het toelaten van alle bevestigingsvariabelen kan aanvallen helpen verhinderen, m
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster _[!UICONTROL General]_&#x200B;uit en kies **[!UICONTROL Web]**.
+1. Vouw in het linkerdeelvenster _[!UICONTROL General]_uit en kies **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie uit.
 

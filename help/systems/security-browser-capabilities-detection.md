@@ -4,9 +4,10 @@ description: Leer hoe te om browser capaciteitsopsporing te vormen en een berich
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Net als de meeste websites en toepassingen op internet, vereisen Adobe Commerce 
 - Als de browser privacymontages koekjes verbieden, kunt u het systeem vormen om hen aan [ automatisch om te leiden laat Cookies ](../content-design/pages.md#enable-cookies) pagina toe, die verklaart hoe te om de geadviseerde montages met meeste browsers te maken.
 - Als de privacyinstellingen van de browser JavaScript niet toestaan, kunt u het systeem zo configureren dat het volgende bericht boven de koptekst van elke pagina wordt weergegeven.
 
-Voor technische informatie, verwijs naar [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=nl-NL#supported-browsers) in de _Gids van de Installatie_.
+Voor technische informatie, verwijs naar [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) in de _Gids van de Installatie_.
 
 ## Detectie van browsermogelijkheden configureren
 

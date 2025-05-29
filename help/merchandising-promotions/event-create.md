@@ -3,9 +3,10 @@ title: Gebeurtenissen maken en bijwerken
 description: Leer hoe u een gebeurtenis maakt die aan een categorie in uw catalogus is gekoppeld.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slechts één gebeurtenis aan een bepaalde categorie tegelijk worden gekoppeld. Om een lijst van aanstaande gebeurtenissen in uw opslag te tonen, moet u ook opstelling a [&#128279;](../content-design/widget-event-carousel.md) widget van de Gebeurtenissen Carousel van de Catalogus van de Gebeurtenissen van de a  &lbrace;.
+Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slechts één gebeurtenis aan een bepaalde categorie tegelijk worden gekoppeld. Om een lijst van aanstaande gebeurtenissen in uw opslag te tonen, moet u ook opstelling a ](../content-design/widget-event-carousel.md) widget van de Gebeurtenissen Carousel van de Catalogus van de Gebeurtenissen van de a [ {.
 
 ![ lijst van Gebeurtenissen ](./assets/category-events.png){width="700" zoomable="yes"}
 

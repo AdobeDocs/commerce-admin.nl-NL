@@ -3,9 +3,10 @@ title: Uitnodigingen voor gebeurtenissen
 description: Leer hoe klanten uitnodigingen voor gebeurtenissen en privé-verkoop kunnen verzenden en bekijken vanaf het dashboard van hun klantenaccounts.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ Wanneer uitnodigingen zijn ingeschakeld, kunnen klanten uitnodigingen verzenden 
 
 ## Mijn uitnodigingen
 
-In de sectie _[!UICONTROL My Invitations]_&#x200B;van de klantenaccount worden alle uitnodigingen weergegeven die de klant heeft verzonden. Klanten kunnen uitnodigingen verzenden aan vrienden en familie voor winkelgebeurtenissen, cadeauregisters, verlanglijsten enzovoort.
+In de sectie _[!UICONTROL My Invitations]_van de klantenaccount worden alle uitnodigingen weergegeven die de klant heeft verzonden. Klanten kunnen uitnodigingen verzenden aan vrienden en familie voor winkelgebeurtenissen, cadeauregisters, verlanglijsten enzovoort.
 
 ![ Mijn Uitnodigingen ](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### Uitnodigingsworkflow
 
 1. **Klant bereidt uitnodigingen** voor: Van het rekeningsdashboard, bereidt de klant de lijst van ontvangers voor en voltooit de uitnodiging. Afhankelijk van de configuratie kan een aangepast bericht worden opgenomen.
-1. **de Klant verzendt uitnodigingen**: Wanneer klaar, klikt de klant de _[!UICONTROL Send Invitations]_&#x200B;knoop.
+1. **de Klant verzendt uitnodigingen**: Wanneer klaar, klikt de klant de _[!UICONTROL Send Invitations]_knoop.
 1. **het Systeem beheert transmissie**: Het systeem verzendt uitnodigingen in partijen, volgens het aantal dat in de configuratie wordt geplaatst.
 1. **controleert de Klant reactie**: De klant controleert het statuut van elke uitnodiging van het rekeningsdashboard, zoals `Sent`, `Accepted`, of `Canceled`.
 

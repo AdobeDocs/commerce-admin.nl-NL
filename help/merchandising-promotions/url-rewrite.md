@@ -3,15 +3,19 @@ title: URL herschrijft
 description: Meer informatie over het herschrijven van URL's vindt u met het gereedschap URL herschrijven van Commerce om URL's te wijzigen die zijn gekoppeld aan een product, categorie of CMS-pagina.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
 # URL herschrijft
+
+>[!TIP]
+>
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 Met het gereedschap URL herschrijven kunt u elke URL wijzigen die is gekoppeld aan een product, categorie of CMS-pagina. Wanneer het herschrijven van kracht wordt, worden om het even welke verbindingen die aan vorige URL richten opnieuw gericht aan het nieuwe adres.
 
@@ -45,7 +49,7 @@ Afhankelijk van de manier waarop u uw website instelt, kunnen er meerdere versie
      https://example.com 
      https://www.example.com/index.html 
 
-Om een canonieke pagina te specificeren, zie {de documentatie van het Onderzoek van 0} Google Centrale [&#128279;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Om een canonieke pagina te specificeren, zie {de documentatie van het Onderzoek van 0} Google Centrale ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).[
 
 ## URL-herschrijvingen configureren
 

@@ -3,9 +3,10 @@ title: Productbeoordelingen
 description: Leer hoe productreeksen uw winkel kunnen verbeteren en uw producten geloofwaardiger kunnen maken.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 Productbeoordelingen helpen een gemeenschapsgevoel op te bouwen en worden als geloofwaardiger beschouwd dan reclamegeld kan kopen. Sommige zoekmachines geven sites met productoverzichten een hogere positie dan sites zonder recensies. Voor degenen die uw site vinden door naar een specifiek product te zoeken, is een productoverzicht in feite de openingspagina van uw winkel. Met productreeksen kunnen mensen je winkel vinden, erbij betrokken blijven en vaak verkopen.
 
-Commerce beschikt over een native mogelijkheid voor productreeksen die u kunt beheren via de beheerfunctie. U kunt een uitbreiding van de [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) ook gebruiken om een ontvangen systeem van het overzichtsbeheer te gebruiken.
+Commerce beschikt over een native mogelijkheid voor productreeksen die u kunt beheren via de beheerfunctie. U kunt een uitbreiding van [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) ook gebruiken om een ontvangen systeem van het overzichtsbeheer te gebruiken.
 
 >[!NOTE]
 >
 >Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door de Yotpo-leverancier ontwikkelde uitbreiding. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
-><br><br>
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
+>><br><br>
+>>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
 
 ## Productoverzichten op de winkel
 
@@ -42,7 +43,7 @@ Het aantal sterren geeft de tevredenheid van het product aan. Bezoekers kunnen o
 
 ### [!UICONTROL My Product Reviews]
 
-In het gedeelte _[!UICONTROL My Product Reviews]_&#x200B;van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
+In het gedeelte _[!UICONTROL My Product Reviews]_van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
 
 ![ Mijn Recensies van het Product ](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +91,7 @@ Met de Commerce Product Reviews kunnen klanten beoordelingen toewijzen wanneer z
 
    ![ Admin - Ratings ](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Voer in de sectie _[!UICONTROL Rating Title]_&#x200B;de **[!UICONTROL Default Value]**&#x200B;in voor de nieuwe classificatie.
+1. Voer in de sectie _[!UICONTROL Rating Title]_de **[!UICONTROL Default Value]**in voor de nieuwe classificatie.
 
    Voer, indien van toepassing, ook de vertaling in voor elke winkelweergave.
 

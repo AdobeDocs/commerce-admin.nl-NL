@@ -2,9 +2,9 @@
 title: Admin Systems Guide
 description: Leer de beste beveiligingspraktijken om uw Commerce-winkel te beschermen en machtigingen te beheren. Ook leert u hoe u gegevens importeert en exporteert, integraties en extensies beheert en routinematig onderhoud uitvoert.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: bc52e81a445fe432187648f4e9003ad5332a18cd
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '390'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ Deze handleiding is van toepassing op:
 | [ E-mailmalplaatjes ](email-templates.md) | Met e-mailsjablonen definieert u de indeling, inhoud en opmaak van geautomatiseerde berichten die vanuit uw winkel worden verzonden. Ze worden transactiee-mails genoemd omdat elke e-mail is gekoppeld aan een specifiek type transactie of gebeurtenis. |
 | [ Overdracht van Gegevens ](data-transfer.md) | Met de gereedschappen voor importeren en exporteren kunt u meerdere records in één bewerking beheren. U kunt niet alleen nieuwe items importeren, maar ook bestaande productsets bijwerken, vervangen en verwijderen. |
 | [ Logboeken van de Actie ](action-log.md) | Voor Adobe Commerce worden in de handelingenlogboeken alle wijzigingen vastgelegd die zijn aangebracht door een Admin-gebruiker die in uw winkel werkt. Zo kunt u alle wijzigingen bijhouden die in uw winkel zijn aangebracht. |
-| Gereedschappen | De beheerders van het systeem hebben een inzameling van beschikbare hulpmiddelen: De [ steunhulpmiddelen ](support.md) worden ontworpen om bekende kwesties in uw systeem te identificeren. De hulpmiddelen van het systeem verstrekken operationele steun om routine [ index ](index-management.md) uit te voeren en [ geheime voorgeheugen ](cache-management.md) beheer, [ file het systeem ](backups.md), [ geplande verrichtingen ](data-scheduled-import-export.md) te beheren, en een assorment van [ ontwikkelaarshulpmiddelen ](developer-tools.md) te gebruiken. |
+| Gereedschappen | [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} de beheerders van het Systeem hebben een inzameling van beschikbare hulpmiddelen: De [ steunhulpmiddelen ](support.md) worden ontworpen om bekende kwesties in uw systeem te identificeren. De hulpmiddelen van het systeem verstrekken operationele steun om routine [ index ](index-management.md) uit te voeren en [ geheime voorgeheugen ](cache-management.md) beheer, [ file het systeem ](backups.md), [ geplande verrichtingen ](data-scheduled-import-export.md) te beheren, en een assorment van [ ontwikkelaarshulpmiddelen ](developer-tools.md) te gebruiken. |
 | [ Integraties ](integrations.md) | Vestig de plaats van geloofsbrieven OAuth en verstrek omleidings URLs voor derdesintegratie. |
 | [ Veiligheid ](security.md) | Leer meer over de tools die beschikbaar zijn om uw winkel en gegevens te beveiligen, en richtlijnen voor een beveiligingsplan als u een compromis ontdekt. |
 

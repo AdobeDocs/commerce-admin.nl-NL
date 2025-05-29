@@ -4,9 +4,10 @@ description: Leer hoe u verificatie met twee factoren instelt tijdens de eerste 
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---

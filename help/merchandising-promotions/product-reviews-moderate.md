@@ -3,9 +3,10 @@ title: Moderne productherzieningen
 description: Leer hoe u productreeksen kunt matigen om ervoor te zorgen dat verzonden recensies geschikt zijn voor openbare weergave van uw winkel.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,11 @@ Ga als volgt te werk om alle revisies voor een specifiek product in Admin weer t
 
 1. Voor de productpagina, scrol neer en breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Reviews]** sectie.
 
-   In dit raster kunt u de specifieke revisie ook wijzigen door op de koppeling **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_&#x200B;te klikken.
+   In dit raster kunt u de specifieke revisie ook wijzigen door op de koppeling **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_te klikken.
 
 ## Status bijwerken voor revisies
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;of **[!UICONTROL All Reviews]**.
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**of **[!UICONTROL All Reviews]**.
 
 1. Klik in de lijst op een revisie die in behandeling is om de details weer te geven en indien nodig te bewerken.
 

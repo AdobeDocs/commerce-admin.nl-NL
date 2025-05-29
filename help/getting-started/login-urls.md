@@ -4,9 +4,9 @@ description: Meer informatie over de Commerce-URL's en accountgegevens die worde
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Terwijl u uw manier rond de opslag leert, zorg ervoor aan opstelling een test [ 
 
 ## Voorbeeldgegevens
 
-De Adobe verstrekt een reeks steekproefgegevens die een steekproefopslag met meer dan 250 producten omvat (ongeveer 200 van hen zijn configureerbare producten), categorieën, promotieprijsregels, CMS pagina&#39;s, banners, etc. De gegevens van de steekproef gebruiken het _thema 0&rbrace; Luma op de storefront._ [ Installing this sample data ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=nl-NL) is facultatief, maar kan voor het testen en het ontwikkelen van aanpassingen voor uw eCommerce zaken nuttig zijn.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
+Adobe biedt een set voorbeeldgegevens die een voorbeeldwinkel bevat met meer dan 250 producten (ongeveer 200 daarvan zijn configureerbare producten), categorieën, promotieprijsregels, CMS-pagina&#39;s, banners enzovoort. De gegevens van de steekproef gebruiken het _thema 0} Luma op de storefront._ [ Installing this sample data ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) is facultatief, maar kan voor het testen en het ontwikkelen van aanpassingen voor uw eCommerce zaken nuttig zijn.

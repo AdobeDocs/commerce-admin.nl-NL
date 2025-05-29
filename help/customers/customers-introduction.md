@@ -2,18 +2,32 @@
 title: Inleiding tot klantenbeheer
 description: Leer hoe u de Commerce-functies voor klantenbeheer kunt gebruiken om de klantervaring voor uw winkel te verbeteren.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Inleiding tot klantenbeheer
 
-Het menu _[!UICONTROL Customers]_&#x200B;biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
+Het menu _[!UICONTROL Customers]_biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
+
+>[!BEGINTABS]
+
+>[!TAB  Adobe Commerce ]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ het menu van Klanten ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+
+>[!TAB  Adobe Commerce as a Cloud Service ]
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+![ het menu van Klanten ](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Het menu [!UICONTROL Customers] weergeven
 

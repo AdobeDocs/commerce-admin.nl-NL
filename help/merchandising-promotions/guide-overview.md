@@ -2,9 +2,9 @@
 title: Handleiding Handelsbemiddeling en speciale acties
 description: Uitgebreide informatie verkennen over marketing- en promotiefuncties in Adobe Commerce, waaronder gerichte kortingen en evenementen.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze handleiding is van toepassing op:
 | ------- | ----------- |
 | [ Inleiding ](introduction.md) | Overzicht van functies voor marketing en promotie met een Commerce-exemplaar. |
 | [ Marketing menu ](marketing-menu.md) | Via het menu [!UICONTROL Marketing] hebt u toegang tot meerdere functies voor het beheer van promoties, communicatie, SEO en door de gebruiker gegenereerde inhoud. |
-| [ Visuele Merchandiser ](visual-merchandiser.md) | Bekijk deze reeks geavanceerde gereedschappen waarmee u producten kunt positioneren en voorwaarden kunt toepassen die bepalen welke producten in de categorielijst worden weergegeven. |
+| [ Visuele Merchandiser ](visual-merchandiser.md) | [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} Onderzoek deze reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen. |
 | [ Cadeauregisters ](gift-registries.md) | Geef uw klanten de mogelijkheid om cadeauregisters te maken voor speciale gelegenheden en hun vrienden en familie uit te nodigen om hun geschenken aan te schaffen bij het register van geschenken. |
 | [ Beloning en loyaliteitsprogramma&#39;s ](rewards-loyalty.md) | Voer programma&#39;s uit die klantenovereenkomst drijven en klantenloyaliteit bevorderen. |
 | [ Privéverkoop en gebeurtenissen ](events-private-sales.md) | Maak een verkoop in beperkte tijd, beperk de verkoop tot specifieke leden, of maak een stand-alone privé verkooppagina. |

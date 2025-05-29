@@ -3,9 +3,10 @@ title: Gebeurtenissen configureren
 description: Leer hoe te om de basisconfiguratie te voltooien om gebeurtenissen toe te laten en opstelling het gebeurtenisblok in de storefront sidebar.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde
 
    >[!NOTE]
    >
-   >Van toepassing slechts als de beperkingswijze aan _Gesloten Website_ wordt geplaatst. De landingspagina wordt weergegeven als ruwe HTML.
+   >Van toepassing slechts als de beperkingswijze aan _Gesloten Website_ wordt geplaatst. De landingspagina wordt weergegeven als onbewerkte HTML.
 
 1. Als u wilt dat de velden in de aanmeldingsnaam van de klant automatisch worden ingevuld en wachtwoordformulieren worden vergeten van vorige vermeldingen, stelt u **[!UICONTROL Enable Autocomplete on login/forgot password forms]** in op `Yes` .
 
@@ -88,6 +89,6 @@ De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde
 
 ### Verkoop beperken
 
-Standaard zijn producten die in volgende of gesloten gebeurtenissen worden weergegeven, niet beschikbaar voor de algemene verkoop en staat de knop _[!UICONTROL Add to Cart]_&#x200B;niet op de productlijst of productpagina.
+Standaard zijn producten die in volgende of gesloten gebeurtenissen worden weergegeven, niet beschikbaar voor de algemene verkoop en staat de knop _[!UICONTROL Add to Cart]_niet op de productlijst of productpagina.
 
-Om de _[!UICONTROL Add to Cart]_&#x200B;knoop voor een gesloten gebeurtenis te herstellen, moet de gebeurtenis worden geschrapt (zie [ gebeurtenissen van de Update ](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.
+Om de _[!UICONTROL Add to Cart]_knoop voor een gesloten gebeurtenis te herstellen, moet de gebeurtenis worden geschrapt (zie [ gebeurtenissen van de Update ](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.

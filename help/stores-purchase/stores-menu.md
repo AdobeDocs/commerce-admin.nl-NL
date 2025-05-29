@@ -2,18 +2,32 @@
 title: '[!UICONTROL Stores] menu'
 description: Commerce Admin omvat het [!UICONTROL Stores] menu, dat toegang tot hulpmiddelen verleent om de archiefhiërarchie, de configuratie, de inventaris, de belastingen, en de attributen op te zetten.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Stores] menu
 
-Via het menu _[!UICONTROL Stores]_&#x200B;hebt u toegang tot instellingen die minder vaak worden gebruikt, maar waarnaar in de hele installatie van Adobe Commerce of Magento Open Source wordt verwezen. Deze functies omvatten het instellen van de hiërarchie van de winkel, configuratie, verkoop- en orderinstellingen, belastingen en valuta, productkenmerken, beoordelingen van productevaluaties en klantengroepen.
+Via het menu _[!UICONTROL Stores]_hebt u toegang tot instellingen die minder vaak worden gebruikt, maar waarnaar in de hele installatie van Adobe Commerce of Magento Open Source wordt verwezen. Deze functies omvatten het instellen van de hiërarchie van de winkel, configuratie, verkoop- en orderinstellingen, belastingen en valuta, productkenmerken, beoordelingen van productevaluaties en klantengroepen.
+
+>[!BEGINTABS]
+
+>[!TAB  Adobe Commerce ]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ Admin - het menu van Opslag ](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB  Adobe Commerce as a Cloud Service ]
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+![ Admin - het menu van Opslag ](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Het menu [!UICONTROL Stores] weergeven
 
@@ -23,7 +37,7 @@ Voor _Admin_ sidebar, klik **[!UICONTROL Stores]**.
 
 ### [!UICONTROL Settings]
 
-Beheer de hiërarchie van [ websites, opslag, en opslagmeningen ](stores.md#store-and-site-structure) in uw Adobe Commerce of Magento Open Source installatie, en alle [ configuratiemontages ](../configuration-reference/guide-overview.md). Bovendien kunt u opstelling de [ Termijnen en Voorwaarden ](terms-and-conditions.md) van een verkoop, en [ de montages van de ordestatus ](order-status.md#custom-order-status) beheren.
+Beheer de hiërarchie van [ websites, opslag, en opslagmeningen ](stores.md#store-and-site-structure) in uw installatie van Adobe Commerce of Magento Open Source, en alle [ configuratiemontages ](../configuration-reference/guide-overview.md). Bovendien kunt u opstelling de [ Termijnen en Voorwaarden ](terms-and-conditions.md) van een verkoop, en [ de montages van de ordestatus ](order-status.md#custom-order-status) beheren.
 
 ### [!UICONTROL Inventory]
 

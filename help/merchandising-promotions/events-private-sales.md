@@ -3,9 +3,10 @@ title: Privéverkoop en evenementen
 description: Leer over het gebruiken van privé verkoop en andere catalogusgebeurtenissen om verkoop aan uw bestaande klantenbasis te verhogen en bozz en nieuwe lood te produceren.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De privé verkoop en andere catalogusgebeurtenissen zijn een uitstekende manier om uw bestaande klantenbasis te gebruiken om bozz en nieuwe lood te produceren, of overtollige voorraad te offloaden. U kunt verkopen in beperkte tijd tot stand brengen, verkoop beperken aan specifieke leden, of een stand-alone privé verkooppagina tot stand brengen. U kunt ook uitnodigingen en gebeurtenisdetails definiëren. Verhoog de merkloyaliteit en produceer een buzz door uw beste klanten de VIP behandeling te geven. Bied exclusieve toegang aan de verkoop of de particuliere verkoop van leden om merkloyaliteit te verhogen. U kunt deze verkopen ook gebruiken om overtollige goederen te liquideren. De groepen van de klant zijn nuttig in vestiging deze types van leden slechts en VIP verkoop.
+De privé verkoop en andere catalogusgebeurtenissen zijn een uitstekende manier om uw bestaande klantenbasis te gebruiken om bozz en nieuwe lood te produceren, of overtollige voorraad te offloaden. U kunt verkopen in beperkte tijd tot stand brengen, verkoop beperken aan specifieke leden, of een stand-alone privé verkooppagina tot stand brengen. U kunt ook uitnodigingen en gebeurtenisdetails definiëren. Verhoog de merkloyaliteit en produceer een buzz door uw beste klanten de behandeling van VIP te geven. Bied exclusieve toegang aan de verkoop of de particuliere verkoop van leden om merkloyaliteit te verhogen. U kunt deze verkopen ook gebruiken om overtollige goederen te liquideren. Klantengroepen zijn handig voor het instellen van alleen deze typen leden en de verkoop van VIP.
 
 ![ de storefront van het Voorbeeld - gebeurtenis op homepage ](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

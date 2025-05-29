@@ -4,9 +4,10 @@ description: Leer hoe u verificatie met twee factoren beheert en de authenticato
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Als u zich niet kunt aanmelden met 2FA, kunt u het volgende overwegen:
 
 - Sommige mobiele apps bevatten synchronisatieopties. Met deze optie maakt u opnieuw verbinding met de app en de server en synchroniseert u de tijdinstellingen op het apparaat en de server.
 - Als u een apparaat intrekt of een verificator opnieuw instelt, kunnen gebruikers gemakkelijker verbinding maken.
-- Ook het wissen van webcache en cookies voor de installatie van Adobe Commerce of Magento Open Source kan hierbij helpen. Authenticatoren gebruiken, net als Google, gegenereerde cookies om toegang en duur op te slaan. Wis de koekjes voor uw specifieke browser en opslagdomein.
+- Ook het wissen van webcache en cookies voor de Adobe Commerce- of Magento Open Source-installatie kan u helpen. Authenticatoren gebruiken, net als Google, gegenereerde cookies om toegang en duur op te slaan. Wis de koekjes voor uw specifieke browser en opslagdomein.
 - Door het blokkeren van cookies voorkomt u dat sommige verificateurs, zoals [!DNL Google Authenticator], het verificatieproces voltooien. Voeg een regel toe aan uw browser die cookies toestaat voor uw Adobe Commerce-installatie.
 
 Om authentificators van de bevellijn en meer geavanceerde het oplossen van problemeninformatie terug te stellen, zie [ Two-Factor Authentificatie ](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) in de ontwikkelaarsdocumentatie.
@@ -34,11 +35,11 @@ Om authentificators van de bevellijn en meer geavanceerde het oplossen van probl
 
 1. Selecteer de gebruiker en open de account in de bewerkingsmodus.
 
-1. Blader omlaag naar de sectie _[!UICONTROL Current User Identity Verification]_&#x200B;en voer uw wachtwoord in.
+1. Blader omlaag naar de sectie _[!UICONTROL Current User Identity Verification]_en voer uw wachtwoord in.
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL 2FA]** .
 
-1. Klik in de sectie _[!UICONTROL Configuration reset]_&#x200B;op **[!UICONTROL Reset]**&#x200B;en **[!UICONTROL OK]**&#x200B;om te bevestigen.
+1. Klik in de sectie _[!UICONTROL Configuration reset]_op **[!UICONTROL Reset]**en **[!UICONTROL OK]**om te bevestigen.
 
    ![ rekening van de Gebruiker - laat 2FA ](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"} toe
 

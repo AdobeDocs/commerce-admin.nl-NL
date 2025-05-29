@@ -3,9 +3,10 @@ title: E-mailherinneringen maken
 description: Leer hoe u een regel voor e-mailherinneringen instelt die gebruikmaakt van een bestaande regel voor de prijs van winkelwagentjes.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: b750accf7aab49357f04e16dc60791e704516141
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-1. Voltooi _[!UICONTROL Rule Information]_&#x200B;als volgt:
+1. Voltooi _[!UICONTROL Rule Information]_als volgt:
 
    ![ E-mailreminder regel ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +56,9 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
    >[!NOTE]
    >
-   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
+   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
    >
-   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_&#x200B;periode is over.
+   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_periode is over.
 
    Voltooi de voorwaarde om het scenario te beschrijven dat de e-mailherinnering teweegbrengt.
 
@@ -83,7 +84,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
      ![ E-mailherinneringen - titels en beschrijvingen ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - In de _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;sectie, ga **[!UICONTROL Rule Title]**&#x200B;en **[!UICONTROL Description]**&#x200B;voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
+   - In de _[!UICONTROL Titles and Descriptions Per Store View]_sectie, ga **[!UICONTROL Rule Title]**en **[!UICONTROL Description]**voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
 
      >[!NOTE]
      >

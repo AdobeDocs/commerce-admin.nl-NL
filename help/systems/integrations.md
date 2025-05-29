@@ -4,9 +4,10 @@ description: Leer hoe u OAuth-referenties configureert en URL omleidt voor integ
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth
 
 ## Workflow voor onboarding
 
-1. **machtigt de integratie** - ga naar **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;pagina, vind de relevante integratie, en autoriseer.
+1. **machtigt de integratie** - ga naar **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**pagina, vind de relevante integratie, en autoriseer.
 1. **verifieer en vestigt login** - wanneer ertoe aangezet, keur de gevraagde toegang goed. Als u een account hebt omgeleid naar een derde, meldt u zich aan bij het systeem of maakt u een account. Na een geslaagde aanmelding keert u terug naar de integratiepagina.
 1. **ontvang bevestiging van erkende integratie** - het systeem verzendt bericht dat de integratie met succes is gemachtigd. Na vestiging is een integratie en het ontvangen van de geloofsbrieven, het niet meer noodzakelijk om vraag aan toegang of verzoektekenen te maken.
 
@@ -35,7 +36,7 @@ Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth
 
    - Voer de **[!UICONTROL Callback URL]** in waar OAuth-referenties kunnen worden verzonden bij het gebruik van OAuth voor het uitwisselen van tokens. Het gebruik van `https://` wordt ten zeerste aanbevolen.
 
-   - Voer **[!UICONTROL Identity Link URL]** in om de gebruikers om te leiden naar een externe account met deze Adobe Commerce- of Magento Open Source-integratiegegevens.
+   - Voer de **[!UICONTROL Identity Link URL]** in om de gebruikers om te leiden naar een externe account met deze Adobe Commerce- of Magento Open Source-integratiegegevens.
 
    >[!NOTE]
    >
@@ -80,7 +81,7 @@ Om een nieuwe Token van de Toegang van de Integratie en het Geheime Geheim van d
 
 1. De integratie met de status **[!UICONTROL Active]** zoeken.
 
-1. Klik in de kolom _[!UICONTROL Activate]_&#x200B;op **[!UICONTROL Reauthorize]**.
+1. Klik in de kolom _[!UICONTROL Activate]_op **[!UICONTROL Reauthorize]**.
 
 1. Klik op **[!UICONTROL Reauthorize]** om de toegang tot de API-bronnen goed te keuren.
 
@@ -88,7 +89,7 @@ Om een nieuwe Token van de Toegang van de Integratie en het Geheime Geheim van d
 
 ## De beveiligingsinstelling voor de API-gasttoegang wijzigen
 
-Door gebrek, laat het systeem anonieme gasttoegang tot CMS, catalogus, en andere opslagmiddelen niet toe. Ga als volgt te werk als u de instelling moet wijzigen:
+Door gebrek, staat het systeem anonieme gasttoegang tot CMS, catalogus, en andere opslagmiddelen niet toe. Ga als volgt te werk als u de instelling moet wijzigen:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

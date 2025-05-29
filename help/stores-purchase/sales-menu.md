@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] menu'
 description: Commerce Admin bevat het menu [!UICONTROL Sales] , dat toegang biedt tot gereedschappen voor het werken met bestellingen op basis van de plaats in de workflow.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 Het menu Verkoop bevat een overzicht van de transacties op basis van de plaats waar deze zich in de workflow bevinden. U zou aan elk van opties als een verschillend stadium in het leven van een orde kunnen denken.
 
+>[!BEGINTABS]
+
+>[!TAB  Adobe Commerce ]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 ![ het menu van de Verkoop ](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB  Adobe Commerce as a Cloud Service ]
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+![ het menu van de Verkoop ](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Het menu [!UICONTROL Sales] weergeven
 
@@ -26,6 +40,12 @@ Voor _Admin_ sidebar, klik **[!UICONTROL Sales]**.
 ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
 
 De erkende kopers kunnen [ de prijs ](../b2b/quotes.md) met de verkoper bespreken door a [ verzoek ](../b2b/quote-request.md) van het winkelwagentje te verzenden.
+
+### [!UICONTROL Quote Templates]
+
+![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
+
+Staat kopers en verkopers toe om het citaatproces te stroomlijnen door herbruikbare en klantgerichte [ citaatmalplaatjes ](../b2b/quote-templates-overview.md) te creëren.
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ A [ teruggekeerde handelsvergunning ](returns.md) (RMA) kan aan klanten worden v
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 A [ het factureren overeenkomst ](paypal-billing-agreements.md) is gelijkaardig aan een kooporde, behalve dat is het niet beperkt tot één enkele aankoop. Tijdens het afrekenen kiest de klant Factureringsovereenkomst als betalingsmethode. Een factureringsovereenkomst stroomlijnt het afhandelingsproces omdat de klant geen betalingsinformatie hoeft in te voeren voor elke aankoop.
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ De [ pagina van Transacties ](transactions.md) maakt een lijst van alle betaling
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-Op de Virtuele Eindpagina van de Braintree, kan een gebruiker Admin de betaling voor het geselecteerde bedrag goedkeuren. Om de eindeigenschap beschikbaar te maken, zou een handelaar fundamentele [ montages van de Braintree ](braintree.md) moeten vormen. Braintree biedt een volledig aanpasbare uitcheckervaring met fraudedetectie en PayPal-integratie.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
+Op de Braintree Virtual Terminal-pagina kan een Admin-gebruiker de betaling voor het geselecteerde bedrag accepteren. Om de eindeigenschap beschikbaar te maken, zou een handelaar fundamentele [ montages van Braintree ](braintree.md) moeten vormen. Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie.
 
 ### [!UICONTROL Archive]
 

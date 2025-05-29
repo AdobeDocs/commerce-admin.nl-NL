@@ -2,20 +2,34 @@
 title: '[!UICONTROL Content] menu'
 description: Via het menu [!UICONTROL Content] hebt u toegang tot meerdere functies voor het beheer van de inhoud in uw winkel.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Content] menu
 
-![ het [!UICONTROL Content] menu dat in Admin ](./assets/admin-menu-content.png){width="400" zoomable="yes"} wordt getoond
-
 >[!NOTE]
 >
->Wanneer de nieuwe [[!DNL Media Gallery]](media-gallery.md) is ingeschakeld, wordt de sectie _[!UICONTROL Media]_&#x200B;weergegeven met één optie voor toegang tot de sectie [!DNL Media Gallery] . U kunt de optie **[!UICONTROL Enable Old Media Gallery]**&#x200B;instellen op `No` door in het linkerdeelvenster naar **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** te gaan en **[!UICONTROL Advanced]** > **[!UICONTROL System]** te kiezen.
+>Wanneer de nieuwe [[!DNL Media Gallery]](media-gallery.md) is ingeschakeld, wordt de sectie _[!UICONTROL Media]_weergegeven met één optie voor toegang tot de sectie [!DNL Media Gallery] . U kunt de optie **[!UICONTROL Enable Old Media Gallery]**instellen op `No` door in het linkerdeelvenster naar **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** te gaan en **[!UICONTROL Advanced]** > **[!UICONTROL System]** te kiezen.
+
+>[!BEGINTABS]
+
+>[!TAB  Adobe Commerce ]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
+![ het [!UICONTROL Content] menu dat in Admin ](./assets/admin-menu-content.png){width="400" zoomable="yes"} wordt getoond
+
+>[!TAB  Adobe Commerce as a Cloud Service ]
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+![ het [!UICONTROL Content] menu dat in Admin ](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"} wordt getoond
+
+>[!ENDTABS]
 
 ## Het menu [!UICONTROL Content] weergeven
 
@@ -32,7 +46,7 @@ Voor _Admin_ sidebar, kies **[!UICONTROL Content]**.
 
 >[!NOTE]
 >
->De optie _[!UICONTROL Banners]_&#x200B;in dit menu is vervangen in 2.3.1 en wordt nu verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
+>De optie _[!UICONTROL Banners]_in dit menu is vervangen in 2.3.1 en wordt nu verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
 
 ## [!UICONTROL Design] {#design-features}
 

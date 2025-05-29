@@ -3,14 +3,19 @@ title: Metagegevens
 description: Leer hoe u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma's uw Commerce-site indexeren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
 # Metagegevens
+
+>[!TIP]
+>
+>Voor Adobe Commerce as a Cloud Service, zie de [ meta-gegevensrichtlijnen ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in de documentatie van het Snel van Commerce
 
 Uw winkel wordt geladen met plaatsen waar u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma&#39;s uw site indexeren. Tijdens het instellen van de winkel kunt u voorlopige metagegevens invoeren, met de bedoeling deze later af te ronden. In de loop der tijd kunt u de metagegevens afstemmen op de aankooppatronen en -voorkeuren van uw klanten.
 
@@ -34,7 +39,7 @@ Meta-beschrijvingen bieden een kort overzicht van de pagina voor aanbiedingen me
 
 ## Rijke fragmenten
 
-Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {&rbrack;[1] norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. &lbrack; Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
+Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {][1] norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. [ Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
 
 ## Canonical meta tag
 
@@ -71,7 +76,7 @@ U kunt voorkomen dat zoekmachines worden gestraft door de categorie weg te laten
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **sectie van de Optimalisering van de Motor van het Onderzoek**.
 
-   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik na elk gebied eerst ontruimen.**
+   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0} Gebruik na elk gebied eerst ontruimen.**
 
    ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 

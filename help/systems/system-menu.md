@@ -2,9 +2,9 @@
 title: '[!UICONTROL System] menu'
 description: De Commerce-beheerder bevat het menu [!UICONTROL System] , dat toegang biedt tot gereedschappen voor het importeren en exporteren van gegevens, systeemcache- en indexbeheer, beheer van beheerdersrechten en -rechten, back-ups, systeemmeldingen en aangepaste variabelen.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 Het menu [!UICONTROL System] bevat gereedschappen voor het importeren en exporteren van gegevens, het beheren van systeemcache en indexen, het beheren van machtigingen, back-ups, systeemmeldingen en aangepaste variabelen.
 
+>[!BEGINTABS]
+
+>[!TAB  Adobe Commerce ]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 ![ het menu van het Systeem ](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB  Adobe Commerce as a Cloud Service ]
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+![ het menu van het Systeem ](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_om het [!UICONTROL System] menu te tonen:_**
 
@@ -25,13 +39,19 @@ Deze [ hulpmiddelen ](data-transfer.md) verstrekken u de capaciteit om veelvoudi
 
 ## [!UICONTROL Extensions]
 
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 Beheer [ de integratie van derden ](integrations.md) en uitbreidingen voor uw opslag.
 
 ## [!UICONTROL Tools]
 
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 Gebruik deze inzameling van hulpmiddelen om uw systeemmiddelen te beheren, met inbegrip van [ geheime voorgeheugen ](cache-management.md) en [ index ](index-management.md) beheer, [ steunen ](backups.md), en installatiemontages.
 
 ## [!UICONTROL Support]
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 

@@ -3,9 +3,10 @@ title: E-mailherinneringen
 description: Meer informatie over e-mailherinneringen die automatisch naar klanten kunnen worden verzonden wanneer aan een bepaalde set voorwaarden wordt voldaan.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ E-mailherinneringen kunnen worden geactiveerd nadat een bepaald aantal dagen is 
 
 >[!NOTE]
 >
->Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen.
+>Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen de e-mailberichten in te stellen.
 
 ![ E-mailherinneringen ](./assets/email-reminders.png){width="700" zoomable="yes"}
 
