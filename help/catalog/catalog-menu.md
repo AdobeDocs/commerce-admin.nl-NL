@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] menu
 
-Het [!UICONTROL Catalog] menu verleent gemakkelijke toegang tot productverwezenlijking, categorie, en hulpmiddelen van het inventarisbeheer, en gedeelde catalogi voor douanetarifering in [ B2B opslag ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Het [!UICONTROL Catalog] menu verleent gemakkelijke toegang tot productverwezenlijking, categorie, en hulpmiddelen van het inventarisbeheer, en gedeelde catalogi voor douanetarifering in [ B2B opslag ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 >[!BEGINTABS]
 
 >[!TAB  Adobe Commerce ]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ het menu van de Catalogus ](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 ![ het menu van de Catalogus ](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -45,6 +45,6 @@ Creeer de [ categorie ](categories.md) structuur die de stichting van de navigat
 
 ## [!UICONTROL Shared Catalogs]
 
-Voor opslag met Adobe Commerce B2B geïnstalleerd en toegelaten, [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) geven u de capaciteit om douaneprijzen ter beschikking te stellen van verschillende bedrijven.
+Voor opslag met Adobe Commerce B2B geïnstalleerd en toegelaten, [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=nl-NL) geven u de capaciteit om douaneprijzen ter beschikking te stellen van verschillende bedrijven.
 
 ![ Gedeelde catalogusproducten ](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

@@ -4,7 +4,7 @@ description: Leer over twee-factor authentificatiesteun om de veiligheid van uw 
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '810'
@@ -30,7 +30,7 @@ De eerste keer een gebruiker ondertekent binnen aan _Admin_, moeten zij opstelli
 
 >[!NOTE]
 >
->In winkels waar verificatie voor Adobe Identity Management Services (IMS) is ingeschakeld, zijn de native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>In winkels waar verificatie voor Adobe Identity Management Services (IMS) is ingeschakeld, zijn de native Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
 
 U kunt op deze [ videodemo ](https://video.tv.adobe.com/v/339104?quality=12&learn=on) voor een overzicht van twee-factor authentificatie in Admin letten.
 

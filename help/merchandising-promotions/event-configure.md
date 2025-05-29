@@ -3,7 +3,7 @@ title: Gebeurtenissen configureren
 description: Leer hoe te om de basisconfiguratie te voltooien om gebeurtenissen toe te laten en opstelling het gebeurtenisblok in de storefront sidebar.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '484'

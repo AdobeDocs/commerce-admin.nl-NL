@@ -2,7 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] releaseopmerkingen'
 description: Herzie de versienota's voor informatie over de recentste versie van de  [!DNL Admin Unified Experience]  uitbreiding voor Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ Deze releaseopmerkingen voor de Commerce Admin Unified Experience-extensie (`mag
 
 >[!NOTE]
 >
->Zie [ beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor gedetailleerde informatie over de releasestatus van Admin Verenigde de uitbreiding van de Ervaring met betrekking tot Adobe Commerce.
+>Zie [ beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL) voor gedetailleerde informatie over de releasestatus van Admin Verenigde de uitbreiding van de Ervaring met betrekking tot Adobe Commerce.
 
 ## 1.0-release
 

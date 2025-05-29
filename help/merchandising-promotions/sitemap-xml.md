@@ -3,7 +3,7 @@ title: Site-maps
 description: Leer hoe u een site-overzicht configureert om alle pagina's en afbeeldingen van uw Commerce-sites te indexeren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '1209'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
 
 Een site-overzicht verbetert de manier waarop uw winkel wordt geïndexeerd door zoekprogramma&#39;s en is ontworpen om pagina&#39;s te zoeken die mogelijk door webcrawlers worden genegeerd. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
@@ -102,7 +102,7 @@ Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te make
    
 >[!NOTE]
 >
->Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
+>Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
 
 ## Kolombeschrijvingen
 
@@ -228,6 +228,6 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

@@ -3,7 +3,7 @@ title: Uitsnijden (geplande taken)
 description: Leer hoe u de uitvoering en planning van Commerce-taken voor uitsnijden kunt regelen via Beheer.
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '415'
@@ -24,14 +24,14 @@ Adobe Commerce en Magento Open Source voeren een aantal bewerkingen op schema ui
 
 >[!IMPORTANT]
 >
->Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [ instructies in de _Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) voor gedetailleerde informatie over het installeren van de diensten aan contab.
+>Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [ instructies in de _Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL) voor gedetailleerde informatie over het installeren van de diensten aan contab.
 
 Daarnaast kunt u het volgende configureren om volgens een uitsnijdschema te worden uitgevoerd:
 
 - Updates en opnieuw indexeren van systeemrasters ordenen
 - Betalingslevensduur in behandeling
 
-Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [ en looppas pictogram ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) in de _Gids van de Configuratie_.
+Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [ en looppas pictogram ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ## Uitsnede configureren
 

@@ -2,7 +2,7 @@
 title: Ondersteuningsgereedschappen
 description: Leer over de verstrekte steunhulpmiddelen die u kunt gebruiken om kwesties in uw systeem te identificeren.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
 source-wordcount: '618'

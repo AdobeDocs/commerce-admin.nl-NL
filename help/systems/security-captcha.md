@@ -4,7 +4,7 @@ description: Leer hoe u CAPTCHA configureert voor beheerdersrechten en verschill
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '959'
@@ -98,7 +98,7 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _artikel van de Kennisbank_)
+      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL) _artikel van de Kennisbank_)
       - `Send to Friend Form` ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source)
       - `Add Gift Card Code` ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
       - `Create company` ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)

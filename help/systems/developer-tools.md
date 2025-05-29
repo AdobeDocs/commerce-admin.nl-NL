@@ -3,7 +3,7 @@ title: Gereedschappen voor ontwikkelaars
 description: Leer over de geavanceerde ontwikkelaarshulpmiddelen die beschikbaar zijn om ontwikkelaars te steunen die aan aanpassingsprojecten werken.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1688'
@@ -27,7 +27,7 @@ Gebruik de geavanceerde ontwikkelaarshulpmiddelen om de compilatiemodus tijdens 
 
 Uw instantie van Adobe Commerce of van Magento Open Source kan worden opgesteld om in of _productie_ of _ontwikkelaarwijze_ in werking te stellen. De hulpmiddelen en configuratiemontages die specifiek voor ontwikkelaars worden ontworpen kunnen worden betreden slechts terwijl de opslag op _ontwikkelaarwijze_ loopt.
 
-De bewerkingsmodus kan alleen worden gewijzigd vanaf de opdrachtregel van de server door een gebruiker met de juiste machtigingen. Zie [ plaats de verrichtingswijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in de _Gids van de Configuratie_ voor meer informatie.
+De bewerkingsmodus kan alleen worden gewijzigd vanaf de opdrachtregel van de server door een gebruiker met de juiste machtigingen. Zie [ plaats de verrichtingswijze ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=nl-NL) in de _Gids van de Configuratie_ voor meer informatie.
 
 De meeste onderwerpen in de handelsdocumentatie zijn op een instantie van Commerce van toepassing die op productiemodus loopt. Nochtans, kunnen de volgende configuratiemontages en de hulpmiddelen slechts worden gebruikt wanneer de installatie op ontwikkelaarwijze loopt.
 
@@ -59,7 +59,7 @@ Zie [ Cliënt-kant LESS compilatie vs. server-kant ](https://developer.adobe.com
 
 Door een digitale handtekening toe te voegen aan de URL van statische bestanden, kunnen browsers detecteren wanneer een nieuwere versie van het bestand beschikbaar is. Statische bestanden die kunnen worden bijgehouden met digitale handtekeningen zijn onder andere JavaScript, CSS, afbeeldingen en lettertypen. De handtekening wordt direct na de basis-URL aan het pad toegevoegd. Als de handtekening van een bestand afwijkt van die in de cache van de browser, wordt de nieuwere versie van het bestand gebruikt.
 
-Zie [ Statische inhoud ondertekenend ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in de de ontwikkelaarsdocumentatie van Commerce.
+Zie [ Statische inhoud ondertekenend ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=nl-NL){:target="_blank"} in de de ontwikkelaarsdocumentatie van Commerce.
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ De tijd die nodig is om bronbestanden te laden, kan worden verkort door bestande
 
 Standaard voegen Adobe Commerce en Magento Open Source geen bestanden samen, bundelen of minimaliseren, en de projectontwikkelaar moet dan bepalen welke methoden voor het optimaliseren van bestanden moeten worden gebruikt.
 
-Zie [ beste praktijken van Prestaties ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) voor meer informatie.
+Zie [ beste praktijken van Prestaties ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=nl-NL) voor meer informatie.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Alvorens een hulpmiddel zoals [ wenken van de malplaatjeweg ](#template-path-hin
 >
 >De Beperkingen van de Cliënt van de ontwikkelaar kunnen op [ slechts de Wijze van de Ontwikkelaar ](../systems/developer-tools.md#operation-modes) worden geplaatst.
 
-Voor technische informatie, zie [ Douane VCL voor het toestaan van verzoeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+Voor technische informatie, zie [ Douane VCL voor het toestaan van verzoeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
 **_om uw IP adres aan de lijst van gewenste personen toe te voegen:_**
 

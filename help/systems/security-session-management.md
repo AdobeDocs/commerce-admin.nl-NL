@@ -4,7 +4,7 @@ description: Leer hoe u sessiebeheer configureert om de beheerder en winkel te b
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '769'
@@ -65,7 +65,7 @@ Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, ma
 
 Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixaties of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
 
-Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) in de _Gids van de Configuratie_.
+Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ![ Algemene configuratie - de zittingsbevestiging van het Web ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

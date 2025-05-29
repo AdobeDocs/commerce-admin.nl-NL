@@ -3,7 +3,7 @@ title: Uitnodigingen voor gebeurtenissen
 description: Leer hoe klanten uitnodigingen voor gebeurtenissen en privé-verkoop kunnen verzenden en bekijken vanaf het dashboard van hun klantenaccounts.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '650'

@@ -3,7 +3,7 @@ title: Cachebeheer
 description: Leer hoe u de tools voor cachebeheer gebruikt, die een eenvoudige manier zijn om de prestaties van uw site te verbeteren.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1845'
@@ -103,7 +103,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## Uitlijnen met gebruik van de opdrachtregel
 
-Systeembeheerders en -ontwikkelaars met toegang tot de Commerce-toepassingsserver kunnen de cache- en cachemonfiguratie ook vanaf de opdrachtregel beheren met behulp van de Commerce CLI. Zie [ het geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in de _Gids van de Configuratie_ leiden.
+Systeembeheerders en -ontwikkelaars met toegang tot de Commerce-toepassingsserver kunnen de cache- en cachemonfiguratie ook vanaf de opdrachtregel beheren met behulp van de Commerce CLI. Zie [ het geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in de _Gids van de Configuratie_ leiden.
 
 ## Besturingselementen
 
@@ -137,11 +137,11 @@ De pagina [!UICONTROL Cache Management] bevat een lijst met de cachetypen die u 
 
 Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configureren en te beheren tijdens het aanpassen of integreren met Adobe Commerce, bijvoorbeeld bij het ontwikkelen van integratie met GraphQL API&#39;s.
 
-[!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} `cache_type_id` wordt ook gebruikt voor geheim voorgeheugenbeheer van de lijn van het het bevelbevel van de toepassingsserver gebruikend Commerce CLI. ` bin/magento cache:status config` geeft bijvoorbeeld de huidige status van de configuratiecache weer.
+[!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} `cache_type_id` wordt ook gebruikt voor geheim voorgeheugenbeheer van de lijn van het het bevelbevel van de toepassingsserver gebruikend Commerce CLI. ` bin/magento cache:status config` geeft bijvoorbeeld de huidige status van de configuratiecache weer.
 
 >[!NOTE]
 >
->Ontwikkelaars en systeemintegrators kunnen het Commerce-cachebeheersysteem aanpassen en uitbreiden om aangepaste modules en integratie te ondersteunen. Voor details, zie [ Caching ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) in het voorgeheugen onderbrengen in de _Gids van de Configuratie van Adobe Commerce_.
+>Ontwikkelaars en systeemintegrators kunnen het Commerce-cachebeheersysteem aanpassen en uitbreiden om aangepaste modules en integratie te ondersteunen. Voor details, zie [ Caching ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/caching-overview) in het voorgeheugen onderbrengen in de _Gids van de Configuratie van Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -184,7 +184,7 @@ Inhoud in cache kan worden gebruikt om de aanvragen van vergelijkbare typen bezo
 - `Sessioned` - Tijdens een sessiebezoek wordt aan kopers die met de winkel werken, een sessie-id toegewezen. Interacties omvatten activiteiten zoals het vergelijken van producten of het toevoegen van producten aan het winkelwagentje. Pagina&#39;s in de cache die tijdens de sessie worden gegenereerd, worden tijdens de sessie alleen door die winkelier gebruikt.
 - `Customer` - Er worden klantsessies gemaakt voor klanten die zich met hun geregistreerde account aanmelden en winkelen. Tijdens de sessie kunnen klanten speciale aanbiedingen, promoties en prijzen krijgen op basis van hun toegewezen klantengroep.
 
-Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} en [ Gebruik Redis voor de pagina van Commerce en het gebrek geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} in de _Gids van de Configuratie_.
+Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=nl-NL){:target="_blank"} en [ Gebruik Redis voor de pagina van Commerce en het gebrek geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=nl-NL){:target="_blank"} in de _Gids van de Configuratie_.
 
 **_om het full-page geheime voorgeheugen te vormen:_**
 
@@ -203,7 +203,7 @@ Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experie
 
 1. Voer de **[!UICONTROL TTL for public content]** in om de time-out voor de paginacache in te stellen. (De standaardwaarde is `86400` )
 
-1. Om het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) te specificeren om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) eindpunt van HTTP te verwerken, ga **[!UICONTROL Handles param size]** in. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. (De standaardwaarde is `100` )
+1. Om het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) te specificeren om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken, ga **[!UICONTROL Handles param size]** in. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. (De standaardwaarde is `100` )
 
 1. Als u Varnish gebruikt, voert u de sectie **[!UICONTROL Varnish Configuration]** als volgt in:
 
@@ -213,7 +213,7 @@ Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experie
 
    - **[!UICONTROL Backend port]** - Identificeer de achterste haven die wordt gebruikt om configuratiedossiers te produceren. De standaardwaarde is: `8080` .
 
-   - **[!UICONTROL Grace period]** - Geef het aantal seconden op dat u als respijtperiode wilt gebruiken om configuratiebestanden te genereren. Zie [ Geavanceerde configuratie van Varnish ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) in de _Gids van de Configuratie_.
+   - **[!UICONTROL Grace period]** - Geef het aantal seconden op dat u als respijtperiode wilt gebruiken om configuratiebestanden te genereren. Zie [ Geavanceerde configuratie van Varnish ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
    - Als u de configuratie als een `varnish.vcl` -bestand wilt exporteren, klikt u op de knop voor de versie van Vaag die u gebruikt.
 

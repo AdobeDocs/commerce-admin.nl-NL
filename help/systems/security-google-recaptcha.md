@@ -33,7 +33,7 @@ Google reCAPTCHA kan op verschillende manieren worden geïmplementeerd:
 
 >[!IMPORTANT]
 >
->Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ Vereiste Montages PHP ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"} in de Gids van de Installatie.
+>Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ Vereiste Montages PHP ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=nl-NL){:target="_blank"} in de Gids van de Installatie.
 
 ## Stap 1: Google reCAPTCHA-toetsen genereren
 
@@ -70,7 +70,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
 ## Stap 2: Google reCAPTCHA voor de beheerder configureren
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 1. Meld u aan bij uw beheerdersaccount.
 

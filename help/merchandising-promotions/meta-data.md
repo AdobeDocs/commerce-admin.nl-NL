@@ -3,7 +3,7 @@ title: Metagegevens
 description: Leer hoe u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma's uw Commerce-site indexeren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '703'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [ meta-gegevensrichtlijnen ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in de documentatie van het Snel van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [ meta-gegevensrichtlijnen ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=nl-NL) in de documentatie van het Snel van Commerce
 
 Uw winkel wordt geladen met plaatsen waar u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma&#39;s uw site indexeren. Tijdens het instellen van de winkel kunt u voorlopige metagegevens invoeren, met de bedoeling deze later af te ronden. In de loop der tijd kunt u de metagegevens afstemmen op de aankooppatronen en -voorkeuren van uw klanten.
 

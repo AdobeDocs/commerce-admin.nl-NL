@@ -3,7 +3,7 @@ title: E-mailherinneringen
 description: Meer informatie over e-mailherinneringen die automatisch naar klanten kunnen worden verzonden wanneer aan een bepaalde set voorwaarden wordt voldaan.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '576'
