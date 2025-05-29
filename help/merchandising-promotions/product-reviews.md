@@ -20,8 +20,8 @@ Commerce beschikt over een native mogelijkheid voor productreeksen die u kunt be
 >[!NOTE]
 >
 >Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door de Yotpo-leverancier ontwikkelde uitbreiding. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
->><br><br>
->>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
+>&#x200B;><br><br>
+>&#x200B;>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
 
 ## Productoverzichten op de winkel
 
@@ -43,7 +43,7 @@ Het aantal sterren geeft de tevredenheid van het product aan. Bezoekers kunnen o
 
 ### [!UICONTROL My Product Reviews]
 
-In het gedeelte _[!UICONTROL My Product Reviews]_van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
+In het gedeelte _[!UICONTROL My Product Reviews]_&#x200B;van het dashboard voor de klantenaccount worden alle revisies weergegeven die door de klant zijn ingediend en die zijn goedgekeurd voor publicatie. Elke samenvatting van het controleoverzicht bevat de datum waarop het nieuwe onderzoek is ingediend, koppelingen naar de productpagina en de revisiegegevens.
 
 ![ Mijn Recensies van het Product ](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Met de Commerce Product Reviews kunnen klanten beoordelingen toewijzen wanneer z
 
    ![ Admin - Ratings ](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Voer in de sectie _[!UICONTROL Rating Title]_de **[!UICONTROL Default Value]**in voor de nieuwe classificatie.
+1. Voer in de sectie _[!UICONTROL Rating Title]_&#x200B;de **[!UICONTROL Default Value]**&#x200B;in voor de nieuwe classificatie.
 
    Voer, indien van toepassing, ook de vertaling in voor elke winkelweergave.
 

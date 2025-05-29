@@ -23,7 +23,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-1. Voltooi _[!UICONTROL Rule Information]_als volgt:
+1. Voltooi _[!UICONTROL Rule Information]_&#x200B;als volgt:
 
    ![ E-mailreminder regel ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,9 +56,9 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
    >[!NOTE]
    >
-   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
+   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
    >
-   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_periode is over.
+   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_&#x200B;periode is over.
 
    Voltooi de voorwaarde om het scenario te beschrijven dat de e-mailherinnering teweegbrengt.
 
@@ -84,7 +84,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
      ![ E-mailherinneringen - titels en beschrijvingen ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - In de _[!UICONTROL Titles and Descriptions Per Store View]_sectie, ga **[!UICONTROL Rule Title]**en **[!UICONTROL Description]**voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
+   - In de _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;sectie, ga **[!UICONTROL Rule Title]**&#x200B;en **[!UICONTROL Description]**&#x200B;voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
 
      >[!NOTE]
      >

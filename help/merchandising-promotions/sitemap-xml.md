@@ -166,7 +166,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
    ![ configuratie van de Catalogus - de pagina&#39;s van CMS van XML sitemap ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Opties van de Pagina&#39;s van 0} CMS ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in de _Verwijzing van de Configuratie_.[
+   Voor een gedetailleerde lijst van deze opties, zie {de Opties van de Pagina&#39;s van 0} CMS [&#128279;](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in de _Verwijzing van de Configuratie_.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Url Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
@@ -180,7 +180,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Generation Settings]** sectie uit.
 
-   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0} Gebruik om deze montages te veranderen.**
+   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik om deze montages te veranderen.**
 
    ![ configuratie van de Catalogus - de montages van de de sitemapgeneratie van XML ](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
@@ -208,7 +208,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
    ![ configuratie van de Catalogus - de beperkingen van het de sitemapdossier van XML ](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap ](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in de _Verwijzing van de Configuratie_.[
+   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap [&#128279;](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in de _Verwijzing van de Configuratie_.
 
 1. Voer bij **[!UICONTROL Maximum No of URLs per File]** het maximumaantal URL&#39;s in dat in de sitemap kan worden opgenomen.
 

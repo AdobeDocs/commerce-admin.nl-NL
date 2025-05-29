@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slechts één gebeurtenis aan een bepaalde categorie tegelijk worden gekoppeld. Om een lijst van aanstaande gebeurtenissen in uw opslag te tonen, moet u ook opstelling a ](../content-design/widget-event-carousel.md) widget van de Gebeurtenissen Carousel van de Catalogus van de Gebeurtenissen van de a [ {.
+Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slechts één gebeurtenis aan een bepaalde categorie tegelijk worden gekoppeld. Om een lijst van aanstaande gebeurtenissen in uw opslag te tonen, moet u ook opstelling a [&#128279;](../content-design/widget-event-carousel.md) widget van de Gebeurtenissen Carousel van de Catalogus van de Gebeurtenissen van de a  &lbrace;.
 
 ![ lijst van Gebeurtenissen ](./assets/category-events.png){width="700" zoomable="yes"}
 

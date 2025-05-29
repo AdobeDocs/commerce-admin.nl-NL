@@ -77,7 +77,7 @@ Het toelaten van alle bevestigingsvariabelen kan aanvallen helpen verhinderen, m
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster _[!UICONTROL General]_uit en kies **[!UICONTROL Web]**.
+1. Vouw in het linkerdeelvenster _[!UICONTROL General]_&#x200B;uit en kies **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie uit.
 

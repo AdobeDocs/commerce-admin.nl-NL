@@ -128,7 +128,7 @@ Voor implementatiedetails en beste praktijken, zie de [[!DNL Product Recommendat
 
 ### [!DNL Catalog Service]
 
-[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} installaties van Adobe Commerce en van Magento Open Source
+[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} installaties van Adobe Commerce en van Magento Open Source
 
 [!DNL Catalog Service] is een krachtige oplossing voor Adobe Commerce en Magento Open Source die geoptimaliseerde toegang tot catalogusgegevens biedt via GraphQL-eindpunten. Er wordt een aparte gesynchroniseerde database bijgehouden voor productdetails en gerelateerde informatie, waarbij directe communicatie tussen toepassingen wordt overgeslagen om sneller pagina&#39;s te laden. De service is bijzonder waardevol voor pagina&#39;s met productdetails, categorielijsten en pagina&#39;s met zoekresultaten, waardoor deze ideaal is voor zowel traditionele als koploze handelsimplementaties.
 
@@ -140,7 +140,7 @@ Voor opstellingsinstructies en technische details, zie de [[!DNL Catalog Service
 
 ### [!DNL Payment Services]
 
-[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} installaties van Adobe Commerce en van Magento Open Source
+[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} installaties van Adobe Commerce en van Magento Open Source
 
 [!DNL Payment Services] is een kant-en-klare betalingsoplossing voor Adobe Commerce- en Magento Open Source-winkels die uitgebreide mogelijkheden voor betalingsverwerking biedt. De service integreert beveiligde betaalgatewayfunctionaliteit met ingebouwde fraudebescherming, terwijl er meerdere betalingsopties worden aangeboden, zoals krediet-/debetkaarten, PayPal, Venmo (VS) en PayLater plannen. Het biedt uniforme transactierapportering en orderbeheer via de Commerce Admin-interface, waardoor handelaren eenvoudig betalingen kunnen bijhouden, de kasstroom kunnen beheren en alle financiële gegevens op één locatie met elkaar in overeenstemming kunnen brengen.
 

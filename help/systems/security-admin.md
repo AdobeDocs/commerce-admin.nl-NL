@@ -40,7 +40,7 @@ Voor technische informatie, zie [ Overzicht van de Veiligheid ](https://develope
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_de optie **[!UICONTROL Admin]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_&#x200B;de optie **[!UICONTROL Admin]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 

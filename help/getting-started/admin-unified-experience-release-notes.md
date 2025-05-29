@@ -26,7 +26,7 @@ Deze releaseopmerkingen voor de Commerce Admin Unified Experience-extensie (`mag
 
 *13 Februari, 2023*
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} Adobe Commerce 2.4.5 en nieuwere versies
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"} Adobe Commerce 2.4.5 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Algemene versie van de Beschikbaarheid van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 
@@ -37,7 +37,7 @@ Deze releaseopmerkingen voor de Commerce Admin Unified Experience-extensie (`mag
 
 *Augustus 8, 2023*
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} Adobe Commerce 2.4.5 en nieuwere versies
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"} Adobe Commerce 2.4.5 en nieuwere versies
 
 ![ Nieuwe ](../assets/new.svg) Eerste bètaversie van Admin verenigde de uitbreiding van de Ervaring om integratie met Adobe Experience Cloud toe te laten.
 

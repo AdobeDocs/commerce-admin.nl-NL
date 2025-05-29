@@ -70,7 +70,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
 ## Stap 2: Google reCAPTCHA voor de beheerder configureren
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 1. Meld u aan bij uw beheerdersaccount.
 
@@ -84,7 +84,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
    >
    >Schakel het selectievakje **[!UICONTROL Use system value]** uit voor elk veld dat u wilt configureren.
 
-1. Als u _[!DNL reCAPTCHA v2 ("I am not a robot")]_wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**uit en gaat u als volgt te werk:
+1. Als u _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;uit en gaat u als volgt te werk:
 
    - Voer bij **[!UICONTROL Google API Website Key]** de website-sleutel in die voor dit reCAPTCHA-type is gemaakt toen u uw Google reCAPTCHA-account hebt geregistreerd.
 
@@ -98,7 +98,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    ![ reCAPTCHA v2 - &quot;Ik ben geen robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Als u _[!DNL reCAPTCHA v2 Invisible]_wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v2 Invisible]**uit en gaat u als volgt te werk:
+1. Als u _[!DNL reCAPTCHA v2 Invisible]_&#x200B;wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;uit en gaat u als volgt te werk:
 
    - Voer bij **[!UICONTROL Google API Website Key]** de website-sleutel in die voor dit reCAPTCHA-type is gemaakt toen u uw Google reCAPTCHA-account hebt geregistreerd.
 
@@ -112,7 +112,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    ![ reCAPTCHA v2 Onzichtbaar ](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Als u _[!DNL reCAPTCHA v3 Invisible]_wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v3 Invisible]**uit en gaat u als volgt te werk:
+1. Als u _[!DNL reCAPTCHA v3 Invisible]_&#x200B;wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;uit en gaat u als volgt te werk:
 
    - Voer bij **[!UICONTROL Google API Website Key]** de website-sleutel in die voor dit reCAPTCHA-type is gemaakt toen u uw Google reCAPTCHA-account hebt geregistreerd.
 
@@ -142,7 +142,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
 ## Stap 3: Vorm Google reCAPTCHA voor de storefront
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL Security]_de optie **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL Security]_&#x200B;de optie **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Vul de sectie in voor elk reCAPTCHA-type dat u wilt gebruiken in de storefront.
 

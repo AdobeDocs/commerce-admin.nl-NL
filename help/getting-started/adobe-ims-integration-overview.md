@@ -23,7 +23,7 @@ Om deze integratie uit te voeren, zie [ de Integratie van Admin van Commerce met
 
 ## Wijzigingen in beheerworkflows en -interface na integratie met IMS
 
-Als deze integratie is ingeschakeld, ervaren Commerce Admin-gebruikers wijzigingen in de standaard Commerce Admin-aanmeldings- en verificatieworkflow terwijl ze routinetaken in Admin uitvoeren waarvoor verificatie vereist is, zoals het maken van een Admin-gebruiker. Om moduleactivering mogelijk te maken, is tweeledige verificatie (2FA) op het niveau van de Adobe-organisatie vereist. De standaardaanmelding voor beheer en 2FA zijn uitgeschakeld en de knop _[!UICONTROL Sign In with Adobe ID]_vervangt het standaardaanmeldingsformulier voor beheer. Rechten worden nog steeds beheerd door de beheerder.
+Als deze integratie is ingeschakeld, ervaren Commerce Admin-gebruikers wijzigingen in de standaard Commerce Admin-aanmeldings- en verificatieworkflow terwijl ze routinetaken in Admin uitvoeren waarvoor verificatie vereist is, zoals het maken van een Admin-gebruiker. Om moduleactivering mogelijk te maken, is tweeledige verificatie (2FA) op het niveau van de Adobe-organisatie vereist. De standaardaanmelding voor beheer en 2FA zijn uitgeschakeld en de knop _[!UICONTROL Sign In with Adobe ID]_&#x200B;vervangt het standaardaanmeldingsformulier voor beheer. Rechten worden nog steeds beheerd door de beheerder.
 
 ## Hoe de integratie van Admin met IMS Commerce wachtwoorden beïnvloedt
 

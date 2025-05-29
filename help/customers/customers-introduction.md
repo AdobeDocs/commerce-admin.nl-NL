@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # Inleiding tot klantenbeheer
 
-Het menu _[!UICONTROL Customers]_biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
+Het menu _[!UICONTROL Customers]_&#x200B;biedt toegang tot hulpprogramma&#39;s voor accountbeheer van klanten en geeft u de mogelijkheid om te zien wie online in uw winkel is.
 
 >[!BEGINTABS]
 
 >[!TAB  Adobe Commerce ]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 ![ het menu van Klanten ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 ![ het menu van Klanten ](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
 
