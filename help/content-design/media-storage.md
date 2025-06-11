@@ -3,9 +3,10 @@ title: Media-opslag
 description: Leer hoe u met mediaopslag Commerce-mediabestanden die op de server zijn opgeslagen, kunt ordenen en openen.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ De eerste twee stappen zijn hetzelfde als wanneer u een afbeelding invoegt.
 
    ![ pictogram van het Beeld van het Tussenvoegsel ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_&#x200B;geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_geopend.
 
 1. Na _[!UICONTROL Source]_, klik het_ Onderzoek _pictogram (![ pictogram van het Onderzoek ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
@@ -76,7 +77,7 @@ Open de pagina of het blok dat u wilt bewerken. Gebruik vervolgens een van de vo
 
 1. Selecteer de tegel van de afbeelding en klik op **[!UICONTROL Add Selected]** .
 
-### Methode 2: modus HTML
+### Methode 2: HTML-modus
 
 1. Plaats de cursor in de code waar de tag `<img>` moet worden ingevoegd.
 

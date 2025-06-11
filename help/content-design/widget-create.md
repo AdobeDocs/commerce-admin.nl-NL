@@ -2,9 +2,10 @@
 title: Widgets maken en beheren
 description: Leer hoe u widgets maakt en beheert die automatisch inhoud in uw winkel bijwerken.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -51,7 +52,7 @@ Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ wid
 
      ![ eigenschappen Storefront ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
 
 1. Stel **[!UICONTROL Display On]** in op het paginatype waar het moet worden weergegeven.
 

@@ -4,22 +4,23 @@ description: Leer hoe u een CDN (Content Delivery Network) gebruikt om mediabest
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Een netwerk voor inhoudslevering gebruiken
 
-U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
+U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
 
 Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijzigingen kunnen op globaal niveau of op het niveau van de website worden aangebracht. Wanneer een CDN wordt gebruikt voor mediaopslag, worden alle paden naar media op Commerce-winkelpagina&#39;s gewijzigd in de CDN-paden die in de configuratie zijn opgegeven.
 
 ## CDN-workflow
 
-1. **Browser verzoekt media** - een pagina van de opslag opent in browser van de klant, en browser verzoekt de media die in de HTML wordt gespecificeerd.
+1. **Browser verzoekt media** - een pagina van de opslag opent in browser van de klant, en browser verzoekt de media die in HTML wordt gespecificeerd.
 1. **Verzoek dat naar CDN wordt verzonden; de beelden die** worden gevonden en worden gediend - het verzoek wordt eerst verzonden naar CDN. Als de CDN de afbeeldingen in opslag heeft, dienen de mediabestanden naar de browser van de klant.
 1. **gevonden niet Media, verzoek dat naar [!DNL Commerce] Webserver** wordt verzonden - als CDN niet de media dossiers heeft, wordt het verzoek verzonden naar de [!DNL Commerce] Webserver. Als de mediabestanden in het bestandssysteem worden gevonden, stuurt de webserver ze naar de browser van de klant.
 
@@ -31,7 +32,7 @@ Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijziginge
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** naar wens in.
 

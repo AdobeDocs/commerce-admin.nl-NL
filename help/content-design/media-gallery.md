@@ -3,9 +3,10 @@ title: The [!DNL Media Gallery]
 description: Met de medialerie kunt u uw mediabestanden op de server ordenen en beheren.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Met Adobe Commerce of Magento Open Source 2.4, kunnen de handelaren nieuwe _verb
 
 >[!NOTE]
 >
->Productafbeeldingen die worden toegevoegd aan de [_[!UICONTROL Images and Videos]_&#x200B;productsectie ](../catalog/product-image.md#upload-an-image) , worden niet beheerd door de [!DNL Media Gallery] . Alleen afbeeldingen die worden gebruikt in de velden van de productsectie van&#x200B;_[!UICONTROL Content]_ , worden weergegeven en gefilterd in de nieuwe [!DNL Media Gallery] .
+>Productafbeeldingen die worden toegevoegd aan de [_[!UICONTROL Images and Videos]_productsectie ](../catalog/product-image.md#upload-an-image) , worden niet beheerd door de [!DNL Media Gallery] . Alleen afbeeldingen die worden gebruikt in de velden van de productsectie van_[!UICONTROL Content]_ , worden weergegeven en gefilterd in de nieuwe [!DNL Media Gallery] .
 
 ## De nieuwe functie inschakelen [!DNL Media Gallery]
 
@@ -36,11 +37,11 @@ Met Adobe Commerce of Magento Open Source 2.4, kunnen de handelaren nieuwe _verb
 
 1. Klik op de koppeling **[!UICONTROL Cache Management]** in het systeembericht als daarom wordt gevraagd en vernieuw de ongeldige cache.
 
-   In het [[!UICONTROL Content] menu ](/help/content-design/content-menu.md) wordt nu de nieuwe optie _[!UICONTROL Media Gallery]_&#x200B;weergegeven.
+   In het [[!UICONTROL Content] menu ](/help/content-design/content-menu.md) wordt nu de nieuwe optie _[!UICONTROL Media Gallery]_weergegeven.
 
 >[!NOTE]
 >
->Volledige functionaliteit voor nieuwe [!DNL Media Gallery] vereist dat `media.gallery.synchronization` - en `media.content.synchronization` -gebruikers in de wachtrij worden gestart voor eerste synchronisatie. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_ voor meer details.
+>Volledige functionaliteit voor nieuwe [!DNL Media Gallery] vereist dat `media.gallery.synchronization` - en `media.content.synchronization` -gebruikers in de wachtrij worden gestart voor eerste synchronisatie. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_ voor meer details.
 
 ## Toegang krijgen tot de nieuwe [!DNL Media Gallery]
 
@@ -56,7 +57,7 @@ De nieuwe medialerie openen wanneer u een pagina toevoegt of bewerkt:
 
 1. Klik op **[!UICONTROL Add a New Page]**.
 
-   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_&#x200B;en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
+   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en doe het volgende:
 

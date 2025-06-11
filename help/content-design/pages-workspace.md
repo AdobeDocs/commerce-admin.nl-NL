@@ -3,9 +3,10 @@ title: Besturingselementen voor de werkruimte Pagina
 description: Leer meer over de werkruimtegereedschappen waarmee u inhoudspagina's kunt zoeken en bijwerken.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de pagina. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts). |
+| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de pagina. ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source). |
 | [!UICONTROL Custom Theme] | Hiermee past u een aangepast thema toe op de pagina |
 | [!UICONTROL Custom Layout] | Bepaalt de aangepaste indeling van de pagina |
 | [!UICONTROL Meta Title] | Meta-titel voor de pagina |
@@ -79,7 +80,7 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 ## Pagina zoeken
 
-U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [ filter ](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
+U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [ filter ](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
 
 ### Zoeken op trefwoord
 
@@ -111,7 +112,7 @@ U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;g
 | [!UICONTROL Store View] | Filter de zoekopdracht op basis van de winkelweergave. Opties: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filter de zoekopdracht op basis van de paginalay-out. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filter de zoekopdracht op de paginatiestatus. Opties: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filter de zoekopdracht op de begin- en einddatum waarop het geselecteerde ontwerp op de pagina wordt toegepast. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts). |
+| [!UICONTROL Custom design from / to] | Filter de zoekopdracht op de begin- en einddatum waarop het geselecteerde ontwerp op de pagina wordt toegepast. ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source). |
 | [!UICONTROL Asset] | De zoekopdracht filteren op de elementen van de paginatitel |
 | [!UICONTROL Custom Layout] | Filter de zoekopdracht op basis van een aangepaste indeling. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filter de zoekopdracht op basis van een aangepast thema. Standaardopties: `Magento Blank` / `Magento Luma` |
@@ -139,7 +140,7 @@ U kunt pagina&#39;s bewerken, uitschakelen, inschakelen en verwijderen. Als u ee
 
 ### Eén actie
 
-Gebruik de kolom _[!UICONTROL Action]_&#x200B;helemaal rechts om een van de volgende handelingen toe te passen op de afzonderlijke pagina:
+Gebruik de kolom _[!UICONTROL Action]_helemaal rechts om een van de volgende handelingen toe te passen op de afzonderlijke pagina:
 
 - [!UICONTROL Edit] - Hiermee wordt de pagina geopend in de bewerkingsmodus
 - [!UICONTROL Delete] - hiermee wordt de pagina verwijderd (moet worden bevestigd)
@@ -149,7 +150,7 @@ Gebruik de kolom _[!UICONTROL Action]_&#x200B;helemaal rechts om een van de volg
 
 ### Handelingen Massa
 
-Pas een van de volgende handelingen tegelijkertijd toe op meerdere geselecteerde pagina&#39;s met de kiezer van _[!UICONTROL Action]_&#x200B;in de linkerbovenhoek:
+Pas een van de volgende handelingen tegelijkertijd toe op meerdere geselecteerde pagina&#39;s met de kiezer van _[!UICONTROL Action]_in de linkerbovenhoek:
 
 - [!UICONTROL Delete] - verwijdert de pagina&#39;s (moet worden bevestigd)
 - [!UICONTROL Disable] - Schakelt de pagina&#39;s op de winkelvoorgrond uit

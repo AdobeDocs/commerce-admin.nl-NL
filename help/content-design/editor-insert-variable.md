@@ -1,11 +1,12 @@
 ---
 title: Een variabele invoegen in de editor
-description: Voeg vooraf bepaalde of douanevariabelen aan uw inhoud in de redacteur WYSIWYG toe.
+description: Voeg vooraf gedefinieerde of aangepaste variabelen toe aan de inhoud in de WYSIWYG-editor.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Uw opslag omvat vele vooraf bepaalde [ variabelen ](../systems/variables-predefi
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de sectie _[!UICONTROL Content]_&#x200B;en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
 
 1. Plaats de curseur waar u de variabele wilt verschijnen en de _Variabele van het Tussenvoegsel_ pictogram klikken.
 

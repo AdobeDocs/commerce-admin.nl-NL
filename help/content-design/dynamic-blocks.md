@@ -2,9 +2,10 @@
 title: Dynamische blokken
 description: Gebruik dynamische blokken om rijke, interactieve inhoud te creëren die door logica van prijsregels en klantensegmenten wordt gedreven.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Creeer rijke, interactieve inhoud die door logica van [ prijsregels ](../merchan
 
 >[!NOTE]
 >
->De optie _[!UICONTROL Banner]_&#x200B;in het [[!UICONTROL Content] menu ](content-menu.md) werd afgekeurd in 2.3.1 en in 2.4.0 verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
+>De optie _[!UICONTROL Banner]_in het [[!UICONTROL Content] menu ](content-menu.md) werd afgekeurd in 2.3.1 en in 2.4.0 verwijderd. De functionaliteit ervan wordt vervangen door Dynamische blokken.
 
 ![[!DNL Page Builder] - dynamisch blok met prijsregel en klantsegment ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -53,7 +54,7 @@ Creeer rijke, interactieve inhoud die door logica van [ prijsregels ](../merchan
 
 ### Real-Time CDP-publiek gebruiken in dynamische blokken
 
-Als u [ installeerde ](../customers/audience-activation.md#install-the-extension) en [&#128279;](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] uitbreiding vormde, ziet u een sectie genoemd **[!UICONTROL Audiences]**.
+Als u [ installeerde ](../customers/audience-activation.md#install-the-extension) en [ ](../customers/audience-activation.md#configure-the-extension) de [!DNL Audience Activation] uitbreiding vormde, ziet u een sectie genoemd **[!UICONTROL Audiences]**.
 
 ![ kies een publiek van Real-Time CDP ](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 
@@ -107,7 +108,7 @@ Gebruik [!DNL Page Builder] [ werkruimte ](../page-builder/workspace.md) om de i
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Layout] | Voeg rijen, kolommen of tabs toe aan het werkgebied. |
-| [!UICONTROL Elements] | Voeg tekst, koppen, knoppen, scheidingslijnen en HTML-code toe aan elke lay-outcontainer in het werkgebied. |
+| [!UICONTROL Elements] | Voeg tekst, koppen, knoppen, scheidingslijnen en HTML-code toe aan een lay-outcontainer in het werkgebied. |
 | [!UICONTROL Media] | Voeg afbeeldingen, video, banners, schuifregelaars en Google Maps toe aan een bestaande lay-outcontainer in het werkgebied. |
 | [!UICONTROL Add Content] | Voeg bestaande blokken, dynamische blokken en producten toe aan het werkgebied. |
 

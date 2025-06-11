@@ -2,9 +2,10 @@
 title: WYSIWYG Editor
 description: Leer hoe u de editor gebruikt en met inhoud werkt in een _What You See Is What You Get_ (WYSIWYG) weergave.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Voor een gedetailleerde beschrijving van alle opties van WYSIWYG, zie [ Inhoudsb
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]** uit.
 

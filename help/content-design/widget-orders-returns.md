@@ -3,9 +3,10 @@ title: Widget bestellingen en geretourneerde opdrachten
 description: Leer hoe u de widget voor bestellingen en retourneringen kunt gebruiken om klanten de mogelijkheid te bieden de status van hun bestellingen, facturen afdrukken en verzendingen bij te houden.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ De _orden en Keert_ widget terug geeft gasten de capaciteit om de status van hun
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**&#x200B;en voer de volgende handelingen uit:
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**en voer de volgende handelingen uit:
 
    - Stel **[!UICONTROL Display On]** in op het paginatype waar u de widget wilt weergeven.
 

@@ -4,9 +4,10 @@ description: Leer hoe te om een media gegevensbestand te gebruiken om uw  [!DNL 
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Standaard worden alle afbeeldingen, gecompileerde CSS-bestanden en gecompileerde
 
 ## Databaseworkflow
 
-1. **Browser verzoekt media** - een pagina van de opslag opent in browser van de klant, en browser verzoekt de media die in de HTML wordt gespecificeerd.
+1. **Browser verzoekt media** - een pagina van de opslag opent in browser van de klant, en browser verzoekt de media die in HTML wordt gespecificeerd.
 
 1. **het Systeem zoekt media in dossiersysteem** - het systeemonderzoeken naar de media in het dossiersysteem en indien gevonden, gaat het tot browser over.
 

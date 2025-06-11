@@ -3,9 +3,10 @@ title: Adobe Stock-integratie
 description: Integreer Adobe Stock met uw  [!DNL Commerce]  instantie om tot talloze media activa voor gebruik in uw opslag toegang te hebben.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -27,8 +28,8 @@ Deze integratie vereist:
 
 Voor licenties voor Adobe Stock-afbeeldingen is het volgende vereist:
 
-- Een [ rekening van de Adobe ][adobe-signin]
-- Een betaald &rbrack;[adobe-stock] plan van Adobe Stock &lbrack; verbonden aan de rekening
+- Een [ rekening van Adobe ][adobe-signin]
+- Een betaald ][adobe-stock] plan van Adobe Stock [ verbonden aan de rekening
 
 ## Integreer [!DNL Commerce] en Adobe Stock
 
@@ -41,9 +42,9 @@ Het configureren van de Adobe Stock-integratie voor Adobe Commerce bestaat uit t
 
 1. Navigeer aan [ Adobe Developer Console ][dev-console].
 
-1. Klik onder _[!UICONTROL Quick Start]_&#x200B;op **[!UICONTROL Create new project]**.
+1. Klik onder _[!UICONTROL Quick Start]_op **[!UICONTROL Create new project]**.
 
-1. Klik in het blok _[!UICONTROL Project overview]_&#x200B;op **[!UICONTROL Add API]**.
+1. Klik in het blok _[!UICONTROL Project overview]_op **[!UICONTROL Add API]**.
 
 1. Selecteer **[!UICONTROL Adobe Stock]** in de lijst Integraties en klik op **[!UICONTROL Next]** .
 
@@ -96,6 +97,6 @@ Om de systeemconfiguratie in uw [!DNL Commerce] Admin te plaatsen, gebruik _API 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

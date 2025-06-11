@@ -3,10 +3,11 @@ title: Adobe Stock-afbeeldingen gebruiken
 description: Verbeter je winkelpagina's met afbeeldingen uit Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 1%
+source-wordcount: '1013'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +27,11 @@ Het het onderzoekspaneel van Adobe Stock is toegankelijk wanneer u [ toevoegt of
 
 1. Klik op **[!UICONTROL Add a New Page]**.
 
-   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_&#x200B;en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
+   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en doe het volgende:
 
-   - Als u de [ toegelaten redacteur WYSIWYG ](editor.md) hebt, klik **[!UICONTROL Show/Hide Editor]** en klik dan **[!UICONTROL Insert Image]**.
+   - Als u de [ toegelaten redacteur van WYSIWYG ](editor.md) hebt, klik **[!UICONTROL Show/Hide Editor]** en klik dan **[!UICONTROL Insert Image]**.
 
    - Als u [ toegelaten Bouwer van de Pagina ](../page-builder/setup.md) hebt, breid het **[!UICONTROL Media]** paneel uit en sleep **[!UICONTROL Image]** placeholder aan de doelcontainer. Klik vervolgens op **[!UICONTROL Select from Gallery]** .
 
@@ -46,7 +47,7 @@ Het het onderzoekspaneel van Adobe Stock is toegankelijk wanneer u [ toevoegt of
 
    Als u de afbeelding wilt toevoegen aan een bestaande categorie, klikt u op de categorienaam in de lijst aan de linkerkant.
 
-1. Vouw de sectie **[!UICONTROL Content]** uit en klik onder _[!UICONTROL Category Image]_&#x200B;click **[!UICONTROL Select from Gallery]**.
+1. Vouw de sectie **[!UICONTROL Content]** uit en klik onder _[!UICONTROL Category Image]_click **[!UICONTROL Select from Gallery]**.
 
 1. Klik op **[!UICONTROL Search Adobe Stock]**.
 
@@ -118,23 +119,23 @@ Elke afbeelding bevat details die u kunt weergeven. De extra beeld-specifieke ac
 
 ## Aanmelden bij uw Adobe-account
 
-Om volledige toegang tot een beeld te verkrijgen en het watermerk van Adobe Stock te elimineren, moet u [ binnen met een rekening van de Adobe ](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html) ondertekenen en kredieten aan vergunningsrechten kopen om een beeld te gebruiken.
+Om volledige toegang tot een beeld te verkrijgen en het watermerk van Adobe Stock te elimineren, moet u [ binnen met een rekening van Adobe ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) ondertekenen en kredieten aan vergunningsrechten kopen om een beeld te gebruiken.
 
 1. [ heb toegang tot het net van het Onderzoek van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
 1. Klik op **[!UICONTROL Sign In]** rechtsboven.
 
-   Een nieuw browser venstergidsen u door het [ Adobe teken-binnen proces ](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html).
+   Een nieuw browser venstergidsen u door het [ Adobe login proces ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Nadat u het aanmeldingsproces hebt voltooid, wordt de gelicentieerde status van afbeeldingen in de zoekresultaten weergegeven als een label.
 
-   ![ teken van de Adobe binnen ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
+   ![ Adobe teken binnen ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### De gelicentieerde status van zoekresultaten weergeven
 
-[ Login aan uw rekening van de Adobe ](#log-in-to-your-adobe-account).
+[ Login aan uw rekening van Adobe ](#log-in-to-your-adobe-account).
 
-Alle afbeeldingen met licentie die aan uw Adobe-account zijn gekoppeld, hebben een label dat op deze afbeeldingen wordt weergegeven, zodat duidelijk is welke afbeeldingen u een licentie hebt.
+Op alle afbeeldingen met licentie die aan uw Adobe-account zijn gekoppeld, wordt een label weergegeven, zodat duidelijk is welke afbeeldingen u een licentie hebt.
 
 ![ Adobe Stock onderzoeksresultaten met vergunning gegeven beelden ](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
@@ -164,9 +165,9 @@ Een voorvertoning van een afbeelding is een versie van een Adobe Stock-element m
 
 #### Een afbeelding met een licentie opslaan
 
-Adobe Stock-elementen die u voor uw [!DNL Commerce] -productiewinkels wilt gebruiken, moeten een licentie hebben. Het verlenen van vergunningen zorgt ervoor dat u wettelijke toegang tot het beeld hebt en om het watermerk van Adobe Stock te elimineren dat op alle [ beeldvoorproeven ](adobe-stock-save-preview.md) aanwezig is. Als u afbeeldingen wilt licentiëren of afbeeldingen met een licentie wilt opslaan, moet u zijn aangemeld bij uw Adobe-account.
+Adobe Stock-elementen die u voor uw [!DNL Commerce] -productiewinkels wilt gebruiken, moeten een licentie hebben. Het verlenen van vergunningen zorgt ervoor dat u wettelijke toegang tot het beeld hebt en om het watermerk van Adobe Stock te elimineren dat op alle [ beeldvoorproeven ](adobe-stock-save-preview.md) aanwezig is. Als u een licentie voor afbeeldingen wilt geven of afbeeldingen met een licentie wilt opslaan, moet u zijn aangemeld bij uw Adobe-account.
 
-1. [ Login aan uw rekening van de Adobe ](#log-in-to-your-adobe-account).
+1. [ Login aan uw rekening van Adobe ](#log-in-to-your-adobe-account).
 
 1. Om [ de beelddetails ](#view-image-details) te bekijken, klik een beeld in het onderzoeksnet.
 
@@ -178,7 +179,7 @@ Adobe Stock-elementen die u voor uw [!DNL Commerce] -productiewinkels wilt gebru
 
      >[!NOTE]
      >
-     >U moet beschikbare [ credits van Adobe Stock ](https://helpx.adobe.com/nl/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
+     >U moet beschikbare [ credits van Adobe Stock ](https://helpx.adobe.com/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
 
    Deze actie toont een herinnering voor u om een dossier te specificeren - naam die wordt gebruikt om het beeld aan de [ media opslag ](media-storage.md) te bewaren. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 

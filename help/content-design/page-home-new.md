@@ -1,11 +1,12 @@
 ---
 title: De startpagina instellen
-description: Leer hoe u de startpagina wijzigt die als de standaard-CMS-pagina wordt gebruikt.
+description: Leer hoe u de homepage wijzigt die als de standaard CMS-pagina wordt gebruikt.
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +18,7 @@ U kunt een selectie van verschillende homepages handhaven, en de pagina activere
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit en reeks **[!UICONTROL CMS Home Page]** aan de nieuwe pagina.
 

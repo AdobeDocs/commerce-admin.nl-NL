@@ -1,10 +1,11 @@
 ---
 title: Een afbeelding invoegen in de editor
-description: De WYSIWYG-editor biedt een eenvoudige manier om een afbeelding in te voegen van de media-opslag, een koppeling tot stand te brengen in een afbeelding die zich op een andere server bevindt of Adobe Stock-elementen te gebruiken.
+description: De WYSIWYG-editor biedt een eenvoudige manier om een afbeelding in te voegen van de mediaopslagruimte, een afbeelding te koppelen aan een andere server of Adobe Stock-elementen te gebruiken.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de sectie _[!UICONTROL Content]_&#x200B;en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
 
 1. Plaats de cursor op de positie waar u de afbeelding wilt weergeven.
 
@@ -29,9 +30,9 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
    ![ pictogram van het Beeld van het Tussenvoegsel ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_&#x200B;geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_geopend.
 
-1. Voor **Source**, klik het _3&rbrace; pictogram van het Onderzoek &lbrace;en gebruik de methode die de plaats van de beeldactiva aanpast die u wilt gebruiken:_
+1. Voor **Source**, klik het _3} pictogram van het Onderzoek {en gebruik de methode die de plaats van de beeldactiva aanpast die u wilt gebruiken:_
 
    ![ Selecterend het onderzoekspictogram ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

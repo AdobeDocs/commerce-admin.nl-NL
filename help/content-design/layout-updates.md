@@ -2,9 +2,10 @@
 title: Layout-updates
 description: Leer hoe u layout-updates kunt gebruiken om de lay-out van een pagina aan te passen.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Alvorens u met de updates van de douanelay-out begint te werken, is het belangri
 
 De XML-indeling van uw [!DNL Commerce] -winkel is een hiërarchische structuur van containers en blokken. Sommige elementen worden op elke pagina weergegeven en andere alleen op specifieke pagina&#39;s. Meer over lay-out, containers, en blokken leren, zie het [ overzicht van Lay-outs ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) in de _Voorste Gids van de Ontwikkelaar_.
 
-Het [ hulpmiddel van Widget ](widgets.md) is een gemakkelijke manier om een bestaand [ inhoudsblok ](blocks.md) aan de standaardlay-out van een pagina toe te voegen. Voor geavanceerdere updates moet u de updatecode van de XML-indeling opslaan op de server en het bestand vervolgens verwijzen als een aangepaste update van de layout van de beheerder. Voor een overzicht van het proces, zie {de Updates van de Lay-out van 0} Gebruik [&#128279;](layout-updates.md#place-a-block-using-layout-updates).
+Het [ hulpmiddel van Widget ](widgets.md) is een gemakkelijke manier om een bestaand [ inhoudsblok ](blocks.md) aan de standaardlay-out van een pagina toe te voegen. Voor geavanceerdere updates moet u de updatecode van de XML-indeling opslaan op de server en het bestand vervolgens verwijzen als een aangepaste update van de layout van de beheerder. Voor een overzicht van het proces, zie {de Updates van de Lay-out van 0} Gebruik ](layout-updates.md#place-a-block-using-layout-updates).[
 
 In het volgende diagram zijn de namen die naar containers verwijzen zwart en de bloktypen, of blokklassenpaden, blauw.
 
@@ -30,7 +31,7 @@ In het volgende diagram zijn de namen die naar containers verwijzen zwart en de 
 | `page/html_wrapper` | Hoewel dit blok is opgenomen in de standaardlay-out, is het afgekeurd en is het alleen opgenomen om achterwaartse compatibiliteit te garanderen. Gebruik geen blokken van dit type. |
 | `page/html_breadcrumbs` | De naam van dit blok is `breadcrumbs` en het is een onderliggend element van het koptekstblok. In dit blok worden broodkruimels voor de huidige pagina weergegeven. Er kan slechts één blok van dit type per pagina zijn. |
 | `page/html_footer` | De bloknaam is `footer` en is een onderliggend element van het hoofdblok. Het voettekstblok komt overeen met de visuele voettekst onder aan de pagina en bevat verschillende standaardblokken. Er kan slechts één blok van dit type per pagina zijn en het mag niet worden verwijderd. |
-| `page/template_links` | De standaardlay-out bevat twee blokken van dit type. Het blok `top.links` is een onderliggend element van het koptekstblok en komt overeen met het bovenste navigatiemenu. Het blok `footer_links` is een onderliggend element van het voettekstblok en komt overeen met het onderste navigatiemenu. <br/><br/>**_Nota:_**&#x200B;Het is mogelijk om de malplaatjeverbindingen te manipuleren, zoals aangetoond in de voorbeelden. |
+| `page/template_links` | De standaardlay-out bevat twee blokken van dit type. Het blok `top.links` is een onderliggend element van het koptekstblok en komt overeen met het bovenste navigatiemenu. Het blok `footer_links` is een onderliggend element van het voettekstblok en komt overeen met het onderste navigatiemenu. <br/><br/>**_Nota:_**Het is mogelijk om de malplaatjeverbindingen te manipuleren, zoals aangetoond in de voorbeelden. |
 | `page/switch` | Een standaardlay-out bevat twee blokken van dit type. Het `store_language` -blok is een onderliggend element van het headerblok en komt overeen met de bovenste taalswitch. Het `store_switcher` -blok is een onderliggend element van het voettekstblok en komt overeen met de onderste winkelschakeloptie. |
 | kern/berichten | Een standaardlay-out bevat twee blokken van dit type. In het blok `global_messages` worden algemene berichten weergegeven. Het blok `messages` wordt gebruikt om alle andere berichten te tonen. Als u deze blokken verwijdert, ziet de klant geen berichten. |
 | `core/text_list` | Dit type blok wordt in [!DNL Commerce] op grote schaal gebruikt als plaatsaanduiding voor het renderen van onderliggende blokken. |
@@ -52,7 +53,7 @@ In de volgende stappen wordt getoond hoe u een lay-outupdate kunt gebruiken om e
 
 ### Stap 2: De layout-update in XML samenstellen
 
-1. Stel de lay-outinstructies in XML samen aan [ Verwijzing een Blok CMS ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Stel de lay-outinstructies in XML samen aan [ Verwijzing een Blok van CMS ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
 
 1. Sparen de [ lay-outinstructies ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) op de server in de lay-outomslag waar de dossiers van XML voor het thema worden bewaard.
 
@@ -60,7 +61,7 @@ In de volgende stappen wordt getoond hoe u een lay-outupdate kunt gebruiken om e
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   De greep voor de lay-out is de bestandsnaam die begint met `cms_page_view_selectable_` , gevolgd door de URL-sleutel van de CMS-pagina, de optie voor het bijwerken van de lay-out en het achtervoegsel voor het bestand van `xml` . In het volgende voorbeeld is `customer-service` de URL-sleutel van de pagina en is `ChatTool` de optie die u selecteert om de layout-update toe te passen op de pagina.
+   De greep voor de layout is de bestandsnaam die begint met `cms_page_view_selectable_` , gevolgd door de URL-sleutel van de CMS-pagina, de optie voor het bijwerken van de layout en het achtervoegsel van het bestand `xml` . In het volgende voorbeeld is `customer-service` de URL-sleutel van de pagina en is `ChatTool` de optie die u selecteert om de layout-update toe te passen op de pagina.
 
    `cms_page_view_selectable_`&lt;`customer-service`> `_`&lt; `ChatTool`> `.xml`
 

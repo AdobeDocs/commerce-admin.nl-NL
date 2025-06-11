@@ -2,28 +2,29 @@
 title: Pagina-instelling
 description: Leer hoe u de standaardwaarden voor de hoofdonderdelen van een winkelpagina configureert.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Pagina-instelling
 
-De hoofdsecties van de pagina worden gedeeltelijk bestuurd door een set standaard HTML-tags. Sommige van deze labels kunnen worden gebruikt om de lettertypen, kleur, grootte, achtergrondkleuren en afbeeldingen te selecteren die in elke sectie van de pagina worden gebruikt. Andere instellingen bepalen pagina-elementen, zoals het logo in de koptekst en de copyrightvermelding in de voettekst. Deze secties komen overeen met de onderliggende structuur van de pagina HTML en veel van de basiseigenschappen kunnen worden ingesteld via de beheerder.
+De hoofdsecties van de pagina worden gedeeltelijk bestuurd door een set standaard HTML-tags. Sommige van deze labels kunnen worden gebruikt om de lettertypen, kleur, grootte, achtergrondkleuren en afbeeldingen te selecteren die in elke sectie van de pagina worden gebruikt. Andere instellingen bepalen pagina-elementen, zoals het logo in de koptekst en de copyrightvermelding in de voettekst. Deze secties komen overeen met de onderliggende structuur van de HTML-pagina en veel van de basiseigenschappen kunnen worden ingesteld via Beheer.
 
 - [HTML Head](#html-head)
 - [Koptekst](#header)
 - [Voettekst](#footer)
 
-![ HTML pagina secties ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![ HTML paginagedeelten ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML Head
 
-De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een pagina HTML en kunnen voor elke winkelweergave worden geconfigureerd. Naast metagegevens voor de paginatitel, beschrijving en trefwoorden bevat de sectie een koppeling naar het favicon en diverse scripts. In deze sectie worden ook instructies voor robots van zoekprogramma&#39;s en de weergave van de mededeling van de opslagdemo geconfigureerd.
+De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een HTML-pagina en kunnen voor elke winkelweergave worden geconfigureerd. Naast metagegevens voor de paginatitel, beschrijving en trefwoorden bevat de sectie een koppeling naar het favicon en diverse scripts. In deze sectie worden ook instructies voor robots van zoekprogramma&#39;s en de weergave van de mededeling van de opslagdemo geconfigureerd.
 
-### De kop van de HTML configureren
+### De HTML Head configureren
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
@@ -69,7 +70,7 @@ De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een
 | [!UICONTROL Page Title Suffix] | Winkelweergave | U kunt na de titel een achtervoegsel toevoegen om een titel van twee of drie delen te maken. Een verticale balk of dubbele punt kan als scheidingsteken aan het einde van het voorvoegsel worden gebruikt om het te onderscheiden van de tekst van de hoofdtitel. |
 | [!UICONTROL Default Meta Description] | Winkelweergave | De beschrijving bevat een overzicht van je site voor aanbiedingen met zoekprogramma&#39;s en mag niet langer zijn dan 160 tekens. |
 | [!UICONTROL Default Meta Keywords] | Winkelweergave | Een reeks trefwoorden die uw winkel beschrijven, elk gescheiden door een komma. |
-| [!UICONTROL Scripts and Style Sheets] | Winkelweergave | Bevat scripts die moeten worden opgenomen in de HTML vóór de afsluitende tag `<head>` . JavaScript van derden die vóór de tag `<body>` moet worden geplaatst, kan hier bijvoorbeeld worden ingevoerd. |
+| [!UICONTROL Scripts and Style Sheets] | Winkelweergave | Bevat scripts die in de HTML moeten worden opgenomen vóór de afsluitende tag `<head>` . JavaScript van derden die vóór de tag `<body>` moet worden geplaatst, kan hier bijvoorbeeld worden ingevoerd. |
 | [!UICONTROL Display Demo Store Notice] | Winkelweergave | Controls the display of the demo store notice at the top of the page. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -90,7 +91,7 @@ De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en spec
 
 1. Breng de gewenste wijzigingen aan in de winkelweergave:
 
-   - [&#128279;](../getting-started/storefront-branding.md#upload-your-logo) montages van 0&rbrace; Logo &lbrace;
+   - ](../getting-started/storefront-branding.md#upload-your-logo) montages van 0} Logo {[
    - [ Welkome bericht ](../getting-started/storefront-branding.md#change-the-welcome-message) montages
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
@@ -135,7 +136,7 @@ De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [ cop
 | Veld | Toepassingsgebied | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | Winkelweergave | Een invoervak waarin u diverse scripts naar de server kunt uploaden die vlak voor de afsluitende tag `<body>` moeten worden geplaatst. |
-| [!UICONTROL Copyright] | Winkelweergave | De copyrightinstructie die onder aan elke pagina wordt weergegeven. Als u het copyrightsymbool wilt opnemen, gebruikt u de tekeneenheid HTML `\&copy;` als volgt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` vervang de copyrightkennisgeving voor het voorbeeld door uw eigen instantie. |
+| [!UICONTROL Copyright] | Winkelweergave | De copyrightinstructie die onder aan elke pagina wordt weergegeven. Als u het copyrightsymbool wilt opnemen, gebruikt u de HTML-tekeneenheid `\&copy;` als volgt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` vervang de copyrightkennisgeving voor het voorbeeld door uw eigen tekeneenheid. |
 | [!UICONTROL Display Report Bugs Link] | Winkelweergave | Hiermee wordt bepaald of de koppeling voor het foutopsporingsrapport (ondersteund voor bepaalde thema&#39;s) is in- of uitgeschakeld. |
 
 {style="table-layout:auto"}

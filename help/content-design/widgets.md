@@ -2,9 +2,10 @@
 title: Widgets
 description: Leer over widgets, die een codefragment verstrekken dat het mogelijk maakt om een brede waaier van inhoud te tonen en het bij specifieke blokverwijzingen in uw opslag te plaatsen.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Wanneer u [ een widget ](widget-create.md) creeert, moet u het type plaatsen. Di
 | Type | Beschrijving |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | Met deze optie kunt u een koppeling weergeven naar een specifiek knooppunt in de paginahiërarchie dat in andere inhoud kan worden opgenomen. |
-| [!UICONTROL CMS Page Link] | Gebruik deze optie om aangepaste tekst en een titel op te geven die is gekoppeld aan een specifieke CMS-pagina. Wanneer de koppeling is voltooid, kan deze worden gebruikt in inhoudspagina&#39;s en -blokken. |
+| [!UICONTROL CMS Page Link] | Met deze optie kunt u aangepaste tekst en een titel opgeven die is gekoppeld aan een specifieke CMS-pagina. Wanneer de koppeling is voltooid, kan deze worden gebruikt in inhoudspagina&#39;s en -blokken. |
 | [!UICONTROL CMS Static Block] | Met deze optie kunt u een blok inhoud weergeven op een specifieke locatie op een pagina. |
 | [!UICONTROL Catalog Category Link] | Met deze optie kunt u een inline-koppeling of een blokkoppeling weergeven naar een geselecteerde cataloguscategorie. Wanneer de koppeling is voltooid, kan deze worden gebruikt in inhoudspagina&#39;s en -blokken. |
 | [!UICONTROL Catalog Events Carousel] | Gebruik deze optie om een lijst met aanstaande catalogusgebeurtenissen weer te geven. |

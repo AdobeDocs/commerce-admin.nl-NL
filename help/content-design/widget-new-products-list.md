@@ -3,9 +3,10 @@ title: Widget lijst met nieuwe producten
 description: Leer hoe u de widget lijst met nieuwe producten kunt gebruiken om een lijst weer te geven met de laatst toegevoegde producten.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ De lijst met nieuwe producten is een voorbeeld van dynamische inhoud en bestaat 
 
 ![ Adobe Commerce ](../assets/adobe-logo.svg) voor de opslag van Adobe Commerce, zie [ plannend een Update ](content-staging-scheduled-update.md) en dan aan Stap 2 op deze pagina verdergaan.
 
-_[!UICONTROL Set Product as New]_&#x200B;datumbereikinstelling kan alleen worden geconfigureerd in geplande updates.
+_[!UICONTROL Set Product as New]_datumbereikinstelling kan alleen worden geconfigureerd in geplande updates.
 
 Het plaatsen van een product als nieuw voegt het product aan de _Nieuwe producten_ lijst toe. U kunt de instelling op elk gewenst moment weer wijzigen wanneer u de instelling niet meer in de lijst wilt opnemen.
 
@@ -70,7 +71,7 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
 
 ## Stap 3: Kies de locatie
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
 
 1. **[!UICONTROL Display On]** instellen op `Specified Page.`
 
@@ -120,4 +121,4 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Vind de pagina in het net waar de _Nieuwe Producten_ lijst moet verschijnen en de **[!UICONTROL Preview]** verbinding in de _[!UICONTROL Action]_&#x200B;kolom klikken.
+1. Vind de pagina in het net waar de _Nieuwe Producten_ lijst moet verschijnen en de **[!UICONTROL Preview]** verbinding in de _[!UICONTROL Action]_kolom klikken.

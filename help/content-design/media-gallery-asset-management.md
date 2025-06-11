@@ -3,16 +3,17 @@ title: Middelen in galerie beheren
 description: Leer hoe u geüploade mediabestanden en elementen die u via Adobe Stock-integratie aanschaft, beheert.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
 # Middelen in galerie beheren
 
-De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [&#128279;](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
+De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [ ](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
 
 ## Middelen uploaden
 
@@ -61,7 +62,7 @@ De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geup
    - **[!UICONTROL Description]**
    - **[!UICONTROL Tags/Keywords]**
 
-   Deze gegevens worden opgeslagen in de database en in de metagegevens van het bestand zelf. Momenteel worden XMP- en IPTC-indelingen ondersteund.
+   Deze gegevens worden opgeslagen in de database en in de metagegevens van het bestand zelf. XMP- en IPTC-indelingen worden momenteel ondersteund.
 
    U kunt de afbeelding downloaden met de bijgewerkte metagegevens.
 

@@ -3,9 +3,10 @@ title: Dynamische blokken in prijsregels
 description: Koppel een dynamisch blok aan een promotieprijsregel.
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met ee
 
 ## Een dynamisch blok koppelen aan een prijsregel
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;en kies één van het volgende:
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_en kies één van het volgende:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

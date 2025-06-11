@@ -2,9 +2,10 @@
 title: Paginahiërarchie
 description: Leer hoe het systeem van de paginahiërarchie u de capaciteit geeft om uw inhoudspagina's te organiseren en paginering, navigatie, en menu's toe te voegen.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,11 @@ Het systeem van de paginahiërarchie gebruikt knopen om verwante stukken van inh
 
 Met de configuratie-instellingen activeert u het systeem en de metagegevens van de paginahiërarchie en bepaalt u de standaardmenulay-out.
 
-![ CMS de Hiërarchie van de Pagina ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
+![ de Hiërarchie van de Pagina van CMS ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** uit en breng om het even welke veranderingen aan die noodzakelijk zijn.
 
@@ -47,7 +48,7 @@ In het volgende voorbeeld ziet u hoe u een knooppunt maakt met eenvoudige naviga
 
 Bijvoorbeeld, zou u een knoop kunnen tot stand brengen genoemd _Versies van de Pers_ die navigatie aan individuele persversies heeft. Dan, kunt u de verbinding op uw _Ongeveer pagina van ons_ aan de knoop omvatten. Of u zou een knoop voor een inzameling van achterkwesties van uw nieuwsbrief kunnen tot stand brengen.
 
-Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om een verbinding van de Knoop van de Hiërarchie tot stand te brengen CMS en widget in een inhoudsblok of een pagina te plaatsen.
+Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om een verbinding van de Knoop van de Hiërarchie van CMS tot stand te brengen en widget in een inhoudsblok of een pagina te plaatsen.
 
 ![ de navigatiemenu van het Voorbeeld op de Ongeveer pagina van de Gebruik ](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
@@ -55,11 +56,11 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**.
 
-   ![ het net van Pagina&#39;s CMS ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![ het net van de Pagina&#39;s van CMS ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. Klik boven het raster op **[!UICONTROL Add Node...]** .
 
-1. Voer onder _[!UICONTROL Page Properties]_&#x200B;een **[!UICONTROL Title]**&#x200B;voor het knooppunt en een geschikte **[!UICONTROL URL Key]**&#x200B;in.
+1. Voer onder _[!UICONTROL Page Properties]_een **[!UICONTROL Title]**voor het knooppunt en een geschikte **[!UICONTROL URL Key]**in.
 
    De URL-sleutel biedt een uniek webadres voor het knooppunt. Het moet allemaal kleine letters zijn. Gebruik afbreekstreepjes om woorden te scheiden in plaats van spaties.
 
@@ -85,7 +86,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Klik op het knooppunt boven in de hiërarchie.
 
-   In de sectie _[!UICONTROL Page Properties]_&#x200B;wordt nu informatie over het knooppunt weergegeven.
+   In de sectie _[!UICONTROL Page Properties]_wordt nu informatie over het knooppunt weergegeven.
 
 1. Voer onder **[!UICONTROL Render Metadata in HTML Head]** de volgende handelingen uit:
 

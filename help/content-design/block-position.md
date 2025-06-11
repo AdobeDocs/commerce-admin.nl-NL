@@ -2,9 +2,10 @@
 title: Inhoudsblokken plaatsen
 description: Een blok op een specifieke plaats op de pagina plaatsen, en zelfs voor een specifiek product of een categorie, zonder enige code te schrijven
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ De code die de paginalay-out en plaatsing van blokken controleert wordt geschrev
 
 De volgende lijst beschrijft de plaatsen door paginatype waar de blokken typisch worden geplaatst. Voor meer informatie over hoe de gebieden op de pagina worden bepaald, zie [ StandaardLay-outs van de Pagina ](page-layout.md#standard-page-layouts).
 
-## Categorie- en CMS-pagina&#39;s
+## Pagina&#39;s met rubrieken en CMS
 
 | Blokverwijzing | Positie |
 |----------|-------- |
@@ -55,6 +56,6 @@ De volgende lijst beschrijft de plaatsen door paginatype waar de blokken typisch
 | [!UICONTROL Product View Extra Hint] | De inhoud wordt weergegeven onder de hoofdprijs van het product. |
 | [!UICONTROL Right Column] | De inhoud wordt onder de rechterkolomblokken weergegeven. |
 | [!UICONTROL Store Language] | De inhoud wordt rechts van de taalkiezer weergegeven. |
-| [!UICONTROL Tags List Before] | De inhoud wordt boven het veld _[!UICONTROL Add Your Tags]_&#x200B;weergegeven. |
+| [!UICONTROL Tags List Before] | De inhoud wordt boven het veld _[!UICONTROL Add Your Tags]_weergegeven. |
 
 {style="table-layout:auto"}

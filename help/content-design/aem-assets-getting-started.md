@@ -3,9 +3,10 @@ title: AEM Assets Integration instellen voor Commerce
 description: Leer hoe u uw Experience Manager Assets-omgeving kunt instellen en configureren om Commerce-middelen voor uw winkel te beheren.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: f64975793edc88a34d75965c8fae4967fae801c7
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -22,13 +23,13 @@ Als u de Adobe Experience Manager Assets-integratie voor Commerce wilt instellen
 
 Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende vereisten voldoen:
 
-- De actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+- De actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
-- Adobe Experience Manager is provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
+- Adobe Experience Manager is provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 
-- De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
+- De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
 
 ## Belangrijkste voordelen
 

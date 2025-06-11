@@ -3,9 +3,10 @@ title: Pagina's
 description: Leer details over de pagina's van de kerninhoud inbegrepen met de  [!DNL Commerce]  demoopslag, en het veranderen van de configuratie van de Pagina's Standaard.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ In de demo-store van [!DNL Commerce] staan voorbeelden van de belangrijkste inho
 
 ### Home
 
-De demo [ 1&rbrace; pagina van het Huis &lbrace;omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
+De demo [ 1} pagina van het Huis {omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
 
 ### Privacybeleid
 
@@ -64,7 +65,7 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit.
 
@@ -73,11 +74,11 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
    | Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | Winkelweergave | Geeft de bestemmingspagina aan die aan de basis-URL is gekoppeld. Standaard is dit veld ingesteld op `cms` om een pagina aan te geven vanuit het inhoudsbeheersysteem van [!DNL Commerce] . U kunt ook een ander type bestemmingspagina gebruiken, zoals een blog. Als een blog bijvoorbeeld is geïnstalleerd op de server op `magento/blog` , kunt u de mapnaam `blog` invoeren als een relatief pad naar de selectie van pagina&#39;s. |
-   | [!UICONTROL CMS Home Page] | Winkelweergave | Als u de homepage voor de winkel wilt kiezen, selecteert u gewoon de CMS-pagina in de lijst. Standaard wordt op de CMS-startpagina de volledige selectie van CMS-pagina&#39;s weergegeven die beschikbaar zijn voor uw winkel. |
+   | [!UICONTROL CMS Home Page] | Winkelweergave | Als u de homepage voor de winkel wilt kiezen, selecteert u gewoon de CMS-pagina in de lijst. Standaard wordt op de startpagina van CMS de volledige selectie van CMS-pagina&#39;s weergegeven die beschikbaar zijn voor je winkel. |
    | [!UICONTROL Default No-route URL] | Winkelweergave | Bevat de URL van de standaardpagina die u wilt weergeven wanneer een fout `404 Page not Found` optreedt. De standaardwaarde is `cms/noroute/index` . |
    | [!UICONTROL CMS No Route Page] | Winkelweergave | Hiermee wordt een specifieke CMS-pagina aangegeven die moet worden weergegeven wanneer een fout van 404 pagina niet gevonden optreedt. De standaardpagina is `404 Not Found` . |
    | [!UICONTROL CMS No Cookies Page] | Winkelweergave | Hiermee wordt een specifieke CMS-pagina aangegeven die wordt weergegeven wanneer cookies niet zijn ingeschakeld voor de browser. Op de pagina wordt uitgelegd waarom cookies worden gebruikt en hoe u deze voor elke browser inschakelt. De standaardpagina is `Enable Cookies` . |
-   | [!UICONTROL Show Breadcrumbs for CMS Pages] | Winkelweergave | Hiermee wordt bepaald of een breedbandtrail op alle CMS-pagina&#39;s in de catalogus wordt weergegeven. Opties: `Yes` / `No` |
+   | [!UICONTROL Show Breadcrumbs for CMS Pages] | Winkelweergave | Hiermee wordt bepaald of een broodkruimelspoor op alle CMS-pagina&#39;s in de catalogus wordt weergegeven. Opties: `Yes` / `No` |
 
    {style="table-layout:auto"}
 
@@ -87,7 +88,7 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
 
    >[!NOTE]
    >
-   >Voor een specifieke opslagweergave schakelt u het selectievakje **[!UICONTROL Use Default]** naast _[!UICONTROL Default Web URL]_&#x200B;uit en eventuele andere standaardinstellingen die moeten worden gewijzigd.
+   >Voor een specifieke opslagweergave schakelt u het selectievakje **[!UICONTROL Use Default]** naast _[!UICONTROL Default Web URL]_uit en eventuele andere standaardinstellingen die moeten worden gewijzigd.
 
 1. Stel **[!UICONTROL CMS Home Page]** in op de CMS-pagina die u als startpagina wilt gebruiken. Andere gemaakte pagina&#39;s kunnen als de homepage worden gebruikt, zoals:
 
@@ -103,7 +104,7 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
 
    De standaardwaarde is `cms/index/noRoute` .
 
-1. Plaats **[!UICONTROL CMS No Route Page]** aan de CMS pagina die verschijnt wanneer a _404 Pagina niet gevonden_ fout voorkomt.
+1. Plaats **[!UICONTROL CMS No Route Page]** aan de pagina van CMS die verschijnt wanneer a _404 pagina niet gevonden_ fout voorkomt.
 
 1. Stel **[!UICONTROL CMS No Cookies Page]** in op de CMS-pagina die wordt weergegeven wanneer cookies zijn uitgeschakeld in de browser. Op de pagina wordt uitgelegd waarom cookies worden gebruikt en hoe u deze voor elke browser inschakelt. De standaardpagina is `Enable Cookies` .
 

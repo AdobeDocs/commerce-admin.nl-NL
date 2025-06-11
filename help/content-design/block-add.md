@@ -2,16 +2,17 @@
 title: Inhoudsblokken toevoegen
 description: Maak aangepaste blokken inhoud die u op elke pagina of in een ander blok kunt hergebruiken.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # Inhoudsblokken toevoegen
 
-U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [ basiscontroles ](pages-workspace.md) zoals de _3&rbrace; werkruimte van Pagina&#39;s &lbrace;om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [ gebruiken Widget ](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
+U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [ basiscontroles ](pages-workspace.md) zoals de _3} werkruimte van Pagina&#39;s {om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [ gebruiken Widget ](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
 
 ![ de pagina van Blokken toont een net van bestaande blokken ](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 

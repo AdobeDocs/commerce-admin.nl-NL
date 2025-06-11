@@ -2,16 +2,17 @@
 title: Een widget gebruiken om een blok te plaatsen
 description: Leer hoe u een statische blokwidget kunt gebruiken om een bestaande inhoud vrijwel overal in uw winkel te plaatsen.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Een widget gebruiken om een blok te plaatsen
 
-Het _Statische Blok CMS_ [ widget ](widgets.md) geeft u de capaciteit om een bestaand [ inhoudsblok ](blocks.md) bijna overal in uw opslag te plaatsen.
+De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een bestaand [ inhoudsblok ](blocks.md) bijna overal in uw opslag te plaatsen.
 
 ![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
 
@@ -43,7 +44,7 @@ Het _Statische Blok CMS_ [ widget ](widgets.md) geeft u de capaciteit om een bes
 
 ## Stap 2: De updates van de widgetlay-out voltooien
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
 
 1. Stel **[!UICONTROL Display On]** in op de categorie, het product of de pagina waar u het blok wilt weergeven.
 
