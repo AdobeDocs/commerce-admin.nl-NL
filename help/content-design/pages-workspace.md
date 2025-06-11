@@ -80,7 +80,7 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 ## Pagina zoeken
 
-U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [ filter ](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
+U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [ filter ](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
 
 ### Zoeken op trefwoord
 
@@ -140,7 +140,7 @@ U kunt pagina&#39;s bewerken, uitschakelen, inschakelen en verwijderen. Als u ee
 
 ### Eén actie
 
-Gebruik de kolom _[!UICONTROL Action]_helemaal rechts om een van de volgende handelingen toe te passen op de afzonderlijke pagina:
+Gebruik de kolom _[!UICONTROL Action]_&#x200B;helemaal rechts om een van de volgende handelingen toe te passen op de afzonderlijke pagina:
 
 - [!UICONTROL Edit] - Hiermee wordt de pagina geopend in de bewerkingsmodus
 - [!UICONTROL Delete] - hiermee wordt de pagina verwijderd (moet worden bevestigd)
@@ -150,7 +150,7 @@ Gebruik de kolom _[!UICONTROL Action]_helemaal rechts om een van de volgende han
 
 ### Handelingen Massa
 
-Pas een van de volgende handelingen tegelijkertijd toe op meerdere geselecteerde pagina&#39;s met de kiezer van _[!UICONTROL Action]_in de linkerbovenhoek:
+Pas een van de volgende handelingen tegelijkertijd toe op meerdere geselecteerde pagina&#39;s met de kiezer van _[!UICONTROL Action]_&#x200B;in de linkerbovenhoek:
 
 - [!UICONTROL Delete] - verwijdert de pagina&#39;s (moet worden bevestigd)
 - [!UICONTROL Disable] - Schakelt de pagina&#39;s op de winkelvoorgrond uit

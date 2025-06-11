@@ -44,7 +44,7 @@ De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een 
 
 ## Stap 2: De updates van de widgetlay-out voltooien
 
-1. Klik in de sectie _[!UICONTROL Layout Updates]_op **[!UICONTROL Add Layout Update]**.
+1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
 
 1. Stel **[!UICONTROL Display On]** in op de categorie, het product of de pagina waar u het blok wilt weergeven.
 

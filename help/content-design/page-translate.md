@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een inhoudspagina vertalen
 
-Als uw opslag veelvoudige meningen in verschillende [ talen ](../stores-purchase/store-localize.md) heeft, en u hebt de scène voor elke mening aan een verschillende taal geplaatst, is het resultaat een gedeeltelijk vertaalde plaats. De volgende stap bestaat uit het maken van een vertaalde versie van elke pagina die beschikbaar is in de specifieke winkelweergave. De kolom [!UICONTROL Store View] van de lijst _[!UICONTROL Manage Pages]_toont elke mening die een vertaalde versie van de pagina heeft.
+Als uw opslag veelvoudige meningen in verschillende [ talen ](../stores-purchase/store-localize.md) heeft, en u hebt de scène voor elke mening aan een verschillende taal geplaatst, is het resultaat een gedeeltelijk vertaalde plaats. De volgende stap bestaat uit het maken van een vertaalde versie van elke pagina die beschikbaar is in de specifieke winkelweergave. De kolom [!UICONTROL Store View] van de lijst _[!UICONTROL Manage Pages]_&#x200B;toont elke mening die een vertaalde versie van de pagina heeft.
 
 Als u een inhoudspagina wilt vertalen, moet u een andere pagina maken die dezelfde URL-sleutel heeft als het origineel, maar die is toegewezen aan de specifieke opslagweergave. Werk vervolgens de pagina voor de specifieke weergave bij met de vertaalde tekst. Het volgende voorbeeld toont hoe te om tot een vertaalde versie van _Ongeveer de pagina van ons_ voor de Spaanse opslagmening te leiden.
 
@@ -26,7 +26,7 @@ Als u een inhoudspagina wilt vertalen, moet u een andere pagina maken die dezelf
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit en kopieer **[!UICONTROL URL Key]** aan het klembord.
 
-1. Als u wilt terugkeren naar het _[!UICONTROL Pages]_-raster, klikt u op **[!UICONTROL Back]**in de bovenste knopbalk.
+1. Als u wilt terugkeren naar het _[!UICONTROL Pages]_-raster, klikt u op **[!UICONTROL Back]**&#x200B;in de bovenste knopbalk.
 
 ## Stap 2: Een pagina toevoegen voor de vertaalde inhoud
 

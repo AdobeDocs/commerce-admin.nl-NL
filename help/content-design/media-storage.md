@@ -29,7 +29,7 @@ De eerste twee stappen zijn hetzelfde als wanneer u een afbeelding invoegt.
 
    ![ pictogram van het Beeld van het Tussenvoegsel ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_&#x200B;geopend.
 
 1. Na _[!UICONTROL Source]_, klik het_ Onderzoek _pictogram (![ pictogram van het Onderzoek ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 

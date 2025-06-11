@@ -23,7 +23,7 @@ Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met ee
 
 ## Een dynamisch blok koppelen aan een prijsregel
 
-1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_en kies één van het volgende:
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;en kies één van het volgende:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

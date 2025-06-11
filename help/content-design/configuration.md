@@ -28,7 +28,7 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
 
    Als geen thema wordt gespecificeerd, wordt het systeemstandaardthema gebruikt. Sommige externe extensies wijzigen het standaardthema van het systeem.
 
-1. [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} als het thema voor slechts een specifiek apparaat moet worden gebruikt, plaats **[!UICONTROL User Agent Rules]**.
+1. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} als het thema voor slechts een specifiek apparaat moet worden gebruikt, plaats **[!UICONTROL User Agent Rules]**.
 
    ![ Gebruiker-Agent Regels ](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -38,7 +38,7 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
 
    - Voer bij **[!UICONTROL Search String]** de browser-id voor het specifieke apparaat in.
 
-     Een onderzoekskoord kan of een normale uitdrukking of Perl Compatible Regular Uitdrukking (PCRE) (zie {de Agent van de Gebruiker 1} voor meer informatie) zijn. [](https://en.wikipedia.org/wiki/User_agent) De volgende zoekreeks identificeert Firefox:
+     Een onderzoekskoord kan of een normale uitdrukking of Perl Compatible Regular Uitdrukking (PCRE) (zie {de Agent van de Gebruiker 1} voor meer informatie) zijn. [&#128279;](https://en.wikipedia.org/wiki/User_agent) De volgende zoekreeks identificeert Firefox:
 
          /^mozilla/i
      
@@ -48,13 +48,13 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
    >
    >U kunt zoveel regels toevoegen voor de apparaten die u wilt aanwijzen. De zoekreeksen komen overeen in de volgorde waarin ze worden ingevoerd.
 
-1. Vouw onder _[!UICONTROL Other Settings]_elke sectie uit en volg de instructies in de gekoppelde onderwerpen om de instellingen naar wens te bewerken.
+1. Vouw onder _[!UICONTROL Other Settings]_&#x200B;elke sectie uit en volg de instructies in de gekoppelde onderwerpen om de instellingen naar wens te bewerken.
 
-   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-   - [[!UICONTROL HTML Head]](page-setup.md#html-head) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-   - [[!UICONTROL Header]](page-setup.md#header) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-   - [[!UICONTROL Footer]](page-setup.md#footer) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+   - [[!UICONTROL HTML Head]](page-setup.md#html-head) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+   - [[!UICONTROL Header]](page-setup.md#header) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+   - [[!UICONTROL Footer]](page-setup.md#footer) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 

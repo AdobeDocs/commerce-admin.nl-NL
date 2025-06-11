@@ -27,7 +27,7 @@ Het het onderzoekspaneel van Adobe Stock is toegankelijk wanneer u [ toevoegt of
 
 1. Klik op **[!UICONTROL Add a New Page]**.
 
-   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
+   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_&#x200B;en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en doe het volgende:
 
@@ -47,7 +47,7 @@ Het het onderzoekspaneel van Adobe Stock is toegankelijk wanneer u [ toevoegt of
 
    Als u de afbeelding wilt toevoegen aan een bestaande categorie, klikt u op de categorienaam in de lijst aan de linkerkant.
 
-1. Vouw de sectie **[!UICONTROL Content]** uit en klik onder _[!UICONTROL Category Image]_click **[!UICONTROL Select from Gallery]**.
+1. Vouw de sectie **[!UICONTROL Content]** uit en klik onder _[!UICONTROL Category Image]_&#x200B;click **[!UICONTROL Select from Gallery]**.
 
 1. Klik op **[!UICONTROL Search Adobe Stock]**.
 

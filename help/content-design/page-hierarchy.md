@@ -28,7 +28,7 @@ Met de configuratie-instellingen activeert u het systeem en de metagegevens van 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** uit en breng om het even welke veranderingen aan die noodzakelijk zijn.
 
@@ -60,7 +60,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Klik boven het raster op **[!UICONTROL Add Node...]** .
 
-1. Voer onder _[!UICONTROL Page Properties]_een **[!UICONTROL Title]**voor het knooppunt en een geschikte **[!UICONTROL URL Key]**in.
+1. Voer onder _[!UICONTROL Page Properties]_&#x200B;een **[!UICONTROL Title]**&#x200B;voor het knooppunt en een geschikte **[!UICONTROL URL Key]**&#x200B;in.
 
    De URL-sleutel biedt een uniek webadres voor het knooppunt. Het moet allemaal kleine letters zijn. Gebruik afbreekstreepjes om woorden te scheiden in plaats van spaties.
 
@@ -86,7 +86,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Klik op het knooppunt boven in de hiërarchie.
 
-   In de sectie _[!UICONTROL Page Properties]_wordt nu informatie over het knooppunt weergegeven.
+   In de sectie _[!UICONTROL Page Properties]_&#x200B;wordt nu informatie over het knooppunt weergegeven.
 
 1. Voer onder **[!UICONTROL Render Metadata in HTML Head]** de volgende handelingen uit:
 

@@ -25,7 +25,7 @@ In de demo-store van [!DNL Commerce] staan voorbeelden van de belangrijkste inho
 
 ### Home
 
-De demo [ 1} pagina van het Huis {omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
+De demo [ 1&rbrace; pagina van het Huis &lbrace;omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
 
 ### Privacybeleid
 
@@ -65,7 +65,7 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit.
 
@@ -88,7 +88,7 @@ De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met
 
    >[!NOTE]
    >
-   >Voor een specifieke opslagweergave schakelt u het selectievakje **[!UICONTROL Use Default]** naast _[!UICONTROL Default Web URL]_uit en eventuele andere standaardinstellingen die moeten worden gewijzigd.
+   >Voor een specifieke opslagweergave schakelt u het selectievakje **[!UICONTROL Use Default]** naast _[!UICONTROL Default Web URL]_&#x200B;uit en eventuele andere standaardinstellingen die moeten worden gewijzigd.
 
 1. Stel **[!UICONTROL CMS Home Page]** in op de CMS-pagina die u als startpagina wilt gebruiken. Andere gemaakte pagina&#39;s kunnen als de homepage worden gebruikt, zoals:
 

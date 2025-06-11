@@ -46,7 +46,7 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
 
 1. Voer in het vak **[!UICONTROL Content Heading]** de kop in die u boven aan de pagina wilt weergeven.
 
-   Indien toegelaten, verschijnen het ](../page-builder/introduction.md) stadium en het paneel van de Bouwer van de Pagina 0} {onder de Kop van de Inhoud. [ Voor meer informatie, zie [ Workspace ](../page-builder/workspace.md). Als _de Bouwer van de Pagina_ niet wordt toegelaten, opent de redacteur op de wijze van WYSIWYG met de toolbar bij de bovenkant.
+   Indien toegelaten, verschijnen het [&#128279;](../page-builder/introduction.md) stadium en het paneel van de Bouwer van de Pagina 0&rbrace; &lbrace;onder de Kop van de Inhoud.  Voor meer informatie, zie [ Workspace ](../page-builder/workspace.md). Als _de Bouwer van de Pagina_ niet wordt toegelaten, opent de redacteur op de wijze van WYSIWYG met de toolbar bij de bovenkant.
 
 1. Vul de inhoud in en maak de tekst zo nodig op.
 
@@ -152,7 +152,7 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
 
 ### Stap 8: De pagina publiceren
 
-1. Selecteer **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_van het raster.
+1. Selecteer **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_&#x200B;van het raster.
 
 1. Stel **[!UICONTROL Enable Page]** in op `Yes` .
 
@@ -207,7 +207,7 @@ Elke inhoudspagina kan als een sjabloon worden gebruikt en als een duplicaat wor
 
 ## Een pagina verwijderen
 
-Er zijn twee manieren om een gemaakte pagina te verwijderen. U kunt het verwijderen uit het raster _[!UICONTROL Pages]_of uit de pagina_[!UICONTROL Edit]_ .
+Er zijn twee manieren om een gemaakte pagina te verwijderen. U kunt het verwijderen uit het raster _[!UICONTROL Pages]_&#x200B;of uit de pagina&#x200B;_[!UICONTROL Edit]_ .
 
 ### Methode 1: Een pagina verwijderen uit het raster Pagina&#39;s
 
@@ -225,7 +225,7 @@ Er zijn twee manieren om een gemaakte pagina te verwijderen. U kunt het verwijde
 
 1. De pagina zoeken die moet worden verwijderd.
 
-1. Klik in de kolom _[!UICONTROL Actions]_voor de pagina-entiteit op **[!UICONTROL Select]**en kies **[!UICONTROL Edit]**.
+1. Klik in de kolom _[!UICONTROL Actions]_&#x200B;voor de pagina-entiteit op **[!UICONTROL Select]**&#x200B;en kies **[!UICONTROL Edit]**.
 
 1. Klik in de knopbalk op **[!UICONTROL Delete Page]** .
 

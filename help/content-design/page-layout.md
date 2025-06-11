@@ -22,7 +22,7 @@ Voor de pagina, drijven de inhoudsblokken om de beschikbare ruimte te vullen, vo
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Layouts]** sectie uit.
 
@@ -75,7 +75,7 @@ Voor de pagina, drijven de inhoudsblokken om de beschikbare ruimte te vullen, vo
 
    Wanneer [ de Bouwer van de Pagina ](../page-builder/introduction.md) wordt toegelaten, zijn er extra beschikbare volledige breedteopties. Vervolgens kunt u de gereedschappen voor pagina Builder-inhoud gebruiken om de lay-out voor uw CMS-pagina&#39;s te ontwerpen.
 
-   - `Page -- Full Width` - (Geadviseerd) gebruikt de _Pagina - Volledige 2} lay-out van de Breedte voor de pagina&#39;s van CMS._
+   - `Page -- Full Width` - (Geadviseerd) gebruikt de _Pagina - Volledige 2&rbrace; lay-out van de Breedte voor de pagina&#39;s van CMS._
    - `Category - Full Width` - gebruikt de _Categorie - Volledige lay-out van de Breedte_ voor de pagina&#39;s van CMS.
    - `Product - Full Width` - gebruikt het _Product - Volledige lay-out van de Breedte_ voor de pagina&#39;s van CMS.
 
@@ -87,13 +87,13 @@ Voor de pagina, drijven de inhoudsblokken om de beschikbare ruimte te vullen, vo
 
 ![ Diagram - één-kolomlay-out ](./assets/layout-1-col-th.png){zoomable="yes"}
 
-De lay-out _[!UICONTROL 1 Column]_kan worden gebruikt om een dramatische homepage met een groot beeld of brandpunt tot stand te brengen. Het is ook een goede keuze voor een openingspagina of een andere pagina met een combinatie van tekst, afbeeldingen en video.
+De lay-out _[!UICONTROL 1 Column]_&#x200B;kan worden gebruikt om een dramatische homepage met een groot beeld of brandpunt tot stand te brengen. Het is ook een goede keuze voor een openingspagina of een andere pagina met een combinatie van tekst, afbeeldingen en video.
 
 ### Twee kolommen met linkerbalk
 
 ![ Diagram - twee-kolomlay-out met linkerbar ](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-De indeling _[!UICONTROL 2 Columns with Left Bar]_wordt vaak gebruikt voor pagina&#39;s met navigatie aan de linkerkant, zoals een catalogus of pagina&#39;s met zoekresultaten met gelaagde navigatie. Het is ook een uitstekende keuze voor homepages die extra navigatie of blokken ondersteunende inhoud links nodig hebben.
+De indeling _[!UICONTROL 2 Columns with Left Bar]_&#x200B;wordt vaak gebruikt voor pagina&#39;s met navigatie aan de linkerkant, zoals een catalogus of pagina&#39;s met zoekresultaten met gelaagde navigatie. Het is ook een uitstekende keuze voor homepages die extra navigatie of blokken ondersteunende inhoud links nodig hebben.
 
 ### Twee kolommen met rechterbalk
 
@@ -105,10 +105,10 @@ Met een _[!UICONTROL 2 Columns with Right Bar]_-lay-out is het hoofdinhoudsgebie
 
 ![ Diagram - drie-kolomlay-out ](./assets/layout-3-col-th.png){zoomable="yes"}
 
-De lay-out _[!UICONTROL 3 Column]_heeft een middenkolom die breed genoeg is voor de hoofdtekst van de pagina, met ruimte aan elke kant voor extra navigatie en blokken met ondersteunende inhoud.
+De lay-out _[!UICONTROL 3 Column]_&#x200B;heeft een middenkolom die breed genoeg is voor de hoofdtekst van de pagina, met ruimte aan elke kant voor extra navigatie en blokken met ondersteunende inhoud.
 
 ### Leeg
 
 ![ Diagram - lege lay-out ](./assets/layout-blank-th.png){zoomable="yes"}
 
-De lay-out _[!UICONTROL Empty]_kan worden gebruikt om aangepaste paginalay-outs te definiëren.
+De lay-out _[!UICONTROL Empty]_&#x200B;kan worden gebruikt om aangepaste paginalay-outs te definiëren.

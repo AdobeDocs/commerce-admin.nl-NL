@@ -19,7 +19,7 @@ Met Adobe Commerce of Magento Open Source 2.4, kunnen de handelaren nieuwe _verb
 
 >[!NOTE]
 >
->Productafbeeldingen die worden toegevoegd aan de [_[!UICONTROL Images and Videos]_productsectie ](../catalog/product-image.md#upload-an-image) , worden niet beheerd door de [!DNL Media Gallery] . Alleen afbeeldingen die worden gebruikt in de velden van de productsectie van_[!UICONTROL Content]_ , worden weergegeven en gefilterd in de nieuwe [!DNL Media Gallery] .
+>Productafbeeldingen die worden toegevoegd aan de [_[!UICONTROL Images and Videos]_&#x200B;productsectie ](../catalog/product-image.md#upload-an-image) , worden niet beheerd door de [!DNL Media Gallery] . Alleen afbeeldingen die worden gebruikt in de velden van de productsectie van&#x200B;_[!UICONTROL Content]_ , worden weergegeven en gefilterd in de nieuwe [!DNL Media Gallery] .
 
 ## De nieuwe functie inschakelen [!DNL Media Gallery]
 
@@ -37,7 +37,7 @@ Met Adobe Commerce of Magento Open Source 2.4, kunnen de handelaren nieuwe _verb
 
 1. Klik op de koppeling **[!UICONTROL Cache Management]** in het systeembericht als daarom wordt gevraagd en vernieuw de ongeldige cache.
 
-   In het [[!UICONTROL Content] menu ](/help/content-design/content-menu.md) wordt nu de nieuwe optie _[!UICONTROL Media Gallery]_weergegeven.
+   In het [[!UICONTROL Content] menu ](/help/content-design/content-menu.md) wordt nu de nieuwe optie _[!UICONTROL Media Gallery]_&#x200B;weergegeven.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ De nieuwe medialerie openen wanneer u een pagina toevoegt of bewerkt:
 
 1. Klik op **[!UICONTROL Add a New Page]**.
 
-   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
+   Als u een bestaande pagina wilt bewerken, klikt u op de kolom _[!UICONTROL Action]_&#x200B;en kiest u **[!UICONTROL Edit]**.**[!UICONTROL Select]**
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit en doe het volgende:
 

@@ -111,13 +111,13 @@ De UI-component Productgegevens wordt automatisch toegevoegd op basis van de sja
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Optioneel. Als u goedgekeurde Commerce-elementen automatisch wilt synchroniseren terwijl deze naar de AEM Assets-omgeving worden geüpload, stelt u de standaardwaarde voor het veld _[!UICONTROL Review Status]_op de `Basic` tab in op `approved` .
+1. Optioneel. Als u goedgekeurde Commerce-elementen automatisch wilt synchroniseren terwijl deze naar de AEM Assets-omgeving worden geüpload, stelt u de standaardwaarde voor het veld _[!UICONTROL Review Status]_&#x200B;op de `Basic` tab in op `approved` .
 
 1. Sla de update op.
 
 #### Het metagegevensprofiel toepassen op de bronmap van Commerce-elementen
 
-1. Van de [!UICONTROL  Metadata Profiles] pagina, selecteer het de integratieprofiel van Commerce.
+1. Van de [!UICONTROL &#x200B; Metadata Profiles] pagina, selecteer het de integratieprofiel van Commerce.
 
 1. Selecteer **[!UICONTROL Apply Metadata Profiles to Folders]** in het menu Handeling.
 

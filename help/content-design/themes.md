@@ -53,7 +53,7 @@ Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor v
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Stel onder _[!UICONTROL Default Theme]_**[!UICONTROL Applied Theme]**in op de waarde die u voor de huidige weergave wilt gebruiken.
+1. Stel onder _[!UICONTROL Default Theme]_&#x200B;**[!UICONTROL Applied Theme]**&#x200B;in op de waarde die u voor de huidige weergave wilt gebruiken.
 
    ![ Toegepast Thema ](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor v
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Klik onder _[!UICONTROL Design Rule]_op **[!UICONTROL Add New User Agent Rule]**.
+1. Klik onder _[!UICONTROL Design Rule]_&#x200B;op **[!UICONTROL Add New User Agent Rule]**.
 
    ![ Regel van het Ontwerp ](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 
