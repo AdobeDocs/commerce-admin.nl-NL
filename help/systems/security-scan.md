@@ -4,16 +4,29 @@ description: Leer hoe u een uitgebreide beveiligingsscan uitvoert en elk van uw 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Beveiligingsscan
 
-Controleer uw Adobe Commerce- en Magento Open Source-sites op beveiligingsrisico&#39;s en malware en ontvang beveiligingsupdates en -meldingen.
+De Adobe Commerce Security Scan Tool biedt gratis beveiligingscontrole voor uw Adobe Commerce- en Magento Open Source-sites. Het hulpmiddel werkt als web-based dienst die u door uw online rekening van Adobe Commerce bij [ account.magento.com ](https://account.magento.com/customer/account/login) kunt toegang hebben.
+
+![ het Scannen van de Veiligheid Hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe biedt deze service zonder kosten, maar handelaren moeten voorwaarden accepteren die de aansprakelijkheid van Adobe beperken op basis van scanresultaten en siteconfiguratie.
+
+## Scandekking
+
+Het hulpmiddel van de Scannen van de Veiligheid werkt over zowel HTTP als protocollen HTTPS om malware te ontdekken, veiligheidskwetsbaarheid te identificeren, en u te helpen de veiligheidshouding van uw opslag handhaven. Het hulpmiddel is beschikbaar aan alle handelaren, ontwikkelaars, en aangewezen personeel verantwoordelijk voor plaatsveiligheid.
+
+Het hulpprogramma Beveiligingsscan biedt uitgebreide mogelijkheden voor beveiligingscontrole waarmee u een veilige opslagomgeving kunt onderhouden:
 
 - Verbeter insight in de beveiligingsstatus in real-time van je winkel.
 - Ontvang suggesties die op beste praktijken worden gebaseerd helpen kwesties oplossen.
@@ -22,11 +35,25 @@ Controleer uw Adobe Commerce- en Magento Open Source-sites op beveiligingsrisico
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+>[!NOTE]
+>
+>U kunt specifieke beveiligingstests niet uitsluiten van beveiligingsscans voor Adobe Commerce. Nochtans, kunt u in [ zelf-dienen die mislukkingen ](#manage-scan-failures) als vals positieven negeren als toepasselijk.
 
-![ het Scannen van de Veiligheid Hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Toegang
 
-## Een beveiligingsscan uitvoeren
+Met het hulpprogramma Beveiligingsscan blijven strikte toegangsinstellingen behouden om uw site-informatie te beschermen. Alleen u kunt uw site scannen, omdat de tool verificatie van de domeineigendom via uw Adobe Commerce-account vereist. Elke site maakt verbinding met uw account via een unieke token, waardoor ongeoorloofd scannen door derden wordt voorkomen.
+
+Het hulpmiddel concentreert zich specifiek op de domeinen van Adobe Commerce en hun veiligheidskwetsbaarheid. Uw webwinkel kan pagina&#39;s van andere platforms bevatten, maar het hulpprogramma Beveiligingsscan moet alleen door Adobe Commerce gegenereerde inhoud scannen om betrouwbare resultaten te garanderen. Het scannen van niet-Adobe Commerce-pagina&#39;s kan leiden tot onbetrouwbare kwetsbaarheidsbeoordelingen.
+
+## Een scan uitvoeren
+
+Tijdens het scanproces wordt uw site gecontroleerd op bekende beveiligingsproblemen en worden ontbrekende Adobe Commerce-patches en -updates geïdentificeerd die ervoor kunnen zorgen dat uw winkel kwetsbaar blijft voor aanvallen.
+
+>[!TIP]
+>
+>Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Een scan uitvoeren:
 
 1. Van de homepage van Commerce, teken binnen aan uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md).
 
@@ -37,7 +64,7 @@ Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van u
    1. Lees de **[!UICONTROL Terms and Conditions]** .
    1. Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -104,7 +131,7 @@ Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van u
 
          Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
@@ -159,7 +186,7 @@ Veelvoorkomende scenario&#39;s waarbij een scanfout als fout positief kan worden
 
 Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeerd als fout-positieven:
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL View Report]**&#x200B;voor de site die u wilt beheren.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL View Report]**voor de site die u wilt beheren.
 
 1. Zoek in de rapportweergave de mislukte scan die u als fout-positief wilt markeren.
 
@@ -169,7 +196,7 @@ Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeer
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_&#x200B;en wordt niet opgenomen in uw risicorescore.
+De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_en wordt niet opgenomen in uw risicorescore.
 
 ### Fouten met scannen stoppen
 
@@ -183,7 +210,7 @@ Voer de volgende stappen uit als u een eerder genegeerde scanfout moet herstelle
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_&#x200B;en wordt opgenomen in de risicorescore.
+De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_en wordt opgenomen in de risicorescore.
 
 ### Genegeerde scanfouten weergeven
 
