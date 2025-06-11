@@ -51,7 +51,7 @@ Tijdens het scanproces wordt uw site gecontroleerd op bekende beveiligingsproble
 
 >[!TIP]
 >
->Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Een scan uitvoeren:
 
