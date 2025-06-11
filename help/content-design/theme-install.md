@@ -3,7 +3,7 @@ title: Een nieuw thema installeren
 description: Meer informatie over het installeren van een nieuw thema voor uw Adobe Commerce- of Magento Open Source-winkel.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '166'
@@ -17,7 +17,7 @@ Wanneer u [!DNL Commerce] voor het eerst installeert, zijn de ontwerpelementen v
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) hebt.
+Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=nl-NL) hebt.
 
 Als u een thema wilt toevoegen aan uw [!DNL Commerce] -winkel, volgt u de instructies in [!DNL Commerce Marketplace] :
 

@@ -2,7 +2,7 @@
 title: Paginahiërarchie
 description: Leer hoe het systeem van de paginahiërarchie u de capaciteit geeft om uw inhoudspagina's te organiseren en paginering, navigatie, en menu's toe te voegen.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '953'

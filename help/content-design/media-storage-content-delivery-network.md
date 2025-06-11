@@ -4,7 +4,7 @@ description: Leer hoe u een CDN (Content Delivery Network) gebruikt om mediabest
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '416'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een netwerk voor inhoudslevering gebruiken
 
-U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
+U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
 
 Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijzigingen kunnen op globaal niveau of op het niveau van de website worden aangebracht. Wanneer een CDN wordt gebruikt voor mediaopslag, worden alle paden naar media op Commerce-winkelpagina&#39;s gewijzigd in de CDN-paden die in de configuratie zijn opgegeven.
 

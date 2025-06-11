@@ -3,7 +3,7 @@ title: Adobe Stock-afbeeldingen gebruiken
 description: Verbeter je winkelpagina's met afbeeldingen uit Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Elke afbeelding bevat details die u kunt weergeven. De extra beeld-specifieke ac
 
 ## Aanmelden bij uw Adobe-account
 
-Om volledige toegang tot een beeld te verkrijgen en het watermerk van Adobe Stock te elimineren, moet u [ binnen met een rekening van Adobe ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) ondertekenen en kredieten aan vergunningsrechten kopen om een beeld te gebruiken.
+Om volledige toegang tot een beeld te verkrijgen en het watermerk van Adobe Stock te elimineren, moet u [ binnen met een rekening van Adobe ](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html) ondertekenen en kredieten aan vergunningsrechten kopen om een beeld te gebruiken.
 
 1. [ heb toegang tot het net van het Onderzoek van Adobe Stock ](#access-the-adobe-stock-search-grid).
 
 1. Klik op **[!UICONTROL Sign In]** rechtsboven.
 
-   Een nieuw browser venstergidsen u door het [ Adobe login proces ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Een nieuw browser venstergidsen u door het [ Adobe login proces ](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html).
 
    Nadat u het aanmeldingsproces hebt voltooid, wordt de gelicentieerde status van afbeeldingen in de zoekresultaten weergegeven als een label.
 
@@ -179,7 +179,7 @@ Adobe Stock-elementen die u voor uw [!DNL Commerce] -productiewinkels wilt gebru
 
      >[!NOTE]
      >
-     >U moet beschikbare [ credits van Adobe Stock ](https://helpx.adobe.com/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
+     >U moet beschikbare [ credits van Adobe Stock ](https://helpx.adobe.com/nl/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
 
    Deze actie toont een herinnering voor u om een dossier te specificeren - naam die wordt gebruikt om het beeld aan de [ media opslag ](media-storage.md) te bewaren. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 
