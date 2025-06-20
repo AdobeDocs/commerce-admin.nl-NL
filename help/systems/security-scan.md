@@ -4,9 +4,9 @@ description: Leer hoe u een uitgebreide beveiligingsscan uitvoert en elk van uw 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
+source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,25 @@ Met het hulpprogramma Beveiligingsscan blijven strikte toegangsinstellingen beho
 
 Het hulpmiddel concentreert zich specifiek op de domeinen van Adobe Commerce en hun veiligheidskwetsbaarheid. Uw webwinkel kan pagina&#39;s van andere platforms bevatten, maar het hulpprogramma Beveiligingsscan moet alleen door Adobe Commerce gegenereerde inhoud scannen om betrouwbare resultaten te garanderen. Het scannen van niet-Adobe Commerce-pagina&#39;s kan leiden tot onbetrouwbare kwetsbaarheidsbeoordelingen.
 
+>[!NOTE]
+>
+>Het hulpmiddel van het veiligheidsaftasten gebruikt de volgende openbare IP adressen:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Voeg deze IP adressen aan een lijst van gewenste personen in uw regels van de netwerkfirewall toe om het hulpmiddel toe te staan om uw plaats af te tasten. Met dit gereedschap kunt u aanvragen naar poorten `80` en `443` verzenden.
+
 ## Een scan uitvoeren
 
 Tijdens het scanproces wordt uw site gecontroleerd op bekende beveiligingsproblemen en worden ontbrekende Adobe Commerce-patches en -updates geïdentificeerd die ervoor kunnen zorgen dat uw winkel kwetsbaar blijft voor aanvallen.
 
 >[!TIP]
 >
->Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Een scan uitvoeren:
 
@@ -64,7 +76,7 @@ Een scan uitvoeren:
    1. Lees de **[!UICONTROL Terms and Conditions]** .
    1. Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -131,7 +143,7 @@ Een scan uitvoeren:
 
          Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
@@ -186,7 +198,7 @@ Veelvoorkomende scenario&#39;s waarbij een scanfout als fout positief kan worden
 
 Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeerd als fout-positieven:
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL View Report]**&#x200B;voor de site die u wilt beheren.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL View Report]**voor de site die u wilt beheren.
 
 1. Zoek in de rapportweergave de mislukte scan die u als fout-positief wilt markeren.
 
@@ -196,7 +208,7 @@ Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeer
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_&#x200B;en wordt niet opgenomen in uw risicorescore.
+De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_en wordt niet opgenomen in uw risicorescore.
 
 ### Fouten met scannen stoppen
 
@@ -210,7 +222,7 @@ Voer de volgende stappen uit als u een eerder genegeerde scanfout moet herstelle
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_&#x200B;en wordt opgenomen in de risicorescore.
+De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_en wordt opgenomen in de risicorescore.
 
 ### Genegeerde scanfouten weergeven
 
