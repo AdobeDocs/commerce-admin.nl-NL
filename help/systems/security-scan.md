@@ -80,7 +80,7 @@ Een scan uitvoeren:
    1. Lees de **[!UICONTROL Terms and Conditions]** .
    1. Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -147,7 +147,7 @@ Een scan uitvoeren:
 
          Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
@@ -202,7 +202,7 @@ Veelvoorkomende scenario&#39;s waarbij een scanfout als fout positief kan worden
 
 Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeerd als fout-positieven:
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL View Report]**voor de site die u wilt beheren.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL View Report]**&#x200B;voor de site die u wilt beheren.
 
 1. Zoek in de rapportweergave de mislukte scan die u als fout-positief wilt markeren.
 
@@ -212,7 +212,7 @@ Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeer
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_en wordt niet opgenomen in uw risicorescore.
+De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_&#x200B;en wordt niet opgenomen in uw risicorescore.
 
 ### Fouten met scannen stoppen
 
@@ -226,7 +226,7 @@ Voer de volgende stappen uit als u een eerder genegeerde scanfout moet herstelle
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_en wordt opgenomen in de risicorescore.
+De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_&#x200B;en wordt opgenomen in de risicorescore.
 
 ### Genegeerde scanfouten weergeven
 
