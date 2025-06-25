@@ -52,7 +52,7 @@ Het hulpmiddel concentreert zich specifiek op de domeinen van Adobe Commerce en 
 
 ## Toegang tot scanresultaten
 
-De scanresultaten zijn alleen toegankelijk voor de gebruiker die de scan oorspronkelijk heeft ingesteld. Als u resultaten met anderen wilt delen, moet de oorspronkelijke gebruiker het PDF-rapport handmatig verspreiden. Alternatief, kan een opslageigenaar bijdragen met een andere MAGEID delen gebruikend de [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) functionaliteit. Andere individuen kunnen ook scans op hun eigen rekeningen in werking stellen. Tijdens het instellen van een scan kunt u een lijst met e-mailadressen met komma&#39;s als scheidingsteken opgeven om meldingen van voltooide scans en een bepaald risiconiveau te ontvangen.
+De scanresultaten zijn alleen toegankelijk voor de gebruiker die de scan oorspronkelijk heeft ingesteld. Als u resultaten met anderen wilt delen, moet de oorspronkelijke gebruiker het PDF-rapport handmatig verspreiden. Alternatief, kan een opslageigenaar bijdragen met een andere MAGEID delen gebruikend de [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share) functionaliteit. Andere individuen kunnen ook scans op hun eigen rekeningen in werking stellen. Tijdens het instellen van een scan kunt u een lijst met e-mailadressen met komma&#39;s als scheidingsteken opgeven om meldingen van voltooide scans en een bepaald risiconiveau te ontvangen.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Tijdens het scanproces wordt uw site gecontroleerd op bekende beveiligingsproble
 
 >[!TIP]
 >
->Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Een scan uitvoeren:
 
