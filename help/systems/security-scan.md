@@ -4,9 +4,9 @@ description: Leer hoe u een uitgebreide beveiligingsscan uitvoert en elk van uw 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Het hulpprogramma Beveiligingsscan biedt uitgebreide mogelijkheden voor beveilig
 
 >[!NOTE]
 >
->U kunt specifieke beveiligingstests niet uitsluiten van beveiligingsscans voor Adobe Commerce. Nochtans, kunt u in [ zelf-dienen die mislukkingen ](#manage-scan-failures) als vals positieven negeren als toepasselijk.
+>U kunt niet uitsluiten dat bepaalde beveiligingstests worden uitgevoerd, maar u kunt de mislukte controles wel verplaatsen naar de categorie **[!UICONTROL Ignored Results]** . Zie [ aftastenmislukkingen ](#manage-scan-failures) voor details beheren.
 
 ## Toegang
 
 Met het hulpprogramma Beveiligingsscan blijven strikte toegangsinstellingen behouden om uw site-informatie te beschermen. Alleen u kunt uw site scannen, omdat de tool verificatie van de domeineigendom via uw Adobe Commerce-account vereist. Elke site maakt verbinding met uw account via een unieke token, waardoor ongeoorloofd scannen door derden wordt voorkomen.
 
 Het hulpmiddel concentreert zich specifiek op de domeinen van Adobe Commerce en hun veiligheidskwetsbaarheid. Uw webwinkel kan pagina&#39;s van andere platforms bevatten, maar het hulpprogramma Beveiligingsscan moet alleen door Adobe Commerce gegenereerde inhoud scannen om betrouwbare resultaten te garanderen. Het scannen van niet-Adobe Commerce-pagina&#39;s kan leiden tot onbetrouwbare kwetsbaarheidsbeoordelingen.
+
+
+## Toegang tot scanresultaten
+
+De scanresultaten zijn alleen toegankelijk voor de gebruiker die de scan oorspronkelijk heeft ingesteld. Als u resultaten met anderen wilt delen, moet de oorspronkelijke gebruiker het PDF-rapport handmatig verspreiden. Alternatief, kan een opslageigenaar bijdragen met een andere MAGEID delen gebruikend de [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) functionaliteit. Andere individuen kunnen ook scans op hun eigen rekeningen in werking stellen. Tijdens het instellen van een scan kunt u een lijst met e-mailadressen met komma&#39;s als scheidingsteken opgeven om meldingen van voltooide scans en een bepaald risiconiveau te ontvangen.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Het hulpmiddel concentreert zich specifiek op de domeinen van Adobe Commerce en 
 >
 >Voeg deze IP adressen aan een lijst van gewenste personen in uw regels van de netwerkfirewall toe om het hulpmiddel toe te staan om uw plaats af te tasten. Met dit gereedschap kunt u aanvragen naar poorten `80` en `443` verzenden.
 
+
 ## Een scan uitvoeren
 
 Tijdens het scanproces wordt uw site gecontroleerd op bekende beveiligingsproblemen en worden ontbrekende Adobe Commerce-patches en -updates geïdentificeerd die ervoor kunnen zorgen dat uw winkel kwetsbaar blijft voor aanvallen.
 
 >[!TIP]
 >
->Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Voor Commerce op de projecten van de wolkeninfrastructuur, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Een scan uitvoeren:
 
@@ -80,7 +87,7 @@ Een scan uitvoeren:
    1. Lees de **[!UICONTROL Terms and Conditions]** .
    1. Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -147,7 +154,7 @@ Een scan uitvoeren:
 
          Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
@@ -191,18 +198,20 @@ Als u scanfouten beheert, kunt u een nauwkeuriger beveiligingsoverzicht van uw w
 - Het wegnemen van de noodzaak om contact op te nemen met ondersteuning voor bekende valse positieven.
 - U bespaart tijd door zelf scanfouten te beheren die u al hebt onderzocht.
 
-Veelvoorkomende scenario&#39;s waarbij een scanfout als fout positief kan worden gemarkeerd, zijn:
+### Voorbeelden van geldige scenario&#39;s voor het negeren van scanfouten
 
 - Wanneer u al een beveiligingspatch hebt aangebracht die het scangereedschap niet heeft gedetecteerd.
-- Wanneer een gedetecteerde uitgave niet van toepassing is op uw specifieke opslagconfiguratie.
-- Wanneer u een alternatieve veiligheidsmaatregel hebt uitgevoerd die de zorg richt.
+- Wanneer een gedetecteerde uitgave niet van toepassing is op uw specifieke winkelconfiguratie (bijvoorbeeld aangepaste gebruikersaanmelding en registratiepagina&#39;s).
+- Wanneer u een alternatieve veiligheidsmaatregel hebt uitgevoerd die de zorg (b.v., de Firewall van de Toepassing van het Web) richt.
 - Wanneer de aftastenmislukking op een configuratie gebaseerd is die u opzettelijk voor uw bedrijfsbehoeften hebt geplaatst.
+- Wanneer u opzettelijk JavaScript-code van derden gebruikt die de controle mislukt door codeverduistering en/of codering.
+
 
 ### Fouten met scannen negeren
 
 Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeerd als fout-positieven:
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL View Report]**&#x200B;voor de site die u wilt beheren.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL View Report]**voor de site die u wilt beheren.
 
 1. Zoek in de rapportweergave de mislukte scan die u als fout-positief wilt markeren.
 
@@ -212,7 +221,7 @@ Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeer
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_&#x200B;en wordt niet opgenomen in uw risicorescore.
+De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_en wordt niet opgenomen in uw risicorescore.
 
 ### Fouten met scannen stoppen
 
@@ -226,7 +235,7 @@ Voer de volgende stappen uit als u een eerder genegeerde scanfout moet herstelle
 
 1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
 
-De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_&#x200B;en wordt opgenomen in de risicorescore.
+De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_en wordt opgenomen in de risicorescore.
 
 ### Genegeerde scanfouten weergeven
 
