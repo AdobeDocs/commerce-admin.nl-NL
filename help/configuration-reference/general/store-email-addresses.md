@@ -18,7 +18,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 
 ## [!UICONTROL General]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 ![ E-mailadressen van de opslag > Algemene Contact ](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
