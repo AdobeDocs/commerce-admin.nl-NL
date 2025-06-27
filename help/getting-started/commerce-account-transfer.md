@@ -3,26 +3,26 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 9daf227e52c8f225e957ee5009d0d0a02815d835
+source-git-commit: e44ebfab5b9505098405b005051f110b689c3f4f
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1035'
 ht-degree: 1%
 
 ---
 
 # Een Commerce-account overmaken
 
-Als uw zakelijke verantwoordelijkheden veranderen, moet u mogelijk het eigendom van uw bestaande Commerce-account overdragen aan een nieuwe eigenaar of een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
+Als de zakelijke verantwoordelijkheden veranderen, moet u mogelijk uw Commerce-account overdragen naar een nieuwe eigenaar of naar een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
 
-De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [ gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
+De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [ gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
 
 >[!IMPORTANT]
 >
->Als de nieuwe accounteigenaar oorspronkelijk extensies had aangeschaft met Gedeelde toegang, gaan deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [ terugwint hun rekening van de Marketplace ](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [ team van de Marketplace ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
+>Als de nieuwe accounteigenaar extensies heeft aangeschaft met Gedeelde toegang, gaat de toegang tot deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [ terugwint hun rekening van de Marketplace ](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [ team van de Marketplace ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
 
 ## Identificeer uw overdrachtstype
 
-Hoe u deze overdracht voltooit, hangt af van welke van de volgende scenario&#39;s uw situatie als huidige eigenaar van de rekening en de nieuwe eigenaar (e-mailadres) beschrijft aan wie u de rekening wilt overbrengen:
+Het type Commerce-accountoverdracht is afhankelijk van de Commerce-accountgegevens die beschikbaar zijn voor de huidige eigenaar en de nieuwe eigenaar. De volgende scenario&#39;s beschrijven de verschillende overdrachtstypes die op deze geloofsbrieven worden gebaseerd.
 
 | Overdrachtstype | Huidige eigenaar | Nieuwe eigenaar |
 | ------------- | ------------- | --------- |
@@ -54,7 +54,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   Hiermee wordt een Adobe ID gemaakt en gekoppeld aan de huidige Commerce-account (MAGEID). Met deze accountkoppeling wordt het veld _[!UICONTROL Email]_&#x200B;geblokkeerd zodat er geen wijzigingen kunnen worden aangebracht. Het bijbehorende e-mailadres wordt beheerd door de Adobe ID-account.
+   Met deze stap wordt een Adobe ID gemaakt en gekoppeld aan de huidige Commerce-account (MAGEID). Met deze accountkoppeling wordt het veld _[!UICONTROL Email]_geblokkeerd zodat er geen wijzigingen kunnen worden aangebracht. De configuratie van het bijbehorende e-mailadres wordt beheerd via de Adobe ID-account.
 
 1. Navigeer aan [ account.adobe.com ](https://account.adobe.com/).
 
@@ -64,13 +64,13 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Change]**.
 
-   Hiermee wordt een verificatiebericht gegenereerd dat naar het nieuwe e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
+   Met deze stap wordt een verificatiebericht gegenereerd dat naar het nieuwe e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
 
 1. Voer de bevestigingscode in die naar het nieuwe e-mailadres is verzonden.
 
 1. Klik op **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447665/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-mailwijziging
 
@@ -86,7 +86,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Change]**.
 
-   Hiermee wordt een verificatiebericht gegenereerd dat naar het nieuwe e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
+   Met deze stap wordt een verificatiebericht gegenereerd dat naar het nieuwe e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
 
 1. Voer de bevestigingscode in die naar het nieuwe e-mailadres is verzonden.
 
@@ -98,7 +98,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 >
 >Herzie de [ overdrachtstypes ](#identify-your-transfer-type) en zorg ervoor dat u aan de voorwaarden voor deze opeenvolging van stappen voldoet.
 
-Als de huidige eigenaar en de nieuwe eigenaar over bestaande Adobe-id&#39;s beschikken, moeten beide accounts behouden blijven, maar moeten de e-mailadressen van de andere accounts worden gewijzigd. Dit vereist het gebruik van a _tijdelijk_ e-mailadres dat geldig is, maar niet met en Adobe ID wordt geassocieerd.
+Als de huidige eigenaar en de nieuwe eigenaar over bestaande Adobe-id&#39;s beschikken, moeten beide accounts behouden blijven, maar moeten de e-mailadressen van de andere accounts worden gewijzigd. Dit vereist het gebruik van a _tijdelijk_ e-mailadres dat geldig is, maar niet met een Adobe ID wordt geassocieerd.
 
 ### Wijzigen in een tijdelijke account
 
@@ -114,7 +114,7 @@ De huidige eigenaar voert deze stappen uit om zijn Adobe ID te koppelen aan een 
 
 1. Klik op **[!UICONTROL Change]**.
 
-   Hiermee wordt een verificatiebericht gegenereerd dat naar het tijdelijke e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
+   Met deze stap wordt een verificatiebericht gegenereerd dat naar het tijdelijke e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
 
 1. Voer de bevestigingscode in die naar het tijdelijke e-mailadres is verzonden.
 
@@ -124,7 +124,7 @@ De huidige eigenaar voert deze stappen uit om zijn Adobe ID te koppelen aan een 
 
 ### Nieuwe stappen voor eigenaars
 
-Nadat de huidige eigenaar de overdracht naar een tijdelijk e-mailadres heeft voltooid, voert u de volgende stappen uit om uw account over te wijzigen naar de huidige eigenaar.
+Nadat de huidige eigenaar de overdracht naar een tijdelijk e-mailadres heeft voltooid, moet de nieuwe eigenaar deze stappen voltooien om de configuratie van zijn account te wijzigen zodat deze het oorspronkelijke e-mailadres van de huidige eigenaar aanwijst.
 
 1. Navigeer aan [ account.adobe.com ](https://account.adobe.com/) en voltooi login van Adobe.
 
@@ -134,9 +134,9 @@ Nadat de huidige eigenaar de overdracht naar een tijdelijk e-mailadres heeft vol
 
 1. Klik op **[!UICONTROL Change]**.
 
-   Hiermee wordt een verificatiebericht gegenereerd dat naar dat e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
+   Met deze stap wordt een verificatiebericht gegenereerd dat naar het oorspronkelijke e-mailadres van de huidige eigenaar is verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
 
-1. Voer de bevestigingscode in die naar de huidige eigenaar is verzonden.
+1. Voer de bevestigingscode in die naar het oorspronkelijke e-mailadres van de huidige eigenaar is verzonden.
 
 1. Klik op **[!UICONTROL Verify]**.
 
@@ -144,11 +144,9 @@ Nadat de huidige eigenaar de overdracht naar een tijdelijk e-mailadres heeft vol
 
 ### Follow-upstappen
 
-Nadat de nieuwe eigenaar zijn Adobe-account naar de huidige (nu vorige) eigenaar heeft overgebracht, voert u de volgende stappen uit om de eigendom over te dragen.
+Nadat de nieuwe eigenaar zijn Adobe-account heeft geconfigureerd met het oorspronkelijke e-mailadres van de huidige (nu vorige) eigenaar, voert u de volgende stappen uit om de eigendom over te dragen.
 
-1. Navigeer aan [ account.adobe.com ](https://account.adobe.com/) (eerste rekening die in de reeks stappen wordt gebruikt) en voltooi login van Adobe.
-
-   Voor deze aanmelding moet het tijdelijke e-mailadres worden gebruikt.
+1. Navigeer aan [ account.adobe.com ](https://account.adobe.com/), en voltooi login van Adobe gebruikend het e-mailadres voor de [ tijdelijke rekening ](#change-to-a-temporary-account).
 
 1. Klik onder de naam van de account en de avatar op **[!UICONTROL Change Email]** .
 
@@ -156,9 +154,9 @@ Nadat de nieuwe eigenaar zijn Adobe-account naar de huidige (nu vorige) eigenaar
 
 1. Klik op **[!UICONTROL Change]**.
 
-   Hiermee wordt een verificatiebericht gegenereerd dat naar dat e-mailadres wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
+   Met deze stap wordt een verificatiebericht gegenereerd dat naar het e-mailadres van de nieuwe eigenaar wordt verzonden. Het e-mailbericht bevat een bevestigingscode die vereist is om de wijziging van het e-mailadres te voltooien.
 
-1. Voer de bevestigingscode in die naar de nieuwe eigenaar is verzonden.
+1. Voer de bevestigingscode in die naar het e-mailadres van de nieuwe eigenaar is verzonden.
 
 1. Klik op **[!UICONTROL Verify]**.
 
