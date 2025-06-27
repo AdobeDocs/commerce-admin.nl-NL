@@ -26,7 +26,7 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 
 1. Alvorens u begint, krijg de volgende informatie van de [!DNL Commerce] rekening van **nieuwe gedeelde toegangsonderneming**:
 
-   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com. Zie [ een rekening van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
+   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com. Zie [ een rekening van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
    - `MAGE ID/Account ID (MAG00XXXXXXX)` wordt getoond in de upper-left hoek van het _[!UICONTROL Magento]_&#x200B;lusje, enkel boven de **Logout**&#x200B;verbinding.
    - Het `Email` -adres dat aan het account is gekoppeld.
 
@@ -64,7 +64,7 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 
 >[!NOTE]
 >
->Het is niet nodig om toegang te delen tot _[!UICONTROL Security Tool]_- Elke gebruiker met een MAGE-id kan het hulpprogramma Beveiligingsscan met een eigen account instellen. Zij hebben enkel de noodzakelijke voorrechten nodig om veranderingen in de plaats aan te brengen en eigendom van het domein te verifiëren gebruikend één van de [ vereiste methodes ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+>Het is niet nodig om toegang te delen tot _[!UICONTROL Security Tool]_- Elke gebruiker met een MAGE-id kan het hulpprogramma Beveiligingsscan met een eigen account instellen. Zij hebben enkel de noodzakelijke voorrechten nodig om veranderingen in de plaats aan te brengen en eigendom van het domein te verifiëren gebruikend één van de [ vereiste methodes ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan)).
 
 ## Een gedeelde account openen
 
@@ -91,11 +91,11 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
    ![ Steun ](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   U kunt het [ Centrum van de Hulp van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) van de gedeelde rekening gebruiken om naar artikelen en het oplossen van problemeninformatie te zoeken, flarden voor bekende kwesties te vinden, en steunkaartjes tot stand te brengen.
+   U kunt het [ Centrum van de Hulp van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview) van de gedeelde rekening gebruiken om naar artikelen en het oplossen van problemeninformatie te zoeken, flarden voor bekende kwesties te vinden, en steunkaartjes tot stand te brengen.
 
    >[!NOTE]
    >
-   >Na het ontvangen van gedeelde toegang, om een geval van de Steun [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) op Experience League voor te leggen, zorg ervoor dat u eerst de naam van de Organisatie selecteert die in &quot; ([!DNL Commerce])&quot;in de linkerkolom beëindigt.
+   >Na het ontvangen van gedeelde toegang, om een geval van de Steun [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) op Experience League voor te leggen, zorg ervoor dat u eerst de naam van de Organisatie selecteert die in &quot; ([!DNL Commerce])&quot;in de linkerkolom beëindigt.
 
 1. Om op uw eigen rekening terug te keren, klik **terug** in uw browser controles en reeks **[!UICONTROL Switch Accounts]** aan `My Account`.
 
@@ -109,21 +109,21 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
    >[!NOTE]
    >
-   > Als **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of **[!UICONTROL Share Name]** het naamgevingspatroon bevat `Cloud Shared Access from MAG0XYZ` . Als de rekening dat [ noemend patroon heeft en niet kan worden geschrapt ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), is dit omdat de Gedeelde Toegang door API werd gecreeerd, en niet direct van de [ rekening van Commerce ](https://account.magento.com/).
+   > Als **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of **[!UICONTROL Share Name]** het naamgevingspatroon bevat `Cloud Shared Access from MAG0XYZ` . Als de rekening dat [ noemend patroon heeft en niet kan worden geschrapt ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), is dit omdat de Gedeelde Toegang door API werd gecreeerd, en niet direct van de [ rekening van Commerce ](https://account.magento.com/).
    > 
    > Als het niet kan worden geschrapt, eenvoudig hebben de Eigenaar van de Rekening de Gedeelde rekening van de Toegang en onder de Toestemmingen van de Rekening van de Verlening, uncheck elk punt. Na deze update heeft de gebruiker geen toegang meer tot accountbronnen.
    > ![ beeld ](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Bovendien zorg ervoor dat de gebruikers uit het project worden verwijderd zodat zij geen e-mailberichten meer zullen ontvangen: [ de Voormalige teamleden ontvangen de e-mails van het de wolkenbericht van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Bovendien zorg ervoor dat de gebruikers uit het project worden verwijderd zodat zij geen e-mailberichten meer zullen ontvangen: [ de Voormalige teamleden ontvangen de e-mails van het de wolkenbericht van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Klik op **[!UICONTROL Delete User]** wanneer u wordt gevraagd om te bevestigen.
 
 >[!NOTE]
 >
->U kunt geen gebruikers met de Naam van het Aandeel van _Wolk schrappen Gedeelde Toegang van MAG [ XYZ]_ in deze interface. Zie [ hoe te gebruikers schrappen die gedeelde toegang via een project van de Wolk werden verleend?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+>U kunt geen gebruikers met de Naam van het Aandeel van _Wolk schrappen Gedeelde Toegang van MAG [ XYZ]_ in deze interface. Zie [ hoe te gebruikers schrappen die gedeelde toegang via een project van de Wolk werden verleend?](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Verwante lezing
 
-[ het oplossen van problemen van de Gedeelde Toegang ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[ het oplossen van problemen van de Gedeelde Toegang ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 
