@@ -3,9 +3,9 @@ title: Een regel voor catalogusprijzen maken
 description: Leer hoe u een regel voor catalogusprijzen maakt die een korting toepast op specifieke producten wanneer aan een bepaalde voorwaarde wordt voldaan.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-   De sectie _[!UICONTROL Rule Information]_&#x200B;bevat uitbreidbare secties voor **[!UICONTROL Conditions]**&#x200B;en **[!UICONTROL Actions]**.
+   De sectie _[!UICONTROL Rule Information]_bevat uitbreidbare secties voor **[!UICONTROL Conditions]**en **[!UICONTROL Actions]**.
 
    ![ de prijsregel van de Catalogus - informatie ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -32,19 +32,14 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
    Standaard is de status `Inactive` .
 
-   >[!NOTE]
-   >
-   >Nadat de regel is gemaakt, kan de status worden bijgewerkt door de status in `Active` of `Inactive` te wijzigen.
+   Nadat de regel is gemaakt, kan de status worden bijgewerkt door de status in `Active` of `Inactive` te wijzigen.
 
 1. Selecteer **[!UICONTROL Websites]** waar de regel beschikbaar moet zijn.
 
 1. Selecteer de **[!UICONTROL Customer Groups]** waarop deze regel van toepassing is.
 
-   Als u meerdere groepen wilt kiezen, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
-
-   >[!NOTE]
-   >
-   >De opties in deze lijst hangen van de klantengroepen af die in _worden gecreeerd en worden geleid Klanten_ > _Groepen van de Klant_.
+   - De opties beschikbaar voor selectie hangen van de klantengroepen af die in _worden gecreeerd en worden geleid Klanten_ > _Groepen van de Klant_.
+   - Als u meerdere groepen wilt kiezen, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
 1. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) ga **[!UICONTROL From]** en **[!UICONTROL To]** data in om te bepalen wanneer de prijsregel in feite is.
 
@@ -52,21 +47,15 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
 1. Voer een getal in om de **[!UICONTROL Priority]** van deze regel ten opzichte van andere regels vast te stellen.
 
-   >[!NOTE]
-   >
-   >De instelling _[!UICONTROL Priority]_&#x200B;is belangrijk wanneer hetzelfde catalogusproduct voldoet aan de voorwaarden die voor meerdere prijsregels zijn ingesteld. De regel met de hoogste prioriteit (prioriteiten van het hoogste tot het laagste zijn 0,1,2,3...) wordt actief voor het product.
+   De **[!UICONTROL Priority]** -instelling bepaalt welke regel van toepassing is wanneer een product voldoet aan voorwaarden voor meerdere prijsregels. De regel met de hoogste prioriteit (laagste getal, bijvoorbeeld 0, 1, 2, 3..) wordt van kracht.
 
 ## Stap 2: De voorwaarden definiëren
 
 De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. Laat de voorwaarden leeg als u de regel op alle producten wilt toepassen.
 
->[!NOTE]
->
->Als ten minste één voorwaardelijk productkenmerk een lege waarde heeft, wordt de regel voor catalogusprijzen niet op het product toegepast.
+- Als ten minste één voorwaardelijk productkenmerk een lege waarde heeft, wordt de regel voor catalogusprijzen niet op het product toegepast.
 
->[!NOTE]
->
->Om een `Category` voorwaarde van het productattribuut op om het even welke [ bundel ](../catalog/product-create-bundle.md) of [ gegroepeerd ](../catalog/product-create-grouped.md) product toe te passen, moeten alle kindproducten aan de zelfde categorie voor de regel worden toegewezen om correct toe te passen. Als niet, kunt u de bevordering van de Regel van de Prijs van de a [ Kar ](price-rules-cart-create.md) in plaats daarvan gebruiken.
+- Als u de voorwaarde van het `[!UICONTROL Category]` productkenmerk toevoegt aan bundel of gegroepeerde producten, wordt de prijsregel alleen correct toegepast als alle onderliggende items dezelfde categorie hebben. Als de kindpunten niet in de zelfde categorie zijn, gebruik in plaats daarvan de bevordering van de Regel van de Prijs van de a [ Kar ](price-rules-cart-create.md).&quot;
 
 1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
 
@@ -96,7 +85,7 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    >[!NOTE]
    >
-   >Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Meer leren, zie {de Attributen van het 0} Product [&#128279;](../catalog/product-attributes.md).
+   >Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Meer leren, zie {de Attributen van het 0} Product ](../catalog/product-attributes.md).[
 
    >[!NOTE]
    >
@@ -144,19 +133,21 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    >[!NOTE]
    >
+   >Als u kortingen voor vaste bedragen consistent wilt toepassen op verschillende websites met verschillende valuta&#39;s (zonder deze om te zetten in de algemene basisvaluta), stelt u de optie **[!UICONTROL Catalog Price Scope]** in op `Website` en definieert u voor elke site een basisvaluta.
+
+   >[!NOTE]
+   >
    >_Regelmatige prijs_ verwijst naar de prijs van het basisproduct zonder om het even welke geavanceerde tarifering (special/tier/groep) of promotionele kortingen. _Definitieve prijs_ verwijst naar de verdisconteerde prijs die in het winkelwagentje verschijnt. <br/> de **_definitieve_** productprijs wordt berekend als **_minimum_** relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
    >
-   >_&#x200B;**product Aanpasbare Opties van de Prijs van de Vaste Prijs**&#x200B;_ &lbrace;worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
+   >_**product Aanpasbare Opties van de Prijs van de Vaste Prijs**_ {worden _niet_ beïnvloed door de Prijs van de Groep, de Prijs van de Rij, de Speciale Prijs, of de regels van de Prijs van de Catalogus.
 
 1. Voer de **[!UICONTROL Discount Amount]** in.
 
 1. Als u de verwerking van andere regels wilt stoppen nadat deze regel is toegepast, stelt u **[!UICONTROL Discard Subsequent Rules]** in op `Yes` .
 
-   >[!NOTE]
-   >
-   >Als u dit instelt op `Yes` , voorkomt u dat het systeem meerdere kortingen (regels) toepast op hetzelfde product.
+   Als u deze waarde instelt op `Yes` , voorkomt u dat het systeem meerdere kortingen (regels) toepast op hetzelfde product.
 
 ## Stap 4: verwante dynamische blokken toevoegen
 
@@ -212,9 +203,9 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 1. Eigenschappen voor een regel bijwerken:
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
+   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_pagina te tonen.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
+   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_pagina te tonen.
 
 1. Test de regel om er zeker van te zijn dat deze correct werkt.
 
@@ -251,7 +242,7 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 
 | Veld | Beschrijving |
 |-----|-----------|
-| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Apply as percentage of original]**- hiermee wordt het item in mindering gebracht op een percentage van de normale prijs.<br/>**[!UICONTROL Apply as fixed amount]** - Hiermee wordt het object gekort door een vast bedrag af te trekken van de normale prijs. <br/>**[!UICONTROL Adjust final price to this percentage]**- Past de definitieve prijs met een percentage van de regelmatige prijs aan.<br/>**[!UICONTROL Adjust final price to discount value]** - Hiermee stelt u de uiteindelijke prijs in op een vast, gedisconteerd bedrag. <br/><br/>**_Nota:_**&#x200B;Regelmatige prijs verwijst naar de prijs van het basisproduct zonder enige geavanceerde tarifering (special/tier/groep) of promotionele kortingen. De uiteindelijke prijs heeft betrekking op de verlaagde prijs die in het winkelwagentje wordt weergegeven. <br/> de&#x200B;**_definitieve _**&#x200B;productprijs wordt berekend als&#x200B;**_minimum _**&#x200B;relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Apply as percentage of original]**- hiermee wordt het item in mindering gebracht op een percentage van de normale prijs.<br/>**[!UICONTROL Apply as fixed amount]** - Hiermee wordt het object gekort door een vast bedrag af te trekken van de normale prijs. <br/>**[!UICONTROL Adjust final price to this percentage]**- Past de definitieve prijs met een percentage van de regelmatige prijs aan.<br/>**[!UICONTROL Adjust final price to discount value]** - Hiermee stelt u de uiteindelijke prijs in op een vast, gedisconteerd bedrag. <br/><br/>**_Nota:_**Regelmatige prijs verwijst naar de prijs van het basisproduct zonder enige geavanceerde tarifering (special/tier/groep) of promotionele kortingen. De uiteindelijke prijs heeft betrekking op de verlaagde prijs die in het winkelwagentje wordt weergegeven. <br/> de**_definitieve _**productprijs wordt berekend als**_minimum _**relevante prijs, gebruikend de volgende formule: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Vereist) Het bedrag van korting dat wordt aangeboden. |
 | [!UICONTROL Discard Subsequent Rules] | Hiermee bepaalt u of er aanvullende regels kunnen worden toegepast op deze aankoop. Selecteer `Yes` om te voorkomen dat meerdere kortingen op dezelfde aankoop worden toegepast. Opties: `Yes` / `No` |
 
