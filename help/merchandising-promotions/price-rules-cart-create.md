@@ -211,7 +211,7 @@ U kunt een voorwaarde voor een regel plaatsen van de wortelprijs die op een Real
    | `Name` | Naam van het publiek, zoals `Orders over $50` |
    | `Description` | Beschrijving van het publiek, zoals `People who placed an order over $50 in the last month.` . |
    | `Source` | Geeft aan waar het publiek vandaan kwam, zoals `Experience Platform` . |
-   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met de Experience Platform door de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) uitbreiding verbindt. |
+   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met de Experience Platform door de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL) uitbreiding verbindt. |
 
    {style="table-layout:auto"}
 
