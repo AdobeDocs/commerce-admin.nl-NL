@@ -20,7 +20,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
 1. Klik op **[!UICONTROL Add New Rule]** en voer de volgende handelingen uit:
 
-   - Voer onder _[!UICONTROL Rule Information]_de handelingen **[!UICONTROL Rule Name]**en **[!UICONTROL Description]**in.
+   - Voer onder _[!UICONTROL Rule Information]_&#x200B;de handelingen **[!UICONTROL Rule Name]**&#x200B;en **[!UICONTROL Description]**&#x200B;in.
 
    - Als u niet wilt dat de regel onmiddellijk van kracht wordt, stelt u **[!UICONTROL Active]** in op `No` .
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
 In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor de bevordering in aanmerking te komen. De voorwaarden zijn op de volgende manieren van invloed op de regels voor de kartprijs:
 
-- De regel van de kartprijs wordt toegepast op **_elk_** product in het winkelwagentje wanneer de reeks voorwaarden in het _[!UICONTROL Conditions]_lusje wordt voldaan. Als u het aantal producten waarop de regel voor de winkelwagenprijs van toepassing is, wilt beperken, voegt u voorwaarden toe op het tabblad_[!UICONTROL Actions]_ om het aantal producten waarop de regel voor de winkelwagenprijs van toepassing is, te beperken.
+- De regel van de kartprijs wordt toegepast op **_elk_** product in het winkelwagentje wanneer de reeks voorwaarden in het _[!UICONTROL Conditions]_&#x200B;lusje wordt voldaan. Als u het aantal producten waarop de regel voor de winkelwagenprijs van toepassing is, wilt beperken, voegt u voorwaarden toe op het tabblad&#x200B;_[!UICONTROL Actions]_ om het aantal producten waarop de regel voor de winkelwagenprijs van toepassing is, te beperken.
 
 - Als ten minste één voorwaardelijk productkenmerk een lege waarde heeft, wordt de regel van de winkelwagenprijs niet op het product toegepast.
 
@@ -129,7 +129,7 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
 1. Selecteer checkbox van de categorie die u als voorwaarde voor de prijsregel wilt gebruiken en ![ klikken voeg pictogram ](../assets/icon-checkmark-green-circle.png) pictogram toe om de categorieselecties goed te keuren.
 
-   De voorwaarde kan op om het even welke categorie worden gebaseerd die een kind van de 0} wortelcategorie van de opslag ](../catalog/category-root.md) is.[
+   De voorwaarde kan op om het even welke categorie worden gebaseerd die een kind van de 0&rbrace; wortelcategorie van de opslag [&#128279;](../catalog/category-root.md) is.
 
    ![ voorwaarde van de prijsregel van de Kar - productcategorie ](./assets/subselection-category.png){width="600" zoomable="yes"}
 
@@ -164,7 +164,7 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
 ### Een productkenmerk toevoegen aan de regels voor winkelprijzen
 
-1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**en open het kenmerk product.
+1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;en open het kenmerk product.
 
 1. Selecteer **[!UICONTROL Storefront Properties]** in het linkerdeelvenster.
 
@@ -341,7 +341,7 @@ Bekijk deze video voor meer informatie over het maken van regels voor winkelwage
 | [!UICONTROL Active] | (Vereist) bepaalt als de regel in de opslag actief is. Opties: `Yes` / `No` |
 | [!UICONTROL Websites] | (Vereist) Hiermee worden de websites geïdentificeerd waarop de regel kan worden gebruikt. |
 | [!UICONTROL Customer Groups] | (Vereist) Identificeert de klantengroepen waarop de regel van toepassing is. |
-| [!UICONTROL Coupon] | (Vereist) Geeft aan of een coupon aan de regel is gekoppeld. Opties: <br/>**[!UICONTROL No Coupon]**- er is geen coupon aan de regel gekoppeld.<br/>**[!UICONTROL Specific Coupon]** - Een specifieke coupon is gekoppeld aan de regel. <br/>**[!UICONTROL Coupon Code]**- Voer desgevraagd de Coupon-code in die de klant moet invoeren om te kunnen profiteren van de speciale actie.<br/>**[!UICONTROL Use Auto Generation]** - Schakel het selectievakje in om automatisch meerdere couponcodes te genereren die kunnen worden gebruikt voor de speciale actie. <br/>**[!UICONTROL Auto]**- Geeft de sectie _[!UICONTROL Manage Coupon Codes]_weer om de indeling van de te genereren couponcodes te definiëren. |
+| [!UICONTROL Coupon] | (Vereist) Geeft aan of een coupon aan de regel is gekoppeld. Opties: <br/>**[!UICONTROL No Coupon]**- er is geen coupon aan de regel gekoppeld.<br/>**[!UICONTROL Specific Coupon]** - Een specifieke coupon is gekoppeld aan de regel. <br/>**[!UICONTROL Coupon Code]**- Voer desgevraagd de Coupon-code in die de klant moet invoeren om te kunnen profiteren van de speciale actie.<br/>**[!UICONTROL Use Auto Generation]** - Schakel het selectievakje in om automatisch meerdere couponcodes te genereren die kunnen worden gebruikt voor de speciale actie. <br/>**[!UICONTROL Auto]**- Geeft de sectie _[!UICONTROL Manage Coupon Codes]_&#x200B;weer om de indeling van de te genereren couponcodes te definiëren. |
 | [!UICONTROL Uses per Coupon] | Hiermee bepaalt u hoe vaak de couponcode kan worden gebruikt. Laat het veld leeg als er geen limiet is. |
 | [!UICONTROL Uses per Customer] | Hiermee bepaalt u hoe vaak de regel van de winkelwagenprijs kan worden gebruikt door dezelfde geregistreerde klant die tot een geselecteerde klantengroep behoort. Is niet van toepassing op gastkopers die lid zijn van NIET IN klantengroep LOGGED, of op klanten die zonder het programma openen aan hun rekeningen winkelen. Voor geen limiet, laat leeg. |
 | [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. Prioriteiten van het hoogste naar het laagste niveau zijn `0,1,2,3...` |
@@ -384,7 +384,7 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Percent of product price discount]**- hiermee wordt het item gekort door een percentage van de oorspronkelijke prijs af te trekken. Voer bijvoorbeeld `10` in _[!UICONTROL Discount Amount]_in voor een bijgewerkte prijs die 10% lager is dan de oorspronkelijke prijs.<br/>**[!UICONTROL Fixed amount discount]**- Hiermee wordt het object in mindering gebracht door een vast bedrag af te trekken van de oorspronkelijke prijs van elk kwalificerend object in de winkelwagen. Voer bijvoorbeeld `10` in_[!UICONTROL Discount Amount]_ in voor een bijgewerkte prijs die $10 lager is dan de oorspronkelijke prijs. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Kort de hele winkelwagen af door een vast bedrag af te trekken van het subtotaal van de winkelwagentjes. Bijvoorbeeld: voer `10` in _[!UICONTROL Discount Amount]_in om $10 van het subtotaal van het winkelwagentje af te trekken. Standaard geldt de korting alleen voor het cartsubtotaal. Om de korting op subtotal en afzonderlijk het verschepen toe te passen, zie_ op het Verschepende Bedrag _van toepassing zijn.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Hiermee definieert u een hoeveelheid die de klant moet kopen om een hoeveelheid gratis te ontvangen. (De_[!UICONTROL Discount Amount]_ is Y.) |
+| [!UICONTROL Apply] | Bepaalt het type berekening dat op de aankoop wordt toegepast. Opties: <br/>**[!UICONTROL Percent of product price discount]**- hiermee wordt het item gekort door een percentage van de oorspronkelijke prijs af te trekken. Voer bijvoorbeeld `10` in _[!UICONTROL Discount Amount]_&#x200B;in voor een bijgewerkte prijs die 10% lager is dan de oorspronkelijke prijs.<br/>**[!UICONTROL Fixed amount discount]**- Hiermee wordt het object in mindering gebracht door een vast bedrag af te trekken van de oorspronkelijke prijs van elk kwalificerend object in de winkelwagen. Voer bijvoorbeeld `10` in&#x200B;_[!UICONTROL Discount Amount]_ in voor een bijgewerkte prijs die $10 lager is dan de oorspronkelijke prijs. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Kort de hele winkelwagen af door een vast bedrag af te trekken van het subtotaal van de winkelwagentjes. Bijvoorbeeld: voer `10` in _[!UICONTROL Discount Amount]_&#x200B;in om $10 van het subtotaal van het winkelwagentje af te trekken. Standaard geldt de korting alleen voor het cartsubtotaal. Om de korting op subtotal en afzonderlijk het verschepen toe te passen, zie_ op het Verschepende Bedrag _van toepassing zijn.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Hiermee definieert u een hoeveelheid die de klant moet kopen om een hoeveelheid gratis te ontvangen. (De&#x200B;_[!UICONTROL Discount Amount]_ is Y.) |
 | [!UICONTROL Discount Amount] | (Vereist) Het bedrag van korting dat wordt aangeboden. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Hiermee stelt u het maximum aantal producten in waarop de korting kan worden toegepast in dezelfde aankoop. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Hiermee stelt u het aantal producten in dat `X` in een `Buy X Get Y Free` -promotie vertegenwoordigt. Definieert ook hoeveel producten in batches aan het winkelwagentje moeten worden toegevoegd om `Fixed amount discount` - en `Percent of product price discount` -promoties toe te passen. |
