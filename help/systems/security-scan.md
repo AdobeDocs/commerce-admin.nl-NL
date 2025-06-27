@@ -37,7 +37,7 @@ Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashb
    - Lees de **[!UICONTROL Terms and Conditions]** .
    - Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -104,7 +104,7 @@ Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashb
 
         Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
@@ -148,4 +148,4 @@ Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashb
    - Lees de **[!UICONTROL Terms and Conditions]** .
    - Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Zoek op de pagina _[!UICONTROL Monitored Websites]_het vervolgkeuzemenu onder de kolom [!UICONTROL Actions] en selecteer vervolgens **[!UICONTROL Delete]**voor de desbetreffende website(s).
+1. Zoek op de pagina _[!UICONTROL Monitored Websites]_&#x200B;het vervolgkeuzemenu onder de kolom [!UICONTROL Actions] en selecteer vervolgens **[!UICONTROL Delete]**&#x200B;voor de desbetreffende website(s).
