@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] van Commerce Admin.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
+source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 
 ## [!UICONTROL General]
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 ![ E-mailadressen van de opslag > Algemene Contact ](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van een e-mailbericht dat door de `General Contact` -identiteit is verzonden. |
-| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `General Contact` -identiteit. |
+| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `General Contact` -identiteit. Maak in Adobe Commerce as a Cloud Service een ondersteuningsticket om het e-mailadres te wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van een e-mailbericht dat door de `Sales Representative` -identiteit is verzonden. |
-| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Sales Representative` -identiteit. |
+| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Sales Representative` -identiteit.  Maak in Adobe Commerce as a Cloud Service een ondersteuningsticket om het e-mailadres te wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van een e-mailbericht dat door de `Customer Support` -identiteit is verzonden. |
-| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Customer Support` -identiteit. |
+| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Customer Support` -identiteit.  Maak in Adobe Commerce as a Cloud Service een ondersteuningsticket om het e-mailadres te wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van een e-mailbericht dat door de `Custom 1` -identiteit is verzonden. |
-| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Custom 1` -identiteit. |
+| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Custom 1` -identiteit.  Maak in Adobe Commerce as a Cloud Service een ondersteuningsticket om het e-mailadres te wijzigen. |
 
 {style="table-layout:auto"}
 
@@ -79,6 +79,6 @@ Zie [ e-mailadressen van de Opslag ](../../getting-started/store-details.md#stor
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | Winkelweergave | De naam die wordt weergegeven als de afzender van een e-mailbericht dat door de `Custom 2` -identiteit is verzonden. |
-| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Custom 2` -identiteit. |
+| [!UICONTROL Sender Email] | Winkelweergave | Het e-mailadres dat is gekoppeld aan de `Custom 2` -identiteit.  Maak in Adobe Commerce as a Cloud Service een ondersteuningsticket om het e-mailadres te wijzigen. |
 
 {style="table-layout:auto"}
