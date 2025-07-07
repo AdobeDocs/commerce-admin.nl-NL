@@ -64,7 +64,7 @@ De volgende instructies vereisen toegang tot een terminal.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++beheerinstellingen
 
@@ -87,7 +87,7 @@ De volgende instructies vereisen toegang tot een terminal.
       >
       >Een record van de nieuwe sleutel op een veilige locatie bewaren. De gegevens moeten worden gedecodeerd als er problemen optreden met de bestanden.
 
-+++
+   +++
 
 1. Maak de cache leeg.
 
