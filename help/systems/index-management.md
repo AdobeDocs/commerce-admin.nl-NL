@@ -3,7 +3,7 @@ title: Indexbeheer
 description: Leer over indexbeheer, met inbegrip van de acties die het opnieuw indexeren en beste praktijken teweegbrengen.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: f4b5ca01ddb02a9392095fa46ae8baa73892319b
 workflow-type: tm+mt
 source-wordcount: '1323'
@@ -20,7 +20,7 @@ Het opnieuw indexeren van gegevens versnelt de verwerking, en vermindert de tijd
 De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Een systeembericht verschijnt als de baan van de a [ cron ](cron.md) niet beschikbaar is om het even welke indexen bij te werken die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
 
 >[!NOTE]
-> De handelaars van Adobe Commerce die Live Onderzoek, de Dienst van de Catalogus, of de Aanbevelingen van het Product gebruiken hebben de optie om op a [ op SaaS-Gebaseerde prijsindexeerder ](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing) te gebruiken.
+> De handelaars van Adobe Commerce die Live Onderzoek, de Dienst van de Catalogus, of de Aanbevelingen van het Product gebruiken hebben de optie om op a [ op SaaS-Gebaseerde prijsindexeerder ](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=nl-NL) te gebruiken.
 
 Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De index en het bericht worden gewist op basis van de herindexmodus en de mogelijke acties die u uitvoert. Voor meer gedetailleerde informatie over het indexeren, zie [ hoe de toepassing het indexeren ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in de _Gids van de Ontwikkelaar PHP_ uitvoert.
 
@@ -44,7 +44,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 >[!IMPORTANT]
 >
->Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
+>Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -80,7 +80,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 ## Opnieuw indexeren met de opdrachtregel
 
-Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} in de _Gids van de Configuratie_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=nl-NL#reindex){:target="blank"} in de _Gids van de Configuratie_.
 
 ## Gebeurtenissen van indextrigger
 
