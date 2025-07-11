@@ -32,7 +32,7 @@ Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De in
 
 ## Aanbevolen werkwijzen voor herindexering
 
-Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [ sparen de Caches van 0} geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.](cache-management.md)
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [ sparen de Caches van 0&rbrace; geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.](cache-management.md)
 
 - Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in Commerce.
 - Als u een grote winkel of meerdere winkels hebt, kunt u indexeerders zoals categorie en producten instellen op geplande snijtaken vanwege de mogelijkheid van herindexering. U kunt de herdex instellen volgens een schema gedurende niet-piekuren.
