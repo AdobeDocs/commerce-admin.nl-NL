@@ -4,10 +4,10 @@ description: Leer hoe u uw eigen coderingssleutel wijzigt, wat regelmatig moet w
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 256517ebbbd6e28eb027f26c7f0a43001f5d7904
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 4968c40cd6f8a47ea595db20ed5d77c11e134db6
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u hebt geprobeerd om deze stappen te voltooien en kwesties hebt, zie de [ Zeer belangrijke Omwenteling van de Encryptie van het Oplossen van problemen: CVE-2024-34102 ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) artikel van de Kennisbank.
+>Als u hebt geprobeerd om deze stappen te voltooien en kwesties hebt, zie de [ Zeer belangrijke Omwenteling van de Encryptie van het Oplossen van problemen: CVE-2024-34102 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) artikel van de Kennisbank.
 
 Adobe Commerce en Magento Open Source gebruiken een coderingssleutel om wachtwoorden en andere vertrouwelijke gegevens te beschermen. Een industriestandaard [!DNL ChaCha20-Poly1305] -algoritme wordt gebruikt met een 256-bits sleutel om alle gegevens te coderen die codering vereisen. Hieronder vallen creditcardgegevens en integratiewachtwoorden (betalings- en verzendmodule). Bovendien wordt een sterk Veilig Algorithm (SHA-256) gebruikt om alle gegevens te hashen die geen decryptie vereisen.
 
 Tijdens de eerste installatie wordt u gevraagd of u Commerce een coderingssleutel wilt laten genereren of een van uw eigen coderingssleutels wilt invoeren. Met de coderingssleutel kunt u de sleutel naar wens wijzigen. De coderingssleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren en op elk moment kan de oorspronkelijke sleutel in gevaar worden gebracht.
 
-Voor technische informatie, zie [ Geavanceerde installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) in de _Gids van de Installatie_ en [ Gegevens re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in de _Gids van de Ontwikkelaar PHP_.
+Voor technische informatie, zie [ Geavanceerde installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in de _Gids van de Installatie_ en [ Gegevens re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in de _Gids van de Ontwikkelaar PHP_.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Voor technische informatie, zie [ Geavanceerde installatie ](https://experiencel
 
 De volgende instructies vereisen toegang tot een terminal.
 
-1. Laat [ onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) toe.
+1. Laat [ onderhoudswijze ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) toe.
 
    ```bash
    bin/magento maintenance:enable
@@ -58,13 +58,25 @@ De volgende instructies vereisen toegang tot een terminal.
 
    +++CLI, opdracht
 
-   Voer het volgende CLI bevel in werking en zorg ervoor dat het zonder fouten voltooit. Als u bepaalde systeem config waarden of betalingsgebieden moet re-coderen, zie de gedetailleerde [ gids op re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in _PHP ontwikkelt Gids_.
+   Bevestig dat de nieuwe opdracht bestaat:
+
+   ```bash
+   bin/magento list | grep encryption:key:change
+   ```
+
+   U zou de volgende output moeten zien:
+
+   ```bash
+   encryption:key:change Change the encryption key inside the env.php file.
+   ```
+
+   Als u deze output ziet, stel het volgende CLI bevel in werking en zorg ervoor dat het zonder fouten voltooit. Als u bepaalde systeem config waarden of betalingsgebieden moet re-coderen, zie de gedetailleerde [ gids op re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in _PHP ontwikkelt Gids_.
 
    ```bash
    bin/magento encryption:key:change
    ```
 
-   +++
++++
 
    +++beheerinstellingen
 
@@ -87,7 +99,7 @@ De volgende instructies vereisen toegang tot een terminal.
       >
       >Een record van de nieuwe sleutel op een veilige locatie bewaren. De gegevens moeten worden gedecodeerd als er problemen optreden met de bestanden.
 
-   +++
++++
 
 1. Maak de cache leeg.
 
