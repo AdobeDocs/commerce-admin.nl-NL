@@ -70,7 +70,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447665/?learn=on&captions=dut)
 
 ## E-mailwijziging
 
