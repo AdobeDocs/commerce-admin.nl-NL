@@ -62,7 +62,7 @@ De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbar
 
 >[!NOTE]
 >
->- Als de instelling _[!UICONTROL Use in Search]_is ingesteld op `No` , wordt de instelling_[!UICONTROL Use in Search Results Layered Navigation]_ in dit geval niet weergegeven. In dat geval wordt het kenmerk product niet gebruikt in de zoekopdracht, ongeacht de instelling [!UICONTROL Use in Layered Navigation] .
+>- Als de instelling _[!UICONTROL Use in Search]_&#x200B;is ingesteld op `No` , wordt de instelling&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ in dit geval niet weergegeven. In dat geval wordt het kenmerk product niet gebruikt in de zoekopdracht, ongeacht de instelling [!UICONTROL Use in Layered Navigation] .
 >
 >- Het veld [!UICONTROL Position] wordt standaard grijs weergegeven. U moet het kenmerk opslaan voordat u deze instelling kunt wijzigen.
 
@@ -98,7 +98,7 @@ U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producte
 
 1. Blader naar of gebruik de gefilterde zoekopdracht om een kenmerk in de lijst te zoeken en open het in de bewerkingsmodus.
 
-1. Klik onder _[!UICONTROL Attribute Information]_op **[!UICONTROL Storefront Properties]**.
+1. Klik onder _[!UICONTROL Attribute Information]_&#x200B;op **[!UICONTROL Storefront Properties]**.
 
 1. Kies **[!UICONTROL Layered Navigation]** bij `Filterable (with results)` .
 
@@ -149,7 +149,7 @@ Iteratieve splitsing zorgt voor de beste verdeling van de producten over de prij
 
 >[!IMPORTANT]
 >
->Om producten en hun prijzen correct te tonen volgens _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde _[!UICONTROL Calculation Settings]_voor **[!UICONTROL Catalog Prices]**. Controleer voor_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+>Om producten en hun prijzen correct te tonen volgens _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde _[!UICONTROL Calculation Settings]_&#x200B;voor **[!UICONTROL Catalog Prices]**. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -211,9 +211,9 @@ De gelaagde navigatieconfiguratie bepaalt als een producttelling tussen haakjes 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw in het linkerdeelvenster de sectie _[!UICONTROL Catalog]_uit en kies **[!UICONTROL Catalog]**eronder.
+1. Vouw in het linkerdeelvenster de sectie _[!UICONTROL Catalog]_&#x200B;uit en kies **[!UICONTROL Catalog]**&#x200B;eronder.
 
-1. Vouw de sectie _[!UICONTROL Layered Navigation]_uit.
+1. Vouw de sectie _[!UICONTROL Layered Navigation]_&#x200B;uit.
 
    >[!NOTE]
    >
