@@ -3,9 +3,9 @@ title: Een winkelwagentje beheren
 description: Leer hoe u een klant rechtstreeks via de beheerder kunt helpen met zijn winkelwagentje.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 
 | Knop | Beschrijving |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Wist het huidige winkelwagentje van alle producten. |
+| [!UICONTROL Clear my shopping cart] | Hiermee verwijdert u alle items uit het winkelwagentje. |
 | [!UICONTROL Update Items and Quantities|] ga het vereiste aantal op het **[!UICONTROL Qty]** gebied in en werk het aantal punten in het karretje bij. |
 | [!UICONTROL Add selections to my cart] | Hiermee voegt u producten van alle secties toe aan het winkelwagentje. |
 
@@ -55,7 +55,7 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
    >
    >Om het klantenverslag in een haast te vinden, gebruik de [ controle van Filters ](../getting-started/admin-grid-controls.md).
 
-   In het klantprofiel onder _[!UICONTROL Personal Information]_&#x200B;toont de datum en tijd van&#x200B;_[!UICONTROL Last Logged In]_ dat de klant online is.
+   In het klantprofiel onder _[!UICONTROL Personal Information]_toont de datum en tijd van_[!UICONTROL Last Logged In]_ dat de klant online is.
 
    ![ profiel van de Klant van een online klant ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
 1. Klik op **[!UICONTROL Create Order]**.
 
-   Op de pagina _[!UICONTROL Create New Order]_&#x200B;worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
+   Op de pagina _[!UICONTROL Create New Order]_worden de objecten in het winkelwagentje weergegeven, gevolgd door de verzend- en betalingsgegevens.
 
 1. Voltooi de verzend- en betalingsgegevens.
 
 1. Klik op **[!UICONTROL Submit Order]**.
 
 Meer leren, zie [ een orde ](customer-account-create-order.md) creëren.
+
+## Alle items uit een winkelwagentje verwijderen
+
+Het verwijderen van alle items uit de winkelwagentje van een klant in de modus voor ondersteund winkelen is handig als de klant opnieuw wil beginnen, onjuiste items heeft toegevoegd of zijn winkelwagentje moet wissen voordat een nieuwe bestelling wordt geplaatst. Hierdoor wordt ervoor gezorgd dat de winkelwagen alleen de producten bevat die de klant daadwerkelijk wil kopen.
+
+1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. Open in de lijst de klantrecord in de bewerkingsmodus.
+
+1. Klik op **[!UICONTROL Manage Shopping Cart]** in de bovenste knopbalk.
+
+1. Klik op **[!UICONTROL Clear my shopping cart]**.
+
+   ![ ontruim mijn het winkelwagentje ](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd de handeling te bevestigen.
