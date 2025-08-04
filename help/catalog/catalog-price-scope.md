@@ -3,9 +3,9 @@ title: Prijsbereik
 description: Leer over de werkingsfeer die voor productprijzen wordt gebruikt, die kan worden gevormd om op of globaal of websiteniveau van toepassing te zijn.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Commerce staat het niet toe dat voor elke winkel een productprijs wordt vastgest
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Stel op het tabblad **[!UICONTROL Price]** het prijsbereik in op `Website` in plaats van op global.
+1. Stel op het tabblad **[!UICONTROL Price]** het prijsbereik in op `Website` in plaats van op `Global` .
 
 1. Stel de prijs in door de productbewerkingspagina te openen, het bereik linksboven te selecteren en vervolgens een nieuwe prijs per website in te voeren.
+
+In zeldzame gevallen waarin het prijsbereik is ingesteld op `Global` , kan de Commerce-database nog steeds verschillende prijzen op websiteniveau hebben. Dit kan gebeuren als gevolg van synchronisatieproblemen buiten Commerce. In deze gevallen moet Merchant een prijsopruiming op winkelniveau uitvoeren en een Synchronisatie van de Catalogus met de Diensten van Commerce uitvoeren.
