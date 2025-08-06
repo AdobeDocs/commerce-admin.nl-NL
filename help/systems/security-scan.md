@@ -4,40 +4,40 @@ description: Leer hoe u een uitgebreide beveiligingsscan uitvoert en elk van uw 
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 8e634311cd84a9e797a36218c29abb4699d72835
+source-git-commit: 27c23a24b9435c5f94b483bafe5edb467aa14267
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
 # Beveiligingsscan
 
-Met de verbeterde beveiligingsscan kunt u elk van uw Adobe Commerce- en Magento Open Source-sites, waaronder PWA, controleren op bekende beveiligingsrisico&#39;s en malware, en patchupdates en beveiligingsmeldingen ontvangen.
+Controleer uw Adobe Commerce- en Magento Open Source-sites op beveiligingsrisico&#39;s en malware en ontvang beveiligingsupdates en -meldingen.
 
 - Verbeter insight in de beveiligingsstatus in real-time van je winkel.
 - Ontvang suggesties die op beste praktijken worden gebaseerd helpen kwesties oplossen.
-- De beveiligingsscan van het schema wordt wekelijks, dagelijks of op verzoek uitgevoerd.
+- Plan een beveiligingsscan om wekelijks, dagelijks of op verzoek uit te voeren.
 - Voer meer dan 21.000 veiligheidstests uit om potentiële malware te helpen identificeren.
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=nl-NL#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md). Voor technische informatie, zie [ Opstelling het Hulpmiddel van het Scannen van de Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
-![ het aftasten van de Veiligheid hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![ het Scannen van de Veiligheid Hulpmiddel ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Een beveiligingsscan uitvoeren
 
-1. Teken binnen aan uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md).
+1. Van de homepage van Commerce, teken binnen aan uw [ Commerce/Magento rekening ](../getting-started/commerce-account-create.md).
 
-1. Klik in het linkerdeelvenster op de tab [!UICONTROL Security Scan] . (Controleer en accepteer zo nodig de bijgewerkte voorwaarden voor het gebruik van het gereedschap Beveiligingsscan.)
+1. Controleer en accepteer de voorwaarden voor het gebruik van het hulpprogramma Beveiligingsscan.
 
-   - Kies **[!UICONTROL Security Scan]** in het linkerdeelvenster.
-   - Klik op **[!UICONTROL Go to Security Scan]**.
-   - Lees de **[!UICONTROL Terms and Conditions]** .
-   - Klik op **[!UICONTROL Agree]** om door te gaan.
+   1. Kies **[!UICONTROL Security Scan]** in het linkerdeelvenster.
+   1. Klik op **[!UICONTROL Go to Security Scan]**.
+   1. Lees de **[!UICONTROL Terms and Conditions]** .
+   1. Klik op **[!UICONTROL Agree]** om door te gaan.
 
-1. Klik op de pagina _[!UICONTROL Monitored Websites]_&#x200B;op **[!UICONTROL +Add Site]**.
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL +Add Site]**.
 
    Als u meerdere sites met verschillende domeinen hebt, configureert u een aparte scan voor elk domein.
 
@@ -47,80 +47,82 @@ Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashb
 
    **Commerce storefront**:
 
-   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
-   - Klik op **[!UICONTROL Generate Confirmation Code]**.
-   - Klik **Exemplaar** om uw bevestigingscode aan het klembord te kopiëren.
+   1. Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
+   1. Klik op **[!UICONTROL Generate Confirmation Code]**.
+   1. Klik **Exemplaar** om uw bevestigingscode aan het klembord te kopiëren.
 
-     ![ produceer Bevestigingscode ](./assets/scan-site1.png){width="400" zoomable="yes"}
+      ![ produceer Bevestigingscode ](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-   - Meld u aan bij de beheerder van uw winkel als een gebruiker met volledige beheerdersrechten en voer de volgende handelingen uit:
+   1. Meld u aan bij de beheerder van uw winkel als een gebruiker met volledige beheerdersrechten en voer de volgende handelingen uit:
 
-      - In _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      - Zoek uw site in de lijst en klik op **[!UICONTROL Edit]** .
-      - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
-      - Blader omlaag naar **[!UICONTROL Scripts and Style Sheets]** en klik in het tekstvak aan het einde van een bestaande code en plak de bevestigingscode in het tekstvak.
+      1. In _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      1. Zoek uw site in de lijst en klik op **[!UICONTROL Edit]** .
+      1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
+      1. Schuif omlaag naar **[!UICONTROL Scripts and Style Sheets]** en klik in het tekstvak aan het einde van een bestaande code. Plak de bevestigingscode in het tekstvak.
 
-        ![ Manuscripten en de Bladen van de Stijl ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+         ![ Manuscripten en de Bladen van de Stijl ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
+      1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
    **PWA storefront**:
 
-   - Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
+   1. Voer de **[!UICONTROL Site URL]** en **[!UICONTROL Site Name]** in.
 
-   - Kies bij **[!UICONTROL Confirmation Code]** de optie `META Tag` en klik op **[!UICONTROL Generate Code]** .
+   1. Kies bij **[!UICONTROL Confirmation Code]** de optie `META Tag` en klik op **[!UICONTROL Generate Code]** .
 
-   - Klik op **[!UICONTROL Copy]** om de gegenereerde bevestigingscode van de META-tag naar het klembord te kopiëren.
+   1. Klik op **[!UICONTROL Copy]** om de gegenereerde bevestigingscode van de META-tag naar het klembord te kopiëren.
 
-     ![ produceer Bevestigingscode ](./assets/scan-site2.png){width="400" zoomable="yes"}
+      ![ produceer Bevestigingscode ](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-   - Ga naar de PWA Studio storefront projectfolder en doe het volgende:
+   1. Ga naar de PWA Studio storefront projectfolder en doe het volgende:
 
-      - Ga onder de PWA Studio-projectmap naar `packages > venia-concept > template.html` .
-      - Voeg de gekopieerde bevestigingscode (de gegenereerde META-tag) toe aan de HTML-kop en sla de wijzigingen op.
+      1. Ga onder de PWA Studio-projectmap naar `packages > venia-concept > template.html` .
+      1. Voeg de gekopieerde bevestigingscode (de gegenereerde META-tag) toe aan de HTML-kop en sla de wijzigingen op.
 
-        ![ Code van de Bevestiging van het Exemplaar ](./assets/code-pwa.png){width="600" zoomable="yes"}
+         ![ Code van de Bevestiging van het Exemplaar ](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-      - Ga terug naar PWA Studio CLI, en gebruik garen om projectgebiedsdelen te installeren en het project in werking te stellen bouwt bevel.
+      1. Ga terug naar PWA Studio CLI, en gebruik garen om projectgebiedsdelen te installeren en het project in werking te stellen bouwt bevel.
 
-        ```sh
-        yarn install &&
-        yarn build
-        ```
+         ```sh
+         yarn install &&
+         yarn build
+         ```
 
-      - *in uw project van de Wolk*, creeer a `pwa` omslag en kopieer de inhoud binnen de omslag van uw storefront project `dist`.
+      1. *in uw project van de Wolk*, creeer a `pwa` omslag en kopieer de inhoud binnen de omslag van uw storefront project `dist`.
 
-        ```sh
-        mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-        ```
+         ```sh
+         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+         ```
 
-      - Met het gereedschap Git CLI kunt u deze wijzigingen in uw Cloud-project uitvoeren, uitvoeren en uitvoeren.
+      1. Met het gereedschap Git CLI kunt u deze wijzigingen in uw Cloud-project uitvoeren, uitvoeren en uitvoeren.
 
-        ```sh
-        git add . &&
-        git commit -m "Added storefront file bundles" &&
-        git push origin
-        ```
+         ```sh
+         git add . &&
+         git commit -m "Added storefront file bundles" &&
+         git push origin
+         ```
 
-        Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
+         Nadat het bouwstijlproces voltooit, zullen de veranderingen aan uw PWA archieffront worden opgesteld.
 
-1. Ga terug naar de pagina _[!UICONTROL Security Scan]_&#x200B;in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**&#x200B;om de eigendom van het domein te bepalen.
+1. Ga terug naar de pagina _[!UICONTROL Security Scan]_in uw Commerce-account en klik op **[!UICONTROL Verify Confirmation Code]**om de eigendom van het domein te bepalen.
 
 1. Na een geslaagde bevestiging, vorm de **[!UICONTROL Set Automatic Security Scan]** opties voor één van de volgende types:
 
    **Scannen Wekelijks (geadviseerd)**:
 
-   - Kies de **[!UICONTROL Week Day]** , **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** waar de scan elke week moet plaatsvinden.
-   - Standaard wordt de scan elke week om middernacht zaterdag, UTC en verder naar begin zondag gepland.
+   Kies de **[!UICONTROL Week Day]** , **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** waar de scan elke week moet plaatsvinden.
 
-     ![ Wekelijks aftasten ](./assets/scan-weekly.png){width="500" zoomable="yes"}
+   Standaard wordt de scan elke week om middernacht zaterdag, UTC en verder naar begin zondag gepland.
+
+   ![ Wekelijks aftasten ](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Scannen Dagelijks**:
 
-   - Kies de lus **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** dat de scan elke dag moet worden uitgevoerd.
-   - Standaard wordt de scan elke dag om middernacht (UTC) uitgevoerd.
+   Kies de lus **[!UICONTROL Time]** en **[!UICONTROL Time Zone]** dat de scan elke dag moet worden uitgevoerd.
 
-     ![ Scan Dagelijks ](./assets/scan-daily.png){width="500" zoomable="yes"}
+   Standaard wordt de scan elke dag om middernacht (UTC) uitgevoerd.
+
+   ![ Scan Dagelijks ](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Email Address]** in waar u meldingen van voltooide scans en beveiligingsupdates wilt ontvangen.
 
@@ -132,20 +134,59 @@ Het aftasten van de Veiligheid hulpmiddel is beschikbaar voor vrij van het dashb
 
 1. Als u meerdere websites met verschillende domeinen hebt, herhaalt u dit proces om voor elke website een beveiligingsscan in te stellen.
 
-## Een beveiligingsscan verwijderen
+## Scan-fouten beheren
 
->[!NOTE]
->
->Alleen de persoon die de scan oorspronkelijk heeft ingesteld, kan deze van de account verwijderen. Als zij niet aan hun [ rekening ](https://account.magento.com) sinds Aug 2022 het programma geopend hebben, moeten zij eerst ervoor zorgen dat zij [ voor Adobe ID ](https://account.magento.com) geregistreerd hebben.
+Met het hulpprogramma Beveiligingsscan kunt u scanfouten rechtstreeks vanuit de rapportweergave beheren. U kunt specifieke scanfouten markeren als fout-positieven en deze uitsluiten van uw risicorescore.
 
-**Schrap een aftasten**
+### Voordelen van het beheren van scanfouten
 
-1. Teken binnen aan de [ rekening Commerce/Magento ](../getting-started/commerce-account-create.md).
+Als u scanfouten beheert, kunt u een nauwkeuriger beveiligingsoverzicht van uw winkel bijhouden door:
 
-1. Klik in het linkerdeelvenster op de tab [!UICONTROL Security Scan] . (Controleer en accepteer zo nodig de bijgewerkte voorwaarden voor het gebruik van het gereedschap Beveiligingsscan.)
+- Het verminderen van valse positieven in uw veiligheidsrapporten.
+- Nadruk op relevante veiligheidskwesties die aandacht vereisen.
+- Behoud een duidelijker beeld van de ware veiligheidsstatus van uw winkel.
+- Het wegnemen van de noodzaak om contact op te nemen met ondersteuning voor bekende valse positieven.
+- U bespaart tijd door zelf scanfouten te beheren die u al hebt onderzocht.
 
-   - Klik op **[!UICONTROL Go to Security Scan]**.
-   - Lees de **[!UICONTROL Terms and Conditions]** .
-   - Klik op **[!UICONTROL Agree]** om door te gaan.
+Veelvoorkomende scenario&#39;s waarbij een scanfout als fout positief kan worden gemarkeerd, zijn:
 
-1. Zoek op de pagina _[!UICONTROL Monitored Websites]_&#x200B;het vervolgkeuzemenu onder de kolom [!UICONTROL Actions] en selecteer vervolgens **[!UICONTROL Delete]**&#x200B;voor de desbetreffende website(s).
+- Wanneer u al een beveiligingspatch hebt aangebracht die het scangereedschap niet heeft gedetecteerd.
+- Wanneer een gedetecteerde uitgave niet van toepassing is op uw specifieke opslagconfiguratie.
+- Wanneer u een alternatieve veiligheidsmaatregel hebt uitgevoerd die de zorg richt.
+- Wanneer de aftastenmislukking op een configuratie gebaseerd is die u opzettelijk voor uw bedrijfsbehoeften hebt geplaatst.
+
+### Fouten met scannen negeren
+
+Voer de volgende stappen uit om scanfouten te beheren die u hebt geïdentificeerd als fout-positieven:
+
+1. Klik op de pagina _[!UICONTROL Monitored Websites]_op **[!UICONTROL View Report]**voor de site die u wilt beheren.
+
+1. Zoek in de rapportweergave de mislukte scan die u als fout-positief wilt markeren.
+
+1. Klik op **[!UICONTROL Ignore]** voor de specifieke scanfout.
+
+   ![ negeer aftastenmislukkingen ](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
+
+De genegeerde scanfout gaat naar de sectie _[!UICONTROL Ignored Results]_en wordt niet opgenomen in uw risicorescore.
+
+### Fouten met scannen stoppen
+
+Voer de volgende stappen uit als u een eerder genegeerde scanfout moet herstellen voor uw actieve controle:
+
+1. Blader in de rapportweergave naar de sectie _[!UICONTROL Ignored Results]_.
+
+1. Klik op **[!UICONTROL Stop Ignoring]** voor de scanfout die u wilt herstellen.
+
+   ![ Onjuiste aftastenmislukkingen ](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Apply Changes]** om de selectie op te slaan.
+
+De scanfout gaat terug naar de sectie _[!UICONTROL Failed Scans]_en wordt opgenomen in de risicorescore.
+
+### Genegeerde scanfouten weergeven
+
+Genegeerde resultaten verschijnen in een afzonderlijke sectie van het rapport en de risicorescore wordt automatisch bijgewerkt om alleen actieve scanfouten te weerspiegelen. U kunt meerdere scanfouten tegelijk beheren door meerdere items te selecteren voordat u wijzigingen aanbrengt.
+
+![ Mening genegeerde aftastenmislukkingen ](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
