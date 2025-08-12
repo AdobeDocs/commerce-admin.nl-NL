@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Leer hoe u UPS instelt als een verzendprovider voor uw winkel.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaa
 
    - Stel **[!UICONTROL Mode]** in op `Live` om gegevens via een veilige verbinding naar het UPS-verzendsysteem te verzenden. (In de ontwikkelingsmodus worden geen gegevens verzonden via een beveiligde verbinding.)
 
-   - Controleer **[!UICONTROL Gateway URL]** die nodig is om aanvragen te verzenden. Gebruik een zandbak URL (`https://wwwcie.ups.com/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
+   - Controleer **[!UICONTROL Gateway URL]** die nodig is om aanvragen te verzenden. Gebruik een zandbak URL (`https://wwwcie.ups.com/api/rating/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com/api/rating/`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
 
-   - Controleer **[!UICONTROL Tracking URL]** die nodig is voor het ophalen van trackinggegevens. Gebruik een zandbak URL (`https://wwwcie.ups.com/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
+   - Controleer **[!UICONTROL Tracking URL]** die nodig is voor het ophalen van trackinggegevens. Gebruik een zandbak URL (`https://wwwcie.ups.com/api/track/`) voor testwijze en een productie URL voor levende verzoeken (`https://onlinetools.ups.com/api/track/`). Zorg ervoor om de respectieve eindpunten voor elk verzoek met de bepaalde gastheer te gebruiken.
 
    - Stel **[!UICONTROL Origin of the Shipment]** in op het gebied waar de verzending vandaan komt.
 
