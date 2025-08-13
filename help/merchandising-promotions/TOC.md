@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce en Magento Open Source bevatten veel tool
 breadcrumb-title: Merchandising en promoties
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -28,21 +28,21 @@ ht-degree: 0%
       - [Registratie van cadeautjes instellen](gift-registry-create.md)
       - [Zoeken naar cadeauregister toevoegen](gift-registry-search.md)
       - [Ervaring met opslag van cadeauregisters](gift-registry-storefront.md)
-   - Punten omkeren {#reward-points}
+   - Punten achteruit {#reward-points}
       - [Overzicht en configuratie van beloningen](rewards-loyalty.md)
       - [Wisselkoersen](reward-exchange-rates.md)
       - [Retourpunten van de prijsregels](reward-points-price-rules.md)
       - [Reward points storefroning experience](reward-points-storefront.md)
-   - Productoverzichten {#product-reviews}
+   - Productbeoordelingen {#product-reviews}
       - [Productoverzichten van klanten](product-reviews.md)
       - [Moderne beoordelingen](product-reviews-moderate.md)
-- Promoties {#promotions}
-   - Privéverkoop en -gebeurtenissen {#events}
+- Aanbiedingen {#promotions}
+   - Privéverkoop en evenementen {#events}
       - [Overzicht van gebeurtenissen](events-private-sales.md)
       - [Gebeurtenissen configureren](event-configure.md)
       - [Gebeurtenissen maken](event-create.md)
       - [Uitnodigingen voor gebeurtenissen](invitations.md)
-   - Catalogusprijsregels {#catalog-rules}
+   - Regels inzake catalogusprijzen {#catalog-rules}
       - [Overzicht van de catalogusprijsregels](price-rules-catalog.md)
       - [Een regel voor catalogusprijzen maken](price-rules-catalog-create.md)
       - [Geplande wijzigingen voor prijsregels voor catalogi](price-rule-catalog-scheduled-changes.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       - [Overzicht](product-relationships.md)
       - [Regels en configuratie voor verwante producten](product-related-rules.md)
       - [Een regel voor een verwant product maken](product-related-rule-create.md)
-- Marketing, communicatie {#communications}
+- Marketingsmededelingen {#communications}
    - Nieuwsbrieven {#newsletters}
       - [Nieuwsbrieven inschakelen](newsletters.md)
       - [Sjablonen voor nieuwsbrieven](newsletter-template.md)
@@ -86,6 +86,5 @@ ht-degree: 0%
    - [Google Analytics](google-analytics.md)
    - [Google-tagbeheer](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Google-contentexperimenten](google-content-experiments.md)
-- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Sales] &gt; [!UICONTROL Google API] van Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,16 @@ ht-degree: 0%
 
 ## [!UICONTROL Google Analytics]
 
-![ Googles Analytics ](./assets/google-api-analytics-ee.png)<!-- zoom -->
+![ Google Analytics ](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Winkelweergave | Schakelt [!DNL Google Analytics] in voor uw winkel. Opties: `Yes` / `No` |
-| [!UICONTROL Account Type] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de configuratieopties volgens uw type van de Googles Analytics rekening. Opties: Universal Analytics (standaard) / Google Tag Manager |
+| [!UICONTROL Account Type] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de configuratieopties volgens uw Google Analytics accounttype. Opties: Universal Analytics (standaard) / Google Tag Manager |
 | [!UICONTROL Account Number] | Winkelweergave | Het accountnummer, of trackingcode, dat is toegewezen toen u uw [!DNL Google Analytics] -account maakte. |
 | [!UICONTROL Anonymize IP] | Winkelweergave | Hiermee bepaalt u of identificatiegegevens worden verwijderd uit IP-adressen die worden weergegeven in [!DNL Google Analytics] -resultaten. |
-| [!UICONTROL Enable Content Experiments] | Winkelweergave | Activeert [ de Experimenten van de Inhoud van Google ](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), die kunnen worden gebruikt om tot tien verschillende versies van de zelfde pagina te testen. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Googles Analytics - de accounttype van de Manager van de Markering van Google ](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+![ Google Analytics - het accounttype van de Manager van de Markering van Google ](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
 
 Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , worden er extra velden weergegeven.
 
@@ -54,7 +53,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 
 ![ Google AdWords ](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 | ----- | ------------------------------------------ | ----------- |
@@ -65,7 +64,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 | [!UICONTROL Conversion Color] | Winkelweergave | Bepaalt de kleur van het conversielabel. Gebruik de plukker van de a [ kleur ](https://www.w3schools.com/colors/colors_picker.asp) om de hexadecimale waarde te kiezen. Deze hexadecimale waarde wordt toegewezen aan de variabele `google_conversion_color` in uw AdWords-script. Bijvoorbeeld: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Winkelweergave | Een tekstlabel dat wordt weergegeven bij de melding [!DNL Google Site Stats] . Deze tekstreeks wordt toegewezen aan de variabele `~` in het script AdWords. Bijvoorbeeld: &quot;Bedankt voor het winkelen!&quot; |
 | [!UICONTROL Conversion Value Type] | Winkelweergave | Hiermee geeft u het type waarde op dat wordt gebruikt om te bepalen wanneer een conversie plaatsvindt. Opties: <br/>**`Dynamic`**- Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van het dynamische orderbedrag.<br/>**`Constant`** - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van de ingevoerde waarde. |
-| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_&#x200B;omzetwaarde. |
+| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_omzetwaarde. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
 {style="table-layout:auto"}
@@ -76,17 +75,16 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 
 ### [!UICONTROL Google Analytics4]
 
-![ Googles Analytics4 ](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
+![ Google Analytics4 ](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | Winkelweergave | Laat Google Analytics 4 voor uw opslag toe. Opties: `Yes` / `No` |
-| [!UICONTROL Account Type] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de configuratieopties volgens uw type van de Googles Analytics rekening. Opties: `Google Analytics4` (standaardwaarde) / `Google Tag Manager` |
-| [!UICONTROL Measurement ID] | Winkelweergave | Het accountnummer of trackingcode die u hebt toegewezen bij het maken van uw account voor Googles Analytics. |
-| [!UICONTROL Anonymize IP] | Winkelweergave | Bepaalt als het identificeren van informatie uit IP adressen wordt verwijderd die in Googles Analytics resultaten verschijnen. |
-| [!UICONTROL Enable Content Experiments] | Winkelweergave | Activeert [ de Experimenten van de Inhoud van Google ](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), die kunnen worden gebruikt om tot tien verschillende versies van de zelfde pagina te testen. Opties: `Yes` / `No` |
+| [!UICONTROL Enable] | Winkelweergave | Hiermee wordt Google Analytics 4 ingeschakeld voor je winkel. Opties: `Yes` / `No` |
+| [!UICONTROL Account Type] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de configuratieopties volgens uw Google Analytics accounttype. Opties: `Google Analytics4` (standaardwaarde) / `Google Tag Manager` |
+| [!UICONTROL Measurement ID] | Winkelweergave | Het accountnummer, of trackingcode, dat is toegewezen bij het maken van uw Google Analytics-account. |
+| [!UICONTROL Anonymize IP] | Winkelweergave | Hiermee bepaalt u of identificatiegegevens worden verwijderd uit IP-adressen die worden weergegeven in Google Analytics-resultaten. |
 
 {style="table-layout:auto"}
 
@@ -94,7 +92,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 
 {{ee-feature}}
 
-![ Googles Analytics4 - het accounttype van de Manager van de Markering van Google ](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
+![ Google Analytics4 - het accounttype van de Manager van de Markering van Google ](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
 
 Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , worden er extra velden weergegeven.
 
@@ -114,7 +112,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 
 ![ Google AdWords ](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 | ----- | ------------------------------------------ | ----------- |
@@ -125,7 +123,7 @@ Wanneer **[!UICONTROL Account Type]** is ingesteld op `Google Tag Manager` , wor
 | [!UICONTROL Conversion Color] | Winkelweergave | Bepaalt de kleur van het conversielabel. Gebruik de plukker van de a [ kleur ](https://www.w3schools.com/colors/colors_picker.asp) om de hexadecimale waarde te kiezen. Deze hexadecimale waarde wordt toegewezen aan de variabele `google_conversion_color` in uw AdWords-script. Bijvoorbeeld: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Winkelweergave | Een tekstlabel dat wordt weergegeven bij de melding Google Site Stats. Deze tekstreeks wordt toegewezen aan de variabele `~` in het script AdWords. Bijvoorbeeld: &quot;Bedankt voor het winkelen!&quot; |
 | [!UICONTROL Conversion Value Type] | Winkelweergave | Hiermee geeft u het type waarde op dat wordt gebruikt om te bepalen wanneer een conversie plaatsvindt. Opties: <br/>**`Dynamic`**- Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van het dynamische orderbedrag.<br/>**`Constant`** - Hiermee wordt bepaald dat er een conversie heeft plaatsgevonden op basis van de ingevoerde waarde. |
-| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_&#x200B;omzetwaarde. |
+| [!UICONTROL Conversion Value] | Winkelweergave | Hiermee wordt de waarde opgegeven die wordt gebruikt voor een _[!UICONTROL Constant]_omzetwaarde. |
 | [!UICONTROL Send Order Currency] | Winkelweergave | Hiermee worden transactiespecifieke valutawisselwaarden ingeschakeld in AdWords (voor websites met verschillende basisvaluta&#39;s). |
 
 {style="table-layout:auto"}

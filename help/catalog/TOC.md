@@ -4,9 +4,9 @@ user-guide-description: Uitgebreide informatie over functies voor catalogusbehee
 breadcrumb-title: Catalogusbeheer
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
       + [Breadcrumb, sporen](navigation-breadcrumb-trail.md)
       + [Productaanbiedingen](navigation-product-listings.md)
       + [Gelaagde navigatie](navigation-layered.md)
-   + Cataloguszoekopdracht {#search}
+   + Catalogus zoeken {#search}
       + [Overzicht van zoekopdrachten](search.md)
       + [Cataloguszoekopdracht configureren](search-configuration.md)
       + [Zoekresultaten](search-results.md)
@@ -52,7 +52,7 @@ ht-degree: 0%
    + [Lijst met producten](products-list.md)
    + [Productwerkruimte](product-workspace.md)
    + [Een product maken](product-create.md)
-   + Producttypen {#types}
+   + Productsoorten {#types}
       + [Eenvoudig product](product-create-simple.md)
       + [Configureerbaar product](product-create-configurable.md)
       + [Gegroepeerd product](product-create-grouped.md)
@@ -84,7 +84,6 @@ ht-degree: 0%
       + [Afbeeldingen en video&#39;s](product-images-and-video.md)
       + [Optimalisatie zoekmachine](product-search-engine-optimization.md)
       + [Verwante producten, Up-Sells en Cross-Sells](related-products-up-sells-cross-sells.md)
-      + [Optimalisatie van productweergave](product-view-optimization.md)
       + [Aanpasbare opties](settings-advanced-custom-options.md)
       + [Product op websites](settings-basic-websites.md)
       + [Ontwerp](settings-advanced-design.md)
@@ -99,5 +98,5 @@ ht-degree: 0%
       + [Kenmerken maken en verwijderen](attribute-product-create.md)
       + [Bulkupdates](bulk-product-attribute-update.md)
       + [Kenmerksets](attribute-sets.md)
-+ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
