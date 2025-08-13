@@ -44,7 +44,7 @@ Zie [ het Onderzoek van de Plaats van de Opstelling ](https://support.google.com
 
    - Kies **[!UICONTROL Property Settings]** .
 
-   - Stel onder _[!UICONTROL Advertising Features]_de waarde **[!UICONTROL Enable Demographics and Interest Reports]**in op `On` .
+   - Stel onder _[!UICONTROL Advertising Features]_&#x200B;de waarde **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;in op `On` .
 
    - **[!UICONTROL Save]** de instellingen.
 
@@ -66,11 +66,11 @@ Zie [ het Onderzoek van de Plaats van de Opstelling ](https://support.google.com
 
 ## Stap 2. Uw [!DNL Google Tag Manager] -account configureren
 
-De volgende instructies tonen hoe te om een nieuwe container met de basismontages te vormen. Een steekproef {het 1} configuratiedossier van de Samensteller van de 1} (.json) wordt gebruikt om het proces te vereenvoudigen, het invoeren om een markering in een nieuwe container te produceren. [](https://developer.adobe.com/commerce/php/development/composer/) In dit voorbeeld wordt het aangeraden een container te maken in plaats van een bestaande container te wijzigen.
+De volgende instructies tonen hoe te om een nieuwe container met de basismontages te vormen. Een steekproef {het 1} configuratiedossier van de Samensteller van de 1&rbrace; (.json) wordt gebruikt om het proces te vereenvoudigen, het invoeren om een markering in een nieuwe container te produceren. [&#128279;](https://developer.adobe.com/commerce/php/development/composer/) In dit voorbeeld wordt het aangeraden een container te maken in plaats van een bestaande container te wijzigen.
 
 >[!NOTE]
 >
->Voor extra informatie, zie de uitvoer en de invoer van de Container van Google [ ](https://support.google.com/tagmanager/answer/6106997). Deze instructies bieden een doorloop voor het importeren van een voorbeeld-JSON in een nieuwe container.
+>Voor extra informatie, zie de uitvoer en de invoer van de Container van Google [&#128279;](https://support.google.com/tagmanager/answer/6106997). Deze instructies bieden een doorloop voor het importeren van een voorbeeld-JSON in een nieuwe container.
 
 1. Download het verbonden dossier [ GTM_M2_Config_json.txt ](./assets/GTM_M2_Config_json.txt), open het dossier in een redacteur, en bewaar het als `GTM_M2_Config.json`.
 
@@ -157,7 +157,7 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 
 ## Een tag maken voor het bijhouden van conversies
 
-Als u een Google AdWords-account hebt, kunt u een tag maken die conversies bijhoudt. Het volgende voorbeeld toont hoe te om zowel [!DNL Google Tag Manager] als [!DNL Google Analytics] te gebruiken om een markering tot stand te brengen die op de 2} Succespagina van de omzetting van uw opslag _in brand steekt._
+Als u een Google AdWords-account hebt, kunt u een tag maken die conversies bijhoudt. Het volgende voorbeeld toont hoe te om zowel [!DNL Google Tag Manager] als [!DNL Google Analytics] te gebruiken om een markering tot stand te brengen die op de 2&rbrace; Succespagina van de omzetting van uw opslag _in brand steekt._
 
 ### Stap 1. Een tag maken
 
@@ -178,7 +178,7 @@ Als u een Google AdWords-account hebt, kunt u een tag maken die conversies bijho
 
    - Selecteer onder **[!UICONTROL Choose Product]** de optie **[!UICONTROL Google AdWords]** .
 
-   - Selecteer _[!UICONTROL Choose a Tag Type]_onder **[!UICONTROL AdWords Conversion Tracking]**en klik op **[!UICONTROL Continue]**.
+   - Selecteer _[!UICONTROL Choose a Tag Type]_&#x200B;onder **[!UICONTROL AdWords Conversion Tracking]**&#x200B;en klik op **[!UICONTROL Continue]**.
 
 1. Voer **[!UICONTROL Conversion ID]** en **[!UICONTROL Conversion Label]** in van uw AdWords-account en klik op **[!UICONTROL Continue]** .
 
@@ -188,7 +188,7 @@ Als u doorgaat vanaf het dashboard van [!DNL Google Tag Manager] , bestaat de vo
 
 1. Klik onder **[!UICONTROL Fire On]** op **[!UICONTROL Some Pages]** .
 
-1. Voer in de sectie _[!UICONTROL Choose Pages]_de volgende instellingen in:
+1. Voer in de sectie _[!UICONTROL Choose Pages]_&#x200B;de volgende instellingen in:
 
    - **[!UICONTROL Name]** - Voer een naam in voor de paginabeschrijving.
 
@@ -212,7 +212,7 @@ De volgende stap in het proces is een voorvertoning van de tag. Elke keer dat ee
 
 ## Aangepaste HTML-tag met JavaScript
 
-In deze sectie wordt uitgelegd hoe u een CSP-abonnement één keer toevoegt aan de HTML-tag JavaScript Aangepast, zodat deze kan worden uitgevoerd op de afhandelingspagina, zodat wordt voldaan aan de CSP-vereisten (Content Security Policy). Deze toevoeging verbetert de sitebeveiliging door te voorkomen dat onbevoegde scripts worden uitgevoerd. Voor meer gedetailleerde informatie, zie de [ documentatie van het Beleid van de Veiligheid van de Inhoud 0} {.](https://developer.adobe.com/commerce/php/development/security/content-security-policies)
+In deze sectie wordt uitgelegd hoe u een CSP-abonnement één keer toevoegt aan de HTML-tag JavaScript Aangepast, zodat deze kan worden uitgevoerd op de afhandelingspagina, zodat wordt voldaan aan de CSP-vereisten (Content Security Policy). Deze toevoeging verbetert de sitebeveiliging door te voorkomen dat onbevoegde scripts worden uitgevoerd. Voor meer gedetailleerde informatie, zie de [ documentatie van het Beleid van de Veiligheid van de Inhoud 0&rbrace; &lbrace;.](https://developer.adobe.com/commerce/php/development/security/content-security-policies)
 
 >[!NOTE]
 >

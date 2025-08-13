@@ -52,7 +52,7 @@ Als uw zaken wordt vereist om privacyverordeningen zoals [ GDPR ](../getting-sta
    - Klik op **[!UICONTROL Accept]**.
    - Klik op **[!UICONTROL Save]**.
 
-1. Voltooi de _details van het Beleid van 0} DPA._
+1. Voltooi de _details van het Beleid van 0&rbrace; DPA._
 
    - Klik op **[!UICONTROL Manage DPA Details]** om een pagina voor DPA-beheer te openen waarin u contactpersonen en juridische entiteiten van uw organisatie kunt bewerken.
 
