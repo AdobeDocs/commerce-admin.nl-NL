@@ -3,9 +3,9 @@ title: Couponcodes
 description: Leer hoe u couponcodes met de regels voor winkelprijzen kunt gebruiken om een korting toe te passen wanneer aan een aantal voorwaarden wordt voldaan.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ Vanaf Commerce 2.4.7 kunnen kopers meerdere coupons toepassen op een winkelwagen
 >Prijsregels voor winkelwagentjes met dezelfde prioriteit resulteren niet in een gecombineerde korting. Elke regel (coupon) wordt toegepast op matchende producten afzonderlijk, één voor één, volgens de regel-ID van de kartonprijs in de database. Om de volgorde te bepalen waarin kortingen worden toegepast, raadt Adobe aan een andere prioriteit vast te stellen voor elke regel van de toegevoegde winkelprijs.
 
 ## couponcodes configureren
+
+>[!BEGINSHADEBOX]
+
+Commerce biedt standaard ondersteuning voor twee methoden voor het maken van couponcodes:
+
+1. Eén specifieke couponcode maken
+1. Het produceren van veelvoudige _willekeurige_ couponcodes
+
+Als u reeds een lijst van couponcodes hebt die u en met een regel van de kartprijs wilt invoeren associëren, zou u het gebruiken van een uitbreiding van [ Commerce Marketplace ](https://marketplace.magento.com/) moeten overwegen.
+
+>[!ENDSHADEBOX]
 
 De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door de configuratie. De tekens kunnen op alle getallen, alle letters of een combinatie worden ingesteld. U kunt een streepje invoegen met ingestelde intervallen, zodat u het gemakkelijk kunt lezen, en een voor- en achtervoegsel toevoegen om de code aan een specifieke campagne of een bepaald initiatief te koppelen.
 
@@ -62,13 +73,13 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 >[!NOTE]
 >
->[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
+>[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
 
 ### Methode 1: Een specifieke coupon maken
 
 1. Volg de instructies om de regel van de a [ kartprijs ](price-rules-cart.md) tot stand te brengen.
 
-1. Stel **[!UICONTROL Coupon]** in op `Specific Coupon` in de sectie **[!UICONTROL Rule Information]** .
+1. Stel **[!UICONTROL Rule Information]** in op **[!UICONTROL Coupon]** in de sectie `Specific Coupon` .
 
 1. Voer een **[!UICONTROL Coupon Code]** in die voor de promotie moet worden gebruikt.
 
@@ -169,10 +180,6 @@ Het genereren van kortingscoupons is een asynchrone bewerking die op de achtergr
 U kunt couponcodes exporteren naar een CSV- of Excel XML-bestand door de bestandsindeling te selecteren en op **[!UICONTROL Export]** te klikken.
 
 Als u couponcodes wilt verwijderen, selecteert u een of meer codes in de lijst. Selecteer `Delete` in de **[!UICONTROL Actions]** kiezer en klik op **[!UICONTROL Submit]** .
-
->[!NOTE]
->
->Hoewel Commerce het configureren van meerdere couponcodes toestaat, kan een klant slechts één couponcode in het winkelwagentje gebruiken. Om het gebruik van meer dan één couponcode in de kar gelijktijdig toe te staan, kon u het gebruiken van een overeenkomstige uitbreiding van [ Commerce Marketplace ](https://marketplace.magento.com/) overwegen.
 
 ## Coupons-rapport
 
