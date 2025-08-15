@@ -5,9 +5,9 @@ breadcrumb-title: Aan de slag
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    + [Uw account delen](commerce-account-share.md)
    + [Een account overdragen](commerce-account-transfer.md)
 + Naleving van site {#compliance}
-   + HIPAA-gereedheid op Adobe Commerce {#hipaa-ready-service}
+   + HIPAA-gereedheid op Adobe Commerce{#hipaa-ready-service}
       + [Overzicht](hipaa/overview.md)
       + [Operationele richtsnoeren](hipaa/operations.md)
    + Privacy {#privacy}
@@ -42,12 +42,7 @@ ht-degree: 0%
       + [Overzicht van IMS-integratie](adobe-ims-integration-overview.md)
       + [De beheerdersintegratie met IMS configureren](adobe-ims-config.md)
       + [De beheerdersintegratie met IMS uitschakelen](adobe-ims-disable.md)
-   + Adobe Experience Cloud-integratie {#unifiedexperience}
-      + [Overzicht](admin-unified-experience-integration-overview.md)
-      + [De integratie configureren](admin-unified-experience-integration-configure.md)
-      + [De Experience Cloud-integratie beheren](admin-unified-experience-integration-manage.md)
-      + [Aanvullende informatie](admin-unified-experience-release-notes.md)
-   + Gereedschappen en werkruimte voor beheerders {#tools}
+   + Beheergereedschappen en werkruimte {#tools}
       + [Workspace](admin-workspace.md)
       + [De zijbalk Beheerder](admin-menu.md)
       + [Dashboard](admin-dashboard.md)
@@ -57,12 +52,12 @@ ht-degree: 0%
 + De storefront {#storefront}
    + [Wat is de winkel?](storefront.md)
    + [Verbeterde opslagervaring](enhanced-experiences.md)
-+ Basisinstellingen en -configuratie {#setup}
++ Basisinstallatie en -configuratie {#setup}
    + [Reeks-, opslag- en weergavebereik](websites-stores-views.md)
    + [Winkelgegevens](store-details.md)
    + [Storefront-branding](storefront-branding.md)
    + [Controlelijst voor starten](prelaunch-checklist.md)
-+ Standaardrapportage {#reporting}
++ Standaardrapportage  {#reporting}
    + [Menu Rapporten](reports-menu.md)
    + [Marketingsrapporten](marketing-reports.md)
    + [Evaluatierapporten](review-reports.md)
@@ -76,5 +71,5 @@ ht-degree: 0%
    + [Ecosysteem](resources.md)
    + [Extensies](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
++ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
