@@ -28,7 +28,7 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 
 Compatibel met Adobe Commerce versie 2.4.9-alpha2
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p2
 
@@ -37,7 +37,7 @@ Compatibel met Adobe Commerce versie 2.4.9-alpha2
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p2 van Adobe Commerce, 2.4.7-p7, en 2.4.6-p12 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p6, 2.4.6 tot 2.4.6-p11.
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p1
 
@@ -206,7 +206,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p7+ en 2.4.6-p12+ de versies van het veiligheidspatch.
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -358,7 +358,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p12+ de versies van het veiligheidspatch.
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p10
 
@@ -440,7 +440,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p13
 
@@ -522,7 +522,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![ Vaste kwestie ](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [ het Bulletin van de Veiligheid APSB25-71 ](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.3-p14
 
