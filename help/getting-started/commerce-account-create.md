@@ -19,7 +19,7 @@ U kunt uw [!DNL Commerce] -account openen via de [!DNL Commerce] -website. Vanui
 
 De aanmelding voor uw [!DNL Commerce] -account staat los van de aanmelding voor Admin-beheer van uw winkel. U zult normaal verschillende geloofsbrieven voor elk gebruiken, en de toegang tot elk systeem wordt geleid onafhankelijk.
 
-Nochtans, kan een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID vormen om aan login aan de opslag Admin te vormen: [ vormt de Integratie van Commerce Admin met Adobe ID ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in de *Gids van de Integratie IMS voor Commerce*.
+Nochtans, kan een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID vormen om aan login aan de opslag Admin te vormen: [ vormt de Integratie van Commerce Admin met Adobe ID ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config) in de *Gids van de Integratie IMS voor Commerce*.
 
 >[!NOTE]
 >
