@@ -3,9 +3,9 @@ title: Creeer en toegang tot uw  [!DNL Commerce]  rekening
 description: Leer over  [!DNL Commerce]  rekeningen, die de producten en de diensten beheren die u hebt gekocht.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 1%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 1%
 
 # Toegang tot uw [!DNL Commerce] -account
 
-U kunt uw account openen vanaf de [!DNL Commerce] -website. Vanuit het dashboard van uw [!DNL Commerce] -account kunt u informatie vinden die betrekking heeft op de producten en services die u hebt aangeschaft, maar ook op uw contact- en factureringsgegevens. Sommige informatie is alleen zichtbaar voor eigenaars van licenties.
-
-U kunt uw account openen vanaf de [!DNL Commerce] -website. Op het accountdashboard worden de aangeschafte producten, services en contact- of factureringsgegevens weergegeven. Sommige informatie is alleen zichtbaar voor eigenaars van licenties.
+U kunt uw [!DNL Commerce] -account openen via de [!DNL Commerce] -website. Vanuit het dashboard van uw [!DNL Commerce] -account kunt u informatie vinden die betrekking heeft op de producten en services die u hebt aangeschaft, maar ook op uw contact- en factureringsgegevens. Sommige informatie is alleen zichtbaar voor eigenaars van licenties.
 
 ![ Uw [!DNL Commerce] rekening ](./assets/home-acct.png){width="700"}
 
 De aanmelding voor uw [!DNL Commerce] -account staat los van de aanmelding voor Admin-beheer van uw winkel. U zult normaal verschillende geloofsbrieven voor elk gebruiken, en de toegang tot elk systeem wordt geleid onafhankelijk.
 
-Nochtans, zal een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID aan login aan store Admin kunnen vormen: [ vormt de Integratie van Admin van Commerce met Adobe ID ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Uw aanmeldingsgegevens voor Commerce en Admin-opslag zijn gescheiden, met verschillende referenties en onafhankelijk beheerde toegang. U kunt de toegang echter stroomlijnen door uw Adobe ID te configureren voor aanmelding bij de winkel Admin. Zie [ de Integratie van Commerce Admin met Adobe ID ] in de *Gids van de Integratie IMS voor Commerce* vormen.
+Nochtans, kan een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID vormen om aan login aan de opslag Admin te vormen: [ vormt de Integratie van Commerce Admin met Adobe ID ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in de *Gids van de Integratie IMS voor Commerce*.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Uw aanmeldingsgegevens voor Commerce en Admin-opslag zijn gescheiden, met versch
 
 ## Aanmelden bij uw [!DNL Commerce] -account
 
-Een Adobe ID is vereist voor toegang tot een Commerce-account. Als u al een Commerce-account hebt maar geen Adobe ID, kunt u er een maken tijdens het aanmeldingsproces.
+Een Adobe ID is vereist voor toegang tot een Commerce-account. Als u al een [!DNL Commerce] -account hebt maar zich sinds augustus 2022 niet hebt aangemeld bij de account, moet u een Adobe ID maken tijdens het aanmeldingsproces.
 
 >[!WARNING]
 >
