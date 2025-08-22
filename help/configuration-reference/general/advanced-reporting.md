@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_is de op wolk-gebaseerde dienst die door [ Adobe Commerce Intelligence ][1]{:target="_blank"} wordt aangedreven. Voor meer informatie, zie [ Geavanceerde Rapportering ][2]{:target="_blank"} in de_ Begonnen Gids _.
+_[!DNL Advanced Reporting]_&#x200B;is de op wolk-gebaseerde dienst die door [ Adobe Commerce Intelligence ][1]{:target="_blank"} wordt aangedreven. Voor meer informatie, zie [ Geavanceerde Rapportering ][2]{:target="_blank"} in de_ Begonnen Gids _.
 
 ![ Geavanceerde Rapportering ](./assets/advanced-reporting.png)<!-- zoom -->
 
