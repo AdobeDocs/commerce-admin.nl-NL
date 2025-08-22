@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce en Magento Open Source bieden een uitgebreide selectie van rapporten om u op de hoogte te houden van uw marketinginspanningen, verkoopproducten en klantactiviteiten.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '267'
@@ -37,7 +37,7 @@ De selectie van [ verkooprapporten ](sales-reports.md) omvat Orders, Belasting, 
 
 ### [!UICONTROL System Insights]
 
-(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
+(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
 
 ### [!UICONTROL Customers]
 
