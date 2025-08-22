@@ -3,9 +3,10 @@ title: Verkooprapporten
 description: De  [!DNL Commerce]  verkooprapporten helpen u om orden, belastingen, facturen, verzending, terugbetalingen, coupons, en PayPal regeling te volgen.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -117,7 +118,7 @@ Voor meer informatie over het gebruiken van [!UICONTROL PayPal Settlement Report
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Het [&#128279;](../stores-purchase/braintree.md) Rapport van de Afwikkeling van de Braintree  kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
+Het [ Rapport van de Afwikkeling van Braintree ](../stores-purchase/braintree.md) kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of de identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 

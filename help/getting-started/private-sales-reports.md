@@ -3,9 +3,10 @@ title: Privéverkooprapporten
 description: De in Adobe Commerce beschikbare rapporten over de particuliere verkoop bevatten nuttige informatie over evenementen en particuliere verkopen.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

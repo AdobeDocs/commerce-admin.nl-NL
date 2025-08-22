@@ -4,16 +4,17 @@ description: Leer over  [!DNL New Relic]  rapportering beschikbaar voor rekening
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
 
 # [!DNL New Relic] rapporten
 
-[ New Relic ][1] is de dienst van de softwareanalyse die u helpt toepassingsinteractie analyseren en verbeteren. Voor Adobe Commerce-accounts in de cloud-infrastructuur is de software voor de [!DNL New Relic APM] -service inbegrepen. Voor meer informatie, zie {de diensten van 0} New Relic &rbrack;[4] in _Commerce op de Gids van de Infrastructuur van de Wolk_.&lbrack;
+[ New Relic ][1] is de dienst van de softwareanalyse die u helpt toepassingsinteractie analyseren en verbeteren. Voor Adobe Commerce-accounts in de cloud-infrastructuur is de software voor de [!DNL New Relic APM] -service inbegrepen. Voor meer informatie, zie {de diensten van 0} New Relic [ in ][4] Commerce op de Gids van de Infrastructuur van de Wolk _._
 
 ## Stap 1: Aanmelden voor een [!DNL New Relic] -account
 
@@ -21,15 +22,15 @@ ht-degree: 0%
 
    U kunt zich ook aanmelden voor een gratis proefaccount.
 
-1. Volg de instructies op de site. Wanneer u hierom wordt gevraagd, kiest u het product dat u als eerste wilt installeren.
+1. Volg de instructies op de site. Kies bij de aanwijzing het product dat u het eerst wilt installeren.
 
-1. Zoek in uw account naar de volgende referenties die nodig zijn om de Commerce-configuratie te voltooien:
+1. Zoek in uw account de volgende gegevens die vereist zijn om de Commerce-configuratie te voltooien:
 
    | Optie | Beschrijving |
    | ------ | ----------- |
-   | Account-ID | Vanuit het [!DNL New Relic] -accountdashboard is de account-id het nummer in de URL na: `/accounts` |
-   | Toepassings-id | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL New Relic APM]** . Kies **[!UICONTROL Applications]** in het menu. Kies vervolgens de toepassing. De toepassings-ID is het nummer in de URL na: `/applications/` |
-   | Nieuwe Relic API-sleutel | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Account Settings]** . Kies in het menu aan de linkerkant onder Integraties de optie **[!UICONTROL Data Sharing]** . U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
+   | Account-id | Vanuit het [!DNL New Relic] -accountdashboard is de account-id het nummer in de URL na: `/accounts` |
+   | Toepassings-id | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL New Relic APM]** . Kies **[!UICONTROL Applications]** in het menu. Kies vervolgens de toepassing. De toepassings-id is het nummer in de URL na: `/applications/` |
+   | New Relic API-sleutel | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Account Settings]** . Kies in het menu aan de linkerkant onder Integraties de optie **[!UICONTROL Data Sharing]** . U kunt de API-sleutel van deze pagina maken, opnieuw genereren of verwijderen. |
    | API-sleutel voor inzichten | Klik op het dashboard van uw [!DNL New Relic] -account op **[!UICONTROL Insights]** . Kies **[!UICONTROL API Keys]** in het menu links onder Beheer. Uw API-sleutels voor inzichten worden op deze pagina weergegeven. Indien nodig, klik het plusteken (**+**) naast de Sleutels van het Tussenvoegsel om een sleutel te produceren. |
 
    {style="table-layout:auto"}
@@ -53,11 +54,11 @@ Als u [!DNL New Relic APM Pro] wilt gebruiken om gegevens te verzamelen en te v
 >[!NOTE]
 >Deze configuratieopties zijn niet van toepassing op Adobe Commerce op Cloud Infrastructure.
 >
->Als u op het Pro plan bent, is New Relic reeds [ preconfigured en toegelaten door gebrek ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=nl-NL). Als u op het plan van de Aanzet bent, moet u de [ de configuratiestappen van New Relic ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=nl-NL#configure-new-relic-for-starter-environment) voltooien die deel van het opstellingsproces uitmaken.
+>Als u op het Pro plan bent, is New Relic reeds [ preconfigured en toegelaten door gebrek ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Als u op het plan van de Aanzet bent, moet u de [ de configuratiestappen van New Relic ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) voltooien die deel van het opstellingsproces uitmaken.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies **[!UICONTROL New Relic Reporting]** in het navigatievenster aan de linkerkant waar **[!UICONTROL General]** wordt uitgevouwen en voer de volgende handelingen uit:
+1. Kies **[!UICONTROL General]** in het navigatievenster aan de linkerkant waar **[!UICONTROL New Relic Reporting]** wordt uitgevouwen en voer de volgende handelingen uit:
 
    ![ New Relic die configuratie ](./assets/new-relic-reporting-general.png){width="600"} meldt
 
@@ -75,7 +76,7 @@ Als u [!DNL New Relic APM Pro] wilt gebruiken om gegevens te verzamelen en te v
 
 1. Voer bij **[!UICONTROL New Relic Application Name]** een naam in om de configuratie voor interne verwijzing te identificeren.
 
-1. (Optioneel) Selecteer `Yes` voor **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]** om verzamelde gegevens voor de storefront en Admin als aparte toepassingen naar New Relic te verzenden.
+1. (Optioneel) Selecteer **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]** voor `Yes` om verzamelde gegevens voor de storefront en Admin als aparte toepassingen naar New Relic te verzenden.
 
    Voor deze optie moet een naam worden ingevoerd voor de **[!UICONTROL New Relic Application Name]** .
 
@@ -127,36 +128,34 @@ Retourneert het aantal recente Admin-handelingen.
 
 #### Laatste beheeractiviteit
 
-Retourneert gedetailleerde informatie over recente beheerdersacties, waaronder de gebruikersnaam, duur en toepassingsnaam van de beheerder.
+Geeft gedetailleerde informatie over recente beheeracties, zoals de gebruikersnaam, de duur en de toepassingsnaam van Admin.
 
-    SELECTEER AdminName, duur, naam
-    VAN Transactie
-    WAAR appName=&#39;&lt;your_app_name>&#39; EN AdminName IS NIET NULL
-    EN AdminName !&lt;/your_app_name>= &#39;N.V.T.&#39; LIMIET 50
+     SELECTEER AdminName, duur, naam 
+     VAN Transactie 
+     WAAR appName=&#39;&lt;your_app_name>&#39; EN AdminName IS NIET ONGELDIG 
+     EN AdminName!= &#39;N.V.&#39; LIMIET 50 
 
-### Cron evenementen
+### Gebeurtenissen van Cron
 
-#### Aantal categorieën
+#### Aantal rubrieken
 
-Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opgegeven periode.
+Retourneert het aantal toepassingsgebeurtenissen per categorie gedurende de opgegeven tijdsperiode.
 
      SELECTEER gemiddelde (CatalogCategoryCount) 
      VAN Kroon 
      WAAR CatalogCategoryCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  is
-
 #### Huidig aantal catalogi
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen in de catalogus per categorie gedurende de opgegeven tijdsperiode.
 
-    SELECTEER gemiddelde(CatalogCategoryCount)
-    VAN Cron
-    WAAR CatalogCategoryCount NIET NULL
-    IS EN CatalogCategoryCount > 0
-    EN appName = &#39;&lt;your_app_name>&#39; SINDS 2 minuten geleden LIMIET 1
-&lt;/your_app_name>
-
+     SELECT gemiddelde (CatalogCategoryCount) 
+     VAN Uitsnede 
+     WAAR CatalogCategoryCount NIET ONGELDIG 
+     EN CatalogCategoryCount > 0 
+     EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
+ IS
 #### Actieve producten
 
 Retourneert het aantal toepassingsgebeurtenissen per product gedurende de opgegeven periode.
@@ -166,7 +165,6 @@ Retourneert het aantal toepassingsgebeurtenissen per product gedurende de opgege
      WAAR CatalogProductActiveCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
-
 #### Aantal actieve producten
 
 Geeft als resultaat het gemiddelde aantal actieve toepassingsgebeurtenissen per product gedurende de opgegeven periode.
@@ -177,7 +175,6 @@ Geeft als resultaat het gemiddelde aantal actieve toepassingsgebeurtenissen per 
      EN CatalogProductActiveCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  is
-
 #### Configureerbare producten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor configureerbare producten tijdens de opgegeven tijdsperiode.
@@ -187,7 +184,6 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor configureerbare
      WAAR CatalogProductConfigurableCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
-
 #### Configureerbaar aantal producten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen per configureerbaar product tijdens de opgegeven tijdsperiode.
@@ -198,7 +194,6 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen per configureerbaar 
      EN CatalogProductConfigurableCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  is
-
 #### Aantal producten (alle)
 
 Retourneert het totale aantal toepassingsgebeurtenissen voor alle producten.
@@ -208,7 +203,6 @@ Retourneert het totale aantal toepassingsgebeurtenissen voor alle producten.
      WAAR CatalogProductCount NIET ONGELDIG 
      EN appName = &quot;&lt;your_app_name>&#39; TIMESERIES 2 minuten 
  IS
-
 #### Huidig aantal producten (alle)
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor alle producten gedurende de opgegeven tijdsperiode.
@@ -219,7 +213,6 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen voor alle producten 
      EN CatalogProductCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  IS
-
 #### Aantal klanten
 
 Retourneert het gemiddelde aantal toepassingsgebeurtenissen per klant.
@@ -230,7 +223,6 @@ Retourneert het gemiddelde aantal toepassingsgebeurtenissen per klant.
      EN CustomerCount > 0 &lt;
      EN appName = &quot;&lt;your_app_name>&quot;TIMESERIES 2 minuten 
  IS
-
 #### Huidig aantal klanten
 
 Retourneert het gemiddelde aantal klanten gedurende de opgegeven tijdsperiode.
@@ -241,7 +233,6 @@ Retourneert het gemiddelde aantal klanten gedurende de opgegeven tijdsperiode.
      EN CustomerCount > 0 
      EN appName = &quot;&lt;your_app_name>&quot;SINCE 2 minuten geleden LIMIT 1 
  IS
-
 #### Modulestatus
 
 Retourneert het gemiddelde aantal keren dat toepassingsmodules tijdens de opgegeven tijdsperiode zijn ingeschakeld, uitgeschakeld of geïnstalleerd.
@@ -266,7 +257,7 @@ Geeft het gemiddelde aantal toepassingsgebeurtenissen per website en store tijde
 
      SELECT gemiddelde (StoreViewCount), gemiddelde (WebsiteCount) 
      VAN Kroon 
-     WAAR appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minuten 
+     WAAR appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minuten 
 
 #### Huidige website- en winkelaantallen
 
@@ -314,31 +305,31 @@ Retourneert de bovenste klanten tijdens de opgegeven tijdsperiode.
 
 Retourneert een gedefinieerd aantal records met recente activiteit, die de naam van de klant en de duur van het bezoek bevatten.
 
-    SELECTEER KlantNaam, duur, naam
-    VAN Transactie
-    WAAR appName=&#39;&lt;your_app_name>&#39;
-    AND CustomerName IS NOT NULL
-    AND CustomerName !&lt;/your_app_name>= &#39;N.V.T.&#39; LIMIET 50
+     SELECTEER Klantnaam, duur, naam 
+     VAN Transactie 
+     WAAR appName= &quot;&lt;your_app_name>&quot;
+     EN CustomerName IS NIET ONGELDIG 
+     EN Klantnaam!= &#39;N.V.&#39; LIMIET 50 
 
 ### Orders
 
 #### Aantal geplaatste bestellingen
 
-Retourneert het aantal bestellingen dat tijdens de opgegeven periode is geplaatst.
+Retourneert het aantal orders dat tijdens de opgegeven tijdsperiode is geplaatst.
 
-    SELECTEER count(Order)
-    FROM Transactie SINDS 1 dag geleden
+     SELECT telling (Orde) 
+     VAN Transactie SINCE 1 dag geleden 
 
 #### Totale orderwaarde
 
 Retourneert het totale aantal regelitems dat is geordend tijdens de opgegeven tijdsperiode.
 
-    SELECTEER sum(orderValue)
-    FROM Transactie SINDS 1 dag geleden
+     SELECT som (orderValue) 
+     VAN Transactie SINCE 1 dag geleden 
 
-#### Totaal aantal bestelde regelitems
+#### Totaal aantal geordende lijnen
 
-Retourneert het totale aantal regelitems dat tijdens de opgegeven periode is besteld.
+Retourneert het totale aantal regelitems dat is geordend tijdens de opgegeven tijdsperiode.
 
      SELECT som (lineItemCount) 
      VAN Transactie SINCE 1 dag geleden 
@@ -346,6 +337,6 @@ Retourneert het totale aantal regelitems dat tijdens de opgegeven periode is bes
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=nl-NL
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

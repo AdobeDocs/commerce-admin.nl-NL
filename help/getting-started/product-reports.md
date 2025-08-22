@@ -1,18 +1,19 @@
 ---
 title: Productrapporten
-description: De productrapporten die beschikbaar zijn in Adobe Commerce en Magento Open Source geven u inzicht in bekeken en bestelde producten, bestsellers, voorraadniveaus en downloads.
+description: De productrapporten die beschikbaar zijn in Adobe Commerce en Magento Open Source geven u insight over bekeken en bestelde producten, bestsellers, voorraadniveaus en downloads.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Productrapporten
 
-De productrapporten geven u inzicht in bekeken en bestelde producten, bestsellers, voorraadniveaus, en downloads.
+De productrapporten geven u insight over bekeken en bestelde producten, bestsellers, voorraadniveaus en downloads.
 
 ## [!UICONTROL Product Views Report]
 

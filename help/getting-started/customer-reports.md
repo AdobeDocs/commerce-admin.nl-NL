@@ -1,18 +1,19 @@
 ---
 title: Klantrapporten
-description: Klantrapporten die beschikbaar zijn in Adobe Commerce en Magento Open Source bieden inzicht in de activiteiten van klanten gedurende een opgegeven periode of datumbereik.
+description: Klantrapporten die beschikbaar zijn in Adobe Commerce en Magento Open Source, bieden insight de mogelijkheid om tijdens een bepaalde periode of een bepaald datumbereik klantactiviteiten uit te voeren.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Klantrapporten
 
-Klantrapporten bieden inzicht in de klantactiviteiten tijdens een bepaalde periode of een bepaald datumbereik.
+Klantrapporten bieden insight toegang tot de activiteiten van de klant gedurende een bepaalde periode of een bepaald datumbereik.
 
 ## [!UICONTROL Order Total Report]
 

@@ -1,18 +1,19 @@
 ---
 title: '[!DNL Commerce Intelligence] gereedschappen'
-description: Leer hoe verkopers van Adobe Commerce en van de Magento Open Source de hulpmiddelen van Commerce Intelligence kunnen gebruiken om het inzicht te verkrijgen dat wordt gebruikt om correcte bedrijfsbesluiten te maken.
+description: Leer hoe Adobe Commerce en Magento Open Source kooplieden Commerce Intelligence-tools kunnen gebruiken om de insight te winnen die wordt gebruikt om goede zakelijke beslissingen te nemen.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # [!DNL Commerce Intelligence] gereedschappen
 
-Gebruik Commerce Intelligence-tools om inzicht te krijgen in de manier waarop u gezonde zakelijke beslissingen kunt nemen.
+Gebruik Commerce Intelligence-tools om de insight te winnen die wordt gebruikt om goede zakelijke beslissingen te nemen.
 
 ## [!DNL Commerce Intelligence] account
 
@@ -20,7 +21,7 @@ Wanneer u een [!DNL Commerce Intelligence] -account activeert via Adobe, hebt u 
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] wordt opgenomen in Adobe Commerce en Magento Open Source. Deze functie biedt u toegang tot een reeks dynamische rapporten die op uw product, orde, en klantengegevens gebaseerd zijn, met een gepersonaliseerd dashboard dat aan uw bedrijfsbehoeften wordt aangepast. Hoewel [!DNL Advanced Reporting] [!DNL Commerce Intelligence] gebruikt voor analyses, hoeft u geen Commerce Intelligence-account te hebben om [!DNL Advanced Reporting] te gebruiken.
+[!DNL Advanced Reporting] wordt geleverd bij Adobe Commerce en Magento Open Source. Deze functie biedt u toegang tot een reeks dynamische rapporten die op uw product, orde, en klantengegevens gebaseerd zijn, met een gepersonaliseerd dashboard dat aan uw bedrijfsbehoeften wordt aangepast. Hoewel [!DNL Advanced Reporting] [!DNL Commerce Intelligence] gebruikt voor analyses, hoeft u geen Commerce Intelligence-account te hebben om [!DNL Advanced Reporting] te gebruiken.
 
 Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documentatie voor ontwikkelaars voor technische informatie.
 
@@ -51,15 +52,15 @@ Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documen
 
 ### Stap 1: Inschakelen [!DNL Advanced Reporting]
 
-In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) wordt toegelaten door gebrek, en begint automatisch als de kruin [&#128279;](../configuration-reference/advanced/system.md) wordt gevormd en loopt. Een poging om het abonnement te vestigen wordt begonnen aan het begin van elk uur over de volgende 24 uur tot succesvol. De status van het abonnement is in behandeling totdat het abonnement is ingesteld.
+In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) wordt toegelaten door gebrek, en begint automatisch als de kruin [ ](../configuration-reference/advanced/system.md) wordt gevormd en loopt. Een poging om het abonnement te vestigen wordt begonnen aan het begin van elk uur over de volgende 24 uur tot succesvol. De status van het abonnement is in behandeling totdat het abonnement is ingesteld.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies **[!UICONTROL Advanced Reporting]** in het navigatievenster aan de linkerkant waar **[!UICONTROL General]** wordt uitgevouwen en voer de volgende handelingen uit:
+1. Kies **[!UICONTROL General]** in het navigatievenster aan de linkerkant waar **[!UICONTROL Advanced Reporting]** wordt uitgevouwen en voer de volgende handelingen uit:
 
    * Controleer of **[!UICONTROL Advanced Reporting Service]** is ingesteld op `Enable` (de standaardinstelling).
 
-   * Stel de **[!UICONTROL Time of day to send data]** in op het uur, de minuut en de seconde, volgens een 24-uurs klok, dat u wilt dat de service bijgewerkte gegevens van uw winkel ontvangt. Standaard worden gegevens verzonden om 2:00 uur.
+   * Stel de **[!UICONTROL Time of day to send data]** in op het uur, de minuut en de seconde, volgens een 24-uurs klok, dat u wilt dat de service bijgewerkte gegevens van uw winkel ontvangt. Door gebrek, wordt het gegeven verzonden bij 2 :00 AM.
 
    * Kies onder **[!UICONTROL Industry Data]** de **[!UICONTROL Industry]** die het beste uw bedrijf beschrijft.
 
@@ -177,6 +178,6 @@ Als u merkt dat het bijschrift `Data last updated...` de datum van gisteren en n
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=nl-NL
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
