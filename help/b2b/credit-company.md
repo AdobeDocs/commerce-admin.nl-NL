@@ -74,7 +74,7 @@ In het raster wordt voor elke transactie de volgende informatie weergegeven:
 | [!UICONTROL Operation] | Het type activiteit dat aan de transactie is gekoppeld. Waarden: <br/>**[!UICONTROL Allocated]**- Aan het bedrijf toegewezen krediet.<br/>**[!UICONTROL Updated]** - Er is een wijziging toegepast op een van de volgende velden: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Er is een volgorde geplaatst.<br/>**[!UICONTROL Reimbursed]** - Het uitstaande saldo is vergoed. <br/>**[!UICONTROL Refunded]**- Er is een bedrag op creditnota terugbetaald.<br/>**[!UICONTROL Reverted]** - De bestelling is geannuleerd en het bedrag is geretourneerd naar het creditsaldo. |
 | [!UICONTROL Amount] | Het bedrag van de transactie dat aan de volgende transactietypen is gekoppeld: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/> Voor aankoopbedragen wordt het bedrag weergegeven in de weergavevaluta van de winkel en in de notatie van de creditvalutaset, gevolgd door de huidige omrekeningskoers (indien van toepassing). Bijvoorbeeld: <br/> EUR 20.000.00 ($22.400.00) <br/> USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | Het terugbetaalde bedrag, verminderd met het totale verschuldigde bedrag van alle orders die zijn geplaatst met de betalingsmethode op rekening. De waarde kan positief of negatief zijn. <br/>**[!UICONTROL Positive value]**- Een vooruitbetaling wordt weergegeven als een positieve waarde.<br/>**[!UICONTROL Negative value]** - Een verschuldigd bedrag wordt weergegeven als een negatieve waarde. |
-| [!UICONTROL Available Credit] | De som van de _[!UICONTROL Credit Limit]_en de_[!UICONTROL Outstanding Balance]_ . Als de onderneming de kredietlimiet heeft overschreden, wordt het bedrag weergegeven als een negatieve waarde. |
+| [!UICONTROL Available Credit] | De som van de _[!UICONTROL Credit Limit]_&#x200B;en de&#x200B;_[!UICONTROL Outstanding Balance]_ . Als de onderneming de kredietlimiet heeft overschreden, wordt het bedrag weergegeven als een negatieve waarde. |
 | [!UICONTROL Credit Limit] | Het bedrag van het aan de onderneming verstrekte krediet. |
 | [!UICONTROL Updated By] | De naam van de persoon die de bewerking heeft gestart. |
 | [!UICONTROL Custom Reference Number] | Het aangepaste referentienummer dat aan de transactie is gekoppeld. |
@@ -167,7 +167,7 @@ Voer bij het beheer van het bedrijfskrediet krachtige beveiligingsmaatregelen ui
 
 ## Aanbevolen procedures
 
-* 
+* &#x200B;
    * **Beheer van het Beleid van het Krediet** - wanneer het beheren van bedrijfskrediet, duidelijk beleid voor het plaatsen van kredietgrenzen bepalen die op de geschiedenis van de klantenbetaling en bedrijfsverhoudingen worden gebaseerd. Herzie regelmatig uitstaande saldi en betalingspatronen om risico te beoordelen, en documenteer altijd veranderingen in kredietinstellingen met gedetailleerde redenen voor controledoeleinden.
 
 Verwerk de betalingen direct om de juiste saldi te behouden en zorg ervoor dat de instellingen van de kredietvaluta in overeenstemming zijn met de primaire bedrijfsactiviteiten van elke onderneming.

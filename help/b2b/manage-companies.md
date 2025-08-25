@@ -93,7 +93,7 @@ Wanneer beheerders bedrijven beheren vanuit het bedrijfsraster, kunnen ze de vol
 
 * **Mening en beheer bedrijfsverhoudingen**
    * **Mening Verwante Bedrijven** - zie alle bedrijven verbonden aan een ouderorganisatie in één gecentraliseerde mening
-   * **de Status van het Bedrijf van de Monitor {** - Spoor actief, in afwachting van, en inactieve bedrijven binnen de hiërarchie
+   * **de Status van het Bedrijf van de Monitor &lbrace;** - Spoor actief, in afwachting van, en inactieve bedrijven binnen de hiërarchie
    * **Van het Bedrijf van de Toegang Details** - navigeer direct aan individuele pagina&#39;s van de bedrijfconfiguratie
 
 * **bouwt en wijzigt hiërarchieën**

@@ -64,9 +64,9 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
 
    >[!NOTE]
    >
-   >Als een bezoeker is aangemeld bij een geregistreerde gebruikersaccount, kan hij of zij een bedrijfsaccount maken door naar _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**te navigeren.
+   >Als een bezoeker is aangemeld bij een geregistreerde gebruikersaccount, kan hij of zij een bedrijfsaccount maken door naar _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;te navigeren.
 
-1. In de sectie _[!UICONTROL Company Information]_doet de klant het volgende:
+1. In de sectie _[!UICONTROL Company Information]_&#x200B;doet de klant het volgende:
 
    * Vul de vereiste velden in:
 
@@ -92,7 +92,7 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
 
    ![ Juridisch Adres ](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. Voer in de sectie _[!UICONTROL Company Administrator]_de volgende handelingen uit:
+1. Voer in de sectie _[!UICONTROL Company Administrator]_&#x200B;de volgende handelingen uit:
 
    * Voer de **[!UICONTROL Email address]** in voor de bedrijfsbeheerder.
 
@@ -158,9 +158,9 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
    ![ de Informatie van de Rekening ](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Wanneer u een bedrijf maakt, wordt het raster _[!UICONTROL Company Hierarchy]_leeg weergegeven wanneer u het bedrijf uitbreidt. Nadat u het bedrijf hebt opgeslagen, kunt u het in een bedrijfshiërarchie opnemen. Zie [ Beheer van het Bedrijf ](manage-companies.md).
+1. Wanneer u een bedrijf maakt, wordt het raster _[!UICONTROL Company Hierarchy]_&#x200B;leeg weergegeven wanneer u het bedrijf uitbreidt. Nadat u het bedrijf hebt opgeslagen, kunt u het in een bedrijfshiërarchie opnemen. Zie [ Beheer van het Bedrijf ](manage-companies.md).
 
-1. Voer in de sectie _[!UICONTROL Legal Address]_de volgende vereiste velden in:
+1. Voer in de sectie _[!UICONTROL Legal Address]_&#x200B;de volgende vereiste velden in:
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -254,7 +254,7 @@ Nadat een bedrijfsaccount is gemaakt, vindt het volgende proces plaats:
 ### &#x200B;2. Accountactivering
 
 * **Welkome E-mail** - Erkende bedrijfbeheerders ontvangen opstellingsinstructies
-* **- de Beheerders van de Opstelling van het 0} Wachtwoord creëren veilige wachtwoorden voor rekeningstoegang**
+* **- de Beheerders van de Opstelling van het 0&rbrace; Wachtwoord creëren veilige wachtwoorden voor rekeningstoegang**
 * **Aanvankelijke Login** - Eerste toegang tot het bedrijfdashboard en de eigenschappen
 
 ### &#x200B;3. Volgende stappen voor bedrijfsbeheerders
@@ -338,7 +338,7 @@ Bij het maken en beheren van bedrijfsaccounts:
 | Veld | Beschrijving |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | De bedrijfsnaam wordt ingevoerd wanneer het bedrijfsaccount voor het eerst wordt gemaakt en kan een verkorte versie van de volledige juridische naam zijn. |
-| [!UICONTROL Status] | (Alleen beheerder) Geeft de huidige status van de bedrijfsaccount aan. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>** Geblokkeerd **- De leden van het Bedrijf kunnen login en tot de catalogus toegang hebben, maar kunnen geen aankopen maken. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
+| [!UICONTROL Status] | (Alleen beheerder) Geeft de huidige status van de bedrijfsaccount aan. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>**&#x200B; Geblokkeerd &#x200B;**- De leden van het Bedrijf kunnen login en tot de catalogus toegang hebben, maar kunnen geen aankopen maken. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
 | [!UICONTROL Company Email] | Het e-mailadres dat aan het bedrijfsaccount is gekoppeld. |
 | [!UICONTROL Sales Representative] | (Alleen beheerder) De Admin-gebruiker die de primaire contactpersoon voor het bedrijfsaccount is. |
 
@@ -435,7 +435,7 @@ U kunt geavanceerde montages voor individuele bedrijven vormen. Als u een bedrij
 >* [ laat B2B Eigenschappen ](enable-basic-features.md) toe - vorm de fundamentele functionaliteit B2B
 >* [ de Structuur van de Rekening van het Bedrijf ](account-company-structure.md) - organiseer gebruikers en afdelingen van de storefront
 >* [ Beheer de Gebruikers van het Bedrijf ](account-company-users.md) - voeg en vorm werknemersrekeningen van storefront toe
->* [ - Begrijp beheerderverantwoordelijkheden van de Beheerder van 0} Bedrijf](account-company-admin.md)
+>* [ - Begrijp beheerderverantwoordelijkheden van de Beheerder van 0&rbrace; Bedrijf](account-company-admin.md)
 >* [ beheert Bedrijven ](manage-companies.md) - administratief overzicht van bedrijfbeheer
 >* [ Beheer van het Krediet van het Bedrijf ](credit-company.md) - opstelling en beheer bedrijfskrediet van Admin
 >* [ Werkschema van de Inkooporder ](purchase-order-flow.md) - vorm goedkeuringsprocessen van Admin

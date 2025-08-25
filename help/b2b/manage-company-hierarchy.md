@@ -43,7 +43,7 @@ Creëer in Beheer een moederbedrijf door een afzonderlijk bedrijf (`[!UICONTROL 
 
 >[!NOTE]
 >
->Voor details over het [!UICONTROL Company Hierarchy] net, zie [ de 2} gebiedsbeschrijvingen van de Hiërarchie van het Bedrijf {.](account-company-create.md#company-hierarchy)
+>Voor details over het [!UICONTROL Company Hierarchy] net, zie [ de 2&rbrace; gebiedsbeschrijvingen van de Hiërarchie van het Bedrijf &lbrace;.](account-company-create.md#company-hierarchy)
 
 Beheer bedrijfstoewijzingen door een moederbedrijf te bewerken en het raster *[!UICONTROL Company Hierarchy]* te gebruiken om bedrijven toe te voegen of te verwijderen. Gebruik de *[!UICONTROL Actions]* controle om de [ geavanceerde montagesconfiguratie ](#change-company-settings) voor bedrijven in de organisatie te beheren.
 
