@@ -1,50 +1,130 @@
 ---
 title: Bedrijfsbeheer
-description: Stroomlijn het beheer van B2B-organisaties met complexe operationele modellen.
+description: Stroomlijnd beheer en beheer van B2B-organisaties met complexe operationele modellen.
 feature: B2B, Companies, Storefront
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
+source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
 # Bedrijfsbeheer
 
-Bedrijfsbeheer stroomlijnt bedrijfsactiviteiten voor bedrijven met complexe organisatiestructuren. Beheerders kunnen een bedrijfshiërarchie bouwen om een B2B-organisatie te spiegelen door bedrijven toe te wijzen aan het aangewezen moederbedrijf. Met deze toewijzing kan de beheerder van het moederbedrijf bedrijven binnen de organisatie weergeven en beheren.
+Het beheer van het bedrijf in Adobe Commerce verstrekt uitvoerige hulpmiddelen voor beheerders om, B2B bedrijfsverhoudingen te organiseren te vormen en te controleren. Deze eigenschap is essentieel voor ondernemingen die met veelvoudige collectieve klanten, dochterondernemingen, of complexe organisatorische structuren werken.
 
-Start bedrijfsbeheertaken vanuit de *[!UICONTROL Companies]* -weergave. Ga vanuit de beheerder naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]** .
+Met bedrijfsbeheer kunt u:
 
-![ B2B leidt het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+* **organiseer BedrijfsVerhoudingen** - creeer en beheer individuele bedrijfrekeningen voor uw klanten B2B
+* **bouwt Organisatorische Hiërarchieën** - de ouder-kind verhoudingen van de Structuur die real-world bedrijfsorganisaties weerspiegelen
+* **centraliseer Beleid** - beheer veelvoudige bedrijven en hun montages van één enkele administratieve interface
+* **Stroomlijn Verrichtingen** - pas verenigbare configuraties en beleid over verwante bedrijven toe
+* **de Complexe Structuren van de Steun** - leidt dochterondernemingen, franchises, multi-locatieondernemingen, en collectieve afdelingen
 
-De kolom *[!UICONTROL Company Type]* geeft aan of een bedrijf wordt beheerd als onderdeel van een organisatie of als afzonderlijk bedrijf.
+De gebruikers van Admin kunnen een bedrijfshiërarchie bouwen om een organisatie te weerspiegelen B2B door bedrijven aan een aangewezen ouderbedrijf toe te wijzen. Met deze toewijzing kan de beheerder van het moederbedrijf bedrijven binnen de organisatie weergeven en beheren.
 
-- `Parent` is een bedrijfsorganisatie met een of meer toegewezen bedrijven. Een moederbedrijf kan niet worden toegewezen als een onderliggend bedrijf van een ander bedrijf.
+Start bedrijfsbeheertaken vanuit de *[!UICONTROL Companies]* -weergave. Ga vanuit Beheer naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]** .
 
-- `Child` is een bedrijf dat is toegewezen aan een organisatie. Een bedrijf kan slechts aan één moederbedrijf worden toegewezen.
+![ B2B beheert het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-- `Company` staat voor één bedrijf. Een enkel bedrijf kan deel uitmaken van een organisatie door het een moederbedrijf te maken of door het toe te wijzen aan een bestaand moederbedrijf.
+## Vereisten
 
-Als u een ouder- of onderliggend bedrijf bewerkt, vouwt u *[!UICONTROL Company Hierarchy]* uit om alle bedrijven in de organisatie weer te geven. Een markering `Current` geeft het bedrijf aan dat u bewerkt.
+Controleer voordat u bedrijven beheert of:
+
+* B2B-functies zijn ingeschakeld in uw Adobe Commerce-installatie
+* U hebt beheerdersrechten met bedrijfsbeheermachtigingen
+* De rekeningen van het bedrijf worden behoorlijk gevormd met noodzakelijke bedrijfsinformatie
+* Gebruikersrollen en -machtigingen zijn gedefinieerd voor bedrijfsbeheerders en gebruikers
+
+## Gebruik hoofdletters
+
+Bedrijfsbeheer is ideaal voor:
+
+* **Multilocation ondernemingen** met gecentraliseerde het kopen maar plaats-specifieke behoeften
+* **verrichtingen van de franchise** die zowel collectief toezicht als lokale autonomie vereisen
+* **Collectieve dochterondernemingen** met gedeeld beleid maar onafhankelijke verrichtingen
+* **Grote ondernemingen** met veelvoudige afdelingen of bedrijfseenheden
+* **de netwerken van de Distributie** met resellers, dealers, of kanaalpartners
+
+## Het begrip van de Hiërarchie van het Bedrijf en Bedrijfstypes
+
+De hiërarchie van het bedrijf bouwt bedrijfsverhoudingen door veelvoudige ondernemingen onder één enkele moederonderneming te organiseren. Deze functie weerspiegelt de reëel-wereld organisatiestructuren terwijl het toelaten van gecentraliseerd beheer en het bewaren van individuele bedrijfsidentiteiten.
+
+### Bedrijfstypen
+
+De kolom *[!UICONTROL Company Type]* in het raster Bedrijven toont hoe elk bedrijf binnen uw B2B-organisatie past:
+
+* **ouder** - Centrale hub met één of meerdere toegewezen bedrijven
+   * Beheert veelvoudige kindbedrijven maar kan niet aan een andere ouder worden toegewezen
+   * **het geval van het gebruik** - Collectief hoofdkwartier, belangrijkste franchise organisatie, of holding bedrijf
+
+* **Kind** - Bedrijf dat aan een ouderorganisatie wordt toegewezen
+   * Werkt onder bovenliggend beheer en kan configuraties overerven
+   * Kan slechts één bovenliggend item tegelijk hebben
+   * **geval** - de bijkantoren van het Gebruik, franchiselocaties, of regionale afdelingen
+
+* **Bedrijf** - Onafhankelijk enig bedrijf
+   * Werkt onafhankelijk zonder hiërarchische relaties
+   * Kan worden omgezet in bovenliggend element (door bedrijven toe te wijzen) of onderliggend element (door toewijzing aan bovenliggend element)
+   * **geval van het Gebruik** - Individuele bedrijfsklanten of standalone cliënten
+
+### Bedrijfstypen converteren
+
+* **Enig Bedrijf → De ouder** - wijst andere bedrijven aan het toe
+* **Enig Bedrijf → Kind** - wijs het aan een bestaand ouderbedrijf toe
+* **Kind → Enig** - wijs het kindbedrijf van zijn ouder toe
+* **Ouder → Kind** - niet mogelijk zonder eerst alle toegewezen bedrijven te verwijderen
+
+### Bedrijfshiërarchieën beheren
+
+Vouw *[!UICONTROL Company Hierarchy]* uit om alle verwante bedrijven weer te geven wanneer u bedrijven in een hiërarchie bewerkt. Een markering `Current` geeft het bedrijf aan dat wordt bewerkt.
 
 ![ B2B het net van de Hiërarchie van het Bedrijf ](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-## De [!UICONTROL Company Hierarchy] weergeven en configureren
+Voor gedetailleerde geleidelijke instructies, zie [ leiden de Hiërarchie van het Bedrijf ](manage-company-hierarchy.md).
 
-Bij het maken van het eerste bedrijf is het raster *[!UICONTROL Company Hierarchy]* leeg. Het is ook leeg als het bedrijf één bedrijf is.
+## Bedrijfstaken
 
-![ B2B het Net van de Hiërarchie van het Bedrijf ](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+Wanneer beheerders bedrijven beheren vanuit het bedrijfsraster, kunnen ze de volgende taken uitvoeren vanuit het *[!UICONTROL Company Hierarchy]* -raster:
 
-Als het bedrijf een moederbedrijf voor een organisatie is en de bedrijfsaccounts voor andere bedrijven in de organisatie al zijn geconfigureerd in Adobe Commerce, kunnen Admin-gebruikers met de juiste machtigingen bedrijven toewijzen en het *[!UICONTROL Company Hierarchy]* -raster gebruiken om andere bedrijfbeheertaken uit te voeren:
+* **Mening en beheer bedrijfsverhoudingen**
+   * **Mening Verwante Bedrijven** - zie alle bedrijven verbonden aan een ouderorganisatie in één gecentraliseerde mening
+   * **de Status van het Bedrijf van de Monitor {** - Spoor actief, in afwachting van, en inactieve bedrijven binnen de hiërarchie
+   * **Van het Bedrijf van de Toegang Details** - navigeer direct aan individuele pagina&#39;s van de bedrijfconfiguratie
 
-- Bekijk alle bedrijven die zijn gekoppeld aan het moederbedrijf.
-- Wijs meer bedrijven toe aan de organisatie vanaf de detailpagina van het moederbedrijf.
-- Verwijder een bedrijf uit een organisatie met de handeling *[!UICONTROL Unassign from parent]* .
-- Werk de *[!UICONTROL Advanced Settings]* -configuratie bij om dezelfde instellingen op meerdere bedrijven toe te passen.
+* **bouwt en wijzigt hiërarchieën**
+   * **wijs bedrijven** toe - voeg bestaande bedrijven aan een ouderorganisatie van de pagina van het bedrijfdetails toe
+   * **creeer ouder-kind verhoudingen** - de bedrijven van de Structuur om echte bedrijfsverhoudingen te weerspiegelen
+   * **reorganize structuren** - Verplaats bedrijven tussen verschillende ouderorganisaties aangezien de bedrijfsbehoeften veranderen
 
-Voor gedetailleerde instructies, zie [ de bedrijfshiërarchie ](manage-company-hierarchy.md) leiden.
+* **Bulk configuratiebeheer**
+   * **pas montages over bedrijven** toe - Update geavanceerde montages voor veelvoudige bedrijven gelijktijdig gebruikend de [!UICONTROL Actions] controle op het net van het Bedrijf
+   * **normaliseer configuraties** - verzeker verenigbaar beleid over verwante organisaties
+   * **met voeten treedt individuele montages** - duw de configuraties van het ouderbedrijf aan geselecteerde kindbedrijven
 
+* **Administratieve acties**
+   * **verwijder bedrijfverhoudingen** - gebruik de *[!UICONTROL Unassign from parent]* actie om organisatorische banden op te lossen
+   * **beheert bedrijftoegang** - Controle die de beheerders bedrijfverhoudingen kunnen bekijken en wijzigen
+   * **de hiërarchieveranderingen van de Monitor** - de wijzigingen van het Spoor aan organisatorische structuren
+
+## Aanbevolen procedures
+
+Houd bij het beheren van bedrijven rekening met de volgende aanbevolen procedures:
+
+* **de bedrijfhiërarchieën van de Bouw** - wanneer het beheren van complexe bedrijfstructuren, plan uw hiërarchie om echte bedrijfsverhoudingen aan te passen terwijl het houden van structuren eenvoudig om gebruikersverwarring te vermijden. Documenteer alle bedrijfsverhoudingen en hun bedrijfsverbindingen voor toekomstige verwijzing.
+
+* **het beheer van de Configuratie** - de configuratieveranderingen van de Test op individuele bedrijven alvorens hen op volledige hiërarchieën toe te passen, en altijd huidige montages van het document alvorens bulkveranderingen aan te brengen. Deel geplande veranderingen aan beïnvloede bedrijfbeheerders vooraf mee.
+
+* **Veiligheid** - Beperk de toestemmingen van het bedrijfbeheer tot vertrouwde op beheerders slechts, voer regelmatige overzichten van bedrijfverhoudingen en toegangstoestemmingen, en controleer alle hiërarchiefveranderingen voor controledoeleinden.
+
+>[!MORELIKETHIS]
+>
+>* [ creeer een bedrijfrekening ](account-company-create.md)
+>* [ beheer bedrijfhiërarchieën ](manage-company-hierarchy.md)
+>* [ de rollen en toestemmingen van het Bedrijf ](account-company-roles-permissions.md)
+>* [ Het kredietbeheer van het Bedrijf ](credit-company.md)
+>* [ laat B2B eigenschappen ](enable-basic-features.md) toe
