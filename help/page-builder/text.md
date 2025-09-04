@@ -114,7 +114,7 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
 1. Werk de inhoud naar wens bij.
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de tekst in de bovenliggende container wilt bepalen:
 

@@ -24,7 +24,7 @@ Koppelingen nemen hun stijl standaard over van de stijlpagina van het thema.
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_&#x200B;en klik op een element dat de editor ondersteunt.
 
 1. Plaats de curseur waar u widget wilt verschijnen en het _pictogram van Widget van het Tussenvoegsel_ klikken.
 

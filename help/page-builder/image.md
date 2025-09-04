@@ -58,7 +58,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
    >
    >De maximale bestandsgrootte is 4 MB. Ondersteunde bestandstypen zijn JPG, GIF en PNG.
 
-   - _**upload een nieuw beeld**_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
+   - _&#x200B;**upload een nieuw beeld**&#x200B;_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
 
       - Klik op **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
      Als alternatief, kunt u een beelddossier van uw systeem ook slepen en het laten vallen op het _pictogram van de Camera_ ( ![ Pictogram van de Camera ](./assets/pb-icon-camera.png){width="20"}).
 
-   - _**selecteer een bestaand activa**_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
+   - _&#x200B;**selecteer een bestaand activa**&#x200B;_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
 
       - Klik op **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
         ![ Toevoegend een geselecteerd beeld ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Onderzoek en selecteer een beeld van Adobe Stock**_: Gebruik deze methode om een beeld van Adobe Stock te vinden.
+   - _&#x200B;**Onderzoek en selecteer een beeld van Adobe Stock**&#x200B;_: Gebruik deze methode om een beeld van Adobe Stock te vinden.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidi
 
 1. Voer een van de volgende handelingen uit om de huidige **[!UICONTROL Image]** te wijzigen:
 
-   - _**upload een nieuw beeld**_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
+   - _&#x200B;**upload een nieuw beeld**&#x200B;_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
 
       - Klik op **[!UICONTROL Upload Image]**.
 
       - Zoek en kies de afbeelding die u aan de galerie en doelcontainer wilt toevoegen.
 
-   - _**selecteer een bestaand activa**_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
+   - _&#x200B;**selecteer een bestaand activa**&#x200B;_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
 
       - Klik op **[!UICONTROL Select from Gallery]**.
 

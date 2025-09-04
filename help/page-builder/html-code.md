@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elements - HTML-code
 
-Gebruik het _inhoudstype van de Code van 0} HTML {om fragmenten van HTML, CSS, en code van JavaScript in het_ stadium [[!DNL Page Builder]  toe te voegen. ](workspace.md#stage) U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
+Gebruik het _inhoudstype van de Code van 0&rbrace; HTML &lbrace;om fragmenten van HTML, CSS, en code van JavaScript in het_ stadium [[!DNL Page Builder]  toe te voegen. ](workspace.md#stage) U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
 
 ## Gereedschap HTML-code
 
@@ -84,7 +84,7 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
 
 ### Stap 3: Voorvertoning van de pagina weergeven
 
-1. Stel _[!UICONTROL Currently Active]_in op **[!UICONTROL Enable Page]**in de sectie `Yes` .
+1. Stel _[!UICONTROL Currently Active]_&#x200B;in op **[!UICONTROL Enable Page]**&#x200B;in de sectie `Yes` .
 
    ![ toelatend de pagina ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
    | Afbeelding invoegen... | Klik om een geüploade afbeelding of een afbeelding uit de galerie in te voegen op de positie van de cursor in het tekstvak HTML. |
    | Variabele invoegen... | Klik om een variabele in te voegen op de positie van de cursor in het tekstvak HTML. |
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de code binnen de bovenliggende container wilt bepalen:
 

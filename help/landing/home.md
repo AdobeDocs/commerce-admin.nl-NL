@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
 
 Welkom bij de volgende generatie van het toonaangevende platform voor digitale handel ter wereld. Adobe Commerce biedt online handelaren ongeëvenaarde flexibiliteit en controle over de vormgeving, inhoud en functionaliteit van hun online winkels. De beheerder beschikt over krachtige tools voor marketing, optimalisatie van zoekprogramma&#39;s en productbeheer waarmee u sites kunt maken die zijn afgestemd op uw unieke bedrijfsbehoeften.
 
@@ -81,7 +81,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a> [!Alleen BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op-lokale projecten."}
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Alleen PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op-lokale projecten."}
     <div>Met <em>[!DNL Page Builder] kunt u eenvoudig pagina's met rijke inhoud maken met aangepaste layouts. Deze eigenschappen worden ontworpen om kwaliteit te verbeteren, en de tijd en de kosten te verminderen om douanepagina's te produceren.</em></div>
   </td>
 </tr>

@@ -82,7 +82,7 @@ In plaats van onmiddellijk de hoeveelheden van de productvoorraad af te trekken 
 
 >[!NOTE]
 >
->[!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} het reservatiecapaciteit vereist de `inventory.reservations.updateSalabilityStatus` consument van de berichtrij om onophoudelijk te lopen. Gebruik de opdracht `bin/magento queue:consumers:list` om te controleren of de bewerking wordt uitgevoerd. Als de consument in de wachtrij niet wordt vermeld, start u deze: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus` .
+>[!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} het reservatiecapaciteit vereist de `inventory.reservations.updateSalabilityStatus` consument van de berichtrij om onophoudelijk te lopen. Gebruik de opdracht `bin/magento queue:consumers:list` om te controleren of de bewerking wordt uitgevoerd. Als de consument in de wachtrij niet wordt vermeld, start u deze: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus` .
 
 ### Bevoegdheid
 

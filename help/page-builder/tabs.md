@@ -56,7 +56,7 @@ Wanneer u met het _inhoudstype van Lusjes_ werkt, voegt u individuele lusjes en 
 
 ## Een afzonderlijk tabblad toevoegen
 
-1. Sleep de tijdelijke aanduiding [!DNL Page Builder] in het deelvenster _[!UICONTROL Layout]_onder **[!UICONTROL Tabs]**rechtstreeks naar het werkgebied of naar een rij of kolom in het werkgebied.
+1. Sleep de tijdelijke aanduiding [!DNL Page Builder] in het deelvenster _[!UICONTROL Layout]_&#x200B;onder **[!UICONTROL Tabs]**&#x200B;rechtstreeks naar het werkgebied of naar een rij of kolom in het werkgebied.
 
    ![ het slepen lusjes aan een rij ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

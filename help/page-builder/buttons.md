@@ -161,7 +161,7 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
    ![ de containertoolbox van Knopen ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Kies onder _[!UICONTROL Appearance]_de optie **[!UICONTROL Stacked]**.
+1. Kies onder _[!UICONTROL Appearance]_&#x200B;de optie **[!UICONTROL Stacked]**.
 
 1. Stel **[!UICONTROL All Buttons are same size]** in op `Yes` .
 

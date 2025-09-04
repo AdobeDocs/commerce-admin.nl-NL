@@ -38,7 +38,7 @@ De rijgereedschapset wordt weergegeven wanneer u de muisaanwijzer op de rijconta
 
 ## Een rij toevoegen
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een nieuwe **[!UICONTROL Row]**naar het werkgebied, net onder de eerste rij.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een nieuwe **[!UICONTROL Row]**&#x200B;naar het werkgebied, net onder de eerste rij.
 
 1. Om de rij te formatteren, over de rijcontainer te bewegen om toolbox te tonen en _te kiezen Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
@@ -114,7 +114,7 @@ Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is sta
 
 ### Instellingen voor afbeeldingstypen
 
-Als u de _[!UICONTROL Background Type]_op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
+Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
 ![ Achtergrondbeeld ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

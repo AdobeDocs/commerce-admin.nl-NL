@@ -34,7 +34,7 @@ Alvorens hoeveelheden en montages te wijzigen, moet u [ bronnen ](sources-manage
 
 1. Klik op **[!UICONTROL Assign Sources]** om een bron toe te voegen.
 
-1. Schakel op de pagina _[!UICONTROL Assign Sources]_het selectievakje in naast elke bron die u voor het product wilt toewijzen.
+1. Schakel op de pagina _[!UICONTROL Assign Sources]_&#x200B;het selectievakje in naast elke bron die u voor het product wilt toewijzen.
 
    ![ Product - wijs bronnen ](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
 
