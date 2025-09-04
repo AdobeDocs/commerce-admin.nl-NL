@@ -3,7 +3,7 @@ title: Optimalisatie van afbeeldingen in mediagalerie
 description: Leer hoe te om beeldoptimalisering voor uw  [!DNL Commerce]  media activa te gebruiken.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,7 +32,7 @@ Wanneer de het beeldoptimaliseringsfunctionaliteit van de Galerij van Media word
 
 Wanneer de _Maximale waarden van de Breedte_ en _Maximale Hoogte_ in de configuratie worden veranderd, werkt het alle bestaande geoptimaliseerde beelden bij die eerder werden opgenomen.
 
-Voor de optimalisatie van afbeeldingen in de medialalerie is het vereist dat de gebruikers in de wachtrij van `media.gallery.renditions.update` de geoptimaliseerde afbeeldingen opnieuw genereren wanneer de configuratie wordt gewijzigd. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) beheren in de _Gids van de Configuratie_ voor meer details.
+Voor de optimalisatie van afbeeldingen in de medialalerie is het vereist dat de gebruikers in de wachtrij van `media.gallery.renditions.update` de geoptimaliseerde afbeeldingen opnieuw genereren wanneer de configuratie wordt gewijzigd. Zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_ voor meer details.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

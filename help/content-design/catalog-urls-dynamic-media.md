@@ -3,7 +3,7 @@ title: Dynamische media-URL's
 description: Meer informatie over het gebruik van een dynamische media-URL als een relatieve verwijzing naar een afbeelding of ander media-element.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '289'
