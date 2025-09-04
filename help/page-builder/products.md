@@ -3,7 +3,7 @@ title: Inhoud toevoegen - Producten
 description: Leer over het inhoudstype van Producten, dat wordt gebruikt om een lijst van producten aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -63,7 +63,7 @@ De volgende instructies tonen hoe te om een lijst van Producten aan een blok toe
 
 1. Schuif omlaag en klik op **[!UICONTROL Edit with Page Builder]** of in het voorvertoningsgebied van de inhoud om de werkruimte van [!DNL Page Builder] te openen.
 
-1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Products]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Products]** naar het werkgebied.
 
    ![ voeg het inhoudstype van Producten ](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"} toe
 
@@ -252,3 +252,5 @@ Als u een productcarrousel vormde, zou het aan het volgende voorbeeld gelijkaard
 ![ carrousel van het Product op het stadium ](./assets/pb-products-admin-carousel.png){width="600"}
 
 U kunt a [ widget ](../content-design/widgets.md) nu gebruiken om dit blok te plaatsen waar u het in de opslag wilt verschijnen. Of, kunt u [ gebruiken voeg Inhoud - Blok ](block.md) toe om het blok aan een bestaande pagina, een lusje, of een blok toe te voegen.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

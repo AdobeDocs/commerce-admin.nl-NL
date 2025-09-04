@@ -3,7 +3,7 @@ title: Elements - Knoppen
 description: Leer over het inhoudstype van Knopen, dat wordt gebruikt om een individuele knoop of een reeks knopen in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -161,7 +161,7 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
    ![ de containertoolbox van Knopen ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Kies onder _[!UICONTROL Appearance]_&#x200B;de optie **[!UICONTROL Stacked]**.
+1. Kies onder _[!UICONTROL Appearance]_de optie **[!UICONTROL Stacked]**.
 
 1. Stel **[!UICONTROL All Buttons are same size]** in op `Yes` .
 
@@ -300,3 +300,5 @@ U kunt de _[!UICONTROL Advanced]_-instellingen voor afzonderlijke knoppen en voo
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

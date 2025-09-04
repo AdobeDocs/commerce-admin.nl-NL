@@ -3,8 +3,8 @@ title: Middelen in galerie beheren
 description: Leer hoe u geüploade mediabestanden en elementen die u via Adobe Stock-integratie aanschaft, beheert.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Middelen in galerie beheren
 
-De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [&#128279;](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
+De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [ ](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
 
 ## Middelen uploaden
 
@@ -134,3 +134,5 @@ Assets kan uitgebreid door Admin worden gebruikt, zoals [ een pagina ](page-add.
 1. Klik op de tab **[!UICONTROL Filters]** en selecteer het selectievakje **[!UICONTROL Show duplicates]** .
 
 1. Klik op **[!UICONTROL Apply Filters]** om de resultaten weer te geven.
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

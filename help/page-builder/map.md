@@ -3,7 +3,7 @@ title: Media - toewijzen
 description: Leer over het inhoudstype van de Kaart, dat wordt gebruikt om een kaart van  [!DNL Google Maps]  Platform aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u 
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -88,7 +88,7 @@ Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u 
 
 1. Open de pagina, het blok of het dynamische blok naar de werkruimte van [!DNL Page Builder] .
 
-1. Vouw **[!UICONTROL Media]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Map]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Media]** en sleep een tijdelijke aanduiding **[!UICONTROL Map]** naar het werkgebied.
 
    ![ slepend een kaart aan het stadium ](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Afhankelijk van het feit of u al een [!DNL Google Maps] -toets hebt, gebruikt u 
 
 1. Beweeg over de kaartcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. Klik in de rechterbovenhoek van de pagina _[!UICONTROL Edit Map]_&#x200B;op **[!UICONTROL Add Location]**.
+1. Klik in de rechterbovenhoek van de pagina _[!UICONTROL Edit Map]_op **[!UICONTROL Add Location]**.
 
 1. Voer de **[!UICONTROL Location Name]** in die u aan de pin op de kaart wilt koppelen.
 
@@ -160,7 +160,7 @@ Met de wizard [!DNL Google Maps] Platformstijlen kunt u een van de zes vooraf ge
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -266,7 +266,7 @@ De netgrootte bepaalt de grootte van de kaart met betrekking tot a [ kolom ](col
 
 1. In _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit.
 
@@ -290,3 +290,5 @@ De netgrootte bepaalt de grootte van de kaart met betrekking tot a [ kolom ](col
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

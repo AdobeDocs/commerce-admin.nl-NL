@@ -3,7 +3,7 @@ title: Layout - Rij
 description: Leer over het inhoudstype van de Rij, dat wordt gebruikt om een rij in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De rijgereedschapset wordt weergegeven wanneer u de muisaanwijzer op de rijconta
 
 ## Een rij toevoegen
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een nieuwe **[!UICONTROL Row]**&#x200B;naar het werkgebied, net onder de eerste rij.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een nieuwe **[!UICONTROL Row]**naar het werkgebied, net onder de eerste rij.
 
 1. Om de rij te formatteren, over de rijcontainer te bewegen om toolbox te tonen en _te kiezen Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
@@ -114,7 +114,7 @@ Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is sta
 
 ### Instellingen voor afbeeldingstypen
 
-Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
+Als u de _[!UICONTROL Background Type]_op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
 ![ Achtergrondbeeld ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Gebruik deze opties om de snelheid van een schuivende achtergrondafbeelding of -
   {style="table-layout:auto"}
 
   ![ Marges en het Opvullen ](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

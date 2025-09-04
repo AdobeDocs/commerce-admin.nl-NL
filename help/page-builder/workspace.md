@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] Workspace'
 description: Leer over de hulpmiddelen beschikbaar in de  [!DNL Page Builder]  werkruimte wanneer u basispagina's, product en cataloguspagina's, blokken, en dynamische blokken creeert.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-Wanneer [[!DNL Page Builder]  ](setup.md) wordt toegelaten, worden de _[!UICONTROL Content]_&#x200B;sectie en het proces van de inhoudsverwezenlijking gewijzigd om uit de geavanceerde [!DNL Page Builder] hulpmiddelen voor CMS [ pagina&#39;s ](../content-design/page-add.md), [ product ](../catalog/product-content.md) en [ categorie ](../catalog/categories-content-settings.md) pagina&#39;s, [ blokken ](../content-design/block-add.md), en [ dynamische blokken ](../content-design/dynamic-blocks.md) voordeel te halen. Deze sectie omvat het gebied van de Kop van de a_ Inhoud _, een voorproef van de inhoud, en gemakkelijke toegang tot het volledig-schermwerkruimte [!DNL Page Builder].
+Wanneer [[!DNL Page Builder]  ](setup.md) wordt toegelaten, worden de _[!UICONTROL Content]_sectie en het proces van de inhoudsverwezenlijking gewijzigd om uit de geavanceerde [!DNL Page Builder] hulpmiddelen voor CMS [ pagina&#39;s ](../content-design/page-add.md), [ product ](../catalog/product-content.md) en [ categorie ](../catalog/categories-content-settings.md) pagina&#39;s, [ blokken ](../content-design/block-add.md), en [ dynamische blokken ](../content-design/dynamic-blocks.md) voordeel te halen. Deze sectie omvat het gebied van de Kop van de a_ Inhoud _, een voorproef van de inhoud, en gemakkelijke toegang tot het volledig-schermwerkruimte [!DNL Page Builder].
 
 ![ sectie van de Inhoud met [!DNL Page Builder] voorproef ](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,15 @@ Omdat zoekprogramma&#39;s op niveau 1 (H1) koppen zoeken, is het toevoegen van e
 
 >[!NOTE]
 >
->Het veld _[!UICONTROL Content Heading]_&#x200B;dat boven aan de pagina wordt weergegeven, is een verouderd veld dat inhoud ondersteunt die is gemaakt met eerdere [!DNL Commerce] -releases. Het maakt echter geen deel uit van [!DNL Page Builder] . De [!UICONTROL Content Heading] wordt opgemaakt als een H1-kop op basis van het stijlblad dat aan het huidige thema is gekoppeld. Deze bevindt zich vlak boven het actieve inhoudsgebied dat wordt gedefinieerd door het [!DNL Page Builder] -werkgebied.
+>Het veld _[!UICONTROL Content Heading]_dat boven aan de pagina wordt weergegeven, is een verouderd veld dat inhoud ondersteunt die is gemaakt met eerdere [!DNL Commerce] -releases. Het maakt echter geen deel uit van [!DNL Page Builder] . De [!UICONTROL Content Heading] wordt opgemaakt als een H1-kop op basis van het stijlblad dat aan het huidige thema is gekoppeld. Deze bevindt zich vlak boven het actieve inhoudsgebied dat wordt gedefinieerd door het [!DNL Page Builder] -werkgebied.
 
-Voor de beste controle over het plaatsen en het formaat van rubrieken van alle niveaus, adviseert men dat u het _[!UICONTROL Content Heading]_&#x200B;gebied leeg verlaat, en het [!DNL Page Builder] [&#128279;](heading.md) inhoudstype van de Rubriek gebruikt.
+Voor de beste controle over het plaatsen en het formaat van rubrieken van alle niveaus, adviseert men dat u het _[!UICONTROL Content Heading]_gebied leeg verlaat, en het [!DNL Page Builder] [ ](heading.md) inhoudstype van de Rubriek gebruikt.
 
 ![ Kop van de Inhoud en andere rubrieken ](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Voorvertoning
 
-Wanneer u de sectie _[!UICONTROL Content]_&#x200B;uitbreidt en er bestaande inhoud met [!DNL Page Builder] is gemaakt, wordt een voorvertoning van de inhoud weergegeven zoals deze op een pagina wordt weergegeven. Klik op **[!UICONTROL Edit with Page Builder]**&#x200B;of in het voorvertoningsgebied voor inhoud om de [!DNL Page Builder] -werkruimte te openen, waar u de benodigde updates kunt uitvoeren.
+Wanneer u de sectie _[!UICONTROL Content]_uitbreidt en er bestaande inhoud met [!DNL Page Builder] is gemaakt, wordt een voorvertoning van de inhoud weergegeven zoals deze op een pagina wordt weergegeven. Klik op **[!UICONTROL Edit with Page Builder]**of in het voorvertoningsgebied voor inhoud om de [!DNL Page Builder] -werkruimte te openen, waar u de benodigde updates kunt uitvoeren.
 
 ![ de beschrijvingsvoorproef van het Product ](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Standaard biedt [!DNL Page Builder] twee voorvertoningen van viewport:
 
 ### Instellingen voor onderbrekingspunten
 
-Met de viewport-knoppen kunt u ook verschillende onderbrekingspuntstijlen toepassen op inhoudstypen op basis van de geselecteerde viewport. Standaard biedt [!DNL Page Builder] onderbrekingspuntinstellingen voor de velden _[!UICONTROL Minimum Height]_&#x200B;Rijen, Kolommen, Tabs, Tabitems, Banners, Sliders en Dia&#39;s. Wanneer u de Mobiele viewport selecteert, dan open de redacteur voor één van die inhoudstypes, kunt u gebiedswaarden ingaan specifiek voor de Mobiele viewport breekpunten. In velden met inhoudstypen die specifieke instellingen voor onderbrekingspunten toestaan, wordt rechts van het veld een pictogram weergegeven, vergelijkbaar met het volgende voorbeeld voor een rij:
+Met de viewport-knoppen kunt u ook verschillende onderbrekingspuntstijlen toepassen op inhoudstypen op basis van de geselecteerde viewport. Standaard biedt [!DNL Page Builder] onderbrekingspuntinstellingen voor de velden _[!UICONTROL Minimum Height]_Rijen, Kolommen, Tabs, Tabitems, Banners, Sliders en Dia&#39;s. Wanneer u de Mobiele viewport selecteert, dan open de redacteur voor één van die inhoudstypes, kunt u gebiedswaarden ingaan specifiek voor de Mobiele viewport breekpunten. In velden met inhoudstypen die specifieke instellingen voor onderbrekingspunten toestaan, wordt rechts van het veld een pictogram weergegeven, vergelijkbaar met het volgende voorbeeld voor een rij:
 
 ![ de indicator van het Pictogram voor breekpunt die ](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"} plaatst
 
@@ -87,7 +87,7 @@ Het deelvenster [!DNL Page Builder] bevindt zich links van het werkgebied en bev
 
 ### Layout
 
-De sectie _[!UICONTROL Layout]_&#x200B;van het deelvenster [!DNL Page Builder] wordt gebruikt om rijen, kolommen of tabs toe te voegen aan het werkgebied. Wanneer u een inhoudstype van het paneel aan het stadium sleept, verschijnt een container met toolbox van opties die voor het inhoudstype specifiek zijn.
+De sectie _[!UICONTROL Layout]_van het deelvenster [!DNL Page Builder] wordt gebruikt om rijen, kolommen of tabs toe te voegen aan het werkgebied. Wanneer u een inhoudstype van het paneel aan het stadium sleept, verschijnt een container met toolbox van opties die voor het inhoudstype specifiek zijn.
 
 Standaard is het werkgebied van [!DNL Page Builder] leeg. Terwijl u de inhoudstypen van de lay-out van het deelvenster naar het werkgebied sleept, kunt u ze boven, onder of in andere lay-outcontainers op de pagina plaatsen. Rijen kunnen alleen rechtstreeks aan het werkgebied worden toegevoegd.
 
@@ -103,7 +103,7 @@ Standaard is het werkgebied van [!DNL Page Builder] leeg. Terwijl u de inhoudsty
 
 ### Elementen
 
-Gebruik de _[!UICONTROL Elements]_&#x200B;sectie van het [!DNL Page Builder] paneel om tekst, rubrieken, knopen, verdelers, en code van de HTML aan om het even welke lay-outcontainer op het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer u een inhoudstype van het paneel aan of een rij of een kolom, of aan een lusjereeks op het stadium sleept, verschijnt een container. Gebruik de gereedschapset voor inhoudstypen voor toegang tot de instellingen die specifiek zijn voor de tekst.
+Gebruik de _[!UICONTROL Elements]_sectie van het [!DNL Page Builder] paneel om tekst, rubrieken, knopen, verdelers, en code van HTML aan om het even welke lay-outcontainer op het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer u een inhoudstype van het paneel aan of een rij of een kolom, of aan een lusjereeks op het stadium sleept, verschijnt een container. Gebruik de gereedschapset voor inhoudstypen voor toegang tot de instellingen die specifiek zijn voor de tekst.
 
 ![[!DNL Page Builder] met inhoudstypen voor Element ](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -113,13 +113,13 @@ Gebruik de _[!UICONTROL Elements]_&#x200B;sectie van het [!DNL Page Builder] pan
 | [ Kop ](heading.md) | Voegt een kopcontainer toe aan het werkgebied. |
 | [ Knopen ](buttons.md) | Hiermee voegt u een container voor een afzonderlijke knop of een set knoppen toe aan het werkgebied. |
 | [ Scheidingsreiziger ](divider.md) | Voegt een container voor een scheidingslijn toe aan het werkgebied. |
-| [ HTML Code ](html-code.md) | Voegt een container voor HTML-code toe aan het werkgebied. |
+| [ de Code van HTML ](html-code.md) | Voegt een container voor HTML-code toe aan het werkgebied. |
 
 {style="table-layout:auto"}
 
 ### Media
 
-Gebruik de _[!UICONTROL Media]_&#x200B;sectie van het [!DNL Page Builder] paneel om beelden, video, banners, schuiven, en [!DNL Google Maps] aan om het even welke lay-outcontainer op het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer een type media-inhoud van het deelvenster naar het werkgebied wordt gesleept, wordt een container weergegeven met een gereedschapset met opties die specifiek zijn voor het inhoudstype.
+Gebruik de _[!UICONTROL Media]_sectie van het [!DNL Page Builder] paneel om beelden, video, banners, schuiven, en [!DNL Google Maps] aan om het even welke lay-outcontainer op het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer een type media-inhoud van het deelvenster naar het werkgebied wordt gesleept, wordt een container weergegeven met een gereedschapset met opties die specifiek zijn voor het inhoudstype.
 
 ![[!DNL Page Builder] met media-inhoudstypen ](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Gebruik de _[!UICONTROL Media]_&#x200B;sectie van het [!DNL Page Builder] paneel
 
 ### Inhoud toevoegen
 
-Gebruik de _[!UICONTROL Add Content]_&#x200B;sectie van het [!DNL Page Builder] paneel om bestaande inhoud aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer u een inhoudstype voor media van het deelvenster naar het werkgebied sleept, wordt een container weergegeven. Gebruik inhoudstype toolbox om tot de_ Montages _toegang te hebben die voor het type specifiek zijn.
+Gebruik de _[!UICONTROL Add Content]_sectie van het [!DNL Page Builder] paneel om bestaande inhoud aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer u een inhoudstype voor media van het deelvenster naar het werkgebied sleept, wordt een container weergegeven. Gebruik inhoudstype toolbox om tot de_ Montages _toegang te hebben die voor het type specifiek zijn.
 
 ![[!DNL Page Builder] met Typen inhoud toevoegen ](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Gebruik de _[!UICONTROL Add Content]_&#x200B;sectie van het [!DNL Page Builder] 
 | [ Blok ](block.md) | Voegt een bestaand blok aan het stadium toe. |
 | [ Dynamisch Blok ](dynamic-block.md) | Voegt een bestaand dynamisch blok toe aan het werkgebied. |
 | [ Producten ](products.md) | Hiermee voegt u een lijst met producten toe aan het werkgebied. |
-| ![ Adobe Commerce slechts ](../assets/adobe-logo.svg) [ Recommendations van het Product ](recommendations.md) | Voegt een aanbevolen eenheid aan het stadium toe. |
+| ![ Adobe Commerce slechts ](../assets/adobe-logo.svg) [ Aanbevelingen van het Product ](recommendations.md) | Voegt een aanbevolen eenheid aan het stadium toe. |
 
 {style="table-layout:auto"}
 
@@ -174,3 +174,5 @@ Houd de muisaanwijzer boven de container om de gereedschapset weer te geven en k
 {style="table-layout:auto"}
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

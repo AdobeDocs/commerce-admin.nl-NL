@@ -3,7 +3,7 @@ title: Inhoud toevoegen - Blokkeren
 description: Leer over het inhoudstype van het Blok, dat wordt gebruikt om een herbruikbaar blok aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 1. Navigeer naar de werkruimte [!DNL Page Builder] op de doelpagina, het blok, het dynamische blok, het product of de categorie.
 
-1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Block]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Block]** naar het werkgebied.
 
    ![ slepend een blok op het stadium ](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
@@ -146,3 +146,5 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen verwijder_ (![ verwijder pictogram ](./assets/pb-icon-remove.png)).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

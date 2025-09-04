@@ -3,7 +3,7 @@ title: persistentie van winkelwagentjes
 description: Leer hoe een hardnekkig winkelwagentje niet-aangeschafte winkelartikelen bijhoudt en de informatie voor het volgende bezoek van de klant opslaat.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Om het gebruik van kartpersistentie voor uw plaats of binnen specifieke archiefm
 
 ## Blijvende workflow voor winkelwagentjes
 
-Wanneer het blijvende het winkelwagentje [&#128279;](#configure-a-persistent-cart) wordt toegelaten, hangt het werkschema van af:
+Wanneer het blijvende het winkelwagentje [ ](#configure-a-persistent-cart) wordt toegelaten, hangt het werkschema van af:
 
-- De waarden van de instellingen _[!UICONTROL Enable Remember Me]_&#x200B;en&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
-- De beslissing van de klant om het selectievakje _[!UICONTROL Remember Me]_&#x200B;in of uit te schakelen
+- De waarden van de instellingen _[!UICONTROL Enable Remember Me]_en_[!UICONTROL Clear Persistence on Log Out]_
+- De beslissing van de klant om het selectievakje _[!UICONTROL Remember Me]_in of uit te schakelen
 - Wanneer de permanente cookie wordt gewist
 
 Wanneer de klantensessie verloopt, wordt een koppeling `Not Jane Smith?` onder de volgende voorwaarden weergegeven in de paginakoptekst:
-- de aangemelde klant heeft de optie _[!UICONTROL Remember Me]_&#x200B;geselecteerd en er wordt een permanente cookie toegepast
-- de klant meldt zich af wanneer het systeem is geconfigureerd met _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;ingesteld op `No` .
+- de aangemelde klant heeft de optie _[!UICONTROL Remember Me]_geselecteerd en er wordt een permanente cookie toegepast
+- de klant meldt zich af wanneer het systeem is geconfigureerd met _[!UICONTROL Clear Persistence on Sign Out]_ingesteld op `No` .
 
 Het systeem houdt een verslag van de het winkelwagentinhoud op het huidige apparaat, zelfs als de het programma geopende zitting verloopt. Met de koppeling `Not Jane Smith?` kan de klant de blijvende sessie beëindigen en als gast gaan werken, of zich aanmelden als een andere of dezelfde klant.
 
-Als de klant tijdens het aanmelden het selectievakje _[!UICONTROL Remember Me]_&#x200B;heeft ingeschakeld, wordt in uw winkel een aparte, permanente cookie gemaakt en onderhouden. Met dit cookie blijft het winkelwagentje van de klant toegankelijk, zelfs nadat de browser is gesloten of naar een andere site is gegaan en de aangemelde sessie is verlopen.
+Als de klant tijdens het aanmelden het selectievakje _[!UICONTROL Remember Me]_heeft ingeschakeld, wordt in uw winkel een aparte, permanente cookie gemaakt en onderhouden. Met dit cookie blijft het winkelwagentje van de klant toegankelijk, zelfs nadat de browser is gesloten of naar een andere site is gegaan en de aangemelde sessie is verlopen.
 
 Als dezelfde klant uw winkel bezoekt met meerdere browsers terwijl hij zich heeft aangemeld of als een permanente sessie actief is, worden de wijzigingen die de klant aanbrengt in de inhoud van het winkelwagentje in één browser weerspiegeld in andere browsers wanneer de pagina wordt vernieuwd.
 
@@ -48,7 +48,7 @@ Als dezelfde klant uw winkel bezoekt met meerdere browsers terwijl hij zich heef
 
 ### Functie van het selectievakje Onthouden
 
-Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_&#x200B;inschakelen op de aanmeldingspagina, de verificatiepop-up, inloggen bij uitchecken of bij het maken van een nieuwe account om de inhoud van het winkelwagentje toegankelijk te houden op het huidige apparaat wanneer de aanmeldingssessie verloopt.
+Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_inschakelen op de aanmeldingspagina, de verificatiepop-up, inloggen bij uitchecken of bij het maken van een nieuwe account om de inhoud van het winkelwagentje toegankelijk te houden op het huidige apparaat wanneer de aanmeldingssessie verloopt.
 
 | Herinner me? | Resultaat |
 | ------------ |  ------ |
@@ -89,3 +89,5 @@ Als u het hardnekkige winkelwagentje wilt gebruiken, moet de browser van de klan
 Voor meer informatie over hoe deze configuratiemontages het klantenwerkschema beïnvloeden, zie [ het Blijvende werkschema van het karretje ](#persistent-cart-workflow).
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->

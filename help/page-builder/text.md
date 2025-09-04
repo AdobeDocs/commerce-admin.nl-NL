@@ -3,7 +3,7 @@ title: Elementen - tekst
 description: Leer over het inhoudstype van de Tekst, dat wordt gebruikt om een tekstcontainer in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elementen - tekst
 
-Gebruik het _inhoudstype van de Tekst_ om een tekstcontainer met een WYSIWYG (&quot;wat u ziet is wat u&quot;krijgt) redacteur in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Bovendien kunt u verbindingen, beelden, [ variabelen ](../systems/variables-predefined.md), en widgets aan de tekst van de redacteurstoolbar toevoegen.
+Gebruik het _inhoudstype van de Tekst_ om een tekstcontainer met een redacteur van WYSIWYG (&quot;What You See Is What You Get&quot;) in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Bovendien kunt u verbindingen, beelden, [ variabelen ](../systems/variables-predefined.md), en widgets aan de tekst van de redacteurstoolbar toevoegen.
 
 ![ Opgemaakte tekst op een banner ](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -82,7 +82,7 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
    Het koppelingskenmerk `Title` wordt door sommige browsers gebruikt als knopinfo.
 
-1. Klik op **[!UICONTROL OK]** om de koppeling op te slaan en terug te keren naar de werkruimte van [!DNL Page Builder] .
+1. Klik op [!DNL Page Builder] om de koppeling op te slaan en terug te keren naar de werkruimte van **[!UICONTROL OK]** .
 
    ![ het detail van de Verbinding ](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
@@ -114,7 +114,7 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
 1. Werk de inhoud naar wens bij.
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de tekst in de bovenliggende container wilt bepalen:
 
@@ -170,3 +170,5 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
      {style="table-layout:auto"}
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

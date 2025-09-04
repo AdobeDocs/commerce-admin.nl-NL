@@ -2,8 +2,8 @@
 title: Widgets
 description: Leer over widgets, die een codefragment verstrekken dat het mogelijk maakt om een brede waaier van inhoud te tonen en het bij specifieke blokverwijzingen in uw opslag te plaatsen.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ Wanneer u [ een widget ](widget-create.md) creeert, moet u het type plaatsen. Di
 | [!UICONTROL Wish List Search] | Gebruik deze optie om een klant de capaciteit te geven om naar openbaar beschikbare wenslijsten door de naam of e-mailadres van de bezitter van de verlanglijst te zoeken. Winkelklanten kunnen wensenlijsten vinden die bij andere klanten horen, hen bekijken en producten van hen bestellen, of de producten toevoegen aan hun eigen wensen lijsten. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: Media - banner
 description: Leer over het inhoudstype van de Banner dat voor het toevoegen van een geïllustreerde, interactieve component in het  [!DNL Page Builder]  stadium wordt gebruikt.
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Media - banner
 
-Gebruik het _inhoudstype van de Banner_ om een geïllustreerde, interactieve component toe te voegen die gebruikers met een vraag aan actie en knoop in het [[!DNL Page Builder]  stadium ](workspace.md#stage) in dienst neemt.
+Gebruik het _inhoudstype van de Banner_ om een geïllustreerde, interactieve component toe te voegen die gebruikers met een call to action en knoop in het [[!DNL Page Builder]  stadium ](workspace.md#stage) in dienst neemt.
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ De bannergereedschapset wordt weergegeven wanneer u de muisaanwijzer op de banne
 
 ## Een banner toevoegen
 
-1. Vouw **[!UICONTROL Media]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Banner]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Media]** en sleep een tijdelijke aanduiding **[!UICONTROL Banner]** naar het werkgebied.
 
    ![ slepend een type van bannerinhoud aan het stadium ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   De knoppen _[!UICONTROL Upload Image]_&#x200B;en&#x200B;_[!UICONTROL Select from Gallery]_ zijn opgenomen zodat u de bannerinhoud direct vanuit het werkgebied kunt wijzigen. U kunt ook de inhoud op de _[!UICONTROL Edit Banner]_-pagina wijzigen.
+   De knoppen _[!UICONTROL Upload Image]_en_[!UICONTROL Select from Gallery]_ zijn opgenomen zodat u de bannerinhoud direct vanuit het werkgebied kunt wijzigen. U kunt ook de inhoud op de _[!UICONTROL Edit Banner]_-pagina wijzigen.
 
 1. Klik in bannerplaceholder om de [ tekstredacteur ](../content-design/editor.md) te tonen en inhoud voor de banner in te gaan.
 
@@ -67,7 +67,7 @@ De bannergereedschapset wordt weergegeven wanneer u de muisaanwijzer op de banne
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wanneer u klaar bent, klikt u op **[!UICONTROL Save]** in de rechterbovenhoek om de pagina _[!UICONTROL Edit Banner]_&#x200B;te sluiten.
+1. Wanneer u klaar bent, klikt u op **[!UICONTROL Save]** in de rechterbovenhoek om de pagina _[!UICONTROL Edit Banner]_te sluiten.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -183,7 +183,7 @@ Als u het _Type van Achtergrond_ aan `Image` plaatst, gebruik de volgende montag
 
 ### Instellingen voor videotypen
 
-Als u de _[!UICONTROL Background Type]_&#x200B;op `Video` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
+Als u de _[!UICONTROL Background Type]_op `Video` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
 - **[!UICONTROL Video URL]** - Voer een geldige video-URL in. Geldige video-URL&#39;s kunnen koppelingen zijn naar:
 
@@ -223,7 +223,7 @@ U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de i
 
 1. Beweeg over de bannercontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}).
 
-1. Blader omlaag naar de sectie _[!UICONTROL Content]_&#x200B;en gebruik de editor **[!UICONTROL Message Text]**&#x200B;om bannertekst in te voeren en op te maken.
+1. Blader omlaag naar de sectie _[!UICONTROL Content]_en gebruik de editor **[!UICONTROL Message Text]**om bannertekst in te voeren en op te maken.
 
    U kunt ook elementen invoegen, zoals tekstkoppelingen, afbeeldingen en widgets.
 
@@ -240,7 +240,7 @@ U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de i
 
    >[!NOTE]
    >
-   >Vanaf versie 2.4.1 ondersteunt [!DNL Page Builder] geen koppeling meer tussen de banner en koppelingen in de geneste tekst vanwege problemen met de weergave op de winkel. Als u een koppeling gebruikt in de _[!UICONTROL Message Text]_, kunt u de optie&#x200B;_[!UICONTROL Link]_ niet configureren. Als u verkiest één enkele verbinding voor de volledige banner te gebruiken, kunt u alle verbindingen uit de tekst verwijderen.<br/>
+   >Vanaf versie 2.4.1 ondersteunt [!DNL Page Builder] geen koppeling meer tussen de banner en koppelingen in de geneste tekst vanwege problemen met de weergave op de winkel. Als u een koppeling gebruikt in de _[!UICONTROL Message Text]_, kunt u de optie_[!UICONTROL Link]_ niet configureren. Als u verkiest één enkele verbinding voor de volledige banner te gebruiken, kunt u alle verbindingen uit de tekst verwijderen.<br/>
    >
    >![ de configuratie van de Verbinding wordt geblokkeerd ](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -369,3 +369,5 @@ Tekst voor deze instellingen is zichtbaar voor zoekprogramma&#39;s en verbetert 
    | [!UICONTROL Padding] | De hoeveelheid lege ruimte die wordt toegepast op de binnenrand van alle zijden van de container. |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

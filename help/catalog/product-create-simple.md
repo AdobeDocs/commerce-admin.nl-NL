@@ -3,7 +3,7 @@ title: Eenvoudig product
 description: Leer hoe u een eenvoudig product maakt dat afzonderlijk of als onderdeel van een gegroepeerd, configureerbaar of gebundeld product kan worden verkocht.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Als u _[!UICONTROL Categories]_&#x200B;aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**&#x200B;en voert u een van de volgende handelingen uit:
+1. Als u _[!UICONTROL Categories]_aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**en voert u een van de volgende handelingen uit:
 
    **kies een bestaande categorie**:
 
@@ -122,7 +122,7 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 - [Ontwerp](settings-advanced-design.md)
 - [Cadeauopties](product-gift-options.md)
 
-## Stap 6: Publish het product
+## Stap 6: Het product publiceren
 
 1. Als u het product wilt publiceren in de catalogus, stelt u de **[!UICONTROL Enable Product]** switch in op `Yes` .
 
@@ -149,3 +149,5 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 - De eenvoudige productconfiguratie treedt configureerbare productconfiguraties voor een specifiek product met voeten.
 
 - Een eenvoudig product kan aangepaste opties hebben met verschillende typen invoer, waardoor het mogelijk is om veel productvariaties van één SKU te verkopen.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

@@ -1,9 +1,9 @@
 ---
 title: Elements - HTML-code
-description: Leer over het inhoudstype van de Code van de HTML, dat wordt gebruikt om fragmenten van HTML, CSS, en code van JavaScript in het  [!DNL Page Builder]  stadium toe te voegen.
+description: Leer over het inhoudstype van de Code van HTML, dat wordt gebruikt om fragmenten van HTML, CSS, en code van JavaScript in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elements - HTML-code
 
-Gebruik het _inhoudstype van de Code 0&rbrace; HTML &lbrace;om fragmenten van HTML, CSS, en code van JavaScript in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen._ U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
+Gebruik het _inhoudstype van de Code van 0} HTML {om fragmenten van HTML, CSS, en code van JavaScript in het_ stadium [[!DNL Page Builder]  toe te voegen. ](workspace.md#stage) U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
 
 ## Gereedschap HTML-code
 
@@ -20,18 +20,18 @@ Gebruik het _inhoudstype van de Code 0&rbrace; HTML &lbrace;om fragmenten van HT
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ---------- | ----------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de container van de Code van de HTML naar een andere geldige plaats op de pagina. |
+| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de HTML Code-container naar een andere geldige plaats op de pagina. |
 | Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina HTML-code bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van de HTML. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de verborgen container van de Code van HTML. |
+| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van HTML. |
+| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen HTML Code-container weergegeven. |
 | Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container HTML Code. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de container HTML Code en de inhoud ervan uit het werkgebied. |
+| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Verwijdert de container HTML Code en de inhoud ervan uit het werkgebied. |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## HTML-code toevoegen
 
-Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de Doopvont van Google &lbrack; en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
+Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont van Google ][1] en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
 
 ### Stap 1: Kies een Google-lettertype
 
@@ -66,17 +66,17 @@ Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de 
 
    Gebruik de rode hulplijn om de scheidingslijn voor of na een andere inhoudscontainer in de rij, kolom of tabset te plaatsen.
 
-   ![ slepend een placeholder van de Code van de HTML aan het stadium ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![ slepend een placeholder van de Code van HTML aan het stadium ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Beweeg over de container van de HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}), pictogram.
+1. Beweeg over de container van HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}), pictogram.
 
 1. Plak in het tekstvak de code en stijldeclaraties voor Google-fonts insluiten die u hebt voorbereid.
 
    U kunt een paar spaties invoeren om de code te laten inspringen, zodat u deze eenvoudiger kunt lezen.
 
-   ![ HTML code en stijlen ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![ de code en de stijlen van HTML ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Werk de resterende montages zoals nodig bij (zie {de codecontages van de HTML van 0} Verandering [&#128279;](#html-settings) voor details).
+1. Werk de resterende montages zoals nodig bij (zie [ de codemontages van HTML van de Verandering ](#html-settings) voor details).
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -84,7 +84,7 @@ Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de 
 
 ### Stap 3: Voorvertoning van de pagina weergeven
 
-1. Stel **[!UICONTROL Enable Page]** in op `Yes` in de sectie _[!UICONTROL Currently Active]_.
+1. Stel _[!UICONTROL Currently Active]_in op **[!UICONTROL Enable Page]**in de sectie `Yes` .
 
    ![ toelatend de pagina ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -94,9 +94,9 @@ Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de 
 
    ![ Voorproef de paginakoppen met de nieuwe doopvontfamilie ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
-## Instellingen voor HTML-code wijzigen {#html-settings}
+## HTML-code-instellingen wijzigen {#html-settings}
 
-1. Beweeg over de container van de HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de container van HTML om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
 1. Bewerk in het tekstvak de code naar wens.
 
@@ -108,9 +108,9 @@ Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de 
    | ------ | ----------- |
    | Widget invoegen... | Klik om een widget in te voegen op de positie van de cursor in het tekstvak HTML. |
    | Afbeelding invoegen... | Klik om een geüploade afbeelding of een afbeelding uit de galerie in te voegen op de positie van de cursor in het tekstvak HTML. |
-   | Variabele invoegen... | Klik om een variabele op de positie van de cursor in het tekstvak HTML in te voegen. |
+   | Variabele invoegen... | Klik om een variabele in te voegen op de positie van de cursor in het tekstvak HTML. |
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de code binnen de bovenliggende container wilt bepalen:
 
@@ -164,3 +164,5 @@ Het volgende voorbeeld toont aan hoe te om &rbrack;[1] code in te bedden van de 
      | [!UICONTROL Padding] | De hoeveelheid lege ruimte die wordt toegepast op de binnenrand van alle zijden van de container. Opties: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

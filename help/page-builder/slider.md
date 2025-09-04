@@ -3,7 +3,7 @@ title: Media - schuifregelaar
 description: Leer over het inhoudstype van de Schuif, dat wordt gebruikt om een diapresentatie van beelden aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -126,7 +126,7 @@ U kunt tijd besparen door een dia te dupliceren die al met de benodigde instelli
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wanneer u klaar bent, klikt u op **[!UICONTROL Save]** in de rechterbovenhoek om de pagina _[!UICONTROL Edit Slide]_&#x200B;te sluiten.
+1. Wanneer u klaar bent, klikt u op **[!UICONTROL Save]** in de rechterbovenhoek om de pagina _[!UICONTROL Edit Slide]_te sluiten.
 
 ### Widget toevoegen aan een dia
 
@@ -138,7 +138,7 @@ U kunt om het even welk [ widget type ](../content-design/widgets.md#widget-type
 
 1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Media]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Slider]** naar een rij, kolom of tab in het werkgebied.
 
-1. Klik in de slidercontainer om de [ 1&rbrace; toolbar van de tekstredacteur &lbrace;te tonen en _Widget van het Tussenvoegsel_ ( ![ pictogram van het Tussenvoegsel widget ](./assets/editor-btn-insert-widget.png){width="20"}) te klikken.](../content-design/editor.md)
+1. Klik in de slidercontainer om de [ 1} toolbar van de tekstredacteur {te tonen en ](../content-design/editor.md) Widget van het Tussenvoegsel _(_ pictogram van het Tussenvoegsel widget ![) te klikken.](./assets/editor-btn-insert-widget.png){width="20"}
 
 1. Selecteer de **[!UICONTROL Widget Type]** die u nodig hebt.
 
@@ -256,7 +256,7 @@ Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is sta
 
 ### Instellingen voor afbeeldingstypen
 
-Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
+Als u de _[!UICONTROL Background Type]_op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
 ![ Banner met achtergrondbeeld ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de ins
 
 1. Klik de navigatiepunt bij de bodem van de schuif om toolbox voor de individuele dia te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-1. Voer in de sectie _[!UICONTROL Content]_&#x200B;de **[!UICONTROL Message Text]**&#x200B;in die u bij de dia wilt weergeven.
+1. Voer in de sectie _[!UICONTROL Content]_de **[!UICONTROL Message Text]**in die u bij de dia wilt weergeven.
 
-1. Blader omlaag naar de sectie _[!UICONTROL Content]_&#x200B;en gebruik de editor **[!UICONTROL Message Text]**&#x200B;om bannertekst in te voeren en op te maken.
+1. Blader omlaag naar de sectie _[!UICONTROL Content]_en gebruik de editor **[!UICONTROL Message Text]**om bannertekst in te voeren en op te maken.
 
    U kunt ook elementen invoegen, zoals tekstkoppelingen, afbeeldingen en widgets.
 
@@ -614,10 +614,12 @@ Als u een titel boven de schuif wilt, voeg eenvoudig het inhoudstype van de a [ 
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
-1. Vind de pagina in het _Net van Pagina&#39;s_ en selecteer **[!UICONTROL View]** in de _[!UICONTROL Action]_&#x200B;kolom.
+1. Vind de pagina in het _Net van Pagina&#39;s_ en selecteer **[!UICONTROL View]** in de _[!UICONTROL Action]_kolom.
 
    ![ de voorproef van de Schuif - standaardmening ](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    Wanneer u de schuifregelaar voorvertoont, wijzigt u de grootte van het venster, zodat u kunt zien hoe het op een mobiel apparaat wordt weergegeven.
 
    ![ de voorproef van de Schuif - mobiele mening ](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

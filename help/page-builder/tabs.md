@@ -3,7 +3,7 @@ title: Layout - tabbladen
 description: Leer over het inhoudstype van Lusjes, dat wordt gebruikt om een reeks lusjes in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Wanneer u met het _inhoudstype van Lusjes_ werkt, voegt u individuele lusjes en 
 
 ## Een afzonderlijk tabblad toevoegen
 
-1. Sleep de tijdelijke aanduiding **[!UICONTROL Tabs]** in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;rechtstreeks naar het werkgebied of naar een rij of kolom in het werkgebied.
+1. Sleep de tijdelijke aanduiding [!DNL Page Builder] in het deelvenster _[!UICONTROL Layout]_onder **[!UICONTROL Tabs]**rechtstreeks naar het werkgebied of naar een rij of kolom in het werkgebied.
 
    ![ het slepen lusjes aan een rij ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -326,3 +326,5 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

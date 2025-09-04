@@ -1,9 +1,9 @@
 ---
 title: Media - Afbeelding
-description: Leer over het inhoudstype van het Beeld, dat wordt gebruikt om een JPG, GIF, of beeld PNG aan het  [!DNL Page Builder]  stadium toe te voegen.
+description: Leer over het inhoudstype van het Beeld, dat wordt gebruikt om een beeld van JPG, GIF, of PNG aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -58,7 +58,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
    >
    >De maximale bestandsgrootte is 4 MB. Ondersteunde bestandstypen zijn JPG, GIF en PNG.
 
-   - _&#x200B;**upload een nieuw beeld**&#x200B;_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
+   - _**upload een nieuw beeld**_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
 
       - Klik op **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
      Als alternatief, kunt u een beelddossier van uw systeem ook slepen en het laten vallen op het _pictogram van de Camera_ ( ![ Pictogram van de Camera ](./assets/pb-icon-camera.png){width="20"}).
 
-   - _&#x200B;**selecteer een bestaand activa**&#x200B;_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
+   - _**selecteer een bestaand activa**_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
 
       - Klik op **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
         ![ Toevoegend een geselecteerd beeld ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Onderzoek en selecteer een beeld van Adobe Stock**&#x200B;_: Gebruik deze methode om een beeld van Adobe Stock te vinden.
+   - _**Onderzoek en selecteer een beeld van Adobe Stock**_: Gebruik deze methode om een beeld van Adobe Stock te vinden.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidi
 
 1. Voer een van de volgende handelingen uit om de huidige **[!UICONTROL Image]** te wijzigen:
 
-   - _&#x200B;**upload een nieuw beeld**&#x200B;_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
+   - _**upload een nieuw beeld**_: Gebruik deze methode om een nieuw beelddossier van uw systeem te uploaden.
 
       - Klik op **[!UICONTROL Upload Image]**.
 
       - Zoek en kies de afbeelding die u aan de galerie en doelcontainer wilt toevoegen.
 
-   - _&#x200B;**selecteer een bestaand activa**&#x200B;_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
+   - _**selecteer een bestaand activa**_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
 
       - Klik op **[!UICONTROL Select from Gallery]**.
 
@@ -258,3 +258,5 @@ Tekst voor deze instellingen is zichtbaar voor zoekprogramma&#39;s en verbetert 
   | [!UICONTROL Padding] | De hoeveelheid lege ruimte die wordt toegepast op de binnenrand van alle zijden van de container. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

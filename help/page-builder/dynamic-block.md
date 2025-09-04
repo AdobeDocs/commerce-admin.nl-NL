@@ -3,7 +3,7 @@ title: Inhoud toevoegen - Dynamisch blok
 description: Leer over het Dynamische inhoudstype van het Blok, dat wordt gebruikt om een herbruikbaar dynamisch blok aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 1. Navigeer naar de werkruimte [!DNL Page Builder] op de doelpagina, het doelblok, het product of de doelcategorie.
 
-1. Vouw **[!UICONTROL Add Content]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Dynamic Block]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Dynamic Block]** naar het werkgebied.
 
    ![ slepend een dynamische blokplaceholder aan het stadium ](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
@@ -164,3 +164,5 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 1. Beweeg over de dynamische blokcontainer om toolbox te tonen en _te kiezen verwijder_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

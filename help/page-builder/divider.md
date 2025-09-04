@@ -3,7 +3,7 @@ title: Elementen - Verdeler
 description: Leer over het Divider inhoudstype, dat wordt gebruikt om een regel als visuele onderbreking tussen secties van inhoud in het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
 1. Wijzig de scheidingslijn **[!UICONTROL Line Color]** op een van de volgende manieren:
 
-   - Ga een geldige [ de kleurnaam van de HTML ][1] in. Bijvoorbeeld `Teal` .
+   - Ga een geldige [ de kleurennaam van HTML ][1] in. Bijvoorbeeld `Teal` .
    - Voer de hexadecimale kleurwaarde in. Bijvoorbeeld `#008080` .
 
    Klik op **[!UICONTROL Apply]** als de bewerking is voltooid.
@@ -73,7 +73,7 @@ Hoewel de meeste verdeler containers onzichtbaar zijn, toont het volgende voorbe
 
    ![ Plaatsende lijnkleur, dikte, en breedte ](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
    - Kies de optie **[!UICONTROL Alignment]** als u de positie van de scheidingslijn in de bovenliggende container wilt bepalen:
 
@@ -157,3 +157,5 @@ Voor een opgemaakte scheidingslijn met specifieke instellingen is het efficiënt
    ![ Bewegend de gedupliceerde verdeler in positie ](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

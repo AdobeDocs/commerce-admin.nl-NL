@@ -3,7 +3,7 @@ title: Media - Video
 description: Leer over het Video inhoudstype, dat wordt gebruikt om een video toe te voegen die op YouTube of Vimeo aan het  [!DNL Page Builder]  stadium wordt ontvangen.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ][1]
 
 1. Ga in [!DNL Commerce] Beheer terug naar de werkruimte van [!DNL Page Builder] waar u de video wilt toevoegen.
 
-1. Vouw **[!UICONTROL Media]** uit in het deelvenster [!DNL Page Builder] en sleep een tijdelijke aanduiding **[!UICONTROL Video]** naar het werkgebied.
+1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Media]** en sleep een tijdelijke aanduiding **[!UICONTROL Video]** naar het werkgebied.
 
    ![ slepend een videoplaceholder aan het stadium ](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
@@ -170,3 +170,5 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ][1]
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

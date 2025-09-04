@@ -4,7 +4,7 @@ description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Ad
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -132,7 +132,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ beheer van de 
 
 ![ Geavanceerde configuratie - Meldingen ](./assets/system-notifications.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem [&#128279;](../../systems/notifications.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem [ in de ](../../systems/notifications.md) Gids van Systemen Admin _._
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -153,8 +153,8 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Algemeen | Hiermee wordt bepaald of het Commerce-exemplaar back-ups toestaat. Opties: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_&#x200B;is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_&#x200B;is ingesteld op `Yes` .) Hiermee bepaalt u de elementen van de Commerce-instantie die in de back-up zijn opgenomen. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Scheduled Backup]_is ingesteld op `Yes` .) Hiermee bepaalt u de elementen van de Commerce-instantie die in de back-up zijn opgenomen. Opties: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hier geeft u het uur, de minuut en de seconde op waarin de geplande back-up begint. |
 | [!UICONTROL Frequency] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee bepaalt u hoe vaak de geplande back-up plaatsvindt. Opties: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Algemeen | (Weergegeven wanneer [!UICONTROL Enable Scheduled Backup] is ingesteld op `Yes` .) Hiermee wordt bepaald of de opslag in de onderhoudsmodus wordt geplaatst tijdens de geplande back-up. Opties: `Yes` / `No` |
@@ -167,7 +167,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 
 ![ Geavanceerde configuratie - het Archiveren van het Logboek van Acties Admin ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie [&#128279;](../../systems/action-log-archive.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie [ in de ](../../systems/action-log-archive.md) Gids van Systemen Admin _._
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -188,7 +188,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Volledige pagi
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Algemeen | Bepaalt de toepassing die wordt gebruikt om het full-page geheime voorgeheugen te beheren. Opties: <br/>**`Built-in Application`**- Niet aanbevolen voor de productieomgeving.<br/>**`Varnish Caching`** - aanbevolen voor de productieomgeving. |
 | [!UICONTROL TTL for public content] | Algemeen | Bepaalt het leven van het openbare inhoudsgeheime voorgeheugen in seconden. Standaardwaarde: `120` |
-| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
+| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Algemeen | Specificeert de IP adressen die de configuratie van Varnish kunnen zuiveren om een config dossier te produceren. Scheid meerdere items met een komma. Standaardwaarde: `localhost` |
 | [!UICONTROL Backend host] | Algemeen | Specificeert de backendgastheer die config dossiers produceert. Standaardwaarde: `localhost` |
@@ -239,7 +239,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ Bulkacties ](.
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Days Saved in Log] | Algemeen | Bepaalt het aantal dagen dat de bulkacties in het _archief van het Logboek van de Acties van 0&rbrace; Bulk &lbrace;worden gehouden._ Standaard: `60` |
+| [!UICONTROL Days Saved in Log] | Algemeen | Bepaalt het aantal dagen dat de bulkacties in het _archief van het Logboek van de Acties van 0} Bulk {worden gehouden._ Standaard: `60` |
 
 {style="table-layout:auto"}
 
@@ -268,11 +268,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ![ Geavanceerde configuratie - het Beeld uploadt Configuratie ](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Algemeen | Hiermee bepaalt u de JPG-kwaliteit voor de vergrote of verkleinde afbeelding. Bij een lagere kwaliteit wordt het bestand kleiner. Gebruik 80-90% om bestanden met hoge kwaliteit te verkleinen. Standaard: `80` |
+| [!UICONTROL Quality] | Algemeen | Hiermee bepaalt u de JPG-kwaliteit voor de gewijzigde afbeelding. Bij een lagere kwaliteit wordt het bestand kleiner. Gebruik 80-90% om bestanden met hoge kwaliteit te verkleinen. Standaard: `80` |
 | [!UICONTROL Enable Frontend Resize] | Algemeen | Laat dit het plaatsen toe om Commerce toe te staan om grote, overmaatse beelden resize u voor de _pagina van de Details van het Product_ kunt uploaden. Commerce wijzigt de grootte van de afbeeldingsbestanden met JavaScript voordat het bestand wordt geüpload. Als de grootte van de afbeelding wordt gewijzigd, blijft de afbeelding exact even groot en wordt de grootste breedte bij Maximumbreedte of Maximumhoogte niet overschreden. Standaard: `Yes` |
 | [!UICONTROL Maximum Width] | Algemeen | Hiermee bepaalt u de maximale pixelbreedte voor de afbeelding. Wanneer het formaat van de afbeelding wordt gewijzigd, wordt deze breedte niet overschreden. Standaard: `1920` |
 | [!UICONTROL Maximum Height] | Algemeen | Hiermee bepaalt u de maximale pixelhoogte voor de afbeelding. Wanneer het formaat van de afbeelding wordt gewijzigd, wordt deze hoogte niet overschreden. Standaard: `1200` |
@@ -315,3 +315,5 @@ Voor meer informatie over het vormen van deze montages, zie [ Integratie van Ado
 | [!UICONTROL Test Connection] |  | Hiermee wordt een test uitgevoerd om te controleren of de API-sleutel geldig is voor gebruik met de Adobe Stock-service. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

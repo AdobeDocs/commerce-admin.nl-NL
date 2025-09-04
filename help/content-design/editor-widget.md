@@ -2,8 +2,8 @@
 title: Een widget invoegen in de editor
 description: Voeg verschillende inhoudselementen aan een pagina toe gebruikend het widgethulpmiddel in de redacteur van WYSIWYG.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Koppelingen nemen hun stijl standaard over van de stijlpagina van het thema.
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
-1. Ga naar de sectie _[!UICONTROL Content]_&#x200B;en klik op een element dat de editor ondersteunt.
+1. Ga naar de sectie _[!UICONTROL Content]_en klik op een element dat de editor ondersteunt.
 
 1. Plaats de curseur waar u widget wilt verschijnen en het _pictogram van Widget van het Tussenvoegsel_ klikken.
 
@@ -34,7 +34,7 @@ Koppelingen nemen hun stijl standaard over van de stijlpagina van het thema.
 
 1. Kies de **[!UICONTROL Widget Type]** .
 
-   Voor meer informatie over deze opties, zie {de Types van Widget 0} [&#128279;](widgets.md#widget-types).  In de volgende stappen wordt een voorbeeld gebruikt voor het invoegen van een koppeling naar een product.
+   Voor meer informatie over deze opties, zie {de Types van Widget 0} [. ](widgets.md#widget-types) In de volgende stappen wordt een voorbeeld gebruikt voor het invoegen van een koppeling naar een product.
 
 1. Laat het veld **[!UICONTROL Anchor Custom Text]** leeg als u de productnaam wilt gebruiken.
 
@@ -59,3 +59,5 @@ Koppelingen nemen hun stijl standaard over van de stijlpagina van het thema.
    Als u met de code van HTML werkt, verschijnt a [ prijsverhogingsmarkering ](../systems/markup-tags.md) voor de verbinding bij de bovenkant van de pagina, die in dubbele krullende steunen wordt ingesloten. Indien nodig, gebruik _Besnoeiing en Deeg_ om de prijsverhogingsmarkering in de code te plaatsen waar u de verbinding wilt verschijnen.
 
 1. Klik op **[!UICONTROL Save]** wanneer de bewerkingen van de inhoud zijn voltooid.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

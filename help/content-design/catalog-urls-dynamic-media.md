@@ -3,8 +3,8 @@ title: Dynamische media-URL's
 description: Meer informatie over het gebruik van een dynamische media-URL als een relatieve verwijzing naar een afbeelding of ander media-element.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Afbeeldingen die vanuit de WYSIWYG-editor in de catalogus worden ingevoegd, hebb
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
 
 1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL WYSIWYG Options]** sectie uit.
 
@@ -42,3 +42,5 @@ Afbeeldingen die vanuit de WYSIWYG-editor in de catalogus worden ingevoegd, hebb
    - `No` - (Standaard) Gebruikt dynamische URL&#39;s voor media-inhoud die met de WYSIWYG-editor wordt ingevoegd, op basis van de instructie `\{\{media url="..."}}` . Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: Layout - kolom
 description: Leer over het inhoudstype van de Kolom, dat wordt gebruikt om een pagina in veelvoudige kolommen in het  [!DNL Page Builder]  stadium te verdelen.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Gebruik het _inhoudstype van de Kolom_ om een pagina in veelvoudige kolommen in 
 
 ## Updates in de release 2.4.5
 
-De mogelijkheden van de Bouwer van de pagina worden bijgewerkt in versie 2.4.5 zodat de gebruikers _[!DNL Columns]_&#x200B;nu als oudercontainer voor individuele kolommen gebruiken. Deze nieuwe container ondersteunt ook eigenschappen voor de achtergrond en maakt het niet nodig kolommen in een rij te laten omlopen. Het vermindert onnodige prijsverhoging en geeft een fijnere controle over de archiefrontvertoning en ervaring.
+De mogelijkheden van de Bouwer van de pagina worden bijgewerkt in versie 2.4.5 zodat de gebruikers _[!DNL Columns]_nu als oudercontainer voor individuele kolommen gebruiken. Deze nieuwe container ondersteunt ook eigenschappen voor de achtergrond en maakt het niet nodig kolommen in een rij te laten omlopen. Het vermindert onnodige prijsverhoging en geeft een fijnere controle over de archiefrontvertoning en ervaring.
 
 U kunt de lay-out van de container van [!DNL Columns] veranderen door een kolom boven of onder andere kolommen in de groep te slepen en hen te stapelen. Dit opent een nieuwe verscheidenheid van mogelijke lay-outcombinaties die zonder de behoefte aan aanpassing door ontwikkelaars kunnen worden bereikt.
 
@@ -54,7 +54,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
 ## Een kolom toevoegen
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een **[!UICONTROL Column]**&#x200B;naar het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een **[!UICONTROL Column]**naar het werkgebied.
 
    ![ slepend een kolom aan het stadium ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
    - Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
 
-   - Blader omlaag naar de sectie _[!UICONTROL Advanced]_&#x200B;en stel alle vier de **[!UICONTROL Padding]**&#x200B;waarden in op `0` .
+   - Blader omlaag naar de sectie _[!UICONTROL Advanced]_en stel alle vier de **[!UICONTROL Padding]**waarden in op `0` .
 
      ![ Gebruikend nul het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de pagina _[!UICONTROL Edit Column]_&#x200B;te sluiten.
+   - Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de pagina _[!UICONTROL Edit Column]_te sluiten.
 
 1. Klik het _Dichte Volledige Scherm_ ( ![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png){width="20"}) pictogram in de hoger-juiste hoek van de werkruimte, en klik dan **[!UICONTROL Save]** in de hoger-juiste hoek.
 
@@ -170,7 +170,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
    - **[!UICONTROL Background Repeat]** - Als u de achtergrondafbeelding wilt herhalen om de ruimte te vullen, wijzigt u deze instelling `Yes` .
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de horizontale plaatsing wilt bepalen van inhoudscontainers die aan de kolom worden toegevoegd:
 
@@ -226,3 +226,5 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
      {style="table-layout:auto"}
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->

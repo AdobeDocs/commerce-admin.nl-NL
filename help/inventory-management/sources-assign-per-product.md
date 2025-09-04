@@ -3,7 +3,7 @@ title: voorraadbronnen per product toewijzen
 description: Leer hoe u een inventarisbron aan een product toewijst.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Alvorens hoeveelheden en montages te wijzigen, moet u [ bronnen ](sources-manage
 
 1. Klik op **[!UICONTROL Assign Sources]** om een bron toe te voegen.
 
-1. Schakel op de pagina _[!UICONTROL Assign Sources]_&#x200B;het selectievakje in naast elke bron die u voor het product wilt toewijzen.
+1. Schakel op de pagina _[!UICONTROL Assign Sources]_het selectievakje in naast elke bron die u voor het product wilt toewijzen.
 
    ![ Product - wijs bronnen ](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
 
@@ -46,3 +46,5 @@ Alvorens hoeveelheden en montages te wijzigen, moet u [ bronnen ](sources-manage
    - Voor _[!UICONTROL Save]_(![ menupijl ](../assets/icon-menu-down-arrow-red.png)) menu, kies **[!UICONTROL Save & Close]**.
 
 Na het toewijzen van bronnen, werk de [ inventarishoeveelheid ](quantities-assign-per-product.md) voor elke productbron bij.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

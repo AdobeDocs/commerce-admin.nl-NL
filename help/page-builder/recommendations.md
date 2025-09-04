@@ -3,7 +3,7 @@ title: Inhoud toevoegen - Productaanbevelingen
 description: Leer over het inhoudstype van de Aanbevelingen van het Product, dat wordt gebruikt om een lijst van aanbevelingen aan het  [!DNL Page Builder]  stadium toe te voegen.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Productaanbevelingen
 
-Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;om een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/admin/create) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) voor een CMS pagina, een blok, of een dynamisch blok toe te voegen._
+Gebruik het _inhoudstype van de Aanbevelingen van het 0} Product {om een bestaande, actieve_ aanbeveling eenheid [ aan het ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) stadium [[!DNL Page Builder]  voor een CMS pagina, een blok, of een dynamisch blok toe te voegen.](workspace.md#stage)
 
 >[!NOTE]
 >
->Het [!DNL Page Builder] _inhoudstype van 1&rbrace; de Aanbevelingen van het Product_ wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van de Aanbevelingen van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor de Aanbevelingen van het Product toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
+>Het [!DNL Page Builder] _inhoudstype van 1} de Aanbevelingen van het Product_ wordt gesteund in Adobe Commerce 2.4.4 en later en beschikbaar in de [ metapakketversies van de Aanbevelingen van het Product 3.0.x of later ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Om [!DNL Page Builder] steun voor de Aanbevelingen van het Product toe te voegen, [ zie de installatieinformatie ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Dit inhoudstype is niet beschikbaar voor Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
 
 ## Een bestaande aanbevolen eenheid toevoegen
 
-1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
+1. Zorg ervoor u reeds [ een aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) voor het [!DNL Page Builder] paginatype hebt gecreeerd.
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
 
 1. Open de pagina, het blok of het dynamische blok in de bewerkingsmodus.
 
-1. Vouw de sectie _[!UICONTROL Content]_&#x200B;uit en klik op **[!UICONTROL Edit with Page Builder]**&#x200B;of in het voorvertoningsgebied van de inhoud om de werkruimte van [!DNL Page Builder] te openen.
+1. Vouw de sectie _[!UICONTROL Content]_uit en klik op **[!UICONTROL Edit with Page Builder]**of in het voorvertoningsgebied van de inhoud om de werkruimte van [!DNL Page Builder] te openen.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een tijdelijke aanduiding voor **[!UICONTROL Row]**&#x200B;naar het werkgebied.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_een tijdelijke aanduiding voor **[!UICONTROL Row]**naar het werkgebied.
 
-1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Add Content]_&#x200B;een tijdelijke aanduiding **[!UICONTROL Product Recommendation]**&#x200B;naar de rij.
+1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Add Content]_een tijdelijke aanduiding **[!UICONTROL Product Recommendation]**naar de rij.
 
    ![ Toevoegend het inhoudstype van de Aanbeveling van het Product ](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
 
    ![ geef de Aanbeveling van het Product uit ](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Klik in de sectie _[!UICONTROL Selection]_&#x200B;op **[!UICONTROL Select]**.
+1. Klik in de sectie _[!UICONTROL Selection]_op **[!UICONTROL Select]**.
 
 1. Zoek in de lijst met actieve productaanbevelingen de rij met de aanbevolen eenheid die u wilt toevoegen en klik op **[!UICONTROL Select]** in de laatste kolom.
 
@@ -68,7 +68,7 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Selected]** .
 
-   De naam van de geselecteerde productaanbeveling wordt weergegeven in de sectie _[!UICONTROL Selection]_&#x200B;van de pagina&#x200B;_[!UICONTROL Edit Product Recommendation]_ .
+   De naam van de geselecteerde productaanbeveling wordt weergegeven in de sectie _[!UICONTROL Selection]_van de pagina_[!UICONTROL Edit Product Recommendation]_ .
 
 1. Breng om het even welke veranderingen noodzakelijk aan de [ Geavanceerde montages ](#advanced-settings) aan.
 
@@ -164,3 +164,5 @@ Gebruik het _inhoudstype van de Aanbevelingen van het 0&rbrace; Product &lbrace;
    | [!UICONTROL Padding] | De hoeveelheid lege ruimte die wordt toegepast op de binnenrand van alle zijden van de eenheid. Opties: `Top` / `Right` / `Bottom` / `Left` |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
