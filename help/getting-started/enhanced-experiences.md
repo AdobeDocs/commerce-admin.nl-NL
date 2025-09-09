@@ -16,7 +16,7 @@ Naast de standaardelementen die klanten toelaten om aankopen in uw opslag te mak
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=nl-NL)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce en Magento Open Source bieden een aantal tools om u te helpen de 
 
 ## Optimaliseer bedrijfsprocessen en winstgevendheid
 
-- **[!DNL Advanced Reporting]** - Verkrijg waardevolle inzichten in een blik met dynamisch product, orde, en klantenrapporten, die door [ Business Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) worden aangedreven.
+- **[!DNL Advanced Reporting]** - Verkrijg waardevolle inzichten in een blik met dynamisch product, orde, en klantenrapporten, die door [ Business Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=nl-NL) worden aangedreven.
 
 - **momentopnamen van het dashboard** - het weten wat van belang op uw plaats is is essentieel om uw marketing begroting te maximaliseren. Gebruik deze [ informatie over uw dashboard ](admin-dashboard.md) om te bepalen wat u zou moeten kruisen en omhoog-verkopen aan loyale klanten, of welke producten aan verkoop te zetten.
 
