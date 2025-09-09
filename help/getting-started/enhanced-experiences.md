@@ -3,9 +3,9 @@ title: Verbeterde storefronervaringen
 description: Leer over de vele hulpmiddelen die worden ontworpen om u te helpen uw klantenovereenkomst, behoud, en loyaliteit maximaliseren.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Naast de standaardelementen die klanten toelaten om aankopen in uw opslag te mak
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=nl-NL)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Nieuwe klanten aantrekken
 
-Adobe Commerce en de Magento Open Source worden verpakt met eigenschappen die het gemakkelijk maken om _onderzoek-motor-vriendschappelijke_ websites tot stand te brengen en de kans te verhogen om de juiste klanten aan uw plaats te brengen.
+Adobe Commerce en Magento Open Source worden verpakt met eigenschappen die het gemakkelijk maken om _onderzoek-motor-vriendschappelijke_ websites tot stand te brengen en de waarschijnlijkheid te verhogen om de juiste klanten aan uw plaats te brengen.
 
 - **de motoroptimalisering van het Onderzoek** - [!DNL Commerce] biedt krachtige, inheemse mogelijkheden aan om [ Optimalisering van de Motor van het Onderzoek (SEO) te stroomlijnen ](../merchandising-promotions/seo-overview.md) praktijken voor inhoud en plaatsblootstelling die met Admin worden geïntegreerd, en rechtstreeks in de gebruikerservaring gebonden.
 
@@ -32,11 +32,11 @@ Adobe Commerce en de Magento Open Source worden verpakt met eigenschappen die he
 
 - **Sitemap** - Verbinding met a [ sitemap ](../merchandising-promotions/sitemap-xml.md) van footer van uw opslag om klanten een overzicht van de catalogusstructuur, met verbindingen aan alle categorieën en producten in de opslag te geven. Eenvoudige integratie met Google Sitemap.
 
-- **Analytics** - naast het controleren van uw plaats van het dashboard Admin, kunt u derdeanalysehulpmiddelen zoals [ Googles Analytics ](../merchandising-promotions/google-analytics.md) en [ New Relic integreren die ](new-relic-reporting.md) voor gedetailleerde statistieken over verkeer en verkoop meldt.
+- **Analytics** - naast het controleren van uw plaats van het dashboard Admin, kunt u derdeanalysehulpmiddelen zoals [ Google Analytics ](../merchandising-promotions/google-analytics.md) voor gedetailleerde statistieken over verkeer en verkoop integreren.
 
 ## Neem uw klanten in dienst
 
-Met Adobe Commerce en Magento Open Source kunt u eenvoudig een aangepaste, aantrekkelijke site-ervaring creëren. Moedig uw klanten aan om meer tijd te besteden aan het verkennen van uw site en hen de hulpmiddelen te geven om het gemakkelijk te maken om te vinden wat zij sneller willen.
+Adobe Commerce en Magento Open Source maken het eenvoudig om een aangepaste, aantrekkelijke site-ervaring te maken. Moedig uw klanten aan om meer tijd te besteden aan het verkennen van uw site en hen de hulpmiddelen te geven om het gemakkelijk te maken om te vinden wat zij sneller willen.
 
 - **het beheer van de Inhoud** - [ Bouwer van de Pagina ](../page-builder/introduction.md) maakt het gemakkelijk om gerichte pagina&#39;s met interactieve elementen tot stand te brengen die uw klanten in dienst nemen. Zelfs gebruikers zonder een technologische achtergrond kunnen site-inhoud maken en beheren.
 
@@ -52,7 +52,7 @@ Met Adobe Commerce en Magento Open Source kunt u eenvoudig een aangepaste, aantr
 
 ## Differentiëren en personaliseren
 
-Adobe Commerce en Magento Open Source bieden een uitgebreide reeks tools om persoonlijke ervaringen op te doen met meerdere digitale aanraakpunten, op basis van activiteiten en profielen van klanten.
+Adobe Commerce en Magento Open Source bieden een uitgebreide reeks tools om persoonlijke ervaringen te creëren voor meerdere digitale aanraakpunten, op basis van de activiteiten en het profiel van de klant.
 
 - **de catalogus van de Douane en prijslijsten** - bied een gekrulde productselectie met douane [ tarifering voor specifieke bedrijven ](../b2b/catalog-shared-pricing-structure.md) aan, terwijl het blijven de standaardcatalogus met regelmatige tarifering voor algemene klanten aanbieden.
 
@@ -84,11 +84,11 @@ Adobe Commerce en Magento Open Source bieden een aantal tools om u te helpen de 
 
 ## Optimaliseer bedrijfsprocessen en winstgevendheid
 
-- **[!DNL Advanced Reporting]** - Verkrijg waardevolle inzichten in een blik met dynamisch product, orde, en klantenrapporten, die door [ Business Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=nl-NL) worden aangedreven.
+- **[!DNL Advanced Reporting]** - Verkrijg waardevolle inzichten in een blik met dynamisch product, orde, en klantenrapporten, die door [ Business Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) worden aangedreven.
 
 - **momentopnamen van het dashboard** - het weten wat van belang op uw plaats is is essentieel om uw marketing begroting te maximaliseren. Gebruik deze [ informatie over uw dashboard ](admin-dashboard.md) om te bepalen wat u zou moeten kruisen en omhoog-verkopen aan loyale klanten, of welke producten aan verkoop te zetten.
 
-- **Belastingen** - beheer uw [ belastingen ](../stores-purchase/taxes.md) met inheemse hulpmiddelen, of voeg derdeuitbreidingen van [[!DNL Commerce Marketplace] toe ](https://marketplace.magento.com/) {:target= &quot;_blank&quot;}.
+- **Belastingen** - beheer uw [ belastingen ](../stores-purchase/taxes.md) met inheemse hulpmiddelen, of voeg derdeuitbreidingen van [[!DNL Commerce Marketplace] toe ](https://marketplace.magento.com/){:target="_blank"}.
 
 - **Geautomatiseerde bedrijfsregels** - opstelling [ geautomatiseerde bedrijfsregels ](../merchandising-promotions/price-rules-cart.md) die productverhoudingen bepalen en prijsregels gebruiken die kortingen teweegbrengen die op diverse voorwaarden worden gebaseerd.
 
@@ -96,7 +96,7 @@ Adobe Commerce en Magento Open Source bieden een aantal tools om u te helpen de 
 
 ## Tijdstip van aankoop
 
-Maak het voor klanten gemakkelijk om hun aankopen te voltooien. Adobe Commerce en Magento Open Source zijn ontworpen om u te helpen uw ervaring met het afrekenen te stroomlijnen en tegelijk de conversietarieven te verhogen.
+Maak het voor klanten gemakkelijk om hun aankopen te voltooien. Adobe Commerce en Magento Open Source zijn ontworpen om u te helpen bij het stroomlijnen van uw afrekenproces en het verhogen van de conversietarieven.
 
 **Onmiddellijke Aankoop** - vereenvoudig het opdracht geven tot en opvoeren van omzettingspercentages door uw klanten toe te staan om [ door controle ](../stores-purchase/checkout-instant-purchase.md) te versnellen door opgeslagen betaling en het verschepen informatie te gebruiken.
 
@@ -114,7 +114,7 @@ Maak het voor klanten gemakkelijk om hun aankopen te voltooien. Adobe Commerce e
 
 ## Klanten behouden
 
-Adobe Commerce en Magento Open Source maken het voor u gemakkelijk om herhaling zaken te krijgen en merktrouw te bouwen. Het geeft u volledige controle en flexibiliteit over het creëren van en het herzien van godies zoals beloningsprogramma&#39;s, douanecoupons, en geautomatiseerde e-mails om uw klanten te houden terugkomend telkens opnieuw.
+Adobe Commerce en Magento Open Source maken het voor u gemakkelijk om opnieuw zaken te doen en merkloyaliteit te bouwen. Het geeft u volledige controle en flexibiliteit over het creëren van en het herzien van godies zoals beloningsprogramma&#39;s, douanecoupons, en geautomatiseerde e-mails om uw klanten te houden terugkomend telkens opnieuw.
 
 **de terugkeer van Merchandise** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce) Klanten kunnen verzoeken om [ Vergunning van de Merchia van de Terugkeer ](../stores-purchase/returns.md) van uw opslag voorleggen. U kunt verzendopdrachten maken in een transportsysteem en verzendlabels afdrukken met RMA-nummers.
 

@@ -5,9 +5,9 @@ breadcrumb-title: Configuratieverwijzing
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 0%
    - [Contactpersonen](./general/contacts.md)
    - [Rapporten](./general/reports.md)
    - [Inhoud beheren](./general/content-management.md)
-   - [New Relic Reporting](./general/new-relic-reporting.md)
    - [Geavanceerde rapportage](./general/advanced-reporting.md)
 - Catalogus {#catalog}
    - [Catalogus](./catalog/catalog.md)
@@ -84,5 +83,5 @@ ht-degree: 0%
    - [Beheerder](./advanced/admin.md)
    - [Systeem](./advanced/system.md)
    - [Ontwikkelaar](./advanced/developer.md)
-- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
