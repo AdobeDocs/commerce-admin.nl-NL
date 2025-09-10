@@ -18,13 +18,13 @@ Creërend een klantensegment is gelijkaardig aan de bouw van de regel van de a [
 
 ![ de segmentlijst van de Klant ](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]grid **_
+_&#x200B;**[!UICONTROL Customer Segments]grid &#x200B;** _
 
 | Kolom | Beschrijving |
 |--- |--- |
 | **[!UICONTROL ID]** | De unieke id van het klantsegment. |
 | **[!UICONTROL Segment]** | De naam van het klantensegment. |
-| **[!UICONTROL Status]** | Geeft aan of het klantsegment _[!UICONTROL Active]_of_[!UICONTROL Inactive]_ is. |
+| **[!UICONTROL Status]** | Geeft aan of het klantsegment _[!UICONTROL Active]_&#x200B;of&#x200B;_[!UICONTROL Inactive]_ is. |
 | **[!UICONTROL Website]** | Geeft de website aan waartoe het klantensegment behoort. |
 
 {style="table-layout:auto"}
@@ -115,7 +115,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Conditions]** .
 
-   De standaardvoorwaarde begint met _[!UICONTROL If ALL of these conditions are TRUE:]_op de pagina.
+   De standaardvoorwaarde begint met _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;op de pagina.
 
    ![ Voorwaarden ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -161,7 +161,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
 1. Het klantensegment kan nu voor het richten van bevorderingen, inhoud, en postings worden gebruikt.
 
-_**[!UICONTROL Matched Customers]grid **_
+_&#x200B;**[!UICONTROL Matched Customers]grid &#x200B;** _
 
 | Kolom | Beschrijving |
 |--- |--- |
