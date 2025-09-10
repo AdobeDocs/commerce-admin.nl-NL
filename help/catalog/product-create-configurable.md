@@ -3,7 +3,7 @@ title: Configureerbaar product
 description: Leer hoe u een configureerbaar product maakt dat kopers verschillende mogelijkheden biedt voor selectie.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ De eigenschappen van elk attribuut dat voor een configureerbare productvariatie 
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Het invoertype van een kenmerk dat wordt gebruikt voor een productvariatie, moet een van de volgende waarden zijn: `Dropdown`, `Visual Swatch` of `Text Swatch` . |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -93,7 +92,7 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt de selectie van gebieden
 
    >[!NOTE]
    >
-   >De **Status van de Beeld** van het configureerbare product is a **_half-manueel_** gecontroleerd plaatsen. Het wordt gedeeltelijk gecontroleerd door de voorraadstatus van zijn kinderproducten. Het is een deel van de berekening van de a **_multi-criteria_** voorraadstatus, die in [ wordt beschreven vormt de 3&rbrace; sectie van de Status van de Voorraad &lbrace;.](#configure-the-stock-status)
+   >De **Status van de Beeld** van het configureerbare product is a **_half-manueel_** gecontroleerd plaatsen. Het wordt gedeeltelijk gecontroleerd door de voorraadstatus van zijn kinderproducten. Het is een deel van de berekening van de a **_multi-criteria_** voorraadstatus, die in [ wordt beschreven vormt de 3} sectie van de Status van de Voorraad {.](#configure-the-stock-status)
 
 1. Voer het product **[!UICONTROL Weight]** in.
 
@@ -139,7 +138,7 @@ De voortgangsbalk boven aan de pagina geeft aan waar u zich in het proces bevind
 
 ### Stap 1: Kies de kenmerken
 
-1. Blader vanaf boven naar de sectie _[!UICONTROL Configurations]_&#x200B;en klik op **[!UICONTROL Create Configurations]**.
+1. Blader vanaf boven naar de sectie _[!UICONTROL Configurations]_en klik op **[!UICONTROL Create Configurations]**.
 
    ![ Configuraties ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -279,7 +278,7 @@ De huidige productvariaties verschijnen bij de bodem van de _sectie van de Confi
 
 ### Stap 5: productafbeeldingen toevoegen
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_sectie.
 
 1. Klik de _tegel van de Camera_ en doorblader aan het belangrijkste beeld dat u voor het configureerbare product wilt gebruiken.
 
@@ -329,7 +328,7 @@ Als u voor elke variatie een andere afbeelding hebt, kunt u de configuratie zo i
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_&#x200B;sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_sectie uit.
 
 1. Stel **[!UICONTROL Configurable Product Image]** in op `Product Thumbnail Itself` .
 
@@ -377,7 +376,7 @@ De _Status van de Voorraad_ van het configureerbare product wordt gedeeltelijk g
 
 - [ Status van de Voorraad ](../inventory-management/sources-stocks.md) voor een configureerbaar product is een semi-manueel gecontroleerd plaatsen. Het is anders dan de voorraadstatus van het eenvoudige product, waar het een directe weergave van de beschikbaarheid van het product is. Voor een configureerbaar product maakt de voorraadstatus deel uit van een voorraadstatusberekening met meerdere criteria.
 
-- De configureerbare kindproducten kunnen eenvoudige of virtuele producten **zonder douaneopties** zijn. Als u aangepaste onderliggende producten virtueel wilt maken, moet u voor elk product de instelling **[!UICONTROL Weight]** `Тhis item has no weight` selecteren.
+- De configureerbare kindproducten kunnen eenvoudige of virtuele producten **zonder douaneopties** zijn. Als u aangepaste onderliggende producten virtueel wilt maken, moet u voor elk product de instelling `Тhis item has no weight` **[!UICONTROL Weight]** selecteren.
 
 - Alle kindproducten worden toegewezen en unassigned van het configureerbare product **_globaal_** voor alle websites, opslag, en opslagmeningen tezelfdertijd.
 
