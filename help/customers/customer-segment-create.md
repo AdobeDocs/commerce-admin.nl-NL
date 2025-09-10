@@ -3,9 +3,9 @@ title: Klantsegmenten maken en verwijderen
 description: Klanten kunnen de restitutiegegevens die aan de bestelling zijn gekoppeld, bekijken in het dashboard voor hun klantenaccount.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Creërend een klantensegment is gelijkaardig aan de bouw van de regel van de a [
 
 ![ de segmentlijst van de Klant ](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]grid &#x200B;** _
+_**[!UICONTROL Customer Segments]grid **_
 
 | Kolom | Beschrijving |
 |--- |--- |
 | **[!UICONTROL ID]** | De unieke id van het klantsegment. |
 | **[!UICONTROL Segment]** | De naam van het klantensegment. |
-| **[!UICONTROL Status]** | Geeft aan of het klantsegment _[!UICONTROL Active]_&#x200B;of&#x200B;_[!UICONTROL Inactive]_ is. |
+| **[!UICONTROL Status]** | Geeft aan of het klantsegment _[!UICONTROL Active]_of_[!UICONTROL Inactive]_ is. |
 | **[!UICONTROL Website]** | Geeft de website aan waartoe het klantensegment behoort. |
 
 {style="table-layout:auto"}
@@ -104,10 +104,18 @@ De volgende stappen gebruiken een voorbeeld voor het creëren van een klantenseg
 >
 > Voor bezoekers zijn alleen de volgende voorwaarden van toepassing: Winkelwagentvoorwaarden (aantal winkelwagentjes, aantal winkelwagentjes, aantal winkelwagentjes en aantal winkelwagentjes), productregels (producten in winkelwagentje en productgeschiedenis) en combinaties van deze artikelen. Als een segment zowel voor bezoekers als voor geregistreerde klanten geldt, worden de bezoekers alleen bijgehouden op basis van de vermelde voorwaarden.
 
+De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
+
+| Groep | Beschrijving |
+|--- |--- |
+| **[!UICONTROL Customer]** | Voorwaarden die zijn gebaseerd op kenmerken van klantenaccounts. Alleen beschikbaar als het segment van toepassing is op geregistreerde klanten. |
+| **[!UICONTROL Shopping Cart]** | Voorwaarden gebaseerd op de inhoud van het winkelwagentje. Deze voorwaarden zijn beschikbaar voor alle segmenttypes. |
+| **[!UICONTROL Products]** | Voorwaarden die zijn gebaseerd op producten in het winkelwagentje of de browsergeschiedenis van producten. Deze voorwaarden zijn beschikbaar voor alle segmenttypes. |
+| **[!UICONTROL **Sales]** | Voorwaarden gebaseerd op voltooide orders. Alleen beschikbaar als het segment van toepassing is op geregistreerde klanten. |
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Conditions]** .
 
-   De standaardvoorwaarde begint met _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;op de pagina.
+   De standaardvoorwaarde begint met _[!UICONTROL If ALL of these conditions are TRUE:]_op de pagina.
 
    ![ Voorwaarden ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +161,7 @@ De volgende stappen gebruiken een voorbeeld voor het creëren van een klantenseg
 
 1. Het klantensegment kan nu voor het richten van bevorderingen, inhoud, en postings worden gebruikt.
 
-_&#x200B;**[!UICONTROL Matched Customers]grid &#x200B;** _
+_**[!UICONTROL Matched Customers]grid **_
 
 | Kolom | Beschrijving |
 |--- |--- |
