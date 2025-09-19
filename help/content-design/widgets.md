@@ -2,10 +2,10 @@
 title: Widgets
 description: Leer over widgets, die een codefragment verstrekken dat het mogelijk maakt om een brede waaier van inhoud te tonen en het bij specifieke blokverwijzingen in uw opslag te plaatsen.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Wanneer u [ een widget ](widget-create.md) creeert, moet u het type plaatsen. Di
 | [!UICONTROL Order by SKU] | De orde door SKU kan in de opslag als gemak voor alle kopers worden getoond, of ter beschikking gesteld slechts aan specifieke klantengroepen. Klanten kunnen de SKU- en kwantitatieve gegevens rechtstreeks in de Order invoeren per SKU-blok of een CSV-bestand uploaden vanaf hun klantenaccount. |
 | [!UICONTROL Orders and Returns] | Gebruik deze optie om gasten de mogelijkheid te geven de status van hun bestellingen te controleren en verzoeken om goederen terug te sturen. De widget wordt alleen weergegeven voor gasten en klanten die zich niet bij hun accounts hebben aangemeld. |
 | [!UICONTROL Recently Compared Products] | Hiermee geeft u het blok met onlangs vergeleken producten weer. U kunt het aantal opgenomen producten opgeven en deze opmaken als een lijst of productraster. |
-| [!UICONTROL Recently Viewed Products] | Gebruik deze optie om het blok onlangs bekeken producten weer te geven. U kunt het aantal producten specificeren inbegrepen en hen als lijst of productnet formatteren. |
+| [!UICONTROL Recently Viewed Products] | Gebruik deze optie om het blok onlangs bekeken producten weer te geven. U kunt het aantal producten specificeren inbegrepen en hen als lijst of productnet formatteren. De widget geeft mogelijk geen real-time prijsupdates weer. De verkoper moet op een product klikken om de huidige prijs op zijn productpagina te zien. |
 | [!UICONTROL Wish List Search] | Gebruik deze optie om een klant de capaciteit te geven om naar openbaar beschikbare wenslijsten door de naam of e-mailadres van de bezitter van de verlanglijst te zoeken. Winkelklanten kunnen wensenlijsten vinden die bij andere klanten horen, hen bekijken en producten van hen bestellen, of de producten toevoegen aan hun eigen wensen lijsten. |
 
 {style="table-layout:auto"}
