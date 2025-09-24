@@ -95,7 +95,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [kenmerken van aangepaste volgorde]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [kenmerken van aangepaste volgorde]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

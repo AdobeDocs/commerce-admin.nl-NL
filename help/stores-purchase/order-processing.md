@@ -38,7 +38,7 @@ Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als t
 
 1. Zoek de volgorde in het raster.
 
-1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL View]**.
+1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL View]**.
 
 1. Status van bestelling controleren:
 
@@ -169,7 +169,7 @@ Slechts verkooporden die niet worden gefactureerd, hebben een status van `Proces
 
 ### Kenmerken aangepaste volgorde
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Met de kenmerken voor aangepaste bestellingen kunt u aanvullende informatie die specifiek is voor uw bedrijfsbehoeften aan de bestelling koppelen.
 
