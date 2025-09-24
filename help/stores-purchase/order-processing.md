@@ -1,24 +1,24 @@
 ---
-title: Orderworkflow en -verwerking
-description: Lees meer over de orderworkflow, de status die van toepassing is bij elke stap en hoe u bestellingen door dit proces kunt verplaatsen.
+title: Workflow en verwerking van bestellingen
+description: Leer over het ordewerkschema, de status die bij elke stap van toepassing is, en hoe te om orden door dit proces te bewegen.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
 
-# Orderworkflow en -verwerking
+# Workflow en verwerking van bestellingen
 
-Wanneer een klant een bestelling plaatst, wordt een verkooporder gemaakt als een tijdelijke registratie van de transactie. In het raster Bestellingen hebben verkooporders in eerste instantie de status &#39;In behandeling&#39; en kunnen ze op elk gewenst moment worden geannuleerd totdat de betaling is verwerkt. Nadat de betaling is bevestigd, kan de bestelling worden gefactureerd en verzonden.
+Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als tijdelijk verslag van de transactie. In het net van Orden, hebben de verkooporden aanvankelijk het statuut van &quot;in behandeling,&quot;en kunnen op elk ogenblik worden geannuleerd tot de betaling wordt verwerkt. Nadat de betaling is bevestigd, kan de bestelling worden gefactureerd en verzonden.
 
-**Stap 1: Bestelling** plaatsen - Het afrekenproces begint wanneer de shopper op de pagina van **[!UICONTROL Go to Checkout]** het winkelwagentje klikt of [rechtstreeks vanuit zijn klantaccount opnieuw bestelt](reorders-allow.md) .
+**Stap 1: De Orde van de Plaats** - het controleproces begint wanneer de verkoopster **[!UICONTROL Go to Checkout]** op de het winkelen kartpagina klikt of [ reorders ](reorders-allow.md) direct van hun klantenrekening.
 
-**Stap 2: Bestelling in behandeling** : de status van de eerste verkooporder is `Pending`. In deze staat is de betaling nog niet verwerkt en kan de bestelling nog worden bewerkt of geannuleerd. Deze status treedt op wanneer de betaalmethode is geconfigureerd voor de autorisatiemodus.
+**Stap 2: De orde in afwachting van** - de aanvankelijke status van de verkooporde is `Pending`. In dat geval is de betaling niet verwerkt en kan de bestelling nog steeds worden bewerkt of geannuleerd. Deze status treedt op wanneer de betalingsmethode wordt geconfigureerd voor de machtigingsmodus.
 
-**Stap 3: Betaling** ontvangen - De bestelstatus verandert in `Processing` wanneer de betaling is ontvangen of geautoriseerd. Afhankelijk van de betaalmethode kunt u een melding ontvangen wanneer de transactie is geautoriseerd of verwerkt. Deze status treedt automatisch op wanneer de betaalmethode is geconfigureerd voor de modus voor vastleggen of intentieverkoop.
+**Stap 3: Ontvang Betaling** - de ordestatus verandert in `Processing` wanneer de betaling wordt ontvangen of geautoriseerd. Afhankelijk van de betalingsmethode ontvangt u mogelijk een melding wanneer de transactie is geautoriseerd of verwerkt. Deze status treedt automatisch op wanneer de betalingsmethode is geconfigureerd voor de modus Vastleggen of Intent Verkoop.
 
 **Stap 4: Factuurvolgorde** - een orde wordt typisch gefactureerd nadat de betaling wordt ontvangen. De betalingsmethode bepaalt welke factureringsopties nodig zijn voor de bestelling. Nadat de factuur is gegenereerd en verzonden, wordt een kopie naar de klant verzonden. Als de betalingsmethode is geconfigureerd met de `capture` - of `intent sale` -betalingsactie, wordt automatisch een factuur gegenereerd wanneer de betaling wordt geautoriseerd en vastgelegd.
 
@@ -38,7 +38,7 @@ Wanneer een klant een bestelling plaatst, wordt een verkooporder gemaakt als een
 
 1. Zoek de volgorde in het raster.
 
-1. Klik in de kolom _[!UICONTROL Action]_&#x200B;op **[!UICONTROL View]**.
+1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL View]**.
 
 1. Status van bestelling controleren:
 
@@ -64,9 +64,9 @@ Als u een `Pending` -volgorde wilt openen, klikt u op **[!UICONTROL Edit]** in d
 
 >[!NOTE]
 >
->Orders kunnen alleen worden bewerkt als ze de status `Pending` hebben. De knop Bewerken is niet zichtbaar voor orders met een andere status of voor orders die zijn gebaseerd op een [onderhandelde offerte](../b2b/quotes.md).
+>Orders kunnen alleen worden bewerkt als ze de status `Pending` hebben. De Edit knoop is niet zichtbaar voor orden in een verschillende status of voor orden die op a [ besproken citaat ](../b2b/quotes.md) gebaseerd zijn.
 
-![Verkooporder bewerken](./assets/order-pending.png){width="600" zoomable="yes"}
+![ geeft de Orde van de Verkoop uit ](./assets/order-pending.png){width="600" zoomable="yes"}
 
 Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen ter referentie.
 
@@ -76,19 +76,19 @@ Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen t
 |--- |--- |
 | [!UICONTROL Information] | Geef gedetailleerde informatie weer over de bestelling en de account, waaronder het factuuradres en het verzendadres, de betalings- en leveringsmethoden, de bestellingen, de totalen en de notities. |
 | [!UICONTROL Invoices] | Vermeldt elke factuur die aan de bestelling is gekoppeld. |
-| [!UICONTROL Credit Memos] | Geeft een overzicht van elke creditnota die aan de bestelling is gekoppeld. |
-| [!UICONTROL Shipments] | Geeft een overzicht van elke verzendkaart die aan de order is gekoppeld. |
-| [!UICONTROL Comments History] | Geeft een overzicht van alle notities die betrekking hebben op de bestelling. |
+| [!UICONTROL Credit Memos] | Vermeldt elke creditmemo die aan de bestelling is gekoppeld. |
+| [!UICONTROL Shipments] | Vermeldt elke ladingsverslag die met de orde wordt geassocieerd. |
+| [!UICONTROL Comments History] | Hiermee worden alle notities weergegeven die betrekking hebben op de volgorde. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Een beheerder moet machtigingen[&#128279;](../systems/permissions-user-roles.md) hebben **[!UICONTROL Sales / Archive]** voor zijn of haar rolbereik om de _tabbladen Facturen_, _Creditnota&#39;s_ en _Verzendingen_ te kunnen bekijken.
+>Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** [ toestemmingen ](../systems/permissions-user-roles.md) voor hun rolwerkingsgebied hebben om de _Facturen_, _Kredietmemo&#39;s_, en _Verzendingen_ ordetlusjes te zien.
 
-### Knoppenbalk
+### Knopbalk
 
-| Knoop | Beschrijving |
+| Knop | Beschrijving |
 |--- |--- |
 | **[!UICONTROL Back]** | Hiermee gaat u terug naar de pagina Bestellingen zonder wijzigingen op te slaan. |
 | **[!UICONTROL Cancel]** | Hiermee annuleert u de verkooporder. |
@@ -97,30 +97,30 @@ Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen t
 | **[!UICONTROL Invoice]** | Maakt een factuur van de verkooporder door de bestelling om te zetten in een factuur. |
 | **[!UICONTROL Ship]** | Hiermee maakt u een verzendrecord voor de bestelling. |
 | **[!UICONTROL Notify Order is Ready for Pickup]** | Wordt alleen weergegeven wanneer een bestelling als een in-store-levering wordt geplaatst. Meldt aan de klant dat de bestelling klaar is om te worden opgehaald. |
-| **[!UICONTROL Reorder]** | Maakt een verkooporder op basis van de huidige order. |
-| **[!UICONTROL Edit]** | Opent een hangende bestelling in de bewerkingsmodus. De knop Bewerken is niet zichtbaar voor orders met de status , `Processing`of orders die zijn gebaseerd op onderhandelde offertes. |
+| **[!UICONTROL Reorder]** | Hiermee maakt u een verkooporder op basis van de huidige bestelling. |
+| **[!UICONTROL Edit]** | Hiermee wordt een volgorde geopend die in behandeling is in de bewerkingsmodus. De knop Bewerken is niet zichtbaar voor bestellingen met de status `Processing` of bestellingen die zijn gebaseerd op onderhandelde aanhalingstekens. |
 
 {style="table-layout:auto"}
 
 ### Een bestelling annuleren
 
-U kunt [bestellingen annuleren](order-update.md) die nog niet gefactureerd zijn. Er moet een [creditnota](credit-memos.md) worden opgesteld als een klant een bestelling wil annuleren nadat deze is gefactureerd (de betaling wordt vastgelegd).
+U kunt [ annuleren ](order-update.md) orden die nog niet worden gefactureerd. A [ creditmemo ](credit-memos.md) moet worden uitgegeven als een klant een orde wil annuleren nadat het wordt gefactureerd (betaling wordt gevangen).
 
-Als een bestelling of `Processing` is `Pending` of en de betaling wordt niet of niet volledig vastgelegd, kunt [u de bestelling](#void-an-order) ongeldig verklaren in plaats van deze te annuleren.
+Als een orde `Pending` of `Processing` is en de betaling niet wordt gevangen of niet volledig gevangen, kunt u [ de orde ](#void-an-order) nietig verklaren in plaats van het te annuleren.
 
-Om een geannuleerde bestelling te herstellen, klikt u op de **[!UICONTROL Reorder]** knop en wordt er een nieuwe bestelling gemaakt met de status `Pending`.
+Als u een geannuleerde volgorde wilt herstellen, klikt u op de knop **[!UICONTROL Reorder]** en wordt een nieuwe volgorde gemaakt met de status `Pending` .
 
 >[!NOTE]
 >
->Het annuleren van een bestelling leidt ook tot een annulering, maar het ongeldig verklaren van een bestelling leidt niet tot een annulering.
+>Als u een bestelling annuleert, resulteert dit ook in een &#39;void&#39;, maar het annuleren van een bestelling leidt niet tot annulering.
 
-### Een bestelling ongeldig maken
+### Een bestelling wissen
 
-Alleen verkooporders die niet zijn gefactureerd, de status hebben van `Processing`, en een [betalingsintegratie-instelling van `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), kunnen ongeldig worden [verklaard](order-update.md#void-a-processing-order). Nadat je een bestelling ongeldig hebt verklaard, kun je deze annuleren.
+Slechts verkooporden die niet worden gefactureerd, hebben een status van `Processing`, en a [ betalings integratie het plaatsen van `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), kunnen [ ongeldig worden verklaard ](order-update.md#void-a-processing-order). Nadat u een bestelling hebt verwijderd, kunt u deze annuleren.
 
 ### [!UICONTROL Order and Account Information]
 
-![Bestel- en accountgegevens](./assets/order-account-information.png){width="600" zoomable="yes"}
+![ orde en de Informatie van de Rekening ](./assets/order-account-information.png){width="600" zoomable="yes"}
 
 #### Ordergegevens
 
@@ -162,10 +162,30 @@ Alleen verkooporders die niet zijn gefactureerd, de status hebben van `Processin
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Payment Information] | De betaalmethode die voor de bestelling moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die is gebruikt om de bestelling te plaatsen. Als de bestelling ten laste wordt gebracht van het bedrijfskrediet met behulp van [Betaling op rekening](../b2b/enable-basic-features.md#configure-payment-on-account), wordt het bedrag dat in rekening wordt gebracht op de rekening aangegeven. |
+| [!UICONTROL Payment Information] | De wijze van betaling die voor de order moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die voor de order is gebruikt. Als de orde aan bedrijfskrediet gebruikend [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) in rekening wordt gebracht, wordt het bedrag dat aan de rekening in rekening wordt gebracht vermeld. |
 | [!UICONTROL Shipping & Handling Information] | De te gebruiken verzendmethode en eventuele verpakkingskosten. |
 
 {style="table-layout:auto"}
+
+### Kenmerken aangepaste volgorde
+
+[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+
+Met de kenmerken voor aangepaste bestellingen kunt u aanvullende informatie die specifiek is voor uw bedrijfsbehoeften aan de bestelling koppelen.
+
+![ de Attributen van de Orde van de Douane ](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+In **[!UICONTROL Custom Order Attributes]** worden alle kenmerken van de aangepaste volgorde en de huidige waarden weergegeven.
+
+Voer een **[!UICONTROL Attribute Code]** en **[!UICONTROL Value]** in om een nieuw kenmerk voor aangepaste volgorde te maken
+
+Klik op **[!UICONTROL Add Attribute]** om aanvullende aangepaste orderkenmerken te maken.
+
+Als u een aangepast orderkenmerk wilt verwijderen, klikt u op het pictogram **[!UICONTROL X]** .
+
+>[!NOTE]
+>
+>Kenmerken voor een aangepaste volgorde kunnen alleen worden bewerkt als de volgorde de status `Pending` heeft. Voor orders in andere statussen kunt u de kenmerkwaarden weergeven, maar niet wijzigen.
 
 ### Geordende items controleren
 
@@ -196,7 +216,7 @@ Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 | [!UICONTROL Tax Amount] | Het bedrag aan belasting dat op het punt als decimale waarde van toepassing is. |
 | [!UICONTROL Tax Percent] | Het percentage van de belasting dat op dit object wordt toegepast als een percentage. |
 | [!UICONTROL Discount Amount] | De korting die op dit object van toepassing is. De disconteringswaarde is nul als de orde op een citaat gebaseerd is. |
-| [!UICONTROL Row Total] | Het totaal van het regelitem, inclusief toepasselijke belastingen die verschuldigd zijn op productniveau, verminderd met kortingen. |
+| [!UICONTROL Row Total] | Het totaal van de posten, inclusief de toepasselijke belastingen die op productniveau verschuldigd zijn, minus kortingen. |
 
 {style="table-layout:auto"}
 
@@ -205,7 +225,7 @@ Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Status] | Geeft de status van de verkooporder weer. |
-| [!UICONTROL Comment] | Een tekstvak dat wordt gebruikt om een opmerking aan de klant in te voeren die bij de bestelling hoort. <br/>**[!UICONTROL Notify Customer by Email]**- Schakel het selectievakje in als u de opmerking als een afzonderlijke e-mail naar de klant wilt sturen.<br/>**[!UICONTROL Visible on Storefront]** - Schakel het selectievakje in als u wilt dat de opmerking zichtbaar is vanuit het account van de klant. <br/>**[!UICONTROL Update]**- Voegt de opmerking toe en stuurt een e-mail, indien van toepassing. |
+| [!UICONTROL Comment] | Een tekstvak dat wordt gebruikt om een opmerking in te voeren bij de klant die de bestelling vergezelt. <br/>**[!UICONTROL Notify Customer by Email]**- Schakel het selectievakje in als u de opmerking als aparte e-mail naar de klant wilt sturen.<br/>**[!UICONTROL Visible on Storefront]** - Schakel het selectievakje in als u wilt dat de opmerking zichtbaar is vanaf het account van de klant. <br/>**[!UICONTROL Update]**- Voegt de opmerking toe en verzendt een e-mail, indien van toepassing. |
 
 {style="table-layout:auto"}
 
@@ -213,8 +233,8 @@ Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Shipping & Handling] | Het bedrag dat in rekening wordt gebracht voor verzend- en administratiekosten. |
-| [!UICONTROL Tax] | Het bedrag aan belasting dat van toepassing is op de bestelling, indien van toepassing. |
+| [!UICONTROL Shipping & Handling] | Het bedrag dat in rekening wordt gebracht voor verzendkosten. |
+| [!UICONTROL Tax] | Het bedrag van de belasting die op de order wordt toegepast, indien van toepassing. |
 | [!UICONTROL Grand Total] | Het totaal van de bestelling. |
 | [!UICONTROL Total Paid] | Het totale bedrag dat naar de bestelling is betaald, indien van toepassing. |
 | [!UICONTROL Total Refunded] | Het totale bedrag dat van de bestelling is terugbetaald, indien van toepassing. |
