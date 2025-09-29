@@ -3,9 +3,9 @@ title: Een Commerce-account overmaken
 description: Leer hoe u uw Commerce-account naar een andere eigenaar of een ander e-mailadres kunt overbrengen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 674d918dee9fa0a001bf7910ab2531df8dc353af
+source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 Als de zakelijke verantwoordelijkheden veranderen, moet u mogelijk uw Commerce-account overdragen naar een nieuwe eigenaar of naar een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
 
-De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [ gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
+De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [ gebruikerstoegang ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
 
 >[!IMPORTANT]
 >
->Als de nieuwe accounteigenaar extensies heeft aangeschaft met Gedeelde toegang, gaat de toegang tot deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [ terugwint hun rekening van de Marketplace ](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [ team van de Marketplace ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
+>Als de nieuwe accounteigenaar extensies heeft aangeschaft met Gedeelde toegang, gaat de toegang tot deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [ terugwint hun rekening van de Marketplace ](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [ team van de Marketplace ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
 
 ## Identificeer uw overdrachtstype
 
@@ -54,13 +54,15 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   Met deze stap wordt een Adobe ID gemaakt en gekoppeld aan de huidige Commerce-account (MAGEID). Met deze accountkoppeling wordt het veld _[!UICONTROL Email]_&#x200B;geblokkeerd zodat er geen wijzigingen kunnen worden aangebracht. De configuratie van het bijbehorende e-mailadres wordt beheerd via de Adobe ID-account.
+   Met deze stap wordt een Adobe ID gemaakt en gekoppeld aan de huidige Commerce-account (MAGEID). Met deze accountkoppeling wordt het veld _[!UICONTROL Email]_geblokkeerd zodat er geen wijzigingen kunnen worden aangebracht. De configuratie van het bijbehorende e-mailadres wordt beheerd via de Adobe ID-account.
 
 1. Navigeer aan [ account.adobe.com ](https://account.adobe.com/).
 
 1. Klik op **[!UICONTROL Change Email]**.
 
 1. Voer het e-mailadres van de nieuwe eigenaar in.
+
+   Als het nieuwe e-mailadres al is gekoppeld aan een andere account in het systeem, kan het niet rechtstreeks worden gebruikt voor de overdracht. In plaats daarvan, vereist het proces het gebruiken van a [ tijdelijk e-mailadres ](#change-to-a-temporary-account) om de verandering te vergemakkelijken.
 
 1. Klik op **[!UICONTROL Change]**.
 
@@ -70,7 +72,7 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 
 1. Klik op **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447665/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-mailwijziging
 
@@ -83,6 +85,8 @@ Voor dit type overdracht moet u eerst een gekoppelde Adobe ID maken en die accou
 1. Klik onder uw accountnaam en avatar op **[!UICONTROL Change Email]** .
 
 1. Voer in het dialoogvenster het e-mailadres van de nieuwe eigenaar in.
+
+   Als het nieuwe e-mailadres al is gekoppeld aan een andere account in het systeem, kan het niet rechtstreeks worden gebruikt voor de overdracht. In plaats daarvan, vereist het proces het gebruiken van a [ tijdelijk e-mailadres ](#change-to-a-temporary-account) om de verandering te vergemakkelijken.
 
 1. Klik op **[!UICONTROL Change]**.
 
