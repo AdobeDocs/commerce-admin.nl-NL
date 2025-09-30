@@ -1,7 +1,7 @@
 ---
-source-git-commit: 7478624e4ffa25f2349b3bd77c21891daee081b4
+source-git-commit: 7262125cb9cb246cdefef934aa708726c832648f
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 24 september 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
+</td>
+      <td>
+        Belangrijke update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 10 september 2025
 
@@ -23,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verwijderd het Gebruik voor het attribuut van de Voorwaarden van de Regel van de Bodemregel van de lijst van de "Vereisten van de variatie van het Product"in het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements"> Configurable productonderwerp </a>.</p>
+      <td><p>Verwijderd het Gebruik voor het attribuut van de Voorwaarden van de Regel van de Bodemregel van de lijst van de "Vereisten van de variatie van het Product"in het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements"> Configurable productonderwerp </a>.</p>
 </td>
       <td>
         Technisch
@@ -31,7 +53,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegd een beschrijving van elk type van <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/segments/customer-segment-create"> klantensegment </a> voorwaarde.</p>
+      <td><p>Toegevoegd een beschrijving van elk type van <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create"> klantensegment </a> voorwaarde.</p>
 </td>
       <td>
         Technisch
@@ -53,7 +75,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verwijderd vervangen New Relic <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/new-relic-reporting"> meldend </a> eigenschapdocumenten.</p>
+      <td><p>Verwijderd vervangen New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting"> meldend </a> eigenschapdocumenten.</p>
 </td>
       <td>
         Belangrijke update
@@ -75,7 +97,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt standaardmethodes voor <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon"> het creëren van couponcodes </a> en verstrekte begeleiding voor het gebruiken van een uitbreiding om een lijst van de codes van de douanecoupon in te voeren.</p>
+      <td><p>Verduidelijkt standaardmethodes voor <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon"> het creëren van couponcodes </a> en verstrekte begeleiding voor het gebruiken van een uitbreiding om een lijst van de codes van de douanecoupon in te voeren.</p>
 </td>
       <td>
         Technisch
@@ -97,7 +119,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde Augustus 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
+      <td><p>Toegevoegde Augustus 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -119,7 +141,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt het verwachte gedrag van <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation"> prijs het filtreren </a> voor configureerbare producten in gelaagde navigatie.</p>
+      <td><p>Verduidelijkt het verwachte gedrag van <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation"> prijs het filtreren </a> voor configureerbare producten in gelaagde navigatie.</p>
 </td>
       <td>
         Technisch
@@ -127,7 +149,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Verduidelijkt hoe te <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> om alle punten </a> uit de kar van een klant op de hulp het winkelen wijze te verwijderen.</p>
+      <td><p>Verduidelijkt hoe te <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> om alle punten </a> uit de kar van een klant op de hulp het winkelen wijze te verwijderen.</p>
 </td>
       <td>
         Belangrijke update
