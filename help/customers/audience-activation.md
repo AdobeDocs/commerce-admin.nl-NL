@@ -5,9 +5,10 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 90c653684be644f876937dc7acbc8f72498c5e3b
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -26,9 +27,9 @@ Deze sectie bevat informatie over updates voor de Audience Activation-extensie e
 ![ Repareren ](../assets/fix.svg) - Oplossingen en verbeteringen
 ![ Bug ](../assets/bug.svg) - Bekende kwesties
 
-Zie [ Komende Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) om over versieschema&#39;s en steun te leren.
+Zie [ Komende Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om over versieschema&#39;s en steun te leren.
 
-Zie de ontwikkelaarsdocumentatie aan [ over productverenigbaarheid ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL) leren.
+Zie de ontwikkelaarsdocumentatie aan [ over productverenigbaarheid ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) leren.
 
 ## Ondersteunde service-updates
 
@@ -52,7 +53,7 @@ _30 Mei, 2023_
 
 ### 2.4.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _Maart 24, 2025_
 
@@ -60,7 +61,7 @@ _Maart 24, 2025_
 
 ### 2.3.1.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _12 November, 2024_
 
@@ -68,7 +69,7 @@ _12 November, 2024_
 
 ### 2.3.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _29 juli, 2024_
 
@@ -76,7 +77,7 @@ _29 juli, 2024_
 
 ### 2.2.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _12 Juni, 2024_
 
@@ -84,7 +85,7 @@ _12 Juni, 2024_
 
 ### 2.1.1.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _4 April, 2024_
 
@@ -92,7 +93,7 @@ _4 April, 2024_
 
 ### 2.2.0-bèta1
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _16 februari 2024_
 
@@ -101,7 +102,7 @@ _16 februari 2024_
 
 ### 2.1.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _Januari 24, 2024_
 
@@ -109,7 +110,7 @@ _Januari 24, 2024_
 
 ### 2.0.1.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _16 november 2023_
 
@@ -117,16 +118,16 @@ _16 november 2023_
 
 ### 2.0.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _10 oktober, 2023_
 
-![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [&#128279;](#configure-the-extension) de uitbreiding van Audience Activation vormt.
+![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [ ](#configure-the-extension) de uitbreiding van Audience Activation vormt.
 ![ Repareren ](../assets/fix.svg) - Verbeterde stabiliteit.
 
 ### 1.2.0.
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 _Augustus 15, 2023_
 
@@ -136,7 +137,7 @@ _Augustus 15, 2023_
 
 _30 Mei, 2023_
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor [ dynamische blokken ](#headless-support) in een headless storefront.
 
@@ -144,7 +145,7 @@ _30 Mei, 2023_
 
 _Mei 11, 2023_
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg) - Vaste een kwestie waar een dynamisch blok of de regel van de kartprijs niet op de storefront werd toegepast.
 ![ Bevestig ](../assets/fix.svg) - Vloedigde een kwestie waar een niet gevormde installatie van de uitbreiding van Audience Activation een fout veroorzaakte wanneer een handelaar probeerde om een dynamisch blok tot stand te brengen of bij te werken.
@@ -153,7 +154,7 @@ _Mei 11, 2023_
 
 _Maart 31, 2023_
 
-[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) - Algemene beschikbaarheidsversie
 
@@ -162,7 +163,7 @@ _Maart 31, 2023_
 De volgende taken zijn van toepassing op zowel de uitvoeringen van het Luma als van het hoofdloze winkelcentrum. Als u het publiek in Adobe Commerce wilt activeren, moet u:
 
 - Adobe Commerce versie 2.4.4 of hoger installeren
-- [ activeer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=nl-NL) Adobe Commerce als bestemming in Real-Time CDP
+- [ activeer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce als bestemming in Real-Time CDP
 - [ installeer ](#install-the-extension) de [!DNL Audience Activation] uitbreiding in Admin
 - [ vorm ](#configure-the-extension) de [!DNL Audience Activation] uitbreiding in Admin
 
@@ -180,23 +181,23 @@ Nadat u de extensie [!DNL Audience Activation] hebt geïnstalleerd, moet u zich 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [ Teken binnen ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL#organizationid) aan uw rekening van Adobe en selecteer uw organisatieidentiteitskaart
+1. [ Teken binnen ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) aan uw rekening van Adobe en selecteer uw organisatieidentiteitskaart
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
-1. Op het **[!UICONTROL Datastream ID]** gebied, kleef identiteitskaart van de gegevensstroom die u creeerde toen u [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=nl-NL#parameters) Adobe Commerce als bestemming in Real-Time CDP activeerde.
+1. Op het **[!UICONTROL Datastream ID]** gebied, kleef identiteitskaart van de gegevensstroom die u creeerde toen u [ ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als bestemming in Real-Time CDP activeerde.
 
-   Deze gegevensstroom verzendt gegevens van uw Commerce-website naar Real-Time CDP om te bepalen of een klant tot een publiek behoort. Als u nog geen gegevensstroom hebt gecreeerd, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#create) in Experience Platform, [ voeg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=nl-NL) het aan de bestemming van Commerce in Real-Time CDP toe, en aan de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL#data-collection) uitbreiding in Admin.
+   Deze gegevensstroom verzendt gegevens van uw Commerce-website naar Real-Time CDP om te bepalen of een klant tot een publiek behoort. Als u nog geen gegevensstroom hebt gecreeerd, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) in Experience Platform, [ voeg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) het aan de bestemming van Commerce in Real-Time CDP toe, en aan de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) uitbreiding in Admin.
 
    >[!NOTE]
    >
-   >Wanneer u een gegevensstroomidentiteitskaart specificeert, associeert u [ het aan een specifieke website ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL#data-collection) in de [!DNL Data Connection] uitbreiding. Als uw opslag van Commerce veelvoudige websites heeft, [ creeer een bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=nl-NL) voor elke website in Real-Time CDP en gebruik verschillende gegevensstroom identiteitskaart voor elk.
+   >Wanneer u een gegevensstroomidentiteitskaart specificeert, associeert u [ het aan een specifieke website ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) in de [!DNL Data Connection] uitbreiding. Als uw opslag van Commerce veelvoudige websites heeft, [ creeer een bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) voor elke website in Real-Time CDP en gebruik verschillende gegevensstroom identiteitskaart voor elk.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw **[!UICONTROL Services]** uit en selecteer **[!UICONTROL [!DNL Data Connection]]** .
 
-1. [ voeg ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL#add-service-account-and-credential-details) de dienstrekening en credentiedetails toe.
+1. [ voeg ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) de dienstrekening en credentiedetails toe.
 
 ## Waar kan het Real-Time CDP-publiek in Commerce worden gebruikt?
 
@@ -208,11 +209,11 @@ Als de extensie [!DNL Audience Activation] is ingeschakeld, kunt u:
 
 >[!TIP]
 >
->Voor een volledig gebruiksgeval van begin tot eind over hoe te om [!DNL Commerce] gegevens naar Real-Time CDP uit te voeren, bouwt een publiek, dan activeert dat publiek aan [!DNL Commerce], zie [ een publiek in Real-Time CDP creëren gebruikend  [!DNL Commerce]  gebeurtenisgegevens ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/use-cases/create-audience).
+>Voor een volledig gebruiksgeval van begin tot eind over hoe te om [!DNL Commerce] gegevens naar Real-Time CDP uit te voeren, bouwt een publiek, dan activeert dat publiek aan [!DNL Commerce], zie [ een publiek in Real-Time CDP creëren gebruikend  [!DNL Commerce]  gebeurtenisgegevens ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP-doeldashboard
 
-U kunt alle [ actieve ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=nl-NL) publiek bekijken dat beschikbaar is om binnen uw instantie van Adobe Commerce te personaliseren gebruikend het **3&rbrace; dashboard van het Soorten publiek van Real-Time CDP &lbrace;.**
+U kunt alle [ actieve ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) publiek bekijken dat beschikbaar is om binnen uw instantie van Adobe Commerce te personaliseren gebruikend het **3} dashboard van het Soorten publiek van Real-Time CDP {.**
 
 Om tot het **publiek van Real-Time CDP** dashboard toegang te hebben, ga naar _Admin_ sidebar, dan ga **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
@@ -242,15 +243,15 @@ U kunt het publiek in een Adobe Commerce-instantie zonder kop, zoals AEM en PWA,
 
 ### Cart price rules and related product rules
 
-Voor de regels van de kartprijs en verwante productregels, communiceert een koploze winkel aan Experience Platform door [ Commerce integration framework (CIF) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=nl-NL). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. Publiek-informatie, zoals het segment van een klant, gaat naar Commerce via een GraphQL-headerparameter genaamd: `aep-segments-membership` .
+Voor de regels van de kartprijs en verwante productregels, communiceert een koploze winkel aan Experience Platform door [ Commerce integration framework (CIF) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Het framework biedt een server-side API die met GraphQL is geïmplementeerd. Publiek-informatie, zoals het segment van een klant, gaat naar Commerce via een GraphQL-headerparameter genaamd: `aep-segments-membership` .
 
 De architectuur ziet er als volgt uit:
 
 ![ verzendend Gegevens van Hoofdloze Storefront aan Achtergrond ](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Nadat u [&#128279;](#install-the-extension) installeert en [&#128279;](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
+Nadat u [ ](#install-the-extension) installeert en [ ](#configure-the-extension) de uitbreiding vormt, bevat het Web SDK van Experience Platform de publieksinformatie in de vorm van segmentlidmaatschap.
 
-Om die segmentlidmaatschap van SDK te vangen, zie dit [ codefragment ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=nl-NL#example-response-for-custom-personalization-with-attributes).
+Om die segmentlidmaatschap van SDK te vangen, zie dit [ codefragment ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 Nadat u de segmenten hebt opgehaald, kunt u deze in de GraphQL-koptekst doorgeven aan Commerce. Bijvoorbeeld:
 
@@ -343,7 +344,7 @@ Leer meer over de `dynamicBlocks` vraag van GraphQL in de [ ontwikkelaardocument
 U kunt het Real-Time CDP-publiek ophalen met de Adobe Experience Platform Mobile SDK.
 
 1. [ installeer ](#install-the-extension) de uitbreiding van Audience Activation.
-1. [ installeer en vorm SDK voor uw mobiele plaats van Commerce ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=nl-NL).
+1. [ installeer en vorm SDK voor uw mobiele plaats van Commerce ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -384,7 +385,7 @@ Nadat het gegeven wordt teruggewonnen, kunt u het gebruiken om publiek-geïnform
 Als Real-Time CDP-publiek niet wordt weergegeven in Commerce, kan dit worden veroorzaakt door:
 
 - Ongeldige verbinding
-- Onjuist die authentificatietype in de **configuratiepagina van de Verbinding van 0&rbrace; wordt geselecteerd**
+- Onjuist die authentificatietype in de **configuratiepagina van de Verbinding van 0} wordt geselecteerd**
 - Onvoldoende rechten voor gegenereerd token
 
 In de volgende secties wordt beschreven hoe u deze problemen kunt oplossen.
@@ -431,5 +432,5 @@ Dit probleem kan worden veroorzaakt door onvoldoende API-bevoegdheden voor het g
 1. Open de referenties en selecteer vervolgens **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]** .
 1. Voeg de rol toe die **[!UICONTROL Manage destinations]** toestemming bevat.
 1. Klik op **[!UICONTROL Save]**.
-1. [ Regenereer ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=nl-NL#generate-access-token) het toegangstoken in Console.
+1. [ Regenereer ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) het toegangstoken in Console.
 1. Verifieer dat het teken een geldige reactie gebruikend [ Verbinding API van het Doel ](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections) verstrekt.
