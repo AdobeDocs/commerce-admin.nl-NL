@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL General] &gt; [!UICONTROL Content Management] van Commerce Admin.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
 workflow-type: tm+mt
 source-wordcount: '488'
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![&#x200B; de Opties van WYSIWYG &#x200B;](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![&#x200B; de Hiërarchie van de Pagina van CMS &#x200B;](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![&#x200B; Geavanceerde Hulpmiddelen van de Inhoud &#x200B;](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
