@@ -25,7 +25,7 @@ Een dynamische URL wordt gecreeerd _op de vlucht_ en zou een vraagkoord met vari
 
 ### Statische URL
 
-Een statische URL is een vast adres voor een specifieke pagina. Een statische URL kan worden weergegeven in een indeling die geschikt is voor zoekprogramma&#39;s of in een indeling die verwijst naar producten en categorieën op ID. Deze URL&#39;s bevatten woorden die mensen kunnen gebruiken om naar een product te zoeken en waarvoor herschrijvingen van webservers moeten worden ingeschakeld. De dossiers met statische URLs worden algemeen gebruikt voor product en categoriepagina&#39;s, inhoudspagina&#39;s, en [ themaactiva ](../content-design/theme-assets.md).
+Een statische URL is een vast adres voor een specifieke pagina. Een statische URL kan worden weergegeven in een indeling die geschikt is voor zoekprogramma&#39;s of in een indeling die verwijst naar producten en categorieën op ID. Deze URL&#39;s bevatten woorden die mensen kunnen gebruiken om naar een product te zoeken en waarvoor herschrijvingen van webservers moeten worden ingeschakeld. De dossiers met statische URLs worden algemeen gebruikt voor product en categoriepagina&#39;s, inhoudspagina&#39;s, en [&#x200B; themaactiva &#x200B;](../content-design/theme-assets.md).
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -37,13 +37,13 @@ De URL-sleutel is het deel van een statische URL dat het product of de categorie
 
 >[!NOTE]
 >
->Standaard worden speciale tekens met accent automatisch vervangen door de normale versie zonder accent in de URL-sleutel. `ñ` wordt bijvoorbeeld automatisch vervangen door `n` . Dit gedrag kan worden uitgeschakeld door de configuratieoptie _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;in te stellen op `No` . Zie [ catalogus URLs ](#configure-catalog-urls) vormen.
+>Standaard worden speciale tekens met accent automatisch vervangen door de normale versie zonder accent in de URL-sleutel. `ñ` wordt bijvoorbeeld automatisch vervangen door `n` . Dit gedrag kan worden uitgeschakeld door de configuratieoptie _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;in te stellen op `No` . Zie [&#x200B; catalogus URLs &#x200B;](#configure-catalog-urls) vormen.
 
 De URL-sleutel moet bestaan uit kleine letters met niet-afbreekstreepjes tussen deze tekens om woorden van elkaar te scheiden. Afbreekstreepjes zijn niet toegestaan aan het begin of aan het einde van de URL-sleutel. Een goed ontworpen URL-sleutel die &#39;geschikt is voor zoekprogramma&#39;s&#39; kan de productnaam en trefwoorden bevatten om de manier waarop deze wordt geïndexeerd door zoekprogramma&#39;s te verbeteren. De URL-sleutel kan worden geconfigureerd om een automatische omleiding te maken als de URL-sleutel verandert.
 
 >[!NOTE]
 >
->Om aanpassingen URL, zoals gelokaliseerde URLs uit te breiden, zie [ URL herschrijft ](../merchandising-promotions/url-rewrite.md) voor meer informatie.
+>Om aanpassingen URL, zoals gelokaliseerde URLs uit te breiden, zie [&#x200B; URL herschrijft &#x200B;](../merchandising-promotions/url-rewrite.md) voor meer informatie.
 
 ### HTML-achtervoegsel
 
@@ -80,7 +80,7 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimizations]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimizations]** sectie uit en plaats de opties:
 
    - Stel **[!UICONTROL Product URL Suffix]** in op `html` of `htm` . Voer het achtervoegsel zonder een punt in, omdat dit automatisch wordt toegepast.
 
@@ -88,7 +88,7 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 
    - Stel **[!UICONTROL Use Categories Path for Product URLs]** in op uw voorkeur.
 
-   ![ Optimalisering van de Motor van het Onderzoek ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek [&#128279;](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.
 
@@ -96,9 +96,9 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 
 1. Klik op de koppeling **[!UICONTROL Cache Management]** in het systeembericht als daarom wordt gevraagd en vernieuw de ongeldige cache.
 
-   ![ verfrist Geheime voorgeheugen ](./assets/msg-cache-management.png){width="450" zoomable="yes"}
+   ![&#x200B; verfrist Geheime voorgeheugen &#x200B;](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   Voor meer informatie over deze opties, zie [ geheime voorgeheugens ](../systems/cache-management.md#refresh-specific-caches) verfrissen.
+   Voor meer informatie over deze opties, zie [&#x200B; geheime voorgeheugens &#x200B;](../systems/cache-management.md#refresh-specific-caches) verfrissen.
 
 ## De URL-indeling van catalogusmedia configureren
 
@@ -106,14 +106,14 @@ Als u wilt voorkomen dat zoekprogramma&#39;s meerdere URL&#39;s indexeren die to
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL Web]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Url Options]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Url Options]** sectie uit en plaats de opties:
 
-![ Web > Algemene Opties ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+![&#x200B; Web > Algemene Opties &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Algemeen | Als rewrites van de Webserver worden toegelaten, neemt het toelaten van deze het plaatsen de Code van de Opslag van de huidige mening in URL op. Opties: `Yes` / `No` |
 | [!UICONTROL Auto-redirect to Base URL] | Algemeen | (Voor Single-store-instellingen) Als er een verbroken koppeling op uw site staat, wordt het verkeer omgeleid naar de basis-URL in plaats van naar een pagina met het bericht &quot;404 Pagina niet gevonden&quot;. Opties: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Belangrijk!_**&#x200B;Gebruik geen automatische omleiding naar de basis-URL voor instellingen in meerdere winkels. |
-| [!UICONTROL Catalog media URL format] | Algemeen | Hiermee definieert u de URL-indeling die is toegewezen aan producten en categorieën. Opties: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definieert omgezette bestandsnaam als een unieke hash-waarde.<br />**[!UICONTROL Image optimization based on query parameters]** - bepaalt [ beeld optimaliseert ](../content-design/media-gallery-image-optimization.md) proces afhankelijk van vraagparameters. |
+| [!UICONTROL Catalog media URL format] | Algemeen | Hiermee definieert u de URL-indeling die is toegewezen aan producten en categorieën. Opties: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definieert omgezette bestandsnaam als een unieke hash-waarde.<br />**[!UICONTROL Image optimization based on query parameters]** - bepaalt [&#x200B; beeld optimaliseert &#x200B;](../content-design/media-gallery-image-optimization.md) proces afhankelijk van vraagparameters. |
 
 {style="table-layout:auto"}

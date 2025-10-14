@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slechts één gebeurtenis aan een bepaalde categorie tegelijk worden gekoppeld. Om een lijst van aanstaande gebeurtenissen in uw opslag te tonen, moet u ook opstelling a [&#128279;](../content-design/widget-event-carousel.md) widget van de Gebeurtenissen Carousel van de Catalogus van de Gebeurtenissen van de a  &lbrace;.
 
-![ lijst van Gebeurtenissen ](./assets/category-events.png){width="700" zoomable="yes"}
+![&#x200B; lijst van Gebeurtenissen &#x200B;](./assets/category-events.png){width="700" zoomable="yes"}
 
 ## Een gebeurtenis maken
 
@@ -29,15 +29,15 @@ Elke gebeurtenis is gekoppeld aan een categorie uit uw catalogus en er kan slech
 
    Omdat elke categorie slechts één gebeurtenis tegelijk kan hebben, worden alle categorieën die al een gebeurtenis hebben, uitgeschakeld.
 
-   ![ Nieuwe gebeurtenis - categorieboom ](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
+   ![&#x200B; Nieuwe gebeurtenis - categorieboom &#x200B;](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
 
 1. Definieer de **[!UICONTROL Catalog Event Information]** :
 
-   ![ de gebeurtenisinformatie van de Catalogus ](./assets/catalog-event-information.png){width="700" zoomable="yes"}
+   ![&#x200B; de gebeurtenisinformatie van de Catalogus &#x200B;](./assets/catalog-event-information.png){width="700" zoomable="yes"}
 
-   - Voor **[!UICONTROL Start Date]** van de gebeurtenis, gebruik de kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de datum te kiezen. Gebruik de schuifregelaars **[!UICONTROL Hour]** en **[!UICONTROL Minute]** om de tijd in te stellen waarop de gebeurtenis begint.
+   - Voor **[!UICONTROL Start Date]** van de gebeurtenis, gebruik de kalender (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om de datum te kiezen. Gebruik de schuifregelaars **[!UICONTROL Hour]** en **[!UICONTROL Minute]** om de tijd in te stellen waarop de gebeurtenis begint.
 
-   - Voor **[!UICONTROL End Date]** van de gebeurtenis, gebruik de kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de datum te kiezen. Gebruik de schuifregelaars **[!UICONTROL Hour]** en **[!UICONTROL Minute]** om de tijd in te stellen waarop de gebeurtenis eindigt.
+   - Voor **[!UICONTROL End Date]** van de gebeurtenis, gebruik de kalender (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om de datum te kiezen. Gebruik de schuifregelaars **[!UICONTROL Hour]** en **[!UICONTROL Minute]** om de tijd in te stellen waarop de gebeurtenis eindigt.
 
    - Als u een **[!UICONTROL Image]** voor de gebeurteniswidget wilt uploaden, klikt u op **[!UICONTROL Choose File]** en selecteert u het afbeeldingsbestand in de map.
 
@@ -85,12 +85,12 @@ Gebeurtenissen kunnen worden bewerkt vanaf de pagina Gebeurtenissen of vanuit de
 
 ## Veldomschrijvingen
 
-| Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Category] | Algemeen | Wanneer u een gebeurtenis maakt, wordt dit veld weer gekoppeld aan de categoriestructuur. Wanneer u een gebeurtenis bewerkt, wordt deze gekoppeld aan de categoriepagina die betrekking heeft op de gebeurtenis. |
 | [!UICONTROL Start Date] | Algemeen | De begindatum en -tijd van de gebeurtenis in `MMDDYYYY HH;MM` -indeling. Klik op het kalenderpictogram om de datum te selecteren. |
 | [!DNL End Date] | Algemeen | De einddatum en -tijd van de gebeurtenis in `MMDDYYYY HH;MM` -indeling. Klik op het kalenderpictogram om de datum te selecteren. |
-| [!UICONTROL Image] | Winkelweergave | Uploadt een beeld dat in de [ Van de Gebeurtenissen Carrousel van de Catalogus widget ](../content-design/widget-event-carousel.md) verschijnt. |
+| [!UICONTROL Image] | Winkelweergave | Uploadt een beeld dat in de [&#x200B; Van de Gebeurtenissen Carrousel van de Catalogus widget &#x200B;](../content-design/widget-event-carousel.md) verschijnt. |
 | [!UICONTROL Sort Order] | Algemeen | Hiermee bepaalt u de volgorde waarin deze gebeurtenis wordt weergegeven wanneer deze met andere gebeurtenissen wordt weergegeven. |
 | [!UICONTROL Display Countdown Ticker On] | Algemeen | Geeft de tellerticker weer in de koptekst van elke opgegeven pagina. Opties: `Category Page` / `Product Page` |
 | [!UICONTROL Status] | Algemeen | Geeft de status van de gebeurtenis aan op basis van de begindatum en het bereik van einddatum. Status is een alleen-lezen waarde. Waarden: `Open` / `Closed` / `Upcoming` |

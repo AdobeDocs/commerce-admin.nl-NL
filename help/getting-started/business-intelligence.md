@@ -29,7 +29,7 @@ Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documen
 >
 >Vanwege compatibiliteitsproblemen met [!DNL Adobe Commerce Intelligence] kan Commerce tijdelijk geen ondersteuning bieden voor Geavanceerde rapportage met AWS S3 Bucket als medium voor het brongegevensbestand in [!DNL Commerce Intelligence] .
 
-![ Geavanceerd Meldend dashboard ](./assets/reporting-advanced.png){width="700"}
+![&#x200B; Geavanceerd Meldend dashboard &#x200B;](./assets/reporting-advanced.png){width="700"}
 
 ### Vereisten
 
@@ -39,7 +39,7 @@ Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documen
 
 * [!DNL Commerce] moet zonder fout zijn geïnstalleerd of bijgewerkt.
 
-* In de [!DNL Commerce] configuratie voor [ opslag URLs ](../stores-purchase/store-urls.md), moet het **[!UICONTROL Base URL (Secure)]** plaatsen voor de opslagmening aan veilige URL richten. Bijvoorbeeld: `https://yourdomain.com` .
+* In de [!DNL Commerce] configuratie voor [&#x200B; opslag URLs &#x200B;](../stores-purchase/store-urls.md), moet het **[!UICONTROL Base URL (Secure)]** plaatsen voor de opslagmening aan veilige URL richten. Bijvoorbeeld: `https://yourdomain.com` .
 
 * In de [!DNL Commerce] -configuratie voor opslag-URL&#39;s moeten **[!UICONTROL Use Secure URLs on Storefront]** en **[!UICONTROL Use Secure URLs in Admin]** zijn ingesteld op `Yes` .
 
@@ -47,7 +47,7 @@ Zie het onderwerp [[!DNL Advanced Reporting]][2]{:target="_blank"} in de documen
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] kan slechts met [!DNL Commerce] installaties worden gebruikt die voortdurend één enkele [ basismunt ](../stores-purchase/currency-configuration.md) hebben gebruikt.
+>[!DNL Advanced Reporting] kan slechts met [!DNL Commerce] installaties worden gebruikt die voortdurend één enkele [&#x200B; basismunt &#x200B;](../stores-purchase/currency-configuration.md) hebben gebruikt.
 
 
 ### Stap 1: Inschakelen [!DNL Advanced Reporting]
@@ -64,7 +64,7 @@ In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration
 
    * Kies onder **[!UICONTROL Industry Data]** de **[!UICONTROL Industry]** die het beste uw bedrijf beschrijft.
 
-   ![ Geavanceerde het Melden configuratie ](./assets/advanced-reporting-config.png){width="400"}
+   ![&#x200B; Geavanceerde het Melden configuratie &#x200B;](./assets/advanced-reporting-config.png){width="400"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -86,13 +86,13 @@ In de [!DNL Commerce] configuratie, [[!DNL Advanced Reporting]](../configuration
    * Houd de muisaanwijzer boven een gegevenspunt voor meer informatie.
    * Klik op elk tabblad om alle dashboardrapporten weer te geven.
 
-   ![ Punt van Gegevens ](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
+   ![&#x200B; Punt van Gegevens &#x200B;](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
 ## [!DNL Advanced Reporting] gegevensbronnen openen
 
 Klik in de rechterbovenhoek van het dashboard Geavanceerde rapportage op **[!UICONTROL Additional Resources]** .
 
-![ Geavanceerde het Melden van gegevensmiddelen ](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![&#x200B; Geavanceerde het Melden van gegevensmiddelen &#x200B;](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## Problemen oplossen
 
@@ -106,15 +106,15 @@ Als je het bericht &quot;Pagina niet gevonden&quot; van 404 ontvangt, controleer
 
 1. Klik op **[!UICONTROL Reauthorize]** en voer de volgende handelingen uit om de gebruiker opnieuw tot stand te brengen:
 
-   ![ opnieuw machtigen ](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
+   ![&#x200B; opnieuw machtigen &#x200B;](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
    * Klik wanneer u daarom wordt gevraagd op **[!UICONTROL Reauthorize]** om de toegang tot de API-bronnen goed te keuren.
 
-     ![ opnieuw machtigt Toegang tot API Middelen ](./assets/advanced-reporting-integration-api.png){width="600"}
+     ![&#x200B; opnieuw machtigt Toegang tot API Middelen &#x200B;](./assets/advanced-reporting-integration-api.png){width="600"}
 
    * Verifieer dat de lijst van de Tokens van de Integratie voor Uitbreidingen volledig is. Dan, klik **Gereed**.
 
-     ![ Tokens van de Integratie ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![&#x200B; Tokens van de Integratie &#x200B;](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. Zoek het bericht dat aangeeft dat de integratie `Magento Analytics user` opnieuw is geautoriseerd.
 
@@ -122,7 +122,7 @@ Als je het bericht &quot;Pagina niet gevonden&quot; van 404 ontvangt, controleer
 
 ### Eén basisvaluta verifiëren
 
-[!DNL Advanced Reporting] kan slechts met [!DNL Commerce] installaties worden gebruikt die slechts één enkele [ basismunt ](../stores-purchase/currency-configuration.md) sinds de tijd van installatie hebben gebruikt. Het resultaat is dat in de geschiedenis alle orders dezelfde basisvaluta gebruiken. [!DNL Advanced Reporting] werkt niet als u op enig moment uw basisvaluta hebt gewijzigd en bestellingen in uw geschiedenis hebt uitgevoerd die met verschillende basisvaluta&#39;s zijn verwerkt.
+[!DNL Advanced Reporting] kan slechts met [!DNL Commerce] installaties worden gebruikt die slechts één enkele [&#x200B; basismunt &#x200B;](../stores-purchase/currency-configuration.md) sinds de tijd van installatie hebben gebruikt. Het resultaat is dat in de geschiedenis alle orders dezelfde basisvaluta gebruiken. [!DNL Advanced Reporting] werkt niet als u op enig moment uw basisvaluta hebt gewijzigd en bestellingen in uw geschiedenis hebt uitgevoerd die met verschillende basisvaluta&#39;s zijn verwerkt.
 
 Om te bepalen of uw opslag veelvoudige basisvaluta&#39;s heeft, kunt u uw [!DNL Commerce] gegevensbestand van de bevellijn vragen gebruikend het volgende voorbeeld MySQL. Mogelijk moet u de tabelnamen aanpassen aan de gegevensstructuur:
 

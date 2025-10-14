@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Adobe Commerce en Magento Open Source kunt u back-ups maken van verschillende onderdelen van het systeem, zoals het bestandssysteem, de database en de mediabestanden, en automatisch terugdraaien. Een verslag voor elke steun verschijnt in het net op de _pagina van Steunen_. Als u een record uit de lijst verwijdert, wordt ook het gearchiveerde bestand verwijderd. Back-upbestanden van databases worden gecomprimeerd in de GZ-indeling. Voor de systeemsteunen en de gegevensbestand en media steunen, wordt het formaat TGZ gebruikt. U kunt het beste de toegang tot back-uptools beperken en back-ups maken voordat u extensies en updates installeert.
 
-- **Beperk toegang tot reservehulpmiddelen.** De toegang tot de steunen en het hulpmiddel van het het rolbackbeheer kan worden beperkt door [ gebruikersrollen ](permissions-user-roles.md) voor steun en rolbackmiddelen te vormen. Als u de toegang wilt beperken, schakelt u het desbetreffende selectievakje niet in. Om toegang tot terugschroeven van prijzen te verlenen, moet u toegang tot reservemiddelen ook verlenen.
+- **Beperk toegang tot reservehulpmiddelen.** De toegang tot de steunen en het hulpmiddel van het het rolbackbeheer kan worden beperkt door [&#x200B; gebruikersrollen &#x200B;](permissions-user-roles.md) voor steun en rolbackmiddelen te vormen. Als u de toegang wilt beperken, schakelt u het desbetreffende selectievakje niet in. Om toegang tot terugschroeven van prijzen te verlenen, moet u toegang tot reservemiddelen ook verlenen.
 
 - **file alvorens uitbreidingen en updates te installeren.** Maak altijd een back-up voordat u een extensie installeert of bijwerkt.
 
@@ -27,7 +27,7 @@ Met Adobe Commerce en Magento Open Source kunt u back-ups maken van verschillend
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit **[!UICONTROL Backup Settings]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit **[!UICONTROL Backup Settings]**.
 
 1. Stel **[!UICONTROL Enabled Schedule Backup]** in op `Yes` .
 
@@ -39,7 +39,7 @@ Met Adobe Commerce en Magento Open Source kunt u back-ups maken van verschillend
    - Stel **[!UICONTROL Frequency]** in op `Daily` , `Weekly` of `Monthly` .
    - Stel **[!UICONTROL Maintenance Mode]** in op `Yes` .
 
-   ![ Geavanceerde configuratie - steunen ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - steunen &#x200B;](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -55,7 +55,7 @@ Met Adobe Commerce en Magento Open Source kunt u back-ups maken van verschillend
 
    - **[!UICONTROL Database Backup]** - Maakt een back-up van de database.
 
-   ![ hulpmiddelen van het Systeem - steunen ](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![&#x200B; hulpmiddelen van het Systeem - steunen &#x200B;](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. Schakel het selectievakje in om de opslagruimte tijdens de back-up in de onderhoudsmodus te zetten.
 

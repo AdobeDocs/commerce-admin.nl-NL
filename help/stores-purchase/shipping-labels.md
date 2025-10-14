@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Commerce biedt een hoge mate van integratie met de belangrijkste scheepvaartmaatschappijen, waardoor u toegang hebt tot de transportsystemen voor het volgen van bestellingen, het maken van verzendlabels en nog veel meer. Er kunnen verzendlabels worden gemaakt voor regelmatige zendingen en producten met een retourvergunning. Naast de door de scheepvaartmaatschappij verstrekte informatie bevat het etiket ook het Commerce-ordernummer, het nummer van de verpakking en de totale hoeveelheid colli voor de verzending.
 
-![ Prioriteit USPS Verzendlabel ](./assets/shipping-usps-priority-label.png){width="300"}
+![&#x200B; Prioriteit USPS Verzendlabel &#x200B;](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [Verzendlabels configureren](shipping-label-configure.md)
 - [Verzendlabels en -pakketten maken](shipping-label-create.md)

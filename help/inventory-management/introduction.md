@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze eigenschappen werden ontwikkeld als deel van [ Inventory management ](https://github.com/magento/inventory) (vroeger MSI) project door het Communautaire programma van de Techniek.<br/>
+>Deze eigenschappen werden ontwikkeld als deel van [&#x200B; Inventory management &#x200B;](https://github.com/magento/inventory) (vroeger MSI) project door het Communautaire programma van de Techniek.<br/>
 >
->De module [!DNL Inventory Management] wordt geïnstalleerd met Magento Open Source en Adobe Commerce, waarbij alle functies standaard zijn ingeschakeld. Voor informatie over veranderingen inbegrepen in moduleversies, zie de [ Nota&#39;s van de Versie ](release-notes.md).
+>De module [!DNL Inventory Management] wordt geïnstalleerd met Magento Open Source en Adobe Commerce, waarbij alle functies standaard zijn ingeschakeld. Voor informatie over veranderingen inbegrepen in moduleversies, zie de [&#x200B; Nota&#39;s van de Versie &#x200B;](release-notes.md).
 
 ## Basisterminologie
 

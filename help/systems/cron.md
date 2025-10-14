@@ -24,14 +24,14 @@ Adobe Commerce en Magento Open Source voeren een aantal bewerkingen op schema ui
 
 >[!IMPORTANT]
 >
->Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [ instructies in de _Gids van de Installatie_ ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL) voor gedetailleerde informatie over het installeren van de diensten aan contab.
+>Commerce-services moeten op een tab worden geïnstalleerd om ervoor te zorgen dat kerncomponenten en bepaalde extensies van derden naar behoren werken. Zie de [&#x200B; instructies in de _Gids van de Installatie_ &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL) voor gedetailleerde informatie over het installeren van de diensten aan contab.
 
 Daarnaast kunt u het volgende configureren om volgens een uitsnijdschema te worden uitgevoerd:
 
 - Updates en opnieuw indexeren van systeemrasters ordenen
 - Betalingslevensduur in behandeling
 
-Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [ de banen van de opstelling cron ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [ en looppas pictogram ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) in de _Gids van de Configuratie_.
+Zorg ervoor dat [&#x200B; basis URLs &#x200B;](../stores-purchase/store-urls.md) voor de opslag correct wordt geplaatst zodat URLs die tijdens kroonverrichtingen worden geproduceerd correct is. Voor Adobe Commerce op wolkeninfrastructuur, zie [&#x200B; de banen van de opstelling cron &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_. Voor op-gebouw, zie [&#x200B; en looppas pictogram &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 ## Uitsnede configureren
 
@@ -39,9 +39,9 @@ Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Cron]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Cron]** sectie uit.
 
-   ![ Geavanceerde configuratie - bouwtaken ](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - bouwtaken &#x200B;](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
 
 1. Voer de volgende instellingen in voor de groepen **[!UICONTROL Index]** en **[!UICONTROL Default]** .
 
@@ -55,6 +55,6 @@ Zorg ervoor dat [ basis URLs ](../stores-purchase/store-urls.md) voor de opslag 
    - **[!UICONTROL Failure History Lifetime]** - Hiermee bepaalt u de tijdsduur (in minuten) dat de geschiedenis van uitsnijdtaken met de status `Error` in de database blijft.
    - **[!UICONTROL Use Separate Process]** - Hiermee wordt gedefinieerd of alle snijtaken van de groep in een afzonderlijk systeemproces worden uitgevoerd. Opties: `Yes` / `No`
 
-   ![ Geavanceerde configuratie - de index van de cron groep ](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - de index van de cron groep &#x200B;](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

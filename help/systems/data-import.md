@@ -66,7 +66,7 @@ Speciale tekens (zoals het gelijkteken, groter en kleiner dan symbolen, enkele e
 
 Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd aan bestaande productgegevens in de database. Alle velden behalve SKU kunnen via importeren worden bijgewerkt. Alle bestaande productgegevens worden vervangen door de geïmporteerde nieuwe gegevens. Wees voorzichtig bij het vervangen van gegevens. Alle bestaande productgegevens worden gewist en alle referenties in het systeem gaan verloren.
 
-![ de invoer van Gegevens ](./assets/import-options.png){width="600" zoomable="yes"}
+![&#x200B; de invoer van Gegevens &#x200B;](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### Stap 1: De gegevens voorbereiden
 
@@ -88,13 +88,13 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
    Het voorbeeldbestand bevat kolomkoppen met plaatsaanduidingsgegevens voor de producttypen.
 
-   ![ het dossier van de de gegevenssteekproef van de Invoer ](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![&#x200B; het dossier van de de gegevenssteekproef van de Invoer &#x200B;](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. Onderzoek de structuur van het steekproefdossier en gebruik het om uw CSV het invoerdossier voor te bereiden, ervoor zorgend dat de kolomrubrieken correct worden gespeld.
 
 1. Controleer of de grootte van het importbestand de limiet die in het bericht wordt weergegeven, niet overschrijdt.
 
-   ![ het bericht van de de invoergrootte van Gegevens ](./assets/data-import-size-notification.png){width="600"}
+   ![&#x200B; het bericht van de de invoergrootte van Gegevens &#x200B;](./assets/data-import-size-notification.png){width="600"}
 
 1. Als de importgegevens paden naar productafbeeldingen bevatten, moet u ervoor zorgen dat de afbeeldingsbestanden naar de juiste locatie zijn geüpload.
 
@@ -104,7 +104,7 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
 ### Stap 2: kies het importgedrag
 
-![ het invoergedrag van Gegevens ](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![&#x200B; het invoergedrag van Gegevens &#x200B;](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Import Behavior]** in op een van de volgende opties:
 
@@ -133,7 +133,7 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
 ### Stap 3: het importbestand identificeren
 
-![ het invoerdossier van Gegevens ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+![&#x200B; het invoerdossier van Gegevens &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Choose File]** om het bestand te selecteren dat u wilt importeren.
 
@@ -147,7 +147,7 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
    >
    >Vanaf de release Adobe Commerce en Magento Open Source `2.3.2` wordt het pad dat in _[!UICONTROL Images File Directory]_&#x200B;is opgegeven, samengevoegd voor import naar de basismap images: `<Magento-root-folder>/var/import/images` . Plaats bijvoorbeeld de bestanden `product_images` in de map `<Magento-root-directory>/var/import/images/product_images` . De basismap met importimages kan in het `\Magento\ImportExport\etc\config.xml` -bestand worden geconfigureerd. Als de externe opslagmodule is ingeschakeld, importeert u bestanden naar de map `<remote-storage-root-directory>/var/import/images/product_images` .
 
-   Meer over het invoeren van productbeelden leren, zie [ productafbeeldingen van de Invoer ](data-import-product-images.md).
+   Meer over het invoeren van productbeelden leren, zie [&#x200B; productafbeeldingen van de Invoer &#x200B;](data-import-product-images.md).
 
 ### Stap 4: controleer de importgegevens
 
@@ -157,7 +157,7 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
    Als de importgegevens geldig zijn, wordt het volgende bericht weergegeven:
 
-   ![ bericht van het Succes - het dossier is geldig ](./assets/data-import-validation-message.png){width="600"}
+   ![&#x200B; bericht van het Succes - het dossier is geldig &#x200B;](./assets/data-import-validation-message.png){width="600"}
 
 1. Klik op **[!UICONTROL Import]** als het bestand geldig is.
 
@@ -167,7 +167,7 @@ Bij het importeren van productgegevens worden nieuwe productgegevens toegevoegd 
 
    Als een foutbericht wordt weergegeven in de resultaten van de validatie, verhelpt u het probleem in de gegevens en importeert u het bestand opnieuw.
 
-   ![ het bericht van de Fout - sleutel URL bestaat reeds ](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![&#x200B; het bericht van de Fout - sleutel URL bestaat reeds &#x200B;](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    Er verschijnt een bericht wanneer het importeren is voltooid.
 
@@ -179,7 +179,7 @@ Commerce houdt een record bij met gegevens die in uw winkel zijn geïmporteerd, 
 
 Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
 
-![ de invoergeschiedenis van Gegevens ](./assets/data-import-history.png){width="600" zoomable="yes"}
+![&#x200B; de invoergeschiedenis van Gegevens &#x200B;](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

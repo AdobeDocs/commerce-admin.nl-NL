@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Sharing Options]
 
-![ de Opties van het Delen van de Rekening ](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
+![&#x200B; de Opties van het Delen van de Rekening &#x200B;](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
 <!-- [Account Sharing Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Algemeen | Bepaalt het werkingsgebied van klantenrekeningen in de opslaghiërarchie. Opties: <br/>**`Global`**- Klantaccountgegevens worden met elke website gedeeld en in de Commerce-installatie opgeslagen.<br/>**`Per Website`** - De gegevens van de klantenaccount zijn beperkt tot de website waar de account is gemaakt. |
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Online Customers Options]
 
-![ Online Klantenopties ](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
+![&#x200B; Online Klantenopties &#x200B;](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
 <!-- [Online Customers Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/now-online) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Online Minutes Interval] | Algemeen | Hiermee bepaalt u de tijdsduur dat de online activiteiten van een klant toegankelijk zijn via de beheerder. Laat het standaardinterval van 15 minuten leeg. |
 | [!UICONTROL Customer Data Lifetime] | Algemeen | Hiermee bepaalt u het aantal minuten voordat niet-opgeslagen gegevens die de klant heeft ingevoerd, verlopen. Niet-opgeslagen gegevens verlopen standaard na 60 minuten. |
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-![ creeer de Nieuwe Opties van de Rekening ](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
+![&#x200B; creeer de Nieuwe Opties van de Rekening &#x200B;](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
-![ creeer de Nieuwe Opties van de Rekening (de Velden van BTW) ](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
+![&#x200B; creeer de Nieuwe Opties van de Rekening (de Velden van BTW) &#x200B;](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
 <!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | Winkelweergave | Hiermee bepaalt u of klanten automatisch worden toegewezen aan de standaardklantengroep. Als u het BTW-nummer in de winkel wilt weergeven, stelt u BTW-nummer tonen in de winkel in en selecteert u `Yes` . Opties: <br/>**`Yes`**- Het systeem valideert niet automatisch BTW-id&#39;s van klanten en wijzigt ook geen klantgroepen.<br/>**`No`** - Het systeemgedrag is zoals gewoonlijk en de standaardklantengroep kan worden ingesteld in het veld Standaardgroep. |
 | [!UICONTROL Default Group] | Winkelweergave | Identificeert de aanvankelijke klantengroep die wordt toegewezen wanneer een rekening wordt gecreeerd. |
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Password Options]
 
-![ Opties van het Wachtwoord ](./assets/customer-configuration-password-options.png)<!-- zoom -->
+![&#x200B; Opties van het Wachtwoord &#x200B;](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
 <!-- [Password Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Password Reset Protection Type] | Winkelweergave | Bepaalt de methode die wordt gebruikt om een wachtwoord van de klantenrekening terug te stellen. Opties: <br/>**`By IP and Email`**- Het wachtwoord kan online opnieuw worden ingesteld nadat een reactie is ontvangen van een melding voor opnieuw instellen die wordt verzonden naar het e-mailadres dat is gekoppeld aan de beheerdersaccount.<br/>**`By IP`** - U kunt het wachtwoord online opnieuw instellen. <br/>**`By Email`**- U kunt het wachtwoord opnieuw instellen door te reageren op een e-mailmelding die wordt verzonden naar het e-mailadres dat is gekoppeld aan de beheerdersaccount.<br/>**`None`** - Het wachtwoord kan slechts door de archiefbeheerder worden teruggesteld. |
 | [!UICONTROL Max Number of Password Reset Requests] | Winkelweergave | Beperkt het aantal verzoeken om het opnieuw instellen van het wachtwoord per uur. Voer nul (0) in voor onbeperkte verzoeken. |
@@ -90,9 +90,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Information Options]
 
-![ Opties van de Informatie van de Rekening ](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
+![&#x200B; Opties van de Informatie van de Rekening &#x200B;](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Change Email Template] | Winkelweergave | Identificeert het standaard e-mailmalplaatje dat wordt gebruikt wanneer een klant hun e-mailadres verandert. |
 | [!UICONTROL Change Email and Password Template] | Winkelweergave | Identificeert het standaard e-mailmalplaatje dat wordt gebruikt wanneer een klant hun e-mailadres en wachtwoord verandert. |
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-![ Naam en de Opties van het Adres - Open Source ](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
+![&#x200B; Naam en de Opties van het Adres - Open Source &#x200B;](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Number of Lines in a Street Address] | Website | Bepaalt het aantal regels in het adres van de straat. Het adres van de straat bestaat uit `1` tot `4` lijnen. Als het gebied leeg is, wordt het standaardstraatadres van drie (`3`) lijnen gebruikt. |
 | [!UICONTROL Show Prefix] | Website | Bepaalt of de naam van de klant een voorvoegsel aan het begin bevat, zoals Opties voor Mr en Mw.: `No` / `Optional` / `Required` |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Show Suffix] | Website | Hiermee wordt bepaald of de naam van de klant een achtervoegsel aan het einde bevat, zoals Jr., Sr. en III. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | Website | Hiermee definieert u de lijst met achtervoegselopties. Scheid waarden met een puntkomma. Plaats een puntkomma voor de eerste waarde om een lege waarde boven aan de lijst weer te geven. |
 | [!UICONTROL Show Date of Birth] | Website | Hiermee bepaalt u of de geboortedatum van de klant is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` <br><br>**_Belangrijk:_**&#x200B;overeenkomstig huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
-| [!UICONTROL Show Tax/VAT Number] | Website | Bepaalt als de Belasting of [ aantal van BTW ](../../stores-purchase/vat.md) in de naam en adresvorm inbegrepen is. Opties: `No` / `Optional` / `Required` |
+| [!UICONTROL Show Tax/VAT Number] | Website | Bepaalt als de Belasting of [&#x200B; aantal van BTW &#x200B;](../../stores-purchase/vat.md) in de naam en adresvorm inbegrepen is. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | Website | Hiermee wordt bepaald of het geslacht is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | Website | Hiermee bepaalt u of het telefoonnummer van de klant is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Company] | Website | Hiermee bepaalt u of het bedrijf van de klant is opgenomen in het naam- en adresformulier. Opties: `No` / `Optional` / `Required` |
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ de Opties van de Naam en van het Adres - Commerce ](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
+![&#x200B; de Opties van de Naam en van het Adres - Commerce &#x200B;](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Prefix Dropdown Options] | Website | Definieert de lijst met voorvoegselopties. Scheid waarden met een puntkomma. Plaats een puntkomma voor de eerste waarde om een lege waarde boven aan de lijst weer te geven. |
 | [!UICONTROL Suffix Dropdown Options] | Website | Hiermee definieert u de lijst met achtervoegselopties. Scheid waarden met een puntkomma. Plaats een puntkomma voor de eerste waarde om een lege waarde boven aan de lijst weer te geven. |
@@ -148,11 +148,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ de Kredietopties van de Opslag ](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
+![&#x200B; de Kredietopties van de Opslag &#x200B;](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
 <!-- [Store Credit Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Store Credit Functionality] | Algemeen | Hiermee wordt bepaald of Creditering van winkel is ingeschakeld. Als u deze optie uitschakelt, wordt Winkelkrediet verwijderd van de klantenaccounts en van de pagina Beheerders van klanten. Opties: `Yes` / `No` . |
 | [!UICONTROL Show Store Credit History to Customers] | Website | Hiermee bepaalt u of de balansgeschiedenis zichtbaar is in de klantenaccounts. Opties: `Yes` / `No` . |
@@ -164,11 +164,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Login Options]
 
-![ Login Opties ](./assets/customer-configuration-login-options.png)<!-- zoom -->
+![&#x200B; Login Opties &#x200B;](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
 <!-- [Login Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Website | Bepaalt wat gebeurt nadat de klanten zich aan hun rekeningen aanmelden. Selecteer `Yes` als u klanten wilt omleiden naar het dashboard van hun account. Opties: <br/>**`Yes`**- Het accountdashboard wordt weergegeven wanneer klanten zich aanmelden bij hun accounts.<br/>**`No`** - Klanten kunnen blijven winkelen nadat ze zich hebben aangemeld bij hun accounts. |
 
@@ -176,11 +176,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Address Templates]
 
-![ Malplaatjes van het Adres ](./assets/customer-configuration-address-templates.png)<!-- zoom -->
+![&#x200B; Malplaatjes van het Adres &#x200B;](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
 <!-- [Address Templates](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
-| Sjabloon | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Sjabloon | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Text] | Winkelweergave | De sjabloon wordt gebruikt voor alle adressen die worden afgedrukt. |
 | [!UICONTROL Text One Line] | Winkelweergave | Deze sjabloon definieert de volgorde van adresentiteiten in de adresboeklijst van het winkelwagentje van de klant. Voortgang tijdens afrekenen. |
@@ -193,11 +193,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Segmenten van de Klant ](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
+![&#x200B; Segmenten van de Klant &#x200B;](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
 <!-- [Customer Segments](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/segments/customer-segments) -->
 
-| Sjabloon | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Sjabloon | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Customer Segment Functionality] | Algemeen | Bepaalt of de klantensegmenten kunnen worden gebruikt om gerichte bevorderingen tot stand te brengen. Opties: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Algemeen | Hiermee bepaalt u of klantsegmenten in real-time worden gevalideerd. Opties: <br/>**[!UICONTROL Yes]**- Klantsegmenten worden in real-time gevalideerd (standaardwaarde).<br/>**[!UICONTROL No]** - Klantsegmenten worden gevalideerd door één SQL-query met gecombineerde voorwaarde. Dit verbetert prestaties van segmentbevestiging als er vele klantensegmenten in het systeem zijn. De validatie werkt echter niet met een gesplitste database of wanneer er geen geregistreerde klanten zijn. |
@@ -206,15 +206,15 @@ ht-degree: 0%
 
 ## [!UICONTROL CAPTCHA]
 
-![ CAPTCHA ](./assets/customer-configuration-captcha.png)<!-- zoom -->
+![&#x200B; CAPTCHA &#x200B;](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
 <!-- [CAPTCHA](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Website | Hiermee schakelt u CAPTCHA in de winkels in die bij de Commerce-website horen. Opties: `Yes` / `No` |
 | [!UICONTROL Font] | Website | Bepaalt het lettertype dat wordt gebruikt om de CAPTCHA weer te geven. Als u uw eigen lettertype wilt toevoegen, plaatst u het lettertypebestand in dezelfde map als de Commerce-installatie en voegt u de declaratie toe aan het `config.xml` -bestand op `app/code/Magento/Captcha/etc` . |
-| [!UICONTROL Forms] | Website | Hiermee bepaalt u de formulieren waarin CAPTCHA wordt gebruikt. Opties: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL)) <br />`Add Gift Card Code` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br />`Create company` ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Create Gebruiker, het Wachtwoord van het Forgot Pro vormen zijn altijd ingeschakeld wanneer deze optie is geselecteerd. |
+| [!UICONTROL Forms] | Website | Hiermee bepaalt u de formulieren waarin CAPTCHA wordt gebruikt. Opties: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (zie [&#x200B; veiligheidspatch &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL)) <br />`Add Gift Card Code` ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) <br />`Create company` ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Create Gebruiker, het Wachtwoord van het Forgot Pro vormen zijn altijd ingeschakeld wanneer deze optie is geselecteerd. |
 | [!UICONTROL Displaying Mode] | Website | Hiermee bepaalt u wanneer de CAPTCHA wordt weergegeven. Opties: <br/>**`Always`**- CAPTCHA is altijd vereist om u aan te melden.<br/>**`After number of attempts to login`** - Deze optie is alleen van toepassing op het aanmeldingsformulier voor de beheerder. Als deze optie is geselecteerd, wordt het veld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;weergegeven. Voer het aantal aanmeldpogingen in dat u wilt toestaan. De waarde `0` (nul) komt overeen met het instellen van [!UICONTROL Displaying Mode] op `Always` .<br/>_&#x200B;**Nota:**&#x200B;_om het aantal mislukte login pogingen te volgen, wordt elke poging aan login onder één e-mailadres en van één IP-adres geteld. Het maximumaantal login pogingen die van het zelfde IP-adres worden toegestaan is 1.000. Deze beperking is alleen van toepassing wanneer CAPTCHA is ingeschakeld. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Website | Hier geeft u op hoe vaak een klant zich kan aanmelden voordat de account is vergrendeld. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Website | Bepaalt de levensduur van de huidige CAPTCHA. Wanneer de CAPTCHA verloopt, moet de gebruiker de pagina opnieuw laden. |

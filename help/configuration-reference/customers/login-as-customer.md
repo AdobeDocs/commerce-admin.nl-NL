@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Algemene opties
 
-![ Login als Klant - Algemene Opties ](./assets/login-as-customer.png)<!-- zoom -->
+![&#x200B; Login als Klant - Algemene Opties &#x200B;](./assets/login-as-customer.png)<!-- zoom -->
 
 <!-- [Login As Customer - General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
-| Optie | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Optie | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-- | -- | -- |
 | [!UICONTROL Enable Login as Customer] | Algemeen | Bepaalt als _Login als Klant_ in het globale werkingsgebied wordt toegelaten. Opties: `Yes` / `No` |
 | [!UICONTROL Disable Page Cache for Admin User] | Algemeen | Hiermee wordt bepaald of de paginacache voor de beheerder in het algemene bereik is uitgeschakeld. Opties: `Yes` / `No` |

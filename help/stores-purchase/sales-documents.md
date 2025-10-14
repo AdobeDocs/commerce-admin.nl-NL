@@ -18,7 +18,7 @@ Om de ordewerkstroom te steunen en uw klanten documentatie over de orden te vers
 
 In tegenstelling tot de afbeeldingen van het logo die worden gebruikt in winkelpagina&#39;s, kan het logo voor PDF-facturen en andere verkoopdocumenten een afbeelding van 300 dpi met hoge resolutie zijn. Zorg ervoor dat de hoogte-breedteverhouding behouden blijft wanneer u het formaat van het logo wijzigt. Pas het formaat van het logo aan zodat het in de hoogte past en maak u geen zorgen over ongebruikte ruimte aan de rechterkant.
 
-![ embleem van de Steekproef ](./assets/logo-pdf.png){width="200"}
+![&#x200B; embleem van de Steekproef &#x200B;](./assets/logo-pdf.png){width="200"}
 
 U kunt de grootte van het logo aanpassen aan de vereiste grootte door een nieuwe, lege afbeelding met de juiste afmetingen te maken. Vervolgens plakt u de logoafbeelding en past u de grootte ervan aan de hoogte aan. In de meeste beeldbewerkingsprogramma&#39;s kunt u de afbeelding met een percentage schalen om de hoogte-breedteverhouding te behouden of de Shift-toets ingedrukt houden en de afbeelding handmatig vergroten of verkleinen.
 
@@ -28,9 +28,9 @@ U kunt de grootte van het logo aanpassen aan de vereiste grootte door een nieuwe
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Invoice and Packing Slip Design]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Invoice and Packing Slip Design]** sectie uit en doe het volgende:
 
-   ![ de configuratie van de Verkoop - verkoopfactuur en verpakkingsslipontwerp ](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van de Verkoop - verkoopfactuur en verpakkingsslipontwerp &#x200B;](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
    - Als u de **[!UICONTROL Logo for PDF Print-outs]** wilt uploaden, klikt u op **[!UICONTROL Choose File]** , zoekt u het logo dat u hebt voorbereid en klikt u op **[!UICONTROL Open]** .
 
@@ -69,7 +69,7 @@ U kunt de grootte van het logo aanpassen aan de vereiste grootte door een nieuwe
 
 De identiteitskaart van de Orde en klantIP adres kunnen in de kopbal van verkoopdocumenten worden omvat die een orde vergezellen. Standaard worden zowel de bestellings-id als het IP-adres van de klant weergegeven in de koptekst van facturen, pakslips voor verzending en creditnota&#39;s.
 
-![ de configuratie van de Verkoop - PDF druk-outs ](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![&#x200B; de configuratie van de Verkoop - PDF druk-outs &#x200B;](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_om ordeidentiteitskaart het plaatsen te veranderen:_**
 
@@ -77,7 +77,7 @@ De identiteitskaart van de Orde en klantIP adres kunnen in de kopbal van verkoop
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL PDF Print-outs]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **Factuur** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **Factuur** sectie uit.
 
 1. Stel **[!UICONTROL Display Order ID in Header]** in op basis van uw voorkeur.
 
@@ -91,9 +91,9 @@ De identiteitskaart van de Orde en klantIP adres kunnen in de kopbal van verkoop
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit.
 
-   ![ configuratie van de Verkoop - algemene verkoopmontages ](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - algemene verkoopmontages &#x200B;](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Hide Customer IP]** in op uw voorkeur.
 

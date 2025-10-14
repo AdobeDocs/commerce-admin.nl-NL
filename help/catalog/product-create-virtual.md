@@ -12,27 +12,27 @@ ht-degree: 0%
 
 # Virtueel product
 
-Virtuele producten, of digitale goederen, vertegenwoordigen niet-tastbare zaken zoals lidmaatschappen, de diensten, de garanties, of abonnementen, en digitale downloads van boeken, muziek, video&#39;s, of andere producten. De virtuele producten kunnen individueel of inbegrepen als deel van het [ Gegroepeerde Product ](product-create-grouped.md), [ Configureerbaar Product ](product-create-configurable.md), of [ Bundel de producttypes van het Product ](product-create-bundle.md) worden verkocht.
+Virtuele producten, of digitale goederen, vertegenwoordigen niet-tastbare zaken zoals lidmaatschappen, de diensten, de garanties, of abonnementen, en digitale downloads van boeken, muziek, video&#39;s, of andere producten. De virtuele producten kunnen individueel of inbegrepen als deel van het [&#x200B; Gegroepeerde Product &#x200B;](product-create-grouped.md), [&#x200B; Configureerbaar Product &#x200B;](product-create-configurable.md), of [&#x200B; Bundel de producttypes van het Product &#x200B;](product-create-bundle.md) worden verkocht.
 
-Behalve de afwezigheid van het veld _[!UICONTROL Weight]_&#x200B;is het proces voor het maken van een virtueel product en een eenvoudig product hetzelfde. De volgende instructies tonen het proces aan om een virtueel product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+Behalve de afwezigheid van het veld _[!UICONTROL Weight]_&#x200B;is het proces voor het maken van een virtueel product en een eenvoudig product hetzelfde. De volgende instructies tonen het proces aan om een virtueel product te creëren gebruikend a [&#x200B; productmalplaatje &#x200B;](attribute-sets.md), vereiste gebieden, en basismontages. Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
 >[!NOTE]
 >
->PayPal heeft de ondersteuning voor de verkoop van digitale goederen vervangen via PayPal Express Checkout. Zij adviseren dat u of [ de Norm van Betalingen van PayPal ](../stores-purchase/paypal-payments-standard.md) of een andere PayPal betaalgateway gebruikt om het even welke orde te verwerken die virtuele producten omvat.
+>PayPal heeft de ondersteuning voor de verkoop van digitale goederen vervangen via PayPal Express Checkout. Zij adviseren dat u of [&#x200B; de Norm van Betalingen van PayPal &#x200B;](../stores-purchase/paypal-payments-standard.md) of een andere PayPal betaalgateway gebruikt om het even welke orde te verwerken die virtuele producten omvat.
 
-![ Virtueel Product ](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
+![&#x200B; Virtueel Product &#x200B;](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## Stap 1: Kies het producttype
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Virtual Product]**.
+1. Voor _[!UICONTROL Add Product]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Virtual Product]**.
 
-   ![ voeg Virtueel Product ](./assets/product-add-virtual.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg Virtueel Product &#x200B;](./assets/product-add-virtual.png){width="700" zoomable="yes"} toe
 
 ## Stap 2: Kies de kenmerkset
 
-Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
+Om de [&#x200B; geplaatste attributen &#x200B;](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
 
 - Klik in het veld **[!UICONTROL Attribute Set]** en voer de naam van de kenmerkset geheel of gedeeltelijk in.
 
@@ -40,7 +40,7 @@ Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje 
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![ kies Vastgestelde Attributen ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; kies Vastgestelde Attributen &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Stap 3: Voer de vereiste instellingen in
 
@@ -54,11 +54,11 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
+   Wanneer het product wordt bewaard, verschijnt de [&#x200B; verkiesster van de Mening van de Opslag &#x200B;](introduction.md#product-scope) in de upper-left hoek.
 
 1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![ kies de Mening van de Opslag ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de Mening van de Opslag &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Stap 4: De basisinstellingen voltooien
 
@@ -77,7 +77,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
    >[!NOTE]
    >
-   >Als u [ Inventory management ](../inventory-management/introduction.md) toelaat, plaatsen enige bronverkopers de hoeveelheid in deze sectie. De multibronhandelaars voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
+   >Als u [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md) toelaat, plaatsen enige bronverkopers de hoeveelheid in deze sectie. De multibronhandelaars voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
 
 1. Als u **[!UICONTROL Categories]** aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]** en voert u een van de volgende handelingen uit:
 
@@ -116,7 +116,7 @@ Voer de benodigde gegevens in de volgende secties in:
 
 >[!NOTE]
 >
->De optie _[!UICONTROL Is this downloadable product?]_&#x200B;is standaard uitgeschakeld. Het toelaten van deze eigenschap voor een virtueel product maakt het product [ Downloadbaar ](product-create-downloadable.md#downloadable-product).
+>De optie _[!UICONTROL Is this downloadable product?]_&#x200B;is standaard uitgeschakeld. Het toelaten van deze eigenschap voor een virtueel product maakt het product [&#x200B; Downloadbaar &#x200B;](product-create-downloadable.md#downloadable-product).
 
 ## Stap 6: Het product publiceren
 
@@ -128,15 +128,15 @@ Voer de benodigde gegevens in de volgende secties in:
 
       - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-      - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
+      - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu.
 
      De winkel wordt geopend in een nieuw browsertabblad.
 
-     ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **Methode 2:** sparen en sluit
 
-     Voor _[!UICONTROL Save]_(![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+     Voor _[!UICONTROL Save]_(![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Te onthouden zaken
 

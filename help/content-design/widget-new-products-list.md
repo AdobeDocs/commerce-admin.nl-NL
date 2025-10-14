@@ -15,13 +15,13 @@ ht-degree: 0%
 
 De lijst met nieuwe producten is een voorbeeld van dynamische inhoud en bestaat uit live-gegevens die uit uw productcatalogus zijn opgehaald. Door gebrek, omvat de _Nieuwe Lijst van Producten_ de eerste acht van de onlangs toegevoegde producten. Nochtans, kan het ook worden gevormd om slechts producten binnen een gespecificeerde datumwaaier te omvatten.
 
-![ Nieuwe productlijst op de storefront homepage ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![&#x200B; Nieuwe productlijst op de storefront homepage &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Stap 1: elk product instellen als nieuw
 
-![ Magento Open Source ](../assets/open-source.svg) Deze stap is slechts op Magento Open Source van toepassing.
+![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) Deze stap is slechts op Magento Open Source van toepassing.
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) voor de opslag van Adobe Commerce, zie [ plannend een Update ](content-staging-scheduled-update.md) en dan aan Stap 2 op deze pagina verdergaan.
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) voor de opslag van Adobe Commerce, zie [&#x200B; plannend een Update &#x200B;](content-staging-scheduled-update.md) en dan aan Stap 2 op deze pagina verdergaan.
 
 _[!UICONTROL Set Product as New]_&#x200B;datumbereikinstelling kan alleen worden geconfigureerd in geplande updates.
 
@@ -33,7 +33,7 @@ Het plaatsen van een product als nieuw voegt het product aan de _Nieuwe producte
 
 1. Schakel voor **[!UICONTROL Set Product as New]** de optie in om het product al dan niet als een nieuw product in te stellen.
 
-   ![ plaatsend het product als nieuw ](./assets/product-set-as-new.png){width="400" zoomable="yes"}
+   ![&#x200B; plaatsend het product als nieuw &#x200B;](./assets/product-set-as-new.png){width="400" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -55,7 +55,7 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   ![ De nieuwe montages van de productlijst widget ](./assets/widget-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; De nieuwe montages van de productlijst widget &#x200B;](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Storefront Properties]_:
 
@@ -67,7 +67,7 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-   ![ de updates van de Lay-out ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; de updates van de Lay-out &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## Stap 3: Kies de locatie
 
@@ -84,7 +84,7 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
    - `New Product List Template`
    - `New Products Grid Template`
 
-     ![ de updates van de Lay-out ](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+     ![&#x200B; de updates van de Lay-out &#x200B;](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
@@ -111,7 +111,7 @@ De code die de inhoud van de lijst Nieuwe Producten en zijn plaatsing in uw opsl
 
    De cache is standaard ingesteld op 86.400 seconden (24 uur).
 
-   ![ Opties Widget ](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties Widget &#x200B;](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

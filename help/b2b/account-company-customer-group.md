@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een klantengroep toewijzen aan een bedrijf
 
-Het toewijzen van een klantengroep aan een bedrijf is in wezen het zelfde als het toewijzen van een gedeelde catalogus. Als de Gedeelde Catalogus niet [ in de configuratie ](enable-basic-features.md) wordt toegelaten, wordt een Groep van de Klant — eerder dan een Gedeelde Catalogus — toegewezen aan een bedrijf.
+Het toewijzen van een klantengroep aan een bedrijf is in wezen het zelfde als het toewijzen van een gedeelde catalogus. Als de Gedeelde Catalogus niet [&#x200B; in de configuratie &#x200B;](enable-basic-features.md) wordt toegelaten, wordt een Groep van de Klant — eerder dan een Gedeelde Catalogus — toegewezen aan een bedrijf.
 
 - Er kan slechts één klantengroep of gedeelde catalogus tegelijk aan een bedrijf worden toegewezen. Een klantengroep die is gekoppeld aan een gedeelde catalogus, kan niet worden verwijderd.
 - Als u de klantengroep wijzigt die aan het bedrijf is toegewezen, worden de profielen van alle leden van het bedrijf bijgewerkt.
@@ -26,15 +26,15 @@ Het toewijzen van een klantengroep aan een bedrijf is in wezen het zelfde als he
 
 1. Zoek het bedrijf in het raster en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-   ![ geef Bedrijf ](./assets/companies-grid-edit.png){width="700" zoomable="yes"} uit
+   ![&#x200B; geef Bedrijf &#x200B;](./assets/companies-grid-edit.png){width="700" zoomable="yes"} uit
 
-1. Voor de bedrijfpagina, scrol neer en breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Advanced Settings]** sectie.
+1. Voor de bedrijfpagina, scrol neer en breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Advanced Settings]** sectie.
 
 1. Stel de juiste **[!UICONTROL Customer Group]** in.
 
    De lijst [!UICONTROL Customer Group] bevat alle bestaande gedeelde catalogi, zelfs als Gedeelde catalogi is uitgeschakeld in de configuratie.
 
-   ![ de klantengroep van de Verandering of gedeelde catalogus ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![&#x200B; de klantengroep van de Verandering of gedeelde catalogus &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
 1. Klik op **[!UICONTROL Proceed]** wanneer u wordt gevraagd om te bevestigen.
 

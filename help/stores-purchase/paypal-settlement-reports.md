@@ -25,7 +25,7 @@ Na het configureren en inschakelen van afwikkelingsrapporten op de PayPal Mercha
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
 
-   ![ PayPal de Rapporten van de Afrekening ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![&#x200B; PayPal de Rapporten van de Afrekening &#x200B;](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. Voor de meest recente updates klikt u op **[!UICONTROL Fetch Updates]** in de rechterbovenhoek.
 

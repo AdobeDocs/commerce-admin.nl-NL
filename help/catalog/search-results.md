@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze pagina beschrijft standaardonderzoeksfunctionaliteit die van [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) zou kunnen verschillen.
+>Deze pagina beschrijft standaardonderzoeksfunctionaliteit die van [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) zou kunnen verschillen.
 
-De _lijst van de Resultaten van het Onderzoek_ omvat alle producten die de onderzoekscriteria ingegaan in het Snelle vakje van het Onderzoek of de Geavanceerde vorm van het Onderzoek aanpassen. Elke productlijst in de catalogus heeft in wezen dezelfde besturingselementen. Het enige verschil is dat één het resultaat van een onderzoeksvraag is, en het andere verschil is het resultaat van [ navigatie ](navigation.md).
+De _lijst van de Resultaten van het Onderzoek_ omvat alle producten die de onderzoekscriteria ingegaan in het Snelle vakje van het Onderzoek of de Geavanceerde vorm van het Onderzoek aanpassen. Elke productlijst in de catalogus heeft in wezen dezelfde besturingselementen. Het enige verschil is dat één het resultaat van een onderzoeksvraag is, en het andere verschil is het resultaat van [&#x200B; navigatie &#x200B;](navigation.md).
 
-De resultaten kunnen als of net of lijst worden geformatteerd en door een selectie van attributen worden gesorteerd. Besturingselementen voor paginering worden weergegeven als er meer producten zijn dan op de pagina passen. Gebruik deze besturingselementen om van de ene pagina naar de andere te gaan. Het aantal records per pagina wordt bepaald door de configuratie Voorkant catalogus. Voor meer informatie, zie [ Lijsten van het Product ](navigation-product-listings.md).
+De resultaten kunnen als of net of lijst worden geformatteerd en door een selectie van attributen worden gesorteerd. Besturingselementen voor paginering worden weergegeven als er meer producten zijn dan op de pagina passen. Gebruik deze besturingselementen om van de ene pagina naar de andere te gaan. Het aantal records per pagina wordt bepaald door de configuratie Voorkant catalogus. Voor meer informatie, zie [&#x200B; Lijsten van het Product &#x200B;](navigation-product-listings.md).
 
 Met **Elasticsearch**:
 
@@ -26,17 +26,17 @@ Met **Elasticsearch**:
 - Ondersteuning voor zoeken op voorvoegsel (gedeeltelijk zoeken op trefwoorden) buiten de box alleen voor `name` - en `sku` -productkenmerken. Alle andere productkenmerken worden doorzocht door het hele trefwoord, met de exacte overeenkomst.
 - Zoekresultaten voor `name` - en `sku` -productkenmerken zijn gebaseerd op de relevantie, niet op exacte overeenkomst. De meest relevante gelijken, zoals precies overtroffen _Naam van het Product_ of _SKU_, zijn eerst vermeld. Om naar een nauwkeurige gelijke te zoeken, kan de klant dubbele citaten in de onderzoeksvraag gebruiken. Een zoekquery van `WSH12-32-Red` kan bijvoorbeeld meerdere producten retourneren, gesorteerd op relevantie. Maar een `"WSH12-32-Red"` onderzoeksvraag keert slechts één product met **_exact_** aangepast `sku` terug.
 
-![ resultaten van het Onderzoek met pagineringscontroles ](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
+![&#x200B; resultaten van het Onderzoek met pagineringscontroles &#x200B;](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
+>Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens productverbetering, zie [&#x200B; Migrerend aan OpenSearch &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
 
 ## Trefwoordtoewijzing om zoekresultaten uit te breiden
 
 Deze techniek gebruikt een attribuut om een op sleutelwoord-gebaseerde vereniging tussen twee producten tot stand te brengen zodat een onderzoek naar één van beide producten resultaten voor beide producten terugkeert. U kunt trefwoordtoewijzing gebruiken om een product te promoten in zoekresultaten als dit anders niet het geval zou zijn.
 
-![ resultaten van het Onderzoek met sleutelwoordafbeelding ](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
+![&#x200B; resultaten van het Onderzoek met sleutelwoordafbeelding &#x200B;](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
 
 Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseerd. Wanneer één van beide SKU in het onderzoeksvakje is ingegaan, verschijnen beide producten in de resultaten. De SKUs van de volgende configureerbare producten worden in kaart gebracht, eerder dan SKUs van productvariaties:
 
@@ -77,7 +77,7 @@ Het volgende voorbeeld gebruikt sleutelwoordafbeelding die op SKU wordt gebaseer
 
    U kunt meerdere SKU&#39;s invoeren die door een spatie worden gescheiden in het veld Trefwoorden zoeken. In dit voorbeeld wordt slechts één item ingevoerd.
 
-   ![ sectie van Attributen met onderzoekssleutelwoord ](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
+   ![&#x200B; sectie van Attributen met onderzoekssleutelwoord &#x200B;](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 1. Ga naar **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;en vernieuw de **[!UICONTROL Page Cache]**.
@@ -115,6 +115,6 @@ Aan productkenmerken die zijn ingeschakeld voor zoeken in een catalogus, kan een
 
    - Als u de zoekwaarde van het kenmerk wilt bepalen, stelt u **[!UICONTROL Search Weight]** in op een getal tussen 1 en 10, waarbij `10` de hoogste prioriteit heeft. Als er geen waarde wordt ingevoerd, worden alle kenmerken standaard ingesteld op een zoekgewicht van `1` .
 
-   ![ Gewicht van het Onderzoek ](./assets/search-weight.png){width="600" zoomable="yes"}
+   ![&#x200B; Gewicht van het Onderzoek &#x200B;](./assets/search-weight.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.

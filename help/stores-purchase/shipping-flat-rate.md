@@ -20,11 +20,11 @@ _Vlak tarief_ is een vaste, vooraf bepaalde lading die per punt, of per lading k
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **Vlakke sectie van het Tarief**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **Vlakke sectie van het Tarief**.
 
-   ![ Vlak Tarief ](../configuration-reference/sales/assets/delivery-methods-flat-rate.png){width="600" zoomable="yes"}
+   ![&#x200B; Vlak Tarief &#x200B;](../configuration-reference/sales/assets/delivery-methods-flat-rate.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Vlak Tarief ](../configuration-reference/sales/delivery-methods.md#flat-rate) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Vlak Tarief &#x200B;](../configuration-reference/sales/delivery-methods.md#flat-rate) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 
@@ -63,7 +63,7 @@ _Vlak tarief_ is een vaste, vooraf bepaalde lading die per punt, of per lading k
 
 1. Plaats **Schip aan Toepasselijke Landen**:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
    - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
 1. Plaats **tonen Methode als niet van toepassing**:

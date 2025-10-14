@@ -44,9 +44,9 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    Het CSV-bestand mag alleen de kolom `sku` en de bijbehorende afbeeldingskolommen bevatten.
 
-   ![ Voorbeeld - CSV de invoer van beeldgegevens ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorbeeld - CSV de invoer van beeldgegevens &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. Volg de instructies aan [ invoer ](data-import.md) de gegevens.
+1. Volg de instructies aan [&#x200B; invoer &#x200B;](data-import.md) de gegevens.
 
 1. Nadat u het te importeren bestand hebt geselecteerd, voert u het relatieve pad in na **[!UICONTROL Images File Directory]** .
 
@@ -54,7 +54,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
    var/import/images
    ```
 
-   ![ de invoer van gegevens beelddossier folder ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; de invoer van gegevens beelddossier folder &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
@@ -72,7 +72,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
    https://example.com/images/image.jpg
    ```
 
-1. Volg de instructies aan [ invoer ](data-import.md) de gegevens.
+1. Volg de instructies aan [&#x200B; invoer &#x200B;](data-import.md) de gegevens.
 
 ## Methode 3: Afbeeldingen importeren met externe opslag
 
@@ -94,9 +94,9 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    Het CSV-bestand mag alleen de kolom `sku` en de bijbehorende afbeeldingskolommen bevatten.
 
-   ![ Voorbeeld - CSV de invoer van beeldgegevens ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorbeeld - CSV de invoer van beeldgegevens &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. Volg de instructies aan [ invoer ](data-import.md) de gegevens.
+1. Volg de instructies aan [&#x200B; invoer &#x200B;](data-import.md) de gegevens.
 
 1. Nadat u het te importeren bestand hebt geselecteerd, voert u het relatieve pad in na **[!UICONTROL Images File Directory]** .
 
@@ -110,7 +110,7 @@ Voordat u een groot aantal afbeeldingen gaat importeren, moet u eerst de stappen
 
    Als u meerdere afbeeldingen voor één `sku` importeert, voegt u de afbeeldingen in in een kolom met de naam `additional_images` (voeg de kolom toe als deze nog niet is toegevoegd), gescheiden door komma&#39;s: `image02.jpg,image03.jpg`
 
-Voor meer informatie over het toelaten van en het beheren van de Verre opslagmodule, zie [ verre opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=nl-NL) in de _gids van de Configuratie_ vormen.
+Voor meer informatie over het toelaten van en het beheren van de Verre opslagmodule, zie [&#x200B; verre opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=nl-NL) in de _gids van de Configuratie_ vormen.
 
 >[!NOTE]
 >

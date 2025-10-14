@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # PayPal-betalingsoplossingen
 
-PayPal is een wereldwijde marktleider op het gebied van online betalingen en een snelle en veilige manier voor uw klanten om online te betalen. De keuze van beschikbare PayPal-oplossingen varieert per bedrijfslocatie. PayPal Express Checkout en PayPal Payments Standard kunnen overal ter wereld worden gebruikt. Meer leren, zie [ oplossingen PayPal door land ](#paypal-solutions-by-country).
+PayPal is een wereldwijde marktleider op het gebied van online betalingen en een snelle en veilige manier voor uw klanten om online te betalen. De keuze van beschikbare PayPal-oplossingen varieert per bedrijfslocatie. PayPal Express Checkout en PayPal Payments Standard kunnen overal ter wereld worden gebruikt. Meer leren, zie [&#x200B; oplossingen PayPal door land &#x200B;](#paypal-solutions-by-country).
 
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, kunnen Europese banken betalingen dalen die niet aan [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Voor de meeste PayPal-oplossingen is geen actie vereist om aan PSD2 te voldoen, omdat deze vereisten door PayPal worden afgehandeld.
+>Vanaf 14 september 2019, kunnen Europese banken betalingen dalen die niet aan [&#x200B; PSD2 &#x200B;](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Voor de meeste PayPal-oplossingen is geen actie vereist om aan PSD2 te voldoen, omdat deze vereisten door PayPal worden afgehandeld.
 
 ## PayPal-zakelijke account
 
-Om PayPal als betalingsmethode in uw opslag aan te bieden, moet u een PayPal [ bedrijfsrekening ][1] en/of a [ PayPal rekening van de Betalingsstroom hebben ][2]. De accountvereisten worden opgegeven in de beschrijving van elke PayPal-oplossing. Uw PayPal handelsrekening wordt ook gebruikt om het even welke [ fraudefilters ](#paypal-fraud-management-filters) te beheren die op aankopen worden toegepast die van uw opslag worden gemaakt.
+Om PayPal als betalingsmethode in uw opslag aan te bieden, moet u een PayPal [ bedrijfsrekening ][1] en/of a [ PayPal rekening van de Betalingsstroom hebben ][2]. De accountvereisten worden opgegeven in de beschrijving van elke PayPal-oplossing. Uw PayPal handelsrekening wordt ook gebruikt om het even welke [&#x200B; fraudefilters &#x200B;](#paypal-fraud-management-filters) te beheren die op aankopen worden toegepast die van uw opslag worden gemaakt.
 
 Klanten die PayPal Express Checkout of Express Checkout gebruiken voor Payflow Pro, moeten een PayPal-kopersaccount hebben. De Betalingsstandaard van PayPal (de Norm van de Betalingen van de Website in sommige landen) kan direct of door een kopersrekening worden gebruikt wanneer dat de handelaar _Facultatieve Rekening van PayPal_ toelaat. Deze parameter is standaard ingeschakeld, zodat klanten hun creditcardgegevens kunnen invoeren of een kopersaccount kunnen maken met PayPal. Als deze optie is uitgeschakeld, moeten klanten eerst een PayPal-kopersaccount maken voordat ze een aankoop doen.
 
@@ -40,7 +40,7 @@ U kunt vrije, kant-en-klare banneradvertenties aan pagina&#39;s van uw plaats en
 >
 >Vanaf de release 2.4.3 wordt PayPal PayLater ondersteund in implementaties die PayPal bevatten. Met deze functie kunnen kopers een bestelling in tweewekelijkse termijnen betalen in plaats van het volledige bedrag op het moment van aankoop te betalen. De PayPal-ervaring is afgekeurd.
 
-Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de [&#128279;](paypal-express-checkout.md) betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal . Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [ Uitdrukkelijke configuratie van de Controle van PayPal ](paypal-express-checkout.md#features).
+Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de [&#128279;](paypal-express-checkout.md) betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal . Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [&#x200B; Uitdrukkelijke configuratie van de Controle van PayPal &#x200B;](paypal-express-checkout.md#features).
 
 PayPal-krediet is standaard uitgeschakeld voor de andere PayPal-betalingsoplossingen, maar kan in de configuratie van de betalingsmethode worden ingeschakeld voor ondersteunende oplossingen:
 
@@ -74,7 +74,7 @@ In de Verenigde Staten biedt PayPal de volgende PCI-compatibele oplossingen om a
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
-![ PayPal alle-in-één betalingsoplossingen ](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![&#x200B; PayPal alle-in-één betalingsoplossingen &#x200B;](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal-betalingsgateways
 
@@ -94,11 +94,11 @@ PayPal biedt een keuze uit twee betaalgatewayoplossingen voor uw bedrijf. U kunt
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal Payflow Link](paypal-payflow-link.md)
 
-![ de betaalgateways van de Opstelling PayPal ](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
+![&#x200B; de betaalgateways van de Opstelling PayPal &#x200B;](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
 
 ## Paypal-filters voor fraudebeheer
 
-Met PayPal-filters voor fraudebeheer is het gemakkelijker om frauduleuze transacties op te sporen en erop te reageren. Deze filters kunnen worden geconfigureerd om risicovollere betalingen te markeren, te bewaren voor controle of te weigeren. De acties met betrekking tot de status van de Commerce [ orde ](order-status.md) waarden veranderden volgens de montages van de fraudefilter:
+Met PayPal-filters voor fraudebeheer is het gemakkelijker om frauduleuze transacties op te sporen en erop te reageren. Deze filters kunnen worden geconfigureerd om risicovollere betalingen te markeren, te bewaren voor controle of te weigeren. De acties met betrekking tot de status van de Commerce [&#x200B; orde &#x200B;](order-status.md) waarden veranderden volgens de montages van de fraudefilter:
 
 | Handeling | Resultaat |
 | --- | --- |

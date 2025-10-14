@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 ## [!UICONTROL B2B Features]
 
-![ B2B Eigenschappen ](./assets/b2b-features.png)<!-- zoom -->
+![&#x200B; B2B Eigenschappen &#x200B;](./assets/b2b-features.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Company]](../../b2b/account-companies.md) | Website | Wanneer toegelaten, staat klanten toe om hun bedrijfstoewijzing van hun rekeningsdashboard te beheren, en laat ook de Gedeelde eigenschappen van de Catalogus en van het Aanhalingsteken B2B door gebrek toe. Opties: `Yes` / `No` |
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Website | Wanneer toegelaten, staat klanten en gasten toe om orden snel te plaatsen die op SKU of productnaam worden gebaseerd. Opties: `Yes` / `No` |
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![ B2B Eigenschappen met bedrijven en gedeelde toegelaten catalogi ](./assets/b2b-features-company-enabled.png)<!-- zoom -->
+![&#x200B; B2B Eigenschappen met bedrijven en gedeelde toegelaten catalogi &#x200B;](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
 Wanneer de eigenschap van het Bedrijf wordt toegelaten, zijn de extra gebieden beschikbaar voor Gedeelde Catalogus en B2B Citaat.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Website | Wanneer toegelaten, maakt het mogelijk om gekrulde catalogi met douaneprijzen tot stand te brengen die of globaal, of beperkt tot specifieke bedrijven beschikbaar zijn. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Website | Wanneer het veld _[!UICONTROL Enable Shared Catalog]_&#x200B;is ingesteld op `Yes` , is deze optie beschikbaar. Wanneer toegelaten, slechts worden de producten die aan een gedeelde catalogus worden toegewezen opgeslagen in de prijsindex. Producten die niet aan de gedeelde catalogus zijn toegewezen, worden niet in de winkel weergegeven. Opties: `Yes` / `No` |
@@ -46,9 +46,9 @@ Wanneer de eigenschap van het Bedrijf wordt toegelaten, zijn de extra gebieden b
 
 ### [!UICONTROL Default B2B Payment Methods]
 
-![ B2B configuratie - de montages van de standaard betalingsmethode ](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+![&#x200B; B2B configuratie - de montages van de standaard betalingsmethode &#x200B;](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Payment Methods] | Algemeen | Bepaalt de selectie van betalingsmethoden die beschikbaar zijn voor B2B-kopers. Opties: `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | Algemeen | Geeft elke betalingsmethode aan die beschikbaar is voor B2B-kopers. |
@@ -57,20 +57,20 @@ Wanneer de eigenschap van het Bedrijf wordt toegelaten, zijn de extra gebieden b
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
-![ B2B configuratie - standaard verschepende methodes ](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
+![&#x200B; B2B configuratie - standaard verschepende methodes &#x200B;](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Algemeen | Bepaalt de selectie van verzendmethoden die standaard beschikbaar zijn voor B2B-kopers. Opties: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Algemeen | Geeft elke verzendmethode aan die standaard beschikbaar is voor B2B-kopers. <br/>**_Nota:_**&#x200B;u kunt de het verschepen methodes voor een specifieke [ bedrijfrekening ](../../b2b/account-companies.md) ook beperken. |
+| [!UICONTROL Shipping Methods] | Algemeen | Geeft elke verzendmethode aan die standaard beschikbaar is voor B2B-kopers. <br/>**_Nota:_**&#x200B;u kunt de het verschepen methodes voor een specifieke [&#x200B; bedrijfrekening &#x200B;](../../b2b/account-companies.md) ook beperken. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
-![ B2B Eigenschappen - de Configuratie van de Goedkeuring van de Orde ](./assets/b2b-features-order-approval.png)<!-- zoom -->
+![&#x200B; B2B Eigenschappen - de Configuratie van de Goedkeuring van de Orde &#x200B;](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Website | Als deze optie is ingeschakeld, kunnen bedrijven kooporders maken. Opties: `Yes` / `No` |
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # B2B-functies inschakelen
 
-Standaard zijn alle B2B-functies in eerste instantie uitgeschakeld. Een opslagbeheerder kan de B2B-functies naar wens in- of uitschakelen voor Commerce-winkels. Voor een volledige lijst van B2B configuratiemontages, zie [ B2B de configuratieverwijzing van Eigenschappen ](../configuration-reference/general/b2b-features.md).
+Standaard zijn alle B2B-functies in eerste instantie uitgeschakeld. Een opslagbeheerder kan de B2B-functies naar wens in- of uitschakelen voor Commerce-winkels. Voor een volledige lijst van B2B configuratiemontages, zie [&#x200B; B2B de configuratieverwijzing van Eigenschappen &#x200B;](../configuration-reference/general/b2b-features.md).
 
 Wanneer u ondersteuning voor klantbedrijven inschakelt, worden automatisch extra B2B-functies ingeschakeld:
 
@@ -39,7 +39,7 @@ De functies B2B [[!DNL Quick Order]](quick-order.md) en [[!DNL Requisition List]
 
 ## B2B-functies configureren
 
-De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts op de projecten van Commerce die de [ geïnstalleerde uitbreiding van Adobe Commerce B2B ](install.md) hebben.
+De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts op de projecten van Commerce die de [&#x200B; geïnstalleerde uitbreiding van Adobe Commerce B2B &#x200B;](install.md) hebben.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -47,25 +47,25 @@ De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL B2B Features]**:
 
-   ![ B2B configuratie - algemeen ](./assets/b2b-features.png){width="600"}
+   ![&#x200B; B2B configuratie - algemeen &#x200B;](./assets/b2b-features.png){width="600"}
 
    - Klanten toestaan hun eigen bedrijfsaccounts te beheren en ondersteuning voor extra B2B-functies mogelijk te maken door **[!UICONTROL Enable Company]** in te stellen op `Yes` .
 
      Wanneer u bedrijfssteun toelaat, worden de Gedeelde Catalogus, de Citaat B2B, de Methoden van de Betaling B2B, en de methodes van de Verzending B2B automatisch toegelaten.
 
-     ![ B2B configuratie - bedrijfeigenschappen ](assets/b2b-additional-features.png){width="600"}
+     ![&#x200B; B2B configuratie - bedrijfeigenschappen &#x200B;](assets/b2b-additional-features.png){width="600"}
 
    - Als u klanten en gasten wilt toestaan snel bestellingen te plaatsen op basis van de SKU- of productnaam, stelt u **[!UICONTROL Enable Quick Order]** in op `Yes` .
 
    - Stel **[!UICONTROL Enable Requisition List]** in op `Yes` als u klanten wilt toestaan om aanvraaglijsten te maken en te beheren vanuit hun accountdashboard.
 
-     U kunt [ ook het maximumaantal lijsten ](configure-requisition-lists.md) vormen een klant voor hun rekening kan hebben.
+     U kunt [&#x200B; ook het maximumaantal lijsten &#x200B;](configure-requisition-lists.md) vormen een klant voor hun rekening kan hebben.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Standaard B2B-betalings- en verzendmethoden configureren
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Default B2B Payment Methods]** sectie.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Default B2B Payment Methods]** sectie.
 
 1. Stel **[!UICONTROL Applicable Payment Methods]** in op een van de volgende opties om de standaardbetalingsmethoden voor B2B-orders vast te stellen:
 
@@ -75,16 +75,16 @@ De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts
 
      Voor de specifieke optie selecteert u de **[!UICONTROL Payment Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (pc) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
 
-   De lijst van [ betaalmethodes ](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel of gehandicapt in uw opslag worden toegelaten. Naast de standaardbetalingsmethoden bevat de lijst ook de volgende elementen:
+   De lijst van [&#x200B; betaalmethodes &#x200B;](../configuration-reference/sales/payment-methods.md) toont welke opties momenteel of gehandicapt in uw opslag worden toegelaten. Naast de standaardbetalingsmethoden bevat de lijst ook de volgende elementen:
 
    - Er zijn geen betalingsgegevens vereist
    - [Betaling op rekening](#configure-payment-on-account)
    - Opgeslagen accounts
    - Opgeslagen kaarten
 
-   ![ B2B configuratie - de montages van de standaard betalingsmethode ](./assets/b2b-features-default-payment-methods.png){width="600"}
+   ![&#x200B; B2B configuratie - de montages van de standaard betalingsmethode &#x200B;](./assets/b2b-features-default-payment-methods.png){width="600"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Shipping Methods]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Default B2B Shipping Methods]** sectie uit.
 
 1. Als u de standaardverzendmethoden voor B2B-orders wilt opgeven, stelt u **[!UICONTROL Applicable Shipping Methods]** in op een van de volgende opties:
 
@@ -93,21 +93,21 @@ De opties om Adobe Commerce B2B eigenschappen te vormen zijn beschikbaar slechts
 
      Selecteer voor de specifieke optie de **[!UICONTROL Shipping Methods]** die u beschikbaar wilt maken voor uw klanten door Ctrl (PC) of Command (Mac) ingedrukt te houden terwijl u op elke optie klikt.
 
-     De lijst van het verschepen methodes toont die momenteel [ worden toegelaten of ](../configuration-reference/sales/delivery-methods.md) onbruikbaar gemaakt.
+     De lijst van het verschepen methodes toont die momenteel [&#x200B; worden toegelaten of &#x200B;](../configuration-reference/sales/delivery-methods.md) onbruikbaar gemaakt.
 
-   ![ B2B configuratie - standaard verschepende methodes ](./assets/b2b-features-shipping-methods.png){width="600"}
+   ![&#x200B; B2B configuratie - standaard verschepende methodes &#x200B;](./assets/b2b-features-shipping-methods.png){width="600"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## E-mailopties voor bedrijven configureren
 
-De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-representative) die als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
+De [&#x200B; verkoopvertegenwoordiger &#x200B;](account-company-manage.md#assign-a-sales-representative) die als primair contact voor een bedrijf wordt toegewezen wordt gevormd door gebrek als afzender van vele geautomatiseerde e-mailberichten die naar het bedrijf worden verzonden.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Company Configuration]** .
 
-1. Indien nodig, plaats **[!UICONTROL Store View]** aan de opslagmening om het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de configuratie te bepalen.
+1. Indien nodig, plaats **[!UICONTROL Store View]** aan de opslagmening om het [&#x200B; werkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) van de configuratie te bepalen.
 
 1. Voltooi de sectie **[!UICONTROL Company Registration]** :
 
@@ -115,7 +115,7 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
    >
    >Schakel het selectievakje **[!UICONTROL Use system value]** uit om het veld bewerkbaar te maken.
 
-   - Plaats **[!UICONTROL Company Registration Email Recipient]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een nieuw verzoek van de bedrijfregistratie wordt ontvangen.
+   - Plaats **[!UICONTROL Company Registration Email Recipient]** aan het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een nieuw verzoek van de bedrijfregistratie wordt ontvangen.
 
    - Voer bij **[!UICONTROL Send Company Registration Email Copy To]** het e-mailadres in van elke persoon die een kopie van het registratiebericht moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
@@ -126,7 +126,7 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
 
    - Als u een e-mailsjabloon hebt voorbereid voor gebruik in plaats van de standaardsjabloon, stelt u **[!UICONTROL Default Company Registration Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Registration Request` gebruikt.
 
-     ![ configuratie van Klanten - bedrijfregistratie ](./assets/company-email-options-company-registration.png){width="600"}
+     ![&#x200B; configuratie van Klanten - bedrijfregistratie &#x200B;](./assets/company-email-options-company-registration.png){width="600"}
 
 1. Voltooi de sectie **[!UICONTROL Customer-Related Emails]** :
 
@@ -140,7 +140,7 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![ configuratie van Klanten - klant verwante e-mails ](./assets/company-email-options-customer-related-emails.png){width="600"}
+   ![&#x200B; configuratie van Klanten - klant verwante e-mails &#x200B;](./assets/company-email-options-customer-related-emails.png){width="600"}
 
 1. Voltooi de sectie **[!UICONTROL Company Status Change]** :
 
@@ -161,11 +161,11 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
 
    - Als u een e-mailsjabloon hebt voorbereid die moet worden gebruikt wanneer de bedrijfsstatus verandert in `Pending Approval` , stelt u **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** in op de naam van de sjabloon. Standaard wordt de sjabloon `Company Status Pending Approval` gebruikt.
 
-   ![ configuratie van Klanten - de verandering van de bedrijfstatus ](./assets/company-email-options-company-status-change.png){width="600"}
+   ![&#x200B; configuratie van Klanten - de verandering van de bedrijfstatus &#x200B;](./assets/company-email-options-company-status-change.png){width="600"}
 
 1. Voltooi de sectie **[!UICONTROL Company Credit Emails]** :
 
-   - Plaats **[!UICONTROL Company Credit Change Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een verandering aan de kredietgrens wordt aangebracht die aan een bedrijf wordt toegewezen. Door gebrek, wordt het bericht verzonden naar _Vertegenwoordiger van de Verkoop_.
+   - Plaats **[!UICONTROL Company Credit Change Email Sender]** aan het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses) dat moet worden op de hoogte gebracht wanneer een verandering aan de kredietgrens wordt aangebracht die aan een bedrijf wordt toegewezen. Door gebrek, wordt het bericht verzonden naar _Vertegenwoordiger van de Verkoop_.
 
    - Voer bij **[!UICONTROL Send Company Credit Change Email Copy To]** het e-mailadres in van elke persoon die een kopie van de kennisgeving van de wijziging van het creditcard moet ontvangen. Scheid meerdere e-mailadressen met een komma.
 
@@ -182,7 +182,7 @@ De [ verkoopvertegenwoordiger ](account-company-manage.md#assign-a-sales-represe
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-   ![ configuratie van Klanten - bedrijfkrediet e-mails ](./assets/company-email-options-company-credit.png){width="600"}
+   ![&#x200B; configuratie van Klanten - bedrijfkrediet e-mails &#x200B;](./assets/company-email-options-company-credit.png){width="600"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -194,15 +194,15 @@ Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bed
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL B2B Features]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Order Approval Configuration]** sectie.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Order Approval Configuration]** sectie.
 
-   ![ de Configuratie van de Goedkeuring van de Orde ](./assets/b2b-features-order-approval.png){width="600"}
+   ![&#x200B; de Configuratie van de Goedkeuring van de Orde &#x200B;](./assets/b2b-features-order-approval.png){width="600"}
 
 1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` als u bedrijven wilt toestaan eigen inkooporders te maken.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-   De functie voor inkooporders is ingeschakeld op websiteniveau. Om dit type van orde voor een bedrijf toe te laten, doe het zelfde met de aangewezen montages in elk [ bedrijfsprofiel ](account-company-manage.md).
+   De functie voor inkooporders is ingeschakeld op websiteniveau. Om dit type van orde voor een bedrijf toe te laten, doe het zelfde met de aangewezen montages in elk [&#x200B; bedrijfsprofiel &#x200B;](account-company-manage.md).
 
 ## Aankooporders configureren
 
@@ -210,25 +210,25 @@ Door de mogelijkheid om bestellingen te verwerken en aan te schaffen, kunnen bed
 
 1. Zoek het bedrijf in de lijst en klik op **[!UICONTROL Edit]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
 
 1. Stel **[!UICONTROL Enable Purchase Orders]** in op `Yes` .
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-Na activering, wordt de **[!UICONTROL Approval Rules]** sectie getoond op het storefront [ Dashboard van de Rekening ](../customers/account-dashboard.md) voor een bedrijfbeheerder.
+Na activering, wordt de **[!UICONTROL Approval Rules]** sectie getoond op het storefront [&#x200B; Dashboard van de Rekening &#x200B;](../customers/account-dashboard.md) voor een bedrijfbeheerder.
 
 >[!NOTE]
 >
->De toegang van de orde van de aankoop op de storefront moet door de bedrijfbeheerder worden verleend die op [ de toestemmingen van de bedrijfs gebruikersrol ](account-company-roles-permissions.md) wordt gebaseerd.
+>De toegang van de orde van de aankoop op de storefront moet door de bedrijfbeheerder worden verleend die op [&#x200B; de toestemmingen van de bedrijfs gebruikersrol &#x200B;](account-company-roles-permissions.md) wordt gebaseerd.
 
 ## Betaling op account configureren
 
-Betaling op account is een methode voor offline betaling waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is vastgelegd. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het uitchecken weergegeven als deze optie is ingeschakeld. Wanneer _Betaling op Rekening_ als betalingsmethode wordt gebruikt, verschijnt een bericht bij de bovenkant van de orde die op de status van de rekening wijst. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [ BedrijfsRekeningen beheren ](account-company-manage.md).
+Betaling op account is een methode voor offline betaling waarmee bedrijven aankopen kunnen doen tot de kredietlimiet die in hun profiel is vastgelegd. Betaling op account kan globaal of per bedrijf worden ingeschakeld en wordt alleen tijdens het uitchecken weergegeven als deze optie is ingeschakeld. Wanneer _Betaling op Rekening_ als betalingsmethode wordt gebruikt, verschijnt een bericht bij de bovenkant van de orde die op de status van de rekening wijst. Om deze betalingsmethode voor een specifiek bedrijf te vormen, zie [&#x200B; BedrijfsRekeningen beheren &#x200B;](account-company-manage.md).
 
 >[!NOTE]
 >
->Betaling op rekening wordt niet gesteund voor orden met [ veelvoudige verzendadressen ](../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties voor deze orden.
+>Betaling op rekening wordt niet gesteund voor orden met [&#x200B; veelvoudige verzendadressen &#x200B;](../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties voor deze orden.
 
 Als u Betaling op account voor uw winkel wilt inschakelen:
 
@@ -236,9 +236,9 @@ Als u Betaling op account voor uw winkel wilt inschakelen:
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Payment on Account]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Payment on Account]** sectie uit.
 
-   ![ Betaling op Rekening ](./assets/payment-methods-payment-on-account.png){width="600"}
+   ![&#x200B; Betaling op Rekening &#x200B;](./assets/payment-methods-payment-on-account.png){width="600"}
 
    >[!NOTE]
    >
@@ -254,7 +254,7 @@ Als u Betaling op account voor uw winkel wilt inschakelen:
 
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
 1. Stel **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** in op de orderbedragen die nodig zijn om in aanmerking te komen voor deze betalingsmethode.

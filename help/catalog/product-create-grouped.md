@@ -18,37 +18,37 @@ Zo kunt u bijvoorbeeld open-stock-flatware verkopen en elk type gereedschap weer
 
 Hoewel ze als groep worden aangeboden, wordt elk product in de groep als afzonderlijk artikel aangekocht. In het winkelwagentje worden elk artikel en de aangeschafte hoeveelheid weergegeven als een afzonderlijk artikel.
 
-De volgende instructies tonen het proces aan om een gegroepeerd product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies tonen het proces aan om een gegroepeerd product te creëren gebruikend a [&#x200B; productmalplaatje &#x200B;](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
-![ Gegroepeerd Product ](./assets/product-grouped.png){width="700" zoomable="yes"}
+![&#x200B; Gegroepeerd Product &#x200B;](./assets/product-grouped.png){width="700" zoomable="yes"}
 
 ## Stap 1: Kies het producttype
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Grouped Product]**.
+1. Voor _[!UICONTROL Add Product]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Grouped Product]**.
 
-   ![ voeg Gegroepeerd Product ](./assets/product-add-grouped.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg Gegroepeerd Product &#x200B;](./assets/product-add-grouped.png){width="700" zoomable="yes"} toe
 
 ## Stap 2: Kies de kenmerkset
 
-Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
+Om de [&#x200B; geplaatste attributen &#x200B;](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt, doe één van het volgende:
 
 - Voer de naam van de **[!UICONTROL Attribute Set]** in om te zoeken.
 - Kies in de lijst de kenmerkset die u wilt gebruiken.
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![ kies Malplaatje ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; kies Malplaatje &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 Als de vereiste kenmerken niet bestaan, kunt u nieuwe kenmerken toevoegen tijdens het maken van een product:
 
 - Klik in de rechterbovenhoek op **[!UICONTROL Add Attribute]** .
-- Bepaal een nieuw attribuut (zie [ Toevoegend een Attribuut aan een Product ](product-attributes-add.md)).
+- Bepaal een nieuw attribuut (zie [&#x200B; Toevoegend een Attribuut aan een Product &#x200B;](product-attributes-add.md)).
 
-  ![ Nieuw Attribuut ](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+  ![&#x200B; Nieuw Attribuut &#x200B;](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om de attributen in het net te vinden en het volgende te doen:
+Om een bestaand attribuut aan het product toe te voegen, gebruik de [&#x200B; filtercontroles &#x200B;](../getting-started/admin-grid-controls.md) om de attributen in het net te vinden en het volgende te doen:
 
 - Schakel het selectievakje in de eerste kolom van elk kenmerk dat u wilt toevoegen in.
 - Klik op **[!UICONTROL Add Selected]**.
@@ -63,15 +63,15 @@ Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercont
 
    Een gegroepeerd product bevat geen eigen prijs in de catalogus. De prijs van het gegroepeerde product wordt afgeleid van de prijs van de afzonderlijke producten die in de groep zijn opgenomen.
 
-1. Omdat het product nog niet klaar is om te publiceren, plaats **[!UICONTROL Enable Product]** aan `No` ( ![ knevel nr ](../assets/toggle-no.png)).
+1. Omdat het product nog niet klaar is om te publiceren, plaats **[!UICONTROL Enable Product]** aan `No` ( ![&#x200B; knevel nr &#x200B;](../assets/toggle-no.png)).
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt bewaard, verschijnt de productnaam bij de bovenkant van de pagina, en [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) verschijnt in de upper-left hoek.
+   Wanneer het product wordt bewaard, verschijnt de productnaam bij de bovenkant van de pagina, en [&#x200B; verkiesster van de Mening van de Opslag &#x200B;](introduction.md#product-scope) verschijnt in de upper-left hoek.
 
 1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![ kies de Mening van de Opslag ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de Mening van de Opslag &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Stap 4: De basisinstellingen voltooien
 
@@ -95,7 +95,7 @@ Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercont
 
 1. Accepteer de **[!UICONTROL Visibility]** -instellingen van `Catalog, Search` .
 
-1. Om het product in de [ lijst van nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, verkies **[!UICONTROL Set Product as New]** **[!UICONTROL from]** en **[!UICONTROL to]** data op de kalender.
+1. Om het product in de [&#x200B; lijst van nieuwe producten &#x200B;](../content-design/widget-new-products-list.md) te voorzien, verkies **[!UICONTROL Set Product as New]** **[!UICONTROL from]** en **[!UICONTROL to]** data op de kalender.
 
 1. Kies de **[!UICONTROL Country of Manufacture]** .
 
@@ -105,9 +105,9 @@ Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercont
 
 1. Blader omlaag naar de sectie **[!UICONTROL Grouped Products]** en klik op **[!UICONTROL Add Products to Group]** .
 
-   ![ Gegroepeerde Producten ](./assets/product-grouped-products.png){width="600" zoomable="yes"}
+   ![&#x200B; Gegroepeerde Producten &#x200B;](./assets/product-grouped-products.png){width="600" zoomable="yes"}
 
-1. Indien nodig, gebruik de [ filters ](../getting-started/admin-grid-controls.md) om de producten te vinden die u in de groep wilt omvatten.
+1. Indien nodig, gebruik de [&#x200B; filters &#x200B;](../getting-started/admin-grid-controls.md) om de producten te vinden die u in de groep wilt omvatten.
 
 1. Schakel in de lijst het selectievakje in van elk item dat u in de groep wilt opnemen.
 
@@ -115,19 +115,19 @@ Om een bestaand attribuut aan het product toe te voegen, gebruik de [ filtercont
    >
    >Alleen eenvoudige, downloadbare en virtuele producten zonder configureerbare opties kunnen worden gegroepeerd in onderliggende producten. Andere producttypen worden niet in de keuzelijst weergegeven.
 
-   ![ voeg Geselecteerde Producten ](./assets/product-grouped-add-products.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Geselecteerde Producten &#x200B;](./assets/product-grouped-add-products.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Add Selected Products]** als u deze aan de productgroep wilt toevoegen.
 
    De geselecteerde producten worden weergegeven in de sectie _[!UICONTROL Grouped Products]_.
 
-   Voor de Multicarehandel van Source met [ Inventory management ](../inventory-management/sources-stocks.md), omvat het net een **[!UICONTROL Quantity per Source]** kolom met elke toegewezen bron en voorraad.
+   Voor de Multicarehandel van Source met [&#x200B; Inventory management &#x200B;](../inventory-management/sources-stocks.md), omvat het net een **[!UICONTROL Quantity per Source]** kolom met elke toegewezen bron en voorraad.
 
-   ![ Producten in Groep ](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
+   ![&#x200B; Producten in Groep &#x200B;](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
 
 1. Voer een **[!UICONTROL Default Quantity]** in voor een van de items.
 
-1. Om de orde van de producten te veranderen, greep het _pictogram van de Orde van de Verandering_ ( ![ het controlemechanisme van de Positie ](../assets/icon-sort-order.png)) in de eerste kolom en sleep het product aan de nieuwe positie in de lijst.
+1. Om de orde van de producten te veranderen, greep het _pictogram van de Orde van de Verandering_ ( ![&#x200B; het controlemechanisme van de Positie &#x200B;](../assets/icon-sort-order.png)) in de eerste kolom en sleep het product aan de nieuwe positie in de lijst.
 
 1. Als u een product uit de groep wilt verwijderen, klikt u op **[!UICONTROL Remove]** .
 
@@ -154,15 +154,15 @@ Voer de benodigde gegevens in de volgende secties in:
 
    - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
+   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu.
 
      De winkel wordt geopend in een nieuw browsertabblad.
 
-     ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
+     ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
 
    **Methode 2:** sparen en sluit
 
-   - Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+   - Voor _[!UICONTROL Save]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Stap 7: De miniaturen van het winkelwagentje configureren (optioneel)
 
@@ -172,13 +172,13 @@ Als u voor elk product in de groep een andere afbeelding hebt, kunt u de configu
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit **[!UICONTROL Shopping Cart]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit **[!UICONTROL Shopping Cart]**.
 
-   Voor een gedetailleerde lijst van deze configuratieopties, zie [ Shopping Kart ](../configuration-reference/sales/checkout.md#shopping-cart) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze configuratieopties, zie [&#x200B; Shopping Kart &#x200B;](../configuration-reference/sales/checkout.md#shopping-cart) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Grouped Product Image]** in op `Product Thumbnail Itself` .
 
-   ![ Shopping Cart ](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
+   ![&#x200B; Shopping Cart &#x200B;](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
 
    Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze optie in te stellen.
 

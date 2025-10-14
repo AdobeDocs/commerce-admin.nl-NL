@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met de koppeling E-mail kunnen uw klanten eenvoudig koppelingen naar producten delen met hun vrienden. In de demo Luma-store wordt de e-mailkoppeling weergegeven als een enveloppictogram. Het berichtmalplaatje kan voor uw stem en merk worden aangepast. Om spamming te verhinderen, kunt u het aantal ontvangers voor elke e-mail, en het aantal producten beperken die over een periode van één uur kunnen worden gedeeld.
 
-![ de storefront van het Voorbeeld - e-mail een vriend ](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - e-mail een vriend &#x200B;](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
 
 ## E-mail-a-vriend configureren
 
@@ -22,11 +22,11 @@ Met de koppeling E-mail kunnen uw klanten eenvoudig koppelingen naar producten d
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Email to a Friend]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email Templates]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Email Templates]** sectie uit en plaats de opties:
 
-   ![ configuratie van de Catalogus - e-mailmalplaatjes ](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - e-mailmalplaatjes &#x200B;](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ E-mailMalplaatjes ](../configuration-reference/catalog/email-to-a-friend.md) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; E-mailMalplaatjes &#x200B;](../configuration-reference/catalog/email-to-a-friend.md) in de _Gids van de Verwijzing van de Configuratie_.
 
    Als u de standaardinstelling van een veld wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit om het veld bewerkbaar te maken.
 
@@ -71,4 +71,4 @@ Wanneer deze functie is geconfigureerd, volgen klanten deze stappen om productin
 
 1. Wanneer u klaar bent om het bericht te verzenden, klikt u op **[!UICONTROL Send Email]** .
 
-   ![ de storefront van het Voorbeeld - e-mail aan een vriend ](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}
+   ![&#x200B; de storefront van het Voorbeeld - e-mail aan een vriend &#x200B;](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

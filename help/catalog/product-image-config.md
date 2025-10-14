@@ -32,11 +32,11 @@ Een afbeeldingsbestand van 3000 x 2100 pixels JPG 100% kan bijvoorbeeld een afbe
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _Beelden uploaden de sectie van de Configuratie_.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _Beelden uploaden de sectie van de Configuratie_.
 
    Als u de standaardinstellingen wilt wijzigen, schakelt u indien nodig het selectievakje **[!UICONTROL Use system value]** uit.
 
-   ![ Beeld uploadt Configuratie ](../configuration-reference/advanced/assets/system-image-upload-configuration.png){width="600" zoomable="yes"}
+   ![&#x200B; Beeld uploadt Configuratie &#x200B;](../configuration-reference/advanced/assets/system-image-upload-configuration.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze configuratiemontages, zie [_Beeld uploadt Configuratie_](../configuration-reference/advanced/system.md#image-upload-configuration) in de _Verwijzing van de Configuratie_.
 
@@ -58,7 +58,7 @@ Een afbeeldingsbestand van 3000 x 2100 pixels JPG 100% kan bijvoorbeeld een afbe
 
 ### Veldomschrijvingen
 
-| Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Quality] | Algemeen | Hiermee bepaalt u de JPG-kwaliteit voor de vergrote of verkleinde afbeelding. Bij een lagere kwaliteit wordt het bestand kleiner. 80-90% wordt aanbevolen om bestanden van hoge kwaliteit te verkleinen. Standaard: 80 |
 | [!UICONTROL Enable Frontend Resize] | Algemeen | Hiermee kan Commerce de grootte wijzigen van grote, te grote afbeeldingen die u voor de _[!UICONTROL Product Details]_-pagina kunt uploaden. Commerce wijzigt de grootte van de afbeeldingsbestanden met JavaScript wanneer het bestand wordt geüpload. Als de grootte van de afbeelding wordt gewijzigd, blijft de afbeelding exact even groot om aan de maximale breedte of maximale hoogte te voldoen en wordt deze niet groter dan de grootste breedte. Standaard: `Yes` |
@@ -71,7 +71,7 @@ Een afbeeldingsbestand van 3000 x 2100 pixels JPG 100% kan bijvoorbeeld een afbe
 
 Adobe Commerce en Magento Open Source gebruiken tijdelijke afbeeldingen als plaatsaanduidingen totdat de permanente productafbeeldingen beschikbaar zijn. Voor elke rol kunt u een andere plaatsaanduiding uploaden. De eerste plaatsaanduidingsafbeelding is een voorbeeldlogo dat u kunt vervangen door de afbeelding van uw keuze.
 
-![ Plaatsaanduiding van het Beeld ](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
+![&#x200B; Plaatsaanduiding van het Beeld &#x200B;](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
 
 **_om placeholder beelden te uploaden:_**
 
@@ -79,9 +79,9 @@ Adobe Commerce en Magento Open Source gebruiken tijdelijke afbeeldingen als plaa
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ pictogram van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Image Placeholders]** sectie.
+1. Breid ![&#x200B; pictogram van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Image Placeholders]** sectie.
 
-   ![ Plaatsaanduidingen van het Beeld van het Product ](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
+   ![&#x200B; Plaatsaanduidingen van het Beeld van het Product &#x200B;](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze configuratiemontages, zie {Plaatsaanduidingen van het Beeld van 0} Product _[&#128279;](../configuration-reference/catalog/catalog.md#product-image-placeholders)in de_ Verwijzing van de Configuratie _._
 
@@ -91,4 +91,4 @@ Adobe Commerce en Magento Open Source gebruiken tijdelijke afbeeldingen als plaa
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-Voor informatie over beeldrollen en geadviseerde grootte, zie [ een beeld ](product-image.md#upload-an-image) uploaden.
+Voor informatie over beeldrollen en geadviseerde grootte, zie [&#x200B; een beeld &#x200B;](product-image.md#upload-an-image) uploaden.

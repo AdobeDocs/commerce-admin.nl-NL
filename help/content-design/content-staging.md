@@ -56,7 +56,7 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 
    >[!NOTE]
    >
-   >Als een campagne met meer dan één entiteit verbonden is, kan de campagne slechts van het [ Inhoud Staging Dashboard ](content-staging-dashboard.md) worden uitgegeven.
+   >Als een campagne met meer dan één entiteit verbonden is, kan de campagne slechts van het [&#x200B; Inhoud Staging Dashboard &#x200B;](content-staging-dashboard.md) worden uitgegeven.
 
 1. **herstel de basislijninhoud**
 
@@ -72,9 +72,9 @@ Wanneer een nieuwe geplande update wordt gemaakt voor een van de volgende object
 
 ## [!UICONTROL Content Staging] dashboard
 
-Het [!UICONTROL Content Staging] [ dashboard ](content-staging-dashboard.md) verstrekt zicht in alle geplande plaatsveranderingen en updates. Elke dag, elk datumbereik of elke tijdsperiode van een campagne kan vooraf worden bekeken en met anderen worden gedeeld.
+Het [!UICONTROL Content Staging] [&#x200B; dashboard &#x200B;](content-staging-dashboard.md) verstrekt zicht in alle geplande plaatsveranderingen en updates. Elke dag, elk datumbereik of elke tijdsperiode van een campagne kan vooraf worden bekeken en met anderen worden gedeeld.
 
-![ het Opvoeren dashboard ](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
+![&#x200B; het Opvoeren dashboard &#x200B;](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## Demo voor inhoudstaging
 
@@ -86,6 +86,6 @@ Bekijk de volgende video voor meer informatie over het staging van inhoud:
 
 Raadpleeg de volgende [!DNL Commerce] artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met betrekking tot het staging van inhoud:
 
-- [ Fout 404 op alle pagina&#39;s toe te schrijven aan inhoud die kwestie opneemt ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=nl-NL)
-- [ Geplande die updates van het Staging van de Inhoud niet met het oude Fastly geheime voorgeheugen worden getoond ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=nl-NL)
-- [ Kan ik de updates van het Staging van de Inhoud voor prijzen in een gedeelde catalogus plannen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=nl-NL)
+- [&#x200B; Fout 404 op alle pagina&#39;s toe te schrijven aan inhoud die kwestie opneemt &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=nl-NL)
+- [&#x200B; Geplande die updates van het Staging van de Inhoud niet met het oude Fastly geheime voorgeheugen worden getoond &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=nl-NL)
+- [&#x200B; Kan ik de updates van het Staging van de Inhoud voor prijzen in een gedeelde catalogus plannen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=nl-NL)

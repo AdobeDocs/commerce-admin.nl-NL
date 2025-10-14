@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Voor geregistreerde klanten die hulp nodig hebben, kunt u een volledige orde direct van Admin tot stand brengen. Het _[!UICONTROL Create New Order]_-formulier bevat alle informatie die nodig is voor het normale uitcheckproces, met activiteitenoverzichten van het rekeningdashboard van de klant.
 
-![ creeer een orde voor een klant ](./assets/create-new-order.png){width="700" zoomable="yes"}
+![&#x200B; creeer een orde voor een klant &#x200B;](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Stap 1: Een bestelling maken
 
@@ -26,9 +26,9 @@ Voor geregistreerde klanten die hulp nodig hebben, kunt u een volledige orde dir
 
 1. Klik in de koptekst van de werkruimte op **[!UICONTROL Create Order]** .
 
-   ![ de kopbal van Workspace ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![&#x200B; de kopbal van Workspace &#x200B;](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   U kunt een orde in de [ werkruimte van de Orde ](orders.md#orders-workspace) ook tot stand brengen door **[!UICONTROL Create New Order]** te klikken.
+   U kunt een orde in de [&#x200B; werkruimte van de Orde &#x200B;](orders.md#orders-workspace) ook tot stand brengen door **[!UICONTROL Create New Order]** te klikken.
 
 ## Stap 2: Producten toevoegen
 
@@ -38,7 +38,7 @@ Als uw winkel meerdere weergaven heeft, kiest u de winkelweergave waarin de volg
 
 U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een klant of van onlangs bekeken, vergeleken of geordende items.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) één van de volgende secties uit:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) één van de volgende secties uit:
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -52,17 +52,17 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
    Het item wordt weergegeven in het bestelformulier.
 
-   ![ toevoegen aan Kar ](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
+   ![&#x200B; toevoegen aan Kar &#x200B;](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
 ### Producten toevoegen uit de catalogus
 
 1. Klik op **[!UICONTROL Add Products]**.
 
-   ![ voeg Producten ](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Producten &#x200B;](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"} toe
 
 1. Selecteer in het raster het selectievakje van elk product dat aan de winkelwagentje moet worden toegevoegd en voer de **[!UICONTROL Qty]** in die u wilt kopen.
 
-   ![ Uitgezochte Producten ](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte Producten &#x200B;](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
    - Klik op **[!UICONTROL Add Selected Product(s) to Order]** om het winkelwagentje bij te werken.
 
-1. Als een product voor [ giftopties ](../catalog/product-gift-options.md) wordt gevormd, plaats de opties zoals nodig.
+1. Als een product voor [&#x200B; giftopties &#x200B;](../catalog/product-gift-options.md) wordt gevormd, plaats de opties zoals nodig.
 
 1. Overschrijf indien nodig de prijs van een object:
 
@@ -86,7 +86,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
    - Klik op **[!UICONTROL Update Items and Quantities]** om de totaal van de winkelwagentjes bij te werken.
 
-   ![ Aangepaste Prijs ](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![&#x200B; Aangepaste Prijs &#x200B;](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. Vul de volgende secties in die u nodig hebt voor de bestelling:
 
@@ -99,7 +99,7 @@ U kunt items naar het winkelwagentje overbrengen van de verlanglijst van een kla
 
 >[!NOTE]
 >
->Zie de [ Gids van de Diensten van de Betaling ](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
+>Zie de [&#x200B; Gids van de Diensten van de Betaling &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) voor meer informatie over betalingsmethodes om deze functionaliteit te steunen wanneer de uitbreiding van de Diensten van de Betaling geïnstalleerd en gevormd is.
 
 ## Stap 3: De bestelling verzenden
 

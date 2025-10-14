@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Beveiliging van beheerder configureren
 
-Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [ douane Admin URL ](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [ login ](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. Als a [ beste praktijken ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
+Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [&#x200B; douane Admin URL &#x200B;](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [&#x200B; login &#x200B;](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. Als a [&#x200B; beste praktijken &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
 
 Met de beveiligingsconfiguratie Admin kunt u:
 
@@ -22,19 +22,19 @@ Met de beveiligingsconfiguratie Admin kunt u:
 - Wachtwoorden zijn hoofdlettergevoelig
 - De duur van beheerderssessies beperken
 - De levensduur van wachtwoorden beperken
-- Beperk het aantal login pogingen die kunnen worden gemaakt alvorens de Admin gebruikersrekening [ wordt gesloten ](permissions-users-all.md#locked-users).
+- Beperk het aantal login pogingen die kunnen worden gemaakt alvorens de Admin gebruikersrekening [&#x200B; wordt gesloten &#x200B;](permissions-users-all.md#locked-users).
 
 Voor verhoogde veiligheid, kunt u de lengte van toetsenbordinactiviteit vormen alvorens de huidige zitting verloopt, en vereisen de gebruikersnaam en het wachtwoord om case-sensitive te zijn.
 
-Naast de veiligheidsmontages in deze sectie, [ wordt tweeledige authentificatie ](security-two-factor-authentication.md) (2FA) vereist om de identiteit van gebruikers met een eenmalig wachtwoord te verifiëren dat door een app of een apparaat wordt geproduceerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra veiligheid, kan login Admin ook worden gevormd om a [ CAPTCHA ](security-captcha.md) te vereisen.
+Naast de veiligheidsmontages in deze sectie, [&#x200B; wordt tweeledige authentificatie &#x200B;](security-two-factor-authentication.md) (2FA) vereist om de identiteit van gebruikers met een eenmalig wachtwoord te verifiëren dat door een app of een apparaat wordt geproduceerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra veiligheid, kan login Admin ook worden gevormd om a [&#x200B; CAPTCHA &#x200B;](security-captcha.md) te vereisen.
 
 >[!NOTE]
 >
->Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
+>Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie &#x200B;](../getting-started/adobe-ims-integration-overview.md).
 
-Voor technische informatie, zie [ Overzicht van de Veiligheid ](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in de ontwikkelaardocumentatie.
+Voor technische informatie, zie [&#x200B; Overzicht van de Veiligheid &#x200B;](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in de ontwikkelaardocumentatie.
 
-![ Admin veiligheid ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![&#x200B; Admin veiligheid &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Beveiliging van beheerder configureren
 
@@ -42,7 +42,7 @@ Voor technische informatie, zie [ Overzicht van de Veiligheid ](https://develope
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_&#x200B;de optie **[!UICONTROL Admin]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
 1. Stel **[!UICONTROL Admin Account Sharing]** in op `No` om te voorkomen dat Admin-gebruikers zich vanaf hetzelfde account aanmelden op verschillende apparaten.
 

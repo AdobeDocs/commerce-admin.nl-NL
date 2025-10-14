@@ -25,11 +25,11 @@ Elke voorwaarde bestaat uit een attribuut, waarde, en logische exploitant. In ca
 
 >[!NOTE]
 >
->Zorg ervoor om elk attribuut te vormen dat in de regel als a [_slimme_ attributen ](smart-attributes-configure.md) wordt gebruikt.
+>Zorg ervoor om elk attribuut te vormen dat in de regel als a [_slimme_ attributen &#x200B;](smart-attributes-configure.md) wordt gebruikt.
 
-![ Regel van het Product van de Categorie ](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![&#x200B; Regel van het Product van de Categorie &#x200B;](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-De productregels van de categorie kunnen het proces versnellen om specifieke producten aan categorieën toe te wijzen, die op voorwaarden worden gebaseerd die bepalen welke producten in de categorie verschijnen. De &quot;slimme&quot;attributen die met de regels van het categorieproduct kunnen worden gebruikt worden gespecificeerd in [ Visuele Merchandiser ](visual-merchandiser.md) configuratie.
+De productregels van de categorie kunnen het proces versnellen om specifieke producten aan categorieën toe te wijzen, die op voorwaarden worden gebaseerd die bepalen welke producten in de categorie verschijnen. De &quot;slimme&quot;attributen die met de regels van het categorieproduct kunnen worden gebruikt worden gespecificeerd in [&#x200B; Visuele Merchandiser &#x200B;](visual-merchandiser.md) configuratie.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
    >
    >Zorg ervoor dat het kenmerk dat u selecteert GEEN multiselect _[!UICONTROL Input Type]_&#x200B;is.
 
-1. Voltooi de [ configuratie ](smart-attributes-configure.md) om elk _slimme_ attribuut te identificeren dat met Visuele Merchandiser moet worden gebruikt.
+1. Voltooi de [&#x200B; configuratie &#x200B;](smart-attributes-configure.md) om elk _slimme_ attribuut te identificeren dat met Visuele Merchandiser moet worden gebruikt.
 
 ## Stap 2: De categorieregel maken
 
@@ -69,7 +69,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
 1. Voer de **[!UICONTROL Value]** in die moet worden aangepast.
 
-   ![ voeg Voorwaarde aan de Regel van de Categorie toe ](../catalog/assets/category-rule-create.png){width="500"}
+   ![&#x200B; voeg Voorwaarde aan de Regel van de Categorie toe &#x200B;](../catalog/assets/category-rule-create.png){width="500"}
 
 1. Herhaal dit proces voor elk kenmerk dat nodig is om de voorwaarden te beschrijven waaraan moet worden voldaan.
 
@@ -87,7 +87,7 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
 1. Stel **[!UICONTROL Automatic Sorting]** in als u automatisch een sorteervolgorde wilt toepassen op de lijst met dynamisch gegenereerde producten.
 
-   ![ Automatisch Sorteren ](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
+   ![&#x200B; Automatisch Sorteren &#x200B;](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
    Sorteervolgordeopties worden globaal gedefinieerd en worden toegepast op basis van de huidige omstandigheden. U kunt geen andere sorteervolgorde instellen voor het weergaveniveau van de website, opslag of opslag.
 
@@ -144,4 +144,4 @@ De productregels van de categorie kunnen het proces versnellen om specifieke pro
 
 - **[!UICONTROL Value]** - Geeft de waarde op die het kenmerk aan de voorwaarde moet voldoen.
 
-- **[!UICONTROL Logic]** - De kolom Logica wordt gebruikt om meerdere voorwaarden te definiëren en wordt alleen weergegeven wanneer een andere voorwaarde wordt toegevoegd. De exploitanten volgen de regels van belangrijkheid voor MySQL [ booleaanse exploitanten ](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opties: `AND` / `OR`
+- **[!UICONTROL Logic]** - De kolom Logica wordt gebruikt om meerdere voorwaarden te definiëren en wordt alleen weergegeven wanneer een andere voorwaarde wordt toegevoegd. De exploitanten volgen de regels van belangrijkheid voor MySQL [&#x200B; booleaanse exploitanten &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opties: `AND` / `OR`

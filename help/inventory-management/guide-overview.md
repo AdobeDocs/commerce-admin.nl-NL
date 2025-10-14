@@ -24,22 +24,22 @@ Deze handleiding is van toepassing op:
 
 | Onderwerp | Beschrijving |
 | ------- | ----------- |
-| [ Inleiding ](introduction.md) | Overzicht van de [!DNL Inventory Management] -functies die u kunt gebruiken om voorraad op meerdere locaties te beheren, zodat de fysieke voorraad in uw Commerce-winkel nauwkeurig wordt weergegeven. |
-| [ de nota&#39;s van de Versie ](release-notes.md) | Raadpleeg de opmerkingen bij de release voor informatie over alle [!DNL Inventory Management] -releases. |
-| Grondbeginselen van de inventarisatie | Leer de grondbeginselen over het beheren van inventaris: [ Voorraden en bronnen ](sources-stocks.md), [ bronselectie en voorbehouden ](selection-reservations.md), [ orde en reserveringsstatus ](order-status.md), en [ producttypes ](product-types.md) |
-| Aan de slag | Leer over de [!DNL Inventory Management] module en hoe het in uw instantie van Commerce past en verrichtingen opslaat: [ upgrades van Commerce ](migrate.md), [ modulesinstallatie en update ](install-update.md), [ handelaarsourcing types ](merchant-sourcing.md), en [ broncende structuurveranderingen ](expand-restructure.md) |
-| [ Configuratie ](configuration.md) | Leer over de configuratie van [!DNL Inventory Management] opties die bronbeschikbaarheid, opslagproducten, en ordeverzending bepalen. |
-| [ beheert bronnen ](sources-manage.md) | Leer bronnen en hoe ze de fysieke locaties definiëren waar de productvoorraad wordt beheerd en verzonden voor bestelling, of waar services beschikbaar zijn. |
-| [ beheer voorraden ](stocks-manage.md) | Leer hoe voorraad wordt gebruikt om een virtuele, geaggregeerde inventaris van producten voor bronnen van uw verkoopkanalen te vertegenwoordigen. |
-| [ beheert hoeveelheden ](quantities-manage.md) | Leer hoe u bronnen en hoeveelheden kunt toewijzen voor nieuwe producten of bestaande producten kunt wijzigen. |
-| [ beheert orden en transporten ](shipments.md) | Meer informatie over de extra functies en opties van [!DNL Inventory Management] voor het beheer van inventarishoeveelheden tijdens het verzendproces. |
-| [ CLI verwijzing ](cli.md) | Leer over de bevelen die door de [!DNL Inventory Management] module worden verstrekt inventarisgegevens en configuratiemontages te beheren. |
+| [&#x200B; Inleiding &#x200B;](introduction.md) | Overzicht van de [!DNL Inventory Management] -functies die u kunt gebruiken om voorraad op meerdere locaties te beheren, zodat de fysieke voorraad in uw Commerce-winkel nauwkeurig wordt weergegeven. |
+| [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes.md) | Raadpleeg de opmerkingen bij de release voor informatie over alle [!DNL Inventory Management] -releases. |
+| Grondbeginselen van de inventarisatie | Leer de grondbeginselen over het beheren van inventaris: [&#x200B; Voorraden en bronnen &#x200B;](sources-stocks.md), [&#x200B; bronselectie en voorbehouden &#x200B;](selection-reservations.md), [&#x200B; orde en reserveringsstatus &#x200B;](order-status.md), en [&#x200B; producttypes &#x200B;](product-types.md) |
+| Aan de slag | Leer over de [!DNL Inventory Management] module en hoe het in uw instantie van Commerce past en verrichtingen opslaat: [&#x200B; upgrades van Commerce &#x200B;](migrate.md), [&#x200B; modulesinstallatie en update &#x200B;](install-update.md), [&#x200B; handelaarsourcing types &#x200B;](merchant-sourcing.md), en [&#x200B; broncende structuurveranderingen &#x200B;](expand-restructure.md) |
+| [&#x200B; Configuratie &#x200B;](configuration.md) | Leer over de configuratie van [!DNL Inventory Management] opties die bronbeschikbaarheid, opslagproducten, en ordeverzending bepalen. |
+| [&#x200B; beheert bronnen &#x200B;](sources-manage.md) | Leer bronnen en hoe ze de fysieke locaties definiëren waar de productvoorraad wordt beheerd en verzonden voor bestelling, of waar services beschikbaar zijn. |
+| [&#x200B; beheer voorraden &#x200B;](stocks-manage.md) | Leer hoe voorraad wordt gebruikt om een virtuele, geaggregeerde inventaris van producten voor bronnen van uw verkoopkanalen te vertegenwoordigen. |
+| [&#x200B; beheert hoeveelheden &#x200B;](quantities-manage.md) | Leer hoe u bronnen en hoeveelheden kunt toewijzen voor nieuwe producten of bestaande producten kunt wijzigen. |
+| [&#x200B; beheert orden en transporten &#x200B;](shipments.md) | Meer informatie over de extra functies en opties van [!DNL Inventory Management] voor het beheer van inventarishoeveelheden tijdens het verzendproces. |
+| [&#x200B; CLI verwijzing &#x200B;](cli.md) | Leer over de bevelen die door de [!DNL Inventory Management] module worden verstrekt inventarisgegevens en configuratiemontages te beheren. |
 
 {style="table-layout:auto"}
 
 ## Informatie over ontwikkelaars
 
-Zie [[!DNL Inventory Management] ](https://developer.adobe.com/commerce/webapi/rest/inventory/) in de ontwikkelaarsdocumentatie voor details over modulearchitectuur, APIs, en algoritmeaanpassing.
+Zie [[!DNL Inventory Management] &#x200B;](https://developer.adobe.com/commerce/webapi/rest/inventory/) in de ontwikkelaarsdocumentatie voor details over modulearchitectuur, APIs, en algoritmeaanpassing.
 
 ## Commerce-documentatie
 
@@ -49,5 +49,5 @@ Zie [[!DNL Inventory Management] ](https://developer.adobe.com/commerce/webapi/r
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-- [ onjuiste status van het Beeld na de installatie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=nl-NL)
-- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.
+- [&#x200B; onjuiste status van het Beeld na de installatie van de Inventaris &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=nl-NL)
+- [&#x200B; kaartjes van de Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Het _[!UICONTROL Shipments]_-raster bevat de verzendrecord van alle facturen die zijn voorbereid voor verzending. Een ladingsverslag kan worden geproduceerd wanneer een orde [&#128279;](invoices.md) of later wordt gefactureerd.
 
-Adobe Commerce en de Magento Open Source steunen gedeeltelijke en volledige ordeverzending, met extra opties beschikbaar bij [ Inventory management ](../inventory-management/introduction.md) en derdeuitbreidingen.
+Adobe Commerce en de Magento Open Source steunen gedeeltelijke en volledige ordeverzending, met extra opties beschikbaar bij [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md) en derdeuitbreidingen.
 
-![ het net van Verzendingen ](./assets/shipments.png){width="600" zoomable="yes"}
+![&#x200B; het net van Verzendingen &#x200B;](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -51,7 +51,7 @@ Aanvullende kolommen:
 
 ## Een verzending maken
 
-Met de volgende instructies doorloopt u het proces voor het maken van een verzending in Adobe Commerce of Magento Open Source. Als u Inventory management hebt toegelaten, kunt u [ willen herzien creeer de Verzendingen van meerdere Source ](../inventory-management/shipments-create.md) en selecteer een bron (of plaats) en een hoeveelheid per lijnpunt te verzenden.
+Met de volgende instructies doorloopt u het proces voor het maken van een verzending in Adobe Commerce of Magento Open Source. Als u Inventory management hebt toegelaten, kunt u [&#x200B; willen herzien creeer de Verzendingen van meerdere Source &#x200B;](../inventory-management/shipments-create.md) en selecteer een bron (of plaats) en een hoeveelheid per lijnpunt te verzenden.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
@@ -112,7 +112,7 @@ U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina v
 
    Als u de locatie van een willekeurige verzending wilt bijhouden, opent u de gewenste verzending in de bewerkingsmodus en klikt u op **[!UICONTROL Track this shipment]** .
 
-   ![ het verschepen en het Volgen Informatie ](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![&#x200B; het verschepen en het Volgen Informatie &#x200B;](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### Knoppen
 
@@ -138,7 +138,7 @@ U kunt de verzendgegevens en trackinggegevens naar wens wijzigen met de pagina v
 
 1. Breid de **sectie van de Commentaren van de Verzending** uit en wijzig de montages zoals nodig:
 
-   ![ de commentaarconfiguratie van de Verzending ](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![&#x200B; de commentaarconfiguratie van de Verzending &#x200B;](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
    - De optie **[!UICONTROL Enabled]** is standaard ingesteld op `Yes` . Dit houdt in dat de e-mail naar een klant wordt verzonden wanneer een verzendopmerking wordt ingevoerd.
 
@@ -183,7 +183,7 @@ De status van de verzending verandert in `Canceled` . Als de vervoerder geen ann
 | [!UICONTROL Carrier] | De naam van de geselecteerde vervoerder |
 | [!UICONTROL Title] | Een beschrijvende naam die door de vervoerder aan het pakket is toegewezen. |
 | [!UICONTROL Number] | Het gekoppelde volgnummer dat aan het pakket is toegewezen. |
-| [!UICONTROL Action] | ![ Trashcan pictogram ](../assets/icon-delete-trashcan-solid.png) - schrapt de pakketinformatie van het ladingsverslag. |
+| [!UICONTROL Action] | ![&#x200B; Trashcan pictogram &#x200B;](../assets/icon-delete-trashcan-solid.png) - schrapt de pakketinformatie van het ladingsverslag. |
 | [!UICONTROL Add] | Voeg nog een pakket toe aan de verzending. |
 
 {style="table-layout:auto"}

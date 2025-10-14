@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Een gedetailleerde beschrijving en de oplossing zijn beschikbaar in het [ Centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=nl-NL).<br/><br/> beïnvloede versies omvatten: <br/> - Adobe Commerce op wolkeninfrastructuur, 2.3.x en boven <br/> - Adobe Commerce (op-Premise), 2.3.x en boven <br/> - Magento Open Source, 2.3.x en boven <br/><br/> op om het even welke versieversie, werken sommige uitbreidingen slechts met vlakke lijsten, zo creërend een risico als u vlakke lijsten onbruikbaar maakt. Als u weet dat u extensies hebt die gebruikmaken van Platte catalogusindexen, moet u rekening houden met dit risico wanneer u deze waarden instelt op `No` .
+>Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Een gedetailleerde beschrijving en de oplossing zijn beschikbaar in het [&#x200B; Centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=nl-NL).<br/><br/> beïnvloede versies omvatten: <br/> - Adobe Commerce op wolkeninfrastructuur, 2.3.x en boven <br/> - Adobe Commerce (op-Premise), 2.3.x en boven <br/> - Magento Open Source, 2.3.x en boven <br/><br/> op om het even welke versieversie, werken sommige uitbreidingen slechts met vlakke lijsten, zo creërend een risico als u vlakke lijsten onbruikbaar maakt. Als u weet dat u extensies hebt die gebruikmaken van Platte catalogusindexen, moet u rekening houden met dit risico wanneer u deze waarden instelt op `No` .
 
 Commerce slaat catalogusgegevens doorgaans op in meerdere tabellen, op basis van het model Entiteit-Attribute-Value (EAV). Omdat productkenmerken in veel tabellen worden opgeslagen, zijn SQL-query&#39;s soms lang en complex.
 
@@ -35,7 +35,7 @@ Een platte catalogus maakt daarentegen direct tabellen, waarin elke rij alle ben
 
    - Stel **[!UICONTROL Use Flat Catalog Product]** in op `Yes` .
 
-   ![ Vlakke catalogusconfiguratie ](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
+   ![&#x200B; Vlakke catalogusconfiguratie &#x200B;](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -61,9 +61,9 @@ U kunt de resultaten op twee manieren controleren.
 
    - Gebruik de navigatie om naar het product onder zijn toegewezen categorie te bladeren.
 
-     Vernieuw indien nodig de pagina om de resultaten te zien. De verandering verschijnt binnen de minuut of volgens uw [ Gewas ](../systems/cron.md) programma.
+     Vernieuw indien nodig de pagina om de resultaten te zien. De verandering verschijnt binnen de minuut of volgens uw [&#x200B; Gewas &#x200B;](../systems/cron.md) programma.
 
-   ![ Storefront met Platte Catalogus ](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
+   ![&#x200B; Storefront met Platte Catalogus &#x200B;](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
 
 ### Methode 2: De resultaten voor een categorie verifiëren
 
@@ -79,15 +79,15 @@ U kunt de resultaten op twee manieren controleren.
 
    - Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-     ![ subcategory van de Test ](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
+     ![&#x200B; subcategory van de Test &#x200B;](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
 
-   - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Products in Category]** sectie uit en klik **[!UICONTROL Reset Filter]** om alle producten te tonen.
+   - Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Products in Category]** sectie uit en klik **[!UICONTROL Reset Filter]** om alle producten te tonen.
 
    - Schakel het selectievakje in van verschillende producten die aan de nieuwe categorie moeten worden toegevoegd.
 
    - Klik op **[!UICONTROL Save]** .
 
-   ![ de categorieproducten van de Test ](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
+   ![&#x200B; de categorieproducten van de Test &#x200B;](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
 
 1. Navigeer op een nieuw browsertabblad naar de homepage van uw winkel en gebruik de winkelnavigatie om naar de categorie te bladeren die u hebt gemaakt.
 

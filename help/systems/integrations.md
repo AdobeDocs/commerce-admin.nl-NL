@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Integraties
 
-Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth-referenties vastgesteld en wordt de URL omgeleid voor integratie van derden. Verder worden de beschikbare API-bronnen aangegeven die nodig zijn voor de integratie. Voor meer gedetailleerde informatie over het proces van de integratieregistratie, zie [ op OAuth-Gebaseerde authentificatie ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in de de ontwikkelaarsdocumentatie van Commerce.
+Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth-referenties vastgesteld en wordt de URL omgeleid voor integratie van derden. Verder worden de beschikbare API-bronnen aangegeven die nodig zijn voor de integratie. Voor meer gedetailleerde informatie over het proces van de integratieregistratie, zie [&#x200B; op OAuth-Gebaseerde authentificatie &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in de de ontwikkelaarsdocumentatie van Commerce.
 
-![ Integraties ](./assets/integrations.png){width="700" zoomable="yes"}
+![&#x200B; Integraties &#x200B;](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## Workflow voor onboarding
 
@@ -28,7 +28,7 @@ Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-   ![ Nieuwe integratie ](./assets/integration-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe integratie &#x200B;](./assets/integration-new.png){width="600" zoomable="yes"}
 
 1. Voer de volgende integratiegegevens in:
 
@@ -53,7 +53,7 @@ Door een integratie in Commerce Admin te definiëren, wordt de locatie van OAuth
 
    - Voor douanetoegang, selecteer checkbox van elk middel dat nodig is.
 
-     ![ Integraties - beschikbare API ](./assets/integrations-available-api.png){width="600" zoomable="yes"}
+     ![&#x200B; Integraties - beschikbare API &#x200B;](./assets/integrations-available-api.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -69,7 +69,7 @@ Standaard wordt op het raster een opgeslagen integratie weergegeven met de statu
 
    Deze actie toont de Tokens van de Integratie voor Uitbreidingen. Kopieer deze gegevens naar een veilige, gecodeerde locatie voor gebruik met uw integratie.
 
-   ![ Tokens van de Integratie voor Uitbreidingen ](./assets/integration-tokens-for-extensions.png){width="600" zoomable="yes"}
+   ![&#x200B; Tokens van de Integratie voor Uitbreidingen &#x200B;](./assets/integration-tokens-for-extensions.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Done]** .
 
@@ -95,20 +95,20 @@ Door gebrek, staat het systeem anonieme gasttoegang tot CMS, catalogus, en ander
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Services]** uit en kies **[!UICONTROL Magento Web API]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Web API Security Setting]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Web API Security Setting]** sectie uit.
 
-   ![ de configuratie van de Diensten - Web API veiligheidsmontages ](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van de Diensten - Web API veiligheidsmontages &#x200B;](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Allow Anonymous Guest Access]** in op `Yes` .
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-Voor extra informatie, zie [ Beperkend toegang tot anonieme Web APIs ](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) in de de ontwikkelaarsdocumentatie van Commerce.
+Voor extra informatie, zie [&#x200B; Beperkend toegang tot anonieme Web APIs &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) in de de ontwikkelaarsdocumentatie van Commerce.
 
 ## Integratie verwijderen
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Vind de bestaande integratie en klik het pictogram ( ![ trashcan pictogram ](../assets/icon-delete-trashcan-solid.png)) in de **[!UICONTROL Delete]** kolom.
+1. Vind de bestaande integratie en klik het pictogram ( ![&#x200B; trashcan pictogram &#x200B;](../assets/icon-delete-trashcan-solid.png)) in de **[!UICONTROL Delete]** kolom.
 
 1. Klik op **[!UICONTROL OK]** om uw handeling te bevestigen.

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Alvorens u met de updates van de douanelay-out begint te werken, is het belangrijk om te begrijpen hoe de pagina&#39;s van uw opslag worden geconstrueerd, en het verschil tussen de termijnen *lay-out* en *lay-outupdate*. Layout verwijst naar de visuele en structurele samenstelling van de pagina. Layout bijwerken verwijst naar een specifieke set XML-instructies die de manier waarop de pagina wordt samengesteld kan overschrijven of aanpassen.
 
-De XML-indeling van uw [!DNL Commerce] -winkel is een hiërarchische structuur van containers en blokken. Sommige elementen worden op elke pagina weergegeven en andere alleen op specifieke pagina&#39;s. Meer over lay-out, containers, en blokken leren, zie het [ overzicht van Lay-outs ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) in de _Voorste Gids van de Ontwikkelaar_.
+De XML-indeling van uw [!DNL Commerce] -winkel is een hiërarchische structuur van containers en blokken. Sommige elementen worden op elke pagina weergegeven en andere alleen op specifieke pagina&#39;s. Meer over lay-out, containers, en blokken leren, zie het [&#x200B; overzicht van Lay-outs &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) in de _Voorste Gids van de Ontwikkelaar_.
 
-Het [ hulpmiddel van Widget ](widgets.md) is een gemakkelijke manier om een bestaand [ inhoudsblok ](blocks.md) aan de standaardlay-out van een pagina toe te voegen. Voor geavanceerdere updates moet u de updatecode van de XML-indeling opslaan op de server en het bestand vervolgens verwijzen als een aangepaste update van de layout van de beheerder. Voor een overzicht van het proces, zie {de Updates van de Lay-out van 0} Gebruik [&#128279;](layout-updates.md#place-a-block-using-layout-updates).
+Het [&#x200B; hulpmiddel van Widget &#x200B;](widgets.md) is een gemakkelijke manier om een bestaand [&#x200B; inhoudsblok &#x200B;](blocks.md) aan de standaardlay-out van een pagina toe te voegen. Voor geavanceerdere updates moet u de updatecode van de XML-indeling opslaan op de server en het bestand vervolgens verwijzen als een aangepaste update van de layout van de beheerder. Voor een overzicht van het proces, zie {de Updates van de Lay-out van 0} Gebruik [&#128279;](layout-updates.md#place-a-block-using-layout-updates).
 
 In het volgende diagram zijn de namen die naar containers verwijzen zwart en de bloktypen, of blokklassenpaden, blauw.
 
-![ Standaard schema van de bloklay-out ](./assets/page-layout-default.png){width="500" zoomable="yes"}
+![&#x200B; Standaard schema van de bloklay-out &#x200B;](./assets/page-layout-default.png){width="500" zoomable="yes"}
 
 | Bloktype | Beschrijving |
 |--- |--- |
@@ -41,21 +41,21 @@ In het volgende diagram zijn de namen die naar containers verwijzen zwart en de 
 
 ## Een blok plaatsen met layoutupdates
 
-[ de updates van de Lay-out ](layout-updates.md) maken het mogelijk om de lay-out van een pagina aan te passen. De updates van de lay-out bieden meer flexibiliteit dan a [ widget ](widgets.md) aan, maar vereisen toegang tot de server en een basiskennis van XML.
+[&#x200B; de updates van de Lay-out &#x200B;](layout-updates.md) maken het mogelijk om de lay-out van een pagina aan te passen. De updates van de lay-out bieden meer flexibiliteit dan a [&#x200B; widget &#x200B;](widgets.md) aan, maar vereisen toegang tot de server en een basiskennis van XML.
 
-In de volgende stappen wordt getoond hoe u een lay-outupdate kunt gebruiken om een blok op een pagina te plaatsen. Voor specifieke voorbeelden en hulp met syntaxis, zie [ Gemeenschappelijke taken van de lay-outaanpassing ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) in de _Voorste Gids van de Ontwikkelaar_.
+In de volgende stappen wordt getoond hoe u een lay-outupdate kunt gebruiken om een blok op een pagina te plaatsen. Voor specifieke voorbeelden en hulp met syntaxis, zie [&#x200B; Gemeenschappelijke taken van de lay-outaanpassing &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) in de _Voorste Gids van de Ontwikkelaar_.
 
 ### Stap 1: Maak het blok
 
-1. Creeer het [ blok ](block-add.md) dat u wilt plaatsen.
+1. Creeer het [&#x200B; blok &#x200B;](block-add.md) dat u wilt plaatsen.
 
 1. Neem nota van `block_id`, omdat het in de instructies van de lay-outupdate wordt gebruikt.
 
 ### Stap 2: De layout-update in XML samenstellen
 
-1. Stel de lay-outinstructies in XML samen aan [ Verwijzing een Blok van CMS ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Stel de lay-outinstructies in XML samen aan [&#x200B; Verwijzing een Blok van CMS &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
 
-1. Sparen de [ lay-outinstructies ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) op de server in de lay-outomslag waar de dossiers van XML voor het thema worden bewaard.
+1. Sparen de [&#x200B; lay-outinstructies &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) op de server in de lay-outomslag waar de dossiers van XML voor het thema worden bewaard.
 
    Bijvoorbeeld:
 
@@ -78,11 +78,11 @@ In de volgende stappen wordt getoond hoe u een lay-outupdate kunt gebruiken om e
 
 1. Zoek de pagina waar u het blok wilt plaatsen en open het in uitgeven wijze.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Design]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Design]** sectie.
 
 1. Klik op het menu **[!UICONTROL Custom Layout Update]** om alle beschikbare lay-outupdates weer te geven die aan de pagina zijn gekoppeld.
 
-   ![ de lijst van de Update van de Lay-out van de Douane ](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
+   ![&#x200B; de lijst van de Update van de Lay-out van de Douane &#x200B;](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
 
 1. Selecteer de layout-update die u op de pagina wilt toepassen.
 

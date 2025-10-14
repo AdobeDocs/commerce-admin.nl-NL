@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Multibronzendingen maken
 
-Met [!DNL Inventory Management] verzendt u een of meer verzendingen terwijl u een voorraad hebt. Herhaal deze instructies met de aanbevolen of handmatig ingevoerde hoeveelheden en bronnen om zo nodig extra verzendingen te genereren. In deze instructies wordt gedetailleerd beschreven hoe leveranciers uit meerdere bronnen zendingen verzenden. Single-source de handelaren verzenden zendingen zonder deze extra stappen (zie [ een lading ](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} in de gids van de kerngebruiker creëren).
+Met [!DNL Inventory Management] verzendt u een of meer verzendingen terwijl u een voorraad hebt. Herhaal deze instructies met de aanbevolen of handmatig ingevoerde hoeveelheden en bronnen om zo nodig extra verzendingen te genereren. In deze instructies wordt gedetailleerd beschreven hoe leveranciers uit meerdere bronnen zendingen verzenden. Single-source de handelaren verzenden zendingen zonder deze extra stappen (zie [&#x200B; een lading &#x200B;](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} in de gids van de kerngebruiker creëren).
 
 Gebruik bij het maken van verzendingen het Source-selectiealgoritme voor berekende aanbevelingen. Volg en gebruik deze aanbevelingen of stel de bedragen per bron in, die douaneverzendingen produceren. U beheert de uitgaande voorraad voor elke bestelling, waarbij u de af te trekken bedragen instelt, een of meer verzendingen verzendt en de voorraad en de achterstand instelt terwijl de voorraad beschikbaar is. Voer voor elk regelitem in de volgorde een bedrag in dat van de bronhoeveelheid moet worden afgetrokken.
 
@@ -38,12 +38,12 @@ Terwijl u verzendingen invoert, worden de ingevoerde hoeveelheden in de voorraad
 
      | Algorithm | Beschrijving |
      |--|--|
-     | [ Prioriteit van Source ](source-priority-algorithm.md) | beveelt aan om zendingen uit bronnen te verzenden volgens de orders van bronnen die aan het bestand zijn toegewezen. |
-     | [ Prioriteit van de Afstand ](distance-priority-algorithm.md) | Aanbevolen verzendingen van bronnen die zich het dichtst bij het verzendadres bevinden op basis van de fysieke afstand of de kortste levertijd. |
+     | [&#x200B; Prioriteit van Source &#x200B;](source-priority-algorithm.md) | beveelt aan om zendingen uit bronnen te verzenden volgens de orders van bronnen die aan het bestand zijn toegewezen. |
+     | [&#x200B; Prioriteit van de Afstand &#x200B;](distance-priority-algorithm.md) | Aanbevolen verzendingen van bronnen die zich het dichtst bij het verzendadres bevinden op basis van de fysieke afstand of de kortste levertijd. |
 
      >[!IMPORTANT]
      >
-     >Wanneer het gebruiken van het Prioriteitsalgoritme van de Afstand voor het verschepen en routes en gegevens keert niet voor de geselecteerde [ wijze van de Berekening ](distance-priority-algorithm.md) (het besturen, het fietsen, of het lopen) voor een lading terug, blijft SSA aan de Prioriteit van Source in gebreke. Het wordt geadviseerd dat u ook de [ prioriteit voor bronnen per voorraad ](stocks-prioritize-sources.md) plaatst.
+     >Wanneer het gebruiken van het Prioriteitsalgoritme van de Afstand voor het verschepen en routes en gegevens keert niet voor de geselecteerde [&#x200B; wijze van de Berekening &#x200B;](distance-priority-algorithm.md) (het besturen, het fietsen, of het lopen) voor een lading terug, blijft SSA aan de Prioriteit van Source in gebreke. Het wordt geadviseerd dat u ook de [&#x200B; prioriteit voor bronnen per voorraad &#x200B;](stocks-prioritize-sources.md) plaatst.
 
 
    - Selecteer bij **[!UICONTROL Select a Source to Ship from]** een bron om een verzending te verzenden.
@@ -52,12 +52,12 @@ Terwijl u verzendingen invoert, worden de ingevoerde hoeveelheden in de voorraad
 
    - Klik op **[!UICONTROL Proceed to Shipment]**.
 
-     ![ selecteer een Source en ga een Aantal ](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"} in
+     ![&#x200B; selecteer een Source en ga een Aantal &#x200B;](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"} in
 
 1. Controleer de pagina _[!UICONTROL New Shipment]_&#x200B;en voer zo nodig aanvullende wijzigingen in.
 
    In de sectie _[!UICONTROL Inventory]_&#x200B;worden de bron, de producten die worden verzonden, de totale geordende hoeveelheid en de hoeveelheid die wordt verzonden weergegeven.
 
-   ![ de details van de Inventaris voor de verzending, voorbeeld gedeeltelijke verzending ](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
+   ![&#x200B; de details van de Inventaris voor de verzending, voorbeeld gedeeltelijke verzending &#x200B;](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Submit Shipment]** om te voltooien.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het doel van een e-mailherinnering is om mensen die je winkel hebben bezocht aan te moedigen om gebruik te maken van een speciale actie en een aankoop te doen. E-mailherinneringen kunnen automatisch naar klanten worden verzonden wanneer aan een bepaalde set voorwaarden wordt voldaan. U kunt bijvoorbeeld een herinnering sturen aan klanten die iets aan hun winkelwagentje of wenslijst hebben toegevoegd, maar nog geen aankoop hebben gedaan. U kunt e-mailherinneringen gebruiken om klanten aan te moedigen om aan uw opslag terug te keren, en a [ couponcode ](price-rules-cart-coupon.md) als stimulans te omvatten. Couponcodes kunnen automatisch worden gegenereerd voor elke batch met e-mailherinneringen, zodat u de opties kunt bepalen die aan elke batch zijn gekoppeld.
+Het doel van een e-mailherinnering is om mensen die je winkel hebben bezocht aan te moedigen om gebruik te maken van een speciale actie en een aankoop te doen. E-mailherinneringen kunnen automatisch naar klanten worden verzonden wanneer aan een bepaalde set voorwaarden wordt voldaan. U kunt bijvoorbeeld een herinnering sturen aan klanten die iets aan hun winkelwagentje of wenslijst hebben toegevoegd, maar nog geen aankoop hebben gedaan. U kunt e-mailherinneringen gebruiken om klanten aan te moedigen om aan uw opslag terug te keren, en a [&#x200B; couponcode &#x200B;](price-rules-cart-coupon.md) als stimulans te omvatten. Couponcodes kunnen automatisch worden gegenereerd voor elke batch met e-mailherinneringen, zodat u de opties kunt bepalen die aan elke batch zijn gekoppeld.
 
 E-mailherinneringen kunnen worden geactiveerd nadat een bepaald aantal dagen is verstreken sinds een winkelwagentje is verlaten of voor een andere voorwaarde die u wilt definiëren. Veelvoorkomende voorwaarden zijn de totale waarde van het winkelwagentje, de hoeveelheid, de artikelen in het winkelwagentje, enzovoort.
 
@@ -23,7 +23,7 @@ E-mailherinneringen kunnen worden geactiveerd nadat een bepaald aantal dagen is 
 >
 >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen.
 
-![ E-mailherinneringen ](./assets/email-reminders.png){width="700" zoomable="yes"}
+![&#x200B; E-mailherinneringen &#x200B;](./assets/email-reminders.png){width="700" zoomable="yes"}
 
 ## E-mailherinneringen configureren
 
@@ -33,9 +33,9 @@ Regels voor e-mailherinneringen kunnen met regelmatige intervallen worden verzon
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Promotions]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Automated Email Reminder Rules]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Automated Email Reminder Rules]** sectie uit en doe het volgende:
 
-   ![ configuratie van Klanten - geautomatiseerde e-mailherinneringsregels ](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - geautomatiseerde e-mailherinneringsregels &#x200B;](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Enable Reminder Emails]** in op `Yes` .
 
@@ -53,17 +53,17 @@ Regels voor e-mailherinneringen kunnen met regelmatige intervallen worden verzon
 
    - Als u wilt voorkomen dat pogingen om mislukte e-mail te verzenden, worden herhaald, voert u in het veld **[!UICONTROL Email Send Failure Threshold]** het maximumaantal pogingen in.
 
-   - Plaats **[!UICONTROL Reminder Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat als afzender van herinnering e-mail verschijnt.
+   - Plaats **[!UICONTROL Reminder Email Sender]** aan het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses) dat als afzender van herinnering e-mail verschijnt.
 
-   Voor een gedetailleerde lijst van deze opties, zie [ Geautomatiseerde Regels van de Herinnering E-mail ](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Geautomatiseerde Regels van de Herinnering E-mail &#x200B;](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) in de _Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## E-mailherinneringssjablonen
 
-De standaardsjabloon voor e-mailherinneringen kan worden aangepast en er kunnen aanvullende sjablonen worden gemaakt voor verschillende aanbiedingen. E-mailherinneringen bevatten een selectie van specifieke variabelen die in het bericht kunnen worden opgenomen. De informatie in deze variabelen wordt bepaald door de e-mailherinneringsregel die u hebt ingesteld en door de regel voor de winkelwagenprijs die aan de coupon is gekoppeld. Met de knop Variabele invoegen kunt u de opmaakcode met de variabele in de sjabloon invoegen. Meer leren, zie [ E-mail ](../systems/email-templates.md).
+De standaardsjabloon voor e-mailherinneringen kan worden aangepast en er kunnen aanvullende sjablonen worden gemaakt voor verschillende aanbiedingen. E-mailherinneringen bevatten een selectie van specifieke variabelen die in het bericht kunnen worden opgenomen. De informatie in deze variabelen wordt bepaald door de e-mailherinneringsregel die u hebt ingesteld en door de regel voor de winkelwagenprijs die aan de coupon is gekoppeld. Met de knop Variabele invoegen kunt u de opmaakcode met de variabele in de sjabloon invoegen. Meer leren, zie [&#x200B; E-mail &#x200B;](../systems/email-templates.md).
 
-![ E-mail herinneringsvoorproef ](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
+![&#x200B; E-mail herinneringsvoorproef &#x200B;](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### Een sjabloon voor een e-mailherinnering aanpassen
 
@@ -75,7 +75,7 @@ De standaardsjabloon voor e-mailherinneringen kan worden aangepast en er kunnen 
 
 1. Klik op **[!UICONTROL Load Template]**.
 
-Volg de standaard [ instructies ](../systems/email-template-custom.md) om het malplaatje aan te passen.
+Volg de standaard [&#x200B; instructies &#x200B;](../systems/email-template-custom.md) om het malplaatje aan te passen.
 
 ### E-mailherinneringsvariabelen
 

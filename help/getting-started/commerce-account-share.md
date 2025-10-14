@@ -20,30 +20,30 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 >
 >Alle acties die worden ondernomen door gebruikers met gedeelde toegang vallen uitsluitend onder de verantwoordelijkheid van de primaire rekeninghouder. Adobe is niet verantwoordelijk voor acties die worden uitgevoerd door gebruikers die gedeelde toegang tot uw account hebben.
 
-![ Gedeelde toegangsinstellingen ](./assets/shared-access.png){width="600" zoomable="yes"}
+![&#x200B; Gedeelde toegangsinstellingen &#x200B;](./assets/shared-access.png){width="600" zoomable="yes"}
 
 ## Een gedeelde account instellen
 
 1. Alvorens u begint, krijg de volgende informatie van de [!DNL Commerce] rekening van **nieuwe gedeelde toegangsonderneming**:
 
-   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com. Zie [ een rekening van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
+   - De gebruiker moet zich al hebben geregistreerd voor een account op account.adobe.com en zijn aangemeld via account.magento.com. Zie [&#x200B; een rekening van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) voor meer details creëren.
    - `MAGE ID/Account ID (MAG00XXXXXXX)` wordt getoond in de upper-left hoek van het _[!UICONTROL Magento]_&#x200B;lusje, enkel boven de **Logout**&#x200B;verbinding.
    - Het `Email` -adres dat aan het account is gekoppeld.
 
-1. Login aan uw [[!DNL Commerce]  rekening ](commerce-account-create.md).
+1. Login aan uw [[!DNL Commerce]  rekening &#x200B;](commerce-account-create.md).
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Shared Access]** .
 
 1. Klik op **[!UICONTROL Add New User]**.
 
-   ![ voeg een nieuwe gebruiker ](./assets/shared-access-add.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg een nieuwe gebruiker &#x200B;](./assets/shared-access-add.png){width="600" zoomable="yes"} toe
 
 1. Voer onder [!UICONTROL _New User Information]_ de volgende handelingen uit:
 
    - Voer de **[!UICONTROL Account ID]** in vanuit de [!DNL Commerce] -account van de nieuwe gebruiker.
    - Voer het **[!UICONTROL Email]** -adres in dat is gekoppeld aan de [!DNL Commerce] -account van de nieuwe gebruiker.
 
-   ![ Nieuwe gebruikersinformatie ](./assets/shared-new-user.png){width="600"}
+   ![&#x200B; Nieuwe gebruikersinformatie &#x200B;](./assets/shared-new-user.png){width="600"}
 
 1. Voer onder _[!UICONTROL Shared Information]_&#x200B;de volgende handelingen uit:
 
@@ -54,17 +54,17 @@ Het ondersteuningsteam van [!DNL Commerce] heeft geen toegang tot het account en
 
 1. Selecteer onder _[!UICONTROL Grant Account Permissions]_&#x200B;het selectievakje van elk [!DNL Commerce] -product en elke  -service die u wilt delen.
 
-   ![ Verleen de rekeningstoestemmingen ](./assets/shared-permissions.png){width="600"}
+   ![&#x200B; Verleen de rekeningstoestemmingen &#x200B;](./assets/shared-permissions.png){width="600"}
 
 1. Klik op **[!UICONTROL Create Shared Access]**.
 
    De nieuwe gebruikersgegevens worden weergegeven in de sectie _[!UICONTROL Manage Permissions]_&#x200B;van de pagina Gedeelde toegang en er wordt een e-mailuitnodiging met instructies voor toegang tot de gedeelde account verzonden naar de nieuwe gebruiker.
 
-   ![ beheer toestemmingen voor gedeelde toegang ](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+   ![&#x200B; beheer toestemmingen voor gedeelde toegang &#x200B;](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Het is niet nodig om toegang te delen tot _[!UICONTROL Security Tool]_- Elke gebruiker met een MAGE-id kan het hulpprogramma Beveiligingsscan met een eigen account instellen. Zij hebben enkel de noodzakelijke voorrechten nodig om veranderingen in de plaats aan te brengen en eigendom van het domein te verifiëren gebruikend één van de [ vereiste methodes ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan)).
+>Het is niet nodig om toegang te delen tot _[!UICONTROL Security Tool]_- Elke gebruiker met een MAGE-id kan het hulpprogramma Beveiligingsscan met een eigen account instellen. Zij hebben enkel de noodzakelijke voorrechten nodig om veranderingen in de plaats aan te brengen en eigendom van het domein te verifiëren gebruikend één van de [&#x200B; vereiste methodes &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan)).
 
 ## Een gedeelde account openen
 
@@ -74,24 +74,24 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
    Het linkernavigatievenster van uw account heeft een nieuwe tab _[!UICONTROL Shared with me]_. Het besturingselement&#x200B;_[!UICONTROL Switch Accounts]_ in de rechterbovenhoek bevat opties voor `My Account` en de naam van de gedeelde account.
 
-   ![ Gedeeld met me ](./assets/shared-with-me.png){width="600" zoomable="yes"}
+   ![&#x200B; Gedeeld met me &#x200B;](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   Als u niet de _[!UICONTROL Switch Accounts]_&#x200B;controle ziet, contacteer de primaire rekeninghouder en bevestig dat zij uw correcte [ rekeningsinformatie ](#set-up-a-shared-account) zijn ingegaan.
+   >   Als u niet de _[!UICONTROL Switch Accounts]_&#x200B;controle ziet, contacteer de primaire rekeninghouder en bevestig dat zij uw correcte [&#x200B; rekeningsinformatie &#x200B;](#set-up-a-shared-account) zijn ingegaan.
 
 
 1. Als u toegang wilt krijgen tot de gedeelde account, stelt u **[!UICONTROL Switch Accounts]** in op de naam van de gedeelde account.
 
-   ![ Schakelaar aan de gedeelde rekening ](./assets/shared-switch.png){width="600" zoomable="yes"}
+   ![&#x200B; Schakelaar aan de gedeelde rekening &#x200B;](./assets/shared-switch.png){width="600" zoomable="yes"}
 
    De gedeelde account geeft een welkomstbericht en contactgegevens weer. Het linkernavigatievenster bevat alleen de items die u mag gebruiken.
 
 1. Als u de gedeelde account wilt verbinden met het Help Center, klikt u op **[!UICONTROL Support]** in het navigatievenster aan de linkerkant van de gedeelde account.
 
-   ![ Steun ](./assets/shared-support.png){width="600" zoomable="yes"}
+   ![&#x200B; Steun &#x200B;](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   U kunt het [ Centrum van de Hulp van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview) van de gedeelde rekening gebruiken om naar artikelen en het oplossen van problemeninformatie te zoeken, flarden voor bekende kwesties te vinden, en steunkaartjes tot stand te brengen.
+   U kunt het [&#x200B; Centrum van de Hulp van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview) van de gedeelde rekening gebruiken om naar artikelen en het oplossen van problemeninformatie te zoeken, flarden voor bekende kwesties te vinden, en steunkaartjes tot stand te brengen.
 
    >[!NOTE]
    >
@@ -109,21 +109,21 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
 
    >[!NOTE]
    >
-   > Als **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of **[!UICONTROL Share Name]** het naamgevingspatroon bevat `Cloud Shared Access from MAG0XYZ` . Als de rekening dat [ noemend patroon heeft en niet kan worden geschrapt ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), is dit omdat de Gedeelde Toegang door API werd gecreeerd, en niet direct van de [ rekening van Commerce ](https://account.magento.com/).
+   > Als **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of **[!UICONTROL Share Name]** het naamgevingspatroon bevat `Cloud Shared Access from MAG0XYZ` . Als de rekening dat [&#x200B; noemend patroon heeft en niet kan worden geschrapt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), is dit omdat de Gedeelde Toegang door API werd gecreeerd, en niet direct van de [&#x200B; rekening van Commerce &#x200B;](https://account.magento.com/).
    > 
    > Als het niet kan worden geschrapt, eenvoudig hebben de Eigenaar van de Rekening de Gedeelde rekening van de Toegang en onder de Toestemmingen van de Rekening van de Verlening, uncheck elk punt. Na deze update heeft de gebruiker geen toegang meer tot accountbronnen.
-   > ![ beeld ](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![&#x200B; beeld &#x200B;](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Bovendien zorg ervoor dat de gebruikers uit het project worden verwijderd zodat zij geen e-mailberichten meer zullen ontvangen: [ de Voormalige teamleden ontvangen de e-mails van het de wolkenbericht van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Bovendien zorg ervoor dat de gebruikers uit het project worden verwijderd zodat zij geen e-mailberichten meer zullen ontvangen: [&#x200B; de Voormalige teamleden ontvangen de e-mails van het de wolkenbericht van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Klik op **[!UICONTROL Delete User]** wanneer u wordt gevraagd om te bevestigen.
 
 >[!NOTE]
 >
->U kunt geen gebruikers met de Naam van het Aandeel van _Wolk schrappen Gedeelde Toegang van MAG [ XYZ]_ in deze interface. Zie [ hoe te gebruikers schrappen die gedeelde toegang via een project van de Wolk werden verleend?](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+>U kunt geen gebruikers met de Naam van het Aandeel van _Wolk schrappen Gedeelde Toegang van MAG [ XYZ]_ in deze interface. Zie [&#x200B; hoe te gebruikers schrappen die gedeelde toegang via een project van de Wolk werden verleend?](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Verwante lezing
 
-[ het oplossen van problemen van de Gedeelde Toegang ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[&#x200B; het oplossen van problemen van de Gedeelde Toegang &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

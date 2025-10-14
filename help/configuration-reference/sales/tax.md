@@ -16,20 +16,20 @@ ht-degree: 0%
 >
 >In de versies 2.4.0 tot en met 2.4.3 van Adobe Commerce en Magento Open Source is de extensie opgenomen die door de leverancier van hoekpunten is ontwikkeld en die wordt gebruikt voor integratie met de [!UICONTROL Vertex Cloud] . Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br><br>
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules en uitbreidingen van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [&#x200B; modules en uitbreidingen van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
 
 {{config}}
 
 ## [!UICONTROL Tax Classes]
 
-![ Belastingklassen ](./assets/tax-tax-classes.png)<!-- zoom -->
+![&#x200B; Belastingklassen &#x200B;](./assets/tax-tax-classes.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Belastingklassen ](../../stores-purchase/tax-class.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Belastingklassen &#x200B;](../../stores-purchase/tax-class.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Tax Class for Shipping] | Website | Hiermee wordt de belastingklasse aangegeven die wordt gebruikt voor verzending. De opties omvatten alle beschikbare productbelastingklassen: `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
-| [!UICONTROL Tax Class for Gift Options] | Website | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) identificeert de standaard belastingklasse die voor geschenkopties wordt gebruikt. |
+| [!UICONTROL Tax Class for Gift Options] | Website | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) identificeert de standaard belastingklasse die voor geschenkopties wordt gebruikt. |
 | [!UICONTROL Default Tax Class for Product] | Algemeen | Identificeert de standaardbelastingklasse die voor producten wordt gebruikt. |
 | [!UICONTROL Default Tax Class for Customer] | Algemeen | Identificeert de standaardbelastingklasse die voor klanten wordt gebruikt. |
 
@@ -37,9 +37,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ Belastingklass
 
 ## [!UICONTROL Calculation Settings]
 
-![ de Montages van de Berekening ](./assets/tax-calculation-settings.png)<!-- zoom -->
+![&#x200B; de Montages van de Berekening &#x200B;](./assets/tax-calculation-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Tax Calculation Method Based On] | Website | Bepaalt de methode die wordt gebruikt om de belasting voor een orde te berekenen. Opties:<br/>**`Unit Price`**- De belastingberekeningen zijn gebaseerd op de eenheidsprijs van elk product.<br/>**`Row Total`** - Belastingberekeningen zijn gebaseerd op het totaal van het regelitem. <br/>**`Total`**- Belastingberekeningen zijn gebaseerd op het totaal van de bestellingen.<br/><br/>_ **&#x200B; Nota:**&#x200B;_als een uitbreiding van de belastingberekening van de Marketplace, zoals _de Wolk van de Hoekpunt_ wordt geïnstalleerd, is de uitbreidingsdienst vermeld als optie. |
 | [!UICONTROL Tax Calculation Based On] | Website | Hiermee wordt bepaald of de berekening van de belasting is gebaseerd op het verzendadres, het factuuradres of de oorsprong van de verzending. Opties: `Shipping Address` / `Billing Address` / `Shipping Origin` |
@@ -54,9 +54,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ Belastingklass
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
-![ Berekening van de StandaardBelastingbestemming ](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
+![&#x200B; Berekening van de StandaardBelastingbestemming &#x200B;](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Default Country] | Winkelweergave | Bepaalt het land waarop de belastingberekeningen zijn gebaseerd. |
 | [!UICONTROL Default State] | Winkelweergave | Bepaalt de staat waarop de belastingberekeningen zijn gebaseerd. Een sterretje (*) kan als jokerteken fungeren om alle staten in het geselecteerde land aan te geven. |
@@ -66,11 +66,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Belastingklass
 
 ## [!UICONTROL Price Display Settings]
 
-![ de Montages van de Vertoning van de Prijs ](./assets/tax-price-display-settings.png)<!-- zoom -->
+![&#x200B; de Montages van de Vertoning van de Prijs &#x200B;](./assets/tax-price-display-settings.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ de montages van de prijsvertoning ](../../stores-purchase/display-settings.md#configure-price-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; de montages van de prijsvertoning &#x200B;](../../stores-purchase/display-settings.md#configure-price-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Product Prices in Catalog] | Winkelweergave | Hiermee bepaalt u of in de catalogus gepubliceerde productprijzen belasting bevatten of uitsluiten, of twee versies van de prijs weergeven: één met en de andere zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_**&#x200B;als u het gebied van de Prijzen van het Product van de Vertoning aan `Including Tax` plaatst, verschijnt de belasting slechts als er een belastingregel is die de belastingoorsprong aanpast of er een klantenadres is dat de belastingregel aanpast. Gebeurtenissen die een overeenkomst kunnen activeren, zijn onder andere het aanmaken van een klantenaccount, aanmelding of het gebruik van het taxatieprogramma BTW en verzendkosten in het winkelwagentje. |
 | [!UICONTROL Display Shipping Prices] | Winkelweergave | Hiermee bepaalt u of verzendprijzen belasting bevatten of uitsluiten, of twee versies van de verzendprijs weergeven: één met en de andere zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
@@ -79,11 +79,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ de montages va
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
-![ het Shopping de Montages van de Vertoning van de Kar ](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+![&#x200B; het Shopping de Montages van de Vertoning van de Kar &#x200B;](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ de montages van de het winkelwagentvertoning ](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; de montages van de het winkelwagentvertoning &#x200B;](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Prices] | Winkelweergave | Hiermee bepaalt u of winkelwagenprijzen belasting bevatten of uitsluiten of twee versies van de prijs weergeven: één met en één zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Subtotal|Store View] | Hiermee wordt bepaald of het subtotaal van het winkelwagentje belasting bevat of uitsluit, of twee versies van het subtotaal weergeeft; één met en de andere zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
@@ -96,11 +96,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ de montages va
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-![ Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten ](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+![&#x200B; Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten &#x200B;](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ orde, factuur, en de montages van de creditmemovertoning ](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; orde, factuur, en de montages van de creditmemovertoning &#x200B;](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Prices] | Winkelweergave | Hiermee wordt bepaald of de prijzen op verkoopdocumenten belastingen bevatten of uitsluiten, of dat in elk document twee versies van de prijs worden weergegeven: een met en een zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Subtotal] | Winkelweergave | Hiermee wordt bepaald of het subtotaal op verkoopdocumenten belasting bevat of uitsluit, of dat in elk document twee versies van het subtotaal worden weergegeven: één met en één zonder belasting. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
@@ -108,18 +108,18 @@ Voor meer informatie over het veranderen van deze montages, zie [ orde, factuur,
 | [!UICONTROL Additionally Show Order Total Without Tax] | Winkelweergave | Hiermee wordt bepaald of een extra regel met het totaal-generaal bedrag zonder belasting wordt weergegeven in de verkoopdocumenten. Opties: `Yes` / `No` |
 | [!UICONTROL Display Full Tax Summary] | Winkelweergave | Hiermee bepaalt u of het volledige belastingoverzicht wordt weergegeven in de verkoopdocumenten. Opties: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Winkelweergave | Hiermee bepaalt u het subtotaal in de verkoopdocumenten wanneer er geen belasting wordt geheven. Opties: `Yes` / `No` |
-| [!UICONTROL Display Gift Wrapping Prices] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als gift-verpakkende prijzen in subtotal inbegrepen zijn. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Printed Card Prices] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de gedrukte kaartprijzen in subtotal inbegrepen zijn. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Gift Wrapping Prices] | Winkelweergave | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als gift-verpakkende prijzen in subtotal inbegrepen zijn. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Printed Card Prices] | Winkelweergave | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de gedrukte kaartprijzen in subtotal inbegrepen zijn. Opties: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
-![ Vaste Belasting van het Product ](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
+![&#x200B; Vaste Belasting van het Product &#x200B;](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Vaste productbelasting (FPT) ](../../stores-purchase/fixed-product-tax.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Vaste productbelasting (FPT) &#x200B;](../../stores-purchase/fixed-product-tax.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | Website | Hiermee wordt bepaald of FPT beschikbaar is. Opties: `Yes` / `No` |
 | [!UICONTROL Display Prices in Product Lists] | Website | Bepaalt de weergave van FPT in productlijsten. Opties:<br/> **`Including FPT Only`** - Weergegeven prijzen omvatten vaste productbelastingen. De hoeveelheid FPT wordt niet afzonderlijk weergegeven.<br/>**`Including FPT and FPT description`**- Weergegeven prijzen omvatten vaste productbelastingen. De hoeveelheid FPT wordt afzonderlijk weergegeven.<br/>**`Excluding FPT. Including FPT description and final price`** - Weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt afzonderlijk weergegeven.<br/>**`Excluding FPT`**- Weergegeven prijzen omvatten geen vaste productbelastingen. De hoeveelheid FPT wordt niet afzonderlijk weergegeven. |

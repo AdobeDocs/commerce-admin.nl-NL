@@ -21,9 +21,9 @@ De visuele configuratie van de Merchandiser bepaalt de attributen die in het het
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Visual Merchandiser]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit.
 
-   ![ configuratie van de Catalogus - visuele handelaar ](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - visuele handelaar &#x200B;](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
 1. Selecteer in de lijst **[!UICONTROL Attributes for Category Rules]** elk kenmerk dat u beschikbaar wilt maken voor visuele merchandising.
 

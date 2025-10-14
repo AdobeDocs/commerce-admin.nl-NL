@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Company Roles and Permissions
 
-Roles for company users are set up with various levels of permission to access sales information and resources. __ De [ Ontkende Toegang ](../content-design/pages.md#access-denied) pagina verschijnt als de gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
+Roles for company users are set up with various levels of permission to access sales information and resources. __ De [&#x200B; Ontkende Toegang &#x200B;](../content-design/pages.md#access-denied) pagina verschijnt als de gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
 
 ![](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ __ You can create as many roles as necessary to match your company structure and
 
 1. Klik op **[!UICONTROL Add New Role]** .
 
-   ![ voeg Nieuwe Rol ](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Nieuwe Rol &#x200B;](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"} toe
 
 1. Hiermee wordt een beschrijvende waarde **[!UICONTROL Role Name]** ingevoerd.
 
@@ -101,7 +101,7 @@ Na het bepalen van de rollen die nodig zijn, wijst de bedrijfbeheerder een rol a
 
 1. Kies **[!UICONTROL Company Users]** in het linkerdeelvenster.
 
-   ![ Gebruikers van het Bedrijf ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Gebruikers van het Bedrijf &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Edit]**
 

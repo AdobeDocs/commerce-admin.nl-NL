@@ -16,9 +16,9 @@ Het kiezen van een producttype is een van de eerste dingen die u moet doen om ee
 
 >[!NOTE]
 >
->Voor een dieper begrip, verwijs naar catalogus [ navigatie ](navigation.md), hoe te opstelling [ categorieën ](categories.md) en [ attributen ](product-attributes.md), en de opties van catalogus [ URL ](catalog-urls.md) die beschikbaar zijn. Nadat u deze concepten begrijpt, moet de meest efficiënte manier om vele producten aan de catalogus toe te voegen [&#128279;](../systems/data-import.md) hen van een Csv- dossier invoeren.
+>Voor een dieper begrip, verwijs naar catalogus [&#x200B; navigatie &#x200B;](navigation.md), hoe te opstelling [&#x200B; categorieën &#x200B;](categories.md) en [&#x200B; attributen &#x200B;](product-attributes.md), en de opties van catalogus [&#x200B; URL &#x200B;](catalog-urls.md) die beschikbaar zijn. Nadat u deze concepten begrijpt, moet de meest efficiënte manier om vele producten aan de catalogus toe te voegen [&#128279;](../systems/data-import.md) hen van een Csv- dossier invoeren.
 
-![ pagina van het Product op de storefront ](./assets/storefront-product-page.png){width="700" zoomable="yes"}
+![&#x200B; pagina van het Product op de storefront &#x200B;](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 
 ## Productsoorten
 
@@ -34,13 +34,13 @@ Het kiezen van een producttype is een van de eerste dingen die u moet doen om ee
 
 **[Downloadbaar product](product-create-downloadable.md)** - een digitaal downloadbaar product bestaat uit één of meerdere dossiers die worden gedownload. De bestanden kunnen zich op uw server bevinden of als URL&#39;s naar een andere server worden verzonden.
 
-**[Cadeaukaart](product-gift-card-create.md)** - ([ Adobe Commerce ](../landing/home.md#product-editions) slechts) Er zijn drie soorten geschenkkaarten. _Virtuele_ geschenkkaarten worden verzonden door e-mail. _Fysieke_ geschenkkaarten worden verscheept aan de ontvanger. _Gecombineerde_ giftekaarten die een combinatie virtueel en fysiek zijn. Elke code heeft een unieke code, die wordt afgelost tijdens het afrekenen. Cadeaukaarten kunnen ook in een gegroepeerd product worden opgenomen.
+**[Cadeaukaart](product-gift-card-create.md)** - ([&#x200B; Adobe Commerce &#x200B;](../landing/home.md#product-editions) slechts) Er zijn drie soorten geschenkkaarten. _Virtuele_ geschenkkaarten worden verzonden door e-mail. _Fysieke_ geschenkkaarten worden verscheept aan de ontvanger. _Gecombineerde_ giftekaarten die een combinatie virtueel en fysiek zijn. Elke code heeft een unieke code, die wordt afgelost tijdens het afrekenen. Cadeaukaarten kunnen ook in een gegroepeerd product worden opgenomen.
 
 ## Productinstellingen
 
 De meest gebruikte productinstellingen en -kenmerken worden boven aan de pagina weergegeven, gevolgd door aangepaste kenmerken. Eventuele andere productinstellingen bevinden zich in uitbreidbare secties onder aan de pagina.
 
-![ Montages van het Product ](./assets/product-settings.png){width="600" zoomable="yes"}
+![&#x200B; Montages van het Product &#x200B;](./assets/product-settings.png){width="600" zoomable="yes"}
 
 | Instelling | Beschrijving |
 |--- |--- |
@@ -54,11 +54,11 @@ De meest gebruikte productinstellingen en -kenmerken worden boven aan de pagina 
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | Identificeert elke website waar het product beschikbaar is, volgens de opslaghiërarchie. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | Wordt gebruikt om een ander thema op de productpagina toe te passen, de kolomlay-out te wijzigen, te bepalen waar de productopties verschijnen en aangepaste XML-code in te voeren. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | Wordt gebruikt om een berichtoptie voor een cadeau tijdens het afrekenen op productniveau in of uit te schakelen. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met [ Adobe Commerce B2B ](../b2b/introduction.md) slechts) laat de capaciteit toe om gedeelde catalogi met douaneprijs voor verschillende bedrijven te handhaven. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met [&#x200B; Adobe Commerce B2B &#x200B;](../b2b/introduction.md) slechts) laat de capaciteit toe om gedeelde catalogi met douaneprijs voor verschillende bedrijven te handhaven. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | Hiermee definieert u de parameters voor het downloaden van producten. |
 
 {style="table-layout:auto"}
 
 ## Geavanceerde prijzen en inventarisatie
 
-Klik op de onderstaande koppeling **[!UICONTROL Price]** en **[!UICONTROL Quantity]** om toegang te krijgen tot de geavanceerde prijs- en voorraadinstellingen. Voor meer informatie, zie [ het Leiden het Prijsen ](pricing-advanced.md) en [ Inventory management ](../inventory-management/introduction.md).
+Klik op de onderstaande koppeling **[!UICONTROL Price]** en **[!UICONTROL Quantity]** om toegang te krijgen tot de geavanceerde prijs- en voorraadinstellingen. Voor meer informatie, zie [&#x200B; het Leiden het Prijsen &#x200B;](pricing-advanced.md) en [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md).

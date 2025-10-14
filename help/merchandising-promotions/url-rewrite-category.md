@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Als een categorie uit uw catalogus wordt verwijderd, kunt u een categorie gebruiken herschrijft om verbindingen aan URL van een andere categorie in uw opslag om te leiden. Denk in termen van _doel_ / _origineel verzoek_ of _opnieuw richt aan_ / _opnieuw richt van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
 
-Als [ automatische redirects ](url-redirect-product-automatic.md) voor uw opslag worden toegelaten, is er geen behoefte om tot rewrite te leiden wanneer een sleutel van categorie [ URL ](../catalog/catalog-urls.md) wordt veranderd.
+Als [&#x200B; automatische redirects &#x200B;](url-redirect-product-automatic.md) voor uw opslag worden toegelaten, is er geen behoefte om tot rewrite te leiden wanneer een sleutel van categorie [&#x200B; URL &#x200B;](../catalog/catalog-urls.md) wordt veranderd.
 
 {{url-rewrite-skip}}
 
@@ -49,7 +49,7 @@ Omleiden vanaf: `gear/bags.html`
 
 1. Stel **[!UICONTROL Create URL Rewrite]** in op `For category` en kies de doelcategorie in de boomstructuur die het doel van de omleiding is.
 
-   ![ URL herschrijft - kies categorie ](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
+   ![&#x200B; URL herschrijft - kies categorie &#x200B;](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
 
 1. In _URL herschrijft_ sectie, doe het volgende:
 
@@ -68,7 +68,7 @@ Omleiden vanaf: `gear/bags.html`
 
    - Voer ter referentie een korte beschrijving in van het herschrijven.
 
-   ![ voeg URL herschrijven voor categorie ](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg URL herschrijven voor categorie &#x200B;](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"} toe
 
 1. Lees het volgende voordat u de omleiding opslaat:
 

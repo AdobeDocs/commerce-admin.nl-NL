@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Wanneer Adobe Commerce of Magento Open Source is geïnstalleerd, wordt een hiërarchie gemaakt die een hoofdwebsite, winkel en winkelweergave bevat. Desgewenst kunt u aanvullende websites, winkels en winkelweergaven maken. Naast uw hoofdwebsite hebt u bijvoorbeeld mogelijk aanvullende websites met een ander domein. Binnen elke website kunt u meerdere winkels gebruiken en in elke winkel aparte weergaven voor de winkel. Veel installaties hebben één website en één winkel, maar met meerdere opslagweergaven om verschillende talen te ondersteunen.
 
-Voordat u begint, plant u de catalogushiërarchie van uw winkel van tevoren, omdat in de hele configuratie naar deze hiërarchie wordt verwezen. Elke opslag kan een afzonderlijke [ wortelcategorie ](../catalog/category-root.md) hebben, die het mogelijk maakt om een volledig verschillende reeks belangrijkste menuopties voor elke opslag te hebben.
+Voordat u begint, plant u de catalogushiërarchie van uw winkel van tevoren, omdat in de hele configuratie naar deze hiërarchie wordt verwezen. Elke opslag kan een afzonderlijke [&#x200B; wortelcategorie &#x200B;](../catalog/category-root.md) hebben, die het mogelijk maakt om een volledig verschillende reeks belangrijkste menuopties voor elke opslag te hebben.
 
-![ diagram van het Reikwijdte ](./assets/scope-multisite.svg){width="550"}
+![&#x200B; diagram van het Reikwijdte &#x200B;](./assets/scope-multisite.svg){width="550"}
 
 ## Opslag toevoegen
 
 Eén installatie van Adobe Commerce of Magento Open Source kan meerdere opslagruimten hebben die een beheerder delen. Winkels die zich onder dezelfde website bevinden, hebben hetzelfde IP-adres en hetzelfde domein, gebruiken hetzelfde beveiligingscertificaat en delen één afrekenproces.
 
-Belangrijk is dat de winkels dezelfde code gebruiken en een beheerder delen. Elke winkel kan een aparte catalogus hebben of de opslagruimten kunnen een catalogus delen. Elke opslag kan een afzonderlijke [ wortelcategorie ](../catalog/category-root.md) hebben, die het mogelijk maakt om een verschillend hoofdmenu voor elke opslag te hebben. Winkels kunnen ook verschillende branding, presentatie en inhoud hebben. Neem wat tijd om uw opslaghiërarchie met toekomstige groei in mening te plannen alvorens u begint, omdat het door de configuratie wordt gebruikt.
+Belangrijk is dat de winkels dezelfde code gebruiken en een beheerder delen. Elke winkel kan een aparte catalogus hebben of de opslagruimten kunnen een catalogus delen. Elke opslag kan een afzonderlijke [&#x200B; wortelcategorie &#x200B;](../catalog/category-root.md) hebben, die het mogelijk maakt om een verschillend hoofdmenu voor elke opslag te hebben. Winkels kunnen ook verschillende branding, presentatie en inhoud hebben. Neem wat tijd om uw opslaghiërarchie met toekomstige groei in mening te plannen alvorens u begint, omdat het door de configuratie wordt gebruikt.
 
-![ Reikwijdte - veelvoudige opslag ](./assets/scope-multistore.svg){width="550"}
+![&#x200B; Reikwijdte - veelvoudige opslag &#x200B;](./assets/scope-multistore.svg){width="550"}
 
 Hier zijn sommige voorbeelden van hoe URLs voor veelvoudige opslag kan worden gevormd:
 
@@ -55,9 +55,9 @@ De eerste stap bestaat uit het kiezen van de positie van de winkel. Moeten de op
 
    - **[!UICONTROL Code]** — Voer een code in kleine letters in om de winkel te identificeren. Bijvoorbeeld: `mainstore` .
 
-   - **[!UICONTROL Root Category]** — Reeks aan de [ wortelcategorie ](../catalog/category-root.md) die de categoriestructuur voor het belangrijkste menu van de nieuwe opslag bepaalt. Als u al een specifieke hoofdcategorie voor de winkel hebt gemaakt, selecteert u deze. Anders selecteert u `Default Category` . U kunt later terugkomen en het plaatsen bijwerken.
+   - **[!UICONTROL Root Category]** — Reeks aan de [&#x200B; wortelcategorie &#x200B;](../catalog/category-root.md) die de categoriestructuur voor het belangrijkste menu van de nieuwe opslag bepaalt. Als u al een specifieke hoofdcategorie voor de winkel hebt gemaakt, selecteert u deze. Anders selecteert u `Default Category` . U kunt later terugkomen en het plaatsen bijwerken.
 
-   ![ creeer Opslag - opslagopties ](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer Opslag - opslagopties &#x200B;](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Store]**.
 
@@ -79,7 +79,7 @@ De eerste stap bestaat uit het kiezen van de positie van de winkel. Moeten de op
 
    Als u de winkel opent in de bewerkingsmodus, ziet u dat deze nu een standaardweergave heeft.
 
-   ![ Nieuwe opslag met standaardmening ](./assets/new-store-default-view.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe opslag met standaardmening &#x200B;](./assets/new-store-default-view.png){width="600" zoomable="yes"}
 
 ### Stap 4: De URL van de winkel configureren
 
@@ -89,30 +89,30 @@ De eerste stap bestaat uit het kiezen van de positie van de winkel. Moeten de op
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op de weergave die u voor de nieuwe winkel hebt gemaakt.
 
-1. Wanneer ertoe aangezet om [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) omschakeling te bevestigen, klik **[!UICONTROL OK]**.
+1. Wanneer ertoe aangezet om [&#x200B; werkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) omschakeling te bevestigen, klik **[!UICONTROL OK]**.
 
-   ![ kies de opslagmening ](./assets/create-store-config-view.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de opslagmening &#x200B;](./assets/create-store-config-view.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs]** sectie uit en ga basis URL voor de opslag in.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs]** sectie uit en ga basis URL voor de opslag in.
 
    Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om de instelling te wijzigen.
 
-   ![ Algemene configuratie - Web basis URLs ](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene configuratie - Web basis URLs &#x200B;](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Secure Base URLs]** sectie uit en herhaal de vorige stap als u de opslag [ veilige URL ](store-urls.md) wilt vormen.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Secure Base URLs]** sectie uit en herhaal de vorige stap als u de opslag [&#x200B; veilige URL &#x200B;](store-urls.md) wilt vormen.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ### Stap 5: Configureer de server
 
-Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
+Om uw server te vormen om veelvoudige websites te steunen, zie [&#x200B; Veelvoudige websites of opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 Zie de volgende bronnen voor hulp bij het configureren van uw webserver:
 
-- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
-- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
+- [&#x200B; Opstelling veelvoudige websites met NGNX &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
+- [&#x200B; Opstelling veelvoudige websites met Apache &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
 
-Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).
+Voor Adobe Commerce op wolkeninfrastructuur, zie [&#x200B; Opstelling veelvoudige websites of opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).
 
 ## Websites toevoegen
 
@@ -120,7 +120,7 @@ U kunt meerdere websites instellen vanuit één Adobe Commerce- of Magento Open 
 
 Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moeten worden geconfigureerd via de beheerfunctie en ook via de opdrachtregel van de server. De Gids van de Configuratie van Commerce [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) verstrekt gedetailleerde instructies voor het vormen van het servermilieu.
 
-![ Reikwijdte - websites ](./assets/scope-multisite.svg){width="550"}
+![&#x200B; Reikwijdte - websites &#x200B;](./assets/scope-multisite.svg){width="550"}
 
 ### Stap 1: Een website maken
 
@@ -130,7 +130,7 @@ Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moet
 
 1. Stel de opties voor **[!UICONTROL Web Site Information]** in:
 
-   ![ creeer website - opties ](./assets/create-website-info.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer website - opties &#x200B;](./assets/create-website-info.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Name]** — Voer het domein van de nieuwe website in. Bijvoorbeeld `domain.com` .
 
@@ -142,21 +142,21 @@ Installaties van Adobe Commerce of Magento Open Source op meerdere locaties moet
 
 1. Klik op **[!UICONTROL Save Web Site]**.
 
-1. Opstelling elk [ opslag ](#add-stores) en [ opslagmening ](store-views.md) die voor de nieuwe website nodig is.
+1. Opstelling elk [&#x200B; opslag &#x200B;](#add-stores) en [&#x200B; opslagmening &#x200B;](store-views.md) die voor de nieuwe website nodig is.
 
    Vervolgens kunt u de website openen in de bewerkingsmodus om de standaardopslag in te stellen.
 
 ### Stap 2: Vorm de opslag URL
 
-Om de [ opslag URLs ](store-urls.md) te vormen, volg de instructies.
+Om de [&#x200B; opslag URLs &#x200B;](store-urls.md) te vormen, volg de instructies.
 
 ### Stap 3: Configureer de server
 
-Om uw server te vormen om veelvoudige websites te steunen, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
+Om uw server te vormen om veelvoudige websites te steunen, zie [&#x200B; Veelvoudige websites of opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
 Raadpleeg de volgende zelfstudies voor hulp bij het configureren van uw webserver:
 
-- [ Opstelling veelvoudige websites met NGNX ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
-- [ Opstelling veelvoudige websites met Apache ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
+- [&#x200B; Opstelling veelvoudige websites met NGNX &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=nl-NL)
+- [&#x200B; Opstelling veelvoudige websites met Apache &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=nl-NL)
 
-Voor Adobe Commerce op wolkeninfrastructuur, zie [ Opstelling veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).
+Voor Adobe Commerce op wolkeninfrastructuur, zie [&#x200B; Opstelling veelvoudige websites of opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=nl-NL).

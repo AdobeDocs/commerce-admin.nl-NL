@@ -13,7 +13,7 @@ ht-degree: 0%
 
 In het linkerdeelvenster van de pagina _[!UICONTROL Customer Information]_&#x200B;vindt u informatie over de activiteiten van klanten, adressen, orderstatistieken, recente bestellingen, winkelwageninhoud, productrelevaluaties en abonnementen op nieuwsbrieven.
 
-![ Profiel van de Klant ](assets/cust-profile.png){width="700" zoomable="yes"}
+![&#x200B; Profiel van de Klant &#x200B;](assets/cust-profile.png){width="700" zoomable="yes"}
 
 ## Een klantenaccount bewerken
 
@@ -27,7 +27,7 @@ Methode 1: **_Snel geeft_** uit
    >
    >De waarde van elke waarde die kan worden bijgewerkt, wordt in een tekstvak weergegeven. Alleen enkele waarden van de geselecteerde klantrecord kunnen worden bewerkt via het raster.
 
-   ![ Snel geeft ](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"} uit
+   ![&#x200B; Snel geeft &#x200B;](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"} uit
 
 1. Werk indien nodig een van de volgende waarden bij:
 
@@ -48,7 +48,7 @@ Methode 2: **_Volledig geeft_** uit
 
    >[!INFO]
    >
-   >Meer leren, zie [ een klantenprofiel ](../customers/update-account.md) bijwerken.
+   >Meer leren, zie [&#x200B; een klantenprofiel &#x200B;](../customers/update-account.md) bijwerken.
 
 1. Klik op **[!UICONTROL Save Customer]** als de bewerking is voltooid.
 
@@ -64,35 +64,35 @@ Het _lusje van de Mening van de Klant 0&rbrace; &lbrace;maakt een lijst van info
 
 ### [!UICONTROL Account Information]
 
-Het [ lusje van de Informatie van de Rekening ](../customers/account-dashboard-account-information.md) verstrekt gedetailleerde informatie over de klant, waar een gebruiker Admin persoonlijke informatie, e-mail, verre het winkelen hulp, geboortedatum kan uitgeven, en klant aan website of bedrijf vastmaken.
+Het [&#x200B; lusje van de Informatie van de Rekening &#x200B;](../customers/account-dashboard-account-information.md) verstrekt gedetailleerde informatie over de klant, waar een gebruiker Admin persoonlijke informatie, e-mail, verre het winkelen hulp, geboortedatum kan uitgeven, en klant aan website of bedrijf vastmaken.
 
 ### [!UICONTROL Addresses]
 
-Het [ lusje van Adressen ](../customers/account-dashboard-address-book.md) bevat het standaard het factureren van de klant en het verschepen adressen, en om het even welke extra adressen die zij vaak gebruiken.
+Het [&#x200B; lusje van Adressen &#x200B;](../customers/account-dashboard-address-book.md) bevat het standaard het factureren van de klant en het verschepen adressen, en om het even welke extra adressen die zij vaak gebruiken.
 
 ### [!UICONTROL Orders]
 
-Het [ bevel ](../stores-purchase/orders.md) net bevat een lijst van alle huidige klantenorden, kan de beheerder hun vooruitgang volgen.
+Het [&#x200B; bevel &#x200B;](../stores-purchase/orders.md) net bevat een lijst van alle huidige klantenorden, kan de beheerder hun vooruitgang volgen.
 
 ### [!UICONTROL Returns]
 
 {{ee-feature}}
 
-Het [ lusje van Keert ](../stores-purchase/returns.md) lijsten de huidige teruggekeerde klantenverzoeken terug.
+Het [&#x200B; lusje van Keert &#x200B;](../stores-purchase/returns.md) lijsten de huidige teruggekeerde klantenverzoeken terug.
 
 ### [!UICONTROL Shopping cart]
 
-Het [ het winkelen karretje ](../stores-purchase/cart.md) lusje toont producten die momenteel in de kar zijn, maar om één of andere reden, werd de aankoop niet voltooid.
+Het [&#x200B; het winkelen karretje &#x200B;](../stores-purchase/cart.md) lusje toont producten die momenteel in de kar zijn, maar om één of andere reden, werd de aankoop niet voltooid.
 
 ### [!UICONTROL Wish List]
 
-A [ wenst lijst ](../stores-purchase/wishlists.md) toont een lijst van producten die een klant naar het karretje kan later overbrengen.
+A [&#x200B; wenst lijst &#x200B;](../stores-purchase/wishlists.md) toont een lijst van producten die een klant naar het karretje kan later overbrengen.
 
 ### [!UICONTROL Gift Registry]
 
 {{ee-feature}}
 
-De [ sectie van de Registratie van het Cadeautje ](../merchandising-promotions/gift-registry-storefront.md) maakt een lijst van de huidige het cadeauregisters van de klant en de bijbehorende gebeurtenis.
+De [&#x200B; sectie van de Registratie van het Cadeautje &#x200B;](../merchandising-promotions/gift-registry-storefront.md) maakt een lijst van de huidige het cadeauregisters van de klant en de bijbehorende gebeurtenis.
 
 
 ### [!UICONTROL Store Credit]
@@ -103,21 +103,21 @@ Het [&#128279;](../customers/store-credit.md) lusje van de Krediet van de Opslag
 
 ### [!UICONTROL Newsletter]
 
-Het [ Bulletin ](../merchandising-promotions/newsletters.md) lusje toont alle e-mails die naar de huidige klant worden verzonden.
+Het [&#x200B; Bulletin &#x200B;](../merchandising-promotions/newsletters.md) lusje toont alle e-mails die naar de huidige klant worden verzonden.
 
 ### [!UICONTROL Billing Agreements]
 
-Het [ lusje van Factureringsovereenkomsten ](../stores-purchase/paypal-billing-agreements.md) maakt een lijst van alle het factureringsovereenkomsten van PayPal tussen de opslag en de klant.
+Het [&#x200B; lusje van Factureringsovereenkomsten &#x200B;](../stores-purchase/paypal-billing-agreements.md) maakt een lijst van alle het factureringsovereenkomsten van PayPal tussen de opslag en de klant.
 
 ### [!UICONTROL Product Reviews]
 
-Het [ lusje van de Revisies van het Product ](../catalog/settings-advanced-product-reviews.md) toont alle overzichten die door deze klant worden voorgelegd.
+Het [&#x200B; lusje van de Revisies van het Product &#x200B;](../catalog/settings-advanced-product-reviews.md) toont alle overzichten die door deze klant worden voorgelegd.
 
 ### [!UICONTROL Reward Points]
 
 {{ee-feature}}
 
-De [ Reward Punten ](../merchandising-promotions/rewards-loyalty.md) sectie toont het huidige saldo van beloningspunten van de klant. Een Admin-gebruiker kan deze waarde beheren.
+De [&#x200B; Reward Punten &#x200B;](../merchandising-promotions/rewards-loyalty.md) sectie toont het huidige saldo van beloningspunten van de klant. Een Admin-gebruiker kan deze waarde beheren.
 
 ## Knopbalk
 
@@ -127,7 +127,7 @@ De [ Reward Punten ](../merchandising-promotions/rewards-loyalty.md) sectie toon
 | **[!UICONTROL Login as Customer]** | Staat de capaciteit voor de handelaar toe om zich als klant aan te melden. |
 | **[!UICONTROL Delete Customer]** | Hiermee verwijdert u de klantenaccount. |
 | **[!UICONTROL Reset]** | Hiermee herstelt u eventuele niet-opgeslagen wijzigingen in het klantformulier naar de vorige waarden. |
-| **[!UICONTROL Create Order]** | [ creeert een orde ](../stores-purchase/customer-account-create-order.md) die met de klantenrekening wordt geassocieerd. |
+| **[!UICONTROL Create Order]** | [&#x200B; creeert een orde &#x200B;](../stores-purchase/customer-account-create-order.md) die met de klantenrekening wordt geassocieerd. |
 | **[!UICONTROL Reset Password]** | Hiermee herstelt u het wachtwoord van de klant. |
 | **[!UICONTROL Force Sign-In]** | Wist de tokens verbonden aan het wachtwoord van de klant en verleent de beheerder toegang tot de rekening. |
 | **[!UICONTROL Manage Shopping Cart]** | Biedt toegang tot het winkelwagentje van een klant. |

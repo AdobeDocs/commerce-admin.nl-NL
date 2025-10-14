@@ -19,9 +19,9 @@ Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {
 
 ## [!UICONTROL Sandbox API Keys]
 
-![ Sandbox API Sleutel ](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
+![&#x200B; Sandbox API Sleutel &#x200B;](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Sandbox public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Sandbox private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
@@ -30,9 +30,9 @@ Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {
 
 ## [!UICONTROL Production Keys]
 
-![ de Sleutel van productie API ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![&#x200B; de Sleutel van productie API &#x200B;](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Production public API key] | Algemeen | API-sleutel die de auteur en zijn eventuele rechten identificeert. |
 | [!UICONTROL Production private API key] | Algemeen | Een persoonlijke sleutel die aan de API-sleutel is gekoppeld. |
@@ -41,18 +41,18 @@ Leren hoe te om uw opslag aan de diensten van Adobe Commerce te verbinden, zie {
 
 ## [!UICONTROL SaaS Identifier]
 
-![ identiteitskaart SaaS ](./assets/saas-identifier.png)<!-- zoom -->
+![&#x200B; identiteitskaart SaaS &#x200B;](./assets/saas-identifier.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Project] | Algemeen | Naam van het project SaaS dat elk van uw gegevensruimten SaaS groepeert. A _creeer de knoop van het Project_ verschijnt als geen projecten SaaS bestaan. |
-| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw [ vergunning van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL) af:<br /> Adobe Commerce - Één ruimte van productiegegevens; twee het testen van gegevensruimten;<br /> Magento Open Source - Één ruimte van productiegegevens; geen het testen van gegevensruimten |
+| [!UICONTROL Data Space] | Algemeen | Maakt een lijst van de gegevensruimten SaaS in het gespecificeerde project SaaS. Het aantal SaaS gegevensruimten hangt van uw [&#x200B; vergunning van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL) af:<br /> Adobe Commerce - Één ruimte van productiegegevens; twee het testen van gegevensruimten;<br /> Magento Open Source - Één ruimte van productiegegevens; geen het testen van gegevensruimten |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![ IMS Organisatie ](./assets/ims-organization.png)<!-- zoom -->
+![&#x200B; IMS Organisatie &#x200B;](./assets/ims-organization.png)<!-- zoom -->
 
 | Veld | Beschrijving |
 |--- |--- |

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Vooraf gedefinieerde variabelen gebruiken
 
-[ vooraf bepaalde ](variables-predefined.md) variabelen maken het gemakkelijk om [ e-mail ](email-templates.md) en [ bulletin ](../merchandising-promotions/newsletters.md) malplaatjes, en andere soorten inhoud te personaliseren. De lijst van toegestane [ vooraf bepaalde ](variables-predefined.md) variabelen verschijnt wanneer u de knoop van de Variabele van het Tussenvoegsel klikt. Zoals in de volgende afbeelding wordt getoond, wordt de lijst met beschikbare variabelen voor een specifieke e-mailsjabloon bepaald door de gegevens die aan de sjabloon zijn gekoppeld. Zie de [ Veranderlijke Verwijzing ](variables-reference.md) voor een lijst van vaak gebruikte e-mailmalplaatjes en hun bijbehorende variabelen.
+[&#x200B; vooraf bepaalde &#x200B;](variables-predefined.md) variabelen maken het gemakkelijk om [&#x200B; e-mail &#x200B;](email-templates.md) en [&#x200B; bulletin &#x200B;](../merchandising-promotions/newsletters.md) malplaatjes, en andere soorten inhoud te personaliseren. De lijst van toegestane [&#x200B; vooraf bepaalde &#x200B;](variables-predefined.md) variabelen verschijnt wanneer u de knoop van de Variabele van het Tussenvoegsel klikt. Zoals in de volgende afbeelding wordt getoond, wordt de lijst met beschikbare variabelen voor een specifieke e-mailsjabloon bepaald door de gegevens die aan de sjabloon zijn gekoppeld. Zie de [&#x200B; Veranderlijke Verwijzing &#x200B;](variables-reference.md) voor een lijst van vaak gebruikte e-mailmalplaatjes en hun bijbehorende variabelen.
 
-![ vooraf bepaalde Variabelen voor E-mailMalplaatje ](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
+![&#x200B; vooraf bepaalde Variabelen voor E-mailMalplaatje &#x200B;](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 
 ## Een variabele toevoegen aan een e-mailsjabloon
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    - Als u de variabele aan een bestaande sjabloon wilt toevoegen, klikt u in de lijst op de sjabloon die u in de bewerkingsmodus wilt openen.
 
-   - Als u de variabele in een nieuwe sjabloon wilt gebruiken, klikt u op **[!UICONTROL Add New Template]** en past u de standaardsjablooncode aan. Zie [ Malplaatjes van het Bericht ](email-template-custom.md#message-templates).
+   - Als u de variabele in een nieuwe sjabloon wilt gebruiken, klikt u op **[!UICONTROL Add New Template]** en past u de standaardsjablooncode aan. Zie [&#x200B; Malplaatjes van het Bericht &#x200B;](email-template-custom.md#message-templates).
 
 1. Kies onder _[!UICONTROL Load default template]_&#x200B;de **[!UICONTROL Template]**&#x200B;die u wilt aanpassen.
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 
    - **[!UICONTROL Template Content]** - Deze tekst wordt weergegeven in de volledige inhoud van de verzonden e-mail.
 
-   ![ Inhoud van het Malplaatje E-mail ](./assets/email-template-content.png){width="600" zoomable="yes"}
+   ![&#x200B; Inhoud van het Malplaatje E-mail &#x200B;](./assets/email-template-content.png){width="600" zoomable="yes"}
 
 1. Voer een **[!UICONTROL Template Name]** in.
 
-1. Voor een lijst van [ vooraf bepaalde ](variables-predefined.md) variabelen die met dit e-mailmalplaatje kunnen worden gebruikt, klik **[!UICONTROL Insert Variable]**.
+1. Voor een lijst van [&#x200B; vooraf bepaalde &#x200B;](variables-predefined.md) variabelen die met dit e-mailmalplaatje kunnen worden gebruikt, klik **[!UICONTROL Insert Variable]**.
 
    Bepaal welke variabele u in het malplaatje wilt opnemen. Dan, klik _dicht_ (X) in de hoger-juiste hoek. (U keert later op dit terug.)
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    Wanneer de voorvertoning op een nieuw tabblad wordt geopend, bepaalt u waar u de variabele ten opzichte van de andere inhoud wilt plaatsen. Ga vervolgens terug naar het oorspronkelijke tabblad om door te gaan.
 
-   ![ Malplaatje van de Voorproef ](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
+   ![&#x200B; Malplaatje van de Voorproef &#x200B;](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
 
 1. Plaats de invoegpositie in het vak **[!UICONTROL Template Content]** op de plaats waar u de variabele wilt invoegen en klik op **[!UICONTROL Insert Variable...]** .
 

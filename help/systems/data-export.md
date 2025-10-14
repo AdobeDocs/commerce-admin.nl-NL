@@ -22,15 +22,15 @@ Het exporteren van gegevens is een asynchrone bewerking die op de achtergrond wo
 
 Exportfilters worden gebruikt om de gegevens op te geven die u in het exportbestand wilt opnemen op basis van de kenmerkwaarde. Daarnaast kunt u opgeven welke kenmerkgegevens u wilt opnemen in of uitsluiten van de exportbewerking.
 
-![ de uitvoercriteria van Gegevens ](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
+![&#x200B; de uitvoercriteria van Gegevens &#x200B;](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### Exportfilters
 
 U kunt filters gebruiken om te bepalen welke SKUs in het de uitvoerdossier inbegrepen zijn. Als u bijvoorbeeld een waarde invoert in het filter Land van vervaardiging, bevat het geëxporteerde CSV-bestand alleen producten die in dat land zijn gemaakt.
 
-Het type filter komt overeen met het gegevenstype. Voor datumgebieden, kunt u de datum van het pictogram van de Kalender ![ kiezen Kalender ](../assets/icon-calendar.png). Zie {de Types van Invoer van 0} Attributen [&#128279;](../catalog/attributes-input-types.md) voor meer informatie.
+Het type filter komt overeen met het gegevenstype. Voor datumgebieden, kunt u de datum van het pictogram van de Kalender ![&#x200B; kiezen Kalender &#x200B;](../assets/icon-calendar.png). Zie {de Types van Invoer van 0} Attributen [&#128279;](../catalog/attributes-input-types.md) voor meer informatie.
 
-Het formaat van de datum wordt bepaald door de [ scène ](../getting-started/store-details.md#locale-options).
+Het formaat van de datum wordt bepaald door de [&#x200B; scène &#x200B;](../getting-started/store-details.md#locale-options).
 
 Als u alleen records met een specifieke waarde wilt opnemen, zoals een SKU, voert u de waarde in het veld Filter in. Sommige velden, zoals Prijs, Dikte en Product instellen als Nieuw, hebben een waardebereik van/tot.
 
@@ -40,10 +40,10 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 | Uitsluiten | Filter | Resultaat |
 |--- |--- |--- |
-| ![ Cleared checkbox ](../assets/checkbox-clear.png) | Nee | Het geëxporteerde bestand bevat elk kenmerk voor alle bestaande records. |
-| ![ Cleared checkbox ](../assets/checkbox-clear.png) | Ja | Het exportbestand bevat elk kenmerk met alleen de records die door het filter zijn toegestaan. |
-| ![ Geselecteerde checkbox ](../assets/checkbox-selected.png) | Nee | Het exportbestand bevat niet de kolom voor het uitgesloten kenmerk, maar wel alle bestaande records. |
-| ![ Geselecteerde checkbox ](../assets/checkbox-selected.png) | Ja | Het exportbestand bevat niet de kolom voor het uitgesloten kenmerk en bevat alleen de records die door het filter zijn toegestaan. |
+| ![&#x200B; Cleared checkbox &#x200B;](../assets/checkbox-clear.png) | Nee | Het geëxporteerde bestand bevat elk kenmerk voor alle bestaande records. |
+| ![&#x200B; Cleared checkbox &#x200B;](../assets/checkbox-clear.png) | Ja | Het exportbestand bevat elk kenmerk met alleen de records die door het filter zijn toegestaan. |
+| ![&#x200B; Geselecteerde checkbox &#x200B;](../assets/checkbox-selected.png) | Nee | Het exportbestand bevat niet de kolom voor het uitgesloten kenmerk, maar wel alle bestaande records. |
+| ![&#x200B; Geselecteerde checkbox &#x200B;](../assets/checkbox-selected.png) | Ja | Het exportbestand bevat niet de kolom voor het uitgesloten kenmerk en bevat alleen de records die door het filter zijn toegestaan. |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![ de uitvoermontages van Gegevens ](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de uitvoermontages van Gegevens &#x200B;](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
 1. Accepteer de standaardwaarde **[!UICONTROL Export File Format]** van CSV.
 
@@ -68,9 +68,9 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 1. Wijzig zo nodig de weergave van de entiteitskenmerken.
 
-   Standaard worden in de sectie Entiteitskenmerken alle beschikbare kenmerken in alfabetische volgorde weergegeven. U kunt de standaard [ lijstcontroles ](../getting-started/admin-grid-controls.md) gebruiken om naar specifieke attributen te zoeken en de lijst te sorteren. Met de besturingselementen Filter Zoeken en Herstellen bepaalt u de weergave van de lijst, maar dit heeft geen invloed op de selectie van de kenmerken die moeten worden opgenomen in het exportbestand.
+   Standaard worden in de sectie Entiteitskenmerken alle beschikbare kenmerken in alfabetische volgorde weergegeven. U kunt de standaard [&#x200B; lijstcontroles &#x200B;](../getting-started/admin-grid-controls.md) gebruiken om naar specifieke attributen te zoeken en de lijst te sorteren. Met de besturingselementen Filter Zoeken en Herstellen bepaalt u de weergave van de lijst, maar dit heeft geen invloed op de selectie van de kenmerken die moeten worden opgenomen in het exportbestand.
 
-   ![ de uitvoer gefilterde entiteitattributen van Gegevens ](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; de uitvoer gefilterde entiteitattributen van Gegevens &#x200B;](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de geëxporteerde gegevens te filteren op basis van de kenmerkwaarde:
 
@@ -80,7 +80,7 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 1. Schuif omlaag en klik op **[!UICONTROL Continue]** in de rechterbenedenhoek van de pagina.
 
-   Na voltooiing van de taak wordt het bestand verwerkt via een wachtrij met berichten (zorg ervoor dat de uitsnijdtaak wordt uitgevoerd). Het geëxporteerde bestand wordt opgeslagen in de `var/export/ folder` . Voor meer informatie over de berichtrij, zie [ berichtrijen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_.
+   Na voltooiing van de taak wordt het bestand verwerkt via een wachtrij met berichten (zorg ervoor dat de uitsnijdtaak wordt uitgevoerd). Het geëxporteerde bestand wordt opgeslagen in de `var/export/ folder` . Voor meer informatie over de berichtrij, zie [&#x200B; berichtrijen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=nl-NL) beheren in de _Gids van de Configuratie_.
 
    U kunt het geëxporteerde CSV-bestand opslaan of openen als spreadsheet, de gegevens vervolgens bewerken en weer importeren in uw winkel.
 
@@ -92,4 +92,4 @@ Het selectievakje in de eerste kolom wordt gebruikt om kenmerken uit te sluiten 
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met het exporteren van gegevens:
 
-- [ Uitgevoerde producten.csv- dossier verschijnt niet ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=nl-NL)
+- [&#x200B; Uitgevoerde producten.csv- dossier verschijnt niet &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=nl-NL)

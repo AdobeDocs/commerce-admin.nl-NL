@@ -26,7 +26,7 @@ Via het raster Systeemrapporten kunt u bestaande rapporten weergeven en download
 
 Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 
-![ Admin - systeemrapporten ](./assets/reports.png){width="600" zoomable="yes"}
+![&#x200B; Admin - systeemrapporten &#x200B;](./assets/reports.png){width="600" zoomable="yes"}
 
 ### Een rapport genereren
 
@@ -34,7 +34,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UI
 
 1. Selecteer in de lijst **[!UICONTROL Groups]** elke set gegevens die u in het rapport wilt opnemen. Standaard zijn alle groepen geselecteerd.
 
-   ![ het rapport van het Systeem - uitgezochte groepen ](./assets/report-create.png){width="600" zoomable="yes"}
+   ![&#x200B; het rapport van het Systeem - uitgezochte groepen &#x200B;](./assets/report-create.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Create]** .
 
@@ -65,9 +65,9 @@ Selecteer in de kolom **[!UICONTROL Action]** van het raster een van de volgende
 
 1. Selecteer **[!UICONTROL View]** in de kolom _[!UICONTROL Actions]_&#x200B;voor het rapport dat u nodig hebt.
 
-1. In het linkerpaneel, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) elke sectie van het rapport uit om het detail te bekijken.
+1. In het linkerpaneel, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) elke sectie van het rapport uit om het detail te bekijken.
 
-   ![ Algemene informatie van het systeemrapport ](./assets/report-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene informatie van het systeemrapport &#x200B;](./assets/report-information.png){width="600" zoomable="yes"}
 
 ### Beschikbare systeemrapporten
 

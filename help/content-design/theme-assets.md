@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Themaelementen
 
-De _statische dossiers_ zijn de inzameling van activa, zoals CSS, doopvonten, beelden, en JavaScript die door een thema wordt gebruikt. De plaats van statische dossiers wordt gespecificeerd in de [ Basis URL ](../stores-purchase/store-urls.md) configuratie. U kunt een digitale handtekening toevoegen aan de URL van elk statisch bestand, zodat browsers kunnen detecteren wanneer een nieuwere versie beschikbaar is. De nieuwere versie van het bestand wordt gebruikt als de handtekening afwijkt van de versie die in de cache van de browser is opgeslagen.
+De _statische dossiers_ zijn de inzameling van activa, zoals CSS, doopvonten, beelden, en JavaScript die door een thema wordt gebruikt. De plaats van statische dossiers wordt gespecificeerd in de [&#x200B; Basis URL &#x200B;](../stores-purchase/store-urls.md) configuratie. U kunt een digitale handtekening toevoegen aan de URL van elk statisch bestand, zodat browsers kunnen detecteren wanneer een nieuwere versie beschikbaar is. De nieuwere versie van het bestand wordt gebruikt als de handtekening afwijkt van de versie die in de cache van de browser is opgeslagen.
 
 Voor een standaardinstallatie worden de elementen die aan een thema zijn gekoppeld, ingedeeld in de map `web` op de volgende locatie onder de [!DNL Commerce] -hoofdmap.
 
@@ -25,9 +25,9 @@ Voor een standaardinstallatie worden de elementen die aan een thema zijn gekoppe
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Developer]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Static Files Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Static Files Settings]** sectie uit.
 
-   ![ de Statische Montages van Dossiers ](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; de Statische Montages van Dossiers &#x200B;](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
 1. Stel **[!UICONTROL Sign Static Files]** in op `Yes` .
 
@@ -48,17 +48,17 @@ Als onderdeel van een poging om uw site te optimaliseren en de laadtijd van de p
 
 >[!NOTE]
 >
->CSS de dossiers kunnen van het _Admin_ paneel slechts worden samengevoegd wanneer het werken op [ ontwikkelaarwijze ](../systems/developer-tools.md#operation-modes).
+>CSS de dossiers kunnen van het _Admin_ paneel slechts worden samengevoegd wanneer het werken op [&#x200B; ontwikkelaarwijze &#x200B;](../systems/developer-tools.md#operation-modes).
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. In het linkerpaneel, **[!UICONTROL Advanced]** en kies **[!UICONTROL Developer]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL CSS Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL CSS Settings]** sectie uit.
 
-   ![ CSS Montages ](./assets/developer-css-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; CSS Montages &#x200B;](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
-   Voor gedetailleerde beschrijvingen van deze configuratieopties, zie [ CSS Montages ](../configuration-reference/advanced/developer.md#css-settings) in de _Verwijzing van de Configuratie_.
+   Voor gedetailleerde beschrijvingen van deze configuratieopties, zie [&#x200B; CSS Montages &#x200B;](../configuration-reference/advanced/developer.md#css-settings) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Merge CSS Files]** in op `Yes` .
 
@@ -70,17 +70,17 @@ Meerdere JavaScript-bestanden kunnen worden samengevoegd tot één, versmald bes
 
 >[!NOTE]
 >
->De dossiers van JavaScript kunnen van het _Admin_ paneel slechts worden samengevoegd wanneer het werken op [ Wijze van de Ontwikkelaar ](../systems/developer-tools.md#operation-modes).
+>De dossiers van JavaScript kunnen van het _Admin_ paneel slechts worden samengevoegd wanneer het werken op [&#x200B; Wijze van de Ontwikkelaar &#x200B;](../systems/developer-tools.md#operation-modes).
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. In het linkerpaneel, **[!UICONTROL Advanced]** en kies **[!UICONTROL Developer]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL JavaScript Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL JavaScript Settings]** sectie uit.
 
-   ![ de Montages van JavaScript ](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van JavaScript &#x200B;](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   Voor gedetailleerde beschrijvingen van deze configuratieopties, zie [ de Montages van JavaScript ](../configuration-reference/advanced/developer.md#javascript-settings) in de _Verwijzing van de Configuratie_.
+   Voor gedetailleerde beschrijvingen van deze configuratieopties, zie [&#x200B; de Montages van JavaScript &#x200B;](../configuration-reference/advanced/developer.md#javascript-settings) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Merge JavaScript Files]** in op `Yes` .
 

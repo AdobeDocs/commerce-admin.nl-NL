@@ -39,17 +39,17 @@ Aanbiedingen kunnen worden geïnitieerd door de koper of de verkoper.
 
 In dit diagram worden de prijsstatussen voor kopers en verkopers (Admin) in de verschillende stappen weergegeven wanneer u een prijsopgave start.
 
-![ citeert het Werkschema van de Status van Aanhalingstekens ](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![&#x200B; citeert het Werkschema van de Status van Aanhalingstekens &#x200B;](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
 
 **Stap 1: De creatie van het citaat (Nieuw)**
 
-- **de verzoeken van de Koper citeren** - de koper [ vraagt een citaat ](quote-request.md) van het winkelwagentje. Het verzoek verschijnt in de _Mijn Citaten_ lijst in het rekeningsdashboard van de koper en e-mailbericht wordt verzonden naar de verkoopvertegenwoordiger die aan de bedrijfrekening wordt toegewezen. In Admin, verschijnt het verzoek in het _Citaten_ net, met een status van `New`. Een prijsaanvraag kan door de koper worden gewijzigd totdat de verkoper het heeft geopend.
+- **de verzoeken van de Koper citeren** - de koper [&#x200B; vraagt een citaat &#x200B;](quote-request.md) van het winkelwagentje. Het verzoek verschijnt in de _Mijn Citaten_ lijst in het rekeningsdashboard van de koper en e-mailbericht wordt verzonden naar de verkoopvertegenwoordiger die aan de bedrijfrekening wordt toegewezen. In Admin, verschijnt het verzoek in het _Citaten_ net, met een status van `New`. Een prijsaanvraag kan door de koper worden gewijzigd totdat de verkoper het heeft geopend.
 
-  ![ Citaten ](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
+  ![&#x200B; Citaten &#x200B;](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
-- **de vertegenwoordiger van de Verkoop** — Een Vertegenwoordiger kan [ een citaat ](sales-rep-initiates-quote.md) van Admin namens een specifieke bedrijfkoper tot stand brengen. De verkoper moet de prijsopgave bijwerken om producten en andere informatie zoals kortingen en opmerkingen aan de koper toe te voegen. De Vertegenwoordiging van de Verkoop kan het citaat als `draft` bewaren of het verzenden naar de koper om de onderhandeling te beginnen. In de conceptversie is de prijsopgave alleen zichtbaar voor de verkoper. Nadat het aanhalingsteken is verzonden, is de status `Submitted` . Deze kan pas door de verkoper worden gewijzigd nadat de koper de transactie heeft teruggestuurd.
+- **de vertegenwoordiger van de Verkoop** — Een Vertegenwoordiger kan [&#x200B; een citaat &#x200B;](sales-rep-initiates-quote.md) van Admin namens een specifieke bedrijfkoper tot stand brengen. De verkoper moet de prijsopgave bijwerken om producten en andere informatie zoals kortingen en opmerkingen aan de koper toe te voegen. De Vertegenwoordiging van de Verkoop kan het citaat als `draft` bewaren of het verzenden naar de koper om de onderhandeling te beginnen. In de conceptversie is de prijsopgave alleen zichtbaar voor de verkoper. Nadat het aanhalingsteken is verzonden, is de status `Submitted` . Deze kan pas door de verkoper worden gewijzigd nadat de koper de transactie heeft teruggestuurd.
 
-  ![ Verkoper die een koperscitaat van het net van Citaten in Admin in werking stelt ](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+  ![&#x200B; Verkoper die een koperscitaat van het net van Citaten in Admin in werking stelt &#x200B;](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
 **Stap 2: De overzicht en de onderhandeling van het citaat (Overzicht)**
 
@@ -119,7 +119,7 @@ Quote status provides information about the current state of the quote in the qu
 
 1. Klik in de kolom **[!UICONTROL Actions]** voor een record op **[!UICONTROL View]** .
 
-1. Om aan het klantenverzoek te antwoorden, volg de instructies en begin het [ proces van de prijsonderhandeling ](quote-price-negotiation.md).
+1. Om aan het klantenverzoek te antwoorden, volg de instructies en begin het [&#x200B; proces van de prijsonderhandeling &#x200B;](quote-price-negotiation.md).
 
 ### Aanhalingsactiviteit weergeven
 
@@ -129,11 +129,11 @@ Bekijk de onderhandelingstijdlijn, de communicatie, en andere citaatactiviteit v
 
 1. Opmerkingen bij de onderhandeling en de geschiedenis van aanhalingstekens weergeven door naar **[!UICONTROL Negotiation]** te schuiven en **[!UICONTROL Comments]** en **[!UICONTROL History Log]** te selecteren.
 
-   ![ Geschiedenis van de Mening ](./assets/quote-view-history.png){width="400"}
+   ![&#x200B; Geschiedenis van de Mening &#x200B;](./assets/quote-view-history.png){width="400"}
 
 1. De geschiedenis wordt ook bijgehouden op het niveau van het lijnpunt.
 
-   ![ de Geschiedenis van het Punt van de Lijn van de Mening ](./assets/quote-view-line-item-history.png){width="400"}
+   ![&#x200B; de Geschiedenis van het Punt van de Lijn van de Mening &#x200B;](./assets/quote-view-line-item-history.png){width="400"}
 
 
 ### Een aanvraag voor een prijsopgave afwijzen
@@ -146,4 +146,4 @@ Alleen aanhalingsaanvragen met de status `Open` kunnen worden afgewezen.
 
 1. Voer de reden in waarom het aanhalingsteken is afgewezen en klik op **[!UICONTROL Confirm]** .
 
-   ![ Weigeren Citaat?](./assets/quote-decline-confirm.png){width="400"}
+   ![&#x200B; Weigeren Citaat?](./assets/quote-decline-confirm.png){width="400"}

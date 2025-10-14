@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Reward Points]
 
-![ de Punten van de Beloning ](./assets/reward-points-reward-points.png)<!-- zoom -->
+![&#x200B; de Punten van de Beloning &#x200B;](./assets/reward-points-reward-points.png)<!-- zoom -->
 
 <!-- [Reward Points](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Algemeen | Hiermee activeert of deactiveert u bonuspunten. Opties: `Yes` / `No` . |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Website | Wanneer toegelaten, kunnen de klanten punten door hun activiteiten verdienen, en hen terugbetalen bij kassa. Als deze optie is uitgeschakeld, kunnen alleen Admin-gebruikers punten toewijzen en inwisselen namens klanten. Opties: `Yes` / `No` . |
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![ Acties voor het Ophalen van de Punten van de Beloning door Klanten ](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![&#x200B; Acties voor het Ophalen van de Punten van de Beloning door Klanten &#x200B;](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | Website | Bepaalt als de beloningspunten voor de aankopen worden verdiend die op de gevormde [ Winst Tarieven van de Uitwisseling ](../../merchandising-promotions/reward-exchange-rates.md) worden gebaseerd. Opties: `Yes` / `No` |
+| [!UICONTROL Purchase] | Website | Bepaalt als de beloningspunten voor de aankopen worden verdiend die op de gevormde [&#x200B; Winst Tarieven van de Uitwisseling &#x200B;](../../merchandising-promotions/reward-exchange-rates.md) worden gebaseerd. Opties: `Yes` / `No` |
 | [!UICONTROL Registration] | Website | Hiermee geeft u het aantal punten op dat wordt verdiend voor het openen van een klantenaccount. |
 | [!UICONTROL Newsletter Signup] | Website | Geeft het aantal punten op dat wordt verdiend door geregistreerde klanten die zich abonneren op een nieuwsbrief. (Punten zijn niet beschikbaar voor abonnementen door gasten.) Als een klant zich afmeldt en zich vervolgens opnieuw abonneert, worden punten niet verdiend voor het tweede abonnement. |
 | [!UICONTROL Converting Invitation to Customer] | Website | Specificeert het aantal punten die door een klant worden verdiend die een uitnodiging verzendt, wanneer de ontvanger dan een klantenrekening opent. |
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Notification Settings]
 
-![ de Montages van het Bericht E-mail ](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
+![&#x200B; de Montages van het Bericht E-mail &#x200B;](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
 <!-- [Email Notification Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | Winkelweergave | Hiermee bepaalt u de contactpersoon van de winkel die wordt weergegeven als de afzender van de e-mails met de bijgewerkte balans en de vervaldatum. |
 | [!UICONTROL Subscribe Customers by Default] | Algemeen | Hiermee bepaalt u de standaardabonnementsstatus van klanten voor zowel de e-mails voor het bijwerken van de balans als voor de vervaldatumberichten. |

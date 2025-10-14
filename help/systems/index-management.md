@@ -17,22 +17,22 @@ Adobe Commerce en Magento Open Source worden automatisch opnieuw geindexeerd wan
 
 Het opnieuw indexeren van gegevens versnelt de verwerking, en vermindert de tijd de klant moet wachten. Als je bijvoorbeeld de prijs van een object wijzigt van $4,99 in $3,99, wijzigt Commerce de gegevens opnieuw om de prijswijziging in de winkel aan te geven. Zonder indexering zou Commerce de prijs van elk product op de vlucht moeten berekenen; regels voor winkelwagenprijzen, prijzen van pakketten, kortingen, prijzen op lagen, enzovoort. Het laden van de prijs voor een product kan langer duren dan de klant bereid is te wachten.
 
-De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Een systeembericht verschijnt als de baan van de a [ cron ](cron.md) niet beschikbaar is om het even welke indexen bij te werken die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
+De indexeerders kunnen worden ingesteld op bijwerken tijdens het opslaan of op schema. Alle indexen kunnen beide opties gebruiken, behalve Klantenraster dat alleen ondersteuning biedt voor opslaan. Bij indexering bij opslaan start Commerce een nieuwe index bij het opslaan van handelingen. De pagina van het Beheer van de Index voltooit de update en spoelt het geheime voorgeheugen, met het herindexbericht verschijnen binnen een minuut of twee. Wanneer opnieuw indexeren op een programma, loopt een herindex volgens een programma als bijbaanbaan. Een systeembericht verschijnt als de baan van de a [&#x200B; cron &#x200B;](cron.md) niet beschikbaar is om het even welke indexen bij te werken die ongeldig worden. Uw winkel blijft toegankelijk tijdens herindexeringsprocessen.
 
 >[!NOTE]
-> De handelaars van Adobe Commerce die Live Onderzoek, de Dienst van de Catalogus, of de Aanbevelingen van het Product gebruiken hebben de optie om op a [ op SaaS-Gebaseerde prijsindexeerder ](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=nl-NL) te gebruiken.
+> De handelaars van Adobe Commerce die Live Onderzoek, de Dienst van de Catalogus, of de Aanbevelingen van het Product gebruiken hebben de optie om op a [&#x200B; op SaaS-Gebaseerde prijsindexeerder &#x200B;](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=nl-NL) te gebruiken.
 
-Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De index en het bericht worden gewist op basis van de herindexmodus en de mogelijke acties die u uitvoert. Voor meer gedetailleerde informatie over het indexeren, zie [ hoe de toepassing het indexeren ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in de _Gids van de Ontwikkelaar PHP_ uitvoert.
+Als een nieuwe index nodig is, verschijnt een melding boven aan de pagina. De index en het bericht worden gewist op basis van de herindexmodus en de mogelijke acties die u uitvoert. Voor meer gedetailleerde informatie over het indexeren, zie [&#x200B; hoe de toepassing het indexeren &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) in de _Gids van de Ontwikkelaar PHP_ uitvoert.
 
-![ Beheer van de Index - acties ](./assets/index-management.png){width="700" zoomable="yes"}
+![&#x200B; Beheer van de Index - acties &#x200B;](./assets/index-management.png){width="700" zoomable="yes"}
 
 - Index Management heeft een iets andere presentatie voor platte productcatalogi.
-- Om problemen te vermijden wanneer de veelvoudige gebruikers Admin voorwerpen bijwerken die automatische het opnieuw indexeren teweegbrengen, wordt het geadviseerd dat u alle indexen plaatst om op programma te lopen als [ bouwbanen ](cron.md). Anders kunnen objecten met onderlinge afhankelijkheden, telkens wanneer een object wordt opgeslagen, een impasse veroorzaken. Symptomen van een impasse zijn onder andere het hoge CPU-gebruik en MySQL-fouten. Als beste praktijken, adviseert men dat u geplande indexering gebruikt.
-- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) door gebrek, worden de beheerderacties, zoals het opnieuw indexeren, geregistreerd door het systeem en kunnen in het [ Rapport van de Logboeken van de Actie ](action-log-report.md) worden bekeken. Het registreren van de actie kan in het [ Loggen van Acties Admin ](action-log.md) in geavanceerde adminmontages van uw opslag worden gevormd.
+- Om problemen te vermijden wanneer de veelvoudige gebruikers Admin voorwerpen bijwerken die automatische het opnieuw indexeren teweegbrengen, wordt het geadviseerd dat u alle indexen plaatst om op programma te lopen als [&#x200B; bouwbanen &#x200B;](cron.md). Anders kunnen objecten met onderlinge afhankelijkheden, telkens wanneer een object wordt opgeslagen, een impasse veroorzaken. Symptomen van een impasse zijn onder andere het hoge CPU-gebruik en MySQL-fouten. Als beste praktijken, adviseert men dat u geplande indexering gebruikt.
+- ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) door gebrek, worden de beheerderacties, zoals het opnieuw indexeren, geregistreerd door het systeem en kunnen in het [&#x200B; Rapport van de Logboeken van de Actie &#x200B;](action-log-report.md) worden bekeken. Het registreren van de actie kan in het [&#x200B; Loggen van Acties Admin &#x200B;](action-log.md) in geavanceerde adminmontages van uw opslag worden gevormd.
 
 ## Aanbevolen werkwijzen voor herindexering
 
-Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [ sparen de Caches van 0&rbrace; geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.](cache-management.md)
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. De indexen volgen gegevensbestandinformatie voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagmilieu&#39;s, en meer. [&#x200B; sparen de Caches van 0&rbrace; geladen gegevens, beelden, formaten, en als voor verhoogde prestaties die en tot de storefront toegang hebben laden.](cache-management.md)
 
 - Doorgaans wilt u opnieuw indexeren bij het bijwerken van gegevens in Commerce.
 - Als u een grote winkel of meerdere winkels hebt, kunt u indexeerders zoals categorie en producten instellen op geplande snijtaken vanwege de mogelijkheid van herindexering. U kunt de herdex instellen volgens een schema gedurende niet-piekuren.
@@ -44,7 +44,7 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
 
 >[!IMPORTANT]
 >
->Voor opslag die [ Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
+>Voor opslag die [&#x200B; Adobe Commerce B2B &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL) gebruiken en Elasticsearch als fulltext (`catalogsearch_fulltext`) indexeerder hebben geplaatst: De fulltext index moet na om het even welke bulktoestemmingenverandering opnieuw worden uitgevoerd of wanneer de &quot;toestemmingen&quot;indexer op &quot;Geplande&quot;wijze is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -71,16 +71,16 @@ Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Com
    | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | De naam van de index. |
    | [!UICONTROL Description] | Een beschrijving van de index. |
-   | [!UICONTROL Mode] | Hiermee wordt de huidige updatemodus voor elke index aangegeven. Opties: <br/>**[!UICONTROL Update on Save]**- De index wordt ingesteld om bij te werken wanneer een entiteitswijziging wordt opgeslagen. Deze entiteiten omvatten producten, categorieën, en klanten. Wanneer de opslagactie is voltooid, wordt een reeks stappen uitgevoerd om de wijzigingen vast te leggen en de index bij te werken. De pagina van het Beheer van de Index werkt en spoelt het herindexbericht binnen een minuut of twee bij.<br/>**[!UICONTROL Update on Schedule]** - de index wordt geplaatst om op programma volgens de baan van de a [ cron ](cron.md) bij te werken. De bouwbaan omvat het planningsinterval voor het opnieuw indexeren, schrijvend updates aan de index wanneer looppas. |
+   | [!UICONTROL Mode] | Hiermee wordt de huidige updatemodus voor elke index aangegeven. Opties: <br/>**[!UICONTROL Update on Save]**- De index wordt ingesteld om bij te werken wanneer een entiteitswijziging wordt opgeslagen. Deze entiteiten omvatten producten, categorieën, en klanten. Wanneer de opslagactie is voltooid, wordt een reeks stappen uitgevoerd om de wijzigingen vast te leggen en de index bij te werken. De pagina van het Beheer van de Index werkt en spoelt het herindexbericht binnen een minuut of twee bij.<br/>**[!UICONTROL Update on Schedule]** - de index wordt geplaatst om op programma volgens de baan van de a [&#x200B; cron &#x200B;](cron.md) bij te werken. De bouwbaan omvat het planningsinterval voor het opnieuw indexeren, schrijvend updates aan de index wanneer looppas. |
    | [!UICONTROL Schedule Status] | Geeft de statusupdates van het schema weer. |
-   | [!UICONTROL Status] | Geeft een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is up-to-date.<br/>**[!UICONTROL Suspended]** - Opnieuw indexeren is gepauzeerd. <br/>**[!UICONTROL Processing]**- Er wordt momenteel opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controle om te zien of is [ cron ](cron.md) beschikbaar en correct gevormd. |
+   | [!UICONTROL Status] | Geeft een van de volgende opties weer: <br/>**[!UICONTROL Ready]**— De index is up-to-date.<br/>**[!UICONTROL Suspended]** - Opnieuw indexeren is gepauzeerd. <br/>**[!UICONTROL Processing]**- Er wordt momenteel opnieuw geïndexeerd.<br/>**[!UICONTROL Reindex Required]** - Er is een wijziging aangebracht die opnieuw indexeren vereist, maar de indexen kunnen niet automatisch worden bijgewerkt. Controle om te zien of is [&#x200B; cron &#x200B;](cron.md) beschikbaar en correct gevormd. |
    | [!UICONTROL Updated] | Geeft de datum en tijd aan waarop een index voor het laatst is bijgewerkt. |
 
    {style="table-layout:auto"}
 
 ## Opnieuw indexeren met de opdrachtregel
 
-Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [ opnieuw indexeren ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=nl-NL#reindex){:target="blank"} in de _Gids van de Configuratie_.
+Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. Voor volledige details en bevelopties, zie [&#x200B; opnieuw indexeren &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=nl-NL#reindex){:target="blank"} in de _Gids van de Configuratie_.
 
 ## Gebeurtenissen van indextrigger
 
@@ -100,7 +100,7 @@ Commerce biedt aanvullende opties voor opnieuw indexeren via de opdrachtregel. V
 
 >[!IMPORTANT]
 >
->Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Zie [ het Platte Product van de Catalogus van het Gebruik ](../catalog/catalog-flat.md) voor meer informatie.
+>Het gebruik van een platte catalogus wordt niet langer aanbevolen als beste praktijk. Het is bekend dat voortdurend gebruik van deze functie prestatievermindering en andere indexeringsproblemen kan veroorzaken. Zie [&#x200B; het Platte Product van de Catalogus van het Gebruik &#x200B;](../catalog/catalog-flat.md) voor meer informatie.
 
 ## Indexhandelingen en -besturingselementen
 

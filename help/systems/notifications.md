@@ -26,7 +26,7 @@ De _pagina van Meldingen_ maakt een lijst van alle berichten die door strengheid
 
    - Klik op **[!UICONTROL Mark As Read]** als u het bericht in uw postvak wilt bewaren.
 
-     ![ Admin - berichten ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![&#x200B; Admin - berichten &#x200B;](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - Klik op **[!UICONTROL Remove]** om het bericht te verwijderen.
 

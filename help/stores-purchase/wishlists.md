@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Een verlanglijst is een lijst met producten die een geregistreerde klant met vrienden kan delen, of kan opslaan om later naar de winkelwagen over te brengen. Als verlanglijsten zijn ingeschakeld, wordt de koppeling Toevoegen aan lijst met websites weergegeven op de categorie- en productpagina&#39;s van elk product in de winkel. Afhankelijk van het thema kan het een tekstkoppeling of een grafische afbeelding zijn.
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce steunt het gebruik van veelvoudige wenslijsten per klantenrekening.
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce steunt het gebruik van veelvoudige wenslijsten per klantenrekening.
 
-![ Magento Open Source ](../assets/open-source.svg) Magento Open Source steunt het gebruik van één enkele wensenlijst per klantenrekening.
+![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) Magento Open Source steunt het gebruik van één enkele wensenlijst per klantenrekening.
 
 De gedeelde wensenlijsten worden verzonden van een e-mailadres van de opslag, maar het lichaam van het bericht bevat een gepersonaliseerde nota van de klant. U kunt de e-mailsjabloon aanpassen die wordt gebruikt wanneer wenslijsten worden gedeeld en de opslagcontactpersoon kiezen die als de afzender wordt weergegeven.
 
-Wenslijsten kunnen van het dashboard van de [ klantenrekening ](../customers/account-dashboard.md) worden bijgewerkt. De punten kunnen tussen de verlanglijst en winkelwagentje door de klant of door de opslagbeheerder worden toegevoegd of worden overgebracht.
+Wenslijsten kunnen van het dashboard van de [&#x200B; klantenrekening &#x200B;](../customers/account-dashboard.md) worden bijgewerkt. De punten kunnen tussen de verlanglijst en winkelwagentje door de klant of door de opslagbeheerder worden toegevoegd of worden overgebracht.
 
-![ de storefront van het Voorbeeld - Mijn Lijst van wensen ](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - Mijn Lijst van wensen &#x200B;](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
 Wanneer een product met meerdere opties wordt toegevoegd aan een verlanglijst, worden alle opties die door de klant zijn geselecteerd, opgenomen in de beschrijving van het verlanglijstitem. Als de klant bijvoorbeeld hetzelfde paar schoenen in drie verschillende kleuren toevoegt, wordt elk paar weergegeven als een apart item voor een wensenlijst. Als de klant echter hetzelfde product meerdere keren aan de verlanglijst toevoegt, wordt het product slechts één keer weergegeven, maar wordt de hoeveelheid van de productpagina geselecteerd.
 
 ## Wenslijstassistentie in Admin
 
-De klanten kunnen [ hun verlanglijsten ](wishlist-storefront.md) beheren door aan hun rekeningen op de storefront het programma te openen. Als beheerder van de opslagplaats, kunt u klanten wensen lijsten van Admin ook beheren.
+De klanten kunnen [&#x200B; hun verlanglijsten &#x200B;](wishlist-storefront.md) beheren door aan hun rekeningen op de storefront het programma te openen. Als beheerder van de opslagplaats, kunt u klanten wensen lijsten van Admin ook beheren.
 
 **_om wensen lijstpunten van Admin bij te werken:_**
 
@@ -40,7 +40,7 @@ De klanten kunnen [ hun verlanglijsten ](wishlist-storefront.md) beheren door aa
 
    Alle voor het product geselecteerde opties worden onder de productnaam weergegeven.
 
-   ![ Admin van Commerce - klant wenst lijst ](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+   ![&#x200B; Admin van Commerce - klant wenst lijst &#x200B;](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de productopties te bewerken:
 

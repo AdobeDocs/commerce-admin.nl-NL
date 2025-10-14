@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Overzicht van rubrieken
 
-Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur van uw catalogus instellen. Producten kunnen aan nul of meer categorieën worden toegewezen. Doorgaans worden categorieën vooraf gemaakt voordat producten aan de catalogus worden toegevoegd. Nochtans, kunt u categorieën _op de vlucht_ ook toevoegen terwijl het creëren van een product. De categoriestructuur van de catalogus wordt weerspiegeld door het belangrijkste menu - of [ hoogste navigatie ](navigation-top.md) - van de opslag.
+Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur van uw catalogus instellen. Producten kunnen aan nul of meer categorieën worden toegewezen. Doorgaans worden categorieën vooraf gemaakt voordat producten aan de catalogus worden toegevoegd. Nochtans, kunt u categorieën _op de vlucht_ ook toevoegen terwijl het creëren van een product. De categoriestructuur van de catalogus wordt weerspiegeld door het belangrijkste menu - of [&#x200B; hoogste navigatie &#x200B;](navigation-top.md) - van de opslag.
 
-![ boom van de Categorie ](./assets/category-selected.png){width="700" zoomable="yes"}
+![&#x200B; boom van de Categorie &#x200B;](./assets/category-selected.png){width="700" zoomable="yes"}
 
 | Besturing | Beschrijving |
 |--- |--- |
@@ -34,5 +34,5 @@ Voordat u producten aan uw catalogus toevoegt, moet u de basiscategoriestructuur
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen in categorieën:
 
-- [ de Veranderingen in categorieën worden niet bewaard ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=nl-NL)
-- [ HoofdMenu (Categorieën) niet getoond op subpages met snelst toegelaten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=nl-NL)
+- [&#x200B; de Veranderingen in categorieën worden niet bewaard &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=nl-NL)
+- [&#x200B; HoofdMenu (Categorieën) niet getoond op subpages met snelst toegelaten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=nl-NL)

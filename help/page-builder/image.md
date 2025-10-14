@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Media - Afbeelding
 
-Gebruik het _inhoudstype van het Beeld_ om een JPG, GIF, of beeld PNG aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Naast de standaard desktopafbeelding kunt u ook een secundaire afbeelding voor mobiele apparaten opgeven. U kunt ook een bijschrift toevoegen dat onder de afbeelding wordt weergegeven en de afbeelding koppelen aan een URL, product, categorie of pagina.
+Gebruik het _inhoudstype van het Beeld_ om een JPG, GIF, of beeld PNG aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. Naast de standaard desktopafbeelding kunt u ook een secundaire afbeelding voor mobiele apparaten opgeven. U kunt ook een bijschrift toevoegen dat onder de afbeelding wordt weergegeven en de afbeelding koppelen aan een URL, product, categorie of pagina.
 
 >[!TIP]
 >
->U kunt de [ Integratie van Adobe Stock ](../content-design/adobe-stock.md) gebruiken om een aangewezen activa van onder de miljoenen te vinden en te bewaren die door [ worden verstrekt Adobe Stock ](https://stock.adobe.com). Zie [ Gebruikend de Beelden van Adobe Stock ](../content-design/adobe-stock-manage.md) voor details over hoe te om, de activa van Adobe Stock in uw galerij te zoeken te verfijnen en te bewaren.
+>U kunt de [&#x200B; Integratie van Adobe Stock &#x200B;](../content-design/adobe-stock.md) gebruiken om een aangewezen activa van onder de miljoenen te vinden en te bewaren die door [&#x200B; worden verstrekt Adobe Stock &#x200B;](https://stock.adobe.com). Zie [&#x200B; Gebruikend de Beelden van Adobe Stock &#x200B;](../content-design/adobe-stock-manage.md) voor details over hoe te om, de activa van Adobe Stock in uw galerij te zoeken te verfijnen en te bewaren.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,17 +24,17 @@ Gebruik het _inhoudstype van het Beeld_ om een JPG, GIF, of beeld PNG aan het [[
 
 De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer op de container van de afbeelding plaatst.
 
-![ toolbox van het Beeld ](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; toolbox van het Beeld &#x200B;](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de afbeelding naar een andere positie in het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de afbeelding naar een andere positie in het werkgebied. |
 | (label) | Afbeelding | Hiermee wordt de huidige inhoudscontainer geïdentificeerd als een afbeelding. Houd de muisaanwijzer boven de container van de afbeelding om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Opent _Bewerken Beeld_ pagina, waar u de eigenschappen van het beeld en de container kunt veranderen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige afbeelding. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | De verborgen afbeelding wordt weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de afbeelding. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de afbeelding uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Opent _Bewerken Beeld_ pagina, waar u de eigenschappen van het beeld en de container kunt veranderen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige afbeelding. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | De verborgen afbeelding wordt weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de afbeelding. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de afbeelding uit het werkgebied. |
 | Nieuwe afbeelding uploaden |  | Uploadt een afbeelding van uw lokale bestandssysteem naar de galerie. |
 | Selecteren in galerie |  | Hiermee kiest u een bestaande afbeelding uit de galerie. |
 
@@ -48,11 +48,11 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
    U kunt een afbeelding toevoegen aan een rij, kolom of tab. In het volgende voorbeeld wordt de afbeelding naar een lege kolom gesleept.
 
-   ![ slepend een type van beeldinhoud aan het stadium ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een type van beeldinhoud aan het stadium &#x200B;](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Gebruik een van de volgende methoden om het afbeeldingselement toe te voegen:
 
-   ![ Upload Beeld of Uitgezocht van de hulpmiddelen van de Galerij op het stadium ](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
+   ![&#x200B; Upload Beeld of Uitgezocht van de hulpmiddelen van de Galerij op het stadium &#x200B;](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
       - Zoek en kies de afbeelding die u aan de galerie en doelcontainer wilt toevoegen.
 
-     Als alternatief, kunt u een beelddossier van uw systeem ook slepen en het laten vallen op het _pictogram van de Camera_ ( ![ Pictogram van de Camera ](./assets/pb-icon-camera.png){width="20"}).
+     Als alternatief, kunt u een beelddossier van uw systeem ook slepen en het laten vallen op het _pictogram van de Camera_ ( ![&#x200B; Pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="20"}).
 
    - _&#x200B;**selecteer een bestaand activa**&#x200B;_: Gebruik deze methode om een bestaand beeldmiddel van de media opslag/galerij te selecteren.
 
@@ -74,19 +74,19 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
       - Klik op de miniatuur en klik op **[!UICONTROL Add Selected]** .
 
-        ![ Toevoegend een geselecteerd beeld ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![&#x200B; Toevoegend een geselecteerd beeld &#x200B;](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Onderzoek en selecteer een beeld van Adobe Stock**&#x200B;_: Gebruik deze methode om een beeld van Adobe Stock te vinden.
 
      >[!NOTE]
      >
-     >Deze methode vereist een [ integratie van Adobe Stock ](../content-design/adobe-stock.md) die voor uw Admin wordt gevormd.
+     >Deze methode vereist een [&#x200B; integratie van Adobe Stock &#x200B;](../content-design/adobe-stock.md) die voor uw Admin wordt gevormd.
 
       - Klik op **[!UICONTROL Search Adobe Stock]** en zoek naar een afbeelding.
 
       - Sla de voorvertoning of afbeelding met licentie op in de galerie.
 
-        Zie [ Gebruikend de Beelden van Adobe Stock ](../content-design/adobe-stock-manage.md) voor meer informatie over het werken met de activa van Adobe Stock.
+        Zie [&#x200B; Gebruikend de Beelden van Adobe Stock &#x200B;](../content-design/adobe-stock-manage.md) voor meer informatie over het werken met de activa van Adobe Stock.
 
       - Selecteer de elementminiatuur in de galerie en klik op **[!UICONTROL Add Selected]** .
 
@@ -94,16 +94,16 @@ De gereedschapset voor afbeeldingen wordt weergegeven wanneer u de muisaanwijzer
 
    >[!NOTE]
    >
-   >De [ Banner ](banner.md) en [ de inhoudstypes van de Schuif ](slider.md) omvatten ook _uploadt Beeld_ en _Uitgezocht van Galerij_ opties om beelden toe te voegen.
+   >De [&#x200B; Banner &#x200B;](banner.md) en [&#x200B; de inhoudstypes van de Schuif &#x200B;](slider.md) omvatten ook _uploadt Beeld_ en _Uitgezocht van Galerij_ opties om beelden toe te voegen.
 
-   ![ Beeld in een kolom ](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
+   ![&#x200B; Beeld in een kolom &#x200B;](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
 ## Afbeeldingsinstellingen wijzigen
 
-1. Beweeg over de beeldcontainer om de hulpmiddeldoos te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}) pictogram.
+1. Beweeg over de beeldcontainer om de hulpmiddeldoos te tonen en de _Montages_ te kiezen (![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}) pictogram.
 De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidige afbeelding.
 
-   ![ Huidige beeld ](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
+   ![&#x200B; Huidige beeld &#x200B;](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
 1. Voer een van de volgende handelingen uit om de huidige **[!UICONTROL Image]** te wijzigen:
 
@@ -121,25 +121,25 @@ De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidi
 
       - Klik op de miniatuur en klik op **[!UICONTROL Add Selected]** .
 
-        ![ Toevoegend een geselecteerd beeld ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![&#x200B; Toevoegend een geselecteerd beeld &#x200B;](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Onderzoek en selecteer een beeld van Adobe Stock**: Gebruik deze methode om een beeld van Adobe Stock te vinden.
 
      >[!NOTE]
      >
-     >Deze methode vereist een [ integratie van Adobe Stock ](../content-design/adobe-stock.md) die voor uw Admin wordt gevormd.
+     >Deze methode vereist een [&#x200B; integratie van Adobe Stock &#x200B;](../content-design/adobe-stock.md) die voor uw Admin wordt gevormd.
 
       - Klik op **[!UICONTROL Search Adobe Stock]** en zoek naar een afbeelding.
 
       - Sla de voorvertoning of afbeelding met licentie op in de galerie.
 
-        Zie [ Gebruikend de Beelden van Adobe Stock ](../content-design/adobe-stock-manage.md) voor meer informatie over het werken met de activa van Adobe Stock.
+        Zie [&#x200B; Gebruikend de Beelden van Adobe Stock &#x200B;](../content-design/adobe-stock-manage.md) voor meer informatie over het werken met de activa van Adobe Stock.
 
       - Selecteer de elementminiatuur in de galerie en klik op **[!UICONTROL Add Selected]** .
 
 1. Als u een **[!UICONTROL Mobile Image]** wilt toevoegen, gebruikt u dezelfde methoden als die in de vorige stap zijn beschreven om een afbeelding te selecteren die u wilt gebruiken voor weergave op mobiele apparaten.
 
-   ![ Mobiel beeld ](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![&#x200B; Mobiel beeld &#x200B;](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. Geef indien nodig een **[!UICONTROL Link]** op voor de afbeelding.
 
@@ -149,15 +149,15 @@ De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidi
 
    - **[!UICONTROL Product]** - Identificeert de bestemmingspagina die op de productnaam of SKU wordt gebaseerd. Zoek het product op naam die op of een gedeeltelijke of volledige naam wordt gebaseerd. Kies het product in de lijst met zoekresultaten.
 
-     ![ Kiekend een product om ](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"} te verbinden
+     ![&#x200B; Kiekend een product om &#x200B;](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"} te verbinden
 
    - **[!UICONTROL Category]** - Hiermee wordt de doelpagina geïdentificeerd als een specifieke categorie of subcategorie in de categoriestructuur. Zoek de categorie op basis van een gedeeltelijke of volledige naam. Kies de categorie in het uitgebreide gedeelte van de weergegeven structuur.
 
-     ![ Kiekend een categorie om ](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"} te verbinden
+     ![&#x200B; Kiekend een categorie om &#x200B;](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"} te verbinden
 
    - **[!UICONTROL Page]** - Hiermee wordt de doelpagina geïdentificeerd als een specifieke inhoudspagina. Zoeken naar de pagina op basis van een gedeeltelijke of volledige naam. Kies de pagina in de lijst met zoekresultaten.
 
-     ![ het Kiezen van een pagina aan verbinding ](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![&#x200B; het Kiezen van een pagina aan verbinding &#x200B;](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    Schakel het selectievakje **[!UICONTROL Open in new tab]** in als u wilt voorkomen dat de bezoeker uit uw winkel navigeert. Wanneer het selectievakje is uitgeschakeld, wordt de gekoppelde bestemming geopend op hetzelfde browsertabblad, waardoor de bezoeker daadwerkelijk van de winkel kan wegnavigeren.
 
@@ -176,17 +176,17 @@ De bestandsnaam, afmetingen en bestandsgrootte worden weergegeven onder de huidi
 
 ## Een afbeelding verplaatsen
 
-1. Beweeg over de beeldcontainer om toolbox te tonen en de _Beweging_ te kiezen (![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}) pictogram.
+1. Beweeg over de beeldcontainer om toolbox te tonen en de _Beweging_ te kiezen (![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}) pictogram.
 
-   ![ Bewegend een beeld ](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
+   ![&#x200B; Bewegend een beeld &#x200B;](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
 1. Selecteer de afbeelding en sleep deze naar de nieuwe positie, net onder de rode hulplijn.
 
-   ![ Gebruikend de rode richtlijn om het beeld ](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"} te plaatsen
+   ![&#x200B; Gebruikend de rode richtlijn om het beeld &#x200B;](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"} te plaatsen
 
 ## Een afbeelding verwijderen
 
-1. Beweeg over de beeldcontainer om toolbox te tonen en _te kiezen verwijder_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="20"} ).
+1. Beweeg over de beeldcontainer om toolbox te tonen en _te kiezen verwijder_ ( ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
@@ -234,7 +234,7 @@ Tekst voor deze instellingen is zichtbaar voor zoekprogramma&#39;s en verbetert 
 
 - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-  ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Optie | Beschrijving |
   | ------ |------------ |

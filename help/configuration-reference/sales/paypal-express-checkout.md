@@ -15,17 +15,17 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Er is geen actie nodig om PayPal Express Checkout te laten voldoen aan PSD2 omdat alle vereisten door PayPal worden afgehandeld.
+>Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [&#x200B; PSD2 &#x200B;](../../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Er is geen actie nodig om PayPal Express Checkout te laten voldoen aan PSD2 omdat alle vereisten door PayPal worden afgehandeld.
 
 {{config}}
 
 ## [!UICONTROL Required PayPal Settings]
 
-![ Uitdrukkelijke de Afhandeling van PayPal Vereiste Montages ](./assets/paypal-express-required-settings.png)<!-- zoom -->
+![&#x200B; Uitdrukkelijke de Afhandeling van PayPal Vereiste Montages &#x200B;](./assets/paypal-express-required-settings.png)<!-- zoom -->
 
 <!-- [PayPal Express Checkout Required Settings](../../stores-purchase/paypal-express-checkout.html) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable this Solution] | Website | Activeert [!DNL PayPal Express Checkout] als een betalingsmethode die beschikbaar is voor uw klanten. Opties: `Yes` / `No` |
 | [!UICONTROL Enable In-Context Checkout Experience] | Website | Hiermee activeert u gestroomlijnde PayPal In-Context Checkout als een betalingsmethode die beschikbaar is voor uw klanten. Opties: `Yes` / `No` |
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Express Checkout]
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Website | Hier geeft u het e-mailadres op dat u hebt opgegeven bij de oprichting van uw PayPal-handelsaccount. Het e-mailadres is hoofdlettergevoelig en moet precies overeenkomen met uw e-mailadres in het PayPal-systeem. |
 | [!UICONTROL API Authentication Methods] | Website | Bepaalt welke methode wordt gebruikt voor API-verificatie. Opties: <br/>**`API Signature`**- geeft het veld _[!UICONTROL API Signature]_&#x200B;in het formulier weer.<br/>**`API Certificate`**- Hiermee geeft u het veld&#x200B;_[!UICONTROL API Certificate]_ in het formulier weer. |
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Advertise PayPal Credit]
 
-![ Adverteer PayPal Krediet ](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![&#x200B; Adverteer PayPal Krediet &#x200B;](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Website | De uitgevers-id die aan uw PayPal-creditaccount is gekoppeld. |
 | [!UICONTROL Get Publisher ID from PayPal] |  | Hiermee wordt uw uitgevers-id opgehaald uit PayPal. |
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings]
 
-![ Basismontages ](./assets/payment-methods-paypal-express-checkout-basic-settings.png)<!-- zoom -->
+![&#x200B; Basismontages &#x200B;](./assets/payment-methods-paypal-express-checkout-basic-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Title] | Winkelweergave | Een naam die de PayPal Express-betalingsmethode voor afhandeling tijdens de afhandeling aangeeft. |
 | [!UICONTROL Sort Order] | Winkelweergave | Een getal dat de volgorde bepaalt waarin PayPal Express Checkout wordt weergegeven bij aanbiedingen met andere betalingsmethoden tijdens het afrekenen. Voer `0` in voor de bovenkant van de lijst. |
@@ -82,9 +82,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Settings]
 
-![ Geavanceerde Montages ](./assets/payment-methods-paypal-express-checkout-advanced-settings.png)<!-- zoom -->
+![&#x200B; Geavanceerde Montages &#x200B;](./assets/payment-methods-paypal-express-checkout-advanced-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display on Shopping Cart] | Winkelweergave | Hiermee wordt bepaald of PayPal Express Checkout wordt weergegeven als een betalingsoptie in het winkelwagentje. Opties: `Yes` (PayPal aanbevolen) / `No` |
 | [!UICONTROL Payment Action Applicable From] | Website | Hiermee bepaalt u het bereik van de toepasselijke landselectie. Opties: `All Allowed Countries` / `Specific Countries` |
@@ -96,16 +96,16 @@ ht-degree: 0%
 | [!UICONTROL Shortcut Buttons Flavor] | Winkelweergave | Hiermee bepaalt u het type afbeelding dat wordt gebruikt voor de PayPal-acceptatieknop. Opties: <br/>**`Dynamic`**- (aanbevolen) Hiermee geeft u een afbeelding weer die dynamisch kan worden gewijzigd van de PayPal-server.<br/>**`Static`** - Geeft een statische afbeelding weer die niet dynamisch kan worden gewijzigd. |
 | [!UICONTROL Enable PayPal Guest Checkout] | Website | Klanten die geen PayPal-rekening hebben, kunnen aankopen doen met PayPal Express Checkout. Opties: `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Website | Hiermee bepaalt u of het factuuradres van de klant is vereist. Opties: `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Website | Bepaalt als de klanten in a [ het factureren overeenkomst ](../../stores-purchase/paypal-billing-agreements.md) met uw opslag kunnen ingaan. Opties: <br/>**`Auto`**- de klant kan zich aanmelden voor een factureringsovereenkomst tijdens Express Checkout.<br/>**`Ask Customer`** - De klant wordt gevraagd of hij of zij zich wil aanmelden voor een factureringsovereenkomst. <br/>**`Never`**- Klanten kunnen zich niet aanmelden voor een factureringsovereenkomst. |
+| [!UICONTROL Billing Agreement Signup] | Website | Bepaalt als de klanten in a [&#x200B; het factureren overeenkomst &#x200B;](../../stores-purchase/paypal-billing-agreements.md) met uw opslag kunnen ingaan. Opties: <br/>**`Auto`**- de klant kan zich aanmelden voor een factureringsovereenkomst tijdens Express Checkout.<br/>**`Ask Customer`** - De klant wordt gevraagd of hij of zij zich wil aanmelden voor een factureringsovereenkomst. <br/>**`Never`**- Klanten kunnen zich niet aanmelden voor een factureringsovereenkomst. |
 | [!UICONTROL Skip Order Review Step] | Website | Hiermee bepaalt u of klanten de transactie kunnen voltooien vanaf de PayPal-site of dat ze naar uw winkel moeten terugkeren en de stap Bestelrevisie moeten voltooien voordat ze de bestelling verzenden. Opties: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
-![ het Factureren de Montages van de Overeenkomst ](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
+![&#x200B; het Factureren de Montages van de Overeenkomst &#x200B;](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Als factureringsovereenkomsten ingeschakeld zijn, worden deze tijdens het afrekenen als een betalingsoptie weergegeven. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | Het label voor de optie voor de PayPal-factureringsovereenkomst dat tijdens het afrekenen als een betalingsoptie wordt weergegeven. |
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Settlement Report Settings]
 
-![ de Montages van het Rapport van de Oplossing ](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+![&#x200B; de Montages van het Rapport van de Oplossing &#x200B;](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | **[!UICONTROL SFTP Credentials]** |  |  |
 | [!UICONTROL Login] | Website | Uw gebruikersnaam die is vereist om u aan te melden bij de Secure FTP-server van PayPal. |
@@ -141,25 +141,25 @@ ht-degree: 0%
 
 ### [!UICONTROL Frontend Experience Settings]
 
-![ de Montages van de Voorwaartse Ervaring - de Verkoopbare Stijl van Pagina&#39;s van PayPal ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+![&#x200B; de Montages van de Voorwaartse Ervaring - de Verkoopbare Stijl van Pagina&#39;s van PayPal &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | Winkelweergave | Hiermee bepaalt u het PayPal-logo dat in uw winkel wordt weergegeven. Er zijn vier basisstijlen in twee formaten. Opties: `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | Winkelweergave | Hiermee bepaalt u de weergave van de handelspagina van PayPal. Toegestane waarden: **`paypal`** - Gebruikt de paginastijl van PayPal. <br/>**`primary`**- Gebruikt de paginastijl die u hebt geïdentificeerd als de &quot;primaire&quot; stijl in uw accountprofiel.<br/>**`your_custom_value`** - Gebruikt een aangepaste paginastijl voor betalingen, die in uw accountprofiel is opgegeven. |
 | [!UICONTROL Header Image URL] | Winkelweergave | De URL van de afbeelding die in de linkerbovenhoek van de uitcheckpagina wordt weergegeven. De maximale grootte is 750 x 90 pixels. <br/><br/>**_Nota:_**&#x200B;PayPal adviseert dat het beeld op een veilige (https) server wordt opgeslagen. Anders kan de browser van de klant waarschuwen dat de pagina zowel beveiligde als niet-beveiligde items bevat. |
-| [!UICONTROL Header Image Background Color] | Winkelweergave | De zes karakter [ hexadecimale kleur ](https://en.wikipedia.org/wiki/Web_colors) code voor de achtergrondkleur van de kopbal op de controlepagina. U kunt de code invoeren in hoofdletters en kleine letters. |
-| [!UICONTROL Header Image Border Color] | Winkelweergave | De zes karakter [ hexadecimale kleur ](https://en.wikipedia.org/wiki/Web_colors) code voor de twee-pixelgrens rond de kopbal. |
-| [!UICONTROL Page Background Color] | Winkelweergave | De zes karakter [ hexadecimale kleur ](https://en.wikipedia.org/wiki/Web_colors) code voor de achtergrondkleur van de controlepagina die achter de kopbal en betalingsvorm verschijnt. |
+| [!UICONTROL Header Image Background Color] | Winkelweergave | De zes karakter [&#x200B; hexadecimale kleur &#x200B;](https://en.wikipedia.org/wiki/Web_colors) code voor de achtergrondkleur van de kopbal op de controlepagina. U kunt de code invoeren in hoofdletters en kleine letters. |
+| [!UICONTROL Header Image Border Color] | Winkelweergave | De zes karakter [&#x200B; hexadecimale kleur &#x200B;](https://en.wikipedia.org/wiki/Web_colors) code voor de twee-pixelgrens rond de kopbal. |
+| [!UICONTROL Page Background Color] | Winkelweergave | De zes karakter [&#x200B; hexadecimale kleur &#x200B;](https://en.wikipedia.org/wiki/Web_colors) code voor de achtergrondkleur van de controlepagina die achter de kopbal en betalingsvorm verschijnt. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
-![ de Montages van de Begaring van de Voorkant - pas Slimme Knopen ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom --> aan
+![&#x200B; de Montages van de Begaring van de Voorkant - pas Slimme Knopen &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom --> aan
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Customize Button] | Winkelweergave | Hiermee bepaalt u of de slimme PayPal-knoppen kunnen worden aangepast aan de indeling en het thema van uw winkel. U kunt deze wijzigingen afzonderlijk toepassen op de pagina Afhandeling, op productpagina&#39;s, op de pagina Winkelwagentje en in de miniwagentje. |
 | [!UICONTROL Label] | Winkelweergave | De tekst die PayPal weergeeft op de knop Slimme betaling. Opties: <br/>**`Checkout`**(wordt weergegeven als &quot;PayPal-kassa&quot;)<br/>**`Pay`** (wordt weergegeven als &quot;PayPal&quot;) <br/>**`Buy Now`**(wordt weergegeven als &quot;Nu kopen met PayPal&quot;)<br/>**`PayPal`** (wordt weergegeven als &quot;PayPal&quot;) <br/>**`Installment`**(wordt weergegeven als &quot;PayPal&quot;)<br/>**`Credit`** (wordt weergegeven als &quot;PayPal CREDIT&quot;) |
@@ -172,9 +172,9 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
-![ de Montages van de Begaring van de Voorkant - pas Slimme Knopen (Eigenschappen) aan ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
+![&#x200B; de Montages van de Begaring van de Voorkant - pas Slimme Knopen (Eigenschappen) aan &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | Winkelweergave | Hiermee bepaalt u welke andere PayPal-financieringsopties worden weergegeven op de pagina Uitchecken. De geselecteerde opties worden nooit weergegeven op de pagina Uitchecken. Niet-geselecteerde opties worden alleen weergegeven als PayPal de valuta van de winkel en de locatie van de koper ondersteunt. Opties: `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 

@@ -14,21 +14,21 @@ ht-degree: 0%
 
 
 
-De Diensten van de betaling verstrekt een kant-en-klare oplossing, met inbegrip van zandbak het testen en een eenvoudige opstelling, voor het verstrekken van robuuste en veilige betalingsverwerking. Meer leren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
+De Diensten van de betaling verstrekt een kant-en-klare oplossing, met inbegrip van zandbak het testen en een eenvoudige opstelling, voor het verstrekken van robuuste en veilige betalingsverwerking. Meer leren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
 
 Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebben, op _Admin_ sidebar gaat **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** en klik **[!UICONTROL Settings]**.
 
-![ de Montages van de Diensten van de Betaling ](assets/payment-services-menu-small.png){width="400"}
+![&#x200B; de Montages van de Diensten van de Betaling &#x200B;](assets/payment-services-menu-small.png){width="400"}
 
 >[!NOTE]
 >
->Om de configuratie van de Oudheid in plaats van [ Montages ](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=nl-NL) te gebruiken, zie [ Verouderde configuratie ](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=nl-NL).
+>Om de configuratie van de Oudheid in plaats van [&#x200B; Montages &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=nl-NL) te gebruiken, zie [&#x200B; Verouderde configuratie &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=nl-NL).
 
 ## [!UICONTROL General]
 
-![ Algemene montages ](assets/payments-general-settings.png){width="600" zoomable="yes"}
+![&#x200B; Algemene montages &#x200B;](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---|---|---|
 | [!UICONTROL Enable] | website | Schakel [!DNL Payment Services] voor uw website in of uit. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Payment mode] | winkelweergave | Plaats de methode, of het milieu, voor uw opslag. Opties: [!UICONTROL Sandbox] / [!UICONTROL Production] |
@@ -40,28 +40,28 @@ Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebbe
 
 ## [!UICONTROL Credit card fields]
 
-![ de montages van het het kaartgebied van de Krediet ](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
+![&#x200B; de montages van het het kaartgebied van de Krediet &#x200B;](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg de tekst die tijdens het afrekenen wordt weergegeven als titel voor deze betalingsoptie toe aan de weergave Betalingsmethode. |
-| [!UICONTROL Payment Action] | website | De [ betalingsactie ](payment-methods.md#payment-actions) voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | website | Laat of maak [ 3DS Veilige authentificatie ](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=nl-NL#3ds) toe onbruikbaar. Opties: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL Payment Action] | website | De [&#x200B; betalingsactie &#x200B;](payment-methods.md#payment-actions) voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL 3DS Secure authentication] | website | Laat of maak [&#x200B; 3DS Veilige authentificatie &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=nl-NL#3ds) toe onbruikbaar. Opties: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | In- of uitschakelen van creditcardvelden voor weergave op de afhandelingspagina. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | winkelweergave | Laat toe of maak [ creditcard het vaulteren ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=nl-NL) onbruikbaar. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | winkelweergave | Laat of maak de capaciteit toe onbruikbaar om orden voor klanten in Admin [ te voltooien gebruikend een in kaart gebrachte betalingsmethode ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=nl-NL). Opties: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | winkelweergave | Laat toe of maak [&#x200B; creditcard het vaulteren &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=nl-NL) onbruikbaar. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | winkelweergave | Laat of maak de capaciteit toe onbruikbaar om orden voor klanten in Admin [&#x200B; te voltooien gebruikend een in kaart gebrachte betalingsmethode &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=nl-NL). Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | De foutopsporingsmodus in- of uitschakelen. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
-![ de montages van de PayPal betalingsknopen ](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
+![&#x200B; de montages van de PayPal betalingsknopen &#x200B;](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg tijdens het afrekenen de tekst toe die als titel voor deze betalingsoptie moet worden weergegeven in de weergave Betalingsmethode. |
-| [!UICONTROL Payment Action] | website | De [ betalingsactie ](payment-methods.md#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | website | De [&#x200B; betalingsactie &#x200B;](payment-methods.md#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Show PayPal buttons on checkout page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de uitcheckpagina. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on product detail page] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit op de pagina met productdetails. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | winkelweergave | Schakel [!DNL PayPal Smart Buttons] in of uit in de voorvertoning van de miniwinkelwagentje. Opties: [!UICONTROL Yes] / [!UICONTROL No] |
@@ -77,9 +77,9 @@ Om tot de configuratiemontages voor de Diensten van de Betaling toegang te hebbe
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
-![ Paypal betalingsknopen die montages stileren ](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
+![&#x200B; Paypal betalingsknopen die montages stileren &#x200B;](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Layout] | Winkelweergave | Definieer de lay-outstijl voor de betaalknoppen. Opties: [!UICONTROL Vertical] / [!UICONTROL Horizontal] |
 | [!UICONTROL Tagline] | Winkelweergave | Taglijn in-/uitschakelen. Opties: [!UICONTROL Yes] / [!UICONTROL No] |

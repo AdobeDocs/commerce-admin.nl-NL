@@ -55,7 +55,7 @@ Omleiden vanaf:
 
 1. Stel **[!UICONTROL Create URL Rewrite]** in op `Custom` .
 
-   ![ URL herschrijft - douane ](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
+   ![&#x200B; URL herschrijft - douane &#x200B;](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
 
 1. Voer onder Informatie voor herschrijven van URL de volgende handelingen uit:
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Bedrijfskrediet beheren
 
-Bedrijfskrediet stelt B2B-ondernemingen in staat aankopen te doen tegen een vooraf goedgekeurde kredietlijn in plaats van onmiddellijke betaling te eisen. Wanneer [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) wordt toegelaten, kunnen de bedrijven tot hun kredietgrens kopen en hun creditstatus van het rekeningsdashboard bekijken.
+Bedrijfskrediet stelt B2B-ondernemingen in staat aankopen te doen tegen een vooraf goedgekeurde kredietlijn in plaats van onmiddellijke betaling te eisen. Wanneer [&#x200B; Betaling op Rekening &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) wordt toegelaten, kunnen de bedrijven tot hun kredietgrens kopen en hun creditstatus van het rekeningsdashboard bekijken.
 
-![ Krediet van het Bedrijf ](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+![&#x200B; Krediet van het Bedrijf &#x200B;](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 Met bedrijfskrediet kunt u:
 
@@ -30,7 +30,7 @@ Met bedrijfskrediet kunt u:
 Controleer voordat u het bedrijfskrediet instelt of:
 
 * B2B-functies zijn ingeschakeld in uw Adobe Commerce-installatie
-* [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) wordt gevormd en toegelaten
+* [&#x200B; Betaling op Rekening &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) wordt gevormd en toegelaten
 * De bedrijfsrekeningen worden correct opgezet met noodzakelijke bedrijfsinformatie
 * U hebt beheerdersmachtigingen om bedrijfskredietinstellingen te beheren
 * Valuta-instellingen worden geconfigureerd als deze in meerdere valuta&#39;s werken
@@ -54,7 +54,7 @@ U kunt de volgende credit-related parameters voor elk bedrijfsprofiel vormen:
 * **Toestaan om Kredietgrens te overschrijden** — Of de bedrijven orden kunnen plaatsen die beschikbare kredieten overschrijden
 * **Reden voor Verandering** - Documentatieveld voor het registreren van kredieten die wijzigingen plaatsen
 
-Voor details over deze montages en het vormen van het bedrijfsprofiel, zie [ een Rekening van het Bedrijf ](account-company-create.md) creëren.
+Voor details over deze montages en het vormen van het bedrijfsprofiel, zie [&#x200B; een Rekening van het Bedrijf &#x200B;](account-company-create.md) creëren.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Voor details over deze montages en het vormen van het bedrijfsprofiel, zie [ een
 
 In het gedeelte [!UICONTROL Company Credit] van het bedrijfsprofiel wordt een volledige geschiedenis van alle krediettransacties, balanswijzigingen en betalingsactiviteiten in rasterformaat weergegeven.
 
-![ activiteit van het Krediet van het Bedrijf ](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
+![&#x200B; activiteit van het Krediet van het Bedrijf &#x200B;](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
 
 In het raster wordt voor elke transactie de volgende informatie weergegeven:
 
@@ -113,7 +113,7 @@ Een vergoed saldo is een offline betaling die door een bedrijf wordt gedaan naar
 
 1. Voeg in het dialoogvenster de betalingsgegevens toe:
 
-   ![ Saldo van de Terugbetaling ](./assets/company-reimburse-balance.png){width="500"}
+   ![&#x200B; Saldo van de Terugbetaling &#x200B;](./assets/company-reimburse-balance.png){width="500"}
 
    * Ga het **Bedrag** van de betaling in.
 
@@ -133,7 +133,7 @@ Een vergoed saldo is een offline betaling die door een bedrijf wordt gedaan naar
 
 1. Open het bedrijfsprofiel in de modus **[!UICONTROL Edit]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **sectie van het Krediet van het Bedrijf**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **sectie van het Krediet van het Bedrijf**.
 
 1. Zoek de terugbetalingstransactie in het raster en klik op **[!UICONTROL Edit]** .
 
@@ -147,7 +147,7 @@ Een vergoed saldo is een offline betaling die door een bedrijf wordt gedaan naar
 
 Bedrijfsbeheerders kunnen hun kredietgegevens op het dashboard van de account bekijken, waaronder het uitstaande saldo, het beschikbare krediet, de kredietlimiet en uitstaande facturen. Wanneer orders worden geannuleerd, worden de bedragen teruggezet naar het bedrijfssaldo en weergegeven in het veld Historie van krediettoewijzing.
 
-![ Krediet van het Bedrijf ](./assets/company-credit.png){width="700" zoomable="yes"}
+![&#x200B; Krediet van het Bedrijf &#x200B;](./assets/company-credit.png){width="700" zoomable="yes"}
 
 ## Bedrijfskredietdemo
 
@@ -176,9 +176,9 @@ Verwerk de betalingen direct om de juiste saldi te behouden en zorg ervoor dat d
 
 >[!MORELIKETHIS]
 >
->* [ laat Eigenschappen B2B ](enable-basic-features.md) toe * Vorm Betaling op Rekening en andere functionaliteit B2B
->* [ creeer een Rekening van het Bedrijf ](account-company-create.md) * De rekeningen van het opstellingenbedrijf met kredietmogelijkheden
->* [ beheert Bedrijven ](manage-companies.md) * Overzicht van bedrijfbeheerseigenschappen
->* [ Rollen van het Bedrijf en Toestemmingen ](account-company-roles-permissions.md) * Vorm gebruikerstoegang voor kredietbeheer
->* [ Werkschema van de Orde van de Aankoop ](purchase-order-flow.md) * Begrijp hoe het krediet met kooporders integreert
->* [ B2B de Verwijzing van de Configuratie ](../configuration-reference/general/b2b-features.md) - Gedetailleerde configuratiemontages voor eigenschappen B2B
+>* [&#x200B; laat Eigenschappen B2B &#x200B;](enable-basic-features.md) toe * Vorm Betaling op Rekening en andere functionaliteit B2B
+>* [&#x200B; creeer een Rekening van het Bedrijf &#x200B;](account-company-create.md) * De rekeningen van het opstellingenbedrijf met kredietmogelijkheden
+>* [&#x200B; beheert Bedrijven &#x200B;](manage-companies.md) * Overzicht van bedrijfbeheerseigenschappen
+>* [&#x200B; Rollen van het Bedrijf en Toestemmingen &#x200B;](account-company-roles-permissions.md) * Vorm gebruikerstoegang voor kredietbeheer
+>* [&#x200B; Werkschema van de Orde van de Aankoop &#x200B;](purchase-order-flow.md) * Begrijp hoe het krediet met kooporders integreert
+>* [&#x200B; B2B de Verwijzing van de Configuratie &#x200B;](../configuration-reference/general/b2b-features.md) - Gedetailleerde configuratiemontages voor eigenschappen B2B

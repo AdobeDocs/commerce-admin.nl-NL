@@ -15,9 +15,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het dashboard van [!UICONTROL Content Staging] biedt een overzicht van alle actieve en komende campagnes. De indeling van het dashboard kan worden gewijzigd van een raster in een tijdlijn. U kunt filters ook gebruiken om campagnes te zoeken, de kolomlay-out aan te passen, en verschillende meningen van het net te bewaren. Voor meer informatie over de werkruimtecontroles, zie [ werkruimte Admin ](../getting-started/admin-workspace.md).
+Het dashboard van [!UICONTROL Content Staging] biedt een overzicht van alle actieve en komende campagnes. De indeling van het dashboard kan worden gewijzigd van een raster in een tijdlijn. U kunt filters ook gebruiken om campagnes te zoeken, de kolomlay-out aan te passen, en verschillende meningen van het net te bewaren. Voor meer informatie over de werkruimtecontroles, zie [&#x200B; werkruimte Admin &#x200B;](../getting-started/admin-workspace.md).
 
-![ het Opvoeren dashboard in netmening ](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
+![&#x200B; het Opvoeren dashboard in netmening &#x200B;](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
 
 ## Het testdashboard weergeven
 
@@ -25,13 +25,13 @@ Het dashboard van [!UICONTROL Content Staging] biedt een overzicht van alle acti
 
 1. Als u de indeling van het dashboard wilt wijzigen, stelt u het besturingselement **[!UICONTROL View As]** in op `list` , `Grid` of `Timeline` .
 
-   ![ mening van de Chronologie ](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
+   ![&#x200B; mening van de Chronologie &#x200B;](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
 
    Wanneer de tijdlijn wordt weergegeven, kunt u de schuifregelaar in de rechterbenedenhoek gebruiken om de weergave van een tot vier weken aan te passen. Elke kolom vertegenwoordigt één dag.
 
 1. Als de tijdlijn wordt weergegeven, sleept u de schuifregelaar naar de `4w` -positie helemaal rechts om een langere tijdsperiode weer te geven.
 
-   ![ mening van vier weken ](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
+   ![&#x200B; mening van vier weken &#x200B;](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
 
 1. Klik op een item op de pagina om algemene informatie over de campagne weer te geven.
 
@@ -39,7 +39,7 @@ Het dashboard van [!UICONTROL Content Staging] biedt een overzicht van alle acti
 
    - Als u wilt zien hoe de campagne eruit ziet voor klanten in de winkel op die dag, klikt u op **[!UICONTROL Preview]** .
 
-   ![ informatie van de Campagne ](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
+   ![&#x200B; informatie van de Campagne &#x200B;](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
 
 ## Kolombeschrijvingen van het dashboard opvoeren
 
@@ -63,7 +63,7 @@ Bestaande campagneobjecten kunnen worden bewerkt vanaf het testdashboard, behalv
 >
 >Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
-![ het detail van de Campagne ](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
+![&#x200B; het detail van de Campagne &#x200B;](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 
 De campagne in dit voorbeeld omvat twee categorieën en drie afzonderlijke producten.
 
@@ -78,8 +78,8 @@ Voer de onderstaande stappen uit om objecten in deze campagne te bewerken.
 
 1. Werk de instellingen in de sectie _[!UICONTROL General]_&#x200B;naar wens bij.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit om het even welke sectie die een punt bevat dat moet worden uitgegeven.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit om het even welke sectie die een punt bevat dat moet worden uitgegeven.
 
-   ![ Bijwerkend de toegewezen producten voor een campagnepunt ](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
+   ![&#x200B; Bijwerkend de toegewezen producten voor een campagnepunt &#x200B;](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.

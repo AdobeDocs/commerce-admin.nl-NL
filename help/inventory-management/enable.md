@@ -32,9 +32,9 @@ Hoe deze instelling werkt in inventarissen van één en meerdere bronnen:
 
 Als [!DNL Inventory Management] is ingeschakeld, raadpleegt u het volgende om alle instellingen te configureren:
 
-- [ het Vormen Globale Opties ](global-options.md) - Montages die uw volledige catalogus beïnvloeden, beschouwden de systeemstandaardmontages.
+- [&#x200B; het Vormen Globale Opties &#x200B;](global-options.md) - Montages die uw volledige catalogus beïnvloeden, beschouwden de systeemstandaardmontages.
 
-- [ het Vormen de Opties van het Product ](product-options.md) - Montages voor een specifiek product dat globale opties met voeten treedt.
+- [&#x200B; het Vormen de Opties van het Product &#x200B;](product-options.md) - Montages voor een specifiek product dat globale opties met voeten treedt.
 
 ## [!DNL Inventory Management] in- of uitschakelen
 
@@ -42,9 +42,9 @@ Als [!DNL Inventory Management] is ingeschakeld, raadpleegt u het volgende om al
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) _Opties van de Voorraad van het Product_ uit en vorm:
+1. Breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) _Opties van de Voorraad van het Product_ uit en vorm:
 
-   ![ Opties van de Voorraad van het Product ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties van de Voorraad van het Product &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - Als u een overzicht wilt beheren en alle [!DNL Commerce] -functies wilt gebruiken, stelt u **[!UICONTROL Manage Stock]** in op `Yes` (standaardwaarde).
 
@@ -54,8 +54,8 @@ Als [!DNL Inventory Management] is ingeschakeld, raadpleegt u het volgende om al
 
 ## De voorraad voor een winkel beheren
 
-Zie [ Globale Opties ](global-options.md) vormen.
+Zie [&#x200B; Globale Opties &#x200B;](global-options.md) vormen.
 
 ## De voorraad voor een product beheren
 
-Zie [ het Vormen de Opties van het Product ](product-options.md).
+Zie [&#x200B; het Vormen de Opties van het Product &#x200B;](product-options.md).

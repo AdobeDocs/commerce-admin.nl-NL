@@ -18,7 +18,7 @@ U kunt uw abonnees eenvoudig beheren met een eenvoudige lijst met actieve abonne
 
 In installaties met één site met meerdere winkelweergaven kan een abonnement op een klantenaccount worden gekoppeld aan een specifieke winkelweergave.
 
-In multi-store en multi-site montages met een globaal [ werkingsgebied van de klantenrekening ](../customers/customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven voor veelvoudige plaatsen/opslag worden ingetekend. In dit geval kunt u de klantenaccount bewerken om een groep abonnementen te beheren of een abonnement voor een specifieke site/winkel annuleren om een aanvraag in te willigen.
+In multi-store en multi-site montages met een globaal [&#x200B; werkingsgebied van de klantenrekening &#x200B;](../customers/customer-account-scope.md), kan een klantenrekening aan nieuwsbrieven voor veelvoudige plaatsen/opslag worden ingetekend. In dit geval kunt u de klantenaccount bewerken om een groep abonnementen te beheren of een abonnement voor een specifieke site/winkel annuleren om een aanvraag in te willigen.
 
 Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnementenlijst exporteren als een CSV- of XML-bestand.
 
@@ -34,15 +34,15 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
 
    Voor één site of één winkel kunt u gewoon het selectievakje **[!UICONTROL Subscribed to Newsletter]** in- of uitschakelen.
 
-   ![ Enige checkbox van het de bulletin van de archiefklant ](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
+   ![&#x200B; Enige checkbox van het de bulletin van de archiefklant &#x200B;](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
    Voor één site/meerdere winkels kunt u het selectievakje **[!UICONTROL Subscribed to Newsletter]** in- of uitschakelen en **[!UICONTROL Subscribed on Store View]** instellen op de juiste winkelweergave voor het abonnement.
 
-   ![ multi-store checkbox van het de bulletin van de klant en de selecteur van de opslagmening ](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
+   ![&#x200B; multi-store checkbox van het de bulletin van de klant en de selecteur van de opslagmening &#x200B;](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
 
    Voor een installatie van meerdere sites/meerdere winkels met een algemeen bereik voor klantenaccounts geeft de pagina de abonnementsstatus voor alle sites weer. U kunt het selectievakje **[!UICONTROL Subscribed]** in- of uitschakelen en/of de **[!UICONTROL Store View]** voor het abonnement wijzigen.
 
-   ![ Multisite checkboxes van het de bulletin van de klant en de selecteurs van de opslagmening ](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
+   ![&#x200B; Multisite checkboxes van het de bulletin van de klant en de selecteurs van de opslagmening &#x200B;](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Customer]**.
 
@@ -60,7 +60,7 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
 
 1. Stel het besturingselement _[!UICONTROL Action]_&#x200B;in op **[!UICONTROL Unsubscribe]**&#x200B;en klik op **[!UICONTROL Submit]**.
 
-   ![ Unsubscribe nieuwsbrief ](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
+   ![&#x200B; Unsubscribe nieuwsbrief &#x200B;](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
    De status van de record verandert in `Unsubscribed` .
 
@@ -75,7 +75,7 @@ Als u nieuwsbrieven wilt verzenden met een externe service, kunt u uw abonnement
 
 1. Klik op **[!UICONTROL Export]** en zoek de vraag onder aan het scherm en sla het bestand op.
 
-   ![ de nieuwsbrief van de Uitvoer abonnees ](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
+   ![&#x200B; de nieuwsbrief van de Uitvoer abonnees &#x200B;](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
 
 ## Een abonnee verwijderen uit de lijst met abonnees
 

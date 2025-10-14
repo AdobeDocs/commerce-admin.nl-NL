@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Nieuwe opties voor klantenaccount
 
-In de sectie _[!UICONTROL Create New Account Options]_&#x200B;van de configuratie worden de basisaccountopties gecombineerd met meer geavanceerde opties die betrekking hebben op de validatie van BTW-id&#39;s en aangepaste integratie. De volgende instructies hebben alleen betrekking op de meest gebruikte opties. Om over automatische taken van de klantengroep te leren, zie [ de Bevestiging van de BTW ](../stores-purchase/vat.md).
+In de sectie _[!UICONTROL Create New Account Options]_&#x200B;van de configuratie worden de basisaccountopties gecombineerd met meer geavanceerde opties die betrekking hebben op de validatie van BTW-id&#39;s en aangepaste integratie. De volgende instructies hebben alleen betrekking op de meest gebruikte opties. Om over automatische taken van de klantengroep te leren, zie [&#x200B; de Bevestiging van de BTW &#x200B;](../stores-purchase/vat.md).
 
-![ creeer de Nieuwe Opties van de Rekening ](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+![&#x200B; creeer de Nieuwe Opties van de Rekening &#x200B;](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## De basisopties voor klantenaccounts instellen
 
@@ -24,7 +24,7 @@ In de sectie _[!UICONTROL Create New Account Options]_&#x200B;van de configurati
 
 1. Vouw de sectie **[!UICONTROL Create New Account Options]** uit:
 
-   ![ creeer de Nieuwe standaardmontages van de Opties van de Rekening ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer de Nieuwe standaardmontages van de Opties van de Rekening &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 1. Stel elk van de opties in op basis van de ervaring van de klant die u op uw winkel moet ondersteunen:
 
@@ -52,8 +52,8 @@ In de sectie _[!UICONTROL Create New Account Options]_&#x200B;van de configurati
 
    - Stel **[!UICONTROL Require Emails Confirmation]** in op `Yes` als u wilt dat klanten hun verzoek om een account bij uw winkel te openen, bevestigen. Stel vervolgens **[!UICONTROL Confirmation Link Email]** in op de sjabloon die wordt gebruikt voor het bevestigingsbericht.
 
-   ![ creeer de Nieuwe Opties van de Rekening met toegelaten BTW ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer de Nieuwe Opties van de Rekening met toegelaten BTW &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   Voor gedetailleerde informatie over elk van de opties beschikbaar in deze reeks van configuratieoptie, zie _de Nieuwe Opties van de Rekening_ [ configuratieverwijzing ](../configuration-reference/customers/customer-configuration.md) creëren.
+   Voor gedetailleerde informatie over elk van de opties beschikbaar in deze reeks van configuratieoptie, zie _de Nieuwe Opties van de Rekening_ [&#x200B; configuratieverwijzing &#x200B;](../configuration-reference/customers/customer-configuration.md) creëren.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -26,9 +26,9 @@ Voor een gedetailleerde lijst van de configuratiemontages, zie [_[!UICONTROL Mai
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Mail Sending Settings]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Mail Sending Settings]** sectie uit en doe het volgende:
 
-   ![ Geavanceerde configuratie - post verzendend montages ](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - post verzendend montages &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
    - Indien nodig, stelt u **[!UICONTROL Disable Email Communications]** in op `No` .
 
@@ -53,15 +53,15 @@ Voor een gedetailleerde lijst van de configuratiemontages, zie [_[!UICONTROL Mai
       - **[!UICONTROL Auth]** - Kies het verificatietype voor de SMTP-serververbinding: `NONE` , `PLAIN` of `LOGIN`
       - **[!UICONTROL SSL]** - Kies het verificatietype voor het serverbeveiligingscertificaat: `SSL` of `TLS`
 
-     ![ Geavanceerde configuratie - post verzendend montages ](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
+     ![&#x200B; Geavanceerde configuratie - post verzendend montages &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales Emails]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** sectie uit.
 
 1. Stel **[!UICONTROL Asynchronous sending]** in op `Enable` .
 
-   ![ configuratie van de Verkoop - e-mail algemene montages ](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - e-mail algemene montages &#x200B;](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van de configuratiemontages, zie [_Algemene Montages_](../configuration-reference/sales/sales-emails.md) in de _Verwijzing van de Configuratie_.
 

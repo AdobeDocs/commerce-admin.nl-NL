@@ -24,7 +24,7 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` in de sectie _[!UICONTROL General]_.
 
-   ![ Algemene veiligheidsconfiguratie ](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene veiligheidsconfiguratie &#x200B;](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
 1. Voer onder _[!UICONTROL Contact Information]_&#x200B;het volgende in:
 
@@ -32,7 +32,7 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
    - De URL van de winkels **[!UICONTROL Contact Page]** . Deze pagina zou of een lijst van de contacten van de opslagveiligheid of uw _pagina van het Contact van ons_ kunnen zijn.
 
-   ![ configuratie van de Informatie van het Contact ](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Informatie van het Contact &#x200B;](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
 1. Voer onder _[!UICONTROL Other Information]_&#x200B;het volgende in:
 
@@ -40,7 +40,7 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
    - De URL van een **[!UICONTROL Acknowledgments]** -pagina waarop beveiligingsonderzoekers worden herkend voor hun inspanningen namens uw winkel.
 
-   - Uw **[!UICONTROL Preferred Languages]** voor communicatie met betrekking tot beveiliging. Ga de standaard twee karakter [ taalcode ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) voor elke gesteunde taal in, die door een komma wordt gescheiden. Als u bijvoorbeeld Engels, Spaans en Frans wilt opgeven, voert u `en, es, fr` in. Alle opgegeven talen hebben dezelfde prioriteit, ongeacht de weergavevolgorde.
+   - Uw **[!UICONTROL Preferred Languages]** voor communicatie met betrekking tot beveiliging. Ga de standaard twee karakter [&#x200B; taalcode &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) voor elke gesteunde taal in, die door een komma wordt gescheiden. Als u bijvoorbeeld Engels, Spaans en Frans wilt opgeven, voert u `en, es, fr` in. Alle opgegeven talen hebben dezelfde prioriteit, ongeacht de weergavevolgorde.
 
    - De URL van een **[!UICONTROL Hiring]** -pagina met aan beveiliging gerelateerde werkgelegenheidsmogelijkheden in uw winkel.
 
@@ -48,8 +48,8 @@ Het bestand `security.txt` bevat contactgegevens en beveiligingskoppelingen die 
 
    - De URL van een digitaal **[!UICONTROL Signature]** bestand dat op uw server wordt opgeslagen. Bijvoorbeeld: `https://mystore.com/.well-known/security.txt.sig`
 
-   De digitale handtekening moet zijn ingesteld via de CLI (opdrachtregelinterface) van de server. Meer leren, zie [ Security.txt ](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) op GitHub.
+   De digitale handtekening moet zijn ingesteld via de CLI (opdrachtregelinterface) van de server. Meer leren, zie [&#x200B; Security.txt &#x200B;](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) op GitHub.
 
-   ![ Andere Informatie ](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
+   ![&#x200B; Andere Informatie &#x200B;](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

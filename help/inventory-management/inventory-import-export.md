@@ -33,7 +33,7 @@ Het export-import bestand bevat de volgende informatie, afhankelijk van de bron:
 
 Gebruik een CSV-bestand om snel meerdere producten en toegewezen bronnen bij te werken en eventuele onnauwkeurigheden in de voorraadadministratie te corrigeren in plaats van één voor één via de toepassingsinterface. Exporteer voor een basisbestand eerst en werk het bestand zo nodig bij.
 
-![ Csv- dossier van het Voorbeeld voor de invoer - de gegevens van de de uitvoervoorraad ](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
+![&#x200B; Csv- dossier van het Voorbeeld voor de invoer - de gegevens van de de uitvoervoorraad &#x200B;](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
 
 ## Productgegevens exporteren voor alle bronnen
 
@@ -49,7 +49,7 @@ Gebruik een CSV-bestand om snel meerdere producten en toegewezen bronnen bij te 
 
 Importeer het bestand weer in [!DNL Commerce] nadat u de voorraad en de productgegevens hebt bijgewerkt.
 
-![ de voorraadbronnen van de Uitvoer voor productgegevens en bronnen ](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
+![&#x200B; de voorraadbronnen van de Uitvoer voor productgegevens en bronnen &#x200B;](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
 
 ## Productgegevens exporteren voor een specifieke bron
 
@@ -83,4 +83,4 @@ Importeer het bestand weer in [!DNL Commerce] nadat u de voorraad en de productg
 
 1. Klik op **[!UICONTROL Check Data]** en voltooi het importeren.
 
-![ de productgegevens en bronnen van de Invoer ](assets/inventory-import-sources.png){width="600" zoomable="yes"}
+![&#x200B; de productgegevens en bronnen van de Invoer &#x200B;](assets/inventory-import-sources.png){width="600" zoomable="yes"}

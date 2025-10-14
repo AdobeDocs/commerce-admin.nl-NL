@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Winkelweergaven worden doorgaans gebruikt om de winkel in verschillende landinstellingen beschikbaar te maken. Klanten kunnen de taalkiezer in de koptekst van de winkel gebruiken om de winkelweergave te wijzigen.
 
-![ Reikwijdte - veelvoudige opslagmeningen ](./assets/scope-multiview.svg){width="550"}
+![&#x200B; Reikwijdte - veelvoudige opslagmeningen &#x200B;](./assets/scope-multiview.svg){width="550"}
 
 ## Winkelweergave toevoegen
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-   ![ Alle opslag ](./assets/stores-all.png){width="700" zoomable="yes"}
+   ![&#x200B; Alle opslag &#x200B;](./assets/stores-all.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Create Store View]** .
 
-   ![ creeer opslagmening ](./assets/create-store-view.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer opslagmening &#x200B;](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Store]** in op de bovenliggende opslag van deze weergave.
 
@@ -61,7 +61,7 @@ Als uw Adobe Commerce- of Magento Open Source-installatie meerdere sites of meer
 
    Wanneer u de standaardweergave bewerkt, zijn de velden _[!UICONTROL Store]_&#x200B;en&#x200B;_[!UICONTROL Status]_ niet beschikbaar.
 
-   ![ mening van de Opslag - geef standaardmening uit ](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
+   ![&#x200B; mening van de Opslag - geef standaardmening uit &#x200B;](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
 1. Werk indien nodig de volgende velden bij:
 

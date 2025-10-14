@@ -16,25 +16,25 @@ De pagina _[!UICONTROL Shared Catalogs]_&#x200B;biedt toegang tot de gereedschap
 
 ## De productselectie bijwerken
 
-De selectie van producten in een gedeelde catalogus kan eenvoudig worden bijgewerkt vanuit de kolom _[!UICONTROL Action]_&#x200B;in het raster voor gedeelde catalogi. De wijzigingen die u aanbrengt, zijn zichtbaar voor leden van gekoppelde bedrijfsaccounts. Het proces is hoofdzakelijk het zelfde als het kiezen van producten voor een nieuwe [ catalogusstructuur ](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
+De selectie van producten in een gedeelde catalogus kan eenvoudig worden bijgewerkt vanuit de kolom _[!UICONTROL Action]_&#x200B;in het raster voor gedeelde catalogi. De wijzigingen die u aanbrengt, zijn zichtbaar voor leden van gekoppelde bedrijfsaccounts. Het proces is hoofdzakelijk het zelfde als het kiezen van producten voor een nieuwe [&#x200B; catalogusstructuur &#x200B;](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 1. Ga voor de gedeelde catalogus in het raster naar de kolom **[!UICONTROL Action]** en selecteer **[!UICONTROL Set Pricing and Structure]** .
 
-   ![ Gedeeld catalogusnet en actiemenu ](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
+   ![&#x200B; Gedeeld catalogusnet en actiemenu &#x200B;](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
-1. Volg de instructies in [ Stap 2: Kies producten ](catalog-shared-pricing-structure.md#step-2-choose-the-products).
+1. Volg de instructies in [&#x200B; Stap 2: Kies producten &#x200B;](catalog-shared-pricing-structure.md#step-2-choose-the-products).
 
    U kunt het eerste item overslaan, omdat het bereik van een gedeelde catalogus niet kan worden gewijzigd nadat het voor de eerste keer is opgeslagen.
 
-Als u met een specifiek product werkt, wordt in de sectie _[!UICONTROL Products In Shared Catalog]_&#x200B;elke gedeelde catalogus weergegeven waarin het product beschikbaar is. Meer leren, zie [ producten aan een gedeelde catalogus ](catalog-shared-product-add.md) toevoegen.
+Als u met een specifiek product werkt, wordt in de sectie _[!UICONTROL Products In Shared Catalog]_&#x200B;elke gedeelde catalogus weergegeven waarin het product beschikbaar is. Meer leren, zie [&#x200B; producten aan een gedeelde catalogus &#x200B;](catalog-shared-product-add.md) toevoegen.
 
-![ Product in Gedeelde Catalogi ](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
+![&#x200B; Product in Gedeelde Catalogi &#x200B;](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
 ## Aangepaste prijzen bijwerken
 
-De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig worden bijgewerkt in de kolom Actie van het raster Gedeelde catalogi. De veranderingen u aanbrengt zijn zichtbaar aan in de winkel aan leden van het bijbehorende bedrijf of de klantengroep. Het proces is hoofdzakelijk het zelfde als het plaatsen van douanetarifering voor een nieuwe [ gedeelde catalogus ](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
+De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig worden bijgewerkt in de kolom Actie van het raster Gedeelde catalogi. De veranderingen u aanbrengt zijn zichtbaar aan in de winkel aan leden van het bijbehorende bedrijf of de klantengroep. Het proces is hoofdzakelijk het zelfde als het plaatsen van douanetarifering voor een nieuwe [&#x200B; gedeelde catalogus &#x200B;](catalog-shared-pricing-structure.md), behalve dat kan het werkingsgebied van de configuratie niet worden veranderd.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -45,7 +45,7 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
    - Klik op **[!UICONTROL Pricing]** in de voortgangsindicator boven aan de pagina.
    - Klik in de rechterbovenhoek op **[!UICONTROL Next]** .
 
-1. Volg de instructies in [ Stap 3: Plaats douaneprijzen ](catalog-shared-pricing-structure.md#step-3-set-custom-prices).
+1. Volg de instructies in [&#x200B; Stap 3: Plaats douaneprijzen &#x200B;](catalog-shared-pricing-structure.md#step-3-set-custom-prices).
 
 ## Categoriemachtigingen bijwerken
 
@@ -53,11 +53,11 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan `Allow` voor _[!UICONTROL Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 &#x200B;](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [&#x200B; categorietoestemming &#x200B;](../catalog/category-permissions.md) voor de catalogus geplaatst aan `Allow` voor _[!UICONTROL Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 >[!IMPORTANT]
 >
->Alle bestaande [ montages van de groepstoestemming ](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
+>Alle bestaande [&#x200B; montages van de groepstoestemming &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -65,19 +65,19 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
 
    Als u alle producten wilt opnemen, selecteert u de bovenste categorie in de structuur.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Category Permissions]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Category Permissions]** sectie.
 
 1. Klik op **[!UICONTROL New Permission]** en voer de volgende handelingen uit:
 
-   ![ Nieuwe Toestemming ](./assets/category-permissions-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Toestemming &#x200B;](./assets/category-permissions-new.png){width="600" zoomable="yes"}
 
    - Kies de **[!UICONTROL Customer Group]** die overeenkomt met de gedeelde catalogus en wijzig zo nodig de machtigingsinstellingen.
 
-     ![ Regel van de Rechten van de Categorie ](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
+     ![&#x200B; Regel van de Rechten van de Categorie &#x200B;](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
 
    - Als u een machtigingsregel voor een andere klantengroep wilt maken, klikt u op **[!UICONTROL New Permissions]** en herhaalt u het proces.
 
-   - Om een toestemmingsregel te schrappen, klik _Schrapping_ ![ het prullenmand ](../assets/icon-delete-trashcan-solid.png) pictogram.
+   - Om een toestemmingsregel te schrappen, klik _Schrapping_ ![&#x200B; het prullenmand &#x200B;](../assets/icon-delete-trashcan-solid.png) pictogram.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -85,13 +85,13 @@ De aangepaste prijzen van producten in een gedeelde catalogus kunnen eenvoudig w
 
 De gedetailleerde informatie van om het even welke gedeelde catalogus kan gemakkelijk van de kolom van de Actie van het Gedeelde net van Catalogi worden bijgewerkt. De veranderingen u aanbrengt worden weerspiegeld in om het even welke bijbehorende bedrijfsrekeningen.
 
-![ Algemene Montages ](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
+![&#x200B; Algemene Montages &#x200B;](./assets/shared-catalog-grid-general-settings.png){width="700" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 1. Ga voor de gedeelde catalogus die u wilt bijwerken naar de kolom **[!UICONTROL Action]** en selecteer **[!UICONTROL General Settings]** .
 
-   ![ de Details van de Catalogus ](./assets/shared-catalog-update-details.png){width="600" zoomable="yes"}
+   ![&#x200B; de Details van de Catalogus &#x200B;](./assets/shared-catalog-update-details.png){width="600" zoomable="yes"}
 
 1. Werk indien nodig de gedetailleerde informatie over de catalogus bij.
 
@@ -109,7 +109,7 @@ De gedetailleerde informatie van om het even welke gedeelde catalogus kan gemakk
 | [!UICONTROL Back] | Hiermee gaat u terug naar de pagina Gedeelde catalogi zonder de nieuwe gedeelde catalogus op te slaan. |
 | [!UICONTROL Delete] | Hiermee verwijdert u de catalogus en wijst u eventuele gekoppelde bedrijven en hun leden toe aan de gedeelde openbare catalogus. |
 | [!UICONTROL Reset] | Hiermee wist u de vorm van niet-opgeslagen wijzigingen en herstelt u de oorspronkelijke details van de catalogus. |
-| [!UICONTROL Duplicate] | Creeert a [ dubbel exemplaar van de catalogus ](catalog-shared-create.md). Voor een aangepaste catalogus, het prijsmodel en de structuur van het origineel, maar zonder de ondernemersverenigingen. Als een openbare gedeelde catalogus wordt gedupliceerd, verandert het type van de gedupliceerde catalogus in `custom` . Er wordt ook een overeenkomende klantengroep gemaakt met dezelfde naam als de gedupliceerde catalogus. Door gebrek, wordt een dubbele catalogus genoemd _Duplicaat van_ de originele catalogus. |
+| [!UICONTROL Duplicate] | Creeert a [&#x200B; dubbel exemplaar van de catalogus &#x200B;](catalog-shared-create.md). Voor een aangepaste catalogus, het prijsmodel en de structuur van het origineel, maar zonder de ondernemersverenigingen. Als een openbare gedeelde catalogus wordt gedupliceerd, verandert het type van de gedupliceerde catalogus in `custom` . Er wordt ook een overeenkomende klantengroep gemaakt met dezelfde naam als de gedupliceerde catalogus. Door gebrek, wordt een dubbele catalogus genoemd _Duplicaat van_ de originele catalogus. |
 | [!UICONTROL Save and Continue Edit] | Hiermee slaat u alle wijzigingen op en het formulier blijft geopend in de bewerkingsmodus. |
 | [!UICONTROL Save] | Hiermee slaat u wijzigingen op, sluit u het formulier en keert u terug naar de pagina Gedeelde catalogi. |
 

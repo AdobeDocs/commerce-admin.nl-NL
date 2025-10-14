@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes Template]_&#x200B;van het dashboard voor de klantenaccount alle prijsaanhalingstekensjablonen weergegeven die aan de klantenaccount zijn gekoppeld. Afhankelijk van hun machtigingen kunnen alleen kopers die voor rekening van een bedrijf aankopen doen, een prijsopgave aanvragen en prijsopgave en voorwaarden voor terugkerende orders bespreken.
 
-![ Mijn Malplaatjes van het Citaat ](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+![&#x200B; Mijn Malplaatjes van het Citaat &#x200B;](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
 De lijst van het citaatmalplaatje organiseert malplaatjes door status.
 
@@ -56,7 +56,7 @@ Een koper die de door de verkoper aangeboden onderhandelingstermijnen accepteert
 
 In het volgende voorbeeld ziet u een prijsopmaaksjabloon die door de koper is bijgewerkt en ter controle naar de verkoper is teruggestuurd.
 
-![ mening van de Koper van citaatmalplaatje ](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
+![&#x200B; mening van de Koper van citaatmalplaatje &#x200B;](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
 
 Sjablonen met de status `Submitted` zijn vergrendeld totdat de verkoper de template bekijkt en bijwerkt en deze naar de koper retourneert.
 
@@ -100,7 +100,7 @@ Nadat de koper een aanhalingstekensjabloon heeft geaccepteerd, kunnen ze deze ge
 
 Het gekoppelde aanhalingsteken bevat een melding die aangeeft dat het is goedgekeurd en gereed voor afhandeling. Het verstrekt ook een verbinding aan het citaatmalplaatje in de kopbalinformatie.
 
-![ Gekoppeld citaat dat van een citaatmalplaatje wordt geproduceerd ](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
+![&#x200B; Gekoppeld citaat dat van een citaatmalplaatje wordt geproduceerd &#x200B;](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
 
 Als het citaatmalplaatje met een ordedrempel werd gevormd, wordt de telling verhoogd wanneer het verbonden citaat wordt geproduceerd.
 

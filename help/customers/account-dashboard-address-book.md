@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Klanten die hun adresboeken actueel houden, kunnen het afrekenen versnellen. Het adresboek bevat de standaardfacturerings- en verzendadressen van de klant en eventuele extra adressen die deze vaak gebruikt. Extra adresvermeldingen zijn eenvoudig toegankelijk en te onderhouden via het raster. Elk klantenadresboek kan meer dan 3.000 ingangen van het adresboek beheren zonder prestaties te beïnvloeden.
 
-![ Boek van het Adres ](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
+![&#x200B; Boek van het Adres &#x200B;](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
 
 ## Een adres toevoegen
 
@@ -22,7 +22,7 @@ Klanten die hun adresboeken actueel houden, kunnen het afrekenen versnellen. Het
 
 1. Voor de _[!UICONTROL Address Book]_&#x200B;pagina onder_ Extra Ingangen van het Adres _, klikt **[!UICONTROL Add New Address]**.
 
-   ![ voeg Nieuw Adres ](assets/add-new-address.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Nieuw Adres &#x200B;](assets/add-new-address.png){width="600" zoomable="yes"} toe
 
 1. Hiermee wordt het nieuwe adresitem gedefinieerd.
 
@@ -45,7 +45,7 @@ Klanten die hun adresboeken actueel houden, kunnen het afrekenen versnellen. Het
    >
    >Het nieuwe adres wordt vermeld onder [!UICONTROL Additional Address Entries].
 
-   ![ Extra Ingangen van het Adres ](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
+   ![&#x200B; Extra Ingangen van het Adres &#x200B;](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## Een adres bewerken
 

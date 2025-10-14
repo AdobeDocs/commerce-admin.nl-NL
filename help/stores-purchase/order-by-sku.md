@@ -21,9 +21,9 @@ Een &#39;SKU&#39; is een &#39;Stock Keeping Unit&#39;. SKU&#39;s helpen online v
 
 Normaal gesproken bevat een SKU een reeks afkortingen die de onderscheidende kenmerken van het product aangeven. De maximale SKU-lengte is 64 tekens. SKUs is belangrijk om inventaris effectief te volgen en te beheren, zodat is het correct opzetten van hen voor e-handel kritiek.
 
-_Orde door SKU_ is a [ widget ](../content-design/widgets.md) die in de opslag als gemak voor alle kopers kan worden getoond, of ter beschikking gesteld aan slechts de kopers in specifieke klantengroepen. Klanten kunnen de SKU- en kwantitatieve gegevens rechtstreeks in de Order invoeren per SKU-blok of een CSV-bestand uploaden vanaf hun klantenaccount. Ongeacht de configuratie, is de orde door SKU altijd beschikbaar om beheerders op te slaan.
+_Orde door SKU_ is a [&#x200B; widget &#x200B;](../content-design/widgets.md) die in de opslag als gemak voor alle kopers kan worden getoond, of ter beschikking gesteld aan slechts de kopers in specifieke klantengroepen. Klanten kunnen de SKU- en kwantitatieve gegevens rechtstreeks in de Order invoeren per SKU-blok of een CSV-bestand uploaden vanaf hun klantenaccount. Ongeacht de configuratie, is de orde door SKU altijd beschikbaar om beheerders op te slaan.
 
-![ Orde door SKU in Storefront ](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
+![&#x200B; Orde door SKU in Storefront &#x200B;](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
 ## Volgorde door SKU configureren
 
@@ -31,7 +31,7 @@ _Orde door SKU_ is a [ widget ](../content-design/widgets.md) die in de opslag a
 
 1. Vouw in het linkerdeelvenster de sectie **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order by SKU Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order by SKU Settings]** sectie uit.
 
 1. Stel **[!UICONTROL Enable Order by SKU on my Account in Storefront]** in op een van de volgende opties:
 
@@ -39,21 +39,21 @@ _Orde door SKU_ is a [ widget ](../content-design/widgets.md) die in de opslag a
    - `Yes, for Specified Customer Groups` - De orde door SKU is beschikbaar slechts aan leden van een specifieke klantengroep, zoals `Wholesale`.
    - `No` - Het blok van de Orde door SKU verschijnt niet in de winkel, en de Orde door de pagina van SKU is niet beschikbaar in de klantenrekening.
 
-   ![ Orde door de Montages van SKU ](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Orde door de Montages van SKU &#x200B;](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Adobe Commerce B2B slechts) _&#x200B;**om de Orde door de functie van SKU toe te laten, maak de Snelle functie van de Orde onbruikbaar:**&#x200B;_
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Adobe Commerce B2B slechts) _&#x200B;**om de Orde door de functie van SKU toe te laten, maak de Snelle functie van de Orde onbruikbaar:**&#x200B;_
 
 1. Ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL B2B Features]**
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL B2B Features]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL B2B Features]** sectie uit.
 
 1. Stel **[!UICONTROL Enable Quick Order]** in op `No` .
 
-   De [ Snelle eigenschap van de Orde ](../b2b/quick-order.md) staat klanten en gasten toe om orden snel te plaatsen die op SKU of productnaam worden gebaseerd.
+   De [&#x200B; Snelle eigenschap van de Orde &#x200B;](../b2b/quick-order.md) staat klanten en gasten toe om orden snel te plaatsen die op SKU of productnaam worden gebaseerd.
 
 ## Storefront-ervaring
 
@@ -79,15 +79,15 @@ Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot d
 
    - Voer de **[!UICONTROL SKU]** en **[!UICONTROL Qty]** in van het item dat moet worden geordend.
 
-   - Om extra punten toe te voegen zoals nodig, klikt _Rij_ ![ plus ondertekent knoop ](../assets/button-add-item.png) en herhaalt voor zo vele punten zonodig.
+   - Om extra punten toe te voegen zoals nodig, klikt _Rij_ ![&#x200B; plus ondertekent knoop &#x200B;](../assets/button-add-item.png) en herhaalt voor zo vele punten zonodig.
 
    - Klik op **[!UICONTROL Add to Cart]** .
 
    _&#x200B;**uploadt een Csv- dossier van veelvoudige punten:**&#x200B;_
 
-   - Bereidt een [ dossier van de de invoergegevens CSV ](../systems/data-csv.md) (komma-Gescheiden Waarde) voor dat kolommen voor `SKU` en `Qty` omvat.
+   - Bereidt een [&#x200B; dossier van de de invoergegevens CSV &#x200B;](../systems/data-csv.md) (komma-Gescheiden Waarde) voor dat kolommen voor `SKU` en `Qty` omvat.
 
-   ![ SKUs om ](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"} in te voeren
+   ![&#x200B; SKUs om &#x200B;](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"} in te voeren
 
    - Klik op **[!UICONTROL Choose File]** en selecteer het bestand dat u wilt uploaden om het CSV-bestand te uploaden.
 
@@ -95,7 +95,7 @@ Wanneer de functionaliteit voor de opslag wordt gevormd, kunnen de klanten tot d
 
    Als een van de producten aanvullende opties heeft, wordt de klant vanuit het winkelwagentje gevraagd om aandacht voor het product.
 
-   ![ Product vereist Aandacht ](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
+   ![&#x200B; Product vereist Aandacht &#x200B;](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >

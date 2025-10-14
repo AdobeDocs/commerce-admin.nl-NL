@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met een bevordering worden geassocieerd. Om de vereniging te maken, moet u zowel het dynamische blok als de [ regel van de catalogusprijs ](../merchandising-promotions/price-rules-catalog.md) of [ de regel van de kartprijs ](../merchandising-promotions/price-rules-cart.md) eerst tot stand brengen. De associatie kan tot stand worden gebracht wanneer wordt gewerkt aan een prijsregel of wanneer wordt gewerkt aan een dynamisch blok.
+Om het even welk [&#x200B; dynamische blok &#x200B;](dynamic-blocks.md) dat u creeert kan met een bevordering worden geassocieerd. Om de vereniging te maken, moet u zowel het dynamische blok als de [&#x200B; regel van de catalogusprijs &#x200B;](../merchandising-promotions/price-rules-catalog.md) of [&#x200B; de regel van de kartprijs &#x200B;](../merchandising-promotions/price-rules-cart.md) eerst tot stand brengen. De associatie kan tot stand worden gebracht wanneer wordt gewerkt aan een prijsregel of wanneer wordt gewerkt aan een dynamisch blok.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met ee
 
 1. Zoek in het raster de regel die u aan het dynamische blok wilt koppelen en open in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]** uit.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]** uit.
 
 1. Stel in de eerste kolom het filter in op `Any` en klik op **[!UICONTROL Reset Filter]** .
 
@@ -38,7 +38,7 @@ Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met ee
 
 1. Schakel het selectievakje in van elk dynamisch blok dat u aan de regel wilt koppelen.
 
-   ![ Toevoegend geselecteerde dynamische blokken ](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
+   ![&#x200B; Toevoegend geselecteerde dynamische blokken &#x200B;](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -62,6 +62,6 @@ Om het even welk [ dynamische blok ](dynamic-blocks.md) dat u creeert kan met ee
 
 1. Klik op **[!UICONTROL Add Selected]**.
 
-   ![ Toevoegend geselecteerde prijsregels aan een dynamisch blok ](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![&#x200B; Toevoegend geselecteerde prijsregels aan een dynamisch blok &#x200B;](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.

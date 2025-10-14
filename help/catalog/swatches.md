@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Klanten hebben hoge verwachtingen bij het kiezen van een kleur en het is van cruciaal belang dat productbeschrijvingen elke beschikbare kleur, patroon of structuur nauwkeurig weergeven. De broek in het volgende voorbeeld is bijvoorbeeld niet beschikbaar in rood, groen en blauw. Ze zijn alleen beschikbaar in bepaalde soorten rood, groen en blauw, die waarschijnlijk uniek zijn voor dit product.
 
-![ Monsters op een productpagina ](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
+![&#x200B; Monsters op een productpagina &#x200B;](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-Voor [ configureerbare producten ](product-create-configurable.md), kan de kleur door een visueel monster, een tekstmonster, of een inputcontrole worden aangewezen. De monsters kunnen op de productpagina, in productlijsten, en in [ gelaagde navigatie ](navigation-layered.md) worden gebruikt. Op de productpagina worden stalen gesynchroniseerd om de bijbehorende productafbeelding weer te geven wanneer het staal wordt geselecteerd. Wanneer de klant het staal selecteert, wordt de corresponderende waarde weergegeven in het invoerveld en wordt het staal omgeven door de huidige selectie.
+Voor [&#x200B; configureerbare producten &#x200B;](product-create-configurable.md), kan de kleur door een visueel monster, een tekstmonster, of een inputcontrole worden aangewezen. De monsters kunnen op de productpagina, in productlijsten, en in [&#x200B; gelaagde navigatie &#x200B;](navigation-layered.md) worden gebruikt. Op de productpagina worden stalen gesynchroniseerd om de bijbehorende productafbeelding weer te geven wanneer het staal wordt geselecteerd. Wanneer de klant het staal selecteert, wordt de corresponderende waarde weergegeven in het invoerveld en wordt het staal omgeven door de huidige selectie.
 
 >[!NOTE]
 >
@@ -26,17 +26,17 @@ Voor [ configureerbare producten ](product-create-configurable.md), kan de kleur
 
 Als een afbeelding niet beschikbaar is voor een staal, wordt de kenmerkwaarde weergegeven als tekst. Een op tekst gebaseerd staal is vergelijkbaar met een knop met een tekstlabel en gedraagt zich op dezelfde manier als een staal met een afbeelding. Als op tekst gebaseerde stalen worden gebruikt om de beschikbare formaten weer te geven, wordt de grootte die niet beschikbaar is, doorgehaald.
 
-![ op tekst-Gebaseerde monsterselectie toont uit-van-voorraad grootte ](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
+![&#x200B; op tekst-Gebaseerde monsterselectie toont uit-van-voorraad grootte &#x200B;](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
 
 ## Stalen in gelaagde navigatie
 
 Stalen kunnen ook worden gebruikt in gelaagde navigatie als de eigenschap _[!UICONTROL Use in Layered Navigation]_&#x200B;van het kenmerk color is ingesteld op `Yes` . In het volgende voorbeeld ziet u zowel tekststalen als kleurafbeeldingsstalen in gelaagde navigatie.
 
-![ Monsters in getoond in gelaagde navigatie ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
+![&#x200B; Monsters in getoond in gelaagde navigatie &#x200B;](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
 ## Stalen maken voor producten
 
-De monsters kunnen als component van het `color` attribuut of opstelling plaatselijk voor een specifiek product worden bepaald en als [ productbeelden ](product-image.md#upload-an-image) worden geupload.
+De monsters kunnen als component van het `color` attribuut of opstelling plaatselijk voor een specifiek product worden bepaald en als [&#x200B; productbeelden &#x200B;](product-image.md#upload-an-image) worden geupload.
 
 In de vorige voorbeelden zijn de ans &quot;Sylvia Capri&quot; beschikbaar in specifieke waarden `red`, `green` en `blue` . Omdat de stalen uit de afbeelding van het product zijn genomen, is elk een werkelijke weergave van de kleur. Het attribuut `color` wordt gebruikt om de informatie voor alle productkleuren en monsters te beheren.
 
@@ -48,7 +48,7 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
 1. Als u de ware kleur van een product wilt vastleggen, opent u de afbeelding in een foto-editor en gebruikt u het pipet om de exacte kleur te bepalen en noteert u de equivalente hexadecimale waarde.
 
-   ![ Hexadecimale kleurenwaarden ](./assets/swatch-hex-values.png){width="400"}
+   ![&#x200B; Hexadecimale kleurenwaarden &#x200B;](./assets/swatch-hex-values.png){width="400"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
@@ -60,17 +60,17 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
 1. Klik onder _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;op **[!UICONTROL Add Swatch]**&#x200B;en voer de volgende handelingen uit:
 
-   ![ beheer de Waarden van het Monster ](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
+   ![&#x200B; beheer de Waarden van het Monster &#x200B;](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
    - In de _kolom van het Monster_, klik het nieuwe monster en selecteer **[!UICONTROL Choose a color]** van het menu.
 
-     ![ kies een staalkleur ](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
+     ![&#x200B; kies een staalkleur &#x200B;](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
 
    - Plaats de cursor in de kleurkiezer in het veld **#** , verwijder de huidige waarde en voer de hexadecimale waarde in van zes tekens voor de nieuwe kleur.
 
-     ![ ga de hexadecimale waarde ](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"} in
+     ![&#x200B; ga de hexadecimale waarde &#x200B;](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"} in
 
-   - Om het monster te bewaren, klik het _Wiel van de Kleur_ ( ![ pictogram van de Kleur ](../assets/icon-color-wheel.png)) pictogram in de laag-juiste hoek van de kleurenplukker.
+   - Om het monster te bewaren, klik het _Wiel van de Kleur_ ( ![&#x200B; pictogram van de Kleur &#x200B;](../assets/icon-color-wheel.png)) pictogram in de laag-juiste hoek van de kleurenplukker.
 
    - In de _Admin_ kolom, ga een etiket in om de kleur aan de opslagbeheerder te beschrijven.
 
@@ -78,9 +78,9 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
    - In _is Standaard_ kolom, selecteer het monster dat de standaardoptie moet zijn.
 
-   - Om de orde van de kleurenmonsters te veranderen, klik het _[!UICONTROL Order]_![ pictogram van de orde van de Sortering ](../assets/icon-sort-order.png) en sleep het punt aan een nieuwe positie in de lijst.
+   - Om de orde van de kleurenmonsters te veranderen, klik het _[!UICONTROL Order]_![&#x200B; pictogram van de orde van de Sortering &#x200B;](../assets/icon-sort-order.png) en sleep het punt aan een nieuwe positie in de lijst.
 
-     ![ de etiketten van het Monster ](./assets/attribute-swatch-labels.png){width="400"}
+     ![&#x200B; de etiketten van het Monster &#x200B;](./assets/attribute-swatch-labels.png){width="400"}
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid en vernieuw de cache wanneer u daarom wordt gevraagd.
 
@@ -96,7 +96,7 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
    De grootte en afmetingen van het staal worden bepaald door het thema. In het algemeen kunt u de hoogte-breedteverhouding van een patroon behouden door een afbeelding op te slaan als een vierkant.
 
-   ![ beelden van het Monster ](./assets/swatch-samples.png){width="400"}
+   ![&#x200B; beelden van het Monster &#x200B;](./assets/swatch-samples.png){width="400"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
@@ -118,7 +118,7 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
      In dit voorbeeld is de SKU ter referentie opgenomen in het label Admin, omdat deze kleuren alleen voor een specifiek product worden gebruikt. U kunt een spatie of onderstrepingsteken in het label opnemen, maar u kunt geen afbreekstreepje opnemen.
 
-     ![ ga etiketten ](./assets/swatch-upload.png){width="500" zoomable="yes"} in
+     ![&#x200B; ga etiketten &#x200B;](./assets/swatch-upload.png){width="500" zoomable="yes"} in
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid en vernieuw de cache wanneer u daarom wordt gevraagd.
 
@@ -138,17 +138,17 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
    In dit voorbeeld worden alle blauwe configuraties van de broek geselecteerd.
 
-   ![ de attributen van het productmonster van de Update ](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; de attributen van het productmonster van de Update &#x200B;](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
 
 1. Blader omlaag naar het kenmerk **[!UICONTROL Color]** en schakel het selectievakje **[!UICONTROL Change]** in.
 
-   ![ checkbox van de Verandering ](./assets/swatch-update-attributes-choose-color.png){width="400"}
+   ![&#x200B; checkbox van de Verandering &#x200B;](./assets/swatch-update-attributes-choose-color.png){width="400"}
 
 1. Kies het staal dat van toepassing is op de geselecteerde producten en klik op **[!UICONTROL Save]** .
 
 1. Vernieuw de cache wanneer daarom wordt gevraagd.
 
-   ![ Monster binnen getoond in storefront ](./assets/swatch-blue-schmear.png){width="200"}
+   ![&#x200B; Monster binnen getoond in storefront &#x200B;](./assets/swatch-blue-schmear.png){width="200"}
 
 ## Stalen toevoegen aan een eenvoudig product
 
@@ -164,7 +164,7 @@ Gebruik een van de volgende methoden om stalen voor uw producten te maken.
 
 1. Klik op **[!UICONTROL Next]** in de voortgangsbalk.
 
-1. [ vorm de beelden, de prijs, en de hoeveelheid ](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
+1. [&#x200B; vorm de beelden, de prijs, en de hoeveelheid &#x200B;](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
    Voor deze stap, plaats de beelden, de tarifering, en de hoeveelheid van elke configuratie. De beschikbare opties zijn voor elke optie gelijk en u kunt slechts één optie kiezen. U kunt het zelfde plaatsen op alle SKUs toepassen, een uniek plaatsen op elke SKU toepassen, of de montages voor nu overslaan.
 

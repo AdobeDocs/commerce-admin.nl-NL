@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking hebbende regels en configuratiemontages uit te geven door de montages op één enkele pagina te tonen.
 
-![ pagina van de Configuratie van het Ontwerp ](./assets/configuration.png){width="700" zoomable="yes"}
+![&#x200B; pagina van de Configuratie van het Ontwerp &#x200B;](./assets/configuration.png){width="700" zoomable="yes"}
 
 ## De ontwerpconfiguratie wijzigen
 
@@ -30,7 +30,7 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
 
 1. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} als het thema voor slechts een specifiek apparaat moet worden gebruikt, plaats **[!UICONTROL User Agent Rules]**.
 
-   ![ Gebruiker-Agent Regels ](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
+   ![&#x200B; Gebruiker-Agent Regels &#x200B;](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
    Voor elk apparatentype waar u een thema wilt specificeren:
 
@@ -58,6 +58,6 @@ De configuratie van het Ontwerp maakt het gemakkelijk om op ontwerp betrekking h
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
-   ![ Andere montages om ontwerp ](./assets/configuration-other-settings.png){width="500" zoomable="yes"} te beïnvloeden
+   ![&#x200B; Andere montages om ontwerp &#x200B;](./assets/configuration-other-settings.png){width="500" zoomable="yes"} te beïnvloeden
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.

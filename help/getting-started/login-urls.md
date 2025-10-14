@@ -17,7 +17,7 @@ Voordat u verdergaat met instellen en configureren, moet u controleren of u besc
 
 ## Storefront-URL
 
-Het adres voor uw [ storefront ](storefront.md) is gewoonlijk het domein dat aan uw IP adres wordt toegewezen. Sommige opslagruimten zijn geïnstalleerd bij de wortel, of hoogste folder. Andere bestanden worden geïnstalleerd in een map onder de hoofdmap. De opslag zou binnen subdomain kunnen verblijven die met een primair domein wordt geassocieerd. De URL voor uw winkel kan er als volgt uitzien:
+Het adres voor uw [&#x200B; storefront &#x200B;](storefront.md) is gewoonlijk het domein dat aan uw IP adres wordt toegewezen. Sommige opslagruimten zijn geïnstalleerd bij de wortel, of hoogste folder. Andere bestanden worden geïnstalleerd in een map onder de hoofdmap. De opslag zou binnen subdomain kunnen verblijven die met een primair domein wordt geassocieerd. De URL voor uw winkel kan er als volgt uitzien:
 
 - `http://mydomain.com`
 - `http://www.mydomain.com/mystore`
@@ -27,21 +27,21 @@ Als u nog geen domein hebt, omvat uw opslag URL een reeks van vier aantallen, el
 
 ## URL van beheerder
 
-Het adres voor uw opslag [ Admin ](admin.md) wordt opstelling tijdens de installatie. Het standaardadres is hetzelfde als in uw winkel, maar met `/admin` aan het einde. Hoewel de voorbeelden in deze handleiding de standaardmap gebruiken, is het verstandig om uw beheerder uit te voeren vanaf een locatie die uniek is voor uw winkel.
+Het adres voor uw opslag [&#x200B; Admin &#x200B;](admin.md) wordt opstelling tijdens de installatie. Het standaardadres is hetzelfde als in uw winkel, maar met `/admin` aan het einde. Hoewel de voorbeelden in deze handleiding de standaardmap gebruiken, is het verstandig om uw beheerder uit te voeren vanaf een locatie die uniek is voor uw winkel.
 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`
 
 ## [!DNL Commerce] account
 
-Uw [ rekening van Commerce ](commerce-account-create.md) verleent toegang tot informatie over uw producten en de diensten, rekeningsmontages, het factureren geschiedenis, en steunmiddelen. Ga naar de Commerce-hoofdsite en klik op **[!UICONTROL My Account]** in de rechterbovenhoek om uw account te openen.
+Uw [&#x200B; rekening van Commerce &#x200B;](commerce-account-create.md) verleent toegang tot informatie over uw producten en de diensten, rekeningsmontages, het factureren geschiedenis, en steunmiddelen. Ga naar de Commerce-hoofdsite en klik op **[!UICONTROL My Account]** in de rechterbovenhoek om uw account te openen.
 
 ## Klantenaccount
 
-Terwijl u uw manier rond de opslag leert, zorg ervoor aan opstelling een test [ klantenrekening ](../customers/account-dashboard.md), zodat kunt u de opslag en het controleproces vanuit het perspectief van de klant ervaren.
+Terwijl u uw manier rond de opslag leert, zorg ervoor aan opstelling een test [&#x200B; klantenrekening &#x200B;](../customers/account-dashboard.md), zodat kunt u de opslag en het controleproces vanuit het perspectief van de klant ervaren.
 
 ## Voorbeeldgegevens
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Adobe biedt een set voorbeeldgegevens die een voorbeeldwinkel bevat met meer dan 250 producten (ongeveer 200 daarvan zijn configureerbare producten), categorieën, promotieprijsregels, CMS-pagina&#39;s, banners enzovoort. De gegevens van de steekproef gebruiken het _thema 0&rbrace; Luma op de storefront._ [ Installing this sample data ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=nl-NL) is facultatief, maar kan voor het testen en het ontwikkelen van aanpassingen voor uw eCommerce zaken nuttig zijn.
+Adobe biedt een set voorbeeldgegevens die een voorbeeldwinkel bevat met meer dan 250 producten (ongeveer 200 daarvan zijn configureerbare producten), categorieën, promotieprijsregels, CMS-pagina&#39;s, banners enzovoort. De gegevens van de steekproef gebruiken het _thema 0&rbrace; Luma op de storefront._ [&#x200B; Installing this sample data &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=nl-NL) is facultatief, maar kan voor het testen en het ontwikkelen van aanpassingen voor uw eCommerce zaken nuttig zijn.

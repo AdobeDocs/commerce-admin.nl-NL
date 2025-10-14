@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Templates]
 
-![ E-mailMalplaatjes ](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+![&#x200B; E-mailMalplaatjes &#x200B;](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
 <!-- [Email Templates](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Activeert het proces dat klanten de mogelijkheid biedt om e-mail naar vrienden te sturen over producten in uw winkel. Opties: `Yes` / `No` |
 | [!UICONTROL Select Email Template] | Winkelweergave | Identificeert het e-mailmalplaatje dat voor berichten wordt gebruikt die door _worden geproduceerd e-mail een functie van de Vriend_. Standaardsjabloon: `Send Product to Friend` |

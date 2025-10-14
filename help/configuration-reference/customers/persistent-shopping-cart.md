@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A [ Persistent het Vormen Kart ](../../stores-purchase/cart-persistent.md) staat behoud van niet gekochte punten toe die in de kar worden verlaten en bewaart hen voor een periode die in _het Levensduur van de Persistentie_ wordt gevormd. Cookies moeten in de browser van de klant worden toegestaan om een hardnekkig winkelwagentje te gebruiken.
+>A [&#x200B; Persistent het Vormen Kart &#x200B;](../../stores-purchase/cart-persistent.md) staat behoud van niet gekochte punten toe die in de kar worden verlaten en bewaart hen voor een periode die in _het Levensduur van de Persistentie_ wordt gevormd. Cookies moeten in de browser van de klant worden toegestaan om een hardnekkig winkelwagentje te gebruiken.
 
 
 {{$include /help/_includes/persistent-cart-configuration.md}}

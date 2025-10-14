@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Het [&#128279;](gift-registries.md) gedeelte van de Registratie van het Cadeautje  &lbrace;van de klantenrekening maakt een lijst van de huidige geschenkregisters van de klant en de bijbehorende gebeurtenis. Klanten kunnen de huidige registers beheren en nieuwe registers toevoegen.
 
-![ Cadeauregister ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![&#x200B; Cadeauregister &#x200B;](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## Cadeauregistergegevens
 
 Klanten kunnen cadeauregisters maken en beheren op basis van hun accounts. Alle informatie die aan elk type van registratie wordt geassocieerd is beschikbaar bij de rekening van de klant.
 
-![ de storefront van het Voorbeeld - de informatie van de cadeauregistratie ](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - de informatie van de cadeauregistratie &#x200B;](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Sectie | Beschrijving |
 |--- |--- |
@@ -90,7 +90,7 @@ Klanten kunnen cadeauregisters maken en beheren op basis van hun accounts. Alle 
 
 1. Vanaf het dashboard van de account gaat de klant naar **[!UICONTROL Gift Registry]** .
 
-   ![ het Leiden punten van het cadeauregister ](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![&#x200B; het Leiden punten van het cadeauregister &#x200B;](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
 1. Vindt de registratiegebeurtenis, selecteert de punten die zij willen beheren, en klikt **[!DNL Manage Items]**.
 

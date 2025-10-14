@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Dynamisch blok
 
-Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok ](../content-design/dynamic-blocks.md) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen.
+Gebruik het Dynamische inhoudstype van het Blok om een bestaand [&#x200B; dynamisch blok &#x200B;](../content-design/dynamic-blocks.md) aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen.
 
-![ Dynamisch blok op de storefront ](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
+![&#x200B; Dynamisch blok op de storefront &#x200B;](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,12 +22,12 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ------------- | ----------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Opent de _uitgeven Blokpagina_, waar u het blok kunt kiezen en de eigenschappen van de container veranderen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de verborgen blokcontainer en de inhoud ervan. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Opent de _uitgeven Blokpagina_, waar u het blok kunt kiezen en de eigenschappen van de container veranderen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Toont de verborgen blokcontainer en de inhoud ervan. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -39,23 +39,23 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Dynamic Block]** naar het werkgebied.
 
-   ![ slepend een dynamische blokplaceholder aan het stadium ](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een dynamische blokplaceholder aan het stadium &#x200B;](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Beweeg over de lege dynamische blokcontainer om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de lege dynamische blokcontainer om toolbox te tonen en de _Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ Dynamische toolbox van het Blok ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Dynamische toolbox van het Blok &#x200B;](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. Voor _geef Dynamisch Blok_ pagina uit, klik **[!UICONTROL Select Dynamic Block]** en gebruik de lijst om het blok te selecteren.
 
-   ![ Selecterend een dynamisch blok ](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
+   ![&#x200B; Selecterend een dynamisch blok &#x200B;](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
    Zoek in de lijst het dynamische blok dat u wilt invoegen en klik op **[!UICONTROL Select]** . Klik vervolgens op **[!UICONTROL Add Selected]** .
 
-   ![ Selecterend een dynamisch blok in de lijst ](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
+   ![&#x200B; Selecterend een dynamisch blok in de lijst &#x200B;](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
 
    Hieronder wordt een samenvatting van de dynamische blokinformatie weergegeven.
 
-   ![ Dynamische Samenvatting van het Blok ](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Dynamische Samenvatting van het Blok &#x200B;](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Template]** in op een van de volgende opties:
 
@@ -66,7 +66,7 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
    {style="table-layout:auto"}
 
-   ![ Dynamisch blokmalplaatje ](./assets/pb-add-content-dynamic-block-template.png){width="200"}
+   ![&#x200B; Dynamisch blokmalplaatje &#x200B;](./assets/pb-add-content-dynamic-block-template.png){width="200"}
 
 1. Vul de gewenste geavanceerde instellingen in.
 
@@ -129,15 +129,15 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 ## Dynamische blokcontainerinstellingen bewerken
 
-1. Beweeg over de dynamische blokcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de dynamische blokcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ Dynamische toolbox van het Blok ](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Dynamische toolbox van het Blok &#x200B;](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Wijzig zo nodig het dynamische blok:
 
    - Klik op **[!UICONTROL Select Dynamic Block]**.
 
-     ![ Selecterend een ander dynamisch blok ](./assets/pb-add-content-dynamic-block-select.png){width="20"}
+     ![&#x200B; Selecterend een ander dynamisch blok &#x200B;](./assets/pb-add-content-dynamic-block-select.png){width="20"}
 
    - Klik in de lijst met actieve dynamische blokken op **[!UICONTROL Select]** voor het blok dat u wilt toevoegen.
 
@@ -147,13 +147,13 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 ## Een dynamisch blok dupliceren
 
-1. Beweeg over de dynamische blokcontainer om toolbox te tonen en _te kiezen dupliceert_ ( ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
+1. Beweeg over de dynamische blokcontainer om toolbox te tonen en _te kiezen dupliceert_ ( ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-   ![ Duplicerend een dynamisch blok ](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
+   ![&#x200B; Duplicerend een dynamisch blok &#x200B;](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. Om het nieuwe dynamische blok aan een verschillende positie te bewegen, beweegt zich over zijn container, en kiest dan _Beweging_ ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}) in toolbox.
+1. Om het nieuwe dynamische blok aan een verschillende positie te bewegen, beweegt zich over zijn container, en kiest dan _Beweging_ ( ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}) in toolbox.
 
 1. Selecteer en sleep het dynamische blok totdat de rode hulplijn op de nieuwe positie wordt weergegeven.
 
@@ -161,7 +161,7 @@ Gebruik het Dynamische inhoudstype van het Blok om een bestaand [ dynamisch blok
 
 ## Een dynamisch blok uit het werkgebied verwijderen
 
-1. Beweeg over de dynamische blokcontainer om toolbox te tonen en _te kiezen verwijder_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="20"} ).
+1. Beweeg over de dynamische blokcontainer om toolbox te tonen en _te kiezen verwijder_ ( ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 

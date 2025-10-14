@@ -20,26 +20,26 @@ ht-degree: 0%
 
 ## [!UICONTROL General Options]
 
-![ Algemene Opties ](./assets/wishlist-general-options.png)<!-- zoom -->
+![&#x200B; Algemene Opties &#x200B;](./assets/wishlist-general-options.png)<!-- zoom -->
 
 <!--[General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee activeert u de module Lijst met wensen voor uw winkel. Opties: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Winkelweergave | Geeft de zichtbaarheid van de verlanglijsten in de zijbalk aan. <br/> Opties: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) Wanneer reeks aan `Yes`, staat klanten toe om veelvoudige wenslijsten tot stand te brengen en te handhaven. Opties: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Winkelweergave | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) als de veelvoudige wenslijsten worden toegelaten, bepaalt het maximumaantal wenslijsten klanten met hun rekening kunnen geassocieerd hebben. |
+| [!UICONTROL Enable Multiple Wish Lists] | Winkelweergave | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) Wanneer reeks aan `Yes`, staat klanten toe om veelvoudige wenslijsten tot stand te brengen en te handhaven. Opties: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Winkelweergave | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) als de veelvoudige wenslijsten worden toegelaten, bepaalt het maximumaantal wenslijsten klanten met hun rekening kunnen geassocieerd hebben. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
-![ Opties van het Aandeel ](./assets/wishlist-share-options.png)<!-- zoom -->
+![&#x200B; Opties van het Aandeel &#x200B;](./assets/wishlist-share-options.png)<!-- zoom -->
 
 <!-- [Share Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | Winkelweergave | Bepaalt het opslagcontact dat als afzender van het verzonden bericht verschijnt wanneer een wensenlijst wordt gedeeld. Standaardcontactpersoon: `General Contact` |
 | [!UICONTROL Email Template] | Winkelweergave | Bepaalt het e-mailmalplaatje dat voor het verzonden bericht wordt gebruikt wanneer een wensenlijst wordt gedeeld. Standaardsjabloon: `Share Wishlist` |
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ## [!UICONTROL My Wish List Link]
 
-![ Mijn Verbinding van de Lijst van de Wenslijst ](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+![&#x200B; Mijn Verbinding van de Lijst van de Wenslijst &#x200B;](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
 <!--[My Wish List Link](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Website | Vormt de vertoning van de Samenvatting van de Lijst van de Vlek in het dashboard van de klantenrekening. Opties: `Display number of items in wish list` / `Display item quantities` |
 

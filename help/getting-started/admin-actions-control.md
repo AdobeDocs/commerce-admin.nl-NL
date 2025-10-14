@@ -19,13 +19,13 @@ De selectie van beschikbare acties varieert per lijst en er kunnen aanvullende o
 
 ## Stap 1: records selecteren
 
-Het selectievakje in de eerste kolom van de lijst geeft elke record aan die een doel voor de actie is. De [ filtercontroles ](admin-grid-controls.md) kunnen worden gebruikt om de lijst aan de verslagen te beperken u voor de actie wilt richten.
+Het selectievakje in de eerste kolom van de lijst geeft elke record aan die een doel voor de actie is. De [&#x200B; filtercontroles &#x200B;](admin-grid-controls.md) kunnen worden gebruikt om de lijst aan de verslagen te beperken u voor de actie wilt richten.
 
 1. Indien nodig, plaats de filters bij de bovenkant van elke kolom om slechts de verslagen te tonen die u wilt omvatten.
 
 1. Schakel het selectievakje in van elke record die een doel is voor de handeling of gebruik de kolomkiezer om een bulkselectie te kiezen.
 
-![ Uitgezocht of deselecteer allen of allen op pagina ](./assets/action-change-selection.png){width="500"}
+![&#x200B; Uitgezocht of deselecteer allen of allen op pagina &#x200B;](./assets/action-change-selection.png){width="500"}
 
 ## Stap 2: Een handeling toepassen op geselecteerde records
 
@@ -37,13 +37,13 @@ Het selectievakje in de eerste kolom van de lijst geeft elke record aan die een 
 
    - Stel het besturingselement **[!UICONTROL Actions]** in op `Update Attributes` .
 
-     ![ selecteer de actie van Attributen van de Update ](./assets/action-select.png){width="450"}
+     ![&#x200B; selecteer de actie van Attributen van de Update &#x200B;](./assets/action-select.png){width="450"}
 
    - Klik op **[!UICONTROL Submit]**.
 
      De pagina Kenmerken bijwerken bevat een lijst met alle beschikbare kenmerken, ingedeeld per groep in het deelvenster aan de linkerkant.
 
-     ![ pagina van Attributen van de Update ](./assets/action-update-attributes.png){width="700" zoomable="yes"}
+     ![&#x200B; pagina van Attributen van de Update &#x200B;](./assets/action-update-attributes.png){width="700" zoomable="yes"}
 
    - Schakel het selectievakje **[!UICONTROL Change]** naast elk kenmerk in en breng de benodigde wijzigingen aan.
 

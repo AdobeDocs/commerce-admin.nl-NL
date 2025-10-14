@@ -24,7 +24,7 @@ De drempel voor het niet-bestand geeft aan wanneer een product opnieuw moet word
 
 Een andere manier u de drempel van de voorraadbeschikbaarheid kunt gebruiken is producten te beheren die in hoge vraag zijn. Als je nieuwe klanten wilt vastleggen in plaats van ze aan kopers met een grote hoeveelheid te verkopen, kun je een maximumhoeveelheid instellen om te voorkomen dat één koper je hele voorraad opneemt.
 
-![ Voorbeeld van in Voorraad, slechts 1 verlaten ](assets/storefront-stock-options-1-left.png)
+![&#x200B; Voorbeeld van in Voorraad, slechts 1 verlaten &#x200B;](assets/storefront-stock-options-1-left.png)
 
 ## Configuratieopties
 
@@ -39,10 +39,10 @@ Een andere manier u de drempel van de voorraadbeschikbaarheid kunt gebruiken is 
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Hiermee stelt u de maximale hoeveelheid van het product in die in één bestelling kan worden aangeschaft. |
 | [!UICONTROL Qty Uses Decimals] | Staat decimale hoeveelheden toe in plaats van hele getallen voor de hoeveelheid van een product. Deze instelling is handig voor producten die worden verkocht op basis van gewicht, volume of lengte. Opgegeven op het niveau van Source, berekend op het voorraadniveau op basis van toegewezen bronnen. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Hiermee wordt bepaald of onderdelen van een product afzonderlijk kunnen worden verzonden. Deze optie is zichtbaar wanneer **[!UICONTROL Qty Uses Decimals]** = `Yes` . |
-| [!UICONTROL Backorders] | Hiermee geeft u aan of Achterorden zijn toegestaan. Opgegeven op het niveau van Source, berekend op het voorraadniveau op basis van toegewezen bronnen. Als toegelaten om backorders toe te staan, wordt het plaatsen van een negatieve waarde voor de Drempel uit-van-voorraad (zie [ het Vormen Achterorden ](backorders.md)) geadviseerd. Opties:<br />**[!UICONTROL No Backorders]**: Accepteert geen backorders wanneer het product uit voorraad is.<br />**[!UICONTROL Allow Qty Below 0]**: accepteert backorders wanneer het aantal kleiner is dan nul.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: accepteert backorders wanneer het aantal kleiner is dan nul, maar waarschuwt klanten dat orders nog steeds kunnen worden geplaatst. |
+| [!UICONTROL Backorders] | Hiermee geeft u aan of Achterorden zijn toegestaan. Opgegeven op het niveau van Source, berekend op het voorraadniveau op basis van toegewezen bronnen. Als toegelaten om backorders toe te staan, wordt het plaatsen van een negatieve waarde voor de Drempel uit-van-voorraad (zie [&#x200B; het Vormen Achterorden &#x200B;](backorders.md)) geadviseerd. Opties:<br />**[!UICONTROL No Backorders]**: Accepteert geen backorders wanneer het product uit voorraad is.<br />**[!UICONTROL Allow Qty Below 0]**: accepteert backorders wanneer het aantal kleiner is dan nul.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: accepteert backorders wanneer het aantal kleiner is dan nul, maar waarschuwt klanten dat orders nog steeds kunnen worden geplaatst. |
 | [!UICONTROL Notify for Quantity Below] | Hiermee stelt u de hoeveelheid in die een melding Hoeveelheid onder activeert, met waarschuwing voor een lage voorraad. Dit bedrag wordt in mindering gebracht op de verkoopbare hoeveelheid en niet op de voorraadhoeveelheid. |
 | [!UICONTROL Enable Qty Increments] | Hiermee wordt bepaald of het product in hoeveelheden kan worden verkocht. Indien ingeschakeld, voert u de hoeveelheid producten in die u in stappen wilt aanschaffen. De verhogingen plaatsen hoeveel productpunten als één enkel product, en als kind van configureerbare, gegroepeerde en bundelproducten moeten worden gekocht. |
-| [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] gebruikt deze waarde niet. Wanneer u een retour- of creditnota voltooit, wordt de producthoeveelheid automatisch teruggestuurd naar de desbetreffende bronhoeveelheid. Zie [ het Vormen de Opties van het Product ](product-options.md). |
+| [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] gebruikt deze waarde niet. Wanneer u een retour- of creditnota voltooit, wordt de producthoeveelheid automatisch teruggestuurd naar de desbetreffende bronhoeveelheid. Zie [&#x200B; het Vormen de Opties van het Product &#x200B;](product-options.md). |
 
 ## De daling van de configuratie en overerving
 

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Layout - kolom
 
-Gebruik het _inhoudstype van de Kolom_ om een pagina in veelvoudige kolommen in het [[!DNL Page Builder]  stadium ](workspace.md#stage) te verdelen. Wanneer u een kolom toevoegt aan een rij of tab of rechtstreeks aan het werkgebied, wordt de kolomgroep in eerste instantie verdeeld in twee kolommen met dezelfde breedte. Desgewenst kunt u kolommen toevoegen of verwijderen. U kunt de grootte van een kolom wijzigen door de rand tussen twee kolommen te slepen. De breedte van de volgende kolom wordt aangepast om de beschikbare ruimte binnen de rij, de tab of het werkgebied te vullen. Met één kolom wordt de volledige breedte van het werkgebied of de container uitgebreid.
+Gebruik het _inhoudstype van de Kolom_ om een pagina in veelvoudige kolommen in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) te verdelen. Wanneer u een kolom toevoegt aan een rij of tab of rechtstreeks aan het werkgebied, wordt de kolomgroep in eerste instantie verdeeld in twee kolommen met dezelfde breedte. Desgewenst kunt u kolommen toevoegen of verwijderen. U kunt de grootte van een kolom wijzigen door de rand tussen twee kolommen te slepen. De breedte van de volgende kolom wordt aangepast om de beschikbare ruimte binnen de rij, de tab of het werkgebied te vullen. Met één kolom wordt de volledige breedte van het werkgebied of de container uitgebreid.
 
-![ Toevoegend een kolom ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+![&#x200B; Toevoegend een kolom &#x200B;](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -34,39 +34,39 @@ Elke kolom heeft een gereedschapset met opties die wordt weergegeven wanneer u d
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de kolom en de inhoud ervan naar een andere positie ten opzichte van andere kolommen. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Verplaatst de kolom en de inhoud ervan naar een andere positie ten opzichte van andere kolommen. |
 | (label) | Kolom | Identificeert de huidige container als een kolom. Houd de muisaanwijzer boven de kolomcontainer om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kolom bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige kolom. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige kolom en de inhoud ervan. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Kolom bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige kolom. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige kolom en de inhoud ervan. |
 
 {style="table-layout:auto"}
 
 ## Kolomraster
 
-Het [ net ](workspace.md) zorgt ervoor dat de inhoud constant in een kolom wordt gericht en helpt de pagina correct op zowel Desktop als mobiele apparaten teruggeven. Voor meer informatie, zie de [ Geavanceerde sectie van de Hulpmiddelen van de Inhoud ](setup.md) van de [!DNL Page Builder] configuratie.
+Het [&#x200B; net &#x200B;](workspace.md) zorgt ervoor dat de inhoud constant in een kolom wordt gericht en helpt de pagina correct op zowel Desktop als mobiele apparaten teruggeven. Voor meer informatie, zie de [&#x200B; Geavanceerde sectie van de Hulpmiddelen van de Inhoud &#x200B;](setup.md) van de [!DNL Page Builder] configuratie.
 
-![ de divisies van het Net op een rij met één kolom ](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
+![&#x200B; de divisies van het Net op een rij met één kolom &#x200B;](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
 In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/12) in de bovenrand van elke kolomcontainer het aantal rasterdivisies in elke kolom en het totale aantal scheidingen aan. In dit geval is de kolom de breedte van zes rastereenheden op een totaal van 12.
 
-![ de afdelingen van het Net op rij met twee kolommen ](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
+![&#x200B; de afdelingen van het Net op rij met twee kolommen &#x200B;](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Een kolom toevoegen
 
 1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een **[!UICONTROL Column]**&#x200B;naar het werkgebied.
 
-   ![ slepend een kolom aan het stadium ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een kolom aan het stadium &#x200B;](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    De kolomgroep is nu verdeeld in twee kolommen van gelijke breedte. Elke kolom is een aparte container voor inhoud en heeft een eigen set gereedschapsopties.
 
-   ![ Twee gelijke kolommen ](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
+   ![&#x200B; Twee gelijke kolommen &#x200B;](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
-1. In de upper-left hoek van de kolomgroep, klik het _hulpmiddel van het Net_ (![ controle van het Net ](./assets/pb-icon-grid-control.png)) en pas de netgrootte zonodig aan.
+1. In de upper-left hoek van de kolomgroep, klik het _hulpmiddel van het Net_ (![&#x200B; controle van het Net &#x200B;](./assets/pb-icon-grid-control.png)) en pas de netgrootte zonodig aan.
 
-   Door de inhoud op het raster te positioneren, kunt u de inhoud consistent uitlijnen en de pagina op zowel het bureaublad als het mobiele apparaat op de juiste wijze weergeven. Voor meer informatie, zie de [ Geavanceerde sectie van de Hulpmiddelen van de Inhoud ](../configuration-reference/general/content-management.md) van de [!DNL Page Builder] configuratie.
+   Door de inhoud op het raster te positioneren, kunt u de inhoud consistent uitlijnen en de pagina op zowel het bureaublad als het mobiele apparaat op de juiste wijze weergeven. Voor meer informatie, zie de [&#x200B; Geavanceerde sectie van de Hulpmiddelen van de Inhoud &#x200B;](../configuration-reference/general/content-management.md) van de [!DNL Page Builder] configuratie.
 
-   ![ de afdelingen van het Net op twee kolommen ](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; de afdelingen van het Net op twee kolommen &#x200B;](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Het formaat van een kolom wijzigen
 
@@ -74,19 +74,19 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
    De rand wordt gemarkeerd en de gereedschapset voor de geselecteerde kolom wordt weergegeven.
 
-   ![ Gemarkeerde grens tussen twee kolommen ](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
+   ![&#x200B; Gemarkeerde grens tussen twee kolommen &#x200B;](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
 
 1. Houd de muisknop ingedrukt om het raster weer te geven en sleep de rand naar een nieuwe positie op het raster.
 
    De breedte van beide kolommen wordt aangepast aan de wijziging. De nieuwe breedte van elke kolom wordt na het label weergegeven, bijvoorbeeld `4/12` (vier van de twaalf) en `8/12` (acht van de twaalf).
 
-   ![ Resized kolommen ](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; Resized kolommen &#x200B;](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
 
 ## Een kolom verwijderen
 
-1. Beweeg over de kolom die u wilt verwijderen om toolbox te tonen en _te kiezen verwijdert_ ( ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="20"} ).
+1. Beweeg over de kolom die u wilt verwijderen om toolbox te tonen en _te kiezen verwijdert_ ( ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="20"} ).
 
-   ![ toolbox van de Kolom ](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
+   ![&#x200B; toolbox van de Kolom &#x200B;](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
 1. Als de kolom inhoud bevat, klikt u op **[!UICONTROL OK]** om te bevestigen.
 
@@ -94,25 +94,25 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
 
    De kolomgroep heeft nu één kolom (12/12) en een raster. Omdat het raster alleen beschikbaar is voor kolommen, kunt u het raster met deze techniek weergeven.
 
-   ![ Enige kolom met net ](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; Enige kolom met net &#x200B;](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
 
 1. Als u wilt dat de kolomgroep de resterende kolom tot de volledige breedte van de rij of het werkgebied uitbreidt:
 
-   - Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+   - Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
    - Blader omlaag naar de sectie _[!UICONTROL Advanced]_&#x200B;en stel alle vier de **[!UICONTROL Padding]**&#x200B;waarden in op `0` .
 
-     ![ Gebruikend nul het opvullen ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+     ![&#x200B; Gebruikend nul het opvullen &#x200B;](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
    - Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de pagina _[!UICONTROL Edit Column]_&#x200B;te sluiten.
 
-1. Klik het _Dichte Volledige Scherm_ ( ![ dicht volledig het schermpictogram ](./assets/pb-icon-reduce.png){width="20"}) pictogram in de hoger-juiste hoek van de werkruimte, en klik dan **[!UICONTROL Save]** in de hoger-juiste hoek.
+1. Klik het _Dichte Volledige Scherm_ ( ![&#x200B; dicht volledig het schermpictogram &#x200B;](./assets/pb-icon-reduce.png){width="20"}) pictogram in de hoger-juiste hoek van de werkruimte, en klik dan **[!UICONTROL Save]** in de hoger-juiste hoek.
 
 ## Kolominstellingen wijzigen
 
-1. Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de kolom om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ toolbox van de Kolom ](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; toolbox van de Kolom &#x200B;](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
 1. Wijzig desgewenst de instellingen van **[!UICONTROL Appearance]** .
 
@@ -141,7 +141,7 @@ In het volgende voorbeeld met twee kolommen geven de getallen tussen haakjes (6/
      | ------ | ----------- |
      | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als achtergrondafbeelding voor de kolom. |
      | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor de kolom. |
-     | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+     | ![&#x200B; het pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
      {style="table-layout:auto"}
 

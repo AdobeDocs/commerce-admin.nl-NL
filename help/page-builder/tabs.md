@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Layout - tabbladen
 
-Gebruik het _inhoudstype van Lusjes_ om een reeks lusjes in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Wanneer u de tijdelijke aanduiding voor tabs van het deelvenster naar het werkgebied sleept, wordt in eerste instantie één standaardtabblad weergegeven. U kunt meer tabbladen toevoegen om een volledige set te maken. De breedte van de tabset wordt bepaald door de breedte van de bovenliggende container en de instellingen voor opvulling.
+Gebruik het _inhoudstype van Lusjes_ om een reeks lusjes in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. Wanneer u de tijdelijke aanduiding voor tabs van het deelvenster naar het werkgebied sleept, wordt in eerste instantie één standaardtabblad weergegeven. U kunt meer tabbladen toevoegen om een volledige set te maken. De breedte van de tabset wordt bepaald door de breedte van de bovenliggende container en de instellingen voor opvulling.
 
-![ Reeks lusjes ](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
+![&#x200B; Reeks lusjes &#x200B;](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,31 +24,31 @@ Wanneer u met het _inhoudstype van Lusjes_ werkt, voegt u individuele lusjes en 
 
 ### Afzonderlijke tabgereedschapset
 
-![ toolbox van het Lusje ](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; toolbox van het Lusje &#x200B;](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Dit besturingselement naast het tablabel wordt gebruikt om de afzonderlijke tab naar een andere positie in de tabset te verplaatsen. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Tabs bewerken, waarin u de eigenschappen van het afzonderlijke tabblad kunt wijzigen. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de tab. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de tab uit de tabset. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Dit besturingselement naast het tablabel wordt gebruikt om de afzonderlijke tab naar een andere positie in de tabset te verplaatsen. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Tabs bewerken, waarin u de eigenschappen van het afzonderlijke tabblad kunt wijzigen. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de tab. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de tab uit de tabset. |
 
 {style="table-layout:auto"}
 
 ### Gereedschapset voor tabcontainers
 
-![ de containertoolbox van het Lusje ](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
+![&#x200B; de containertoolbox van het Lusje &#x200B;](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de set met tabbladen naar een andere positie op het raster in de bovenliggende container. |
-| Toevoegen | ![ voeg pictogram ](./assets/pb-icon-add.png){width="25"} toe | Hiermee voegt u een tab toe aan de tabset. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de set met tabbladen naar een andere positie op het raster in de bovenliggende container. |
+| Toevoegen | ![&#x200B; voeg pictogram &#x200B;](./assets/pb-icon-add.png){width="25"} toe | Hiermee voegt u een tab toe aan de tabset. |
 | (label) | [!UICONTROL Tabs] | Identificeert de huidige container als tabset. Houd de muisaanwijzer boven de bovenrand van de container om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Tabblad bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de tabcontainer. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen tabcontainer weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van het huidige tabblad. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige tabset uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Tabblad bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de tabcontainer. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen tabcontainer weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van het huidige tabblad. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige tabset uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -58,13 +58,13 @@ Wanneer u met het _inhoudstype van Lusjes_ werkt, voegt u individuele lusjes en 
 
 1. Sleep de tijdelijke aanduiding [!DNL Page Builder] in het deelvenster _[!UICONTROL Layout]_&#x200B;onder **[!UICONTROL Tabs]**&#x200B;rechtstreeks naar het werkgebied of naar een rij of kolom in het werkgebied.
 
-   ![ het slepen lusjes aan een rij ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
+   ![&#x200B; het slepen lusjes aan een rij &#x200B;](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. Klik het **[!UICONTROL Tab 1]** etiket om individuele tabtoolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"} ).
+1. Klik het **[!UICONTROL Tab 1]** etiket om individuele tabtoolbox te tonen en de _Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Voer de **[!UICONTROL Tab Name]** in die u als label wilt gebruiken.
 
-   ![ die de lusjenaam ](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"} ingaat
+   ![&#x200B; die de lusjenaam &#x200B;](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"} ingaat
 
 1. Voer indien nodig de **[!UICONTROL Minimum Height]** voor de tab in.
 
@@ -83,21 +83,21 @@ Wanneer u met het _inhoudstype van Lusjes_ werkt, voegt u individuele lusjes en 
 
 De volgende stappen beginnen met een afzonderlijk tabblad en maken een set van drie tabbladen in een tabcontainer. Als u nog geen afzonderlijke tab hebt, volgt u de vorige instructies om één tab aan het werkgebied toe te voegen.
 
-1. Beweeg over de lussencontainer om toolbox te tonen en _te kiezen voeg_ toe ( ![ voeg pictogram ](./assets/pb-icon-add.png){width="20"} toe) pictogram.
+1. Beweeg over de lussencontainer om toolbox te tonen en _te kiezen voeg_ toe ( ![&#x200B; voeg pictogram &#x200B;](./assets/pb-icon-add.png){width="20"} toe) pictogram.
 
 1. Klik in het label **[!UICONTROL Tab 2]** om de cursor weer te geven en voer uw eigen label voor het tabblad in.
 
-1. Klik opnieuw het tweede lusje op het stadium en kies _Dupliceer_ ( ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
+1. Klik opnieuw het tweede lusje op het stadium en kies _Dupliceer_ ( ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
 1. Klik in het label YourName **[!UICONTROL Copy]** om de cursor weer te geven en voer uw eigen label voor het derde tabblad in.
 
-![ het Aanpassen reeks lusjes met toolbox ](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
+![&#x200B; het Aanpassen reeks lusjes met toolbox &#x200B;](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
 ## Een tabblad in de set verplaatsen
 
 1. Klik op het tabblad dat u wilt verplaatsen.
 
-1. Selecteer en sleep het _pictogram van de Beweging_ ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}), dat net vóór de tekst van het lusjelabel verschijnt, aan een nieuwe positie binnen de lusjereeks.
+1. Selecteer en sleep het _pictogram van de Beweging_ ( ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}), dat net vóór de tekst van het lusjelabel verschijnt, aan een nieuwe positie binnen de lusjereeks.
 
 ## Inhoud toevoegen aan een tabblad
 
@@ -109,15 +109,15 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 1. Typ of plak tekst in de editor en gebruik de editor-werkbalk om deze zo nodig op te maken.
 
-   Zie [ Elementen - Tekst ](text.md) voor meer informatie over het werken met het type van tekstinhoud.
+   Zie [&#x200B; Elementen - Tekst &#x200B;](text.md) voor meer informatie over het werken met het type van tekstinhoud.
 
-   ![ het uitgeven tekstinhoud die op het lusje ](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"} wordt toegevoegd
+   ![&#x200B; het uitgeven tekstinhoud die op het lusje &#x200B;](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"} wordt toegevoegd
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
 ## Afzonderlijke tabinstellingen wijzigen
 
-1. Beweeg over een individueel lusje om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over een individueel lusje om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig zo nodig de basisinstellingen voor het tabblad:
 
@@ -135,7 +135,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 - **[!UICONTROL Background Color]** - Geef de achtergrondkleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren. Deze instelling bepaalt de achtergrondkleur van de rij. U kunt ook de dekking van de kleur aanpassen.
 
-  ![ Geen kleur (gebrek) ](./assets/pb-settings-background-color-no-color.png){width="200"}
+  ![&#x200B; Geen kleur (gebrek) &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
   U kunt een waarde op drie manieren invoeren:
 
@@ -147,11 +147,11 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
   Als u een kleur wilt kiezen, klik het monster links van _Geen doos van de Kleur_.
 
-  ![ het Kiezen van een kleurenmonster ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+  ![&#x200B; het Kiezen van een kleurenmonster &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
   Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het vak onder de schuifregelaar de huidige waarden voor rood, groen, blauw en alpha (rgba) weergegeven. Het laatste getal geeft het huidige dekkingspercentage aan als een decimaal. U kunt de schuifregelaar gebruiken om de dekking aan te passen of de gewenste decimale waarde invoeren.
 
-  ![ Plaatsende opaciteit ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+  ![&#x200B; Plaatsende opaciteit &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
@@ -163,7 +163,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
   |--- |--- |
   | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als achtergrondafbeelding voor de tab. |
   | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor het tabblad. |
-  | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+  | ![&#x200B; het pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
   {style="table-layout:auto"}
 
@@ -224,7 +224,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-  ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Optie | Beschrijving |
   | ------ |------------ |
@@ -236,7 +236,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
   De rij in het volgende voorbeeld heeft een randstraal van 15.
 
-  ![ Rij met grensstraal van 15 ](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![&#x200B; Rij met grensstraal van 15 &#x200B;](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit het huidige stijlblad die u wilt toepassen op de kolomcontainer.
 
@@ -255,7 +255,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 ## Instellingen van tabsets wijzigen
 
-1. Beweeg over de hoogste grens van de lusje vastgestelde container om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de hoogste grens van de lusje vastgestelde container om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig indien nodig de **[!UICONTROL Default Active Tab]** .
 
@@ -265,7 +265,7 @@ U kunt elk inhoudstype op een tabblad toepassen, net als bij een rij. Gebruik de
 
 1. Als u de navigatietabels langs de bovenkant van de tabset wilt plaatsen, kiest u **[!UICONTROL Tab Navigation Alignment]** (`Left` , `Center` of `Right`).
 
-   ![ rechts-gerichte navigatielabs ](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
+   ![&#x200B; rechts-gerichte navigatielabs &#x200B;](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. Stel de Geavanceerde opties voor de tabset in:
 

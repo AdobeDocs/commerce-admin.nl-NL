@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Configuratiebereik
 
-De keuze van de Mening van de Opslag in de upper-left hoek van vele configuratiepagina&#39;s filtert de mening van de pagina voor een specifiek werkingsgebied, en plaatst de waarde van sommige entiteiten die door Commerce worden gebruikt. Het maakt een lijst van elk niveau in de hiërarchie door naam, en wordt gebruikt om het werkingsgebied in een ander niveau te veranderen. Alle instellingen die het huidige bereik vertegenwoordigen, worden grijs weergegeven. Alleen de instellingen die de huidige bereikinstelling vertegenwoordigen, zijn dus beschikbaar. Het werkingsgebied wordt aanvankelijk geplaatst aan _StandaardConfig_. Voor Admin gebruikers met beperkte toegang, omvat de lijst van beschikbare opslagmeningen slechts die tot wie de gebruiker [ toestemming ](../systems/permissions.md) heeft om toegang te hebben.
+De keuze van de Mening van de Opslag in de upper-left hoek van vele configuratiepagina&#39;s filtert de mening van de pagina voor een specifiek werkingsgebied, en plaatst de waarde van sommige entiteiten die door Commerce worden gebruikt. Het maakt een lijst van elk niveau in de hiërarchie door naam, en wordt gebruikt om het werkingsgebied in een ander niveau te veranderen. Alle instellingen die het huidige bereik vertegenwoordigen, worden grijs weergegeven. Alleen de instellingen die de huidige bereikinstelling vertegenwoordigen, zijn dus beschikbaar. Het werkingsgebied wordt aanvankelijk geplaatst aan _StandaardConfig_. Voor Admin gebruikers met beperkte toegang, omvat de lijst van beschikbare opslagmeningen slechts die tot wie de gebruiker [&#x200B; toestemming &#x200B;](../systems/permissions.md) heeft om toegang te hebben.
 
 | Niveau | Beschrijving |
 |--- |--- |
@@ -23,7 +23,7 @@ De keuze van de Mening van de Opslag in de upper-left hoek van vele configuratie
 
 {style="table-layout:auto"}
 
-![ geselecteerde checkboxes van de Waarde van het Systeem van het Gebruik ](./assets/store-view-control.png){width="700" zoomable="yes"}
+![&#x200B; geselecteerde checkboxes van de Waarde van het Systeem van het Gebruik &#x200B;](./assets/store-view-control.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Use system value]
 
@@ -49,7 +49,7 @@ Ga als volgt te werk voordat u een configuratie-instelling maakt die alleen van 
 
    - Ga voor de meeste configuratie-instellingen naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - Voor [ ontwerp-verwante montages ](../content-design/configuration.md), ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**. Kies vervolgens in het raster de toepasselijke winkelweergave.
+   - Voor [&#x200B; ontwerp-verwante montages &#x200B;](../content-design/configuration.md), ga **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**. Kies vervolgens in het raster de toepasselijke winkelweergave.
 
 1. Navigeer naar de configuratie die u wilt wijzigen en voer de volgende handelingen uit:
 
@@ -61,7 +61,7 @@ Ga als volgt te werk voordat u een configuratie-instelling maakt die alleen van 
 
    - Herhaal dit proces voor elk veld dat op de pagina moet worden bijgewerkt.
 
-   ![ plaatsend de opties van het Land van de Franse opslagmening ](./assets/store-view-french.png){width="700" zoomable="yes"}
+   ![&#x200B; plaatsend de opties van het Land van de Franse opslagmening &#x200B;](./assets/store-view-french.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -71,27 +71,27 @@ Ga als volgt te werk voordat u een configuratie-instelling maakt die alleen van 
 |--- |--- |
 | **[!UICONTROL Global]** |  |
 | Beheerder | Alle websites, winkels en winkelweergaven in de installatie worden beheerd vanuit dezelfde beheerder. |
-| Standaardconfiguratie | De globale [ standaardconfiguratie ](../getting-started/websites-stores-views.md#scope-settings) montages worden gebruikt door de opslaghiërarchie, tenzij zij op een lager niveau worden met voeten getreden. |
+| Standaardconfiguratie | De globale [&#x200B; standaardconfiguratie &#x200B;](../getting-started/websites-stores-views.md#scope-settings) montages worden gebruikt door de opslaghiërarchie, tenzij zij op een lager niveau worden met voeten getreden. |
 | Catalogus | De termijn _catalogus_ verwijst naar het productgegevensbestand als geheel, en is beschikbaar door de installatie. |
 | Productprijzen | Productprijzen kunnen globaal of op websiteniveau worden geconfigureerd voor toepassing. |
-| Productconfiguraties | Attributen die als [ configureerbare product ](../catalog/product-create-configurable.md) opties worden gebruikt moeten een globaal werkingsgebied hebben. |
-| Klanten | Klantenaccounts kunnen worden geconfigureerd voor toepassing op algemeen niveau of op de website. Elke website kan een afzonderlijke reeks [ klantenrekeningen ](../customers/customer-account-scope.md) hebben of klantenrekeningen met andere websites in de installatie delen. |
+| Productconfiguraties | Attributen die als [&#x200B; configureerbare product &#x200B;](../catalog/product-create-configurable.md) opties worden gebruikt moeten een globaal werkingsgebied hebben. |
+| Klanten | Klantenaccounts kunnen worden geconfigureerd voor toepassing op algemeen niveau of op de website. Elke website kan een afzonderlijke reeks [&#x200B; klantenrekeningen &#x200B;](../customers/customer-account-scope.md) hebben of klantenrekeningen met andere websites in de installatie delen. |
 | **[!UICONTROL Website]** |  |
-| Domein | De extra [ websites ](../stores-purchase/introduction.md#store-structure) kunnen opstelling als subdomeinen van het primaire domein zijn, of afzonderlijke IP adressen en specifieke domeinen hebben. |
-| Klanten | Klantenaccounts kunnen worden geconfigureerd voor toepassing op algemeen niveau of op de website. Elke website kan een afzonderlijke reeks [ klantenrekeningen ](../customers/customer-account-scope.md) hebben of klantenrekeningen met andere websites in de installatie delen. |
-| Valuta | Elke website kan een verschillende [ basismunt ](../stores-purchase/currency-configuration.md) worden toegewezen. De basisvaluta wordt gebruikt om alle transacties te verwerken, hoewel de klant een andere weergavevaluta kan zien, afhankelijk van de landinstelling van de winkelweergave. |
-| Producten | Afzonderlijke producten worden op websiteniveau aan de hiërarchie toegewezen. Het raster Producten bevat een lijst met alle producten in de catalogus en de websites waar deze beschikbaar zijn. Het [ Product in Websites ](../catalog/settings-basic-websites.md) plaatsen identificeert elke website waar het product beschikbaar is. |
-| Productprijzen | [ de prijzen van het Product ](../catalog/catalog-price-scope.md) kunnen voor toepassing op of een globaal of websiteniveau worden gevormd. |
-| Betalingsmethoden | [ de methodes van de Betaling ](../stores-purchase/payments.md) worden gevormd op het websiteniveau, hoewel de titel en de instructies voor elke archiefmening kunnen worden gevormd. |
-| Afhandeling | Het [ controleproces ](../stores-purchase/checkout-process.md) vindt op het websiteniveau plaats, hoewel sommige vertoningsopties voor elke archiefmening kunnen worden gevormd. Alle opslag verbonden aan een website hebben de zelfde [ controleconfiguratie ](../stores-purchase/checkout-process.md#checkout-options). |
-| Toegestane landen | Toegestane landen kunnen op websiteniveau worden geconfigureerd. De [ toegestane landen ](../getting-started/store-details.md#country-options) montages worden gebruikt in de controle om te beperken waar een klant uit kan komen. |
+| Domein | De extra [&#x200B; websites &#x200B;](../stores-purchase/introduction.md#store-structure) kunnen opstelling als subdomeinen van het primaire domein zijn, of afzonderlijke IP adressen en specifieke domeinen hebben. |
+| Klanten | Klantenaccounts kunnen worden geconfigureerd voor toepassing op algemeen niveau of op de website. Elke website kan een afzonderlijke reeks [&#x200B; klantenrekeningen &#x200B;](../customers/customer-account-scope.md) hebben of klantenrekeningen met andere websites in de installatie delen. |
+| Valuta | Elke website kan een verschillende [&#x200B; basismunt &#x200B;](../stores-purchase/currency-configuration.md) worden toegewezen. De basisvaluta wordt gebruikt om alle transacties te verwerken, hoewel de klant een andere weergavevaluta kan zien, afhankelijk van de landinstelling van de winkelweergave. |
+| Producten | Afzonderlijke producten worden op websiteniveau aan de hiërarchie toegewezen. Het raster Producten bevat een lijst met alle producten in de catalogus en de websites waar deze beschikbaar zijn. Het [&#x200B; Product in Websites &#x200B;](../catalog/settings-basic-websites.md) plaatsen identificeert elke website waar het product beschikbaar is. |
+| Productprijzen | [&#x200B; de prijzen van het Product &#x200B;](../catalog/catalog-price-scope.md) kunnen voor toepassing op of een globaal of websiteniveau worden gevormd. |
+| Betalingsmethoden | [&#x200B; de methodes van de Betaling &#x200B;](../stores-purchase/payments.md) worden gevormd op het websiteniveau, hoewel de titel en de instructies voor elke archiefmening kunnen worden gevormd. |
+| Afhandeling | Het [&#x200B; controleproces &#x200B;](../stores-purchase/checkout-process.md) vindt op het websiteniveau plaats, hoewel sommige vertoningsopties voor elke archiefmening kunnen worden gevormd. Alle opslag verbonden aan een website hebben de zelfde [&#x200B; controleconfiguratie &#x200B;](../stores-purchase/checkout-process.md#checkout-options). |
+| Toegestane landen | Toegestane landen kunnen op websiteniveau worden geconfigureerd. De [&#x200B; toegestane landen &#x200B;](../getting-started/store-details.md#country-options) montages worden gebruikt in de controle om te beperken waar een klant uit kan komen. |
 | **[!UICONTROL Store]** |  |
-| Domein | Met veelvoudige opslag, kan elke opslag het zelfde domein, subdomain, of duidelijk verschillende domeinen hebben. Voor meer informatie, verwijs naar [ het Toevoegen van Opslag ](../stores-purchase/stores.md#add-stores). |
-| Basiscategorie | Elke winkel kan een aparte set producten en een hoofdmenu hebben dat is gebaseerd op een categorie en subcategorieën van het type &quot;root&quot;. Elke catalogus heeft a [ wortelcategorie ](../catalog/category-root.md) die op het opslagniveau wordt toegewezen. |
+| Domein | Met veelvoudige opslag, kan elke opslag het zelfde domein, subdomain, of duidelijk verschillende domeinen hebben. Voor meer informatie, verwijs naar [&#x200B; het Toevoegen van Opslag &#x200B;](../stores-purchase/stores.md#add-stores). |
+| Basiscategorie | Elke winkel kan een aparte set producten en een hoofdmenu hebben dat is gebaseerd op een categorie en subcategorieën van het type &quot;root&quot;. Elke catalogus heeft a [&#x200B; wortelcategorie &#x200B;](../catalog/category-root.md) die op het opslagniveau wordt toegewezen. |
 | **[!UICONTROL Store View]** |  |
-| Subcategorieën | De [ subcategorieën ](../catalog/category-create.md#category-structure) die omhoog het belangrijkste menu (onder de wortel) maken worden toegewezen op het niveau van de opslagmening. |
-| Landinstelling | Elke opslagmening kan een verschillende [ scène ](../getting-started/store-details.md#locale-options) worden toegewezen. De weergaverevaluta, maateenheden en beheerinterface zijn specifiek voor de landinstelling. |
-| Talen | Om veelvoudige talen te steunen, moet al inhoud, met inbegrip van productbeschrijvingen, [ vertaald ](../stores-purchase/store-localize.md#localize-products) voor elke archiefmening zijn. |
-| Valuta weergeven | Een verschillende [ vertoningsmunt ](../stores-purchase/currency-configuration.md) kan voor elke opslagmening worden gebruikt, hoewel de transacties op het websiteniveau gebruikend de basismunt worden verwerkt. |
+| Subcategorieën | De [&#x200B; subcategorieën &#x200B;](../catalog/category-create.md#category-structure) die omhoog het belangrijkste menu (onder de wortel) maken worden toegewezen op het niveau van de opslagmening. |
+| Landinstelling | Elke opslagmening kan een verschillende [&#x200B; scène &#x200B;](../getting-started/store-details.md#locale-options) worden toegewezen. De weergaverevaluta, maateenheden en beheerinterface zijn specifiek voor de landinstelling. |
+| Talen | Om veelvoudige talen te steunen, moet al inhoud, met inbegrip van productbeschrijvingen, [&#x200B; vertaald &#x200B;](../stores-purchase/store-localize.md#localize-products) voor elke archiefmening zijn. |
+| Valuta weergeven | Een verschillende [&#x200B; vertoningsmunt &#x200B;](../stores-purchase/currency-configuration.md) kan voor elke opslagmening worden gebruikt, hoewel de transacties op het websiteniveau gebruikend de basismunt worden verwerkt. |
 
 {style="table-layout:auto"}

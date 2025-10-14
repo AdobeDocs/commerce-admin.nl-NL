@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u hebt geprobeerd om deze stappen te voltooien en kwesties hebt, zie de [ Zeer belangrijke Omwenteling van de Encryptie van het Oplossen van problemen: CVE-2024-34102 ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) artikel van de Kennisbank.
+>Als u hebt geprobeerd om deze stappen te voltooien en kwesties hebt, zie de [&#x200B; Zeer belangrijke Omwenteling van de Encryptie van het Oplossen van problemen: CVE-2024-34102 &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) artikel van de Kennisbank.
 
 Adobe Commerce en Magento Open Source gebruiken een coderingssleutel om wachtwoorden en andere vertrouwelijke gegevens te beschermen. Een industriestandaard [!DNL ChaCha20-Poly1305] -algoritme wordt gebruikt met een 256-bits sleutel om alle gegevens te coderen die codering vereisen. Hieronder vallen creditcardgegevens en integratiewachtwoorden (betalings- en verzendmodule). Bovendien wordt een sterk Veilig Algorithm (SHA-256) gebruikt om alle gegevens te hashen die geen decryptie vereisen.
 
 Tijdens de eerste installatie wordt u gevraagd of u Commerce een coderingssleutel wilt laten genereren of een van uw eigen coderingssleutels wilt invoeren. Met de coderingssleutel kunt u de sleutel naar wens wijzigen. De coderingssleutel moet regelmatig worden gewijzigd om de beveiliging te verbeteren en op elk moment kan de oorspronkelijke sleutel in gevaar worden gebracht.
 
-Voor technische informatie, zie [ Geavanceerde installatie ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) in de _Gids van de Installatie_ en [ Gegevens re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in de _Gids van de Ontwikkelaar PHP_.
+Voor technische informatie, zie [&#x200B; Geavanceerde installatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) in de _Gids van de Installatie_ en [&#x200B; Gegevens re-encryptie &#x200B;](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in de _Gids van de Ontwikkelaar PHP_.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Voor technische informatie, zie [ Geavanceerde installatie ](https://experiencel
 
 De volgende instructies vereisen toegang tot een terminal.
 
-1. Laat [ onderhoudswijze ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) toe.
+1. Laat [&#x200B; onderhoudswijze &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) toe.
 
    ```bash
    bin/magento maintenance:enable
@@ -70,7 +70,7 @@ De volgende instructies vereisen toegang tot een terminal.
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   Als u deze output ziet, stel het volgende CLI bevel in werking en zorg ervoor dat het zonder fouten voltooit. Als u bepaalde systeem config waarden of betalingsgebieden moet re-coderen, zie de gedetailleerde [ gids op re-encryptie ](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in _PHP ontwikkelt Gids_.
+   Als u deze output ziet, stel het volgende CLI bevel in werking en zorg ervoor dat het zonder fouten voltooit. Als u bepaalde systeem config waarden of betalingsgebieden moet re-coderen, zie de gedetailleerde [&#x200B; gids op re-encryptie &#x200B;](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in _PHP ontwikkelt Gids_.
 
    ```bash
    bin/magento encryption:key:change
@@ -86,7 +86,7 @@ De volgende instructies vereisen toegang tot een terminal.
 
    1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
-      ![ de encryptiesleutel van het Systeem ](./assets/encryption-key.png){width="700" zoomable="yes"}
+      ![&#x200B; de encryptiesleutel van het Systeem &#x200B;](./assets/encryption-key.png){width="700" zoomable="yes"}
 
    1. Voer een van de volgende handelingen uit:
 

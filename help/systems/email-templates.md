@@ -43,9 +43,9 @@ Doorgaans kunt u een afbeelding kleiner maken dan het origineel, maar niet grote
 
 ## E-mailsjablonen configureren
 
-De configuratie bepaalt het embleem dat in het standaardkopbalmalplaatje verschijnt, en om het even welke douane [ kopbal ](email-template-custom.md#header-template) en [ footer ](email-template-custom.md#footer-template) malplaatjes die u voor transactie e-mailberichten wilt gebruiken die van uw opslag worden verzonden.
+De configuratie bepaalt het embleem dat in het standaardkopbalmalplaatje verschijnt, en om het even welke douane [&#x200B; kopbal &#x200B;](email-template-custom.md#header-template) en [&#x200B; footer &#x200B;](email-template-custom.md#footer-template) malplaatjes die u voor transactie e-mailberichten wilt gebruiken die van uw opslag worden verzonden.
 
-![ Transactioneel e-mailontwerp ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![&#x200B; Transactioneel e-mailontwerp &#x200B;](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 Voor een gedetailleerde lijst van de configuratiemontages, zie [_Transactionele E-mail_](../content-design/configuration.md) in de _Gids van de Inhoud en van het Ontwerp_.
 
@@ -55,7 +55,7 @@ Voor een gedetailleerde lijst van de configuratiemontages, zie [_Transactionele 
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _[!UICONTROL Other Settings]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Transactional Emails]**&#x200B;sectie.
+1. Onder _[!UICONTROL Other Settings]_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Transactional Emails]**&#x200B;sectie.
 
 1. Als u de voorbereide **[!UICONTROL Logo Image]** wilt uploaden, klikt u op **[!UICONTROL Upload]** en selecteert u het bestand in uw systeem.
 
@@ -67,7 +67,7 @@ Voor een gedetailleerde lijst van de configuratiemontages, zie [_Transactionele 
 
 ## Stap 2. De kop- en voettekstsjablonen kiezen
 
-Als u douanekopbal en footer malplaatjes voor uw opslag, of voor verschillende opslag hebt, kunt u specificeren welke malplaatjes voor elk, volgens het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de configuratie worden gebruikt. Anders worden de standaardsjablonen gebruikt. Meer leren, zie [ Aanpassen E-mailMalplaatjes ](email-template-custom.md).
+Als u douanekopbal en footer malplaatjes voor uw opslag, of voor verschillende opslag hebt, kunt u specificeren welke malplaatjes voor elk, volgens het [&#x200B; werkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) van de configuratie worden gebruikt. Anders worden de standaardsjablonen gebruikt. Meer leren, zie [&#x200B; Aanpassen E-mailMalplaatjes &#x200B;](email-template-custom.md).
 
 1. Kies de **[!UICONTROL Header Template]** die moet worden gebruikt voor alle transactieberichten.
 
@@ -98,12 +98,12 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_Company]
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
 | `Assign Company Admin` | **Pagina:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sectie:** [!UICONTROL Customer-Related Emails]<br/>**Gebied:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Pagina:** [!UICONTROL Customers] > [ de Configuratie van het Bedrijf ](../configuration-reference/customers/company-configuration.md)<br/>**Sectie:** [!UICONTROL Customer-Related Emails] <br/>**Gebied:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Pagina:** [!UICONTROL Customers] > [&#x200B; de Configuratie van het Bedrijf &#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Sectie:** [!UICONTROL Customer-Related Emails] <br/>**Gebied:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Pagina:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sectie:** [!UICONTROL Customer-Related Emails]<br/>**Gebied:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Pagina:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sectie:** [!UICONTROL Customer-Related Emails]<br/>**Gebied:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | nvt |
@@ -121,7 +121,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_CompanyCredit]
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -160,7 +160,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_CustomerBalance]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -188,7 +188,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!UICONTROL Magento_GiftCard]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -233,7 +233,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -284,7 +284,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_Reminder]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -294,7 +294,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_Reward]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -305,7 +305,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_Rma]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |
@@ -360,7 +360,7 @@ De lijst met e-mailsjablonen is alfabetisch geordend op module.
 
 ### [!DNL Magento_ScheduledImportExport]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 | Sjabloon | Configuratiepad |
 |--- |--- |

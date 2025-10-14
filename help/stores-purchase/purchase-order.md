@@ -22,11 +22,11 @@ Voordat betaling per kooporder wordt geaccepteerd, moet altijd de kredietwaardig
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Onder _[!UICONTROL Other Payment Methods]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Purchase Order]**&#x200B;sectie.
+1. Onder _[!UICONTROL Other Payment Methods]_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Purchase Order]**&#x200B;sectie.
 
-   ![ Inkooporder ](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
+   ![&#x200B; Inkooporder &#x200B;](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ de Orde van de Aankoop ](../configuration-reference/sales/payment-methods.md#purchase-order) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; de Orde van de Aankoop &#x200B;](../configuration-reference/sales/payment-methods.md#purchase-order) in de _Gids van de Verwijzing van de Configuratie_.
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ Voordat betaling per kooporder wordt geaccepteerd, moet altijd de kredietwaardig
 
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
 1. Stel **[!UICONTROL Minimum Order Total]** en **[!UICONTROL Maximum Order Total]** in op de bedragen die nodig zijn om in aanmerking te komen voor deze betalingsmethode.

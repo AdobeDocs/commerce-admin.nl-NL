@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Zorg voordat u begint dat u precies begrijpt wat omleiding moet doen. Denk in termen van _doel_ / _origineel verzoek_ of _opnieuw richt aan_ / _opnieuw richt van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
 
-Als [ automatische redirects ](url-redirect-product-automatic.md) voor uw opslag worden toegelaten, is er geen behoefte om tot rewrite te leiden wanneer een product [ Sleutel URL ](../catalog/catalog-urls.md) wordt veranderd.
+Als [&#x200B; automatische redirects &#x200B;](url-redirect-product-automatic.md) voor uw opslag worden toegelaten, is er geen behoefte om tot rewrite te leiden wanneer een product [&#x200B; Sleutel URL &#x200B;](../catalog/catalog-urls.md) wordt veranderd.
 
 {{url-rewrite-skip}}
 
@@ -23,7 +23,7 @@ Als [ automatische redirects ](url-redirect-product-automatic.md) voor uw opslag
 
 Om fouten te vermijden, schrijf _omleiding aan_ weg en _omleiding van_ weg neer en omvat de Sleutel URL en het achtervoegsel (als toepasselijk).
 
-Als u niet zeker bent, open elke productpagina in uw opslag, en kopieer de weg van de adresbar van uw browser. Wanneer het creëren van een product redirect, kunt u of de [ categorieweg ](../catalog/catalog-urls.md) omvatten of uitsluiten. In dit voorbeeld maken we een omleiding van een product zonder categoriepad.
+Als u niet zeker bent, open elke productpagina in uw opslag, en kopieer de weg van de adresbar van uw browser. Wanneer het creëren van een product redirect, kunt u of de [&#x200B; categorieweg &#x200B;](../catalog/catalog-urls.md) omvatten of uitsluiten. In dit voorbeeld maken we een omleiding van een product zonder categoriepad.
 
 ### Product met categoriepad
 
@@ -57,13 +57,13 @@ Omleiden vanaf: `overnight-duffle.html`
 
 1. Zoek in het raster het product dat het doel (doel) van de omleiding is en klik op de rij.
 
-   ![ URL herschrijft - product ](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
+   ![&#x200B; URL herschrijft - product &#x200B;](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
 
 1. Klik onder de categoriestructuur op **[!UICONTROL Skip Category Selection]** .
 
    In dit voorbeeld bevat de omleiding geen categorie.
 
-   ![ het product URL herschrijft - overslaat categorieselectie ](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
+   ![&#x200B; het product URL herschrijft - overslaat categorieselectie &#x200B;](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
 
    Met URL toevoegen voor herschrijven van productpagina wordt een koppeling naar het doel in de linkerbovenhoek weergegeven en in het veld Doelpad wordt de systeemversie van het pad weergegeven, die niet kan worden gewijzigd. In eerste instantie wordt in het veld Pad omleiden ook het doelpad weergegeven.
 
@@ -82,7 +82,7 @@ Omleiden vanaf: `overnight-duffle.html`
 
    - Voer ter referentie een korte **[!UICONTROL Description]** van het herschrijven in.
 
-   ![ het product URL herschrijft - informatie ](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
+   ![&#x200B; het product URL herschrijft - informatie &#x200B;](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
 
 1. Lees het volgende voordat u de omleiding opslaat:
 
@@ -136,4 +136,4 @@ U kunt URL herschrijvingen voor veelvoudige of alle producten snel bijwerken gel
 >
 >Alle geselecteerde producten worden opnieuw aan de geselecteerde websites gelezen en URL-herboekingen worden opnieuw gegenereerd.
 
-![ de Attributen van de Update - werk veelvoudige URL herschrijft ](./assets/url-rewrites-update.png){width="600" zoomable="yes"} bij
+![&#x200B; de Attributen van de Update - werk veelvoudige URL herschrijft &#x200B;](./assets/url-rewrites-update.png){width="600" zoomable="yes"} bij

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De [ Punten van de Terugkeer ](rewards-loyalty.md) sectie van de klantenrekening toont aan dat het huidige saldo van beloningspunten door de klant, en een geschiedenis van hun evenwicht van het opbrengstpunt wordt verdiend.
+De [&#x200B; Punten van de Terugkeer &#x200B;](rewards-loyalty.md) sectie van de klantenrekening toont aan dat het huidige saldo van beloningspunten door de klant, en een geschiedenis van hun evenwicht van het opbrengstpunt wordt verdiend.
 
-![ de Punten van de Beloning ](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![&#x200B; de Punten van de Beloning &#x200B;](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## De beloningspunten tijdens de afrekening inwisselen
 
-Als [ het Tarief van de Uitwisseling van de Winst ](reward-exchange-rates.md) met `Points to Currency` richting wordt gevormd, kunnen de klanten beloningspunten tijdens de controle gebruiken.
+Als [&#x200B; het Tarief van de Uitwisseling van de Winst &#x200B;](reward-exchange-rates.md) met `Points to Currency` richting wordt gevormd, kunnen de klanten beloningspunten tijdens de controle gebruiken.
 
 1. Na het toevoegen van alle benodigde producten aan hun winkelwagentje navigeert de klant naar de kassa.
 
@@ -30,7 +30,7 @@ Als [ het Tarief van de Uitwisseling van de Winst ](reward-exchange-rates.md) me
 
 1. Klik op **[!UICONTROL Use reward points]** .
 
-![ Punten van de Beloning op controle ](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
+![&#x200B; Punten van de Beloning op controle &#x200B;](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 
 De beschikbare puntkorting wordt toegepast op subtotal.
 

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Naam en adresopties van de klant
 
-De _Opties van de Naam en van het Adres_ bepalen welke gebieden in de naam en adresvormen inbegrepen zijn wanneer de klanten een [ rekening ](../customers/account-create.md) met uw opslag creëren.
+De _Opties van de Naam en van het Adres_ bepalen welke gebieden in de naam en adresvormen inbegrepen zijn wanneer de klanten een [&#x200B; rekening &#x200B;](../customers/account-create.md) met uw opslag creëren.
 
-![ de aanmeldingsvorm van de Rekening van de Klant ](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
+![&#x200B; de aanmeldingsvorm van de Rekening van de Klant &#x200B;](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
 De stappen voor het configureren van de naam- en adresopties verschillen voor Adobe Commerce en Magento Open Source.
 
@@ -43,7 +43,7 @@ U kunt de naam- en adresopties configureren die aan klanten in de winkel worden 
    >
    >De sectie _[!UICONTROL Name and Address Options]_&#x200B;wordt niet weergegeven wanneer het bereik is ingesteld op `Default Store View` .
 
-   ![ Toepassingsgebied van de Configuratie ](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
+   ![&#x200B; Toepassingsgebied van de Configuratie &#x200B;](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### Stap 2: Vorm de naam en adresopties
 
@@ -53,7 +53,7 @@ U kunt de naam- en adresopties configureren die aan klanten in de winkel worden 
    >
    > Als u de instelling voor het bereik `Default config` niet gebruikt, moet u het selectievakje `Use Default` voor elk veld wissen voordat u de waarde wijzigt.
 
-   ![ de Opties van de Naam en van het Adres ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
+   ![&#x200B; de Opties van de Naam en van het Adres &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL Prefix Dropdown Options]** elk voorvoegsel in dat u in de lijst wilt weergeven, gescheiden door een puntkomma.
 
@@ -73,13 +73,13 @@ U kunt de naam- en adresopties configureren die aan klanten in de winkel worden 
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. In het bericht bij de bovenkant van de pagina, klik **[!UICONTROL Cache Management]** en [ vernieuw ](../systems/cache-management.md) elk ongeldig geheime voorgeheugen.
+1. In het bericht bij de bovenkant van de pagina, klik **[!UICONTROL Cache Management]** en [&#x200B; vernieuw &#x200B;](../systems/cache-management.md) elk ongeldig geheime voorgeheugen.
 
 ## Naam- en adresopties configureren voor Magento Open Source
 
 Configureer de naam- en adresopties die aan klanten in de winkel worden gepresenteerd wanneer ze hun account maken.
 
-![ de aanmeldingsvorm van de Rekening van de Klant ](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
+![&#x200B; de aanmeldingsvorm van de Rekening van de Klant &#x200B;](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
 
 ### Stap 1: Plaats het werkingsgebied van de configuratie
 
@@ -93,7 +93,7 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
    >
    > Het bereik van de naam- en adresopties is van toepassing op het niveau `website` .
 
-   ![ de Opties van de Naam en van het Adres ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
+   ![&#x200B; de Opties van de Naam en van het Adres &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
 1. Blader naar de bovenkant van de pagina en stel het bereik van de configuratie in op een van de volgende opties:
 
@@ -104,7 +104,7 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
    >
    >De _sectie van de Opties van de Naam en van het Adres_ verschijnt niet wanneer het werkingsgebied aan `Default Store View` wordt geplaatst.
 
-   ![ Toepassingsgebied van de Configuratie ](assets/configuration-scope.png){width="600" zoomable="yes"}
+   ![&#x200B; Toepassingsgebied van de Configuratie &#x200B;](assets/configuration-scope.png){width="600" zoomable="yes"}
 
 ### Stap 2: Vorm de naam en adresopties
 
@@ -122,7 +122,7 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
 
 1. Om een prefix (zoals Mr of Mw.) als deel van de naam te omvatten, plaats **toont Prefix** aan `Yes`.
 
-   ![ Prefix in klant onderteken omhoog vorm ](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
+   ![&#x200B; Prefix in klant onderteken omhoog vorm &#x200B;](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
@@ -150,9 +150,9 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
 
    Klanten kunnen het kalenderpictogram na het veld gebruiken om de geboortedatum in een pop-upkalender te kiezen.
 
-   ![ Datum van Opkomst in klant onderteken vorm ](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
+   ![&#x200B; Datum van Opkomst in klant onderteken vorm &#x200B;](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
-1. Om klanten toe te staan om hun belasting of [ BTW ](../stores-purchase/vat.md) aantal in te gaan, plaats **[!UICONTROL Show Tax/VAT Number]** aan één van het volgende:
+1. Om klanten toe te staan om hun belasting of [&#x200B; BTW &#x200B;](../stores-purchase/vat.md) aantal in te gaan, plaats **[!UICONTROL Show Tax/VAT Number]** aan één van het volgende:
 
    - `Optional`
    - `Required`
@@ -162,7 +162,7 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
    - `Optional`
    - `Required`
 
-   ![ de Opties van het Geslacht in de vorm van de klantenaanmelding ](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
+   ![&#x200B; de Opties van het Geslacht in de vorm van de klantenaanmelding &#x200B;](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
 1. Als u de volgende velden in klantformulieren wilt opnemen, stelt u de waarde van elk veld in op `Optional` of `Required` , indien nodig.
 
@@ -174,4 +174,4 @@ Configureer de naam- en adresopties die aan klanten in de winkel worden gepresen
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. In het bericht bij de bovenkant van de pagina, klik **[!UICONTROL Cache Management]** en [ vernieuw ](../systems/cache-management.md) elk ongeldig geheime voorgeheugen.
+1. In het bericht bij de bovenkant van de pagina, klik **[!UICONTROL Cache Management]** en [&#x200B; vernieuw &#x200B;](../systems/cache-management.md) elk ongeldig geheime voorgeheugen.

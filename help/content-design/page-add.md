@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Pagina&#39;s toevoegen en verwijderen
 
-Het toevoegen van een inhoudspagina aan uw winkel is in wezen hetzelfde voor elk type pagina dat u wilt maken. U kunt tekst, afbeeldingen, blokken inhoud, variabelen en widgets opnemen. De meeste inhoudspagina&#39;s worden ontworpen voor lezing door onderzoeksmotoren eerst, en door mensen tweede. Houd rekening met de behoeften van elk van deze twee verschillende doelgroepen wanneer u de paginatitel, de URL en de metagegevens en de inhoud kiest. Wanneer uw pagina volledig is, kan het aan uw archiefnavigatie worden toegevoegd, met andere pagina&#39;s verbonden, die van footer van uw opslag worden verbonden, of als nieuwe [ homepage ](page-home-new.md) worden gebruikt.
+Het toevoegen van een inhoudspagina aan uw winkel is in wezen hetzelfde voor elk type pagina dat u wilt maken. U kunt tekst, afbeeldingen, blokken inhoud, variabelen en widgets opnemen. De meeste inhoudspagina&#39;s worden ontworpen voor lezing door onderzoeksmotoren eerst, en door mensen tweede. Houd rekening met de behoeften van elk van deze twee verschillende doelgroepen wanneer u de paginatitel, de URL en de metagegevens en de inhoud kiest. Wanneer uw pagina volledig is, kan het aan uw archiefnavigatie worden toegevoegd, met andere pagina&#39;s verbonden, die van footer van uw opslag worden verbonden, of als nieuwe [&#x200B; homepage &#x200B;](page-home-new.md) worden gebruikt.
 
-![ Net van Pagina&#39;s ](./assets/pages-grid.png){width="700" zoomable="yes"}
+![&#x200B; Net van Pagina&#39;s &#x200B;](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## Een pagina toevoegen
 
@@ -26,47 +26,47 @@ De volgende instructies lopen u door elke stap om een basispagina tot stand te b
 
 1. Klik op **[!UICONTROL Add New Page]**.
 
-   ![ Nieuwe Pagina ](./assets/pages-new-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Pagina &#x200B;](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
 1. Als u de pagina niet meteen wilt publiceren, stelt u **[!UICONTROL Enable Page]** in op `No` .
 
 1. Voer de **[!UICONTROL Page Title]** in.
 
-   De paginatitel verschijnt in [ breadcrumb ](../catalog/navigation-breadcrumb-trail.md) navigatie.
+   De paginatitel verschijnt in [&#x200B; breadcrumb &#x200B;](../catalog/navigation-breadcrumb-trail.md) navigatie.
 
 ### Stap 2: De inhoud voltooien
 
-Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](../configuration-reference/general/content-management.md), voeg de paginainhoud toe.
+Afhankelijk van uw [&#x200B; Geavanceerde configuratie van Hulpmiddelen van de Inhoud &#x200B;](../configuration-reference/general/content-management.md), voeg de paginainhoud toe.
 
 #### De gereedschappen voor de pagina-inhoud gebruiken
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
 
-   ![ Inhoud met de Bouwer van de Pagina ](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
+   ![&#x200B; Inhoud met de Bouwer van de Pagina &#x200B;](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
 
 1. Voer in het vak **[!UICONTROL Content Heading]** de kop in die u boven aan de pagina wilt weergeven.
 
-   Indien toegelaten, verschijnen het [&#128279;](../page-builder/introduction.md) stadium en het paneel van de Bouwer van de Pagina 0&rbrace; &lbrace;onder de Kop van de Inhoud.  Voor meer informatie, zie [ Workspace ](../page-builder/workspace.md). Als _de Bouwer van de Pagina_ niet wordt toegelaten, opent de redacteur op de wijze van WYSIWYG met de toolbar bij de bovenkant.
+   Indien toegelaten, verschijnen het [&#128279;](../page-builder/introduction.md) stadium en het paneel van de Bouwer van de Pagina 0&rbrace; &lbrace;onder de Kop van de Inhoud.  Voor meer informatie, zie [&#x200B; Workspace &#x200B;](../page-builder/workspace.md). Als _de Bouwer van de Pagina_ niet wordt toegelaten, opent de redacteur op de wijze van WYSIWYG met de toolbar bij de bovenkant.
 
 1. Vul de inhoud in en maak de tekst zo nodig op.
 
 #### De editor-werkbalk gebruiken
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
 
-   ![ Inhoud ](./assets/page-content-editor.png){width="600" zoomable="yes"}
+   ![&#x200B; Inhoud &#x200B;](./assets/page-content-editor.png){width="600" zoomable="yes"}
 
 1. Voer in het vak **[!UICONTROL Content Heading]** de kop in die u boven aan de pagina wilt weergeven.
 
 1. Vul de inhoud in en maak de tekst zo nodig op.
 
-   U kunt [ beelden ](media-storage.md) toevoegen, [ variabelen ](../systems/variables-predefined.md), en [ widgets ](widgets.md) zoals nodig. Voor meer informatie, zie [ Gebruikend de Redacteur ](editor.md).
+   U kunt [&#x200B; beelden &#x200B;](media-storage.md) toevoegen, [&#x200B; variabelen &#x200B;](../systems/variables-predefined.md), en [&#x200B; widgets &#x200B;](widgets.md) zoals nodig. Voor meer informatie, zie [&#x200B; Gebruikend de Redacteur &#x200B;](editor.md).
 
 ### Stap 3: Voltooi de SEO-informatie
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** uit.
 
-   ![ Optimalisering van de Motor van het Onderzoek ](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Accepteer de standaardinstelling of voer een andere **[!UICONTROL URL Key]** in die bestaat uit alle kleine letters, met afbreekstreepjes in plaats van spaties.
 
@@ -88,9 +88,9 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
 
 ### Stap 4: Geef het bereik van de pagina op
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]** uit.
 
-   ![ Pagina&#39;s in Websites ](./assets/page-in-websites.png){width="600" zoomable="yes"}
+   ![&#x200B; Pagina&#39;s in Websites &#x200B;](./assets/page-in-websites.png){width="600" zoomable="yes"}
 
 1. Selecteer in de lijst **[!UICONTROL Store View]** elke weergave waar de pagina beschikbaar moet zijn.
 
@@ -100,17 +100,17 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
 
 {{ee-feature}}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]** uit.
 
-   ![ Hiërarchie ](./assets/page-hierarchy.png){width="600" zoomable="yes"}
+   ![&#x200B; Hiërarchie &#x200B;](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
 1. Als deze pagina een onderliggend item van een andere pagina is, schakelt u het selectievakje van de **[!UICONTROL Parent page]** in.
 
 ### Stap 6: Voer ontwerpwijzigingen in (optioneel)
 
-1. Om de lay-out van de pagina te veranderen, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Design]** uit.
+1. Om de lay-out van de pagina te veranderen, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Design]** uit.
 
-   ![ Ontwerp ](./assets/page-design.png){width="600" zoomable="yes"}
+   ![&#x200B; Ontwerp &#x200B;](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. Als u de kolomlay-out van de pagina wilt wijzigen, stelt u **[!UICONTROL Layout]** in op een van de volgende opties:
 
@@ -119,24 +119,24 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - `Page -- Full Width` (vereist [ Bouwer van de Pagina ](../page-builder/introduction.md))
+   - `Page -- Full Width` (vereist [&#x200B; Bouwer van de Pagina &#x200B;](../page-builder/introduction.md))
    - `Category -- Full Width` (hiervoor is Page Builder vereist)
    - `Product -- Full Width` (hiervoor is Page Builder vereist)
 
 1. Als u een **[!UICONTROL Custom Layout Update]** wilt toepassen, kiest u de naam van het bestand in de lijst.
 
-   Voor meer informatie, zie [ Updates van de Lay-out ](layout-updates.md).
+   Voor meer informatie, zie [&#x200B; Updates van de Lay-out &#x200B;](layout-updates.md).
 
 1. Als u het thema van de pagina wilt wijzigen, stelt u **[!UICONTROL New Theme]** in op een van de volgende opties:
 
    - `Magento Black`
    - `Magento Luma`
 
-1. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) om een ontwerpverandering te plannen, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** uit en doe het volgende:
+1. ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) om een ontwerpverandering te plannen, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** uit en doe het volgende:
 
-   ![ Update van het Ontwerp van de Douane ](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
+   ![&#x200B; Update van het Ontwerp van de Douane &#x200B;](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
-   - Gebruik de kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!UICONTROL From]** en **[!UICONTROL To]** data voor de verandering te kiezen om van kracht te worden.
+   - Gebruik de kalender (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om **[!UICONTROL From]** en **[!UICONTROL To]** data voor de verandering te kiezen om van kracht te worden.
 
    - Als u een ander thema op de pagina wilt toepassen, selecteert u de naam van de **[!UICONTROL New Theme]** .
 
@@ -162,7 +162,7 @@ Afhankelijk van uw [ Geavanceerde configuratie van Hulpmiddelen van de Inhoud ](
 
 Elke inhoudspagina kan als een sjabloon worden gebruikt en als een duplicaat worden opgeslagen. U kunt deze tijdbesparende techniek gebruiken om een consistent ontwerp te maken voor de pagina&#39;s met inhoud op de hele site. Op de gedupliceerde pagina blijft de paginatitel van het origineel behouden, maar de velden URL-sleutel en -status moeten worden bijgewerkt.
 
-![ sparen &amp; Dupliceren ](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
+![&#x200B; sparen &amp; Dupliceren &#x200B;](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
@@ -184,9 +184,9 @@ Elke inhoudspagina kan als een sjabloon worden gebruikt en als een duplicaat wor
 
    - Werk de **[!UICONTROL Page Title]** zo nodig bij.
 
-   - Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit en ga unieke **[!UICONTROL URL Key]** in die u voor de dubbele pagina wilt gebruiken.
+   - Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit en ga unieke **[!UICONTROL URL Key]** in die u voor de dubbele pagina wilt gebruiken.
 
-     ![ Tijdelijke sleutel URL ](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
+     ![&#x200B; Tijdelijke sleutel URL &#x200B;](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
    - Werk de resterende pagina-inhoud naar wens bij.
 

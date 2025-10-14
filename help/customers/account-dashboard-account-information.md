@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De basisgegevens van de klantenaccount bevatten uw naam en e-mailadres en wachtwoord. U kunt deze gegevens bijhouden via het dashboard voor de klantenaccount in de winkel.
 
-![ de informatie van de Rekening over de storefront ](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![&#x200B; de informatie van de Rekening over de storefront &#x200B;](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
 In de zijbalk van uw account kan de klant **[!UICONTROL Account Information]** kiezen en een van de volgende handelingen uitvoeren om de accountgegevens bij te werken.
 
@@ -24,7 +24,7 @@ Om de naam voor de account bij te werken, wijzigt de klant de waarden in de veld
 
 >[!INFO]
 >
->De extra gebieden verschijnen als deel van de naam als de [ klantenconfiguratie ](../configuration-reference/customers/customer-configuration.md) een prefix, midden aanvankelijke, en achtervoegsel omvat.
+>De extra gebieden verschijnen als deel van de naam als de [&#x200B; klantenconfiguratie &#x200B;](../configuration-reference/customers/customer-configuration.md) een prefix, midden aanvankelijke, en achtervoegsel omvat.
 
 ## E-mailadres wijzigen
 
@@ -34,7 +34,7 @@ Om de naam voor de account bij te werken, wijzigt de klant de waarden in de veld
 
 1. Voer hun **[!UICONTROL Current Password]** in.
 
-   ![ E-mailadres van de Verandering ](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![&#x200B; E-mailadres van de Verandering &#x200B;](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** .
 
@@ -50,6 +50,6 @@ Om de naam voor de account bij te werken, wijzigt de klant de waarden in de veld
    >
    >Het wachtwoord moet ten minste acht tekens lang zijn en kan bestaan uit een combinatie van hoofdletters en kleine letters, cijfers en symbolen. De sterkteaanduiding voor het wachtwoord helpt de klant het beste wachtwoord te kiezen.
 
-   ![ Wachtwoord van de Verandering ](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
+   ![&#x200B; Wachtwoord van de Verandering &#x200B;](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
 
 1. Voer het nogmaals in om het te bevestigen.

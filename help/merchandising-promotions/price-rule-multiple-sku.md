@@ -16,7 +16,7 @@ Er kan één regel voor catalogusprijzen worden toegepast op meerdere SKU&#39;s,
 
 ## Stap 1. Eigenschappen van het productkenmerk verifiëren voor winkel
 
-Alvorens u begint, zorg ervoor dat de [ Eigenschappen Storefront ](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) van het `sku` attribuut aan `Use in Promo Rules` wordt geplaatst.
+Alvorens u begint, zorg ervoor dat de [&#x200B; Eigenschappen Storefront &#x200B;](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) van het `sku` attribuut aan `Use in Promo Rules` wordt geplaatst.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
@@ -34,34 +34,34 @@ Alvorens u begint, zorg ervoor dat de [ Eigenschappen Storefront ](../catalog/at
 
 1. Voer een van de volgende handelingen uit:
 
-   - Volg de instructies om de regel van de a [ catalogusprijs ](price-rules-catalog.md) tot stand te brengen.
+   - Volg de instructies om de regel van de a [&#x200B; catalogusprijs &#x200B;](price-rules-catalog.md) tot stand te brengen.
    - Open een bestaande regel voor catalogusprijzen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Conditions]** sectie uit, en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Conditions]** sectie uit, en doe het volgende:
 
    - Stel in de eerste regel de eerste parameter in op `ANY` .
 
-     ![ voorwaarde van de catalogusprijs - OM HET EVEN WELK ](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de catalogusprijs - OM HET EVEN WELK &#x200B;](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
 
-   - Klik _toevoegen_ (![ pictogram ](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn en in de lijst onder **[!UICONTROL Product Attribute]**, klik `SKU`.
+   - Klik _toevoegen_ (![&#x200B; pictogram &#x200B;](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn en in de lijst onder **[!UICONTROL Product Attribute]**, klik `SKU`.
 
-     ![ voorwaarde van de de prijsregel van de Catalogus - SKU is één van ](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de de prijsregel van de Catalogus - SKU is één van &#x200B;](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
 
    - Voor de vergelijking hebt u opties. Als u minstens één van een lijst van SKUs wilt de plaats bepalen, `select is one of`. Selecteer `is` als u een groep SKU&#39;s wilt zoeken die allemaal moeten worden toegepast. We raden u aan `is one of` te selecteren.
 
-     ![ voorwaarde van de de prijsregel van de Catalogus - SKU is één van ](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de de prijsregel van de Catalogus - SKU is één van &#x200B;](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
 
-   - Om de voorwaarde te voltooien, klik meer (**..**) verbinding en klik _Kiezer_ (![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) voor de lijst van beschikbare producten.
+   - Om de voorwaarde te voltooien, klik meer (**..**) verbinding en klik _Kiezer_ (![&#x200B; pictogram van de Lijst &#x200B;](../assets/icon-list-chooser.png)) voor de lijst van beschikbare producten.
 
-     ![ voorwaarde van de de prijsregel van de Catalogus - veelvoudige SKUs ](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de de prijsregel van de Catalogus - veelvoudige SKUs &#x200B;](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
 
    - Blader, filter of zoek naar de SKU&#39;s die u wilt toevoegen. Selecteer in de lijst het selectievakje van elk product dat u wilt opnemen.
 
    - Klik **[!UICONTROL Save and Apply]** om SKUs aan de voorwaarde toe te voegen.
 
-     ![ voorwaarde van de de prijsregel van de Catalogus - veelvoudige SKUs ](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de de prijsregel van de Catalogus - veelvoudige SKUs &#x200B;](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
 
-1. Voltooi de regel, met inbegrip van om het even welke [ Acties ](price-rules-catalog.md) die moeten worden genomen wanneer de voorwaarden worden voldaan aan.
+1. Voltooi de regel, met inbegrip van om het even welke [&#x200B; Acties &#x200B;](price-rules-catalog.md) die moeten worden genomen wanneer de voorwaarden worden voldaan aan.
 
 1. Wanneer uw regel volledig is, klik **[!UICONTROL Save]**.
 

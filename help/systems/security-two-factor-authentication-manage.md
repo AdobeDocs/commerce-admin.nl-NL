@@ -23,13 +23,13 @@ Als u zich niet kunt aanmelden met 2FA, kunt u het volgende overwegen:
 - Ook het wissen van webcache en cookies voor de Adobe Commerce- of Magento Open Source-installatie kan u helpen. Authenticatoren gebruiken, net als Google, gegenereerde cookies om toegang en duur op te slaan. Wis de koekjes voor uw specifieke browser en opslagdomein.
 - Door het blokkeren van cookies voorkomt u dat sommige verificateurs, zoals [!DNL Google Authenticator], het verificatieproces voltooien. Voeg een regel toe aan uw browser die cookies toestaat voor uw Adobe Commerce-installatie.
 
-Om authentificators van de bevellijn en meer geavanceerde het oplossen van problemeninformatie terug te stellen, zie [ Two-Factor Authentificatie ](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) in de ontwikkelaarsdocumentatie.
+Om authentificators van de bevellijn en meer geavanceerde het oplossen van problemeninformatie terug te stellen, zie [&#x200B; Two-Factor Authentificatie &#x200B;](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) in de ontwikkelaarsdocumentatie.
 
 **_om authentificators voor een gebruikersrekening terug te stellen:_**
 
 >[!NOTE]
 >
->Om 2FA leveranciers voor andere gebruikers terug te stellen, moet u een _beheerder_ met `All` toestemmingen zijn, of `Custom` toestemmingen voor uw rol hebben met [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] en [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] geselecteerd. Meer leren, zie [ Rollen van de Gebruiker ](permissions-user-roles.md).
+>Om 2FA leveranciers voor andere gebruikers terug te stellen, moet u een _beheerder_ met `All` toestemmingen zijn, of `Custom` toestemmingen voor uw rol hebben met [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] en [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] geselecteerd. Meer leren, zie [&#x200B; Rollen van de Gebruiker &#x200B;](permissions-user-roles.md).
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
 
@@ -41,7 +41,7 @@ Om authentificators van de bevellijn en meer geavanceerde het oplossen van probl
 
 1. Klik in de sectie _[!UICONTROL Configuration reset]_&#x200B;op **[!UICONTROL Reset]**&#x200B;en **[!UICONTROL OK]**&#x200B;om te bevestigen.
 
-   ![ rekening van de Gebruiker - laat 2FA ](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"} toe
+   ![&#x200B; rekening van de Gebruiker - laat 2FA &#x200B;](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"} toe
 
    Als de gebruiker de vereiste methodes 2FA aan hun rekening wil herstellen, moeten zij elk van de _Ondertekenen_ pagina opnieuw vormen.
 

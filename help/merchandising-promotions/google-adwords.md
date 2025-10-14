@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bij het bijhouden van de conversie ziet u het aantal advertenties dat tot een verkoop of een andere waardevolle handeling leidt. De _pagina van het Succes_ die aan uw klant verschijnt nadat een orde is voorgelegd wordt gebruikt om omzettingen te volgen omdat het slechts na een verkoop verschijnt. Nadat u de configuratie van Google AdWords voor uw winkel hebt voltooid, hoeft u het script voor het bijhouden van de conversie niet meer naar de pagina Success te kopiëren, omdat Commerce al over de benodigde informatie beschikt. Meer leren, zie [ Hulp AdWords van Google ][2].
 
-![ Adobe en in de Resultaten van het Onderzoek van Google ](./assets/google-adwords-adobe-ad.png){width="500"}
+![&#x200B; Adobe en in de Resultaten van het Onderzoek van Google &#x200B;](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Stap 1. Een Google AdWords-campagne maken
 
@@ -72,13 +72,13 @@ Bij het bijhouden van de conversie ziet u het aantal advertenties dat tot een ve
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Google API]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google AdWords]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Google AdWords]** sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Enable]** in op `Yes` .
 
    - Voer de **[!UICONTROL Conversion ID]** in uit uw Google AdWords-script.
 
-   ![ de configuratie van de Verkoop - de Advertentie API van Google ](../configuration-reference/sales/assets/google-api-google-adwords.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van de Verkoop - de Advertentie API van Google &#x200B;](../configuration-reference/sales/assets/google-api-google-adwords.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de melding van de Google-sitestaat op te maken:
 

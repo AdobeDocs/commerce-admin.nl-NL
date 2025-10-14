@@ -18,7 +18,7 @@ De hoofdsecties van de pagina worden gedeeltelijk bestuurd door een set standaar
 - [Koptekst](#header)
 - [Voettekst](#footer)
 
-![ HTML paginagedeelten ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![&#x200B; HTML paginagedeelten &#x200B;](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTML Head
 
@@ -30,11 +30,11 @@ De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
+1. Onder _Andere Montages_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL HTML Head]** sectie uit.
 
-   ![ de configuratiemontages van het Kop van HTML ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![&#x200B; de configuratiemontages van het Kop van HTML &#x200B;](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. Werk [ favicon ](../getting-started/storefront-branding.md#add-a-favicon) indien nodig bij.
+1. Werk [&#x200B; favicon &#x200B;](../getting-started/storefront-branding.md#add-a-favicon) indien nodig bij.
 
 1. Pas de instellingen voor de paginatitel aan uw wensen aan:
 
@@ -53,10 +53,10 @@ De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een
 
    >[!NOTE]
    >
-   >Alle JavaScript die u in het veld [!UICONTROL Scripts and Style Sheets] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [ Beleid van de Veiligheid van de Inhoud ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Alle JavaScript die u in het veld [!UICONTROL Scripts and Style Sheets] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 
-1. Laat of maak de [ kennisgeving van de duoopslag ](../getting-started/storefront-branding.md#set-the-store-demo-notice) indien nodig toe onbruikbaar.
+1. Laat of maak de [&#x200B; kennisgeving van de duoopslag &#x200B;](../getting-started/storefront-branding.md#set-the-store-demo-notice) indien nodig toe onbruikbaar.
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
@@ -79,7 +79,7 @@ De instellingen in de sectie HTML Head komen overeen met de tag `<head>` van een
 
 De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en specificeert de lt tekst van het embleem en welkomstbericht.
 
-![ de configuratiemontages van de Kopbal ](./assets/configuration-header.png){width="400" zoomable="yes"}
+![&#x200B; de configuratiemontages van de Kopbal &#x200B;](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### De koptekst configureren
 
@@ -87,12 +87,12 @@ De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en spec
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Header]** sectie uit.
+1. Onder _Andere Montages_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Header]** sectie uit.
 
 1. Breng de gewenste wijzigingen aan in de winkelweergave:
 
    - [&#128279;](../getting-started/storefront-branding.md#upload-your-logo) montages van 0&rbrace; Logo &lbrace;
-   - [ Welkome bericht ](../getting-started/storefront-branding.md#change-the-welcome-message) montages
+   - [&#x200B; Welkome bericht &#x200B;](../getting-started/storefront-branding.md#change-the-welcome-message) montages
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
@@ -111,9 +111,9 @@ De configuratie van de Kopbal identificeert de weg aan uw archiefembleem en spec
 
 ## Voettekst
 
-De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [ copyrightkennisgeving ](../getting-started/storefront-branding.md#change-the-copyright-notice) kunt bijwerken die bij de bodem van de pagina verschijnt, en diverse manuscripten ingaan die vóór de sluitende `<body>` markering moeten worden geplaatst.
+De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [&#x200B; copyrightkennisgeving &#x200B;](../getting-started/storefront-branding.md#change-the-copyright-notice) kunt bijwerken die bij de bodem van de pagina verschijnt, en diverse manuscripten ingaan die vóór de sluitende `<body>` markering moeten worden geplaatst.
 
-![ de configuratiemontages van de Voettekst ](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![&#x200B; de configuratiemontages van de Voettekst &#x200B;](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### De voettekst configureren
 
@@ -121,13 +121,13 @@ De sectie van de de configuratieconfiguratie van de Voettekst is waar u de [ cop
 
 1. Zoek de winkelweergave die u wilt configureren en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Onder _Andere Montages_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Footer]** sectie uit.
+1. Onder _Andere Montages_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Footer]** sectie uit.
 
 1. Breng de benodigde wijzigingen aan in de instellingen **[!UICONTROL Copyright]** en **[!UICONTROL Miscellaneous HTML]** .
 
    >[!NOTE]
    >
-   >Alle JavaScript die u in het veld [!UICONTROL Miscellaneous HTML] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [ Beleid van de Veiligheid van de Inhoud ](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+   >Alle JavaScript die u in het veld [!UICONTROL Miscellaneous HTML] invoert, moet worden vermeld in de CSP-instellingen (Content Security Policy), anders wordt de code niet uitgevoerd op de afhandelingspagina&#39;s. Voor meer informatie, zie [&#x200B; Beleid van de Veiligheid van de Inhoud &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 

@@ -13,13 +13,13 @@ ht-degree: 0%
 
 De optie **[!UICONTROL Now Online]** in het menu [!DNL Customers] bevat een lijst met alle klanten en bezoekers die momenteel online in uw winkel zijn. Het tijdsinterval dat klanten zoals momenteel online wordt getoond wordt geplaatst in de configuratie, en bepaalt hoe lang de [!DNL Customer's] activiteit van Admin zichtbaar is. Standaard is het interval 15 minuten. De sessie wordt beëindigd als het toetsenbord tijdens deze periode niet wordt gebruikt en klanten zich opnieuw moeten aanmelden bij hun accounts om verder te gaan met winkelen. Het is belangrijk op te merken dat de inhoud van de winkelwagentjes wordt bewaard voor latere toegang.
 
-![ Online Klanten ](assets/customers-now-online.png){width="700" zoomable="yes"}
+![&#x200B; Online Klanten &#x200B;](assets/customers-now-online.png){width="700" zoomable="yes"}
 
 De onlinestatus van klanten wordt alleen bijgewerkt wanneer de klant zich aanmeldt, zich registreert of een andere statusveranderende gebeurtenis. Het omvat gebeurtenissen met betrekking tot winkelwagentjes, zoals het toevoegen, verwijderen en wijzigen van producten.
 
 >[!NOTE]
 >
->Bij paginabezoeken alleen wordt de online status van de klant niet bijgewerkt. Om dergelijke informatie te verzamelen, wordt het geadviseerd aan [ opstellings Googles Analytics ](../merchandising-promotions/google-analytics.md) (alleen of met [ de Manager van de Markering van Google ](../merchandising-promotions/google-tag-manager.md)) of andere analysesoftware met Adobe Commerce te gebruiken.
+>Bij paginabezoeken alleen wordt de online status van de klant niet bijgewerkt. Om dergelijke informatie te verzamelen, wordt het geadviseerd aan [&#x200B; opstellings Googles Analytics &#x200B;](../merchandising-promotions/google-analytics.md) (alleen of met [&#x200B; de Manager van de Markering van Google &#x200B;](../merchandising-promotions/google-tag-manager.md)) of andere analysesoftware met Adobe Commerce te gebruiken.
 
 ## Alle klanten die momenteel online zijn bekijken
 
@@ -27,7 +27,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Online Now]*
 
 >[!TIP]
 >
->Voor informatie over het helpen van een online klant voltooit een aankoop, zie [ Shopping hulp ](../stores-purchase/introduction.md#shopping-assistance).
+>Voor informatie over het helpen van een online klant voltooit een aankoop, zie [&#x200B; Shopping hulp &#x200B;](../stores-purchase/introduction.md#shopping-assistance).
 
 ## Vorm het tijdinterval
 
@@ -37,7 +37,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Online Now]*
 
 1. Vouw de sectie **[!UICONTROL Online Customers Options]** uit en voer de volgende handelingen uit:
 
-   ![ Online de opties van de Klant ](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Online de opties van de Klant &#x200B;](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
 
    - Voer bij **[!UICONTROL Online Minutes Interval]** het aantal minuten in dat de sessie van de klant van de beheerder moet worden weergegeven. Laat het veld leeg om het standaardinterval van 15 minuten te accepteren.
 

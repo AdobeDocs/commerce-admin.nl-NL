@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Winkelkrediet is een bedrag dat wordt teruggezet naar een klantenaccount. Klanten kunnen hun winkelkrediet gebruiken om aankopen te betalen en beheerders kunnen krediet opslaan voor terugbetalingen in contanten. Cadeaucreditcardsaldi kunnen op de rekening van de klant worden gecrediteerd, in plaats van de code van de cadeaukaart voor toekomstige aankopen te gebruiken.
 
-Nadat een orde wordt betaald en gefactureerd, kan de orde, of een gedeelte van het, worden terugbetaald door [ het uitgeven van een creditnota ](../stores-purchase/credit-memo-create.md). Een creditnota verschilt van een terugbetaling omdat het bedrag van het krediet wordt teruggegeven aan de rekening van de klant waar het voor toekomstige aankopen kan worden gebruikt. Soms kan een terugbetaling tegelijk met de uitgifte van een creditnota worden gegeven en worden toegepast op het creditsaldo van de winkel van de klant. Het bedrag aan winkelkrediet dat beschikbaar is in de rekening van de klant wordt gespecificeerd in de configuratie.
+Nadat een orde wordt betaald en gefactureerd, kan de orde, of een gedeelte van het, worden terugbetaald door [&#x200B; het uitgeven van een creditnota &#x200B;](../stores-purchase/credit-memo-create.md). Een creditnota verschilt van een terugbetaling omdat het bedrag van het krediet wordt teruggegeven aan de rekening van de klant waar het voor toekomstige aankopen kan worden gebruikt. Soms kan een terugbetaling tegelijk met de uitgifte van een creditnota worden gegeven en worden toegepast op het creditsaldo van de winkel van de klant. Het bedrag aan winkelkrediet dat beschikbaar is in de rekening van de klant wordt gespecificeerd in de configuratie.
 
 >[!NOTE]
 >

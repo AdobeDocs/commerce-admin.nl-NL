@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse aan de groep is gekoppeld. De standaardklantengroepen zijn `General`, `Not Logged In`, en `Wholesale`.
 
-![ de Groepen van de Klant ](assets/customer-groups.png){width="700" zoomable="yes"}
+![&#x200B; de Groepen van de Klant &#x200B;](assets/customer-groups.png){width="700" zoomable="yes"}
 
 ## De lijst [!UICONTROL Customer Groups] filteren
 
@@ -24,7 +24,7 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 
 1. Voer criteria in voor het doorzoeken van groepen, waaronder een bereik met id&#39;s, groepen of belastingklassen.
 
-   ![ het Filtreren Opties ](assets/groups-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; het Filtreren Opties &#x200B;](assets/groups-filters.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Apply Filters]** als de bewerking is voltooid.
 
@@ -42,7 +42,7 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 
 1. Selecteer de **[!UICONTROL Tax Class]** die op de groep van toepassing is.
 
-   ![ de Informatie van de Groep ](assets/group-information.png){width="600" zoomable="yes"}
+   ![&#x200B; de Informatie van de Groep &#x200B;](assets/group-information.png){width="600" zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL Excluded Website(s)]** die u van de groep wilt uitsluiten.
 
@@ -76,7 +76,7 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 
 1. Plaats de **controle van Acties** aan `Assign a Customer Group` en kies de groep van het menu.
 
-   ![ wijs een Groep van de Klant toe ](assets/group-assign.png){width="600" zoomable="yes"}
+   ![&#x200B; wijs een Groep van de Klant toe &#x200B;](assets/group-assign.png){width="600" zoomable="yes"}
 
 1. Wanneer ertoe aangezet om te bevestigen, klik **OK**.
 
@@ -84,17 +84,17 @@ Klantgroepen bepalen welke kortingen beschikbaar zijn en welke belastingklasse a
 
 1. Op _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _Bevorderingen_ > **[!UICONTROL Cart Price Rules]**.
 
-1. Selecteer de regel van de wortelprijs waar u een groep voor de toegepaste korting wilt associëren, of [ creeer een prijsregel ](../merchandising-promotions/price-rules-catalog.md).
+1. Selecteer de regel van de wortelprijs waar u een groep voor de toegepaste korting wilt associëren, of [&#x200B; creeer een prijsregel &#x200B;](../merchandising-promotions/price-rules-catalog.md).
 
 1. Selecteer de klantengroepen waarop de regel van toepassing is.
 
-   ![ Groep van de Klant aan Specifieke Kortingen ](assets/group-discount.png){width="600" zoomable="yes"}
+   ![&#x200B; Groep van de Klant aan Specifieke Kortingen &#x200B;](assets/group-discount.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> U kunt de Geavanceerde prijzen ook gebruiken om productkortingen op klantengroepen toe te passen. Zie [ Geavanceerde tarifering ](../catalog/product-price-group.md).
+> U kunt de Geavanceerde prijzen ook gebruiken om productkortingen op klantengroepen toe te passen. Zie [&#x200B; Geavanceerde tarifering &#x200B;](../catalog/product-price-group.md).
 
 ## Een klantengroep verwijderen
 

@@ -22,11 +22,11 @@ U hebt een [!DNL Google Analytics] - en [!DNL Tag Manager] -account nodig om dit
 
 >[!NOTE]
 >
->Als uw zaken aan privacyverordeningen zoals de [ Algemene Verordening van de Bescherming van Gegevens ](../getting-started/compliance-gdpr.md) en/of de [ Wet van de Privacy van de consument van Californië ](../getting-started/compliance-ccpa.md) onderworpen zijn, zie [ de Montages van de Privacy van Google ](google-tools.md#google-privacy-settings).
+>Als uw zaken aan privacyverordeningen zoals de [&#x200B; Algemene Verordening van de Bescherming van Gegevens &#x200B;](../getting-started/compliance-gdpr.md) en/of de [&#x200B; Wet van de Privacy van de consument van Californië &#x200B;](../getting-started/compliance-ccpa.md) onderworpen zijn, zie [&#x200B; de Montages van de Privacy van Google &#x200B;](google-tools.md#google-privacy-settings).
 
 ## Stap 1. Uw [!DNL Google Analytics] -account configureren
 
-Zie [ het Onderzoek van de Plaats van de Opstelling ](https://support.google.com/analytics/answer/1012264) in de Hulp van Google voor de grondbeginselen u voor begonnen wordt nodig hebt. Zie ook de gidsen van Google voor [ Google Analytics ](https://support.google.com/analytics/answer/9304153) en [ de Manager van de Markering van Google ](https://support.google.com/tagmanager/answer/6102821).
+Zie [&#x200B; het Onderzoek van de Plaats van de Opstelling &#x200B;](https://support.google.com/analytics/answer/1012264) in de Hulp van Google voor de grondbeginselen u voor begonnen wordt nodig hebt. Zie ook de gidsen van Google voor [&#x200B; Google Analytics &#x200B;](https://support.google.com/analytics/answer/9304153) en [&#x200B; de Manager van de Markering van Google &#x200B;](https://support.google.com/tagmanager/answer/6102821).
 
 1. Meld u aan bij uw [!DNL Google Analytics] -account.
 
@@ -72,7 +72,7 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 >
 >Voor extra informatie, zie de uitvoer en de invoer van de Container van Google [&#128279;](https://support.google.com/tagmanager/answer/6106997). Deze instructies bieden een doorloop voor het importeren van een voorbeeld-JSON in een nieuwe container.
 
-1. Download het verbonden dossier [ GTM_M2_Config_json.txt ](./assets/GTM_M2_Config_json.txt), open het dossier in een redacteur, en bewaar het als `GTM_M2_Config.json`.
+1. Download het verbonden dossier [&#x200B; GTM_M2_Config_json.txt &#x200B;](./assets/GTM_M2_Config_json.txt), open het dossier in een redacteur, en bewaar het als `GTM_M2_Config.json`.
 
    Het JSON-bestand wordt rechtstreeks geüpload naar [!DNL Google Tag Manager] .
 
@@ -116,9 +116,9 @@ De volgende instructies tonen hoe te om een nieuwe container met de basismontage
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Google API]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** sectie uit en vorm het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** sectie uit en vorm het volgende:
 
-   ![ configuratie van de Verkoop - Google Analytics ](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - Google Analytics &#x200B;](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Enable]** in op `Yes` .
 
@@ -170,7 +170,7 @@ Als u een Google AdWords-account hebt, kunt u een tag maken die conversies bijho
    - Conversie-id
    - Conversielabel
 
-   Als u hulp nodig hebt, bezoek Google [ steunplaats ](https://support.google.com/tagmanager/answer/6105160).
+   Als u hulp nodig hebt, bezoek Google [&#x200B; steunplaats &#x200B;](https://support.google.com/tagmanager/answer/6105160).
 
 1. Klik in het dashboard van [!DNL Google Tag Manager] op **[!UICONTROL Google AdWords]** en voer de volgende handelingen uit:
 
@@ -196,7 +196,7 @@ Als u doorgaat vanaf het dashboard van [!DNL Google Tag Manager] , bestaat de vo
 
    - **Verrichting** - `matches RegEx`
 
-     Meer leren, zie [ Regex en CSS selecteurs exploitanten ](https://support.google.com/tagmanager/answer/7679109) in de Hulp van de Manager van de Markering van Google.
+     Meer leren, zie [&#x200B; Regex en CSS selecteurs exploitanten &#x200B;](https://support.google.com/tagmanager/answer/7679109) in de Hulp van de Manager van de Markering van Google.
 
    - **[!UICONTROL Value]** - `checkout/success.*`
 
@@ -212,7 +212,7 @@ De volgende stap in het proces is een voorvertoning van de tag. Elke keer dat ee
 
 ## Aangepaste HTML-tag met JavaScript
 
-In deze sectie wordt uitgelegd hoe u een CSP-abonnement één keer toevoegt aan de HTML-tag JavaScript Aangepast, zodat deze kan worden uitgevoerd op de afhandelingspagina, zodat wordt voldaan aan de CSP-vereisten (Content Security Policy). Deze toevoeging verbetert de sitebeveiliging door te voorkomen dat onbevoegde scripts worden uitgevoerd. Voor meer gedetailleerde informatie, zie de [ documentatie van het Beleid van de Veiligheid van de Inhoud 0&rbrace; &lbrace;.](https://developer.adobe.com/commerce/php/development/security/content-security-policies)
+In deze sectie wordt uitgelegd hoe u een CSP-abonnement één keer toevoegt aan de HTML-tag JavaScript Aangepast, zodat deze kan worden uitgevoerd op de afhandelingspagina, zodat wordt voldaan aan de CSP-vereisten (Content Security Policy). Deze toevoeging verbetert de sitebeveiliging door te voorkomen dat onbevoegde scripts worden uitgevoerd. Voor meer gedetailleerde informatie, zie de [&#x200B; documentatie van het Beleid van de Veiligheid van de Inhoud 0&rbrace; &lbrace;.](https://developer.adobe.com/commerce/php/development/security/content-security-policies)
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ U kunt een CSP Nonce-variabele maken die binnen het Google-tagbeheer kan worden 
 
 #### De variabele configuratie importeren
 
-De NonceVariabele van CSP is inbegrepen in de voorbeeldcontainer [ GTM_M2_Config_json.txt ](./assets/GTM_M2_Config_json.txt). U kunt de variabele maken door deze code in uw werkruimte te importeren.
+De NonceVariabele van CSP is inbegrepen in de voorbeeldcontainer [&#x200B; GTM_M2_Config_json.txt &#x200B;](./assets/GTM_M2_Config_json.txt). U kunt de variabele maken door deze code in uw werkruimte te importeren.
 
 #### Handmatig de variabele maken
 
@@ -242,7 +242,7 @@ Als u niet de veranderlijke configuratie kunt invoeren, voltooi de volgende stap
 1. Op het **gebied van de Naam van de Globale Variabele**, ga `window.cspNonce` in.
 1. Sla de variabele op.
 
-Meer over [ de Variabelen van de Manager van de Markering van Google ](https://support.google.com/tagmanager/answer/7683056?hl=en) leren, zie [ user-defined veranderlijke types voor Web ](https://support.google.com/tagmanager/answer/7683362?hl=en) in de documentatie van Google. In deze documentatie vindt u gedetailleerde instructies voor het maken en beheren van aangepaste variabelen die zijn afgestemd op het beheer van uw labels en die zijn afgestemd op specifieke marketing- en analytische behoeften.
+Meer over [&#x200B; de Variabelen van de Manager van de Markering van Google &#x200B;](https://support.google.com/tagmanager/answer/7683056?hl=en) leren, zie [&#x200B; user-defined veranderlijke types voor Web &#x200B;](https://support.google.com/tagmanager/answer/7683362?hl=en) in de documentatie van Google. In deze documentatie vindt u gedetailleerde instructies voor het maken en beheren van aangepaste variabelen die zijn afgestemd op het beheer van uw labels en die zijn afgestemd op specifieke marketing- en analytische behoeften.
 
 ### Stap 2. Een aangepaste HTML-tag maken
 
@@ -260,4 +260,4 @@ Meer over [ de Variabelen van de Manager van de Markering van Google ](https://s
 1. Selecteer **Document.write van de Steun**.
 1. In de **teweegbrengende** sectie, selecteer de gewenste trekker. Bijvoorbeeld, **toestemming Initialisatie - Alle Pagina&#39;s**.
 
-Voor meer informatie over [ Markeringen ](https://support.google.com/tagmanager/answer/3281060) in de Manager van de Markering van Google, zie [ Eigen markeringen ](https://support.google.com/tagmanager/answer/6107167) in de documentatie van Google.
+Voor meer informatie over [&#x200B; Markeringen &#x200B;](https://support.google.com/tagmanager/answer/3281060) in de Manager van de Markering van Google, zie [&#x200B; Eigen markeringen &#x200B;](https://support.google.com/tagmanager/answer/6107167) in de documentatie van Google.

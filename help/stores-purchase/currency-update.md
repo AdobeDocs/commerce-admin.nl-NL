@@ -14,9 +14,9 @@ ht-degree: 0%
 
 De wisselkoersen kunnen handmatig worden ingesteld of in de winkel worden geïmporteerd. Om ervoor te zorgen dat je winkel de meest actuele tarieven heeft, kunt je de valutakoersen configureren om automatisch en volgens schema te worden bijgewerkt.
 
-Alvorens deviezentarieven in te voeren, voltooi de [ opstelling van het munttarief ](currency-configuration.md) om de valuta te specificeren die u goedkeurt, en de de invoerverbinding en planning te vestigen.
+Alvorens deviezentarieven in te voeren, voltooi de [&#x200B; opstelling van het munttarief &#x200B;](currency-configuration.md) om de valuta te specificeren die u goedkeurt, en de de invoerverbinding en planning te vestigen.
 
-![ Wisselkoersen ](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
+![&#x200B; Wisselkoersen &#x200B;](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
 
 ## Een valutakoers handmatig bijwerken
 
@@ -36,7 +36,7 @@ Alvorens deviezentarieven in te voeren, voltooi de [ opstelling van het munttari
 
    >[!IMPORTANT]
    >
-   >Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] ](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) ](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
+   >Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] &#x200B;](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) &#x200B;](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
 
 1. Klik op **[!UICONTROL Import]**.
 
@@ -46,13 +46,13 @@ Alvorens deviezentarieven in te voeren, voltooi de [ opstelling van het munttari
 
 1. Wanneer u wordt gevraagd de cache bij te werken, klikt u op de koppeling **[!UICONTROL Cache Management]** en vernieuwt u de ongeldige cache.
 
-   ![ bericht van het Systeem - vernieuw het ongeldige geheime voorgeheugen ](./assets/currency-cache-update.png){width="600" zoomable="yes"}
+   ![&#x200B; bericht van het Systeem - vernieuw het ongeldige geheime voorgeheugen &#x200B;](./assets/currency-cache-update.png){width="600" zoomable="yes"}
 
 ## Valuta&#39;s volgens schema importeren
 
-1. Zorg ervoor dat [ het Gewas ](../systems/cron.md) voor uw opslag wordt toegelaten.
+1. Zorg ervoor dat [&#x200B; het Gewas &#x200B;](../systems/cron.md) voor uw opslag wordt toegelaten.
 
-1. Om de valuta te specificeren die u goedkeurt en de de invoerverbinding en programma vestigt, voltooi de [ Opstelling van het Tarief van de Valuta ](currency-configuration.md).
+1. Om de valuta te specificeren die u goedkeurt en de de invoerverbinding en programma vestigt, voltooi de [&#x200B; Opstelling van het Tarief van de Valuta &#x200B;](currency-configuration.md).
 
 1. Controleer de lijst met _[!UICONTROL Currency Rates]_&#x200B;om te controleren of de tarieven volgens schema worden geïmporteerd.
 

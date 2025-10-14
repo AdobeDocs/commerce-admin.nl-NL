@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Facturen
 
-Een factuur is een overzicht van de betalingsgegevens van een bestelling. De veelvoudige facturen kunnen [&#128279;](#create-an-invoice) voor één enkele orde worden gecreeerd, en elk kunnen zo vele of zo weinig van de gekochte producten omvatten die u specificeert. U kunt [ druk-klaar PDF facturen ](#print-invoices) als verkoopdocumenten voor uw klanten ook tot stand brengen.
+Een factuur is een overzicht van de betalingsgegevens van een bestelling. De veelvoudige facturen kunnen [&#128279;](#create-an-invoice) voor één enkele orde worden gecreeerd, en elk kunnen zo vele of zo weinig van de gekochte producten omvatten die u specificeert. U kunt [&#x200B; druk-klaar PDF facturen &#x200B;](#print-invoices) als verkoopdocumenten voor uw klanten ook tot stand brengen.
 
 Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > _Verrichtingen_ > **Facturen** om het _8&rbrace; net van Facturen &lbrace;te openen en tot uw gecreeerde facturen toegang te hebben._
 
-![ het net van Facturen ](./assets/invoices.png){width="700" zoomable="yes"}
+![&#x200B; het net van Facturen &#x200B;](./assets/invoices.png){width="700" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -49,9 +49,9 @@ Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > _Verrichtingen_ > **Facture
 
 Als u een factuur voor een bestelling maakt, wordt deze verplaatst naar een staat waarin deze niet kan worden geannuleerd of gewijzigd. Een nieuwe factuurpagina ziet er ongeveer hetzelfde uit als een voltooide bestelling, met enkele extra velden. Elke activiteit die verband houdt met een bestelling wordt vermeld in de sectie Opmerkingen van de factuur.
 
-Gewoonlijk worden bestellingen gefactureerd en vastgelegd wanneer het verzendproces start. Als de methode van betaling een kooporder is, of als de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst, wordt de orde gefactureerd en de betaling wordt gevangen tijdens controle. U kunt een factuur genereren met een pakbon en ook verzendlabels afdrukken van uw transportaccount. Eén bestelling kan worden opgesplitst in gedeeltelijke overbrengingen, die indien nodig afzonderlijk worden gefactureerd.
+Gewoonlijk worden bestellingen gefactureerd en vastgelegd wanneer het verzendproces start. Als de methode van betaling een kooporder is, of als de [&#x200B; betalingsactie &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst, wordt de orde gefactureerd en de betaling wordt gevangen tijdens controle. U kunt een factuur genereren met een pakbon en ook verzendlabels afdrukken van uw transportaccount. Eén bestelling kan worden opgesplitst in gedeeltelijke overbrengingen, die indien nodig afzonderlijk worden gefactureerd.
 
-Wanneer de staat van nieuwe orden aan `Processing` wordt geplaatst, wordt de optie _automatisch Alle Punten van de Factuur_ beschikbaar in de configuratie. Sommige methodes van de creditcardbetaling voltooien de het factureren stap als deel van het proces wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst. In dat geval wordt de knop Factuur niet weergegeven en kan de bestelling worden verzonden.
+Wanneer de staat van nieuwe orden aan `Processing` wordt geplaatst, wordt de optie _automatisch Alle Punten van de Factuur_ beschikbaar in de configuratie. Sommige methodes van de creditcardbetaling voltooien de het factureren stap als deel van het proces wanneer de [&#x200B; betalingsactie &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) aan `Authorize and Capture` wordt geplaatst. In dat geval wordt de knop Factuur niet weergegeven en kan de bestelling worden verzonden.
 
 >[!NOTE]
 >
@@ -71,9 +71,9 @@ Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worde
 
    >[!NOTE]
    >
-   >De _[!UICONTROL Invoice]_&#x200B;optie verschijnt niet wanneer de [ betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw specifieke [ betalingsmethode ](../configuration-reference/sales/payment-methods.md) aan `Authorize and Capture` wordt geplaatst, die auto-produceert een factuur. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
+   >De _[!UICONTROL Invoice]_&#x200B;optie verschijnt niet wanneer de [&#x200B; betalingsactie &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) voor uw specifieke [&#x200B; betalingsmethode &#x200B;](../configuration-reference/sales/payment-methods.md) aan `Authorize and Capture` wordt geplaatst, die auto-produceert een factuur. Dit is ook het geval als de bestelling wordt geplaatst en de betalingsactie voor uw betalingsmethode is ingesteld op `Authorize` en de bestelling wordt gefactureerd.
 
-   ![ de Orde van de Verkoop van de Factuur ](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
+   ![&#x200B; de Orde van de Verkoop van de Factuur &#x200B;](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
    De nieuwe factuurpagina ziet er ongeveer hetzelfde uit als een pagina met voltooide bestellingen, met extra velden die kunnen worden bewerkt.
 
@@ -88,14 +88,14 @@ Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worde
       - Klik op **[!UICONTROL Add Tracking Number]**.
       - Voer de volgende gegevens in: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ en _[!UICONTROL Number]_
 
-     ![ creeer een verzending van de Verkoop ](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
+     ![&#x200B; creeer een verzending van de Verkoop &#x200B;](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - U kunt desgewenst een gedeeltelijke factuur genereren:
 
       - In de _Punten aan de sectie van de Factuur_, werk de **[!UICONTROL Qty to Invoice]** kolom bij om slechts specifieke punten op de factuur te omvatten.
       - Klik vervolgens op **[!UICONTROL Update Qty's]** .
 
-        ![ Punten aan Factuur ](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+        ![&#x200B; Punten aan Factuur &#x200B;](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Als een online betalingsmethode is gebruikt voor de bestelling, stelt u **[!UICONTROL Amount]** in op de juiste optie.
 
@@ -109,19 +109,19 @@ Er moet een factuur voor de bestelling worden gegenereerd voordat deze kan worde
 
    **_Online betalingsmethode:_**
 
-   ![ leg Factuur - online betalingsmethode voor ](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
+   ![&#x200B; leg Factuur - online betalingsmethode voor &#x200B;](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
    **_Offline betalingsmethode:_**
 
-   ![ leg Factuur voor - off-line betalingsmethode) ](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![&#x200B; leg Factuur voor - off-line betalingsmethode) &#x200B;](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
    De status van de volgorde verandert van `Pending` in `Complete` .
 
-   ![ Voltooide factuursamenvatting ](./assets/invoice-complete.png){width="600" zoomable="yes"}
+   ![&#x200B; Voltooide factuursamenvatting &#x200B;](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Facturen afdrukken
 
-Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een high-resolution embleem voor een druk-klaar PDF factuur uploaden, en [ identiteitskaart van de Orde ](../stores-purchase/sales-documents.md#add-reference-ids) in de kopbal omvatten. Om het factuurmalplaatje met uw embleem en adres aan te passen, zie {de Vereisten van het Logo van 0} PDF [&#128279;](../stores-purchase/sales-documents.md#image-formats).
+Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een factuur kan worden afgedrukt, moet deze echter eerst voor de bestelling worden gegenereerd. U kunt een high-resolution embleem voor een druk-klaar PDF factuur uploaden, en [&#x200B; identiteitskaart van de Orde &#x200B;](../stores-purchase/sales-documents.md#add-reference-ids) in de kopbal omvatten. Om het factuurmalplaatje met uw embleem en adres aan te passen, zie {de Vereisten van het Logo van 0} PDF [&#128279;](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Facturen kunnen afzonderlijk of als een batch worden afgedrukt. Voordat een fact
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `PDF Invoices` .
 
-   ![ Druk veelvoudige facturen ](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
+   ![&#x200B; Druk veelvoudige facturen &#x200B;](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 De facturen worden opgeslagen in één PDF-bestand dat naar een printer kan worden verzonden of dat kan worden opgeslagen.
 

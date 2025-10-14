@@ -30,7 +30,7 @@ U kunt de toewijzing van de bron ook ongedaan maken wanneer u inventarishoeveelh
 
 {{$include /help/_includes/unassign-source.md}}
 
-![ voorraad van de Overdracht aan een andere bron ](assets/inventory-bulk-transfer-source.gif)
+![&#x200B; voorraad van de Overdracht aan een andere bron &#x200B;](assets/inventory-bulk-transfer-source.gif)
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -48,7 +48,7 @@ U kunt de toewijzing van de bron ook ongedaan maken wanneer u inventarishoeveelh
 
 1. Als u de bron uit de producten wilt verwijderen, schakelt u het optionele selectievakje **[!UICONTROL Unassign from origin source after transfer]** in.
 
-   ![ Uitgezochte oorsprong en bestemming voor overdracht ](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte oorsprong en bestemming voor overdracht &#x200B;](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Transfer Inventory]**.
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Met de prijzen voor Tier kunt u een korting bieden op de hoeveelheid van een productaanbieding of productpagina in de winkel. De korting kan worden toegepast op een specifieke opslagweergave of een klantgroep of gedeelde catalogus.
 
-Als u veel producten hebt om bij te werken, is het het meest efficiënt om de prijsveranderingen van de lijst in plaats van hen individueel in te voeren. Voor meer informatie, zie [ de laagprijzen van de Invoer ](../systems/data-import-price-tier.md).
+Als u veel producten hebt om bij te werken, is het het meest efficiënt om de prijsveranderingen van de lijst in plaats van hen individueel in te voeren. Voor meer informatie, zie [&#x200B; de laagprijzen van de Invoer &#x200B;](../systems/data-import-price-tier.md).
 
-![ de prijs van de Rij op een storefront productpagina ](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![&#x200B; de prijs van de Rij op een storefront productpagina &#x200B;](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 Op de productpagina wordt de kwantumkorting berekend en wordt een bericht weergegeven, zoals:
 
@@ -38,7 +38,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
 1. Als uw winkel meerdere websites heeft, kiest u de **[!UICONTROL Website]** waarvoor de prijzen op de laag van toepassing zijn.
 
-1. Indien nodig, beperk de beschikbaarheid van de het tarief rij door **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** te selecteren (![ Adobe Commerce B2B ](../assets/b2b.svg) Beschikbaar met [ Adobe Commerce B2B ](./b2b/../introduction.md) slechts).
+1. Indien nodig, beperk de beschikbaarheid van de het tarief rij door **[!UICONTROL Customer Group]** of **[!UICONTROL Shared Catalog]** te selecteren (![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) Beschikbaar met [&#x200B; Adobe Commerce B2B &#x200B;](./b2b/../introduction.md) slechts).
 
 1. Voer bij **[!UICONTROL Qty]** de hoeveelheid in die moet worden besteld om de korting te ontvangen.
 
@@ -46,7 +46,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
      Stel **[!UICONTROL Price]** in op `Fixed` en voer de aangepaste prijs voor één eenheid op die laag in.
 
-     ![ Prijs van de Rij als Vast Bedrag ](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
+     ![&#x200B; Prijs van de Rij als Vast Bedrag &#x200B;](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
 
    - **Methode 2:** ga prijs als percentage in
 
@@ -58,7 +58,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
      >
      >Om de gedisconteerde prijs op te halen, wordt het gedefinieerde percentage berekend aan de hand van de waarde die is gedefinieerd in het veld _[!UICONTROL Price]_, niet in het veld&#x200B;_[!UICONTROL Special Price]_ .
 
-     ![ Prijs van de Rij als Percentage ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
+     ![&#x200B; Prijs van de Rij als Percentage &#x200B;](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
 ## Voltooi de prijsconfiguratie
 

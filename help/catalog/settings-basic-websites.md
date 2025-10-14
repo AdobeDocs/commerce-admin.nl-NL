@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Product in Websites]
 
-De _[!UICONTROL Product in Websites]_&#x200B;sectie identificeert elke website waar het product, volgens de [ opslaghiërarchie ](../stores-purchase/stores.md) beschikbaar is.
+De _[!UICONTROL Product in Websites]_&#x200B;sectie identificeert elke website waar het product, volgens de [&#x200B; opslaghiërarchie &#x200B;](../stores-purchase/stores.md) beschikbaar is.
 
-![ het diagram van het het Webbereik van het Product ](./assets/scope-product-website.svg){width="550"}
+![&#x200B; het diagram van het het Webbereik van het Product &#x200B;](./assets/scope-product-website.svg){width="550"}
 
 **_om een product aan een verschillende website te kopiëren:_**
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Product in Websites]_&#x200B;sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Product in Websites]_&#x200B;sectie.
 
-   ![ Product in Websites ](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
+   ![&#x200B; Product in Websites &#x200B;](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 
 1. Schakel het selectievakje van de website in waar u het gekopieerde product wilt plaatsen.
 

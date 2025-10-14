@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
-- Voeg een beeld toe dat aan de [ media opslag ](media-storage.md) is geupload
+- Voeg een beeld toe dat aan de [&#x200B; media opslag &#x200B;](media-storage.md) is geupload
 - Koppeling maken naar een afbeelding die zich op een andere server bevindt
 - De Adobe Stock-integratie gebruiken om Adobe Stock-middelen te zoeken en te gebruiken
 
-![ Opslag van Media ](./assets/media-storage.png){width="650" zoomable="yes"}
+![&#x200B; Opslag van Media &#x200B;](./assets/media-storage.png){width="650" zoomable="yes"}
 
 1. Open een pagina, blok of dynamisch blok in de bewerkingsmodus.
 
@@ -28,13 +28,13 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
 1. Voor de redacteurstoolbar, klik het _pictogram van het Beeld van het Tussenvoegsel_.
 
-   ![ pictogram van het Beeld van het Tussenvoegsel ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![&#x200B; pictogram van het Beeld van het Tussenvoegsel &#x200B;](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert/edit image]_&#x200B;geopend.
 
 1. Voor **Source**, klik het _3&rbrace; pictogram van het Onderzoek &lbrace;en gebruik de methode die de plaats van de beeldactiva aanpast die u wilt gebruiken:_
 
-   ![ Selecterend het onderzoekspictogram ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
+   ![&#x200B; Selecterend het onderzoekspictogram &#x200B;](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
    - **upload een nieuw beeld**: Gebruik deze methode om een nieuw beelddossier te uploaden.
 
@@ -56,13 +56,13 @@ Vanuit de editor kunt u een afbeelding invoegen met behulp van drie brontypen:
 
      >[!NOTE]
      >
-     >Deze methode vereist een [ integratie van Adobe Stock ](adobe-stock.md) die voor uw Admin wordt gevormd.
+     >Deze methode vereist een [&#x200B; integratie van Adobe Stock &#x200B;](adobe-stock.md) die voor uw Admin wordt gevormd.
 
       - Klik op **[!UICONTROL Search Adobe Stock]** en zoek naar een afbeelding.
 
       - Sla de voorvertoning of afbeelding met licentie op in de galerie.
 
-        Zie [ Gebruikend de Beelden van Adobe Stock ](adobe-stock-manage.md) voor meer informatie over het werken met [ Adobe Stock ](https://stock.adobe.com) activa.
+        Zie [&#x200B; Gebruikend de Beelden van Adobe Stock &#x200B;](adobe-stock-manage.md) voor meer informatie over het werken met [&#x200B; Adobe Stock &#x200B;](https://stock.adobe.com) activa.
 
       - Selecteer de elementminiatuur in de galerie en klik op **[!UICONTROL Add Selected]** .
 

@@ -20,7 +20,7 @@ U kunt uw winkel zo configureren dat klanten na hun aanmelding worden omgeleid n
 
 1. Vouw de sectie **[!UICONTROL Login Options]** uit.
 
-   ![ Login Opties ](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Login Opties &#x200B;](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** in op een van de volgende opties:
 

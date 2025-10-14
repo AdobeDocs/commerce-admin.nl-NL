@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Images and Videos]
 
-Vanuit de sectie _[!UICONTROL Images and Videos]_&#x200B;kunt u basistaken voor beeldbeheer uitvoeren, zoals het uploaden van meerdere afbeeldingen, het opnieuw rangschikken van afbeeldingen en het bepalen hoe elke afbeelding wordt gebruikt. Voor extra controle over individuele beelden, kunt u elk beeld in_ detailmening _openen. Voor meer informatie, zie [ de Beelden en Video van de Catalogus ](catalog-images-video.md).
+Vanuit de sectie _[!UICONTROL Images and Videos]_&#x200B;kunt u basistaken voor beeldbeheer uitvoeren, zoals het uploaden van meerdere afbeeldingen, het opnieuw rangschikken van afbeeldingen en het bepalen hoe elke afbeelding wordt gebruikt. Voor extra controle over individuele beelden, kunt u elk beeld in_ detailmening _openen. Voor meer informatie, zie [&#x200B; de Beelden en Video van de Catalogus &#x200B;](catalog-images-video.md).
 
 ## Een nieuwe afbeelding uploaden
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
 
-   ![ Beelden en Video&#39;s ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![&#x200B; Beelden en Video&#39;s &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. Als u klaar bent om een productafbeelding toe te voegen, voert u een van de volgende handelingen uit:
 
-   - Sleep een beeld van uw Desktop en laat vallen het op de __ van de Camera (![ het pictogram van de Camera ](../assets/icon-camera.png)) tegel.
+   - Sleep een beeld van uw Desktop en laat vallen het op de __ van de Camera (![&#x200B; het pictogram van de Camera &#x200B;](../assets/icon-camera.png)) tegel.
 
-   - Klik de _tegel van de Camera_ (![ het pictogram van de Camera ](../assets/icon-camera.png)), selecteer het beelddossier, en klik **[!UICONTROL Open]**.
+   - Klik de _tegel van de Camera_ (![&#x200B; het pictogram van de Camera &#x200B;](../assets/icon-camera.png)), selecteer het beelddossier, en klik **[!UICONTROL Open]**.
 
-A [ placeholder ](product-image-config.md#image-placeholders) beeld verschijnt in de catalogus tot een productbeeld beschikbaar is.
+A [&#x200B; placeholder &#x200B;](product-image-config.md#image-placeholders) beeld verschijnt in de catalogus tot een productbeeld beschikbaar is.
 
 ## Afbeeldingsdetails
 
 Terwijl u productafbeeldingen toevoegt, kunt u de beeldweergave in het _[!UICONTROL Image Detail]_-venster aanpassen.
 
-![ beelden van het Product ](./assets/image-video.png){width="600" zoomable="yes"}
+![&#x200B; beelden van het Product &#x200B;](./assets/image-video.png){width="600" zoomable="yes"}
 
 Als u opties voor het weergeven van afbeeldingen voor een product wilt instellen:
 
@@ -51,6 +51,6 @@ Als u opties voor het weergeven van afbeeldingen voor een product wilt instellen
 
    Al deze rollen worden geselecteerd voor het eerste toegevoegde beeld door gebrek.
 
-   ![ de details van het Beeld ](./assets/product-image-details.png){width="600" zoomable="yes"}
+   ![&#x200B; de details van het Beeld &#x200B;](./assets/product-image-details.png){width="600" zoomable="yes"}
 
 Schakel het selectievakje **[!UICONTROL Hide from Product Page]** in om de productafbeelding van de productpagina te verbergen.

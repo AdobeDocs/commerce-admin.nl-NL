@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Om een diashow van interactieve inhoud voor te stellen, kunt u veelvoudige [ dynamische blokken ](dynamic-blocks.md) aan een rotator toevoegen. Het [ widget ](widgets.md) hulpmiddel wordt gebruikt om de rotator bij een specifieke plaats op één of één enkele pagina, of op veelvoudige pagina&#39;s door uw opslag te plaatsen.
+Om een diashow van interactieve inhoud voor te stellen, kunt u veelvoudige [&#x200B; dynamische blokken &#x200B;](dynamic-blocks.md) aan een rotator toevoegen. Het [&#x200B; widget &#x200B;](widgets.md) hulpmiddel wordt gebruikt om de rotator bij een specifieke plaats op één of één enkele pagina, of op veelvoudige pagina&#39;s door uw opslag te plaatsen.
 
-![ Dynamische blokrotator ](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
+![&#x200B; Dynamische blokrotator &#x200B;](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
 
 ## Stap 1: afzonderlijke dynamische blokken maken
 
-Om [ tot de dynamische blokken ](dynamic-blocks.md) te leiden die u in rotator wilt plaatsen, deze instructies volgen:
+Om [&#x200B; tot de dynamische blokken &#x200B;](dynamic-blocks.md) te leiden die u in rotator wilt plaatsen, deze instructies volgen:
 
 ## Stap 2: Een dynamische blokrotator-widget toevoegen
 
@@ -32,11 +32,11 @@ Om [ tot de dynamische blokken ](dynamic-blocks.md) te leiden die u in rotator w
 
 1. Kies de huidige **[!UICONTROL Design Theme]** van de winkel.
 
-   Dit het plaatsen identificeert het huidige pakket of [ thema ](themes.md) dat de paginalay-out van de opslag bepaalt.
+   Dit het plaatsen identificeert het huidige pakket of [&#x200B; thema &#x200B;](themes.md) dat de paginalay-out van de opslag bepaalt.
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   ![ Dynamische montages van de blokrotator ](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Dynamische montages van de blokrotator &#x200B;](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
 
 ## Stap 3: De opties voltooien
 
@@ -44,25 +44,25 @@ Om [ tot de dynamische blokken ](dynamic-blocks.md) te leiden die u in rotator w
 
    - Voer een **[!UICONTROL Title]** in voor de rotator.
 
-   - In de **[!UICONTROL Assign to Store Views]** lijst, selecteer de [ opslagmeningen ](../getting-started/websites-stores-views.md) waar de rotator beschikbaar is.
+   - In de **[!UICONTROL Assign to Store Views]** lijst, selecteer de [&#x200B; opslagmeningen &#x200B;](../getting-started/websites-stores-views.md) waar de rotator beschikbaar is.
 
    - (Optioneel) Voer een **[!UICONTROL Sort Order]** -getal in om de positie van de rotator in de doelcontainer te bepalen. Het is relatief ten opzichte van andere widgets die aan dezelfde container kunnen worden toegewezen.
 
-   ![ de storefront eigenschappen van de Rotator ](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; de storefront eigenschappen van de Rotator &#x200B;](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Onder _Opties van de Lay-out_, klik **[!UICONTROL Add Layout Update]** en doe het volgende:
 
    - Stel **[!UICONTROL Display on]** in op de pagina, of op het type pagina, waar de rotator moet worden weergegeven.
 
-      - `Categories` - Toont de rotator op of [ anker ](../catalog/navigation-layered.md) of niet-ankercategoriepagina&#39;s. Opties: Ankercategorieën / Niet-ankercategorieën
-      - `Products` - Geeft de rotator weer op een specifiek type productpagina of op alle productpagina&#39;s. Opties: Alle Types van Product / [ Eenvoudig Product ](../catalog/product-create-simple.md) / [ Virtueel Product ](../catalog/product-create-virtual.md) / [ BundelProduct ](../catalog/product-create-bundle.md) / [ Downloadbaar Product ](../catalog/product-create-downloadable.md) / [ Kaart van het Cadeautje ](../catalog/product-gift-card-create.md) / [ Configureerbaar Product ](../catalog/product-create-configurable.md) / [ Gegroepeerd Product ](../catalog/product-create-grouped.md)
+      - `Categories` - Toont de rotator op of [&#x200B; anker &#x200B;](../catalog/navigation-layered.md) of niet-ankercategoriepagina&#39;s. Opties: Ankercategorieën / Niet-ankercategorieën
+      - `Products` - Geeft de rotator weer op een specifiek type productpagina of op alle productpagina&#39;s. Opties: Alle Types van Product / [&#x200B; Eenvoudig Product &#x200B;](../catalog/product-create-simple.md) / [&#x200B; Virtueel Product &#x200B;](../catalog/product-create-virtual.md) / [&#x200B; BundelProduct &#x200B;](../catalog/product-create-bundle.md) / [&#x200B; Downloadbaar Product &#x200B;](../catalog/product-create-downloadable.md) / [&#x200B; Kaart van het Cadeautje &#x200B;](../catalog/product-gift-card-create.md) / [&#x200B; Configureerbaar Product &#x200B;](../catalog/product-create-configurable.md) / [&#x200B; Gegroepeerd Product &#x200B;](../catalog/product-create-grouped.md)
       - `Generic Pages` - Geeft de rotator weer op alle pagina&#39;s, op een specifieke pagina of alleen op pagina&#39;s met een bepaalde indeling. Opties: `All Pages` / `Specified Page` / `Page Layouts`
 
      In het voorbeeld moet de rotator op een `Specified Page` worden geplaatst.
 
    - Selecteer de specifieke **[!UICONTROL Page]** locatie waar de rotator moet worden weergegeven.
 
-   - Plaats **[!UICONTROL Container]** aan het deel van de [ paginalay-out ](page-layout.md#standard-page-layouts) waar de rotator moet verschijnen.
+   - Plaats **[!UICONTROL Container]** aan het deel van de [&#x200B; paginalay-out &#x200B;](page-layout.md#standard-page-layouts) waar de rotator moet verschijnen.
 
      Als andere widgets aan dezelfde container worden toegewezen, worden ze op volgorde weergegeven volgens de sorteervolgorde.
 
@@ -70,7 +70,7 @@ Om [ tot de dynamische blokken ](dynamic-blocks.md) te leiden die u in rotator w
 
      Deze instelling bepaalt de sjabloon die wordt gebruikt om de rotator op te maken, op basis van het feit of de rotator zelfstandig moet staan of in bestaande tekst moet worden geplaatst.
 
-     ![ de lay-outupdates van de Rotator ](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
+     ![&#x200B; de lay-outupdates van de Rotator &#x200B;](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
 
    - Klik op **[!UICONTROL Save and Continue Edit]**.
 
@@ -101,7 +101,7 @@ Om [ tot de dynamische blokken ](dynamic-blocks.md) te leiden die u in rotator w
    - `One at the time, Series` - Geeft de opgegeven dynamische blokken weer in de volgorde waarin ze zijn toegevoegd. Wanneer de pagina wordt vernieuwd, wordt het volgende dynamische blok in de reeks weergegeven.
    - `One at the time, Shuffle` - Hiermee wordt één dynamisch blok tegelijk in willekeurige volgorde weergegeven. Deze optie lijkt op de optie `One at a time, Random` , maar hetzelfde dynamische blok wordt niet herhaald.
 
-     ![ de widgetopties van de Rotator ](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
+     ![&#x200B; de widgetopties van de Rotator &#x200B;](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
 
 1. Selecteer in het **[!UICONTROL Specify Dynamic Blocks]** -raster het selectievakje van elk dynamisch blok dat u in de rotator wilt opnemen.
 

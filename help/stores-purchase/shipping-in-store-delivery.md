@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met de in-store leveringsmethode, kan de klant een bron selecteren die als oppiklocatie tijdens het uitrekenen moet worden gebruikt.
 
-![ In-store Methode van de Levering bij Controle ](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
+![&#x200B; In-store Methode van de Levering bij Controle &#x200B;](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
 Tijdens het afrekenen op de winkel:
 
@@ -37,10 +37,10 @@ Als de klant geen adres heeft of het formulier voor het verzendadres niet eerder
 
 ## Voor installatie
 
-- Zorg ervoor u een non-default voorraad en een bron hebt. Voor meer informatie over hoe te om een bron als bestelwagenplaats te vormen, zie [ een bron ](../inventory-management/sources-add.md) toevoegen.
-- Zorg ervoor u een Prioritair Algorithm van de Afstand hebt gevormd. Voor meer informatie, zie [ het Prioritaire Algoritme van de Afstand ](../inventory-management/distance-priority-algorithm.md) vormen.
+- Zorg ervoor u een non-default voorraad en een bron hebt. Voor meer informatie over hoe te om een bron als bestelwagenplaats te vormen, zie [&#x200B; een bron &#x200B;](../inventory-management/sources-add.md) toevoegen.
+- Zorg ervoor u een Prioritair Algorithm van de Afstand hebt gevormd. Voor meer informatie, zie [&#x200B; het Prioritaire Algoritme van de Afstand &#x200B;](../inventory-management/distance-priority-algorithm.md) vormen.
 - Zorg ervoor u [&#128279;](../inventory-management/cli.md#import-geocodes) alle noodzakelijke geocodes voor off-line berekening hebt gedownload en ingevoerd.
-- Zorg ervoor u [ de montages van de Berekening van de StandaardBelastingbestemming ](../configuration-reference/sales/tax.md#default-tax-destination-calculation) hebt gevormd.
+- Zorg ervoor u [&#x200B; de montages van de Berekening van de StandaardBelastingbestemming &#x200B;](../configuration-reference/sales/tax.md#default-tax-destination-calculation) hebt gevormd.
 
 >[!IMPORTANT]
 >
@@ -56,9 +56,9 @@ Eerst, controleer dat de levering in-store wordt toegelaten.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL In-Store Delivery]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL In-Store Delivery]** sectie uit.
 
-   ![ In-store Levering ](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
+   ![&#x200B; In-store Levering &#x200B;](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 

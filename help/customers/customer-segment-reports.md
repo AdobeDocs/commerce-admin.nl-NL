@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Het rapport van het Segment van de Klant verstrekt informatie over het aantal klanten in elk segment.
 
-![ Rapport van het Segment van de Klant ](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![&#x200B; Rapport van het Segment van de Klant &#x200B;](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -30,7 +30,7 @@ Het rapport van het Segment van de Klant verstrekt informatie over het aantal kl
 
 U kunt naar een lijst met klanten in het segment gaan en de gegevens exporteren.
 
-![ Boor neer aan de Gegevens van de Klant ](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![&#x200B; Boor neer aan de Gegevens van de Klant &#x200B;](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
 Om ervoor te zorgen dat u over de meest recente gegevens beschikt, moeten de segmentgegevens worden vernieuwd. Als de segmentgegevens niet beschikbaar of verouderd zijn, klikt u op **[!UICONTROL Refresh Segment Data]** in de knopbalk om bij te werken.
 

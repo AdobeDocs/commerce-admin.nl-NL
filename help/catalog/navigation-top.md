@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Het hoofdmenu van uw winkel is vergelijkbaar met een directory naar de verschillende afdelingen in uw winkel. Elke optie vertegenwoordigt een andere categorie producten. De positie en presentatie van de bovenste navigatie kunnen per thema verschillen, maar de manier waarop deze werkt, is in wezen hetzelfde.
 
-![ Hoogste Navigatie ](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
+![&#x200B; Hoogste Navigatie &#x200B;](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
 
-De categoriestructuur van uw catalogus kan van invloed zijn op hoe goed uw site wordt geïndexeerd door zoekprogramma&#39;s. Hoe dieper een categorie genest, hoe minder waarschijnlijk het is dat deze grondig geïndexeerd wordt. Over het algemeen is het gebruik van een tot drie zichtbare niveaus het meest effectief. De [ wortelcategorie ](category-root.md) telt als eerste niveau, hoewel het niet in het menu verschijnt. Het maximumaantal niveaus dat beschikbaar is in de hoogste navigatie wordt bepaald door de configuratie. Bovendien kan er een limiet zijn voor het aantal menuniveaus dat door uw winkelthema wordt ondersteund. Het voorbeeldthema Luma ondersteunt bijvoorbeeld maximaal vijf niveaus, inclusief de hoofdmap.
+De categoriestructuur van uw catalogus kan van invloed zijn op hoe goed uw site wordt geïndexeerd door zoekprogramma&#39;s. Hoe dieper een categorie genest, hoe minder waarschijnlijk het is dat deze grondig geïndexeerd wordt. Over het algemeen is het gebruik van een tot drie zichtbare niveaus het meest effectief. De [&#x200B; wortelcategorie &#x200B;](category-root.md) telt als eerste niveau, hoewel het niet in het menu verschijnt. Het maximumaantal niveaus dat beschikbaar is in de hoogste navigatie wordt bepaald door de configuratie. Bovendien kan er een limiet zijn voor het aantal menuniveaus dat door uw winkelthema wordt ondersteund. Het voorbeeldthema Luma ondersteunt bijvoorbeeld maximaal vijf niveaus, inclusief de hoofdmap.
 
 ## Maniveaus tellen
 
@@ -52,11 +52,11 @@ Voer de volgende stappen uit om een categorie in de bovenste navigatie van een w
 
 1. In Weergave-instelling ingesteld op **[!UICONTROL Anchor]** op `Yes` .
 
-1. Voltooi om het even welke andere vereiste [ categoriemontages ](category-create.md).
+1. Voltooi om het even welke andere vereiste [&#x200B; categoriemontages &#x200B;](category-create.md).
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-Voor een multistore installatie, kan een verschillend hoofdmenu als [ wortelcategorie ](category-root.md) voor elke [ opslag ](../stores-purchase/stores.md#add-stores) worden toegewezen.
+Voor een multistore installatie, kan een verschillend hoofdmenu als [&#x200B; wortelcategorie &#x200B;](category-root.md) voor elke [&#x200B; opslag &#x200B;](../stores-purchase/stores.md#add-stores) worden toegewezen.
 
 ### Stap 2: De diepte van de bovenste navigatie instellen
 
@@ -68,7 +68,7 @@ Voor een multistore installatie, kan een verschillend hoofdmenu als [ wortelcate
 
    ![&#128279;](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"} de Top Navigatie van de Categorie 0&rbrace; &lbrace;
 
-   Omdat de diepte van de hoogste navigatie een globaal [ configuratiewerkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) heeft, is het plaatsen van toepassing op alle websites, opslag, en opslagmeningen in de installatie van Commerce. De configuratiesectie _[!UICONTROL Category Top Navigation]_&#x200B;is alleen beschikbaar als&#x200B;_[!UICONTROL Store View]_ in de linkerbovenhoek is ingesteld op `Default Config` .
+   Omdat de diepte van de hoogste navigatie een globaal [&#x200B; configuratiewerkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) heeft, is het plaatsen van toepassing op alle websites, opslag, en opslagmeningen in de installatie van Commerce. De configuratiesectie _[!UICONTROL Category Top Navigation]_&#x200B;is alleen beschikbaar als&#x200B;_[!UICONTROL Store View]_ in de linkerbovenhoek is ingesteld op `Default Config` .
 
    Voor een gedetailleerde lijst van deze opties, zie {de Top Navigatie van de Categorie 0} [&#128279;](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.
 

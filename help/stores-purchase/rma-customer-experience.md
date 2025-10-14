@@ -16,18 +16,18 @@ ht-degree: 0%
 
 De klanten kunnen één van beiden van het volgende gebruiken om een RMA van de storefront aan te vragen:
 
-- [ orden en Keert Widget ](../content-design/widget-orders-returns.md) in sidebar terug
+- [&#x200B; orden en Keert Widget &#x200B;](../content-design/widget-orders-returns.md) in sidebar terug
 - _orden en Keert_ verbinding in footer terug
 
 Als beste praktijken, zorg ervoor om een beschrijving van uw vereisten RMA en proces in het beleid van de Dienst van de Klant te omvatten.
 
 >[!NOTE]
 >
->Als u extra informatie met betrekking tot terugkeer wilt verzamelen, kunt u uw eigen douane [ terugkeert attributen ](attributes-returns.md) toevoegen.
+>Als u extra informatie met betrekking tot terugkeer wilt verzamelen, kunt u uw eigen douane [&#x200B; terugkeert attributen &#x200B;](attributes-returns.md) toevoegen.
 
 Alle RMA-informatie van klanten wordt weergegeven op de **[!UICONTROL My Returns]** -pagina in het dashboard voor de klantenaccount.
 
-![ Mijn Keert ](./assets/my-returns-page.png){width="700" zoomable="yes"} terug
+![&#x200B; Mijn Keert &#x200B;](./assets/my-returns-page.png){width="700" zoomable="yes"} terug
 
 ## Een RMA aanvragen
 
@@ -43,11 +43,11 @@ De klant voltooit de volgende stappen op de winkel om een RMA voor te leggen:
 
 1. Klik op **[!UICONTROL Continue]** .
 
-   ![ orden en Keert terug ](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![&#x200B; orden en Keert terug &#x200B;](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. Klik onder de besteldatum op **[!UICONTROL Return]** .
 
-   ![ detail van de Orde ](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
+   ![&#x200B; detail van de Orde &#x200B;](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
 1. Hiermee kiest u het item dat u wilt retourneren en voert u de **[!UICONTROL Quantity to Return]** in.
 
@@ -70,7 +70,7 @@ De klant voltooit de volgende stappen op de winkel om een RMA voor te leggen:
    - `Out of Service`
    - `Other`
 
-   ![ creeer Nieuwe Terugkeer ](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
+   ![&#x200B; creeer Nieuwe Terugkeer &#x200B;](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
 1. Stelt indien nodig **[!UICONTROL Contact Email Address]** en **[!UICONTROL Comments]** in.
 

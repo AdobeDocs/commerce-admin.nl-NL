@@ -18,7 +18,7 @@ De _pagina van Transacties_ maakt een lijst van alle betalingsactiviteit die tus
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
-![ het net van Transacties ](./assets/transactions.png){width="600" zoomable="yes"}
+![&#x200B; het net van Transacties &#x200B;](./assets/transactions.png){width="600" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -55,7 +55,7 @@ Deze sectie omvat informatie betreffende de transactie, en verstrekt een verbind
 
 ### Onderliggende transacties
 
-De transacties van het kind worden getoond in het net na het creëren van facturen voor [ orden ](orders.md). Met deze indeling kunt u de transactiegeschiedenis bijhouden aan de hand van een transactiehiërarchie.
+De transacties van het kind worden getoond in het net na het creëren van facturen voor [&#x200B; orden &#x200B;](orders.md). Met deze indeling kunt u de transactiegeschiedenis bijhouden aan de hand van een transactiehiërarchie.
 
 ### [!UICONTROL Transaction Details]
 

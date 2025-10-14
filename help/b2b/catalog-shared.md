@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Adobe Commerce B2B geeft u de capaciteit om gegoten _gedeelde_ catalogi met douaneprijzen voor verschillende bedrijven te handhaven. Naast de norm, _primaire_, productcatalogus, verleent het klantentoegang tot twee types van gedeelde catalogi met verschillende het tarief structuren.
 
-Als de [ Gedeelde eigenschap van de Catalogus ](enable-basic-features.md) in de configuratie wordt toegelaten, blijft de originele primaire catalogus zichtbaar van Admin, maar slechts het Standaard (Algemene) openbare gedeelde catalogus is zichtbaar van de storefront. Bovendien kunnen de douanecatalogi worden gecreeerd die slechts aan leden van specifieke [ bedrijf ](account-companies.md) rekeningen zichtbaar zijn.
+Als de [&#x200B; Gedeelde eigenschap van de Catalogus &#x200B;](enable-basic-features.md) in de configuratie wordt toegelaten, blijft de originele primaire catalogus zichtbaar van Admin, maar slechts het Standaard (Algemene) openbare gedeelde catalogus is zichtbaar van de storefront. Bovendien kunnen de douanecatalogi worden gecreeerd die slechts aan leden van specifieke [&#x200B; bedrijf &#x200B;](account-companies.md) rekeningen zichtbaar zijn.
 
 Voor de openbare gedeelde catalogus van `Default (General)` moet u producten toewijzen om de catalogus in de winkel weer te geven. Standaard is deze leeg en bevat deze geen producten.
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 &#x200B;](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [&#x200B; categorietoestemming &#x200B;](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 >[!IMPORTANT]
 >
->Alle bestaande [ montages van de groepstoestemming ](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
+>Alle bestaande [&#x200B; montages van de groepstoestemming &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
 
-De pagina _[!UICONTROL Shared Catalogs]_&#x200B;biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is gelijkaardig aan de standaard [ werkruimte Admin ](../getting-started/admin-workspace.md), met filters en actiecontroles. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
+De pagina _[!UICONTROL Shared Catalogs]_&#x200B;biedt toegang tot de gereedschappen voor het beheer van uw gedeelde catalogi. De pagina is gelijkaardig aan de standaard [&#x200B; werkruimte Admin &#x200B;](../getting-started/admin-workspace.md), met filters en actiecontroles. In het raster worden alle gedeelde catalogi weergegeven, inclusief de standaard openbare gedeelde catalogus en alle aangepaste catalogi die u hebt ingesteld.
 
-![ Gedeelde Catalogi ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
+![&#x200B; Gedeelde Catalogi &#x200B;](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
 ## De pagina [!UICONTROL Shared Catalogs] openen
 
@@ -36,9 +36,9 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog
 
 ## Besturingselementen voor handelingen
 
-De [ actiecontroles ](../getting-started/admin-actions-control.md) in de upper-left hoek kunnen met de controle van massaacties worden gebruikt om geselecteerde gedeelde catalogi te schrappen die niet meer nodig zijn. In het raster bevat de kolom _[!UICONTROL Actions]_&#x200B;alle gereedschappen voor het beheer van uw gedeelde catalogi.
+De [&#x200B; actiecontroles &#x200B;](../getting-started/admin-actions-control.md) in de upper-left hoek kunnen met de controle van massaacties worden gebruikt om geselecteerde gedeelde catalogi te schrappen die niet meer nodig zijn. In het raster bevat de kolom _[!UICONTROL Actions]_&#x200B;alle gereedschappen voor het beheer van uw gedeelde catalogi.
 
-![ Gedeelde Acties van de Catalogus ](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
+![&#x200B; Gedeelde Acties van de Catalogus &#x200B;](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 
 | Besturing | Beschrijving |
 |------|-----------|

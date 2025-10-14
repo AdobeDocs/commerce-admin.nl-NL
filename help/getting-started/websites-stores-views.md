@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Reeks-, opslag- en weergavebereik
 
-Elke installatie van Adobe Commerce en van de Magento Open Source heeft a [ hiërarchie ](../stores-purchase/stores.md) van websites, opslag, en opslagmeningen. Het termijn _werkingsgebied_ bepaalt waar in de hiërarchie een gegevensbestandentiteit - zoals een product, een attribuut, of een categorie - inhoudselement, of configuratie het plaatsen van toepassing is. Websites, winkels en winkelweergaven hebben een-op-een-relatie tussen bovenliggende en onderliggende sites. Eén installatie kan meerdere websites bevatten en elke website kan meerdere winkels en winkelweergaven hebben.
+Elke installatie van Adobe Commerce en van de Magento Open Source heeft a [&#x200B; hiërarchie &#x200B;](../stores-purchase/stores.md) van websites, opslag, en opslagmeningen. Het termijn _werkingsgebied_ bepaalt waar in de hiërarchie een gegevensbestandentiteit - zoals een product, een attribuut, of een categorie - inhoudselement, of configuratie het plaatsen van toepassing is. Websites, winkels en winkelweergaven hebben een-op-een-relatie tussen bovenliggende en onderliggende sites. Eén installatie kan meerdere websites bevatten en elke website kan meerdere winkels en winkelweergaven hebben.
 
 >[!NOTE]
 >
->Meer leren, zie [ Veelvoudige websites of opslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de [!DNL Commerce] ontwikkelaarsdocumentatie.
+>Meer leren, zie [&#x200B; Veelvoudige websites of opslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=nl-NL) in de [!DNL Commerce] ontwikkelaarsdocumentatie.
 
 ## Websites
 
-De installaties beginnen met één enkele [ website ](../stores-purchase/stores.md#add-websites), die _Belangrijkste Website_ door gebrek wordt genoemd. U kunt ook meerdere websites instellen voor één installatie, elk met een eigen IP-adres en domein.
+De installaties beginnen met één enkele [&#x200B; website &#x200B;](../stores-purchase/stores.md#add-websites), die _Belangrijkste Website_ door gebrek wordt genoemd. U kunt ook meerdere websites instellen voor één installatie, elk met een eigen IP-adres en domein.
 
 ## Winkels
 
-Één enkele website kan veelvoudige [ opslag ](../stores-purchase/stores.md#add-stores) hebben, elk met zijn eigen hoofdmenu. De winkels delen de productcatalogus, maar kunnen een verschillende selectie van producten en ontwerp hebben. Alle winkels onder dezelfde website delen de beheerder en het uitchecken.
+Één enkele website kan veelvoudige [&#x200B; opslag &#x200B;](../stores-purchase/stores.md#add-stores) hebben, elk met zijn eigen hoofdmenu. De winkels delen de productcatalogus, maar kunnen een verschillende selectie van producten en ontwerp hebben. Alle winkels onder dezelfde website delen de beheerder en het uitchecken.
 
 ## Winkelweergaven
 
@@ -41,13 +41,13 @@ Houd rekening met het volgende wanneer u werkt met websites, winkels en winkelwe
 
 ## Bereik-instellingen
 
-Als uw installatie van Adobe Commerce of van de Magento Open Source een hiërarchie van websites, opslag, of meningen heeft, kunt u de context, of _werkingsgebied_ van een configuratie plaatsen. De context van vele gegevensbestandentiteiten kan ook een specifiek werkingsgebied worden toegewezen om te bepalen hoe het in de opslaghiërarchie wordt gebruikt. Meer leren, zie {het werkingsgebied van het 0} Product [&#128279;](../catalog/introduction.md#product-scope) en [ het werkingsgebied van de Prijs ](../catalog/catalog-price-scope.md).
+Als uw installatie van Adobe Commerce of van de Magento Open Source een hiërarchie van websites, opslag, of meningen heeft, kunt u de context, of _werkingsgebied_ van een configuratie plaatsen. De context van vele gegevensbestandentiteiten kan ook een specifiek werkingsgebied worden toegewezen om te bepalen hoe het in de opslaghiërarchie wordt gebruikt. Meer leren, zie {het werkingsgebied van het 0} Product [&#128279;](../catalog/introduction.md#product-scope) en [&#x200B; het werkingsgebied van de Prijs &#x200B;](../catalog/catalog-price-scope.md).
 
-Sommige configuratiemontages zoals postcode, hebben een globaal werkingsgebied omdat de zelfde waarde door het systeem wordt gebruikt. Het [ website ](../stores-purchase/stores.md#add-websites) werkingsgebied is op om het even welke opslag onder dat niveau in de hiërarchie, met inbegrip van alle opslag en hun meningen van toepassing. Om het even welk punt met het werkingsgebied van [ opslagmening ](../stores-purchase/store-views.md) kan verschillend voor elke opslagmening worden geplaatst, die typisch wordt gebruikt om veelvoudige talen te steunen. Om de standaardwaarden van configuratiemontages met voeten te treden, zie [ Plaats het werkingsgebied ](../configuration-reference/scope-change.md#set-the-scope).
+Sommige configuratiemontages zoals postcode, hebben een globaal werkingsgebied omdat de zelfde waarde door het systeem wordt gebruikt. Het [&#x200B; website &#x200B;](../stores-purchase/stores.md#add-websites) werkingsgebied is op om het even welke opslag onder dat niveau in de hiërarchie, met inbegrip van alle opslag en hun meningen van toepassing. Om het even welk punt met het werkingsgebied van [&#x200B; opslagmening &#x200B;](../stores-purchase/store-views.md) kan verschillend voor elke opslagmening worden geplaatst, die typisch wordt gebruikt om veelvoudige talen te steunen. Om de standaardwaarden van configuratiemontages met voeten te treden, zie [&#x200B; Plaats het werkingsgebied &#x200B;](../configuration-reference/scope-change.md#set-the-scope).
 
-Tenzij de opslag op [ enige opslagwijze ](#single-store-mode) loopt, verschijnt het werkingsgebied van elke configuratie die in kleine tekst onder het gebiedsetiket plaatst. Als uw installatie veelvoudige websites, opslag, of meningen omvat, kies de [ opslagmening ](../stores-purchase/store-views.md) waar de montages van toepassing zijn alvorens om het even welke veranderingen aan te brengen.
+Tenzij de opslag op [&#x200B; enige opslagwijze &#x200B;](#single-store-mode) loopt, verschijnt het werkingsgebied van elke configuratie die in kleine tekst onder het gebiedsetiket plaatst. Als uw installatie veelvoudige websites, opslag, of meningen omvat, kies de [&#x200B; opslagmening &#x200B;](../stores-purchase/store-views.md) waar de montages van toepassing zijn alvorens om het even welke veranderingen aan te brengen.
 
-![ Hiërarchie van websites, opslag, en opslagmeningen ](./assets/scope-multisite.svg){width="550"}
+![&#x200B; Hiërarchie van websites, opslag, en opslagmeningen &#x200B;](./assets/scope-multisite.svg){width="550"}
 
 | Toepassingsgebied | Beschrijving |
 |--- |--- |
@@ -60,9 +60,9 @@ Tenzij de opslag op [ enige opslagwijze ](#single-store-mode) loopt, verschijnt 
 
 ## Modus Eén winkel
 
-Als uw Commerce-installatie slechts één winkel- en winkelweergave heeft, kunt u de weergave vereenvoudigen door alle opties voor de winkelweergave en bereikindicatoren uit te schakelen. De enige opslagwijze wordt met voeten getreden als u [ meer opslagmeningen ](../stores-purchase/store-views.md) later toevoegt.
+Als uw Commerce-installatie slechts één winkel- en winkelweergave heeft, kunt u de weergave vereenvoudigen door alle opties voor de winkelweergave en bereikindicatoren uit te schakelen. De enige opslagwijze wordt met voeten getreden als u [&#x200B; meer opslagmeningen &#x200B;](../stores-purchase/store-views.md) later toevoegt.
 
-![ Reikwijdte - één enkele mening ](./assets/scope-single-view.svg){width="550"}
+![&#x200B; Reikwijdte - één enkele mening &#x200B;](./assets/scope-single-view.svg){width="550"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -70,7 +70,7 @@ Als uw Commerce-installatie slechts één winkel- en winkelweergave heeft, kunt 
 
 1. Stel **[!UICONTROL Enable Single-Store Mode]** in op `Yes` .
 
-   ![ Algemene configuratie - laat Enige-Opslagwijze ](./assets/general-single-store-mode.png){width="400"} toe
+   ![&#x200B; Algemene configuratie - laat Enige-Opslagwijze &#x200B;](./assets/general-single-store-mode.png){width="400"} toe
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -78,7 +78,7 @@ Als uw Commerce-installatie slechts één winkel- en winkelweergave heeft, kunt 
 
    - Klik op de koppeling **[!UICONTROL Cache Management]** in het systeembericht boven aan de pagina.
 
-     ![ bericht van het Systeem - geheim voorgeheugenbeheer ](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
+     ![&#x200B; bericht van het Systeem - geheim voorgeheugenbeheer &#x200B;](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
 
    - Schakel het selectievakje **[!UICONTROL Page Cache]** in.
 

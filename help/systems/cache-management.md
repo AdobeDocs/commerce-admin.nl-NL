@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Het cachebeheersysteem van Adobe Commerce en Magento Open Source biedt een eenvoudige manier om de prestaties van uw site te verbeteren. Wanneer een cache moet worden vernieuwd, wordt een melding weergegeven met een koppeling naar de [!UICONTROL Cache Management] -pagina om de vernieuwing te voltooien.
 
-![ sparen productattribuut - update geheim voorgeheugenbericht ](./assets/product-attribute-save-msg-update-cache.png){width="500"}
+![&#x200B; sparen productattribuut - update geheim voorgeheugenbericht &#x200B;](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
 Op de pagina _[!UICONTROL Cache Management]_&#x200B;ziet u de status van elke primaire cache en de bijbehorende tag. De grote knopen in de hoger-juiste hoek kunnen worden gebruikt om het geheime voorgeheugen, of de alle-inclusieve Opslag van het Geheime voorgeheugen te spoelen. Onder aan de pagina kunt u met extra knoppen de cache voor productafbeeldingen in de catalogus en de JavaScript/CSS-cache leegmaken.
 
@@ -25,30 +25,30 @@ Op de pagina _[!UICONTROL Cache Management]_&#x200B;ziet u de status van elke pr
 
 Nadat u een cache hebt gewist, vernieuwt u altijd de browser om te controleren of u de meest recente bestanden kunt zien. Als u de Commerce-cache wist, wordt de cache van uw webbrowser niet gewist. Mogelijk moet u de cache van de browser wissen om de bijgewerkte inhoud te kunnen zien.
 
-De extra technische informatie over Adobe Commerce caching is beschikbaar van het [ overzicht van het Geheime voorgeheugen ](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} in de _Gids van de Ontwikkeling van Commerce Frontend_.
+De extra technische informatie over Adobe Commerce caching is beschikbaar van het [&#x200B; overzicht van het Geheime voorgeheugen &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} in de _Gids van de Ontwikkeling van Commerce Frontend_.
 
 Ga op een van de volgende manieren te werk om de pagina _[!UICONTROL Cache Management]_&#x200B;te openen:
 
 - Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven de werkruimte.
 - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
-![ het beheer van het Geheime voorgeheugen ](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
+![&#x200B; het beheer van het Geheime voorgeheugen &#x200B;](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
 ## Aanbevolen procedures voor het in cache plaatsen
 
-Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. [ indexen ](index-management.md) de informatie van het spoorgegevensbestand voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagefronts, en meer. In cache worden geladen gegevens, afbeeldingen, indelingen en dergelijke opgeslagen voor betere prestaties bij het laden en openen van de opslagruimte.
+Het opnieuw indexeren en in cache plaatsen heeft verschillende doeleinden in Commerce. [&#x200B; indexen &#x200B;](index-management.md) de informatie van het spoorgegevensbestand voor verhoogde onderzoeksprestaties, snellere gegevensherwinning voor opslagefronts, en meer. In cache worden geladen gegevens, afbeeldingen, indelingen en dergelijke opgeslagen voor betere prestaties bij het laden en openen van de opslagruimte.
 
 - Maak de cache altijd leeg nadat u extensies/modules hebt geïnstalleerd. U kunt een of meer extensies installeren en vervolgens de cache leegmaken.
 - Maak de cache leeg nadat u Commerce hebt geïnstalleerd. Voor nieuwe installaties moet u ook opnieuw indexeren.
 - Maak de cache leeg nadat u de upgrade hebt uitgevoerd van de ene versie van Open Source of Commerce naar de andere.
 - Houd bij het spoelen rekening met het type cache en het plannen van het spoelen tijdens perioden zonder pieken. Kies bijvoorbeeld een tijdstip waarop weinig klanten de site gebruiken, zoals &#39;s nachts of &#39;s morgens. Het wissen van cachetypen tijdens piekvraag kan de belasting van de beheerder verhogen en de site doen afnemen totdat de bewerking is voltooid.
-- Wanneer [ het opnieuw indexeren ](index-management.md), moet u niet het geheime voorgeheugen ontruimen.
+- Wanneer [&#x200B; het opnieuw indexeren &#x200B;](index-management.md), moet u niet het geheime voorgeheugen ontruimen.
 
 ## Bronnen voor Cachebeheer
 
 U kunt toegang tot specifieke acties van het geheim voorgeheugenonderhoud aan gebruikers door rol, met inbegrip van opties aan mening, knevel, en spoelgeheime voorgeheugens toewijzen. Adobe raadt u aan alleen handelingen op het niveau van beheerders uit te schakelen. Het bieden van toegang tot alle functies voor cachebeheer kan van invloed zijn op de prestaties van uw winkel.
 
-![ de middelen van de Rol - geheim voorgeheugenbeheer ](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
+![&#x200B; de middelen van de Rol - geheim voorgeheugenbeheer &#x200B;](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
 Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikersrekeningen te verlenen, zie {de middelen van de Rol 0} [&#128279;](permissions-user-roles.md#role-resources).  De volgende middelen controleren toegang tot de hulpmiddelen van het geheim voorgeheugenbeheer:
 
@@ -103,7 +103,7 @@ Voor informatie over het toewijzen van middelen om toegang voor Admin gebruikers
 
 ## Uitlijnen met gebruik van de opdrachtregel
 
-Systeembeheerders en -ontwikkelaars met toegang tot de Commerce-toepassingsserver kunnen de cache- en cachemonfiguratie ook vanaf de opdrachtregel beheren met behulp van de Commerce CLI. Zie [ het geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in de _Gids van de Configuratie_ leiden.
+Systeembeheerders en -ontwikkelaars met toegang tot de Commerce-toepassingsserver kunnen de cache- en cachemonfiguratie ook vanaf de opdrachtregel beheren met behulp van de Commerce CLI. Zie [&#x200B; het geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} in de _Gids van de Configuratie_ leiden.
 
 ## Besturingselementen
 
@@ -141,7 +141,7 @@ Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configu
 
 >[!NOTE]
 >
->Ontwikkelaars en systeemintegrators kunnen het Commerce-cachebeheersysteem aanpassen en uitbreiden om aangepaste modules en integratie te ondersteunen. Voor details, zie [ Caching ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/caching-overview) in het voorgeheugen onderbrengen in de _Gids van de Configuratie van Adobe Commerce_.
+>Ontwikkelaars en systeemintegrators kunnen het Commerce-cachebeheersysteem aanpassen en uitbreiden om aangepaste modules en integratie te ondersteunen. Voor details, zie [&#x200B; Caching &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cache/caching-overview) in het voorgeheugen onderbrengen in de _Gids van de Configuratie van Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -156,13 +156,13 @@ Ontwikkelaars en systeemintegrators gebruiken deze waarden om caching te configu
 | [!UICONTROL Reflections] | Wist de weerspiegelingsgegevens van de API interface, die typisch tijdens runtime wordt geproduceerd. | `REFLECTION` | `reflection` |
 | `Database DDL operations` | Databaseschema Indien nodig, ontruimt Commerce automatisch dit geheime voorgeheugen, maar de derdeontwikkelaars kunnen om het even welk segment van het geheime voorgeheugen plaatsen. Reinig of verwijder dit cachetype nadat u douaneveranderingen in het gegevensbestandschema aanbrengt. (Dit zijn dus updates die Commerce niet zelf maakt.) Één manier om het gegevensbestandschema automatisch bij te werken gebruikt magento opstelling :db-schema: verbeteringsbevel. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultaten van codecompilatie. | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | Hiermee worden reacties op webhaakaanvragen vastgezet. Voor meer informatie, zie de [ Gids van Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in de de ontwikkelaarsdocumentatie van Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | Hiermee worden reacties op webhaakaanvragen vastgezet. Voor meer informatie, zie de [&#x200B; Gids van Webhooks &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in de de ontwikkelaarsdocumentatie van Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | Hiermee wordt de declaratie van entiteitstypen in de cache opgenomen voor metagegevens die betrekking hebben op kenmerken van kenmerk Entiteit Attribute Value (EAV). Kenmerken zijn winkellabels, koppelingen naar gerelateerde PHP-code, kenmerkrendering, zoekinstellingen enzovoort. U hoeft dit type cache gewoonlijk niet op te schonen of te leegmaken. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Tijdelijke meldingen die worden weergegeven in de gebruikersinterface. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Caches the results from GraphQL query resolvers for customer, CMS page, CMS block, and product media gallery entities. Laat deze cache ingeschakeld om de GraphQL-prestaties te verbeteren. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Integratieconfiguratiebestand. Maak deze cache leeg of maak deze leeg nadat u integraties hebt gewijzigd of toegevoegd. | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | Configuratie van gecompileerde integratie-API&#39;s voor winkelintegratie. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | Kies deze optie om aanpassingen door te voeren bij de beheerder. Zie [ Configuratie Admin en het testen ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) in de _Gids van Admin UI van SDK_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | Kies deze optie om aanpassingen door te voeren bij de beheerder. Zie [&#x200B; Configuratie Admin en het testen &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) in de _Gids van Admin UI van SDK_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | Volledige pagina in cache plaatsen. | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | Index van doelregel | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | De Web API-structuur in cache plaatsen. | `WEBSERVICE` | `config_webservice` |
@@ -176,7 +176,7 @@ Adobe Commerce en Magento Open Source maken gebruik van caching op de server van
 
 >[!NOTE]
 >
->Het wordt geadviseerd dat [ het Geheime voorgeheugen van de Varnish ](https://varnish-cache.org/){:target="_blank"} slechts in een productiemilieu wordt gebruikt.
+>Het wordt geadviseerd dat [&#x200B; het Geheime voorgeheugen van de Varnish &#x200B;](https://varnish-cache.org/){:target="_blank"} slechts in een productiemilieu wordt gebruikt.
 
 Inhoud in cache kan worden gebruikt om de aanvragen van vergelijkbare typen bezoeken te verwerken. Hierdoor kunnen pagina&#39;s die aan een bezoeker worden getoond afwijken van pagina&#39;s die aan een klant worden getoond. Voor het in cache plaatsen is elk bezoek een van de volgende drie soorten:
 
@@ -184,7 +184,7 @@ Inhoud in cache kan worden gebruikt om de aanvragen van vergelijkbare typen bezo
 - `Sessioned` - Tijdens een sessiebezoek wordt aan kopers die met de winkel werken, een sessie-id toegewezen. Interacties omvatten activiteiten zoals het vergelijken van producten of het toevoegen van producten aan het winkelwagentje. Pagina&#39;s in de cache die tijdens de sessie worden gegenereerd, worden tijdens de sessie alleen door die winkelier gebruikt.
 - `Customer` - Er worden klantsessies gemaakt voor klanten die zich met hun geregistreerde account aanmelden en winkelen. Tijdens de sessie kunnen klanten speciale aanbiedingen, promoties en prijzen krijgen op basis van hun toegewezen klantengroep.
 
-Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=nl-NL){:target="_blank"} en [ Gebruik Redis voor de pagina van Commerce en het gebrek geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=nl-NL){:target="_blank"} in de _Gids van de Configuratie_.
+Voor technische informatie, zie [&#x200B; vormen en gebruiken Vervagen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=nl-NL){:target="_blank"} en [&#x200B; Gebruik Redis voor de pagina van Commerce en het gebrek geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=nl-NL){:target="_blank"} in de _Gids van de Configuratie_.
 
 **_om het full-page geheime voorgeheugen te vormen:_**
 
@@ -192,9 +192,9 @@ Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experie
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Full Page Cache]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Full Page Cache]** sectie uit.
 
-   ![ Geavanceerde configuratie - volledig paginacache ](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - volledig paginacache &#x200B;](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Caching Application]** in op een van de volgende opties:
 
@@ -203,7 +203,7 @@ Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experie
 
 1. Voer de **[!UICONTROL TTL for public content]** in om de time-out voor de paginacache in te stellen. (De standaardwaarde is `86400` )
 
-1. Om het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) te specificeren om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken, ga **[!UICONTROL Handles param size]** in. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. (De standaardwaarde is `100` )
+1. Om het maximumaantal [&#x200B; lay-outhandvatten &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) te specificeren om op het [`{BASE-URL}/page_cache/block/esi` &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken, ga **[!UICONTROL Handles param size]** in. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. (De standaardwaarde is `100` )
 
 1. Als u Varnish gebruikt, voert u de sectie **[!UICONTROL Varnish Configuration]** als volgt in:
 
@@ -213,10 +213,10 @@ Voor technische informatie, zie [ vormen en gebruiken Vervagen ](https://experie
 
    - **[!UICONTROL Backend port]** - Identificeer de achterste haven die wordt gebruikt om configuratiedossiers te produceren. De standaardwaarde is: `8080` .
 
-   - **[!UICONTROL Grace period]** - Geef het aantal seconden op dat u als respijtperiode wilt gebruiken om configuratiebestanden te genereren. Zie [ Geavanceerde configuratie van Varnish ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=nl-NL) in de _Gids van de Configuratie_.
+   - **[!UICONTROL Grace period]** - Geef het aantal seconden op dat u als respijtperiode wilt gebruiken om configuratiebestanden te genereren. Zie [&#x200B; Geavanceerde configuratie van Varnish &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
    - Als u de configuratie als een `varnish.vcl` -bestand wilt exporteren, klikt u op de knop voor de versie van Vaag die u gebruikt.
 
-   ![ Geavanceerde configuratie - de volledige vernis van het paginacachegeheugen ](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - de volledige vernis van het paginacachegeheugen &#x200B;](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

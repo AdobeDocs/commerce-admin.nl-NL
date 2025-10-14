@@ -16,11 +16,11 @@ ht-degree: 0%
 
 In deze instructies ziet u hoe u verificatie met twee factoren instelt tijdens uw eerste aanmelding bij Adobe Commerce of Magento Open Source en hoe u uw identiteit kunt verifiëren met de volgende apps en apparaten.
 
-Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-signin.md).
+Voor volledige instructies, zie [&#x200B; binnen Teken Admin &#x200B;](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
+>Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie &#x200B;](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
@@ -36,13 +36,13 @@ Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-
 
 1. Klik op **[!UICONTROL Confirm]** als de bewerking is voltooid.
 
-   ![ QR van de Authenticator van Google code ](./assets/storefront-2fa-google-qrcode.png){width="300"}
+   ![&#x200B; QR van de Authenticator van Google code &#x200B;](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Stap 2: Aanmelden met [!DNL Google Authenticator]
 
 1. Ga uw rekeningsgeloofsbrieven in en meld binnen aan Commerce _Admin_.
 
-   ![ de Authenticator van Google - teken ](./assets/storefront-2fa-google-code.png){width="300"}
+   ![&#x200B; de Authenticator van Google - teken &#x200B;](./assets/storefront-2fa-google-code.png){width="300"}
 
 1. Open [!DNL Google Authenticator] op uw mobiele apparaat.
 
@@ -54,7 +54,7 @@ Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-
 
 ## [!DNL Duo Security]
 
-[!DNL Duo] biedt een gratis proefversie aan en brengt kosten in rekening op basis van het aantal gebruikers dat aan het account is gekoppeld. Volg hun [ instructies aan opstelling uw rekening en download app ](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
+[!DNL Duo] biedt een gratis proefversie aan en brengt kosten in rekening op basis van het aantal gebruikers dat aan het account is gekoppeld. Volg hun [&#x200B; instructies aan opstelling uw rekening en download app &#x200B;](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
 
 ### Stap 1: Instellen [!DNL Duo Security]
 
@@ -62,7 +62,7 @@ Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-
 
 1. Wanneer de pagina [!DNL Duo] Setup wordt weergegeven, klikt u op **[!UICONTROL Get Started]** en voert u de volgende handelingen uit:
 
-   ![ storefront van het Voorbeeld - duo opstelling ](./assets/storefront-2fa-duo-setup-options.png){width="300"}
+   ![&#x200B; storefront van het Voorbeeld - duo opstelling &#x200B;](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
 1. Selecteer uw optie. U kunt Touch ID, Duo Mobile, Beveiligingssleutel of Telefoonnummer kiezen. In dit voorbeeld ziet u de optie Duo Mobiel of Telefoonnummer.
 
@@ -76,7 +76,7 @@ Voor volledige instructies, zie [ binnen Teken Admin ](../getting-started/admin-
 
 1. U kunt (indien nodig) meer apparaten toevoegen of overslaan. Uw installatie is nu voltooid en u kunt zich aanmelden met Duo.
 
-   ![ Duo controleacties ](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
+   ![&#x200B; Duo controleacties &#x200B;](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Stap 2: Aanmelden met [!DNL Duo Security]
 
@@ -84,23 +84,23 @@ In het volgende voorbeeld worden de opties voor `Ask me to choose an authenticat
 
 1. Wanneer ertoe aangezet, ga uw _Admin_ geloofsbrieven in om binnen te ondertekenen.
 
-   ![ Duo - handtekening ](./assets/storefront-2fa-duo-auth.png){width="300"}
+   ![&#x200B; Duo - handtekening &#x200B;](./assets/storefront-2fa-duo-auth.png){width="300"}
 
 1. Kies Aanmelden met Duo om een pushmelding te krijgen in de Duo Mobile-app, u aan te melden met Touch ID of een andere optie te kiezen die u tijdens de installatie hebt geconfigureerd.
 
 1. Goedkeuren van de aanvraag van het duo app/Touch ID/Text-bericht en u wordt aangemeld.
 
-   ![ Duo - handtekening ](./assets/storefront-2fa-duo-success.png){width="300"}
+   ![&#x200B; Duo - handtekening &#x200B;](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 
-[!DNL Authy] biedt gebruikers gratis toegang tot hun app en service. Volg hun instructies om de app voor uw apparaat of browser te downloaden en in te stellen. Meer leren, zie de [[!DNL Authy]  documentatie ](https://authy.com/features/setup/).
+[!DNL Authy] biedt gebruikers gratis toegang tot hun app en service. Volg hun instructies om de app voor uw apparaat of browser te downloaden en in te stellen. Meer leren, zie de [[!DNL Authy]  documentatie &#x200B;](https://authy.com/features/setup/).
 
 ### Stap 1: Auteur instellen
 
 1. Ga uw rekeningsgeloofsbrieven in en meld binnen aan _Admin_.
 
-   ![[!DNL Authy] registration ](./assets/storefront-2fa-authy-auth.png){width="300"}
+   ![[!DNL Authy] registration &#x200B;](./assets/storefront-2fa-authy-auth.png){width="300"}
 
 1. Ga als volgt te werk wanneer u wordt gevraagd uzelf te registreren bij Auteur:
 
@@ -116,13 +116,13 @@ In het volgende voorbeeld worden de opties voor `Ask me to choose an authenticat
 
 1. Klik op **[!UICONTROL Confirm]** als de bewerking is voltooid.
 
-   ![[!DNL Authy] verificatiecode ](./assets/storefront-2fa-authy-verify.png){width="300"}
+   ![[!DNL Authy] verificatiecode &#x200B;](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### Stap 2: Aanmelden met [!DNL Authy]
 
 1. Ga uw rekeningsgeloofsbrieven in en meld binnen aan _Admin_.
 
-   ![[!DNL Authy] - sign in ](./assets/storefront-2fa-authy-access.png){width="300"}
+   ![[!DNL Authy] - sign in &#x200B;](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. Kies een van de volgende methoden voor verificatie:
 
@@ -140,11 +140,11 @@ In het volgende voorbeeld worden de opties voor `Ask me to choose an authenticat
 
 ## U2F ([!DNL Yubikey] en andere apparaten)
 
-Volg de instructies van de leverancier van de oplossing om uw U2F apparaat te vormen. Zie de documentatie van de leverancier, bijvoorbeeld [[!DNL YubiKey] ](https://support.yubico.com/hc/en-us/articles/360013790339-Getting-Started-with-Your-YubiKey) by [!UICONTROL Yubico] , voor meer informatie.
+Volg de instructies van de leverancier van de oplossing om uw U2F apparaat te vormen. Zie de documentatie van de leverancier, bijvoorbeeld [[!DNL YubiKey] &#x200B;](https://support.yubico.com/hc/en-us/articles/360013790339-Getting-Started-with-Your-YubiKey) by [!UICONTROL Yubico] , voor meer informatie.
 
 1. Ga uw rekeningsgeloofsbrieven in en meld binnen aan _Admin_.
 
-   ![ U2F zeer belangrijke toegang ](./assets/storefront-2fa-u2f.png){width="300"}
+   ![&#x200B; U2F zeer belangrijke toegang &#x200B;](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Druk op de toets.
 

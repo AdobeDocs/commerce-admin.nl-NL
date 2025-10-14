@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Geautomatiseerde Regels van de Herinnering E-mail ](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![&#x200B; Geautomatiseerde Regels van de Herinnering E-mail &#x200B;](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
 <!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Reminder Emails] | Algemeen | Hiermee schakelt u automatische e-mailherinneringen in. Als deze optie is ingesteld op Nee, worden de overige instellingen genegeerd. Opties: `Yes` / `No` |
 | [!UICONTROL Frequency] | Algemeen | Geeft aan hoe vaak Commerce moet controleren op nieuwe klanten die in aanmerking komen voor de automatische e-mailherinneringen. Opties: <br/>**`Minute Intervals`**- verzendt het e-mailbericht volgens het geselecteerde interval. (5 minuten, 10 minuten, 15 minuten, 20 minuten of 30 minuten)<br/>**`Hourly`** - verzendt het e-mailbericht per uur, op de minuut na het opgegeven uur. Voer een waarde in tussen 0 en 59. <br/>**`Daily`**- verzendt dagelijks e-mail, van de Tijd van het Begin. |
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
-![ Auto Gegenereerde Specifieke Codes van de Coupon ](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
+![&#x200B; Auto Gegenereerde Specifieke Codes van de Coupon &#x200B;](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
 <!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Code Length] | Algemeen | Definieert de lengte van de waardeboncode, exclusief het voor- en achtervoegsel en de scheidingstekens. |
 | [!UICONTROL Code Format] | Algemeen | Definieert de notatie van de couponcode. Opties zijn: <br/>**`Alphanumeric`**- Een willekeurige combinatie van letters en cijfers.<br/>**`Alphabetical`** - Alleen letters. <br/>**`Numeric`**- Alleen nummers. |

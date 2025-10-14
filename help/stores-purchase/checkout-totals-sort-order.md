@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Tijdens de controle van de bestelling wordt het totaal onder aan de bestelling weergegeven, met eventuele aanpassingen voor kortingen, verzendkosten, winkelkrediet en belasting. De orde van elk punt bepaalt de opeenvolging van de berekeningen, en in de configuratie door een aantal geplaatst dat aan elk punt wordt toegewezen. Het subtotaal is bijvoorbeeld het eerste item in de sectie en krijgt de waarde 10. Het Eindtotaal wordt als laatste weergegeven en krijgt de waarde 100 toegewezen. Aan alle andere items in de totalen wordt een waarde tussen deze waarden toegewezen.
 
-![ Samenvatting van de Orde toont het checkout totaal ](./assets/storefront-checkout-totals.png){width="700" zoomable="yes"}
+![&#x200B; Samenvatting van de Orde toont het checkout totaal &#x200B;](./assets/storefront-checkout-totals.png){width="700" zoomable="yes"}
 
 **_om de de sorteervolgorde van de controletotalen te vormen:_**
 
@@ -22,13 +22,13 @@ Tijdens de controle van de bestelling wordt het totaal onder aan de bestelling w
 
 1. Vouw in het linkerdeelvenster de sectie **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Totals Sort Order]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Totals Sort Order]** sectie uit.
 
-   ![ de totalen van de Controle genummerde opties om de soortorde te bepalen ](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
+   ![&#x200B; de totalen van de Controle genummerde opties om de soortorde te bepalen &#x200B;](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie {de Volumes van de Controle 1} de Orde van de Soort in de _Gids van de Verwijzing van de Configuratie_.[&#128279;](../configuration-reference/sales/sales.md#checkout-totals-sort-order)
 
-1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 

@@ -20,9 +20,9 @@ Nadat u een middel in AEM Assets hebt bewerkt, verzendt u de updates naar Commer
 
 Raadpleeg de volgende documentatie bij AEM Assets voor meer informatie.
 
-- [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [&#x200B; het Opverwerken van digitale activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [ keur activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
+- [&#x200B; keur activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
 
 ## Elementen toevoegen aan categorieën-inhoud
 
@@ -30,12 +30,12 @@ U kunt elementen toevoegen aan uw cataloguscategorieën nadat u de AEM Assets-in
 
 1. Voor _Admin_ sidebar, navigeer aan **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Breid de ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) in de **[!UICONTROL Content]** sectie uit.
+1. Breid de ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) in de **[!UICONTROL Content]** sectie uit.
 
-   ![ inhoud van de Categorie ](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; inhoud van de Categorie &#x200B;](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
 
 1. Als u een **[!UICONTROL Category Image]** boven aan de pagina wilt weergeven, klikt u op **[!UICONTROL Select from Assets]** om een afbeelding uit uw AEM Assets-map te gebruiken.
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Voor meer informatie om een categorie tot stand te brengen, zie [ de categorieconhoud ](../catalog/category-create.md#step-3-complete-the-category-content) voltooien.
+   Voor meer informatie om een categorie tot stand te brengen, zie [&#x200B; de categorieconhoud &#x200B;](../catalog/category-create.md#step-3-complete-the-category-content) voltooien.

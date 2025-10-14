@@ -37,7 +37,7 @@ Elke dag of periode tijdens een campagne kan worden voorvertoond en met anderen 
 
 1. Een voorvertoning van een bepaalde dag of tijd weergeven:
 
-   - Klik de **[!UICONTROL Date & Time]** kalender (![ pictogram van de Kalender ](../assets/icon-calendar.png){width="10" zoomable="no"}).
+   - Klik de **[!UICONTROL Date & Time]** kalender (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Kies een andere datum en/of tijd.
 
@@ -61,6 +61,6 @@ Elke dag of periode tijdens een campagne kan worden voorvertoond en met anderen 
 
      >[!NOTE]
      >
-     >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als u toestemming hebt om [ een Admin gebruikersrekening ](../systems/permissions-users-all.md#create-a-user) tot stand te brengen, moet u de rekening voor een nieuwe gebruiker vóór het delen tot stand brengen.
+     >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als u toestemming hebt om [&#x200B; een Admin gebruikersrekening &#x200B;](../systems/permissions-users-all.md#create-a-user) tot stand te brengen, moet u de rekening voor een nieuwe gebruiker vóór het delen tot stand brengen.
 
 1. Klik op **[!UICONTROL Calendar]** in de koptekst van de voorvertoningspagina om terug te keren naar de campagnemalender.

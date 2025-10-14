@@ -21,7 +21,7 @@ Als u de ingebouwde [!DNL Commerce] recensies gebruikt, bieden de overzichtsrapp
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
 
-![ Rapport van het Overzicht door Klanten ](./assets/customer-reviews.png){width="600"}
+![&#x200B; Rapport van het Overzicht door Klanten &#x200B;](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
@@ -29,4 +29,4 @@ In [!UICONTROL Product Reviews Report] worden alle producten weergegeven die doo
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
 
-![ Rapport van het Overzicht door Product ](./assets/product-reviews.png){width="600"}
+![&#x200B; Rapport van het Overzicht door Product &#x200B;](./assets/product-reviews.png){width="600"}

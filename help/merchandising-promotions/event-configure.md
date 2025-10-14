@@ -23,9 +23,9 @@ Voordat u een gebeurtenis kunt maken, moet u de basisconfiguratie voltooien om g
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Catalog Events]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Catalog Events]** sectie uit en doe het volgende:
 
-   ![ configuratie van de Catalogus - catalogusgebeurtenissen ](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - catalogusgebeurtenissen &#x200B;](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Enable Catalog Events Functionality]** in op `Yes` .
 
@@ -41,19 +41,19 @@ Voordat u een gebeurtenis kunt maken, moet u de basisconfiguratie voltooien om g
 
 De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde klanten worden beperkt die login, of uitgebreid tot niet geregistreerde klanten die zich moeten registreren alvorens toegang te verkrijgen.
 
-![ Algemene configuratie - websitebeperkingen ](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
+![&#x200B; Algemene configuratie - websitebeperkingen &#x200B;](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
 ### Toegang beperken
 
 De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde klanten worden beperkt die login, of uitgebreid tot niet geregistreerde klanten die zich moeten registreren alvorens toegang te verkrijgen.
 
-![ Algemene configuratie - websitebeperkingen ](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
+![&#x200B; Algemene configuratie - websitebeperkingen &#x200B;](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL General]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Website Restrictions]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Website Restrictions]** sectie uit.
 
 1. Stel **[!UICONTROL Access Restriction]** in op `Yes` .
 
@@ -91,4 +91,4 @@ De toegang tot een privé verkoop, gebeurtenis, of plaats kan tot geregistreerde
 
 Standaard zijn producten die in volgende of gesloten gebeurtenissen worden weergegeven, niet beschikbaar voor de algemene verkoop en staat de knop _[!UICONTROL Add to Cart]_&#x200B;niet op de productlijst of productpagina.
 
-Om de _[!UICONTROL Add to Cart]_&#x200B;knoop voor een gesloten gebeurtenis te herstellen, moet de gebeurtenis worden geschrapt (zie [ gebeurtenissen van de Update ](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.
+Om de _[!UICONTROL Add to Cart]_&#x200B;knoop voor een gesloten gebeurtenis te herstellen, moet de gebeurtenis worden geschrapt (zie [&#x200B; gebeurtenissen van de Update &#x200B;](event-create.md#update-events)). Als een product echter is gekoppeld aan een andere categorie zonder verkoopbeperkingen, is de knop beschikbaar op de productpagina. Op dezelfde manier wordt het tickerblok niet op de productpagina weergegeven als het product is gekoppeld aan een andere categorie waarvoor geen verkoopbeperkingen gelden.

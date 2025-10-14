@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijnen van de inhoud en de presentatie van een plaats om de manier te verbeteren de pagina&#39;s door onderzoeksmotoren worden geïndexeerd.
 
-De _[!UICONTROL Search Engine Optimization]_&#x200B;montages voor een product specificeren de [ Sleutel URL ](catalog-urls.md) en [ meta- gegevens ](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om het product te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere zoekprogramma&#39;s deze gebruiken. De huidige [ beste praktijken van SEO ](../merchandising-promotions/seo-overview.md) moet high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
+De _[!UICONTROL Search Engine Optimization]_&#x200B;montages voor een product specificeren de [&#x200B; Sleutel URL &#x200B;](catalog-urls.md) en [&#x200B; meta- gegevens &#x200B;](../merchandising-promotions/meta-data.md) gebieden die door onderzoeksmotoren worden gebruikt om het product te indexeren. Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere zoekprogramma&#39;s deze gebruiken. De huidige [&#x200B; beste praktijken van SEO &#x200B;](../merchandising-promotions/seo-overview.md) moet high-value sleutelwoorden in zowel de metattitel als meta beschrijving opnemen.
 
 De standaardwaarde voor elk metagegevensveld kan automatisch worden gegenereerd op basis van de waarden die in de configuratie zijn opgegeven. Elk veld bevat een tijdelijke aanduiding die wordt vervangen door een werkelijke waarde. Voor meer informatie, zie {de gebieden van het 0} Product auto-Generatie [&#128279;](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 
@@ -22,14 +22,14 @@ De standaardwaarde voor elk metagegevensveld kan automatisch worden gegenereerd 
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Search Engine Optimization]_&#x200B;sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Search Engine Optimization]_&#x200B;sectie.
 
-![ Optimalisering van de Motor van het Onderzoek ](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
+![&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 
 
 1. Voer de **[!UICONTROL URL Key]** (optioneel) in.
 
-   De standaard-URL-sleutel is gebaseerd op de productnaam. U kunt de standaardinstelling gebruiken of deze desgewenst wijzigen. Voor meer informatie, zie [ Catalogus URLs ](catalog-urls.md).
+   De standaard-URL-sleutel is gebaseerd op de productnaam. U kunt de standaardinstelling gebruiken of deze desgewenst wijzigen. Voor meer informatie, zie [&#x200B; Catalogus URLs &#x200B;](catalog-urls.md).
 
 1. Voer de **[!UICONTROL Meta Title]** (optioneel) in.
 
@@ -45,7 +45,7 @@ De standaardwaarde voor elk metagegevensveld kan automatisch worden gegenereerd 
 
 ## Veldverwijzing
 
-| Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |------------------|
 | [!UICONTROL URL Key] | Winkelweergave | Bepaalt het online adres van het product. De URL-sleutel wordt toegevoegd aan de basis-URL van de winkel en wordt weergegeven in de adresbalk van een browser. Commerce creeert aanvankelijk a _onderzoekmachine-vriendschappelijke_ URL die op de productnaam gebaseerd is. De URL-sleutel moet bestaan uit kleine letters, met niet-afbreekstreepjes tussen deze tekens in plaats van spaties. Neem geen achtervoegsel zoals `.html` op in de URL-sleutel, omdat dit wordt beheerd in de configuratie. |
 | [!UICONTROL Meta Title] | Winkelweergave | De titel wordt weergegeven in de titelbalk en het tabblad van uw browser en wordt ook gebruikt als de titel op de resultatenpagina van een zoekmachine (SERP). De titel van de meta zou uniek aan de pagina en minder dan 70 karakters in lengte moeten zijn. Automatisch gegenereerde waarde: `{{name}}` |

@@ -16,11 +16,11 @@ Producten kunnen afzonderlijk of in groepen van meerdere producten per categorie
 
 Een complex product (zoals bundel, gegroepeerd of configureerbaar) kan alleen zichtbaar zijn vanuit de winkel in een gedeelde catalogus als aan de volgende vereisten is voldaan:
 
-- Alle [ bijbehorende producten ](../catalog/product-configurations.md) en de opties moeten aan de zelfde gedeelde catalogus worden toegewezen en in de primaire catalogus worden toegelaten.
-- Voor [ configureerbare ](../catalog/product-create-configurable.md) en [ gegroepeerde ](../catalog/product-create-grouped.md) producten, slechts zijn de toegelaten bijbehorende producten zichtbaar.
-- Voor a [ bundel ](../catalog/product-create-bundle.md) product, moeten alle opties in de gedeelde catalogus worden omvat.
+- Alle [&#x200B; bijbehorende producten &#x200B;](../catalog/product-configurations.md) en de opties moeten aan de zelfde gedeelde catalogus worden toegewezen en in de primaire catalogus worden toegelaten.
+- Voor [&#x200B; configureerbare &#x200B;](../catalog/product-create-configurable.md) en [&#x200B; gegroepeerde &#x200B;](../catalog/product-create-grouped.md) producten, slechts zijn de toegelaten bijbehorende producten zichtbaar.
+- Voor a [&#x200B; bundel &#x200B;](../catalog/product-create-bundle.md) product, moeten alle opties in de gedeelde catalogus worden omvat.
 
-  ![ Uitgezochte Producten voor Catalogus ](./assets/shared-catalog-select-products-step-1.png){width="600" zoomable="yes"}
+  ![&#x200B; Uitgezochte Producten voor Catalogus &#x200B;](./assets/shared-catalog-select-products-step-1.png){width="600" zoomable="yes"}
 
 ## Methode 1: Eén product toevoegen
 
@@ -28,15 +28,15 @@ Een complex product (zoals bundel, gegroepeerd of configureerbaar) kan alleen zi
 
 1. Ga voor het product in het raster dat u wilt toevoegen naar de kolom _[!UICONTROL Action]_&#x200B;en klik op **[!UICONTROL Edit]**.
 
-1. De rol neer, breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product in Shared Catalogs]_&#x200B;sectie uit, en doet het volgende:
+1. De rol neer, breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Product in Shared Catalogs]_&#x200B;sectie uit, en doet het volgende:
 
    - Schakel het selectievakje in van elke gedeelde catalogus waarin het product moet worden weergegeven. Klik op **[!UICONTROL Select all]** om alle catalogi te kiezen.
 
-     ![ Product in Gedeelde Catalogi ](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
+     ![&#x200B; Product in Gedeelde Catalogi &#x200B;](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
      De naam van elke geselecteerde catalogus wordt weergegeven in het veld _[!UICONTROL Shared Catalogs]_.
 
-     ![ Gedeelde toegewezen catalogi ](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
+     ![&#x200B; Gedeelde toegewezen catalogi &#x200B;](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
    - Klik op **[!UICONTROL Done]** om de instellingen op te slaan.
 
@@ -54,12 +54,12 @@ Een complex product (zoals bundel, gegroepeerd of configureerbaar) kan alleen zi
    - Als u bepaalde productcategorieën wilt opnemen, schakelt u het selectievakje in van elke categorie die u wilt opnemen.
    - Als u een afzonderlijk product wilt opnemen of uitsluiten, schakelt u het selectievakje van het product in of uit.
 
-   De notatie onder elke categorie in de structuur geeft het aantal producten van de categorie weer dat momenteel is opgenomen in de gedeelde catalogus. De aantekening onder de [ wortelcategorie ](../catalog/category-root.md) toont het totale aantal producten van alle categorieën die momenteel voor de gedeelde catalogus worden geselecteerd.
+   De notatie onder elke categorie in de structuur geeft het aantal producten van de categorie weer dat momenteel is opgenomen in de gedeelde catalogus. De aantekening onder de [&#x200B; wortelcategorie &#x200B;](../catalog/category-root.md) toont het totale aantal producten van alle categorieën die momenteel voor de gedeelde catalogus worden geselecteerd.
 
 1. Als u categorieproducten in het raster wilt weergeven, klikt u op de naam van de categorie in de boomstructuur.
 
    Wanneer een categorie wordt geselecteerd, komt het volgende voor:
 
    - De schakeloptie in de eerste kolom van het raster wordt ingesteld op `On` voor elk geselecteerd product.
-   - Als een product aan veelvoudige categorieën wordt toegewezen en in één van hen weggelaten, blijft het beschikbaar door de andere categorieën en door [ catalogusonderzoek ](../catalog/search.md).
-   - Het systeem plaatst automatisch [ Toestemmingen van de Categorie ](../catalog/category-permissions.md) aan `Allow` voor de geselecteerde producten.
+   - Als een product aan veelvoudige categorieën wordt toegewezen en in één van hen weggelaten, blijft het beschikbaar door de andere categorieën en door [&#x200B; catalogusonderzoek &#x200B;](../catalog/search.md).
+   - Het systeem plaatst automatisch [&#x200B; Toestemmingen van de Categorie &#x200B;](../catalog/category-permissions.md) aan `Allow` voor de geselecteerde producten.

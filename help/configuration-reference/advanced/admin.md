@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Admin User Emails]
 
-![ Emails van de Gebruiker Admin ](./assets/admin-admin-user-emails.png)<!-- zoom -->
+![&#x200B; Emails van de Gebruiker Admin &#x200B;](./assets/admin-admin-user-emails.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Gevergeten wachtwoord en terugstellen e-mail ](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Gevergeten wachtwoord en terugstellen e-mail &#x200B;](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Forgot Password Email Template] | Algemeen | Identificeert het e-mailmalplaatje dat voor het bericht wordt gebruikt dat wordt verzonden wanneer een gebruiker Admin zijn wachtwoord vergeet. Standaardsjabloon: `Forgot Admin Password` |
 | [!UICONTROL Forgot and Reset Email Sender] | Algemeen | Identificeert het opslagcontact dat als afzender van het _vergeten Wachtwoord_ e-mail verschijnt. Standaardafzender: `General Contact`<br/> Andere afzenderopties: `Sales Representative`, `Customer Support`, `Custom Email` |
@@ -31,11 +31,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Gevergeten wac
 
 ## [!UICONTROL Startup Page]
 
-![ Opstartpagina ](./assets/admin-startup-page.png)<!-- zoom -->
+![&#x200B; Opstartpagina &#x200B;](./assets/admin-startup-page.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ de startpagina ](../../getting-started/admin-dashboard.md#change-the-startup-page) in _Begonnen Gids_ veranderen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; de startpagina &#x200B;](../../getting-started/admin-dashboard.md#change-the-startup-page) in _Begonnen Gids_ veranderen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
 | [!UICONTROL Startup Page] | Algemeen | Bepaalt de bestemmingspagina Admin die na u login verschijnt. |
 
@@ -46,24 +46,24 @@ Voor meer informatie over het veranderen van deze montages, zie [ de startpagina
 | Gebied |                                                                                                                                                                                                                                                                                                                                                                           | Optie |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Dashboard`](../../getting-started/admin-dashboard.md) |                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `Sales` | `Operations` | [`Quotes`](../../b2b/quotes.md) ![ Adobe Commerce B2B ](../../assets/b2b.svg) <br/>[`Orders`](../../stores-purchase/orders.md)<br/>[`Invoices`](../../stores-purchase/invoices.md)<br/>[`Shipments`](../../stores-purchase/shipments.md)<br/>[`Credit Memos`](../../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../../stores-purchase/returns.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](../../stores-purchase/transactions.md)<br/>`Braintree Virtual Terminal` |
-| `Catalog` | [`Inventory`](../../inventory-management/introduction.md) | [`Products`](../../catalog/products-list.md)<br/>[`Categories`](../../catalog/categories.md)<br/>[`Shared Catalog`](../../b2b/catalog-shared-create.md) ![ Adobe Commerce B2B ](../../assets/b2b.svg) |
-| `Customers` | [`All Customers`](../../customers/customers-all.md)<br/>[`Now Online`](../../customers/now-online.md)<br/>[`Customer Groups`](../../customers/customer-groups.md)<br/>[`Segments`](../../customers/customer-segments.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br/>[`Companies`](../../b2b/account-companies.md)![ Adobe Commerce B2B ](../../assets/b2b.svg) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `Marketing` | `Promotions` | [`Catalog Price Rule`](../../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../../merchandising-promotions/price-rules-cart.md)) <br/>[`Related Products Rules`](../../merchandising-promotions/product-related-rules.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](../../stores-purchase/product-gift-card-accounts.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) |
-|                                                         | [`Private Sales`](../../merchandising-promotions/events-private-sales.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) | [`Events`](../../merchandising-promotions/event-configure.md) <br/>[`Invitations`](../../merchandising-promotions/invitations.md) |
-|                                                         | `Communications` | [`Email Templates`](../../systems/email-templates.md) <br/>[`Newsletter Template`](../../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../../merchandising-promotions/email-reminder-rules.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) |
-|                                                         | `SEO & Search` | [`Search Terms`](../../catalog/search-terms.md) <br/>[`Search Synonyms`](../../catalog/search-terms.md#search-synonyms) ![ Adobe Commerce ](../../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../../merchandising-promotions/url-rewrite.md) <br/>[`Site Map`](../../merchandising-promotions/sitemap-xml.md) |
+| `Sales` | `Operations` | [`Quotes`](../../b2b/quotes.md) ![&#x200B; Adobe Commerce B2B &#x200B;](../../assets/b2b.svg) <br/>[`Orders`](../../stores-purchase/orders.md)<br/>[`Invoices`](../../stores-purchase/invoices.md)<br/>[`Shipments`](../../stores-purchase/shipments.md)<br/>[`Credit Memos`](../../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../../stores-purchase/returns.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](../../stores-purchase/transactions.md)<br/>`Braintree Virtual Terminal` |
+| `Catalog` | [`Inventory`](../../inventory-management/introduction.md) | [`Products`](../../catalog/products-list.md)<br/>[`Categories`](../../catalog/categories.md)<br/>[`Shared Catalog`](../../b2b/catalog-shared-create.md) ![&#x200B; Adobe Commerce B2B &#x200B;](../../assets/b2b.svg) |
+| `Customers` | [`All Customers`](../../customers/customers-all.md)<br/>[`Now Online`](../../customers/now-online.md)<br/>[`Customer Groups`](../../customers/customer-groups.md)<br/>[`Segments`](../../customers/customer-segments.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) <br/>[`Companies`](../../b2b/account-companies.md)![&#x200B; Adobe Commerce B2B &#x200B;](../../assets/b2b.svg) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `Marketing` | `Promotions` | [`Catalog Price Rule`](../../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../../merchandising-promotions/price-rules-cart.md)) <br/>[`Related Products Rules`](../../merchandising-promotions/product-related-rules.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](../../stores-purchase/product-gift-card-accounts.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) |
+|                                                         | [`Private Sales`](../../merchandising-promotions/events-private-sales.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) | [`Events`](../../merchandising-promotions/event-configure.md) <br/>[`Invitations`](../../merchandising-promotions/invitations.md) |
+|                                                         | `Communications` | [`Email Templates`](../../systems/email-templates.md) <br/>[`Newsletter Template`](../../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../../merchandising-promotions/email-reminder-rules.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) |
+|                                                         | `SEO & Search` | [`Search Terms`](../../catalog/search-terms.md) <br/>[`Search Synonyms`](../../catalog/search-terms.md#search-synonyms) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../../merchandising-promotions/url-rewrite.md) <br/>[`Site Map`](../../merchandising-promotions/sitemap-xml.md) |
 |                                                         | [`User Content`](../../catalog/settings-advanced-product-reviews.md) | [`All Reviews`](../../catalog/settings-advanced-product-reviews.md) <br/>[`Pending Reviews`](../../merchandising-promotions/product-reviews-moderate.md) <br/> |
-| `Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../content-design/page-hierarchy.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../content-design/blocks.md)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md) |
+| `Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../content-design/page-hierarchy.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../content-design/blocks.md)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md) |
 |                                                         | `Design` | [`Configuration`](../../content-design/configuration.md)<br/>[`Themes`](../../content-design/themes.md)<br/>[`Schedule`](../../content-design/schedule.md) |
-|                                                         | `Content Staging` ![ Adobe Commerce ](../../assets/adobe-logo.svg)<br /> | [ Dashboard ](../../content-design/content-staging.md) |
+|                                                         | `Content Staging` ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg)<br /> | [&#x200B; Dashboard &#x200B;](../../content-design/content-staging.md) |
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool` ](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL) ![ Adobe Commerce ](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool` &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
-|                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![ Adobe Commerce ](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
+|                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
 |                                                         | `Statistics` | [`Refresh Statistics`](../../getting-started/sales-reports.md#refresh-statistics) |
 |                                                         | [`Business Intelligence`](../../getting-started/business-intelligence.md) | `Advanced Reporting`<br/>`BI Essentials`<br/> |
 |                                                         | `Customer Engagement` | `Dashboard`<br/>`Importer Status`<br/>`Automation Enrollment`<br/>`Campaign Sends`<br/>`SMS Sends`<br/>`Cron Tasks`<br/>`Log Viewer`<br/>`Abandoned Carts` |
@@ -78,7 +78,7 @@ Voor meer informatie over het veranderen van deze montages, zie [ de startpagina
 |                                                         | `Tools` | [`Cache Management`](../../systems/cache-management.md)<br/>[`Index Management`](../../systems/index-management.md) |
 |                                                         | `Support` | [`System Report`](../../systems/support.md#system-reports) |
 |                                                         | `Permissions` | [`All Users`](../../systems/permissions-users-all.md)<br/>[`Locked Users`](../../systems/permissions-users-all.md#locked-users)<br/>[`User Roles`](../../systems/permissions-user-roles.md) |
-|                                                         | `Action Log` ![ Adobe Commerce ](../../assets/adobe-logo.svg) | [`Report`](../../systems/action-log.md)<br/>[`Archive`](../../systems/action-log-archive.md)<br/>[`Bulk Actions`](../../systems/action-log-bulk-actions.md) |
+|                                                         | `Action Log` ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) | [`Report`](../../systems/action-log.md)<br/>[`Archive`](../../systems/action-log-archive.md)<br/>[`Bulk Actions`](../../systems/action-log-bulk-actions.md) |
 |                                                         | `Other Settings` | [`Notifications`](../../systems/notifications.md)<br/>[`Custom Variables`](../../systems/variables-custom.md)<br/>[`Manage Encryption Key`](../../systems/encryption-key.md) |
 | `Find Partners & Extensions` |                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
@@ -102,11 +102,11 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Admin Base URL]
 
-![ Admin Basis URL ](./assets/admin-admin-base-url.png)<!-- zoom -->
+![&#x200B; Admin Basis URL &#x200B;](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-Voor meer informatie over het plaatsen van deze opties, zie [ basis URL ](../../stores-purchase/store-urls.md#configure-the-base-url) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
+Voor meer informatie over het plaatsen van deze opties, zie [&#x200B; basis URL &#x200B;](../../stores-purchase/store-urls.md#configure-the-base-url) in de _Gids van de Opslag en van de Ervaring van de Aankoop_ vormen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | Algemeen | Hiermee wordt bepaald of een aangepaste URL wordt gebruikt voor toegang tot de beheerder. Opties: `Yes` / `No` |
 | [!UICONTROL Custom Admin URL] | Algemeen | Hier geeft u een aangepaste URL op voor toegang tot de beheerder. Standaard is de URL voor het beheer gelijk aan de basis-URL.<br/>**Belangrijk:** Admin URL moet in de zelfde installatie van Commerce zijn, en de zelfde documentwortel hebben zoals de storefront. |
@@ -117,11 +117,11 @@ Voor meer informatie over het plaatsen van deze opties, zie [ basis URL ](../../
 
 ## [!UICONTROL Security]
 
-![ Veiligheid ](./assets/admin-security.png)<!-- zoom -->
+![&#x200B; Veiligheid &#x200B;](./assets/admin-security.png)<!-- zoom -->
 
-Voor meer informatie over het plaatsen van deze opties, zie [ veiligheid Admin ](../../systems/security-admin.md) in de _Gids van Systemen Admin_ vormen.
+Voor meer informatie over het plaatsen van deze opties, zie [&#x200B; veiligheid Admin &#x200B;](../../systems/security-admin.md) in de _Gids van Systemen Admin_ vormen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Admin Account Sharing] | Winkelweergave | Hiermee wordt bepaald of een Admin-gebruiker gelijktijdig vanaf verschillende apparaten kan worden aangemeld bij hetzelfde account. Opties: <br/>**`Yes`**- Hiermee worden meerdere actieve sessies van hetzelfde beheerdersaccount toegestaan.<br/>**`No`** - Hiermee wordt slechts één actieve sessie per beheerdersaccount toegestaan. |
 | [!UICONTROL Password Reset Protection Type] | Winkelweergave | Bepaalt de methode die wordt gebruikt om verzoeken om het terugstellen van het wachtwoord te beheren. Opties: <br/>**`By IP and Email`**- Het wachtwoord kan online opnieuw worden ingesteld nadat een antwoord is ontvangen van het bericht is verzonden naar het e-mailadres dat is gekoppeld aan het beheerdersaccount.<br/>**`By IP`** - U kunt het wachtwoord online opnieuw instellen zonder extra bevestiging. <br/>**`By Email`**- Het wachtwoord kan alleen opnieuw worden ingesteld door te reageren per e-mail naar het bericht dat is verzonden naar het e-mailadres dat is gekoppeld aan het beheerdersaccount.<br/>**`None`** - Het wachtwoord kan slechts door de archiefbeheerder worden teruggesteld. |
@@ -140,11 +140,11 @@ Voor meer informatie over het plaatsen van deze opties, zie [ veiligheid Admin ]
 
 ## [!UICONTROL Dashboard]
 
-![ Dashboard ](./assets/admin-dashboard.png)<!-- zoom -->
+![&#x200B; Dashboard &#x200B;](./assets/admin-dashboard.png)<!-- zoom -->
 
-Voor meer informatie over het plaatsen van deze opties, zie [ Admin dashboard ](../../getting-started/admin-dashboard.md) in de _Begonnen Gids_.
+Voor meer informatie over het plaatsen van deze opties, zie [&#x200B; Admin dashboard &#x200B;](../../getting-started/admin-dashboard.md) in de _Begonnen Gids_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Charts] | Algemeen | Hiermee wordt bepaald of het dashboard een grafiek bevat die wordt gegenereerd op basis van de huidige verkoopgegevens. Opties: `Yes` / `No` |
 
@@ -152,26 +152,26 @@ Voor meer informatie over het plaatsen van deze opties, zie [ Admin dashboard ](
 
 ## [!UICONTROL Admin Grids]
 
-![ Admin Rasters ](./assets/admin-admin-grids.png)<!-- zoom -->
+![&#x200B; Admin Rasters &#x200B;](./assets/admin-admin-grids.png)<!-- zoom -->
 
-Voor meer informatie over het plaatsen van deze opties, zie [ productvertoning van de Beperking ](../../catalog/products-list.md#limit-product-display) in de _Gids van het Beheer van de Catalogus_.
+Voor meer informatie over het plaatsen van deze opties, zie [&#x200B; productvertoning van de Beperking &#x200B;](../../catalog/products-list.md#limit-product-display) in de _Gids van het Beheer van de Catalogus_.
 
 >[!NOTE]
 >
 >Als u de prestaties van grote catalogi wilt verbeteren, kunt u het beste het aantal producten beperken dat in het raster wordt weergegeven.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Limit Number of Products in Grid] | Algemeen | Hiermee wordt bepaald of het aantal weergegeven producten in het raster wordt beperkt tot de waarde _[!UICONTROL Records Limit]_. Opties: `Yes` / `No` |
 | [!UICONTROL Records Limit] | Algemeen | Hiermee stelt u de maximale hoeveelheid producten in het productraster in. De standaardwaarde voor de minimumwaarde is `20000` . |
 
 ## [!UICONTROL CAPTCHA]
 
-![ CAPTCHA ](./assets/admin-captcha.png)<!-- zoom -->
+![&#x200B; CAPTCHA &#x200B;](./assets/admin-captcha.png)<!-- zoom -->
 
-Voor meer informatie over het plaatsen van deze opties, zie [ CAPTCHA ](../../systems/security-captcha.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het plaatsen van deze opties, zie [&#x200B; CAPTCHA &#x200B;](../../systems/security-captcha.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable CAPTCHA in Admin] | Algemeen | Hiermee schakelt u CAPTCHA in voor de aanmelding bij Admin. Opties: `Yes` / `No` |
 | [!UICONTROL Font] | Algemeen | Bepaalt het lettertype dat wordt gebruikt om de CAPTCHA weer te geven. Als u uw eigen lettertype wilt toevoegen, plaatst u het lettertypebestand in dezelfde map als de Commerce-instantie en voegt u de declaratie toe aan het bestand config.xml in het standaardlettertype `app/code/Magento/Captcha/etc` :` LinLibertine` |
@@ -189,11 +189,11 @@ Voor meer informatie over het plaatsen van deze opties, zie [ CAPTCHA ](../../sy
 
 {{ee-feature}}
 
-![ Logging van Acties Admin ](./assets/admin-actions-logging.png)<!-- zoom -->
+![&#x200B; Logging van Acties Admin &#x200B;](./assets/admin-actions-logging.png)<!-- zoom -->
 
 Voor meer informatie over het plaatsen van deze opties, zie {het archiveren van het 0} logboek van de Actie [&#128279;](../../systems/action-log-archive.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Actions] | Algemeen | Schakelt actielogboekregistratie in voor elk van de geselecteerde acties: <br/>`Admin My Account` <br/>`Admin Permission Roles` <br/>`Admin Permission Users` <br/>`Admin Sign In` <br/>`CMS Blocks` <br/>`CMS Hierarchy` <br/>`CMS Pages` <br/>`Cache Management` <br/>`Cart Price Rules` <br/>`Catalog Attributes` <br/>`Catalog Categories` <br/>`Catalog Events` <br/>`Catalog Price Rules` <br/>`Catalog Product Tax Classes` <br/>`Catalog Product Templates` <br/>`Catalog Products` <br/>`Catalog Ratings` <br/>`Catalog Reviews` <br/>`Catalog Search` <br/>`Checkout Terms and Conditions` <br/>`Companies` {2111 <br/>`Company Credit` <br/>`Custom Variables` <br/>`Customer Groups` <br/>`Customer Invitations` <br/>`Customer Tax Classes` <br/>`Customers` <br/>`Design Configuration` <br/>`Gift Card Accounts` <br/>`Gift Registry Entity` <br/>`Gift Registry Type` <br/>`Index Management` <br/>`Login as a Customer` <br/>`Manage Currency Rates` <br/>`Manage Customer Address Attributes` <br/>`Manage Customer Attributes` <br/>`Manage Design` <br/>`Manage Dynamic Blocks` <br/>`Manage Segments` <br/>`Manage Store Views` <br/>`Manage Stores` <br/>`Manage Websites`} <br/>`Negotiable Quotes` <br/>`Newsletter Queue` <br/>`Newsletter Subscribers` <br/>`Newsletter Templates` <br/>`PayPal Settlement Reports` <br/>`Reports` <br/> `Reward Points Rates` <br/>`Rule-Based Product Relations` <br/>`Sales Archive` <br/>`Sales Credit Memos` <br/>`Sales Invoices` <br/>`Sales Order Status` <br/>`Sales Orders` <br/>`Sales Shipments` <br/>`Shared Catalog` <br/>`Shopping Cart Management` <br/>`Store Credit` <br/>`System Backups` <br/>`System Configuration` <br/>`Tax Rates` <br/>`Tax Rules` <br/>`Transactional Emails` <br/>`URL Rewrites` <br/>`Widget` <br/>`XML Sitemap` |
 
@@ -201,7 +201,7 @@ Voor meer informatie over het plaatsen van deze opties, zie {het archiveren van 
 
 ## [!UICONTROL Admin Usage]
 
-![ Gebruik Admin ](./assets/admin-usage.png)<!-- zoom -->
+![&#x200B; Gebruik Admin &#x200B;](./assets/admin-usage.png)<!-- zoom -->
 
 Voor meer informatie over het plaatsen van deze opties, zie {de gegevensinzameling van het 0} Gebruik [&#128279;](../../getting-started/admin.md#usage-data-collection) in _Begonnen Gids_ krijgen.
 

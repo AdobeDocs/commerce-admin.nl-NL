@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De _orden en Keert_ widget terug geeft gasten de capaciteit om de status van hun orden, drukfacturen, en spoorzendingen te controleren. Wanneer de widget aan de winkel wordt toegevoegd, is deze alleen zichtbaar voor gasten en voor klanten die niet zijn aangemeld bij hun accounts. Gasten kunnen bestellingen zoeken door de bestellings-id, de naam van de factureringsnaam en het e-mailadres of de postcode op te geven.
 
-![ orden en Keert widget in sidebar op storefront ](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"} terug
+![&#x200B; orden en Keert widget in sidebar op storefront &#x200B;](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"} terug
 
 ## De widget bestellingen en retourneert deze op de storefront
 
@@ -30,7 +30,7 @@ De _orden en Keert_ widget terug geeft gasten de capaciteit om de status van hun
 
 1. Klik op **[!UICONTROL Search]** om de volgorde op te halen.
 
-   ![ informatie van de Orde die in de storefront ](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"} wordt getoond
+   ![&#x200B; informatie van de Orde die in de storefront &#x200B;](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"} wordt getoond
 
 ## De widget voor bestellingen en geretourneerde meldingen instellen
 

@@ -17,15 +17,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Zie [ configuratie van de Valuta ](../../stores-purchase/currency-configuration.md) voor meer details over deze configuraties.
+>Zie [&#x200B; configuratie van de Valuta &#x200B;](../../stores-purchase/currency-configuration.md) voor meer details over deze configuraties.
 
 ## [!UICONTROL Currency Options]
 
-![ de Opstelling van de Valuta > Opties van de Valuta ](./assets/currency-setup-currency-options.png)<!-- zoom -->
+![&#x200B; de Opstelling van de Valuta > Opties van de Valuta &#x200B;](./assets/currency-setup-currency-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | Website | De primaire valuta die wordt gebruikt voor alle online betalingstransacties. Voor veelvoudige opslagmeningen, moet het werkingsgebied van de prijs in de [ configuratie van de Catalogus ](../catalog/catalog.md) worden geplaatst. |
+| [!UICONTROL Base Currency] | Website | De primaire valuta die wordt gebruikt voor alle online betalingstransacties. Voor veelvoudige opslagmeningen, moet het werkingsgebied van de prijs in de [&#x200B; configuratie van de Catalogus &#x200B;](../catalog/catalog.md) worden geplaatst. |
 | [!UICONTROL Default Display Currency] | Winkelweergave | De primaire valuta die wordt gebruikt om prijzen weer te geven. |
 | [!UICONTROL Allowed Currencies] | Winkelweergave | De valuta&#39;s die je winkel accepteert voor betaling. |
 
@@ -35,44 +35,44 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] ](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) ](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
+>Beginnend met versie 2.4.6, wordt de [[!DNL Fixer.io] &#x200B;](https://fixer.io/) dienst afgekeurd en met de [[!DNL Fixer API]  vervangen (APILayer) &#x200B;](https://apilayer.com/marketplace/fixer-api) dienst. Het wordt ten zeerste aanbevolen een APILayer-account te gebruiken in plaats van een afgekeurd [!DNL Fixer.io] -account.
 
-![ Opstelling van de Valuta > Fixer.io ](./assets/currency-setup-fixer.png)<!-- zoom -->
+![&#x200B; Opstelling van de Valuta > Fixer.io &#x200B;](./assets/currency-setup-fixer.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om via uw [!DNL fixer.io] -account toegang te krijgen tot de conversieservice. Zie [[!DNL fixer.io] ](https://fixer.io/) voor meer informatie. |
+| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om via uw [!DNL fixer.io] -account toegang te krijgen tot de conversieservice. Zie [[!DNL fixer.io] &#x200B;](https://fixer.io/) voor meer informatie. |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Hiermee bepaalt u het aantal seconden dat inactiviteit optreedt voordat een Fixer.io-sessietime-out optreedt. Standaardwaarde: `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![ de Opstelling van de Valuta > Fixer API (APILayer) ](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![&#x200B; de Opstelling van de Valuta > Fixer API (APILayer) &#x200B;](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om via uw [!DNL APILayer] -account toegang te krijgen tot de conversieservice. Zie [[!DNL APILayer] ](https://apilayer.com/) voor meer informatie. |
+| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om via uw [!DNL APILayer] -account toegang te krijgen tot de conversieservice. Zie [[!DNL APILayer] &#x200B;](https://apilayer.com/) voor meer informatie. |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Bepaalt het aantal seconden van inactiviteit vóór een [!DNL APILayer] sessietijden uit. De standaardwaarde is `100` . |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
-![ Opstelling van de Valuta > API van de Convertor van de Valuta ](./assets/currency-setup-converter.png)<!-- zoom -->
+![&#x200B; Opstelling van de Valuta > API van de Convertor van de Valuta &#x200B;](./assets/currency-setup-converter.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om tot de omzettingsdienst toegang te hebben. Voor meer informatie, zie [[!DNL Currency Convertor]  API ](https://free.currencyconverterapi.com/). |
+| [!UICONTROL API key] | Algemeen | De sleutel die wordt gebruikt om tot de omzettingsdienst toegang te hebben. Voor meer informatie, zie [[!DNL Currency Convertor]  API &#x200B;](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Algemeen | Bepaalt het aantal seconden van inactiviteit vóór een [!DNL Currency Converter] sessietijden uit. Standaardwaarde: `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
-![ Opstelling van de Valuta > Geplande de Montages van de Invoer ](./assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
+![&#x200B; Opstelling van de Valuta > Geplande de Montages van de Invoer &#x200B;](./assets/currency-setup-scheduled-import-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee wordt bepaald of geplande import is ingeschakeld voor valutakoersen. Opties: `Yes` / `No` |
 | [!UICONTROL Service] | Winkelweergave | Specificeert de dienst die de gegevens voor de geplande invoer verstrekt. Standaardwaarde is `fixer.io` |

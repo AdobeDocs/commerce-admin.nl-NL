@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Sources]
 
-In het gedeelte _[!UICONTROL Sources]_&#x200B;van de productinstellingen worden de bronnen weergegeven waaruit het product kan worden gedistribueerd. Het wordt gebruikt om bronnen toe te wijzen en weg te wijzen en de hoeveelheid en de beschikbaarheid van het product te beheren. Deze sectie wordt alleen weergegeven als er meer dan één bron is gedefinieerd voor uw winkel. Voor meer informatie over bronnen, zie [ bronnen ](../inventory-management/sources-manage.md) leiden.
+In het gedeelte _[!UICONTROL Sources]_&#x200B;van de productinstellingen worden de bronnen weergegeven waaruit het product kan worden gedistribueerd. Het wordt gebruikt om bronnen toe te wijzen en weg te wijzen en de hoeveelheid en de beschikbaarheid van het product te beheren. Deze sectie wordt alleen weergegeven als er meer dan één bron is gedefinieerd voor uw winkel. Voor meer informatie over bronnen, zie [&#x200B; bronnen &#x200B;](../inventory-management/sources-manage.md) leiden.
 
 ## Een bron toewijzen voor een product
 
@@ -26,7 +26,7 @@ In het gedeelte _[!UICONTROL Sources]_&#x200B;van de productinstellingen worden 
 
 1. Klik op **[!UICONTROL Save]** om de wijzigingen op te slaan.
 
-![ Bronmening ](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
+![&#x200B; Bronmening &#x200B;](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
 
 ## Veldverwijzing
 
@@ -37,7 +37,7 @@ In het gedeelte _[!UICONTROL Sources]_&#x200B;van de productinstellingen worden 
 | [!UICONTROL Source Item Status] | Bepaalt de huidige beschikbaarheid van het product. Opties:<br />**[!UICONTROL In Stock]**- maakt het product beschikbaar voor aankoop.<br />**[!UICONTROL Out of Stock]** - Als er geen backorders zijn geactiveerd, kan het product niet worden aangeschaft en wordt de aanbieding uit de catalogus verwijderd. |
 | [!UICONTROL Qty] | Aandelen voor elke bron. |
 | [!UICONTROL Notify Qty] | Een bedrag voor _deelt voor Hoeveelheid_ voor deze specifieke bron mee als `Notify Quantity Use Default` niet wordt geselecteerd. |
-| [!UICONTROL Notify Qty Use Default] | Wijst erop om het gebrek te gebruiken dat voor _plaatst op Melden voor Hoeveelheid_ in het product Geavanceerde Overzicht of het globale plaatsen in de opslagconfiguratie. Voor meer informatie over geavanceerde inventarismontages voor uw product, zie [ geavanceerde productopties ](../inventory-management/product-options.md) vormen. |
-| [!UICONTROL Actions] | Voor een toegewezen bron klikt u op **[!UICONTROL Unassign]** om de bron niet beschikbaar te maken voor het product. Voor een niet-toegewezen bron klikt u op **[!UICONTROL Assign Sources]** om een bron beschikbaar te maken voor het product. Voor meer informatie over [!UICONTROL Assign Sources] opties, zie [ Toewijzende Bronnen per Product ](../inventory-management/sources-assign-per-product.md). |
+| [!UICONTROL Notify Qty Use Default] | Wijst erop om het gebrek te gebruiken dat voor _plaatst op Melden voor Hoeveelheid_ in het product Geavanceerde Overzicht of het globale plaatsen in de opslagconfiguratie. Voor meer informatie over geavanceerde inventarismontages voor uw product, zie [&#x200B; geavanceerde productopties &#x200B;](../inventory-management/product-options.md) vormen. |
+| [!UICONTROL Actions] | Voor een toegewezen bron klikt u op **[!UICONTROL Unassign]** om de bron niet beschikbaar te maken voor het product. Voor een niet-toegewezen bron klikt u op **[!UICONTROL Assign Sources]** om een bron beschikbaar te maken voor het product. Voor meer informatie over [!UICONTROL Assign Sources] opties, zie [&#x200B; Toewijzende Bronnen per Product &#x200B;](../inventory-management/sources-assign-per-product.md). |
 
 {style="table-layout:auto"}

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een prijsopgave voor een koper starten
 
-Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](configure-quotes.md) worden toegelaten, kan een verkoopvertegenwoordiger het onderhandelingsproces met een bedrijfkoper in werking stellen door een citaat van Admin te creëren.
+Als de citaten in de [&#x200B; configuratie van de Eigenschappen van de Verkoop &#x200B;](configure-quotes.md) worden toegelaten, kan een verkoopvertegenwoordiger het onderhandelingsproces met een bedrijfkoper in werking stellen door een citaat van Admin te creëren.
 
 - Concepten zijn alleen zichtbaar voor de verkoper.
 - Conceptprijsopgaven kunnen pas worden ingediend nadat de verkoper items, relevante kortingen en opmerkingen heeft toegevoegd om de oorspronkelijke aanbieding voor de koper te maken.
@@ -43,11 +43,11 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
    - [!UICONTROL Create New Quote]
 
-     ![ Uitgezochte klant voor nieuw citaat ](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
+     ![&#x200B; Uitgezochte klant voor nieuw citaat &#x200B;](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
      Er wordt een nieuw aanhalingsteken weergegeven in de status `Draft` .
 
-     ![ Nieuw ontwerp citaat dat door verkoper ](./assets/quote-create-by-seller.png){width="700" zoomable="yes"} wordt gecreeerd
+     ![&#x200B; Nieuw ontwerp citaat dat door verkoper &#x200B;](./assets/quote-create-by-seller.png){width="700" zoomable="yes"} wordt gecreeerd
 
    - Werk de citaatnaam bij en wijzig zo nodig de vervaldatum.
 
@@ -59,7 +59,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Voeg items aan het aanhalingsteken toe door **[!UICONTROL Add Product By SKU]** te selecteren. Voer het SKU-nummer en het aantal in en selecteer vervolgens **[!UICONTROL Add Product]** .
 
-   ![ Verkoper die punten aan ontwerp citaat voor koper toevoegt ](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
+   ![&#x200B; Verkoper die punten aan ontwerp citaat voor koper toevoegt &#x200B;](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Pas indien nodig kortingen voor regelobjecten toe op producten.
 
@@ -79,13 +79,13 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    >[!NOTE]
    >
-   >Voor een videodemo van hoe de kortingen bij het werk van het lijnpunt, zie [ de Vertegenwoordiger van de Verkoop korting op een punt van de citaatlijn ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=nl-NL) in _Video&#39;s en Tutorials van Commerce_ toepast.
+   >Voor een videodemo van hoe de kortingen bij het werk van het lijnpunt, zie [&#x200B; de Vertegenwoordiger van de Verkoop korting op een punt van de citaatlijn &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=nl-NL) in _Video&#39;s en Tutorials van Commerce_ toepast.
 
 1. Apply a quote-level discount as needed:
 
    - [!UICONTROL Quote Totals - Negotiated Price]
 
-     ![ Verkoper voegt de korting van het citaatniveau toe ](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
+     ![&#x200B; Verkoper voegt de korting van het citaatniveau toe &#x200B;](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
 
    Het productraster wordt bijgewerkt om de korting weer te geven.
 
@@ -93,9 +93,9 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
    Voeg op het tabblad **[!UICONTROL Negotiation - Comments]** een notitie toe en voeg eventuele ondersteunende bestanden toe die vereist zijn voor de koper.
 
-   ![ Verkoper voegt informatie voor koper ](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Verkoper voegt informatie voor koper &#x200B;](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"} toe
 
-   Door gebrek, kan een [ dossier in bijlage ](configure-quotes.md) tot 2 MB, in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
+   Door gebrek, kan een [&#x200B; dossier in bijlage &#x200B;](configure-quotes.md) tot 2 MB, in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
 
 1. Add shipping address during negotiations.
 
@@ -119,7 +119,7 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Selecteer de klant-id voor een bedrijfkoper.
 
-   ![ Bevestigingsontwerp citaat dat aan koper wordt voorgelegd ](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
+   ![&#x200B; Bevestigingsontwerp citaat dat aan koper wordt voorgelegd &#x200B;](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Edit]** om de klantgegevens weer te geven.
 
@@ -127,8 +127,8 @@ Nadat u het concept-aanhalingsteken hebt gemaakt, voegt u productitems toe, past
 
 1. Bestaande aanhalingstekens van klanten weergeven door **[!UICONTROL Quotes]** te selecteren.
 
-   ![ Bevestigingsontwerp citaat dat aan koper wordt voorgelegd ](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
+   ![&#x200B; Bevestigingsontwerp citaat dat aan koper wordt voorgelegd &#x200B;](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
 
 1. Open een aanhalingsteken door **[!UICONTROL View]** te selecteren.
 
-Voor details bij het beheren van het proces van de citaatonderhandeling, zie [ een citaat bespreken ](quote-price-negotiation.md)
+Voor details bij het beheren van het proces van de citaatonderhandeling, zie [&#x200B; een citaat bespreken &#x200B;](quote-price-negotiation.md)

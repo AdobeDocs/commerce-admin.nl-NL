@@ -17,7 +17,7 @@ Wanneer toegelaten in de configuratie, voegt de bedrijfbeheerder en beheert bedr
 
 Indien nodig, kunt u een gebruiker aan meer dan één bedrijf toewijzen. Als B2B-kopers bijvoorbeeld meerdere bedrijven ondersteunen, kunt u hun gebruikersaccounts toevoegen aan alle bedrijven waarmee ze zaken doen. In de winkel kunnen kopers die aan meerdere bedrijven zijn toegewezen, schakelen tussen bedrijfsaccounts door een keuze te maken uit de beschikbare bedrijven in het menu *[!UICONTROL Company]* .
 
-![ associeerde aan Bedrijf ](./assets/company-assign-multi-switcher.png){width="700"}
+![&#x200B; associeerde aan Bedrijf &#x200B;](./assets/company-assign-multi-switcher.png){width="700"}
 
 >[!NOTE]
 >
@@ -41,13 +41,13 @@ Wanneer u een bedrijfgebruiker toevoegt, is het eerste bedrijf u met de gebruike
 
    1. Klik op **[!UICONTROL Associate to Company]** om de beschikbare bedrijven weer te geven.
 
-      ![ associeerde aan Bedrijf ](./assets/company-assign-customer-account.png){width="675"}
+      ![&#x200B; associeerde aan Bedrijf &#x200B;](./assets/company-assign-customer-account.png){width="675"}
 
       Indien nodig, filtert u de lijst door de eerste paar letters van de bedrijfsnaam in het invoervak te typen.
 
    1. Selecteer in de lijst een of meer bedrijven waaraan u de klant wilt toewijzen en klik op **[!UICONTROL Done]** .
 
-      De gebruikers van het bedrijf worden automatisch toegevoegd aan de klantengroep (of [ gedeelde catalogus ](catalog-shared.md)) voor elk bedrijf verbonden aan hun rekening.
+      De gebruikers van het bedrijf worden automatisch toegevoegd aan de klantengroep (of [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md)) voor elk bedrijf verbonden aan hun rekening.
 
    1. Voer de vereiste gegevens van de gebruikersaccount in: **[!UICONTROL First Name]**, **[!UICONTROL Last Name]** en **[!UICONTROL Email]** .
 
@@ -55,7 +55,7 @@ Wanneer u een bedrijfgebruiker toevoegt, is het eerste bedrijf u met de gebruike
 
    1. Pas de wijzigingen toe door op **[!UICONTROL Save Customer]** te klikken.
 
-      ![ het net van de Klant met bedrijftaken ](./assets/company-assign-user-assignments.png){width="675"}
+      ![&#x200B; het net van de Klant met bedrijftaken &#x200B;](./assets/company-assign-user-assignments.png){width="675"}
 
 In [!UICONTROL Customers grid] wordt een aparte rij weergegeven voor elk bedrijf waaraan de gebruiker is toegewezen. De volgende kolommen worden bijgewerkt.
 

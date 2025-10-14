@@ -18,21 +18,21 @@ Sjablonen zijn containers waarin [!DNL Page Builder] -inhoud en -lay-outs van be
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**.
 
-![ Net van Malplaatjes met duimnagelvoorproef ](./assets/templates-list.png){width="700" zoomable="yes"}
+![&#x200B; Net van Malplaatjes met duimnagelvoorproef &#x200B;](./assets/templates-list.png){width="700" zoomable="yes"}
 
 ## [!DNL Page Builder] -inhoud opslaan als een sjabloon
 
-1. Navigeer aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) en toegang tot de inhoud u als malplaatje wilt bewaren.
+1. Navigeer aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) en toegang tot de inhoud u als malplaatje wilt bewaren.
 
    Dit kan een pagina, blok, dynamisch blok, productkenmerk of categoriebeschrijving zijn.
 
 1. Klik in de rechterbovenhoek boven het werkgebied op **[!UICONTROL Save as Template]** .
 
-   ![[!DNL Page Builder] werkgebied met knop Opslaan als sjabloon ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] werkgebied met knop Opslaan als sjabloon &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    Met deze handeling wordt het dialoogvenster _[!UICONTROL Save Content as Template]_&#x200B;weergegeven.
 
-   ![[!DNL Page Builder] Het dialoogvenster Opslaan als sjabloon ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
+   ![[!DNL Page Builder] Het dialoogvenster Opslaan als sjabloon &#x200B;](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL Template Name]** een unieke naam voor de sjabloon in.
 
@@ -54,13 +54,13 @@ U kunt een sjabloon toepassen op een [!DNL Page Builder] -inhoudsgebied (pagina,
 
 1. Klik in het inhoudsgebied op **[!UICONTROL Apply Template]** rechtsboven.
 
-   ![[!DNL Page Builder] Knop Sjabloon toepassen ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Knop Sjabloon toepassen &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
 1. Kies een sjabloon in het _[!UICONTROL Apply Template]_-raster en klik op **[!UICONTROL Apply]**&#x200B;aan het einde van de rij.
 
    Als u de volledige sjabloon wilt zien, klikt u op de miniatuurafbeelding van de sjabloon. Met deze handeling wordt de afbeelding uitgebreid, zodat u de volledige sjabloon naar wens kunt bekijken.
 
-   ![[!DNL Page Builder] Sjabloonraster toepassen ](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] Sjabloonraster toepassen &#x200B;](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## Een sjabloon verwijderen
 
@@ -85,7 +85,7 @@ _pas het 1&rbrace; net van het Malplaatje {en het_ 3} paginaraster van Malplaatj
    - De sjabloonnaam (**[!UICONTROL Template Name]**)
    - Het aangewezen inhoudsgebied (**[!UICONTROL Created For]**)
 
-![[!DNL Page Builder] Sjabloonraster toepassen ](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] Sjabloonraster toepassen &#x200B;](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## Demo voor inhoudssjablonen
 

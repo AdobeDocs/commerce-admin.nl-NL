@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Een verlanglijst is een handige manier voor klanten om producten terug te roepen die ze leuk vinden, maar die niet klaar zijn om te kopen. Items van een verlanglijst kunnen met anderen worden gedeeld of aan het winkelwagentje worden toegevoegd. Als de klant meerdere verlanglijsten heeft, wordt de naam van de huidige verlanglijst boven aan de pagina weergegeven. Klanten kunnen hun verlanglijstjes beheren via hun accountdashboard. Winkelbeheerders kunnen klanten ook helpen bij het beheren van hun verlanglijstjes via de beheerdersfunctie.
 
-![ de storefront van het Voorbeeld - Mijn Lijst van wensen ](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - Mijn Lijst van wensen &#x200B;](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce steunt het gebruik van veelvoudige wenslijsten per klantenrekening.
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce steunt het gebruik van veelvoudige wenslijsten per klantenrekening.
 
-![ Magento Open Source ](../assets/open-source.svg) De basis van de code van de Magento Open Source steunt het gebruik van één enkele wensenlijst per klantenrekening.
+![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) De basis van de code van de Magento Open Source steunt het gebruik van één enkele wensenlijst per klantenrekening.
 
 ## Een verlanglijst maken
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 In de winkel kan een klant een verlanglijst maken van het dashboard van zijn account, een productpagina, een cataloguspagina en het winkelwagentje.
 
@@ -38,11 +38,11 @@ In de winkel kan een klant een verlanglijst maken van het dashboard van zijn acc
 
    >[!NOTE]
    >
-   >Het belangrijkste verschil tussen `Public` en `Private` wenst lijsten is dat de privé wensen lijsten [ niet ](wishlist-configuration.md#add-wish-list-search) doorzoekbaar door wensen lijsten zijn.
+   >Het belangrijkste verschil tussen `Public` en `Private` wenst lijsten is dat de privé wensen lijsten [&#x200B; niet &#x200B;](wishlist-configuration.md#add-wish-list-search) doorzoekbaar door wensen lijsten zijn.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   ![ creeer Nieuwe Gewenste Lijst ](./assets/account-dashboard-wishlist-create-new.png){width="700" zoomable="yes"}
+   ![&#x200B; creeer Nieuwe Gewenste Lijst &#x200B;](./assets/account-dashboard-wishlist-create-new.png){width="700" zoomable="yes"}
 
 ### Methode 2: Van de cataloguspagina
 
@@ -70,7 +70,7 @@ In de winkel kan een klant een verlanglijst maken van het dashboard van zijn acc
 
 1. Klik op **[!UICONTROL Save]** wanneer dit is voltooid.
 
-   ![ creeer Nieuwe Wenslijst van de pagina van het Detail van het Product ](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
+   ![&#x200B; creeer Nieuwe Wenslijst van de pagina van het Detail van het Product &#x200B;](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
 
 ### Methode 4: Van het winkelwagentje
 
@@ -84,7 +84,7 @@ In de winkel kan een klant een verlanglijst maken van het dashboard van zijn acc
 
 1. Klik op **[!UICONTROL Save]** wanneer dit is voltooid.
 
-![ creeer Nieuwe Lijst van de Wens van de het Winkelen pagina van de Kar ](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
+![&#x200B; creeer Nieuwe Lijst van de Wens van de het Winkelen pagina van de Kar &#x200B;](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
 
 ## De productaanbieding bijwerken
 
@@ -92,7 +92,7 @@ In de winkel kan een klant een verlanglijst maken van het dashboard van zijn acc
 
 1. Als u een **[!UICONTROL Comment]** over het product wilt toevoegen, voert u de tekst in het vak onder de prijs in.
 
-   ![ geef Opties ](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"} uit
+   ![&#x200B; geef Opties &#x200B;](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"} uit
 
 1. Als u de selectie van productopties wilt wijzigen, klikt u op **[!UICONTROL Edit]** en voert u de volgende handelingen uit:
 
@@ -117,11 +117,11 @@ In de winkel kan een klant een verlanglijst maken van het dashboard van zijn acc
 
 1. Klik op **[!UICONTROL Share Wish List]** .
 
-   ![ deel Uw Lijst van de Wens ](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
+   ![&#x200B; deel Uw Lijst van de Wens &#x200B;](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
 
-   Het bericht wordt verzonden van uw primaire [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) en omvat een duimnagelbeeld van elk product, met verbindingen aan uw opslag.
+   Het bericht wordt verzonden van uw primaire [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses) en omvat een duimnagelbeeld van elk product, met verbindingen aan uw opslag.
 
-   ![ Gedeelde E-mail van de Lijst van de Wens ](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
+   ![&#x200B; Gedeelde E-mail van de Lijst van de Wens &#x200B;](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
 ## Wenslijsten bewerken
 
@@ -129,7 +129,7 @@ Klanten kunnen hun verlanglijst op meerdere manieren wijzigen via hun accountdas
 
 ### Items naar een andere lijst verplaatsen
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 1. De klant selecteert het selectievakje van elk item dat moet worden verplaatst.
 
@@ -140,7 +140,7 @@ Klanten kunnen hun verlanglijst op meerdere manieren wijzigen via hun accountdas
 
 ### Items naar een andere lijst kopiëren
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 1. Selecteert het selectievakje van elk item dat moet worden verplaatst.
 
@@ -151,7 +151,7 @@ Klanten kunnen hun verlanglijst op meerdere manieren wijzigen via hun accountdas
 
 ## Een wenslijst verwijderen
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 1. De klant opent de lijst met wensen die u wilt verwijderen.
 
@@ -175,7 +175,7 @@ De klant doet het volgende om één item toe te voegen:
 
 ## Zoek een verlanglijst voor klanten
 
-Als de [ widget van het Onderzoek van de Lijst van de Wenslijst ](wishlist-configuration.md#add-wish-list-search) in inbegrepen in uw opslagpagina&#39;s, klanten door de naam of e-mailadres van de eigenaar van de verlanglijst kunnen zoeken.
+Als de [&#x200B; widget van het Onderzoek van de Lijst van de Wenslijst &#x200B;](wishlist-configuration.md#add-wish-list-search) in inbegrepen in uw opslagpagina&#39;s, klanten door de naam of e-mailadres van de eigenaar van de verlanglijst kunnen zoeken.
 
 1. In de zoekwidget voor wensenlijst selecteert de klant een zoekoptie.
 

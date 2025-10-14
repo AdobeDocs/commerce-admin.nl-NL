@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## [!UICONTROL SOAP Settings]
 
-![ SOAP Montages ](./assets/web-api-soap-settings.png)<!-- zoom -->
+![&#x200B; SOAP Montages &#x200B;](./assets/web-api-soap-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | Winkelweergave | Bepaalt de standaardtekenset. Indien leeg, wordt UTF-8 gebruikt. |
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 ## [!UICONTROL GraphQl Input Limits]
 
-![ Limieten van de Input GraphQl ](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
+![&#x200B; Limieten van de Input GraphQl &#x200B;](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Input Limits] | Winkelweergave | Bepaalt of de inputgrenzen voor de vraag van GraphQL worden toegelaten. Standaardwaarde: `No`. |
 | [!UICONTROL Maximum Page Size] | Winkelweergave | Hiermee stelt u het maximum aantal items in dat is toegestaan in een gepagineerd zoekresultaat in de GraphQL-reactie. Deze optie is niet beschikbaar wanneer _invoergrenzen_ = `No` toelaat. |
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Web Api Input Limits]
 
-![ de Invoergrenzen van API van het Web ](./assets/web-api-input-limits.png)<!-- zoom -->
+![&#x200B; de Invoergrenzen van API van het Web &#x200B;](./assets/web-api-input-limits.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Input Limits] | Winkelweergave | Bepaalt als de inputgrenzen voor Web API vraag worden toegelaten. Standaardwaarde: `No`. |
 | Limiet invoerlijst | Winkelweergave | Hiermee wordt het maximum aantal items ingesteld dat is toegestaan in een eigenschap voor een entiteitsarray in de API-aanvraag van het web. Deze optie is niet beschikbaar wanneer _invoergrenzen_ = `No` toelaat. |
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Web API Security]
 
-![ Web API Veiligheid ](./assets/web-api-security.png)<!-- zoom -->
+![&#x200B; Web API Veiligheid &#x200B;](./assets/web-api-security.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | Algemeen | Determines is dat gasten anoniem toegang hebben tot CMS, catalogiseren en bronnen van zowel SOAP- als REST-API&#39;s kunnen opslaan. Standaard is anonieme toegang voor gasten niet toegestaan. Opties: `Yes` / `No` |
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 ## [!UICONTROL JWT Authentication]
 
-![ JWT Authentificatie ](./assets/web-api-jwt-authentication.png)<!-- zoom -->
+![&#x200B; JWT Authentificatie &#x200B;](./assets/web-api-jwt-authentication.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Algorithm to sign/encrypt JWTs used for authentication] | Algemeen | Hiermee wordt het type JWS- of JWE-algoritme opgegeven dat wordt gebruikt voor JWT-codering (JSON Web Token) |
 | [!UICONTROL Content encryption algorithm for JWEs] | Algemeen | Hiermee geeft u het type algoritme voor inhoudscodering op dat wordt gebruikt voor JWT-codering wanneer het JWE-algoritme wordt geselecteerd. Deze optie wordt genegeerd voor JWS-algoritmen. |

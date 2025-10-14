@@ -26,7 +26,7 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [ USPS &l
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit.
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [ USPS &l
 
 1. Voer de **[!UICONTROL Maximum Package Weight]** in op basis van de vereisten van de provider.
 
-   ![ USPS het Verpakken Montages ](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
+   ![&#x200B; USPS het Verpakken Montages &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
 ## Stap 4: Afhandelingskosten instellen
 
@@ -89,7 +89,7 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
    Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` in voor 25%.
 
-   ![ de Behandelingskosten van USPS ](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
+   ![&#x200B; de Behandelingskosten van USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
 ## Stap 5: Geef de toegestane methoden en de toepasselijke landen op
 
@@ -97,7 +97,7 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
    De methoden worden onder USPS weergegeven tijdens het afrekenen. Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door USPS wilt verstrekken, plaats de vrije het verschepen opties:
+1. Als u a [&#x200B; Vrij Verschepend &#x200B;](shipping-free.md) optie door USPS wilt verstrekken, plaats de vrije het verschepen opties:
 
    - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via USPS wilt aanbieden.
 
@@ -107,14 +107,14 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als USPS niet meer beschikbaar is.
 
-   ![ USPS Toegestane Methoden ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![&#x200B; USPS Toegestane Methoden &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Ship to Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
    - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-   ![ USPS Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+   ![&#x200B; USPS Toepasselijke Landen &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Show Method if Not Applicable]** in op een van de volgende opties:
 

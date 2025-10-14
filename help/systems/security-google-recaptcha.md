@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Google reCAPTCHA
 
-[ Google reCAPTCHA ](https://developers.google.com/recaptcha) zorgt ervoor dat een mens, eerder dan een computer (of &quot;bot&quot;), met uw website in wisselwerking staat. In tegenstelling tot standaardAdobe Commerce en Magento Open Source [ CAPTCHA ](security-captcha.md), verstrekt Google reCAPTCHA verbeterde veiligheid van een selectie van verschillende vertoningsopties en methodes. Extra informatie over websiteverkeer is beschikbaar op het dashboard van uw Google reCAPTCHA-account.
+[&#x200B; Google reCAPTCHA &#x200B;](https://developers.google.com/recaptcha) zorgt ervoor dat een mens, eerder dan een computer (of &quot;bot&quot;), met uw website in wisselwerking staat. In tegenstelling tot standaardAdobe Commerce en Magento Open Source [&#x200B; CAPTCHA &#x200B;](security-captcha.md), verstrekt Google reCAPTCHA verbeterde veiligheid van een selectie van verschillende vertoningsopties en methodes. Extra informatie over websiteverkeer is beschikbaar op het dashboard van uw Google reCAPTCHA-account.
 
 Google reCAPTCHA wordt afzonderlijk geconfigureerd voor Admin en storefront.
 
-- Voor Admin, kan Google reCAPTCHA op de [ Teken binnen ](../getting-started/admin-signin.md) pagina worden gebruikt en wanneer een gebruiker om een wachtwoordteruggestelde verzoekt. Als standaardCommerce [ CAPTCHA ](security-captcha.md) ook wordt toegelaten, kan Google reCAPTCHA tezelfdertijd zonder enig probleem worden gebruikt.
+- Voor Admin, kan Google reCAPTCHA op de [&#x200B; Teken binnen &#x200B;](../getting-started/admin-signin.md) pagina worden gebruikt en wanneer een gebruiker om een wachtwoordteruggestelde verzoekt. Als standaardCommerce [&#x200B; CAPTCHA &#x200B;](security-captcha.md) ook wordt toegelaten, kan Google reCAPTCHA tezelfdertijd zonder enig probleem worden gebruikt.
 
-- Voor de opslag, kan Google reCAPTCHA worden gebruikt om binnen aan a [ klantenrekening ](../customers/customer-sign-in.md) te ondertekenen, een bericht van de [ pagina van het Contact Us ](../getting-started/store-details.md#contact-us-form), en in talrijke andere storefront plaatsen te verzenden.
+- Voor de opslag, kan Google reCAPTCHA worden gebruikt om binnen aan a [&#x200B; klantenrekening &#x200B;](../customers/customer-sign-in.md) te ondertekenen, een bericht van de [&#x200B; pagina van het Contact Us &#x200B;](../getting-started/store-details.md#contact-us-form), en in talrijke andere storefront plaatsen te verzenden.
 
-  ![ Google reCAPTCHA - klantenlogin ](./assets/customer-account-login-recaptcha.png){width="700" zoomable="yes"}
+  ![&#x200B; Google reCAPTCHA - klantenlogin &#x200B;](./assets/customer-account-login-recaptcha.png){width="700" zoomable="yes"}
 
 Google reCAPTCHA kan op verschillende manieren worden geïmplementeerd:
 
@@ -33,7 +33,7 @@ Google reCAPTCHA kan op verschillende manieren worden geïmplementeerd:
 
 >[!IMPORTANT]
 >
->Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [ Vereiste Montages PHP ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=nl-NL){:target="_blank"} in de Gids van de Installatie.
+>Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [&#x200B; Vereiste Montages PHP &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=nl-NL){:target="_blank"} in de Gids van de Installatie.
 
 ## Stap 1: Google reCAPTCHA-toetsen genereren
 
@@ -94,9 +94,9 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    - Kies bij **[!UICONTROL Theme]** het thema dat u wilt gebruiken om het vak Google reCAPTCHA op te maken. Opties: `Light Theme (default)` / `Dark Theme`
 
-   - Voor **[!UICONTROL Language Code]**, ga de twee-karaktercode in om de [ taal te specificeren die voor de tekst en het overseinen van Google reCAPTCHA ](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
+   - Voor **[!UICONTROL Language Code]**, ga de twee-karaktercode in om de [&#x200B; taal te specificeren die voor de tekst en het overseinen van Google reCAPTCHA &#x200B;](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
 
-   ![ reCAPTCHA v2 - &quot;Ik ben geen robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
+   ![&#x200B; reCAPTCHA v2 - &quot;Ik ben geen robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
 1. Als u _[!DNL reCAPTCHA v2 Invisible]_&#x200B;wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;uit en gaat u als volgt te werk:
 
@@ -108,9 +108,9 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    - Kies bij **[!UICONTROL Theme]** het thema dat u wilt gebruiken om het Google reCAPTCHA-vak op te maken. Opties: `Light Theme (default)` / `Dark Theme`
 
-   - Voor **[!UICONTROL Language Code]**, ga een twee-karaktercode in die de [ taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA ](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
+   - Voor **[!UICONTROL Language Code]**, ga een twee-karaktercode in die de [&#x200B; taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA &#x200B;](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
 
-   ![ reCAPTCHA v2 Onzichtbaar ](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
+   ![&#x200B; reCAPTCHA v2 Onzichtbaar &#x200B;](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
 1. Als u _[!DNL reCAPTCHA v3 Invisible]_&#x200B;wilt gebruiken, vouwt u de sectie **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;uit en gaat u als volgt te werk:
 
@@ -124,13 +124,13 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    - Kies bij **[!UICONTROL Theme]** het thema dat u wilt gebruiken om het Google reCAPTCHA-vak op te maken. Opties: `Light Theme (default)` / `Dark Theme`
 
-   - Voor **[!UICONTROL Language Code]**, ga een twee-karaktercode in die de [ taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA ](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
+   - Voor **[!UICONTROL Language Code]**, ga een twee-karaktercode in die de [&#x200B; taal specificeert die voor de tekst en het overseinen van Google reCAPTCHA &#x200B;](https://developers.google.com/recaptcha/docs/language) wordt gebruikt.
 
-   ![ reCAPTCHA v3 Onzichtbaar ](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
+   ![&#x200B; reCAPTCHA v3 Onzichtbaar &#x200B;](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
 
 1. Vouw **[!UICONTROL reCAPTCHA Validation Failure Messages]** uit en voer de berichten in die worden weergegeven in Beheer als de validatie mislukt of niet kan worden voltooid.
 
-   ![ reCAPTCHA Mislukt berichten ](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
+   ![&#x200B; reCAPTCHA Mislukt berichten &#x200B;](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
 
 1. Vouw de sectie **[!UICONTROL Admin Panel]** uit en configureer indien nodig het volgende:
 
@@ -138,7 +138,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
 
    - Stel **[!UICONTROL Enable for Forgot Password]** in op het reCAPTCHA-type dat u wilt gebruiken voor aanvragen voor het opnieuw instellen van wachtwoorden.
 
-   ![ reCAPTCHA admin opties ](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
+   ![&#x200B; reCAPTCHA admin opties &#x200B;](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
 
 ## Stap 3: Vorm Google reCAPTCHA voor de storefront
 
@@ -162,11 +162,11 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
+   - [!UICONTROL Enable for Create New Company Account] ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]
-   - [!UICONTROL Enable for Gift Card] ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+   - [!UICONTROL Enable for Gift Card] ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
    - [!UICONTROL Enable for Invitation Create Account]
    - [!UICONTROL Enable for Send To Friend]
    - [!UICONTROL Enable for Checkout/Placing Order]
@@ -174,7 +174,7 @@ Google reCAPTCHA vereist twee API-sleutels om in te schakelen. U kunt deze toets
    - [!UICONTROL Enable for Coupon Codes]
    - [!UICONTROL Enable for PayPal PayflowPro payment form]
 
-   ![ de optieconfiguratie van de Storefront ](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; de optieconfiguratie van de Storefront &#x200B;](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 
 ## Stap 4: Sparen de configuratie
 

@@ -17,23 +17,23 @@ Deze beschrijvingen omvatten producten, bronnen en voorraden voor een fietsbedri
 
 ## Bronnen
 
-[ de Bronnen ](sources-manage.md) zijn de fysieke plaatsen waar de productinventaris wordt beheerd en voor ordevervulling verscheept of waar de diensten beschikbaar zijn. Deze locaties kunnen opslagplaatsen, baksteen- en mortierwinkels, distributiecentra en slagschepen omvatten. [!DNL Commerce] gebruikt de hoeveelheden en de verkoopbare hoeveelheden per voorraad en beheert de inventarisbedragen automatisch voor beheerde producten en bestellingen. Als u één bron hebt, wordt u overwogen op _enig-bron_ wijze. Als u veelvoudige bronnen hebt, wordt u overwogen op _multi-source_ wijze.
+[&#x200B; de Bronnen &#x200B;](sources-manage.md) zijn de fysieke plaatsen waar de productinventaris wordt beheerd en voor ordevervulling verscheept of waar de diensten beschikbaar zijn. Deze locaties kunnen opslagplaatsen, baksteen- en mortierwinkels, distributiecentra en slagschepen omvatten. [!DNL Commerce] gebruikt de hoeveelheden en de verkoopbare hoeveelheden per voorraad en beheert de inventarisbedragen automatisch voor beheerde producten en bestellingen. Als u één bron hebt, wordt u overwogen op _enig-bron_ wijze. Als u veelvoudige bronnen hebt, wordt u overwogen op _multi-source_ wijze.
 
 Een bron kan voorrang hebben in de omvang van de voorraad in één entrepot, maar niet noodzakelijkerwijs in alle entrepots, aangezien de bron in verschillende voorraden kan worden hergebruikt. Het aantal voorraden en bronnen vergroot de complexiteit om te bepalen wat het beste pakhuis of de beste opslagplaats is om een bestelling uit te voeren. U hebt bijvoorbeeld een beperkt aantal producten beschikbaar op uw baksteen- en mortierlocaties met een uitgebreide voorraad in uw pakhuizen en services op belangrijke locaties met beperkte beschikbaarheid.
 
 In dit voorbeeld beschikt de handelaar over een bergfiets die kan worden verzonden vanuit winkels, opslagplaatsen en een verlopende scheepsbevrachter.
 
-![ Bronsdiagram van het Voorbeeld ](assets/diagram-sources.png){width="600" zoomable="yes"}
+![&#x200B; Bronsdiagram van het Voorbeeld &#x200B;](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 ## Voorraden
 
-[ Voorraden ](stocks-manage.md) vertegenwoordigen een virtuele, bijeengevoegde inventaris van producten beschikbaar voor verkoop aan uw verkoopkanalen (websites). Elke voorraad wijst uw verkoopkanalen met bronnen voor beschikbare inventarissen en verkoopbare hoeveelheden in kaart. Afhankelijk van uw plaatsconfiguratie, kan de voorraad aan één of meerdere verkoopkanalen en bronnen worden toegewezen.
+[&#x200B; Voorraden &#x200B;](stocks-manage.md) vertegenwoordigen een virtuele, bijeengevoegde inventaris van producten beschikbaar voor verkoop aan uw verkoopkanalen (websites). Elke voorraad wijst uw verkoopkanalen met bronnen voor beschikbare inventarissen en verkoopbare hoeveelheden in kaart. Afhankelijk van uw plaatsconfiguratie, kan de voorraad aan één of meerdere verkoopkanalen en bronnen worden toegewezen.
 
-Sales Channel vertegenwoordigen entiteiten die uw voorraad verkopen, zoals websites, winkelweergaven, B2B-klantgroepen enzovoort. Verkoopkanalen kunnen slechts aan één voorraad worden gekoppeld. Aan elk verkoopkanaal kan slechts één voorraad worden toegewezen en aan meerdere websites kan één voorraad worden toegewezen. Door de voorraad, kunt u de prioritering van gebruikte bronnen wijzigen wanneer het verschepen van orden en door het [ Algoritme van de Selectie van Source ](selection-reservations.md).
+Sales Channel vertegenwoordigen entiteiten die uw voorraad verkopen, zoals websites, winkelweergaven, B2B-klantgroepen enzovoort. Verkoopkanalen kunnen slechts aan één voorraad worden gekoppeld. Aan elk verkoopkanaal kan slechts één voorraad worden toegewezen en aan meerdere websites kan één voorraad worden toegewezen. Door de voorraad, kunt u de prioritering van gebruikte bronnen wijzigen wanneer het verschepen van orden en door het [&#x200B; Algoritme van de Selectie van Source &#x200B;](selection-reservations.md).
 
 U begint met een standaardvoorraad die is toegewezen met de standaard-Source en uw website. Deze wordt het beste gebruikt door single-source-handelaren. Alleen de standaard Source kan aan deze voorraad worden toegewezen. Multikobron-handelaren maken waar nodig aangepaste voorraden voor aangepaste bronnen en websites.
 
-![ Diagram voor bijvoorbeeld voorraden voor een opslag ](assets/diagram-stock.png){width="600" zoomable="yes"}
+![&#x200B; Diagram voor bijvoorbeeld voorraden voor een opslag &#x200B;](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## Producthoeveelheden
 
@@ -46,11 +46,11 @@ De reserves volgen voorraadverzoeken voor het volledige het winkelen proces-toev
 
 Met Aankoopbare hoeveelheid wordt de virtuele inventaris van producten (of beschikbaarheid) berekend aan de hand van geconfigureerde drempelwaarden, gereserveerde of verkochte hoeveelheden en hoeveelheden per bron. Voor elke voorraad heeft [!DNL Commerce] toegang tot alle toegewezen bronnen en bijbehorende producthoeveelheden als aggregaat. Met deze basiswaarde worden vervolgens alle reserveringsbedragen en de drempelwaarde _[!UICONTROL Notify for Quantity Below]_&#x200B;afgetrokken.
 
-![ Berekend de verkoopbare hoeveelheid voor een voorraad ](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
+![&#x200B; Berekend de verkoopbare hoeveelheid voor een voorraad &#x200B;](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 
 ## Voorraadconfiguraties
 
-Elk product, bron, en voorraad omvat verscheidene opties om voor uw opslag op het globale, bron, voorraad, en productniveau te vormen. Voor een volledige lijst van deze opties, verwijs naar [ het Vormen Inventory management ](configuration.md).
+Elk product, bron, en voorraad omvat verscheidene opties om voor uw opslag op het globale, bron, voorraad, en productniveau te vormen. Voor een volledige lijst van deze opties, verwijs naar [&#x200B; het Vormen Inventory management &#x200B;](configuration.md).
 
 De volgende belangrijke opties zijn belangrijk voor [!DNL Inventory Management]:
 

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Een gedeelde catalogus maken
 
-Wanneer a [ gedeelde catalogus ](catalog-shared.md) wordt gecreeerd, leidt het systeem automatisch tot de groep van de a [ klant ](account-company-customer-group.md) door de zelfde naam. Bijvoorbeeld, als u een gedeelde catalogus genoemd _ABC Catalogus_ creeert, leidt het systeem ook tot een overeenkomstige _ABC Catalogus_ klantengroep. Het toewijzen van een bedrijf aan de gedeelde douanecatalogus is hoofdzakelijk het zelfde als het toewijzen van hen aan een klantengroep.
+Wanneer a [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md) wordt gecreeerd, leidt het systeem automatisch tot de groep van de a [&#x200B; klant &#x200B;](account-company-customer-group.md) door de zelfde naam. Bijvoorbeeld, als u een gedeelde catalogus genoemd _ABC Catalogus_ creeert, leidt het systeem ook tot een overeenkomstige _ABC Catalogus_ klantengroep. Het toewijzen van een bedrijf aan de gedeelde douanecatalogus is hoofdzakelijk het zelfde als het toewijzen van hen aan een klantengroep.
 
 Een nieuwe gedeelde catalogus bevat geen producten, aangepaste prijzen of bedrijfskoppelingen. Een openbare catalogus, de standaard gedeelde catalogus die wordt gemaakt wanneer gedeelde catalogi worden ingeschakeld, wordt automatisch toegewezen aan gasten en aan klanten die niet aan een bedrijf zijn gekoppeld.
 
-![ Gedeelde Catalogi ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
+![&#x200B; Gedeelde Catalogi &#x200B;](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
 Voordat een gedeelde catalogus kan worden gebruikt, moet u de volgende aspecten instellen:
 
@@ -28,19 +28,19 @@ Voordat een gedeelde catalogus kan worden gebruikt, moet u de volgende aspecten 
 
 ## Prijsbereik
 
-Als u een installatie met meerdere sites hebt, moet u het prijsbereik configureren voordat u gedeelde catalogi maakt. Het [ prijswerkingsgebied ](../catalog/catalog-price-scope.md) kan aan `Global` of `Website` worden geplaatst. Deze kan echter alleen aan het begin van het installatieproces worden ingesteld. De website verkiest verschijnt tijdens stap 2 van de [ gedeelde catalogusopstelling ](catalog-shared-pricing-structure.md).
+Als u een installatie met meerdere sites hebt, moet u het prijsbereik configureren voordat u gedeelde catalogi maakt. Het [&#x200B; prijswerkingsgebied &#x200B;](../catalog/catalog-price-scope.md) kan aan `Global` of `Website` worden geplaatst. Deze kan echter alleen aan het begin van het installatieproces worden ingesteld. De website verkiest verschijnt tijdens stap 2 van de [&#x200B; gedeelde catalogusopstelling &#x200B;](catalog-shared-pricing-structure.md).
 
-![ Kiezer van de Website ](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
+![&#x200B; Kiezer van de Website &#x200B;](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. In het linkerpaneel, breid **Catalogus** uit en kies **Catalogus** onderaan.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **sectie van de Prijs**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **sectie van de Prijs**.
 
 1. Plaats **het Toepassingsgebied van de Prijs van de Catalogus** aan `Website`.
 
-   ![ Reikwijdte van de Catalogusprijs ](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![&#x200B; Reikwijdte van de Catalogusprijs &#x200B;](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -62,11 +62,11 @@ Er zijn twee manieren om een gedeelde catalogus te maken. U kunt een gedeelde ca
 
    - Kies de juiste **[!UICONTROL Customer Tax Class]** die van toepassing is op aankopen die vanuit de gedeelde catalogus worden gedaan.
 
-     Voor meer informatie over de opstelling en de definitie van de belastingklasse, zie [ de klassen van de Belasting ](../stores-purchase/tax-class.md).
+     Voor meer informatie over de opstelling en de definitie van de belastingklasse, zie [&#x200B; de klassen van de Belasting &#x200B;](../stores-purchase/tax-class.md).
 
      Het volgende voorbeeld toont een nieuwe douanecatalogus voor een specifieke groothandelsklant.
 
-     ![ Nieuwe Gedeelde Catalogus ](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
+     ![&#x200B; Nieuwe Gedeelde Catalogus &#x200B;](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
    - Enter **[!UICONTROL Description]**
 
@@ -86,7 +86,7 @@ Als een openbare gedeelde catalogus wordt gedupliceerd, verandert het type van d
 
 1. Klik op **[!UICONTROL Duplicate]** in de opties boven aan de pagina.
 
-   ![ Dubbele Gedeelde Catalogus ](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; Dubbele Gedeelde Catalogus &#x200B;](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
 
 1. Werk de volgende velden voor de nieuwe catalogus bij:
 
@@ -101,11 +101,11 @@ Als een openbare gedeelde catalogus wordt gedupliceerd, verandert het type van d
 
 ## Stap 2: De installatie voltooien
 
-Na het creëren van een nieuwe gedeelde catalogus, moet het met de aangewezen productselectie worden gevormd, [ bedrijftaken ](catalog-shared-assign-companies.md), en [ categorietoestemmingen ](../catalog/category-permissions.md). Om verder te gaan, zie [ Vastgestelde tarifering en structuur ](catalog-shared-pricing-structure.md).
+Na het creëren van een nieuwe gedeelde catalogus, moet het met de aangewezen productselectie worden gevormd, [&#x200B; bedrijftaken &#x200B;](catalog-shared-assign-companies.md), en [&#x200B; categorietoestemmingen &#x200B;](../catalog/category-permissions.md). Om verder te gaan, zie [&#x200B; Vastgestelde tarifering en structuur &#x200B;](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >
->**[B2B versie 1.3.0 ](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [ categorietoestemming ](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
+>**[B2B versie 1.3.0 &#x200B;](release-notes.md#b2b-v130) en later** - wanneer u een gedeelde catalogus creeert, wordt elk [&#x200B; categorietoestemming &#x200B;](../catalog/category-permissions.md) voor de catalogus geplaatst aan _[!UICONTROL Allow for the Display Product Prices]_&#x200B;en&#x200B;_[!UICONTROL Add to Cart]_ voor klantengroepen die deze toegang in de montages van de catalogustoestemming worden toegewezen. Eerder werden deze instellingen automatisch ingesteld op `Deny` , zelfs als catalogusmachtigingen waren ingesteld op `Allow` .
 
 ## Demo van gedeelde catalogus
 

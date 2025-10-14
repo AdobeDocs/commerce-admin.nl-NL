@@ -18,19 +18,19 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [ Gids van de Gebruiker van Adobe Commerce B2B ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [&#x200B; Gids van de Gebruiker van Adobe Commerce B2B &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 >[!NOTE]
 >
->De toegang tot deze configuratieopties voor B2B eigenschappen wordt gecontroleerd door de [ rolmiddelen ](../../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de gebruikersrol worden geplaatst die aan de gebruiker Admin wordt toegewezen.
+>De toegang tot deze configuratieopties voor B2B eigenschappen wordt gecontroleerd door de [&#x200B; rolmiddelen &#x200B;](../../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de gebruikersrol worden geplaatst die aan de gebruiker Admin wordt toegewezen.
 
-Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen B2B ](../../b2b/enable-basic-features.md) toelaten in de _Gids van de Gebruiker van Adobe Commerce B2B_.
+Voor meer informatie over het vormen van deze montages, zie [&#x200B; Basiseigenschappen B2B &#x200B;](../../b2b/enable-basic-features.md) toelaten in de _Gids van de Gebruiker van Adobe Commerce B2B_.
 
 ## [!UICONTROL General]
 
-![ Algemeen ](./assets/company-general.png)<!-- zoom -->
+![&#x200B; Algemeen &#x200B;](./assets/company-general.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Website | Bepaalt als de bezoekers aan uw opslag de keus hebben om [&#128279;](../../customers/customer-sign-in.md) voor een bedrijfrekening of een individuele rekening te registreren. Opties: `Yes` / `No` |
 
@@ -38,9 +38,9 @@ Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen
 
 ## [!UICONTROL Email Options - Company Registration]
 
-![ E-mailopties - de Registratie van het Bedrijf ](./assets/company-email-options-company-registration.png)<!-- zoom -->
+![&#x200B; E-mailopties - de Registratie van het Bedrijf &#x200B;](./assets/company-email-options-company-registration.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Company Registration Email Recipient] | Winkelweergave | De contactpersoon van de winkel die op de hoogte wordt gesteld wanneer een registratieverzoek van het bedrijf wordt ingediend bij de winkel. Opties: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Registration Email Copy To] | Winkelweergave | Het e-mailadres van elke persoon die een kopie van de registratiekennisgeving moet ontvangen. Scheid meerdere e-mailadressen met een komma. |
@@ -51,9 +51,9 @@ Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen
 
 ## [!UICONTROL Customer-Related Emails]
 
-![ klant-Verwante E-mail ](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![&#x200B; klant-Verwante E-mail &#x200B;](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Default 'Sales Rep Assigned' Email] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer een verkoper wordt toegewezen aan een bedrijfsaccount. Dit e-mailbericht wordt verzonden naar de vertegenwoordiger en de beheerder van het bedrijf. Standaardsjabloon: `Sales Representative Assigned to Company` |
 | [!UICONTROL Default 'Assign Company to Customer' Email] | Winkelweergave | Het e-mailmalplaatje dat door gebrek wordt gebruikt wanneer een individuele klantenrekening aan een bedrijfrekening wordt toegewezen. Dit e-mailbericht wordt alleen naar de klant verzonden. Standaardsjabloon: `Assign Company to Customer` |
@@ -67,9 +67,9 @@ Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen
 
 ## [!UICONTROL Company Status Change]
 
-![ Verandering van de Status van het Bedrijf ](./assets/company-email-options-company-status-change.png)<!-- zoom -->
+![&#x200B; Verandering van de Status van het Bedrijf &#x200B;](./assets/company-email-options-company-status-change.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | Winkelweergave | Het opslagcontact dat wordt meegedeeld wanneer de status van een bedrijf verandert. Opties: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Status Change Email Copy To] | Winkelweergave | Het e-mailadres van elke persoon die een kopie van het bericht over de wijziging van de bedrijfsstatus moet ontvangen. Scheid meerdere e-mailadressen met een komma. |
@@ -84,16 +84,16 @@ Voor meer informatie over het vormen van deze montages, zie [ Basiseigenschappen
 
 ## [!UICONTROL Company Credit]
 
-![ Krediet van het Bedrijf ](./assets/company-email-options-company-credit.png)<!-- zoom -->
+![&#x200B; Krediet van het Bedrijf &#x200B;](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Company Credit Change Email Sender] | Winkelweergave | De contactpersoon van de winkel die op de hoogte wordt gesteld wanneer er een wijziging optreedt in het krediet van een bedrijf. Opties: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Credit Change Email Copy To] | Winkelweergave | Het e-mailadres van elke persoon die een kopie van de kennisgeving van wijziging van het bedrijfskrediet moet ontvangen. Scheid meerdere e-mailadressen met een komma. |
 | [!UICONTROL Send Email Copy Method] | Winkelweergave | De e-mailmethode die wordt gebruikt om de kopie van het bericht over de wijziging van het creditcard te verzenden. Opties: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer bedrijfskrediet wordt toegewezen. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer de kredietlimiet van een bedrijf wordt bijgewerkt. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Winkelweergave | Het e-mailmalplaatje dat door gebrek wordt gebruikt wanneer a [ terugbetaling ](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) aan bedrijfskrediet wordt gemaakt. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Winkelweergave | Het e-mailmalplaatje dat door gebrek wordt gebruikt wanneer a [&#x200B; terugbetaling &#x200B;](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) aan bedrijfskrediet wordt gemaakt. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer een bedrag uit een bestelling wordt terugbetaald aan bedrijfskrediet. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Winkelweergave | De e-mailsjabloon die standaard wordt gebruikt wanneer een bestelling wordt teruggezet naar bedrijfskrediet. Deze e-mail wordt verzonden naar de bedrijfbeheerder. Standaardsjabloon: `Order Reverted to Company Credit` |
 

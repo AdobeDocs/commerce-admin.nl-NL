@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice]
 
-![ Factuur ](./assets/pdf-print-invoice.png)<!-- zoom -->
+![&#x200B; Factuur &#x200B;](./assets/pdf-print-invoice.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van facturen ter referentie. Opties: `Yes` / `No` |
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment]
 
-![ Verzending ](./assets/pdf-print-shipment.png)<!-- zoom -->
+![&#x200B; Verzending &#x200B;](./assets/pdf-print-shipment.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id ter referentie op in de koptekst van de schuifregelaars voor het verpakken van de zending. Opties: `Yes` / `No` |
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo]
 
-![ Memo van het Krediet ](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![&#x200B; Memo van het Krediet &#x200B;](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Winkelweergave | Neemt de Order-id op in de koptekst van creditnota&#39;s ter referentie. Opties: `Yes` / `No` |
 

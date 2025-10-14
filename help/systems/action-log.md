@@ -14,17 +14,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De functie Logs van de Actie registreert (registreert) elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. Zo kunt u alle wijzigingen bijhouden die in uw winkel zijn aangebracht. Het volgen van deze veranderingen, samen met het plaatsen van [ toestemmingen Admin ](permissions.md) voor een gebruiker, kan helpen om uw opslag tegen ongewenste veranderingen te beveiligen.
+De functie Logs van de Actie registreert (registreert) elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. Zo kunt u alle wijzigingen bijhouden die in uw winkel zijn aangebracht. Het volgen van deze veranderingen, samen met het plaatsen van [&#x200B; toestemmingen Admin &#x200B;](permissions.md) voor een gebruiker, kan helpen om uw opslag tegen ongewenste veranderingen te beveiligen.
 
 Voor de meeste Admin-acties bevat de geregistreerde informatie de actie, de naam van de gebruiker, het al dan niet slagen van de actie en de id van het object dat door de actie wordt beïnvloed. Het IP adres en de datum worden ook geregistreerd.
 
 Standaard worden alle beheeracties ingeschakeld en geregistreerd. Als u Logboekregistratie voor beheeracties wilt configureren, controleert u de opties en schakelt u het selectievakje voor elk actietype in of uit. Adobe Commerce logt alleen geselecteerde typen in.
 
-Bekijk het [ Logs Rapport van de Actie ](action-log-report.md) aan overzicht geregistreerde admin acties en details.
+Bekijk het [&#x200B; Logs Rapport van de Actie &#x200B;](action-log-report.md) aan overzicht geregistreerde admin acties en details.
 
-![ Geavanceerde configuratie - admin acties registreren ](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
+![&#x200B; Geavanceerde configuratie - admin acties registreren &#x200B;](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
-Voor een gedetailleerde lijst van de configuratiemontages, zie [ Logarchivering van Acties Admin ](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
+Voor een gedetailleerde lijst van de configuratiemontages, zie [&#x200B; Logarchivering van Acties Admin &#x200B;](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 
 ## Beheerdersacties configureren voor logbestanden
 
@@ -32,7 +32,7 @@ Voor een gedetailleerde lijst van de configuratiemontages, zie [ Logarchivering 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Logging]** sectie uit en doe het volgende voor elke actie:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Logging]** sectie uit en doe het volgende voor elke actie:
 
    - Schakel het selectievakje in om het aanmelden bij Admin voor de handeling in te schakelen.
    - Schakel het selectievakje uit om het aanmelden bij Admin voor de handeling uit te schakelen.

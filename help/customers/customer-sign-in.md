@@ -12,24 +12,24 @@ ht-degree: 0%
 
 # Aanmelden bij klant
 
-Klanten hebben gemakkelijk toegang tot hun accounts vanaf elke pagina in uw winkel. Afhankelijk van de [ configuratie ](../customers/account-options-new.md), kunnen de klanten aan hun rekeningsdashboard worden opnieuw gericht, of blijven het winkelen nadat zij login aan hun rekeningen.
+Klanten hebben gemakkelijk toegang tot hun accounts vanaf elke pagina in uw winkel. Afhankelijk van de [&#x200B; configuratie &#x200B;](../customers/account-options-new.md), kunnen de klanten aan hun rekeningsdashboard worden opnieuw gericht, of blijven het winkelen nadat zij login aan hun rekeningen.
 
-Als [ CAPTCHA ](../systems/security-captcha.md) in de configuratie wordt toegelaten, moet de persoon een test correct voltooien die hen verifieert om menselijk te zijn, alvorens toegang tot hun rekeningen te verkrijgen.
+Als [&#x200B; CAPTCHA &#x200B;](../systems/security-captcha.md) in de configuratie wordt toegelaten, moet de persoon een test correct voltooien die hen verifieert om menselijk te zijn, alvorens toegang tot hun rekeningen te verkrijgen.
 
-Wanneer klanten hun wachtwoorden vergeten, wordt een koppeling om de instellingen opnieuw in te stellen verzonden naar het e-mailadres dat aan het account is gekoppeld. De [ Opties van het Wachtwoord ](../customers/password-options.md) configuratie controleert de klantenervaring voor login pogingen:
+Wanneer klanten hun wachtwoorden vergeten, wordt een koppeling om de instellingen opnieuw in te stellen verzonden naar het e-mailadres dat aan het account is gekoppeld. De [&#x200B; Opties van het Wachtwoord &#x200B;](../customers/password-options.md) configuratie controleert de klantenervaring voor login pogingen:
 
 - Het aantal keren dat een klant kan proberen een wachtwoord in te voeren
 - Het aantal minuten tussen pogingen
 - Het aantal pogingen voordat de account is vergrendeld
 - De lengte van de vergrendeling
 
-![ Teken in verbinding op de storefront kopbal ](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![&#x200B; Teken in verbinding op de storefront kopbal &#x200B;](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## Aanmelden bij een klantenaccount
 
 1. In de koptekst van de winkel klikt de klant op **[!UICONTROL Sign in]** .
 
-   ![ Login van de Klant ](assets/login.png){width="700" zoomable="yes"}
+   ![&#x200B; Login van de Klant &#x200B;](assets/login.png){width="700" zoomable="yes"}
 
 1. Voer hun **[!UICONTROL Email]** adres en **[!UICONTROL Password]** in.
 
@@ -37,7 +37,7 @@ Wanneer klanten hun wachtwoorden vergeten, wordt een koppeling om de instellinge
 
    >[!IMPORTANT]
    >
-   >Als zij hun wachtwoord niet kunnen herinneren, kan de klant **[!UICONTROL Forgot Your Password?]** klikken en de [ instructies ](../customers/password-reset.md) volgen om het wachtwoord terug te stellen.
+   >Als zij hun wachtwoord niet kunnen herinneren, kan de klant **[!UICONTROL Forgot Your Password?]** klikken en de [&#x200B; instructies &#x200B;](../customers/password-reset.md) volgen om het wachtwoord terug te stellen.
 
 ## Omleiding naar het accountdashboard instellen na aanmelding bij de klant
 
@@ -64,11 +64,11 @@ Voor winkels met een geconfigureerde [!DNL Amazon Pay] en [!DNL Login with Amazo
 
 1. Klik op **[!UICONTROL Login with Amazon]** .
 
-   ![ Login met Amazon ](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![&#x200B; Login met Amazon &#x200B;](assets/amazon-pay.png){width="700" zoomable="yes"}
 
 1. Wanneer de klant wordt gevraagd zich aan te melden, voert hij de **[!UICONTROL email address]** en **[!UICONTROL password]** in voor zijn Amazon-kopersaccount.
 
-   ![ het ingaan van de geloofsbrieven van Amazon ](assets/amazon-popup1.png){width="700" zoomable="yes"}
+   ![&#x200B; het ingaan van de geloofsbrieven van Amazon &#x200B;](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
 1. Om de toestemming van Amazon te verlenen om de volgende informatie van hun rekening met de opslag te delen wanneer het verwerken van aankopen, klikt **Oke**.
 
@@ -76,7 +76,7 @@ Voor winkels met een geconfigureerde [!DNL Amazon Pay] en [!DNL Login with Amazo
    - E-mailadres
    - Verzendadressen
 
-   ![ Toestemming van de Verlening om Gegevens ](assets/amazon-popup2.png){width="700" zoomable="yes"} te delen
+   ![&#x200B; Toestemming van de Verlening om Gegevens &#x200B;](assets/amazon-popup2.png){width="700" zoomable="yes"} te delen
 
 ## Afmelden bij een klantenaccount
 

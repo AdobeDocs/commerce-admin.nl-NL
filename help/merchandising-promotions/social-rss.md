@@ -16,17 +16,17 @@ Veel handelaren gebruiken sociale media en andere digitale hulpmiddelen om merk-
 
 ## Sociale netwerken
 
-Uw opslag kan met sociale netwerken worden verbonden door de uitbreiding van de a [ Marketplace ](../getting-started/commerce-marketplace.md) te installeren. Bovendien kunt u sociale stoppen zoals _gemakkelijk toevoegen als_ knoop aan blokken CMS die in pagina&#39;s door uw opslag kunnen worden opgenomen.
+Uw opslag kan met sociale netwerken worden verbonden door de uitbreiding van de a [&#x200B; Marketplace &#x200B;](../getting-started/commerce-marketplace.md) te installeren. Bovendien kunt u sociale stoppen zoals _gemakkelijk toevoegen als_ knoop aan blokken CMS die in pagina&#39;s door uw opslag kunnen worden opgenomen.
 
 De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakkelijk aan uw opslag kunnen worden toegevoegd. Daarnaast bevat de Commerce Marketplace veel extensies die u kunt gebruiken om uw winkel te integreren met sociale media. Het volgende voorbeeld toont hoe te om een Facebook _als_ knoop aan uw opslag toe te voegen.
 
 >[!NOTE]
 >
->Adobe Commerce heeft de inheemse _integratie van Facebook van het Magento Sociale_ verwijderd en steunt niet meer de uitbreiding. Ga naar de [ Commerce Marketplace ](https://marketplace.magento.com/catalogsearch/result/?q=Facebook) {:target= &quot;_blank&quot;} om van alternatieve uitbreidingen voor de integratie van Facebook de plaats te bepalen.
+>Adobe Commerce heeft de inheemse _integratie van Facebook van het Magento Sociale_ verwijderd en steunt niet meer de uitbreiding. Ga naar de [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/catalogsearch/result/?q=Facebook) {:target= &quot;_blank&quot;} om van alternatieve uitbreidingen voor de integratie van Facebook de plaats te bepalen.
 
 ### Stap 1. De knopcode ophalen
 
-1. Voor de website van de ontwikkelaars van Meta, ga naar de [ pagina van de knoopopstelling ](https://developers.facebook.com/docs/plugins/like-button).
+1. Voor de website van de ontwikkelaars van Meta, ga naar de [&#x200B; pagina van de knoopopstelling &#x200B;](https://developers.facebook.com/docs/plugins/like-button).
 
 1. Voor **[!UICONTROL URL to Like]**, ga URL van de pagina in uw opslag in die u mensen _als_ wilt houden.
 
@@ -63,7 +63,7 @@ De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakke
 
 1. Voeg het codefragment toe aan de blokinhoud, afhankelijk van het gereedschap Inhoud:
 
-   - Wanneer het gebruiken van [!DNL Page Builder], voeg een [ HTML codeblok ](../page-builder/html-code.md) aan het stadium toe en kleef het fragment van code die u van de plaats van Facebook kopieerde. Anders plakt u het codefragment in het vak **[!UICONTROL Content]** .
+   - Wanneer het gebruiken van [!DNL Page Builder], voeg een [&#x200B; HTML codeblok &#x200B;](../page-builder/html-code.md) aan het stadium toe en kleef het fragment van code die u van de plaats van Facebook kopieerde. Anders plakt u het codefragment in het vak **[!UICONTROL Content]** .
 
    - Plak met de editor het codefragment dat u van de Facebook-site hebt gekopieerd naar het vak **[!UICONTROL Content]** .
 
@@ -75,13 +75,13 @@ De sociale voorzien van een netwerkplaatsen hebben talrijke stop-ins die gemakke
 
 1. Voeg het blok toe, afhankelijk van het inhoudsgereedschap:
 
-   - Wanneer het gebruiken van [!UICONTROL Page Builder], volg de instructies aan [ voeg het blok ](../page-builder/block.md) aan het stadium toe.
+   - Wanneer het gebruiken van [!UICONTROL Page Builder], volg de instructies aan [&#x200B; voeg het blok &#x200B;](../page-builder/block.md) aan het stadium toe.
 
    - Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Widget]** en voer de volgende handelingen uit:
 
-   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts) in de _sectie van Montages_, plaats **[!UICONTROL Type]** aan `CMS Static Block` en klik **[!UICONTROL Continue]**.
+   - ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts) in de _sectie van Montages_, plaats **[!UICONTROL Type]** aan `CMS Static Block` en klik **[!UICONTROL Continue]**.
 
    - Controleer of **[!UICONTROL Design Theme]** is ingesteld op het huidige thema.
 
@@ -129,11 +129,11 @@ RSS (Echt Eenvoudige Syndicatie) is een op XML-Gebaseerd gegevensformaat dat wor
 
 Wanneer RSS-feeds zijn ingeschakeld, worden eventuele toevoegingen aan producten, specials, categorieën en coupons automatisch naar de abonnees van elke feed verzonden. Een koppeling naar alle RSS-feeds die u publiceert, staat in de voettekst van uw winkel.
 
-![ RSS voederpictogram ](./assets/icon-rss.png){width="100"}<br/>
+![&#x200B; RSS voederpictogram &#x200B;](./assets/icon-rss.png){width="100"}<br/>
 
 De software die nodig is om een RSS-feed te lezen, wordt een feed-lezer genoemd en stelt mensen in staat zich te abonneren op koppen, blogs, podcasts en nog veel meer. Google Reader is een van de vele feed-lezers die gratis online beschikbaar zijn.
 
-![ storefront van het Voorbeeld - voer RSS ](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![&#x200B; storefront van het Voorbeeld - voer RSS &#x200B;](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### Voordelen van het opzetten van een RSS-feed
 
@@ -166,24 +166,24 @@ De software die nodig is om een RSS-feed te lezen, wordt een feed-lezer genoemd 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL RSS Feeds]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Rss Config]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Rss Config]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
 
-   ![ configuratie van de Catalogus - het voer van RSS ](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - het voer van RSS &#x200B;](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    Schakel indien nodig het selectievakje **[!UICONTROL Use Default]** uit om de standaardwaarde te wijzigen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Wish List]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Wish List]** sectie uit en reeks **[!UICONTROL Enable RSS]** aan `Enable`.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Catalog]** sectie uit en plaats andere voer aan `Enable` zoals nodig.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Catalog]** sectie uit en plaats andere voer aan `Enable` zoals nodig.
 
    - **[!UICONTROL New Products]**
    - **[!UICONTROL Special Products]**
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![ Catalogus - RSS voer montages ](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![&#x200B; Catalogus - RSS voer montages &#x200B;](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit en reeks **[!UICONTROL Customer Order Status Notification]** aan `Enable`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit en reeks **[!UICONTROL Customer Order Status Notification]** aan `Enable`.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het bulkactielogboek registreert de details van asynchrone massaverrichtingen die op de achtergrond, zoals de invoer/de uitvoer lopen of [ douaneprijzen ](../b2b/catalog-shared-manage.md#update-custom-pricing) toewijst aan veelvoudige producten in a [ gedeelde catalogus ](../b2b/catalog-shared.md).
+Het bulkactielogboek registreert de details van asynchrone massaverrichtingen die op de achtergrond, zoals de invoer/de uitvoer lopen of [&#x200B; douaneprijzen &#x200B;](../b2b/catalog-shared-manage.md#update-custom-pricing) toewijst aan veelvoudige producten in a [&#x200B; gedeelde catalogus &#x200B;](../b2b/catalog-shared.md).
 
-![ Bulk actielogboek ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![&#x200B; Bulk actielogboek &#x200B;](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Handelingen voor bulkgoederen configureren
 
@@ -24,11 +24,11 @@ Het bulkactielogboek registreert de details van asynchrone massaverrichtingen di
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Bulk Actions]** sectie uit en plaats de logboek sparen optie:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Bulk Actions]** sectie uit en plaats de logboek sparen optie:
 
    **[!UICONTROL Days Saved in Log]** — Voer het aantal dagen in waarop bulkacties worden opgeslagen in een logboek.
 
-   ![ Geavanceerde configuratie - bulkacties ](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - bulkacties &#x200B;](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van de configuratiemontages, zie [_Bulk Acties_](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 

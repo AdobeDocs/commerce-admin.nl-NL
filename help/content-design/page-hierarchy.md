@@ -18,19 +18,19 @@ Het hiërarchiestelsel van de archiefpagina geeft u de capaciteit om uw inhoudsp
 
 Het systeem van de paginahiërarchie gebruikt knopen om verwante stukken van inhoud te identificeren, en inhoudspagina&#39;s in ouder/kindverhoudingen te organiseren. Een bovenliggend knooppunt is een map die onderliggende knooppunten en pagina&#39;s kan bevatten. De relatieve positie van elke knoop en pagina in de hiërarchie wordt getoond als a _boom_ structuur. Een knooppunt kan andere knooppunten en inhoudspagina&#39;s bevatten en één inhoudspagina kan aan meerdere knooppunten en andere inhoudspagina&#39;s in een bovenliggend/onderliggend of buurrelatie worden gekoppeld.
 
-![ Pagina met linkernavigatie ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![&#x200B; Pagina met linkernavigatie &#x200B;](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## Paginahiërarchie configureren
 
 Met de configuratie-instellingen activeert u het systeem en de metagegevens van de paginahiërarchie en bepaalt u de standaardmenulay-out.
 
-![ de Hiërarchie van de Pagina van CMS ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
+![&#x200B; de Hiërarchie van de Pagina van CMS &#x200B;](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** uit en breng om het even welke veranderingen aan die noodzakelijk zijn.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** uit en breng om het even welke veranderingen aan die noodzakelijk zijn.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -48,15 +48,15 @@ In het volgende voorbeeld ziet u hoe u een knooppunt maakt met eenvoudige naviga
 
 Bijvoorbeeld, zou u een knoop kunnen tot stand brengen genoemd _Versies van de Pers_ die navigatie aan individuele persversies heeft. Dan, kunt u de verbinding op uw _Ongeveer pagina van ons_ aan de knoop omvatten. Of u zou een knoop voor een inzameling van achterkwesties van uw nieuwsbrief kunnen tot stand brengen.
 
-Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om een verbinding van de Knoop van de Hiërarchie van CMS tot stand te brengen en widget in een inhoudsblok of een pagina te plaatsen.
+Om met een knoop te verbinden, gebruik het [&#x200B; Widget &#x200B;](widgets.md) hulpmiddel om een verbinding van de Knoop van de Hiërarchie van CMS tot stand te brengen en widget in een inhoudsblok of een pagina te plaatsen.
 
-![ de navigatiemenu van het Voorbeeld op de Ongeveer pagina van de Gebruik ](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
+![&#x200B; de navigatiemenu van het Voorbeeld op de Ongeveer pagina van de Gebruik &#x200B;](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
 ### Stap 1: Een knooppunt maken
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**.
 
-   ![ het net van de Pagina&#39;s van CMS ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![&#x200B; het net van de Pagina&#39;s van CMS &#x200B;](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. Klik boven het raster op **[!UICONTROL Add Node...]** .
 
@@ -64,7 +64,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
    De URL-sleutel biedt een uniek webadres voor het knooppunt. Het moet allemaal kleine letters zijn. Gebruik afbreekstreepjes om woorden te scheiden in plaats van spaties.
 
-   ![ de eigenschappen van de Pagina ](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; de eigenschappen van de Pagina &#x200B;](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -82,7 +82,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Indien nodig sleept u de pagina&#39;s naar de gewenste positie om de volgorde aan te geven waarin ze in het menu worden weergegeven.
 
-   ![ slepend pagina&#39;s in positie ](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
+   ![&#x200B; slepend pagina&#39;s in positie &#x200B;](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
 
 1. Klik op het knooppunt boven in de hiërarchie.
 
@@ -90,7 +90,7 @@ Om met een knoop te verbinden, gebruik het [ Widget ](widgets.md) hulpmiddel om 
 
 1. Voer onder **[!UICONTROL Render Metadata in HTML Head]** de volgende handelingen uit:
 
-   ![ geef meta- gegevensmontages ](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"} terug
+   ![&#x200B; geef meta- gegevensmontages &#x200B;](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"} terug
 
    - Stel **[!UICONTROL First]** in op `Yes` om het knooppunt als de bovenkant van de hiërarchie te identificeren.
 
@@ -125,12 +125,12 @@ Ga als volgt te werk als u het knooppunt in het menu wilt weergeven:
 
    Deze instelling bepaalt of een navigatiemenu wordt gegenereerd voor de paginahiërarchie.
 
-   ![ het navigatiemenuopties van de Pagina ](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
+   ![&#x200B; het navigatiemenuopties van de Pagina &#x200B;](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
 
 1. Als u de locatie van het menu ten opzichte van de inhoud wilt opgeven, stelt u de optie **[!UICONTROL Menu Layout]** in:
 
    - `Content` - De menulay-out bevindt zich in de inhoud.
-   - `Use Default` - gebruikt de menustijl die in de [ configuratie ](../configuration-reference/general/content-management.md) wordt gespecificeerd.
+   - `Use Default` - gebruikt de menustijl die in de [&#x200B; configuratie &#x200B;](../configuration-reference/general/content-management.md) wordt gespecificeerd.
    - `Left Column` - Het menu wordt links van de inhoud weergegeven.
    - `Right Column` - Het menu wordt rechts van de inhoud weergegeven.
 
@@ -154,6 +154,6 @@ Ga als volgt te werk als u het knooppunt in het menu wilt weergeven:
 
 1. Als u ook de knoop in het navigatiemenu zichtbaar wilt zijn, scrol aan _de Opties van het Menu van de Navigatie de Hoofd_ en plaats **[!UICONTROL Show in Navigation menu]** aan `Yes`.
 
-   ![ Belangrijkste opties van het navigatiemenu ](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
+   ![&#x200B; Belangrijkste opties van het navigatiemenu &#x200B;](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.

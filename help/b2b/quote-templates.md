@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Bespreek volumekortingen voor terugkomende orden door een citaatmalplaatje van een bestaand citaat te creëren.
 
-![ creeer citaatmalplaatje van admin ](./assets/quote-template-create-from-admin.png){width="700" zoomable="yes"}
+![&#x200B; creeer citaatmalplaatje van admin &#x200B;](./assets/quote-template-create-from-admin.png){width="700" zoomable="yes"}
 
 Nadat de template is gemaakt, kan de verkoper sjabloonopties configureren om de bestelling- en kwantiteitsdrempels in te stellen, de kortingen voor regelobjecten en prijsniveau aanpassen voordat hij deze naar de koper stuurt om het onderhandelingsproces te starten.
 
-Zodra de koper en de verkoper overeenstemming hebben bereikt, accepteert de koper de prijsopgave. Dan, kan de koper [ vooraf goedgekeurde, verbonden citaten ](account-dashboard-my-quote-templates.md) produceren die op de termijnen van het citaatmalplaatje worden gebaseerd. Als een onderneming bijvoorbeeld opdrachten heeft voor MRO&#39;s (onderhoud, reparaties en transacties) om haar bedrijfsactiviteiten te ondersteunen, kan de koper of de verkoper een prijsopmaaksjabloon gebruiken om de vereiste items toe te voegen, te onderhandelen over de prijs en de voorwaarden voor terugkerende maandelijkse bestellingen vast te stellen. Vervolgens kan de koper gekoppelde aanhalingstekens genereren en bestellingen verzenden zonder aanvullende onderhandelingen te vereisen.
+Zodra de koper en de verkoper overeenstemming hebben bereikt, accepteert de koper de prijsopgave. Dan, kan de koper [&#x200B; vooraf goedgekeurde, verbonden citaten &#x200B;](account-dashboard-my-quote-templates.md) produceren die op de termijnen van het citaatmalplaatje worden gebaseerd. Als een onderneming bijvoorbeeld opdrachten heeft voor MRO&#39;s (onderhoud, reparaties en transacties) om haar bedrijfsactiviteiten te ondersteunen, kan de koper of de verkoper een prijsopmaaksjabloon gebruiken om de vereiste items toe te voegen, te onderhandelen over de prijs en de voorwaarden voor terugkerende maandelijkse bestellingen vast te stellen. Vervolgens kan de koper gekoppelde aanhalingstekens genereren en bestellingen verzenden zonder aanvullende onderhandelingen te vereisen.
 
-Voor extra details, zie [ overzicht van de malplaatjes van het Citaat ](quote-templates-overview.md).
+Voor extra details, zie [&#x200B; overzicht van de malplaatjes van het Citaat &#x200B;](quote-templates-overview.md).

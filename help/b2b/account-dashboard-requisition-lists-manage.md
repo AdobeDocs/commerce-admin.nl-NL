@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De belangrijkste reden om een aanvraaglijst te handhaven is het gemakkelijk te maken om producten opnieuw in orde te brengen. Geautoriseerde klanten kunnen de volgorde van items in een aanvraaglijst eenvoudig wijzigen door ze aan het winkelwagentje toe te voegen en items van de ene lijst naar de andere te verplaatsen of te kopiëren.
 
-![ Mijn Lijsten van de Aanvraag ](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
+![&#x200B; Mijn Lijsten van de Aanvraag &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
 ## Een aanvraaglijst openen
 
@@ -33,13 +33,13 @@ De belangrijkste reden om een aanvraaglijst te handhaven is het gemakkelijk te m
 
 1. Ga als volgt te werk om de productopties te wijzigen:
 
-   - In het lijnpunt, klikt _uitgeven_ (![ pictogram van het Potlood ](../assets/icon-edit-pencil.png)) pictogram.
+   - In het lijnpunt, klikt _uitgeven_ (![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png)) pictogram.
    - Hiermee wijzigt u de benodigde opties.
    - Klik op **[!UICONTROL Update Requisition List]** .
 
 1. Klik op **[!UICONTROL Add to Cart]** .
 
-   ![ het Detail van de Lijst van de Aanvraag ](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![&#x200B; het Detail van de Lijst van de Aanvraag &#x200B;](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Items naar een andere lijst kopiëren
 
@@ -73,27 +73,27 @@ Adobe Commerce genereert en downloadt een CSV-lijst met `sku` - en `qty` -waarde
 
 1. Controleert het uitvoerapparaat en klikt op **[!UICONTROL Print]** .
 
-   ![ de Lijst van de Verzoek van de Druk ](./assets/requisition-list-print.png){width="500" zoomable="yes"}
+   ![&#x200B; de Lijst van de Verzoek van de Druk &#x200B;](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
 ### Productopties bewerken
 
 De klant doet het volgende om de productopties in de lijst te bewerken:
 
-1. Klik het _Potlood_ (![ pictogram van het Potlood ](../assets/icon-edit-pencil.png)) pictogram om de productpagina te openen.
+1. Klik het _Potlood_ (![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png)) pictogram om de productpagina te openen.
 
 1. Hiermee wijzigt u de benodigde opties.
 
 1. Klik op **[!UICONTROL Update Requisition List]** .
 
-   ![ Lijst van de Verzoek van de Update ](./assets/requisition-list-update.png){width="700" zoomable="yes"}
+   ![&#x200B; Lijst van de Verzoek van de Update &#x200B;](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
 Een product in de aanvraaglijst kan worden bewerkt als:
 
-- Het product heeft **[!UICONTROL all options set]** (wanneer het a [ gevormd product ](../catalog/product-create-configurable.md) in de Lijst van de Vereiste is).
+- Het product heeft **[!UICONTROL all options set]** (wanneer het a [&#x200B; gevormd product &#x200B;](../catalog/product-create-configurable.md) in de Lijst van de Vereiste is).
 
   Het product is **[!UICONTROL added to this Requisition List]** .
 
-- Het product is [ een eenvoudig product met opties ](../catalog/settings-advanced-custom-options.md)
+- Het product is [&#x200B; een eenvoudig product met opties &#x200B;](../catalog/settings-advanced-custom-options.md)
 
 - Bewerken is toegestaan voor het producttype.
 
@@ -113,7 +113,7 @@ Een product in de aanvraaglijst kan worden bewerkt als:
 
 1. Klik op **[!UICONTROL Save]** .
 
-   ![ noem de Lijst van de Vereiste anders ](./assets/requisition-list-rename.png){width="300"}
+   ![&#x200B; noem de Lijst van de Vereiste anders &#x200B;](./assets/requisition-list-rename.png){width="300"}
 
 
 ### Een aanvraaglijst verwijderen

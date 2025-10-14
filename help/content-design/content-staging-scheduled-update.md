@@ -28,7 +28,7 @@ In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een pr
 
 1. Klik in het vak _[!UICONTROL Scheduled Changes]_&#x200B;boven aan de pagina op **[!UICONTROL Schedule New Update]**.
 
-   ![ Plan nieuwe update ](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
+   ![&#x200B; Plan nieuwe update &#x200B;](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
 1. Selecteer de optie **[!UICONTROL Save as a New Update]** en stel de basisparameters voor de update in:
 
@@ -36,14 +36,14 @@ In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een pr
 
    - Voer een korte **[!UICONTROL Description]** in van de update en hoe deze moet worden gebruikt.
 
-   - Gebruik het hulpmiddel van de Kalender (![ het pictogram van de Kalender ](../assets/icon-calendar.png)) om de **Datum van het Begin** en **Datum van het Eind** voor de campagne te kiezen.
+   - Gebruik het hulpmiddel van de Kalender (![&#x200B; het pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om de **Datum van het Begin** en **Datum van het Eind** voor de campagne te kiezen.
 
      Geef geen einddatum op als u een campagne met een open einde wilt maken. Voor dit voorbeeld is de campagne gepland om vanaf middernacht te beginnen voor het nieuwe jaar, 1 januari 2021 om 12:00 uur PST.
 
 
      Voor een prijsregelcampagne die zonder einddatum is gemaakt, kan een einddatum niet later worden toegevoegd. In dat geval moet een campagne worden opgezet en moet de begindatum worden ingesteld op de datum waarop de oude campagne moet worden beëindigd en de nieuwe campagne moet worden gestart. Op die begindatum eindigt de oude campagne en begint de nieuwe campagne zoals gedefinieerd.
 
-     ![ Plannend een productupdate ](./assets/content-staging-campaign-schedule-update.png){width="600" zoomable="yes"}
+     ![&#x200B; Plannend een productupdate &#x200B;](./assets/content-staging-campaign-schedule-update.png){width="600" zoomable="yes"}
 
      >[!NOTE]
      >
@@ -57,7 +57,7 @@ In het volgende voorbeeld ziet u hoe u een tijdelijke prijswijziging voor een pr
 
    De geplande wijziging wordt boven aan de productpagina weergegeven met de begin- en einddatum van de campagne.
 
-   ![ Geplande verandering ](./assets/content-staging-product-scheduled-update-preview-rope.png){width="600" zoomable="yes"}
+   ![&#x200B; Geplande verandering &#x200B;](./assets/content-staging-product-scheduled-update-preview-rope.png){width="600" zoomable="yes"}
 
 ## De geplande wijziging bewerken
 
@@ -77,4 +77,4 @@ De voorvertoning opent een nieuw browsertabblad en toont hoe het product tijdens
 >
 >Een het opvoeren voorproef voor een geplande update begint altijd van de **standaard** opslagmening, die de ervaring van de klant navigeert om door de het opvoeren updatecampagne te navigeren.
 
-Voor meer informatie over het gebruiken van de hulpmiddelen van de voorproefinhoud om de datum en het werkingsgebied van de voorproef te veranderen, zie [ Previewing een Campagne ](content-staging-preview.md). U kunt ook een koppeling naar de voorvertoning van de winkel delen met uw collega&#39;s.
+Voor meer informatie over het gebruiken van de hulpmiddelen van de voorproefinhoud om de datum en het werkingsgebied van de voorproef te veranderen, zie [&#x200B; Previewing een Campagne &#x200B;](content-staging-preview.md). U kunt ook een koppeling naar de voorvertoning van de winkel delen met uw collega&#39;s.

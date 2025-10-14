@@ -31,13 +31,13 @@ Volg de instructies van elke vervoerder om ondersteuning voor verzendlabels aan 
 
 ## Stap 2: Werk de configuratie voor elke drager bij
 
-1. Zorg ervoor dat uw [ Informatie van de Opslag ](../getting-started/store-details.md#store-information) volledig is.
+1. Zorg ervoor dat uw [&#x200B; Informatie van de Opslag &#x200B;](../getting-started/store-details.md#store-information) volledig is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Shipping Settings]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit en vorm **[!UICONTROL Shipping Origin Address]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit en vorm **[!UICONTROL Shipping Origin Address]**.
 
 1. Volg de onderstaande instructies voor elke drageraccount die is geactiveerd voor labelafdrukken.
 
@@ -47,7 +47,7 @@ United Parcel Service verzendt zowel binnenlands als internationaal. Verzendlabe
 
 1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_&#x200B;in het linkerdeelvenster.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
 
 1. Controleer of uw UPS **[!UICONTROL Shipper Number]** juist is.
 
@@ -59,7 +59,7 @@ United Parcel Service verzendt zowel binnenlands als internationaal. Verzendlabe
 
 De [!DNL United States Postal Service] wordt zowel intern als internationaal verzonden.
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL USPS]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL USPS]** sectie.
 
 1. Controleer of **[!UICONTROL Secure Gateway URL]** correct is.
 
@@ -78,7 +78,7 @@ De [!DNL United States Postal Service] wordt zowel intern als internationaal ver
 
 FedEx wordt binnenlands en internationaal verzonden. Winkels buiten de Verenigde Staten kunnen alleen FedEx-labels maken voor internationale verzendingen.
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL FedEx]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL FedEx]** sectie.
 
 1. Controleer of de volgende FedEx-referenties correct zijn:
 
@@ -92,7 +92,7 @@ FedEx wordt binnenlands en internationaal verzonden. Winkels buiten de Verenigde
 
 DHL verleent internationale scheepvaartdiensten.
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL DHL]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL DHL]** sectie.
 
 1. Controleer of **[!UICONTROL Gateway URL]** correct is.
 

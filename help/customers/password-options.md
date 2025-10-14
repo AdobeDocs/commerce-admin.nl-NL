@@ -22,7 +22,7 @@ De opties van het klantenwachtwoord bepalen het niveau van veiligheid dat voor d
 
 1. Vouw de sectie **[!UICONTROL Password Options]** uit.
 
-   ![ Opties van het Wachtwoord ](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties van het Wachtwoord &#x200B;](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
 1. Stel de **[!UICONTROL Password Reset Protection Type]** in op de methode die u wilt gebruiken voor het controleren van aanvragen voor het opnieuw instellen van wachtwoorden:
 
@@ -47,7 +47,7 @@ De opties van het klantenwachtwoord bepalen het niveau van veiligheid dat voor d
 
    - Stel **[!UICONTROL Reset Password Template]** in op de sjabloon die wordt gebruikt wanneer klanten hun wachtwoorden wijzigen.
 
-   - Plaats **[!UICONTROL Password Template Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md) dat als afzender van op wachtwoord betrekking hebbende berichten verschijnt.
+   - Plaats **[!UICONTROL Password Template Email Sender]** aan het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md) dat als afzender van op wachtwoord betrekking hebbende berichten verschijnt.
 
 1. Voer de volgende beveiligingsopties voor het opnieuw instellen van wachtwoorden in:
 

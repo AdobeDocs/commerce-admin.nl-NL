@@ -20,9 +20,9 @@ De status van aanvragen die worden ontvangen van de winkel om een bedrijf te mak
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-U kunt de [ controle van Acties ](account-company-manage.md) ook gebruiken om veelvoudige bedrijfverzoeken goed te keuren.
+U kunt de [&#x200B; controle van Acties &#x200B;](account-company-manage.md) ook gebruiken om veelvoudige bedrijfverzoeken goed te keuren.
 
-![ in afwachting van Goedkeuring ](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![&#x200B; in afwachting van Goedkeuring &#x200B;](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Een bedrijfsaccount goedkeuren dat in behandeling is
 
@@ -34,7 +34,7 @@ U kunt de [ controle van Acties ](account-company-manage.md) ook gebruiken om ve
 
 1. Stel **[!UICONTROL Company Status]** in op `Active` .
 
-   ![ plaats de bedrijfstatus ](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![&#x200B; plaats de bedrijfstatus &#x200B;](./assets/company-status-active.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Change status]** wanneer u wordt gevraagd om te bevestigen.
 
@@ -42,7 +42,7 @@ U kunt de [ controle van Acties ](account-company-manage.md) ook gebruiken om ve
 
 1. Indien van toepassing, stelt u **[!UICONTROL Sales Representative]** in op een specifieke Admin-gebruikersaccount.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Account Information]** sectie uit en gebruik het **[!UICONTROL Comment]** gebied om nota&#39;s over de rekening in te gaan.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Account Information]** sectie uit en gebruik het **[!UICONTROL Comment]** gebied om nota&#39;s over de rekening in te gaan.
 
    De opmerkingen zijn niet zichtbaar vanuit de winkel.
 

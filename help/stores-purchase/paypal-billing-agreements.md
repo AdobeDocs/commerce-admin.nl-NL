@@ -47,13 +47,13 @@ Dit tabblad bevat de algemene informatie over de factureringsovereenkomst:
 - [!UICONTROL Created At]: Aanmaakdatum.
 - [!UICONTROL Updated At]: datum bijwerken.
 
-![ de Mening van de Overeenkomst van het Factureren ](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
+![&#x200B; de Mening van de Overeenkomst van het Factureren &#x200B;](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
 #### Verwante bestellingen
 
 Op dit tabblad wordt de lijst weergegeven met de orders die zijn geplaatst met de huidige factureringsovereenkomst.
 
-![ de Mening van de Overeenkomst van het Factureren ](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
+![&#x200B; de Mening van de Overeenkomst van het Factureren &#x200B;](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
 
 ### Een factureringsovereenkomst annuleren
 
@@ -94,7 +94,7 @@ Op dit tabblad wordt de lijst weergegeven met de orders die zijn geplaatst met d
 
 Klanten die een factureringsovereenkomst met een betalingsdienstaanbieder aangaan, kunnen nu aankopen doen en later voor hen betalen, overeenkomstig de overeenkomst. De
 
-![ de lijst van Factureringsovereenkomsten in het dashboard van de klant ](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; de lijst van Factureringsovereenkomsten in het dashboard van de klant &#x200B;](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -117,7 +117,7 @@ Klanten die een factureringsovereenkomst met een betalingsdienstaanbieder aangaa
 
 Deze handeling leidt de klant om naar de website van het betalingssysteem.
 
-![ Nieuwe het facturerings overeenkomst in het dashboard van de klantenrekening ](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; Nieuwe het facturerings overeenkomst in het dashboard van de klantenrekening &#x200B;](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
 
 ### Een factureringsovereenkomst weergeven
 
@@ -125,7 +125,7 @@ Deze handeling leidt de klant om naar de website van het betalingssysteem.
 
 1. Selecteert de factureringsovereenkomst en klikt **[!UICONTROL View]**.
 
-![ het factureringsovereenkomst van de Mening in dashboard van de klant ](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
+![&#x200B; het factureringsovereenkomst van de Mening in dashboard van de klant &#x200B;](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
 
 ### Een factureringsovereenkomst annuleren
 

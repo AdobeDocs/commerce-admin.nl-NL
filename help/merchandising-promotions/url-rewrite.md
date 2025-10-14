@@ -15,23 +15,23 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
 
 Met het gereedschap URL herschrijven kunt u elke URL wijzigen die is gekoppeld aan een product, categorie of CMS-pagina. Wanneer het herschrijven van kracht wordt, worden om het even welke verbindingen die aan vorige URL richten opnieuw gericht aan het nieuwe adres.
 
 >[!NOTE]
 >
->Om URL bij te werken herschrijft voor veelvoudige of alle producten gelijktijdig, verwijs naar [ Veelvoudige URL herschrijft ](url-rewrite-product.md#multiple-url-rewrites).
+>Om URL bij te werken herschrijft voor veelvoudige of alle producten gelijktijdig, verwijs naar [&#x200B; Veelvoudige URL herschrijft &#x200B;](url-rewrite-product.md#multiple-url-rewrites).
 
 De termijnen _herschrijven_ en _richten_ vaak worden gebruikt onderling verwisselbaar, maar verwijzen naar lichtjes verschillende processen. Een URL wijzigt de manier waarop een URL in de browser wordt weergegeven. Een URL die omleidt werkt URL bij die op de server wordt opgeslagen. Een omleiding van een URL kan tijdelijk of permanent zijn. In uw winkel worden URL-herschriften en omleidingen gebruikt, zodat u gemakkelijk de URL-sleutel van een product, categorie of pagina kunt wijzigen en bestaande koppelingen kunt behouden.
 
-Door gebrek, [ automatische opnieuw richt URL ](url-redirect-product-automatic.md) wordt toegelaten voor uw opslag en **leidt tot Permanent Redirect voor oude URL** checkbox wordt geselecteerd onder het zeer belangrijke gebied URL van elk product.
+Door gebrek, [&#x200B; automatische opnieuw richt URL &#x200B;](url-redirect-product-automatic.md) wordt toegelaten voor uw opslag en **leidt tot Permanent Redirect voor oude URL** checkbox wordt geselecteerd onder het zeer belangrijke gebied URL van elk product.
 
 {{url-rewrite-skip}}
 
 {{url-rewrite-params}}
 
-![ de motoroptimalisering van het Onderzoek - creeer permanent opnieuw richt URL ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![&#x200B; de motoroptimalisering van het Onderzoek - creeer permanent opnieuw richt URL &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## Canonieke URL&#39;s
 
@@ -67,9 +67,9 @@ URL met herschrijven van webserver
 
 1. Kies **[!UICONTROL Web]** in het linkerdeelvenster waar **[!UICONTROL General]** wordt uitgevouwen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![ Algemene configuratie - de optimalisering van de Webonderzoekmachine ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene configuratie - de optimalisering van de Webonderzoekmachine &#x200B;](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Use Web Server Rewrites]** in op uw voorkeur.
 
@@ -98,7 +98,7 @@ Aanvullende categorie-URL&#39;s
      http://www.example.com/all-on-sale.html
      http://www.example.com/save-now/spring-sale 
 
-![ URL herschrijft net ](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![&#x200B; URL herschrijft net &#x200B;](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerce biedt de volgende URL-herschrijftypen aan:
 

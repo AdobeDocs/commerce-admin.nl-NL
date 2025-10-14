@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Een koppeling invoegen in de editor
 
-Een gemakkelijke manier om een verbinding op te nemen is de _knoop van de Verbinding_ in de [ redacteur ](editor.md) toolbar te gebruiken. Het vereist geen kennis van HTML en het resultaat is hetzelfde.
+Een gemakkelijke manier om een verbinding op te nemen is de _knoop van de Verbinding_ in de [&#x200B; redacteur &#x200B;](editor.md) toolbar te gebruiken. Het vereist geen kennis van HTML en het resultaat is hetzelfde.
 
 1. Selecteer de tekst waar u de koppeling wilt maken.
 
 1. Klik het _Tussenvoegsel/geef verbindings_ pictogram in de redacteurstoolbar uit.
 
-   ![ de toolbar van de Redacteur - de Verbinding van het Tussenvoegsel ](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
+   ![&#x200B; de toolbar van de Redacteur - de Verbinding van het Tussenvoegsel &#x200B;](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
    Met deze handeling wordt het dialoogvenster _[!UICONTROL Insert link]_&#x200B;geopend.
 
-   ![ Redacteur - de verbindingsdialoog van het Tussenvoegsel ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
+   ![&#x200B; Redacteur - de verbindingsdialoog van het Tussenvoegsel &#x200B;](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL Url]** een van de volgende handelingen in:
 

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De positie van producten in een categorie kan handmatig worden opgegeven door producten naar de juiste positie te slepen of door een vooraf gedefinieerde sorteervolgorde toe te passen. Standaard kunnen producten worden gesorteerd op voorraadniveau, leeftijd, kleur, naam, SKU en prijs. Met Automatisch sorteren wordt de huidige sorteervolgorde genegeerd en worden eventuele handmatig ingestelde posities voor slepen en neerzetten opnieuw ingesteld. De soortorde van kleuren en het minimumvoorraadniveau dat voor producten kan worden vereist om in de lijst worden omvat worden geplaatst in de [ Visuele Merchandiser ](../configuration-reference/catalog/visual-merchandiser.md) configuratie.
+De positie van producten in een categorie kan handmatig worden opgegeven door producten naar de juiste positie te slepen of door een vooraf gedefinieerde sorteervolgorde toe te passen. Standaard kunnen producten worden gesorteerd op voorraadniveau, leeftijd, kleur, naam, SKU en prijs. Met Automatisch sorteren wordt de huidige sorteervolgorde genegeerd en worden eventuele handmatig ingestelde posities voor slepen en neerzetten opnieuw ingesteld. De soortorde van kleuren en het minimumvoorraadniveau dat voor producten kan worden vereist om in de lijst worden omvat worden geplaatst in de [&#x200B; Visuele Merchandiser &#x200B;](../configuration-reference/catalog/visual-merchandiser.md) configuratie.
 
 >[!NOTE]
 >
 >Op de categoriepagina&#39;s, `Out of stock` worden de producten altijd getoond **_na_** `In Stock` producten op de productlijst met alle sorterende types.
 
-U kunt opstelling afzonderlijk de categorieopties voor elke [ opslagmening ](../stores-purchase/stores.md#add-stores) om de selectie van producten, hun relatieve positie in de lijst, en de attributen te bepalen die voor categorieregels beschikbaar zijn. Nochtans, zijn er één enkele, **_globale_** sorteervolgorde en productpositie in de catalogus en zij worden gedeeld over alle [ opslagmeningen ](../stores-purchase/store-views.md), opslag, en websites.
+U kunt opstelling afzonderlijk de categorieopties voor elke [&#x200B; opslagmening &#x200B;](../stores-purchase/stores.md#add-stores) om de selectie van producten, hun relatieve positie in de lijst, en de attributen te bepalen die voor categorieregels beschikbaar zijn. Nochtans, zijn er één enkele, **_globale_** sorteervolgorde en productpositie in de catalogus en zij worden gedeeld over alle [&#x200B; opslagmeningen &#x200B;](../stores-purchase/store-views.md), opslag, en websites.
 
 ## Stap 1: Plaats het werkingsgebied van de configuratie
 
@@ -32,7 +32,7 @@ U kunt opstelling afzonderlijk de categorieopties voor elke [ opslagmening ](../
 
 1. Kies in de categoriestructuur aan de linkerkant de categorie die u wilt bewerken.
 
-   ![ boom van de Categorie ](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![&#x200B; boom van de Categorie &#x200B;](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Stap 2: De producten sorteren
 
@@ -40,15 +40,15 @@ U kunt opstelling afzonderlijk de categorieopties voor elke [ opslagmening ](../
 >
 >Wanneer u een categorie sorteert op een productkenmerk, worden producten met dezelfde kenmerkwaarden ook in oplopende volgorde gesorteerd op _[!UICONTROL Product ID]_.
 
-In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![ de tegels van de Mening ](../assets/icon-view-tiles.png)) pictogram om de producttegels in een net te tonen. Gebruik de handmatige of automatische methode om de producten te sorteren.
+In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![&#x200B; de tegels van de Mening &#x200B;](../assets/icon-view-tiles.png)) pictogram om de producttegels in een net te tonen. Gebruik de handmatige of automatische methode om de producten te sorteren.
 
-![ de tegels van het Product ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![&#x200B; de tegels van het Product &#x200B;](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### Methode 1: Handmatig sorteren
 
 1. Stel **[!UICONTROL Sort Order]** in op uw voorkeur.
 
-   ![ de orde van de Sortering ](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
+   ![&#x200B; de orde van de Sortering &#x200B;](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Sort]** om de nieuwe sorteervolgorde toe te passen.
 
@@ -58,7 +58,7 @@ In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![ de 
 
 ### Methode 2: Automatisch sorteren
 
-1. Plaats **[!UICONTROL Match products by rule]** (![ Wissel ja ](../assets/toggle-yes.png)) aan `Yes`.
+1. Plaats **[!UICONTROL Match products by rule]** (![&#x200B; Wissel ja &#x200B;](../assets/toggle-yes.png)) aan `Yes`.
 
 
 1. Stel **[!UICONTROL Automatic Sorting]** in op uw voorkeur.
@@ -67,7 +67,7 @@ In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![ de 
 
 ## Stap 3: Een categorieregel maken
 
-1. Plaats **[!UICONTROL Match products by rule]** (![ Wissel ja ](../assets/toggle-yes.png)) aan `Yes`.
+1. Plaats **[!UICONTROL Match products by rule]** (![&#x200B; Wissel ja &#x200B;](../assets/toggle-yes.png)) aan `Yes`.
 
 1. Klik op **[!UICONTROL Add Condition]**.
 
@@ -85,7 +85,7 @@ In de _[!UICONTROL Products in Category]_&#x200B;sectie, klik de tegels ( ![ de 
 
 1. Voer de juiste **[!UICONTROL Value]** in.
 
-   ![ voorwaarde van de Categorie ](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![&#x200B; voorwaarde van de Categorie &#x200B;](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
 1. Als u nog een voorwaarde wilt toevoegen, klikt u op **[!UICONTROL Add Condition]** en herhaalt u het proces.
 

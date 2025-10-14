@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Het algoritme voor prioriteitsafstand configureren
 
-Het algoritme van de Prioriteit van de Afstand vergelijkt de plaats van het verzendende bestemmingsadres met bronplaatsen om de dichtstbijzijnde bron te bepalen om verzendingen te vervullen. De afstand kan worden bepaald door fysieke afstand of tijd die wordt doorgebracht van de ene naar de andere locatie, met behulp van databasegegevens of het rijden, lopen of fietsen. Gebruik dit [ Algoritme van de Selectie van Source ](selection-reservations.md) om de dichtste bron aan het verschepen bestemmingsadressen aan te bevelen.
+Het algoritme van de Prioriteit van de Afstand vergelijkt de plaats van het verzendende bestemmingsadres met bronplaatsen om de dichtstbijzijnde bron te bepalen om verzendingen te vervullen. De afstand kan worden bepaald door fysieke afstand of tijd die wordt doorgebracht van de ene naar de andere locatie, met behulp van databasegegevens of het rijden, lopen of fietsen. Gebruik dit [&#x200B; Algoritme van de Selectie van Source &#x200B;](selection-reservations.md) om de dichtste bron aan het verschepen bestemmingsadressen aan te bevelen.
 
 >[!NOTE]
 >
->Als u het Prioritaire Algoritme van de Afstand gebruikt, wordt het ingaan van het volledige straatadres en de coördinaten van GPS voor uw [ bronnen ](sources-add.md) geadviseerd.
+>Als u het Prioritaire Algoritme van de Afstand gebruikt, wordt het ingaan van het volledige straatadres en de coördinaten van GPS voor uw [&#x200B; bronnen &#x200B;](sources-add.md) geadviseerd.
 
 U hebt twee opties om de afstand en de tijd te berekenen om de dichtstbijzijnde bron voor verzending te vinden:
 
@@ -26,7 +26,7 @@ U hebt twee opties om de afstand en de tijd te berekenen om de dichtstbijzijnde 
 
 >[!NOTE]
 >
->Voor multi-store website met verscheidene landen, vorm de [ standaardbelastingbestemming ](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} voor elk land.
+>Voor multi-store website met verscheidene landen, vorm de [&#x200B; standaardbelastingbestemming &#x200B;](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} voor elk land.
 
 ## Google-kaarten gebruiken
 
@@ -35,13 +35,13 @@ Google MAP op afstand gebaseerd algoritme wordt echter aanbevolen als geavanceer
 
 ### Stap 1: De Google API-sleutel maken
 
-De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocoding API ][2] en [ toegelaten de Matrijs van de Afstand moeten hebben ][3]. Voor details, zie [ het Vormen het Prioritaire Algoritme van de Afstand ](distance-priority-algorithm.md).
+De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocoding API ][2] en [ toegelaten de Matrijs van de Afstand moeten hebben ][3]. Voor details, zie [&#x200B; het Vormen het Prioritaire Algoritme van de Afstand &#x200B;](distance-priority-algorithm.md).
 
 1. Bezoek [ het Platform van de Kaarten van Google ][1] en klik **[!UICONTROL Get Started]**.
 
 1. Selecteer **[!UICONTROL Maps, Routes, and Places]** en klik op **[!UICONTROL Continue]** om het platform in te schakelen.
 
-   ![ Platform van de Kaarten van Google voor uw Sleutel ](assets/inventory-google-key1.png){width="350" zoomable="yes"}
+   ![&#x200B; Platform van de Kaarten van Google voor uw Sleutel &#x200B;](assets/inventory-google-key1.png){width="350" zoomable="yes"}
 
 1. Meld u aan met een Google-account of maak een account.
 
@@ -63,13 +63,13 @@ De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocodi
 
    - Vouw het menu uit en klik op **[!UICONTROL APIs & Services]** > **[!UICONTROL Library]** .
 
-     ![ Google API Services ](assets/inventory-google-key2.png){width="350" zoomable="yes"}
+     ![&#x200B; Google API Services &#x200B;](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
    - Onderzoek naar [ Coderen API ][2] en [ Matrijs API van de Afstand ][3]. Selecteer en laat elke dienst toe.
 
 1. Vouw het menu uit, klik op **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** en kopieer de Google API-sleutel.
 
-   ![ Google API Zeer belangrijk Exemplaar ](assets/inventory-google-key3.png){width="350" zoomable="yes"}
+   ![&#x200B; Google API Zeer belangrijk Exemplaar &#x200B;](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
 ### Stap 2: De Google MAP-provider configureren
 
@@ -77,11 +77,11 @@ De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocodi
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit en reeks **[!UICONTROL Provider]**&#x200B;aan `Google MAP`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit en reeks **[!UICONTROL Provider]**&#x200B;aan `Google MAP`.
 
-   ![ Leveranciers voor Op afstand-Gebaseerde SSA ](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
+   ![&#x200B; Leveranciers voor Op afstand-Gebaseerde SSA &#x200B;](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Google Distance Provider]_&#x200B;sectie uit en vorm de montages:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Google Distance Provider]_&#x200B;sectie uit en vorm de montages:
 
    - Voer bij **[!UICONTROL Google API Key]** de gekopieerde sleutel in van uw Google-account.
 
@@ -89,7 +89,7 @@ De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocodi
 
      >[!NOTE]
      >
-     >Wanneer het gebruiken van dit algoritme voor het verschepen, als de routes en de gegevens niet voor de geselecteerde wijze van de Berekening (rij, fietsen, of het lopen) voor een lading terugkeren, blijft SSA aan het gebruiken van de Prioriteit van Source in gebreke. Het plaatsen van de [ prioriteit voor bronnen per voorraad ](stocks-prioritize-sources.md) wordt geadviseerd.
+     >Wanneer het gebruiken van dit algoritme voor het verschepen, als de routes en de gegevens niet voor de geselecteerde wijze van de Berekening (rij, fietsen, of het lopen) voor een lading terugkeren, blijft SSA aan het gebruiken van de Prioriteit van Source in gebreke. Het plaatsen van de [&#x200B; prioriteit voor bronnen per voorraad &#x200B;](stocks-prioritize-sources.md) wordt geadviseerd.
 
      | Optie | Beschrijving |
      | ----- | ----- |
@@ -104,7 +104,7 @@ De sleutel is van het [ Platform van de Kaarten van Google ][1] en zou [ Geocodi
      | `Distance` | (Standaard) Geeft de afstand tussen punten in metriek (kilometers en meters) of imperial (mijlen en voeten). |
      | `Time to Destination` | Retourneert de tijd die nodig is om van de bronlocaties naar het verzendadres te gaan in uren en minuten. |
 
-   ![ Leverancier van de Afstand van Google ](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
+   ![&#x200B; Leverancier van de Afstand van Google &#x200B;](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -118,7 +118,7 @@ Offlineberekeningen gebruiken landcodes om de afstand tussen de verzendbestemmin
 
 ### Stap 1: geocodes downloaden en importeren
 
-Volledige bevel-lijn configuratie om geocodes landen te downloaden en in te voeren om te verzenden naar en bronplaatsen in te hebben. Voor deze stap is mogelijk hulp van de ontwikkelaar nodig bij het uitvoeren van opdrachtregeltaken. Verwijs naar [ Geocodes van de Invoer ](cli.md#import-geocodes).
+Volledige bevel-lijn configuratie om geocodes landen te downloaden en in te voeren om te verzenden naar en bronplaatsen in te hebben. Voor deze stap is mogelijk hulp van de ontwikkelaar nodig bij het uitvoeren van opdrachtregeltaken. Verwijs naar [&#x200B; Geocodes van de Invoer &#x200B;](cli.md#import-geocodes).
 
 Vul deze opdrachten altijd in als u meer geocodes wilt toevoegen.
 
@@ -128,11 +128,11 @@ Vul deze opdrachten altijd in als u meer geocodes wilt toevoegen.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;sectie uit.
 
 1. Schakel het selectievakje **[!UICONTROL Use system value]** uit en stel **[!UICONTROL Provider]** in op `Offline Calculation` .
 
-   ![ Leveranciers van de Afstand voor Afstand Gebaseerde SSA ](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
+   ![&#x200B; Leveranciers van de Afstand voor Afstand Gebaseerde SSA &#x200B;](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 

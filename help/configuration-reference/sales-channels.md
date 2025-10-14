@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{config}}
 
-Deze instellingen zijn beschikbaar wanneer [[!DNL Amazon Sales Channel] ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=nl-NL) is geïnstalleerd.
+Deze instellingen zijn beschikbaar wanneer [[!DNL Amazon Sales Channel] &#x200B;](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=nl-NL) is geïnstalleerd.
 
-![ de Montages van Sales Channel ](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
+![&#x200B; de Montages van Sales Channel &#x200B;](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-----|---------|------|
 | [!UICONTROL Clear Log History] | Algemeen | Opties:<br/><br/>**`Once Daily`**: selecteer deze optie om de activiteitengeschiedenis van uw winkel eenmaal per dag te wissen.<br/><br/>**`Once Weekly`**: Schakel deze optie in om de historie van de activiteiten van uw winkel één keer per week te wissen.<br/><br/>**`Once Monthly`**: (Standaard) Schakel deze optie in om de historie van de activiteiten van uw winkel één keer per maand te wissen. |
 | [!UICONTROL Background Tasks (CRON) Source] | Algemeen | Selecteer `Magento CRON` om op te geven dat in [!DNL Amazon Sales Channel] de Commerce-instellingen voor uitsnijden worden gebruikt om de communicatie- en gegevenssync-intervallen te bepalen met Amazon Seller Central. |

@@ -23,13 +23,13 @@ Als u de Adobe Experience Manager Assets-integratie voor Commerce wilt instellen
 
 Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende vereisten voldoen:
 
-- De actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+- De actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [&#x200B; Dynamische Media van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 - Adobe Commerce 2.4.5+
 
-- Adobe Experience Manager is provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
+- Adobe Experience Manager is provisioned met [&#x200B; Adobe Experience Manager Assets as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
 
-- De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
+- De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
 
 ## Belangrijkste voordelen
 
@@ -43,8 +43,8 @@ Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende ve
 
 De integratie van Commerce met Experience Manager Assets mogelijk maken is een driestappenproces:
 
-1. [ installeer het pakket van AEM Assets ](aem-assets-configure-aem.md).
+1. [&#x200B; installeer het pakket van AEM Assets &#x200B;](aem-assets-configure-aem.md).
 
-1. [ installeer de pakketten van Adobe Commerce ](aem-assets-configure-aem.md).
+1. [&#x200B; installeer de pakketten van Adobe Commerce &#x200B;](aem-assets-configure-aem.md).
 
-1. [ vorm de integratieactiva ](aem-assets-setup-synchronization.md).
+1. [&#x200B; vorm de integratieactiva &#x200B;](aem-assets-setup-synchronization.md).

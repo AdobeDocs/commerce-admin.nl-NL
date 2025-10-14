@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De _Snelle eigenschap van de Orde_ vermindert het ordeproces aan verscheidene kliks voor klanten die de productnaam of SKU van de producten kennen die zij willen tot opdracht geven. Orders met meerdere SKU&#39;s kunnen handmatig worden ingevoerd of in het formulier Snelle volgorde worden ingevoerd. De snelle orde kan door klanten worden gebruikt die aan hun rekeningen, en door gasten worden het programma geopend. Wanneer toegelaten, verschijnt de _Snelle verbinding van de Orde_ bij de bovenkant van de pagina, naast de klantennaam.
 
-![ Snelle verbinding van de Orde ](./assets/quick-order-link.png){width="700" zoomable="yes"}
+![&#x200B; Snelle verbinding van de Orde &#x200B;](./assets/quick-order-link.png){width="700" zoomable="yes"}
 
 ## Snelle bestellingen inschakelen voor uw winkel
 
@@ -24,11 +24,11 @@ De _Snelle eigenschap van de Orde_ vermindert het ordeproces aan verscheidene kl
 
 1. Stel **[!UICONTROL Enable Quick Order]** in op `Yes` .
 
-   ![ laat Snelle Orde ](./assets/quick-orders-config.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat Snelle Orde &#x200B;](./assets/quick-orders-config.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-1. Wanneer ertoe aangezet, klik [ Beheer van het Geheime voorgeheugen ](../systems/cache-management.md) en vernieuw om het even welke ongeldige geheime voorgeheugens.
+1. Wanneer ertoe aangezet, klik [&#x200B; Beheer van het Geheime voorgeheugen &#x200B;](../systems/cache-management.md) en vernieuw om het even welke ongeldige geheime voorgeheugens.
 
 ## Workflows voor snelle volgorde
 
@@ -48,7 +48,7 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
      De SKU verschijnt in de inputlijn, met de productdetails hieronder.
 
-     ![ Snel Detail van de Orde ](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
+     ![&#x200B; Snel Detail van de Orde &#x200B;](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
 
    Om a **snelle orde door de productnaam** te plaatsen, doet de klant het volgende:
 
@@ -60,7 +60,7 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
    - Wanneer de lijst met mogelijke overeenkomsten wordt weergegeven, klikt de klant op het product dat hij of zij wil bestellen.
 
-     ![ klik om de Naam van het Product te kiezen ](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
+     ![&#x200B; klik om de Naam van het Product te kiezen &#x200B;](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Qty]** in.
 
@@ -76,25 +76,25 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
    - Hiermee voert u alle SKU&#39;s op dezelfde regel in, gescheiden door komma&#39;s en zonder spaties.
 
-     ![ ga Veelvoudige SKUs ](./assets/quick-order-skus.png){width="600" zoomable="yes"} in
+     ![&#x200B; ga Veelvoudige SKUs &#x200B;](./assets/quick-order-skus.png){width="600" zoomable="yes"} in
 
 1. Als u de producten aan de lijst wilt toevoegen, klikt u op **[!UICONTROL Add to List]** .
 
 1. Voert de **[!UICONTROL Qty]** in die voor elk item in de lijst moet worden geordend.
 
-   ![ Snelle Lijst van de Orde ](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
+   ![&#x200B; Snelle Lijst van de Orde &#x200B;](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >Als het product de vereiste opties heeft, wordt de klant gevraagd om de opties te kiezen. Ze kunnen wachten tot ze het winkelwagentje bereiken om productopties toe te voegen.
 
-   ![ kies Opties ](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
+   ![&#x200B; kies Opties &#x200B;](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
 
 ### Methode 3: Een lijst met producten uploaden
 
 1. Klik in de sectie _[!UICONTROL Add from File]_&#x200B;op **[!UICONTROL Download Sample]**&#x200B;om een ordersjabloon te downloaden.
 
-   ![ voeg van Dossier ](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg van Dossier &#x200B;](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"} toe
 
 1. Hiermee opent u het gedownloade bestand.
 
@@ -102,7 +102,7 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
 1. Klik op **[!UICONTROL Save]** wanneer dit is voltooid.
 
-   ![ SKUs aan Upload ](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
+   ![&#x200B; SKUs aan Upload &#x200B;](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
 
 1. Als u het bestand wilt uploaden, klikt u op **[!UICONTROL Choose]** en selecteert u het bestand van het systeem.
 
@@ -112,4 +112,4 @@ Klanten kunnen producten voor snelle bestellingen opgeven met een van de volgend
 
 Nadat de klant de snelle bestelling heeft gemaakt, kan hij of zij op de gebruikelijke wijze de afhandeling voltooien.
 
-![ Snelle Orde ](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}
+![&#x200B; Snelle Orde &#x200B;](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}

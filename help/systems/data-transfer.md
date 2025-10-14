@@ -19,7 +19,7 @@ U kunt bijvoorbeeld nieuwe producten aan uw voorraad toevoegen, productgegevens 
 
 >[!NOTE]
 >
->Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=nl-NL), [ Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview), en [ Dienst van de Catalogus ](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview).
+>Adobe Commerce biedt ook ondersteuning voor het exporteren van SaaS-gegevens om productgegevens van de Commerce-server naar SaaS-services over te brengen. De gegevensuitvoer van SaaS is geïntegreerd met de Diensten van Commerce SaaS met inbegrip van [&#x200B; Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=nl-NL), [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview), en [&#x200B; Dienst van de Catalogus &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview). Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview).
 
 ## Gegevensvalidatie
 
@@ -39,7 +39,7 @@ De resultaten van de validatie worden weergegeven in de sectie Validatieresultat
 
 Als het gegeven geldig is, verschijnt een _bericht van het Succes van de Invoer_.
 
-![ het bericht van het Systeem - het dossier is geldig ](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![&#x200B; het bericht van het Systeem - het dossier is geldig &#x200B;](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 Als de validatie mislukt, leest u de beschrijving van elke fout en corrigeert u het probleem in het CSV-bestand. Als een rij bijvoorbeeld een ongeldige SKU bevat, stopt het importproces en worden die rij en alle volgende rijen niet geïmporteerd. Importeer de gegevens opnieuw nadat het probleem correct is opgelost. Als er veel fouten worden aangetroffen, kan het meerdere pogingen duren om voor de validatie te slagen.
 

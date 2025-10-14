@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Uw winkel kan zo worden geconfigureerd dat kopers een account moeten openen voordat ze een aankoop doen. Met de standaardinstelling kunnen gasten aankopen doen, met een optie om zich voor een account te registreren nadat ze het afrekenen hebben voltooid.
 
-![ de vertoningenControle van de opslag van de Luma uit als Gast ](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![&#x200B; de vertoningenControle van de opslag van de Luma uit als Gast &#x200B;](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
 **_om gastcontrole onbruikbaar te maken:_**
 
@@ -22,13 +22,13 @@ Uw winkel kan zo worden geconfigureerd dat kopers een account moeten openen voor
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
 
-   ![ uitcheckopties die op de configuratiepagina ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"} worden uitgebreid
+   ![&#x200B; uitcheckopties die op de configuratiepagina &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"} worden uitgebreid
 
-Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Opties van de Controle ](../configuration-reference/sales/checkout.md#checkout-options) in de _Gids van de Verwijzing van de Configuratie_.
+Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Opties van de Controle &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) in de _Gids van de Verwijzing van de Configuratie_.
 
-1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 

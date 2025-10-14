@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # CAPTCHA
 
-Een CAPTCHA is een visueel apparaat dat ervoor zorgt dat een mens, in plaats van een computer (of &#39;bot&#39;), communiceert met de site. CAPTCHA is een acroniem voor _volledig Geautomatiseerde Openbare Turing test om Computers en Humans te vertellen over_. Het kan voor zowel toegang Admin als diverse storefront acties worden gebruikt die door geregistreerde klanten in werking worden gesteld. Adobe Commerce en Magento Open Source steunen standaardCAPTCHA die in dit onderwerp en [ Google reCAPTCHA ](security-google-recaptcha.md) wordt beschreven.
+Een CAPTCHA is een visueel apparaat dat ervoor zorgt dat een mens, in plaats van een computer (of &#39;bot&#39;), communiceert met de site. CAPTCHA is een acroniem voor _volledig Geautomatiseerde Openbare Turing test om Computers en Humans te vertellen over_. Het kan voor zowel toegang Admin als diverse storefront acties worden gebruikt die door geregistreerde klanten in werking worden gesteld. Adobe Commerce en Magento Open Source steunen standaardCAPTCHA die in dit onderwerp en [&#x200B; Google reCAPTCHA &#x200B;](security-google-recaptcha.md) wordt beschreven.
 
 U kunt de CAPTCHA zo vaak opnieuw laden als nodig is door op het pictogram Opnieuw laden in de rechterbovenhoek van de afbeelding te klikken. CAPTCHA is volledig configureerbaar en kan elke keer, of slechts na een bepaald aantal ontbroken login pogingen worden geplaatst.
 
-![ Login met CAPTCHA ](./assets/customer-account-login-captcha.png){width="700" zoomable="yes"}
+![&#x200B; Login met CAPTCHA &#x200B;](./assets/customer-account-login-captcha.png){width="700" zoomable="yes"}
 
 ## CAPTCHA voor de beheerder configureren
 
-Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aanmelden bij beheerder en Wachtwoord vergeten. De gebruikers van Admin kunnen de getoonde CAPTCHA opnieuw laden door _te klikken herlaadt_ ![ pictogram opnieuw laden ](./assets/CAPTCHA-icon-reload.png) in de hoger-juiste hoek van het beeld. Het aantal opnieuw laden is onbeperkt.
+Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aanmelden bij beheerder en Wachtwoord vergeten. De gebruikers van Admin kunnen de getoonde CAPTCHA opnieuw laden door _te klikken herlaadt_ ![&#x200B; pictogram opnieuw laden &#x200B;](./assets/CAPTCHA-icon-reload.png) in de hoger-juiste hoek van het beeld. Het aantal opnieuw laden is onbeperkt.
 
-![ Admin - Teken binnen met CAPTCHA ](./assets/security-captcha-admin.png){width="300"}
+![&#x200B; Admin - Teken binnen met CAPTCHA &#x200B;](./assets/security-captcha-admin.png){width="300"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -32,13 +32,13 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
 
 1. Stel in de rechterbovenhoek **[!UICONTROL Store View]** in op `Default` .
 
-   Als het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van uw installatie van Commerce veelvoudige websites omvat, kies de websites waar u de configuratie CAPTCHA wilt toepassen.
+   Als het [&#x200B; werkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) van uw installatie van Commerce veelvoudige websites omvat, kies de websites waar u de configuratie CAPTCHA wilt toepassen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL CAPTCHA]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL CAPTCHA]** sectie uit.
 
 1. Stel **[!UICONTROL Enable CAPTCHA in Admin]** in op `Yes` . Voer vervolgens de resterende opties als volgt uit:
 
-   ![ Admin - configuratie CAPTCHA ](../configuration-reference/advanced/assets/admin-captcha.png){width="600" zoomable="yes"}
+   ![&#x200B; Admin - configuratie CAPTCHA &#x200B;](../configuration-reference/advanced/assets/admin-captcha.png){width="600" zoomable="yes"}
 
    - Voer de naam in van de **[!UICONTROL Font]** die voor CAPTCHA-symbolen moet worden gebruikt (standaard: `LinLibertine`).
 
@@ -72,15 +72,15 @@ Voor een extra beveiligingsniveau kunt u een CAPTCHA toevoegen aan de pagina Aan
 
 Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij zich aanmelden bij hun accounts of na verschillende mislukte aanmeldingspogingen. Bovendien kunnen vele vormen die door de storefront worden gebruikt worden gevormd om controle door CAPTCHA te vereisen.
 
-![ CAPTCHA tijdens controle ](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
+![&#x200B; CAPTCHA tijdens controle &#x200B;](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Customer Configuration]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL CAPTCHA]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL CAPTCHA]** sectie uit.
 
-![ KLANT CAPTCHA configuratie ](../configuration-reference/customers/assets/customer-configuration-captcha.png){width="600" zoomable="yes"}
+![&#x200B; KLANT CAPTCHA configuratie &#x200B;](../configuration-reference/customers/assets/customer-configuration-captcha.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable CAPTCHA on Storefront]** in op `Yes` . Voer vervolgens de resterende opties als volgt uit:
 
@@ -98,10 +98,10 @@ Klanten kunnen worden verplicht om een CAPTCHA in te voeren telkens wanneer zij 
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (zie [ veiligheidspatch ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL) _artikel van de Kennisbank_)
-      - `Send to Friend Form` ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source)
-      - `Add Gift Card Code` ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
-      - `Create company` ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
+      - `Payflow Pro` (zie [&#x200B; veiligheidspatch &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=nl-NL) _artikel van de Kennisbank_)
+      - `Send to Friend Form` ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (slechts Magento Open Source)
+      - `Add Gift Card Code` ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+      - `Create company` ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts)
 
    - Stel **[!UICONTROL Displaying Mode]** in op een van de volgende opties:
 

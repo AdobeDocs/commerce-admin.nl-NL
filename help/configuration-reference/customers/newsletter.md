@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De nieuwsbrief maakt deel uit van marketinginstrumenten waarmee nieuws, kortingen en andere marketinge-mails naar klanten kunnen worden verzonden. De geregistreerde klanten kunnen hun abonnement van hun [ rekeningsdashboard ](../../customers/account-dashboard-my-account.md) beheren.
+>De nieuwsbrief maakt deel uit van marketinginstrumenten waarmee nieuws, kortingen en andere marketinge-mails naar klanten kunnen worden verzonden. De geregistreerde klanten kunnen hun abonnement van hun [&#x200B; rekeningsdashboard &#x200B;](../../customers/account-dashboard-my-account.md) beheren.
 
 ## [!UICONTROL General Options]
 
-![ Algemene Opties ](./assets/newsletter-general-options.png)<!-- zoom -->
+![&#x200B; Algemene Opties &#x200B;](./assets/newsletter-general-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Bepaalt als nieuwsbrieven voor het werkingsgebied van de archiefmening worden toegelaten. Opties: `Yes` / `No` |
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Subscription Options]
 
-![ Abonnementsopties ](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![&#x200B; Abonnementsopties &#x200B;](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Guest Subscription] | Winkelweergave | Hiermee bepaalt u of niet-geregistreerde gasten zich op een nieuwsbrief kunnen abonneren. Opties: `Yes` / `No` |
 | [!UICONTROL Need to Confirm] | Winkelweergave | Hiermee bepaalt u of abonnementsaanvragen moeten worden bevestigd. Deze dubbele-opt-in methode is een bevestigingsmaatregel die mensen verhindert te worden ingetekend zonder hun toestemming. Opties: `Yes` / `No` |

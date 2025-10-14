@@ -45,7 +45,7 @@ Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
 
 - **Verkoper** — Een Vertegenwoordiger kan een citaatmalplaatje van Admin namens een specifieke bedrijfkoper tot stand brengen. De verkoper kan de prijsverhogingsmalplaatje in Admin van een bestaand citaat of van het [!UICONTROL Quote Templates] net tot stand brengen en het opslaan als `draft` of het verzenden naar de koper om de onderhandeling te beginnen. In de conceptversie is de prijsopgave alleen zichtbaar voor de verkoper. Nadat het aanhalingsteken is verzonden, is de status `Submitted` . Deze kan pas door de verkoper worden gewijzigd nadat de koper de transactie heeft teruggestuurd.
 
-  ![ Verkoper die een koperscitaat van het net van Citaten in Admin in werking stelt ](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}
+  ![&#x200B; Verkoper die een koperscitaat van het net van Citaten in Admin in werking stelt &#x200B;](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}
 
   Wanneer de verkoper de aanhalingstekensjabloon maakt, wordt de vervaldatum ([!UICONTROL Valid until] datumveld) standaard ingesteld op 180 dagen. Als de koper de template heeft gemaakt, is de vervaldatum leeg.  De koper moet de vervaldatum instellen voordat de template ter controle naar de koper wordt teruggestuurd.
 
@@ -55,7 +55,7 @@ Offertesjablonen kunnen worden geïnitieerd door de koper of de verkoper.
 
 Het bekijken van of onderhandelen over een prijsopgavesjabloon kan onder meer bestaan uit het wijzigen van hoeveelheden, het verwijderen van objecten, het toevoegen van commentaar op regelobjecten, het toepassen van kortingen op regelobjecten of prijsopgaven (verkoper), het toevoegen van een verzendadres (koper) en het beheren van koppelingen naar referentiedocumenten.
 
-- **de meningsverzoek van de Verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]** net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de prijsopgave in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [ citaat onderhandeling ](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en verzendt het citaatmalplaatje terug naar de koper. De verkoper kan tijdens dit proces ook koppelingen naar referentiedocumenten toevoegen, bewerken of verwijderen. De koper en de verkoper worden per e-mail op de hoogte gesteld dat de verkoper heeft gereageerd.
+- **de meningsverzoek van de Verkoper en verzendt reactie** - in Admin, bekijkt de verkoper het citaatmalplaatje van het *[!UICONTROL Quote Templates]** net of opent het van de verbinding in het e-mailbericht. In de winkel verandert de status van de prijsopgave in `Pending` en kan de koper geen wijzigingen aanbrengen. Na het zelfde proces voor [&#x200B; citaat onderhandeling &#x200B;](quote-price-negotiation.md), antwoordt de verkoper door prijskortingen aan te bieden en hoeveelheden en punten aan te passen zoals nodig, gaat een commentaar in, en verzendt het citaatmalplaatje terug naar de koper. De verkoper kan tijdens dit proces ook koppelingen naar referentiedocumenten toevoegen, bewerken of verwijderen. De koper en de verkoper worden per e-mail op de hoogte gesteld dat de verkoper heeft gereageerd.
 
 - **de meningen van de koper citeren malplaatje van verkoper en verzendt reactie** - de koper klikt de verbinding in het e-mailbericht om het citaatmalplaatje te openen, of opent het van de _Mijn pagina van de Malplaatjes van het Citaat_ van het rekeningsdashboard. De koper kan opmerkingen aan de verkoper overlaten op het regel- of prijsniveau, hoeveelheden wijzigen, objecten verwijderen en koppelingen naar referentiedocumenten beheren.
 
@@ -67,7 +67,7 @@ Als de koper een verzendadres toevoegt, moet de onderhandelingsovereenkomst word
 
 **Stap 3: De koper keurt citaatmalplaatje** goed
 
-De koper accepteert de onderhandelde voorwaarden in de template. Nadat het citaatmalplaatje wordt goedgekeurd, kan de koper het gebruiken aan [ vooraf goedgekeurde, verbonden citaten ](account-dashboard-my-quote-templates.md#generate-a-linked-quote) produceren die kunnen worden gebruikt om orden voor te leggen zonder verdere onderhandeling te vereisen.
+De koper accepteert de onderhandelde voorwaarden in de template. Nadat het citaatmalplaatje wordt goedgekeurd, kan de koper het gebruiken aan [&#x200B; vooraf goedgekeurde, verbonden citaten &#x200B;](account-dashboard-my-quote-templates.md#generate-a-linked-quote) produceren die kunnen worden gebruikt om orden voor te leggen zonder verdere onderhandeling te vereisen.
 
 Verzendopties zijn vergrendeld bij afhandeling.
 
@@ -77,7 +77,7 @@ Offertesjablonen blijven actief totdat deze verlopen, geannuleerd of gesloten zi
 
 1. Klik in de kolom **[!UICONTROL Actions]** voor een record op **[!UICONTROL View]** .
 
-1. Om aan het klantenverzoek te antwoorden, volg de instructies en begin het zelfde [ proces van de prijsonderhandeling ](quote-price-negotiation.md) dat aan onderhandelingscitaten wordt gebruikt.
+1. Om aan het klantenverzoek te antwoorden, volg de instructies en begin het zelfde [&#x200B; proces van de prijsonderhandeling &#x200B;](quote-price-negotiation.md) dat aan onderhandelingscitaten wordt gebruikt.
 
 ### Sjabloonactiviteit voor aanhalingstekens weergeven
 
@@ -87,11 +87,11 @@ Bekijk de tijdlijn van de onderhandeling, de communicatie, en andere activiteit 
 
 1. Opmerkingen bij de onderhandeling en de geschiedenis van aanhalingstekens weergeven door naar **[!UICONTROL Negotiation]** te schuiven en **[!UICONTROL Comments]** en **[!UICONTROL History Log]** te selecteren.
 
-   ![ Geschiedenis van de Mening ](./assets/quote-view-history.png){width="400" zoomable="yes"}
+   ![&#x200B; Geschiedenis van de Mening &#x200B;](./assets/quote-view-history.png){width="400" zoomable="yes"}
 
 1. De geschiedenis wordt ook bijgehouden op het niveau van het lijnpunt.
 
-   ![ de Geschiedenis van het Punt van de Lijn van de Mening ](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
+   ![&#x200B; de Geschiedenis van het Punt van de Lijn van de Mening &#x200B;](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
 
 ### Een aanhalingstekensjabloon afwijzen
 

@@ -18,7 +18,7 @@ Het archief van de Acties Admin [&#128279;](action-log.md) maakt een lijst van d
 
 >[!NOTE]
 >
->Het archiveren van het logboek vereist a [ cron baan ](cron.md) om opstelling te zijn.
+>Het archiveren van het logboek vereist a [&#x200B; cron baan &#x200B;](cron.md) om opstelling te zijn.
 
 ## Logarchief configureren
 
@@ -26,14 +26,14 @@ Het archief van de Acties Admin [&#128279;](action-log.md) maakt een lijst van d
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Log Archiving]** sectie uit en plaats deze opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Admin Actions Log Archiving]** sectie uit en plaats deze opties:
 
    - **[!UICONTROL Log Entry Lifetime, Days]** — Voer het aantal dagen in dat u de logbestandvermeldingen in de database wilt behouden voordat ze worden verwijderd.
    - **[!UICONTROL Log Archiving Frequency]** — Ingesteld op `Daily` , `Weekly` of `Monthly` .
 
-   ![ Geavanceerde configuratie - het archiveren van het admin actielogboek ](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - het archiveren van het admin actielogboek &#x200B;](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van de configuratiemontages, zie [ Logarchivering van Acties Admin ](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van de configuratiemontages, zie [&#x200B; Logarchivering van Acties Admin &#x200B;](../configuration-reference/advanced/system.md) in de _Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -41,4 +41,4 @@ Het archief van de Acties Admin [&#128279;](action-log.md) maakt een lijst van d
 
 Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**.
 
-![ archief van het Logboek van de Actie ](./assets/action-log-archive.png){width="600" zoomable="yes"}
+![&#x200B; archief van het Logboek van de Actie &#x200B;](./assets/action-log-archive.png){width="600" zoomable="yes"}

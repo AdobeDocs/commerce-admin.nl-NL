@@ -18,13 +18,13 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 >
 >Als de regel voor het couponwinkelwagentje voorwaarden bevat die afhandelingsopties specificeren, zoals bepaalde verzend- of betalingsmethoden, wordt alleen aan de voorwaarden voldaan bij afhandeling nadat de specifieke verzend-/betalingsmethoden zijn geselecteerd. In dit geval kan de coupon worden toegepast bij afhandeling in de laatste stap.
 
-![ Voorbeeld storefront - kart past coupon toe ](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![&#x200B; Voorbeeld storefront - kart past coupon toe &#x200B;](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## Toegangsprijsregels
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
-   ![ de prijsregel van de Kar ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar &#x200B;](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
 1. Als u veel regels hebt, gebruikt u de filteropties boven aan elke kolom om de lijst te stroomlijnen en klikt u op **[!UICONTROL Search]** om de filters toe te passen.
 
@@ -32,9 +32,9 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 
 1. Eigenschappen voor een regel bijwerken:
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de pagina van de Informatie van de Regel te tonen.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de pagina van de Informatie van de Regel te tonen.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de pagina van de Informatie van de Regel te tonen.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de pagina van de Informatie van de Regel te tonen.
 
    Daar kunt u de montages voor de regel (gelijkend op het creëren van een regel) veranderen.
 
@@ -48,9 +48,9 @@ Met de prijsregels voor winkelwagentjes worden op basis van een aantal voorwaard
 | [!UICONTROL Priority] | Vrije-tekstveld dat de lijst filtert op basis van de prioriteit die voor een regel is gedefinieerd. |
 | [!UICONTROL Status] | Gebruik deze optie om de lijst te filteren op regelstatus (`Active` of `Inactive`). |
 | [!UICONTROL Web Site] | Met deze optie filtert u de lijst op basis van websites die voor een regel zijn gedefinieerd. |
-| [!UICONTROL Action] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen en de regelmontages (gelijkend op het creëren van een regel) bij te werken. |
-| [!UICONTROL Start] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
-| [!UICONTROL End] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die toen de regel werd gecreeerd. |
+| [!UICONTROL Action] | ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen en de regelmontages (gelijkend op het creëren van een regel) bij te werken. |
+| [!UICONTROL Start] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL End] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die toen de regel werd gecreeerd. |
 
 {style="table-layout:auto"}
 

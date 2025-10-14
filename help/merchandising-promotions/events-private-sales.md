@@ -17,34 +17,34 @@ ht-degree: 0%
 
 De privé verkoop en andere catalogusgebeurtenissen zijn een uitstekende manier om uw bestaande klantenbasis te gebruiken om bozz en nieuwe lood te produceren, of overtollige voorraad te offloaden. U kunt verkopen in beperkte tijd tot stand brengen, verkoop beperken aan specifieke leden, of een stand-alone privé verkooppagina tot stand brengen. U kunt ook uitnodigingen en gebeurtenisdetails definiëren. Verhoog de merkloyaliteit en produceer een buzz door uw beste klanten de behandeling van VIP te geven. Bied exclusieve toegang aan de verkoop of de particuliere verkoop van leden om merkloyaliteit te verhogen. U kunt deze verkopen ook gebruiken om overtollige goederen te liquideren. Klantengroepen zijn handig voor het instellen van alleen deze typen leden en de verkoop van VIP.
 
-![ de storefront van het Voorbeeld - gebeurtenis op homepage ](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - gebeurtenis op homepage &#x200B;](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 
 ## Gebeurtenisbeheercomponenten
 
-- **Categorieën** - Elke gebeurtenis wordt geassocieerd met a [ categorie ](../catalog/category-create.md) van uw catalogus.
+- **Categorieën** - Elke gebeurtenis wordt geassocieerd met a [&#x200B; categorie &#x200B;](../catalog/category-create.md) van uw catalogus.
 
-- **Gebeurtenissen** - de verkoop van de Gebeurtenis is is gebaseerd op een beginnende en beëindigende datum. U kunt a [ teller tikker ](#event-ticker) gebruiken om de resterende tijd te tonen.
+- **Gebeurtenissen** - de verkoop van de Gebeurtenis is is gebaseerd op een beginnende en beëindigende datum. U kunt a [&#x200B; teller tikker &#x200B;](#event-ticker) gebruiken om de resterende tijd te tonen.
 
-- **de gebeurteniscarrousel van de Catalogus** - wanneer de [ Widget van de Gebeurtenis van de Catalogus ](../content-design/widget-event-carousel.md) in de configuratie wordt toegelaten, kan het op opslagpagina&#39;s als lijst van open en aanstaande gebeurtenissen worden geplaatst, die door einddatum worden gesorteerd. Als twee of meer gebeurtenissen dezelfde einddatum hebben, worden de gebeurtenissen gesorteerd op basis van de volgorde die in de configuratie is opgegeven.
+- **de gebeurteniscarrousel van de Catalogus** - wanneer de [&#x200B; Widget van de Gebeurtenis van de Catalogus &#x200B;](../content-design/widget-event-carousel.md) in de configuratie wordt toegelaten, kan het op opslagpagina&#39;s als lijst van open en aanstaande gebeurtenissen worden geplaatst, die door einddatum worden gesorteerd. Als twee of meer gebeurtenissen dezelfde einddatum hebben, worden de gebeurtenissen gesorteerd op basis van de volgorde die in de configuratie is opgegeven.
 
-- **[!UICONTROL Websites]** - de toestemmingen van de Categorie zijn hoofdzakelijk gebaseerd op [ klantengroepen ](../customers/customer-groups.md).
+- **[!UICONTROL Websites]** - de toestemmingen van de Categorie zijn hoofdzakelijk gebaseerd op [&#x200B; klantengroepen &#x200B;](../customers/customer-groups.md).
 
-- {de toestemmingen van de Categorie van 0} **- [ toestemmingen van de Categorie ](../catalog/category-permissions.md) geeft u volledige controle over de specifieke activiteiten die in een bepaalde categorie kunnen plaatsvinden.**
+- {de toestemmingen van de Categorie van 0} **- [&#x200B; toestemmingen van de Categorie &#x200B;](../catalog/category-permissions.md) geeft u volledige controle over de specifieke activiteiten die in een bepaalde categorie kunnen plaatsvinden.**
 
-- **de beperkingen van de Toegang** - verhindert openbare [ toegang ](event-configure.md#restrict-access) aan de plaats door aan een het landen pagina, login pagina, of registratiepagina opnieuw te richten.
+- **de beperkingen van de Toegang** - verhindert openbare [&#x200B; toegang &#x200B;](event-configure.md#restrict-access) aan de plaats door aan een het landen pagina, login pagina, of registratiepagina opnieuw te richten.
 
-- **Uitnodigingen** - De e-mailberichten worden verzonden met een verbinding om een rekening in de opslag tot stand te brengen. U kunt de capaciteit beperken om een rekening tot slechts die tot stand te brengen die een [ uitnodiging ](invitations.md) ontvangen.
+- **Uitnodigingen** - De e-mailberichten worden verzonden met een verbinding om een rekening in de opslag tot stand te brengen. U kunt de capaciteit beperken om een rekening tot slechts die tot stand te brengen die een [&#x200B; uitnodiging &#x200B;](invitations.md) ontvangen.
 
-- **Privé verkooprapporten** - de [ Privé Rapporten van de Verkoop ](../getting-started/private-sales-reports.md) verstrekken informatie over verzonden uitnodigingen, uitgenodigde klanten, en omzettingen.
+- **Privé verkooprapporten** - de [&#x200B; Privé Rapporten van de Verkoop &#x200B;](../getting-started/private-sales-reports.md) verstrekken informatie over verzonden uitnodigingen, uitgenodigde klanten, en omzettingen.
 
 ## Gebeurtenismarkering
 
 Het blok van de tikker toont een tellerteken voor open gebeurtenissen, met de begin en einddatum voor aanstaande gebeurtenissen. Als een gebeurtenis is gesloten, geeft de ticker de begin- en einddatum weer.
 
-![ de storefront van het Voorbeeld - gebeurteniscarrousel ](./assets/storefront-event-ticker-carousel.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - gebeurteniscarrousel &#x200B;](./assets/storefront-event-ticker-carousel.png){width="700" zoomable="yes"}
 
 Als de markering voor de categoriepagina is ingeschakeld voor een gebeurtenis, wordt het tickerblok boven aan de categorielijst weergegeven. Als de tikker van de productpagina wordt toegelaten, verschijnt het tikkerblok ook bij de bovenkant van de productpagina van om het even welk product dat met de categorie wordt geassocieerd.
 
-De gebeurtenismarkering kan worden toegelaten wanneer u [ creërend gebeurtenissen ](event-create.md).
+De gebeurtenismarkering kan worden toegelaten wanneer u [&#x200B; creërend gebeurtenissen &#x200B;](event-create.md).
 
-![ Voorbeeld storefront - gebeurtenis sidebar ](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}
+![&#x200B; Voorbeeld storefront - gebeurtenis sidebar &#x200B;](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}

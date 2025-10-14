@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Referentie productgegevenskenmerken
 
-De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [ uitvoeren ](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
+De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [&#x200B; uitvoeren &#x200B;](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
 
 Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de voorbeeldgegevens geïnstalleerd. Er zijn twee websites en verschillende winkelweergaven. Hoewel deze lijst alle kolommen bevat die doorgaans worden geëxporteerd, is `sku` de enige vereiste waarde. Als u gegevens wilt importeren, kunt u alleen de kolommen met wijzigingen opnemen. De `sku` moet de eerste kolom zijn, maar de volgorde van de overige kenmerken is niet van belang.
 
@@ -123,7 +123,7 @@ De term complexe gegevens verwijst naar de gegevens die zijn gekoppeld aan meerd
 
 Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van een eenvoudig product plus de aanvullende kenmerken die nodig zijn voor het beheer van complexe gegevens.
 
-![ Configureerbaar product - uitgevoerde gegevens ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![&#x200B; Configureerbaar product - uitgevoerde gegevens &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### Configureerbare producten
 
@@ -155,20 +155,20 @@ Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van 
 
 ## Geavanceerde prijskenmerken
 
-Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [ in te voeren ](data-import.md) en [ uitvoer ](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
+Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [&#x200B; in te voeren &#x200B;](data-import.md) en [&#x200B; uitvoer &#x200B;](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
 
-![ de uitvoergegevens van het Voorbeeld - geavanceerde tarifering ](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
+![&#x200B; de uitvoergegevens van het Voorbeeld - geavanceerde tarifering &#x200B;](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 | Kenmerk | Beschrijving |
 |--- |--- |
 | `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_**&#x200B;Een SKU langer dan 64 karakters veroorzaakt invoer om te ontbreken. |
-| `tier_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | Identificeert de [ groepen van klanten ](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `tier_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | Identificeert de [&#x200B; groepen van klanten &#x200B;](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identificeert de klantengroepen waar de rijprijs beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | De hoeveelheid van het product die moet worden besteld om de korting op de tier-prijs te ontvangen. |
-| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
-| `group_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
+| `group_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | Identificeert de groepen van klanten waar de groepsprijzen beschikbaar zijn. Bijvoorbeeld: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | De gedisconteerde groepsprijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
+| `group_price` | De gedisconteerde groepsprijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
 
 {style="table-layout:auto"}

@@ -18,7 +18,7 @@ Als een klant _wordt herinnerd_, blijft de inhoud van hun het winkelwagentje toe
 
 Een hardnekkig winkelwagentje kan het aantal verlaten winkelwagentjes verminderen en de verkoop verhogen. Het blijvende het winkelwagentje **stelt niet** gevoelige rekeningsinformatie op geen enkel ogenblik bloot.
 
-Om het gebruik van kartpersistentie voor uw plaats of binnen specifieke archiefmeningen te beheren, kunt u [ blijvende het winkelen kar ](#configure-a-persistent-cart) montages vormen. Voor meer informatie over hoe deze montages de verkoopervaring in uw winkelfront beïnvloeden, zie [ het Blijvende werkschema van het karretje ](#persistent-cart-workflow).
+Om het gebruik van kartpersistentie voor uw plaats of binnen specifieke archiefmeningen te beheren, kunt u [&#x200B; blijvende het winkelen kar &#x200B;](#configure-a-persistent-cart) montages vormen. Voor meer informatie over hoe deze montages de verkoopervaring in uw winkelfront beïnvloeden, zie [&#x200B; het Blijvende werkschema van het karretje &#x200B;](#persistent-cart-workflow).
 
 >[!NOTE]
 >
@@ -57,9 +57,9 @@ Klanten kunnen het selectievakje _[!UICONTROL Remember Me]_&#x200B;inschakelen o
 
 {style="table-layout:auto"}
 
-![ herinner me Login van de Klant ](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![ herinner me Pop-up van de Authentificatie ](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![ herinner me Afmelden-ins van de Afhandeling ](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![&#x200B; herinner me Login van de Klant &#x200B;](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![&#x200B; herinner me Pop-up van de Authentificatie &#x200B;](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![&#x200B; herinner me Afmelden-ins van de Afhandeling &#x200B;](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Persistentie bij afmelden wissen, gedrag
 
@@ -86,7 +86,7 @@ Als u het hardnekkige winkelwagentje wilt gebruiken, moet de browser van de klan
 
 - **het Aanhoudende Koekje** - een langdurige, blijvende koekje blijft bestaan na het het programma geopende zittingseind. Dit cookie zorgt ervoor dat de inhoud van het winkelwagentje van een klant toegankelijk blijft wanneer de klant zich afmeldt of de sessie verloopt.
 
-Voor meer informatie over hoe deze configuratiemontages het klantenwerkschema beïnvloeden, zie [ het Blijvende werkschema van het karretje ](#persistent-cart-workflow).
+Voor meer informatie over hoe deze configuratiemontages het klantenwerkschema beïnvloeden, zie [&#x200B; het Blijvende werkschema van het karretje &#x200B;](#persistent-cart-workflow).
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
 

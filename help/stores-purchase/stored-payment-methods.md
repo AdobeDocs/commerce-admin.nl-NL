@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Opgeslagen betalingsmethoden
 
-Klanten met toegang tot een beveiligde kluis voor het opslaan van betalingsgegevens kunnen de afhandeling versnellen zonder telkens hun creditcardgegevens in te voeren. Als [ Onmiddellijke Aankoop ](checkout-instant-purchase.md) wordt toegelaten, kunnen de klanten het twee-stap controleproces omzeilen en de orde van de productpagina plaatsen.
+Klanten met toegang tot een beveiligde kluis voor het opslaan van betalingsgegevens kunnen de afhandeling versnellen zonder telkens hun creditcardgegevens in te voeren. Als [&#x200B; Onmiddellijke Aankoop &#x200B;](checkout-instant-purchase.md) wordt toegelaten, kunnen de klanten het twee-stap controleproces omzeilen en de orde van de productpagina plaatsen.
 
-Een betalingsmethode die een veilige kluis, zoals [ Braintree ](braintree.md) steunt, wordt vereist. Wanneer een beveiligde kluis is ingeschakeld in de configuratie van de betalingsmethode, hebben klanten tijdens het afrekenen de optie om hun creditcardgegevens op te slaan als een opgeslagen betalingsmethode. Klanten kunnen opgeslagen betalingsmethoden beheren vanaf het dashboard van hun account.
+Een betalingsmethode die een veilige kluis, zoals [&#x200B; Braintree &#x200B;](braintree.md) steunt, wordt vereist. Wanneer een beveiligde kluis is ingeschakeld in de configuratie van de betalingsmethode, hebben klanten tijdens het afrekenen de optie om hun creditcardgegevens op te slaan als een opgeslagen betalingsmethode. Klanten kunnen opgeslagen betalingsmethoden beheren vanaf het dashboard van hun account.
 
-![ Opgeslagen Methoden van de Betaling ](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
+![&#x200B; Opgeslagen Methoden van de Betaling &#x200B;](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
 
 ## Opgeslagen betalingsmethode toevoegen bij afhandeling
 

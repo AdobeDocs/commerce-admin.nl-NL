@@ -22,7 +22,7 @@ De toegang van de categorie kan tot specifieke klantengroepen worden beperkt, of
 
 Bijvoorbeeld, als u slechts aan groothandelsklanten verkoopt, kunt u iedereen toestaan om de catalogus te doorbladeren, maar vertoningsprijzen en aankopen slechts voor kopers in de _Groothandel_ klantengroep toe te staan. In het volgende voorbeeld hebben alleen aangemelde gebruikers toegang tot de categorie &quot;Verzamelingen&quot;. Voor gasten verschijnt de optie &quot;Verzamelingen&quot; niet in het hoofdmenu.
 
-![ Logged-in gebruikers zien &quot;Inzamelingen&quot;categorie ](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
+![&#x200B; Logged-in gebruikers zien &quot;Inzamelingen&quot;categorie &#x200B;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
 Als deze optie is ingeschakeld, wordt op de pagina Categorie een nieuwe sectie _[!UICONTROL Category Permissions]_&#x200B;weergegeven waarmee u de benodigde toegang voor elke categorie kunt toepassen. U kunt veelvoudige toestemmingsregels aan elke categorie voor verschillende websites en klantengroepen toevoegen.
 
@@ -30,17 +30,17 @@ Als deze optie is ingeschakeld, wordt op de pagina Categorie een nieuwe sectie _
 
 >[!IMPORTANT]
 >
->Alle bestaande [ montages van de groepstoestemming ](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
+>Alle bestaande [&#x200B; montages van de groepstoestemming &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) worden genegeerd door **_alle_** categorieën in de catalogus wanneer de **_[!UICONTROL Shared Catalog]_** eigenschap wordt toegelaten. [!UICONTROL Shared Catalog] beheert alle categorierechten in de catalogus volledig wanneer deze is ingeschakeld.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Category Permissions]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Category Permissions]** sectie uit.
 
-   ![ Toestemmingen van de Categorie ](../configuration-reference/catalog/assets/catalog-category-permissions.png){width="600" zoomable="yes"}
+   ![&#x200B; Toestemmingen van de Categorie &#x200B;](../configuration-reference/catalog/assets/catalog-category-permissions.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [ Toestemmingen van de Categorie ](../configuration-reference/catalog/catalog.md#category-permissions) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Toestemmingen van de Categorie &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` .
 
@@ -52,7 +52,7 @@ Als deze optie is ingeschakeld, wordt op de pagina Categorie een nieuwe sectie _
 
 ### [!UICONTROL Allow Browsing Category]
 
-Deze optie is op alle categorieën in de [ website ](../getting-started/websites-stores-views.md) van toepassing.
+Deze optie is op alle categorieën in de [&#x200B; website &#x200B;](../getting-started/websites-stores-views.md) van toepassing.
 
 Om leden van a **_specifieke klantengroep_** toe te staan om door categorieproducten te doorbladeren, doe het volgende:
 
@@ -62,7 +62,7 @@ Om leden van a **_specifieke klantengroep_** toe te staan om door categorieprodu
 
    Als u meerdere groepen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt terwijl u op elke groep klikt.
 
-   ![ toestaan het doorbladeren door Groot-Brittannië Groep van de Klant ](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; toestaan het doorbladeren door Groot-Brittannië Groep van de Klant &#x200B;](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
 
 Om **_toegang te beperken en aan een het landen pagina_** om te leiden, doe het volgende:
 
@@ -70,7 +70,7 @@ Om **_toegang te beperken en aan een het landen pagina_** om te leiden, doe het 
 
 1. Kies de **[!UICONTROL Landing Page]** waar bezoekers worden omgeleid.
 
-   ![ opnieuw richt aan de Pagina van het Huis ](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
+   ![&#x200B; opnieuw richt aan de Pagina van het Huis &#x200B;](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Om **_toegang te beperken en aan een het landen pagina_** om te leiden, doe het 
 
 ### [!UICONTROL Display Product Prices]
 
-Deze optie is op alle categorieën in de [ website ](../getting-started/websites-stores-views.md) van toepassing.
+Deze optie is op alle categorieën in de [&#x200B; website &#x200B;](../getting-started/websites-stores-views.md) van toepassing.
 
 Om slechts leden van **_specifieke klantengroepen_** toe te staan om de prijs van producten in de categorie te zien, doe het volgende:
 
@@ -88,11 +88,11 @@ Om slechts leden van **_specifieke klantengroepen_** toe te staan om de prijs va
 
    Als u meerdere groepen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt terwijl u op elke groep klikt.)
 
-   ![ slechts de Groot klantengroep kan prijzen zien ](./assets/category-permissions-price-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; slechts de Groot klantengroep kan prijzen zien &#x200B;](./assets/category-permissions-price-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Allow Adding to Cart]
 
-Deze optie is op alle categorieën in de [ website ](../getting-started/websites-stores-views.md) van toepassing.
+Deze optie is op alle categorieën in de [&#x200B; website &#x200B;](../getting-started/websites-stores-views.md) van toepassing.
 
 Om slechts leden van **_specifieke klantengroepen_** toe te staan om categorieproducten in het winkelwagentje te zetten, doe het volgende:
 
@@ -102,11 +102,11 @@ Om slechts leden van **_specifieke klantengroepen_** toe te staan om categoriepr
 
    Als u meerdere groepen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt terwijl u op elke groep klikt.
 
-   ![ slechts de Groot klantengroep kan product in kar zetten ](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; slechts de Groot klantengroep kan product in kar zetten &#x200B;](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Disallow Catalog Search]
 
-Stel deze optie in om te voorkomen dat leden van een specifieke klantengroep de functie Zoeken in catalogi gebruiken. Het is op alle categorieën in de [ website ](../getting-started/websites-stores-views.md) van toepassing.
+Stel deze optie in om te voorkomen dat leden van een specifieke klantengroep de functie Zoeken in catalogi gebruiken. Het is op alle categorieën in de [&#x200B; website &#x200B;](../getting-started/websites-stores-views.md) van toepassing.
 
 - Om **_slechts het programma geopende klanten_** toe te staan om het Onderzoek van de Catalogus te gebruiken, uitgezochte `NOT LOGGED IN`.
 
@@ -114,7 +114,7 @@ Stel deze optie in om te voorkomen dat leden van een specifieke klantengroep de 
 
   Als u meerdere groepen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt terwijl u op elke groep klikt.
 
-  ![ het onderzoek van de Catalogus niet toegestaan voor Algemene klantengroep ](./assets/category-permissions-disallow-category-search.png){width="600" zoomable="yes"}
+  ![&#x200B; het onderzoek van de Catalogus niet toegestaan voor Algemene klantengroep &#x200B;](./assets/category-permissions-disallow-category-search.png){width="600" zoomable="yes"}
 
 ## Stap 2: Categoriemachtigingen toepassen
 
@@ -122,11 +122,11 @@ Stel deze optie in om te voorkomen dat leden van een specifieke klantengroep de 
 
 1. Selecteer de doelcategorie in de categoriestructuur.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Category Permissions]** op de pagina uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Category Permissions]** op de pagina uit en doe het volgende:
 
    - Klik op **[!UICONTROL New Permission]** om een machtigingsregel te maken.
 
-     ![ Sectie van de Toestemmingen van de Categorie ](./assets/category-permissions-section-admin.png){width="600" zoomable="yes"}
+     ![&#x200B; Sectie van de Toestemmingen van de Categorie &#x200B;](./assets/category-permissions-section-admin.png){width="600" zoomable="yes"}
 
    - Kies de toepasselijke **[!UICONTROL Website]** en **[!UICONTROL Customer Group]** .
 
@@ -134,7 +134,7 @@ Stel deze optie in om te voorkomen dat leden van een specifieke klantengroep de 
 
    >[!NOTE]
    >
-   >Wanneer `Browsing Category` = `Deny` toestemming voor om het even welke oudercategorie wordt geplaatst, wordt het niet getoond op het [ BreadcrumbSpoor ](navigation-breadcrumb-trail.md) op de pagina van de kindcategorie.
+   >Wanneer `Browsing Category` = `Deny` toestemming voor om het even welke oudercategorie wordt geplaatst, wordt het niet getoond op het [&#x200B; BreadcrumbSpoor &#x200B;](navigation-breadcrumb-trail.md) op de pagina van de kindcategorie.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

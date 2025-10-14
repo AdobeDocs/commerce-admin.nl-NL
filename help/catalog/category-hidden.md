@@ -25,7 +25,7 @@ Verborgen categorieën kunnen op verschillende manieren worden gebruikt. U zou e
 
 1. Stel **[!UICONTROL Anchor]** in op `No` in de sectie **[!UICONTROL Display Settings]** .
 
-   ![ Verborgen categorie ](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; Verborgen categorie &#x200B;](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    De verborgen categorie is actief, maar wordt niet weergegeven in het bovenste menu of in gelaagde navigatie.
 

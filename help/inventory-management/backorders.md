@@ -39,9 +39,9 @@ Hieronder ziet u een voorbeeld:
 
 De verkoopbare hoeveelheid voor dit product is `75 (25 - (-50))` .
 
-![ Aanpasbare Hoeveelheid van het Voorbeeld vóór toegelaten backorders ](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
+![&#x200B; Aanpasbare Hoeveelheid van het Voorbeeld vóór toegelaten backorders &#x200B;](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![ Aanpasbare Aantal van het Voorbeeld na toegelaten backorders ](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
+![&#x200B; Aanpasbare Aantal van het Voorbeeld na toegelaten backorders &#x200B;](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
 Wanneer klanten de beschikbare 25 producten aanschaffen, worden nieuwe bestellingen ingevoerd als backorders. Aangezien het Aankoopbare Aantal van het product tot 5 (70 punten zijn verkocht) vermindert, toont de _pagina van het Product_ een bericht `Only 5 left` op de winkel. Wanneer het Aankoopbare Aantal `0` bereikt, wordt het product weergegeven als `Out of Stock` in de winkel.
 
@@ -67,7 +67,7 @@ Deze stappen laten backorders voor alle producten op het plaatniveau toe.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]** uit.
 
 1. Schakel voor **[!UICONTROL Backorders]** het selectievakje **[!UICONTROL Use system value]** uit en selecteer een optie:
 
@@ -117,6 +117,6 @@ Configuraties op productniveau overschrijven algemene configuraties. U kunt back
    | Nul | Als Achterorden ingeschakeld is en u `0` invoert, zijn oneindige achterorden mogelijk. |
    | Negatief bedrag | Als Achterorden ingeschakeld, wordt u aangeraden een negatieve waarde in te voeren. Het bedrag wordt toegevoegd aan de verkoopbare hoeveelheid. Voer bijvoorbeeld `-50` in om bestellingen tot dat bedrag toe te staan. |
 
-   ![ Geavanceerde die Inventaris voor Achterorden ](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"} wordt gevormd
+   ![&#x200B; Geavanceerde die Inventaris voor Achterorden &#x200B;](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"} wordt gevormd
 
 1. Klik op **[!UICONTROL Done]** en vervolgens op **[!UICONTROL Save]** .

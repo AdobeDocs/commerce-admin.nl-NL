@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op de opslagruimte, worden de bedrijfgebruikers toegewezen door de bedrijfbeheerder, en zijn zichtbaar van de _[!UICONTROL Company Users]_&#x200B;pagina. Deze personen zijn doorgaans kopers met verschillende machtigingsniveaus voor toegang tot services en bronnen in de winkel.
 
-De bedrijfbeheerder plaatst eerst omhoog de [ bedrijfstructuur ](account-company-structure.md), en voltooit dan de volgende taken, zoals nodig:
+De bedrijfbeheerder plaatst eerst omhoog de [&#x200B; bedrijfstructuur &#x200B;](account-company-structure.md), en voltooit dan de volgende taken, zoals nodig:
 
 - Bedrijfgebruikers maken en gebruikers toewijzen aan teams
 
@@ -33,7 +33,7 @@ De gebruikers van het bedrijf kunnen slechts door de bedrijfbeheerder worden toe
 
 1. Kies **[!UICONTROL Company Users]** in het linkerdeelvenster.
 
-   ![ Gebruikers van het Bedrijf ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Gebruikers van het Bedrijf &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add New User]** en voer de volgende handelingen uit:
 
@@ -41,7 +41,7 @@ De gebruikers van het bedrijf kunnen slechts door de bedrijfbeheerder worden toe
 
    - Kies de juiste **[!UICONTROL User Role]** als de rollen en machtigingen zijn gedefinieerd. Anders kunnen ze later terugkeren om de rol toe te wijzen.
 
-     ![ voeg nieuwe gebruiker ](./assets/company-structure-users-add.png){width="700" zoomable="yes"} toe
+     ![&#x200B; voeg nieuwe gebruiker &#x200B;](./assets/company-structure-users-add.png){width="700" zoomable="yes"} toe
 
    - Voegt de gebruikersinformatie in de resterende gebieden toe:
       - **[!UICONTROL First Name]** en **[!UICONTROL Last Name]**
@@ -56,7 +56,7 @@ De gebruikers van het bedrijf kunnen slechts door de bedrijfbeheerder worden toe
 
    De nieuwe gebruikers verschijnen in de lijst van de Gebruikers van het Bedrijf, samen met de Beheerder van het Bedrijf.
 
-Om tijd tijdens hun eerste orde te besparen, kan de bedrijfbeheerder elke bedrijfgebruiker eraan herinneren om het standaardbedrijf het factureren en het verschepen adres aan hun [ adresboek ](../customers/account-dashboard-address-book.md) toe te voegen.
+Om tijd tijdens hun eerste orde te besparen, kan de bedrijfbeheerder elke bedrijfgebruiker eraan herinneren om het standaardbedrijf het factureren en het verschepen adres aan hun [&#x200B; adresboek &#x200B;](../customers/account-dashboard-address-book.md) toe te voegen.
 
 ## Een gebruiker verwijderen uit de [!UICONTROL Company structure]
 
@@ -73,17 +73,17 @@ De beheerder kan een account opnieuw activeren door de gegevens van de gebruiker
 
 1. Klik op **[!UICONTROL Remove from Structure]** .
 
-   ![ Schrap Gebruiker ](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![&#x200B; Schrap Gebruiker &#x200B;](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Remove]** wanneer u wordt gevraagd om te bevestigen.
 
-   In Admin, blijft de bedrijfgebruiker vermeld in het [ netwerk van Klanten ](../customers/customers-all.md), maar met een `Inactive` status.
+   In Admin, blijft de bedrijfgebruiker vermeld in het [&#x200B; netwerk van Klanten &#x200B;](../customers/customers-all.md), maar met een `Inactive` status.
 
 ## Gebruikersaccounts van bedrijven weergeven en beheren
 
 Bedrijfsbeheerders kunnen bedrijfsgebruikersaccounts weergeven en beheren met de weergavefilters op de pagina [!UICONTROL Company Users] .
 
-![ Gebruikers van het Bedrijf ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+![&#x200B; Gebruikers van het Bedrijf &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 - Selecteer **[!UICONTROL Show Inactive Users]** om alleen inactieve gebruikers weer te geven.
 - Selecteer **[!UICONTROL Show Active Users]** om alleen actieve gebruikers weer te geven.
@@ -109,7 +109,7 @@ Bedrijfsbeheerders kunnen de profielgegevens van gebruikersaccounts bijwerken en
 
 1. Zoek op de pagina [!UICONTROL Company Users] naar de gebruikersaccount die u wilt bijwerken. Klik op **[!UICONTROL Manage]**.
 
-   ![ beheert gebruiker van de pagina van de Gebruikers van het Bedrijf ](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; beheert gebruiker van de pagina van de Gebruikers van het Bedrijf &#x200B;](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
 
 1. Schakel desgevraagd de gebruikersaccount in of verwijder deze.
 
@@ -122,7 +122,7 @@ Bedrijfsbeheerders kunnen de profielgegevens van gebruikersaccounts bijwerken en
 | Veld | Beschrijving |
 |--------------------------------|---------------|
 | [!UICONTROL Job Title] | De functie van de bedrijfgebruiker. |
-| [!UICONTROL User Role] | De [ rol ](account-company-roles-permissions.md) die aan de bedrijfgebruiker wordt toegewezen. Opties: `Default User` / (andere rollen) |
+| [!UICONTROL User Role] | De [&#x200B; rol &#x200B;](account-company-roles-permissions.md) die aan de bedrijfgebruiker wordt toegewezen. Opties: `Default User` / (andere rollen) |
 | [!UICONTROL First Name] | De voornaam van de bedrijfgebruiker. |
 | [!UICONTROL Last Name] | De achternaam van de bedrijfgebruiker. |
 | [!UICONTROL Email] | Het e-mailadres van de bedrijfgebruiker. |

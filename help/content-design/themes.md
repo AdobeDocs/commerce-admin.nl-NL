@@ -17,15 +17,15 @@ Een thema is een verzameling bestanden die de visuele presentatie van uw winkel 
 
 Met een responsief thema past u de paginalay-out aan de weergavepoort van het apparaat aan. Het steekproef _thema van de Luma_ heeft een flexibele, ontvankelijke lay-out die van de Desktop, de tablet, of het mobiele apparaat kan worden bekeken.
 
-Tot de thema&#39;s van [!DNL Commerce] behoren lay-outbestanden, sjabloonbestanden, vertaalbestanden en skins. Een skin is een verzameling ondersteunende CSS-, afbeeldings- en JavaScript-bestanden die samen de visuele presentatie en interacties maken die uw klanten ervaren wanneer ze uw winkel bezoeken. Thema&#39;s en skins kunnen worden gewijzigd en aangepast door een ontwikkelaar of ontwerper die het Commerce-themaontwerp begrijpt en toegang heeft tot uw server. Meer leren, zie de [_Voorste Gids van de Ontwikkelaar_ ](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
+Tot de thema&#39;s van [!DNL Commerce] behoren lay-outbestanden, sjabloonbestanden, vertaalbestanden en skins. Een skin is een verzameling ondersteunende CSS-, afbeeldings- en JavaScript-bestanden die samen de visuele presentatie en interacties maken die uw klanten ervaren wanneer ze uw winkel bezoeken. Thema&#39;s en skins kunnen worden gewijzigd en aangepast door een ontwikkelaar of ontwerper die het Commerce-themaontwerp begrijpt en toegang heeft tot uw server. Meer leren, zie de [_Voorste Gids van de Ontwikkelaar_ &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
 
-![ thema van de Luma ](./assets/design-responsive.png){width="600" zoomable="yes"}
+![&#x200B; thema van de Luma &#x200B;](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## Het standaardthema
 
 Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor verschillende apparaten weergegeven en worden de beste werkwijzen voor computers, tabellen en mobiele apparaten opgenomen. Sommige thema&#39;s zijn alleen ontworpen voor gebruik met specifieke apparaten. Wanneer [!DNL Commerce] een specifieke browser identiteitskaart, of gebruikersagent ontdekt, gebruikt het het thema dat voor specifieke browser wordt gevormd. De zoektekenreeks kan ook PCRE (Perl-Compatible Regular Expressions) bevatten.
 
-![ Thema&#39;s ](./assets/themes.png){width="700" zoomable="yes"}
+![&#x200B; Thema&#39;s &#x200B;](./assets/themes.png){width="700" zoomable="yes"}
 
 ### Het themaraster filteren
 
@@ -45,7 +45,7 @@ Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor v
 
 1. Klik op **[!UICONTROL Theme Preview Image]** om een voorbeeldpagina weer te geven.
 
-![ het thema van de Voorproef ](./assets/theme-settings.png){width="600" zoomable="yes"}
+![&#x200B; het thema van de Voorproef &#x200B;](./assets/theme-settings.png){width="600" zoomable="yes"}
 
 ## Een standaardthema toepassen
 
@@ -55,7 +55,7 @@ Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor v
 
 1. Stel onder _[!UICONTROL Default Theme]_&#x200B;**[!UICONTROL Applied Theme]**&#x200B;in op de waarde die u voor de huidige weergave wilt gebruiken.
 
-   ![ Toegepast Thema ](./assets/theme-default-apply.png){width="600" zoomable="yes"}
+   ![&#x200B; Toegepast Thema &#x200B;](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Configuration]** als de bewerking is voltooid.
 
@@ -65,7 +65,7 @@ Met het responsieve thema `Magento Blank` wordt de weergave van uw winkel voor v
 
 1. Klik onder _[!UICONTROL Design Rule]_&#x200B;op **[!UICONTROL Add New User Agent Rule]**.
 
-   ![ Regel van het Ontwerp ](./assets/theme-design-rule.png){width="600" zoomable="yes"}
+   ![&#x200B; Regel van het Ontwerp &#x200B;](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL Search String]** de browser-id voor het specifieke apparaat in.
 

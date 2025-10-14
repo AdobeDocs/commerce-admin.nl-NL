@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![&#x200B; documentatie Admin &#x200B;](./assets/banner-user-home.png) {#documentation}
 
 Welkom bij de volgende generatie van het toonaangevende platform voor digitale handel ter wereld. Adobe Commerce biedt online handelaren ongeëvenaarde flexibiliteit en controle over de vormgeving, inhoud en functionaliteit van hun online winkels. De beheerder beschikt over krachtige tools voor marketing, optimalisatie van zoekprogramma&#39;s en productbeheer waarmee u sites kunt maken die zijn afgestemd op uw unieke bedrijfsbehoeften.
 
@@ -22,7 +22,7 @@ De informatie in de gebruikershandleidingen voor beheerders is ontworpen voor za
 
 Adobe Commerce is een flexibel B2B- en B2C-handelsplatform dat verkopers en merken in staat stelt hun omzet te versnellen door klantgerichte digitale handelervaringen over online en fysieke ruimten. Het is de toonaangevende keuze voor middelgrote en bedrijfsorganisaties omdat het de meest flexibele implementatiemodellen van on-prem tot beheerde cloud met gegarandeerde SLA&#39;s biedt. Adobe Commerce maakt eerste integratie van API&#39;s en volledig aanpasbare extensies mogelijk, en de rijkste reeks mogelijkheden voor commerciële ervaring op bedrijfsniveau, van marketing tot merchandising en afhandeling. Adobe Commerce is gebaseerd op open-source code base om flexibiliteit en uitbreidbaarheid te bieden, net als geen ander handelsplatform.
 
-Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [ in de ](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=nl-NL) Informatie van de Versie _._
+Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=nl-NL) Informatie van de Versie _._
 
 ## Magento Open Source-codebasis
 

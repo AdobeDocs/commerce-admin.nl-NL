@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL My Purchase Orders]
 
-Wanneer de kooporders [ voor een bedrijf ](purchase-order-flow.md) worden toegelaten, wordt om het even welke orde voor een klant die in een rekening van de bedrijfgebruiker wordt ondertekend automatisch gecreeerd als kooporder (PO). De gebruikers van het bedrijf met de vereiste toestemmingen kunnen tot stand brengen, uitgeven en POs schrappen die zij, samen met POs leiden die door ondergeschikte gebruikers worden gecreeerd.
+Wanneer de kooporders [&#x200B; voor een bedrijf &#x200B;](purchase-order-flow.md) worden toegelaten, wordt om het even welke orde voor een klant die in een rekening van de bedrijfgebruiker wordt ondertekend automatisch gecreeerd als kooporder (PO). De gebruikers van het bedrijf met de vereiste toestemmingen kunnen tot stand brengen, uitgeven en POs schrappen die zij, samen met POs leiden die door ondergeschikte gebruikers worden gecreeerd.
 
-![ Mijn orden van de Aankoop ](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![&#x200B; Mijn orden van de Aankoop &#x200B;](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Wanneer de kooporders [ voor een bedrijf ](purchase-order-flow.md) worden toegel
 
 ## Aankooporders beheren
 
-Van de _pagina van de Inkooporder van de Mening_, kan de klant PO, afhankelijk van hun [ roltoestemmingen ](account-company-roles-permissions.md) beheren.
+Van de _pagina van de Inkooporder van de Mening_, kan de klant PO, afhankelijk van hun [&#x200B; roltoestemmingen &#x200B;](account-company-roles-permissions.md) beheren.
 
 - Klik op **[!UICONTROL View]** om de inkooporder weer te geven.
 - Als u opmerkingen over de inkooporder wilt zien, klikt u op de tab **[!UICONTROL Comments]** .

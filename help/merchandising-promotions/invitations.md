@@ -21,7 +21,7 @@ Wanneer uitnodigingen zijn ingeschakeld, kunnen klanten uitnodigingen verzenden 
 
 In de sectie _[!UICONTROL My Invitations]_&#x200B;van de klantenaccount worden alle uitnodigingen weergegeven die de klant heeft verzonden. Klanten kunnen uitnodigingen verzenden aan vrienden en familie voor winkelgebeurtenissen, cadeauregisters, verlanglijsten enzovoort.
 
-![ Mijn Uitnodigingen ](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
+![&#x200B; Mijn Uitnodigingen &#x200B;](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### Uitnodigingsworkflow
 
@@ -62,9 +62,9 @@ De uitnodigingsconfiguratie laat uitnodigingen voor de opslag toe en bepaalt hoe
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Invitations]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit.
 
-   ![ configuratie van Klanten - uitnodigingen algemene opties ](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - uitnodigingen algemene opties &#x200B;](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Invitations Functionality]** in op `Yes` .
 
@@ -84,9 +84,9 @@ De uitnodigingsconfiguratie laat uitnodigingen voor de opslag toe en bepaalt hoe
 
 1. Als u het aantal uitnodigingen dat tegelijkertijd kan worden verzonden wilt beperken, voert u het nummer in het veld **[!UICONTROL Max Invitations Allowed to be Sent at One Time]** in.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Email]** sectie uit en doe het volgende:
 
-   ![ configuratie van Klanten - uitnodigingen e-mailopties ](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - uitnodigingen e-mailopties &#x200B;](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
    - Selecteer de opslagidentiteit die u als **[!UICONTROL Customer Invitation Email Sender]** wilt gebruiken.
 
@@ -96,7 +96,7 @@ De uitnodigingsconfiguratie laat uitnodigingen voor de opslag toe en bepaalt hoe
 
 ## Uitnodigingen verzenden en beheren in Beheer
 
-In de [ Privé sectie van de Rapporten van de Verkoop ](../getting-started/private-sales-reports.md), kunt u het aantal uitnodigingen zien die tijdens een gespecificeerde periode worden verzonden, of klanten aan wie u uitnodigingen hebt verzonden.
+In de [&#x200B; Privé sectie van de Rapporten van de Verkoop &#x200B;](../getting-started/private-sales-reports.md), kunt u het aantal uitnodigingen zien die tijdens een gespecificeerde periode worden verzonden, of klanten aan wie u uitnodigingen hebt verzonden.
 
 ### Een uitnodiging maken in de beheerder
 
@@ -108,7 +108,7 @@ In de [ Privé sectie van de Rapporten van de Verkoop ](../getting-started/priva
 
    Als u meerdere winkelweergaven hebt, gebruikt u de optie **[!UICONTROL Send From]** om de winkelweergave op te geven van waaruit een uitnodiging wordt verzonden.
 
-   ![ Informatie van Uitnodigingen ](./assets/create-invitation-page.png){width="700" zoomable="yes"}
+   ![&#x200B; Informatie van Uitnodigingen &#x200B;](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

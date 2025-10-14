@@ -22,7 +22,7 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
 
    De sectie _[!UICONTROL Rule Information]_&#x200B;bevat uitbreidbare secties voor **[!UICONTROL Conditions]**&#x200B;en **[!UICONTROL Actions]**.
 
-   ![ de prijsregel van de Catalogus - informatie ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Catalogus - informatie &#x200B;](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
 1. Vul de velden **[!UICONTROL Rule Name]** en **[!UICONTROL Description]** in.
 
@@ -41,9 +41,9 @@ Volg deze instructies om een korting op specifieke producten toe te passen wanne
    - De opties beschikbaar voor selectie hangen van de klantengroepen af die in _worden gecreeerd en worden geleid Klanten_ > _Groepen van de Klant_.
    - Als u meerdere groepen wilt kiezen, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) ga **[!UICONTROL From]** en **[!UICONTROL To]** data in om te bepalen wanneer de prijsregel in feite is.
+1. ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) ga **[!UICONTROL From]** en **[!UICONTROL To]** data in om te bepalen wanneer de prijsregel in feite is.
 
-   U kunt de data ingaan of **[!UICONTROL Calendar]** gebruiken (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de data te kiezen. Als u de datums leeg laat, wordt de regel ingeschakeld wanneer de prijsregel wordt opgeslagen.
+   U kunt de data ingaan of **[!UICONTROL Calendar]** gebruiken (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om de data te kiezen. Als u de datums leeg laat, wordt de regel ingeschakeld wanneer de prijsregel wordt opgeslagen.
 
 1. Voer een getal in om de **[!UICONTROL Priority]** van deze regel ten opzichte van andere regels vast te stellen.
 
@@ -55,15 +55,15 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 - Als ten minste één voorwaardelijk productkenmerk een lege waarde heeft, wordt de regel voor catalogusprijzen niet op het product toegepast.
 
-- Als u de voorwaarde van het `[!UICONTROL Category]` productkenmerk toevoegt aan bundel of gegroepeerde producten, wordt de prijsregel alleen correct toegepast als alle onderliggende items dezelfde categorie hebben. Als de kindpunten niet in de zelfde categorie zijn, gebruik in plaats daarvan de bevordering van de Regel van de Prijs van de a [ Kar ](price-rules-cart-create.md).&quot;
+- Als u de voorwaarde van het `[!UICONTROL Category]` productkenmerk toevoegt aan bundel of gegroepeerde producten, wordt de prijsregel alleen correct toegepast als alle onderliggende items dezelfde categorie hebben. Als de kindpunten niet in de zelfde categorie zijn, gebruik in plaats daarvan de bevordering van de Regel van de Prijs van de a [&#x200B; Kar &#x200B;](price-rules-cart-create.md).&quot;
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
 
    De eerste voorwaarde wordt standaard weergegeven en de volgende statussen:
 
    `If **ALL** of these conditions are **TRUE**:`
 
-   ![ de prijsregel van de Catalogus - voorwaardenlijn 1 ](./assets/catalog-condition1.png){width="400"}
+   ![&#x200B; de prijsregel van de Catalogus - voorwaardenlijn 1 &#x200B;](./assets/catalog-condition1.png){width="400"}
 
    De instructie heeft twee vette koppelingen waarop u kunt klikken om de opties voor dat gedeelte van de instructie weer te geven. U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen.
 
@@ -75,13 +75,13 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen. In dit voorbeeld wordt de standaardvoorwaarde gebruikt.
 
-1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png)) pictogram aan het begin van de volgende lijn toe en selecteer een optie voor de voorwaarde, zoals een productattribuut of een combinatie.
+1. Klik _toevoegen_ (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png)) pictogram aan het begin van de volgende lijn toe en selecteer een optie voor de voorwaarde, zoals een productattribuut of een combinatie.
 
 1. Kies in de lijst onder **[!UICONTROL Product Attribute]** het kenmerk dat u als basis voor de voorwaarde wilt gebruiken.
 
    In dit voorbeeld is de voorwaarde `Attribute Set` .
 
-   ![ de prijsregel van de Catalogus - voorwaardenlijn 2 ](./assets/catalog-condition2.png){width="400"}
+   ![&#x200B; de prijsregel van de Catalogus - voorwaardenlijn 2 &#x200B;](./assets/catalog-condition2.png){width="400"}
 
    >[!NOTE]
    >
@@ -103,26 +103,26 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
    Afhankelijk van de voorwaarde, kunt u producten van een net of een lijst selecteren, een numerieke waarde ingaan, etc.
 
-   ![ de prijsregel van de Catalogus - voorwaardenlijn 2 ](./assets/catalog-condition3.png){width="400"}
+   ![&#x200B; de prijsregel van de Catalogus - voorwaardenlijn 2 &#x200B;](./assets/catalog-condition3.png){width="400"}
 
    Het geselecteerde item wordt weergegeven in de instructie om de voorwaarde te voltooien.
 
    `If **ALL** of these conditions are **TRUE**: <br/> Attribute Set **is Default**`
 
-1. Om een andere voorwaardenlijn aan de verklaring toe te voegen, __ klikken (![ voeg pictogram ](../assets/icon-add-green-circle.png)) pictogram toe en kies één van het volgende:
+1. Om een andere voorwaardenlijn aan de verklaring toe te voegen, __ klikken (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png)) pictogram toe en kies één van het volgende:
 
    - `Conditions Combination`
    - `Product Attribute`
 
    Herhaal het proces totdat alle gewenste voorwaarden zijn voltooid.
 
-   Als u op elk ogenblik een deel van de voorwaardenverklaring wilt schrappen, klik **[!UICONTROL Delete]** (![ pictogram van de Schrapping ](../assets/icon-delete-red-circle.png) pictogram aan het eind van de lijn.
+   Als u op elk ogenblik een deel van de voorwaardenverklaring wilt schrappen, klik **[!UICONTROL Delete]** (![&#x200B; pictogram van de Schrapping &#x200B;](../assets/icon-delete-red-circle.png) pictogram aan het eind van de lijn.
 
 ## Stap 3: De acties definiëren
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Actions]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Actions]** sectie uit en doe het volgende:
 
-   ![ de prijsregel van de Catalogus - acties ](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Catalogus - acties &#x200B;](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
 1. Stel onder **[!UICONTROL Pricing Structure Rules]** **[!UICONTROL Apply]** in op een van de volgende opties:
 
@@ -153,15 +153,15 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 {{ee-feature}}
 
-[ Dynamische blokken ](../content-design/dynamic-blocks.md) die met een regel van de catalogusprijs worden geassocieerd verschijnen in de storefront wanneer de voorwaarden worden voldaan aan. Dit is een optionele stap.
+[&#x200B; Dynamische blokken &#x200B;](../content-design/dynamic-blocks.md) die met een regel van de catalogusprijs worden geassocieerd verschijnen in de storefront wanneer de voorwaarden worden voldaan aan. Dit is een optionele stap.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Dynamic Blocks]** sectie.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Dynamic Blocks]** sectie.
 
-1. Gebruik de [ onderzoeksfilters ](../getting-started/admin-workspace.md) om van de dynamische blokken de plaats te bepalen die u met de regel wilt associëren.
+1. Gebruik de [&#x200B; onderzoeksfilters &#x200B;](../getting-started/admin-workspace.md) om van de dynamische blokken de plaats te bepalen die u met de regel wilt associëren.
 
 1. Schakel het selectievakje in de eerste kolom in om het dynamische blok aan de regel te koppelen.
 
-   ![ de prijsregel van de Catalogus - verwante dynamische blokken ](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Catalogus - verwante dynamische blokken &#x200B;](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
@@ -171,7 +171,7 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 >[!NOTE]
 >
->Het plaatsen van de regel aan actief moet als geplande update worden toegevoegd. Meer leren, zie [ Geplande Veranderingen ](price-rule-catalog-scheduled-changes.md).
+>Het plaatsen van de regel aan actief moet als geplande update worden toegevoegd. Meer leren, zie [&#x200B; Geplande Veranderingen &#x200B;](price-rule-catalog-scheduled-changes.md).
 
 1. In de _Geplande Veranderingen_ doos, klik **[!UICONTROL Schedule New Update]** bij de bovenkant van de doos).
 
@@ -181,9 +181,9 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 1. Als u de regel wilt inplannen, voert u de waarden **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** in dat de prijsregel actief moet zijn.
 
-   U kunt of de data ingaan of de data van de _Kalender_ kiezen (![ pictogram van de Kalender ](../assets/icon-calendar.png)).
+   U kunt of de data ingaan of de data van de _Kalender_ kiezen (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)).
 
-   ![ de prijsregel van de Catalogus - update programma ](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Catalogus - update programma &#x200B;](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -193,19 +193,19 @@ De meeste beschikbare voorwaarden zijn gebaseerd op bestaande kenmerkwaarden. La
 
 1. Sla de regel op wanneer deze is voltooid.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klikt **[!UICONTROL Save and Apply]**.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) klikt **[!UICONTROL Save and Apply]**.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klikt **[!UICONTROL Save]**.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) klikt **[!UICONTROL Save]**.
 
      De pagina van de Informatie van de Regel toont een bijgewerkte chronologie in de Geplande Veranderingen voor de regel.
 
-     ![ de prijsregels van de Catalogus - geplande veranderingen ](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
+     ![&#x200B; de prijsregels van de Catalogus - geplande veranderingen &#x200B;](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
 
 1. Eigenschappen voor een regel bijwerken:
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) klik **[!UICONTROL Edit]** om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) klik de regel in de lijst om de _[!UICONTROL Rule Information]_&#x200B;pagina te tonen.
 
 1. Test de regel om er zeker van te zijn dat deze correct werkt.
 
@@ -228,9 +228,9 @@ Bekijk deze video voor meer informatie over het maken van prijsregels voor catal
 | [!UICONTROL Websites] | (Vereist) Hiermee worden de websites geïdentificeerd waarop de regel kan worden gebruikt. |
 | [!UICONTROL Customer Groups] | (Vereist) Identificeert de klantengroepen waarop de regel van toepassing is. |
 | [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. Prioriteiten van het hoogste naar het laagste niveau zijn `0,1,2,3...` |
-| [!UICONTROL Status] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) bepaalt als de regel in de opslag actief is. Opties: `Yes` / `No` |
-| [!UICONTROL From] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) specificeert de eerste dag dat de prijsregel in feite is. Als deze optie leeg blijft, wordt de prijsregel toegepast wanneer deze wordt opgeslagen. |
-| [!UICONTROL To] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) specificeert de laatste dag dat de prijsregel in feite is. Als je niets invult, gaat de prijsregel eindeloos door. |
+| [!UICONTROL Status] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) bepaalt als de regel in de opslag actief is. Opties: `Yes` / `No` |
+| [!UICONTROL From] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) specificeert de eerste dag dat de prijsregel in feite is. Als deze optie leeg blijft, wordt de prijsregel toegepast wanneer deze wordt opgeslagen. |
+| [!UICONTROL To] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) specificeert de laatste dag dat de prijsregel in feite is. Als je niets invult, gaat de prijsregel eindeloos door. |
 
 {style="table-layout:auto"}
 
@@ -252,4 +252,4 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 
 {{ee-feature}}
 
-Identificeert om het even welke [ dynamische blokken ](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd.
+Identificeert om het even welke [&#x200B; dynamische blokken &#x200B;](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd.

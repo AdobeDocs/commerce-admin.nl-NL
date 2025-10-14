@@ -14,9 +14,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de winkel zijn aangemeld bij de klant om de informatie beschikbaar te stellen. Als de klant geen rekening heeft, kunt u [ tot één ](../customers/account-create.md) leiden.
+Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de winkel zijn aangemeld bij de klant om de informatie beschikbaar te stellen. Als de klant geen rekening heeft, kunt u [&#x200B; tot één &#x200B;](../customers/account-create.md) leiden.
 
-![ het Winkelen Kart binnen in de klantenrekening ](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
+![&#x200B; het Winkelen Kart binnen in de klantenrekening &#x200B;](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
 ## Handelingencontrole
 
@@ -43,7 +43,7 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 
    Alle bezoekers van de winkel en aangemelde klanten worden in de lijst weergegeven.
 
-   ![ Klanten nu online ](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![&#x200B; Klanten nu online &#x200B;](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
 ## Bied assistentie bij winkelen
 
@@ -53,19 +53,19 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 
    >[!TIP]
    >
-   >Om het klantenverslag in een haast te vinden, gebruik de [ controle van Filters ](../getting-started/admin-grid-controls.md).
+   >Om het klantenverslag in een haast te vinden, gebruik de [&#x200B; controle van Filters &#x200B;](../getting-started/admin-grid-controls.md).
 
    In het klantprofiel onder _[!UICONTROL Personal Information]_&#x200B;toont de datum en tijd van&#x200B;_[!UICONTROL Last Logged In]_ dat de klant online is.
 
-   ![ profiel van de Klant van een online klant ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; profiel van de Klant van een online klant &#x200B;](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. Als u de modus voor ondersteund winkelen wilt inschakelen, klikt u op **[!UICONTROL Manage Shopping Cart]** in de bovenste knopbalk.
 
-   ![ Hulp het winkelen wijze ](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; Hulp het winkelen wijze &#x200B;](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
 
 ## Producten aan winkelwagentje per kenmerk toevoegen
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Products]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Products]** sectie uit.
 
 1. Een product zoeken met een van de filters boven aan elke kolom.
 
@@ -83,11 +83,11 @@ Als u een sessie voor ondersteund winkelen wilt starten, moet de klant bij de wi
 
 1. Klik links boven het raster op **[!UICONTROL Add selections to my cart]** .
 
-   ![ voeg Product aan Kar ](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Product aan Kar &#x200B;](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"} toe
 
    Het regelitem wordt boven aan de pagina toegevoegd aan het winkelwagentje.
 
-   ![ Bijgewerkte Kar ](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; Bijgewerkte Kar &#x200B;](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
 
 ### Een product met configuratie toevoegen
 
@@ -95,7 +95,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 1. Klik in het raster op **[!UICONTROL Configure]** naast de productnaam.
 
-   ![ vorm het product ](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
+   ![&#x200B; vorm het product &#x200B;](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
 1. In de _Verwante dialoog van Producten_, verkies elke productoptie om het punt te beschrijven dat moet worden bevolen, ga **[!UICONTROL Quantity]** in, en klik **[!UICONTROL OK]**.
 
@@ -103,7 +103,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 1. Klik op **[!UICONTROL Add selections to my cart]** om het product aan het winkelwagentje toe te voegen.
 
-   ![ Configureerbaar product in de kar ](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; Configureerbaar product in de kar &#x200B;](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
 1. Werk zo nodig de productopties in het winkelwagentje bij:
 
@@ -113,7 +113,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 ## Product toevoegen door SKU
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Add to Shopping Cart by SKU]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Add to Shopping Cart by SKU]** sectie uit.
 
 1. Voeg producten afzonderlijk toe door **[!UICONTROL SKU]** of voeg producten toe door een CSV-bestand te uploaden.
 
@@ -123,7 +123,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 1. Klik op **[!UICONTROL Add another]** als u een ander product wilt bestellen.
 
-   ![ voegt Producten door SKU ](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voegt Producten door SKU &#x200B;](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Add selections to my cart]**.
 
@@ -131,7 +131,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 ### Producten toevoegen door een CSV-bestand te uploaden
 
-1. Bereid a [ csv- dossier ](../systems/data-csv.md) met de punten voor die aan de kar moeten worden toegevoegd.
+1. Bereid a [&#x200B; csv- dossier &#x200B;](../systems/data-csv.md) met de punten voor die aan de kar moeten worden toegevoegd.
 
    Het bestand mag slechts twee kolommen bevatten, met `sku` en `qty` in de koptekst.
 
@@ -145,7 +145,7 @@ Er zijn drie typen producten die moeten worden geconfigureerd voordat u ze aan d
 
 U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van een klant en onlangs bekeken, vergeleken of geordende objecten. Het aantal items in elke sectie wordt tussen haakjes achter de sectiekop weergegeven.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) één van de volgende secties uit:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) één van de volgende secties uit:
 
    - [!UICONTROL Wish List]
    - [!UICONTROL Products in the Comparison List]
@@ -163,7 +163,7 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
    - Voer bij **[!UICONTROL Apply Coupon Code]** een geldige couponcode in.
 
-   - Klik _toepassen_ ( ![ het pictogram van de Pijl ](../assets/icon-apply-arrow.png)) pijl.
+   - Klik _toepassen_ ( ![&#x200B; het pictogram van de Pijl &#x200B;](../assets/icon-apply-arrow.png)) pijl.
 
 1. Pas de geordende hoeveelheid naar wens aan:
 
@@ -181,7 +181,7 @@ U kunt objecten naar het winkelwagentje overbrengen vanuit de verlanglijst van e
 
 1. Klik op **[!UICONTROL Submit Order]**.
 
-Meer leren, zie [ een orde ](customer-account-create-order.md) creëren.
+Meer leren, zie [&#x200B; een orde &#x200B;](customer-account-create-order.md) creëren.
 
 ## Alle items uit een winkelwagentje verwijderen
 
@@ -195,6 +195,6 @@ Het verwijderen van alle items uit de winkelwagentje van een klant in de modus v
 
 1. Klik op **[!UICONTROL Clear my shopping cart]**.
 
-   ![ ontruim mijn het winkelwagentje ](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+   ![&#x200B; ontruim mijn het winkelwagentje &#x200B;](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd de handeling te bevestigen.

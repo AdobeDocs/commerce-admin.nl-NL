@@ -39,7 +39,7 @@ Wanneer er een korting is die belasting ingebed in het heeft, berekent Commerce 
 
 ### Geldig daadwerkelijk resultaat in winkelwagen
 
-![ Verborgen Berekening van de Belastingbelasting in Kart ](./assets/hidden-tax.png){width="700" zoomable="yes"}
+![&#x200B; Verborgen Berekening van de Belastingbelasting in Kart &#x200B;](./assets/hidden-tax.png){width="700" zoomable="yes"}
 
 ### Geldige berekeningen
 

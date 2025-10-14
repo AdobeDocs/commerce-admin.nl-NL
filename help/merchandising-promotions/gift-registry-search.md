@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt om een vakje van de het onderzoeksdoos van de cadeauregistratie overal in uw opslag te plaatsen. U kunt de zoekopties opgeven die beschikbaar moeten zijn voor klanten, zoals naam, e-mailadres en registratie-id voor cadeautjes. Wanneer de klant op de knop Zoeken klikt, worden de resultaten weergegeven op de pagina Zoeken in register van cadeau. Als de zoekopdracht geen resultaten oplevert, kan de klant het opnieuw proberen met andere parameters.
+Het [&#x200B; hulpmiddel van Widget &#x200B;](../content-design/widgets.md) kan worden gebruikt om een vakje van de het onderzoeksdoos van de cadeauregistratie overal in uw opslag te plaatsen. U kunt de zoekopties opgeven die beschikbaar moeten zijn voor klanten, zoals naam, e-mailadres en registratie-id voor cadeautjes. Wanneer de klant op de knop Zoeken klikt, worden de resultaten weergegeven op de pagina Zoeken in register van cadeau. Als de zoekopdracht geen resultaten oplevert, kan de klant het opnieuw proberen met andere parameters.
 
-![ de storefront van het Voorbeeld - het onderzoek van de cadeauregistratie ](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - het onderzoek van de cadeauregistratie &#x200B;](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Zoek in een cadeauregister configureren
 
@@ -32,7 +32,7 @@ Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt 
 
    - Klik op **[!UICONTROL Continue]**.
 
-   ![ de registratie van het Cadeautje - onderzoeksmontages ](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
+   ![&#x200B; de registratie van het Cadeautje - onderzoeksmontages &#x200B;](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Storefront Properties]_:
 
@@ -42,7 +42,7 @@ Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt 
 
    - Stel **[!UICONTROL Sort Order]** in om de volgorde te bepalen waarin het zoekblok voor de Cadeauregistratie wordt weergegeven wanneer er andere blokken zijn toegewezen aan dezelfde locatie op de pagina.
 
-   ![ de registratie van het Cadeautje - storefront eigenschappen ](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
+   ![&#x200B; de registratie van het Cadeautje - storefront eigenschappen &#x200B;](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
 1. Klik in de sectie **[!UICONTROL Layout Updates]** op **[!UICONTROL Add Layout Update]** .
 
@@ -54,7 +54,7 @@ Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt 
 
    - Stel **[!UICONTROL Container]** in op de locatie op de pagina waar u het zoekblok voor de cadeauregistratie wilt plaatsen.
 
-   ![ de registratie van het Cadeautje - lay-outupdates ](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![&#x200B; de registratie van het Cadeautje - lay-outupdates &#x200B;](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
 1. Kies **[!UICONTROL Widget Options]** in het linkerdeelvenster.
 
@@ -65,7 +65,7 @@ Het [ hulpmiddel van Widget ](../content-design/widgets.md) kan worden gebruikt 
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![ Cadeauregister - widgetopties ](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
+   ![&#x200B; Cadeauregister - widgetopties &#x200B;](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

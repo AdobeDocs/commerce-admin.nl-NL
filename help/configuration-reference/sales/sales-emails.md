@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL General Settings]
 
-![ Algemene Montages ](./assets/sales-emails-general-settings.png)<!-- zoom -->
+![&#x200B; Algemene Montages &#x200B;](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
 <!-- [General Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/communications/email-communications) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Algemeen | Hiermee bepaalt u of e-mails over verkopen asynchroon worden verzonden. U wordt aangeraden Asynchroon verzenden in te schakelen. Opties: <br/>**`Disable`**- (Standaard) e-mails over verkopen worden verzonden wanneer deze door een gebeurtenis worden geactiveerd.<br/>**`Enable`** - (Aanbevolen) Verkoop-e-mails worden op vooraf bepaalde, regelmatige tijdstippen verzonden. |
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Order]
 
-![ Orde ](./assets/sales-emails-order.png)<!-- zoom -->
+![&#x200B; Orde &#x200B;](./assets/sales-emails-order.png)<!-- zoom -->
 
 <!-- [Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke geplaatste bestelling. Opties: `Yes` / `No` |
 | [!UICONTROL New Order Confirmation Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Order Comments]
 
-![ de Commentaren van de Orde ](./assets/sales-emails-order-comments.png)<!-- zoom -->
+![&#x200B; de Commentaren van de Orde &#x200B;](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
 <!-- [Order Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke orderopmerking. Opties: `Yes` / `No` |
 | [!UICONTROL Order Comment Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice]
 
-![ Factuur ](./assets/sales-emails-invoice.png)<!-- zoom -->
+![&#x200B; Factuur &#x200B;](./assets/sales-emails-invoice.png)<!-- zoom -->
 
 <!-- [Invoice](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke gegenereerde factuur. Opties: `Yes` / `No` |
 | [!UICONTROL Invoice Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -79,11 +79,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice Comments]
 
-![ Factuurcommentaren ](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
+![&#x200B; Factuurcommentaren &#x200B;](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
 <!-- [Invoice Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke factuuropmerking. Opties: `Yes` / `No` |
 | [!UICONTROL Invoice Comment Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment]
 
-![ Verzending ](./assets/sales-emails-shipment.png)<!-- zoom -->
+![&#x200B; Verzending &#x200B;](./assets/sales-emails-shipment.png)<!-- zoom -->
 
 <!-- [Shipment](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke gegenereerde verzending. Opties: `Yes` / `No` |
 | [!UICONTROL Shipment Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als afzender van het bericht verschijnt. Standaardafzender: `Sales Representative` |
@@ -113,11 +113,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment Comments]
 
-![ Commentaren van de Verzending ](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
+![&#x200B; Commentaren van de Verzending &#x200B;](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
 <!-- [Shipment Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke opmerking bij de verzending. Opties: `Yes` / `No` |
 | [!UICONTROL Shipment Comment Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo]
 
-![ Memo van het Krediet ](./assets/sales-emails-credit-memo.png)<!-- zoom -->
+![&#x200B; Memo van het Krediet &#x200B;](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
 <!-- [Credit Memo](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee activeert u de transactie-e-mail voor elk gegenereerd creditnota. Opties: `Yes` / `No` |
 | [!UICONTROL Credit Memo Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als afzender van het bericht verschijnt. Standaardafzender: `Sales Representative` |
@@ -147,11 +147,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo Comments]
 
-![ Opmerkingen van het Memo van het Krediet ](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
+![&#x200B; Opmerkingen van het Memo van het Krediet &#x200B;](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
 <!-- [Credit Memo Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden voor elke opmerking in het creditnota. Opties: `Yes` / `No` |
 | [!UICONTROL Credit Memo Comment Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `Sales Representative` |
@@ -164,11 +164,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-![ Orde Klaar voor Bestelwagen in Opslag ](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
+![&#x200B; Orde Klaar voor Bestelwagen in Opslag &#x200B;](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
 <!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een transactie-e-mail verzonden wanneer een bestelling gereed is voor ophalen in de winkel. Opties: `Yes` / `No` |
 | [!UICONTROL Order Ready For Pickup Email Sender] | Winkelweergave | Identificeert het opslagcontact dat als berichtafzender verschijnt. Standaardafzender: `General Contact` |
@@ -183,9 +183,9 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-![ Goedkeuring van de Inkooporder ](./assets/sales-emails-purchase-order-approval.png)<!-- zoom -->
+![&#x200B; Goedkeuring van de Inkooporder &#x200B;](./assets/sales-emails-purchase-order-approval.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, worden tijdens het inkooporderproces e-mails verzonden. Opties: `Yes` / `No` |
 | [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] | Winkelweergave | Hiermee stuurt u een e-mailbevestiging naar de maker van de kooporder. |
@@ -202,11 +202,11 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-![ Citaat ](./assets/sales-emails-quote.png)<!-- zoom -->
+![&#x200B; Citaat &#x200B;](./assets/sales-emails-quote.png)<!-- zoom -->
 
 <!-- [Quotes](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee kunt u aanhalingstekens verzenden vanuit de huidige winkelweergave. Opties: `Yes` / `No` |
 | [!UICONTROL Updated Quote Template (to Buyer)] | Winkelweergave | Bepaalt de e-mailtemplate die wordt gebruikt voor meldingen die naar de koper worden verzonden wanneer een bijgewerkte prijsopgave beschikbaar is. Standaardsjabloon: `Updated Quote` |
@@ -225,15 +225,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ RMA ](./assets/sales-emails-rma.png)<!-- zoom -->
+![&#x200B; RMA &#x200B;](./assets/sales-emails-rma.png)<!-- zoom -->
 
 <!-- [RMA](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Activeert e-mailbericht voor elke gegenereerde RMA. Opties: `Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | Winkelweergave | Identificeert het [ opslagcontact ](../../getting-started/store-details.md#store-email-addresses) dat als afzender van het bericht verschijnt. Standaardwaarde: `Sales Representative` |
-| [!UICONTROL RMA Email Template] | Winkelweergave | Bepaalt het [ e-mailmalplaatje ](../../systems/email-templates.md) dat voor het bericht wordt gebruikt dat wordt verzonden wanneer RMA voor een klant wordt geproduceerd. Standaardsjabloon: `New RMA` |
+| [!UICONTROL RMA Email Sender] | Winkelweergave | Identificeert het [&#x200B; opslagcontact &#x200B;](../../getting-started/store-details.md#store-email-addresses) dat als afzender van het bericht verschijnt. Standaardwaarde: `Sales Representative` |
+| [!UICONTROL RMA Email Template] | Winkelweergave | Bepaalt het [&#x200B; e-mailmalplaatje &#x200B;](../../systems/email-templates.md) dat voor het bericht wordt gebruikt dat wordt verzonden wanneer RMA voor een klant wordt geproduceerd. Standaardsjabloon: `New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | Winkelweergave | Bepaalt het malplaatje dat wordt verzonden wanneer RMA voor een gast wordt geproduceerd. Standaardsjabloon: `New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen die een exemplaar van een e-mail RMA zou moeten ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA  Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Hiermee wordt een blinde, hoffelijke kopie verzonden door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Verzendt de kopie als een aparte e-mail. |
@@ -244,15 +244,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Vergunning RMA ](./assets/sales-emails-rma-auth.png)<!-- zoom -->
+![&#x200B; Vergunning RMA &#x200B;](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
 <!-- [RMA Authorization](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Wanneer toegelaten, verzendt een e-mailbericht voor elke vergunning RMA. Opties: `Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | Winkelweergave | Identificeert het [ opslagcontact ](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Sales Representative` |
-| [!UICONTROL RMA Authorization Email Template] | Winkelweergave | Bepaalt het [ e-mailmalplaatje ](../../systems/email-templates.md) dat wordt gebruikt wanneer een RMA vergunningsbericht wordt verzonden. Standaardsjabloon: `RMA Authorization` |
+| [!UICONTROL RMA Authorization Email Sender] | Winkelweergave | Identificeert het [&#x200B; opslagcontact &#x200B;](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Template] | Winkelweergave | Bepaalt het [&#x200B; e-mailmalplaatje &#x200B;](../../systems/email-templates.md) dat wordt gebruikt wanneer een RMA vergunningsbericht wordt verzonden. Standaardsjabloon: `RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | Winkelweergave | Bepaalt het malplaatje dat wordt gebruikt wanneer een RMA vergunningsbericht wordt verzonden naar een gast. Standaardsjabloon: `RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van een RMA vergunningse-mail te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Hiermee wordt een blinde, hoffelijke kopie verzonden door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Verzendt de kopie als een aparte e-mail. |
@@ -263,13 +263,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Admin Commentaren RMA ](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
+![&#x200B; Admin Commentaren RMA &#x200B;](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Als deze optie is ingeschakeld, wordt een e-mailbericht verzonden voor elke opmerking van RMA-beheerder. Opties: `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Winkelweergave | Identificeert het [ opslagcontact ](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | Winkelweergave | Bepaalt het [ e-mailmalplaatje ](../../systems/email-templates.md) dat wordt gebruikt wanneer Admin een commentaar aan RMA voor een klant toevoegt. Standaardsjabloon: `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Sender] | Winkelweergave | Identificeert het [&#x200B; opslagcontact &#x200B;](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | Winkelweergave | Bepaalt het [&#x200B; e-mailmalplaatje &#x200B;](../../systems/email-templates.md) dat wordt gebruikt wanneer Admin een commentaar aan RMA voor een klant toevoegt. Standaardsjabloon: `RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | Winkelweergave | Bepaalt het malplaatje dat wordt gebruikt wanneer Admin een commentaar aan RMA voor een gast toevoegt. Standaardsjabloon: `RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van het bericht te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Hiermee wordt een blinde, hoffelijke kopie verzonden door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Verzendt de kopie als een aparte e-mail. |
@@ -280,16 +280,16 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Klantencommentaren RMA ](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
+![&#x200B; Klantencommentaren RMA &#x200B;](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
 <!-- [RMA Customer Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Wanneer toegelaten, verzendt een e-mailbericht voor elke RMA klantencommentaar. Opties: `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | Winkelweergave | Identificeert het [ opslagcontact ](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | Winkelweergave | Identificeert het [&#x200B; opslagcontact &#x200B;](../../getting-started/store-details.md#store-email-addresses) dat als berichtafzender verschijnt. Standaardwaarde: `Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | Winkelweergave | Identificeert het opslagcontact dat de ontvanger van de klantencommentaare-mail is. Standaardwaarde: `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | Winkelweergave | Bepaalt het [ e-mailmalplaatje ](../../systems/email-templates.md) dat wordt gebruikt wanneer een klant een commentaar aan RMA toevoegt. Standaardsjabloon: `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Template] | Winkelweergave | Bepaalt het [&#x200B; e-mailmalplaatje &#x200B;](../../systems/email-templates.md) dat wordt gebruikt wanneer een klant een commentaar aan RMA toevoegt. Standaardsjabloon: `RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | Winkelweergave | Verstrekt het e-mailadres van iedereen om een exemplaar van het bericht te ontvangen. Scheid meerdere adressen met een komma. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Winkelweergave | Geeft de e-mailmethode aan die wordt gebruikt om de kopie te verzenden. U kunt onder andere de volgende opties kiezen: <br/>**`Bcc`**- Hiermee wordt een blinde, hoffelijke kopie verzonden door de ontvanger op te nemen in de koptekst van dezelfde e-mail die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.<br/>**`Separate Email`** - Verzendt de kopie als een aparte e-mail. |
 

@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # Aangepaste variabelen toevoegen
 
-Om aan de specifieke behoeften van uw zaken te voldoen, kunt u douanevariabelen tot stand brengen en hen opnemen in [ pagina&#39;s ](../content-design/pages.md), [ blokken ](../content-design/blocks.md), en [ e-mailmalplaatjes ](email-templates.md). De lijst van toegestane variabelen die verschijnt wanneer u de _Variabele van het Tussenvoegsel_ knoop omvat zowel [ vooraf bepaalde ](variables-predefined.md) als douanevariabelen. De lijst met beschikbare variabelen voor een specifieke e-mailsjabloon wordt bepaald door de gegevens die aan de sjabloon zijn gekoppeld. Zie de [ Veranderlijke Verwijzing ](variables-reference.md) voor een lijst van vaak gebruikte e-mailmalplaatjes en hun bijbehorende variabelen.
+Om aan de specifieke behoeften van uw zaken te voldoen, kunt u douanevariabelen tot stand brengen en hen opnemen in [&#x200B; pagina&#39;s &#x200B;](../content-design/pages.md), [&#x200B; blokken &#x200B;](../content-design/blocks.md), en [&#x200B; e-mailmalplaatjes &#x200B;](email-templates.md). De lijst van toegestane variabelen die verschijnt wanneer u de _Variabele van het Tussenvoegsel_ knoop omvat zowel [&#x200B; vooraf bepaalde &#x200B;](variables-predefined.md) als douanevariabelen. De lijst met beschikbare variabelen voor een specifieke e-mailsjabloon wordt bepaald door de gegevens die aan de sjabloon zijn gekoppeld. Zie de [&#x200B; Veranderlijke Verwijzing &#x200B;](variables-reference.md) voor een lijst van vaak gebruikte e-mailmalplaatjes en hun bijbehorende variabelen.
 
-![ de variabelen van de Douane ](./assets/variables-custom.png){width="600" zoomable="yes"}
+![&#x200B; de variabelen van de Douane &#x200B;](./assets/variables-custom.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Om aan de specifieke behoeften van uw zaken te voldoen, kunt u douanevariabelen 
    >
    >Als u meer ruimte nodig hebt, sleept u de rechterbenedenhoek van het tekstvak.
 
-   ![ Nieuwe douanevariabele ](./assets/variable-custom-add.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe douanevariabele &#x200B;](./assets/variable-custom-add.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -57,7 +57,7 @@ Gebruik [!DNL Page Builder] om een aangepaste variabele in te voegen.
 
 1. Open de pagina, het blok, de categorie of het product waar u de variabele aan de inhoud wilt toevoegen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Content]** sectie uit.
 
 1. Klik op **[!UICONTROL Edit with Page Builder]**.
 
@@ -67,16 +67,16 @@ Gebruik [!DNL Page Builder] om een aangepaste variabele in te voegen.
 
    - Sleep een nieuw **[!UICONTROL Text]** -object naar het werkgebied.
 
-1. Helemaal rechts van de redacteurstoolbar, klik ( ![ Variabele van het Tussenvoegsel ](./assets/editor-btn-insert-variable.png)) om een variabele op te nemen.
+1. Helemaal rechts van de redacteurstoolbar, klik ( ![&#x200B; Variabele van het Tussenvoegsel &#x200B;](./assets/editor-btn-insert-variable.png)) om een variabele op te nemen.
 
-   ![[!DNL Page Builder] werkgebied en deelvenster ](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] werkgebied en deelvenster &#x200B;](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
 
 1. Selecteer in de lijst de aangepaste variabele die u wilt invoegen en klik op **[!UICONTROL Insert Variable]** .
 
-   ![ Nieuwe douanevariabele ](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe douanevariabele &#x200B;](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
 
    De variabele-id wordt als tijdelijke aanduiding weergegeven in de editor.
 
-   ![[!DNL Page Builder] stage - variable placeholder ](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] stage - variable placeholder &#x200B;](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.

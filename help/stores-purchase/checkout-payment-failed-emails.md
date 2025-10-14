@@ -16,7 +16,7 @@ Er wordt een melding verzonden naar de contactpersoon van de winkel of naar een 
 
 ## Stap 1: de e-mailsjabloon bijwerken
 
-Zorg ervoor dat u de vereiste e-mailsjabloon hebt bijgewerkt met uw merk. Voor een volledige lijst van malplaatjes, zie [ Lijst van het Malplaatje E-mail ](../systems/email-templates.md#email-template-list).
+Zorg ervoor dat u de vereiste e-mailsjabloon hebt bijgewerkt met uw merk. Voor een volledige lijst van malplaatjes, zie [&#x200B; Lijst van het Malplaatje E-mail &#x200B;](../systems/email-templates.md#email-template-list).
 
 ## Stap 2: de betalings mislukte e-mails configureren
 
@@ -24,9 +24,9 @@ Zorg ervoor dat u de vereiste e-mailsjabloon hebt bijgewerkt met uw merk. Voor e
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Payment Failed Emails]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Payment Failed Emails]** sectie uit.
 
-   ![ Betaling Ontbroken E-mail ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; Betaling Ontbroken E-mail &#x200B;](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. Stel de opties voor mislukte e-mails voor betaling in:
 

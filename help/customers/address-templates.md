@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-U kunt de sjabloon wijzigen die de indeling bepaalt van de facturerings- en verzendadressen van klanten die worden weergegeven op gedrukte facturen, verzendingen en terugbetalingen, en in het adresboek van de klantenaccount. Als u extra informatie wilt omvatten, kunt u [ douaneattributen ](attribute-properties.md) tot stand brengen die met de klantenrekening en [ adres ](address-attributes.md) worden geassocieerd, en hen opnemen in het malplaatje.
+U kunt de sjabloon wijzigen die de indeling bepaalt van de facturerings- en verzendadressen van klanten die worden weergegeven op gedrukte facturen, verzendingen en terugbetalingen, en in het adresboek van de klantenaccount. Als u extra informatie wilt omvatten, kunt u [&#x200B; douaneattributen &#x200B;](attribute-properties.md) tot stand brengen die met de klantenrekening en [&#x200B; adres &#x200B;](address-attributes.md) worden geassocieerd, en hen opnemen in het malplaatje.
 
 ## Voorbeeld 1: korte notatie
 
@@ -32,7 +32,7 @@ Voor de adressjablonen [!UICONTROL Text] , [!UICONTROL HTML] en [!UICONTROL PDF]
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}{{depend company}}{{var company}}{{/depend}}{{if street1}}{{var street1}}{{/if}}{{depend street2}}{{var street2}}{{/depend}}{{depend street3}}{{var street3}}{{/depend}}{{depend street4}}{{var street4}}{{/depend}}{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}{{var country}}{{depend telephone}}T: {{var telephone}}{{/depend}}{{depend fax}}F: {{var fax}}{{/depend}}{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}
 ```
 
-![ het adresmalplaatjes van de Klant ](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
+![&#x200B; het adresmalplaatjes van de Klant &#x200B;](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
 
 ## De volgorde van adresvelden wijzigen
 

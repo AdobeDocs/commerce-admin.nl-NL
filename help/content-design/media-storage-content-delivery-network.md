@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een netwerk voor inhoudslevering gebruiken
 
-U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [ Fastly ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
+U kunt een CDN (Content Delivery Network) gebruiken om mediabestanden op te slaan. Adobe Commerce op wolkeninfrastructuur omvat snelst CDN (zie [&#x200B; Fastly &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_). Een instantie van Commerce die _op gebouw_ geïnstalleerd is omvat geen integratie met om het even welke specifieke CDN, kunt u CDN van uw keus gebruiken.
 
 Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijzigingen kunnen op globaal niveau of op het niveau van de website worden aangebracht. Wanneer een CDN wordt gebruikt voor mediaopslag, worden alle paden naar media op Commerce-winkelpagina&#39;s gewijzigd in de CDN-paden die in de configuratie zijn opgegeven.
 
@@ -36,9 +36,9 @@ Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijziginge
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** naar wens in.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs]** sectie uit en doe het volgende:
 
-   ![ Algemene configuratie - Web basis URLs ](./assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene configuratie - Web basis URLs &#x200B;](./assets/web-base-urls.png){width="600" zoomable="yes"}
 
    - Werk **[!UICONTROL Base URL for Static View Files]** met URL van de plaats op CDN bij waar de statische meningsdossiers worden opgeslagen.
 
@@ -46,9 +46,9 @@ Na het vormen van CDN, moet u de configuratie van Admin voltooien. De wijziginge
 
      Beide velden kunnen leeg worden gelaten of beginnen met de tijdelijke aanduiding: `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs (Secure)]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Base URLs (Secure)]** sectie uit en doe het volgende:
 
-   ![ Algemene configuratie - Web basis URLs (veilig) ](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene configuratie - Web basis URLs (veilig) &#x200B;](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - Werk **[!UICONTROL Secure Base URL for Static View Files]** met URL van de plaats op CDN bij waar de statische meningsdossiers worden opgeslagen.
 

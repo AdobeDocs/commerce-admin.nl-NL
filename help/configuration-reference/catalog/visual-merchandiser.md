@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## [!UICONTROL General Options]
 
-![ Algemene Opties ](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
+![&#x200B; Algemene Opties &#x200B;](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Visible Attributes for Category Rules] | Algemeen | Identificeert extra attributen die met categorieregels kunnen worden gebruikt. Gebruik meerdere selecties (Ctrl of Command) om alle kenmerken te selecteren die u beschikbaar wilt maken. |
 | [!UICONTROL Minimum Stock Threshold] | Algemeen | Hiermee wordt de minimumvoorraaddrempel bepaald voor producten die op voorraadniveau worden gesorteerd. Standaardwaarde: `1` |

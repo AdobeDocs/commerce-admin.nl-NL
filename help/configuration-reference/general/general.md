@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Options]
 
-Zie [ Opties van het Land ](../../getting-started/store-details.md#country-options) voor meer details over deze configuratiegebieden en opties.
+Zie [&#x200B; Opties van het Land &#x200B;](../../getting-started/store-details.md#country-options) voor meer details over deze configuratiegebieden en opties.
 
-![ Algemeen > de Opties van het Land ](./assets/general-country-options.png)<!-- zoom -->
+![&#x200B; Algemeen > de Opties van het Land &#x200B;](./assets/general-country-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Default Country] | Winkelweergave | Het land waar je winkel zich bevindt. |
 | [!UICONTROL Allow Countries] | Website | De landen waar je bestellingen accepteert. |
@@ -32,11 +32,11 @@ Zie [ Opties van het Land ](../../getting-started/store-details.md#country-optio
 
 ## [!UICONTROL State Options]
 
-Zie [ Opties van de Staat ](../../getting-started/store-details.md#state-options) voor meer details over deze configuratiegebieden en opties.
+Zie [&#x200B; Opties van de Staat &#x200B;](../../getting-started/store-details.md#state-options) voor meer details over deze configuratiegebieden en opties.
 
-![ Algemeen > de Opties van de Staat ](./assets/general-state-options.png)<!-- zoom -->
+![&#x200B; Algemeen > de Opties van de Staat &#x200B;](./assets/general-state-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL State is required for] | Algemeen | De landen (waar u zaken doet) die een regio of een staat vereisen om in het postadres worden omvat. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Algemeen | Voor landen waar het niet wordt vereist, bepaalt als het _gebied 0&rbrace; Gebied/Staat &lbrace;in het postadres van de klant inbegrepen is.<br />_ <br />**`Yes`**- omvat het _Gebied/Staat_ gebied in het klantenadres, zelfs als niet vereist door het land.<br />**`No`** - Laat het gebied/van de Staat van het klantenadres weg als niet vereist door het land. |
@@ -45,11 +45,11 @@ Zie [ Opties van de Staat ](../../getting-started/store-details.md#state-options
 
 ## [!UICONTROL Locale Options]
 
-Zie [ Opties van de Landinstelling ](../../getting-started/store-details.md#locale-options) voor meer details over deze configuratiegebieden en opties.
+Zie [&#x200B; Opties van de Landinstelling &#x200B;](../../getting-started/store-details.md#locale-options) voor meer details over deze configuratiegebieden en opties.
 
-![ Algemeen > de Opties van de Landinstelling ](./assets/general-locale-options.png)<!-- zoom -->
+![&#x200B; Algemeen > de Opties van de Landinstelling &#x200B;](./assets/general-locale-options.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Timezone] | Website | De tijdzone van de primaire markt die door de website wordt bediend. Meestal is de tijdzone hetzelfde als de tijdzone die wordt gebruikt op de fysieke locatie van uw bedrijf. |
 | [!UICONTROL Locale] | Winkelweergave | De taal, de valuta, en het systeem van meting die in de markt wordt gebruikt die door de archiefmening wordt gediend. |
@@ -63,11 +63,11 @@ Zie [ Opties van de Landinstelling ](../../getting-started/store-details.md#loca
 
 {{ee-feature}}
 
-![ Algemeen > de Beperkingen van de Website ](./assets/general-website-restrictions.png)<!-- zoom -->
+![&#x200B; Algemeen > de Beperkingen van de Website &#x200B;](./assets/general-website-restrictions.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ de beperkingen van de Toegang ](../../merchandising-promotions/event-configure.md#access-restrictions) in de _Gids van de Verkoop en van Bevorderingen_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; de beperkingen van de Toegang &#x200B;](../../merchandising-promotions/event-configure.md#access-restrictions) in de _Gids van de Verkoop en van Bevorderingen_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | Website | Bepaalt of de website op beperkte wijze werkt.<br /> <br />**`Yes`**- Toegang tot de website wordt beperkt op de manier die is ingesteld in de onderstaande velden.<br />**`No`** - Beperkingen zijn uitgeschakeld en de volgende instellingen hebben geen effect. |
 | [!UICONTROL Restriction Mode] | Website | Bepaalt het type van toegangsbeperking dat op de website van toepassing is.<br /> <br />**`Website Closed`**- Alle toegang tot de storefront is beperkt, en opslag-URL&#39;s worden tijdelijk doorgestuurd naar de landingspagina. Deze instelling kan handig zijn tijdens het onderhoud van de site of voordat u de toepassing start.<br />**`Private Sales: Login Only`** - Alleen geregistreerde klanten kunnen zich aanmelden om toegang te krijgen tot de winkel. Alle URL&#39;s van de winkel worden tijdelijk omgeleid naar de opgegeven bestemmingspagina of het opgegeven aanmeldingsformulier. Gebruikers kunnen in deze modus geen account maken.<br />**`Private Sales: Login and Register`**- Gebruikers moeten zich aanmelden om toegang te krijgen tot de winkel. Alle URL&#39;s van de winkel worden tijdelijk doorgestuurd naar het aanmeldingsformulier totdat de gebruiker zich aanmeldt. Gebruikers kunnen zich registreren voor een account terwijl de site in deze modus is. |
@@ -80,11 +80,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ de beperkingen
 
 ## [!UICONTROL Store Information]
 
-![ Algemeen > de Informatie van de Opslag ](./assets/general-store-information.png)<!-- zoom -->
+![&#x200B; Algemeen > de Informatie van de Opslag &#x200B;](./assets/general-store-information.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Informatie van de Opslag ](../../getting-started/store-details.md) in de _Begonnen Gids_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Informatie van de Opslag &#x200B;](../../getting-started/store-details.md) in de _Begonnen Gids_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Store Name] | Winkelweergave | De naam van de opslag die aan de archiefmening wordt geassocieerd. |
 | [!UICONTROL Store Phone Number] | Winkelweergave | Het primaire telefoonnummer van de winkel (gekoppeld aan de winkelweergave) is open voor zakelijk gebruik. Bijvoorbeeld: ma - fri, 9-5, sat 9-middags PST |
@@ -101,11 +101,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Informatie van
 
 ## [!UICONTROL Single-Store Mode]
 
-![ Algemeen > Enige-Opslagwijze ](./assets/general-single-store-mode.png)<!-- zoom -->
+![&#x200B; Algemeen > Enige-Opslagwijze &#x200B;](./assets/general-single-store-mode.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ enig-opslagwijze ](../../getting-started/websites-stores-views.md#single-store-mode) in _Begonnen Gids_ krijgen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; enig-opslagwijze &#x200B;](../../getting-started/websites-stores-views.md#single-store-mode) in _Begonnen Gids_ krijgen.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Algemeen | Wanneer toegelaten voor enig-opslaginstallaties, verbergt het vakje van het configuratiebereik en verwante gebiedslabels Opties: `Yes` / `No` <br/>**_Nota:_**&#x200B;de enig-opslagwijze wordt genegeerd voor opslag met meer dan één mening.<br/> Als u de modus Eén winkel inschakelt, worden alle specifieke gegevens van de catalogus en de productopslag gekopieerd van de standaardwinkelweergave naar het volledige weergavebereik van de winkel. De catalogus- en productgegevens worden alleen gekopieerd als de winkel slechts over één voorvertoning beschikt. Als de opslag één gehandicapte opslagmening en één toegelaten opslagvoorproef heeft zal het geen catalogus en productgegevens kopiëren.<br/> Als u de modus Eén winkel inschakelt, worden de specifieke configuratie-instellingen voor de opslag genegeerd voor gegevens die specifiek zijn voor de inhoud. In plaats daarvan, gebruikt het configuratiemontages die op het globale niveauwerkingsgebied worden bepaald om consistentie tussen Admin UI en opslag te verzekeren. |
 
@@ -113,10 +113,10 @@ Voor meer informatie over het veranderen van deze montages, zie [ enig-opslagwij
 
 ## [!UICONTROL Data Services]
 
-![ Algemeen > de Diensten van Gegevens ](./assets/general-data-services.png)<!-- zoom -->
+![&#x200B; Algemeen > de Diensten van Gegevens &#x200B;](./assets/general-data-services.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Algemeen | Deze configuratie wordt uitgezet door gebrek als u een gezondheidszorgklant bent en de [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/hipaa-readiness) uitbreiding van HIPAA  van de Diensten van Gegevens &lbrace;geïnstalleerd. Hierdoor worden gegevens over opslaggebeurtenissen die worden gebruikt door Live zoeken en productaanbevelingen niet meer vastgelegd. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Om storefront gebeurtenisgegevens voor gebruik door het [ Levende Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) en de [ diensten van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview) verder te vangen en te verzenden, plaatste **Gebeurtenissen van Commerce Toegelaten** aan `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Algemeen | Deze configuratie wordt uitgezet door gebrek als u een gezondheidszorgklant bent en de [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/hipaa-readiness) uitbreiding van HIPAA  van de Diensten van Gegevens &lbrace;geïnstalleerd. Hierdoor worden gegevens over opslaggebeurtenissen die worden gebruikt door Live zoeken en productaanbevelingen niet meer vastgelegd. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Om storefront gebeurtenisgegevens voor gebruik door het [&#x200B; Levende Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) en de [&#x200B; diensten van de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview) verder te vangen en te verzenden, plaatste **Gebeurtenissen van Commerce Toegelaten** aan `Yes`. |
 
 {style="table-layout:auto"}

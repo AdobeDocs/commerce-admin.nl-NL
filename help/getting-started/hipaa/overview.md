@@ -24,7 +24,7 @@ ht-degree: 1%
 
 **de Portabiliteit en de Verantwoording van de Verzekering van de Gezondheid (HIPAA)**
 
-De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijkste federale privacywet voor gezondheidszorg in de Verenigde Staten en wordt gehandhaafd door het Amerikaanse ministerie van Gezondheid en Menselijke Diensten (HHS). HIPAA is op _Bedekte Entiteiten_ (zoals gezondheidszorgleveranciers, verzekeraars, en clearinghuizen) en _BedrijfsVennoten_ (zoals die entiteiten van toepassing die de diensten aan overdekte entiteiten verlenen) van toepassing. De vereisten van HIPAA worden geplaatst over drie afzonderlijke regels: de Regel van de Privacy, de Regel van de Veiligheid, en de Regel van het Bericht van het Schending. Adobe treedt op als Business Associate voor bepaalde producten, die Adobe als &quot;HIPAA-Ready Services&quot; classificeert. Gegevens die onder HIPAA worden gereguleerd worden bedoeld als _Beschermde Informatie van de Gezondheid_ of PHI. PHI is een subset van gezondheidsinformatie die (1) wordt gecreëerd of ontvangen door een zorgaanbieder, een gezondheidsplan of een clearinghouse voor de gezondheidszorg, (2) betrekking heeft op het verleden, het heden of de toekomstige lichamelijke of geestelijke gezondheid of toestand van een individu, de verstrekking van gezondheidszorg aan een individu, of de eerdere, huidige of toekomstige betaling voor de verstrekking van gezondheidszorg aan een individu, en (3) de persoon identificeert of ten aanzien waarvan er een redelijke basis voor bestaat informatie kan worden gebruikt om het individu te identificeren. De HIPAA-privacy- en beveiligingsregels vereisen dat een onder de overeenkomst vallende entiteit schriftelijke garanties krijgt van een Business Associate in de vorm van een Business Associate Agreement, of BAA, waarbij de Business Associate wordt verplicht de privacy en veiligheid van de PHI van de onder de overeenkomst vallende entiteit te waarborgen. Voor meer informatie, zie [ HIPAA en de Producten en de Diensten van Adobe ](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) in het Centrum van het Vertrouwen van Adobe.
+De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijkste federale privacywet voor gezondheidszorg in de Verenigde Staten en wordt gehandhaafd door het Amerikaanse ministerie van Gezondheid en Menselijke Diensten (HHS). HIPAA is op _Bedekte Entiteiten_ (zoals gezondheidszorgleveranciers, verzekeraars, en clearinghuizen) en _BedrijfsVennoten_ (zoals die entiteiten van toepassing die de diensten aan overdekte entiteiten verlenen) van toepassing. De vereisten van HIPAA worden geplaatst over drie afzonderlijke regels: de Regel van de Privacy, de Regel van de Veiligheid, en de Regel van het Bericht van het Schending. Adobe treedt op als Business Associate voor bepaalde producten, die Adobe als &quot;HIPAA-Ready Services&quot; classificeert. Gegevens die onder HIPAA worden gereguleerd worden bedoeld als _Beschermde Informatie van de Gezondheid_ of PHI. PHI is een subset van gezondheidsinformatie die (1) wordt gecreëerd of ontvangen door een zorgaanbieder, een gezondheidsplan of een clearinghouse voor de gezondheidszorg, (2) betrekking heeft op het verleden, het heden of de toekomstige lichamelijke of geestelijke gezondheid of toestand van een individu, de verstrekking van gezondheidszorg aan een individu, of de eerdere, huidige of toekomstige betaling voor de verstrekking van gezondheidszorg aan een individu, en (3) de persoon identificeert of ten aanzien waarvan er een redelijke basis voor bestaat informatie kan worden gebruikt om het individu te identificeren. De HIPAA-privacy- en beveiligingsregels vereisen dat een onder de overeenkomst vallende entiteit schriftelijke garanties krijgt van een Business Associate in de vorm van een Business Associate Agreement, of BAA, waarbij de Business Associate wordt verplicht de privacy en veiligheid van de PHI van de onder de overeenkomst vallende entiteit te waarborgen. Voor meer informatie, zie [&#x200B; HIPAA en de Producten en de Diensten van Adobe &#x200B;](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) in het Centrum van het Vertrouwen van Adobe.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ De Health Insurance Portability and Accountability Act (HIPAA) is de belangrijks
 
 De Adobe Commerce HIPAA-Ready-uitbreiding voegt extra functies en functies toe aan Adobe Commerce-installaties die handelaren in staat stellen te voldoen aan hun respectieve HIPAA-verplichtingen.
 
-De Adobe Commerce HIPAA-Ready-extensie `magento/hipaa-ee` is beschikbaar voor Adobe Commerce op cloudinfrastructuur of Adobe Managed Services-projecten. Het Adobe Commerce HIPAA-Klaar installatieproces maakt sommige inheemse diensten en eigenschappen onbruikbaar om aan vereisten te voldoen HIPAA. Zie [ Gehandicapte diensten en eigenschappen ](#disabled-services-and-features).
+De Adobe Commerce HIPAA-Ready-extensie `magento/hipaa-ee` is beschikbaar voor Adobe Commerce op cloudinfrastructuur of Adobe Managed Services-projecten. Het Adobe Commerce HIPAA-Klaar installatieproces maakt sommige inheemse diensten en eigenschappen onbruikbaar om aan vereisten te voldoen HIPAA. Zie [&#x200B; Gehandicapte diensten en eigenschappen &#x200B;](#disabled-services-and-features).
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ In de volgende tabel wordt de compatibiliteit tussen versies van Adobe Commerce 
 
 | Adobe Commerce | Ondersteund | Notities |
 |----------------|-----------|-------|
-| 2.4.7-p4 en hoger | 1.2.0. | 2.4.7-p4 de steun vereist a [ hotfix ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.7-p4 en hoger | 1.2.0. | 2.4.7-p4 de steun vereist a [&#x200B; hotfix &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0. | |
-| 2.4.6-p8 | 1.1.0. | De steun voor [ datadiensten ](#adobe-commerce-services) werd geïntroduceerd in 1.1.0 |
+| 2.4.6-p8 | 1.1.0. | De steun voor [&#x200B; datadiensten &#x200B;](#adobe-commerce-services) werd geïntroduceerd in 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0. | |
 
 >[!IMPORTANT]
@@ -65,21 +65,21 @@ In de volgende tabel wordt de compatibiliteit tussen versies van Adobe Commerce 
 >[!BEGINSHADEBOX]
 
 - Adobe heeft uw Adobe Commerce-account ingericht voor toegang tot de HIPAA Ready-extensie.
-- Toegang tot [ repo.magento.com ](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
+- Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
 
 >[!ENDSHADEBOX]
 
-Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magento/hipaa-ee`) voor een instantie die Adobe Commerce versie 2.4.7-p5 of 2.4.6-p3 tot en met 2.4.6-p8 uitvoert. De uitbreiding wordt geleverd als composer metapack van de {[ bewaarplaats 0} repo.magento.com. ](https://repo.magento.com) Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
+Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magento/hipaa-ee`) voor een instantie die Adobe Commerce versie 2.4.7-p5 of 2.4.6-p3 tot en met 2.4.6-p8 uitvoert. De uitbreiding wordt geleverd als composer metapack van de {[&#x200B; bewaarplaats 0} repo.magento.com. &#x200B;](https://repo.magento.com) Het metapakket omvat de inzameling van modules die de mogelijkheden HIPAA voor een instantie van Adobe Commerce toelaten.
 
 >[!NOTE]
 >
->Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [ de uitbreidingsgids van de Verbinding van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [&#x200B; de uitbreidingsgids van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Schakel op uw lokale werkstation de projectmap voor uw Adobe Commerce over het infrastructuurproject voor de cloud in.
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [&#x200B; het Leiden takken met CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Check de omgevingsvertakking uit om bij te werken met de Adobe Commerce Cloud CLI.
 
@@ -107,7 +107,7 @@ Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magen
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates stelt het [ proces van de de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   Het duwen van de updates stelt het [&#x200B; proces van de de wolkenplaatsing van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [&#x200B; opstellen logboek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Installatie controleren
 
@@ -152,7 +152,7 @@ De extensie `magento/hipaa-ee` bevat enkele wijzigingen en verbeteringen voor he
 
 ### Handelingenlogboeken
 
-Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce, registreert de [ eigenschap van de Actie 0&rbrace; &lbrace;elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. ](../../systems/action-log.md) Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
+Controle het Registreren is een vereiste van HIPAA. In Adobe Commerce, registreert de [&#x200B; eigenschap van de Actie 0&rbrace; &lbrace;elke verandering die door een gebruiker wordt aangebracht Admin die in uw opslag werkt. &#x200B;](../../systems/action-log.md) Om aan de vereisten van HIPAA voor het Logboek van de Controle te voldoen, is de eigenschap bijgewerkt om alle Admin gebruikers en klantenacties te registreren die door Admin UI en door API vraag worden uitgevoerd.
 
 Met Action Logs worden ook gebeurtenissen vastgelegd wanneer Adobe-services toegang krijgen tot uw opslaggegevens. U kunt deze gebeurtenissen identificeren door te filteren op de actie &quot;Gegevens verzonden buiten&quot;in het rapport van de Logs van de Actie.
 
@@ -279,19 +279,19 @@ De volgende lijst identificeert de diensten van Adobe Commerce die voor het HIPA
 
 | Service | Niet-productie | Productie |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [ Adobe Developer App Builder ](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
-| [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [ Levend Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) | Nee | Nee |
-| [ Aanbevelingen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/overview) | Nee | Nee |
-| [ de Diensten van de Betaling ](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) | Nee | Nee |
-| [ De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [ de Gebeurtenissen van de Opslag van de Verbinding van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
-| [ Audience Activation ](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/audience-activation) | Nee | Nee |
+| [&#x200B; Adobe Developer App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
+| [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
+| [&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) | Nee | Nee |
+| [&#x200B; Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/overview) | Nee | Nee |
+| [&#x200B; de Diensten van de Betaling &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) | Nee | Nee |
+| [&#x200B; De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [&#x200B; de Gebeurtenissen van de Opslag van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
+| [&#x200B; Audience Activation &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/audience-activation) | Nee | Nee |
 
 ### Gereedschappen
 
-Het [ Hulpmiddel van het Scannen van de Veiligheid ](../../systems/security-scan.md) voor Adobe Commerce helpt u uw opslag controleren om ervoor te zorgen dat alle vereiste veiligheidscontroles worden toegelaten en operationeel. Naast de standaard veiligheidscontroles, heeft Adobe het hulpmiddel verbeterd om HIPAA-specifieke controles voor klanten te tonen die het aanbieden van HIPAA voor Adobe Commerce gebruiken. De controles HIPAA in het Hulpmiddel van het Scannen van de Veiligheid worden ontworpen om ervoor te zorgen dat:
+Het [&#x200B; Hulpmiddel van het Scannen van de Veiligheid &#x200B;](../../systems/security-scan.md) voor Adobe Commerce helpt u uw opslag controleren om ervoor te zorgen dat alle vereiste veiligheidscontroles worden toegelaten en operationeel. Naast de standaard veiligheidscontroles, heeft Adobe het hulpmiddel verbeterd om HIPAA-specifieke controles voor klanten te tonen die het aanbieden van HIPAA voor Adobe Commerce gebruiken. De controles HIPAA in het Hulpmiddel van het Scannen van de Veiligheid worden ontworpen om ervoor te zorgen dat:
 
 - De controlemodules zijn niet uitgeschakeld
 - Tweevoudige verificatie (2FA) is niet uitgeschakeld
@@ -299,7 +299,7 @@ Het [ Hulpmiddel van het Scannen van de Veiligheid ](../../systems/security-scan
 - Alle geïnstalleerde extensies komen overeen met een vooraf gedefinieerde lijst van gewenste personen
 - Geen niet-ondersteunde Adobe-services geïnstalleerd
 
-U kunt [ het hulpmiddel ](../../systems/security-scan.md#run-a-security-scan) vormen om u e-mailberichten met details van geplande scans of [ manueel meningsrapporten ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview) te verzenden.
+U kunt [&#x200B; het hulpmiddel &#x200B;](../../systems/security-scan.md#run-a-security-scan) vormen om u e-mailberichten met details van geplande scans of [&#x200B; manueel meningsrapporten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview) te verzenden.
 
 ## Uitgeschakelde functies
 
@@ -307,7 +307,7 @@ Om aan HIPAA-vereisten te voldoen, zijn sommige functies die door Adobe Commerce
 
 De volgende functies zijn standaard uitgeschakeld in de HIPAA-gereedheidsmodule. Handelaren kunnen al deze functies op eigen risico inschakelen.
 
-- **[Transactionele e-mail ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid wordt onbruikbaar gemaakt door gebrek omdat de dienst niet-HIPAA-klaar is. Adobe Commerce verstrekt een integratieoptie die u met uw eigen [ Eenvoudige van AWS E-mailDienst ](https://docs.aws.amazon.com/ses/) rekening kunt gebruiken. Neem contact op met de technische accountmanager van de klant of de Adobe Commerce-ondersteuning voor configuratiegegevens.
+- **[Transactionele e-mail &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid wordt onbruikbaar gemaakt door gebrek omdat de dienst niet-HIPAA-klaar is. Adobe Commerce verstrekt een integratieoptie die u met uw eigen [&#x200B; Eenvoudige van AWS E-mailDienst &#x200B;](https://docs.aws.amazon.com/ses/) rekening kunt gebruiken. Neem contact op met de technische accountmanager van de klant of de Adobe Commerce-ondersteuning voor configuratiegegevens.
 
 - **[controle van de Gast](../../stores-purchase/checkout-guest.md)** - Deze eigenschap stelt een potentieel risico voor diverse aspecten van HIPAA met inbegrip van registreren, toegangsbeheer, hygiëne PHI en lijn, en potentieel meer voor.
 

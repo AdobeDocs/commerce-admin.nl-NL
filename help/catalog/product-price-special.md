@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Voor een bepaalde periode kan een speciale prijs worden aangeboden. Gedurende de opgegeven periode verschijnt de speciale prijs in plaats van de reguliere prijs, gevolgd door een notatie die de reguliere prijs weergeeft.
 
-![ Speciale prijs op een productpagina ](./assets/storefront-price-special.png){width="700" zoomable="yes"}
+![&#x200B; Speciale prijs op een productpagina &#x200B;](./assets/storefront-price-special.png){width="700" zoomable="yes"}
 
 ## Speciale prijs toepassen op een afzonderlijk product
 
@@ -24,27 +24,27 @@ U kunt eenvoudig een speciale prijs instellen voor één product in de catalogus
 
 {{ee-feature}}
 
-Adobe Commerce omvat steun voor [ geplande updates ](../content-design/content-staging-scheduled-update.md). Gebruik deze promotietools om een speciale prijs toe te passen op een specifiek product gedurende een bepaalde periode.
+Adobe Commerce omvat steun voor [&#x200B; geplande updates &#x200B;](../content-design/content-staging-scheduled-update.md). Gebruik deze promotietools om een speciale prijs toe te passen op een specifiek product gedurende een bepaalde periode.
 
 1. Open het product in de bewerkingsmodus.
 
 1. Klik op **[!UICONTROL Scheduled Update]**.
 
-   ![ voeg geplande update voor product ](./assets/product-schedule-new-update.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg geplande update voor product &#x200B;](./assets/product-schedule-new-update.png){width="600" zoomable="yes"} toe
 
 1. Voor **Naam van de Update**, ga een naam voor de speciale prijsbevordering in.
 
 1. Voer een korte beschrijving in **[!UICONTROL Description]** .
 
-1. Gebruik het _pictogram van de Kalender_ ( ![ kalenderpictogram ](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de speciale prijsbevordering te kiezen.
+1. Gebruik het _pictogram van de Kalender_ ( ![&#x200B; kalenderpictogram &#x200B;](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de speciale prijsbevordering te kiezen.
 
    U kunt ook de schuifregelaars **[!UICONTROL Hour]** en **[!UICONTROL Minute]** gebruiken om de begin- en eindtijd te kiezen. Klik op **[!UICONTROL Close]** wanneer het begin en het einde zijn ingesteld.
 
-   ![ sparen als Nieuwe Update ](./assets/product-price-special-scheduled-update.png){width="600" zoomable="yes"}
+   ![&#x200B; sparen als Nieuwe Update &#x200B;](./assets/product-price-special-scheduled-update.png){width="600" zoomable="yes"}
 
 1. De rol neer aan het _Prijs_ gebied, klikt **[!UICONTROL Advanced Pricing]**, en gaat de hoeveelheid **[!UICONTROL Special Price]** in die volgens de geplande update moet worden toegepast.
 
-   ![ Speciale het Tarief Montages ](./assets/product-price-special.png){width="600" zoomable="yes"}
+   ![&#x200B; Speciale het Tarief Montages &#x200B;](./assets/product-price-special.png){width="600" zoomable="yes"}
 
 1. Klik na voltooiing op **[!UICONTROL Done]** en vervolgens op **[!DNL Save]** .
 
@@ -52,7 +52,7 @@ Adobe Commerce omvat steun voor [ geplande updates ](../content-design/content-s
 
    De _[!UICONTROL Scheduled Change]_&#x200B;wordt boven aan de pagina weergegeven.
 
-   ![ Geplande Verandering ](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
+   ![&#x200B; Geplande Verandering &#x200B;](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
 ### Een eenvoudige begin- en einddatum gebruiken
 
@@ -64,11 +64,11 @@ Magento Open Source bevat eenvoudige begin- en einddatumopties in de geavanceerd
 
 1. Schuif omlaag naar het veld _[!UICONTROL Price]_, klik op **[!UICONTROL Advanced Pricing]**&#x200B;en voer de hoeveelheid **[!UICONTROL Special Price]**&#x200B;in.
 
-1. Gebruik het _pictogram van de Kalender_ ( ![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de speciale prijsbevordering te kiezen.
+1. Gebruik het _pictogram van de Kalender_ ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de speciale prijsbevordering te kiezen.
 
    De speciale prijs gaat in onmiddellijk na middernacht aan het begin van de begindatum (00:01) en loopt door tot net vóór middernacht (23:59) op de dag vóór de einddatum.
 
-   ![ Geplande Verandering ](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
+   ![&#x200B; Geplande Verandering &#x200B;](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
 1. Klik na voltooiing op **[!UICONTROL Done]** en vervolgens op **[!UICONTROL Save]** .
 
@@ -76,7 +76,7 @@ Magento Open Source bevat eenvoudige begin- en einddatumopties in de geavanceerd
 
 ## Een speciale prijs toepassen op meerdere producten
 
-U kunt een speciale prijs aan veelvoudige producten, zoals veelvoudige variaties van a [ ook toewijzen configureerbaar product ](product-create-configurable.md).
+U kunt een speciale prijs aan veelvoudige producten, zoals veelvoudige variaties van a [&#x200B; ook toewijzen configureerbaar product &#x200B;](product-create-configurable.md).
 
 ### Een speciale prijs instellen voor geselecteerde producten
 
@@ -96,7 +96,7 @@ In het volgende voorbeeld ziet u hoe u dezelfde speciale prijs kunt toewijzen aa
 
 1. Schuif omlaag naar het veld _[!UICONTROL Special Price]_&#x200B;en schakel het selectievakje **[!UICONTROL Change]**&#x200B;onder het veld&#x200B;_[!UICONTROL Special Price]_ in. Voer vervolgens de speciale prijs in die u wilt aanbieden.
 
-   ![ de Speciale gebieden van de Prijs ](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
+   ![&#x200B; de Speciale gebieden van de Prijs &#x200B;](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -116,7 +116,7 @@ Het volgende voorbeeld toont hoe te om de zelfde speciale prijs aan veelvoudige 
 
 1. Stel **[!UICONTROL Type]** in op `Simple Product` .
 
-   ![ Filters ](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![&#x200B; Filters &#x200B;](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Apply Filters]**.
 
@@ -128,19 +128,19 @@ Het volgende voorbeeld toont hoe te om de zelfde speciale prijs aan veelvoudige 
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `Update attributes` .
 
-   ![ de Attributen van de Update ](./assets/product-price-special-action-update-attributes-ce.png){width="600" zoomable="yes"}
+   ![&#x200B; de Attributen van de Update &#x200B;](./assets/product-price-special-action-update-attributes-ce.png){width="600" zoomable="yes"}
 
 1. Schuif omlaag naar het veld _[!UICONTROL Special Price]** en voer de volgende handelingen uit:
 
    - Schakel het selectievakje **[!UICONTROL Change]** onder het veld _[!UICONTROL Special Price]** in en voer de speciale prijs in die u wilt aanbieden.
 
-   - Selecteer **[!UICONTROL Change]** checkbox onder het _Speciale Prijs van Datum_ gebied, klik _Kalender_ ( ![ pictogram van de Kalender ](../assets/icon-calendar.png)), en kies de eerste datum van de speciale prijsbevordering.
+   - Selecteer **[!UICONTROL Change]** checkbox onder het _Speciale Prijs van Datum_ gebied, klik _Kalender_ ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)), en kies de eerste datum van de speciale prijsbevordering.
 
      De speciale prijs gaat in onmiddellijk na middernacht aan het begin van de begindatum (00:01) en loopt door tot net vóór middernacht (23:59) op de dag vóór de einddatum.
 
-   - Selecteer **[!UICONTROL Change]** checkbox onder het _Speciale Prijs aan Datum_ gebied, klik _Kalender_ ( ![ pictogram van de Kalender ](../assets/icon-calendar.png)), en kies de laatste datum van de speciale prijsbevordering.
+   - Selecteer **[!UICONTROL Change]** checkbox onder het _Speciale Prijs aan Datum_ gebied, klik _Kalender_ ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)), en kies de laatste datum van de speciale prijsbevordering.
 
-   ![ Speciale Prijsgebieden ](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
+   ![&#x200B; Speciale Prijsgebieden &#x200B;](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -148,7 +148,7 @@ Het volgende voorbeeld toont hoe te om de zelfde speciale prijs aan veelvoudige 
 
    De speciale prijs wordt beschikbaar in de winkel op de opgegeven datum en wordt weergegeven in catalogusaanbiedingen en op de productpagina. Voor een configureerbaar product wordt de normale prijs ook op de productpagina weergegeven wanneer de opties worden gekozen.
 
-   ![ Speciale Prijs voor Configureerbaar Product ](./assets/storefront-special-price-configurable-product-detail.png){width="600" zoomable="yes"}
+   ![&#x200B; Speciale Prijs voor Configureerbaar Product &#x200B;](./assets/storefront-special-price-configurable-product-detail.png){width="600" zoomable="yes"}
 
 ## Testen
 

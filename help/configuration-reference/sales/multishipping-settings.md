@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{config}}
 
-Voor gedetailleerde informatie over het vormen van deze multiShipping montages voor uw opslag, zie [ Veelvoudige adressen ](../../stores-purchase/shipping-settings.md#multiple-addresses).
+Voor gedetailleerde informatie over het vormen van deze multiShipping montages voor uw opslag, zie [&#x200B; Veelvoudige adressen &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses).
 
 ## [!UICONTROL Options]
 
-![ Opties ](./assets/multishipping-settings-options.png)<!-- zoom -->
+![&#x200B; Opties &#x200B;](./assets/multishipping-settings-options.png)<!-- zoom -->
 
 <!-- [Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Website | Hiermee bepaalt u of enkelvoudige bestellingen naar meerdere adressen (alleen geregistreerde klanten) mogen worden verzonden. Opties: `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Website | Hiermee stelt u een limiet in voor het aantal eenheden van een product dat naar meerdere adressen kan worden verzonden. |
@@ -31,4 +31,4 @@ Voor gedetailleerde informatie over het vormen van deze multiShipping montages v
 
 >[!NOTE]
 >
->![ Adobe Commerce B2B ](../../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts) voor orden met veelvoudige verschepende adressen, is de [ Betaling op Rekening ](../../b2b/enable-basic-features.md#configure-payment-on-account) betalingsmethode, zelfs als toegelaten, niet beschikbaar tijdens de controle.
+>![&#x200B; Adobe Commerce B2B &#x200B;](../../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B slechts) voor orden met veelvoudige verschepende adressen, is de [&#x200B; Betaling op Rekening &#x200B;](../../b2b/enable-basic-features.md#configure-payment-on-account) betalingsmethode, zelfs als toegelaten, niet beschikbaar tijdens de controle.

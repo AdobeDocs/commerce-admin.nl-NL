@@ -26,15 +26,15 @@ U hebt bijvoorbeeld één website of een implementatie van meerdere sites met si
 
 Aan de slag:
 
-- Vorm [ globale en productmontages ](configuration.md) voor de inventaris van uw opslag zoals nodig.
+- Vorm [&#x200B; globale en productmontages &#x200B;](configuration.md) voor de inventaris van uw opslag zoals nodig.
 
-- Werk [ Standaard Source ](sources-manage.md) met informatie voor uw enige inventarisplaats bij. Het maken van aanvullende bronnen is niet vereist.
+- Werk [&#x200B; Standaard Source &#x200B;](sources-manage.md) met informatie voor uw enige inventarisplaats bij. Het maken van aanvullende bronnen is niet vereist.
 
-- Werk de [ Standaardvoorraad ](stocks-manage.md) bij. Zorg ervoor dat al uw websites zijn geselecteerd als verkoopkanalen. Als u nieuwe websites toevoegt, voegt [!DNL Commerce] deze automatisch toe aan de standaardvoorraad. Het is niet nodig extra bestanden te maken.
+- Werk de [&#x200B; Standaardvoorraad &#x200B;](stocks-manage.md) bij. Zorg ervoor dat al uw websites zijn geselecteerd als verkoopkanalen. Als u nieuwe websites toevoegt, voegt [!DNL Commerce] deze automatisch toe aan de standaardvoorraad. Het is niet nodig extra bestanden te maken.
 
 >[!NOTE]
 >
->Naarmate uw bedrijf zich uitbreidt, voegt u extra bronnen en voorraden toe en werkt u uw [!DNL Inventory Management] -configuratie bij, zodat deze een multisource-leverancier wordt. Zie [ Inventaris van de Uitbreiding en van de Herstructurering ](expand-restructure.md) voor alle details.
+>Naarmate uw bedrijf zich uitbreidt, voegt u extra bronnen en voorraden toe en werkt u uw [!DNL Inventory Management] -configuratie bij, zodat deze een multisource-leverancier wordt. Zie [&#x200B; Inventaris van de Uitbreiding en van de Herstructurering &#x200B;](expand-restructure.md) voor alle details.
 
 ## Meerbronproducten
 
@@ -46,9 +46,9 @@ Aan de slag:
 
 - Configureer zo nodig algemene instellingen voor de inventarisatie van uw winkel.
 
-- Voeg [ douanebronnen ](sources-add.md) voor uw inventarisplaatsen toe: pakhuizen, opslag, distributiecentra, en dalingsexpediteurs.
+- Voeg [&#x200B; douanebronnen &#x200B;](sources-add.md) voor uw inventarisplaatsen toe: pakhuizen, opslag, distributiecentra, en dalingsexpediteurs.
 
-- Voeg [ douanevoorraden ](stocks-add.md) voor elk gebied toe om uw websites met veelvoudige bronnen in kaart te brengen. U kunt de bronnen in elk bestand opnieuw rangschikken, zodat u ze bij het uitvoeren van uw bestellingen kunt gebruiken.
+- Voeg [&#x200B; douanevoorraden &#x200B;](stocks-add.md) voor elk gebied toe om uw websites met veelvoudige bronnen in kaart te brengen. U kunt de bronnen in elk bestand opnieuw rangschikken, zodat u ze bij het uitvoeren van uw bestellingen kunt gebruiken.
 
 - Bronnen toewijzen aan producten en hoeveelheden per locatie toevoegen.
 

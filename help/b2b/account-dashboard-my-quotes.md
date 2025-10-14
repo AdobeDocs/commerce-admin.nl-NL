@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Als offertes zijn ingeschakeld, worden in het gedeelte _[!UICONTROL My Quotes]_&#x200B;van het dashboard voor de klantenaccount alle aanhalingstekens weergegeven die door de klant zijn ingediend. Afhankelijk van hun machtigingen kunnen alleen kopers die namens een bedrijf aankopen doen, verzoeken om over de prijs van een aankoop te onderhandelen.
 
-![ Mijn citaten ](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
+![&#x200B; Mijn citaten &#x200B;](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
-De koper begint het proces door [ een verzoek ](quote-request.md) voor een citaat van het het winkelwagentje voor te leggen voor te leggen. E-mail wordt geruild tussen de koper en de verkoper tijdens het [ onderhandelingsproces ](quote-price-negotiation.md). Voor de koper is de pagina [!UICONTROL My Quotes] het centrale punt voor alle communicatie tussen koper en verkoper tijdens het onderhandelingsproces. Een koper die de door de verkoper geboden onderhandelingsprijs accepteert, kan direct vanaf de prijsopgave naar de betalingspagina gaan. Er kunnen geen extra kortingen aan het onderhandelde prijsopgave worden toegevoegd.
+De koper begint het proces door [&#x200B; een verzoek &#x200B;](quote-request.md) voor een citaat van het het winkelwagentje voor te leggen voor te leggen. E-mail wordt geruild tussen de koper en de verkoper tijdens het [&#x200B; onderhandelingsproces &#x200B;](quote-price-negotiation.md). Voor de koper is de pagina [!UICONTROL My Quotes] het centrale punt voor alle communicatie tussen koper en verkoper tijdens het onderhandelingsproces. Een koper die de door de verkoper geboden onderhandelingsprijs accepteert, kan direct vanaf de prijsopgave naar de betalingspagina gaan. Er kunnen geen extra kortingen aan het onderhandelde prijsopgave worden toegevoegd.
 
 Bij het onderhandelen over een prijsopgave heeft een koper verschillende opties om de prijsopgave te beheren of de prijsdetails bij te werken.
 
@@ -48,13 +48,13 @@ Bij het onderhandelen over een prijsopgave heeft een koper verschillende opties 
 In het volgende voorbeeld wordt een prijsopgave getoond die door de koper is bijgewerkt en ter controle naar de verkoper is teruggestuurd.
 
 
-![ mening van de Koper van citaat ](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
+![&#x200B; mening van de Koper van citaat &#x200B;](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Aanhalingstekens met de status `Updated` worden vergrendeld totdat de verkoper het aanhalingsteken retourneert.
 
 ## Aanhalingstekens tonen
 
-Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions.md), kunnen de kopers verbonden aan een bedrijfrekening citaten zien die door [ worden gevraagd ondergeschikte gebruikers ](account-company-structure.md). De beheerders van het bedrijf kunnen alle citaten voor de bedrijfrekening zien.
+Met de vereiste [&#x200B; toestemmingen voor hun rol &#x200B;](account-company-roles-permissions.md), kunnen de kopers verbonden aan een bedrijfrekening citaten zien die door [&#x200B; worden gevraagd ondergeschikte gebruikers &#x200B;](account-company-structure.md). De beheerders van het bedrijf kunnen alle citaten voor de bedrijfrekening zien.
 
 1. De koper meldt zich aan bij zijn account op de winkel.
 
@@ -104,7 +104,7 @@ Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions
 
 1. Klik op **[!UICONTROL Move item]**.
 
-Zie [ producten aan een verzoeklijst ](requisition-lists.md) toevoegen om meer over dit proces te leren.
+Zie [&#x200B; producten aan een verzoeklijst &#x200B;](requisition-lists.md) toevoegen om meer over dit proces te leren.
 
 >[!NOTE]
 >

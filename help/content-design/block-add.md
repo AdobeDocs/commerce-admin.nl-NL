@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhoudsblokken toevoegen
 
-U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [ basiscontroles ](pages-workspace.md) zoals de _3&rbrace; werkruimte van Pagina&#39;s &lbrace;om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [ gebruiken Widget ](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
+U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pagina, groep pagina&#39;s of zelfs aan een ander blok. U kunt bijvoorbeeld een afbeeldingsschuifregelaar in een blok plaatsen en het blok vervolgens op de startpagina plaatsen. De werkruimte van Blokken gebruikt de zelfde [&#x200B; basiscontroles &#x200B;](pages-workspace.md) zoals de _3&rbrace; werkruimte van Pagina&#39;s &lbrace;om u te helpen beschikbare blokken vinden en routineonderhoud uitvoeren._ Wanneer het blok volledig is, kunt u het [&#x200B; gebruiken Widget &#x200B;](widget-static-block.md) hulpmiddel om het op specifieke pagina&#39;s in uw opslag te plaatsen.
 
-![ de pagina van Blokken toont een net van bestaande blokken ](./assets/blocks-workspace.png){width="700" zoomable="yes"}
+![&#x200B; de pagina van Blokken toont een net van bestaande blokken &#x200B;](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
 ## Een blok maken
 
@@ -22,7 +22,7 @@ U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pag
 
 1. In de hoger-juiste hoek, klik **voeg Nieuw Blok** toe.
 
-   ![ de Nieuwe pagina van het Blok toont opties en een inhoudsruimte ](./assets/block-detail.png){width="500" zoomable="yes"}
+   ![&#x200B; de Nieuwe pagina van het Blok toont opties en een inhoudsruimte &#x200B;](./assets/block-detail.png){width="500" zoomable="yes"}
 
 1. Als u de gebrek-toegelaten status van het nieuwe blok wilt veranderen, plaats **laat Blok** `No` toe.
 
@@ -36,25 +36,25 @@ U kunt aangepaste blokken inhoud maken en deze vervolgens toevoegen aan elke pag
 
 1. Voeg de inhoud voor het blok toe met behulp van de gereedschapsset voor weergegeven inhoud:
 
-   - Als [ de Bouwer van de Pagina ](../page-builder/introduction.md) wordt toegelaten, selecteer **[!UICONTROL Edit with Page Builder]** om de hulpmiddelen van de Bouwer van de Pagina in de inhoud [ werkruimte ](../page-builder/workspace.md) te gebruiken.
+   - Als [&#x200B; de Bouwer van de Pagina &#x200B;](../page-builder/introduction.md) wordt toegelaten, selecteer **[!UICONTROL Edit with Page Builder]** om de hulpmiddelen van de Bouwer van de Pagina in de inhoud [&#x200B; werkruimte &#x200B;](../page-builder/workspace.md) te gebruiken.
 
-     ![ de werkruimte van de Bouwer van de Pagina ](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
+     ![&#x200B; de werkruimte van de Bouwer van de Pagina &#x200B;](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
      >[!NOTE]
      >
-     >Voor informatie over het toevoegen van blokken met de Bouwer van de Pagina, zie [ Leerprogramma 2: Blokken ](../page-builder/2-blocks.md).
+     >Voor informatie over het toevoegen van blokken met de Bouwer van de Pagina, zie [&#x200B; Leerprogramma 2: Blokken &#x200B;](../page-builder/2-blocks.md).
 
-   - Gebruik de [ redacteur ](editor.md) om tekst te formatteren, verbindingen tot stand te brengen, en lijsten, beelden, video, en audio toe te voegen.
+   - Gebruik de [&#x200B; redacteur &#x200B;](editor.md) om tekst te formatteren, verbindingen tot stand te brengen, en lijsten, beelden, video, en audio toe te voegen.
 
      Als u verkiest om met de code van HTML te werken, klik **tonen/de Redacteur van de Verbergen**.
 
-     ![ de redacteur van het Blok (verborgen) ](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
+     ![&#x200B; de redacteur van het Blok (verborgen) &#x200B;](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 
 1. Klik op de pijl **[!UICONTROL Save]** als de bewerking is voltooid en kies **[!UICONTROL Save & Close]** .
 
    Het nieuwe blok verschijnt onder aan de lijst in het raster Blokken.
 
-1. Gebruik het [ hulpmiddel van Widget ](widget-static-block.md) om het voltooide blok op een specifieke pagina in uw opslag te plaatsen.
+1. Gebruik het [&#x200B; hulpmiddel van Widget &#x200B;](widget-static-block.md) om het voltooide blok op een specifieke pagina in uw opslag te plaatsen.
 
 ## Een blok verwijderen
 
@@ -87,9 +87,9 @@ Er zijn twee manieren om een aangepast blok te verwijderen. U kunt het uit het _
 
 ## Een lichtbak of regelaar toevoegen
 
-- Het is gemakkelijk om a [ schuif ](../page-builder/slider.md) aan uw opslag met [[!DNL Page Builder]](../page-builder/introduction.md) toe te voegen. De schuifregelaar kan automatisch worden ingesteld om te worden afgespeeld of kan handmatig worden ingesteld met navigatieknoppen.
+- Het is gemakkelijk om a [&#x200B; schuif &#x200B;](../page-builder/slider.md) aan uw opslag met [[!DNL Page Builder]](../page-builder/introduction.md) toe te voegen. De schuifregelaar kan automatisch worden ingesteld om te worden afgespeeld of kan handmatig worden ingesteld met navigatieknoppen.
 
-  ![ schuif van de Bouwer van de Pagina ](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
+  ![&#x200B; schuif van de Bouwer van de Pagina &#x200B;](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
   Er is ook een groot aantal op jQuery gebaseerde afbeeldingslichtvakken beschikbaar op [[!DNL Commerce Marketplace]][1] . Sommige zijn gratis.
 

@@ -18,7 +18,7 @@ Cadeaukaarten worden in het winkelwagentje afgelost, net zoals bij een bestellin
 
 De toegepaste toegepaste toegepaste code van de cadeaukaart kan worden bekeken door de orde in _Admin_ te openen, die het voor u mogelijk maakt om de code terug te winnen om het op een fysieke geschenkkaart te plaatsen, indien nodig. Als een kaartopdracht voor cadeautjes wordt geannuleerd of terugbetaald, moet u het bijbehorende kaartenaccount handmatig annuleren. U kunt het account volledig verwijderen of deactiveren.
 
-![ het Detail van de Kaart van de Kaart in Kaart ](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
+![&#x200B; het Detail van de Kaart van de Kaart in Kaart &#x200B;](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 Zo kan een klant die in de demo Luma-winkel winkelt, een virtuele of fysieke cadeaukaart kopen.
 
@@ -66,9 +66,9 @@ Hoe cadeaukaarten werken op de winkel:
 
 - Accounts voor cadeaucodes worden gemaakt om de balans van een specifieke voucher bij te houden. Een opslagbeheerder kan de balans handmatig aanpassen.
 
-De ontvangende klant kan de _[!UICONTROL Gift Card]_&#x200B;sectie van hun rekeningsdashboard gebruiken om het saldo van hun [ rekening van de cadeaukaart ](product-gift-card-accounts.md) te controleren en giftekaarten voor [ opslagkrediet ](../customers/store-credit-using.md) terug te betalen.
+De ontvangende klant kan de _[!UICONTROL Gift Card]_&#x200B;sectie van hun rekeningsdashboard gebruiken om het saldo van hun [&#x200B; rekening van de cadeaukaart &#x200B;](product-gift-card-accounts.md) te controleren en giftekaarten voor [&#x200B; opslagkrediet &#x200B;](../customers/store-credit-using.md) terug te betalen.
 
-![ Kaart van het Cadeautje ](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
+![&#x200B; Kaart van het Cadeautje &#x200B;](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
 ### De status en balans van de cadeaukaart controleren
 
@@ -78,7 +78,7 @@ De ontvangende klant kan de _[!UICONTROL Gift Card]_&#x200B;sectie van hun reken
 
 1. De klant klikt op **[!UICONTROL Check status and balance]** .
 
-![ het Saldo van de Kaart van het Cadeautje ](./assets/gift-balance.png){width="700" zoomable="yes"}
+![&#x200B; het Saldo van de Kaart van het Cadeautje &#x200B;](./assets/gift-balance.png){width="700" zoomable="yes"}
 
 De balans van de cadeaukaart wordt weergegeven.
 
@@ -88,11 +88,11 @@ De balans van de cadeaukaart wordt weergegeven.
 
 1. De klant klikt op **[!UICONTROL Redeem Gift Card]** .
 
-![ Bericht over succesvolle activering van de cadeaukaart ](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
+![&#x200B; Bericht over succesvolle activering van de cadeaukaart &#x200B;](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
 
 Het bedrag van de creditcard wordt geactiveerd en toegevoegd aan het totale creditsaldo van de winkel.
 
-![ Saldo van de Krediet van de Opslag ](./assets/store-credit.png){width="700" zoomable="yes"}
+![&#x200B; Saldo van de Krediet van de Opslag &#x200B;](./assets/store-credit.png){width="700" zoomable="yes"}
 
 Alle bewerkingen voor de balans van de cadeaukaart zijn beschikbaar op de pagina _[!UICONTROL Store Credit]_.
 

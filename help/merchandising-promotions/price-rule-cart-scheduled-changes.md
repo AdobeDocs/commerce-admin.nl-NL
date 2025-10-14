@@ -18,15 +18,15 @@ De prijsregels voor winkelwagentjes kunnen volgens schema worden toegepast als o
 
 >[!NOTE]
 >
->De [!UICONTROL From] en [!UICONTROL To] gebieden zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de regel van de kartprijs worden gewijzigd. U moet een geplande update maken voor deze activeringen.
+>De [!UICONTROL From] en [!UICONTROL To] gebieden zijn verwijderd in ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de regel van de kartprijs worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
-![ de prijsregels van de Kar - geplande veranderingen ](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
+![&#x200B; de prijsregels van de Kar - geplande veranderingen &#x200B;](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
 >Alle geplande updates worden achtereenvolgens toegepast. Dit betekent dat elke entiteit slechts één geplande update op één tijdstip kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, bepaalt de _[!UICONTROL Priority]_-instelling van de prijsregel welke regel voorrang krijgt. Meer leren, zie [ Inhoud het Opvoeren ](../content-design/content-staging.md).
+Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, bepaalt de _[!UICONTROL Priority]_-instelling van de prijsregel welke regel voorrang krijgt. Meer leren, zie [&#x200B; Inhoud het Opvoeren &#x200B;](../content-design/content-staging.md).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Als er in dezelfde campagne meerdere prijsregels worden uitgevoerd, bepaalt de _
 
 >[!NOTE]
 >
->Als een campagne met meer dan één regel van de kartprijs verbonden is, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
+>Als een campagne met meer dan één regel van de kartprijs verbonden is, kan de campagne slechts van het [&#x200B; Inhoud Staging Dashboard &#x200B;](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 Houd rekening met het volgende:
 

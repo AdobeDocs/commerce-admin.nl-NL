@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Belastingklassen
 
-Belastingklassen kunnen worden toegewezen aan klanten, producten en verzendingen. Commerce analyseert het winkelwagentje van elke klant en berekent de toepasselijke belasting volgens de klasse van de klant, de klasse van de producten in de kar en de regio. Het gebied wordt bepaald door het verzendadres, het factuuradres of de herkomst van de verzending van de klant. De nieuwe belastingklassen kunnen worden gecreeerd wanneer de a [ belastingregel ](tax-rules.md) wordt bepaald.
+Belastingklassen kunnen worden toegewezen aan klanten, producten en verzendingen. Commerce analyseert het winkelwagentje van elke klant en berekent de toepasselijke belasting volgens de klasse van de klant, de klasse van de producten in de kar en de regio. Het gebied wordt bepaald door het verzendadres, het factuuradres of de herkomst van de verzending van de klant. De nieuwe belastingklassen kunnen worden gecreeerd wanneer de a [&#x200B; belastingregel &#x200B;](tax-rules.md) wordt bepaald.
 
-- **Klant** — U kunt zo vele klassen van de klantenbelasting tot stand brengen aangezien u nodig hebt, en hen toewijzen aan [ klantengroepen ](../customers/customer-groups.md). In sommige rechtsgebieden bijvoorbeeld worden wholesaletransacties niet belast, maar retailtransacties wel. U kunt leden van de groep van de Klant van de Groothandel met de de belastingklasse van de Groothandel associëren.
+- **Klant** — U kunt zo vele klassen van de klantenbelasting tot stand brengen aangezien u nodig hebt, en hen toewijzen aan [&#x200B; klantengroepen &#x200B;](../customers/customer-groups.md). In sommige rechtsgebieden bijvoorbeeld worden wholesaletransacties niet belast, maar retailtransacties wel. U kunt leden van de groep van de Klant van de Groothandel met de de belastingklasse van de Groothandel associëren.
 
 - **Product** — De klassen van het Product worden gebruikt in berekeningen om het correcte belastingtarief te bepalen wordt toegepast in het winkelwagentje. Wanneer u een product maakt, wordt dit toegewezen aan een specifieke belastingklasse. Voedsel mag bijvoorbeeld niet worden belast of worden belast tegen een ander tarief.
 
@@ -22,15 +22,15 @@ Belastingklassen kunnen worden toegewezen aan klanten, producten en verzendingen
 
 ## Belastingsklassen configureren
 
-De belastingklasse die voor het verschepen wordt gebruikt, en de standaardbelastingklassen voor [ producten en klanten ](#add-a-product-tax-class) worden geplaatst in de _[!UICONTROL Sales]_&#x200B;configuratie.
+De belastingklasse die voor het verschepen wordt gebruikt, en de standaardbelastingklassen voor [&#x200B; producten en klanten &#x200B;](#add-a-product-tax-class) worden geplaatst in de _[!UICONTROL Sales]_&#x200B;configuratie.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
 
-   ![ Configuratie - belastingklassen ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuratie - belastingklassen &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
 1. Kies de belastingklasse voor elk van de volgende opties:
 
@@ -49,19 +49,19 @@ Belastingklassen voor klanten en producten kunnen eenvoudig worden toegevoegd en
 
 1. Klik op **[!UICONTROL Add New Tax Rule]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Additional Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Additional Settings]** sectie uit.
 
-   ![ voeg Nieuwe Belastingsklasse ](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Nieuwe Belastingsklasse &#x200B;](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"} toe
 
 1. Onder _Klasse van de Belasting van de Klant_, klik **[!UICONTROL Add New Tax Class]**.
 
 1. Voer de **[!UICONTROL Name]** van de nieuwe belastingklasse in het tekstvak in.
 
-   ![ voeg Nieuwe Belastingsklasse ](./assets/tax-class-customer-add-new.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Nieuwe Belastingsklasse &#x200B;](./assets/tax-class-customer-add-new.png){width="600" zoomable="yes"} toe
 
 1. Als u de nieuwe klasse wilt toevoegen aan de lijst met beschikbare klassen voor klantbelasting, klikt u op het vinkje.
 
-   ![ Nieuwe belastingklassen ](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe belastingklassen &#x200B;](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
 
 ## Een productbelastingklasse toevoegen
 
@@ -83,9 +83,9 @@ De standaardinstellingen voor de belastingbestemming bepalen het land, de staat 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie uit.
 
-   ![ Berekening van de StandaardBelastingbestemming ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![&#x200B; Berekening van de StandaardBelastingbestemming &#x200B;](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Default Country]** in op het land waarop de belastingberekeningen zijn gebaseerd.
 

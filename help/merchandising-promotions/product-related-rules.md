@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De verwante productregels geven u de capaciteit om de selectie van producten te richten die aan klanten als verwante producten worden voorgesteld, omhoog-verkoopt, en dwars-verkoopt. Elke productregel kan met a [ klantensegment ](../customers/customer-segments.md) worden geassocieerd om een dynamische vertoning van gerichte handel te veroorzaken.
+De verwante productregels geven u de capaciteit om de selectie van producten te richten die aan klanten als verwante producten worden voorgesteld, omhoog-verkoopt, en dwars-verkoopt. Elke productregel kan met a [&#x200B; klantensegment &#x200B;](../customers/customer-segments.md) worden geassocieerd om een dynamische vertoning van gerichte handel te veroorzaken.
 
 Aangezien verscheidene actieve regels tezelfdertijd kunnen worden teweeggebracht, kunt u een prioriteit voor elke regel plaatsen. Het bepaalt de orde waarin de regels worden toegepast en de producten op de pagina worden getoond.
 
 Ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;om de verwante productregels te openen.
 
-![ Verwante lijst van productregels ](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![&#x200B; Verwante lijst van productregels &#x200B;](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -71,9 +71,9 @@ Het gedrag van de regels van de productverhouding en de vertoning van aangepaste
 
 1. Vouw in het deelvenster aan de linkerkant **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** onder.
 
-1. Breid ![ Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Rules-Based Product Relations]** sectie.
+1. Breid ![&#x200B; Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Rules-Based Product Relations]** sectie.
 
-   ![ configuratie van de Catalogus - op regel-gebaseerde productbetrekkingen ](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - op regel-gebaseerde productbetrekkingen &#x200B;](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Maximum Number of Products in the Related Products List]** in.
 
@@ -137,7 +137,7 @@ Het gedrag van de regels van de productverhouding en de vertoning van aangepaste
 
 >[!NOTE]
 >
->Deze functie is in bèta. Als u zich bij het bètaprogramma zou willen aansluiten, verzend een verzoek aan [ dataconnection@adobe.com ](mailto:dataconnection@adobe.com).
+>Deze functie is in bèta. Als u zich bij het bètaprogramma zou willen aansluiten, verzend een verzoek aan [&#x200B; dataconnection@adobe.com &#x200B;](mailto:dataconnection@adobe.com).
 
 
 Leer hoe te [&#128279;](../customers/audience-activation.md) publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om verwante productregels mee te delen.

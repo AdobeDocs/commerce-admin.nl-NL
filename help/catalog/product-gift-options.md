@@ -14,21 +14,21 @@ ht-degree: 0%
 
 In de sectie _[!UICONTROL Gift Options]_&#x200B;kunt u het bericht en de opties voor het inpakken van cadeaus instellen bij het afrekenen op productniveau. Schakel het selectievakje **[!UICONTROL Use Config Settings]**&#x200B;uit als u de standaardconfiguratie-instelling wilt overschrijven.
 
-![ Cadeauopties ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
+![&#x200B; Cadeauopties &#x200B;](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
 ## Cadeauopties instellen voor één product
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Gift Options]_&#x200B;sectie en doet het volgende:
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Gift Options]_&#x200B;sectie en doet het volgende:
 
    - Schakel het selectievakje **[!UICONTROL Use Config Settings]** uit als u de standaardinstelling wilt overschrijven.
 
    - Stel **[!UICONTROL Allow Gift Message]** naar wens in voor het product.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) ([ Adobe Commerce ](../landing/home.md#product-editions) slechts) Reeks **[!UICONTROL Allow Gift Wrapping]** zoals nodig voor het product.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) ([&#x200B; Adobe Commerce &#x200B;](../landing/home.md#product-editions) slechts) Reeks **[!UICONTROL Allow Gift Wrapping]** zoals nodig voor het product.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) ([ Adobe Commerce ](../landing/home.md#product-editions) slechts) als toepasselijk, ga **[!UICONTROL Price for Gift Wrapping]** in.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) ([&#x200B; Adobe Commerce &#x200B;](../landing/home.md#product-editions) slechts) als toepasselijk, ga **[!UICONTROL Price for Gift Wrapping]** in.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -42,7 +42,7 @@ U kunt deze eigenschap aan klanten verstrekken door _geschenk_ voor uw opslag to
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** op de pagina uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** op de pagina uit.
 
 1. Selecteer `Yes` bij **[!UICONTROL Allow Gift Messages on Order Level]** als u één cadeaubericht voor de hele volgorde wilt inschakelen.
 
@@ -52,4 +52,4 @@ U kunt deze eigenschap aan klanten verstrekken door _geschenk_ voor uw opslag to
 
 Met deze configuratie kunnen klanten een cadeaubericht aan de winkelpagina toevoegen vanuit de storefront, zoals in het volgende voorbeeld wordt getoond:
 
-![ Bericht van het Cadeautje ](./assets/gift-message.png){width="600" zoomable="yes"}
+![&#x200B; Bericht van het Cadeautje &#x200B;](./assets/gift-message.png){width="600" zoomable="yes"}

@@ -18,9 +18,9 @@ Om de lading op de server te beheren, worden de nieuwsbrieven met vele abonnees 
 
 1. Voor het _Admin_ menu, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
-1. In het net, vind het [ nieuwsbrief malplaatje ](newsletter-template.md) dat moet worden verzonden en de **[!UICONTROL Action]** kolom plaatsen aan `Queue Newsletter`.
+1. In het net, vind het [&#x200B; nieuwsbrief malplaatje &#x200B;](newsletter-template.md) dat moet worden verzonden en de **[!UICONTROL Action]** kolom plaatsen aan `Queue Newsletter`.
 
-1. Voor **[!UICONTROL Queue Date Start]**, selecteer de datum dat de transmissie van de kalender moet beginnen (![ pictogram van de Kalender ](../assets/icon-calendar.png)).
+1. Voor **[!UICONTROL Queue Date Start]**, selecteer de datum dat de transmissie van de kalender moet beginnen (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)).
 
 1. Selecteer voor **[!UICONTROL Subscribers From]** elke winkelweergave die in de e-mailballast moet worden opgenomen.
 
@@ -34,7 +34,7 @@ Om de lading op de server te beheren, worden de nieuwsbrieven met vele abonnees 
 
      De standaardnaam en het e-mailadres van de afzender worden gespecificeerd in de configuratie.
 
-     ![ de rijinformatie van de de rij van de Nieuwsbrief ](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
+     ![&#x200B; de rijinformatie van de de rij van de Nieuwsbrief &#x200B;](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
 1. Voer, indien van toepassing, een opmerking in het vak **[!UICONTROL Message]** boven de instructies om het abonnement op te zeggen.
 

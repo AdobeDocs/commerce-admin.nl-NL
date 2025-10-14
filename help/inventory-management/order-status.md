@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met deze voorbehouden wordt altijd de verkoopbare hoeveelheid aangepast, met positieve of negatieve bedragen om de hoeveelheid te verhogen of te verlagen. Het resultaat is een update van uw eigen voorraad en verkoopbare hoeveelheden voor actuele productbeschikbaarheid.
 
-Voor details op orden en verzendingen, zie [ het Leiden Orden en Verzendingen ](shipments.md).
+Voor details op orden en verzendingen, zie [&#x200B; het Leiden Orden en Verzendingen &#x200B;](shipments.md).
 
 ## Opties voor orderbeheer
 
@@ -38,11 +38,11 @@ Als een klant om terugbetaling verzoekt, geeft u de creditnota voor de gedeeltel
 
 Eenvoudige bestellingen beginnen met een winkelwagentje, blijven betalen en eindigen met een bevredigende levering. In deze bestellingen verwerkt [!DNL Inventory Management] eenvoudig voorbehouden tegen de beschikbaarheid (of verkoopbare hoeveelheid) in het winkelwagentje en de kassa, en brengt het de voorraad tijdens de verzending in mindering op de voorraad.
 
-![ Proces voor een eenvoudige orde ](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![&#x200B; Proces voor een eenvoudige orde &#x200B;](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Een gecompliceerder bestelling kan gedeeltelijk worden geannuleerd, gedeeltelijk worden verzonden en terugbetaald. In dergelijke situaties hebben de voorbehouden invloed op de beschikbare voorraad om hoeveelheden voor annuleringen en restituties toe te voegen en de hoeveelheden te verlagen wanneer ze worden besteld en verzonden.
 
-![ Proces voor een gecompliceerde orde ](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![&#x200B; Proces voor een gecompliceerde orde &#x200B;](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 De reserveringen van de beschikbaarheid en inventarisveranderingen komen op basis van de ordestatus voor.
 
@@ -74,7 +74,7 @@ Blake Sanders bestelt fietsen en kleding voor hun familievakantie en plezier. Zi
 
 Ze kopen twee grote park fietsen voor hun kleine kinderen, een BMX fiets voor hun tiener, een mooie berg fiets voor zichzelf en een moderne Duitse fiets voor hun echtgenoot. De winkel had een verkoop op schattige hemden, dus kochten ze er wat voor de hele familie om mee te doen. Zie de onderstaande lijst met vacatureaankopen, de overeenkomende SKU&#39;s en de reserveringen ten aanzien van de verkoopbare voorraden.
 
-![ Complexe orde ](assets/diagram-order-complex.png){width="600" zoomable="yes"}
+![&#x200B; Complexe orde &#x200B;](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
 Ze laten hun familie zien wat ze vonden, maar ze veranderen. Voordat de betaling is voltooid, annuleren ze twee van de 33-BikeFun SKU&#39;s (kinderen vonden ze niet leuk). Dit is een gedeeltelijke annulering wegens hangende betaling, dus er is geen creditnota nodig. Als u een update wilt uitvoeren, voegt [!DNL Commerce] terug naar de verkochte hoeveelheid voor Canada. De bestelling wordt betaald en alle producten worden op tijd geleverd voor vakantie. [!DNL Commerce] werkt de verkoopbare hoeveelheid en de bronhoeveelheden voor de verzendende producten bij.
 
@@ -86,4 +86,4 @@ Maar het shirt paste niet helemaal bij hun echtgenoot. Blake vraagt om terugbeta
 
 - **Memo/Geretourneerd product van het Krediet** - door voorraad terug te keren, moet het aan de hoeveelheden worden toegevoegd. Bij het uitgeven van de creditnota kunt u selecteren om aan voorraad terug te keren. [!DNL Commerce] voegt voorraadhoeveelheid aan de verscheepte bron voor het product toe. De reserveringscompensaties worden ingevoerd om eventuele resterende voorbehouden te wissen. De verkoopbare hoeveelheid wordt opnieuw berekend ten opzichte van de bijgewerkte hoeveelheid.
 
-![ de updates van het de terugbetalingsaantal van de Orde ](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![&#x200B; de updates van het de terugbetalingsaantal van de Orde &#x200B;](assets/diagram-order-refund.png){width="600" zoomable="yes"}

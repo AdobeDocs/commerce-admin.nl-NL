@@ -21,16 +21,16 @@ Wanneer u kenmerken weergeeft vanuit de beheerfunctie, zijn deze de velden die u
 | [!UICONTROL Text Field] | Een invoerveld bestaande uit één regel voor tekst. |
 | [!UICONTROL Text Area] | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. Met de WYSIWYG Editor kunt u de tekst opmaken met HTML-tags of de tags rechtstreeks in de tekst invoeren. |
 | [!UICONTROL Text Editor] | Een volledig werkende tekstredacteur bij de attributenplaats. |
-| [!UICONTROL Date] | Toont een datumwaarde in het [ aangewezen formaat ](#date-and-time-options) en [ tijdzone ](../getting-started/store-details.md#locale-options). De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](#date-and-time-options). |
-| [!UICONTROL Date and Time] | Toont een datum en tijdwaarde in het [ aangewezen formaat ](#date-and-time-options) en [ tijdzone ](../getting-started/store-details.md#locale-options). De datum en tijd kunnen handmatig worden ingevoerd of vanuit een kalender worden geselecteerd. Voorbeeld: MM/DD/YYYY HH:MM |
+| [!UICONTROL Date] | Toont een datumwaarde in het [&#x200B; aangewezen formaat &#x200B;](#date-and-time-options) en [&#x200B; tijdzone &#x200B;](../getting-started/store-details.md#locale-options). De waarden van de datum kunnen van een lijst of een kalender ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [&#x200B; Datum en tijdopties &#x200B;](#date-and-time-options). |
+| [!UICONTROL Date and Time] | Toont een datum en tijdwaarde in het [&#x200B; aangewezen formaat &#x200B;](#date-and-time-options) en [&#x200B; tijdzone &#x200B;](../getting-started/store-details.md#locale-options). De datum en tijd kunnen handmatig worden ingevoerd of vanuit een kalender worden geselecteerd. Voorbeeld: MM/DD/YYYY HH:MM |
 | [!UICONTROL Yes/No] | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
-| Vervolgkeuzelijst | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [ configureerbare producten ](../catalog/product-create-configurable.md). |
+| Vervolgkeuzelijst | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [&#x200B; configureerbare producten &#x200B;](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Hiermee geeft u een vervolgkeuzelijst weer met waarden die meerdere selecties accepteren. |
 | [!UICONTROL Price] | Dit invoertype wordt gebruikt om prijsvelden te maken die naast de vooraf gedefinieerde kenmerken staan: `Price`, `Special Price`, `Tier Price` en `Cost` . De gebruikte valuta wordt bepaald door uw systeemconfiguratie. |
-| [!UICONTROL Media Image] | Hiermee wordt een extra afbeelding aan een product gekoppeld, zoals een productlogo, zorginstructies of ingrediënten uit een voedseletiket. Wanneer u een kenmerk van een mediaafbeelding toevoegt aan de kenmerkset van een product, wordt dit een extra afbeeldingstype, samen met Basis, Klein en Miniatuur. Het media beeldattribuut kan van [ storefront media browser ](catalog-images-video.md#storefront-media-browser) worden uitgesloten. |
-| [!UICONTROL Fixed Product Tax] | Laat u [ tarieven van FPT ](../stores-purchase/fixed-product-tax.md) bepalen die op de vereisten van uw scène worden gebaseerd. |
-| [!UICONTROL Visual Swatch] | Hiermee geeft u een staal weer met de kleur, structuur of patroon van een configureerbaar product. A [ het visuele monster ](swatches.md) kan met een hexadecimale kleurenwaarde worden gevuld, of een geupload beeld tonen dat de kleur, het materiaal, de textuur, of het patroon van de optie vertegenwoordigt. |
-| [!UICONTROL Text Swatch] | Een op tekst gebaseerde representatie van een configureerbare productoptie die vaak voor de grootte wordt gebruikt. [ de stalen van de Tekst ](swatches.md) kunnen hexadecimale kleurenwaarden ook omvatten. |
+| [!UICONTROL Media Image] | Hiermee wordt een extra afbeelding aan een product gekoppeld, zoals een productlogo, zorginstructies of ingrediënten uit een voedseletiket. Wanneer u een kenmerk van een mediaafbeelding toevoegt aan de kenmerkset van een product, wordt dit een extra afbeeldingstype, samen met Basis, Klein en Miniatuur. Het media beeldattribuut kan van [&#x200B; storefront media browser &#x200B;](catalog-images-video.md#storefront-media-browser) worden uitgesloten. |
+| [!UICONTROL Fixed Product Tax] | Laat u [&#x200B; tarieven van FPT &#x200B;](../stores-purchase/fixed-product-tax.md) bepalen die op de vereisten van uw scène worden gebaseerd. |
+| [!UICONTROL Visual Swatch] | Hiermee geeft u een staal weer met de kleur, structuur of patroon van een configureerbaar product. A [&#x200B; het visuele monster &#x200B;](swatches.md) kan met een hexadecimale kleurenwaarde worden gevuld, of een geupload beeld tonen dat de kleur, het materiaal, de textuur, of het patroon van de optie vertegenwoordigt. |
+| [!UICONTROL Text Swatch] | Een op tekst gebaseerde representatie van een configureerbare productoptie die vaak voor de grootte wordt gebruikt. [&#x200B; de stalen van de Tekst &#x200B;](swatches.md) kunnen hexadecimale kleurenwaarden ook omvatten. |
 | [!UICONTROL Page Builder] | Een [[!DNL Page Builder]](../page-builder/workspace.md) -werkruimte op de kenmerklocatie waarmee u eenvoudig aansprekende inhoud aan de productpagina kunt toevoegen. |
 
 {style="table-layout:auto"}
@@ -39,7 +39,7 @@ Wanneer u kenmerken weergeeft vanuit de beheerfunctie, zijn deze de velden die u
 
 U kunt de opmaak van datum- en tijdvelden aanpassen en het invoerbesturingselement selecteren dat wordt gebruikt voor gegevensinvoer. Datumwaarden kunnen worden geselecteerd in een vervolgkeuzelijst of in een pop-upkalender.
 
-![ Voorbeeld - storefront popup kalender ](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
+![&#x200B; Voorbeeld - storefront popup kalender &#x200B;](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
 **_aan formaatdatum/tijdgebieden:_**
 
@@ -49,7 +49,7 @@ U kunt de opmaak van datum- en tijdvelden aanpassen en het invoerbesturingseleme
 
 1. Vouw de sectie **[!UICONTROL Date & Time Custom Options]** uit.
 
-   ![ configuratie van de Catalogus - datum en tijdopties ](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - datum en tijdopties &#x200B;](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze opties, zie [_Opties van de Douane van de Datum &amp; van de Tijd_](../configuration-reference/catalog/catalog.md) in de _Verwijzing van de Configuratie_.
 

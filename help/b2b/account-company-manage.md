@@ -14,26 +14,26 @@ ht-degree: 0%
 
 De pagina _[!UICONTROL Companies]_&#x200B;bevat een lijst met alle huidige bedrijfsaccounts, ongeacht de status. Eventuele lopende goedkeuringsaanvragen staan boven aan de lijst.
 
-![ het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![&#x200B; het Net van Bedrijven &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Gebruik het besturingselement *[!UICONTROL Columns]* om de kolommen in het raster aan te passen. Pas de bedrijven aan die in de weergave worden weergegeven met de zoek- en filtermogelijkheden.
 
 - Vind bedrijven in het **Bedrijven** net door _[!UICONTROL Search]_&#x200B;te gebruiken. Het onderzoek indexeert de **Naam van het Bedrijf**&#x200B;en **ouder**&#x200B;kolommen.
 
-- Pas de weergave aan om records op te nemen die aan specifieke criteria voldoen met de [!UICONTROL Filter] . Bijvoorbeeld, als de B2B plaats wordt gevormd om zowel enige bedrijfrekeningen als [ bedrijfhiërarchieën ](manage-companies.md) te beheren, kunt u filtreren door `[!UICONTROL Company Type - Company]` om slechts enige bedrijven te tonen, of door `[!UICONTROL Company Type - Parent]` om slechts het ouderbedrijf voor elke hiërarchie te tonen.
+- Pas de weergave aan om records op te nemen die aan specifieke criteria voldoen met de [!UICONTROL Filter] . Bijvoorbeeld, als de B2B plaats wordt gevormd om zowel enige bedrijfrekeningen als [&#x200B; bedrijfhiërarchieën &#x200B;](manage-companies.md) te beheren, kunt u filtreren door `[!UICONTROL Company Type - Company]` om slechts enige bedrijven te tonen, of door `[!UICONTROL Company Type - Parent]` om slechts het ouderbedrijf voor elke hiërarchie te tonen.
 
-Pas een actie op veelvoudige bedrijfverslagen toe door de _[!UICONTROL Actions]_&#x200B;controle boven het net te gebruiken. In plaats van bijvoorbeeld elk afzonderlijk bedrijfsverzoek goed te keuren, kunt u meerdere verzoeken selecteren om de accounts in één handeling te activeren. De beschikbare acties hangen van de [ toestemmingen ](../systems/permissions.md) voor de rol af die aan uw Admin gebruikersrekening wordt toegewezen.
+Pas een actie op veelvoudige bedrijfverslagen toe door de _[!UICONTROL Actions]_&#x200B;controle boven het net te gebruiken. In plaats van bijvoorbeeld elk afzonderlijk bedrijfsverzoek goed te keuren, kunt u meerdere verzoeken selecteren om de accounts in één handeling te activeren. De beschikbare acties hangen van de [&#x200B; toestemmingen &#x200B;](../systems/permissions.md) voor de rol af die aan uw Admin gebruikersrekening wordt toegewezen.
 
 ## Bronnen voor bedrijfsrollen
 
-De [ montages van de Middelen van de Rol ](../systems/permissions-user-roles.md#role-resources) bepalen de capaciteit om:
+De [&#x200B; montages van de Middelen van de Rol &#x200B;](../systems/permissions-user-roles.md#role-resources) bepalen de capaciteit om:
 
 - Een bedrijf toevoegen
 - Een bedrijf verwijderen
 - Saldo-terugbetaling toepassen
 - Bedrijven weergeven
 
-Deze rolmiddelen moeten voor de [ Rol van de Gebruiker ](../systems/permissions-user-roles.md) worden geplaatst die aan de Admin gebruikersrekening wordt toegewezen.
+Deze rolmiddelen moeten voor de [&#x200B; Rol van de Gebruiker &#x200B;](../systems/permissions-user-roles.md) worden geplaatst die aan de Admin gebruikersrekening wordt toegewezen.
 
 ## Bedrijfsaccounts beheren via het raster Bedrijven
 
@@ -43,11 +43,11 @@ U kunt accounts afzonderlijk of in groepen beheren.
 
 - U kunt configuratie-instellingen voor een individuele bedrijfsaccount weergeven of wijzigen door **[!UICONTROL Edit]** te selecteren in de kolom **[!UICONTROL Action]** voor de accountrecord van het bedrijf.
 
-  ![ Uitgezochte actie om op geselecteerde bedrijven van toepassing te zijn ](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+  ![&#x200B; Uitgezochte actie om op geselecteerde bedrijven van toepassing te zijn &#x200B;](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
 
 - U kunt een groep geselecteerde bedrijfsaccounts weergeven of wijzigen met behulp van de opties in het besturingselement [!UICONTROL Actions]** boven het raster.
 
-  ![ Uitgezochte actie om op geselecteerde bedrijven van toepassing te zijn ](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+  ![&#x200B; Uitgezochte actie om op geselecteerde bedrijven van toepassing te zijn &#x200B;](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
 
 Zie de volgende secties voor instructies om elke actie toe te passen.
 
@@ -104,11 +104,11 @@ Verwijderde bedrijfsaccounts kunnen niet worden hersteld. De status van gebruike
 
 ### Bedrijfsinstellingen wijzigen
 
-Werk de [ Geavanceerde configuratie van Montages ](account-company-create.md#advanced-settings) bij om de zelfde montages op veelvoudige bedrijven toe te passen die op het *net van Bedrijven* worden geselecteerd.
+Werk de [&#x200B; Geavanceerde configuratie van Montages &#x200B;](account-company-create.md#advanced-settings) bij om de zelfde montages op veelvoudige bedrijven toe te passen die op het *net van Bedrijven* worden geselecteerd.
 
 >[!NOTE]
 >
->Beheer de geavanceerde montageconfiguratie voor een bedrijforganisatie met een ouder en bijbehorende kindbedrijven van de [ mening van de Hiërarchie van het Bedrijf ](manage-company-hierarchy.md#change-company-settings).
+>Beheer de geavanceerde montageconfiguratie voor een bedrijforganisatie met een ouder en bijbehorende kindbedrijven van de [&#x200B; mening van de Hiërarchie van het Bedrijf &#x200B;](manage-company-hierarchy.md#change-company-settings).
 
 1. Selecteer **[!UICONTROL Change company settings]** in het besturingselement **[!UICONTROL Actions]** .
 
@@ -116,7 +116,7 @@ Werk de [ Geavanceerde configuratie van Montages ](account-company-create.md#adv
 
 1. Voor elke configuratie die moet worden gewijzigd, schakelt u het selectievakje **[!UICONTROL Change]** in om de instelling in te schakelen. Werk de instelling vervolgens naar wens bij.
 
-   ![ bedrijfmontages van de Verandering voor veelvoudige bedrijven ](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+   ![&#x200B; bedrijfmontages van de Verandering voor veelvoudige bedrijven &#x200B;](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Apply Changes]** nadat u de configuratie-instellingen hebt bijgewerkt.
 
@@ -150,7 +150,7 @@ Methode 1: **Snelle geeft uit**
 
    Elke waarde die kan worden bijgewerkt, verschijnt in een tekstvak.
 
-   ![ Snel geeft voor een bedrijfrekening ](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"} uit
+   ![&#x200B; Snel geeft voor een bedrijfrekening &#x200B;](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"} uit
 
 1. Werk een van de volgende waarden naar wens bij:
 
@@ -170,13 +170,13 @@ Methode 2: **Volledige geeft uit**
 
 1. Breng de benodigde wijzigingen aan in de bedrijfsinformatie.
 
-   Voor gebiedsbeschrijvingen, zie [ een bedrijfrekening ](account-company-create.md) creëren.
+   Voor gebiedsbeschrijvingen, zie [&#x200B; een bedrijfrekening &#x200B;](account-company-create.md) creëren.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Een vertegenwoordiger toewijzen
 
-De verkoopvertegenwoordiger is een [ gebruiker Admin ](../systems/permissions.md) die als punt van contact voor een bedrijfrekening wordt toegewezen en alle geautomatiseerde [ e-mailberichten ](../b2b/enable-basic-features.md#configure-company-email-options) met betrekking tot het bedrijf ontvangt. Per bedrijfsrekening kan slechts één vertegenwoordiger worden aangesteld, maar één enkele vertegenwoordiger kan meerdere bedrijfsrekeningen beheren. De standaardgebruikersaccount voor Admin wordt toegewezen als de vertegenwoordiger van de verkoper, tenzij een andere Admin-gebruiker wordt toegewezen.
+De verkoopvertegenwoordiger is een [&#x200B; gebruiker Admin &#x200B;](../systems/permissions.md) die als punt van contact voor een bedrijfrekening wordt toegewezen en alle geautomatiseerde [&#x200B; e-mailberichten &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options) met betrekking tot het bedrijf ontvangt. Per bedrijfsrekening kan slechts één vertegenwoordiger worden aangesteld, maar één enkele vertegenwoordiger kan meerdere bedrijfsrekeningen beheren. De standaardgebruikersaccount voor Admin wordt toegewezen als de vertegenwoordiger van de verkoper, tenzij een andere Admin-gebruiker wordt toegewezen.
 
 De naam en het e-mailadres van de toegewezen vertegenwoordiger zijn voor de leden van het bedrijf zichtbaar vanaf de pagina met bedrijfsaccounts en aanhalingstekens.
 
@@ -216,7 +216,7 @@ Nadat een bedrijf is gemaakt, kunnen Admin-gebruikers met de juiste machtigingen
 
 Als een bedrijf aan een hiërarchie is toegevoegd, toont het [!UICONTROL Company Hierarchy] net het moederbedrijf en alle toegewezen bedrijven in het net.
 
-Zie [ bedrijfshiërarchie ](manage-company-hierarchy.md) voor meer informatie beheren.
+Zie [&#x200B; bedrijfshiërarchie &#x200B;](manage-company-hierarchy.md) voor meer informatie beheren.
 
 ## Bedrijfsopties en -kolommen
 
@@ -230,7 +230,7 @@ In de volgende secties vindt u een verwijzing naar de beschikbare acties, opties
 | [!UICONTROL Block] | Beperkt bedrijfsrekeningen die niet in goede staat zijn, terwijl het bewaren van de rekening. De leden van het bedrijf kunnen login en tot de catalogus toegang hebben, maar zij kunnen geen orden namens het bedrijf plaatsen. |
 | [!UICONTROL Delete] | Hiermee verwijdert u geselecteerde bedrijfsaccounts. De status van gebruikersaccounts die aan een verwijderd bedrijf zijn gekoppeld, is ingesteld op `Inactive` en de bedrijfs-id wordt verwijderd uit de profielen van gebruikersaccounts. Informatie over bedrijfsactiviteiten en transacties wordt in het systeem bewaard. |
 | [!UICONTROL Edit] | Hiermee kunnen bepaalde waarden van het geselecteerde bedrijfsrecord worden bewerkt in het raster. Standaard zijn de waarden Bedrijfsnaam, E-mail van het bedrijf en Telefoonnummer beschikbaar voor een snelle bewerking. |
-| [!UICONTROL Change company settings] | Opent de *bedrijfmontages van de Verandering* vorm om de [ Geavanceerde montages ](account-company-create.md#advanced-settings) configuratie bij te werken en de veranderingen op de geselecteerde bedrijven toe te passen. |
+| [!UICONTROL Change company settings] | Opent de *bedrijfmontages van de Verandering* vorm om de [&#x200B; Geavanceerde montages &#x200B;](account-company-create.md#advanced-settings) configuratie bij te werken en de veranderingen op de geselecteerde bedrijven toe te passen. |
 | [!UICONTROL Convert Credit] | Hiermee wordt het krediet voor de geselecteerde ondernemingen geconverteerd naar de koers van de opgegeven valuta. |
 
 {style="table-layout:auto"}
@@ -245,14 +245,14 @@ In de volgende secties vindt u een verwijzing naar de beschikbare acties, opties
 | [!UICONTROL Select] | Schakel selectievakjes in om bedrijfsrecords te selecteren die het onderwerp van een handeling moeten zijn of gebruik het selectiegereedschap in de kolomkop om alles in of uit te schakelen. |
 | [!UICONTROL ID] | Een unieke numerieke id die wordt toegewezen wanneer het verzoek om een bedrijf te maken wordt ingediend. |
 | [!UICONTROL Company Name] | De bedrijfsnaam wordt ingevoerd wanneer het bedrijfsaccount voor het eerst wordt gemaakt en kan een verkorte versie van de volledige juridische naam zijn. |
-| [!UICONTROL Company Type] | Het type van [ bedrijf ](manage-companies.md). Opties: <br/>**[!UICONTROL Company]**- Nieuwe bedrijven worden standaard als afzonderlijke bedrijven gemaakt.<br/>**[!UICONTROL Parent]** - Het bedrijf is een moedermaatschappij van andere bedrijven. <br/>**[!UICONTROL Child]**- Dit bedrijf is verbonden met een moedermaatschappij. |
+| [!UICONTROL Company Type] | Het type van [&#x200B; bedrijf &#x200B;](manage-companies.md). Opties: <br/>**[!UICONTROL Company]**- Nieuwe bedrijven worden standaard als afzonderlijke bedrijven gemaakt.<br/>**[!UICONTROL Parent]** - Het bedrijf is een moedermaatschappij van andere bedrijven. <br/>**[!UICONTROL Child]**- Dit bedrijf is verbonden met een moedermaatschappij. |
 | [!UICONTROL Parent] | Toont het moederbedrijf voor deze specifieke bedrijfslijn. |
 | [!UICONTROL Company Email] | Het e-mailadres dat aan het bedrijfsaccount is gekoppeld. |
 | [!UICONTROL Phone Number] | Het primaire telefoonnummer van het bedrijf. |
 | [!UICONTROL Country] | Het land waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL State Province] | De staat of provincie waar het bedrijf is geregistreerd om zaken te doen. |
 | [!UICONTROL City] | De stad waar de onderneming is geregistreerd om zaken te doen. |
-| [!UICONTROL Group/Shared Catalog] | De kolomnaam hangt af van of de Gedeelde Catalogus in de configuratie wordt toegelaten. Opties: <br/>**[!UICONTROL Customer Group]**- als de Gedeelde Catalogus niet in de configuratie wordt toegelaten, specificeert de naam van de [ klantengroep ](../customers/customer-groups.md) waartot het bedrijf behoort.<br/>**[!UICONTROL Shared Catalog]** - Als Gedeelde Catalogus in de configuratie wordt toegelaten, specificeert de naam van de gedeelde catalogus die aan de klant wordt toegewezen. |
+| [!UICONTROL Group/Shared Catalog] | De kolomnaam hangt af van of de Gedeelde Catalogus in de configuratie wordt toegelaten. Opties: <br/>**[!UICONTROL Customer Group]**- als de Gedeelde Catalogus niet in de configuratie wordt toegelaten, specificeert de naam van de [&#x200B; klantengroep &#x200B;](../customers/customer-groups.md) waartot het bedrijf behoort.<br/>**[!UICONTROL Shared Catalog]** - Als Gedeelde Catalogus in de configuratie wordt toegelaten, specificeert de naam van de gedeelde catalogus die aan de klant wordt toegewezen. |
 | [!UICONTROL Outstanding Balance] | Het uitstaande saldo op de bedrijfsrekening. de kolom is leeg als de onderneming geen kredietgeschiedenis heeft en haar kredietlimiet nul is. |
 | [!UICONTROL Company Admin] | De voornaam en achternaam van de bedrijfsbeheerder. |
 | [!UICONTROL Job Title] | De functie van de bedrijfbeheerder. |
@@ -264,7 +264,7 @@ In de volgende secties vindt u een verwijzing naar de beschikbare acties, opties
 
 #### Aanvullende kolommen
 
-De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-started/admin-grid-controls.md) van het net te veranderen.
+De volgende kolommen zijn beschikbaar door de [&#x200B; kolomlay-out &#x200B;](../getting-started/admin-grid-controls.md) van het net te veranderen.
 
 | Kolom | Beschrijving |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -272,10 +272,10 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 | [!UICONTROL Street Address] | Het adres van de straat waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL ZIP] | De postcode of postcode waar de onderneming geregistreerd is om zaken te doen. |
 | [!UICONTROL Reseller ID] | Het wederverkoopnummer dat aan de onderneming wordt toegekend voor belastingverslagleggingsdoeleinden. |
-| [!UICONTROL VAT/TAX ID] | Het [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan het bedrijf door sommige jurisdicties voor belastingrapporteringsdoeleinden wordt toegewezen. Om de klant BTW/identiteitskaart van de BELASTING te vormen om in de storefront te verschijnen, zie [ Nieuwe Opties van de Rekening ](../configuration-reference/customers/customer-configuration.md) creëren. |
+| [!UICONTROL VAT/TAX ID] | Het [&#x200B; waarde-toegevoegde belasting &#x200B;](../stores-purchase/vat.md) aantal dat aan het bedrijf door sommige jurisdicties voor belastingrapporteringsdoeleinden wordt toegewezen. Om de klant BTW/identiteitskaart van de BELASTING te vormen om in de storefront te verschijnen, zie [&#x200B; Nieuwe Opties van de Rekening &#x200B;](../configuration-reference/customers/customer-configuration.md) creëren. |
 | [!UICONTROL Credit Limit] | De kredietlimiet die tot de bedrijfsrekening wordt uitgebreid. |
 | [!UICONTROL Credit Currency] | De valuta die door de winkel wordt geaccepteerd voor aankopen op bedrijfskrediet. |
-| [!UICONTROL Status] | Wijst op de [ status ](account-company-approve.md) van de bedrijfrekening. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>**[!UICONTROL Blocked]** - Bedrijfsleden kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
+| [!UICONTROL Status] | Wijst op de [&#x200B; status &#x200B;](account-company-approve.md) van de bedrijfrekening. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>**[!UICONTROL Blocked]** - Bedrijfsleden kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
 | [!UICONTROL Gender] | Het geslacht van de bedrijfsbeheerder. Opties: Mannelijk / Vrouwelijk / Niet opgegeven |
 | [!UICONTROL Comment] | Opmerkingen over de bedrijfsaccount ter referentie en zijn alleen zichtbaar vanuit de beheerder. |
 
@@ -299,7 +299,7 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 | Veld | Beschrijving |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | De bedrijfsnaam wordt ingevoerd wanneer het bedrijfsaccount voor het eerst wordt gemaakt en kan een verkorte versie van de volledige juridische naam zijn. |
-| [!UICONTROL Status] | Wijst op de [ status ](account-company-approve.md) van de bedrijfrekening. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>**[!UICONTROL Blocked]** - Bedrijfsleden kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
+| [!UICONTROL Status] | Wijst op de [&#x200B; status &#x200B;](account-company-approve.md) van de bedrijfrekening. Opties: <br/>**[!UICONTROL Active]**- Het bedrijfsaccount wordt goedgekeurd door de beheerder van de winkel. De bedrijfsbeheerder en geassocieerde leden kunnen zich bij de winkel aanmelden en aankopen doen.<br/>**[!UICONTROL Pending Approval]** - Er is een verzoek ingediend om een bedrijfsaccount te openen, maar dit is nog niet goedgekeurd door de beheerder van de winkel. <br/>**[!UICONTROL Rejected]**- Een verzoek om een bedrijfsaccount te openen is ingediend, maar niet goedgekeurd door de beheerder van de winkel. De initiële aanmeldingsgegevens die zijn gebruikt om het verzoek in te dienen, worden geblokkeerd.<br/>**[!UICONTROL Blocked]** - Bedrijfsleden kunnen zich aanmelden en toegang krijgen tot de catalogus, maar kunnen geen aankopen doen. De opslagbeheerder zou een bedrijfrekening kunnen blokkeren die niet in goede staat is. Het blok op de rekening kan door de opslagbeheerder op elk ogenblik worden verwijderd. |
 | [!UICONTROL Company Email] | Het e-mailadres dat aan het bedrijfsaccount is gekoppeld. |
 | [!UICONTROL Sales Representative] | De Admin-gebruiker die de primaire contactpersoon voor het bedrijfsaccount is. |
 
@@ -310,7 +310,7 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 | Veld | Beschrijving |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | De volledige wettelijke naam van de onderneming. |
-| [!UICONTROL VAT / TAX ID] | De belasting of [ toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan het bedrijf voor belasting meldende doeleinden wordt toegewezen. |
+| [!UICONTROL VAT / TAX ID] | De belasting of [&#x200B; toegevoegde belasting &#x200B;](../stores-purchase/vat.md) aantal dat aan het bedrijf voor belasting meldende doeleinden wordt toegewezen. |
 | [!UICONTROL Reseller ID] | Het wederverkoopnummer dat aan de onderneming wordt toegekend voor belastingverslagleggingsdoeleinden. |
 | [!UICONTROL Comment] | Deze opmerkingen over de bedrijfsaccount zijn ter referentie en zijn alleen zichtbaar vanuit de beheerder. |
 
@@ -326,7 +326,7 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 | [!UICONTROL Phone Number] | Het primaire telefoonnummer van het bedrijf. |
 | [!UICONTROL State/Province] | De staat of provincie waar het bedrijf is geregistreerd om zaken te doen. |
 | [!UICONTROL City] | De stad waar de onderneming is geregistreerd om zaken te doen. |
-| [!UICONTROL Customer Group] | (Admin slechts) wijst op de [ klantengroep ](../customers/customer-groups.md) of [ gedeelde catalogus ](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Customer Group] | (Admin slechts) wijst op de [&#x200B; klantengroep &#x200B;](../customers/customer-groups.md) of [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Company Admin] | De volledige naam van de bedrijfbeheerder. |
 | [!UICONTROL Action] | De lijst van mogelijke acties voor die bedrijfslijn. |
 
@@ -349,7 +349,7 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 
 | Veld | Beschrijving |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Website] | Plaats het [ websitewerkingsgebied ](../getting-started/websites-stores-views.md) voor de bedrijfrekening. Wordt standaard ingesteld op *[!UICONTROL Main Website]* . |
+| [!UICONTROL Website] | Plaats het [&#x200B; websitewerkingsgebied &#x200B;](../getting-started/websites-stores-views.md) voor de bedrijfrekening. Wordt standaard ingesteld op *[!UICONTROL Main Website]* . |
 | [!UICONTROL Job Title] | De titel van de bedrijfsbeheerder die de bedrijfsaccount beheert. |
 | [!UICONTROL Work Phone Number] | Het telefoonaantal van de bedrijfbeheerder die de bedrijfrekening beheert. |
 | [!UICONTROL Email] | Het e-mailadres van de bedrijfsbeheerder kan hetzelfde zijn als het e-mailadres van het bedrijf. Als u een ander e-mailadres opgeeft, wordt naast het bedrijfsaccount een aparte account voor de beheerder van het bedrijf gemaakt. |
@@ -378,7 +378,7 @@ De volgende kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-starte
 
 | Veld | Beschrijving |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | Wijst op de [ klantengroep ](../customers/customer-groups.md) of [ gedeelde catalogus ](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Customer Group] | Wijst op de [&#x200B; klantengroep &#x200B;](../customers/customer-groups.md) of [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Allow Quotes] | Hiermee wordt bepaald of leden van het bedrijf namens de onderneming verhandelbare noteringen kunnen opstellen en indienen. |
 | [!UICONTROL Enable Purchase Orders] | Hiermee wordt bepaald of inkooporders zijn toegestaan voor het bedrijf. Voor kooporders om voor de rekeningen van het bedrijflid te functioneren, moet de bedrijfbeheerder deze eigenschap op de opslagplaats ook toelaten. |
 | [!UICONTROL Applicable Payment Methods] | Geeft de betalingsmethoden aan die beschikbaar zijn voor aankopen door bedrijven. Opties: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods` |

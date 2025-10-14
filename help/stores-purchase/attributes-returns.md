@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De terugkeerattributen worden gebruikt om informatie op te slaan die tijdens het proces van de productterugkeer nodig is. De standaardattributen omvatten de voorwaarde van het teruggekeerde product, de reden voor de terugkeer, en een gebied dat erop wijst hoe de terugkeer werd opgelost. Het proces om een terugkeerattribuut tot stand te brengen is gelijkaardig aan het creëren van a [ klantenattributen ](../customers/attribute-properties.md).
+De terugkeerattributen worden gebruikt om informatie op te slaan die tijdens het proces van de productterugkeer nodig is. De standaardattributen omvatten de voorwaarde van het teruggekeerde product, de reden voor de terugkeer, en een gebied dat erop wijst hoe de terugkeer werd opgelost. Het proces om een terugkeerattribuut tot stand te brengen is gelijkaardig aan het creëren van a [&#x200B; klantenattributen &#x200B;](../customers/attribute-properties.md).
 
-![ Admin - keert attributen ](./assets/attribute-returns.png){width="700" zoomable="yes"} terug
+![&#x200B; Admin - keert attributen &#x200B;](./assets/attribute-returns.png){width="700" zoomable="yes"} terug
 
 ## Een kenmerk voor geretourneerde waarden maken
 
@@ -24,7 +24,7 @@ De terugkeerattributen worden gebruikt om informatie op te slaan die tijdens het
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Attribute]** .
 
-   ![ Nieuwe Terugkeer - attributeneigenschappen ](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Terugkeer - attributeneigenschappen &#x200B;](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### Eigenschappen definiëren
 
@@ -73,7 +73,7 @@ De terugkeerattributen worden gebruikt om informatie op te slaan die tijdens het
 
 1. Voer in de sectie **[!UICONTROL Manage Titles (Size, Color, etc.)]** het label voor elke winkelweergave in.
 
-   ![ beheert etiketten ](./assets/return-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; beheert etiketten &#x200B;](./assets/return-attributes.png){width="600" zoomable="yes"}
 
 1. Als **[!UICONTROL Input Type]** voor het kenmerk `Dropdown` is, beheert u de opties in de sectie **[!UICONTROL Manage Options (Values of Your Attribute)]** .
 

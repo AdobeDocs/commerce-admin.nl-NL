@@ -19,13 +19,13 @@ Deze configuraties zijn alleen van toepassing op het bewerkte product en oversch
 
 ## Productopties per bron
 
-Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.md) voor het product.
+Vorm de hoeveelheden en de extra montages per [&#x200B; toegevoegde bron &#x200B;](sources-add.md) voor het product.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Open een product in de bewerkingsmodus.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit en vorm productmontages voor elke bron:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit en vorm productmontages voor elke bron:
 
    - Voer een hoeveelheid **[!UICONTROL Qty]** (hoeveelheid) in.
 
@@ -38,7 +38,7 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
      `Select to use Default` - [!DNL Commerce] controleert de product Geavanceerde opties van de Inventaris voor configuratiemontages.
      `Clear to Modify` - Voer een waarde in voor Hoeveelheid bericht, waarbij de instellingen voor Geavanceerde voorraad en winkelconfiguratie worden genegeerd.
 
-   ![ Bronsectie voor een product ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
+   ![&#x200B; Bronsectie voor een product &#x200B;](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Done]** en vervolgens op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -46,7 +46,7 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
 
 | Veld | Toepassingsgebied | Beschrijving |
 |--|--|--|
-| [!UICONTROL Source Code] | Algemeen | De unieke code voor a [ bron ](sources-manage.md). |
+| [!UICONTROL Source Code] | Algemeen | De unieke code voor a [&#x200B; bron &#x200B;](sources-manage.md). |
 | [!UICONTROL Name] | Algemeen | De unieke naam voor een bron. |
 | [!UICONTROL Status] | Algemeen | Product is in- of uitgeschakeld in de catalogus. |
 | [!UICONTROL Source Item Status] | Algemeen | Bepaalt de huidige beschikbaarheid van het product. Opties:<br />`In Stock` - maakt het product beschikbaar voor aankoop.<br />`Out of Stock` - Als u geen achtergrondbestanden activeert, kan het product niet worden aangeschaft en wordt de aanbieding uit de catalogus verwijderd. |
@@ -60,15 +60,15 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
 
 1. Open een product in de bewerkingsmodus.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit en klik **[!UICONTROL Advanced Inventory]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Sources]** sectie uit en klik **[!UICONTROL Advanced Inventory]**.
 
-1. Om [ inventariscontrole ](enable.md) voor uw catalogus toe te laten, plaats **[!UICONTROL Manage Stock]** aan `Yes`.
+1. Om [&#x200B; inventariscontrole &#x200B;](enable.md) voor uw catalogus toe te laten, plaats **[!UICONTROL Manage Stock]** aan `Yes`.
 
    >[!NOTE]
    >
    >[!UICONTROL Manage Stock] -instellingen in onderliggende producten hebben voorrang op een configureerbaar product.
 
-   ![ Geavanceerde Inventaris voor een Product ](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde Inventaris voor een Product &#x200B;](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. Voer een bedrag in voor de **[!UICONTROL Out-of-Stock Threshold]** :
 
@@ -94,7 +94,7 @@ Vorm de hoeveelheden en de extra montages per [ toegevoegde bron ](sources-add.m
    | `Allow Qty Below 0` | Achtergronden accepteren wanneer het aantal minder dan nul is. |
    | `Allow Qty Below 0 and Notify Customer` | Achterorden accepteren wanneer het aantal minder is dan nul en de klant ervan op de hoogte stellen dat de bestelling nog steeds kan worden geplaatst. |
 
-   Voor meer informatie, zie [ het Vormen Achterorden ](backorders.md).
+   Voor meer informatie, zie [&#x200B; het Vormen Achterorden &#x200B;](backorders.md).
 
 1. Als u de hoeveelheid wilt verhogen voor het product, stelt u **[!UICONTROL Enable Qty Increments]** in op `Yes` en voert u in het veld **[!UICONTROL Qty Increments]** het aantal items in dat moet worden aangeschaft om aan de vereisten te voldoen.
 

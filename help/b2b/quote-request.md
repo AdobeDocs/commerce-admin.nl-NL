@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aanvraag voor offerte
 
-Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](configure-quotes.md) worden toegelaten, kan een erkende koper van een bedrijf het proces van de prijsonderhandeling in werking stellen door een citaat van hun het winkelwagentje te verzoeken. Als een koper niet bereid is om een prijsopgave voor onderhandeling in te dienen, kan hij of zij het opslaan als concept.
+Als de citaten in de [&#x200B; configuratie van de Eigenschappen van de Verkoop &#x200B;](configure-quotes.md) worden toegelaten, kan een erkende koper van een bedrijf het proces van de prijsonderhandeling in werking stellen door een citaat van hun het winkelwagentje te verzoeken. Als een koper niet bereid is om een prijsopgave voor onderhandeling in te dienen, kan hij of zij het opslaan als concept.
 
 >[!NOTE]
 >
@@ -21,30 +21,30 @@ Als de citaten in de [ configuratie van de Eigenschappen van de Verkoop ](config
 
 ## Aanvraagervaring voor klanten
 
-1. De klant login aan hun gebruikersrekening als koper met [ toestemming ](account-company-roles-permissions.md) om een citaat te verzoeken.
+1. De klant login aan hun gebruikersrekening als koper met [&#x200B; toestemming &#x200B;](account-company-roles-permissions.md) om een citaat te verzoeken.
 
 1. Hiermee voegt u de producten die u in de prijsopgave wilt opnemen, toe aan het winkelwagentje.
 
    >[!TIP]
    > 
-   >De klanten kunnen een lijst van productSKUs aan de kar sneller toevoegen door [ Snelle Orde ](quick-order.md) te gebruiken.
+   >De klanten kunnen een lijst van productSKUs aan de kar sneller toevoegen door [&#x200B; Snelle Orde &#x200B;](quick-order.md) te gebruiken.
 
 1. Selecteert **[!UICONTROL Request a Quote]** .
 
-   ![ die een citaat van het het winkelwagentje verzoeken ](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
+   ![&#x200B; die een citaat van het het winkelwagentje verzoeken &#x200B;](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
 1. In het vak **[!UICONTROL Add your comment]** voert de klant een korte notitie in om de aanvraag te beschrijven.
 
 1. Voer een **[!UICONTROL Quote Name]** in.
 
-   ![ het ingaan van de citaatcommentaren en naam ](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![&#x200B; het ingaan van de citaatcommentaren en naam &#x200B;](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Koppelt zo nodig een ondersteunend document of afbeelding aan het citaat:
 
    - Selecteert **[!UICONTROL Attach file]** .
    - Hiermee kiest u het bestand op hun systeem.
 
-   Door gebrek, kan een [ dossier in bijlage ](configure-quotes.md) tot 2 MB, in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
+   Door gebrek, kan een [&#x200B; dossier in bijlage &#x200B;](configure-quotes.md) tot 2 MB, in om het even welke volgende dossierformaten zijn: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG of JPEG, PNG.
 
 1. Hiermee maakt en verwerkt u het aanhalingsteken:
 

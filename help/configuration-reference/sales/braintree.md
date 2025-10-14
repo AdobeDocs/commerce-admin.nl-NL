@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4 Migratie:**<br/>
->Voor versies van Adobe Commerce en Magento Open Source vroeger dan 2.4.0, werd het geadviseerd dat de handelaren de officiële uitbreiding van de de betaalintegratie van Braintree van [ Commerce Marketplace ](https://marketplace.magento.com/catalogsearch/result/?q=braintree) installeren en vormen om de kernintegratie te vervangen. Vanaf 2.4.0 is de extensie nu opgenomen in de kernrelease.
+>Voor versies van Adobe Commerce en Magento Open Source vroeger dan 2.4.0, werd het geadviseerd dat de handelaren de officiële uitbreiding van de de betaalintegratie van Braintree van [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/catalogsearch/result/?q=braintree) installeren en vormen om de kernintegratie te vervangen. Vanaf 2.4.0 is de extensie nu opgenomen in de kernrelease.
 ><br/><br/>
 >Wanneer handelaars naar Commerce 2.4 migreren, moeten ze de extensie verwijderen die op de Marketplace (`paypal/module-braintree` of `gene/module-braintree` ) wordt gedistribueerd en eventuele codeaanpassingen bijwerken om de naamruimte `PayPal_Braintree` te gebruiken in plaats van `Magento_Braintree` . De configuratie-instellingen van de gebundelde extensie voor Commerce en de extensie die op de Commerce Marketplace wordt gedistribueerd, blijven behouden. Betalingen die met die versies van de extensie worden geplaatst, worden als normaal vastgelegd, geweigerd of terugbetaald.
 ><br/><br/>
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [ annuleer abonnement ](https://helpx.adobe.com/nl/manage-account/using/cancel-subscription.html) pagina voor hulp.
+>Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [&#x200B; annuleer abonnement &#x200B;](https://helpx.adobe.com/nl/manage-account/using/cancel-subscription.html) pagina voor hulp.
 
 ## [!UICONTROL Basic Braintree Settings]
 
-![ Basis de Montages van Braintree ](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
+![&#x200B; Basis de Montages van Braintree &#x200B;](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Title] | Winkelweergave | Standaardwaarde: `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Winkelweergave | Opties: `Sandbox` / `Production` |
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Braintree Webhooks Settings]
 
-![ de Montages van Webhooks van Braintree ](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
+![&#x200B; de Montages van Webhooks van Braintree &#x200B;](./assets/payment-methods-braintree-webhooks-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Webhook] | Website | De webhaakfunctionaliteit voor fraudebescherming, ACH-betalingen, lokale betalingsmethoden en geschillen mogelijk maken. Opties: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | Website | Voeg deze URL toe aan uw Braintree-account als de [!UICONTROL Webhook Destination URL] . **Dit URL moet veilig en openbaar toegankelijk zijn.** |
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Specific Settings]
 
-![ Land Specifieke Montages ](./assets/payment-methods-braintree-country-specific-config.png)<!-- zoom -->
+![&#x200B; Land Specifieke Montages &#x200B;](./assets/payment-methods-braintree-country-specific-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Payment from Applicable Countries] | Website | Hiermee bepaalt u of je betalingen accepteert die door Braintree zijn verwerkt vanuit alle landen of alleen specifieke landen. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Indien van toepassing, identificeert u de specifieke landen waaruit u door Braintree verwerkte betalingen accepteert. |
@@ -92,9 +92,9 @@ ht-degree: 0%
 
 ## [!UICONTROL ACH through Braintree]
 
-![ ACH door Braintree ](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
+![&#x200B; ACH door Braintree &#x200B;](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | Website | Bepaalt of [!DNL ACH Direct Debit] het wordt opgenomen als betaalmethode via Braintree. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Vault for ACH Direct Debit] | Website | Klanten kunnen hun ACH Direct Debit-betaalmethode voor eenmalig gebruik in de kluis opslaan voor toekomstig gebruik. Zodra de betalingsgegevens zijn opgeslagen, kan de klant de ACH Direct Debit-betaalmethode gebruiken zonder gegevens opnieuw in te voeren of zijn betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
@@ -104,11 +104,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Apple Pay through Braintree]
 
-![ Apple betalen door Braintree ](./assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
+![&#x200B; Apple betalen door Braintree &#x200B;](./assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Enable ApplePay through Braintree] | Website | Hiermee wordt bepaald of Apple Pay is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` <br/><br/> Het domein moet [ eerst in de Rekening van Braintree ](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) worden geverifieerd. |
+| [!UICONTROL Enable ApplePay through Braintree] | Website | Hiermee wordt bepaald of Apple Pay is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` <br/><br/> Het domein moet [&#x200B; eerst in de Rekening van Braintree &#x200B;](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) worden geverifieerd. |
 | [!UICONTROL Enable Vault for ApplePay] | Website | Klanten kunnen hun betalingsmethode Apple Pay voor toekomstig gebruik in- en opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant Apple Pay gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bepaalt welke actie Braintree onderneemt wanneer een betaling wordt verwerkt. Opties: <br/>**`Authorize`**- Fondsen op de kaart van de klant zijn geautoriseerd, maar worden niet van de rekening van de klant overgedragen. Er wordt een bestelling gemaakt in uw winkelbeheerder. U kunt de uitverkoop later vastleggen en een factuur maken.<br/>**`Intent Sale`** - Middelen op de kaart van de klant worden geautoriseerd en vastgelegd door Braintree en er wordt een bestelling en factuur gemaakt in uw winkel Admin. **_Nota:_** dit was `Authorize and Capture` in 2.3.x en vroegere versies. |
 | [!UICONTROL Merchant Name] | Winkelweergave | Label dat wordt weergegeven aan klanten in de pop-up van ApplePay. |
@@ -118,9 +118,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Local Payment Methods]
 
-![ Lokale Wijzen van de Betaling ](./assets/payment-methods-braintree-local-payment-config.png)<!-- zoom -->
+![&#x200B; Lokale Wijzen van de Betaling &#x200B;](./assets/payment-methods-braintree-local-payment-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | Website | Hiermee wordt bepaald of Lokale betalingsmethode via Braintree wordt opgenomen als betalingsmethode. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Website | Label dat wordt weergegeven in het gedeelte Betalingsmethode voor afrekenen. Standaardwaarde: `Local Payments` |
@@ -133,13 +133,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De gebundelde uitbreiding van Braintree steunt niet alle lokale betalingsmethodes die in [ worden vermeld de ontwikkelaarsdocumentatie van Braintree ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Andere lokale betalingsmethoden worden momenteel ontwikkeld en zullen in toekomstige versies worden ondersteund.
+>De gebundelde uitbreiding van Braintree steunt niet alle lokale betalingsmethodes die in [&#x200B; worden vermeld de ontwikkelaarsdocumentatie van Braintree &#x200B;](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Andere lokale betalingsmethoden worden momenteel ontwikkeld en zullen in toekomstige versies worden ondersteund.
 
 ## [!UICONTROL GooglePay through Braintree]
 
-![ GooglePay door Braintree ](./assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
+![&#x200B; GooglePay door Braintree &#x200B;](./assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | Website | Hiermee wordt bepaald of [!DNL Google Pay] betaling wordt opgenomen als een betalingsmethode via Braintree. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Vault for GooglePay] | Website | Klanten kunnen hun betalingsmethode Google Pay voor toekomstig gebruik in- en opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant Google Pay gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Venmo through Braintree]
 
-![ Venmo door Braintree ](./assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
+![&#x200B; Venmo door Braintree &#x200B;](./assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Website | Hiermee wordt bepaald of [!DNL Venmo] wordt opgenomen als een betalingsmethode via Braintree. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Website | Klanten kunnen hun betalingsmethode van Venmo voor toekomstig gebruik in kluizen plaatsen of opslaan. Zodra de betalingsgegevens zijn doorgegeven, kan de klant de betalingsmethode van Venmo gebruiken zonder de gegevens opnieuw in te voeren of de betalingsgegevens opnieuw te verifiëren. Opties: `Yes` / `No` |
@@ -166,10 +166,10 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![ PayPal door Braintree Config 1 ](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
-![ PayPal door Braintree Config 2 ](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+![&#x200B; PayPal door Braintree Config 1 &#x200B;](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![&#x200B; PayPal door Braintree Config 2 &#x200B;](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable PayPal through Braintree] | Website | Hiermee wordt bepaald of PayPal is opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit through Braintree] | Website | Hiermee wordt bepaald of PayPal-krediet wordt opgenomen als betalingsmethode via Braintree. Opties: `Yes` / `No` . Dit veld wordt zichtbaar wanneer `Enable PayPal through Braintree` is ingesteld op `Yes` |
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Styling]
 
-![ PayPal het Stijlen ](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
+![&#x200B; PayPal het Stijlen &#x200B;](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Location] | Website | Hiermee bepaalt u waar PayPal-knoppen en -berichten worden weergegeven op de winkelserver. Opties: `Mini-Cart and Cart Page` / `Checkout Page` / `Product Page` |
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
 De opties en instellingen in deze sectie variëren afhankelijk van de instelling in het veld _[!UICONTROL Location]_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL PayPal Button Type] | Website | Hiermee stelt u de knop in op een van de volgende drie typen: `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button` |
 
@@ -217,7 +217,7 @@ De opties en instellingen in deze sectie variëren afhankelijk van de instelling
 
 De opties en instellingen in deze sectie variëren afhankelijk van het knoptype dat is geselecteerd in het veld _[!UICONTROL PayPal Button Type]_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Show PayPal Button] | Website | Hiermee bepaalt u de locatie van de PayPal-knop op de geselecteerde locatie. Opties: `Yes` / `No` |
 | [!UICONTROL Button Label] | Website | Bepaalt het label voor de PayPal-knop. Opties: `Paypal` / `Checkout` / `Buy Now` / `Pay` |
@@ -233,7 +233,7 @@ De opties en instellingen in deze sectie variëren afhankelijk van het knoptype 
 
 Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knoppen en PayPal-berichten zien. U kunt de instellingen toepassen of de waarden opnieuw instellen met behulp van de volgende besturingselementen:
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Apply] | Website | Hiermee slaat u de geselecteerde opmaakinstellingen voor knoppen en PayLater-berichten op en past u deze toe op de huidige locatie en het huidige knoptype. |
 | [!UICONTROL Apply to All Buttons] | Website | Hiermee slaat u de geselecteerde opmaakinstellingen voor knoppen en PayLater-berichtwaarden op en past u deze toe op alle knoptypen en -locaties. |
@@ -245,11 +245,11 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 **[!UICONTROL Product Page]**
 
-![ Betaal Later Overseinen - de Pagina van het Product ](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+![&#x200B; Betaal Later Overseinen - de Pagina van het Product &#x200B;](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [ klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [&#x200B; klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
 | [!UICONTROL Message Layout] | Website | Bepaalt de lay-out van het PayLater-bericht. Opties: `Text` / `Flex` |
 | [!UICONTROL Logo] | Website | Bepaalt het logotype dat voor het Later bericht van de Betaling wordt gebruikt. Opties: `Inline` / `Primary` / `Alternative` / `None` |
 | [!UICONTROL Logo Position] | Website | Bepaalt de logopositie voor het Later bericht van de Betaling. Opties: `Left` / `Right` / `Top` |
@@ -259,11 +259,11 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 **[!UICONTROL Cart]**
 
-![ Betaal Later Overseinen - Kar ](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+![&#x200B; Betaal Later Overseinen - Kar &#x200B;](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [ klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [&#x200B; klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
 | [!UICONTROL Message Layout] | Website | Bepaalt de lay-out van het PayLater-bericht. Opties: `Text` / `Flex` |
 | [!UICONTROL Logo] | Website | Bepaalt het logotype dat voor het Later bericht van de Betaling wordt gebruikt. Opties: `Inline` / `Primary` / `Alternative` / `None` |
 | [!UICONTROL Logo Position] | Website | Bepaalt de logopositie voor het Later bericht van de Betaling. Opties: `Left` / `Right` / `Top` |
@@ -273,11 +273,11 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 **[!UICONTROL Checkout]**
 
-![ Betaal Later Overseinen - Afhandeling ](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+![&#x200B; Betaal Later Overseinen - Afhandeling &#x200B;](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [ klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Show PayLater Messaging] | Website | Hiermee wordt het PayLater-bericht ingeschakeld op de geselecteerde locatie. Opties: `Yes` / `No` . Geeft Later berichten over betalen weer voor beschikbare voorstellen. Er gelden beperkingen. [&#x200B; klik hier om meer te leren.](https://developer.paypal.com/studio/checkout/pay-later/us) |
 | [!UICONTROL Text Align] | Website | Bepaalt de lay-out van het PayLater-bericht. Opties: `Left` / `Center` / `Right` |
 | [!UICONTROL Text Color] | Website | Bepaalt de tekstkleur van het bericht Later betalen. Opties: `Black` / `White` |
 
@@ -285,9 +285,9 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 ## 3d Instellingen voor beveiligde verificatie
 
-![ 3D Veilige Montages van de Verificatie ](./assets/payment-methods-braintree-3d-secure-verify-config.png)<!-- zoom -->
+![&#x200B; 3D Veilige Montages van de Verificatie &#x200B;](./assets/payment-methods-braintree-3d-secure-verify-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL 3D Secure Verification] | Website | Bepaalt als een transactie een extra controleproces moet overgaan wanneer de klant in een programma zoals _wordt ingeschreven die door VISA_ wordt geverifieerd. Opties: `Yes` / `No` |
 | [!UICONTROL Always request 3DS] | Website | Uitdaging het 3D Veilige verzoek altijd voor alle transacties. Opties: `Yes` / `No` |
@@ -299,9 +299,9 @@ Wanneer deze opties zijn ingesteld, kunt u een voorvertoning van de PayPal-knopp
 
 ## [!UICONTROL Dynamic Descriptors]
 
-![ Dynamische beschrijvers ](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
+![&#x200B; Dynamische beschrijvers &#x200B;](./assets/payment-methods-braintree-dynamic-config.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Name] | Winkelweergave | De naamdescriptor bestaat uit twee delen, die door een sterretje (*) worden gescheiden. Het eerste deel van de descriptor identificeert het bedrijf of de DBA en het tweede deel identificeert het product. Bijvoorbeeld: `company*myproduct` <br/><br/> De lengte van het Bedrijf en de delen van het Product van de beschrijver kunnen op de volgende manieren, voor een gecombineerde lengte van maximaal 22 karakters worden toegewezen: <br/>**`Option 1`**- Het Bedrijf moet drie karakters zijn / het Product kan tot 18 karakters zijn<br/>**`Option 2`** - Het Bedrijf moet zeven karakters zijn / het Product kan tot 14 karakters zijn <br/>**`Option 3`**- het Bedrijf moet 12 karakters zijn / het Product kan tot negen karakters zijn |
 | [!UICONTROL Phone] | Winkelweergave | De telefoonbeschrijving moet tien tot 14 tekens lang zijn en mag alleen cijfers, streepjes, ronde haakjes en punten bevatten. Bijvoorbeeld: `9999999999` `(999) 999-9999` `999.999.9999` |

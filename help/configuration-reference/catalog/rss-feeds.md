@@ -16,25 +16,25 @@ ht-degree: 0%
 
 ## [!UICONTROL Rss Config]
 
-![ Rss Config ](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![&#x200B; Rss Config &#x200B;](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
 <!-- [Rss Config](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/social-rss) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Winkelweergave | Laat klanten toe om het voer van RSS van de opslag te ontvangen. |
 
 {style="table-layout:auto"}
 
-Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegelaten, zie [ Sociale media en het voer van RSS ](../../merchandising-promotions/social-rss.md).
+Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegelaten, zie [&#x200B; Sociale media en het voer van RSS &#x200B;](../../merchandising-promotions/social-rss.md).
 
 ## [!UICONTROL Wish List]
 
-![ Wenslijst ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![&#x200B; Wenslijst &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
 <!-- [Wish List](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Winkelweergave | Als deze optie is ingeschakeld, wordt boven aan pagina&#39;s met verlanglijsten een koppeling naar de RSS-feed weergegeven. De pagina voor het delen van wensenlijsten bevat een selectievakje dat de klant kan selecteren om vanuit lijsten met gedeelde wensen een koppeling naar de feed tot stand te brengen. |
 
@@ -42,11 +42,11 @@ Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegela
 
 ## [!UICONTROL Catalog]
 
-![ Catalogus ](./assets/rss-feeds-catalog.png)<!-- zoom -->
+![&#x200B; Catalogus &#x200B;](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
 <!-- [Catalog](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog-menu) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL New Products] | Winkelweergave | Als deze optie is ingeschakeld, wordt een melding gepubliceerd van nieuwe producten die aan de winkelcatalogus zijn toegevoegd. |
 | [!UICONTROL Special Products] | Winkelweergave | Wanneer toegelaten, publiceert bericht van om het even welke producten met speciale prijs. |
@@ -57,11 +57,11 @@ Voor details op hoe te om het voer van RSS te gebruiken nadat zij worden toegela
 
 ## [!UICONTROL Order]
 
-![ Orde ](./assets/rss-feeds-order.png)<!-- zoom -->
+![&#x200B; Orde &#x200B;](./assets/rss-feeds-order.png)<!-- zoom -->
 
 <!-- [Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Winkelweergave | Biedt klanten de mogelijkheid hun orderstatus te volgen met RSS-feed. Als deze optie is ingeschakeld, wordt een koppeling naar de RSS-feed in de volgorde weergegeven |
 

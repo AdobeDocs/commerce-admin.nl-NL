@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Een regel voor een winkelwagenprijs maken
 
-Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarden en definieer de handelingen. Voltooi ook de labels en test de regel. De voorwaarden van de prijsregel kunnen op karretje of [ productattributen ](../catalog/product-attributes.md) of [ het publiek van Real-Time CDP ](#use-real-time-cdp-audiences-to-set-a-condition), maar niet op [ klantgerichte opties ](../catalog/settings-advanced-custom-options.md) worden gebaseerd.
+Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarden en definieer de handelingen. Voltooi ook de labels en test de regel. De voorwaarden van de prijsregel kunnen op karretje of [&#x200B; productattributen &#x200B;](../catalog/product-attributes.md) of [&#x200B; het publiek van Real-Time CDP &#x200B;](#use-real-time-cdp-audiences-to-set-a-condition), maar niet op [&#x200B; klantgerichte opties &#x200B;](../catalog/settings-advanced-custom-options.md) worden gebaseerd.
 
 ## Stap 1: Een regel toevoegen
 
@@ -24,9 +24,9 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
    - Als u niet wilt dat de regel onmiddellijk van kracht wordt, stelt u **[!UICONTROL Active]** in op `No` .
 
-   ![ de prijsregel van de Kar - regelinformatie ](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - regelinformatie &#x200B;](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
 
-1. Om het [ werkingsgebied ](../getting-started/websites-stores-views.md#scope-settings) van de regel te vestigen, doe het volgende:
+1. Om het [&#x200B; werkingsgebied &#x200B;](../getting-started/websites-stores-views.md#scope-settings) van de regel te vestigen, doe het volgende:
 
    - Selecteer de locatie **[!UICONTROL Websites]** waar de speciale actie beschikbaar moet zijn.
 
@@ -34,7 +34,7 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
      Als u de bevordering slechts aan geregistreerde klanten beschikbaar wilt zijn, **__** kiest niet de `NOT LOGGED IN` optie.
 
-1. Plaats de regel om met of zonder a [ coupon ](price-rules-cart-coupon.md) als volgt toe te passen:
+1. Plaats de regel om met of zonder a [&#x200B; coupon &#x200B;](price-rules-cart-coupon.md) als volgt toe te passen:
 
    - Als u de regel voor het winkelwagentje wilt toepassen zonder gebruik te maken van een couponcode, stelt u **[!UICONTROL Coupon]** in op `No Coupon` en gaat u verder met stap 5.
 
@@ -51,31 +51,31 @@ Voer de volgende stappen uit om een regel toe te voegen, beschrijf de voorwaarde
 
      {style="table-layout:auto"}
 
-     Meer leren, zie [ Codes van de Coupon ](price-rules-cart-coupon.md).
+     Meer leren, zie [&#x200B; Codes van de Coupon &#x200B;](price-rules-cart-coupon.md).
 
-     ![ de prijsregel van de Kar - couponmontages ](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
+     ![&#x200B; de prijsregel van de Kar - couponmontages &#x200B;](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Gebruik _Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!UICONTROL From]** en **[!UICONTROL To]** datumwaaier voor de bevordering te kiezen.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) Gebruik _Kalender_ (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om **[!UICONTROL From]** en **[!UICONTROL To]** datumwaaier voor de bevordering te kiezen.
 
 1. Voer een getal in om de **[!UICONTROL Priority]** van deze prijsregel te definiëren ten opzichte van de handelingsinstellingen van andere prijsregels die tegelijkertijd actief zijn.
 
-   Wanneer op hetzelfde product meerdere regels of coupons van toepassing zijn, wordt eerst de regel met de hoogste prioriteit (laagste getal) toegepast. Regels met dezelfde prioriteit worden niet gecombineerd; ze worden afzonderlijk toegepast op basis van regel-id. Om de orde te controleren waarin de kortingen worden toegepast, wijs unieke prioriteiten toe, en denk na gebruikend [ de Verdere Regels van de Prijs ](#step-3-define-the-actions) in de stap van Acties verwerpen om discontering te verhinderen stapelend.
+   Wanneer op hetzelfde product meerdere regels of coupons van toepassing zijn, wordt eerst de regel met de hoogste prioriteit (laagste getal) toegepast. Regels met dezelfde prioriteit worden niet gecombineerd; ze worden afzonderlijk toegepast op basis van regel-id. Om de orde te controleren waarin de kortingen worden toegepast, wijs unieke prioriteiten toe, en denk na gebruikend [&#x200B; de Verdere Regels van de Prijs &#x200B;](#step-3-define-the-actions) in de stap van Acties verwerpen om discontering te verhinderen stapelend.
 
-1. Om de regel op gepubliceerde [ voer RSS ](social-rss.md#rss-feeds) toe te passen, plaats **Openbaar in RSS voer** aan `Yes`.
+1. Om de regel op gepubliceerde [&#x200B; voer RSS &#x200B;](social-rss.md#rss-feeds) toe te passen, plaats **Openbaar in RSS voer** aan `Yes`.
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) Nadat de regel wordt bewaard, verschijnt de naam van de regel van de kartprijs bij de bovenkant van de pagina.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) Nadat de regel wordt bewaard, verschijnt de naam van de regel van de kartprijs bij de bovenkant van de pagina.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) nadat de regel wordt bewaard, verschijnt de naam van de de kartonprijsregel en [ Geplande Veranderingen ](price-rule-cart-scheduled-changes.md) doos bij de bovenkant van de pagina.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) nadat de regel wordt bewaard, verschijnt de naam van de de kartonprijsregel en [&#x200B; Geplande Veranderingen &#x200B;](price-rule-cart-scheduled-changes.md) doos bij de bovenkant van de pagina.
 
-     ![ de prijsregel van de Kar - geplande veranderingen ](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
+     ![&#x200B; de prijsregel van de Kar - geplande veranderingen &#x200B;](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## Stap 2: Beschrijf de voorwaarden
 
 >[!NOTE]
 >
->Als u publiek van Real-Time CDP gebruikt, sla aan [ deze sectie ](#use-real-time-cdp-audiences-to-set-a-condition) over.
+>Als u publiek van Real-Time CDP gebruikt, sla aan [&#x200B; deze sectie &#x200B;](#use-real-time-cdp-audiences-to-set-a-condition) over.
 
 In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor de bevordering in aanmerking te komen. De voorwaarden zijn op de volgende manieren van invloed op de regels voor de kartprijs:
 
@@ -85,7 +85,7 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
 1. Selecteer **[!UICONTROL Conditions]** in het linkerdeelvenster.
 
-   ![ de prijsregel van de Kar - voorwaarden ](./assets/conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - voorwaarden &#x200B;](./assets/conditions.png){width="600" zoomable="yes"}
 
    De eerste voorwaarde wordt standaard weergegeven en de volgende statussen:
 
@@ -97,13 +97,13 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
    - Klik op **[!UICONTROL TRUE]** en selecteer `TRUE` of `FALSE` .
    - Laat de voorwaarde ongewijzigd om de regel op alle producten toe te passen.
 
-1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn toe en selecteer een optie voor de voorwaarde, zoals wortelattribuut, productsubselection, of combinatie.
+1. Klik _toevoegen_ (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn toe en selecteer een optie voor de voorwaarde, zoals wortelattribuut, productsubselection, of combinatie.
 
    Voer in dit voorbeeld het volgende deel van de voorwaarde als volgt in:
 
    - Kies `Products Subselection` wanneer dit wordt gevraagd aan **[!UICONTROL Choose the condition to add]** .
 
-     ![ voorwaarde van de prijsregel van de Kar - producten subselection ](./assets/price-rule-cart-condition-products-subselection.png){width="600" zoomable="yes"}
+     ![&#x200B; voorwaarde van de prijsregel van de Kar - producten subselection &#x200B;](./assets/price-rule-cart-condition-products-subselection.png){width="600" zoomable="yes"}
 
    - Klik in de instructie condition op **[!UICONTROL total quantity]** en selecteer `total quantity` of `total amount` .
 
@@ -119,21 +119,21 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
    Voor deze voorwaarde moet de totale hoeveelheid karretje `101` of groter zijn.
 
-   ![ voorwaarde van de prijsregel van de Kar - totale kwantitatieve waarde ](./assets/condition-products-subselection3.png){width="600" zoomable="yes"}
+   ![&#x200B; voorwaarde van de prijsregel van de Kar - totale kwantitatieve waarde &#x200B;](./assets/condition-products-subselection3.png){width="600" zoomable="yes"}
 
-1. Klik **toevoegen** (![ pictogram ](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn, en voeg dan een voorwaarde toe die op **Categorie** gebaseerd is.
+1. Klik **toevoegen** (![&#x200B; pictogram &#x200B;](../assets/icon-add-green-circle.png)) aan het begin van de volgende lijn, en voeg dan een voorwaarde toe die op **Categorie** gebaseerd is.
 
-   ![ voorwaarde van de prijsregel van de Kar - de categorie van productattributen ](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
+   ![&#x200B; voorwaarde van de prijsregel van de Kar - de categorie van productattributen &#x200B;](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. In het volgende deel van de voorwaarde, klik _meer_ (**..**) verbinding om het inputgebied te tonen, en open dan de _Kiezer_ (![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) om de categorieboom te tonen.
+1. In het volgende deel van de voorwaarde, klik _meer_ (**..**) verbinding om het inputgebied te tonen, en open dan de _Kiezer_ (![&#x200B; pictogram van de Lijst &#x200B;](../assets/icon-list-chooser.png)) om de categorieboom te tonen.
 
-1. Selecteer checkbox van de categorie die u als voorwaarde voor de prijsregel wilt gebruiken en ![ klikken voeg pictogram ](../assets/icon-checkmark-green-circle.png) pictogram toe om de categorieselecties goed te keuren.
+1. Selecteer checkbox van de categorie die u als voorwaarde voor de prijsregel wilt gebruiken en ![&#x200B; klikken voeg pictogram &#x200B;](../assets/icon-checkmark-green-circle.png) pictogram toe om de categorieselecties goed te keuren.
 
    De voorwaarde kan op om het even welke categorie worden gebaseerd die een kind van de 0&rbrace; wortelcategorie van de opslag [&#128279;](../catalog/category-root.md) is.
 
-   ![ voorwaarde van de prijsregel van de Kar - productcategorie ](./assets/subselection-category.png){width="600" zoomable="yes"}
+   ![&#x200B; voorwaarde van de prijsregel van de Kar - productcategorie &#x200B;](./assets/subselection-category.png){width="600" zoomable="yes"}
 
-1. Om meer voorwaarden toe te voegen, klik __ toevoegen (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en bepalen een andere voorwaarde.
+1. Om meer voorwaarden toe te voegen, klik __ toevoegen (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) en bepalen een andere voorwaarde.
 
    U kunt het proces zo vaak herhalen als nodig is om de voorwaarden te beschrijven waaraan voor de prijsregel moet worden voldaan. Hier volgen enkele voorbeelden:
 
@@ -174,7 +174,7 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
 1. Ga naar **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** en open de vereiste regel voor de winkelwagenprijs.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Condition]** sectie uit en selecteer **[!UICONTROL Product attribute combination]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Condition]** sectie uit en selecteer **[!UICONTROL Product attribute combination]**.
 
 1. Stel deze voorwaarde in op een van de volgende waarden:
 
@@ -182,7 +182,7 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
    - Klik op **[!UICONTROL ALL]** en selecteer `ALL` of `ANY` .
 
-1. Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) pictogram en selecteer **[!UICONTROL Product Attribute]** dat u opstelling voor promotionele regelvoorwaarden.
+1. Klik _toevoegen_ (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) pictogram en selecteer **[!UICONTROL Product Attribute]** dat u opstelling voor promotionele regelvoorwaarden.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -192,15 +192,15 @@ In deze stap worden de voorwaarden beschreven waaraan moet zijn voldaan om voor 
 
 ### Real-Time CDP-publiek gebruiken om een voorwaarde in te stellen
 
-U kunt een voorwaarde voor een regel plaatsen van de wortelprijs die op een Real-Time CDP [ publiek ](../customers/audience-activation.md) wordt gebaseerd.
+U kunt een voorwaarde voor een regel plaatsen van de wortelprijs die op een Real-Time CDP [&#x200B; publiek &#x200B;](../customers/audience-activation.md) wordt gebaseerd.
 
 1. Vouw **[!UICONTROL Conditions]** uit, klik op het pictogram &quot;+&quot; en selecteer **[!UICONTROL Real-Time CDP Audience]** in de lijst.
 
-   ![ Uitgezochte Voorwaarde van het publiek Real-Time CDP ](./assets/rtcdp-conditions.png){width="300"}
+   ![&#x200B; Uitgezochte Voorwaarde van het publiek Real-Time CDP &#x200B;](./assets/rtcdp-conditions.png){width="300"}
 
 1. Selecteer _Meer_ (**..**) pictogram, klik **[!UICONTROL Open Chooser]**, en bekijk alle beschikbare publiek van Real-Time CDP.
 
-   ![ de Soorten publiek van Real-Time CDP van de Mening ](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
+   ![&#x200B; de Soorten publiek van Real-Time CDP van de Mening &#x200B;](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
 1. Selecteer het Real-Time CDP-publiek dat u wilt gebruiken voor de regel van de winkelwagenprijs.
 
@@ -211,7 +211,7 @@ U kunt een voorwaarde voor een regel plaatsen van de wortelprijs die op een Real
    | `Name` | Naam van het publiek, zoals `Orders over $50` |
    | `Description` | Beschrijving van het publiek, zoals `People who placed an order over $50 in the last month.` . |
    | `Source` | Geeft aan waar het publiek vandaan kwam, zoals `Experience Platform` . |
-   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met de Experience Platform door de [[!DNL Data Connection] ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL) uitbreiding verbindt. |
+   | `Website` | Geeft aan welke website u hebt gekoppeld aan de gegevensstroom die het publiek bevat. U creeert deze verbinding wanneer u uw instantie van Commerce met de Experience Platform door de [[!DNL Data Connection] &#x200B;](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=nl-NL) uitbreiding verbindt. |
 
    {style="table-layout:auto"}
 
@@ -221,9 +221,9 @@ In de volgende stap definieert u de actie die moet worden uitgevoerd wanneer aan
 
 De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijzen worden bijgewerkt wanneer aan de voorwaarden wordt voldaan.
 
-1. De rol neer aan **[!UICONTROL Actions]**, en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de sectie uit.
+1. De rol neer aan **[!UICONTROL Actions]**, en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de sectie uit.
 
-   ![ Prijsregel voor winkelwagentjes - handelingen ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; Prijsregel voor winkelwagentjes - handelingen &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Apply]** in op een van de volgende kortingsopties:
 
@@ -244,7 +244,7 @@ De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijze
 
    - Voer in het veld **[!UICONTROL Maximum Qty Discount is Applied To]** de maximumhoeveelheid in van hetzelfde product dat in aanmerking komt voor de korting bij dezelfde aankoop.
 
-   - Plaats **[!UICONTROL Apply to Shipping Amount]** (![ knevel van de Optie ](../assets/toggle-yes.png)) als volgt:
+   - Plaats **[!UICONTROL Apply to Shipping Amount]** (![&#x200B; knevel van de Optie &#x200B;](../assets/toggle-yes.png)) als volgt:
 
      | Optie | Beschrijving |
      |------|-----------|
@@ -253,7 +253,7 @@ De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijze
 
      {style="table-layout:auto"}
 
-   - Ophouden verwerkend andere regels nadat deze regel wordt toegepast, plaats **[!UICONTROL Discard Subsequent Rules]** (![ knevel van de Optie ](../assets/toggle-yes.png)) aan `Yes`. Met deze instelling voorkomt u dat meerdere kortingen op hetzelfde product worden toegepast.
+   - Ophouden verwerkend andere regels nadat deze regel wordt toegepast, plaats **[!UICONTROL Discard Subsequent Rules]** (![&#x200B; knevel van de Optie &#x200B;](../assets/toggle-yes.png)) aan `Yes`. Met deze instelling voorkomt u dat meerdere kortingen op hetzelfde product worden toegepast.
 
      | Optie | Beschrijving |
      |------|-----------|
@@ -274,11 +274,11 @@ De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijze
    |------|-----------|
    | `No` | Gratis verzending is niet beschikbaar. |
    | `For matching items only` | Gratis verzending is alleen beschikbaar voor objecten die voldoen aan de voorwaarden van de regel. |
-   | `For shipment with matching items` | Gratis verzending is beschikbaar voor alle verzendingen die overeenkomende objecten bevatten. De [ Vrij Verschepende ](../stores-purchase/shipping-free.md) leveringsmethode moet worden toegelaten om deze optie te gebruiken. |
+   | `For shipment with matching items` | Gratis verzending is beschikbaar voor alle verzendingen die overeenkomende objecten bevatten. De [&#x200B; Vrij Verschepende &#x200B;](../stores-purchase/shipping-free.md) leveringsmethode moet worden toegelaten om deze optie te gebruiken. |
 
    {style="table-layout:auto"}
 
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Add Rewards Points]**, ga het vaste aantal punten in de klant **_eens_** per orde ontvangt wanneer de regel van de kartprijs wordt toegepast.
+1. ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) voor **[!UICONTROL Add Rewards Points]**, ga het vaste aantal punten in de klant **_eens_** per orde ontvangt wanneer de regel van de kartprijs wordt toegepast.
 
    Laat dit veld leeg als beloningspunten niet zijn ingeschakeld.
 
@@ -288,33 +288,33 @@ De maatregelen voor de prijsregel voor winkelwagentjes beschrijven hoe de prijze
 
 Het label wordt weergegeven in het gedeelte met totalen van de volgorde waarin u de korting wilt identificeren. De labeltekst staat tussen haakjes achter het woord `Discount` . U kunt een standaardlabel voor alle winkelweergaven invoeren of een ander label voor elke weergave invoeren.
 
-![ winkelfront kart - disconteringsetiketten ](./assets/order-totals-section-discount-special.png){width="600"}
+![&#x200B; winkelfront kart - disconteringsetiketten &#x200B;](./assets/order-totals-section-discount-special.png){width="600"}
 
-1. De rol neer aan **[!UICONTROL Labels]**, en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de sectie uit.
+1. De rol neer aan **[!UICONTROL Labels]**, en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de sectie uit.
 
 1. Voer de tekst in die u als **[!UICONTROL Default Rule Label for All Store Views]** wilt gebruiken.
 
-   ![ de prijsregel van de Kar - standaardetiket ](./assets/label-default.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - standaardetiket &#x200B;](./assets/label-default.png){width="600" zoomable="yes"}
 
 1. Als uw winkel meerdere weergaven heeft of meerdere websites met meerdere weergaven, voert u voor elke weergave de juiste labeltekst in.
 
    Als elke winkelweergave bijvoorbeeld in een andere taal is gesteld, voert u de vertaling van het label voor elke weergave in.
 
-   ![ opslag specifieke etiketten ](./assets/label-store-specific.png){width="600" zoomable="yes"}
+   ![&#x200B; opslag specifieke etiketten &#x200B;](./assets/label-store-specific.png){width="600" zoomable="yes"}
 
 ## Stap 5: Verwante dynamische blokken toevoegen (optioneel)
 
 {{ee-feature}}
 
-[ Dynamische Blokken ](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd verschijnen in de storefront wanneer de voorwaarden worden voldaan aan.
+[&#x200B; Dynamische Blokken &#x200B;](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd verschijnen in de storefront wanneer de voorwaarden worden voldaan aan.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Related Dynamic Blocks]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Related Dynamic Blocks]** sectie uit.
 
-1. Gebruik de [ onderzoeksfilters ](../getting-started/admin-workspace.md) om van de blokken de plaats te bepalen die u met de regel wilt associëren.
+1. Gebruik de [&#x200B; onderzoeksfilters &#x200B;](../getting-started/admin-workspace.md) om van de blokken de plaats te bepalen die u met de regel wilt associëren.
 
 1. Schakel het selectievakje in de eerste kolom in om het blok aan de regel te koppelen.
 
-   Meer leren, zie [ Dynamische Blokken in de Regels van de Prijs ](../content-design/dynamic-blocks-price-rules.md).
+   Meer leren, zie [&#x200B; Dynamische Blokken in de Regels van de Prijs &#x200B;](../content-design/dynamic-blocks-price-rules.md).
 
 ## Stap 6: Sla de regel op en test deze
 
@@ -346,14 +346,14 @@ Bekijk deze video voor meer informatie over het maken van regels voor winkelwage
 | [!UICONTROL Uses per Customer] | Hiermee bepaalt u hoe vaak de regel van de winkelwagenprijs kan worden gebruikt door dezelfde geregistreerde klant die tot een geselecteerde klantengroep behoort. Is niet van toepassing op gastkopers die lid zijn van NIET IN klantengroep LOGGED, of op klanten die zonder het programma openen aan hun rekeningen winkelen. Voor geen limiet, laat leeg. |
 | [!UICONTROL Priority] | Een getal dat de prioriteit van deze regel ten opzichte van andere regels aangeeft. Prioriteiten van het hoogste naar het laagste niveau zijn `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Hiermee bepaalt u of de aanbieding wordt opgenomen in de openbare RSS-feed van uw winkel. Opties:  `Yes` / `No` |
-| [!UICONTROL From] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) de eerste datum de coupon kan worden gebruikt. |
-| [!UICONTROL To] | ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) de laatste datum de coupon kan worden gebruikt. |
+| [!UICONTROL From] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) de eerste datum de coupon kan worden gebruikt. |
+| [!UICONTROL To] | ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) de laatste datum de coupon kan worden gebruikt. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Conditions]
 
-Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel van de winkelwagenprijs in werking treedt. Indien leeg gelaten, geldt de regel voor alle producten in de winkelwagentje. De voorwaarden kunnen gebaseerd zijn op elke combinatie van karretjes en productkenmerken. Nochtans, [ aanpasbare opties ](../catalog/settings-advanced-custom-options.md) kunnen niet in de voorwaarden van de kartprijs worden van verwijzingen voorzien.
+Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel van de winkelwagenprijs in werking treedt. Indien leeg gelaten, geldt de regel voor alle producten in de winkelwagentje. De voorwaarden kunnen gebaseerd zijn op elke combinatie van karretjes en productkenmerken. Nochtans, [&#x200B; aanpasbare opties &#x200B;](../catalog/settings-advanced-custom-options.md) kunnen niet in de voorwaarden van de kartprijs worden van verwijzingen voorzien.
 
 | Veld | Beschrijving |
 |--- |--- |
@@ -390,8 +390,8 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 | [!UICONTROL Discount Qty Step (Buy X)] | Hiermee stelt u het aantal producten in dat `X` in een `Buy X Get Y Free` -promotie vertegenwoordigt. Definieert ook hoeveel producten in batches aan het winkelwagentje moeten worden toegevoegd om `Fixed amount discount` - en `Percent of product price discount` -promoties toe te passen. |
 | [!UICONTROL Apply to Shipping Amount] | Hiermee wordt bepaald of de korting afzonderlijk wordt toegepast op het subtotaal en de verzendbedragen. Anders wordt deze alleen op het subtotaal toegepast. Opties: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Hiermee wordt bepaald of regels met lagere prioriteit (1 heeft de hoogste prioriteit) op het product kunnen worden toegepast wanneer deze regel voor de winkelwagenprijs een overeenkomst is. Schakel deze optie in om te voorkomen dat meerdere kortingen op hetzelfde product worden toegepast. Opties: `Yes` / `No` |
-| [!UICONTROL Free Shipping] | Hiermee bepaalt u of gratis verzending in de speciale actie wordt opgenomen en, zo ja, voor welke objecten. Opties: <br/>**[!UICONTROL No]**- Voor de huidige regel is geen gratis verzending beschikbaar.<br/>**[!UICONTROL For matching items only]** - Gratis verzending is alleen beschikbaar voor specifieke objecten in de winkelwagen die aan de regel voldoen. <br/>**[!UICONTROL For shipment with matching items]**- Gratis verzending is beschikbaar voor alle objecten in de winkelwagentje. De [ Vrij Verschepende ](../stores-purchase/shipping-free.md) leveringsmethode moet worden toegelaten om deze optie te gebruiken. |
-| [!UICONTROL Add Reward Points] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) specificeert het aantal [ beloningspunten ](rewards-loyalty.md) die door de klant worden verdiend wanneer de prijsregel wordt toegepast. |
+| [!UICONTROL Free Shipping] | Hiermee bepaalt u of gratis verzending in de speciale actie wordt opgenomen en, zo ja, voor welke objecten. Opties: <br/>**[!UICONTROL No]**- Voor de huidige regel is geen gratis verzending beschikbaar.<br/>**[!UICONTROL For matching items only]** - Gratis verzending is alleen beschikbaar voor specifieke objecten in de winkelwagen die aan de regel voldoen. <br/>**[!UICONTROL For shipment with matching items]**- Gratis verzending is beschikbaar voor alle objecten in de winkelwagentje. De [&#x200B; Vrij Verschepende &#x200B;](../stores-purchase/shipping-free.md) leveringsmethode moet worden toegelaten om deze optie te gebruiken. |
+| [!UICONTROL Add Reward Points] | ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) specificeert het aantal [&#x200B; beloningspunten &#x200B;](rewards-loyalty.md) die door de klant worden verdiend wanneer de prijsregel wordt toegepast. |
 
 {style="table-layout:auto"}
 
@@ -408,4 +408,4 @@ Hiermee geeft u de voorwaarden op waaraan moet worden voldaan voordat de regel v
 
 {{ee-feature}}
 
-Identificeert om het even welke [ dynamische blokken ](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd.
+Identificeert om het even welke [&#x200B; dynamische blokken &#x200B;](../content-design/dynamic-blocks.md) die met de regel worden geassocieerd.

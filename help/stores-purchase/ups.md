@@ -18,15 +18,15 @@ United Parcel Service (UPS) biedt binnenlandse en internationale scheepvaartdien
 
 >[!NOTE]
 >
->UPS kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce ondersteunt echter alleen berekening van verzendkosten op basis van gewicht.
+>UPS kan [&#x200B; dimensionaal gewicht &#x200B;](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce ondersteunt echter alleen berekening van verzendkosten op basis van gewicht.
 
 ## Stap 1: Een UPS-verzendaccount openen
 
-Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een UPS-account openen en de toepassing voltooien om een verzendrekeningnummer te verkrijgen. Zie [ een Vrije Rekening van UPS ](https://www.ups.com/us/en/business-solutions/open-an-account) openen.
+Als u deze verzendmethode aan uw klanten wilt aanbieden, moet u eerst een UPS-account openen en de toepassing voltooien om een verzendrekeningnummer te verkrijgen. Zie [&#x200B; een Vrije Rekening van UPS &#x200B;](https://www.ups.com/us/en/business-solutions/open-an-account) openen.
 
 ## Stap 2: UPS OAUTH-referenties verkrijgen
 
-Volg de stappen in [ Begonnen het Worden met de gids van UPS APIs ](https://developer.ups.com/get-started) om de API geloofsbrieven (cliënt identiteitskaart en cliëntgeheim) te verkrijgen om de integratie van UPS toe te laten. U moet een UPS-toepassing maken om de referenties op te halen.
+Volg de stappen in [&#x200B; Begonnen het Worden met de gids van UPS APIs &#x200B;](https://developer.ups.com/get-started) om de API geloofsbrieven (cliënt identiteitskaart en cliëntgeheim) te verkrijgen om de integratie van UPS toe te laten. U moet een UPS-toepassing maken om de referenties op te halen.
 
 Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaarden voor de `username` en `password` .
 
@@ -36,7 +36,7 @@ Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaa
 
 1. Kies in het linkerdeelvenster onder **[!UICONTROL Sales]** de optie **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
 
 1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
@@ -61,7 +61,7 @@ Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaa
 
    >[!NOTE]
    >
-   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties gebruikt u het standaardtype `United Parcel Service REST` . Het REST type wordt ook vereist om [ verschepende etiketten ](shipping-labels.md) te produceren.<br/>
+   >Het standaard United Parcel Service-type is gepland voor afschrijving. Voor nieuwe configuraties gebruikt u het standaardtype `United Parcel Service REST` . Het REST type wordt ook vereist om [&#x200B; verschepende etiketten &#x200B;](shipping-labels.md) te produceren.<br/>
    >Voor de release 2.4.7 wordt **[!UICONTROL UPS Type]** verwijderd omdat de typen `UPS` en `UPS XML` gepland zijn voor afschrijving en `UPS REST` de standaardwaarde is. De API&#39;s van de United Parcel Service (UPS) die door de native Adobe Commerce-integratie worden gebruikt, zijn tijdelijk vervangen omdat deze momenteel geen ondersteuning bieden voor het OAuth 2.0-beveiligingsmodel.
 
    >[!IMPORTANT]
@@ -72,7 +72,7 @@ Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaa
 
    Dit veld is standaard ingesteld op `United Parcel Service` .
 
-   ![ laat UPS ](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat UPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"} toe
 
 ## Stap 3: Voer de beschrijving van de container in
 
@@ -120,7 +120,7 @@ Wanneer u de UPS-instellingen configureert in Admin, gebruikt u de referentiewaa
 
 1. Voer de **[!UICONTROL Minimum Package Weight]** in die de vervoerder toestaat.
 
-   ![ Beschrijving van de Container ](./assets/ups2.png){width="600" zoomable="yes"}
+   ![&#x200B; Beschrijving van de Container &#x200B;](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## Stap 5: Afhandelingskosten instellen
 
@@ -140,7 +140,7 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
    Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` in voor 25%.
 
-   ![ Behandelingskosten ](./assets/ups3.png){width="600" zoomable="yes"}
+   ![&#x200B; Behandelingskosten &#x200B;](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Stap 6: Geef de toegestane methoden en de toepasselijke landen op
 
@@ -148,7 +148,7 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
    De methoden worden onder UPS weergegeven tijdens het uitchecken. Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door UPS wilt verstrekken, plaats de vrije het verschepen opties:
+1. Als u a [&#x200B; Vrij Verschepend &#x200B;](shipping-free.md) optie door UPS wilt verstrekken, plaats de vrije het verschepen opties:
 
    - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via UPS wilt aanbieden.
 
@@ -158,11 +158,11 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als UPS niet meer beschikbaar is.
 
-   ![ Toegestane Methoden ](./assets/ups4.png){width="600" zoomable="yes"}
+   ![&#x200B; Toegestane Methoden &#x200B;](./assets/ups4.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Ship to Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
    - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
 1. Stel **[!UICONTROL Show Method if Not Applicable]** in op een van de volgende opties:
@@ -170,7 +170,7 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
    - `Yes` - Vermeldt alle beschikbare verzendmethoden voor UPS tijdens het afrekenen, inclusief methoden die niet van toepassing zijn op de verzending.
    - `No` - Hier worden alleen de UPS-verzendmethoden vermeld die van toepassing zijn op de verzending.
 
-   ![ Toepasselijke Landen ](./assets/ups5.png){width="600" zoomable="yes"}
+   ![&#x200B; Toepasselijke Landen &#x200B;](./assets/ups5.png){width="600" zoomable="yes"}
 
 1. Als u een logbestand wilt maken met de details van UPS-verzendingen die vanuit uw winkel worden gemaakt, stelt u **[!UICONTROL Debug]** in op `Yes` .
 
@@ -182,15 +182,15 @@ De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die b
 
 ## Stap 7: Het adres van de verzendoorsprong instellen
 
-1. Zorg ervoor dat uw [ Informatie van de Opslag ](../getting-started/store-details.md#store-information) volledig is.
+1. Zorg ervoor dat uw [&#x200B; Informatie van de Opslag &#x200B;](../getting-started/store-details.md#store-information) volledig is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Shipping Settings]** .
 
-1. Vouw ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Origin]** op de pagina uit en vorm het verschepende oorsprongadres.
+1. Vouw ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Origin]** op de pagina uit en vorm het verschepende oorsprongadres.
 
-   ![ de configuratie van de Verkoop - verschepende oorsprong adresopties ](./assets/shipping-origin.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van de Verkoop - verschepende oorsprong adresopties &#x200B;](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 

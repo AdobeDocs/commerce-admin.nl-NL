@@ -16,11 +16,11 @@ Het toevoegen van aanpasbare opties aan een product is een gemakkelijke manier o
 
 Wanneer een klant een product aanschaft met een aanpasbare optie, wordt onder de beschrijving van het product een beschrijving van elke geselecteerde optie weergegeven en wordt eventuele bijbehorende prijsopmaakcodes (of markeringen) automatisch toegepast op de prijs van het object.
 
-![ Detail van het Product met Aanpasbare Optie ](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
+![&#x200B; Detail van het Product met Aanpasbare Optie &#x200B;](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
 
 Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële berekening eerst voor de productprijs en vervolgens voor de prijs van het lijnartikel, met eventuele aanpassingen voor de toepasselijke aanpasbare opties. In het volgende voorbeeld koopt de klant een duffelzak voor $74.00, plus een aanpasbare optie voor een monogram. Een prijsverhoging van $14.80 wordt toegepast op de basisproductprijs, en de aangepaste prijs wordt getoond als $88.80. In dit geval leidt de aankoop van de duffelzak tot een op de SKU van het product gebaseerde regel van de cartprijs en past een korting toe op de aankoop, plus gratis verzending. Hoewel de regel van de kartprijs niet door de klantgerichte optie wordt teweeggebracht, past het de korting op de wortelinhoud toe, die de prijsverhoging voor de klantgerichte optie omvat.
 
-![ Kar met Aanpasbare Optie en de Regel van de Prijs ](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
+![&#x200B; Kar met Aanpasbare Optie en de Regel van de Prijs &#x200B;](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële bereken
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Customizable Options]_&#x200B;sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Customizable Options]_&#x200B;sectie.
 
 1. Klik op **[!UICONTROL Add Option]**.
 
-   ![ Aanpasbare Opties ](./assets/product-customizable-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Aanpasbare Opties &#x200B;](./assets/product-customizable-options.png){width="600" zoomable="yes"}
 
 1. Vul de nieuwe opties in:
 
@@ -59,13 +59,13 @@ Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële bereken
 
    - Als de waarde _[!UICONTROL Option Type]_`File` is, stelt u de parameters voor het bestand in. Voer bij **[!UICONTROL Compatible File Extensions]**&#x200B;de geldige extensies in als door komma&#39;s gescheiden waarden (zoals `png, jpg, gif` ). Voer bij **[!UICONTROL Maximum Image Size]**&#x200B;de maximale afbeeldingsgrootte in pixels in. Als het een tekstitem is, voert u de maximumwaarde voor **[!UICONTROL Maximum Characters]**&#x200B;in.
 
-   ![ voegt Waarden voor aanpassingsoptie ](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voegt Waarden voor aanpassingsoptie &#x200B;](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"} toe
 
 1. (Optioneel) Klik op **[!UICONTROL Add Option]** als u nog een aanpasbare optie wilt toevoegen.
 
    - Voltooi de instellingen zoals eerder.
 
-   - Om de orde van de opties te veranderen, klik het _[!UICONTROL Order]_![ pictogram van de Orde van de Sortering ](../assets/icon-sort-order.png) en sleep de optie aan een nieuwe positie in de lijst.
+   - Om de orde van de opties te veranderen, klik het _[!UICONTROL Order]_![&#x200B; pictogram van de Orde van de Sortering &#x200B;](../assets/icon-sort-order.png) en sleep de optie aan een nieuwe positie in de lijst.
 
    Herhaal deze stap voor elke optie die moet worden toegevoegd.
 
@@ -91,6 +91,6 @@ Als de aankoop een regel voor de winkelprijs instelt, geldt de initiële bereken
 | [!UICONTROL Text] | Een invoerregel of tekstvak waarin de klant de vereiste informatie kan invoeren. Opties:<br />**[!UICONTROL Field]**- een single-line inputgebied voor tekst.<br />**[!UICONTROL Area]** - Een invoerveld met meerdere regels. Dit type ondersteunt geen geavanceerde opmaak zoals HTML. Gebruik Max. tekens om de lengte van tekst te beperken die kan worden ingevoerd en om een juiste weergave van de ingevoerde tekst in de Admin te garanderen. |
 | [!UICONTROL File] | Hiermee kan de klant een bestand uploaden. |
 | [!UICONTROL Select] | Hiermee kan de klant één optie of meerdere opties selecteren, afhankelijk van het gebruikte invoertype. Opties:<br />**[!UICONTROL Drop-down]**- een drop-down lijst van opties die slechts één selectie toestaat.<br />**[!UICONTROL Radio Buttons]** - Een set opties waarbij slechts één selectie is toegestaan.<br />**[!UICONTROL Checkbox]**- Een selectievakje is een variant van een optie ja/nee. Als het product meer dan één selectievakje heeft, kunnen meerdere selecties worden gemaakt.<br />**[!UICONTROL Multiple Select]** - Een vervolgkeuzelijst met opties die meerdere selecties accepteert. Als u meerdere opties wilt kiezen, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie. |
-| [!UICONTROL Date] | Staat de klant toe om een datum of een tijd in te gaan of de waarde van een kalender te kiezen. Opties: <br />**[!UICONTROL Date]**- Een invoerveld voor een datumwaarde. De datum kan rechtstreeks in het veld worden getypt of uit een lijst of kalender worden geselecteerd. De inputmethode en het formaat worden bepaald door de [ datum en tijdopties ](attributes-input-types.md#date-and-time-options) configuratie.<br />**[!UICONTROL Date & Time]** - Een invoerveld voor een datum- en tijdwaarde.<br />**[!UICONTROL Time]**- Een invoerveld voor een tijdwaarde. |
+| [!UICONTROL Date] | Staat de klant toe om een datum of een tijd in te gaan of de waarde van een kalender te kiezen. Opties: <br />**[!UICONTROL Date]**- Een invoerveld voor een datumwaarde. De datum kan rechtstreeks in het veld worden getypt of uit een lijst of kalender worden geselecteerd. De inputmethode en het formaat worden bepaald door de [&#x200B; datum en tijdopties &#x200B;](attributes-input-types.md#date-and-time-options) configuratie.<br />**[!UICONTROL Date & Time]** - Een invoerveld voor een datum- en tijdwaarde.<br />**[!UICONTROL Time]**- Een invoerveld voor een tijdwaarde. |
 
 {style="table-layout:auto"}

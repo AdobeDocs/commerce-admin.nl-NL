@@ -29,13 +29,13 @@ In het volgende voorbeeld wordt tijdens de campagne een promotieafbeelding aan d
 
 1. Selecteer in de lijst de campagne die u wilt wijzigen.
 
-   ![ Toewijzend aan een bestaande campagne ](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![&#x200B; Toewijzend aan een bestaande campagne &#x200B;](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
 
 1. Voor **[!UICONTROL Category Image]** klikt u op **[!UICONTROL Upload]** en selecteert u de afbeelding die tijdens de campagne op de categoriepagina moet worden weergegeven.
 
-   ![ Toevoegend een categoriebeeld ](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![&#x200B; Toevoegend een categoriebeeld &#x200B;](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -48,8 +48,8 @@ In het volgende voorbeeld wordt tijdens de campagne een promotieafbeelding aan d
    - Klik voor een lijstweergave op **[!UICONTROL Select]** en vervolgens op **[!UICONTROL View/Edit]** in de kolom _[!UICONTROL Action]_.
    - Klik eenmaal voor een tijdlijnweergave om het overzicht weer te geven en klik vervolgens op **[!UICONTROL View/Edit]** .
 
-   ![ het detail van de Campagne ](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; het detail van de Campagne &#x200B;](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Categories]** uit om de lijst van toegewezen categorieën te bekijken.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Categories]** uit om de lijst van toegewezen categorieën te bekijken.
 
 1. Als u de pagina&#39;s voor de categorie wilt bekijken terwijl de campagne actief is, gaat u terug naar het dashboard, klikt u opnieuw op de campagne en klikt u vervolgens op **[!UICONTROL Preview]** .

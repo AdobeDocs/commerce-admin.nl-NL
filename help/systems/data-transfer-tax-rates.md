@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gegevens over belastingtarieven bijwerken
 
-Als je zaken doet in verschillende landen en een groot aantal producten verzendt, kan het erg tijdrovend zijn om handmatig belastingtarieven in te voeren. Het is sneller en efficiënter om belastingtarieven te downloaden per postcode en deze in Commerce te importeren. In het volgende voorbeeld ziet u hoe u een set staatspecifieke belastingtarieven importeert die u van een vertrouwde bron hebt gedownload. Avalara verstrekt [ lijsten van het belastingtarief ](https://www.avalara.com/taxrates/en/download-tax-tables.html), dat u zonder kosten, voor elke code van het ZIP in de Verenigde Staten kunt downloaden.
+Als je zaken doet in verschillende landen en een groot aantal producten verzendt, kan het erg tijdrovend zijn om handmatig belastingtarieven in te voeren. Het is sneller en efficiënter om belastingtarieven te downloaden per postcode en deze in Commerce te importeren. In het volgende voorbeeld ziet u hoe u een set staatspecifieke belastingtarieven importeert die u van een vertrouwde bron hebt gedownload. Avalara verstrekt [&#x200B; lijsten van het belastingtarief &#x200B;](https://www.avalara.com/taxrates/en/download-tax-tables.html), dat u zonder kosten, voor elke code van het ZIP in de Verenigde Staten kunt downloaden.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Als je zaken doet in verschillende landen en een groot aantal producten verzendt
    - Bereik tot
    - Een kolom voor elke archiefweergave
 
-   ![ Uitgevoerde gegevens - belastingtarieven ](./assets/data-exported-tax-rates.png){width="500" zoomable="yes"}
+   ![&#x200B; Uitgevoerde gegevens - belastingtarieven &#x200B;](./assets/data-exported-tax-rates.png){width="500" zoomable="yes"}
 
 1. Open de nieuwe gegevens over het belastingtarief in een tweede instantie van het spreadsheet, zodat kunt u hen naast elkaar zien.
 
@@ -55,7 +55,7 @@ Als je zaken doet in verschillende landen en een groot aantal producten verzendt
    - `CityRate`
    - `SpecialRate`
 
-   Als u extra [ belastingstreken en tarieven ](../stores-purchase/tax-zones-rates.md) moet invoeren, moet u hen van Admin van uw opslag eerst bepalen en de [ belastingregels ](../stores-purchase/tax-rules.md) bijwerken zoals nodig. Exporteer vervolgens de gegevens en open het bestand in een teksteditor, zodat het ter referentie kan worden gebruikt. Om dit voorbeeld eenvoudig te houden, importeren we echter alleen de kolommen met het standaardbelastingtarief.
+   Als u extra [&#x200B; belastingstreken en tarieven &#x200B;](../stores-purchase/tax-zones-rates.md) moet invoeren, moet u hen van Admin van uw opslag eerst bepalen en de [&#x200B; belastingregels &#x200B;](../stores-purchase/tax-rules.md) bijwerken zoals nodig. Exporteer vervolgens de gegevens en open het bestand in een teksteditor, zodat het ter referentie kan worden gebruikt. Om dit voorbeeld eenvoudig te houden, importeren we echter alleen de kolommen met het standaardbelastingtarief.
 
 ## Stap 2: De importgegevens voorbereiden
 
@@ -93,6 +93,6 @@ Er zijn twee spreadsheets geopend, naast elkaar. Het ene bestand bevat de struct
 
 1. Gebruik de paginacontroles om de nieuwe belastingtarieven te bekijken.
 
-   ![ de belastingtarieven van de de invoer van Gegevens ](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
+   ![&#x200B; de belastingtarieven van de de invoer van Gegevens &#x200B;](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 1. Voer een aantal testtransacties uit in uw winkel met klanten van verschillende ZIP-codes om ervoor te zorgen dat de nieuwe belastingtarieven correct werken.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voordat u begint, moet u controleren of u precies begrijpt wat omleiding precies inhoudt. Denk in termen van _doel_ / _bron_ of _opnieuw richt aan_ / _opnieuw richt van_. Hoewel mensen nog steeds vanuit zoekmachines of verouderde koppelingen naar de vorige pagina kunnen navigeren, zorgt de omleiding ervoor dat de winkel naar het nieuwe doel overschakelt.
 
-![ URL herschrijft - de pagina van CMS ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![&#x200B; URL herschrijft - de pagina van CMS &#x200B;](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Stap 1. Herschrijven plannen
 
@@ -49,7 +49,7 @@ Omleiden vanaf: `old-page`
 
 1. Zoek de nieuwe doelpagina in het raster en open de bewerkingsmodus.
 
-   ![ voeg URL toe herschrijft - voor de pagina van CMS ](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![&#x200B; voeg URL toe herschrijft - voor de pagina van CMS &#x200B;](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Voer onder Informatie voor herschrijven van URL de volgende handelingen uit:
 
@@ -68,7 +68,7 @@ Omleiden vanaf: `old-page`
 
    - Voer ter referentie een korte beschrijving in van het herschrijven.
 
-   ![ URL herschrijft informatie ](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+   ![&#x200B; URL herschrijft informatie &#x200B;](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. Lees het volgende voordat u de omleiding opslaat:
 

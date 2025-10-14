@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Levensduur van klantensessie
 
-Het leven van een klant het winkelen zitting wordt bepaald door verscheidene factoren, met inbegrip van de lengte van de serverzitting, het gebruik van a [ blijvende kar ](../stores-purchase/cart-persistent.md), en het leven van informatie die in browser wordt opgeslagen. Hoewel deze met de zelfde klantenervaring verwant zijn, zijn zij afzonderlijke processen met verschillende vervalgebeurtenissen en levens.
+Het leven van een klant het winkelen zitting wordt bepaald door verscheidene factoren, met inbegrip van de lengte van de serverzitting, het gebruik van a [&#x200B; blijvende kar &#x200B;](../stores-purchase/cart-persistent.md), en het leven van informatie die in browser wordt opgeslagen. Hoewel deze met de zelfde klantenervaring verwant zijn, zijn zij afzonderlijke processen met verschillende vervalgebeurtenissen en levens.
 
 | Proces | Beschrijving |
 | --- | --- |
@@ -21,7 +21,7 @@ Het leven van een klant het winkelen zitting wordt bepaald door verscheidene fac
 
 {style="table-layout:auto"}
 
-Als [ het Aanhoudende Kart ](../stores-purchase/cart-persistent.md) wordt toegelaten, wordt de inhoud van het karretje bewaard voor de volgende tijd de klanten in hun rekeningen ondertekenen. Wanneer u een blijvend winkelwagentje gebruikt, wordt u aangeraden de levensduur van de serversessie en het sessiecookie in te stellen op een lange periode.
+Als [&#x200B; het Aanhoudende Kart &#x200B;](../stores-purchase/cart-persistent.md) wordt toegelaten, wordt de inhoud van het karretje bewaard voor de volgende tijd de klanten in hun rekeningen ondertekenen. Wanneer u een blijvend winkelwagentje gebruikt, wordt u aangeraden de levensduur van de serversessie en het sessiecookie in te stellen op een lange periode.
 
 Op de server wordt de lengte van de sessie bepaald door het `php.ini` -bestand en diverse variabelen. Adobe Commerce heeft momenteel geen beheerconfiguratie-instelling die de lengte van de serversessie bepaalt.
 
@@ -35,7 +35,7 @@ Op de server wordt de lengte van de sessie bepaald door het `php.ini` -bestand e
 
 1. Vouw de sectie **[!UICONTROL Default Cookie Settings]** uit.
 
-   ![ Standaard de Montages van het Koekje ](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Standaard de Montages van het Koekje &#x200B;](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
 
 1. Als u de standaardwaarde wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit en voert u de nieuwe waarde in seconden in.
 

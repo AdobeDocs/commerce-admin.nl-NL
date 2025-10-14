@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Wanneer uw winkel voor het eerst wordt geïnstalleerd, wordt een standaard beheerdersaccount gemaakt met aanmeldingsgegevens die u volledige beheerrechten geven. Als beste praktijken, zou u een andere gebruikersrekening met volledige toegang van de Beheerder moeten tot stand brengen. Op die manier kunt u één account gebruiken voor uw dagelijkse beheeractiviteiten en de andere reserveren als een &quot;Super Admin&quot;-account. Dit kan nuttig zijn als u uw regelmatige geloofsbrieven vergeet, of zij op één of andere manier onbruikbaar worden.
 
-Als andere teamleden of dienstverleners toegang nodig hebben, kunt u individuele gebruikersrekeningen voor hen tot stand brengen en beperkte toegang toewijzen die op hun specifieke bedrijfsbehoeften wordt gebaseerd. Om de websites of de opslag te beperken die de gebruikers in Admin kunnen toegang hebben, moet u eerst [ een rol ](permissions-user-roles.md) met beperkt werkingsgebied en slechts de noodzakelijke geselecteerde middelen tot stand brengen. Vervolgens kunt u de rol toewijzen aan een specifieke gebruikersaccount. Admin-gebruikers die zijn toegewezen aan een beperkte rol, kunnen alleen gegevens zien en wijzigen voor websites of winkels die zijn gekoppeld aan de rol, maar kunnen geen algemene instellingen of gegevens wijzigen.
+Als andere teamleden of dienstverleners toegang nodig hebben, kunt u individuele gebruikersrekeningen voor hen tot stand brengen en beperkte toegang toewijzen die op hun specifieke bedrijfsbehoeften wordt gebaseerd. Om de websites of de opslag te beperken die de gebruikers in Admin kunnen toegang hebben, moet u eerst [&#x200B; een rol &#x200B;](permissions-user-roles.md) met beperkt werkingsgebied en slechts de noodzakelijke geselecteerde middelen tot stand brengen. Vervolgens kunt u de rol toewijzen aan een specifieke gebruikersaccount. Admin-gebruikers die zijn toegewezen aan een beperkte rol, kunnen alleen gegevens zien en wijzigen voor websites of winkels die zijn gekoppeld aan de rol, maar kunnen geen algemene instellingen of gegevens wijzigen.
 
 >[!NOTE]
 >
->Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar Adobe-gegevens gebruiken, niet zijn of haar Commerce-gegevens. Zie [ het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
+>Adobe Commerce-handelaren die een Adobe ID hebben en een gestroomlijnde aanmelding bij Adobe Commerce en Adobe Business-producten willen, kunnen Commerce-verificatie integreren met de Adobe IMS-verificatieworkflow. Nadat deze integratie is ingeschakeld voor uw Commerce-winkel, moet elke Admin-gebruiker zijn of haar Adobe-gegevens gebruiken, niet zijn of haar Commerce-gegevens. Zie [&#x200B; het Overzicht van de Integratie van Adobe Identity Management van de Dienst (IMS) &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
 
 Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de gebruikersrekening ook plaatsen.
 
@@ -35,7 +35,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Account Information]_:
 
-   ![ de rekeningsinformatie van de Gebruiker ](./assets/permissions-user-new.png){width="600" zoomable="yes"}
+   ![&#x200B; de rekeningsinformatie van de Gebruiker &#x200B;](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
    - Voer de **[!UICONTROL User Name]** in voor account.
 
@@ -53,7 +53,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
      >[!NOTE]
      >
-     >Een beheerderswachtwoord moet uit minimaal zeven tekens bestaan en zowel letters als cijfers bevatten. Voor extra wachtwoordopties, zie [ Vormend Veiligheid Admin ](security-admin.md).
+     >Een beheerderswachtwoord moet uit minimaal zeven tekens bestaan en zowel letters als cijfers bevatten. Voor extra wachtwoordopties, zie [&#x200B; Vormend Veiligheid Admin &#x200B;](security-admin.md).
 
    - Voer bij **[!UICONTROL Password Confirmation]** het wachtwoord opnieuw in om er zeker van te zijn dat het correct is ingevoerd.
 
@@ -77,11 +77,11 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
    In het raster worden alle bestaande gebruikersrollen weergegeven. Voor een nieuwe winkel is _[!UICONTROL Administrators]_&#x200B;de enige beschikbare rol.
 
-   ![ Admin - voeg nieuwe gebruikersrol ](./assets/permissions-user-roles.png){width="600" zoomable="yes"} toe
+   ![&#x200B; Admin - voeg nieuwe gebruikersrol &#x200B;](./assets/permissions-user-roles.png){width="600" zoomable="yes"} toe
 
 1. Selecteer een gebruikersrol in de kolom _[!UICONTROL Assigned]_.
 
-   U kunt [ bestaande bekijken of extra gebruikersrollen ](permissions-user-roles.md) bepalen. Nadat een rol is gedefinieerd, moet u de gebruikersaccount bewerken om de nieuwe rol toe te wijzen.
+   U kunt [&#x200B; bestaande bekijken of extra gebruikersrollen &#x200B;](permissions-user-roles.md) bepalen. Nadat een rol is gedefinieerd, moet u de gebruikersaccount bewerken om de nieuwe rol toe te wijzen.
 
 ## 2FA-providers controleren of opnieuw instellen
 
@@ -89,7 +89,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL 2FA]** .
 
-   ![ Admin - voeg nieuwe gebruikersrol ](./assets/permissions-user-2fa.png){width="600" zoomable="yes"} toe
+   ![&#x200B; Admin - voeg nieuwe gebruikersrol &#x200B;](./assets/permissions-user-2fa.png){width="600" zoomable="yes"} toe
 
 1. Verifieer de oplossingen 2FA die aan _Admin_ gebruikers beschikbaar zijn en adviseer elke gebruiker om de oplossingen te installeren zij alvorens zij binnen willen gebruiken.
 
@@ -99,7 +99,7 @@ Voor gebruikers of rollen die tijdelijk zijn, kunt u een vervaldatum voor de geb
 
    Hiervoor moet de gebruiker het installatieproces herhalen voordat hij of zij zich opnieuw kan aanmelden. De gebruiker kan bijvoorbeeld een nieuwe smartphone hebben en moet Google Authenticator opnieuw installeren. Als u de huidige 2FA-instelling van de gebruiker wilt wissen, klikt u op **[!UICONTROL Reset (Provider)]** voor elke oplossing die u wilt wissen. Klik op **[!UICONTROL OK]** om te bevestigen wanneer hierom wordt gevraagd.
 
-   De gebruiker ontvangt een e-mail met een verbinding aan [ vormt 2FA ](security-two-factor-authentication.md). De koppeling kan slechts eenmaal worden gebruikt. Als de gebruiker meerdere keren inlogt, wordt na elke poging een nieuwe koppeling verzonden.
+   De gebruiker ontvangt een e-mail met een verbinding aan [&#x200B; vormt 2FA &#x200B;](security-two-factor-authentication.md). De koppeling kan slechts eenmaal worden gebruikt. Als de gebruiker meerdere keren inlogt, wordt na elke poging een nieuwe koppeling verzonden.
 
 1. Klik op **[!UICONTROL Save User]**.
 
@@ -129,9 +129,9 @@ De sjabloonconfiguratie voor e-mailberichten van Admin bepaalt welke e-mailberic
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Breid ![ uitbreidingsknevel ](../assets/icon-display-expand.png) uit de **[!UICONTROL Admin User Emails]** sectie.
+1. Breid ![&#x200B; uitbreidingsknevel &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Admin User Emails]** sectie.
 
-   ![ Geavanceerde configuratie - Admin e-mailmalplaatjemontages ](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - Admin e-mailmalplaatjemontages &#x200B;](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Forgot Password Email Template]** in op de sjabloon die wordt verzonden wanneer een Admin-gebruiker zijn wachtwoorden vergeet.
 
@@ -143,11 +143,11 @@ De sjabloonconfiguratie voor e-mailberichten van Admin bepaalt welke e-mailberic
 
 ## Vergrendelde gebruikers
 
-Voor de veiligheid van uw zaken, worden de gebruikersrekeningen gesloten door gebrek na zes ontbroken pogingen aan [ login ](../getting-started/admin-signin.md) aan Admin. Alle gebruikersaccounts die momenteel zijn vergrendeld, worden weergegeven in het raster Vergrendelde gebruikers. Een account kan worden ontgrendeld door elke andere gebruiker met volledige beheerdersrechten.
+Voor de veiligheid van uw zaken, worden de gebruikersrekeningen gesloten door gebrek na zes ontbroken pogingen aan [&#x200B; login &#x200B;](../getting-started/admin-signin.md) aan Admin. Alle gebruikersaccounts die momenteel zijn vergrendeld, worden weergegeven in het raster Vergrendelde gebruikers. Een account kan worden ontgrendeld door elke andere gebruiker met volledige beheerdersrechten.
 
-De extra maatregelen van de wachtwoordveiligheid kunnen in de [ Geavanceerde Admin ](../configuration-reference/advanced/admin.md#security) configuratie worden uitgevoerd. Zie [&#128279;](security-admin.md) Veiligheid Admin.
+De extra maatregelen van de wachtwoordveiligheid kunnen in de [&#x200B; Geavanceerde Admin &#x200B;](../configuration-reference/advanced/admin.md#security) configuratie worden uitgevoerd. Zie [&#128279;](security-admin.md) Veiligheid Admin.
 
-![ Login het schermalarm van het Login - de rekening is tijdelijk gehandicapt ](./assets/admin-login-locked-out-message.png){width="300"}
+![&#x200B; Login het schermalarm van het Login - de rekening is tijdelijk gehandicapt &#x200B;](./assets/admin-login-locked-out-message.png){width="300"}
 
 **_om een rekening te ontgrendelen Admin:_**
 
@@ -155,7 +155,7 @@ De extra maatregelen van de wachtwoordveiligheid kunnen in de [ Geavanceerde Adm
 
 1. Schakel in het raster het selectievakje van het vergrendelde account in.
 
-   ![ Toestemmingen - gesloten gebruikersrekeningen ](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; Toestemmingen - gesloten gebruikersrekeningen &#x200B;](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Actions]** in op `Unlock` .
 

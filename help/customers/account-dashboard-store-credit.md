@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op de pagina _[!UICONTROL Store Credit]_&#x200B;van het dashboard voor de klantenaccount worden bedragen weergegeven van geretourneerde bedragen en terugbetalingen die op toekomstige aankopen kunnen worden toegepast. Klanten kunnen de waarde ook inwisselen van een cadeaukaart.
 
-![ Krediet van de Winkel van de Klant ](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
+![&#x200B; Krediet van de Winkel van de Klant &#x200B;](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
 ## Winkelkrediet toepassen tijdens afhandeling
 
@@ -26,11 +26,11 @@ Op de pagina _[!UICONTROL Store Credit]_&#x200B;van het dashboard voor de klante
 
 1. Om het bedrag op de orde toe te passen, klikt de klant **[!UICONTROL Use Store Credit]**.
 
-   ![ de opslagkrediet van het Gebruik bij controle ](assets/storefront-checkout-use-store-credit.png){width="600" zoomable="yes"}
+   ![&#x200B; de opslagkrediet van het Gebruik bij controle &#x200B;](assets/storefront-checkout-use-store-credit.png){width="600" zoomable="yes"}
 
 1. Het ordertotaal wordt opnieuw berekend en het bedrag van het winkelkrediet dat wordt toegepast, wordt weergegeven in het overzicht van bestellingen.
 
-   ![ Overzicht van de Orde met toegepaste opslagkredieten ](assets/storefront-checkout-use-store-credit-order-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Overzicht van de Orde met toegepaste opslagkredieten &#x200B;](assets/storefront-checkout-use-store-credit-order-summary.png){width="600" zoomable="yes"}
 
 1. Klik indien gereed op **[!UICONTROL Place Order]** .
 

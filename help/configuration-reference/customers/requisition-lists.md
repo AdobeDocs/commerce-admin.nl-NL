@@ -18,19 +18,19 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
+>Met de installatie en activering van Adobe Commerce B2B kan de koopervaring worden gepersonaliseerd met bedrijfsspecifieke functies. Adobe Commerce B2B is een geïntegreerde oplossing die zowel B2B- als B2C-modellen ondersteunt. Voor meer informatie over de eigenschappen B2B, zie de [_Gids van de Gebruiker van Adobe Commerce B2B_ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=nl-NL).
 
 >[!NOTE]
 >
->De toegang tot deze configuratieopties voor B2B eigenschappen wordt gecontroleerd door de [ rolmiddelen ](../../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de gebruikersrol worden geplaatst die aan de gebruiker Admin wordt toegewezen.
+>De toegang tot deze configuratieopties voor B2B eigenschappen wordt gecontroleerd door de [&#x200B; rolmiddelen &#x200B;](../../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de gebruikersrol worden geplaatst die aan de gebruiker Admin wordt toegewezen.
 
 ## [!UICONTROL General]
 
-![ Algemeen ](./assets/requisition-lists-general.png)<!-- zoom -->
+![&#x200B; Algemeen &#x200B;](./assets/requisition-lists-general.png)<!-- zoom -->
 
 <!-- [General](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | Winkelweergave | Bepaalt het maximumaantal verzoeklijsten dat per klantenrekening kan worden gehandhaafd. Het minimale getal is `2` en het maximale getal is `999` . |
 

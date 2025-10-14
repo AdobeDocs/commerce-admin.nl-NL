@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Couponcodes
 
-De codes van coupons worden gebruikt met [ de regels van de kartprijs ](price-rules-cart.md) om een korting toe te passen wanneer een reeks voorwaarden wordt voldaan. U kunt bijvoorbeeld een couponcode maken voor een specifieke klantengroep of voor iedereen die een aankoop voor een bepaald bedrag doet. Om de coupon op een aankoop toe te passen, kan de klant de couponcode in het karretje, of misschien bij het kasregister van uw _baksteen en mortar_ opslag ingaan. Hier volgen enkele manieren waarop je coupons kunt gebruiken in je winkel:
+De codes van coupons worden gebruikt met [&#x200B; de regels van de kartprijs &#x200B;](price-rules-cart.md) om een korting toe te passen wanneer een reeks voorwaarden wordt voldaan. U kunt bijvoorbeeld een couponcode maken voor een specifieke klantengroep of voor iedereen die een aankoop voor een bepaald bedrag doet. Om de coupon op een aankoop toe te passen, kan de klant de couponcode in het karretje, of misschien bij het kasregister van uw _baksteen en mortar_ opslag ingaan. Hier volgen enkele manieren waarop je coupons kunt gebruiken in je winkel:
 
 - E-mailcoupons naar klanten
 - Afgedrukte coupons maken
@@ -35,7 +35,7 @@ Commerce biedt standaard ondersteuning voor twee methoden voor het maken van cou
 1. Eén specifieke couponcode maken
 1. Het produceren van veelvoudige _willekeurige_ couponcodes
 
-Als u reeds een lijst van couponcodes hebt die u en met een regel van de kartprijs wilt invoeren associëren, zou u het gebruiken van een uitbreiding van [ Commerce Marketplace ](https://marketplace.magento.com/) moeten overwegen.
+Als u reeds een lijst van couponcodes hebt die u en met een regel van de kartprijs wilt invoeren associëren, zou u het gebruiken van een uitbreiding van [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/) moeten overwegen.
 
 >[!ENDSHADEBOX]
 
@@ -45,11 +45,11 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Promotions]** .
 
-   ![ configuratie van Klanten - auto-geproduceerde specifieke couponcodes ](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - auto-geproduceerde specifieke couponcodes &#x200B;](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
 1. Vouw de sectie **[!UICONTROL Auto Generated Specific Coupon Codes]** uit.
 
-   ![ configuratie van Klanten - auto-geproduceerde specifieke couponcodes ](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - auto-geproduceerde specifieke couponcodes &#x200B;](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Code Length]** in, inclusief voor-, achtervoegsel en scheidingstekens.
 
@@ -73,17 +73,17 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 >[!NOTE]
 >
->[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [ Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
+>[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} alvorens u coupons creeert, gebruik het `bin/magento cron:run` bevel om te verifiëren dat de kroon loopt. Zie [&#x200B; Bron van de Looppas van de bevellijn &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL#run-cron-from-the-command-line) in de _Gids van de Configuratie_ voor meer informatie.
 
 ### Methode 1: Een specifieke coupon maken
 
-1. Volg de instructies om de regel van de a [ kartprijs ](price-rules-cart.md) tot stand te brengen.
+1. Volg de instructies om de regel van de a [&#x200B; kartprijs &#x200B;](price-rules-cart.md) tot stand te brengen.
 
 1. Stel **[!UICONTROL Rule Information]** in op **[!UICONTROL Coupon]** in de sectie `Specific Coupon` .
 
 1. Voer een **[!UICONTROL Coupon Code]** in die voor de promotie moet worden gebruikt.
 
-   Het formaat van de code (numeriek, alfanumeriek, of alfabetisch) wordt bepaald door de [ configuratie ](#configure-coupon-codes).
+   Het formaat van de code (numeriek, alfanumeriek, of alfabetisch) wordt bepaald door de [&#x200B; configuratie &#x200B;](#configure-coupon-codes).
 
 1. Ga als volgt te werk om het aantal keren dat de coupon kan worden gebruikt te beperken:
 
@@ -92,7 +92,7 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
    Voor onbeperkt gebruik, verlaat deze gebieden leeg.
 
-   ![ de prijsregel van de Kar - couponinformatie ](./assets/coupon-info.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - couponinformatie &#x200B;](./assets/coupon-info.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -100,23 +100,23 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
 1. Ga als volgt te werk om de coupon geldig te maken voor een tijdsperiode:
 
-   - ![ Magento Open Source ](../assets/open-source.svg) (Magento Open Source slechts) voltooi **van** en **aan** data. Om de datum te selecteren, klik het **pictogram van de Kalender** (![ pictogram van de Kalender ](../assets/icon-calendar.png)) naast elk gebied. Als u het datumbereik leeg laat, verloopt de regel niet.
+   - ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (Magento Open Source slechts) voltooi **van** en **aan** data. Om de datum te selecteren, klik het **pictogram van de Kalender** (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) naast elk gebied. Als u het datumbereik leeg laat, verloopt de regel niet.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) doe één van het volgende:
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) doe één van het volgende:
 
      **Optie 1:** Plan een nieuwe update
 
       - Klik op **[!UICONTROL Schedule New Update]** rechtsboven op de pagina.
 
-        ![ Update van het Programma ](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+        ![&#x200B; Update van het Programma &#x200B;](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
       - Voer de **[!UICONTROL Update Name]** en **[!UICONTROL Description]** in.
 
-      - Kies de **Datum van het Begin** en **[!UICONTROL End Date]** van de Kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png)). Als u het datumbereik leeg laat, verloopt de regel niet.
+      - Kies de **Datum van het Begin** en **[!UICONTROL End Date]** van de Kalender ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)). Als u het datumbereik leeg laat, verloopt de regel niet.
 
       - Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-        ![ de prijsregel van de Kar - geplande verandering ](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+        ![&#x200B; de prijsregel van de Kar - geplande verandering &#x200B;](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Optie 2:** wijs aan een bestaande update toe:
 
@@ -124,27 +124,27 @@ De lengte en opmaak van automatisch gegenereerde couponcodes worden bepaald door
 
       - Zoek de update in de lijst en klik op **[!UICONTROL Select]** .
 
-1. Voltooi de [ regel van de kartprijs ](price-rules-cart.md) zoals nodig.
+1. Voltooi de [&#x200B; regel van de kartprijs &#x200B;](price-rules-cart.md) zoals nodig.
 
 ### Methode 2: Een batch coupons genereren
 
 Het genereren van kortingscoupons is een asynchrone bewerking die op de achtergrond wordt uitgevoerd, zodat u in de beheerder kunt blijven werken zonder te wachten tot de bewerking is voltooid. Het systeem geeft een bericht weer wanneer de taak is voltooid.
 
-1. Volg de instructies om de regel van de a [ kartprijs ](price-rules-cart.md) tot stand te brengen.
+1. Volg de instructies om de regel van de a [&#x200B; kartprijs &#x200B;](price-rules-cart.md) tot stand te brengen.
 
 1. Selecteer onder **[!UICONTROL Coupon Code]** het selectievakje **[!UICONTROL Use Auto Generation]** .
 
 1. Als u het aantal keren wilt beperken dat elke klant de coupon kan gebruiken, voert u het aantal **[!UICONTROL Uses per Customer]** in.
 
-   ![ de prijsregel van de Kar - produceer auto-genummerde coupons ](./assets/coupon-auto.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - produceer auto-genummerde coupons &#x200B;](./assets/coupon-auto.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >Als meerdere klanten tegelijkertijd dezelfde coupon gebruiken, is het mogelijk dat de vastgestelde gebruikslimiet wordt overschreden als gevolg van vertraagde couponverwerking.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Manage Coupon Codes]** sectie en doet het volgende:
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Manage Coupon Codes]** sectie en doet het volgende:
 
-   ![ de prijsregel van de Kar - beheert couponcodes ](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - beheert couponcodes &#x200B;](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
    - Voer bij **[!UICONTROL Coupons Qty]** het aantal coupons in dat u wilt genereren.
 
@@ -183,11 +183,11 @@ Als u couponcodes wilt verwijderen, selecteert u een of meer codes in de lijst. 
 
 ## Coupons-rapport
 
-Het _rapport van Coupons_ aggregeert gegevens van elke coupon die tijdens een specifieke datumwaaier wordt gebruikt. Omdat de coupons van het winkelwagentje worden toegepast, omvat het rapport gegevens van alle ingewisselde coupons, ongeacht [ ordestatus ](../stores-purchase/order-status.md). Bijgevolg kan het verslag zowel de geraamde als de werkelijke totalen bevatten. Het rapport kan voor een specifieke opslagmening, tijdspanne, ordestatus, en de kartprijsregel worden gefiltreerd.
+Het _rapport van Coupons_ aggregeert gegevens van elke coupon die tijdens een specifieke datumwaaier wordt gebruikt. Omdat de coupons van het winkelwagentje worden toegepast, omvat het rapport gegevens van alle ingewisselde coupons, ongeacht [&#x200B; ordestatus &#x200B;](../stores-purchase/order-status.md). Bijgevolg kan het verslag zowel de geraamde als de werkelijke totalen bevatten. Het rapport kan voor een specifieke opslagmening, tijdspanne, ordestatus, en de kartprijsregel worden gefiltreerd.
 
 In het volgende voorbeeld werd de couponcode &quot;H20&quot; door twee klanten gebruikt. Één van de orden wordt gefactureerd, maar andere is nog _hangend_. In de kolommen Subtotaal voor verkoop, Verkoop en Totaal voor verkoop worden de geaggregeerde bedragen van beide bestellingen weergegeven, maar in de kolommen Subtotaal, Korting en Totaal wordt alleen de werkelijk gefactureerde volgorde weergegeven. Elke rij in het rapport vertegenwoordigt één enkele couponbevordering.
 
-![ het rapport van Coupons ](./assets/reports-coupons.png){width="600" zoomable="yes"}
+![&#x200B; het rapport van Coupons &#x200B;](./assets/reports-coupons.png){width="600" zoomable="yes"}
 
 ### Het rapport uitvoeren
 
@@ -195,15 +195,15 @@ In het volgende voorbeeld werd de couponcode &quot;H20&quot; door twee klanten g
 
 1. Als u veelvoudige opslagmeningen hebt, plaats **[!DNL Store View]** in de upper-left hoek om het werkingsgebied van het rapport te vestigen.
 
-1. Om de verkoop [ statistieken ](../getting-started/sales-reports.md#refresh-statistics) voor de dag te verfrissen, klik het _Laatste bijgewerkte_ bericht bij de bovenkant van de werkruimte.
+1. Om de verkoop [&#x200B; statistieken &#x200B;](../getting-started/sales-reports.md#refresh-statistics) voor de dag te verfrissen, klik het _Laatste bijgewerkte_ bericht bij de bovenkant van de werkruimte.
 
    Klik vervolgens om het selectievakje **[!UICONTROL Coupons]** te selecteren en klik op **[!UICONTROL Refresh]** .
 
-   ![ het rapport van Coupons - verfrist statistieken ](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
+   ![&#x200B; het rapport van Coupons - verfrist statistieken &#x200B;](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de gegevens te filteren:
 
-   ![ Coupon rapport - filters ](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; Coupon rapport - filters &#x200B;](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Date Used]** in op een van de volgende opties:
 
@@ -220,7 +220,7 @@ In het volgende voorbeeld werd de couponcode &quot;H20&quot; door twee klanten g
 
    - Om de datumwaaier van het rapport te bepalen, ga **van** en **in** data in formaat M/D/YY.
 
-   - Om een rapport voor een specifieke [ ordestatus ](../stores-purchase/order-status.md) te drukken, plaats **[!UICONTROL Order Status]** aan `Specified` en kies de ordestatus van de lijst.
+   - Om een rapport voor een specifieke [&#x200B; ordestatus &#x200B;](../stores-purchase/order-status.md) te drukken, plaats **[!UICONTROL Order Status]** aan `Specified` en kies de ordestatus van de lijst.
 
    - Als u rijen zonder gegevens uit het rapport wilt weglaten, stelt u **[!UICONTROL Empty Rows]** in op `No` .
 

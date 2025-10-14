@@ -19,7 +19,7 @@ Handelaars die hun Commerce-exemplaar hebben geïntegreerd met de Adobe IMS-veri
 
 Commerce-implementaties herstellen de standaard Commerce-verificatieworkflow en het standaard-wachtwoordbeleid nadat de IMS-integratie is uitgeschakeld. Alleen de workflows van de beheerder-gebruiker worden beïnvloed wanneer deze integratie is in- of uitgeschakeld.
 
-Zie [ Uw rekening Admin ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=nl-NL) voor een overzicht van Commerce binnen Admin.
+Zie [&#x200B; Uw rekening Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=nl-NL) voor een overzicht van Commerce binnen Admin.
 
 ## Stap 1: De integratie uitschakelen
 
@@ -43,7 +43,7 @@ Nadat de integratie is uitgeschakeld, moeten de gebruikers van de beheerder een 
 
 * Commerce-beheerders die hun bestaande Commerce-wachtwoord onthouden (dat wil zeggen een Commerce-wachtwoord dat is gemaakt voordat de IMS-integratie is voltooid), kunnen dit gebruiken om u aan te melden bij de Admin.
 
-* Commerce-beheergebruikers die geen bestaand Commerce-wachtwoord hebben of zijn vergeten, moeten een nieuw wachtwoord maken. Als u een nieuw wachtwoord wilt maken, kunnen beheerders met de functie [!UICONTROL Forgot your password?] op de Commerce-aanmeldingspagina een nieuw wachtwoord maken. Zie [ de klantenwachtwoorden van het Terugstellen ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=nl-NL). Commerce accepteert geen leeg wachtwoordveld.
+* Commerce-beheergebruikers die geen bestaand Commerce-wachtwoord hebben of zijn vergeten, moeten een nieuw wachtwoord maken. Als u een nieuw wachtwoord wilt maken, kunnen beheerders met de functie [!UICONTROL Forgot your password?] op de Commerce-aanmeldingspagina een nieuw wachtwoord maken. Zie [&#x200B; de klantenwachtwoorden van het Terugstellen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=nl-NL). Commerce accepteert geen leeg wachtwoordveld.
 
 ## Na het uitschakelen van de integratie
 

@@ -25,9 +25,9 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - de optimalisering van de onderzoeksmotor &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** in op `Yes` .
 
@@ -44,13 +44,13 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 1. Zoek het product in de lijst en klik om de record te openen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![ de optimalisering van het het onderzoekscentrum van het Product - permanent opnieuw richt ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![&#x200B; de optimalisering van het het onderzoekscentrum van het Product - permanent opnieuw richt &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
-   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [ toe te laten automatisch opnieuw richt ](url-rewrite.md#configure-url-rewrites).
+   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [&#x200B; toe te laten automatisch opnieuw richt &#x200B;](url-rewrite.md#configure-url-rewrites).
 
    - Werk **[!UICONTROL URL Key]** zo nodig bij met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
 
@@ -66,11 +66,11 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 1. Zoek de categorie in de structuur en klik om de record te openen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
 1. Voer voor **[!UICONTROL URL Key]** de volgende handelingen uit:
 
-   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [ toe te laten automatisch opnieuw richt ](url-rewrite.md#configure-url-rewrites).
+   - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld. Als niet, volg de instructies om [&#x200B; toe te laten automatisch opnieuw richt &#x200B;](url-rewrite.md#configure-url-rewrites).
 
    - Werk **[!UICONTROL URL Key]** zo nodig bij met kleine letters en niet-afbreekstreepjes tussen deze tekens in plaats van spaties.
 
@@ -90,12 +90,12 @@ Uw winkel kan zo worden geconfigureerd dat automatisch een permanente omleiding 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
 1. Stel **[!UICONTROL Generate "category/product" URL Rewrites]** in op `No` .
 
 1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL OK]** om de wijziging te bevestigen en de bestaande URL te verwijderen.
 
-   ![ Draai van categorie/productURL herschrijft - bevestigt ](./assets/seo-rewrite-off.png){width="350"}
+   ![&#x200B; Draai van categorie/productURL herschrijft - bevestigt &#x200B;](./assets/seo-rewrite-off.png){width="350"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

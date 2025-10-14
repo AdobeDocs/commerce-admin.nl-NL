@@ -15,7 +15,7 @@ Wanneer u de voorraad verwijdert, worden alle toegewezen websites toegewezen aan
 
 >[!IMPORTANT]
 >
->Het schrappen van a [ voorraad ](stocks-manage.md) kan verkoopbare hoeveelheden en onverwerkte orden voor een verkoopkanaal beïnvloeden. Als u een verkoopkanaal blijft gebruiken, voegt u het verkoopkanaal toe aan een ander bestaand of nieuw materiaal.
+>Het schrappen van a [&#x200B; voorraad &#x200B;](stocks-manage.md) kan verkoopbare hoeveelheden en onverwerkte orden voor een verkoopkanaal beïnvloeden. Als u een verkoopkanaal blijft gebruiken, voegt u het verkoopkanaal toe aan een ander bestaand of nieuw materiaal.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
@@ -25,10 +25,10 @@ Wanneer u de voorraad verwijdert, worden alle toegewezen websites toegewezen aan
 
 1. Selecteer **[!UICONTROL Delete]** in het menu **[!UICONTROL Actions]** .
 
-   ![ Uitgezochte Schrapping van het menu van Acties ](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![&#x200B; Uitgezochte Schrapping van het menu van Acties &#x200B;](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
 1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
    De voorraad wordt verwijderd en toegewezen verkoopkanalen worden niet toegewezen.
 
-   ![ dossier schrapt controlebericht ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![&#x200B; dossier schrapt controlebericht &#x200B;](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

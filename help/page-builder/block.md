@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Blokkeren
 
-Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../content-design/blocks.md) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. In het volgende voorbeeld bevat de eerste kolom het blok met een zijmenu voor de pagina. De tweede kolom bevat een afbeelding.
+Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [&#x200B; blok &#x200B;](../content-design/blocks.md) aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. In het volgende voorbeeld bevat de eerste kolom het blok met een zijmenu voor de pagina. De tweede kolom bevat een afbeelding.
 
-![ Blok met een zijmenu ](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![&#x200B; Blok met een zijmenu &#x200B;](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,12 +22,12 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | -------- | ------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png) | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png) | Hiermee opent u de pagina Blok bewerken, waarin u het blok kunt kiezen en de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png) | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png) | Toont de verborgen blokcontainer en de inhoud ervan. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png) | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png) | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png) | Verplaatst de blokcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png) | Hiermee opent u de pagina Blok bewerken, waarin u het blok kunt kiezen en de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png) | Hiermee verbergt u de huidige blokcontainer en de inhoud ervan. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png) | Toont de verborgen blokcontainer en de inhoud ervan. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png) | Hiermee maakt u een kopie van de blokcontainer en de inhoud ervan. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png) | Verwijdert de blokcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -39,21 +39,21 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Block]** naar het werkgebied.
 
-   ![ slepend een blok op het stadium ](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een blok op het stadium &#x200B;](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Beweeg over de lege blokcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}).
+1. Beweeg over de lege blokcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"}).
 
 1. Klik op **[!UICONTROL Select Block]**.
 
-   ![ Selecterend een blok ](./assets/pb-add-content-block-select.png){width="200"}
+   ![&#x200B; Selecterend een blok &#x200B;](./assets/pb-add-content-block-select.png){width="200"}
 
 1. Klik in de rij van het blok dat u wilt toevoegen op **[!UICONTROL Select]** in de laatste kolom.
 
-   ![ Geselecteerd blok ](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
+   ![&#x200B; Geselecteerd blok &#x200B;](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
    De naam van het geselecteerde blok verschijnt op de pagina.
 
-   ![ de naam van het Blok ](./assets/pb-add-content-block-name.png){width="200"}
+   ![&#x200B; de naam van het Blok &#x200B;](./assets/pb-add-content-block-name.png){width="200"}
 
 1. Vul de overige instellingen naar wens in en gebruik de veldbeschrijvingen aan het einde van deze pagina ter referentie.
 
@@ -116,9 +116,9 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 ## Blokinstellingen bewerken
 
-1. Beweeg over de blokcontainer en kies het _pictogram van Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}) in toolbox.
+1. Beweeg over de blokcontainer en kies het _pictogram van Montages_ ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"}) in toolbox.
 
-   ![ Toolbox van het Blok ](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![&#x200B; Toolbox van het Blok &#x200B;](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select Block]** om een ander blok te kiezen.
 
@@ -131,11 +131,11 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 ## Een blok dupliceren
 
-1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen dupliceert_ (![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png)) pictogram.
+1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen dupliceert_ (![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png)) pictogram.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-1. Om het nieuwe blok aan een nieuwe positie te bewegen, beweegt over de container, en klikt dan _Beweging_ (![ pictogram van de Beweging ](./assets/pb-icon-move.png)) in toolbox.
+1. Om het nieuwe blok aan een nieuwe positie te bewegen, beweegt over de container, en klikt dan _Beweging_ (![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png)) in toolbox.
 
 1. Selecteer en sleep het blok totdat de rode hulplijn op de nieuwe positie wordt weergegeven.
 
@@ -143,7 +143,7 @@ Gebruik het _inhoudstype van het Blok_ om een bestaand, actief [ blok ](../conte
 
 ## Een blok uit het werkgebied verwijderen
 
-1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen verwijder_ (![ verwijder pictogram ](./assets/pb-icon-remove.png)).
+1. Beweeg over de blokcontainer om toolbox te tonen en _te kiezen verwijder_ (![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png)).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 

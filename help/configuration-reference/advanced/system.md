@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Cron (Scheduled Tasks)]
 
-![ Geavanceerde configuratie - breid (Geplande Taken) uit ](./assets/system-cron.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - breid (Geplande Taken) uit &#x200B;](./assets/system-cron.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze configuratiemontages, zie [ Gewas (geplande taken) ](../../systems/cron.md).
+Voor meer informatie over het veranderen van deze configuratiemontages, zie [&#x200B; Gewas (geplande taken) &#x200B;](../../systems/cron.md).
 
 ### [!UICONTROL index]
 
-![ Geavanceerde configuratie - de Groep van het Gewas: Index ](./assets/system-cron-group-index.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Groep van het Gewas: Index &#x200B;](./assets/system-cron-group-index.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Generate Schedules Every] | Algemeen | Hiermee bepaalt u de frequentie in minuten, waarna planningen worden gegenereerd. |
 | [!UICONTROL Schedule Ahead for] | Algemeen | Hiermee bepaalt u het aantal minuten voordat planningen worden gegenereerd. |
@@ -39,9 +39,9 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [ Ge
 
 ### [!UICONTROL default]
 
-![ Cron Group: Standaard ](./assets/system-cron-group-default.png)<!-- zoom -->
+![&#x200B; Cron Group: Standaard &#x200B;](./assets/system-cron-group-default.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Generate Schedules Every] | Algemeen | Hiermee bepaalt u de frequentie in minuten, waarna planningen worden gegenereerd. |
 | [!UICONTROL Schedule Ahead for] | Algemeen | Hiermee bepaalt u het aantal minuten voordat planningen worden gegenereerd. |
@@ -57,9 +57,9 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [ Ge
 
 {{ee-feature}}
 
-![ Geavanceerde configuratie - MySQL de Opruiming van de Rij van het Bericht ](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - MySQL de Opruiming van de Rij van het Bericht &#x200B;](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Successful Messages Lifetime] | Algemeen | Bepaalt het leven van succesvolle berichten in notulen. Voer nul in om de opschoonbewerking over te slaan. Standaard: `10080` (7 dagen) |
 | [!UICONTROL New Messages Lifetime] | Algemeen | Bepaalt het leven van nieuwe berichten in notulen. Voer nul in om de opschoonbewerking over te slaan. Standaard: `10080` (7 dagen) |
@@ -70,15 +70,15 @@ Voor meer informatie over het veranderen van deze configuratiemontages, zie [ Ge
 
 ## [!UICONTROL Mail Sending Settings]
 
-![ Geavanceerde configuratie - de Post die Montages ](./assets/system-mail-sending-settings.png)<!-- zoom --> verzendt
+![&#x200B; Geavanceerde configuratie - de Post die Montages &#x200B;](./assets/system-mail-sending-settings.png)<!-- zoom --> verzendt
 
-Voor meer informatie over het veranderen van deze montages, zie [ e-mailmededelingen ](../../systems/email-communications.md) in de _Gids van Systemen Admin_ vormen.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; e-mailmededelingen &#x200B;](../../systems/email-communications.md) in de _Gids van Systemen Admin_ vormen.
 
 >[!IMPORTANT]
 >
 >**Bericht van de Veiligheid** wij adviseren dat alle verkopers onmiddellijk hun post plaatsen die configuratie verzenden tegen onlangs geïdentificeerde potentiële verre codeuitvoering te beschermen uitbuiten. Zolang dit probleem niet is opgelost, wordt u aangeraden [!DNL Sendmail] niet te gebruiken voor e-mailcommunicatie. Controleer in het [!UICONTROL Mail Sending Settings] of [!UICONTROL Set Return Path] is ingesteld op `No` .
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Disable Email Communications] | Winkelweergave | Hiermee bepaalt u of e-mailcommunicatie voor de winkel wordt geactiveerd. Opties: `Yes` / `No` |
 | [!UICONTROL Transport] | Winkelweergave | Bepaalt het vervoertype voor e-mailmededelingen van de opslag. Opties: `Sendmail` / `SMTP` |
@@ -92,9 +92,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ e-mailmededeli
 
 Wanneer u SMTP bij het vervoerstype selecteert, zijn de extra opties beschikbaar om de SMTP serververbinding te vormen.
 
-![ Geavanceerde configuratie - het Verzenden van de Post Montages met SMTP ](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - het Verzenden van de Post Montages met SMTP &#x200B;](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Username] | Winkelweergave | Login gebruikersnaam voor de server SMTP. |
 | [!UICONTROL Password] | Winkelweergave | Wachtwoord voor de SMTP-serveraanmelding. |
@@ -105,11 +105,11 @@ Wanneer u SMTP bij het vervoerstype selecteert, zijn de extra opties beschikbaar
 
 ## [!UICONTROL Currency]
 
-![ Geavanceerde configuratie - Valuta ](./assets/system-currency.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - Valuta &#x200B;](./assets/system-currency.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van dit het plaatsen, zie [ configuratie van de Valuta ](../../stores-purchase/currency-configuration.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
+Voor meer informatie over het veranderen van dit het plaatsen, zie [&#x200B; configuratie van de Valuta &#x200B;](../../stores-purchase/currency-configuration.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Installed Currencies] | Algemeen | Geeft de valuta&#39;s aan die momenteel beschikbaar zijn voor de Commerce-installatie. De opties omvatten alle beschikbare valuta&#39;s, met geïnstalleerde valuta&#39;s geselecteerd. |
 
@@ -117,11 +117,11 @@ Voor meer informatie over het veranderen van dit het plaatsen, zie [ configurati
 
 ## [!UICONTROL Security]
 
-![ Geavanceerde configuratie - Veiligheid ](./assets/system-security.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - Veiligheid &#x200B;](./assets/system-security.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ beheer van de Zitting ](../../systems/security-session-management.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; beheer van de Zitting &#x200B;](../../systems/security-session-management.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Max Session Size in Admin] | Algemeen | Beperk de maximale sessiegrootte in bytes. Gebruik `0` om uit te schakelen. |
 | [!UICONTROL Max Session Size in Storefront] | Algemeen | Beperk de maximale sessiegrootte in bytes. Gebruik `0` om uit te schakelen. |
@@ -130,11 +130,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ beheer van de 
 
 ## [!UICONTROL Notifications]
 
-![ Geavanceerde configuratie - Meldingen ](./assets/system-notifications.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - Meldingen &#x200B;](./assets/system-notifications.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem [ in de ](../../systems/notifications.md) Gids van Systemen Admin _._
+Voor meer informatie over het veranderen van deze montages, zie {de berichten van het 0} Systeem [&#x200B; in de &#x200B;](../../systems/notifications.md) Gids van Systemen Admin _._
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Use HTTPS to Get Feed] | Algemeen | Hiermee bepaalt u of Admin-meldingen via een beveiligd kanaal worden verzonden. Opties: `Yes` / `No` |
 | Frequentie bijwerken | Algemeen | Bepaalt de frequentie van Admin berichtupdates. Opties: `1 Hour` / `2 Hours` / `6 Hours` / `12 Hours` / `24 Hours` |
@@ -144,13 +144,13 @@ Voor meer informatie over het veranderen van deze montages, zie {de berichten va
 
 ## [!UICONTROL Backup Settings]
 
-![ Geavanceerde configuratie - de ReserveMontages ](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de ReserveMontages &#x200B;](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
-Voor meer informatie over het veranderen van deze montages, zie [ steunen van het Systeem ](../../systems/backups.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; steunen van het Systeem &#x200B;](../../systems/backups.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Algemeen | Hiermee wordt bepaald of het Commerce-exemplaar back-ups toestaat. Opties: `Yes` / `No` |
 | [!UICONTROL Enable Scheduled Backup] | Algemeen | (Weergegeven wanneer _[!UICONTROL Enable Backup]_&#x200B;is ingesteld op `Yes` .) Hiermee wordt bepaald of er regelmatig automatisch een back-up wordt gemaakt van de Commerce-instantie. Opties: `Yes` / `No` |
@@ -165,11 +165,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ steunen van he
 
 {{ee-feature}}
 
-![ Geavanceerde configuratie - het Archiveren van het Logboek van Acties Admin ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - het Archiveren van het Logboek van Acties Admin &#x200B;](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie [ in de ](../../systems/action-log-archive.md) Gids van Systemen Admin _._
+Voor meer informatie over het veranderen van deze montages, zie {het archiveren van het 0} logboek van de Actie [&#x200B; in de &#x200B;](../../systems/action-log-archive.md) Gids van Systemen Admin _._
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Log Entry Lifetime, Days] | Winkelweergave | Hiermee bepaalt u het aantal dagen dat beheerhandelingen worden bewaard in het archief met beheeracties. Standaard: `60` |
 | [!UICONTROL Log Archiving Frequency] | Winkelweergave | Hiermee bepaalt u hoe vaak de logbestanden met beheeracties worden gearchiveerd. Opties: `Daily` / `Weekly` / `Monthly` |
@@ -178,17 +178,17 @@ Voor meer informatie over het veranderen van deze montages, zie {het archiveren 
 
 ## [!UICONTROL Full Page Cache]
 
-![ Geavanceerde configuratie - het Volledige Geheime voorgeheugen van de Pagina ](./assets/system-full-page-cache.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - het Volledige Geheime voorgeheugen van de Pagina &#x200B;](./assets/system-full-page-cache.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Volledige pagina caching ](../../systems/cache-management.md#full-page-caching) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Volledige pagina caching &#x200B;](../../systems/cache-management.md#full-page-caching) in de _Gids van Systemen Admin_.
 
-![ Geavanceerde configuratie - de Configuratie van de Varnish ](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Configuratie van de Varnish &#x200B;](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Algemeen | Bepaalt de toepassing die wordt gebruikt om het full-page geheime voorgeheugen te beheren. Opties: <br/>**`Built-in Application`**- Niet aanbevolen voor de productieomgeving.<br/>**`Varnish Caching`** - aanbevolen voor de productieomgeving. |
 | [!UICONTROL TTL for public content] | Algemeen | Bepaalt het leven van het openbare inhoudsgeheime voorgeheugen in seconden. Standaardwaarde: `120` |
-| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [ lay-outhandvatten ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
+| [!UICONTROL Handles param size] | globaal | Specificeert het maximumaantal [&#x200B; lay-outhandvatten &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) om op het [`{BASE-URL}/page_cache/block/esi` &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=nl-NL) eindpunt van HTTP te verwerken. Het beperken van de grootte kan de veiligheid en de prestaties verbeteren. Standaardwaarde: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Algemeen | Specificeert de IP adressen die de configuratie van Varnish kunnen zuiveren om een config dossier te produceren. Scheid meerdere items met een komma. Standaardwaarde: `localhost` |
 | [!UICONTROL Backend host] | Algemeen | Specificeert de backendgastheer die config dossiers produceert. Standaardwaarde: `localhost` |
@@ -203,24 +203,24 @@ Voor meer informatie over het veranderen van deze montages, zie [ Volledige pagi
 
 ## [!UICONTROL Storage Configuration for Media]
 
-![ Geavanceerde configuratie - de Configuratie van de Opslag voor Media - het Systeem van het Dossier ](./assets/system-storage-config-media.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Configuratie van de Opslag voor Media - het Systeem van het Dossier &#x200B;](./assets/system-storage-config-media.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Gebruik een Gegevensbestand van Media ](../../content-design/media-storage-database.md) in de _Gids van de Inhoud en van het Ontwerp_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Gebruik een Gegevensbestand van Media &#x200B;](../../content-design/media-storage-database.md) in de _Gids van de Inhoud en van het Ontwerp_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Media Storage] | Algemeen | Bepaalt de methode die wordt gebruikt om mediabestanden op te slaan. Standaardinstelling: `File System` |
 | [!UICONTROL Environment Update Time] | Algemeen | Hiermee bepaalt u de frequentie waarmee de omgeving van het mediabestand in seconden wordt bijgewerkt. Standaardwaarde: `3600` |
 
 {style="table-layout:auto"}
 
-![ Geavanceerde configuratie - de Configuratie van de Opslag voor Media - Gegevensbestand ](./assets/database-storage-deprecated.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Configuratie van de Opslag voor Media - Gegevensbestand &#x200B;](./assets/database-storage-deprecated.png)<!-- zoom -->
 
 >[!IMPORTANT]
 >
 >De opslagmethode voor databasemedia wordt vanaf Adobe Commerce en Magento Open Source 2.4.3 afgekeurd.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Media Storage] | Algemeen | Database wordt opgegeven als de methode voor het opslaan van mediabestanden. |
 | [!UICONTROL Select Media Database] | Algemeen | Identificeert de naam van het gegevensbestand dat voor media opslag wordt gebruikt. Standaardinstelling: `default_setup` |
@@ -233,11 +233,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Gebruik een Ge
 
 {{ee-feature}}
 
-![ Geavanceerde configuratie - Bulk Acties ](./assets/system-bulk-actions.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - Bulk Acties &#x200B;](./assets/system-bulk-actions.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Bulkacties ](../../systems/action-log-bulk-actions.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Bulkacties &#x200B;](../../systems/action-log-bulk-actions.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Days Saved in Log] | Algemeen | Bepaalt het aantal dagen dat de bulkacties in het _archief van het Logboek van de Acties van 0&rbrace; Bulk &lbrace;worden gehouden._ Standaard: `60` |
 
@@ -247,11 +247,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Bulkacties ](.
 
 {{ee-feature}}
 
-![ Geavanceerde configuratie - Gepland het Schoonmaken van de Geschiedenis van het Dossier van de Invoer/van de Uitvoer ](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - Gepland het Schoonmaken van de Geschiedenis van het Dossier van de Invoer/van de Uitvoer &#x200B;](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoer en uitvoer ](../../systems/data-scheduled-import-export.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Geplande invoer en uitvoer &#x200B;](../../systems/data-scheduled-import-export.md) in de _Gids van Systemen Admin_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Save File, Days] | Algemeen | Hiermee bepaalt u het aantal dagen dat bestanden met de import-/exportgeschiedenis worden opgeslagen. |
 | [!UICONTROL Enable Scheduled File History Cleaning] | Algemeen | Hiermee wordt het geplande bestand opgeschoond met import-/exportbestanden. Opties: `Yes` / `No` |
@@ -266,11 +266,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ## [!UICONTROL Image Upload Configuration]
 
-![ Geavanceerde configuratie - het Beeld uploadt Configuratie ](./assets/system-image-upload-configuration.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - het Beeld uploadt Configuratie &#x200B;](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
 <!-- [Image Upload Configuration](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Quality] | Algemeen | Hiermee bepaalt u de JPG-kwaliteit voor de gewijzigde afbeelding. Bij een lagere kwaliteit wordt het bestand kleiner. Gebruik 80-90% om bestanden met hoge kwaliteit te verkleinen. Standaard: `80` |
 | [!UICONTROL Enable Frontend Resize] | Algemeen | Laat dit het plaatsen toe om Commerce toe te staan om grote, overmaatse beelden resize u voor de _pagina van de Details van het Product_ kunt uploaden. Commerce wijzigt de grootte van de afbeeldingsbestanden met JavaScript voordat het bestand wordt geüpload. Als de grootte van de afbeelding wordt gewijzigd, blijft de afbeelding exact even groot en wordt de grootste breedte bij Maximumbreedte of Maximumhoogte niet overschreden. Standaard: `Yes` |
@@ -281,9 +281,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ## [!UICONTROL Media Gallery]
 
-![ Geavanceerde configuratie - de Galerie van Media ](./assets/system-media-gallery.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Galerie van Media &#x200B;](./assets/system-media-gallery.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Old Media Gallery] | Algemeen | Schakelt de oude medialerie in of uit. |
 
@@ -291,9 +291,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ## [!UICONTROL Media Gallery Image Optimization]
 
-![ Geavanceerde configuratie - de Optimalisering van het Beeld van de Galerij van Media ](./assets/system-media-image-optimization.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de Optimalisering van het Beeld van de Galerij van Media &#x200B;](./assets/system-media-image-optimization.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Image Optimization] | Algemeen | Hiermee bepaalt u of de grootte van de afbeeldingen wordt gewijzigd om de bestandsgrootte te verkleinen van de afbeeldingen die worden ingevoegd in de inhoud. Oorspronkelijke afbeeldingen blijven behouden in de medialerie. |
 | [!UICONTROL Maximum Width] | Algemeen | De maximumbreedte (in pixels) voor afbeeldingen die vanuit de medialerie in de inhoud zijn ingevoegd. |
@@ -303,11 +303,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Geplande invoe
 
 ## [!UICONTROL Adobe Stock Integration]
 
-![ Geavanceerde configuratie - de integratie van Adobe Stock ](./assets/system-adobe-stock-integration.png)<!-- zoom -->
+![&#x200B; Geavanceerde configuratie - de integratie van Adobe Stock &#x200B;](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-Voor meer informatie over het vormen van deze montages, zie [ Integratie van Adobe Stock ](../../content-design/adobe-stock.md) in de _Gids van de Inhoud en van het Ontwerp_.
+Voor meer informatie over het vormen van deze montages, zie [&#x200B; Integratie van Adobe Stock &#x200B;](../../content-design/adobe-stock.md) in de _Gids van de Inhoud en van het Ontwerp_.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled Adobe Stock] | Algemeen | Hiermee schakelt u de Adobe Stock-integratie in of uit. |
 | [!UICONTROL API Key (Client ID)] | Algemeen | Een API-sleutel is vereist om uw winkel te verbinden met de Adobe Stock-service. |

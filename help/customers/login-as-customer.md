@@ -24,7 +24,7 @@ Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONT
 * [Pagina Verzendweergave](../stores-purchase/shipments.md)
 * [Weergavepagina creditcard](../stores-purchase/credit-memo-create.md)
 
-![ Login als Klant ](assets/login-as-customer.png){width="600" zoomable="yes"}
+![&#x200B; Login als Klant &#x200B;](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## Aanmelden als klant inschakelen
 
@@ -36,7 +36,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Login as Customer]** .
 
-   ![ de opties van de Configuratie - Login als Klant ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![&#x200B; de opties van de Configuratie - Login als Klant &#x200B;](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Login as Customer]** in op `Yes` .
 
@@ -69,7 +69,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
    * **[!UICONTROL Allow Login as Customer]** - staat de gebruiker Admin toe om het _Login als eigenschap van de Klant_ te gebruiken.
    * **[!UICONTROL View Login as Customer Log]** - staat de gebruiker Admin toe om het _Login als Login van de Klant_ te zien.
 
-   ![ Bronnen van de Rol - Login als Klant ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![&#x200B; Bronnen van de Rol - Login als Klant &#x200B;](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Role]**.
 
@@ -97,7 +97,7 @@ Om toegang tot uw account mogelijk te maken voor medewerkers van de opslagonders
 
 1. De klant klikt op **[!UICONTROL Save]** .
 
-![ pagina van de Informatie van de Rekening ](assets/permission.png){width="700" zoomable="yes"}
+![&#x200B; pagina van de Informatie van de Rekening &#x200B;](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -122,8 +122,8 @@ _Login als Klant_ staat u toe om de plaats te zien enkel aangezien de klant doet
 
 {{ee-feature}}
 
-Adobe Commerce verstrekt het registreren voor het _Login als acties van de Klant_. Hierin worden alle sessies weergegeven waarbij een Admin-gebruiker de functie benadert. Om tot de geregistreerde acties toegang te hebben, ga naar het [ Rapport van Acties Admin ](../systems/action-log-report.md).
+Adobe Commerce verstrekt het registreren voor het _Login als acties van de Klant_. Hierin worden alle sessies weergegeven waarbij een Admin-gebruiker de functie benadert. Om tot de geregistreerde acties toegang te hebben, ga naar het [&#x200B; Rapport van Acties Admin &#x200B;](../systems/action-log-report.md).
 
 U kunt de rapportinstelling **[!UICONTROL Action Group]** naar `Login As Customer` boven aan de pagina filteren en op **[!UICONTROL Search]** klikken.
 
-![ filter het Rapport van Acties ](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![&#x200B; filter het Rapport van Acties &#x200B;](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

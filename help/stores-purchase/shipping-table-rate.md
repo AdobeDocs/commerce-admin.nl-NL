@@ -26,7 +26,7 @@ De gegevens die worden gebruikt om tabelsnelheden te berekenen, worden in een sp
 >
 >Er kan slechts één set tabelsnelheidsgegevens tegelijk actief zijn.
 
-![ de verschepende optie van het Tarief van de Lijst in het winkelwagentordoverzicht ](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![&#x200B; de verschepende optie van het Tarief van de Lijst in het winkelwagentordoverzicht &#x200B;](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## Stap 1: De standaardinstellingen voltooien
 
@@ -36,13 +36,13 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
 1. Kies **[!UICONTROL Delivery Methods]** in de sectie _[!UICONTROL Sales]_&#x200B;van het linkerdeelvenster.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Table Rates]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Table Rates]** sectie uit.
 
    >[!NOTE]
    >
    >Schakel indien nodig eerst het selectievakje **[!UICONTROL Use system value]** uit om de volgende instellingen te wijzigen zoals beschreven.
 
-   ![ Tarieven van de Lijst ](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![&#x200B; Tarieven van de Lijst &#x200B;](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 
@@ -83,7 +83,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
 1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
    - `Specific Countries` - Wanneer u deze optie kiest, wordt de lijst _[!UICONTROL Ship to Specific Countries]_&#x200B;weergegeven. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
 1. Stel **[!UICONTROL Show Method if Not Applicable]** in op `Yes` als u de Tabelpercentages altijd wilt weergeven
@@ -106,7 +106,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
 1. Klik op **[!UICONTROL Export CSV]**.
 
-   ![ Uitvoer CSV ](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
+   ![&#x200B; Uitvoer CSV &#x200B;](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
 1. Sla het `tablerates.csv` -bestand op uw systeem op.
 
@@ -120,7 +120,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
    - Postcodes worden niet ondersteund. Gebruik een asterisk (*) om alle codes binnen het gebied/de staat toe te staan, of specificeer één enkele code voor een specifieke plaats in de _[!UICONTROL Zip/Postal Code]_&#x200B;kolom.
    - Waarden in de kolom _[!UICONTROL Weight (and above)]_&#x200B;kunnen maximaal vier decimalen hebben (zoals `2.5075` ). Wanneer meer decimalen in de gegevens worden gebruikt, mislukt het importeren.
 
-   ![ Gewicht vs. Doel (Australië) ](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![&#x200B; Gewicht vs. Doel (Australië) &#x200B;](./assets/table-rates-weight-destination-csv.png){width="500"}
 
 1. Sla het `tablerates.csv` -bestand op.
 
@@ -132,7 +132,7 @@ De eerste stap bestaat uit het voltooien van de standaardinstellingen voor tabel
 
 1. Voor **[!UICONTROL Import]** klikt u op **[!UICONTROL Choose File]** en selecteert u het voltooide `tablerates.csv` bestand om de tarieven te importeren.
 
-   ![ de Tarieven van de Lijst van de Invoer ](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![&#x200B; de Tarieven van de Lijst van de Invoer &#x200B;](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 

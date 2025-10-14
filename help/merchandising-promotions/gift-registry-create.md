@@ -22,9 +22,9 @@ Een cadeauregister kan worden gemaakt voor elk type gebeurtenis, zoals een bruil
 
 Wanneer u een register creeert, wordt het een optie in de lijst van cadeauregistertypes in de rekening van de klant.
 
-U kunt een van de drie voorbereide cadeauregisters gebruiken of uw eigen aangepaste register maken. Elk type cadeauregister bevat verschillende kenmerken. Dit zijn de gegevensinvoervelden die een klant invult om een cadeauregister te maken. De attributen verstrekken extra informatie over de gebeurtenis, de tijd en de plaats, of om het even welke andere informatie die nodig is. Afhankelijk van het invoertype hebben sommige kenmerken meerdere opties. Het registertype `Wedding` gift heeft bijvoorbeeld het kenmerk `Role` , met de opties `Bride` , `Groom` en `Partner` . Meer over attributen en inputtypes leren, zie [ Attributen ](../customers/attribute-properties.md).
+U kunt een van de drie voorbereide cadeauregisters gebruiken of uw eigen aangepaste register maken. Elk type cadeauregister bevat verschillende kenmerken. Dit zijn de gegevensinvoervelden die een klant invult om een cadeauregister te maken. De attributen verstrekken extra informatie over de gebeurtenis, de tijd en de plaats, of om het even welke andere informatie die nodig is. Afhankelijk van het invoertype hebben sommige kenmerken meerdere opties. Het registertype `Wedding` gift heeft bijvoorbeeld het kenmerk `Role` , met de opties `Bride` , `Groom` en `Partner` . Meer over attributen en inputtypes leren, zie [&#x200B; Attributen &#x200B;](../customers/attribute-properties.md).
 
-![ Cadeauregistertypes ](./assets/gift-registry-types.png){width="700" zoomable="yes"}
+![&#x200B; Cadeauregistertypes &#x200B;](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Een voorbereid cadeauregister gebruiken
 
@@ -32,7 +32,7 @@ U kunt een van de drie voorbereide cadeauregisters gebruiken of uw eigen aangepa
 
    De verjaardagsregistraties, trouwboeken en babyregisters kunnen door klanten worden gebruikt via hun accounts.
 
-1. Zorg ervoor om de [ configuratie van het e-mailmalplaatje ](../systems/email-templates.md#configure-email-templates) te voltooien, zodat wijzen zij op uw merk.
+1. Zorg ervoor om de [&#x200B; configuratie van het e-mailmalplaatje &#x200B;](../systems/email-templates.md#configure-email-templates) te voltooien, zodat wijzen zij op uw merk.
 
 ## Een aangepast cadeauregister maken
 
@@ -54,13 +54,13 @@ U kunt een van de drie voorbereide cadeauregisters gebruiken of uw eigen aangepa
 
    - Stel **[!UICONTROL Is Listed]** in op `Yes` om het cadeauregister te activeren.
 
-     ![ de registratie van het Cadeautje - algemene informatie ](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
+     ![&#x200B; de registratie van het Cadeautje - algemene informatie &#x200B;](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. Onderzoek elke sectie van de Registratie van het Cadeautje om het type van informatie te bepalen u wilt omvatten.
 
 1. Kies **[!UICONTROL Attributes]** in het linkerdeelvenster en klik op **[!UICONTROL Add Attribute]** .
 
-   ![ de registratie van het Cadeautje - nieuwe attributen ](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
+   ![&#x200B; de registratie van het Cadeautje - nieuwe attributen &#x200B;](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
 
 1. Voer voor elk kenmerk de volgende handelingen uit:
 

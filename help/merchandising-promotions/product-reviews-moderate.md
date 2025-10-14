@@ -23,7 +23,7 @@ Ga als volgt te werk om alle revisies voor een specifiek product in Admin weer t
 
 1. Zoek het product dat u wilt weergeven en klik op **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_.
 
-1. Voor de productpagina, scrol neer en breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Reviews]** sectie.
+1. Voor de productpagina, scrol neer en breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Product Reviews]** sectie.
 
    In dit raster kunt u de specifieke revisie ook wijzigen door op de koppeling **[!UICONTROL Edit]** in de kolom _[!UICONTROL Action]_&#x200B;te klikken.
 
@@ -49,7 +49,7 @@ Ga als volgt te werk om alle revisies voor een specifiek product in Admin weer t
 
    Als u de winkelweergave wilt wijzigen waar een revisie beschikbaar is, kiest u de gewenste opslagweergave in de kolom _[!UICONTROL Visibility]_.
 
-   ![ geef overzichtspagina ](./assets/edit-review-page.png){width="600" zoomable="yes"} uit
+   ![&#x200B; geef overzichtspagina &#x200B;](./assets/edit-review-page.png){width="600" zoomable="yes"} uit
 
 1. Klik op **[!UICONTROL Save Review]** als de bewerking is voltooid.
 

@@ -32,11 +32,11 @@ Sommige producten hebben prijzen die afhankelijk zijn van een geselecteerde opti
 
 | Producttype | Beschrijving |
 |--- |--- |
-| [ Eenvoudig ](product-create-simple.md), [ Virtueel ](product-create-virtual.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . Aangepaste optieprijzen worden normaal weergegeven. |
-| [ Gegroepeerd ](product-create-grouped.md) | De prijzen van de bijbehorende eenvoudige producten worden niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar worden alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . |
-| [ Configurable ](product-create-configurable.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . Optieprijzen worden normaal weergegeven. |
-| [ Bundel ](product-create-bundle.md) (met vaste prijs) | De werkelijke prijs wordt niet automatisch weergegeven op cataloguspagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . De prijzen van bundelitems worden normaal weergegeven. MAP is niet beschikbaar voor bundelproducten met dynamische prijzen. |
-| [ Downloadbaar ](product-create-downloadable.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . De prijs voor elke downloadkoppeling wordt normaal weergegeven. |
+| [&#x200B; Eenvoudig &#x200B;](product-create-simple.md), [&#x200B; Virtueel &#x200B;](product-create-virtual.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . Aangepaste optieprijzen worden normaal weergegeven. |
+| [&#x200B; Gegroepeerd &#x200B;](product-create-grouped.md) | De prijzen van de bijbehorende eenvoudige producten worden niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar worden alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . |
+| [&#x200B; Configurable &#x200B;](product-create-configurable.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . Optieprijzen worden normaal weergegeven. |
+| [&#x200B; Bundel &#x200B;](product-create-bundle.md) (met vaste prijs) | De werkelijke prijs wordt niet automatisch weergegeven op cataloguspagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . De prijzen van bundelitems worden normaal weergegeven. MAP is niet beschikbaar voor bundelproducten met dynamische prijzen. |
+| [&#x200B; Downloadbaar &#x200B;](product-create-downloadable.md) | De werkelijke prijs wordt niet automatisch weergegeven in de cataloguslijst en de productpagina&#39;s, maar wordt alleen opgenomen volgens de instelling [!UICONTROL Display Actual Price] . De prijs voor elke downloadkoppeling wordt normaal weergegeven. |
 
 {style="table-layout:auto"}
 
@@ -46,21 +46,21 @@ Sommige producten hebben prijzen die afhankelijk zijn van een geselecteerde opti
 |--- |--- |
 | Voornaamste prijs | Wanneer MAP wordt toegepast op de hoofdprijs, worden de prijzen van opties, bundelitems en bijbehorende producten (die de hoofdprijs verhogen of verlagen) normaal weergegeven. |
 | Gekoppelde productprijs | Als een product geen hoofdprijs heeft en de prijs ervan wordt afgeleid van de bijbehorende productprijzen (zoals in een gegroepeerd product), worden de MAP-instellingen van de bijbehorende producten toegepast. |
-| [ MSRP ](product-price-minimum-advertised.md) | Als voor een product in het winkelwagentje de door de fabrikant voorgestelde detailhandelsprijs (MSRP) is opgegeven, wordt de prijs niet doorberekend. |
-| [ Prijs van de Rij ](product-price-tier.md) | Als de prijsstelling voor lagen is ingesteld, wordt het prijsbericht voor lagen niet weergegeven in de catalogus. Op de productpagina wordt een bericht weergegeven dat aangeeft dat de prijs lager kan zijn wanneer u meer dan een bepaalde hoeveelheid bestelt, maar dat de korting alleen in percentages wordt weergegeven. Voor gekoppelde producten van een gegroepeerd product worden de kortingen niet weergegeven op de productpagina. De laagprijs wordt weergegeven volgens de instelling Ware prijs weergeven. |
-| [ Speciale Prijs ](product-price-special.md) | Als de speciale prijs is opgegeven, wordt de speciale prijs weergegeven volgens de instelling Ware prijs weergeven. |
+| [&#x200B; MSRP &#x200B;](product-price-minimum-advertised.md) | Als voor een product in het winkelwagentje de door de fabrikant voorgestelde detailhandelsprijs (MSRP) is opgegeven, wordt de prijs niet doorberekend. |
+| [&#x200B; Prijs van de Rij &#x200B;](product-price-tier.md) | Als de prijsstelling voor lagen is ingesteld, wordt het prijsbericht voor lagen niet weergegeven in de catalogus. Op de productpagina wordt een bericht weergegeven dat aangeeft dat de prijs lager kan zijn wanneer u meer dan een bepaalde hoeveelheid bestelt, maar dat de korting alleen in percentages wordt weergegeven. Voor gekoppelde producten van een gegroepeerd product worden de kortingen niet weergegeven op de productpagina. De laagprijs wordt weergegeven volgens de instelling Ware prijs weergeven. |
+| [&#x200B; Speciale Prijs &#x200B;](product-price-special.md) | Als de speciale prijs is opgegeven, wordt de speciale prijs weergegeven volgens de instelling Ware prijs weergeven. |
 
 ## MAP-configuratie
 
 De functie Minimale geadverteerde prijs (MAP) is niet standaard ingeschakeld. Als u dit vermogen aan uw opslag wilt toevoegen, moet u het toelaten en de montages van de KAART voor uw producten vormen. De montages van de KAART kunnen op alle producten in uw catalogus worden toegepast of voor specifieke producten worden gevormd. Als MAP wereldwijd is ingeschakeld, zijn alle productprijzen in de winkels verborgen. Er zijn verschillende configuratieopties die u kunt gebruiken om in overeenstemming te blijven met de bepalingen van uw overeenkomst met de fabrikant, terwijl u uw klanten toch een betere prijs aanbiedt.
 
-![ de Ware Prijs verschijnt &quot;op Beweging&quot;](./assets/storefront-msrp-on-gesture.png){width="700" zoomable="yes"}
+![&#x200B; de Ware Prijs verschijnt &quot;op Beweging&quot;](./assets/storefront-msrp-on-gesture.png){width="700" zoomable="yes"}
 
 Op het globale niveau, kunt u MAP toelaten of onbruikbaar maken, het op alle producten toepassen, bepalen hoe de daadwerkelijke prijs wordt getoond. U kunt ook de tekst van de gerelateerde berichten en informatieterminfo in de winkel bewerken.
 
 Als MAP is ingeschakeld, worden de MAP-instellingen op productniveau beschikbaar. U kunt KAART op een individueel product toepassen door MSRP in te gaan en te kiezen hoe u de daadwerkelijke prijs in de opslag wilt verschijnen. De MAP-instellingen op productniveau overschrijven de algemene MAP-instellingen.
 
-![ klik voor Prijs ](./assets/storefront-price-map.png){width="700" zoomable="yes"}
+![&#x200B; klik voor Prijs &#x200B;](./assets/storefront-price-map.png){width="700" zoomable="yes"}
 
 ### Stap 1: Enable MAP for the store view
 
@@ -70,11 +70,11 @@ Als MAP is ingeschakeld, worden de MAP-instellingen op productniveau beschikbaar
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Minimum Advertised Price]_&#x200B;sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Minimum Advertised Price]_&#x200B;sectie uit.
 
 1. Indien nodig, plaats **laat KAART** aan `Yes` toe.
 
-   ![ configuratie van de KAART ](./assets/sales-minimum-advertised-price.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de KAART &#x200B;](./assets/sales-minimum-advertised-price.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze configuratieopties, zie [_Geadverteerde Minimale Prijs_](../configuration-reference/sales/sales.md#minimum-advertised-price) in de _Verwijzing van de Configuratie_.
 
@@ -109,17 +109,17 @@ Gebruik één van de volgende methodes om de montages van de KAART te vormen:
 
    >[!NOTE]
    >
-   >De [!UICONTROL Manufacturer's Suggested Retail Price] en [!UICONTROL Display Actual Price] gebieden verschijnen slechts wanneer [ Minimum Geadverteerde Prijs ](../configuration-reference/sales/sales.md#minimum-advertised-price) in de configuratie wordt toegelaten.
+   >De [!UICONTROL Manufacturer's Suggested Retail Price] en [!UICONTROL Display Actual Price] gebieden verschijnen slechts wanneer [&#x200B; Minimum Geadverteerde Prijs &#x200B;](../configuration-reference/sales/sales.md#minimum-advertised-price) in de configuratie wordt toegelaten.
 
 1. Ga **[!UICONTROL Manufacturer's Suggested Retail Price]** (MSRP) in.
 
    In dit voorbeeld, is de productprijs $54.00, en MSRP is 59.95.
 
-   ![ Voorgestelde de Retailprijs van de Fabrikant van de Producent ](./assets/product-price-msrp.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorgestelde de Retailprijs van de Fabrikant van de Producent &#x200B;](./assets/product-price-msrp.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Display Actual Price]** in op een van de volgende opties:
 
-   - `Use config` - (Gebrek) past de vertoningsmontages zoals [ gevormd ](../configuration-reference/sales/sales.md#minimum-advertised-price) voor de opslag toe. |
+   - `Use config` - (Gebrek) past de vertoningsmontages zoals [&#x200B; gevormd &#x200B;](../configuration-reference/sales/sales.md#minimum-advertised-price) voor de opslag toe. |
    - `On Gesture` - toont de daadwerkelijke productprijs in popup wanneer de klant _klikt voor prijs_ of _wat is dit?_ .
    - `In Cart` - Geeft de werkelijke productprijs weer in het winkelwagentje.
    - `Before Order Confirmation` - Geeft de werkelijke productprijs weer aan het einde van het afrekenproces, vlak voordat de bestelling wordt bevestigd.

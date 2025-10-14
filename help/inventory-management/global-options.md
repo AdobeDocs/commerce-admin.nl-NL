@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Globale opties configureren: [!DNL Inventory Management]
 
-Configureer de standaardconfiguratieopties voor product en voorraad voor uw websites. Sommige van deze montages kunnen per product door [ worden met voeten getreden die de Opties van het Product ](product-options.md) vormen. Om de montages van de Prioriteit van de Afstand te vormen, zie [ het Vormen het Prioritaire Algoritme van de Afstand ](distance-priority-algorithm.md).
+Configureer de standaardconfiguratieopties voor product en voorraad voor uw websites. Sommige van deze montages kunnen per product door [&#x200B; worden met voeten getreden die de Opties van het Product &#x200B;](product-options.md) vormen. Om de montages van de Prioriteit van de Afstand te vormen, zie [&#x200B; het Vormen het Prioritaire Algoritme van de Afstand &#x200B;](distance-priority-algorithm.md).
 
 ## Wereldwijd product- en voorraadopties configureren
 
@@ -20,9 +20,9 @@ Configureer de standaardconfiguratieopties voor product en voorraad voor uw webs
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Stock Options]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Stock Options]** sectie uit en plaats de opties:
 
-   ![ Opties van de Voorraad ](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties van de Voorraad &#x200B;](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Decrease Stock When Order is Placed]** in op `Yes` als u de hoeveelheid op de hand wilt aanpassen.
 
@@ -30,7 +30,7 @@ Configureer de standaardconfiguratieopties voor product en voorraad voor uw webs
 
    - Als u wilt doorgaan met het weergeven van producten in de catalogus die niet meer in voorraad zijn, stelt u **[!UICONTROL Display Out of Stock Products]** in op `Yes` .
 
-   - Als [ prijsalarm ](alert-setup.md) wordt toegelaten, kunnen de klanten zich aanmelden om worden op de hoogte gebracht wanneer het product terug in voorraad is.
+   - Als [&#x200B; prijsalarm &#x200B;](alert-setup.md) wordt toegelaten, kunnen de klanten zich aanmelden om worden op de hoogte gebracht wanneer het product terug in voorraad is.
 
    - Voer een bedrag in voor **[!UICONTROL Only X left Threshold]** om het begin in te stellen voor de weergave van de laatste voorraad op de productpagina.
 
@@ -42,17 +42,17 @@ Configureer de standaardconfiguratieopties voor product en voorraad voor uw webs
 
    - Stel **[!UICONTROL Synchronize with Catalog]** in op `Yes` om consistentie tussen voorraad en catalogus te behouden. Als deze optie is ingeschakeld, worden de inventarisgegevens aangepast aan de wijzigingen in de catalogus (zoals het verwijderde product, de gewijzigde productSKU en het gewijzigde producttype).
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** sectie uit en plaats de opties:
 
-   - Om [ inventariscontrole ](enable.md) voor uw catalogus te activeren, plaats **[!UICONTROL Manage Stock]** aan `Yes`.
+   - Om [&#x200B; inventariscontrole &#x200B;](enable.md) voor uw catalogus te activeren, plaats **[!UICONTROL Manage Stock]** aan `Yes`.
 
-     ![ Opties van de Voorraad van het Product ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+     ![&#x200B; Opties van de Voorraad van het Product &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Backorders]** in op een van de volgende opties:
 
      | Optie | Beschrijving |
      | ----- | ----- |
-     | `No Backorders` | [ Achterorden ](backorders.md) worden niet goedgekeurd wanneer het product uit voorraad is. |
+     | `No Backorders` | [&#x200B; Achterorden &#x200B;](backorders.md) worden niet goedgekeurd wanneer het product uit voorraad is. |
      | `Allow Qty Below 0` | Achterorden worden geaccepteerd als de hoeveelheid onder nul daalt. |
      | `Allow Qty Below 0 and Notify Customer` | Backorders worden geaccepteerd als het aantal minder is dan nul en het systeem de klant meldt dat de bestelling nog steeds kan worden geplaatst. |
 
@@ -76,17 +76,17 @@ Configureer de standaardconfiguratieopties voor product en voorraad voor uw webs
 
    - Voor [!DNL Inventory Management] wordt **[!UICONTROL Automatically Return Credit Memo Item to Stock]** ingesteld op `No` . Wanneer u een creditnota indient, voert u deze in en selecteert u deze om de voorraad terug te brengen naar bronnen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin bulk operations]** sectie uit en plaats de opties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Admin bulk operations]** sectie uit en plaats de opties:
 
-   ![ BevestigingVerrichtingen van Admin ](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
+   ![&#x200B; BevestigingVerrichtingen van Admin &#x200B;](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Run asynchronously]** in om bulkbewerkingen asynchroon uit te voeren voor acties voor grote producten
 
-     Deze verrichtingen omvatten bulk [ toewijzend en unassigning bronnen ](bulk-assignment.md), en [ overbrengend inventaris aan bron ](inventory-transfer.md). Het verzamelt bulkacties tot de Asynchrone partijgrootte, dan stelt die acties in werking. Deze optie is standaard uitgeschakeld. U wordt aangeraden de prestaties te beoordelen met acties in bulk voordat u deze inschakelt.
+     Deze verrichtingen omvatten bulk [&#x200B; toewijzend en unassigning bronnen &#x200B;](bulk-assignment.md), en [&#x200B; overbrengend inventaris aan bron &#x200B;](inventory-transfer.md). Het verzamelt bulkacties tot de Asynchrone partijgrootte, dan stelt die acties in werking. Deze optie is standaard uitgeschakeld. U wordt aangeraden de prestaties te beoordelen met acties in bulk voordat u deze inschakelt.
 
      >[!NOTE]
      >
-     >Om _asynchrone rijmanagers_ te vormen en te steunen, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [ de gebruikers van de het berichtrij van het Begin ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=nl-NL) in de _Gids van de Configuratie_.
+     >Om _asynchrone rijmanagers_ te vormen en te steunen, moet u een bevel uitgeven gebruikend de bevellijn. Voor deze stap is mogelijk hulp van ontwikkelaars nodig. Zie [&#x200B; de gebruikers van de het berichtrij van het Begin &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
    - Indien ingeschakeld, stelt u de **[!UICONTROL Asynchronous batch size]** in. De standaardbatch-grootte is 100. Wanneer de bulkprocessen dit bedrag bereiken, teweegbrengt het systeem het.
 

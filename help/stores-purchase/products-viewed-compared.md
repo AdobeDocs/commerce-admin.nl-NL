@@ -20,11 +20,11 @@ De _onlangs Bekeken en onlangs Vergelijkte_ blokken verschijnen gewoonlijk in de
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie uit.
 
-   ![ configuratie van de Catalogus - onlangs bekeken/vergeleken producten ](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - onlangs bekeken/vergeleken producten &#x200B;](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Onlangs Bekeken/Vergeleken Producten ](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Onlangs Bekeken/Vergeleken Producten &#x200B;](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Synchronize widget products with backend storage]** in om productwidgetgegevens, zoals product-id, te synchroniseren met de huidige beschikbaarheid van productopslag in de database en deze informatie opnieuw te gebruiken op verschillende apparaten.
 

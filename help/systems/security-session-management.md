@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sessiebeheer
 
-[ het beheer van de Zitting ](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is een anti-ontkenning van de dienst (Dos) beste praktijken voor API veiligheid. Een sessie geeft aan hoeveel tijd een bezoeker aan uw site besteedt en heeft geen betrekking op hoe lang Admin-gebruikers of -klanten zijn aangemeld bij hun accounts.
+[&#x200B; het beheer van de Zitting &#x200B;](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is een anti-ontkenning van de dienst (Dos) beste praktijken voor API veiligheid. Een sessie geeft aan hoeveel tijd een bezoeker aan uw site besteedt en heeft geen betrekking op hoe lang Admin-gebruikers of -klanten zijn aangemeld bij hun accounts.
 
 Een sessie is een reeks HTTP-aanvraag- en responstransacties voor het netwerk die aan dezelfde gebruiker zijn gekoppeld. Dit is een manier om een client (Admin) aan de gegevens te koppelen wanneer deze toegang krijgen tot de server. Sessies worden gebruikt om variabelen tot stand te brengen, zoals toegangsrechten en lokalisatie-instellingen, die van toepassing zijn op elke interactie die een gebruiker tijdens de sessie met een webtoepassing heeft.
 
@@ -35,9 +35,9 @@ Gebruik de volgende configuratie-instellingen om de maximale sessiegrootte voor 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit om tot de zittingsmontages toegang te hebben.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit om tot de zittingsmontages toegang te hebben.
 
-   ![ montages van de Zitting ](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
+   ![&#x200B; montages van de Zitting &#x200B;](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
 
 1. Voer nieuwe sessiegrootten in bytes in.
 
@@ -65,9 +65,9 @@ Als u de maximale sessiegrootte overschrijdt, wordt er geen fout weergegeven, ma
 
 Met Adobe Commerce en Magento Open Source kunt u sessievariabelen valideren als een beschermende maatregel tegen mogelijke aanvallen van sessiefixaties of pogingen om gebruikerssessies te vergiftigen of te kapen. De instellingen voor sessievalidering bepalen hoe sessievariabelen worden gevalideerd tijdens elk bezoek in de winkel en of de sessie-id is opgenomen in de URL van de winkel.
 
-Voor technische informatie, zie [ Redis van het Gebruik voor zittingsopslag ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
+Voor technische informatie, zie [&#x200B; Redis van het Gebruik voor zittingsopslag &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=nl-NL) in de _Gids van de Configuratie_.
 
-![ Algemene configuratie - de zittingsbevestiging van het Web ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
+![&#x200B; Algemene configuratie - de zittingsbevestiging van het Web &#x200B;](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
 De validatie controleert of bezoekers zeggen dat ze dit zijn door de waarde in de validatievariabelen te vergelijken met de sessiegegevens die in `$_SESSION` -gegevens voor de gebruiker zijn opgeslagen. Validatie mislukt als de informatie niet naar behoren wordt verzonden en de bijbehorende variabele leeg is. Als een sessievariabele het validatieproces mislukt, wordt de clientsessie onmiddellijk beëindigd, afhankelijk van de instellingen voor sessievalidatie.
 
@@ -79,7 +79,7 @@ Het toelaten van alle bevestigingsvariabelen kan aanvallen helpen verhinderen, m
 
 1. Vouw in het linkerdeelvenster _[!UICONTROL General]_&#x200B;uit en kies **[!UICONTROL Web]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Session Validation Settings]** sectie uit.
 
 1. Stel elk van de configuratieopties in:
 
@@ -105,10 +105,10 @@ Als veiligheidsmaatregel, is _Admin_ aanvankelijk geplaatst aan tijd uit na 900 
 
 1. Klik op **[!UICONTROL Admin]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
 1. Voer bij **[!UICONTROL Admin Session Lifetime (seconds)]** het aantal seconden in dat een sessie actief blijft voordat deze wordt beëindigd.
 
-   ![ Geavanceerde configuratie - de veiligheidsmontages van Admin ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - de veiligheidsmontages van Admin &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -14,15 +14,15 @@ ht-degree: 0%
 
 U kunt een selectie van verschillende homepages handhaven, en de pagina activeren die u als standaardhomepage wilt gebruiken.
 
-1. Voltooi de stappen voor [ toevoegend een pagina ](page-add.md).
+1. Voltooi de stappen voor [&#x200B; toevoegend een pagina &#x200B;](page-add.md).
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit en reeks **[!UICONTROL CMS Home Page]** aan de nieuwe pagina.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit en reeks **[!UICONTROL CMS Home Page]** aan de nieuwe pagina.
 
-   ![ Web standaardpagina&#39;s configuratie ](./assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![&#x200B; Web standaardpagina&#39;s configuratie &#x200B;](./assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 

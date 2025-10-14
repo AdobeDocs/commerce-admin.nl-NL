@@ -16,9 +16,9 @@ U kunt de instellingen voor productconfiguratie in de Admin gebruiken om prijzen
 
 De gedisconteerde prijs van om het even welk product kan aan leden van een specifieke klantengroep worden aangeboden wanneer de verkoopster aan hun rekening wordt het programma geopend. De prijs van de klantengroep wordt samen met de normale prijs op de productpagina weergegeven, zodat een winkelier de prijzen gemakkelijk kan vergelijken en dienovereenkomstig kan handelen. Nadat zij het product aan het winkelwagentje hebben toegevoegd, wordt de normale prijs vervangen door de groepsprijs op basis van hun klantengroep.
 
-Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](product-price-tier.md) en op een gelijkaardige manier geplaatst. Het enige verschil is dat de prijzen van de klantengroep een hoeveelheid van 1 hebben.
+Het tarief voor klantengroepen is een component van [&#x200B; gelaagde tarifering &#x200B;](product-price-tier.md) en op een gelijkaardige manier geplaatst. Het enige verschil is dat de prijzen van de klantengroep een hoeveelheid van 1 hebben.
 
-![ Korting van de Groep van de Klant ](./assets/storefront-price-group.png){width="600" zoomable="yes"}
+![&#x200B; Korting van de Groep van de Klant &#x200B;](./assets/storefront-price-group.png){width="600" zoomable="yes"}
 
 ## Voordelen van het gebruik van groepsprijzen
 
@@ -38,9 +38,9 @@ Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](prod
 
 1. Klik in de sectie _[!UICONTROL Customer Group Price]_&#x200B;op **[!UICONTROL Add]**.
 
-   Als uw opslag [ Adobe Commerce B2B ](../b2b/introduction.md) omvat en [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md) heeft, wordt deze sectie geëtiketteerd _[!UICONTROL Catalog and Tier Price]_.
+   Als uw opslag [&#x200B; Adobe Commerce B2B &#x200B;](../b2b/introduction.md) omvat en [&#x200B; gedeelde toegelaten catalogi &#x200B;](../b2b/catalog-shared.md) heeft, wordt deze sectie geëtiketteerd _[!UICONTROL Catalog and Tier Price]_.
 
-   ![ Geavanceerde Prijsverhoging ](./assets/product-price-group.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde Prijsverhoging &#x200B;](./assets/product-price-group.png){width="600" zoomable="yes"}
 
 1. Configureer de groepsprijs:
 
@@ -56,7 +56,7 @@ Het tarief voor klantengroepen is een component van [ gelaagde tarifering ](prod
 
       - `Discount` - Voer de gedisconteerde prijs in als een percentage van de productprijs.
 
-     ![ Prijzen van de Groep van de Klant ](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
+     ![&#x200B; Prijzen van de Groep van de Klant &#x200B;](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
 1. Als u nog een groepsprijs wilt toevoegen, klikt u op **[!UICONTROL Add]** en herhaalt u de vorige stap.
 

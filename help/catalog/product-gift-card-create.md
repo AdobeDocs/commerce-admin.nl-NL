@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Elke cadeaukaart heeft een unieke code die door slechts één klant kan worden afgelost tijdens het afrekenen. A [ codepool ](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) moet worden gevestigd alvorens de geschenkkaarten kunnen worden verkocht. Zie [ het werkschema van de Cadeaukaart ](../stores-purchase/product-gift-card-workflow.md) voor informatie over hoe de geschenkkaarten in het het winkelwagentje worden ingewisseld.
+Elke cadeaukaart heeft een unieke code die door slechts één klant kan worden afgelost tijdens het afrekenen. A [&#x200B; codepool &#x200B;](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) moet worden gevestigd alvorens de geschenkkaarten kunnen worden verkocht. Zie [&#x200B; het werkschema van de Cadeaukaart &#x200B;](../stores-purchase/product-gift-card-workflow.md) voor informatie over hoe de geschenkkaarten in het het winkelwagentje worden ingewisseld.
 
-![ het productpagina van het kaartenproduct van de Gift ](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
+![&#x200B; het productpagina van het kaartenproduct van de Gift &#x200B;](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 Er zijn drie soorten cadeaukaartproducten:
 
@@ -28,15 +28,15 @@ Er zijn drie soorten cadeaukaartproducten:
 
 ## Een cadeaukaartproduct maken
 
-De volgende instructies tonen het proces aan om een geschenkkaart te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies tonen het proces aan om een geschenkkaart te creëren gebruikend a [&#x200B; productmalplaatje &#x200B;](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
 ### Stap 1: Kies het producttype
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In de hoger-juiste hoek op _[!UICONTROL Add Product]_( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}  ), kiest u **[!UICONTROL Gift Card]**.
+1. In de hoger-juiste hoek op _[!UICONTROL Add Product]_( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}  ), kiest u **[!UICONTROL Gift Card]**.
 
-   ![ voeg de Kaart van het Cadeautje ](./assets/product-add-gift-card.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg de Kaart van het Cadeautje &#x200B;](./assets/product-add-gift-card.png){width="700" zoomable="yes"} toe
 
 ### Stap 2: Kies de kenmerkset
 
@@ -46,7 +46,7 @@ U kunt de standaard `Gift Card` kenmerkset gebruiken of een andere set kiezen. V
 
 - Kies in de weergegeven lijst de kenmerkset die u wilt gebruiken.
 
-![ kies Vastgestelde Attributen ](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
+![&#x200B; kies Vastgestelde Attributen &#x200B;](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
 
 ### Stap 3: Voer de vereiste instellingen in
 
@@ -64,7 +64,7 @@ U kunt de standaard `Gift Card` kenmerkset gebruiken of een andere set kiezen. V
    - `Physical` - Fysieke cadeaukaarten kunnen vooraf worden gemaakt en worden voorzien van unieke codes.
    - `Combined` - Een gecombineerde cadeaukaart heeft de kenmerken van zowel een virtuele als een fysieke cadeaukaart.
 
-   ![ Type van Kaart van Cadeautje ](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
+   ![&#x200B; Type van Kaart van Cadeautje &#x200B;](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
 1. Als u de klant een keuze wilt bieden met vaste bedragen, klikt u op **[!UICONTROL Add Amount]** en voert u de eerste vaste waarde van de kaart in als een decimaal.
 
@@ -82,7 +82,7 @@ U kunt de standaard `Gift Card` kenmerkset gebruiken of een andere set kiezen. V
    >
    >Een cadeaukaartproduct heeft geen eigen prijs in de catalogus. De prijs van de cadeau-kaart wordt afgeleid van het geselecteerde bedrag van de cadeau-kaart tijdens de aankoop.
 
-   ![ de Bedragen van de Kaart van het Cadeautje ](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
+   ![&#x200B; de Bedragen van de Kaart van het Cadeautje &#x200B;](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### Stap 4: De basisinstellingen voltooien
 
@@ -96,13 +96,13 @@ Er kunnen aanvullende individuele kenmerken zijn die het product beschrijven. De
 
 ### Stap 5: De kaartgegevens van de cadeau invullen
 
-De _[!UICONTROL Gift Card Information]_&#x200B;sectie van de productmontages kan worden gebruikt om de [ configuratie van de giftekaart ](../configuration-reference/sales/gift-cards.md) montages met voeten te treden die bepalen hoe de kaart wordt beheerd.
+De _[!UICONTROL Gift Card Information]_&#x200B;sectie van de productmontages kan worden gebruikt om de [&#x200B; configuratie van de giftekaart &#x200B;](../configuration-reference/sales/gift-cards.md) montages met voeten te treden die bepalen hoe de kaart wordt beheerd.
 
 1. Schuif omlaag naar de sectie _[!UICONTROL Gift Card Information]_.
 
    De standaardinstellingen in deze sectie worden bepaald door de systeemconfiguratie.
 
-   ![ de Informatie van de Kaart van het Cadeautje ](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
+   ![&#x200B; de Informatie van de Kaart van het Cadeautje &#x200B;](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. Wijzig aanvullende velden op basis van de manier waarop de cadeaukaart moet werken:
 
@@ -137,13 +137,13 @@ Voer de benodigde gegevens in de volgende secties in:
 
    - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu,
+   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu,
 
-   ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Methode 2:** sparen en sluit
 
-   Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+   Voor _[!UICONTROL Save]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Te onthouden zaken
 

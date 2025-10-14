@@ -20,21 +20,21 @@ De configuratie van de wensenlijst laat wensen lijsten toe en bepaalt het e-mail
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Wish List]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit en doe het volgende:
 
-   ![ de configuratie van Klanten - wens lijst algemene montages ](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van Klanten - wens lijst algemene montages &#x200B;](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
 
    - Schakel **[!UICONTROL Enabled]** in op `Yes` , waardoor de module voor wensenlijsten voor de winkel wordt geactiveerd.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Knevel **[!UICONTROL Enable Multiple Wish Lists]** aan `Yes`, die klanten toestaat om veelvoudige wenslijsten tot stand te brengen en te handhaven.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Knevel **[!UICONTROL Enable Multiple Wish Lists]** aan `Yes`, die klanten toestaat om veelvoudige wenslijsten tot stand te brengen en te handhaven.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) om het aantal wenslijsten te beperken klanten met hun rekening kunnen geassocieerd hebben, ga waarde voor **[!UICONTROL Number of Multiple Wish Lists]** in.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) om het aantal wenslijsten te beperken klanten met hun rekening kunnen geassocieerd hebben, ga waarde voor **[!UICONTROL Number of Multiple Wish Lists]** in.
 
    - Schakel **[!UICONTROL Show in Sidebar]** in en uit naar `Yes` , waarin de wenslijsten worden weergegeven in het zijpaneel.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Share Options]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Share Options]** sectie uit en doe het volgende:
 
-   ![ de configuratie van Klanten - de opties van het lijstaandeel van de wens ](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van Klanten - de opties van het lijstaandeel van de wens &#x200B;](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
    - Stel de **[!UICONTROL Email Sender]** in op de opslagcontactpersoon die als verzender van het bericht moet worden weergegeven. Opties: Algemene contactpersoon, Verkoper, Klantenondersteuning, Aangepaste e-mail.
 
@@ -44,22 +44,22 @@ De configuratie van de wensenlijst laat wensen lijsten toe en bepaalt het e-mail
 
    - Voer een waarde in voor **[!UICONTROL Email Text Length Limit]** om de grootte van het bericht te beperken. De standaardwaarde is 255.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL My Wish List Link]** sectie uit en reeks **[!UICONTROL Display Wish List Summary]** aan één van het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL My Wish List Link]** sectie uit en reeks **[!UICONTROL Display Wish List Summary]** aan één van het volgende:
 
    - `Display number of items in wish list`
    - `Display item quantities`
 
-   ![ de configuratie van Klanten - wens lijstvertoning ](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van Klanten - wens lijstvertoning &#x200B;](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Zoekopdracht voor wensenlijst toevoegen
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-Om het even welke openbare wensenlijst kan worden gevonden gebruikend het Onderzoek van de Lijst van de Vergroting [ widget ](../content-design/widgets.md). Met de widget kan een klant zoeken op de naam of het e-mailadres van de eigenaar van de wenslijst. Winkelklanten kunnen wensenlijsten vinden die bij andere klanten horen, hen bekijken en producten van hen bestellen, of de producten toevoegen aan hun eigen wensen lijsten. Als een object door een andere klant van een openbare verlanglijst wordt gekocht, wordt het niet uit de oorspronkelijke verlanglijst verwijderd. De _widget van het Onderzoek van de Lijst van de Wenslijst_ kan aan om het even welke pagina van uw opslag worden toegevoegd om het voor klanten gemakkelijk te maken om de verlanglijsten van vrienden en familieleden te vinden.
+Om het even welke openbare wensenlijst kan worden gevonden gebruikend het Onderzoek van de Lijst van de Vergroting [&#x200B; widget &#x200B;](../content-design/widgets.md). Met de widget kan een klant zoeken op de naam of het e-mailadres van de eigenaar van de wenslijst. Winkelklanten kunnen wensenlijsten vinden die bij andere klanten horen, hen bekijken en producten van hen bestellen, of de producten toevoegen aan hun eigen wensen lijsten. Als een object door een andere klant van een openbare verlanglijst wordt gekocht, wordt het niet uit de oorspronkelijke verlanglijst verwijderd. De _widget van het Onderzoek van de Lijst van de Wenslijst_ kan aan om het even welke pagina van uw opslag worden toegevoegd om het voor klanten gemakkelijk te maken om de verlanglijsten van vrienden en familieleden te vinden.
 
-![ storefront van het Voorbeeld - het onderzoek van de wenslijst ](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
+![&#x200B; storefront van het Voorbeeld - het onderzoek van de wenslijst &#x200B;](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
@@ -109,7 +109,7 @@ Om het even welke openbare wensenlijst kan worden gevonden gebruikend het Onderz
 
 1. Kies in de lijst **[!UICONTROL Container]** het gebied van de paginalay-out waar u de pagina wilt plaatsen.
 
-   ![ Wis lijstonderzoek widget - lay-out ](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Wis lijstonderzoek widget - lay-out &#x200B;](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
 1. Kies **[!UICONTROL Widget Options]** in het linkerdeelvenster.
 
@@ -123,7 +123,7 @@ Om het even welke openbare wensenlijst kan worden gevonden gebruikend het Onderz
    >
    >Verzendadressen worden niet opgenomen in verlanglijsten.
 
-1. Vorm om het even welke resterende widgeigenschappen zoals nodig, na de standaard [ instructies ](../content-design/widget-create.md).
+1. Vorm om het even welke resterende widgeigenschappen zoals nodig, na de standaard [&#x200B; instructies &#x200B;](../content-design/widget-create.md).
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

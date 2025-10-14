@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # Elementen - kop
 
-Met kopniveaus wordt een hiërarchie ingesteld die inhoud ordent en zoekprogramma&#39;s helpt elke pagina te indexeren. Gebruik het _inhoudstype van de Kop_ in het [[!DNL Page Builder]  stadium ](workspace.md#stage) om een tekstcontainer met een kopniveau van H1 aan H6 aan het stadium toe te voegen. Koppen worden opgemaakt op basis van het stijlblad dat is gekoppeld aan het huidige thema.
+Met kopniveaus wordt een hiërarchie ingesteld die inhoud ordent en zoekprogramma&#39;s helpt elke pagina te indexeren. Gebruik het _inhoudstype van de Kop_ in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) om een tekstcontainer met een kopniveau van H1 aan H6 aan het stadium toe te voegen. Koppen worden opgemaakt op basis van het stijlblad dat is gekoppeld aan het huidige thema.
 
-Het [ gebied van de Kop van de Inhoud ](workspace.md) in de _[!UICONTROL Content]_&#x200B;sectie kan worden gebruikt om een H1 rubriek aan de bovenkant van de pagina toe te voegen. Het veld is echter een verouderde versie van [!DNL Commerce] en wordt geleverd ter ondersteuning van oudere inhoud. In dit veld worden de geavanceerde functies van [!DNL Page Builder] niet benut. Het wordt aanbevolen het veld Inhoudskop leeg te laten en het inhoudstype [!DNL Page Builder] Koptekst te gebruiken om koppen van een willekeurig niveau aan de pagina toe te voegen.
+Het [&#x200B; gebied van de Kop van de Inhoud &#x200B;](workspace.md) in de _[!UICONTROL Content]_&#x200B;sectie kan worden gebruikt om een H1 rubriek aan de bovenkant van de pagina toe te voegen. Het veld is echter een verouderde versie van [!DNL Commerce] en wordt geleverd ter ondersteuning van oudere inhoud. In dit veld worden de geavanceerde functies van [!DNL Page Builder] niet benut. Het wordt aanbevolen het veld Inhoudskop leeg te laten en het inhoudstype [!DNL Page Builder] Koptekst te gebruiken om koppen van een willekeurig niveau aan de pagina toe te voegen.
 
 In het volgende voorbeeld ziet u hoe de inhoudsopgave Kop inhoud en Kop worden weergegeven wanneer deze worden opgemaakt door het thema Luma.
 
-![ Kop van de Inhoud en de kopniveaus op de storefront ](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
+![&#x200B; Kop van de Inhoud en de kopniveaus op de storefront &#x200B;](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-U kunt een rubriek van de _sectie van Elementen_ van het [!DNL Page Builder] paneel aan een rij, een kolom, of een lusjereeks op het stadium slepen. Het kopniveau en de groepering kunnen van de redacteurstoolbar op het stadium worden gecontroleerd, of door de _controle van Montages_ te gebruiken ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+U kunt een rubriek van de _sectie van Elementen_ van het [!DNL Page Builder] paneel aan een rij, een kolom, of een lusjereeks op het stadium slepen. Het kopniveau en de groepering kunnen van de redacteurstoolbar op het stadium worden gecontroleerd, of door de _controle van Montages_ te gebruiken ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Kop-editor
 
-![ Redacteur van de Kop met toolbar ](./assets/pb-elements-heading-toolbar.png){width="500" zoomable="yes"}
+![&#x200B; Redacteur van de Kop met toolbar &#x200B;](./assets/pb-elements-heading-toolbar.png){width="500" zoomable="yes"}
 
 ## Gereedschap Keuzerondje
 
 Net als bij alle inhoudscontainers wordt de gereedschapset weergegeven wanneer u de muisaanwijzer op de container plaatst.
 
-![ de containertoolbox van de Rubriek ](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; de containertoolbox van de Rubriek &#x200B;](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ----------------- | ---------------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de kopcontainer naar een andere geldige plaats op de pagina. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de kopcontainer naar een andere geldige plaats op de pagina. |
 | (label) | Kop | Identificeert de huidige container als een kop. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Koptekst bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de container van de kop. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen kopcontainer weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de kopcontainer. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de kopcontainer en de inhoud ervan uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Koptekst bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de container van de kop. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen kopcontainer weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de kopcontainer. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de kopcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -52,13 +52,13 @@ Net als bij alle inhoudscontainers wordt de gereedschapset weergegeven wanneer u
 
 1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Elements]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Heading]** naar een rij, kolom of tabset in het werkgebied.
 
-   ![ slepend een rubriek aan het stadium ](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een rubriek aan het stadium &#x200B;](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
 1. Voer in de editor de koptekst in boven de tijdelijke aanduiding voor `Edit Heading Text` .
 
    Standaard wordt aan de koptekst een koptekst van niveau twee (H2) toegewezen.
 
-   ![ Placeholder in de koptekstredacteur ](./assets/pb-elements-header-editor-placeholder.png){width="500" zoomable="yes"}
+   ![&#x200B; Placeholder in de koptekstredacteur &#x200B;](./assets/pb-elements-header-editor-placeholder.png){width="500" zoomable="yes"}
 
 1. Kies in de werkbalk het juiste koptype tussen H1 en H6.
 
@@ -66,9 +66,9 @@ Net als bij alle inhoudscontainers wordt de gereedschapset weergegeven wanneer u
 
 ## Koptekstinstellingen bewerken
 
-1. Beweeg over de koptekstcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de koptekstcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ Toolbox van de Rubriek ](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Toolbox van de Rubriek &#x200B;](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 1. Werk indien nodig de kopinhoud bij (**[!UICONTROL Heading Type]** en **[!UICONTROL Heading Text]**).
 
@@ -135,24 +135,24 @@ Net als bij alle inhoudscontainers wordt de gereedschapset weergegeven wanneer u
 
 Voor een opgemaakte kop met specifieke instellingen is het efficiënter om de kop te dupliceren in plaats van opnieuw te beginnen met een nieuwe plaatsaanduiding.
 
-1. Beweeg over de koptekstcontainer om toolbox te tonen en _te kiezen dupliceert_ ( ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
+1. Beweeg over de koptekstcontainer om toolbox te tonen en _te kiezen dupliceert_ ( ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
    Het duplicaat wordt net onder het origineel weergegeven.
 
-   ![ Duplicerend een koptekstcontainer ](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
+   ![&#x200B; Duplicerend een koptekstcontainer &#x200B;](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Beweeg over de nieuwe koptekstcontainer om toolbox te tonen en de _Beweging_ te kiezen ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}) pictogram.
+1. Beweeg over de nieuwe koptekstcontainer om toolbox te tonen en de _Beweging_ te kiezen ( ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}) pictogram.
 
-   ![ Bewegend een rubriek ](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
+   ![&#x200B; Bewegend een rubriek &#x200B;](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
 1. Selecteer en sleep de kop totdat de rode hulplijn de nieuwe positie markeert.
 
    De boven- en onderrand van elke container worden weergegeven als onderbroken lijnen terwijl de kop wordt verplaatst.
 
-   ![ Bewegend de gedupliceerde rubriek in positie ](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
+   ![&#x200B; Bewegend de gedupliceerde rubriek in positie &#x200B;](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
 
 1. Als u het kopniveau wilt wijzigen, klikt u op de koptekst en kiest u het nieuwe niveau in de editor-werkbalk.
 
-   ![ Kiekend een nieuw kopniveau ](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+   ![&#x200B; Kiekend een nieuw kopniveau &#x200B;](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

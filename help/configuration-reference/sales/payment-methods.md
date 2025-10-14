@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u insight kan geven en controleren u de beste ervaring voor uw kopers moet creëren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
+>Betalingsservices voor Adobe Commerce en Magento Open Source bieden een kant-en-klare oplossing voor zelfbediening, inclusief het testen van sandboxen en een eenvoudige configuratie, voor een robuuste en veilige betalingsverwerking. Meer over deze krachtige hulpmiddelreeks leren en hoe het u insight kan geven en controleren u de beste ervaring voor uw kopers moet creëren, zie de [_Gids van de Gebruiker van de Diensten van de Betaling_ &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL).
 
 {{config}}
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-![ Merchant Plaats ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![&#x200B; Merchant Plaats &#x200B;](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Website | Identificeert het land waar de handelaar geregistreerd is om zaken te doen. |
 
@@ -37,18 +37,18 @@ ht-degree: 0%
 De volgende betalingsoplossingen worden aanbevolen als een gemakkelijke manier voor verkopers die net beginnen met het accepteren van online betalingen via PayPal-rekening of creditcard. Naarmate uw bedrijf groeit, kunt u deze combineren met extra PayPal-betalingsoplossingen.
 
 - [Betalingsdiensten](payment-services.md)
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Uitdrukkelijke Controle PayPal ](paypal-express-checkout.md)
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Braintree ](braintree.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Uitdrukkelijke Controle PayPal &#x200B;](paypal-express-checkout.md)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Braintree &#x200B;](braintree.md)
 
 >[!NOTE]
 >
->Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.4.x-releases en verplaatst naar Commerce Marketplace. U kunt de recentste officiële uitbreidingen van de betaalintegratie in [ Commerce Marketplace ](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"} vinden.
+>Sommige integratie van betalingen en gebundelde extensies zijn verwijderd uit 2.4.x-releases en verplaatst naar Commerce Marketplace. U kunt de recentste officiële uitbreidingen van de betaalintegratie in [&#x200B; Commerce Marketplace &#x200B;](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"} vinden.
 ><br/>
 >**Amazon betaalt** en **Klarna**: Adobe Commerce en Magento Open Source geeft 2.4.0 door 2.4.3 omvat deze leverancier-ontwikkelde uitbreidingen. Vanaf de release 2.4.4 worden deze extensies niet meer gebundeld met de kernversie en moeten ze vanaf de Commerce Marketplace worden geïnstalleerd en bijgewerkt. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
 ><br/>
->Als u een van deze gebundelde extensies hebt ingeschakeld en geconfigureerd, moet u het `composer.json` -bestand bijwerken als onderdeel van het upgradeproces 2.4.4 en de extensies verder beheren. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.<br/>
+>Als u een van deze gebundelde extensies hebt ingeschakeld en geconfigureerd, moet u het `composer.json` -bestand bijwerken als onderdeel van het upgradeproces 2.4.4 en de extensies verder beheren. Zie [&#x200B; modules van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [ DevBlog ](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+>**Worldpay**, **Eway**, **CyberSource**, en **Authorize.Net**: Voor details over het maken van een veilige overgang van deze betaalintegratie, zie [&#x200B; DevBlog &#x200B;](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Andere PayPal-methoden
 
@@ -68,8 +68,8 @@ PayPal biedt verschillende betalingsoplossingen die voldoen aan de behoeften van
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-- [ PayPal Payflow Pro ](paypal-payflow-pro.md) (Omvat Uitdrukkelijke Afhandeling)
-- [ PayPal de Verbinding van de Payflow ](paypal-payflow-link.md) (omvat Uitdrukkelijke Afhandeling)
+- [&#x200B; PayPal Payflow Pro &#x200B;](paypal-payflow-pro.md) (Omvat Uitdrukkelijke Afhandeling)
+- [&#x200B; PayPal de Verbinding van de Payflow &#x200B;](paypal-payflow-link.md) (omvat Uitdrukkelijke Afhandeling)
 
 ## Basisbetalingsmethoden
 
@@ -77,15 +77,15 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ### [!UICONTROL Check / Money Order]
 
-![ Controle/Geldorde ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![&#x200B; Controle/Geldorde &#x200B;](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Hiermee bepaalt u of klanten per cheque of postwissel kunnen betalen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam voor deze betalingsmethode die tijdens het afrekenen aan klanten wordt weergegeven. |
-| [!UICONTROL New Order Status] | Website | Bepaalt de aanvankelijke [ ordestatus ](../../stores-purchase/order-status.md) die aan orden wordt toegewezen door een controle of een geldorde worden betaald. Standaardwaarde: `Pending` |
+| [!UICONTROL New Order Status] | Website | Bepaalt de aanvankelijke [&#x200B; ordestatus &#x200B;](../../stores-purchase/order-status.md) die aan orden wordt toegewezen door een controle of een geldorde worden betaald. Standaardwaarde: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Website | Hiermee bepaalt u uit welke landen je betaling per cheque of postwissel accepteert. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Identificeert de specifieke landen waarvan u betaling per cheque of postwissel accepteert. |
 | [!UICONTROL Make Check Payable to] | Winkelweergave | De naam van de entiteit aan wie cheques en postwissels moeten worden betaald. |
@@ -98,11 +98,11 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![ Betaling van de Overdracht van de Bank ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![&#x200B; Betaling van de Overdracht van de Bank &#x200B;](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Hiermee bepaalt u of klanten kunnen betalen door de betaling rechtstreeks van hun bank naar uw zakelijke rekening over te maken. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam voor deze betalingsmethode die tijdens het afrekenen aan klanten wordt weergegeven. |
@@ -119,11 +119,11 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 {{b2b-feature}}
 
-![ Betaling op Rekening ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![&#x200B; Betaling op Rekening &#x200B;](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Hiermee wordt bepaald of ondernemingen bedrijfskrediet kunnen gebruiken om aankopen te doen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam voor deze betalingsmethode die tijdens het afrekenen aan klanten wordt weergegeven. |
@@ -138,15 +138,15 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 >[!NOTE]
 >
->Betaling op Rekening wordt niet gesteund voor orden met [ veelvoudige verzendadressen ](../../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties.
+>Betaling op Rekening wordt niet gesteund voor orden met [&#x200B; veelvoudige verzendadressen &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses) en verschijnt niet onder de betalingsopties.
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![ Betaling Onder rembours ](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![&#x200B; Betaling Onder rembours &#x200B;](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Hiermee bepaalt u of klanten kunnen betalen door de betaling rechtstreeks van hun bank naar uw zakelijke rekening over te maken. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam voor deze betalingsmethode die tijdens het afrekenen aan klanten wordt weergegeven. |
@@ -161,11 +161,11 @@ De volgende betalingsmethoden zijn ingebouwd in Commerce en gebruiken geen exter
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![ Nul SubtotalCheckout ](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![&#x200B; Nul SubtotalCheckout &#x200B;](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze betalingsmethode wordt gebruikt. Standaardwaarde: geen betalingsinformatie vereist |
 | [!UICONTROL Enabled] | Website | Hiermee wordt bepaald of de Afhandeling Nul subtotaal beschikbaar is voor de opslagbeheerder om orders te beheren met een subtotaal van nul, zoals een order die is belast, maar met een korting is het bedrag tot nul teruggebracht. Opties: `Yes` / `No` |
@@ -203,15 +203,15 @@ Zie de Basis montagessectie van elk individueel onderwerp van de betalingsmethod
 
 ## [!UICONTROL Purchase Order]
 
-![ Inkooporder ](./assets/payment-methods-purchase-order.png)<!-- zoom -->
+![&#x200B; Inkooporder &#x200B;](./assets/payment-methods-purchase-order.png)<!-- zoom -->
 
 <!-- [Purchase Order](../../stores-purchase/purchase-order.html) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Hiermee bepaalt u of klanten via inkooporder (inkooporder) kunnen betalen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam van deze betalingsmethode die tijdens het afrekenen aan klanten wordt weergegeven. |
-| [!UICONTROL New Order Status] | Website | Bepaalt de aanvankelijke [ ordestatus ](../../stores-purchase/order-status.md) die aan orden wordt toegewezen door PO worden betaald. Standaardwaarde: in behandeling |
+| [!UICONTROL New Order Status] | Website | Bepaalt de aanvankelijke [&#x200B; ordestatus &#x200B;](../../stores-purchase/order-status.md) die aan orden wordt toegewezen door PO worden betaald. Standaardwaarde: in behandeling |
 | [!UICONTROL Payment from Applicable Countries] | Website | Bepaalt de landen waarvan u betaling door PO goedkeurt. Opties: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Identificeert de specifieke landen waarvan u betaling door PO goedkeurt. |
 | [!UICONTROL Minimum Order Total] | Website | Het kleinste orderbedrag dat door PO kan worden betaald. |

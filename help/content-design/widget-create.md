@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Widgets zijn herbruikbare componenten. U kunt eenvoudig widgets maken en bestaande widgets wijzigen om inhoud in uw winkel automatisch bij te werken. U kunt ook widgets verwijderen die niet meer in gebruik zijn.
 
-![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
+![&#x200B; Widgets &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Een widget maken
 
-Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ widgettype ](widgets.md#widget-types). U kunt het eerste deel van de instructies volgen en vervolgens het laatste deel voor het specifieke type widget voltooien.
+Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [&#x200B; widgettype &#x200B;](widgets.md#widget-types). U kunt het eerste deel van de instructies volgen en vervolgens het laatste deel voor het specifieke type widget voltooien.
 
 ### Stap 1: Kies het type
 
@@ -32,7 +32,7 @@ Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ wid
 
    - Controleer of **[!UICONTROL Design Theme]** is ingesteld op het huidige thema.
 
-     ![ montages van Widget ](./assets/widget-settings.png){width="600" zoomable="yes"}
+     ![&#x200B; montages van Widget &#x200B;](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Continue]**.
 
@@ -50,7 +50,7 @@ Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ wid
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-     ![ eigenschappen Storefront ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+     ![&#x200B; eigenschappen Storefront &#x200B;](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Klik in de sectie _[!UICONTROL Layout Updates]_&#x200B;op **[!UICONTROL Add Layout Update]**.
 
@@ -58,7 +58,7 @@ Het proces om een widget tot stand te brengen is bijna het zelfde voor elk [ wid
 
 1. Kies in de lijst **[!UICONTROL Container]** het gebied van de paginalay-out waar u de pagina wilt plaatsen.
 
-   ![ de updates van de Lay-out ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; de updates van de Lay-out &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 1. Als de widget een koppeling is, stelt u **[!UICONTROL Template]** in op een van de volgende opties:
 
@@ -83,7 +83,7 @@ De opties voor elk widgettype variëren enigszins, maar het proces is in wezen h
 
    - Stel **[!UICONTROL Condition]** in op de productcategorie die u wilt weergeven.
 
-     Het proces is het zelfde als het plaatsen van een voorwaarde voor a [ prijsregel ](../merchandising-promotions/price-rules-catalog.md).
+     Het proces is het zelfde als het plaatsen van een voorwaarde voor a [&#x200B; prijsregel &#x200B;](../merchandising-promotions/price-rules-catalog.md).
 
 ### Stap 4: Het resultaat opslaan en controleren
 

@@ -22,10 +22,10 @@ Met het gereedschap _[!UICONTROL Update Attributes]_&#x200B;kunt u een of meer k
 
 1. Klik op het menu **[!UICONTROL Actions]** bovenaan en kies **[!UICONTROL Update Attributes]** .
 
-   ![ Uitgezochte producten om worden bijgewerkt ](./assets/bulk-product-updating-action.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte producten om worden bijgewerkt &#x200B;](./assets/bulk-product-updating-action.png){width="600" zoomable="yes"}
 
 1. Werk het kenmerk, de geavanceerde inventaris of de websitegegevens voor de geselecteerde producten bij naar wens.
 
-   ![ Bulk die voor attributen ](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"} bijwerkt
+   ![&#x200B; Bulk die voor attributen &#x200B;](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"} bijwerkt
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.

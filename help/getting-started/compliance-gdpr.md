@@ -30,7 +30,7 @@ Alle organisaties die persoonsgegevens verwerken, moeten het volgende bekendmake
 
 ## GDPR en CCPA
 
-Als uw zaken zowel GDPR als de [ Wet van de Privacy van de consument van Californië (CCPA) ](../getting-started/compliance-ccpa.md) moeten naleven, kunt u wat van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel GDPR als de [&#x200B; Wet van de Privacy van de consument van Californië (CCPA) &#x200B;](../getting-started/compliance-ccpa.md) moeten naleven, kunt u wat van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
@@ -41,9 +41,9 @@ Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoo
 
 ## Aanbevolen procedures
 
-- Onderzoek het huidige [ privacybeleid ](../getting-started/privacy-policy.md) voor al uw opslag om ervoor te zorgen dat zij met om het even welke toepasselijke wettelijke vereisten (met inbegrip van, maar niet beperkt tot GDPR en CCPA) richten.
+- Onderzoek het huidige [&#x200B; privacybeleid &#x200B;](../getting-started/privacy-policy.md) voor al uw opslag om ervoor te zorgen dat zij met om het even welke toepasselijke wettelijke vereisten (met inbegrip van, maar niet beperkt tot GDPR en CCPA) richten.
 
-- Werk uw [ montages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) bij en zorg ervoor dat zij met uw wettelijke verplichtingen betreffende het gebruik van persoonlijke gegevens richten.
+- Werk uw [&#x200B; montages van Google &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings) bij en zorg ervoor dat zij met uw wettelijke verplichtingen betreffende het gebruik van persoonlijke gegevens richten.
 
 - Transparantie behouden en grondige documentatie bewaren.
 

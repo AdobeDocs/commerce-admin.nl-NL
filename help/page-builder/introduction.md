@@ -26,9 +26,9 @@ De [!DNL Page Builder] -gereedschappen voor geavanceerde inhoud zijn geïntroduc
 
 Of u nu nieuw bent in [!DNL Commerce] of een ervaren gebruiker, voltooi de volgende [!DNL Page Builder] -oefeningen voor meer informatie over het maken van inhoud met [!DNL Page Builder] . Deze oefeningen tonen aan hoe te om de basis [!DNL Page Builder] eigenschappen te gebruiken en u te helpen om nieuwe manieren te ontdekken om vertrouwde taken te verwezenlijken.
 
-- Deel 1 van de analyse: [ Eenvoudige Pagina ](1-simple-page.md)
-- Deel 2 van de analyse: [ Blokken ](2-blocks.md)
-- Deel 3 van de analyse: [ Inhoud van de Catalogus ](3-catalog-content.md)
+- Deel 1 van de analyse: [&#x200B; Eenvoudige Pagina &#x200B;](1-simple-page.md)
+- Deel 2 van de analyse: [&#x200B; Blokken &#x200B;](2-blocks.md)
+- Deel 3 van de analyse: [&#x200B; Inhoud van de Catalogus &#x200B;](3-catalog-content.md)
 
 >[!NOTE]
 >

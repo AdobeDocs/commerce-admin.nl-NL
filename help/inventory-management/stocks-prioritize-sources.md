@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Prioriteit geven aan bronnen voor een bestand
 
-Na het toevoegen van [ bronnen ](sources-manage.md) aan de [ voorraad ](stocks-manage.md), rangschik die bronnen van boven tot onder in prioriteit voor het vervullen van orden. Het Source Selection Algorithm (SSA) biedt een algoritme Priority die deze volgorde gebruikt bij het bepalen van aftrekkingen voor verzending en inventaris.
+Na het toevoegen van [&#x200B; bronnen &#x200B;](sources-manage.md) aan de [&#x200B; voorraad &#x200B;](stocks-manage.md), rangschik die bronnen van boven tot onder in prioriteit voor het vervullen van orden. Het Source Selection Algorithm (SSA) biedt een algoritme Priority die deze volgorde gebruikt bij het bepalen van aftrekkingen voor verzending en inventaris.
 
 De bronprioriteit voor voorraden heeft geen invloed op toegewezen bronnen bij het bewerken van productinventarissen.
 
 In dit voorbeeld heeft het Britse Stock bronnen toegewezen die zijn toegewezen aan een winkel en twee opslagplaatsen in Londen en een pakhuis in Berlijn.
 
-![ orde van Source alvorens voorrang te geven ](assets/inventory-priority-before.png){width="350" zoomable="yes"}
+![&#x200B; orde van Source alvorens voorrang te geven &#x200B;](assets/inventory-priority-before.png){width="350" zoomable="yes"}
 
 De handelaar geeft er de voorkeur aan dat de overbrengingen voorrang krijgen op het grotere Berlijnse pakhuis, het Londense entrepot, de overlooplocatie Londen en ten slotte de winkel in Londen. Om de volgorde te wijzigen, worden items gesleept en in de gewenste volgorde neergezet.
 
@@ -34,4 +34,4 @@ De handelaar geeft er de voorkeur aan dat de overbrengingen voorrang krijgen op 
 
 1. Klik op **[!UICONTROL Save & Continue]** om de wijzigingen op te slaan.
 
-![ orde van Source na prioritering ](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}
+![&#x200B; orde van Source na prioritering &#x200B;](assets/inventory-stock-priority-after.png){width="350" zoomable="yes"}

@@ -29,7 +29,7 @@ Alle bedrijfsrekeningen vereisen beheerdergoedkeuring alvorens actief te worden,
 Voordat u bedrijfsaccounts gaat maken, moet u controleren of aan de volgende vereisten is voldaan:
 
 * **Vereisten van het Systeem:**
-   * [ B2B eigenschappen worden toegelaten ](enable-basic-features.md) in uw installatie van Adobe Commerce
+   * [&#x200B; B2B eigenschappen worden toegelaten &#x200B;](enable-basic-features.md) in uw installatie van Adobe Commerce
    * Bedrijfsregistratie is ingeschakeld voor het maken van winkels
    * E-mailmeldingen zijn geconfigureerd voor goedkeuringswerkstromen
 
@@ -43,7 +43,7 @@ Voordat u bedrijfsaccounts gaat maken, moet u controleren of aan de volgende ver
    * Passende machtigingen voor bedrijfsbeheer
    * Toegang tot afdelingen van klanten en bedrijfsbeheer
 
-Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) aan de persoon toe die opstelling een bedrijfrekening van de storefront. Nadat de opslagbeheerder het verzoek tot oprichting van een bedrijfsaccount in Admin heeft goedgekeurd, kan de bedrijfsbeheerder een accountwachtwoord instellen en zich aanmelden bij de account.
+Het systeem wijst de [&#x200B; rol van de bedrijfbeheerder &#x200B;](account-company-admin.md) aan de persoon toe die opstelling een bedrijfrekening van de storefront. Nadat de opslagbeheerder het verzoek tot oprichting van een bedrijfsaccount in Admin heeft goedgekeurd, kan de bedrijfsbeheerder een accountwachtwoord instellen en zich aanmelden bij de account.
 
 ## Methode 1: de klant maakt de account aan via de winkel
 
@@ -56,11 +56,11 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
 
 >[!IMPORTANT]
 >
->Om deze methode te steunen (die klanten toestaat om hun bedrijf van de winkel te registreren), zorg ervoor dat de [ Eigenschappen B2B ](enable-basic-features.md) worden toegelaten.
+>Om deze methode te steunen (die klanten toestaat om hun bedrijf van de winkel te registreren), zorg ervoor dat de [&#x200B; Eigenschappen B2B &#x200B;](enable-basic-features.md) worden toegelaten.
 
 1. In de rechterbovenhoek van de winkelkoptekst klikt de klant op **[!UICONTROL Create an Account]** en kiest de klant **[!UICONTROL Create New Company Account]** .
 
-   ![ creeer Nieuwe Rekening van het Bedrijf ](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
+   ![&#x200B; creeer Nieuwe Rekening van het Bedrijf &#x200B;](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
       * **[!UICONTROL VAT/TAX ID]**
       * **[!UICONTROL Reseller ID]**
 
-   ![ Informatie van het Bedrijf ](./assets/company-information-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Informatie van het Bedrijf &#x200B;](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
 1. Voltooit de vereiste velden in de sectie _[!UICONTROL Legal Address]_.
 
@@ -90,7 +90,7 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-   ![ Juridisch Adres ](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Juridisch Adres &#x200B;](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
 1. Voer in de sectie _[!UICONTROL Company Administrator]_&#x200B;de volgende handelingen uit:
 
@@ -106,7 +106,7 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
       * **[!UICONTROL Work Phone Number]**
       * **[!UICONTROL Gender]**
 
-   ![ Beheerder van het Bedrijf ](./assets/company-administrator-account-storefront.png)
+   ![&#x200B; Beheerder van het Bedrijf &#x200B;](./assets/company-administrator-account-storefront.png)
 
 1. Hiermee wordt de validatie voltooid als reCAPTCHA is ingeschakeld voor deze storefront-functie.
 
@@ -114,9 +114,9 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
 
    Wanneer de handelaar het verzoek om een bedrijfrekening tot stand te brengen goedkeurt, verzendt het systeem een e-mailbericht naar de bedrijfbeheerder.
 
-   ![ E-mail van het Welkome E-mail van het Voorbeeld ](./assets/company-admin-welcome-email.png){width="500"}
+   ![&#x200B; E-mail van het Welkome E-mail van het Voorbeeld &#x200B;](./assets/company-admin-welcome-email.png){width="500"}
 
-   Wanneer het wachtwoord wordt geplaatst, kan de bedrijfbeheerder [ binnen ondertekenen ](../customers/customer-sign-in.md) aan de rekening.
+   Wanneer het wachtwoord wordt geplaatst, kan de bedrijfbeheerder [&#x200B; binnen ondertekenen &#x200B;](../customers/customer-sign-in.md) aan de rekening.
 
 ## Methode 2: Merchant maakt de account via Beheer
 
@@ -129,7 +129,7 @@ Het systeem wijst de [ rol van de bedrijfbeheerder ](account-company-admin.md) a
 
 Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde als van storefront, maar met extra gebieden.
 
-![ voeg een nieuw bedrijf van Admin ](./assets/company-add-new.png){width="700" zoomable="yes"} toe
+![&#x200B; voeg een nieuw bedrijf van Admin &#x200B;](./assets/company-add-new.png){width="700" zoomable="yes"} toe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -156,9 +156,9 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
      De opmerkingen zijn alleen zichtbaar vanuit de beheerder.
 
-   ![ de Informatie van de Rekening ](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
+   ![&#x200B; de Informatie van de Rekening &#x200B;](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Wanneer u een bedrijf maakt, wordt het raster _[!UICONTROL Company Hierarchy]_&#x200B;leeg weergegeven wanneer u het bedrijf uitbreidt. Nadat u het bedrijf hebt opgeslagen, kunt u het in een bedrijfshiërarchie opnemen. Zie [ Beheer van het Bedrijf ](manage-companies.md).
+1. Wanneer u een bedrijf maakt, wordt het raster _[!UICONTROL Company Hierarchy]_&#x200B;leeg weergegeven wanneer u het bedrijf uitbreidt. Nadat u het bedrijf hebt opgeslagen, kunt u het in een bedrijfshiërarchie opnemen. Zie [&#x200B; Beheer van het Bedrijf &#x200B;](manage-companies.md).
 
 1. Voer in de sectie _[!UICONTROL Legal Address]_&#x200B;de volgende vereiste velden in:
 
@@ -190,7 +190,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
       * **[!UICONTROL Gender]**
       * **[!UICONTROL Send Welcome Email From]**
 
-   ![ Bedrijf Admin ](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+   ![&#x200B; Bedrijf Admin &#x200B;](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
 1. Voer in de sectie _[!UICONTROL Company Credit]_, die een overzicht weergeeft van de kredietactiviteiten van de klant, zoveel velden in het onderste gedeelte van de sectie in als van toepassing is:
 
@@ -199,7 +199,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
    * **[!UICONTROL Allow to Exceed Credit Limit]**
    * **[!UICONTROL Reason for Change]**
 
-   ![ Krediet van het Bedrijf ](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+   ![&#x200B; Krediet van het Bedrijf &#x200B;](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Advanced Settings]_:
 
@@ -209,7 +209,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
    * U kunt de **[!UICONTROL Customer Group]** taak voor het bedrijf en zijn werknemers in een groep veranderen die toegang tot een verschillende gedeelde catalogus of tot een standaardklantengroep heeft. Het systeem vraagt u om dit te bevestigen voordat u de groep wijzigt.
 
-     ![ Veranderend de klantengroep ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+     ![&#x200B; Veranderend de klantengroep &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    * Stel **[!UICONTROL Allow Quotes]** in op `Yes` als u wilt toestaan dat bedrijfswerknemers aanhalingstekens kunnen genereren van hun account.
 
@@ -219,8 +219,8 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
      | Optie | Beschrijving |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | (Gebrek) laat alle [ betalingsmethodes toe die als gebrek ](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) voor B2B- orden worden geplaatst. |
-     | `All Enabled Payment Methods` | Maakt alle [ toegelaten betalingsmethodes ](../configuration-reference/sales/payment-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
+     | `B2B Payment Methods` | (Gebrek) laat alle [&#x200B; betalingsmethodes toe die als gebrek &#x200B;](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) voor B2B- orden worden geplaatst. |
+     | `All Enabled Payment Methods` | Maakt alle [&#x200B; toegelaten betalingsmethodes &#x200B;](../configuration-reference/sales/payment-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
      | `Selected Payment Methods` | Hiermee kunt u de betalingsmethoden selecteren die beschikbaar zijn voor klantenaccounts die bij het bedrijfsaccount horen. Als u meerdere betalingsmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 
      {style="table-layout:auto"}
@@ -229,8 +229,8 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
      | Optie | Beschrijving |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | (Gebrek) laat alle [ verschepende methodes toe die als gebrek ](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) voor B2B- orden worden geplaatst. |
-     | `All Enabled Shipping Methods` | Maakt alle [ toegelaten verschepende methodes ](../configuration-reference/sales/delivery-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
+     | `B2B Shipping Methods` | (Gebrek) laat alle [&#x200B; verschepende methodes toe die als gebrek &#x200B;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) voor B2B- orden worden geplaatst. |
+     | `All Enabled Shipping Methods` | Maakt alle [&#x200B; toegelaten verschepende methodes &#x200B;](../configuration-reference/sales/delivery-methods.md) beschikbaar voor klantenrekeningen verbonden aan de bedrijfrekening. |
      | `Selected Shipping Methods` | Hiermee kunt u de verzendmethoden selecteren die beschikbaar zijn voor klantenaccounts die zijn gekoppeld aan het bedrijfsaccount. Als u meerdere verzendmethoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 
      {style="table-layout:auto"}
@@ -239,7 +239,7 @@ Het proces om een bedrijf van Admin tot stand te brengen is in wezen het zelfde 
 
    Wanneer het verzoek om een bedrijfsaccount te maken door de handelaar wordt goedgekeurd, wordt een e-mailmelding verzonden naar het e-mailadres van de bedrijfsbeheerder.
 
-   Wanneer het wachtwoord wordt geplaatst, kan de bedrijfbeheerder [ binnen ondertekenen ](../customers/customer-sign-in.md) aan de rekening.
+   Wanneer het wachtwoord wordt geplaatst, kan de bedrijfbeheerder [&#x200B; binnen ondertekenen &#x200B;](../customers/customer-sign-in.md) aan de rekening.
 
 ## Na het maken van de account
 
@@ -349,7 +349,7 @@ Bij het maken en beheren van bedrijfsaccounts:
 | Veld | Beschrijving |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | De volledige wettelijke naam van de onderneming. |
-| [!UICONTROL VAT / TAX ID] | Het [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan het bedrijf door sommige jurisdicties voor belastingrapporteringsdoeleinden wordt toegewezen. Om de klant BTW/BELASTINGidentiteitskaart te vormen om in de storefront te verschijnen, zie [ de Nieuwe Opties van de Rekening ](../configuration-reference/customers/customer-configuration.md) creëren. <br/> **_Note:_** de bedrijfbeheerder en andere bedrijfgebruikers hebben hun eigen afzonderlijke BTW/BELASTINGaantallen in hun klantenrekeningen niet. |
+| [!UICONTROL VAT / TAX ID] | Het [&#x200B; waarde-toegevoegde belasting &#x200B;](../stores-purchase/vat.md) aantal dat aan het bedrijf door sommige jurisdicties voor belastingrapporteringsdoeleinden wordt toegewezen. Om de klant BTW/BELASTINGidentiteitskaart te vormen om in de storefront te verschijnen, zie [&#x200B; de Nieuwe Opties van de Rekening &#x200B;](../configuration-reference/customers/customer-configuration.md) creëren. <br/> **_Note:_** de bedrijfbeheerder en andere bedrijfgebruikers hebben hun eigen afzonderlijke BTW/BELASTINGaantallen in hun klantenrekeningen niet. |
 | [!UICONTROL Reseller ID] | Het wederverkoopnummer dat aan de onderneming wordt toegekend voor belastingverslagleggingsdoeleinden. |
 | [!UICONTROL Comment] | (Alleen beheerder) Deze opmerkingen over de bedrijfsaccount zijn ter referentie en zijn alleen zichtbaar vanuit de beheerder. |
 
@@ -366,7 +366,7 @@ Bij het maken en beheren van bedrijfsaccounts:
 | [!UICONTROL Country] | Het land waar de onderneming is geregistreerd om zaken te doen. |
 | [!UICONTROL State/Province] | De staat of provincie waar het bedrijf is geregistreerd om zaken te doen. |
 | [!UICONTROL City] | De stad waar de onderneming is geregistreerd om zaken te doen. |
-| [!UICONTROL Group/Shared Catalog] | (Admin slechts) toont de [ klantengroep ](../customers/customer-groups.md) of [ gedeelde catalogus ](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Group/Shared Catalog] | (Admin slechts) toont de [&#x200B; klantengroep &#x200B;](../customers/customer-groups.md) of [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Company Admin] | De volledige naam van de bedrijfbeheerder. |
 | [!UICONTROL Action] | De lijst van mogelijke acties voor die bedrijfslijn. |
 
@@ -416,13 +416,13 @@ Bij het maken en beheren van bedrijfsaccounts:
 
 #### [!UICONTROL Advanced Settings]
 
-U kunt geavanceerde montages voor individuele bedrijven vormen. Als u een bedrijfshiërarchie creeert, kunt u de montagesconfiguratie stroomlijnen door de montages voor het ouderbedrijf te vormen en die montages op alle of geselecteerde kindbedrijven toe te passen in plaats van elk kindbedrijf individueel te vormen. Voor meer informatie, zie [ de Hiërarchie van het Bedrijf beheren ](manage-company-hierarchy.md).
+U kunt geavanceerde montages voor individuele bedrijven vormen. Als u een bedrijfshiërarchie creeert, kunt u de montagesconfiguratie stroomlijnen door de montages voor het ouderbedrijf te vormen en die montages op alle of geselecteerde kindbedrijven toe te passen in plaats van elk kindbedrijf individueel te vormen. Voor meer informatie, zie [&#x200B; de Hiërarchie van het Bedrijf beheren &#x200B;](manage-company-hierarchy.md).
 
 | Veld | Beschrijving |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | (Admin slechts) toont de [ klantengroep ](../customers/customer-groups.md) of [ gedeelde catalogus ](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
+| [!UICONTROL Customer Group] | (Admin slechts) toont de [&#x200B; klantengroep &#x200B;](../customers/customer-groups.md) of [&#x200B; gedeelde catalogus &#x200B;](catalog-shared.md) die aan het bedrijf wordt toegewezen. |
 | [!UICONTROL Allow Quotes] | (Alleen beheerder) Hiermee wordt bepaald of leden van het bedrijf namens het bedrijf verhandelbare noteringen kunnen opstellen en indienen. |
-| [!UICONTROL Enable Purchase Orders] | (Alleen Admin) Hiermee bepaalt u of leden van het bedrijf orders kunnen indienen als [ inkooporders ](account-dashboard-my-purchase-orders.md) namens het bedrijf. |
+| [!UICONTROL Enable Purchase Orders] | (Alleen Admin) Hiermee bepaalt u of leden van het bedrijf orders kunnen indienen als [&#x200B; inkooporders &#x200B;](account-dashboard-my-purchase-orders.md) namens het bedrijf. |
 | Toepasselijke betalingsmethoden | (Alleen beheerder) Geeft de betalingsmethoden aan die beschikbaar zijn voor aankopen door bedrijven. Opties: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Alleen beheerder) Wordt actief als u specifieke betalingsmethoden activeert. Als u meerdere betalingsmethoden beschikbaar wilt maken voor de bedrijfsaccount, houdt u Ctrl (PC) of Command (Mac) ingedrukt en selecteert u elke optie. |
 | [!UICONTROL Applicable Shipping Methods] | (Alleen beheerder) Geeft de verzendmethoden aan die beschikbaar zijn voor aankopen door bedrijven. Opties: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
@@ -432,12 +432,12 @@ U kunt geavanceerde montages voor individuele bedrijven vormen. Als u een bedrij
 
 >[!MORELIKETHIS]
 >
->* [ laat B2B Eigenschappen ](enable-basic-features.md) toe - vorm de fundamentele functionaliteit B2B
->* [ de Structuur van de Rekening van het Bedrijf ](account-company-structure.md) - organiseer gebruikers en afdelingen van de storefront
->* [ Beheer de Gebruikers van het Bedrijf ](account-company-users.md) - voeg en vorm werknemersrekeningen van storefront toe
->* [ - Begrijp beheerderverantwoordelijkheden van de Beheerder van 0&rbrace; Bedrijf](account-company-admin.md)
->* [ beheert Bedrijven ](manage-companies.md) - administratief overzicht van bedrijfbeheer
->* [ Beheer van het Krediet van het Bedrijf ](credit-company.md) - opstelling en beheer bedrijfskrediet van Admin
->* [ Werkschema van de Inkooporder ](purchase-order-flow.md) - vorm goedkeuringsprocessen van Admin
->* [ Rollen van het Bedrijf en Toestemmingen ](account-company-roles-permissions.md) - de niveaus van de gebruikerstoegang van de Controle van Admin
->* [ B2B de Verwijzing van de Configuratie ](../configuration-reference/general/b2b-features.md) - Gedetailleerde systeemmontages
+>* [&#x200B; laat B2B Eigenschappen &#x200B;](enable-basic-features.md) toe - vorm de fundamentele functionaliteit B2B
+>* [&#x200B; de Structuur van de Rekening van het Bedrijf &#x200B;](account-company-structure.md) - organiseer gebruikers en afdelingen van de storefront
+>* [&#x200B; Beheer de Gebruikers van het Bedrijf &#x200B;](account-company-users.md) - voeg en vorm werknemersrekeningen van storefront toe
+>* [&#x200B; - Begrijp beheerderverantwoordelijkheden van de Beheerder van 0&rbrace; Bedrijf](account-company-admin.md)
+>* [&#x200B; beheert Bedrijven &#x200B;](manage-companies.md) - administratief overzicht van bedrijfbeheer
+>* [&#x200B; Beheer van het Krediet van het Bedrijf &#x200B;](credit-company.md) - opstelling en beheer bedrijfskrediet van Admin
+>* [&#x200B; Werkschema van de Inkooporder &#x200B;](purchase-order-flow.md) - vorm goedkeuringsprocessen van Admin
+>* [&#x200B; Rollen van het Bedrijf en Toestemmingen &#x200B;](account-company-roles-permissions.md) - de niveaus van de gebruikerstoegang van de Controle van Admin
+>* [&#x200B; B2B de Verwijzing van de Configuratie &#x200B;](../configuration-reference/general/b2b-features.md) - Gedetailleerde systeemmontages

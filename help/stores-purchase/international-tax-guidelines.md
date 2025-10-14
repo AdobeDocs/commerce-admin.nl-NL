@@ -356,13 +356,13 @@ Maak de volgende belastingregels:
 
    - Stel in de linkerbovenhoek **[!UICONTROL Default Config]** in op de Franse opslag.
 
-   - Voor de Algemene pagina, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** sectie uit, en plaats het standaardland aan `France`.
+   - Voor de Algemene pagina, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** sectie uit, en plaats het standaardland aan `France`.
 
    - Vul de gewenste landinstellingen in.
 
 1. Kies in de linkerbovenhoek de optie Duits **[!UICONTROL Store View]** .
 
-1. Voor de _Algemene_ pagina, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** uit en plaats het standaardland aan `Germany`.
+1. Voor de _Algemene_ pagina, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** uit en plaats het standaardland aan `Germany`.
 
 1. Vul de gewenste landinstellingen in.
 
@@ -407,7 +407,7 @@ Voer de volgende algemene belastinginstellingen in:
 
    - Schakel het selectievakje **[!UICONTROL Use Website]** na elk veld uit.
 
-   - Om het Verschepende Punt van Montages van uw plaats [ van oorsprong ](shipping-settings.md#point-of-origin) aan te passen, werk de volgende waarden bij:
+   - Om het Verschepende Punt van Montages van uw plaats [&#x200B; van oorsprong &#x200B;](shipping-settings.md#point-of-origin) aan te passen, werk de volgende waarden bij:
 
       - Standaardland
       - Standaardstatus
@@ -415,6 +415,6 @@ Voer de volgende algemene belastinginstellingen in:
 
      Deze instelling zorgt ervoor dat de belasting correct wordt berekend wanneer de productprijzen belasting bevatten.
 
-     ![ Berekening van de StandaardBelastingbestemming ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![&#x200B; Berekening van de StandaardBelastingbestemming &#x200B;](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Dynamische media-URL&#39;s
 
-Een dynamische media-URL is een relatieve verwijzing naar een afbeelding of ander media-element. Wanneer toegelaten, kunnen de dynamische media URLs worden gebruikt om rechtstreeks met activa op uw server, of aan dossiers te verbinden die op het netwerk van de inhoudslevering van a [ worden opgeslagen ](media-storage-content-delivery-network.md). Het gebruik van dynamische media URLs kan catalogusprestaties beïnvloeden, en de [ redacteur ](editor.md#configure-the-editor) kan worden gevormd om of statische of dynamische media URLs te gebruiken.
+Een dynamische media-URL is een relatieve verwijzing naar een afbeelding of ander media-element. Wanneer toegelaten, kunnen de dynamische media URLs worden gebruikt om rechtstreeks met activa op uw server, of aan dossiers te verbinden die op het netwerk van de inhoudslevering van a [&#x200B; worden opgeslagen &#x200B;](media-storage-content-delivery-network.md). Het gebruik van dynamische media URLs kan catalogusprestaties beïnvloeden, en de [&#x200B; redacteur &#x200B;](editor.md#configure-the-editor) kan worden gevormd om of statische of dynamische media URLs te gebruiken.
 
-Zoals met alle [ prijsverhogingsmarkeringen ](../systems/markup-tags.md), is de richtlijn ingesloten in dubbele krullende steunen. De indeling van een dynamische media-URL ziet er als volgt uit:
+Zoals met alle [&#x200B; prijsverhogingsmarkeringen &#x200B;](../systems/markup-tags.md), is de richtlijn ingesloten in dubbele krullende steunen. De indeling van een dynamische media-URL ziet er als volgt uit:
 
 `\{\{media url="path/to/image.jpg"}}`
 
@@ -31,13 +31,13 @@ Afbeeldingen die vanuit de WYSIWYG-editor in de catalogus worden ingevoegd, hebb
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL WYSIWYG Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL WYSIWYG Options]** sectie uit.
 
-   ![ de Opties van WYSIWYG ](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de Opties van WYSIWYG &#x200B;](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** in op een van de volgende opties:
 
-   - `Yes` - Gebruikt statische URL&#39;s voor media-inhoud die met de WYSIWYG-editor is ingevoegd. Statische URLs is absolute en onderbreking als [ basis URL ](../stores-purchase/store-urls.md) van de opslag verandert.
+   - `Yes` - Gebruikt statische URL&#39;s voor media-inhoud die met de WYSIWYG-editor is ingevoegd. Statische URLs is absolute en onderbreking als [&#x200B; basis URL &#x200B;](../stores-purchase/store-urls.md) van de opslag verandert.
 
    - `No` - (Standaard) Gebruikt dynamische URL&#39;s voor media-inhoud die met de WYSIWYG-editor wordt ingevoegd, op basis van de instructie `\{\{media url="..."}}` . Dynamische URL&#39;s zijn relatief en worden niet afgebroken als de basis-URL van de winkel verandert.
 

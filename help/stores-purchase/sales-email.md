@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Verschillende e-mailberichten worden geactiveerd door de gebeurtenissen met betrekking tot een bestelling en de configuratie is vergelijkbaar. Zorg ervoor dat u het opslagcontact identificeert dat als afzender van het bericht verschijnt, het te gebruiken e-mailmalplaatje, en iedereen anders die een exemplaar van het bericht moet ontvangen. Verkoop-e-mails kunnen worden verzonden wanneer ze worden geactiveerd door een gebeurtenis of door een vooraf bepaald interval.
 
-![ de configuratie van de Verkoop - verkoop e-mails ](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
+![&#x200B; de configuratie van de Verkoop - verkoop e-mails &#x200B;](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
 
 ## Stap 1. E-mailsjablonen bijwerken
 
-Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-template) malplaatje bij te werken zodat het uw merk, en de andere e-mailmalplaatjes zoals nodig weerspiegelt. Voor een volledige lijst van malplaatjes, zie [ E-mailmalplaatjes ](../systems/email-templates.md).
+Zorg ervoor om het [&#x200B; e-mailkopbal &#x200B;](../systems/email-template-custom.md#header-template) malplaatje bij te werken zodat het uw merk, en de andere e-mailmalplaatjes zoals nodig weerspiegelt. Voor een volledige lijst van malplaatjes, zie [&#x200B; E-mailmalplaatjes &#x200B;](../systems/email-templates.md).
 
 ## Stap 2. Het type verzending kiezen
 
@@ -26,22 +26,22 @@ Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-t
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales Emails]** .
 
-1. Indien noodzakelijk, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** sectie uit.
+1. Indien noodzakelijk, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Settings]** sectie uit.
 
-   ![ configuratie van de Verkoop - verkoop e-mail algemene montages ](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - verkoop e-mail algemene montages &#x200B;](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
    Standaard is Asynchroon verzenden ingesteld op `Disable` . Als u de systeeminstelling wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit en stelt u **[!UICONTROL Asynchronous sending]** in op een van de volgende opties:
 
    - `Disable` - Verstuurt een e-mail over de verkoop wanneer deze door een gebeurtenis wordt geactiveerd.
    - `Enable` - Verzendt een e-mail met vooraf bepaalde, regelmatige intervallen.
 
-   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [ beste praktijken van de Configuratie voor ordeverwerking ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=nl-NL) in de Kennisbank van de Steun van Adobe Commerce.
+   Adobe Commerce Support raadt u aan asynchrone verzending in te schakelen om de prestaties voor het plaatsen van bestellingen te verbeteren. Zie [&#x200B; beste praktijken van de Configuratie voor ordeverwerking &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=nl-NL) in de Kennisbank van de Steun van Adobe Commerce.
 
 ## Stap 3. Voer de gegevens voor elk e-mailbericht in
 
-1. Indien noodzakelijk, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
+1. Indien noodzakelijk, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
 
-   ![ configuratie van de Verkoop - verkoop e-mailorde ](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - verkoop e-mailorde &#x200B;](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
 1. Controleer of **[!UICONTROL Enabled]** is ingesteld op `Yes` (standaardwaarde).
 
@@ -60,9 +60,9 @@ Zorg ervoor om het [ e-mailkopbal ](../systems/email-template-custom.md#header-t
    - `Bcc` - verzendt a _blinde beleefdheidsexemplaar_ door de ontvanger in de kopbal van zelfde e-mail te omvatten die naar de klant wordt verzonden. De ontvanger BCC is niet zichtbaar aan de klant.
    - `Separate Email` - Verzendt de kopie als een aparte e-mail.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order Comments]** sectie uit en herhaal deze stappen.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order Comments]** sectie uit en herhaal deze stappen.
 
-   ![ de configuratie van de Verkoop - de opmerkingen van de de ordeorde van de Verkoop ](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van de Verkoop - de opmerkingen van de de ordeorde van de Verkoop &#x200B;](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
 
 1. Voltooi de configuratie voor de overige e-mailtypen voor de verkoop:
 

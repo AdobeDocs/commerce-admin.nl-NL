@@ -18,11 +18,11 @@ Met widgets kunt u bestemmingspagina&#39;s maken voor marketingcampagnes en prom
 
 {{$include /help/_includes/directives-caution.md}}
 
-![ Nieuwe widget van de Lijst van het Product ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![&#x200B; Nieuwe widget van de Lijst van het Product &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Widgettypen
 
-Wanneer u [ een widget ](widget-create.md) creeert, moet u het type plaatsen. Dit type bepaalt hoe de widget werkt.
+Wanneer u [&#x200B; een widget &#x200B;](widget-create.md) creeert, moet u het type plaatsen. Dit type bepaalt hoe de widget werkt.
 
 | Type | Beschrijving |
 |--- |--- |

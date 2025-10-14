@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt zo veel sjablonen voor nieuwsbrieven maken als u nodig hebt voor verschillende doeleinden. U kunt een wekelijkse productupdate, een maandelijkse nieuwsbrief, of jaarlijkse vakantienieuwsbrief verzenden. De malplaatjes van de nieuwsbrief kunnen met HTML prijsverhoging, of als gewone teksten worden voorbereid. In tegenstelling tot HTML, bevatten gewone tekstnieuwsbrieven geen beelden, rijke teksten, of geformatteerde verbindingen. In het raster geeft de kolom Sjabloontype aan of een sjabloon HTML of tekst is.
 
-![ Malplaatjes van de Nieuwsbrief - voeg aan nieuwsbrief rij ](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"} toe
+![&#x200B; Malplaatjes van de Nieuwsbrief - voeg aan nieuwsbrief rij &#x200B;](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"} toe
 
 ## Een sjabloon voor een nieuwsbrief maken
 
@@ -32,11 +32,11 @@ U kunt zo veel sjablonen voor nieuwsbrieven maken als u nodig hebt voor verschil
 
    - Voer bij **[!UICONTROL Sender Email]** het e-mailadres van de nieuwszender in.
 
-   ![ de informatie van het malplaatje van de Nieuwsbrief ](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
+   ![&#x200B; de informatie van het malplaatje van de Nieuwsbrief &#x200B;](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
    - Voor **[!UICONTROL Template Content]** klikt u op **[!UICONTROL Show / Hide Editor]** om de WYSIWYG-editor weer te geven en de inhoud waar nodig bij te werken.
 
-     Meer leren, zie [ Gebruikend de Redacteur ](../content-design/editor.md).
+     Meer leren, zie [&#x200B; Gebruikend de Redacteur &#x200B;](../content-design/editor.md).
 
      >[!NOTE]
      >

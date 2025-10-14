@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
+>De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [&#x200B; facetten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Met gelaagde navigatie kunt u gemakkelijk producten zoeken op basis van categorie, prijsbereik of andere beschikbare kenmerken. De gelaagde navigatie toont gewoonlijk in de linkerkolom van onderzoeksresultaten en categoriepagina&#39;s en soms op de homepage. De standaardnavigatie omvat a _Winkel door_ lijst van categorieën en prijswaaier. U kunt de weergave van gelaagde navigatie configureren, inclusief het aantal producten en het prijsbereik.
 
-![ Gelaagde navigatie door categorie en prijs ](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
+![&#x200B; Gelaagde navigatie door categorie en prijs &#x200B;](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
 ## Filterbare kenmerken
 
 >[!NOTE]
 >
->De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [ Levende Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview). Meer leren, zie [ Facetten ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
+>De filterbare kenmerkvereisten die in dit onderwerp worden beschreven verschillen voor [&#x200B; Levende Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview). Meer leren, zie [&#x200B; Facetten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Gelaagde navigatie kan worden gebruikt om naar producten door categorie of door attribuut te zoeken. Als een winkelier bijvoorbeeld de categorie Mens/Shorts kiest in de bovenste navigatie, worden in de eerste resultaten alle producten in de categorie opgenomen. De lijst kan verder worden gefilterd door een specifieke stijl, een specifiek klimaat, een bepaalde kleur, een bepaald materiaal, een bepaald patroon of een bepaalde prijs (of een combinatie van waarden) te kiezen. Filterbare kenmerken worden weergegeven in een uitbreidende sectie waarin elke kenmerkwaarde wordt vermeld. Als optie, kan de lijst van producten met passende resultaten worden gevormd om producten met, of zonder, een gelijke te omvatten.
 
@@ -32,13 +32,13 @@ De kenmerkeigenschappen, in combinatie met het type van productinput, bepalen we
 
 _Voorbeeld: Filterbare attributen met resultaten_
 
-![ Filterable attributen in gelaagde navigatie ](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
+![&#x200B; Filterable attributen in gelaagde navigatie &#x200B;](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
 
 _Voorbeeld: Filterbare die staalwaarden zonder resultaat_ worden getoond
 
-![ Filterable monsterwaarde zonder resultaten ](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
+![&#x200B; Filterable monsterwaarde zonder resultaten &#x200B;](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbare kenmerken instelt. Voor geavanceerde gelaagde navigatie met prijsstappen, zie [ Navigatie van de Prijs ](navigation-layered.md#configure-price-navigation).
+De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbare kenmerken instelt. Voor geavanceerde gelaagde navigatie met prijsstappen, zie [&#x200B; Navigatie van de Prijs &#x200B;](navigation-layered.md#configure-price-navigation).
 
 ## Stap 1: Opstelling de attributeneigenschappen
 
@@ -46,7 +46,7 @@ De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbar
 
 1. Blader naar of gebruik de gefilterde zoekopdracht om een kenmerk in de lijst te zoeken en open het in de bewerkingsmodus.
 
-   ![ ga onderzoekstermijnen per kolom in om gefilterde onderzoek ](./assets/attribute-search.png){width="700" zoomable="yes"} te gebruiken
+   ![&#x200B; ga onderzoekstermijnen per kolom in om gefilterde onderzoek &#x200B;](./assets/attribute-search.png){width="700" zoomable="yes"} te gebruiken
 
 1. Kies **[!UICONTROL Storefront Properties]** in het linkerdeelvenster en stel **[!UICONTROL Use In Layered Navigation]** in op een van de volgende opties:
 
@@ -56,7 +56,7 @@ De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbar
 
 1. Stel **[!UICONTROL Use In Search Results Layered Navigation]** in op `Yes` .
 
-   ![ eigenschappen Storefront ](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; eigenschappen Storefront &#x200B;](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Herhaal deze stappen voor elk kenmerk dat u in gelaagde navigatie wilt opnemen.
 
@@ -72,9 +72,9 @@ De volgende instructies tonen hoe u elementaire gelaagde navigatie met filterbar
 
 1. Selecteer in de categoriestructuur de categorie waarin u gelaagde navigatie wilt gebruiken.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Display Settings]** sectie uit en reeks **[!UICONTROL Anchor]** aan `Yes`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Display Settings]** sectie uit en reeks **[!UICONTROL Anchor]** aan `Yes`.
 
-   ![ Montages van de Vertoning van de Categorie ](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
+   ![&#x200B; Montages van de Vertoning van de Categorie &#x200B;](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -88,7 +88,7 @@ Zoek, filter, en herzie de getoonde producten.
 
 Gelaagde navigatie omvat filters voor alle beschikbare attributenwaarden en hun productaantallen, met inbegrip van producten met nul (0) productgelijken (zoals aangetoond in het volgende beeld).
 
-![ Nul filters die ](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"} tonen
+![&#x200B; Nul filters die &#x200B;](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"} tonen
 
 Dit resultaat kan het voor klanten moeilijk maken om een voorkeursproduct te selecteren en het is niet nodig om kenmerkwaarden weer te geven &#x200B; &#x200B; met 0 producten aan de voorzijde.
 
@@ -102,7 +102,7 @@ U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producte
 
 1. Kies **[!UICONTROL Layered Navigation]** bij `Filterable (with results)` .
 
-   ![ sectie van de Informatie van Attributen ](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; sectie van de Informatie van Attributen &#x200B;](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Attribute]**.
 
@@ -110,7 +110,7 @@ U kunt de volgende stappen gebruiken om filterbare kenmerkwaarden met 0 Producte
 
 >[!NOTE]
 >
->De configuratie van de prijsnavigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
+>De configuratie van de prijsnavigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [&#x200B; facetten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
 
 De navigatie van de prijs kan worden gebruikt om producten door prijswaaier in gelaagde navigatie te verdelen. U kunt elk bereik ook in intervallen splitsen. Er zijn een paar manieren om prijsnavigatie te berekenen:
 
@@ -149,19 +149,19 @@ Iteratieve splitsing zorgt voor de beste verdeling van de producten over de prij
 
 >[!IMPORTANT]
 >
->Om producten en hun prijzen correct te tonen volgens _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde _[!UICONTROL Calculation Settings]_&#x200B;voor **[!UICONTROL Catalog Prices]**. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+>Om producten en hun prijzen correct te tonen volgens _prijsfilters_ in de gelaagde navigatie, zorg ervoor dat de montages voor de prijsvertoning in de [&#x200B; configuratie van de BTW van de Verkoop &#x200B;](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde _[!UICONTROL Calculation Settings]_&#x200B;voor **[!UICONTROL Catalog Prices]**. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _Gelaagde sectie van de Navigatie_.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _Gelaagde sectie van de Navigatie_.
 
    Standaard is **[!UICONTROL Display Product Count]** ingesteld op `Yes` . Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit om deze instelling te wijzigen.
 
-   ![ Gelaagde Navigatie ](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
+   ![&#x200B; Gelaagde Navigatie &#x200B;](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze configuratieopties, zie [ Gelaagde Navigatie ](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze configuratieopties, zie [&#x200B; Gelaagde Navigatie &#x200B;](../configuration-reference/catalog/catalog.md#layered-navigation) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Price Navigation Steps Calculation]** in voor een van de methoden in de volgende secties.
 
@@ -185,7 +185,7 @@ Laat **[!UICONTROL Price Navigation Steps Calculation]** ingesteld staan op `Aut
 
    Het bereik kan niet verder worden opgesplitst dan deze limiet. De standaardwaarde is `9` .
 
-   ![ Automatisch (equalize producttellingen) ](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
+   ![&#x200B; Automatisch (equalize producttellingen) &#x200B;](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
 
 ### Methode 3: Handmatig
 
@@ -199,13 +199,13 @@ Laat **[!UICONTROL Price Navigation Steps Calculation]** ingesteld staan op `Aut
 
 1. Voer de toegestane **[!UICONTROL Maximum Number of Price Intervals]** in (maximaal `100` ).
 
-   ![ Handmatig ](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
+   ![&#x200B; Handmatig &#x200B;](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
 ## Gelaagde navigatie configureren
 
 >[!NOTE]
 >
->De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [ facetten ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
+>De standaard gelaagde navigatie die in deze sectie wordt beschreven verschilt van Levend Onderzoek gefilterde navigatie met [&#x200B; facetten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets).
 
 De gelaagde navigatieconfiguratie bepaalt als een producttelling tussen haakjes na elk attribuut, en de grootte van de stapberekening toont die in prijsnavigatie wordt gebruikt.
 

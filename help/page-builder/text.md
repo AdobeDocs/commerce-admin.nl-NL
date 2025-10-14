@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # Elementen - tekst
 
-Gebruik het _inhoudstype van de Tekst_ om een tekstcontainer met een redacteur van WYSIWYG (&quot;What You See Is What You Get&quot;) in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. Bovendien kunt u verbindingen, beelden, [ variabelen ](../systems/variables-predefined.md), en widgets aan de tekst van de redacteurstoolbar toevoegen.
+Gebruik het _inhoudstype van de Tekst_ om een tekstcontainer met een redacteur van WYSIWYG (&quot;What You See Is What You Get&quot;) in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. Bovendien kunt u verbindingen, beelden, [&#x200B; variabelen &#x200B;](../systems/variables-predefined.md), en widgets aan de tekst van de redacteurstoolbar toevoegen.
 
-![ Opgemaakte tekst op een banner ](./assets/pb-storefont-banner-with-button.png){width="700"}
+![&#x200B; Opgemaakte tekst op een banner &#x200B;](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Gereedschappen voor teksteditor
 
-U kunt de teksteditor rechtstreeks vanuit het werkgebied of vanaf een instellingspagina openen. Wijzigingen die rechtstreeks in het werkgebied worden aangebracht, worden automatisch opgeslagen. Voor meer informatie, zie [ Gebruikend de Redacteur ](../content-design/editor.md).
+U kunt de teksteditor rechtstreeks vanuit het werkgebied of vanaf een instellingspagina openen. Wijzigingen die rechtstreeks in het werkgebied worden aangebracht, worden automatisch opgeslagen. Voor meer informatie, zie [&#x200B; Gebruikend de Redacteur &#x200B;](../content-design/editor.md).
 
-![ het redacteurshulpmiddel van de Tekst - TinyMCE ](./assets/pb-elements-text-editor-tools.png){width="600"}
+![&#x200B; het redacteurshulpmiddel van de Tekst - TinyMCE &#x200B;](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## Gereedschap Tekstcontainer
 
-![ de containertoolbox van de Tekst ](./assets/pb-elements-text-toolbox.png){width="600"}
+![&#x200B; de containertoolbox van de Tekst &#x200B;](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | --------------------- | -------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de tekstcontainer naar een andere geldige plaats op de pagina. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Verplaatst de tekstcontainer naar een andere geldige plaats op de pagina. |
 | (label) | TEXT | Identificeert de huidige container als een tekstelement. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de eigenschappen van de tekstcontainer in de bewerkingsmodus. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de tekstcontainer. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen tekstcontainer weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de tekstcontainer. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Verwijdert de tekstcontainer en de inhoud ervan uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de eigenschappen van de tekstcontainer in de bewerkingsmodus. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Verbergt de tekstcontainer. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen tekstcontainer weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de tekstcontainer. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Verwijdert de tekstcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -46,19 +46,19 @@ U kunt de teksteditor rechtstreeks vanuit het werkgebied of vanaf een instelling
 
 1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Elements]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Text]** naar een rij, kolom of tabset in het werkgebied.
 
-   ![ slepend een tekstplaceholder aan het stadium ](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een tekstplaceholder aan het stadium &#x200B;](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. Gebruik de editor om zo nodig tekst in te voeren en op te maken.
 
-   Voor meer informatie, zie [ Gebruikend de Redacteur ](../content-design/editor.md).
+   Voor meer informatie, zie [&#x200B; Gebruikend de Redacteur &#x200B;](../content-design/editor.md).
 
-   ![ redacteur van de Tekst met inhoud ](./assets/pb-elements-text-editor.png){width="600"}
+   ![&#x200B; redacteur van de Tekst met inhoud &#x200B;](./assets/pb-elements-text-editor.png){width="600"}
 
 ## Een koppeling maken
 
 Met de knop Koppeling invoegen in de editor kunt u gemakkelijk een hyperlink naar een afbeelding in de galerie toevoegen. Het kan echter ook worden gebruikt om een inline-koppeling in tekst te maken, als u de URL vooraf hebt. In tegenstelling tot de knop Widget is de knop Koppeling invoegen/bewerken niet geïntegreerd met pagina&#39;s, producten of categorieën in de winkel.
 
-Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ Toevoegend de Variabelen van de Douane ](../systems/variables-custom.md).
+Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [&#x200B; Toevoegend de Variabelen van de Douane &#x200B;](../systems/variables-custom.md).
 
 1. Navigeer in de storefront naar de pagina die de doelbestemming voor de koppeling moet zijn en kopieer de koppelingsinformatie.
 
@@ -68,9 +68,9 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
    Relatieve URL - `../women/tops-women/tees-women.html`
 
-1. Selecteer de tekst in de redacteursruimte en klik _Tussenvoegsel/geef verbinding_ uit ( ![ Tussenvoegsel/geef verbindingsknoop ](./assets/pb-icon-add-link.png){width="20"}) op de redacteurstoolbar uit.
+1. Selecteer de tekst in de redacteursruimte en klik _Tussenvoegsel/geef verbinding_ uit ( ![&#x200B; Tussenvoegsel/geef verbindingsknoop &#x200B;](./assets/pb-icon-add-link.png){width="20"}) op de redacteurstoolbar uit.
 
-   ![ Toevoegend een verbinding aan geformatteerde teksten ](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
+   ![&#x200B; Toevoegend een verbinding aan geformatteerde teksten &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL URL]** de relatieve koppeling in die u hebt voorbereid.
 
@@ -84,13 +84,13 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
 1. Klik op [!DNL Page Builder] om de koppeling op te slaan en terug te keren naar de werkruimte van **[!UICONTROL OK]** .
 
-   ![ het detail van de Verbinding ](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
+   ![&#x200B; het detail van de Verbinding &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
 ## Een afbeelding invoegen
 
 1. Plaats de cursor in de tekst waar u de afbeelding wilt invoegen.
 
-1. Klik _Tussenvoegsel/geef beeld_ uit ( ![ Tussenvoegsel/geef beeldknoop uit ](./assets/icon-pb-add-image.png){width="20"}) op de redacteurstoolbar.
+1. Klik _Tussenvoegsel/geef beeld_ uit ( ![&#x200B; Tussenvoegsel/geef beeldknoop uit &#x200B;](./assets/icon-pb-add-image.png){width="20"}) op de redacteurstoolbar.
 
 1. Klik bij **[!UICONTROL Source]** op het zoekpictogram om de mediaopslag te gebruiken voor het zoeken naar en het selecteren van een afbeelding.
 
@@ -106,7 +106,7 @@ Om een verbinding voor een telefoonnummer of e-mail tot stand te brengen, zie [ 
 
 ## Tekstinstellingen wijzigen
 
-1. Beweeg over de tekstcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de tekstcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
    >[!NOTE]
    >

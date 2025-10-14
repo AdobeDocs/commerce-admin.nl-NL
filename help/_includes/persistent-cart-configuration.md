@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # [!UICONTROL General Options]
 
-![ Algemene Opties ](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
+![&#x200B; Algemene Opties &#x200B;](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
-| Veld | [ Reikwijdte ](/help/getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](/help/getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |------------------------------------------------------------------------|--- |
 | [!UICONTROL Enable Persistence] | Website | Hiermee bepaalt u of de functie voor persistentie is ingeschakeld. |
 | [!UICONTROL Persistence Lifetime (seconds)] | Website | Definieert de levensduur van de permanente cookie in seconden. De maximaal toegestane waarde is 34560000 seconden (400 dagen). Dit is een beperking van de maximale aanbevolen levensduur van cookies. |
@@ -23,11 +23,11 @@ ht-degree: 0%
 | [!UICONTROL "Remember Me" Default Value] | Website | Bepaalt de standaardstaat voor _me_ checkbox herinneren. |
 | [!UICONTROL Clear Persistence on Log Out] | Website | Bepaalt of het blijvende koekje wordt geschrapt wanneer een winkelklant zich uitlogt. Ongeacht hoe deze optie is geconfigureerd, als een klant zich niet afmeldt, maar het sessiecookie verloopt, wordt het permanente cookie nog steeds gebruikt. |
 | [!UICONTROL Persist Shopping Cart] | Website | Hiermee bepaalt u of het gebruik van de permanente cookie toegang geeft tot de gegevens van het winkelwagentje van de desbetreffende account. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
-| [!UICONTROL Persist Wish List] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de staat van klant wenst lijsten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**- De inhoud van de wensenlijst wordt opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De lijst met wensen wordt niet opgeslagen wanneer de sessie wordt beëindigd. |
-| [!UICONTROL Persist Recently Ordered Items] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van onlangs bevolen punten wordt bewaard wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
-| [!UICONTROL Persist Currently Compared Products] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van momenteel vergeleken producten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
-| [!UICONTROL Persist Comparison History] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van vergelijkingsgeschiedenis wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
-| [!UICONTROL Persist Recently Viewed Products] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van onlangs bekeken producten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
-| [!UICONTROL Persist Customer Group Membership and Segmentation] | Website | ![ Adobe Commerce ](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de staat van de groepslidmaatschap van klanten en de segmenteringscriteria worden behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**- De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden niet opgeslagen wanneer de sessie wordt beëindigd. |
+| [!UICONTROL Persist Wish List] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de staat van klant wenst lijsten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**- De inhoud van de wensenlijst wordt opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De lijst met wensen wordt niet opgeslagen wanneer de sessie wordt beëindigd. |
+| [!UICONTROL Persist Recently Ordered Items] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van onlangs bevolen punten wordt bewaard wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
+| [!UICONTROL Persist Currently Compared Products] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van momenteel vergeleken producten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
+| [!UICONTROL Persist Comparison History] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van vergelijkingsgeschiedenis wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
+| [!UICONTROL Persist Recently Viewed Products] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt of de staat van onlangs bekeken producten wordt behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**&#x200B;of **`No`**. |
+| [!UICONTROL Persist Customer Group Membership and Segmentation] | Website | ![&#x200B; Adobe Commerce &#x200B;](/help/assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt als de staat van de groepslidmaatschap van klanten en de segmenteringscriteria worden behouden wanneer de zitting beëindigt. Opties: <br/>**`Yes`**- De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden opgeslagen wanneer de sessie wordt beëindigd.<br/>**`No`** - De status van het groepslidmaatschap van de klant en de segmentatiegegevens worden niet opgeslagen wanneer de sessie wordt beëindigd. |
 
 {style="table-layout:auto"}

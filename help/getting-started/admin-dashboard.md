@@ -15,11 +15,11 @@ Het dashboard is gewoonlijk de eerste pagina die wanneer u login aan _Admin_ ver
 
 Als u een aanzienlijke hoeveelheid gegevens hebt die moet worden verwerkt, kan het diagram worden uitgeschakeld om de prestaties te verbeteren. Het dashboard in het volgende voorbeeld wordt gevormd om gegevens in real time te gebruiken en toont voltooide orden tegen het uur voor de laatste 24 uren. De grafiek wordt bijgewerkt voor elke voltooide orde.
 
-![ Dashboard ](./assets/dashboard-full.png){zoomable="yes"}
+![&#x200B; Dashboard &#x200B;](./assets/dashboard-full.png){zoomable="yes"}
 
-[ Geavanceerde Rapportering ](business-intelligence.md#advanced-reporting) toont een gepersonaliseerd dashboard dat op uw product, orde, en klantengegevens wordt gebaseerd.
+[&#x200B; Geavanceerde Rapportering &#x200B;](business-intelligence.md#advanced-reporting) toont een gepersonaliseerd dashboard dat op uw product, orde, en klantengegevens wordt gebaseerd.
 
-![ Geavanceerde Rapportering ](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
+![&#x200B; Geavanceerde Rapportering &#x200B;](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Het dashboard configureren
 
@@ -37,23 +37,23 @@ Als u een grote hoeveelheid te verwerken gegevens hebt, kunt u de weergave van h
 
 1. Vouw indien nodig de sectie **[!UICONTROL Dashboard]** uit.
 
-   ![ Geavanceerde configuratie - laat grafieken ](./assets/admin-dashboard-config.png){width="600"} toe
+   ![&#x200B; Geavanceerde configuratie - laat grafieken &#x200B;](./assets/admin-dashboard-config.png){width="600"} toe
 
 1. Als u de standaardwaarde wilt wijzigen, schakelt u het selectievakje **[!UICONTROL Use system value]** uit.
 
 1. Plaats **laat Grafieken** aan `Yes` toe.
 
-Voor meer informatie over de Admin configuratieopties, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/advanced/admin.md).
+Voor meer informatie over de Admin configuratieopties, zie de [&#x200B; Gids van de Verwijzing van de Configuratie &#x200B;](../configuration-reference/advanced/admin.md).
 
 ### De startpagina wijzigen
 
-Het dashboard is de standaard [ startpagina ](../configuration-reference/advanced/admin.md) voor Admin, hoewel u een verschillende startpagina kunt vormen.
+Het dashboard is de standaard [&#x200B; startpagina &#x200B;](../configuration-reference/advanced/admin.md) voor Admin, hoewel u een verschillende startpagina kunt vormen.
 
 1. Als u nog niet de beheerdersconfiguratieopties hebt geopend, kiest u **[!UICONTROL Admin]** onder _[!UICONTROL Advanced]_&#x200B;in het linkernavigatievenster.
 
 1. Klik om de **Startup sectie van de Pagina** uit te breiden.
 
-   ![ Admin dashboard - startpagina het plaatsen ](./assets/admin-startup-page.png){width="600"}
+   ![&#x200B; Admin dashboard - startpagina het plaatsen &#x200B;](./assets/admin-startup-page.png){width="600"}
 
 1. Wis **[!UICONTROL Use system value]** checkbox en kies de **Opstartpagina** die u wilt verschijnen wanneer u login aan Admin.
 
@@ -69,7 +69,7 @@ Het dashboard is de standaard [ startpagina ](../configuration-reference/advance
 
    - Plaats **Huidige Maand begint** aan de **Dag**.
 
-   ![ Admin Dashboard - datummontages ](./assets/reports-dashboard.png){width="600"}
+   ![&#x200B; Admin Dashboard - datummontages &#x200B;](./assets/reports-dashboard.png){width="600"}
 
 Voor meer informatie over de [!UICONTROL Reports] configuratieopties, zie de [_Gids van de Verwijzing van de Configuratie_](../configuration-reference/general/reports.md).
 
@@ -81,7 +81,7 @@ Het dashboarddiagram kan in real time of door historische, samengevoegde gegeven
 
 1. Vouw de sectie **[!UICONTROL Dashboard]** op de pagina uit.
 
-   ![ Admin dashboard - gegevensbron het plaatsen ](./assets/config-sales-dashboard.png){width="600"}
+   ![&#x200B; Admin dashboard - gegevensbron het plaatsen &#x200B;](./assets/config-sales-dashboard.png){width="600"}
 
 1. Schakel het selectievakje **[!UICONTROL Use system value]** uit en stel **[!UICONTROL Use Aggregated Data]** in op een van de volgende opties:
 
@@ -127,6 +127,6 @@ Het dashboarddiagram kan in real time of door historische, samengevoegde gegeven
 | Knop | Beschrijving |
 |--- |--- |
 | [!UICONTROL Reload Data] | Hiermee vernieuwt u de dashboardgegevens. |
-| [!UICONTROL Go to Advanced Reporting] | Toont een gepersonaliseerd dashboard van dynamische grafieken en rapporten die op uw product, orde, en klantengegevens worden gebaseerd. Voor uitgebreidere analyse, zie [ Geavanceerde Rapportering ](business-intelligence.md#advanced-reporting). |
+| [!UICONTROL Go to Advanced Reporting] | Toont een gepersonaliseerd dashboard van dynamische grafieken en rapporten die op uw product, orde, en klantengegevens worden gebaseerd. Voor uitgebreidere analyse, zie [&#x200B; Geavanceerde Rapportering &#x200B;](business-intelligence.md#advanced-reporting). |
 
 {style="table-layout:auto"}

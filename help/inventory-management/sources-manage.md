@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De bronnen zijn de fysieke plaatsen waar de productinventaris wordt beheerd en voor bestelling wordt verscheept, of waar de diensten beschikbaar zijn. Deze locaties kunnen opslagplaatsen, baksteen- en mortierwinkels, distributiecentra, ophaallocaties en neerslagbevrachters omvatten. U wijst voorraadhoeveelheden toe aan deze bronnen, en [!DNL Commerce] voegt automatisch de totale verkoopbare producten voor uw voorraden samen. Voor grote bedrijven voegt u meerdere bronnen toe voor al uw locaties: in verschillende geografische locaties per land en continent, locaties in een stad op basis van het type inventaris, zelfs op basis van services.
 
-U wordt aangeraden specifieke fysieke geografische locaties op te geven wanneer u een bron maakt. Dat staat het _Prioritaire Algoritme van de Afstand_ toe om de plaats van het verschepende bestemmingsadres met de beschikbare bronplaatsen te vergelijken om de dichtstbijzijnde bron te bepalen om verzendingen te vervullen. U kunt Google Maps of offlineberekeningen gebruiken, die geocodes gebruiken. Voor meer informatie over dit _Prioritair Algorithm van de Afstand_, zie [ het Prioritaire Algoritme van de Afstand ](distance-priority-algorithm.md) vormen.
+U wordt aangeraden specifieke fysieke geografische locaties op te geven wanneer u een bron maakt. Dat staat het _Prioritaire Algoritme van de Afstand_ toe om de plaats van het verschepende bestemmingsadres met de beschikbare bronplaatsen te vergelijken om de dichtstbijzijnde bron te bepalen om verzendingen te vervullen. U kunt Google Maps of offlineberekeningen gebruiken, die geocodes gebruiken. Voor meer informatie over dit _Prioritair Algorithm van de Afstand_, zie [&#x200B; het Prioritaire Algoritme van de Afstand &#x200B;](distance-priority-algorithm.md) vormen.
 
 Begin met a _Standaard Source_ dat u kunt bijwerken maar niet onbruikbaar maken. Deze bron wordt gebruikt door single-source handelaren en voor productmigratie. U hebt altijd een standaardbron nodig.
 
@@ -23,7 +23,7 @@ Begin met a _Standaard Source_ dat u kunt bijwerken maar niet onbruikbaar maken.
 
 In het volgende diagram ziet u de bronnen van een winkelhandelaar in fietsen die een mountainbikes verkoopt, die beschikbaar is voor voorraden en toegankelijk is voor de VS voor verzendingen.
 
-![ Bronsdiagram van het Voorbeeld ](assets/diagram-sources.png){width="600" zoomable="yes"}
+![&#x200B; Bronsdiagram van het Voorbeeld &#x200B;](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 Alle winkels beginnen met een standaard Source die ingeschakeld moet blijven:
 
@@ -40,13 +40,13 @@ De pagina _[!UICONTROL Manage Sources]_&#x200B;bevat een lijst met alle beschikb
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
-1. Om een inventarisplaats toe te voegen, zie [ Toevoegend een Nieuwe Source ](sources-add.md).
+1. Om een inventarisplaats toe te voegen, zie [&#x200B; Toevoegend een Nieuwe Source &#x200B;](sources-add.md).
 
 1. Vind de inventarisbron en open het op _geeft_ wijze uit.
 
 1. Werk de gegevens bij en sla de wijzigingen op.
 
-   ![ beheert Bronnen ](assets/inventory-sources.png){width="600" zoomable="yes"}
+   ![&#x200B; beheert Bronnen &#x200B;](assets/inventory-sources.png){width="600" zoomable="yes"}
 
 ## Knopbalk
 
@@ -61,7 +61,7 @@ De pagina _[!UICONTROL Manage Sources]_&#x200B;bevat een lijst met alle beschikb
 | [!UICONTROL Code] | Een unieke alfanumerieke code die door het systeem wordt gebruikt om de inventarisbron te identificeren. |
 | [!UICONTROL Name] | Een unieke naam die de inventarisbron voor Admin-gebruikers identificeert. |
 | [!UICONTROL Is Enabled] | Hiermee wordt aangegeven of de inventarisbron actief is en beschikbaar voor gebruik. |
-| [!UICONTROL Pickup Location] | Wijst erop als de bron actief als bestelwagenplaats voor [ in-opslaglevering ](../stores-purchase/shipping-in-store-delivery.md) is. |
+| [!UICONTROL Pickup Location] | Wijst erop als de bron actief als bestelwagenplaats voor [&#x200B; in-opslaglevering &#x200B;](../stores-purchase/shipping-in-store-delivery.md) is. |
 | [!UICONTROL Action] | Klik op **[!UICONTROL Edit]** om de inventarisbronrecord te openen in de bewerkingsmodus. |
 
 ## Andere kolommen

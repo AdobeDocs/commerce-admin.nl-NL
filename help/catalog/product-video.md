@@ -44,9 +44,9 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_&#x200B;sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_&#x200B;sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
 
-   ![ de Videoconfiguratie van het Product ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
+   ![&#x200B; de Videoconfiguratie van het Product &#x200B;](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -58,7 +58,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Blader naar de sectie _[!UICONTROL Images and Videos]_&#x200B;en vouw deze uit.
 
-   ![ Beelden en Video&#39;s ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![&#x200B; Beelden en Video&#39;s &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Video]** .
 
@@ -66,7 +66,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Voer bij **[!UICONTROL Url]** de URL in van de YouTube- of Vimeo-video.
 
-   ![ Nieuwe video voor product ](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe video voor product &#x200B;](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. Klik buiten het veld en wacht op feedback op de API-sleutel of -video.
 

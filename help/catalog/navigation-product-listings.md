@@ -18,7 +18,7 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 >
 >Wanneer u een categorie sorteert op een productkenmerk, worden producten met dezelfde kenmerkwaarden ook in oplopende volgorde gesorteerd op _[!UICONTROL Product ID]_.
 
-![ Producten die als net ](./assets/storefront-catalog-page.png){width="700" zoomable="yes"} worden getoond
+![&#x200B; Producten die als net &#x200B;](./assets/storefront-catalog-page.png){width="700" zoomable="yes"} worden getoond
 
 ## Productaanbiedingen configureren
 
@@ -26,15 +26,15 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Storefront]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Storefront]** sectie uit.
 
-   ![ de configuratieopties van de Storefront ](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratieopties van de Storefront &#x200B;](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [ Storefront ](../configuration-reference/catalog/catalog.md#storefront) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Storefront &#x200B;](../configuration-reference/catalog/catalog.md#storefront) in de _Verwijzing van de Configuratie_.
 
    >[!NOTE]
    >
-   >Om producten en hun prijzen correct te tonen volgens _product sorterend door prijs_, zorg ervoor dat de montages voor de prijsvertoning in de [ configuratie van de BTW van de Verkoop ](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
+   >Om producten en hun prijzen correct te tonen volgens _product sorterend door prijs_, zorg ervoor dat de montages voor de prijsvertoning in de [&#x200B; configuratie van de BTW van de Verkoop &#x200B;](../configuration-reference/sales/tax.md) de zelfde waarde hebben (`Excluding Tax` **of** `Including Tax`). Controleer de waarde **[!UICONTROL Catalog Prices]** voor _[!UICONTROL Calculation Settings]_. Controleer voor&#x200B;_[!UICONTROL Price Display Settings]_ de waarde **[!UICONTROL Display Product Prices in Catalog]** . Als deze verschillende waarden hebben, kunnen prijsfilters in de gelaagde navigatie producten niet correct filteren en sorteren op prijs.
 
 1. Stel de standaardwaarde **[!UICONTROL List Mode]** in op een van de volgende opties:
 
@@ -63,7 +63,7 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
    Als u deze instelling inschakelt, blijft het aantal producten dat in een lijst of raster wordt weergegeven behouden wanneer kopers van de ene categorie naar de andere bladeren. Dit veld is standaard ingesteld op `No` omdat het meer cache-opslag gebruikt en invloed kan hebben op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd.
 
-1. Als het gebruiken van a [ vlakke catalogus ](catalog-flat.md) (**geadviseerd niet**), doe het volgende:
+1. Als het gebruiken van a [&#x200B; vlakke catalogus &#x200B;](catalog-flat.md) (**geadviseerd niet**), doe het volgende:
 
    - Stel **[!UICONTROL Use Flat Catalog Category]** in op `Yes` als u een lijst met één categorie producten wilt weergeven.
 
@@ -88,16 +88,16 @@ Productlijsten kunnen standaard als een lijst of raster worden weergegeven. U ku
 
 De pagineringsinstellingen worden boven en onder aan de lijst weergegeven en bepalen de indeling van de pagineringskoppelingen voor productaanbiedingen. U kunt het aantal verbindingen plaatsen die in de controle verschijnen, en de Volgende en Vorige verbindingen vormen. De pagineringskoppelingen worden alleen weergegeven als de lijst meer producten bevat dan per pagina is toegestaan in de configuratie van de productlijst.
 
-![ controles van de Paginering ](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
+![&#x200B; controles van de Paginering &#x200B;](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
 
 ### Besturingselementen voor paginering in Storefront
 
 | Besturing | Beschrijving |
 |--- |--- |
-| ![ Net van de Vertoning ](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Geeft de lijst weer in de indeling Raster of Lijst. |
-| ![ Soort door ](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. Het _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront bezit bepaalt welke [ productattributen ](../catalog/product-attributes.md) kunnen worden gebruikt om de lijst te sorteren. |
-| ![ toon per pagina ](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Hiermee bepaalt u hoeveel producten er per pagina worden weergegeven. |
-| ![ de verbindingen van de Paginering ](./assets/control-pagination.png) | Pagineringskoppelingen - Navigatiekoppelingen naar andere pagina&#39;s. |
+| ![&#x200B; Net van de Vertoning &#x200B;](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Geeft de lijst weer in de indeling Raster of Lijst. |
+| ![&#x200B; Soort door &#x200B;](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Hiermee wijzigt u de sorteervolgorde van de lijst. Het _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront bezit bepaalt welke [&#x200B; productattributen &#x200B;](../catalog/product-attributes.md) kunnen worden gebruikt om de lijst te sorteren. |
+| ![&#x200B; toon per pagina &#x200B;](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Hiermee bepaalt u hoeveel producten er per pagina worden weergegeven. |
+| ![&#x200B; de verbindingen van de Paginering &#x200B;](./assets/control-pagination.png) | Pagineringskoppelingen - Navigatiekoppelingen naar andere pagina&#39;s. |
 
 {style="table-layout:auto"}
 
@@ -107,9 +107,9 @@ De pagineringsinstellingen worden boven en onder aan de lijst weergegeven en bep
 
 1. Zoek de archiefweergave die u wilt configureren en klik in de kolom **[!UICONTROL Action]** op **[!UICONTROL Edit]** .
 
-1. Onder **[!UICONTROL Other Settings]**, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Pagination]** sectie.
+1. Onder **[!UICONTROL Other Settings]**, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Pagination]** sectie.
 
-   ![ Paginering ](./assets/config-design-pagination.png){width="600" zoomable="yes"}
+   ![&#x200B; Paginering &#x200B;](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
    Voor meer informatie over deze montages, zie {de Configuratie van het 0} Ontwerp [&#128279;](../content-design/configuration.md).
 

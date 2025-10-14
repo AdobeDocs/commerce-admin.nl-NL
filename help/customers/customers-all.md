@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Lijst met klanten
 
-In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten weergegeven die zich voor een account bij uw winkel hebben geregistreerd of die door de beheerder zijn toegevoegd. Gebruik de standaard [ netcontroles ](../getting-started/admin-grid-controls.md) om de lijst te filtreren en de kolomlay-out aan te passen. Meer leren, zie [ klantenrekeningen beheren ](../customers/manage-account.md).
+In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten weergegeven die zich voor een account bij uw winkel hebben geregistreerd of die door de beheerder zijn toegevoegd. Gebruik de standaard [&#x200B; netcontroles &#x200B;](../getting-started/admin-grid-controls.md) om de lijst te filtreren en de kolomlay-out aan te passen. Meer leren, zie [&#x200B; klantenrekeningen beheren &#x200B;](../customers/manage-account.md).
 
-![ lijst van Klanten ](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
+![&#x200B; lijst van Klanten &#x200B;](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## Klantgegevens bijwerken
 
@@ -25,7 +25,7 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 
    >[!NOTE]
    >
-   >Meer leren, zie [ de klantenrekeningen van de Update ](../customers/update-account.md).
+   >Meer leren, zie [&#x200B; de klantenrekeningen van de Update &#x200B;](../customers/update-account.md).
 
 1. Klik op **[!UICONTROL Save Customer]** als de bewerking is voltooid.
 
@@ -35,9 +35,9 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Maakt een klantenaccount. |
 | **[!UICONTROL Search]** | Hiermee wordt een zoekopdracht naar klanten gestart op basis van de huidige filters. |
-| **[!UICONTROL Filters]** | Bepaalt een reeks onderzoeksparameters die worden gebruikt om de verslagen te filtreren die in het [ net ](../getting-started/admin-grid-controls.md) verschijnen. |
-| **[!UICONTROL Default View]** | Bepaalt de standaardkolom [ lay-out ](../getting-started/admin-grid-controls.md) van het net. |
-| **[!UICONTROL Columns]** | Bepaalt de selectie van [ kolommen ](../getting-started/admin-grid-controls.md) en hun rekeningen in het net. De kolomlay-out kan als a _mening_ worden veranderd en worden bewaard. Standaard worden slechts enkele kolommen in het raster opgenomen. |
+| **[!UICONTROL Filters]** | Bepaalt een reeks onderzoeksparameters die worden gebruikt om de verslagen te filtreren die in het [&#x200B; net &#x200B;](../getting-started/admin-grid-controls.md) verschijnen. |
+| **[!UICONTROL Default View]** | Bepaalt de standaardkolom [&#x200B; lay-out &#x200B;](../getting-started/admin-grid-controls.md) van het net. |
+| **[!UICONTROL Columns]** | Bepaalt de selectie van [&#x200B; kolommen &#x200B;](../getting-started/admin-grid-controls.md) en hun rekeningen in het net. De kolomlay-out kan als a _mening_ worden veranderd en worden bewaard. Standaard worden slechts enkele kolommen in het raster opgenomen. |
 | **[!UICONTROL Export]** | Hiermee exporteert u de geselecteerde records als een CSV- of Excel XML-bestand. |
 
 {style="table-layout:auto"}
@@ -60,7 +60,7 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 | **[!UICONTROL Confirmed Email]** | Hiermee geeft u aan of een bevestigingsbericht vereist is. |
 | **[!UICONTROL Account Created In]** | Geeft de winkelweergave aan waaruit de klantenaccount is gemaakt. |
 | **[!UICONTROL Date of Birth]** | De geboortedatum van de klant. <br><br>**_Belangrijk:_**&#x200B;in overeenstemming met huidige veiligheid en privacy beste praktijken, ben zich bewust van om het even welke potentiële wettelijke en veiligheidsrisico&#39;s verbonden aan de opslag van de volledige geboortedatum van klanten (maand, dag, jaar) met andere persoonlijke herkenningstekens. U wordt aangeraden de opslag van de volledige geboortedatum van de klant te beperken en u aan te raden het geboortejaar van de klant als alternatief te gebruiken. |
-| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingaantal of [ waarde-toegevoegde belasting ](../stores-purchase/vat.md) aantal dat aan de klant wordt toegewezen. <br/><br/> Dit gebied is niet het zelfde als het Aantal van de BTW. |
+| **[!UICONTROL Tax / VAT Number]** | Indien van toepassing, het belastingaantal of [&#x200B; waarde-toegevoegde belasting &#x200B;](../stores-purchase/vat.md) aantal dat aan de klant wordt toegewezen. <br/><br/> Dit gebied is niet het zelfde als het Aantal van de BTW. |
 | **[!UICONTROL Gender]** | Het geslacht van de klant. |
 | **[!UICONTROL Action]** | Bewerken - Opent het bedrijfsaccount in de bewerkingsmodus. |
 
@@ -68,7 +68,7 @@ In het beheerderster worden in het raster [!UICONTROL Customers] alle klanten we
 
 ### Aanvullende kolommen
 
-Deze kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-started/admin-grid-controls.md) van het net te veranderen.
+Deze kolommen zijn beschikbaar door de [&#x200B; kolomlay-out &#x200B;](../getting-started/admin-grid-controls.md) van het net te veranderen.
 
 | Kolom | Beschrijving |
 | --- | --- |
@@ -80,7 +80,7 @@ Deze kolommen zijn beschikbaar door de [ kolomlay-out ](../getting-started/admin
 | **[!UICONTROL Billing Lastname]** | De achternaam in het factureringsadres van de klant. |
 | **[!UICONTROL Billing Address]** | Het adres waar factureringsinformatie moet worden verzonden. |
 | **[!UICONTROL Shipping Address]** | Het adres waar bestellingen moeten worden verzonden. |
-| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [ digitale goederen ](../stores-purchase/taxes.md) die in de EU worden verkocht, is de BTW gebaseerd op het factureringsadres van de klant. <br/><br/> Dit gebied is niet het zelfde als het BTW Aantal. |
-| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als veiligheidsmaatregel, kunnen de klantenrekeningen [ worden gesloten ](../customers/password-options.md) na teveel login pogingen. Waarden: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | Het BTW-nummer dat aan het adres van de klant is gekoppeld. Voor [&#x200B; digitale goederen &#x200B;](../stores-purchase/taxes.md) die in de EU worden verkocht, is de BTW gebaseerd op het factureringsadres van de klant. <br/><br/> Dit gebied is niet het zelfde als het BTW Aantal. |
+| **[!UICONTROL Account Lock]** | Geeft de status van de account aan. Als veiligheidsmaatregel, kunnen de klantenrekeningen [&#x200B; worden gesloten &#x200B;](../customers/password-options.md) na teveel login pogingen. Waarden: `Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

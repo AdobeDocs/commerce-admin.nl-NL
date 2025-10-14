@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Plan uw wijzigingen in het themaontwerp vooraf, zodat deze van kracht worden volgens uw bedrijfscycli en gebeurtenissen. U kunt geplande ontwerpwijzigingen gebruiken voor seizoenswijzigingen, promoties of alleen om variatie toe te voegen.
 
-![ Geplande ontwerpveranderingen ](./assets/design-schedule.png){width="700" zoomable="yes"}
+![&#x200B; Geplande ontwerpveranderingen &#x200B;](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## Een geplande ontwerpwijziging toevoegen
 
@@ -22,13 +22,13 @@ Plan uw wijzigingen in het themaontwerp vooraf, zodat deze van kracht worden vol
 
 1. Klik op **[!UICONTROL Add Design Change]**.
 
-   ![ Nieuwe montages van de Verandering van het Ontwerp van de Opslag ](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe montages van de Verandering van het Ontwerp van de Opslag &#x200B;](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Store]** in op de winkelweergave waar u de wijzigingen wilt toepassen.
 
 1. Stel **[!UICONTROL Custom Design]** in op het thema of de variatie van een te gebruiken thema.
 
-1. Voor **[!UICONTROL Date From]** en **[!UICONTROL Date To]**, klik het _pictogram van de Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om de begin en eindwaarden voor de periode te kiezen wanneer de verandering in feite is.
+1. Voor **[!UICONTROL Date From]** en **[!UICONTROL Date To]**, klik het _pictogram van de Kalender_ (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om de begin en eindwaarden voor de periode te kiezen wanneer de verandering in feite is.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

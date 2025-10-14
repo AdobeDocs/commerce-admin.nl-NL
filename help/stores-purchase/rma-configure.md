@@ -22,9 +22,9 @@ Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worde
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL RMA Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL RMA Settings]** sectie uit.
 
-   ![ Montages RMA ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Montages RMA &#x200B;](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable RMA on Storefront]** in op `Yes` .
 
@@ -42,7 +42,7 @@ Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worde
    - `Yes` - Verstuur de geretourneerde producten naar het adres van de winkel.
    - `No` - Voer een alternatief adres in voor de geretourneerde waarde van het product.
 
-   ![ Montages RMA met afwisselend adres ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Montages RMA met afwisselend adres &#x200B;](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
@@ -54,7 +54,7 @@ Wanneer toegelaten, kunnen de verzoeken RMA door klanten van de storefront worde
 
 1. Vouw de sectie uit voor de carrier die u wilt gebruiken voor de retourservice, zoals **[!UICONTROL UPS]** .
 
-   ![ laat de dienst RMA voor drager ](./assets/rma-delivery-method.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat de dienst RMA voor drager &#x200B;](./assets/rma-delivery-method.png){width="600" zoomable="yes"} toe
 
 1. Stel **[!UICONTROL Enabled for RMA]** in op `Yes` .
 
@@ -66,12 +66,12 @@ Als u RMAs voor uw opslag toelaat en uw catalogus sommige producten bevat die ni
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Autosettings]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Autosettings]** sectie.
 
 1. Schakel indien nodig het selectievakje **[!UICONTROL Use Config Setting]** uit.
 
 1. Schakel de instelling **[!UICONTROL Enable RMA]** in op `No` .
 
-   ![ maak RMA voor een product ](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"} onbruikbaar
+   ![&#x200B; maak RMA voor een product &#x200B;](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"} onbruikbaar
 
 1. Klik op **[!UICONTROL Save]**.

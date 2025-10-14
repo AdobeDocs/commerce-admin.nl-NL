@@ -16,15 +16,15 @@ Wanneer u B2B bedrijfsrekeningen in uw opslag opneemt, kunt u de collectieve het
 
 Depending on the company, a store administrator can adjust promotions and prices to suit their needs, and create highly customized offers that cater to the shoppers&#39; demands and increase orders.
 
-Het toevoegen van een vereniging van de bedrijfrekening aan een standaard [ individu ](../customers/account-create.md) staat de klant toe om de specifieke die koopgewerkschema&#39;s te gebruiken voor het bedrijf worden bepaald.
+Het toevoegen van een vereniging van de bedrijfrekening aan een standaard [&#x200B; individu &#x200B;](../customers/account-create.md) staat de klant toe om de specifieke die koopgewerkschema&#39;s te gebruiken voor het bedrijf worden bepaald.
 
 Voordelen van een bedrijfsaccount:
 
-- Biedt onbeperkte [ bedrijfgebruikers ](account-company-users.md) en de verwezenlijking van extra rekeningen aan, die collectieve aankopen vereenvoudigt.
+- Biedt onbeperkte [&#x200B; bedrijfgebruikers &#x200B;](account-company-users.md) en de verwezenlijking van extra rekeningen aan, die collectieve aankopen vereenvoudigt.
 
-- Omvat steun voor de hiërarchie van de a _slimme_ bedrijfrekening met verschillende [ rollen en toestemmingen ](account-company-roles-permissions.md) voor het plaatsen van orden.
+- Omvat steun voor de hiërarchie van de a _slimme_ bedrijfrekening met verschillende [&#x200B; rollen en toestemmingen &#x200B;](account-company-roles-permissions.md) voor het plaatsen van orden.
 
-- Verstrekt een mechanisme voor handelaren om inkomen te verhogen door [ bedrijfsleekrediet ](credit-company.md) als betalingsmethode aan te bieden.
+- Verstrekt een mechanisme voor handelaren om inkomen te verhogen door [&#x200B; bedrijfsleekrediet &#x200B;](credit-company.md) als betalingsmethode aan te bieden.
 
 - [&#128279;](account-company-manage.md)
 
@@ -44,7 +44,7 @@ __&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL Companies]**
 
 Het volgende voorbeeld toont het _netwerk van Klanten_ met de aanvankelijke rekeningen van de bedrijfbeheerder.
 
-![ het net van Klanten met de rekening van de bedrijfbeheerder ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![&#x200B; het net van Klanten met de rekening van de bedrijfbeheerder &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 Elke onderneming heeft één enkele bedrijfbeheerder die door het rekening e-mailadres en de eerste en achternaam van de beheerder wordt geïdentificeerd. The administrator can be assigned to other companies as a user, but they can be an administrator for only one company.
 
@@ -54,11 +54,11 @@ Elke onderneming heeft één enkele bedrijfbeheerder die door het rekening e-mai
 
 1. De bedrijfbeheerder vindt een welkome e-mail van de opslag.
 
-   ![ E-mail van het Welkome E-mail van het Voorbeeld ](./assets/company-admin-welcome-email.png){width="500"}
+   ![&#x200B; E-mail van het Welkome E-mail van het Voorbeeld &#x200B;](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >De e-mailadresdoelstellingen en de inhoud van e-mail worden bepaald door de opties die in de [ bedrijf e-mailopties ](email-company-configuration.md) configuratie worden gespecificeerd.
+   >De e-mailadresdoelstellingen en de inhoud van e-mail worden bepaald door de opties die in de [&#x200B; bedrijf e-mailopties &#x200B;](email-company-configuration.md) configuratie worden gespecificeerd.
 
 1. Volgt de instructies en klikt [!UICONTROL **verbinding**] om hun wachtwoord te plaatsen.
 
@@ -83,13 +83,13 @@ Elke onderneming heeft één enkele bedrijfbeheerder die door het rekening e-mai
 
 ## Bedrijfsstructuur
 
-Een bedrijfsrekening kan worden opgezet om de structuur van de onderneming te weerspiegelen. Aanvankelijk, omvat de bedrijfsstructuur slechts de bedrijfbeheerder, maar kan worden uitgebreid om teams van gebruikers te omvatten. De gebruikers kunnen met teams worden geassocieerd of binnen een hiërarchie van afdelingen en onderverdelingen binnen het bedrijf worden georganiseerd. De structuur wordt ontworpen om het gebruik van [ goedkeuringsregels ](account-dashboard-approval-rules.md) voor [ kooporden ](purchase-order-flow.md) (POs) te steunen verbonden aan de bedrijfrekening.
+Een bedrijfsrekening kan worden opgezet om de structuur van de onderneming te weerspiegelen. Aanvankelijk, omvat de bedrijfsstructuur slechts de bedrijfbeheerder, maar kan worden uitgebreid om teams van gebruikers te omvatten. De gebruikers kunnen met teams worden geassocieerd of binnen een hiërarchie van afdelingen en onderverdelingen binnen het bedrijf worden georganiseerd. De structuur wordt ontworpen om het gebruik van [&#x200B; goedkeuringsregels &#x200B;](account-dashboard-approval-rules.md) voor [&#x200B; kooporden &#x200B;](purchase-order-flow.md) (POs) te steunen verbonden aan de bedrijfrekening.
 
 ![](./assets/company-structure-diagram.svg){width="450"}
 
 In the company administrator&#39;s account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
 
-![ Structuur van het Bedrijf met de Beheerder van het Bedrijf ](./assets/company-structure-tree-admin.png){width="600"}
+![&#x200B; Structuur van het Bedrijf met de Beheerder van het Bedrijf &#x200B;](./assets/company-structure-tree-admin.png){width="600"}
 
 When the account is created, the company administrator can use the company email address or be assigned a different email address.
 

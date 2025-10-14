@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u de toewijzing van een bron opheft, worden alle gegevens over de hoeveelheid gewist. Het opnieuw toewijzen van een bron kan mogelijk problemen veroorzaken met verkoopbare hoeveelheden, reserveringen en lopende bestellingen. U wordt aangeraden alle bestellingen te verwerken voordat u bronnen verwijdert of andere bronwijzigingen aanbrengt. U kunt ook nieuwe opdrachten gebruiken om reserveringen te detecteren en bij te werken. Zie [[!DNL Inventory Management]  CLI Verwijzing ](../inventory-management/cli.md) voor meer informatie.
+>Als u de toewijzing van een bron opheft, worden alle gegevens over de hoeveelheid gewist. Het opnieuw toewijzen van een bron kan mogelijk problemen veroorzaken met verkoopbare hoeveelheden, reserveringen en lopende bestellingen. U wordt aangeraden alle bestellingen te verwerken voordat u bronnen verwijdert of andere bronwijzigingen aanbrengt. U kunt ook nieuwe opdrachten gebruiken om reserveringen te detecteren en bij te werken. Zie [[!DNL Inventory Management]  CLI Verwijzing &#x200B;](../inventory-management/cli.md) voor meer informatie.

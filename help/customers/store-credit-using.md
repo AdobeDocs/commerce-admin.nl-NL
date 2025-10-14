@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Winkelbeheerders kunnen het creditsaldo en de geschiedenis van de rekening van de klant bekijken, en ook opslagkrediet op een aankoop toepassen.
 
-![ het creditsaldo en de geschiedenis van de Klant ](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+![&#x200B; het creditsaldo en de geschiedenis van de Klant &#x200B;](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
 ## Het creditsaldo weergeven
 
@@ -28,7 +28,7 @@ Winkelbeheerders kunnen het creditsaldo en de geschiedenis van de rekening van d
 
 1. Schuif _[!UICONTROL Customer View]_&#x200B;naar de pagina en bekijk de **[!UICONTROL Store Credit Balance]**&#x200B;onderaan.
 
-![ Saldo van de Krediet van de Opslag ](assets/store-credit-balance.png){width="600" zoomable="yes"}
+![&#x200B; Saldo van de Krediet van de Opslag &#x200B;](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## Kredietbalans van winkel bijwerken
 
@@ -54,9 +54,9 @@ De bijgewerkte balans moet worden weergegeven in **[!UICONTROL Balance History]*
 
 ## Pas een creditsaldo op een orde als opslagbeheerder toe
 
-Als opslagbeheerder, kunt u diverse dingen namens een klant doen, met inbegrip van het voorleggen van orden. Wanneer u [ een orde ](../stores-purchase/customer-account-create-order.md) creeert, kunt u een saldo van het Krediet van de Opslag toepassen dat aan de klant toe te schrijven is. Het beschikbare saldo wordt getoond in de _Betaling &amp; Verzendinformatie_ sectie. Schakel het selectievakje **[!UICONTROL Use Store Credit]** in om de balans toe te passen of selecteer een deel van de balans als het totaal van de volgorde lager is.
+Als opslagbeheerder, kunt u diverse dingen namens een klant doen, met inbegrip van het voorleggen van orden. Wanneer u [&#x200B; een orde &#x200B;](../stores-purchase/customer-account-create-order.md) creeert, kunt u een saldo van het Krediet van de Opslag toepassen dat aan de klant toe te schrijven is. Het beschikbare saldo wordt getoond in de _Betaling &amp; Verzendinformatie_ sectie. Schakel het selectievakje **[!UICONTROL Use Store Credit]** in om de balans toe te passen of selecteer een deel van de balans als het totaal van de volgorde lager is.
 
-![ pas het saldo van het opslagkrediet op de orde ](assets/store-credit-apply.png){width="500" zoomable="yes"} toe
+![&#x200B; pas het saldo van het opslagkrediet op de orde &#x200B;](assets/store-credit-apply.png){width="500" zoomable="yes"} toe
 
 ## Winkelkrediet toepassen tijdens afhandeling
 
@@ -72,6 +72,6 @@ Als er een creditsaldo voor de plaats is, kan de klant opslagkrediet op het orde
    >
    >Het ordertotaal wordt opnieuw berekend en het bedrag van het opslagkrediet dat wordt toegepast, wordt weergegeven in de _[!UICONTROL Order Summary]_.
 
-   ![ het creditsaldo van de Opslag wordt toegepast op de orde ](assets/store-credit-checkout.png){width="700" zoomable="yes"}
+   ![&#x200B; het creditsaldo van de Opslag wordt toegepast op de orde &#x200B;](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
 1. Klik indien gereed op **[!UICONTROL Place Order]** .

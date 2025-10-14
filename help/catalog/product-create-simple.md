@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Een van de sleutels tot het benutten van de kracht van producttypen is het leren wanneer een eenvoudig, zelfstandig product moet worden gebruikt. Een eenvoudig product kan afzonderlijk of als deel van een gegroepeerd, configureerbaar, of bundelproduct worden verkocht. Een eenvoudig product met douaneopties wordt soms bedoeld als a _samengesteld product_.
 
-De volgende instructies tonen het proces aan om een eenvoudig product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies tonen het proces aan om een eenvoudig product te creëren gebruikend a [&#x200B; productmalplaatje &#x200B;](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
-![ Eenvoudig product ](./assets/product-simple.png){width="700" zoomable="yes"}
+![&#x200B; Eenvoudig product &#x200B;](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## Stap 1: Kies het producttype
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij hoger-recht, kies **[!UICONTROL Simple Product]**.
+1. Voor _[!UICONTROL Add Product]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij hoger-recht, kies **[!UICONTROL Simple Product]**.
 
-   ![ voeg Eenvoudig Product ](./assets/product-add-simple.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg Eenvoudig Product &#x200B;](./assets/product-add-simple.png){width="700" zoomable="yes"} toe
 
 ## Stap 2: Kies de kenmerkset
 
-Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt:
+Om de [&#x200B; geplaatste attributen &#x200B;](attribute-sets.md) te kiezen die als malplaatje voor het product wordt gebruikt:
 
 - Klik in het veld **[!UICONTROL Attribute Set]** en voer de naam van de kenmerkset in (geheel of gedeeltelijk).
 
@@ -36,7 +36,7 @@ Om de [ geplaatste attributen ](attribute-sets.md) te kiezen die als malplaatje 
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![ kies geplaatste attributen ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; kies geplaatste attributen &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Stap 3: Voer de vereiste instellingen in
 
@@ -50,11 +50,11 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
+   Wanneer het product wordt bewaard, verschijnt de [&#x200B; verkiesster van de Mening van de Opslag &#x200B;](introduction.md#product-scope) in de upper-left hoek.
 
 1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![ kies de opslagmening ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de opslagmening &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Stap 4: De basisinstellingen voltooien
 
@@ -77,7 +77,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
    >[!NOTE]
    >
-   >Als u [ Inventory management ](../inventory-management/introduction.md) toelaat, plaatsen de Enige verkopers van Source de hoeveelheid in deze sectie. De multi handelaars van Source voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
+   >Als u [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md) toelaat, plaatsen de Enige verkopers van Source de hoeveelheid in deze sectie. De multi handelaars van Source voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
 
 1. Voer de **[!UICONTROL Weight]** van het product in.
 
@@ -99,7 +99,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
    - Klik op **[!UICONTROL Create Category]**.
 
-1. Om het product in de lijst van [ nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
+1. Om het product in de lijst van [&#x200B; nieuwe producten &#x200B;](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
 
 1. Kies de **[!UICONTROL Country of Manufacture]** .
 
@@ -132,15 +132,15 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 
       - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-      - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ (![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
+      - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ (![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu.
 
      De winkel wordt geopend in een nieuw browsertabblad.
 
-     ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **Methode 2:** sparen en sluit
 
-     Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+     Voor _[!UICONTROL Save]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Te onthouden zaken
 

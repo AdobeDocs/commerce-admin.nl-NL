@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Besturingselementen voor beheerraster
 
-Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een raster weergegeven. U kunt de gegevens sorteren met de besturingselementen boven aan elke kolom. De huidige sorteervolgorde wordt aangegeven met een oplopende of aflopende pijl in de kolomkop. U kunt opgeven welke kolommen in het raster worden weergegeven en deze naar verschillende posities slepen. U kunt ook verschillende kolomregelingen opslaan als weergaven die u later kunt gebruiken. In de kolom **[!UICONTROL Action]** worden bewerkingen weergegeven die op een afzonderlijke record kunnen worden toegepast. Bovendien kan de datum van de huidige mening van de meeste netten aan a [ CSV ](../systems/data-csv.md) of dossier van XML worden uitgevoerd.
+Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een raster weergegeven. U kunt de gegevens sorteren met de besturingselementen boven aan elke kolom. De huidige sorteervolgorde wordt aangegeven met een oplopende of aflopende pijl in de kolomkop. U kunt opgeven welke kolommen in het raster worden weergegeven en deze naar verschillende posities slepen. U kunt ook verschillende kolomregelingen opslaan als weergaven die u later kunt gebruiken. In de kolom **[!UICONTROL Action]** worden bewerkingen weergegeven die op een afzonderlijke record kunnen worden toegepast. Bovendien kan de datum van de huidige mening van de meeste netten aan a [&#x200B; CSV &#x200B;](../systems/data-csv.md) of dossier van XML worden uitgevoerd.
 
-![ de pagina van Orden - netvertoning ](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
+![&#x200B; de pagina van Orden - netvertoning &#x200B;](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
 ## De lijst sorteren
 
@@ -23,7 +23,7 @@ Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een
 
 1. Gebruik de pagineringsbesturingselementen om extra pagina&#39;s in de verzameling weer te geven.
 
-   ![ de vertoning van het Net - paginacontroles ](./assets/pagination-controls.png){width="300"}
+   ![&#x200B; de vertoning van het Net - paginacontroles &#x200B;](./assets/pagination-controls.png){width="300"}
 
 ## De lijst pagineren
 
@@ -39,7 +39,7 @@ Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een
 
 1. Klik op **[!UICONTROL Apply Filters]**.
 
-   ![ de lijst van Orden - filtercontroles ](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
+   ![&#x200B; de lijst van Orden - filtercontroles &#x200B;](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
 
 ## Gegevens exporteren
 
@@ -47,14 +47,14 @@ Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een
 
    >[!NOTE]
    >
-   >Productgegevens kunnen niet uit het raster worden geëxporteerd. Meer leren, zie [ Uitvoer ](../systems/data-export.md).
+   >Productgegevens kunnen niet uit het raster worden geëxporteerd. Meer leren, zie [&#x200B; Uitvoer &#x200B;](../systems/data-export.md).
 
-1. Op de _Uitvoer_ (![ selecteur van het Menu ](../assets/icon-export.png)) menu in de hoger-juiste hoek, kies één van de volgende dossierformaten:
+1. Op de _Uitvoer_ (![&#x200B; selecteur van het Menu &#x200B;](../assets/icon-export.png)) menu in de hoger-juiste hoek, kies één van de volgende dossierformaten:
 
    - `CSV`
    - `Excel XML`
 
-   ![ lijst van Orden - de uitvoeropties ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
+   ![&#x200B; lijst van Orden - de uitvoeropties &#x200B;](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Export]**.
 
@@ -64,11 +64,11 @@ Op beheerpagina&#39;s die gegevens beheren, wordt een verzameling records in een
 
 De selectie van kolommen en hun orde in het net kunnen volgens uw voorkeur worden veranderd, en als a _mening_ worden bewaard. U kunt bepalen welke kenmerken in het raster worden weergegeven onder de afzonderlijke kenmerkconfiguratie. Veel kenmerken die in het productraster worden weergegeven, kunnen van invloed zijn op de laadtijd en prestaties van de beheerder.
 
-![ de Kolommen van het Net van de Orde ](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
+![&#x200B; de Kolommen van het Net van de Orde &#x200B;](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### De selectie van kolommen wijzigen
 
-1. In de hoger-juiste hoek, klik de _controle van Kolommen_ (![ controle van Kolommen ](../assets/icon-columns.png)).
+1. In de hoger-juiste hoek, klik de _controle van Kolommen_ (![&#x200B; controle van Kolommen &#x200B;](../assets/icon-columns.png)).
 
 1. Wijzig de kolomselecties:
 
@@ -86,22 +86,22 @@ Schuif omlaag om alle beschikbare kolommen weer te geven.
 
 ### Een rasterweergave opslaan
 
-1. Klik de _controle van de Mening_ (![ controle van de Mening ](../assets/icon-view-eye.png)).
+1. Klik de _controle van de Mening_ (![&#x200B; controle van de Mening &#x200B;](../assets/icon-view-eye.png)).
 
 1. Klik op **[!UICONTROL Save Current View]**.
 
 1. Voer een **[!UICONTROL name]** in voor de weergave.
 
-1. Om alle veranderingen te bewaren, klik de _Pijl_ (![ sparen alle veranderingen ](../assets/icon-arrow-save.png)).
+1. Om alle veranderingen te bewaren, klik de _Pijl_ (![&#x200B; sparen alle veranderingen &#x200B;](../assets/icon-arrow-save.png)).
 
    De naam van de weergave wordt nu weergegeven als de huidige weergave.
 
 ### De rasterweergave wijzigen
 
-1. Klik de _controle van de Mening_ (![ het pictogram van de Mening ](../assets/icon-view-eye.png)).
+1. Klik de _controle van de Mening_ (![&#x200B; het pictogram van de Mening &#x200B;](../assets/icon-view-eye.png)).
 
 1. Voer een van de volgende handelingen uit:
 
    - Klik op de naam van de weergave als u een andere weergave wilt gebruiken.
-   - Om de naam van een mening te veranderen, klik _uitgeven_ (![ geef pictogram ](../assets/icon-edit-pencil.png)) pictogram uit en werk de naam bij.
-   - Om een mening te schrappen, klik _uitgeven_ (![ geef pictogram ](../assets/icon-edit-pencil.png) uit) pictogram en klik dan _Schrapping_ (![ pictogram van de Schrapping ](../assets/icon-delete-trashcan-solid.png)) pictogram.
+   - Om de naam van een mening te veranderen, klik _uitgeven_ (![&#x200B; geef pictogram &#x200B;](../assets/icon-edit-pencil.png)) pictogram uit en werk de naam bij.
+   - Om een mening te schrappen, klik _uitgeven_ (![&#x200B; geef pictogram &#x200B;](../assets/icon-edit-pencil.png) uit) pictogram en klik dan _Schrapping_ (![&#x200B; pictogram van de Schrapping &#x200B;](../assets/icon-delete-trashcan-solid.png)) pictogram.

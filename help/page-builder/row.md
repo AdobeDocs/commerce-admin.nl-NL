@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Layout - Rij
 
-Gebruik het _inhoudstype van de Rij_ om een rij in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen.
+Gebruik het _inhoudstype van de Rij_ om een rij in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -20,17 +20,17 @@ Gebruik het _inhoudstype van de Rij_ om een rij in het [[!DNL Page Builder]  sta
 
 De rijgereedschapset wordt weergegeven wanneer u de muisaanwijzer op de rijcontainer plaatst. De gereedschapset bevat opties voor het verplaatsen, verbergen, dupliceren, bewerken of verwijderen van de rij. De selectie van instellingen bepaalt de vormgeving, achtergrond en lay-out van de rij. Aanvullende inhoudselementen kunnen vanuit het deelvenster [!DNL Page Builder] aan de linkerkant naar de rij worden gesleept.
 
-![ toolbox van de Rij ](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
+![&#x200B; toolbox van de Rij &#x200B;](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ---------- | ----------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de rij naar een andere positie ten opzichte van andere rijen in het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de rij naar een andere positie ten opzichte van andere rijen in het werkgebied. |
 | (label) | [!UICONTROL Row] | Hiermee wordt de huidige inhoudscontainer aangeduid als een rij. Houd de muisaanwijzer boven de container om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Rij bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige rij. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | De verborgen rij wordt weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de rij. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de rijcontainer en de inhoud ervan uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Rij bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige rij. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | De verborgen rij wordt weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de rij. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de rijcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -40,17 +40,17 @@ De rijgereedschapset wordt weergegeven wanneer u de muisaanwijzer op de rijconta
 
 1. Sleep in het deelvenster [!DNL Page Builder] onder _[!UICONTROL Layout]_&#x200B;een nieuwe **[!UICONTROL Row]**&#x200B;naar het werkgebied, net onder de eerste rij.
 
-1. Om de rij te formatteren, over de rijcontainer te bewegen om toolbox te tonen en _te kiezen Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Om de rij te formatteren, over de rijcontainer te bewegen om toolbox te tonen en _te kiezen Montages_ ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
    Gebruik de volgende secties voor gedetailleerde informatie over de voltooiing van de beschikbare montages.
 
-   ![ Toevoegend een rij ](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
+   ![&#x200B; Toevoegend een rij &#x200B;](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
 
 ## Rijinstellingen wijzigen
 
-1. Beweeg over de rijcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de rijcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ toolbox van de Rij ](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
+   ![&#x200B; toolbox van de Rij &#x200B;](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. Gebruik de volgende secties voor gedetailleerde informatie over het bijwerken van de beschikbare montages.
 
@@ -60,7 +60,7 @@ De rijgereedschapset wordt weergegeven wanneer u de muisaanwijzer op de rijconta
 
 Gebruik de _montages van de Vormgeving_ om te bepalen hoe de inhoud in de rij wordt getoond.
 
-![ montages van de Verschijning ](./assets/pb-row-layout.png){width="600" zoomable="yes"}
+![&#x200B; montages van de Verschijning &#x200B;](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
 - Als u wilt bepalen hoe de achtergrondkleur en/of achtergrondafbeelding wordt weergegeven ten opzichte van de container en de breedte van het inhoudsgebied, kiest u de uitlijning:
 
@@ -68,7 +68,7 @@ Gebruik de _montages van de Vormgeving_ om te bepalen hoe de inhoud in de rij wo
   | ------ | ----------- |
   | [!UICONTROL Contained] | De achtergrondkleur of -afbeelding is beperkt tot de maximale paginabreedte die door het thema wordt gedefinieerd. |
   | [!UICONTROL Full Width] | Hiermee beperkt u de inhoud tot de maximale paginabreedte die door het thema wordt gedefinieerd. De achtergrondkleur en/of -afbeelding zijn niet beperkt en breidt de volledige breedte van de rij uit. |
-  | [!UICONTROL Full Bleed] | De inhoud en achtergrondafbeelding en/of -kleur zijn niet beperkt en de rij is breder. Volledig afloopgebied kan slechts met [ thema&#39;s ](../content-design/themes.md) worden gebruikt die de lay-out steunen. |
+  | [!UICONTROL Full Bleed] | De inhoud en achtergrondafbeelding en/of -kleur zijn niet beperkt en de rij is breder. Volledig afloopgebied kan slechts met [&#x200B; thema&#39;s &#x200B;](../content-design/themes.md) worden gebruikt die de lay-out steunen. |
 
   {style="table-layout:auto"}
 
@@ -86,7 +86,7 @@ Er zijn veel opties voor het definiëren van de achtergrondweergave van een rij.
 
 Geef de achtergrondkleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren. Deze instelling bepaalt de achtergrondkleur van de rij. U kunt ook de dekking van de kleur aanpassen.
 
-![ Geen kleur (gebrek) ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; Geen kleur (gebrek) &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 U kunt de waarde op drie manieren instellen:
 
@@ -96,11 +96,11 @@ U kunt de waarde op drie manieren instellen:
 
 Als u een kleur wilt kiezen, klik het monster links van _Geen doos van de Kleur_.
 
-![ het Kiezen van een kleurenmonster ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; het Kiezen van een kleurenmonster &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het vak onder de schuifregelaar de huidige waarden voor rood, groen, blauw en alpha (rgba) weergegeven. Het laatste getal geeft het huidige dekkingspercentage aan als een decimaal. U kunt de schuifregelaar gebruiken om de dekking aan te passen of de gewenste decimale waarde invoeren.
 
-![ Plaatsende opaciteit ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![&#x200B; Plaatsende opaciteit &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -110,13 +110,13 @@ Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het 
 
 Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is standaard ingesteld op `Image` en geeft verschillende afbeeldingsinstellingen weer. Als u `Video` selecteert, vervangt [!DNL Page Builder] de afbeeldingsinstellingen door video-instellingen. Beide achtergrondtypen worden als volgt beschreven.
 
-![ Achtergrondtype ](./assets/pb-background-type.png){width="200"}
+![&#x200B; Achtergrondtype &#x200B;](./assets/pb-background-type.png){width="200"}
 
 ### Instellingen voor afbeeldingstypen
 
 Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
-![ Achtergrondbeeld ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
+![&#x200B; Achtergrondbeeld &#x200B;](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - Kies zo nodig met de beschikbare gereedschappen een achtergrondafbeelding die u op de rij wilt toepassen:
 
@@ -124,7 +124,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de
   | ------ | ----------- |
   | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als de achtergrondafbeelding voor de rij. |
   | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor de rij. |
-  | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+  | ![&#x200B; het pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
   {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de
 
   {style="table-layout:auto"}
 
-  ![ Achtergrondgrootte ](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
+  ![&#x200B; Achtergrondgrootte &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
 
 - **[!UICONTROL Background Position]** - Stel deze optie in om te bepalen hoe de achtergrondafbeelding ten opzichte van de rij wordt verankerd:
 
@@ -175,7 +175,7 @@ Als u het _Type van Achtergrond_ aan `Video` plaatst, gebruik de volgende montag
    - Vimeo-video&#39;s: `https://vimeo.com/190156113`
    - Geldige videobestanden (`.mp4` wordt aanbevolen): `https://myvideos.com/spiral.mp4`
 
-  ![ Achtergrondvideo URL ](./assets/pb-video-url.png){width="300"}
+  ![&#x200B; Achtergrondvideo URL &#x200B;](./assets/pb-video-url.png){width="300"}
 
 - **[!UICONTROL Overlay Color]** - Selecteer een kleur om een transparante tint toe te passen op de video.
 
@@ -194,7 +194,7 @@ Gebruik deze opties om de snelheid van een schuivende achtergrondafbeelding of -
 - Plaats **laat Parallax Achtergrond** aan `Yes` toe.
 - Ga de **Parallaxsnelheid** als decimale waarde tussen `-1.0` en `2.0` in.
 
-![ Parallax de montages van de Achtergrond ](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
+![&#x200B; Parallax de montages van de Achtergrond &#x200B;](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
 ## Geavanceerd
 
@@ -228,7 +228,7 @@ Gebruik deze opties om de snelheid van een schuivende achtergrondafbeelding of -
 
 - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-  ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Optie | Beschrijving |
   | ------ |------------ |
@@ -240,7 +240,7 @@ Gebruik deze opties om de snelheid van een schuivende achtergrondafbeelding of -
 
   De rij in het volgende voorbeeld heeft een randstraal van 15.
 
-  ![ Rij met de Straal van de Rand van 15 ](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![&#x200B; Rij met de Straal van de Rand van 15 &#x200B;](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - (Optioneel) Geef de namen van **[!UICONTROL CSS classes]** op uit het huidige stijlblad die u wilt toepassen op de rijcontainer.
 
@@ -257,6 +257,6 @@ Gebruik deze opties om de snelheid van een schuivende achtergrondafbeelding of -
 
   {style="table-layout:auto"}
 
-  ![ Marges en het Opvullen ](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+  ![&#x200B; Marges en het Opvullen &#x200B;](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -35,7 +35,7 @@ Wees voorzichtig wanneer u FPT-prijzen per e-mail citeert, omdat het prijsversch
 
 Het Vaste de inputtype van de Belasting van het Product (FPT) [&#128279;](../catalog/attributes-input-types.md) leidt tot een sectie van gebieden voor het beheren van belasting voor elk gebied.
 
-In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winkel kunt instellen, bijvoorbeeld met &quot;eco-belasting&quot;. Na het bepalen van de draagwijdte voor de belasting en de landen en staten waar de belasting van toepassing is, en afhankelijk van de opties u kiest, kunnen de inputgebieden veranderen volgens de lokale vereisten. Meer leren, zie [ productattributen ](../catalog/attribute-product-create.md) creëren.
+In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winkel kunt instellen, bijvoorbeeld met &quot;eco-belasting&quot;. Na het bepalen van de draagwijdte voor de belasting en de landen en staten waar de belasting van toepassing is, en afhankelijk van de opties u kiest, kunnen de inputgebieden veranderen volgens de lokale vereisten. Meer leren, zie [&#x200B; productattributen &#x200B;](../catalog/attribute-product-create.md) creëren.
 
 ### Stap 1: Vaste productbelasting inschakelen
 
@@ -43,7 +43,7 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie uit.
 
 1. Stel **[!UICONTROL Enable FPT]** in op `Yes` .
 
@@ -65,9 +65,9 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
 1. Stel **[!UICONTROL Include FPT in Subtotal]** naar wens in.
 
-   ![ Vaste Belastingen van het Product ](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
+   ![&#x200B; Vaste Belastingen van het Product &#x200B;](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Vaste Belastingen van het Product ](../configuration-reference/sales/tax.md#fixed-product-taxes) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Vaste Belastingen van het Product &#x200B;](../configuration-reference/sales/tax.md#fixed-product-taxes) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -81,25 +81,25 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
    - Stel **[!UICONTROL Catalog Input for Store Owner]** in op `Fixed Product Tax` .
 
-   ![ Eigenschappen van Attributen ](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Eigenschappen van Attributen &#x200B;](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Attribute Properties]** sectie uit en plaats de bezitsopties:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Attribute Properties]** sectie uit en plaats de bezitsopties:
 
    - **[!UICONTROL Attribute Code]** - Voer een unieke id in kleine letters in, zonder spaties of speciale tekens. De maximumlengte is 30 tekens. U kunt het veld leeg laten naar de tekst in het veld Standaardlabel.
 
-   - **[!UICONTROL Add to Column Options]** - als u het FPT gebied in de [ lijst van Producten ](../catalog/products-list.md) wilt verschijnen, die aan `Yes` wordt geplaatst.
+   - **[!UICONTROL Add to Column Options]** - als u het FPT gebied in de [&#x200B; lijst van Producten &#x200B;](../catalog/products-list.md) wilt verschijnen, die aan `Yes` wordt geplaatst.
 
-   - **[!UICONTROL Use in Filter Options]** - als u [ filter ](../getting-started/admin-workspace.md) producten in het net wilt kunnen &lbrace;zijn dat op de waarde van het FPT gebied wordt gebaseerd, aan `Yes` wordt geplaatst.
+   - **[!UICONTROL Use in Filter Options]** - als u [&#x200B; filter &#x200B;](../getting-started/admin-workspace.md) producten in het net wilt kunnen &lbrace;zijn dat op de waarde van het FPT gebied wordt gebaseerd, aan `Yes` wordt geplaatst.
 
-   ![ Geavanceerde Eigenschappen van Attributen ](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde Eigenschappen van Attributen &#x200B;](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. (Optioneel) Kies **[!UICONTROL Manage Labels]** in het linkerdeelvenster en voer een label in dat u wilt gebruiken in plaats van het standaardlabel voor elke winkelweergave.
 
-   ![ beheert Etiketten ](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
+   ![&#x200B; beheert Etiketten &#x200B;](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.
 
-1. Wanneer ertoe aangezet, vernieuw het [ geheime voorgeheugen ](../systems/cache-management.md).
+1. Wanneer ertoe aangezet, vernieuw het [&#x200B; geheime voorgeheugen &#x200B;](../systems/cache-management.md).
 
 ### Stap 3: Voeg het FPT-kenmerk toe aan een kenmerkset
 
@@ -107,13 +107,13 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
 1. Klik in de lijst op het kenmerk dat is ingesteld om de record te openen in de bewerkingsmodus.
 
-   ![ de reeksen van Attributen lijst ](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
+   ![&#x200B; de reeksen van Attributen lijst &#x200B;](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
 
 1. Sleep het kenmerk FPT uit de lijst met **[!UICONTROL Unassigned Attributes]** aan de rechterkant naar de lijst met **[!UICONTROL Groups]** in de middelste kolom.
 
    Elke groepsmap komt overeen met een sectie met productinformatie. U kunt het kenmerk overal plaatsen waar u het wilt weergeven wanneer het product in de bewerkingsmodus is geopend.
 
-   ![ geef de Reeks van Attributen uit ](./assets/tax-fpt-attribute-set-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; geef de Reeks van Attributen uit &#x200B;](./assets/tax-fpt-attribute-set-drag.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -129,7 +129,7 @@ In de volgende instructies ziet u hoe u een vaste productbelasting voor uw winke
 
 1. Geef de toepasselijke belasting voor het product op:
 
-   ![ Vaste Belasting van het Product voor Canada ](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
+   ![&#x200B; Vaste Belasting van het Product voor Canada &#x200B;](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
 
    - Als uw Commerce-instantie meerdere websites heeft, kiest u de juiste **[!UICONTROL Website]** en basisvaluta. In dit voorbeeld wordt het veld standaard ingesteld op `All Websites [USD]` .
 

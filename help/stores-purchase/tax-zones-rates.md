@@ -16,7 +16,7 @@ Over het algemeen gelden belastingtarieven voor transacties die binnen een bepaa
 
 Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerkelijke klantenbelasting voor een orde wordt berekend nadat de klant de ordeinformatie voltooit. Commerce berekent vervolgens de belasting op basis van de belastingconfiguratie van de winkel.
 
-![ Belastingzones en Tarieven ](./assets/tax-zones-rates.png){width="600" zoomable="yes"}
+![&#x200B; Belastingzones en Tarieven &#x200B;](./assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 ## Een nieuw belastingtarief definiëren
 
@@ -24,7 +24,7 @@ Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerk
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Tax Rate]** .
 
-   ![ Nieuw Tarief van de Belasting ](./assets/tax-rate-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuw Tarief van de Belasting &#x200B;](./assets/tax-rate-new.png){width="600" zoomable="yes"}
 
 1. Voer een **[!UICONTROL Tax Identifier]** in.
 
@@ -36,7 +36,7 @@ Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerk
 
    - Schakel het selectievakje **[!UICONTROL Zip/Post is Range]** in en definieer het bereik door de eerste en laatste postcode voor **[!UICONTROL Range From]** en **[!UICONTROL Range To]** in te voeren.
 
-     ![ ZIP/Post is Waaier ](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
+     ![&#x200B; ZIP/Post is Waaier &#x200B;](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
 
    - Kies de **[!UICONTROL State]** waar het belastingtarief van toepassing is.
 
@@ -58,7 +58,7 @@ Winkelbelasting wordt berekend op basis van het adres van de winkel. De daadwerk
 
 1. Zoek het belastingtarief in het _[!UICONTROL Tax Zones and Rates]_&#x200B;net, en open het verslag in geef wijze uit.
 
-   Als er vele tarieven in de lijst zijn, gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om het tarief te vinden u wenst.
+   Als er vele tarieven in de lijst zijn, gebruik de [&#x200B; filtercontroles &#x200B;](../getting-started/admin-grid-controls.md) om het tarief te vinden u wenst.
 
 1. Breng de gewenste wijzigingen aan in de **[!UICONTROL Tax Rate Information]** .
 

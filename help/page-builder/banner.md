@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Media - banner
 
-Gebruik het _inhoudstype van de Banner_ om een geïllustreerde, interactieve component toe te voegen die gebruikers met een call to action en knoop in het [[!DNL Page Builder]  stadium ](workspace.md#stage) in dienst neemt.
+Gebruik het _inhoudstype van de Banner_ om een geïllustreerde, interactieve component toe te voegen die gebruikers met een call to action en knoop in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) in dienst neemt.
 
 >[!NOTE]
 >
->Wat eerder de _optie van de Banner_ in het menu van de Inhoud was, is nu [ Dynamisch Blok ](../content-design/dynamic-blocks.md).
+>Wat eerder de _optie van de Banner_ in het menu van de Inhoud was, is nu [&#x200B; Dynamisch Blok &#x200B;](../content-design/dynamic-blocks.md).
 
-![ Banner op een storefront homepage ](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
+![&#x200B; Banner op een storefront homepage &#x200B;](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,17 +26,17 @@ Gebruik het _inhoudstype van de Banner_ om een geïllustreerde, interactieve com
 
 De bannergereedschapset wordt weergegeven wanneer u de muisaanwijzer op de bannercontainer plaatst.
 
-![ toolbox van de Banner ](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+![&#x200B; toolbox van de Banner &#x200B;](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de banner naar een andere positie in het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de banner naar een andere positie in het werkgebied. |
 | (label) | Banner | Identificeert de huidige inhoudscontainer als een banner. Houd de muisaanwijzer boven de container om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Banner bewerken, waarin u de eigenschappen van de banner en container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige banner. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de verborgen banner. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de banner. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de banner uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Banner bewerken, waarin u de eigenschappen van de banner en container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige banner. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Toont de verborgen banner. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de banner. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de banner uit het werkgebied. |
 | [!UICONTROL Upload New Image] |  | Uploadt een afbeelding van uw lokale bestandssysteem naar de galerie voor de bannerachtergrond. |
 | [!UICONTROL Select from Gallery] |  | Hiermee gebruikt u een bestaande afbeelding uit de galerie voor de bannerachtergrond. |
 
@@ -48,17 +48,17 @@ De bannergereedschapset wordt weergegeven wanneer u de muisaanwijzer op de banne
 
 1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Media]** en sleep een tijdelijke aanduiding **[!UICONTROL Banner]** naar het werkgebied.
 
-   ![ slepend een type van bannerinhoud aan het stadium ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een type van bannerinhoud aan het stadium &#x200B;](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
    De knoppen _[!UICONTROL Upload Image]_&#x200B;en&#x200B;_[!UICONTROL Select from Gallery]_ zijn opgenomen zodat u de bannerinhoud direct vanuit het werkgebied kunt wijzigen. U kunt ook de inhoud op de _[!UICONTROL Edit Banner]_-pagina wijzigen.
 
-1. Klik in bannerplaceholder om de [ tekstredacteur ](../content-design/editor.md) te tonen en inhoud voor de banner in te gaan.
+1. Klik in bannerplaceholder om de [&#x200B; tekstredacteur &#x200B;](../content-design/editor.md) te tonen en inhoud voor de banner in te gaan.
 
-   U kunt complexere bannerinhoud ook omvatten gebruikend de [ montages van de Inhoud ](#content).
+   U kunt complexere bannerinhoud ook omvatten gebruikend de [&#x200B; montages van de Inhoud &#x200B;](#content).
 
 ## Banningsinstellingen wijzigen
 
-1. Beweeg over de bannercontainer om toolbox te tonen en de _Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png)).
+1. Beweeg over de bannercontainer om toolbox te tonen en de _Montages_ te kiezen (![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png)).
 
 1. Gebruik de volgende secties voor gedetailleerde informatie over het bijwerken van de beschikbare montages:
 
@@ -86,7 +86,7 @@ Banners kunnen eenvoudig worden ingesteld en onderhouden, omdat ze zijn gebaseer
 
   {style="table-layout:auto"}
 
-  ![ Verschijning - collage recht ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+  ![&#x200B; Verschijning - collage recht &#x200B;](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
 - (Optioneel) Voer de **[!UICONTROL Minimum Height]** in voor de rij.
 
@@ -102,7 +102,7 @@ Er zijn veel opties voor het definiëren van de achtergrondweergave van een bann
 
 Geef de achtergrondkleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren. Deze instelling bepaalt de achtergrondkleur van de rij. U kunt ook de dekking van de kleur aanpassen.
 
-![ Geen kleur (gebrek) ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; Geen kleur (gebrek) &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 U kunt de waarde op drie manieren instellen:
 
@@ -112,11 +112,11 @@ U kunt de waarde op drie manieren instellen:
 
 Als u een kleur wilt kiezen, klik het monster links van _Geen doos van de Kleur_.
 
-![ het Kiezen van een kleurenmonster ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; het Kiezen van een kleurenmonster &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het vak onder de schuifregelaar de huidige waarden voor rood, groen, blauw en alpha (rgba) weergegeven. Het laatste getal geeft het huidige dekkingspercentage aan als een decimaal. U kunt de schuifregelaar gebruiken om de dekking aan te passen of de gewenste decimale waarde invoeren.
 
-![ Plaatsende opaciteit ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![&#x200B; Plaatsende opaciteit &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -126,13 +126,13 @@ Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het 
 
 Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is standaard ingesteld op `Image` en geeft verschillende afbeeldingsinstellingen weer. Als u `Video` selecteert, vervangt [!DNL Page Builder] de afbeeldingsinstellingen door video-instellingen. Beide instellingen voor achtergrondtypen worden in de volgende secties beschreven.
 
-![ Achtergrondtype ](./assets/pb-background-type.png){width="200"}
+![&#x200B; Achtergrondtype &#x200B;](./assets/pb-background-type.png){width="200"}
 
 ### Instellingen voor afbeeldingstypen
 
 Als u het _Type van Achtergrond_ aan `Image` plaatst, gebruik de volgende montages om de vertoning van het achtergrondbeeld te bepalen.
 
-![ Banner met achtergrondbeeld ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![&#x200B; Banner met achtergrondbeeld &#x200B;](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - Kies zo nodig met de beschikbare gereedschappen een achtergrondafbeelding die u op de banner wilt toepassen:
 
@@ -140,7 +140,7 @@ Als u het _Type van Achtergrond_ aan `Image` plaatst, gebruik de volgende montag
   | ---- | ----------- |
   | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als de achtergrondafbeelding voor de banner. |
   | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor de banner. |
-  | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+  | ![&#x200B; het pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
   {style="table-layout:auto"}
 
@@ -156,7 +156,7 @@ Als u het _Type van Achtergrond_ aan `Image` plaatst, gebruik de volgende montag
 
   {style="table-layout:auto"}
 
-  ![ Achtergrondgrootte ](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
+  ![&#x200B; Achtergrondgrootte &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
 - **[!UICONTROL Background Position]** - Stel deze optie in om te bepalen hoe de achtergrondafbeelding ten opzichte van de banner wordt verankerd:
 
@@ -191,7 +191,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Video` instelt, gebruikt u de
    - Vimeo-video&#39;s: `https://vimeo.com/190156113`
    - Geldige videobestanden (`.mp4` wordt aanbevolen): `https://myvideos.com/spiral.mp4`
 
-  ![ Achtergrondvideo URL ](./assets/pb-video-url.png){width="200"}
+  ![&#x200B; Achtergrondvideo URL &#x200B;](./assets/pb-video-url.png){width="200"}
 
 - **[!UICONTROL Overlay Color]** - Selecteer een kleur om een transparante tint toe te passen op de video.
 
@@ -205,7 +205,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Video` instelt, gebruikt u de
 
 ## [!UICONTROL Content]
 
-U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de instellingen wijzigt. De instellingen bieden complexere inhoudseigenschappen, zoals bannerkoppelingen en -knoppen, en overlays. De positie van de inhoud wijst op de [ Verschijning ](#appearance) plaatsing die.
+U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de instellingen wijzigt. De instellingen bieden complexere inhoudseigenschappen, zoals bannerkoppelingen en -knoppen, en overlays. De positie van de inhoud wijst op de [&#x200B; Verschijning &#x200B;](#appearance) plaatsing die.
 
 ### Eenvoudige inhoud in het werkgebied
 
@@ -213,21 +213,21 @@ U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de i
 
    De editor-werkbalk wordt boven het tekstvak weergegeven.
 
-   ![ geef inhoud op het stadium ](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"} uit
+   ![&#x200B; geef inhoud op het stadium &#x200B;](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"} uit
 
 1. Gebruik de editor-werkbalk om tekst in te voeren en op te maken, en om elementen in te voegen, zoals koppelingen, afbeeldingen en widgets.
 
-   ![ Stadium met geformatteerde teksten ](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![&#x200B; Stadium met geformatteerde teksten &#x200B;](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### Complexe inhoud in de instellingen
 
-1. Beweeg over de bannercontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"}).
+1. Beweeg over de bannercontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"}).
 
 1. Blader omlaag naar de sectie _[!UICONTROL Content]_&#x200B;en gebruik de editor **[!UICONTROL Message Text]**&#x200B;om bannertekst in te voeren en op te maken.
 
    U kunt ook elementen invoegen, zoals tekstkoppelingen, afbeeldingen en widgets.
 
-   ![ redacteur van de Tekst van het Bericht ](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![&#x200B; redacteur van de Tekst van het Bericht &#x200B;](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
 1. Geef indien nodig een **[!UICONTROL Link]** voor de banner op.
 
@@ -242,18 +242,18 @@ U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de i
    >
    >Vanaf versie 2.4.1 ondersteunt [!DNL Page Builder] geen koppeling meer tussen de banner en koppelingen in de geneste tekst vanwege problemen met de weergave op de winkel. Als u een koppeling gebruikt in de _[!UICONTROL Message Text]_, kunt u de optie&#x200B;_[!UICONTROL Link]_ niet configureren. Als u verkiest één enkele verbinding voor de volledige banner te gebruiken, kunt u alle verbindingen uit de tekst verwijderen.<br/>
    >
-   >![ de configuratie van de Verbinding wordt geblokkeerd ](./assets/pb-nested-link-blocked.png){width="200"}
+   >![&#x200B; de configuratie van de Verbinding wordt geblokkeerd &#x200B;](./assets/pb-nested-link-blocked.png){width="200"}
 
 
 1. Voeg zo nodig een knop toe om klanten te vragen de koppeling te volgen.
 
    Met de instelling Weergave banner wordt één koppeling of knop onder de tekst geplaatst. Vul de eigenschappen in van de koppeling of knop die u wilt toevoegen.
 
-   ![ Verschijning met tekst en knoop (of verbinding) ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; Verschijning met tekst en knoop (of verbinding) &#x200B;](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >U kunt veelvoudige knopen of verbindingen ook gebruiken door a [ blok ](block.md) aan de banner toe te voegen. U voorkomt conflicten door alle koppelingen of knoppen in het aparte blok te houden en geen koppeling of knop rechtstreeks aan de banner toe te voegen.
+   >U kunt veelvoudige knopen of verbindingen ook gebruiken door a [&#x200B; blok &#x200B;](block.md) aan de banner toe te voegen. U voorkomt conflicten door alle koppelingen of knoppen in het aparte blok te houden en geen koppeling of knop rechtstreeks aan de banner toe te voegen.
 
    - Stel **[!UICONTROL Show Button]** in op een van de volgende opties:
 
@@ -296,11 +296,11 @@ U kunt de bannerinhoud rechtstreeks in het werkgebied wijzigen of wanneer u de i
    - Klik het **Geen Monster van de Kleur**, en kies een monster.
    - Op het **Geen gebied van de Kleur**, of ga een geldige kleurennaam, of hexadecimale waarde in.
 
-   ![ de Kleur van de Bedekking ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; de Kleur van de Bedekking &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
-   ![ Banner met tekstbericht en knoop ](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+   ![&#x200B; Banner met tekstbericht en knoop &#x200B;](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -349,7 +349,7 @@ Tekst voor deze instellingen is zichtbaar voor zoekprogramma&#39;s en verbetert 
 
    - **[!UICONTROL Border Color]** - Geef de kleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren.
 
-     ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+     ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Border Width]** - Voer het aantal pixels in voor de lijnbreedte van de rand.
 

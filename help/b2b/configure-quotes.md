@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Aanhalingstekens configureren
 
-Als de citaten in de algemene [ B2B eigenschappen ](enable-basic-features.md) worden toegelaten, kunt u steun voor citaten in Admin vormen. De configuratie met aanhalingstekens bepaalt de minimale vereiste volgordehoeveelheid voor aanhalingsverzoeken, de levensduur van de aanhalingstekens en de ondersteunde bestandsindelingen voor bijgevoegde bestanden.
+Als de citaten in de algemene [&#x200B; B2B eigenschappen &#x200B;](enable-basic-features.md) worden toegelaten, kunt u steun voor citaten in Admin vormen. De configuratie met aanhalingstekens bepaalt de minimale vereiste volgordehoeveelheid voor aanhalingsverzoeken, de levensduur van de aanhalingstekens en de ondersteunde bestandsindelingen voor bijgevoegde bestanden.
 
 >[!NOTE]
 >
->De configuratieopties van het citaat en de capaciteit om de functies van de citaatonderhandeling te gebruiken worden gecontroleerd gebruikend de [ rolmiddelen ](../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de Admin gebruikersrol worden geselecteerd die aan de Admin gebruikersrekening wordt toegewezen. Om toegang tot citaatfuncties in Admin te verlenen, ga **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, selecteer de rol, en navigeer aan [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] in de_ Bron van de Rol _boom.
+>De configuratieopties van het citaat en de capaciteit om de functies van de citaatonderhandeling te gebruiken worden gecontroleerd gebruikend de [&#x200B; rolmiddelen &#x200B;](../systems/permissions-user-roles.md#role-resources). Deze rolmiddelen moeten voor de Admin gebruikersrol worden geselecteerd die aan de Admin gebruikersrekening wordt toegewezen. Om toegang tot citaatfuncties in Admin te verlenen, ga **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, selecteer de rol, en navigeer aan [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] in de_ Bron van de Rol _boom.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Quotes]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en doe het volgende:
 
-   ![ configuratie van de citaten van de Verkoop - algemeen ](./assets/quotes-general.png){width="700" zoomable="yes"}
+   ![&#x200B; configuratie van de citaten van de Verkoop - algemeen &#x200B;](./assets/quotes-general.png){width="700" zoomable="yes"}
 
-   Zie [ Citaten ](../configuration-reference/sales/quotes.md) in de _Verwijzing van de Configuratie_ voor een volledige lijst van de eigenschapopties van Citaten en hun functies.
+   Zie [&#x200B; Citaten &#x200B;](../configuration-reference/sales/quotes.md) in de _Verwijzing van de Configuratie_ voor een volledige lijst van de eigenschapopties van Citaten en hun functies.
 
    - Voer de **[!UICONTROL Minimum Amount]** in het winkelwagentje in waaraan moet worden voldaan voordat een prijsaanvraag kan worden ingediend.
 
@@ -35,7 +35,7 @@ Als de citaten in de algemene [ B2B eigenschappen ](enable-basic-features.md) wo
 
    - Voer bij **[!UICONTROL Default Expiration Period]** het nummer in van **[!UICONTROL days]** , **[!UICONTROL weeks]** of **[!UICONTROL months]** dat een aanhalingsteken geldig moet blijven.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Attached files]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Attached files]** sectie uit en doe het volgende:
 
    - Voer bij **[!UICONTROL File formats for upload]** het achtervoegsel in van elk bestandstype dat u ondersteunt voor bestanden die aan een aanhalingsteken zijn gekoppeld.
 
@@ -47,6 +47,6 @@ Als de citaten in de algemene [ B2B eigenschappen ](enable-basic-features.md) wo
 
      De waarde die u invoert, wordt mogelijk overschreven door de serverinstelling.
 
-     ![ configuratie van de citaten van de Verkoop - in bijlage dossiers ](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
+     ![&#x200B; configuratie van de citaten van de Verkoop - in bijlage dossiers &#x200B;](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

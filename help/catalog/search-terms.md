@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Zoektermen beheren
 
-De [ landende pagina ](../content-design/pages.md) voor een onderzoekstermijn kan een inhoudspagina, een categoriepagina, een pagina van het productdetail, of zelfs een pagina op een verschillende plaats zijn.
+De [&#x200B; landende pagina &#x200B;](../content-design/pages.md) voor een onderzoekstermijn kan een inhoudspagina, een categoriepagina, een pagina van het productdetail, of zelfs een pagina op een verschillende plaats zijn.
 
 Gebruik zoektermen om veelvoorkomende spelfouten vast te leggen en deze om te leiden naar de juiste pagina. Bijvoorbeeld, als u ruw ijzergeduld meubilair verkoopt, weet u dat vele mensen de termijn als _ruw ijzer_ verkeerd spellen, of zelfs _rotijzer_. U kunt elk verkeerd gespeld woord als onderzoekstermijn ingaan, en hen synoniemen maken voor _droogt ijzer_. Hoewel het woord verkeerd is gespeld, wordt de zoekopdracht naar de pagina gestuurd voor ruw ijzer.
 
@@ -22,7 +22,7 @@ U kunt ook leren wat uw klanten zoeken door de zoektermen te bekijken die zij ge
 
 Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, kunt u deze toevoegen aan de lijst met zoektermen om mensen naar de meest overeenkomende producten in uw catalogus te leiden.
 
-![ het Net van de Termijnen van het Onderzoek ](./assets/search-terms.png){width="700" zoomable="yes"}
+![&#x200B; het Net van de Termijnen van het Onderzoek &#x200B;](./assets/search-terms.png){width="700" zoomable="yes"}
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -46,7 +46,7 @@ Terwijl u nieuwe woorden leert die mensen gebruiken om in uw winkel te zoeken, k
 
 1. Klik op **[!UICONTROL Add New Search Term]**.
 
-   ![ de termen algemene informatie van het Onderzoek ](./assets/search-terms-information.png){width="600" zoomable="yes"}
+   ![&#x200B; de termen algemene informatie van het Onderzoek &#x200B;](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
 1. Voer onder _[!UICONTROL General Information]_&#x200B;in het vak **[!UICONTROL Search Query]**&#x200B;het woord of de woordgroep in die u als een nieuwe zoekterm wilt toevoegen.
 
@@ -94,7 +94,7 @@ De _verbinding van de Termen van het Onderzoek_ in footer van uw opslag toont de
 
 Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor optimalisatie van zoekprogramma&#39;s, maar er is geen directe verbinding met het zoekproces van de catalogus. Omdat de pagina Zoekvoorwaarden wordt geïndexeerd door zoekmachines, kunnen termen op de pagina de positie van je zoekmachine en de zichtbaarheid van je winkel verbeteren. De URL van de pagina Populaire zoektermen is: `mystore.com/search/term/popular/`
 
-![ de storefront van het Voorbeeld - populaire onderzoekstermijnen ](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - populaire onderzoekstermijnen &#x200B;](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
 **_om populaire onderzoekstermijnen te vormen:_**
 
@@ -102,9 +102,9 @@ Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor opti
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - de optimalisering van de onderzoeksmotor &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze opties, zie {de Optimalisering van de Motor van het 0} Onderzoek [&#128279;](../configuration-reference/catalog/catalog.md#search-engine-optimization) in de _Verwijzing van de Configuratie_.
 
@@ -116,15 +116,15 @@ Standaard zijn de algemene zoektermen ingeschakeld als een gereedschap voor opti
 
 >[!NOTE]
 >
->U kunt het caching van populaire [ catalogusonderzoeken ](search-configuration.md) verder vormen.
+>U kunt het caching van populaire [&#x200B; catalogusonderzoeken &#x200B;](search-configuration.md) verder vormen.
 
 ## Synoniemen zoeken
 
-Één manier om de doeltreffendheid van [ catalogusonderzoek ](search-configuration.md) te verbeteren moet verschillende termijnen omvatten die de mensen kunnen gebruiken om het zelfde punt te beschrijven. U wilt geen verkoop verliezen enkel omdat iemand a _sofa_ zoekt, en uw product is vermeld als a _bank_. U kunt een bredere waaier van onderzoekstermijnen vangen door _sofa_ in te gaan, _davenport_, en _loveseat_ als synoniemen voor _bank_, en hen te leiden aan de zelfde het landen pagina.
+Één manier om de doeltreffendheid van [&#x200B; catalogusonderzoek &#x200B;](search-configuration.md) te verbeteren moet verschillende termijnen omvatten die de mensen kunnen gebruiken om het zelfde punt te beschrijven. U wilt geen verkoop verliezen enkel omdat iemand a _sofa_ zoekt, en uw product is vermeld als a _bank_. U kunt een bredere waaier van onderzoekstermijnen vangen door _sofa_ in te gaan, _davenport_, en _loveseat_ als synoniemen voor _bank_, en hen te leiden aan de zelfde het landen pagina.
 
 Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 
-- De actieve eigenschap van het Onderzoek [ Synoniemen ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=nl-NL) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
+- De actieve eigenschap van het Onderzoek [&#x200B; Synoniemen &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=nl-NL) is beschikbaar voor de installaties van Adobe Commerce met Levend geïnstalleerd Onderzoek.
 - De standaardfunctie Synonyms zoeken (die in deze pagina wordt beschreven) is beschikbaar in alle Adobe Commerce-installaties.
 
 >[!NOTE]
@@ -135,7 +135,7 @@ Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 >
 >De zoeksynoniemenfunctie gebruikt alleen een zoekmethode met volledige tekst die overeenkomt.
 
-![ storefront van het Voorbeeld - onderzoeksresultaten met synoniemen ](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
+![&#x200B; storefront van het Voorbeeld - onderzoeksresultaten met synoniemen &#x200B;](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Een synoniem maken
 
@@ -143,11 +143,11 @@ Adobe Commerce ondersteunt twee verschillende oplossingen voor synoniem beheer:
 
    Het _[!UICONTROL Search Synonyms]_-raster wordt weergegeven. Als het de eerste keer is dat u zoeksynoniemen hebt gebruikt, is het raster leeg.
 
-   ![ Synoniemennet van het Onderzoek ](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
+   ![&#x200B; Synoniemennet van het Onderzoek &#x200B;](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL New Synonym Group]**.
 
-   ![ Nieuwe groep van onderzoekssynoniemen ](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
+   ![&#x200B; Nieuwe groep van onderzoekssynoniemen &#x200B;](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
 1. Stel **[!UICONTROL Scope]** in op de winkelweergaven waarop de synoniemen van toepassing zijn.
 
@@ -200,7 +200,7 @@ Het rapport Zoektermen toont het aantal resultaten voor elke term en het aantal 
 
 1. Gebruik de besturingselementen om het rapport naar wens te filteren.
 
-   ![ het rapport van de Termijnen van het Onderzoek ](./assets/search-terms-report.png){width="700" zoomable="yes"}
+   ![&#x200B; het rapport van de Termijnen van het Onderzoek &#x200B;](./assets/search-terms-report.png){width="700" zoomable="yes"}
 
 ## Het rapport exporteren
 

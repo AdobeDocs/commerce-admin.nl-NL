@@ -16,11 +16,11 @@ _Nul subtotal checkout_ kan voor orden met een subtotaal van nul worden gebruikt
 
 - Een korting geldt voor de volledige aankoopprijs, zonder extra verzendkosten.
 
-- De klant voegt a [ downloadbaar ](../catalog/product-create-downloadable.md) of [ virtueel ](../catalog/product-create-virtual.md) product aan het winkelwagentje toe, en de prijs evenaart nul.
+- De klant voegt a [&#x200B; downloadbaar &#x200B;](../catalog/product-create-downloadable.md) of [&#x200B; virtueel &#x200B;](../catalog/product-create-virtual.md) product aan het winkelwagentje toe, en de prijs evenaart nul.
 
-- De prijs van a [ eenvoudig ](../catalog/product-create-simple.md) product is nul, en de [ vrije het verschepen ](shipping-free.md) methode is beschikbaar.
+- De prijs van a [&#x200B; eenvoudig &#x200B;](../catalog/product-create-simple.md) product is nul, en de [&#x200B; vrije het verschepen &#x200B;](shipping-free.md) methode is beschikbaar.
 
-- A [ couponcode ](../merchandising-promotions/price-rules-cart-coupon.md) behandelt de volledige prijs van producten en het verschepen.
+- A [&#x200B; couponcode &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md) behandelt de volledige prijs van producten en het verschepen.
 
 Om tijd te besparen, kunnen de geen bevelen van het subtotaal aan automatisch factuur worden geplaatst.
 
@@ -30,9 +30,9 @@ Om tijd te besparen, kunnen de geen bevelen van het subtotaal aan automatisch fa
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Onder _[!UICONTROL Other Payment Methods]_, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Zero Subtotal Checkout]**&#x200B;sectie.
+1. Onder _[!UICONTROL Other Payment Methods]_, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Zero Subtotal Checkout]**&#x200B;sectie.
 
-   ![ Nul SubtotalCheckout ](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
+   ![&#x200B; Nul SubtotalCheckout &#x200B;](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -52,11 +52,11 @@ Om tijd te besparen, kunnen de geen bevelen van het subtotaal aan automatisch fa
 
    >[!NOTE]
    >
-   >Als _[!UICONTROL New Order Status]_&#x200B;aan `Processing` wordt geplaatst en&#x200B;_[!UICONTROL Automatically Invoice All Items]_ aan `No` wordt geplaatst, moet u ook **[!UICONTROL Order Status]** = `Processing` voor **[!UICONTROL Order State]** = `Pending` en **[!UICONTROL Default Status]** = `No` afbeelding op de [ pagina van de Status van de Orde ](order-status.md#custom-order-status) toewijzen.
+   >Als _[!UICONTROL New Order Status]_&#x200B;aan `Processing` wordt geplaatst en&#x200B;_[!UICONTROL Automatically Invoice All Items]_ aan `No` wordt geplaatst, moet u ook **[!UICONTROL Order Status]** = `Processing` voor **[!UICONTROL Order State]** = `Pending` en **[!UICONTROL Default Status]** = `No` afbeelding op de [&#x200B; pagina van de Status van de Orde &#x200B;](order-status.md#custom-order-status) toewijzen.
 
 1. Stel **[!UICONTROL Payment from Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze betalingsmethode gebruiken.
    - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
 1. Voer bij **[!UICONTROL Sort Order]** een getal in dat de positie van dit item bepaalt in de lijst met betalingsmethoden die tijdens het afrekenen wordt weergegeven.

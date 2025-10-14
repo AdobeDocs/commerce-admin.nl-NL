@@ -17,7 +17,7 @@ Klanten kunnen hun wachtwoorden meestal opnieuw instellen vanuit de winkel door 
 | Functie | Beschrijving |
 | --- | --- |
 | Wachtwoord opnieuw instellen | Er wordt een e-mailbericht met wachtwoordinstellingen rechtstreeks verzonden naar de e-mailaccount van de klant. De opslagbeheerder kan geen toegang tot het wachtwoord van de klant krijgen. |
-| Aanmelden forceren | Hiermee worden de OAuth-toegangstokens ingetrokken die aan de klantenaccount zijn gekoppeld. Dit kan slechts met klantenrekeningen worden gebruikt die tekenen OAuth, als deel van een Web API [ integratie ](../systems/integrations.md) zijn toegewezen. Meer leren, zie [ Op OAuth-Gebaseerde authentificatie ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in de ontwikkelaarsdocumentatie. <br/><br/> Standaard klantenrekeningen die van storefront of van Admin worden gecreeerd hebben geen Tokens OAuth. |
+| Aanmelden forceren | Hiermee worden de OAuth-toegangstokens ingetrokken die aan de klantenaccount zijn gekoppeld. Dit kan slechts met klantenrekeningen worden gebruikt die tekenen OAuth, als deel van een Web API [&#x200B; integratie &#x200B;](../systems/integrations.md) zijn toegewezen. Meer leren, zie [&#x200B; Op OAuth-Gebaseerde authentificatie &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in de ontwikkelaarsdocumentatie. <br/><br/> Standaard klantenrekeningen die van storefront of van Admin worden gecreeerd hebben geen Tokens OAuth. |
 
 {style="table-layout:auto"}
 
@@ -27,7 +27,7 @@ Klanten kunnen hun wachtwoorden meestal opnieuw instellen vanuit de winkel door 
 
 1. Wanneer hierom wordt gevraagd, voert u de **[!UICONTROL Email Address]** in die aan het account is gekoppeld en klikt u op **[!UICONTROL Reset My Password]** .
 
-   ![ vergeten Uw Wachtwoord ](assets/forgot-password.png){width="600" zoomable="yes"}
+   ![&#x200B; vergeten Uw Wachtwoord &#x200B;](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
@@ -49,7 +49,7 @@ Klanten kunnen hun wachtwoorden meestal opnieuw instellen vanuit de winkel door 
 
 1. Klik op **[!UICONTROL Reset Password]** in de reeks opties boven aan de pagina.
 
-   Het aantal verzoeken van het wachtwoordterugstellen die binnen een uur worden toegestaan wordt geplaatst in het [ configuratie](../configuration-reference/customers/customer-configuration.md) onderwerp.
+   Het aantal verzoeken van het wachtwoordterugstellen die binnen een uur worden toegestaan wordt geplaatst in het [&#x200B; configuratie](../configuration-reference/customers/customer-configuration.md) onderwerp.
 
 ## OAuth-tokens van een klant intrekken
 

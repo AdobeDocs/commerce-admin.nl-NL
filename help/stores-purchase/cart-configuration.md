@@ -32,18 +32,18 @@ De configuratie van het winkelwagentje bepaalt hoe het winkelwagentje voor uw wi
 
 >[!NOTE]
 >
->Voor informatie over het vormen van het controleproces, zie [ Opties van de Controle ](checkout-process.md).
+>Voor informatie over het vormen van het controleproces, zie [&#x200B; Opties van de Controle &#x200B;](checkout-process.md).
 
 ## Minikaart
 
 De _mini kart_ toont een samenvatting van punten in de kar. Deze optie is standaard ingeschakeld en wordt weergegeven wanneer u op de koppeling Winkelwagentje boven aan de pagina klikt.
 De verbinding kan worden gevormd om het aantal verschillende producten (of SKUs) in het karretje, of de totale hoeveelheid alle punten te tonen.
 
-![ de verkoopster toont de het winkelwagentje sidebar van een productpagina ](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
+![&#x200B; de verkoopster toont de het winkelwagentje sidebar van een productpagina &#x200B;](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Voor a _geregistreerde_ klant, zijn er gevallen wanneer de MinKaart niet automatisch over de veelvoudige apparaten en browsers kan worden gesynchroniseerd. Om de MinKar in dergelijke gevallen te synchroniseren, kan de klant eenvoudig de [ Shopping Kart ](cart.md) pagina op dat apparaat of browser openen.
+>Voor a _geregistreerde_ klant, zijn er gevallen wanneer de MinKaart niet automatisch over de veelvoudige apparaten en browsers kan worden gesynchroniseerd. Om de MinKar in dergelijke gevallen te synchroniseren, kan de klant eenvoudig de [&#x200B; Shopping Kart &#x200B;](cart.md) pagina op dat apparaat of browser openen.
 
 ### De minikaart configureren
 
@@ -51,11 +51,11 @@ De verbinding kan worden gevormd om het aantal verschillende producten (of SKUs)
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Mini Cart]_&#x200B;sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Mini Cart]_&#x200B;sectie uit.
 
-   ![ Vormend de minikaart ](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; Vormend de minikaart &#x200B;](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
-1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
@@ -77,20 +77,20 @@ De verbinding kan worden gevormd om het aantal verschillende producten (of SKUs)
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL My Cart Link]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL My Cart Link]** sectie uit.
 
 1. Stel **[!UICONTROL Display Cart Summary]** in op een van de volgende instellingen:
 
    - `Display item quantities` - Deze instelling geeft het totale aantal producten in het winkelwagentje weer, waarbij de hoeveelheden voor elk product worden opgeteld.
    - `Display number of items in cart` - Met deze instelling geeft u het aantal producten in het winkelwagentje weer, ongeacht het aantal.
 
-   ![ de opties van de Configuratie voor Mijn Verbinding van de Kaart ](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
+   ![&#x200B; de opties van de Configuratie voor Mijn Verbinding van de Kaart &#x200B;](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ## Omleiden naar winkelwagentje
 
-De winkelwagenpagina kan zo worden geconfigureerd dat deze altijd wordt weergegeven wanneer een item aan het winkelwagentje wordt toegevoegd of alleen wanneer klanten ervoor kiezen naar de pagina te gaan. De basisinformatie over de punten momenteel in de kar is altijd beschikbaar in de [ mini kar ](#mini-cart). Het besluit is een kwestie van het in evenwicht brengen van de voordelen om klanten te laten blijven winkelen, met de voordelen van het aanmoedigen van klanten om verder te gaan met afrekenen. Het kan een kwestie van persoonlijke voorkeur zijn. Als u echter een back-up wilt maken van getallen, kunt u een A/B-test uitvoeren om te zien welke methode een hogere conversiesnelheid oplevert.
+De winkelwagenpagina kan zo worden geconfigureerd dat deze altijd wordt weergegeven wanneer een item aan het winkelwagentje wordt toegevoegd of alleen wanneer klanten ervoor kiezen naar de pagina te gaan. De basisinformatie over de punten momenteel in de kar is altijd beschikbaar in de [&#x200B; mini kar &#x200B;](#mini-cart). Het besluit is een kwestie van het in evenwicht brengen van de voordelen om klanten te laten blijven winkelen, met de voordelen van het aanmoedigen van klanten om verder te gaan met afrekenen. Het kan een kwestie van persoonlijke voorkeur zijn. Als u echter een back-up wilt maken van getallen, kunt u een A/B-test uitvoeren om te zien welke methode een hogere conversiesnelheid oplevert.
 
 **_om te vormen wanneer het karretje verschijnt:_**
 
@@ -98,11 +98,11 @@ De winkelwagenpagina kan zo worden geconfigureerd dat deze altijd wordt weergege
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
 
-   ![ de het winkelen montages van de kartconfiguratie die op de pagina ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
+   ![&#x200B; de het winkelen montages van de kartconfiguratie die op de pagina &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
 
-1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
@@ -115,7 +115,7 @@ De winkelwagenpagina kan zo worden geconfigureerd dat deze altijd wordt weergege
 
 ## Offerteleven
 
-Met de installatie en enablement van Adobe Commerce B2B, kunt u steun voor de _Citaten_ eigenschap toevoegen. Hierdoor kunnen geautoriseerde kopers het onderhandelingsproces voor de prijs starten door een aanvraag van het winkelwagentje in te dienen. Het _Citaten_ net maakt een lijst van elk ontvangen citaat, en handhaaft een geschiedenis van de communicatie tussen koper en verkoper. Voor meer informatie over de eigenschappen B2B, zie [ Onderhandelde citaten ](../b2b/quotes.md) in de _Gids van de Gebruiker van Adobe Commerce B2B_.
+Met de installatie en enablement van Adobe Commerce B2B, kunt u steun voor de _Citaten_ eigenschap toevoegen. Hierdoor kunnen geautoriseerde kopers het onderhandelingsproces voor de prijs starten door een aanvraag van het winkelwagentje in te dienen. Het _Citaten_ net maakt een lijst van elk ontvangen citaat, en handhaaft een geschiedenis van de communicatie tussen koper en verkoper. Voor meer informatie over de eigenschappen B2B, zie [&#x200B; Onderhandelde citaten &#x200B;](../b2b/quotes.md) in de _Gids van de Gebruiker van Adobe Commerce B2B_.
 
 U kunt bepalen hoe lang een prijs geldig is door het leven van het wortelcitaat in de configuratie te plaatsen. Als een winkelier bijvoorbeeld een winkelwagen na meerdere dagen zonder toezicht verlaat, is de prijs voor sommige objecten mogelijk niet meer gelijk. Standaard is de prijszetlevensduur ingesteld op 30 dagen.
 
@@ -125,11 +125,11 @@ U kunt bepalen hoe lang een prijs geldig is door het leven van het wortelcitaat 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
 
-   ![ de het winkelen montages van de kartconfiguratie die op de pagina ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
+   ![&#x200B; de het winkelen montages van de kartconfiguratie die op de pagina &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
 
-1. Als het plaatsen voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als het plaatsen voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
@@ -141,7 +141,7 @@ U kunt bepalen hoe lang een prijs geldig is door het leven van het wortelcitaat 
 
 Met de configuratie kunt u een minimumbedrag opgeven, nadat kortingen zijn toegepast, dat de subtotalen van de volgorde moeten voldoen. Bestellingen die naar meerdere adressen worden verzonden, kunnen nodig zijn om aan het minimale orderbedrag per adres te voldoen. De knop Uitchecken wordt pas beschikbaar nadat het minimale orderbedrag is bereikt.
 
-![ het winkelwagentje toont een minimum ordebericht ](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
+![&#x200B; het winkelwagentje toont een minimum ordebericht &#x200B;](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
 **_om een minimumordehoeveelheid te vormen:_**
 
@@ -149,9 +149,9 @@ Met de configuratie kunt u een minimumbedrag opgeven, nadat kortingen zijn toege
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Minimum Order Amount]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Minimum Order Amount]** sectie uit.
 
-   ![ de minimumopties van de ordeconfiguratie die op de pagina ](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"} worden uitgebreid
+   ![&#x200B; de minimumopties van de ordeconfiguratie die op de pagina &#x200B;](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"} worden uitgebreid
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` als u een minimale hoeveelheid bestellingen wilt.
 
@@ -199,9 +199,9 @@ U kunt de minimumhoeveelheid instellen die voor een bestelling is toegestaan. De
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Inventory]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Product Stock Options]** sectie uit.
 
-   ![ Opties van de Voorraad van het Product ](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties van de Voorraad van het Product &#x200B;](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
 1. Stel bij **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** de minimale hoeveelheid van het product voor een bestelling in.
 
@@ -213,17 +213,17 @@ U kunt de minimumhoeveelheid instellen die voor een bestelling is toegestaan. De
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-   ![ Minimale kwantitatieve vereiste in het winkelwagentje ](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
+   ![&#x200B; Minimale kwantitatieve vereiste in het winkelwagentje &#x200B;](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
 
 ## Miniaturen van winkelwagentjes
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 De miniatuurafbeeldingen die in het winkelwagentje worden weergegeven, geven klanten een snel overzicht van de items die ze op het punt staan te kopen. Voor producten met meerdere opties komt de afbeelding mogelijk niet overeen met de variatie van het product in de winkelwagentje. Als de klant een item in een bepaalde kleur koopt, moet de miniatuur in het winkelwagentje overeenkomen.
 
 De miniatuurafbeelding voor zowel gegroepeerde als configureerbare producten kan zo worden ingesteld dat de afbeelding wordt weergegeven vanuit het &quot;bovenliggende&quot; product of de productvariatie.
 
-![ het winkelwagentjes toont duimnagelbeelden voor elk product ](./assets/storefront-cart.png){width="700" zoomable="yes"}
+![&#x200B; het winkelwagentjes toont duimnagelbeelden voor elk product &#x200B;](./assets/storefront-cart.png){width="700" zoomable="yes"}
 
 **_om wortelduimnagels te vormen:_**
 
@@ -231,16 +231,16 @@ De miniatuurafbeelding voor zowel gegroepeerde als configureerbare producten kan
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart]** sectie uit.
 
-   ![ de het winkelen montages van de kartconfiguratie die op de pagina ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
+   ![&#x200B; de het winkelen montages van de kartconfiguratie die op de pagina &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"} worden uitgebreid
 
-1. Plaats **[!UICONTROL Grouped Product Image]** om de duimnagel te bepalen die in de kar voor [ gegroepeerde producten ](../catalog/product-create-grouped.md) wordt gebruikt:
+1. Plaats **[!UICONTROL Grouped Product Image]** om de duimnagel te bepalen die in de kar voor [&#x200B; gegroepeerde producten &#x200B;](../catalog/product-create-grouped.md) wordt gebruikt:
 
    - `Product Thumbnail Itself` - Hiermee gebruikt u de miniatuur die is toegewezen aan de productvariatie die aan het winkelwagentje is toegevoegd.
    - `Parent Product Thumbnail` - Gebruikt de miniatuur die aan het bovenliggende product is toegewezen.
 
-1. Plaats **[!UICONTROL Configurable Product Image]** om de duimnagel te bepalen die in de kar voor [ configureerbare producten ](../catalog/product-create-configurable.md) wordt gebruikt:
+1. Plaats **[!UICONTROL Configurable Product Image]** om de duimnagel te bepalen die in de kar voor [&#x200B; configureerbare producten &#x200B;](../catalog/product-create-configurable.md) wordt gebruikt:
 
    - `Product Thumbnail Itself` - Hiermee gebruikt u de miniatuur die is toegewezen aan de productvariatie die aan het winkelwagentje is toegevoegd.
    - `Parent Product Thumbnail` - Gebruikt de miniatuur die aan het bovenliggende product is toegewezen.
@@ -251,7 +251,7 @@ De miniatuurafbeelding voor zowel gegroepeerde als configureerbare producten kan
 
 De selectie van beschikbare cadeauopties wordt in het winkelwagentje weergegeven voordat het afrekenproces begint. De configuratie met cadeauopties bepaalt of klanten een cadeaubericht of wenskaart kunnen toevoegen en of er opties voor het verpakken van cadeaus beschikbaar zijn. Elk item in de volgorde kan een aparte bericht- en cadeauverpakking hebben. Wanneer klanten op de volledige bestelling worden toegepast, kunnen ze ook een kwitantie- en wenskaart toevoegen.
 
-![ de opslag van het Voorbeeld - de opties van het Gift in het winkelwagentje ](./assets/storefront-cart-gift-options-for-products-or-order.png){width="700" zoomable="yes"}
+![&#x200B; de opslag van het Voorbeeld - de opties van het Gift in het winkelwagentje &#x200B;](./assets/storefront-cart-gift-options-for-products-or-order.png){width="700" zoomable="yes"}
 
 De configuratie Cadeauopties is van toepassing op de gehele website, maar kan op productniveau worden overschreven.
 
@@ -261,45 +261,45 @@ De configuratie Cadeauopties is van toepassing op de gehele website, maar kan op
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** op de pagina uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** op de pagina uit.
 
-   ![ configuratie van de Verkoop - de montages van de Opties van het Cadeautje ](../configuration-reference/sales/assets/sales-gift-options.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Verkoop - de montages van de Opties van het Cadeautje &#x200B;](../configuration-reference/sales/assets/sales-gift-options.png){width="600" zoomable="yes"}
 
 1. Stel de berichtopties voor cadeautjes in op basis van uw voorkeur:
 
    - Selecteer `Yes` bij **[!UICONTROL Allow Gift Messages on Order Level]** als u één cadeaubericht voor de hele volgorde wilt inschakelen.
    - Selecteer voor **[!UICONTROL Allow Gift Messages for Order Items]** de optie `Yes` om het toevoegen van aparte cadeauberichten voor afzonderlijke items in het winkelwagentje van de klant in te schakelen.
 
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) plaats de gift-verpakken opties volgens uw voorkeur:
+1. ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) plaats de gift-verpakken opties volgens uw voorkeur:
 
    - Selecteer `Yes` bij **[!UICONTROL Allow Gift Wrapping on Order Level]** als u één cadeauverpakking voor de volledige volgorde wilt inschakelen.
    - Selecteer voor **[!UICONTROL Allow Gift Wrapping for Order Items]** `Yes` om het toevoegen van cadeauverpakking aan elk artikel in het winkelwagentje van de klant mogelijk te maken.
 
-   U kunt verschillende [ gift-omsluitende ontwerpen ](#gift-wrap) ook bepalen zodat de klanten de omslag kunnen kiezen.
+   U kunt verschillende [&#x200B; gift-omsluitende ontwerpen &#x200B;](#gift-wrap) ook bepalen zodat de klanten de omslag kunnen kiezen.
 
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) om klanten van een optie te voorzien om een geschenkontvangstbewijs te omvatten, reeks **[!UICONTROL Allow Gift Receipt]** aan `Yes`.
+1. ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) om klanten van een optie te voorzien om een geschenkontvangstbewijs te omvatten, reeks **[!UICONTROL Allow Gift Receipt]** aan `Yes`.
 
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) om klanten van een optie te voorzien om een gedrukte kaart te omvatten, reeks **[!UICONTROL Allow Printed Card]** aan `Yes`.
+1. ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) om klanten van een optie te voorzien om een gedrukte kaart te omvatten, reeks **[!UICONTROL Allow Printed Card]** aan `Yes`.
 
-1. ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) gaat **[!UICONTROL Default Price for Printed Card]** in.
+1. ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) gaat **[!UICONTROL Default Price for Printed Card]** in.
 
 1. Klik op **[!UICONTROL Save Config]**.
 
 ### Cadeauverpakking
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-Cadeauverpakking is beschikbaar voor elk product dat kan worden verzonden en kan worden aangeboden voor afzonderlijke objecten of voor de volledige bestelling. U kunt een aparte prijs in rekening brengen voor elk geschenompontwerp en een miniatuurafbeelding uploaden voor elk ontwerp dat als optie voor een product in de kar verschijnt. Wanneer een klant op de miniatuur van de cadeauterugloop klikt, wordt een afbeelding op volledige grootte weergegeven. Tijdens controleoverzicht, verschijnt de lading van de geschenkomslag met andere [ controletotalen ](checkout-totals-sort-order.md) in de _Samenvatting van de Orde_ sectie.
+Cadeauverpakking is beschikbaar voor elk product dat kan worden verzonden en kan worden aangeboden voor afzonderlijke objecten of voor de volledige bestelling. U kunt een aparte prijs in rekening brengen voor elk geschenompontwerp en een miniatuurafbeelding uploaden voor elk ontwerp dat als optie voor een product in de kar verschijnt. Wanneer een klant op de miniatuur van de cadeauterugloop klikt, wordt een afbeelding op volledige grootte weergegeven. Tijdens controleoverzicht, verschijnt de lading van de geschenkomslag met andere [&#x200B; controletotalen &#x200B;](checkout-totals-sort-order.md) in de _Samenvatting van de Orde_ sectie.
 
 De geschenkompafbeelding moet een staal zijn met het herhalende patroon en kan ook een voorbeeld van het te gebruiken lint bevatten. U kunt het papier scannen of een foto nemen van een verpakking. De geüploade afbeelding kan een GIF-, JPG- of PNG-afbeelding zijn en moet vierkant zijn. In het volgende voorbeeld is de geüploade geschenomslagafbeelding 230 x 230 pixels.
 
-![ de opties van het Cadeautje in karretje ](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
+![&#x200B; de opties van het Cadeautje in karretje &#x200B;](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
 
 #### Een geschenkompontwerp toevoegen
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
 
-   ![ het Wrappen van het Gift net ](./assets/gift-wrapping.png){width="700" zoomable="yes"}
+   ![&#x200B; het Wrappen van het Gift net &#x200B;](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Gift Wrapping]** .
 
@@ -317,7 +317,7 @@ De geschenkompafbeelding moet een staal zijn met het herhalende patroon en kan o
 
    Deze instelling kan worden overschreven door de prijs voor cadeauverpakking die op productniveau is ingesteld.
 
-   ![ Nieuwe Wrapping van het Cadeautje ](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Wrapping van het Cadeautje &#x200B;](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
 
 1. Als u een miniatuur **[!UICONTROL Image]** van de cadeauverpakking wilt uploaden, klikt u op **[!UICONTROL Choose File]** en selecteert u het bestand dat u wilt uploaden in de map.
 
@@ -333,7 +333,7 @@ De geschenkompafbeelding moet een staal zijn met het herhalende patroon en kan o
 
 1. In de _kolom van de Actie_, klik **[!UICONTROL Edit]**.
 
-   ![ geef gift het verpakken informatie ](./assets/gift-wrapping-edit.png){width="600" zoomable="yes"} uit
+   ![&#x200B; geef gift het verpakken informatie &#x200B;](./assets/gift-wrapping-edit.png){width="600" zoomable="yes"} uit
 
 1. Breng de gewenste wijzigingen aan.
 
@@ -361,7 +361,7 @@ Met het _open net van de Wrapping van het Cadeautje_ &lbrace;, gebruik één van
 
 ### Cadeauoptietaks
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 Cadeauverpakking en prijzen voor afgedrukte cadeaukaarten kunnen worden geconfigureerd voor het opnemen of uitsluiten van belasting, of voor het weergeven van beide opties. U kunt ook een belastingklasse voor deze items opgeven, op algemeen niveau of op websiteniveau.
 
@@ -371,15 +371,15 @@ Cadeauverpakking en prijzen voor afgedrukte cadeaukaarten kunnen worden geconfig
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
 
-   ![ de klassenconfiguratie van de Belasting ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; de klassenconfiguratie van de Belasting &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Tax Class for Gift Options]** in op de toepasselijke belastingklasse.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie uit.
 
-   ![ Orders, facturen, de vertoningsmontages van creditnota&#39;s ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Orders, facturen, de vertoningsmontages van creditnota&#39;s &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Display Gift Wrapping Prices]** in op een van de volgende opties:
 

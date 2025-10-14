@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als tijdelijk verslag van de transactie. In het net van Orden, hebben de verkooporden aanvankelijk het statuut van &quot;in behandeling,&quot;en kunnen op elk ogenblik worden geannuleerd tot de betaling wordt verwerkt. Nadat de betaling is bevestigd, kan de bestelling worden gefactureerd en verzonden.
 
-**Stap 1: De Orde van de Plaats** - het controleproces begint wanneer de verkoopster **[!UICONTROL Go to Checkout]** op de het winkelen kartpagina klikt of [ reorders ](reorders-allow.md) direct van hun klantenrekening.
+**Stap 1: De Orde van de Plaats** - het controleproces begint wanneer de verkoopster **[!UICONTROL Go to Checkout]** op de het winkelen kartpagina klikt of [&#x200B; reorders &#x200B;](reorders-allow.md) direct van hun klantenrekening.
 
 **Stap 2: De orde in afwachting van** - de aanvankelijke status van de verkooporde is `Pending`. In dat geval is de betaling niet verwerkt en kan de bestelling nog steeds worden bewerkt of geannuleerd. Deze status treedt op wanneer de betalingsmethode wordt geconfigureerd voor de machtigingsmodus.
 
@@ -30,7 +30,7 @@ Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als t
 
 >[!NOTE]
 >
->Voor details over de status van de orde en de configuratieopties van de betalingsmethode, zie [ status van de Orde ](order-status.md) en [ Betalingen ](payments.md).
+>Voor details over de status van de orde en de configuratieopties van de betalingsmethode, zie [&#x200B; status van de Orde &#x200B;](order-status.md) en [&#x200B; Betalingen &#x200B;](payments.md).
 
 ## Een bestelling weergeven
 
@@ -52,21 +52,21 @@ Het e-mailadres van de klant kan op elk gewenst moment in de workflow worden bew
 
 Het linkerdeelvenster voor een open volgorde biedt toegang tot verschillende typen informatie die betrekking hebben op de volgorde.
 
-![ de Orde van de Mening ](./assets/order-view.png){width="700" zoomable="yes"}
+![&#x200B; de Orde van de Mening &#x200B;](./assets/order-view.png){width="700" zoomable="yes"}
 
 ## Een bestelling verwerken
 
-Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als tijdelijk verslag van de transactie. De verkooporder heeft de status `Pending` totdat de betaling is ontvangen. In de `Pending` -status kunnen bestellingen worden bewerkt of geannuleerd tot het moment dat de betaling wordt ontvangen en een factuur wordt gegenereerd. Een gemakkelijke manier om het te bedenken is dat bestellingen facturen worden en facturen overbrengingen. In het raster Orden worden alle bestellingen weergegeven, ongeacht de locatie van de bestellingen in de workflow. Leren hoe te om klanten met een orde te helpen, zie [ een orde ](order-update.md) bijwerken.
+Wanneer een klant een bestelling plaatst, wordt een verkooporder gecreeerd als tijdelijk verslag van de transactie. De verkooporder heeft de status `Pending` totdat de betaling is ontvangen. In de `Pending` -status kunnen bestellingen worden bewerkt of geannuleerd tot het moment dat de betaling wordt ontvangen en een factuur wordt gegenereerd. Een gemakkelijke manier om het te bedenken is dat bestellingen facturen worden en facturen overbrengingen. In het raster Orden worden alle bestellingen weergegeven, ongeacht de locatie van de bestellingen in de workflow. Leren hoe te om klanten met een orde te helpen, zie [&#x200B; een orde &#x200B;](order-update.md) bijwerken.
 
-![ Orders ](./assets/orders-grid.png){width="700" zoomable="yes"}
+![&#x200B; Orders &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 Als u een `Pending` -volgorde wilt openen, klikt u op **[!UICONTROL Edit]** in de rechterbovenhoek.
 
 >[!NOTE]
 >
->Orders kunnen alleen worden bewerkt als ze de status `Pending` hebben. De Edit knoop is niet zichtbaar voor orden in een verschillende status of voor orden die op a [ besproken citaat ](../b2b/quotes.md) gebaseerd zijn.
+>Orders kunnen alleen worden bewerkt als ze de status `Pending` hebben. De Edit knoop is niet zichtbaar voor orden in een verschillende status of voor orden die op a [&#x200B; besproken citaat &#x200B;](../b2b/quotes.md) gebaseerd zijn.
 
-![ geeft de Orde van de Verkoop uit ](./assets/order-pending.png){width="600" zoomable="yes"}
+![&#x200B; geeft de Orde van de Verkoop uit &#x200B;](./assets/order-pending.png){width="600" zoomable="yes"}
 
 Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen ter referentie.
 
@@ -84,7 +84,7 @@ Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen t
 
 >[!NOTE]
 >
->Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** [ toestemmingen ](../systems/permissions-user-roles.md) voor hun rolwerkingsgebied hebben om de _Facturen_, _Kredietmemo&#39;s_, en _Verzendingen_ ordetlusjes te zien.
+>Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** [&#x200B; toestemmingen &#x200B;](../systems/permissions-user-roles.md) voor hun rolwerkingsgebied hebben om de _Facturen_, _Kredietmemo&#39;s_, en _Verzendingen_ ordetlusjes te zien.
 
 ### Knopbalk
 
@@ -104,9 +104,9 @@ Bekijk de volgende secties in de verkooporder en gebruik de veldbeschrijvingen t
 
 ### Een bestelling annuleren
 
-U kunt [ annuleren ](order-update.md) orden die nog niet worden gefactureerd. A [ creditmemo ](credit-memos.md) moet worden uitgegeven als een klant een orde wil annuleren nadat het wordt gefactureerd (betaling wordt gevangen).
+U kunt [&#x200B; annuleren &#x200B;](order-update.md) orden die nog niet worden gefactureerd. A [&#x200B; creditmemo &#x200B;](credit-memos.md) moet worden uitgegeven als een klant een orde wil annuleren nadat het wordt gefactureerd (betaling wordt gevangen).
 
-Als een orde `Pending` of `Processing` is en de betaling niet wordt gevangen of niet volledig gevangen, kunt u [ de orde ](#void-an-order) nietig verklaren in plaats van het te annuleren.
+Als een orde `Pending` of `Processing` is en de betaling niet wordt gevangen of niet volledig gevangen, kunt u [&#x200B; de orde &#x200B;](#void-an-order) nietig verklaren in plaats van het te annuleren.
 
 Als u een geannuleerde volgorde wilt herstellen, klikt u op de knop **[!UICONTROL Reorder]** en wordt een nieuwe volgorde gemaakt met de status `Pending` .
 
@@ -116,11 +116,11 @@ Als u een geannuleerde volgorde wilt herstellen, klikt u op de knop **[!UICONTRO
 
 ### Een bestelling wissen
 
-Slechts verkooporden die niet worden gefactureerd, hebben een status van `Processing`, en a [ betalings integratie het plaatsen van `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), kunnen [ ongeldig worden verklaard ](order-update.md#void-a-processing-order). Nadat u een bestelling hebt verwijderd, kunt u deze annuleren.
+Slechts verkooporden die niet worden gefactureerd, hebben een status van `Processing`, en a [&#x200B; betalings integratie het plaatsen van `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), kunnen [&#x200B; ongeldig worden verklaard &#x200B;](order-update.md#void-a-processing-order). Nadat u een bestelling hebt verwijderd, kunt u deze annuleren.
 
 ### [!UICONTROL Order and Account Information]
 
-![ orde en de Informatie van de Rekening ](./assets/order-account-information.png){width="600" zoomable="yes"}
+![&#x200B; orde en de Informatie van de Rekening &#x200B;](./assets/order-account-information.png){width="600" zoomable="yes"}
 
 #### Ordergegevens
 
@@ -130,7 +130,7 @@ Slechts verkooporden die niet worden gefactureerd, hebben een status van `Proces
 | [!UICONTROL Order Date] | De datum en tijd waarop de bestelling is geplaatst. |
 | [!UICONTROL Purchased From] | Geeft de website-, opslag- en opslagweergave aan waarin de volgorde is geplaatst. |
 | [!UICONTROL Placed from IP] | Wijst op het IP adres van de computer waarvan de orde werd geplaatst. |
-| [!UICONTROL Order Placed from Quote] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) wijst op het [ citaat ](../b2b/quotes.md) waarvan de orde werd geproduceerd, als toepasselijk. De naam van het citaat is verbonden met het citaat. |
+| [!UICONTROL Order Placed from Quote] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) wijst op het [&#x200B; citaat &#x200B;](../b2b/quotes.md) waarvan de orde werd geproduceerd, als toepasselijk. De naam van het citaat is verbonden met het citaat. |
 
 {style="table-layout:auto"}
 
@@ -141,28 +141,28 @@ Slechts verkooporden die niet worden gefactureerd, hebben een status van `Proces
 | [!UICONTROL Customer Name] | De naam van de klant of koper die de bestelling heeft geplaatst. De naam van de klant is gekoppeld aan het profiel van de klant. |
 | [!UICONTROL Email] | Het e-mailadres van de klant of koper. Het e-mailadres is gekoppeld aan een nieuw e-mailbericht. |
 | [!UICONTROL Customer Group] | De naam van de klantengroep of gedeelde catalogus waaraan de klant is toegewezen. |
-| [!UICONTROL Company Name] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De naam van het bedrijf waaraan de koper wordt geassocieerd, en namens wie de orde wordt geplaatst. De bedrijfsnaam is verbonden met het [ bedrijfsprofiel ](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De naam van het bedrijf waaraan de koper wordt geassocieerd, en namens wie de orde wordt geplaatst. De bedrijfsnaam is verbonden met het [&#x200B; bedrijfsprofiel &#x200B;](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Address Information]
 
-![ Informatie van het Adres ](./assets/order-address-information.png){width="600" zoomable="yes"}
+![&#x200B; Informatie van het Adres &#x200B;](./assets/order-address-information.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Billing Address] | De naam van de klant of de koper die de orde plaatste, die door het het factureren adres, telefoonnummer, en [ BTW ](vat.md) wordt gevolgd, als toepasselijk. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
+| [!UICONTROL Billing Address] | De naam van de klant of de koper die de orde plaatste, die door het het factureren adres, telefoonnummer, en [&#x200B; BTW &#x200B;](vat.md) wordt gevolgd, als toepasselijk. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
 | [!UICONTROL Shipping Address] | De naam van de persoon onder wiens aandacht de bestelling moet worden verzonden, gevolgd door het verzendadres en telefoonnummer. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Payment & Shipping Method]
 
-![ Betaling &amp; Verzendmethode ](./assets/order-payment-and-shipping-method-braintree.png){width="600" zoomable="yes"}
+![&#x200B; Betaling &amp; Verzendmethode &#x200B;](./assets/order-payment-and-shipping-method-braintree.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Payment Information] | De wijze van betaling die voor de order moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die voor de order is gebruikt. Als de orde aan bedrijfskrediet gebruikend [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) in rekening wordt gebracht, wordt het bedrag dat aan de rekening in rekening wordt gebracht vermeld. |
+| [!UICONTROL Payment Information] | De wijze van betaling die voor de order moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die voor de order is gebruikt. Als de orde aan bedrijfskrediet gebruikend [&#x200B; Betaling op Rekening &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) in rekening wordt gebracht, wordt het bedrag dat aan de rekening in rekening wordt gebracht vermeld. |
 | [!UICONTROL Shipping & Handling Information] | De te gebruiken verzendmethode en eventuele verpakkingskosten. |
 
 {style="table-layout:auto"}
@@ -173,7 +173,7 @@ Slechts verkooporden die niet worden gefactureerd, hebben een status van `Proces
 
 Met de kenmerken voor aangepaste bestellingen kunt u aanvullende informatie die specifiek is voor uw bedrijfsbehoeften aan de bestelling koppelen.
 
-![ de Attributen van de Orde van de Douane ](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+![&#x200B; de Attributen van de Orde van de Douane &#x200B;](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
 
 In **[!UICONTROL Custom Order Attributes]** worden alle kenmerken van de aangepaste volgorde en de huidige waarden weergegeven.
 
@@ -189,7 +189,7 @@ Als u een aangepast orderkenmerk wilt verwijderen, klikt u op het pictogram **[!
 
 ### Geordende items controleren
 
-![ Geordende Punten ](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
+![&#x200B; Geordende Punten &#x200B;](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
 
 Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 
@@ -199,9 +199,9 @@ Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 
 1. Schakel het selectievakje **[!UICONTROL Visible on Storefront]** in als de opmerking zichtbaar moet zijn in de klantenaccount.
 
-   ![ Totaal van de Orde ](./assets/order-total.png){width="600" zoomable="yes"}
+   ![&#x200B; Totaal van de Orde &#x200B;](./assets/order-total.png){width="600" zoomable="yes"}
 
-1. Als u bereid bent om de orde te factureren, klik **[!UICONTROL Invoice]** en volg de instructies om [ een factuur ](invoices.md#create-an-invoice) tot stand te brengen.
+1. Als u bereid bent om de orde te factureren, klik **[!UICONTROL Invoice]** en volg de instructies om [&#x200B; een factuur &#x200B;](invoices.md#create-an-invoice) tot stand te brengen.
 
 #### [!UICONTROL Items Ordered]
 
@@ -239,10 +239,10 @@ Ga als volgt te werk in de sectie **[!UICONTROL Order Total]** :
 | [!UICONTROL Total Paid] | Het totale bedrag dat naar de bestelling is betaald, indien van toepassing. |
 | [!UICONTROL Total Refunded] | Het totale bedrag dat van de bestelling is terugbetaald, indien van toepassing. |
 | [!UICONTROL Total Due] | Het totale verschuldigde bedrag. |
-| [!UICONTROL Store Credit] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de hoeveelheid beschikbaar opslagkrediet dat op de orde wordt toegepast, als toepasselijk. |
-| [!UICONTROL Catalog Total Price] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) de totale prijs van de punten in het citaat zonder belasting, volgens prijs in de gedeelde catalogus of de standaardcatalogus die als basis van het citaat wordt gebruikt. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
-| [!UICONTROL Negotiated Discount] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De korting die het resultaat van een citaat is dat tussen koper en verkoper wordt besproken. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
-| [!UICONTROL Subtotal] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) de Totale Prijs van de Catalogus minus de Onderhandelde Korting. |
+| [!UICONTROL Store Credit] | ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de hoeveelheid beschikbaar opslagkrediet dat op de orde wordt toegepast, als toepasselijk. |
+| [!UICONTROL Catalog Total Price] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) de totale prijs van de punten in het citaat zonder belasting, volgens prijs in de gedeelde catalogus of de standaardcatalogus die als basis van het citaat wordt gebruikt. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
+| [!UICONTROL Negotiated Discount] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De korting die het resultaat van een citaat is dat tussen koper en verkoper wordt besproken. Als de weergavevaluta van de winkel verschilt van de basisvaluta, wordt de waarde in beide valuta&#39;s weergegeven, met de storefront tussen vierkante haken. |
+| [!UICONTROL Subtotal] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) de Totale Prijs van de Catalogus minus de Onderhandelde Korting. |
 
 {style="table-layout:auto"}
 

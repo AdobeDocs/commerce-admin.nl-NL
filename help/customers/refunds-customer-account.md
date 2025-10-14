@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Als een terugbetaling voor een bestelling is verleend, kunnen klanten de terugbetalingsinformatie die aan de orde in hun rekeningdashboard wordt geassocieerd bekijken. Als u [!UICONTROL _de Geschiedenis van het Krediet van de Opslag aan Klanten_] optie voor [ de configuratie van het Krediet van de Opslag ](../customers/credit-configure.md) hebt toegelaten, kunnen de klanten tot hun [ Krediet van de Opslag ](../customers/store-credit.md) geschiedenis ook toegang hebben.
+Als een terugbetaling voor een bestelling is verleend, kunnen klanten de terugbetalingsinformatie die aan de orde in hun rekeningdashboard wordt geassocieerd bekijken. Als u [!UICONTROL _de Geschiedenis van het Krediet van de Opslag aan Klanten_] optie voor [&#x200B; de configuratie van het Krediet van de Opslag &#x200B;](../customers/credit-configure.md) hebt toegelaten, kunnen de klanten tot hun [&#x200B; Krediet van de Opslag &#x200B;](../customers/store-credit.md) geschiedenis ook toegang hebben.
 
 ## Restitutie bekijken op de winkel
 
@@ -27,7 +27,7 @@ Als een terugbetaling voor een bestelling is verleend, kunnen klanten de terugbe
 
 1. De klant klikt op het tabblad **[!UICONTROL Refunds]** om de details van de terugbetaling weer te geven.
 
-   ![ detail van de Terugbetaling op de storefront ](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![&#x200B; detail van de Terugbetaling op de storefront &#x200B;](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 ## Het creditsaldo en de geschiedenis van de winkel weergeven
 
@@ -39,11 +39,11 @@ Methode 1: **van het dashboard van de klantenrekening**
 
 1. Het bedrag dat aan hun winkelkrediet wordt terugbetaald verschijnt in de lijst met de datum en de tijd van de actie.
 
-   ![ Bedrag teruggegeven om krediet op te slaan ](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
+   ![&#x200B; Bedrag teruggegeven om krediet op te slaan &#x200B;](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
 
    >[!INFO]
    >
-   >De pagina van het Krediet van de Opslag verstrekt ook een verbinding voor de klant om a [ geschenkkaart ](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card) in te wisselen.
+   >De pagina van het Krediet van de Opslag verstrekt ook een verbinding voor de klant om a [&#x200B; geschenkkaart &#x200B;](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card) in te wisselen.
 
 Methode 2: **van de _Overzicht &amp; van Betalingen_ pagina**
 
@@ -55,13 +55,13 @@ Methode 2: **van de _Overzicht &amp; van Betalingen_ pagina**
 
 4. Als opslagkrediet beschikbaar is, klikt de klant **[!UICONTROL Use Store Credit]**.
 
-   ![ Krediet van de Opslag van Overzicht &amp; van Betalingen pagina ](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
+   ![&#x200B; Krediet van de Opslag van Overzicht &amp; van Betalingen pagina &#x200B;](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
 5. Als de klant hun mening over het gebruiken van de opslagkredieten verandert, klikt **[!UICONTROL Remove]** in de _Samenvatting van de Orde_ sectie.
 
 ## Betalingsacties in de beheerder
 
-U kunt betalingsacties voor uw specifieke [ Methode van de Betaling vormen ](../configuration-reference/sales/payment-methods.md). Elke betalingsmethode heeft een andere reeks betalingsacties.
+U kunt betalingsacties voor uw specifieke [&#x200B; Methode van de Betaling vormen &#x200B;](../configuration-reference/sales/payment-methods.md). Elke betalingsmethode heeft een andere reeks betalingsacties.
 
 | Betalingsactie | Beschrijving |
 |--- |---|

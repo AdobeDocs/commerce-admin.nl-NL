@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Aankooporders voor bedrijven
 
-Aankooporders (PO&#39;s) zijn een gemeenschappelijke manier voor bedrijven om hun uitgaven te volgen en te controleren. [ de orde van de Aankoop ](../stores-purchase/purchase-order.md) is één van de standaard off-line betalingsmethodes die in Adobe Commerce en Magento Open Source worden gesteund. Wanneer B2B van Adobe Commerce wordt geïnstalleerd en [_laat de Orden van de Aankoop toe_](account-company-manage.md#advanced-settings) voor een bedrijfrekening wordt geactiveerd, worden alle orden automatisch gecreeerd als Opdrachten van de Aankoop (PO). De gebruikers van het bedrijf met de vereiste [ toestemmingen ](account-company-roles-permissions.md) kunnen tot stand brengen, uitgeven en POs schrappen die zij en POs creëren door ondergeschikte gebruikers worden gecreeerd.
+Aankooporders (PO&#39;s) zijn een gemeenschappelijke manier voor bedrijven om hun uitgaven te volgen en te controleren. [&#x200B; de orde van de Aankoop &#x200B;](../stores-purchase/purchase-order.md) is één van de standaard off-line betalingsmethodes die in Adobe Commerce en Magento Open Source worden gesteund. Wanneer B2B van Adobe Commerce wordt geïnstalleerd en [_laat de Orden van de Aankoop toe_](account-company-manage.md#advanced-settings) voor een bedrijfrekening wordt geactiveerd, worden alle orden automatisch gecreeerd als Opdrachten van de Aankoop (PO). De gebruikers van het bedrijf met de vereiste [&#x200B; toestemmingen &#x200B;](account-company-roles-permissions.md) kunnen tot stand brengen, uitgeven en POs schrappen die zij en POs creëren door ondergeschikte gebruikers worden gecreeerd.
 
 ## Kooporderstroom
 
 Afhankelijk van hun rol, en de orde, zouden de bedrijfgebruikers aan verscheidene goedkeuringsregels kunnen worden onderworpen. En afhankelijk van of het gebruiken van online of off-line betalingsmethodes, is de stroom lichtjes verschillend. Bedrijfsbeheerders kunnen automatisch orders maken, waarbij de goedkeuringsregels worden omzeild. Omdat het opslaan van online betalingsgegevens tijdens het goedkeuringsproces een veiligheidsrisico is, worden deze gegevens na goedkeuring toegevoegd en wordt de kooporder vervolgens omgezet in een echte order.
 
-![ stroom van de Kooporde ](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+![&#x200B; stroom van de Kooporde &#x200B;](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ De goedkeuringsregels worden gebruikt om uitgaven te controleren die op bedrijfs
 - Voor elke bestelling van meer dan $1000 is de goedkeuring van uw manager en de bedrijfsbeheerder vereist.
 - Om het even welke orde met meer dan 30 unieke SKUs vereist de goedkeuring van de bedrijfbeheerder.
 
-Als deze regels gelden voor een bedrijf, kan een bedrijfsgebruiker de bestelling direct voltooien wanneer de bestelling minder dan $100 is. Om de definitie van de goedkeuringsregel te leren, zie [ Regels van de Goedkeuring ](account-dashboard-approval-rules.md).
+Als deze regels gelden voor een bedrijf, kan een bedrijfsgebruiker de bestelling direct voltooien wanneer de bestelling minder dan $100 is. Om de definitie van de goedkeuringsregel te leren, zie [&#x200B; Regels van de Goedkeuring &#x200B;](account-dashboard-approval-rules.md).
 
 ### Soorten winkelgebruikers
 
@@ -78,13 +78,13 @@ Wanneer inkooporders zijn ingeschakeld voor een bedrijf, wordt het **[!UICONTROL
 - **[!UICONTROL Company Purchase Orders]**: PO&#39;s die worden gemaakt door ondergeschikte gebruikers binnen het bedrijf (zijn afhankelijk van de bedrijfsstructuur en rollen).
 - **[!UICONTROL Requires My Approval]**: (Zichtbaar voor aangewezen fiatteurs) PO&#39;s die op goedkeuring van de klant wachten. De teller toont hoeveel orden op goedkeuring wachten.
 
-![ Mijn orden van de Aankoop ](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![&#x200B; Mijn orden van de Aankoop &#x200B;](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-Voor meer informatie over de gesteunde functies van de inkooporder beschikbaar voor bedrijfgebruikers op de winkel, zie [ Mijn Orden van de Aankoop ](account-dashboard-my-purchase-orders.md).
+Voor meer informatie over de gesteunde functies van de inkooporder beschikbaar voor bedrijfgebruikers op de winkel, zie [&#x200B; Mijn Orden van de Aankoop &#x200B;](account-dashboard-my-purchase-orders.md).
 
 ## Offline versus online betalingsmethoden
 
-Workflows kunnen variëren afhankelijk van de betalingsmethode. Meer over de betalingsmethodes van Adobe Commerce leren, zie [ Methoden van de Betaling ](../stores-purchase/payments.md) in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
+Workflows kunnen variëren afhankelijk van de betalingsmethode. Meer over de betalingsmethodes van Adobe Commerce leren, zie [&#x200B; Methoden van de Betaling &#x200B;](../stores-purchase/payments.md) in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
 
 >[!IMPORTANT]
 >

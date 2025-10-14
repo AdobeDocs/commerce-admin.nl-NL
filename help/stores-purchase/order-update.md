@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Een bestelling bijwerken
 
-Wanneer u een klant helpt die een bestelling heeft geplaatst, moet u de status van de bestelling bepalen. De beschikbare opties voor een `Pending` -volgorde verschillen van de opties voor een `Processing` -volgorde. Voor meer informatie, zie [ Proces een orde ](order-processing.md).
+Wanneer u een klant helpt die een bestelling heeft geplaatst, moet u de status van de bestelling bepalen. De beschikbare opties voor een `Pending` -volgorde verschillen van de opties voor een `Processing` -volgorde. Voor meer informatie, zie [&#x200B; Proces een orde &#x200B;](order-processing.md).
 
 ## Bestellingen in behandeling
 
 Nadat een klant een bestelling heeft geplaatst, maar voordat de betaling is ontvangen, is de bestelling in de status `Pending` . U kunt de volgorde bewerken, in de wachtstand zetten of volledig annuleren. De knopbalk van een bestelling in behandeling geeft een overzicht van de beschikbare handelingen voor een bestelling.
 
-![ In afwachting van de Opties van de Orde ](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
+![&#x200B; In afwachting van de Opties van de Orde &#x200B;](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
 
 Als u wezenlijke delen van een orde wijzigt, wordt de originele orde geannuleerd en een nieuwe orde wordt geproduceerd. U kunt de facturering of het verzendadres echter wijzigen zonder een nieuwe bestelling te genereren.
 
@@ -29,10 +29,10 @@ Als u wezenlijke delen van een orde wijzigt, wordt de originele orde geannuleerd
 | **[!UICONTROL Cancel]** | Annuleert de in behandeling zijnde bestelling. |
 | **[!UICONTROL Send Email]** | Stuur een e-mail over de bestelling die in behandeling is naar de klant. |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Wijzigt de status van de in behandeling zijnde bestelling in `On Hold` . Kies _[!UICONTROL Unhold]_&#x200B;als u de muisknop wilt loslaten. |
-| **[!UICONTROL Invoice]** | Creeert een [ factuur ](invoices.md#create-an-invoice) van de hangende orde door de orde in een factuur om te zetten, en verandert de ordestatus in `processing`. |
-| **[!UICONTROL Ship]** | Creeert a [ lading ](shipments.md#create-a-shipment) verslag voor de orde. |
+| **[!UICONTROL Invoice]** | Creeert een [&#x200B; factuur &#x200B;](invoices.md#create-an-invoice) van de hangende orde door de orde in een factuur om te zetten, en verandert de ordestatus in `processing`. |
+| **[!UICONTROL Ship]** | Creeert a [&#x200B; lading &#x200B;](shipments.md#create-a-shipment) verslag voor de orde. |
 | **[!UICONTROL Reorder]** | Hiermee maakt u een nieuwe volgorde in behandeling die een duplicaat is van de huidige volgorde in behandeling. |
-| **[!UICONTROL Edit]** | Hiermee wordt een volgorde geopend die in behandeling is in de bewerkingsmodus. De Edit knoop is slechts beschikbaar voor hangende orden, of voor orden die op onderhandelde [ citaten ](../b2b/quotes.md) worden gebaseerd. |
+| **[!UICONTROL Edit]** | Hiermee wordt een volgorde geopend die in behandeling is in de bewerkingsmodus. De Edit knoop is slechts beschikbaar voor hangende orden, of voor orden die op onderhandelde [&#x200B; citaten &#x200B;](../b2b/quotes.md) worden gebaseerd. |
 
 {style="table-layout:auto"}
 
@@ -43,35 +43,35 @@ Een volgorde voert de status `Processing` in wanneer:
 * De betaling voor een bestelling wordt ontvangen/vastgelegd en de factuur wordt gegenereerd—wanneer de betalingsactie op `Authorize and Capture` is ingesteld.
 * Een ordertransactie is geautoriseerd, maar de betaling wordt nog niet vastgelegd—wanneer de betalingsactie is ingesteld op `Authorize` .
 
-De [ configuratie van de betalingsactie ](../configuration-reference/sales/payment-methods.md#payment-actions) bepaalt welke ordeacties beschikbaar zijn nadat een orde wordt gecreeerd.
+De [&#x200B; configuratie van de betalingsactie &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) bepaalt welke ordeacties beschikbaar zijn nadat een orde wordt gecreeerd.
 
 U kunt een bestelling van `Processing` niet ingrijpend wijzigen, maar u kunt wel het factuuradres en het verzendadres bewerken.
 
-![ Opties van de Orde van de Verwerking ](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
+![&#x200B; Opties van de Orde van de Verwerking &#x200B;](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Wanneer de betalingsactie van de betalingsmethode is ingesteld op `Authorize and Capture` , wordt automatisch een factuur gemaakt wanneer de klant een bestelling plaatst. In deze omstandigheid, kunt u middelen terugbetalen gebruikend a [ creditnota ](credit-memo-create.md), maar kan [ niet ](#cancel-a-pending-order) annuleren of [ nietig ](#void-a-processing-order) de orde.
+>Wanneer de betalingsactie van de betalingsmethode is ingesteld op `Authorize and Capture` , wordt automatisch een factuur gemaakt wanneer de klant een bestelling plaatst. In deze omstandigheid, kunt u middelen terugbetalen gebruikend a [&#x200B; creditnota &#x200B;](credit-memo-create.md), maar kan [&#x200B; niet &#x200B;](#cancel-a-pending-order) annuleren of [&#x200B; nietig &#x200B;](#void-a-processing-order) de orde.
 
 | Knop | Beschrijving |
 |--- |--- |
 | **[!UICONTROL Back]** | Hiermee gaat u terug naar de pagina Bestellingen zonder wijzigingen op te slaan. |
 | **[!UICONTROL Send Email]** | Stuur een e-mail over de bestelling naar de klant. |
-| **[!UICONTROL Void]** | [ Voids ](#void-a-processing-order) een ordetransactie, of een gedeeltelijke ordetransactie. |
-| **[!UICONTROL Credit Memo]** | Initieert het proces om a [ creditnota ](credit-memo-create.md) tot stand te brengen. |
+| **[!UICONTROL Void]** | [&#x200B; Voids &#x200B;](#void-a-processing-order) een ordetransactie, of een gedeeltelijke ordetransactie. |
+| **[!UICONTROL Credit Memo]** | Initieert het proces om a [&#x200B; creditnota &#x200B;](credit-memo-create.md) tot stand te brengen. |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Hiermee wijzigt u de status van de verkooporder in `On Hold` . Kies _[!UICONTROL Unhold]_&#x200B;om de greep op de verkooporder vrij te geven. |
 | **[!UICONTROL Reorder]** | Hiermee maakt u een nieuwe volgorde in behandeling op basis van de huidige volgorde. |
-| **[!UICONTROL Create Returns]** | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) initieert het proces aan [ terugkeer ](returns.md) één of meerdere punten van de orde. |
+| **[!UICONTROL Create Returns]** | ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) initieert het proces aan [&#x200B; terugkeer &#x200B;](returns.md) één of meerdere punten van de orde. |
 
 {style="table-layout:auto"}
 
 ## Void een verwerkingsopdracht uit
 
-Wanneer een bestelling nog steeds de status `Processing` heeft en de integratie van de betaling is ingesteld op `Authorize` (niet `Authorize and Capture` ), kunt u alleen een transactie annuleren of een bestelling annuleren. [ het Kantelen van een orde ](#cancel-a-pending-order) verbiedt ook de vergunning.
+Wanneer een bestelling nog steeds de status `Processing` heeft en de integratie van de betaling is ingesteld op `Authorize` (niet `Authorize and Capture` ), kunt u alleen een transactie annuleren of een bestelling annuleren. [&#x200B; het Kantelen van een orde &#x200B;](#cancel-a-pending-order) verbiedt ook de vergunning.
 
 Wanneer een bestelling wordt geplaatst met een betalingsmethode waarbij de betalingsactie is ingesteld op `Authorize and Capture` , kunt u de geldmiddelen via het creditcard terugbetalen, maar u kunt de bestelling niet annuleren omdat de bestelling wordt gefactureerd en de betaling wordt vastgelegd.
 
-Je betalingsmethode bepaalt de beschikbare betalingsacties. Zie [ de acties van de Betaling ](../configuration-reference/sales/payment-methods.md#payment-actions) voor meer informatie.
+Je betalingsmethode bepaalt de beschikbare betalingsacties. Zie [&#x200B; de acties van de Betaling &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) voor meer informatie.
 
 **_om een orde te verwerpen:_**
 
@@ -83,7 +83,7 @@ Je betalingsmethode bepaalt de beschikbare betalingsacties. Zie [ de acties van 
 
 1. Klik op **[!UICONTROL OK]** als u hierom wordt gevraagd.
 
-U kunt om het even welke noodzakelijke terugbetalingen uitgeven gebruikend a [ creditnota ](credit-memo-create.md) nadat de middelen zijn gevangen. U kunt a [ terugkeer ook tot handelsvergunning (RMA) ](returns.md) leiden die voor productwinst wordt uitgegeven. Meer leren, zie [ Verwerking een Orde ](order-processing.md).
+U kunt om het even welke noodzakelijke terugbetalingen uitgeven gebruikend a [&#x200B; creditnota &#x200B;](credit-memo-create.md) nadat de middelen zijn gevangen. U kunt a [&#x200B; terugkeer ook tot handelsvergunning (RMA) &#x200B;](returns.md) leiden die voor productwinst wordt uitgegeven. Meer leren, zie [&#x200B; Verwerking een Orde &#x200B;](order-processing.md).
 
 ## Een bestelling in behandeling bewerken
 
@@ -93,7 +93,7 @@ U kunt om het even welke noodzakelijke terugbetalingen uitgeven gebruikend a [ c
 
 1. Klik op **[!UICONTROL Edit]**.
 
-   ![ geef Orde ](./assets/order-edit.png){width="600" zoomable="yes"} uit
+   ![&#x200B; geef Orde &#x200B;](./assets/order-edit.png){width="600" zoomable="yes"} uit
 
 1. Klik op **[!UICONTROL OK]** als u wordt gevraagd door te gaan met bewerken.
 

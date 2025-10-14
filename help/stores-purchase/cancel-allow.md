@@ -32,9 +32,9 @@ Als deze optie is ingeschakeld, kunt u een bestelling rechtstreeks vanaf de acco
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Sales]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order cancellation]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order cancellation]** sectie uit.
 
-   ![ de annuleringsopties van de Orde ](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
+   ![&#x200B; de annuleringsopties van de Orde &#x200B;](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Order cancellation through GraphQL]** in op `Yes` .
 
@@ -61,16 +61,16 @@ Een klant kan de functie voor annuleren voor een specifieke bestelling starten o
 
 _annuleert de knoop van de Orde_ wordt getoond in de Mijn pagina van Orden als de orde kan worden geannuleerd.
 
-![ storefront van het Voorbeeld - Mijn pagina van Orden ](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![&#x200B; storefront van het Voorbeeld - Mijn pagina van Orden &#x200B;](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
 ### Weergavepagina Volgorde
 
 _annuleert de knoop van de Orde_ wordt getoond in de pagina van de Orde van de Mening als de orde kan worden geannuleerd.
 
-![ de detailpagina van de Orde ](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
+![&#x200B; de detailpagina van de Orde &#x200B;](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### Mijn account
 
 _annuleert de knoop van de Orde_ wordt getoond in de Recente sectie van Orden van de Mijn pagina van de Rekening, als de orde kan worden geannuleerd.
 
-![ Mijn pagina van de Rekening ](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
+![&#x200B; Mijn pagina van de Rekening &#x200B;](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}

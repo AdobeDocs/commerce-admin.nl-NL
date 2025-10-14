@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Belastingconfiguratie-instellingen
 
-De volgende instructies nemen u door de basisbelastingconfiguratie voor uw Commerce-exemplaar. Alvorens vestiging uw belastingen, zorg ervoor dat u met de belastingvereisten van uw [ scène ](store-localize.md#step-3-change-the-locale-of-the-store-view) vertrouwd bent. Voltooi vervolgens de belastingconfiguratie volgens uw vereisten.
+De volgende instructies nemen u door de basisbelastingconfiguratie voor uw Commerce-exemplaar. Alvorens vestiging uw belastingen, zorg ervoor dat u met de belastingvereisten van uw [&#x200B; scène &#x200B;](store-localize.md#step-3-change-the-locale-of-the-store-view) vertrouwd bent. Voltooi vervolgens de belastingconfiguratie volgens uw vereisten.
 
-Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ toegang ](../systems/permissions-user-roles.md) aan belastingmiddelen te beperken, die op de zaken _worden gebaseerd moet_ kennen. Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als u een website instelt voor een gebied dat afwijkt van uw standaard verzendpunt van oorsprong, moet u ook toegang verlenen tot de bronnen voor Systeem/Verzending voor de rol. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
+Admin [&#x200B; toestemmingen &#x200B;](../systems/permissions.md) kunnen worden geplaatst om [&#x200B; toegang &#x200B;](../systems/permissions-user-roles.md) aan belastingmiddelen te beperken, die op de zaken _worden gebaseerd moet_ kennen. Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als u een website instelt voor een gebied dat afwijkt van uw standaard verzendpunt van oorsprong, moet u ook toegang verlenen tot de bronnen voor Systeem/Verzending voor de rol. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
 
 ## De algemene belastinginstellingen configureren
 
@@ -30,12 +30,12 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 ### [!UICONTROL Tax Classes]
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Tax Classes]** sectie uit.
 
-   ![ Belastingklassen ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; Belastingklassen &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
    - **Klasse van de Belasting voor Verzending** — Reeks aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
-   - **de Klasse van de Belasting voor de Opties van het Cadeautje** - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) plaatste aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
+   - **de Klasse van de Belasting voor de Opties van het Cadeautje** - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) plaatste aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
    - **StandaardKlasse van de Belasting voor Product** — Reeks aan de aangewezen klasse. De standaardklassen zijn: `None` en `Taxable Goods`
    - **StandaardKlasse van de Belasting voor Klant** — Reeks aan de aangewezen klasse. De standaardklasse is: `Retail Customer` en `Wholesale Customer`
 
@@ -45,7 +45,7 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 1. Vouw de sectie **[!UICONTROL Calculation Settings]** uit.
 
-   ![ de Montages van de Berekening ](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van de Berekening &#x200B;](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Tax Calculation Method Based On]** in op een van de volgende opties:
 
@@ -57,7 +57,7 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
    - `Shipping Address` - Het adres waar de bestelling moet worden verzonden
    - `Billing Address` - Het factureringsadres van de klant of het bedrijf
-   - `Shipping Origin` - het adres dat als [ uitgangspunt ](shipping-settings.md#point-of-origin) voor uw opslag wordt gespecificeerd
+   - `Shipping Origin` - het adres dat als [&#x200B; uitgangspunt &#x200B;](shipping-settings.md#point-of-origin) voor uw opslag wordt gespecificeerd
 
 1. Stel **[!UICONTROL Catalog Prices]** in op `Excluding Tax` of `Including Tax` .
 
@@ -76,13 +76,13 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
    >[!IMPORTANT]
    >
-   >Als [ grensoverschrijdende handel ](#cross-border-price-consistency) wordt toegelaten, verandert de winstmarge door belastingtarief. De winst wordt bepaald door de formule (`Revenue - CustomerVAT - CostOfGoodsSold`). Om grensoverschrijdende handel mogelijk te maken, moeten de prijzen worden vastgesteld op basis van belastingen.
+   >Als [&#x200B; grensoverschrijdende handel &#x200B;](#cross-border-price-consistency) wordt toegelaten, verandert de winstmarge door belastingtarief. De winst wordt bepaald door de formule (`Revenue - CustomerVAT - CostOfGoodsSold`). Om grensoverschrijdende handel mogelijk te maken, moeten de prijzen worden vastgesteld op basis van belastingen.
 
 ### [!UICONTROL Default Tax Destination Calculation]
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Default Tax Destination Calculation]** sectie uit.
 
-   ![ Berekening van de StandaardBelastingbestemming ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![&#x200B; Berekening van de StandaardBelastingbestemming &#x200B;](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
 1. Geef de **[!UICONTROL Default Country]** op voor belastingberekeningen.
 
@@ -96,11 +96,11 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 >[!IMPORTANT]
 >
->Sommige combinaties van instellingen met betrekking tot een prijsweergave die zowel belasting bevatten als uitsluiten, kunnen verwarrend zijn voor de klant. Om het teweegbrengen van een waarschuwingsbericht te vermijden, zie [ geadviseerde montages ](taxes.md#warning-messages).
+>Sommige combinaties van instellingen met betrekking tot een prijsweergave die zowel belasting bevatten als uitsluiten, kunnen verwarrend zijn voor de klant. Om het teweegbrengen van een waarschuwingsbericht te vermijden, zie [&#x200B; geadviseerde montages &#x200B;](taxes.md#warning-messages).
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Price Display Settings]** sectie uit.
 
-   ![ de Montages van de Vertoning van de Prijs ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van de Vertoning van de Prijs &#x200B;](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Display Product Prices in Catalog]** in op een van de volgende opties:
 
@@ -114,9 +114,9 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 ### [!UICONTROL Shopping Cart Display Settings]
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Shopping Cart Display Settings]** sectie uit.
 
-   ![ het Shopping de Montages van de Vertoning van de Kar ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; het Shopping de Montages van de Vertoning van de Kar &#x200B;](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. Kies voor elk van de volgende instellingen hoe u belastingen en prijzen in het winkelwagentje wilt weergeven, afhankelijk van de vereisten van uw winkel en landinstelling:
 
@@ -126,9 +126,9 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
    - Stel **[!UICONTROL Display Shipping Amount]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
 1. Stel de volgende weergaveopties naar wens in op `Yes` of `No` :
 
@@ -140,9 +140,9 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 ### [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-1. Breid ![ Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie.
+1. Breid ![&#x200B; Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** sectie.
 
-   ![ Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Orders, Facturen, de Montages van de Vertoning van de Memo&#39;s van Kredieten &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. Geef op hoe prijzen en belastingen in bestellingen, facturen en creditnota&#39;s worden weergegeven:
 
@@ -152,9 +152,9 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
    - Stel **[!UICONTROL Display Shipping Amount]** in op `Excluding Tax` , `Including Tax` of `Including and Excluding Tax` .
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Gift Wrapping Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Reeks **[!UICONTROL Display Printed Card Prices]** aan `Excluding Tax`, `Including Tax`, of `Including and Excluding Tax`.
 
 1. Stel de volgende weergaveopties naar wens in op `Yes` of `No` :
 
@@ -166,9 +166,9 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 ### [!UICONTROL Fixed Product Taxes]
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Fixed Product Taxes]** sectie uit.
 
-   ![ Vaste Belastingen van het Product ](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
+   ![&#x200B; Vaste Belastingen van het Product &#x200B;](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable FPT]** naar wens in op `Yes` of `No` .
 
@@ -200,7 +200,7 @@ Admin [ toestemmingen ](../systems/permissions.md) kunnen worden geplaatst om [ 
 
 Grensoverschrijdende handel (ook wel prijsconsistentie genoemd) ondersteunt de Europese Unie (EU) en andere handelaren die consistente prijzen willen handhaven voor klanten wier belastingtarieven verschillen van het belastingtarief voor winkels.
 
-Handelaren die in verschillende regio&#39;s en geografische gebieden actief zijn, kunnen één prijs weergeven door de belasting in de prijs van het product op te nemen. De prijzen zijn schoon en onoverzichtelijk, ongeacht de belastingstructuren en -tarieven die van land tot land verschillen. Deze montages vereisen dat een uitbreiding van de belastingberekening van [ Marketplace ](../getting-started/commerce-marketplace.md), zoals _de Wolk van de Hoekpunt_ wordt geïnstalleerd.
+Handelaren die in verschillende regio&#39;s en geografische gebieden actief zijn, kunnen één prijs weergeven door de belasting in de prijs van het product op te nemen. De prijzen zijn schoon en onoverzichtelijk, ongeacht de belastingstructuren en -tarieven die van land tot land verschillen. Deze montages vereisen dat een uitbreiding van de belastingberekening van [&#x200B; Marketplace &#x200B;](../getting-started/commerce-marketplace.md), zoals _de Wolk van de Hoekpunt_ wordt geïnstalleerd.
 
 >[!NOTE]
 >
@@ -215,12 +215,12 @@ Handelaren die in verschillende regio&#39;s en geografische gebieden actief zijn
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Tax]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Calculation Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Calculation Settings]** sectie uit.
 
 1. Stel **[!UICONTROL Catalog Prices]** in op `Including Tax` .
 
 1. Stel **[!UICONTROL Enable Cross Border Trade]** in op `Yes` om consistentie bij grensoverschrijdende prijzen mogelijk te maken.
 
-   ![ laat Grensoverschrijdende handelsinstellingen ](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat Grensoverschrijdende handelsinstellingen &#x200B;](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.

@@ -22,7 +22,7 @@ De configuratie van het winkelkrediet controleert automatische terugbetalingen, 
 
 1. Vouw de sectie **[!UICONTROL Store Credit Options]** uit.
 
-   ![ de Kredietopties van de Opslag ](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de Kredietopties van de Opslag &#x200B;](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Store Credit Functionality]** in op `Yes` .
 

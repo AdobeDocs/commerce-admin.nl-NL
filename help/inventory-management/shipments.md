@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management] bevat aanvullende functies en opties voor het beheer van inventarishoeveelheden tijdens het verzendproces. Terwijl u verzendingen controleert en uitvoert, bestellingen annuleert en creditnota&#39;s uitgeeft, worden de verkochte producten en hoeveelheden van het product automatisch bijgewerkt.
 
-Deze informatie bevat specificaties voor [!DNL Inventory Management] . Voor extra informatie, zie het [ onderwerp van Orden ](../stores-purchase/orders.md){target="_blank"} in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
+Deze informatie bevat specificaties voor [!DNL Inventory Management] . Voor extra informatie, zie het [&#x200B; onderwerp van Orden &#x200B;](../stores-purchase/orders.md){target="_blank"} in de _Gids van de Ervaring van de Verkoop en van de Aankoop_.
 
 ## Orders
 
@@ -26,13 +26,13 @@ Voor multi-adresorden, wordt een reeks enige orden geproduceerd-voor elk ingegaa
 
 [!DNL Commerce] beheert een overzicht voor deze bestellingen met meerdere adressen, net als voor afzonderlijke bestellingen. Het staat voor de aanbevelingen of met voeten treedt van het Algoritme van de Selectie van Source tijdens verzending, gedeeltelijke overbrengingen, het annuleren van orden, en het terugvloeien met voorraadupdates toe.
 
-![ Multi-address bij controle ](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
+![&#x200B; Multi-address bij controle &#x200B;](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
 
 ### Restituties
 
-Wanneer het ingaan van a [ kredietmemo ](../stores-purchase/credit-memo-create.md){target="_blank"} om een restitutie uit te geven, kunt u de producthoeveelheid aan de afgetrokken bron terugkeren. De orderinformatie bevat de inventarisbron die het product heeft verzonden. Het wordt aanbevolen de geretourneerde producthoeveelheid toe te wijzen via een creditnota wanneer u het geretourneerde product ontvangt.
+Wanneer het ingaan van a [&#x200B; kredietmemo &#x200B;](../stores-purchase/credit-memo-create.md){target="_blank"} om een restitutie uit te geven, kunt u de producthoeveelheid aan de afgetrokken bron terugkeren. De orderinformatie bevat de inventarisbron die het product heeft verzonden. Het wordt aanbevolen de geretourneerde producthoeveelheid toe te wijzen via een creditnota wanneer u het geretourneerde product ontvangt.
 
-![ Punten aan Terugbetaling met Terugkeer aan Geselecteerde Voorraad ](assets/credit-memo-items-to-refund.png)
+![&#x200B; Punten aan Terugbetaling met Terugkeer aan Geselecteerde Voorraad &#x200B;](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
 
 ### Niet-verzonden bestellingen annuleren
@@ -53,7 +53,7 @@ Single-source-handelaren kunnen ook gedeeltelijke verzendingen verzenden ter ond
 
 ### Recommendations- en Source-selectiealgoritme
 
-Het [ Algoritme van de Selectie van Source ](selection-reservations.md) (SSA) verstrekt aanbevelingen voor gedeeltelijke en volledige transporten. U hebt toegang tot Source-selectiealgoritmen wanneer u verzendfacturen voor een bestelling maakt. Voer op elk gewenst moment via de pagina Schip het algoritme Source Priority of Distance Priority uit om de beste opties voor het afstemmen van geordende hoeveelheden en beschikbare bronnen te bepalen. Het systeem ondersteunt het verzenden van een volledige bestelling van één bron en het verbreken van de bestelling in meerdere gedeeltelijke verzendingen van meerdere bronnen. U hebt toegang tot deze opties voor directe uitvoering en gespreide verzending om in de loop der tijd kleinere hoeveelheden te verzenden.
+Het [&#x200B; Algoritme van de Selectie van Source &#x200B;](selection-reservations.md) (SSA) verstrekt aanbevelingen voor gedeeltelijke en volledige transporten. U hebt toegang tot Source-selectiealgoritmen wanneer u verzendfacturen voor een bestelling maakt. Voer op elk gewenst moment via de pagina Schip het algoritme Source Priority of Distance Priority uit om de beste opties voor het afstemmen van geordende hoeveelheden en beschikbare bronnen te bepalen. Het systeem ondersteunt het verzenden van een volledige bestelling van één bron en het verbreken van de bestelling in meerdere gedeeltelijke verzendingen van meerdere bronnen. U hebt toegang tot deze opties voor directe uitvoering en gespreide verzending om in de loop der tijd kleinere hoeveelheden te verzenden.
 
 Om een bestelling te voltooien en te verzenden, moet deze zijn voldaan en gefactureerd. Momenteel, kunt u SSA voor aanbevelingen en schip van één of meerdere bronnen opnieuw uitvoeren, of de aanbevelingen SSA met manueel vastgestelde bronnen en hoeveelheden met voeten treden om verzending te vervullen.
 

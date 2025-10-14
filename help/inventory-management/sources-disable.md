@@ -37,7 +37,7 @@ Het instellen van een bron op `disabled` is handig in de volgende situaties:
 
 1. Klik het _menu van Acties_ bij de upper-left hoek en kies **[!UICONTROL Disable]**.
 
-   ![[!DNL Inventory Management] bronnen - Menu Handelingen ](assets/inventory-source-disable.png){width="600" zoomable="yes"}
+   ![[!DNL Inventory Management] bronnen - Menu Handelingen &#x200B;](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL OK]** in het bevestigingsdialoogvenster.
 
@@ -47,7 +47,7 @@ Het instellen van een bron op `disabled` is handig in de volgende situaties:
 
 1. Zoek een aangepaste bron en klik op **[!UICONTROL Edit]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _Algemene_ sectie uit en verander **[!UICONTROL Is Enabled]**:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _Algemene_ sectie uit en verander **[!UICONTROL Is Enabled]**:
 
    | Optie | Beschrijving |
    | ----- | ----- |

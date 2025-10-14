@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Invoerprijzen
 
-Eerder dan het ingaan van [ laagprijzen ](../catalog/product-price-tier.md) manueel voor elk product, kan het efficiënter zijn om [ in te voeren ](data-import.md) de het tarief gegevens. Maak voordat u begint een voorbeeldbestand met geëxporteerde prijsgegevens voor lagen die u als sjabloon kunt gebruiken.
+Eerder dan het ingaan van [&#x200B; laagprijzen &#x200B;](../catalog/product-price-tier.md) manueel voor elk product, kan het efficiënter zijn om [&#x200B; in te voeren &#x200B;](data-import.md) de het tarief gegevens. Maak voordat u begint een voorbeeldbestand met geëxporteerde prijsgegevens voor lagen die u als sjabloon kunt gebruiken.
 
-![ Voorbeeld storefront - tiered tarifering ](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
+![&#x200B; Voorbeeld storefront - tiered tarifering &#x200B;](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
 
 ## Stap 1: Gegevens over de laagprijs exporteren
 
-In het volgende voorbeeld worden prijsgegevens voor lagen voor één product geëxporteerd. Vervolgens kunt u de geëxporteerde gegevens gebruiken als een sjabloon voor het bulkimporteren van gegevens over de laagprijs. Meer over het uitvoeren van geavanceerde het tarief gegevens leren, zie [ Geavanceerde het tarief gegevens ](data-attributes-product.md#advanced-pricing-attributes).
+In het volgende voorbeeld worden prijsgegevens voor lagen voor één product geëxporteerd. Vervolgens kunt u de geëxporteerde gegevens gebruiken als een sjabloon voor het bulkimporteren van gegevens over de laagprijs. Meer over het uitvoeren van geavanceerde het tarief gegevens leren, zie [&#x200B; Geavanceerde het tarief gegevens &#x200B;](data-attributes-product.md#advanced-pricing-attributes).
 
-![ product tiered tarifering ](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
+![&#x200B; product tiered tarifering &#x200B;](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
@@ -30,7 +30,7 @@ In het volgende voorbeeld worden prijsgegevens voor lagen voor één product ge�
 
    - Voor laagprijzen die op een disconteringspercentage zijn gebaseerd, de SKU van elk uit te voeren product, die door een komma wordt gescheiden.
 
-     ![ de uitvoer van Gegevens - product SKUs ](./assets/price-tier-export-sku.png){width="600" zoomable="yes"}
+     ![&#x200B; de uitvoer van Gegevens - product SKUs &#x200B;](./assets/price-tier-export-sku.png){width="600" zoomable="yes"}
 
    - Voer voor de op een vast bedrag gebaseerde prijzen de SKU van elk product in.
 
@@ -38,7 +38,7 @@ In het volgende voorbeeld worden prijsgegevens voor lagen voor één product ge�
 
 1. Zoek het exportbestand op de downloadlocatie voor uw webbrowser en open het bestand.
 
-   ![ Voorbeeld - de uitgevoerde gegevens van de de rijprijs van de klantengroep ](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorbeeld - de uitgevoerde gegevens van de de rijprijs van de klantengroep &#x200B;](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
 
 **_Uitgevoerde gegevens van de laagprijs_**
 

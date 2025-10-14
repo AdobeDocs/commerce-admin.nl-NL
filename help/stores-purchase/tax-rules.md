@@ -18,7 +18,7 @@ De belastingregels omvatten een combinatie productklasse, klantenklasse, en bela
 >
 >Wanneer er veel belastingtarieven moeten worden gedefinieerd, kunt u het proces vereenvoudigen door deze in te voeren.
 
-![ de Regels van de Belasting ](./assets/tax-rules.png){width="600" zoomable="yes"}
+![&#x200B; de Regels van de Belasting &#x200B;](./assets/tax-rules.png){width="600" zoomable="yes"}
 
 ## Stap 1: De informatie over de belastingregel invullen
 
@@ -28,13 +28,13 @@ De belastingregels omvatten een combinatie productklasse, klantenklasse, en bela
 
 1. Onder _de Informatie van de Regel van de Belasting_, ga a **[!UICONTROL Name]** voor de nieuwe regel in.
 
-   ![ de Informatie van de Regel van de Belasting ](./assets/tax-rule-information.png){width="600" zoomable="yes"}
+   ![&#x200B; de Informatie van de Regel van de Belasting &#x200B;](./assets/tax-rule-information.png){width="600" zoomable="yes"}
 
 1. Kies de **[!UICONTROL Tax Rate]** die op de regel van toepassing is.
 
    Ga als volgt te werk om een bestaand belastingtarief te bewerken:
 
-   - Beweeg over het belastingtarief en klik _uitgeven_ ![ pictogram van het Potlood ](../assets/icon-edit-pencil.png) pictogram.
+   - Beweeg over het belastingtarief en klik _uitgeven_ ![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png) pictogram.
 
    - Werk het formulier naar wens bij en klik op **[!UICONTROL Save]** .
 
@@ -44,11 +44,11 @@ De belastingregels omvatten een combinatie productklasse, klantenklasse, en bela
 
 1. Klik op **[!UICONTROL Add New Tax Rate]**.
 
-1. Voltooi de vorm zoals nodig (zie [ de streken en de Tarieven van de Belasting ](tax-zones-rates.md)).
+1. Voltooi de vorm zoals nodig (zie [&#x200B; de streken en de Tarieven van de Belasting &#x200B;](tax-zones-rates.md)).
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   ![ Nieuw Tarief van de Belasting ](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuw Tarief van de Belasting &#x200B;](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 ### Methode 2: Belastingtarieven bij invoer
 
@@ -60,25 +60,25 @@ De belastingregels omvatten een combinatie productklasse, klantenklasse, en bela
 
    - Klik op **[!UICONTROL Import Tax Rates]**.
 
-1. Om belastingtarieven uit te voeren, klik **[!UICONTROL Export Tax Rates]** (zie [ de Tarieven van de Belasting van de Invoer/van de Uitvoer ](../systems/data-transfer-tax-rates.md)).
+1. Om belastingtarieven uit te voeren, klik **[!UICONTROL Export Tax Rates]** (zie [&#x200B; de Tarieven van de Belasting van de Invoer/van de Uitvoer &#x200B;](../systems/data-transfer-tax-rates.md)).
 
-![ Invoer/de Tarieven van de Uitvoer ](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
+![&#x200B; Invoer/de Tarieven van de Uitvoer &#x200B;](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
 ## Stap 2: Voltooi de extra instellingen
 
 1. Klik op **[!UICONTROL Additional Settings]** om de sectie te openen.
 
-   ![ Extra Montages voor belastingregel ](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Extra Montages voor belastingregel &#x200B;](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
 1. Kies de **[!UICONTROL Customer Tax Class]** waarop de regel van toepassing is.
 
-   - Om een klasse van de klantenbelasting uit te geven, klik __ ![ pictogram van het Potlood ](../assets/icon-edit-pencil.png), werk de vorm zoals nodig bij, en klik **[!UICONTROL Save]**.
+   - Om een klasse van de klantenbelasting uit te geven, klik __ ![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png), werk de vorm zoals nodig bij, en klik **[!UICONTROL Save]**.
 
    - Als u een belastingklasse wilt maken, klikt u op **[!UICONTROL Add New Tax Class]** , vult u het formulier naar wens in en klikt u op **[!UICONTROL Save]** .
 
 1. Kies de **[!UICONTROL Product Tax Class]** waarop de regel van toepassing is.
 
-   - Om een klasse van de productbelasting uit te geven, klik __ ![ pictogram van het Potlood ](../assets/icon-edit-pencil.png), werk de vorm zoals nodig bij, en klik **[!UICONTROL Save]**.
+   - Om een klasse van de productbelasting uit te geven, klik __ ![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png), werk de vorm zoals nodig bij, en klik **[!UICONTROL Save]**.
 
    - Als u een belastingklasse wilt maken, klikt u op **[!UICONTROL Add New Tax Class]** , vult u het formulier naar wens in en klikt u op **[!UICONTROL Save]** .
 

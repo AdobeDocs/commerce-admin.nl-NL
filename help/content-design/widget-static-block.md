@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Een widget gebruiken om een blok te plaatsen
 
-De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een bestaand [ inhoudsblok ](blocks.md) bijna overal in uw opslag te plaatsen.
+De _Statische Blok van CMS_ [&#x200B; widget &#x200B;](widgets.md) geeft u de capaciteit om een bestaand [&#x200B; inhoudsblok &#x200B;](blocks.md) bijna overal in uw opslag te plaatsen.
 
-![ Widgets ](./assets/widgets.png){width="700" zoomable="yes"}
+![&#x200B; Widgets &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Stap 1: Kies het widgettype
 
@@ -26,7 +26,7 @@ De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een 
 
 1. Controleer of **[!UICONTROL Design Theme]** is ingesteld op het huidige thema en klik op **[!UICONTROL Continue]** .
 
-   ![ montages van Widget ](./assets/widget-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; montages van Widget &#x200B;](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Storefront Properties]_:
 
@@ -40,7 +40,7 @@ De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een 
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-     ![ eigenschappen Storefront ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+     ![&#x200B; eigenschappen Storefront &#x200B;](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Stap 2: De updates van de widgetlay-out voltooien
 
@@ -56,7 +56,7 @@ De _Statische Blok van CMS_ [ widget ](widgets.md) geeft u de capaciteit om een 
 
    - Accepteer de standaardinstelling voor **[!UICONTROL Template]** , die is ingesteld op `CMS Static Block Default Template` .
 
-     ![ de updates van de Lay-out ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+     ![&#x200B; de updates van de Lay-out &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ### Update-opties voor lay-out
 

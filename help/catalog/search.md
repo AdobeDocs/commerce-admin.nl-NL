@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) levert een snelle, super-relevante, en intuïtieve onderzoekservaring en is beschikbaar voor Adobe Commerce zonder extra kosten. In deze sectie wordt de standaardzoekfunctionaliteit beschreven die kan verschillen van [!DNL Live Search] .
+>[[!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) levert een snelle, super-relevante, en intuïtieve onderzoekservaring en is beschikbaar voor Adobe Commerce zonder extra kosten. In deze sectie wordt de standaardzoekfunctionaliteit beschreven die kan verschillen van [!DNL Live Search] .
 
 Uit onderzoek blijkt dat mensen die zoeken, meer geneigd zijn om een aankoop te doen dan klanten die alleen op navigatie vertrouwen. Volgens sommige studies zijn mensen die zoeken bijna twee keer zo vaak geneigd om een aankoop te doen.
 
@@ -32,7 +32,7 @@ In de volgende secties worden de basismogelijkheden voor het zoeken naar catalog
 
 >[!NOTE]
 >
->Wanneer [[!DNL Live Search] ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) wordt geïnstalleerd en [[!DNL Storefront Popover] ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/storefront-popover) widget wordt toegelaten, keert het onderzoeksvakje &quot;onderzoek terug aangezien u&quot;resultaten in een pop over typt.
+>Wanneer [[!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) wordt geïnstalleerd en [[!DNL Storefront Popover] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/storefront-popover) widget wordt toegelaten, keert het onderzoeksvakje &quot;onderzoek terug aangezien u&quot;resultaten in een pop over typt.
 
 Met het zoekvak in de koptekst van de winkel kunnen bezoekers producten zoeken in uw catalogus. De zoektekst kan de volledige of gedeeltelijke productnaam of een ander woord of zinsdeel zijn dat het product beschrijft. De zoektermen die mensen gebruiken om producten te zoeken, kunnen worden beheerd via de beheerder.
 
@@ -42,17 +42,17 @@ Met het zoekvak in de koptekst van de winkel kunnen bezoekers producten zoeken i
 
 1. De klant drukt op Enter of klikt op een resultaat in de lijst met overeenkomende producten.
 
-   ![ Onderzoek ](./assets/storefront-search-box.png){width="700" zoomable="yes"}
+   ![&#x200B; Onderzoek &#x200B;](./assets/storefront-search-box.png){width="700" zoomable="yes"}
 
 ## Geavanceerd zoeken
 
 >[!NOTE]
 >
->De hier beschreven geavanceerde functionaliteit voor het zoeken van formulieren is niet van toepassing op [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) .
+>De hier beschreven geavanceerde functionaliteit voor het zoeken van formulieren is niet van toepassing op [[!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) .
 
 Met Geavanceerd zoeken kunnen kopers de catalogus doorzoeken op basis van waarden die in een formulier zijn ingevoerd. Omdat het formulier meerdere velden bevat, kan één zoekopdracht verschillende parameters bevatten. Het resultaat is een lijst van alle producten in de catalogus die aan de criteria voldoen. Een koppeling naar Geavanceerd zoeken vindt u in de voettekst van uw winkel.
 
-![ Geavanceerd Onderzoek ](./assets/storefront-search-advanced.png){width="700" zoomable="yes"}
+![&#x200B; Geavanceerd Onderzoek &#x200B;](./assets/storefront-search-advanced.png){width="700" zoomable="yes"}
 
 Elk veld in het formulier komt overeen met een kenmerk uit de productcatalogus. Als u een veld wilt toevoegen, stelt u de eigenschappen frontend van het kenmerk in op `Include in Advanced Search` . Als beste praktijken, omvat slechts de gebieden die de klanten het meest waarschijnlijk om een product te vinden zullen gebruiken, omdat het hebben van teveel vertraagt het onderzoek.
 
@@ -62,6 +62,6 @@ Elk veld in het formulier komt overeen met een kenmerk uit de productcatalogus. 
 
 1. Klik op **[!UICONTROL Search]** om de resultaten weer te geven.
 
-   ![ Resultaten van het Onderzoek ](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
+   ![&#x200B; Resultaten van het Onderzoek &#x200B;](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
 1. Als de klant niet ziet wat hij of zij zoekt in de zoekresultaten, klikt de klant op **[!UICONTROL Modify your search]** en probeert hij of zij een andere combinatie van criteria.

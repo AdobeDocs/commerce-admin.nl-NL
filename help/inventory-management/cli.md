@@ -170,17 +170,17 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ## Geocodes importeren
 
-[!DNL Inventory Management] verstrekt het [ Prioriteitsalgoritme van de Afstand ](distance-priority-algorithm.md), dat de hulp de beste optie voor het verschepen van een volledige of gedeeltelijke orde bepaalt. Het algoritme gebruikt GPS-informatie of geocodes om de afstand tussen de bron (een pakhuis of andere fysieke locatie) van elk item in een bestelling en het verzendadres te berekenen. Op basis van die resultaten raadt het algoritme aan welke bron moet worden gebruikt om elk item in de volgorde te verzenden.
+[!DNL Inventory Management] verstrekt het [&#x200B; Prioriteitsalgoritme van de Afstand &#x200B;](distance-priority-algorithm.md), dat de hulp de beste optie voor het verschepen van een volledige of gedeeltelijke orde bepaalt. Het algoritme gebruikt GPS-informatie of geocodes om de afstand tussen de bron (een pakhuis of andere fysieke locatie) van elk item in een bestelling en het verzendadres te berekenen. Op basis van die resultaten raadt het algoritme aan welke bron moet worden gebruikt om elk item in de volgorde te verzenden.
 
 De handelaar selecteert de leverancier van de GPS- of geocodegegevens die nodig zijn om afstanden te berekenen:
 
-- **MAP van Google** gebruikt [ de Diensten van het Platform van de Kaarten van Google ](https://mapsplatform.google.com/) om de afstand en de tijd tussen het verschepende bestemmingsadres en bronplaatsen te berekenen. Voor deze optie is een factureringsplan voor Google vereist en mogelijk worden kosten in rekening gebracht via Google.
+- **MAP van Google** gebruikt [&#x200B; de Diensten van het Platform van de Kaarten van Google &#x200B;](https://mapsplatform.google.com/) om de afstand en de tijd tussen het verschepende bestemmingsadres en bronplaatsen te berekenen. Voor deze optie is een factureringsplan voor Google vereist en mogelijk worden kosten in rekening gebracht via Google.
 
-- **Offline berekening** berekent de afstand gebruikend gegevens die van [ geonames.org ](https://www.geonames.org/) worden gedownload en in Commerce met een bevel worden ingevoerd. Deze optie is gratis.
+- **Offline berekening** berekent de afstand gebruikend gegevens die van [&#x200B; geonames.org &#x200B;](https://www.geonames.org/) worden gedownload en in Commerce met een bevel worden ingevoerd. Deze optie is gratis.
 
 geocodes importeren voor offlineberekening:
 
-Ga het volgende bevel met een spatie-gescheiden lijst van [ ISO-3166 alpha2 landcodes ](https://www.geonames.org/countries/) in:
+Ga het volgende bevel met een spatie-gescheiden lijst van [&#x200B; ISO-3166 alpha2 landcodes &#x200B;](https://www.geonames.org/countries/) in:
 
 ```bash
 bin/magento inventory-geonames:import <country code> <country code> ...

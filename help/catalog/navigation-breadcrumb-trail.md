@@ -16,7 +16,7 @@ A _broodkruimelspoor_ is een reeks verbindingen die de klant toont waar zij met 
 
 Het pad van de broodkruimel kan zo worden geconfigureerd dat het wordt weergegeven op inhoudspagina&#39;s en op cataloguspagina&#39;s. Het formaat en de positie van het broodkruimelspoor variëren door thema, maar het wordt typisch gevestigd enkel onder de kopbal. Standaard wordt het broodkruimelspoor weergegeven op CMS-pagina&#39;s.
 
-![ Breadcrumb spoor dat in storefront ](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"} wordt getoond
+![&#x200B; Breadcrumb spoor dat in storefront &#x200B;](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"} wordt getoond
 
 ## Algemene soorten broodkruimels
 
@@ -50,7 +50,7 @@ Voorbeeld: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
-   ![ toon Broodkruimels voor Pagina&#39;s CMS ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![&#x200B; toon Broodkruimels voor Pagina&#39;s CMS &#x200B;](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Vouw de sectie _[!UICONTROL Default Pages]_&#x200B;uit.
 
@@ -62,4 +62,4 @@ Voorbeeld: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 >[!NOTE]
 >
->De oudercategorie wordt niet getoond op het Trail van de Breadcrumb, op de pagina van de kindcategorie, wanneer het `Browsing Category`= `Deny` [ categorietoestemming ](category-permissions.md) montages heeft.
+>De oudercategorie wordt niet getoond op het Trail van de Breadcrumb, op de pagina van de kindcategorie, wanneer het `Browsing Category`= `Deny` [&#x200B; categorietoestemming &#x200B;](category-permissions.md) montages heeft.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt een combinatie van configuratie-instellingen gebruiken om berichten over de beschikbaarheid van voorraden op productpagina&#39;s en in lijsten met producten op cataloguspagina&#39;s te beheren.
 
-![ Gegroepeerd Product met &quot;Van voorraad&quot;Bericht ](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![&#x200B; Gegroepeerd Product met &quot;Van voorraad&quot;Bericht &#x200B;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Voorraadberichten voor productpagina&#39;s
 
@@ -68,7 +68,7 @@ Wanneer de voorraad niet voor een product wordt beheerd, verhindert deze combina
 
 De volgende weergaveopties zijn mogelijk voor de lijst met categorieën en zoekresultaten, afhankelijk van de beschikbaarheid van het product en de configuratie-instellingen.
 
-![ Bericht uit-van-voorraad op de Pagina van de Categorie ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![&#x200B; Bericht uit-van-voorraad op de Pagina van de Categorie &#x200B;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Voorbeeld 1: Bericht &quot;Uit voorraad&quot; weergeven voor product
 

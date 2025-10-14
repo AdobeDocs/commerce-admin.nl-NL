@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Fields Auto-Generation]
 
-![ de Gebieden van het Product auto-Generatie ](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
+![&#x200B; de Gebieden van het Product auto-Generatie &#x200B;](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
 <!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Mask for SKU] | Algemeen | Hiermee bepaalt u de standaardwaarde van het SKU-veld op basis van plaatsaanduidingswaarden uit andere velden en eventuele extra tekst die wordt ingevoerd. Standaard tijdelijke aanduiding: <br/> Productnaam - `{{name}}` |
 | [!UICONTROL Mask for Meta Title] | Algemeen | Hiermee bepaalt u de standaardwaarde van het veld Metatitel op basis van plaatsaanduidingswaarden uit andere velden en eventuele extra tekst die wordt ingevoerd. Standaard tijdelijke aanduiding: <br/> Productnaam - `{{name}}` |
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Reviews]
 
-![ Recensies van het Product ](./assets/catalog-product-reviews.png)<!-- zoom -->
+![&#x200B; Recensies van het Product &#x200B;](./assets/catalog-product-reviews.png)<!-- zoom -->
 
 <!-- [Product Reviews](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee kunt u productbeoordelingen inschakelen. Opties: `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | Website | Hiermee bepaalt u of klanten een account bij uw winkel moeten openen om productrevisies te kunnen schrijven. |
@@ -44,21 +44,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Storefront]
 
-![ Storefront ](./assets/catalog-storefront.png)<!-- zoom -->
+![&#x200B; Storefront &#x200B;](./assets/catalog-storefront.png)<!-- zoom -->
 
 <!-- [Storefront](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL List Mode] | Winkelweergave | Bepaalt de indeling van de lijst met zoekresultaten. Opties: <br/>**`Grid Only`**- maakt de lijst op als een raster van rijen en kolommen. Elk product wordt weergegeven in één cel van het raster.<br/>**`List Only`** - Hiermee maakt u de lijst op met elk product op een aparte rij. <br/>**`Grid (default / List)`**- Standaard worden producten weergegeven in de rasterweergave en kunnen ze worden geschakeld naar de lijstweergave.<br/>**`List (default / Grid)`** - Standaard worden producten weergegeven in de lijstweergave en kunnen ze worden geschakeld naar de rasterweergave. |
 | [!UICONTROL Products per Page on Grid Allowed Values] | Winkelweergave | Hiermee bepaalt u het aantal producten dat wordt weergegeven in de rasterweergave. Als u opties wilt selecteren, voert u meerdere waarden in, gescheiden door komma&#39;s. |
 | [!UICONTROL Products per Page on Grid Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de rasterweergave. |
 | [!UICONTROL Products per Page on List Allowed Values] | Winkelweergave | Bepaalt het aantal producten die in de Mening van de Lijst worden getoond. Als u opties wilt selecteren, voert u meerdere waarden in, gescheiden door komma&#39;s. |
 | [!UICONTROL Products per Page on List Default Value] | Winkelweergave | Hiermee bepaalt u het aantal producten dat standaard per pagina wordt weergegeven in de lijstweergave. |
-| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [ Van de Lijst van het Product de Widget van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/plp-styling). |
+| Aanbieding sorteren op | Winkelweergave | Hiermee bepaalt u de sorteervolgorde van de lijst met zoekresultaten. De selectie van opties wordt bepaald door de weergave-instellingen van de categorie en de beschikbare kenmerken die zijn ingesteld op `Used for Sorting in Product Listing` . De standaardwaarde is ingesteld op `Use All Available Attributes` en bevat doorgaans de waarde Beste, Naam, Prijs. Dit het plaatsen is niet van toepassing op [!DNL Live Search] [&#x200B; Van de Lijst van het Product de Widget van de Pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Winkelweergave | Indien ingesteld op `Yes` , neemt u de optie `ALL` op in het besturingselement &#39;Tonen per pagina&#39;. |
-| [!UICONTROL Remember Category Pagination] | Algemeen | Als reeks aan `Yes`, worden de huidige waarden van de categoriepage bewaard aangezien de klanten van één categorie aan een andere in [ productlijsten ](../../catalog/navigation-product-listings.md) doorbladeren. Bij het opslaan van de waarde wordt meer cache-opslag gebruikt en kan dit van invloed zijn op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd. Opties: `Yes` / `No` (standaardwaarde) |
-| [!UICONTROL Use Flat Catalog Category] | Algemeen | Laat de [ vlakke categoriestructuur ](../../catalog/catalog-flat.md) toe (geadviseerd niet). Opties: `Yes` / `No` |
+| [!UICONTROL Remember Category Pagination] | Algemeen | Als reeks aan `Yes`, worden de huidige waarden van de categoriepage bewaard aangezien de klanten van één categorie aan een andere in [&#x200B; productlijsten &#x200B;](../../catalog/navigation-product-listings.md) doorbladeren. Bij het opslaan van de waarde wordt meer cache-opslag gebruikt en kan dit van invloed zijn op de manier waarop pagina&#39;s door zoekmachines worden geïndexeerd. Opties: `Yes` / `No` (standaardwaarde) |
+| [!UICONTROL Use Flat Catalog Category] | Algemeen | Laat de [&#x200B; vlakke categoriestructuur &#x200B;](../../catalog/catalog-flat.md) toe (geadviseerd niet). Opties: `Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | Algemeen | Hiermee wordt de vlakke productstructuur ingeschakeld. (niet aanbevolen) Opties: `Yes` / `No` |
 | [!UICONTROL Swatches per Product] | Winkelweergave | Hiermee bepaalt u het aantal stalen dat beschikbaar is voor elk product. Standaard: `16` |
 | [!UICONTROL Show Swatches in Product List] | Winkelweergave | Hiermee bepaalt u of de stalen worden weergegeven in de lijst met producten. Opties: `Yes` / `No` |
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Alerts]
 
-![ de Alarm van het Product ](./assets/catalog-product-alerts.png)<!-- zoom -->
+![&#x200B; de Alarm van het Product &#x200B;](./assets/catalog-product-alerts.png)<!-- zoom -->
 
 <!-- [Product Alerts](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allow Alerts When Product Price Changes] | Winkelweergave | Hiermee bepaalt u of er e-mailberichten beschikbaar zijn voor prijswijzigingen van producten. Opties: `Yes` / `No` |
 | [!UICONTROL Price Alert Email Template] | Winkelweergave | Hiermee wordt de sjabloon aangegeven die wordt gebruikt voor e-mailwaarschuwingen over productprijswijziging. Standaardsjabloon: `Product price alert` |
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Alerts Run Settings]
 
-![ de Alarm van het Product stelt Montages ](./assets/catalog-product-alerts-run-settings.png)<!-- zoom --> in werking
+![&#x200B; de Alarm van het Product stelt Montages &#x200B;](./assets/catalog-product-alerts-run-settings.png)<!-- zoom --> in werking
 
 <!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Algemeen | Kies hoe vaak productwaarschuwingen worden verzonden. Opties: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Start Time] | Algemeen | Kies op welk tijdstip het waarschuwingsproces voor het product begint. Deze tijd moet zijn nadat een prijs- of voorraadupdate is uitgevoerd. |
@@ -100,11 +100,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Image Placeholders]
 
-![ Plaatsaanduidingen van het Beeld van het Product ](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
+![&#x200B; Plaatsaanduidingen van het Beeld van het Product &#x200B;](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
 <!-- [Product Image Placeholders](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Base Image] | Winkelweergave | Hiermee wordt het plaatsaanduidingsbestand aangegeven dat is gekozen voor de basisafbeelding. |
 | [!UICONTROL Small Image] | Winkelweergave | Hiermee wordt het plaatsaanduidingsbestand aangegeven dat is gekozen voor de kleine afbeelding. |
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
-![ onlangs bekeken/Vergeleken Producten ](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
+![&#x200B; onlangs bekeken/Vergeleken Producten &#x200B;](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
 <!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Synchronize widget products with backend storage] | Algemeen | Bepaalt de synchronisatie van de productwidgetgegevens, zoals product-id, met de database. Dit staat het hergebruik van informatie op andere apparaten toe. |
 | [!UICONTROL Show for Current] | Website | Hiermee beperkt u de weergegeven producten tot de huidige website. Opties: `Website` / `Store` / `Store View` |
@@ -133,11 +133,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Video]
 
-![ Video&#39;s van het Product ](./assets/catalog-product-video.png)<!-- zoom -->
+![&#x200B; Video&#39;s van het Product &#x200B;](./assets/catalog-product-video.png)<!-- zoom -->
 
 <!-- [Product Videos](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL YouTube API key] | Winkelweergave | Hier geeft u de API-sleutel op die nodig is om verbinding te maken met de YouTube-server. |
 | [!UICONTROL Autostart base video] | Winkelweergave | Als u de video automatisch wilt starten nadat de pagina is geladen, stelt u deze in op `Yes` . |
@@ -148,14 +148,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Price]
 
-![ Prijs ](./assets/catalog-price.png)<!-- zoom -->
+![&#x200B; Prijs &#x200B;](./assets/catalog-price.png)<!-- zoom -->
 
 <!--Price](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Catalog Price Scope] | Algemeen | Hiermee bepaalt u het bereik van de basisvaluta. Opties: `Global` / `Website` |
-| [!UICONTROL Default Product Price] | Algemeen | ![ Adobe Commerce ](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de standaardproductprijs, als toepasselijk. |
+| [!UICONTROL Default Product Price] | Algemeen | ![&#x200B; Adobe Commerce &#x200B;](../../assets/adobe-logo.svg) (Adobe Commerce slechts) bepaalt de standaardproductprijs, als toepasselijk. |
 
 {style="table-layout:auto"}
 
@@ -163,20 +163,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [ Levend Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL).
+>De standaardonderzoeksconfiguratie die in deze sectie wordt beschreven verschilt voor [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
-![ Gelaagde Navigatie - Automatisch (equalize prijswaaiers) ](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
+![&#x200B; Gelaagde Navigatie - Automatisch (equalize prijswaaiers) &#x200B;](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
-![ Gelaagde Navigatie - Automatisch (equalize producttellingen) ](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
+![&#x200B; Gelaagde Navigatie - Automatisch (equalize producttellingen) &#x200B;](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
 
-![ Gelaagde Navigatie - Handboek ](./assets/layered-navigation-manual.png)<!-- zoom -->
+![&#x200B; Gelaagde Navigatie - Handboek &#x200B;](./assets/layered-navigation-manual.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | Winkelweergave | Hiermee bepaalt u of het aantal producten na elk kenmerk, prijsbereik en elke categorie wordt weergegeven. Opties: `Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | Winkelweergave | Bepaalt de methode wordt gebruikt om de [ stap van de prijsnavigatie ](../../catalog/navigation-layered.md#configure-price-navigation) te bepalen die. Opties: <br/>`Automatic (equalize price ranges)` - De berekening wordt gebaseerd op het prijsbereik van producten in de groep. <br/>`Automatic (equalize product counts)` - De berekening wordt gebaseerd op het aantal producten in de groep. Er wordt een drempel vastgesteld voor het minimumaantal producten in de groep, om te voorkomen dat deze in kleinere groepen worden verdeeld. <br/>`Manual` - Gebruikt de scheidingslimiet die u invoert voor prijsintervallen. |
+| [!UICONTROL Price Navigation Step Calculation] | Winkelweergave | Bepaalt de methode wordt gebruikt om de [&#x200B; stap van de prijsnavigatie &#x200B;](../../catalog/navigation-layered.md#configure-price-navigation) te bepalen die. Opties: <br/>`Automatic (equalize price ranges)` - De berekening wordt gebaseerd op het prijsbereik van producten in de groep. <br/>`Automatic (equalize product counts)` - De berekening wordt gebaseerd op het aantal producten in de groep. Er wordt een drempel vastgesteld voor het minimumaantal producten in de groep, om te voorkomen dat deze in kleinere groepen worden verdeeld. <br/>`Manual` - Gebruikt de scheidingslimiet die u invoert voor prijsintervallen. |
 | [!UICONTROL Default Price Navigation Step] | Winkelweergave | Hiermee bepaalt u het aantal producten dat in elke stap wordt opgenomen. |
 | [!UICONTROL Maximum Number of Price Intervals] | Winkelweergave | Hiermee stelt u een limiet in voor het aantal prijsintervallen dat wordt weergegeven in gelaagde navigatie. |
 
@@ -186,11 +186,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ Toestemmingen van de Categorie ](./assets/catalog-category-permissions.png)<!-- zoom -->
+![&#x200B; Toestemmingen van de Categorie &#x200B;](./assets/catalog-category-permissions.png)<!-- zoom -->
 
 <!-- [Category Permissions](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/category-permissions) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable] | Algemeen | Hiermee activeert u rubriekbeperkingen. Met deze functie worden standaard alle categorieën beperkt. Opties: `Yes` / `No` |
 | [!UICONTROL Allow Browsing Category] | Website | Hiermee bepaalt u wie categorieën mag doorbladeren. Opties: <br/>`Yes, for Everyone` - Hiermee kunnen alle bezoekers en klanten door de categorie bladeren. <br/>`Yes, for Specified Customer Groups` - Hiermee kunnen alleen leden van geselecteerde klantgroepen door de categorie bladeren. <br/>`No, Redirect to Landing Page` - Weigert toegang tot de categorie en leidt naar de geselecteerde pagina. |
@@ -202,18 +202,18 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Engine Optimization]
 
-![ Optimalisering van de Motor van het Onderzoek ](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
+![&#x200B; Optimalisering van de Motor van het Onderzoek &#x200B;](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
 <!-- [Search Engine Optimization](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [ Levende Onderzoek ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) gebruiken. Opties: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Winkelweergave | Bepaalt als _de Populaire Termen van het Onderzoek_ in de opslag wordt uitgevoerd. Dit het plaatsen is niet op opslag van toepassing die [&#x200B; Levende Onderzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) gebruiken. Opties: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op product-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
 | [!UICONTROL Category URL Suffix] | Winkelweergave | Hiermee wordt bepaald of een achtervoegsel, zoals html of htm, wordt toegepast op categorie-URL&#39;s. Indien gebruikt, neem dan geen punt vóór het achtervoegsel op omdat deze automatisch wordt toegepast. |
-| [!UICONTROL Use Categories Path for Product URLs] | Winkelweergave | Hiermee bepaalt u of categoriepaden worden opgenomen in product-URL&#39;s in de winkel. Dit kan ertoe leiden dat meerdere URL&#39;s naar dezelfde pagina verwijzen, wat van invloed kan zijn op de zoekpositie. Meer leren, zie [ Canonical meta markering ](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
+| [!UICONTROL Use Categories Path for Product URLs] | Winkelweergave | Hiermee bepaalt u of categoriepaden worden opgenomen in product-URL&#39;s in de winkel. Dit kan ertoe leiden dat meerdere URL&#39;s naar dezelfde pagina verwijzen, wat van invloed kan zijn op de zoekpositie. Meer leren, zie [&#x200B; Canonical meta markering &#x200B;](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Winkelweergave | Hiermee wordt bepaald of er automatisch een permanente omleiding wordt gemaakt wanneer een URL-sleutel verandert. Als u deze optie hebt geïmplementeerd, is het selectievakje Aangepaste omleiding voor oude URL maken onder het veld URL-sleutel van product standaard ingeschakeld. Opties: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Algemeen | Hiermee wordt bepaald of Adobe Commerce gegevens genereert en opslaat in herschrijftabellen wanneer een gebruiker een categorie opslaat die veel toegewezen producten bevat.  <br/><br/> het veranderen van deze optie beïnvloedt niet hoe product URLs in Adobe Commerce wordt opgelost, aangezien het systeem product URLs ongeacht dit het plaatsen automatisch oplost. <br/><br/> Opties: `Yes` / `No` <br/><br/>**_Belangrijk:_**&#x200B;het bewaren van dit geproduceerde gegeven in URL herschrijft lijst kan prestaties degraderen. Zie [ Automatische Omleiding van het Product ](../../merchandising-promotions/url-redirect-product-automatic.md) voor meer informatie. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Algemeen | Hiermee wordt bepaald of Adobe Commerce gegevens genereert en opslaat in herschrijftabellen wanneer een gebruiker een categorie opslaat die veel toegewezen producten bevat.  <br/><br/> het veranderen van deze optie beïnvloedt niet hoe product URLs in Adobe Commerce wordt opgelost, aangezien het systeem product URLs ongeacht dit het plaatsen automatisch oplost. <br/><br/> Opties: `Yes` / `No` <br/><br/>**_Belangrijk:_**&#x200B;het bewaren van dit geproduceerde gegeven in URL herschrijft lijst kan prestaties degraderen. Zie [&#x200B; Automatische Omleiding van het Product &#x200B;](../../merchandising-promotions/url-redirect-product-automatic.md) voor meer informatie. |
 | [!UICONTROL Apply transliteration for product URL] | Winkelweergave | Hiermee wordt bepaald of transliteratie wordt toegepast bij het maken of bijwerken van product-URL&#39;s. Opties: `Yes` / `No` . De standaardwaarde is ingesteld op `Yes` . <br/><br/> voor bepaalde gebruiksgevallen, zou u transliteratie moeten onbruikbaar maken. Als u bijvoorbeeld een onlinewinkel in het Chinees exploiteert, wordt u door SEO aanbevolen dat product-URL&#39;s overeenkomen met de productnaam. Als u de optie instelt op `No` , kunnen Chinese tekens worden gebruikt in product-URL&#39;s in plaats van een ASCII-equivalent. |
 | [!UICONTROL Page Title Separator] | Winkelweergave | Hiermee wordt het teken aangegeven dat fungeert als scheiding tussen de categorienaam en de subcategorie in de titelbalk van de browser. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Winkelweergave | Als er meerdere URL&#39;s zijn die naar dezelfde categoriepagina verwijzen, gebruikt deze optie een canonieke metatag om de categorie-URL te identificeren die zoekprogramma&#39;s moeten indexeren. De URL bevat een volledige naam voor de categorie met behulp van de metatag. Hierdoor wordt dubbele inhoud verkleind en SEO verbeterd. Opties: `Yes` / `No` |
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 <!-- Category Top Navigation](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | Algemeen | Bepaalt het aantal subcategorieniveaus in de bovenste navigatie. Bij de standaardwaarde van `0` wordt geen limiet ingesteld voor het aantal niveaus. |
 
@@ -235,17 +235,17 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
+U kunt CatalogSearch vormen gebruikend [[!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL) of derdezoekmachine de diensten die Adobe Commerce steunt. Volg de instructies voor uw installatie.
 
 ### Adobe Commerce met [!DNL Live Search]
 
 Wanneer Live zoeken is geïnstalleerd, bevat Catalog Search de volgende configuratie-instellingen:
 
-![ het Onderzoek van de Catalogus naar Levend Onderzoek ](./assets/catalog-search-live-search.png)<!-- zoom -->
+![&#x200B; het Onderzoek van de Catalogus naar Levend Onderzoek &#x200B;](./assets/catalog-search-live-search.png)<!-- zoom -->
 
 <!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de Elasticsearch-zoekmachine. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
 | [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in de configuraties van de Elasticsearch-zoekmachine. Als u deze waarde bijvoorbeeld instelt op 300 in Adobe Commerce, werkt u de waarde in uw zoekmachine bij. |
@@ -260,12 +260,12 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 >[!IMPORTANT]
 >
->- Vanwege de Elasticsearch 7-aankondiging aan het einde van de service voor augustus 2023 raadt Adobe alle Adobe Commerce-klanten aan naar de OpenSearch 2.x-zoekmachine te migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
+>- Vanwege de Elasticsearch 7-aankondiging aan het einde van de service voor augustus 2023 raadt Adobe alle Adobe Commerce-klanten aan naar de OpenSearch 2.x-zoekmachine te migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een verbetering, zie [&#x200B; Migrerend aan OpenSearch &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=nl-NL) in de _Gids van de Verbetering_.
 >- In versies 2.4.4 en 2.4.3-p2 zijn alle velden met het label Elasticsearch ook van toepassing op OpenSearch. Toen de steun voor Elasticsearch 8.x in versie 2.4.6 werd geïntroduceerd, werden de nieuwe etiketten gecreeerd om tussen Elasticsearch en configuraties te onderscheiden OpenSearch. De configuratieopties voor beide zijn echter gelijk.
 
-![ de opties van de het onderzoeksconfiguratie van de Catalogus ](./assets/catalog-search-opensearch.png){zoomable="yes"}
+![&#x200B; de opties van de het onderzoeksconfiguratie van de Catalogus &#x200B;](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Minimal Query Length] | Winkelweergave | Het minimale aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `2` in Adobe Commerce, moet u de waarde ook bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `3` |
 | [!UICONTROL Maximum Query Length] | Winkelweergave | Het maximum aantal tekens dat is toegestaan in een cataloguszoekopdracht. De waarde die voor deze optie is ingesteld, moet compatibel zijn met het corresponderende bereik dat is ingesteld in uw OpenSearch- of Elasticsearch-configuratie. Als u deze waarde bijvoorbeeld instelt op `300` in Adobe Commerce, moet u de waarde bijwerken in de configuratie van de zoekmachine. Standaardwaarde: `128` |
@@ -287,15 +287,15 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 | [!UICONTROL Enable Search Suggestions] | Winkelweergave | Hiermee bepaalt u of zoeksuggesties worden weergegeven voor veelvoorkomende spelfouten. Wanneer toegelaten, worden de onderzoekssuggesties aangeboden voor om het even welk verzoek dat geen resultaten terugkeert en onder de `Did you mean` sectie op de **2&rbrace; pagina van de Resultaten van het Onderzoek &lbrace;verschijnt.** Zoeksuggesties kunnen van invloed zijn op de zoekprestaties. Als deze waarde is ingesteld op `Yes`, worden extra opties weergegeven voor Aanbevelingen voor zoeken inschakelen en de bijbehorende velden. Opties: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Winkelweergave | Hiermee bepaalt u het aantal aangeboden zoeksuggesties. Bijvoorbeeld: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Winkelweergave | Hiermee bepaalt u of het aantal zoekresultaten voor elke suggestie wordt weergegeven. Afhankelijk van thema, verschijnt het aantal gewoonlijk tussen haakjes na de suggestie. Opties: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Meer leren, zie [ minimum_should_match parameter ](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in de documentatie OpenSearch. |
+| [!UICONTROL Minimum Terms to Match] | Winkelweergave | Hiermee geeft u een waarde op die overeenkomt met het aantal termen in uw query dat de zoekresultaten moeten overeenkomen om te worden geretourneerd. Dit zorgt voor optimale resultaten die relevant zijn voor kopers. Percentagewaarden correleren aan een getal en worden, indien nodig, naar beneden afgerond en gebruikt als het minimale aantal termen dat in de query moet worden gebruikt. De waarde kan een negatief of positief geheel, negatief of positief percentage, een combinatie van twee, of veelvoudige combinaties zijn. Meer leren, zie [&#x200B; minimum_should_match parameter &#x200B;](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in de documentatie OpenSearch. |
 
 ## [!UICONTROL Downloadable Product Options]
 
-![ Downloadbare Opties van het Product ](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
+![&#x200B; Downloadbare Opties van het Product &#x200B;](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
 <!-- [Downloadable Product Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Order Item Status to Enable Downloads] | Website | Hiermee bepaalt u de status die een bestelling moet hebben voordat downloads beschikbaar worden. Opties: `Pending` / `Invoiced` |
 | [!UICONTROL Default Maximum Number of Downloads] | Website | Bepaalt het standaardaantal downloads beschikbaar aan een klant. |
@@ -310,11 +310,11 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 ## [!UICONTROL Date & Time Custom Options]
 
-![ de Opties van de Douane van de Datum &amp; van de Tijd ](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
+![&#x200B; de Opties van de Douane van de Datum &amp; van de Tijd &#x200B;](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
 <!-- Date & Time Custom Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Use JavaScript Calendar] | Winkelweergave | Hiermee wordt bepaald of de JavaScript-kalender wordt gebruikt als een invoerbesturingselement voor datumvelden. Opties: `Yes` / `No` <br/> Als ingesteld op `No` , wordt een aparte vervolgkeuzelijst weergegeven voor elk deel van het datumveld. |
 | [!UICONTROL Date Fields Order] | Winkelweergave | Hiermee bepaalt u de volgorde van de drie datumvelden. Opties: `Day` / `Month` / `Year` |
@@ -327,11 +327,11 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 {{ee-feature}}
 
-![ Gebeurtenissen van de Catalogus ](./assets/catalog-events.png)<!-- zoom -->
+![&#x200B; Gebeurtenissen van de Catalogus &#x200B;](./assets/catalog-events.png)<!-- zoom -->
 
 <!-- [Catalog Events](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Catalog Events Functionality] | Website | Hiermee wordt bepaald of de module Gebeurtenissen is ingeschakeld. |
 | [!UICONTROL Enable Catalog Event Widget on Frontend] | Winkelweergave | Hiermee wordt bepaald of de widget Gebeurtenis beschikbaar is in de winkel. Dit is een statisch blok met informatie over gebeurtenissen in uw site. |
@@ -344,11 +344,11 @@ Adobe Commerce biedt ondersteuning voor OpenSearch en Elasticsearch. Adobe Comme
 
 {{ee-feature}}
 
-![ regel-Gebaseerde Betrekkingen van het Product ](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
+![&#x200B; regel-Gebaseerde Betrekkingen van het Product &#x200B;](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
 <!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Maximum Number of Products in Related Products List] | Algemeen | Bepaalt het maximumaantal producten dat in de _Verwante Producten_ lijst kan verschijnen. |
 | [!UICONTROL Show Related Products] | Algemeen | Hiermee bepaalt u welke lijst met verwante producten wordt weergegeven in de winkel. Het kan of de lijst zijn die manueel in de Informatie van het Product, de lijst wordt geselecteerd die in antwoord op een regel van de productverhouding, of een combinatie van twee wordt geproduceerd. Opties: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |

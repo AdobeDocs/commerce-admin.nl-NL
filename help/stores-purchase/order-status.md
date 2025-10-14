@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Status van bestelling
 
-Alle orden hebben een ordestatus die met een stadium in het orde verwerkt [ werkschema ](order-processing.md) wordt geassocieerd.\
+Alle orden hebben een ordestatus die met een stadium in het orde verwerkt [&#x200B; werkschema &#x200B;](order-processing.md) wordt geassocieerd.\
 Het verschil tussen orderstaten en orderstatussen is dat **[!UICONTROL order states]** programmatisch wordt gebruikt. Ze zijn niet
 zichtbaar voor klanten of Admin-gebruikers. Zij bepalen de stroom van een orde, en welke verrichtingen mogelijk zijn voor een
 orde in een bepaalde staat.\
@@ -23,11 +23,11 @@ verwerkingsworkflow.\
 Elke orderstatus is gekoppeld aan een orderstatus. Uw winkel heeft een set vooraf gedefinieerde bestelstatus en
 instellingen voor de ordestatus.
 
-![ de staten en de statussen van de Orde ](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+![&#x200B; de staten en de statussen van de Orde &#x200B;](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
 
 De status van elke orde wordt getoond in de _kolom van de Status_ van het _3&rbrace; net van Orden &lbrace;._
 
-![ Status van de Orde ](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
+![&#x200B; Status van de Orde &#x200B;](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ De status van elke orde wordt getoond in de _kolom van de Status_ van het _3&rbr
 
 ## Workflow voor de status Volgorde
 
-![ de staatswerkschema van de Orde ](./assets/order-state-workflow.png)
+![&#x200B; de staatswerkschema van de Orde &#x200B;](./assets/order-state-workflow.png)
 
 ## Vooraf gedefinieerde status
 
@@ -66,7 +66,7 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 >
 >Alleen standaardwaarden voor de aangepaste orderstatus worden gebruikt in de workflow voor de volgorde. Aangepaste statuswaarden die niet als standaard zijn ingesteld, kunnen alleen worden gebruikt in de sectie Opmerkingen van de volgorde.
 
-![ de montages van de Status van de Orde ](./assets/order-status.png){width="700" zoomable="yes"}
+![&#x200B; de montages van de Status van de Orde &#x200B;](./assets/order-status.png){width="700" zoomable="yes"}
 
 ### Een aangepaste orderstatus maken
 
@@ -74,7 +74,7 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Create New Status]** .
 
-   ![ creeer de Nieuwe Status van de Orde ](./assets/order-status-new.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer de Nieuwe Status van de Orde &#x200B;](./assets/order-status-new.png){width="600" zoomable="yes"}
 
 1. Werk de sectie _[!UICONTROL Order Status Information]_&#x200B;bij:
 
@@ -90,7 +90,7 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
 1. Voor de _pagina van de Status van de Orde_, klik **[!UICONTROL Assign Status to State]**.
 
-   ![ wijs Status ](./assets/store-status-assign-status.png){width="600" zoomable="yes"} toe
+   ![&#x200B; wijs Status &#x200B;](./assets/store-status-assign-status.png){width="600" zoomable="yes"} toe
 
 1. Werk de sectie **[!UICONTROL Assignment Information]** als volgt bij:
 
@@ -110,7 +110,7 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
    - Schakel het selectievakje **[!UICONTROL Visible On Storefront]** in als u deze status vanuit de winkel zichtbaar wilt maken.
 
-   ![ wijs Status aan Staat ](./assets/order-status-assign-state.png){width="600" zoomable="yes"} toe
+   ![&#x200B; wijs Status aan Staat &#x200B;](./assets/order-status-assign-state.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save Status Assignment]**.
 
@@ -140,7 +140,7 @@ Naast de vooraf ingestelde instellingen voor de status van de volgorde kunt u oo
 
 ## Melding
 
-De klanten kunnen het statuut van hun orden door [ voer van RSS ](../merchandising-promotions/social-rss.md) volgen als het voer van RSS van de Orde in de configuratie wordt toegelaten. Als deze optie is ingeschakeld, wordt op elke bestelling een koppeling naar de RSS-feed weergegeven.
+De klanten kunnen het statuut van hun orden door [&#x200B; voer van RSS &#x200B;](../merchandising-promotions/social-rss.md) volgen als het voer van RSS van de Orde in de configuratie wordt toegelaten. Als deze optie is ingeschakeld, wordt op elke bestelling een koppeling naar de RSS-feed weergegeven.
 
 ### Statusmelding van order inschakelen
 
@@ -148,11 +148,11 @@ De klanten kunnen het statuut van hun orden door [ voer van RSS ](../merchandisi
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL RSS Feeds]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
 
 1. Stel **[!UICONTROL Customer Order Status Notification]** in op `Enable` .
 
-   ![ Bericht van de Status van de Orde van de Klant ](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
+   ![&#x200B; Bericht van de Status van de Orde van de Klant &#x200B;](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -162,9 +162,9 @@ De klanten kunnen het statuut van hun orden door [ voer van RSS ](../merchandisi
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales Emails]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Order]** sectie uit.
 
-   ![ Configuratie - de opties van de Orde ](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuratie - de opties van de Orde &#x200B;](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL New Order Confirmation Email Sender]** in op een van de volgende opties:
 

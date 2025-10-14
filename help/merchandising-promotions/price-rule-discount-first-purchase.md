@@ -23,7 +23,7 @@ Om een korting aan te bieden die aan eerste klanten wordt gericht, kunt u:
 
 >[!NOTE]
 >
->Zorg ervoor dat de functie voor klantsegmenten is ingeschakeld. Verwijs naar [ creeer een klantensegment ](../customers/customer-segment-create.md).
+>Zorg ervoor dat de functie voor klantsegmenten is ingeschakeld. Verwijs naar [&#x200B; creeer een klantensegment &#x200B;](../customers/customer-segment-create.md).
 
 ## Stap 1. Een klantsegment maken
 
@@ -45,7 +45,7 @@ Om een korting aan te bieden die aan eerste klanten wordt gericht, kunt u:
 
      Extra opties zijn beschikbaar in het deelvenster aan de linkerkant.
 
-   ![ het segmenteigenschappen van de Klant ](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; het segmenteigenschappen van de Klant &#x200B;](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
 1. Definieer de **[!UICONTROL Conditions]** .
 
@@ -55,15 +55,15 @@ Om een korting aan te bieden die aan eerste klanten wordt gericht, kunt u:
 
      De standaardvoorwaarde begint, &quot;als ALLE van deze voorwaarden WAAR zijn:&quot;
 
-   - Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en selecteer `Number of Orders`.
+   - Klik _toevoegen_ (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) en selecteer `Number of Orders`.
 
    - Klik op **[!UICONTROL is]** en selecteer `less than` .
 
    - Klik op **...** en voer `1` in het veld in.
 
-   - Klik het groene controleteken ( ![ Groen controleteken ](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
+   - Klik het groene controleteken ( ![&#x200B; Groen controleteken &#x200B;](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
 
-   ![ het segmentvoorwaarde van de Klant ](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
+   ![&#x200B; het segmentvoorwaarde van de Klant &#x200B;](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -109,15 +109,15 @@ Het klantsegment wordt gemaakt en weergegeven in het _[!UICONTROL Customer Segme
 
      Extra opties zijn beschikbaar in het deelvenster aan de linkerkant.
 
-   ![ de informatie van de prijsregel van de Kar ](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; de informatie van de prijsregel van de Kar &#x200B;](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
 
 1. Definieer de **[!UICONTROL Conditions]** .
 
-   - De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
+   - De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie.
 
      De standaardregel begint met &quot;Als ALLE van deze voorwaarden WAAR zijn:&quot;.
 
-   - Klik _toevoegen_ (![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) en selecteer `Customer Segment`.
+   - Klik _toevoegen_ (![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) en selecteer `Customer Segment`.
 
      Het kwalificatieveld is standaard ingesteld op `matches` .
 
@@ -127,19 +127,19 @@ Het klantsegment wordt gemaakt en weergegeven in het _[!UICONTROL Customer Segme
 
      >[!NOTE]
      >
-     >Als u segmentidentiteitskaart niet kent, klik het kiezerspictogram ( ![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) om de lijst van het Segment van de Klant te tonen. U kunt de id handmatig invoeren in het veld of het selectievakje voor het gewenste segment inschakelen om het veld automatisch in te vullen.
+     >Als u segmentidentiteitskaart niet kent, klik het kiezerspictogram ( ![&#x200B; pictogram van de Lijst &#x200B;](../assets/icon-list-chooser.png)) om de lijst van het Segment van de Klant te tonen. U kunt de id handmatig invoeren in het veld of het selectievakje voor het gewenste segment inschakelen om het veld automatisch in te vullen.
 
-   - Klik het groene controleteken ( ![ Groen controleteken ](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
+   - Klik het groene controleteken ( ![&#x200B; Groen controleteken &#x200B;](../assets/icon-checkmark-green-circle.png)) om voorwaarde te bewaren die plaatst.
 
    - Klik op **[!UICONTROL Save and Continue Edit]** als de bewerking is voltooid.
 
      Deze lijn van de regel is op alle klanten van toepassing die klant segmentidentiteitskaart 2 aanpassen.
 
-   ![ het segmentvoorwaarde van de Klant ](./assets/customer-segment-matches.png){width="400"}
+   ![&#x200B; het segmentvoorwaarde van de Klant &#x200B;](./assets/customer-segment-matches.png){width="400"}
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie en bepaalt de acties voor de regel.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Conditions]** sectie en bepaalt de acties voor de regel.
 
-   In deze sectie definieert u het type korting en de waarde/het bedrag van de korting die u wilt toepassen op nieuwe klanten. In dit voorbeeld wordt een korting van 10% gedefinieerd voor alle klanten die aan de gedefinieerde voorwaarde voldoen. Voor informatie over andere beschikbare opties, zie [ Creërend een Regel van de Prijs van de Kar ](price-rules-cart-create.md).
+   In deze sectie definieert u het type korting en de waarde/het bedrag van de korting die u wilt toepassen op nieuwe klanten. In dit voorbeeld wordt een korting van 10% gedefinieerd voor alle klanten die aan de gedefinieerde voorwaarde voldoen. Voor informatie over andere beschikbare opties, zie [&#x200B; Creërend een Regel van de Prijs van de Kar &#x200B;](price-rules-cart-create.md).
 
    - Selecteer Percentage van korting op de productprijs bij **[!UICONTROL Apply]** .
 
@@ -151,7 +151,7 @@ Het klantsegment wordt gemaakt en weergegeven in het _[!UICONTROL Customer Segme
 
    - Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   ![ de acties van de prijsregel van de Kar ](./assets/actions-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; de acties van de prijsregel van de Kar &#x200B;](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 De nieuwe regel is normaal beschikbaar binnen het uur. Test de regel om er zeker van te zijn dat deze werkt zoals u deze hebt gedefinieerd.
 

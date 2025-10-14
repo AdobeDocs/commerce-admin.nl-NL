@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Toewijzingen van producten in categorie
 
-Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x200B;om de producten te bekijken die momenteel aan de categorie zijn toegewezen. De zoekfilters boven aan elke kolom worden gebruikt om producten toe te voegen aan en te verwijderen uit de categorie. U kunt [ categorieregels ](../merchandising-promotions/category-product-rules.md) ( ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce slechts) ook gebruiken om de productselectie dynamisch te veranderen wanneer een reeks voorwaarden wordt voldaan aan. Meer leren, zie [ Visuele Merchandiser ](../merchandising-promotions/visual-merchandiser.md)).
+Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x200B;om de producten te bekijken die momenteel aan de categorie zijn toegewezen. De zoekfilters boven aan elke kolom worden gebruikt om producten toe te voegen aan en te verwijderen uit de categorie. U kunt [&#x200B; categorieregels &#x200B;](../merchandising-promotions/category-product-rules.md) ( ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce slechts) ook gebruiken om de productselectie dynamisch te veranderen wanneer een reeks voorwaarden wordt voldaan aan. Meer leren, zie [&#x200B; Visuele Merchandiser &#x200B;](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
 >Tijdens de opstelling van de categorieregel, worden de producten _gesorteerd,_ aangepast _,_ toegewezen _, en_ niet toegewezen _volgens die regel **_slechts_**&#x200B;wanneer deze categorie wordt bewaard._ Om ervoor te zorgen dat een nieuw product volgens de regel wordt toegewezen wanneer u het aan de catalogus toevoegt, moet u **elke categorie** resave die wordt geplaatst om producten door regel aan te passen. Ook, als om het even welke status van de productvoorraad in `In Stock` of `Out of Stock` wordt veranderd en de producten in de categorie _gesorteerd_ volgens de **Automatische het Sorteren** regel, moet u **[!UICONTROL Save Category]** klikken.
 
-![ Producten van de Categorie ](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+![&#x200B; Producten van de Categorie &#x200B;](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x20
 
    De opties voor automatisch sorteren en voorwaarden worden weergegeven.
 
-   ![ om Producten door Regel ](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"} aan te passen
+   ![&#x200B; om Producten door Regel &#x200B;](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"} aan te passen
 
 1. Stel de **[!UICONTROL Automatic Sorting]** volgorde in.
 
@@ -56,7 +56,7 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x20
    - Kies de **[!UICONTROL Operator]** die nodig is om de expressie te vormen.
    - Voer de **[!UICONTROL Value]** in die moet worden aangepast.
 
-   ![ voeg Voorwaarde aan de Regel van de Categorie toe ](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![&#x200B; voeg Voorwaarde aan de Regel van de Categorie toe &#x200B;](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
    Herhaal dit proces voor elk attribuut dat moet worden gebruikt om de voorwaarden te beschrijven om aan te voldoen. Bijvoorbeeld, om producten aan te passen die van 7 tot 30 dagen geleden werden gecreeerd, doe het volgende:
 
@@ -100,12 +100,12 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x20
 
 | Besturing | Beschrijving |
 |----------|--------------|
-| ![ Mening als lijst ](../assets/icon-view-list.png) | Weergeven als lijst |
-| ![ Mening als tegels ](../assets/icon-view-tiles.png) | Weergeven als tegels |
-| ![ knevel nr. ](../assets/toggle-no.png) | Op regel afstemmen - Nee |
-| ![ Wissel ja ](../assets/toggle-yes.png) | Op regel afstemmen - Ja |
-| ![ controlemechanisme van de Beweging ](../assets/icon-move.png) | Met het besturingselement voor slepen en neerzetten kunt u een product vastpakken en naar een andere positie op de huidige pagina van het raster verplaatsen. Meer leren, zie [ Visuele Merchandiser ](../merchandising-promotions/visual-merchandiser.md). |
-| ![ controlemechanisme van de Positie ](../assets/control-position.png) | Bepaalt de positie van het product in de lijst. |
+| ![&#x200B; Mening als lijst &#x200B;](../assets/icon-view-list.png) | Weergeven als lijst |
+| ![&#x200B; Mening als tegels &#x200B;](../assets/icon-view-tiles.png) | Weergeven als tegels |
+| ![&#x200B; knevel nr. &#x200B;](../assets/toggle-no.png) | Op regel afstemmen - Nee |
+| ![&#x200B; Wissel ja &#x200B;](../assets/toggle-yes.png) | Op regel afstemmen - Ja |
+| ![&#x200B; controlemechanisme van de Beweging &#x200B;](../assets/icon-move.png) | Met het besturingselement voor slepen en neerzetten kunt u een product vastpakken en naar een andere positie op de huidige pagina van het raster verplaatsen. Meer leren, zie [&#x200B; Visuele Merchandiser &#x200B;](../merchandising-promotions/visual-merchandiser.md). |
+| ![&#x200B; controlemechanisme van de Positie &#x200B;](../assets/control-position.png) | Bepaalt de positie van het product in de lijst. |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Voor een categorie gebruikt u de sectie _[!UICONTROL Products in Category]_&#x20
 
 | Besturing | Beschrijving |
 |----------|--------------|
-| ![ Geselecteerde checkbox ](../assets/checkbox-selected.png) | Gebruik het selectievakje in de koptekst van de eerste kolom voor het selecteren van alle producten of het wissen van alle selecties. Het besturingselement in de eerste rij bepaalt het type zoekopdracht en kan zo worden ingesteld dat alle records worden opgenomen. U kunt ook alleen de records opnemen die al dan niet zijn toegewezen aan de categorie. Het selectievakje in de eerste kolom van elke rij geeft de producten aan die aan de categorie moeten worden toegevoegd. Opties: `Yes` / `No` / `Any` |
+| ![&#x200B; Geselecteerde checkbox &#x200B;](../assets/checkbox-selected.png) | Gebruik het selectievakje in de koptekst van de eerste kolom voor het selecteren van alle producten of het wissen van alle selecties. Het besturingselement in de eerste rij bepaalt het type zoekopdracht en kan zo worden ingesteld dat alle records worden opgenomen. U kunt ook alleen de records opnemen die al dan niet zijn toegewezen aan de categorie. Het selectievakje in de eerste kolom van elke rij geeft de producten aan die aan de categorie moeten worden toegevoegd. Opties: `Yes` / `No` / `Any` |
 | [!UICONTROL Search Filters] | De filterbesturingselementen boven aan elke kolom kunnen worden gebruikt om specifieke waarden in te voeren die u wilt opnemen in de lijst of uit de lijst wilt verwijderen, afhankelijk van de instelling Alles selecteren. |
 | [!UICONTROL Reset Filter] | Wist alle zoekfilters. |
 | [!UICONTROL Search] | Hiermee doorzoekt u de catalogus op basis van de filtercriteria en geeft u het resultaat weer. |

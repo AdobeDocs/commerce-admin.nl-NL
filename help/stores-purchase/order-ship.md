@@ -34,7 +34,7 @@ Een bestelling die is betaald maar nog niet is verzonden, heeft de `Processing` 
 
       - Stel **[!UICONTROL Carrier]** in op `Custom Value` , voer een **[!UICONTROL Title]** voor de aangepaste drager in en voer de tekstspatiëring in **[!UICONTROL Number]** .
 
-      - [ het volgen van de Mening informatie ](#track-the-shipment).
+      - [&#x200B; het volgen van de Mening informatie &#x200B;](#track-the-shipment).
 
 1. Als u een gedeeltelijke verzending wilt maken, schuift u omlaag naar de sectie Items naar verzending en voert u de **[!UICONTROL Qty to Ship]** voor elk item in.
 

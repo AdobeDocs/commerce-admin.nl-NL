@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Inhoud toevoegen - Producten
 
-Gebruik het _inhoudstype van Producten_ om een lijst van producten aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen, gebruikend of een net of carrousellay-out. Gebruik [ toevoegen Inhoud - het hulpmiddel van het Blok ](block.md) om het blok op het [!DNL Page Builder] stadium te plaatsen en dan een productlijst binnen het blok te plaatsen. U kunt de productlijst ook rechtstreeks in een rij op een pagina toevoegen.
+Gebruik het _inhoudstype van Producten_ om een lijst van producten aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen, gebruikend of een net of carrousellay-out. Gebruik [&#x200B; toevoegen Inhoud - het hulpmiddel van het Blok &#x200B;](block.md) om het blok op het [!DNL Page Builder] stadium te plaatsen en dan een productlijst binnen het blok te plaatsen. U kunt de productlijst ook rechtstreeks in een rij op een pagina toevoegen.
 
 ## Richtlijnen voor het gebruik van de productcarrousel
 
@@ -26,13 +26,13 @@ De productcarrousel biedt een krachtige en boeiende manier om uw producten te la
 
 - Stel **[!UICONTROL Carousel Mode]** in op `Continuous` om één product tegelijk in de carrousel te markeren, centreren en schuiven. De andere producten zijn zichtbaar in de lijst, maar transparant om het gecentreerde product te benadrukken.
 
-  ![ lijst van het Product op ononderbroken carrouselwijze ](./assets/pb-products-settings-carousel-continuous.png){width="600"}
+  ![&#x200B; lijst van het Product op ononderbroken carrouselwijze &#x200B;](./assets/pb-products-settings-carousel-continuous.png){width="600"}
 
 - Als u in de carrousel maximaal vijf producten tegelijk wilt weergeven en schuiven, stelt u de **[!UICONTROL Carousel Mode]** in op `Default` .
 
-  ![ lijst van het Product op standaardcarrouselwijze ](./assets/pb-products-settings-carousel-default.png){width="600"}
+  ![&#x200B; lijst van het Product op standaardcarrouselwijze &#x200B;](./assets/pb-products-settings-carousel-default.png){width="600"}
 
-De volgende instructies tonen hoe te om een lijst van Producten aan een blok toe te voegen. U kunt a [ widget ](../content-design/widgets.md) dan gebruiken om het blok bij een specifieke plaats op om het even welke pagina in uw opslag te plaatsen.
+De volgende instructies tonen hoe te om een lijst van Producten aan een blok toe te voegen. U kunt a [&#x200B; widget &#x200B;](../content-design/widgets.md) dan gebruiken om het blok bij een specifieke plaats op om het even welke pagina in uw opslag te plaatsen.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -40,12 +40,12 @@ De volgende instructies tonen hoe te om een lijst van Producten aan een blok toe
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ------------- | ----------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de productcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Opent _uitgeeft Producten_ pagina, waar u de productlijst kunt kiezen en de eigenschappen van de container veranderen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de huidige productcontainer en de inhoud ervan. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Toont de container van de verborgen producten en zijn inhoud. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container met producten en de inhoud ervan. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de productcontainer en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de productcontainer en de inhoud ervan naar een andere positie in het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Opent _uitgeeft Producten_ pagina, waar u de productlijst kunt kiezen en de eigenschappen van de container veranderen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Verbergt de huidige productcontainer en de inhoud ervan. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Toont de container van de verborgen producten en zijn inhoud. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container met producten en de inhoud ervan. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de productcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -65,13 +65,13 @@ De volgende instructies tonen hoe te om een lijst van Producten aan een blok toe
 
 1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Add Content]** en sleep een tijdelijke aanduiding **[!UICONTROL Products]** naar het werkgebied.
 
-   ![ voeg het inhoudstype van Producten ](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg het inhoudstype van Producten &#x200B;](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"} toe
 
 ## De container voor de lijst met producten configureren
 
-Beweeg over de lege _container van Producten_ om toolbox te tonen en _te klikken Montages_ (![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+Beweeg over de lege _container van Producten_ om toolbox te tonen en _te klikken Montages_ (![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-![ Toolbox van Producten ](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; Toolbox van Producten &#x200B;](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
 
 Voltooi de _Montages_ volgens de volgende secties:
 
@@ -86,9 +86,9 @@ Voltooi de _Montages_ volgens de volgende secties:
 
    {style="table-layout:auto"}
 
-   ![ de verschijning van het Product ](./assets/pb-products-appearances.png){width="300"}
+   ![&#x200B; de verschijning van het Product &#x200B;](./assets/pb-products-appearances.png){width="300"}
 
-   Als u de productcarrousel kiest, moet u ook de [ Montages van de Carrousel ](#carousel-settings) vormen.
+   Als u de productcarrousel kiest, moet u ook de [&#x200B; Montages van de Carrousel &#x200B;](#carousel-settings) vormen.
 
 1. Kies bij **[!UICONTROL Select Products By]** de methode voor productselectie:
 
@@ -96,23 +96,23 @@ Voltooi de _Montages_ volgens de volgende secties:
 
    - **[!UICONTROL Category]** - Kies deze optie om producten met een geselecteerde categorie weer te geven.
 
-     ![ de selectie van het Product door categorie ](./assets/pb-products-settings_category.png){width="500"}
+     ![&#x200B; de selectie van het Product door categorie &#x200B;](./assets/pb-products-settings_category.png){width="500"}
 
      Als deze optie is geselecteerd, beschikt u over een **[!UICONTROL Category]** kiezer. Klik op de pijl en boor omlaag om de productcategorie te kiezen die u wilt weergeven. Bijvoorbeeld, in de [!DNL Commerce] steekproefgegevens, het borstelen binnen en het selecteren van de _Vrouwen > Tops > Tees_ toont alle producten voor die categorie.
 
-     ![ Selecterend een cataloguscategorie ](./assets/pb-select-products-by-category.png){width="500"}
+     ![&#x200B; Selecterend een cataloguscategorie &#x200B;](./assets/pb-select-products-by-category.png){width="500"}
 
    - **[!UICONTROL SKU]** - Kies deze optie om producten weer te geven met een of meer SKU&#39;s
 
      Als deze optie is geselecteerd, wordt in het tekstvak **[!UICONTROL Product SKUs]** een lijst met SKU&#39;s met komma&#39;s weergegeven.
 
-     ![ selectie van het Product door SKU ](./assets/pb-products-settings_sku.png){width="500"}
+     ![&#x200B; selectie van het Product door SKU &#x200B;](./assets/pb-products-settings_sku.png){width="500"}
 
    - **[!UICONTROL Condition]** - Kies deze optie om producten weer te geven onder een of meer voorwaarden die u definieert.
 
      Als deze optie is geselecteerd, zijn er gereedschappen beschikbaar waarmee u voorwaarden kunt toevoegen aan de selectie van uw producten. U kunt bijvoorbeeld alleen producten selecteren waarvoor de optie Geslacht is ingesteld op Unisex.
 
-     ![ selectie van het Product door voorwaarde ](./assets/pb-products-settings_condition.png){width="500"}
+     ![&#x200B; selectie van het Product door voorwaarde &#x200B;](./assets/pb-products-settings_condition.png){width="500"}
 
      >[!NOTE]
      >
@@ -138,7 +138,7 @@ Voltooi de _Montages_ volgens de volgende secties:
 
    {style="table-layout:auto"}
 
-   ![ de sorteeropties van het Product ](./assets/pb-products-sortby.png){width="300"}
+   ![&#x200B; de sorteeropties van het Product &#x200B;](./assets/pb-products-sortby.png){width="300"}
 
 1. Voer de **[!UICONTROL Number of Products to Display]** in de carrousel of het raster in.
 
@@ -165,7 +165,7 @@ Voltooi de _Montages_ volgens de volgende secties:
 
    Als u tussen deze twee modi schakelt, blijven de andere carrouselinstellingen behouden, behalve de instelling **[!UICONTROL Infinite Loop]** , die altijd is ingesteld op `Yes` in de modus Doorlopend en het veld is uitgeschakeld.
 
-   ![ de Montages van Carousel ](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van Carousel &#x200B;](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
 
 1. Stel indien nodig de optie **[!UICONTROL Autoplay]** in op `Yes` .
 
@@ -249,8 +249,8 @@ Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te p
 
 Als u een productcarrousel vormde, zou het aan het volgende voorbeeld gelijkaardig moeten kijken:
 
-![ carrousel van het Product op het stadium ](./assets/pb-products-admin-carousel.png){width="600"}
+![&#x200B; carrousel van het Product op het stadium &#x200B;](./assets/pb-products-admin-carousel.png){width="600"}
 
-U kunt a [ widget ](../content-design/widgets.md) nu gebruiken om dit blok te plaatsen waar u het in de opslag wilt verschijnen. Of, kunt u [ gebruiken voeg Inhoud - Blok ](block.md) toe om het blok aan een bestaande pagina, een lusje, of een blok toe te voegen.
+U kunt a [&#x200B; widget &#x200B;](../content-design/widgets.md) nu gebruiken om dit blok te plaatsen waar u het in de opslag wilt verschijnen. Of, kunt u [&#x200B; gebruiken voeg Inhoud - Blok &#x200B;](block.md) toe om het blok aan een bestaande pagina, een lusje, of een blok toe te voegen.
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

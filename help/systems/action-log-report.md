@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Het _Logboeken van de Actie_ rapport toont een gedetailleerd verslag van alle acties Admin die voor registreren worden toegelaten. Elk verslag is tijdstempels, en registreert het IP adres en de naam van de gebruiker. Het logboekgegeven omvat admin gebruikersgegevens en verwante veranderingen die tijdens de actie werden aangebracht.
 
-De acties die u in het rapport wilt tonen moeten in het [ Logging van Acties Admin ](action-log.md) scherm in de opslagmontages worden toegelaten. Als het actietype wordt gecontroleerd (toegelaten), worden die types van acties Admin getoond in het Logs van de Actie rapport.
+De acties die u in het rapport wilt tonen moeten in het [&#x200B; Logging van Acties Admin &#x200B;](action-log.md) scherm in de opslagmontages worden toegelaten. Als het actietype wordt gecontroleerd (toegelaten), worden die types van acties Admin getoond in het Logs van de Actie rapport.
 
 Het rapport kan worden gefilterd gebruikend de opties in elke kolom. U kunt één filteroptie instellen of filteropties voor meerdere kolommen instellen om het rapport te beperken tot een lijst met specifieke handelingen. U kunt rapportgegevens in of Csv of formaat van XML van Excel ook uitvoeren.
 
@@ -36,11 +36,11 @@ Het rapport Action Logs bevat de volgende informatie:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**.
 
-   ![ Logboeken van de Actie ](./assets/action-log-report.png){width="600" zoomable="yes"}
+   ![&#x200B; Logboeken van de Actie &#x200B;](./assets/action-log-report.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL View]** als u alle details van een vermelde beheeractie wilt weergeven.
 
-   ![ de ingangsdetails van het Logboek van de Actie ](./assets/action-log-report-view.png){width="600" zoomable="yes"}
+   ![&#x200B; de ingangsdetails van het Logboek van de Actie &#x200B;](./assets/action-log-report-view.png){width="600" zoomable="yes"}
 
 ## Het rapport Handelingenlogboeken filteren
 
@@ -48,7 +48,7 @@ U kunt de velden met filteropties definiëren en vervolgens op **[!UICONTROL Sea
 
 Klik op **[!UICONTROL Reset Filter]** om de filteropties te wissen en terug te keren naar het volledige rapport.
 
-![ het rapportfilters van het Logboek van de Actie ](./assets/action-log-report-filters.png){width="600" zoomable="yes"}
+![&#x200B; het rapportfilters van het Logboek van de Actie &#x200B;](./assets/action-log-report-filters.png){width="600" zoomable="yes"}
 
 | Veld | beschrijving |
 |--- |--- |
@@ -74,4 +74,4 @@ Klik op **[!UICONTROL Reset Filter]** om de filteropties te wissen en terug te k
 
    Het gegenereerde bestand wordt automatisch voor downloads opgeslagen in de door u aangewezen map.
 
-   ![ Logboekrapportuitvoer van de Actie ](./assets/action-log-report-export.png){width="200"}
+   ![&#x200B; Logboekrapportuitvoer van de Actie &#x200B;](./assets/action-log-report-export.png){width="200"}

@@ -19,13 +19,13 @@ Het menu Verkoop bevat een overzicht van de transacties op basis van de plaats w
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-![ het menu van de Verkoop ](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+![&#x200B; het menu van de Verkoop &#x200B;](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
 [!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
-![ het menu van de Verkoop ](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+![&#x200B; het menu van de Verkoop &#x200B;](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -37,56 +37,56 @@ Voor _Admin_ sidebar, klik **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
 
-De erkende kopers kunnen [ de prijs ](../b2b/quotes.md) met de verkoper bespreken door a [ verzoek ](../b2b/quote-request.md) van het winkelwagentje te verzenden.
+De erkende kopers kunnen [&#x200B; de prijs &#x200B;](../b2b/quotes.md) met de verkoper bespreken door a [&#x200B; verzoek &#x200B;](../b2b/quote-request.md) van het winkelwagentje te verzenden.
 
 ### [!UICONTROL Quote Templates]
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B)
 
-Staat kopers en verkopers toe om het citaatproces te stroomlijnen door herbruikbare en klantgerichte [ citaatmalplaatjes ](../b2b/quote-templates-overview.md) te creëren.
+Staat kopers en verkopers toe om het citaatproces te stroomlijnen door herbruikbare en klantgerichte [&#x200B; citaatmalplaatjes &#x200B;](../b2b/quote-templates-overview.md) te creëren.
 
 ### [!UICONTROL Orders]
 
-Wanneer een [ orde ](orders.md) wordt geplaatst, wordt een verkooporde gecreeerd als tijdelijk verslag van de transactie. De betaling is niet verwerkt en de bestelling kan nog steeds worden geannuleerd.
+Wanneer een [&#x200B; orde &#x200B;](orders.md) wordt geplaatst, wordt een verkooporde gecreeerd als tijdelijk verslag van de transactie. De betaling is niet verwerkt en de bestelling kan nog steeds worden geannuleerd.
 
 ### [!UICONTROL Invoices]
 
-Een [ factuur ](invoices.md) is een verslag van het ontvangstbewijs van betaling voor een orde. Er kunnen meerdere facturen worden gemaakt voor één bestelling, elk met maximaal, of slechts een paar aangeschafte producten die u opgeeft. Afhankelijk van de betalingsactie kan de betaling automatisch worden vastgelegd wanneer de factuur wordt gegenereerd.
+Een [&#x200B; factuur &#x200B;](invoices.md) is een verslag van het ontvangstbewijs van betaling voor een orde. Er kunnen meerdere facturen worden gemaakt voor één bestelling, elk met maximaal, of slechts een paar aangeschafte producten die u opgeeft. Afhankelijk van de betalingsactie kan de betaling automatisch worden vastgelegd wanneer de factuur wordt gegenereerd.
 
 ### [!UICONTROL Shipments]
 
-A [ lading ](shipments.md) is een verslag van de producten in een orde die zijn verscheept. Net als bij facturen kunnen meerdere verzendingen aan één bestelling worden gekoppeld, totdat alle producten in de bestelling worden verzonden.
+A [&#x200B; lading &#x200B;](shipments.md) is een verslag van de producten in een orde die zijn verscheept. Net als bij facturen kunnen meerdere verzendingen aan één bestelling worden gekoppeld, totdat alle producten in de bestelling worden verzonden.
 
 ### [!UICONTROL Credit Memos]
 
-A [ creditmemo ](credit-memos.md) is een document dat het bedrag toont dat de klant voor een volledige of gedeeltelijke terugbetaling verschuldigd is. Het bedrag kan op een aankoop worden toegepast of aan de klant worden terugbetaald.
+A [&#x200B; creditmemo &#x200B;](credit-memos.md) is een document dat het bedrag toont dat de klant voor een volledige of gedeeltelijke terugbetaling verschuldigd is. Het bedrag kan op een aankoop worden toegepast of aan de klant worden terugbetaald.
 
 ### [!UICONTROL Returns]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-A [ teruggekeerde handelsvergunning ](returns.md) (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. RMAs kan voor Eenvoudige, Gegroepeerde, Configurable, en de producttypes van de Bundel worden uitgegeven. RMA&#39;s zijn echter niet beschikbaar voor virtuele en downloadbare producten of cadeaukaarten.
+A [&#x200B; teruggekeerde handelsvergunning &#x200B;](returns.md) (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. RMAs kan voor Eenvoudige, Gegroepeerde, Configurable, en de producttypes van de Bundel worden uitgegeven. RMA&#39;s zijn echter niet beschikbaar voor virtuele en downloadbare producten of cadeaukaarten.
 
 ### [!UICONTROL Billing Agreements]
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-A [ het factureren overeenkomst ](paypal-billing-agreements.md) is gelijkaardig aan een kooporde, behalve dat is het niet beperkt tot één enkele aankoop. Tijdens het afrekenen kiest de klant Factureringsovereenkomst als betalingsmethode. Een factureringsovereenkomst stroomlijnt het afhandelingsproces omdat de klant geen betalingsinformatie hoeft in te voeren voor elke aankoop.
+A [&#x200B; het factureren overeenkomst &#x200B;](paypal-billing-agreements.md) is gelijkaardig aan een kooporde, behalve dat is het niet beperkt tot één enkele aankoop. Tijdens het afrekenen kiest de klant Factureringsovereenkomst als betalingsmethode. Een factureringsovereenkomst stroomlijnt het afhandelingsproces omdat de klant geen betalingsinformatie hoeft in te voeren voor elke aankoop.
 
 ### [!UICONTROL Transactions]
 
-De [ pagina van Transacties ](transactions.md) maakt een lijst van alle betalingsactiviteit die tussen uw opslag en alle betalingssystemen heeft plaatsgevonden, en verleent toegang tot meer gedetailleerde informatie.
+De [&#x200B; pagina van Transacties &#x200B;](transactions.md) maakt een lijst van alle betalingsactiviteit die tussen uw opslag en alle betalingssystemen heeft plaatsgevonden, en verleent toegang tot meer gedetailleerde informatie.
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Op de Braintree Virtual Terminal-pagina kan een Admin-gebruiker de betaling voor het geselecteerde bedrag accepteren. Om de eindeigenschap beschikbaar te maken, zou een handelaar fundamentele [ montages van Braintree ](braintree.md) moeten vormen. Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie.
+Op de Braintree Virtual Terminal-pagina kan een Admin-gebruiker de betaling voor het geselecteerde bedrag accepteren. Om de eindeigenschap beschikbaar te maken, zou een handelaar fundamentele [&#x200B; montages van Braintree &#x200B;](braintree.md) moeten vormen. Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie.
 
 ### [!UICONTROL Archive]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
-(De optie van het Archief moet worden toegelaten) [ het Archiveren orden ](order-archive.md) en andere verkoopdocumenten verbeteren regelmatig prestaties en houden uw werkruimte vrij van onnodige informatie.
+(De optie van het Archief moet worden toegelaten) [&#x200B; het Archiveren orden &#x200B;](order-archive.md) en andere verkoopdocumenten verbeteren regelmatig prestaties en houden uw werkruimte vrij van onnodige informatie.

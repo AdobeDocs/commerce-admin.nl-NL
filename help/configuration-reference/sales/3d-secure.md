@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## [!UICONTROL CardinalCommerce]
 
-![ CardinalCommerce ](./assets/3d-secure-cardinalcommerce.png)<!-- zoom -->
+![&#x200B; CardinalCommerce &#x200B;](./assets/3d-secure-cardinalcommerce.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Environment] | Website | Geeft de werkingsmodus van uw [!DNL CardinalCommerce] -account aan. Als u in een testomgeving werkt, kiest u &#39;Sandbox&#39;. Opties: zandbak/productie (standaard) |
 | [!UICONTROL Org Unit ID] | Website | De organisatie-eenheid-id van uw [!DNL CardinalCommerce] -zakelijke account. |

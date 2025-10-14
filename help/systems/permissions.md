@@ -19,6 +19,6 @@ Bovendien kunt u de toegang van Admin verder beperken tot slechts een specifieke
 
 Wanneer de toegang van een Admin-gebruiker is beperkt tot een specifieke website of winkel, zijn de websites of winkels waarvoor de gebruiker geen machtiging heeft, niet zichtbaar of worden deze grijs weergegeven. Alleen de verkoop- en andere gegevens voor toegestane websites en winkels worden voor de gebruiker weergegeven.
 
-- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) door gebrek, registreert het systeem automatisch (verslagen) alle acties die door een gebruiker worden uitgevoerd wanneer zij veranderingen op een opslag toepassen. De acties Admin kunnen in het [ Logboek van de Actie Rapport ](action-log-report.md) worden herzien. Vorm het programma openen [ Logging van de Acties Admin ](action-log.md) in geavanceerde adminmontages van uw opslag.
+- ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) door gebrek, registreert het systeem automatisch (verslagen) alle acties die door een gebruiker worden uitgevoerd wanneer zij veranderingen op een opslag toepassen. De acties Admin kunnen in het [&#x200B; Logboek van de Actie Rapport &#x200B;](action-log-report.md) worden herzien. Vorm het programma openen [&#x200B; Logging van de Acties Admin &#x200B;](action-log.md) in geavanceerde adminmontages van uw opslag.
 
-![ Admin - alle gebruikersrekeningen ](./assets/users-all.png){width="700" zoomable="yes"}
+![&#x200B; Admin - alle gebruikersrekeningen &#x200B;](./assets/users-all.png){width="700" zoomable="yes"}

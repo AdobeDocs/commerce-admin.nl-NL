@@ -14,21 +14,21 @@ ht-degree: 0%
 
 _Onmiddellijke Aankoop_ staat klanten toe om door het controleproces te versnellen gebruikend informatie die in hun rekening wordt bewaard. Wanneer toegelaten, verschijnt de _Onmiddellijke knoop van de Aankoop_ onder _toevoegt aan Kaart_ knoop op de productpagina voor klanten die aan de vereisten voldoen.
 
-![ pagina van het Product met de Onmiddellijke getoonde optie van de Aankoop ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
+![&#x200B; pagina van het Product met de Onmiddellijke getoonde optie van de Aankoop &#x200B;](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## Klantvereisten
 
-- De klant wordt [ binnen ondertekend ](../customers/customer-sign-in.md) aan hun rekening.
+- De klant wordt [&#x200B; binnen ondertekend &#x200B;](../customers/customer-sign-in.md) aan hun rekening.
 
-- De rekening van de klant heeft a [ standaard het factureren en het verschepen adres ](../customers/account-dashboard-address-book.md).
+- De rekening van de klant heeft a [&#x200B; standaard het factureren en het verschepen adres &#x200B;](../customers/account-dashboard-address-book.md).
 
-- Minstens één [ verschepende methode ](delivery.md) is beschikbaar voor het land dat in het standaard verschepende adres wordt gespecificeerd.
+- Minstens één [&#x200B; verschepende methode &#x200B;](delivery.md) is beschikbaar voor het land dat in het standaard verschepende adres wordt gespecificeerd.
 
-- De rekening van de klant heeft a [ opgeslagen betalings ](../stores-purchase/stored-payment-methods.md) methode met toegelaten kluis.
+- De rekening van de klant heeft a [&#x200B; opgeslagen betalings &#x200B;](../stores-purchase/stored-payment-methods.md) methode met toegelaten kluis.
 
   De volgende betalingsmethoden kunnen worden gebruikt om beveiligde toegang tot opgeslagen creditcardgegevens te bieden:
 
-   - [ de Kredietkaarten van Braintree ](braintree.md) (De Onmiddellijke Aankoop kan niet met de Kredietkaarten van Braintree worden gebruikt als 3D Veilig wordt toegelaten.)
+   - [&#x200B; de Kredietkaarten van Braintree &#x200B;](braintree.md) (De Onmiddellijke Aankoop kan niet met de Kredietkaarten van Braintree worden gebruikt als 3D Veilig wordt toegelaten.)
    - [Braintree met PayPal ingeschakeld](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -38,7 +38,7 @@ _Onmiddellijke Aankoop_ staat klanten toe om door het controleproces te versnell
 
 1. Hiermee selecteert u de gewenste opties en klikt u op **[!UICONTROL Instant Purchase]** .
 
-   ![ de dialoog van de Bevestiging om de onmiddellijke aankoop te bevestigen ](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
+   ![&#x200B; de dialoog van de Bevestiging om de onmiddellijke aankoop te bevestigen &#x200B;](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
 
 1. Hiermee controleert u de **[!UICONTROL Instant Purchase Confirmation]** informatie en klikt u op **[!UICONTROL OK]** om de transactie te voltooien.
 
@@ -57,15 +57,15 @@ U kunt Direct aanschaffen met Braintree of Betalingsservices voor Adobe Commerce
 Leer hoe u de betalingsmethode configureert en archivering voor Braintree of Betalingsservices inschakelt:
 
 - [Braintree](braintree.md)
-- [ documentatie van de Diensten van de Betaling ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
+- [&#x200B; documentatie van de Diensten van de Betaling &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
 
 ### Stap 3: Directe aankoop inschakelen
 
 1. Kies **[!UICONTROL Sales]** in het linkerdeelvenster onder de sectie _[!UICONTROL Sales]_.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Instant Purchase]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Instant Purchase]** sectie uit.
 
-1. Als deze verandering voor een specifieke opslagmening is, [ kies de opslagmening ](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
+1. Als deze verandering voor een specifieke opslagmening is, [&#x200B; kies de opslagmening &#x200B;](../configuration-reference/scope-change.md#set-the-scope) waar de configuratie van toepassing is.
 
    Klik op **[!UICONTROL OK]** als u daarom wordt gevraagd om door te gaan.
 
@@ -75,9 +75,9 @@ Leer hoe u de betalingsmethode configureert en archivering voor Braintree of Bet
 
    De knoptekst kan voor elke winkelweergave of taal worden gewijzigd. Standaard is de knoptekst `Instant Purchase` .
 
-   ![ Configuratie - onmiddellijke aankoopopties ](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuratie - onmiddellijke aankoopopties &#x200B;](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Onmiddellijke Aankoop ](../configuration-reference/sales/sales.md#instant-purchase) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Onmiddellijke Aankoop &#x200B;](../configuration-reference/sales/sales.md#instant-purchase) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]**.
 

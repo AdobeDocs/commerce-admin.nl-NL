@@ -12,8 +12,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Gehandicapte eigenschap:** de Steun wordt onbruikbaar gemaakt door gebrek. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _onderwerp van de Gids van de Installatie 0&rbrace; om steunen toe te laten: [ file en rol terug het dossiersysteem, media, en gegevensbestand ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=nl-NL)._
+>**Gehandicapte eigenschap:** de Steun wordt onbruikbaar gemaakt door gebrek. Voor het inschakelen van deze functie is mogelijk hulp van de ontwikkelaar vereist. Zie het volgende _onderwerp van de Gids van de Installatie 0&rbrace; om steunen toe te laten: [&#x200B; file en rol terug het dossiersysteem, media, en gegevensbestand &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=nl-NL)._
 
 >[!NOTE]
 >
->**bericht van de Verdringing:** De reserve eigenschappen worden afgekeurd vanaf v2.3.0. Het wordt geadviseerd dat alle handelaren extra reservetechnologieën en binaire reservehulpmiddelen (zoals [[!DNL Percona XtraBackup] onderzoeken ](https://www.percona.com/software/mysql-database/percona-xtrabackup)).
+>**bericht van de Verdringing:** De reserve eigenschappen worden afgekeurd vanaf v2.3.0. Het wordt geadviseerd dat alle handelaren extra reservetechnologieën en binaire reservehulpmiddelen (zoals [[!DNL Percona XtraBackup] onderzoeken &#x200B;](https://www.percona.com/software/mysql-database/percona-xtrabackup)).

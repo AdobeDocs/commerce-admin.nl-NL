@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De attributen van de klant verstrekken de informatie die wordt vereist om de orde, naleving, en de processen van het klantenbeheer te steunen. Omdat uw zaken uniek zijn, zou u gebieden naast de standaardpunten kunnen nodig hebben die door het systeem worden verstrekt. U kunt aangepaste kenmerken toevoegen aan de gedeelten Accountinformatie, Adresboek en Factureringsgegevens van de account van de klant. Klant [ adresattributen ](address-attributes.md) kunnen ook in de _sectie van de Informatie van de Facturering_ tijdens controle worden gebruikt, of wanneer de gasten voor een rekening registreren.
+De attributen van de klant verstrekken de informatie die wordt vereist om de orde, naleving, en de processen van het klantenbeheer te steunen. Omdat uw zaken uniek zijn, zou u gebieden naast de standaardpunten kunnen nodig hebben die door het systeem worden verstrekt. U kunt aangepaste kenmerken toevoegen aan de gedeelten Accountinformatie, Adresboek en Factureringsgegevens van de account van de klant. Klant [&#x200B; adresattributen &#x200B;](address-attributes.md) kunnen ook in de _sectie van de Informatie van de Facturering_ tijdens controle worden gebruikt, of wanneer de gasten voor een rekening registreren.
 
-![ Attributen van de Klant ](./assets/attributes-customer.png){width="700" zoomable="yes"}
+![&#x200B; Attributen van de Klant &#x200B;](./assets/attributes-customer.png){width="700" zoomable="yes"}
 
 ## Stap 1: Voltooi de eigenschappen van het kenmerk
 
@@ -24,7 +24,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Attribute]** .
 
-   ![ de attributeneigenschappen van de Klant ](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
+   ![&#x200B; de attributeneigenschappen van de Klant &#x200B;](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie **[!UICONTROL Attribute Properties]** :
 
@@ -47,9 +47,9 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
      | `Text Field` | Een tekstveld met één regel. |
      | `Text Area` | Een invoerveld met meerdere regels voor het invoeren van tekstalinea&#39;s, zoals een productbeschrijving. U kunt de WYSIWYG-editor gebruiken om de tekst op te maken met HTML-tags of u kunt de tags rechtstreeks in de tekst invoeren. |
      | `Multiple Line` | Hiermee maakt u meerdere tekstregels voor het kenmerk, vergelijkbaar met een adres voor meerdere regels. Het aantal afzonderlijke gegevensinvoerregels kan tussen twee en twintig liggen. Gebruik `Default Value` om de beginwaarde van het veld op te geven. |
-     | `Date` | Hiermee geeft u een datumwaarde weer in de datumnotatie en tijdzone van de voorkeur. De waarden van de datum kunnen van een lijst of een kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [ Datum en tijdopties ](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Hiermee geeft u een datumwaarde weer in de datumnotatie en tijdzone van de voorkeur. De waarden van de datum kunnen van een lijst of een kalender ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png) worden geselecteerd). <br/><br/>**_Nota:_**&#x200B;afhankelijk van uw systeemconfiguratie,_ Admin _de gebruikers kunnen data in een gebied direct ingaan of een datum van de kalender of de lijst selecteren. Voor informatie over het specificeren van datum en tijdwaarden, zie [&#x200B; Datum en tijdopties &#x200B;](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Hiermee geeft u een vervolgkeuzelijst weer met vooraf gedefinieerde opties `Yes` en `No` . |
-     | `Dropdown` | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [ configureerbare producten ](../catalog/product-create-configurable.md). |
+     | `Dropdown` | Hiermee wordt een vervolgkeuzelijst met waarden weergegeven waarin slechts één selectie wordt geaccepteerd. Het Dropdown inputtype is een zeer belangrijke component van [&#x200B; configureerbare producten &#x200B;](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Een vervolgkeuzelijst waarin meerdere waarden kunnen worden geselecteerd. |
      | `File (attachment)` | Een veld waarin een bestand kan worden geüpload en dat is gekoppeld aan het kenmerk van de klant als bijlage. |
      | `Image File` | Een veld waarmee een afbeelding naar de galerie kan worden geüpload en dat is gekoppeld aan het kenmerk van de klant. |
@@ -91,13 +91,13 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 
    - Als u het raster Klanten op dit kenmerk wilt doorzoeken, stelt u **[!UICONTROL Use in Search Options]** in op `Yes` .
 
-   - Om dit attribuut beschikbaar te maken aan [ klantensegmenten ](customer-segments.md), plaats **[!UICONTROL Use in Customer Segment]** aan `Yes`.
+   - Om dit attribuut beschikbaar te maken aan [&#x200B; klantensegmenten &#x200B;](customer-segments.md), plaats **[!UICONTROL Use in Customer Segment]** aan `Yes`.
 
 ## Stap 2: Voltooi de storefront-eigenschappen
 
 1. Schuif omlaag naar de sectie **[!UICONTROL Storefront Properties]** .
 
-   ![ de attributen van de Klant - storefront eigenschappen ](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; de attributen van de Klant - storefront eigenschappen &#x200B;](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Als u het kenmerk zichtbaar wilt maken voor klanten, stelt u **[!UICONTROL Show on Storefront]** in op `Yes` .
 
@@ -113,11 +113,11 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 
 1. Kies **[!UICONTROL Manage Labels/Options]** in het linkerdeelvenster.
 
-1. Onder **[!UICONTROL Manage Titles]**, ga een etiket in om de attributen voor elke [ opslagmening ](../getting-started/websites-stores-views.md) te identificeren.
+1. Onder **[!UICONTROL Manage Titles]**, ga een etiket in om de attributen voor elke [&#x200B; opslagmening &#x200B;](../getting-started/websites-stores-views.md) te identificeren.
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.
 
-   ![ de attributen van de Klant - etiketten/opties ](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de attributen van de Klant - etiketten/opties &#x200B;](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
 
 ## Veldomschrijvingen
 
@@ -132,11 +132,11 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 | [!UICONTROL Default Value] | Specifies the initial value of the attribute. |
 | [!UICONTROL Input Validation] | De selectie van opties wordt bepaald door het invoertype. Opties: <br/>**`None`**- Het veld heeft geen invoervalidatie tijdens het invoeren van gegevens.<br/>**`Alphanumeric`** - Accepteert elke combinatie van getallen (0-9) en alfabetische tekens (a-z, A-Z) tijdens de gegevensinvoer. <br/>**`Alphanumeric with Space`**- Hiermee kunnen spaties in het adres van de straat voldoen aan de maximale lengtevereisten van de vervoerder. Tijdens het afrekenen, kan de klant om het even welke combinatie aantallen (0-9), alfabetische karakters (a-z, A-Z), en ruimten in het straatadres van de ontvanger en de afzender ingaan. Eventuele extra spaties worden bijgesneden wanneer het adres wordt opgeslagen.<br/>**`Numeric Only`** - Accepteert alleen getallen (0-9) tijdens gegevensinvoer. <br/>**`Alpha Only`**- Accepteert alleen alfabetische tekens (a-z, A-Z) tijdens gegevensinvoer.<br/>**`URL`** - Accepteert alleen een URL tijdens gegevensinvoer. <br/>**`Email`**- Accepteert alleen een e-mailadres tijdens gegevensinvoer.<br/>**`Length Only`** - Valideert de invoer op basis van de lengte van de gegevens die in het veld zijn ingevoerd. |
 | [!UICONTROL Input/Output Filter] | Hiermee past u een voorbewerkingsfilter toe op waarden die zijn ingevoerd in een tekstveld, tekstgebied of invoertype voor meerdere regels voordat de record wordt opgeslagen. Opties: <br/>**`None`**- past geen filter toe op tekst die in het veld wordt ingevoerd.<br/>**`Strip HTML Tags`** - Hiermee verwijdert u HTML-tags uit de tekst. Met dit filter kunt u gegevens opschonen die in een veld worden geplakt vanuit een andere bron die HTML-tags bevat. <br/>**`Escape HTML Entities`**- Hiermee converteert u speciale tekens uit de tekst naar een geldige HTML-escapereeks, zoals `amp;` . Escape-reeksen worden ingesloten tussen een ampersand en een puntkomma en worden vaak gebruikt voor slimme aanhalingstekens, copyrightsymbolen en handelsmerken van typografische tekens. Escape-reeksen worden ook gebruikt om tekens zoals de symbolen kleiner dan (`<`) en groter dan (`>` ) te identificeren, en het ampersand-teken dat ook in de code wordt gebruikt. Met dit filter kunt u speciale tekens opschonen die soms door tekstverwerkers in databasevelden worden geplakt. |
-| [!UICONTROL Add to Column Options] | Specificeert als het attribuut als kolom in het [ net van Klanten ](customers-all.md) inbegrepen is. Opties: `Yes` / `No` |
+| [!UICONTROL Add to Column Options] | Specificeert als het attribuut als kolom in het [&#x200B; net van Klanten &#x200B;](customers-all.md) inbegrepen is. Opties: `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | Geeft aan of het kenmerk kan worden gebruikt als filter voor zoekbewerkingen vanuit het raster. Opties: `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | Geeft de filterovereenkomende voorwaarden voor kenmerken voor zoekbewerkingen uit het raster op. Het beïnvloedt niet het _Onderzoek door sleutelwoord_ gebied voor het net. Opties: `Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | Geeft aan of de kenmerkwaarde kan worden gebruikt als een trefwoord in zoekbewerkingen. Opties: `Yes` / `No` |
-| [!UICONTROL Use in Customer Segment] | Bepaalt als het attribuut in [ klantensegment ](customer-segments.md) voorwaarden inbegrepen is. Opties: `Yes` / `No` |
+| [!UICONTROL Use in Customer Segment] | Bepaalt als het attribuut in [&#x200B; klantensegment &#x200B;](customer-segments.md) voorwaarden inbegrepen is. Opties: `Yes` / `No` |
 
 ### [!UICONTROL Storefront Properties]
 
@@ -156,7 +156,7 @@ De attributen van de klant verstrekken de informatie die wordt vereist om de ord
 | `store_id` | De winkel-id van de site waar de klantenaccount is gemaakt. |
 | `created_in` | De winkelweergave waar het account is gemaakt. |
 | `group_id` | De id van de klantengroep waaraan de klant is toegewezen. |
-| `disable_auto_group_change` | Bepaalt als de klantengroepen dynamisch tijdens [ bevestiging van identiteitskaart van BTW ](../stores-purchase/vat.md#configure-vat-id-validation) kunnen worden toegewezen. |
+| `disable_auto_group_change` | Bepaalt als de klantengroepen dynamisch tijdens [&#x200B; bevestiging van identiteitskaart van BTW &#x200B;](../stores-purchase/vat.md#configure-vat-id-validation) kunnen worden toegewezen. |
 | `prefix` | Elk voorvoegsel dat met de naam van de klant wordt gebruikt (zoals Mr., Mw. of Dr.). |
 | `firstname` | De voornaam van de klant. |
 | `middlename` | De middelste naam of middelste startnaam van de klant. |

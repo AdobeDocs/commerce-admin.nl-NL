@@ -20,7 +20,7 @@ De geplande invoer en de uitvoer kunnen op een dagelijkse, wekelijkse, of maandb
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**.
 
-   ![ Geplande gegevensinvoer/uitvoer ](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
+   ![&#x200B; Geplande gegevensinvoer/uitvoer &#x200B;](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
 1. Als u een nieuwe geplande import- of exporttaak wilt maken, klikt u op de betreffende knop en volgt u de instructies voor het type geplande taak.
 
@@ -97,7 +97,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
    - **[!UICONTROL Multiple Value Separator]** — Voer het teken in dat wordt gebruikt om meerdere waarden in een veld van elkaar te scheiden.
 
-   ![ de invoer van Gegevens - geplande de invoermontages ](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de invoer van Gegevens - geplande de invoermontages &#x200B;](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
 
 ### Stap 2: de gegevens van het importbestand invullen
 
@@ -106,7 +106,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
    - `Local Server` - Hiermee importeert u de gegevens van dezelfde server als waarop Adobe Commerce is geïnstalleerd.
    - `Remote FTP` - Hiermee importeert u de gegevens van een externe server.
 
-   ![ Invoer van Gegevens - de geplande informatie van het de invoerdossier ](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Invoer van Gegevens - de geplande informatie van het de invoerdossier &#x200B;](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 ### Stap 3: het importeren van mislukte e-mails configureren
 
-![ de invoer van Gegevens - ontbroken invoer gefiëerde e-mails ](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
+![&#x200B; de invoer van Gegevens - ontbroken invoer gefiëerde e-mails &#x200B;](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Failed Email Receiver]** in op de contactpersoon van de winkel die een melding ontvangt als er een fout optreedt tijdens het importeren.
 
@@ -194,7 +194,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 ## Een exportbewerking plannen
 
-De geplande Uitvoer is gelijkaardig aan een handmatige [ Uitvoer ](data-export.md) in het beschikbare formaat van het de uitvoerdossier en types van entiteiten die kunnen worden uitgevoerd:
+De geplande Uitvoer is gelijkaardig aan een handmatige [&#x200B; Uitvoer &#x200B;](data-export.md) in het beschikbare formaat van het de uitvoerdossier en types van entiteiten die kunnen worden uitgevoerd:
 
 - U kunt exporteren naar de CSV-indeling
 - U kunt product- en klantgegevens exporteren
@@ -238,7 +238,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 
 1. Accepteer `CSV` als de standaardwaarde **[!UICONTROL File Format]** .
 
-   ![ Geplande de uitvoermontages ](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Geplande de uitvoermontages &#x200B;](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
 
 ### Stap 2: de gegevens van het exportbestand invullen
 
@@ -247,7 +247,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
    - `Local Server` - Het exportbestand opslaan op dezelfde server als Commerce.
    - `Remote FTP` — Het exportbestand opslaan op een externe server.
 
-   ![ Geplande de informatie van het de uitvoerdossier ](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Geplande de informatie van het de uitvoerdossier &#x200B;](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >

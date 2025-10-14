@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wanneer toegelaten, kan reorders direct van de klantenrekening of van de originele orde in _Admin_ worden gemaakt. Herstellingen zijn standaard ingeschakeld.
 
-![ Klante reorder verbinding in Admin ](./assets/customer-reorder.png){width="700" zoomable="yes"}
+![&#x200B; Klante reorder verbinding in Admin &#x200B;](./assets/customer-reorder.png){width="700" zoomable="yes"}
 
 ## Criteria voor het inschakelen van de volgorde van een bestelling
 
@@ -32,9 +32,9 @@ Wanneer toegelaten, kan reorders direct van de klantenrekening of van de origine
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Reorder]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Reorder]** sectie uit.
 
-   ![ herschikt opties ](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
+   ![&#x200B; herschikt opties &#x200B;](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Allow Reorder]** in op `Yes` .
 
@@ -54,13 +54,13 @@ Een klant kan de functionaliteit voor opnieuw ordenen voor een specifieke volgor
 
 De _herschikt_ knoop wordt altijd getoond in de lijst met Worden (zelfs als alle producten van de orde niet beschikbaar voor reorder zijn).
 
-![ storefront van het Voorbeeld - Mijn pagina van Orden ](./assets/my-order-page-view.png){width="700" zoomable="yes"}
+![&#x200B; storefront van het Voorbeeld - Mijn pagina van Orden &#x200B;](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
 **Geval 1.** Alle producten van de orde zijn **beschikbaar** voor reorder
 
 De gebruiker wordt omgeleid naar de kar en alle producten worden toegevoegd aan de kar
 
-![ Shopping kar ](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
+![&#x200B; Shopping kar &#x200B;](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
 
 **Geval 2.** Sommige/alle producten van de orde zijn **niet beschikbaar** voor reorder
 
@@ -70,7 +70,7 @@ De gebruiker wordt omgeleid naar de kar en alle producten worden toegevoegd aan 
 
 De _herschikt_ knoop verschijnt niet op _Mijn Orden_ en _Volgorde van de Mening_ pagina&#39;s.
 
-![ Mijn Orden pagina 1 ](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![&#x200B; Mijn Orden pagina 1 &#x200B;](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### Weergavepagina Volgorde
 
@@ -86,13 +86,13 @@ De gebruiker wordt omgeleid naar de kar en alle producten worden toegevoegd aan 
 
 De _herschikt_ knoop verschijnt niet op _Mijn Orden_ en _Volgorde van de Mening_ pagina&#39;s.
 
-![ de detailpagina van de Orde ](./assets/order-view-page.png){width="700" zoomable="yes"}
+![&#x200B; de detailpagina van de Orde &#x200B;](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### Winkelwagentje is niet leeg
 
 Als het karretje niet leeg is en de gebruiker **[!UICONTROL Reorder]** klikt (van _Mijn Orden_ of _de pagina van de Mening van de Orde_), blijven de bestaande producten in het karretje met toegevoegde reorder producten.
 
-![ opnieuw rangschikt punten ](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
+![&#x200B; opnieuw rangschikt punten &#x200B;](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## Opnieuw ordenen via de beheerder
 
@@ -102,11 +102,11 @@ Als het karretje niet leeg is en de gebruiker **[!UICONTROL Reorder]** klikt (va
 
 1. Klik op **[!UICONTROL Reorder]** dat wordt weergegeven in de bovenste knopbalk.
 
-   ![ de details van de Orde in Admin ](./assets/order-view-admin.png){width="600" zoomable="yes"}
+   ![&#x200B; de details van de Orde in Admin &#x200B;](./assets/order-view-admin.png){width="600" zoomable="yes"}
 
    Nadat u **[!UICONTROL Reorder]** klikt, _creeer Nieuwe Orde_ pagina met reorder producten opent.
 
-   ![ creeer reorder ](./assets/create-reorder-page.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer reorder &#x200B;](./assets/create-reorder-page.png){width="600" zoomable="yes"}
 
 1. Vul alle vereiste velden naar wens in.
 

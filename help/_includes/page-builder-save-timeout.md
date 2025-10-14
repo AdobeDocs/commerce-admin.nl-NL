@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u significante veranderingen in [!DNL Page Builder] inhoud aanbrengt, adviseert men dat u het [ Levenslang van de Zitting Admin ](../systems/security-admin.md) verhoogt om de zitting te verhinderen uit timing terwijl u werkt.
+>Als u significante veranderingen in [!DNL Page Builder] inhoud aanbrengt, adviseert men dat u het [&#x200B; Levenslang van de Zitting Admin &#x200B;](../systems/security-admin.md) verhoogt om de zitting te verhinderen uit timing terwijl u werkt.

@@ -14,11 +14,11 @@ ht-degree: 0%
 
 FedEx is een van &#39;s werelds grootste scheepvaartmaatschappijen die lucht-, vracht- en grondvaartdiensten met verschillende prioriteitsniveaus aanbieden.
 
-![ Verzendopties FedEx bij Afhandeling ](./assets/storefront-checkout-shipping-fedex.png)
+![&#x200B; Verzendopties FedEx bij Afhandeling &#x200B;](./assets/storefront-checkout-shipping-fedex.png)
 
 >[!NOTE]
 >
->FedEx kan [ dimensionaal gewicht ](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen berekening van verzendkosten op basis van gewicht.
+>FedEx kan [&#x200B; dimensionaal gewicht &#x200B;](carriers.md#dimensional-weight) gebruiken om sommige het verschepen tarieven te bepalen. Adobe Commerce en Magento Open Source ondersteunen echter alleen berekening van verzendkosten op basis van gewicht.
 
 ## Stap 1: Register voor de Productie van de Diensten van het Web FedEx
 
@@ -34,7 +34,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL FedEx]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL FedEx]** sectie uit.
 
 1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
@@ -61,7 +61,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
    >
    >Stel de sandboxmodus in op `No` wanneer u FedEx als verzendmethode aan uw klanten wilt aanbieden.
 
-   ![ de Montages van de Rekening FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png)
+   ![&#x200B; de Montages van de Rekening FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png)
 
 ## Stap 3: Verpakkings- en verpakkingskosten
 
@@ -89,9 +89,9 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
 1. Voer de **[!UICONTROL Maximum Package Weight]** in die is toegestaan voor FedEx-verzendingen.
 
-   Het standaard FedEx maximumgewicht is 150 lbs. Raadpleeg uw verzendende maatschappij voor meer informatie. De standaardwaarde wordt aanbevolen, tenzij u speciale regelingen hebt getroffen met FedEx. Zie [ Afmetingen gewicht ](carriers.md#dimensional-weight) voor meer informatie.
+   Het standaard FedEx maximumgewicht is 150 lbs. Raadpleeg uw verzendende maatschappij voor meer informatie. De standaardwaarde wordt aanbevolen, tenzij u speciale regelingen hebt getroffen met FedEx. Zie [&#x200B; Afmetingen gewicht &#x200B;](carriers.md#dimensional-weight) voor meer informatie.
 
-   ![ de Montages van het Pakket FedEx ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png)
+   ![&#x200B; de Montages van het Pakket FedEx &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png)
 
 1. Configureer de opties voor de behandelingskosten naar wens.
 
@@ -114,7 +114,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
    - `Yes` - Voor B2C-residentiële leveringen.
    - `No` - Voor B2B-residentiële leveringen.
 
-   ![ FedEx die de Montages van de Vergoeding ](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png) behandelt
+   ![&#x200B; FedEx die de Montages van de Vergoeding &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png) behandelt
 
 ## Stap 4: Toegestane methoden en toepasselijke landen
 
@@ -130,7 +130,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
    - Slim post-als het aanbieden van de Slimme methode van Post (ga **identiteitskaart van de Hub** in)
    - Goederenopties — Vracht, nationaal goederenvervoer
 
-1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door FedEx wilt verstrekken, plaats de vrije het verschepen opties.
+1. Als u a [&#x200B; Vrij Verschepend &#x200B;](shipping-free.md) optie door FedEx wilt verstrekken, plaats de vrije het verschepen opties.
 
    - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via FedEx wilt aanbieden.
 
@@ -142,11 +142,11 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als FedEx niet beschikbaar is.
 
-   ![ FedEx Toegestane Methoden van de Levering ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png)
+   ![&#x200B; FedEx Toegestane Methoden van de Levering &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png)
 
 1. Instellen **[!UICONTROL Ship to Applicable Countries]** :
 
-   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
 
    - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
@@ -163,7 +163,7 @@ Een FedEx handelaarrekening en registratie voor de Toegang van de Productie van 
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-   ![ FedEx Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png)
+   ![&#x200B; FedEx Toepasselijke Landen &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png)
 
 >[!NOTE]
 >

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Een carrouselwidget voor catalogusgebeurtenissen geeft een schuifregelaar van aanstaande gebeurtenissen weer met een aftellerteken voor elke gebeurtenis. U kunt de pagina&#39;s en het gebied van de paginalay-out kiezen waar u de carrousel wilt verschijnen, en de breedte en het aantal gebeurtenissen bepalen die in één keer verschijnen. Het resultaat dat u krijgt, is afhankelijk van uw thema, waar het wordt geplaatst om op de pagina te verschijnen, en de opties die u kiest.
 
-![ de carrousel van de Gebeurtenis in linkerzijbalk ](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
+![&#x200B; de carrousel van de Gebeurtenis in linkerzijbalk &#x200B;](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
 
 ## Stap 1: De carrouselwidget voor de catalogus inschakelen
 
-Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-configure.md) om de _3&rbrace; widget van de Gebeurtenis van de Catalogus te vormen &lbrace;zodat het voor de storefront wordt toegelaten._
+Alvorens u begint, volg de [&#x200B; instructies &#x200B;](../merchandising-promotions/event-configure.md) om de _3&rbrace; widget van de Gebeurtenis van de Catalogus te vormen &lbrace;zodat het voor de storefront wordt toegelaten._
 
-![ de gebeurtenisconfiguratie van de Catalogus ](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
+![&#x200B; de gebeurtenisconfiguratie van de Catalogus &#x200B;](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
 ## Stap 2: De widget maken
 
@@ -39,7 +39,7 @@ Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-con
 
 1. Klik op **[!UICONTROL Continue]**.
 
-   ![ montages van Widget voor een gebeurteniscarrousel ](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; montages van Widget voor een gebeurteniscarrousel &#x200B;](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
 1. Ga als volgt te werk in de sectie _[!UICONTROL Storefront Properties]_:
 
@@ -53,7 +53,7 @@ Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-con
 
    - (Optioneel) Voer bij **[!UICONTROL Sort Order]** een getal in om te bepalen in welke volgorde dit item bij anderen in hetzelfde gedeelte van de pagina wordt weergegeven. (`0` = first, `1` = second, `3` = third, enzovoort.)
 
-     ![ de storefront eigenschappen van Widget ](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
+     ![&#x200B; de storefront eigenschappen van Widget &#x200B;](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Stap 3: Kies de locatie
 
@@ -75,7 +75,7 @@ Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-con
 
 1. Als u wilt dat de gebeurteniscarrousel op een andere locatie in de winkel wordt weergegeven, klikt u op **[!UICONTROL Add Layout Update]** en herhaalt u deze stappen voor die locatie.
 
-   ![ de updates van de Lay-out ](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; de updates van de Lay-out &#x200B;](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
@@ -97,7 +97,7 @@ Alvorens u begint, volg de [ instructies ](../merchandising-promotions/event-con
 
    Op de volgende voorbeeldpagina is de aangepaste breedte ingesteld op 250 pixels.
 
-   ![ de opties van de breedte van de Douane widget ](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
+   ![&#x200B; de opties van de breedte van de Douane widget &#x200B;](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 

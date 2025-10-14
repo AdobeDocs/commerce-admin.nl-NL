@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Creërend een klantensegment is gelijkaardig aan de bouw van de regel van de a [ kartprijs ](../merchandising-promotions/price-rules-cart.md), behalve dat omvatten de opties [ klant segment-specifieke attributen ](../customers/customer-segments.md).
+Creërend een klantensegment is gelijkaardig aan de bouw van de regel van de a [&#x200B; kartprijs &#x200B;](../merchandising-promotions/price-rules-cart.md), behalve dat omvatten de opties [&#x200B; klant segment-specifieke attributen &#x200B;](../customers/customer-segments.md).
 
-![ de segmentlijst van de Klant ](assets/customer-segments.png){width="700" zoomable="yes"}
+![&#x200B; de segmentlijst van de Klant &#x200B;](assets/customer-segments.png){width="700" zoomable="yes"}
 
 _&#x200B;**[!UICONTROL Customer Segments]grid &#x200B;** _
 
@@ -39,7 +39,7 @@ _&#x200B;**[!UICONTROL Customer Segments]grid &#x200B;** _
 
 1. Controleer of **[!UICONTROL Enable Customer Segment Functionality]** is ingesteld op `Yes` .
 
-   ![ configuratie van Klanten - klantensegmenten ](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - klantensegmenten &#x200B;](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
 1. (Optioneel) Als u realtime validatie voor klantsegmenten wilt uitschakelen, stelt u **[!UICONTROL Real-time Check if Customer is Matched by Segment]** in op `No` .
 
@@ -84,7 +84,7 @@ De volgende stappen gebruiken een voorbeeld voor het creëren van een klantenseg
 
    Nadat u het segment hebt opgeslagen _[!UICONTROL General Properties]_, worden aanvullende opties beschikbaar in het linkerdeelvenster.
 
-   ![ eigenschappen van het Segment ](assets/customer-segment-saved.png){width="600" zoomable="yes"}
+   ![&#x200B; eigenschappen van het Segment &#x200B;](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
 **_[!UICONTROL General Properties]_**
 
@@ -117,7 +117,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
    De standaardvoorwaarde begint met _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;op de pagina.
 
-   ![ Voorwaarden ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorwaarden &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. Maak een voorwaarde die gericht is op vrouwelijke klanten:
 
@@ -127,7 +127,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
    - Klik op **...** en selecteer `female` .
 
-   ![ lijn 1 van de Voorwaarde 1 ](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
+   ![&#x200B; lijn 1 van de Voorwaarde 1 &#x200B;](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. Maak een andere voorwaarde die geldt voor inwoners van Los Angeles:
 
@@ -147,7 +147,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
    - Klik op **...** en selecteer `United States > California` .
 
-   ![ Voorwaarden voor vrouwtjes in Los Angeles, Californië ](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorwaarden voor vrouwtjes in Los Angeles, Californië &#x200B;](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save and Continue Edit]**.
 
@@ -155,7 +155,7 @@ De mogelijke voorwaarden worden in de volgende groepen georganiseerd:
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Matched Customers]** om alle klanten weer te geven die aan de voorwaarde voldoen.
 
-   ![ Gelijke klanten ](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
+   ![&#x200B; Gelijke klanten &#x200B;](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
 
 1. Als de lijst met klanten aan uw doel voldoet, klikt u op **[!UICONTROL Save]** om het klantsegment te voltooien.
 

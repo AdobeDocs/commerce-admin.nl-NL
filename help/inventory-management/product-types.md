@@ -14,9 +14,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management] ondersteunt inventarisatie- en orderbeheer voor alle producttypen in Adobe Commerce en Magento Open Source: eenvoudig, configureerbaar, virtueel, downloadbaar, bundel en gegroepeerd. De opties en vereisten kunnen per producttype voor bronnen, voorraden en verzending verschillen.
 
-- [ Single-source handelaars ](merchant-sourcing.md#single-source-merchants) creeer en werk productmontages en hoeveelheden bij zonder extra updates te vereisen. Alle gemaakte en nieuw geïmporteerde producten worden automatisch toegewezen aan de standaard-Source en de standaardvoorraad, die direct beschikbaar zijn voor klanten als deze zijn ingeschakeld en in voorraad.
+- [&#x200B; Single-source handelaars &#x200B;](merchant-sourcing.md#single-source-merchants) creeer en werk productmontages en hoeveelheden bij zonder extra updates te vereisen. Alle gemaakte en nieuw geïmporteerde producten worden automatisch toegewezen aan de standaard-Source en de standaardvoorraad, die direct beschikbaar zijn voor klanten als deze zijn ingeschakeld en in voorraad.
 
-- [ Multisource handelaren ](merchant-sourcing.md#multi-source-merchants) wijzen bronnen, hoeveelheden per bron, en montages tijdens of na productverwezenlijking toe. [!DNL Commerce] wijst alle nieuw geïmporteerde producten toe aan de standaard-Source, waardoor extra bewerkingen nodig zijn om bronnen en hoeveelheden toe te wijzen.
+- [&#x200B; Multisource handelaren &#x200B;](merchant-sourcing.md#multi-source-merchants) wijzen bronnen, hoeveelheden per bron, en montages tijdens of na productverwezenlijking toe. [!DNL Commerce] wijst alle nieuw geïmporteerde producten toe aan de standaard-Source, waardoor extra bewerkingen nodig zijn om bronnen en hoeveelheden toe te wijzen.
 
 | Producttype | Algoritme voor verzending en Source-selectie |
 |--|--|

@@ -30,7 +30,7 @@ Bij het omzetten van een valuta in punten kan het aantal punten niet worden gede
 
 ## Wisselkoersen instellen
 
-![ Wisselkoersen van de Winst ](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
+![&#x200B; Wisselkoersen van de Winst &#x200B;](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
 
@@ -38,7 +38,7 @@ Bij het omzetten van een valuta in punten kan het aantal punten niet worden gede
 
 1. Ga als volgt te werk in de sectie **[!UICONTROL Reward Exchange Rate Information]** :
 
-   ![ Wisselkoersen van de Winst - informatie ](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Wisselkoersen van de Winst - informatie &#x200B;](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Website]** in op de sites waarop de wisselkoers van toepassing is.
 

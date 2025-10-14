@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Om toegang tot ontelbare media activa voor gebruik in uw opslag te krijgen, integreer [ Adobe Stock ][adobe-stock] met [!UICONTROL Commerce].
 
-![ Resultaten van het Onderzoek van Adobe Stock ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
+![&#x200B; Resultaten van het Onderzoek van Adobe Stock &#x200B;](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-De Adobe Stock-service biedt bedrijven toegang tot miljoenen hoogwaardige, gekrulde, royaltyvrije foto&#39;s, vectoren, illustraties, video&#39;s, sjablonen en 3D-middelen voor al hun creatieve projecten. [!DNL Commerce] -gebruikers kunnen snel Adobe Stock-elementen zoeken, voorvertonen en in licentie geven. De gebruikers kunnen hen aan de [ media opslag ](./media-storage.md) ook bewaren, allen zonder de werkruimte te verlaten Admin.
+De Adobe Stock-service biedt bedrijven toegang tot miljoenen hoogwaardige, gekrulde, royaltyvrije foto&#39;s, vectoren, illustraties, video&#39;s, sjablonen en 3D-middelen voor al hun creatieve projecten. [!DNL Commerce] -gebruikers kunnen snel Adobe Stock-elementen zoeken, voorvertonen en in licentie geven. De gebruikers kunnen hen aan de [&#x200B; media opslag &#x200B;](./media-storage.md) ook bewaren, allen zonder de werkruimte te verlaten Admin.
 
 ## Vereisten
 
@@ -35,7 +35,7 @@ Voor licenties voor Adobe Stock-afbeeldingen is het volgende vereist:
 
 Het configureren van de Adobe Stock-integratie voor Adobe Commerce bestaat uit twee stappen:
 
-1. [ creeer een integratie adobe.developer ](#create-an-adobe-developer-integration) om een API Sleutel te produceren
+1. [&#x200B; creeer een integratie adobe.developer &#x200B;](#create-an-adobe-developer-integration) om een API Sleutel te produceren
 1. [De Adobe Stock-integratie configureren in Commerce Admin](#configure-the-adobe-stock-integration)
 
 ### Een Adobe Developer-integratie maken
@@ -80,7 +80,7 @@ Om de systeemconfiguratie in uw [!DNL Commerce] Admin te plaatsen, gebruik _API 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Adobe Stock Integration]** uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Adobe Stock Integration]** uit en doe het volgende:
 
    - Stel **[!UICONTROL Enabled Adobe Stock]** in op `Yes` .
 
@@ -90,7 +90,7 @@ Om de systeemconfiguratie in uw [!DNL Commerce] Admin te plaatsen, gebruik _API 
 
    - Klik op **[!UICONTROL Test Connection]** om uw toetsen te valideren.
 
-   ![ Geavanceerde configuratie - de integratie van Adobe Stock ](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - de integratie van Adobe Stock &#x200B;](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
    Geef de validatie een paar seconden. Als uw geloofsbrieven geldig zijn, zou u een groene _Succesvolle Verbinding moeten zien!_ -bericht.
 

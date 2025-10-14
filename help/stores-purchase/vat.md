@@ -22,11 +22,11 @@ Commerce kan worden geconfigureerd om een belasting over de toegevoegde waarde i
 
 - Een bedrijf in Nederland dat een aankoop doet van een winkel in het VK die naar een adres in het VK wordt verscheept, is verplicht BTW-tarieven in het VK te betalen.
 
-- Voor de verkoop van [ downloadbare producten ](../catalog/product-create-downloadable.md), of _digitale goederen_, is het tarief van de BTW gebaseerd op de verzendende bestemming, eerder dan de handelaarplaats. Zie [ Plaats van levering voor digitale goederen ](taxes.md#place-of-supply-for-digital-goods-eu).
+- Voor de verkoop van [&#x200B; downloadbare producten &#x200B;](../catalog/product-create-downloadable.md), of _digitale goederen_, is het tarief van de BTW gebaseerd op de verzendende bestemming, eerder dan de handelaarplaats. Zie [&#x200B; Plaats van levering voor digitale goederen &#x200B;](taxes.md#place-of-supply-for-digital-goods-eu).
 
 >[!TIP]
 >
->Sommige grensoverschrijdende en B2B-overbrengingen hebben complexere belastingvereisten. Om de inheemse mogelijkheden van uw installatie van Commerce uit te breiden, overweeg toevoegend een oplossing van het belastingbeheer van de [ Marketplace ](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
+>Sommige grensoverschrijdende en B2B-overbrengingen hebben complexere belastingvereisten. Om de inheemse mogelijkheden van uw installatie van Commerce uit te breiden, overweeg toevoegend een oplossing van het belastingbeheer van de [&#x200B; Marketplace &#x200B;](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
 
 ## BTW configureren
 
@@ -36,7 +36,7 @@ De volgende instructies omvatten een steekproefprocedure om een BTW van 20% in h
 >
 >Voordat u verdergaat, moet u weten welke regels en regels van toepassing zijn op de BTW in uw gebied.
 
-Bij bepaalde business-to-business transacties wordt de btw niet beoordeeld. Commerce kan het BTW-identificatienummer van een klant valideren om ervoor te zorgen dat de btw correct wordt beoordeeld (of niet wordt beoordeeld). Zie [ de bevestiging van identiteitskaart van BTW ](#vat-id-validation).
+Bij bepaalde business-to-business transacties wordt de btw niet beoordeeld. Commerce kan het BTW-identificatienummer van een klant valideren om ervoor te zorgen dat de btw correct wordt beoordeeld (of niet wordt beoordeeld). Zie [&#x200B; de bevestiging van identiteitskaart van BTW &#x200B;](#vat-id-validation).
 
 ### Stap 1: Klantbelastingklassen instellen
 
@@ -44,7 +44,7 @@ Het proces om een belastingregel tot stand te brengen begint door een belastingt
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-   ![ de belastingklassen van de Opstelling klant ](./assets/vat-zones.png){width="600" zoomable="yes"}
+   ![&#x200B; de belastingklassen van de Opstelling klant &#x200B;](./assets/vat-zones.png){width="600" zoomable="yes"}
 
 1. Zorg ervoor dat er een klasse van de klantenbelasting is die geschikt om met de BTW te gebruiken is.
 
@@ -70,9 +70,9 @@ Op basis van het verzonden BTW-tarief kunt u volgende belastingregels maken. Bij
 
 1. Klik op **[!UICONTROL Add New Tax Rule]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Additional Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Additional Settings]** sectie uit.
 
-   ![ de klassen van de de productbelasting van de opstelling ](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de klassen van de de productbelasting van de opstelling &#x200B;](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
 1. Onder _Klasse van de Belasting van het Product_, klik **[!UICONTROL Add New Tax Class]**.
 
@@ -94,7 +94,7 @@ Op basis van het verzonden BTW-tarief kunt u volgende belastingregels maken. Bij
 
 1. Klik op **[!UICONTROL Add New Tax Rate]**.
 
-   ![ de belastingstreken en tarieven van de opstelling ](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+   ![&#x200B; de belastingstreken en tarieven van de opstelling &#x200B;](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 1. Definieer de nieuwe tarieven als volgt:
 
@@ -146,21 +146,21 @@ Een belastingregel is een combinatie van een klasse van de klantenbelasting, een
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-   ![ pas belastingklassen op producten ](./assets/vat-apply-classes.png){width="600" zoomable="yes"} toe
+   ![&#x200B; pas belastingklassen op producten &#x200B;](./assets/vat-apply-classes.png){width="600" zoomable="yes"} toe
 
 ## Veldomschrijvingen
 
 ### Winkelgegevens
 
-Commerce gebruikt de volgende [ de configuratiemontages van de Informatie van de Opslag ](../configuration-reference/general/general.md#store-information) om BTW te berekenen die op handelsinformatie wordt gebaseerd.
+Commerce gebruikt de volgende [&#x200B; de configuratiemontages van de Informatie van de Opslag &#x200B;](../configuration-reference/general/general.md#store-information) om BTW te berekenen die op handelsinformatie wordt gebaseerd.
 
 **[!UICONTROL VAT Number]** - Het BTW-nummer dat aan de handelaar wordt toegekend.
 
-**[!UICONTROL Validate VAT Number]** - {de bevestiging van 1} BTW [&#128279;](#vat-id-validation) bevestigt dat het btw aantal het overeenkomstige verslag in het [ Europese Commissie ](https://ec.europa.eu/taxation_customs/vies/) gegevensbestand aanpast.
+**[!UICONTROL Validate VAT Number]** - {de bevestiging van 1} BTW [&#128279;](#vat-id-validation) bevestigt dat het btw aantal het overeenkomstige verslag in het [&#x200B; Europese Commissie &#x200B;](https://ec.europa.eu/taxation_customs/vies/) gegevensbestand aanpast.
 
 ### Klantgegevens
 
-Commerce gebruikt de volgende gebieden om BTW te berekenen die op [ klanteninformatie ](../customers/account-dashboard-account-information.md) wordt gebaseerd).
+Commerce gebruikt de volgende gebieden om BTW te berekenen die op [&#x200B; klanteninformatie &#x200B;](../customers/account-dashboard-account-information.md) wordt gebaseerd).
 
 #### Accountgegevens
 
@@ -168,15 +168,15 @@ Commerce gebruikt de volgende gebieden om BTW te berekenen die op [ klanteninfor
 
 #### Adressen
 
-**[!UICONTROL VAT Number]** - Indien van toepassing, het BTW-nummer dat is gekoppeld aan een specifiek factuuradres of verzendadres van de klant. Voor de verkoop van [ digitale goederen ](taxes.md#place-of-supply-for-digital-goods-eu)) binnen de EU, is het bedrag van de BTW gebaseerd op verzendbestemming.
+**[!UICONTROL VAT Number]** - Indien van toepassing, het BTW-nummer dat is gekoppeld aan een specifiek factuuradres of verzendadres van de klant. Voor de verkoop van [&#x200B; digitale goederen &#x200B;](taxes.md#place-of-supply-for-digital-goods-eu)) binnen de EU, is het bedrag van de BTW gebaseerd op verzendbestemming.
 
 ### Klantenaccount
 
-Commerce gebruikt de volgende [ montages van de klantenconfiguratie ](../customers/account-options-new.md) om BTW te berekenen.
+Commerce gebruikt de volgende [&#x200B; montages van de klantenconfiguratie &#x200B;](../customers/account-options-new.md) om BTW te berekenen.
 
 **[!UICONTROL Show VAT Number on Storefront]** - Hiermee wordt bepaald of het veld BTW-nummer van de klant is opgenomen in het adresboek dat beschikbaar is in de klantenaccount.
 
-**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - Het BTW-identificatienummer is een intern identificatienummer voor het BTW-nummer van de klant wanneer dit wordt gebruikt bij BTW-validatie. Tijdens de bevestiging van BTW, bevestigt Commerce dat het aantal het [ gegevensbestand van de Europese Commissie ](https://ec.europa.eu/taxation_customs/vies/) aanpast. Klanten kunnen automatisch worden toegewezen aan een van de vier standaardklantengroepen op basis van de validatieresultaten.
+**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - Het BTW-identificatienummer is een intern identificatienummer voor het BTW-nummer van de klant wanneer dit wordt gebruikt bij BTW-validatie. Tijdens de bevestiging van BTW, bevestigt Commerce dat het aantal het [&#x200B; gegevensbestand van de Europese Commissie &#x200B;](https://ec.europa.eu/taxation_customs/vies/) aanpast. Klanten kunnen automatisch worden toegewezen aan een van de vier standaardklantengroepen op basis van de validatieresultaten.
 
 ## Validatie van BTW-id
 
@@ -211,7 +211,7 @@ Het systeemgedrag betrokken bij de bevestiging van BTW identiteitskaart en de ve
 
 Als de klant Google Express Checkout, PayPal Express Checkout of een andere externe betalingsmethode gebruikt, wordt het afrekenen volledig uitgevoerd aan de zijkant van de externe betaalgateway. Voor dit scenario, bevestigt _op Elke Transactie_ het plaatsen niet kan worden toegepast en de klantengroep kan niet tijdens controle veranderen.
 
-![ Werkschema van de Controle van de Bevestiging van de BTW ](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
+![&#x200B; Werkschema van de Controle van de Bevestiging van de BTW &#x200B;](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
 ### Validatie van BTW-id configureren
 
@@ -272,10 +272,10 @@ Elke belastingregel wordt gedefinieerd door drie entiteiten:
 - Productbelastingklassen
 - Belastingtarieven
 
-Creeer de [ belastingregels ](tax-rules.md) voor effectief het gebruiken van de Bevestiging van identiteitskaart van de BTW.
+Creeer de [&#x200B; belastingregels &#x200B;](tax-rules.md) voor effectief het gebruiken van de Bevestiging van identiteitskaart van de BTW.
 
-- De belastingregels omvatten belastingtarieven en [ belastingklassen ](tax-class.md).
-- De klassen van de belasting worden toegewezen aan [ klantengroepen ](../customers/customer-groups.md).
+- De belastingregels omvatten belastingtarieven en [&#x200B; belastingklassen &#x200B;](tax-class.md).
+- De klassen van de belasting worden toegewezen aan [&#x200B; klantengroepen &#x200B;](../customers/customer-groups.md).
 
 #### Stap 3: Validering van BTW-id inschakelen en configureren
 
@@ -285,11 +285,11 @@ Creeer de [ belastingregels ](tax-rules.md) voor effectief het gebruiken van de 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Customer Configuration]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Create New Account Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Create New Account Options]** sectie uit.
 
    In het volgende voorbeeld zijn de algemene klantinstellingen die niet gerelateerd zijn aan BTW-validatie grijs.
 
-   ![ creeer de Nieuwe Opties van de Rekening ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer de Nieuwe Opties van de Rekening &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Automatic Assignment to Customer Group]** in op `Yes` en vul de volgende velden naar wens in.
 
@@ -303,9 +303,9 @@ Creeer de [ belastingregels ](tax-rules.md) voor effectief het gebruiken van de 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL General]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit.
 
-   ![ Informatie van de Opslag ](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Informatie van de Opslag &#x200B;](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL Country]** .
 
@@ -317,9 +317,9 @@ Creeer de [ belastingregels ](tax-rules.md) voor effectief het gebruiken van de 
 
 #### Stap 5: De lijst van EU-lidstaten verifiëren
 
-1. Het voortzetten in de _Algemene_ configuratiepagina, breidt ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** sectie uit.
+1. Het voortzetten in de _Algemene_ configuratiepagina, breidt ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Countries Options]** sectie uit.
 
-   ![ Opties van Landen ](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
+   ![&#x200B; Opties van Landen &#x200B;](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
 1. Controleer in de **[!UICONTROL European Union Countries]** -lijst of elk land van de EU is geselecteerd.
 

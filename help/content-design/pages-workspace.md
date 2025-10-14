@@ -15,14 +15,14 @@ ht-degree: 0%
 
 De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s kunt vinden die u nodig hebt, en opdrachten waarmee u routineonderhoud op afzonderlijke of meerdere pagina&#39;s kunt uitvoeren. U kunt pagina-eigenschappen ook snel bijwerken via het raster.
 
-![ Net van Pagina&#39;s ](./assets/pages-grid.png){width="700" zoomable="yes"}
+![&#x200B; Net van Pagina&#39;s &#x200B;](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## Pagina-eigenschappen snel bijwerken
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 1. Klik op een rij in het raster.
 
-   ![ de eigenschappen van de Pagina zijn editable in het net van Pagina&#39;s ](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
+   ![&#x200B; de eigenschappen van de Pagina zijn editable in het net van Pagina&#39;s &#x200B;](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
 
    Als u meerdere records wilt selecteren, schakelt u het selectievakje in van elke rij die u wilt bijwerken.
 
@@ -69,7 +69,7 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de pagina. ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source). |
+| [!UICONTROL Custom design from/to] | Hiermee geeft u de begin- en einddatum op waarop het geselecteerde ontwerp wordt toegepast op de pagina. ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (slechts Magento Open Source). |
 | [!UICONTROL Custom Theme] | Hiermee past u een aangepast thema toe op de pagina |
 | [!UICONTROL Custom Layout] | Bepaalt de aangepaste indeling van de pagina |
 | [!UICONTROL Meta Title] | Meta-titel voor de pagina |
@@ -80,13 +80,13 @@ De werkruimte van de pagina bevat gereedschappen waarmee u snel de pagina&#39;s 
 
 ## Pagina zoeken
 
-U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [ filter ](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
+U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;gebruiken om specifieke pagina&#39;s op trefwoord te zoeken. Voor een geavanceerder onderzoek, kunt u [&#x200B; filter &#x200B;](../getting-started/admin-grid-controls.md) het onderzoek door veelvoudige parameters.
 
 ### Zoeken op trefwoord
 
 1. Voer een zoekterm in het zoekvak van de pagina in.
 
-1. Om de resultaten te tonen, klik het Onderzoek (![ Vergrootglaspictogram ](../assets/icon-magnify-search.png)) pictogram.
+1. Om de resultaten te tonen, klik het Onderzoek (![&#x200B; Vergrootglaspictogram &#x200B;](../assets/icon-magnify-search.png)) pictogram.
 
    De resultaten omvatten alle pagina&#39;s die het sleutelwoord bevatten.
 
@@ -94,7 +94,7 @@ U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;g
 
 1. Klik zo nodig op **[!UICONTROL Clear All]** om de vorige zoekcriteria te wissen.
 
-1. Als u de selectie van zoekfilters wilt weergeven, klikt u op **[!UICONTROL Filters]** !([ het pictogram van het Trechter ](../assets/icon-filter-search.png)) tabel.
+1. Als u de selectie van zoekfilters wilt weergeven, klikt u op **[!UICONTROL Filters]** !([&#x200B; het pictogram van het Trechter &#x200B;](../assets/icon-filter-search.png)) tabel.
 
 1. Voer zoveel filters in als nodig zijn om de pagina&#39;s te beschrijven die u wilt zoeken.
 
@@ -112,7 +112,7 @@ U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;g
 | [!UICONTROL Store View] | Filter de zoekopdracht op basis van de winkelweergave. Opties: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filter de zoekopdracht op basis van de paginalay-out. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filter de zoekopdracht op de paginatiestatus. Opties: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filter de zoekopdracht op de begin- en einddatum waarop het geselecteerde ontwerp op de pagina wordt toegepast. ![ Magento Open Source ](../assets/open-source.svg) (slechts Magento Open Source). |
+| [!UICONTROL Custom design from / to] | Filter de zoekopdracht op de begin- en einddatum waarop het geselecteerde ontwerp op de pagina wordt toegepast. ![&#x200B; Magento Open Source &#x200B;](../assets/open-source.svg) (slechts Magento Open Source). |
 | [!UICONTROL Asset] | De zoekopdracht filteren op de elementen van de paginatitel |
 | [!UICONTROL Custom Layout] | Filter de zoekopdracht op basis van een aangepaste indeling. Opties: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filter de zoekopdracht op basis van een aangepast thema. Standaardopties: `Magento Blank` / `Magento Luma` |
@@ -136,7 +136,7 @@ U kunt het vak Zoeken linksboven in het raster van _[!UICONTROL Pages]_&#x200B;g
 
 U kunt pagina&#39;s bewerken, uitschakelen, inschakelen en verwijderen. Als u een actie op een afzonderlijke pagina wilt toepassen, schakelt u het selectievakje in de eerste kolom in. Als u alle pagina&#39;s wilt selecteren of deselecteren, gebruikt u het selectiekader boven aan de kolom.
 
-![ Acties van de Pagina ](./assets/pages-select.png){width="400" zoomable="yes"}
+![&#x200B; Acties van de Pagina &#x200B;](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### Eén actie
 
@@ -146,7 +146,7 @@ Gebruik de kolom _[!UICONTROL Action]_&#x200B;helemaal rechts om een van de volg
 - [!UICONTROL Delete] - hiermee wordt de pagina verwijderd (moet worden bevestigd)
 - [!UICONTROL View] - hiermee wordt een pagina rechtstreeks in de winkel geopend
 
-![ Enige paginaacties ](./assets/page-grid-actions.png){width="600" zoomable="yes"}
+![&#x200B; Enige paginaacties &#x200B;](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Handelingen Massa
 
@@ -163,7 +163,7 @@ De selectie van kolommen en hun volgorde in het raster kunnen naar wens worden g
 
 ### De selectie van kolommen wijzigen
 
-In de hoger-juiste hoek, klik de _controle van Kolommen_ (![ pictogram van de Kolom ](../assets/icon-columns.png)) en doe het volgende:
+In de hoger-juiste hoek, klik de _controle van Kolommen_ (![&#x200B; pictogram van de Kolom &#x200B;](../assets/icon-columns.png)) en doe het volgende:
 
 - Schakel het selectievakje in van de kolommen die u aan het raster wilt toevoegen.
 
@@ -177,45 +177,45 @@ In de hoger-juiste hoek, klik de _controle van Kolommen_ (![ pictogram van de Ko
 
 ### Een weergave opslaan
 
-1. Klik de _controle van de Mening_ (![ het pictogram van het Oogje ](../assets/icon-view-eye.png)) en klik dan **[!UICONTROL Save View As]**.
+1. Klik de _controle van de Mening_ (![&#x200B; het pictogram van het Oogje &#x200B;](../assets/icon-view-eye.png)) en klik dan **[!UICONTROL Save View As]**.
 
 1. Voer een naam in voor de weergave.
 
-1. Om de mening te bewaren, klik de _Pijl_ (![ pictogram van de Pijl ](../assets/icon-arrow-save.png)).
+1. Om de mening te bewaren, klik de _Pijl_ (![&#x200B; pictogram van de Pijl &#x200B;](../assets/icon-arrow-save.png)).
 
    De naam van de weergave wordt nu weergegeven als de huidige weergave.
 
 ### De weergave wijzigen
 
-Klik de _controle van de Mening_ (![ het pictogram van het Oogje ](../assets/icon-view-eye.png)) en doe één van het volgende:
+Klik de _controle van de Mening_ (![&#x200B; het pictogram van het Oogje &#x200B;](../assets/icon-view-eye.png)) en doe één van het volgende:
 
 - Kies de weergave die u wilt gebruiken.
 
-- Verander de naam van een mening door het Edit (![ pictogram van het Potlood ](../assets/icon-edit-pencil.png)) te klikken en de naam bij te werken.
+- Verander de naam van een mening door het Edit (![&#x200B; pictogram van het Potlood &#x200B;](../assets/icon-edit-pencil.png)) te klikken en de naam bij te werken.
 
-  ![ de bewaarde mening verschijnt in de meningscontroles met uitgeeft pictogram ](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
+  ![&#x200B; de bewaarde mening verschijnt in de meningscontroles met uitgeeft pictogram &#x200B;](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## Geplande wijzigingen
 
 {{ee-feature}}
 
-Paginawijzigingen kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen op een pagina of de wijzigingen toepassen op een bestaande campagne. Voor meer informatie, zie [ Inhoud het Opvoeren ](content-staging.md).
+Paginawijzigingen kunnen volgens schema worden toegepast en worden gegroepeerd met andere inhoudswijzigingen. U kunt een campagne maken op basis van geplande wijzigingen op een pagina of de wijzigingen toepassen op een bestaande campagne. Voor meer informatie, zie [&#x200B; Inhoud het Opvoeren &#x200B;](content-staging.md).
 
 Houd rekening met het volgende wanneer u schema&#39;s voor paginawijzigingen en bewerkingscampagnes configureert:
 
 - Alle geplande updates worden achtereenvolgens toegepast, wat betekent dat elke entiteit slechts één geplande update op één punt kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit geen verschillende geplande update voor verschillende opslagmeningen tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-- Als een campagne met meer dan één pagina wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](content-staging-dashboard.md) worden uitgegeven.
+- Als een campagne met meer dan één pagina wordt verbonden, kan de campagne slechts van het [&#x200B; Inhoud Staging Dashboard &#x200B;](content-staging-dashboard.md) worden uitgegeven.
 
 - Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
 - De Datum van het Begin van de campagne en de Datum van het Eind moeten worden bepaald door de **_gebrek_** tijdzone Admin te gebruiken, die van de lokale tijdzone van elke website wordt omgezet. Bekijk een voorbeeld van meerdere websites in verschillende tijdzones, maar u wilt een campagne starten op basis van een Amerikaanse tijdzone. In dit geval moet u een afzonderlijke update voor elke lokale tijdzone plannen en **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** instellen in geconverteerde tijdzone van elke lokale website naar de standaardtijdzone van Admin.
 
-- U kunt wijzigingen voor productupdates plannen en een voorvertoning weergeven. Voor meer informatie, zie [ plannend een Update ](content-staging-scheduled-update.md).
+- U kunt wijzigingen voor productupdates plannen en een voorvertoning weergeven. Voor meer informatie, zie [&#x200B; plannend een Update &#x200B;](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
->Het [!UICONTROL Custom Design Update] lusje is verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kan niet direct op de pagina worden gewijzigd. U moet een geplande update maken voor deze activeringen.
+>Het [!UICONTROL Custom Design Update] lusje is verwijderd in ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce en kan niet direct op de pagina worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
-![ De pagina van het Huis toont geplande veranderingen bij de bovenkant ](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![&#x200B; De pagina van het Huis toont geplande veranderingen bij de bovenkant &#x200B;](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 

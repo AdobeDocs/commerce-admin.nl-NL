@@ -19,11 +19,11 @@ ht-degree: 0%
 
 _[!DNL Advanced Reporting]_&#x200B;is de op wolk-gebaseerde dienst die door [ Adobe Commerce Intelligence ][1]{:target="_blank"} wordt aangedreven. Voor meer informatie, zie [ Geavanceerde Rapportering ][2]{:target="_blank"} in de_ Begonnen Gids _.
 
-![ Geavanceerde Rapportering ](./assets/advanced-reporting.png)<!-- zoom -->
+![&#x200B; Geavanceerde Rapportering &#x200B;](./assets/advanced-reporting.png)<!-- zoom -->
 
 <!-- [Advanced Reporting](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Advanced Reporting Service] | Algemeen | Maakt de integratie van [!DNL Advanced Reporting] voor uw Commerce-installatie mogelijk. |
 | [!UICONTROL Industry] | Website | Identificeert uw bedrijfssector om aan te passen [!DNL Advanced Reporting]. |

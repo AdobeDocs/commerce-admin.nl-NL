@@ -49,7 +49,7 @@ Deze sectie verstrekt een overzicht op hoog niveau van de stappen die voor verko
 
 ### GDPR en CCPA
 
-Als uw zaken zowel de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) (GDPR) als CCPA moeten naleven, kunt u wat werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel de [&#x200B; Algemene Verordening van de Bescherming van Gegevens &#x200B;](compliance-gdpr.md) (GDPR) als CCPA moeten naleven, kunt u wat werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
@@ -91,13 +91,13 @@ Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en
 
    - **Privé**: De Informatie van de klant, de Informatie van de Orde, de Punten van de Terugbetaling, het Registratie van het Cadeautje, het Boek van het Adres, de Krediet van de Opslag, de Methoden van de Betaling, de Abonnementen van de Newsletter, Uitnodigingen.
 
-     Als de [!DNL Commerce] -installatie is aangepast, worden mogelijk aanvullende persoonlijke gegevens verzameld. De persoonlijke informatie zou ook in [ koekjes ](./compliance-cookie-law.md), markeringen, en andere technologieën kunnen verblijven die informatie verzamelen.
+     Als de [!DNL Commerce] -installatie is aangepast, worden mogelijk aanvullende persoonlijke gegevens verzameld. De persoonlijke informatie zou ook in [&#x200B; koekjes &#x200B;](./compliance-cookie-law.md), markeringen, en andere technologieën kunnen verblijven die informatie verzamelen.
 
 1. Identificeer de partijen met wie u gegevens deelt. In de lijst moeten dienstverleners en derden worden opgenomen. Onder andere advertentienetwerken, internetserviceproviders, gegevensanalytische providers, overheidsentiteiten, besturingssystemen en platforms, sociale netwerken en wederverkopers van consumentengegevens die niet rechtstreeks persoonlijke informatie van uw consumenten verzamelen.
 
    - **Dienstverleners**: De entiteiten die toegang tot uw consumentengegevens voor een bedrijfsdoel hebben, en de diensten namens u verlenen. Adobe is bijvoorbeeld een serviceprovider, net als sommige ontwikkelaars van aanpassingen, extensies en services.
 
-     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Meer leren, zie [ de Montages van de Privacy van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Meer leren, zie [&#x200B; de Montages van de Privacy van Google &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Andere Derde Partijen**: De entiteiten met wie u consumentengegevens deelt of verkoopt. U kunt bijvoorbeeld consumentengegevens delen met een reclamenetwerk in ruil voor reclame.
 
@@ -114,7 +114,7 @@ Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en
    - [ Persoonlijke Verwijzing van de Informatie (2.x) ][1]
    - [ Persoonlijke Verwijzing van de Informatie (1.x) ][2]
 
-   ![ diagram ](./assets/privacy-frontend-diagram.svg)
+   ![&#x200B; diagram &#x200B;](./assets/privacy-frontend-diagram.svg)
 
 #### Stap 4: Vestig procedures en mechanismen om op klantenverzoeken te antwoorden
 

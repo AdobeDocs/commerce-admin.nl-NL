@@ -16,7 +16,7 @@ Voor multisource handelaars die [[!DNL Inventory Management]](../inventory-manag
 
 1. Blader naar bronnen of zoek naar bronnen en schakel het selectievakje in naast de bronnen die u voor het product wilt toevoegen.
 
-   ![ wijs bronnen aan het product ](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
+   ![&#x200B; wijs bronnen aan het product &#x200B;](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Done]** om de bronnen toe te voegen.
 
@@ -32,4 +32,4 @@ Voor multisource handelaars die [[!DNL Inventory Management]](../inventory-manag
 
    - _Standaard meldt Aantal_ - selecteer **[!UICONTROL Notify Quantity Use Default]** checkbox. Commerce controleert en gebruikt de instelling in [!UICONTROL Advanced Inventory] of algemene winkelconfiguratie.
 
-   ![ de Hoeveelheden van het Product van de Update per Source ](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+   ![&#x200B; de Hoeveelheden van het Product van de Update per Source &#x200B;](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

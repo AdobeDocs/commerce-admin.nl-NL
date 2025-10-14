@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Voor opslagruimten die verificatie met Adobe Identity Management Services (IMS) hebben ingeschakeld, zijn native Adobe Commerce- en Magento Open Source-verificatie met twee factoren (2FA) uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Adobe Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [ Integrating Adobe Commerce met het overzicht van Adobe IMS ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
+>Voor opslagruimten die verificatie met Adobe Identity Management Services (IMS) hebben ingeschakeld, zijn native Adobe Commerce- en Magento Open Source-verificatie met twee factoren (2FA) uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Adobe Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [&#x200B; Integrating Adobe Commerce met het overzicht van Adobe IMS &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=nl-NL).
 
 {{config}}
 
-Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor authentificatie (2FA) ](../../systems/security-two-factor-authentication.md) in de _Gids van Systemen Admin_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; dubbel-factor authentificatie (2FA) &#x200B;](../../systems/security-two-factor-authentication.md) in de _Gids van Systemen Admin_.
 
 ## [!UICONTROL General]
 
-![ Algemeen ](./assets/2fa-general.png)<!-- zoom -->
+![&#x200B; Algemeen &#x200B;](./assets/2fa-general.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Algemeen | Wijst op de twee-factor authentificatiemethodes die u vereist. Als u meer dan één leverancier selecteert, wordt elke gebruiker vereist om elke methode te vormen 2FA de volgende tijd zij login. |
 | [!UICONTROL Configuration Email URL for Web API] | Algemeen | Voor douaneimplementaties, URL voor een afwisselende verbinding van de e-mailconfiguratie die naar _Admin_ gebruikers bij eerste login wordt verzonden. In het e-mailmalplaatje, gebruik placeholder `:tfat` om erop te wijzen waar het teken wordt ingespoten. |
@@ -35,9 +35,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 ## [!UICONTROL Google]
 
-![ Google ](./assets/2fa-google.png)<!-- zoom -->
+![&#x200B; Google &#x200B;](./assets/2fa-google.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | Algemeen | Hiermee bepaalt u hoe lang (in seconden) het systeem de beheerder [!DNL one-time-password (OTP)] accepteert nadat deze is verlopen. Kan niet hoger zijn dan het leven van één enkele OTP (gewoonlijk 30 seconden). Standaard: `29` |
 
@@ -45,9 +45,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 ## [!UICONTROL Duo Security]
 
-![ Duo Veiligheid ](./assets/2fa-duo-security.png)<!-- zoom -->
+![&#x200B; Duo Veiligheid &#x200B;](./assets/2fa-duo-security.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Client Id] | Algemeen | De client-id van uw [!DNL Duo Security] -account. |
 | [!UICONTROL Client Secret] | Algemeen | Het clientgeheim van uw [!DNL Duo Security] -account. |
@@ -59,9 +59,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 ## [!UICONTROL Authy]
 
-![ Authy ](./assets/2fa-authy.png)<!-- zoom -->
+![&#x200B; Authy &#x200B;](./assets/2fa-authy.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL API Key] | Algemeen | De API-sleutel van uw [!DNL Authy] -account. |
 | [!UICONTROL OneTouch Message] | Algemeen | Het bericht dat bij het aanmelden in de [!DNL Authy] -verificator wordt weergegeven. Standaard: `Login request to your Magento Admin` |
@@ -70,9 +70,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ dubbel-factor 
 
 ## [!UICONTROL U2F Key]
 
-![ Sleutel U2F ](./assets/2fa-u2f-key.png)<!-- zoom -->
+![&#x200B; Sleutel U2F &#x200B;](./assets/2fa-u2f-key.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | Algemeen | Het domein dat wordt gebruikt om [!DNL WebAuthn] uitdagingen voor douaneimplementaties uit te geven en te verwerken WebAPI. |
 

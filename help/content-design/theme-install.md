@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Een nieuw thema installeren
 
-Wanneer u [!DNL Commerce] voor het eerst installeert, zijn de ontwerpelementen van de winkel gebaseerd op het standaardthema `Magento Blank` . Het _thema 0&rbrace; Luma &lbrace;is ook beschikbaar als u de steekproefgegevens installeerde._ U kunt een thema wijzigen, thema&#39;s toevoegen die door anderen zijn gemaakt, of uw eigen thema maken. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) bevat een groeiende selectie van thema&#39;s die u kunt installeren om de weergave van uw winkel te wijzigen. Leren hoe te om een thema tot stand te brengen of te wijzigen, zie de [_Gids van de Ontwikkeling van het Front_ ](https://developer.adobe.com/commerce/frontend-core/guide/).
+Wanneer u [!DNL Commerce] voor het eerst installeert, zijn de ontwerpelementen van de winkel gebaseerd op het standaardthema `Magento Blank` . Het _thema 0&rbrace; Luma &lbrace;is ook beschikbaar als u de steekproefgegevens installeerde._ U kunt een thema wijzigen, thema&#39;s toevoegen die door anderen zijn gemaakt, of uw eigen thema maken. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) bevat een groeiende selectie van thema&#39;s die u kunt installeren om de weergave van uw winkel te wijzigen. Leren hoe te om een thema tot stand te brengen of te wijzigen, zie de [_Gids van de Ontwikkeling van het Front_ &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=nl-NL) hebt.
+Alvorens u begint, zorg ervoor dat u een geldige reeks [[!DNL Commerce]  Sleutels van de Toegang &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=nl-NL) hebt.
 
 Als u een thema wilt toevoegen aan uw [!DNL Commerce] -winkel, volgt u de instructies in [!DNL Commerce Marketplace] :
 
@@ -27,4 +27,4 @@ Als u een thema wilt toevoegen aan uw [!DNL Commerce] -winkel, volgt u de instru
 1. Het pakket downloaden
 1. Het thema installeren
 
-Om het thema op uw opslag toe te passen, zie [ Thema&#39;s ](themes.md).
+Om het thema op uw opslag toe te passen, zie [&#x200B; Thema&#39;s &#x200B;](themes.md).

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Gebruik _toewijzen Bronnen_ hulpmiddel om één of meerdere bronnen aan uw producten toe te voegen. Het hulpmiddel helpt wanneer het creëren van en het toewijzen van douanebronnen aan uw StandaardVoorraad of douanevoorraden en het voorbereiden van nieuwe plaatsen en inventaris.
 
-Na het toevoegen van nieuwe douanebronnen, kunt u [ inventarishoeveelheden per product ](quantities-assign-per-product.md) of voor veelvoudige producten door Admin toevoegen of de [ invoereigenschap ](inventory-import-export.md) gebruiken.
+Na het toevoegen van nieuwe douanebronnen, kunt u [&#x200B; inventarishoeveelheden per product &#x200B;](quantities-assign-per-product.md) of voor veelvoudige producten door Admin toevoegen of de [&#x200B; invoereigenschap &#x200B;](inventory-import-export.md) gebruiken.
 
-![ voeg inventarisbronnen voor geselecteerde producten ](assets/inventory-bulk-assign-sources.gif) toe
+![&#x200B; voeg inventarisbronnen voor geselecteerde producten &#x200B;](assets/inventory-bulk-assign-sources.gif) toe
 
 ## Bronnen en hoeveelheden toewijzen
 
@@ -34,9 +34,9 @@ Na het toevoegen van nieuwe douanebronnen, kunt u [ inventarishoeveelheden per p
 
 1. Klik op **[!UICONTROL Assign Sources]**.
 
-   ![ Uitgezochte producten om bronnen toe te voegen ](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte producten om bronnen toe te voegen &#x200B;](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
-De bronnen worden toegevoegd aan de producten met een inventarishoeveelheid van 0. U kunt [ inventarishoeveelheden ](quantities-assign-per-product.md) per bron toevoegen.
+De bronnen worden toegevoegd aan de producten met een inventarishoeveelheid van 0. U kunt [&#x200B; inventarishoeveelheden &#x200B;](quantities-assign-per-product.md) per bron toevoegen.
 
 ## Toewijzing van bronnen en hoeveelheden ongedaan maken
 
@@ -46,7 +46,7 @@ Wanneer u de toewijzing van een bron uit een product ongedaan maakt, geeft u aan
 
 Het wordt ten zeerste aanbevolen alle bestellingen en verzendingen voor deze producten in te vullen voordat de bron wordt verwijderd.
 
-![ wijst bronnen voor geselecteerde producten ](assets/inventory-bulk-unassign-sources.gif) unassign
+![&#x200B; wijst bronnen voor geselecteerde producten &#x200B;](assets/inventory-bulk-unassign-sources.gif) unassign
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -64,6 +64,6 @@ Het wordt ten zeerste aanbevolen alle bestellingen en verzendingen voor deze pro
 
 1. Klik op **[!UICONTROL Unassign Sources]**.
 
-   ![ verwijdert bronnen uit geselecteerde producten ](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; verwijdert bronnen uit geselecteerde producten &#x200B;](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

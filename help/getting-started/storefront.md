@@ -32,7 +32,7 @@ Met de introductie van [!DNL **Commerce Storefront die door Edge Delivery Servic
 
 De Commerce Storefront van Edge Delivery Services biedt verschillende belangrijke functies die zowel handelaren als ontwikkelaars ten goede komen. Met deze functies kunnen bedrijven aantrekkelijke boodschapervaringen creëren en tegelijk de flexibiliteit behouden om hun winkelvoorkeuren aan te passen en te schalen aan hun behoeften.
 
-Voor meer gedetailleerde informatie en begeleiding bij vestiging en het optimaliseren van uw Opslag van Commerce, zie de [ Documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce).
+Voor meer gedetailleerde informatie en begeleiding bij vestiging en het optimaliseren van uw Opslag van Commerce, zie de [&#x200B; Documentatie van de Opslag van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Dankzij de implementatie zonder koppen kunnen ontwikkelaars de front-end present
 
 Wist u dat de meeste mensen slechts een paar seconden op een pagina doorbrengen voordat ze besluiten om ergens anders te blijven of te gaan? Het is niet lang om een indruk te maken. Studies tonen aan dat mensen ook van foto&#39;s houden, vooral van andere mensen. Welk ontwerp u ook kiest, alles op uw homepage zou bezoekers naar de volgende stap in het verkoopproces moeten bewegen. Het is de bedoeling dat zij hun aandacht in een samenhangende stroom van het ene punt van belang naar het andere vestigen.
 
-![ storefront homepage van het Voorbeeld ](./assets/storefront-homepage-full.png){width="700"}
+![&#x200B; storefront homepage van het Voorbeeld &#x200B;](./assets/storefront-homepage-full.png){width="700"}
 
 ## Cataloguspagina
 
@@ -73,7 +73,7 @@ Aanbiedingen op cataloguspagina&#39;s hebben doorgaans kleine productafbeeldinge
 
 De oorspronkelijke productbeschrijving geeft kopers meestal genoeg informatie om er beter uit te zien. Mensen die weten wat ze willen, kunnen het product aan hun winkelwagentjes toevoegen en gaan. Klanten die winkelen terwijl ze zich aanmelden bij hun account, genieten van een persoonlijke winkelervaring.
 
-![ pagina van de Inzameling op de storefront ](./assets/storefront-collection-page.png){width="700"}
+![&#x200B; pagina van de Inzameling op de storefront &#x200B;](./assets/storefront-collection-page.png){width="700"}
 
 ## Zoekresultaten
 
@@ -81,27 +81,27 @@ Wist u dat mensen die zoeken bijna twee keer zo vaak een aankoop doen als mensen
 
 ### [!DNL Live Search]
 
-Met [[!DNL Live Search] ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
+Met [[!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) voor Adobe Commerce biedt uw winkel een snelle, superrelevante en intuïtieve zoekervaring en is deze zonder extra kosten beschikbaar voor Adobe Commerce.
 
-![ Levend voorbeeld van het Onderzoek - onderzoek aangezien u ](./assets/storefront-search-as-you-type.png){width="700"} typt
+![&#x200B; Levend voorbeeld van het Onderzoek - onderzoek aangezien u &#x200B;](./assets/storefront-search-as-you-type.png){width="700"} typt
 
 ### Standaardcataloguszoekopdracht
 
-Met [ standaardcatalogusonderzoek ](../catalog/search.md), omvat uw opslag een vakje van het Onderzoek in de hoger-juiste hoek, en een verbinding aan Geavanceerd Onderzoek in footer. Alle zoektermen die kopers verzenden, worden opgeslagen, zodat je precies kunt zien wat ze zoeken. U kunt suggesties aanbieden, en synoniemen en gemeenschappelijke misspellingen ingaan. Geef vervolgens een specifieke pagina weer wanneer een zoekterm wordt ingevoerd.
+Met [&#x200B; standaardcatalogusonderzoek &#x200B;](../catalog/search.md), omvat uw opslag een vakje van het Onderzoek in de hoger-juiste hoek, en een verbinding aan Geavanceerd Onderzoek in footer. Alle zoektermen die kopers verzenden, worden opgeslagen, zodat je precies kunt zien wat ze zoeken. U kunt suggesties aanbieden, en synoniemen en gemeenschappelijke misspellingen ingaan. Geef vervolgens een specifieke pagina weer wanneer een zoekterm wordt ingevoerd.
 
-![ Voorbeeld van standaardresultaten van het catalogusonderzoek ](./assets/storefront-search-results-page-full.png){width="700"}
+![&#x200B; Voorbeeld van standaardresultaten van het catalogusonderzoek &#x200B;](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## Productpagina
 
 De productpagina gaat veel verder! Het eerste wat uw ogen op de productpagina raakt, is de hoofdafbeelding met een zoomgalerie met hoge resolutie en een miniatuurgalerie. Naast de prijs en beschikbaarheid is er een gedeelte met tabbladen met meer informatie en een lijst met verwante producten.
 
-![ de productpagina van de opslag van het Voorbeeld ](./assets/storefront-product-page-full-m.png){width="700"}
+![&#x200B; de productpagina van de opslag van het Voorbeeld &#x200B;](./assets/storefront-product-page-full-m.png){width="700"}
 
 ## Winkelwagentje
 
 Het winkelwagentje geeft het ordertotaal weer, inclusief eventuele kortingsbonnen, geschatte verzendkosten en belastingen. Deze functies maken het een goede plaats om vertrouwensbadges en -zegels weer te geven. U kunt de winkelwagentje ook gebruiken als een mogelijkheid voor één laatste voorstel. U kunt bijvoorbeeld cross-sell-items instellen die worden weergegeven als opties voor impulsaankopen wanneer bepaalde producten zich in het winkelwagentje bevinden.
 
-![ de winkelwagentje van het Voorbeeld winkelende pagina ](./assets/storefront-cart-full.png){width="700"}
+![&#x200B; de winkelwagentje van het Voorbeeld winkelende pagina &#x200B;](./assets/storefront-cart-full.png){width="700"}
 
 ## Afhandelingspagina
 
@@ -112,7 +112,7 @@ Het uitcheckproces bestaat uit twee stappen:
    De eerste stap van het afrekenproces is dat de klant de verzendadresgegevens invult en de verzendmethode kiest. Als de klant een account heeft, wordt het verzendadres automatisch ingevoerd, maar kan het indien nodig worden gewijzigd.
 Als een gastklant een e-mailadres ingaat dat zoals eerder geregistreerd wordt erkend, wordt de login herinnering getoond als het [!UICONTROL Enable Guest Checkout Login] gebied in de opslagconfiguratie aan `Yes` wordt geplaatst (zie [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) in de _Gids van de Verwijzing van de Configuratie_). Nochtans, kan dit het plaatsen klanteninformatie aan niet voor authentiek verklaarde gebruikers blootstellen.
 
-   ![ de storefront van het Voorbeeld controlepagina ](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![&#x200B; de storefront van het Voorbeeld controlepagina &#x200B;](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. Gegevens bekijken en betalen
 
@@ -120,9 +120,9 @@ Als een gastklant een e-mailadres ingaat dat zoals eerder geregistreerd wordt er
 
    >[!NOTE]
    >
-   >Hoewel in [!DNL Commerce] meerdere couponcodes kunnen worden geconfigureerd, kan een klant slechts één couponcode op de kaart toepassen. (Zie de [ codes van de Coupon ](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) voor meer informatie.)
+   >Hoewel in [!DNL Commerce] meerdere couponcodes kunnen worden geconfigureerd, kan een klant slechts één couponcode op de kaart toepassen. (Zie de [&#x200B; codes van de Coupon &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) voor meer informatie.)
 
-   ![ de storefront van het Voorbeeld controlepagina ](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![&#x200B; de storefront van het Voorbeeld controlepagina &#x200B;](./assets/storefront-checkout-payment-full.png){width="700"}
 
 De vooruitgangsbar bij de bovenkant van de pagina volgt elke stap van het controleproces, en de _Samenvatting van de Orde_ toont de informatie die tot dit punt was ingegaan.
 

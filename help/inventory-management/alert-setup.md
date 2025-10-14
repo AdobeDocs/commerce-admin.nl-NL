@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Klanten kunnen zich op twee soorten waarschuwingen abonneren via e-mail - berichten over prijswijziging en waarschuwingen in voorraad. Voor elk type alarm, kunt u bepalen als de klanten kunnen intekenen, het e-mailmalplaatje selecteren dat wordt gebruikt, en de afzender van e-mail identificeren.
 
-![ Teken omhoog voor een productalarm ](assets/product-alert-setting.png){width="600" zoomable="yes"}
+![&#x200B; Teken omhoog voor een productalarm &#x200B;](assets/product-alert-setting.png){width="600" zoomable="yes"}
 
 ## Waarschuwing prijswijziging
 
@@ -24,7 +24,7 @@ Wanneer het alarm van de prijsverandering wordt toegelaten, stelt a _me op de ho
 
 Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit product in voorraad_ voor elk product is dat uit voorraad is. Klanten kunnen op de koppeling klikken om zich te abonneren op de waarschuwing. Wanneer het product weer in voorraad is, ontvangen klanten een e-mail bericht dat het product beschikbaar is. De producten met alarm hebben het 1&rbrace; lusje van de Alarm van het Product van a _&lbrace;in het paneel van de Informatie van het Product dat van de klanten een lijst maakt die aan een alarm hebben ingetekend._
 
-![ Lijst van product en prijsalarm abonnementen ](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
+![&#x200B; Lijst van product en prijsalarm abonnementen &#x200B;](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
 
 ## Productwaarschuwingen instellen
 
@@ -34,7 +34,7 @@ Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit
 
 1. Klik om de sectie _[!UICONTROL Product Alerts]_&#x200B;uit te vouwen en voer de volgende handelingen uit:
 
-   ![ de Alarm van het Product ](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
+   ![&#x200B; de Alarm van het Product &#x200B;](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Allow Alert When Product Price Changes]** in op `Yes` om waarschuwingen over prijswijzigingen aan uw klanten aan te bieden.
 
@@ -48,7 +48,7 @@ Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit
 
    - Stel **[!UICONTROL Stock Alert Email Template]** in op de sjabloon die u wilt gebruiken voor waarschuwingen over productvoorraad.
 
-   - Plaats **[!UICONTROL Alert Email Sender]** aan het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses){target="_blank"} dat u als afzender van het e-mailalarm wilt verschijnen. Leer meer over [ opslag e-mailadressen ](../configuration-reference/general/store-email-addresses.md){target="_blank"} in de gids van de kerngebruiker.
+   - Plaats **[!UICONTROL Alert Email Sender]** aan het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses){target="_blank"} dat u als afzender van het e-mailalarm wilt verschijnen. Leer meer over [&#x200B; opslag e-mailadressen &#x200B;](../configuration-reference/general/store-email-addresses.md){target="_blank"} in de gids van de kerngebruiker.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -56,7 +56,7 @@ Het alarm in voorraad leidt tot een verbinding genoemd _deelt me mee wanneer dit
 
 Vervolgens configureert, voegt u de e-mailsjabloon toe of wijzigt u de prijswaarschuwing. Mogelijk wilt u de configuraties voor prijswaarschuwingen bewerken nadat u aanvullende templates hebt gemaakt.
 
-Voor meer gedetailleerde informatie over het gebruiken van e-mailoverseinen, zie [ Malplaatjes van het Bericht ](../systems/email-template-custom.md#message-templates) in de _Gids van Systemen Admin_.
+Voor meer gedetailleerde informatie over het gebruiken van e-mailoverseinen, zie [&#x200B; Malplaatjes van het Bericht &#x200B;](../systems/email-template-custom.md#message-templates) in de _Gids van Systemen Admin_.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
@@ -87,13 +87,13 @@ Voor meer gedetailleerde informatie over het gebruiken van e-mailoverseinen, zie
 
 Met deze instellingen kunt u bepalen hoe vaak [!DNL Commerce] controleert op wijzigingen waarvoor waarschuwingen moeten worden verzonden. U kunt ook de ontvanger, afzender en sjabloon selecteren voor e-mailberichten die worden verzonden als het verzenden van waarschuwingen mislukt.
 
-![ de Waakzame Montages van de Looppas van het Product ](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
+![&#x200B; de Waakzame Montages van de Looppas van het Product &#x200B;](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Product Alerts Run Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Product Alerts Run Settings]** sectie uit.
 
 1. Stel **[!UICONTROL Frequency]** in op een van de volgende opties om te bepalen hoe vaak productwaarschuwingen worden verzonden:
 

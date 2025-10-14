@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Alle producten in de catalogus zijn toegankelijk vanaf de pagina _[!UICONTROL Products]_&#x200B;in Beheer, waar u producten kunt maken en bestaande producten kunt bewerken. Voor een installatie op meerdere sites kan elke website een andere selectie producten aanbieden die in dezelfde catalogus te koop zijn.
 
-De lijst _[!UICONTROL Products]_&#x200B;bevat alle producten in de catalogus, geeft de websites aan waar ze beschikbaar zijn en of ze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B installaties met [ gedeelde toegelaten catalogi ](../b2b/catalog-shared.md), omvat het net een kolom die erop wijst welke producten afwisselende discontoprijs in een gedeelde catalogus hebben.
+De lijst _[!UICONTROL Products]_&#x200B;bevat alle producten in de catalogus, geeft de websites aan waar ze beschikbaar zijn en of ze momenteel zijn ingeschakeld voor verkoop. In Adobe Commerce B2B installaties met [&#x200B; gedeelde toegelaten catalogi &#x200B;](../b2b/catalog-shared.md), omvat het net een kolom die erop wijst welke producten afwisselende discontoprijs in een gedeelde catalogus hebben.
 
-U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. Gebruik de standaard [ controles ](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, en [ acties ](../getting-started/admin-actions-control.md) op geselecteerde producten toe te passen.
+U kunt door de lijstpagina door pagina, of onderzoek naar specifieke producten doorbladeren. Gebruik de standaard [&#x200B; controles &#x200B;](../getting-started/admin-grid-controls.md) om de lijst te sorteren en te filtreren, en [&#x200B; acties &#x200B;](../getting-started/admin-actions-control.md) op geselecteerde producten toe te passen.
 
-![ Net van Producten ](./assets/products-grid.png){width="700" zoomable="yes"}
+![&#x200B; Net van Producten &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## Weergave van product beperken
 
@@ -42,13 +42,13 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 
 1. Vouw **[!UICONTROL Advanced]** uit en kies **[!UICONTROL Admin]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Admin Grids]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Admin Grids]** sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Limit Number of Products in Grid]** in op `Yes` .
 
    - (Optioneel) Voer in het veld **[!UICONTROL Records Limit]** een waarde in om het aantal producten in het raster te beperken tot een bepaalde waarde. De standaardwaarde voor de minimumwaarde is `20000` .
 
-   ![ Admin de configuratiemontages van Rasters ](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+   ![&#x200B; Admin de configuratiemontages van Rasters &#x200B;](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -84,7 +84,7 @@ Deze configuratie-instelling voor de weergavebeperking van het product is standa
 | [!UICONTROL Status] | Geeft de status van het product aan. Opties: `Enabled` en `Disabled` |
 | [!UICONTROL Websites] | Geeft de websites aan waar het product beschikbaar is. |
 | [!UICONTROL Action] | Opent het product in Edit wijze. |
-| [!UICONTROL Shared Catalog] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met [ Adobe Commerce B2B ](./b2b/../introduction.md) slechts) wijst op de gedeelde catalogi die douanetarifering voor het product bevatten. |
+| [!UICONTROL Shared Catalog] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met [&#x200B; Adobe Commerce B2B &#x200B;](./b2b/../introduction.md) slechts) wijst op de gedeelde catalogi die douanetarifering voor het product bevatten. |
 
 {style="table-layout:auto"}
 

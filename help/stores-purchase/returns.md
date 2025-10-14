@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A _teruggekeerde handelsvergunning_ (RMA) kan aan klanten worden verleend die verzoeken om een punt voor vervanging of terugbetaling terug te keren. Doorgaans neemt de klant contact op met de handelaar om terugbetaling aan te vragen. Indien goedgekeurd, wordt een uniek aantal RMA toegewezen om het teruggekeerde product te identificeren. In de configuratie, kunt u of RMA voor alle producten toelaten of RMA voor slechts bepaalde producten toestaan. Het raster _[!UICONTROL Returns]_&#x200B;bevat een lijst met de huidige geretourneerde handelswijzigingsverzoeken (RMA&#39;s) en wordt gebruikt om nieuwe retourverzoeken in te voeren.
 
-![ keert net ](./assets/return.png){width="600" zoomable="yes"} terug
+![&#x200B; keert net &#x200B;](./assets/return.png){width="600" zoomable="yes"} terug
 
 RMAs kan voor eenvoudige, gegroepeerde, configureerbare, en bundelproducttypes worden uitgegeven. RMA&#39;s zijn echter niet beschikbaar voor virtuele producten, downloadbare producten en cadeaukaarten.
 
@@ -35,13 +35,13 @@ RMAs kan voor eenvoudige, gegroepeerde, configureerbare, en bundelproducttypes w
 
 ## RMA en retourworkflow
 
-1. **ontvangt verzoek** - als [&#128279;](rma-configure.md#enable-rmas-for-your-store) voor de storefront wordt toegelaten, zowel kunnen de geregistreerde klanten als de gasten om een RMA verzoeken. U kunt ook [ een verzoek RMA in Admin ](#create-a-return-request-in-the-admin) voorleggen.
+1. **ontvangt verzoek** - als [&#128279;](rma-configure.md#enable-rmas-for-your-store) voor de storefront wordt toegelaten, zowel kunnen de geregistreerde klanten als de gasten om een RMA verzoeken. U kunt ook [&#x200B; een verzoek RMA in Admin &#x200B;](#create-a-return-request-in-the-admin) voorleggen.
 
 2. **uitgegeven RMA** - na het overwegen van het verzoek, kunt u het gedeeltelijk, volledig machtigen, of het verzoek annuleren. Als u de terugzending toestaat en ermee akkoord gaat de terugzending te betalen, kunt u een bestelling van Admin met een gesteunde drager tot stand brengen.
 
 3. **ontvangen Merchandies en verwerkte productterugkeer** - het volgende stroomdiagram beschrijft de operationele orde om het terugkeerproces te voltooien:
 
-   ![ Werkschema van de Terugkeer van het Product ](./assets/workflow-customer-returns.png){width="500"}
+   ![&#x200B; Werkschema van de Terugkeer van het Product &#x200B;](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA-status
 
@@ -64,7 +64,7 @@ Tijdens zijn levenscyclus, kan een teruggekeerde handelsvergunning (RMA) vele to
 
 ## Een verzoek om terugkeer maken in de beheerder
 
-Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand brengen. De klanten kunnen [ een terugkeerverzoek ](rma-customer-experience.md) op de storefront voor een opslag van Adobe Commerce tot stand brengen.
+Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand brengen. De klanten kunnen [&#x200B; een terugkeerverzoek &#x200B;](rma-customer-experience.md) op de storefront voor een opslag van Adobe Commerce tot stand brengen.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
@@ -103,6 +103,6 @@ Een handelaar kan een terugkeerverzoek namens de klant van Admin tot stand breng
 
 1. Klik op **[!UICONTROL Submit Returns]** om een return te maken.
 
-   ![ Gevraagde Punten RMA ](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![&#x200B; Gevraagde Punten RMA &#x200B;](./assets/return-item-request.png){width="600" zoomable="yes"}
 
    Het nieuwe RMA-verzoek wordt weergegeven op de **[!UICONTROL Returns]** -pagina met de status `Pending` .

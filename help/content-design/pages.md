@@ -17,7 +17,7 @@ Inhoud kan worden bekeken in termen van de houdbaarheid, net als elk product in 
 
 De inhoud met een lange houdbaarheid wordt soms bedoeld als _evergreen inhoud_. De voorbeelden van de algroene inhoud omvatten de verhalen van het klantensucces, _hoe te_ instructies, en Veelgestelde Vragen (FAQ). Inhoud die door de natuur aan bederf onderhevig is, omvat daarentegen gebeurtenissen, nieuws uit de industrie en persberichten.
 
-![ De pagina Over ons die is opgenomen in het Luminagearchief van het voorbeeld ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![&#x200B; De pagina Over ons die is opgenomen in het Luminagearchief van het voorbeeld &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Basisinhoudpagina&#39;s
 
@@ -25,11 +25,11 @@ In de demo-store van [!DNL Commerce] staan voorbeelden van de belangrijkste inho
 
 ### Home
 
-De demo [ 1&rbrace; pagina van het Huis &lbrace;omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
+De demo [&#x200B; 1&rbrace; pagina van het Huis &lbrace;omvat een banner, een beeldcarrousel, verscheidene statische blokken met verbindingen, en een lijst van nieuwe producten.](../getting-started/storefront.md#home-page)
 
 ### Privacybeleid
 
-De opslag [ pagina van het Beleid van de Privacy ](../getting-started/privacy-policy.md) zou met uw eigen informatie moeten worden bijgewerkt. Als beste praktijken, zou uw privacybeleid aan uw klanten het type van informatie moeten verklaren dat uw bedrijf verzamelt en hoe het wordt gebruikt.
+De opslag [&#x200B; pagina van het Beleid van de Privacy &#x200B;](../getting-started/privacy-policy.md) zou met uw eigen informatie moeten worden bijgewerkt. Als beste praktijken, zou uw privacybeleid aan uw klanten het type van informatie moeten verklaren dat uw bedrijf verzamelt en hoe het wordt gebruikt.
 
 ### 404 Niet gevonden
 
@@ -39,15 +39,15 @@ De pagina 404 Pagina niet gevonden wordt genoemd naar de antwoordcode die wordt 
 
 {{b2b-feature}}
 
-De [ Ontkende Toegang ](../b2b/account-company-roles-permissions.md) pagina verschijnt wanneer de toestemmingen die aan een bedrijfgebruiker worden toegewezen toegang tot de pagina verhinderen.
+De [&#x200B; Ontkende Toegang &#x200B;](../b2b/account-company-roles-permissions.md) pagina verschijnt wanneer de toestemmingen die aan een bedrijfgebruiker worden toegewezen toegang tot de pagina verhinderen.
 
 ### Cookies inschakelen
 
-[ laat Cookies ](../getting-started/compliance-cookie-law.md) pagina toe verschijnt wanneer de bezoekers aan uw plaats geen koekjes hebben die in hun browsers worden toegelaten. De pagina bevat stapsgewijze, geïllustreerde instructies om cookies in te schakelen voor de populairste browsers.
+[&#x200B; laat Cookies &#x200B;](../getting-started/compliance-cookie-law.md) pagina toe verschijnt wanneer de bezoekers aan uw plaats geen koekjes hebben die in hun browsers worden toegelaten. De pagina bevat stapsgewijze, geïllustreerde instructies om cookies in te schakelen voor de populairste browsers.
 
 ### Service niet beschikbaar
 
-De [ 503 niet beschikbare ](../configuration-reference/general/general.md) pagina van de Dienst wordt genoemd voor de antwoordcode die is teruggekeerd wanneer de server niet beschikbaar is.
+De [&#x200B; 503 niet beschikbare &#x200B;](../configuration-reference/general/general.md) pagina van de Dienst wordt genoemd voor de antwoordcode die is teruggekeerd wanneer de server niet beschikbaar is.
 
 ### Over ons
 
@@ -57,21 +57,21 @@ De pagina Over ons is gekoppeld vanuit de voettekst van uw winkel. U kunt afbeel
 
 De pagina van de Dienst van de Klant is een ander knooppunt in de paginahiërarchie. De twee kopballen op de pagina hebben inhoud die slechts zichtbaar wordt wanneer de klant de kopbal klikt.
 
-![ pagina van de Dienst van de Klant op de winkel ](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
+![&#x200B; pagina van de Dienst van de Klant op de winkel &#x200B;](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
 
 ## Standaardpagina&#39;s configureren
 
-De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met [ basis URL ](../stores-purchase/store-urls.md) en de overeenkomstige homepage wordt geassocieerd. Het bepaalt ook welke pagina verschijnt wanneer de a _Gevonden niet Pagina_ fout voorkomt, en als het spoor van a [ breadcrumb ](../catalog/navigation-breadcrumb-trail.md) bij de bovenkant van elke pagina verschijnt.
+De _standaardconfiguratie van Pagina&#39;s_ bepaalt de het landen pagina die met [&#x200B; basis URL &#x200B;](../stores-purchase/store-urls.md) en de overeenkomstige homepage wordt geassocieerd. Het bepaalt ook welke pagina verschijnt wanneer de a _Gevonden niet Pagina_ fout voorkomt, en als het spoor van a [&#x200B; breadcrumb &#x200B;](../catalog/navigation-breadcrumb-trail.md) bij de bovenkant van elke pagina verschijnt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Default Pages]** sectie uit.
 
-   ![ Standaardpagina&#39;s ](./assets/web-default-pages.png){width="500" zoomable="yes"}
+   ![&#x200B; Standaardpagina&#39;s &#x200B;](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
-   | Veld | [ Reikwijdte ](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+   | Veld | [&#x200B; Reikwijdte &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | Winkelweergave | Geeft de bestemmingspagina aan die aan de basis-URL is gekoppeld. Standaard is dit veld ingesteld op `cms` om een pagina aan te geven vanuit het inhoudsbeheersysteem van [!DNL Commerce] . U kunt ook een ander type bestemmingspagina gebruiken, zoals een blog. Als een blog bijvoorbeeld is geïnstalleerd op de server op `magento/blog` , kunt u de mapnaam `blog` invoeren als een relatief pad naar de selectie van pagina&#39;s. |
    | [!UICONTROL CMS Home Page] | Winkelweergave | Als u de homepage voor de winkel wilt kiezen, selecteert u gewoon de CMS-pagina in de lijst. Standaard wordt op de startpagina van CMS de volledige selectie van CMS-pagina&#39;s weergegeven die beschikbaar zijn voor je winkel. |

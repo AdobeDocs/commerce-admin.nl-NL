@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Media - schuifregelaar
 
-Gebruik het _inhoudstype van de Schuif_ om een diapresentatie van beelden aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. U kunt nieuwe afbeeldingen uploaden of bestaande afbeeldingen kiezen in de galerie of productcatalogus. Een schuifregelaar kan worden ingesteld op automatisch afspelen of kan handmatig met navigatieknoppen worden beheerd. Om de schuif met een specifieke bevordering te associëren, zie [ Dynamisch Blok ](dynamic-block.md).
+Gebruik het _inhoudstype van de Schuif_ om een diapresentatie van beelden aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. U kunt nieuwe afbeeldingen uploaden of bestaande afbeeldingen kiezen in de galerie of productcatalogus. Een schuifregelaar kan worden ingesteld op automatisch afspelen of kan handmatig met navigatieknoppen worden beheerd. Om de schuif met een specifieke bevordering te associëren, zie [&#x200B; Dynamisch Blok &#x200B;](dynamic-block.md).
 
-![ schuif van Media op storefront ](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
+![&#x200B; schuif van Media op storefront &#x200B;](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,15 +24,15 @@ Wanneer u met het inhoudstype Slider werkt, voegt u afzonderlijke dia&#39;s en d
 
 ## Afzonderlijke dia, gereedschapset
 
-![ Individuele dia toolbox ](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
+![&#x200B; Individuele dia toolbox &#x200B;](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de dia naar een andere positie op de schuifregelaar. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de dia naar een andere positie op de schuifregelaar. |
 | (label) | Dianummer | Hiermee wordt het nummer van de huidige dia aangegeven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Slide]_, waar u de eigenschappen van de huidige dia kunt wijzigen. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige dia. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige dia uit de schuifregelaar. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Slide]_, waar u de eigenschappen van de huidige dia kunt wijzigen. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de huidige dia. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de huidige dia uit de schuifregelaar. |
 
 {style="table-layout:auto"}
 
@@ -40,13 +40,13 @@ Wanneer u met het inhoudstype Slider werkt, voegt u afzonderlijke dia&#39;s en d
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de schuifregelaar naar een andere positie in het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de schuifregelaar naar een andere positie in het werkgebied. |
 | (label) | [!UICONTROL Slider] | Hiermee wordt de container van de schuifregelaar aangegeven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Slider]_, waar u de eigenschappen van de video en de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige schuifregelaar. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Geeft de verborgen schuifregelaar weer. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de schuifregelaar. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de schuifregelaar uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Slider]_, waar u de eigenschappen van de video en de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige schuifregelaar. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Geeft de verborgen schuifregelaar weer. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de schuifregelaar. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de schuifregelaar uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -60,15 +60,15 @@ Wanneer u met het inhoudstype Slider werkt, voegt u afzonderlijke dia&#39;s en d
 
    In het volgende voorbeeld is de achtergrondkleur van de rij geel (`#fffd16`).
 
-   ![ slepend de schuif aan het stadium ](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend de schuif aan het stadium &#x200B;](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
 
    De schuifregelaarcontainer wordt in het werkgebied weergegeven met één lege dia.
 
-1. Klik in de schuifcontainer om de [ tekstredacteur ](../content-design/editor.md) te tonen en inhoud voor de eerste dia in te gaan.
+1. Klik in de schuifcontainer om de [&#x200B; tekstredacteur &#x200B;](../content-design/editor.md) te tonen en inhoud voor de eerste dia in te gaan.
 
-   U kunt complexere bannerinhoud ook omvatten gebruikend de [ montages van de Inhoud ](#content).
+   U kunt complexere bannerinhoud ook omvatten gebruikend de [&#x200B; montages van de Inhoud &#x200B;](#content).
 
-1. Klik de navigatiepunt bij de bodem van de schuif om toolbox voor de individuele dia te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de navigatiepunt bij de bodem van de schuif om toolbox voor de individuele dia te tonen en het _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
    Schuifregelaars hebben twee gereedschapskisten. Zorg ervoor dat u de dioolbox bij de bodem gebruikt.
 
@@ -92,11 +92,11 @@ U kunt als volgt dia&#39;s toevoegen:
 
 U kunt tijd besparen door een dia te dupliceren die al met de benodigde instellingen is geconfigureerd.
 
-1. Klik de navigatiepunt onder de dia om toolbox te tonen en _te kiezen dupliceert_ ( ![ pictogram Dupliceert ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
+1. Klik de navigatiepunt onder de dia om toolbox te tonen en _te kiezen dupliceert_ ( ![&#x200B; pictogram Dupliceert &#x200B;](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
-   ![ Duplicerend een dia ](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
+   ![&#x200B; Duplicerend een dia &#x200B;](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. Klik de navigatiepunt voor de nieuwe dia en om toolbox te tonen en _te kiezen Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de navigatiepunt voor de nieuwe dia en om toolbox te tonen en _te kiezen Montages_ ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig desgewenst de instellingen in de volgende secties:
 
@@ -109,15 +109,15 @@ U kunt tijd besparen door een dia te dupliceren die al met de benodigde instelli
 
 ### Methode 2: Een nieuwe, lege dia toevoegen
 
-1. Beweeg over de schuifcontainer bij de bovenkant om toolbox te tonen en _te kiezen voeg_ toe ( ![ voeg pictogram ](./assets/pb-icon-add.png){width="20"} toe) pictogram.
+1. Beweeg over de schuifcontainer bij de bovenkant om toolbox te tonen en _te kiezen voeg_ toe ( ![&#x200B; voeg pictogram &#x200B;](./assets/pb-icon-add.png){width="20"} toe) pictogram.
 
-   ![ Toevoegend een lege dia ](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
+   ![&#x200B; Toevoegend een lege dia &#x200B;](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
    Er wordt een nieuwe lege dia met een eigen navigatiepunt en gereedschapset toegevoegd aan de schuifregelaar en weergegeven in het werkgebied.
 
-   ![ Nieuwe dia met toolbox ](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Nieuwe dia met toolbox &#x200B;](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. Klik de navigatiepunt voor de nieuwe dia en om toolbox te tonen en _te kiezen Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de navigatiepunt voor de nieuwe dia en om toolbox te tonen en _te kiezen Montages_ ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig desgewenst de instellingen in de volgende secties:
 
@@ -130,21 +130,21 @@ U kunt tijd besparen door een dia te dupliceren die al met de benodigde instelli
 
 ### Widget toevoegen aan een dia
 
-U kunt om het even welk [ widget type ](../content-design/widgets.md#widget-types) aan uw dia in a [!DNL Page Builder] stadium toevoegen gebruikend de volgende stappen:
+U kunt om het even welk [&#x200B; widget type &#x200B;](../content-design/widgets.md#widget-types) aan uw dia in a [!DNL Page Builder] stadium toevoegen gebruikend de volgende stappen:
 
-1. [ creeer widget ](../content-design/widget-create.md) die u op een dia wilt zien.
+1. [&#x200B; creeer widget &#x200B;](../content-design/widget-create.md) die u op een dia wilt zien.
 
 1. Open de pagina, het blok of het dynamische blok waar u de schuifregelaar wilt plaatsen en vouw de sectie **[!UICONTROL Content]** uit.
 
 1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Media]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Slider]** naar een rij, kolom of tab in het werkgebied.
 
-1. Klik in de slidercontainer om de [ 1&rbrace; toolbar van de tekstredacteur &lbrace;te tonen en ](../content-design/editor.md) Widget van het Tussenvoegsel _(_ pictogram van het Tussenvoegsel widget ![) te klikken.](./assets/editor-btn-insert-widget.png){width="20"}
+1. Klik in de slidercontainer om de [&#x200B; 1&rbrace; toolbar van de tekstredacteur &lbrace;te tonen en &#x200B;](../content-design/editor.md) Widget van het Tussenvoegsel _(_ pictogram van het Tussenvoegsel widget ![) te klikken.](./assets/editor-btn-insert-widget.png){width="20"}
 
 1. Selecteer de **[!UICONTROL Widget Type]** die u nodig hebt.
 
 1. Geef de instellingen op. Deze verschillen afhankelijk van het type widget
 
-   ![ Voorbeeld van het opnemen van widget op de dia ](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorbeeld van het opnemen van widget op de dia &#x200B;](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
 1. Klik na voltooiing op **[!UICONTROL Insert Widget]** in de rechterbovenhoek.
 
@@ -152,13 +152,13 @@ U kunt om het even welk [ widget type ](../content-design/widgets.md#widget-type
 
 1. Klik na voltooiing op **[!UICONTROL Save]** in de rechterbovenhoek.
 
-   ![ Voorbeeld van opgenomen widget op de dia ](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorbeeld van opgenomen widget op de dia &#x200B;](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
 ### Elke dia weergeven
 
 Als u elke dia in het werkgebied wilt weergeven, klikt u op de volgende stip onder de momenteel weergegeven dia.
 
-![ Voltooide schuif ](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
+![&#x200B; Voltooide schuif &#x200B;](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
 
 De dia in het voorgaande voorbeeld heeft een achtergrondafbeelding, een transparante mobiele afbeelding en een inline-afbeelding die uit de teksteditor is toegevoegd. Deze techniek werkt goed op mobiele apparaten door de achtergrondafbeelding uit te schakelen en alleen de kleinere inline-afbeelding weer te geven. De productdia in dit voorbeeld heeft de volgende aanvullende instellingen:
 
@@ -185,7 +185,7 @@ De dia in het voorgaande voorbeeld heeft een achtergrondafbeelding, een transpar
 
 1. Wijzig de weergave van de schuifregelaar in het werkgebied en bekijk de dia die u wilt wijzigen.
 
-1. Voor individuele diasoolbox, kies het _pictogram van Montages_ ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}) en voltooi de montages, zoals nodig, volgens volgende secties.
+1. Voor individuele diasoolbox, kies het _pictogram van Montages_ ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}) en voltooi de montages, zoals nodig, volgens volgende secties.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -202,13 +202,13 @@ De dia in het voorgaande voorbeeld heeft een achtergrondafbeelding, een transpar
 
    {style="table-layout:auto"}
 
-   ![ het plaatsen van de dia ](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; het plaatsen van de dia &#x200B;](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Slide Name]** in.
 
    In de bewerkingsmodus wordt de dianaam weergegeven als knopinfo boven de navigatiepunt. De dianaam is niet zichtbaar van de storefront.
 
-   ![ de naam van de dia in de navigatie ](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
+   ![&#x200B; de naam van de dia in de navigatie &#x200B;](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Minimum Height]** in voor de dia.
 
@@ -228,7 +228,7 @@ Er zijn veel opties voor het definiëren van de achtergrondweergave van een dia.
 
 Geef de achtergrondkleur op door een staal te kiezen, op de kleurkiezer te klikken of door een geldige kleurnaam of een gelijkwaardige hexadecimale waarde in te voeren. Deze instelling bepaalt de achtergrondkleur van de rij. U kunt ook de dekking van de kleur aanpassen.
 
-![ Geen kleur (gebrek) ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; Geen kleur (gebrek) &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 U kunt de waarde op drie manieren instellen:
 
@@ -238,11 +238,11 @@ U kunt de waarde op drie manieren instellen:
 
 Als u een kleur wilt kiezen, klik het monster links van _Geen doos van de Kleur_.
 
-![ het Kiezen van een kleurenmonster ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; het Kiezen van een kleurenmonster &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het vak onder de schuifregelaar de huidige waarden voor rood, groen, blauw en alpha (rgba) weergegeven. Het laatste getal geeft het huidige dekkingspercentage aan als een decimaal. U kunt de schuifregelaar gebruiken om de dekking aan te passen of de gewenste decimale waarde invoeren.
 
-![ plaatsende achtergrondkleurendekking ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![&#x200B; plaatsende achtergrondkleurendekking &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -252,13 +252,13 @@ Als u nogmaals op het kleurvak klikt om de kleurkiezer te openen, worden in het 
 
 Een achtergrondtype kan een afbeelding of video zijn. [!DNL Page Builder] is standaard ingesteld op `Image` en geeft verschillende afbeeldingsinstellingen weer. Als u `Video` selecteert, vervangt [!DNL Page Builder] de afbeeldingsinstellingen door video-instellingen. Beide instellingen voor achtergrondtypen worden in de volgende secties beschreven.
 
-![ Achtergrondtype ](./assets/pb-background-type.png){width="400"}
+![&#x200B; Achtergrondtype &#x200B;](./assets/pb-background-type.png){width="400"}
 
 ### Instellingen voor afbeeldingstypen
 
 Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de volgende instellingen om de weergave van de achtergrondafbeelding te definiëren.
 
-![ Banner met achtergrondbeeld ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![&#x200B; Banner met achtergrondbeeld &#x200B;](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** - Kies zo nodig met de beschikbare gereedschappen een achtergrondafbeelding die u op de banner wilt toepassen:
 
@@ -266,7 +266,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de
   | ---- | ----------- |
   | [!UICONTROL Upload] | Uploadt een afbeeldingsbestand van uw lokale computer naar de galerie en past het vervolgens toe als de achtergrondafbeelding voor de banner. |
   | [!UICONTROL Select from Gallery] | Hiermee wordt u gevraagd een bestaande afbeelding in de galerie te kiezen als achtergrondafbeelding voor de banner. |
-  | ![ het pictogram van de Camera ](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
+  | ![&#x200B; het pictogram van de Camera &#x200B;](./assets/pb-icon-camera.png){width="25"} | Hiermee kunt u de afbeelding naar de tegel van de camera slepen of naar de afbeelding in uw lokale bestandssysteem bladeren. |
 
   {style="table-layout:auto"}
 
@@ -282,7 +282,7 @@ Als u de _[!UICONTROL Background Type]_&#x200B;op `Image` instelt, gebruikt u de
 
   {style="table-layout:auto"}
 
-  ![ Achtergrondgrootte ](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
+  ![&#x200B; Achtergrondgrootte &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
 
 - **[!UICONTROL Background Position]** - Kies hoe de achtergrondafbeelding ten opzichte van de banner is verankerd:
 
@@ -308,7 +308,7 @@ Als u het _Type van Achtergrond_ aan `Video` plaatst, gebruik de volgende montag
    - Vimeo-video&#39;s: `https://vimeo.com/190156113`
    - Geldige videobestanden (`.mp4` wordt aanbevolen): `https://myvideos.com/spiral.mp4`
 
-  ![ Achtergrondvideo URL ](./assets/pb-video-url.png){width="500"}
+  ![&#x200B; Achtergrondvideo URL &#x200B;](./assets/pb-video-url.png){width="500"}
 
 - **[!UICONTROL Overlay Color]** - Selecteer een kleur om een transparante tint toe te passen op de video.
 
@@ -322,7 +322,7 @@ Als u het _Type van Achtergrond_ aan `Video` plaatst, gebruik de volgende montag
 
 ## [!UICONTROL Content]
 
-U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de instellingen wijzigt. De instellingen bieden complexere inhoudseigenschappen, zoals diakoppelingen en knoppen, en overlays. De positie van de inhoud wijst op de [ Verschijning ](#appearance) plaatsing die.
+U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de instellingen wijzigt. De instellingen bieden complexere inhoudseigenschappen, zoals diakoppelingen en knoppen, en overlays. De positie van de inhoud wijst op de [&#x200B; Verschijning &#x200B;](#appearance) plaatsing die.
 
 ### Eenvoudige inhoud in het werkgebied
 
@@ -332,11 +332,11 @@ U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de ins
 
 1. Gebruik de editor-werkbalk om tekst in te voeren en op te maken, en om elementen in te voegen, zoals koppelingen, afbeeldingen en widgets.
 
-   ![ Stadium met geformatteerde teksten ](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+   ![&#x200B; Stadium met geformatteerde teksten &#x200B;](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### Complexe inhoud in de instellingen
 
-1. Klik de navigatiepunt bij de bodem van de schuif om toolbox voor de individuele dia te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de navigatiepunt bij de bodem van de schuif om toolbox voor de individuele dia te tonen en het _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Voer in de sectie _[!UICONTROL Content]_&#x200B;de **[!UICONTROL Message Text]**&#x200B;in die u bij de dia wilt weergeven.
 
@@ -356,20 +356,20 @@ U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de ins
 
    - **[!UICONTROL Product]** - Identificeert de bestemmingspagina die op de productnaam of SKU wordt gebaseerd. Zoek het product op naam die op of een gedeeltelijke of volledige naam wordt gebaseerd. Kies het product in de lijst met zoekresultaten.
 
-     ![ Kiekend een product om ](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"} te verbinden
+     ![&#x200B; Kiekend een product om &#x200B;](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"} te verbinden
 
    - **[!UICONTROL Category]** - Hiermee wordt de doelpagina geïdentificeerd als een specifieke categorie of subcategorie in de categoriestructuur. Zoek de categorie op basis van een gedeeltelijke of volledige naam. Kies de categorie in het uitgebreide gedeelte van de weergegeven structuur.
 
-     ![ Kiekend een categorie om ](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"} te verbinden
+     ![&#x200B; Kiekend een categorie om &#x200B;](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"} te verbinden
 
    - **[!UICONTROL Page]** - Hiermee wordt de doelpagina geïdentificeerd als een specifieke inhoudspagina. Zoeken naar de pagina op basis van een gedeeltelijke of volledige naam. Kies de pagina in de lijst met zoekresultaten.
 
-     ![ het Kiezen van een pagina aan verbinding ](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![&#x200B; het Kiezen van een pagina aan verbinding &#x200B;](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
    Vanaf versie 2.4.1 ondersteunt [!DNL Page Builder] geen koppeling meer tussen de dia en koppelingen in de geneste tekst vanwege problemen met de weergave op de winkel. Als u een verbinding in _ [!UICONTROL Message Text]_ gebruikt, kunt u niet de _ [!UICONTROL Link] _optie vormen. Als u liever één koppeling gebruikt voor de hele dia, kunt u alle koppelingen uit de tekst verwijderen.
 
-   ![ de configuratie van de Verbinding wordt geblokkeerd ](./assets/pb-nested-link-blocked.png){width="300"}
+   ![&#x200B; de configuratie van de Verbinding wordt geblokkeerd &#x200B;](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
    Schakel het selectievakje **[!UICONTROL Open in new tab]** in als u wilt voorkomen dat de bezoeker uit uw winkel navigeert. Wanneer het selectievakje is uitgeschakeld, wordt de gekoppelde bestemming geopend op hetzelfde browsertabblad, waardoor de bezoeker daadwerkelijk van de winkel kan wegnavigeren.
@@ -378,11 +378,11 @@ U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de ins
 
    De dia _Verschijning_ positie plaatst één enkele verbinding of knoop onder de tekst. Vul de eigenschappen in van de koppeling of knop die u wilt toevoegen.
 
-   ![ de verschijning van de Dia - collage recht ](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; de verschijning van de Dia - collage recht &#x200B;](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >U kunt veelvoudige knopen of verbindingen ook gebruiken door a [ blok ](block.md) aan de banner toe te voegen. U voorkomt conflicten door alle koppelingen of knoppen in het aparte blok te houden en geen koppeling of knop rechtstreeks aan de banner toe te voegen.
+   >U kunt veelvoudige knopen of verbindingen ook gebruiken door a [&#x200B; blok &#x200B;](block.md) aan de banner toe te voegen. U voorkomt conflicten door alle koppelingen of knoppen in het aparte blok te houden en geen koppeling of knop rechtstreeks aan de banner toe te voegen.
 
    - Stel **[!UICONTROL Show Button]** in op een van de volgende opties:
 
@@ -420,14 +420,14 @@ U kunt de dia-inhoud rechtstreeks in het werkgebied wijzigen of wanneer u de ins
 
    Met een bedekking kunt u een achtergrondkleur toepassen op het actieve inhoudsgebied dat wordt gedefinieerd door de instelling Weergave. De achtergrondafbeelding van de dia blijft zichtbaar voor de volledige breedte van de dia.
 
-   ![ montages van de de bekleding van de dia ](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; montages van de de bekleding van de dia &#x200B;](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
    Als u een bedekking wilt weergeven, stelt u de optie **[!UICONTROL Overlay Color]** in:
 
    - Klik het _Geen Monster van de Kleur_, en kies een monster.
    - Voer in het veld **[!UICONTROL Color]** een geldige kleurnaam of een hexadecimale waarde in.
 
-   ![ de bedekkingskleur van de Dia ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; de bedekkingskleur van de Dia &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -474,7 +474,7 @@ Tekst voor deze instellingen is zichtbaar voor zoekprogramma&#39;s en verbetert 
 
 1. Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-   ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+   ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | Optie | Beschrijving |
    | ------ |------------ |
@@ -507,17 +507,17 @@ Als u een titel boven de schuif wilt, voeg eenvoudig het inhoudstype van de a [ 
 
    Terwijl u sleept, markeert een rode hulplijn het invoegpunt boven de schuifregelaar.
 
-   ![ slepend een tekstplaceholder boven een schuif ](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een tekstplaceholder boven een schuif &#x200B;](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. Gebruik de editor om de tekst zo nodig op te maken.
 
-   ![ Uitgevend de tekst van de schuiftitel ](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
+   ![&#x200B; Uitgevend de tekst van de schuiftitel &#x200B;](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
 
 ## Instellingen van schuifregelaar wijzigen
 
-1. Beweeg over de slidercontainer om belangrijkste toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de slidercontainer om belangrijkste toolbox te tonen en de _Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ toolbox van de Schuif ](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; toolbox van de Schuif &#x200B;](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Minimum Height]** in voor de dia.
 
@@ -525,19 +525,19 @@ Als u een titel boven de schuif wilt, voeg eenvoudig het inhoudstype van de a [ 
 
    U kunt bijvoorbeeld de minimumhoogte van een schuifregelaar zo instellen dat de volledige hoogte van de pagina wordt uitgerekt. Zo hebt u aantrekkelijke opties voor achtergrondafbeeldingen en video&#39;s van volledige pagina.
 
-   ![ minimumhoogte van de Schuifregelaar ](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
+   ![&#x200B; minimumhoogte van de Schuifregelaar &#x200B;](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
 1. Als u wilt dat de schuifregelaar begint wanneer de pagina wordt geladen, stelt u **[!UICONTROL Autoplay]** in op `Yes` en stelt u **[!UICONTROL Autoplay Speed]** in op het aantal milliseconden in de vertraging tussen de dia&#39;s.
 
    De snelheid wordt standaard ingesteld op 4000 ms. Dit is vier seconden. Als u Automatisch afspelen instelt op `No` , wordt standaard de eerste dia weergegeven en moet de klant op de schuifnavigatie (punten of pijlen) klikken om de volgende dia in de juiste volgorde weer te geven.
 
-   ![ de montages van de Schuifregelaar autoplay ](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
+   ![&#x200B; de montages van de Schuifregelaar autoplay &#x200B;](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
 1. Als u de overgang van de ene dia naar de andere vloeiend wilt maken, stelt u **[!UICONTROL Fade]** in op `Yes` .
 
    Met vervagen lijken de dia&#39;s op hun plaats te blijven, maar de inhoud verandert van de ene naar de andere vloeiend. Zonder vervagen ziet u de horizontale verplaatsing van de ene dia naar de volgende.
 
-   ![ de schuif vervaagt en oneindige lijnmontages ](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
+   ![&#x200B; de schuif vervaagt en oneindige lijnmontages &#x200B;](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
 1. Als u wilt dat de diapresentatie oneindig wordt herhaald terwijl de pagina is geopend, stelt u **[!UICONTROL Infinite Loop]** in op `Yes` .
 
@@ -547,9 +547,9 @@ Als u een titel boven de schuif wilt, voeg eenvoudig het inhoudstype van de a [ 
 
    - Stel **[!UICONTROL Show Dots]** in op `Yes` als u een set navigatiepunten onder de schuifregelaar wilt opnemen.
 
-   ![ toont de presentatiepijlen en punten ](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+   ![&#x200B; toont de presentatiepijlen en punten &#x200B;](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. Voltooi de [ Geavanceerde ](#slider-advanced) slidermontages zoals nodig.
+1. Voltooi de [&#x200B; Geavanceerde &#x200B;](#slider-advanced) slidermontages zoals nodig.
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -616,10 +616,10 @@ Als u een titel boven de schuif wilt, voeg eenvoudig het inhoudstype van de a [ 
 
 1. Vind de pagina in het _Net van Pagina&#39;s_ en selecteer **[!UICONTROL View]** in de _[!UICONTROL Action]_&#x200B;kolom.
 
-   ![ de voorproef van de Schuif - standaardmening ](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
+   ![&#x200B; de voorproef van de Schuif - standaardmening &#x200B;](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    Wanneer u de schuifregelaar voorvertoont, wijzigt u de grootte van het venster, zodat u kunt zien hoe het op een mobiel apparaat wordt weergegeven.
 
-   ![ de voorproef van de Schuif - mobiele mening ](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+   ![&#x200B; de voorproef van de Schuif - mobiele mening &#x200B;](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -16,7 +16,7 @@ Een van de eerste stappen bij het maken van een product is het kiezen van de ken
 
 De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord worden weergegeven. Uw opslag komt met een aanvankelijke geplaatste attributen (genoemd _gebrek_) die een reeks algemeen gebruikte attributen omvat. Als u slechts enkele kenmerken wilt toevoegen, kunt u deze toevoegen aan deze standaardkenmerkset. Als u producten verkoopt die specifieke soorten informatie vereisen, zou het beter kunnen zijn om een specifieke attributenreeks tot stand te brengen die de specifieke attributen nodig voor het product omvat.
 
-![ Reeksen van Attributen ](./assets/attribute-sets.png){width="700" zoomable="yes"}
+![&#x200B; Reeksen van Attributen &#x200B;](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## Een kenmerkset maken
 
@@ -24,7 +24,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
 1. Klik op **[!UICONTROL Add New Set]**.
 
-   ![ Reeks van Attributen - geef naam uit ](./assets/attribute-set-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Reeks van Attributen - geef naam uit &#x200B;](./assets/attribute-set-new.png){width="600" zoomable="yes"}
 
 1. Voer een **[!UICONTROL Name]** in voor de kenmerkset.
 
@@ -46,7 +46,7 @@ De kenmerken zijn ingedeeld in groepen die bepalen waar ze in de productrecord w
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
-![ Reeks van Attributen - geef uit ](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
+![&#x200B; Reeks van Attributen - geef uit &#x200B;](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
 
 ## Een kenmerkengroep maken
 

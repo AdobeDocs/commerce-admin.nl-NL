@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Dashboard]
 
-![ Dashboard ](./assets/reports-dashboard.png)<!-- zoom -->
+![&#x200B; Dashboard &#x200B;](./assets/reports-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Year-to-Date Starts] | Algemeen | Hiermee geeft u de maand en de dag op waarop de berekeningen van jaar tot dag worden gebaseerd. |
 | [!UICONTROL Current Month Starts] | Algemeen | Geeft de dag van de maand aan die in berekeningen wordt gebruikt om het begin van de huidige maand te markeren. |
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## [!UICONTROL General Options]
 
-![ Algemene Opties ](./assets/reports-general-options.png)<!-- zoom -->
+![&#x200B; Algemene Opties &#x200B;](./assets/reports-general-options.png)<!-- zoom -->
 
 >[!NOTE]
 >
 >Als uw bedrijfsfuncties geen rapportering vereisen, adviseren wij dat u de rapportfunctionaliteit onbruikbaar maakt om opslagprestaties te verbeteren. Nochtans, baseren sommige eigenschappen, zoals dynamische klantensegmenten, zich op rapportgegevens om behoorlijk te functioneren.
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Reports] | Algemeen | Schakelt rapportgebeurtenissen in of uit. |
 | [!UICONTROL Enable "Product View" Report] | Algemeen | Hiermee schakelt u het verzamelen van statistieken van weergegeven productpagina&#39;s in of uit. |

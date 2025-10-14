@@ -18,19 +18,19 @@ Het vak Geplande wijzigingen wordt boven aan de pagina weergegeven wanneer een n
 
 >[!NOTE]
 >
->De [!UICONTROL From] en [!UICONTROL To] gebieden zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de regel van de catalogusprijs worden gewijzigd. U moet een geplande update maken voor deze activeringen.
+>De [!UICONTROL From] en [!UICONTROL To] gebieden zijn verwijderd in ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op de regel van de catalogusprijs worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 >[!NOTE]
 >
 >Alle geplande updates worden achtereenvolgens toegepast. Dit betekent dat elke entiteit slechts één geplande update op één tijdstip kan hebben. Elke geplande update wordt toegepast op alle winkelweergaven binnen de opgegeven tijdsperiode. Dientengevolge, kan een entiteit verschillende geplande updates voor verschillende opslagmeningen niet tezelfdertijd hebben. Alle waarden van entiteitattributen binnen alle opslagmeningen, die niet door de huidige geplande update worden beïnvloed, worden genomen van de standaardwaarden, en niet van de vorige geplande update.
 
-Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de instelling bij Prioriteit van de prijsregel welke regel voorrang krijgt. Meer leren, zie [ Inhoud het Opvoeren ](../content-design/content-staging.md).
+Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de instelling bij Prioriteit van de prijsregel welke regel voorrang krijgt. Meer leren, zie [&#x200B; Inhoud het Opvoeren &#x200B;](../content-design/content-staging.md).
 
 >[!IMPORTANT]
 >
 >Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
-![ de prijsregel van de Catalogus - geplande veranderingen ](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+![&#x200B; de prijsregel van de Catalogus - geplande veranderingen &#x200B;](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
 ## Een update van een regel voor catalogusprijzen plannen
 
@@ -46,9 +46,9 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    - Voer een korte **[!UICONTROL Description]** in van de update, inclusief de manier waarop of waarom deze is toegepast.
 
-   - Gebruik het _pictogram van de Kalender_ (![ pictogram van de Kalender ](../assets/icon-calendar.png)) om **[!DNL Start Date]** en **[!UICONTROL End Date]** voor de geplande verandering te kiezen om in werking te zijn. Laat de einddatum leeg als u een wijziging met een open einde wilt maken.
+   - Gebruik het _pictogram van de Kalender_ (![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png)) om **[!DNL Start Date]** en **[!UICONTROL End Date]** voor de geplande verandering te kiezen om in werking te zijn. Laat de einddatum leeg als u een wijziging met een open einde wilt maken.
 
-   ![ de prijsregels van de Catalogus - nieuwe geplande veranderingen ](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregels van de Catalogus - nieuwe geplande veranderingen &#x200B;](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
 1. Blader omlaag naar de sectie **[!UICONTROL Rule Information]** en wijzig de regel naar wens.
 
-   U kunt veranderingen voor om het even welke regelparameter, met inbegrip van de websites (werkingsgebied)/klantengroepen voor de regel, voorwaarden van de regel, en acties plannen die door de regel worden toegepast. Voor meer informatie, zie [ Creërend een Regel van de Prijs van de Catalogus ](price-rules-catalog-create.md).
+   U kunt veranderingen voor om het even welke regelparameter, met inbegrip van de websites (werkingsgebied)/klantengroepen voor de regel, voorwaarden van de regel, en acties plannen die door de regel worden toegepast. Voor meer informatie, zie [&#x200B; Creërend een Regel van de Prijs van de Catalogus &#x200B;](price-rules-catalog-create.md).
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    >[!NOTE]
    >
-   >Als een campagne met meer dan één regel van de catalogusprijs verbonden is, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
+   >Als een campagne met meer dan één regel van de catalogusprijs verbonden is, kan de campagne slechts van het [&#x200B; Inhoud Staging Dashboard &#x200B;](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -84,15 +84,15 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    In Voorvertoning wordt een nieuw browsertabblad geopend waarin uw winkelpatroon wordt geladen met de toegepaste geplande wijziging. Navigeer naar een product dat door de wijziging wordt beïnvloed.
 
-   ![ Voorproef Geplande Verandering ](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
+   ![&#x200B; Voorproef Geplande Verandering &#x200B;](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
 
 1. Klik in de linkerbovenhoek van het voorvertoningsvenster op **[!UICONTROL Calendar]** .
 
    De kalenderdetails tonen andere campagnes die voor de zelfde dag gepland zijn. Elke record in de lijst is een afzonderlijke regelupdate.
 
-   ![ Lijst van Geplande Updates voor een Specifieke Datum ](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+   ![&#x200B; Lijst van Geplande Updates voor een Specifieke Datum &#x200B;](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. Aan voorproef een verschillende dag of een tijd, klik het **[!UICONTROL Date & Time]** pictogram van de Kalender ![ ](../assets/icon-calendar.png) en doe het volgende:
+1. Aan voorproef een verschillende dag of een tijd, klik het **[!UICONTROL Date & Time]** pictogram van de Kalender ![&#x200B; &#x200B;](../assets/icon-calendar.png) en doe het volgende:
 
    - Kies een andere datum en/of tijd.
 
@@ -108,7 +108,7 @@ Als er meerdere prijsregels in dezelfde campagne worden uitgevoerd, bepaalt de i
 
    >[!NOTE]
    >
-   >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als uw [ rol toegang ](../systems/permissions-user-roles.md) heeft om een Admin gebruikersrekening tot stand te brengen, moet u de rekening voor een nieuwe gebruiker tot stand brengen alvorens te delen.
+   >Een Admin-gebruikersaccount is vereist om een gedeelde voorvertoning te kunnen zien. Als uw [&#x200B; rol toegang &#x200B;](../systems/permissions-user-roles.md) heeft om een Admin gebruikersrekening tot stand te brengen, moet u de rekening voor een nieuwe gebruiker tot stand brengen alvorens te delen.
 
    **verander het Toepassingsgebied van de Voorproef**
 

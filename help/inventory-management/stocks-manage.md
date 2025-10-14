@@ -23,7 +23,7 @@ Sales Channel vertegenwoordigen entiteiten die je voorraad verkopen. Standaard b
 
 Het volgende diagram helpt bepalen hoe een Voorraad met betrekking tot Bronnen en Sales Channel voor een handelaar van de Winkel van de Bicycle werkt.
 
-![ Diagram voor bijvoorbeeld voorraden voor een opslag ](assets/diagram-stock.png){width="600" zoomable="yes"}
+![&#x200B; Diagram voor bijvoorbeeld voorraden voor een opslag &#x200B;](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## Voorbeelden van een bergfiets en -winkel
 
@@ -35,9 +35,9 @@ Alle winkels beginnen met een standaardvoorraad. Deze moet `Enabled` blijven om 
 
 Voor producten met meerdere leveranciers maakt en configureert u voorraden die het best passen bij uw winkels en bestellingen. Wanneer u nieuwe voorraad aan een verkoopkanaal toewijst, wordt om het even welke reeds bestaande voorraad in dat verkoopkanaal unassigned.
 
-Voor een multi-opslaginstallatie, wordt de StandaardBeeld aanvankelijk toegewezen aan de [ Belangrijkste Website ](../stores-purchase/stores.md#add-websites){target="_blank"} en standaardopslag. Correcte hoeveelheden en voorraden worden weergegeven voor in- en uitgeschakeld producten in de rasterweergave van **[!UICONTROL Products]** .
+Voor een multi-opslaginstallatie, wordt de StandaardBeeld aanvankelijk toegewezen aan de [&#x200B; Belangrijkste Website &#x200B;](../stores-purchase/stores.md#add-websites){target="_blank"} en standaardopslag. Correcte hoeveelheden en voorraden worden weergegeven voor in- en uitgeschakeld producten in de rasterweergave van **[!UICONTROL Products]** .
 
-![ beheer Voorraad ](assets/inventory-stock.png){width="600" zoomable="yes"}
+![&#x200B; beheer Voorraad &#x200B;](assets/inventory-stock.png){width="600" zoomable="yes"}
 
 ## Knopbalk
 

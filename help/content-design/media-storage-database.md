@@ -30,7 +30,7 @@ Standaard worden alle afbeeldingen, gecompileerde CSS-bestanden en gecompileerde
 
 1. **Systeem bepaalt de plaats van media in gegevensbestand** - een PHP manuscript brengt de dossiers van het gegevensbestand aan het dossiersysteem over, en verzonden naar browser van de klant. De browser request for media activeert het script als volgt:
 
-   - Als de Webserver [ herschrijft ](../merchandising-promotions/url-rewrite.md) voor [!DNL Commerce] wordt toegelaten en door de server wordt gesteund, loopt het PHP manuscriptlooppas slechts wanneer de gevraagde media niet in het dossiersysteem wordt gevonden.
+   - Als de Webserver [&#x200B; herschrijft &#x200B;](../merchandising-promotions/url-rewrite.md) voor [!DNL Commerce] wordt toegelaten en door de server wordt gesteund, loopt het PHP manuscriptlooppas slechts wanneer de gevraagde media niet in het dossiersysteem wordt gevonden.
    - Als herschrijvingen van webservers zijn uitgeschakeld voor [!DNL Commerce] of niet worden ondersteund door de server, wordt het PHP-script toch uitgevoerd, zelfs als de vereiste media beschikbaar zijn in het bestandssysteem.
 
 ## Een database gebruiken voor mediaopslag
@@ -41,9 +41,9 @@ Standaard worden alle afbeeldingen, gecompileerde CSS-bestanden en gecompileerde
 
 1. Stel in de linkerbovenhoek **[!UICONTROL Store View]** in op `Default Config` om de configuratie op algemeen niveau toe te passen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Storage Configuration for Media]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Storage Configuration for Media]** sectie uit en doe het volgende:
 
-   ![ Geavanceerde configuratie - opslagconfiguratie voor media ](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde configuratie - opslagconfiguratie voor media &#x200B;](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Media Storage]** in op `Database` .
 

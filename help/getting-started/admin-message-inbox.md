@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Uw winkel ontvangt regelmatig berichten van de Adobe. De berichten worden beoordeeld door belang en zouden naar systeemupdates, flarden, nieuwe versies, gepland onderhoud, of aanstaande gebeurtenissen kunnen verwijzen. Het belpictogram in de koptekst geeft het aantal ongelezen berichten in uw postvak aan.
 
-![ Admin - inkomende berichten ](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
+![&#x200B; Admin - inkomende berichten &#x200B;](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
 Op de pagina _[!UICONTROL Notifications]_&#x200B;worden alle berichten weergegeven die op datum zijn gerangschikt. Met de opdrachten van&#x200B;_[!UICONTROL Action]_ kunt u afzonderlijke berichten markeren als gelezen berichten, meer gedetailleerde informatie weergeven of het bericht uit het Postvak IN verwijderen.
 
@@ -50,7 +50,7 @@ Voer een van de volgende handelingen uit voor een boodschap van cruciaal belang:
 
    - Klik op **[!UICONTROL Mark As Read]** als u het bericht in uw postvak wilt bewaren.
 
-     ![ Admin - Markeer geselecteerde berichten als gelezen ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![&#x200B; Admin - Markeer geselecteerde berichten als gelezen &#x200B;](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - Klik op **[!UICONTROL Remove]** om het bericht te verwijderen.
 
@@ -72,11 +72,11 @@ Voer een van de volgende handelingen uit voor een boodschap van cruciaal belang:
 
 1. Vouw in het navigatievenster aan de linkerkant **[!UICONTROL Advanced]** uit en kies **[!UICONTROL System]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Notifications]** sectie.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Notifications]** sectie.
 
-   ![ configuratie van Berichten ](./assets/system-notifications.png){width="600"}
+   ![&#x200B; configuratie van Berichten &#x200B;](./assets/system-notifications.png){width="600"}
 
-1. Als uw opslagAdmin over a [ veilige URL ](../stores-purchase/store-urls.md) loopt, plaats **[!UICONTROL Use HTTPS to Get Feed]** aan `Yes`.
+1. Als uw opslagAdmin over a [&#x200B; veilige URL &#x200B;](../stores-purchase/store-urls.md) loopt, plaats **[!UICONTROL Use HTTPS to Get Feed]** aan `Yes`.
 
 1. Stel **[!UICONTROL Update Frequency]** in om te bepalen hoe vaak uw Postvak IN wordt bijgewerkt.
 

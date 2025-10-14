@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Bundelproducten importeren
 
-Een bundelproduct biedt een selectie van items en biedt klanten de mogelijkheid om de items te kiezen die ze willen kopen. Alle punten die omhoog een bundel maken bestaan in de catalogus als of [ Eenvoudige Producten ](../catalog/product-create-simple.md) of [ Virtuele Producten ](../catalog/product-create-virtual.md). Gewoonlijk worden bundelproducten gemaakt en bijgewerkt via de beheerder. U kunt echter ook gegevens importeren om een bundelproduct te maken of u kunt bestaande bundelproducten exporteren, de gegevens bewerken en weer importeren in de catalogus. De Sprite Yoga Companion Kit is een bundelproduct in de voorbeeldgegevens die in de volgende voorbeelden worden gebruikt.
+Een bundelproduct biedt een selectie van items en biedt klanten de mogelijkheid om de items te kiezen die ze willen kopen. Alle punten die omhoog een bundel maken bestaan in de catalogus als of [&#x200B; Eenvoudige Producten &#x200B;](../catalog/product-create-simple.md) of [&#x200B; Virtuele Producten &#x200B;](../catalog/product-create-virtual.md). Gewoonlijk worden bundelproducten gemaakt en bijgewerkt via de beheerder. U kunt echter ook gegevens importeren om een bundelproduct te maken of u kunt bestaande bundelproducten exporteren, de gegevens bewerken en weer importeren in de catalogus. De Sprite Yoga Companion Kit is een bundelproduct in de voorbeeldgegevens die in de volgende voorbeelden worden gebruikt.
 
-![ Bundel Product ](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
+![&#x200B; Bundel Product &#x200B;](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
 
 ## De volgorde van bundelitems wijzigen
 
@@ -22,9 +22,9 @@ Er zijn twee manieren om de orde van punten in een bundelproduct te veranderen.
 
 ### Methode 1: Slepen en neerzetten
 
-Wanneer het werken met a [ Bundel ](../catalog/product-create-bundle.md) product van Admin, kunt u punten en secties in positie slepen en laten vallen.
+Wanneer het werken met a [&#x200B; Bundel &#x200B;](../catalog/product-create-bundle.md) product van Admin, kunt u punten en secties in positie slepen en laten vallen.
 
-![ Bundel Punten ](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+![&#x200B; Bundel Punten &#x200B;](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
 ### Methode 2: De productgegevens bewerken
 
@@ -43,7 +43,7 @@ De beste manier om de structuur van een bundelproduct te begrijpen is het produc
 
 #### Stap 1: Het bundelproduct exporteren
 
-In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv.md) dossier. U kunt elk ander bundelproduct gebruiken dat u in uw catalogus hebt.
+In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([&#x200B; CSV &#x200B;](data-csv.md) dossier. U kunt elk ander bundelproduct gebruiken dat u in uw catalogus hebt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
@@ -67,7 +67,7 @@ In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv
 
    In de `bundle_values` -gegevens wordt elk element gescheiden door komma&#39;s en wordt elk bundelitem gescheiden van het volgende element met een verticale balk. (Het laatste item eindigt niet met een verticale balk.) De geëxporteerde bundelgegevens moeten er ongeveer als volgt uitzien:
 
-   ![ Bundel Waarden ](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
+   ![&#x200B; Bundel Waarden &#x200B;](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
 
 1. Om het gemakkelijker te maken om uit te geven, kunt u de `bundle_values` gegevens kopiëren, en het kleven in een tekstredacteur, dan, voeg een lijnonderbreking na elk punt toe, zodat is elk punt op een afzonderlijke lijn.
 
@@ -75,7 +75,7 @@ In deze stap, wordt SPRITE Yoga Companion Kit uitgevoerd als a ([ CSV ](data-csv
 
    In de volgende afbeelding wordt een parameter `position=[number]` toegevoegd aan elke yoga-riem om de volgorde van de items in de winkellijst te wijzigen.
 
-   ![ Parameter van de Positie ](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
+   ![&#x200B; Parameter van de Positie &#x200B;](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
 
 1. Nadat u de gegevens hebt bewerkt, **[!UICONTROL Save]** het CSV-bestand.
 

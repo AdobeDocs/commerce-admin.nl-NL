@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Prijsbereik
 
-Het werkingsgebied van de [ basismunt ](../stores-purchase/currency-configuration.md) die voor productprijzen wordt gebruikt kan worden gevormd om op of globaal of websiteniveau van toepassing te zijn. Indien toegepast op het algemene niveau, wordt dezelfde prijs gebruikt in de hele winkelhiërarchie. Als hetzelfde product wordt toegepast op het niveau van de website, kan het voor verschillende prijzen beschikbaar zijn dan in winkels die bij verschillende websites horen. Standaard is het bereik van productprijzen wereldwijd.
+Het werkingsgebied van de [&#x200B; basismunt &#x200B;](../stores-purchase/currency-configuration.md) die voor productprijzen wordt gebruikt kan worden gevormd om op of globaal of websiteniveau van toepassing te zijn. Indien toegepast op het algemene niveau, wordt dezelfde prijs gebruikt in de hele winkelhiërarchie. Als hetzelfde product wordt toegepast op het niveau van de website, kan het voor verschillende prijzen beschikbaar zijn dan in winkels die bij verschillende websites horen. Standaard is het bereik van productprijzen wereldwijd.
 
 Verschillende factoren kunnen van invloed zijn op de prijs van hetzelfde product op de ene locatie en niet op een andere. Er kunnen bijvoorbeeld extra distributiekosten voor het product zijn en andere overwegingen die van invloed zijn op de prijs van producten die in een specifieke winkel worden verkocht. In het volgende diagram ziet u een installatie op meerdere locaties met de basisvaluta ingesteld op websiteniveau. De winkels en winkelweergaven die aan elke website zijn gekoppeld, weerspiegelen de productprijzen die op websiteniveau zijn ingesteld.
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) als u gedeelde catalogi gebruikt, verwijs ook naar [ Vastgestelde gedeelde catalogusprijs en structuur ](../b2b/catalog-shared-pricing-structure.md) in de _B2B Gids van Adobe Commerce_.
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) als u gedeelde catalogi gebruikt, verwijs ook naar [&#x200B; Vastgestelde gedeelde catalogusprijs en structuur &#x200B;](../b2b/catalog-shared-pricing-structure.md) in de _B2B Gids van Adobe Commerce_.
 
-![ diagram van het werkingsgebied van de Prijs ](./assets/catalog-price-scope.svg){width="550"}
+![&#x200B; diagram van het werkingsgebied van de Prijs &#x200B;](./assets/catalog-price-scope.svg){width="550"}
 
 ## Prijsbereik configureren
 
@@ -33,7 +33,7 @@ Verschillende factoren kunnen van invloed zijn op de prijs van hetzelfde product
 
    De gekozen bereikinstelling wordt weergegeven onder prijsvelden in de catalogus.
 
-   ![ het prijswerkingsgebied van de Catalogus ](./assets/catalog-price.png){width="600" zoomable="yes"}
+   ![&#x200B; het prijswerkingsgebied van de Catalogus &#x200B;](./assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 

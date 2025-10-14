@@ -16,7 +16,7 @@ Een downloadbaar product kan alles zijn wat u als bestand kunt leveren, zoals ee
 
 Omdat de download pas na de aankoop beschikbaar is, kunt u samples opgeven, zoals een fragment uit een boek, een clip uit een audiobestand of een trailer van een video. Een voorbeeld is iets dat de klant kan proberen voordat hij het product koopt. De bestanden die u ter beschikking stelt om te downloaden, kunnen worden geüpload naar uw server of van een andere server.
 
-![ Downloadbaar product ](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
+![&#x200B; Downloadbaar product &#x200B;](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
 
 Downloadbare producten kunnen worden geconfigureerd om te vereisen dat de klant zich aanmeldt bij een account om de koppeling te ontvangen of kunnen via e-mail worden verzonden en met anderen worden gedeeld. De status van de order voordat de download beschikbaar wordt, standaardwaarden en andere leveringsopties worden ingesteld in de configuratie. Houd rekening met het volgende wanneer u downloadbare catalogustoevoegingen wilt plannen:
 
@@ -39,9 +39,9 @@ De downloadbare configuratiemontages bepalen de standaardwaarden en de leverings
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Downloadable Product Options]_&#x200B;sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Downloadable Product Options]_&#x200B;sectie uit.
 
-   ![ Downloadbare Opties van het Product ](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
+   ![&#x200B; Downloadbare Opties van het Product &#x200B;](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
    Voor een gedetailleerde lijst van deze configuratieopties, zie [_Downloadbare Opties van het Product_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in de _Verwijzing van de Configuratie_.
 
@@ -59,7 +59,7 @@ De downloadbare configuratiemontages bepalen de standaardwaarden en de leverings
 
 1. Voer bij **[!UICONTROL Default Sample Title]** de kop in die u boven de selectie van monsters wilt weergeven.
 
-   ![ Titel van de Steekproef ](./assets/product-downloadable-config-sample-title.png){width="400"}
+   ![&#x200B; Titel van de Steekproef &#x200B;](./assets/product-downloadable-config-sample-title.png){width="400"}
 
 1. Voer bij **[!UICONTROL Default Link Title]** de standaardtekst in die u voor downloadkoppelingen wilt gebruiken.
 
@@ -78,7 +78,7 @@ De downloadbare configuratiemontages bepalen de standaardwaarden en de leverings
 
 ## Een downloadbaar product maken
 
-De volgende instructies tonen het proces aan om een downloadbaar product te creëren gebruikend a [ productmalplaatje ](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
+De volgende instructies tonen het proces aan om een downloadbaar product te creëren gebruikend a [&#x200B; productmalplaatje &#x200B;](attribute-sets.md), vereiste gebieden, en basismontages. Elk vereist gebied is duidelijk met een rode asterisk (`*`). Wanneer u de basisbeginselen hebt voltooid, kunt u de overige productinstellingen naar wens voltooien.
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ De volgende instructies tonen het proces aan om een downloadbaar product te cre�
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies `Downloadable Product`.
+1. Voor _[!UICONTROL Add Product]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies `Downloadable Product`.
 
-   ![ voeg Downloadbaar Product ](./assets/product-add-downloadable.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg Downloadbaar Product &#x200B;](./assets/product-add-downloadable.png){width="700" zoomable="yes"} toe
 
 ### Stap 2: Kies de kenmerkset
 
-De steekproefgegevens omvatten een [ geplaatste attributen ](attribute-sets.md) genoemd _Downloadbaar_ die speciale gebieden voor downloadbare producten heeft. U kunt een bestaande sjabloon gebruiken of een andere sjabloon maken voordat het product wordt opgeslagen.
+De steekproefgegevens omvatten een [&#x200B; geplaatste attributen &#x200B;](attribute-sets.md) genoemd _Downloadbaar_ die speciale gebieden voor downloadbare producten heeft. U kunt een bestaande sjabloon gebruiken of een andere sjabloon maken voordat het product wordt opgeslagen.
 
 Voer een van de volgende handelingen uit om de kenmerkset te kiezen die als sjabloon voor het product wordt gebruikt:
 
@@ -104,7 +104,7 @@ Voer een van de volgende handelingen uit om de kenmerkset te kiezen die als sjab
 
 Het formulier wordt bijgewerkt met de wijziging.
 
-![ kies Vastgestelde Attributen ](./assets/product-create-choose-attribute-set-downloadable.png){width="600" zoomable="yes"}
+![&#x200B; kies Vastgestelde Attributen &#x200B;](./assets/product-create-choose-attribute-set-downloadable.png){width="600" zoomable="yes"}
 
 ### Stap 3: Voer de vereiste instellingen in
 
@@ -118,11 +118,11 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
+   Wanneer het product wordt bewaard, verschijnt de [&#x200B; verkiesster van de Mening van de Opslag &#x200B;](introduction.md#product-scope) in de upper-left hoek.
 
 1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![ kies de Mening van de Opslag ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de Mening van de Opslag &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Stap 4: De basisinstellingen voltooien
 
@@ -137,15 +137,15 @@ Het formulier wordt bijgewerkt met de wijziging.
 
    - Standaard is **[!UICONTROL Stock Status]** ingesteld op `Out of Stock` .
 
-   - Omdat downloadbare producten niet worden verzonden, wordt het veld **[!UICONTROL Weight]** niet gebruikt. Als u deze eigenschap toelaat, wordt het a [ Eenvoudig product ](product-create-simple.md) en _is dit downloadbare product?_ kan niet worden gebruikt.
+   - Omdat downloadbare producten niet worden verzonden, wordt het veld **[!UICONTROL Weight]** niet gebruikt. Als u deze eigenschap toelaat, wordt het a [&#x200B; Eenvoudig product &#x200B;](product-create-simple.md) en _is dit downloadbare product?_ kan niet worden gebruikt.
 
    >[!NOTE]
    >
-   >Als u [ Inventory management ](../inventory-management/introduction.md) toelaat, plaatsen de Enige verkopers van Source de hoeveelheid in deze sectie. De multi handelaars van Source voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
+   >Als u [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md) toelaat, plaatsen de Enige verkopers van Source de hoeveelheid in deze sectie. De multi handelaars van Source voegen bronnen en hoeveelheden in de Bronsectie toe. Zie het volgende _toewijzen Bronnen en Hoeveelheden (Inventory management)_ sectie.
 
 1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Om het product in de [ lijst van nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
+1. Om het product in de [&#x200B; lijst van nieuwe producten &#x200B;](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
 
 1. Als u _[!UICONTROL Categories]_&#x200B;aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]**&#x200B;en voert u een van de volgende handelingen uit:
 
@@ -159,7 +159,7 @@ Het formulier wordt bijgewerkt met de wijziging.
 
    - Klik op **[!UICONTROL New Category]**.
 
-   - Ga **[!UICONTROL Category Name]** in en kies **[!UICONTROL Parent Category]**, die zijn positie in de [ menustructuur ](category-root.md) bepaalt.
+   - Ga **[!UICONTROL Category Name]** in en kies **[!UICONTROL Parent Category]**, die zijn positie in de [&#x200B; menustructuur &#x200B;](category-root.md) bepaalt.
 
    - Klik op **[!UICONTROL Create Category]**.
 
@@ -168,7 +168,7 @@ Het formulier wordt bijgewerkt met de wijziging.
    - `Download`
    - `DVD`
 
-   Indien nodig, kunt u de [ attributen ](attribute-product-create.md) uitgeven om meer waarden toe te voegen.
+   Indien nodig, kunt u de [&#x200B; attributen &#x200B;](attribute-product-create.md) uitgeven om meer waarden toe te voegen.
 
    Er kunnen aanvullende kenmerken zijn die het product beschrijven. De selectie varieert per kenmerkset en u kunt deze later voltooien.
 
@@ -178,11 +178,11 @@ Het formulier wordt bijgewerkt met de wijziging.
 
 ### Stap 5: Voer de downloadbare gegevens in
 
-De rol neer, breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Downloadable Information]_&#x200B;sectie uit, en selecteert checkbox **[!UICONTROL Is this downloadable product?]**.
+De rol neer, breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Downloadable Information]_&#x200B;sectie uit, en selecteert checkbox **[!UICONTROL Is this downloadable product?]**.
 
-Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Information]_&#x200B;twee delen. In het eerste deel wordt elke downloadkoppeling beschreven en in het tweede deel wordt elk voorbeeldbestand beschreven. De standaardwaarde voor vele van deze opties kan in de [ configuratie ](#configure-the-download-options) worden geplaatst.
+Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Information]_&#x200B;twee delen. In het eerste deel wordt elke downloadkoppeling beschreven en in het tweede deel wordt elk voorbeeldbestand beschreven. De standaardwaarde voor vele van deze opties kan in de [&#x200B; configuratie &#x200B;](#configure-the-download-options) worden geplaatst.
 
-![ Downloadbare Informatie ](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
+![&#x200B; Downloadbare Informatie &#x200B;](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### De koppelingen voltooien
 
@@ -201,7 +201,7 @@ Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Inform
 
    >[!NOTE]
    >
-   >Koppelingen naar externe bronnen kunt u niet gebruiken als downloadbare producten. De geldige verbindingsdomeinen zijn vooraf bepaald programmatically in het `env.php` dossier (zie [ env.php- verwijzing ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=nl-NL) in de _Gids van de Configuratie_).
+   >Koppelingen naar externe bronnen kunt u niet gebruiken als downloadbare producten. De geldige verbindingsdomeinen zijn vooraf bepaald programmatically in het `env.php` dossier (zie [&#x200B; env.php- verwijzing &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=nl-NL) in de _Gids van de Configuratie_).
 
    - Stel **[!UICONTROL Shareable]** in op een van de volgende opties:
 
@@ -209,14 +209,14 @@ Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Inform
 
       - `Yes` - Verzendt de koppeling via e-mail, die klanten met anderen kunnen delen.
 
-      - `Use Config` - gebruikt de methode die in de [ Downloadbare configuratie van de Opties van het Product ](../configuration-reference/catalog/catalog.md) wordt gespecificeerd.
+      - `Use Config` - gebruikt de methode die in de [&#x200B; Downloadbare configuratie van de Opties van het Product &#x200B;](../configuration-reference/catalog/catalog.md) wordt gespecificeerd.
 
    - Voer een van de volgende handelingen uit:
 
       - Als u het downloaden per klant wilt beperken, voert u het maximumaantal voor **[!UICONTROL Max. Downloads]** in.
       - Schakel het selectievakje **[!UICONTROL Unlimited]** in om onbeperkt downloaden toe te staan.
 
-   ![ Detail van de Verbinding ](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
+   ![&#x200B; Detail van de Verbinding &#x200B;](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
 1. Als u nog een koppeling wilt toevoegen, klikt u op **[!UICONTROL Add Link]** en herhaalt u deze stappen.
 
@@ -226,7 +226,7 @@ Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Inform
 
 1. Klik op **[!UICONTROL Add Link]** om de gegevens voor elk voorbeeld te voltooien.
 
-   ![ Steekproeven ](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
+   ![&#x200B; Steekproeven &#x200B;](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
 
 1. Vul de koppelingsdetails als volgt in:
 
@@ -239,7 +239,7 @@ Als deze optie is ingeschakeld, heeft de sectie _[!UICONTROL Downloadable Inform
 
    - Als u nog een voorbeeld wilt toevoegen, klikt u op **[!UICONTROL Add Link]** en herhaalt u deze stappen.
 
-   - Om de orde van de steekproeven te veranderen, pak het _pictogram van de Orde van de Verandering_ ( ![ het controlemechanisme van de Positie ](../assets/icon-sort-order.png) ) en sleep de steekproef aan een nieuwe positie.
+   - Om de orde van de steekproeven te veranderen, pak het _pictogram van de Orde van de Verandering_ ( ![&#x200B; het controlemechanisme van de Positie &#x200B;](../assets/icon-sort-order.png) ) en sleep de steekproef aan een nieuwe positie.
 
 ### Stap 6: De productinformatie invullen
 
@@ -262,27 +262,27 @@ Als u het product wilt publiceren in de catalogus, stelt u **[!UICONTROL Enable 
 
 - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-- Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
+- Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu.
 
   De winkel wordt geopend in een nieuw browsertabblad.
 
-  ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+  ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
 **Methode 2:** sparen en sluit
 
-Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+Voor _[!UICONTROL Save]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## Storefront-ervaring
 
 In het dashboard voor de klantenaccount koppelt de pagina _[!UICONTROL My Downloadable Products]_&#x200B;naar elke volgorde van downloadbare producten. De downloads worden beschikbaar via de account van de klant wanneer de bestelling is voltooid.
 
-![ Mijn downloadbare Producten ](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
+![&#x200B; Mijn downloadbare Producten &#x200B;](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
 De volgende lijst beschrijft de _Mijn Downloadbare Producten_ waarden:
 
 | Kolom | Beschrijving |
 |--- |--- |
-| [!UICONTROL Order#] | De [ orde ](../stores-purchase/orders.md) waarin het downloadbare product werd gekocht. Verzekert een verbinding aan het ordendetail. |
+| [!UICONTROL Order#] | De [&#x200B; orde &#x200B;](../stores-purchase/orders.md) waarin het downloadbare product werd gekocht. Verzekert een verbinding aan het ordendetail. |
 | [!UICONTROL Date] | Aanmaakdatum van bestelling. |
 | [!UICONTROL Title] | De naam van het downloadbare product dat bij de bestelling is aangeschaft. Verzekert een verbinding aan het downloadbare product. |
 | [!UICONTROL Status] | Status van orderverwerking. |

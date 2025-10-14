@@ -28,9 +28,9 @@ Adobe Commerce heeft vooraf gedefinieerde sjablonen voor elk van deze e-mailberi
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Gift Registry]**
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Options]** sectie uit en doe het volgende:
 
-   ![ de configuratie van Klanten - het register van het gift algemene ](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van Klanten - het register van het gift algemene &#x200B;](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
    - De Register van het Cadeautje wordt toegelaten door gebrek. Indien nodig, stelt u **[!UICONTROL Enable Gift Registry]** in op `Yes` .
 
@@ -38,17 +38,17 @@ Adobe Commerce heeft vooraf gedefinieerde sjablonen voor elk van deze e-mailberi
 
 ## Stap 2. E-mailmeldingen configureren
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Owner Notification]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Owner Notification]** sectie uit en doe het volgende:
 
-   ![ configuratie van Klanten - bericht van de bezitsregistratie van het cadeau ](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - bericht van de bezitsregistratie van het cadeau &#x200B;](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
    - Kies **[!UICONTROL Email Template]** die de eigenaars van cadeauregisters op de hoogte brengt wanneer hun registers worden gemaakt.
 
-   - Kies het [ opslagcontact ](../getting-started/store-details.md#store-email-addresses) dat als **[!UICONTROL Email Sender]** van het bericht verschijnt.
+   - Kies het [&#x200B; opslagcontact &#x200B;](../getting-started/store-details.md#store-email-addresses) dat als **[!UICONTROL Email Sender]** van het bericht verschijnt.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Gift Registry Sharing]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Gift Registry Sharing]** sectie uit en doe het volgende:
 
-   ![ de configuratie van Klanten - het delen van het giftenregister ](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratie van Klanten - het delen van het giftenregister &#x200B;](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
    - Kies **[!UICONTROL Email Template]** die de ontvangers van het cadeauregister op de hoogte brengt wanneer een register met hen wordt gedeeld.
 
@@ -56,9 +56,9 @@ Adobe Commerce heeft vooraf gedefinieerde sjablonen voor elk van deze e-mailberi
 
    - Voer bij **[!UICONTROL Maximum Sent Emails Threshold]** het maximumaantal e-mailberichten in dat tegelijkertijd kan worden verzonden.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Gift Registry Update]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Gift Registry Update]** sectie uit en doe het volgende:
 
-   ![ configuratie van Klanten - de update van de giftenregister ](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - de update van de giftenregister &#x200B;](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
    - Kies **[!UICONTROL Email Template]** die de eigenaars van cadeauregisters op de hoogte brengt van wijzigingen in het register.
 

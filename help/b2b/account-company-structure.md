@@ -15,21 +15,21 @@ ht-degree: 0%
 
 Een bedrijfsrekening kan worden opgezet om de structuur van de onderneming te weerspiegelen. Aanvankelijk, omvat de bedrijfsstructuur slechts de bedrijfbeheerder, maar kan worden uitgebreid om teams van gebruikers te omvatten. De gebruikers kunnen met teams worden geassocieerd of binnen een hiërarchie van afdelingen en onderverdelingen binnen het bedrijf worden georganiseerd.
 
-![ Structuur van het Bedrijf met Afdelingen ](./assets/company-structure-diagram.svg){width="500"}
+![&#x200B; Structuur van het Bedrijf met Afdelingen &#x200B;](./assets/company-structure-diagram.svg){width="500"}
 
 In het de rekeningsdashboard van de bedrijfbeheerder op de storefront, wordt de bedrijfstructuur vertegenwoordigd als boom en bestaat aanvankelijk uit slechts de bedrijfbeheerder.
 
-![ Structuur van het Bedrijf met de Beheerder van het Bedrijf ](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
+![&#x200B; Structuur van het Bedrijf met de Beheerder van het Bedrijf &#x200B;](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
 Voor handelaren, wordt de volledige bedrijfstructuur weerspiegeld in de _Bedrijven_ en _Klanten_ netten binnen Admin. Het net van Bedrijven maakt een lijst van alle bedrijven ongeacht status.
 
-![ het Net van Bedrijven ](./assets/companies-grid.png){width="700" zoomable="yes"}
+![&#x200B; het Net van Bedrijven &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
 In het volgende voorbeeld wordt het [!UICONTROL Customers] -raster weergegeven met de initiële bedrijfsbeheerdersaccounts voor elk bedrijf.
 
-![ het net van Klanten met de rekeningen van de bedrijfbeheerder ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![&#x200B; het net van Klanten met de rekeningen van de bedrijfbeheerder &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Na het creëren van de rekening, kan de bedrijfbeheerder een bedrijfstructuur met [ teams ](account-company-structure.md) bepalen, opstelling de [ bedrijfgebruikers ](account-company-users.md), en [ rollen en toestemmingen ](account-company-roles-permissions.md) voor elk vestigen.
+Na het creëren van de rekening, kan de bedrijfbeheerder een bedrijfstructuur met [&#x200B; teams &#x200B;](account-company-structure.md) bepalen, opstelling de [&#x200B; bedrijfgebruikers &#x200B;](account-company-users.md), en [&#x200B; rollen en toestemmingen &#x200B;](account-company-roles-permissions.md) voor elk vestigen.
 
 >[!NOTE]
 >
@@ -39,12 +39,12 @@ Na het creëren van de rekening, kan de bedrijfbeheerder een bedrijfstructuur me
 
 | Pictogram | Beschrijving |
 | ---- | ----------------- |
-| ![ pictogram van de Beheerder van het Bedrijf ](./assets/company-icon-admin.png) | Vertegenwoordigt de bedrijfsbeheerder in de bedrijfstructuur. |
-| ![ pictogram van het Team ](./assets/company-icon-team.png) | Vertegenwoordigt een team in de bedrijfstructuur. |
-| ![ pictogram van de Gebruiker ](./assets/company-icon-user.png) | Vertegenwoordigt een gebruiker in de bedrijfstructuur. |
-| ![ pictogram van de Beweging ](./assets/company-icon-move.png) | Verplaatst een team naar een andere positie in de bedrijfsstructuur. |
-| ![ pictogram van de Uitbreiding ](./assets/company-icon-expand.png) | Breidt een team in de bedrijfstructuur uit. |
-| ![ pictogram van de Samenvouwen ](./assets/company-icon-collapse.png) | Vouwt een team in de bedrijfsstructuur samen. |
+| ![&#x200B; pictogram van de Beheerder van het Bedrijf &#x200B;](./assets/company-icon-admin.png) | Vertegenwoordigt de bedrijfsbeheerder in de bedrijfstructuur. |
+| ![&#x200B; pictogram van het Team &#x200B;](./assets/company-icon-team.png) | Vertegenwoordigt een team in de bedrijfstructuur. |
+| ![&#x200B; pictogram van de Gebruiker &#x200B;](./assets/company-icon-user.png) | Vertegenwoordigt een gebruiker in de bedrijfstructuur. |
+| ![&#x200B; pictogram van de Beweging &#x200B;](./assets/company-icon-move.png) | Verplaatst een team naar een andere positie in de bedrijfsstructuur. |
+| ![&#x200B; pictogram van de Uitbreiding &#x200B;](./assets/company-icon-expand.png) | Breidt een team in de bedrijfstructuur uit. |
+| ![&#x200B; pictogram van de Samenvouwen &#x200B;](./assets/company-icon-collapse.png) | Vouwt een team in de bedrijfsstructuur samen. |
 
 {style="table-layout:auto"}
 
@@ -54,7 +54,7 @@ De structuur van een bedrijfsrekening moet de aankooporganisatie weerspiegelen, 
 
 Als de opslag [&#128279;](enable-basic-features.md) wordt gevormd om bedrijven toe te staan om hun eigen rekeningen te beheren, is vestiging de bedrijfstructuur één van de eerste taken voor een bedrijfbeheerder om te voltooien nadat de rekening wordt goedgekeurd. In de bedrijfsrekening, wordt de structuur van het bedrijf vertegenwoordigd als boom met de bedrijfbeheerder bij de bovenkant.
 
-![ Bedrijfsstructuur met teams ](./assets/company-structure-teams-diagram.svg){width="450"}
+![&#x200B; Bedrijfsstructuur met teams &#x200B;](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. De beheerder van het bedrijf meldt zich aan bij hun account.
 
@@ -66,7 +66,7 @@ Als de opslag [&#128279;](enable-basic-features.md) wordt gevormd om bedrijven t
 
      De Titel van het Team kan om het even welk zijn die de structuur van het bedrijf, zoals een team, een bureau, of een afdeling binnen het bedrijf vertegenwoordigt
 
-     ![ voeg team ](./assets/company-structure-add-team.png){width="700" zoomable="yes"} toe
+     ![&#x200B; voeg team &#x200B;](./assets/company-structure-add-team.png){width="700" zoomable="yes"} toe
 
    - Klik op **[!UICONTROL Save]** als u klaar bent.
 
@@ -76,7 +76,7 @@ Als de opslag [&#128279;](enable-basic-features.md) wordt gevormd om bedrijven t
 
    - Hiermee selecteert u het bovenliggende team en klikt u op **[!UICONTROL Add Team]** .
 
-     ![ Structuur van het Bedrijf met Afdelingen ](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
+     ![&#x200B; Structuur van het Bedrijf met Afdelingen &#x200B;](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
    - Voer **[!UICONTROL Team Title]** en **[!UICONTROL Description]** in.
 
@@ -84,7 +84,7 @@ Als de opslag [&#128279;](enable-basic-features.md) wordt gevormd om bedrijven t
 
 1. Herhaalt deze stappen om zo vele teams, of afdelingen en onderverdelingen tot stand te brengen zoals nodig.
 
-   ![ de Structuur van het Bedrijf met Afdelingen en Onderverdelingen ](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![&#x200B; de Structuur van het Bedrijf met Afdelingen en Onderverdelingen &#x200B;](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## Een team verplaatsen
 
@@ -112,25 +112,25 @@ Aangezien de bedrijfbeheerder met de bedrijfsstructuur werkt, kunnen zij de boom
 
 - Klik op **[!UICONTROL Collapse All]** of **[!UICONTROL Expand All]** .
 
-- Klik ![ Uitgebreid pictogram ](../assets/icon-display-collapse.png) om een team samen te vouwen of ![ Samengevouwen pictogram ](../assets/icon-display-expand.png) om een team uit te breiden.
+- Klik ![&#x200B; Uitgebreid pictogram &#x200B;](../assets/icon-display-collapse.png) om een team samen te vouwen of ![&#x200B; Samengevouwen pictogram &#x200B;](../assets/icon-display-expand.png) om een team uit te breiden.
 
 ## Gebruikers toewijzen aan teams
 
-Wanneer de teams en de gebruikers eerst aan de [ bedrijfstructuur ](account-company-structure.md) worden toegevoegd, worden zij geplaatst op het zelfde niveau onder de bedrijfbeheerder.
+Wanneer de teams en de gebruikers eerst aan de [&#x200B; bedrijfstructuur &#x200B;](account-company-structure.md) worden toegevoegd, worden zij geplaatst op het zelfde niveau onder de bedrijfbeheerder.
 
-![ structuur van het Bedrijf met gebruikers en teams ](./assets/company-users-added.png){width="700" zoomable="yes"}
+![&#x200B; structuur van het Bedrijf met gebruikers en teams &#x200B;](./assets/company-users-added.png){width="700" zoomable="yes"}
 
 | Besturing | Beschrijving |
 |--- |--- |
 | [!UICONTROL Collapse All / Expand All] | Hiermee vouwt u de boomstructuur van de bedrijfsstructuur samen of breidt u deze uit |
 | [!UICONTROL Add User] | Maakt een gebruiker onder het huidige team |
 | [!UICONTROL Add Team] | Hiermee wordt een team gemaakt |
-| [!UICONTROL Edit Selected / Remove from Structure] | Hiermee bewerkt u gebruikersgegevens of verwijdert u gebruikers uit de bedrijfsstructuur. Voor details, zie [ bedrijfgebruikersrekeningen beheren ](account-company-users.md). |
+| [!UICONTROL Edit Selected / Remove from Structure] | Hiermee bewerkt u gebruikersgegevens of verwijdert u gebruikers uit de bedrijfsstructuur. Voor details, zie [&#x200B; bedrijfgebruikersrekeningen beheren &#x200B;](account-company-users.md). |
 
 {style="table-layout:auto"}
 
 1. In het linkerdeelvenster kiest de bedrijfsbeheerder **[!UICONTROL Company Structure]** .
 
-1. Om een gebruiker aan een bestaand team toe te wijzen, slepen zij (![ pictogram van de Beweging ](../assets/icon-move.png)) de gebruiker onder het aangewezen team.
+1. Om een gebruiker aan een bestaand team toe te wijzen, slepen zij (![&#x200B; pictogram van de Beweging &#x200B;](../assets/icon-move.png)) de gebruiker onder het aangewezen team.
 
-   ![ de Taken van het Team ](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![&#x200B; de Taken van het Team &#x200B;](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

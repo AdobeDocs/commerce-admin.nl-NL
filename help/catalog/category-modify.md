@@ -32,4 +32,4 @@ Nadat een categorie is gemaakt, kan deze worden bewerkt, naar een andere positie
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
-U kunt ook [ de gebeurtenissen ](../merchandising-promotions/event-create.md#create-and-update-events) bijwerken verbonden aan een categorie van of de **[!UICONTROL Events]** pagina of de **[!UICONTROL Category]** pagina.
+U kunt ook [&#x200B; de gebeurtenissen &#x200B;](../merchandising-promotions/event-create.md#create-and-update-events) bijwerken verbonden aan een categorie van of de **[!UICONTROL Events]** pagina of de **[!UICONTROL Category]** pagina.

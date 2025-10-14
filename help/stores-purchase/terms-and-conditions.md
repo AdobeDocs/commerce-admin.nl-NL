@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wanneer de hand _functionaliteit van de Voorwaarden van 0&rbrace; wordt toegelaten, worden de klanten vereist om met de voorwaarden van de verkoop in te stemmen alvorens de aankoop wordt gebeëindigd._ De verkoopvoorwaarden omvatten doorgaans informatie die wettelijk vereist is voor B2C- of B2B-sites, en schetst de rechten van de koper en de verkoper. Het bericht van de Voorwaarden verschijnt na de betalingsinformatie, enkel vóór de _knoop van de Orde van de Plaats_.
 
-![ Termen en Voorwaarden bij controle ](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
+![&#x200B; Termen en Voorwaarden bij controle &#x200B;](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 
 ## Stap 1: Bepalingen en voorwaarden voor afhandeling inschakelen
 
@@ -22,9 +22,9 @@ Wanneer de hand _functionaliteit van de Voorwaarden van 0&rbrace; wordt toegelat
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Checkout Options]** sectie uit.
 
-   ![ de Opties van de Controle ](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
+   ![&#x200B; de Opties van de Controle &#x200B;](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
 
 1. Controleer of **[!UICONTROL Enable Onepage Checkout]** is ingesteld op `Yes` .
 
@@ -36,13 +36,13 @@ Wanneer de hand _functionaliteit van de Voorwaarden van 0&rbrace; wordt toegelat
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**.
 
-   ![ het net van Bepalingen en van Voorwaarden ](./assets/terms-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; het net van Bepalingen en van Voorwaarden &#x200B;](./assets/terms-conditions.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Condition]** .
 
 1. Voer de **[!UICONTROL Condition Name]** in voor interne referentie.
 
-   ![ Nieuwe Voorwaarde ](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Voorwaarde &#x200B;](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Status]** in op `Enabled` .
 

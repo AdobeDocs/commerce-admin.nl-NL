@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Productupdates kunnen volgens schema worden toegepast en met andere inhoudsveranderingen worden gegroepeerd. U kunt [ inhoud gebruiken die ](../content-design/content-staging.md) staging om een campagne tot stand te brengen die op geplande veranderingen in het product wordt gebaseerd, of de veranderingen op een bestaande campagne toe te passen.
+Productupdates kunnen volgens schema worden toegepast en met andere inhoudsveranderingen worden gegroepeerd. U kunt [&#x200B; inhoud gebruiken die &#x200B;](../content-design/content-staging.md) staging om een campagne tot stand te brengen die op geplande veranderingen in het product wordt gebaseerd, of de veranderingen op een bestaande campagne toe te passen.
 
 Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bewerkingscampagnes configureert:
 
@@ -22,14 +22,14 @@ Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bew
 
 - Een het opvoeren voorproef voor een geplande update begint altijd van de **standaard** opslagmening, die de ervaring van de klant navigeert om door de het opvoeren updatecampagne te navigeren.
 
-- Als een campagne met meer dan één product wordt verbonden, kan de campagne slechts van het [ Inhoud Staging Dashboard ](../content-design/content-staging-dashboard.md) worden uitgegeven.
+- Als een campagne met meer dan één product wordt verbonden, kan de campagne slechts van het [&#x200B; Inhoud Staging Dashboard &#x200B;](../content-design/content-staging-dashboard.md) worden uitgegeven.
 
 - Als een actieve campagne in eerste instantie zonder einddatum wordt gemaakt, kan de campagne later niet worden bewerkt om een einddatum op te nemen. In dat geval moet een dubbele campagne worden gemaakt en moet de gewenste einddatum worden ingevoerd.
 
 
 >[!NOTE]
 >
->[!UICONTROL Set Product as New From] en [!UICONTROL To] gebieden en [!UICONTROL Schedule Design Update] lusje zijn verwijderd in ![ Adobe Commerce ](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op het product worden gewijzigd. U moet een geplande update maken voor deze activeringen.
+>[!UICONTROL Set Product as New From] en [!UICONTROL To] gebieden en [!UICONTROL Schedule Design Update] lusje zijn verwijderd in ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) Adobe Commerce en kunnen niet direct op het product worden gewijzigd. U moet een geplande update maken voor deze activeringen.
 
 ## Een geplande update maken
 
@@ -45,13 +45,13 @@ Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bew
 
 1. Voer een korte **[!UICONTROL Description]** in van de update en hoe deze moet worden gebruikt.
 
-1. Gebruik het hulpmiddel van de Kalender (![ kalenderpictogram ](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de campagne te kiezen.
+1. Gebruik het hulpmiddel van de Kalender (![&#x200B; kalenderpictogram &#x200B;](../assets/icon-calendar.png)) om **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** voor de campagne te kiezen.
 
    >[!NOTE]
    >
    >De campagne **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** moeten worden bepaald door de **_standaard_** tijdzone Admin te gebruiken, die van de lokale tijdzone voor elke website wordt omgezet. Als u bijvoorbeeld meerdere websites in verschillende tijdzones hebt waarin u een campagne wilt starten op basis van een Amerikaanse tijdzone, moet u een afzonderlijke update voor elke lokale tijdzone plannen. Stel **[!UICONTROL Start Date]** en **[!UICONTROL End Date]** in voor elke waarde en deze wordt omgezet van de tijdzone van de lokale website naar de standaardtijdzone van Admin.
 
-   ![ Programma als nieuwe update ](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
+   ![&#x200B; Programma als nieuwe update &#x200B;](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
 1. Schuif omlaag naar _[!UICONTROL Price]_&#x200B;en klik op **[!UICONTROL Advanced Pricing]**.
 
@@ -71,9 +71,9 @@ Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bew
 
 1. Selecteer in de lijst de campagne die u wilt wijzigen.
 
-   ![ Toewijzend aan een bestaande campagne ](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![&#x200B; Toewijzend aan een bestaande campagne &#x200B;](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** uit.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -81,7 +81,7 @@ Houd rekening met het volgende wanneer u schema&#39;s voor productupdates en bew
 
 De geplande wijziging wordt boven aan de productpagina weergegeven met de begin- en einddatum van de campagne.
 
-![ Geplande verandering ](./assets/view-product-scheduled-changes.png){width="600" zoomable="yes"}
+![&#x200B; Geplande verandering &#x200B;](./assets/view-product-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## De geplande wijziging bewerken
 
@@ -97,7 +97,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 1. Klik op **[!UICONTROL Remove from Update]** op de bovenste balk.
 
-   ![ verwijdert Geplande Verandering ](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
+   ![&#x200B; verwijdert Geplande Verandering &#x200B;](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Delete the Update]** in het dialoogvenster en klik op **[!UICONTROL Done]** .
 
@@ -109,7 +109,7 @@ De geplande wijziging wordt boven aan de productpagina weergegeven met de begin-
 
 Met de sectie _[!UICONTROL Schedule Design Update]_&#x200B;kunt u tijdelijke wijzigingen aanbrengen in de weergave van de productpagina. U kunt ontwerpwijzigingen plannen voor een seizoen, voor speciale acties of alleen om de zaken vers te maken. De veranderingen van het ontwerp kunnen vooraf worden gepland, zodat gaan zij in werking, of_ druppel _, op uw bepaalde programma.
 
-![ Geplande Update van het Ontwerp ](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
+![&#x200B; Geplande Update van het Ontwerp &#x200B;](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 
 
 | Veld | Beschrijving |

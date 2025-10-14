@@ -16,7 +16,7 @@ De beste manier om te begrijpen hoe configureerbare productgegevens gestructuree
 
 In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe grootte in elke kleur. Eerst, voert u het configureerbare product uit, en onderzoekt de gegevensstructuur. Vervolgens werkt u de gegevens bij en importeert u deze weer in de catalogus. Als u niet door de oefening van het uitvoeren van de gegevens wilt gaan, kunt u het Csv- dossier downloaden dat in het voorbeeld wordt gebruikt.
 
-![ de storefront van het Voorbeeld - grootte en kleurenattributen ](./assets/storefront-hoodie-new-size.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - grootte en kleurenattributen &#x200B;](./assets/storefront-hoodie-new-size.png){width="700" zoomable="yes"}
 
 ## Stap 1: Verifieer de montages en de waarden van attributen
 
@@ -42,11 +42,11 @@ In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe g
 
    In het volgende voorbeeld wordt een nieuwe grootte toegevoegd aan een tekststaal.
 
-   ![ attribuut van het Product - voeg nieuwe waarde ](./assets/data-transfer-configurable-product-add-new-attribute-value.png){width="500" zoomable="yes"} toe
+   ![&#x200B; attribuut van het Product - voeg nieuwe waarde &#x200B;](./assets/data-transfer-configurable-product-add-new-attribute-value.png){width="500" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.
 
-1. Als u een attribuut toevoegt, volg de instructies aan [ creeer de attributen ](../catalog/attribute-product-create.md) alvorens u begint.
+1. Als u een attribuut toevoegt, volg de instructies aan [&#x200B; creeer de attributen &#x200B;](../catalog/attribute-product-create.md) alvorens u begint.
 
 ## Stap 2: Exporteer het configureerbare product
 
@@ -60,7 +60,7 @@ In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe g
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-   ![ de uitvoermontages van Gegevens ](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de uitvoermontages van Gegevens &#x200B;](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
 1. Onder _[!UICONTROL Export Setting]s_, doe het volgende:
 
@@ -72,13 +72,13 @@ In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe g
 
    - Voer de SKU in van het configureerbare product dat u wilt exporteren en klik op **[!UICONTROL Continue]** .
 
-     ![ de uitvoer SKU van Gegevens ](./assets/data-transfer-export-sku.png){width="600" zoomable="yes"}
+     ![&#x200B; de uitvoer SKU van Gegevens &#x200B;](./assets/data-transfer-export-sku.png){width="600" zoomable="yes"}
 
    - Zoek het bestand op de downloadlocatie voor uw webbrowser en open het als spreadsheet.
 
      Het CSV-bestand heeft een aparte rij voor elke eenvoudige productvariatie en één rij voor het configureerbare product. In `product_type column` worden meerdere eenvoudige productvariaties weergegeven die aan één configureerbaar product zijn gekoppeld.
 
-     ![ gegevens van het Voorbeeld - configureerbaar product met variaties ](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
+     ![&#x200B; gegevens van het Voorbeeld - configureerbaar product met variaties &#x200B;](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
 
    - Schuif helemaal rechts van het werkblad naar de volgende kolommen.
 
@@ -99,7 +99,7 @@ In het volgende voorbeeld voegt u een set productvariaties toe voor een nieuwe g
 
 1. Wanneer u de structuur van configureerbare productgegevens begrijpt, kunt u de gegevens bewerken of nieuwe variaties rechtstreeks aan het CSV-bestand toevoegen.
 
-   Meer leren, zie [ Complexe Gegevens ](data-attributes-product.md#complex-product-data-attributes).
+   Meer leren, zie [&#x200B; Complexe Gegevens &#x200B;](data-attributes-product.md#complex-product-data-attributes).
 
 ## Stap 3: De gegevens bewerken
 
@@ -107,13 +107,13 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
 1. Kopieer de set productvariaties die u als sjabloon voor de nieuwe producten wilt gebruiken.
 
-   ![ Geëxporteerde gegevens - kopieer productvariaties ](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"}
+   ![&#x200B; Geëxporteerde gegevens - kopieer productvariaties &#x200B;](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"}
 
 1. Voeg de gekopieerde rijrecords in het werkblad in.
 
    U hebt nu twee identieke sets van de eenvoudige productvariaties.
 
-   ![ CSV gegevens - voeg productvariaties ](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"} toe
+   ![&#x200B; CSV gegevens - voeg productvariaties &#x200B;](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"} toe
 
 1. Werk indien nodig de gegevens in de volgende kolommen van de nieuwe variaties bij.
 
@@ -128,7 +128,7 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
    Klik in de rij met de configureerbare productrecord op de cel die de `product_variations` -gegevens bevat. Kopieer vervolgens in de formuleringsbalk de laatste set parameters, te beginnen met het pijlsymbool.
 
-   ![ product_variation gegevens ](./assets/data-transfer-export-configurable-product-product-variations-data.png){width="600" zoomable="yes"}
+   ![&#x200B; product_variation gegevens &#x200B;](./assets/data-transfer-export-configurable-product-product-variations-data.png){width="600" zoomable="yes"}
 
 1. Plak de parameters aan het einde van de gegevens en bewerk deze naar wens voor de nieuwe variaties.
 
@@ -138,7 +138,7 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
    In dit voorbeeld worden alleen de drie nieuwe variaties voor de nieuwe grootte en de rij met het bijgewerkte configureerbare product weer geïmporteerd naar de catalogus. De andere rijen kunnen uit het CSV-bestand worden verwijderd. Zorg er echter voor dat u de koptekstrij niet met kolomlabels verwijdert.
 
-   ![ CSV gegevens om in te voeren ](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; CSV gegevens om in te voeren &#x200B;](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]** het CSV-bestand.
 
@@ -156,11 +156,11 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
 1. Stel onder _[!UICONTROL Import Behavior]_&#x200B;de waarde **[!UICONTROL Import Behavior]**&#x200B;in op `Add/Update` .
 
-   ![ het invoergedrag van Gegevens ](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
+   ![&#x200B; het invoergedrag van Gegevens &#x200B;](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
 1. Klik onder _[!UICONTROL File to Import]_&#x200B;op **[!UICONTROL Choose File]**&#x200B;en navigeer naar het CSV-bestand dat u hebt voorbereid voor importeren en kies het bestand.
 
-   ![ het invoerdossier van Gegevens ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; het invoerdossier van Gegevens &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Check Data]** .
 
@@ -168,7 +168,7 @@ In het volgende voorbeeld wordt de set XL-formaten gekopieerd en in het werkblad
 
    Corrigeer anders eventuele problemen in de gegevens en probeer het opnieuw.
 
-   ![ het bericht van het Systeem - het dossier is geldig ](./assets/data-transfer-configurable-product-import-validation-results.png){width="600" zoomable="yes"}
+   ![&#x200B; het bericht van het Systeem - het dossier is geldig &#x200B;](./assets/data-transfer-configurable-product-import-validation-results.png){width="600" zoomable="yes"}
 
 1. Wanneer het importeren is voltooid, klikt u op **[!UICONTROL Cache Management]** in het bericht boven aan de pagina en vernieuwt u alle ongeldige cache.
 

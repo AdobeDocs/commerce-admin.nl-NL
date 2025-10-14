@@ -18,7 +18,7 @@ Door bestellingen te archiveren worden de prestaties regelmatig verbeterd en bli
 
 >[!NOTE]
 >
->De _[!UICONTROL Archive]_&#x200B;optie verschijnt in het [[!UICONTROL Sales] menu ](sales-menu.md) slechts wanneer het archiveren [&#128279;](../configuration-reference/sales/sales.md) wordt toegelaten.
+>De _[!UICONTROL Archive]_&#x200B;optie verschijnt in het [[!UICONTROL Sales] menu &#x200B;](sales-menu.md) slechts wanneer het archiveren [&#128279;](../configuration-reference/sales/sales.md) wordt toegelaten.
 
 ## Het orderarchief configureren
 
@@ -28,9 +28,9 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
 1. Vouw in het linkerdeelvenster de sectie **[!UICONTROL Sales]** uit en kies **[!UICONTROL Sales]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]** sectie uit.
 
-   ![ Orders, Facturen, Verzendingen, de configuratiemontages van het Archiveren van de Memo&#39;s van de Krediet ](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png){width="600" zoomable="yes"}
+   ![&#x200B; Orders, Facturen, Verzendingen, de configuratiemontages van het Archiveren van de Memo&#39;s van de Krediet &#x200B;](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Archiving]** in op `Yes` .
 
@@ -121,11 +121,11 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `Move to Archive` en zoek het bericht dat de volgorde is gearchiveerd.
 
-   ![ Bewegend geselecteerde orden aan het archief ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![&#x200B; Bewegend geselecteerde orden aan het archief &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Om een lijst van ordestatus te specificeren die kan worden gearchiveerd, zie [ het ordearchief ](#configure-the-order-archive) vormen.
+>Om een lijst van ordestatus te specificeren die kan worden gearchiveerd, zie [&#x200B; het ordearchief &#x200B;](#configure-the-order-archive) vormen.
 
 ## Een gearchiveerde volgorde weergeven
 
@@ -141,13 +141,13 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
 1. In de _kolom van de Actie_, klik **[!UICONTROL View]**.
 
-   ![ Mening een gearchiveerde orde ](./assets/order-archived-view.png){width="600" zoomable="yes"}
+   ![&#x200B; Mening een gearchiveerde orde &#x200B;](./assets/order-archived-view.png){width="600" zoomable="yes"}
 
 ## Een gearchiveerde volgorde herstellen
 
 >[!NOTE]
 >
->Een orde die van een gearchiveerde orde wordt hersteld wordt opnieuw gearchiveerd volgens het aantal dagen dat in [!UICONTROL Archive Orders Purchased] wordt gevormd die (zie [ vormt het ordearchief ](#configure-the-order-archive)). Het aantal dagen wordt berekend op basis van de [!UICONTROL Updated At] -datum voor de bestelling, die wordt gewijzigd wanneer de bestelling uit het archief wordt verplaatst.
+>Een orde die van een gearchiveerde orde wordt hersteld wordt opnieuw gearchiveerd volgens het aantal dagen dat in [!UICONTROL Archive Orders Purchased] wordt gevormd die (zie [&#x200B; vormt het ordearchief &#x200B;](#configure-the-order-archive)). Het aantal dagen wordt berekend op basis van de [!UICONTROL Updated At] -datum voor de bestelling, die wordt gewijzigd wanneer de bestelling uit het archief wordt verplaatst.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
@@ -155,7 +155,7 @@ Uw winkel kan na een bepaald aantal dagen worden geconfigureerd voor het archive
 
 1. Zoek de record die moet worden hersteld en klik op het selectievakje om deze te selecteren.
 
-   ![ Uitgezochte Volgorde om worden hersteld ](./assets/order-archived-select-to-restore.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte Volgorde om worden hersteld &#x200B;](./assets/order-archived-select-to-restore.png){width="600" zoomable="yes"}
 
 1. Stel de besturingselementwaarde **[!UICONTROL Actions]** in op `Move to Order Management` .
 

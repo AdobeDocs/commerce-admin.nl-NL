@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhoudsblokken plaatsen
 
-De code die de paginalay-out en plaatsing van blokken controleert wordt geschreven in XML [ Widgets ](widgets.md). Met deze widgets kunt u een blok gemakkelijk op een bepaalde plaats op de pagina positioneren, zelfs voor een bepaald product of een bepaalde categorie zonder dat u code hoeft te schrijven. U kunt elke optie in een lijst kiezen in plaats van alle mogelijke combinaties te onthouden.
+De code die de paginalay-out en plaatsing van blokken controleert wordt geschreven in XML [&#x200B; Widgets &#x200B;](widgets.md). Met deze widgets kunt u een blok gemakkelijk op een bepaalde plaats op de pagina positioneren, zelfs voor een bepaald product of een bepaalde categorie zonder dat u code hoeft te schrijven. U kunt elke optie in een lijst kiezen in plaats van alle mogelijke combinaties te onthouden.
 
-De volgende lijst beschrijft de plaatsen door paginatype waar de blokken typisch worden geplaatst. Voor meer informatie over hoe de gebieden op de pagina worden bepaald, zie [ StandaardLay-outs van de Pagina ](page-layout.md#standard-page-layouts).
+De volgende lijst beschrijft de plaatsen door paginatype waar de blokken typisch worden geplaatst. Voor meer informatie over hoe de gebieden op de pagina worden bepaald, zie [&#x200B; StandaardLay-outs van de Pagina &#x200B;](page-layout.md#standard-page-layouts).
 
 ## Pagina&#39;s met rubrieken en CMS
 

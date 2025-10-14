@@ -24,7 +24,7 @@ Afhankelijk van de bedrijfsrol en de toestemmingen, kunnen de gebruikers, goedke
 
 >[!IMPORTANT]
 >
->De opstelling van de goedkeuringsregel vereist een bepaalde [ bedrijfstructuur ](account-company-structure.md) om goedkeuring door de manager van de koopklant te specificeren.
+>De opstelling van de goedkeuringsregel vereist een bepaalde [&#x200B; bedrijfstructuur &#x200B;](account-company-structure.md) om goedkeuring door de manager van de koopklant te specificeren.
 
 ## Betalingsmethoden
 
@@ -36,9 +36,9 @@ Goedkeuringsstromen voor inkooporders ondersteunen zowel online- als offline bet
 
 ## Goedkeuringsregelinstelling
 
-Met de vereiste [ toestemmingen voor hun rol ](account-company-roles-permissions.md), kunnen de klanten B2B opstelling goedkeuringsregels om bedrijfbeleid af te dwingen door **[!UICONTROL Approval Rules]** in het linkerpaneel voor hun klantenrekening te klikken.
+Met de vereiste [&#x200B; toestemmingen voor hun rol &#x200B;](account-company-roles-permissions.md), kunnen de klanten B2B opstelling goedkeuringsregels om bedrijfbeleid af te dwingen door **[!UICONTROL Approval Rules]** in het linkerpaneel voor hun klantenrekening te klikken.
 
-![ Regels van de Goedkeuring van het Bedrijf ](./assets/approval-rules.png){width="700" zoomable="yes"}
+![&#x200B; Regels van de Goedkeuring van het Bedrijf &#x200B;](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Om een goedkeuringsregel tot stand te brengen, voltooit een klant de volgende stappen:
 
@@ -60,14 +60,14 @@ Om een goedkeuringsregel tot stand te brengen, voltooit een klant de volgende st
 
    De volgende secties verstrekken een gedetailleerde verklaring en een voorbeeld voor elk regeltype.
 
-   ![ Creërend een nieuwe goedkeuringsregel ](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![&#x200B; Creërend een nieuwe goedkeuringsregel &#x200B;](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
 1. Kies voor **[!UICONTROL Requires approval from]** een of meer vereiste fiatteurs op basis van het type goedkeuring.
 
    >[!NOTE]
    >
    >* Wanneer u een rol als fiatteur toewijst, moet u ervoor zorgen dat er ten minste één gebruiker in die rol is.
-   >* Als er twee of meer gebruikers met dezelfde fiatteur zijn, kan de maker van de kooporder deze niet goedkeuren. In dit geval is handmatige goedkeuring vereist door elke andere gebruiker met deze goedkeurende rol. Nochtans, als `Auto-approve POs created within this role` optie in de [ Toestemmingen van de Rol ](account-company-roles-permissions.md) wordt geplaatst, wordt de kooporde automatisch goedgekeurd.
+   >* Als er twee of meer gebruikers met dezelfde fiatteur zijn, kan de maker van de kooporder deze niet goedkeuren. In dit geval is handmatige goedkeuring vereist door elke andere gebruiker met deze goedkeurende rol. Nochtans, als `Auto-approve POs created within this role` optie in de [&#x200B; Toestemmingen van de Rol &#x200B;](account-company-roles-permissions.md) wordt geplaatst, wordt de kooporde automatisch goedgekeurd.
    >* Als er slechts één gebruiker met de goedkeurende rol is en die gebruiker de schepper is, wordt de kooporder altijd automatisch goedgekeurd-het `Auto-approve POs created within this role` toestemmingsplaatsen wordt genegeerd.
 
 1. Klik op **[!UICONTROL Save]**.
@@ -85,7 +85,7 @@ Dit regeltype wordt gebruikt om een goedkeuring van PO te vereisen die op het or
 
 1. Selecteert het valutatype en voer het bedrag in.
 
-![ de Totale Regel van de Goedkeuring van de Orde ](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![&#x200B; de Totale Regel van de Goedkeuring van de Orde &#x200B;](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
@@ -100,7 +100,7 @@ Dit regeltype wordt gebruikt om een goedkeuring te vereisen van PO die op verzen
 
 1. Hiermee stelt u het gewenste verzendbedrag in.
 
-![ Verzendkosten Goedkeuringsregel ](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![&#x200B; Verzendkosten Goedkeuringsregel &#x200B;](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -120,7 +120,7 @@ Dit voorbeeld specificeert vijf punten, maar twee verschillende SKUs.
 
 1. Hiermee stelt u de hoeveelheid SKU&#39;s in.
 
-![ Aantal Regel van de Goedkeuring van SKUs ](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![&#x200B; Aantal Regel van de Goedkeuring van SKUs &#x200B;](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## Goedkeuringsregels bewerken
 

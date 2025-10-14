@@ -20,4 +20,4 @@ Adobe Commerce geeft je de mogelijkheid om valuta&#39;s te accepteren uit meer d
 
 Valutasymbolen worden weergegeven in productprijzen en verkoopdocumenten zoals orders en facturen. U kunt de valutasymbolen naar wens aanpassen en ook de prijsweergave voor elke winkel of weergave afzonderlijk instellen.
 
-![ de storefront van het Voorbeeld - muntkiezer ](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![&#x200B; de storefront van het Voorbeeld - muntkiezer &#x200B;](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

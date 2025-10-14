@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Een klantensegment kan voor gerichte bevorderingen worden gebruikt door het met de regel van de a [ kartprijs ](../merchandising-promotions/price-rules-cart.md) te associëren.
+Een klantensegment kan voor gerichte bevorderingen worden gebruikt door het met de regel van de a [&#x200B; kartprijs &#x200B;](../merchandising-promotions/price-rules-cart.md) te associëren.
 
-![ de prijsregel van het Kart - gericht klantensegment ](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
+![&#x200B; de prijsregel van het Kart - gericht klantensegment &#x200B;](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
 _&#x200B;**om een segment met een regel van de wortelprijs te associëren:**&#x200B;_
 
@@ -31,9 +31,9 @@ _&#x200B;**om een segment met een regel van de wortelprijs te associëren:**&#x2
 
 1. Voeg de voorwaarde toe.
 
-   * Klik _toevoegen_ (![ pictogram van de Lijst ](../assets/icon-add-green-circle.png)) pictogram, dat de lijst van voorwaarden toont. Kies vervolgens **[!UICONTROL Customer Segment]** .
+   * Klik _toevoegen_ (![&#x200B; pictogram van de Lijst &#x200B;](../assets/icon-add-green-circle.png)) pictogram, dat de lijst van voorwaarden toont. Kies vervolgens **[!UICONTROL Customer Segment]** .
 
-   ![ de prijsregel van het Kart - voeg de voorwaarde van het klantensegment toe ](assets/condition-customer-segment.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van het Kart - voeg de voorwaarde van het klantensegment toe &#x200B;](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
    Standaard wordt bij deze voorwaarde een overeenkomende voorwaarde gevonden. Klik zo nodig op de koppeling **[!UICONTROL matches]** en wijzig de operator in een van de volgende:
 
@@ -41,13 +41,13 @@ _&#x200B;**om een segment met een regel van de wortelprijs te associëren:**&#x2
    * `is one of`
    * `is not one of`
 
-   ![ de exploitant van de Voorwaarde ](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
+   ![&#x200B; de exploitant van de Voorwaarde &#x200B;](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. Als u een specifiek segment wilt instellen, klikt u op de koppeling Meer **..** om extra opties weer te geven. Dan, klik het _pictogram van de Kiezer_ (![ pictogram van de Lijst ](../assets/icon-list-chooser.png)) om de lijst van klantensegmenten te tonen.
+1. Als u een specifiek segment wilt instellen, klikt u op de koppeling Meer **..** om extra opties weer te geven. Dan, klik het _pictogram van de Kiezer_ (![&#x200B; pictogram van de Lijst &#x200B;](../assets/icon-list-chooser.png)) om de lijst van klantensegmenten te tonen.
 
 1. In de lijst, selecteer checkbox van elk segment dat u met de voorwaarde wilt richten.
 
-   ![ de prijsregel van de Kar - lijst van de voorwaardenselecteur ](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
+   ![&#x200B; de prijsregel van de Kar - lijst van de voorwaardenselecteur &#x200B;](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de geselecteerde klantsegmenten in de voorwaarde te plaatsen.
 

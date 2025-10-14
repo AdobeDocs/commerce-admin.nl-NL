@@ -15,15 +15,15 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../../getting-started/compliance-payment-services-directive.md) vereisten voldoen. [!DNL PayPal Payflow Pro] moet zijn geïntegreerd met [!DNL Cardinal Commerce] om te voldoen aan PSD2. Meer leren, zie [ 3-D Veilig voor Payflow ](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [&#x200B; PSD2 &#x200B;](../../getting-started/compliance-payment-services-directive.md) vereisten voldoen. [!DNL PayPal Payflow Pro] moet zijn geïntegreerd met [!DNL Cardinal Commerce] om te voldoen aan PSD2. Meer leren, zie [&#x200B; 3-D Veilig voor Payflow &#x200B;](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 
 ## [!UICONTROL Required Settings]
 
-![ Vereiste Montages ](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
+![&#x200B; Vereiste Montages &#x200B;](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Website | (Optioneel) Alle e-mailadressen die aan uw PayPal-zakelijke account zijn gekoppeld. E-mailadressen zijn hoofdlettergevoelig en moeten exact overeenkomen met de adressen in uw account. |
 | [!UICONTROL Partner] | Website | Uw PayPal Partner-id, indien van toepassing. |
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advertise PayPal Credit]
 
-![ Adverteer PayPal Krediet ](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![&#x200B; Adverteer PayPal Krediet &#x200B;](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Website | De uitgevers-id die aan uw PayPal-creditaccount is gekoppeld. |
 | [!UICONTROL Get Publisher ID from PayPal] |  | Hiermee wordt uw uitgevers-id opgehaald uit PayPal. |
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
-![ Basismontages ](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
+![&#x200B; Basismontages &#x200B;](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Title] | Winkelweergave | Een naam die PayPal Payflow Pro identificeert als een betalingsmethode tijdens de afhandeling. |
 | [!UICONTROL Sort Order] | Winkelweergave | Een getal dat de volgorde bepaalt waarin PayPal Payflow Pro wordt weergegeven wanneer het bij andere betalingsmethoden wordt aangeboden tijdens het afrekenen. |
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Settings]
 
-![ Geavanceerde Montages ](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
+![&#x200B; Geavanceerde Montages &#x200B;](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | Weergeven bij winkelwagentje | Winkelweergave | Hiermee wordt bepaald of PayPal Express Checkout wordt weergegeven als een betalingsoptie in het winkelwagentje. Opties: Ja (aanbevolen) / Nee |
 | [!UICONTROL Payment Action Applicable From] | Website | Hiermee bepaalt u het bereik van de toepasselijke landselectie. Opties: alle toegestane landen / specifieke landen |

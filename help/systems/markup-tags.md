@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Opmaaktags
 
-Een markeringsmarkering is een richtlijn die codefragment met een relatieve verwijzing naar een voorwerp in uw opslag zoals een variabele, URL, beeld, of blok bevat. De markeringen van de prijsverhoging kunnen overal worden gebruikt de redacteur beschikbaar is en in HTML van [ e-mail ](email-templates.md) en [ nieuwsbrief ](../merchandising-promotions/newsletter-template.md) malplaatjes, evenals andere soorten [ inhoud ](../content-design/introduction.md#content) wordt opgenomen.
+Een markeringsmarkering is een richtlijn die codefragment met een relatieve verwijzing naar een voorwerp in uw opslag zoals een variabele, URL, beeld, of blok bevat. De markeringen van de prijsverhoging kunnen overal worden gebruikt de redacteur beschikbaar is en in HTML van [&#x200B; e-mail &#x200B;](email-templates.md) en [&#x200B; nieuwsbrief &#x200B;](../merchandising-promotions/newsletter-template.md) malplaatjes, evenals andere soorten [&#x200B; inhoud &#x200B;](../content-design/introduction.md#content) wordt opgenomen.
 
 Markeringstags worden ingesloten door dubbele accolades en kunnen worden gegenereerd met het gereedschap Widget of rechtstreeks in HTML-inhoud worden getypt. In plaats van het volledige pad naar een pagina te coderen met de code, kunt u bijvoorbeeld een opmaakcode gebruiken voor de URL van de winkel. De opmaakcodes in de volgende voorbeelden zijn:
 
@@ -20,7 +20,7 @@ Markeringstags worden ingesloten door dubbele accolades en kunnen worden gegener
 
 ## Aangepaste variabele
 
-De veranderlijke prijsverhogingsmarkering kan worden gebruikt om a [ douanevariabele ](variables-custom.md) in een e-mailmalplaatje, blokken, nieuwsbrieven, en inhoudspagina&#39;s op te nemen.
+De veranderlijke prijsverhogingsmarkering kan worden gebruikt om a [&#x200B; douanevariabele &#x200B;](variables-custom.md) in een e-mailmalplaatje, blokken, nieuwsbrieven, en inhoudspagina&#39;s op te nemen.
 
 \&lbrace;\{CustomVar code= &quot;my_custom_variable&quot;}
 
