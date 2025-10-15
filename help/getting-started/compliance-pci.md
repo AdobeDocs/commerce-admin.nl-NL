@@ -48,5 +48,5 @@ Om meer te leren, zie [ Aanpak van de Adobe aan Naleving PCI ][1] {:target= &quo
 
 Naarmate uw bedrijf groeit, moet u mogelijk jaarlijks een compatibiliteitsrapport indienen. PGB-rapportagevereisten nemen toe in verhouding tot het commerciële niveau, maar worden niet toegepast op bedrijven die minder dan 20.000 creditcardtransacties per jaar verwerken. Om meer te leren, bezoek de &rbrack;[2] website van de Raad van de Normen van de Veiligheid 0&rbrace; PCI.&lbrack;
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/nl/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

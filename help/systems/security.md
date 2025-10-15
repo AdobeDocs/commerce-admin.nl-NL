@@ -40,4 +40,4 @@ Als u vermoedt dat uw Adobe Commerce- of Magento Open Source-site in gevaar is, 
 
 1. **Rapport**: Als u denkt dat u een specifieke kwetsbaarheid in Commerce hebt gevonden, [&#x200B; open een kwestie met Adobe &#x200B;](https://hackerone.com/adobe?type=team) en omvat technische details.
 
-1. **Verbetering**: Voor de extra vrede van mening die uit 24/7 steun komt, plan uw verbetering aan [&#x200B; Adobe Commerce op onze Architectuur van de Wolk &#x200B;](https://business.adobe.com/products/magento/cloud-delivery.html) nu.
+1. **Verbetering**: Voor de extra vrede van mening die uit 24/7 steun komt, plan uw verbetering aan [&#x200B; Adobe Commerce op onze Architectuur van de Wolk &#x200B;](https://business.adobe.com/nl/products/magento/cloud-delivery.html) nu.

@@ -16,7 +16,7 @@ De studies tonen aan dat de opslag die klanten een keus van verscheidene leverin
 
 >[!NOTE]
 >
->Als gevolg van het afsluiten van Temando wordt de ondersteuning voor [!DNL Magento Shipping] verwijderd in 2.4.0. Voor gedetailleerde statusinformatie en aanbevelingen voor nieuwe verschepende implementaties in Commerce, zie de [&#x200B; productinformatie &#x200B;](https://business.adobe.com/products/magento/shipping.html) {:target="_blank"} pagina.
+>Als gevolg van het afsluiten van Temando wordt de ondersteuning voor [!DNL Magento Shipping] verwijderd in 2.4.0. Voor gedetailleerde statusinformatie en aanbevelingen voor nieuwe verschepende implementaties in Commerce, zie de [&#x200B; productinformatie &#x200B;](https://business.adobe.com/nl/products/magento/shipping.html) {:target="_blank"} pagina.
 
 ## Basisleveringsmethoden
 

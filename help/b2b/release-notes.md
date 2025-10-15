@@ -28,7 +28,7 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 
 Compatibel met Adobe Commerce versie 2.4.9-alpha3
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.5.3-alpha2
 
@@ -45,7 +45,7 @@ Compatibel met Adobe Commerce versie 2.4.9-alpha2
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p3 van Adobe Commerce, 2.4.7-p8, en 2.4.6-p13 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p7, 2.4.6 tot 2.4.6-p12.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p2
 
@@ -223,7 +223,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p8+ en 2.4.6-p13+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -385,7 +385,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p13+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p12
 
@@ -475,7 +475,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p14
 
@@ -565,7 +565,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd
 
 ## B2B v1.3.3-p15
 

@@ -20,7 +20,7 @@ De Adobe Commerce B2B-extensie `magento/extension-b2b` is beschikbaar voor alle 
 
 ## Vereisten
 
-- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html), alle gesteunde versies
+- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html), alle gesteunde versies
 - PHP 8.1, 8.2 en 8.3 (vereist B2B 1.5.0)
 - [!DNL Composer]
 

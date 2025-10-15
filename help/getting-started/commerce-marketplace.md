@@ -109,7 +109,7 @@ Aanmeldingsproblemen hebben doorgaans betrekking op een onjuiste combinatie van 
 
 ### Bronvragen openen
 
-Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/products/magento/partners.html) die met Magento Open Source kan helpen.
+Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/nl/products/magento/partners.html) die met Magento Open Source kan helpen.
 
 ### Terugbetalingsaanvragen
 
@@ -143,4 +143,4 @@ Deze speciale machtigingen verlenen Adobe Commerce hetzelfde toegangsniveau als 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/nl/products/magento/magento-commerce.html
