@@ -99,7 +99,7 @@ Quote status provides information about the current state of the quote in the qu
 
 [&#128279;](../systems/permissions-user-roles.md#role-resources) These role resources must be set for the Admin user role that is assigned to the store administrator.
 
-**[!UICONTROL System]**&#x200B;_[!UICONTROL Permissions]_&#x200B;**[!UICONTROL User Roles]**&#x200B;[!UICONTROL Sales][!UICONTROL Operations][!UICONTROL Quotes]__
+**[!UICONTROL System]**&#x200B;_[!UICONTROL Permissions]_&#x200B;**[!UICONTROL User Roles]**&#x200B;[!UICONTROL Sales]&#x200B;[!UICONTROL Operations]&#x200B;[!UICONTROL Quotes]__
 
 ![](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
