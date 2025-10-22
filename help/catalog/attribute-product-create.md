@@ -106,7 +106,7 @@ U kunt kenmerken maken terwijl u aan een product werkt of op de pagina _[!UICONT
 
    >[!NOTE]
    >
-   > Als u dit kenmerk als facet wilt gebruiken in Live zoeken, moet u een archiefspecifiek label opgeven. Zonder dit, kan de attributennaam niet correct op de pagina van de facetconfiguratie tonen. Om de configuratie bij te werken, geef manueel het etiket uit gebruikend [&#x200B; uitgeeft optie in de Levende lijst van het Onderzoek facet &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) in de _Levende Gids van het Onderzoek_.
+   > Als u dit kenmerk als facet wilt gebruiken in Live zoeken, moet u een archiefspecifiek label opgeven. Zonder dit, kan de attributennaam niet correct op de pagina van de facetconfiguratie tonen. Om de configuratie bij te werken, geef manueel het etiket uit gebruikend [&#x200B; uitgeeft optie in de Levende lijst van het Onderzoek facet &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) in de _Levende Gids van het Onderzoek_.
 
 ## Stap 4: Beschrijf de storefront-eigenschappen
 
