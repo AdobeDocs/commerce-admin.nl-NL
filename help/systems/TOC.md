@@ -79,6 +79,6 @@ ht-degree: 0%
    - [Sessiebeheer](security-session-management.md)
    - [Detectie van browsermogelijkheden](security-browser-capabilities-detection.md)
    - [Melding van beveiligingsproblemen](security-issue-reporting.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
 
 
