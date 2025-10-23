@@ -5,9 +5,9 @@ breadcrumb-title: Admin Systems Guide
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 - [Admin Systems Guide](guide-overview.md)
 - [Inleiding tot beheersystemen](introduction.md)
 - [[!UICONTROL System] menu](system-menu.md)
-- Beheerdersaccounts {#user-accounts}
+- Gebruikersaccounts voor beheerders {#user-accounts}
    - [Beheerdersmachtigingen](permissions.md)
    - [Gebruikersaccounts beheren](permissions-users-all.md)
    - [Gebruikersrollen](permissions-user-roles.md)
@@ -48,7 +48,9 @@ ht-degree: 0%
       - [downloadbare producten importeren](data-transfer-downloadable-products.md)
       - [Laagprijsgegevens importeren](data-import-price-tier.md)
    - [Geplande import en export](data-scheduled-import-export.md)
-   - [Gegevensbeheerdashboard](data-dashboard.md)
+   - Gegevenssynchronisatie voor Commerce-services {#data-sync}
+      - [Gegevensbeheerdashboard](data-dashboard.md)
+      - [Synchronisatiestatus gegevensfeed](data-feed-sync-status.md)
 - Handelingenlogboeken {#action-logs}
    - [Overzicht](action-log.md)
    - [Rapport over handelingslogboeken](action-log-report.md)
@@ -70,13 +72,13 @@ ht-degree: 0%
    - CAPTCHA {#captcha}
       - [Standaard CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Verificatie met twee factoren (2FA) {#2fa}
+   - Two-Factor Authentificatie (2FA) {#2fa}
       - [Overzicht](security-two-factor-authentication.md)
       - [Gebruikersaccount instellen voor 2FA](security-two-factor-authentication-use.md)
       - [2FA beheren](security-two-factor-authentication-manage.md)
    - [Sessiebeheer](security-session-management.md)
    - [Detectie van browsermogelijkheden](security-browser-capabilities-detection.md)
    - [Melding van beveiligingsproblemen](security-issue-reporting.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
