@@ -2,7 +2,7 @@
 title: Statuscontrole gegevensinvoer
 description: De synchronisatie van de gegevensuitvoer van de monitor en identificeert om het even welke kwesties of vertragingen met voederverwerking voor  [!DNL Catalog Service],  [!DNL Live Search], en  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
 workflow-type: tm+mt
 source-wordcount: '1458'
@@ -38,24 +38,24 @@ De status wordt bijgehouden voor de volgende feeds:
 
 >[!TIP]
 >
->Om meer over het proces van de gegevenssynchronisatie te leren, zie [&#x200B; gegevens met SaaS- gegevensuitvoer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
+>Om meer over het proces van de gegevenssynchronisatie te leren, zie [&#x200B; gegevens met SaaS- gegevensuitvoer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
 
 ## De extensie installeren
 
 De pagina Status gegevensfeed is beschikbaar voor alle Commerce-handelaren met actieve licenties voor de volgende Commerce-services:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) met een actieve vergunning.
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/nl/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview) met een actieve vergunning.
 
 **Vereisten**
 
 * PHP 8.1, 8.2, 8.3 of 8.4
 * Adobe Commerce 2.4.4+
-* [&#x200B; de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
+* [&#x200B; de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
 * Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com)
 
-  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
 
@@ -69,9 +69,9 @@ composer require magento/module-data-exporter-status
 
 Raadpleeg de volgende handleidingen voor gedetailleerde installatiestappen:
 
-* [&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## De statuspagina van de gegevensfeed openen
 
@@ -133,7 +133,7 @@ Boven aan elke pagina met voederdetails geven kritieke gezondheidsindicatoren de
 
 >[!TIP]
 >
->Meer over indexverwerking leren, zie het [&#x200B; onderwerp van het Beheer van de Index 0&rbrace;.](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)
+>Meer over indexverwerking leren, zie het [&#x200B; onderwerp van het Beheer van de Index 0&rbrace;.](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management)
 
 #### Changelog-achterstand
 
@@ -165,7 +165,7 @@ Wanneer het aantal met succes verzonden verslagen het aantal bronverslagen aanpa
 
 >[!NOTE]
 >
->Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Mislukte exportbewerkingen beheren
 
@@ -266,4 +266,4 @@ Als u specifieke voedingsartikelen opnieuw moet synchroniseren:
 >[!MORELIKETHIS]
 >
 >* [&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+>* [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview)
