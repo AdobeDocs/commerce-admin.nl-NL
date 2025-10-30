@@ -18,16 +18,16 @@ De volgende montages moeten op het productniveau, en in de configuratie van elke
 
 | [!UICONTROL Carrier] | Vereisten |
 |-------|--------|
-| [ USPS ](usps.md) | Vereist een USPS-account voor verzendlabel. |
-| [ UPS ](ups.md) | Vereist een UPS-account. Verzendlabels zijn alleen beschikbaar voor verzendingen die afkomstig zijn van de Amerikaanse specifieke gegevens die vereist zijn voor winkels buiten de VS. |
-| [ FedEx ](fedex.md) | Vereist een FedEx-account. Voor winkels buiten de VS worden verzendlabels alleen ondersteund voor internationale verzendingen. FedEx staat binnenlandse zendingen die buiten de VS afkomstig zijn niet toe |
-| [ DHL ](dhl.md) | Vereist een DHL-account. Verzendlabels worden alleen ondersteund voor verzendingen die afkomstig zijn uit de VS. |
+| [&#x200B; USPS &#x200B;](usps.md) | Vereist een USPS-account voor verzendlabel. |
+| [&#x200B; UPS &#x200B;](ups.md) | Vereist een UPS-account. Verzendlabels zijn alleen beschikbaar voor verzendingen die afkomstig zijn van de Amerikaanse specifieke gegevens die vereist zijn voor winkels buiten de VS. |
+| [&#x200B; FedEx &#x200B;](fedex.md) | Vereist een FedEx-account. Voor winkels buiten de VS worden verzendlabels alleen ondersteund voor internationale verzendingen. FedEx staat binnenlandse zendingen die buiten de VS afkomstig zijn niet toe |
+| [&#x200B; DHL &#x200B;](dhl.md) | Vereist een DHL-account. Verzendlabels worden alleen ondersteund voor verzendingen die afkomstig zijn uit de VS. |
 
 {style="table-layout:auto"}
 
 ## Stap 1: Controleer het land van vervaardiging
 
-Het land van vervaardiging is vereist voor alle producten die internationaal door USPS en FedEx worden verzonden. Als u vele producten hebt die zouden moeten worden bijgewerkt, kunt u of [ invoeren ](../systems/data-import.md) de updates, of het net van de Inventaris gebruiken om veelvoudige verslagen bij te werken.
+Het land van vervaardiging is vereist voor alle producten die internationaal door USPS en FedEx worden verzonden. Als u vele producten hebt die zouden moeten worden bijgewerkt, kunt u of [&#x200B; invoeren &#x200B;](../systems/data-import.md) de updates, of het net van de Inventaris gebruiken om veelvoudige verslagen bij te werken.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -39,7 +39,7 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
 
 1. Werk het **Land van Vervaardiging** zoals nodig bij.
 
-   ![ Land van Vervaardiging ](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
+   ![&#x200B; Land van Vervaardiging &#x200B;](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -63,22 +63,22 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Shipping Settings]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit, en verifieer dat de volgende gebieden volledig zijn:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit, en verifieer dat de volgende gebieden volledig zijn:
 
    - **[!UICONTROL Street Address]** - Het adres van de straat van de plaats van verzending. Bijvoorbeeld, de plaats van uw bedrijf of pakhuis. Dit veld is vereist voor verzendlabels.
    - **[!UICONTROL Street Address Line 2]** - Eventuele aanvullende adresgegevens, zoals de vloer of ingang. Het wordt aanbevolen dit veld te gebruiken.
 
-   ![ Oorsprong ](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
+   ![&#x200B; Oorsprong &#x200B;](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
 1. In de _sectie van de Verkoop_ in het linkerpaneel, kies **[!UICONTROL Delivery Methods]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit, en verifieer dat de volgende gebieden volledig zijn:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit, en verifieer dat de volgende gebieden volledig zijn:
 
    - **[!UICONTROL Secure Gateway URL]** - Het systeem voert automatisch de gateway-URL in.
    - **[!UICONTROL Password]** - Het wachtwoord wordt verstrekt door USPS en geeft u toegang tot hun systeem door de Diensten van het Web.
    - **Lengte, Breedte, Hoogte, Meisje** - de standaardafmetingen van het pakket. Als u deze velden wilt weergeven, stelt u **[!UICONTROL Size]** in op `Large` .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **** sectie FedEx en verifieer dat de volgende gebieden volledig zijn:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **&#x200B;**&#x200B;sectie FedEx en verifieer dat de volgende gebieden volledig zijn:
 
    - Meternummer
    - Sleutel
@@ -88,7 +88,7 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL General]** uit en kies **[!UICONTROL General]** eronder.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit en verifieer dat de volgende gebieden volledig zijn:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit en verifieer dat de volgende gebieden volledig zijn:
 
    - **[!UICONTROL Store Name]** - De naam van de winkel- of opslagweergave.
    - **[!UICONTROL Store Contact Telephone]** - Het telefoonnummer van de primaire contactpersoon voor de winkel- of winkelweergave.
@@ -100,6 +100,6 @@ Het land van vervaardiging is vereist voor alle producten die internationaal doo
 
    Als de informatie ontbreekt, wordt een fout weergegeven wanneer u de labels probeert af te drukken.
 
-   ![ Informatie van de Opslag ](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; Informatie van de Opslag &#x200B;](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]**.
