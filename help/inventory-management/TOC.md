@@ -4,9 +4,9 @@ user-guide-description: Leer hoe te om  [!DNL Inventory Management]  eigenschapp
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 - [Inventory management Guide](guide-overview.md)
 - [Inleiding tot  [!DNL Inventory Management]](introduction.md)
 - [Aanvullende informatie](release-notes.md)
-- Grondbeginselen van inventarissen {#basics}
+- Grondbeginselen van de inventarisatie {#basics}
    - [Bronnen en voorraden](sources-stocks.md)
    - [Selectie en voorbehouden voor Source](selection-reservations.md)
    - [Status van bestelling en boeking](order-status.md)
@@ -42,7 +42,7 @@ ht-degree: 1%
    - [Overzicht](sources-manage.md)
    - [Bronnen toevoegen](sources-add.md)
    - [Bronnen uitschakelen](sources-disable.md)
-- Voorraden beheren {#stocks}
+- Bestanden beheren {#stocks}
    - [Overzicht](stocks-manage.md)
    - [Voorraaditems toevoegen](stocks-add.md)
    - [Prioritaire bronnen voor bestanden](stocks-prioritize-sources.md)
@@ -58,5 +58,3 @@ ht-degree: 1%
    - [Overzicht](shipments.md)
    - [Verzendingen maken](shipments-create.md)
 - [CLI-verwijzing](cli.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
-

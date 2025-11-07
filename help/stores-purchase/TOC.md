@@ -5,9 +5,9 @@ breadcrumb-title: Winkels en koopervaring
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    + [Winkelweergaven](store-views.md)
    + [Winkellokalisatie](store-localize.md)
    + [URL&#39;s opslaan](store-urls.md)
-   + Taxes {#taxes}
+   + Belastingen {#taxes}
       + [Overzicht](taxes.md)
       + [Belastingconfiguratie-instellingen](tax-settings-general.md)
       + [Instellingen voor prijsweergave](display-settings.md)
@@ -51,7 +51,7 @@ ht-degree: 0%
       + [Een winkelwagentje beheren](shopping-assisted-cart-manage.md)
       + [Een bestelling maken](customer-account-create-order.md)
       + [Een klantenorder bijwerken](order-update.md)
-   + Uitchecken {#checkout}
+   + Afhandeling {#checkout}
       + [Overzicht](checkout-process.md)
       + [Uitchecken via één pagina](checkout-one-page.md)
       + [Uitchecken door gast](checkout-guest.md)
@@ -62,9 +62,9 @@ ht-degree: 0%
    + Cadeaukaarten {#gift-cards}
       + [Aankoop en terugbetaling van creditcard](product-gift-card-workflow.md)
       + [Cadeaucreditcardrekeningen](product-gift-card-accounts.md)
-+ Gereedschappen voor penseelstreken {#shopper-tools}
++ Gereedschappen {#shopper-tools}
    + [Een vriend e-mailen](email-a-friend.md)
-   + Wullijsten {#wish-lists}
+   + Wenslijsten {#wish-lists}
       + [Overzicht](wishlists.md)
       + [Wenslijsten configureren](wishlist-configuration.md)
       + [Wish list storefront experience](wishlist-storefront.md)
@@ -116,12 +116,12 @@ ht-degree: 0%
 + Aflevering {#delivery}
    + [Overzicht](delivery.md)
    + [Verzendinstellingen](shipping-settings.md)
-   + Basismethoden voor levering {#basic-methods}
+   + Basisleveringsmethoden {#basic-methods}
       + [Gratis verzending](shipping-free.md)
       + [Plat tarief](shipping-flat-rate.md)
       + [Tabeltarieven](shipping-table-rate.md)
       + [Levering in de winkel](shipping-in-store-delivery.md)
-   + Verzenddragers {#shipping-carriers}
+   + Scheepvaartmaatschappijen {#shipping-carriers}
       + [Setup van transportbedrijf](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
@@ -131,5 +131,3 @@ ht-degree: 0%
       + [Overzicht verzendlabel](shipping-labels.md)
       + [Verzendlabels configureren](shipping-label-configure.md)
       + [Verzendlabels maken](shipping-label-create.md)
-+ [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/user-guides/home)
-
