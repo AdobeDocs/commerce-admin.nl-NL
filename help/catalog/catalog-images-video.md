@@ -38,5 +38,5 @@ Er zijn veel andere lichte vakken en schuifregelaars waarmee u de presentatie va
 
 Raadpleeg de volgende artikelen in de Commerce Support Knowledge Base voor hulp bij het oplossen van problemen met afbeeldingen en video&#39;s:
 
-- [&#x200B; de beelden van het Product tonen niet ondanks Product geeft beeldrollen uit &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [&#x200B; beelden van de opslag niet getoond na plaatsing &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [&#x200B; de beelden van het Product tonen niet ondanks Product geeft beeldrollen uit &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=nl-NL)
+- [&#x200B; beelden van de opslag niet getoond na plaatsing &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=nl-NL)
