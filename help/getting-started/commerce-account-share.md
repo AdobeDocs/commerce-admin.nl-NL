@@ -112,7 +112,7 @@ De volgende instructies worden geschreven vanuit het perspectief van een gedeeld
    > Als **[!UICONTROL Delete]** niet wordt weergegeven, controleert u of **[!UICONTROL Share Name]** het naamgevingspatroon bevat `Cloud Shared Access from MAG0XYZ` . Als de rekening dat [&#x200B; noemend patroon heeft en niet kan worden geschrapt &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), is dit omdat de Gedeelde Toegang door API werd gecreeerd, en niet direct van de [&#x200B; rekening van Commerce &#x200B;](https://account.magento.com/).
    > 
    > Als het niet kan worden geschrapt, eenvoudig hebben de Eigenaar van de Rekening de Gedeelde rekening van de Toegang en onder de Toestemmingen van de Rekening van de Verlening, uncheck elk punt. Na deze update heeft de gebruiker geen toegang meer tot accountbronnen.
-   > ![&#x200B; beeld &#x200B;](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![&#x200B; beeld &#x200B;](https://git.corp.adobe.com/AdobeDocs/commerce-admin.nl-NL/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > Bovendien zorg ervoor dat de gebruikers uit het project worden verwijderd zodat zij geen e-mailberichten meer zullen ontvangen: [&#x200B; de Voormalige teamleden ontvangen de e-mails van het de wolkenbericht van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
