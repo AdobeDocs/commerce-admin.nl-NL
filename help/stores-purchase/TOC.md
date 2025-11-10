@@ -5,9 +5,9 @@ breadcrumb-title: Winkels en koopervaring
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -131,3 +131,4 @@ ht-degree: 0%
       + [Overzicht verzendlabel](shipping-labels.md)
       + [Verzendlabels configureren](shipping-label-configure.md)
       + [Verzendlabels maken](shipping-label-create.md)
++ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -4,9 +4,9 @@ user-guide-description: Uitgebreide informatie over functies voor catalogusbehee
 breadcrumb-title: Catalogusbeheer
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: d3c26582e70f18612e9736df57e328f1c8686c57
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
       + [Kenmerken maken en verwijderen](attribute-product-create.md)
       + [Bulkupdates](bulk-product-attribute-update.md)
       + [Kenmerksets](attribute-sets.md)
++ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -5,9 +5,9 @@ breadcrumb-title: Admin Systems Guide
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: cfe92b643c0365256aa6077f3237b61e6aad9dd8
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,4 @@ ht-degree: 0%
    - [Sessiebeheer](security-session-management.md)
    - [Detectie van browsermogelijkheden](security-browser-capabilities-detection.md)
    - [Melding van beveiligingsproblemen](security-issue-reporting.md)
-
-
-
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

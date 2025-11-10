@@ -4,9 +4,9 @@ user-guide-description: Leer hoe te om  [!DNL Inventory Management]  eigenschapp
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
@@ -58,3 +58,4 @@ ht-degree: 1%
    - [Overzicht](shipments.md)
    - [Verzendingen maken](shipments-create.md)
 - [CLI-verwijzing](cli.md)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
