@@ -55,4 +55,4 @@ ht-degree: 0%
    + [Klantsegmenten maken en verwijderen](customer-segment-create.md)
    + [Klantsegmenten in prijsregels](customer-segment-price-rule.md)
    + [Rapport voor klantensegment](customer-segment-reports.md)
-+ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -131,4 +131,4 @@ ht-degree: 0%
       + [Overzicht verzendlabel](shipping-labels.md)
       + [Verzendlabels configureren](shipping-label-configure.md)
       + [Verzendlabels maken](shipping-label-create.md)
-+ [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
