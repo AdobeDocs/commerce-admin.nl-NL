@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 Met het gereedschap URL herschrijven kunt u elke URL wijzigen die is gekoppeld aan een product, categorie of CMS-pagina. Wanneer u een URL herschrijft, maakt Commerce automatisch een permanente omleiding (301), zodat koppelingen die naar de oude URL verwijzen, naar het nieuwe adres worden omgeleid.
 
 >[!NOTE]
 >
->Om URL bij te werken herschrijft voor veelvoudige of alle producten gelijktijdig, verwijs naar [ Veelvoudige URL herschrijft ](url-rewrite-product.md#multiple-url-rewrites).
+>Om URL bij te werken herschrijft voor veelvoudige of alle producten gelijktijdig, verwijs naar [&#x200B; Veelvoudige URL herschrijft &#x200B;](url-rewrite-product.md#multiple-url-rewrites).
 
 >[!BEGINSHADEBOX  &quot;Het begrip herschrijft en herleidt&quot;]
 
@@ -37,11 +37,11 @@ De termijnen _herschrijven_ en _richten_ vaak worden gebruikt onderling verwisse
 
 In Adobe Commerce wordt met het gereedschap URL herschrijven standaard een permanente omleiding (301) gemaakt om de waarde SEO te behouden wanneer u de URL-sleutel van een product, categorie of pagina wijzigt. Dit gedrag zorgt ervoor dat de bestaande verbindingen blijven werken en de rangschikkingen van de onderzoeksmotor worden gehandhaafd.
 
-Door gebrek, [ automatische opnieuw richt URL ](url-redirect-product-automatic.md) wordt toegelaten voor uw opslag en **leidt tot Permanent Redirect voor oude URL** checkbox wordt geselecteerd onder het zeer belangrijke gebied URL van elk product.
+Door gebrek, [&#x200B; automatische opnieuw richt URL &#x200B;](url-redirect-product-automatic.md) wordt toegelaten voor uw opslag en **leidt tot Permanent Redirect voor oude URL** checkbox wordt geselecteerd onder het zeer belangrijke gebied URL van elk product.
 
 {{url-rewrite-skip}}
 
-![ de motoroptimalisering van het Onderzoek - creeer permanent opnieuw richt URL ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![&#x200B; de motoroptimalisering van het Onderzoek - creeer permanent opnieuw richt URL &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 {{url-rewrite-params}}
 
@@ -65,7 +65,7 @@ U kunt URL-herschrijvingen maken naar:
 
 De URL die u maakt, kan worden omgeleid naar bestaande categorieën of aangepaste pagina&#39;s zonder de sitestructuur te wijzigen. Hierdoor kunt u gemakkelijk memorabele URL&#39;s voor marketingcampagnes maken.
 
-![ URL herschrijft net ](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![&#x200B; URL herschrijft net &#x200B;](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerce biedt de volgende URL-herschrijftypen aan:
 
@@ -140,9 +140,9 @@ In het volgende voorbeeld wordt getoond hoe URL&#39;s worden weergegeven met en 
 
 1. Kies **[!UICONTROL General]** in het linkerdeelvenster waar **[!UICONTROL Web]** wordt uitgevouwen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization]** sectie uit.
 
-   ![ Algemene configuratie - de optimalisering van de Webonderzoekmachine ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; Algemene configuratie - de optimalisering van de Webonderzoekmachine &#x200B;](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Use Web Server Rewrites]** in op uw voorkeur.
 
