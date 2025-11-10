@@ -86,4 +86,4 @@ ht-degree: 0%
    - [Google Analytics](google-analytics.md)
    - [Google-tagbeheer](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL)
