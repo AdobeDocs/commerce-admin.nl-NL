@@ -3,7 +3,7 @@ title: URL herschrijft
 description: Meer informatie over het herschrijven van URL's vindt u met het gereedschap URL herschrijven van Commerce om URL's te wijzigen die zijn gekoppeld aan een product, categorie of CMS-pagina.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
 source-wordcount: '905'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
 
 Met het gereedschap URL herschrijven kunt u elke URL wijzigen die is gekoppeld aan een product, categorie of CMS-pagina. Wanneer u een URL herschrijft, maakt Commerce automatisch een permanente omleiding (301), zodat koppelingen die naar de oude URL verwijzen, naar het nieuwe adres worden omgeleid.
 
