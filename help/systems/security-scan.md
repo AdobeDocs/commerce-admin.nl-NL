@@ -22,7 +22,7 @@ Controleer uw Adobe Commerce- en Magento Open Source-sites op beveiligingsrisico
 - Heb toegang tot historische veiligheidsrapporten die de vooruitgang van uw plaatsen volgen en controleren.
 - Open het scanrapport met geslaagde en mislukte controles, met de aanbevolen acties.
 
-Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van uw [&#x200B; Commerce/Magento rekening &#x200B;](../getting-started/commerce-account-create.md). Voor technische informatie, zie [&#x200B; Opstelling het Hulpmiddel van het Scannen van de Veiligheid &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+Het hulpmiddel van het Scannen van de Veiligheid is vrij van het dashboard van uw [&#x200B; Commerce/Magento rekening &#x200B;](../getting-started/commerce-account-create.md). Voor technische informatie, zie [&#x200B; Opstelling het Hulpmiddel van het Scannen van de Veiligheid &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
 ![&#x200B; het Scannen van de Veiligheid Hulpmiddel &#x200B;](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
