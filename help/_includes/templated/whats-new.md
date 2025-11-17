@@ -1,7 +1,7 @@
 ---
-source-git-commit: 09ff5c4e13f86e3818f6bf60dd0073202e27aaa9
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,50 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 10 november 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 30 oktober 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> VerzenddragerOpstelling </a> instructies met instructies voor het migreren van de Hulpmiddelen API van het Web van USPS aan USPS REST APIs.</p>
+</td>
+      <td>
+        Technisch, feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 23 oktober 2025
 
@@ -23,7 +67,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde documentatie voor de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> uitbreiding van de Status van de Synchronisatie van het Gegeven van Gegevens </a> om de synchronisatie van de voer van de gegevensuitvoer van Adobe Commerce aan het gegevensbestand van Commerce SaaS voor publicatie aan de verbonden diensten van Commerce (Levend Onderzoek, de Aanbevelingen van het Product, de Dienst van de Catalogus) te controleren. De statuspagina voor gegevenssynchronisatie is beschikbaar via het menu Systemen in Commerce Admin.</p>
+      <td><p>Toegevoegde documentatie voor de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> uitbreiding van de Status van de Synchronisatie van het Gegeven van Gegevens </a> om de synchronisatie van de voer van de gegevensuitvoer van Adobe Commerce aan het gegevensbestand van Commerce SaaS voor publicatie aan de verbonden diensten van Commerce (Levend Onderzoek, de Aanbevelingen van het Product, de Dienst van de Catalogus) te controleren. De statuspagina voor gegevenssynchronisatie is beschikbaar via het menu Systemen in Commerce Admin.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -45,7 +89,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
+      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -67,7 +111,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
+      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
 </td>
       <td>
         Belangrijke update
