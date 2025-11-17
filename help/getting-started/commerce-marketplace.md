@@ -77,7 +77,7 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
 >[!IMPORTANT]
 >
->Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#x200B; te installeren of &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) verbetering [&#x200B; uw instantie. &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) Dit vereiste omvat ook [&#x200B; modules &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#x200B; te installeren of &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) verbetering [&#x200B; uw instantie. &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL) Dit vereiste omvat ook [&#x200B; modules &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) en [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL).
 
 Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [ worden ontvangen de Architectuur van de Wolk van Adobe ][4].
 
@@ -109,7 +109,7 @@ Aanmeldingsproblemen hebben doorgaans betrekking op een onjuiste combinatie van 
 
 ### Bronvragen openen
 
-Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/products/magento/partners.html) die met Magento Open Source kan helpen.
+Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/nl/products/magento/partners.html) die met Magento Open Source kan helpen.
 
 ### Terugbetalingsaanvragen
 
@@ -143,4 +143,4 @@ Deze speciale machtigingen verlenen Adobe Commerce hetzelfde toegangsniveau als 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/nl/products/magento/magento-commerce.html
