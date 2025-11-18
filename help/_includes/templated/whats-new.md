@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> de 3&rbrace; onderwerpen van de Bouwer van de Pagina Workspace toe. </a> De preview toont geen inhoud tenzij deze beschikbaar is in de Standaard Store View.</p>
+      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/workspace"> de 3&rbrace; onderwerpen van de Bouwer van de Pagina Workspace toe. </a> De preview toont geen inhoud tenzij deze beschikbaar is in de Standaard Store View.</p>
 </td>
       <td>
         Technisch, feedback
@@ -45,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Security Scan-tool</a> is bijgewerkt om handelaren te ondersteunen met Commerce-winkels die zijn ingezet als Adobe Experience Manager-sites.</p>
+      <td><p>De <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan">Security Scan-tool</a> is bijgewerkt om handelaren te ondersteunen met Commerce-winkels die zijn ingezet als Adobe Experience Manager-sites.</p>
 </td>
       <td>
         Technisch
@@ -67,7 +67,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
+      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
 </td>
       <td>
         Technisch, feedback
@@ -89,7 +89,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De instructies voor de opstelling<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> van verzendvervoerders bijgewerkt </a>met instructies voor migratie van de USPS Web Tools API naar de USPS REST API's.</p>
+      <td><p>De instructies voor de opstelling<a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> van verzendvervoerders bijgewerkt </a>met instructies voor migratie van de USPS Web Tools API naar de USPS REST API's.</p>
 </td>
       <td>
         Technisch, feedback
@@ -111,7 +111,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Documentatie toegevoegd voor de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status-extensie</a> om de synchronisatie van data-exportfeeds van Adobe Commerce naar de Commerce SaaS-database te monitoren voor publicatie naar verbonden Commerce-diensten (Live Search, Product Recommendations, Catalog Service). De pagina Data Sync Status is beschikbaar via het Systeemmenu in de Commerce Admin.</p>
+      <td><p>Documentatie toegevoegd voor de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status-extensie</a> om de synchronisatie van data-exportfeeds van Adobe Commerce naar de Commerce SaaS-database te monitoren voor publicatie naar verbonden Commerce-diensten (Live Search, Product Recommendations, Catalog Service). De pagina Data Sync Status is beschikbaar via het Systeemmenu in de Commerce Admin.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -133,7 +133,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Informatie toegevoegd over hoe je Single Sign-On (SSO) configureert voor veilige toegang tot Adobe Apps aan het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">onderwerp Configureer de Commerce Admin-integratie met Adobe ID</a> in de Commerce Merchant-documentatie.</p>
+      <td><p>Informatie toegevoegd over hoe je Single Sign-On (SSO) configureert voor veilige toegang tot Adobe Apps aan het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">onderwerp Configureer de Commerce Admin-integratie met Adobe ID</a> in de Commerce Merchant-documentatie.</p>
 </td>
       <td>
         Technisch, feedback
@@ -155,7 +155,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
+      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -177,7 +177,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
+      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
 </td>
       <td>
         Grote update
