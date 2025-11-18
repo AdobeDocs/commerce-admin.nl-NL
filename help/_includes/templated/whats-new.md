@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> de 3} onderwerpen van de Bouwer van de Pagina Workspace toe. </a> De preview toont geen inhoud tenzij deze beschikbaar is in de Standaard Store View.</p>
+      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> de 3&rbrace; onderwerpen van de Bouwer van de Pagina Workspace toe. </a> De preview toont geen inhoud tenzij deze beschikbaar is in de Standaard Store View.</p>
 </td>
       <td>
         Technisch, feedback
