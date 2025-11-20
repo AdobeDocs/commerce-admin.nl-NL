@@ -15,19 +15,19 @@ Houd promoties in de hand en creëer mogelijkheden voor betrokkenheid van klante
 
 ## Merchandising
 
-_Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [&#x200B; op categorie-gebaseerde navigatie &#x200B;](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
+_Merchandising_ is een termijn die in kleinhandel wordt gebruikt om de kunst en de wetenschap van de ontwikkeling van het vloerplan en de presentatie van producten te beschrijven. U zou aan de [ op categorie-gebaseerde navigatie ](../catalog/navigation-top.md) als vloerplan van de opslag, en de dynamische presentatie van producten als voorwaarden kunnen denken die u op de lijst van producten in de opslag kunt toepassen. Ook, kunt u programma&#39;s uitvoeren die meer productverkoop drijven:
 
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Visuele Merchandiser &#x200B;](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
+- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Visuele Merchandiser ](visual-merchandiser.md) - een reeks geavanceerde hulpmiddelen die u toestaat om producten te plaatsen, en voorwaarden toe te passen die bepalen welke producten in de categorielijst verschijnen.
 
-- [&#x200B; Cadeauregisters &#x200B;](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
+- [ Cadeauregisters ](gift-registries.md) - geef uw klanten de capaciteit om giftenregisters voor speciale gelegenheden tot stand te brengen, en hun vrienden en familie uit te nodigen om hun giften van het giftenregister te kopen.
 
-- [&#x200B; Beloningen en loyaliteit &#x200B;](rewards-loyalty.md) - gebruik een puntensysteem om unieke programma&#39;s uit te voeren die klantenovereenkomst drijven en klantenloyaliteit bevorderen. U kunt punten toewijzen voor een groot aantal transactie- en klantactiviteiten en de punttoewijzing, het saldo en de vervaldatum bepalen.
+- [ Beloningen en loyaliteit ](rewards-loyalty.md) - gebruik een puntensysteem om unieke programma&#39;s uit te voeren die klantenovereenkomst drijven en klantenloyaliteit bevorderen. U kunt punten toewijzen voor een groot aantal transactie- en klantactiviteiten en de punttoewijzing, het saldo en de vervaldatum bepalen.
 
-- [&#x200B; Privé verkoop en gebeurtenissen &#x200B;](events-private-sales.md) - gebruik uw bestaande klantenbasis om gezoem en nieuwe lood te produceren, of overtollige voorraad door privé verkoop en andere catalogusgebeurtenissen te offloaden.
+- [ Privé verkoop en gebeurtenissen ](events-private-sales.md) - gebruik uw bestaande klantenbasis om gezoem en nieuwe lood te produceren, of overtollige voorraad door privé verkoop en andere catalogusgebeurtenissen te offloaden.
 
 >[!TIP]
 >
->Om over de Aanbevelingen van het Product te leren en hoe zij u de insight kunnen geven en u te controleren moet tot de beste ervaring voor uw kopers leiden, zie de [&#x200B; Gids van de Gebruiker van de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL).
+>Om over de Aanbevelingen van het Product te leren en hoe zij u de insight kunnen geven en u te controleren moet tot de beste ervaring voor uw kopers leiden, zie de [ Gids van de Gebruiker van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Aanbiedingen
 
@@ -45,36 +45,36 @@ Voorwaarden zijn instructies die de lijst met producten en situaties voor het to
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **[!UICONTROL Use for Promo Rule Conditions]** moet aan `Yes` voor de attributen in uw [&#x200B; Eigenschappen worden geplaatst Storefront &#x200B;](../catalog/attribute-product-create.md).
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **[!UICONTROL Use for Promo Rule Conditions]** moet aan `Yes` voor de attributen in uw [ Eigenschappen worden geplaatst Storefront ](../catalog/attribute-product-create.md).
 
 
 ### Prijsregels
 
-Voor [&#x200B; de regels van de catalogusprijs &#x200B;](price-rules-catalog.md), bouwt u voorwaarden die op [&#x200B; worden gebaseerd kenmerkreeksen &#x200B;](../catalog/attribute-sets.md) in uw catalogus, vergelijkingsfuncties, en geselecteerde attributen. U kunt voorwaarden zoals zinnen maken door een paar instructies te selecteren. U kunt bijvoorbeeld twee prijsregels maken om kortingen toe te passen op kinderkleding en kleding voor mannen en vrouwen op basis van de categorie.
+Voor [ de regels van de catalogusprijs ](price-rules-catalog.md), bouwt u voorwaarden die op [ worden gebaseerd kenmerkreeksen ](../catalog/attribute-sets.md) in uw catalogus, vergelijkingsfuncties, en geselecteerde attributen. U kunt voorwaarden zoals zinnen maken door een paar instructies te selecteren. U kunt bijvoorbeeld twee prijsregels maken om kortingen toe te passen op kinderkleding en kleding voor mannen en vrouwen op basis van de categorie.
 
-![&#x200B; Diagram - de regels van de catalogusprijs van het voorbeeld &#x200B;](./assets/diagram-catalog-price-rules.png){width="500"}
+![ Diagram - de regels van de catalogusprijs van het voorbeeld ](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[&#x200B; de voorwaarden van de prijsregel van het Kart &#x200B;](price-rules-cart.md) kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag [&#x200B; wortel &#x200B;](../catalog/category-root.md) is. Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
+[ de voorwaarden van de prijsregel van het Kart ](price-rules-cart.md) kunnen op om het even welke categorie worden gebaseerd die een kind van de opslag [ wortel ](../catalog/category-root.md) is. Prijsregels worden vooraf opgesteld en worden in werking gesteld wanneer aan de gestelde voorwaarden wordt voldaan. Deze regels gebruiken kenmerken, waaronder combinaties van productkenmerken zoals het afstemmen van een SKU in het winkelwagentje met productkenmerken. Deze regels kunnen ook de voorwaarden van de productselectie, voorwaardencombinaties voor gecompliceerde regels, en kartattributen zoals subtotal gebruiken.
 
-![&#x200B; Diagram - de regels van de kartprijs van het voorbeeld &#x200B;](./assets/diagram-cart-price-rules.png){width="500"}
+![ Diagram - de regels van de kartprijs van het voorbeeld ](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## Communicatie en SEO
 
-Het beheersen van [&#x200B; Optimalisering van de Motor van het Onderzoek (SEO) &#x200B;](seo-overview.md) is essentieel om potentiële kopers in te brengen. Leer over het optimaliseren van zoekprogramma&#39;s en het verfijnen van de inhoud en presentatie van uw site om de manier te verbeteren waarop de pagina&#39;s door zoekprogramma&#39;s worden geïndexeerd.
+Het beheersen van [ Optimalisering van de Motor van het Onderzoek (SEO) ](seo-overview.md) is essentieel om potentiële kopers in te brengen. Leer over het optimaliseren van zoekprogramma&#39;s en het verfijnen van de inhoud en presentatie van uw site om de manier te verbeteren waarop de pagina&#39;s door zoekprogramma&#39;s worden geïndexeerd.
 
 Één van de taken om te voltooien alvorens uw opslag te lanceren is de e-mailmalplaatjes te herzien die voor alle mededelingen worden gebruikt die van uw opslag worden verzonden om ervoor te zorgen dat zij op uw merk wijzen. Maar u zou dit een stap verder moeten nemen door andere mededelingen te ontwikkelen die uw merk en producten aan bestaande klanten bevorderen. U kunt de inhoud aanpassen met variabelen en opmaakcodes.
 
 >[!NOTE]
 >
 >Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door een digitale leverancier ontwikkelde uitbreiding voor dotdigital vendor die wordt gebruikt om te integreren met de dotdigital Engagement Cloud. Vanaf de versie 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace. De Marketplace biedt ook toegang tot de huidige documentatie die wordt geleverd door de ontwikkelaar van de extensie.
->&#x200B;><br><br>
->&#x200B;>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [&#x200B; modules van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_ voor meer informatie.
+><br><br>
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_ voor meer informatie.
 
-- [&#x200B; Nieuwsbrieven &#x200B;](newsletters.md) - produceer nieuwsbrieven, beheer uw lijst van abonnees, ontwikkel inhoud, en aandrijvingsverkeer aan uw opslag.
+- [ Nieuwsbrieven ](newsletters.md) - produceer nieuwsbrieven, beheer uw lijst van abonnees, ontwikkel inhoud, en aandrijvingsverkeer aan uw opslag.
 
-- [&#x200B; RSS van het Beeld &#x200B;](social-rss.md#rss-feeds) - het voer van RSS van het Gebruik om uw productinformatie aan het winkelen van aggregatieplaatsen te publiceren, en zelfs hen te omvatten in uw nieuwsbrieven. Klanten kunnen zich abonneren op uw RSS-feeds om meer te leren over nieuwe producten en promoties.
+- [ RSS van het Beeld ](social-rss.md#rss-feeds) - het voer van RSS van het Gebruik om uw productinformatie aan het winkelen van aggregatieplaatsen te publiceren, en zelfs hen te omvatten in uw nieuwsbrieven. Klanten kunnen zich abonneren op uw RSS-feeds om meer te leren over nieuwe producten en promoties.
 
-- [&#x200B; Sociale netwerken &#x200B;](social-rss.md#social-networks) - integreer uw opslag met uw sociale netwerken door een uitbreiding van de Marketplace te installeren of een stop toe te voegen aan uw inhoudspagina&#39;s.
+- [ Sociale netwerken ](social-rss.md#social-networks) - integreer uw opslag met uw sociale netwerken door een uitbreiding van de Marketplace te installeren of een stop toe te voegen aan uw inhoudspagina&#39;s.
 
 ## Google-marketingtools
 
@@ -82,10 +82,10 @@ Uw winkelconfiguratie is geïntegreerd met de volgende Google-tools om uw inhoud
 
 >[!NOTE]
 >
->Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Voor meer informatie, zie de [&#x200B; de ontwikkelaarsdocumentatie van Google Analytics &#x200B;](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>Vanaf de release 2.4.5 wordt de integratie met Google-services bijgewerkt om het gebruik van de GTag-API&#39;s te ondersteunen. GTag is een verenigd mechanisme voor integratie met de functionaliteit van Google voor webpagina&#39;s en ondersteunt de nieuwste mogelijkheden en mogelijkheden voor het bijhouden en beheren van inhoud via Google Services. Voor meer informatie, zie de [ de ontwikkelaarsdocumentatie van Google Analytics ](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [&#x200B; Google Analytics &#x200B;](google-analytics.md) - de Universele Analytics van Google van het gebruik om extra douanedimensies en metriek voor het volgen, met steun voor off-line en mobiele toepassingsinteractie, en toegang tot aan de gang zijnde updates te bepalen.
+- [ Google Analytics ](google-analytics.md) - de Universele Analytics van Google van het gebruik om extra douanedimensies en metriek voor het volgen, met steun voor off-line en mobiele toepassingsinteractie, en toegang tot aan de gang zijnde updates te bepalen.
 
-- [&#x200B; de Manager van de Markering van Google &#x200B;](google-tag-manager.md) - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de Manager van de Markering van Google van het Gebruik om de vele markeringen met betrekking tot marketing campagnegebeurtenissen te beheren.
+- [ de Manager van de Markering van Google ](google-tag-manager.md) - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) de Manager van de Markering van Google van het Gebruik om de vele markeringen met betrekking tot marketing campagnegebeurtenissen te beheren.
 
-- [&#x200B; Google AdWords &#x200B;](google-adwords.md) - creeer een Google AdWords campagne en spooromzettingen voor uw opslag.
+- [ Google AdWords ](google-adwords.md) - creeer een Google AdWords campagne en spooromzettingen voor uw opslag.
