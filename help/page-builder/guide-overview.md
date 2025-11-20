@@ -52,4 +52,4 @@ De kernmogelijkheden van Adobe Commerce en Magento Open Source worden hier niet 
 
 Raadpleeg de volgende [!DNL Page Builder] artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met [!DNL Commerce] -problemen:
 
-- [&#x200B; Lege pagina wanneer Opgeslagen DotDigital  [!DNL Page Builder]  vorm &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
+- [&#x200B; Lege pagina wanneer Opgeslagen DotDigital  [!DNL Page Builder]  vorm &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=nl-NL)
