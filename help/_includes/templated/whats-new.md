@@ -1,7 +1,7 @@
 ---
-source-git-commit: 425e0876646027428c8169e20b5ee7b4997bce6f
+source-git-commit: a65802a0975a11cbdad8be703c6fab79b0c0235f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 21 november 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product#bundle-products"> verwijzing van de attributen van de bundelproductgegevens </a> om nieuwe <code class="language-plaintext highlighter-rouge">bundle_values</code> opties te omvatten: <code class="language-plaintext highlighter-rouge">price_website_[website-code]</code> en <code class="language-plaintext highlighter-rouge">price_type_website_[website-code]</code>. Met deze kenmerken kunt u productprijzen per websitecode importeren of exporteren.</p>
+</td>
+      <td>
+        Technisch
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b0bd7d82b8d454e71af5b693165c14544a399630">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 15 november 2025
 
@@ -23,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/workspace"> de 3&rbrace; onderwerpen van de Bouwer van de Pagina Workspace toe. </a> De preview toont geen inhoud tenzij deze beschikbaar is in de Standaard Store View.</p>
+      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> de 3} onderwerpen van de Bouwer van de Pagina Workspace toe. </a> In de voorvertoning wordt alleen inhoud weergegeven die beschikbaar is in de standaardwinkelweergave.</p>
 </td>
       <td>
         Technisch, feedback
@@ -40,12 +62,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>De <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan">Security Scan-tool</a> is bijgewerkt om handelaren te ondersteunen met Commerce-winkels die zijn ingezet als Adobe Experience Manager-sites.</p>
+      <td><p>Het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan"> hulpmiddel van het Scannen van de Veiligheid </a> is bijgewerkt om handelaars met Commerce storefronts te steunen die als plaatsen van Adobe Experience Manager worden opgesteld.</p>
 </td>
       <td>
         Technisch
@@ -62,17 +84,17 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
+      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
 </td>
       <td>
         Technisch, feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">plegen</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">begaan</a></td>
     </tr>
   </tbody>
 </table>
@@ -89,12 +111,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De instructies voor de opstelling<a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> van verzendvervoerders bijgewerkt </a>met instructies voor migratie van de USPS Web Tools API naar de USPS REST API's.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> VerzenddragerOpstelling </a> instructies met instructies voor het migreren van de Hulpmiddelen API van het Web van USPS aan USPS REST APIs.</p>
 </td>
       <td>
         Technisch, feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">plegen</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">begaan</a></td>
     </tr>
   </tbody>
 </table>
@@ -106,12 +128,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Documentatie toegevoegd voor de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status-extensie</a> om de synchronisatie van data-exportfeeds van Adobe Commerce naar de Commerce SaaS-database te monitoren voor publicatie naar verbonden Commerce-diensten (Live Search, Product Recommendations, Catalog Service). De pagina Data Sync Status is beschikbaar via het Systeemmenu in de Commerce Admin.</p>
+      <td><p>Toegevoegde documentatie voor de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> uitbreiding van de Status van de Synchronisatie van het Gegeven van Gegevens </a> om de synchronisatie van de voer van de gegevensuitvoer van Adobe Commerce aan het gegevensbestand van Commerce SaaS voor publicatie aan de verbonden diensten van Commerce (Levend Onderzoek, de Aanbevelingen van het Product, de Dienst van de Catalogus) te controleren. De statuspagina voor gegevenssynchronisatie is beschikbaar via het menu Systemen in Commerce Admin.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -128,12 +150,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Informatie toegevoegd over hoe je Single Sign-On (SSO) configureert voor veilige toegang tot Adobe Apps aan het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">onderwerp Configureer de Commerce Admin-integratie met Adobe ID</a> in de Commerce Merchant-documentatie.</p>
+      <td><p>Toegevoegde informatie over hoe te om Enige Sign-On (SSO) voor veilige toegang tot de Apps van Adobe aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on"> te vormen vormt de Integratie van Commerce Admin met Adobe ID </a> onderwerp in de documentatie van de Onderneming van Commerce.</p>
 </td>
       <td>
         Technisch, feedback
@@ -150,12 +172,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
+      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -177,12 +199,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
+      <td><p>Toegevoegde informatie over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> attributen van de douaneorde </a> in Admin voor Adobe Commerce as a Cloud Service te bekijken en uit te geven.</p>
 </td>
       <td>
-        Grote update
+        Belangrijke update
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">plegen</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/68c4c836d0e6dfff1f397dcc93368f8daac774f3">begaan</a></td>
     </tr>
   </tbody>
 </table>
