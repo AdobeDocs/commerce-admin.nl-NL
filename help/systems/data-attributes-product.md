@@ -3,7 +3,7 @@ title: Referentie productgegevenskenmerken
 description: Gebruik deze referentie van productgegevenskenmerken wanneer u werkt met het importeren en exporteren van productgegevens.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Referentie productgegevenskenmerken
 
-De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [&#x200B; uitvoeren &#x200B;](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
+De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [ uitvoeren ](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
 
 Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de voorbeeldgegevens geïnstalleerd. Er zijn twee websites en verschillende winkelweergaven. Hoewel deze lijst alle kolommen bevat die doorgaans worden geëxporteerd, is `sku` de enige vereiste waarde. Als u gegevens wilt importeren, kunt u alleen de kolommen met wijzigingen opnemen. De `sku` moet de eerste kolom zijn, maar de volgorde van de overige kenmerken is niet van belang.
 
@@ -20,7 +20,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_**&#x200B;Een SKU langer dan 64 karakters veroorzaakt invoer om te ontbreken. |
+| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
 | `store_view_code` | Hiermee geeft u de specifieke opmaakweergaven aan van de locatie waar het product beschikbaar is. Als dit leeg is, is het product beschikbaar in de standaardwinkelweergave. Bijvoorbeeld: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Hiermee wijst u het product toe aan een specifieke kenmerkset of productsjabloon, afhankelijk van het producttype. Bijvoorbeeld: `default`<br><br> nadat het product wordt gecreeerd, kan de kenmerkenreeks niet worden veranderd gebruikend de de invoerfunctionaliteit. U kunt de kenmerkset echter wijzigen via de beheerdersset en het product opnieuw exporteren om het CSV-bestand bij te werken. |
 | `product_type` | Geeft het type product aan. Waarden:<br/>`simple` — Materiële goederen die gewoonlijk als afzonderlijke eenheden of in vaste hoeveelheden worden verkocht.<br/>`grouped` — Een groep afzonderlijke producten die als een set wordt verkocht.<br/>`configurable` — Een product met meerdere opties die de klant moet selecteren voordat hij een aankoop doet. De inventaris kan voor elke reeks variaties worden beheerd omdat zij een afzonderlijk product met verschillende SKU vertegenwoordigen. Een combinatie van kleur en grootte voor een configureerbaar product is bijvoorbeeld gekoppeld aan een specifieke SKU in de catalogus.<br/>`virtual` — Een niet-tastbaar product waarvoor geen verzending vereist is en dat niet in voorraad wordt gehouden. Voorbeelden zijn services, abonnementen en abonnementen.<br/>`bundle` — Een aanpasbare productset met eenvoudige producten die samen worden verkocht. |
@@ -40,7 +40,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 | `url_key` | Het gedeelte van de URL dat het product identificeert. De standaardwaarde is gebaseerd op de productnaam. Bijvoorbeeld: `product-name` |
 | save_rewrites_history | Als de waarde `1` wordt voorzien van een nieuwe `url_key` , wordt een nieuwe URL van 301 gegenereerd zodat de oude URL wordt omgeleid naar de nieuwe URL. |
 | `meta_title` | De titel van de meta verschijnt in de titelbar en het lusje van browser en onderzoeksresultaten lijsten. De titel van de meta zou uniek aan het product moeten zijn, high-value sleutelwoorden omvatten, en minder dan 70 karakters in lengte zijn. |
-| `meta_keywords` | Meta-trefwoorden zijn alleen zichtbaar voor zoekmachines en worden door sommige zoekprogramma&#39;s genegeerd. Kies trefwoorden met een hoge waarde, gescheiden door een komma. Bijvoorbeeld: `keyword1`, `keyword2`, `keyword3` |
+| `meta_keywords` | Meta-trefwoorden zijn alleen zichtbaar voor zoekprogramma&#39;s en worden door sommige zoekprogramma&#39;s genegeerd. Kies trefwoorden met een hoge waarde, gescheiden door een komma. Bijvoorbeeld: `keyword1`, `keyword2`, `keyword3` |
 | `meta_description` | Meta-beschrijvingen bieden een kort overzicht van het product voor aanbiedingen met zoekresultaten. In het ideale geval moet een metabeschrijving tussen 150 en 160 tekens lang zijn, hoewel het veld maximaal 255 tekens accepteert. |
 | `base_image` | Het relatieve pad voor de hoofdafbeelding op de productpagina. Commerce slaat bestanden intern op in een alfabetische mapstructuur. U kunt de exacte locatie van elke afbeelding in de geëxporteerde gegevens zien. Bijvoorbeeld: `/sample_data/m/b/mb01-blue-0.jpg`<br/> om een nieuw beeld te uploaden of over een bestaand beeld te schrijven, ga het dossier in - naam, voorafgegaan door een voorwaartse schuine streep. Bijvoorbeeld: `/image.jpg` |
 | `base_image_label` | Het label dat aan de basisafbeelding is gekoppeld. |
@@ -123,7 +123,7 @@ De term complexe gegevens verwijst naar de gegevens die zijn gekoppeld aan meerd
 
 Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van een eenvoudig product plus de aanvullende kenmerken die nodig zijn voor het beheer van complexe gegevens.
 
-![&#x200B; Configureerbaar product - uitgevoerde gegevens &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![ Configureerbaar product - uitgevoerde gegevens ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### Configureerbare producten
 
@@ -155,20 +155,20 @@ Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van 
 
 ## Geavanceerde prijskenmerken
 
-Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [&#x200B; in te voeren &#x200B;](data-import.md) en [&#x200B; uitvoer &#x200B;](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
+Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [ in te voeren ](data-import.md) en [ uitvoer ](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
 
-![&#x200B; de uitvoergegevens van het Voorbeeld - geavanceerde tarifering &#x200B;](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
+![ de uitvoergegevens van het Voorbeeld - geavanceerde tarifering ](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_**&#x200B;Een SKU langer dan 64 karakters veroorzaakt invoer om te ontbreken. |
-| `tier_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | Identificeert de [&#x200B; groepen van klanten &#x200B;](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
+| `tier_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | Identificeert de [ groepen van klanten ](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identificeert de klantengroepen waar de rijprijs beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | De hoeveelheid van het product die moet worden besteld om de korting op de tier-prijs te ontvangen. |
-| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
-| `group_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
+| `group_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | Identificeert de groepen van klanten waar de groepsprijzen beschikbaar zijn. Bijvoorbeeld: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | De gedisconteerde groepsprijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
+| `group_price` | De gedisconteerde groepsprijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
 
 {style="table-layout:auto"}
