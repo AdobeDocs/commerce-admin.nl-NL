@@ -51,7 +51,7 @@ Op 25 januari 2026 worden de API&#39;s voor verouderde webgereedschappen door US
 
 Om verstoring van de verzendservices van USPS te voorkomen, voert u de volgende acties uit vóór 25 januari 2026:
 
-- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
+- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
 
 - Werk de Commerce USPS-configuratie bij om de REST API&#39;s te gebruiken:
 
