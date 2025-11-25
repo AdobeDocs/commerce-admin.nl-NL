@@ -19,11 +19,11 @@ Adobe Commerce Admin-gebruikers met een Adobe-account kunnen hun Adobe ID nu geb
 
 De modules die vereist zijn voor de integratie van Commerce Admin IMS worden verpakt in `adobe-ims-metapackage` , dat wordt meegeleverd bij Adobe Commerce core-releases.
 
-Om deze integratie uit te voeren, zie [ de Integratie van Admin van Commerce met IMS ](./adobe-ims-config.md) vormen.
+Om deze integratie uit te voeren, zie [&#x200B; de Integratie van Admin van Commerce met IMS &#x200B;](./adobe-ims-config.md) vormen.
 
 ## Wijzigingen in beheerworkflows en -interface na integratie met IMS
 
-Als deze integratie is ingeschakeld, ervaren Commerce Admin-gebruikers wijzigingen in de standaard Commerce Admin-aanmeldings- en verificatieworkflow terwijl ze routinetaken in Admin uitvoeren waarvoor verificatie vereist is, zoals het maken van een Admin-gebruiker. Om moduleactivering mogelijk te maken, is tweeledige verificatie (2FA) op het niveau van de Adobe-organisatie vereist. De standaardaanmelding voor beheer en 2FA zijn uitgeschakeld en de knop _[!UICONTROL Sign In with Adobe ID]_vervangt het standaardaanmeldingsformulier voor beheer. Rechten worden nog steeds beheerd door de beheerder.
+Als deze integratie is ingeschakeld, ervaren Commerce Admin-gebruikers wijzigingen in de standaard Commerce Admin-aanmeldings- en verificatieworkflow terwijl ze routinetaken in Admin uitvoeren waarvoor verificatie vereist is, zoals het maken van een Admin-gebruiker. Om moduleactivering mogelijk te maken, is tweeledige verificatie (2FA) op het niveau van de Adobe-organisatie vereist. De standaardaanmelding voor beheer en 2FA zijn uitgeschakeld en de knop _[!UICONTROL Sign In with Adobe ID]_&#x200B;vervangt het standaardaanmeldingsformulier voor beheer. Rechten worden nog steeds beheerd door de beheerder.
 
 ## Hoe de integratie van Admin met IMS Commerce wachtwoorden beïnvloedt
 
@@ -40,9 +40,9 @@ Gebruikersaccounts en rolmachtigingen voor de Commerce-toepassing worden nog ste
 
 Commerce Admin API&#39;s worden beïnvloed wanneer Admin-verificatie met Adobe IMS is ingeschakeld in een Commerce-instantie. Admin-gebruikers kunnen de gegevens die door het Commerce-exemplaar worden verstrekt, niet meer gebruiken. Dit zijn de gegevens die vereist zijn om u aan te melden bij Admin en om toegangstokens te verkrijgen waarmee services aanvragen kunnen indienen bij de API&#39;s van Admin REST en SOAP.
 
-Nadat de integratie van Adobe IMS wordt toegelaten, moeten de admin gebruikers [ de tokens van IMS van Adobe ](https://developer.adobe.com/developer-console/docs/guides/authentication/) voor Adobe Commerce API gebruiken eindpunten die authentificatie vereisen. De oplossingen van de cliënt verkrijgen dynamisch de tokens voor Web API gebruik. Dit verificatiemechanisme is ingeschakeld voor REST- en SOAP Web API-gebieden als onderdeel van het configureren van deze integratie.
+Nadat de integratie van Adobe IMS wordt toegelaten, moeten de admin gebruikers [&#x200B; de tokens van IMS van Adobe &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/) voor Adobe Commerce API gebruiken eindpunten die authentificatie vereisen. De oplossingen van de cliënt verkrijgen dynamisch de tokens voor Web API gebruik. Dit verificatiemechanisme is ingeschakeld voor REST- en SOAP Web API-gebieden als onderdeel van het configureren van deze integratie.
 
-Zie [ op token-gebaseerde authentificatie ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) voor een overzicht van hoe het Web APIs de toegangstokens van Commerce, met inbegrip van IMS toegangstokens gebruikt.
+Zie [&#x200B; op token-gebaseerde authentificatie &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) voor een overzicht van hoe het Web APIs de toegangstokens van Commerce, met inbegrip van IMS toegangstokens gebruikt.
 
 ## Commerce-sessiebeheer en Adobe IMS-toegangstokens
 
@@ -70,4 +70,4 @@ De `\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` -insteekmodule contr
 
 Het Adobe IMS-pakket voor metagegevens is geïnstalleerd met Adobe Commerce 2.4.5 en hoger, maar moet zijn geconfigureerd voor gebruik. Het breidt de `AdobeIms` module uit om de module te steunen die authentificatielogica (`AdminAdobeIms`) toelaat.
 
-Voor meer informatie over het toelaten van de integratie, zie [ de Integratie van Admin van Commerce met Adobe IMS ](./adobe-ims-config.md) vormen.
+Voor meer informatie over het toelaten van de integratie, zie [&#x200B; de Integratie van Admin van Commerce met Adobe IMS &#x200B;](./adobe-ims-config.md) vormen.
