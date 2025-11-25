@@ -3,9 +3,9 @@ title: Setup van transportbedrijf
 description: Meer weten over de ondersteuning voor commerciële verzendaccounts die beschikbaar is voor je winkel?
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Als u een commerciële account hebt bij een ondersteunde provider, kunt u uw kla
 
 >[!NOTE]
 >
->Zie [&#x200B; Commerce Marketplace &#x200B;](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
+>Zie [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
 
 Voordat u uw klanten een selectie van verzendingsdragers kunt aanbieden, moet u de volgende stappen uitvoeren:
 
-- Vorm de [&#x200B; verschepende montages &#x200B;](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
+- Vorm de [ verschepende montages ](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
 
 - Vorm de montages voor elke dragerdienst die u wilt aanbieden.
 
@@ -51,7 +51,7 @@ Op 25 januari 2026 worden de API&#39;s voor verouderde webgereedschappen door US
 
 Om verstoring van de verzendservices van USPS te voorkomen, voert u de volgende acties uit vóór 25 januari 2026:
 
-- Pas het [&#x200B; REST API van de Migratiekwaliteitspatch van de MACHT van USPS &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) (AC-1520) toe om steun voor het integreren met USPS REST APIs toe te voegen.
+- Pas het [ REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
 
 - Werk de Commerce USPS-configuratie bij om de REST API&#39;s te gebruiken:
 
