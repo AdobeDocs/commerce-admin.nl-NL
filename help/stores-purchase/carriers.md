@@ -16,11 +16,11 @@ Als u een commerciële account hebt bij een ondersteunde provider, kunt u uw kla
 
 >[!NOTE]
 >
->Zie [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
+>Zie [&#x200B; Commerce Marketplace &#x200B;](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
 
 Voordat u uw klanten een selectie van verzendingsdragers kunt aanbieden, moet u de volgende stappen uitvoeren:
 
-- Vorm de [ verschepende montages ](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
+- Vorm de [&#x200B; verschepende montages &#x200B;](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
 
 - Vorm de montages voor elke dragerdienst die u wilt aanbieden.
 
@@ -51,7 +51,7 @@ Op 25 januari 2026 worden de API&#39;s voor verouderde webgereedschappen door US
 
 Om verstoring van de verzendservices van USPS te voorkomen, voert u de volgende acties uit vóór 25 januari 2026:
 
-- Pas het [ REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
+- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
 
 - Werk de Commerce USPS-configuratie bij om de REST API&#39;s te gebruiken:
 
