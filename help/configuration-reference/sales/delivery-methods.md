@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Flat Rate]
 
-![&#x200B; Vlak Tarief &#x200B;](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
+![ Vlak Tarief ](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Wanneer toegelaten, verschijnt het Vaste Tarief als optie in de _Schatting Verzending en de sectie van de Belasting_ van het winkelwagentje, en in de _Verschepende_ sectie tijdens controle. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze verzendmethode wordt gebruikt. |
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Free Shipping]
 
-![&#x200B; Vrij die &#x200B;](./assets/delivery-methods-free-shipping.png)<!-- zoom --> verscheept
+![ Vrij die ](./assets/delivery-methods-free-shipping.png)<!-- zoom --> verscheept
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Als deze optie is ingeschakeld, wordt Gratis verzending tijdens het afrekenen weergegeven als een optie in de sectie Verzending. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze verzendmethode wordt gebruikt. |
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Table Rates]
 
-![&#x200B; Tarieven van de Lijst &#x200B;](./assets/delivery-methods-table-rates.png)<!-- zoom -->
+![ Tarieven van de Lijst ](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Als Tabeltarieven zijn ingeschakeld, wordt deze weergegeven als een optie in de sectie Schatting van verzending en belasting van het winkelwagentje en in de sectie Verzending tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De naam die tijdens het afrekenen voor deze verzendmethode wordt gebruikt. |
@@ -85,11 +85,11 @@ ht-degree: 0%
 
 ### [!UICONTROL In-Store Delivery]
 
-![&#x200B; In-Store Levering &#x200B;](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
+![ In-Store Levering ](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Website | Wanneer toegelaten, in-store kan de levering als optie in de _Schatting Verzending en de sectie van de Belasting_ van het winkelwagentje, en in de _Verschepende_ sectie tijdens controle verschijnen. Opties: `Yes` / `No` |
 | [!UICONTROL Method Name] | Winkelweergave | Een naam die de ophaalfunctie in de winkel identificeert als een verzendmethode. Deze waarde wordt weergegeven als het label van een tab boven aan de pagina Verzendkosten en in de tabel met beschikbare verzendmethoden onder aan dezelfde pagina. De standaardwaarde is `In-store Delivery` . |
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 {{ups-api}}
 
-![&#x200B; de Montages van de Rekening van UPS REST &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ de Montages van de Rekening van UPS REST ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-![&#x200B; de Montages van de Rekening van UPS XML &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![ de Montages van de Rekening van UPS XML ](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | Website | Hiermee bepaalt u of UPS tijdens het afrekenen beschikbaar is voor klanten als verzendmethode. Opties: `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | Website | Hiermee bepaalt u of UPS beschikbaar is voor klanten als verzendmethode voor een RMA. Opties: `Yes` / `No` |
@@ -128,21 +128,21 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![&#x200B; Informatie van het Pakket UPS &#x200B;](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
+![ Informatie van het Pakket UPS ](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
 | [!UICONTROL Enable Negotiated Rates] | Website | (Alleen UPS REST) Hiermee schakelt u speciale tarieven in of uit, afhankelijk van uw overeenkomst met UPS. Opties: `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Shipper Number] | Website | (Alleen UPS-REST) Het uit zes tekens bestaande UPS-verzendnummer is vereist om te kunnen verwijzen naar overeengekomen tarieven. |
 | [!UICONTROL Container] | Website | Hiermee stelt u het containertype in dat wordt gebruikt voor het verpakken van verzendingen. Opties: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
-| [!UICONTROL Weight Unit] | Website | Hiermee stelt u de standaardmaateenheid voor productgewicht in uw winkel in. Zie [&#x200B; Afdrukgewicht &#x200B;](../../stores-purchase/carriers.md#dimensional-weight) voor extra informatie. |
+| [!UICONTROL Weight Unit] | Website | Hiermee stelt u de standaardmaateenheid voor productgewicht in uw winkel in. Zie [ Afdrukgewicht ](../../stores-purchase/carriers.md#dimensional-weight) voor extra informatie. |
 | [!UICONTROL Tracking URL] | Website | (Alleen UPS REST) De URL van UPS die wordt gebruikt om pakketten bij te houden. Gebruik `https://onlinetools.ups.com/api/track` voor Productie OF `https://wwwcie.ups.com/api/track` voor Sandbox-instelling. |
 | [!UICONTROL Destination Type] | Website | Hiermee stelt u het standaardtype van de verzendbestemming in. Opties: `Business` / `Residential` |
-| [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen zoals opgegeven door UPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. Volgens [&#x200B; UPS.com &#x200B;](https://www.ups.com/us/en/global.page), kunnen de pakketten 150 lbs (70 kg) Controle met uw verzendende drager niet overschrijden om het maximumgewicht te verifiëren. |
+| [!UICONTROL Maximum Package Weight] | Website | Hiermee stelt u het maximumgewicht in dat een pakket kan krijgen zoals opgegeven door UPS. Als de bestelde producten het maximale pakketgewicht overschrijden, is deze verzendoptie niet beschikbaar. Volgens [ UPS.com ](https://www.ups.com/us/en/global.page), kunnen de pakketten 150 lbs (70 kg) Controle met uw verzendende drager niet overschrijden om het maximumgewicht te verifiëren. |
 | [!UICONTROL Pickup Method] | Website | Hiermee stelt u de ophaalmethode voor UPS in. Opties: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
 | [!UICONTROL Minimum Package Weight] | Website | Hiermee stelt u het minimumgewicht in dat een pakket kan hebben zoals opgegeven door UPS. Als de bestelde producten minder wegen dan het minimumpakketgewicht, is deze verzendoptie niet beschikbaar. Neem contact op met de vervoerder om het minimumgewicht te controleren. |
 | [!UICONTROL Calculate Handling Fee] | Website | Hiermee stelt u de berekeningsmethode voor de behandelingskosten in voor het verzenden van tabeltarieven. Opties: <br>**`Fixed`**- De verwerkingskosten zijn een vast tarief.<br>**`Percent`** - De verwerkingskosten worden toegepast als een percentage van het orderbedrag. |
@@ -151,29 +151,29 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![&#x200B; UPS Toegestane Methoden &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![ UPS Toegestane Methoden ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Geeft de toegestane verzendmethoden voor UPS aan die aan klanten worden aangeboden. De verzendkosten worden berekend op basis van de geselecteerde verzendmethode. |
-| [!UICONTROL Free Method] | Website | Geeft aan welke methode wordt gebruikt voor de methode voor gratis verzending via UPS. Kies Geen als u de optie voor gratis verzending wilt uitschakelen. <br/><br/>**_Note:_** Deze methode is gelijkaardig aan basis [&#x200B; Vrij die &#x200B;](../../stores-purchase/shipping-free.md) verscheept, nochtans verschijnt het als UPS het verschepen optie tijdens controle. |
+| [!UICONTROL Free Method] | Website | Geeft aan welke methode wordt gebruikt voor de methode voor gratis verzending via UPS. Kies Geen als u de optie voor gratis verzending wilt uitschakelen. <br/><br/>**_Note:_** Deze methode is gelijkaardig aan basis [ Vrij die ](../../stores-purchase/shipping-free.md) verscheept, nochtans verschijnt het als UPS het verschepen optie tijdens controle. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee bepaalt u of gratis verzending wordt toegepast wanneer het orderbedrag de drempel voor gratis verzending overschrijdt. Opties: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Hiermee stelt u het minimale totale bedrag in dat een bestelling moet bereiken om in aanmerking te komen voor gratis verzending. |
 | [!UICONTROL Displayed Error Message] | Winkelweergave | Het foutbericht dat wordt weergegeven wanneer deze verzendmethode om welke reden dan ook niet beschikbaar is. |
 
 {style="table-layout:auto"}
 
-![&#x200B; Toepasselijke Landen van UPS en Andere Montages &#x200B;](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
+![ Toepasselijke Landen van UPS en Andere Montages ](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL UPS Applicable countries and other Settings]_ |  |  |
-| [!UICONTROL Ship to Applicable Countries] | Website | Geeft aan welk land klanten deze verzendmethode mogen gebruiken. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [&#x200B; landen &#x200B;](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
+| [!UICONTROL Ship to Applicable Countries] | Website | Geeft aan welk land klanten deze verzendmethode mogen gebruiken. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [ landen ](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee bepaalt u of UPS altijd wordt weergegeven als een verzendoptie tijdens het afrekenen. Opties: <br/>**`Yes`**- UPS wordt altijd weergegeven als een verzendoptie tijdens het uitchecken, zelfs als dit niet van toepassing is op de bestelling.<br/>**`No`** - UPS wordt alleen als een verzendoptie weergegeven tijdens het afrekenen als dit van toepassing is op de bestelling. (Bijvoorbeeld, als het ordegewicht de maximumgewichtshoeveelheid overschrijdt.) |
 | [!UICONTROL Debug] | Website | Specificeert als de gegevenstransmissies tussen uw opslag en UPS het systeem voor het zuiveren worden geregistreerd. Tenzij er een probleem is dat moet worden bijgehouden en geregistreerd, moet deze optie worden ingesteld op `No` . |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin UPS wordt weergegeven wanneer UPS tijdens het uitchecken wordt vermeld met andere leveringsmethoden. Voer `0` in voor de bovenkant van de lijst. |
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | Ingeschakeld voor Afhandeling | Website | Hiermee bepaalt u of USPS tijdens het afrekenen beschikbaar is voor klanten als verzendmethode. Opties: `Yes` / `No` |
 | _[!UICONTROL USPS Account Settings]_ |  |  |
@@ -195,9 +195,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsflard van de Migratie van de REST API van USPS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) hebt toegepast. Deze patch maakt ondersteuning mogelijk voor de USPS API&#39;s, een REST-gebaseerd platform dat de webtools-API&#39;s vervangt. Voor details, zie [&#x200B; de veroudering van de Hulpmiddelen API van het Web van 0&rbrace; USPS.](../../stores-purchase/carriers.md)
+De volgende gebieden zijn beschikbaar slechts als u het [ de kwaliteitsflard van de Migratie van de REST API van USPS ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) hebt toegepast. Deze patch maakt ondersteuning mogelijk voor de USPS API&#39;s, een REST-gebaseerd platform dat de webtools-API&#39;s vervangt. Voor details, zie [ de veroudering van de Hulpmiddelen API van het Web van 0} USPS.](../../stores-purchase/carriers.md)
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL USPS Type] | Website | Kies **USPS Rest APIs** of **de Hulpmiddelen API van het Web van USPS** wordt gebaseerd op welke zal u gebruiken. |
 | [!UICONTROL Consumer Key] | Website | Uw client-id voor USPS-verzendaccount voor REST API. |
@@ -212,11 +212,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; USPS het Verpakken Montages &#x200B;](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
+![ USPS het Verpakken Montages ](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
@@ -227,11 +227,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; USPS die de Montages van de Tarief behandelen &#x200B;](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
+![ USPS die de Montages van de Tarief behandelen ](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | Hiermee stelt u de berekeningsmethode voor de behandelingskosten in voor het verzenden van tabeltarieven. Opties: <br/>**`Fixed`**- De verwerkingskosten zijn een vast tarief.<br/>**`Percent`** - De verwerkingskosten worden toegepast als een percentage van het orderbedrag. |
@@ -240,11 +240,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; USPS Toegestane Methoden &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![ USPS Toegestane Methoden ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Geeft de toegestane verzendmethoden van USPS aan die aan klanten worden aangeboden. De verzendkosten worden berekend op basis van de geselecteerde verzendmethode. |
@@ -254,14 +254,14 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; USPS Toepasselijke Landen &#x200B;](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
+![ USPS Toepasselijke Landen ](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL USPS Applicable Countries]_ |  |  |
-| [!UICONTROL Ship to Applicable Countries] | Website | Hiermee geeft u aan in welke landen bestellingen kunnen worden verzonden. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [&#x200B; landen &#x200B;](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
+| [!UICONTROL Ship to Applicable Countries] | Website | Hiermee geeft u aan in welke landen bestellingen kunnen worden verzonden. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [ landen ](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee regelt u de weergave van verzendingen door USPS tijdens het afrekenen. Opties: <br/>**`Yes`**- USPS wordt altijd weergegeven als een verzendoptie tijdens het afrekenen, zelfs als dit niet van toepassing is op de bestelling.<br/>**`No`** - USPS wordt alleen weergegeven als een verzendoptie tijdens het afrekenen als dit van toepassing is op de bestelling (het gewicht van de bestelling is dus hoger dan het maximumgewicht). |
 | [!UICONTROL Debug] | Website | Hiermee wordt bepaald of het systeem voor foutopsporing een logboek met gegevensverzendingen tussen uw opslag en USPS bijhoudt. Tenzij er een probleem is dat moet worden bijgehouden en geregistreerd, moet deze optie worden ingesteld op `No` . |
 | [!UICONTROL Sort Order] | Website | Een getal dat de volgorde bepaalt waarin USPS wordt weergegeven wanneer het tijdens het uitchecken wordt weergegeven bij andere leveringsmethoden. Voer `0` in voor de bovenkant van de lijst. |
@@ -270,13 +270,13 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx-accountinstellingen
 
-![&#x200B; de Montages van de Rekening FedEx &#x200B;](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+![ de Montages van de Rekening FedEx ](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | Website | Hiermee wordt bepaald of FedEx beschikbaar is voor klanten als verzendmethode tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Title] | Winkelweergave | De titel van deze verzendoptie zoals deze wordt weergegeven in het winkelwagentje. |
@@ -290,9 +290,9 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 #### FedEx-verpakkingsinstellingen
 
-![&#x200B; Verpakken FedEx &#x200B;](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+![ Verpakken FedEx ](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Pickup Type] | Website | Selecteer in de lijst de ophaalmethode: <br/>**`DropOff at Fedex Location`**- (Standaard) Geeft aan dat u zendingen op uw lokale FedEx-station afsluit.<br/>**`Contact Fedex to Schedule`** - Geeft aan dat u contact opneemt met FedEx om een afhaalbewerking aan te vragen. <br/>**`Use Scheduled Pickup`**- Geeft aan dat de verzending wordt opgehaald als onderdeel van een normale geplande ophaling.<br/>**`On Call`** - Geeft aan dat het ophalen is gepland door FedEx aan te roepen. <br/>**`Package Return Program`**- Geeft aan dat de verzending is opgehaald door het FedEx Ground Package Returns Program.<br/>**`Regular Stop`** - Geeft aan dat de verzending wordt opgehaald volgens het normale ophaalschema. <br/>**`Tag`**- Geeft aan dat het ophalen van de verzending specifiek is voor een aanvraag voor het ophalen van de tag Express of grondaanroep. Dit is alleen van toepassing op verzendlabel voor retourzending. |
 | [!UICONTROL Packages Request Type] | Website | Hiermee bepaalt u hoe gewicht wordt berekend voor overbrengingen met meerdere pakketten. Opties: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
@@ -304,9 +304,9 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 #### FedEx-instellingen voor verwerkingskosten
 
-![&#x200B; FedEx die Tarief behandelt &#x200B;](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
+![ FedEx die Tarief behandelt ](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Calculate Handling Fee] | Website | Bepaalt de methode die wordt gebruikt om de behandelingskosten te berekenen. Opties: `Fixed Fee` / `Percentage` <br/><br/>**_Note:_** De verpakkingskosten zijn optioneel en worden weergegeven als extra kosten die worden toegevoegd aan de verzendkosten van FedEx. |
 | [!UICONTROL Handling Applied] | Website | Hiermee bepaalt u hoe behandelingskosten worden toegepast. Opties: `Per Order` / `Per Package` |
@@ -316,9 +316,9 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 #### FedEx-leveringsmethoden
 
-![&#x200B; Methoden van de Levering FedEx &#x200B;](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+![ Methoden van de Levering FedEx ](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Residential Delivery] | Website | Stel dit in op een van de volgende opties, afhankelijk van het feit of u Business-to-Consumer (B2C) of Business-to-Business (B2B) verkoopt: <br/>**`Yes`**- voor B2C-leveringen<br/>**`No`** - voor B2B-leveringen |
 | [!UICONTROL Allowed Methods] | Website | Selecteer in de lijst de verzendmethoden die u ondersteunt. De methoden zijn afhankelijk van uw FedEx-account, de frequentie en de grootte van uw verzendingen en of u internationale verzendingen toestaat. Als verkoper kun je besluiten alleen verzending op de grond aan te bieden. |
@@ -332,11 +332,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 #### FedEx, toepasbare landinstellingen
 
-![&#x200B; FedEx Toepasselijke Landen &#x200B;](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+![ FedEx Toepasselijke Landen ](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
-| [!UICONTROL Ship to Applicable Countries] | Website | Geeft de landen aan waar uw klanten kunnen verzenden via FedEx. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [&#x200B; landen &#x200B;](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
+| [!UICONTROL Ship to Applicable Countries] | Website | Geeft de landen aan waar uw klanten kunnen verzenden via FedEx. Opties: <br/>**`All Allowed Countries`**- de Klanten van alle [ landen ](../../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze het verschepen methode gebruiken.<br/>**`Specific Countries`** - Nadat u deze optie hebt gekozen, wordt de lijst [!UICONTROL Ship to Specific Countries] weergegeven. Selecteer elk land in de lijst waar deze verzendmethode kan worden gebruikt. |
 | [!UICONTROL Ship to Specific Countries] | Website | Geeft de specifieke landen aan waar uw klanten kunnen verzenden via FedEx. |
 | [!UICONTROL Debug] | Website | Bepaalt als een logboek van gegevenstransmissies tussen uw opslag en FedEx door het systeem voor het zuiveren wordt gehandhaafd. Tenzij er een probleem is dat moet worden bijgehouden en geregistreerd, moet deze optie worden ingesteld op `No` . |
 | [!UICONTROL Show Method if Not Applicable] | Website | Hiermee bepaalt u wanneer FedEx wordt weergegeven als een verzendmethode tijdens het afrekenen. Opties: <br/>**`Yes`**- De verzendoptie FedEx wordt weergegeven in de lijst met leveringsmethoden, ongeacht of de bestelling in aanmerking komt om deze te gebruiken.<br/>**`No`** - De verzendoptie FedEx wordt niet weergegeven in de lijst met leveringsmethoden als deze niet van toepassing is op de bestelling (bijvoorbeeld als het gewicht van de bestelling groter is dan het maximumgewicht). |
@@ -346,11 +346,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ### [!UICONTROL DHL]
 
-![&#x200B; De Montages van de Rekening van DHL &#x200B;](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
+![ De Montages van de Rekening van DHL ](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL DHL Account Settings]_ |  |  |
 | [!UICONTROL Enabled for Checkout] | Website | Hiermee wordt bepaald of DHL tijdens de afhandeling als verzendmethode voor klanten beschikbaar is. Opties: `Yes` / `No` |
@@ -362,11 +362,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; De Montages van het Pakket DHL &#x200B;](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
+![ De Montages van het Pakket DHL ](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL DHL Package Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verzendkosten toegevoegd. Selecteer in de lijst de methode die u wilt gebruiken voor het berekenen van afhandelingskosten. Opties: vaste kosten / percentage. |
@@ -378,11 +378,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; DHL Toegestane Methoden &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![ DHL Toegestane Methoden ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Selecteer in de lijst elke verzendmethode die u ondersteunt. |
@@ -394,11 +394,11 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 {style="table-layout:auto"}
 
-![&#x200B; DHL Toepasselijke Landen &#x200B;](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
+![ DHL Toepasselijke Landen ](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | _[!UICONTROL DHL applicable countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | Website | Geeft aan welk land klanten deze verzendmethode mogen gebruiken. Opties: <br/>**Alle Toegestane Landen** - Alle toegestane landen zijn van toepassing om de vrije het verschepen methode te gebruiken. De landen met toestemming worden opgegeven op de configuratiepagina [!UICONTROL General] . <br/>**Specifieke Landen** - beperkt deze het verschepen optie tot de landen die in de Schip aan de Specifieke Lijst van Landen worden gespecificeerd. |

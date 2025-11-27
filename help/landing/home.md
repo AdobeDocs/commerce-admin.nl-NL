@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![&#x200B; documentatie Admin &#x200B;](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![ documentatie Admin ](./assets/banner-user-home.png) {#documentation}
 
 Welkom bij de volgende generatie van het toonaangevende platform voor digitale handel ter wereld. Adobe Commerce biedt online handelaren ongeëvenaarde flexibiliteit en controle over de vormgeving, inhoud en functionaliteit van hun online winkels. De beheerder beschikt over krachtige tools voor marketing, optimalisatie van zoekprogramma&#39;s en productbeheer waarmee u sites kunt maken die zijn afgestemd op uw unieke bedrijfsbehoeften.
 
@@ -22,7 +22,7 @@ De informatie in de gebruikershandleidingen voor beheerders is ontworpen voor za
 
 Adobe Commerce is een flexibel B2B- en B2C-handelsplatform dat verkopers en merken in staat stelt hun omzet te versnellen door klantgerichte digitale handelervaringen over online en fysieke ruimten. Het is de toonaangevende keuze voor middelgrote en bedrijfsorganisaties omdat het de meest flexibele implementatiemodellen van on-prem tot beheerde cloud met gegarandeerde SLA&#39;s biedt. Adobe Commerce maakt eerste integratie van API&#39;s en volledig aanpasbare extensies mogelijk, en de rijkste reeks mogelijkheden voor commerciële ervaring op bedrijfsniveau, van marketing tot merchandising en afhandeling. Adobe Commerce is gebaseerd op open-source code base om flexibiliteit en uitbreidbaarheid te bieden, net als geen ander handelsplatform.
 
-Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=nl-NL) Informatie van de Versie _._
+Voor een lijst van de geavanceerde mogelijkheden inbegrepen met Adobe Commerce, zie {de eigenschappen van 0} Commerce [ in de ](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html) Informatie van de Versie _._
 
 ## Magento Open Source-codebasis
 
@@ -44,7 +44,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong> Adobe Commerce B2B </strong></a> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong> Adobe Commerce B2B </strong></a> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
     <div><em> Deze eigenschapreeks wordt ontworpen om aan de behoeften van verkopers (verkopers) te voldoen de waarvan klanten hoofdzakelijk bedrijf-misschien met complexe organisatorische structuren en veelvoudige personeelsleden met diverse rollen en niveaus van het kopen van toestemming zijn.</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source is de basis van de code die Adobe officieel bijdraagt tot en
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE Alleen PaaS]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op-lokale projecten."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!Alleen BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op-lokale projecten."}
     <div>Met <em>[!DNL Page Builder] kunt u eenvoudig pagina's met rijke inhoud maken met aangepaste layouts. Deze eigenschappen worden ontworpen om kwaliteit te verbeteren, en de tijd en de kosten te verminderen om douanepagina's te produceren.</em></div>
   </td>
 </tr>
