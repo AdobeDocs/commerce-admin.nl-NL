@@ -14,11 +14,11 @@ ht-degree: 1%
 
 Als de zakelijke verantwoordelijkheden veranderen, moet u mogelijk uw Commerce-account overdragen naar een nieuwe eigenaar of naar een ander e-mailadres. Voor deze overdracht moet de e-mail voor de primaire gebruiker die aan het account is gekoppeld, worden gewijzigd.
 
-De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [&#x200B; gebruikerstoegang &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
+De volgende informatie beschrijft het proces voor het overdragen van een Commerce (MAGEID) rekening. Wijzigingen voor eigendom van Cloud-account (Cloud-project of New Relic) zijn hier niet in inbegrepen. Voor meer informatie over de toegang van het wolkenproject, zie [&#x200B; gebruikerstoegang &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk beheren_.
 
 >[!IMPORTANT]
 >
->Als de nieuwe accounteigenaar extensies heeft aangeschaft met Gedeelde toegang, gaat de toegang tot deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [&#x200B; terugwint hun rekening van de Marketplace &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [&#x200B; team van de Marketplace &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
+>Als de nieuwe accounteigenaar extensies heeft aangeschaft met Gedeelde toegang, gaat de toegang tot deze extensies verloren zodra het proces Account Transfer is gestart. Alvorens om de rekeningsoverdracht te verzoeken, zorg ervoor dat de nieuwe eigenaar identiteitskaarts van de Orde voor de aankopen van [&#x200B; terugwint hun rekening van de Marketplace &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/) en om een terugbetaling voor die uitbreidingen van het [&#x200B; team van de Marketplace &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) verzoekt. Het is niet mogelijk om extensieaankopen naar een andere account over te maken.
 
 ## Identificeer uw overdrachtstype
 
@@ -120,7 +120,7 @@ De huidige eigenaar voert deze stappen uit om zijn Adobe ID te koppelen aan een 
 >
 >U moet toegang hebben tot het e-mailadres, zodat u het e-mailbericht met de bevestigingscode kunt ophalen.
 >
->Als u geen toegang hebt tot de e-mail met de account, vraagt u uw IT-team om e-mail met het e-mailadres voor de account in uw e-mailsysteem in te stellen. Als e-mail het door:sturen niet kan worden gevormd, zorg de nieuwe Eigenaar van de Rekening een Adobe ID heeft en dan [&#x200B; een verzoek van de Steun &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) met alle noodzakelijke details voorleggen om de rekeningsoverdracht in werking te stellen.
+>Als u geen toegang hebt tot de e-mail met de account, vraagt u uw IT-team om e-mail met het e-mailadres voor de account in uw e-mailsysteem in te stellen. Als e-mail het door:sturen niet kan worden gevormd, zorg de nieuwe Eigenaar van de Rekening een Adobe ID heeft en dan [&#x200B; een verzoek van de Steun &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) met alle noodzakelijke details voorleggen om de rekeningsoverdracht in werking te stellen.
 
 1. Klik op **[!UICONTROL Change]**.
 
@@ -172,4 +172,4 @@ Nadat de nieuwe eigenaar zijn Adobe-account heeft geconfigureerd met het oorspro
 
 ## Slotstappen
 
-Nadat de nieuwe eigenaar de stappen in het eerste of derde gebruiksgeval voltooit, moet de nieuwe eigenaar [&#x200B; een steunverzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) voorleggen om het ondersteuningsteam over de e-mailadresupdate te informeren. Het ondersteuningsteam voltooit dan extra taken, zoals het bijwerken van het e-mailadres op het [&#x200B; Commerce Marketplace &#x200B;](https://commercemarketplace.adobe.com/) profiel. Neem het e-mailadres van de vorige rekeninghouder op in de aanvraag.
+Nadat de nieuwe eigenaar de stappen in het eerste of derde gebruiksgeval voltooit, moet de nieuwe eigenaar [&#x200B; een steunverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) voorleggen om het ondersteuningsteam over de e-mailadresupdate te informeren. Het ondersteuningsteam voltooit dan extra taken, zoals het bijwerken van het e-mailadres op het [&#x200B; Commerce Marketplace &#x200B;](https://commercemarketplace.adobe.com/) profiel. Neem het e-mailadres van de vorige rekeninghouder op in de aanvraag.
