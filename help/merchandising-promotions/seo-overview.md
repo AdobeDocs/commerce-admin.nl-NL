@@ -16,25 +16,25 @@ _de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijne
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 ## Metagegevens
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [ meta-gegevens ](meta-data.md) voor uw plaats en opslag.
+Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [&#x200B; meta-gegevens &#x200B;](meta-data.md) voor uw plaats en opslag.
 
 ## Een sitemap gebruiken
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-A [ plaatskaart ](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
+A [&#x200B; plaatskaart &#x200B;](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
 ## URL herschrijft
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-[ URL herschrijft ](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of een pagina van CMS wordt geassocieerd.
+[&#x200B; URL herschrijft &#x200B;](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of een pagina van CMS wordt geassocieerd.
 
 ## Zoekmachine-robots
 
@@ -78,11 +78,11 @@ Standaard bevat het bestand robots.txt dat door Commerce wordt gegenereerd, inst
 
 1. Zoek de **[!UICONTROL Global]** -configuratie in de eerste rij van het raster en klik op **[!UICONTROL Edit]** .
 
-   ![ Globale ontwerpconfiguratie ](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; Globale ontwerpconfiguratie &#x200B;](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Search Engine Robots]** sectie en doet het volgende:
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Search Engine Robots]** sectie en doet het volgende:
 
-   ![ configuratie van het Ontwerp - de robots van de onderzoeksmotor ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van het Ontwerp - de robots van de onderzoeksmotor &#x200B;](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Default Robots]** in op een van de volgende opties:
 
