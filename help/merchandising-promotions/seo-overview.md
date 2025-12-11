@@ -3,9 +3,9 @@ title: Zoekmachine optimaliseren
 description: Meer informatie over SEO-gereedschappen (Search Engine Optimization, optimalisatie van zoekprogramma's) voor Commerce-sites en tips en trucs voor optimale SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ _de motoroptimalisering van het Onderzoek_ (SEO) is de praktijk van het verfijne
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 ## Metagegevens
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [&#x200B; meta-gegevens &#x200B;](meta-data.md) voor uw plaats en opslag.
+Leer meer over het toevoegen van en het verbeteren van sleutelwoord-rijke [ meta-gegevens ](meta-data.md) voor uw plaats en opslag.
 
 ## Een sitemap gebruiken
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-A [&#x200B; plaatskaart &#x200B;](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
+A [ plaatskaart ](sitemap-xml.md) verbetert de manier dat uw opslag door onderzoeksmotoren wordt geïndexeerd, en ontworpen om pagina&#39;s te vinden die door Webkruiplers zouden kunnen worden over het hoofd gezien. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
 ## URL herschrijft
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-[&#x200B; URL herschrijft &#x200B;](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of een pagina van CMS wordt geassocieerd.
+[ URL herschrijft ](url-rewrite.md) hulpmiddel laat u om het even welke URL veranderen die met een product, een categorie, of een pagina van CMS wordt geassocieerd.
 
 ## Zoekmachine-robots
 
@@ -78,11 +78,11 @@ Standaard bevat het bestand robots.txt dat door Commerce wordt gegenereerd, inst
 
 1. Zoek de **[!UICONTROL Global]** -configuratie in de eerste rij van het raster en klik op **[!UICONTROL Edit]** .
 
-   ![&#x200B; Globale ontwerpconfiguratie &#x200B;](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![ Globale ontwerpconfiguratie ](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Search Engine Robots]** sectie en doet het volgende:
+1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Search Engine Robots]** sectie en doet het volgende:
 
-   ![&#x200B; configuratie van het Ontwerp - de robots van de onderzoeksmotor &#x200B;](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![ configuratie van het Ontwerp - de robots van de onderzoeksmotor ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Default Robots]** in op een van de volgende opties:
 
@@ -90,8 +90,8 @@ Standaard bevat het bestand robots.txt dat door Commerce wordt gegenereerd, inst
      |------|------------|
      | `INDEX, FOLLOW` | Instrueert webcrawlers de site te indexeren en later te controleren op wijzigingen. |
      | `NOINDEX, FOLLOW` | Hiermee geeft u webcrawlers de opdracht om de site niet te indexeren, maar om later te controleren op wijzigingen. |
-     | `INDEX, NOFOLLOW` | Geeft webcrawlers de opdracht de site één keer te indexeren, maar later niet te controleren op wijzigingen. |
-     | `NOINDEX, NOFOLLOW` | Geeft webcrawlers de opdracht te voorkomen dat de site wordt geïndexeerd en later niet opnieuw te controleren op wijzigingen. |
+     | `INDEX, NOFOLLOW` | Geeft webcrawlers de opdracht de site één keer te indexeren, maar volg geen koppelingen op de pagina. |
+     | `NOINDEX, NOFOLLOW` | Hiermee geeft u webcrawlers de opdracht om de site niet te indexeren en geen koppelingen op de pagina te volgen. |
 
      {style="table-layout:auto"}
 
