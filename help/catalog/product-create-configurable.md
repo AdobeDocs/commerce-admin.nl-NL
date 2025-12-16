@@ -16,7 +16,7 @@ Een configureerbaar product wordt weergegeven als één product met vervolgkeuze
 
 **Best voor:** Producten met veelvoudige opties (kleur, grootte, materiaal, enz.) waar u inventaris voor elke variatie moet volgen. De eerste setup duurt langer, maar biedt een betere schaalbaarheid.
 
-![ Configureerbaar product ](./assets/product-configurable.png){width="700" zoomable="yes"}
+![&#x200B; Configureerbaar product &#x200B;](./assets/product-configurable.png){width="700" zoomable="yes"}
 
 ## Voordat u begint
 
@@ -48,13 +48,13 @@ Voor instructies bij het creëren van attributen, zie {de Attributen van het 0} 
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Voor _[!UICONTROL Add Product]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Configurable Product]**.
+1. Voor _[!UICONTROL Add Product]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu bij de hoger-juiste hoek, kies **[!UICONTROL Configurable Product]**.
 
-   ![ voeg configureerbaar product ](./assets/product-add-configurable.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg configureerbaar product &#x200B;](./assets/product-add-configurable.png){width="700" zoomable="yes"} toe
 
 ### Stap 2: Kies de kenmerkset
 
-De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de productvorm verschijnen en welke attributen voor variaties beschikbaar zijn.
+De [&#x200B; geplaatste attributen &#x200B;](attribute-sets.md) bepaalt welke gebieden in de productvorm verschijnen en welke attributen voor variaties beschikbaar zijn.
 
 1. Klik op het veld voor de kenmerkset boven aan de pagina en voer een van de volgende handelingen uit:
 
@@ -63,9 +63,9 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de pro
 
    Het formulier wordt bijgewerkt met de geselecteerde kenmerkset.
 
-1. Als u een ander attribuut aan de kenmerkenreeks moet toevoegen, klik **[!UICONTROL Add Attribute]** en volg de instructies in [ Toevoegend een Attribuut ](product-attributes-add.md).
+1. Als u een ander attribuut aan de kenmerkenreeks moet toevoegen, klik **[!UICONTROL Add Attribute]** en volg de instructies in [&#x200B; Toevoegend een Attribuut &#x200B;](product-attributes-add.md).
 
-   ![ kies malplaatje ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+   ![&#x200B; kies malplaatje &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ### Stap 3: Voer basisinformatie in
 
@@ -83,11 +83,11 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de pro
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Wanneer het product wordt bewaard, verschijnt de [ verkiesster van de Mening van de Opslag ](introduction.md#product-scope) in de upper-left hoek.
+   Wanneer het product wordt bewaard, verschijnt de [&#x200B; verkiesster van de Mening van de Opslag &#x200B;](introduction.md#product-scope) in de upper-left hoek.
 
 1. Kies de locatie **[!UICONTROL Store View]** waar het product beschikbaar moet zijn.
 
-   ![ kies de opslagmening ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; kies de opslagmening &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Stap 4: volledige basisinstellingen
 
@@ -104,7 +104,7 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de pro
 
    >[!NOTE]
    >
-   >De **Status van de Voorraad** van een configureerbaar product is a **_half-manueel_** gecontroleerd plaatsen, gedeeltelijk gebaseerd op de voorraadstatus van zijn kindproducten. Het maakt deel uit van de berekening van de a **_multi-criteria_** voorraadstatus. Zie [ de Status van de Aandelen ](#configure-stock-status) voor details vormen.
+   >De **Status van de Voorraad** van een configureerbaar product is a **_half-manueel_** gecontroleerd plaatsen, gedeeltelijk gebaseerd op de voorraadstatus van zijn kindproducten. Het maakt deel uit van de berekening van de a **_multi-criteria_** voorraadstatus. Zie [&#x200B; de Status van de Aandelen &#x200B;](#configure-stock-status) voor details vormen.
 
 1. Voer het product **[!UICONTROL Weight]** in.
 
@@ -114,7 +114,7 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de pro
 
 1. Accepteer de standaardinstelling **[!UICONTROL Visibility]** van `Catalog, Search` .
 
-1. Om het product in de lijst van [ nieuwe producten ](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
+1. Om het product in de lijst van [&#x200B; nieuwe producten &#x200B;](../content-design/widget-new-products-list.md) te voorzien, selecteer **[!UICONTROL Set Product as New]** checkbox.
 
 1. Als u categorieën aan het product wilt toewijzen, klikt u op het vak **[!UICONTROL Select…]** en voert u een van de volgende handelingen uit:
 
@@ -124,7 +124,7 @@ De [ geplaatste attributen ](attribute-sets.md) bepaalt welke gebieden in de pro
 
    - Schakel het selectievakje in van elke categorie die u wilt toewijzen.
 
-   ![ selecteer één of meerdere categorieën voor het bundelproduct ](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; selecteer één of meerdere categorieën voor het bundelproduct &#x200B;](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
    **creeer een nieuwe categorie:**
 
@@ -150,15 +150,15 @@ De volgende stappen tonen hoe te om configuraties voor veelvoudige variaties toe
 
 ### Stap 6: kies variatiekenmerken
 
-1. Blader omlaag naar de sectie _[!UICONTROL Configurations]_en klik op **[!UICONTROL Create Configurations]**.
+1. Blader omlaag naar de sectie _[!UICONTROL Configurations]_&#x200B;en klik op **[!UICONTROL Create Configurations]**.
 
-   ![ Configuraties ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![&#x200B; Configuraties &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Schakel het selectievakje van elk kenmerk in dat u wilt opnemen als een variatie.
 
    In dit voorbeeld zijn `color` en `size` geselecteerd.
 
-   ![ Uitgezochte Attributen ](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte Attributen &#x200B;](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
 
    De lijst omvat alle attributen van de kenmerkenreeks die in een configureerbaar product kunnen worden gebruikt.
 
@@ -176,9 +176,9 @@ De volgende stappen tonen hoe te om configuraties voor veelvoudige variaties toe
 
 1. Selecteer voor elk kenmerk het selectievakje van de waarden die van toepassing zijn op het product.
 
-   ![ waarden van Attributen ](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
+   ![&#x200B; waarden van Attributen &#x200B;](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. Om de attributen opnieuw te rangschikken, greep _opnieuw rangschikt_ ( ![ het pictogram van de Orde van de Sortering ](../assets/icon-sort-order.png) ) en beweeg de sectie naar een nieuwe positie.
+1. Om de attributen opnieuw te rangschikken, greep _opnieuw rangschikt_ ( ![&#x200B; het pictogram van de Orde van de Sortering &#x200B;](../assets/icon-sort-order.png) ) en beweeg de sectie naar een nieuwe positie.
 
    De volgorde bepaalt de positie van de vervolgkeuzelijsten op de productpagina.
 
@@ -198,7 +198,7 @@ Kies de configuratieoptie die van toepassing is:
 
 1. Blader naar elke afbeelding die u in de productgalerie wilt opnemen of sleep afbeeldingen naar het vak.
 
-![ Gebruik zelfde beelden voor alle SKUs ](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
+![&#x200B; Gebruik zelfde beelden voor alle SKUs &#x200B;](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
 **Optie 2: Pas unieke beelden voor elke SKU** toe
 
@@ -210,9 +210,9 @@ Omdat de originele productafbeelding al is geüpload, kunt u deze optie gebruike
 
 1. Blader voor elke kenmerkwaarde naar de afbeeldingen die u voor die configuratie wilt gebruiken of sleep ze naar het vak.
 
-   Als u een afbeelding naar een waardevak sleept, wordt deze ook in de secties voor andere waarden weergegeven. Om een beeld te schrappen, klik het _Prullenbak_ (![ pictogram van het Afval ](../assets/icon-delete-trashcan-solid.png)) pictogram.
+   Als u een afbeelding naar een waardevak sleept, wordt deze ook in de secties voor andere waarden weergegeven. Om een beeld te schrappen, klik het _Prullenbak_ (![&#x200B; pictogram van het Afval &#x200B;](../assets/icon-delete-trashcan-solid.png)) pictogram.
 
-   ![ Unieke beelden per SKU ](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
+   ![&#x200B; Unieke beelden per SKU &#x200B;](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
 #### Prijzen configureren
 
@@ -228,7 +228,7 @@ Kies de configuratieoptie die van toepassing is:
 
 1. Voer de **[!UICONTROL Price]** in.
 
-   ![ Zelfde prijs per SKU ](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
+   ![&#x200B; Zelfde prijs per SKU &#x200B;](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
 **Optie 2: Pas een verschillende prijs voor elke SKU** toe
 
@@ -240,7 +240,7 @@ Kies de configuratieoptie die van toepassing is:
 
    In dit voorbeeld kost de XL-grootte meer.
 
-   ![ Unieke prijs per SKU ](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
+   ![&#x200B; Unieke prijs per SKU &#x200B;](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
 #### Overzicht configureren
 
@@ -254,7 +254,7 @@ _Single Source-verkopers :_
 
 Voer de **[!UICONTROL Quantity]** in.
 
-_MultiSource-handelaren die [ Inventory management ](../inventory-management/introduction.md):_gebruiken
+_MultiSource-handelaren die [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md):_gebruiken
 
 Bronnen toewijzen en hoeveelheden toevoegen voor alle gegenereerde productvarianten:
 
@@ -266,7 +266,7 @@ Bronnen toewijzen en hoeveelheden toevoegen voor alle gegenereerde productvarian
 
 1. Voer een hoeveelheid voorraad ter plaatse per bron in.
 
-   ![ Enige Aantal voor Alle SKUs, wijs bron ](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"} toe
+   ![&#x200B; Enige Aantal voor Alle SKUs, wijs bron &#x200B;](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"} toe
 
 **Optie 2: Pas verschillende hoeveelheid door attribuut toe**
 
@@ -274,7 +274,7 @@ _Single Source-verkopers :_
 
 Voer de **[!UICONTROL Quantity]** in voor elke kenmerkwaarde.
 
-_MultiSource-handelaren die [ Inventory management ](../inventory-management/introduction.md):_gebruiken
+_MultiSource-handelaren die [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md):_gebruiken
 
 Bronnen toewijzen en hoeveelheden toevoegen voor alle gegenereerde productvarianten:
 
@@ -282,7 +282,7 @@ Bronnen toewijzen en hoeveelheden toevoegen voor alle gegenereerde productvarian
 
 1. Voer de **[!UICONTROL Quantity]** in voor elke variatie.
 
-   ![ Verschillende hoeveelheden per attribuut ](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
+   ![&#x200B; Verschillende hoeveelheden per attribuut &#x200B;](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
 Wanneer de configuratie voor afbeeldingen, de prijs en het aantal is voltooid, klikt u op **[!UICONTROL Next]** in de rechterbovenhoek.
 
@@ -294,19 +294,19 @@ Wacht tot de lijst met producten wordt weergegeven en voer een van de volgende h
 
 - Klik op **[!UICONTROL Back]** om correcties aan te brengen.
 
-![ samenvatting van het Overzicht alvorens productvariaties ](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"} te produceren
+![&#x200B; samenvatting van het Overzicht alvorens productvariaties &#x200B;](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"} te produceren
 
 De huidige productvariaties verschijnen bij de bodem van de _sectie van de Configuratie_.
 
-![ Huidige Configuraties ](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
+![&#x200B; Huidige Configuraties &#x200B;](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
 ### Stap 10: productafbeeldingen toevoegen
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de _[!UICONTROL Images and Videos]_&#x200B;sectie.
 
 1. Klik de _tegel van de Camera_ en doorblader aan het belangrijkste beeld voor het configureerbare product te gebruiken.
 
-Voor meer informatie, zie [ Beelden en Video ](product-images-and-video.md).
+Voor meer informatie, zie [&#x200B; Beelden en Video &#x200B;](product-images-and-video.md).
 
 ### Stap 11: Volledige productinformatie
 
@@ -338,15 +338,15 @@ Schuif omlaag en voltooi indien nodig de informatie in de volgende secties:
 
    - Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![ pijl van het Menu ](../assets/icon-menu-down-arrow-black.png)) menu.
+   - Om het product in uw opslag te bekijken, verkies **[!UICONTROL Customer View]** op _Admin_ ( ![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-black.png)) menu.
 
    De winkel wordt geopend in een nieuw browsertabblad.
 
-   ![ Mening van de Klant ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![&#x200B; Mening van de Klant &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Methode 2: sparen en sluit**
 
-   Voor _[!UICONTROL Save]_( ![ de pijl van het Menu ](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
+   Voor _[!UICONTROL Save]_( ![&#x200B; de pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}) menu, kies **[!UICONTROL Save & Close]**.
 
 ## De status van de voorraad configureren
 
@@ -378,7 +378,7 @@ Wanneer u de status van de configureerbare productvoorraad handmatig instelt op 
 
 >[!NOTE]
 >
->De aandelen en de bronnen van de douane maken deel uit van de [ Inventory management ](../inventory-management/sources-stocks.md) uitbreiding. U wordt ten zeerste aangeraden dit gereedschap uitsluitend te gebruiken voor het beheer van de voorraad en de bron. De standaardbron- en voorraadfuncties maken deel uit van de module `CatalogInventory` , die nu is afgekeurd.
+>De aandelen en de bronnen van de douane maken deel uit van de [&#x200B; Inventory management &#x200B;](../inventory-management/sources-stocks.md) uitbreiding. U wordt ten zeerste aangeraden dit gereedschap uitsluitend te gebruiken voor het beheer van de voorraad en de bron. De standaardbron- en voorraadfuncties maken deel uit van de module `CatalogInventory` , die nu is afgekeurd.
 
 ### Handmatige wijzigingen in de voorraadstatus
 
@@ -394,13 +394,13 @@ Als u voor elke variatie verschillende afbeeldingen hebt, kunt u het systeem zo 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Checkout]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Shopping Cart]_&#x200B;sectie uit.
 
 1. Stel **[!UICONTROL Configurable Product Image]** in op `Product Thumbnail Itself` .
 
 1. Klik op **[!UICONTROL Save Config]**.
 
-   ![ het Schepen kart - configureerbaar productbeeld ](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
+   ![&#x200B; het Schepen kart - configureerbaar productbeeld &#x200B;](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
 ## Belangrijkste overwegingen
 
@@ -416,8 +416,8 @@ Als u voor elke variatie verschillende afbeeldingen hebt, kunt u het systeem zo 
 
 - **Attributen:** de attributen van de Variatie moeten een globaal werkingsgebied hebben, en de klanten moeten worden vereist om een waarde te kiezen. De attributen moeten in de kenmerkenreeks worden omvat die voor het configureerbare product wordt gebruikt.
 
-- **de duimnagels van het Kart:** de het winkelwagentduimnagel kan het beeld van of het configureerbare productverslag of de productvariatie tonen. Zie [ hierboven de Configuratie van het 0} Systeem.](#system-configuration-optional)
+- **de duimnagels van het Kart:** de het winkelwagentduimnagel kan het beeld van of het configureerbare productverslag of de productvariatie tonen. Zie [&#x200B; hierboven de Configuratie van het 0&rbrace; Systeem.](#system-configuration-optional)
 
-- **het gedrag van het Monster:** [ de attributen van het Monster ](swatches.md#create-swatches-for-products) kunnen worden gevormd om geen overeenkomstige eenvoudige productbeelden te tonen wanneer het monster door **[!UICONTROL Update Product Preview Image]** aan `No` op attributen te plaatsen uitgeeft pagina wordt geselecteerd.
+- **het gedrag van het Monster:** [&#x200B; de attributen van het Monster &#x200B;](swatches.md#create-swatches-for-products) kunnen worden gevormd om geen overeenkomstige eenvoudige productbeelden te tonen wanneer het monster door **[!UICONTROL Update Product Preview Image]** aan `No` op attributen te plaatsen uitgeeft pagina wordt geselecteerd.
 
 - **galeriegedrag van het Beeld:** het thema controleert hoe de Galerij van het Beeld zich gedraagt wanneer de gebruikers tussen productconfiguraties schakelen. Het standaardgedrag voor het _Lege_ thema treedt de ouder configureerbare productbeelden met de geselecteerde variatie met voeten. Voor het thema Luminantie is het standaardgedrag dat de geselecteerde variatieafbeeldingen worden voorafgegaan aan de bovenliggende configureerbare productafbeeldingen.
