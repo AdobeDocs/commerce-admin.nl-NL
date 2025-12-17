@@ -18,7 +18,7 @@ Het _beloningspunten_ systeem in Adobe Commerce geeft u de capaciteit om unieke 
 
 ## Prijsregels voor winkelwagentjes
 
-De punten kunnen aan klanten worden beloond die op de regel van het a [ winkelwagentje ](price-rules-cart.md) worden gebaseerd. Zij kunnen als enige actie van de prijsregel, of samen met een korting worden beloond.
+De punten kunnen aan klanten worden beloond die op de regel van het a [&#x200B; winkelwagentje &#x200B;](price-rules-cart.md) worden gebaseerd. Zij kunnen als enige actie van de prijsregel, of samen met een korting worden beloond.
 
 ## Klantenbalans
 
@@ -28,7 +28,7 @@ Retourpuntsaldi kunnen worden beheerd door Admin-gebruikers per klant. Indien in
 
 >[!NOTE]
 >
->[ de configuratie van de Tarieven van de Uitwisseling van 0} wordt de Winst {vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.](reward-exchange-rates.md)
+>[&#x200B; de configuratie van de Tarieven van de Uitwisseling van 0&rbrace; wordt de Winst &lbrace;vereist voor terugbetaling van beloningspunten door klanten en gebruikers Admin tijdens controle.](reward-exchange-rates.md)
 
 Punten kunnen tijdens het uitchecken worden terugbetaald door Admin-gebruikers en -klanten (indien ingeschakeld). In de sectie Betalingsmethode wordt het selectievakje Mijn betalingspunten gebruiken boven de toegestane betalingsmethoden weergegeven. De beschikbare punten en de monetaire wisselkoers zijn inbegrepen. Als het beschikbare saldo groter is dan het totaal-generaal van de bestelling, is geen aanvullende betalingsmethode vereist. Het aantal bonuspunten dat op de bestelling wordt toegepast, wordt weergegeven met de ordertotalen, afgetrokken van het totaal-generaal, vergelijkbaar met winkelkrediet of cadeaukaarten. Als bonuspunten samen met winkelkrediet of een cadeaukaart worden gebruikt, worden de bonuspunten eerst afgetrokken. Het winkelkrediet of de cadeaukaart wordt vervolgens afgetrokken als het totaal van de bestelling groter is dan het terugvorderbare aantal bonuspunten.
 
@@ -42,13 +42,13 @@ Punten kunnen tijdens het uitchecken worden terugbetaald door Admin-gebruikers e
 
 ## Restitutie voor bonuspunten
 
-Orders die met een bonuspositie zijn geplaatst, kunnen tot het in de order afgeloste bedrag worden terugbetaald op de beloningspunten. Op het [_Nieuwe Memo van het Krediet_ pagina ](../stores-purchase/credit-memo-create.md), kan het aantal punten dat op het saldo van de klant moet worden toegepast worden ingegaan. Standaard bevat het veld het volledige aantal punten dat in de volgorde is gebruikt.
+Orders die met een bonuspositie zijn geplaatst, kunnen tot het in de order afgeloste bedrag worden terugbetaald op de beloningspunten. Op het [_Nieuwe Memo van het Krediet_ pagina &#x200B;](../stores-purchase/credit-memo-create.md), kan het aantal punten dat op het saldo van de klant moet worden toegepast worden ingegaan. Standaard bevat het veld het volledige aantal punten dat in de volgorde is gebruikt.
 
 ## Beloningspunten voor je winkel inschakelen
 
 De configuratie van Punten van de Beloning bepaalt hoe de beloningspunten in de opslag worden voorgesteld en bepaalt de basiswerkende parameters.
 
-![ configuratie van Klanten - beloningspunten ](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
+![&#x200B; configuratie van Klanten - beloningspunten &#x200B;](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
 
 ### Stap 1. De bonuspunten configureren
 
@@ -56,7 +56,7 @@ De configuratie van Punten van de Beloning bepaalt hoe de beloningspunten in de 
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Reward Points]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Reward Points]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Reward Points]** sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Enable Reward Points Functionality]** in op `Yes` om bonuspunten te activeren.
 
@@ -94,11 +94,11 @@ De configuratie van Punten van de Beloning bepaalt hoe de beloningspunten in de 
 
 In deze stap wordt het aantal beloningspunten gespecificeerd dat voor diverse klantenactiviteiten kan worden verdiend. Wanneer klanten een actie voltooien die toegewezen punten heeft, verschijnt een bericht aan de klant die op hoeveel punten wijst zij hebben verdiend.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Actions for Acquiring Reward Points by Customer]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Actions for Acquiring Reward Points by Customer]** sectie uit.
 
-   ![ configuratie van Klanten - acties voor het verwerven van beloningspunten door klant ](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - acties voor het verwerven van beloningspunten door klant &#x200B;](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Om beloningspunten toe te staan die voor de aankopen worden verdiend op de gevormde [ Winst Tarieven van de Uitwisseling ](reward-exchange-rates.md) worden gebaseerd, plaats **[!UICONTROL Purchase]** aan `Yes`.
+1. Om beloningspunten toe te staan die voor de aankopen worden verdiend op de gevormde [&#x200B; Winst Tarieven van de Uitwisseling &#x200B;](reward-exchange-rates.md) worden gebaseerd, plaats **[!UICONTROL Purchase]** aan `Yes`.
 
    >[!NOTE]
    >
@@ -126,9 +126,9 @@ In deze stap wordt het aantal beloningspunten gespecificeerd dat voor diverse kl
 
 ### Stap 3. De instellingen voor e-mailmeldingen voltooien
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email Notification Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Email Notification Settings]** sectie uit.
 
-   ![ configuratie van Klanten - beloningspunten e-mailberichten ](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van Klanten - beloningspunten e-mailberichten &#x200B;](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Email Sender]** in op de contactpersoon van de winkel die wordt weergegeven als de afzender van balansupdates en vervalberichten.
 
@@ -159,7 +159,7 @@ De balans tussen beloningspunten kan worden bijgewerkt via de beheerder.
 
 1. Voer indien nodig **[!UICONTROL Comments]** in voor de aanpassing van de bonuspunten.
 
-   ![ het Saldo van Punten van de Terugkeer ](./assets/reward-points-balance.png){width="700" zoomable="yes"}
+   ![&#x200B; het Saldo van Punten van de Terugkeer &#x200B;](./assets/reward-points-balance.png){width="700" zoomable="yes"}
 
 1. Naar keuze, abonneer de klant aan _de Berichten van Punten van de Beloning_:
 
@@ -178,7 +178,7 @@ Alle acties met betrekking tot bonuspunten worden weergegeven in het _[!UICONTRO
 | [!UICONTROL Amount Balance] | Het bedrag van het lopende kassaldo |
 | [!UICONTROL Points] | Het aantal toegevoegde of afgetrokken punten |
 | [!UICONTROL Amount] | Bedrag van toegevoegde of afgetrokken gelden |
-| [!UICONTROL Rate] | De [ beloningswisselkoers ](reward-exchange-rates.md) |
+| [!UICONTROL Rate] | De [&#x200B; beloningswisselkoers &#x200B;](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Website waaraan de geschiedenis van bonuspunten wordt toegewezen |
 | [!UICONTROL Reason] | Redenen voor het toekennen van punten:<br>**[!UICONTROL Making purchases]**— Telkens als de klant een aankoop maakt, kunnen zij punten verdienen.<br>**[!UICONTROL Registering on the site]** - Wordt opgeladen bij registratie (eenmaal).<br>**[!UICONTROL Subscribing to a newsletter]**- Wordt opgevraagd voor het eerste abonnement (eenmaal).<br>**[!UICONTROL Sending Invitations]** — Verdien punten door hun vrienden uit te nodigen om zich bij de site aan te sluiten.<br>**[!UICONTROL Converting Invitations to Customer]**— Verdien punten voor elke uitnodiging die ze verzenden, en belangrijke vrienden die zich op de site registreren.<br>**[!UICONTROL Converting Invitations to Order]** — Verdien punten voor elke verkoop resulterend uit een verzonden uitnodiging.<br>**[!UICONTROL Review Submission]**— Verdien punten voor het indienen van productrevisies. |
 | [!UICONTROL Created] | Datum en tijdstip van de update van bonuspunten |
