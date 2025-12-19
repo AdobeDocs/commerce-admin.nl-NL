@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9e99733bef6e3a4434a57cdc822065c92db77db2
+source-git-commit: c0e04ffd76d69be3a7d508dd72930f54d97ea382
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 17 december 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> beloningen en het loyaliteitsonderwerp </a> om te verduidelijken hoe de belasting wordt berekend wanneer de klanten beloningspunten gebruiken of krediet opslaan tijdens controle.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 11 december 2025
 
@@ -23,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de beschrijvingen voor de <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> meta-richtlijnen robots in de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/seo-overview"> documentatie SEO </a>.<br /><em> #82 <a href="https://github.com/AdobeDocs/commerce-admin.nl-NL/issues/82"> Correcties </a>.</em></p>
+      <td><p>Bijgewerkt de beschrijvingen voor de <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> meta-richtlijnen robots in de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview"> documentatie SEO </a>.<br /><em> #82 <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82"> Correcties </a>.</em></p>
 </td>
       <td>
         Technisch, feedback
@@ -45,7 +67,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde informatie over welke standaardkoekjes niet voor <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law"> de wetshandhaving van de Koekjeswet </a> zouden moeten worden onbruikbaar gemaakt.</p>
+      <td><p>Toegevoegde informatie over welke standaardkoekjes niet voor <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law"> de wetshandhaving van de Koekjeswet </a> zouden moeten worden onbruikbaar gemaakt.</p>
 </td>
       <td>
         Technisch
@@ -67,7 +89,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/workspace"> de 3&rbrace; onderwerpen van de Bouwer van de Pagina Workspace toe. </a> In de voorvertoning wordt alleen inhoud weergegeven die beschikbaar is in de standaardwinkelweergave.</p>
+      <td><p>Toegevoegde begeleiding over de beschikbaarheid van de voorproef van de Bouwer van de Pagina op de Pagina van CMS aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> voegt en verwijdert pagina's </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> de 3} onderwerpen van de Bouwer van de Pagina Workspace toe. </a> In de voorvertoning wordt alleen inhoud weergegeven die beschikbaar is in de standaardwinkelweergave.</p>
 </td>
       <td>
         Technisch, feedback
@@ -89,7 +111,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security-scan"> hulpmiddel van het Scannen van de Veiligheid </a> is bijgewerkt om handelaars met Commerce storefronts te steunen die als plaatsen van Adobe Experience Manager worden opgesteld.</p>
+      <td><p>Het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan"> hulpmiddel van het Scannen van de Veiligheid </a> is bijgewerkt om handelaars met Commerce storefronts te steunen die als plaatsen van Adobe Experience Manager worden opgesteld.</p>
 </td>
       <td>
         Technisch
@@ -111,7 +133,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
+      <td><p>Verduidelijkt hoe te om een actieve verkoop van de prijsregel op een specifieke tijd te beëindigen toen geen einddatum in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> Geplande veranderingen voor de regels van de catalogusprijs </a> onderwerp werd gespecificeerd.<br /> herorganiseerde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a> onderwerp om voorbeelden, conceptuele definities, en groepeer extra URL beheersconfiguratieinstructies voor de Server van het Web te verbeteren herschrijft en Canonical URLs.</p>
 </td>
       <td>
         Technisch, feedback
@@ -133,7 +155,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> VerzenddragerOpstelling </a> instructies met instructies voor het migreren van de Hulpmiddelen API van het Web van USPS aan USPS REST APIs.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers"> VerzenddragerOpstelling </a> instructies met instructies voor het migreren van de Hulpmiddelen API van het Web van USPS aan USPS REST APIs.</p>
 </td>
       <td>
         Technisch, feedback
@@ -155,56 +177,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde documentatie voor de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> uitbreiding van de Status van de Synchronisatie van het Gegeven van Gegevens </a> om de synchronisatie van de voer van de gegevensuitvoer van Adobe Commerce aan het gegevensbestand van Commerce SaaS voor publicatie aan de verbonden diensten van Commerce (Levend Onderzoek, de Aanbevelingen van het Product, de Dienst van de Catalogus) te controleren. De statuspagina voor gegevenssynchronisatie is beschikbaar via het menu Systemen in Commerce Admin.</p>
+      <td><p>Toegevoegde documentatie voor de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> uitbreiding van de Status van de Synchronisatie van het Gegeven van Gegevens </a> om de synchronisatie van de voer van de gegevensuitvoer van Adobe Commerce aan het gegevensbestand van Commerce SaaS voor publicatie aan de verbonden diensten van Commerce (Levend Onderzoek, de Aanbevelingen van het Product, de Dienst van de Catalogus) te controleren. De statuspagina voor gegevenssynchronisatie is beschikbaar via het menu Systemen in Commerce Admin.</p>
 </td>
       <td>
         Nieuw onderwerp
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3a91e33221d7bcd6a42ae9c5da18a70e5d697d15">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 20 oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Toegevoegde informatie over hoe te om Enige Sign-On (SSO) voor veilige toegang tot de Apps van Adobe aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on"> te vormen vormt de Integratie van Commerce Admin met Adobe ID </a> onderwerp in de documentatie van de Onderneming van Commerce.</p>
-</td>
-      <td>
-        Technisch, feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9e399378ac6360936b7c0bd5f08355793976c096">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 14 oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Toegevoegde Oktober 2025 B2B veiligheidspatch <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> versienota's </a>.</p>
-</td>
-      <td>
-        Belangrijke update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/86cc342b9e210b706ee7f37d9db551c17f3af944">begaan</a></td>
     </tr>
   </tbody>
 </table>
