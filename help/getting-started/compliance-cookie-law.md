@@ -208,9 +208,9 @@ Wordt alleen gebruikt als onderdeel van de implementatie van de tabfunctionalite
 
 ## Cookies met productaanbevelingen
 
-![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door de Aanbevelingen van het Product voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [&#x200B; module DataServices &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden gebruikt door de Aanbevelingen van het Product voor de klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [&#x200B; module DataServices &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Staat u toe [&#x200B; om de gegevensinzameling van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
+- `mg_dnt`: Staat u toe [&#x200B; om de gegevensinzameling van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/developer/setting-cookie) te beperken als u douanecode hebt om koekjestoestemming op uw plaats te beheren.
 - `user_allowed_save_cookie`: Gebruikt voor [&#x200B; wijze van de koekjesbeperking &#x200B;](#cookie-restriction-mode).
 - `authentication_flag`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Deze cookie wordt tegelijk met het `dataservices_customer_id` cookie bijgewerkt.
 - `dataservices_customer_id`: geeft aan of een klant zich heeft aangemeld of zich heeft afgemeld. Dit cookie bevat de unieke id van de klant in het systeem.
@@ -230,11 +230,11 @@ De volgende gegevens worden lokaal opgeslagen in opslagruimten die het Luminanti
 
 ## Aanvullende cookies
 
-![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [&#x200B; module DataServices &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) de volgende koekjes worden geplaatst voor klanten van Adobe Commerce. Deze koekjes worden geïnstalleerd met de [&#x200B; module DataServices &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: wordt ingesteld door Snowplow JavaScript-tracker. Meer informatie kan in de [&#x200B; documentatie van de Snowplow &#x200B;](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/) worden gevonden.
 - `com.adobe.alloy.getTld`: Op basis van de hostnaam van de huidige webpagina is dit het bovenste domein dat geen &quot;openbaar achtervoegsel&quot; is zoals beschreven in https://publicsuffix.org. In principe is dit het bovenste domein dat cookies kan accepteren. Dit koekje maakt deel uit van [&#x200B; het Web SDK &#x200B;](https://github.com/adobe/alloy) van de Legering.
-- `aep-segments-membership`: Bevat [&#x200B; publieksinformatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), zoals welk segment een verkoopster tot behoort.
+- `aep-segments-membership`: Bevat [&#x200B; publieksinformatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/audience-activation), zoals welk segment een verkoopster tot behoort.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
