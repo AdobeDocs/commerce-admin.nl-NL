@@ -84,7 +84,7 @@ Met de verzendopties voor meerdere adressen kunnen klanten tijdens het afrekenen
 
 ## URL voor het bijhouden van verzending via e-mail
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 [!BADGE &#x200B; Sandbox &#x200B;]{type=Caution tooltip="De vermelde items zijn momenteel alleen beschikbaar in Sandbox-omgevingen. Adobe stelt nieuwe releases eerst beschikbaar in Sandbox-omgevingen, zodat u tijd hebt om toekomstige wijzigingen te testen voordat de release beschikbaar is in Productomgevingen."}
 

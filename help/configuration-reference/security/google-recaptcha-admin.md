@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Controleer de configuratie-instellingen op de pagina [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] van Commerce Admin.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
 source-wordcount: '559'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [&#x200B; Vereiste PHP Montages &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) in de _Gids van de Installatie_.
+>Voordat Google reCAPTCHA kan worden geconfigureerd, moet u ervoor zorgen dat uw `PHP.ini` -bestand de volgende instelling bevat: `allow_url_fopen = 1` . Hiervoor kan hulp van ontwikkelaars nodig zijn. Zie [&#x200B; Vereiste PHP Montages &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=nl-NL) in de _Gids van de Installatie_.
 
 {{config}}
 
@@ -89,7 +89,7 @@ Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Google
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Algemeen | Bepaalt het type van reCAPTCHA dat voor [&#x200B; login Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) wordt toegelaten. Opties:<br/>**`No`**- (gebrek) bevestigt niet login Admin.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist de gebruiker om _te selecteren I ben geen robot_ checkbox.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interactie op basis van de score te vereisen.<br/>**`Invisible reCAPTCHA v3`** - (Aanbevolen) Hiermee wordt het gebruikersgedrag op de achtergrond gevalideerd op basis van de interactiescore. |
-| [!UICONTROL Enable for Forgot Password] | Algemeen | Bepaalt het type van reCAPTCHA dat wordt toegelaten om een [&#x200B; terug te stellen wachtwoord Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password) te verzoeken. Opties:<br/>**`No`**- (gebrek) bevestigt niet het verzoek van het wachtwoordterugstellen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist de gebruiker om _te selecteren I ben geen robot_ checkbox.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interactie op basis van de score te vereisen.<br/>**`Invisible reCaptcha v3`** - (Aanbevolen) Hiermee wordt het gebruikersgedrag op de achtergrond gevalideerd op basis van de interactiescore. |
+| [!UICONTROL Enable for Login] | Algemeen | Bepaalt het type van reCAPTCHA dat voor [&#x200B; login Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=nl-NL) wordt toegelaten. Opties:<br/>**`No`**- (gebrek) bevestigt niet login Admin.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist de gebruiker om _te selecteren I ben geen robot_ checkbox.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interactie op basis van de score te vereisen.<br/>**`Invisible reCAPTCHA v3`** - (Aanbevolen) Hiermee wordt het gebruikersgedrag op de achtergrond gevalideerd op basis van de interactiescore. |
+| [!UICONTROL Enable for Forgot Password] | Algemeen | Bepaalt het type van reCAPTCHA dat wordt toegelaten om een [&#x200B; terug te stellen wachtwoord Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=nl-NL#reset-your-password) te verzoeken. Opties:<br/>**`No`**- (gebrek) bevestigt niet het verzoek van het wachtwoordterugstellen.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Vereist de gebruiker om _te selecteren I ben geen robot_ checkbox.<br />**`Invisible reCAPTCHA v2`**- Valideert het gedrag van de gebruiker op de achtergrond zonder interactie op basis van de score te vereisen.<br/>**`Invisible reCaptcha v3`** - (Aanbevolen) Hiermee wordt het gebruikersgedrag op de achtergrond gevalideerd op basis van de interactiescore. |
 
 {style="table-layout:auto"}
