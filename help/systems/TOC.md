@@ -5,9 +5,9 @@ breadcrumb-title: Admin Systems Guide
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 0%
    - [Beveiliging van beheerder configureren](security-admin.md)
    - CAPTCHA {#captcha}
       - [Standaard CAPTCHA](security-captcha.md)
-      - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Two-Factor Authentificatie (2FA) {#2fa}
+      - [Google reCAPTCHA V3 en V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+   - Two-Factor Authentificatie (2FA) {#tfa}
       - [Overzicht](security-two-factor-authentication.md)
       - [Gebruikersaccount instellen voor 2FA](security-two-factor-authentication-use.md)
       - [2FA beheren](security-two-factor-authentication-manage.md)
    - [Sessiebeheer](security-session-management.md)
    - [Detectie van browsermogelijkheden](security-browser-capabilities-detection.md)
    - [Melding van beveiligingsproblemen](security-issue-reporting.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
