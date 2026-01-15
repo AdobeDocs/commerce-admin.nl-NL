@@ -3,7 +3,7 @@ title: HIPAA-gereedheid op Adobe Commerce
 description: Ontdek hoe u de Adobe Commerce HIPAA-Ready-extensie kunt toevoegen en extra functies en functionaliteiten kunt krijgen waarmee u aan uw HIPAA-verplichtingen kunt voldoen.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 04c8676c4fe1e055d5b6e89db6fe1b38c1a5d2cf
 workflow-type: tm+mt
 source-wordcount: '2393'
@@ -46,7 +46,7 @@ In de volgende tabel wordt de compatibiliteit tussen versies van Adobe Commerce 
 
 | Adobe Commerce | Ondersteund | Notities |
 |----------------|-----------|-------|
-| 2.4.7-p4 en hoger -p versies | 1.2.0. | 2.4.7-p4 de steun vereist a [&#x200B; hotfix &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.7-p4 en hoger -p versies | 1.2.0. | 2.4.7-p4 de steun vereist a [&#x200B; hotfix &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0. | |
 | 2.4.6-p8 | 1.1.0. | De steun voor [&#x200B; datadiensten &#x200B;](#adobe-commerce-services) werd geïntroduceerd in 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0. | |
@@ -65,7 +65,7 @@ In de volgende tabel wordt de compatibiliteit tussen versies van Adobe Commerce 
 >[!BEGINSHADEBOX]
 
 - Adobe heeft uw Adobe Commerce-account ingericht voor toegang tot de HIPAA Ready-extensie.
-- Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
+- Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com) om de uitbreiding te installeren. Voor zeer belangrijke generatie en het verkrijgen van de noodzakelijke rechten, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen.
 
 >[!ENDSHADEBOX]
 
@@ -73,13 +73,13 @@ Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magen
 
 >[!NOTE]
 >
->Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [&#x200B; de uitbreidingsgids van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Om achterbureaugebeurtenisgegevens te verzekeren die naar Experience Platform worden verzonden is HIPAA-klaar, zie de [&#x200B; de uitbreidingsgids van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Schakel op uw lokale werkstation de projectmap voor uw Adobe Commerce over het infrastructuurproject voor de cloud in.
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [&#x200B; het Leiden takken met CLI &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [&#x200B; het Leiden takken met CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Check de omgevingsvertakking uit om bij te werken met de Adobe Commerce Cloud CLI.
 
@@ -107,7 +107,7 @@ Installeer de nieuwste versie van de Adobe-extensie HIPAA-Ready Services (`magen
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates stelt het [&#x200B; proces van de de wolkenplaatsing van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [&#x200B; opstellen logboek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   Het duwen van de updates stelt het [&#x200B; proces van de de wolkenplaatsing van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [&#x200B; opstellen logboek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Installatie controleren
 
@@ -281,13 +281,13 @@ De volgende lijst identificeert de diensten van Adobe Commerce die voor het HIPA
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [&#x200B; Adobe Developer App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nee | Nee |
-| [&#x200B; Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nee | Nee |
-| [&#x200B; de Diensten van de Betaling &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nee | Nee |
-| [&#x200B; De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [&#x200B; de Gebeurtenissen van de Opslag van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
-| [&#x200B; Audience Activation &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nee | Nee |
+| [&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [&#x200B; Levend Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/overview) | Nee | Nee |
+| [&#x200B; Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/overview) | Nee | Nee |
+| [&#x200B; de Diensten van de Betaling &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/payment-services/guide-overview) | Nee | Nee |
+| [&#x200B; De Gebeurtenissen van het Bureau van de Verbinding van Gegevens achteraan &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [&#x200B; de Gebeurtenissen van de Opslag van de Verbinding van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nee | Nee |
+| [&#x200B; Audience Activation &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/audience-activation) | Nee | Nee |
 
 ### Gereedschappen
 
@@ -299,7 +299,7 @@ Het [&#x200B; Hulpmiddel van het Scannen van de Veiligheid &#x200B;](../../syste
 - Alle geïnstalleerde extensies komen overeen met een vooraf gedefinieerde lijst van gewenste personen
 - Geen niet-ondersteunde Adobe-services geïnstalleerd
 
-U kunt [&#x200B; het hulpmiddel &#x200B;](../../systems/security-scan.md#run-a-security-scan) vormen om u e-mailberichten met details van geplande scans of [&#x200B; manueel meningsrapporten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview) te verzenden.
+U kunt [&#x200B; het hulpmiddel &#x200B;](../../systems/security-scan.md#run-a-security-scan) vormen om u e-mailberichten met details van geplande scans of [&#x200B; manueel meningsrapporten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/overview) te verzenden.
 
 ## Uitgeschakelde functies
 
@@ -307,7 +307,7 @@ Om aan HIPAA-vereisten te voldoen, zijn sommige functies die door Adobe Commerce
 
 De volgende functies zijn standaard uitgeschakeld in de HIPAA-gereedheidsmodule. Handelaren kunnen al deze functies op eigen risico inschakelen.
 
-- **[Transactionele e-mail &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid wordt onbruikbaar gemaakt door gebrek omdat de dienst niet-HIPAA-klaar is. Adobe Commerce verstrekt een integratieoptie die u met uw eigen [&#x200B; Eenvoudige van AWS E-mailDienst &#x200B;](https://docs.aws.amazon.com/ses/) rekening kunt gebruiken. Neem contact op met de technische accountmanager van de klant of de Adobe Commerce-ondersteuning voor configuratiegegevens.
+- **[Transactionele e-mail &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/sendgrid)** - SendGrid wordt onbruikbaar gemaakt door gebrek omdat de dienst niet-HIPAA-klaar is. Adobe Commerce verstrekt een integratieoptie die u met uw eigen [&#x200B; Eenvoudige van AWS E-mailDienst &#x200B;](https://docs.aws.amazon.com/ses/) rekening kunt gebruiken. Neem contact op met de technische accountmanager van de klant of de Adobe Commerce-ondersteuning voor configuratiegegevens.
 
 - **[controle van de Gast](../../stores-purchase/checkout-guest.md)** - Deze eigenschap stelt een potentieel risico voor diverse aspecten van HIPAA met inbegrip van registreren, toegangsbeheer, hygiëne PHI en lijn, en potentieel meer voor.
 
