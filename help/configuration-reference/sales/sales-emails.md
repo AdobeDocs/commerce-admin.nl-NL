@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![&#x200B; Algemene Montages &#x200B;](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/communications/email-communications) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![&#x200B; Orde &#x200B;](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![&#x200B; de Commentaren van de Orde &#x200B;](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![&#x200B; Factuur &#x200B;](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![&#x200B; Factuurcommentaren &#x200B;](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ![&#x200B; Verzending &#x200B;](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ![&#x200B; Commentaren van de Verzending &#x200B;](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![&#x200B; Memo van het Krediet &#x200B;](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![&#x200B; Opmerkingen van het Memo van het Krediet &#x200B;](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ Deze optie vereist [&#x200B; Inventory management &#x200B;](../../inventory-mana
 
 ![&#x200B; Orde Klaar voor Bestelwagen in Opslag &#x200B;](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -206,7 +206,7 @@ Deze optie vereist [&#x200B; Inventory management &#x200B;](../../inventory-mana
 
 ![&#x200B; Citaat &#x200B;](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -229,7 +229,7 @@ Deze optie vereist [&#x200B; Inventory management &#x200B;](../../inventory-mana
 
 ![&#x200B; RMA &#x200B;](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -248,7 +248,7 @@ Deze optie vereist [&#x200B; Inventory management &#x200B;](../../inventory-mana
 
 ![&#x200B; Vergunning RMA &#x200B;](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -284,7 +284,7 @@ Deze optie vereist [&#x200B; Inventory management &#x200B;](../../inventory-mana
 
 ![&#x200B; Klantencommentaren RMA &#x200B;](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
