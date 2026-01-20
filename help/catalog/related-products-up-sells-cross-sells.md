@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Productinstellingen - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Gebruik de sectie _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_om eenvoudige promotieblokken in te stellen die een selectie van extra producten voorstellen die van belang kunnen zijn voor de klant. Voor meer informatie, zie [ Verhoudingen van het Product ](../merchandising-promotions/product-relationships.md).
+Gebruik de sectie _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;om eenvoudige promotieblokken in te stellen die een selectie van extra producten voorstellen die van belang kunnen zijn voor de klant. Voor meer informatie, zie [&#x200B; Verhoudingen van het Product &#x200B;](../merchandising-promotions/product-relationships.md).
 
-![ Verwante Producten, omhoog-Verkopen, en dwars-Verkoop ](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
+![&#x200B; Verwante Producten, omhoog-Verkopen, en dwars-Verkoop &#x200B;](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
 Elk blok bestaat uit een lijst van producten die tot een specifieke optie behoren.
 
@@ -33,29 +33,29 @@ Elk blok bestaat uit een lijst van producten die tot een specifieke optie behore
 
 >[!TIP]
 >
->![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) **Aanbevelingen van het Product die door Adobe AI** worden aangedreven vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
+>![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) **Aanbevelingen van het Product die door Adobe AI** worden aangedreven vereenvoudigt het proces om productverhoudingen te bepalen door kunstmatige intelligentie en machine-leert algoritmen te gebruiken om een diepe analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens, in combinatie met uw Adobe Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
 ><br/>
->Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van de Aanbevelingen van het Product ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
+>Voor meer informatie over het gebruiken van deze Adobe-ontwikkelde uitbreiding als alternatief aan manueel gevormde productaanbevelingen en omhoog-verkoopt, zie de _[Gids van de Aanbevelingen van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Verwante producten
 
 Verwante producten zijn bedoeld om te worden aangeschaft naast het object dat de klant bekijkt. De klant kan het item in het winkelwagentje plaatsen door gewoon op het selectievakje te klikken. De plaatsing van het _Verwante blok van Producten_ varieert volgens bepaald thema en paginalay-out. In het voorbeeld hieronder, verschijnt het _Verwante Producten_ blok bij de bodem van de _pagina van de Mening van het Product_. Met een twee-kolom lay-out, verschijnt het _Verwante Producten_ blok vaak in juiste sidebar.
 
-![ Verwante Producten ](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
+![&#x200B; Verwante Producten &#x200B;](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
 
 Verwante producten instellen:
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
 
 1. Klik op **[!UICONTROL Add Related Products]**.
 
-1. Gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
+1. Gebruik de [&#x200B; filtercontroles &#x200B;](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
 
 1. Selecteer in de lijst het selectievakje van een product dat u als verwant product wilt gebruiken.
 
-   ![ Verwante Producten ](./assets/products-related-add.png){width="600" zoomable="yes"}
+   ![&#x200B; Verwante Producten &#x200B;](./assets/products-related-add.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Selected Products]** als de bewerking is voltooid.
 
@@ -63,21 +63,21 @@ Verwante producten instellen:
 
 Up-sell-producten zijn objecten die uw klant wellicht liever gebruikt dan het product dat momenteel wordt overwogen. Een object dat wordt aangeboden als een up-verkoop kan van hogere kwaliteit zijn, populairder zijn of een betere winstmarge hebben. Up-sell de producten verschijnen op de productpagina onder een rubriek zoals _u in de volgende producten_ ook kunt geinteresseerd zijn.
 
-![ omhoog-Verkoop ](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
+![&#x200B; omhoog-Verkoop &#x200B;](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
 
 Je kunt als volgt producten selecteren:
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
 
 1. Klik op **[!UICONTROL Add Up-Sell Products]**.
 
-1. Gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
+1. Gebruik de [&#x200B; filtercontroles &#x200B;](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
 
 1. Schakel in de lijst het selectievakje in van elk product dat u wilt gebruiken als een up-sell-product.
 
-   ![ omhoog-Verkoop Producten ](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
+   ![&#x200B; omhoog-Verkoop Producten &#x200B;](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Selected Products]** als de bewerking is voltooid.
 
@@ -91,22 +91,22 @@ Cross-sell-items zijn vergelijkbaar met impulsaankopen die naast het kasregister
 
 >[!NOTE]
 >
->Om dwars-verkoop punten per opslagmening te tonen of te verbergen, zie [ Controle > het Schepen van Kar ](../configuration-reference/sales/checkout.md) optie genoemd _[!UICONTROL Show Cross-sell Items]_in het Schepen Kar. U kunt cross-sells tijdens specifieke verkoop of voor het testen A/B in een archiefmening willen verbergen.
+>Om dwars-verkoop punten per opslagmening te tonen of te verbergen, zie [&#x200B; Controle > het Schepen van Kar &#x200B;](../configuration-reference/sales/checkout.md) optie genoemd _[!UICONTROL Show Cross-sell Items]_&#x200B;in het Schepen Kar. U kunt cross-sells tijdens specifieke verkoop of voor het testen A/B in een archiefmening willen verbergen.
 
-![ dwars-verkoopt in het winkelwagentje ](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
+![&#x200B; dwars-verkoopt in het winkelwagentje &#x200B;](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
 **_Om producten voor meerdere verkooppunten te selecteren:_**
 
 1. Open het product in de bewerkingsmodus.
 
-1. De rol neer en breidt ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
+1. De rol neer en breidt ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** sectie.
 
 1. Klik op **[!UICONTROL Add Cross-Sell Products]**.
 
-1. Gebruik de [ filtercontroles ](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
+1. Gebruik de [&#x200B; filtercontroles &#x200B;](../getting-started/admin-grid-controls.md) om de producten te vinden die u wilt.
 
 1. Schakel in de lijst het selectievakje in van elk product dat u als een cross-selproduct wilt gebruiken.
 
-   ![ dwars-verkoopt Producten ](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
+   ![&#x200B; dwars-verkoopt Producten &#x200B;](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Selected Products]** als de bewerking is voltooid.
