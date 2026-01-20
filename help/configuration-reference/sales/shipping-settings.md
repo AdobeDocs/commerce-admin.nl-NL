@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{config}}
 
-Voor meer informatie over het veranderen van deze montages, zie [ Verzendmontages ](../../stores-purchase/shipping-settings.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
+Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Verzendmontages &#x200B;](../../stores-purchase/shipping-settings.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
 ## [!UICONTROL Origin]
 
-![ Oorsprong ](./assets/shipping-settings-origin.png)<!-- zoom -->
+![&#x200B; Oorsprong &#x200B;](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Country] | Website | Het land van oorsprong. |
 | [!UICONTROL Region/State] | Website | Het gebied of de staat van oorsprong. |
@@ -33,9 +33,9 @@ Voor meer informatie over het veranderen van deze montages, zie [ Verzendmontage
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![ Verzendbeleidsparameters ](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![&#x200B; Verzendbeleidsparameters &#x200B;](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Website | Hiermee wordt bepaald of je verzendbeleid wordt weergegeven tijdens het afrekenen. Opties: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Winkelweergave | Bevat je verzendbeleid als tekst. |
@@ -44,11 +44,11 @@ Voor meer informatie over het veranderen van deze montages, zie [ Verzendmontage
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
-![ Verzendbeleidsparameters ](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+![&#x200B; Verzendbeleidsparameters &#x200B;](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Custom Tracking URLs] | Winkelweergave | Hiermee bepaalt u of volgnummers voor verzending die in e-mailberichten van winkels worden verzonden, koppelingen of onbewerkte tekst zijn. De standaardwaarde van `No` geeft aan dat de getallen onbewerkte tekst zijn. Opties: `Yes` / `No` |
 | [!UICONTROL USPS Tracking URL] | Winkelweergave | De URL-sjabloon voor verzendingen via United States Postal Service. |
