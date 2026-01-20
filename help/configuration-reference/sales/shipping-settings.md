@@ -44,7 +44,7 @@ Voor meer informatie over het veranderen van deze montages, zie [&#x200B; Verzen
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 ![&#x200B; Verzendbeleidsparameters &#x200B;](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

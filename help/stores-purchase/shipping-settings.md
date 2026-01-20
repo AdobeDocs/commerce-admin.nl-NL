@@ -84,7 +84,7 @@ Met de verzendopties voor meerdere adressen kunnen klanten tijdens het afrekenen
 
 ## URL voor het bijhouden van verzending via e-mail
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Standaard zijn volgnummers voor verzendingen die in e-mails van winkels worden verzonden, onbewerkte tekst. U kunt deze volgnummers omzetten in klikbare koppelingen door de functie URL voor aangepaste URL bijhouden in te schakelen. Met deze functie kunt u een sjabloon definiëren voor het bijhouden van URL&#39;s voor verschillende verzendende maatschappijen. Elke sjabloon bevat de volledige URL naar de volgende website en een tijdelijke aanduiding voor het trackingnummer. Commerce vervangt de tijdelijke aanduiding door het werkelijke trackingnummer in het e-mailbericht.
 

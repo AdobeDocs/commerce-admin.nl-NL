@@ -76,7 +76,7 @@ De prijzen in de winkel hebben voorrang van de hoogste naar de laagste hoeveelhe
 
 ## Laagprijzen inschakelen voor catalogusprijsregels
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 In eerdere versies van Commerce kon de prijzen op de laag niet worden gebruikt in combinatie met de prijsregels voor catalogi. De catalogusregels negeerden de configuratie van de laagprijs en berekende kortingen slechts van de oorspronkelijke basisprijs. Met Adobe Commerce as a Cloud Service kunt u nu laagprijzen opnemen in de berekening van catalogusprijsregels.
 
