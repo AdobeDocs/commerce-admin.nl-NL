@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Toegankelijkheid
 
-Sommige bezoekers van uw site vertrouwen op toetsenbordbesturing voor navigatie in plaats van een muis, terwijl andere wellicht aanraak- of spraakopdrachten gebruiken. Hoewel de besturingselementen voor toetsenbordnavigatie per browser en platform variëren, wordt de Tab-toets vaak gebruikt om de focus door de velden, koppelingen en knoppen op een pagina te verplaatsen. Meer leren, zie [ Sneltoetsen ](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
+Sommige bezoekers van uw site vertrouwen op toetsenbordbesturing voor navigatie in plaats van een muis, terwijl andere wellicht aanraak- of spraakopdrachten gebruiken. Hoewel de besturingselementen voor toetsenbordnavigatie per browser en platform variëren, wordt de Tab-toets vaak gebruikt om de focus door de velden, koppelingen en knoppen op een pagina te verplaatsen. Meer leren, zie [&#x200B; Sneltoetsen &#x200B;](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-Voor meer informatie over toegankelijkheid, zie [ Richtlijnen van de Toegankelijkheid ](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} in de ontwikkelaarsdocumentatie.
+Voor meer informatie over toegankelijkheid, zie [&#x200B; Richtlijnen van de Toegankelijkheid &#x200B;](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} in de ontwikkelaarsdocumentatie.
 
 ## Windows
 

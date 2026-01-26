@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_is de op wolk-gebaseerde dienst die door [ Adobe Commerce Intelligence ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"} wordt aangedreven. Voor meer informatie, zie [ Geavanceerde Rapportering ](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"} in de_ Begonnen Gids _.
+_[!DNL Advanced Reporting]_&#x200B;is de op wolk-gebaseerde dienst die door [&#x200B; Adobe Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"} wordt aangedreven. Voor meer informatie, zie [&#x200B; Geavanceerde Rapportering &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"} in de_ Begonnen Gids _.
 
-![ Geavanceerde Rapportering ](./assets/advanced-reporting.png)<!-- zoom -->
+![&#x200B; Geavanceerde Rapportering &#x200B;](./assets/advanced-reporting.png)<!-- zoom -->
 
 <!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Advanced Reporting Service] | Algemeen | Maakt de integratie van [!DNL Advanced Reporting] voor uw Commerce-installatie mogelijk. |
 | [!UICONTROL Industry] | Website | Identificeert uw bedrijfssector om aan te passen [!DNL Advanced Reporting]. |

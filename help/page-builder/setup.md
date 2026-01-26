@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] instellen
 
-Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en -blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [ paginalay-out ](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en de pagina&#39;s van CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die de redacteur van WYSIWYG [ ](../content-design/editor.md) gebruikt.
+Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het standaardprogramma voor het maken van inhoud voor CMS-pagina&#39;s, -blokken en -blokken. Daarnaast biedt de knop _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als optie voor Categorieën en Producten. U kunt de standaard [&#x200B; paginalay-out &#x200B;](../content-design/page-layout.md) ook kiezen die u voor producten, categorieën, en de pagina&#39;s van CMS wilt gebruiken. [!DNL Page Builder] is niet beschikbaar voor nieuwsbrief inhoud, die de redacteur van WYSIWYG [&#x200B; &#x200B;](../content-design/editor.md) gebruikt.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Als deze optie is ingeschakeld in de configuratie, is [!DNL Page Builder] het st
 
 >[!NOTE]
 >
->Een gebruiker Admin moet [!UICONTROL Content] toestemmingen voor hun [ rolwerkingsgebied ](../systems/permissions-user-roles.md) hebben om [!UICONTROL Edit with Page Builder] knopen te zien en de Bouwer van de Pagina te kunnen gebruiken.
+>Een gebruiker Admin moet [!UICONTROL Content] toestemmingen voor hun [&#x200B; rolwerkingsgebied &#x200B;](../systems/permissions-user-roles.md) hebben om [!UICONTROL Edit with Page Builder] knopen te zien en de Bouwer van de Pagina te kunnen gebruiken.
 
 Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Beheer van de Inhoud Geavanceerde, zie de [_Gids van de Verwijzing van de Configuratie_](../configuration-reference/general/content-management.md).
 
@@ -30,21 +30,21 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
-1. Vouw ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en verifieer dat **[!UICONTROL Enable Page Builder]** aan `Yes` wordt geplaatst.
+1. Vouw ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en verifieer dat **[!UICONTROL Enable Page Builder]** aan `Yes` wordt geplaatst.
 
-   ![ Geavanceerde Hulpmiddelen van de Inhoud ](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde Hulpmiddelen van de Inhoud &#x200B;](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk als u klaar bent om [!DNL Google Maps] in te stellen:
 
-   - Indien nodig, volg [ krijg API Zeer belangrijke ](https://developers.google.com/maps/documentation/javascript/get-api-key) instructies, en kopieer en kleef dan uw **[!UICONTROL Google Maps API Key]**.
+   - Indien nodig, volg [&#x200B; krijg API Zeer belangrijke &#x200B;](https://developers.google.com/maps/documentation/javascript/get-api-key) instructies, en kopieer en kleef dan uw **[!UICONTROL Google Maps API Key]**.
 
-   - Om **[!UICONTROL Google Maps Style]** te veranderen, kleef de code JSON die door de [[!DNL Google Maps]  APIs het Stileren Tovenaar ](https://mapstyle.withgoogle.com/) wordt geproduceerd.
+   - Om **[!UICONTROL Google Maps Style]** te veranderen, kleef de code JSON die door de [[!DNL Google Maps]  APIs het Stileren Tovenaar &#x200B;](https://mapstyle.withgoogle.com/) wordt geproduceerd.
 
    >[!NOTE]
    >
-   >Zie [ Media - Kaart ](map.md) voor meer informatie over het gebruiken van [!DNL Google Maps] in uw [!DNL Page Builder] inhoud.
+   >Zie [&#x200B; Media - Kaart &#x200B;](map.md) voor meer informatie over het gebruiken van [!DNL Google Maps] in uw [!DNL Page Builder] inhoud.
 
 1. Ga als volgt te werk om het aantal hulplijnen in het kolomraster [!DNL Page Builder] te configureren:
 
@@ -54,7 +54,7 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
    >[!NOTE]
    >
-   >Zie [ Lay-out - Kolom ](column.md) voor meer informatie over het gebruiken van het kolomnet wanneer het werken met uw [!DNL Page Builder] inhoud.
+   >Zie [&#x200B; Lay-out - Kolom &#x200B;](column.md) voor meer informatie over het gebruiken van het kolomnet wanneer het werken met uw [!DNL Page Builder] inhoud.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -62,11 +62,11 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Web]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Web]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** uit en doe het volgende:
 
-   ![ StandaardLay-outs ](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
+   ![&#x200B; StandaardLay-outs &#x200B;](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
 
    Voor meer informatie over de de configuratieopties van het Web, zie de [_Gids van de Verwijzing van de Configuratie_](../configuration-reference/general/web.md#default-layouts).
 
@@ -82,16 +82,16 @@ Voor meer informatie over de de configuratieopties van Hulpmiddelen van het Behe
 
 >[!NOTE]
 >
->Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de redacteur van WYSIWYG [ ](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
+>Het onbruikbaar maken [!DNL Page Builder] vervangt de Geavanceerde Hulpmiddelen van de Inhoud met de redacteur van WYSIWYG [&#x200B; &#x200B;](../content-design/editor.md), en zou vertoningsfouten in de storefront kunnen veroorzaken. Inhoud die u eerder met [!DNL Page Builder] hebt gemaakt, kan mogelijk niet vanuit de beheerder worden bewerkt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_de optie **[!UICONTROL Content Management]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL General]_&#x200B;de optie **[!UICONTROL Content Management]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en reeks **[!UICONTROL Enable Page Builder]** aan `No`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** uit en reeks **[!UICONTROL Enable Page Builder]** aan `No`.
 
 1. Klik op **[!UICONTROL Turn Off]** wanneer u wordt gevraagd om te bevestigen.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-1. Wanneer ertoe aangezet, [ verfrist zich ](../systems/cache-management.md) om het even welk ongeldig geheime voorgeheugen.
+1. Wanneer ertoe aangezet, [&#x200B; verfrist zich &#x200B;](../systems/cache-management.md) om het even welk ongeldig geheime voorgeheugen.

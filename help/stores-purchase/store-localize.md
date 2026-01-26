@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Winkellokalisatie
 
-Het merendeel van de tekst die op pagina&#39;s in de winkel hard lijkt te zijn gecodeerd, kan direct worden gewijzigd in een andere taal door de landinstelling van de weergave te wijzigen. Als u de landinstelling wijzigt, wordt de tekst woord voor woord niet vertaald, maar wordt gewoon verwezen naar een andere vertaaltabel die de interfacetekst bevat die in de hele winkel wordt gebruikt. De tekst die kan worden veranderd omvat navigatietitels, etiketten, knopen, en verbindingen zoals _Mijn Kaart_ en _Mijn Rekening_. U kunt het [ Inline Vertaling ](../configuration-reference/advanced/developer.md) hulpmiddel ook gebruiken om tekst in de interface aan te raken.
+Het merendeel van de tekst die op pagina&#39;s in de winkel hard lijkt te zijn gecodeerd, kan direct worden gewijzigd in een andere taal door de landinstelling van de weergave te wijzigen. Als u de landinstelling wijzigt, wordt de tekst woord voor woord niet vertaald, maar wordt gewoon verwezen naar een andere vertaaltabel die de interfacetekst bevat die in de hele winkel wordt gebruikt. De tekst die kan worden veranderd omvat navigatietitels, etiketten, knopen, en verbindingen zoals _Mijn Kaart_ en _Mijn Rekening_. U kunt het [&#x200B; Inline Vertaling &#x200B;](../configuration-reference/advanced/developer.md) hulpmiddel ook gebruiken om tekst in de interface aan te raken.
 
-De pakken van de taal kunnen onder [ Vertalingen &amp; Localization ](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} op Commerce Marketplace worden gevonden. Er worden voortdurend nieuwe extensies toegevoegd aan Marketplace. Ga daarom vaak terug.
+De pakken van de taal kunnen onder [&#x200B; Vertalingen &amp; Localization &#x200B;](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} op Commerce Marketplace worden gevonden. Er worden voortdurend nieuwe extensies toegevoegd aan Marketplace. Ga daarom vaak terug.
 
 ## Stap 1: Een taalpakket installeren
 
-Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voor gedetailleerde informatie over het installeren van een uitbreiding, zie [ Algemene installatie CLI ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in de _Gids van Uitbreidingen_.
+Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voor gedetailleerde informatie over het installeren van een uitbreiding, zie [&#x200B; Algemene installatie CLI &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in de _Gids van Uitbreidingen_.
 
 ## Stap 2: Een winkelweergave voor de taal maken
 
@@ -48,7 +48,7 @@ Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voo
 
 1. Selecteer in het vervolgkeuzemenu **[!UICONTROL Scope]** de archiefweergave die u wilt configureren, en klik op **[!UICONTROL OK]** wanneer u daarom wordt gevraagd.
 
-1. Voor de *[!UICONTROL General]* configuratiepagina, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Locale Options]** sectie.
+1. Voor de *[!UICONTROL General]* configuratiepagina, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Locale Options]** sectie.
 
 1. Schakel het selectievakje **[!UICONTROL Use Website]** uit en stel **[!UICONTROL Locale]** in op de taal die u aan de weergave wilt toewijzen.
 
@@ -56,7 +56,7 @@ Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voo
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-   Nadat u de taal van de scène verandert, moet de resterende inhoud die u hebt gecreeerd, met inbegrip van productnamen en beschrijvingen, categorieën, [ CMS ](../content-design/page-translate.md) pagina&#39;s, en blokken afzonderlijk voor elke archiefmening worden vertaald.
+   Nadat u de taal van de scène verandert, moet de resterende inhoud die u hebt gecreeerd, met inbegrip van productnamen en beschrijvingen, categorieën, [&#x200B; CMS &#x200B;](../content-design/page-translate.md) pagina&#39;s, en blokken afzonderlijk voor elke archiefmening worden vertaald.
 
 ## Producten lokaliseren
 
@@ -76,7 +76,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
    - Plak of typ de vertaalde tekst in het veld.
 
-   Zorg ervoor om alle tekstgebieden, met inbegrip van [ beeld ](../catalog/catalog-images-video.md) etiketten en de tekst van Alt, [ de gebieden van de Optimalisering van de Motor van het Onderzoek ](../catalog/product-search-engine-optimization.md) en om het even welke [ 5} informatie van de Opties van de Douane te vertalen.](../catalog/settings-advanced-custom-options.md)
+   Zorg ervoor om alle tekstgebieden, met inbegrip van [&#x200B; beeld &#x200B;](../catalog/catalog-images-video.md) etiketten en de tekst van Alt, [&#x200B; de gebieden van de Optimalisering van de Motor van het Onderzoek &#x200B;](../catalog/product-search-engine-optimization.md) en om het even welke [&#x200B; 5&rbrace; informatie van de Opties van de Douane te vertalen.](../catalog/settings-advanced-custom-options.md)
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
@@ -88,9 +88,9 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 1. Kies **[!UICONTROL Manage Labels]** in het linkerdeelvenster.
 
-1. Voer in de sectie _[!UICONTROL Manage Titles]_een vertaald label in voor elke winkelweergave.
+1. Voer in de sectie _[!UICONTROL Manage Titles]_&#x200B;een vertaald label in voor elke winkelweergave.
 
-   ![ ga Vertaalde Etiketten ](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"} in
+   ![&#x200B; ga Vertaalde Etiketten &#x200B;](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"} in
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.
 
@@ -104,15 +104,15 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 1. Voor _BasisInformatie_, vertaal **[!UICONTROL Category Name]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Content]_sectie uit en vertaalt **[!UICONTROL Description]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Content]_&#x200B;sectie uit en vertaalt **[!UICONTROL Description]**.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization Settings]** sectie uit en vertaal de volgende gebieden:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Optimization Settings]** sectie uit en vertaal de volgende gebieden:
 
    - **[!UICONTROL Meta Title]**
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Voer onder de sectie _[!UICONTROL Search Engine Optimization Settings]_de volgende handelingen uit om de **[!UICONTROL URL Key]**te vertalen:
+1. Voer onder de sectie _[!UICONTROL Search Engine Optimization Settings]_&#x200B;de volgende handelingen uit om de **[!UICONTROL URL Key]**&#x200B;te vertalen:
 
    - Schakel het selectievakje **[!UICONTROL Use Default Value]** rechts van het veld uit.
 
@@ -120,7 +120,7 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
    - Controleer of het selectievakje **[!UICONTROL Create Permanent Redirect for old URL]** is ingeschakeld.
 
-   ![ vertaal de sleutel URL ](./assets/category-translate-url-key.png)
+   ![&#x200B; vertaal de sleutel URL &#x200B;](./assets/category-translate-url-key.png)
 
 1. Klik op **[!UICONTROL Save Category]** als de bewerking is voltooid.
 
@@ -136,6 +136,6 @@ Als uw winkel meerdere weergaven in verschillende talen heeft, zijn in elke wink
 
 1. Kies **[!UICONTROL Properties]** aan de linkerkant en voer de vertaalde kenmerkopties in de sectie **[!UICONTROL Manage Options]** in.
 
-   ![ beheert Opties ](./assets/manage-option-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; beheert Opties &#x200B;](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Attribute]** als de bewerking is voltooid.

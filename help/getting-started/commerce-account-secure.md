@@ -18,7 +18,7 @@ Als TFA is ingeschakeld, is uw account veiliger. Een onbevoegde gebruiker kan ni
 
 >[!NOTE]
 >
->De twee-factor authentificatie die _Admin_ van uw opslag beschermt heeft een afzonderlijke opstelling. Meer leren, zie [ two-Factor Authentificatie ](../systems/security-two-factor-authentication.md).
+>De twee-factor authentificatie die _Admin_ van uw opslag beschermt heeft een afzonderlijke opstelling. Meer leren, zie [&#x200B; two-Factor Authentificatie &#x200B;](../systems/security-two-factor-authentication.md).
 
 ## Voordat u begint
 
@@ -32,23 +32,23 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
 ## Twee-factor verificatie inschakelen
 
-1. Login aan uw [[!DNL Commerce]  rekening ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Login aan uw [[!DNL Commerce]  rekening &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Selecteer **[!UICONTROL Account Settings]** in het linkernavigatievenster en selecteer vervolgens **[!UICONTROL Two-factor Authentication]** .
 
-   ![ laat TFA ](./assets/2fa-enable.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat TFA &#x200B;](./assets/2fa-enable.png){width="600" zoomable="yes"} toe
 
 1. Selecteer **[!UICONTROL Enable]** om met het proces van de twee-factor authentificatie te beginnen.
 
 1. Voer de **[!UICONTROL Verification Code]** in die naar uw e-mail is verzonden en selecteer **[!UICONTROL Verify Code]** om door te gaan.
 
-   ![ ga de verificatiecode ](./assets/2fA-verification-code-prompt.png){width="400"} in
+   ![&#x200B; ga de verificatiecode &#x200B;](./assets/2fA-verification-code-prompt.png){width="400"} in
 
 1. Open de twee-factor verificatietoepassing die u hebt gedownload en op uw persoonlijke apparaat hebt geïnstalleerd.
 
 1. Voeg in het [!UICONTROL SETUP TWO-FACTOR AUTHENTICATION] -formulier Adobe Commerce toe aan uw TFA-toepassing met **[!UICONTROL Setup Code]** .
 
-   ![ voeg Adobe Commerce aan app van TFA toe ](./assets/commerce-account-2fa-setup-app.png){width="400"}
+   ![&#x200B; voeg Adobe Commerce aan app van TFA toe &#x200B;](./assets/commerce-account-2fa-setup-app.png){width="400"}
 
    U kunt de code toevoegen door de QR-code te scannen met de TFA-toepassing of door deze handmatig in te voeren. Met deze code wordt uw TFA-toepassing gecombineerd met uw [!DNL Commerce] -account en kunnen de machtigingen voor het genereren van de TFA-app verificatiecodes genereren voor beveiligde toegang tot de account.
 
@@ -64,11 +64,11 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
 1. Sla de **[!UICONTROL Recovery Codes]** -presentatie op een veilige en toegankelijke plaats op.
 
-   ![ de terugwinningscodes van de Opslag ](./assets/commerce-account-2fa-store-recovery-codes.png){width="400"}
+   ![&#x200B; de terugwinningscodes van de Opslag &#x200B;](./assets/commerce-account-2fa-store-recovery-codes.png){width="400"}
 
    Als u geen verificatiecode kunt opgeven wanneer u zich aanmeldt bij uw [!DNL Commerce] -account, moet u een herstelcode gebruiken om de toegang tot uw account te herstellen.
 
-   Elke terugwinningscode kan slechts één keer worden gebruikt, maar u kunt [ nieuwe degenen ](#generate-new-recovery-codes) produceren. Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode kan slechts één keer worden gebruikt, maar u kunt [&#x200B; nieuwe degenen &#x200B;](#generate-new-recovery-codes) produceren. Herstelcodes zijn hoofdlettergevoelig.
 
 1. Schakel het selectievakje voor bevestiging in en selecteer **[!UICONTROL Submit]** om door te gaan.
 
@@ -82,7 +82,7 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
    >
    >Toegang tot uw e-mailaccount voor herstel behouden. Anders kunt u geen tijdelijke herstelcodes gebruiken die naar dat account zijn verzonden.
 
-   ![ plaats terugwinnings-e-mail ](./assets/commerce-account-2fa-set-recovery-email.png){width="400"}
+   ![&#x200B; plaats terugwinnings-e-mail &#x200B;](./assets/commerce-account-2fa-set-recovery-email.png){width="400"}
 
 1. Schakel het selectievakje voor bevestiging in en selecteer **[!UICONTROL Submit]** om het instellingsproces voor verificatie met twee factoren te voltooien.
 
@@ -92,23 +92,23 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
 >[!TIP]
 >
->Als u uw persoonlijk apparaat verliest of nieuwe krijgt, kunt u [ uw twee-factor authentificatie app ](#change-your-two-factor-authentication-application) veranderen en nieuwe terugwinningscodes produceren.
+>Als u uw persoonlijk apparaat verliest of nieuwe krijgt, kunt u [&#x200B; uw twee-factor authentificatie app &#x200B;](#change-your-two-factor-authentication-application) veranderen en nieuwe terugwinningscodes produceren.
 
 ## Aanmelden met een verificatiecode
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
 1. Voer de **[!UICONTROL Verification Code]** in die wordt weergegeven in uw tweefasenverificatietoepassing wanneer hierom wordt gevraagd.
 
-   ![ ga verificatiecode ](./assets/commerce-account-2fa-login-verification-code.png){width="600"} in
+   ![&#x200B; ga verificatiecode &#x200B;](./assets/commerce-account-2fa-login-verification-code.png){width="600"} in
 
 1. Selecteer **[!UICONTROL Submit]** om het aanmeldingsproces te voltooien.
 
 ## Aanmelden met een herstelcode
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -116,13 +116,13 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
 1. Voer een ongebruikt **[!UICONTROL Recovery Code]** in wanneer hierom wordt gevraagd.
 
-   ![ ga terugwinningscode ](./assets/2fa-recovery-code.png){width="600"} in
+   ![&#x200B; ga terugwinningscode &#x200B;](./assets/2fa-recovery-code.png){width="600"} in
 
 1. Selecteer **[!UICONTROL Submit]** om het aanmeldingsproces te voltooien.
 
 ## Meld u aan met uw e-mail voor herstel
 
-1. Login aan uw [[!DNL Commerce]  rekening ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Login aan uw [[!DNL Commerce]  rekening &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -130,17 +130,17 @@ Om TFA te gebruiken, moet u een toepassing van TFA hebben die op uw persoonlijk 
 
 1. Selecteer de koppeling **[!UICONTROL recovery email]** als u een tijdelijke herstelcode via e-mail wilt ontvangen.
 
-   ![ terugwinnings-e-mail van het Gebruik ](./assets/2fa-recovery-email.png){width="600"}
+   ![&#x200B; terugwinnings-e-mail van het Gebruik &#x200B;](./assets/2fa-recovery-email.png){width="600"}
 
 1. Open uw e-mailaccount voor herstel om de tijdelijke code op te halen en voer de code in de desbetreffende velden in.
 
 1. Selecteer **[!UICONTROL Submit]** om het aanmeldingsproces te voltooien.
 
-Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang te hebben, [ produceer nieuwe terugwinningscodes ](#generate-new-recovery-codes) en bewaar hen om verdere kwesties van de rekeningstoegang te verhinderen.
+Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang te hebben, [&#x200B; produceer nieuwe terugwinningscodes &#x200B;](#generate-new-recovery-codes) en bewaar hen om verdere kwesties van de rekeningstoegang te verhinderen.
 
 ## Uw herstelcodes weergeven
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -148,27 +148,27 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
 1. Selecteer **[!UICONTROL Account Settings]** in het linkernavigatievenster en selecteer vervolgens **[!UICONTROL Two-factor Authentication]** .
 
-   ![ 2FA montages ](./assets/commerce-account-2fa-manage.png){width="600" zoomable="yes"}
+   ![&#x200B; 2FA montages &#x200B;](./assets/commerce-account-2fa-manage.png){width="600" zoomable="yes"}
 
 1. Om uw pre-geproduceerde terugwinningscodes te bekijken, selecteer **Codes van de Terugwinning van de Mening**.
 
 1. Voer de **[!UICONTROL Verification Code]** in die naar uw e-mail is verzonden en selecteer **[!UICONTROL Verify Code]** om door te gaan.
 
-   ![ ga verificatiecode ](./assets/2fA-verification-code-prompt.png){width="400"} in
+   ![&#x200B; ga verificatiecode &#x200B;](./assets/2fA-verification-code-prompt.png){width="400"} in
 
 1. Sparen de **Codes van de Terugwinning** die in een veilige en toegankelijke plaats worden voorgesteld.
 
    Als u geen verificatiecode kunt opgeven om u aan te melden bij uw [!DNL Commerce] -account, kunt u alleen met een herstelcode toegang krijgen tot uw account.
 
-   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [ nieuwe degenen altijd produceren ](#generate-new-recovery-codes). Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [&#x200B; nieuwe degenen altijd produceren &#x200B;](#generate-new-recovery-codes). Herstelcodes zijn hoofdlettergevoelig.
 
-   ![ de terugwinningscodes van de Mening ](./assets/2fa-view-recovery.png){width="400"}
+   ![&#x200B; de terugwinningscodes van de Mening &#x200B;](./assets/2fa-view-recovery.png){width="400"}
 
 1. Schakel het selectievakje voor bevestiging in en selecteer **[!UICONTROL Submit]** om het dialoogvenster te sluiten.
 
 ## Nieuwe herstelcodes genereren
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -190,7 +190,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
 ## Herstele-mail wijzigen
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -218,7 +218,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
 ## Wijzig de toepassing voor verificatie met twee factoren
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -246,7 +246,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
    Als u geen verificatiecode kunt opgeven wanneer u zich aanmeldt bij uw [!DNL Commerce] -account, kunt u de toegang tot uw account alleen herstellen met behulp van een herstelcode.
 
-   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [ nieuwe degenen altijd produceren ](#generate-new-recovery-codes). Herstelcodes zijn hoofdlettergevoelig. Herstelcodes zijn hoofdlettergevoelig.
+   Elke terugwinningscode is slechts eenmalig gebruik, maar u kunt [&#x200B; nieuwe degenen altijd produceren &#x200B;](#generate-new-recovery-codes). Herstelcodes zijn hoofdlettergevoelig. Herstelcodes zijn hoofdlettergevoelig.
 
 1. Schakel het selectievakje in om te bevestigen en selecteer **[!UICONTROL Submit]** om door te gaan.
 
@@ -270,7 +270,7 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 >
 >Als voor uw beveiligingsbeleid meervoudige verificatie van Adobe Commerce-accounts vereist is, kunt u tweefasenverificatie niet uitschakelen.
 
-1. Ga naar [!DNL Commerce] [ rekeningslogin ](https://account.magento.com/customer/account/login){:target="_blank"}.
+1. Ga naar [!DNL Commerce] [&#x200B; rekeningslogin &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Voer uw gebruikersnaam en wachtwoord in en selecteer vervolgens **[!UICONTROL Login]** .
 
@@ -286,4 +286,4 @@ Na het gebruiken van een tijdelijke terugwinningscode om tot uw rekening toegang
 
    Het systeem verzendt een e-mailbevestiging die aangeeft dat TFA is uitgeschakeld op uw [!DNL Commerce] -account.
 
-   ![ maak TFA ](./assets/2fa-disable.png){width="400"} onbruikbaar
+   ![&#x200B; maak TFA &#x200B;](./assets/2fa-disable.png){width="400"} onbruikbaar

@@ -30,23 +30,23 @@ Alle organisaties die persoonsgegevens verwerken, moeten het volgende bekendmake
 
 ## GDPR en CCPA
 
-Als uw zaken zowel GDPR als de [ Wet van de Privacy van de consument van Californië (CCPA) ](../getting-started/compliance-ccpa.md) moeten naleven, kunt u wat van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel GDPR als de [&#x200B; Wet van de Privacy van de consument van Californië (CCPA) &#x200B;](../getting-started/compliance-ccpa.md) moeten naleven, kunt u wat van het werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie het [ Cpa- Werkblad van het Fact ](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie het [&#x200B; Cpa- Werkblad van het Fact &#x200B;](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Aanbevolen procedures
 
-- Onderzoek het huidige [ privacybeleid ](../getting-started/privacy-policy.md) voor al uw opslag om ervoor te zorgen dat zij met om het even welke toepasselijke wettelijke vereisten (met inbegrip van, maar niet beperkt tot GDPR en CCPA) richten.
+- Onderzoek het huidige [&#x200B; privacybeleid &#x200B;](../getting-started/privacy-policy.md) voor al uw opslag om ervoor te zorgen dat zij met om het even welke toepasselijke wettelijke vereisten (met inbegrip van, maar niet beperkt tot GDPR en CCPA) richten.
 
-- Werk uw [ montages van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings) bij en zorg ervoor dat zij met uw wettelijke verplichtingen betreffende het gebruik van persoonlijke gegevens richten.
+- Werk uw [&#x200B; montages van Google &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings) bij en zorg ervoor dat zij met uw wettelijke verplichtingen betreffende het gebruik van persoonlijke gegevens richten.
 
 - Transparantie behouden en grondige documentatie bewaren.
 
-- Om te leren hoe de hulp van Adobe verkopers aan toepasselijke wettelijke verplichtingen voldoet, bezoek de [ website ](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
+- Om te leren hoe de hulp van Adobe verkopers aan toepasselijke wettelijke verplichtingen voldoet, bezoek de [&#x200B; website &#x200B;](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Voor de diagrammen van de gegevensstroom en de afbeelding van de gegevensbestandentiteit, zie de [ Verwijzing van de Persoonlijke Informatie ](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- Voor de diagrammen van de gegevensstroom en de afbeelding van de gegevensbestandentiteit, zie de [&#x200B; Verwijzing van de Persoonlijke Informatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

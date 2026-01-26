@@ -16,34 +16,34 @@ De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijv
 
 ## PCI-vereisten
 
-![ checkbox ](../assets/checkbox.png) - installeer en handhaaf een firewallconfiguratie om kaarthoudergegevens te beschermen.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - installeer en handhaaf een firewallconfiguratie om kaarthoudergegevens te beschermen.
 
-![ checkbox ](../assets/checkbox.png) - gebruik geen leverancier-geleverde gebreken voor systeemwachtwoorden en andere veiligheidsparameters.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - gebruik geen leverancier-geleverde gebreken voor systeemwachtwoorden en andere veiligheidsparameters.
 
-![ checkbox ](../assets/checkbox.png) - beschermt opgeslagen kaarthoudergegevens.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - beschermt opgeslagen kaarthoudergegevens.
 
-![ checkbox ](../assets/checkbox.png) - codeer transmissie van kaarthoudergegevens over open, openbare netwerken.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - codeer transmissie van kaarthoudergegevens over open, openbare netwerken.
 
-![ checkbox ](../assets/checkbox.png) - gebruik en werk regelmatig antivirussoftware bij.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - gebruik en werk regelmatig antivirussoftware bij.
 
-![ checkbox ](../assets/checkbox.png) - ontwikkel en handhaaf veilige systemen en toepassingen.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - ontwikkel en handhaaf veilige systemen en toepassingen.
 
-![ checkbox ](../assets/checkbox.png) - Beperk toegang tot kaarthoudergegevens volgens bedrijfsvereisten.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - Beperk toegang tot kaarthoudergegevens volgens bedrijfsvereisten.
 
-![ checkbox ](../assets/checkbox.png) - wijs een unieke identiteitskaart aan elke persoon met computertoegang toe.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - wijs een unieke identiteitskaart aan elke persoon met computertoegang toe.
 
-![ checkbox ](../assets/checkbox.png) - Beperk fysieke toegang tot kaarthoudergegevens.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - Beperk fysieke toegang tot kaarthoudergegevens.
 
-![ checkbox ](../assets/checkbox.png) - spoor en controleer alle toegang tot netwerkmiddelen en kaarthoudergegevens.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - spoor en controleer alle toegang tot netwerkmiddelen en kaarthoudergegevens.
 
-![ checkbox ](../assets/checkbox.png) - test regelmatig veiligheidssystemen en processen.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - test regelmatig veiligheidssystemen en processen.
 
-![ checkbox ](../assets/checkbox.png) - handhaaf een beleid dat informatieveiligheid richt.
+![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - handhaaf een beleid dat informatieveiligheid richt.
 
-Om meer te leren, zie [ de Benadering van Adobe aan Naleving PCI ](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Om meer te leren, zie [&#x200B; de Benadering van Adobe aan Naleving PCI &#x200B;](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >Deze inhoud is uitsluitend bedoeld voor informatieve doeleinden en mag niet worden geïnterpreteerd als juridisch advies. Neem contact op met uw juridisch adviseur om te bepalen of en hoe uw bedrijf aan wettelijke verplichtingen moet voldoen.
 
-Naarmate uw bedrijf groeit, moet u mogelijk jaarlijks een compatibiliteitsrapport indienen. PGB-rapportagevereisten nemen toe in verhouding tot het commerciële niveau, maar worden niet toegepast op bedrijven die minder dan 20.000 creditcardtransacties per jaar verwerken. Om meer te leren, bezoek de [ website van de Raad van de Normen van de Veiligheid 0} PCI.](https://www.pcisecuritystandards.org/index.php)
+Naarmate uw bedrijf groeit, moet u mogelijk jaarlijks een compatibiliteitsrapport indienen. PGB-rapportagevereisten nemen toe in verhouding tot het commerciële niveau, maar worden niet toegepast op bedrijven die minder dan 20.000 creditcardtransacties per jaar verwerken. Om meer te leren, bezoek de [&#x200B; website van de Raad van de Normen van de Veiligheid 0&rbrace; PCI.](https://www.pcisecuritystandards.org/index.php)

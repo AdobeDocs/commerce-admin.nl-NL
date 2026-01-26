@@ -14,19 +14,19 @@ ht-degree: 0%
 
 De basisinformatie voor uw winkel omvat de naam en het adres van de winkel, het telefoonnummer en het e-mailadres die worden weergegeven in e-mailberichten, facturen en andere berichten die naar uw klanten worden verzonden.
 
-![ Algemene configuratie - opslagdetails ](./assets/config-general-store-details.png){width="900" zoomable="yes"}
+![&#x200B; Algemene configuratie - opslagdetails &#x200B;](./assets/config-general-store-details.png){width="900" zoomable="yes"}
 
 ## [!UICONTROL Store Information]
 
-De sectie _[!UICONTROL Store Information]_bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
+De sectie _[!UICONTROL Store Information]_&#x200B;bevat de basisinformatie die wordt weergegeven in verkoopdocumenten en in andere communicatie.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies onder **[!UICONTROL General]** in het linkernavigatievenster de optie **[!UICONTROL General]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Store Information]** sectie uit.
 
-   ![ Algemene configuratie - opslaginformatie ](./assets/general-store-information.png){width="700"}
+   ![&#x200B; Algemene configuratie - opslaginformatie &#x200B;](./assets/general-store-information.png){width="700"}
 
 1. Stel de opties in op basis van de gegevens van uw winkel:
 
@@ -44,7 +44,7 @@ De sectie _[!UICONTROL Store Information]_bevat de basisinformatie die wordt wee
 
    - Voer, indien van toepassing, de **[!UICONTROL VAT Number]** van uw winkel in.
 
-     Klik op de knop **[!UICONTROL Validate VAT Number]** om het nummer te controleren. Meer leren, zie [ de bevestiging van identiteitskaart van BTW ](../stores-purchase/vat.md#vat-id-validation).
+     Klik op de knop **[!UICONTROL Validate VAT Number]** om het nummer te controleren. Meer leren, zie [&#x200B; de bevestiging van identiteitskaart van BTW &#x200B;](../stores-purchase/vat.md#vat-id-validation).
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -67,9 +67,9 @@ De landinstelling bepaalt de tijdzone en taal die voor elke winkel worden gebrui
 
 1. Kies **[!UICONTROL General]** onder **[!UICONTROL General]** in het linkernavigatievenster.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Locale Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Locale Options]** sectie uit.
 
-   ![ Algemene configuratie - scèneopties ](./assets/general-locale-options.png){width="700"}
+   ![&#x200B; Algemene configuratie - scèneopties &#x200B;](./assets/general-locale-options.png){width="700"}
 
 1. Selecteer de **[!UICONTROL Timezone]** in de lijst.
 
@@ -85,7 +85,7 @@ De landinstelling bepaalt de tijdzone en taal die voor elke winkel worden gebrui
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-Voor meer informatie over de opties van de scèneconfiguratie, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/general/general.md#locale-options).
+Voor meer informatie over de opties van de scèneconfiguratie, zie de [&#x200B; Gids van de Verwijzing van de Configuratie &#x200B;](../configuration-reference/general/general.md#locale-options).
 
 ## [!UICONTROL State Options]
 
@@ -97,9 +97,9 @@ Omdat de standaardadresformaten van land tot land variëren, kunt u het malplaat
 
 1. Kies onder **[!UICONTROL General]** in het linkernavigatievenster de optie **[!UICONTROL General]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL State Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL State Options]** sectie uit.
 
-   ![ Algemene configuratie - statusopties ](./assets/general-state-options.png){width="700"}
+   ![&#x200B; Algemene configuratie - statusopties &#x200B;](./assets/general-state-options.png){width="700"}
 
 1. Gebruik de lijst **[!UICONTROL State is required for]** om elk land te selecteren waar Regio/Staat een verplicht item is.
 
@@ -111,7 +111,7 @@ Omdat de standaardadresformaten van land tot land variëren, kunt u het malplaat
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-Voor meer informatie over de opties van de staatsconfiguratie, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/general/general.md#state-options).
+Voor meer informatie over de opties van de staatsconfiguratie, zie de [&#x200B; Gids van de Verwijzing van de Configuratie &#x200B;](../configuration-reference/general/general.md#state-options).
 
 ## [!UICONTROL Country Options]
 
@@ -123,13 +123,13 @@ In de landopties wordt het land aangegeven waar uw bedrijf zich bevindt en het l
 
 1. Kies **[!UICONTROL General]** onder **[!UICONTROL General]** in het linkernavigatievenster.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Country Options]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Country Options]** sectie uit.
 
    >[!NOTE]
    >
    >Schakel indien nodig het selectievakje **[!UICONTROL Use system value]** uit voor elke instelling die u wilt wijzigen.
 
-   ![ Algemene configuratie - landmontages ](./assets/general-country-options.png){width="700"}
+   ![&#x200B; Algemene configuratie - landmontages &#x200B;](./assets/general-country-options.png){width="700"}
 
 1. Kies **[!UICONTROL Default Country]** waar uw bedrijf zich bevindt.
 
@@ -149,7 +149,7 @@ In de landopties wordt het land aangegeven waar uw bedrijf zich bevindt en het l
 
 ### Landopties instellen voor specifieke leveringsmethode
 
-U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmethode ](../stores-purchase/delivery.md) (UPS, FedEx, etc.) ook vormen.
+U kunt het verschepen aan specifieke landen voor elke beschikbare [&#x200B; leveringsmethode &#x200B;](../stores-purchase/delivery.md) (UPS, FedEx, etc.) ook vormen.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -161,7 +161,7 @@ U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmet
 
 1. Selecteer in de lijst **[!UICONTROL Top Destinations]** de primaire landen die u als doel voor verzending wilt instellen.
 
-   ![ Voorbeeld om de landopties voor de leveringsmethode van DHL te plaatsen ](./assets/country-options-for-specific-delivery-method.png){width="700"}
+   ![&#x200B; Voorbeeld om de landopties voor de leveringsmethode van DHL te plaatsen &#x200B;](./assets/country-options-for-specific-delivery-method.png){width="700"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -169,35 +169,35 @@ U kunt het verschepen aan specifieke landen voor elke beschikbare [ leveringsmet
 
 Raadpleeg de volgende artikelen in de Support Knowledge Base voor hulp bij het oplossen van problemen met de landconfiguratie: [!DNL Commerce]
 
-- [ hoe te om een land ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html) toe te voegen
+- [&#x200B; hoe te om een land &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html) toe te voegen
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Het plaatsen van de Plaats van de Merchant wordt gebruikt om [ betalingsmethodes ](../stores-purchase/payments.md) te vormen. Als er geen waarde voor dit het plaatsen is, wordt het [ StandaardLand ](#uicontrol-country-options) plaatsen gebruikt.
+Het plaatsen van de Plaats van de Merchant wordt gebruikt om [&#x200B; betalingsmethodes &#x200B;](../stores-purchase/payments.md) te vormen. Als er geen waarde voor dit het plaatsen is, wordt het [&#x200B; StandaardLand &#x200B;](#uicontrol-country-options) plaatsen gebruikt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het navigatievenster aan de linkerkant **[!UICONTROL Sales]** uit en kies **[!UICONTROL Payment Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **Merchant Plaats** sectie en kies uw **[!UICONTROL Merchant Country]**.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **Merchant Plaats** sectie en kies uw **[!UICONTROL Merchant Country]**.
 
-   ![ Merchant Plaats die ](./assets/payment-methods-merchant-location.png){width="600"} plaatst
+   ![&#x200B; Merchant Plaats die &#x200B;](./assets/payment-methods-merchant-location.png){width="600"} plaatst
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
-Voor meer informatie over de configuratieopties van de Methoden van de Betaling, zie de [ Gids van de Verwijzing van de Configuratie ](../configuration-reference/sales/payment-methods.md).
+Voor meer informatie over de configuratieopties van de Methoden van de Betaling, zie de [&#x200B; Gids van de Verwijzing van de Configuratie &#x200B;](../configuration-reference/sales/payment-methods.md).
 
 ## Valuta
 
-De Opstelling van de Valuta - bepaalt de basis [ munt ](../stores-purchase/currency-configuration.md) en om het even welke extra valuta die als betaling worden goedgekeurd. Hiermee stelt u ook de importverbinding en het schema in waarmee de valutakoersen automatisch worden bijgewerkt.
+De Opstelling van de Valuta - bepaalt de basis [&#x200B; munt &#x200B;](../stores-purchase/currency-configuration.md) en om het even welke extra valuta die als betaling worden goedgekeurd. Hiermee stelt u ook de importverbinding en het schema in waarmee de valutakoersen automatisch worden bijgewerkt.
 
-Valutasymbolen - bepaalt de [ muntsymbolen ](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in productprijzen en verkoopdocumenten zoals orden en facturen verschijnen. [!DNL Commerce] ondersteunt valuta&#39;s uit meer dan 200 landen over de hele wereld.
+Valutasymbolen - bepaalt de [&#x200B; muntsymbolen &#x200B;](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in productprijzen en verkoopdocumenten zoals orden en facturen verschijnen. [!DNL Commerce] ondersteunt valuta&#39;s uit meer dan 200 landen over de hele wereld.
 
-Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [ ](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
+Het bijwerken van de Tarieven van de Valuta - de tarieven van de Valuta kunnen [&#x200B; &#x200B;](../stores-purchase/currency-update.md) manueel worden bijgewerkt of in uw opslag worden ingevoerd zoals nodig, of volgens een vooraf bepaald programma.
 
-De Chooser van de Valuta - als de veelvoudige valuta&#39;s beschikbaar zijn, [ muntkiezer ](../stores-purchase/currency.md) is beschikbaar in de kopbal van de opslag.
+De Chooser van de Valuta - als de veelvoudige valuta&#39;s beschikbaar zijn, [&#x200B; muntkiezer &#x200B;](../stores-purchase/currency.md) is beschikbaar in de kopbal van de opslag.
 
 ## [!UICONTROL Store Email Addresses]
 
@@ -215,7 +215,7 @@ Voordat u e-mailadressen voor de winkel kunt configureren, moet u elk adres inst
 
 ### Stap 2: stel de basis-URL in voor gegenereerde koppelingen
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Sommige klant-onder ogen ziet e-mails omvatten verbindingen aan de opslag, zoals die die klanten helpen hun wachtwoorden terugstellen. Om ervoor te zorgen dat de koppelingen naar de winkel goed werken, moet u de basis-URL voor de winkel definiëren.
 
@@ -225,19 +225,19 @@ Sommige klant-onder ogen ziet e-mails omvatten verbindingen aan de opslag, zoals
 
 1. Voer in de sectie **[!UICONTROL Storefront Base URL]** field **[!UICONTROL General]** de basis-URL voor de winkel in, bijvoorbeeld `https://www.example.com/` . De URL moet eindigen met een slash.
 
-   ![ Algemene configuratie - Algemeen ](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+   ![&#x200B; Algemene configuratie - Algemeen &#x200B;](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
 
 ### Stap 3: Vorm de e-mailadressen voor uw opslag
 
-[!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} de e-mailadressen van de Afzender worden gevormd wanneer uw instantie provisioned is. Als u deze adressen moet veranderen, creeer een kaartje van de Steun.
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} de e-mailadressen van de Afzender worden gevormd wanneer uw instantie provisioned is. Als u deze adressen moet veranderen, creeer een kaartje van de Steun.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Kies onder **[!UICONTROL General]** in het linkernavigatievenster de optie **[!UICONTROL Store Email Addresses]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General Contact]** sectie uit en doe het volgende:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General Contact]** sectie uit en doe het volgende:
 
-   ![ Algemene configuratie - opslag e-mailadressen ](./assets/store-email-addresses-general-contact.png){width="600"}
+   ![&#x200B; Algemene configuratie - opslag e-mailadressen &#x200B;](./assets/store-email-addresses-general-contact.png){width="600"}
 
    - Voer bij **[!UICONTROL Sender Name]** de naam in van de persoon die is gekoppeld aan de identiteit Algemene contactpersoon om te worden weergegeven als de afzender van e-mailberichten.
 
@@ -259,11 +259,11 @@ Als u aangepaste e-mailadressen gebruikt, moet u de configuratie van gerelateerd
    - Factuur- en factuuropmerkingen
    - Opmerkingen over verzending en verzending
    - Opmerkingen creditnota en creditnota
-   - RMA, Vergunning RMA, Admin Commentaren van RMA, en de Commentaren van de Klant RMA ![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+   - RMA, Vergunning RMA, Admin Commentaren van RMA, en de Commentaren van de Klant RMA ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 1. Vouw, om te beginnen met **[!UICONTROL Order]**, de sectie voor elk bericht uit en controleer of de juiste afzender is geselecteerd.
 
-   ![ de configuratie van de Verkoop - verkoop e-mails ](./assets/sales-emails-order.png){width="600"}
+   ![&#x200B; de configuratie van de Verkoop - verkoop e-mails &#x200B;](./assets/sales-emails-order.png){width="600"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -275,15 +275,15 @@ De _verbinding van het Contact van ons_ in footer van de opslag is een gemakkeli
 
 Het is belangrijk om te begrijpen dat het standaardformulier Contact opnemen rechtstreeks vanuit code wordt weergegeven in plaats van vanuit een CMS-pagina.
 
-![ Standaard de pagina van het Contact van ons ](./assets/page-contact-us-default.png){width="700"}
+![&#x200B; Standaard de pagina van het Contact van ons &#x200B;](./assets/page-contact-us-default.png){width="700"}
 
 De opslagvoettekst bevat een koppeling naar de pagina Contact opnemen die in de hele winkel beschikbaar is.
 
-![ verbinding van het Contact van ons in footer ](./assets/storefront-footer-contact-us.png){width="700"}
+![&#x200B; verbinding van het Contact van ons in footer &#x200B;](./assets/storefront-footer-contact-us.png){width="700"}
 
 De voorbeeldgegevens van de Luminantie bevatten aanvullende informatie op de pagina Contact opnemen die laat zien hoe u de pagina voor uw winkel kunt aanpassen.
 
-![ de pagina van het Contact van ons ](./assets/storefront-contact-us.png){width="700"}
+![&#x200B; de pagina van het Contact van ons &#x200B;](./assets/storefront-contact-us.png){width="700"}
 
 ### Het contactformulier configureren
 
@@ -291,13 +291,13 @@ De voorbeeldgegevens van de Luminantie bevatten aanvullende informatie op de pag
 
 1. Kies **[!UICONTROL General]** onder **[!UICONTROL Contacts]** in het linkernavigatievenster.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Contact Us]** sectie uit en reeks **[!UICONTROL Enable Contact Us]** aan `Yes`.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Contact Us]** sectie uit en reeks **[!UICONTROL Enable Contact Us]** aan `Yes`.
 
-   ![ Algemene configuratie - contacteer ons ](./assets/contacts-contact-us.png){width="600"}
+   ![&#x200B; Algemene configuratie - contacteer ons &#x200B;](./assets/contacts-contact-us.png){width="600"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Email Options]** sectie uit en plaats de opties van het e-mailcontact:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Email Options]** sectie uit en plaats de opties van het e-mailcontact:
 
-   ![ Algemene configuratie - e-mailopties ](./assets/contacts-email-options.png){width="600"}
+   ![&#x200B; Algemene configuratie - e-mailopties &#x200B;](./assets/contacts-email-options.png){width="600"}
 
    - Voer bij **[!UICONTROL Send Emails to]** het e-mailadres in waarnaar berichten uit het formulier Contact met ons worden verzonden.
 
@@ -313,27 +313,27 @@ U kunt de inhoud in de _vorm van het Contact van ons_ aanpassen om de behoeften 
 
 ### Methode 1: Voorbeeldgegevens gebruiken
 
-De de steekproefgegevens van de Luma omvatten het blok van Info van het a _Contact van het Gebruik_ dat voor uw opslag kan worden aangepast. Het `contact-us-info` [ blok ](../content-design/blocks.md) kan gemakkelijk worden gewijzigd om uw eigen inhoud aan de pagina van het Contact toe te voegen.
+De de steekproefgegevens van de Luma omvatten het blok van Info van het a _Contact van het Gebruik_ dat voor uw opslag kan worden aangepast. Het `contact-us-info` [&#x200B; blok &#x200B;](../content-design/blocks.md) kan gemakkelijk worden gewijzigd om uw eigen inhoud aan de pagina van het Contact toe te voegen.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
 1. Zoek het **[!UICONTROL Contact Us Info]** -blok in de lijst en open in de **[!UICONTROL Edit]** -modus.
 
-   ![ het blok van Info van het Contact van ons ](./assets/content-block-contact-us-info.png){width="700"}
+   ![&#x200B; het blok van Info van het Contact van ons &#x200B;](./assets/content-block-contact-us-info.png){width="700"}
 
 1. Klik onder aan de blokpagina op **[!UICONTROL Edit with Page Builder]** .
 
-   ![ blok van de Inhoud - contacteer ons voorbeeld ](./assets/content-block-contact-us-content.png){width="700"}
+   ![&#x200B; blok van de Inhoud - contacteer ons voorbeeld &#x200B;](./assets/content-block-contact-us-content.png){width="700"}
 
    >[!NOTE]
    >
-   >Als u [[!DNL Page Builder]  gehandicapt ](../page-builder/setup.md#disable-dnl-page-builder) hebt, kunt u de redacteur [ toolbar ](../content-design/editor.md) gebruiken om de tekst te formatteren, en [ beelden ](../content-design/editor-insert-image.md) toe te voegen en [ verbindingen ](../content-design/editor-insert-link.md).
+   >Als u [[!DNL Page Builder]  gehandicapt &#x200B;](../page-builder/setup.md#disable-dnl-page-builder) hebt, kunt u de redacteur [&#x200B; toolbar &#x200B;](../content-design/editor.md) gebruiken om de tekst te formatteren, en [&#x200B; beelden &#x200B;](../content-design/editor-insert-image.md) toe te voegen en [&#x200B; verbindingen &#x200B;](../content-design/editor-insert-link.md).
 
-1. Beweeg over de container van HTML om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](../page-builder/assets/pb-icon-settings.png)).
+1. Beweeg over de container van HTML om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](../page-builder/assets/pb-icon-settings.png)).
 
 1. Bewerk de HTML-code op basis van de contactgegevens van je winkel en klik op **[!UICONTROL Save]** .
 
-   ![ blok van de Inhoud - geef de code van HTML uit ](./assets/content-block-contact-us-html.png){width="700"}
+   ![&#x200B; blok van de Inhoud - geef de code van HTML uit &#x200B;](./assets/content-block-contact-us-html.png){width="700"}
 
 1. Sluit het [!DNL Page Builder] -werkgebied en klik op **[!UICONTROL Save Block]** .
 
@@ -343,4 +343,4 @@ De de steekproefgegevens van de Luma omvatten het blok van Info van het a _Conta
 >
 >Vanaf de release 2.4.0 kan het contactformulier niet meer worden gebeld binnen een CMS-blok of CMS-pagina. Alle aanpassingen van het contactformulier moeten worden uitgevoerd met de indeling xml of aangepaste themasjablonen.
 
-Door gebrek, hebben de kopers toegang tot de contactvorm gebruikend de _verbinding van het Contact_ in footer van de storefront pagina&#39;s. Voor meer informatie over het aanpassen van de contactpagina, verwijs naar de [ Gids van de Ontwikkelaar van het Front ](https://developer.adobe.com/commerce/frontend-core/guide/themes/).
+Door gebrek, hebben de kopers toegang tot de contactvorm gebruikend de _verbinding van het Contact_ in footer van de storefront pagina&#39;s. Voor meer informatie over het aanpassen van de contactpagina, verwijs naar de [&#x200B; Gids van de Ontwikkelaar van het Front &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/themes/).

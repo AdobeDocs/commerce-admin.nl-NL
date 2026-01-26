@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # PayPal-betalingsoplossingen
 
-PayPal is een wereldwijde marktleider op het gebied van online betalingen en een snelle en veilige manier voor uw klanten om online te betalen. De keuze van beschikbare PayPal-oplossingen varieert per bedrijfslocatie. PayPal Express Checkout en PayPal Payments Standard kunnen overal ter wereld worden gebruikt. Meer leren, zie [ oplossingen PayPal door land ](#paypal-solutions-by-country).
+PayPal is een wereldwijde marktleider op het gebied van online betalingen en een snelle en veilige manier voor uw klanten om online te betalen. De keuze van beschikbare PayPal-oplossingen varieert per bedrijfslocatie. PayPal Express Checkout en PayPal Payments Standard kunnen overal ter wereld worden gebruikt. Meer leren, zie [&#x200B; oplossingen PayPal door land &#x200B;](#paypal-solutions-by-country).
 
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, kunnen Europese banken betalingen dalen die niet aan [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Voor de meeste PayPal-oplossingen is geen actie vereist om aan PSD2 te voldoen, omdat deze vereisten door PayPal worden afgehandeld.
+>Vanaf 14 september 2019, kunnen Europese banken betalingen dalen die niet aan [&#x200B; PSD2 &#x200B;](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Voor de meeste PayPal-oplossingen is geen actie vereist om aan PSD2 te voldoen, omdat deze vereisten door PayPal worden afgehandeld.
 
 ## PayPal-zakelijke account
 
-Om PayPal als betalingsmethode in uw opslag aan te bieden, moet u een PayPal [ bedrijfsrekening ](https://manager.paypal.com/) en/of a [ PayPal rekening van de Betalingsstroom hebben ](https://developer.paypal.com/docs/payflow/payflow-gateway/). De accountvereisten worden opgegeven in de beschrijving van elke PayPal-oplossing. Uw PayPal handelsrekening wordt ook gebruikt om het even welke [ fraudefilters ](#paypal-fraud-management-filters) te beheren die op aankopen worden toegepast die van uw opslag worden gemaakt.
+Om PayPal als betalingsmethode in uw opslag aan te bieden, moet u een PayPal [&#x200B; bedrijfsrekening &#x200B;](https://manager.paypal.com/) en/of a [&#x200B; PayPal rekening van de Betalingsstroom hebben &#x200B;](https://developer.paypal.com/docs/payflow/payflow-gateway/). De accountvereisten worden opgegeven in de beschrijving van elke PayPal-oplossing. Uw PayPal handelsrekening wordt ook gebruikt om het even welke [&#x200B; fraudefilters &#x200B;](#paypal-fraud-management-filters) te beheren die op aankopen worden toegepast die van uw opslag worden gemaakt.
 
 Klanten die PayPal Express Checkout of Express Checkout gebruiken voor Payflow Pro, moeten een PayPal-kopersaccount hebben. De Betalingsstandaard van PayPal (de Norm van de Betalingen van de Website in sommige landen) kan direct of door een kopersrekening worden gebruikt wanneer dat de handelaar _Facultatieve Rekening van PayPal_ toelaat. Deze parameter is standaard ingeschakeld, zodat klanten hun creditcardgegevens kunnen invoeren of een kopersaccount kunnen maken met PayPal. Als deze optie is uitgeschakeld, moeten klanten eerst een PayPal-kopersaccount maken voordat ze een aankoop doen.
 
@@ -30,7 +30,7 @@ Voor Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gat
 
 ## PayPal-creditering en PayPalLater
 
-PayPal PayPal biedt uw klanten snel toegang tot financiering, zodat ze nu kunnen kopen en op tijd kunnen betalen, zonder extra kosten voor u. Er wordt geen bedrag in rekening gebracht wanneer klanten PayPal-kredietopties kiezen en alleen de normale PayPal-transactiekosten betalen. Meer leren, zie de [ website PayPal ](https://www.paypal.com/us/business/buy-now-pay-later).
+PayPal PayPal biedt uw klanten snel toegang tot financiering, zodat ze nu kunnen kopen en op tijd kunnen betalen, zonder extra kosten voor u. Er wordt geen bedrag in rekening gebracht wanneer klanten PayPal-kredietopties kiezen en alleen de normale PayPal-transactiekosten betalen. Meer leren, zie de [&#x200B; website PayPal &#x200B;](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Geef je verkoop een boost wanneer je adverteert met financiering. Met PayPal kun je browsers omzetten in kopers met financiering via PayPal PayPal Later. Uw klanten kunnen in de loop der tijd betalen, terwijl u vooraf betaald wordt, zonder extra kosten voor u. Gebruik gratis PayPal-banneradvertenties om PayPal-financiering als betalingsoptie te adverteren wanneer uw klanten zich afmelden met PayPal. Het is aangetoond dat het PayPal Advertising-programma extra aankopen genereert en de gemiddelde aankoopgrootte met 15% of meer verhoogt.
 
@@ -40,7 +40,7 @@ U kunt vrije, kant-en-klare banneradvertenties aan pagina&#39;s van uw plaats en
 >
 >Vanaf de release 2.4.3 wordt PayPal PayLater ondersteund in implementaties die PayPal bevatten. Met deze functie kunnen kopers een bestelling in tweewekelijkse termijnen betalen in plaats van het volledige bedrag op het moment van aankoop te betalen. De PayPal-ervaring is afgekeurd.
 
-Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de [ betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal ](paypal-express-checkout.md). Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [ Uitdrukkelijke configuratie van de Controle van PayPal ](paypal-express-checkout.md#features).
+Voor de handelaren van de V.S., wordt het Krediet van PayPal toegelaten door gebrek voor de [&#x200B; betalingsoptie van de Uitdrukkelijke Afhandeling van PayPal &#x200B;](paypal-express-checkout.md). Om het voor deze betalingsmethode onbruikbaar te maken, zie de _sectie van Eigenschappen_ van [&#x200B; Uitdrukkelijke configuratie van de Controle van PayPal &#x200B;](paypal-express-checkout.md#features).
 
 PayPal-krediet is standaard uitgeschakeld voor de andere PayPal-betalingsoplossingen, maar kan in de configuratie van de betalingsmethode worden ingeschakeld voor ondersteunende oplossingen:
 
@@ -74,7 +74,7 @@ In de Verenigde Staten biedt PayPal de volgende PCI-compatibele oplossingen om a
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
-![ PayPal alle-in-één betalingsoplossingen ](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![&#x200B; PayPal alle-in-één betalingsoplossingen &#x200B;](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal-betalingsgateways
 
@@ -94,16 +94,16 @@ PayPal biedt een keuze uit twee betaalgatewayoplossingen voor uw bedrijf. U kunt
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal Payflow Link](paypal-payflow-link.md)
 
-![ de betaalgateways van de Opstelling PayPal ](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
+![&#x200B; de betaalgateways van de Opstelling PayPal &#x200B;](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
 
 ## Paypal-filters voor fraudebeheer
 
-Met PayPal-filters voor fraudebeheer is het gemakkelijker om frauduleuze transacties op te sporen en erop te reageren. Deze filters kunnen worden geconfigureerd om risicovollere betalingen te markeren, te bewaren voor controle of te weigeren. De acties met betrekking tot de status van de Commerce [ orde ](order-status.md) waarden veranderden volgens de montages van de fraudefilter:
+Met PayPal-filters voor fraudebeheer is het gemakkelijker om frauduleuze transacties op te sporen en erop te reageren. Deze filters kunnen worden geconfigureerd om risicovollere betalingen te markeren, te bewaren voor controle of te weigeren. De acties met betrekking tot de status van de Commerce [&#x200B; orde &#x200B;](order-status.md) waarden veranderden volgens de montages van de fraudefilter:
 
 | Handeling | Resultaat |
 | --- | --- |
 | [!UICONTROL Review] | De verdachte orde ontvangt de status _Controle van de Betaling_ wanneer de orde wordt geplaatst. U kunt de bestelling bekijken en goedkeuren of de betaling annuleren in de beheerfunctie of op de PayPal-zijde. Wanneer u op **[!UICONTROL Accept Payment]** of **[!UICONTROL Deny Payment]** klikt, worden er geen nieuwe transacties voor de volgorde gemaakt. <br/><br/> als u de status van de transactie op de plaats PayPal verandert, moet u **[!UICONTROL Get Payment Update]** in de pagina van de Orde van Admin klikken om de veranderingen toe te passen. Als u op **[!UICONTROL Accept Payment]** of **[!UICONTROL Deny Payment]** klikt, worden de wijzigingen toegepast die op de Paypal-site zijn aangebracht. |
-| [!UICONTROL Deny] | De verdachte bestelling kan niet door de klant worden geplaatst, omdat de bijbehorende transactie door PayPal wordt geweigerd. <br/><br/> om de betaling van Admin te ontkennen, klik **[!UICONTROL Deny Payment]** in de hoger-juiste hoek van de pagina. De orderstatus verandert in `Canceled` , de transactie wordt teruggedraaid en er worden middelen vrijgemaakt op de klantenaccount. De bijbehorende informatie wordt toegevoegd in de sectie _[!UICONTROL Comments History]_van de ordeweergave. |
+| [!UICONTROL Deny] | De verdachte bestelling kan niet door de klant worden geplaatst, omdat de bijbehorende transactie door PayPal wordt geweigerd. <br/><br/> om de betaling van Admin te ontkennen, klik **[!UICONTROL Deny Payment]** in de hoger-juiste hoek van de pagina. De orderstatus verandert in `Canceled` , de transactie wordt teruggedraaid en er worden middelen vrijgemaakt op de klantenaccount. De bijbehorende informatie wordt toegevoegd in de sectie _[!UICONTROL Comments History]_&#x200B;van de ordeweergave. |
 | [!UICONTROL Flag] | De vermoedelijke volgorde krijgt de status `Processing` wanneer deze wordt geplaatst. De corresponderende transactie wordt gemarkeerd met een vlag in de lijst van handelstransacties. |
 
 {style="table-layout:auto"}

@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Een creditmemo uitgeven
 
-Alvorens een creditmemo kan worden gedrukt, moet het eerst voor een [ gefactureerde orde ](invoices.md#create-an-invoice) worden geproduceerd. Afhankelijk van de betalingsmethode kunt u zowel online als offline terugbetalingen (gedeeltelijk of volledig) uitvoeren vanuit een open creditnota.
+Alvorens een creditmemo kan worden gedrukt, moet het eerst voor een [&#x200B; gefactureerde orde &#x200B;](invoices.md#create-an-invoice) worden geproduceerd. Afhankelijk van de betalingsmethode kunt u zowel online als offline terugbetalingen (gedeeltelijk of volledig) uitvoeren vanuit een open creditnota.
 
-- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Terugbetalingen kunnen worden toegepast om krediet op te slaan.
-- ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) Terugbetalingen kan op bedrijfskrediet worden toegepast.
+- ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Terugbetalingen kunnen worden toegepast om krediet op te slaan.
+- ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) Terugbetalingen kan op bedrijfskrediet worden toegepast.
 - Aankopen met een creditcard kunnen online of offline worden terugbetaald.
 - Aankopen via cheque of postwissel moeten offline worden terugbetaald.
 
-Om het even welk creditmemo met een [ open status ](order-status.md) heeft een opmerkelijke verschuldigde terugbetaling.
+Om het even welk creditmemo met een [&#x200B; open status &#x200B;](order-status.md) heeft een opmerkelijke verschuldigde terugbetaling.
 
 Met creditmemo&#39;s kunt u:
 
@@ -29,46 +29,46 @@ Met creditmemo&#39;s kunt u:
 - Terugbetaling van meerdere facturen per bestelling, waarbij het totale orderbedrag niet mag worden overschreden.
 - Een deel van de hoeveelheid voor één lijnitem terugbetalen, zoals drie van de vijf overhemden in een bestelling.
 
-Zie [ een factuur ](invoices.md#create-an-invoice) voor meer informatie creëren.
+Zie [&#x200B; een factuur &#x200B;](invoices.md#create-an-invoice) voor meer informatie creëren.
 
 ## Instelling betalingsactie
 
-Het terugbetalingswerkschema voor orden die door creditcard worden betaald wordt bepaald door [ het plaatsen van de Actie van de Betaling ](../configuration-reference/sales/payment-methods.md#payment-actions) in de configuratie voor elke beschikbare betalingsmethode. Terugbetalingen kunnen pas worden verricht nadat de transactie is afgewikkeld.
+Het terugbetalingswerkschema voor orden die door creditcard worden betaald wordt bepaald door [&#x200B; het plaatsen van de Actie van de Betaling &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) in de configuratie voor elke beschikbare betalingsmethode. Terugbetalingen kunnen pas worden verricht nadat de transactie is afgewikkeld.
 
-![ het plaatsen van de Actie van de Betaling ](./assets/payment-action-setting.png){width="600" zoomable="yes"}
+![&#x200B; het plaatsen van de Actie van de Betaling &#x200B;](./assets/payment-action-setting.png){width="600" zoomable="yes"}
 
 - Als de betalingsactie voor de geconfigureerde betalingsmethode is ingesteld op `Authorize` , moet u eerst de factuur genereren via de beheerder voordat een creditcard kan worden gemaakt.
 - Als de betalingsactie voor de geconfigureerde betalingsmethode is ingesteld op `Authorize and Capture`, is de factuur al gegenereerd door de betalingsprocessor, maar zijn de geldmiddelen pas beschikbaar wanneer de transactie is afgewikkeld. Deze korte wachttijd wordt door veel betalingsverwerkers als een beveiligingsmaatregel aanbevolen en kan doorgaans automatisch worden afgehandeld. Transacties kunnen ook handmatig worden afgewikkeld via uw zakelijke rekening bij de betalingsprocessor.
-- ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) als u een creditnota voor een orde creeert die cadeauopties omvat, verschijnt de terugbetaling voor het cadeau verpakken en/of de gedrukte kaart in de sectie van de Totalen van de Terugbetaling van het creditmemo. Als u deze kosten wilt uitsluiten van het terug te betalen bedrag, voert u het bedrag in als een aanpassingsvergoeding. Als er meerdere creditnota&#39;s voor dezelfde bestelling worden uitgegeven, wordt de terugbetaling voor cadeauopties alleen in de eerste creditnota weergegeven.
+- ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) als u een creditnota voor een orde creeert die cadeauopties omvat, verschijnt de terugbetaling voor het cadeau verpakken en/of de gedrukte kaart in de sectie van de Totalen van de Terugbetaling van het creditmemo. Als u deze kosten wilt uitsluiten van het terug te betalen bedrag, voert u het bedrag in als een aanpassingsvergoeding. Als er meerdere creditnota&#39;s voor dezelfde bestelling worden uitgegeven, wordt de terugbetaling voor cadeauopties alleen in de eerste creditnota weergegeven.
 
 ## Een creditmemo maken
 
-Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#issue-a-refund-for-a-credit-purchase) of voor [ controle of geldorde ](#issue-an-offline-refund-for-check-or-money-order)-en produceren het creditnota en geven een teruggave uit.
+Bepaal het type van teruggave dat u wilt uitgeven-voor a [&#x200B; kredietaankoop &#x200B;](#issue-a-refund-for-a-credit-purchase) of voor [&#x200B; controle of geldorde &#x200B;](#issue-an-offline-refund-for-check-or-money-order)-en produceren het creditnota en geven een teruggave uit.
 
 ### Een terugbetaling voor een aankoop van een krediet uitgeven
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-   ![ het net van Orden ](./assets/orders-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; het net van Orden &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 1. Zoek de volgorde in het raster en klik op **[!UICONTROL View]** .
 
-1. Als de knop _[!UICONTROL Credit Memo]_zichtbaar is in de knopbalk, voert u een van de volgende handelingen uit:
+1. Als de knop _[!UICONTROL Credit Memo]_&#x200B;zichtbaar is in de knopbalk, voert u een van de volgende handelingen uit:
 
    - Ga naar stap 6 als u een `offline` restitutie wilt uitgeven.
    - Ga verder met stap 4 als u een `online` restitutie wilt uitgeven.
 
-   Zie [ Memo&#39;s van het Krediet ](credit-memos.md) voor meer informatie over off-line en online terugbetalingen.
+   Zie [&#x200B; Memo&#39;s van het Krediet &#x200B;](credit-memos.md) voor meer informatie over off-line en online terugbetalingen.
 
 1. Klik op **[!UICONTROL Invoices]** in het linkerdeelvenster.
 
 1. Zoek de factuur in het raster en klik op **[!UICONTROL View]** .
 
-   ![ het net van Facturen ](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; het net van Facturen &#x200B;](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
 
 1. Blader omlaag naar de sectie **[!UICONTROL Invoice Totals]** van de factuur, controleer of de factuur is ingesteld op `Capture Online` en klik op **[!UICONTROL Submit Invoice]** .
 
-   ![ Vangst online ](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
+   ![&#x200B; Vangst online &#x200B;](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
 
    Als deze optie niet beschikbaar is, wordt de factuur al gemaakt. Ga verder met de volgende stap.
 
@@ -78,11 +78,11 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
    - Schakel het selectievakje **[!UICONTROL Return to Stock]** in als u het product weer wilt inventariseren.
 
-     Het product keert automatisch terug naar voorraad als _de Opties van de Voorraad van het Product_ aan `Automatically Return Credit Memo Item to Stock` wordt geplaatst. Met [ toegelaten Inventory management ](../inventory-management/enable.md), keert het punt aan de bron terug die de verzending verzond.
+     Het product keert automatisch terug naar voorraad als _de Opties van de Voorraad van het Product_ aan `Automatically Return Credit Memo Item to Stock` wordt geplaatst. Met [&#x200B; toegelaten Inventory management &#x200B;](../inventory-management/enable.md), keert het punt aan de bron terug die de verzending verzond.
 
    - Werk **[!UICONTROL Qty to Refund]** bij en klik op **[!UICONTROL Update Qty's]** .
 
-     ![ Punten aan Terugbetaling ](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
+     ![&#x200B; Punten aan Terugbetaling &#x200B;](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
 1. Werk de sectie **[!UICONTROL Refunds Totals]** als volgt bij:
 
@@ -106,19 +106,19 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
 1. Voer de volgende handelingen uit, indien van toepassing:
 
-   - ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) om het bedrag aan het de opslagkrediet van de klant terug te betalen, selecteer **[!UICONTROL Refund to Store Credit]** checkbox.
+   - ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) om het bedrag aan het de opslagkrediet van de klant terug te betalen, selecteer **[!UICONTROL Refund to Store Credit]** checkbox.
 
-   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) om het bedrag aan het bedrijfskrediet van de klant terug te betalen, selecteer **[!UICONTROL Refund to Company Credit]** checkbox.
+   - ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) om het bedrag aan het bedrijfskrediet van de klant terug te betalen, selecteer **[!UICONTROL Refund to Company Credit]** checkbox.
 
    - Klik op **[!UICONTROL Refund Offline]** om een offline restitutie uit te geven.
 
    - Klik op **[!UICONTROL Refund]** om een onlinerestitutie uit te voeren.
 
-   - ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) als de aankoop met bedrijfskrediet werd betaald, klik **[!UICONTROL Refund to Company Credit]**.
+   - ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) als de aankoop met bedrijfskrediet werd betaald, klik **[!UICONTROL Refund to Company Credit]**.
 
-   Zie [ Memo&#39;s van het Krediet ](credit-memos.md) voor meer informatie over off-line en online terugbetalingen.
+   Zie [&#x200B; Memo&#39;s van het Krediet &#x200B;](credit-memos.md) voor meer informatie over off-line en online terugbetalingen.
 
-   ![ totale teruggave van de Orde ](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
+   ![&#x200B; totale teruggave van de Orde &#x200B;](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
 ### Een offline terugbetaling voor cheque of postwissel afgeven
 
@@ -132,15 +132,15 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
 1. Klik op **[!UICONTROL Credit Memo]** in de knopbalk boven aan de factuur.
 
-   ![ creeer creditmemo ](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer creditmemo &#x200B;](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
 
 1. Controleer de gegevens in de sectie **[!UICONTROL Items to Refund]** en voer de volgende handelingen uit, indien van toepassing:
 
-   ![ Punten aan Terugbetaling ](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
+   ![&#x200B; Punten aan Terugbetaling &#x200B;](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
    - Schakel het selectievakje **[!UICONTROL Return to Stock]** in als u het geretourneerde product wilt retourneren aan de voorraad.
 
-     Als Inventory management is ingeschakeld, wordt de voorraadhoeveelheid geretourneerd naar de bron die de verzending heeft verzonden. Het product keert automatisch terug naar voorraad als [ de Opties van de Voorraad van het Product ](../inventory-management/enable.md) aan `Automatically Return Credit Memo Item to Stock` wordt geplaatst.
+     Als Inventory management is ingeschakeld, wordt de voorraadhoeveelheid geretourneerd naar de bron die de verzending heeft verzonden. Het product keert automatisch terug naar voorraad als [&#x200B; de Opties van de Voorraad van het Product &#x200B;](../inventory-management/enable.md) aan `Automatically Return Credit Memo Item to Stock` wordt geplaatst.
 
    - Werk **[!UICONTROL Qty to Refund]** bij en klik **[!UICONTROL Update Qty's]**.
 
@@ -170,7 +170,7 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
      De status van een kennisgeving van een creditnota wordt weergegeven in de voltooide creditnota naast het nummer van de creditnota.
 
-     ![ Terugbetaalde Totalen ](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
+     ![&#x200B; Terugbetaalde Totalen &#x200B;](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Refund Offline]** om het proces te voltooien en de restitutie uit te geven.
 
@@ -195,7 +195,7 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 | [!UICONTROL Customer Name] | De naam van de klant of koper die de bestelling heeft geplaatst. De naam van de klant is gekoppeld aan het profiel van de klant. |
 | [!UICONTROL Email] | Het e-mailadres van de klant of koper. Het e-mailadres is gekoppeld aan een nieuw e-mailbericht. |
 | [!UICONTROL Customer Group] | De naam van de klantengroep of gedeelde catalogus waaraan de klant is toegewezen. |
-| [!UICONTROL Company Name] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De naam van het bedrijf verbonden aan de koper, en namens wie de orde wordt geplaatst. De bedrijfsnaam is gekoppeld aan het bedrijfsprofiel. |
+| [!UICONTROL Company Name] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) De naam van het bedrijf verbonden aan de koper, en namens wie de orde wordt geplaatst. De bedrijfsnaam is gekoppeld aan het bedrijfsprofiel. |
 
 {style="table-layout:auto"}
 
@@ -203,7 +203,7 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Billing Address] | De naam van de klant of de koper die de orde plaatste, die door het het factureren adres, telefoonnummer, en [ BTW ](vat.md) wordt gevolgd, als toepasselijk. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
+| [!UICONTROL Billing Address] | De naam van de klant of de koper die de orde plaatste, die door het het factureren adres, telefoonnummer, en [&#x200B; BTW &#x200B;](vat.md) wordt gevolgd, als toepasselijk. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
 | [!UICONTROL Shipping Address] | De naam van de persoon onder wiens aandacht de bestelling moet worden verzonden, gevolgd door het verzendadres en telefoonnummer. Het telefoonnummer is gekoppeld aan een autowijzerplaat op een mobiel apparaat. |
 
 {style="table-layout:auto"}
@@ -212,7 +212,7 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Payment Information] | De wijze van betaling die voor de order moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die voor de order is gebruikt. Als de orde aan bedrijfskrediet gebruikend [ Betaling op Rekening ](../b2b/enable-basic-features.md#configure-payment-on-account) in rekening wordt gebracht, wordt het bedrag dat aan de rekening in rekening wordt gebracht vermeld. |
+| [!UICONTROL Payment Information] | De wijze van betaling die voor de order moet worden gebruikt, en het inkoopordernummer, indien van toepassing, gevolgd door de valuta die voor de order is gebruikt. Als de orde aan bedrijfskrediet gebruikend [&#x200B; Betaling op Rekening &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) in rekening wordt gebracht, wordt het bedrag dat aan de rekening in rekening wordt gebracht vermeld. |
 | [!UICONTROL Shipping & Handling Information] | De te gebruiken verzendmethode en eventuele verpakkingskosten. |
 
 {style="table-layout:auto"}
@@ -253,8 +253,8 @@ Bepaal het type van teruggave dat u wilt uitgeven-voor a [ kredietaankoop ](#iss
 | [!UICONTROL Grand Total] | Totaal terug te betalen bedrag |
 | [!UICONTROL Append Comments] | Selectievakje dat bepaalt of opmerkingen in de creditnota worden opgenomen. |
 | [!UICONTROL Email Copy of Credit Memo] | Selectievakje dat bepaalt of een kopie van het creditmemo per e-mail wordt verzonden. |
-| [!UICONTROL Refund to Store Credit] | ![ Adobe Commerce ](../assets/adobe-logo.svg) (Adobe Commerce slechts) Checkbox die bepaalt als het totaal aan [ opslagkrediet ](../customers/store-credit-using.md) moet worden terugbetaald. |
-| [!UICONTROL Subtotal] | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) het totaal van alle lijnpunten die moeten worden terugbetaald. |
+| [!UICONTROL Refund to Store Credit] | ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (Adobe Commerce slechts) Checkbox die bepaalt als het totaal aan [&#x200B; opslagkrediet &#x200B;](../customers/store-credit-using.md) moet worden terugbetaald. |
+| [!UICONTROL Subtotal] | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) het totaal van alle lijnpunten die moeten worden terugbetaald. |
 
 {style="table-layout:auto"}
 
@@ -266,13 +266,13 @@ De betalingsmethode die voor de bestelling wordt gebruikt, bepaalt de terugbetal
 |--- |--- |
 | **[!UICONTROL Refund]** | Als de oorspronkelijke aankoop via een creditcard is betaald via een betaalgateway, wordt het restitutiebedrag beheerd door de betalingsverwerker. Raadpleeg de documentatie van uw betalingsprovider voor informatie over het beheer van terugbetalingen. |
 | **[!UICONTROL Refund Offline]** | Als de oorspronkelijke aankoop per cheque of postwissel is betaald, wordt de terugbetaling rechtstreeks aan de klant betaald door een cheque, cadeaukaart of contant geld uit te geven als u een baksteen- en mortierwinkel hebt. De creditnota dient als een overzicht van de offlinetransactie. |
-| **[!UICONTROL Refund to Company Credit]** | ![ Adobe Commerce B2B ](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) als de aankoop aan bedrijfskrediet in rekening werd gebracht, is de teruggave teruggekeerd aan de [ Rekening van het Bedrijf ](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) (Beschikbaar met Adobe Commerce B2B) als de aankoop aan bedrijfskrediet in rekening werd gebracht, is de teruggave teruggekeerd aan de [&#x200B; Rekening van het Bedrijf &#x200B;](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 
 ## Een creditmemo afdrukken
 
-Als u het ingevulde creditmemo wilt afdrukken of bekijken, moet er een PDF-lezer zijn geïnstalleerd. U kunt [ Lezer van Adobe ](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader ophalen") tegen geen kosten downloaden.
+Als u het ingevulde creditmemo wilt afdrukken of bekijken, moet er een PDF-lezer zijn geïnstalleerd. U kunt [&#x200B; Lezer van Adobe &#x200B;](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader ophalen") tegen geen kosten downloaden.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
@@ -284,7 +284,7 @@ Als u het ingevulde creditmemo wilt afdrukken of bekijken, moet er een PDF-lezer
 
 1. Klik op **[!UICONTROL Print]**.
 
-   ![ Druk het creditmemo ](./assets/credit-memo-print.png){width="600" zoomable="yes"}
+   ![&#x200B; Druk het creditmemo &#x200B;](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 
 ### Methode 2: Meerdere creditnota&#39;s afdrukken
 
@@ -292,7 +292,7 @@ Als u het ingevulde creditmemo wilt afdrukken of bekijken, moet er een PDF-lezer
 
 1. Stel het besturingselement **[!UICONTROL Actions]** in op `PDF Credit Memos` en klik op **[!UICONTROL Submit]** .
 
-   ![ Druk geselecteerde creditnota&#39;s ](./assets/credit-memos-print.png){width="600" zoomable="yes"} af
+   ![&#x200B; Druk geselecteerde creditnota&#39;s &#x200B;](./assets/credit-memos-print.png){width="600" zoomable="yes"} af
 
 1. Voer een van de volgende handelingen uit wanneer u hierom wordt gevraagd:
 

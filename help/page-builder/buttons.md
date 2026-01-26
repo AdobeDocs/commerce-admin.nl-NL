@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Elements - Knoppen
 
-Gebruik het _inhoudstype van Knopen_ om of een individuele knoop of een reeks knopen in het [[!DNL Page Builder]  stadium ](workspace.md#stage) toe te voegen. U kunt knoppen horizontaal of verticaal rangschikken en rechtstreeks toevoegen aan rijen, kolommen, tabbladen en banners in het werkgebied.
+Gebruik het _inhoudstype van Knopen_ om of een individuele knoop of een reeks knopen in het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) toe te voegen. U kunt knoppen horizontaal of verticaal rangschikken en rechtstreeks toevoegen aan rijen, kolommen, tabbladen en banners in het werkgebied.
 
-![ Banner met een knoop op de storefront ](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
+![&#x200B; Banner met een knoop op de storefront &#x200B;](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,30 +24,30 @@ Wanneer u met het inhoudstype Knoppen werkt, voegt u afzonderlijke knoppen en de
 
 ### Afzonderlijke knopgereedschapset
 
-![ toolbox van de Knoop ](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
+![&#x200B; toolbox van de Knoop &#x200B;](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | -------- | -------------- |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Knop Bewerken, waar u de eigenschappen van de knop kunt wijzigen. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de knop. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de knop uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Knop Bewerken, waar u de eigenschappen van de knop kunt wijzigen. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de knop. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de knop uit het werkgebied. |
 
 {style="table-layout:auto"}
 
 ### Knoppencontainer, gereedschapset
 
-![ de containertoolbox van Knopen ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+![&#x200B; de containertoolbox van Knopen &#x200B;](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ----------------- | ----------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de knopcontainer naar een andere geldige plaats op de pagina. |
-| Toevoegen | ![ voeg pictogram ](./assets/pb-icon-add-button.png){width="25"} toe | Hiermee voegt u een knop aan de container toe. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Verplaatst de knopcontainer naar een andere geldige plaats op de pagina. |
+| Toevoegen | ![&#x200B; voeg pictogram &#x200B;](./assets/pb-icon-add-button.png){width="25"} toe | Hiermee voegt u een knop aan de container toe. |
 | (label) | Knop | Identificeert de huidige container als een knopelement. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Knoppen bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de knopcontainer. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen knopcontainer weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de knopcontainer. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de knopcontainer en de inhoud ervan uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina Knoppen bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Verbergt de knopcontainer. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen knopcontainer weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de knopcontainer. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de knopcontainer en de inhoud ervan uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -57,13 +57,13 @@ Wanneer u met het inhoudstype Knoppen werkt, voegt u afzonderlijke knoppen en de
 
 1. Vouw in het deelvenster [!DNL Page Builder] **[!UICONTROL Elements]** uit en sleep een tijdelijke aanduiding **[!UICONTROL Buttons]** naar een rij, kolom of tabset in het werkgebied.
 
-   ![ slepend een knoop aan het stadium ](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
+   ![&#x200B; slepend een knoop aan het stadium &#x200B;](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Beweeg over de knoop om toolbox te tonen en het _pictogram van Montages_ te kiezen (![ pictogram van Montages ](./assets/pb-icon-settings.png)).
+1. Beweeg over de knoop om toolbox te tonen en het _pictogram van Montages_ te kiezen (![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png)).
 
 1. Voer de **[!UICONTROL Button Text]** in die op de knop moet worden weergegeven.
 
-   ![ Basisknoopmontages ](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
+   ![&#x200B; Basisknoopmontages &#x200B;](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Button Type]** in op een van de volgende opties:
 
@@ -75,7 +75,7 @@ Wanneer u met het inhoudstype Knoppen werkt, voegt u afzonderlijke knoppen en de
 
    {style="table-layout:auto"}
 
-   ![ Primair en secundair knoopvoorbeeld ](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
+   ![&#x200B; Primair en secundair knoopvoorbeeld &#x200B;](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
 
 1. Stel de **[!UICONTROL Button Link]** in met een van de volgende typen:
 
@@ -95,19 +95,19 @@ Wanneer u met het inhoudstype Knoppen werkt, voegt u afzonderlijke knoppen en de
 
      >[!NOTE]
      >
-     >De producten worden getoond in de lijst volgens _toon uit voorraadproducten_ montages. Voor de Multicamakers van Source die [ Inventory management ](../inventory-management/introduction.md) gebruiken, wordt de productlijst beperkt door de bron die aan de standaardwebsite slechts wordt toegewezen.
+     >De producten worden getoond in de lijst volgens _toon uit voorraadproducten_ montages. Voor de Multicamakers van Source die [&#x200B; Inventory management &#x200B;](../inventory-management/introduction.md) gebruiken, wordt de productlijst beperkt door de bron die aan de standaardwebsite slechts wordt toegewezen.
 
-     ![ Kiekend een product voor de knoopverbinding ](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
+     ![&#x200B; Kiekend een product voor de knoopverbinding &#x200B;](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Voer een categorienaam in (gedeeltelijk of volledig) of klik in het lege veld om de categoriestructuur weer te geven. Kies vervolgens de categorienaam in de structuur.
 
-     ![ Kiekend een categorie voor de knoopverbinding ](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
+     ![&#x200B; Kiekend een categorie voor de knoopverbinding &#x200B;](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** - Voer de naam van een CMS-pagina in (gedeeltelijk of volledig) of klik in het lege veld om de volledige lijst weer te geven. Kies vervolgens de naam van de pagina in de lijst met zoekresultaten.
 
-     ![ kies CMS pagina voor knoopverbinding ](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![&#x200B; kies CMS pagina voor knoopverbinding &#x200B;](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Voltooi de [ geavanceerde montages ](#change-advanced-settings) zoals nodig.
+1. Voltooi de [&#x200B; geavanceerde montages &#x200B;](#change-advanced-settings) zoals nodig.
 
 1. Klik na afloop op **[!UICONTROL Save]** in de rechterbovenhoek om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -117,39 +117,39 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
 ### Stap 1: De tweede knop maken
 
-1. Beweeg over de knoopcontainer om toolbox te tonen en _te kiezen voeg_ toe ( ![ voeg pictogram ](./assets/pb-icon-add-button.png){width="20"} toe) pictogram.
+1. Beweeg over de knoopcontainer om toolbox te tonen en _te kiezen voeg_ toe ( ![&#x200B; voeg pictogram &#x200B;](./assets/pb-icon-add-button.png){width="20"} toe) pictogram.
 
-   ![ Toevoegend een andere knoop ](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
+   ![&#x200B; Toevoegend een andere knoop &#x200B;](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Voer de tekst in die u op de tweede knop wilt weergeven.
 
-1. Klik de nieuwe knoop om zijn toolbox te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de nieuwe knoop om zijn toolbox te tonen en het _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ Uitgevend de knoop ](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; Uitgevend de knoop &#x200B;](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
 1. Stel **[!UICONTROL Button Type]** in op `Secondary` .
 
 1. Stel de **[!UICONTROL Button Link]** naar wens in.
 
-   In het volgende voorbeeld, is de verbinding een relatieve URL die naar de [ pagina van het Contact van ons ](../getting-started/store-details.md#contact-us-form) gaat.
+   In het volgende voorbeeld, is de verbinding een relatieve URL die naar de [&#x200B; pagina van het Contact van ons &#x200B;](../getting-started/store-details.md#contact-us-form) gaat.
 
-   ![ de knoopmontages van het Contact van ons ](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de knoopmontages van het Contact van ons &#x200B;](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Voltooi de [ geavanceerde montages ](#change-advanced-settings) zoals nodig.
+1. Voltooi de [&#x200B; geavanceerde montages &#x200B;](#change-advanced-settings) zoals nodig.
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
 ### Stap 2: De derde knop maken
 
-1. Klik opnieuw de tweede knoop op het stadium en kies _Dupliceer_ ( ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
+1. Klik opnieuw de tweede knoop op het stadium en kies _Dupliceer_ ( ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="20"}) pictogram.
 
-   ![ Duplicerend een knoop ](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
+   ![&#x200B; Duplicerend een knoop &#x200B;](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
 
 1. Voer de tekst in die u op de derde knop wilt weergeven.
 
-1. Klik de derde knoop om toolbox te tonen en het _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de derde knoop om toolbox te tonen en het _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ Toolbox voor de derde knoop ](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; Toolbox voor de derde knoop &#x200B;](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
 
 1. Werk de **[!UICONTROL Button Link]** zo nodig bij.
 
@@ -157,37 +157,37 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
 ### Stap 3: De knopcontainer bijwerken
 
-1. Beweeg over de knoopcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de knoopcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ de containertoolbox van Knopen ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; de containertoolbox van Knopen &#x200B;](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Kies onder _[!UICONTROL Appearance]_de optie **[!UICONTROL Stacked]**.
+1. Kies onder _[!UICONTROL Appearance]_&#x200B;de optie **[!UICONTROL Stacked]**.
 
 1. Stel **[!UICONTROL All Buttons are same size]** in op `Yes` .
 
-   ![ Gestapelde knopen van de zelfde grootte ](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
+   ![&#x200B; Gestapelde knopen van de zelfde grootte &#x200B;](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Werk de resterende montages zoals nodig bij, gebruikend de beschrijvingen van [ montages van de Verandering voor een knoopcontainer ](#change-settings-for-a-button-container).
+1. Werk de resterende montages zoals nodig bij, gebruikend de beschrijvingen van [&#x200B; montages van de Verandering voor een knoopcontainer &#x200B;](#change-settings-for-a-button-container).
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
    De volledige gestapelde knopset wordt in het werkgebied weergegeven met één primaire knop en twee secundaire knoppen.
 
-   ![ Gestapelde knopen op het stadium ](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
+   ![&#x200B; Gestapelde knopen op het stadium &#x200B;](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
 
 ## Een knop verplaatsen
 
 1. Klik op de knop die u wilt verplaatsen.
 
-1. Selecteer en sleep het pictogram van de Beweging ( ![ het pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}), dat net vóór de knooptekst verschijnt, aan een nieuwe positie voor de knoop binnen de knoopcontainer.
+1. Selecteer en sleep het pictogram van de Beweging ( ![&#x200B; het pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}), dat net vóór de knooptekst verschijnt, aan een nieuwe positie voor de knoop binnen de knoopcontainer.
 
-   ![ Bewegend een knoop ](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
+   ![&#x200B; Bewegend een knoop &#x200B;](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
 ## Instellingen voor een knop wijzigen
 
-1. Klik de knoop op het stadium om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Klik de knoop op het stadium om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
-   ![ toolboxes van de Knoop ](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
+   ![&#x200B; toolboxes van de Knoop &#x200B;](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
 1. Werk de standaardinstellingen naar wens bij.
 
@@ -214,13 +214,13 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
      {style="table-layout:auto"}
 
-1. Voltooi de [ geavanceerde montages ](#change-advanced-settings) zoals nodig.
+1. Voltooi de [&#x200B; geavanceerde montages &#x200B;](#change-advanced-settings) zoals nodig.
 
 1. Als u de instellingen wilt opslaan en wilt terugkeren naar de werkruimte van [!DNL Page Builder] , klikt u op **[!UICONTROL Save]** in de rechterbovenhoek.
 
 ## Instellingen wijzigen voor een knopcontainer
 
-1. Beweeg over de knoopcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de knoopcontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Werk de instellingen van **[!UICONTROL Appearance]** naar wens bij.
 
@@ -237,7 +237,7 @@ In de volgende secties wordt een reeks stappen beschreven die met een afzonderli
 
      Wanneer ingesteld op `Yes` , hebben alle knoppen in de container een consistente grootte, gebaseerd op de lengte van de langste knoptekst.
 
-1. Voltooi de [ Geavanceerde montages ](#change-advanced-settings) zoals nodig.
+1. Voltooi de [&#x200B; Geavanceerde montages &#x200B;](#change-advanced-settings) zoals nodig.
 
 1. Klik na afloop op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 

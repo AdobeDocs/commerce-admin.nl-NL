@@ -12,30 +12,30 @@ ht-degree: 0%
 
 # Elements - HTML-code
 
-Gebruik het _inhoudstype van de Code van 0} HTML {om fragmenten van HTML, CSS, en code van JavaScript in het_ stadium [[!DNL Page Builder]  toe te voegen. ](workspace.md#stage) U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
+Gebruik het _inhoudstype van de Code van 0&rbrace; HTML &lbrace;om fragmenten van HTML, CSS, en code van JavaScript in het_ stadium [[!DNL Page Builder]  toe te voegen. &#x200B;](workspace.md#stage) U kunt bijvoorbeeld aangepaste HTML toevoegen, een CSS-klasse declareren die op een element op de pagina kan worden toegepast. Of u wilt een codefragment toevoegen voor een logo, knop of banner die u van een externe provider hebt ontvangen.
 
 ## Gereedschap HTML-code
 
-![ toolbox van de Code van HTML ](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; toolbox van de Code van HTML &#x200B;](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 | --------- | ---------- | ----------------- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Verplaatst de HTML Code-container naar een andere geldige plaats op de pagina. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina HTML-code bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van HTML. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen HTML Code-container weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container HTML Code. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Verwijdert de container HTML Code en de inhoud ervan uit het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Verplaatst de HTML Code-container naar een andere geldige plaats op de pagina. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina HTML-code bewerken, waarin u de eigenschappen van de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Verbergt de container van de Code van HTML. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | Hiermee wordt de verborgen HTML Code-container weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Hiermee maakt u een kopie van de container HTML Code. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Verwijdert de container HTML Code en de inhoud ervan uit het werkgebied. |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## HTML-code toevoegen
 
-Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont van Google ](https://fonts.google.com/) en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
+Het volgende voorbeeld toont aan hoe te om [&#x200B; code in te bedden van de Doopvont van Google &#x200B;](https://fonts.google.com/) en de klassen van de douanerubriek te verklaren die de huidige stylesheet met voeten treden.
 
 ### Stap 1: Kies een Google-lettertype
 
-1. Bezoek de [ plaats van de Doopvonten van Google ](https://fonts.google.com/) en kies de doopvontfamilie die u wilt gebruiken.
+1. Bezoek de [&#x200B; plaats van de Doopvonten van Google &#x200B;](https://fonts.google.com/) en kies de doopvontfamilie die u wilt gebruiken.
 
 1. Kopieer de gegenereerde code die moet worden ingesloten in de sectie `<head>` van de pagina en plak deze tijdelijk in een teksteditor.
 
@@ -66,17 +66,17 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
 
    Gebruik de rode hulplijn om de scheidingslijn voor of na een andere inhoudscontainer in de rij, kolom of tabset te plaatsen.
 
-   ![ slepend een placeholder van de Code van HTML aan het stadium ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een placeholder van de Code van HTML aan het stadium &#x200B;](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Beweeg over de container van HTML om toolbox te tonen en de _Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}), pictogram.
+1. Beweeg over de container van HTML om toolbox te tonen en de _Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}), pictogram.
 
 1. Plak in het tekstvak de code en stijldeclaraties voor Google-fonts insluiten die u hebt voorbereid.
 
    U kunt een paar spaties invoeren om de code te laten inspringen, zodat u deze eenvoudiger kunt lezen.
 
-   ![ de code en de stijlen van HTML ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![&#x200B; de code en de stijlen van HTML &#x200B;](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Werk de resterende montages zoals nodig bij (zie [ de codemontages van HTML van de Verandering ](#html-settings) voor details).
+1. Werk de resterende montages zoals nodig bij (zie [&#x200B; de codemontages van HTML van de Verandering &#x200B;](#html-settings) voor details).
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** om de instellingen toe te passen en terug te keren naar de werkruimte van [!DNL Page Builder] .
 
@@ -84,19 +84,19 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
 
 ### Stap 3: Voorvertoning van de pagina weergeven
 
-1. Stel _[!UICONTROL Currently Active]_in op **[!UICONTROL Enable Page]**in de sectie `Yes` .
+1. Stel _[!UICONTROL Currently Active]_&#x200B;in op **[!UICONTROL Enable Page]**&#x200B;in de sectie `Yes` .
 
-   ![ toelatend de pagina ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![&#x200B; toelatend de pagina &#x200B;](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klik in de rechterbovenhoek op de pijl **[!UICONTROL Save]** en kies **[!UICONTROL Save & Close]** .
 
 1. Zoek de pagina in het raster en selecteer **[!UICONTROL View]** in de kolom _[!UICONTROL Actions]_.
 
-   ![ Voorproef de paginakoppen met de nieuwe doopvontfamilie ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![&#x200B; Voorproef de paginakoppen met de nieuwe doopvontfamilie &#x200B;](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTML-code-instellingen wijzigen {#html-settings}
 
-1. Beweeg over de container van HTML om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de container van HTML om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Bewerk in het tekstvak de code naar wens.
 
@@ -110,7 +110,7 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
    | Afbeelding invoegen... | Klik om een geüploade afbeelding of een afbeelding uit de galerie in te voegen op de positie van de cursor in het tekstvak HTML. |
    | Variabele invoegen... | Klik om een variabele in te voegen op de positie van de cursor in het tekstvak HTML. |
 
-1. Werk de instellingen van _[!UICONTROL Advanced]_naar wens bij.
+1. Werk de instellingen van _[!UICONTROL Advanced]_&#x200B;naar wens bij.
 
    - Kies een **[!UICONTROL Alignment]** als u de positie van de code binnen de bovenliggende container wilt bepalen:
 
@@ -123,7 +123,7 @@ Het volgende voorbeeld toont aan hoe te om [ code in te bedden van de Doopvont v
 
      In het volgende voorbeeld worden de opties zo ingesteld dat ze een uitlijning in het midden gebruiken voor het gerenderde codeblok.
 
-     ![ Scheidingsverdeler met een centrumgroepering ](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![&#x200B; Scheidingsverdeler met een centrumgroepering &#x200B;](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
    - Stel de **[!UICONTROL Border]** -stijl in die op alle vier zijden van de codecontainer wordt toegepast:
 

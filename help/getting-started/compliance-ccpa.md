@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Deze informatie is in een reeks onderwerpen om verkopers en ontwikkelaars van Adobe Commerce te helpen de implicaties van de Wet van de Privacy van de Consumentenbescherming van Californië begrijpen. De informatie is gebaseerd op de tekst van het statuut. Om te bevestigen als CCPA op uw zaken van toepassing is, raadpleeg uw advocaat.
 
-De [ Wet van de Privacy van de Consumentenbescherming van Californië ](https://oag.ca.gov/privacy/ccpa) (CCPA) breidt de rechten van consumenten in Californië uit om te bepalen hoe hun persoonlijke informatie wordt verzameld, opgeslagen, en gebruikt. De nadruk ligt op de bescherming van de consument tegen de ongeoorloofde verkoop of uitwisseling van persoonlijke informatie. De CCPA is in 2018 vastgesteld en is op 1 januari 2020 in werking getreden.
+De [&#x200B; Wet van de Privacy van de Consumentenbescherming van Californië &#x200B;](https://oag.ca.gov/privacy/ccpa) (CCPA) breidt de rechten van consumenten in Californië uit om te bepalen hoe hun persoonlijke informatie wordt verzameld, opgeslagen, en gebruikt. De nadruk ligt op de bescherming van de consument tegen de ongeoorloofde verkoop of uitwisseling van persoonlijke informatie. De CCPA is in 2018 vastgesteld en is op 1 januari 2020 in werking getreden.
 
 De CCPA verleent de consument de volgende nieuwe rechten:
 
@@ -49,20 +49,20 @@ Deze sectie verstrekt een overzicht op hoog niveau van de stappen die voor verko
 
 ### GDPR en CCPA
 
-Als uw zaken zowel de [ Algemene Verordening van de Bescherming van Gegevens ](compliance-gdpr.md) (GDPR) als CCPA moeten naleven, kunt u wat werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
+Als uw zaken zowel de [&#x200B; Algemene Verordening van de Bescherming van Gegevens &#x200B;](compliance-gdpr.md) (GDPR) als CCPA moeten naleven, kunt u wat werk van uw GDPR nalevingsprogramma voor CCPA gebruiken. Hoewel de verordeningen enkele gelijkenissen vertonen, zijn er enkele verschillen:
 
 - De definitie van persoonlijke informatie verschilt per verordening.
 - De GDPR bepaalt dat consumenten zich moeten aanmelden voordat hun persoonsgegevens voor bepaalde doeleinden kunnen worden gebruikt; de CCPA geeft consumenten het recht om te weigeren.
 - De CCPA heeft aanvullende vereisten inzake gegevensinventarisatie en -toewijzing.
 - De regels hebben verschillende vereisten voor het privacybeleid.
 
-Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie het [ Cpa- Werkblad van het Fact ](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
+Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoofde van de CCPA hebben. Meer leren, zie het [&#x200B; Cpa- Werkblad van het Fact &#x200B;](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ### Routekaart voor naleving
 
 Er is een gecoördineerde inspanning nodig om een plan te ontwikkelen en uit te voeren om de naleving aan te pakken. Gebruik deze roadmap als gids om middelen te mobiliseren en aan taken voorrang te geven zodat u zich op veelvoudige fronten kunt bewegen. Het proces is in wezen hetzelfde voor alle [!DNL Commerce] -installaties, met de volgende uitzondering:
 
-- **Adobe Commerce op wolkeninfrastructuur**: Merchants met opslag die op Adobe [ wordt ontvangen wolkeninfrastructuur ](https://www.adobe.com/commerce/magento.html){:target="_blank"} kan hun Manager van de Rekening van Adobe Commerce Technische of de Steun van de Klant voor hulp vragen met het antwoorden op consumentenverzoeken.
+- **Adobe Commerce op wolkeninfrastructuur**: Merchants met opslag die op Adobe [&#x200B; wordt ontvangen wolkeninfrastructuur &#x200B;](https://www.adobe.com/commerce/magento.html){:target="_blank"} kan hun Manager van de Rekening van Adobe Commerce Technische of de Steun van de Klant voor hulp vragen met het antwoorden op consumentenverzoeken.
 
 - **op-gebouw**: De handelaren met op-gebouw installaties van Adobe Commerce of Magento Open Source moeten hun eigen processen en hulpmiddelen ontwikkelen om aan consumentenverzoeken met betrekking tot privacyverordeningen te antwoorden en te beheren.
 
@@ -91,13 +91,13 @@ Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en
 
    - **Privé**: De Informatie van de klant, de Informatie van de Orde, de Punten van de Terugbetaling, het Registratie van het Cadeautje, het Boek van het Adres, de Krediet van de Opslag, de Methoden van de Betaling, de Abonnementen van de Newsletter, Uitnodigingen.
 
-     Als de [!DNL Commerce] -installatie is aangepast, worden mogelijk aanvullende persoonlijke gegevens verzameld. De persoonlijke informatie zou ook in [ koekjes ](./compliance-cookie-law.md), markeringen, en andere technologieën kunnen verblijven die informatie verzamelen.
+     Als de [!DNL Commerce] -installatie is aangepast, worden mogelijk aanvullende persoonlijke gegevens verzameld. De persoonlijke informatie zou ook in [&#x200B; koekjes &#x200B;](./compliance-cookie-law.md), markeringen, en andere technologieën kunnen verblijven die informatie verzamelen.
 
 1. Identificeer de partijen met wie u gegevens deelt. In de lijst moeten dienstverleners en derden worden opgenomen. Onder andere advertentienetwerken, internetserviceproviders, gegevensanalytische providers, overheidsentiteiten, besturingssystemen en platforms, sociale netwerken en wederverkopers van consumentengegevens die niet rechtstreeks persoonlijke informatie van uw consumenten verzamelen.
 
    - **Dienstverleners**: De entiteiten die toegang tot uw consumentengegevens voor een bedrijfsdoel hebben, en de diensten namens u verlenen. Adobe is bijvoorbeeld een serviceprovider, net als sommige ontwikkelaars van aanpassingen, extensies en services.
 
-     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Meer leren, zie [ de Montages van de Privacy van Google ](../merchandising-promotions/google-tools.md#google-privacy-settings).
+     Controleer de standaardinstellingen van Google Universal Analytics, Google Tag Manager (en alle andere gegevensservices die u gebruikt) en breng de wijzigingen aan die nodig zijn om aan de verordening te voldoen. Meer leren, zie [&#x200B; de Montages van de Privacy van Google &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
    - **Andere Derde Partijen**: De entiteiten met wie u consumentengegevens deelt of verkoopt. U kunt bijvoorbeeld consumentengegevens delen met een reclamenetwerk in ruil voor reclame.
 
@@ -111,10 +111,10 @@ Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en
 
 1. Zie de volgende onderwerpen voor toepasselijke gegevensstroomdiagrammen en de afbeeldingen van de gegevensbestandentiteit voor elke versie:
 
-   - [ Persoonlijke Verwijzing van de Informatie (2.x) ](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [ Persoonlijke Verwijzing van de Informatie (1.x) ](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [&#x200B; Persoonlijke Verwijzing van de Informatie (2.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [&#x200B; Persoonlijke Verwijzing van de Informatie (1.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
-   ![ diagram ](./assets/privacy-frontend-diagram.svg)
+   ![&#x200B; diagram &#x200B;](./assets/privacy-frontend-diagram.svg)
 
 #### Stap 4: Vestig procedures en mechanismen om op klantenverzoeken te antwoorden
 
@@ -194,7 +194,7 @@ Controleer uw huidige privacybeleid en overweeg wat, als om het even welk, extra
 
    - **Minors &lt; 13**: De ouderlijke vergunning wordt vereist voor minderjarigen onder de leeftijd van 13 om aan de verkoop van hun persoonlijke informatie te kiezen.
 
-   - **Minderjarigen 13 tot &lt; 16**: Minderjarigen van minstens 13 jaar en minder dan 16 jaar kunnen zich aanmelden bij de verkoop van hun persoonlijke informatie, op voorwaarde dat de zaken een redelijk proces om de actie te documenteren tot stand brengen. Het proces moet in het 0} van het bedrijf {privacybeleid [ worden beschreven. ](privacy-policy.md) Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
+   - **Minderjarigen 13 tot &lt; 16**: Minderjarigen van minstens 13 jaar en minder dan 16 jaar kunnen zich aanmelden bij de verkoop van hun persoonlijke informatie, op voorwaarde dat de zaken een redelijk proces om de actie te documenteren tot stand brengen. Het proces moet in het 0&rbrace; van het bedrijf &lbrace;privacybeleid [&#x200B; worden beschreven. &#x200B;](privacy-policy.md) Wanneer een bedrijf verzoeken van minderjarigen in deze leeftijdsgroep ontvangt, moet het hen op de hoogte stellen van hun recht om later af te zien en uitleggen hoe ze dat moeten doen.
 
   >[!IMPORTANT]
   >

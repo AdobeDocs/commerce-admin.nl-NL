@@ -18,24 +18,24 @@ Met PayPal Express Checkout kunt u de verkoop verhogen door uw klanten de mogeli
 >[!IMPORTANT]
 >
 >**PSD2 Vereisten:** <br/>
->Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [ PSD2 ](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Er is geen actie nodig om PayPal Express Checkout te laten voldoen aan PSD2 omdat alle vereisten door PayPal worden afgehandeld.
+>Vanaf 14 september 2019, zouden de Europese banken betalingen kunnen verminderen die niet [&#x200B; PSD2 &#x200B;](../getting-started/compliance-payment-services-directive.md) vereisten voldoen. Er is geen actie nodig om PayPal Express Checkout te laten voldoen aan PSD2 omdat alle vereisten door PayPal worden afgehandeld.
 
-Klanten met huidige PayPal-accounts kunnen in één stap een aankoop doen door op de knop _[!UICONTROL Check out with PayPal]_te klikken. Uitdrukkelijke afhandeling kan worden gebruikt als een zelfstandige, of met een van de PayPal alles-in-één oplossingen. Als je al online creditcards accepteert, kun je Express Checkout aanbieden als extra optie om nieuwe klanten aan te trekken die liever met PayPal betalen.
+Klanten met huidige PayPal-accounts kunnen in één stap een aankoop doen door op de knop _[!UICONTROL Check out with PayPal]_&#x200B;te klikken. Uitdrukkelijke afhandeling kan worden gebruikt als een zelfstandige, of met een van de PayPal alles-in-één oplossingen. Als je al online creditcards accepteert, kun je Express Checkout aanbieden als extra optie om nieuwe klanten aan te trekken die liever met PayPal betalen.
 
 >[!NOTE]
 >
->PayPal heeft steun voor de verkoop van digitale goederen door Uitdrukkelijke Betaling PayPal verouderd en adviseert dat u of [ de Norm van Betalingen van PayPal ](paypal-payments-standard.md) of een andere betaalgateway van PayPal gebruikt om het even welke orde te verwerken die [ virtuele producten ](../catalog/product-create-virtual.md) omvat.
+>PayPal heeft steun voor de verkoop van digitale goederen door Uitdrukkelijke Betaling PayPal verouderd en adviseert dat u of [&#x200B; de Norm van Betalingen van PayPal &#x200B;](paypal-payments-standard.md) of een andere betaalgateway van PayPal gebruikt om het even welke orde te verwerken die [&#x200B; virtuele producten &#x200B;](../catalog/product-create-virtual.md) omvat.
 
 ## Vereisten
 
-- Merchant: [ BedrijfsPayPal rekening ](https://www.paypal.com/webapps/mpp/how-to-sell-online)
-- Klant: [ Persoonlijke Paypal- rekening ](https://www.paypal.com/webapps/mpp/buying-online)
+- Merchant: [&#x200B; BedrijfsPayPal rekening &#x200B;](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- Klant: [&#x200B; Persoonlijke Paypal- rekening &#x200B;](https://www.paypal.com/webapps/mpp/buying-online)
 
 ## Workflow voor uitchecken
 
 In tegenstelling tot andere betalingsmethoden kan de klant via PayPal Express Checkout aan het begin van de gebruikelijke afrekenworkflow uitchecken via de productpagina, de mini-winkelwagen en het winkelwagentje.
 
-1. **Klant plaatst orde** - de klant klikt/tikt de _[!UICONTROL Check out with PayPal]_knoop.
+1. **Klant plaatst orde** - de klant klikt/tikt de _[!UICONTROL Check out with PayPal]_&#x200B;knoop.
 1. **de Klant wordt opnieuw gericht aan de plaats van PayPal** - de klant wordt opnieuw gericht aan de plaats PayPal om de transactie te voltooien.
 1. **de Klant login aan hun rekening PayPal** - de klant moet login aan hun rekening PayPal om de transactie te voltooien. Het betalingssysteem gebruikt de facturerings- en verzendgegevens van hun PayPal-rekening.
 1. **Keert de Klant terug naar de controlepagina** - de klant wordt opnieuw gericht terug naar de controlepagina in uw opslag om de orde te herzien.
@@ -48,11 +48,11 @@ In tegenstelling tot andere betalingsmethoden kan de klant via PayPal Express Ch
 
 ## Afhandeling in context
 
-In-Context Checkout van PayPal _maakt het gemakkelijker dan ooit online te betalen._ Klanten verliezen uw winkel nooit uit het oog tijdens deze vereenvoudigde, naadloze afhandeling met één of twee klikken. In-context-afhandeling werkt net zo goed op computers en pc&#39;s en biedt een consistente ervaring op desktopcomputers, tablets en mobiele apparaten. Meer leren, zie [ In-Context Checkout in Uitdrukkelijke Controle ](https://www.paypal.com/rs/webapps/mpp/express-checkout).
+In-Context Checkout van PayPal _maakt het gemakkelijker dan ooit online te betalen._ Klanten verliezen uw winkel nooit uit het oog tijdens deze vereenvoudigde, naadloze afhandeling met één of twee klikken. In-context-afhandeling werkt net zo goed op computers en pc&#39;s en biedt een consistente ervaring op desktopcomputers, tablets en mobiele apparaten. Meer leren, zie [&#x200B; In-Context Checkout in Uitdrukkelijke Controle &#x200B;](https://www.paypal.com/rs/webapps/mpp/express-checkout).
 
-![ PayPal in-context checkout demo ](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
+![&#x200B; PayPal in-context checkout demo &#x200B;](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal in-context checkout demo_ ](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
+[_PayPal in-context checkout demo_ &#x200B;](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout)
 
 Wanneer u de winkel configureert voor [!DNL PayPal Express Checkout] , kunt u deze optie inschakelen.
 
@@ -60,7 +60,7 @@ Wanneer u de winkel configureert voor [!DNL PayPal Express Checkout] , kunt u de
 
 Voordat u PayPal Express Checkout instelt in Commerce Admin, moet u uw zakelijke account configureren op de Paypal-website.
 
-1. Login aan uw Paypal Geavanceerde rekening bij [ manager.paypal.com ](https://manager.paypal.com/).
+1. Login aan uw Paypal Geavanceerde rekening bij [&#x200B; manager.paypal.com &#x200B;](https://manager.paypal.com/).
 
 1. Ga naar **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]** en stel de volgende instellingen in:
 
@@ -72,7 +72,7 @@ Voordat u PayPal Express Checkout instelt in Commerce Admin, moet u uw zakelijke
 
 1. Een andere gebruiker instellen (aanbevolen door PayPal):
 
-   - Ga naar [ manager.paypal.com ](https://manager.paypal.com/) en login aan uw rekening.
+   - Ga naar [&#x200B; manager.paypal.com &#x200B;](https://manager.paypal.com/) en login aan uw rekening.
 
    - Volg de instructies om een andere gebruiker in te stellen.
 
@@ -94,32 +94,32 @@ Er kunnen twee PayPal-oplossingen tegelijkertijd actief zijn: PayPal Express Che
 
 1. Als uw installatie meerdere websites, winkels of weergaven bevat, stelt u **[!UICONTROL Store View]** in op de winkelweergave waar u deze configuratie wilt toepassen.
 
-1. Selecteer in de sectie _[!UICONTROL Merchant Location]_de **[!UICONTROL Merchant Country]**waar uw bedrijf zich bevindt.
+1. Selecteer in de sectie _[!UICONTROL Merchant Location]_&#x200B;de **[!UICONTROL Merchant Country]**&#x200B;waar uw bedrijf zich bevindt.
 
    Deze instelling bepaalt de selectie van PayPal-oplossingen die in de configuratie worden weergegeven.
 
-   ![ Merchant Land ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; Merchant Land &#x200B;](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klik onder _[!UICONTROL Recommended Solutions]_op **[!UICONTROL Configure]**for **[!UICONTROL PayPal Express Checkout]**.
+1. Klik onder _[!UICONTROL Recommended Solutions]_&#x200B;op **[!UICONTROL Configure]**&#x200B;for **[!UICONTROL PayPal Express Checkout]**.
 
-   ![ Vorm Uitdrukkelijke Betaling PayPal ](./assets/paypal-express-checkout.png){width="600"}
+   ![&#x200B; Vorm Uitdrukkelijke Betaling PayPal &#x200B;](./assets/paypal-express-checkout.png){width="600"}
 
 ### Stap 2: Je PayPal-account inschakelen en verbinden
 
-1. Indien nodig, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Required PayPal Settings]** sectie uit.
+1. Indien nodig, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Required PayPal Settings]** sectie uit.
 
-   ![ verbind uw Paypal- rekening ](./assets/paypal-express-required.png){width="600" zoomable="yes"}
+   ![&#x200B; verbind uw Paypal- rekening &#x200B;](./assets/paypal-express-required.png){width="600" zoomable="yes"}
 
 1. Sluit uw account aan voor test- of productiedoeleinden:
 
-   - Voor het testen (ontwikkeling) wijze, klik **[!UICONTROL Sandbox Credentials]** en ga uw [ PayPal zandbak ](https://developer.paypal.com/docs/api-basics/sandbox/) geloofsbrieven in.
+   - Voor het testen (ontwikkeling) wijze, klik **[!UICONTROL Sandbox Credentials]** en ga uw [&#x200B; PayPal zandbak &#x200B;](https://developer.paypal.com/docs/api-basics/sandbox/) geloofsbrieven in.
    - Klik voor de productiemodus op **[!UICONTROL Connect with PayPal]** en voer de gegevens van uw productieaccount in.
 
    Wanneer de verbinding wordt gevalideerd, kunt u doorgaan.
 
 1. Stel **[!UICONTROL Enable this Solution]** in op `Yes` .
 
-1. Om [ PayPal in-Context Checkout ](#in-context-checkout) toe te laten:
+1. Om [&#x200B; PayPal in-Context Checkout &#x200B;](#in-context-checkout) toe te laten:
 
    - Stel **[!UICONTROL Enable In-Context Checkout Experience]** in op `Yes` .
 
@@ -129,13 +129,13 @@ Er kunnen twee PayPal-oplossingen tegelijkertijd actief zijn: PayPal Express Che
 
 >[!NOTE]
 >
->[ Krediet van PayPal ](paypal.md#paypal-credit-and-pay-later) wordt toegelaten door gebrek voor deze betalingsoptie.
+>[&#x200B; Krediet van PayPal &#x200B;](paypal.md#paypal-credit-and-pay-later) wordt toegelaten door gebrek voor deze betalingsoptie.
 
 ### Stap 3: Voer de vereiste PayPal-instellingen in
 
-1. Indien nodig, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Express Checkout]** sectie uit.
+1. Indien nodig, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Express Checkout]** sectie uit.
 
-   ![ Uitdrukkelijke de Afhandeling van PayPal vereiste Montages ](./assets/paypal-express-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitdrukkelijke de Afhandeling van PayPal vereiste Montages &#x200B;](./assets/paypal-express-settings.png){width="600" zoomable="yes"}
 
 1. (Optioneel) Voer de **[!UICONTROL Email Associated with PayPal Merchant Account]** in.
 
@@ -158,7 +158,7 @@ Er kunnen twee PayPal-oplossingen tegelijkertijd actief zijn: PayPal Express Che
 
 1. Stel **[!UICONTROL Sandbox Mode]** in op `Yes` als u referenties van uw sandboxaccount gebruikt.
 
-   Wanneer het testen van de configuratie in een zandbak, gebruik slechts [ creditcardaantallen ](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) die door PayPal worden geadviseerd. Wanneer u gereed bent om te gaan produceren, gaat u terug naar de configuratie en stelt u de Sandbox-modus in op `No` en maakt u verbinding met uw productie-PayPal-account.
+   Wanneer het testen van de configuratie in een zandbak, gebruik slechts [&#x200B; creditcardaantallen &#x200B;](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) die door PayPal worden geadviseerd. Wanneer u gereed bent om te gaan produceren, gaat u terug naar de configuratie en stelt u de Sandbox-modus in op `No` en maakt u verbinding met uw productie-PayPal-account.
 
 1. Als uw systeem een proxyserver gebruikt om de verbinding tussen Commerce en het PayPal-betalingssysteem tot stand te brengen, stelt u **[!UICONTROL API Uses Proxy]** in op `Yes` en voert u het volgende in:
 
@@ -182,15 +182,15 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 #### PayPal-krediet adverteren
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal Credit]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal Credit]** sectie uit.
 
 1. Klik op **[!UICONTROL Get Publisher ID from PayPal]** en volg de instructies op uw account om uw accountgegevens op te vragen.
 
 1. Voer uw **[!UICONTROL Publisher ID]** in.
 
-   ![ Adverteer PayPal Krediet ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![&#x200B; Adverteer PayPal Krediet &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
 
 1. Stel **[!UICONTROL Display]** in op `Yes` als u een banner op de pagina wilt plaatsen.
 
@@ -208,9 +208,9 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
    - `728 x 90`
    - `800 x 66`
 
-   ![ Adverteer de Montages van de Homepage van het Krediet van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Adverteer de Montages van de Homepage van het Krediet van PayPal &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen:
 
    - [!UICONTROL Catalog Category Page]
    - [!UICONTROL Catalog Product Page]
@@ -218,11 +218,11 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 #### Adverteer PayPal PayPal Later
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal PayLater]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Advertise PayPal PayLater]** sectie uit.
 
 1. Stel **[!UICONTROL Enable PayPal PayLater]** in op `Yes` .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Home Page]** sectie uit.
 
 1. Stel **[!UICONTROL Display]** in op `Yes` als u een banner op de pagina wilt plaatsen.
 
@@ -283,9 +283,9 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
    - `Monochrome`
    - `Grayscale`
 
-   ![ Adverteer de Montages van de Homepage van het Krediet van PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; Adverteer de Montages van de Homepage van het Krediet van PayPal &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen:
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de resterende secties uit en herhaal de vorige stappen:
 
    - [!UICONTROL Catalog Product Page]
    - [!UICONTROL Checkout Cart Page]
@@ -294,9 +294,9 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 ### Stap 5: De basisinstellingen voltooien
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Express Checkout]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Basic Settings - PayPal Express Checkout]** sectie uit.
 
-   ![ Basismontages ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Basismontages &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
 1. Voer bij **[!UICONTROL Title]** een titel in die deze betalingsmethode identificeert tijdens het afrekenen.
 
@@ -312,7 +312,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
    - `Sale` - Het bedrag van de aankoop wordt geautoriseerd en onmiddellijk van de rekening van de klant teruggetrokken.
    - `Order` - Het bedrag van de bestelling wordt niet vastgelegd of geautoriseerd op de klantenbalans, bankrekening of creditcard bij PayPal. De betalingsactie voor bestellingen is een overeenkomst tussen het PayPal-betalingssysteem en de handelaar. Het stelt de handelaar in staat een of meer bedragen tot het geordende totaal van de klantenkopersrekening over een periode van maximaal 29 dagen af te halen. Nadat de fondsen zijn besteld, kan de handelaar ze op elk moment gedurende de volgende periode van 29 dagen opvangen. Het vastleggen van het orderbedrag kan alleen worden uitgevoerd vanuit Commerce Admin door een of meer facturen te maken.
 
-1. Stel _[!UICONTROL Check out with PayPal]_in op **[!UICONTROL Display on Product Details Page]**om de knop `Yes` op de productpagina weer te geven.
+1. Stel _[!UICONTROL Check out with PayPal]_&#x200B;in op **[!UICONTROL Display on Product Details Page]**&#x200B;om de knop `Yes` op de productpagina weer te geven.
 
 1. Als de betalingsactie is ingesteld op `Order` , voert u de volgende handelingen uit
 
@@ -324,16 +324,16 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 ### Stap 6: De geavanceerde instellingen voltooien
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Advanced Settings]** sectie uit.
 
-   ![ Geavanceerde Montages - Uitdrukkelijke Betaling PayPal ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; Geavanceerde Montages - Uitdrukkelijke Betaling PayPal &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Display on Shopping Cart]** in op `Yes` .
 
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk item.
 
 1. Als u communicatie met het betalingssysteem naar het logbestand wilt schrijven, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
@@ -366,7 +366,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
    >
    >Deze functie moet zijn ingeschakeld voor het zakelijke account via technische ondersteuning van PayPal.
 
-1. (Facultatief) plaats **[!UICONTROL Billing Agreement Signup]** om klanten toe te staan om a [ factureringsovereenkomst ](paypal-billing-agreements.md) met uw opslag in het PayPal betalingssysteem te ondertekenen wanneer er geen actieve factureringsovereenkomsten beschikbaar in de klantenrekening zijn:
+1. (Facultatief) plaats **[!UICONTROL Billing Agreement Signup]** om klanten toe te staan om a [&#x200B; factureringsovereenkomst &#x200B;](paypal-billing-agreements.md) met uw opslag in het PayPal betalingssysteem te ondertekenen wanneer er geen actieve factureringsovereenkomsten beschikbaar in de klantenrekening zijn:
 
    - `Auto` - De klant kan of een factureringsovereenkomst tijdens de Uitdrukkelijke stroom van de Afhandeling ondertekenen of een andere methode van betaling gebruiken.
    - `Ask Customer` - De klant kan beslissen of hij een factureringsovereenkomst ondertekent tijdens de uitcheckprocedure.
@@ -374,7 +374,7 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
    >[!NOTE]
    >
-   >De handelaren moeten [ PayPal Merchant Technische Steun ](https://developer.paypal.com/support/) vragen om factureringsovereenkomsten in hun rekeningen toe te laten. De _Opname van de Overeenkomst van de Facturering_ parameter wordt toegelaten slechts nadat PayPal bevestigt dat de factureringsovereenkomsten voor uw handelaarrekening worden toegelaten.
+   >De handelaren moeten [&#x200B; PayPal Merchant Technische Steun &#x200B;](https://developer.paypal.com/support/) vragen om factureringsovereenkomsten in hun rekeningen toe te laten. De _Opname van de Overeenkomst van de Facturering_ parameter wordt toegelaten slechts nadat PayPal bevestigt dat de factureringsovereenkomsten voor uw handelaarrekening worden toegelaten.
 
 1. Stel **[!UICONTROL Skip Order Review Step]** in op `Yes` als u de klant wilt toestaan de transactie van de PayPal-site te voltooien zonder deze terug te sturen naar uw winkel voor het reviseren van bestellingen.
 
@@ -390,11 +390,11 @@ Stel **[!UICONTROL Enable PayPal PayLater Experience]** in op een van de volgend
 
 #### Instellingen van PayPal-factureringsovereenkomst
 
-A [ factureringsovereenkomst ](paypal-billing-agreements.md) is een verkoopovereenkomst tussen de handelaar en de klant die door PayPal voor gebruik met veelvoudige orden is gemachtigd. Tijdens het afrekenen wordt de betalingsoptie Factureringsovereenkomst alleen weergegeven voor klanten die al een factureringsovereenkomst met uw bedrijf hebben gesloten. Nadat PayPal de overeenkomst heeft goedgekeurd, geeft het betalingssysteem een unieke referentie-id uit om elke bestelling te identificeren die aan de overeenkomst is gekoppeld. Net als bij een inkooporder is er geen limiet voor het aantal factureringsovereenkomsten dat een klant met uw bedrijf kan maken.
+A [&#x200B; factureringsovereenkomst &#x200B;](paypal-billing-agreements.md) is een verkoopovereenkomst tussen de handelaar en de klant die door PayPal voor gebruik met veelvoudige orden is gemachtigd. Tijdens het afrekenen wordt de betalingsoptie Factureringsovereenkomst alleen weergegeven voor klanten die al een factureringsovereenkomst met uw bedrijf hebben gesloten. Nadat PayPal de overeenkomst heeft goedgekeurd, geeft het betalingssysteem een unieke referentie-id uit om elke bestelling te identificeren die aan de overeenkomst is gekoppeld. Net als bij een inkooporder is er geen limiet voor het aantal factureringsovereenkomsten dat een klant met uw bedrijf kan maken.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL PayPal Billing Agreement Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL PayPal Billing Agreement Settings]** sectie uit.
 
-   ![ het Factureren de Montages van de Overeenkomst ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; het Factureren de Montages van de Overeenkomst &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enabled]** in op `Yes` .
 
@@ -410,7 +410,7 @@ A [ factureringsovereenkomst ](paypal-billing-agreements.md) is een verkoopovere
 1. Stel **[!UICONTROL Payment Applicable From]** in op een van de volgende opties:
 
    - `All Allowed Countries` - Klanten uit alle landen die in uw winkelconfiguratie zijn opgegeven, kunnen deze betalingsmethode gebruiken.
-   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk land.
+   - `Specific Countries` - Nadat u deze optie hebt gekozen, wordt de lijst _[!UICONTROL Payment from Specific Countries]_&#x200B;weergegeven. Als u meerdere landen wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elk land.
 
 1. Als u de communicatie met het betalingssysteem wilt opnemen in het logbestand, stelt u **[!UICONTROL Debug Mode]** in op `Yes` .
 
@@ -426,9 +426,9 @@ A [ factureringsovereenkomst ](paypal-billing-agreements.md) is een verkoopovere
 
 #### Instellingen voor afwikkelingsrapport
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Settlement Report Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Settlement Report Settings]** sectie uit.
 
-   ![ de Montages van het Rapport van de Oplossing ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van het Rapport van de Oplossing &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. Voer voor **[!UICONTROL SFTP Credentials]** de volgende handelingen uit:
 
@@ -469,9 +469,9 @@ A [ factureringsovereenkomst ](paypal-billing-agreements.md) is een verkoopovere
 
 Met de instellingen voor de vooraf ingestelde ervaring kunt u kiezen welke PayPal-logo&#39;s op uw site worden weergegeven en kunt u de weergave van uw winkelpagina&#39;s van PayPal aanpassen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Frontend Experience Settings]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Frontend Experience Settings]** sectie uit.
 
-   ![ De Montages van de Ervaring van de Voorzijde ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![&#x200B; De Montages van de Ervaring van de Voorzijde &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL PayPal Product Logo]** die u in het PayPal-blok in uw winkel wilt weergeven.
 
@@ -511,18 +511,18 @@ De _Slimme eigenschap van de Knopen van de Betaling_ staat u toe om de knoop van
 - De tekst die wordt weergegeven op de PayPal-knop
 - De lay-out wanneer meerdere knoppen worden weergegeven (horizontaal of verticaal)
 
-Om knopen aan te passen, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) elk van de volgende secties uit en pas de montages aan:
+Om knopen aan te passen, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) elk van de volgende secties uit en pas de montages aan:
 
 - **[!UICONTROL Checkout Page]**
 - **[!UICONTROL Product Pages]**
 - **[!UICONTROL Cart Page]**
 - **[!UICONTROL Mini Cart]**
 
-![ de Montages van de Pagina van de Controle ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png){width="600" zoomable="yes"}
+![&#x200B; de Montages van de Pagina van de Controle &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png){width="600" zoomable="yes"}
 
 **_To vormt de knoopvertoning voor elk paginatype:_**
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de sectie uit.
 
 1. Stel **[!UICONTROL Customize Button]** in op `Yes` .
 
@@ -562,9 +562,9 @@ Om knopen aan te passen, breid ![ selecteur van de Uitbreiding ](../assets/icon-
 
 Met de instellingen voor functies kunt u bepaalde functies voor deze PayPal-oplossing uitschakelen.
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Features]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Features]** sectie uit.
 
-   ![ de Montages van de Pagina van de Controle ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
+   ![&#x200B; de Montages van de Pagina van de Controle &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
 
 1. Plaats **[!UICONTROL Disable Funding Options]** om te bepalen welke andere PayPal financieringsopties op de _uitcheckpagina_ worden getoond.
 

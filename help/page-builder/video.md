@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Media - Video
 
-Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](https://www.youtube.com/) of [ Vimeo ](https://vimeo.com/) aan het [[!DNL Page Builder]  stadium ](workspace.md#stage) wordt ontvangen. U kunt video eenvoudig insluiten in een pagina of blok of in product- en categorieredetecties.
+Gebruik het _Video_ inhoudstype om een video toe te voegen die op [&#x200B; YouTube &#x200B;](https://www.youtube.com/) of [&#x200B; Vimeo &#x200B;](https://vimeo.com/) aan het [[!DNL Page Builder]  stadium &#x200B;](workspace.md#stage) wordt ontvangen. U kunt video eenvoudig insluiten in een pagina of blok of in product- en categorieredetecties.
 
-![ Video op de storefront homepage ](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+![&#x200B; Video op de storefront homepage &#x200B;](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Video, werkset
 
-![ Video toolbox ](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![&#x200B; Video toolbox &#x200B;](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | Gereedschap | Pictogram | Beschrijving |
 |--- |--- |--- |
-| Verplaatsen | ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de video naar een andere positie in het werkgebied. |
+| Verplaatsen | ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="25"} | Hiermee verplaatst u de video naar een andere positie in het werkgebied. |
 | (label) | [!UICONTROL Video] | Identificeert de huidige inhoudscontainer als video. Houd de muisaanwijzer boven de container van de afbeelding om de gereedschapset weer te geven. |
-| Instellingen | ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Video]_, waar u de eigenschappen van de video en de container kunt wijzigen. |
-| Verbergen | ![ het pictogram van de Huid ](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige video. |
-| Tonen | ![ toon pictogram ](./assets/pb-icon-show.png){width="25"} | De verborgen video wordt weergegeven. |
-| Dupliceren | ![ Dupliceer pictogram ](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de video. |
-| Verwijderen | ![ verwijder pictogram ](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de video uit het werkgebied. |
+| Instellingen | ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="25"} | Hiermee opent u de pagina _[!UICONTROL Edit Video]_, waar u de eigenschappen van de video en de container kunt wijzigen. |
+| Verbergen | ![&#x200B; het pictogram van de Huid &#x200B;](./assets/pb-icon-hide.png){width="25"} | Hiermee verbergt u de huidige video. |
+| Tonen | ![&#x200B; toon pictogram &#x200B;](./assets/pb-icon-show.png){width="25"} | De verborgen video wordt weergegeven. |
+| Dupliceren | ![&#x200B; Dupliceer pictogram &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | Maakt een kopie van de video. |
+| Verwijderen | ![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png){width="25"} | Hiermee verwijdert u de video uit het werkgebied. |
 
 {style="table-layout:auto"}
 
@@ -38,17 +38,17 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](ht
 
 ## Een video toevoegen
 
-1. Alvorens u begint, navigeer aan [ YouTube ](https://www.youtube.com/) of [ video van de Vimeo ](https://vimeo.com/) die u, de verbinding wilt inbedden en kopiëren.
+1. Alvorens u begint, navigeer aan [&#x200B; YouTube &#x200B;](https://www.youtube.com/) of [&#x200B; video van de Vimeo &#x200B;](https://vimeo.com/) die u, de verbinding wilt inbedden en kopiëren.
 
-   U kunt ook een directe koppeling naar een geldig videobestand kopiëren. Zie [ Basis videomontages ](#basic-video-settings) voor geldige verbindingen.
+   U kunt ook een directe koppeling naar een geldig videobestand kopiëren. Zie [&#x200B; Basis videomontages &#x200B;](#basic-video-settings) voor geldige verbindingen.
 
 1. Ga in [!DNL Commerce] Beheer terug naar de werkruimte van [!DNL Page Builder] waar u de video wilt toevoegen.
 
 1. Vouw [!DNL Page Builder] uit in het deelvenster **[!UICONTROL Media]** en sleep een tijdelijke aanduiding **[!UICONTROL Video]** naar het werkgebied.
 
-   ![ slepend een videoplaceholder aan het stadium ](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; slepend een videoplaceholder aan het stadium &#x200B;](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Beweeg over de videocontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de videocontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Plak bij **[!UICONTROL Video URL]** de URL van de video die u hebt gekopieerd.
 
@@ -62,7 +62,7 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](ht
 
 ## Video-instellingen wijzigen
 
-1. Beweeg over de videocontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![ pictogram van Montages ](./assets/pb-icon-settings.png){width="20"}).
+1. Beweeg over de videocontainer om toolbox te tonen en de _pictogram van Montages_ te kiezen ( ![&#x200B; pictogram van Montages &#x200B;](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wijzig de instellingen volgens de volgende secties:
 
@@ -89,9 +89,9 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](ht
 
    Als Automatisch afspelen is ingesteld op `Yes` , wordt de video gedempt bij het afspelen volgens het beleid. Zelfs met deze instelling kunnen mobiele apparaten uw video&#39;s echter niet automatisch afspelen. Raadpleeg de volgende bronnen voor ontwikkelaars voor meer informatie over dit beleid:
 
-   - [ Autoplay beleid van Vimeo ](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
-   - [ Autoplay beleid van Google (Chrome/YouTube) ](https://developer.chrome.com/blog/autoplay/)
-   - [ beleid Autoplay voor lokale video&#39;s ](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+   - [&#x200B; Autoplay beleid van Vimeo &#x200B;](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [&#x200B; Autoplay beleid van Google (Chrome/YouTube) &#x200B;](https://developer.chrome.com/blog/autoplay/)
+   - [&#x200B; beleid Autoplay voor lokale video&#39;s &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
    Als Automatisch afspelen is ingesteld op `No` , wordt de video alleen op verzoek van de gebruiker afgespeeld.
 
@@ -127,7 +127,7 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](ht
 
 - Als u een andere randstijl dan `None` instelt, voert u de weergaveopties voor de rand in:
 
-  ![ Grenskleur ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; Grenskleur &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Optie | Beschrijving |
   | ------ |------------ |
@@ -154,17 +154,17 @@ Gebruik het _Video_ inhoudstype om een video toe te voegen die op [ YouTube ](ht
 
 ## Een video verplaatsen
 
-1. Beweeg over de videocontainer om toolbox te tonen en de _Beweging_ te kiezen ( ![ pictogram van de Beweging ](./assets/pb-icon-move.png){width="20"}) pictogram.
+1. Beweeg over de videocontainer om toolbox te tonen en de _Beweging_ te kiezen ( ![&#x200B; pictogram van de Beweging &#x200B;](./assets/pb-icon-move.png){width="20"}) pictogram.
 
-   ![ Bewegend een video ](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![&#x200B; Bewegend een video &#x200B;](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. Selecteer en sleep de video naar de nieuwe positie, net onder de rode hulplijn.
 
-   ![ Gebruikend de rode richtlijn om de video ](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"} te plaatsen
+   ![&#x200B; Gebruikend de rode richtlijn om de video &#x200B;](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"} te plaatsen
 
 ## Een video uit het werkgebied verwijderen
 
-1. Beweeg over de videocontainer om toolbox te tonen en _te kiezen verwijder_ (![ verwijder pictogram ](./assets/pb-icon-remove.png)).
+1. Beweeg over de videocontainer om toolbox te tonen en _te kiezen verwijder_ (![&#x200B; verwijder pictogram &#x200B;](./assets/pb-icon-remove.png)).
 
 1. Klik op **[!UICONTROL OK]** wanneer u wordt gevraagd om te bevestigen.
 
