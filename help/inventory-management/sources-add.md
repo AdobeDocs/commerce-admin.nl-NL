@@ -3,7 +3,7 @@ title: Een inventarisbron toevoegen
 description: Leer hoe u een bron voor een locatie maakt, zoals een pakhuis, een baksteen- en mortierwinkel, een distributiecentrum of een verlader.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 
 1. Klik op **[!UICONTROL Add New Source]**.
 
-   ![&#x200B; beheert Bronnen &#x200B;](assets/inventory-sources.png)
+   ![ beheert Bronnen ](assets/inventory-sources.png)
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL General]** sectie uit en doe het volgende:
 
    - Voer een unieke **[!UICONTROL Name]** in om de inventarisbron te identificeren.
 
@@ -38,15 +38,15 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 
    - Voer bij **[!UICONTROL Latitude]** en **[!UICONTROL Longitude]** de GPS-coördinaten (Global Positioning System) van de locatie van de faciliteit in.
 
-     Om de coördinaten van GPS met [ de Kaarten van Google ][1] te vinden, ga het adres in de onderzoeksdoos in. Klik met de rechtermuisknop op de markering op de kaart en kies **[!UICONTROL What's here?]** . De GPS-coördinaten worden weergegeven in het detailvak onder het adres van de straat.
+     Om de coördinaten van GPS met [ de Kaarten van Google ](https://www.google.com/maps) te vinden, ga het adres in de onderzoeksdoos in. Klik met de rechtermuisknop op de markering op de kaart en kies **[!UICONTROL What's here?]** . De GPS-coördinaten worden weergegeven in het detailvak onder het adres van de straat.
 
-     ![&#x200B; Algemene bronopties &#x200B;](assets/inventory-source-general.png)
+     ![ Algemene bronopties ](assets/inventory-source-general.png)
 
    - Als deze inventarisbron een ophaallocatie is, stelt u **[!UICONTROL Use as Pickup Location]** in op `Yes` .
 
      De Source Standaard kan niet worden gebruikt als ophaallocatie voor ophaalopdrachten in een winkel.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Contact Info]** sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Contact Info]** sectie uit en doe het volgende:
 
    - Voer bij **[!UICONTROL Contact Name]** de volledige naam in van de primaire contactpersoon op de locatie.
 
@@ -56,9 +56,9 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 
    - Voer bij **[!UICONTROL Fax]** de netnummer en het telefoonnummer van de fax in, indien beschikbaar.
 
-     ![&#x200B; Info van het Contact &#x200B;](assets/inventory-source-contact-info.png)
+     ![ Info van het Contact ](assets/inventory-source-contact-info.png)
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Address Data]** sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Address Data]** sectie uit en doe het volgende:
 
    - Kies de **[!UICONTROL Country]** .
 
@@ -70,23 +70,23 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 
    - Voer bij **[!UICONTROL Postcode]** de postcode in.
 
-     ![&#128279;](assets/inventory-source-address.png) Gegevens van 0&rbrace; Adres
+     ![ Gegevens van 0} Adres](assets/inventory-source-address.png)
 
-1. Als u de bron als bestelwagenplaats in de vroegere stap plaatst, breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Pickup Location]** sectie uit en verstrekt beschrijvende informatie over de plaats:
+1. Als u de bron als bestelwagenplaats in de vroegere stap plaatst, breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Pickup Location]** sectie uit en verstrekt beschrijvende informatie over de plaats:
 
    - Voer de **[!UICONTROL Frontend Name]** van de locatie voor het ophalen in.
 
    - Voer een **[!UICONTROL Frontend Description]** van de locatie voor het ophalen in. In dit tekstvak kunt u winkeluren, de locatie ten opzichte van andere markeringen of andere nuttige informatie weergeven waarmee de klant de juiste locatie voor het ophalen kan selecteren.
 
-     ![&#x200B; Pickup Plaats &#x200B;](assets/inventory-pickup-location.png)
+     ![ Pickup Plaats ](assets/inventory-pickup-location.png)
 
-   Voor meer informatie over hoe te om e-mailberichten te vormen wanneer het gebruiken van een bron als bestelplaats, zie [&#x200B; E-mail van de Verkoop &#x200B;](../configuration-reference/sales/sales-emails.md) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor meer informatie over hoe te om e-mailberichten te vormen wanneer het gebruiken van een bron als bestelplaats, zie [ E-mail van de Verkoop ](../configuration-reference/sales/sales-emails.md) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Voer een van de volgende handelingen uit om uw werk op te slaan:
 
    - Klik op **[!UICONTROL Save & Continue]** om uw werk op te slaan en door te gaan met bewerken.
 
-   - Om uw werk te bewaren en aan de Manage pagina van Bronnen terug te keren, klik de benedenpijl (![&#x200B; pijl van het Menu &#x200B;](../assets/icon-menu-down-arrow-red.png)) en kies **[!UICONTROL Save & Close]**.
+   - Om uw werk te bewaren en aan de Manage pagina van Bronnen terug te keren, klik de benedenpijl (![ pijl van het Menu ](../assets/icon-menu-down-arrow-red.png)) en kies **[!UICONTROL Save & Close]**.
 
    - Kies **[!UICONTROL Save & New]** als u uw werk op de huidige bronrecord wilt opslaan en een nieuwe bron wilt invoeren.
 
@@ -123,5 +123,3 @@ Als u de standaard-Source bewerkt, kunt u alle configuraties bewerken, behalve d
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | De naam van de oppiklocatie voor de bron die in de winkel wordt weergegeven. |
 | [!UICONTROL Frontend Description] | De beschrijving van de oppiklocatie voor de bron die in de winkel wordt weergegeven. Het kan gekoppelde afbeeldingen bevatten. |
-
-[1]: https://www.google.com/maps

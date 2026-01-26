@@ -3,8 +3,8 @@ title: Site-maps
 description: Leer hoe u een site-overzicht configureert om alle pagina's en afbeeldingen van uw Commerce-sites te indexeren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [ richtlijnen van SEO ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
 
 Een site-overzicht verbetert de manier waarop uw winkel wordt geïndexeerd door zoekprogramma&#39;s en is ontworpen om pagina&#39;s te zoeken die mogelijk door webcrawlers worden genegeerd. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
@@ -23,13 +23,13 @@ Als deze optie is ingeschakeld, maakt Commerce een bestand met de naam `sitemap.
 
 Terwijl uw site in ontwikkeling is, kunt u instructies in het `robots.txt` -bestand opnemen om te voorkomen dat webcrawlers de site indexeren. Vervolgens kunt u de instructies wijzigen zodat de site kan worden geïndexeerd.
 
-Voor technische informatie, zie [ sitemap en robots.txt ][1] in _Commerce op de Gids van de Infrastructuur van de Wolk_ toevoegen.
+Voor technische informatie, zie [ sitemap en robots.txt ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_ toevoegen.
 
-![&#x200B; Net van de Sitemap &#x200B;](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
+![ Net van de Sitemap ](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
 ## Stap 1. Het site-overzicht configureren
 
-Voltooi de [&#x200B; configuratie van de Sitemap van XML &#x200B;](#site-map-configuration) om te bepalen wat inbegrepen is, en hoe vaak wordt de plaatstoewijzing bijgewerkt.
+Voltooi de [ configuratie van de Sitemap van XML ](#site-map-configuration) om te bepalen wat inbegrepen is, en hoe vaak wordt de plaatstoewijzing bijgewerkt.
 
 ## Stap 2. Site-overzicht genereren
 
@@ -37,7 +37,7 @@ Voltooi de [&#x200B; configuratie van de Sitemap van XML &#x200B;](#site-map-con
 
 1. Klik op **[!UICONTROL Add Site Map]**.
 
-   ![&#x200B; Net van het het kaartschema van de Plaats &#x200B;](./assets/marketing-sitemap.png){width="700" zoomable="yes"}
+   ![ Net van het het kaartschema van de Plaats ](./assets/marketing-sitemap.png){width="700" zoomable="yes"}
 
 1. Voer het site-overzicht **[!UICONTROL Filename]** in. Bijvoorbeeld: `sitemap.xml`
 
@@ -47,7 +47,7 @@ Voltooi de [&#x200B; configuratie van de Sitemap van XML &#x200B;](#site-map-con
 
    - `/` - Plaatst het bestand met het site-overzicht op het basispad of de hoofdmap van de Commerce-installatie.
 
-   ![&#x200B; Nieuwe plaatskaart &#x200B;](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
+   ![ Nieuwe plaatskaart ](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save & Generate]** als de bewerking is voltooid.
 
@@ -55,7 +55,7 @@ Voltooi de [&#x200B; configuratie van de Sitemap van XML &#x200B;](#site-map-con
 
 ## Stap 3. Robots.txt configureren en inschakelen (optioneel)
 
-Voltooi de [&#x200B; robots van de onderzoeksmotor &#x200B;](seo-overview.md#search-engine-robots) configuratie met instructies die de directe onderzoeksmotoren om de delen van uw plaats kruipen die u wilt worden geïndexeerd.
+Voltooi de [ robots van de onderzoeksmotor ](seo-overview.md#search-engine-robots) configuratie met instructies die de directe onderzoeksmotoren om de delen van uw plaats kruipen die u wilt worden geïndexeerd.
 
 ## Stap 4. Uw site-overzicht verzenden naar zoekprogramma&#39;s
 
@@ -67,8 +67,8 @@ U kunt uw site-overzicht naar verschillende zoekprogramma&#39;s verzenden door d
 
 Zie de instructies voor de specifieke zoekfunctie voor meer informatie. Hier volgt een koppeling naar de instructies voor twee zoekprogramma&#39;s bovenaan:
 
-- [ Google ][2]
-- [ Microsoft® Bing ][3]
+- [ Google ](https://support.google.com/webmasters/answer/183669?hl=en)
+- [ Microsoft® Bing ](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## Stap 5: vorige instructies voor robot herstellen (optioneel)
 
@@ -76,7 +76,7 @@ U kunt nu de oorspronkelijke (standaard)beperkingen herstellen.
 
 ## Sitemaps en robots.txt beheren voor meerdere websites
 
-Als u meerdere websites hebt, kunt u het maken en verzenden van sitemaps vereenvoudigen. Eenvoudig [&#x200B; creeer &#x200B;](#site-map-configuration) één of meerdere zetemaps die URLs voor al uw geverifieerde opslag omvatten en sparen de sitemaps aan één enkele plaats. Alle plaatsen moeten in [&#x200B; de Console van het Onderzoek van Google &#x200B;](https://support.google.com/webmasters/answer/7451001) worden geverifieerd.
+Als u meerdere websites hebt, kunt u het maken en verzenden van sitemaps vereenvoudigen. Eenvoudig [ creeer ](#site-map-configuration) één of meerdere zetemaps die URLs voor al uw geverifieerde opslag omvatten en sparen de sitemaps aan één enkele plaats. Alle plaatsen moeten in [ de Console van het Onderzoek van Google ](https://support.google.com/webmasters/answer/7451001) worden geverifieerd.
 
 Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te maken:
 
@@ -102,7 +102,7 @@ Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te make
    
 >[!NOTE]
 >
->Als uw plaats de [&#x200B; Apache &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL) motor van de Webserver gebruikt, zou u het [`.htaccess` &#x200B;](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
+>Als uw plaats de [ Apache ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) motor van de Webserver gebruikt, zou u het [`.htaccess` ](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
 
 ## Kolombeschrijvingen
 
@@ -128,7 +128,7 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL XML Sitemap]** .
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Categories Options]** sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Categories Options]** sectie uit en doe het volgende:
 
    >[!NOTE]
    >
@@ -146,13 +146,13 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
    - Voer bij **[!UICONTROL Priority]** een waarde in tussen `0.0` en `1.0` . Nul heeft de laagste prioriteit.
 
-   ![&#x200B; sitemap van XML - de opties van Categorieën &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
+   ![ sitemap van XML - de opties van Categorieën ](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Opties van Categorieën &#x200B;](../configuration-reference/catalog/xml-sitemap.md#categories-options) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [ Opties van Categorieën ](../configuration-reference/catalog/xml-sitemap.md#categories-options) in de _Verwijzing van de Configuratie_.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Products Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Products Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
-   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Opties van Producten &#x200B;](../configuration-reference/catalog/xml-sitemap.md#products-options) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [ Opties van Producten ](../configuration-reference/catalog/xml-sitemap.md#products-options) in de _Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Add Images into Sitemap]** in op een van de volgende opties om te bepalen in hoeverre afbeeldingen worden opgenomen in de sitemap:
 
@@ -160,31 +160,31 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
    - `Base Only`
    - `All`
 
-   ![&#x200B; configuratie van de Catalogus - de producten van XML sitemap &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de producten van XML sitemap ](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL CMS Pages Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL CMS Pages Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
-   ![&#x200B; configuratie van de Catalogus - de pagina&#39;s van CMS van XML sitemap &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de pagina&#39;s van CMS van XML sitemap ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Opties van de Pagina&#39;s van 0} CMS [&#128279;](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie {de Opties van de Pagina&#39;s van 0} CMS [ in de ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) Verwijzing van de Configuratie _._
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Store Url Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Store Url Options]** sectie uit en voltooi **[!UICONTROL Frequency]** en **[!UICONTROL Priority]** montages zoals nodig.
 
-   ![&#x200B; configuratie van de Catalogus - de opslag URL van XML sitemap &#x200B;](./assets/xml-sitemap.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de opslag URL van XML sitemap ](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Opties van de Opslag Url &#x200B;](../configuration-reference/catalog/xml-sitemap.md#store-url-options) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [ Opties van de Opslag Url ](../configuration-reference/catalog/xml-sitemap.md#store-url-options) in de _Verwijzing van de Configuratie_.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ### Stap 2. De instellingen voor genereren voltooien
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Generation Settings]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Generation Settings]** sectie uit.
 
-   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik om deze montages te veranderen.**
+   Indien nodig, ontruim het **checkbox van de systeemwaarde van het 0} Gebruik om deze montages te veranderen.**
 
-   ![&#x200B; configuratie van de Catalogus - de montages van de de sitemapgeneratie van XML &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de montages van de de sitemapgeneratie van XML ](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie [&#x200B; Montages van de Generatie &#x200B;](../configuration-reference/catalog/xml-sitemap.md#generation-settings) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie [ Montages van de Generatie ](../configuration-reference/catalog/xml-sitemap.md#generation-settings) in de _Verwijzing van de Configuratie_.
 
 1. Als u een sitemap wilt genereren, stelt u **[!UICONTROL Enabled]** in op `Yes` en voert u de volgende handelingen uit:
 
@@ -204,11 +204,11 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 ### Stap 3. Limieten instellen voor bestanden in het site-overzicht
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Sitemap File Limits]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Sitemap File Limits]** sectie uit.
 
-   ![&#x200B; configuratie van de Catalogus - de beperkingen van het de sitemapdossier van XML &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de beperkingen van het de sitemapdossier van XML ](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap [&#128279;](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) in de _Verwijzing van de Configuratie_.
+   Voor een gedetailleerde lijst van deze opties, zie {de Limieten van het Dossier van 0} Sitemap [ in de ](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) Verwijzing van de Configuratie _._
 
 1. Voer bij **[!UICONTROL Maximum No of URLs per File]** het maximumaantal URL&#39;s in dat in de sitemap kan worden opgenomen.
 
@@ -220,14 +220,10 @@ Uw site-overzicht moet zo vaak worden bijgewerkt als de inhoud op uw site verand
 
 ### Stap 4. De verzendinstellingen voor de zoekmachine instellen
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Submission Settings]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Search Engine Submission Settings]** sectie uit.
 
-   ![&#x200B; configuratie van de Catalogus - de voorleggingsmontages van de de sitemaponderzoek van XML &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de voorleggingsmontages van de de sitemaponderzoek van XML ](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. Stel **[!UICONTROL Enable Submission to Robots.txt]** in op `Yes` als u instructies gebruikt aan zoekprogramma&#39;s die door uw site kruipen.`robots.txt`
+1. Stel `robots.txt` in op **[!UICONTROL Enable Submission to Robots.txt]** als u instructies gebruikt aan zoekprogramma&#39;s die door uw site kruipen.`Yes`
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

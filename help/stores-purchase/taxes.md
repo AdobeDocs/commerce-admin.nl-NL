@@ -3,7 +3,7 @@ title: Belastingen
 description: Leer hoe u uw winkel configureert om belastingen te berekenen volgens de vereisten van uw landinstelling.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Belastingen
 
-Configureer uw winkel om belastingen te berekenen volgens de vereisten van uw landinstelling. U kunt opstelling [&#x200B; belastingklassen &#x200B;](tax-class.md) voor producten en klantengroepen, en [&#x200B; belastingregels &#x200B;](tax-rules.md) creëren die product en klantenklassen, belastingstreken, en tarieven combineren. Commerce biedt ook configuratie-instellingen voor vaste productbelastingen, samengestelde belastingen en prijzen over de internationale grenzen heen. Als u wordt vereist om a [&#x200B; toegevoegde belasting &#x200B;](vat.md) te verzamelen, kunt u opstelling uw opslag om de aangewezen hoeveelheid met bevestiging automatisch te berekenen.
+Configureer uw winkel om belastingen te berekenen volgens de vereisten van uw landinstelling. U kunt opstelling [ belastingklassen ](tax-class.md) voor producten en klantengroepen, en [ belastingregels ](tax-rules.md) creëren die product en klantenklassen, belastingstreken, en tarieven combineren. Commerce biedt ook configuratie-instellingen voor vaste productbelastingen, samengestelde belastingen en prijzen over de internationale grenzen heen. Als u wordt vereist om a [ toegevoegde belasting ](vat.md) te verzamelen, kunt u opstelling uw opslag om de aangewezen hoeveelheid met bevestiging automatisch te berekenen.
 
 >[!NOTE]
 >
->Adobe Commerce en Magento Open Source versie 2.4.0 tot en met 2.4.3 bevatten de door de leverancier ontwikkelde Vertex-extensie die wordt gebruikt voor integratie met de Vertex Cloud om belastingbeheer en adreszuivering te bieden. Vanaf de release 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace of rechtstreeks vanaf de leverancier. [&#x200B; Vertex van het Contact &#x200B;](https://marketplace.magento.com/partner/vertex_inc) voor informatie over de uitbreiding en de documentatie.<br><br>
+>Adobe Commerce en Magento Open Source geven 2.4.0 tot en met 2.4.3 uit, inclusief de uitbreiding van de Vertex-leverancier die wordt gebruikt voor integratie met de Vertex Cloud om belastingbeheer en adreszuivering te bieden. Vanaf de release 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace of rechtstreeks vanaf de leverancier. [ Vertex van het Contact ](https://marketplace.magento.com/partner/vertex_inc) voor informatie over de uitbreiding en de documentatie.<br><br>
 >
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [&#x200B; modules van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_.
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [ modules van de Verbetering ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_.
 
 ## Snelle verwijzing
 
-Sommige belastinginstellingen hebben een keuze uit opties die bepalen hoe de belasting wordt berekend en aan de klant wordt gepresenteerd. Voor meer informatie, zie [&#x200B; Internationale Richtsnoeren van de Belasting &#x200B;](international-tax-guidelines.md).
+Sommige belastinginstellingen hebben een keuze uit opties die bepalen hoe de belasting wordt berekend en aan de klant wordt gepresenteerd. Voor meer informatie, zie [ Internationale Richtsnoeren van de Belasting ](international-tax-guidelines.md).
 
 Gebruik de volgende tabellen ter referentie bij het configureren van instellingen voor belastingberekening:
 
@@ -40,7 +40,7 @@ De opties voor de berekeningsmethode voor belastingen omvatten [!UICONTROL Unit 
 
 ### Catalogusprijzen met of zonder belasting
 
-De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in de catalogusprijzen belastingen zijn opgenomen of niet. Weergavevelden hebben twee decimale precisie in normale berekeningen. Bij sommige combinaties van prijsinstellingen worden prijzen weergegeven die zowel belasting als geen belasting bevatten. Wanneer allebei op het zelfde lijnpunt verschijnen, kan het aan klanten verwarrend zijn, en a [&#x200B; waarschuwing &#x200B;](taxes.md#warning-messages) teweegbrengt.
+De mogelijke weergavevelden zijn afhankelijk van de berekeningsmethode en of in de catalogusprijzen belastingen zijn opgenomen of niet. Weergavevelden hebben twee decimale precisie in normale berekeningen. Bij sommige combinaties van prijsinstellingen worden prijzen weergegeven die zowel belasting als geen belasting bevatten. Wanneer allebei op het zelfde lijnpunt verschijnen, kan het aan klanten verwarrend zijn, en a [ waarschuwing ](taxes.md#warning-messages) teweegbrengt.
 
 | Instelling | Berekening en weergave |
 |--- |--- |
@@ -72,9 +72,9 @@ Sommige combinaties van belastinggerelateerde opties kunnen verwarrend zijn voor
 
 Als uw belastingberekening op een problematische configuratie gebaseerd is, verschijnen de volgende waarschuwingen:
 
-![&#128279;](../assets/icon-warning.png) **Waarschuwing** van het 0&rbrace; Uitroepingspunt `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`.
+![ ](../assets/icon-warning.png) Waarschuwing **van het 0} Uitroepingspunt**.`Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`
 
-![&#128279;](../assets/icon-warning.png) **Waarschuwing** van het 0&rbrace; Uitroepingspunt `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`.
+![ ](../assets/icon-warning.png) Waarschuwing **van het 0} Uitroepingspunt**.`Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`
 
 ## Plaats van levering van digitale goederen (EU)
 
@@ -89,7 +89,7 @@ Handelaren die worden gecontroleerd op voor digitale goederen betaalde belasting
 - Het verzendadres van de klant en een overzicht van een geslaagde betalingstransactie kunnen worden gebruikt om de woonplaats van de klant vast te stellen. (Betaling wordt alleen geaccepteerd als het verzendadres overeenkomt met de gegevens van de betalingsprovider.)
 - De informatie kan ook rechtstreeks worden vastgelegd via de gegevensopslag in de Commerce-databasetabellen.
 
-_&#x200B;**om digitale goederen belastinginformatie te verzamelen:**&#x200B;_
+_**om digitale goederen belastinginformatie te verzamelen:**_
 
 1. De belastingtarieven voor alle EU-lidstaten laden.
 
@@ -97,7 +97,7 @@ _&#x200B;**om digitale goederen belastinginformatie te verzamelen:**&#x200B;_
 
 1. Wijs al uw digitale goederen aan de de belastingklasse van het digitale goederenproduct toe.
 
-1. Creeer [&#x200B; belastingregels &#x200B;](tax-rules.md) voor uw fysieke goederen, gebruikend fysieke klassen van de productbelasting, en associeer hen met de aangewezen belastingtarieven.
+1. Creeer [ belastingregels ](tax-rules.md) voor uw fysieke goederen, gebruikend fysieke klassen van de productbelasting, en associeer hen met de aangewezen belastingtarieven.
 
 1. Maak belastingregels voor uw digitale goederen, gebruik de productbelastingklasse voor digitale goederen, en associeer deze met de juiste belastingtarieven voor EU-lidstaten.
 
@@ -107,8 +107,5 @@ _&#x200B;**om digitale goederen belastinginformatie te verzamelen:**&#x200B;_
 
 Aanvullende bronnen:
 
-- [ Belastingen en Douane-unie van de Europese Commissie ][1]
-- [ EU 1015 Plaats van de Veranderingen van de Levering ][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [ Belastingen en Douane-unie van de Europese Commissie ](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [ EU 1015 Plaats van de Veranderingen van de Levering ](https://www2.deloitte.com/global/en/services/tax.html)

@@ -3,9 +3,9 @@ title: Productvideo's toevoegen
 description: Leer hoe u productvideo's voor uw winkel kunt configureren. Hiervoor is een YouTube API-sleutel van een Google-account vereist en u voegt een videokoppeling voor een product toe.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: e439c1082834cbc81f6ccc7ca99e240d649c8b81
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 ## Stap 1: De YouTube API-sleutel ophalen
 
-1. Login aan uw rekening van Google en bezoek de [ Console van de Ontwikkelaars van Google ][1].
+1. Login aan uw rekening van Google en bezoek de [ Console van de Ontwikkelaars van Google ](https://console.developers.google.com/).
 
 1. Typ `YouTube Data API v3` in het zoekveld bovenaan en klik op het zoekpictogram.
 
@@ -44,9 +44,9 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_&#x200B;sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de _[!UICONTROL Product Video]_sectie uit en kleef uw **[!UICONTROL YouTube API key]**.
 
-   ![&#x200B; de Videoconfiguratie van het Product &#x200B;](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
+   ![ de Videoconfiguratie van het Product ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -56,9 +56,9 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Open een product in de bewerkingsmodus.
 
-1. Blader naar de sectie _[!UICONTROL Images and Videos]_&#x200B;en vouw deze uit.
+1. Blader naar de sectie _[!UICONTROL Images and Videos]_en vouw deze uit.
 
-   ![&#x200B; Beelden en Video&#39;s &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![ Beelden en Video&#39;s ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Video]** .
 
@@ -66,7 +66,7 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
 1. Voer bij **[!UICONTROL Url]** de URL in van de YouTube- of Vimeo-video.
 
-   ![&#x200B; Nieuwe video voor product &#x200B;](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![ Nieuwe video voor product ](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. Klik buiten het veld en wacht op feedback op de API-sleutel of -video.
 
@@ -94,11 +94,11 @@ Als u een productvideo wilt toevoegen, moet u eerst een API-sleutel verkrijgen v
 
    >[!NOTE]
    >
-   >Als de configuratieoptie _[!UICONTROL Autostart base video]_&#x200B;is ingesteld op `Yes` maar de video niet automatisch begint af te spelen, kan dit worden veroorzaakt door het automatisch afspeelbeleid dat door de browser wordt afgedwongen en dat niet door Adobe Commerce kan worden beheerd. Elke ondersteunde browser heeft een eigen beleid voor automatisch afspelen dat in de loop der tijd kan worden gewijzigd en de video wordt in de toekomst mogelijk niet automatisch afgespeeld. Als geadviseerde beste praktijken, zou u niet op autoplay voor bedrijfskritieke functionaliteit moeten vertrouwen en zou het videogedrag in uw opslag met elke gesteunde browser moeten testen.
+   >Als de configuratieoptie _[!UICONTROL Autostart base video]_is ingesteld op `Yes` maar de video niet automatisch begint af te spelen, kan dit worden veroorzaakt door het automatisch afspeelbeleid dat door de browser wordt afgedwongen en dat niet door Adobe Commerce kan worden beheerd. Elke ondersteunde browser heeft een eigen beleid voor automatisch afspelen dat in de loop der tijd kan worden gewijzigd en de video wordt in de toekomst mogelijk niet automatisch afgespeeld. Als geadviseerde beste praktijken, zou u niet op autoplay voor bedrijfskritieke functionaliteit moeten vertrouwen en zou het videogedrag in uw opslag met elke gesteunde browser moeten testen.
 
 ## API-toegang behouden
 
-Volgens de de ontwikkelaar van Google [ Algemene Voorwaarden ], kan YouTube API toegang voor rekeningen onbruikbaar maken die meer dan 90 dagen inactief zijn geweest. Dit kan ertoe leiden dat uw video&#39;s niet worden weergegeven. Als u de API-toegang up-to-date wilt houden, gebruikt u een snijtaak om de API regelmatig te pingelen:
+Volgens de de ontwikkelaar van Google [ Algemene Voorwaarden ](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services), kan YouTube API toegang voor rekeningen onbruikbaar maken die meer dan 90 dagen inactief zijn geweest. Dit kan ertoe leiden dat uw video&#39;s niet worden weergegeven. Als u de API-toegang up-to-date wilt houden, gebruikt u een snijtaak om de API regelmatig te pingelen:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -116,6 +116,3 @@ Volgens de de ontwikkelaar van Google [ Algemene Voorwaarden ], kan YouTube API 
 | [!UICONTROL Role] | Hiermee bepaalt u hoe de voorvertoning wordt gebruikt in de winkel. U kunt een willekeurige combinatie van opties kiezen: `Base Image` , `Small Image` , `Thumbnail` , `Swatch Image` , `Hide from Product Page` |
 
 {style="table-layout:auto"}
-
-[1]: https://console.developers.google.com/
-[Voorwaarden en bepalingen]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

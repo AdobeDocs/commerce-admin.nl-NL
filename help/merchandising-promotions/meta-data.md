@@ -1,45 +1,45 @@
 ---
-title: Metagegevens
+title: Meta-gegevens
 description: Leer hoe u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma's uw Commerce-site indexeren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metagegevens
+# Meta-gegevens
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; meta-gegevensrichtlijnen &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=nl-NL) in de documentatie van het Snel van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [ meta-gegevensrichtlijnen ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in de documentatie van het Snel van Commerce
 
 Uw winkel wordt geladen met plaatsen waar u trefwoordrijke metagegevens kunt invoeren om de manier te verbeteren waarop zoekprogramma&#39;s uw site indexeren. Tijdens het instellen van de winkel kunt u voorlopige metagegevens invoeren, met de bedoeling deze later af te ronden. In de loop der tijd kunt u de metagegevens afstemmen op de aankooppatronen en -voorkeuren van uw klanten.
 
-![&#x200B; montages van het Product - de optimalisering van de onderzoeksmotor &#x200B;](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
+![ montages van het Product - de optimalisering van de onderzoeksmotor ](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
 ## Meta-titel
 
 De titel van de meta wordt weergegeven in de titelbalk en op het tabblad van uw browser en in aanbiedingen met zoekresultaten. De titel van de meta zou uniek aan de pagina moeten zijn, en minder dan 70 karakters in lengte.
 
-![&#x200B; storefront van het Voorbeeld - metattitle &#x200B;](./assets/storefront-home-page-meta-title.png){width="600"}
+![ storefront van het Voorbeeld - metattitle ](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta-trefwoorden
 
 Hoewel sommige zoekprogramma&#39;s metatrefwoorden negeren, blijven andere deze gebruiken. De huidige beste praktijken moeten high-value sleutelwoorden in de metattitel en meta beschrijving opnemen.
 
-![&#x200B; browser van het Web onderzoek - metatrefwoorden &#x200B;](./assets/storefront-meta-description.png){width="500"}
+![ browser van het Web onderzoek - metatrefwoorden ](./assets/storefront-meta-description.png){width="500"}
 
 ## Meta-beschrijving
 
-Meta-beschrijvingen bieden een kort overzicht van de pagina voor aanbiedingen met zoekresultaten. In het ideale geval moet een metabeschrijving tussen 150 en 160 tekens lang zijn, hoewel het veld maximaal 255 tekens accepteert.
+Meta-beschrijvingen bieden een kort overzicht van de pagina voor zoekresultaten. In het ideale geval moet een metabeschrijving tussen 150 en 160 tekens lang zijn, hoewel het veld maximaal 255 tekens accepteert.
 
 ## Rijke fragmenten
 
-Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {&rbrack;[1] norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. &lbrack; Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
+Rich snippets bieden gedetailleerde informatie voor zoekresultaten en andere toepassingen. Door gebrek, wordt de gestructureerde gegevensprijsverhoging die op de {[ norm 0} schema.org wordt gebaseerd toegevoegd aan het productmalplaatje van uw opslag. ](https://schema.org/) Dientengevolge, is meer informatie beschikbaar voor onderzoeksmotoren om als _rijke fragmenten_ in productlijsten te omvatten.
 
 ## Canonical meta tag
 
@@ -74,15 +74,15 @@ U kunt voorkomen dat zoekmachines worden gestraft door de categorie weg te laten
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **sectie van de Optimalisering van de Motor van het Onderzoek**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **sectie van de Optimalisering van de Motor van het Onderzoek**.
 
-   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0&rbrace; Gebruik na elk gebied eerst ontruimen.**
+   Om om het even welke gebiedswaarden te veranderen, moet u het **checkbox van de systeemwaarde van het 0} Gebruik na elk gebied eerst ontruimen.**
 
-   ![&#x200B; configuratie van de Catalogus - de optimalisering van de onderzoeksmotor &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - de optimalisering van de onderzoeksmotor ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. Als u wilt dat zoekprogramma&#39;s alleen categoriepagina&#39;s indexeren met het volledige categoriepad, doet u het volgende:
 
-   - Plaats **Markering van Meta van de Verbinding van het Gebruik Canonical voor Categorieën** aan `Yes`.
+   - Plaats **de Canonieke Markering van Meta van de Verbinding van het Gebruik voor Categorieën** aan `Yes`.
 
    - Plaats **de Canonieke markering van Meta van de Verbinding van het Gebruik voor Producten** aan `No`.
 
@@ -90,7 +90,7 @@ U kunt voorkomen dat zoekmachines worden gestraft door de categorie weg te laten
 
    - Plaats **de Canonieke markering van Meta van de Verbinding van het Gebruik voor Producten** aan `Yes`.
 
-   - Plaats **Markering van Meta van de Verbinding van het Gebruik Canonical voor Categorieën** aan `No`.
+   - Plaats **de Canonieke Markering van Meta van de Verbinding van het Gebruik voor Categorieën** aan `No`.
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -99,5 +99,3 @@ U kunt voorkomen dat zoekmachines worden gestraft door de categorie weg te laten
 Bekijk deze video voor meer informatie over het beheer van SEO-metagegevens:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
-
-[1]: https://schema.org/

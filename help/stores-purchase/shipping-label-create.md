@@ -3,7 +3,7 @@ title: Verzendlabels en -pakketten maken
 description: Leer hoe u items in een bestelling verpakt en verzendlabels maakt.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -24,20 +24,20 @@ Neem contact op met elke vervoerder die je gebruikt om verzendlabels voor je win
 
 Volg de instructies van elke vervoerder om ondersteuning voor verzendlabels aan uw account toe te voegen.
 
-- **FedEx** - de Diensten van de Integratie van het Web van het Contact [ FedEx ][1] om over de vereisten van de etiketdruk voor uw rekening te leren.
-- **USPS** - verwijs naar het [ Web Tools API Portal ][4] onder het Centrum van de Steun van de Schepper om te leren hoe te opstelling uw geloofsbrieven van de etiketdruk.
-- **UPS** - Contacteer [ UPS ][2] om te bevestigen dat uw rekening het verschepen etiketten steunt. Als u verzendlabels wilt genereren, moet u de optie UPS XML gebruiken.
-- **DHL** - de Oplossingen van de eCommerce van het Contact [ ][3] om over de vereisten van de etiketdruk voor uw rekening te leren.
+- **FedEx** - de Diensten van de Integratie van het Web van het Contact [ FedEx ](https://www.fedex.com/en-us/api/get-support.html) om over de vereisten van de etiketdruk voor uw rekening te leren.
+- **USPS** - verwijs naar het [ Web Tools API Portal ](https://www.usps.com/business/web-tools-apis/#ssc) onder het Centrum van de Steun van de Schepper om te leren hoe te opstelling uw geloofsbrieven van de etiketdruk.
+- **UPS** - Contacteer [ UPS ](https://www.ups.com/us/en/support/contact-us.page) om te bevestigen dat uw rekening het verschepen etiketten steunt. Als u verzendlabels wilt genereren, moet u de optie UPS XML gebruiken.
+- **DHL** - de Oplossingen van de eCommerce van het Contact [ ](https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html) om over de vereisten van de etiketdruk voor uw rekening te leren.
 
 ## Stap 2: Werk de configuratie voor elke drager bij
 
-1. Zorg ervoor dat uw [&#x200B; Informatie van de Opslag &#x200B;](../getting-started/store-details.md#store-information) volledig is.
+1. Zorg ervoor dat uw [ Informatie van de Opslag ](../getting-started/store-details.md#store-information) volledig is.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Shipping Settings]** .
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit en vorm **[!UICONTROL Shipping Origin Address]**.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Origin]** sectie uit en vorm **[!UICONTROL Shipping Origin Address]**.
 
 1. Volg de onderstaande instructies voor elke drageraccount die is geactiveerd voor labelafdrukken.
 
@@ -45,9 +45,9 @@ Volg de instructies van elke vervoerder om ondersteuning voor verzendlabels aan 
 
 United Parcel Service verzendt zowel binnenlands als internationaal. Verzendlabels kunnen echter alleen worden gegenereerd voor zendingen die afkomstig zijn uit de Verenigde Staten.
 
-1. Kies _[!UICONTROL Sales]_&#x200B;in de sectie **[!UICONTROL Delivery Methods]**&#x200B;in het linkerdeelvenster.
+1. Kies _[!UICONTROL Sales]_in de sectie **[!UICONTROL Delivery Methods]**in het linkerdeelvenster.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL UPS]** sectie uit.
 
 1. Controleer of uw UPS **[!UICONTROL Shipper Number]** juist is.
 
@@ -61,7 +61,7 @@ De [!DNL United States Postal Service] wordt zowel intern als internationaal ver
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL USPS]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL USPS]** sectie.
 
 1. Selecteer **[!UICONTROL USPS Type]** als `USPS Rest APIs` of `USPS Web Tools API` .
 
@@ -99,7 +99,7 @@ De [!DNL United States Postal Service] wordt zowel intern als internationaal ver
 
 FedEx wordt binnenlands en internationaal verzonden. Winkels buiten de Verenigde Staten kunnen alleen FedEx-labels maken voor internationale verzendingen.
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL FedEx]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL FedEx]** sectie.
 
 1. Controleer of de volgende FedEx-referenties correct zijn:
 
@@ -113,7 +113,7 @@ FedEx wordt binnenlands en internationaal verzonden. Winkels buiten de Verenigde
 
 DHL verleent internationale scheepvaartdiensten.
 
-1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![&#x200B; de selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL DHL]** sectie.
+1. Voortdurend in de **[!UICONTROL Delivery Methods]** configuratie, breid ![ de selecteur van de Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL DHL]** sectie.
 
 1. Controleer of **[!UICONTROL Gateway URL]** correct is.
 
@@ -145,7 +145,7 @@ DHL verleent internationale scheepvaartdiensten.
 
 1. Producten toevoegen of bijwerken in pakket:
 
-   - Klik op **[!UICONTROL Add Products]** om producten uit de volgorde aan het pakket toe te voegen. In de kolom _[!UICONTROL Quantity]_&#x200B;wordt het maximumaantal producten weergegeven dat beschikbaar is voor het pakket.
+   - Klik op **[!UICONTROL Add Products]** om producten uit de volgorde aan het pakket toe te voegen. In de kolom _[!UICONTROL Quantity]_wordt het maximumaantal producten weergegeven dat beschikbaar is voor het pakket.
 
    - Schakel het selectievakje in van elk product dat aan het pakket moet worden toegevoegd en voer de **[!UICONTROL Quantity]** van elk product in. Klik vervolgens op **[!UICONTROL Add Selected Product(s) to Package]** .
 
@@ -153,7 +153,7 @@ DHL verleent internationale scheepvaartdiensten.
 
    - Als u een pakket wilt verwijderen, klikt u op **[!UICONTROL Delete Package]** .
 
-   - Als u een bestelling wilt annuleren, klikt u op **[!UICONTROL Cancel]** . Er wordt geen verzendlabel gemaakt en het selectievakje _[!UICONTROL Create Shipping Label]_&#x200B;wordt gewist.
+   - Als u een bestelling wilt annuleren, klikt u op **[!UICONTROL Cancel]** . Er wordt geen verzendlabel gemaakt en het selectievakje _[!UICONTROL Create Shipping Label]_wordt gewist.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ DHL verleent internationale scheepvaartdiensten.
 
 1. Zoek de volgorde in het raster en open het verzendformulier.
 
-1. Klik in de sectie _[!UICONTROL Shipping and Tracking Information]_&#x200B;op **[!UICONTROL Create Shipping Label]**.
+1. Klik in de sectie _[!UICONTROL Shipping and Tracking Information]_op **[!UICONTROL Create Shipping Label]**.
 
 1. Verdeel de geordende producten naar de juiste pakketten en klik op **[!UICONTROL OK]** .
 
@@ -195,7 +195,7 @@ Verzendlabels worden gegenereerd in PDF-indeling en kunnen worden afgedrukt via 
 
    Afhankelijk van uw browserinstellingen kunnen de verzendlabels rechtstreeks vanuit het PDF-bestand worden weergegeven en afgedrukt.
 
-   De knop _[!UICONTROL Print Shipping Label]_&#x200B;wordt alleen weergegeven nadat de provider labels voor de verzending heeft gegenereerd. Klik op **[!UICONTROL Create Shipping Label]**&#x200B;als de knop ontbreekt. De knop wordt weergegeven nadat Commerce het label van de carrier heeft ontvangen.
+   De knop _[!UICONTROL Print Shipping Label]_wordt alleen weergegeven nadat de provider labels voor de verzending heeft gegenereerd. Klik op **[!UICONTROL Create Shipping Label]**als de knop ontbreekt. De knop wordt weergegeven nadat Commerce het label van de carrier heeft ontvangen.
 
 ### Methode 2: etiketten afdrukken voor meerdere bestellingen
 
@@ -224,7 +224,7 @@ Voor elke verzending die betrekking heeft op de geselecteerde bestellingen, word
 
 ## Pakketten maken
 
-Het venster _[!UICONTROL Create Packages]_&#x200B;wordt weergegeven wanneer u een verzendlabel maakt. U kunt direct beginnen het eerste pakket te vormen.
+Het venster _[!UICONTROL Create Packages]_wordt weergegeven wanneer u een verzendlabel maakt. U kunt direct beginnen het eerste pakket te vormen.
 
 ### Een pakket configureren
 
@@ -236,7 +236,7 @@ Het venster _[!UICONTROL Create Packages]_&#x200B;wordt weergegeven wanneer u ee
 
    - Vermeld de producten en de hoeveelheden.
 
-     In de kolom _[!UICONTROL Qty]_&#x200B;wordt de maximale hoeveelheid weergegeven die u kunt toevoegen. Voor de eerste verpakking is het nummer de totale hoeveelheid van het te verzenden product.
+     In de kolom _[!UICONTROL Qty]_wordt de maximale hoeveelheid weergegeven die u kunt toevoegen. Voor de eerste verpakking is het nummer de totale hoeveelheid van het te verzenden product.
 
    - Klik op **[!UICONTROL Add Selected Product(s) to Package]** om de producten aan het pakket toe te voegen.
 
@@ -276,7 +276,7 @@ U kunt desgewenst op **[!UICONTROL Cancel]** klikken om het proces te stoppen. D
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Type] | Geeft het type pakket aan. Selecteer een van de vooraf gedefinieerde waarden. De beschikbare pakkettypen zijn verschillend voor elke verzender. Als het pop-upvenster Pakketten maken wordt geopend, wordt het standaardpakket voor de verzendende provider weergegeven in het veld Type. Als u een pakket selecteert dat niet door een verzendende vervoerder is ontworpen, moet u de afmetingen van het pakket invoeren. Voor verzendlabels die zijn gemaakt voor DHL-, FedEx- en UPS-verzendingen, wordt het veld Type van goederen ingesteld op `Merchandise` . Voor USPS, wijst het gebied op de waarde van het _gebied van de Inhoud_ in het _[!UICONTROL Create Packages]_&#x200B;venster. |
+| [!UICONTROL Type] | Geeft het type pakket aan. Selecteer een van de vooraf gedefinieerde waarden. De beschikbare pakkettypen zijn verschillend voor elke verzender. Als het pop-upvenster Pakketten maken wordt geopend, wordt het standaardpakket voor de verzendende provider weergegeven in het veld Type. Als u een pakket selecteert dat niet door een verzendende vervoerder is ontworpen, moet u de afmetingen van het pakket invoeren. Voor verzendlabels die zijn gemaakt voor DHL-, FedEx- en UPS-verzendingen, wordt het veld Type van goederen ingesteld op `Merchandise` . Voor USPS, wijst het gebied op de waarde van het _gebied van de Inhoud_ in het _[!UICONTROL Create Packages]_venster. |
 | [!UICONTROL Total Weight] | Het totale gewicht van een verpakking. Het veld wordt voorgevuld met het totale gewicht van de producten in een verpakking. De meeteenheid kan worden ingesteld op kilogram of kilogram. |
 | [!UICONTROL Length] | De lengte van een pakket, geheel getal en drijvende-kommagetallen. Het veld wordt ingeschakeld als het aangepaste pakkettype wordt gebruikt. De maateenheid kan worden ingesteld op inches of centimeters. |
 | [!UICONTROL Width] | De breedte van een pakket, geheel getal en drijvende-kommagetallen. Het veld wordt ingeschakeld als het aangepaste pakkettype wordt gebruikt. U kunt de maateenheden opgeven in het vervolgkeuzemenu naast het veld Hoogte. U kunt deze eenheden selecteren tussen inches en centimeters. |
@@ -287,9 +287,5 @@ U kunt desgewenst op **[!UICONTROL Cancel]** klikken om het proces te stoppen. D
 
 {style="table-layout:auto"}
 
-[1]: https://www.fedex.com/en-us/api/get-support.html
-[2]: https://www.ups.com/us/en/support/contact-us.page
-[3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
-[4]: https://www.usps.com/business/web-tools-apis/#ssc
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

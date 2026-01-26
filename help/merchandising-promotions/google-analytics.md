@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: Leer hoe u  [!DNL Google Analytics]  kunt gebruiken om nuttige metriek voor uw plaatsen van Commerce te verzamelen.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Met [!DNL Google Analytics] kunt u aanvullende aangepaste afmetingen en maatstav
 
 >[!NOTE]
 >
->Als uw zaken aan privacyverordeningen zoals de [&#x200B; Algemene Verordening van de Bescherming van Gegevens &#x200B;](../getting-started/compliance-gdpr.md) en/of de [&#x200B; Wet van de Privacy van de consument van Californië &#x200B;](../getting-started/compliance-ccpa.md) onderworpen zijn, zie [&#x200B; de Montages van de Privacy van Google &#x200B;](google-tools.md#google-privacy-settings).
+>Als uw zaken aan privacyverordeningen zoals de [ Algemene Verordening van de Bescherming van Gegevens ](../getting-started/compliance-gdpr.md) en/of de [ Wet van de Privacy van de consument van Californië ](../getting-started/compliance-ccpa.md) onderworpen zijn, zie [ de Montages van de Privacy van Google ](google-tools.md#google-privacy-settings).
 
 >[!IMPORTANT]
 >
->Als u de [&#x200B; Wijze van de Beperking van het Koekje &#x200B;](../getting-started/compliance-cookie-law.md) toelaat, [!DNL Google Analytics] verzamelt geen gegevens over bezoekers tenzij zij koekjes hebben goedgekeurd.
+>Als u de [ Wijze van de Beperking van het Koekje ](../getting-started/compliance-cookie-law.md) toelaat, [!DNL Google Analytics] verzamelt geen gegevens over bezoekers tenzij zij koekjes hebben goedgekeurd.
 
 ## [!DNL Google Analytics] 4
 
@@ -30,8 +30,8 @@ Met [!DNL Google Analytics] kunt u aanvullende aangepaste afmetingen en maatstav
 
 Als u nog geen [!DNL Google Analytics] 4-instelling voor uw site hebt, voert u een van de volgende methoden uit:
 
-- [&#x200B; de gegevensinzameling van de Analyse van de opstelling voor de eerste keer &#x200B;](https://support.google.com/analytics/answer/9304153)
-- [&#x200B; voeg Googles Analytics 4 aan een plaats met  [!DNL Universal Analytics] toe &#x200B;](https://support.google.com/analytics/answer/9744165)
+- [ de gegevensinzameling van de Analyse van de opstelling voor de eerste keer ](https://support.google.com/analytics/answer/9304153)
+- [ voeg Google Analytics 4 aan een plaats met  [!DNL Universal Analytics] toe ](https://support.google.com/analytics/answer/9744165)
 
 ### Stap 2: De Commerce-configuratie voltooien
 
@@ -41,19 +41,19 @@ Als u nog geen [!DNL Google Analytics] 4-instelling voor uw site hebt, voert u e
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Google API]** .
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Google GTag]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google GTag]** sectie uit.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics4]** onderafdeling uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics4]** onderafdeling uit en doe het volgende:
 
    - Stel **[!UICONTROL Enable]** in op `Yes` .
 
    - Laat **[!UICONTROL Account type]** als `Google Analytics4` staan.
 
-   - Voer uw **[!UICONTROL Measurement ID]** in. Meer leren, zie [&#x200B; Hulp van Googles Analytics &#x200B;](https://support.google.com/analytics/answer/9539598).
+   - Voer uw **[!UICONTROL Measurement ID]** in. Meer leren, zie [ Hulp van Google Analytics ](https://support.google.com/analytics/answer/9539598).
 
    - Als u A/B het testen en andere prestatietests op uw inhoud wilt leiden, plaats **Experimenten van de Inhoud** aan `Yes`.
 
-   ![&#x200B; de configuratie van de Verkoop - Google API voor Googles Analytics 4 &#x200B;](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
+   ![ de configuratie van de Verkoop - Google API voor Google Analytics 4 ](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
@@ -61,11 +61,11 @@ Als u nog geen [!DNL Google Analytics] 4-instelling voor uw site hebt, voert u e
 
 >[!IMPORTANT]
 >
->Op 1 juli 2023 verwerken standaard Universal Analytics-eigenschappen geen gegevens meer. Als u nog op [!DNL Universal Analytics] vertrouwt, wordt het geadviseerd dat u [&#x200B; voorbereidt om Googles Analytics 4 &#x200B;](https://support.google.com/analytics/answer/10759417) vooruit te gebruiken.
+>Op 1 juli 2023 verwerken standaard Universal Analytics-eigenschappen geen gegevens meer. Als u nog op [!DNL Universal Analytics] vertrouwt, wordt het geadviseerd dat u [ voorbereidingen treft om Google Analytics 4 ](https://support.google.com/analytics/answer/10759417) vooruit te gebruiken.
 
 ### Stap 1: Google Universal Analytics instellen
 
-Bezoek de website van Google, en onderteken omhoog voor a [ Google Universal Analytics ][1] rekening.
+Bezoek de website van Google, en onderteken omhoog voor a [ Google Universal Analytics ](https://support.google.com/analytics/answer/2817075?hl=en) rekening.
 
 ### Stap 2: De Commerce-configuratie voltooien
 
@@ -75,7 +75,7 @@ Bezoek de website van Google, en onderteken omhoog voor a [ Google Universal Ana
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Google API]** .
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** sectie uit en doe het volgende:
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Google Analytics]** sectie uit en doe het volgende:
 
    - Stel **[!UICONTROL Enable]** in op `Yes` .
 
@@ -83,21 +83,21 @@ Bezoek de website van Google, en onderteken omhoog voor a [ Google Universal Ana
 
    - Als u A/B-tests en andere prestatietests wilt uitvoeren op uw inhoud, stelt u **[!UICONTROL Content Experiments]** in op `Yes` .
 
-   ![&#x200B; de configuratie van de Verkoop - Google API - Googles Analytics &#x200B;](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
+   ![ de configuratie van de Verkoop - Google API - Google Analytics ](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Config]** als de bewerking is voltooid.
 
 ## Verbeterde e-handel
 
-De verbeterde e-commerce is een insteekmodule voor [!DNL Google Universal Analytics] die u inzicht geeft in het winkelen en kopen gedrag van uw klanten. U kunt Verbeterde e-commerce gebruiken om rapporten over zeer belangrijke klantenactiviteiten, zoals te produceren wanneer de klanten punten de kar toevoegen, het controleproces beginnen, of een aankoop voltooien. U kunt ook patronen herkennen en analyseren van kopers die hun winkelwagentjes verlaten zonder een aankoop te doen.
+Enhanced Ecommerce is een plug-in voor [!DNL Google Universal Analytics] die u insight in staat stelt uw klanten te kopen en te winkelen. U kunt Verbeterde e-commerce gebruiken om rapporten over zeer belangrijke klantenactiviteiten, zoals te produceren wanneer de klanten punten de kar toevoegen, het controleproces beginnen, of een aankoop voltooien. U kunt ook patronen herkennen en analyseren van kopers die hun winkelwagentjes verlaten zonder een aankoop te doen.
 
 De volgende instructies tonen hoe u [!DNL Google Tag Manager] met [!DNL Universal Analytics] kunt configureren voor het produceren van uitgebreide e-commercegegevens en -rapporten.
 
 ### Stap 1. Aanmelden voor Google-accounts
 
-1. Teken omhoog voor a [&#x200B; Google de rekening van de Manager van de Markering &#x200B;](google-tag-manager.md), en voltooi de configuratie van Commerce.
+1. Teken omhoog voor a [ Google de rekening van de Manager van de Markering ](google-tag-manager.md), en voltooi de configuratie van Commerce.
 
-1. Teken omhoog voor een nieuwe [ Universele rekening van Analytics van Google ][1].
+1. Teken omhoog voor een nieuwe [ Universele rekening van Analytics van Google ](https://support.google.com/analytics/answer/2817075?hl=en).
 
 ### Stap 2. Verbeterde e-handel configureren
 
@@ -149,7 +149,7 @@ De volgende instructies tonen hoe u [!DNL Google Tag Manager] met [!DNL Universa
 
      | Instelling | Waarde |
      |--- |--- |
-     | [!UICONTROL Product] | Googles Analytics |
+     | [!UICONTROL Product] | Google Analytics |
      | [!UICONTROL Tag Type] | Universal Analytics |
      | [!UICONTROL Tracking ID] | UA-XXX (De id voor bijhouden van uw Universal Analytics-account.) |
      | [!UICONTROL Enable Enhanced Ecommerce Features] | Waar |
@@ -213,6 +213,3 @@ De volgende instructies tonen hoe u [!DNL Google Tag Manager] met [!DNL Universa
 1. Klik na voltooiing op **[!UICONTROL Preview]** en controleer of de labels goed werken.
 
 1. Klik op **[!UICONTROL Publish]** nadat u de instellingen hebt gecontroleerd.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en
