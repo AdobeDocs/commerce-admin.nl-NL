@@ -18,7 +18,7 @@ De pakken van de taal kunnen onder [&#x200B; Vertalingen &amp; Localization &#x2
 
 ## Stap 1: Een taalpakket installeren
 
-Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voor gedetailleerde informatie over het installeren van een uitbreiding, zie [&#x200B; Algemene installatie CLI &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in de _Gids van Uitbreidingen_.
+Volg de standaardinstructies voor het installeren van de taalpakketextensie. Voor gedetailleerde informatie over het installeren van een uitbreiding, zie [&#x200B; Algemene installatie CLI &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL) in de _Gids van Uitbreidingen_.
 
 ## Stap 2: Een winkelweergave voor de taal maken
 

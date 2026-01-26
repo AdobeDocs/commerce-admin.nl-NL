@@ -43,7 +43,7 @@ De volgende bronnen bieden een beginpunt voor nieuwe gebruikers om vertrouwd te 
 
 ## [!DNL Marketplace] referenties
 
-Voordat u een extensie kunt installeren die u hebt aangeschaft van [!DNL Commerce Marketplace] , meldt u zich aan bij uw [!DNL Commerce] -account en controleert u of u een actieve toegangssleutel hebt. U kunt binnen aan uw [!DNL Commerce] rekening van de kopbal van [[!DNL Marketplace] ondertekenen &#x200B;](https://marketplace.magento.com/) of [&#x200B; Magento.com &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html).
+Voordat u een extensie kunt installeren die u hebt aangeschaft van [!DNL Commerce Marketplace] , meldt u zich aan bij uw [!DNL Commerce] -account en controleert u of u een actieve toegangssleutel hebt. U kunt binnen aan uw [!DNL Commerce] rekening van de kopbal van [[!DNL Marketplace] ondertekenen &#x200B;](https://marketplace.magento.com/) of [&#x200B; Magento.com &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html).
 
 Uw toegangssleutel is een reeks openbare en persoonlijke sleutels die wordt gebruikt om uw [!DNL Commerce] installatie met uw [!DNL Commerce] rekening te synchroniseren en uw geloofsbrieven te verifiëren. Nadat uw account is gesynchroniseerd, moet u elke keer dat u een extensie of module installeert vanuit Commerce Marketplace, uw persoonlijke sleutel invoeren of de installatie van [!DNL Commerce] upgraden.
 
@@ -77,7 +77,7 @@ U kunt meerdere toegangstoetsen maken voor verschillende doeleinden en deze naar
 
 >[!IMPORTANT]
 >
->Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#x200B; te installeren of &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) verbetering [&#x200B; uw instantie. &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) Dit vereiste omvat ook [&#x200B; modules &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Beginnend met Adobe Commerce en Magento Open Source 2.4.0, wordt de Tovenaar van de Opstelling van het Web verwijderd, en u moet de bevellijn gebruiken om [&#x200B; te installeren of &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=nl-NL) verbetering [&#x200B; uw instantie. &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=nl-NL) Dit vereiste omvat ook [&#x200B; modules &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) en [&#x200B; uitbreidingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=nl-NL).
 
 Het installatieproces voor [!DNL Marketplace] aankopen is verschillend voor _op-gebouw_ installaties van Commerce dan voor installaties die op [&#x200B; worden ontvangen de Architectuur van de Wolk van Adobe &#x200B;](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -109,7 +109,7 @@ Aanmeldingsproblemen hebben doorgaans betrekking op een onjuiste combinatie van 
 
 ### Bronvragen openen
 
-Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/products/magento/partners.html) die met Magento Open Source kan helpen.
+Het team van de Steun van de Marktplaats lost kwesties met betrekking tot [&#x200B; handelsemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) en [&#x200B; handelsontwikkelaar.adobe.com/](https://commercedeveloper.adobe.com/) slechts plaatsen op. Gelieve te richten vragen over Magento Open Source aan het [&#x200B; Communautaire Forum &#x200B;](https://community.magento.com/) of [&#x200B; contact een partner &#x200B;](https://business.adobe.com/nl/products/magento/partners.html) die met Magento Open Source kan helpen.
 
 ### Terugbetalingsaanvragen
 

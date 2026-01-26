@@ -18,7 +18,7 @@ Configureer uw winkel om belastingen te berekenen volgens de vereisten van uw la
 >
 >Adobe Commerce en Magento Open Source geven 2.4.0 tot en met 2.4.3 uit, inclusief de uitbreiding van de Vertex-leverancier die wordt gebruikt voor integratie met de Vertex Cloud om belastingbeheer en adreszuivering te bieden. Vanaf de release 2.4.4 wordt deze extensie niet meer gebundeld met de kernrelease en moet deze worden geïnstalleerd en bijgewerkt vanaf de Commerce Marketplace of rechtstreeks vanaf de leverancier. [&#x200B; Vertex van het Contact &#x200B;](https://marketplace.magento.com/partner/vertex_inc) voor informatie over de uitbreiding en de documentatie.<br><br>
 >
->Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [&#x200B; modules van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering_.
+>Als u de gebundelde toegelaten en gevormde uitbreiding hebt, moet u uw composer.json- dossier als deel van het 2.4.4 verbeteringsproces bijwerken en om extensie updates te beheren die door:gaan. Zie [&#x200B; modules van de Verbetering &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering_.
 
 ## Snelle verwijzing
 

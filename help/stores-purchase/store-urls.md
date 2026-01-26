@@ -3,7 +3,7 @@ title: URL's opslaan
 description: Leer over opslag URLs en hoe te om basisURL en opslagcodes te vormen.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1529'
@@ -138,7 +138,7 @@ Als na het volgen van de configuratieinstructies, sommige pagina&#39;s met onvei
 
 ## Een aangepaste Admin URL gebruiken
 
-Als beste praktijken van de a [&#x200B; veiligheid &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), adviseert Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
+Als beste praktijken van de a [&#x200B; veiligheid &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), adviseert Adobe dat u unieke Admin URL in plaats van standaard _admin_ of een gemeenschappelijke termijn zoals _achterste_ gebruikt. Hoewel uw site niet direct wordt beschermd tegen een bepaalde slechte actor, kan de site de blootstelling aan scripts verminderen die proberen onbevoegde toegang te krijgen.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
 >[!NOTE]
 >
->Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [&#x200B; instructies &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
+>Als voorzorgsmaatregel, probeer niet om Admin URL zelf te veranderen tenzij u weet hoe te om configuratiedossiers op de server uit te geven. Voor de projecten van Adobe Commerce die op wolkeninfrastructuur worden opgesteld, verander Admin URL door de [&#x200B; instructies &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL#admin-url) in *Adobe Commerce op de Gids van de Infrastructuur van de Wolk te volgen*.
 
 ### Methode 1: Wijzigen ten opzichte van de beheerder
 
@@ -200,7 +200,7 @@ Hoewel het mogelijk is de URL en het pad van de beheerder naar een andere locati
 
    >[!TIP]
    >
-   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [&#x200B; onderwerp van Admin variabelen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
+   >Voor Adobe Commerce op cloudinfrastructuur kunt u een aangepast beheerpad instellen met de variabele `ADMIN_URL` in de interface van de cloud. Zie het [&#x200B; onderwerp van Admin variabelen &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_.
 
    - **Standaard Admin Weg**
 

@@ -111,8 +111,8 @@ Maak een inventaris van uw digitale eigenschappen, inclusief alle integraties en
 
 1. Zie de volgende onderwerpen voor toepasselijke gegevensstroomdiagrammen en de afbeeldingen van de gegevensbestandentiteit voor elke versie:
 
-   - [&#x200B; Persoonlijke Verwijzing van de Informatie (2.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [&#x200B; Persoonlijke Verwijzing van de Informatie (1.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [&#x200B; Persoonlijke Verwijzing van de Informatie (2.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=nl-NL)
+   - [&#x200B; Persoonlijke Verwijzing van de Informatie (1.x) &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=nl-NL)
 
    ![&#x200B; diagram &#x200B;](./assets/privacy-frontend-diagram.svg)
 

@@ -40,7 +40,7 @@ De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijv
 
 ![&#x200B; checkbox &#x200B;](../assets/checkbox.png) - handhaaf een beleid dat informatieveiligheid richt.
 
-Om meer te leren, zie [&#x200B; de Benadering van Adobe aan Naleving PCI &#x200B;](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Om meer te leren, zie [&#x200B; de Benadering van Adobe aan Naleving PCI &#x200B;](https://business.adobe.com/nl/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

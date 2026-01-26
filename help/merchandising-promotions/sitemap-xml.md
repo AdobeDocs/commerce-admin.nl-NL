@@ -3,7 +3,7 @@ title: Site-maps
 description: Leer hoe u een site-overzicht configureert om alle pagina's en afbeeldingen van uw Commerce-sites te indexeren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in de documentatie van de Storefront van Commerce
+>Voor Adobe Commerce as a Cloud Service, zie de [&#x200B; richtlijnen van SEO &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL) in de documentatie van de Storefront van Commerce
 
 Een site-overzicht verbetert de manier waarop uw winkel wordt geïndexeerd door zoekprogramma&#39;s en is ontworpen om pagina&#39;s te zoeken die mogelijk door webcrawlers worden genegeerd. U kunt een site-overzicht configureren om alle pagina&#39;s en afbeeldingen te indexeren.
 
@@ -23,7 +23,7 @@ Als deze optie is ingeschakeld, maakt Commerce een bestand met de naam `sitemap.
 
 Terwijl uw site in ontwikkeling is, kunt u instructies in het `robots.txt` -bestand opnemen om te voorkomen dat webcrawlers de site indexeren. Vervolgens kunt u de instructies wijzigen zodat de site kan worden geïndexeerd.
 
-Voor technische informatie, zie [&#x200B; sitemap en robots.txt &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in _Commerce op de Gids van de Infrastructuur van de Wolk_ toevoegen.
+Voor technische informatie, zie [&#x200B; sitemap en robots.txt &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=nl-NL) in _Commerce op de Gids van de Infrastructuur van de Wolk_ toevoegen.
 
 ![&#x200B; Net van de Sitemap &#x200B;](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Ga als volgt te werk om sitemaps voor een instantie van meerdere winkels te make
    
 >[!NOTE]
 >
->Als uw plaats de [&#x200B; Apache &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) motor van de Webserver gebruikt, zou u het [`.htaccess` &#x200B;](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
+>Als uw plaats de [&#x200B; Apache &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=nl-NL) motor van de Webserver gebruikt, zou u het [`.htaccess` &#x200B;](https://httpd.apache.org/docs/current/howto/htaccess.html) dossier in de wortel van uw website moeten bijwerken om het even welke andere verzoeken sitemap aan de juiste plaats te leiden.
 
 ## Kolombeschrijvingen
 

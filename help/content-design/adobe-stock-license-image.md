@@ -3,7 +3,7 @@ title: Een Adobe Stock-afbeelding in licentie geven
 description: Als u juridische toegang wilt garanderen en het Adobe Stock-watermerk wilt verwijderen, moet u een licentie voor uw Adobe Stock-afbeeldingen aanschaffen.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '389'
@@ -21,7 +21,7 @@ De nieuwe [[!DNL Media Gallery]](media-gallery.md) biedt een directe integratie 
 
 **Eerste vereisten**
 
-De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als de [&#x200B; Integratie van Adobe Stock &#x200B;](./adobe-stock.md) geïnstalleerd en gevormd is. Het verlenen van vergunningen [&#x200B; beelden van Adobe Stock &#x200B;](https://stock.adobe.com) vereist een betaald plan van Adobe Stock en een [&#x200B; rekening van Adobe &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als de [&#x200B; Integratie van Adobe Stock &#x200B;](./adobe-stock.md) geïnstalleerd en gevormd is. Het verlenen van vergunningen [&#x200B; beelden van Adobe Stock &#x200B;](https://stock.adobe.com) vereist een betaald plan van Adobe Stock en een [&#x200B; rekening van Adobe &#x200B;](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als d
 
    >[!NOTE]
    >
-   >U moet beschikbare [&#x200B; credits van Adobe Stock &#x200B;](https://helpx.adobe.com/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
+   >U moet beschikbare [&#x200B; credits van Adobe Stock &#x200B;](https://helpx.adobe.com/nl/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
 
 ## Een licentie geven voor een afbeelding van de standaard opslagmedia
 
@@ -63,7 +63,7 @@ De Adobe Stock verlenen van vergunningen eigenschap is beschikbaar slechts als d
 
      >[!NOTE]
      >
-     >U moet beschikbare [&#x200B; credits van Adobe Stock &#x200B;](https://helpx.adobe.com/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
+     >U moet beschikbare [&#x200B; credits van Adobe Stock &#x200B;](https://helpx.adobe.com/nl/stock/help/credit-packs.html) in uw rekening hebben om het beeld in licentie te geven.
 
    Deze actie toont een herinnering voor u om een dossier te specificeren - naam die wordt gebruikt om het beeld aan de [&#x200B; media opslag &#x200B;](./media-storage.md) te bewaren. Er is een standaardbestandsnaam opgegeven, maar u kunt de naam aanpassen aan uw voorkeuren.
 

@@ -19,7 +19,7 @@ Uw inhoud moet de branding van uw winkel weerspiegelen en wordt geleverd met uw 
 
 Adobe Commerce en Magento Open Source bieden veel gebruiksvriendelijke ontwerpopties waarmee u eenvoudige wijzigingen in uw winkel kunt aanbrengen. Er zijn ook vele professioneel ontworpen thema&#39;s beschikbaar in [&#x200B; Commerce Marketplace &#x200B;](../getting-started/commerce-marketplace.md). Net als bij het uitkleden van je winkel, kun je het thema voor het seizoen of voor een speciale actie wijzigen.
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} Geavanceerde opslagontwerpers waarderen de flexibiliteit om met een object-oriented milieu te werken dat pagina&#39;s van afzonderlijke componenten assembleert. Als u de grondbeginselen begrijpt, zult u het op prijs stellen om in zo&#39;n flexibele en vloeiende omgeving te werken. Meer leren, zie de [&#x200B; Voorste Gids van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/).
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} Geavanceerde opslagontwerpers waarderen de flexibiliteit om met een object-oriented milieu te werken dat pagina&#39;s van afzonderlijke componenten assembleert. Als u de grondbeginselen begrijpt, zult u het op prijs stellen om in zo&#39;n flexibele en vloeiende omgeving te werken. Meer leren, zie de [&#x200B; Voorste Gids van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ### Configuratie
 
@@ -31,7 +31,7 @@ Het [&#x200B; thema &#x200B;](themes.md) bepaalt de visuele presentatie van uw o
 
 ### Schema
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 De thema&#39;s kunnen voor een specifieke tijdspanne, volgens a [&#x200B; programma &#x200B;](schedule.md) worden geactiveerd. Gebruik het schema om van tevoren wijzigingen in thema&#39;s te plannen voor een seizoen of speciale actie.
 

@@ -47,6 +47,6 @@ Ondernemingen die aan de GDPR voldoen, kunnen aanvullende verplichtingen uit hoo
 
 - Transparantie behouden en grondige documentatie bewaren.
 
-- Om te leren hoe de hulp van Adobe verkopers aan toepasselijke wettelijke verplichtingen voldoet, bezoek de [&#x200B; website &#x200B;](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
+- Om te leren hoe de hulp van Adobe verkopers aan toepasselijke wettelijke verplichtingen voldoet, bezoek de [&#x200B; website &#x200B;](https://business.adobe.com/nl/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Voor de diagrammen van de gegevensstroom en de afbeelding van de gegevensbestandentiteit, zie de [&#x200B; Verwijzing van de Persoonlijke Informatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- Voor de diagrammen van de gegevensstroom en de afbeelding van de gegevensbestandentiteit, zie de [&#x200B; Verwijzing van de Persoonlijke Informatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=nl-NL){: target="_blank"}.

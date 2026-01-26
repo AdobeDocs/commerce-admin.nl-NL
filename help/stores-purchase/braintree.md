@@ -3,7 +3,7 @@ title: Braintree
 description: Leer hoe u Braintree instelt als een online betalingsoplossing in uw winkel.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [&#x200B; annuleer abonnement &#x200B;](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) pagina voor hulp.
+>Als u hulp met onverwachte kosten op uw kaart nodig hebt, bezoek [&#x200B; annuleer abonnement &#x200B;](https://helpx.adobe.com/nl/manage-account/using/cancel-subscription.html) pagina voor hulp.
 
 Braintree biedt een volledig aanpasbare afrekenervaring met fraudedetectie en PayPal-integratie. Deze biedt ondersteuning voor [!DNL Apple Pay] -, [!DNL Google Pay] -, ACH-, Venmo- en lokale betalingsmethoden. Braintree vermindert de PCI-nalevingslast voor handelaren omdat de transactie plaatsvindt op het Braintree-systeem. De integratie van de Betalingen van Braintree wordt ontwikkeld door [&#x200B; GENE Commerce &#x200B;](https://www.gene.co.uk/gene-braintree-payments/).
 

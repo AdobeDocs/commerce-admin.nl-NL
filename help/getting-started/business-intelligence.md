@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence] gereedschappen'
 description: Leer hoe Adobe Commerce en Magento Open Source kooplieden Commerce Intelligence-tools kunnen gebruiken om de insight te winnen die wordt gebruikt om goede zakelijke beslissingen te nemen.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
@@ -17,7 +17,7 @@ Gebruik Commerce Intelligence-tools om de insight te winnen die wordt gebruikt o
 
 ## [!DNL Commerce Intelligence] account
 
-Wanneer u een [!DNL Commerce Intelligence] -account activeert via Adobe, hebt u toegang tot vijf dashboards met ongeveer 70 rapporten. Deze rapporten zijn ontworpen om inzicht te verschaffen in uw gegevens en vragen te beantwoorden zoals &quot;Hoe worden mijn bestellingen maandelijks gegroeid?&quot;, &quot;Wie zijn mijn meest loyale klanten?&quot;, en &quot;Werkt mijn couponstrategie?&quot; Voor gedetailleerde informatie over deze hulpmiddelreeks, zie de [&#x200B; Gids van de Gebruiker van Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
+Wanneer u een [!DNL Commerce Intelligence] -account activeert via Adobe, hebt u toegang tot vijf dashboards met ongeveer 70 rapporten. Deze rapporten zijn ontworpen om inzicht te verschaffen in uw gegevens en vragen te beantwoorden zoals &quot;Hoe worden mijn bestellingen maandelijks gegroeid?&quot;, &quot;Wie zijn mijn meest loyale klanten?&quot;, en &quot;Werkt mijn couponstrategie?&quot; Voor gedetailleerde informatie over deze hulpmiddelreeks, zie de [&#x200B; Gids van de Gebruiker van Commerce Intelligence &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=nl-NL).
 
 ## [!DNL Advanced Reporting]
 
@@ -43,7 +43,7 @@ Voor technische informatie, zie het [[!DNL Advanced Reporting] &#x200B;](https:/
 
 * In de [!DNL Commerce] -configuratie voor opslag-URL&#39;s moeten **[!UICONTROL Use Secure URLs on Storefront]** en **[!UICONTROL Use Secure URLs in Admin]** zijn ingesteld op `Yes` .
 
-* [[!DNL Commerce]  contab &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) wordt gecreeerd en de bouwbanen lopen op de geïnstalleerde server.
+* [[!DNL Commerce]  contab &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=nl-NL) wordt gecreeerd en de bouwbanen lopen op de geïnstalleerde server.
 
 >[!NOTE]
 >
