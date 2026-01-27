@@ -3,7 +3,7 @@ title: Adobe Stock-integratie
 description: Integreer Adobe Stock met uw  [!DNL Commerce]  instantie om tot talloze media activa voor gebruik in uw opslag toegang te hebben.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
 source-wordcount: '400'
@@ -28,7 +28,7 @@ Deze integratie vereist:
 
 Voor licenties voor Adobe Stock-afbeeldingen is het volgende vereist:
 
-- Een [&#x200B; rekening van Adobe &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Een [&#x200B; rekening van Adobe &#x200B;](https://helpx.adobe.com/nl/manage-account/using/access-adobe-id-account.html)
 - Een betaald [&#x200B; plan van Adobe Stock &#x200B;](https://stock.adobe.com) verbonden aan de rekening
 
 ## Integreer [!DNL Commerce] en Adobe Stock
