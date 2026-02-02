@@ -3,7 +3,7 @@ title: Aanvraaglijsten
 description: Meer informatie over aanvraaglijsten en hoe u deze kunt gebruiken om vaak bestelde producten aan het winkelwagentje toe te voegen.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Aanvraaglijsten
 
-Als u een aanvraaglijst gebruikt, bespaart u tijd bij het aanschaffen van vaak bestelde producten, omdat artikelen rechtstreeks vanuit de lijst aan het winkelwagentje worden toegevoegd. Kopers kunnen meerdere lijsten bijhouden die zich richten op producten van verschillende leveranciers, kopers, teams, campagnes of iets anders dat hun workflow stroomlijnt. Het is beschikbaar voor zowel aangemelde gebruikers als gasten.
+Als u een aanvraaglijst gebruikt, bespaart u tijd bij het aanschaffen van vaak bestelde producten, omdat artikelen rechtstreeks vanuit de lijst aan het winkelwagentje worden toegevoegd. Kopers kunnen meerdere lijsten bijhouden die zich richten op producten van verschillende leveranciers, kopers, teams, campagnes of iets anders dat hun workflow stroomlijnt. De functionaliteit van de aanvraaglijst is beschikbaar voor aangemelde gebruikers.
 
 >[!NOTE]
 >
->Om aanvraaglijsten voor uw opslag toe te laten, zie [&#x200B; Eigenschappen B2B &#x200B;](enable-basic-features.md) toelaten. Tot 999 verzoeklijsten kunnen voor elke kopersrekening, afhankelijk van de [&#x200B; configuratie &#x200B;](configure-requisition-lists.md) worden gehandhaafd.
+>Om aanvraaglijsten voor uw opslag toe te laten, zie [ Eigenschappen B2B ](enable-basic-features.md) toelaten. Tot 999 verzoeklijsten kunnen voor elke kopersrekening, afhankelijk van de [ configuratie ](configure-requisition-lists.md) worden gehandhaafd.
 
 De functionaliteit van de lijst met aanvragen is vergelijkbaar met die van lijsten met wensen, met de volgende verschillen:
 
 - Een aanvraaglijst wordt niet gewist nadat artikelen naar het winkelwagentje zijn verzonden. Het kan meerdere keren worden gebruikt.
 - De gebruikersinterface voor aanvraaglijsten gebruikt een compacte weergave om veel items weer te geven.
 
-![&#x200B; de Lijsten van de Verzoek die op de storefront &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"} worden getoond
+![ de Lijsten van de Verzoek die op de storefront ](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"} worden getoond
 
 ## Een aanvraaglijst maken via het dashboard van de account
 
@@ -31,11 +31,11 @@ Een aangemelde koper die is gekoppeld aan een bedrijfsaccount, kan een aanvraagl
 
 1. Kies **[!UICONTROL My Requisition Lists]** in de zijbalk van hun account.
 
-1. Klik op de pagina _[!UICONTROL Requisition Lists]_&#x200B;op **[!UICONTROL Create New Requisition List]**.
+1. Klik op de pagina _[!UICONTROL Requisition Lists]_op **[!UICONTROL Create New Requisition List]**.
 
 1. Voer **[!UICONTROL Requisition List Name]** en **[!UICONTROL Description]** in.
 
-   ![&#x200B; creeer de Lijst van de Vereiste &#x200B;](./assets/requisition-list-create.png){width="300"}
+   ![ creeer de Lijst van de Vereiste ](./assets/requisition-list-create.png){width="300"}
 
 1. Klik op **[!UICONTROL Save]** wanneer dit is voltooid.
 
@@ -70,7 +70,7 @@ Kopers kunnen producten toevoegen aan een aanvraaglijst via:
    - Kies een bestaande aanvraaglijst.
    - Hiermee maakt u een aanvraaglijst.
 
-   ![](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
+   ![ voeg aan de Lijst van de Vergunning toe ](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
 
 ### Van een cataloguspagina
 
@@ -83,7 +83,7 @@ Kopers kunnen producten toevoegen aan een aanvraaglijst via:
    - Kies een bestaande aanvraaglijst.
    - Hiermee maakt u een aanvraaglijst.
 
-   ![&#x200B; voeg aan de Lijst van de Vergunning toe &#x200B;](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
+   ![ voeg aan de Lijst van de Vergunning toe ](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
 
 ### Van een bestaande bestelling
 
@@ -94,7 +94,7 @@ Kopers kunnen producten toevoegen aan een aanvraaglijst via:
    - Kies een bestaande aanvraaglijst.
    - Hiermee maakt u een aanvraaglijst.
 
-   ![&#x200B; voeg aan de Lijst van de Vergunning toe &#x200B;](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
+   ![ voeg aan de Lijst van de Vergunning toe ](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
 
 ### Van een bestaand prijsopgave
 
@@ -106,13 +106,13 @@ Vanuit een verhandelbaar aanhalingsteken kunnen kopers de optie [!UICONTROL Move
 
 1. Selecteer op het tabblad [!UICONTROL Items Quoted] het product dat u wilt verplaatsen.
 
-1. Kies **[!UICONTROL Move to Requisition list]** met het vervolgkeuzemenu [!UICONTROL Select] in de kolom [!UICONTROL Actions] voor het item van de productregel.
+1. Kies [!UICONTROL Select] met het vervolgkeuzemenu [!UICONTROL Actions] in de kolom **[!UICONTROL Move to Requisition list]** voor het item van de productregel.
 
 1. Selecteer de aanvraaglijst voor de geselecteerde items.
 
 1. Klik op **[!UICONTROL Move item to Requisition List]**.
 
-Zie [&#x200B; Mijn citaten &#x200B;](account-dashboard-my-quotes.md) onderwerp voor meer informatie over B2B Citaten.
+Zie [ Mijn citaten ](account-dashboard-my-quotes.md) onderwerp voor meer informatie over B2B Citaten.
 
 ### Vanaf de wagen
 
@@ -121,19 +121,19 @@ Zie [&#x200B; Mijn citaten &#x200B;](account-dashboard-my-quotes.md) onderwerp v
    - Kies een bestaande aanvraaglijst.
    - Hiermee maakt u een aanvraaglijst.
 
-   ![&#x200B; voeg van Kar toe &#x200B;](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
+   ![ voeg van Kar toe ](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
 
 ## De bijgewerkte aanvraaglijst weergeven
 
 Als een koper zich bij zijn account heeft aangemeld, kan hij of zij een van de volgende methoden gebruiken om een aanvraag in zijn of haar lijst weer te geven.
 
-![&#x200B; Mijn Lijsten van de Aanvraag &#x200B;](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
+![ Mijn Lijsten van de Aanvraag ](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
 
 ### Van het rekeningdashboard
 
 1. Kies **[!UICONTROL My Requisition Lists]** in de zijbalk van het accountdashboard.
 
-1. In de lijst van verzoeklijsten, klikt **[!UICONTROL View]** in de _2&rbrace; kolom van Acties &lbrace;._
+1. In de lijst van verzoeklijsten, klikt **[!UICONTROL View]** in de _2} kolom van Acties {._
 
 ### Van een willekeurige winkelpagina
 
