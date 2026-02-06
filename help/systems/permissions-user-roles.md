@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot stand brengen die het aangewezen niveau van toestemmingen heeft. Nadat de rol wordt bewaard, kunt u nieuwe gebruikers toevoegen en de beperkte rol toewijzen om hen beperkte toegang tot Admin te verlenen.
 
-![ Admin - gebruikersrollen ](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![&#x200B; Admin - gebruikersrollen &#x200B;](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## Een rol definiëren
 
@@ -26,11 +26,11 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 ### Stap 1: Voeg de rolnaam toe
 
-1. Voer onder _[!UICONTROL Role Information]_een beschrijvende **[!UICONTROL Role Name]**in.
+1. Voer onder _[!UICONTROL Role Information]_&#x200B;een beschrijvende **[!UICONTROL Role Name]**&#x200B;in.
 
-1. Voer onder _[!UICONTROL Current User Identity Verification]_uw wachtwoord in.
+1. Voer onder _[!UICONTROL Current User Identity Verification]_&#x200B;uw wachtwoord in.
 
-   ![ toestemmingen van het Systeem - rolinformatie ](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![&#x200B; toestemmingen van het Systeem - rolinformatie &#x200B;](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### Stap 2: Bronnen toewijzen
 
@@ -45,13 +45,13 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
    Als deze optie is ingesteld op `Custom` voor een installatie op meerdere sites, schakelt u het selectievakje van de website in en slaat u de locatie op waar de rol moet worden gebruikt.
 
-   ![ de rolmiddelen van de Gebruiker - douanewerkingsgebied ](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![&#x200B; de rolmiddelen van de Gebruiker - douanewerkingsgebied &#x200B;](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Gebruikers met een rolbereik van `Custom` kunnen geen websites en categorieën maken, producten aan categorieën toewijzen of producten in het bereik van _[!UICONTROL All Store Views]_bewerken wanneer ze worden toegewezen aan winkels met beperkingen. Deze gebruikers kunnen ook andere_ globale _acties uitvoeren die werkingsgebied beïnvloeden waar zij geen toegang hebben.
+   >Gebruikers met een rolbereik van `Custom` kunnen geen websites en categorieën maken, producten aan categorieën toewijzen of producten in het bereik van _[!UICONTROL All Store Views]_&#x200B;bewerken wanneer ze worden toegewezen aan winkels met beperkingen. Deze gebruikers kunnen ook andere_ globale _acties uitvoeren die werkingsgebied beïnvloeden waar zij geen toegang hebben.
 
-1. Stel onder _[!UICONTROL Roles Resources]_de waarde **[!UICONTROL Resource Access]**in op `Custom` .
+1. Stel onder _[!UICONTROL Roles Resources]_&#x200B;de waarde **[!UICONTROL Resource Access]**&#x200B;in op `Custom` .
 
    >[!NOTE]
    >
@@ -59,15 +59,15 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 1. Selecteer in de boomstructuur van **[!UICONTROL Resource]** het selectievakje van elke beheerfunctie waartoe de rol toegang heeft.
 
-   Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als vestiging een website voor een gebied dat van uw standaard [ verschepend punt van oorsprong ](../stores-purchase/shipping-settings.md#point-of-origin) verschilt, moet u toegang tot de middelen van het Systeem/van de Scheepvaart voor de rol toestaan. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
+   Als u een beheerdersrol wilt maken met toegang tot belastinginstellingen, kiest u zowel de BTW- als de systeembronnen. Als vestiging een website voor een gebied dat van uw standaard [&#x200B; verschepend punt van oorsprong &#x200B;](../stores-purchase/shipping-settings.md#point-of-origin) verschilt, moet u toegang tot de middelen van het Systeem/van de Scheepvaart voor de rol toestaan. De verzendinstellingen bepalen het BTW-tarief voor de winkel dat wordt gebruikt voor catalogusprijzen.
 
-   ![ Toegewezen middelen van de gebruikersrol ](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![&#x200B; Toegewezen middelen van de gebruikersrol &#x200B;](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    De lijst met beschikbare machtigingen kan aanvullende opties voor gebundelde en geïnstalleerde extensies bevatten. Door de hoogste toestemming voor elke eigenschap te selecteren, wijst u alle toestemmingen toe beschikbaar voor de gebruiker.
 
    >[!NOTE]
    >
-   >Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** toestemmingen voor hun rolwerkingsgebied hebben om _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, en _[!UICONTROL Shipments]_orde [ lusjes ](../stores-purchase/order-processing.md) te zien.
+   >Een gebruiker Admin moet **[!UICONTROL Sales / Archive]** toestemmingen voor hun rolwerkingsgebied hebben om _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, en _[!UICONTROL Shipments]_&#x200B;orde [&#x200B; lusjes &#x200B;](../stores-purchase/order-processing.md) te zien.
 
 1. Klik op **[!UICONTROL Save Role]** als de bewerking is voltooid.
 
@@ -77,13 +77,13 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 1. Open vanuit het _[!UICONTROL Roles]_-raster de record in de bewerkingsmodus.
 
-1. Voer onder _[!UICONTROL Current User Identity Verification]_het wachtwoord voor uw gebruikersaccount in.
+1. Voer onder _[!UICONTROL Current User Identity Verification]_&#x200B;het wachtwoord voor uw gebruikersaccount in.
 
 1. Kies **[!UICONTROL Role Users]** in het linkerdeelvenster.
 
-   De optie _[!UICONTROL Role Users]_wordt alleen weergegeven nadat een nieuwe rol is opgeslagen.
+   De optie _[!UICONTROL Role Users]_&#x200B;wordt alleen weergegeven nadat een nieuwe rol is opgeslagen.
 
-   ![ die de rekeningen van de Gebruiker aan de rol ](./assets/permissions-role-users.png){width="600" zoomable="yes"} worden toegewezen
+   ![&#x200B; die de rekeningen van de Gebruiker aan de rol &#x200B;](./assets/permissions-role-users.png){width="600" zoomable="yes"} worden toegewezen
 
 1. Ga als volgt te werk om te zoeken naar een specifieke gebruikersrecord:
 
@@ -129,39 +129,39 @@ Bekijk deze video voor meer informatie over het beheren van gebruikersrollen:
 
 De toegang tot de volgende middelen kan aan een douanerol worden toegewezen. Zie de gekoppelde pagina voor meer informatie over de mogelijkheden die aan elke bron zijn gekoppeld.
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) - slechts Adobe Commerce
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) - slechts Adobe Commerce
 
-![ Adobe Commerce B2B ](../assets/b2b.svg) - Beschikbaar met slechts Adobe Commerce B2B
+![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) - Beschikbaar met slechts Adobe Commerce B2B
 
 | Bron |   |   |
 | --- | --- | --- |
 | [`Dashboard`](../getting-started/admin-dashboard.md) |  |  |
 | [`Sales`](../stores-purchase/sales-menu.md) | [`Operations`](../stores-purchase/orders.md) |  |
-|  | [`Quotes`](../b2b/quotes.md) ![ Adobe Commerce B2B ](../assets/b2b.svg) <br/>[`Orders`](../stores-purchase/orders.md)<br/>[`Invoices`](../stores-purchase/invoices.md)<br/>[`Shipments`](../stores-purchase/shipments.md)<br/>[`Credit Memos`](../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../stores-purchase/returns.md) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br/>[`Transactions`](../stores-purchase/transactions.md) |
+|  | [`Quotes`](../b2b/quotes.md) ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) <br/>[`Orders`](../stores-purchase/orders.md)<br/>[`Invoices`](../stores-purchase/invoices.md)<br/>[`Shipments`](../stores-purchase/shipments.md)<br/>[`Credit Memos`](../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../stores-purchase/returns.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br/>[`Transactions`](../stores-purchase/transactions.md) |
 |  | [`Archive`](action-log-archive.md)![Adobe Commerce] |  |
 |  | [`Shopping Cart Management`](../stores-purchase/cart.md) |  |
-| [`Catalog`](../catalog/catalog-menu.md) | [`Category Permissions`](../catalog/categories.md) ![ Adobe Commerce ](../assets/adobe-logo.svg) |  |
+| [`Catalog`](../catalog/catalog-menu.md) | [`Category Permissions`](../catalog/categories.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) |  |
 |  | [`Inventory`](../inventory-management/introduction.md) | [`Products`](../catalog/products-list.md)<br/>[`Categories`](../catalog/categories.md) |
-|  | [`Shared Catalog`](../b2b/catalog-shared-create.md) ![ Adobe Commerce B2B ](../assets/b2b.svg) | [`Manage Shared Catalog`](../b2b/catalog-shared-manage.md) |
-| [`Customers`](../customers/guide-overview.md) | [`All Customers`](../customers/customers-all.md)<br/>[`Now Online`](../customers/now-online.md)<br/>[`Customer Groups`](../customers/customer-groups.md)<br/>[`Segments`](../customers/customer-segments.md) ![ Adobe Commerce ](../assets/adobe-logo.svg) |  |
-|  | [`Login as Customer`](../customers/login-as-customer.md) | `Allow Login as Customer Button`<br/>`View Login as Customer Log` ![ Adobe Commerce ](../assets/adobe-logo.svg) |
-|  | [`Companies`](../b2b/account-companies.md) ![ Adobe Commerce B2B ](../assets/b2b.svg) | [`Manage Companies`](../b2b/account-company-manage.md) <br/>`Add New Company` <br/>`Delete Company` <br/>`Reimburse Balance` |
+|  | [`Shared Catalog`](../b2b/catalog-shared-create.md) ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) | [`Manage Shared Catalog`](../b2b/catalog-shared-manage.md) |
+| [`Customers`](../customers/guide-overview.md) | [`All Customers`](../customers/customers-all.md)<br/>[`Now Online`](../customers/now-online.md)<br/>[`Customer Groups`](../customers/customer-groups.md)<br/>[`Segments`](../customers/customer-segments.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) |  |
+|  | [`Login as Customer`](../customers/login-as-customer.md) | `Allow Login as Customer Button`<br/>`View Login as Customer Log` ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) |
+|  | [`Companies`](../b2b/account-companies.md) ![&#x200B; Adobe Commerce B2B &#x200B;](../assets/b2b.svg) | [`Manage Companies`](../b2b/account-company-manage.md) <br/>`Add New Company` <br/>`Delete Company` <br/>`Reimburse Balance` |
 | [`Carts`](../stores-purchase/shopping-assisted-cart-manage.md) | [`Manage carts`](../stores-purchase/shopping-assisted-cart-manage.md) |  |
 | [`My Account`](../customers/account-dashboard-my-account.md) |  |  |
-| [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![ Adobe Commerce ](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![ Adobe Commerce ](../assets/adobe-logo.svg) |
-|  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![ Adobe Commerce ](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
+| [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) |
+|  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
 |  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
-|  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
+|  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
-| [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
+| [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [ Inhoud die ](../content-design/content-staging.md) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br /> opneemt |  |
+|  | [&#x200B; Inhoud die &#x200B;](../content-design/content-staging.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br /> opneemt |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![ Adobe Commerce ](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
-|  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![ Adobe Commerce ](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
+|  | `System Insights` ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
+|  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |  |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |  |
 |  | [`Taxes`](../stores-purchase/taxes.md) |  |  |
@@ -172,7 +172,7 @@ De toegang tot de volgende middelen kan aan een douanerol worden toegewezen. Zie
 |  | [`Magento Connect`](../getting-started/commerce-marketplace.md) | `Connect Manager`<br/>`Package Extensions` |  |
 |  | [`Tools`](system-menu.md#tools) | [`Cache Management`](cache-management.md)<br/>[`Backups`](backups.md)<br/>[`Index Management`](index-management.md)<br/>[`Change Indexer Mode`](index-management.md) |  |
 |  | [`Permissions`](permissions.md) | [`All Users`](permissions-users-all.md)<br/>[`Locked Users`](permissions-users-all.md#locked-users)<br/>[`User Roles`](permissions-user-roles.md) |
-| [`Action Log`](action-log.md)![ Adobe Commerce ](../assets/adobe-logo.svg) | [`Report`](action-log.md)<br/>[`Archive`](action-log-archive.md) |
+| [`Action Log`](action-log.md)![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) | [`Report`](action-log.md)<br/>[`Archive`](action-log-archive.md) |
 |  | [`Other Settings`](system-menu.md) | [`Notifications`](notifications.md)<br/>[`Custom Variables`](variables-custom.md)<br/>[`Manage Encryption Key`](encryption-key.md) |  |
 | [`Global Search`](../getting-started/admin-workspace.md#workspace-search) |  |  |
 
