@@ -22,7 +22,7 @@ Het [!UICONTROL Products in Cart] -rapport bevat een lijst met alle producten di
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Het [&#x200B; rapport van de Termijnen van het 0&rbrace; Onderzoek &lbrace;toont wat uw klanten in elke opslagmening zoeken. &#x200B;](../catalog/search-terms.md#search-terms-report) Het rapport bevat het aantal overeenkomende items in de catalogus en het aantal keren dat de zoekterm is gebruikt.
 
@@ -36,7 +36,7 @@ Het [!UICONTROL Abandoned Carts] -rapport bevat een lijst met alle geregistreerd
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 [!UICONTROL Newsletter Problems Report] bevat informatie over nieuwsbrieven die niet zijn verzonden. Het rapport bevat de naam van elke abonnee, de datum en het onderwerp van de wachtrij en de informatie over de fout.
 

@@ -16,7 +16,7 @@ De productrapporten geven u insight over bekeken en bestelde producten, bestsell
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 In [!UICONTROL Product Views Report] worden de producten weergegeven die gedurende een tijdsinterval of een datumbereik zijn weergegeven. Het rapport bevat de productnaam, de prijs en het aantal weergaven.
 
@@ -50,7 +50,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 In [!UICONTROL Downloads Report] worden alle downloads tijdens het opgegeven tijdinterval of datumbereik weergegeven. Het rapport bevat de productnaam, downloadkoppeling en SKU, met het aantal aankopen en downloads.
 

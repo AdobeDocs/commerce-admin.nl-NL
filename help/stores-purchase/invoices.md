@@ -151,7 +151,7 @@ De facturen worden opgeslagen in één PDF-bestand dat naar een printer kan word
 
 ## Aangepaste vastleggingsbedragen
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Om handelaren meer flexibiliteit te bieden voor gedeeltelijke vastleggingen en gespecialiseerde betalingsscenario&#39;s, ondersteunt de Factuur-API aangepaste vastleggingsbedragen met behulp van extensiekenmerken.
 
