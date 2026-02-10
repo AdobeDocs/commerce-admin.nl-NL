@@ -3,8 +3,7 @@ title: Verkooprapporten
 description: De  [!DNL Commerce]  verkooprapporten helpen u om orden, belastingen, facturen, verzending, terugbetalingen, coupons, en PayPal regeling te volgen.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 1%
@@ -19,7 +18,7 @@ De selectie van verkooprapporten omvat Bestellingen, Belasting, Facturering, Ver
 
 U kunt een verkooprapport genereren voor een hele website of voor één winkel. De verkooprapporten kunnen door tijdsinterval, datum, en status worden gefiltreerd.
 
-![&#x200B; het rapportfilters van de Verkoop &#x200B;](./assets/tax-report.png){width="600"}
+![ het rapportfilters van de Verkoop ](./assets/tax-report.png){width="600"}
 
 Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
@@ -41,7 +40,7 @@ Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-![&#x200B; de verslagen van het Rapport van Orden &#x200B;](./assets/order-report-records.png){width="600"}
+![ de verslagen van het Rapport van Orden ](./assets/order-report-records.png){width="600"}
 
 ## [!UICONTROL Tax Report]
 
@@ -54,7 +53,7 @@ Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-![&#x200B; Belastingrapport &#x200B;](./assets/tax-report-records.png){width="600"}
+![ Belastingrapport ](./assets/tax-report-records.png){width="600"}
 
 ## [!UICONTROL Invoice Report]
 
@@ -66,7 +65,7 @@ Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-![&#x200B; Factuurrapport &#x200B;](./assets/sales-invoiced.png){width="600"}
+![ Factuurrapport ](./assets/sales-invoiced.png){width="600"}
 
 ## [!UICONTROL Shipping Report]
 
@@ -78,7 +77,7 @@ Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-![&#x200B; Verzendrapport &#x200B;](./assets/shipping.png){width="600"}
+![ Verzendrapport ](./assets/shipping.png){width="600"}
 
 ## [!UICONTROL Refunds Report]
 
@@ -90,7 +89,7 @@ Als u een verkooprapport wilt filteren, stelt u de volgende opties in:
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-![&#x200B; Rapport van Terugbetalingen &#x200B;](./assets/sales-refunds.png){width="600"}
+![ Rapport van Terugbetalingen ](./assets/sales-refunds.png){width="600"}
 
 ## [!UICONTROL Coupons Report]
 
@@ -102,7 +101,7 @@ De [!UICONTROL Coupons Report] bevat elke couponcode die tijdens het opgegeven t
 
 1. Klik op **[!UICONTROL Show Report]**.
 
-Voor meer informatie over het gebruiken van [!UICONTROL Coupons Report] om gegevens voor uw promotiecampagnes te verzamelen, zie [&#x200B; Waarden die &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) in de _Gids van de Verkoop en van Bevorderingen_ melden.
+Voor meer informatie over het gebruiken van [!UICONTROL Coupons Report] om gegevens voor uw promotiecampagnes te verzamelen, zie [ Waarden die ](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) in de _Gids van de Verkoop en van Bevorderingen_ melden.
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -112,13 +111,13 @@ De [ pagina van de Rapporten van de Afrekening van PayPal ] omvat het type van g
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
 
-![&#x200B; PayPal Rapport van de Afwikkeling &#x200B;](./assets/reports-sales-paypal-settlement.png){width="600"}
+![ PayPal Rapport van de Afwikkeling ](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-Voor meer informatie over het gebruiken van [!UICONTROL PayPal Settlement Reports] om informatie over elke transactie terug te winnen PayPal die de regeling van middelen beïnvloedt, zie [&#x200B; de rapporten van de Afrekening van PayPal &#x200B;](../stores-purchase/paypal-settlement-reports.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
+Voor meer informatie over het gebruiken van [!UICONTROL PayPal Settlement Reports] om informatie over elke transactie terug te winnen PayPal die de regeling van middelen beïnvloedt, zie [ de rapporten van de Afrekening van PayPal ](../stores-purchase/paypal-settlement-reports.md) in de _Gids van de Opslag en van de Ervaring van de Aankoop_.
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Het [&#x200B; Rapport van de Afwikkeling van Braintree &#x200B;](../stores-purchase/braintree.md) kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of de identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
+Het [ Rapport van de Afwikkeling van Braintree ](../stores-purchase/braintree.md) kan volgens aanmaakdatum, bedrag, status, transactietype, betalingstype, transactie identiteitskaart, orde ID, PayPal betalings identiteitskaart, type, handels rekening ID, of de identiteitskaart van de afwikkelingspartij worden gefiltreerd. Het rapport bevat de transactie-id, de bestellings-id, de PayPal-betalings-id, het type, de aanmaakdatum, het bedrag, de afwikkelingscode, de status, de tekst van de afwikkelingsreactie, de terugbetaling-ID&#39;s, de handelaarrekening-id, de partij-ID van de afwikkeling en de valuta.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 
@@ -132,9 +131,11 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UIC
 
 ## Statistieken vernieuwen
 
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+
 Om het prestatieseffect van het produceren van verkooprapporten te verminderen, berekent [!DNL Commerce] en slaat de vereiste statistieken voor elk rapport op. In plaats van de statistieken opnieuw te berekenen telkens als een rapport wordt geproduceerd, worden de opgeslagen statistieken gebruikt, tenzij u de statistieken vernieuwt. Om de meest recente gegevens op te nemen, moeten de rapportstatistieken worden vernieuwd alvorens een verkooprapport wordt geproduceerd.
 
-![&#x200B; verfrist Statistieken &#x200B;](./assets/refresh-stats.png){width="700"}
+![ verfrist Statistieken ](./assets/refresh-stats.png){width="700"}
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Statistics]_>**[!UICONTROL Refresh Statistics]**.
 
