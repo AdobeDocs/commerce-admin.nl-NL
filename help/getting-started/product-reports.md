@@ -16,13 +16,13 @@ De productrapporten geven u insight over bekeken en bestelde producten, bestsell
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 In [!UICONTROL Product Views Report] worden de producten weergegeven die gedurende een tijdsinterval of een datumbereik zijn weergegeven. Het rapport bevat de productnaam, de prijs en het aantal weergaven.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**.
 
-![ Rapport van de Weergaven van het Product ](./assets/product-views.png){width="600"}
+![&#x200B; Rapport van de Weergaven van het Product &#x200B;](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
@@ -30,7 +30,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**.
 
-![ Rapport Bestsellers ](./assets/bestsellers.png){width="600"}
+![&#x200B; Rapport Bestsellers &#x200B;](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
@@ -38,7 +38,7 @@ In [!UICONTROL Low Stock Report] worden alle producten weergegeven met voorraadn
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**.
 
-![ Laag Rapport van de Voorraad ](./assets/low-stock.png){width="600"}
+![&#x200B; Laag Rapport van de Voorraad &#x200B;](./assets/low-stock.png){width="600"}
 
 ## [!UICONTROL Ordered Products Report]
 
@@ -46,14 +46,14 @@ In [!UICONTROL Ordered Products Report] worden alle producten weergegeven die vo
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**.
 
-![ het Geordende Rapport van Producten ](./assets/products-ordered.png){width="600"}
+![&#x200B; het Geordende Rapport van Producten &#x200B;](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 In [!UICONTROL Downloads Report] worden alle downloads tijdens het opgegeven tijdinterval of datumbereik weergegeven. Het rapport bevat de productnaam, downloadkoppeling en SKU, met het aantal aankopen en downloads.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
 
-![ Rapport van Downloads ](./assets/downloads.png){width="600"}
+![&#x200B; Rapport van Downloads &#x200B;](./assets/downloads.png){width="600"}

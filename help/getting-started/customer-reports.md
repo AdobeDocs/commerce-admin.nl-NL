@@ -20,7 +20,7 @@ Klantrapporten bieden insight toegang tot de activiteiten van de klant gedurende
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![ het Totale Rapport van de Orde ](./assets/customers-order-total.png){width="600"}
+![&#x200B; het Totale Rapport van de Orde &#x200B;](./assets/customers-order-total.png){width="600"}
 
 ### Workspace-besturingselementen
 
@@ -52,7 +52,7 @@ In [!UICONTROL Order Count Report] wordt het aantal bestellingen per klant voor 
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
-![ het Rapport van de Telling van de Orde ](./assets/customer-order-count.png){width="600"}
+![&#x200B; het Rapport van de Telling van de Orde &#x200B;](./assets/customer-order-count.png){width="600"}
 
 ### Workspace-besturingselementen
 
@@ -84,7 +84,7 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
-![ Nieuw Rapport van Rekeningen ](./assets/customers-new-accounts.png){width="600"}
+![&#x200B; Nieuw Rapport van Rekeningen &#x200B;](./assets/customers-new-accounts.png){width="600"}
 
 ### Workspace-besturingselementen
 
@@ -109,15 +109,15 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 [!UICONTROL Customer Wish List Report] verstrekt informatie over klanten wenst lijsten.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
-![ Wenslijstrapport ](./assets/customer-wish-list.png){width="600"}
+![&#x200B; Wenslijstrapport &#x200B;](./assets/customer-wish-list.png){width="600"}
 
 ### Workspace-besturingselementen
 
@@ -151,13 +151,13 @@ Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[
 
 ## [!UICONTROL Customer Segment Report]
 
-![ Adobe Commerce ](../assets/adobe-logo.svg) (slechts Adobe Commerce)
+![&#x200B; Adobe Commerce &#x200B;](../assets/adobe-logo.svg) (slechts Adobe Commerce)
 
 [!UICONTROL Customer Segment Report] verstrekt informatie over het aantal klanten in elk segment.
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
-![ Rapport van Segmenten ](./assets/customers-segments.png){width="600"}
+![&#x200B; Rapport van Segmenten &#x200B;](./assets/customers-segments.png){width="600"}
 
 ### Workspace-besturingselementen
 
