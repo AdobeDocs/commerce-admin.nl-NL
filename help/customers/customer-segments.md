@@ -46,5 +46,5 @@ Zie [&#x200B; klantensegmenten &#x200B;](../customers/customer-segment-create.md
 
 ## eBooks
 
-- **segmentatie van de Klant** — Krijg [&#x200B; eBook &#x200B;](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) leren hoe te om winsten en algemene klantentevredenheid te verhogen.
-- **de tactiek van de Segmentatie** - krijg [&#x200B; eBook &#x200B;](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) om het richten van uw berichten en bevorderingen te verbeteren om betekenisvolle gesprekken met uw klanten tot stand te brengen.
+- **segmentatie van de Klant** — Krijg [&#x200B; eBook &#x200B;](https://business.adobe.com/nl/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) leren hoe te om winsten en algemene klantentevredenheid te verhogen.
+- **de tactiek van de Segmentatie** - krijg [&#x200B; eBook &#x200B;](https://business.adobe.com/nl/resources/3-segmentation-tactics-ignite-conversion.html) om het richten van uw berichten en bevorderingen te verbeteren om betekenisvolle gesprekken met uw klanten tot stand te brengen.
