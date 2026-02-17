@@ -26,7 +26,7 @@ Deze integratie ondersteunt Commerce-handelaren met Admin-gebruikers die een Ado
 ## Vereisten
 
 * Adobe Commerce 2.4.5 of hoger
-* Een Adobe.com rekening met toegang tot [ Adobe Admin Console ](https://adminconsole.adobe.com/).
+* Een Adobe.com rekening met toegang tot [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/).
 
   >[!NOTE]
   >
@@ -34,36 +34,36 @@ Deze integratie ondersteunt Commerce-handelaren met Admin-gebruikers die een Ado
 
 De beheerder die deze integratie vormt vereist de volgende geloofsbrieven tijdens moduleenactivering:
 
-* Identiteitskaart van de organisatie (die uit [ wordt verkregen Adobe Admin Console ](https://adminconsole.adobe.com/)), die minstens 24 karakters in lengte moet zijn. De geverifieerde gebruiker moet deel uitmaken van deze IMS-organisatie. Voor informatie over het vinden van uw organisatie identiteitskaart, zie [ Organisaties in Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controle [ de montages van de Authentificatie ](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* Identiteitskaart van de organisatie (die uit [&#x200B; wordt verkregen Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/)), die minstens 24 karakters in lengte moet zijn. De geverifieerde gebruiker moet deel uitmaken van deze IMS-organisatie. Voor informatie over het vinden van uw organisatie identiteitskaart, zie [&#x200B; Organisaties in Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* 2FA moet op het niveau van de Organisatie in Adobe Admin Console worden gehandhaafd om de module toe te laten. Controle [&#x200B; de montages van de Authentificatie &#x200B;](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-id
 * Clientgeheim
-* Identiteitskaart van de cliënt en cliëntgeheim zijn beschikbaar na het terugwinnen van API sleutels van [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/credentials).
+* Identiteitskaart van de cliënt en cliëntgeheim zijn beschikbaar na het terugwinnen van API sleutels van [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Gebruikers van Commerce Admin moeten een account met een Adobe ID maken om zich aan te melden.
 
 ## Algemene stappen
 
-* Krijg Adobe Org identiteitskaart van [ Adobe Admin Console ](https://adminconsole.adobe.com/)
-* Produceer een nieuw project, IMS API sleutels, en geheim van [ Adobe Developer Console ](https://developer.adobe.com/)
+* Krijg Adobe Org identiteitskaart van [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/)
+* Produceer een nieuw project, IMS API sleutels, en geheim van [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/)
 * Adobe Commerce-gebruikers configureren in de Adobe Admin Console
 * Schakel de module `AdminAdobeIms` in.
 
-Voor een geslaagde integratie moeten alle Adobe Commerce-gebruikers beschikken over Admin-gebruikersaccounts met dezelfde naam en hetzelfde primaire e-mailadres. Als een passende Admin gebruikersrekening niet bestaat, moet een gebruiker met de vereiste toestemmingen (typisch toegewezen de rol van de Beheerder) manueel [ tot de Admin gebruikersrekening ](../systems/permissions-users-all.md#create-a-user) met de zelfde naam en e-mail leiden.
+Voor een geslaagde integratie moeten alle Adobe Commerce-gebruikers beschikken over Admin-gebruikersaccounts met dezelfde naam en hetzelfde primaire e-mailadres. Als een passende Admin gebruikersrekening niet bestaat, moet een gebruiker met de vereiste toestemmingen (typisch toegewezen de rol van de Beheerder) manueel [&#x200B; tot de Admin gebruikersrekening &#x200B;](../systems/permissions-users-all.md#create-a-user) met de zelfde naam en e-mail leiden.
 
 ## De integratie configureren
 
-Nadat de volgende stappen zijn uitgevoerd door een beheerder of ontwikkelaar met systeemtoegang, wordt de knop _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_weergegeven op de aanmeldingspagina voor Commerce Admin voor alle Admin-gebruikers.
+Nadat de volgende stappen zijn uitgevoerd door een beheerder of ontwikkelaar met systeemtoegang, wordt de knop _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;weergegeven op de aanmeldingspagina voor Commerce Admin voor alle Admin-gebruikers.
 
 ### Stap 1: Adobe-organisatie-id ophalen
 
-Lidmaatschap in ten minste één IMS-organisatie is vereist om deze functie in te schakelen. Als u een Adobe ID hebt, behoort u standaard tot minstens één Adobe-organisatie. Login aan [ Adobe Admin Console ](https://adminconsole.adobe.com/) om uw organisatieidentiteitskaart terug te winnen
+Lidmaatschap in ten minste één IMS-organisatie is vereist om deze functie in te schakelen. Als u een Adobe ID hebt, behoort u standaard tot minstens één Adobe-organisatie. Login aan [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com/) om uw organisatieidentiteitskaart terug te winnen
 
 ### Stap 2: Genereer een nieuw project, de sleutels IMS API en geheim
 
-Om projecten voor een organisatie tot stand te brengen, moet de rekening van Adobe Admin voor de organisatie de systeembeheerder of ontwikkelaarrol hebben. Zie de [ Gids van Developer Console ](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Om projecten voor een organisatie tot stand te brengen, moet de rekening van Adobe Admin voor de organisatie de systeembeheerder of ontwikkelaarrol hebben. Zie de [&#x200B; Gids van Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
-1. Login aan [ Adobe Developer Console ](https://developer.adobe.com/).
+1. Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
 1. Ga naar het tabblad **[!UICONTROL Projects]** (adobe.io/projects) en klik op **[!UICONTROL Create a new project]** .
 1. Klik op **[!UICONTROL Add API]** op de nieuwe projectpagina.
 1. Selecteer **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]** .
@@ -82,9 +82,9 @@ Voordat u de integratie inschakelt, controleert u of elke Adobe Commerce Admin-g
 
 >[!TIP]
 >
->U kunt meerdere gebruikersaccounts maken door de gebruikersgegevens van een CSV-bestand te uploaden. Zie [ veelvoudige gebruikers beheren ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>U kunt meerdere gebruikersaccounts maken door de gebruikersgegevens van een CSV-bestand te uploaden. Zie [&#x200B; veelvoudige gebruikers beheren &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. In [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), navigeer aan **[!UICONTROL Users]** > **[!UICONTROL Users]**.
+1. In [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), navigeer aan **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
 1. Klik op **[!UICONTROL Add User]**.
 
@@ -115,4 +115,4 @@ Nadat deze functie is ingeschakeld, kunt u andere Adobe Commerce-gebruikersaccou
 
 ## Identiteit en eenmalige aanmelding
 
-Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [ de identiteit van de Opstelling en Enige Sign-On ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
+Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [&#x200B; de identiteit van de Opstelling en Enige Sign-On &#x200B;](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
