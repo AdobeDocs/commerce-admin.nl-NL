@@ -28,7 +28,7 @@ Een selectie van [&#x200B; marketing rapporten &#x200B;](marketing-reports.md), 
 
 ### [!UICONTROL Reviews]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 De selectie van product [&#x200B; overzichtsrapporten &#x200B;](review-reports.md) omvat door Klant en door Product.
 
@@ -38,9 +38,9 @@ De selectie van [&#x200B; verkooprapporten &#x200B;](sales-reports.md) omvat Ord
 
 ### [!UICONTROL System Insights]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
+(Alleen Adobe Commerce) [[!DNL Site-Wide Analysis Tool] &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=nl-NL) biedt systeeminzichten voor Adobe Commerce-installaties op cloudinfrastructuur met 24/7 realtime bewaking van de prestaties, rapporten en aanbevelingen.
 
 ### [!UICONTROL Customers]
 
@@ -52,18 +52,18 @@ De selectie van [&#x200B; productrapporten &#x200B;](product-reports.md) omvat B
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 (Adobe Commerce slechts) de selectie van rapporten voor [&#x200B; privé verkoop en gebeurtenissen &#x200B;](private-sales-reports.md) omvat Uitnodiging, Uitgenodigde Klanten, en Omzettingen.
 
 ### [!UICONTROL Statistics]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 [&#x200B; Statistieken &#x200B;](sales-reports.md#refresh-statistics) is een hulpmiddel dat het prestatieseffect vermindert van het produceren van rapporten door statistische gegevens te berekenen en op te slaan. In plaats van de statistieken opnieuw te berekenen telkens als een rapport wordt geproduceerd, worden de opgeslagen statistieken gebruikt tot u de statistieken vernieuwt.
 
 ### [!DNL Commerce Intelligence]
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Geïntegreerde [[!DNL Commerce Intelligence]](business-intelligence.md) -tools bieden de insight die u nodig hebt om strategische zakelijke beslissingen te nemen.
