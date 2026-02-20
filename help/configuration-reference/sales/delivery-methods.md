@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![&#x200B; Vlak Tarief &#x200B;](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![&#x200B; Vrij die &#x200B;](./assets/delivery-methods-free-shipping.png)<!-- zoom --> verscheept
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![&#x200B; Tarieven van de Lijst &#x200B;](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![&#x200B; In-Store Levering &#x200B;](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![&#x200B; de Montages van de Rekening van UPS XML &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![&#x200B; Informatie van het Pakket UPS &#x200B;](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![&#x200B; UPS Toegestane Methoden &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![&#x200B; Toepasselijke Landen van UPS en Andere Montages &#x200B;](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsflard van de Migratie van de REST API van USPS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) hebt toegepast. Deze patch maakt ondersteuning mogelijk voor de USPS API&#39;s, een REST-gebaseerd platform dat de webtools-API&#39;s vervangt. Voor details, zie [&#x200B; de veroudering van de Hulpmiddelen API van het Web van 0&rbrace; USPS.](../../stores-purchase/carriers.md)
+De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsflard van de Migratie van de REST API van USPS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) hebt toegepast. Deze patch maakt ondersteuning mogelijk voor de USPS API&#39;s, een REST-gebaseerd platform dat de webtools-API&#39;s vervangt. Voor details, zie [&#x200B; de veroudering van de Hulpmiddelen API van het Web van 0&rbrace; USPS.](../../stores-purchase/carriers.md)
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -207,14 +207,14 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 | [!UICONTROL Account Number] | Website | Uw USPS **rekeningsaantal**, dat voor betaling voor REST API wordt gebruikt.  <br/><br/>**_Note:_** Dit gebied is facultatief; nochtans, wordt het vereist om de verwezenlijking van het verschepende etiket toe te laten. |
 | [!UICONTROL Customer Registration Identifier(CRID)] | Website | Een Klantenregistratie-identificatienummer (CRID) is een door USPS gegenereerde numerieke code die een bedrijf op een locatie voor de REST API uniek identificeert.  <br/><br/>**_Note:_** Dit gebied is facultatief; nochtans, wordt het vereist om de verwezenlijking van het verschepende etiket toe te laten. |
 | [!UICONTROL Mailer Identifier(MID)] | Website | De server-id (MID) is een veld binnen de streepjescode voor intelligente e-mail dat wordt gebruikt om mailders te identificeren. MID&#39;s worden door de USPS toegewezen aan een Mail Owner, Mailing Agent of een andere serviceprovider die ze opvraagt voor REST API.  <br/><br/>**_Note:_** Dit gebied is facultatief; nochtans, wordt het vereist om de verwezenlijking van het verschepende etiket toe te laten. |
-| [!UICONTROL Manifest MID] | Website | De unieke mailer-id die is toegewezen voor het manifest voor REST API.  <br/><br/>**_Note:_** Dit gebied is facultatief; nochtans, wordt het vereist om de verwezenlijking van het verschepende etiket toe te laten. Voor Magento 2.4.7-p8 met [&#x200B; AC-15210 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) toegepaste flard, [!UICONTROL Manifest MID] is een vereist gebied. |
+| [!UICONTROL Manifest MID] | Website | De unieke mailer-id die is toegewezen voor het manifest voor REST API.  <br/><br/>**_Note:_** Dit gebied is facultatief; nochtans, wordt het vereist om de verwezenlijking van het verschepende etiket toe te laten. Voor Magento 2.4.7-p8 met [&#x200B; AC-15210 &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) toegepaste flard, [!UICONTROL Manifest MID] is een vereist gebied. |
 | [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Internal Transaction Number for REST API. <br/><br/>**_Note:_** Dit gebied is over het algemeen facultatief, maar is vereist om het creëren van het verschepende etiket toe te laten als: <ul><li>Elk type van goederen in de zending (zoals die door Codes van de Uitvoer van het Programma B in <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank"> www.census.gov/foreign-trade/schedules/b </a> wordt bepaald) wordt gewaardeerd bij $2.500 of minder en vereist geen uitvoervergunning; of</li><li>De zending, ongeacht de waarde ervan, wordt naar Canada verzonden en heeft geen uitvoervergunning nodig.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![&#x200B; USPS het Verpakken Montages &#x200B;](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -229,7 +229,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; USPS die de Montages van de Tarief behandelen &#x200B;](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -242,7 +242,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; USPS Toegestane Methoden &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -256,7 +256,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; USPS Toepasselijke Landen &#x200B;](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -270,7 +270,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx-accountinstellingen
 
@@ -348,7 +348,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; De Montages van de Rekening van DHL &#x200B;](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -364,7 +364,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; De Montages van het Pakket DHL &#x200B;](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -380,7 +380,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; DHL Toegestane Methoden &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -396,7 +396,7 @@ De volgende gebieden zijn beschikbaar slechts als u het [&#x200B; de kwaliteitsf
 
 ![&#x200B; DHL Toepasselijke Landen &#x200B;](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
