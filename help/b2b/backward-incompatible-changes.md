@@ -2,7 +2,7 @@
 title: Adobe Commerce B2B-wijzigingen die niet compatibel zijn met oudere versies
 description: Meer informatie over de wijzigingen in de Adobe Commerce B2B-releases waardoor u mogelijk uw aangepaste code moet bijwerken.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: 89fd73a6cba31e0a4e5793522bf4745b87e5654d
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Adobe Commerce B2B-wijzigingen die niet compatibel zijn met oudere versies
 
 Bekijk de informatie op hoog niveau voor alle achterwaarts incompatibele wijzigingen in B2B voor Adobe Commerce-releases. Zie de sectie met hooglichten voor incompatibele wijzigingen die een grote impact hebben en die gedetailleerde uitleg en speciale instructies vereisen.
+
+{{$include /help/_includes/backward-incompatible-changes/1.5.2-1.5.3-beta1.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.5.1-1.5.2.md}}
 
