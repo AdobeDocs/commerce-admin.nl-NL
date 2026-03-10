@@ -40,7 +40,7 @@ Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie 
 
 ## Toegang tot geregistreerde e-mails voor gasten toestaan
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Een facultatieve, store-level configuratie, die door gebrek wordt onbruikbaar gemaakt, staat gastkopers toe om hun geplaatste orden te volgen gebruikend een e-mailadres dat een geregistreerd klantenrekening aanpast.
 
