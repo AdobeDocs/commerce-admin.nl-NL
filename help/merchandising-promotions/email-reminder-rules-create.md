@@ -3,17 +3,16 @@ title: E-mailherinneringen maken
 description: Leer hoe u een regel voor e-mailherinneringen instelt die gebruikmaakt van een bestaande regel voor de prijs van winkelwagentjes.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # E-mailherinneringen maken
 
-Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstelling een regel van de kartprijs &#x200B;](price-rules-cart-create.md) om de bevordering te bepalen die wordt aangeboden. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
+Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een regel van de kartprijs ](price-rules-cart-create.md) om de bevordering te bepalen die wordt aangeboden. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
 
 >[!NOTE]
 >
@@ -23,9 +22,9 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstellin
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-1. Voltooi _[!UICONTROL Rule Information]_&#x200B;als volgt:
+1. Voltooi _[!UICONTROL Rule Information]_als volgt:
 
-   ![&#x200B; E-mailreminder regel &#x200B;](./assets/email-reminder-new.png){width="700" zoomable="yes"}
+   ![ E-mailreminder regel ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - Voer een **[!UICONTROL Rule Name]** in om de regel intern te identificeren.
 
@@ -33,42 +32,42 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstellin
 
    - Als u de **[!UICONTROL Cart Price Rule]** -promotie wilt kiezen die deze herinnering moet adverteren, klikt u op **[!UICONTROL Select Rule…]** en selecteert u de regel.
 
-     ![&#x200B; de regel van de Kar - uitgezocht &#x200B;](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
+     ![ de regel van de Kar - uitgezocht ](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Status]** in op `Active` als u wilt dat de regel direct van kracht wordt.
 
    - Als u een datumbereik wilt instellen waarop de regel actief moet zijn, voert u de datums **[!UICONTROL From]** en **[!UICONTROL To]** in.
 
-     U kunt de datum van de Kalender ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png) ook kiezen).
+     U kunt de datum van de Kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) ook kiezen).
 
    - Als u de herinnering meerdere keren wilt verzenden, voert u in het veld **[!UICONTROL Repeat Schedule]** het aantal dagen voor de volgende e-mailexplosie in.
 
 1. Kies **[!UICONTROL Conditions]** in het deelvenster aan de linkerkant.
 
-   Voor de regel moet ten minste één voorwaarde worden gedefinieerd. Het proces is gelijkaardig aan het bouwen van de regel van de a [&#x200B; catalogusprijs.](price-rules-catalog.md)
+   Voor de regel moet ten minste één voorwaarde worden gedefinieerd. Het proces is gelijkaardig aan het bouwen van de regel van de a [ catalogusprijs.](price-rules-catalog.md)
 
-   ![&#x200B; E-mailherinneringsvoorwaarden &#x200B;](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
+   ![ E-mailherinneringsvoorwaarden ](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
-   Klik _toevoegen_ ( ![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) om de lijst van opties te tonen en dan één van de volgende voorwaarden te kiezen:
+   Klik _toevoegen_ ( ![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) om de lijst van opties te tonen en dan één van de volgende voorwaarden te kiezen:
 
    - Gewenste lijst
    - Winkelwagentje
 
    >[!NOTE]
    >
-   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
+   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
    >
-   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_&#x200B;periode is over.
+   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_periode is over.
 
    Voltooi de voorwaarde om het scenario te beschrijven dat de e-mailherinnering teweegbrengt.
 
-   ![&#x200B; voorbeeld van de e-mailherinneringsvoorwaarden &#x200B;](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
+   ![ voorbeeld van de e-mailherinneringsvoorwaarden ](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
 
 1. Kies **[!UICONTROL Emails and Labels]** in het deelvenster aan de linkerkant.
 
-   ![&#x200B; Regel voor e-mailherinnering - e-mails en labels &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![ Regel voor e-mailherinnering - e-mails en labels ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Email Templates]** sectie, kies het e-mailmalplaatje dat voor elke website en opslagmening in uw [&#x200B; opslaghiërarchie &#x200B;](../getting-started/websites-stores-views.md) moet worden gebruikt.
+1. In de **[!UICONTROL Email Templates]** sectie, kies het e-mailmalplaatje dat voor elke website en opslagmening in uw [ opslaghiërarchie ](../getting-started/websites-stores-views.md) moet worden gebruikt.
 
    Als u de herinnering niet per e-mail naar klanten van een winkelweergave wilt verzenden, laat u de waarde `Not Selected` ongewijzigd.
 
@@ -82,15 +81,15 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstellin
 
    - Voer de **[!UICONTROL Rule Description for All Store Views]** in.
 
-     ![&#x200B; E-mailherinneringen - titels en beschrijvingen &#x200B;](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
+     ![ E-mailherinneringen - titels en beschrijvingen ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - In de _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;sectie, ga **[!UICONTROL Rule Title]**&#x200B;en **[!UICONTROL Description]**&#x200B;voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
+   - In de _[!UICONTROL Titles and Descriptions Per Store View]_sectie, ga **[!UICONTROL Rule Title]**en **[!UICONTROL Description]**voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
 
      >[!NOTE]
      >
      >De beschrijving kan in e-mailmalplaatjes worden opgenomen door de bevordering_beschrijvingsvariabele te gebruiken.
 
-     ![&#x200B; Titels en beschrijvingen - opslagmening &#x200B;](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
+     ![ Titels en beschrijvingen - opslagmening ](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
