@@ -20,7 +20,7 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 
 >[!NOTE]
 >
->Zie [&#x200B; de beschikbaarheid van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor informatie over versies van de B2B uitbreiding van Commerce die voor beschikbare versies van Adobe Commerce wordt gesteund.
+>Zie [&#x200B; de beschikbaarheid van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL) voor informatie over versies van de B2B uitbreiding van Commerce die voor beschikbare versies van Adobe Commerce wordt gesteund.
 
 ## B2B v1.5.3-bèta1
 
@@ -28,7 +28,7 @@ In deze releaseopmerkingen voor de B2B-extensie worden aanvullingen en correctie
 
 Compatibel met Adobe Commerce versie 2.4.9-bèta1.
 
-- ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html) worden gedocumenteerd
+- ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb26-05.html) worden gedocumenteerd
 
 ### B2B
 
@@ -155,7 +155,7 @@ _ACP2E-4097_
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p4 van Adobe Commerce, 2.4.7-p9, en 2.4.6-p14 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p9, 2.4.6 tot 2.4.6-p14
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb26-05.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p3
 
@@ -164,7 +164,7 @@ Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p9, 2.4.6 tot 2.4.6-p14
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p3 van Adobe Commerce, 2.4.7-p8, en 2.4.6-p13 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p7, 2.4.6 tot 2.4.6-p12.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p2
 
@@ -173,7 +173,7 @@ Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p7, 2.4.6 tot 2.4.6-p12.
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p2 van Adobe Commerce, 2.4.7-p7, en 2.4.6-p12 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p6, 2.4.6 tot 2.4.6-p11.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.5.2-p1
 
@@ -182,7 +182,7 @@ Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p6, 2.4.6 tot 2.4.6-p11.
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.8-p1 van Adobe Commerce, 2.4.7-p6, en 2.4.6-p11 de versies van het veiligheidspatch.
 Compatibel met Adobe Commerce-versies 2.4.7 tot 2.4.7-p5, 2.4.6 tot 2.4.6-p10.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html) worden gedocumenteerd.
 
 ## B2B 1.5.2
 
@@ -260,7 +260,7 @@ De versie B2B v1.5.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen
 [!BADGE &#x200B; Gesteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch van Adobe Commerce.
 Compatibel met Adobe Commerce-versies 2.4.8-beta1, 2.4.7 tot 2.4.7-p2, 2.4.6 tot 2.4.6-p7.
 
-Adobe Commerce B2B versie 1.5.0 is ook compatibel met PHP 8.3 en steunt de [&#x200B; Server van de Toepassing van GraphQL &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+Adobe Commerce B2B versie 1.5.0 is ook compatibel met PHP 8.3 en steunt de [&#x200B; Server van de Toepassing van GraphQL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 De B2B v1.5.0 versie omvat nieuwe eigenschappen, kwaliteitsverbeteringen, en insectenmoeilijke situaties.
 
@@ -342,7 +342,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p8+ en 2.4.6-p13+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -352,7 +352,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p7+ en 2.4.6-p12+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -362,7 +362,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.7-p6+ en 2.4.6-p11+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -374,7 +374,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p5+ en 2.4.6-p10+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-26.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -386,7 +386,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p4+ en 2.4.6-p9+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-08.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-08.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -398,7 +398,7 @@ De verbeteringen aan het citeren mogelijkheden helpen Kopers en Verkopers citate
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.7-p3+ en 2.4.6-p8+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
 {{b2b-compatibility}}
 
@@ -434,13 +434,13 @@ De B2B v1.4.2 versie omvat kwaliteitsverbeteringen en insectenmoeilijke situatie
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [&#x200B; Server van de Toepassing van GraphQL &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B versie 1.4.2+ is compatibel met PHP 8.2. Als u de Commerce-instantie upgradet naar versie 2.4.7+, moet u ervoor zorgen dat de instantie PHP versie 8.2 gebruikt om de compatibiliteit met Adobe Commerce B2B-versie te behouden. Bovendien, steunt B2B 1.4.2+ momenteel niet de [&#x200B; Server van de Toepassing van GraphQL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
 *7 Augustus, 2023*
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} [&#x200B; Adobe Commerce 2.4.6-p2 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1.
+[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} [&#x200B; Adobe Commerce 2.4.6-p2 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=nl-NL). Compatibel met Adobe Commerce 2.4.7-beta1.
 
 De versie B2B v1.4.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen.
 
@@ -458,7 +458,7 @@ De versie B2B v1.4.1 bevat kwaliteitsverbeteringen en oplossingen voor problemen
 
 *13 Juni, 2023*
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} [&#x200B; Adobe Commerce 2.4.6-p1 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatibel met Adobe Commerce 2.4.7-beta1.
+[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} [&#x200B; Adobe Commerce 2.4.6-p1 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=nl-NL). Compatibel met Adobe Commerce 2.4.7-beta1.
 
 Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbare aanhalingstekens en meerdere opgeloste problemen.
 
@@ -484,7 +484,7 @@ Deze release bevat nieuwe mogelijkheden en verbeteringen voor B2B-onderhandelbar
 
 ### Bekend probleem
 
-Als u installeert of B2B 1.4.0 op [&#x200B; versie 2.4.6-p1 van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) bevordert, komt de volgende fout voor:
+Als u installeert of B2B 1.4.0 op [&#x200B; versie 2.4.6-p1 van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=nl-NL) bevordert, komt de volgende fout voor:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -496,7 +496,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspakket met a [&#x200B; stabiliteitsmarkering &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen. Voor instructies, zie de [&#x200B; Kennisbank van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspakket met a [&#x200B; stabiliteitsmarkering &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links) toe te voegen. Voor instructies, zie de [&#x200B; Kennisbank van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=nl-NL).
 
 ## B2B v1.3.5-p13
 
@@ -504,7 +504,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p13+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p12
 
@@ -512,7 +512,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.6-p12+ de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p10
 
@@ -522,7 +522,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met Adobe Commerce 2.4.6-p10 de versies van het veiligheidspatch.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-26.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p9
 
@@ -532,7 +532,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p9.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-08.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-08.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p8
 
@@ -542,7 +542,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde verenigbaarheid met de de veiligheidsflardversies van Adobe Commerce 2.4.6-p8.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
 ## B2B v1.3.5-p7
 
@@ -564,7 +564,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 >[!NOTE]
 >
->Nadat u Commerce van 2.4.6 aan de [&#x200B; recentste versie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) bevordert, zorg ervoor om aan de gesteunde B2B 1.3.5 flardversie bij te werken. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
+>Nadat u Commerce van 2.4.6 aan de [&#x200B; recentste versie &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=nl-NL#2.4.6) bevordert, zorg ervoor om aan de gesteunde B2B 1.3.5 flardversie bij te werken. Of upgrade de B2B-extensie van versie 1.3.5 naar versie 1.4.0 of hoger om de nieuwste functies te krijgen.
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.6.
 
@@ -594,7 +594,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Gesteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.5-p16 (uitgebreide steun)
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb26-05.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p15
 
@@ -602,7 +602,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p14
 
@@ -610,7 +610,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p13
 
@@ -620,7 +620,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p12.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p12
 
@@ -630,7 +630,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p12.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-26 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-26.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p11
 
@@ -640,7 +640,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p11.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-08.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; Bulletin APSB25-08 van de Veiligheid &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-08.html) worden gedocumenteerd.
 
 ## B2B v1.3.4-p10
 
@@ -650,7 +650,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p10.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB24-73 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb24-73.html) worden gedocumenteerd.
 
 ## B2B v1.3.4
 
@@ -692,7 +692,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Gesteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.4-p17 (uitgebreide steun)
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html) worden gedocumenteerd
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB26-05 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb26-05.html) worden gedocumenteerd
 
 
 ## B2B v1.3.3-p16
@@ -701,7 +701,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html) worden gedocumenteerd
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-94 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-94.html) worden gedocumenteerd
 
 ## B2B v1.3.3-p15
 
@@ -709,7 +709,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} Adobe Commerce 2.4.0 en nieuwere versies
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-71 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-71.html) worden gedocumenteerd.
 
 ## B2B v1.3.3-p14
 
@@ -719,7 +719,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor Adobe Commerce 2.4.5-p12.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html) worden gedocumenteerd.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) omvat de veiligheidsmoeilijke situaties die in [&#x200B; het Bulletin van de Veiligheid APSB25-50 &#x200B;](https://helpx.adobe.com/nl/security/products/magento/apsb25-50.html) worden gedocumenteerd.
 
 ## B2B v1.3.3
 
@@ -791,7 +791,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) <!--- MC-41260--> het klikken van de **[!UICONTROL Return]** knoop voor een orde die door een bedrijfgebruiker werd gecreeerd richt nu een administratieve gebruiker aan de Create pagina van de Terugkeer opnieuw zoals verwacht. Eerder werd de beheerder omgeleid naar de pagina Order History.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} <!--- MC-40798--> Adobe Commerce ontbreekt niet meer met een uit-van-geheugenfout wanneer het uitvoeren van de `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` methode tijdens `bin/magento setup:upgrade`. Eerder, gebruikte Adobe Commerce niet partijgrootte voor inzameling toen het initialiseren van toestemmingen, maar in plaats daarvan geladen een inzameling van alle bedrijfrollen.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} <!--- MC-40798--> Adobe Commerce ontbreekt niet meer met een uit-van-geheugenfout wanneer het uitvoeren van de `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` methode tijdens `bin/magento setup:upgrade`. Eerder, gebruikte Adobe Commerce niet partijgrootte voor inzameling toen het initialiseren van toestemmingen, maar in plaats daarvan geladen een inzameling van alle bedrijfrollen.
 
 ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) <!--- MC-40551--> De gebruikers van het Bedrijf kunnen klanten de waarden van de douaneattributen nu uitgeven en bijwerken. Eerder waren deze kenmerken niet correct gekoppeld aan het formulier voor het maken en bewerken van gebruikers. Een bedrijfgebruiker kon verschillende kenmerkwaarden ingaan, maar Adobe Commerce heeft deze waarden niet correct bewaard.
 
@@ -933,7 +933,7 @@ U kunt deze kwestie bevestigen door handgebiedsdelen voor het B2B veiligheidspak
 
 - Adobe Commerce geeft soms een fout van 404 weer wanneer een koper een inkooporder maakt en vervolgens naar de afhandelingspagina navigeert. Deze fout treedt op wanneer een koper eerder een andere inkooporder met een online betalingsmethode heeft gemaakt voordat hij naar de betalingspagina navigeert zonder de vorige aankoop te voltooien. De koper kan de kooporder nog steeds plaatsen. **_Oplossing_**: niets. <!--- B2B-1605-->
 
-- Kortingen voor een specifieke betalingsmethode blijven bestaan tijdens afhandeling voor een inkooporder, zelfs als de koper zijn betalingsmethode wijzigt tijdens de laatste afhandeling. Als gevolg hiervan kunnen klanten een korting ontvangen waarop ze geen recht hebben. Deze kwestie doet zich voor omdat ondanks de wijziging in de betalingsmethode nog steeds een kartregel voor de oorspronkelijke betalingsmethode wordt toegepast. **_Oplossing_**: niets. Zie [&#x200B; Adobe Commerce 2.4.2 B2B bekende kwestie: de korting blijft voor online Orden van de Aankoop nadat de betalingsmethode &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _artikel van de Kennisbank_ wordt veranderd. <!-- B2B-1012 -->
+- Kortingen voor een specifieke betalingsmethode blijven bestaan tijdens afhandeling voor een inkooporder, zelfs als de koper zijn betalingsmethode wijzigt tijdens de laatste afhandeling. Als gevolg hiervan kunnen klanten een korting ontvangen waarop ze geen recht hebben. Deze kwestie doet zich voor omdat ondanks de wijziging in de betalingsmethode nog steeds een kartregel voor de oorspronkelijke betalingsmethode wordt toegepast. **_Oplossing_**: niets. Zie [&#x200B; Adobe Commerce 2.4.2 B2B bekende kwestie: de korting blijft voor online Orden van de Aankoop nadat de betalingsmethode &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=nl-NL) _artikel van de Kennisbank_ wordt veranderd. <!-- B2B-1012 -->
 
 - De query `deleteRequisitionListOutput` retourneert details over de verwijderde aanvraaglijst in plaats van de resterende aanvraaglijsten. <!--- MC-39894-->
 
@@ -1061,7 +1061,7 @@ Deze release bevat verbeteringen voor goedkeuringen voor bestellingen, verzendme
 
 ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) een moeilijke situatie wordt toegevoegd om opslagbeheerders toe te staan om producten aan een orde toe te voegen die niet in de gedeelde catalogus zijn. Er wordt eerder een foutbericht weergegeven wanneer u een item toevoegt dat zich niet in de catalogus bevindt.
 
-![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} eerder, na het in werking stellen van het bevel `php bin/magento indexer:set-dimensions-mode catalog_product_price website` en dan het proberen om een gedeelde catalogus tot stand te brengen, zou een fout voorkomen. Dit probleem is opgelost.
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} eerder, na het in werking stellen van het bevel `php bin/magento indexer:set-dimensions-mode catalog_product_price website` en dan het proberen om een gedeelde catalogus tot stand te brengen, zou een fout voorkomen. Dit probleem is opgelost.
 
 ![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) toen het toevoegen van een bedrijf en het toewijzen van de bedrijfbeheerder aan een niet-standaard website, werd verkeerde plaatsidentiteitskaart verzonden, veroorzakend een fout. Dit probleem is opgelost.
 
