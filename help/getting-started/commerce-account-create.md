@@ -1,7 +1,7 @@
 ---
 title: Creeer en toegang tot uw  [!DNL Commerce]  rekening
 description: Leer over  [!DNL Commerce]  rekeningen, die de producten en de diensten beheren die u hebt gekocht.
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 source-git-commit: 518333eb4a5bcd2c4276ade008bb38552c7fd066
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 Een [!DNL Commerce] -account is uw centrale toegangspunt voor het beheer van Adobe Commerce-services voor Adobe Commerce-projecten die worden geïmplementeerd op cloudinfrastructuur of op locatie. Vanuit het accountdashboard kunt u abonnementen weergeven, de API-sleutels voor Commerce Services beheren, historische factureringsgegevens controleren en samenwerken met andere gebruikers in uw organisatie.
 
-Als u uw eerste kaartje [&#x200B; moet voorleggen of uw verhouding van Adobe Commerce - eerder dan het werken binnen een specifieke storefront - begin door tot uw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) rekening te leiden of toegang te hebben.[!DNL Commerce]
+Als u uw eerste kaartje [&#x200B; moet voorleggen of uw verhouding van Adobe Commerce - eerder dan het werken binnen een specifieke storefront - begin door tot uw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) rekening te leiden of toegang te hebben.[!DNL Commerce]
 
-U kunt uw [!DNL Commerce] -account openen via de [!DNL Commerce] -website. Van het rekeningsdashboard, kunt u informatie met betrekking tot de producten en de diensten bekijken u hebt gekocht en [&#x200B; Gedeelde Toegang &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) aan andere gebruikers verstrekken. Bepaalde informatie, zoals de API-sleutels voor Commerce Services, is alleen zichtbaar voor eigenaars van licenties.
+U kunt uw [!DNL Commerce] -account openen via de [!DNL Commerce] -website. Van het rekeningsdashboard, kunt u informatie met betrekking tot de producten en de diensten bekijken u hebt gekocht en [&#x200B; Gedeelde Toegang &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) aan andere gebruikers verstrekken. Bepaalde informatie, zoals de API-sleutels voor Commerce Services, is alleen zichtbaar voor eigenaars van licenties.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ U kunt uw [!DNL Commerce] -account openen via de [!DNL Commerce] -website. Van h
 
 De aanmelding voor uw [!DNL Commerce] -account staat los van de aanmelding voor Admin-beheer van uw winkel. U zult normaal verschillende geloofsbrieven voor elk gebruiken, en de toegang tot elk systeem wordt geleid onafhankelijk.
 
-Nochtans, kan een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID vormen om aan login aan de opslag Admin te vormen: [&#x200B; vormt de Integratie van Commerce Admin met Adobe ID &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) in de *Gids van de Integratie IMS voor Commerce*.
+Nochtans, kan een gebruiker die hun login aan de Bedrijfs Adobe Commerce en Adobe producten wil stroomlijnen hun Adobe ID vormen om aan login aan de opslag Admin te vormen: [&#x200B; vormt de Integratie van Commerce Admin met Adobe ID &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/admin/ims/adobe-ims-config) in de *Gids van de Integratie IMS voor Commerce*.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Een Adobe ID is vereist voor toegang tot uw [!DNL Commerce] -account. Als u een 
 
 >[!WARNING]
 >
->Als u niet de organisatie van Commerce kunt vinden wanneer het voorleggen van een Adobe Commerce [&#x200B; steungeval &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case), betekent het gewoonlijk één van het volgende: De Eigenaar van de Rekening heeft geen Adobe ID gecreeerd, of Adobe ID bestaat maar niet met de rekening van Commerce verbonden.
+>Als u niet de organisatie van Commerce kunt vinden wanneer het voorleggen van een Adobe Commerce [&#x200B; steungeval &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case), betekent het gewoonlijk één van het volgende: De Eigenaar van de Rekening heeft geen Adobe ID gecreeerd, of Adobe ID bestaat maar niet met de rekening van Commerce verbonden.
 
 1. Ga naar de [[!DNL Commerce] &#x200B;](https://account.magento.com/customer/account/login/) -site.
 
@@ -108,6 +108,6 @@ Iedereen kan een gratis [!DNL Commerce] account maken. Het e-mailadres dat u geb
 
 De gedeelde Toegang staat u toe om vertrouwde op gebruikers-zoals collega&#39;s, partners, of beheerder-toestemming te verlenen om uw verhouding van Adobe Commerce namens u te beheren zonder uw persoonlijke login te gebruiken. Dit omvat ook het openen en volgen van ondersteuningsgevallen door anderen.
 
-Zie [&#x200B; een Commerce rekening &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) sectie van Adobe Commerce delen Begonnen Gids voor gedetailleerde stappen bij vestiging een gedeelde rekening.
+Zie [&#x200B; een Commerce rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) sectie van Adobe Commerce delen Begonnen Gids voor gedetailleerde stappen bij vestiging een gedeelde rekening.
 
-Voor gedetailleerde instructies bij het voorleggen van een de steungeval van Commerce, zie de [&#x200B; gebruikersgids van het Centrum van de Hulp van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+Voor gedetailleerde instructies bij het voorleggen van een de steungeval van Commerce, zie de [&#x200B; gebruikersgids van het Centrum van de Hulp van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
