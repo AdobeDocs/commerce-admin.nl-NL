@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9a800bd94abbf6a8ce34816fdb0dbba4f44385b0
+source-git-commit: 4484906047bea6603d93dda8ed06c5897136bd7d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -9,7 +9,7 @@ ht-degree: 1%
 
 ## Nieuwe functies
 
-Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, zijn niet opgenomen in deze lijst.
+Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
 
 ### 10 maart 2026
 
@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules"> E-mailherinneringen </a> zijn nu beschikbaar in Adobe Commerce as a Cloud Service.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules"> E-mailherinneringen </a> zijn nu beschikbaar in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -39,10 +39,10 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> nota's van de Versie </a> met B2B v1.5.3-bèta1 (Maart 2026): kwaliteitsverbeteringen en insectenmoeilijke situaties voor citaten, verzoeklijsten, gedeelde catalogi, checkout, GraphQL, en verwante gebieden, plus minder belangrijke exemplaar en consistentieverantwoording.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> nota's van de Versie </a> met B2B v1.5.3-bèta1 (Maart 2026): kwaliteitsverbeteringen en insectenmoeilijke situaties voor citaten, verzoeklijsten, gedeelde catalogi, controle, GraphQL, en verwante gebieden, plus minder belangrijke exemplaar en consistentieverbeteringen.</p>
 </td>
       <td>
-        Grote update
+        Belangrijke update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e097f7e6848929b53dd7ade2e63bf8653ff0feed">begaan</a></td>
     </tr>
@@ -56,12 +56,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt PaaS slechts merkend op de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/reports-menu"> het menu van Rapporten </a> pagina.</p>
+      <td><p>Bijgewerkt PaaS slechts merkend op de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> het menu van Rapporten </a> pagina.</p>
 </td>
       <td>
         Feedback
@@ -83,10 +83,10 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Updates aan de documentatie Admin voor de release van Adobe Commerce as a Cloud Service Februari:<br /> - Toegevoegde documentatie voor <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> douane vangen bedragen </a> wanneer het creëren van facturen in REST API, die verkopers toestaat om douanebedragen te vangen wanneer het creëren van facturen voor gedeeltelijke vangt en gespecialiseerde betalingsscenario's.<br /> - wijst op welke rapporten in het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/reports-menu"> menu van Rapporten </a> nu slechts PaaS zijn.</p>
+      <td><p>Updates aan de documentatie Admin voor de release van Adobe Commerce as a Cloud Service Februari:<br /> - Toegevoegde documentatie voor <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> douane vangen bedragen </a> wanneer het creëren van facturen in REST API, die verkopers toestaat om douanebedragen te vangen wanneer het creëren van facturen voor gedeeltelijke vangt en gespecialiseerde betalingsscenario's.<br /> - wijst op welke rapporten in het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> menu van Rapporten </a> nu slechts PaaS zijn.</p>
 </td>
       <td>
-        Grote update
+        Belangrijke update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0c602db5a7291b95d725bce59df53923490d6b96">begaan</a></td>
     </tr>
@@ -100,12 +100,12 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law"> naleving van de Koekjeswet </a> om de ontbrekende <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage sleutel toe te voegen en de vrijgestelde koekjeslijst in een lijstformaat om te zetten.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law"> naleving van de de wettigheid van het Koekje </a> om de ontbrekende <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> lokaleStorage sleutel toe te voegen en de vrijgestelde koekjeslijst in een lijstformaat om te zetten.</p>
 </td>
       <td>
         Technisch, feedback
@@ -113,7 +113,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">begaan</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."} Bijgewerkt de eerste vereisten voor het vormen van de integratie IMS voor Adobe Commerce om informatie te verstrekken over het verzoeken van toegang tot Adobe Admin Console.</p>
+      <td><p>[!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."} Bijgewerkt de eerste vereisten voor het vormen van de integratie IMS voor Adobe Commerce om informatie te verstrekken over het verzoeken van toegang tot Adobe Admin Console.</p>
 </td>
       <td>
         Technisch, feedback
@@ -130,17 +130,17 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
     <tr>
       <th>Beschrijving</th>
       <th>Type</th>
-      <th>Bron</th>
+      <th>Source</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-groups"> Groepen van de Klant </a> in de Gids van het Beheer van de Klant om te verduidelijken dat de gebruikers Admin de Groep van de Klant van een klant niet kunnen uitgeven nadat de klant aan een bedrijf is toegewezen.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups"> Groepen van de Klant </a> in de Gids van het Beheer van de Klant om te verduidelijken dat de gebruikers Admin de Groep van de Klant van een klant niet kunnen uitgeven nadat de klant aan een bedrijf is toegewezen.</p>
 </td>
       <td>
         Technisch
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.nl-NL/pull/81">pull-verzoek</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">pull-verzoek</a></td>
     </tr>
   </tbody>
 </table>
@@ -163,50 +163,6 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
         Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4077b922dae0ed9a9050a5f6160143a636646daa">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 16 januari 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Toegevoegde verduidelijking wanneer <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> Klaar van de Orde voor Bestelwagen in opslag </a> e-mails beschikbaar zijn.</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/65fd67dcd3c14daddfc0f36493dc6da3630898a1">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 15 januari 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Bron</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Toegevoegd de volgende eigenschappen aan Adobe Commerce as a Cloud Service:<br /> - toegevoegde steun voor <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise"> de Onderneming van Google reCAPTCHA </a>, die geavanceerde bot bescherming van adaptieve risicoanalyse en machine het leren mogelijkheden verstrekt.<br /> - Transformeer de volgnummers van de verzending inbegrepen in winkelberichten van gewone tekst in klikbare verbindingen door <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls"> toelatend het Volgen URLs van de Douane </a>. Deze functie wordt ondersteund voor USPS, UPS, FedEx en DHL.<br /> - U kunt gelaagde prijskortingen met de kortingen van de catalogusregel nu combineren gebruikend <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules"> de regels van de catalogusprijs </a>. Deze verbetering staat u toe om dynamischere en concurrerende prijszettingsstrategieën tot stand te brengen.</p>
-</td>
-      <td>
-        Belangrijke update, nieuw onderwerp
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">begaan</a></td>
     </tr>
   </tbody>
 </table>
