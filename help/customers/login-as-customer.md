@@ -20,9 +20,9 @@ Alle acties die tijdens het aanmelden als de klant worden uitgevoerd, worden toe
 
 >[!TAB  Adobe Commerce ]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONTROL Login as Customer]_knoop in veelvoudige pagina&#39;s:
+Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONTROL Login as Customer]_&#x200B;knoop in veelvoudige pagina&#39;s:
 
 * [Bewerkingspagina van klant](../customers/update-account.md)
 * [Weergavepagina Volgorde](../stores-purchase/order-processing.md)
@@ -30,18 +30,18 @@ Wanneer het voor een _Admin_ gebruiker wordt toegelaten, verschijnt de _[!UICONT
 * [Pagina Verzendweergave](../stores-purchase/shipments.md)
 * [Weergavepagina creditcard](../stores-purchase/credit-memo-create.md)
 
-![ Login als Klant ](assets/login-as-customer.png){width="600" zoomable="yes"}
+![&#x200B; Login als Klant &#x200B;](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 In Adobe Commerce as a Cloud Service, gebruikt de Login als eigenschap van de Klant a **Eenmalige Code (OTC)** werkschema in plaats van directe login. Beheerders genereren een kortstondige code voor eenmalig gebruik voor een klant. Deze code kan vervolgens via GraphQL worden uitgewisseld voor een toegangstoken voor klanten, zodat gebruikers zich zonder wachtwoord kunnen aanmelden als workflows van de klant voor winkelscenario&#39;s voor verkopers.
 
 Het onderdeel bestaat uit de volgende onderdelen:
 
 * **Admin UI** - op de klant geeft pagina uit, kunnen de beheerders om een éénmalige code (OTC) in plaats van direct het programma openen als klant verzoeken.
-* **[REST API ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)** - een programmatic eindpunt voor OTC generatie, nuttig voor admin manuscripten en derdesintegratie.
+* **[REST API &#x200B;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)** - een programmatic eindpunt voor OTC generatie, nuttig voor admin manuscripten en derdesintegratie.
 * **GraphQL API** - Mutaties die een OTC voor een teken van de klantentoegang voor opslag of headless handelsstromen ruilen.
 
 >[!ENDTABS]
@@ -56,7 +56,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Customers]** uit en kies **[!UICONTROL Login as Customer]** .
 
-   ![ de opties van de Configuratie - Login als Klant ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![&#x200B; de opties van de Configuratie - Login als Klant &#x200B;](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Enable Login as Customer]** in op `Yes` .
 
@@ -76,7 +76,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
 
 1. Klik op de rol in de lijst.
 
-1. In het [!UICONTROL _linkerpaneel van de Informatie van de Rol 0} {, klik_].**[!UICONTROL Role Resources]**
+1. In het [!UICONTROL _linkerpaneel van de Informatie van de Rol 0&rbrace; &lbrace;, klik_].**[!UICONTROL Role Resources]**
 
 1. Wijzig **[!UICONTROL Role Resources]** op de pagina in `Custom` .
 
@@ -89,7 +89,7 @@ Het toelaten van _Login als Klant_ vereist dat u de eigenschap in uw instantie v
    * **[!UICONTROL Allow Login as Customer]** - staat de gebruiker Admin toe om het _Login als eigenschap van de Klant_ te gebruiken.
    * **[!UICONTROL View Login as Customer Log]** - staat de gebruiker Admin toe om het _Login als Login van de Klant_ te zien.
 
-   ![ Bronnen van de Rol - Login als Klant ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![&#x200B; Bronnen van de Rol - Login als Klant &#x200B;](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save Role]**.
 
@@ -101,7 +101,7 @@ Om toegang tot uw account mogelijk te maken voor medewerkers van de opslagonders
 
 >[!TAB  Adobe Commerce ]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 1. De klant gaat naar de pagina **[!UICONTROL Account Information]** .
 
@@ -109,11 +109,11 @@ Om toegang tot uw account mogelijk te maken voor medewerkers van de opslagonders
 
 1. De klant klikt op **[!UICONTROL Save]** .
 
-![ pagina van de Informatie van de Rekening ](assets/permission.png){width="700" zoomable="yes"}
+![&#x200B; pagina van de Informatie van de Rekening &#x200B;](assets/permission.png){width="700" zoomable="yes"}
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 De klant moet de `login_as_customer_assistance_allowed` uitbreidingsattributen hebben die aan **worden geplaatst 2**. Dit kan op **worden gevormd geeft Klant** pagina in Admin of door GraphQL uit wanneer het creëren van of het uitgeven van een klant.
 
@@ -121,9 +121,9 @@ De klant moet de `login_as_customer_assistance_allowed` uitbreidingsattributen h
 >
 >Zonder deze toestemming kan een Admin-gebruiker zich niet aanmelden als deze klant.
 
-![ de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant ](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+![&#x200B; de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant &#x200B;](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, plaats `allow_remote_shopping_assistance` input aan `true` gebruikend [`updateCustomerV2` ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) of [`createCustomerV2` ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) mutaties.
+Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, plaats `allow_remote_shopping_assistance` input aan `true` gebruikend [`updateCustomerV2` &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) of [`createCustomerV2` &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) mutaties.
 
 >[!ENDTABS]
 
@@ -133,7 +133,7 @@ Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, 
 
 >[!TAB  Adobe Commerce ]
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 1. Op _Admin_ sidebar, ga **[!UICONTROL Customers]** > [!UICONTROL _Alle Klanten_].
 
@@ -149,11 +149,11 @@ Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, 
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 >[!NOTE]
 >
->Voor begeleiding bij het uitvoeren van deze eigenschap die REST gebruikt, zie de [ Login als de documentatie van het TUSSENRUIMTE van de Klant ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API.
+>Voor begeleiding bij het uitvoeren van deze eigenschap die REST gebruikt, zie de [&#x200B; Login als de documentatie van het TUSSENRUIMTE van de Klant &#x200B;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API.
 
 ### Een eenmalige code (OTC) aanvragen bij de beheerder
 
@@ -161,11 +161,11 @@ Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, 
 
 1. Klik op de pagina Klant bewerken op **[!UICONTROL Get Customer Login OTC]** .
 
-   ![ krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant ](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![&#x200B; krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant &#x200B;](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
 
 1. Voer een **[!UICONTROL Reason]** (vereist) in en klik op **[!UICONTROL Request]** .
 
-   ![ OTC verzoek modaal met het gebied van de Reden ](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![&#x200B; OTC verzoek modaal met het gebied van de Reden &#x200B;](assets/otc-reason-modal.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Om deze toestemming met GraphQL voor een bestaande klantenrekening te plaatsen, 
 
 1. De gegenereerde OTC wordt weergegeven in het modaal. Gebruik deze code met de `generateCustomerToken` - of `exchangeOtpForCustomerToken` GraphQL-mutatie voor toestemming van de klant.
 
-   ![ Gegenereerde OTC die in modaal ](assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
+   ![&#x200B; Gegenereerde OTC die in modaal &#x200B;](assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
 
 >[!IMPORTANT]
 >
->De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. TTL kan worden gevormd door a [ steunkaartje ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
+>De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. TTL kan worden gevormd door a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
 
 Nadat de Eenmalige Code wordt geproduceerd, kunt u het gebruiken door aan uw storefront te navigeren en het programma te openen gebruikend de volgende geloofsbrieven:
 
@@ -205,8 +205,8 @@ _Login als Klant_ staat u toe om de plaats te zien enkel aangezien de klant doet
 
 {{ee-feature}}
 
-Adobe Commerce verstrekt het registreren voor het _Login als acties van de Klant_. Hierin worden alle sessies weergegeven waarbij een Admin-gebruiker de functie benadert. Om tot de geregistreerde acties toegang te hebben, ga naar het [ Rapport van Acties Admin ](../systems/action-log-report.md).
+Adobe Commerce verstrekt het registreren voor het _Login als acties van de Klant_. Hierin worden alle sessies weergegeven waarbij een Admin-gebruiker de functie benadert. Om tot de geregistreerde acties toegang te hebben, ga naar het [&#x200B; Rapport van Acties Admin &#x200B;](../systems/action-log-report.md).
 
 U kunt de rapportinstelling **[!UICONTROL Action Group]** naar `Login As Customer` boven aan de pagina filteren en op **[!UICONTROL Search]** klikken.
 
-![ filter het Rapport van Acties ](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![&#x200B; filter het Rapport van Acties &#x200B;](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
