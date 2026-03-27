@@ -3,7 +3,7 @@ title: Mapbeheer voor Media Gallery
 description: Leer hoe u mappen kunt gebruiken om uw media-elementen te ordenen.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
 source-wordcount: '160'
