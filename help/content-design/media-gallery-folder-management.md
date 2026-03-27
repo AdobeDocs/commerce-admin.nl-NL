@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Mapbeheer voor Media Gallery
 
-De omslagen van het gebruik om beelden in de nieuwe [ Galerie van Media ](media-gallery.md) te organiseren. Naarmate het aantal media-elementen toeneemt, kunnen met mappen gemakkelijker bestaande elementen in uw mediagalerie worden gevonden en beheerd.
+De omslagen van het gebruik om beelden in de nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) te organiseren. Naarmate het aantal media-elementen toeneemt, kunnen met mappen gemakkelijker bestaande elementen in uw mediagalerie worden gevonden en beheerd.
 
 ## Een map maken
 
@@ -27,7 +27,7 @@ U kunt alleen een map maken in de mappen `pub/media/wysywig` , `pub/media/catalo
 
 1. Voer de nieuwe mapnaam in en klik op **[!UICONTROL Confirm]** .
 
-   ![ Nieuwe Naam van de Omslag ](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
+   ![&#x200B; Nieuwe Naam van de Omslag &#x200B;](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
 ## Een map verwijderen
 
@@ -39,7 +39,7 @@ U kunt alleen een map maken in de mappen `pub/media/wysywig` , `pub/media/catalo
 
 1. Selecteer de map die u wilt verwijderen.
 
-   ![ Uitgezochte Omslag ](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
+   ![&#x200B; Uitgezochte Omslag &#x200B;](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Delete Folder]**.
 
