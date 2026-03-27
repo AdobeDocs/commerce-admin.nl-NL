@@ -3,17 +3,19 @@ title: Middelen in galerie beheren
 description: Leer hoe u geüploade mediabestanden en elementen die u via Adobe Stock-integratie aanschaft, beheert.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Middelen in galerie beheren
 
-De nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [&#128279;](adobe-stock.md) verwerft. Als u een Adobe Stock [&#x200B; beeldvoorproef &#x200B;](adobe-stock-save-preview.md) hebt bewaard, kunt u [&#x200B; vergunning &#x200B;](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
+De nieuwe [ Galerie van Media ](media-gallery.md) verstrekt hulpmiddelen om geuploade media dossiers, en activa te beheren die u door de integratie van Adobe Stock [ ](adobe-stock.md) verwerft. Als u een Adobe Stock [ beeldvoorproef ](adobe-stock-save-preview.md) hebt bewaard, kunt u [ vergunning ](adobe-stock-license-image.md) het beeld in de nieuwe Galerij van Media ook verlenen.
+
+Assets kan alleen worden geüpload naar `pub/media/wysywig` , `pub/media/catalog/category` of naar andere mappen die door modules worden toegevoegd.
 
 ## Middelen uploaden
 
@@ -23,15 +25,15 @@ De nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) verstrekt hulp
 
 1. Selecteer het bestand dat u wilt uploaden.
 
-   Het geselecteerde element wordt automatisch geüpload naar de geselecteerde map (of naar de opslagmap als er geen map is geselecteerd).
+   Het geselecteerde element wordt automatisch geüpload naar de geselecteerde map.
 
 ## Elementdetails weergeven
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klik de drie punten onder de activa (![&#x200B; pictogram van Details &#x200B;](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL View Details]**.
+1. Klik de drie punten onder de activa (![ pictogram van Details ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL View Details]**.
 
-   ![&#x200B; Acties van Activa &#x200B;](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
+   ![ Acties van Activa ](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
    De elementdetails worden weergegeven in een deelvenster. Zij omvatten de informatie waar het actief wordt gebruikt:
 
@@ -40,11 +42,11 @@ De nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) verstrekt hulp
    - **[!UICONTROL Pages]**
    - **[!UICONTROL Blocks]**
 
-   ![&#x200B; Details van Activa &#x200B;](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
+   ![ Details van Activa ](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
    Klik op de koppelingen **[!UICONTROL Used In]** om de details weer te geven. In het raster in het volgende voorbeeld worden alle categorieën weergegeven waarin een specifiek element wordt gebruikt.
 
-   ![&#x200B; Net van de Categorie &#x200B;](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
+   ![ Net van de Categorie ](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
    Het is ook mogelijk om de activa van de _sectie van de Details van de Mening_ te schrappen.
 
@@ -52,9 +54,9 @@ De nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) verstrekt hulp
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klik de drie punten onder de activa (![&#x200B; het menupictogram van Activa &#x200B;](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL Edit]**.
+1. Klik de drie punten onder de activa (![ het menupictogram van Activa ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}), dan klik **[!UICONTROL Edit]**.
 
-   ![&#x200B; geef Activa &#x200B;](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"} uit
+   ![ geef Activa ](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"} uit
 
 1. Wijzig zo nodig een van de volgende waarden voor metagegevens:
 
@@ -68,7 +70,7 @@ De nieuwe [&#x200B; Galerie van Media &#x200B;](media-gallery.md) verstrekt hulp
 
 ## Een element gebruiken
 
-Assets kan uitgebreid door Admin worden gebruikt, zoals [&#x200B; een pagina &#x200B;](page-add.md) toevoegen of uitgeven, [&#x200B; creeer of geef een categorie &#x200B;](../catalog/category-create.md) uit, of [&#x200B; neem beelden van de Redacteur van de Inhoud &#x200B;](editor-insert-image.md) op.
+Assets kan uitgebreid door Admin worden gebruikt, zoals [ een pagina ](page-add.md) toevoegen of uitgeven, [ creeer of geef een categorie ](../catalog/category-create.md) uit, of [ neem beelden van de Redacteur van de Inhoud ](editor-insert-image.md) op.
 
 1. Open de nieuwe medialerie vanuit een gebied waarin u media-elementen kunt gebruiken.
 
@@ -84,7 +86,7 @@ Assets kan uitgebreid door Admin worden gebruikt, zoals [&#x200B; een pagina &#x
 
 1. Klik op **[!UICONTROL Delete Image]** in het bevestigingsdialoogvenster.
 
-   ![&#x200B; Bevestiging van de Schrapping &#x200B;](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
+   ![ Bevestiging van de Schrapping ](./assets/media-gallery-bulk-delete-confirm.png){width="500" zoomable="yes"}
 
 ## Middelen zoeken
 
@@ -94,7 +96,7 @@ Assets kan uitgebreid door Admin worden gebruikt, zoals [&#x200B; een pagina &#x
 
    Het onderzoek in het volgende voorbeeld vindt activa die een specifieke markering (`mountain`) bevatten.
 
-   ![&#x200B; Onderzoek van Activa &#x200B;](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
+   ![ Onderzoek van Activa ](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -104,13 +106,13 @@ Assets kan uitgebreid door Admin worden gebruikt, zoals [&#x200B; een pagina &#x
 
 >[!NOTE]
 >
->_Gebruikt in_ functionaliteit vereist dat [!UICONTROL Media Gallery Image Optimization] in de [&#x200B; configuratiemontages &#x200B;](media-gallery-image-optimization.md) wordt toegelaten.
+>_Gebruikt in_ functionaliteit vereist dat [!UICONTROL Media Gallery Image Optimization] in de [ configuratiemontages ](media-gallery-image-optimization.md) wordt toegelaten.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 1. Klik op de tab **[!UICONTROL Filters]** .
 
-   ![&#x200B; Filters &#x200B;](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![ Filters ](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. Stel de filteropties in.
 
@@ -127,7 +129,7 @@ Assets kan uitgebreid door Admin worden gebruikt, zoals [&#x200B; een pagina &#x
 
    Het filtreren in het volgende voorbeeld vindt activa die in een specifieke categorie (`cars`) worden gebruikt en toegelaten.
 
-   ![&#x200B; Filter voor Toegelaten Assets door Categorie &#x200B;](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+   ![ Filter voor Toegelaten Assets door Categorie ](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
 ## Afbeeldingsduplicaten zoeken
 
