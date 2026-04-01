@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-De verwante productregels geven u de capaciteit om de selectie van producten te richten die aan klanten als verwante producten worden voorgesteld, omhoog-verkoopt, en dwars-verkoopt. Elke productregel kan met a [ klantensegment ](../customers/customer-segments.md) worden geassocieerd om een dynamische vertoning van gerichte handel te veroorzaken.
+De verwante productregels geven u de capaciteit om de selectie van producten te richten die aan klanten als verwante producten worden voorgesteld, omhoog-verkoopt, en dwars-verkoopt. Elke productregel kan met a [&#x200B; klantensegment &#x200B;](../customers/customer-segments.md) worden geassocieerd om een dynamische vertoning van gerichte handel te veroorzaken.
 
 Aangezien verscheidene actieve regels tezelfdertijd kunnen worden teweeggebracht, kunt u een prioriteit voor elke regel plaatsen. Het bepaalt de orde waarin de regels worden toegepast en de producten op de pagina worden getoond.
 
-Ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**om de verwante productregels te openen.
+Ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;om de verwante productregels te openen.
 
-![ Verwante lijst van productregels ](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![&#x200B; Verwante lijst van productregels &#x200B;](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Kolombeschrijvingen
 
@@ -28,8 +28,8 @@ Ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Rel
 |--- |--- |
 | [!UICONTROL ID] | Een unieke numerieke id die aan elke gerelateerde productregel is toegewezen |
 | [!UICONTROL Rule] | De naam van de verwante productregel |
-| [!UICONTROL Start] | Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
-| [!UICONTROL End] | Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_en_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL Start] | Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de begindatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
+| [!UICONTROL End] | Gebruik de dynamische kalendergebieden (_[!UICONTROL To:]_&#x200B;en&#x200B;_[!UICONTROL From:]_) om de lijst te filtreren die op de einddatum voor de regel wordt gebaseerd zoals die werd bepaald toen de regel werd gecreeerd. |
 | [!UICONTROL Priority] | Typ tekst in dit veld om de lijst te filteren op basis van de prioriteit die voor een regel is gedefinieerd. |
 | [!UICONTROL Applies To] | Met deze optie filtert u de lijst met regels die van toepassing zijn op `Related Products` , `Up-sells` en `Cross-sells` . |
 | [!UICONTROL Status] | Gebruik deze optie om de lijst te filteren op regelstatus (`Active` of `Inactive`). |
@@ -47,7 +47,7 @@ Het aantal product-id&#39;s dat in een regel voor productrelaties kan worden opg
 Stel dat u bijvoorbeeld drie regels hebt met een prioriteit `1` , `2` en `3` .
 
 - Er zijn twee passende producten die voor _Regel 1_ zijn teruggekeerd, zes passende producten voor _Regel 2_, en 20 passende producten voor _Regel 3_.
-- In de configuratie wordt _[!UICONTROL Maximum Number of Products for Related Products List]_ingesteld op `6` .
+- In de configuratie wordt _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;ingesteld op `6` .
 
   | Regels | Prioriteit | Overeenkomende producten |
   |---|---|-----|
@@ -71,9 +71,9 @@ Het gedrag van de regels van de productverhouding en de vertoning van aangepaste
 
 1. Vouw in het deelvenster aan de linkerkant **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** onder.
 
-1. Breid ![ Uitbreiding ](../assets/icon-display-expand.png) uit de **[!UICONTROL Rules-Based Product Relations]** sectie.
+1. Breid ![&#x200B; Uitbreiding &#x200B;](../assets/icon-display-expand.png) uit de **[!UICONTROL Rules-Based Product Relations]** sectie.
 
-   ![ configuratie van de Catalogus - op regel-gebaseerde productbetrekkingen ](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
+   ![&#x200B; configuratie van de Catalogus - op regel-gebaseerde productbetrekkingen &#x200B;](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Maximum Number of Products in the Related Products List]** in.
 
@@ -135,4 +135,4 @@ Het gedrag van de regels van de productverhouding en de vertoning van aangepaste
 
 ## Real-Time CDP-publiek gebruiken om gerelateerde productregels te informeren
 
-Leer hoe te [ ](../customers/audience-activation.md) publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om verwante productregels mee te delen.
+Leer hoe te [&#x200B; &#x200B;](../customers/audience-activation.md) publiek van Real-Time CDP in uw instantie van Adobe Commerce te activeren om verwante productregels mee te delen.
