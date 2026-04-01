@@ -5,10 +5,10 @@ breadcrumb-title: Configuratieverwijzing
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 0%
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [RSS feeds](./catalog/rss-feeds.md)
    - [E-mailen naar een vriend](./catalog/email-to-a-friend.md)
+   - [Kenmerken van productbestand](./catalog/product-file-attributes.md)
 - Beveiliging {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA Admin Panel](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 0%
    - [Beheerder](./advanced/admin.md)
    - [Systeem](./advanced/system.md)
    - [Ontwikkelaar](./advanced/developer.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
