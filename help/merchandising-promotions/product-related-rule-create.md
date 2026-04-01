@@ -3,9 +3,9 @@ title: Een regel voor een verwant product maken
 description: Leer hoe u een gerelateerde productregel maakt die kan worden geactiveerd voor het weergeven van verwante producten, upsells en cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het proces om een verwante productregel tot stand te brengen is gelijkaardig aan
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add Rule]** .
 
-   ![&#x200B; Verwante productregel - informatie &#x200B;](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
+   ![ Verwante productregel - informatie ](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
 1. Voltooi **[!UICONTROL Rule Information]** als volgt:
 
@@ -50,19 +50,19 @@ Het proces om een verwante productregel tot stand te brengen is gelijkaardig aan
 
    - Voer bij **[!UICONTROL Result Limit]** het aantal records in dat in de resultatenlijst moet worden weergegeven. Het maximumaantal is 20.
 
-   - Als de regel op een specifiek [&#x200B; klantensegment &#x200B;](../customers/customer-segments.md) van toepassing is, plaats **[!UICONTROL Customer Segments]** aan `Specified` en kies het klantensegment van de lijst.
+   - Als de regel op een specifiek [ klantensegment ](../customers/customer-segments.md) van toepassing is, plaats **[!UICONTROL Customer Segments]** aan `Specified` en kies het klantensegment van de lijst.
 
-   - Als de regel op een specifiek [&#x200B; publiek van Real-Time CDP &#x200B;](../customers/audience-activation.md) van toepassing is, plaats **[!UICONTROL Real-Time CDP Audience]** aan `Specified` en kies het publiek van Real-Time CDP van de lijst. Deze functie is in bèta. Als u zich bij het bètaprogramma zou willen aansluiten, verzend een verzoek aan [&#x200B; dataconnection@adobe.com &#x200B;](mailto:dataconnection@adobe.com).
+   - Als de regel op een specifiek [ publiek van Real-Time CDP ](../customers/audience-activation.md) van toepassing is, plaats **[!UICONTROL Real-Time CDP Audience]** aan `Specified` en kies het publiek van Real-Time CDP van de lijst.
 
-     ![&#x200B; Verwante productregel - het publiek van Real-Time CDP &#x200B;](./assets/rtcdp-related-products.png){width="500"}
+     ![ Verwante productregel - het publiek van Real-Time CDP ](./assets/rtcdp-related-products.png){width="500"}
 
-1. In het linkerpaneel, kies **[!UICONTROL Products to Match]** en bouw de voorwaarden zoals u voor de regel van de a [&#x200B; catalogusprijs &#x200B;](price-rules-catalog.md) zou.
+1. In het linkerpaneel, kies **[!UICONTROL Products to Match]** en bouw de voorwaarden zoals u voor de regel van de a [ catalogusprijs ](price-rules-catalog.md) zou.
 
-   ![&#x200B; Verwante productregel - producten om &#x200B;](./assets/catalog-related-products-match.png){width="500"} aan te passen
+   ![ Verwante productregel - producten om ](./assets/catalog-related-products-match.png){width="500"} aan te passen
 
-1. In het linkerpaneel, kies **[!UICONTROL Products to Display]** en bouw de resultaatvoorwaarden zoals u voor de regel van de a [&#x200B; catalogusprijs &#x200B;](price-rules-catalog.md) zou.
+1. In het linkerpaneel, kies **[!UICONTROL Products to Display]** en bouw de resultaatvoorwaarden zoals u voor de regel van de a [ catalogusprijs ](price-rules-catalog.md) zou.
 
-   ![&#x200B; Verwante productregel - producten aan vertoning &#x200B;](./assets/catalog-related-products-to-display.png){width="500"}
+   ![ Verwante productregel - producten aan vertoning ](./assets/catalog-related-products-to-display.png){width="500"}
 
    Voltooi de voorwaarde om de producten te beschrijven die u in de getoonde resultaten wilt omvatten.
 
