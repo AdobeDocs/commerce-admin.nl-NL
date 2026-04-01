@@ -15,9 +15,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Configure Allowed File Types and Size]
 
-![ Attributen van het Dossier van het Product ](./assets/file-validation.png)
+![&#x200B; Attributen van het Dossier van het Product &#x200B;](./assets/file-validation.png)
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Allowed File Extensions] | Algemeen | Een door komma&#39;s gescheiden lijst met toegestane bestandstypen, zoals `pdf,doc,docx,txt` . Laat leeg om de standaard toegestane bestandstypen te gebruiken: pdf, doc, docx, xls, xlsx, ppt, pptx, txt, csv, zip. |
 | [!UICONTROL Maximum File Size] | Algemeen | De maximaal toegestane bestandsgrootte in MB, zoals `20.0` . De standaardlimiet is 16 MB. De maximaal toegestane bestandsgrootte is 31 MB. |
