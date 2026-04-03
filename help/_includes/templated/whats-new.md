@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
+      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
+      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -67,7 +67,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules"> E-mailherinneringen </a> zijn nu beschikbaar in Adobe Commerce as a Cloud Service.</p>
+      <td><p><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules"> E-mailherinneringen </a> zijn nu beschikbaar in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -83,7 +83,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">begaan</a></td>
     </tr>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> nota's van de Versie </a> met B2B v1.5.3-bèta1 (Maart 2026): kwaliteitsverbeteringen en insectenmoeilijke situaties voor citaten, verzoeklijsten, gedeelde catalogi, controle, GraphQL, en verwante gebieden, plus minder belangrijke exemplaar en consistentieverbeteringen.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes"> nota's van de Versie </a> met B2B v1.5.3-bèta1 (Maart 2026): kwaliteitsverbeteringen en insectenmoeilijke situaties voor citaten, verzoeklijsten, gedeelde catalogi, controle, GraphQL, en verwante gebieden, plus minder belangrijke exemplaar en consistentieverbeteringen.</p>
 </td>
       <td>
         Belangrijke update
@@ -105,7 +105,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt PaaS slechts merkend op de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> het menu van Rapporten </a> pagina.</p>
+      <td><p>Bijgewerkt PaaS slechts merkend op de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/reports-menu"> het menu van Rapporten </a> pagina.</p>
 </td>
       <td>
         Feedback
@@ -127,7 +127,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Updates aan de documentatie Admin voor de release van Adobe Commerce as a Cloud Service Februari:<br /> - Toegevoegde documentatie voor <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> douane vangen bedragen </a> wanneer het creëren van facturen in REST API, die verkopers toestaat om douanebedragen te vangen wanneer het creëren van facturen voor gedeeltelijke vangt en gespecialiseerde betalingsscenario's.<br /> - wijst op welke rapporten in het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> menu van Rapporten </a> nu slechts PaaS zijn.</p>
+      <td><p>Updates aan de documentatie Admin voor de release van Adobe Commerce as a Cloud Service Februari:<br /> - Toegevoegde documentatie voor <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> douane vangen bedragen </a> wanneer het creëren van facturen in REST API, die verkopers toestaat om douanebedragen te vangen wanneer het creëren van facturen voor gedeeltelijke vangt en gespecialiseerde betalingsscenario's.<br /> - wijst op welke rapporten in het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/reports-menu"> menu van Rapporten </a> nu slechts PaaS zijn.</p>
 </td>
       <td>
         Belangrijke update
