@@ -3,9 +3,10 @@ title: Onlangs bekeken of vergeleken producten
 description: Leer hoe u de blokken met winkelinhoud configureert voor onlangs bekeken en vergeleken producten.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -14,17 +15,17 @@ ht-degree: 0%
 
 De _onlangs Bekeken en onlangs Vergelijkte_ blokken verschijnen gewoonlijk in de juiste zijbalk van een cataloguspagina. Het aantal producten dat in elk wordt vermeld kan voor elke website, opslag, of opslagmening worden gevormd.
 
-**_om onlangs bekeken en vergeleken producten te vormen:_**
+**_Om onlangs bekeken en vergeleken producten te vormen:_**
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Catalog]** uit en kies **[!UICONTROL Catalog]** eronder.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Recently Viewed/Compared Products]** sectie uit.
 
-   ![&#x200B; configuratie van de Catalogus - onlangs bekeken/vergeleken producten &#x200B;](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![ configuratie van de Catalogus - onlangs bekeken/vergeleken producten ](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [&#x200B; Onlangs Bekeken/Vergeleken Producten &#x200B;](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Gids van de Verwijzing van de Configuratie_.
+   Voor een gedetailleerde beschrijving van elk van deze configuratiemontages, zie [ Onlangs Bekeken/Vergeleken Producten ](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) in de _Gids van de Verwijzing van de Configuratie_.
 
 1. Stel **[!UICONTROL Synchronize widget products with backend storage]** in om productwidgetgegevens, zoals product-id, te synchroniseren met de huidige beschikbaarheid van productopslag in de database en deze informatie opnieuw te gebruiken op verschillende apparaten.
 
