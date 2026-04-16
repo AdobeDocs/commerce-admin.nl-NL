@@ -3,7 +3,7 @@ title: Onlangs bekeken of vergeleken producten
 description: Leer hoe u de blokken met winkelinhoud configureert voor onlangs bekeken en vergeleken producten.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
 source-wordcount: '244'
