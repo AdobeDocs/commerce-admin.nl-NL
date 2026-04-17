@@ -93,7 +93,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstellin
 
      ![&#x200B; Titels en beschrijvingen - opslagmening &#x200B;](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} als u [!DNL Adobe Commerce as a Cloud Service] gebruikt, kunt u [&#x200B; regelherhaalbaarheid &#x200B;](#rule-repeatability) toelaten door [!UICONTROL Rule Repeatability] checkbox te selecteren.
+1. [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} als u [!DNL Adobe Commerce as a Cloud Service] gebruikt, kunt u [&#x200B; regelherhaalbaarheid &#x200B;](#rule-repeatability) toelaten door [!UICONTROL Rule Repeatability] checkbox te selecteren.
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstellin
 
 ## Herhaalbaarheid van regels
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 >[!IMPORTANT]
 >
