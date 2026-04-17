@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # E-mailherinneringen maken
 
-Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een regel van de kartprijs ](price-rules-cart-create.md) om de bevordering te bepalen die wordt aangeboden. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
+Alvorens vestiging een e-mailherinneringsregel, moet u eerst [&#x200B; opstelling een regel van de kartprijs &#x200B;](price-rules-cart-create.md) om de bevordering te bepalen die wordt aangeboden. De voorwaarden van de regel die een e-mailherinnering teweegbrengen kunnen op karteleigenschappen, vorkvermelde eigenschappen, of allebei worden gebaseerd.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Add New Rule]** .
 
-1. Voltooi _[!UICONTROL Rule Information]_als volgt:
+1. Voltooi _[!UICONTROL Rule Information]_&#x200B;als volgt:
 
-   ![ E-mailreminder regel ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
+   ![&#x200B; E-mailreminder regel &#x200B;](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - Voer een **[!UICONTROL Rule Name]** in om de regel intern te identificeren.
 
@@ -32,44 +32,44 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
    - Als u de **[!UICONTROL Cart Price Rule]** -promotie wilt kiezen die deze herinnering moet adverteren, klikt u op **[!UICONTROL Select Rule…]** en selecteert u de regel.
 
-     ![ de regel van de Kar - uitgezocht ](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
+     ![&#x200B; de regel van de Kar - uitgezocht &#x200B;](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
 
    - Stel **[!UICONTROL Status]** in op `Active` als u wilt dat de regel direct van kracht wordt.
 
    - Als u een datumbereik wilt instellen waarop de regel actief moet zijn, voert u de datums **[!UICONTROL From]** en **[!UICONTROL To]** in.
 
-     U kunt de datum van de Kalender ( ![ pictogram van de Kalender ](../assets/icon-calendar.png) ook kiezen).
+     U kunt de datum van de Kalender ( ![&#x200B; pictogram van de Kalender &#x200B;](../assets/icon-calendar.png) ook kiezen).
 
    - Als u de herinnering meerdere keren wilt verzenden, voert u in het veld **[!UICONTROL Repeat Schedule]** het aantal dagen voor de volgende e-mailexplosie in.
 
 1. Kies **[!UICONTROL Conditions]** in het deelvenster aan de linkerkant.
 
-   Voor de regel moet ten minste één voorwaarde worden gedefinieerd. Het proces is gelijkaardig aan het bouwen van de regel van de a [ catalogusprijs.](price-rules-catalog.md)
+   Voor de regel moet ten minste één voorwaarde worden gedefinieerd. Het proces is gelijkaardig aan het bouwen van de regel van de a [&#x200B; catalogusprijs.](price-rules-catalog.md)
 
-   ![ E-mailherinneringsvoorwaarden ](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; E-mailherinneringsvoorwaarden &#x200B;](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
-   Klik _toevoegen_ ( ![ voeg pictogram ](../assets/icon-add-green-circle.png) toe) om de lijst van opties te tonen en dan één van de volgende voorwaarden te kiezen:
+   Klik _toevoegen_ ( ![&#x200B; voeg pictogram &#x200B;](../assets/icon-add-green-circle.png) toe) om de lijst van opties te tonen en dan één van de volgende voorwaarden te kiezen:
 
    - Gewenste lijst
    - Winkelwagentje
 
    >[!NOTE]
    >
-   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
+   >Als een klant meer dan één geëvenaard karretje, verlanglijst, of combinatie van beide heeft, wordt de e-mailherinnering slechts eenmaal geactiveerd voor die klant. Als u dezelfde e-mailherinnering opnieuw wilt activeren, gebruikt u het veld _[!UICONTROL Repeat Schedule]_&#x200B;om het aantal dagen tussen de e-mailberichten in te stellen. <br/>
    >
-   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_periode is over.
+   >De zelfde e-mailherinnering wordt **_niet opnieuw teweeggebracht_** voor de zelfde klant voor **_nieuwe_** verlaten wortels en wenst lijsten **_na_** de _[!UICONTROL Repeat Schedule]_&#x200B;periode is over.
    >
-   >Adobe Commerce as a Cloud Service heeft een experimentele eigenschap die één enkele regel toestaat om veelvoudige tijden worden toegepast, zie [ herhaalbaarheid van de Regel ](#rule-repeatability) voor meer informatie.
+   >Adobe Commerce as a Cloud Service heeft een experimentele eigenschap die één enkele regel toestaat om veelvoudige tijden worden toegepast, zie [&#x200B; herhaalbaarheid van de Regel &#x200B;](#rule-repeatability) voor meer informatie.
 
    Voltooi de voorwaarde om het scenario te beschrijven dat de e-mailherinnering teweegbrengt.
 
-   ![ voorbeeld van de e-mailherinneringsvoorwaarden ](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
+   ![&#x200B; voorbeeld van de e-mailherinneringsvoorwaarden &#x200B;](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
 
 1. Kies **[!UICONTROL Emails and Labels]** in het deelvenster aan de linkerkant.
 
-   ![ Regel voor e-mailherinnering - e-mails en labels ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![&#x200B; Regel voor e-mailherinnering - e-mails en labels &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. In de **[!UICONTROL Email Templates]** sectie, kies het e-mailmalplaatje dat voor elke website en opslagmening in uw [ opslaghiërarchie ](../getting-started/websites-stores-views.md) moet worden gebruikt.
+1. In de **[!UICONTROL Email Templates]** sectie, kies het e-mailmalplaatje dat voor elke website en opslagmening in uw [&#x200B; opslaghiërarchie &#x200B;](../getting-started/websites-stores-views.md) moet worden gebruikt.
 
    Als u de herinnering niet per e-mail naar klanten van een winkelweergave wilt verzenden, laat u de waarde `Not Selected` ongewijzigd.
 
@@ -83,27 +83,27 @@ Alvorens vestiging een e-mailherinneringsregel, moet u eerst [ opstelling een re
 
    - Voer de **[!UICONTROL Rule Description for All Store Views]** in.
 
-     ![ E-mailherinneringen - titels en beschrijvingen ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
+     ![&#x200B; E-mailherinneringen - titels en beschrijvingen &#x200B;](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - In de _[!UICONTROL Titles and Descriptions Per Store View]_sectie, ga **[!UICONTROL Rule Title]**en **[!UICONTROL Description]**voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
+   - In de _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;sectie, ga **[!UICONTROL Rule Title]**&#x200B;en **[!UICONTROL Description]**&#x200B;voor de_ StandaardMening van de Opslag _in. Voer voor meerdere winkelweergaven de juiste titel en beschrijving voor elke weergave in.
 
      >[!NOTE]
      >
      >De beschrijving kan in e-mailmalplaatjes worden opgenomen door de bevordering_beschrijvingsvariabele te gebruiken.
 
-     ![ Titels en beschrijvingen - opslagmening ](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
+     ![&#x200B; Titels en beschrijvingen - opslagmening &#x200B;](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} als u [!DNL Adobe Commerce as a Cloud Service] gebruikt, kunt u [ regelherhaalbaarheid ](#rule-repeatability) toelaten door [!UICONTROL Rule Repeatability] checkbox te selecteren.
+1. [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} als u [!DNL Adobe Commerce as a Cloud Service] gebruikt, kunt u [&#x200B; regelherhaalbaarheid &#x200B;](#rule-repeatability) toelaten door [!UICONTROL Rule Repeatability] checkbox te selecteren.
 
    >[!IMPORTANT]
    >
-   >De optie van de regelherhaalbaarheid is een experimentele eigenschap die door gebrek wordt onbruikbaar gemaakt.  Voor details bij het toelaten van de optie, zie [ herhaalbaarheid van de Regel ](#rule-repeatabilty).
+   >De optie van de regelherhaalbaarheid is een experimentele eigenschap die door gebrek wordt onbruikbaar gemaakt.  Voor details bij het toelaten van de optie, zie [&#x200B; herhaalbaarheid van de Regel &#x200B;](#rule-repeatabilty).
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
 ## Herhaalbaarheid van regels
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Met herhaalbaarheid van regels kunt u één regel opnieuw gebruiken voor meerder
 
 Als u het selectievakje **[!UICONTROL Rule Repeatability]** op het tabblad **[!UICONTROL General Information]** inschakelt, kan de regel opnieuw op gebruikers worden toegepast nadat de oorspronkelijke regeltrigger niet meer van toepassing is.
 
-![ herhaalbaarheid van de Regel ](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+![&#x200B; herhaalbaarheid van de Regel &#x200B;](./assets/rule-repeatability.png){width="600" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -122,7 +122,7 @@ Bekijk het volgende voorbeeld:
 U hebt een verlaten kartelregel die na 1 dag wordt teweeggebracht en 3 en 5 dagen later opnieuw teweegbrengt. Een gebruiker verlaat een winkelwagentje en 1 dag later ontvangt hij een herinnering voor een verlaten winkelwagentje. Na 2 dagen besluit de gebruiker zijn aankoop te voltooien. De wagen wordt niet meer verlaten. 10 dagen later geeft de gebruiker een nieuw winkelwagentje met verschillende objecten op.
 
 - Als **[!UICONTROL Rule Repeatability]** is ingeschakeld, ontvangt de gebruiker een nieuwe, verlaten kaart-e-mailherinnering.
-- Als **[!UICONTROL Rule Repeatability]** gehandicapt is, ontvangt de gebruiker **** geen extra verlaten wagentemerichten.
+- Als **[!UICONTROL Rule Repeatability]** gehandicapt is, ontvangt de gebruiker **&#x200B;**&#x200B;geen extra verlaten wagentemerichten.
 
 >[!ENDSHADEBOX]
 
