@@ -123,7 +123,7 @@ Om iemand beperkte toegang tot Admin te geven, moet de eerste stap een rol tot s
 
 Bekijk deze video voor meer informatie over het beheren van gebruikersrollen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443513?captions=dut&quality=12&learn=on)
 
 ## Rolresources
 
