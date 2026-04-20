@@ -3,10 +3,9 @@ title: Bedrijfsbeheer
 description: Stroomlijnd beheer en beheer van B2B-organisaties met complexe operationele modellen.
 feature: B2B, Companies, Storefront
 role: Admin
-hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -29,7 +28,7 @@ De gebruikers van Admin kunnen een bedrijfshiërarchie bouwen om een organisatie
 
 Start bedrijfsbeheertaken vanuit de *[!UICONTROL Companies]* -weergave. Ga vanuit Beheer naar **[!UICONTROL Customers]** > **[!UICONTROL Companies]** .
 
-![&#x200B; B2B beheert het Net van Bedrijven &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![ B2B beheert het Net van Bedrijven ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## Vereisten
 
@@ -40,7 +39,7 @@ Controleer voordat u bedrijven beheert of:
 * De rekeningen van het bedrijf worden behoorlijk gevormd met noodzakelijke bedrijfsinformatie
 * Gebruikersrollen en -machtigingen zijn gedefinieerd voor bedrijfsbeheerders en gebruikers
 
-## Gebruik hoofdletters
+## Gebruiksscenario&#39;s
 
 Bedrijfsbeheer is ideaal voor:
 
@@ -83,9 +82,9 @@ De kolom *[!UICONTROL Company Type]* in het raster Bedrijven toont hoe elk bedri
 
 Vouw *[!UICONTROL Company Hierarchy]* uit om alle verwante bedrijven weer te geven wanneer u bedrijven in een hiërarchie bewerkt. Een markering `Current` geeft het bedrijf aan dat wordt bewerkt.
 
-![&#x200B; B2B het net van de Hiërarchie van het Bedrijf &#x200B;](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![ B2B het net van de Hiërarchie van het Bedrijf ](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-Voor gedetailleerde geleidelijke instructies, zie [&#x200B; leiden de Hiërarchie van het Bedrijf &#x200B;](manage-company-hierarchy.md).
+Voor gedetailleerde geleidelijke instructies, zie [ leiden de Hiërarchie van het Bedrijf ](manage-company-hierarchy.md).
 
 ## Bedrijfstaken
 
@@ -93,7 +92,7 @@ Wanneer beheerders bedrijven beheren vanuit het bedrijfsraster, kunnen ze de vol
 
 * **Mening en beheer bedrijfsverhoudingen**
    * **Mening Verwante Bedrijven** - zie alle bedrijven verbonden aan een ouderorganisatie in één gecentraliseerde mening
-   * **de Status van het Bedrijf van de Monitor &lbrace;** - Spoor actief, in afwachting van, en inactieve bedrijven binnen de hiërarchie
+   * **de Status van het Bedrijf van de Monitor {** - Spoor actief, in afwachting van, en inactieve bedrijven binnen de hiërarchie
    * **Van het Bedrijf van de Toegang Details** - navigeer direct aan individuele pagina&#39;s van de bedrijfconfiguratie
 
 * **bouwt en wijzigt hiërarchieën**
@@ -123,8 +122,8 @@ Houd bij het beheren van bedrijven rekening met de volgende aanbevolen procedure
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; creeer een bedrijfrekening &#x200B;](account-company-create.md)
->* [&#x200B; beheer bedrijfhiërarchieën &#x200B;](manage-company-hierarchy.md)
->* [&#x200B; de rollen en toestemmingen van het Bedrijf &#x200B;](account-company-roles-permissions.md)
->* [&#x200B; Het kredietbeheer van het Bedrijf &#x200B;](credit-company.md)
->* [&#x200B; laat B2B eigenschappen &#x200B;](enable-basic-features.md) toe
+>* [ creeer een bedrijfrekening ](account-company-create.md)
+>* [ beheer bedrijfhiërarchieën ](manage-company-hierarchy.md)
+>* [ de rollen en toestemmingen van het Bedrijf ](account-company-roles-permissions.md)
+>* [ Het kredietbeheer van het Bedrijf ](credit-company.md)
+>* [ laat B2B eigenschappen ](enable-basic-features.md) toe

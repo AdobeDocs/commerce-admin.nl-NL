@@ -3,10 +3,10 @@ user-guide-title: Inhoud- en ontwerphandleiding
 user-guide-description: Uitgebreide informatie over inhoud en ontwerpfuncties voor Adobe Commerce- en Magento Open Source-beheerders en eCommerce-marketers.
 breadcrumb-title: Inhoud en ontwerp
 feature: CMS, Page Content
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 4%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 0%
       - [Optimalisatie van afbeeldingen](media-gallery-image-optimization.md)
 - AEM Assets-integratie voor Commerce {#aem-asset-management}
    - [Overzicht van integratie](aem-assets-integration.md)
-   - [Opmerkingen bij de release](aem-assets-release-notes.md)
+   - [Aanvullende informatie](aem-assets-release-notes.md)
    - Aan de slag {#getting-started}
       - [Omgevingen instellen](aem-assets-getting-started.md)
       - [AEM Assets-pakket installeren](aem-assets-configure-aem.md)
@@ -84,11 +84,15 @@ ht-degree: 0%
    - [Mediabestanden migreren naar AEM Assets](aem-assets-migrate-data.md)
    - Elementen beheren {#manage}
       - [AEM Assets gebruiken met Commerce](aem-assets-manage.md)
-- Media {#media}
 - Inhoud stapelen {#staging}
    - [Overzicht](content-staging.md)
    - [Een update plannen](content-staging-scheduled-update.md)
    - [Staging-dashboard](content-staging-dashboard.md)
    - [Een campagneitem toevoegen](content-staging-add-item.md)
    - [Een voorvertoning van een campagne weergeven](content-staging-preview.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

@@ -2,10 +2,9 @@
 user-guide-title: Referentiehandleiding voor configuratie
 user-guide-description: Deze gids verstrekt verwijzingsinformatie voor alle montages van de opslagconfiguratie die van _Admin_ sidebar bij ** [!UICONTROL Stores] ** worden betreden > _ [!UICONTROL Settings] _ > ** [!UICONTROL Configuration] **.
 breadcrumb-title: Configuratieverwijzing
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -84,4 +83,4 @@ ht-degree: 1%
    - [Beheerder](./advanced/admin.md)
    - [Systeem](./advanced/system.md)
    - [Ontwikkelaar](./advanced/developer.md)
-- [&#x200B; Terugkeer aan de Gidsen van de Gebruiker Admin &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan de Gidsen van de Gebruiker Admin ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

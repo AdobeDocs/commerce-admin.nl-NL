@@ -3,7 +3,7 @@ title: Geplande import en export
 description: Leer hoe u geplande bewerkingen voor het importeren en exporteren van gegevens beheert.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De geplande invoer en de uitvoer kunnen op een dagelijkse, wekelijkse, of maandb
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**.
 
-   ![&#x200B; Geplande gegevensinvoer/uitvoer &#x200B;](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
+   ![ Geplande gegevensinvoer/uitvoer ](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
 1. Als u een nieuwe geplande import- of exporttaak wilt maken, klikt u op de betreffende knop en volgt u de instructies voor het type geplande taak.
 
@@ -33,7 +33,7 @@ De geplande invoer en de uitvoer kunnen op een dagelijkse, wekelijkse, of maandb
    >
    >Wanneer u een geplande import/export maakt of bijwerkt, leidt dit tot een wijziging in de systeemconfiguratie. Nadat u het bestand hebt opgeslagen, controleert u of u de melding van de cachevalidatie die boven aan de beheerpagina wordt weergegeven, hebt opgelost en verwijdert u de cache om het nieuwe of bijgewerkte schema toe te passen.
 
-1. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke geplande baan, wordt een exemplaar van het dossier geplaatst in de `var/log/import_export` folder op de lokale server van Adobe Commerce.
+1. [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke geplande baan, wordt een exemplaar van het dossier geplaatst in de `var/log/import_export` folder op de lokale server van Adobe Commerce.
 
    De details van elke verrichting worden niet geschreven aan het logboek. Als een fout optreedt, wordt een melding verzonden van de mislukte import-/exporttaak, met een beschrijving van de fout.
 
@@ -48,7 +48,7 @@ Het voordeel van geplande importbewerkingen is dat u een gegevensbestand meerder
 
 De details van elke de invoerverrichting worden niet geschreven aan een logboek, maar wanneer er een mislukking is ontvangt u Ontbroken _Invoer_ e-mail met een beschrijving van de fout. Het resultaat van de laatste geplande importtaak wordt weergegeven in de kolom Laatste resultaat op de geplande pagina Importeren/exporteren.
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke de invoerverrichting, wordt een exemplaar van het de invoerdossier geplaatst in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. De tijdstempel, de markering van de geïmporteerde entiteit (producten of klanten) en het type bewerking (in dit geval importeren) worden toegevoegd aan de naam van het importbestand.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke de invoerverrichting, wordt een exemplaar van het de invoerdossier geplaatst in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. De tijdstempel, de markering van de geïmporteerde entiteit (producten of klanten) en het type bewerking (in dit geval importeren) worden toegevoegd aan de naam van het importbestand.
 
 Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgevoerd. Op de voorgrond worden wijzigingen in de beschrijvingen en andere tekstinformatie weerspiegeld nadat de bijgewerkte gegevens naar de database gaan, en de prijswijzigingen worden pas na de herindexeringsoperatie doorgevoerd.
 
@@ -83,7 +83,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
      >[!NOTE]
      >
-     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_&#x200B;en&#x200B;_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
+     >Voor de typen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_ , _[!UICONTROL Customers and Addresses (single file)]_en_[!UICONTROL Stock Sources]_ entiteit worden de volgende importgedragingen weergegeven: `Add/Update` , `Replace` en `Delete` . Voor de _Financiën van de Klant_, _het Belangrijkste Dossier van Klanten_, en _Klanten en richt_ entiteittypes, worden dit de invoergedrag getoond: `Add/Update Complex Data`, `Delete Entities`, en `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Stel dit in op het uur, de minuut en de seconde waarop het importeren moet beginnen.
 
@@ -97,7 +97,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
    - **[!UICONTROL Multiple Value Separator]** — Voer het teken in dat wordt gebruikt om meerdere waarden in een veld van elkaar te scheiden.
 
-   ![&#x200B; de invoer van Gegevens - geplande de invoermontages &#x200B;](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![ de invoer van Gegevens - geplande de invoermontages ](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
 
 ### Stap 2: de gegevens van het importbestand invullen
 
@@ -106,7 +106,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
    - `Local Server` - Hiermee importeert u de gegevens van dezelfde server als waarop Adobe Commerce is geïnstalleerd.
    - `Remote FTP` - Hiermee importeert u de gegevens van een externe server.
 
-   ![&#x200B; Invoer van Gegevens - de geplande informatie van het de invoerdossier &#x200B;](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
+   ![ Invoer van Gegevens - de geplande informatie van het de invoerdossier ](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 ### Stap 3: het importeren van mislukte e-mails configureren
 
-![&#x200B; de invoer van Gegevens - ontbroken invoer gefiëerde e-mails &#x200B;](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
+![ de invoer van Gegevens - ontbroken invoer gefiëerde e-mails ](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Failed Email Receiver]** in op de contactpersoon van de winkel die een melding ontvangt als er een fout optreedt tijdens het importeren.
 
@@ -155,7 +155,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 #### [!UICONTROL Import Settings]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Name] | De naam van de importbewerking. Hiermee kunt u een onderscheid maken tussen vele verschillende geplande importbewerkingen. |
 | [!UICONTROL Description] | (Optioneel) U kunt een beschrijving invoeren. |
 | [!UICONTROL Entity Type] | Hiermee definieert u de gegevens die moeten worden geïmporteerd. |
@@ -172,8 +172,8 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 #### [!UICONTROL Import File Information]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
-| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_&#x200B;selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
+| ----- | ----------- |
+| [!UICONTROL Server Type] | U kunt importeren vanuit een bestand op dezelfde server waarop Commerce is geïmplementeerd (selecteer `Local Server` ) of vanaf de externe FTP-server (selecteer `Remote FTP` ). Als u _[!UICONTROL Remote FTP]_selecteert, worden aanvullende opties voor referenties en instellingen voor bestandsoverdracht weergegeven. Als de externe opslagmodule is ingeschakeld, wordt het type `Local Server` automatisch geschakeld naar `Remote Storage` . |
 | [!UICONTROL File Directory] | Geef de map op waarin het importbestand zich bevindt. Als Servertype is ingesteld op _[!UICONTROL Local Server]_, geeft u het pad op ten opzichte van de installatiemap van Commerce. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
 | [!UICONTROL File Name] | Geef de naam van het importbestand op. |
 | [!UICONTROL Images File Directory] | Voer het pad in naar de map waarin de productafbeeldingen zijn opgeslagen. Voer voor een lokale server een relatief pad in. Bijvoorbeeld: `var/import` of `import_export/import` voor externe opslag. |
@@ -183,7 +183,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 #### [!UICONTROL Import Failed Emails]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Geef het e-mailadres op waarnaar een e-mailmelding (niet-geïmporteerde e-mail) wordt verzonden als het importeren is mislukt. |
 | [!UICONTROL Failed Email Sender] | Geef het e-mailadres op dat wordt gebruikt als de afzender voor het niet-geïmporteerde e-mailbericht. |
 | [!UICONTROL Failed Email Template] | Selecteer een sjabloon voor het e-mailbericht voor importeren. Standaard is alleen de optie Importeren mislukt (standaardsjabloon van landinstelling is beschikbaar). U kunt aangepaste sjablonen maken onder _[!UICONTROL System]_>_[!UICONTROL Transactional Emails]_ . |
@@ -194,7 +194,7 @@ Na elke geplande importtaak wordt automatisch een herindexeringsbewerking uitgev
 
 ## Een exportbewerking plannen
 
-De geplande Uitvoer is gelijkaardig aan een handmatige [&#x200B; Uitvoer &#x200B;](data-export.md) in het beschikbare formaat van het de uitvoerdossier en types van entiteiten die kunnen worden uitgevoerd:
+De geplande Uitvoer is gelijkaardig aan een handmatige [ Uitvoer ](data-export.md) in het beschikbare formaat van het de uitvoerdossier en types van entiteiten die kunnen worden uitgevoerd:
 
 - U kunt exporteren naar de CSV-indeling
 - U kunt product- en klantgegevens exporteren
@@ -203,7 +203,7 @@ Het voordeel van het gebruik van Geplande export is dat u gegevens meerdere kere
 
 De details van elke export worden niet naar een logboek geschreven, maar als er een fout optreedt, ontvangt u een e-mail met exportfout die de foutbeschrijving bevat. Het resultaat van de laatste exporttaak wordt weergegeven in de kolom Laatste resultaat op de pagina Geplande import/export.
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke uitvoer, wordt het uitvoerdossier geplaatst in de user-defined plaats, en een exemplaar in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. Het tijdstempel en de markering van de geëxporteerde entiteit (producten of klanten) en het type bewerking (in dit geval exporteren) worden toegevoegd aan de naam van het exportbestand.
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} na elke uitvoer, wordt het uitvoerdossier geplaatst in de user-defined plaats, en een exemplaar in de `var/log/import_export` folder op de server waar Adobe Commerce of Magento Open Source wordt opgesteld. Het tijdstempel en de markering van de geëxporteerde entiteit (producten of klanten) en het type bewerking (in dit geval exporteren) worden toegevoegd aan de naam van het exportbestand.
 
 ### Stap 1: de exportinstellingen voltooien
 
@@ -224,7 +224,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
       - `Customer Addresses`
       - `Stock Sources`
 
-     De sectie _[!UICONTROL Entity Attributes]_&#x200B;onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
+     De sectie _[!UICONTROL Entity Attributes]_onder aan de pagina wordt bijgewerkt met het geselecteerde Type entiteit.
 
    - Stel **[!UICONTROL Start Time]** in op het uur, de minuut en de seconde waarop het exporteren moet beginnen.
 
@@ -238,7 +238,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 
 1. Accepteer `CSV` als de standaardwaarde **[!UICONTROL File Format]** .
 
-   ![&#x200B; Geplande de uitvoermontages &#x200B;](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
+   ![ Geplande de uitvoermontages ](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
 
 ### Stap 2: de gegevens van het exportbestand invullen
 
@@ -247,7 +247,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
    - `Local Server` - Het exportbestand opslaan op dezelfde server als Commerce.
    - `Remote FTP` — Het exportbestand opslaan op een externe server.
 
-   ![&#x200B; Geplande de informatie van het de uitvoerdossier &#x200B;](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
+   ![ Geplande de informatie van het de uitvoerdossier ](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -263,8 +263,8 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
    - Voer bij **[!UICONTROL FTP Host[:Port]]** het externe FTP-hostadres in.
    - Voer bij **[!UICONTROL User Name]** de gebruikersnaam in die wordt gebruikt voor toegang tot de externe server.
    - Voer bij **[!UICONTROL Password]** het wachtwoord van de opgegeven gebruikersaccount in.
-   - Kies `Binary` of `ASCII` bij **[!UICONTROL File Mode]** .
-   - Kies `No` of `Yes` bij **[!UICONTROL Passive Mode]** .
+   - Kies **[!UICONTROL File Mode]** of `Binary` bij `ASCII` .
+   - Kies **[!UICONTROL Passive Mode]** of `No` bij `Yes` .
 
 ### Stap 3: de e-mails met exportfouten configureren
 
@@ -285,9 +285,9 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 
 ### Stap 4: kies de entiteitskenmerken
 
-1. Kies in de sectie _[!UICONTROL Entity Attributes]_&#x200B;de kenmerken die u wilt opnemen in de exportgegevens.
+1. Kies in de sectie _[!UICONTROL Entity Attributes]_de kenmerken die u wilt opnemen in de exportgegevens.
 
-   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_&#x200B;in.
+   - Als u exportgegevens wilt filteren op kenmerkwaarde, voert u de kenmerkwaarde in de kolom _[!UICONTROL Filter]_in.
    - Als u producten of klanten met bepaalde kenmerkwaarden wilt uitsluiten, voert u de waarden in van de kenmerken die u wilt uitsluiten en schakelt u het selectievakje Overslaan in de kolom Overslaan in.
 
 1. Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
@@ -303,7 +303,7 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 #### [!UICONTROL Export Settings]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Name] | De naam van de exportbewerking. Hiermee kunt u een onderscheid maken tussen vele verschillende geplande exportbewerkingen. |
 | [!UICONTROL Description] | (Optioneel) Een beschrijving van de geplande export. |
 | [!UICONTROL Entity Type] | Identificeert de gegevens die moeten worden geëxporteerd. Nadat u de selectie hebt gemaakt, worden de entiteitskenmerken hieronder weergegeven. Opties: `Advanced Pricing` / `Products` / `Customer Finances` / `Customers Main File` / `Customer Addresses` / `Stock Sources` |
@@ -317,16 +317,16 @@ De details van elke export worden niet naar een logboek geschreven, maar als er 
 #### [!UICONTROL Export Settings Information]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Server Type] | Bepaalt de locatie van het exportbestand. Opties:<br>**Lokale Server** - Plaatst het de uitvoerdossier op de zelfde server waar Commerce wordt opgesteld. Als de externe opslagmodule is ingeschakeld, wordt `Local Server` geschakeld naar `Remote Storage` .<br>**Verre FTP** — Plaatst het de uitvoerdossier op een verre server. Er worden extra opties voor referenties en instellingen voor bestandsoverdracht weergegeven. |
-| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_&#x200B;is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
+| [!UICONTROL File Directory] | Geef de map op waarin het exportbestand wordt geplaatst. Als _[!UICONTROL Server Type]_is ingesteld op `Local Server` , geeft u het pad op ten opzichte van het Commerce-installatiepad. Bijvoorbeeld `var/export` of `import_export/export` voor externe opslag. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Export Failed Emails]
 
 | Veld | Beschrijving |
-| ----- | ----------- | 
+| ----- | ----------- |
 | [!UICONTROL Failed Email Receiver] | Geef het e-mailadres op waarnaar een e-mailmelding (niet-geëxporteerde e-mail) wordt verzonden als het exporteren is mislukt. |
 | [!UICONTROL Failed Email Sender] | Geef het e-mailadres op dat wordt gebruikt als e-mailafzender met exportfout. |
 | [!UICONTROL Failed Email Template] | Selecteer een sjabloon voor de mislukte e-mail voor exporteren. Standaard is alleen de optie `Export Failed (Default Template from Locale)` beschikbaar. |
