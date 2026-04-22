@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Bedrijfsrollen en -machtigingen
 
-U plaatst opstellingsrollen voor bedrijfgebruikers met diverse niveaus van toestemming om tot verkoopinformatie en middelen toegang te hebben. Door gebrek, is de bedrijfbeheerder a *super gebruiker* met volledige toestemmingen. De [ Ontkende Toegang ](../content-design/pages.md#access-denied) pagina verschijnt als een gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
+U plaatst opstellingsrollen voor bedrijfgebruikers met diverse niveaus van toestemming om tot verkoopinformatie en middelen toegang te hebben. Door gebrek, is de bedrijfbeheerder a *super gebruiker* met volledige toestemmingen. De [&#x200B; Ontkende Toegang &#x200B;](../content-design/pages.md#access-denied) pagina verschijnt als een gebruiker geen toestemming heeft om tot de pagina toegang te hebben.
 
-![ Rollen en de pagina van Toestemmingen met standaardrol ](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![&#x200B; Rollen en de pagina van Toestemmingen met standaardrol &#x200B;](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
 Het systeem heeft één vooraf bepaalde rol van de Gebruiker Standaard, die u *kunt gebruiken zoals* is of zich wijzigt om uw behoeften aan te passen. U kunt zo vele rollen tot stand brengen zonodig om uw bedrijfsstructuur en organisatorische verantwoordelijkheden, zoals het volgende aan te passen:
 
@@ -44,7 +44,7 @@ Beheer bedrijfsrollen van de de opslagrekening van de bedrijfbeheerder.
 
 1. Klik op **[!UICONTROL Add New Role]**.
 
-   ![ voeg Nieuwe Rol ](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg Nieuwe Rol &#x200B;](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"} toe
 
 1. Voer een beschrijving in **[!UICONTROL Role Name]** .
 
@@ -100,7 +100,7 @@ B2B-mogelijkheden worden opgehaald door **toestemmingen** (ACL middelen). Wannee
 
 Bedrijfsbeheerders kunnen de machtigingsconfiguratie voor een rol bijwerken door **[!UICONTROL Edit]** te selecteren en vervolgens machtigingen in de lijst **[!UICONTROL Role Permissions]** te selecteren of te wissen.
 
-![ de lijst van Rollen en van Toestemmingen ](./assets/role-permissions-list.png){width="700" zoomable="yes"}
+![&#x200B; de lijst van Rollen en van Toestemmingen &#x200B;](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 Wijs deze middelen toe wanneer u **creeert of een bedrijfrol** in de bedrijfrekening uitgeeft. Gebruikers met toestemming om rollen te beheren, kunnen het rolinform openen en de machtigingsstructuur instellen.
 
@@ -216,20 +216,20 @@ Nadat u de rollen bepaalt u wenst, wijs een rol aan elke bedrijfgebruiker toe.
 
 1. Selecteer **[!UICONTROL Company Users]** in het linkerdeelvenster.
 
-   ![ Gebruikers van het Bedrijf ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; Gebruikers van het Bedrijf &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. Zoek de gebruiker in de lijst en klik op **[!UICONTROL Edit]** .
 
 1. Selecteer de juiste **[!UICONTROL User Role]** voor de gebruiker.
 
-   ![ geef Gebruiker uit - kies een gebruikersrol ](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![&#x200B; geef Gebruiker uit - kies een gebruikersrol &#x200B;](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->- [ beheer bedrijfgebruikers ](account-company-users.md)
->- [ de rekeningsstructuur van het Bedrijf ](account-company-structure.md)
->- [ de beheerderrol van 0} Bedrijf](account-company-admin.md)
->- [ leidt bedrijven ](manage-companies.md)
->- [ laat B2B eigenschappen ](enable-basic-features.md) toe
+>- [&#x200B; beheer bedrijfgebruikers &#x200B;](account-company-users.md)
+>- [&#x200B; de rekeningsstructuur van het Bedrijf &#x200B;](account-company-structure.md)
+>- [&#x200B; de beheerderrol van 0&rbrace; Bedrijf](account-company-admin.md)
+>- [&#x200B; leidt bedrijven &#x200B;](manage-companies.md)
+>- [&#x200B; laat B2B eigenschappen &#x200B;](enable-basic-features.md) toe
