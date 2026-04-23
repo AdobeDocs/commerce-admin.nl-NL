@@ -3,9 +3,9 @@ title: Gegevensbeheerdashboard
 description: Leer hoe te om tot inzichten over gegevensstromen voor  [!DNL Catalog Service],  [!DNL Live Search], en  [!DNL Product Recommendation] toegang te hebben.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 08d10741838037236c57cb53ead55f3677641496
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,27 @@ ht-degree: 0%
 
 Het gegevensbeheerdashboard biedt een overzicht van de synchronisatiestatus voor productgegevens die van de Commerce-database naar Commerce SaaS-services worden overgedragen. Gebruikers kunnen de status van productsynchronisatie eenvoudig controleren en de synchronisatie van gegevens via een uniform dashboard starten. Deze functie biedt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw winkel, zodat deze direct aan uw klanten kunnen worden weergegeven.
 
-## Publiek
+>[!NOTE]
+>
+>Als u de [ Schakelaar van Adobe Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) hebt geïnstalleerd om catalogusgegevens naar Adobe Commerce Optimizer uit te voeren, gebruik de [ pagina van de Synchronisatie van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio om succesvolle gegevenssynchronisatie, eerder dan het Dashboard van het Beheer van Gegevens te verifiëren.
 
-Het dashboard van het Beheer van Gegevens is beschikbaar aan alle verkopers van Commerce die [[!DNL Product Recommendations v6.0.0] gebruiken &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/guide-overview), of [[!DNL Catalog Service v1.17] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview) met een actieve vergunning.
+## Doelgroep
+
+Het dashboard van het Beheer van Gegevens is beschikbaar aan alle verkopers van Commerce die [[!DNL Product Recommendations v6.0.0] gebruiken ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0] ](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview), of [[!DNL Catalog Service v1.17] ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) met een actieve vergunning.
 
 Het dashboard van het Beheer van Gegevens wordt gevestigd bij *Systeem* > Overdracht van Gegevens > *Dashboard van het Beheer van Gegevens*.
 
-![&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](assets/data-management-dashboard.png)
+![ Dashboard van het Beheer van Gegevens ](assets/data-management-dashboard.png)
 
 Het dashboard bevat de volgende velden:
 
 | Veld | Beschrijving |
 |--- |--- |
-| Toepassingsgebied | Specifieke website voor de gesynchroniseerde gegevens. |
-| [!DNL Product Recommendations] | De synchronisatiestatus van vertoningen, aantal gesynchroniseerde producten, en een lijst van [&#x200B; toonbare &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/inventory#stock-options) producten voor [!DNL Product Recommendations]. |
-| [!DNL Live Search] | De synchronisatiestatus van vertoningen, aantal gesynchroniseerde producten, en een lijst van [&#x200B; toonbare &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/inventory#stock-options) producten voor [!DNL Live Search]. |
+| Bereik | Specifieke website voor de gesynchroniseerde gegevens. |
+| [!DNL Product Recommendations] | De synchronisatiestatus van vertoningen, aantal gesynchroniseerde producten, en een lijst van [ toonbare ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) producten voor [!DNL Product Recommendations]. |
+| [!DNL Live Search] | De synchronisatiestatus van vertoningen, aantal gesynchroniseerde producten, en een lijst van [ toonbare ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) producten voor [!DNL Live Search]. |
 | [!DNL Catalog Service] | Geeft de synchronisatiestatus, het aantal gesynchroniseerde producten en een tabel met de gesynchroniseerde producten voor [!DNL Catalog Service] weer. |
-| Instellingen | Opent een dialoog waar u [&#x200B; kunt manueel de catalogusgegevens &#x200B;](#resync-catalog-data) opnieuw synchroniseren. |
+| Instellingen | Opent een dialoog waar u [ kunt manueel de catalogusgegevens ](#resync-catalog-data) opnieuw synchroniseren. |
 | Synchronisatiestatus | Toont het aantal producten die van het gegevensbestand van Commerce aan om het even welke diensten SaaS binnen de laatste drie uren zijn overgebracht. Als u uw catalogus niet vaak bijwerkt, is deze waarde vaak nul. Als een synchronisatie bezig is, klikt u op **[!UICONTROL Refresh]** om een bijgewerkt aantal op te halen. |
 | Aantal producten | Geeft het totale aantal catalogusproducten weer dat beschikbaar is voor de service. De [!DNL Product Recommendations] en [!DNL Live Search] dashboards tonen het totale aantal _toonbare_ producten. [!DNL Catalog Service] filtert producten niet door deze weer te geven. Als u zowel [!DNL Catalog Service] als [!DNL Live Search] of [!DNL Product Recommendations] hebt geïnstalleerd, is het mogelijk dat de twee dashboards twee verschillende waarden voor het aantal producten tonen. |
 | Gesynchroniseerde producten | Verstrekt details over de producten in de kernCommerce index. Deze tabel wordt standaard gesorteerd op Laatst bijgewerkt. Gebruik het veld **[!UICONTROL Search by SKU]** om een specifiek product te zoeken. Als u wilt bepalen welke kolommen worden weergegeven, klikt u op **[!UICONTROL Customize Table]** rechts van de tabel. |
@@ -47,19 +51,19 @@ Als het aantal verwerkte producten overeenkomt met het aantal bijgewerkte produc
 
 >[!NOTE]
 >
->Adobe biedt ook een opdrachtregelinterface en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden en fouten voor Commerce SaaS-services op te lossen. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/overview).
+>Adobe biedt ook een opdrachtregelinterface en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden en fouten voor Commerce SaaS-services op te lossen. Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Lijst van gesynchroniseerde producten
 
 Als u de details van een gesynchroniseerd product wilt zien, klikt u op het product in de tabel.
 
-![&#x200B; Syncd de Details van het Product &#x200B;](assets/sync-product-detail.png)
+![ Syncd de Details van het Product ](assets/sync-product-detail.png)
 
 ### Catalogusgegevens opnieuw synchroniseren
 
-Om ervoor te zorgen dat uw diensten van Commerce SaaS altijd bijgewerkt met de recentste productinformatie zijn, zou u een programma [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) voor het synchroniseren van catalogusgegevens  moeten uitvoeren.
+Om ervoor te zorgen dat uw diensten van Commerce SaaS altijd bijgewerkt met de recentste productinformatie zijn, zou u een programma [ voor het synchroniseren van catalogusgegevens ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) moeten uitvoeren.
 
-Terwijl u [&#128279;](#manually-resync-catalog) manueel kunt in werking stellen catalogusgegevens resync van het gegevensbestand van Commerce aan de diensten SaaS, wordt het niet geadviseerd aangezien het de lading op hardwaremiddelen kan verhogen. In de volgende gevallen kan het echter nodig zijn de catalogus handmatig opnieuw te synchroniseren:
+Terwijl u [ ](#manually-resync-catalog) manueel kunt in werking stellen catalogusgegevens resync van het gegevensbestand van Commerce aan de diensten SaaS, wordt het niet geadviseerd aangezien het de lading op hardwaremiddelen kan verhogen. In de volgende gevallen kan het echter nodig zijn de catalogus handmatig opnieuw te synchroniseren:
 
 - Telkens wanneer er belangrijke wijzigingen in uw productcatalogus worden aangebracht, zoals het toevoegen van nieuwe producten, het bijwerken van productdetails of het wijzigen van categorieën
 
@@ -75,4 +79,4 @@ Door deze richtlijnen na te leven en zo nodig catalogusgegevens proactief te syn
 
 Als u de catalogusgegevens opnieuw moet synchroniseren, klikt u op **[!UICONTROL Settings]** aan de rechterkant van de pagina om een dialoogvenster weer te geven waarin u een resync kunt starten. Door het opnieuw synchroniseren van catalogusgegevens wordt de service gedwongen gegevens van de Commerce-database te zoeken naar SaaS-services.
 
-![&#x200B; synchroniseer manueel Producten &#x200B;](assets/resync-data.png)
+![ synchroniseer manueel Producten ](assets/resync-data.png)
