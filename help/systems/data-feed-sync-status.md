@@ -2,7 +2,7 @@
 title: Statuscontrole gegevensinvoer
 description: De synchronisatie van de gegevensuitvoer van de monitor en identificeert om het even welke kwesties of vertragingen met voederverwerking voor  [!DNL Catalog Service],  [!DNL Live Search], en  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
 workflow-type: tm+mt
 source-wordcount: '1719'
@@ -41,33 +41,33 @@ De status wordt bijgehouden voor de volgende feeds:
 Gebruik de volgende methoden om te controleren of gegevens zijn gesynchroniseerd met verbonden Commerce-services:
 
 * Voor Adobe Commerce op wolk of op gebouw, of de plaatsingen van Adobe Commerce as a Cloud Service, controleer het [&#x200B; dashboard van het gegevensbeheer &#x200B;](data-dashboard.md).
-* Voor Adobe Commerce op wolk of op gebouwplaatsingen die met de [&#x200B; Schakelaar van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) worden gevormd, controleer de [&#x200B; pagina van de Synchronisatie van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
+* Voor Adobe Commerce op wolk of op gebouwplaatsingen die met de [&#x200B; Schakelaar van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/aco-optimizer-connector/overview) worden gevormd, controleer de [&#x200B; pagina van de Synchronisatie van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
 
 >[!TIP]
 >
->Om meer over het proces van de gegevenssynchronisatie te leren, zie [&#x200B; gegevens met SaaS- gegevensuitvoer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
+>Om meer over het proces van de gegevenssynchronisatie te leren, zie [&#x200B; gegevens met SaaS- gegevensuitvoer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
 
 ## De extensie installeren
 
 De pagina Status gegevensfeed is beschikbaar voor alle Commerce-handelaren met actieve licenties voor de volgende Commerce-services:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) met een actieve licentie
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/nl/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview) met een actieve licentie
 
 >[!NOTE]
 >
->U hoeft de statusextensie Gegevensfeed niet te installeren op [[!DNL Adobe Commerce as a Cloud Service] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) -instanties.
+>U hoeft de statusextensie Gegevensfeed niet te installeren op [[!DNL Adobe Commerce as a Cloud Service] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/overview) -instanties.
 >De extensie is standaard beschikbaar als ten minste een van de volgende services is ingeschakeld in de Commerce-implementatie:  Productaanbevelingen v6+, Live zoeken v4.1+ of Catalogusservice v1.17+.
 
 **Vereisten**
 
 * PHP 8.1, 8.2, 8.3 of 8.4
 * Adobe Commerce 2.4.4+
-* [&#x200B; de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
+* [&#x200B; de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
 * Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com)
 
-  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
 
@@ -81,9 +81,9 @@ composer require magento/module-data-exporter-status
 
 Raadpleeg de volgende handleidingen voor gedetailleerde installatiestappen:
 
-* [Extensie installeren op Adobe Commerce op Cloud Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Extensie installeren op Adobe Commerce op Cloud Infrastructure](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [Installeer extensie Adobe Commerce op locatie](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Installeer extensie Adobe Commerce op locatie](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## De statuspagina van de gegevensfeed openen
 
@@ -145,7 +145,7 @@ Boven aan elke pagina met voederdetails geven kritieke gezondheidsindicatoren de
 
 >[!TIP]
 >
->Meer over indexverwerking leren, zie het [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) onderwerp van het Beheer van de Index 0&rbrace;.
+>Meer over indexverwerking leren, zie het [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) onderwerp van het Beheer van de Index 0&rbrace;.
 
 #### Changelog-achterstand
 
@@ -177,7 +177,7 @@ Wanneer het aantal met succes verzonden verslagen het aantal bronverslagen aanpa
 
 >[!NOTE]
 >
->Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Mislukte exportbewerkingen beheren
 
@@ -277,5 +277,5 @@ Als u specifieke voedingsartikelen opnieuw moet synchroniseren:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+>* [&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview)
