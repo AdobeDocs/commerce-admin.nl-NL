@@ -2,10 +2,10 @@
 title: Statuscontrole gegevensinvoer
 description: De synchronisatie van de gegevensuitvoer van de monitor en identificeert om het even welke kwesties of vertragingen met voederverwerking voor  [!DNL Catalog Service],  [!DNL Live Search], en  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Commerce-beheerders kunnen de synchronisatiestatus controleren van gegevens die vanuit Adobe Commerce naar verbonden Commerce-services zijn geëxporteerd via de statuspagina voor gegevensinvoer in Commerce Admin.
 
-![&#x200B; de detailpagina van de Status van de Synchronisatie van het Gegeven van Gegevens met de status van het voederpunt rapporterend &#x200B;](assets/data-feed-sync-status.png)
+![ de detailpagina van de Status van de Synchronisatie van het Gegeven van Gegevens met de status van het voederpunt rapporterend ](assets/data-feed-sync-status.png)
 
 Deze pagina biedt realtime inzichten in de gezondheid en prestaties van gegevensexportfeeds die product- en categoriegegevens van Commerce overbrengen naar externe services zoals [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] .
 
-Op de statuspagina voor synchroniseren wordt alleen de exportstatus weergegeven. Een successtatus geeft aan dat de gegevens zijn geëxporteerd en uiteindelijk beschikbaar zijn in verbonden Commerce-services. Gebruik het [&#x200B; dashboard van het gegevensbeheer &#x200B;](data-dashboard.md) om de daadwerkelijke staat van entiteitsynchronisatie te zien.
+Op de statuspagina voor synchroniseren wordt alleen de exportstatus weergegeven. Een successtatus geeft aan dat de gegevens zijn geëxporteerd en uiteindelijk beschikbaar zijn in verbonden Commerce-services.
 
 Door de status van de feed te controleren, bent u verzekerd van consistentie bij de gegevens en kunt u problemen die zich tijdens het exportproces voordoen, snel oplossen. Beheerders kunnen:
 
@@ -36,26 +36,38 @@ De status wordt bijgehouden voor de volgende feeds:
 * Diervoeders productprijzen
 * Diervoeders voor productvarianten
 
+## Controleren of gegevens zijn gesynchroniseerd met Commerce Services
+
+Gebruik de volgende methoden om te controleren of gegevens zijn gesynchroniseerd met verbonden Commerce-services:
+
+* Voor Adobe Commerce op wolk of op gebouw, of de plaatsingen van Adobe Commerce as a Cloud Service, controleer het [ dashboard van het gegevensbeheer ](data-dashboard.md).
+* Voor Adobe Commerce op wolk of op gebouwplaatsingen die met de [ Schakelaar van Adobe Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) worden gevormd, controleer de [ pagina van de Synchronisatie van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio.
+
 >[!TIP]
 >
->Om meer over het proces van de gegevenssynchronisatie te leren, zie [&#x200B; gegevens met SaaS- gegevensuitvoer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
+>Om meer over het proces van de gegevenssynchronisatie te leren, zie [ gegevens met SaaS- gegevensuitvoer ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) in de *Gids van de Uitvoer van Gegevens SaaS* synchroniseren.
 
 ## De extensie installeren
 
 De pagina Status gegevensfeed is beschikbaar voor alle Commerce-handelaren met actieve licenties voor de volgende Commerce-services:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/nl/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/catalog-service/guide-overview) met een actieve vergunning.
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+] ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) met een actieve licentie
+
+>[!NOTE]
+>
+>U hoeft de statusextensie Gegevensfeed niet te installeren op [[!DNL Adobe Commerce as a Cloud Service] ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) -instanties.
+>De extensie is standaard beschikbaar als ten minste een van de volgende services is ingeschakeld in de Commerce-implementatie:  Productaanbevelingen v6+, Live zoeken v4.1+ of Catalogusservice v1.17+.
 
 **Vereisten**
 
 * PHP 8.1, 8.2, 8.3 of 8.4
 * Adobe Commerce 2.4.4+
-* [&#x200B; de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
-* Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com)
+* [ de Uitbreiding van de Uitvoer van Gegevens van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), versie 103.4.15 of later
+* Toegang tot [ repo.magento.com ](https://repo.magento.com)
 
-  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
 
@@ -69,20 +81,20 @@ composer require magento/module-data-exporter-status
 
 Raadpleeg de volgende handleidingen voor gedetailleerde installatiestappen:
 
-* [&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Extensie installeren op Adobe Commerce op Cloud Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Installeer extensie Adobe Commerce op locatie](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## De statuspagina van de gegevensfeed openen
 
 Open vanuit Commerce Admin de statuspagina voor gegevensinvoer via Commerce Admin op **[!DNL System]** > Gegevensoverdracht > **[!DNL Data Feed Sync Status]** .
 
-![&#x200B; de pagina van de Status van de Synchronisatie van het Gegevensvoer die gegevens samenvatten voer uitvoeractiviteit &#x200B;](assets/data-feed-sync-status.png)
+![ de pagina van de Status van de Synchronisatie van het Gegevensvoer die gegevens samenvatten voer uitvoeractiviteit ](assets/data-feed-sync-status.png)
 
 De controle van de Status van de Diervoeders van gegevens verstrekt twee interfaces:
 
-* De [&#x200B; overzichtspagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](#data-feed-sync-status-summary) die van de beschikbare voer en huidige staat een lijst maakt
-* De [&#x200B; Status van de Synchronisatie van het Gegeven van Gegevens - de pagina van Details &#x200B;](#data-feed-sync-status-details) die gedetailleerde informatie over een geselecteerde voer toont.
+* De [ overzichtspagina van de Status van de Synchronisatie van het Gegeven van Gegevens ](#data-feed-sync-status-summary) die van de beschikbare voer en huidige staat een lijst maakt
+* De [ Status van de Synchronisatie van het Gegeven van Gegevens - de pagina van Details ](#data-feed-sync-status-details) die gedetailleerde informatie over een geselecteerde voer toont.
 
 ## Overzicht van status bij synchronisatiestatus gegevensfeed
 
@@ -100,7 +112,7 @@ De overzichtspagina van de Status van de Synchronisatie van het voer verstrekt i
 
 Klik op de overzichtspagina Status gegevensfeed op een naam van een feed of gebruik de handeling [!DNL View Details] om toegang te krijgen tot gedetailleerde informatie over afzonderlijke records in een feed.
 
-![[!UICONTROL Data Feed Sync Status - Details] pagina met statusrapportage van feed-item &#x200B;](assets/data-feed-sync-status-details.png)
+![[!UICONTROL Data Feed Sync Status - Details] pagina met statusrapportage van feed-item ](assets/data-feed-sync-status-details.png)
 
 De detailweergave bevat de volgende informatie voor elk feed-item:
 
@@ -108,7 +120,7 @@ De detailweergave bevat de volgende informatie voor elk feed-item:
 |-------|-------------|
 | **identiteitskaart van het Punt van het voer** | Interne id voor de feed-record |
 | **identiteitskaart van de Entiteit** | De id van de bronentiteit (product-id, categorie-id, enzovoort) |
-| **de Status van de Uitvoer** | De [&#x200B; synchronisatiestatus &#x200B;](#export-status-types) van het voederpunt. Huidige status van de exportpoging met kleurgecodeerde indicatoren |
+| **de Status van de Uitvoer** | De [ synchronisatiestatus ](#export-status-types) van het voederpunt. Huidige status van de exportpoging met kleurgecodeerde indicatoren |
 | **Laatste Datum van de Synchronisatie** | Tijdstempel wanneer de record voor het laatst naar Commerce Services is verzonden |
 | **wordt entiteit geschrapt?** | Geeft aan of de entiteit of haar onderdeel (bijvoorbeeld product- of productprijs) in Adobe Commerce is verwijderd. Items worden alleen weergegeven als er een fout is opgetreden tijdens de synchronisatie. |
 | **identiteitskaart van het Verzoek** | Een unieke id voor de synchronisatieaanvraag. Geef deze id door aan Support wanneer het oplossen van problemen met specifieke entiteiten wordt bijgewerkt. |
@@ -127,18 +139,18 @@ Boven aan elke pagina met voederdetails geven kritieke gezondheidsindicatoren de
 
 #### Indexeerstatus
 
-* **Geldig**: Het gegeven wordt gesynchroniseerd; geen vereiste herindex.
-* **Ongeldig**: De originele gegevens werden veranderd; de index zou moeten worden bijgewerkt.
-* **Verwerking**: Bezig indexerend.
+* **Geldig**: de gegevens worden gesynchroniseerd; geen redex vereist.
+* **ongeldig**: Oorspronkelijke gegevens zijn gewijzigd; de index moet worden bijgewerkt.
+* **Verwerking**: Indexering wordt uitgevoerd.
 
 >[!TIP]
 >
->Meer over indexverwerking leren, zie het [&#x200B; onderwerp van het Beheer van de Index 0&rbrace;.](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management)
+>Meer over indexverwerking leren, zie het ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) onderwerp van het Beheer van de Index 0}.[
 
 #### Changelog-achterstand
 
-* **allen gesynchroniseerd**: Geen hangende veranderingen om te verwerken
-* **Punten in achterstand**: Aantal hangende veranderingen die om wachten worden verwerkt
+* **allen gesynchroniseerd**: Geen in behandeling zijnde wijzigingen
+* **Punten in achterstand**: Aantal nog niet verwerkte wijzigingen
 
 ### Statustypen exporteren
 
@@ -165,14 +177,14 @@ Wanneer het aantal met succes verzonden verslagen het aantal bronverslagen aanpa
 
 >[!NOTE]
 >
->Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe biedt ook opdrachtregelinterfacegereedschappen en systeemlogboeken die ontwikkelaars en systeemintegrators kunnen gebruiken om synchronisatiebewerkingen te beheren en bij te houden. Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Mislukte exportbewerkingen beheren
 
 De details van mislukte exporten bekijken en corrigerende maatregelen nemen:
 
 1. Zoek op de statuspagina van Feed Sync naar de feed met mislukte records.
-1. Klik op **[!DNL Details]**.
+1. Klik op **[!DNL Details]** .
 
 1. Controleer foutberichten voor specifieke mislukkingen.
 
@@ -195,32 +207,32 @@ Door de status van de feed proactief te controleren en fouten direct aan te pakk
 
 Als u specifieke voedingsartikelen opnieuw moet synchroniseren:
 
-1. **Uitgezochte Verslagen**: checkboxes van het gebruik om ontbroken verslagen te selecteren die aandacht vergen.
-2. **kies Actie**: Selecteer **[!DNL Schedule Resync]** van de drop-down massageHandeling.
-3. **bevestigt**: Klik **[!DNL Submit]** en bevestig de opnieuw synchronisatieverrichting.
-4. **Resultaten van de Monitor**: Controleer het succesbericht en controleer statusveranderingen.
+1. **Uitgezochte Verslagen**: Gebruik selectievakjes om mislukte records te selecteren die aandacht behoeven.
+2. **kies Actie**: Selecteer **[!DNL Schedule Resync]** in het vervolgkeuzemenu voor massaactie.
+3. **bevestigt**: Klik op **[!DNL Submit]** en bevestig de resync-bewerking.
+4. **Resultaten van de Monitor**: Controleer het succesbericht en controleer statuswijzigingen.
 
 ## Aanbevolen procedures
 
 ### Regelmatig toezicht
 
-1. **Dagelijkse Controles**: Herzie de overzichtspagina dagelijks voor om het even welke voer die hoge mislukkingstarieven tonen
-1. **Wekelijks diep Duik**: Onderzoek de gedetailleerde status voor kritieke voer (producten, prijzen)
-1. **Maandelijkse Analyse**: De tendensen van het spoor in de uitvoersuccespercentages en prestaties
+1. **Dagelijkse Controles**: Bekijk de overzichtspagina dagelijks voor alle feeds met hoge foutpercentages
+1. **Wekelijks diep duik**: Onderzoek de gedetailleerde status voor kritische diervoeders (producten, prijzen)
+1. **Maandelijkse Analyse**: Trends in exportsuccespercentages en -prestaties volgen
 
 ### Workflow voor probleemoplossing
 
 1. **identificeer Kwesties**: Zoek fouten en hoge mislukkingen tellingen
-1. **de Gezondheid van de Indexer van de Controle**: Zorg ervoor dat de indexeerders geldig zijn en de achterstand handelbaar is
-1. **Details van de Fout van het Overzicht**: Klik op ontbroken verslagen om specifieke foutenmeldingen te zien
-1. **opnieuw synchroniseren van het Programma**: De massa van het gebruik acties om ontbroken uitvoer opnieuw te proberen
-1. **Resolutie van de Monitor**: Verifieer dat opnieuw gesynchroniseerde punten succesvolle status tonen
+1. **de Gezondheid van de Indexer van de Controle**: Zorg ervoor dat indexeerders geldig zijn en dat de achterstand beheersbaar is
+1. **Details van de Fout van het Overzicht**: Klik op mislukte records om specifieke foutberichten weer te geven
+1. **opnieuw synchroniseren van het Programma**: Gebruik massahandelingen om mislukte exportbewerkingen opnieuw uit te voeren
+1. **Resolutie van de Monitor**: Controleren of opnieuw gesynchroniseerde items de status succesvol tonen
 
 ### Algemene problemen verhelpen
 
 #### Hoge foutpercentages
 
-**Symptomen**: Het grote aantal verslagen die &quot;Ontbroken tonen, vereisen aandacht&quot;status
+**Symptomen**: Een groot aantal records met de status &quot;Mislukt, vereist aandacht&quot;
 
 **Potentiële oorzaken**:
 
@@ -254,7 +266,7 @@ Als u specifieke voedingsartikelen opnieuw moet synchroniseren:
 
 #### Verificatie mislukt
 
-**Symptomen**: 401 of 403 statuscodes
+**Symptomen**: 401- of 403-statuscodes
 
 **Stappen van de Resolutie**:
 
@@ -265,5 +277,5 @@ Als u specifieke voedingsartikelen opnieuw moet synchroniseren:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/saas-data-export/overview)
+>* [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [ Gids van de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
