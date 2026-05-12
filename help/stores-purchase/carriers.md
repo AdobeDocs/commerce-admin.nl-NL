@@ -51,7 +51,7 @@ Vanaf 25 januari 2026 heeft USPS de API&#39;s van verouderde webgereedschappen a
 
 Om verstoring van de verzendservices van USPS te voorkomen, voert u een upgrade uit naar de nieuwste versie van Adobe Commerce of voert u de volgende handelingen uit:
 
-- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
+- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
 
 - Werk de Commerce USPS-configuratie bij om de REST API&#39;s te gebruiken:
 
