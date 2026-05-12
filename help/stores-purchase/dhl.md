@@ -20,7 +20,7 @@ DHL biedt geïntegreerde internationale diensten en op maat gesneden, klantgeric
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL DHL]** sectie uit.
+1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL DHL]** sectie uit.
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ Als u de DHL XML API gebruikt, moet u de volgende geloofsbrieven verstrekken:
     - **[!UICONTROL Password]**
     - **[!UICONTROL Account Number]**
 
-![ De Montages van de Rekening van DHL ](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
+![&#x200B; De Montages van de Rekening van DHL &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
 ## Stap 2; Voer een pakketbeschrijving in en verpakkingskosten
 
@@ -94,7 +94,7 @@ Als u de DHL XML API gebruikt, moet u de volgende geloofsbrieven verstrekken:
    >
    >Als er geen afmetingen zijn opgegeven, wordt voor elke waarde een minimumwaarde van 3 gebruikt.
 
-   ![ De Montages van het Pakket DHL ](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; De Montages van het Pakket DHL &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
 ## Stap 3: Toegestane leveringsmethoden opgeven
 
@@ -102,7 +102,7 @@ Als u de DHL XML API gebruikt, moet u de volgende geloofsbrieven verstrekken:
 
    Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-   Om de correcte lijst van leveringsmethodes te tonen, moet u eerst het [ Land van Oorsprong ](../configuration-reference/sales/shipping-settings.md) specificeren.
+   Om de correcte lijst van leveringsmethodes te tonen, moet u eerst het [&#x200B; Land van Oorsprong &#x200B;](../configuration-reference/sales/shipping-settings.md) specificeren.
 
 1. Voer voor **[!UICONTROL Ready Time]** het aantal uren in nadat een bestelling is verzonden dat een pakket klaar is om te worden verzonden.
 
@@ -110,7 +110,7 @@ Als u de DHL XML API gebruikt, moet u de volgende geloofsbrieven verstrekken:
 
    Dit bericht wordt weergegeven wanneer een geselecteerde methode niet beschikbaar is.
 
-1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door DHL wilt verstrekken, plaats de vrije het verschepen opties.
+1. Als u a [&#x200B; Vrij Verschepend &#x200B;](shipping-free.md) optie door DHL wilt verstrekken, plaats de vrije het verschepen opties.
 
    - Kies bij **[!UICONTROL Free Method]** de methode die u voor gratis verzending wilt gebruiken.
 
@@ -124,7 +124,7 @@ Als u de DHL XML API gebruikt, moet u de volgende geloofsbrieven verstrekken:
 
    - Voer voor **[!UICONTROL Free Shipping Amount Threshold]** het minimumbedrag in voor een bestelling die in aanmerking komt voor gratis verzending.
 
-     ![ DHL Toegestane Methoden ](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
+     ![&#x200B; DHL Toegestane Methoden &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## Stap 4: Specificeer de toepasselijke landen
 
@@ -156,4 +156,4 @@ Als u de live modus gebruikt, stelt u **[!UICONTROL sandbox mode]** in op `No` .
 
 1. Klik op **[!UICONTROL Save Config]** .
 
-   ![ DHL Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}
+   ![&#x200B; DHL Toepasselijke Landen &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}

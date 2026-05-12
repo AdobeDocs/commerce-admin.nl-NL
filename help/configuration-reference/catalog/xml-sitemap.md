@@ -16,11 +16,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Categories Options]
 
-![ Opties van Categorieën ](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
+![&#x200B; Opties van Categorieën &#x200B;](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
 <!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Winkelweergave | Bepaalt hoe vaak sitemapcategorieën worden bijgewerkt. Opties: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit van sitemap-updates voor categorieën ten opzichte van andere inhoud bepaalt. Nul (`0.0`) heeft de laagste prioriteit. |
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Products Options]
 
-![ de Opties van Producten ](./assets/xml-sitemap-products-options.png)<!-- zoom -->
+![&#x200B; de Opties van Producten &#x200B;](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
 <!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Winkelweergave | Hiermee bepaalt u hoe vaak sitemapproducten worden bijgewerkt. Opties: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit van sitemap-updates voor producten ten opzichte van andere inhoud bepaalt. Nul (`0.0`) heeft de laagste prioriteit. |
@@ -43,11 +43,11 @@ ht-degree: 2%
 
 ## [!UICONTROL CMS Pages Options]
 
-![ de Opties van de Pagina&#39;s van CMS ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![&#x200B; de Opties van de Pagina&#39;s van CMS &#x200B;](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
 <!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Winkelweergave | Hiermee bepaalt u hoe vaak CMS-sitemap-pagina&#39;s worden bijgewerkt. Opties: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit bepaalt van CMS-pagina-sitemap-updates ten opzichte van andere inhoud. Nul (`0.0`) heeft de laagste prioriteit. |
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Store Url Options]
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Winkelweergave | Hiermee bepaalt u hoe vaak URL&#39;s worden bijgewerkt. Opties: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Winkelweergave | Een waarde tussen `0.0` en `1.0` die de prioriteit van opslag URL updates met betrekking tot andere inhoud bepaalt. Nul (`0.0`) heeft de laagste prioriteit. |
@@ -65,11 +65,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Generation Settings]
 
-![ Montages van de Generatie ](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
+![&#x200B; Montages van de Generatie &#x200B;](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
 <!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Winkelweergave | Hiermee wordt bepaald of een XML-sitemap beschikbaar is voor de winkel. Opties: `Yes` / `No` |
 | [!UICONTROL Generation Method] | Winkelweergave | Hiermee wordt bepaald hoe de XML-sitemap wordt gegenereerd. `Standard` gebruikt het traditionele synchrone generatieproces en verwerkt alle gegevens in het geheugen, terwijl `Batch` voor meer flexibiliteit en schaalbaarheid een asynchrone, voor het geheugen geoptimaliseerde batchmodus gebruikt. Deze optie is beschikbaar vanaf de release 2.4.9. Opties: `Standard` / `Batch` |
@@ -83,11 +83,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![ Limieten van het Dossier Sitemap ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![&#x200B; Limieten van het Dossier Sitemap &#x200B;](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Maximum No of URLs Per File] | Winkelweergave | Hiermee wordt het maximum aantal URL&#39;s bepaald dat in één sitemap kan worden opgenomen. |
 | [!UICONTROL Maximum File Size] | Winkelweergave | Bepaalt de maximumgrootte van de gegenereerde sitemap in bytes. |
@@ -96,11 +96,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Search Engine Submission Settings]
 
-![ de Verzendmontages van de Motor van het Onderzoek ](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
+![&#x200B; de Verzendmontages van de Motor van het Onderzoek &#x200B;](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
 <!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| Veld | [ Reikwijdte ](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
+| Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Winkelweergave | Hiermee kunt u instructies voor het bestand robots.txt indienen. Opties: `Yes` / `No` |
 
