@@ -4,45 +4,46 @@ description: Leer hoe u beveiliging voor uw winkelbeheerder configureert.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Beveiliging van beheerder configureren
 
-Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [&#x200B; douane Admin URL &#x200B;](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [&#x200B; login &#x200B;](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. Als a [&#x200B; beste praktijken &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
+Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [ douane Admin URL ](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [ login ](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. U kunt de minimumvereiste van de wachtwoordlengte vormen om veiligheid te verbeteren die op de behoeften van uw organisatie wordt gebaseerd. Als a [ beste praktijken ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
 
 Met de beveiligingsconfiguratie Admin kunt u:
 
 - Een geheime sleutel toevoegen aan URL&#39;s
 - Wachtwoorden zijn hoofdlettergevoelig
+- Vorm de minimumvereiste van de wachtwoordlengte
 - De duur van beheerderssessies beperken
 - De levensduur van wachtwoorden beperken
-- Beperk het aantal login pogingen die kunnen worden gemaakt alvorens de Admin gebruikersrekening [&#x200B; wordt gesloten &#x200B;](permissions-users-all.md#locked-users).
+- Beperk het aantal login pogingen die kunnen worden gemaakt alvorens de Admin gebruikersrekening [ wordt gesloten ](permissions-users-all.md#locked-users).
 
 Voor verhoogde veiligheid, kunt u de lengte van toetsenbordinactiviteit vormen alvorens de huidige zitting verloopt, en vereisen de gebruikersnaam en het wachtwoord om case-sensitive te zijn.
 
-Naast de veiligheidsmontages in deze sectie, [&#x200B; wordt tweeledige authentificatie &#x200B;](security-two-factor-authentication.md) (2FA) vereist om de identiteit van gebruikers met een eenmalig wachtwoord te verifiëren dat door een app of een apparaat wordt geproduceerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra veiligheid, kan login Admin ook worden gevormd om a [&#x200B; CAPTCHA &#x200B;](security-captcha.md) te vereisen.
+Naast de veiligheidsmontages in deze sectie, [ wordt tweeledige authentificatie ](security-two-factor-authentication.md) (2FA) vereist om de identiteit van gebruikers met een eenmalig wachtwoord te verifiëren dat door een app of een apparaat wordt geproduceerd. De eerste keer dat u zich aanmeldt bij de beheerder, wordt u gevraagd om 2FA in te stellen. Voor extra veiligheid, kan login Admin ook worden gevormd om a [ CAPTCHA ](security-captcha.md) te vereisen.
 
 >[!NOTE]
 >
->Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie &#x200B;](../getting-started/adobe-ims-integration-overview.md).
+>Voor opslagruimten die verificatie met [!DNL Adobe Identity Management Services] (IMS) hebben ingeschakeld, zijn Adobe Commerce en Magento Open Source 2FA uitgeschakeld. Admin-gebruikers die zich met hun Adobe-gegevens bij hun Commerce-exemplaar hebben aangemeld, hoeven voor veel beheertaken niet opnieuw te worden geverifieerd. De verificatie wordt uitgevoerd door Adobe IMS wanneer de Admin-gebruiker zich aanmeldt bij de huidige sessie. Zie [[!DNL Adobe Identity Management Service]  (IMS) Overzicht van de Integratie ](../getting-started/adobe-ims-integration-overview.md).
 
-Voor technische informatie, zie [&#x200B; Overzicht van de Veiligheid &#x200B;](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in de ontwikkelaardocumentatie.
+Voor technische informatie, zie [ Overzicht van de Veiligheid ](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in de ontwikkelaardocumentatie.
 
-![&#x200B; Admin veiligheid &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![ Admin veiligheid ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Beveiliging van beheerder configureren
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_&#x200B;de optie **[!UICONTROL Admin]**.
+1. Kies in het linkerdeelvenster onder _[!UICONTROL Advanced]_de optie **[!UICONTROL Admin]**.
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL Security]** sectie uit.
 
 1. Stel **[!UICONTROL Admin Account Sharing]** in op `No` om te voorkomen dat Admin-gebruikers zich vanaf hetzelfde account aanmelden op verschillende apparaten.
 
@@ -73,6 +74,12 @@ Voor technische informatie, zie [&#x200B; Overzicht van de Veiligheid &#x200B;](
 
 1. Stel wachtwoordopties in:
 
+   - Voer bij **[!UICONTROL Minimum Admin Password Length]** het minimale aantal tekens in dat vereist is voor Admin-wachtwoorden. De standaardwaarde is 7 en de minimaal toegestane waarde is 7.
+
+     >[!WARNING]
+     >
+     >Het veranderen van deze waarde van het gebrek kan achterwaartse verenigbaarheidskwesties met de bestaande diensten introduceren. Deze instelling is van invloed op wijzigingen in beheerderswachtwoorden, het maken van nieuwe Admin-gebruikers vanuit zowel de Admin-interface als de CLI, en bewerkingen voor het opnieuw instellen van wachtwoorden vanuit de Admin.
+
    - Als u de levensduur van beheerderswachtwoorden wilt beperken, voert u het aantal dagen in dat een wachtwoord geldig is voor **[!UICONTROL Password Lifetime (days)]** . Laat het veld leeg voor een onbeperkte levensduur.
 
    - Stel **[!UICONTROL Password Change]** in op een van de volgende opties:
@@ -84,4 +91,4 @@ Voor technische informatie, zie [&#x200B; Overzicht van de Veiligheid &#x200B;](
 
 ## Wachtwoordvereisten voor beheerders
 
-Een beheerderswachtwoord moet standaard zeven of meer tekens lang zijn en zowel letters als cijfers bevatten.
+Een beheerderswachtwoord moet standaard zeven of meer tekens lang zijn en zowel letters als cijfers bevatten. Met de instelling **[!UICONTROL Minimum Admin Password Length]** kunt u de minimale lengte van wachtwoorden configureren, zodat deze voldoet aan de beveiligingsnormen van uw organisatie. Het verhogen van deze waarde kan echter gevolgen hebben voor de compatibiliteit met bestaande services en integratie.

@@ -3,16 +3,16 @@ title: Referentie productgegevenskenmerken
 description: Gebruik deze referentie van productgegevenskenmerken wanneer u werkt met het importeren en exporteren van productgegevens.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
 
 # Referentie productgegevenskenmerken
 
-De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [&#x200B; uitvoeren &#x200B;](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
+De volgende tabel bevat een lijst met de kenmerken van een typisch exportproduct, in de standaardvolgorde waarin deze worden weergegeven. Elk kenmerk wordt in het CSV-bestand weergegeven als een kolom en productrecords worden weergegeven als rijen. Kolommen die met een onderstrepingsteken beginnen, bevatten servicegegevens zoals eigenschappen of optiewaarden voor complexe gegevens. U kunt [ uitvoeren ](data-export.md) een product van uw catalogus, om te zien hoe elk attribuut in de gegevens wordt vertegenwoordigd.
 
 Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de voorbeeldgegevens geïnstalleerd. Er zijn twee websites en verschillende winkelweergaven. Hoewel deze lijst alle kolommen bevat die doorgaans worden geëxporteerd, is `sku` de enige vereiste waarde. Als u gegevens wilt importeren, kunt u alleen de kolommen met wijzigingen opnemen. De `sku` moet de eerste kolom zijn, maar de volgorde van de overige kenmerken is niet van belang.
 
@@ -20,10 +20,10 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
+| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Note:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
 | `store_view_code` | Hiermee geeft u de specifieke opmaakweergaven aan van de locatie waar het product beschikbaar is. Als dit leeg is, is het product beschikbaar in de standaardwinkelweergave. Bijvoorbeeld: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Hiermee wijst u het product toe aan een specifieke kenmerkset of productsjabloon, afhankelijk van het producttype. Bijvoorbeeld: `default`<br><br> nadat het product wordt gecreeerd, kan de kenmerkenreeks niet worden veranderd gebruikend de de invoerfunctionaliteit. U kunt de kenmerkset echter wijzigen via de beheerdersset en het product opnieuw exporteren om het CSV-bestand bij te werken. |
-| `product_type` | Geeft het type product aan. Waarden:<br/>`simple` — Materiële goederen die gewoonlijk als afzonderlijke eenheden of in vaste hoeveelheden worden verkocht.<br/>`grouped` — Een groep afzonderlijke producten die als een set wordt verkocht.<br/>`configurable` — Een product met meerdere opties die de klant moet selecteren voordat hij een aankoop doet. De inventaris kan voor elke reeks variaties worden beheerd omdat zij een afzonderlijk product met verschillende SKU vertegenwoordigen. Een combinatie van kleur en grootte voor een configureerbaar product is bijvoorbeeld gekoppeld aan een specifieke SKU in de catalogus.<br/>`virtual` — Een niet-tastbaar product waarvoor geen verzending vereist is en dat niet in voorraad wordt gehouden. Voorbeelden zijn services, abonnementen en abonnementen.<br/>`bundle` — Een aanpasbare productset met eenvoudige producten die samen worden verkocht. |
+| `product_type` | Geeft het type product aan. Waarden:<br/>`simple` — Materiële items die gewoonlijk als afzonderlijke eenheden of in vaste hoeveelheden worden verkocht.<br/>`grouped` — Een groep afzonderlijke producten die als een set wordt verkocht.<br/>`configurable` — Een product met meerdere opties die de klant moet selecteren voordat hij een aankoop doet. De inventaris kan voor elke reeks variaties worden beheerd omdat zij een afzonderlijk product met verschillende SKU vertegenwoordigen. Bijvoorbeeld, wordt een combinatie kleur en grootte voor een configureerbaar product geassocieerd met specifieke SKU in de catalogus.<br/>`virtual` — Een niet-tastbaar product dat geen verzending vereist en niet in voorraad wordt gehouden. De voorbeelden omvatten de diensten, het lidmaatschap, en de abonnementen.<br/>`bundle` — Een aanpasbare productset van eenvoudige producten die samen worden verkocht. |
 | `categories` | Hiermee geeft u elke categorie aan die aan het product is toegewezen. Afzonderlijke categorieën en subcategorieën met een slash. Als u meerdere categoriepaden wilt aangeven, scheidt u elk pad met een pipe \|-symbool. Bijvoorbeeld: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | De websitecode van elke website waar het product beschikbaar is. Een enkel product kan aan meerdere websites worden toegewezen of tot één worden beperkt. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `base` of `base,website2` |
 | `name` | De productnaam wordt in alle productaanbiedingen weergegeven en is de naam die klanten gebruiken om het product te identificeren. |
@@ -32,7 +32,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 | `weight` | Het gewicht van het afzonderlijke product. Het werkelijke productgewicht wordt door de vervoerder bepaald op het tijdstip van verzending. |
 | product_online | Hiermee wordt bepaald of het product beschikbaar is voor verkoop in de winkel. Waarden:<br/>`1` — (ja) het product wordt toegelaten, en beschikbaar voor verkoop.<br/>`2` — (Nee) Het product is uitgeschakeld en niet te koop. |
 | `tax_class_name` | De naam van de belastingklasse die aan dit product is gekoppeld. |
-| `visibility` | Hiermee bepaalt u of het product zichtbaar is in de catalogus en beschikbaar wordt gemaakt voor zoekopdrachten. Waarden:<br/>`Not Visible Individually` — Het product is niet opgenomen in productlijsten, hoewel het beschikbaar kan zijn als een variant van een ander product.<br/>`Catalog` — Het product wordt in alle cataloguslijsten weergegeven.<br/>`Search` —Het product is beschikbaar voor zoekbewerkingen.<br/>`Catalog, Search` — Het product is opgenomen in cataloguslijsten en is ook beschikbaar voor zoekopdrachten. |
+| `visibility` | Hiermee bepaalt u of het product zichtbaar is in de catalogus en beschikbaar wordt gemaakt voor zoekopdrachten. Waarden:<br/>`Not Visible Individually` — Het product is niet inbegrepen in productlijsten, hoewel het als variatie van een ander product beschikbaar zou kunnen zijn.<br/>`Catalog` — Het product wordt in alle cataloguslijsten weergegeven.<br/>`Search` —Het product is beschikbaar voor onderzoeksverrichtingen.<br/>`Catalog, Search` — Het product is opgenomen in catalogusaanbiedingen en is ook beschikbaar voor zoekopdrachten. |
 | `price` | De prijs die het product in je winkel te koop wordt aangeboden. |
 | `special_price` | De gedisconteerde prijs van het product gedurende het opgegeven datumbereik. |
 | `special_price_from_date` | De begindatum van de periode waarin de bijzondere prijs van kracht is. |
@@ -42,33 +42,33 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 | `meta_title` | De titel van de meta verschijnt in de titelbar en het lusje van browser en onderzoeksresultaten lijsten. De titel van de meta zou uniek aan het product moeten zijn, high-value sleutelwoorden omvatten, en minder dan 70 karakters in lengte zijn. |
 | `meta_keywords` | Meta-trefwoorden zijn alleen zichtbaar voor zoekprogramma&#39;s en worden door sommige zoekprogramma&#39;s genegeerd. Kies trefwoorden met een hoge waarde, gescheiden door een komma. Bijvoorbeeld: `keyword1`, `keyword2`, `keyword3` |
 | `meta_description` | Meta-beschrijvingen bieden een kort overzicht van het product voor aanbiedingen met zoekresultaten. In het ideale geval moet een metabeschrijving tussen 150 en 160 tekens lang zijn, hoewel het veld maximaal 255 tekens accepteert. |
-| `base_image` | Het relatieve pad voor de hoofdafbeelding op de productpagina. Commerce slaat bestanden intern op in een alfabetische mapstructuur. U kunt de exacte locatie van elke afbeelding in de geëxporteerde gegevens zien. Bijvoorbeeld: `/sample_data/m/b/mb01-blue-0.jpg`<br/> om een nieuw beeld te uploaden of over een bestaand beeld te schrijven, ga het dossier in - naam, voorafgegaan door een voorwaartse schuine streep. Bijvoorbeeld: `/image.jpg` |
+| `base_image` | Het relatieve pad voor de hoofdafbeelding op de productpagina. Commerce slaat bestanden intern op in een alfabetische mapstructuur. U kunt de exacte locatie van elke afbeelding in de geëxporteerde gegevens zien. Bijvoorbeeld: `/sample_data/m/b/mb01-blue-0.jpg`<br/> om een nieuw beeld te uploaden of over een bestaand beeld te schrijven, ga het dossier in - noem, voorafgegaan door een voorwaartse schuine streep. Bijvoorbeeld: `/image.jpg` |
 | `base_image_label` | Het label dat aan de basisafbeelding is gekoppeld. |
 | `small_image` | De bestandsnaam van de kleine afbeelding die wordt gebruikt op cataloguspagina&#39;s, voorafgegaan door een slash. Bijvoorbeeld: `/image.jpg` |
-| `small_image_label` | Het label dat aan de kleine afbeelding is gekoppeld. Bijvoorbeeld: `Small Image 1` , `Small Image 2` |
+| `small_image_label` | Het label dat aan de kleine afbeelding is gekoppeld. Bijvoorbeeld: `Small Image 1`, `Small Image 2` |
 | `thumbnail_image` | De bestandsnamen van miniatuurafbeeldingen die in de galerie op de productpagina worden weergegeven, voorafgegaan door een slash. Bijvoorbeeld: `/image.jpg` |
-| `thumbnail_image_label` | Het label dat aan miniatuurafbeeldingen is gekoppeld. Bijvoorbeeld: `Thumbnail 1` , `Thumbnail 2` |
+| `thumbnail_image_label` | Het label dat aan miniatuurafbeeldingen is gekoppeld. Bijvoorbeeld: `Thumbnail 1`, `Thumbnail 2` |
 | `created_at` | Geeft de datum aan waarop het product is gemaakt. De datum wordt automatisch gegenereerd wanneer het product wordt gemaakt, maar kan later worden bewerkt. |
 | `updated_at` | Geeft de datum aan waarop het product voor het laatst is bijgewerkt. |
 | `new_from_date` | Hiermee geeft u de datum &quot;van&quot; op voor nieuwe productaanbiedingen en bepaalt u of het product als een nieuw product wordt aangeboden. |
 | `new_to_date` | Hiermee geeft u de datum op waarop het product moet worden aangeboden voor nieuwe producten en bepaalt u of het product als een nieuw product wordt aangeboden. |
-| `display_product_options_in` | Als het product meerdere opties heeft, bepaalt u waar deze op de productpagina worden weergegeven. Waarden: Kolom productinformatie / Blok na kolom Info |
+| `display_product_options_in` | Als het product meerdere opties heeft, bepaalt u waar deze op de productpagina worden weergegeven. Waarden: Kolom met productinformatie / Blok na informatiekolom |
 | `map_price` | De minimale geadverteerde prijs van het product. (Wordt alleen weergegeven als MAP is ingeschakeld.) |
 | `msrp_price` | De door de fabrikant voorgestelde detailhandelsprijs voor het product. (Wordt alleen weergegeven als MAP is ingeschakeld.) |
-| `map_enabled` | Hiermee bepaalt u of Minimale geadverteerde prijs is ingeschakeld in de configuratie. Waarden:<br/>`1` — (Ja) MAP is ingeschakeld.<br/>`0` (of leeg) — (Geen) KAART is niet ingeschakeld. |
-| `gift_message_available` | Hiermee bepaalt u of een cadeaubericht kan worden opgenomen in de productaankoop. Waarden:<br/>`1` — (Ja) De optie om een geschenkbericht op te nemen wordt voorgesteld aan de klant.<br/>`0` (of leeg) — (Nee) De optie om een cadeaubericht op te nemen wordt niet aan de klant getoond. |
+| `map_enabled` | Hiermee bepaalt u of Minimale geadverteerde prijs is ingeschakeld in de configuratie. Waarden:<br/>`1` — (ja) MAP wordt toegelaten.<br/>`0` (of leeg) — (Geen) MAP is niet ingeschakeld. |
+| `gift_message_available` | Hiermee bepaalt u of een cadeaubericht kan worden opgenomen in de productaankoop. Waarden:<br/>`1` — (ja) de optie om een geschenkbericht te omvatten wordt voorgesteld aan de klant.<br/>`0` (of leeg) — (Nee) De optie om een cadeaubericht op te nemen wordt niet aan de klant voorgesteld. |
 | `custom_design` | Hier worden de beschikbare thema&#39;s weergegeven die op de productpagina kunnen worden toegepast. |
 | `custom_design_from` | Hiermee geeft u de begindatum op waarop het geselecteerde thema wordt toegepast op de productpagina. |
 | `custom_design_to` | Hiermee geeft u de einddatum op waarop het geselecteerde thema wordt toegepast op de productpagina. |
 | `custom_layout_update` | Aanvullende XML-code die wordt toegepast als een lay-outupdate op de productpagina. |
-| `page_layout` | Bepaalt de pagina-indeling van de productpagina. Waarden:<br/>`No layout updates` — De paginalay-out wordt niet gewijzigd.<br/>`1 column` — Hiermee past u een lay-out van één kolom toe op de productpagina.<br/>`2 columns with left bar` — Hiermee past u een lay-out met twee kolommen en een linkerzijbalk toe op de productpagina.<br/>`2 columns with right bar` — Hiermee past u een lay-out met twee kolommen en een rechterzijbalk toe op de productpagina.<br/>`3 columns` — Hiermee past u een indeling met drie kolommen toe op de productpagina.<br/>`empty` — Hiermee wordt een lege lay-out toegepast op de productpagina. |
-| `product_options_container` | Als het product meerdere opties heeft, bepaalt u waar deze op de productpagina worden weergegeven. Waarden: Kolom productinformatie / Blok na kolom Info |
-| `msrp_display_actual_price_type` | Hiermee bepaalt u waar de werkelijke prijs van een product zichtbaar is voor de klant. Waarden:<br/>`In Cart` — Geeft de werkelijke productprijs weer in het winkelwagentje.<br/>`Before Order Confirmation` — Geeft de werkelijke productprijs weer aan het einde van het afrekenproces, vlak voordat de bestelling wordt bevestigd.<br/>`On Gesture` — Toont de daadwerkelijke productprijs in popup wanneer de klant _klikt voor prijs_ of _wat dit is?_ . |
+| `page_layout` | Bepaalt de pagina-indeling van de productpagina. Waarden:<br/>`No layout updates` — Er wordt geen wijziging aangebracht in de paginalay-out.<br/>`1 column` — Past een lay-out van één kolom op de productpagina toe.<br/>`2 columns with left bar` — Past een lay-out met twee kolommen met een linkerzijbalk op de productpagina toe.<br/>`2 columns with right bar` — Past een lay-out met twee kolommen met een rechterzijbalk op de productpagina toe.<br/>`3 columns` — Past een lay-out van drie kolommen op de productpagina toe.<br/>`empty` — Hiermee past u een lege indeling toe op de productpagina. |
+| `product_options_container` | Als het product meerdere opties heeft, bepaalt u waar deze op de productpagina worden weergegeven. Waarden: Kolom met productinformatie / Blok na informatiekolom |
+| `msrp_display_actual_price_type` | Hiermee bepaalt u waar de werkelijke prijs van een product zichtbaar is voor de klant. Waarden:<br/>`In Cart` — Geeft de werkelijke productprijs in het winkelwagentje weer.<br/>`Before Order Confirmation` — Geeft de werkelijke productprijs weer aan het einde van het afrekenproces, net voordat de bestelling is bevestigd.<br/>`On Gesture` — Toont de daadwerkelijke productprijs in popup wanneer de klant _klikt voor prijs_ of _wat is dit?_ koppeling. |
 | `country_of_manufacture` | Identificeert het land waar het product is vervaardigd. |
 | `additional_attributes` | Extra kenmerken die voor het product zijn gemaakt. Bijvoorbeeld: <br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS` |
 | `qty` | De hoeveelheid product die momenteel in voorraad is. |
 | `out_of_stock_qty` | Het voorraadniveau dat bepaalt welk product uit voorraad is. |
-| `use_config_min_qty` | Hiermee wordt bepaald of de standaardwaarde in de configuratie wordt gebruikt en of deze overeenkomt met het selectievakje Configuratie-instellingen gebruiken. Waarden:<br/>`1` — (ja) de standaardconfiguratie die voor de waarde van dit attribuut plaatst wordt gebruikt.<br/>`0` (of leeg) — (Geen) De standaardconfiguratie kan voor de waarde van dit kenmerk worden overschreven. |
+| `use_config_min_qty` | Hiermee wordt bepaald of de standaardwaarde in de configuratie wordt gebruikt en of deze overeenkomt met het selectievakje Configuratie-instellingen gebruiken. Waarden:<br/>`1` — (ja) de standaardconfiguratie die voor de waarde van dit attribuut plaatst wordt gebruikt.<br/>`0` (of leeg) — (Geen) De standaardconfiguratie kan voor de waarde van dit attribuut worden met voeten getreden. |
 | `is_qty_decimal` | Bepaalt of het kenmerk qty een decimale waarde heeft. Waarden:<br/>`1` — (ja) de waarde van het attribuut qty is een decimale waarde.<br/>`0` (of leeg) — (Nee) De waarde van het kenmerk qty is een geheel getal (geheel getal). |
 | `allow_backorders` | Hiermee bepaalt u of in uw winkel backorders zijn toegestaan en hoe deze worden beheerd. |
 | `use_config_backorders` | Hiermee wordt bepaald of de standaardconfiguratie-instelling voor backorders wordt gebruikt en of deze overeenkomt met de status van het selectievakje Configuratie-instellingen gebruiken. Waarden:<br/>`1` — (ja) de waarde van het attribuut qty is een decimale waarde.<br/>`0` (of leeg) — (Nee) De waarde van het kenmerk qty is een geheel getal (geheel getal). |
@@ -94,7 +94,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 | `upsell_skus` | Hiermee geeft u de SKU weer van elk product dat is geïdentificeerd als een Up-verkoop. |
 | `upsell_position` | Hiermee bepaalt u de positie (sorteervolgorde) van de SKU&#39;s die als up-sell-producten in de kolom `upsell_skus` worden vermeld. |
 | `additional_images` | De bestandsnamen van extra afbeeldingen die aan het product moeten worden gekoppeld, voorafgegaan door een slash. Bijvoorbeeld: `/image.jpg` |
-| `additional_image_labels` | De labels die aan extra afbeeldingen zijn gekoppeld. Bijvoorbeeld: `Label 1` , `Label 2` |
+| `additional_image_labels` | De labels die aan extra afbeeldingen zijn gekoppeld. Bijvoorbeeld: `Label 1`, `Label 2` |
 | `custom_options` | Hiermee geeft u de eigenschappen en waarden op die aan elke aangepaste optie zijn toegewezen. Bijvoorbeeld: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
@@ -103,7 +103,7 @@ Voor de installatie die wordt gebruikt om deze gegevens te exporteren, zijn de v
 
 | Kenmerk | Beschrijving | Van toepassing op |
 |--- |--- | --- |
-| `_super_products_sku` | De gegenereerde SKU voor een configureerbare productvariatie. Bijvoorbeeld: WB03-XS-Green | Configureerbare producten |
+| `_super_products_sku` | De gegenereerde SKU voor een configureerbare productvariatie. Bijvoorbeeld: WB03-XS-groen | Configureerbare producten |
 | `_super_attribute_code` | De kenmerkcode van een configureerbare productvariatie. Bijvoorbeeld: kleur | Configureerbare producten |
 | `_super_attribute_option` | De waarde van een configureerbare productvariatie. Bijvoorbeeld: groen | Configureerbare producten |
 | `_super_attribute_price_corr` | Een prijsaanpassing die aan een configureerbare productvariatie wordt geassocieerd. | Configureerbare producten |
@@ -123,7 +123,7 @@ De term complexe gegevens verwijst naar de gegevens die zijn gekoppeld aan meerd
 
 Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van een eenvoudig product plus de aanvullende kenmerken die nodig zijn voor het beheer van complexe gegevens.
 
-![&#x200B; Configureerbaar product - uitgevoerde gegevens &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![ Configureerbaar product - uitgevoerde gegevens ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### Configureerbare producten
 
@@ -147,28 +147,28 @@ Als u een configureerbaar product exporteert, vindt u de standaardkenmerken van 
 | Kenmerk | Beschrijving |
 |--- |--- |
 | `bundle_price_type` | Hiermee wordt bepaald of de prijs van een bundelitem vast of dynamisch is. |
-| `bundle_sku_type` | Bepaalt als elk punt een variabele, dynamische SKU wordt toegewezen, of als vaste SKU voor de bundel wordt gebruikt. Opties: vast / dynamisch |
+| `bundle_sku_type` | Bepaalt als elk punt een variabele, dynamische SKU wordt toegewezen, of als vaste SKU voor de bundel wordt gebruikt. Opties: Fixed / Dynamic |
 | `bundle_weight_type` | Hiermee wordt bepaald of het gewicht van een bundelitem variabel of vast is. |
-| `bundle_values` | Beschrijft onderwijzen waarde verbonden aan een bundeloptie. Bijvoorbeeld: `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed` |
+| `bundle_values` | Beschrijft elke waarde verbonden aan een bundeloptie. Bijvoorbeeld: `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/> In de `name_[store-view-code]` optie, `[store-view-code]` is de naam van de archiefmening.Met de opties <br/></br> `price_website_[website-code]` en `price_type_website_[website-code]` geeft u de productprijs voor de website op `[website-code]` . Als het [ Reikwijdte van de Prijs van de Catalogus ](../catalog/catalog-price-scope.md) aan *Globaal* wordt geplaatst, zijn deze opties niet beschikbaar. |
 
 {style="table-layout:auto"}
 
 ## Geavanceerde prijskenmerken
 
-Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [&#x200B; in te voeren &#x200B;](data-import.md) en [&#x200B; uitvoer &#x200B;](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
+Met de geavanceerde functie Prijs importeren/exporteren kunt u snel prijsinformatie voor productgroepen en laagprijzen bijwerken. Het proces om [ in te voeren ](data-import.md) en [ uitvoer ](data-export.md) geavanceerde prijsgegevens is het zelfde als een ander entiteitstype. Het CSV-bestand met voorbeelden bevat niveau- en groepsprijzen voor elk producttype dat geavanceerde prijzen ondersteunt. Het wijzigen van geavanceerde prijzen heeft geen invloed op de rest van de productrecord.
 
-![&#x200B; de uitvoergegevens van het Voorbeeld - geavanceerde tarifering &#x200B;](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
+![ de uitvoergegevens van het Voorbeeld - geavanceerde tarifering ](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Nota:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
-| `tier_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | Identificeert de [&#x200B; groepen van klanten &#x200B;](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `sku` | (Vereist) De voorraadbewaareenheid is een unieke alfanumerieke identificatiecode die wordt gebruikt om de inventaris bij te houden. Een SKU kan maximaal 64 tekens lang zijn. Bijvoorbeeld: `sku123`<br/>**_Note:_** Een SKU langer dan 64 karakters veroorzaakt de invoer om te ontbreken. |
+| `tier_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) identificeert elke website waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | Identificeert de [ groepen van klanten ](../customers/customer-groups.md) waar de rij tarifering beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identificeert de klantengroepen waar de rijprijs beschikbaar is. Bijvoorbeeld: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | De hoeveelheid van het product die moet worden besteld om de korting op de tier-prijs te ontvangen. |
-| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
-| `group_price_website` | De [&#x200B; websitecode &#x200B;](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
+| `tier_price` | De gedisconteerde tier-prijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de laagprijs berekend als percentage. |
+| `group_price_website` | De [ websitecode ](../stores-purchase/stores.md#add-websites) van elke website waar de groepsprijzen beschikbaar zijn. Als u meerdere websites opgeeft, scheidt u deze met een komma en zonder spatie. Bijvoorbeeld: `-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | Identificeert de groepen van klanten waar de groepsprijzen beschikbaar zijn. Bijvoorbeeld: `-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | De gedisconteerde groepsprijs van het product. Voor [&#x200B; bundelproducten &#x200B;](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
+| `group_price` | De gedisconteerde groepsprijs van het product. Voor [ bundelproducten ](../catalog/product-create-bundle.md), wordt de groepsprijs berekend als percentage. |
 
 {style="table-layout:auto"}

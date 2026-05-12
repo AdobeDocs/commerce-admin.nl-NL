@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6023fe9fdffd206f23bed50d247b61859ae59bc9
+source-git-commit: 55b6351ede50583d766d25ea855aaf7bcb0c30ee
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '3945'
 ht-degree: 0%
 
 ---
@@ -27,74 +27,75 @@ Adobe Commerce B2B gebruikt Composer om PHP-pakketten te beheren.
 
 In het bestand `composer.json` wordt de lijst met pakketten gedeclareerd, terwijl in het bestand van `composer.lock` een volledige lijst met pakketten (een volledige versie van elk pakket en de bijbehorende afhankelijkheden) wordt opgeslagen die worden gebruikt om een installatie van Adobe Commerce B2B te maken.
 
-De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -bestand en omvat de vereiste pakketten die zijn opgenomen in Adobe Commerce B2B 1.5.2.
+De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -bestand en omvat de vereiste pakketten die zijn opgenomen in Adobe Commerce B2B 1.5.3.
 
 ## Afhankelijkheden
 
-`magento/extension-b2b 1.5.2` heeft de volgende afhankelijkheden:
+`magento/extension-b2b 1.5.3` heeft de volgende afhankelijkheden:
 
-- magento/framework: >=103.0.6 &lt;103.0.9
-- magento/magento2-b2b-base: 1.5.2
-- [&#x200B; magento/module-b2b &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-b2b/): 100.5.2
-- [&#x200B; magento/module-bundle-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote/): 100.5.1
-- [&#x200B; magento/module-bundel-vordering-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list/): 100.5.1
-- [&#x200B; magento/module-bundle-requisition-list-graph-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-bundle-shared-catalog &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog/): 100.5.1
-- [&#x200B; magento/module-checkout-adres-onderzoek-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote/): 100.5.1
-- [&#x200B; magento/module-checkout-agreements-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote/): 100.5.1
-- [&#x200B; magento/module-checkout-agreements-aankoop-orde &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order/): 1.5.1
-- [&#x200B; magento/module-bedrijf &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company/): 102.0.2
-- [&#x200B; magento/module-bedrijf-asynchrone-verrichtingen &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations/): 1.5.1
-- [&#x200B; magento/module-bedrijf-krediet &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-credit/): 100.5.2
-- [&#x200B; magento/module-bedrijf-krediet-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql/): 1.5.1
-- [&#x200B; magento/module-bedrijf-klant-invoer-uitvoer &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export/): 1.5.0
-- [&#x200B; magento/module-bedrijf-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql/): 1.5.2
-- [&#x200B; magento/module-bedrijf-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote/): 1.5.1
-- [&#x200B; magento/module-bedrijf-onderhandelbaar-citaat-malplaatje &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template/): 1.5.1
-- [&#x200B; magento/module-bedrijf-betaling &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-payment/): 100.5.1
-- [&#x200B; magento/module-bedrijf-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-quote/): 1.5.2
-- [&#x200B; magento/module-bedrijf-citaat-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql/): 1.5.2
-- [&#x200B; magento/module-bedrijf-verhouding &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-relation/): 1.5.2
-- [&#x200B; magento/module-bedrijf-verband-gedeelde-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog/): 1.5.1
-- [&#x200B; magento/module-bedrijf-verschepen &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping/): 1.5.1
-- [&#x200B; magento/module-configureerbaar-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote/): 100.5.1
-- [&#x200B; magento/module-configureerbaar-eis-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list/): 100.5.1
-- [&#x200B; magento/module-configureerbaar-aanvraag-lijst-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-configureerbaar-gedeeld-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog/): 100.5.1
-- [&#x200B; magento/module-downloadbaar-bedrijf &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company/): 1.5.1
-- [&#x200B; magento/module-downloadbaar-aanvraag-lijst-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-gift-kaart-verhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote/): 100.5.1
-- [&#x200B; magento/module-gift-kaart-aanvraag-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list/): 100.5.1
-- [&#x200B; magento/module-gift-kaart-vordering-lijst-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-gift-kaart-gedeelde-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog/): 100.5.1
-- [&#x200B; magento/module-gegroepeerd-aanvraag-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list/): 100.5.1
-- [&#x200B; magento/module-gegroepeerde-gedeelde-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog/): 100.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote/): 101.0.2
-- [&#x200B; magento/module-onderhandelbaar-citaat-async-orde &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-dubbel &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate/): 1.5.2
-- [&#x200B; magento/module-onderhandelbaar-citaat-dubbel-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-aanvraag-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-aanvraag-lijst-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-gedeelde-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog/): 100.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-malplaatje &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template/): 1.5.2
-- [&#x200B; magento/module-onderhandelbaar-citaat-malplaatje-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql/): 1.5.2
-- [&#x200B; magento/module-onderhandelbaar-citaat-malplaatje-gedeeld-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog/): 1.5.1
-- [&#x200B; magento/module-onderhandelbaar-citaat-weee &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee/): 100.5.1
-- [&#x200B; magento/module-orde-geschiedenis-onderzoek &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search/): 100.5.2
-- [&#x200B; magento/module-paypal-onderhandelbaar-citaat &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote/): 1.5.1
-- [&#x200B; magento/module-paypal-aankoop-orde &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order/): 1.5.1
-- [&#x200B; magento/module-aankoop-orde &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order/): 100.5.2
-- [&#x200B; magento/module-aankoop-orde-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql/): 1.5.1
-- [&#x200B; magento/module-aankoop-orde-regel &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule/): 100.5.2
-- [&#x200B; magento/module-aankoop-orde-regel-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql/): 1.5.1
-- [&#x200B; magento/module-snel-orde &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-quick-order/): 100.5.1
-- [&#x200B; magento/module-snel-orde-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql/): 1.5.1
-- [&#x200B; magento/module-aanvraag-lijst &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list/): 100.5.2
-- [&#x200B; magento/module-aanvraag-lijst-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql/): 1.5.1
-- [&#x200B; magento/module-gedeeld-catalogus &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog/): 100.5.2
-- [&#x200B; magento/module-gedeelde-catalogus-grafiek-ql &#x200B;](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql/): 1.5.1
-- magento/security-package-b2b: 1.0.6
+- magento/framework: >=103.0.8 &lt;103.0.10
+- magento/magento2-b2b-base: 1.5.3.
+- [ magento/module-b2b ](https://developer.adobe.com/commerce/php/module-reference/module-b2b): 100,5,3
+- [ magento/module-bundle-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote): 100,5,2
+- [ magento/module-bundle-requisition-list ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list): 100,5,2
+- [ magento/module-bundle-requisition-list-graph-ql ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-bundle-shared-catalog ](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog): 100,5,2
+- [ magento/module-checkout-adres-onderzoek-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote): 100,5,2
+- [ magento/module-checkout-agreements-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote): 100,5,2
+- [ magento/module-checkout-agreements-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order): 1.5.2.
+- [ magento/module-bedrijf ](https://developer.adobe.com/commerce/php/module-reference/module-company): 102,0,3
+- [ magento/module-bedrijf-asynchrone-verrichtingen ](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations): 1.5.2.
+- [ magento/module-bedrijf-krediet ](https://developer.adobe.com/commerce/php/module-reference/module-company-credit): 100,5,3
+- [ magento/module-bedrijf-credit-graph-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql): 1.5.2.
+- [ magento/module-bedrijf-klant-invoer-uitvoer ](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export): 1.5.1.
+- [ magento/module-bedrijf-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql): 1.5.3.
+- [ magento/module-bedrijf-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote): 1.5.2.
+- [ magento/module-bedrijf-onderhandelbaar-citaat-malplaatje ](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template): 1.5.2.
+- [ magento/module-bedrijf-betaling ](https://developer.adobe.com/commerce/php/module-reference/module-company-payment): 100,5,2
+- [ magento/module-bedrijf-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-company-quote): 1.5.3.
+- [ magento/module-bedrijf-citaat-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql): 1.5.3.
+- [ magento/module-bedrijf-verhouding ](https://developer.adobe.com/commerce/php/module-reference/module-company-relation): 1.5.3.
+- [ magento/module-bedrijf-verband-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog): 1.5.2.
+- [ magento/module-bedrijf-verschepen ](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping): 1.5.2.
+- [ magento/module-configureerbaar-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote): 100,5,2
+- [ magento/module-configureerbaar-vordering-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list): 100,5,2
+- [ magento/module-configureerbaar-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-configureerbaar-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog): 100,5,2
+- [ magento/module-downloadbaar-bedrijf ](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company): 1.5.2.
+- [ magento/module-downloadbaar-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-negotiable-quote): 1.5.0.
+- [ magento/module-downloadbaar-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-gift-kaart-verhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote): 100,5,2
+- [ magento/module-gift-kaart-vordering-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list): 100,5,2
+- [ magento/module-gift-kaart-vordering-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-gift-kaart-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog): 100,5,2
+- [ magento/module-gegroepeerd-verzoek-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list): 100,5,2
+- [ magento/module-gegroepeerd-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog): 100,5,2
+- [ magento/module-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote): 101,0,3
+- [ magento/module-onderhandelbaar-citaat-async-orde ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order): 1.5.2.
+- [ magento/module-onderhandelbaar-citaat-dubbel ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate): 1.5.3.
+- [ magento/module-onderhandelbaar-citaat-dubbel-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql): 1.5.2.
+- [ magento/module-onderhandelbaar-citaat-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql): 1.5.2.
+- [ magento/module-onderhandelbaar-citaat-vordering-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list): 1.5.2.
+- [ magento/module-onderhandelbaar-citaat-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-onderhandelbaar-citaat-gedeelde-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog): 100,5,2
+- [ magento/module-onderhandelbaar-citaat-malplaatje ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template): 1.5.3.
+- [ magento/module-onderhandelbaar-citaat-malplaatje-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql): 1.5.3.
+- [ magento/module-onderhandelbaar-citaat-malplaatje-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog): 1.5.2.
+- [ magento/module-onderhandelable-quote-weee ](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee): 100,5,2
+- [ magento/module-orde-geschiedenis-onderzoek ](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search): 100,5,3
+- [ magento/module-paypal-onderhandelbaar-citaat ](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote): 1.5.2.
+- [ magento/module-paypal-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order): 1.5.2.
+- [ magento/module-aankoop-orde ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order): 100,5,3
+- [ magento/module-aankoop-orde-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql): 1.5.2.
+- [ magento/module-aankoop-orde-regel ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule): 100,5,3
+- [ magento/module-aankoop-orde-regel-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql): 1.5.2.
+- [ magento/module-snel-orde ](https://developer.adobe.com/commerce/php/module-reference/module-quick-order): 100,5,2
+- [ magento/module-snel-orde-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql): 1.5.2.
+- [ magento/module-aanvraag-lijst ](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list): 100,5,3
+- [ magento/module-aanvraag-lijst-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql): 1.5.2.
+- [ magento/module-gedeeld-catalogus ](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog): 100,5,3
+- [ magento/module-gedeelde-catalogus-grafiek-ql ](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql): 1.5.2.
+- magento/security-package-b2b: 1.0.7.
 
 ## Licenties van derden
 
@@ -153,6 +154,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/libphonenumber-for-php"> giggsey/libphonenumber-for-php </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Een bibliotheek voor het parseren, formatteren, opslaan en valideren van internationale telefoonnummers, een PHP-poort van een Google libphonenumber.</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opentelemetry-php/api"> open-telemetry/api </a>
     </td>
     <td>Bibliotheek</td>
@@ -171,6 +179,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Metapakket</td>
     <td>Braintree Magento</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/stomp-php/stomp-php"> stomp-php/stomp-php </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Ondersteuning voor Stompen in PHP</td>
   </tr>
   <tr>
     <td>
@@ -251,7 +266,7 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/firebase/php-jwt"> firebase/php-jwt </a>
+      <a href="https://github.com/googleapis/php-jwt"> firebase/php-jwt </a>
     </td>
     <td>Bibliotheek</td>
     <td>Een eenvoudige bibliotheek voor het coderen en decoderen van JSON Web Tokens (JWT) in PHP. Moet in overeenstemming zijn met de huidige specificatie.</td>
@@ -349,13 +364,6 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mvc"> laminas/laminas-mvc </a>
-    </td>
-    <td>Bibliotheek</td>
-    <td>De gebeurtenis-gedreven laag MVC van Laminas, met inbegrip van Toepassingen MVC, Controllers, en Insteekmodules</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-permissions-acl"> laminas/laminas-permissions-acl </a>
     </td>
     <td>Bibliotheek</td>
@@ -367,13 +375,6 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Bibliotheek</td>
     <td>OOP-wrapper voor de ReCaptcha-webservice</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-router"> laminas/laminas-router </a>
-    </td>
-    <td>Bibliotheek</td>
-    <td>Flexibel verpletterend systeem voor HTTP en consoletoepassingen</td>
   </tr>
   <tr>
     <td>
@@ -461,6 +462,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/php-db/phpdb"> php-db/phpdb </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>De abstractielaag van het gegevensbestand, SQL abstractie, resultaatvastgestelde abstractie, en implementaties RowDataGateway en TableDataGateway</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/phpfui/recaptcha"> phpfui/recaptcha </a>
     </td>
     <td>Bibliotheek</td>
@@ -500,27 +508,6 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Magento-module</td>
     <td>Zend_Cache backend met Redis met volledige ondersteuning voor tags.</td>
-  </tr>
-  </tbody>
-</table>
-
-### ISC
-
-<table>
-  <thead>
-    <tr>
-      <th>Naam</th>
-      <th>Type</th>
-      <th>Beschrijving</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/paragonie/sodium_compat"> paragonie/natrium_compat </a>
-    </td>
-    <td>Bibliotheek</td>
-    <td>Puur PHP implementatie van libnatrium; gebruikt de PHP extensie als deze bestaat</td>
   </tr>
   </tbody>
 </table>
@@ -577,6 +564,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Bibliotheek</td>
     <td>Rekenkundige bibliotheek met willekeurige precisie</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/brick/phonenumber"> steen/phonenumber </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Telefoonnummerbibliotheek</td>
   </tr>
   <tr>
     <td>
@@ -706,6 +700,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/Locale"> giggsey/locale </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Landinstellingen vereist door libphonenumber-for-php</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/guzzle/guzzle"> guzzlehttp/guzzle </a>
     </td>
     <td>Bibliotheek</td>
@@ -818,14 +819,14 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/CssXPath"> phpgt/cssxpath </a>
+      <a href="https://github.com/phpgt/CssXPath"> phpgt/cssxpath </a>
     </td>
     <td>Bibliotheek</td>
     <td>CSS-kiezers converteren naar XPath-query's.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/Dom"> phpgt/dom </a>
+      <a href="https://github.com/phpgt/Dom"> phpgt/dom </a>
     </td>
     <td>Bibliotheek</td>
     <td>Moderne DOM API.</td>
@@ -850,6 +851,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Bibliotheek</td>
     <td>PHP Secure Communications Library - Pure-PHP implementaties van RSA, AES, SSH2, SFTP, X.509 enz.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/predis/predis"> predis/predis </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Een flexibele en functies-complete Redis/Valkey client voor PHP.</td>
   </tr>
   <tr>
     <td>
@@ -986,6 +994,20 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/cache"> symfony/geheim voorgeheugen </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Verstrekt uitgebreide PSR-6, PSR-16 (en markeringen) implementaties</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/cache-contracts"> symfony/geheim voorgeheugen-contracten </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Algemene abstracties in verband met caching</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/config"> symfony/config </a>
     </td>
     <td>Bibliotheek</td>
@@ -1053,13 +1075,6 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Bibliotheek</td>
     <td>Hiermee zoekt u bestanden en mappen via een intuïtieve fluent-interface</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/symfony/http-client"> symfony/http-client </a>
-    </td>
-    <td>Bibliotheek</td>
-    <td>Biedt krachtige methoden om HTTP-bronnen synchroon of asynchroon op te halen</td>
   </tr>
   <tr>
     <td>
@@ -1168,10 +1183,17 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php83"> symfony/polyfill-php83 </a>
+      <a href="https://github.com/symfony/polyfill-php84"> symfony/polyfill-php84 </a>
     </td>
     <td>Bibliotheek</td>
-    <td>Symfony polyfill geeft een aantal functies van PHP 8.3+ terug naar lagere PHP versies</td>
+    <td>Symfony polyfill geeft een aantal functies van PHP 8.4+ terug naar lagere PHP versies</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/polyfill-php85"> symfony/polyfill-php85 </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>Symfony polyfill geeft een aantal functies van PHP 8.5+ terug naar lagere PHP versies</td>
   </tr>
   <tr>
     <td>
@@ -1214,6 +1236,13 @@ De volgende referentiedocumentatie wordt gegenereerd uit het `composer.lock` -be
     </td>
     <td>Bibliotheek</td>
     <td>YAML-bestanden laden en dumpen</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thecodingmachine/safe"> de codeermachine/veilige </a>
+    </td>
+    <td>Bibliotheek</td>
+    <td>PHP-kernfuncties die uitzonderingen genereren in plaats van FALSE te retourneren bij een fout</td>
   </tr>
   <tr>
     <td>

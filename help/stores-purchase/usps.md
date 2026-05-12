@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Leer hoe u USPS instelt als een verzendprovider voor uw winkel.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ De United States Postal Service is de onafhankelijke postdienst van de Amerikaan
 
 ## Stap 1: Een verzendaccount voor USPS openen
 
-Open a [&#x200B; rekening van de Hulpmiddelen van het Web van USPS &#x200B;](https://secure.shippingapis.com/registration/). Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
+Open a ](https://secure.shippingapis.com/registration/) rekening van de Hulpmiddelen van het Web van USPS [. Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS.
 
-U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [&#x200B; USPS &lbrace;openen. &#x200B;](https://secure.shippingapis.com/registration/) Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Meer over de Hulpmiddelen van het Web van USPS leren, zie hun [&#x200B; Technische Documentatie &#x200B;](https://www.usps.com/business/web-tools-apis/welcome.htm).
+U kunt ook de 1} rekening van de Hulpmiddelen van het Web van a [ USPS {openen. ](https://secure.shippingapis.com/registration/)Nadat je het registratieproces hebt voltooid, ontvang je je gebruikersnaam en een URL naar de testserver van USPS. Meer over de Hulpmiddelen van het Web van USPS leren, zie hun [ Technische Documentatie ](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Stap 2: USPS inschakelen voor uw winkel
 
@@ -28,7 +28,7 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [&#x200B;
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en kies **[!UICONTROL Delivery Methods]** .
 
-1. Breid ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit.
+1. Breid ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) de **[!UICONTROL USPS]** sectie uit.
 
    >[!NOTE]
    >
@@ -36,9 +36,15 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [&#x200B;
 
 1. Stel **[!UICONTROL Enabled for Checkout]** in op `Yes` .
 
-1. Stel **[!UICONTROL USPS Type]** in op `USPS Rest APIs` als u de REST-API van USPS gebruikt.
+1. Stel het type USPS API in.
 
-   Als u de API voor webgereedschappen van USPS gebruikt, stelt u **[!UICONTROL USPS Type]** in op `USPS Web Tools API` .
+   - Als u de REST-API van USPS gebruikt, stelt u **[!UICONTROL USPS Type]** in op `USPS REST API` .
+
+   - Als u de API voor webgereedschappen van USPS gebruikt, stelt u **[!UICONTROL USPS Type]** in op `USPS Web Tools API` .
+
+   >[!NOTE]
+   >
+   >De USPS Rest APIs is de aangewezen methode voor integratie met USPS. De API voor webgereedschappen van USPS is verouderd en kan in toekomstige versies worden verwijderd.
 
 1. Voer indien nodig de **[!UICONTROL Gateway URL]** in om de verzendkosten van USPS te openen.
 
@@ -48,23 +54,24 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [&#x200B;
 
 1. Gebruik de gegevens die door USPS worden verstrekt om de volgende gebieden in te vullen:
 
-   Als u de USPS Rest-API&#39;s gebruikt, moet u de volgende referenties opgeven:
+   Geef de volgende referenties op als u de USPS Rest-API&#39;s gebruikt:
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Als u de USPS Web Tools API gebruikt, moet u de volgende geloofsbrieven verstrekken:
+   Geef de volgende referenties op als u de API voor webgereedschappen van USPS gebruikt:
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Stel **[!UICONTROL Mode]** in op een van de volgende opties:
 
    - `Development` - Voert USPS uit in een testomgeving. Nadat u USPS hebt uitgevoerd in een ontwikkelomgeving, moet u ervoor zorgen dat u later terugkeert en Modus instelt op `Live` .
    - `Live` - Voert USPS uit in een live productieomgeving.
 
-## Stap 3: de verpakkingsbeschrijving invullen
+## Stap 3: De verpakkingsbeschrijving invullen
 
 1. Als u wilt bepalen hoe de volgorde wordt beheerd wanneer deze als meerdere pakketten wordt verzonden, stelt u **[!UICONTROL Packages Request Type]** in op een van de volgende opties:
 
@@ -82,7 +89,7 @@ U kunt ook de 1&rbrace; rekening van de Hulpmiddelen van het Web van a [&#x200B;
 
 1. Voer de **[!UICONTROL Maximum Package Weight]** in op basis van de vereisten van de provider.
 
-   ![&#x200B; USPS het Verpakken Montages &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
+   ![ USPS het Verpakken Montages ](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
 ## Stap 4: Afhandelingskosten instellen
 
@@ -100,17 +107,17 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
 1. Voer het bedrag in van de **[!UICONTROL Handling Fee]** die moet worden geladen.
 
-   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `0.25` in voor 25%.
+   Gebruik de decimale notatie als u een percentage wilt invoeren. Voer bijvoorbeeld `25` in voor 25%.
 
-   ![&#x200B; de Behandelingskosten van USPS &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
+   ![ de Behandelingskosten van USPS ](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
-## Stap 5: Geef de toegestane methoden en de toepasselijke landen op
+## Stap 5: Toegestane methoden en toepasselijke landen opgeven
 
 1. Kies voor **[!UICONTROL Allowed Methods]** elke verzendmethode van USPS die beschikbaar is voor uw klanten.
 
    De methoden worden onder USPS weergegeven tijdens het afrekenen. Als u meerdere methoden wilt selecteren, houdt u Ctrl (PC) of Command (Mac) ingedrukt en klikt u op elke optie.
 
-1. Als u a [&#x200B; Vrij Verschepend &#x200B;](shipping-free.md) optie door USPS wilt verstrekken, plaats de vrije het verschepen opties:
+1. Als u a [ Vrij Verschepend ](shipping-free.md) optie door USPS wilt verstrekken, plaats de vrije het verschepen opties:
 
    - Stel **[!UICONTROL Free Method]** in op de methode die u voor gratis verzending wilt gebruiken. Kies `None` als je geen gratis verzending via USPS wilt aanbieden.
 
@@ -120,14 +127,14 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
    Dit tekstvak is vooraf ingesteld met een standaardbericht, maar u kunt een ander bericht invoeren dat u wilt weergeven als USPS niet meer beschikbaar is.
 
-   ![&#x200B; USPS Toegestane Methoden &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![ USPS Toegestane Methoden ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Ship to Applicable Countries]** in op een van de volgende opties:
 
-   - `All Allowed Countries` - de klanten van alle [&#x200B; landen &#x200B;](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
+   - `All Allowed Countries` - de klanten van alle [ landen ](../getting-started/store-details.md#country-options) die in uw opslagconfiguratie worden gespecificeerd kunnen deze leveringsmethode gebruiken.
    - `Specific Countries` - wanneer u deze optie kiest, verschijnt de _Schip aan Specifieke Landen_ lijst. Selecteer elk land in de lijst waar deze leveringsmethode kan worden gebruikt.
 
-   ![&#x200B; USPS Toepasselijke Landen &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+   ![ USPS Toepasselijke Landen ](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
 
 1. Stel **[!UICONTROL Show Method if Not Applicable]** in op een van de volgende opties:
 
@@ -140,7 +147,7 @@ De afhandelingskosten zijn optioneel en worden als extra kosten aan de DHL-verze
 
    `0` = first, `1` = second, `2` = third, enzovoort.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]** .
 
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->
