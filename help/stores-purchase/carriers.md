@@ -3,9 +3,9 @@ title: Setup van transportbedrijf
 description: Meer weten over de ondersteuning voor commerciële verzendaccounts die beschikbaar is voor je winkel?
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Als u een commerciële account hebt bij een ondersteunde provider, kunt u uw kla
 
 >[!NOTE]
 >
->Zie [&#x200B; Commerce Marketplace &#x200B;](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
+>Zie [ Commerce Marketplace ](../getting-started/commerce-marketplace.md) voor de extra verzendende diensten voor uw installatie van Commerce.
 
 Voordat u uw klanten een selectie van verzendingsdragers kunt aanbieden, moet u de volgende stappen uitvoeren:
 
-- Vorm de [&#x200B; verschepende montages &#x200B;](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
+- Vorm de [ verschepende montages ](shipping-settings.md) om het punt van oorsprong voor uw opslag te vestigen.
 
 - Vorm de montages voor elke dragerdienst die u wilt aanbieden.
 
@@ -47,11 +47,11 @@ De configuratieopties variëren voor elke drager. Voor alle onderdelen zijn echt
 
 Adobe Commerce-versies 2.4.6, 2.4.7 en 2.4.8 gebruiken de API&#39;s van de oude webgereedschappen voor out-of-the-box verzendintegratie met USPS. USPS heeft USPS API&#39;s geïntroduceerd, een op REST gebaseerd platform dat de verouderde API&#39;s voor webgereedschappen vervangt.
 
-Op 25 januari 2026 worden de API&#39;s voor verouderde webgereedschappen door USPS ingetrokken. Na deze datum, zullen alle verzoeken aan de Hulpmiddelen APIs van het Web ontbreken.
+Vanaf 25 januari 2026 heeft USPS de API&#39;s van verouderde webgereedschappen afgebroken. Na deze datum, zullen alle verzoeken aan de Hulpmiddelen APIs van het Web ontbreken.
 
-Om verstoring van de verzendservices van USPS te voorkomen, voert u de volgende acties uit vóór 25 januari 2026:
+Om verstoring van de verzendservices van USPS te voorkomen, voert u een upgrade uit naar de nieuwste versie van Adobe Commerce of voert u de volgende handelingen uit:
 
-- Pas het [&#x200B; REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
+- Pas het [ REST API de kwaliteitsflard van de Migratie van de Migratie van USPS toe ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) om steun voor het integreren met USPS REST APIs toe te voegen.
 
 - Werk de Commerce USPS-configuratie bij om de REST API&#39;s te gebruiken:
 
