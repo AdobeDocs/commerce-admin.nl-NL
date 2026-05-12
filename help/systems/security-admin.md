@@ -4,7 +4,7 @@ description: Leer hoe u beveiliging voor uw winkelbeheerder configureert.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
 source-wordcount: '864'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Beveiliging van beheerder configureren
 
-Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [&#x200B; douane Admin URL &#x200B;](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [&#x200B; login &#x200B;](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. U kunt de minimumvereiste van de wachtwoordlengte vormen om veiligheid te verbeteren die op de behoeften van uw organisatie wordt gebaseerd. Als a [&#x200B; beste praktijken &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
+Wij adviseren dat u een veelzijdige benadering neemt om de veiligheid van uw opslag te beschermen. U kunt beginnen door a [&#x200B; douane Admin URL &#x200B;](../stores-purchase/store-urls.md#use-a-custom-admin-url) te gebruiken die niet gemakkelijk is te raden, eerder dan duidelijk &quot;Admin&quot;of &quot;Achterkant.&quot; Door gebrek, moeten de wachtwoorden die aan [&#x200B; login &#x200B;](../getting-started/admin-signin.md) aan Admin worden gebruikt zeven of meer lange karakters zijn en zowel brieven als aantallen omvatten. U kunt de minimumvereiste van de wachtwoordlengte vormen om veiligheid te verbeteren die op de behoeften van uw organisatie wordt gebaseerd. Als a [&#x200B; beste praktijken &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=nl-NL), gebruik slechts sterke wachtwoorden Admin die een combinatie brieven, aantallen, en symbolen omvatten. Adobe Commerce en Magento Open Source staan niet toe dat de laatste vier wachtwoorden die aan de account zijn toegewezen, opnieuw worden gebruikt.
 
 Met de beveiligingsconfiguratie Admin kunt u:
 

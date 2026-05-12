@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
+      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
+      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
 </td>
       <td>
         Belangrijke update

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![&#x200B; Opties van Categorieën &#x200B;](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![&#x200B; de Opties van Producten &#x200B;](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![&#x200B; de Opties van de Pagina&#39;s van CMS &#x200B;](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 ![&#x200B; Montages van de Generatie &#x200B;](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 ![&#x200B; Limieten van het Dossier Sitemap &#x200B;](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
@@ -98,7 +98,7 @@ ht-degree: 2%
 
 ![&#x200B; de Verzendmontages van de Motor van het Onderzoek &#x200B;](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Veld | [&#x200B; Reikwijdte &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | Beschrijving |
 |--- |--- |--- |
