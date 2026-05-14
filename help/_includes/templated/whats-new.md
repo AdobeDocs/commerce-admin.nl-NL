@@ -23,7 +23,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps"> USPS </a> en verwante verschepende dragerpagina's om erop te wijzen dat de Hulpmiddelen van het Web van USPS API op 25 Januari, 2026 werd gepensioneerd, en dat USPS REST APIs nu de enige gesteunde integratiemethode is.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps"> USPS </a> en verwante verschepende dragerpagina's om erop te wijzen dat de Hulpmiddelen van het Web van USPS API op 25 Januari, 2026 werd gepensioneerd, en dat USPS REST APIs nu de enige gesteunde integratiemethode is.</p>
 </td>
       <td>
         Belangrijke update, feedback
@@ -31,7 +31,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Gepubliceerd de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153"> Adobe Commerce B2B v1.5.3 versienota's </a> die de nieuwe B2B bedrijfklant invoeren en uitvoeren, moeilijke situaties over verhandelbare aanhalingstekens, kooporders, vraaglijsten, gedeelde catalogi, bedrijfbeheer, kart en controle, kader, en GraphQL, plus de de de uitvoerweg van de vraaglijst aan verandering <code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code> behandelen.</p>
+      <td><p>Gepubliceerd de <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/release-notes#b2b-v153"> Adobe Commerce B2B v1.5.3 versienota's </a> die de nieuwe B2B bedrijfklant invoeren en uitvoeren, moeilijke situaties over verhandelbare aanhalingstekens, kooporders, vraaglijsten, gedeelde catalogi, bedrijfbeheer, kart en controle, kader, en GraphQL, plus de de de uitvoerweg van de vraaglijst aan verandering <code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code> behandelen.</p>
 </td>
       <td>
         Belangrijke update
@@ -53,7 +53,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
+      <td><p>Toegevoegd <code class="language-plaintext highlighter-rouge">numeric</code> en <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> de types van attributeninput </a> en toegevoegd a <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/product-file-attributes"> de Attributen van het Dossier van het Product </a> pagina in de configuratieverwijzing.</p>
 </td>
       <td>
         Belangrijke update
@@ -75,7 +75,7 @@ Deze sectie bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
+      <td><p>Toegevoegde as a Cloud Service van Adobe Commerce instructies aan <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> verlenen shandelhulp </a>.</p>
 </td>
       <td>
         Belangrijke update
